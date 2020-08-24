@@ -1,5 +1,5 @@
 ---
-dscription: Windows Sonic is Microsoft’s platform-level solution for spatial sound support on Xbox, Windows and HoloLens 2, enabling both surround and elevation (above or below the listener) audio cues.
+description: Windows Sonic is Microsoft’s platform-level solution for spatial sound support on Xbox, Windows and HoloLens 2, enabling both surround and elevation (above or below the listener) audio cues.
 ms.assetid: 4F962F1A-CA4A-4018-BA97-516EA3519650
 title: Spatial Sound for Developers
 ms.topic: article
@@ -14,7 +14,6 @@ Windows Sonic is Microsoft’s platform-level solution for spatial sound support
 
 Spatial sound with Windows Sonic supports TVs, home theaters, and sound bars that support Dolby Atmos. Spatial sound can also be used with any pair of headphones the consumer may own, with audio rendered by the platform using Windows Sonic for Headphones or Dolby Atmos for Headphones.
 
-> [!NOTE] > This documentation is targeted for a developer audience. For end-user support for enabling spatial sound on your device, see [How to turn on spatial sound in Windows 10](https://support.microsoft.com/en-us/help/4563140/how-to-turn-on-spatial-sound-in-windows-10).
 
 ## Enabling Windows Sonic
 
