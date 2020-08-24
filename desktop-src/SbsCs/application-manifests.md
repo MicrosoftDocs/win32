@@ -343,7 +343,7 @@ Enables long paths that exceed **MAX_PATH** in length. This element is supported
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
  ...
   <asmv3:application>
-    <asmv3:windowsSettings xmlns:ws3="http://schemas.microsoft.com/SMI/2016/WindowsSettings">
+    <asmv3:windowsSettings xmlns:ws2="http://schemas.microsoft.com/SMI/2016/WindowsSettings">
       <ws2:longPathAware>true</ws2:longPathAware>
     </asmv3:windowsSettings>
   </asmv3:application>
