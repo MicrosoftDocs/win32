@@ -1117,7 +1117,7 @@ The [**CIM\_OSVersionCheck**](cim-osversioncheck.md) class specifies the version
 [**CIM\_PackageAlarm**](cim-packagealarm.md)
 </dt> <dd>
 
-The [**CIM\_PackageAlarm**](https://docs.microsoft.com/windows/desktop/SecCrypto/extendedproperties-newenum) association represents the relationship in which an alarm device is installed as part of a package. The installation indicates issues with the package's environment—its security state or its overall health.
+The [**CIM\_PackageAlarm**](/windows/desktop/SecCrypto/extendedproperties-newenum) association represents the relationship in which an alarm device is installed as part of a package. The installation indicates issues with the package's environment—its security state or its overall health.
 
 </dd> <dt>
 
@@ -1943,6 +1943,3 @@ The [**CIM\_WORMDrive**](cim-wormdrive.md) class represents the capabilities and
  
 
  
-
-
-

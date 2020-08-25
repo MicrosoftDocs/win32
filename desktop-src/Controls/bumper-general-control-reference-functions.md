@@ -60,13 +60,13 @@ ms.date: 05/31/2018
 -   [**PFNDACOMPARECONST**](/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompareconst)
 -   [**PFNDAENUMCALLBACK**](/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndaenumcallback)
 -   [**PFNDAENUMCALLBACKCONST**](/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndaenumcallbackconst)
--   [**PFNDPACOMPARE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb775715(v=vs.85))
--   [**PFNDPACOMPARECONST**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb775717(v=vs.85))
--   [**PFNDPAENUMCALLBACK**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb775719(v=vs.85))
+-   [**PFNDPACOMPARE**](/previous-versions/windows/desktop/legacy/bb775715(v=vs.85))
+-   [**PFNDPACOMPARECONST**](/previous-versions/windows/desktop/legacy/bb775717(v=vs.85))
+-   [**PFNDPAENUMCALLBACK**](/previous-versions/windows/desktop/legacy/bb775719(v=vs.85))
 -   [**PFNDPAMERGE**](/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpamerge)
 -   [**PFNDPAMERGECONST**](/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpamergeconst)
 -   [**PFNDPASTREAM**](/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpastream)
--   [**PFNDSAENUMCALLBACK**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb775727(v=vs.85))
+-   [**PFNDSAENUMCALLBACK**](/previous-versions/windows/desktop/legacy/bb775727(v=vs.85))
 -   [**ReaderScroll**](readerscroll.md)
 -   [**ShowHideMenuCtl**](/windows/desktop/api/Commctrl/nf-commctrl-showhidemenuctl)
 -   [**Str\_GetPtr**](str-getptr.md)
@@ -76,7 +76,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

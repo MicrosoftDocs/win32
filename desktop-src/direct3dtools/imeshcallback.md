@@ -26,7 +26,7 @@ Callback to return a buffer containing the mesh of a pipeline stage.
 
 ## Members
 
-The **IMeshCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMeshCallback** also has these types of members:
+The **IMeshCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMeshCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IMeshCallback** interface has these methods.
  
 
  
-
-
-

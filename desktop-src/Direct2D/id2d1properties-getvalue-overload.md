@@ -24,11 +24,11 @@ Gets the value of the property by index.
 
 | Method                                                                                      | Description                                                                                |
 |:--------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------|
-| [**GetValue(U)**](https://msdn.microsoft.com/library/JJ151743(v=VS.85).aspx)                                            | Gets the value of the property by index. This is a template overload.<br/>           |
-| [**GetValue(U, T\*)**](https://msdn.microsoft.com/library/JJ151742(v=VS.85).aspx)                                       | Gets the value of the property by index. This is a template overload.<br/>           |
-| [**GetValue(U, BYTE\*, UINT32)**](https://msdn.microsoft.com/library/JJ151741(v=VS.85).aspx)                            | Gets the value of the specified property by index. This is a template overload.<br/> |
-| [**GetValue(UINT32, BYTE\*, UINT32)**](https://msdn.microsoft.com/library/Hh446876(v=VS.85).aspx)                        | Gets the value of the specified property by index.<br/>                              |
-| [**GetValue(UINT32, D2D1\_PROPERTY\_TYPE, BYTE\*, UINT32)**](https://msdn.microsoft.com/library/JJ151740(v=VS.85).aspx) | Gets the value of the specified property by index.<br/>                              |
+| [**GetValue(U)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(u))                                            | Gets the value of the property by index. This is a template overload.<br/>           |
+| [**GetValue(U, T\*)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(u_t))                                       | Gets the value of the property by index. This is a template overload.<br/>           |
+| [**GetValue(U, BYTE\*, UINT32)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(u_byte_uint32))                            | Gets the value of the specified property by index. This is a template overload.<br/> |
+| [**GetValue(UINT32, BYTE\*, UINT32)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(uint32_byte_uint32))                        | Gets the value of the specified property by index.<br/>                              |
+| [**GetValue(UINT32, D2D1\_PROPERTY\_TYPE, BYTE\*, UINT32)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(uint32_byte_uint32)) | Gets the value of the specified property by index.<br/>                              |
 
 
 
@@ -36,14 +36,8 @@ Gets the value of the property by index.
 
 <dl> <dt>
 
-[**ID2D1Properties**](https://msdn.microsoft.com/library/Hh446854(v=VS.85).aspx)
+[**ID2D1Properties**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1properties)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

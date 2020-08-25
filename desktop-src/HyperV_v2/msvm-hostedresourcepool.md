@@ -55,7 +55,7 @@ Data type: **[**Msvm\_ComputerSystem**](msvm-computersystem.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 The parent system in the association.
@@ -65,13 +65,13 @@ The parent system in the association.
 **PartComponent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ResourcePool**](https://docs.microsoft.com/previous-versions//cc136903(v=vs.85))**
+Data type: **[**CIM\_ResourcePool**](/previous-versions//cc136903(v=vs.85))**
 </dt> <dt>
 
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 The resource pool that is a component of the system.
@@ -93,9 +93,4 @@ The resource pool that is a component of the system.
 
 
  
-
- 
-
-
-
 

@@ -16,12 +16,12 @@ Windows has become an essential platform for customers worldwide. International 
 
 The development of world-ready applications requires the use of many services and tools. Windows contains features that enable you to develop solutions that:
 
-- Support the different language-specific and locale-specific needs of users around the world (including specialized text support, sorting behavior, date and time formatting, and keyboard layouts). (For more information, see [National Language Support Knowledge Center](https://docs.microsoft.com/windows/win32/intl/national-language-support-reference).)
-- Are globalized (can be deployed worldwide from a single binary image) and can be localized (able to be adapted for specific local markets). (For more information, see [Multilingual User Interface](https://docs.microsoft.com/windows/win32/intl/multilingual-user-interface).)
-- Display international fonts and text, and allow users to specify the font they want. (For more information, see [Script and Font Support in Windows](https://docs.microsoft.com/globalization/input/font-support).)
+- Support the different language-specific and locale-specific needs of users around the world (including specialized text support, sorting behavior, date and time formatting, and keyboard layouts). (For more information, see [National Language Support Knowledge Center](./national-language-support-reference.md).)
+- Are globalized (can be deployed worldwide from a single binary image) and can be localized (able to be adapted for specific local markets). (For more information, see [Multilingual User Interface](./multilingual-user-interface.md).)
+- Display international fonts and text, and allow users to specify the font they want. (For more information, see [Script and Font Support in Windows](/globalization/input/font-support).)
 - Permit the user to enter complex characters and symbols with a standard keyboard.
 - Provide support for many different written languages through Unicode and traditional character sets.
-- Discover the language input by a user, and tailor the user experience provided by your application. (For more information, see [Writing World-Ready Applications in Windows: Extended Linguistic Services in Windows](https://docs.microsoft.com/windows/win32/intl/using-extended-linguistic-services).)
+- Discover the language input by a user, and tailor the user experience provided by your application. (For more information, see [Writing World-Ready Applications in Windows: Extended Linguistic Services in Windows](./using-extended-linguistic-services.md).)
 
 ## In this Section
 
@@ -97,5 +97,5 @@ The following international support technologies are documented in this section.
 
 International development support is also available for applications written in managed code. If you are developing for the .NET Framework, you will need some or all of these:
 
-- The [System.Globalization Namespace](https://docs.microsoft.com/dotnet/api/system.globalization) contains classes that define culture-related information and provide advanced globalization functions.
-- The [System.Text Namespace](https://docs.microsoft.com/dotnet/api/system.text) contains classes that represent character encodings, convert blocks of characters, and manipulate and format String objects.
+- The [System.Globalization Namespace](/dotnet/api/system.globalization) contains classes that define culture-related information and provide advanced globalization functions.
+- The [System.Text Namespace](/dotnet/api/system.text) contains classes that represent character encodings, convert blocks of characters, and manipulate and format String objects.

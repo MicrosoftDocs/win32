@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM\_IME\_KEYDOWN message
 
-Sent to an application by the IME to notify the application of a key press and to keep message order. A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+Sent to an application by the IME to notify the application of a key press and to keep message order. A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -69,7 +69,7 @@ An application should return 0 if it processes this message.
 
 ## Remarks
 
-An application can process this message or pass it to the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function to generate a matching [**WM\_KEYDOWN**](https://msdn.microsoft.com/library/ms646280(v=VS.85).aspx) message.
+An application can process this message or pass it to the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)  function to generate a matching [**WM\_KEYDOWN**](../inputdev/wm-keydown.md) message.
 
 ## Requirements
 
@@ -96,7 +96,3 @@ An application can process this message or pass it to the [**DefWindowProc**](ht
  
 
  
-
-
-
-

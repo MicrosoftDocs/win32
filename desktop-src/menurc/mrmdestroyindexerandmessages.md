@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 \[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
 
-Releases machine resources associated with a resource indexer. Destroys the handle, frees the indexer, and deletes any messages. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems).
+Releases machine resources associated with a resource indexer. Destroys the handle, frees the indexer, and deletes any messages. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
 
 ## Syntax
 
@@ -70,14 +70,8 @@ S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED()
 
 <dl> <dt>
 
-[Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems)
+[Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

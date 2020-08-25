@@ -1,6 +1,6 @@
 ---
 title: eaphostusercredentials Schema Elements
-description: Is made up of the following schema elements.
+description: Learn about the eaphostusercredentials schema elements. See a list of the schema elements and view additional available resources.
 ms.assetid: befc5a27-03ff-4e42-a99e-047a4237d8a7
 ms.topic: article
 ms.date: 05/31/2018

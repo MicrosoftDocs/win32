@@ -83,7 +83,7 @@ public static Nullable<uint> RetrieveColumnAsUInt32(
 
 #### Return value
 
-Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[UInt32](https://docs.microsoft.com/dotnet/api/system.uint32?redirectedfrom=MSDN)\>  
+Type: [System.Nullable](/dotnet/api/system.nullable-1)\<[UInt32](/dotnet/api/system.uint32)\>  
 The data retrieved from the column as an UInt32. Null if the column is null.  
 
 ## See also
@@ -97,4 +97,3 @@ The data retrieved from the column as an UInt32. Null if the column is null.
 [RetrieveColumnAsUInt32 overload](dn334071\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

@@ -14,14 +14,14 @@ Application Recovery and Restart defines the following functions:
 
 | Function                                                                               | Description                                                                                |
 |----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| [**ApplicationRecoveryFinished**](https://msdn.microsoft.com/library/Aa373328(v=VS.85).aspx)                     | Indicates that the calling application has completed its data recovery.                    |
-| [**ApplicationRecoveryInProgress**](https://msdn.microsoft.com/library/Aa373329(v=VS.85).aspx)                 | Indicates that the calling application is continuing to recover data.                      |
-| [**GetApplicationRecoveryCallback**](https://msdn.microsoft.com/library/Aa373343(v=VS.85).aspx)               | Retrieves a pointer to the recovery callback routine registered for the specified process. |
-| [**GetApplicationRestartSettings**](https://msdn.microsoft.com/library/Aa373344(v=VS.85).aspx)                 | Retrieves the restart information registered for the specified process.                    |
-| [**RegisterApplicationRecoveryCallback**](https://msdn.microsoft.com/library/Aa373345(v=VS.85).aspx)     | Registers the active instance of an application for recovery.                              |
-| [**RegisterApplicationRestart**](https://msdn.microsoft.com/library/Aa373347(v=VS.85).aspx)                       | Registers the active instance of an application for restart.                               |
-| [**UnregisterApplicationRecoveryCallback**](https://msdn.microsoft.com/library/Aa373348(v=VS.85).aspx) | Removes the active instance of an application from the recovery list.                      |
-| [**UnregisterApplicationRestart**](https://msdn.microsoft.com/library/Aa373349(v=VS.85).aspx)                   | Removes the active instance of an application from the restart list.                       |
+| [**ApplicationRecoveryFinished**](/windows/win32/api/winbase/nf-winbase-applicationrecoveryfinished)                     | Indicates that the calling application has completed its data recovery.                    |
+| [**ApplicationRecoveryInProgress**](/windows/win32/api/winbase/nf-winbase-applicationrecoveryinprogress)                 | Indicates that the calling application is continuing to recover data.                      |
+| [**GetApplicationRecoveryCallback**](/windows/win32/api/winbase/nf-winbase-getapplicationrecoverycallback)               | Retrieves a pointer to the recovery callback routine registered for the specified process. |
+| [**GetApplicationRestartSettings**](/windows/win32/api/winbase/nf-winbase-getapplicationrestartsettings)                 | Retrieves the restart information registered for the specified process.                    |
+| [**RegisterApplicationRecoveryCallback**](/windows/win32/api/winbase/nf-winbase-registerapplicationrecoverycallback)     | Registers the active instance of an application for recovery.                              |
+| [**RegisterApplicationRestart**](/windows/win32/api/winbase/nf-winbase-registerapplicationrestart)                       | Registers the active instance of an application for restart.                               |
+| [**UnregisterApplicationRecoveryCallback**](/windows/win32/api/winbase/nf-winbase-unregisterapplicationrecoverycallback) | Removes the active instance of an application from the recovery list.                      |
+| [**UnregisterApplicationRestart**](/windows/win32/api/winbase/nf-winbase-unregisterapplicationrestart)                   | Removes the active instance of an application from the restart list.                       |
 
 
 
@@ -30,7 +30,3 @@ Application Recovery and Restart defines the following functions:
  
 
  
-
-
-
-

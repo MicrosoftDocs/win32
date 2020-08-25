@@ -1068,7 +1068,7 @@
         - name: "GetWriterInfo Method"
           href: /windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getwriterinfo
       - name: "IVssWriterComponentsExt"
-        href: https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivsswritercomponentsext
+        href: /windows/desktop/api/vsbackup/nl-vsbackup-ivsswritercomponentsext
     - name: "Volume Shadow Copy API Structures"
       href: volume-shadow-copy-api-structures.md
       items: 

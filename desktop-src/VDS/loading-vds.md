@@ -8,14 +8,14 @@ ms.date: 05/31/2018
 
 # Loading VDS
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 **To load and initialize VDS**
 
 1.  Release non-null interfaces.
-2.  Call the [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx), [**CoCreateInstanceEx**](https://msdn.microsoft.com/library/ms680701(v=VS.85).aspx), or [**CoGetClassObject**](https://msdn.microsoft.com/library/ms684007(v=VS.85).aspx) function to obtain a pointer to the service loader object.
+2.  Call the [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance), [**CoCreateInstanceEx**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstanceex), or [**CoGetClassObject**](/windows/win32/api/combaseapi/nf-combaseapi-cogetclassobject) function to obtain a pointer to the service loader object.
 
-    **CLSCTX\_DISABLE\_AAA** cannot be specified in this call. If [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx) is called, **EOAC\_DISABLE\_AAA** cannot be specified in the *dwCapabilities* parameter.
+    **CLSCTX\_DISABLE\_AAA** cannot be specified in this call. If [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) is called, **EOAC\_DISABLE\_AAA** cannot be specified in the *dwCapabilities* parameter.
 
 3.  Call the [**IVdsServiceLoader::LoadService**](/windows/desktop/api/Vds/nf-vds-ivdsserviceloader-loadservice) method to load VDS.
 
@@ -116,6 +116,3 @@ void __cdecl main(void)
  
 
  
-
-
-

@@ -103,7 +103,7 @@ Returns 0 (zero) if successful, 1 (one) if the specified *PowerState* and *Time*
 
 ## Remarks
 
-This method is currently not implemented by WMI. To use this method, you must implement it in your own provider. For more information, see [Creating WMI Providers](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-wmi-providers).
+This method is currently not implemented by WMI. To use this method, you must implement it in your own provider. For more information, see [Creating WMI Providers](/windows/desktop/WmiSdk/creating-wmi-providers).
 
 This documentation is derived from the CIM class descriptions published by the DMTF. Microsoft may have made changes to correct minor errors, conform to Microsoft SDK documentation standards, or provide more information.
 
@@ -132,9 +132,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

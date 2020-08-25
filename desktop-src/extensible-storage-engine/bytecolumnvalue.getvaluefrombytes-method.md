@@ -72,21 +72,21 @@ protected override void GetValueFromBytes(
 <!-- end list -->
 
   - startIndex  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The starting position within the bytes.
 
 <!-- end list -->
 
   - count  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The number of bytes to decode.
 
 <!-- end list -->
 
   - err  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The error returned from ESENT.
 
@@ -99,4 +99,3 @@ protected override void GetValueFromBytes(
 [ByteColumnValue members](dn334162\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

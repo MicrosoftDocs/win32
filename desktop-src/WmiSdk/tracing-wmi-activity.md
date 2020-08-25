@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Tracing WMI Activity
 
-Starting with Windows Vista, the WMI service does not use the [WMI Log Files](wmi-log-files.md). Instead, it uses [Event Tracing for Windows (ETW)](https://docs.microsoft.com/windows/desktop/ETW/event-tracing-portal) and events are available through **Event Viewer** or the Wevtutil command-line tool.
+Starting with Windows Vista, the WMI service does not use the [WMI Log Files](wmi-log-files.md). Instead, it uses [Event Tracing for Windows (ETW)](/windows/desktop/ETW/event-tracing-portal) and events are available through **Event Viewer** or the Wevtutil command-line tool.
 
 The following sections are discussed in this topic:
 
@@ -27,7 +27,7 @@ By default, WMI events are not traced. This procedure describes how to use **Eve
 **To view WMI Events in Event Viewer**
 
 1.  Open **Event Viewer**. On the **View** menu, click **Show Analytic and Debug Logs**. Locate the **Trace** channel log for WMI under Applications and Service Logs \| Microsoft \| Windows \| WMI Activity.
-2.  Right-click the **Trace** log and select **Log Properties**. Click the **Enable Logging** check box to start the WMI event tracing. For more information about channels, see [Event Logs and Channels in Windows Event Log](https://msdn.microsoft.com/library/aa385225.aspx).
+2.  Right-click the **Trace** log and select **Log Properties**. Click the **Enable Logging** check box to start the WMI event tracing. For more information about channels, see [Event Logs and Channels in Windows Event Log](/previous-versions//aa385225(v=vs.85)).
 3.  WMI events appear in the event window for **WMI-Activity**. Double-click an event in the list to see the detailed information. You can view an event in **XML View** or in **Friendly View** format.
 
 The **Event ID** field displays a value that contains the following information.
@@ -47,7 +47,7 @@ The event fields for an Event 1 are:
 -   **User** indicates the account that makes a request to WMI by running a script or through CIM Studio.
 -   **Namespace** shows the WMI namespace to which the connection is made.
 
-For example, a script may request all the instances of a WMI class, such as [**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service). The first operation may be a connection to WMI.
+For example, a script may request all the instances of a WMI class, such as [**Win32\_Service**](/windows/desktop/CIMWin32Prov/win32-service). The first operation may be a connection to WMI.
 
 </dd> <dt>
 
@@ -63,7 +63,7 @@ The event fields for an Event 2 are:
 -   **ProviderName** indicates the name of the provider which supplies the data.
 -   **Path** is the WMI path to the object.
 
-For example, the operation may be an enumeration of [**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service).
+For example, the operation may be an enumeration of [**Win32\_Service**](/windows/desktop/CIMWin32Prov/win32-service).
 
 </dd> <dt>
 
@@ -78,13 +78,13 @@ Only the **GroupOperationID** is shown.
 
 ## Enabling WMI Tracing at Command Prompt
 
-You can also enable WMI event tracing through the Wevtutil command-line tool. Use the following command: **Wevtutil.exe sl Microsoft-Windows-WMI-Activity/Trace /e:true**. The WMI event source is Microsoft-Windows-WMI. For more information about Wevtutil.exe, see [About Windows Event Log](https://msdn.microsoft.com/library/aa382610.aspx).
+You can also enable WMI event tracing through the Wevtutil command-line tool. Use the following command: **Wevtutil.exe sl Microsoft-Windows-WMI-Activity/Trace /e:true**. The WMI event source is Microsoft-Windows-WMI. For more information about Wevtutil.exe, see [About Windows Event Log](/previous-versions//aa382610(v=vs.85)).
 
 ## Using WPP-based WMI Tracing
 
 In Windows operating systems starting with Windows Vista, WMI creates an active trace channel during the boot process. The name of the channel is WMI\_Trace\_Session. Only errors are logged to the channel.
 
-The Windows software trace preprocessor (WPP) records information in a binary file. To read the file, you must first translate it into a readable, text format. You use a tool called tracefmt.exe from the [Windows Driver Kit (WDK)](https://www.microsoft.com/whdc/DevTools/WDK/WDKpkg.mspx) to do the translation. The tool requires information stored in some associated files. The files are located in the %SystemRoot%\\System32\\wbem\\tmf directory and have a .tmf file name extension. The tool actually requires a single .tmf file . You make that single file by concatenating all of the .tmf files into another .tmf file. For more information about .tmf files, see [Trace Message Format File](https://docs.microsoft.com/windows-hardware/drivers/devtest/trace-message-format-file).
+The Windows software trace preprocessor (WPP) records information in a binary file. To read the file, you must first translate it into a readable, text format. You use a tool called tracefmt.exe from the [Windows Driver Kit (WDK)](https://www.microsoft.com/whdc/DevTools/WDK/WDKpkg.mspx) to do the translation. The tool requires information stored in some associated files. The files are located in the %SystemRoot%\\System32\\wbem\\tmf directory and have a .tmf file name extension. The tool actually requires a single .tmf file . You make that single file by concatenating all of the .tmf files into another .tmf file. For more information about .tmf files, see [Trace Message Format File](/windows-hardware/drivers/devtest/trace-message-format-file).
 
 After installing the [Windows Driver Kit (WDK)](https://www.microsoft.com/whdc/DevTools/WDK/WDKpkg.mspx) to get the tracelog.exe and tracefmt.exe command-line tools, perform the following steps to collect a WPP-based WMI trace.
 
@@ -138,6 +138,3 @@ The following are some other WPP-related tasks you might need to perform.
  
 
  
-
-
-

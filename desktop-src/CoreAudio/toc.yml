@@ -144,7 +144,7 @@
         href: devicetopology-api.md
     - name: "Using the IKsControl Interface to Access Audio Properties"
       href: using-the-ikscontrol-interface-to-access-audio-properties.md
-    - name: "Spatial Sound"
+    - name: "Spatial Sound for Developers"
       href: spatial-sound.md
       items: 
       - name: "Render Spatial Sound Using Spatial Audio Objects"
@@ -180,10 +180,10 @@
         - name: "GetFormat method"
           href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-iaudioformatenumerator-getformat
       - name: "IAudioSystemEffects2"
-        href: https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nn-audioenginebaseapo-iaudiosystemeffects2
+        href: /windows/desktop/api/audioenginebaseapo/nn-audioenginebaseapo-iaudiosystemeffects2
         items: 
         - name: "GetEffectsList method"
-          href: https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffects2-geteffectslist
+          href: /windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffects2-geteffectslist
       - name: "IActivateAudioInterfaceAsyncOperation"
         href: /windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-iactivateaudiointerfaceasyncoperation
         items: 
@@ -202,7 +202,7 @@
         - name: "SetEnabled"
           href: /windows/desktop/api/Devicetopology/nf-devicetopology-iaudioautogaincontrol-setenabled
       - name: "IAudioBass"
-        href: https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiobass
+        href: /windows/desktop/api/devicetopology/nn-devicetopology-iaudiobass
       - name: "IAudioCaptureClient"
         href: /windows/desktop/api/Audioclient/nn-audioclient-iaudiocaptureclient
         items: 
@@ -388,7 +388,7 @@
         - name: "QueryHardwareSupport"
           href: /windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudiometerinformation-queryhardwaresupport
       - name: "IAudioMidrange"
-        href: https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiomidrange
+        href: /windows/desktop/api/devicetopology/nn-devicetopology-iaudiomidrange
       - name: "IAudioMute"
         href: /windows/desktop/api/Devicetopology/nn-devicetopology-iaudiomute
         items: 
@@ -514,9 +514,9 @@
         - name: "SetChannelVolume"
           href: /windows/desktop/api/Audioclient/nf-audioclient-iaudiostreamvolume-setchannelvolume
       - name: "IAudioTreble"
-        href: https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiotreble
+        href: /windows/desktop/api/devicetopology/nn-devicetopology-iaudiotreble
       - name: "IAudioVolumeLevel"
-        href: https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiovolumelevel
+        href: /windows/desktop/api/devicetopology/nn-devicetopology-iaudiovolumelevel
       - name: "IAudioVolumeDuckNotification"
         href: /windows/desktop/api/AudioPolicy/nn-audiopolicy-iaudiovolumeducknotification
         items: 
@@ -766,7 +766,7 @@
         - name: "Open method"
           href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatareader-open
         - name: "ReadItemCountInFrames method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt798194(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt798194(v=vs.85)
         - name: "ReadNextItem method"
           href: /windows/desktop/api/SpatialAudioMetadata/nf-spatialaudiometadata-ispatialaudiometadatareader-readnextitem
         - name: "ReadNextItemCommand method"
@@ -786,13 +786,13 @@
         href: /windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject
         items: 
         - name: "GetAudioObjectType method"
-          href: https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-getaudioobjecttype
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-getaudioobjecttype
         - name: "GetBuffer method"
-          href: https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-getbuffer
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-getbuffer
         - name: "IsActive method"
-          href: https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-isactive
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-isactive
         - name: "SetEndOfStream method"
-          href: https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-setendofstream
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-setendofstream
         - name: "SetPosition method"
           href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobject-setposition
         - name: "SetVolume method"
@@ -801,17 +801,17 @@
         href: /windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf
         items: 
         - name: "GetAudioObjectType method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt779270(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt779270(v=vs.85)
         - name: "GetBuffer method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt779271(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt779271(v=vs.85)
         - name: "IsActive method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt779272(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt779272(v=vs.85)
         - name: "SetDirectivity method"
           href: /windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setdirectivity
         - name: "SetDistanceDecay method"
           href: /windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setdistancedecay
         - name: "SetEndOfStream method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt779275(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt779275(v=vs.85)
         - name: "SetEnvironment method"
           href: /windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setenvironment
         - name: "SetGain method"
@@ -824,47 +824,47 @@
         href: /windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudioobjectformetadatacommands
         items: 
         - name: "GetAudioObjectType method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt798203(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt798203(v=vs.85)
         - name: "GetBuffer method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt798204(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt798204(v=vs.85)
         - name: "IsActive method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt798205(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt798205(v=vs.85)
         - name: "SetEndOfStream method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt798206(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt798206(v=vs.85)
         - name: "WriteNextMetadataCommand method"
           href: /windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudioobjectformetadatacommands-writenextmetadatacommand
       - name: "ISpatialAudioObjectForMetadataItems"
         href: /windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudioobjectformetadataitems
         items: 
         - name: "GetAudioObjectType method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt798211(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt798211(v=vs.85)
         - name: "GetBuffer method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt798212(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt798212(v=vs.85)
         - name: "GetSpatialAudioMetadataItems method"
           href: /windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudioobjectformetadataitems-getspatialaudiometadataitems
         - name: "IsActive method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt798214(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt798214(v=vs.85)
         - name: "SetEndOfStream method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt798215(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt798215(v=vs.85)
       - name: "ISpatialAudioObjectRenderStream"
         href: /windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream
         items: 
         - name: "ActivateSpatialAudioObject method"
           href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstream-activatespatialaudioobject
         - name: "BeginUpdatingAudioObjects method"
-          href: https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-beginupdatingaudioobjects
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-beginupdatingaudioobjects
         - name: "EndUpdatingAudioObjects method"
-          href: https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-endupdatingaudioobjects
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-endupdatingaudioobjects
         - name: "GetAvailableDynamicObjectCount method"
-          href: https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-getavailabledynamicobjectcount
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-getavailabledynamicobjectcount
         - name: "GetService method"
-          href: https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-getservice
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-getservice
         - name: "Reset method"
-          href: https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-reset
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-reset
         - name: "Start method"
-          href: https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-start
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-start
         - name: "Stop method"
-          href: https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-stop
+          href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-stop
       - name: "ISpatialAudioObjectRenderStreamBase"
         href: /windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase
         items: 
@@ -883,24 +883,24 @@
         - name: "Stop method"
           href: /windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-stop
       - name: "ISpatialAudioRenderStreamForHrtf"
-        href: https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectrenderstreamforhrtf
+        href: /windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectrenderstreamforhrtf
         items: 
         - name: "ActivateSpatialAudioObjectForHrtf method"
-          href: https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectrenderstreamforhrtf-activatespatialaudioobjectforhrtf
+          href: /windows/desktop/api/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectrenderstreamforhrtf-activatespatialaudioobjectforhrtf
         - name: "BeginUpdatingAudioObjects method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt779299(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt779299(v=vs.85)
         - name: "EndUpdatingAudioObjects method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt779300(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt779300(v=vs.85)
         - name: "GetAvailableDynamicObjectCount method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt779301(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt779301(v=vs.85)
         - name: "GetService method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt779302(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt779302(v=vs.85)
         - name: "Reset method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt779303(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt779303(v=vs.85)
         - name: "Start method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt779304(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt779304(v=vs.85)
         - name: "Stop method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt779305(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt779305(v=vs.85)
       - name: "ISpatialAudioObjectRenderStreamForMetadata"
         href: /windows/desktop/api/SpatialAudioMetadata/nn-spatialaudiometadata-ispatialaudioobjectrenderstreamformetadata
         items: 
@@ -965,12 +965,12 @@
         - name: "SetLevelUniform"
           href: /windows/desktop/api/Devicetopology/nf-devicetopology-iperchanneldblevel-setleveluniform
       - name: "ISubunit"
-        href: https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-isubunit
+        href: /windows/desktop/api/devicetopology/nn-devicetopology-isubunit
     - name: "Core Audio Structures"
       href: core-audio-structures.md
       items: 
       - name: "APOInitSystemEffects2"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn280314(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/dn280314(v=vs.85)
       - name: "AUDIO_VOLUME_NOTIFICATION_DATA"
         href: /windows/desktop/api/Endpointvolume/ns-endpointvolume-audio_volume_notification_data
       - name: "AudioClientProperties"

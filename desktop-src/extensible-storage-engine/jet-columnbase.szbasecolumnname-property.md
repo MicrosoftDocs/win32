@@ -55,7 +55,7 @@ public string szBaseColumnName { get; internal set; }
 
 #### Property value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+Type: [System.String](/dotnet/api/system.string)  
 
 ## See also
 
@@ -66,4 +66,3 @@ Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redire
 [JET_COLUMNBASE members](dn335046\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

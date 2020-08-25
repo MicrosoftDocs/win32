@@ -23,7 +23,7 @@ The entry for each Terminal Superclass is identified by a Terminal Superclass CL
 | Name           | REG\_SZ  | Terminal friendly name                                                            |
 | Company        | REG\_SZ  | Company name                                                                      |
 | Version        | REG\_SZ  | Version information                                                               |
-| CLSID          | REG\_SZ  | Terminal CLSID (used in COM [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) method) |
+| CLSID          | REG\_SZ  | Terminal CLSID (used in COM [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) method) |
 | Directions     | DWORD    | Terminal direction                                                                |
 | MediaTypes     | DWORD    | Terminal media types supported                                                    |
 
@@ -46,6 +46,3 @@ For a terminal class the attributes are the following.
  
 
  
-
-
-

@@ -12,7 +12,7 @@ Windows Installer implements a number of standard controls that package authors 
 
 Controls are created on dialog boxes in the installer in a manner similar to how dialog boxes are created programmatically using the Microsoft Windows user interface API. A control is created from a template recorded in the Control table. This template is slightly different in that it contains the unique name of the dialog box on which the control appears.
 
-In the Microsoft Windows user interface API, user interaction is accomplished by creating a callback function to handle messages posted by the control. Also, most Microsoft Windows controls receive messages, such as those sent by the [SendMessage](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx) function.
+In the Microsoft Windows user interface API, user interaction is accomplished by creating a callback function to handle messages posted by the control. Also, most Microsoft Windows controls receive messages, such as those sent by the [SendMessage](/windows/win32/api/winuser/nf-winuser-sendmessage) function.
 
 Communication between the user and controls is accomplished in the installer through the use of [ControlEvents](controlevent-overview.md). However, there is a limited set of ControlEvents that are specific to each control in the limited set of controls in Windows Installer. Controls may post more than one ControlEvent and may receive more than one ControlEvent.
 
@@ -23,6 +23,3 @@ Windows Installer publishes ControlEvents during the execution of some actions a
  
 
  
-
-
-

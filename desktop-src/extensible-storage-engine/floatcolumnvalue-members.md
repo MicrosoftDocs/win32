@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-A [Single](https://docs.microsoft.com/dotnet/api/system.single?redirectedfrom=MSDN) column value.
+A [Single](/dotnet/api/system.single) column value.
 
 The [FloatColumnValue](dn350880\(v=exchg.10\).md) type exposes the following members.
 
@@ -165,4 +165,3 @@ Top
 [FloatColumnValue class](dn350880\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

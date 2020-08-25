@@ -37,14 +37,10 @@ BITS supports many combinations of authentication schemes. However, you should u
 
 A virtual directory can point to a mapped drive on a different machine or a network share. If it points to a mapped network drive, the credentials used to map the drive should have full control on the remote share.
 
-If the virtual directory points to a network share, BITS uses the virtual directory's **Connect As** user credentials to access the remote share. To access a remote share, the **Connect As** account needs to have privileges as described in the documentation for the [**LogonUser**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera) function. BITS logs on using LOGON32\_LOGON\_BATCH or LOGON32\_LOGON\_INTERACTIVE logon types. The **Connect As** user account needs Full-Access permissions to the remote share; granting Write permissions does not suffice.
+If the virtual directory points to a network share, BITS uses the virtual directory's **Connect As** user credentials to access the remote share. To access a remote share, the **Connect As** account needs to have privileges as described in the documentation for the [**LogonUser**](/windows/desktop/api/winbase/nf-winbase-logonusera) function. BITS logs on using LOGON32\_LOGON\_BATCH or LOGON32\_LOGON\_INTERACTIVE logon types. The **Connect As** user account needs Full-Access permissions to the remote share; granting Write permissions does not suffice.
 
 When the physical upload directory is mapped to a network share, the identity of the caller requesting the notification URL is either the **Connect As** user, or the authenticated user of the physical upload directory (only available in IIS 6.0 and later, when the check box **Always use the authenticated user's credentials when validating access to the network resource** is selected on the **Connect As** dialog box).
 
  
 
  
-
-
-
-

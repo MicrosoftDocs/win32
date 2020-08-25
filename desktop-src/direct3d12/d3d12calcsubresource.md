@@ -43,7 +43,7 @@ UINT inline D3D12CalcSubresource(
 *MipSlice* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The zero-based index for the mipmap level to address; 0 indicates the first, most detailed mipmap level.
 
@@ -52,7 +52,7 @@ The zero-based index for the mipmap level to address; 0 indicates the first, mos
 *ArraySlice* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The zero-based index for the array level to address; always use 0 for volume (3D) textures.
 
@@ -61,7 +61,7 @@ The zero-based index for the array level to address; always use 0 for volume (3D
 *PlaneSlice* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The zero-based index for the plane level to address.
 
@@ -70,7 +70,7 @@ The zero-based index for the plane level to address.
 *MipLevels* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The number of mipmap levels in the resource.
 
@@ -79,7 +79,7 @@ The number of mipmap levels in the resource.
 *ArraySize* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The number of elements in the array.
 
@@ -87,7 +87,7 @@ The number of elements in the array.
 
 ## Return value
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The index which equals MipSlice + (ArraySlice \* MipLevels).
 
@@ -120,10 +120,4 @@ For volume (3D) textures, all slices for a given mipmap level are a single subre
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

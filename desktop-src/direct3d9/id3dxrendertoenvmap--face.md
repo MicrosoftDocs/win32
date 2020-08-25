@@ -39,16 +39,16 @@ HRESULT Face(
 *Face* \[in\]
 </dt> <dd>
 
-Type: **[**D3DCUBEMAP\_FACES**](https://msdn.microsoft.com/library/Bb172528(v=VS.85).aspx)**
+Type: **[**D3DCUBEMAP\_FACES**](./d3dcubemap-faces.md)**
 
-The first face of the environmental cube map. See [**D3DCUBEMAP\_FACES**](https://msdn.microsoft.com/library/Bb172528(v=VS.85).aspx).
+The first face of the environmental cube map. See [**D3DCUBEMAP\_FACES**](./d3dcubemap-faces.md).
 
 </dd> <dt>
 
 *MipFilter* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 A valid combination of one or more [D3DX\_FILTER](d3dx-filter.md) flags.
 
@@ -85,7 +85,3 @@ This method must be called once for each type of environment map. The only excep
  
 
  
-
-
-
-

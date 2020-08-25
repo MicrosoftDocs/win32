@@ -47,11 +47,11 @@ To make a toolbar into a menu bar:
 -   Make the buttons text-only by setting the **iBitmap** member of the button's [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) structure to I\_IMAGENONE and the **iString** member to the button text.
 -   Give each button the [**BTNS\_DROPDOWN**](toolbar-control-and-button-styles.md) style. When the button is clicked, the toolbar control sends your application a [TBN\_DROPDOWN](tbn-dropdown.md) notification to prompt it to display the button's menu.
 -   Incorporate the menu bar into a rebar band. Enable both grippers and chevrons, as discussed in [How to Create an Internet Explorer-Style Toolbar](cc-faq-ietoolbar.md).
--   Implement a [TBN\_DROPDOWN](tbn-dropdown.md) handler to display the button's *drop-down menu* when it is clicked. The drop-down menu is a type of pop-up menu. It is created by using the [**TrackPopupMenu**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenu) function, with its upper-left corner aligned with the lower-left corner of the button.
+-   Implement a [TBN\_DROPDOWN](tbn-dropdown.md) handler to display the button's *drop-down menu* when it is clicked. The drop-down menu is a type of pop-up menu. It is created by using the [**TrackPopupMenu**](/windows/desktop/api/winuser/nf-winuser-trackpopupmenu) function, with its upper-left corner aligned with the lower-left corner of the button.
 -   Implement keyboard navigation, so that the menu bar is fully accessible without a mouse.
 -   Implement menu hot-tracking. With standard menus, once a top level menu item's menu has been displayed, moving the cursor over another top-level item automatically displays its menu and collapses the menu of the previous item. The toolbar control will hot-track the cursor and change the button image, but it does automatically display the new menu. Your application must do so explicitly.
 
-Most of these items are straightforward to implement and are discussed elsewhere. See [How to Create an Internet Explorer-Style Toolbar](cc-faq-ietoolbar.md), [About Toolbar Controls](toolbar-controls-overview.md), or [About Rebar Controls](rebar-controls.md) for a general discussion of how to use toolbars and rebar controls. See [Menus](https://docs.microsoft.com/windows/desktop/menurc/menus) for a discussion of how to handle pop-up menus. The final two items, keyboard navigation and menu hot-tracking, are discussed in the remainder of this topic.
+Most of these items are straightforward to implement and are discussed elsewhere. See [How to Create an Internet Explorer-Style Toolbar](cc-faq-ietoolbar.md), [About Toolbar Controls](toolbar-controls-overview.md), or [About Rebar Controls](rebar-controls.md) for a general discussion of how to use toolbars and rebar controls. See [Menus](/windows/desktop/menurc/menus) for a discussion of how to handle pop-up menus. The final two items, keyboard navigation and menu hot-tracking, are discussed in the remainder of this topic.
 
 ## Handling Navigation with Menu Hot-Tracking Disabled
 
@@ -108,9 +108,9 @@ As with the menu hot-tracking disabled case, your application must be able to ha
 
 ### Message Processing for Menu Hot-Tracking
 
-Menu hot-tracking requires that a menu be displayed at all times, apart from the brief interval required to switch to a new menu. However, the drop-down menu that is displayed by [**TrackPopupMenu**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenu) is modal. Your application will continue to receive some messages directly, including [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command), [TBN\_HOTITEMCHANGE](tbn-hotitemchange.md), and normal menu-related messages such as [**WM\_MENUSELECT**](https://docs.microsoft.com/windows/desktop/menurc/wm-menuselect). However, it will not receive low-level keyboard or mouse messages directly. To handle messages such as [**WM\_MOUSEMOVE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove), you must set a message hook to intercept messages that are directed to the menu.
+Menu hot-tracking requires that a menu be displayed at all times, apart from the brief interval required to switch to a new menu. However, the drop-down menu that is displayed by [**TrackPopupMenu**](/windows/desktop/api/winuser/nf-winuser-trackpopupmenu) is modal. Your application will continue to receive some messages directly, including [**WM\_COMMAND**](/windows/desktop/menurc/wm-command), [TBN\_HOTITEMCHANGE](tbn-hotitemchange.md), and normal menu-related messages such as [**WM\_MENUSELECT**](/windows/desktop/menurc/wm-menuselect). However, it will not receive low-level keyboard or mouse messages directly. To handle messages such as [**WM\_MOUSEMOVE**](/windows/desktop/inputdev/wm-mousemove), you must set a message hook to intercept messages that are directed to the menu.
 
-When a drop-down menu is displayed, set the message hook by calling the [**SetWindowsHookEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa) function with the *idHook* parameter set to WH\_MSGFILTER. All messages intended for the menu will be passed to your [hook procedure](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644987(v=vs.85)). For example, the following code fragment sets a message hook that will trap messages that are going to a drop-down menu. `MsgHook` is the name of the hook procedure, and `hhookMsg` is the handle to the procedure.
+When a drop-down menu is displayed, set the message hook by calling the [**SetWindowsHookEx**](/windows/desktop/api/winuser/nf-winuser-setwindowshookexa) function with the *idHook* parameter set to WH\_MSGFILTER. All messages intended for the menu will be passed to your [hook procedure](/previous-versions/windows/desktop/legacy/ms644987(v=vs.85)). For example, the following code fragment sets a message hook that will trap messages that are going to a drop-down menu. `MsgHook` is the name of the hook procedure, and `hhookMsg` is the handle to the procedure.
 
 
 ```
@@ -119,11 +119,11 @@ hhookMsg = SetWindowsHookEx(WH_MSGFILTER, MsgHook, HINST_THISDLL, 0);
 
 
 
-Menu messages are identified by setting the hook procedure's *nCode* parameter to MSGF\_MENU. The *lParam* parameter will point to a [**MSG**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-msg) structure with the message. The details of which messages need to be handled, and how, are discussed in the remainder of this topic.
+Menu messages are identified by setting the hook procedure's *nCode* parameter to MSGF\_MENU. The *lParam* parameter will point to a [**MSG**](/windows/win32/api/winuser/ns-winuser-msg) structure with the message. The details of which messages need to be handled, and how, are discussed in the remainder of this topic.
 
-Your application must pass all messages on to the next message hook by calling the [**CallNextHookEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callnexthookex) function. You must also send mouse messages directly to the toolbar control, making sure to convert any point coordinates to the toolbar client coordinate space. Sending the messages directly ensures that the toolbar control receives the appropriate mouse messages. For instance, the toolbar needs to receive [**WM\_MOUSEMOVE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove) messages in order to hot-track its buttons.
+Your application must pass all messages on to the next message hook by calling the [**CallNextHookEx**](/windows/desktop/api/winuser/nf-winuser-callnexthookex) function. You must also send mouse messages directly to the toolbar control, making sure to convert any point coordinates to the toolbar client coordinate space. Sending the messages directly ensures that the toolbar control receives the appropriate mouse messages. For instance, the toolbar needs to receive [**WM\_MOUSEMOVE**](/windows/desktop/inputdev/wm-mousemove) messages in order to hot-track its buttons.
 
-When a new button is activated, your application must collapse the old drop-down menu with a [**WM\_CANCELMODE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-cancelmode) message, and display a new menu. It must also collapse the drop-down menu when focus is taken from the menu bar with keyboard navigation or by clicking outside the menu area. Whenever you collapse a menu, you should free its message hook by using the [**UnhookWindowsHookEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unhookwindowshookex) function. If you need to display another drop-down menu, create a new message hook. When a command is launched, the menu will be collapsed automatically but you must explicitly free the message hook.
+When a new button is activated, your application must collapse the old drop-down menu with a [**WM\_CANCELMODE**](/windows/desktop/winmsg/wm-cancelmode) message, and display a new menu. It must also collapse the drop-down menu when focus is taken from the menu bar with keyboard navigation or by clicking outside the menu area. Whenever you collapse a menu, you should free its message hook by using the [**UnhookWindowsHookEx**](/windows/desktop/api/winuser/nf-winuser-unhookwindowshookex) function. If you need to display another drop-down menu, create a new message hook. When a command is launched, the menu will be collapsed automatically but you must explicitly free the message hook.
 
 The following code example frees the message hook that was set in the previous example.
 
@@ -140,10 +140,10 @@ When a normal toolbar control hot-tracks buttons, it highlights the active butto
 
 -   Handle the [TBN\_HOTITEMCHANGE](tbn-hotitemchange.md) notification to keep track of the active button. When the active button changes, collapse the old menu and create a new one.
 -   Handle the [TBN\_DROPDOWN](tbn-dropdown.md) notification that is sent when a button is clicked. It should then collapse the menu and disable menu hot-tracking. The button remains active.
--   Handle the [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown), [**WM\_RBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-rbuttondown), and [**WM\_MOUSEMOVE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove) messages in your message hook procedure, to keep track of the mouse position. If the mouse is clicked outside the menu area, collapse the current drop-down menu, deactivate menu hot-tracking, and return the menu bar to its preactivation state.
+-   Handle the [**WM\_LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown), [**WM\_RBUTTONDOWN**](/windows/desktop/inputdev/wm-rbuttondown), and [**WM\_MOUSEMOVE**](/windows/desktop/inputdev/wm-mousemove) messages in your message hook procedure, to keep track of the mouse position. If the mouse is clicked outside the menu area, collapse the current drop-down menu, deactivate menu hot-tracking, and return the menu bar to its preactivation state.
 -   When a menu command is launched, disable menu hot-tracking. The menu will be collapsed automatically but you must explicitly free the message hook.
 
-You must also handle menu-related messaging, such as the [**WM\_INITMENUPOPUP**](https://docs.microsoft.com/windows/desktop/menurc/wm-initmenupopup) message that is sent when a menu item needs to display a submenu. For a discussion of how to handle such messages, see [Menus](https://docs.microsoft.com/windows/desktop/menurc/menus).
+You must also handle menu-related messaging, such as the [**WM\_INITMENUPOPUP**](/windows/desktop/menurc/wm-initmenupopup) message that is sent when a menu item needs to display a submenu. For a discussion of how to handle such messages, see [Menus](/windows/desktop/menurc/menus).
 
 ### Keyboard Navigation
 
@@ -158,7 +158,3 @@ Your application must process keyboard messages in the message hook procedure an
  
 
  
-
-
-
-

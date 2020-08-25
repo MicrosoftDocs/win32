@@ -37,7 +37,7 @@ The control in the illustration has the following optional features.
 
 > [!Note]
 >
-> Windows does not support dates prior to 1601. See [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime) for details.
+> Windows does not support dates prior to 1601. See [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) for details.
 >
 > The month-calendar control is based on the Gregorian calendar, which was introduced in 1753. It will not calculate dates that are consistent with the Julian calendar that was in use prior to 1753.
 
@@ -47,7 +47,7 @@ The control in the illustration has the following optional features.
 
 By default, when a user clicks the arrow buttons in the top left or top right of the month calendar control, the control updates its display to show the previous or next month. The user can also perform the same action by clicking the partial months displayed before the first month and after the last month.
 
-The following keyboard commands can also be used to move the selection. The calendar always scrolls as necessary to display the selected day. (The [**virtual key codes**](https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes) are shown in the table.)
+The following keyboard commands can also be used to move the selection. The calendar always scrolls as necessary to display the selected day. (The [**virtual key codes**](/windows/desktop/inputdev/virtual-key-codes) are shown in the table.)
 
 
 
@@ -92,7 +92,7 @@ The month-calendar control gets its format and all strings from LOCALE\_USER\_DE
 
 ## Times in the Month Calendar Control
 
-The month calendar control does not display the time. However, the [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure that is used to set and retrieve the selected date or today's date contains time fields. When a date is set programmatically, the control either copies the time fields as they are or validates them first and then, if they are invalid, stores the current default times. Following is a list of the messages that set a date and a description of how the time fields are treated.
+The month calendar control does not display the time. However, the [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure that is used to set and retrieve the selected date or today's date contains time fields. When a date is set programmatically, the control either copies the time fields as they are or validates them first and then, if they are invalid, stores the current default times. Following is a list of the messages that set a date and a description of how the time fields are treated.
 
 
 
@@ -112,7 +112,3 @@ When a date is retrieved from the control, the time fields will be copied from t
  
 
  
-
-
-
-

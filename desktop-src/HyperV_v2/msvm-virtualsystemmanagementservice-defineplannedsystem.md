@@ -71,7 +71,7 @@ A [**CIM\_ComputerSystem**](cim-computersystem.md) containing the resulting syst
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -130,9 +130,4 @@ On success, returns 0 or 4096; otherwise, returns an error.
 </dt> </dl>
 
  
-
- 
-
-
-
 

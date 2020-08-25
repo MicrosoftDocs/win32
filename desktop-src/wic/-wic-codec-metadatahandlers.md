@@ -164,7 +164,7 @@ If the metadata stream contains big-endian content, the metadata reader is respo
 
 Implement support for namespace navigation by supporting queries where the metadata item ID is a `VT_CLSID` (a GUID) corresponding to a metadata format. If a nested metadata reader for that format is identified during parsing, it must be returned. This enables applications to use a metadata query reader to search your metadata format.
 
-When getting a metadata item by ID, you should use [PropVariantChangeType Function](https://msdn.microsoft.com/library/Bb776514(VS.85).aspx) to coerce the ID into the expected type. For example, the IFD reader will coerce an ID to type `VT_UI2` to coincide with the data type of an IFD tag ID USHORT. The input type and expected type must both be [PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx) to do this. This is not required, but doing this coercion simplifies code that calls the reader to query for metadata items.
+When getting a metadata item by ID, you should use [PropVariantChangeType Function](/windows/win32/api/propvarutil/nf-propvarutil-propvariantchangetype) to coerce the ID into the expected type. For example, the IFD reader will coerce an ID to type `VT_UI2` to coincide with the data type of an IFD tag ID USHORT. The input type and expected type must both be [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) to do this. This is not required, but doing this coercion simplifies code that calls the reader to query for metadata items.
 
 ### IWICPersistStream Interface
 
@@ -277,7 +277,7 @@ The **RemoveValue** method removes the specified metadata item from the metadata
 
 The **RemoveValueByIndex** method removes the metadata item at the specified index from the metadata stream. After removing an item, it is expected that the remaining metadata items will occupy the vacated index if the index is not the last index. It is also expected that the count will change after the item is removed.
 
-It is the metadata writer's responsibility to convert the [PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx) items to the underlying structure required by your format. However, unlike the metadata reader, VARIANT types should not normally be coerced to different types as the caller is specifically indicating what data type to use.
+It is the metadata writer's responsibility to convert the [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) items to the underlying structure required by your format. However, unlike the metadata reader, VARIANT types should not normally be coerced to different types as the caller is specifically indicating what data type to use.
 
 Your metadata writer must commit all metadata items to the image stream, including hidden or unrecognized values. This includes unknown nested metadata blocks. However, it is the encoder's responsibility to set any critical metadata items prior to initiating the save operation.
 
@@ -418,7 +418,7 @@ The WriteOffset key describes the fixed offset from the block header at which th
 
 ### Signing a Metadata Handler
 
-All metadata handlers must be digitally signed to participate in the WIC discovery process. WIC will not load any handler that is not signed by a trusted certificate authority. For more information on digital signing, see [Introduction to Code Signing](https://msdn.microsoft.com/library/ms537361(VS.85).aspx).
+All metadata handlers must be digitally signed to participate in the WIC discovery process. WIC will not load any handler that is not signed by a trusted certificate authority. For more information on digital signing, see [Introduction to Code Signing](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85)).
 
 ## Special Considerations
 
@@ -426,7 +426,7 @@ The following sections include additional information you must consider when cre
 
 ### PROPVARIANTS
 
-WIC uses a [PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx) to represent a metadata item for both reading and writing. A PROPVARIANT provides a data type and data value for a metadata item used within a metadata format. As the writer of a metadata handler, you have a lot of flexibility on how data is stored in the metadata format and how data is represented within a metadata block. The following table provides guidelines to help you decide on the appropriate PROPVARIANT type to use in different situations.
+WIC uses a [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) to represent a metadata item for both reading and writing. A PROPVARIANT provides a data type and data value for a metadata item used within a metadata format. As the writer of a metadata handler, you have a lot of flexibility on how data is stored in the metadata format and how data is represented within a metadata block. The following table provides guidelines to help you decide on the appropriate PROPVARIANT type to use in different situations.
 
 
 
@@ -444,11 +444,11 @@ WIC uses a [PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx
 
  
 
-To avoid redundancy in representing array items, do not use safe arrays; use only simple arrays. This reduces the work an application needs to perform when interpreting [PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx) types.
+To avoid redundancy in representing array items, do not use safe arrays; use only simple arrays. This reduces the work an application needs to perform when interpreting [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) types.
 
 Avoid using `VT_BYREF` and store values inline whenever possible. `VT_BYREF` is inefficient for small types (common for metadata items) and does not provide size information.
 
-Before using a [PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx), always call **PropVariantInit** to initialize the value. When you are finished with the PROPVARIANT, always call **PropVariantClear** to release any memory allocated for the variable.
+Before using a [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant), always call **PropVariantInit** to initialize the value. When you are finished with the PROPVARIANT, always call **PropVariantClear** to release any memory allocated for the variable.
 
 ### 8BIM Handlers
 
@@ -497,6 +497,3 @@ So, to write an 8BIM metadata reader for resolution information, you would need 
  
 
  
-
-
-

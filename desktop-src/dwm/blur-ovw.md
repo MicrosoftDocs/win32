@@ -25,6 +25,8 @@ One of the signature Desktop Window Manager (DWM) effects is a translucent and b
 
 > [!Note]  
 > Windows Vista Home Basic edition does not support the transparent glass effect. Areas that would typically render with the transparent glass effect on other Windows editions are rendered as opaque.
+> Beginning with Windows 8, calling this function doesn't result in the blur effect, due to a style change in the way windows are rendered.
+
 
  
 
@@ -82,7 +84,7 @@ When you apply the blur-behind effect to a subregion of the window, the alpha ch
 
 An application can extend the blur of the window frame into the client area. This is useful when you apply the blur effect behind a window with a docked toolbar or visually separate controls from the rest of an application. This functionality is exposed by the [**DwmExtendFrameIntoClientArea**](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmextendframeintoclientarea) function.
 
-To enable blur by using [**DwmExtendFrameIntoClientArea**](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmextendframeintoclientarea), use the [**MARGINS**](https://msdn.microsoft.com/library/Bb773244(v=VS.85).aspx) structure to indicate how much to extend into the client area. The following example function, `ExtendIntoClientBottom`, toggles the blur extension on the bottom of the non-client frame into the client area.
+To enable blur by using [**DwmExtendFrameIntoClientArea**](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmextendframeintoclientarea), use the [**MARGINS**](/windows/win32/api/uxtheme/ns-uxtheme-margins) structure to indicate how much to extend into the client area. The following example function, `ExtendIntoClientBottom`, toggles the blur extension on the bottom of the non-client frame into the client area.
 
 
 ```
@@ -154,7 +156,3 @@ The following image illustrates the blur-behind in the "sheet of glass" window s
  
 
  
-
-
-
-

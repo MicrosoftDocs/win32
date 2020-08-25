@@ -39,7 +39,7 @@ This example uses the header and implementation defined in [Example: Common Clas
     
 
 2.  Initialize COM parameters by calling the CCoInitializer function. For more information about the CCoInitializer function, see [Example: Common Classes](common-classes.md).
-3.  Prepare a [**BG\_AUTH\_CREDENTIALS**](/windows/desktop/api/Bits1_5/ns-bits1_5-bg_auth_credentials) structure. The example uses the [SecureZeroMemory]( http://msdn.microsoft.com/en-us/library/aa366877.aspx) function to clear the memory locations associated with the sensitive information. The [SecureZeroMemory]( http://msdn.microsoft.com/en-us/library/aa366877.aspx) function is defined in WinBase.h.
+3.  Prepare a [**BG\_AUTH\_CREDENTIALS**](/windows/desktop/api/Bits1_5/ns-bits1_5-bg_auth_credentials) structure. The example uses the [SecureZeroMemory]( /previous-versions/windows/desktop/legacy/aa366877(v=vs.85)) function to clear the memory locations associated with the sensitive information. The [SecureZeroMemory]( /previous-versions/windows/desktop/legacy/aa366877(v=vs.85)) function is defined in WinBase.h.
 4.  Use the GetScheme function to get the authentication scheme to use to connect to the server.
 
     ```C++
@@ -68,8 +68,8 @@ This example uses the header and implementation defined in [Example: Common Clas
 
 5.  Populate the [**BG\_AUTH\_CREDENTIALS**](/windows/desktop/api/Bits1_5/ns-bits1_5-bg_auth_credentials) structure with the authentication scheme returned by the GetScheme function and the user name and password that were passed into the ServerAuthentication function.
 6.  Get a pointer to the [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) interface (pJob).
-7.  Initialize COM process security by calling [CoInitializeSecurity](https://msdn.microsoft.com/library/ms693736.aspx). BITS requires at least the IMPERSONATE level of impersonation. BITS fails with E\_ACCESSDENIED if the correct impersonation level is not set.
-8.  Get a pointer to the [**IBackgroundCopyManager**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopymanager) interface, and obtain the initial locator to BITS by calling the [CoCreateInstance]( http://msdn.microsoft.com/en-us/library/ms686615.aspx) function.
+7.  Initialize COM process security by calling [CoInitializeSecurity](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity). BITS requires at least the IMPERSONATE level of impersonation. BITS fails with E\_ACCESSDENIED if the correct impersonation level is not set.
+8.  Get a pointer to the [**IBackgroundCopyManager**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopymanager) interface, and obtain the initial locator to BITS by calling the [CoCreateInstance]( /windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) function.
 9.  Create a BITS transfer job by calling the [**IBackgroundCopyManager::CreateJob**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopymanager-createjob) method.
 10. Get a pointer to the CNotifyInterface callback interface and call the [**IBackgroundCopyJob::SetNotifyInterface**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setnotifyinterface) method to receive notification of job-related events. For more information about CNotifyInterface, see [Example: Common Classes](common-classes.md).
 11. Call the [**IBackgroundCopyJob::SetNotifyFlags**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setnotifyflags) method to set the types of notifications to receive. In this example, the **BG\_NOTIFY\_JOB\_TRANSFERRED** and **BG\_NOTIFY\_JOB\_ERROR** flags are set.
@@ -79,7 +79,7 @@ This example uses the header and implementation defined in [Example: Common Clas
 15. Set up a while loop to wait for Quit Message from the callback interface while the job is transferring.
 
     > [!Note]  
-    > This step is necessary only if the COM apartment is a single-threaded apartment. For more information, see [Single-Threaded Apartments](https://msdn.microsoft.com/library/ms680112.aspx).
+    > This step is necessary only if the COM apartment is a single-threaded apartment. For more information, see [Single-Threaded Apartments](../com/single-threaded-apartments.md).
 
      
 
@@ -106,7 +106,7 @@ This example uses the header and implementation defined in [Example: Common Clas
 
     
 
-    The preceding loop uses the [GetTickCount](https://msdn.microsoft.com/library/ms724408.aspx) function to retrieve the number of milliseconds that have elapsed since the job started transferring.
+    The preceding loop uses the [GetTickCount](/windows/win32/api/sysinfoapi/nf-sysinfoapi-gettickcount) function to retrieve the number of milliseconds that have elapsed since the job started transferring.
 
 16. After the BITS transfer job is complete, remove the job from the queue by calling [**IBackgroundCopyJob::Complete**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-complete).
 
@@ -375,7 +375,3 @@ void _cdecl _tmain(int argc, LPWSTR* argv)
  
 
  
-
-
-
-

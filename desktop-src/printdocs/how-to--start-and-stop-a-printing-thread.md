@@ -43,7 +43,7 @@ We recommend including these features while print processing.
 
 -   **Check for a cancel event between steps**
 
-    When the user clicks the **Cancel** button, the user interface thread signals the cancel event. The processing thread must check the cancel event periodically to know when a user clicked the **Cancel** button. The [**WaitForSingleObject**](https://msdn.microsoft.com/library/ms687032(v=VS.85).aspx) statements perform this check and they also give other programs a chance to run so that the print job processing doesn't block or delay other threads or processes.
+    When the user clicks the **Cancel** button, the user interface thread signals the cancel event. The processing thread must check the cancel event periodically to know when a user clicked the **Cancel** button. The [**WaitForSingleObject**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject) statements perform this check and they also give other programs a chance to run so that the print job processing doesn't block or delay other threads or processes.
 
     The following code example illustrates one of the tests to see whether the cancel event has occurred.
 
@@ -110,7 +110,7 @@ The print processing thread runs until the PrintThreadProc function returns. The
 
 2.  **Start the print processing thread.**
 
-    Call [**CreateThread**](https://msdn.microsoft.com/library/ms682453(v=VS.85).aspx) to start the processing thread.
+    Call [**CreateThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread) to start the processing thread.
 
     The following code example starts the processing thread.
 
@@ -129,7 +129,7 @@ The print processing thread runs until the PrintThreadProc function returns. The
 
 3.  **Check whether print processing failed on start.**
 
-    [**CreateThread**](https://msdn.microsoft.com/library/ms682453(v=VS.85).aspx) returns a handle to the created thread if the thread was created successfully. The PrintThreadProc function that was started in the new thread checks some conditions before it starts the actual print job processing. If it detects any errors in these checks, PrintThreadProc could return without processing any print job data. The UI thread can check whether the processing thread started successfully by waiting on the thread handle for a period of time that is longer than it takes to perform the initial tests but no longer than necessary. When the thread exits, the handle to the thread becomes signaled. The code checks the thread's state for a short period of time after it starts the processing thread. The [**WaitForSingleObject**](https://msdn.microsoft.com/library/ms687032(v=VS.85).aspx) function returns when either the timeout occurs or the thread handle is signaled. If the **WaitForSingleObject** function returns a **WAIT\_OBJECT\_0** status, the thread exited early and so you should close the print progress dialog, as the following code example shows.
+    [**CreateThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread) returns a handle to the created thread if the thread was created successfully. The PrintThreadProc function that was started in the new thread checks some conditions before it starts the actual print job processing. If it detects any errors in these checks, PrintThreadProc could return without processing any print job data. The UI thread can check whether the processing thread started successfully by waiting on the thread handle for a period of time that is longer than it takes to perform the initial tests but no longer than necessary. When the thread exits, the handle to the thread becomes signaled. The code checks the thread's state for a short period of time after it starts the processing thread. The [**WaitForSingleObject**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject) function returns when either the timeout occurs or the thread handle is signaled. If the **WaitForSingleObject** function returns a **WAIT\_OBJECT\_0** status, the thread exited early and so you should close the print progress dialog, as the following code example shows.
 
     ```C++
     // Make sure the printing thread started OK
@@ -196,6 +196,3 @@ while (((waitStatus = WaitForSingleObject (
  
 
  
-
-
-

@@ -38,11 +38,8 @@ The following topics provide example code for access control tasks:
 -   [Searching for a SID in an Access Token in C++](searching-for-a-sid-in-an-access-token-in-c--.md)
 -   [Finding the Owner of a File Object in C++](finding-the-owner-of-a-file-object-in-c--.md)
 -   [Taking Object Ownership in C++](taking-object-ownership-in-c--.md)
--   [Creating a DACL](https://docs.microsoft.com/windows/desktop/SecBP/creating-a-dacl)
+-   [Creating a DACL](/windows/desktop/SecBP/creating-a-dacl)
 
  
 
  
-
-
-

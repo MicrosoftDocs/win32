@@ -24,7 +24,7 @@ pTL->CreateEmptyNode(&pGroupObj, TIMELINE_MAJOR_TYPE_GROUP);
 
 The second parameter is a member of the [**TIMELINE\_MAJOR\_TYPE**](timeline-major-type.md) enumeration. It specifies the type of timeline object to create, such as a group or a track.
 
-The **CreateEmptyNode** method creates the object and returns a pointer to the object's [**IAMTimelineObj**](iamtimelineobj.md) interface. It also increments the reference count on the **IAMTimelineObj** interface, so you must release the interface when you finish using it. Do not call the [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) function. Instead, always use **CreateEmptyNode** to create a timeline object, because it initializes the new object for use in a timeline.
+The **CreateEmptyNode** method creates the object and returns a pointer to the object's [**IAMTimelineObj**](iamtimelineobj.md) interface. It also increments the reference count on the **IAMTimelineObj** interface, so you must release the interface when you finish using it. Do not call the [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) function. Instead, always use **CreateEmptyNode** to create a timeline object, because it initializes the new object for use in a timeline.
 
 The [**IAMTimelineObj**](iamtimelineobj.md) interface is a generic interface. It provides methods that are common to all types of timeline object. Each type of object exposes other interfaces as well. For example, groups expose the [**IAMTimelineGroup**](iamtimelinegroup.md) interface, among others. You can obtain pointers to the other interfaces by calling **QueryInterface**.
 
@@ -40,6 +40,3 @@ After you create an object, it is not yet a part of the timeline. The method to 
  
 
  
-
-
-

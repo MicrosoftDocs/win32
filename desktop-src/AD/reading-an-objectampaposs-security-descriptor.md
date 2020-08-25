@@ -12,11 +12,11 @@ ms.date: 05/31/2018
 
 # Reading an Object's Security Descriptor
 
-The following code example uses the [**IADs**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads) interfaces to enumerate the properties of a directory object's security descriptor, DACL, and the ACEs of the DACL.
+The following code example uses the [**IADs**](/windows/desktop/api/iads/nn-iads-iads) interfaces to enumerate the properties of a directory object's security descriptor, DACL, and the ACEs of the DACL.
 
-The following code example uses the [**IADs.Get**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get) method to retrieve the **nTSecurityDescriptor** property of the directory object. The C++ version of this method returns a **VARIANT** that contains an [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) pointer. The code example then calls **QueryInterface** on that **IDispatch** pointer to get an [**IADsSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) interface to the object's security descriptor.
+The following code example uses the [**IADs.Get**](/windows/desktop/api/iads/nf-iads-iads-get) method to retrieve the **nTSecurityDescriptor** property of the directory object. The C++ version of this method returns a **VARIANT** that contains an [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) pointer. The code example then calls **QueryInterface** on that **IDispatch** pointer to get an [**IADsSecurityDescriptor**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) interface to the object's security descriptor.
 
-The code example then uses [**IADsSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) methods to retrieve data from the security descriptor. Be aware that the data, available through **IADsSecurityDescriptor**, depends on the access rights of the caller. The [**IADsSecurityDescriptor.DiscretionaryAcl**](https://docs.microsoft.com/windows/desktop/ADSI/iadssecuritydescriptor-property-methods) and **IADsSecurityDescriptor.Owner** properties will fail if the caller does not have **READ\_CONTROL** access to the object. Similarly, a call to the **get\_SystemAcl** method would fail if the caller does not have the **SE\_SECURITY\_NAME** privilege enabled.
+The code example then uses [**IADsSecurityDescriptor**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) methods to retrieve data from the security descriptor. Be aware that the data, available through **IADsSecurityDescriptor**, depends on the access rights of the caller. The [**IADsSecurityDescriptor.DiscretionaryAcl**](/windows/desktop/ADSI/iadssecuritydescriptor-property-methods) and **IADsSecurityDescriptor.Owner** properties will fail if the caller does not have **READ\_CONTROL** access to the object. Similarly, a call to the **get\_SystemAcl** method would fail if the caller does not have the **SE\_SECURITY\_NAME** privilege enabled.
 
 
 ```VB
@@ -452,7 +452,3 @@ return iReturn;
  
 
  
-
-
-
-

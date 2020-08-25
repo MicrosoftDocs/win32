@@ -1,6 +1,6 @@
 ---
 title: Identity Element
-description: Captures the identity used for authentication.
+description: Learn about the EAPHost Identity element. This element captures the identity used for authentication.
 ms.assetid: 464979f0-6a2b-43e7-a207-2fbd1e2e5f51
 keywords:
 - Identity element EAPHost
@@ -34,10 +34,10 @@ The **Identity** element is abstract; each method must define and use a derived 
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

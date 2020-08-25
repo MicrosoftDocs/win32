@@ -19,7 +19,7 @@ api_location:
 
 # GetVolumeOperation.Completed property
 
-Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetVolumeAsync**](https://msdn.microsoft.com/library/Hh828933(v=VS.85).aspx) is completed.
+Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetVolumeAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getvolumeasync) is completed.
 
 This property is read/write.
 
@@ -52,7 +52,3 @@ The event handler.
  
 
  
-
-
-
-

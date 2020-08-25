@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # CHString::operator+=
 
-\[The [**CHString**](chstring.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The [**CHString**](chstring.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The += concatenation operator joins characters to the end of this string. The operator accepts another [**CHString**](chstring.md) object, a character pointer, or a single character.
 
@@ -94,9 +94,4 @@ assert( ( s += L"def" ) == L"abcdef" );
 </dt> </dl>
 
  
-
- 
-
-
-
 

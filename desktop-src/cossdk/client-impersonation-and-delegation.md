@@ -27,7 +27,7 @@ To effectively use the most powerful form of impersonation, *delegation*, which 
 -   The server identity must be marked as "Trusted for delegation" in the Active Directory Service.
 -   The client identity must not be marked as "Account is sensitive and cannot be delegated" in the Active Directory Service.
 
-These configuration features give the domain administrator a high degree of control over delegation, which is desirable, given how much trust (and hence security risk) is involved. For more detail about delegation, see [Delegation and Impersonation](https://docs.microsoft.com/windows/desktop/com/delegation-and-impersonation).
+These configuration features give the domain administrator a high degree of control over delegation, which is desirable, given how much trust (and hence security risk) is involved. For more detail about delegation, see [Delegation and Impersonation](/windows/desktop/com/delegation-and-impersonation).
 
 ## Cloaking
 
@@ -72,6 +72,3 @@ Sometimes the only effective solution to a problem is to use impersonation, but 
  
 
  
-
-
-

@@ -92,7 +92,7 @@ The **\[decode\]** attribute causes the MIDL compiler to generate code that an a
 
 Use the **\[**[**encode**](encode.md)**\]** and **\[decode\]** attributes in an ACF to generate serialization code for procedures or types defined in the IDL file of an interface. When used as an interface attribute, **\[decode\]** applies to all types and procedures defined in the IDL file. When used as a type attribute, **\[decode\]** applies only to the specified type. When used as an operational attribute, **\[decode\]** applies only to that procedure.
 
-For more information about using this serialization support, see [Serialization Services](https://docs.microsoft.com/windows/desktop/Rpc/serialization-services) and **\[**[**encode**](encode.md)**\]**.
+For more information about using this serialization support, see [Serialization Services](/windows/desktop/Rpc/serialization-services) and **\[**[**encode**](encode.md)**\]**.
 
 ## See also
 
@@ -110,7 +110,3 @@ For more information about using this serialization support, see [Serialization 
  
 
  
-
-
-
-

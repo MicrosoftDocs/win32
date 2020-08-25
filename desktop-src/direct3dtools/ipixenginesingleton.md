@@ -26,7 +26,7 @@ Determines if the engine supports a singleton instance or not.
 
 ## Members
 
-The **IPixEngineSingleton** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **IPixEngineSingleton** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Requirements
 
@@ -35,6 +35,3 @@ The **IPixEngineSingleton** interface inherits from the [**IUnknown**](https://d
  
 
  
-
-
-

@@ -33,7 +33,7 @@ HRESULT Show(
 
 *nCmdShow*
 
-Type: **[UINT](/windows/win32/winprog/windows-data-types)**
+Type: **[UINT](../winprog/windows-data-types.md)**
 
 Value that specifies whether to show or hide the window. For more information, see the [IPropertyPage::Show](/windows/win32/api/ocidl/nf-ocidl-ipropertypage-show) method.
 

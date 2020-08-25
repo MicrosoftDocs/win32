@@ -188,8 +188,8 @@ The following functions retrieve and modify configuration settings for the TCP/I
 
 ## Security health
 
--   [**CancelSecurityHealthChangeNotify**](https://msdn.microsoft.com/library/Bb442512(v=VS.85).aspx)
--   [**NotifySecurityHealthChange**](https://msdn.microsoft.com/library/Bb451761(v=VS.85).aspx)
+-   [**CancelSecurityHealthChangeNotify**](/previous-versions/windows/desktop/legacy/bb442512(v=vs.85))
+-   [**NotifySecurityHealthChange**](/previous-versions/windows/desktop/legacy/bb451761(v=vs.85))
 
 These functions are defined only on Windows Server 2003.
 

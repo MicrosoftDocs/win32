@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Creating the Base Language Resource File
 
-Resources for user interface elements are defined for the basic language that the application supports, for example, English (United States). An example of a Win32 PE resource file is an .rc file, created using RC Compiler. For details of .rc file creation, see [About Resource Files](https://msdn.microsoft.com/library/Aa380599(v=VS.85).aspx).
+Resources for user interface elements are defined for the basic language that the application supports, for example, English (United States). An example of a Win32 PE resource file is an .rc file, created using RC Compiler. For details of .rc file creation, see [About Resource Files](../menurc/about-resource-files.md).
 
 If using an .rc file for the base language resources, you have the option of using a resource configuration file for an XML representation of resource configuration data. To create this file, see [Preparing a Resource Configuration File](preparing-a-resource-configuration-file.md).
 
@@ -32,6 +32,3 @@ You can also use a non-Win32 PE file to define base language resources. For exam
  
 
  
-
-
-

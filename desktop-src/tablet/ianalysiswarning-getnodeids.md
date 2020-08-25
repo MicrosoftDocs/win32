@@ -58,7 +58,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 If *ppNodeIds* is passed as **NULL**, the **GetNodeIds** method returns **S\_OK** and the number of rectangles is returned in *pulCount*.
 
 > [!Caution]  
-> To avoid a memory leak, use [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to release the memory from \**ppNodeIds* when you no longer need the information.
+> To avoid a memory leak, use [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to release the memory from \**ppNodeIds* when you no longer need the information.
 
  
 
@@ -114,9 +114,4 @@ warning->GetNodeIds(&number, NULL);
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -14,12 +14,8 @@ MIDL provides the ability to specify the following types of arrays in your RPC a
 -   [Varying Arrays](varying-arrays.md)
 -   [Conformant Arrays](conformant-arrays.md)
 
-All three array types can be used as \[ [in](https://docs.microsoft.com/windows/desktop/Midl/in)\], \[ [out](https://docs.microsoft.com/windows/desktop/Midl/out-idl)\], or **\[in,out\]** parameters.
+All three array types can be used as \[ [in](/windows/desktop/Midl/in)\], \[ [out](/windows/desktop/Midl/out-idl)\], or **\[in,out\]** parameters.
 
  
 
  
-
-
-
-

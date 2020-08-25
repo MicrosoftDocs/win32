@@ -19,7 +19,7 @@ The following table lists fields of the [**FORMATETC**](/windows/win32/api/objid
 | Field                   | Specifies                                                                                                                                                                                                                                                                    |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **cfFormat**<br/> | The format in which the data is to be rendered, which can be a standard clipboard format, a proprietary format, or an OLE format. For more information on OLE formats, see [Compound Documents](compound-documents.md).<br/>                                          |
-| **ptd**<br/>      | A [**DVTARGETDEVICE**](/windows/win32/api/objidl/ns-objidl-dvtargetdevice) structure, which contains enough information about a Windows target device, such as a screen or printer, so that a handle to its device context (hDC) can be created using the [**CreateDC**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca) function. <br/> |
+| **ptd**<br/>      | A [**DVTARGETDEVICE**](/windows/win32/api/objidl/ns-objidl-dvtargetdevice) structure, which contains enough information about a Windows target device, such as a screen or printer, so that a handle to its device context (hDC) can be created using the [**CreateDC**](/windows/desktop/api/wingdi/nf-wingdi-createdca) function. <br/> |
 | **dwAspect**<br/> | The aspect or view of the data to be rendered; can be the full contents, a thumbnail sketch, an icon, or formatted for printing.<br/>                                                                                                                                  |
 | **lindex**<br/>   | The part of the aspect that is of interest; for the present, the value must be -1, indicating that the entire view is of interest.<br/>                                                                                                                                |
 | **tymed**<br/>    | The data's storage medium, which can be global memory, disk file, or an instance of one of COM's structured-storage interfaces.<br/>                                                                                                                                   |
@@ -36,10 +36,4 @@ The following table lists fields of the [**FORMATETC**](/windows/win32/api/objid
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

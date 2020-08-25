@@ -31,7 +31,7 @@ Other service providers are included as part of products other than ADSI. The fo
 
 | Service provider | For more information                                                                        |
 |------------------|---------------------------------------------------------------------------------------------|
-| IIS<br/>   | [IIS ADSI Provider Architecture](https://msdn.microsoft.com/library/ms525929.aspx)<br/> |
+| IIS<br/>   | [IIS ADSI Provider Architecture](/previous-versions/iis/6.0-sdk/ms525929(v=vs.90))<br/> |
 
 
 
@@ -51,10 +51,4 @@ In ADSI, different providers are associated with different DLLs. The LDAP provid
 For more information about ADSI service providers, see [ADSI Router](adsi-router.md) and [Provider Support of ADSI interfaces](provider-support-of-adsi-interfaces.md).
 
  
-
- 
-
-
-
-
 

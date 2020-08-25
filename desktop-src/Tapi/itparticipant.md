@@ -16,7 +16,7 @@ This interface is exposed on the call object when a call uses the IP Conferencin
 
 ## Members
 
-The **ITParticipant** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITParticipant** also has these types of members:
+The **ITParticipant** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITParticipant** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -66,9 +66,4 @@ The **ITParticipant** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
 

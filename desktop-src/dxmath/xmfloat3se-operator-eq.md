@@ -17,7 +17,7 @@ api_location:
 
 Assigns vector component data to the current instance of `XMFLOAT3SE`.
 
-Assigns vector component data to the current instance of [**XMFLOAT3SE**](https://msdn.microsoft.com/library/Ee419489(v=VS.85).aspx).
+Assigns vector component data to the current instance of [**XMFLOAT3SE**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmfloat3se).
 
 ### Overload list
 
@@ -68,13 +68,9 @@ This operator is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT3SE**](https://msdn.microsoft.com/library/Ee419489(v=VS.85).aspx)
+[**XMFLOAT3SE**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmfloat3se)
 </dt> </dl>
 
  
 
  
-
-
-
-

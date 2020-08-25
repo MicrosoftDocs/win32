@@ -1,6 +1,6 @@
 ---
-title: EapType Element
-description: Captures method-specific configuration inside the Eap element.
+title: EapType element (base user properties)
+description: Learn about the EapType element. This element captures method-specific configuration inside the Eap element.
 ms.assetid: 8ce81848-5b36-441f-967d-02c666ba5c6c
 keywords:
 - EapType element EAPHost
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# EapType Element
+# EapType element (base user properties)
 
 The **EapType** element captures method-specific configuration inside the Eap element.
 
@@ -34,10 +34,10 @@ The **EapType** element is abstract; each method must define and use a derived e
 
 
 
-|                                     |                                                      |
+| Role | Minimum supported OS version |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

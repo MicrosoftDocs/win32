@@ -51,28 +51,24 @@ Many of these guidelines are good programming practices that will benefit applic
 [Terminal Services Is Now Remote Desktop Services](terminal-services-is-now-remote-desktop-services.md)
 </dt> <dt>
 
-[Administrative Template File Format](https://docs.microsoft.com/previous-versions/windows/desktop/Policy/administrative-template-file-format)
+[Administrative Template File Format](/previous-versions/windows/desktop/Policy/administrative-template-file-format)
 </dt> <dt>
 
-[Registry Key Security and Access Rights](https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights)
+[Registry Key Security and Access Rights](/windows/desktop/SysInfo/registry-key-security-and-access-rights)
 </dt> <dt>
 
-[Registry Hives](https://docs.microsoft.com/windows/desktop/SysInfo/registry-hives)
+[Registry Hives](/windows/desktop/SysInfo/registry-hives)
 </dt> <dt>
 
-[Security Descriptors](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptors)
+[Security Descriptors](/windows/desktop/SecAuthZ/security-descriptors)
 </dt> <dt>
 
-[Standard Access Rights](https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights)
+[Standard Access Rights](/windows/desktop/SecAuthZ/standard-access-rights)
 </dt> <dt>
 
-[Access Control Model](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-model)
+[Access Control Model](/windows/desktop/SecAuthZ/access-control-model)
 </dt> </dl>
 
  
 
  
-
-
-
-

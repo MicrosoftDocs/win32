@@ -121,9 +121,9 @@ BOOL ParseALargeFile(HWND hwndParent, LPTSTR lpszFileName)
 
 ## Remarks
 
-You must make sure to use the [**ReadFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile) function correctly, to ensure the security of your application. For instance, in the example code, you should check to make sure that `ReadFile` actually reads all of the requested data.
+You must make sure to use the [**ReadFile**](/windows/desktop/api/fileapi/nf-fileapi-readfile) function correctly, to ensure the security of your application. For instance, in the example code, you should check to make sure that `ReadFile` actually reads all of the requested data.
 
-Also notice that the fourth parameter of [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)—(LPSECURITY\_ATTRIBUTES)**NULL**—sets default security values. If you need specific security settings, you must set the appropriate values in the structure's members. Call **sizeof** to set the correct size of the **LPSECURITY\_ATTRIBUTES** structure.
+Also notice that the fourth parameter of [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea)—(LPSECURITY\_ATTRIBUTES)**NULL**—sets default security values. If you need specific security settings, you must set the appropriate values in the structure's members. Call **sizeof** to set the correct size of the **LPSECURITY\_ATTRIBUTES** structure.
 
 For more information, see [Security Considerations: Microsoft Windows Controls](sec-comctls.md).
 
@@ -140,7 +140,3 @@ For more information, see [Security Considerations: Microsoft Windows Controls](
  
 
  
-
-
-
-

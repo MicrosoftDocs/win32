@@ -35,18 +35,18 @@ In general, property handlers cannot provide values for these properties. Howeve
 
 Overriding is supported for the following property values:
 
--   [System.Kind](https://msdn.microsoft.com/library/Bb787521(v=VS.85).aspx)
--   [System.FileName](https://msdn.microsoft.com/library/Bb760703(v=VS.85).aspx)
--   [System.IsPinnedToNameSpaceTree](https://msdn.microsoft.com/library/Dd391662(v=VS.85).aspx)
--   [System.ItemNameDisplay](https://msdn.microsoft.com/library/Bb760770(v=VS.85).aspx)
--   [System.SFGAOFlags](https://msdn.microsoft.com/library/Bb787559(v=VS.85).aspx)
--   [System.ItemPathDisplay](https://msdn.microsoft.com/library/Bb760776(v=VS.85).aspx)
--   [System.ItemPathDisplayNarrow](https://msdn.microsoft.com/library/Bb760779(v=VS.85).aspx)
--   [System.ItemFolderNameDisplay](https://msdn.microsoft.com/library/Bb760747(v=VS.85).aspx)
--   [System.ItemFolderPathDisplay](https://msdn.microsoft.com/library/Bb760764(v=VS.85).aspx)
--   [System.ItemFolderPathDisplayNarrow](https://msdn.microsoft.com/library/Bb760766(v=VS.85).aspx)
+-   [System.Kind](./props-system-kind.md)
+-   [System.FileName](./props-system-filename.md)
+-   [System.IsPinnedToNameSpaceTree](./props-system-ispinnedtonamespacetree.md)
+-   [System.ItemNameDisplay](./props-system-itemnamedisplay.md)
+-   [System.SFGAOFlags](./props-system-sfgaoflags.md)
+-   [System.ItemPathDisplay](./props-system-itempathdisplay.md)
+-   [System.ItemPathDisplayNarrow](./props-system-itempathdisplaynarrow.md)
+-   [System.ItemFolderNameDisplay](./props-system-itemfoldernamedisplay.md)
+-   [System.ItemFolderPathDisplay](./props-system-itemfolderpathdisplay.md)
+-   [System.ItemFolderPathDisplayNarrow](./props-system-itemfolderpathdisplaynarrow.md)
 
-For a full list of all Shell properties, see [Shell Properties](https://msdn.microsoft.com/library/Dd561977(v=VS.85).aspx).
+For a full list of all Shell properties, see [Shell Properties](./props.md).
 
 > [!IMPORTANT]
 > The overridden property values are used only when the files are indexed. Thus, browsing files from the file system data source does not reveal the overridden values.
@@ -64,7 +64,7 @@ Some handlers might combine these approaches, storing some important values in s
 
 ### Computed Properties
 
-Some properties are derived from specific attributes of a file. For example, the [System.Image.Dimensions](https://msdn.microsoft.com/library/Bb787458(v=VS.85).aspx) property is determined by the actual dimensions of the image in an image file. Because such property values cannot be changed by the property handler, they are thus marked `isInnate="true"` in the property description. Other properties are computed from a part of a specific property or by aggregating the values of multiple properties. Because updates to these "computed" properties would create ambiguity as to how the "source" values should be changed, computed properties should be marked `isInnate="true"` in the property description or reported as read-only. The latter option is available by instructing the handler to return S\_FALSE from [**IPropertyStoreCapabilities::IsPropertyWritable**](https://msdn.microsoft.com/library/Bb761454(v=VS.85).aspx).
+Some properties are derived from specific attributes of a file. For example, the [System.Image.Dimensions](./props-system-image-dimensions.md) property is determined by the actual dimensions of the image in an image file. Because such property values cannot be changed by the property handler, they are thus marked `isInnate="true"` in the property description. Other properties are computed from a part of a specific property or by aggregating the values of multiple properties. Because updates to these "computed" properties would create ambiguity as to how the "source" values should be changed, computed properties should be marked `isInnate="true"` in the property description or reported as read-only. The latter option is available by instructing the handler to return S\_FALSE from [**IPropertyStoreCapabilities::IsPropertyWritable**](/windows/win32/api/propsys/nf-propsys-ipropertystorecapabilities-ispropertywritable).
 
 ## Frequently Asked Questions
 
@@ -74,16 +74,16 @@ This section provides answers to frequently asked questions about properties and
 
     The Windows Search indexer runs as a system service and cannot load DLLs that are stored in the user profile directory. If you are building and debugging using Microsoft Visual Studio, it will place the DLL in your user profile (and therefore it won't be loaded by the indexer). To work around this, copy your DLL outside of your profile folder (for example, into **C:\\Program Files\\YourAppName**) and register it there.
 
-    For more specific guidance on developing property handlers to work with the Windows Search indexer, see [Developing Property Handlers for Windows Search](https://msdn.microsoft.com/library/Bb266532(v=VS.85).aspx).
+    For more specific guidance on developing property handlers to work with the Windows Search indexer, see [Developing Property Handlers for Windows Search](../search/-search-3x-wds-extidx-propertyhandlers.md).
 
--   **Question:** Which properties should be discoverable through the [**IPropertyStore::GetCount**](https://msdn.microsoft.com/library/Bb761472(v=VS.85).aspx) and [**IPropertyStore::GetAt**](https://msdn.microsoft.com/library/Bb761471(v=VS.85).aspx) enumeration methods?
+-   **Question:** Which properties should be discoverable through the [**IPropertyStore::GetCount**](/previous-versions/windows/desktop/legacy/bb761472(v=vs.85)) and [**IPropertyStore::GetAt**](/previous-versions/windows/desktop/legacy/bb761471(v=vs.85)) enumeration methods?
 
-    Not all clients of property store objects use these methods. Some clients are aware of the properties they plan to request directly (by PKEY name), or receive property information through a property description list. The property discovery methods suppport several other scenarios. If a property does not need to participate in these scenarios, it does not need to be enumerated. Hence, a property handler can produce a non-VT\_EMPTY value for properties that are not discovered through the [**IPropertyStore::GetCount**](https://msdn.microsoft.com/library/Bb761472(v=VS.85).aspx) and [**IPropertyStore::GetAt**](https://msdn.microsoft.com/library/Bb761471(v=VS.85).aspx) methods.
+    Not all clients of property store objects use these methods. Some clients are aware of the properties they plan to request directly (by PKEY name), or receive property information through a property description list. The property discovery methods suppport several other scenarios. If a property does not need to participate in these scenarios, it does not need to be enumerated. Hence, a property handler can produce a non-VT\_EMPTY value for properties that are not discovered through the [**IPropertyStore::GetCount**](/previous-versions/windows/desktop/legacy/bb761472(v=vs.85)) and [**IPropertyStore::GetAt**](/previous-versions/windows/desktop/legacy/bb761471(v=vs.85)) methods.
 
     However, properties should be visible via these methods if any of the following conditions are met:
 
     -   **If the property is indexed so that it is searchable:** This means it is included in the Windows Search property store (denoted by `isColumn = "true"` in the property description schema) or available for full text searches (`inInvertedIndex = "true"`). In the absence of these flags or the absence of a property description, properties of type "string" will be added automatically to the inverted index to enable searching. Because the list of known properties (those with installed property descriptions) in the property system is very large (more than 800 properties), it would be impractical to ask every property handler for every property registered in the property system. Instead, the indexing process enumerates the relevant properties from the property handler for each item it indexes, and it uses the values of the enumerated properties to build the full text index.
-    -   **If the property should be copied when the item's property set is duplicated:** To implement a "copy a property set" function, the source item makes the properties that should be copied visible through the [**IPropertyStore::GetCount**](https://msdn.microsoft.com/library/Bb761472(v=VS.85).aspx) and [**IPropertyStore::GetAt**](https://msdn.microsoft.com/library/Bb761471(v=VS.85).aspx) methods. Properties that do not need to be copied or do not make sense being copied should not be included.
+    -   **If the property should be copied when the item's property set is duplicated:** To implement a "copy a property set" function, the source item makes the properties that should be copied visible through the [**IPropertyStore::GetCount**](/previous-versions/windows/desktop/legacy/bb761472(v=vs.85)) and [**IPropertyStore::GetAt**](/previous-versions/windows/desktop/legacy/bb761471(v=vs.85)) methods. Properties that do not need to be copied or do not make sense being copied should not be included.
     -   **If the property value is not empty (VT\_EMPTY):** Property values that are empty are not useful for clients. When clients attempt to return empty property values, a value of VT\_EMPTY is returned. Thus, properties with empty values should not be enumerated.
     -   **If the property should be removed when invoking the "remove properties" function:** This feature exists to protect privacy; it discovers all values from the property handler through enumeration and removes each one selected for removal by the user.
         > [!Note]  
@@ -93,15 +93,15 @@ This section provides answers to frequently asked questions about properties and
 
 -   **Question:** How do I know which file formats support open metadata?
 
-    For information about support for open metadata, see "File Types that Support Open Metadata" in [File Types](https://msdn.microsoft.com/library/Cc144148(v=VS.85).aspx).
+    For information about support for open metadata, see "File Types that Support Open Metadata" in [File Types](../shell/fa-file-types.md).
 
 -   **Question:** Can VT\_NULL values be stored using a property handler?
 
-    No. VT\_NULL values will be converted to VT\_EMPTY on calls to [**IPropertyStore::GetValue**](https://msdn.microsoft.com/library/Bb761473(v=VS.85).aspx) and [**IPropertyStore::SetValue**](https://msdn.microsoft.com/library/Bb761475(v=VS.85).aspx).
+    No. VT\_NULL values will be converted to VT\_EMPTY on calls to [**IPropertyStore::GetValue**](/previous-versions/windows/desktop/legacy/bb761473(v=vs.85)) and [**IPropertyStore::SetValue**](/previous-versions/windows/desktop/legacy/bb761475(v=vs.85)).
 
--   **Question:** Which date string formats are supported by the [**PropVariantChangeType**](https://msdn.microsoft.com/library/Bb776514(v=VS.85).aspx) function?
+-   **Question:** Which date string formats are supported by the [**PropVariantChangeType**](/windows/win32/api/propvarutil/nf-propvarutil-propvariantchangetype) function?
 
-    Generally, properties that represent date/time values should be represented using VT\_FILETIME. However, many data sources provide this information in string form. The [**PropVariantChangeType**](https://msdn.microsoft.com/library/Bb776514(v=VS.85).aspx) helper API supports coercing some string date formats into [**FILETIME**](https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx) values, as shown in the following table.
+    Generally, properties that represent date/time values should be represented using VT\_FILETIME. However, many data sources provide this information in string form. The [**PropVariantChangeType**](/windows/win32/api/propvarutil/nf-propvarutil-propvariantchangetype) helper API supports coercing some string date formats into [**FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) values, as shown in the following table.
 
     
 
@@ -116,13 +116,13 @@ This section provides answers to frequently asked questions about properties and
 
 -   **Question:** Is it possible to create a read-only property handler?
 
-    Yes. Some property handler implementations do not support writing of property values. These property handlers should return STGM\_E\_ACCESSDENIED on calls to **IInitializeXXX::Initialize** that pass STGM\_READWRITE, or on any call to [**IPropertyStore::SetValue**](https://msdn.microsoft.com/library/Bb761475(v=VS.85).aspx).
+    Yes. Some property handler implementations do not support writing of property values. These property handlers should return STGM\_E\_ACCESSDENIED on calls to **IInitializeXXX::Initialize** that pass STGM\_READWRITE, or on any call to [**IPropertyStore::SetValue**](/previous-versions/windows/desktop/legacy/bb761475(v=vs.85)).
 
-    All property handlers opened in STGM\_READ mode should return STGM\_E\_ACCESSDENIED on calls to [**IPropertyStore::SetValue**](https://msdn.microsoft.com/library/Bb761475(v=VS.85).aspx).
+    All property handlers opened in STGM\_READ mode should return STGM\_E\_ACCESSDENIED on calls to [**IPropertyStore::SetValue**](/previous-versions/windows/desktop/legacy/bb761475(v=vs.85)).
 
 -   **Question:** Can a property handler treat a property as read-only, even if the schema indicates that the property is writeable?
 
-    Yes. In the schema system, properties are annotated as read-only (including those with `isInnate = "true"`) or read/write. Property handlers that do not support writing a particular property that the schema says should be writeable should implement [**IPropertyStoreCapabilities**](https://msdn.microsoft.com/library/Bb761452(v=VS.85).aspx) and return S\_FALSE on calls to [**IPropertyStoreCapabilities::IsPropertyWritable**](https://msdn.microsoft.com/library/Bb761454(v=VS.85).aspx) for that property. This indicates that in the context of this handler and this file, the property is not writeable.
+    Yes. In the schema system, properties are annotated as read-only (including those with `isInnate = "true"`) or read/write. Property handlers that do not support writing a particular property that the schema says should be writeable should implement [**IPropertyStoreCapabilities**](/windows/win32/api/propsys/nn-propsys-ipropertystorecapabilities) and return S\_FALSE on calls to [**IPropertyStoreCapabilities::IsPropertyWritable**](/windows/win32/api/propsys/nf-propsys-ipropertystorecapabilities-ispropertywritable) for that property. This indicates that in the context of this handler and this file, the property is not writeable.
 
     > [!Note]  
     > The reverse action is not possible. You cannot enable a property handler to write a property that is marked as read-only in the schema
@@ -133,25 +133,21 @@ This section provides answers to frequently asked questions about properties and
 
 <dl> <dt>
 
-[Understanding Property Handlers](https://msdn.microsoft.com/library/Cc144129(v=VS.85).aspx)
+[Understanding Property Handlers](./building-property-handlers-properties.md)
 </dt> <dt>
 
-[Using Kind Names](https://msdn.microsoft.com/library/Cc144136(v=VS.85).aspx)
+[Using Kind Names](./building-property-handlers-user-friendly-kind-names.md)
 </dt> <dt>
 
-[Using Property Lists](https://msdn.microsoft.com/library/Cc144133(v=VS.85).aspx)
+[Using Property Lists](./building-property-handlers-property-lists.md)
 </dt> <dt>
 
-[Initializing Property Handlers](https://msdn.microsoft.com/library/Cc144131(v=VS.85).aspx)
+[Initializing Property Handlers](./building-property-handlers-property-handlers.md)
 </dt> <dt>
 
-[Registering and Distributing Property Handlers](https://msdn.microsoft.com/library/Dd894084(v=VS.85).aspx)
+[Registering and Distributing Property Handlers](./prophand-reg-dist.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

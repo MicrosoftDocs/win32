@@ -29,9 +29,35 @@ ms.date: 05/31/2018
 
 # Edit Control Styles
 
-To create an edit control using the [**CreateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specify the EDIT class, appropriate window style constants, and a combination of the following edit control styles. After the control has been created, these styles cannot be modified, except as noted.
+To create an edit control using the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specify the EDIT class, appropriate window style constants, and a combination of the following edit control styles. After the control has been created, these styles cannot be modified, except as noted.
 
+## Example
 
+```cpp
+LRESULT MsgCreate(HWND hwnd, UINT uMessage, WPARAM wparam, LPARAM lparam)
+{
+    lparam;
+    wparam;
+    uMessage;
+
+    // Create Edit control for typing to be sent to server
+    if (NULL == (hOutWnd = CreateWindow("EDIT",
+                           NULL,
+                           WS_BORDER | WS_CHILD | WS_VISIBLE | WS_VSCROLL | ES_LEFT | 
+                           ES_MULTILINE | ES_AUTOVSCROLL,
+                           0,0,0,0,
+                           hwnd,
+                           (HMENU) ID_OUTBOX,
+                           (HINSTANCE) GetWindowLongPtr(hwnd, GWLP_HINSTANCE),
+                           NULL)))
+        return FALSE;
+    return TRUE;
+}
+```
+
+Example from [Windows Classic Samples](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/netds/winsock/ipxchat/IpxChat.c) on GitHub.
+
+## Constants
 
 <table>
 <colgroup>
@@ -122,10 +148,4 @@ To use Comctl32.dll version 6, specify it in a manifest. For more information on
 
 
  
-
- 
-
-
-
-
 

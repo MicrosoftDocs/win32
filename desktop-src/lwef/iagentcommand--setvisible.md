@@ -16,7 +16,7 @@ HRESULT SetVisible(
 );
 ```
 
-Sets the value of the [**Visible**](visible-property.md) property for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
+Sets the value of the [**Visible**](visible-property.md) property for a [**Command**](/windows/desktop/lwef/the-command-object).
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,11 +25,11 @@ Sets the value of the [**Visible**](visible-property.md) property for a [**Comma
 <span id="bVisible"></span><span id="bvisible"></span><span id="BVISIBLE"></span>*bVisible*
 </dt> <dd>
 
-A Boolean value that determines the [**Visible**](visible-property.md) property of a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object). **True** shows the **Command**; **False** hides it.
+A Boolean value that determines the [**Visible**](visible-property.md) property of a [**Command**](/windows/desktop/lwef/the-command-object). **True** shows the **Command**; **False** hides it.
 
 </dd> </dl>
 
-A [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) must have its [**Visible**](visible-property.md) property set to **True** and its [**Caption**](caption-property.md) property set to appear in the character's pop-up menu.
+A [**Command**](/windows/desktop/lwef/the-command-object) must have its [**Visible**](visible-property.md) property set to **True** and its [**Caption**](caption-property.md) property set to appear in the character's pop-up menu.
 
 ## See Also
 
@@ -39,7 +39,3 @@ A [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-obje
  
 
  
-
-
-
-

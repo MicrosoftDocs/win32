@@ -17,7 +17,7 @@ api_location:
 
 # CAPICOM\_ACTIVE\_DIRECTORY\_SEARCH\_LOCATION enumeration
 
-The **CAPICOM\_ACTIVE\_DIRECTORY\_SEARCH\_LOCATION** enumeration type indicates the location to be searched for an Active Directory [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+The **CAPICOM\_ACTIVE\_DIRECTORY\_SEARCH\_LOCATION** enumeration type indicates the location to be searched for an Active Directory [*certificate store*](../secgloss/c-gly.md).
 
 ## Members
 
@@ -51,7 +51,3 @@ This enumeration type is used by the following property:
  
 
  
-
-
-
-

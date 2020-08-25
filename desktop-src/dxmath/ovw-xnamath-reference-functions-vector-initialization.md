@@ -16,23 +16,23 @@ Lists the vector initialization functions.
 
 | Topic                                                                     | Description                                                                                                                                      |
 |---------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**XMVectorFalseInt**](https://msdn.microsoft.com/library/Ee421023(v=VS.85).aspx)<br/>                   | Returns the zero (false) vector.<br/>                                                                                                      |
-| [**XMVectorReplicate**](https://msdn.microsoft.com/library/Ee421202(v=VS.85).aspx)<br/>                 | Replicates a floating-point value into all four components of a vector.<br/>                                                               |
-| [**XMVectorReplicateInt**](https://msdn.microsoft.com/library/Hh404803(v=VS.85).aspx)<br/>           | Replicates an integer value into all four components of a vector.<br/>                                                                     |
-| [**XMVectorReplicateIntPtr**](https://msdn.microsoft.com/library/Hh404804(v=VS.85).aspx)<br/>     | Replicates an integer value referenced by a pointer, into all four components of a vector.<br/>                                            |
-| [**XMVectorReplicatePtr**](https://msdn.microsoft.com/library/Ee421205(v=VS.85).aspx)<br/>           | Replicates a floating-point value referenced by pointer into all four components of a vector.<br/>                                         |
-| [**XMVectorSet**](https://msdn.microsoft.com/library/Ee421213(v=VS.85).aspx)<br/>                             | Creates a vector using four floating-point values.<br/>                                                                                    |
-| [**XMVectorSetBinaryConstant**](https://msdn.microsoft.com/library/Hh404809(v=VS.85).aspx)<br/> | Creates a vector, each of whose components is either 0.0f or 1.0f.<br/>                                                                    |
-| [**XMVectorSetInt**](https://msdn.microsoft.com/library/Hh404812(v=VS.85).aspx)<br/>                       | Creates a vector with unsigned integer components.<br/>                                                                                    |
-| [**XMVectorSplatConstant**](https://msdn.microsoft.com/library/Hh404824(v=VS.85).aspx)<br/>         | Creates a vector with identical floating-point components. Each component is a constant divided by two raised to an integer exponent.<br/> |
-| [**XMVectorSplatConstantInt**](https://msdn.microsoft.com/library/Hh404825(v=VS.85).aspx)<br/>   | Creates a vector with identical integer components.<br/>                                                                                   |
-| [**XMVectorSplatEpsilon**](https://msdn.microsoft.com/library/Ee421347(v=VS.85).aspx)<br/>           | Returns a vector, each of whose components are epsilon (1.192092896e-7).<br/>                                                              |
-| [**XMVectorSplatInfinity**](https://msdn.microsoft.com/library/Ee421348(v=VS.85).aspx)<br/>         | Returns a vector, each of whose components are infinity (0x7F800000).<br/>                                                                 |
-| [**XMVectorSplatOne**](https://msdn.microsoft.com/library/Ee421349(v=VS.85).aspx)<br/>                   | Returns a vector, each of whose components are one.<br/>                                                                                   |
-| [**XMVectorSplatQNaN**](https://msdn.microsoft.com/library/Ee421350(v=VS.85).aspx)<br/>                 | Returns a vector, each of whose components are QNaN (0x7CF00000).<br/>                                                                     |
-| [**XMVectorSplatSignMask**](https://msdn.microsoft.com/library/Ee421351(v=VS.85).aspx)<br/>         | Returns a vector, each of whose components are the sign mask (0x80000000).<br/>                                                            |
-| [**XMVectorTrueInt**](https://msdn.microsoft.com/library/Ee421365(v=VS.85).aspx)<br/>                     | Returns a vector, each of whose components represents true (0xFFFFFFFF).<br/>                                                              |
-| [**XMVectorZero**](https://msdn.microsoft.com/library/Ee421376(v=VS.85).aspx)<br/>                           | Creates the zero vector.<br/>                                                                                                              |
+| [**XMVectorFalseInt**](/windows/win32/api/directxmath/nf-directxmath-xmvectorfalseint)<br/>                   | Returns the zero (false) vector.<br/>                                                                                                      |
+| [**XMVectorReplicate**](/windows/win32/api/directxmath/nf-directxmath-xmvectorreplicate)<br/>                 | Replicates a floating-point value into all four components of a vector.<br/>                                                               |
+| [**XMVectorReplicateInt**](/windows/win32/api/directxmath/nf-directxmath-xmvectorreplicateint)<br/>           | Replicates an integer value into all four components of a vector.<br/>                                                                     |
+| [**XMVectorReplicateIntPtr**](/windows/win32/api/directxmath/nf-directxmath-xmvectorreplicateintptr)<br/>     | Replicates an integer value referenced by a pointer, into all four components of a vector.<br/>                                            |
+| [**XMVectorReplicatePtr**](/windows/win32/api/directxmath/nf-directxmath-xmvectorreplicateptr)<br/>           | Replicates a floating-point value referenced by pointer into all four components of a vector.<br/>                                         |
+| [**XMVectorSet**](/windows/win32/api/directxmath/nf-directxmath-xmvectorset)<br/>                             | Creates a vector using four floating-point values.<br/>                                                                                    |
+| [**XMVectorSetBinaryConstant**](/windows/win32/api/directxmath/nf-directxmath-xmvectorsetbinaryconstant)<br/> | Creates a vector, each of whose components is either 0.0f or 1.0f.<br/>                                                                    |
+| [**XMVectorSetInt**](/windows/win32/api/directxmath/nf-directxmath-xmvectorsetint)<br/>                       | Creates a vector with unsigned integer components.<br/>                                                                                    |
+| [**XMVectorSplatConstant**](/windows/win32/api/directxmath/nf-directxmath-xmvectorsplatconstant)<br/>         | Creates a vector with identical floating-point components. Each component is a constant divided by two raised to an integer exponent.<br/> |
+| [**XMVectorSplatConstantInt**](/windows/win32/api/directxmath/nf-directxmath-xmvectorsplatconstantint)<br/>   | Creates a vector with identical integer components.<br/>                                                                                   |
+| [**XMVectorSplatEpsilon**](/windows/win32/api/directxmath/nf-directxmath-xmvectorsplatepsilon)<br/>           | Returns a vector, each of whose components are epsilon (1.192092896e-7).<br/>                                                              |
+| [**XMVectorSplatInfinity**](/windows/win32/api/directxmath/nf-directxmath-xmvectorsplatinfinity)<br/>         | Returns a vector, each of whose components are infinity (0x7F800000).<br/>                                                                 |
+| [**XMVectorSplatOne**](/windows/win32/api/directxmath/nf-directxmath-xmvectorsplatone)<br/>                   | Returns a vector, each of whose components are one.<br/>                                                                                   |
+| [**XMVectorSplatQNaN**](/windows/win32/api/directxmath/nf-directxmath-xmvectorsplatqnan)<br/>                 | Returns a vector, each of whose components are QNaN (0x7CF00000).<br/>                                                                     |
+| [**XMVectorSplatSignMask**](/windows/win32/api/directxmath/nf-directxmath-xmvectorsplatsignmask)<br/>         | Returns a vector, each of whose components are the sign mask (0x80000000).<br/>                                                            |
+| [**XMVectorTrueInt**](/windows/win32/api/directxmath/nf-directxmath-xmvectortrueint)<br/>                     | Returns a vector, each of whose components represents true (0xFFFFFFFF).<br/>                                                              |
+| [**XMVectorZero**](/windows/win32/api/directxmath/nf-directxmath-xmvectorzero)<br/>                           | Creates the zero vector.<br/>                                                                                                              |
 
 
 
@@ -48,7 +48,3 @@ Lists the vector initialization functions.
  
 
  
-
-
-
-

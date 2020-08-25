@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Stretching an Image and Window
 
-The following example stretches the images of a video clip and changes the aspect ratio of the displayed frames. The frames displayed in the MCIWnd window are twice the height and three times the width of the original frame. The [**MCIWndGetDest**](/windows/desktop/api/Vfw/nf-vfw-mciwndgetdest) and [**MCIWndPutDest**](/windows/desktop/api/Vfw/nf-vfw-mciwndputdest) macros retrieve and redefine the destination rectangle coordinates. The [GetWindowRect](https://msdn.microsoft.com/library/ms633519.aspx) and [SetWindowPos](https://msdn.microsoft.com/library/ms633545.aspx) functions manage changes to the MCIWnd window dimensions.
+The following example stretches the images of a video clip and changes the aspect ratio of the displayed frames. The frames displayed in the MCIWnd window are twice the height and three times the width of the original frame. The [**MCIWndGetDest**](/windows/desktop/api/Vfw/nf-vfw-mciwndgetdest) and [**MCIWndPutDest**](/windows/desktop/api/Vfw/nf-vfw-mciwndputdest) macros retrieve and redefine the destination rectangle coordinates. The [GetWindowRect](/windows/win32/api/winuser/nf-winuser-getwindowrect) and [SetWindowPos](/windows/win32/api/winuser/nf-winuser-setwindowpos) functions manage changes to the MCIWnd window dimensions.
 
 
 ```C++
@@ -59,7 +59,3 @@ case WM_COMMAND:
  
 
  
-
-
-
-

@@ -17,85 +17,85 @@
       href: dxcore-callbacks.md
       items: 
       - name: "PFN_DXCORE_NOTIFICATION_CALLBACK"
-        href: /windows/win32/dxcore/dxcore_interface/nc-dxcore_interface-pfn_dxcore_notification_callback
+        href: ./dxcore_interface/nc-dxcore_interface-pfn_dxcore_notification_callback.md
     - name: "DXCore enumerations"
       href: dxcore-enumerations.md
       items: 
       - name: "DXCoreAdapterPreference"
-        href: /windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterpreference
+        href: ./dxcore_interface/ne-dxcore_interface-dxcoreadapterpreference.md
       - name: "DXCoreAdapterProperty"
-        href: /windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty
+        href: ./dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty.md
       - name: "DXCoreAdapterState"
-        href: /windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate
+        href: ./dxcore_interface/ne-dxcore_interface-dxcoreadapterstate.md
       - name: "DXCoreNotificationType"
-        href: /windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype
+        href: ./dxcore_interface/ne-dxcore_interface-dxcorenotificationtype.md
       - name: "DXCoreSegmentGroup"
-        href: /windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoresegmentgroup
+        href: ./dxcore_interface/ne-dxcore_interface-dxcoresegmentgroup.md
     - name: "DXCore functions"
       href: dxcore-functions.md
       items: 
       - name: "DXCoreCreateAdapterFactory"
-        href: /windows/win32/dxcore/dxcore/nf-dxcore-dxcorecreateadapterfactory
+        href: ./dxcore/nf-dxcore-dxcorecreateadapterfactory.md
     - name: "DXCore interfaces"
       href: dxcore-interfaces.md
       items: 
       - name: "IDXCoreAdapter"
-        href: /windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapter
+        href: ./dxcore_interface/nn-dxcore_interface-idxcoreadapter.md
         items: 
         - name: "GetFactory"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getfactory
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapter-getfactory.md
         - name: "GetProperty"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty.md
         - name: "GetPropertySize"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getpropertysize
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapter-getpropertysize.md
         - name: "IsAttributeSupported"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-isattributesupported
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapter-isattributesupported.md
         - name: "IsPropertySupported"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-ispropertysupported
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapter-ispropertysupported.md
         - name: "IsQueryStateSupported"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-isquerystatesupported
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapter-isquerystatesupported.md
         - name: "IsSetStateSupported"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-issetstatesupported
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapter-issetstatesupported.md
         - name: "IsValid"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-isvalid
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapter-isvalid.md
         - name: "QueryState"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-querystate
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapter-querystate.md
         - name: "SetState"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-setstate
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapter-setstate.md
       - name: "IDXCoreAdapterFactory"
-        href: /windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterfactory
+        href: ./dxcore_interface/nn-dxcore_interface-idxcoreadapterfactory.md
         items: 
         - name: "CreateAdapterList"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-createadapterlist
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-createadapterlist.md
         - name: "GetAdapterByLuid"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-getadapterbyluid
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-getadapterbyluid.md
         - name: "IsNotificationTypeSupported"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-isnotificationtypesupported
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-isnotificationtypesupported.md
         - name: "RegisterEventNotification"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-registereventnotification
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-registereventnotification.md
         - name: "UnregisterEventNotification"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-unregistereventnotification
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-unregistereventnotification.md
       - name: "IDXCoreAdapterList"
-        href: /windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist
+        href: ./dxcore_interface/nn-dxcore_interface-idxcoreadapterlist.md
         items: 
         - name: "GetAdapter"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-getadapter
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-getadapter.md
         - name: "GetAdapterCount"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-getadaptercount
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-getadaptercount.md
         - name: "GetFactory"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-getfactory
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-getfactory.md
         - name: "IsAdapterPreferenceSupported"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-isadapterpreferencesupported
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-isadapterpreferencesupported.md
         - name: "IsStale"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-isstale
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-isstale.md
         - name: "Sort"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-sort
+          href: ./dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-sort.md
     - name: "DXCore structures"
       href: dxcore-structures.md
       items: 
       - name: "DXCoreAdapterMemoryBudget"
-        href: /windows/win32/dxcore/dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudget
+        href: ./dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudget.md
       - name: "DXCoreAdapterMemoryBudgetNodeSegmentGroup"
-        href: /windows/win32/dxcore/dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudgetnodesegmentgroup
+        href: ./dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudgetnodesegmentgroup.md
       - name: "DXCoreHardwareID"
-        href: /windows/win32/dxcore/dxcore_interface/ns-dxcore_interface-dxcorehardwareid
+        href: ./dxcore_interface/ns-dxcore_interface-dxcorehardwareid.md

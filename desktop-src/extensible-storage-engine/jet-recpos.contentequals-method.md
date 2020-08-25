@@ -63,7 +63,7 @@ public bool ContentEquals(
 
 #### Return value
 
-Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
+Type: [System.Boolean](/dotnet/api/system.boolean)  
 True if the two instances are equal.  
 
 #### Implements
@@ -79,4 +79,3 @@ True if the two instances are equal.
 [JET_RECPOS members](dn335257\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # DllSurrogateExecutable
 
-Enables DLL servers to run in a custom surrogate process, in conjunction with the [**DllSurrogate**](dllsurrogate.md) registry value. If **DllSurrogateExecutable** is not specified, COM passes **NULL** as the value for the first parameter of the [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) function.
+Enables DLL servers to run in a custom surrogate process, in conjunction with the [**DllSurrogate**](dllsurrogate.md) registry value. If **DllSurrogateExecutable** is not specified, COM passes **NULL** as the value for the first parameter of the [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) function.
 
 ## Registry Entry
 
@@ -22,7 +22,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 
 ## Remarks
 
-This value is of type **REG\_SZ**. It works in conjunction with the [**DllSurrogate**](dllsurrogate.md) value to prevent any ambiguity when using the [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) function. **DllSurrogate** indicates whether a custom surrogate needs to be used, and this information is passed as the first parameter for **CreateProcess**. Depending on the implementation of **CreateProcess**, this information might be ambiguous. If **DllSurrogateExecutable** is specified, COM passes the value as the first parameter of **CreateProcess**. If **DllSurrogateExecutable** is not specified, COM passes **NULL** as the value for the first parameter of **CreateProcess**.
+This value is of type **REG\_SZ**. It works in conjunction with the [**DllSurrogate**](dllsurrogate.md) value to prevent any ambiguity when using the [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) function. **DllSurrogate** indicates whether a custom surrogate needs to be used, and this information is passed as the first parameter for **CreateProcess**. Depending on the implementation of **CreateProcess**, this information might be ambiguous. If **DllSurrogateExecutable** is specified, COM passes the value as the first parameter of **CreateProcess**. If **DllSurrogateExecutable** is not specified, COM passes **NULL** as the value for the first parameter of **CreateProcess**.
 
 ## Related topics
 
@@ -37,13 +37,9 @@ This value is of type **REG\_SZ**. It works in conjunction with the [**DllSurrog
 [**DllSurrogate**](dllsurrogate.md)
 </dt> <dt>
 
-[**ISurrogate**](https://msdn.microsoft.com/library/ms695062(v=VS.85).aspx)
+[**ISurrogate**](/windows/win32/api/objidlbase/nn-objidlbase-isurrogate)
 </dt> </dl>
 
  
 
  
-
-
-
-

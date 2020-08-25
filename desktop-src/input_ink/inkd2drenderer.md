@@ -48,14 +48,14 @@ CoCreateInstance(__uuidof(InkD2DRenderer),
 
 ## Examples
 
-This snippet from the "SceneComposer.cpp" file of the [Complex inking sample](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/complexink/) demonstrates the rendering of a collection of ink strokes to a Direct2D device context.
+This snippet from the "SceneComposer.cpp" file of the [Complex inking sample](/samples/microsoft/windows-universal-samples/complexink/) demonstrates the rendering of a collection of ink strokes to a Direct2D device context.
 
 ```C++
 _inkRenderer->Render(strokes, _deviceResources->GetD2DDeviceContext());
 strokes->Clear();
 ```
 
-This snippet from the "InkRenderer.cpp" file of the [Complex inking sample](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/complexink/) shows the Render method (called in the previous snippet) that calls the [**Draw**](/windows/win32/api/inkrenderer/nf-inkrenderer-iinkd2drenderer-draw) method for rendering the strokes.
+This snippet from the "InkRenderer.cpp" file of the [Complex inking sample](/samples/microsoft/windows-universal-samples/complexink/) shows the Render method (called in the previous snippet) that calls the [**Draw**](/windows/win32/api/inkrenderer/nf-inkrenderer-iinkd2drenderer-draw) method for rendering the strokes.
 
 ```C++
 void InkRenderer::Render(
@@ -93,4 +93,4 @@ void InkRenderer::Render(
 
 ## Related topics
 
-[Ink renderer](ink-renderer.md), [Pen and stylus interactions](/windows/uwp/design/input/pen-and-stylus-interactions), [Ink Analysis sample](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/inkanalysis/), [Simple inking sample](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/simpleink/), [Complex inking sample](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/complexink/)
+[Ink renderer](ink-renderer.md), [Pen and stylus interactions](/windows/uwp/design/input/pen-and-stylus-interactions), [Ink Analysis sample](/samples/microsoft/windows-universal-samples/inkanalysis/), [Simple inking sample](/samples/microsoft/windows-universal-samples/simpleink/), [Complex inking sample](/samples/microsoft/windows-universal-samples/complexink/)

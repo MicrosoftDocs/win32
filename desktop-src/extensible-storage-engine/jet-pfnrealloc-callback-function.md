@@ -24,7 +24,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_PFNREALLOC Callback Function
 
-The JET_PFNREALLOC function is a [realloc](https://msdn.microsoft.com/library/xbebcx7d.aspx) compatible callback used by [JetEnumerateColumns](gg269321\(v=exchg.10\).md) to allocate memory for its output buffers.
+The JET_PFNREALLOC function is a [realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019) compatible callback used by [JetEnumerateColumns](gg269321\(v=exchg.10\).md) to allocate memory for its output buffers.
 
 ```cpp
     void * JET_API JET_PFNREALLOC(
@@ -103,4 +103,3 @@ The system may generate success or failure codes as a result of a call to this f
 ### See Also
 
 [JetEnumerateColumns](gg269321\(v=exchg.10\).md)
-

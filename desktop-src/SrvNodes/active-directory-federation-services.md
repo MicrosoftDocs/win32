@@ -14,14 +14,14 @@ Active Directory Federation Service (AD FS) is an authentication and authorizati
 
 <dl> <dt>
 
-[Active Directory Federation Services Overview](https://msdn.microsoft.com/library/ms674895(v=VS.85).aspx)
+[Active Directory Federation Services Overview](/previous-versions/windows/desktop/legacy/ms674895(v=vs.85))
 </dt> <dd>
 
 Overview information about AD FS.
 
 </dd> <dt>
 
-[ADFS Class Library](https://docs.microsoft.com/previous-versions/windows/desktop/active-directory-federation-services/ms681631(v=vs.85))
+[ADFS Class Library](/previous-versions/windows/desktop/active-directory-federation-services/ms681631(v=vs.85))
 </dt> <dd>
 
 APIs used to develop application that use AD FS.
@@ -38,6 +38,3 @@ APIs used to develop application that use AD FS.
  
 
  
-
-
-

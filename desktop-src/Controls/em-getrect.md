@@ -34,7 +34,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that receives the formatting rectangle.
+A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that receives the formatting rectangle.
 
 </dd> </dl>
 
@@ -78,14 +78,8 @@ Under certain conditions, **EM\_GETRECT** might not return the exact values that
 **Other Resources**
 </dt> <dt>
 
-[**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85))
+[**RECT**](/previous-versions//dd162897(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -8,20 +8,20 @@ ms.date: 05/31/2018
 
 # Bluetooth and WM\_DEVICECHANGE Messages
 
-Bluetooth includes specific [**WM\_DEVICECHANGE**](https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange) messages that enable developers to obtain messages when Bluetooth devices undergo status changes. This topic describes how to receive Bluetooth-specific **WM\_DEVICECHANGE** messages and lists Bluetooth-specific messages.
+Bluetooth includes specific [**WM\_DEVICECHANGE**](/windows/desktop/DevIO/wm-devicechange) messages that enable developers to obtain messages when Bluetooth devices undergo status changes. This topic describes how to receive Bluetooth-specific **WM\_DEVICECHANGE** messages and lists Bluetooth-specific messages.
 
 ## Receiving Bluetooth-specific WM\_DEVICECHANGE Messages
 
-To receive [**WM\_DEVICECHANGE**](https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange) messages, a handle to the local radio must first be opened. To do this, use one of the following methods:
+To receive [**WM\_DEVICECHANGE**](/windows/desktop/DevIO/wm-devicechange) messages, a handle to the local radio must first be opened. To do this, use one of the following methods:
 
--   Use the [SetupDiGetClassDevs](https://docs.microsoft.com/windows/win32/api/setupapi/nf-setupapi-setupdigetclassdevsw?redirectedfrom=MSDN) function with the following parameters: (GUID\_BTHPORT\_DEVICE\_INTERFACE, …, DIGCF\_PRESENT \| DIGCF\_DEVICEINTERFACE), then use the [SetupDiEnumDeviceInterfaces](https://docs.microsoft.com/windows/win32/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces?redirectedfrom=MSDN), [SetupDiGetDeviceInterfaceDetail](https://msdn.microsoft.com/library/ms792901.aspx), [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea), and the [SetupDiDestroyDeviceInfoList](https://docs.microsoft.com/windows/win32/api/setupapi/nf-setupapi-setupdidestroydeviceinfolist?redirectedfrom=MSDN) functions.
+-   Use the [SetupDiGetClassDevs](/windows/win32/api/setupapi/nf-setupapi-setupdigetclassdevsw) function with the following parameters: (GUID\_BTHPORT\_DEVICE\_INTERFACE, …, DIGCF\_PRESENT \| DIGCF\_DEVICEINTERFACE), then use the [SetupDiEnumDeviceInterfaces](/windows/win32/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces), [SetupDiGetDeviceInterfaceDetail](https://msdn.microsoft.com/library/ms792901.aspx), [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea), and the [SetupDiDestroyDeviceInfoList](/windows/win32/api/setupapi/nf-setupapi-setupdidestroydeviceinfolist) functions.
 -   Use the [**BluetoothFindFirstRadio**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindfirstradio), [**BluetoothFindNextRadio**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindnextradio), and [**BluetoothFindRadioClose**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindradioclose) functions.
 
-When the Bluetooth radio handle is opened, call the [**RegisterDeviceNotification**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa) function and register for notifications on the handle using **DBT\_DEVTYP\_HANDLE** as the devicetype. When registered, the following GUIDs are sent, and the [**DEV\_BROADCAST\_HANDLE**](https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_handle)::**dbch\_data** member is the associated buffer.
+When the Bluetooth radio handle is opened, call the [**RegisterDeviceNotification**](/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa) function and register for notifications on the handle using **DBT\_DEVTYP\_HANDLE** as the devicetype. When registered, the following GUIDs are sent, and the [**DEV\_BROADCAST\_HANDLE**](/windows/desktop/api/dbt/ns-dbt-dev_broadcast_handle)::**dbch\_data** member is the associated buffer.
 
 ## Bluetooth-specific Messages
 
-The following table lists Bluetooth-specific [**WM\_DEVICECHANGE**](https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange) messages.
+The following table lists Bluetooth-specific [**WM\_DEVICECHANGE**](/windows/desktop/DevIO/wm-devicechange) messages.
 
 | GUID                                   | BUFFER                                                  | Description                                                                                                                                                                                                                                                                                                                                                      |
 |----------------------------------------|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -48,16 +48,16 @@ The following table lists Bluetooth-specific [**WM\_DEVICECHANGE**](https://docs
 [**BluetoothFindRadioClose**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothfindradioclose)
 </dt> <dt>
 
-[**RegisterDeviceNotification**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa)
+[**RegisterDeviceNotification**](/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa)
 </dt> <dt>
 
-[SetupDiDestroyDeviceInfoList](https://docs.microsoft.com/windows/win32/api/setupapi/nf-setupapi-setupdidestroydeviceinfolist?redirectedfrom=MSDN)
+[SetupDiDestroyDeviceInfoList](/windows/win32/api/setupapi/nf-setupapi-setupdidestroydeviceinfolist)
 </dt> <dt>
 
-[SetupDiEnumDeviceInterfaces](https://docs.microsoft.com/windows/win32/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces?redirectedfrom=MSDN)
+[SetupDiEnumDeviceInterfaces](/windows/win32/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces)
 </dt> <dt>
 
-[SetupDiGetClassDevs](https://docs.microsoft.com/windows/win32/api/setupapi/nf-setupapi-setupdigetclassdevsw?redirectedfrom=MSDN)
+[SetupDiGetClassDevs](/windows/win32/api/setupapi/nf-setupapi-setupdigetclassdevsw)
 </dt> <dt>
 
 [**BLUETOOTH\_ADDRESS**](/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_address_struct)
@@ -72,16 +72,12 @@ The following table lists Bluetooth-specific [**WM\_DEVICECHANGE**](https://docs
 [**BTH\_RADIO\_IN\_RANGE**](/windows/desktop/api/Bthdef/ns-bthdef-bth_radio_in_range)
 </dt> <dt>
 
-[**DEV\_BROADCAST\_HANDLE**](https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_handle)
+[**DEV\_BROADCAST\_HANDLE**](/windows/desktop/api/dbt/ns-dbt-dev_broadcast_handle)
 </dt> <dt>
 
-[**WM\_DEVICECHANGE**](https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange)
+[**WM\_DEVICECHANGE**](/windows/desktop/DevIO/wm-devicechange)
 </dt> </dl>
 
  
 
  
-
-
-
-

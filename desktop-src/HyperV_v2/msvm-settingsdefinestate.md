@@ -19,7 +19,7 @@ api_location:
 
 # Msvm\_SettingsDefineState class
 
-Associates a virtual machine and its devices with instances of [**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85)) that represent the current settings that apply to these objects. More specifically, it associates [**Msvm\_ComputerSystem**](msvm-computersystem.md) with instances of [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md), and it associates **Msvm\_\*** derivatives of [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice) with **Msvm\_\*** derivatives of [**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
+Associates a virtual machine and its devices with instances of [**CIM\_SettingData**](/previous-versions//cc136911(v=vs.85)) that represent the current settings that apply to these objects. More specifically, it associates [**Msvm\_ComputerSystem**](msvm-computersystem.md) with instances of [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md), and it associates **Msvm\_\*** derivatives of [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice) with **Msvm\_\*** derivatives of [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
 The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.
 
@@ -74,7 +74,7 @@ A reference to the currently active settings for the virtual machine.
 
 ## Remarks
 
-Access to the **Msvm\_SettingsDefineState** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_SettingsDefineState** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -97,16 +97,11 @@ Access to the **Msvm\_SettingsDefineState** class might be restricted by UAC Fil
 [**CIM\_SettingsDefineState**](cim-settingsdefinestate.md)
 </dt> <dt>
 
-[**CIM\_SettingsDefineState**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-settingsdefinestate)
+[**CIM\_SettingsDefineState**](/previous-versions/windows/desktop/clushyperv/cim-settingsdefinestate)
 </dt> <dt>
 
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

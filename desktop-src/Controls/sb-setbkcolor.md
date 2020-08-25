@@ -30,7 +30,7 @@ Sets the background color in a status bar.
 *lParam* 
 </dt> <dd>
 
-[**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value that specifies the new background color. Specify the CLR\_DEFAULT value to cause the status bar to use its default background color.
+[**COLORREF**](/windows/desktop/gdi/colorref) value that specifies the new background color. Specify the CLR\_DEFAULT value to cause the status bar to use its default background color.
 
 </dd> </dl>
 
@@ -51,10 +51,4 @@ Returns the previous background color, or CLR\_DEFAULT if the background color i
 
 
  
-
- 
-
-
-
-
 

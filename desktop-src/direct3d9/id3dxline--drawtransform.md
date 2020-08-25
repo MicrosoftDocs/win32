@@ -50,7 +50,7 @@ Array of vertices that make up the line. See [**D3DXVECTOR3**](d3dxvector3.md).
 *dwVertexListCount* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Number of vertices in the vertex list.
 
@@ -101,7 +101,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

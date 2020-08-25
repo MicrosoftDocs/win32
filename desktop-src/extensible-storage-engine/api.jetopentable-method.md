@@ -90,7 +90,7 @@ public static JET_wrn JetOpenTable(
 <!-- end list -->
 
   - tablename  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The name of the table to open.
 
@@ -104,7 +104,7 @@ public static JET_wrn JetOpenTable(
 <!-- end list -->
 
   - parametersSize  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The parameter is not used.
 
@@ -136,4 +136,3 @@ An ESENT warning.
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

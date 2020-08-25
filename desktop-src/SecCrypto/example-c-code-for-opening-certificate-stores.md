@@ -73,7 +73,7 @@ else
 
 
 
-The following example opens a store from disk. The example uses the **CreateMyDACL** function, defined in the [Creating a DACL](https://msdn.microsoft.com/library/ms717798(v=VS.85).aspx) topic, to ensure the open file is created with a proper DACL.
+The following example opens a store from disk. The example uses the **CreateMyDACL** function, defined in the [Creating a DACL](../secbp/creating-a-dacl.md) topic, to ensure the open file is created with a proper DACL.
 
 
 ```C++
@@ -428,6 +428,3 @@ free(message_BLOB.pbData);
  
 
  
-
-
-

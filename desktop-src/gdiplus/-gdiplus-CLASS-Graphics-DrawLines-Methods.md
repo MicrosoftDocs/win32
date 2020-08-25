@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Graphics.DrawLines methods
 
-This topic lists the DrawLines methods of the [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx).
+This topic lists the DrawLines methods of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics).
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the DrawLines methods of the [**Graphics**](https://msdn.micros
 
 | Method                                                                                                      | Description                                                                                                                                                  |
 |:------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DrawLines(Pen\*,Point\*,INT)**](https://msdn.microsoft.com/library/ms536017(v=VS.85).aspx)   | The [**Graphics::DrawLines**](https://msdn.microsoft.com/library/ms536017(v=VS.85).aspx) method draws a sequence of connected lines.<br/>  |
-| [**DrawLines(Pen\*,PointF\*,INT)**](https://msdn.microsoft.com/library/ms536019(v=VS.85).aspx) | The [**Graphics::DrawLines**](https://msdn.microsoft.com/library/ms536019(v=VS.85).aspx) method draws a sequence of connected lines.<br/> |
+| [**DrawLines(Pen\*,Point\*,INT)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawlines(inconstpen_inconstpoint_inint))   | The [**Graphics::DrawLines**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawlines(inconstpen_inconstpoint_inint)) method draws a sequence of connected lines.<br/>  |
+| [**DrawLines(Pen\*,PointF\*,INT)**](/previous-versions//ms536019(v=vs.85)) | The [**Graphics::DrawLines**](/previous-versions//ms536019(v=vs.85)) method draws a sequence of connected lines.<br/> |
 
 
 
@@ -34,7 +34,3 @@ This topic lists the DrawLines methods of the [**Graphics**](https://msdn.micros
  
 
  
-
-
-
-

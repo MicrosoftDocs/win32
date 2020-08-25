@@ -1,6 +1,6 @@
 ---
 title: baseeapconnectionpropertiesv1 Schema Elements
-description: Is made up of the following schema elements.
+description: Learn about the baseeapconnectionpropertiesv1 schema elements. The elements are Eap, EapType, and Type (BaseEapParameters) elements.
 ms.assetid: d9f4a20c-2120-47ee-a1f7-28961d5cf677
 ms.topic: article
 ms.date: 05/31/2018

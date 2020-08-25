@@ -243,19 +243,15 @@ Set sacl = sd.SystemAcl
 
 <dl> <dt>
 
-[Syntaxes for Active Directory Attributes](https://docs.microsoft.com/windows/desktop/AD/syntaxes-for-attributes-in-active-directory-domain-services)
+[Syntaxes for Active Directory Attributes](/windows/desktop/AD/syntaxes-for-attributes-in-active-directory-domain-services)
 </dt> <dt>
 
-[Choosing a Syntax](https://docs.microsoft.com/windows/desktop/AD/choosing-a-syntax)
+[Choosing a Syntax](/windows/desktop/AD/choosing-a-syntax)
 </dt> <dt>
 
-[How to Specify Comparison Values](https://docs.microsoft.com/windows/desktop/AD/how-to-specify-comparison-values)
+[How to Specify Comparison Values](/windows/desktop/AD/how-to-specify-comparison-values)
 </dt> </dl>
 
  
 
  
-
-
-
-

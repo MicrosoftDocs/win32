@@ -29,7 +29,7 @@ Contains the constituent parts of a URL. This structure is used with the [**WinH
 [**WINHTTP_ASYNC_RESULT**](/windows/win32/api/winhttp/ns-winhttp-winhttp_async_result)
 </dt> <dd>
 
-Contains the result of a call to an asynchronous function. This structure is used with the [**WINHTTP_STATUS_CALLBACK**](https://msdn.microsoft.com/library/Aa383917(v=VS.85).aspx) prototype.
+Contains the result of a call to an asynchronous function. This structure is used with the [**WINHTTP_STATUS_CALLBACK**](/windows/win32/api/winhttp/nc-winhttp-winhttp_status_callback) prototype.
 
 </dd> <dt>
 

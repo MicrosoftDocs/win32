@@ -30,14 +30,14 @@ Process of terminating the logical connection between a client and server.
 <span id="_rpc_unique_pointer_glos"></span><span id="_RPC_UNIQUE_POINTER_GLOS"></span>**unique pointer**
 </dt> <dd>
 
-Pointer that can be null or point to existing data, whose value can change during a remote procedure call. A unique pointer cannot be aliased. The \[ [unique](https://docs.microsoft.com/windows/desktop/Midl/unique)\] attribute designates a unique pointer. See also [*full pointer*](f-glos.md), [*reference pointer*](r-glos.md).
+Pointer that can be null or point to existing data, whose value can change during a remote procedure call. A unique pointer cannot be aliased. The \[ [unique](/windows/desktop/Midl/unique)\] attribute designates a unique pointer. See also [*full pointer*](f-glos.md), [*reference pointer*](r-glos.md).
 
 </dd> <dt>
 
 <span id="_rpc_uuid_glos"></span><span id="_RPC_UUID_GLOS"></span>**Universal Unique Identifier (UUID)**
 </dt> <dd>
 
-(or [**GUID**](/windows/win32/api/guiddef/ns-guiddef-guid)) 128-bit value used in cross-process communication to identify entities such as client and server interfaces, manager entry-point vectors, and RPC objects. See also [uuidgen](https://docs.microsoft.com/windows).
+(or [**GUID**](/windows/win32/api/guiddef/ns-guiddef-guid)) 128-bit value used in cross-process communication to identify entities such as client and server interfaces, manager entry-point vectors, and RPC objects. See also [uuidgen](/windows).
 
 </dd> <dt>
 
@@ -51,14 +51,10 @@ Process of unpackaging parameters that have been sent across process boundaries.
 <span id="_rpc_uuidgen_glos"></span><span id="_RPC_UUIDGEN_GLOS"></span>**uuidgen**
 </dt> <dd>
 
-Utility program, provided with the Platform Software Development Kit (SDK), that uses a time value and your machine's network card ID to generate [UUIDs](https://docs.microsoft.com/windows) that are guaranteed to be unique.
+Utility program, provided with the Platform Software Development Kit (SDK), that uses a time value and your machine's network card ID to generate [UUIDs](/windows) that are guaranteed to be unique.
 
 </dd> </dl>
 
  
 
  
-
-
-
-

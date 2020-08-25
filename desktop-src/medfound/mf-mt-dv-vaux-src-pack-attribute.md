@@ -16,7 +16,7 @@ Video auxiliary (VAUX) source pack in a digital video (DV) media type.
 
 ## Remarks
 
-This attribute corresponds to the **dwDVVAuxSrc** member of the DirectShow [**DVINFO**](https://msdn.microsoft.com/library/Dd388639(v=VS.85).aspx) structure.
+This attribute corresponds to the **dwDVVAuxSrc** member of the DirectShow [**DVINFO**](/windows/win32/api/strmif/ns-strmif-dvinfo) structure.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -54,7 +54,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

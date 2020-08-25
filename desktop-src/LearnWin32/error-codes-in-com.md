@@ -15,9 +15,9 @@ This produces the following numeric ranges:
 -   Success codes: 0x0–0x7FFFFFFF.
 -   Error codes: 0x80000000–0xFFFFFFFF.
 
-A small number of COM methods do not return an **HRESULT** value. For example, the [**AddRef**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref) and [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) methods return unsigned long values. But every COM method that returns an error code does so by returning an **HRESULT** value.
+A small number of COM methods do not return an **HRESULT** value. For example, the [**AddRef**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref) and [**Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) methods return unsigned long values. But every COM method that returns an error code does so by returning an **HRESULT** value.
 
-To check whether a COM method succeeds, examine the high-order bit of the returned **HRESULT**. The Windows SDK headers provide two macros that make this easier: the [**SUCCEEDED**](https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded) macro and the [**FAILED**](https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed) macro. The **SUCCEEDED** macro returns **TRUE** if an **HRESULT** is a success code and **FALSE** if it is an error code. The following example checks whether [**CoInitializeEx**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) succeeds.
+To check whether a COM method succeeds, examine the high-order bit of the returned **HRESULT**. The Windows SDK headers provide two macros that make this easier: the [**SUCCEEDED**](/windows/desktop/api/winerror/nf-winerror-succeeded) macro and the [**FAILED**](/windows/desktop/api/winerror/nf-winerror-failed) macro. The **SUCCEEDED** macro returns **TRUE** if an **HRESULT** is a success code and **FALSE** if it is an error code. The following example checks whether [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) succeeds.
 
 
 ```C++
@@ -36,7 +36,7 @@ else
 
 
 
-Sometimes it is more convenient to test the inverse condition. The [**FAILED**](https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed) macro does the opposite of [**SUCCEEDED**](https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded). It returns **TRUE** for an error code and **FALSE** for a success code.
+Sometimes it is more convenient to test the inverse condition. The [**FAILED**](/windows/desktop/api/winerror/nf-winerror-failed) macro does the opposite of [**SUCCEEDED**](/windows/desktop/api/winerror/nf-winerror-succeeded). It returns **TRUE** for an error code and **FALSE** for a success code.
 
 
 ```C++
@@ -64,7 +64,3 @@ Later in this module, we will look at some practical advice for how to structure
  
 
  
-
-
-
-

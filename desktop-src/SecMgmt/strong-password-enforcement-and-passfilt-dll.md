@@ -36,14 +36,9 @@ Strong password enforcement can be enabled by using the system administration to
 3.  Enable the **Passwords must meet complexity requirements** setting.
 
 > [!Note]  
-> A given character can satisfy only one category. The [GetStringTypeW](https://msdn.microsoft.com/library/dd318119(VS.85).aspx) function is used to test whether each character in the password is uppercase, lowercase, or alphanumeric.
+> A given character can satisfy only one category. The [GetStringTypeW](/windows/win32/api/stringapiset/nf-stringapiset-getstringtypew) function is used to test whether each character in the password is uppercase, lowercase, or alphanumeric.
 
  
 
  
-
- 
-
-
-
 

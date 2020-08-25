@@ -16,10 +16,10 @@ CLSID\_CColorConvertDMO
 
 ## Interfaces
 
--   [**IMediaObject**](https://msdn.microsoft.com/library/Dd406926(v=VS.85).aspx)
+-   [**IMediaObject**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject)
 -   [**IMFRealTimeClient**](/windows/desktop/api/mfidl/nn-mfidl-imfrealtimeclient)
 -   [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)
--   [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx)
+-   [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore)
 -   [IWMColorConvProps](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcolorconvprops)
 
 ## Input Formats
@@ -82,7 +82,7 @@ The globally unique identifiers (GUIDs) for RGB media subtypes differ depending 
 
 By default, this DSP copies the entire source image to the output buffer. Optionally, you can specify source and destination rectangles. The DSP copies the portion of the source image defined by source rectangle, and writes it into the destination rectangle on the output buffer. The DSP does not perform any scaling; the source and destination rectangles must be the same size. The source and destination rectangles cannot exceed the boundaries of the video frame.
 
-All of the properties except [**MFPKEY\_COLORCONV\_MODE**](mfpkey-colorconv-mode.md) must be set in a group. If you set any of these properties, you must set all of the others. Otherwise, the source and destination rectangles might be invalid, in which case both the [**IMFTransform::ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) and [**IMediaObject::ProcessOutput**](https://msdn.microsoft.com/library/Dd406960(v=VS.85).aspx) methods will return **E\_INVALIDARG**.
+All of the properties except [**MFPKEY\_COLORCONV\_MODE**](mfpkey-colorconv-mode.md) must be set in a group. If you set any of these properties, you must set all of the others. Otherwise, the source and destination rectangles might be invalid, in which case both the [**IMFTransform::ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) and [**IMediaObject::ProcessOutput**](/previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processoutput) methods will return **E\_INVALIDARG**.
 
 The color converter does not support every combination of input format and output format. Usually, you should set the media format that you know, either input or output, and then enumerate the available formats on the opposite stream.
 
@@ -109,7 +109,3 @@ The color converter does not support every combination of input format and outpu
  
 
  
-
-
-
-

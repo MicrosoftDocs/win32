@@ -10,15 +10,15 @@ ms.date: 05/31/2018
 
 This section contains reference information for the functions that you need to use when you work with Direct3D. The following functions are implemented:
 
-- [**D3DPERF_BeginEvent**](/windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_beginevent)
-- [**D3DPERF_EndEvent**](/windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_endevent)
-- [**D3DPERF_GetStatus**](/windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_getstatus)
-- [**D3DPERF_QueryRepeatFrame**](/windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_queryrepeatframe)
-- [**D3DPERF_SetMarker**](/windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_setmarker)
-- [**D3DPERF_SetOptions**](/windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_setoptions)
-- [**D3DPERF_SetRegion**](/windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_setregion)
+- [**D3DPERF_BeginEvent**](./d3d9/nf-d3d9-d3dperf_beginevent.md)
+- [**D3DPERF_EndEvent**](./d3d9/nf-d3d9-d3dperf_endevent.md)
+- [**D3DPERF_GetStatus**](./d3d9/nf-d3d9-d3dperf_getstatus.md)
+- [**D3DPERF_QueryRepeatFrame**](./d3d9/nf-d3d9-d3dperf_queryrepeatframe.md)
+- [**D3DPERF_SetMarker**](./d3d9/nf-d3d9-d3dperf_setmarker.md)
+- [**D3DPERF_SetOptions**](./d3d9/nf-d3d9-d3dperf_setoptions.md)
+- [**D3DPERF_SetRegion**](./d3d9/nf-d3d9-d3dperf_setregion.md)
 - [**DebugSetMute**](debugsetmute.md)
-- [**Direct3DCreate9**](https://msdn.microsoft.com/library/Bb219685(v=VS.85).aspx)
+- [**Direct3DCreate9**](/windows/win32/api/d3d9/nf-d3d9-direct3dcreate9)
 
     <table>
     <colgroup>
@@ -46,7 +46,3 @@ This section contains reference information for the functions that you need to u
  
 
  
-
-
-
-

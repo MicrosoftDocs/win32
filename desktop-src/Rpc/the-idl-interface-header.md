@@ -23,16 +23,12 @@ interface INTERFACENAME
 }
 ```
 
-Notice that the interface header contains the **\[**[**uuid**](https://docs.microsoft.com/windows/desktop/Midl/uuid)**\]** and **\[**[**version**](https://docs.microsoft.com/windows/desktop/Midl/version)**\]** attributes. Since these represent the UUID and version number of the interface respectively, they are attributes of the entire interface.
+Notice that the interface header contains the **\[**[**uuid**](/windows/desktop/Midl/uuid)**\]** and **\[**[**version**](/windows/desktop/Midl/version)**\]** attributes. Since these represent the UUID and version number of the interface respectively, they are attributes of the entire interface.
 
 The interface body can also contain attributes. However, they are not applicable to the entire interface. They refer to specific items in the interface such as remote procedure parameters.
 
-For a complete discussion of the IDL header attributes, see the [MIDL Language Reference](https://docs.microsoft.com/windows/desktop/Midl/midl-language-reference).
+For a complete discussion of the IDL header attributes, see the [MIDL Language Reference](/windows/desktop/Midl/midl-language-reference).
 
  
 
  
-
-
-
-

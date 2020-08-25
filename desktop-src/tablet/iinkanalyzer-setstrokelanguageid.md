@@ -65,7 +65,7 @@ This method does not move a stroke if the *lStrokeLCID* parameter matches the st
 
 If the specified stroke is not associated with the [**IInkAnalyzer**](iinkanalyzer.md), this method returns without updating the **IInkAnalyzer**.
 
-For more information about language identifiers, see [Language Identifier Constants and Strings](https://docs.microsoft.com/windows/desktop/Intl/language-identifier-constants-and-strings).
+For more information about language identifiers, see [Language Identifier Constants and Strings](/windows/desktop/Intl/language-identifier-constants-and-strings).
 
 ## Requirements
 
@@ -109,9 +109,4 @@ For more information about language identifiers, see [Language Identifier Consta
 </dt> </dl>
 
  
-
- 
-
-
-
 

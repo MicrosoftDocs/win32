@@ -77,14 +77,14 @@ public static void JetGetCurrentIndex(
 <!-- end list -->
 
   - indexName  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     Returns the name of the index.
 
 <!-- end list -->
 
   - maxNameLength  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The maximum length of the index name. Index names are no more than [NameMost](dn351213\(v=exchg.10\).md) characters.
 
@@ -97,4 +97,3 @@ public static void JetGetCurrentIndex(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

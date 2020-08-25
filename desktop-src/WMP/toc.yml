@@ -5219,7 +5219,7 @@
         href: windows-media-device-manager-device-extensions-for-metadata-transfer.md
         items: 
         - name: "wmp_wmdm_metadata_round_trip_pc2device"
-          href: https://docs.microsoft.com/en-us/previous-versions//aa393530(v=vs.85)?redirectedfrom=MSDN
+          href: /previous-versions//aa393530(v=vs.85)
         - name: "wmp_wmdm_metadata_round_trip_device2pc"
           href: /previous-versions/bb263061(v%3Dvs.85)
     - name: "device extensions for reporting acquired content"

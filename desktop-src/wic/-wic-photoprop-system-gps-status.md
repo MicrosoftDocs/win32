@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.Status Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.Status](https://msdn.microsoft.com/library/bb760590(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.Status](../properties/props-system-gps-status.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.GPS.Status](https://msdn.microsoft.com/library/bb760590(VS.85).aspx)
+[System.GPS.Status](../properties/props-system-gps-status.md)
 </dt> </dl>
 
  
 
  
-
-
-

@@ -342,7 +342,7 @@ The **\_\_InstanceProviderRegistration** class is derived from [**\_\_ObjectProv
 
 <dl> <dt>
 
-[**\_\_ObjectProviderRegistration**](https://docs.microsoft.com/windows/desktop/WmiSdk/--objectproviderregistration)
+[**\_\_ObjectProviderRegistration**](/windows/desktop/WmiSdk/--objectproviderregistration)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
@@ -355,9 +355,4 @@ The **\_\_InstanceProviderRegistration** class is derived from [**\_\_ObjectProv
 </dt> </dl>
 
  
-
- 
-
-
-
 

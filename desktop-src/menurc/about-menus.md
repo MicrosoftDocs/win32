@@ -79,7 +79,7 @@ An item on the menu bar almost always opens a menu. Menu bars rarely contain com
 
 The menu names on a menu bar represent the main categories of commands that an application provides. Selecting a menu name from the menu bar typically opens a menu whose menu items correspond to the commands in a category. For example, a menu bar might contain a **File** menu name that, when clicked by the user, activates a menu with menu items such as **New**, **Open**, and **Save**. To get information about a menu bar, call [**GetMenuBarInfo**](/windows/desktop/api/Winuser/nf-winuser-getmenubarinfo).
 
-Only an overlapped or pop-up window can contain a menu bar; a child window cannot contain one. If the window has a title bar, the system positions the menu bar just below it. A menu bar is always visible. A submenu is not visible, however, until the user selects a menu item that activates it. For more information about overlapped and pop-up windows, see [Window Types](https://docs.microsoft.com/windows/desktop/winmsg/window-features).
+Only an overlapped or pop-up window can contain a menu bar; a child window cannot contain one. If the window has a title bar, the system positions the menu bar just below it. A menu bar is always visible. A submenu is not visible, however, until the user selects a menu item that activates it. For more information about overlapped and pop-up windows, see [Window Types](/windows/desktop/winmsg/window-features).
 
 Each menu must have an owner window. The system sends messages to a menu's owner window when the user selects the menu or chooses an item from the menu.
 
@@ -101,13 +101,13 @@ The **Window** menu (also known as the **System** menu or **Control** menu) is a
 
 The **Window** menu provides a standard set of menu items that the user can choose to change a window's size or position, or close the application. Items on the window menu can be added, deleted, and modified, but most applications just use the standard set of menu items. An overlapped, pop-up, or child window can have a window menu. It is uncommon for an overlapped or pop-up window not to include a window menu.
 
-When the user chooses a command from the **Window** menu, the system sends a [**WM\_SYSCOMMAND**](wm-syscommand.md) message to the menu's owner window. In most applications, the window procedure does not process messages from the window menu. Instead, it simply passes the messages to the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function for system-default processing of the message. If an application adds a command to the window menu, the window procedure must process the command.
+When the user chooses a command from the **Window** menu, the system sends a [**WM\_SYSCOMMAND**](wm-syscommand.md) message to the menu's owner window. In most applications, the window procedure does not process messages from the window menu. Instead, it simply passes the messages to the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function for system-default processing of the message. If an application adds a command to the window menu, the window procedure must process the command.
 
 An application can use the [**GetSystemMenu**](/windows/desktop/api/Winuser/nf-winuser-getsystemmenu) function to create a copy of the default window menu to modify. Any window that does not use the **GetSystemMenu** function to make its own copy of the window menu receives the standard window menu.
 
 ### Help Identifier
 
-Associated with each menu bar, menu, submenu, and shortcut menu is a help identifier. If the user presses the F1 key while the menu is active, this value is sent to the owner window as part of a [**WM\_HELP**](https://msdn.microsoft.com/library/Bb774305(v=VS.85).aspx) message.
+Associated with each menu bar, menu, submenu, and shortcut menu is a help identifier. If the user presses the F1 key while the menu is active, this value is sent to the owner window as part of a [**WM\_HELP**](../shell/wm-help.md) message.
 
 ## Keyboard Access to Menus
 
@@ -193,7 +193,7 @@ Using menu creation functions, you can create menus at run time or add menu item
 
 ### Menu Display
 
-After a menu has been loaded or created, it must be assigned to a window before the system can display it. You can assign a menu by defining a class menu. For more information, see [Window Class Menus](#window-class-menus). You can also assign a menu to a window by specifying a handle to the menu as the *hMenu* parameter of the [**CreateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, or by calling the [**SetMenu**](/windows/desktop/api/Winuser/nf-winuser-setmenu) function.
+After a menu has been loaded or created, it must be assigned to a window before the system can display it. You can assign a menu by defining a class menu. For more information, see [Window Class Menus](#window-class-menus). You can also assign a menu to a window by specifying a handle to the menu as the *hMenu* parameter of the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, or by calling the [**SetMenu**](/windows/desktop/api/Winuser/nf-winuser-setmenu) function.
 
 To display a shortcut menu use the [**TrackPopupMenuEx**](/windows/desktop/api/Winuser/nf-winuser-trackpopupmenuex) function. Shortcut menus, also called floating pop-up menus or context menus, are typically displayed when the [**WM\_CONTEXTMENU**](wm-contextmenu.md) message is processed.
 
@@ -203,9 +203,9 @@ The older [**TrackPopupMenu**](/windows/desktop/api/Winuser/nf-winuser-trackpopu
 
 ### Window Class Menus
 
-You can specify a default menu, called a *class menu,* when you register a window class. To do so, you assign the name of the menu-template resource to the **lpszMenuName** member of the [**WNDCLASS**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-wndclassa) structure used to register the class.
+You can specify a default menu, called a *class menu,* when you register a window class. To do so, you assign the name of the menu-template resource to the **lpszMenuName** member of the [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) structure used to register the class.
 
-By default, every window is assigned the class menu for its window class so you do not need to explicitly load the menu and assign it to each window. You can override the class menu by specifying a different menu handle in a call to the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function. You can also change a window's menu after it is created by using the [**SetMenu**](/windows/desktop/api/Winuser/nf-winuser-setmenu) function. For more information, see [Window Classes](https://docs.microsoft.com/windows/desktop/winmsg/window-classes).
+By default, every window is assigned the class menu for its window class so you do not need to explicitly load the menu and assign it to each window. You can override the class menu by specifying a different menu handle in a call to the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function. You can also change a window's menu after it is created by using the [**SetMenu**](/windows/desktop/api/Winuser/nf-winuser-setmenu) function. For more information, see [Window Classes](/windows/desktop/winmsg/window-classes).
 
 ## Menu Items
 
@@ -268,7 +268,7 @@ Sometimes, a group of menu items corresponds to a set of mutually exclusive opti
 
 By default, the system displays a check mark or bullet bitmap next to selected menu items and no bitmap next to cleared menu items. However, you can use the [**SetMenuItemBitmaps**](/windows/desktop/api/Winuser/nf-winuser-setmenuitembitmaps) function to associate application-defined selected and cleared bitmaps with a menu item. The system then uses the specified bitmaps to indicate the menu item's selected or cleared state.
 
-Application-defined bitmaps associated with a menu item must be the same size as the default check mark bitmap, the dimensions of which may vary depending on screen resolution. To retrieve the correct dimensions, use the [**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function. You can create multiple bitmap resources for different screen resolutions; create one bitmap resource and scale it, if necessary; or create a bitmap at run time and draw an image in it. The bitmaps may be either monochrome or color. However, because menu items are inverted when highlighted, the appearance of certain inverted color bitmaps may be undesirable. For more information, see [Bitmaps](https://docs.microsoft.com/windows/desktop/gdi/bitmaps).
+Application-defined bitmaps associated with a menu item must be the same size as the default check mark bitmap, the dimensions of which may vary depending on screen resolution. To retrieve the correct dimensions, use the [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function. You can create multiple bitmap resources for different screen resolutions; create one bitmap resource and scale it, if necessary; or create a bitmap at run time and draw an image in it. The bitmaps may be either monochrome or color. However, because menu items are inverted when highlighted, the appearance of certain inverted color bitmaps may be undesirable. For more information, see [Bitmaps](/windows/desktop/gdi/bitmaps).
 
 ### Enabled, Grayed, and Disabled Menu Items
 
@@ -296,7 +296,7 @@ The system provides a special type of menu item, called a *separator*, that appe
 
 When a menu bar contains more menu names than will fit on one line, the system wraps the menu bar by automatically breaking it into two or more lines. You can cause a line break to occur at a specific item on a menu bar by assigning the **MFT\_MENUBREAK** type flag to the item. The system places that item and all subsequent items on a new line.
 
-When a menu contains more items than will fit in one column, the menu will be truncated. You can cause a column break to occur at a specific item in a menu by assigning the **MFT\_MENUBREAK** type flag to the item or using the MENUBREAK option in the [MENUITEM](https://docs.microsoft.com/windows/desktop/menurc/menuitem-statement) statement. The system places that item and all subsequent items in a new column. The **MFT\_MENUBARBREAK** type flag has the same effect, except that a vertical line appears between the new column and the old.
+When a menu contains more items than will fit in one column, the menu will be truncated. You can cause a column break to occur at a specific item in a menu by assigning the **MFT\_MENUBREAK** type flag to the item or using the MENUBREAK option in the [MENUITEM](/windows/desktop/menurc/menuitem-statement) statement. The system places that item and all subsequent items in a new column. The **MFT\_MENUBARBREAK** type flag has the same effect, except that a vertical line appears between the new column and the old.
 
 If you use the [**AppendMenu**](/windows/desktop/api/Winuser/nf-winuser-appendmenua), [**InsertMenu**](/windows/desktop/api/Winuser/nf-winuser-insertmenua), or [**ModifyMenu**](/windows/desktop/api/Winuser/nf-winuser-modifymenua) functions to assign line breaks, you should assign the type flags **MF\_MENUBREAK** or **MF\_MENUBARBREAK**.
 
@@ -316,7 +316,7 @@ When the user chooses a command item from a menu, the system sends a [**WM\_COMM
 
 You can save information for a menu using the [**MENUINFO**](/windows/win32/api/winuser/ns-winuser-menuinfo) structure. If the menu is defined with a **MENUINFO**.**dwStyle** value of MNS\_NOTIFYBYPOS, the system sends [**WM\_MENUCOMMAND**](wm-menucommand.md) instead of the [**WM\_COMMAND**](wm-command.md) when an item is selected. This allows you to access the information in the **MENUINFO** structure and also provides the index of the selected item directly.
 
-Not all menus are accessible through a window's menu bar. Many applications display shortcut menus when the user clicks the right mouse button at a specific location. Such applications should process the [**WM\_CONTEXTMENU**](wm-contextmenu.md) message and display a shortcut menu, if appropriate. If an application does not display a shortcut menu, it should pass the **WM\_CONTEXTMENU** message to the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function for default processing.
+Not all menus are accessible through a window's menu bar. Many applications display shortcut menus when the user clicks the right mouse button at a specific location. Such applications should process the [**WM\_CONTEXTMENU**](wm-contextmenu.md) message and display a shortcut menu, if appropriate. If an application does not display a shortcut menu, it should pass the **WM\_CONTEXTMENU** message to the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function for default processing.
 
 The [**WM\_MENURBUTTONUP**](wm-menurbuttonup.md) message is sent when the user releases the right mouse button while the cursor is on a menu item. This message is provided so that applications can display a context-sensitive or shortcut menu for a menu item.
 
@@ -326,12 +326,8 @@ When a drop-down menu or a submenu has been destroyed, the system sends a [**WM\
 
 ## Menu Destruction
 
-If a menu is assigned to a window and that window is destroyed, the system automatically destroys the menu and its submenus, freeing the menu's handle and the memory occupied by the menu. The system does not automatically destroy a menu that is not assigned to a window. An application must destroy the unassigned menu by calling the [**DestroyMenu**](/windows/desktop/api/Winuser/nf-winuser-destroymenu) function. Otherwise, the menu continues to exist in memory even after the application closes. To end the calling thread's active menu, use [**EndMenu**](/windows/desktop/api/Winuser/nf-winuser-endmenu). If a platform does not support **EndMenu**, send the owner of the active menu a [**WM\_CANCELMODE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-cancelmode) message.
+If a menu is assigned to a window and that window is destroyed, the system automatically destroys the menu and its submenus, freeing the menu's handle and the memory occupied by the menu. The system does not automatically destroy a menu that is not assigned to a window. An application must destroy the unassigned menu by calling the [**DestroyMenu**](/windows/desktop/api/Winuser/nf-winuser-destroymenu) function. Otherwise, the menu continues to exist in memory even after the application closes. To end the calling thread's active menu, use [**EndMenu**](/windows/desktop/api/Winuser/nf-winuser-endmenu). If a platform does not support **EndMenu**, send the owner of the active menu a [**WM\_CANCELMODE**](/windows/desktop/winmsg/wm-cancelmode) message.
 
  
 
  
-
-
-
-

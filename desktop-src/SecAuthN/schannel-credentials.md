@@ -8,15 +8,12 @@ ms.date: 05/31/2018
 
 # Schannel Credentials
 
-Schannel protocols require credentials to authenticate servers and optionally, clients. Server authentication, where the server provides proof of its identity to the client, is required by the Schannel [*security protocols*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx). Client authentication may be requested by the server at any time.
+Schannel protocols require credentials to authenticate servers and optionally, clients. Server authentication, where the server provides proof of its identity to the client, is required by the Schannel [*security protocols*](../secgloss/s-gly.md). Client authentication may be requested by the server at any time.
 
-Schannel credentials are [*X.509*](https://msdn.microsoft.com/library/ms721636(v=VS.85).aspx) certificates. [*Public*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) and [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) information from certificates is used to authenticate the server and optionally, the client. These keys are also used to provide message [*integrity*](https://msdn.microsoft.com/library/ms721588(v=VS.85).aspx) while client and server exchange the information required to generate and exchange [*session keys*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
+Schannel credentials are [*X.509*](../secgloss/x-gly.md) certificates. [*Public*](../secgloss/p-gly.md) and [*private key*](../secgloss/p-gly.md) information from certificates is used to authenticate the server and optionally, the client. These keys are also used to provide message [*integrity*](../secgloss/i-gly.md) while client and server exchange the information required to generate and exchange [*session keys*](../secgloss/s-gly.md).
 
 For programming information, see [Obtaining Schannel Credentials](obtaining-schannel-credentials.md).
 
  
 
  
-
-
-

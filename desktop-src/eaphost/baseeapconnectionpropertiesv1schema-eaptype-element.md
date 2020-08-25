@@ -1,6 +1,6 @@
 ---
-title: EapType Element
-description: Captures method-specific configuration inside the Eap element.
+title: EapType element (v1 schema connection property)
+description: Learn about the EapType element. This element captures method-specific configuration inside the Eap element.
 ms.assetid: f953e150-64cf-41b2-937f-410799be4602
 keywords:
 - EapType element EAPHost
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# EapType Element
+# EapType Element (v1 schema connection property)
 
 The **EapType** element captures method-specific configuration inside the Eap element.
 
@@ -34,10 +34,10 @@ The **EapType** element is abstract; each method must define and use a derived e
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

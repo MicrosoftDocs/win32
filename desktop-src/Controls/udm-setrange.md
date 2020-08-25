@@ -30,7 +30,7 @@ Sets the minimum and maximum positions (range) for an up-down control.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is a **short** that specifies the maximum position for the up-down control, and the [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) is a **short** that specifies the minimum position. Neither position can be greater than the UD\_MAXVAL value or less than the UD\_MINVAL value. In addition, the difference between the two positions cannot exceed UD\_MAXVAL.
+The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is a **short** that specifies the maximum position for the up-down control, and the [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) is a **short** that specifies the minimum position. Neither position can be greater than the UD\_MAXVAL value or less than the UD\_MINVAL value. In addition, the difference between the two positions cannot exceed UD\_MAXVAL.
 
 </dd> </dl>
 
@@ -58,17 +58,11 @@ The maximum position can be less than the minimum position. Clicking the up arro
 
 <dl> <dt>
 
-[**MAKELPARAM**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makelparam)
+[**MAKELPARAM**](/windows/desktop/api/winuser/nf-winuser-makelparam)
 </dt> <dt>
 
 [**UDM\_SETRANGE**](udm-setrange.md)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 -   [**DialogBoxIndirect**](/windows/desktop/api/Winuser/nf-winuser-dialogboxindirecta)
 -   [**DialogBoxIndirectParam**](/windows/desktop/api/Winuser/nf-winuser-dialogboxindirectparama)
 -   [**DialogBoxParam**](/windows/desktop/api/Winuser/nf-winuser-dialogboxparama)
--   [*DialogProc*](https://msdn.microsoft.com/library/ms645469(v=VS.85).aspx)
+-   [*DialogProc*](/windows/win32/api/winuser/nc-winuser-dlgproc)
 -   [**EndDialog**](/windows/desktop/api/Winuser/nf-winuser-enddialog)
 -   [**GetDialogBaseUnits**](/windows/desktop/api/Winuser/nf-winuser-getdialogbaseunits)
 -   [**GetDlgCtrlID**](/windows/desktop/api/Winuser/nf-winuser-getdlgctrlid)
@@ -40,7 +40,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

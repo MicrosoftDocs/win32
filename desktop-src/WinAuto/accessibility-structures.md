@@ -33,14 +33,8 @@ This section describes the structures used to implement Windows accessibility fe
 
 <dl> <dt>
 
-[Windows Accessibility Features](windows-accessibility-features.md)
+[Windows Accessibility Features](../accessibility/accessibility.md)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

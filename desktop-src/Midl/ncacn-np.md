@@ -42,7 +42,7 @@ Specifies a valid pipe name. A valid pipe name is a string containing identifier
 
 ## Remarks
 
-A server creates an instance of a named pipe that is then available to any client. When a client attempts to connect, the existing instance is associated with that client. Before another client can connect, the server must create another instance of the named pipe. If a client tries to bind to the server before the new instance is created, the binding call, [**RpcBindingFromStringBinding**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding), may fail with the error message RPC\_S\_SERVER\_TOO\_BUSY. Therefore, you need to make sure that your client application handles the case where the server is too busy to accept a connection. The client should automatically retry, prompt the user for a course of action, or fail gracefully.
+A server creates an instance of a named pipe that is then available to any client. When a client attempts to connect, the existing instance is associated with that client. Before another client can connect, the server must create another instance of the named pipe. If a client tries to bind to the server before the new instance is created, the binding call, [**RpcBindingFromStringBinding**](/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding), may fail with the error message RPC\_S\_SERVER\_TOO\_BUSY. Therefore, you need to make sure that your client application handles the case where the server is too busy to accept a connection. The client should automatically retry, prompt the user for a course of action, or fail gracefully.
 
 The syntax of the named-pipe port string, like all port strings, is defined by the transport implementation and is independent of the IDL specification. The MIDL compiler performs limited syntax checking but does not guarantee that the endpoint specification is correct. Some classes of errors may be reported at run time rather than at compile time.
 
@@ -113,13 +113,9 @@ interface iface2
 [**ncadg\_ip\_udp**](ncadg-ip-udp.md)
 </dt> <dt>
 
-[**string binding**](https://docs.microsoft.com/windows/desktop/Rpc/string-binding)
+[**string binding**](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
  
 
  
-
-
-
-

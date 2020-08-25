@@ -56,7 +56,7 @@ A pointer to an input mesh (see [**ID3DXMesh**](id3dxmesh.md)) which contains th
 *dwTextureIndex* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Zero-based texture coordinate index that identifies which set of texture coordinates to use.
 
@@ -65,7 +65,7 @@ Zero-based texture coordinate index that identifies which set of texture coordin
 *uSignalDimension* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The number of components in each data point in the signal.
 
@@ -74,7 +74,7 @@ The number of components in each data point in the signal.
 *fMaxUVDistance* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The maximum distance between vertices; the algorithm continues subdividing until the distance between all vertices is less than or equal to fMaxUVDistance.
 
@@ -83,9 +83,9 @@ The maximum distance between vertices; the algorithm continues subdividing until
 *dwOptions* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
-Texture wrap options. This is a combination of one or more [**D3DXIMT FLAGS**](https://msdn.microsoft.com/library/Bb172880(v=VS.85).aspx).
+Texture wrap options. This is a combination of one or more [**D3DXIMT FLAGS**](./d3dximt-flags.md).
 
 </dd> <dt>
 
@@ -119,7 +119,7 @@ A pointer to a callback function to monitor IMT computation progress.
 *pUserContext* 
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](../winprog/windows-data-types.md)**
 
 A pointer to a user-defined variable which is passed to the status callback function. Typically used by an application to pass a pointer to a data structure that provides context information for the callback function.
 
@@ -168,7 +168,3 @@ This function requires that the input mesh contain a signal-to-mesh texture mapp
  
 
  
-
-
-
-

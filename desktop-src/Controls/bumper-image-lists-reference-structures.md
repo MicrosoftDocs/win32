@@ -10,13 +10,9 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**IMAGEINFO**](https://msdn.microsoft.com/library/Bb761393(v=VS.85).aspx)
--   [**IMAGELISTDRAWPARAMS**](https://msdn.microsoft.com/library/Bb761395(v=VS.85).aspx)
+-   [**IMAGEINFO**](/windows/win32/api/commctrl/ns-commctrl-imageinfo)
+-   [**IMAGELISTDRAWPARAMS**](/windows/win32/api/commctrl/ns-commctrl-imagelistdrawparams)
 
  
 
  
-
-
-
-

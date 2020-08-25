@@ -19,7 +19,7 @@ api_location:
 
 # GetStreamPropertiesOperation.Completed property
 
-Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetStreamPropertiesAsync**](https://msdn.microsoft.com/library/Hh829001(v=VS.85).aspx) is completed.
+Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetStreamPropertiesAsync**](/previous-versions/windows/desktop/legacy/hh829001(v=vs.85)) is completed.
 
 This property is read/write.
 
@@ -52,7 +52,3 @@ The event handler.
  
 
  
-
-
-
-

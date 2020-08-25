@@ -18,7 +18,7 @@ The following functions are used with enhanced-format metafiles.
 | [**CopyEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-copyenhmetafilea)                           | Copies the contents of an enhanced-format metafile to a specified file.                                                |
 | [**CreateEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-createenhmetafilea)                       | Creates a device context for an enhanced-format metafile.                                                              |
 | [**DeleteEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-deleteenhmetafile)                       | Deletes an enhanced-format metafile or an enhanced-format metafile handle.                                             |
-| [**EnhMetaFileProc**](https://msdn.microsoft.com/library/Dd162606(v=VS.85).aspx)                           | An application-defined callback function used with the EnumEnhMetaFile function.                                       |
+| [**EnhMetaFileProc**](/windows/win32/api/wingdi/nc-wingdi-enhmfenumproc)                           | An application-defined callback function used with the EnumEnhMetaFile function.                                       |
 | [**EnumEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-enumenhmetafile)                           | Enumerates the records within an enhanced-format metafile.                                                             |
 | [**GdiComment**](/windows/desktop/api/Wingdi/nf-wingdi-gdicomment)                                     | Copies a comment from a buffer into a specified enhanced-format metafile.                                              |
 | [**GetEnhMetaFile**](/windows/desktop/api/WinGdi/nf-wingdi-getenhmetafilea)                             | Creates a handle that identifies the enhanced-format metafile stored in the specified file.                            |
@@ -46,7 +46,7 @@ The following functions are obsolete. The are provided for compatibility with Wi
 -   [**CreateMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-createmetafilea)
 -   [**DeleteMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-deletemetafile)
 -   [**EnumMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-enummetafile)
--   [**EnumMetaFileProc**](https://msdn.microsoft.com/library/Dd162630(v=VS.85).aspx)
+-   [**EnumMetaFileProc**](/windows/win32/api/wingdi/nc-wingdi-mfenumproc)
 -   [**GetMetaFileBitsEx**](/windows/desktop/api/Wingdi/nf-wingdi-getmetafilebitsex)
 -   [**PlayMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-playmetafile)
 -   [**PlayMetaFileRecord**](/windows/desktop/api/Wingdi/nf-wingdi-playmetafilerecord)
@@ -55,6 +55,3 @@ The following functions are obsolete. The are provided for compatibility with Wi
  
 
  
-
-
-

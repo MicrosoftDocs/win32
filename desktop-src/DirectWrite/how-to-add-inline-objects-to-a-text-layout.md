@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Add Inline Objects to a Text Layout
 
-Provides a short tutorial on adding inline objects to a [DirectWrite](direct-write-portal.md) application that displays text using the [**IDWriteTextLayout**](https://msdn.microsoft.com/library/Dd316718(v=VS.85).aspx) interface.
+Provides a short tutorial on adding inline objects to a [DirectWrite](direct-write-portal.md) application that displays text using the [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) interface.
 
 The end product of this tutorial is an application that displays text with an inline image embedded in it, as shown in the following screen shot.
 
@@ -28,11 +28,11 @@ This tutorial contains the following parts:
 
 ## Step 1: Create a Text Layout.
 
-To begin, you will need an application with an [**IDWriteTextLayout**](https://msdn.microsoft.com/library/Dd316718(v=VS.85).aspx) object. If you already have an application that displays text with a text layout, skip to Step 2.
+To begin, you will need an application with an [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) object. If you already have an application that displays text with a text layout, skip to Step 2.
 
 To add a text layout you must do the following:
 
-1.  Declare a pointer to an [**IDWriteTextLayout**](https://msdn.microsoft.com/library/Dd316718(v=VS.85).aspx) interface as a member of the class.
+1.  Declare a pointer to an [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) interface as a member of the class.
     ```C++
     IDWriteTextLayout* pTextLayout_;
     
@@ -40,7 +40,7 @@ To add a text layout you must do the following:
 
     
 
-2.  At the end of the CreateDeviceIndependentResources method, create an [**IDWriteTextLayout**](https://msdn.microsoft.com/library/Dd316718(v=VS.85).aspx) interface object by calling the [**CreateTextLayout**](https://msdn.microsoft.com/library/Dd368205(v=VS.85).aspx) method.
+2.  At the end of the CreateDeviceIndependentResources method, create an [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) interface object by calling the [**CreateTextLayout**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtextlayout) method.
     ```C++
     // Create a text layout using the text format.
     if (SUCCEEDED(hr))
@@ -78,16 +78,16 @@ To add a text layout you must do the following:
 
 ## Step 2: Define a class derived from the IDWriteInlineObject interface.
 
-Support for inline objects in [DirectWrite](direct-write-portal.md) is provided by the [**IDWriteInlineObject**](https://msdn.microsoft.com/library/Dd371221(v=VS.85).aspx) interface. To use inline objects, you must implement this interface. It handles the drawing of the inline object, as well as providing metrics and other information to the renderer.
+Support for inline objects in [DirectWrite](direct-write-portal.md) is provided by the [**IDWriteInlineObject**](/windows/win32/api/dwrite/nn-dwrite-idwriteinlineobject) interface. To use inline objects, you must implement this interface. It handles the drawing of the inline object, as well as providing metrics and other information to the renderer.
 
-Create a new header file and declare an interface called InlineImage, derived from [**IDWriteInlineObject**](https://msdn.microsoft.com/library/Dd371221(v=VS.85).aspx).
+Create a new header file and declare an interface called InlineImage, derived from [**IDWriteInlineObject**](/windows/win32/api/dwrite/nn-dwrite-idwriteinlineobject).
 
 In addition to QueryInterface, AddRef, and Release inherited from IUnknown, this class must have the following methods:
 
--   [**Draw**](https://msdn.microsoft.com/library/Dd371225(v=VS.85).aspx)
--   [**GetMetrics**](https://msdn.microsoft.com/library/Dd371232(v=VS.85).aspx)
+-   [**Draw**](/windows/win32/api/dwrite/nf-dwrite-idwriteinlineobject-draw)
+-   [**GetMetrics**](/windows/win32/api/dwrite/nf-dwrite-idwriteinlineobject-getmetrics)
 -   [**GetOverhangMetrics**](idwriteinlineobject-getoverhangmetrics.md)
--   [**GetBreakConditions**](https://msdn.microsoft.com/library/Dd371229(v=VS.85).aspx)
+-   [**GetBreakConditions**](/windows/win32/api/dwrite/nf-dwrite-idwriteinlineobject-getbreakconditions)
 
 ## Step 3: Implement the Inline Object Class.
 
@@ -126,7 +126,7 @@ The render target, IWICImagingFactory, and the filename uri are all passed to th
 
 ### The Draw Method.
 
-The [**Draw**](https://msdn.microsoft.com/library/Dd371225(v=VS.85).aspx) method is a callback that is called by the [**IDWriteTextRenderer**](https://msdn.microsoft.com/library/Dd371523(v=VS.85).aspx) object when the inline object needs to be drawn. The text layout does not call this method directly.
+The [**Draw**](/windows/win32/api/dwrite/nf-dwrite-idwriteinlineobject-draw) method is a callback that is called by the [**IDWriteTextRenderer**](/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer) object when the inline object needs to be drawn. The text layout does not call this method directly.
 
 
 ```C++
@@ -173,7 +173,7 @@ HRESULT STDMETHODCALLTYPE InlineImage::GetMetrics(
 
 
 
-For the [**GetMetrics**](https://msdn.microsoft.com/library/Dd371232(v=VS.85).aspx) method, store the width, height and baseline in an [**DWRITE\_INLINE\_OBJECT\_METRICS**](/windows/win32/api/dwrite/ns-dwrite-dwrite_inline_object_metrics) structure. [**IDWriteTextLayout**](https://msdn.microsoft.com/library/Dd316718(v=VS.85).aspx) calls this callback function to get the measurement of the inline object.
+For the [**GetMetrics**](/windows/win32/api/dwrite/nf-dwrite-idwriteinlineobject-getmetrics) method, store the width, height and baseline in an [**DWRITE\_INLINE\_OBJECT\_METRICS**](/windows/win32/api/dwrite/ns-dwrite-dwrite_inline_object_metrics) structure. [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) calls this callback function to get the measurement of the inline object.
 
 ### The GetOverhangMetrics Method.
 
@@ -228,7 +228,7 @@ pTextLayout_->SetInlineObject(pInlineImage_, textRange);
 
 
 
-The [**IDWriteTextLayout::SetInlineObject**](https://msdn.microsoft.com/library/Dd371500(v=VS.85).aspx) method takes a text range structure. The object applies to the range specified here, and any text in the range will be suppressed. If the length of the text range is 0, the object will not be drawn.
+The [**IDWriteTextLayout::SetInlineObject**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setinlineobject) method takes a text range structure. The object applies to the range specified here, and any text in the range will be suppressed. If the length of the text range is 0, the object will not be drawn.
 
 In this example, there is an asterisk (\*) as a place holder in the position where the image will be displayed.
 
@@ -253,7 +253,3 @@ SafeRelease(&pInlineImage_);
  
 
  
-
-
-
-

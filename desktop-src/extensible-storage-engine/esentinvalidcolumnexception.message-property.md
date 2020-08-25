@@ -53,11 +53,11 @@ public override string Message { get; }
 
 #### Property value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+Type: [System.String](/dotnet/api/system.string)  
 
 #### Implements
 
-[_Exception.Message](https://docs.microsoft.com/dotnet/api/system.runtime.interopservices._exception.message?redirectedfrom=MSDN#System_Runtime_InteropServices__Exception_Message)  
+[_Exception.Message](/dotnet/api/system.runtime.interopservices._exception.message#System_Runtime_InteropServices__Exception_Message)  
 
 ## See also
 
@@ -68,4 +68,3 @@ Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redire
 [EsentInvalidColumnException members](dn319449\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

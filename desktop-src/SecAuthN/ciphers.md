@@ -17,10 +17,10 @@ A Digest SASL challenge's cipher directive contains a list of the ciphers suppor
 | Cipher value | Description                                                                                                                                                                                                                                                                                    |
 |--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | "rc4"        | The RC4 cipher with a 128-bit key.                                                                                                                                                                                                                                                             |
-| "3des"       | The [*triple DES*](https://docs.microsoft.com/windows/desktop/SecGloss/t-gly) cipher in [*CBC*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) mode with EDE with the same key for each E stage (two keys mode). Total key length is 112 bits. |
+| "3des"       | The [*triple DES*](/windows/desktop/SecGloss/t-gly) cipher in [*CBC*](/windows/desktop/SecGloss/c-gly) mode with EDE with the same key for each E stage (two keys mode). Total key length is 112 bits. |
 | "rc4-56"     | The RC4 cipher with a 56-bit key.                                                                                                                                                                                                                                                              |
 | "rc4-40"     | The RC4 cipher with a 40-bit key.                                                                                                                                                                                                                                                              |
-| "des"        | The [*Data Encryption Standard*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DES) cipher in [*cipher block chaining*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) (CBC) mode with a 56-bit key. |
+| "des"        | The [*Data Encryption Standard*](/windows/desktop/SecGloss/d-gly) (DES) cipher in [*cipher block chaining*](/windows/desktop/SecGloss/c-gly) (CBC) mode with a 56-bit key. |
 
 
 
@@ -31,6 +31,3 @@ When a server application requests confidentiality (qop="auth-conf") Microsoft D
  
 
  
-
-
-

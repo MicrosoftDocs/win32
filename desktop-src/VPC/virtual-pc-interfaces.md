@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Windows Virtual PC Interfaces
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 The following interfaces are supported by Windows Virtual PC.
 
@@ -64,10 +64,4 @@ On 64-bit editions of Windows, the type library for Windows Virtual PC is in a 6
 Other solutions include copying VPC.exe to a different directory where the compiler can find it, or using the OleView.exe tool from the Windows SDK to extract an .idl file from the type library in VPC.exe.
 
  
-
- 
-
-
-
-
 

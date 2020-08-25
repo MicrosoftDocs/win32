@@ -24,14 +24,14 @@ Draws the outline of an ellipse with the specified dimensions and stroke.
 
 | Method                                                                                                                                                                 | Description                                                                              |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
-| [**DrawEllipse(D2D1\_ELLIPSE&,ID2D1Brush\*,FLOAT,ID2D1StrokeStyle\*)**](https://msdn.microsoft.com/library/Dd371886(v=VS.85).aspx)  | Draws the outline of the specified ellipse using the specified stroke style. <br/> |
-| [**DrawEllipse(D2D1\_ELLIPSE\*,ID2D1Brush\*,FLOAT,ID2D1StrokeStyle\*)**](https://msdn.microsoft.com/library/Dd371883(v=VS.85).aspx) | Draws the outline of the specified ellipse using the specified stroke style. <br/> |
+| [**DrawEllipse(D2D1\_ELLIPSE&,ID2D1Brush\*,FLOAT,ID2D1StrokeStyle\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawellipse(constd2d1_ellipse__id2d1brush_float_id2d1strokestyle))  | Draws the outline of the specified ellipse using the specified stroke style. <br/> |
+| [**DrawEllipse(D2D1\_ELLIPSE\*,ID2D1Brush\*,FLOAT,ID2D1StrokeStyle\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawellipse(constd2d1_ellipse__id2d1brush_float_id2d1strokestyle)) | Draws the outline of the specified ellipse using the specified stroke style. <br/> |
 
 
 
 ## Remarks
 
-The **DrawEllipse** method doesn't return an error code if it fails. To determine whether a drawing operation (such as **DrawEllipse**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](https://msdn.microsoft.com/library/Dd371924(v=VS.85).aspx) or [**ID2D1RenderTarget::Flush**](https://msdn.microsoft.com/library/Dd316801(v=VS.85).aspx) methods.
+The **DrawEllipse** method doesn't return an error code if it fails. To determine whether a drawing operation (such as **DrawEllipse**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) or [**ID2D1RenderTarget::Flush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush) methods.
 
 ## Examples
 
@@ -56,14 +56,9 @@ For an example, see [How to Draw and Fill a Basic Shape](how-to-draw-an-ellipse.
 [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)
 </dt> <dt>
 
-[**FillEllipse**](https://msdn.microsoft.com/library/Dd742849(v=VS.85).aspx)
+[**FillEllipse**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillellipse(constd2d1_ellipse_id2d1brush))
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

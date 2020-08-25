@@ -17,7 +17,7 @@ api_location:
 
 # Algorithm.Name property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**AlgorithmIdentifier Class**](https://msdn.microsoft.com/library/2bd6bc84(v=VS.90).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.90).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**AlgorithmIdentifier Class**](/dotnet/api/system.security.cryptography.pkcs.algorithmidentifier?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
 
 The **Name** property sets or retrieves the algorithm used for signing, enveloping, and encrypting operations. This is the default property.
 
@@ -70,7 +70,3 @@ When the value of this property is reset, directly or indirectly, the whole stat
  
 
  
-
-
-
-

@@ -29,7 +29,7 @@ A time string format defined by ASN.1 standards. For more information, see ISO 8
 | MAPI Type    | SYSTIME                                                                    |
 | ADS Type     | ADSTYPE\_UTC\_TIME                                                         |
 | Variant Type | VT\_DATE                                                                   |
-| SDS Type     | [System.DateTime](https://docs.microsoft.com/dotnet/api/system.datetime?redirectedfrom=MSDN) |
+| SDS Type     | [System.DateTime](/dotnet/api/system.datetime) |
 
 
 
@@ -37,13 +37,9 @@ A time string format defined by ASN.1 standards. For more information, see ISO 8
 
 <dl> <dt>
 
-[System.DateTime](https://docs.microsoft.com/dotnet/api/system.datetime?redirectedfrom=MSDN)
+[System.DateTime](/dotnet/api/system.datetime)
 </dt> </dl>
 
  
 
  
-
-
-
-

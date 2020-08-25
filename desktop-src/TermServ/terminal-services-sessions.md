@@ -17,7 +17,7 @@ The user associated with the interactive window station for a session is known a
 
 When a user logs off from a Remote Desktop Connection (RDC) client, the session that the client has on the Remote Desktop Session Host (RD Session Host) server (formerly known as a terminal server) is deleted and the window stations and desktops associated with that session are removed. However, because the Remote Desktop Services console session is never deleted, the window stations associated with the console session are not deleted. This affects how applications behave in a Remote Desktop Services environment when they are configured to run in the security context of the interactive user, also known as the "RunAs Interactive User" object activation mode.
 
-For more information about starting a local server process on a specified session, see [Session-to-Session Activation with a Session Moniker](session-to-session-activation-with-a-session-moniker.md) and [Using a Session Moniker](using-a-session-moniker.md). For more information about security contexts, see [The Client's Security Context](https://docs.microsoft.com/windows/desktop/SecAuthZ/the-client-security-context).
+For more information about starting a local server process on a specified session, see [Session-to-Session Activation with a Session Moniker](session-to-session-activation-with-a-session-moniker.md) and [Using a Session Moniker](using-a-session-moniker.md). For more information about security contexts, see [The Client's Security Context](/windows/desktop/SecAuthZ/the-client-security-context).
 
 ## Related topics
 
@@ -29,7 +29,3 @@ For more information about starting a local server process on a specified sessio
  
 
  
-
-
-
-

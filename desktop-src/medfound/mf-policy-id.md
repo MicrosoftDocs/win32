@@ -16,7 +16,7 @@ An identifier that can be set on an [IMFOutputPolicy](/windows/win32/api/mfidl/n
 
 ## Remarks
 
-The value can be recieved from the [MEPolicySet](/windows/win32/medfound/mepolicyset) media event. It is stored as a **VT_UI4** type payload in the **MEPolicySet** event.
+The value can be recieved from the [MEPolicySet](./mepolicyset.md) media event. It is stored as a **VT_UI4** type payload in the **MEPolicySet** event.
 
 
 ## Requirements
@@ -43,7 +43,3 @@ The value can be recieved from the [MEPolicySet](/windows/win32/medfound/mepolic
  
 
  
-
-
-
-

@@ -16,7 +16,7 @@ HRESULT GetHelpContextID(
 );
 ```
 
-Retrieves the [**HelpContextID**](helpcontextid-property-com.md) for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object.
+Retrieves the [**HelpContextID**](helpcontextid-property-com.md) for a [**Command**](/windows/desktop/lwef/the-command-object) object.
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,7 +25,7 @@ Retrieves the [**HelpContextID**](helpcontextid-property-com.md) for a [**Comman
 <span id="pulID"></span><span id="pulid"></span><span id="PULID"></span>*pulID*
 </dt> <dd>
 
-Address of a variable that receives the context number of the help topic associated with the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object.
+Address of a variable that receives the context number of the help topic associated with the [**Command**](/windows/desktop/lwef/the-command-object) object.
 
 </dd> </dl>
 
@@ -44,7 +44,3 @@ If you've created a Windows Help file for your application and set your characte
  
 
  
-
-
-
-

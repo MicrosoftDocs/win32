@@ -122,12 +122,9 @@ The following is an example of a Library Description file that defines a library
 [version Element (Library Schema)](schema-library-version.md)
 </dt> <dt>
 
-[Search Connector Description Schema](https://msdn.microsoft.com/library/Dd940480(v=VS.85).aspx)
+[Search Connector Description Schema](../search/search-sconn-desc-schema-entry.md)
 </dt> </dl>
 
  
 
  
-
-
-

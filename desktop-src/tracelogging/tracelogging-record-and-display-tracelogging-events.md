@@ -13,7 +13,7 @@ Record TraceLogging events with the Windows Performance Recorder (WPR) and view 
 ## Prerequisites
 
 -   Windows 10
--   The Windows 10 version of Windows Performance Recorder (WPR), and the Windows 10 version of Windows Performance Analyzer (WPA) which is art of the Windows® Assessment and Deployment Kit (Windows ADK).
+-   The Windows 10 version of Windows Performance Recorder (WPR), and the Windows 10 version of Windows Performance Analyzer (WPA) which is part of the Windows® Assessment and Deployment Kit (Windows ADK).
 
 > [!IMPORTANT]
 > Traces captured with TraceLogging must be captured with the Windows 10 version of Windows Performance Recorder and viewed with the Windows 10 version of Windows Performance Analyzer. If you are unable to capture or decode your events, verify that you are using the Windows 10 version of the tools.
@@ -90,7 +90,7 @@ Create a Windows Performance Recorder profile (.wprp) so that you can use WPR to
     **<path to wpr>\\wpr.exe -start GeneralProfile -start TraceLoggingProvider.wprp**
 
     > \[!Tip\]  
-    > For general profiling purposes, you will typically also add –start GeneralProfile to the wpr.exe command line to capture system events along with the events from your provider. For simplicity the command line above omits -GeneralProfile so that only your events are gathered.
+    > For general profiling purposes, you can also add **–start GeneralProfile** to the wpr.exe command line to capture system events along with the events from your provider. If you only want to gather your events, omit **-start GeneralProfile**.
 
      
 
@@ -153,7 +153,7 @@ WPA is currently the only viewer you can use to view TraceLogging trace (.etl) f
 
     ![view the event from the simpletraceloggingprovider](images/eventview.png)
 
-    For more information about using WPA, see [Windows Performance Analyzer](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-8.1-and-8/hh448170(v=win.10)).
+    For more information about using WPA, see [Windows Performance Analyzer](/previous-versions/windows/it-pro/windows-8.1-and-8/hh448170(v=win.10)).
 
 ## Summary and next steps
 
@@ -164,7 +164,3 @@ See [C/C++ Tracelogging Examples](tracelogging-c-cpp-tracelogging-examples.md) f
  
 
  
-
-
-
-

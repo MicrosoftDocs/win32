@@ -3,7 +3,7 @@ Description: The COLORREF value is used to specify an RGB color.
 ms.assetid: b87d3de2-7a13-44ef-8253-c6851a75fa54
 title: COLORREF (Windef.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/27/2020
 ---
 
 # COLORREF
@@ -27,6 +27,19 @@ When specifying an explicit [RGB](/windows/desktop/api/Wingdi/nf-wingdi-rgb) col
 The low-order byte contains a value for the relative intensity of red; the second byte contains a value for green; and the third byte contains a value for blue. The high-order byte must be zero. The maximum value for a single byte is 0xFF.
 
 To create a **COLORREF** color value, use the [RGB](/windows/desktop/api/Wingdi/nf-wingdi-rgb) macro. To extract the individual values for the red, green, and blue components of a color value, use the [**GetRValue**](/windows/desktop/api/Wingdi/nf-wingdi-getrvalue), [GetGValue](/windows/desktop/api/Wingdi/nf-wingdi-getgvalue), and [GetBValue](/windows/desktop/api/Wingdi/nf-wingdi-getbvalue) macros, respectively.
+
+## Example
+
+```cpp
+// Color constants.
+const COLORREF rgbRed   =  0x000000FF;
+const COLORREF rgbGreen =  0x0000FF00;
+const COLORREF rgbBlue  =  0x00FF0000;
+const COLORREF rgbBlack =  0x00000000;
+const COLORREF rgbWhite =  0x00FFFFFF;
+```
+
+Example from [Windows Classic Samples](https://github.com/microsoft/Windows-classic-samples) on GitHub.
 
 ## Requirements
 

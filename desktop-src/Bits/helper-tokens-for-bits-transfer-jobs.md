@@ -21,7 +21,7 @@ Similarly, when the owner of a terminal services session logs off, the BITS serv
 The helper token model requires a change to BITS access control policy. Previous versions of BITS implemented access checks on every method call. Starting with Windows 7, the access check must be performed inside the [**IBackgroundCopyJob::QueryInterface**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) call; otherwise, the helper token might not have access to the transfer job.
 
 > [!Note]  
-> Older implementations effectively required that BITS users have administrator privileges in order to set helper tokens. Starting with Windows 10, version 1607, non-administrator BITS users can use [**IBitsTokenOptions::SetHelperToken**](/windows/desktop/api/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertoken) to set non-administrator helper tokens on BITS jobs they own. This change enables non-administrator BITS users (such as background downloader services running under the [NetworkService account](https://docs.microsoft.com/windows/desktop/Services/networkservice-account)) to set helper tokens.
+> Older implementations effectively required that BITS users have administrator privileges in order to set helper tokens. Starting with Windows 10, version 1607, non-administrator BITS users can use [**IBitsTokenOptions::SetHelperToken**](/windows/desktop/api/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertoken) to set non-administrator helper tokens on BITS jobs they own. This change enables non-administrator BITS users (such as background downloader services running under the [NetworkService account](/windows/desktop/Services/networkservice-account)) to set helper tokens.
 >
 > Specifically, the implementation has been changed to allow users without administrator privileges to set helper tokens, as long as the following conditions are met:
 >
@@ -40,7 +40,3 @@ The helper token model requires a change to BITS access control policy. Previous
  
 
  
-
-
-
-

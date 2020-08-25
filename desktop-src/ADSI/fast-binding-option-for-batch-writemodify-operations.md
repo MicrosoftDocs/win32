@@ -25,7 +25,7 @@ Fast-binding has the following restrictions:
     -   [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch)
     -   [**IADsPropertyList**](/windows/desktop/api/Iads/nn-iads-iadspropertylist)
     -   [**IADsObjectOptions**](/windows/desktop/api/Iads/nn-iads-iadsobjectoptions)
-    -   [**ISupportErrorInfo**](https://msdn.microsoft.com/library/ms221083(v=VS.71).aspx)
+    -   [**ISupportErrorInfo**](/windows/win32/api/oaidl/nn-oaidl-isupporterrorinfo)
     -   [**IADsDeleteOps**](/windows/desktop/api/Iads/nn-iads-iadsdeleteops)
 
 -   If the [**IADsContainer::GetObject**](/windows/desktop/api/Iads/nf-iads-iadscontainer-getobject) method is used to bind to child objects, the child object has the same fast-bind characteristics as the parent.
@@ -35,7 +35,3 @@ Fast-binding has the following restrictions:
  
 
  
-
-
-
-

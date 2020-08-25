@@ -65,7 +65,7 @@ MAXD3DDECLLENGTH is defined as a maximum of 64 (see d3d9types.h). This does not 
 [**ID3DXBaseMesh**](id3dxbasemesh.md)
 </dt> <dt>
 
-[**GetDeclaration**](https://msdn.microsoft.com/library/Bb205920(v=VS.85).aspx)
+[**GetDeclaration**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dvertexdeclaration9-getdeclaration)
 </dt> <dt>
 
 [**D3DXDeclaratorFromFVF**](d3dxdeclaratorfromfvf.md)
@@ -77,7 +77,3 @@ MAXD3DDECLLENGTH is defined as a maximum of 64 (see d3d9types.h). This does not 
  
 
  
-
-
-
-

@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Color.Color constructors
 
-This topic lists the constructors of the [**Color**](https://msdn.microsoft.com/library/ms534427(v=VS.85).aspx) class. For a complete class listing, see **Color Class**.
+This topic lists the constructors of the [**Color**](/windows/win32/api/gdipluscolor/nl-gdipluscolor-color) class. For a complete class listing, see **Color Class**.
 
 ### Overload list
 
@@ -16,17 +16,13 @@ This topic lists the constructors of the [**Color**](https://msdn.microsoft.com/
 
 | Constructor                                                               | Description                                                                                                                                                                                                         |
 |:--------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Color(ARGB)**](https://msdn.microsoft.com/library/ms536261(v=VS.85).aspx)                   | Creates a [**Color::Color**](https://msdn.microsoft.com/library/ms536261(v=VS.85).aspx) object by using an **ARGB** value.<br/>                                                                                                    |
-| [**Color(BYTE,BYTE,BYTE)**](https://msdn.microsoft.com/library/ms536260(v=VS.85).aspx)        | Creates a [**Color::Color**](https://msdn.microsoft.com/library/ms536260(v=VS.85).aspx) object by using specified values for the red, green, and blue components. This constructor sets the alpha component to 255 (opaque).<br/> |
-| [**Color(BYTE,BYTE,BYTE,BYTE)**](https://msdn.microsoft.com/library/ms536258(v=VS.85).aspx) | Creates a [**Color::Color**](https://msdn.microsoft.com/library/ms536258(v=VS.85).aspx) object by using specified values for the alpha, red, green, and blue components.<br/>                                                   |
-| [**Color()**](https://msdn.microsoft.com/library/ms536259(v=VS.85).aspx)                            | Creates a [**Color::Color**](https://msdn.microsoft.com/library/ms536259(v=VS.85).aspx) object and initializes it to opaque black. This is the default constructor.<br/>                                                                |
+| [**Color(ARGB)**](/windows/win32/api/gdipluscolor/nf-gdipluscolor-color-color(inargb))                   | Creates a [**Color::Color**](/windows/win32/api/gdipluscolor/nf-gdipluscolor-color-color(inargb)) object by using an **ARGB** value.<br/>                                                                                                    |
+| [**Color(BYTE,BYTE,BYTE)**](/windows/win32/api/gdipluscolor/nf-gdipluscolor-color-color(inbyte_inbyte_inbyte))        | Creates a [**Color::Color**](/windows/win32/api/gdipluscolor/nf-gdipluscolor-color-color(inbyte_inbyte_inbyte)) object by using specified values for the red, green, and blue components. This constructor sets the alpha component to 255 (opaque).<br/> |
+| [**Color(BYTE,BYTE,BYTE,BYTE)**](/windows/win32/api/gdipluscolor/nf-gdipluscolor-color-color(inbyte_inbyte_inbyte_inbyte)) | Creates a [**Color::Color**](/windows/win32/api/gdipluscolor/nf-gdipluscolor-color-color(inbyte_inbyte_inbyte_inbyte)) object by using specified values for the alpha, red, green, and blue components.<br/>                                                   |
+| [**Color()**](/windows/win32/api/gdipluscolor/nf-gdipluscolor-color-color)                            | Creates a [**Color::Color**](/windows/win32/api/gdipluscolor/nf-gdipluscolor-color-color) object and initializes it to opaque black. This is the default constructor.<br/>                                                                |
 
 
 
  
 
  
-
-
-
-

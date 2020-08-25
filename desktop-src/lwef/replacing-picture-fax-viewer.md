@@ -86,7 +86,7 @@ For example, Windows Picture and Fax Viewer provides a number of tools for editi
 
 ## Registering for the Preview Verb
 
-Registering an application to handle the Preview verb is fairly simple. Locate the application's following value in the registry, where Application.Jpeg represents the name of the application's file association key (see [Default Programs](https://docs.microsoft.com/windows/desktop/shell/default-programs) for more details):
+Registering an application to handle the Preview verb is fairly simple. Locate the application's following value in the registry, where Application.Jpeg represents the name of the application's file association key (see [Default Programs](/windows/desktop/shell/default-programs) for more details):
 
 ```
 HKEY_CLASSES_ROOT
@@ -154,16 +154,12 @@ HKEY_CLASSES_ROOT
 
 <dl> <dt>
 
-[Introduction to File Associations](https://docs.microsoft.com/windows/desktop/shell/fa-intro)
+[Introduction to File Associations](/windows/desktop/shell/fa-intro)
 </dt> <dt>
 
-[About GDI+](https://msdn.microsoft.com/library/ms533797(VS.85).aspx)
+[About GDI+](../gdiplus/-gdiplus-about-gdi--about.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

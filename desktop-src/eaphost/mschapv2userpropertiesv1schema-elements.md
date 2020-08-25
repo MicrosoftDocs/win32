@@ -1,6 +1,6 @@
 ---
 title: mschapv2userpropertiesv1 Schema Elements
-description: Consists of the following schema elements.
+description: Learn about the mschapv2userpropertiesv1 schema elements. These elements are EapType, LogonDomain (EapType), Password (EapType), and Username.
 ms.assetid: 758b3e0c-817b-49ce-bd14-4d412cdc4f1f
 ms.topic: article
 ms.date: 05/31/2018

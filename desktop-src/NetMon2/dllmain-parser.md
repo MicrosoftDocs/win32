@@ -46,7 +46,7 @@ Handle to an instance of the parser.
 *Command* \[in\]
 </dt> <dd>
 
-Indicator to determine why the function is called. For a list of all possible flags, see [DllMain](https://docs.microsoft.com/windows/desktop/Dlls/dllmain). The parser implementation must process the following values.
+Indicator to determine why the function is called. For a list of all possible flags, see [DllMain](/windows/desktop/Dlls/dllmain). The parser implementation must process the following values.
 
 
 
@@ -74,7 +74,7 @@ The parser DLL always returns **TRUE**.
 
 ## Remarks
 
-The operating system calls **DllMain** to load and unload the parser DLL. This function is based on the dynamic-link library [DllMain](https://docs.microsoft.com/windows/desktop/Dlls/dllmain) function.
+The operating system calls **DllMain** to load and unload the parser DLL. This function is based on the dynamic-link library [DllMain](/windows/desktop/Dlls/dllmain) function.
 
 You can also use the implementation of **DllMain** to store an instance of a parser for use in the future. For example, you can store a parser DLL instance, and then use it for a system call in the future.
 
@@ -112,13 +112,8 @@ You can also use the implementation of **DllMain** to store an instance of a par
 [DestroyProtocol](destroyprotocol.md)
 </dt> <dt>
 
-[DllMain](https://docs.microsoft.com/windows/desktop/Dlls/dllmain)
+[DllMain](/windows/desktop/Dlls/dllmain)
 </dt> </dl>
 
  
-
- 
-
-
-
 

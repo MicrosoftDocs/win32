@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 Transactional NTFS (TxF) allows file operations on an NTFS file system volume to be performed in a transaction. TxF transactions increase application reliability by protecting data integrity across failures and simplify application development by greatly reducing the amount of error handling code.
 
-TxF uses the transaction framework provided by the [Kernel Transaction Manager](https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-portal) (KTM). This allows TxF file operations to be part of a transaction involving other data sources such as SQL Server and Transacted Registry (TxR).
+TxF uses the transaction framework provided by the [Kernel Transaction Manager](/windows/desktop/Ktm/kernel-transaction-manager-portal) (KTM). This allows TxF file operations to be part of a transaction involving other data sources such as SQL Server and Transacted Registry (TxR).
 
 ## Where applicable
 
@@ -22,7 +22,7 @@ An application can use TxF to preserve the integrity of data on disk caused by u
 
 ## Developer audience
 
-Before using TxF, you should have a working knowledge of transactions using either KTM or [Distributed Transaction Coordinator (DTC)](https://msdn.microsoft.com/library/ms684146.aspx).
+Before using TxF, you should have a working knowledge of transactions using either KTM or [Distributed Transaction Coordinator (DTC)](/previous-versions/windows/desktop/ms684146(v=vs.85)).
 
 ## Run-time requirements
 
@@ -42,9 +42,4 @@ TxF is available starting with Windows Vista.
  
 
  
-
- 
-
-
-
 

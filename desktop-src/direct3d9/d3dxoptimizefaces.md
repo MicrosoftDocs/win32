@@ -42,7 +42,7 @@ HRESULT D3DXOptimizeFaces(
 *pIndices* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
 Pointer to triangle list indices to use for ordering vertices.
 
@@ -51,7 +51,7 @@ Pointer to triangle list indices to use for ordering vertices.
 *NumFaces* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of faces in the triangle list. For 16-bit meshes, this is limited to 2^16 - 1 (65535) or fewer faces.
 
@@ -60,7 +60,7 @@ Number of faces in the triangle list. For 16-bit meshes, this is limited to 2^16
 *NumVertices* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of vertices referenced by the triangle list.
 
@@ -69,7 +69,7 @@ Number of vertices referenced by the triangle list.
 *Indices32Bit* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Flag indicating index type: **TRUE** if indices are 32-bit (more than 65535 indices), **FALSE** if indices are 16-bit (65535 or fewer indices).
 
@@ -78,7 +78,7 @@ Flag indicating index type: **TRUE** if indices are 32-bit (more than 65535 indi
 *pFaceRemap* \[in, out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to the original mesh face that was split to generate the current face.
 
@@ -115,7 +115,3 @@ This function's optimization procedure is functionally equivalent to calling [**
  
 
  
-
-
-
-

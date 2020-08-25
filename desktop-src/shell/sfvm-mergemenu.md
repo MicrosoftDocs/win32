@@ -18,7 +18,7 @@ topic_type:
 
 # SFVM\_MERGEMENU message
 
-Allows the callback object to merge menu items into the Windows Explorer menus. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
+Allows the callback object to merge menu items into the Windows Explorer menus. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
 
 
 ```C++
@@ -44,7 +44,7 @@ A [**QCMINFO**](/windows/desktop/api/shlobj_core/ns-shlobj_core-qcminfo) structu
 
 ## Remarks
 
-This message serves essentially the same purpose as the [**IShellBrowser::InsertMenusSB**](https://msdn.microsoft.com/library/Bb775121(v=VS.85).aspx) and [**IShellBrowser::SetMenuSB**](https://msdn.microsoft.com/library/Bb775134(v=VS.85).aspx) in a custom folder view. See the *Using IShellBrowser to Communicate with Windows Explorer* section of [Implementing a Folder View](https://msdn.microsoft.com/library/Cc144092(v=VS.85).aspx) for further discussion.
+This message serves essentially the same purpose as the [**IShellBrowser::InsertMenusSB**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-insertmenussb) and [**IShellBrowser::SetMenuSB**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-setmenusb) in a custom folder view. See the *Using IShellBrowser to Communicate with Windows Explorer* section of [Implementing a Folder View](../lwef/nse-folderview.md) for further discussion.
 
 ## Requirements
 
@@ -61,7 +61,3 @@ This message serves essentially the same purpose as the [**IShellBrowser::Insert
  
 
  
-
-
-
-

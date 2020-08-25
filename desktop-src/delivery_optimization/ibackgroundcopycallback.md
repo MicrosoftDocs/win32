@@ -24,7 +24,7 @@ Implement the **IBackgroundCopyCallback** interface to receive notification that
 
 ## Members
 
-The **IBackgroundCopyCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IBackgroundCopyCallback** also has these types of members:
+The **IBackgroundCopyCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IBackgroundCopyCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -80,10 +80,4 @@ DO will call your callbacks as long as the interface pointer is valid. The notif
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

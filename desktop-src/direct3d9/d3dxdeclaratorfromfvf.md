@@ -39,7 +39,7 @@ HRESULT D3DXDeclaratorFromFVF(
 *FVF* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Combination of [D3DFVF](d3dfvf.md) that describes the FVF from which to generate the returned declarator array.
 
@@ -50,7 +50,7 @@ Combination of [D3DFVF](d3dfvf.md) that describes the FVF from which to generate
 
 Type: **[**D3DVERTEXELEMENT9**](d3dvertexelement9.md)**
 
-An array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements describing the vertex format of the mesh vertices. The upper limit of this declarator array is [**MAX\_FVF\_DECL\_SIZE**](https://msdn.microsoft.com/library/Bb147183(v=VS.85).aspx).
+An array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements describing the vertex format of the mesh vertices. The upper limit of this declarator array is [**MAX\_FVF\_DECL\_SIZE**](./max-fvf-decl-size.md).
 
 </dd> </dl>
 
@@ -84,7 +84,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

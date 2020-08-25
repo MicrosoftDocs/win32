@@ -23,7 +23,7 @@ Active Directory Domain Services provide a mechanism for a client application to
 
  
 
-You can register up to five notification requests on a single LDAP connection. You must have a dedicated thread that waits for the notifications and processes them quickly. When you call the ldap\_search\_ext function to register a notification request, the function returns a message identifier that identifies that request. You then use the [**ldap\_result**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result) function to wait for change notifications. When a change occurs, the server sends you an LDAP message that contains the message identifier for the notification request that generated the notification. This causes the **ldap\_result** function to return with search results that identify the object that changed.
+You can register up to five notification requests on a single LDAP connection. You must have a dedicated thread that waits for the notifications and processes them quickly. When you call the ldap\_search\_ext function to register a notification request, the function returns a message identifier that identifies that request. You then use the [**ldap\_result**](/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result) function to wait for change notifications. When a change occurs, the server sends you an LDAP message that contains the message identifier for the notification request that generated the notification. This causes the **ldap\_result** function to return with search results that identify the object that changed.
 
 The client application must determine the initial state of the object monitored. To do this, you must first register the notification request and then read the current state.
 
@@ -31,7 +31,7 @@ The client application must also determine the cause of the change. For a base l
 
 When the client processes the search results, it can use the ldap\_get\_dn function to get the distinguished name of the object that changed. Do not rely on distinguished names to identify the objects tracked, because distinguished names can change. Instead, include the **objectGUID** attribute in the list of attributes to retrieve. Each object's **objectGUID** remains unchanged regardless of where the object is moved within the enterprise forest.
 
-If an object within the search scope is deleted, the client receives a change notification and the **isDeleted** attribute of the object is set to **TRUE**. In this case, the search results report the new distinguished name of the object in the Deleted Objects container of its partition. It is not necessary to specify the tombstone control ([LDAP\_SERVER\_SHOW\_DELETED\_OID](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-show-deleted-oid)) to get notifications of object deletions. For more information, see [Retrieving Deleted Objects](retrieving-deleted-objects.md).
+If an object within the search scope is deleted, the client receives a change notification and the **isDeleted** attribute of the object is set to **TRUE**. In this case, the search results report the new distinguished name of the object in the Deleted Objects container of its partition. It is not necessary to specify the tombstone control ([LDAP\_SERVER\_SHOW\_DELETED\_OID](/previous-versions/windows/desktop/ldap/ldap-server-show-deleted-oid)) to get notifications of object deletions. For more information, see [Retrieving Deleted Objects](retrieving-deleted-objects.md).
 
 When a client has registered a notification request, the client continues to receive notifications until the connection is broken or the client abandons the search by calling the ldap\_abandon function. If the client or server disconnects, for example, if the server fails, the notification request is terminated. When the client reconnects, it must register for notifications again, and then read the current state of the objects of interest in case there were changes while the client was disconnected.
 
@@ -42,10 +42,4 @@ For more information and a code example that uses the LDAP change notification c
 For more information about when to use the LDAP change notification control, see [Overview of Change Tracking Techniques](overview-of-change-tracking-techniques.md).
 
  
-
- 
-
-
-
-
 

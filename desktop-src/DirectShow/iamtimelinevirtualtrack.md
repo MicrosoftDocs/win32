@@ -27,7 +27,7 @@ The `IAMTimelineVirtualTrack` interface provides methods for working with virtua
 
 ## Members
 
-The **IAMTimelineVirtualTrack** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineVirtualTrack** also has these types of members:
+The **IAMTimelineVirtualTrack** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IAMTimelineVirtualTrack** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -72,7 +72,3 @@ The **IAMTimelineVirtualTrack** interface has these methods.
  
 
  
-
-
-
-

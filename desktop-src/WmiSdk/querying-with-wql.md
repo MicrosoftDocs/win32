@@ -43,7 +43,7 @@ WQL supports the following types of queries:
 
      
 
-    The following data query example requests the event log file named "Application" from all instances of [**Win32\_NTLogEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent).
+    The following data query example requests the event log file named "Application" from all instances of [**Win32\_NTLogEvent**](/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent).
 
     ```VB
     strComputer = "." 
@@ -60,7 +60,7 @@ WQL supports the following types of queries:
 
     Consumers use event queries to register to receive notification of events. Event providers use event queries to register to support one or more events. For more information about event queries, see [Receiving Event Notifications](receiving-event-notifications.md).
 
-    The following example event query by a temporary event consumer requests notification when a new instance of a class derived from [**Win32\_NTLogEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent) is created.
+    The following example event query by a temporary event consumer requests notification when a new instance of a class derived from [**Win32\_NTLogEvent**](/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent) is created.
 
     ```VB
     strComputer = "." 
@@ -104,6 +104,3 @@ WQL supports the following types of queries:
  
 
  
-
-
-

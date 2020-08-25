@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Previously, you looked at how to create a window you can use for drawing in [Work with DirectX device resources](work-with-dxgi.md). Now, you learn how to build the graphics pipeline, and where you can hook into it.
 
-You'll recall that there are two Direct3D interfaces that define the graphics pipeline: [**ID3D11Device**](https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2), which provides a virtual representation of the GPU and its resources; and [**ID3D11DeviceContext**](https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2), which represents the graphics processing for the pipeline. Typically, you use an instance of **ID3D11Device** to configure and obtain the GPU resources you need to start processing the graphics in a scene, and you use **ID3D11DeviceContext** to process those resources at each appropriate shader stage in the graphics pipeline. You usually call **ID3D11Device** methods infrequently—that is, only when you set up a scene or when the device changes. On the other hand, you'll call **ID3D11DeviceContext** every time you process a frame for display.
+You'll recall that there are two Direct3D interfaces that define the graphics pipeline: [**ID3D11Device**](/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2), which provides a virtual representation of the GPU and its resources; and [**ID3D11DeviceContext**](/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2), which represents the graphics processing for the pipeline. Typically, you use an instance of **ID3D11Device** to configure and obtain the GPU resources you need to start processing the graphics in a scene, and you use **ID3D11DeviceContext** to process those resources at each appropriate shader stage in the graphics pipeline. You usually call **ID3D11Device** methods infrequently—that is, only when you set up a scene or when the device changes. On the other hand, you'll call **ID3D11DeviceContext** every time you process a frame for display.
 
 This example creates and configures a minimal graphics pipeline suitable for displaying a simple spinning, vertex-shaded cube. It demonstrates approximately the smallest set of resources necessary for display. As you read the info here, note the limitations of the given example where you may have to extend it to support the scene you want to render.
 
@@ -27,7 +27,7 @@ The graphics pipeline is defined by the 3D scene renderer class. The scene rende
 -   Update the graphics data to display each frame.
 -   Render (draw) the graphics to the swap chain.
 
-The first four processes typically use the [**ID3D11Device**](https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2) interface methods for initializing and managing graphics resources, and the last two use the [**ID3D11DeviceContext**](https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2) interface methods to manage and execute the graphics pipeline.
+The first four processes typically use the [**ID3D11Device**](/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2) interface methods for initializing and managing graphics resources, and the last two use the [**ID3D11DeviceContext**](/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2) interface methods to manage and execute the graphics pipeline.
 
 An instance of the **Renderer** class is created and managed as a member variable on the main project class. The **DeviceResources** instance is managed as a shared pointer across several classes, including the main project class, the **App** view-provider class, and **Renderer**. If you replace **Renderer** with your own class, consider declaring and assigning the **DeviceResources** instance as a shared pointer member as well:
 
@@ -39,7 +39,7 @@ Just pass the pointer into the class constructor (or other initialization method
 
 In this example, we organize the scene renderer class with the following methods:
 
--   **CreateDeviceDependentResources**: Called whenever the scene must be initialized or restarted. This method loads your initial vertex data, textures, shaders, and other resources, and constructs the initial constant and vertex buffers. Typically, most of the work here is done with [**ID3D11Device**](https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2) methods, not [**ID3D11DeviceContext**](https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2) methods.
+-   **CreateDeviceDependentResources**: Called whenever the scene must be initialized or restarted. This method loads your initial vertex data, textures, shaders, and other resources, and constructs the initial constant and vertex buffers. Typically, most of the work here is done with [**ID3D11Device**](/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2) methods, not [**ID3D11DeviceContext**](/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2) methods.
 -   **CreateWindowSizeDependentResources**: Called whenever the window state changes, such as when resizing occurs or when orientation changes. This method rebuilds transform matrices, such as those for your camera.
 -   **Update**: Typically called from the part of the program that manages immediate game state; in this example, we just call it from the **Main** class. Have this method read from any game-state information that affects rendering, such as updates to object position or animation frames, plus any global game data like light levels or changes to game physics. These inputs are used to update the per-frame constant buffers and object data.
 -   **Render**: Typically called from the part of the program that manages the game loop; in this case, it's called from the **Main** class. This method constructs the graphics pipeline: it binds shaders, binds buffers and resources to shader stages, and invokes drawing for the current frame.
@@ -58,7 +58,7 @@ Let's take a look at scene-rendering methods in more detail.
 
 ## Create device dependent resources
 
-**CreateDeviceDependentResources** consolidates all the operations for initializing the scene and its resources using [**ID3D11Device**](https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2) calls. This method assumes that the Direct3D device has just been initialized (or has been recreated) for a scene. It recreates or reloads all scene-specific graphics resources, such as the vertex and pixel shaders, the vertex and index buffers for objects, and any other resources (for example, as textures and their corresponding views).
+**CreateDeviceDependentResources** consolidates all the operations for initializing the scene and its resources using [**ID3D11Device**](/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2) calls. This method assumes that the Direct3D device has just been initialized (or has been recreated) for a scene. It recreates or reloads all scene-specific graphics resources, such as the vertex and pixel shaders, the vertex and index buffers for objects, and any other resources (for example, as textures and their corresponding views).
 
 Here's example code for **CreateDeviceDependentResources**:
 
@@ -347,7 +347,7 @@ In this case, **Rotate** updates the constant buffer with a new transformation m
 
 ## Implement the Render method
 
-This method is called once per game loop after calling **Update**. Like **Update**, the **Render** method is also called from the main class. This is the method where the graphics pipeline is constructed and processed for the frame using methods on the [**ID3D11DeviceContext**](https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2) instance. This culminates in a final call to [**ID3D11DeviceContext::DrawIndexed**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-drawindexed). It’s important to understand that this call (or other similar **Draw\*** calls defined on **ID3D11DeviceContext**) actually executes the pipeline. Specifically, this is when Direct3D communicates with the GPU to set drawing state, runs each pipeline stage, and writes the pixel results into the render-target buffer resource for display by the swap chain. Since communication between the CPU and GPU incurs overhead, combine multiple draw calls into a single one if you can, especially if your scene has a lot of rendered objects.
+This method is called once per game loop after calling **Update**. Like **Update**, the **Render** method is also called from the main class. This is the method where the graphics pipeline is constructed and processed for the frame using methods on the [**ID3D11DeviceContext**](/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2) instance. This culminates in a final call to [**ID3D11DeviceContext::DrawIndexed**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-drawindexed). It’s important to understand that this call (or other similar **Draw\*** calls defined on **ID3D11DeviceContext**) actually executes the pipeline. Specifically, this is when Direct3D communicates with the GPU to set drawing state, runs each pipeline stage, and writes the pixel results into the render-target buffer resource for display by the swap chain. Since communication between the CPU and GPU incurs overhead, combine multiple draw calls into a single one if you can, especially if your scene has a lot of rendered objects.
 
 
 ```C++
@@ -465,7 +465,3 @@ Next, in the final section ([Work with shaders and shader resources](work-with-s
  
 
  
-
-
-
-

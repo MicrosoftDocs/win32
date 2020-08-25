@@ -22,7 +22,7 @@ The **IWMDRMLicense** interface represents a list of one or more licenses.
 
 ## Members
 
-The **IWMDRMLicense** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMDRMLicense** also has these types of members:
+The **IWMDRMLicense** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMDRMLicense** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -59,10 +59,4 @@ The **IWMDRMLicense** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -86,7 +86,7 @@ The compiler runs in the command-line mode, using one MIB file as input. The fol
 
 ## Setting Up SNMP Communities
 
-As a security measure, the SNMP "public" community is not created by default. You can create the community as described in [Communities Registry Settings](https://msdn.microsoft.com/library/ms907028.aspx). If you do not have any community, then create the "public" community to access the SNMP provider.
+As a security measure, the SNMP "public" community is not created by default. You can create the community as described in [Communities Registry Settings](/previous-versions/windows/embedded/ms907028(v=msdn.10)). If you do not have any community, then create the "public" community to access the SNMP provider.
 
 ## Generating MOF Files from MIB Files
 
@@ -162,6 +162,3 @@ The following commands are an example of how to add the MOF files that are gener
  
 
  
-
-
-

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Window Stations and Desktops
 
-Windows provides three main categories of objects: user interface, graphics device interface (GDI), and kernel. [Kernel objects](https://docs.microsoft.com/windows/desktop/SysInfo/kernel-objects) are securable, while [user objects](https://docs.microsoft.com/windows/desktop/SysInfo/user-objects) and [GDI objects](https://docs.microsoft.com/windows/desktop/SysInfo/gdi-objects) are not. Therefore, to provide additional security, user interface objects are managed using window stations and desktops, which themselves are securable objects.
+Windows provides three main categories of objects: user interface, graphics device interface (GDI), and kernel. [Kernel objects](/windows/desktop/SysInfo/kernel-objects) are securable, while [user objects](/windows/desktop/SysInfo/user-objects) and [GDI objects](/windows/desktop/SysInfo/gdi-objects) are not. Therefore, to provide additional security, user interface objects are managed using window stations and desktops, which themselves are securable objects.
 
 For more information, see the following topics:
 
@@ -18,7 +18,3 @@ For more information, see the following topics:
  
 
  
-
-
-
-

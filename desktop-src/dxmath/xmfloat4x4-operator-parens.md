@@ -17,7 +17,7 @@ api_location:
 
 Accesses specific matrix elements referenced by row and column from the current instance of `XMFLOAT4X4`.
 
-Accesses specific matrix elements referenced by row and column from the current instance of [**XMFLOAT4X4**](https://msdn.microsoft.com/library/Ee419621(v=VS.85).aspx)
+Accesses specific matrix elements referenced by row and column from the current instance of [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4)
 
 ### Overload list
 
@@ -68,13 +68,9 @@ This operator is only available when developing with C++.
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT4X4**](https://msdn.microsoft.com/library/Ee419621(v=VS.85).aspx)
+[**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4)
 </dt> </dl>
 
  
 
  
-
-
-
-

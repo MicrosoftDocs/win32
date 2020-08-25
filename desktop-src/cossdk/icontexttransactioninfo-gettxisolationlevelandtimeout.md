@@ -37,7 +37,7 @@ HRESULT GetTxIsolationLevelAndTimeout(
 *pIsoLevel* \[out\]
 </dt> <dd>
 
-The [ISOLATIONLEVEL](https://msdn.microsoft.com/library/ms679234.aspx) value for the transaction.
+The [ISOLATIONLEVEL](/previous-versions/windows/desktop/ms679234(v=vs.85)) value for the transaction.
 
 </dd> <dt>
 
@@ -71,9 +71,4 @@ This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY,
 </dt> </dl>
 
  
-
- 
-
-
-
 

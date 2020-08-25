@@ -22,7 +22,7 @@ This section describes the functions provided by the Microsoft DirectComposition
 | [**DCompositionCreateDevice2**](/windows/desktop/api/Dcomp/nf-dcomp-dcompositioncreatedevice2)<br/>                   | Creates a new device object that can be used to create other DirectComposition objects.<br/>                                                   |
 | [**DCompositionCreateDevice3**](/windows/desktop/api/dcomp/nf-dcomp-dcompositioncreatedevice3)<br/>                   | Creates a new DirectComposition device object, which can be used to create other DirectComposition objects.<br/>                               |
 | [**DCompositionCreateSurfaceHandle**](/windows/desktop/api/Dcomp/nf-dcomp-dcompositioncreatesurfacehandle)<br/>       | Creates a new composition surface object that can be bound to a Microsoft DirectX swap chain or swap buffer and associated with a visual.<br/> |
-| [**DCompositionGetFrameStatistics**](https://msdn.microsoft.com/library/Mt589902(v=VS.85).aspx)<br/>         | Retrieves composition statistics information.<br/>                                                                                             |
+| [**DCompositionGetFrameStatistics**](/previous-versions/windows/desktop/legacy/mt589902(v=vs.85))<br/>         | Retrieves composition statistics information.<br/>                                                                                             |
 
 
 
@@ -36,10 +36,4 @@ This section describes the functions provided by the Microsoft DirectComposition
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

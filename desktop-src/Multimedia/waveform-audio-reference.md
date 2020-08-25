@@ -44,38 +44,38 @@ This section lists the functions, structures, and messages associated with wavef
 
 ## Auxiliary Devices
 
--   [**AUXCAPS**](https://msdn.microsoft.com/library/Dd756711(v=VS.85).aspx)
--   [**auxGetDevCaps**](https://msdn.microsoft.com/library/Dd756712(v=VS.85).aspx)
--   [**auxGetNumDevs**](https://msdn.microsoft.com/library/Dd756713(v=VS.85).aspx)
--   [**auxGetVolume**](https://msdn.microsoft.com/library/Dd756714(v=VS.85).aspx)
--   [**auxOutMessage**](https://msdn.microsoft.com/library/Dd756716(v=VS.85).aspx)
--   [**auxSetVolume**](https://msdn.microsoft.com/library/Dd756717(v=VS.85).aspx)
+-   [**AUXCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-auxcaps)
+-   [**auxGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-auxgetdevcaps)
+-   [**auxGetNumDevs**](/windows/win32/api/mmeapi/nf-mmeapi-auxgetnumdevs)
+-   [**auxGetVolume**](/windows/win32/api/mmeapi/nf-mmeapi-auxgetvolume)
+-   [**auxOutMessage**](/windows/win32/api/mmeapi/nf-mmeapi-auxoutmessage)
+-   [**auxSetVolume**](/windows/win32/api/mmeapi/nf-mmeapi-auxsetvolume)
 
 ## Easy Playback
 
--   [**PlaySound**](https://msdn.microsoft.com/library/Dd743680(v=VS.85).aspx)
--   [**sndPlaySound**](https://msdn.microsoft.com/library/Dd798676(v=VS.85).aspx)
+-   [**PlaySound**](/previous-versions//dd743680(v=vs.85))
+-   [**sndPlaySound**](/previous-versions//dd798676(v=vs.85))
 
 ## Errors
 
--   [**waveInGetErrorText**](https://msdn.microsoft.com/library/Dd743842(v=VS.85).aspx)
--   [**waveOutGetErrorText**](https://msdn.microsoft.com/library/Dd743858(v=VS.85).aspx)
+-   [**waveInGetErrorText**](/windows/win32/api/mmeapi/nf-mmeapi-waveingeterrortext)
+-   [**waveOutGetErrorText**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgeterrortext)
 
 ## Opening and Closing
 
--   [**PCMWAVEFORMAT**](https://msdn.microsoft.com/library/Dd743663(v=VS.85).aspx)
+-   [**PCMWAVEFORMAT**](/windows/win32/api/mmreg/ns-mmreg-pcmwaveformat)
 -   [**MM\_WIM\_CLOSE**](mm-wim-close.md)
 -   [**MM\_WIM\_OPEN**](mm-wim-open.md)
 -   [**MM\_WOM\_CLOSE**](mm-wom-close.md)
 -   [**MM\_WOM\_OPEN**](mm-wom-open.md)
 -   [**WAVEFORMAT**](/windows/win32/api/mmreg/ns-mmreg-waveformat)
--   [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd757713(v=VS.85).aspx)
--   [**waveInClose**](https://msdn.microsoft.com/library/Dd743840(v=VS.85).aspx)
--   [**waveInProc**](https://msdn.microsoft.com/library/Dd743849(v=VS.85).aspx)
--   [**waveInOpen**](https://msdn.microsoft.com/library/Dd743847(v=VS.85).aspx)
--   [**waveOutClose**](https://msdn.microsoft.com/library/Dd743856(v=VS.85).aspx)
--   [**waveOutProc**](https://msdn.microsoft.com/library/Dd743869(v=VS.85).aspx)
--   [**waveOutOpen**](https://msdn.microsoft.com/library/Dd743866(v=VS.85).aspx)
+-   [**WAVEFORMATEX**](/windows/win32/api/mmeapi/ns-mmeapi-waveformatex)
+-   [**waveInClose**](/windows/win32/api/mmeapi/nf-mmeapi-waveinclose)
+-   [**waveInProc**](/previous-versions//dd743849(v=vs.85))
+-   [**waveInOpen**](/windows/win32/api/mmeapi/nf-mmeapi-waveinopen)
+-   [**waveOutClose**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutclose)
+-   [**waveOutProc**](/previous-versions//dd743869(v=vs.85))
+-   [**waveOutOpen**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutopen)
 -   [**WIM\_CLOSE**](wim-close.md)
 -   [**WIM\_OPEN**](wim-open.md)
 -   [**WOM\_CLOSE**](wom-close.md)
@@ -83,71 +83,71 @@ This section lists the functions, structures, and messages associated with wavef
 
 ## Pitch
 
--   [**waveOutGetPitch**](https://msdn.microsoft.com/library/Dd743861(v=VS.85).aspx)
--   [**waveOutSetPitch**](https://msdn.microsoft.com/library/Dd743872(v=VS.85).aspx)
+-   [**waveOutGetPitch**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgetpitch)
+-   [**waveOutSetPitch**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutsetpitch)
 
 ## Playback Rate
 
--   [**waveOutGetPlaybackRate**](https://msdn.microsoft.com/library/Dd743862(v=VS.85).aspx)
--   [**waveOutSetPlaybackRate**](https://msdn.microsoft.com/library/Dd743873(v=VS.85).aspx)
+-   [**waveOutGetPlaybackRate**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgetplaybackrate)
+-   [**waveOutSetPlaybackRate**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutsetplaybackrate)
 
 ## Playback Progress
 
 -   [**MM\_WOM\_DONE**](mm-wom-done.md)
--   [**waveOutBreakLoop**](https://msdn.microsoft.com/library/Dd743854(v=VS.85).aspx)
--   [**waveOutPause**](https://msdn.microsoft.com/library/Dd743867(v=VS.85).aspx)
--   [**waveOutReset**](https://msdn.microsoft.com/library/Dd743870(v=VS.85).aspx)
--   [**waveOutRestart**](https://msdn.microsoft.com/library/Dd743871(v=VS.85).aspx)
+-   [**waveOutBreakLoop**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutbreakloop)
+-   [**waveOutPause**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutpause)
+-   [**waveOutReset**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutreset)
+-   [**waveOutRestart**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutrestart)
 -   [**WOM\_DONE**](wom-done.md)
 
 ## Playing
 
 -   [**MM\_WOM\_DONE**](mm-wom-done.md)
--   [**WAVEHDR**](https://msdn.microsoft.com/library/Dd743837(v=VS.85).aspx)
--   [**waveOutPrepareHeader**](https://msdn.microsoft.com/library/Dd743868(v=VS.85).aspx)
--   [**waveOutUnprepareHeader**](https://msdn.microsoft.com/library/Dd743875(v=VS.85).aspx)
--   [**waveOutWrite**](https://msdn.microsoft.com/library/Dd743876(v=VS.85).aspx)
+-   [**WAVEHDR**](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr)
+-   [**waveOutPrepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutprepareheader)
+-   [**waveOutUnprepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutunprepareheader)
+-   [**waveOutWrite**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutwrite)
 -   [**WOM\_DONE**](wom-done.md)
 
 ## Querying a Device
 
--   [**WAVEINCAPS**](https://msdn.microsoft.com/library/Dd743839(v=VS.85).aspx)
--   [**waveInGetDevCaps**](https://msdn.microsoft.com/library/Dd743841(v=VS.85).aspx)
--   [**waveInGetNumDevs**](https://msdn.microsoft.com/library/Dd743844(v=VS.85).aspx)
--   [**WAVEOUTCAPS**](https://msdn.microsoft.com/library/Dd743855(v=VS.85).aspx)
--   [**waveOutGetDevCaps**](https://msdn.microsoft.com/library/Dd743857(v=VS.85).aspx)
--   [**waveOutGetNumDevs**](https://msdn.microsoft.com/library/Dd743860(v=VS.85).aspx)
+-   [**WAVEINCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-waveincaps)
+-   [**waveInGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-waveingetdevcaps)
+-   [**waveInGetNumDevs**](/windows/win32/api/mmeapi/nf-mmeapi-waveingetnumdevs)
+-   [**WAVEOUTCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-waveoutcaps)
+-   [**waveOutGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgetdevcaps)
+-   [**waveOutGetNumDevs**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgetnumdevs)
 
 ## Recording
 
 -   [**MM\_WIM\_DATA**](mm-wim-data.md)
--   [**waveInAddBuffer**](https://msdn.microsoft.com/library/Dd743838(v=VS.85).aspx)
--   [**waveInPrepareHeader**](https://msdn.microsoft.com/library/Dd743848(v=VS.85).aspx)
--   [**waveInReset**](https://msdn.microsoft.com/library/Dd743850(v=VS.85).aspx)
--   [**waveInStart**](https://msdn.microsoft.com/library/Dd743851(v=VS.85).aspx)
--   [**waveInStop**](https://msdn.microsoft.com/library/Dd743852(v=VS.85).aspx)
--   [**waveInUnprepareHeader**](https://msdn.microsoft.com/library/Dd743853(v=VS.85).aspx)
+-   [**waveInAddBuffer**](/windows/win32/api/mmeapi/nf-mmeapi-waveinaddbuffer)
+-   [**waveInPrepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-waveinprepareheader)
+-   [**waveInReset**](/windows/win32/api/mmeapi/nf-mmeapi-waveinreset)
+-   [**waveInStart**](/windows/win32/api/mmeapi/nf-mmeapi-waveinstart)
+-   [**waveInStop**](/windows/win32/api/mmeapi/nf-mmeapi-waveinstop)
+-   [**waveInUnprepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-waveinunprepareheader)
 -   [**WIM\_DATA**](wim-data.md)
 
 ## Retrieving Device Identifiers
 
--   [**waveInGetID**](https://msdn.microsoft.com/library/Dd743843(v=VS.85).aspx)
--   [**waveOutGetID**](https://msdn.microsoft.com/library/Dd743859(v=VS.85).aspx)
+-   [**waveInGetID**](/windows/win32/api/mmeapi/nf-mmeapi-waveingetid)
+-   [**waveOutGetID**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgetid)
 
 ## Retrieving the Current Position
 
--   [**waveInGetPosition**](https://msdn.microsoft.com/library/Dd743845(v=VS.85).aspx)
--   [**waveOutGetPosition**](https://msdn.microsoft.com/library/Dd743863(v=VS.85).aspx)
+-   [**waveInGetPosition**](/windows/win32/api/mmeapi/nf-mmeapi-waveingetposition)
+-   [**waveOutGetPosition**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgetposition)
 
 ## Sending Custom Messages
 
--   [**waveInMessage**](https://msdn.microsoft.com/library/Dd743846(v=VS.85).aspx)
--   [**waveOutMessage**](https://msdn.microsoft.com/library/Dd743865(v=VS.85).aspx)
+-   [**waveInMessage**](/windows/win32/api/mmeapi/nf-mmeapi-waveinmessage)
+-   [**waveOutMessage**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutmessage)
 
 ## Volume
 
--   [**waveOutGetVolume**](https://msdn.microsoft.com/library/Dd743864(v=VS.85).aspx)
--   [**waveOutSetVolume**](https://msdn.microsoft.com/library/Dd743874(v=VS.85).aspx)
+-   [**waveOutGetVolume**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgetvolume)
+-   [**waveOutSetVolume**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutsetvolume)
 
 ## Related topics
 
@@ -159,7 +159,3 @@ This section lists the functions, structures, and messages associated with wavef
  
 
  
-
-
-
-

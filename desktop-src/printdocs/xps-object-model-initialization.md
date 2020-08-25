@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Describes how to initialize an XPS OM, which allows a program to create an XPS document.
 
-The interfaces of the XPS Document API are created by an [**IXpsOMObjectFactory**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory) interface. To obtain a pointer to an **IXpsOMObjectFactory** that can be used in your program, call [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx).
+The interfaces of the XPS Document API are created by an [**IXpsOMObjectFactory**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory) interface. To obtain a pointer to an **IXpsOMObjectFactory** that can be used in your program, call [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance).
 
 Before using the following code examples in your program, read the disclaimer in [Common XPS Document Programming Tasks](common-xps-document-tasks.md).
 
@@ -72,13 +72,13 @@ You can make your program more efficient by obtaining a pointer to an [**IXpsOMO
 [**IXpsOMObjectFactory**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory)
 </dt> <dt>
 
-[**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx)
+[**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance)
 </dt> <dt>
 
 **For More Information**
 </dt> <dt>
 
-[Packaging](https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging)
+[Packaging](/previous-versions/windows/desktop/opc/packaging)
 </dt> <dt>
 
 [XPS Document API Reference](xps-programming-reference.md)
@@ -90,6 +90,3 @@ You can make your program more efficient by obtaining a pointer to an [**IXpsOMO
  
 
  
-
-
-

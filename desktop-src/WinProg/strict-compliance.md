@@ -26,17 +26,17 @@ Any function declarations that you copied from Windows.h into your source code m
 
 ## Types that Require Casts
 
-Some functions have generic return types or parameters. For example, the [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx) function returns data that may be any number of types, depending on the context. When you see any of these functions in your source code, make sure that you use the correct type cast and that it is as specific as possible. The following list is an example of these functions.
+Some functions have generic return types or parameters. For example, the [**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage) function returns data that may be any number of types, depending on the context. When you see any of these functions in your source code, make sure that you use the correct type cast and that it is as specific as possible. The following list is an example of these functions.
 
--   [**LocalLock**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-locallock)
--   [**GlobalLock**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globallock)
--   [**GetWindowLong**](https://msdn.microsoft.com/library/ms633584(v=VS.85).aspx)
--   [**SetWindowLong**](https://msdn.microsoft.com/library/ms633591(v=VS.85).aspx)
--   [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx)
--   [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
--   [**SendDlgItemMessage**](https://msdn.microsoft.com/library/ms645515(v=VS.85).aspx)
+-   [**LocalLock**](/windows/desktop/api/winbase/nf-winbase-locallock)
+-   [**GlobalLock**](/windows/desktop/api/winbase/nf-winbase-globallock)
+-   [**GetWindowLong**](/windows/win32/api/winuser/nf-winuser-getwindowlonga)
+-   [**SetWindowLong**](/windows/win32/api/winuser/nf-winuser-setwindowlonga)
+-   [**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage)
+-   [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+-   [**SendDlgItemMessage**](/windows/win32/api/winuser/nf-winuser-senddlgitemmessagea)
 
-When you call [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx), [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx), or [**SendDlgItemMessage**](https://msdn.microsoft.com/library/ms645515(v=VS.85).aspx), you should first cast the result to type **UINT\_PTR**. You need to take similar steps for any function that returns an **LRESULT** or **LONG\_PTR** value, where the result contains a handle. This is necessary for writing portable code because the size of a handle varies, depending on the version of Windows. The (**UINT\_PTR**) cast ensures proper conversion. The following code shows an example in which **SendMessage** returns a handle to a brush:
+When you call [**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage), [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca), or [**SendDlgItemMessage**](/windows/win32/api/winuser/nf-winuser-senddlgitemmessagea), you should first cast the result to type **UINT\_PTR**. You need to take similar steps for any function that returns an **LRESULT** or **LONG\_PTR** value, where the result contains a handle. This is necessary for writing portable code because the size of a handle varies, depending on the version of Windows. The (**UINT\_PTR**) cast ensures proper conversion. The following code shows an example in which **SendMessage** returns a handle to a brush:
 
 
 ```C++
@@ -85,7 +85,3 @@ Take special care to distinguish **HMODULE** and **HINSTANCE** types. Even with 
  
 
  
-
-
-
-

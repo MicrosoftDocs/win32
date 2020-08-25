@@ -1,6 +1,6 @@
 ---
-title: TLSExtensions
-description: Enables future enhancements to the schema.
+title: TLSExtensions (v2 schema)
+description: Learn about the TLSExtensions (TLSExtensionsType) element. This element enables future enhancements to the schema.
 ms.assetid: efbb402e-a001-4782-aca8-be4aeca8328c
 keywords:
 - TLSExtensions element EAPHost
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# TLSExtensions
+# TLSExtensions (v2 schema)
 
 The **TLSExtensions (TLSExtensionsType)** element enables future enhancements to the schema.
 
@@ -34,10 +34,10 @@ The **TLSExtensions** element is optional.
 
 
 
-|                                     |                                                         |
-|-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 

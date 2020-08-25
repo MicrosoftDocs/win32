@@ -42,7 +42,7 @@ The element is defined by the [**authEncryption**](wlan-profileschema-authencryp
 
 ## Remarks
 
-This parameter can be set at the command line using the **netsh wlan set profileparameter** command. For more information, see [Netsh Commands for Wireless Local Area Network (wlan)](https://technet.microsoft.com/library/f435edbe-1d50-4774-bae2-0dda33eaeb2f).
+This parameter can be set at the command line using the **netsh wlan set profileparameter** command. For more information, see [Netsh Commands for Wireless Local Area Network (wlan)](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc755301(v=ws.10)).
 
 ## Examples
 
@@ -78,7 +78,3 @@ To view a sample profile that uses the **FIPSMode** element, see [FIPS Profile S
  
 
  
-
-
-
-

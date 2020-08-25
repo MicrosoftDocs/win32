@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # ACE Inheritance Rules
 
-The system propagates inheritable [*access control entries*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACEs) to child objects according to a set of inheritance rules. The system places inherited ACEs in the [*discretionary access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DACL) of the child according to the preferred [order of ACEs in a DACL](order-of-aces-in-a-dacl.md). The system sets the INHERITED\_ACE flag in all inherited ACEs.
+The system propagates inheritable [*access control entries*](/windows/desktop/SecGloss/a-gly) (ACEs) to child objects according to a set of inheritance rules. The system places inherited ACEs in the [*discretionary access control list*](/windows/desktop/SecGloss/d-gly) (DACL) of the child according to the preferred [order of ACEs in a DACL](order-of-aces-in-a-dacl.md). The system sets the INHERITED\_ACE flag in all inherited ACEs.
 
-The ACEs inherited by container and noncontainer child objects differ, depending on the combinations of inheritance flags. These inheritance rules work the same for both DACLs and [*system access control lists*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SACLs).
+The ACEs inherited by container and noncontainer child objects differ, depending on the combinations of inheritance flags. These inheritance rules work the same for both DACLs and [*system access control lists*](/windows/desktop/SecGloss/s-gly) (SACLs).
 
 
 
@@ -25,7 +25,7 @@ The ACEs inherited by container and noncontainer child objects differ, depending
 
  
 
-If an inherited ACE is an effective ACE for the child object, the system maps any generic rights to the specific rights for the child object. Similarly, the system maps generic [*security identifiers*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SIDs), such as CREATOR\_OWNER, to the appropriate SID. If an inherited ACE is an inherit-only ACE, any generic rights or generic SIDs are left unchanged so that they can be mapped appropriately when the ACE is inherited by the next generation of child objects.
+If an inherited ACE is an effective ACE for the child object, the system maps any generic rights to the specific rights for the child object. Similarly, the system maps generic [*security identifiers*](/windows/desktop/SecGloss/s-gly) (SIDs), such as CREATOR\_OWNER, to the appropriate SID. If an inherited ACE is an inherit-only ACE, any generic rights or generic SIDs are left unchanged so that they can be mapped appropriately when the ACE is inherited by the next generation of child objects.
 
 For a case in which a container object inherits an ACE that is both effective on the container and inheritable by its descendants, the container may inherit two ACEs. This occurs if the inheritable ACE contains generic information. The container inherits an inherit-only ACE that contains the generic information and an effective-only ACE in which the generic information has been mapped.
 
@@ -36,9 +36,4 @@ If the **InheritedObjectType** GUID is not specified, the inheritance rules for 
 If the **InheritedObjectType** GUID is specified, the ACE is inheritable by objects that match the GUID if OBJECT\_INHERIT\_ACE is set, and by containers that match the GUID if CONTAINER\_INHERIT\_ACE is set. Note that currently only DS objects support object-specific ACEs, and the DS treats all object types as containers.
 
  
-
- 
-
-
-
 

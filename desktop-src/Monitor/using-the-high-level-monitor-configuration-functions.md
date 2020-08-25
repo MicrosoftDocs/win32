@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 ## Enumerating Physical Monitors
 
-There are several functions that enumerate display devices, including [**EnumDisplayMonitors**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors) and [**MonitorFromWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-monitorfromwindow). These functions are documented in the Windows GDI documentation, under the topic [Multiple Display Monitors](https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors). These functions return **HMONITOR** handles. Despite the name, however, an **HMONITOR** handle can be associated with more than one physical monitor. To configure the settings on a monitor, the application must get a unique handle to the physical monitor by calling [**GetPhysicalMonitorsFromHMONITOR**](/windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromhmonitor).
+There are several functions that enumerate display devices, including [**EnumDisplayMonitors**](/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors) and [**MonitorFromWindow**](/windows/desktop/api/winuser/nf-winuser-monitorfromwindow). These functions are documented in the Windows GDI documentation, under the topic [Multiple Display Monitors](/windows/desktop/gdi/multiple-display-monitors). These functions return **HMONITOR** handles. Despite the name, however, an **HMONITOR** handle can be associated with more than one physical monitor. To configure the settings on a monitor, the application must get a unique handle to the physical monitor by calling [**GetPhysicalMonitorsFromHMONITOR**](/windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromhmonitor).
 
 If your application uses Direct3D, you can get a monitor handle from a Direct3D device by calling [**GetPhysicalMonitorsFromIDirect3DDevice9**](/windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromidirect3ddevice9).
 
@@ -74,7 +74,3 @@ If a monitor setting becomes disabled, any function that sets or retrieves that 
  
 
  
-
-
-
-

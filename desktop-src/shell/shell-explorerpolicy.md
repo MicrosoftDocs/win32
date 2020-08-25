@@ -47,7 +47,7 @@ Shell.ExplorerPolicy( _
 *bstrPolicyName* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** that specifies the name of the policy.
 
@@ -148,7 +148,3 @@ End Sub
  
 
  
-
-
-
-

@@ -17,7 +17,7 @@ api_location:
 
 # SslImportMasterKey function
 
-The **SslImportMasterKey** function performs a server-side [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) key exchange operation.
+The **SslImportMasterKey** function performs a server-side [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) key exchange operation.
 
 ## Syntax
 
@@ -52,14 +52,14 @@ The handle to the SSL protocol provider instance.
 *hPrivateKey* \[in\]
 </dt> <dd>
 
-The handle to the [*private key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) used in the exchange.
+The handle to the [*private key*](/windows/desktop/SecGloss/p-gly) used in the exchange.
 
 </dd> <dt>
 
 *phMasterKey* \[out\]
 </dt> <dd>
 
-A pointer to the handle to receive the [*master key*](https://docs.microsoft.com/windows/desktop/SecGloss/m-gly).
+A pointer to the handle to receive the [*master key*](/windows/desktop/SecGloss/m-gly).
 
 </dd> <dt>
 
@@ -87,7 +87,7 @@ A pointer to an array of [**NCryptBuffer**](https://msdn.microsoft.com/library/A
 *pbEncryptedKey* \[in\]
 </dt> <dd>
 
-A pointer to a buffer that contains the encrypted premaster secret key encrypted with the [*public key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) of the server.
+A pointer to a buffer that contains the encrypted premaster secret key encrypted with the [*public key*](/windows/desktop/SecGloss/p-gly) of the server.
 
 </dd> <dt>
 
@@ -130,7 +130,7 @@ Possible return codes include, but are not limited to, the following.
 This function decrypts the premaster secret, computes the SSL master secret, and returns a handle to this object to the caller. This master key can then be used to derive the SSL session key and finish the SSL handshake.
 
 > [!Note]  
-> This function is used when the [*RSA*](https://docs.microsoft.com/windows/desktop/SecGloss/r-gly) key exchange algorithm is being used. When [*DH*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) is used, then the server code calls [**SslGenerateMasterKey**](sslgeneratemasterkey.md) instead.
+> This function is used when the [*RSA*](/windows/desktop/SecGloss/r-gly) key exchange algorithm is being used. When [*DH*](/windows/desktop/SecGloss/d-gly) is used, then the server code calls [**SslGenerateMasterKey**](sslgeneratemasterkey.md) instead.
 
  
 
@@ -148,9 +148,4 @@ This function decrypts the premaster secret, computes the SSL master secret, and
 
 
  
-
- 
-
-
-
 

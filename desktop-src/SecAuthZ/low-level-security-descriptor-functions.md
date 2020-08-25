@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Low-level Security Descriptor Functions
 
-There are several pairs of low-level functions for setting and retrieving an object's [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly). Each of these pairs works only with a limited set of Windows objects. For example, one pair works with file objects and another works with registry keys. The following table shows the low-level functions to use with the different types of securable objects.
+There are several pairs of low-level functions for setting and retrieving an object's [*security descriptor*](/windows/desktop/SecGloss/s-gly). Each of these pairs works only with a limited set of Windows objects. For example, one pair works with file objects and another works with registry keys. The following table shows the low-level functions to use with the different types of securable objects.
 
 
 
@@ -93,6 +93,3 @@ There are several pairs of low-level functions for setting and retrieving an obj
  
 
  
-
-
-

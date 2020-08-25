@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Retrieving Network Errors
 
-The WNet functions return error codes for compatibility with Windows for Workgroups. Each WNet function also sets the error code value returned by [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+The WNet functions return error codes for compatibility with Windows for Workgroups. Each WNet function also sets the error code value returned by [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-When one of the WNet functions returns ERROR\_EXTENDED\_ERROR, an application can call the [**WNetGetLastError**](https://msdn.microsoft.com/library/Aa385459(v=VS.85).aspx) function to retrieve additional information about the error. This information is usually specific to the network provider.
+When one of the WNet functions returns ERROR\_EXTENDED\_ERROR, an application can call the [**WNetGetLastError**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetlasterrora) function to retrieve additional information about the error. This information is usually specific to the network provider.
 
-The following example illustrates an application-defined error-handling function (NetErrorHandler). The function takes three arguments: a window handle, the error code returned by one of the WNet functions, and the name of the function that produced the error. If the error code is ERROR\_EXTENDED\_ERROR, NetErrorHandler calls **WNetGetLastError** to get extended error information and prints the information. The sample calls the [**MessageBox**](https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx) function to process messages.
+The following example illustrates an application-defined error-handling function (NetErrorHandler). The function takes three arguments: a window handle, the error code returned by one of the WNet functions, and the name of the function that produced the error. If the error code is ERROR\_EXTENDED\_ERROR, NetErrorHandler calls **WNetGetLastError** to get extended error information and prints the information. The sample calls the [**MessageBox**](/windows/win32/api/winuser/nf-winuser-messagebox) function to process messages.
 
 
 ```C++
@@ -83,7 +83,3 @@ BOOL WINAPI NetErrorHandler(HWND hwnd,
  
 
  
-
-
-
-

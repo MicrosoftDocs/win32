@@ -19,16 +19,16 @@ The code examples listed at the bottom of the page show how to set the propertie
 
  
 
-In the following examples, the modified object is always saved to disk by a call to [**IPersistFile::Save**](https://msdn.microsoft.com/library/ms693701(v=VS.85).aspx). (The [**IPersistFile**](https://msdn.microsoft.com/library/ms687223(v=VS.85).aspx) interface is a standard COM interface inherited by the task object.)
+In the following examples, the modified object is always saved to disk by a call to [**IPersistFile::Save**](/windows/win32/api/objidl/nf-objidl-ipersistfile-save). (The [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) interface is a standard COM interface inherited by the task object.)
 
 The following procedure describes how to set a task property.
 
 **To set a task property**
 
-1.  Call [**CoInitialize**](https://msdn.microsoft.com/library/ms678543(v=VS.85).aspx) to initialize the COM library and [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) to get a Task Scheduler object. (These examples assume that the Task Scheduler service is running.)
+1.  Call [**CoInitialize**](/windows/win32/api/objbase/nf-objbase-coinitialize) to initialize the COM library and [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) to get a Task Scheduler object. (These examples assume that the Task Scheduler service is running.)
 2.  Call [**ITaskScheduler::Activate**](/windows/desktop/api/Mstask/nf-mstask-itaskscheduler-activate) to get the [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) interface of the task object. (Note that tasks are currently the only valid type of work item.)
 3.  Call the appropriate [**IScheduledWorkItem**](/windows/desktop/api/Mstask/nn-mstask-ischeduledworkitem) method to set the property you are interested in. Note that **IScheduledWorkItem** methods are inherited by the [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) interface.
-4.  Call [**IPersistFile::Save**](https://msdn.microsoft.com/library/ms693701(v=VS.85).aspx) to store the modified task object to disk.
+4.  Call [**IPersistFile::Save**](/windows/win32/api/objidl/nf-objidl-ipersistfile-save) to store the modified task object to disk.
 
 
 
@@ -51,7 +51,3 @@ The following procedure describes how to set a task property.
  
 
  
-
-
-
-

@@ -12,9 +12,9 @@ To consume event specific data, the consumer must know the format of the event d
 
 Parsing the event data requires using the Windows Management Infrastructure (WMI) API. The ETW namespace where providers publish their MOF class is root\\wmi. The ETW namespace contains three types of MOF classes: the provider MOF class, the event MOF class, and the event type MOF class. The event MOF class logically groups one or more event type MOF classes. The event type MOF class defines the actual event data.
 
-An event MOF class contains a **Guid** class qualifier whose value must match the value in the **Header.Guid** member of the [**EVENT\_TRACE**](event-trace.md) structure. To ensure you have the correct version of the class, also compare the **EventVersion** class qualifier to the **Header.Class.Version** member of the **EVENT\_TRACE** structure.
+An event MOF class contains a **Guid** class qualifier whose value must match the value in the **Header.Guid** member of the [**EVENT\_TRACE**](/windows/win32/api/evntrace/ns-evntrace-event_trace) structure. To ensure you have the correct version of the class, also compare the **EventVersion** class qualifier to the **Header.Class.Version** member of the **EVENT\_TRACE** structure.
 
-After you find the correct event class, enumerate its child event type classes to find the class that contains the format of the event data. The correct event type class contains an **EventType** class qualifier whose value matches the value in the **Header.Class.Type** member of the [**EVENT\_TRACE**](event-trace.md) structure.
+After you find the correct event class, enumerate its child event type classes to find the class that contains the format of the event data. The correct event type class contains an **EventType** class qualifier whose value matches the value in the **Header.Class.Type** member of the [**EVENT\_TRACE**](/windows/win32/api/evntrace/ns-evntrace-event_trace) structure.
 
 You can then use the WMI API to enumerate the properties of the MOF class. Use the qualifiers and data type of each property to determine the size of the data element in the event data to read and how to format it. For a list of MOF qualifiers that ETW supports, see [Event Tracing MOF Qualifiers](event-tracing-mof-qualifiers.md).
 
@@ -1377,6 +1377,3 @@ PBYTE PrintEventPropertyValue(PROPERTY_LIST* pProperty, PBYTE pEventData, USHORT
  
 
  
-
-
-

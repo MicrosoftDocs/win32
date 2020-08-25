@@ -52,9 +52,9 @@ The return value is always **TRUE**.
 
 ## Remarks
 
-This message is processed by the [**DefDlgProc**](/windows/desktop/api/Winuser/nf-winuser-defdlgprocw) function. To set the default push button, the function can send [**WM\_GETDLGCODE**](wm-getdlgcode.md) and [**BM\_SETSTYLE**](https://msdn.microsoft.com/library/Bb761824(v=VS.85).aspx) messages to the specified control and the current default push button.
+This message is processed by the [**DefDlgProc**](/windows/desktop/api/Winuser/nf-winuser-defdlgprocw) function. To set the default push button, the function can send [**WM\_GETDLGCODE**](wm-getdlgcode.md) and [**BM\_SETSTYLE**](../controls/bm-setstyle.md) messages to the specified control and the current default push button.
 
-Using the **DM\_SETDEFID** message can result in more than one button appearing to have the default push button state. When the system brings up a dialog, it draws the first push button in the dialog template with the default state border. Sending a **DM\_SETDEFID** message to change the default button will not always remove the default state border from the first push button. In these cases, the application should send a [**BM\_SETSTYLE**](https://msdn.microsoft.com/library/Bb761824(v=VS.85).aspx) message to change the first push button border style.
+Using the **DM\_SETDEFID** message can result in more than one button appearing to have the default push button state. When the system brings up a dialog, it draws the first push button in the dialog template with the default state border. Sending a **DM\_SETDEFID** message to change the default button will not always remove the default state border from the first push button. In these cases, the application should send a [**BM\_SETSTYLE**](../controls/bm-setstyle.md) message to change the first push button border style.
 
 ## Requirements
 
@@ -93,17 +93,11 @@ Using the **DM\_SETDEFID** message can result in more than one button appearing 
 **Other Resources**
 </dt> <dt>
 
-[**BM\_SETSTYLE**](https://msdn.microsoft.com/library/Bb761824(v=VS.85).aspx)
+[**BM\_SETSTYLE**](../controls/bm-setstyle.md)
 </dt> <dt>
 
-[**EM\_SETLIMITTEXT**](https://msdn.microsoft.com/library/Bb761647(v=VS.85).aspx)
+[**EM\_SETLIMITTEXT**](../controls/em-setlimittext.md)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

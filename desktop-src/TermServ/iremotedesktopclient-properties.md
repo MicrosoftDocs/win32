@@ -9,13 +9,13 @@ ms.date: 05/31/2018
 
 # IRemoteDesktopClient properties
 
-The [**IRemoteDesktopClient**](https://msdn.microsoft.com/library/Mt786998(v=VS.85).aspx) interface exposes the following properties.
+The [**IRemoteDesktopClient**](/windows/win32/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient) interface exposes the following properties.
 
 ## In this section
 
 <dl> <dt>
 
-[**Actions property**](https://msdn.microsoft.com/library/Mt787034(v=VS.85).aspx)
+[**Actions property**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-get_actions)
 </dt> <dd>
 
 Retrieves the actions object for the Remote Desktop Protocol (RDP) app container client.
@@ -29,17 +29,13 @@ Retrieves the settings object for the Remote Desktop Protocol (RDP) app containe
 
 </dd> <dt>
 
-[**TouchPointer property**](https://msdn.microsoft.com/library/Mt787044(v=VS.85).aspx)
+[**TouchPointer property**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-get_touchpointer)
 </dt> <dd>
 
-Contains the [**RemoteDesktopClientTouchPointer**](https://msdn.microsoft.com/library/Mt787029(v=VS.85).aspx) object for the Remote Desktop Protocol (RDP) app container client.
+Contains the [**RemoteDesktopClientTouchPointer**](/windows/win32/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer) object for the Remote Desktop Protocol (RDP) app container client.
 
 </dd> </dl>
 
  
 
  
-
-
-
-

@@ -8,7 +8,7 @@ ms.topic: reference
 
 # LinearGradientBrush.GetRectangle methods
 
-This topic lists the GetRectangle methods of the [**LinearGradientBrush**](https://msdn.microsoft.com/library/ms534473(v=VS.85).aspx) class. For a complete list of methods for the **LinearGradientBrush** class, see [LinearGradientBrush Methods](-gdiplus-class-lineargradientbrush-methods.md).
+This topic lists the GetRectangle methods of the [**LinearGradientBrush**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush) class. For a complete list of methods for the **LinearGradientBrush** class, see [LinearGradientBrush Methods](-gdiplus-class-lineargradientbrush-methods.md).
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the GetRectangle methods of the [**LinearGradientBrush**](https
 
 | Method                                                                                       | Description                                                                                                                                                                                    |
 |:---------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetRectangle(Rect\*)**](https://msdn.microsoft.com/library/ms535351(v=VS.85).aspx)   | The [**LinearGradientBrush::GetRectangle**](https://msdn.microsoft.com/library/ms535351(v=VS.85).aspx) method gets the rectangle that defines the boundaries of the gradient. <br/> |
-| [**GetRectangle(RectF\*)**](https://msdn.microsoft.com/library/ms535352(v=VS.85).aspx) | The [**LinearGradientBrush::GetRectangle**](https://msdn.microsoft.com/library/ms535352(v=VS.85).aspx) method gets the rectangle that defines the boundaries of the gradient.<br/> |
+| [**GetRectangle(Rect\*)**](/windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getrectangle(outrect))   | The [**LinearGradientBrush::GetRectangle**](/windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getrectangle(outrect)) method gets the rectangle that defines the boundaries of the gradient. <br/> |
+| [**GetRectangle(RectF\*)**](/previous-versions//ms535352(v=vs.85)) | The [**LinearGradientBrush::GetRectangle**](/previous-versions//ms535352(v=vs.85)) method gets the rectangle that defines the boundaries of the gradient.<br/> |
 
 
 
@@ -38,7 +38,3 @@ This topic lists the GetRectangle methods of the [**LinearGradientBrush**](https
  
 
  
-
-
-
-

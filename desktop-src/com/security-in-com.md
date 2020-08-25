@@ -16,7 +16,7 @@ The system implements the Kerberos v5 authentication protocol and the Schannel s
 
 Because there is a wide range of COM security features available, it is helpful to initially determine what kind of security your application needs. For most applications, setting an acceptable level of security can be a painless process, but you can also use COM security to support very complex security scenarios.
 
-You can set security processwide, either by using Dcomcnfg.exe to set the registry or by calling [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity). Two primary interfaces, [**IClientSecurity**](/windows/desktop/api/ObjIdl/nn-objidl-iclientsecurity) and [**IServerSecurity**](https://msdn.microsoft.com/library/ms691215(v=VS.85).aspx) (and associated helper functions), allow you to set call-level security within your program.
+You can set security processwide, either by using Dcomcnfg.exe to set the registry or by calling [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity). Two primary interfaces, [**IClientSecurity**](/windows/desktop/api/ObjIdl/nn-objidl-iclientsecurity) and [**IServerSecurity**](/windows/win32/api/objidlbase/nn-objidlbase-iserversecurity) (and associated helper functions), allow you to set call-level security within your program.
 
 To learn more about COM security, see the following topics:
 
@@ -37,7 +37,3 @@ To learn more about COM security, see the following topics:
  
 
  
-
-
-
-

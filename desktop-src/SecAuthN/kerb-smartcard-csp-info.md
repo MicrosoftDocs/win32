@@ -16,7 +16,7 @@ api_location:
 
 # KERB\_SMARTCARD\_CSP\_INFO structure
 
-The **KERB\_SMARTCARD\_CSP\_INFO** structure contains information about a smart card [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP).
+The **KERB\_SMARTCARD\_CSP\_INFO** structure contains information about a smart card [*cryptographic service provider*](../secgloss/c-gly.md) (CSP).
 
 This structure is not declared in a public header.
 
@@ -172,7 +172,3 @@ When this structure is serialized, the structure members must be aligned to boun
  
 
  
-
-
-
-

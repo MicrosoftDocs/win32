@@ -90,7 +90,7 @@ Pointer to a [**D3DXVECTOR3**](d3dxvector3.md) structure, specifying the directi
 *pU* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Barycentric hit coordinates, U.
 
@@ -99,7 +99,7 @@ Barycentric hit coordinates, U.
 *pV* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Barycentric hit coordinates, V.
 
@@ -108,7 +108,7 @@ Barycentric hit coordinates, V.
 *pDist* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Ray-intersection parameter distance.
 
@@ -116,7 +116,7 @@ Ray-intersection parameter distance.
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Returns **TRUE** if the ray intersects the area of the triangle. Otherwise, returns **FALSE**.
 
@@ -151,7 +151,3 @@ Barycentric coordinates define a point inside a triangle in terms of the triangl
  
 
  
-
-
-
-

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # About the WinSNMP API
 
-\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](https://docs.microsoft.com/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
+\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
 
 The WinSNMP API is an interface for the development of SNMP-enabled network management applications.
 
@@ -24,7 +24,3 @@ The WinSNMP API supports 32-bit applications, and it executes in single- and mul
  
 
  
-
-
-
-

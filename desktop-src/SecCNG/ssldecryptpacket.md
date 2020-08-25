@@ -17,7 +17,7 @@ api_location:
 
 # SslDecryptPacket function
 
-the **SslDecryptPacket** function decrypts a single [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) packet.
+the **SslDecryptPacket** function decrypts a single [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) packet.
 
 ## Syntax
 
@@ -141,9 +141,4 @@ The length of the packet can be zero, such as when a "HelloRequest" message is d
 
 
  
-
- 
-
-
-
 

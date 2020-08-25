@@ -44,21 +44,21 @@ DWORD APIENTRY NtGdiDdSetOverlayPosition(
 *hSurfaceSource* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that represents the DirectDraw overlay surface.
+Handle to a [**DD\_SURFACE\_LOCAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local) structure that represents the DirectDraw overlay surface.
 
 </dd> <dt>
 
 *hSurfaceDestination* \[in\]
 </dt> <dd>
 
-Pointer to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure representing the surface that is being overlaid.
+Pointer to a [**DD\_SURFACE\_LOCAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local) structure representing the surface that is being overlaid.
 
 </dd> <dt>
 
 *puSetOverlayPositionData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_SETOVERLAYPOSITIONDATA**](https://msdn.microsoft.com/library/Ff551706(v=VS.85).aspx) structure that contains the information required to set the overlay position.
+Pointer to a [**DD\_SETOVERLAYPOSITIONDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_setoverlaypositiondata) structure that contains the information required to set the overlay position.
 
 </dd> </dl>
 
@@ -99,7 +99,3 @@ Pointer to a [**DD\_SETOVERLAYPOSITIONDATA**](https://msdn.microsoft.com/library
  
 
  
-
-
-
-

@@ -110,7 +110,7 @@ Specifies which information will be stored in *pvResult*. The valid values are:
 </tr>
 <tr class="even">
 <td><p>JET_IdxInfoLangid</p></td>
-<td><p>JET_IdxInfoLangid is deprecated. Use JET_IdxInfoLCID instead, and the <a href="https://msdn.microsoft.com/library/dd318689(VS.85).aspx">LANGIDFROMLCID</a> macro instead.</p></td>
+<td><p>JET_IdxInfoLangid is deprecated. Use JET_IdxInfoLCID instead, and the <a href="/windows/win32/api/winnt/nf-winnt-langidfromlcid">LANGIDFROMLCID</a> macro instead.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_IdxInfoCount</p></td>
@@ -224,4 +224,3 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 [JET_INDEXCREATE](gg269186\(v=exchg.10\).md)  
 [JET_INDEXID](gg269327\(v=exchg.10\).md)  
 [JetGetIndexInfo](gg294084\(v=exchg.10\).md)
-

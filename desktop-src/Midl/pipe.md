@@ -61,7 +61,7 @@ The following restrictions apply to pipes:
 
  
 
-For more information on implementing routines with pipe parameters, see [Pipes](https://docs.microsoft.com/windows/desktop/Rpc/pipes) in the RPC Programmer's Guide and Reference.
+For more information on implementing routines with pipe parameters, see [Pipes](/windows/desktop/Rpc/pipes) in the RPC Programmer's Guide and Reference.
 
 ## Examples
 
@@ -130,7 +130,3 @@ typedef pipe SIMPLE_STRUCT SIMPLE_STRUCT_PIPE;
  
 
  
-
-
-
-

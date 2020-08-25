@@ -25,7 +25,7 @@ An annotation is a user-defined piece of information, declared with the followin
 
 | Item                                                                                                   | Description                                                                                                                                                                      |
 |--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="DataType"></span><span id="datatype"></span><span id="DATATYPE"></span>*DataType*<br/> | \[in\] The data type, which includes any [scalar HLSL](https://msdn.microsoft.com/library/Bb509646(v=VS.85).aspx) type as well as the [string type](https://msdn.microsoft.com/library/Bb509646(v=VS.85).aspx).<br/> |
+| <span id="DataType"></span><span id="datatype"></span><span id="DATATYPE"></span>*DataType*<br/> | \[in\] The data type, which includes any [scalar HLSL](../direct3dhlsl/dx-graphics-hlsl-scalar.md) type as well as the [string type](../direct3dhlsl/dx-graphics-hlsl-scalar.md).<br/> |
 | <span id="Name"></span><span id="name"></span><span id="NAME"></span>*Name*<br/>                 | \[in\] An ASCII string, that represents the annotation name.<br/>                                                                                                          |
 | <span id="Value"></span><span id="value"></span><span id="VALUE"></span>*Value*<br/>             | \[in\] The initial value of the annotation.<br/>                                                                                                                           |
 | <span id="..."></span>*...*<br/>                                                                 | \[in\] Additional annotations (name-value pairs).<br/>                                                                                                                     |
@@ -77,7 +77,3 @@ return pos;
  
 
  
-
-
-
-

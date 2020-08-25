@@ -13,7 +13,7 @@ Authentication types permitted for a connection.
 
 **LDAP Name:** msNPAuthenticationType2
 
-**ID:** 4105 = [**IAS\_ATTRIBUTE\_NP\_AUTHENTICATION\_TYPE**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid)
+**ID:** 4105 = [**IAS\_ATTRIBUTE\_NP\_AUTHENTICATION\_TYPE**](/windows/desktop/api/sdoias/ne-sdoias-attributeid)
 
 **Syntax:** Integer
 
@@ -37,7 +37,3 @@ Defined in the [**AUTHENTICATION\_TYPE**](/windows/desktop/api/SdoIas/ne-sdoias-
  
 
  
-
-
-
-

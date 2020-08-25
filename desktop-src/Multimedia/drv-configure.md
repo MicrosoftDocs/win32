@@ -48,7 +48,7 @@ Handle of the parent window. This window is used as the parent window for the co
 <span id="lParam2"></span><span id="lparam2"></span><span id="LPARAM2"></span>*lParam2*
 </dt> <dd>
 
-Address of a [**DRVCONFIGINFO**](https://msdn.microsoft.com/library/Dd797923(v=VS.85).aspx) structure or **NULL**. If the structure is given, it contains the names of the registry key and value associated with the driver.
+Address of a [**DRVCONFIGINFO**](/windows/win32/api/mmiscapi/ns-mmiscapi-drvconfiginfo) structure or **NULL**. If the structure is given, it contains the names of the registry key and value associated with the driver.
 
 </dd> </dl>
 
@@ -97,10 +97,4 @@ The DRV\_CANCEL, DRV\_OK, and DRV\_RESTART return values are obsolete; they have
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

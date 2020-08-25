@@ -43,7 +43,7 @@ Closing a merge module will not affect any errors that have not been retrieved.
 
 ### C++
 
-See [**CloseModule**](https://msdn.microsoft.com/library/Aa369267(v=VS.85).aspx) function.
+See [**CloseModule**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-closemodule) function.
 
 ## Requirements
 
@@ -60,7 +60,3 @@ See [**CloseModule**](https://msdn.microsoft.com/library/Aa369267(v=VS.85).aspx)
  
 
  
-
-
-
-

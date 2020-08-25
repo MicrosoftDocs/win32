@@ -25,7 +25,7 @@ The following table shows the three power plan personalities.
  
 
 > [!Note]  
-> Devices that support [Modern Standby](https://docs.microsoft.com/windows-hardware/design/device-experiences/modern-standby) mode only allow the **Balanced** power plan. **Modern Standby** is the newer, more streamlined solution to power settings management.
+> Devices that support [Modern Standby](/windows-hardware/design/device-experiences/modern-standby) mode only allow the **Balanced** power plan. **Modern Standby** is the newer, more streamlined solution to power settings management.
 
  
 
@@ -43,6 +43,3 @@ Each power setting is identified by a unique **GUID** and includes a friendly na
  
 
  
-
-
-

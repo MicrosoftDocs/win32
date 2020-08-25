@@ -49,14 +49,14 @@ In IIS 7, the default upload limit is 30 million bytes. The value of the <strong
 </tr>
 <tr class="odd">
 <td><strong>BITSServerNotificationURL</strong>Data type: <strong>String</strong><br/></td>
-<td>Optional. Contains the URL of the server application to which BITS posts the upload file. You must specify a URL if the value of the <strong>BITSServerNotificationType</strong> property is 1 or 2. The URL is limited to 2,200 characters, not including the null terminator. The URL must be an HTTP URL; BITS does not support HTTPS notification URLs.<br/> If the URL is not available at the time of upload, BITS will retry the upload until the notification URL exists or until the retry period expires.<br/> Note that if the remote name specified in the job contains a query string, the query string is appended to the URL that you specify. For example, if the remote name contains https://myserver/myvdir/subdir/file.asp?ACCOUNT=86433 and you specify the <strong>BITSServerNotificationURL</strong> setting as https://otherserver/myvdir2/bag.asp, the URL to which BITS posts is https://otherserver/myvdir2/bag.asp?ACCOUNT=86433.<br/> If the original URL is https://myserver/myvdir/file.txt and the notification URL is myasp.asp, BITS uses http//myserver/myvdir/myasp.asp as the notification URL.<br/> If the path and file name portion of the URL contains Unicode characters not in common to the code page on both the client and server, the URL translation will fail on the server and the BITS job will be placed in the error state. If the server portion of the URL contains Unicode characters, you must encode the server portion using <a href="https://msdn.microsoft.com/library/dd318142.aspx">Internationalized Domain Names</a> (IDN).<br/></td>
+<td>Optional. Contains the URL of the server application to which BITS posts the upload file. You must specify a URL if the value of the <strong>BITSServerNotificationType</strong> property is 1 or 2. The URL is limited to 2,200 characters, not including the null terminator. The URL must be an HTTP URL; BITS does not support HTTPS notification URLs.<br/> If the URL is not available at the time of upload, BITS will retry the upload until the notification URL exists or until the retry period expires.<br/> Note that if the remote name specified in the job contains a query string, the query string is appended to the URL that you specify. For example, if the remote name contains https://myserver/myvdir/subdir/file.asp?ACCOUNT=86433 and you specify the <strong>BITSServerNotificationURL</strong> setting as https://otherserver/myvdir2/bag.asp, the URL to which BITS posts is https://otherserver/myvdir2/bag.asp?ACCOUNT=86433.<br/> If the original URL is https://myserver/myvdir/file.txt and the notification URL is myasp.asp, BITS uses http//myserver/myvdir/myasp.asp as the notification URL.<br/> If the path and file name portion of the URL contains Unicode characters not in common to the code page on both the client and server, the URL translation will fail on the server and the BITS job will be placed in the error state. If the server portion of the URL contains Unicode characters, you must encode the server portion using <a href="/windows/win32/intl/handling-internationalized-domain-names--idns">Internationalized Domain Names</a> (IDN).<br/></td>
 </tr>
 <tr class="even">
 <td><strong>BITSHostId</strong>Data Type: <strong>String</strong><br/></td>
 <td>Set this property if the server installation is a web farm that does not use shared storage.<br/> Specify the server name or IP address of the server to reconnect to after the upload process is interrupted. Typically, you specify the name of the server you are configuring. The URL is limited to 300 characters, not including the null terminator.<br/> If you do not specify this property and the upload process is interrupted, it is possible that BITS will resume the job on another server in the farm. However, the previous server still contains the partial upload file from before the interruption. BITS removes the partial file after the <strong>BITSSessionTimeout</strong> expires.<br/>
 <blockquote>
 [!Note]<br />
-Do not use the <strong>BITSHostId</strong> property if SSL is used in a web farm that uses Network Load Balancing (NLB) or DNS names with multiple IP addresses, unless you include the cluster name and individual server names in the certificate. (If the server name specified in <strong>BITSHostId</strong> does not match the common name on the certificate, the job will fail.) Instead, for NLB, set the <a href="https://technet.microsoft.com/library/bb687542.aspx">Affinity</a> parameter to <strong>Single</strong> to ensure that the client communicates with the same server in the future.
+Do not use the <strong>BITSHostId</strong> property if SSL is used in a web farm that uses Network Load Balancing (NLB) or DNS names with multiple IP addresses, unless you include the cluster name and individual server names in the certificate. (If the server name specified in <strong>BITSHostId</strong> does not match the common name on the certificate, the job will fail.) Instead, for NLB, set the <a href="/previous-versions/tn-archive/bb687542(v=technet.10)">Affinity</a> parameter to <strong>Single</strong> to ensure that the client communicates with the same server in the future.
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -134,10 +134,4 @@ WScript.Quit( 0 );
 
 
  
-
- 
-
-
-
-
 

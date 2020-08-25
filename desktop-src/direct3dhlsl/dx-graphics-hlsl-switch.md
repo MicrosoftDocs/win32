@@ -71,7 +71,7 @@ When you use <a href="dx-graphics-hlsl-sm2.md">Shader Model 2.x</a> or <a href="
 <td>Force a switch statement in the hardware.
 <blockquote>
 [!Note]<br />
-Requires <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> 10_0 or later hardware.
+Requires <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> 10_0 or later hardware.
 </blockquote>
 <br/></td>
 </tr>
@@ -80,7 +80,7 @@ Requires <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overview
 <td>The bodies of the individual cases in the switch will be moved into hardware subroutines and the switch will be a series of subroutine calls.
 <blockquote>
 [!Note]<br />
-Requires <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> 10_0 or later hardware.
+Requires <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> 10_0 or later hardware.
 </blockquote>
 <br/></td>
 </tr>
@@ -191,10 +191,4 @@ Here are example usages of forcecase and call flow control attributes:
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

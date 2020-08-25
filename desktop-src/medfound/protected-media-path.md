@@ -14,7 +14,7 @@ This topic discusses three interrelated topics: protected environment, media int
 -   The protected media path (PMP) is an executable that runs in a protected environment.
 -   If a trusted component in the PE becomes compromised, after due process it will be revoked. However, Microsoft provides a renewal mechanism to install a newer trusted version of the component when one becomes available.
 
-For information about code signing protected media components, see the white paper [Code Signing for Protected Media Components in Windows Vista](https://docs.microsoft.com/windows-hardware/test/hlk/).
+For information about code signing protected media components, see the white paper [Code Signing for Protected Media Components in Windows Vista](/windows-hardware/test/hlk/).
 
 This topic contains the following sections:
 
@@ -156,6 +156,3 @@ When premium video content is viewed, the decrypted, uncompressed frames travel 
  
 
  
-
-
-

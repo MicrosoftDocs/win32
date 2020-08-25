@@ -3,7 +3,7 @@ Description: Windows Update Agent (WUA) can be used to scan computers for securi
 ms.assetid: 452b53af-0f7b-435e-bf12-dd9d84cbd564
 title: Using WUA to Scan for Updates Offline
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 07/23/2020
 ---
 
 # Using WUA to Scan for Updates Offline
@@ -15,6 +15,9 @@ Offline scanning for updates requires the download of a signed file, Wsusscn2.ca
 The Wsusscn2.cab file is a cabinet file that is signed by Microsoft. This file contains info about security-related updates that are published by Microsoft. Computers that aren't connected to the Internet can be scanned to see whether these security-related updates are present or required. The Wsusscn2.cab file doesn't contain the security updates themselves so you must obtain and install any needed security-related updates through other means. New versions of the Wsusscn2.cab file are released periodically as security-related updates are released, removed, or revised on the Windows Update site. The latest Wsusscn2.cab file is available for download at the following location: [Download Wsusscn2.cab](http://download.windowsupdate.com/microsoftupdate/v6/wsusscan/wsusscn2.cab)
 
 After you download the latest Wsusscn2.cab, the file can be provided to the [**AddScanPackageService**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager-addscanpackageservice) method, and the WUA API can be used to search the offline computer for security updates. WUA validates that the Wsusscn2.cab is signed by a valid Microsoft certificate before running an offline scan.
+
+> [!NOTE]
+> In accordance with our [SHA-1 deprecation initiative](https://aka.ms/sha1deprecation), the Wsusscn2.cab file is no longer dual-signed using both SHA-1 and the SHA-2 suite of hash algorithms (specifically SHA-256). This file is now signed using only SHA-256. Administrators who verify digital signatures on this file should now expect only single SHA-256 signatures.
 
 ## Example
 

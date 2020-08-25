@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # IVMDVDDrive interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Controls a CD-ROM or DVD-ROM drive within a virtual machine. **IVMDVDDrive** can notify clients about events using the [**IVMDVDDriveEvents**](ivmdvddriveevents.md) outgoing interface.
 
@@ -27,7 +27,7 @@ You can add a new CD-ROM or DVD-ROM drive to a virtual machine using the [**IVMV
 
 ## Members
 
-The **IVMDVDDrive** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMDVDDrive** also has these types of members:
+The **IVMDVDDrive** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **IVMDVDDrive** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -84,10 +84,4 @@ The **IVMDVDDrive** interface has these properties.
 
 
  
-
- 
-
-
-
-
 

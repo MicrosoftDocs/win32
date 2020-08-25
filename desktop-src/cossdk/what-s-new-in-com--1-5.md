@@ -119,15 +119,12 @@ COM+ developers can now use the Component Services administrative tool to config
 
 Side-by-side (SxS) assemblies allow applications to specify which version of a system DLL or classic COM component to use, such as MDAC, MFS, MSVCRT, or MSXML. For example, if an ASP application relies on MSXML version 2.0, you can ensure that this application still uses MSXML version 2.0 even after service packs are applied to the server. That is, even when a new version of MSXML is installed on the computer, version 2.0 remains and is used by your application.
 
-To configure SxS assemblies, you need to know the path to the DLL and that the COM+ manifest file exists in every virtual directory that needs to use the DLL. The COM+ manifest is an XML file that has information about where a DLL is installed. The manifest is used to create an activation context for the application. Activation contexts allow an application to load a particular DLL version, COM object instance, or custom window version. You can use the Component Services administrative tool or ApplicationDirectory property to enter the full path of the application root directory that contains a valid SxS assembly manifest file. For more information, see [Isolated Applications and Side-by-side Assemblies](https://docs.microsoft.com/windows/desktop/SbsCs/isolated-applications-and-side-by-side-assemblies-portal).
+To configure SxS assemblies, you need to know the path to the DLL and that the COM+ manifest file exists in every virtual directory that needs to use the DLL. The COM+ manifest is an XML file that has information about where a DLL is installed. The manifest is used to create an activation context for the application. Activation contexts allow an application to load a particular DLL version, COM object instance, or custom window version. You can use the Component Services administrative tool or ApplicationDirectory property to enter the full path of the application root directory that contains a valid SxS assembly manifest file. For more information, see [Isolated Applications and Side-by-side Assemblies](/windows/desktop/SbsCs/isolated-applications-and-side-by-side-assemblies-portal).
 
 ## Windows Error Reporting
 
-COM+ 1.5 includes support for the Windows Error Reporting (WER) component, available starting in Windows XP. WER enables users to notify Microsoft of application faults, kernel faults, and unresponsive applications. These notifications allow the Microsoft customer support teams to solve technical problems more effectively. In addition, the Windows Error Reporting component enables COM+ developers to receive information that can be used to improve their applications. For more information, see [Windows Error Reporting](https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting).
+COM+ 1.5 includes support for the Windows Error Reporting (WER) component, available starting in Windows XP. WER enables users to notify Microsoft of application faults, kernel faults, and unresponsive applications. These notifications allow the Microsoft customer support teams to solve technical problems more effectively. In addition, the Windows Error Reporting component enables COM+ developers to receive information that can be used to improve their applications. For more information, see [Windows Error Reporting](/windows/desktop/wer/windows-error-reporting).
 
  
 
  
-
-
-

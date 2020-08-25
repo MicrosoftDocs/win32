@@ -26,7 +26,7 @@ Passes symbol server information to the desktop capture engine.
 
 ## Members
 
-The **ISymbolSettings** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ISymbolSettings** also has these types of members:
+The **ISymbolSettings** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ISymbolSettings** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **ISymbolSettings** interface has these methods.
  
 
  
-
-
-

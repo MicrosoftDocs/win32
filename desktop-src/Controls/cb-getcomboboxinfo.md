@@ -42,7 +42,7 @@ A pointer to a [**COMBOBOXINFO**](/windows/win32/api/winuser/ns-winuser-combobox
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
@@ -74,10 +74,4 @@ This message is equivalent to [**GetComboBoxInfo**](/windows/desktop/api/Winuser
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

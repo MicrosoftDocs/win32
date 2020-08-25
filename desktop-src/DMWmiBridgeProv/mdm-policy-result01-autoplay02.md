@@ -53,7 +53,7 @@ The **MDM\_Policy\_Result01\_Autoplay02** class has these properties.
 
 <dl> <dt>
 
-[DisallowAutoplayForNonVolumeDevices](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-autoplay#autoplay-disallowautoplayfornonvolumedevices)
+[DisallowAutoplayForNonVolumeDevices](/windows/client-management/mdm/policy-csp-autoplay#autoplay-disallowautoplayfornonvolumedevices)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -73,7 +73,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
@@ -87,12 +87,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[SetDefaultAutoRunBehavior](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-autoplay#autoplay-setdefaultautorunbehavior)
+[SetDefaultAutoRunBehavior](/windows/client-management/mdm/policy-csp-autoplay#autoplay-setdefaultautorunbehavior)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -103,7 +103,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[TurnOffAutoPlay](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-autoplay#autoplay-turnoffautoplay)
+[TurnOffAutoPlay](/windows/client-management/mdm/policy-csp-autoplay#autoplay-turnoffautoplay)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -129,10 +129,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

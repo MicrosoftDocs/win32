@@ -98,7 +98,7 @@ cbuffer VS_CONSTANT_BUFFER : register(b0)
 ```
 
 > [!Note]  
-> Make sure to match the VS\_CONSTANT\_BUFFER memory layout in C++ with the HLSL layout. For info about how HLSL handles layout in memory, see [Packing Rules for Constant Variables](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-packing-rules).
+> Make sure to match the VS\_CONSTANT\_BUFFER memory layout in C++ with the HLSL layout. For info about how HLSL handles layout in memory, see [Packing Rules for Constant Variables](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-packing-rules).
 
  
 
@@ -115,7 +115,3 @@ cbuffer VS_CONSTANT_BUFFER : register(b0)
  
 
  
-
-
-
-

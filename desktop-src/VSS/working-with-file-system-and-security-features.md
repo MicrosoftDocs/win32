@@ -24,9 +24,9 @@ Registry and file system operations can also be transacted. In the case of the r
 
 ## Identifying and Creating Hard Links
 
-When backing up files, a backup application must identify all hard links to each file to avoid backing up the same file more than once. Two new functions are available for enumerating hard links: [**FindFirstFileNameW**](https://msdn.microsoft.com/library/Aa364421(v=VS.85).aspx) and [**FindNextFileNameW**](https://msdn.microsoft.com/library/Aa364429(v=VS.85).aspx).
+When backing up files, a backup application must identify all hard links to each file to avoid backing up the same file more than once. Two new functions are available for enumerating hard links: [**FindFirstFileNameW**](/windows/win32/api/fileapi/nf-fileapi-findfirstfilenamew) and [**FindNextFileNameW**](/windows/win32/api/fileapi/nf-fileapi-findnextfilenamew).
 
-Similarly, when restoring files, the backup application must restore hard links using the [**CreateHardLink**](https://msdn.microsoft.com/library/Aa363860(v=VS.85).aspx) function.
+Similarly, when restoring files, the backup application must restore hard links using the [**CreateHardLink**](/windows/win32/api/winbase/nf-winbase-createhardlinka) function.
 
 Backup applications must also assert the SE\_BACKUP\_NAME privilege during the backup phase and the SE\_RESTORE\_NAME during the restore phase.
 
@@ -52,9 +52,9 @@ The introduction of User Account Control (UAC) in Windows Vista means that unle
 
 <dl>
 
-[The Windows Vista and Windows Server 2008 Developer Story: Windows Vista Application Development Requirements for User Account Control (UAC)](https://msdn.microsoft.com/library/aa905330.aspx)  
-[Windows Vista Application Development Requirements for User Account Control Compatibility](https://msdn.microsoft.com/library/bb530410.aspx)  
-[User Account Control (UAC) Patching](https://msdn.microsoft.com/library/Aa372388(v=VS.85).aspx)  
+[The Windows Vista and Windows Server 2008 Developer Story: Windows Vista Application Development Requirements for User Account Control (UAC)](/previous-versions/aa905330(v=msdn.10))  
+[Windows Vista Application Development Requirements for User Account Control Compatibility](/previous-versions/dotnet/articles/bb530410(v=msdn.10))  
+[User Account Control (UAC) Patching](../msi/user-account-control--uac--patching.md)  
 </dl>
 
 ## BitLocker Drive Encryption
@@ -68,11 +68,8 @@ To restore data onto an encrypted drive, perform the following steps:
 3.  Perform the restore.
 4.  Boot into the restored operating system and turn on BitLocker Drive Encryption.
 
-For detailed information about BitLocker Drive Encryption, including a step-by-step guide, see [BitLocker Drive Encryption](https://www.microsoft.com/technet/windowsvista/security/bitlockr.mspx) on the Microsoft TechNet Windows Vista website. For information about the BitLocker Drive Encryption WMI provider, see [BitLocker Drive Encryption Provider](https://msdn.microsoft.com/library/Aa376409(v=VS.85).aspx).
+For detailed information about BitLocker Drive Encryption, including a step-by-step guide, see [BitLocker Drive Encryption](https://www.microsoft.com/technet/windowsvista/security/bitlockr.mspx) on the Microsoft TechNet Windows Vista website. For information about the BitLocker Drive Encryption WMI provider, see [BitLocker Drive Encryption Provider](../secprov/bitlocker-drive-encryption-provider.md).
 
  
 
  
-
-
-

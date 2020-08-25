@@ -272,7 +272,7 @@ Variant type: <strong>VT_BOOL</strong><br/> Default value: <strong>FALSE</strong
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_LevelPropertyId"></span><span id="uia_levelpropertyid"></span><span id="UIA_LEVELPROPERTYID"></span><dl> <dt><strong>UIA_LevelPropertyId</strong></dt> <dt>30154</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>Level</strong> property, which is a 1-based integer associated with an automation element.<br/> The <strong>Level</strong> property describes the location of an element inside a hierarchical or broken hierarchical structures. For example a bulleted/numbered list, headings, or other structured data items can have various parent/child relationships. <strong>Level</strong> describes where in the structure the item is located.<br/> It is recommended to use the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingcustomnavigation">CustomNavigation Control Pattern</a> in tandem with <strong>Level</strong>.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
+<td style="text-align: left;">Identifies the <strong>Level</strong> property, which is a 1-based integer associated with an automation element.<br/> The <strong>Level</strong> property describes the location of an element inside a hierarchical or broken hierarchical structures. For example a bulleted/numbered list, headings, or other structured data items can have various parent/child relationships. <strong>Level</strong> describes where in the structure the item is located.<br/> It is recommended to use the <a href="/windows/desktop/WinAuto/uiauto-implementingcustomnavigation">CustomNavigation Control Pattern</a> in tandem with <strong>Level</strong>.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_LiveSettingPropertyId"></span><span id="uia_livesettingpropertyid"></span><span id="UIA_LIVESETTINGPROPERTYID"></span><dl> <dt><strong>UIA_LiveSettingPropertyId</strong></dt> <dt>30135</dt> </dl></td>
@@ -386,10 +386,4 @@ Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

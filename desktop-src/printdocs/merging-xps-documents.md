@@ -10,11 +10,8 @@ ms.date: 05/31/2018
 
 Describes how to use the XPS Document API to merge multiple XPS documents into a single XPS document.
 
-For more information about how to merge XPS documents, see the sample program at [XpsRollup](https://docs.microsoft.com/previous-versions/windows/desktop/ff819182(v=vs.85)).
+For more information about how to merge XPS documents, see the sample program at [XpsRollup](/previous-versions/windows/desktop/ff819182(v=vs.85)).
 
  
 
  
-
-
-

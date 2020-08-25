@@ -53,7 +53,7 @@ public IList<string> szDatabaseFileName { get; }
 
 #### Property value
 
-Type: [System.Collections.Generic.IList](https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1?redirectedfrom=MSDN)\<[String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)\>  
+Type: [System.Collections.Generic.IList](/dotnet/api/system.collections.generic.ilist-1)\<[String](/dotnet/api/system.string)\>  
 
 ## See also
 
@@ -64,4 +64,3 @@ Type: [System.Collections.Generic.IList](https://docs.microsoft.com/dotnet/api/s
 [JET_INSTANCE_INFO members](dn335183\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

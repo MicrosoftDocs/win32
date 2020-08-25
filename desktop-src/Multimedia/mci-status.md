@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_STATUS command retrieves information about an MCI device. All devices recognize this command. Information is returned in the **dwReturn** member of the structure identified by the *lpStatus* parameter.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function with the following parameters.
 
 
 ```C++
@@ -1223,10 +1223,4 @@ The **dwReturn** member is set to the current samples per second used for playin
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

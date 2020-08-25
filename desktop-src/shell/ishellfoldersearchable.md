@@ -31,7 +31,7 @@ Exposes methods that allow a Shell extension to provide a searchable namespace.
 
 ## Members
 
-The **IShellFolderSearchable** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IShellFolderSearchable** also has these types of members:
+The **IShellFolderSearchable** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IShellFolderSearchable** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -107,7 +107,3 @@ DECLARE_INTERFACE_IID_(IShellFolderSearchable, IUnknown, "4E1AE66C-204B-11d2-8DB
  
 
  
-
-
-
-

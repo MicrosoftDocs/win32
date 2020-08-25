@@ -57,7 +57,7 @@ A pointer to an array of the identification numbers of the properties to be set.
 *pvar* \[out\]
 </dt> <dd>
 
-Type: **[PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx)\***
+Type: **[PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant)\***
 
 A pointer to an array of values.
 
@@ -110,7 +110,3 @@ Each value in the array that *pid* points to is one of the [WIA Property Constan
  
 
  
-
-
-
-

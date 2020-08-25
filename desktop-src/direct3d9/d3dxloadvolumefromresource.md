@@ -46,9 +46,9 @@ HRESULT D3DXLoadVolumeFromResource(
 *pDestVolume* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVOLUME9**](https://msdn.microsoft.com/library/Bb205932(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DVOLUME9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvolume9)**
 
-Pointer to an [**IDirect3DVolume9**](https://msdn.microsoft.com/library/Bb205932(v=VS.85).aspx) interface. Specifies the destination volume.
+Pointer to an [**IDirect3DVolume9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvolume9) interface. Specifies the destination volume.
 
 </dd> <dt>
 
@@ -73,7 +73,7 @@ Pointer to a [**D3DBOX**](d3dbox.md) structure. Specifies the destination box. S
 *hSrcModule* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HMODULE**](../winprog/windows-data-types.md)**
 
 Handle to the module where the resource is located, or **NULL** for module associated with the image the operating system used to create the current process.
 
@@ -82,7 +82,7 @@ Handle to the module where the resource is located, or **NULL** for module assoc
 *pSrcResource* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Pointer to a string that specifies the file name of the source image. If UNICODE or \_UNICODE are defined, this parameter type is LPCWSTR, otherwise, the type is LPCSTR.
 
@@ -100,7 +100,7 @@ Pointer to a [**D3DBOX**](d3dbox.md) structure. Specifies the source box. Set th
 *Filter* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Combination of one or more [D3DX\_FILTER](d3dx-filter.md), controlling how the image is filtered. Specifying D3DX\_DEFAULT for this parameter is the equivalent of specifying D3DX\_FILTER\_TRIANGLE \| D3DX\_FILTER\_DITHER.
 
@@ -136,7 +136,7 @@ The resource being loaded must be a bitmap resource(RT\_BITMAP).
 
 This function handles conversion to and from compressed texture formats.
 
-Writing to a non-level-zero surface of the volume texture will not cause the dirty rectangle to be updated. If [**D3DXLoadVolumeFromFile**](d3dxloadvolumefromfile.md) is called and the texture was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**IDirect3DVolumeTexture9::AddDirtyBox**](https://msdn.microsoft.com/library/Bb205942(v=VS.85).aspx) on the volume texture.
+Writing to a non-level-zero surface of the volume texture will not cause the dirty rectangle to be updated. If [**D3DXLoadVolumeFromFile**](d3dxloadvolumefromfile.md) is called and the texture was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**IDirect3DVolumeTexture9::AddDirtyBox**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dvolumetexture9-adddirtybox) on the volume texture.
 
 This function supports both Unicode and ANSI strings.
 
@@ -173,7 +173,3 @@ This function supports both Unicode and ANSI strings.
  
 
  
-
-
-
-

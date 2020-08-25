@@ -48,7 +48,7 @@ Finally, for the channels to be output discretely, with no fold-down to stereo, 
 3.  Call [**IWMMediaProps::GetMediaType**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmmediaprops-getmediatype) to retrieve the media type.
 4.  If the retrieved media type is the desired multichannel type, then set it by calling [**IWMReader::SetOutputProps**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-setoutputprops).
 
-After you have set discrete output and the speaker configuration, the output formats enumerated by the reader should include multichannel formats that use the [**WAVEFORMATEXTENSIBLE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757721(v=vs.85)) structure. If you enumerate the output formats before setting the properties, only formats with 1 or 2 channels and a maximum of 16 bits per channel will be included. As with other audio formats, you should use only the formats enumerated by the reader; do not configure your own.
+After you have set discrete output and the speaker configuration, the output formats enumerated by the reader should include multichannel formats that use the [**WAVEFORMATEXTENSIBLE**](/previous-versions/windows/desktop/legacy/dd757721(v=vs.85)) structure. If you enumerate the output formats before setting the properties, only formats with 1 or 2 channels and a maximum of 16 bits per channel will be included. As with other audio formats, you should use only the formats enumerated by the reader; do not configure your own.
 
 > [!Note]  
 > You can output multichannel audio only if your application is running on Microsoft Windows XP or a later version of Microsoft Windows.
@@ -74,7 +74,3 @@ After you have set discrete output and the speaker configuration, the output for
  
 
  
-
-
-
-

@@ -22,11 +22,11 @@ Proper functioning of TAPI components requires setting up the communications env
 
 | TAPI 2.x functions                                        | Description                                                                                                                       |
 |-----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| [**lineInitializeEx**](https://msdn.microsoft.com/library/ms735983(v=VS.85).aspx)     | Sets up the telephony environment, returns application handle and device count.                                                   |
-| [**lineGetDevCaps**](https://msdn.microsoft.com/library/ms735735(v=VS.85).aspx)         | Gets device capabilities, such as TAPI version or media types supported.                                                          |
-| [**lineGetAddressCaps**](https://msdn.microsoft.com/library/ms735674(v=VS.85).aspx) | Gets address capabilities, such as whether call park is supported.                                                                |
-| [**lineOpen**](https://msdn.microsoft.com/library/ms736005(v=VS.85).aspx)                     | Notifies TAPI that the application will be using the line, and in what way.                                                       |
-| [**lineGetMessage**](https://msdn.microsoft.com/library/ms735757(v=VS.85).aspx)         | Returns the next TAPI message that is queued for delivery to an application that is using the Event Handle notification mechanism |
+| [**lineInitializeEx**](/windows/win32/api/tapi/nf-tapi-lineinitializeexa)     | Sets up the telephony environment, returns application handle and device count.                                                   |
+| [**lineGetDevCaps**](/windows/win32/api/tapi/nf-tapi-linegetdevcaps)         | Gets device capabilities, such as TAPI version or media types supported.                                                          |
+| [**lineGetAddressCaps**](/windows/win32/api/tapi/nf-tapi-linegetaddresscaps) | Gets address capabilities, such as whether call park is supported.                                                                |
+| [**lineOpen**](/windows/win32/api/tapi/nf-tapi-lineopen)                     | Notifies TAPI that the application will be using the line, and in what way.                                                       |
+| [**lineGetMessage**](/windows/win32/api/tapi/nf-tapi-linegetmessage)         | Returns the next TAPI message that is queued for delivery to an application that is using the Event Handle notification mechanism |
 
 
 
@@ -51,6 +51,3 @@ Proper functioning of TAPI components requires setting up the communications env
  
 
  
-
-
-

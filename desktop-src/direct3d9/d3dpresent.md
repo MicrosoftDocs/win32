@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # D3DPRESENT
 
-Describes the relationship between the adapter refresh rate and the rate at which [**Present**](https://msdn.microsoft.com/library/Bb205908(v=VS.85).aspx) or [**Present**](https://msdn.microsoft.com/library/Bb205908(v=VS.85).aspx) operations are completed. These values also serve as flag values for the PresentationIntervals field of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9).
+Describes the relationship between the adapter refresh rate and the rate at which [**Present**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-present) or [**Present**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-present) operations are completed. These values also serve as flag values for the PresentationIntervals field of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9).
 
 <table>
 <colgroup>
@@ -76,7 +76,7 @@ See <a href="gamma.md">Windowed Swap Chains</a>.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="D3DPRESENT_VIDEO_RESTRICT_TO_MONITOR"></span><span id="d3dpresent_video_restrict_to_monitor"></span><dl> <dt><strong>D3DPRESENT_VIDEO_RESTRICT_TO_MONITOR</strong></dt> </dl></td>
-<td style="text-align: left;">Clips the rendered contents to the monitor/device the adapter is targeting, shows thumbnails for the content in the Flip3D view and taskbar thumbnails on other monitors. <br/> This flag is available in Direct3D 9Ex only.<br/> See <a href="https://docs.microsoft.com/windows/desktop/dwm/dwm-overview">Desktop Window Manager</a> for further details on this feature of Windows Vista. If you are not running in desktop composition mode, the flag gives the same behavior as <a href="d3dpresentflag.md">D3DPRESENTFLAG_DEVICECLIP</a>.<br/>
+<td style="text-align: left;">Clips the rendered contents to the monitor/device the adapter is targeting, shows thumbnails for the content in the Flip3D view and taskbar thumbnails on other monitors. <br/> This flag is available in Direct3D 9Ex only.<br/> See <a href="/windows/desktop/dwm/dwm-overview">Desktop Window Manager</a> for further details on this feature of Windows Vista. If you are not running in desktop composition mode, the flag gives the same behavior as <a href="d3dpresentflag.md">D3DPRESENTFLAG_DEVICECLIP</a>.<br/>
 <blockquote>
 [!Note]<br />
 This flag should only be used with swap effect D3DSWAPEFFECT_FLIPEX. The use of this flag with <em>other</em> swap effects is being deprecated, and may not work in future versions of Windows.
@@ -102,7 +102,7 @@ This flag should only be used with swap effect D3DSWAPEFFECT_FLIPEX. The use of 
 
 Windowed mode supports D3DPRESENT\_INTERVAL\_DEFAULT, D3DPRESENT\_INTERVAL\_IMMEDIATE, and D3DPRESENT\_INTERVAL\_ONE. D3DPRESENT\_INTERVAL\_DEFAULT and the D3DPRESENT\_INTERVAL\_ONE are nearly equivalent (see the information regarding timer resolution below). They perform similarly to COPY\_VSYNC in that there is only one present per frame, and they prevent tearing with beam-following. In contrast, D3DPRESENT\_INTERVAL\_IMMEDIATE will attempt to provide an unlimited presentation rate.
 
-Full-screen mode supports similar usage as windowed mode by supporting D3DPRESENT\_INTERVAL\_IMMEDIATE regardless of the refresh rate or swap effect. D3DPRESENT\_INTERVAL\_DEFAULT uses the default system timer resolution whereas the D3DPRESENT\_INTERVAL\_ONE calls [**timeBeginPeriod**](https://msdn.microsoft.com/library/Dd757624(v=VS.85).aspx) to enhance system timer resolution. This improves the quality of vertical sync, but consumes slightly more processing time. Both parameters attempt to synchronize vertically.
+Full-screen mode supports similar usage as windowed mode by supporting D3DPRESENT\_INTERVAL\_IMMEDIATE regardless of the refresh rate or swap effect. D3DPRESENT\_INTERVAL\_DEFAULT uses the default system timer resolution whereas the D3DPRESENT\_INTERVAL\_ONE calls [**timeBeginPeriod**](/windows/win32/api/timeapi/nf-timeapi-timebeginperiod) to enhance system timer resolution. This improves the quality of vertical sync, but consumes slightly more processing time. Both parameters attempt to synchronize vertically.
 
 ## Requirements
 

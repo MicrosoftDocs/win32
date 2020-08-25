@@ -55,7 +55,7 @@ The following procedure describes how to modify or update an instance using C#.
 
 **To modify or update an instance using C# (Microsoft.Management.Infrastructure)**
 
-1.  Retrieve a local copy of the object with a call to [CimSession.GetInstance](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832585(v=vs.85)), as described in [Retrieving a WMI Instance](retrieving-an-instance.md).
+1.  Retrieve a local copy of the object with a call to [CimSession.GetInstance](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832585(v=vs.85)), as described in [Retrieving a WMI Instance](retrieving-an-instance.md).
 
     ```CSharp
     using Microsoft.Management.Infrastructure;
@@ -97,7 +97,7 @@ The following procedure describes how to modify or update an instance using C#.
 
     
 
-4.  Place the object back into the WMI repository using a call to [CimSession.ModifyInstance](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832593(v=vs.85)).
+4.  Place the object back into the WMI repository using a call to [CimSession.ModifyInstance](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832593(v=vs.85)).
 
     ```CSharp
     session.ModifyInstance(Namespace,myDisk);
@@ -114,7 +114,7 @@ The following procedure describes how to modify or update an instance using Powe
 
 **To modify or update an instance using C# (Microsoft.Management)**
 
-1.  Retrieve a local copy of the object with a call to [ManagementObject.Get](https://docs.microsoft.com/dotnet/api/system.management.managementobject.get?redirectedfrom=MSDN#System_Management_ManagementObject_Get).
+1.  Retrieve a local copy of the object with a call to [ManagementObject.Get](/dotnet/api/system.management.managementobject.get#System_Management_ManagementObject_Get).
 
     ```CSharp
     using System.Management;
@@ -150,7 +150,7 @@ The following procedure describes how to modify or update an instance using Powe
 
     
 
-4.  Place the object back into the WMI repository using a call to the [ManagementObject.Put](https://docs.microsoft.com/dotnet/api/system.management.managementobject.put?redirectedfrom=MSDN#System_Management_ManagementObject_Put) or method.
+4.  Place the object back into the WMI repository using a call to the [ManagementObject.Put](/dotnet/api/system.management.managementobject.put#System_Management_ManagementObject_Put) or method.
 
     ```CSharp
     myDisk.Put();
@@ -204,6 +204,3 @@ For more information, see [Calling a Provider Method](calling-a-provider-method.
  
 
  
-
-
-

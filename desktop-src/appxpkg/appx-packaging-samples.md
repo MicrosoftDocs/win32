@@ -31,7 +31,7 @@ These samples demonstrate the packaging, deployment, and query APIs for Windows 
 
 </dt> <dt>
 
-[App package manifest schema](https://docs.microsoft.com/uwp/schemas/appxpackage/appx-package-manifest)
+[App package manifest schema](/uwp/schemas/appxpackage/appx-package-manifest)
 </dt> <dt>
 
 [Packaging API](interfaces.md)
@@ -46,7 +46,3 @@ These samples demonstrate the packaging, deployment, and query APIs for Windows 
  
 
  
-
-
-
-

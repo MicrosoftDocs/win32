@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 An application cannot change the access control list of an object unless the application has the rights to do so. These rights are controlled by a security descriptor in the access token for the object. For more information about security, see [Access Control Model](access-control-model.md).
 
-To get or set the [security descriptor](security-descriptors.md) for an [*access token*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly), call the [**GetKernelObjectSecurity**](https://msdn.microsoft.com/library/Aa446641(v=VS.85).aspx) and [**SetKernelObjectSecurity**](https://msdn.microsoft.com/library/Aa379578(v=VS.85).aspx) functions.
+To get or set the [security descriptor](security-descriptors.md) for an [*access token*](/windows/desktop/SecGloss/a-gly), call the [**GetKernelObjectSecurity**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-getkernelobjectsecurity) and [**SetKernelObjectSecurity**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-setkernelobjectsecurity) functions.
 
-When you call the [**OpenProcessToken**](https://msdn.microsoft.com/library/Aa379295(v=VS.85).aspx) or [**OpenThreadToken**](https://msdn.microsoft.com/library/Aa379296(v=VS.85).aspx) function to get a handle to an access token, the system checks the requested [access rights](access-rights-and-access-masks.md) against the DACL in the token's security descriptor.
+When you call the [**OpenProcessToken**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openprocesstoken) or [**OpenThreadToken**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openthreadtoken) function to get a handle to an access token, the system checks the requested [access rights](access-rights-and-access-masks.md) against the DACL in the token's security descriptor.
 
 The following are valid access rights for access-token objects:
 
@@ -26,7 +26,7 @@ The following are valid access rights for access-token objects:
     | TOKEN\_ADJUST\_GROUPS     | Required to adjust the attributes of the groups in an access token.                                                                                                                                                                                                               |
     | TOKEN\_ADJUST\_PRIVILEGES | Required to enable or disable the privileges in an access token.                                                                                                                                                                                                                  |
     | TOKEN\_ADJUST\_SESSIONID  | Required to adjust the session ID of an access token. The SE\_TCB\_NAME privilege is required.                                                                                                                                                                                    |
-    | TOKEN\_ASSIGN\_PRIMARY    | Required to attach a [*primary token*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) to a [*process*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly). The SE\_ASSIGNPRIMARYTOKEN\_NAME privilege is also required to accomplish this task. |
+    | TOKEN\_ASSIGN\_PRIMARY    | Required to attach a [*primary token*](/windows/desktop/SecGloss/p-gly) to a [*process*](/windows/desktop/SecGloss/p-gly). The SE\_ASSIGNPRIMARYTOKEN\_NAME privilege is also required to accomplish this task. |
     | TOKEN\_DUPLICATE          | Required to duplicate an access token.                                                                                                                                                                                                                                            |
     | TOKEN\_EXECUTE            | Combines STANDARD\_RIGHTS\_EXECUTE and TOKEN\_IMPERSONATE.                                                                                                                                                                                                                        |
     | TOKEN\_IMPERSONATE        | Required to attach an impersonation access token to a process.                                                                                                                                                                                                                    |
@@ -43,6 +43,3 @@ The following are valid access rights for access-token objects:
  
 
  
-
-
-

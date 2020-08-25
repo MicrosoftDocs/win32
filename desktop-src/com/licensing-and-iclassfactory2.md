@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Licensing and IClassFactory2
 
-The [**IClassFactory**](https://msdn.microsoft.com/library/ms694364(v=VS.85).aspx) interface on a class object provides the basic object creation mechanism of COM. Using **IClassFactory**, a server can control object creation on a machine basis. The implementation of the [**IClassFactory::CreateInstance**](/windows/desktop/api/Unknwn/nf-unknwn-iclassfactory-createinstance) method can allow or disallow object creation based on the existence of a machine license. A machine license is a piece of information separate from the application that exists on a machine to indicate that the software was installed from a valid source, such as the vendor's installation disks. If the machine license does not exist, the server can disallow object creation. Machine licensing prevents piracy in cases where a user attempts to copy the software from one machine to another, because the license information is not copied with the software and the machine that receives the copy is not licensed.
+The [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) interface on a class object provides the basic object creation mechanism of COM. Using **IClassFactory**, a server can control object creation on a machine basis. The implementation of the [**IClassFactory::CreateInstance**](/windows/desktop/api/Unknwn/nf-unknwn-iclassfactory-createinstance) method can allow or disallow object creation based on the existence of a machine license. A machine license is a piece of information separate from the application that exists on a machine to indicate that the software was installed from a valid source, such as the vendor's installation disks. If the machine license does not exist, the server can disallow object creation. Machine licensing prevents piracy in cases where a user attempts to copy the software from one machine to another, because the license information is not copied with the software and the machine that receives the copy is not licensed.
 
 However, in a component software industry, vendors need a finer level of control over licensing. In addition to machine license control, a vendor needs to allow some clients to create a component object while denying other clients the same capability. This requires that the client application obtain a license key from the component while the client application is still under development. The client application uses the license key at run time to create objects on an unlicensed machine.
 
 For example, if a vendor provides a library of controls to developers, the developer who purchases the library will have a full machine license, allowing the objects to be created on the development machine. The developer can then build a client application on the licensed machine incorporating one or more of the controls. When the resulting client application is run on another machine, the controls used in the client application must be created on the other machine even if that machine does not possess a machine license for the controls from the original vendor.
 
-The [**IClassFactory2**](/windows/desktop/api/OCIdl/nn-ocidl-iclassfactory2) interface provides this level of control. To allow key-based licensing for any given component, you implement **IClassFactory2** on the class factory object for that component. **IClassFactory2**is derived from [**IClassFactory**](https://msdn.microsoft.com/library/ms694364(v=VS.85).aspx), so by implementing **IClassFactory2**, the class factory object fulfills the basic COM requirements.
+The [**IClassFactory2**](/windows/desktop/api/OCIdl/nn-ocidl-iclassfactory2) interface provides this level of control. To allow key-based licensing for any given component, you implement **IClassFactory2** on the class factory object for that component. **IClassFactory2**is derived from [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory), so by implementing **IClassFactory2**, the class factory object fulfills the basic COM requirements.
 
 To incorporate a licensed component into your client application, use the following methods in [**IClassFactory2**](/windows/desktop/api/OCIdl/nn-ocidl-iclassfactory2):
 
@@ -45,7 +45,3 @@ The [**IClassFactory2**](/windows/desktop/api/OCIdl/nn-ocidl-iclassfactory2) int
  
 
  
-
-
-
-

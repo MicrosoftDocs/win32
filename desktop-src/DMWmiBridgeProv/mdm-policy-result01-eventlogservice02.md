@@ -54,7 +54,7 @@ The **MDM\_Policy\_Result01\_EventLogService02** class has these properties.
 
 <dl> <dt>
 
-[ControlEventLogBehavior](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-eventlogservice#eventlogservice-controleventlogbehavior)
+[ControlEventLogBehavior](/windows/client-management/mdm/policy-csp-eventlogservice#eventlogservice-controleventlogbehavior)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -74,7 +74,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
@@ -88,12 +88,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[SpecifyMaximumFileSizeApplicationLog](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-eventlogservice#eventlogservice-specifymaximumfilesizeapplicationlog)
+[SpecifyMaximumFileSizeApplicationLog](/windows/client-management/mdm/policy-csp-eventlogservice#eventlogservice-specifymaximumfilesizeapplicationlog)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -104,7 +104,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SpecifyMaximumFileSizeSecurityLog](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-eventlogservice#eventlogservice-specifymaximumfilesizesecuritylog)
+[SpecifyMaximumFileSizeSecurityLog](/windows/client-management/mdm/policy-csp-eventlogservice#eventlogservice-specifymaximumfilesizesecuritylog)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -115,7 +115,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SpecifyMaximumFileSizeSystemLog](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-eventlogservice#eventlogservice-specifymaximumfilesizesystemlog)
+[SpecifyMaximumFileSizeSystemLog](/windows/client-management/mdm/policy-csp-eventlogservice#eventlogservice-specifymaximumfilesizesystemlog)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -141,10 +141,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

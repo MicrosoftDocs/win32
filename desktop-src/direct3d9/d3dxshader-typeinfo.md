@@ -43,29 +43,29 @@ typedef struct D3DXSHADER_TYPEINFO {
 **Class**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
-Shader object type. See [**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/library/Bb205378(v=VS.85).aspx).
+Shader object type. See [**D3DXPARAMETER\_CLASS**](./d3dxparameter-class.md).
 
 </dd> <dt>
 
 **Type**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
-Data type. See [**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/library/Bb205380(v=VS.85).aspx).
+Data type. See [**D3DXPARAMETER\_TYPE**](./d3dxparameter-type.md).
 
 </dd> <dt>
 
 **Rows**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -76,7 +76,7 @@ Number of matrix rows (matrices).
 **Columns**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -87,7 +87,7 @@ Number of columns (vectors and matrices).
 **Elements**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -98,7 +98,7 @@ Array dimension.
 **StructMembers**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -109,7 +109,7 @@ Number of structure members.
 **StructMemberInfo**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -144,7 +144,3 @@ The type information is part of [**D3DXSHADER\_STRUCTMEMBERINFO**](d3dxshader-st
  
 
  
-
-
-
-

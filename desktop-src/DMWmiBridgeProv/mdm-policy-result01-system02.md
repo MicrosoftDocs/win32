@@ -65,7 +65,7 @@ The **MDM\_Policy\_Result01\_System02** class has these properties.
 
 <dl> <dt>
 
-[AllowBuildPreview](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-allowbuildpreview)
+[AllowBuildPreview](/windows/client-management/mdm/policy-csp-system#system-allowbuildpreview)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -76,7 +76,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowEmbeddedMode](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-allowembeddedmode)
+[AllowEmbeddedMode](/windows/client-management/mdm/policy-csp-system#system-allowembeddedmode)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -87,7 +87,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowExperimentation](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-allowexperimentation)
+[AllowExperimentation](/windows/client-management/mdm/policy-csp-system#system-allowexperimentation)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -98,7 +98,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowFontProviders](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-allowfontproviders)
+[AllowFontProviders](/windows/client-management/mdm/policy-csp-system#system-allowfontproviders)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -109,7 +109,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowLocation](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-allowlocation)
+[AllowLocation](/windows/client-management/mdm/policy-csp-system#system-allowlocation)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -120,7 +120,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowStorageCard](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-allowstoragecard)
+[AllowStorageCard](/windows/client-management/mdm/policy-csp-system#system-allowstoragecard)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -131,7 +131,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowTelemetry](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-allowtelemetry)
+[AllowTelemetry](/windows/client-management/mdm/policy-csp-system#system-allowtelemetry)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -142,7 +142,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowUserToResetPhone](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-allowusertoresetphone)
+[AllowUserToResetPhone](/windows/client-management/mdm/policy-csp-system#system-allowusertoresetphone)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -153,7 +153,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[BootStartDriverInitialization](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-bootstartdriverinitialization)
+[BootStartDriverInitialization](/windows/client-management/mdm/policy-csp-system#system-bootstartdriverinitialization)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -164,7 +164,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableEnterpriseAuthProxy](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-disableenterpriseauthproxy)
+[DisableEnterpriseAuthProxy](/windows/client-management/mdm/policy-csp-system#system-disableenterpriseauthproxy)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -175,7 +175,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableOneDriveFileSync](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-disableonedrivefilesync)
+[DisableOneDriveFileSync](/windows/client-management/mdm/policy-csp-system#system-disableonedrivefilesync)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -186,7 +186,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableSystemRestore](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-disablesystemrestore)
+[DisableSystemRestore](/windows/client-management/mdm/policy-csp-system#system-disablesystemrestore)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -197,7 +197,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[FeedbackHubAlwaysSaveDiagnosticsLocally](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-feedbackhubalwayssavediagnosticslocally)
+[FeedbackHubAlwaysSaveDiagnosticsLocally](/windows/client-management/mdm/policy-csp-system#system-feedbackhubalwayssavediagnosticslocally)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -217,14 +217,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "System".
 
 </dd> <dt>
 
-[LimitEnhancedDiagnosticDataWindowsAnalytics](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-limitenhanceddiagnosticdatawindowsanalytics)
+[LimitEnhancedDiagnosticDataWindowsAnalytics](/windows/client-management/mdm/policy-csp-system#system-limitenhanceddiagnosticdatawindowsanalytics)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -244,14 +244,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/Policy/Result"
 
 </dd> <dt>
 
-[TelemetryProxy](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-telemetryproxy)
+[TelemetryProxy](/windows/client-management/mdm/policy-csp-system#system-telemetryproxy)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -280,14 +280,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

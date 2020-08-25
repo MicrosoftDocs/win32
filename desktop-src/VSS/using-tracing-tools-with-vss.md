@@ -68,7 +68,7 @@ The following table lists the module name and flag for each available module.
 | ADMIN  | 0x00000080 | Yes                | VSS command line utilities such as VSSADMIN.EXE and DISKSHADOW.EXE.                                                                           |
 | VSSUI  | 0x00000100 | Yes                | The Shadow Copies for Shared Folders configuration user interface (UI). The UI is available only on Windows Server operating systems.         |
 | TEST   | 0x00000200 | Yes                | Not applicable. (This tracing module is reserved.)                                                                                            |
-| IOCTL  | 0x00000400 | Yes                | Details of FSCTL and IOCTL operations that the VSS service has initiated by calling the [**DeviceIoControl**](https://msdn.microsoft.com/library/Aa363216(v=VS.85).aspx) function. |
+| IOCTL  | 0x00000400 | Yes                | Details of FSCTL and IOCTL operations that the VSS service has initiated by calling the [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) function. |
 | GEN    | 0x00000800 | Yes                | General VSS utility functions, such as allocators, string classes, and registry and volume operations.                                        |
 | WRXML  | 0x00001000 | No                 | XML processing for writer metadata. This module has a very high level of noise.                                                               |
 | VSSXML | 0x00002000 | No                 | XML processing base classes. This module has a very high level of noise.                                                                      |
@@ -214,7 +214,7 @@ The following procedure describes how to use Logman with your VSS application.
 
 The trace log file is *x:\\*vss.etl.
 
-For more information about the Logman tool, see [Logman](https://technet.microsoft.com/library/574a5203-5b3b-4759-a678-f26d00dde447).
+For more information about the Logman tool, see [Logman](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc753820(v=ws.11)).
 
 ## Using Tracelog
 
@@ -246,6 +246,3 @@ For more information about the Tracelog tool, see [Tracelog](https://msdn.micros
  
 
  
-
-
-

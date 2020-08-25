@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MF\_READWRITE\_MMCSS\_CLASS attribute
 
-Specifies a [Multimedia Class Scheduler Service](https://msdn.microsoft.com/library/ms684247(v=VS.85).aspx) (MMCSS) class for the Source Reader or Sink Writer.
+Specifies a [Multimedia Class Scheduler Service](../procthread/multimedia-class-scheduler-service.md) (MMCSS) class for the Source Reader or Sink Writer.
 
 ## Data type
 
@@ -52,7 +52,3 @@ For audio-processing threads, the [MF\_READWRITE\_MMCSS\_CLASS\_AUDIO](mf-readwr
  
 
  
-
-
-
-

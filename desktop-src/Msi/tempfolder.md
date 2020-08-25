@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The installer sets the **TempFolder** property to the full path to the Temp folder.
 
-Authors should not need to set the **TempFolder** property. Windows Installer uses the [**GetTempPath**](https://msdn.microsoft.com/library/Aa364992(v=VS.85).aspx) function to retrieve the path of the directory designated for temporary files and to set this property.
+Authors should not need to set the **TempFolder** property. Windows Installer uses the [**GetTempPath**](/windows/win32/api/fileapi/nf-fileapi-gettemppatha) function to retrieve the path of the directory designated for temporary files and to set this property.
 
 ## Remarks
 
@@ -36,7 +36,3 @@ A common value for this property is C:\\Temp.
  
 
  
-
-
-
-

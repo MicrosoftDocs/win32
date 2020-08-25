@@ -71,7 +71,7 @@ If you debug 64-bit native executables, you do not need symbol files to produce 
 
 However, some cases are particularly difficult to debug without symbols. For example, if you debug a program for which you built a PDB file, and if you crash in a callback from a function in a DLL that you don't have symbols for, you will not be able to see which function caused the callback, because you will not be able to decode the stack. This frequently happens in third-party libraries, if PDBs are not provided, or in old operating system components, if PDBs are not available. Callbacks often happen during message passing, enumeration, memory allocation, or exception handling. Debugging these functions without an accurate stack can be frustrating.
 
-To reliably debug mini-dumps that are generated on a different computer, or that crashed in code that you do not own, it's important to be able to access all the symbols and binaries for the executables that are referenced in the mini-dump. If the symbols and binaries are available from a symbol server, they are automatically obtained by the debugger. For more information on mini-dumps, see the [Crash Dump Analysis](https://docs.microsoft.com/windows/desktop/DxTechArts/crash-dump-analysis) white paper.
+To reliably debug mini-dumps that are generated on a different computer, or that crashed in code that you do not own, it's important to be able to access all the symbols and binaries for the executables that are referenced in the mini-dump. If the symbols and binaries are available from a symbol server, they are automatically obtained by the debugger. For more information on mini-dumps, see the [Crash Dump Analysis](/windows/desktop/DxTechArts/crash-dump-analysis) white paper.
 
 ## Getting the Symbols You Need
 
@@ -86,7 +86,7 @@ Visual Studio and other Microsoft debuggers, such as WinDbg, are typically set u
 -   Any local network file share symbol servers.
 -   Any Internet symbol servers, such as the Microsoft symbol server.
 
-To make sure that you have all the PDBs that you need for accurate debugging, install the debugging tools for Windows. The 32 and 64 bit versions can be found at [Debugging Tools for Windows](https://docs.microsoft.com/windows-hardware/drivers/debugger/).
+To make sure that you have all the PDBs that you need for accurate debugging, install the debugging tools for Windows. The 32 and 64 bit versions can be found at [Debugging Tools for Windows](/windows-hardware/drivers/debugger/).
 
 A useful tool that is installed with this package is symchk.exe. It can help to identify missing or incorrect symbols. This tool has a large number of potential command line options. Here are two of the more useful and commonly used ones.
 
@@ -226,7 +226,3 @@ The **/t "comment"** parameter is used to add a description to the transaction t
  
 
  
-
-
-
-

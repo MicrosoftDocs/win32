@@ -59,14 +59,8 @@ The settings object for the RDP client.
 
 <dl> <dt>
 
-[**IRemoteDesktopClient**](https://msdn.microsoft.com/library/Mt786998(v=VS.85).aspx)
+[**IRemoteDesktopClient**](/windows/win32/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -17,7 +17,7 @@ api_location:
 
 # ProtectKeyWithCertificateThumbprint method of the Win32\_EncryptableVolume class
 
-The **ProtectKeyWithCertificateThumbprint** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class validates the Enhanced Key Usage (EKU) [*object identifier*](https://msdn.microsoft.com/library/ms721599(v=VS.85).aspx) (OID) of the provided certificate.
+The **ProtectKeyWithCertificateThumbprint** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class validates the Enhanced Key Usage (EKU) [*object identifier*](../secgloss/o-gly.md) (OID) of the provided certificate.
 
 ## Syntax
 
@@ -113,7 +113,3 @@ If the OID does not match the one associated with the service controller in the 
  
 
  
-
-
-
-

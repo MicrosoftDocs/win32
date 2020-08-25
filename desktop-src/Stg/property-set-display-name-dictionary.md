@@ -96,14 +96,10 @@ Be aware of the following issues regarding property set dictionaries:
 -   Property ID 0 does not have a type indicator. The **DWORD** data type that indicates the count of entries sits in the type-indicator position.
 -   The count of characters in the *cch* string includes the zero character that terminates the string. When the codepage of the property set is not Unicode, this field is actually a **byte** count. For property sets with a format version of 0, this count may not exceed 256. For property sets with a format version of 1, this count may be as large as is allowed by the total property set size.
 -   The dictionary is optional. Not all the names of properties in the set are required to appear in the dictionary. Conversely, not all names in the dictionary are required to correspond to properties in the set. The dictionary should omit entries for properties assumed to be universally recognized by applications manipulating the property set. Typically, names for the base property sets for widely-accepted standards are omitted, but special-purpose property sets may include dictionaries for use by browsers.
--   Property names in the dictionary are stored in the code page indicated by [Property ID 1](https://docs.microsoft.com/windows/desktop/Stg/reserved-property-identifiers). For ANSI code pages, each dictionary entry is byte-aligned. Thus, there is no spacing between property names with Property ID 0. This is the only case where values of **DWORD** data types (the property ID and property name-length **DWORD**s) are not required to be aligned on 32-bit boundaries. For Unicode pages, each dictionary entry is 32-bit aligned.
+-   Property names in the dictionary are stored in the code page indicated by [Property ID 1](/windows/desktop/Stg/reserved-property-identifiers). For ANSI code pages, each dictionary entry is byte-aligned. Thus, there is no spacing between property names with Property ID 0. This is the only case where values of **DWORD** data types (the property ID and property name-length **DWORD**s) are not required to be aligned on 32-bit boundaries. For Unicode pages, each dictionary entry is 32-bit aligned.
 -   Property names that begin with the binary Unicode characters 0x0001 through 0x001F are reserved for future use.
 -   The property name associated with Property ID 0 represents the name of the entire property set.
 
  
 
  
-
-
-
-

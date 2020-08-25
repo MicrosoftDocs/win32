@@ -25,7 +25,7 @@ api_location:
 
 # Win32\_PrinterController class
 
-The **Win32\_PrinterController** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates a printer and the local device to which the printer is connected. Note that this class only returns instances for local printers.
+The **Win32\_PrinterController** association [WMI class](../wmisdk/retrieving-a-class.md) relates a printer and the local device to which the printer is connected. Note that this class only returns instances for local printers.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -115,7 +115,7 @@ Data type: **CIM\_Controller**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx)
+Qualifiers: [**Key**](../wmisdk/standard-qualifiers.md)
 </dt> </dl>
 
 Reference to the [**CIM\_Controller**](cim-controller.md) instance representing the local device associated with this printer.
@@ -133,7 +133,7 @@ Data type: **Win32\_Printer**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx)
+Qualifiers: [**Key**](../wmisdk/standard-qualifiers.md)
 </dt> </dl>
 
 Reference to the [**Win32\_Printer**](win32-printer.md) instance representing the printer associated with the local device.
@@ -170,7 +170,7 @@ Speed in use between devices (when several bus or connection speeds are possible
 
 This property is inherited from [**CIM\_DeviceConnection**](cim-deviceconnection.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](../wmisdk/creating-a-wmi-script.md).
 
 </dd> <dt>
 
@@ -235,7 +235,3 @@ The **Win32\_PrinterController** class is derived from [**CIM\_ControlledBy**](c
  
 
  
-
-
-
-

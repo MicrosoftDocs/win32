@@ -12,21 +12,21 @@ The lists and tables in this section show the output of the [*generic formatter*
 
 For more information and an example of the output for a specific property data type, see:
 
--   [PROP\_TYPE\_VOID](https://docs.microsoft.com/windows)
--   [PROP\_TYPE\_SUMMARY](https://docs.microsoft.com/windows)
--   [PROP\_TYPE\_BYTE](https://docs.microsoft.com/windows)
--   [PROP\_TYPE\_WORD](https://docs.microsoft.com/windows)
--   [PROP\_TYPE\_DWORD](https://docs.microsoft.com/windows)
+-   [PROP\_TYPE\_VOID](/windows)
+-   [PROP\_TYPE\_SUMMARY](/windows)
+-   [PROP\_TYPE\_BYTE](/windows)
+-   [PROP\_TYPE\_WORD](/windows)
+-   [PROP\_TYPE\_DWORD](/windows)
 -   PROP\_TYPE\_LARGEINT (generic formatter does not support)
 -   PROP\_TYPE\_ADDR (generic formatter does not support)
--   [PROP\_TYPE\_TIME](https://docs.microsoft.com/windows)
--   [PROP\_TYPE\_STRING](https://docs.microsoft.com/windows)
--   [PROP\_TYPE\_IP\_ADDRESS](https://docs.microsoft.com/windows)
--   PROP\_TYPE\_BYTESWAPPED\_WORD (Obsolete. For more information, see [PROP\_TYPE\_WORD](https://docs.microsoft.com/windows))
--   PROP\_TYPE\_BYTESWAPPED\_DWORD (Obsolete. For more information, see [PROP\_TYPE\_DWORD](https://docs.microsoft.com/windows))
+-   [PROP\_TYPE\_TIME](/windows)
+-   [PROP\_TYPE\_STRING](/windows)
+-   [PROP\_TYPE\_IP\_ADDRESS](/windows)
+-   PROP\_TYPE\_BYTESWAPPED\_WORD (Obsolete. For more information, see [PROP\_TYPE\_WORD](/windows))
+-   PROP\_TYPE\_BYTESWAPPED\_DWORD (Obsolete. For more information, see [PROP\_TYPE\_DWORD](/windows))
 -   PROP\_TYPE\_TYPED\_STRING (Obsolete)
--   [PROP\_TYPE\_RAW\_DATA](https://docs.microsoft.com/windows)
--   [PROP\_TYPE\_COMMENT](https://docs.microsoft.com/windows)
+-   [PROP\_TYPE\_RAW\_DATA](/windows)
+-   [PROP\_TYPE\_COMMENT](/windows)
 -   PROP\_TYPE\_SRCFRIENDLYNAME (generic formatter does not support)
 -   PROP\_TYPE\_DSTFRIENDLYNAME (generic formatter does not support)
 -   PROP\_TYPE\_TOKENRING\_ADDRESS (generic formatter does not support)
@@ -189,7 +189,7 @@ The following table lists the generic format output for a **PROP\_TYPE\_RAW\_DAT
 
 The following table lists the generic format output for a **PROP\_TYPE\_TIME** data type property. Be aware that the formatted output may vary depending on the data qualifier of the property.
 
-The generic formatter calls [**GetDateFormat**](https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformata) to get a time that is based on the system clock of the local computer.
+The generic formatter calls [**GetDateFormat**](/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformata) to get a time that is based on the system clock of the local computer.
 
 
 
@@ -253,9 +253,4 @@ In the example output column, the value of the data in the capture is "129.65.10
  
 
  
-
- 
-
-
-
 

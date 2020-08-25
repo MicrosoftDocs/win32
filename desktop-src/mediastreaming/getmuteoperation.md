@@ -18,7 +18,7 @@ api_location:
 
 # GetMuteOperation class
 
-Registers an event handler that is invoked when the asynchronous operation started by [**GetMuteAsync**](https://msdn.microsoft.com/library/Hh828930(v=VS.85).aspx) completes, and provides a method that returns the results of the operation.
+Registers an event handler that is invoked when the asynchronous operation started by [**GetMuteAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getmuteasync) completes, and provides a method that returns the results of the operation.
 
 **GetMuteOperation** has these types of members:
 
@@ -33,7 +33,7 @@ The **GetMuteOperation** class has these methods.
 
 | Method                                            | Description                                                                                                                   |
 |:--------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------|
-| [**GetResults**](getmuteoperation-getresults.md) | Returns the results of the asynchronous operation started by [**GetMuteAsync**](https://msdn.microsoft.com/library/Hh828930(v=VS.85).aspx). <br/> |
+| [**GetResults**](getmuteoperation-getresults.md) | Returns the results of the asynchronous operation started by [**GetMuteAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getmuteasync). <br/> |
 
 
 
@@ -47,17 +47,11 @@ The **GetMuteOperation** class has these properties.
 
 | Property                                                   | Access type           | Description                                                                                                                                                            |
 |:-----------------------------------------------------------|:----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Completed**](getmuteoperation-completed.md)<br/> | Read/write<br/> | Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetMuteAsync**](https://msdn.microsoft.com/library/Hh828930(v=VS.85).aspx) is completed. <br/> |
+| [**Completed**](getmuteoperation-completed.md)<br/> | Read/write<br/> | Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetMuteAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getmuteasync) is completed. <br/> |
 
 
 
  
 
  
-
- 
-
-
-
-
 

@@ -41,7 +41,7 @@ ID3DX11EffectVariable* GetAnnotationByName(
 *Name* 
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 The name of the annotation.
 
@@ -79,10 +79,4 @@ A pointer to an [**ID3DX11EffectVariable**](id3dx11effectvariable.md). Note that
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -25,9 +25,9 @@ Creates a Direct2D bitmap.
 
 | Method                                                                                                                                                                                                   | Description                                                                    |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------|
-| [**CreateBitmap(D2D1\_SIZE\_U,D2D1\_BITMAP\_PROPERTIES&,ID2D1Bitmap\*\*)**](https://msdn.microsoft.com/library/Dd371806(v=VS.85).aspx)                                | Creates an uninitialized Direct2D bitmap. <br/>                          |
-| [**CreateBitmap(D2D1\_SIZE\_U,void\*,UINT32,D2D1\_BITMAP\_PROPERTIES\*,ID2D1Bitmap\*\*)**](https://msdn.microsoft.com/library/Dd371800(v=VS.85).aspx) | Creates a Direct2D bitmap from a pointer to in-memory source data.<br/>  |
-| [**CreateBitmap(D2D1\_SIZE\_U,void\*,UINT32,D2D1\_BITMAP\_PROPERTIES&,ID2D1Bitmap\*\*)**](https://msdn.microsoft.com/library/Dd371803(v=VS.85).aspx)  | Creates a Direct2D bitmap from a pointer to in-memory source data. <br/> |
+| [**CreateBitmap(D2D1\_SIZE\_U,D2D1\_BITMAP\_PROPERTIES&,ID2D1Bitmap\*\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmap(d2d1_size_u_constd2d1_bitmap_properties__id2d1bitmap))                                | Creates an uninitialized Direct2D bitmap. <br/>                          |
+| [**CreateBitmap(D2D1\_SIZE\_U,void\*,UINT32,D2D1\_BITMAP\_PROPERTIES\*,ID2D1Bitmap\*\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmap(d2d1_size_u_constd2d1_bitmap_properties__id2d1bitmap)) | Creates a Direct2D bitmap from a pointer to in-memory source data.<br/>  |
+| [**CreateBitmap(D2D1\_SIZE\_U,void\*,UINT32,D2D1\_BITMAP\_PROPERTIES&,ID2D1Bitmap\*\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmap(d2d1_size_u_constvoid_uint32_constd2d1_bitmap_properties__id2d1bitmap))  | Creates a Direct2D bitmap from a pointer to in-memory source data. <br/> |
 
 
 
@@ -46,14 +46,8 @@ Creates a Direct2D bitmap.
 
 <dl> <dt>
 
-[**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371766(v=VS.85).aspx)
+[**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

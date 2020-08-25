@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # About EAPHost
 
-This topic describes the relationship between the Extensible Authentication Protocol (EAP) and Extensible Authentication Protocol Host. For new EAP method development, see [Extensible Authentication Protocol Host](https://docs.microsoft.com/windows/win32/eaphost/portal).
+This topic describes the relationship between the Extensible Authentication Protocol (EAP) and Extensible Authentication Protocol Host. For new EAP method development, see [Extensible Authentication Protocol Host](../eaphost/portal.md).
 
 ## EAPHost Framework
 
@@ -27,7 +27,3 @@ EAPHost is considered to be a framework for EAP for two reasons.
  
 
  
-
-
-
-

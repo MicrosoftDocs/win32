@@ -17,13 +17,13 @@ api_location:
 
 # IByteBuffer interface
 
-\[The **IByteBuffer** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
+\[The **IByteBuffer** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
 
 The **IByteBuffer** interface is provided to read, write and manage stream objects. This object essentially is a wrapper for the **IStream** object.
 
 ## Members
 
-The **IByteBuffer** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IByteBuffer** also has these types of members:
+The **IByteBuffer** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **IByteBuffer** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -36,7 +36,7 @@ The **IByteBuffer** interface has these methods.
 | Method                                           | Description                                                                                               |
 |:-------------------------------------------------|:----------------------------------------------------------------------------------------------------------|
 | [**Clone**](ibytebuffer-clone.md)               | Clones an **IByteBuffer** object.<br/>                                                              |
-| [**Commit**](ibytebuffer-commit.md)             | Commits a [*transaction*](https://docs.microsoft.com/windows/desktop/SecGloss/t-gly).<br/> |
+| [**Commit**](ibytebuffer-commit.md)             | Commits a [*transaction*](/windows/desktop/SecGloss/t-gly).<br/> |
 | [**CopyTo**](ibytebuffer-copyto.md)             | Copies bytes to another object.<br/>                                                                |
 | [**Initialize**](ibytebuffer-initialize.md)     | Initializes the **IByteBuffer** object.<br/>                                                        |
 | [**LockRegion**](ibytebuffer-lockregion.md)     | Restricts access to a range of bytes.<br/>                                                          |
@@ -70,9 +70,4 @@ The **IByteBuffer** interface has these methods.
 
 
  
-
- 
-
-
-
 

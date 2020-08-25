@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # ICM-Enabled Device Context Functions
 
-Microsoft Image Color Management (ICM) ensures that a color image, graphic, or text object is rendered as closely as possible to its original intent on any device, despite differences in imaging technologies and color capabilities between devices. (For more information, see [Windows Color System](https://msdn.microsoft.com/library/Dd372446(v=VS.85).aspx).)
+Microsoft Image Color Management (ICM) ensures that a color image, graphic, or text object is rendered as closely as possible to its original intent on any device, despite differences in imaging technologies and color capabilities between devices. (For more information, see [Windows Color System](/previous-versions//dd372446(v=vs.85)).)
 
 There are various functions in the graphics device interface (GDI) that use or operate on color data. The following device context functions are enabled for use with ICM:
 
@@ -24,6 +24,3 @@ There are various functions in the graphics device interface (GDI) that use or o
  
 
  
-
-
-

@@ -17,7 +17,7 @@ api_location:
 
 # MFCreatePathFromURL function
 
-\[This API is not supported and may be altered or unavailable in the future. Instead, applications should call [**PathCreateFromUrl**](https://msdn.microsoft.com/library/Bb773581(v=VS.85).aspx).\]
+\[This API is not supported and may be altered or unavailable in the future. Instead, applications should call [**PathCreateFromUrl**](/windows/win32/api/shlwapi/nf-shlwapi-pathcreatefromurla).\]
 
 Converts a file URL to a Microsoft MS-DOS path.
 
@@ -47,7 +47,7 @@ A null-terminated string that contains the URL. The maximum length of the string
 *ppwszFilePath* \[out\]
 </dt> <dd>
 
-Receives a null-terminated string that contains the URL. The caller must free the string by calling [**CoTaskMemFree**](https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx).
+Receives a null-terminated string that contains the URL. The caller must free the string by calling [**CoTaskMemFree**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree).
 
 </dd> </dl>
 
@@ -68,7 +68,7 @@ The function returns an **HRESULT**. Possible values include, but are not limite
 
 ## Remarks
 
-This function has no associated import library. To call this function, you must use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Mfplat.dll.
+This function has no associated import library. To call this function, you must use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Mfplat.dll.
 
 ## Requirements
 
@@ -92,7 +92,3 @@ This function has no associated import library. To call this function, you must 
  
 
  
-
-
-
-

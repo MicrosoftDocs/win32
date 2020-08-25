@@ -60,20 +60,20 @@ public override long Seek(
 #### Parameters
 
   - offset  
-    Type: [System.Int64](https://docs.microsoft.com/dotnet/api/system.int64?redirectedfrom=MSDN)  
+    Type: [System.Int64](/dotnet/api/system.int64)  
     
     Byte offset relative to the origin parameter.
 
 <!-- end list -->
 
   - origin  
-    Type: [System.IO.SeekOrigin](https://docs.microsoft.com/dotnet/api/system.io.seekorigin?redirectedfrom=MSDN)  
+    Type: [System.IO.SeekOrigin](/dotnet/api/system.io.seekorigin)  
     
     A SeekOrigin indicating the reference point for the new position.
 
 #### Return value
 
-Type: [System.Int64](https://docs.microsoft.com/dotnet/api/system.int64?redirectedfrom=MSDN)  
+Type: [System.Int64](/dotnet/api/system.int64)  
 The new position in the current stream.  
 
 ## See also
@@ -85,4 +85,3 @@ The new position in the current stream.
 [ColumnStream members](dn334190\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

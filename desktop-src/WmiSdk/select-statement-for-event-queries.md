@@ -91,7 +91,7 @@ Note that WMI can reject a query for a number of reasons. For example, the query
 
 Properties of embedded objects can be used in the WHERE clause.
 
-The following example shows how to query for objects where the **TargetInstance** property of the [**\_\_InstanceModificationEvent**](--instancemodificationevent.md) system class is an embedded [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) object and **FreeSpace** is a property of **Win32\_LogicalDisk**.
+The following example shows how to query for objects where the **TargetInstance** property of the [**\_\_InstanceModificationEvent**](--instancemodificationevent.md) system class is an embedded [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) object and **FreeSpace** is a property of **Win32\_LogicalDisk**.
 
 
 ```sql
@@ -109,6 +109,3 @@ The [Monitor creation event for specific process name](https://Gallery.TechNet.M
  
 
  
-
-
-

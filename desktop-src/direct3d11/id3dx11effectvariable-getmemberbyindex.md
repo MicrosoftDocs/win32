@@ -41,7 +41,7 @@ ID3DX11EffectVariable* GetMemberByIndex(
 *Index* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 A zero-based index.
 
@@ -81,10 +81,4 @@ If the effect variable is an structure, use this method to look up a member by i
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

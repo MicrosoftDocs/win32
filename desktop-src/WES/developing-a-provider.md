@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Developing a Provider
 
-To write the events that you define in your manifest, you use the functions included in the [Event Tracing](https://docs.microsoft.com/windows/desktop/ETW/event-tracing-portal) (ETW) API. For details on writing a provider, see [Providing Events](https://docs.microsoft.com/windows/desktop/ETW/providing-events).
+To write the events that you define in your manifest, you use the functions included in the [Event Tracing](/windows/desktop/ETW/event-tracing-portal) (ETW) API. For details on writing a provider, see [Providing Events](/windows/desktop/ETW/providing-events).
 
 After writing the provider, use the WevtUtil.exe tool to register the provider and schema. For details on using WevtUtil, see [Windows Event Log Tools](windows-event-log-tools.md). The following shows how to use WevtUtil to register a provider and to remove the registration.
 

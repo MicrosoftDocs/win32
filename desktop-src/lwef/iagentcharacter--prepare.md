@@ -88,28 +88,22 @@ For .WAV files, set *bszName* to the URL or file specification for the .WAV file
 <span id="bQueue"></span><span id="bqueue"></span><span id="BQUEUE"></span>*bQueue*
 </dt> <dd>
 
-A Boolean specifying whether the server queues the [**Prepare**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--prepare) request. **True** queues the request and causes any animation request that follows it to wait until the animation data it specifies is loaded. **False** retrieves the animation data asynchronously.
+A Boolean specifying whether the server queues the [**Prepare**](/windows/desktop/lwef/iagentcharacter--prepare) request. **True** queues the request and causes any animation request that follows it to wait until the animation data it specifies is loaded. **False** retrieves the animation data asynchronously.
 
 </dd> <dt>
 
 <span id="pdwReqID"></span><span id="pdwreqid"></span><span id="PDWREQID"></span>*pdwReqID*
 </dt> <dd>
 
-Address of a variable that receives the [**Prepare**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--prepare) request ID.
+Address of a variable that receives the [**Prepare**](/windows/desktop/lwef/iagentcharacter--prepare) request ID.
 
 </dd> </dl>
 
-If you load a character using the HTTP protocol (an .ACF file), you must use the [**Prepare**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--prepare) method to retrieve animation data before you can play the animation. You cannot use this method if you loaded the character using the UNC protocol (an .ACS file). You also cannot retrieve HTTP data for a character using **Prepare** if you loaded that character using the UNC protocol (.ACS character file).
+If you load a character using the HTTP protocol (an .ACF file), you must use the [**Prepare**](/windows/desktop/lwef/iagentcharacter--prepare) method to retrieve animation data before you can play the animation. You cannot use this method if you loaded the character using the UNC protocol (an .ACS file). You also cannot retrieve HTTP data for a character using **Prepare** if you loaded that character using the UNC protocol (.ACS character file).
 
-Animation or sound data retrieved with the [**Prepare**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--prepare) method is stored in the browser's cache. Subsequent calls will check the cache, and if the animation data is already there, the control loads the data directly from the cache. Once loaded, the animation or sound data can be played with the [**Play**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--play) or [**Speak**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--speak) methods.
+Animation or sound data retrieved with the [**Prepare**](/windows/desktop/lwef/iagentcharacter--prepare) method is stored in the browser's cache. Subsequent calls will check the cache, and if the animation data is already there, the control loads the data directly from the cache. Once loaded, the animation or sound data can be played with the [**Play**](/windows/desktop/lwef/iagentcharacter--play) or [**Speak**](/windows/desktop/lwef/iagentcharacter--speak) methods.
 
-You can specify multiple animations and states by separating them with commas. However, you cannot mix types in the same [**Prepare**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--prepare) statement.
-
- 
+You can specify multiple animations and states by separating them with commas. However, you cannot mix types in the same [**Prepare**](/windows/desktop/lwef/iagentcharacter--prepare) statement.
 
  
-
-
-
-
 

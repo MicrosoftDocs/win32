@@ -20,11 +20,11 @@ Windows Deployment Services (WDS) Transport Management uses the following interf
 -   [**IWdsTransportManager**](/windows/desktop/api/Wdstptmgmt/nn-wdstptmgmt-iwdstransportmanager)
 -   [**IWdsTransportMulticastSessionPolicy**](/windows/desktop/api/Wdstptmgmt/nn-wdstptmgmt-iwdstransportmulticastsessionpolicy)
 -   [**IWdsTransportNamespace**](/windows/desktop/api/Wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace)
--   [**IWdsTransportNamespaceAutoCast**](https://msdn.microsoft.com/library/Bb736479(v=VS.85).aspx)
+-   [**IWdsTransportNamespaceAutoCast**](/windows/win32/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespaceautocast)
 -   [**IWdsTransportNamespaceManager**](/windows/desktop/api/Wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacemanager)
 -   [**IWdsTransportNamespaceScheduledCast**](/windows/desktop/api/Wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacescheduledcast)
 -   [**IWdsTransportNamespaceScheduledCastAutoStart**](/windows/desktop/api/Wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacescheduledcastautostart)
--   [**IWdsTransportNamespaceScheduledCastManualStart**](https://msdn.microsoft.com/library/Bb736488(v=VS.85).aspx)
+-   [**IWdsTransportNamespaceScheduledCastManualStart**](/windows/win32/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacescheduledcastmanualstart)
 -   [**IWdsTransportServer**](/windows/desktop/api/Wdstptmgmt/nn-wdstptmgmt-iwdstransportserver)
 -   [**IWdsTransportServicePolicy**](/windows/desktop/api/Wdstptmgmt/nn-wdstptmgmt-iwdstransportservicepolicy)
 -   [**IWdsTransportSession**](/windows/desktop/api/Wdstptmgmt/nn-wdstptmgmt-iwdstransportsession)
@@ -42,7 +42,3 @@ The following are available beginning with Windows 8 and Windows Server 2012.
  
 
  
-
-
-
-

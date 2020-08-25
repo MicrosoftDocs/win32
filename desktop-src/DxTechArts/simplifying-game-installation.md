@@ -51,7 +51,7 @@ The automatic mode should not ask any more questions than absolutely necessary t
 
 The custom mode should only be for power users who need or want to change the installation path or other installation options, and it should not be the default mode.
 
-The custom mode can offer the choice of either a full installation or of a minimum installation that installs only the files necessary to play the game. If the gamer chooses minimum installation, the game can use install-on-demand or streaming techniques to read the remaining installation data, which allows the gamer to begin playing the game quickly without having to wait for a full installation to complete. However, installing data in this manner has an impact on the design of the game engine. For more information about installing content on demand, see [Install-on-Demand for Games](https://docs.microsoft.com/windows/desktop/DxTechArts/install-on-demand-for-games).
+The custom mode can offer the choice of either a full installation or of a minimum installation that installs only the files necessary to play the game. If the gamer chooses minimum installation, the game can use install-on-demand or streaming techniques to read the remaining installation data, which allows the gamer to begin playing the game quickly without having to wait for a full installation to complete. However, installing data in this manner has an impact on the design of the game engine. For more information about installing content on demand, see [Install-on-Demand for Games](/windows/desktop/DxTechArts/install-on-demand-for-games).
 
 ### Minimize the Quantity of Installation Questions
 
@@ -127,7 +127,3 @@ Gamers want to be playing a game as soon as possible. The last thing that a game
  
 
  
-
-
-
-

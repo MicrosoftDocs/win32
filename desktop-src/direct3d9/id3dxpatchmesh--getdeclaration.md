@@ -40,7 +40,7 @@ HRESULT GetDeclaration(
 
 Type: **[**LPD3DVERTEXELEMENT9**](d3dvertexelement9.md)**
 
-Array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements describing the vertex format of the mesh vertices. The dimension of this declarator array is [**MAX\_FVF\_DECL\_SIZE**](https://msdn.microsoft.com/library/Bb147183(v=VS.85).aspx). The vertex element array ends with the [**D3DDECL\_END**](d3ddecl-end.md) macro.
+Array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements describing the vertex format of the mesh vertices. The dimension of this declarator array is [**MAX\_FVF\_DECL\_SIZE**](./max-fvf-decl-size.md). The vertex element array ends with the [**D3DDECL\_END**](d3ddecl-end.md) macro.
 
 </dd> </dl>
 
@@ -75,7 +75,3 @@ The array of elements includes the [**D3DDECL\_END**](d3ddecl-end.md) macro, whi
  
 
  
-
-
-
-

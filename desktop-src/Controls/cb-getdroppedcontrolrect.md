@@ -34,7 +34,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to the [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that receives the coordinates of the combo box in its dropped-down state.
+A pointer to the [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that receives the coordinates of the combo box in its dropped-down state.
 
 </dd> </dl>
 
@@ -60,14 +60,8 @@ If the message fails, the return value is zero.
 
 <dl> <dt>
 
-[**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85))
+[**RECT**](/previous-versions//dd162897(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

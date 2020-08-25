@@ -8,7 +8,7 @@ ms.topic: reference
 
 # GraphicsPath.GetBounds methods
 
-This topic lists the GetBounds methods of the [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx).
+This topic lists the GetBounds methods of the [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath).
 
 ### Overload list
 
@@ -16,15 +16,11 @@ This topic lists the GetBounds methods of the [**GraphicsPath**](https://msdn.mi
 
 | Method                                                                                                                 | Description                                                                                                                                                                 |
 |:-----------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetBounds(Rect\*,Matrix\*,Pen\*)**](https://msdn.microsoft.com/library/ms535583(v=VS.85).aspx)   | The [**GraphicsPath::GetBounds**](https://msdn.microsoft.com/library/ms535583(v=VS.85).aspx) method gets a bounding rectangle for this path.<br/>  |
-| [**GetBounds(RectF\*,Matrix\*,Pen\*)**](https://msdn.microsoft.com/library/ms535584(v=VS.85).aspx) | The [**GraphicsPath::GetBounds**](https://msdn.microsoft.com/library/ms535584(v=VS.85).aspx) method gets a bounding rectangle for this path.<br/> |
+| [**GetBounds(Rect\*,Matrix\*,Pen\*)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-getbounds(outrect_inconstmatrix_inconstpen))   | The [**GraphicsPath::GetBounds**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-getbounds(outrect_inconstmatrix_inconstpen)) method gets a bounding rectangle for this path.<br/>  |
+| [**GetBounds(RectF\*,Matrix\*,Pen\*)**](/previous-versions//ms535584(v=vs.85)) | The [**GraphicsPath::GetBounds**](/previous-versions//ms535584(v=vs.85)) method gets a bounding rectangle for this path.<br/> |
 
 
 
  
 
  
-
-
-
-

@@ -1,6 +1,6 @@
 ---
 title: eaphostconfig Schema Elements
-description: Is made up of the following schema elements.
+description: Learn about the eaphostconfig schema elements. They are ConfigBlob (EapHostConfig), Config (EapHostConfig), EapHostConfig, and EapMethod (EapHostConfig).
 ms.assetid: 7e90440e-b19f-41ce-b45a-8f5ef5729aab
 ms.topic: article
 ms.date: 05/31/2018

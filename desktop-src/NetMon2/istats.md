@@ -22,7 +22,7 @@ The **IStats** interface provides the methods you use to connect an NPP to the n
 
 ## Members
 
-The **IStats** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IStats** also has these types of members:
+The **IStats** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IStats** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -65,9 +65,4 @@ The **IStats** interface has these methods.
 
 
  
-
- 
-
-
-
 

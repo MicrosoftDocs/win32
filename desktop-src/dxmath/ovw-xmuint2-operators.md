@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMUINT2 Operators
 
-The [**XMUINT2**](https://msdn.microsoft.com/library/Hh404745(v=VS.85).aspx) structure exposes the following operators.
+The [**XMUINT2**](/windows/win32/api/directxmath/ns-directxmath-xmuint2) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -21,7 +21,7 @@ The [**XMUINT2**](https://msdn.microsoft.com/library/Hh404745(v=VS.85).aspx) str
 
 | Methods                                              | Description                                                                                                       |
 |------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://msdn.microsoft.com/library/Hh404749(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMUINT2` to the current instance of `XMUINT2`.<br/> |
+| [**operator =**](/windows/win32/api/directxmath/nf-directxmath-xmuint2-operator-assign)<br/> | Assigns the vector component data from one instance of `XMUINT2` to the current instance of `XMUINT2`.<br/> |
 
 
 
@@ -37,13 +37,9 @@ The [**XMUINT2**](https://msdn.microsoft.com/library/Hh404745(v=VS.85).aspx) str
 **Reference**
 </dt> <dt>
 
-[**XMUINT2**](https://msdn.microsoft.com/library/Hh404745(v=VS.85).aspx)
+[**XMUINT2**](/windows/win32/api/directxmath/ns-directxmath-xmuint2)
 </dt> </dl>
 
  
 
  
-
-
-
-

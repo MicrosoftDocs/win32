@@ -18,7 +18,7 @@ api_location:
 
 \[The following structure is available for use in Windows Server 2012 R2. It may be altered or unavailable in subsequent versions.\]
 
-Used with the [**IOCTL\_SCSI\_MINIPORT**](https://msdn.microsoft.com/library/Ff560512(v=VS.85).aspx) IOCTL and the CTLCODE\_ISCSITGT\_SPT\_SESSION\_END (0x101) control code to stop a session.
+Used with the [**IOCTL\_SCSI\_MINIPORT**](/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport) IOCTL and the CTLCODE\_ISCSITGT\_SPT\_SESSION\_END (0x101) control code to stop a session.
 
 ## Syntax
 
@@ -70,13 +70,9 @@ An opaque handle representing a session.
 [iSCSI Target Pass-Through](iscsi-target-pass-through.md)
 </dt> <dt>
 
-[**SRB\_IO\_CONTROL**](https://msdn.microsoft.com/library/Ff566339(v=VS.85).aspx)
+[**SRB\_IO\_CONTROL**](/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control)
 </dt> </dl>
 
  
 
  
-
-
-
-

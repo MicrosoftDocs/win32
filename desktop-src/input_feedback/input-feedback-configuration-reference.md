@@ -39,14 +39,8 @@ The topics in this section provide the reference specifications for [Input Feedb
 [Input Feedback Configuration](input-feedback-configuration-portal.md)
 </dt> <dt>
 
-[**SystemParametersInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724947)
+[**SystemParametersInfo**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

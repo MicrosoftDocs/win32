@@ -27,7 +27,7 @@ When using MIDL with RPC, familiarity with C/C++ programming and the RPC paradig
 
 ## Run-time requirements
 
-The appropriate run-time libraries for using MIDL are included with Windows. The MIDL compiler and the components of the RPC development environment are installed when you install the Windows SDK. For more information, see [Using the MIDL Compiler](using-the-midl-compiler-2.md) and [Installing the RPC Programming Environment](https://docs.microsoft.com/windows/desktop/Rpc/installing-the-rpc-programming-environment).
+The appropriate run-time libraries for using MIDL are included with Windows. The MIDL compiler and the components of the RPC development environment are installed when you install the Windows SDK. For more information, see [Using the MIDL Compiler](using-the-midl-compiler-2.md) and [Installing the RPC Programming Environment](/windows/desktop/Rpc/installing-the-rpc-programming-environment).
 
 ## In this section
 
@@ -49,14 +49,8 @@ The appropriate run-time libraries for using MIDL are included with Windows. The
 
 <dl> <dt>
 
-[Remote Procedure Call (RPC)](https://docs.microsoft.com/windows/desktop/Rpc/rpc-start-page)
+[Remote Procedure Call (RPC)](/windows/desktop/Rpc/rpc-start-page)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

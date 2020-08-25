@@ -14,9 +14,9 @@ api_location:
 
 # Obtaining Registry Data
 
-You can obtain or modify registry data by using the WMI [**StdRegProv**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/stdregprov) class and its methods. While use the Regedit utility to view and change registry values on the local computer, **StdRegProv** allows you to use a script or application to automate such activities on the local computer and remote computers.
+You can obtain or modify registry data by using the WMI [**StdRegProv**](/previous-versions/windows/desktop/regprov/stdregprov) class and its methods. While use the Regedit utility to view and change registry values on the local computer, **StdRegProv** allows you to use a script or application to automate such activities on the local computer and remote computers.
 
-[**StdRegProv**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/stdregprov) contains methods to do the following:
+[**StdRegProv**](/previous-versions/windows/desktop/regprov/stdregprov) contains methods to do the following:
 
 -   Verify the access permissions for a user
 -   Create, enumerate, and delete registry keys
@@ -35,11 +35,11 @@ The subtrees include the following:
 
 For example, in the registry entry **HKEY**\\**SOFTWARE**\\**Microsoft**\\**DirectX**\\**InstalledVersion**, the HKEY subtree is **SOFTWARE**; the subkeys are **Microsoft** and **DirectX**; and the named value entry is **InstalledVersion**.
 
-A [**RegistryKeyChangeEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/registrykeychangeevent) occurs when a change to a specific key occurs, but the entry does not identify how the values change nor will this event be triggered by changes below the specified key. To identify changes anywhere in a hierarchical key structure, use the [**RegistryTreeChangeEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/registrytreechangeevent), which does not return specific values or key changes that occur. To obtain a specific entry value change, use the [**RegistryValueChangeEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/registryvaluechangeevent), and then read the entry to obtain a baseline value.
+A [**RegistryKeyChangeEvent**](/previous-versions/windows/desktop/regprov/registrykeychangeevent) occurs when a change to a specific key occurs, but the entry does not identify how the values change nor will this event be triggered by changes below the specified key. To identify changes anywhere in a hierarchical key structure, use the [**RegistryTreeChangeEvent**](/previous-versions/windows/desktop/regprov/registrytreechangeevent), which does not return specific values or key changes that occur. To obtain a specific entry value change, use the [**RegistryValueChangeEvent**](/previous-versions/windows/desktop/regprov/registryvaluechangeevent), and then read the entry to obtain a baseline value.
 
-[**StdRegProv**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/stdregprov) only has methods that can be called from C++ or script, which is different from the Win32 class structure.
+[**StdRegProv**](/previous-versions/windows/desktop/regprov/stdregprov) only has methods that can be called from C++ or script, which is different from the Win32 class structure.
 
-The following code example shows how to use the [**StdRegProv.EnumKey**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/enumkey-method-in-class-stdregprov) method to list all of the Microsoft software subkeys under the registry key.
+The following code example shows how to use the [**StdRegProv.EnumKey**](/previous-versions/windows/desktop/regprov/enumkey-method-in-class-stdregprov) method to list all of the Microsoft software subkeys under the registry key.
 
 **HKEY\_LOCAL\_MACHINE**\\**SOFTWARE**\\**Microsoft**
 
@@ -78,17 +78,17 @@ foreach ($subKey in ($arrSubKeys.sNames))
 
 
 
-[**StdRegProv**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/stdregprov) has different methods for reading the various registry entry value data types. If the entry has unknown values, then you can call [**StdRegProv.EnumValues**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/enumvalues-method-in-class-stdregprov) to list them. The following table lists the correspondence between **StdRegProv** methods and the data types.
+[**StdRegProv**](/previous-versions/windows/desktop/regprov/stdregprov) has different methods for reading the various registry entry value data types. If the entry has unknown values, then you can call [**StdRegProv.EnumValues**](/previous-versions/windows/desktop/regprov/enumvalues-method-in-class-stdregprov) to list them. The following table lists the correspondence between **StdRegProv** methods and the data types.
 
 
 
 | Method                                                                                  | Data Type           |
 |-----------------------------------------------------------------------------------------|---------------------|
-| [**GetBinaryValue**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/getbinaryvalue-method-in-class-stdregprov)                 | **REG\_BINARY**     |
-| [**GetDWORDValue**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/getdwordvalue-method-in-class-stdregprov)                   | **REG\_DWORD**      |
-| [**GetExpandedStringValue**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/getexpandedstringvalue-method-in-class-stdregprov) | **REG\_EXPAND\_SZ** |
-| [**GetMultiStringValue**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/getmultistringvalue-method-in-class-stdregprov)       | **REG\_MULTI\_SZ**  |
-| [**GetStringValue**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/getstringvalue-method-in-class-stdregprov)                 | **REG\_SZ**         |
+| [**GetBinaryValue**](/previous-versions/windows/desktop/regprov/getbinaryvalue-method-in-class-stdregprov)                 | **REG\_BINARY**     |
+| [**GetDWORDValue**](/previous-versions/windows/desktop/regprov/getdwordvalue-method-in-class-stdregprov)                   | **REG\_DWORD**      |
+| [**GetExpandedStringValue**](/previous-versions/windows/desktop/regprov/getexpandedstringvalue-method-in-class-stdregprov) | **REG\_EXPAND\_SZ** |
+| [**GetMultiStringValue**](/previous-versions/windows/desktop/regprov/getmultistringvalue-method-in-class-stdregprov)       | **REG\_MULTI\_SZ**  |
+| [**GetStringValue**](/previous-versions/windows/desktop/regprov/getstringvalue-method-in-class-stdregprov)                 | **REG\_SZ**         |
 
 
 
@@ -100,11 +100,11 @@ The following table lists the corresponding methods for creating new keys or val
 
 | Method                                                                                  | Data Type           |
 |-----------------------------------------------------------------------------------------|---------------------|
-| [**SetBinaryValue**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/setbinaryvalue-method-in-class-stdregprov)                 | **REG\_BINARY**     |
-| [**SetDWORDValue**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/setdwordvalue-method-in-class-stdregprov)                   | **REG\_DWORD**      |
-| [**SetExpandedStringValue**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/setexpandedstringvalue-method-in-class-stdregprov) | **REG\_EXPAND\_SZ** |
-| [**SetMultiStringValue**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/setmultistringvalue-method-in-class-stdregprov)       | **REG\_MULTI\_SZ**  |
-| [**SetStringValue**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/setstringvalue-method-in-class-stdregprov)                 | **REG\_SZ**         |
+| [**SetBinaryValue**](/previous-versions/windows/desktop/regprov/setbinaryvalue-method-in-class-stdregprov)                 | **REG\_BINARY**     |
+| [**SetDWORDValue**](/previous-versions/windows/desktop/regprov/setdwordvalue-method-in-class-stdregprov)                   | **REG\_DWORD**      |
+| [**SetExpandedStringValue**](/previous-versions/windows/desktop/regprov/setexpandedstringvalue-method-in-class-stdregprov) | **REG\_EXPAND\_SZ** |
+| [**SetMultiStringValue**](/previous-versions/windows/desktop/regprov/setmultistringvalue-method-in-class-stdregprov)       | **REG\_MULTI\_SZ**  |
+| [**SetStringValue**](/previous-versions/windows/desktop/regprov/setstringvalue-method-in-class-stdregprov)                 | **REG\_SZ**         |
 
 
 
@@ -151,6 +151,3 @@ The [Read a Binary Registry Value](https://Gallery.TechNet.Microsoft.Com/b0724cb
  
 
  
-
-
-

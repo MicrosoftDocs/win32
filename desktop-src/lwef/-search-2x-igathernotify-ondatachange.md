@@ -21,7 +21,7 @@ api_location:
 
 \[**OnDataChange** may be altered or unavailable in subsequent versions of the operating system or product.\]
 
-This Windows Desktop Search interface topic is deprecated and is superseded by the Windows Search [**ISearchPersistentItemsChangedSink**](https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchpersistentitemschangedsink) API in the Windows SDK.
+This Windows Desktop Search interface topic is deprecated and is superseded by the Windows Search [**ISearchPersistentItemsChangedSink**](/windows/desktop/api/searchapi/nn-searchapi-isearchpersistentitemschangedsink) API in the Windows SDK.
 
 This method notifies the indexer of data that has changed. When it sends the notification to the indexer, it includes the type of change, physical address, and logical address.
 
@@ -76,7 +76,3 @@ This method does not return a value.
  
 
  
-
-
-
-

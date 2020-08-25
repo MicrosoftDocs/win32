@@ -334,7 +334,7 @@
       - name: "BATTERY_WAIT_STATUS"
         href: battery-wait-status-str.md
       - name: "DISPLAY_BRIGHTNESS"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa372686(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa372686(v=vs.85)
       - name: "DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS"
         href: /windows/win32/api/Powrprof/ns-powrprof-device_notify_subscribe_parameters
       - name: "GLOBAL_MACHINE_POWER_POLICY"

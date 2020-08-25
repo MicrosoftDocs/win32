@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Creating a File Mapping Using Large Pages
 
-The following example uses the [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) function with the **SEC\_LARGE\_PAGES** flag to use large pages. The buffer must be large enough to contain the minimum size of a large page. This value is obtained using the [**GetLargePageMinimum**](https://msdn.microsoft.com/library/Aa366568(v=VS.85).aspx) function. This feature also requires the "SeLockMemoryPrivilege" privilege.
+The following example uses the [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) function with the **SEC\_LARGE\_PAGES** flag to use large pages. The buffer must be large enough to contain the minimum size of a large page. This value is obtained using the [**GetLargePageMinimum**](/windows/win32/api/memoryapi/nf-memoryapi-getlargepageminimum) function. This feature also requires the "SeLockMemoryPrivilege" privilege.
 
 > [!NOTE]
 > Starting in Windows 10, version 1703, the [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) function maps a view using small pages by default, even for file mapping objects created with the **SEC\_LARGE\_PAGES** flag. In this and later OS versions, you must specify the **FILE\_MAP\_LARGE\_PAGES** flag with the [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) function to map large pages. This flag is ignored on OS versions before Windows 10, version 1703.
@@ -156,6 +156,3 @@ int _tmain(void)
  
 
  
-
-
-

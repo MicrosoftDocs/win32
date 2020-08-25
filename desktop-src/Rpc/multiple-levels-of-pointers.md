@@ -25,7 +25,7 @@ interface AnInterface
 }
 ```
 
-In this example, the stub passes the server a unique pointer, which the server initializes to **NULL**. The server then allocates a block of BARs, sets the pointer, sets the size argument and returns. Note that in order for the server to have an effect on the caller you must pass a \[ref\] pointer to a \[[**unique**](https://docs.microsoft.com/windows/desktop/Midl/unique)\] pointer to your data. Also note the comma in \[[**size\_is**](https://docs.microsoft.com/windows/desktop/Midl/size-is)( , \*pSize )\], which indicates that the top-level pointer is not a sized pointer, but that the lower-level pointer is.
+In this example, the stub passes the server a unique pointer, which the server initializes to **NULL**. The server then allocates a block of BARs, sets the pointer, sets the size argument and returns. Note that in order for the server to have an effect on the caller you must pass a \[ref\] pointer to a \[[**unique**](/windows/desktop/Midl/unique)\] pointer to your data. Also note the comma in \[[**size\_is**](/windows/desktop/Midl/size-is)( , \*pSize )\], which indicates that the top-level pointer is not a sized pointer, but that the lower-level pointer is.
 
 On the client side, the stub sets \*ppBar to **NULL** before calling the remote procedure. The stub then allocates and unmarshals the arry of BAR objects. The size argument indicates the size of the block (and the number of unmarshaled BARs). The client must free the returned array of BAR objects when it is no longer required.
 
@@ -33,13 +33,9 @@ On the client side, the stub sets \*ppBar to **NULL** before calling the remote 
 
 <dl> <dt>
 
-[**size\_is**](https://docs.microsoft.com/windows/desktop/Midl/size-is)
+[**size\_is**](/windows/desktop/Midl/size-is)
 </dt> </dl>
 
  
 
  
-
-
-
-

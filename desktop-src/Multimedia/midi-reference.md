@@ -25,34 +25,34 @@ This section describes the functions, macros, messages, and structures associate
 
 ## Allocating and Managing Buffers
 
--   [**MIDIHDR**](https://msdn.microsoft.com/library/Dd798449(v=VS.85).aspx)
--   [**midiInAddBuffer**](https://msdn.microsoft.com/library/Dd798450(v=VS.85).aspx)
--   [**midiInPrepareHeader**](https://msdn.microsoft.com/library/Dd798459(v=VS.85).aspx)
--   [**midiInUnprepareHeader**](https://msdn.microsoft.com/library/Dd798464(v=VS.85).aspx)
--   [**midiOutPrepareHeader**](https://msdn.microsoft.com/library/Dd798477(v=VS.85).aspx)
--   [**midiOutUnprepareHeader**](https://msdn.microsoft.com/library/Dd798482(v=VS.85).aspx)
+-   [**MIDIHDR**](/windows/win32/api/mmeapi/ns-mmeapi-midihdr)
+-   [**midiInAddBuffer**](/windows/win32/api/mmeapi/nf-mmeapi-midiinaddbuffer)
+-   [**midiInPrepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-midiinprepareheader)
+-   [**midiInUnprepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-midiinunprepareheader)
+-   [**midiOutPrepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-midioutprepareheader)
+-   [**midiOutUnprepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-midioutunprepareheader)
 
 ## Callback Functions
 
--   [**MidiInProc**](https://msdn.microsoft.com/library/Dd798460(v=VS.85).aspx)
--   [**MidiOutProc**](https://msdn.microsoft.com/library/Dd798478(v=VS.85).aspx)
+-   [**MidiInProc**](/previous-versions//dd798460(v=vs.85))
+-   [**MidiOutProc**](/previous-versions//dd798478(v=vs.85))
 
 ## Device Capabilities
 
--   [**MIDIINCAPS**](https://msdn.microsoft.com/library/Dd798451(v=VS.85).aspx)
--   [**midiInGetDevCaps**](https://msdn.microsoft.com/library/Dd798453(v=VS.85).aspx)
--   [**midiInGetID**](https://msdn.microsoft.com/library/Dd798455(v=VS.85).aspx)
--   [**midiInGetNumDevs**](https://msdn.microsoft.com/library/Dd798456(v=VS.85).aspx)
--   [**MIDIOUTCAPS**](https://msdn.microsoft.com/library/Dd798467(v=VS.85).aspx)
--   [**midiOutGetDevCaps**](https://msdn.microsoft.com/library/Dd798469(v=VS.85).aspx)
--   [**midiOutGetID**](https://msdn.microsoft.com/library/Dd798471(v=VS.85).aspx)
--   [**midiOutGetNumDevs**](https://msdn.microsoft.com/library/Dd798472(v=VS.85).aspx)
--   [**MIDISTRMBUFFVER**](https://msdn.microsoft.com/library/Dd798493(v=VS.85).aspx)
+-   [**MIDIINCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-midiincaps)
+-   [**midiInGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-midiingetdevcaps)
+-   [**midiInGetID**](/windows/win32/api/mmeapi/nf-mmeapi-midiingetid)
+-   [**midiInGetNumDevs**](/windows/win32/api/mmeapi/nf-mmeapi-midiingetnumdevs)
+-   [**MIDIOUTCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-midioutcaps)
+-   [**midiOutGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-midioutgetdevcaps)
+-   [**midiOutGetID**](/windows/win32/api/mmeapi/nf-mmeapi-midioutgetid)
+-   [**midiOutGetNumDevs**](/windows/win32/api/mmeapi/nf-mmeapi-midioutgetnumdevs)
+-   [**MIDISTRMBUFFVER**](/windows/win32/api/mmeapi/ns-mmeapi-midistrmbuffver)
 
 ## Error Processing
 
--   [**midiInGetErrorText**](https://msdn.microsoft.com/library/Dd798454(v=VS.85).aspx)
--   [**midiOutGetErrorText**](https://msdn.microsoft.com/library/Dd798470(v=VS.85).aspx)
+-   [**midiInGetErrorText**](/windows/win32/api/mmeapi/nf-mmeapi-midiingeterrortext)
+-   [**midiOutGetErrorText**](/windows/win32/api/mmeapi/nf-mmeapi-midioutgeterrortext)
 -   [**MIM\_ERROR**](mim-error.md)
 -   [**MIM\_LONGERROR**](mim-longerror.md)
 -   [**MM\_MIM\_ERROR**](mm-mim-error.md)
@@ -60,21 +60,21 @@ This section describes the functions, macros, messages, and structures associate
 
 ## Managing MIDI Streams
 
--   [**midiStreamClose**](https://msdn.microsoft.com/library/Dd798485(v=VS.85).aspx)
--   [**midiStreamOpen**](https://msdn.microsoft.com/library/Dd798486(v=VS.85).aspx)
--   [**midiStreamOut**](https://msdn.microsoft.com/library/Dd798487(v=VS.85).aspx)
--   [**midiStreamPause**](https://msdn.microsoft.com/library/Dd798488(v=VS.85).aspx)
--   [**midiStreamPosition**](https://msdn.microsoft.com/library/Dd798489(v=VS.85).aspx)
--   [**midiStreamProperty**](https://msdn.microsoft.com/library/Dd798490(v=VS.85).aspx)
--   [**midiStreamRestart**](https://msdn.microsoft.com/library/Dd798491(v=VS.85).aspx)
--   [**midiStreamStop**](https://msdn.microsoft.com/library/Dd798492(v=VS.85).aspx)
+-   [**midiStreamClose**](/windows/win32/api/mmeapi/nf-mmeapi-midistreamclose)
+-   [**midiStreamOpen**](/windows/win32/api/mmeapi/nf-mmeapi-midistreamopen)
+-   [**midiStreamOut**](/windows/win32/api/mmeapi/nf-mmeapi-midistreamout)
+-   [**midiStreamPause**](/windows/win32/api/mmeapi/nf-mmeapi-midistreampause)
+-   [**midiStreamPosition**](/windows/win32/api/mmeapi/nf-mmeapi-midistreamposition)
+-   [**midiStreamProperty**](/windows/win32/api/mmeapi/nf-mmeapi-midistreamproperty)
+-   [**midiStreamRestart**](/windows/win32/api/mmeapi/nf-mmeapi-midistreamrestart)
+-   [**midiStreamStop**](/windows/win32/api/mmeapi/nf-mmeapi-midistreamstop)
 
 ## Opening and Closing Devices
 
--   [**midiInClose**](https://msdn.microsoft.com/library/Dd798452(v=VS.85).aspx)
--   [**midiInOpen**](https://msdn.microsoft.com/library/Dd798458(v=VS.85).aspx)
--   [**midiOutClose**](https://msdn.microsoft.com/library/Dd798468(v=VS.85).aspx)
--   [**midiOutOpen**](https://msdn.microsoft.com/library/Dd798476(v=VS.85).aspx)
+-   [**midiInClose**](/windows/win32/api/mmeapi/nf-mmeapi-midiinclose)
+-   [**midiInOpen**](/windows/win32/api/mmeapi/nf-mmeapi-midiinopen)
+-   [**midiOutClose**](/windows/win32/api/mmeapi/nf-mmeapi-midioutclose)
+-   [**midiOutOpen**](/windows/win32/api/mmeapi/nf-mmeapi-midioutopen)
 -   [**MIM\_CLOSE**](mim-close.md)
 -   [**MIM\_OPEN**](mim-open.md)
 -   [**MM\_MIM\_CLOSE**](mm-mim-close.md)
@@ -87,24 +87,24 @@ This section describes the functions, macros, messages, and structures associate
 ## Output Devices
 
 -   [KEYARRAY](keyarray.md)
--   [**midiOutCacheDrumPatches**](https://msdn.microsoft.com/library/Dd798465(v=VS.85).aspx)
--   [**midiOutCachePatches**](https://msdn.microsoft.com/library/Dd798466(v=VS.85).aspx)
--   [**midiOutGetVolume**](https://msdn.microsoft.com/library/Dd798473(v=VS.85).aspx)
--   [**midiOutSetVolume**](https://msdn.microsoft.com/library/Dd798480(v=VS.85).aspx)
+-   [**midiOutCacheDrumPatches**](/windows/win32/api/mmeapi/nf-mmeapi-midioutcachedrumpatches)
+-   [**midiOutCachePatches**](/windows/win32/api/mmeapi/nf-mmeapi-midioutcachepatches)
+-   [**midiOutGetVolume**](/windows/win32/api/mmeapi/nf-mmeapi-midioutgetvolume)
+-   [**midiOutSetVolume**](/windows/win32/api/mmeapi/nf-mmeapi-midioutsetvolume)
 -   [PATCHARRAY](patcharray.md)
 
 ## Playing a Message or Messages
 
--   [**MEVT\_EVENTPARM**](https://msdn.microsoft.com/library/Dd798441(v=VS.85).aspx)
--   [**MEVT\_EVENTTYPE**](https://msdn.microsoft.com/library/Dd798442(v=VS.85).aspx)
--   [**MIDIEVENT**](https://msdn.microsoft.com/library/Dd798448(v=VS.85).aspx)
--   [**midiOutLongMsg**](https://msdn.microsoft.com/library/Dd798474(v=VS.85).aspx)
--   [**midiOutReset**](https://msdn.microsoft.com/library/Dd798479(v=VS.85).aspx)
--   [**midiOutShortMsg**](https://msdn.microsoft.com/library/Dd798481(v=VS.85).aspx)
--   [**midiStreamOut**](https://msdn.microsoft.com/library/Dd798487(v=VS.85).aspx)
--   [**midiStreamPause**](https://msdn.microsoft.com/library/Dd798488(v=VS.85).aspx)
--   [**midiStreamRestart**](https://msdn.microsoft.com/library/Dd798491(v=VS.85).aspx)
--   [**midiStreamStop**](https://msdn.microsoft.com/library/Dd798492(v=VS.85).aspx)
+-   [**MEVT\_EVENTPARM**](/windows/win32/api/mmeapi/nf-mmeapi-mevt_eventparm)
+-   [**MEVT\_EVENTTYPE**](/windows/win32/api/mmeapi/nf-mmeapi-mevt_eventtype)
+-   [**MIDIEVENT**](/windows/win32/api/mmeapi/ns-mmeapi-midievent)
+-   [**midiOutLongMsg**](/windows/win32/api/mmeapi/nf-mmeapi-midioutlongmsg)
+-   [**midiOutReset**](/windows/win32/api/mmeapi/nf-mmeapi-midioutreset)
+-   [**midiOutShortMsg**](/windows/win32/api/mmeapi/nf-mmeapi-midioutshortmsg)
+-   [**midiStreamOut**](/windows/win32/api/mmeapi/nf-mmeapi-midistreamout)
+-   [**midiStreamPause**](/windows/win32/api/mmeapi/nf-mmeapi-midistreampause)
+-   [**midiStreamRestart**](/windows/win32/api/mmeapi/nf-mmeapi-midistreamrestart)
+-   [**midiStreamStop**](/windows/win32/api/mmeapi/nf-mmeapi-midistreamstop)
 -   [**MM\_MOM\_DONE**](mm-mom-done.md)
 -   [**MM\_MOM\_POSITIONCB**](mm-mom-positioncb.md)
 -   [**MOM\_DONE**](mom-done.md)
@@ -112,13 +112,13 @@ This section describes the functions, macros, messages, and structures associate
 
 ## Recording
 
--   [**midiConnect**](https://msdn.microsoft.com/library/Dd798446(v=VS.85).aspx)
--   [**midiDisconnect**](https://msdn.microsoft.com/library/Dd798447(v=VS.85).aspx)
--   [**midiInReset**](https://msdn.microsoft.com/library/Dd798461(v=VS.85).aspx)
--   [**midiInStart**](https://msdn.microsoft.com/library/Dd798462(v=VS.85).aspx)
--   [**midiInStop**](https://msdn.microsoft.com/library/Dd798463(v=VS.85).aspx)
--   [**MIDIPROPTEMPO**](https://msdn.microsoft.com/library/Dd798483(v=VS.85).aspx)
--   [**MIDIPROPTIMEDIV**](https://msdn.microsoft.com/library/Dd798484(v=VS.85).aspx)
+-   [**midiConnect**](/windows/win32/api/mmeapi/nf-mmeapi-midiconnect)
+-   [**midiDisconnect**](/windows/win32/api/mmeapi/nf-mmeapi-mididisconnect)
+-   [**midiInReset**](/windows/win32/api/mmeapi/nf-mmeapi-midiinreset)
+-   [**midiInStart**](/windows/win32/api/mmeapi/nf-mmeapi-midiinstart)
+-   [**midiInStop**](/windows/win32/api/mmeapi/nf-mmeapi-midiinstop)
+-   [**MIDIPROPTEMPO**](/windows/win32/api/mmeapi/ns-mmeapi-midiproptempo)
+-   [**MIDIPROPTIMEDIV**](/windows/win32/api/mmeapi/ns-mmeapi-midiproptimediv)
 -   [**MIM\_DATA**](mim-data.md)
 -   [**MIM\_LONGDATA**](mim-longdata.md)
 -   [**MIM\_MOREDATA**](mim-moredata.md)
@@ -128,8 +128,8 @@ This section describes the functions, macros, messages, and structures associate
 
 ## Sending Messages to Devices
 
--   [**midiInMessage**](https://msdn.microsoft.com/library/Dd798457(v=VS.85).aspx)
--   [**midiOutMessage**](https://msdn.microsoft.com/library/Dd798475(v=VS.85).aspx)
+-   [**midiInMessage**](/windows/win32/api/mmeapi/nf-mmeapi-midiinmessage)
+-   [**midiOutMessage**](/windows/win32/api/mmeapi/nf-mmeapi-midioutmessage)
 
 ## Related topics
 
@@ -141,7 +141,3 @@ This section describes the functions, macros, messages, and structures associate
  
 
  
-
-
-
-

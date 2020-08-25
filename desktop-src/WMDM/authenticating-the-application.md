@@ -23,7 +23,7 @@ To authenticate your application, perform these steps:
 2.  Create a [CSecureChannelClient](csecurechannelclient-class.md) object to handle the authentication.
 3.  Pass your application key and transfer certificate to the secure channel object. You can use the dummy key/certificate shown in the following example code to get basic functionality from SDK functions. However, to get full functionality (important for passing files to and from the device), you must request a key and certificate from Microsoft as described in [Tools for Development](tools-for-development.md).
 4.  Pass the **IComponentAuthenticate** interface you created in step 1 to the secure channel object.
-5.  Call [**CSecureChannelClient::Authenticate**](https://msdn.microsoft.com/library/Ff801017(v=VS.85).aspx) to authenticate your application.
+5.  Call [**CSecureChannelClient::Authenticate**](/previous-versions/ms983906(v=msdn.10)) to authenticate your application.
 6.  Query **IComponentAuthenticate** for the **IWMDeviceManager** interface.
 
 These steps are shown in the following C++ code.
@@ -92,7 +92,3 @@ HRESULT CWMDMController::Authenticate()
  
 
  
-
-
-
-

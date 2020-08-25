@@ -32,7 +32,7 @@ Retrieves the color used to draw the insertion mark for the tree view. You can s
 
 ## Return value
 
-Returns a [**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value that contains the current insertion mark color.
+Returns a [**COLORREF**](/windows/desktop/gdi/colorref) value that contains the current insertion mark color.
 
 ## Requirements
 
@@ -54,10 +54,4 @@ Returns a [**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

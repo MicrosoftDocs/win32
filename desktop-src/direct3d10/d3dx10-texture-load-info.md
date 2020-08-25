@@ -68,7 +68,7 @@ Destination texture box (see [**D3D10\_BOX**](/windows/desktop/api/D3D10/ns-d3d1
 **SrcFirstMip**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -79,7 +79,7 @@ Source texture mipmap level, see [**D3D10CalcSubresource**](/windows/desktop/api
 **DstFirstMip**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -90,7 +90,7 @@ Destination texture mipmap level, see [**D3D10CalcSubresource**](/windows/deskto
 **NumMips**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -101,7 +101,7 @@ Number of mipmap levels in the source texture.
 **SrcFirstElement**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -112,7 +112,7 @@ First element of the source texture.
 **DstFirstElement**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -123,7 +123,7 @@ First element of the destination texture.
 **NumElements**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -134,7 +134,7 @@ Number of elements to load.
 **Filter**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -145,7 +145,7 @@ Filtering options during resampling (see [**D3DX10\_FILTER\_FLAG**](d3dx10-filte
 **MipFilter**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -177,7 +177,3 @@ This structure is used in a call to [**D3DX10LoadTextureFromTexture**](d3dx10loa
  
 
  
-
-
-
-

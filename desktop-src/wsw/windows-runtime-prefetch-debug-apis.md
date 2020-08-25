@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Prefetch debug APIs for Windows Store apps
 
-The following APIs are used to debug and test content prefetching behavior in a Windows Store app that implements the [**ContentPrefetcher**](https://docs.microsoft.com/uwp/api/Windows.Networking.BackgroundTransfer.ContentPrefetcher) class.
+The following APIs are used to debug and test content prefetching behavior in a Windows Store app that implements the [**ContentPrefetcher**](/uwp/api/Windows.Networking.BackgroundTransfer.ContentPrefetcher) class.
 
 
 
@@ -24,14 +24,8 @@ The following APIs are used to debug and test content prefetching behavior in a 
 
 <dl> <dt>
 
-[**ContentPrefetcher**](https://docs.microsoft.com/uwp/api/Windows.Networking.BackgroundTransfer.ContentPrefetcher)
+[**ContentPrefetcher**](/uwp/api/Windows.Networking.BackgroundTransfer.ContentPrefetcher)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -106,10 +106,10 @@ interface MyInterface : IDispatch
 [Generating a Type Library With MIDL](generating-a-type-library-with-midl-2.md)
 </dt> <dt>
 
-[ODL File Example](https://msdn.microsoft.com/library/ms221308(v=VS.71).aspx)
+[ODL File Example](/previous-versions/windows/desktop/automat/odl-file-example)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/library/ms221683(v=VS.71).aspx)
+[ODL File Syntax](/previous-versions/windows/desktop/automat/odl-file-syntax)
 </dt> <dt>
 
 [**out**](out-idl.md)
@@ -124,13 +124,9 @@ interface MyInterface : IDispatch
 [**propputref**](propputref.md)
 </dt> <dt>
 
-[**TYPEFLAGS**](https://msdn.microsoft.com/library/ms221509(v=VS.71).aspx)
+[**TYPEFLAGS**](/windows/win32/api/oaidl/ne-oaidl-typeflags)
 </dt> </dl>
 
  
 
  
-
-
-
-

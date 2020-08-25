@@ -25,7 +25,7 @@ api_location:
 
 # Win32\_POTSModemToSerialPort class
 
-The **Win32\_POTSModemToSerialPort** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates a modem to the serial port the modem uses.
+The **Win32\_POTSModemToSerialPort** association [WMI class](../wmisdk/retrieving-a-class.md) relates a modem to the serial port the modem uses.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -104,7 +104,7 @@ Data type: **Win32\_SerialPort**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Antecedent"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_SerialPort")
+Qualifiers: [**key**](../wmisdk/key-qualifier.md), [**Override**](../wmisdk/standard-qualifiers.md) ("Antecedent"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_SerialPort")
 </dt> </dl>
 
 A [**Win32\_SerialPort**](win32-serialport.md) that represents the serial port used by the modem.
@@ -120,7 +120,7 @@ Data type: **Win32\_POTSModem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Dependent"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_POTSModem")
+Qualifiers: [**key**](../wmisdk/key-qualifier.md), [**Override**](../wmisdk/standard-qualifiers.md) ("Dependent"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_POTSModem")
 </dt> </dl>
 
 A [**Win32\_POTSModem**](win32-potsmodem.md) that represents the POTS modem using the serial port.
@@ -136,7 +136,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("bits")
+Qualifiers: [**Units**](../wmisdk/standard-qualifiers.md) ("bits")
 </dt> </dl>
 
 When several bus or connection-data widths are possible, this property defines the one in use between the devices. Data width is specified in bits. If data width is not negotiated, or if this information is not available or important to device management, the property should be set to 0 (zero).
@@ -154,12 +154,12 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("bits per second")
+Qualifiers: [**Units**](../wmisdk/standard-qualifiers.md) ("bits per second")
 </dt> </dl>
 
 When several bus or connection speeds are possible, this property defines the one being used between the devices. Speed is specified in bits-per-second. If connection or bus speeds are not negotiated, or if this information is not available or important to device management, the property should be set to 0 (zero).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](../wmisdk/creating-a-wmi-script.md).
 
 This property is inherited from [**CIM\_DeviceConnection**](cim-deviceconnection.md).
 
@@ -226,7 +226,3 @@ The **Win32\_POTSModemToSerialPort** class is derived from [**CIM\_ControlledBy*
  
 
  
-
-
-
-

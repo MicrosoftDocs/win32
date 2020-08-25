@@ -61,21 +61,21 @@ Previous handle to the same surface. Used if the surface is being re-created aft
 *puSurfaceLocal* \[in\]
 </dt> <dd>
 
-Pointer to the [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that represents the DirectDraw user-mode surface object with which to associate the allocated memory. See the DDK documentation for details.
+Pointer to the [**DD\_SURFACE\_LOCAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local) structure that represents the DirectDraw user-mode surface object with which to associate the allocated memory. See the DDK documentation for details.
 
 </dd> <dt>
 
 *puSurfaceMore* \[in\]
 </dt> <dd>
 
-Pointer to the [**DD\_SURFACE\_MORE**](https://msdn.microsoft.com/library/Ff551737(v=VS.85).aspx) structure that contains additional local data for each individual surface object. See the DDK documentation for details.
+Pointer to the [**DD\_SURFACE\_MORE**](/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_more) structure that contains additional local data for each individual surface object. See the DDK documentation for details.
 
 </dd> <dt>
 
 *puSurfaceGlobal* \[in\]
 </dt> <dd>
 
-Pointer to the [**DD\_SURFACE\_GLOBAL**](https://msdn.microsoft.com/library/Ff551726(v=VS.85).aspx) structure that contains surface data shared globally with multiple surfaces. See the DDK documentation for details.
+Pointer to the [**DD\_SURFACE\_GLOBAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_global) structure that contains surface data shared globally with multiple surfaces. See the DDK documentation for details.
 
 </dd> <dt>
 
@@ -114,7 +114,7 @@ If successful, this function returns a handle to the kernel-mode surface represe
 
 ## Remarks
 
-Applications are advised to use the DirectDraw and [Direct3D](https://msdn.microsoft.com/library/bb205147(VS.85).aspx) APIs to create and manage graphics device objects. These constructs abstract the device creation process in a simplified and operating-system-independent way.
+Applications are advised to use the DirectDraw and [Direct3D](../direct3d10/d3d10-graphics-reference.md) APIs to create and manage graphics device objects. These constructs abstract the device creation process in a simplified and operating-system-independent way.
 
 ## Requirements
 
@@ -150,7 +150,3 @@ Applications are advised to use the DirectDraw and [Direct3D](https://msdn.micro
  
 
  
-
-
-
-

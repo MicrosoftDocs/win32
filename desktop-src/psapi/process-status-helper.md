@@ -20,12 +20,8 @@ The process status application programming interface (PSAPI) is a helper library
 
 These functions are available in Psapi.dll.
 
-The same information is generally available through the performance data in the registry. For more information, see [Performance Counters](https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-portal).
+The same information is generally available through the performance data in the registry. For more information, see [Performance Counters](/windows/desktop/PerfCtrs/performance-counters-portal).
 
  
 
  
-
-
-
-

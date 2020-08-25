@@ -48,7 +48,7 @@ Pointer to the raw data to decompress.
 *pcBytes* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**SIZE\_T**](../winprog/windows-data-types.md)\***
 
 The size of the data pointed to by ppData.
 
@@ -88,7 +88,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

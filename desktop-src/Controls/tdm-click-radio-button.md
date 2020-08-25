@@ -44,7 +44,7 @@ The return value is ignored.
 
 ## Remarks
 
-The specified radio button ID is sent to the [**TaskDialogCallbackProc**](https://msdn.microsoft.com/library/Bb760542(v=VS.85).aspx) callback function as part of a [TDN\_RADIO\_BUTTON\_CLICKED](tdn-radio-button-clicked.md) notification code. After the callback function returns, the radio button will be selected.
+The specified radio button ID is sent to the [**TaskDialogCallbackProc**](/windows/win32/api/commctrl/nc-commctrl-pftaskdialogcallback) callback function as part of a [TDN\_RADIO\_BUTTON\_CLICKED](tdn-radio-button-clicked.md) notification code. After the callback function returns, the radio button will be selected.
 
 ## Requirements
 
@@ -59,10 +59,4 @@ The specified radio button ID is sent to the [**TaskDialogCallbackProc**](https:
 
 
  
-
- 
-
-
-
-
 

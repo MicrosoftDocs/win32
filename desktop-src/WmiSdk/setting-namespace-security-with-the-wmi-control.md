@@ -31,7 +31,7 @@ The following procedure describes how to use the WMI control to set up the secur
 3.  In the **WMI Control** pane, right-click **WMI Control**, choose **Properties**, and then select the **Security** tab.
 4.  Navigate to the new namespace, click **Security**, and then configure groups and permissions for the namespace.
 
-You can also use Windows Management Instrumentation Command-Line ([WMIC](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc754534(v=ws.11)?redirectedfrom=MSDN)) to set namespace security. For more information, see [**wmic**](wmic.md).
+You can also use Windows Management Instrumentation Command-Line ([WMIC](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc754534(v=ws.11))) to set namespace security. For more information, see [**wmic**](wmic.md).
 
 ## Setting the Default Namespace for Scripts
 
@@ -47,7 +47,7 @@ HKEY_LOCAL_MACHINE
                   Namespace
 ```
 
-Because the default namespace is easy to change, either with this control or programmatically by calling methods of [**StdRegProv**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/stdregprov), specify the namespace when connecting to WMI either through the [moniker](constructing-a-moniker-string.md) or calls to [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md). For more information, see [Creating a WMI Script](creating-a-wmi-script.md)
+Because the default namespace is easy to change, either with this control or programmatically by calling methods of [**StdRegProv**](/previous-versions/windows/desktop/regprov/stdregprov), specify the namespace when connecting to WMI either through the [moniker](constructing-a-moniker-string.md) or calls to [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md). For more information, see [Creating a WMI Script](creating-a-wmi-script.md)
 
 **To set the default namespace for scripts**
 
@@ -64,6 +64,3 @@ Because the default namespace is easy to change, either with this control or pro
  
 
  
-
-
-

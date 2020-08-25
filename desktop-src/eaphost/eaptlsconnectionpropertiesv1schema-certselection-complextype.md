@@ -1,6 +1,6 @@
 ---
 title: CertSelection Complex Type
-description: Determines how the user selects a certificate.
+description: Learn about the CertSelection complex type. This type determines how the user selects a certificate.
 ms.assetid: f5a37258-8ab0-4736-9721-6c2800769c74
 keywords:
 - CertSelection complex type EAPHost
@@ -45,10 +45,10 @@ The **CertSelection** complex type determines how the user selects a certificate
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

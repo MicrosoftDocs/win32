@@ -16,19 +16,15 @@ An object's security descriptor may contain a discretionary access-control list 
 
 To retrieve an object's DACL, you must be the object's owner or have **READ\_CONTROL** access to the object.
 
-To get and set the DACL of a directory object, use the [**IADsSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) interface. Using C++, the [**IADsSecurityDescriptor::get\_DiscretionaryAcl**](https://docs.microsoft.com/windows/desktop/ADSI/iadssecuritydescriptor-property-methods) method returns an [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) pointer. Call **QueryInterface** on that **IDispatch** pointer to get an [**IADsAccessControlList**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist) interface, and use the methods on that interface to access the individual ACEs in the DACL. The procedure for modifying a DACL is described in [Setting Access Rights on an Object](setting-access-rights-on-an-object.md).
+To get and set the DACL of a directory object, use the [**IADsSecurityDescriptor**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) interface. Using C++, the [**IADsSecurityDescriptor::get\_DiscretionaryAcl**](/windows/desktop/ADSI/iadssecuritydescriptor-property-methods) method returns an [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) pointer. Call **QueryInterface** on that **IDispatch** pointer to get an [**IADsAccessControlList**](/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist) interface, and use the methods on that interface to access the individual ACEs in the DACL. The procedure for modifying a DACL is described in [Setting Access Rights on an Object](setting-access-rights-on-an-object.md).
 
-To enumerate the ACEs, use the [**IADsAccessControlList::get\_\_NewEnum**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsaccesscontrollist-get__newenum) method. The method returns an [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) pointer. Call **QueryInterface** on that **IUnknown** pointer to get an [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface. Use the [**IEnumVARIANT::Next**](https://msdn.microsoft.com/library/ms221369(v=VS.71).aspx) method to enumerate the ACEs in the ACL. Each ACE is returned as a **VARIANT** containing an [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) pointer (the **vt** member is **VT\_DISPATCH**). Call **QueryInterface** on that **IDispatch** pointer to get an [**IADsAccessControlEntry**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry) interface for the ACE. You can use the methods of the **IADsAccessControlEntry** interface to set or retrieve the components of an ACE.
+To enumerate the ACEs, use the [**IADsAccessControlList::get\_\_NewEnum**](/windows/desktop/api/iads/nf-iads-iadsaccesscontrollist-get__newenum) method. The method returns an [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) pointer. Call **QueryInterface** on that **IUnknown** pointer to get an [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) interface. Use the [**IEnumVARIANT::Next**](/windows/win32/api/oaidl/nf-oaidl-ienumvariant-next) method to enumerate the ACEs in the ACL. Each ACE is returned as a **VARIANT** containing an [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) pointer (the **vt** member is **VT\_DISPATCH**). Call **QueryInterface** on that **IDispatch** pointer to get an [**IADsAccessControlEntry**](/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry) interface for the ACE. You can use the methods of the **IADsAccessControlEntry** interface to set or retrieve the components of an ACE.
 
 For more information about DACLs and ACEs, see the following topics in the Platform Software Development Kit (SDK).
 
--   [Access-Control Lists (ACLs)](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists)
--   [Access-Control Entries (ACEs)](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-entries)
+-   [Access-Control Lists (ACLs)](/windows/desktop/SecAuthZ/access-control-lists)
+-   [Access-Control Entries (ACEs)](/windows/desktop/SecAuthZ/access-control-entries)
 
  
 
  
-
-
-
-

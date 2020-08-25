@@ -48,9 +48,9 @@ Unique identifier. See [Handles (Direct3D 9)](handles.md).
 *ppVShader* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVERTEXSHADER9**](https://msdn.microsoft.com/library/Bb205922(v=VS.85).aspx)\***
+Type: **[**LPDIRECT3DVERTEXSHADER9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvertexshader9)\***
 
-Returns a vertex shader object. See [**IDirect3DVertexShader9**](https://msdn.microsoft.com/library/Bb205922(v=VS.85).aspx).
+Returns a vertex shader object. See [**IDirect3DVertexShader9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvertexshader9).
 
 </dd> </dl>
 
@@ -81,7 +81,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

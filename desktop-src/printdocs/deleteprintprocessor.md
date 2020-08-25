@@ -72,7 +72,7 @@ If the function fails, the return value is zero.
 
  
 
-The caller must have the [SeLoadDriverPrivilege](https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants).
+The caller must have the [SeLoadDriverPrivilege](/windows/desktop/SecAuthZ/authorization-constants).
 
 ## Requirements
 
@@ -103,9 +103,4 @@ The caller must have the [SeLoadDriverPrivilege](https://docs.microsoft.com/wind
 </dt> </dl>
 
  
-
- 
-
-
-
 

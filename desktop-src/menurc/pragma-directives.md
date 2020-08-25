@@ -22,12 +22,8 @@ This pragma is not supported in an included resource file (.rc). Therefore, if y
 #include "Japanese.rc"
 ```
 
-For a list of values for CodePageNum, see [Code Page Identifiers](https://msdn.microsoft.com/library/Dd317756(v=VS.85).aspx).
+For a list of values for CodePageNum, see [Code Page Identifiers](../intl/code-page-identifiers.md).
 
  
 
  
-
-
-
-

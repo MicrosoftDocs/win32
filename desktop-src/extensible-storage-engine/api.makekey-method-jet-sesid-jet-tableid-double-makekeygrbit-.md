@@ -73,7 +73,7 @@ public static void MakeKey(
 <!-- end list -->
 
   - data  
-    Type: [System.Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN)  
+    Type: [System.Double](/dotnet/api/system.double)  
     
     Column data for the current key column of the current index.
 
@@ -95,4 +95,3 @@ public static void MakeKey(
 [MakeKey overload](dn334039\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

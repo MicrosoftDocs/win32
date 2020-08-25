@@ -16,10 +16,10 @@ api_location:
 
 A collection is a standard automation concept that provides a uniform interface to a set of objects over which you can perform iteration. The Scripting API for WMI exposes a number of interfaces that conform to the collection paradigm. In each case, use the **Item** method to identify the elements using a string containing the value.
 
-The [**SWbemPropertySet**](swbempropertyset.md), [**SWbemQualifierSet**](swbemqualifierset.md), and [**SWbemMethodSet**](swbemmethodset.md) collections are mostly used to modify schema. An [**SWbemObjectSet**](swbemobjectset.md) object contains WMI objects, such as a [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) instance, that have been obtained through calls, such as [**SWbemServices.InstancesOf**](swbemservices-instancesof.md) or [**SWbemObject.Associators\_**](swbemobject-associators-.md). The [**SWbemRefresher**](swbemrefresher.md) object can only contain instances of WMI classes. The [**SWbemNamedValueSet**](swbemnamedvalueset.md) object may contain WMI objects or any other type of data that a provider requires for the method call.
+The [**SWbemPropertySet**](swbempropertyset.md), [**SWbemQualifierSet**](swbemqualifierset.md), and [**SWbemMethodSet**](swbemmethodset.md) collections are mostly used to modify schema. An [**SWbemObjectSet**](swbemobjectset.md) object contains WMI objects, such as a [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) instance, that have been obtained through calls, such as [**SWbemServices.InstancesOf**](swbemservices-instancesof.md) or [**SWbemObject.Associators\_**](swbemobject-associators-.md). The [**SWbemRefresher**](swbemrefresher.md) object can only contain instances of WMI classes. The [**SWbemNamedValueSet**](swbemnamedvalueset.md) object may contain WMI objects or any other type of data that a provider requires for the method call.
 
 > [!Note]  
-> The following topics were written primarily for VBScript. C# uses the standard [IEnumerable](https://docs.microsoft.com/dotnet/api/system.collections.ienumerable?redirectedfrom=MSDN) interface to collate and enumerate objects. In contrast, PowerShell generally uses an implicit object collection whenever a return value contains more than one result.
+> The following topics were written primarily for VBScript. C# uses the standard [IEnumerable](/dotnet/api/system.collections.ienumerable) interface to collate and enumerate objects. In contrast, PowerShell generally uses an implicit object collection whenever a return value contains more than one result.
 
  
 
@@ -46,6 +46,3 @@ For more information about and examples of adding and removing items from a coll
  
 
  
-
-
-

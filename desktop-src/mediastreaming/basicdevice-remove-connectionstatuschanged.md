@@ -61,14 +61,8 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 <dl> <dt>
 
-[**BasicDevice**](https://msdn.microsoft.com/library/Hh828813(v=VS.85).aspx)
+[**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

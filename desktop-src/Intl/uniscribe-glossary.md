@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Uniscribe Glossary
 
-An ABC width is a composite value defined by a GDI [**ABC**](https://msdn.microsoft.com/library/Dd162454(v=VS.85).aspx) structure. The structure contains members **abcA**, **abcB**, and **abcC**, corresponding to the "A", "B", and "C" widths of a [glyph](#glyph) or [run](#run).
+An ABC width is a composite value defined by a GDI [**ABC**](/windows/win32/api/wingdi/ns-wingdi-abc) structure. The structure contains members **abcA**, **abcB**, and **abcC**, corresponding to the "A", "B", and "C" widths of a [glyph](#glyph) or [run](#run).
 
 The "A" width is [underhang](#underhang) (positive; also known as "padding") or [overhang](#overhang) (negative) to the left of the on-screen equivalent of ink that represents the glyph or run. The "B" width is the black width, the width from the leftmost ink to the rightmost ink. The "C" width is overhang to the right of the ink.
 
@@ -20,7 +20,7 @@ When two or more glyphs are displayed as a unit, usually only the leftmost glyph
 
 ## ABC width
 
-An ABC width is a composite value defined by a GDI [**ABC**](https://msdn.microsoft.com/library/Dd162454(v=VS.85).aspx) structure. The structure contains members **abcA**, **abcB**, and **abcC**, corresponding to the "A", "B", and "C" widths of a [glyph](#glyph) or [run](#run).
+An ABC width is a composite value defined by a GDI [**ABC**](/windows/win32/api/wingdi/ns-wingdi-abc) structure. The structure contains members **abcA**, **abcB**, and **abcC**, corresponding to the "A", "B", and "C" widths of a [glyph](#glyph) or [run](#run).
 
 The "A" width is [underhang](#underhang) (positive; also known as "padding") or [overhang](#overhang) (negative) to the left of the on-screen equivalent of ink that represents the glyph or run. The "B" width is the black width, the width from the leftmost ink to the rightmost ink. The "C" width is overhang to the right of the ink.
 
@@ -48,7 +48,7 @@ An application can justify text to fit a line by adjusting the cell width for ce
 
 ## cluster
 
-A cluster is the smallest linguistic unit that can be shaped. In languages such as Arabic and many of the Indic languages, the glyphs used to represent each character (Unicode code point) depend strongly on the surrounding code points, which constitute the cluster. In these languages, applications can translate code points into appropriate glyphs only by looking at the cluster. In some scripts, such as Devanagari, the order of glyphs within a cluster can differ from the order of the corresponding Unicode code points. For more information, see [Windows Glyph Processing](https://docs.microsoft.com/typography/opentype/processing-part1) on the Microsoft typography site.
+A cluster is the smallest linguistic unit that can be shaped. In languages such as Arabic and many of the Indic languages, the glyphs used to represent each character (Unicode code point) depend strongly on the surrounding code points, which constitute the cluster. In these languages, applications can translate code points into appropriate glyphs only by looking at the cluster. In some scripts, such as Devanagari, the order of glyphs within a cluster can differ from the order of the corresponding Unicode code points. For more information, see [Windows Glyph Processing](/typography/opentype/processing-part1) on the Microsoft typography site.
 
 ## complex script
 
@@ -144,6 +144,3 @@ The underhang is a width of white space to the left or right of the solid portio
  
 
  
-
-
-

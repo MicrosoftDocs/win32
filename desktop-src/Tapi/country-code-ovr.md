@@ -12,13 +12,10 @@ The country or region code is relevant only when the address type is LINEADDRESS
 
 All service providers that support use of telephone numbers must support use of this information.
 
-**TAPI 2.x:** See [**lineGetCallInfo**](https://msdn.microsoft.com/library/ms735720(v=VS.85).aspx) (**dwCountryCode** member of *lpCallInfo*).
+**TAPI 2.x:** See [**lineGetCallInfo**](/windows/win32/api/tapi/nf-tapi-linegetcallinfo) (**dwCountryCode** member of *lpCallInfo*).
 
 **TAPI 3.x:** See [**ITCallInfo::get\_CallInfoLong**](/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfolong) (**CIL\_COUNTRYCODE** member of [**CALLINFO\_LONG**](/windows/desktop/api/Tapi3if/ne-tapi3if-callinfo_long)).
 
  
 
  
-
-
-

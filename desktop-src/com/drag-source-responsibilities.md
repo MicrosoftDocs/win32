@@ -17,7 +17,7 @@ The drag source is responsible for the following tasks:
 
 The main task is creating a data-transfer object that exposes the [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject) and [**IDropSource**](/windows/desktop/api/OleIdl/nn-oleidl-idropsource) interfaces. The drag source might or might not include a copy of the selected data. Including it is not mandatory, but doing so helps protect against inadvertent changes and allows the Clipboard operations code to be identical to the drag and drop code.
 
-While a drag operation is in progress, the drag source is responsible for setting the mouse pointer and, if appropriate, for providing additional source feedback to the user. The drag source cannot provide any feedback that tracks the mouse position other than by actually setting the real pointer (see the [**SetCursor**](https://msdn.microsoft.com/library/ms648393(v=VS.85).aspx) function). This rule must be enforced to avoid conflicts with the feedback provided by the drop target. (A drag source can also be a drop target. When dropping on itself, the source/target can, of course, provide target feedback to track the mouse position. In this case, however, it is the drop target tracking the mouse, not the source.) Based on the feedback offered by the drop target, the source sets an appropriate pointer.
+While a drag operation is in progress, the drag source is responsible for setting the mouse pointer and, if appropriate, for providing additional source feedback to the user. The drag source cannot provide any feedback that tracks the mouse position other than by actually setting the real pointer (see the [**SetCursor**](/windows/win32/api/winuser/nf-winuser-setcursor) function). This rule must be enforced to avoid conflicts with the feedback provided by the drop target. (A drag source can also be a drop target. When dropping on itself, the source/target can, of course, provide target feedback to track the mouse position. In this case, however, it is the drop target tracking the mouse, not the source.) Based on the feedback offered by the drop target, the source sets an appropriate pointer.
 
 ## Related topics
 
@@ -29,7 +29,3 @@ While a drag operation is in progress, the drag source is responsible for settin
  
 
  
-
-
-
-

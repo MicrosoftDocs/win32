@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.Altitude Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.Altitude](https://msdn.microsoft.com/library/bb787472(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.Altitude](../properties/props-system-gps-altitude.md) property.
 
 ### PKEY
 
@@ -126,12 +126,9 @@ This value can be written by writing to System.GPS.Altitude.Numerator and System
 
 <dl> <dt>
 
-[System.GPS.Altitude](https://msdn.microsoft.com/library/bb787472(VS.85).aspx)
+[System.GPS.Altitude](../properties/props-system-gps-altitude.md)
 </dt> </dl>
 
  
 
  
-
-
-

@@ -49,7 +49,7 @@ Beginning with Windows Server 2008 R2, you can implement a custom remote audio e
     <li><a href="https://docs.microsoft.com/windows/desktop/CoreAudio/pkey-device-devicedesc"><strong>PKEY_Device_DeviceDesc</strong></a></li>
     <li><a href="https://docs.microsoft.com/windows/desktop/CoreAudio/pkey-device-friendlyname"><strong>PKEY_Device_FriendlyName</strong></a></li>
     </ul>
-    The property store object must implement the <a href="https://msdn.microsoft.com/library/bb761474(VS.85).aspx">IPropertyStore</a> interface.<br/></td>
+    The property store object must implement the <a href="/windows/win32/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> interface.<br/></td>
     </tr>
     </tbody>
     </table>
@@ -71,9 +71,9 @@ To implement a custom audio device enumerator, you must implement a custom audio
 -   `IMMDevice::Activate(IAudioOutputEndpointRT)`
 -   `IMMDevice::Activate(IAudioInputEndpointRT)`
 
-We do not expect you to implement the full list of [**IMMDevice::Activate**](https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate) interfaces in your custom audio device enumerator. Instead, you should implement [**IAudioOutputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudiooutputendpointrt) and [**IAudioInputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt). You can optionally implement a few more, such as [**IAudioEndpointVolume**](https://docs.microsoft.com/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume). For any interface you do not implement, you should return **E\_NOINTERFACE** (you must use this specific failure code). Windows will then fall back to a stock implementation of the interface (for example, [**IAudioClient2**](https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2)).
+We do not expect you to implement the full list of [**IMMDevice::Activate**](/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate) interfaces in your custom audio device enumerator. Instead, you should implement [**IAudioOutputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudiooutputendpointrt) and [**IAudioInputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt). You can optionally implement a few more, such as [**IAudioEndpointVolume**](/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume). For any interface you do not implement, you should return **E\_NOINTERFACE** (you must use this specific failure code). Windows will then fall back to a stock implementation of the interface (for example, [**IAudioClient2**](/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2)).
 
-For additional reference documentation about how to implement and register audio endpoints, see [**IAudioInputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt). For a diagram that shows how WASAPI works, see [User-Mode Audio Components](https://docs.microsoft.com/windows/desktop/CoreAudio/user-mode-audio-components). Note that all of user-mode audio is new beginning with Windows Server 2008.
+For additional reference documentation about how to implement and register audio endpoints, see [**IAudioInputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt). For a diagram that shows how WASAPI works, see [User-Mode Audio Components](/windows/desktop/CoreAudio/user-mode-audio-components). Note that all of user-mode audio is new beginning with Windows Server 2008.
 
 ## Related topics
 
@@ -85,26 +85,20 @@ For additional reference documentation about how to implement and register audio
 [**GetTSAudioEndpointEnumeratorForSession**](gettsaudioendpointenumeratorforsession.md)
 </dt> <dt>
 
-[**IMMDevice**](https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice)
+[**IMMDevice**](/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice)
 </dt> <dt>
 
-[**IMMDeviceCollection**](https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection)
+[**IMMDeviceCollection**](/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection)
 </dt> <dt>
 
-[**IMMDeviceEnumerator**](https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator)
+[**IMMDeviceEnumerator**](/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator)
 </dt> <dt>
 
-[**IMMEndpoint**](https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immendpoint)
+[**IMMEndpoint**](/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immendpoint)
 </dt> <dt>
 
-[IPropertyStore](https://msdn.microsoft.com/library/bb761474(VS.85).aspx)
+[IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

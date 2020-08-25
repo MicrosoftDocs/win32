@@ -20,7 +20,7 @@ The Windows Filtering Platform (WFP) functions that interact with Internet Proto
 -   [**IPSEC\_KEY\_MANAGER\_KEY\_DICTATION\_CHECK0**](/windows/desktop/api/Fwpmu/nc-fwpmu-ipsec_key_manager_key_dictation_check0)
 -   [**IPSEC\_KEY\_MANAGER\_DICTATE\_KEY0**](/windows/desktop/api/Fwpmu/nc-fwpmu-ipsec_key_manager_dictate_key0)
 -   [**IPSEC\_KEY\_MANAGER\_NOTIFY\_KEY0**](/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_key_manager_notify_key0)
--   [**IPSEC\_SA\_CONTEXT\_CALLBACK0**](https://msdn.microsoft.com/library/Hh447457(v=VS.85).aspx)
+-   [**IPSEC\_SA\_CONTEXT\_CALLBACK0**](/windows/win32/api/fwpmu/nc-fwpmu-ipsec_sa_context_callback0)
 -   [**IPsecDospGetSecurityInfo0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecdospgetsecurityinfo0)
 -   [**IPsecDospGetStatistics0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecdospgetstatistics0)
 -   [**IPsecDospSetSecurityInfo0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecdospsetsecurityinfo0)
@@ -73,7 +73,3 @@ The Windows Filtering Platform (WFP) functions that interact with Internet Proto
  
 
  
-
-
-
-

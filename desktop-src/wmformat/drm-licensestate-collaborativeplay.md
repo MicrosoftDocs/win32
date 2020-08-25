@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # DRM\_LicenseState\_CollaborativePlay
 
-The **DRM\_LicenseState\_CollaborativePlay** property contains a [**WM\_LICENSE\_STATE\_DATA**](https://msdn.microsoft.com/library/Dd757942(v=VS.85).aspx) structure that contains details about how this right has been applied to the content.
+The **DRM\_LicenseState\_CollaborativePlay** property contains a [**WM\_LICENSE\_STATE\_DATA**](/previous-versions/windows/desktop/legacy/dd757942(v=vs.85)) structure that contains details about how this right has been applied to the content.
 
 ## Global Constant
 
@@ -40,7 +40,3 @@ This is a read-only property that is retrieved using [**IWMDRMReader::GetDRMProp
  
 
  
-
-
-
-

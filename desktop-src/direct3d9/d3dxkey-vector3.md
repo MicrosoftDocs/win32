@@ -38,7 +38,7 @@ typedef struct D3DXKEY_VECTOR3 {
 **Time**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -77,7 +77,3 @@ Type: **[**D3DXVECTOR3**](d3dxvector3.md)**
  
 
  
-
-
-
-

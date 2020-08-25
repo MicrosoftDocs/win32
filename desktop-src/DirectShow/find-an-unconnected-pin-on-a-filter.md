@@ -43,7 +43,7 @@ HRESULT IsPinConnected(IPin *pPin, BOOL *pResult)
 
 
 > [!Note]  
-> This example uses the [SafeRelease](https://docs.microsoft.com/windows/desktop/medfound/saferelease) function to release interface pointers.
+> This example uses the [SafeRelease](/windows/desktop/medfound/saferelease) function to release interface pointers.
 
  
 
@@ -162,6 +162,3 @@ For an example of how this function can be used, see [Connect Two Filters](conne
  
 
  
-
-
-

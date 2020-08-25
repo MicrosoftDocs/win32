@@ -17,7 +17,7 @@ api_location:
 
 # IByteBuffer::Commit method
 
-\[The **Commit** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
+\[The **Commit** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
 
 The **Commit** method ensures that any changes made to an object open in transacted mode are reflected in the parent storage.
 
@@ -85,9 +85,4 @@ if (FAILED(hr))
 
 
  
-
- 
-
-
-
 

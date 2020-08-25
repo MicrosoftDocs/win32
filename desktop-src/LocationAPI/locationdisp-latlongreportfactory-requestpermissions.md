@@ -16,7 +16,7 @@ api_location:
 
 # LocationDisp.LatLongReportFactory.RequestPermissions method
 
-\[The Location API object model is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, to access location from a website, use the [W3C Geolocation API](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). To access location from a desktop application, use the [**Windows.Devices.Geolocation**](https://docs.microsoft.com/uwp/api/Windows.Devices.Geolocation) API.\]
+\[The Location API object model is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, to access location from a website, use the [W3C Geolocation API](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). To access location from a desktop application, use the [**Windows.Devices.Geolocation**](/uwp/api/Windows.Devices.Geolocation) API.\]
 
 Opens a system dialog box to request user permission for location-enabled devices.
 
@@ -57,7 +57,7 @@ The call is synchronous and the caller waits for the dialog box to be closed.
 
 ## Examples
 
-For an example of how to use this method, see [Listening for LatLong Report Events](https://docs.microsoft.com/uwp/api/Windows.Devices.Geolocation).
+For an example of how to use this method, see [Listening for LatLong Report Events](/uwp/api/Windows.Devices.Geolocation).
 
 ## Requirements
 
@@ -71,9 +71,4 @@ For an example of how to use this method, see [Listening for LatLong Report Even
 
 
  
-
- 
-
-
-
 

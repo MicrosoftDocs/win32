@@ -50,7 +50,7 @@ HRESULT D3DX10CreateEffectFromMemory(
 *pData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
 Pointer to the effect in memory.
 
@@ -59,7 +59,7 @@ Pointer to the effect in memory.
 *DataLength* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**SIZE\_T**](../winprog/windows-data-types.md)**
 
 Size of the effect in memory.
 
@@ -68,7 +68,7 @@ Size of the effect in memory.
 *pSrcFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Name of the effect file in memory.
 
@@ -86,25 +86,25 @@ A NULL-terminated array of shader macros (see [**D3D\_SHADER\_MACRO**](/windows/
 *pInclude* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Include**](https://msdn.microsoft.com/library/Bb173775(v=VS.85).aspx)\***
+Type: **[**ID3D10Include**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))\***
 
-A pointer to an include interface (see [**ID3D10Include Interface**](https://msdn.microsoft.com/library/Bb173775(v=VS.85).aspx)). This parameter can be **NULL**.
+A pointer to an include interface (see [**ID3D10Include Interface**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))). This parameter can be **NULL**.
 
 </dd> <dt>
 
 *pProfile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
-A string that specifies the [shader profile](https://msdn.microsoft.com/library/Bb509626(v=VS.85).aspx), or shader model.
+A string that specifies the [shader profile](../direct3dhlsl/dx-graphics-hlsl-models.md), or shader model.
 
 </dd> <dt>
 
 *HLSLFlags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 HLSL compile options (see [D3D10\_SHADER Constants](d3d10-shader.md)).
 
@@ -113,7 +113,7 @@ HLSL compile options (see [D3D10\_SHADER Constants](d3d10-shader.md)).
 *FXFlags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Effect compile options (see [D3D10\_EFFECT Constants](d3d10-effect.md)).
 
@@ -199,7 +199,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

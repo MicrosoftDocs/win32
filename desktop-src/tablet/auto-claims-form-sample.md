@@ -8,14 +8,14 @@ ms.date: 05/31/2018
 
 # Auto Claims Form Sample
 
-The Auto Claims sample addresses a hypothetical scenario for an insurance assessor. The assessor's work requires him or her to visit with clients at their home or business and to enter their claim information into a form. To increase the assessor's productivity, his IT department develops a tablet application that enables him or her to quickly and accurately enter claim information through two ink controls: [InkEdit](https://msdn.microsoft.com/library/ms835842(v=MSDN.10).aspx) and [InkPicture](https://msdn.microsoft.com/library/ms583740(v=VS.90).aspx) controls.
+The Auto Claims sample addresses a hypothetical scenario for an insurance assessor. The assessor's work requires him or her to visit with clients at their home or business and to enter their claim information into a form. To increase the assessor's productivity, his IT department develops a tablet application that enables him or her to quickly and accurately enter claim information through two ink controls: [InkEdit](/previous-versions/ms835842(v=msdn.10)) and [InkPicture](/previous-versions/ms583740(v=vs.100)) controls.
 
-In this sample, a [InkEdit](https://msdn.microsoft.com/library/ms835842(v=MSDN.10).aspx) control is used for each text input field. A user enters the relevant information about an insurance policy and vehicle into these fields with a pen. The [InkPicture](https://msdn.microsoft.com/library/ms583740(v=VS.90).aspx) control is used to add ink over an automobile image to highlight damaged areas of the automobile. The Auto Claims sample is available for C\# and Microsoft Visual Basic .NET. This topic describes the Visual Basic .NET.
+In this sample, a [InkEdit](/previous-versions/ms835842(v=msdn.10)) control is used for each text input field. A user enters the relevant information about an insurance policy and vehicle into these fields with a pen. The [InkPicture](/previous-versions/ms583740(v=vs.100)) control is used to add ink over an automobile image to highlight damaged areas of the automobile. The Auto Claims sample is available for C\# and Microsoft Visual Basic .NET. This topic describes the Visual Basic .NET.
 
-The AutoClaims Class is defined as a subclass of [System.Windows.Forms.Form](https://msdn.microsoft.com/library/w4bcxb43(v=VS.90).aspx) , and a nested class is defined for creating and managing layers of ink for different types of damage. Four event handlers are defined to perform the following tasks:
+The AutoClaims Class is defined as a subclass of [System.Windows.Forms.Form](/dotnet/api/system.windows.forms.form?view=netcore-3.1) , and a nested class is defined for creating and managing layers of ink for different types of damage. Four event handlers are defined to perform the following tasks:
 
 -   Initializing the form and ink layers.
--   Redrawing the [InkPicture](https://msdn.microsoft.com/library/ms583740(v=VS.90).aspx) control.
+-   Redrawing the [InkPicture](/previous-versions/ms583740(v=vs.100)) control.
 -   Selecting an ink layer through the list box.
 -   Changing the visibility of an ink layer.
 
@@ -26,7 +26,7 @@ The AutoClaims Class is defined as a subclass of [System.Windows.Forms.Form](htt
 
 ## Defining the Form and Ink Layers
 
-You need to import the [Microsoft.Ink](https://msdn.microsoft.com/library/ms826516(v=MSDN.10).aspx) namespace:
+You need to import the [Microsoft.Ink](/previous-versions/ms826516(v=msdn.10)) namespace:
 
 
 ```VB
@@ -43,7 +43,7 @@ using Microsoft.Ink;
 
 
 
-Next, in the AutoClaims Class, a nested `InkLayer` class is defined and an array of four `InkLayer` objects is declared. (InkLayer contains an [Microsoft.Ink.Ink](https://msdn.microsoft.com/library/ms583670(v=VS.90).aspx) object for storing ink, and [System.Drawing.Color](https://msdn.microsoft.com/library/14w97wkc(v=VS.90).aspx) and **Boolean** values for storing the color and hidden state of the layer.) A fifth Ink object is declared to handle ink for the [InkPicture](https://msdn.microsoft.com/library/ms583740(v=VS.90).aspx) when all of the ink layers are hidden.
+Next, in the AutoClaims Class, a nested `InkLayer` class is defined and an array of four `InkLayer` objects is declared. (InkLayer contains an [Microsoft.Ink.Ink](/previous-versions/ms583670(v=vs.100)) object for storing ink, and [System.Drawing.Color](/dotnet/api/system.drawing.color?view=netcore-3.1) and **Boolean** values for storing the color and hidden state of the layer.) A fifth Ink object is declared to handle ink for the [InkPicture](/previous-versions/ms583740(v=vs.100)) when all of the ink layers are hidden.
 
 
 ```VB
@@ -81,11 +81,11 @@ bool selectedHidden = false;
 
 
 
-Each layer has its own [Ink](https://msdn.microsoft.com/library/ms583670(v=VS.90).aspx) object. There are four discrete areas of interest in the claim form (body, windows, tires, and headlights), so four InkLayer objects are used. A user can view any combination of layers at once.
+Each layer has its own [Ink](/previous-versions/ms583670(v=vs.100)) object. There are four discrete areas of interest in the claim form (body, windows, tires, and headlights), so four InkLayer objects are used. A user can view any combination of layers at once.
 
 ## Initializing the Form and Ink Layers
 
-The `Load` event handler initializes the [Ink](https://msdn.microsoft.com/library/ms583670(v=VS.90).aspx) object and the four `InkLayer` objects.
+The `Load` event handler initializes the [Ink](/previous-versions/ms583670(v=vs.100)) object and the four `InkLayer` objects.
 
 
 ```VB
@@ -136,7 +136,7 @@ lstAnnotationLayer.SelectedIndex = 0;
 
 
 
-Finally, set the ink color for the [InkPicture](https://msdn.microsoft.com/library/ms583740(v=VS.90).aspx) control to the currently selected list box entry.
+Finally, set the ink color for the [InkPicture](/previous-versions/ms583740(v=vs.100)) control to the currently selected list box entry.
 
 
 ```VB
@@ -155,7 +155,7 @@ inkPictVehicle.DefaultDrawingAttributes.Color = inkLayers[lstAnnotationLayer.Sel
 
 ## Redrawing the InkPicture Control
 
-In the [InkPicture](https://msdn.microsoft.com/library/ms583740(v=VS.90).aspx) Control's inherited [Paint](https://msdn.microsoft.com/library/02745s21(v=VS.90).aspx) event handler, the ink layers are checked to determine which are hidden. If a layer is not hidden, the event procedure displays it by using the [Renderer](https://msdn.microsoft.com/library/ms582196(v=VS.90).aspx) property's [Draw](https://msdn.microsoft.com/library/ms828488(v=MSDN.10).aspx) method. If you look in the Object Browser, you'll see that the Microsoft.Ink.InkPicture.Renderer property is defined as a [Microsoft.Ink.Renderer](https://msdn.microsoft.com/library/ms828481(v=MSDN.10).aspx) object:
+In the [InkPicture](/previous-versions/ms583740(v=vs.100)) Control's inherited [Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) event handler, the ink layers are checked to determine which are hidden. If a layer is not hidden, the event procedure displays it by using the [Renderer](/previous-versions/ms582196(v=vs.100)) property's [Draw](/previous-versions/ms828488(v=msdn.10)) method. If you look in the Object Browser, you'll see that the Microsoft.Ink.InkPicture.Renderer property is defined as a [Microsoft.Ink.Renderer](/previous-versions/ms828481(v=msdn.10)) object:
 
 
 ```VB
@@ -196,7 +196,7 @@ private void inkPictVehicle_Paint(object sender, System.Windows.Forms.PaintEvent
 
 ## Selecting an Ink Layer through the List Box
 
-When the user selects an item in the list box, the [SelectedIndexChanged](https://msdn.microsoft.com/library/k9zye6y0(v=VS.90).aspx) event handler first checks that the selection has changed and that the [InkPicture](https://msdn.microsoft.com/library/ms583740(v=VS.90).aspx) control is not currently collecting ink. It then sets the ink color of the InkPicture control to the appropriate color for the selected ink layer. Also, it updates the Hide Layer check box to reflect the selected ink layer's hidden status. Finally, the InkPicture control's inherited [Refresh](https://msdn.microsoft.com/library/2yzc1css(v=VS.90).aspx) method is used to display only the desired layers within the control.
+When the user selects an item in the list box, the [SelectedIndexChanged](/dotnet/api/system.windows.forms.listbox.selectedindexchanged?view=netcore-3.1) event handler first checks that the selection has changed and that the [InkPicture](/previous-versions/ms583740(v=vs.100)) control is not currently collecting ink. It then sets the ink color of the InkPicture control to the appropriate color for the selected ink layer. Also, it updates the Hide Layer check box to reflect the selected ink layer's hidden status. Finally, the InkPicture control's inherited [Refresh](/dotnet/api/system.windows.forms.control.refresh?view=netcore-3.1) method is used to display only the desired layers within the control.
 
 
 ```VB
@@ -279,11 +279,11 @@ private void lstAnnotationLayer_SelectedIndexChanged(object sender, System.Event
 
 ## Changing the Visibility of an Ink Layer
 
-The `CheckedChanged` event handler first checks that the selection has changed and that the [InkPicture](https://msdn.microsoft.com/library/ms583740(v=VS.90).aspx) control is not currently collecting ink. It then updates the selected ink layer's hidden status, sets the InkPicture control's InkEnabled to **FALSE**, .
+The `CheckedChanged` event handler first checks that the selection has changed and that the [InkPicture](/previous-versions/ms583740(v=vs.100)) control is not currently collecting ink. It then updates the selected ink layer's hidden status, sets the InkPicture control's InkEnabled to **FALSE**, .
 
 Next, the InkPicture control's InkEnabled property is set to **FALSE** before updating its Ink property.
 
-Finally, the [InkPicture](https://msdn.microsoft.com/library/ms583740(v=VS.90).aspx) control is either enabled or disabled for the particular vehicle part based on whether the Hide Layer check box is selected, and the InkPicture control's [Refresh](https://msdn.microsoft.com/library/2yzc1css(v=VS.90).aspx) method is used to display only the desired layers within the control.
+Finally, the [InkPicture](/previous-versions/ms583740(v=vs.100)) control is either enabled or disabled for the particular vehicle part based on whether the Hide Layer check box is selected, and the InkPicture control's [Refresh](/dotnet/api/system.windows.forms.control.refresh?view=netcore-3.1) method is used to display only the desired layers within the control.
 
 
 ```VB
@@ -368,13 +368,13 @@ private void chHideLayer_CheckedChanged(object sender, System.EventArgs e)
 
 ## Closing the Form
 
-In the Windows Form Designer generated code, the [InkEdit](https://msdn.microsoft.com/library/ms835842(v=MSDN.10).aspx) and [InkPicture](https://msdn.microsoft.com/library/ms583740(v=VS.90).aspx) controls are added to the form's component list when the form is initialized. When the form closes, the InkEdit and InkPicture controls are disposed, as well as the other components of the form, by the form's [Dispose](https://msdn.microsoft.com/library/ms571303(v=VS.90).aspx) method. The form's Dispose method also disposes the [Ink](https://msdn.microsoft.com/library/ms583670(v=VS.90).aspx) objects that are created for the form.
+In the Windows Form Designer generated code, the [InkEdit](/previous-versions/ms835842(v=msdn.10)) and [InkPicture](/previous-versions/ms583740(v=vs.100)) controls are added to the form's component list when the form is initialized. When the form closes, the InkEdit and InkPicture controls are disposed, as well as the other components of the form, by the form's [Dispose](/previous-versions/dotnet/netframework-3.5/ms571303(v=vs.90)) method. The form's Dispose method also disposes the [Ink](/previous-versions/ms583670(v=vs.100)) objects that are created for the form.
 
 ## Related topics
 
 <dl> <dt>
 
-[Microsoft.Ink.Ink](https://msdn.microsoft.com/library/ms583670(v=VS.90).aspx)
+[Microsoft.Ink.Ink](/previous-versions/ms583670(v=vs.100))
 </dt> <dt>
 
 [InkPicture Control](inkpicture-control.md)
@@ -386,6 +386,3 @@ In the Windows Form Designer generated code, the [InkEdit](https://msdn.microsof
  
 
  
-
-
-

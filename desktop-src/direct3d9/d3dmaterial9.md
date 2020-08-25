@@ -95,7 +95,7 @@ Floating-point value specifying the sharpness of specular highlights. The higher
 
 ## Remarks
 
-To turn off specular highlights, set D3DRS\_SPECULARENABLE to **FALSE**, using [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx). This is the fastest option because no specular highlights will be calculated.
+To turn off specular highlights, set D3DRS\_SPECULARENABLE to **FALSE**, using [**D3DRENDERSTATETYPE**](./d3drenderstatetype.md). This is the fastest option because no specular highlights will be calculated.
 
 For more information about using the lighting engine to calculate specular lighting, see [Specular Lighting (Direct3D 9)](specular-lighting.md).
 
@@ -116,16 +116,12 @@ For more information about using the lighting engine to calculate specular light
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::GetMaterial**](https://msdn.microsoft.com/library/Bb174394(v=VS.85).aspx)
+[**IDirect3DDevice9::GetMaterial**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getmaterial)
 </dt> <dt>
 
-[**IDirect3DDevice9::SetMaterial**](https://msdn.microsoft.com/library/Bb174437(v=VS.85).aspx)
+[**IDirect3DDevice9::SetMaterial**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setmaterial)
 </dt> </dl>
 
  
 
  
-
-
-
-

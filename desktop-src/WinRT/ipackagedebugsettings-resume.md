@@ -51,7 +51,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-Each process receives the [**Resuming**](https://msdn.microsoft.com/library/BR205859(v=Win.10).aspx) event. It can be useful for developers to step through how their apps respond to this event.
+Each process receives the [**Resuming**](/uwp/api/Windows.ApplicationModel.Core.CoreApplication?view=winrt-19041) event. It can be useful for developers to step through how their apps respond to this event.
 
 ## Requirements
 
@@ -69,13 +69,9 @@ Each process receives the [**Resuming**](https://msdn.microsoft.com/library/BR20
 
 <dl> <dt>
 
-[**IPackageDebugSettings**](https://msdn.microsoft.com/library/Hh438393(v=VS.85).aspx)
+[**IPackageDebugSettings**](/previous-versions//hh438393(v=vs.85))
 </dt> </dl>
 
  
 
  
-
-
-
-

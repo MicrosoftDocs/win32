@@ -18,7 +18,7 @@ ms.date: 02/03/2020
 
 # WM_POINTERROUTEDTO message
 
-Sent when ongoing pointer input, for an existing pointer ID, transitions from one process to another across content configured for cross-process chaining ([**AddContentWithCrossProcessChaining**](https://msdn.microsoft.com/library/windows/desktop/mt622455)).
+Sent when ongoing pointer input, for an existing pointer ID, transitions from one process to another across content configured for cross-process chaining ([**AddContentWithCrossProcessChaining**](/windows/win32/api/directmanipulation/nf-directmanipulation-idirectmanipulationcompositor2-addcontentwithcrossprocesschaining)).
 
 This message is sent to the process not currently receiving pointer input.
 
@@ -80,10 +80,4 @@ A [**WM_POINTERDOWN**](wm-pointerdown.md) message is not sent if a **WM_POINTERR
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

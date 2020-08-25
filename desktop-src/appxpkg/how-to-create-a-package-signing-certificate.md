@@ -9,31 +9,31 @@ ms.date: 05/31/2018
 # How to create an app package signing certificate
 
 > [!IMPORTANT]
-> MakeCert.exe is deprecated. For current guidance on creating a certificate, see [Create a certificate for package signing](https://docs.microsoft.com/windows/msix/package/create-certificate-package-signing).
+> MakeCert.exe is deprecated. For current guidance on creating a certificate, see [Create a certificate for package signing](/windows/msix/package/create-certificate-package-signing).
 
  
 
-Learn how to use [**MakeCert.exe**](https://docs.microsoft.com/windows-hardware/drivers/devtest/makecert) and [**Pvk2Pfx.exe**](https://docs.microsoft.com/windows-hardware/drivers/devtest/pvk2pfx) to create a test code signing certificate, so that you can sign your Windows app packages.
+Learn how to use [**MakeCert.exe**](/windows-hardware/drivers/devtest/makecert) and [**Pvk2Pfx.exe**](/windows-hardware/drivers/devtest/pvk2pfx) to create a test code signing certificate, so that you can sign your Windows app packages.
 
-You must digitally sign your packaged Windows apps before you deploy them. If you don't use Microsoft Visual Studio 2012 to create and sign your app packages, you need to create and manage your own code signing certificates. You can create certificates by using [**MakeCert.exe**](https://docs.microsoft.com/windows-hardware/drivers/devtest/makecert) and [**Pvk2Pfx.exe**](https://docs.microsoft.com/windows-hardware/drivers/devtest/pvk2pfx) from the Windows Driver Kit (WDK). Then you can use the certificates to sign the app packages, so they can be deployed locally for testing.
+You must digitally sign your packaged Windows apps before you deploy them. If you don't use Microsoft Visual Studio 2012 to create and sign your app packages, you need to create and manage your own code signing certificates. You can create certificates by using [**MakeCert.exe**](/windows-hardware/drivers/devtest/makecert) and [**Pvk2Pfx.exe**](/windows-hardware/drivers/devtest/pvk2pfx) from the Windows Driver Kit (WDK). Then you can use the certificates to sign the app packages, so they can be deployed locally for testing.
 
 ## What you need to know
 
 ### Technologies
 
--   [Introduction to Code Signing](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85))
--   [App packages and deployment](https://docs.microsoft.com/previous-versions/windows/apps/hh464929(v=win.10))
--   [Tools for Signing Drivers](https://docs.microsoft.com/windows-hardware/drivers/devtest/tools-for-signing-drivers)
+-   [Introduction to Code Signing](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85))
+-   [App packages and deployment](/previous-versions/windows/apps/hh464929(v=win.10))
+-   [Tools for Signing Drivers](/windows-hardware/drivers/devtest/tools-for-signing-drivers)
 
 ### Prerequisites
 
--   [**MakeCert.exe**](https://docs.microsoft.com/windows-hardware/drivers/devtest/makecert) and [**Pvk2Pfx.exe**](https://docs.microsoft.com/windows-hardware/drivers/devtest/pvk2pfx) tools from the WDK
+-   [**MakeCert.exe**](/windows-hardware/drivers/devtest/makecert) and [**Pvk2Pfx.exe**](/windows-hardware/drivers/devtest/pvk2pfx) tools from the WDK
 
 ## Instructions
 
 ### Step 1: Determine the publisher name of the package
 
-To make the signing certificate that you create usable with the app package that you want to sign, the subject name of the signing certificate must match the **Publisher** attribute of the [**Identity**](https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-identity) element in the AppxManifest.xml for that app. For example, suppose the AppxManifest.xml contains:
+To make the signing certificate that you create usable with the app package that you want to sign, the subject name of the signing certificate must match the **Publisher** attribute of the [**Identity**](/uwp/schemas/appxpackage/appxmanifestschema/element-identity) element in the AppxManifest.xml for that app. For example, suppose the AppxManifest.xml contains:
 
 ``` syntax
   <Identity Name="Contoso.AssetTracker" 
@@ -41,25 +41,25 @@ To make the signing certificate that you create usable with the app package that
     Publisher="CN=Contoso Software, O=Contoso Corporation, C=US"/>
 ```
 
-For the *publisherName* parameter that you specify with the [**MakeCert**](https://docs.microsoft.com/windows-hardware/drivers/devtest/makecert) utility in the next step, use "CN=Contoso Software, O=Contoso Corporation, C=US".
+For the *publisherName* parameter that you specify with the [**MakeCert**](/windows-hardware/drivers/devtest/makecert) utility in the next step, use "CN=Contoso Software, O=Contoso Corporation, C=US".
 
 > [!Note]  
 > This parameter string is specified in quotes and is both case and whitespace sensitive.
 
  
 
-The **Publisher** attribute string that is defined for the [**Identity**](https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-identity) element in the AppxManifest.xml must be identical to the string that you specify with the [**MakeCert**](https://docs.microsoft.com/windows-hardware/drivers/devtest/makecert) /n parameter for the certificate subject name. Copy and paste the string where possible.
+The **Publisher** attribute string that is defined for the [**Identity**](/uwp/schemas/appxpackage/appxmanifestschema/element-identity) element in the AppxManifest.xml must be identical to the string that you specify with the [**MakeCert**](/windows-hardware/drivers/devtest/makecert) /n parameter for the certificate subject name. Copy and paste the string where possible.
 
 ### Step 2: Create a private key using MakeCert.exe
 
-Use the [**MakeCert**](https://docs.microsoft.com/windows-hardware/drivers/devtest/makecert) utility to create a self-signed test certificate and private key:
+Use the [**MakeCert**](/windows-hardware/drivers/devtest/makecert) utility to create a self-signed test certificate and private key:
 
 ``` syntax
 MakeCert /n publisherName /r /h 0 /eku "1.3.6.1.5.5.7.3.3,1.3.6.1.4.1.311.10.3.13" /e 
 expirationDate /sv MyKey.pvk MyKey.cer
 ```
 
-This command prompts you to provide a password for the .pvk file. We recommend that you choose a [strong password](https://msdn.microsoft.com/library/Bb499367(v=WinEmbedded.5).aspx) and keep your private key in a secure location.
+This command prompts you to provide a password for the .pvk file. We recommend that you choose a [strong password](/previous-versions/windows/embedded/bb499367(v=winembedded.5)) and keep your private key in a secure location.
 
 We recommend that you use the suggested parameters in the preceding example for these reasons:
 
@@ -101,23 +101,23 @@ Sets the expiration date of the certificate. Provide a value for the *expiration
 
 </dd> </dl>
 
-For more info about other options, see [**MakeCert**](https://docs.microsoft.com/windows-hardware/drivers/devtest/makecert).
+For more info about other options, see [**MakeCert**](/windows-hardware/drivers/devtest/makecert).
 
 ### Step 3: Create a Personal Information Exchange (.pfx) file using Pvk2Pfx.exe
 
-Use the [**Pvk2Pfx**](https://docs.microsoft.com/windows-hardware/drivers/devtest/pvk2pfx) utility to convert the .pvk and .cer files that [**MakeCert**](https://docs.microsoft.com/windows-hardware/drivers/devtest/makecert) created to a .pfx file that you can use with [SignTool](https://docs.microsoft.com/windows/desktop/SecCrypto/signtool) to sign an app package:
+Use the [**Pvk2Pfx**](/windows-hardware/drivers/devtest/pvk2pfx) utility to convert the .pvk and .cer files that [**MakeCert**](/windows-hardware/drivers/devtest/makecert) created to a .pfx file that you can use with [SignTool](/windows/desktop/SecCrypto/signtool) to sign an app package:
 
 ``` syntax
 Pvk2Pfx /pvk MyKey.pvk /pi pvkPassword /spc MyKey.cer /pfx MyKey.pfx [/po pfxPassword]
 ```
 
-The *MyKey.pvk* and *MyKey.cer* files are the same files that [**MakeCert.exe**](https://docs.microsoft.com/windows-hardware/drivers/devtest/makecert) created in the previous step. By using the optional /po parameter, you can specify a different password for the resulting .pfx; otherwise, the .pfx has the same password as *MyKey.pvk*.
+The *MyKey.pvk* and *MyKey.cer* files are the same files that [**MakeCert.exe**](/windows-hardware/drivers/devtest/makecert) created in the previous step. By using the optional /po parameter, you can specify a different password for the resulting .pfx; otherwise, the .pfx has the same password as *MyKey.pvk*.
 
-For more info about other options, see [**Pvk2Pfx**](https://docs.microsoft.com/windows-hardware/drivers/devtest/pvk2pfx).
+For more info about other options, see [**Pvk2Pfx**](/windows-hardware/drivers/devtest/pvk2pfx).
 
 ## Remarks
 
-After you create the .pfx file, you can use the file with [SignTool](https://docs.microsoft.com/windows/desktop/SecCrypto/signtool) to sign an app package. For more info, see [How to sign an app package using SignTool](how-to-sign-a-package-using-signtool.md). But the certificate is still not trusted by the local computer for deployment of app packages until you install it into the trusted certificates store of the local computer. You can use [Certutil.exe](https://msdn.microsoft.com/library/Cc732443(v=WS.10).aspx), which comes with Windows.
+After you create the .pfx file, you can use the file with [SignTool](/windows/desktop/SecCrypto/signtool) to sign an app package. For more info, see [How to sign an app package using SignTool](how-to-sign-a-package-using-signtool.md). But the certificate is still not trusted by the local computer for deployment of app packages until you install it into the trusted certificates store of the local computer. You can use [Certutil.exe](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732443(v=ws.10)), which comes with Windows.
 
 **To install certificates with WindowsCertutil.exe**
 
@@ -142,7 +142,7 @@ Certutil -store TrustedPeople
 
 ## Security Considerations
 
-By adding a certificate to [local machine certificate stores](https://docs.microsoft.com/windows-hardware/drivers/install/local-machine-and-current-user-certificate-stores), you affect the certificate trust of all users on the computer. We recommend that you install any code signing certificates that you want for testing app packages to the Trusted People certificate store. Promptly remove those certificates when they are no longer necessary, to prevent them from being used to compromise system trust.
+By adding a certificate to [local machine certificate stores](/windows-hardware/drivers/install/local-machine-and-current-user-certificate-stores), you affect the certificate trust of all users on the computer. We recommend that you install any code signing certificates that you want for testing app packages to the Trusted People certificate store. Promptly remove those certificates when they are no longer necessary, to prevent them from being used to compromise system trust.
 
 ## Related topics
 
@@ -157,19 +157,15 @@ By adding a certificate to [local machine certificate stores](https://docs.micro
 **Concepts**
 </dt> <dt>
 
-[Code-Signing Best Practices](https://msdn.microsoft.com/windows/hardware/gg487309.aspx)
+[Code-Signing Best Practices](/previous-versions/windows/hardware/design/dn653556(v=vs.85))
 </dt> <dt>
 
 [How to sign an app package using SignTool](how-to-sign-a-package-using-signtool.md)
 </dt> <dt>
 
-[Signing an app package](https://msdn.microsoft.com/library/BR230260(v=VS.110).aspx)
+[Signing an app package](/previous-versions/br230260(v=vs.110))
 </dt> </dl>
 
  
 
  
-
-
-
-

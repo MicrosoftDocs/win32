@@ -41,7 +41,7 @@ You can use the following general-use APIs to access NVMe drives in Windows 10.
 -   [**IOCTL\_STORAGE\_QUERY\_PROPERTY**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property) : Use this IOCTL with the **STORAGE\_PROPERTY\_QUERY** structure to retrieve device information. For more info, see [Protocol-specific queries](#protocol-specific-queries) and [Temperature queries](#temperature-queries).
 
 -   [**STORAGE\_PROPERTY\_QUERY**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_property_query) : This structure includes the **PropertyId** and **AdditionalParameters** fields to specify the data to be queried. In the **PropertyId** filed, use the **STORAGE\_PROPERTY\_ID** enumeration to specify the type of data. Use the **AdditionalParameters** field to specify more details, depending on the type of data. For protocol-specific data, use the **STORAGE\_PROTOCOL\_SPECIFIC\_DATA** structure in the **AdditionalParameters** field. For temperature data, use the **STORAGE\_TEMPERATURE\_INFO** structure in the **AdditionalParameters** field.
--   [**STORAGE\_PROPERTY\_ID**](https://msdn.microsoft.com/library/Ff800839(v=VS.85).aspx) : This enumeration includes new values that allow **IOCTL\_STORAGE\_QUERY\_PROPERTY** to retrieve protocol-specific and temperature information.
+-   [**STORAGE\_PROPERTY\_ID**](/windows/win32/api/winioctl/ne-winioctl-storage_property_id) : This enumeration includes new values that allow **IOCTL\_STORAGE\_QUERY\_PROPERTY** to retrieve protocol-specific and temperature information.
 
     -   **StorageAdapterProtocolSpecificProperty**
     -   **StorageDeviceProtocolSpecificProperty**
@@ -120,7 +120,7 @@ For example, in NVMe, the IOCTL will allow the sending down of the following com
 -   Vendor Specific Admin Commands (C0h – FFh)
 -   Vendor Specific NVMe Commands (80h – FFh)
 
-As with all other IOCTLs, Use [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) to send the pass-through IOCTL down. The IOCTL is populated using the [**STORAGE\_PROTOCOL\_COMMAND**](/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_command) input-buffer structure found in **ntddstor.h**. Populate the **Command** field with the vendor-specific command.
+As with all other IOCTLs, Use [**DeviceIoControl**](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) to send the pass-through IOCTL down. The IOCTL is populated using the [**STORAGE\_PROTOCOL\_COMMAND**](/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_command) input-buffer structure found in **ntddstor.h**. Populate the **Command** field with the vendor-specific command.
 
 
 ```C++
@@ -161,7 +161,7 @@ typedef struct _STORAGE_PROTOCOL_COMMAND {
 
 The vendor specific command desired to be sent should be populated in the highlighted field above. Note again that the Command Effects Log must be implemented for pass-through commands. In particular, these commands need to be reported as supported in the Command Effects Log (see previous section for more information). Also note that PRP fields are driver specific thus applications sending commands can leave them as 0.
 
-Finally, this pass-through IOCTL is intended for sending vendor-specific commands. To send other admin or non-vendor specific NVMe commands such as Identify, this pass-through IOCTL should not be used. For example, **IOCTL\_STORAGE\_QUERY\_PROPERTY** should be used for Identify or Get Log Pages. For more info, see the next section, [Protocol-specific queries](https://docs.microsoft.com/windows).
+Finally, this pass-through IOCTL is intended for sending vendor-specific commands. To send other admin or non-vendor specific NVMe commands such as Identify, this pass-through IOCTL should not be used. For example, **IOCTL\_STORAGE\_QUERY\_PROPERTY** should be used for Identify or Get Log Pages. For more info, see the next section, [Protocol-specific queries](/windows).
 
 ### Don't update firmware through the pass-through mechanism
 
@@ -181,7 +181,7 @@ For getting storage information and updating firmware, Windows also supports Pow
 -   `Update-StorageFirmware `
 
 > [!Note]  
-> To update firmware on NVMe in Windows 8.1, use IOCTL\_SCSI\_MINIPORT\_FIRMWARE. This IOCTL was not backported to Windows 7. For more information, see [Upgrading Firmware for an NVMe Device in Windows 8.1](https://docs.microsoft.com/windows-hardware/drivers/storage/upgrading-firmware-for-an-nvme-device).
+> To update firmware on NVMe in Windows 8.1, use IOCTL\_SCSI\_MINIPORT\_FIRMWARE. This IOCTL was not backported to Windows 7. For more information, see [Upgrading Firmware for an NVMe Device in Windows 8.1](/windows-hardware/drivers/storage/upgrading-firmware-for-an-nvme-device).
 
  
 
@@ -670,6 +670,3 @@ The following files are relevant to NVMe development. These files are included w
  
 
  
-
-
-

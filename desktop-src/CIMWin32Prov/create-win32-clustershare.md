@@ -142,7 +142,7 @@ TBD
 *Access* \[in, optional\]
 </dt> <dd>
 
-Optional embedded instance of a [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) class that contains the security descriptor for the new share.
+Optional embedded instance of a [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) class that contains the security descriptor for the new share.
 
 </dd> </dl>
 
@@ -168,9 +168,4 @@ Optional embedded instance of a [**Win32\_SecurityDescriptor**](https://docs.mic
 </dt> </dl>
 
  
-
- 
-
-
-
 

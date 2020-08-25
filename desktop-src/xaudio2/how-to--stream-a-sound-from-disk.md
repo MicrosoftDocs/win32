@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # How to: Stream a Sound from Disk
 
 > [!Note]  
-> This content applies only to desktop apps and will require revision to function in a Windows Store app. Please refer to the documentation for **CreateFile2**, [CreateEventEx](https://msdn.microsoft.com/library/ms682400(VS.85).aspx), [WaitForSingleObjectEx](https://msdn.microsoft.com/library/ms687036(VS.85).aspx), [SetFilePointerEx](https://msdn.microsoft.com/library/aa365542(VS.85).aspx), and **GetOverlappedResultEx**. See the StreamEffect Windows 8 sample from the [Windows SDK Samples Gallery](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/XAudio2%20audio%20stream%20effect%20sample%20(Windows%208)).
+> This content applies only to desktop apps and will require revision to function in a Windows Store app. Please refer to the documentation for **CreateFile2**, [CreateEventEx](/windows/win32/api/synchapi/nf-synchapi-createeventexa), [WaitForSingleObjectEx](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex), [SetFilePointerEx](/windows/win32/api/fileapi/nf-fileapi-setfilepointerex), and **GetOverlappedResultEx**. See the StreamEffect Windows 8 sample from the [Windows SDK Samples Gallery](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/XAudio2%20audio%20stream%20effect%20sample%20(Windows%208)).
 
  
 
@@ -43,7 +43,7 @@ To perform buffer reads in the streaming thread follow these steps:
 
     
 
-3.  Call the [**Start**](https://msdn.microsoft.com/library/Ee418471(v=VS.85).aspx) function on the [**source voice**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice) that will be playing the streaming audio.
+3.  Call the [**Start**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-start) function on the [**source voice**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice) that will be playing the streaming audio.
 
     ```
     hr = pSourceVoice->Start( 0, 0 );
@@ -95,7 +95,7 @@ To perform buffer reads in the streaming thread follow these steps:
 
     3.  Wait for the number of buffers queued on the [**source voice**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice) to be less than the number of read buffers.
 
-        The state of the [**source voice**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice) is checked with the [**GetState**](https://msdn.microsoft.com/library/Hh405047(v=VS.85).aspx) function.
+        The state of the [**source voice**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice) is checked with the [**GetState**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-getstate) function.
 
         ```
         XAUDIO2_VOICE_STATE state;
@@ -107,7 +107,7 @@ To perform buffer reads in the streaming thread follow these steps:
 
         
 
-    4.  Submit the current read buffer to the [**source voice**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice) using the [**SubmitSourceBuffer**](https://msdn.microsoft.com/library/Ee418473(v=VS.85).aspx) function.
+    4.  Submit the current read buffer to the [**source voice**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice) using the [**SubmitSourceBuffer**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-submitsourcebuffer) function.
 
         ```
         XAUDIO2_BUFFER buf = {0};
@@ -149,7 +149,7 @@ To perform buffer reads in the streaming thread follow these steps:
 
 To create the callback class, create a class that inherits from the [**IXAudio2VoiceCallback**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voicecallback) interface.
 
-The class should set an event in its [**OnBufferEnd**](https://msdn.microsoft.com/library/Ee418474(v=VS.85).aspx) method. This allows the streaming thread to put itself to sleep until the event signals it that XAudio2 has finished reading from an audio buffer. For more information about using callbacks with XAudio2, see [How to: Use Source Voice Callbacks](how-to--use-source-voice-callbacks.md).
+The class should set an event in its [**OnBufferEnd**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferend) method. This allows the streaming thread to put itself to sleep until the event signals it that XAudio2 has finished reading from an audio buffer. For more information about using callbacks with XAudio2, see [How to: Use Source Voice Callbacks](how-to--use-source-voice-callbacks.md).
 
 
 ```
@@ -187,6 +187,3 @@ struct StreamingVoiceContext : public IXAudio2VoiceCallback
  
 
  
-
-
-

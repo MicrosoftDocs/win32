@@ -52,7 +52,7 @@ Key names are not case sensitive.
 
 If this parameter is **NULL** or a pointer to an empty string, the function returns the same handle that was passed in. If the key specified by the *Handle* parameter is the root key of the hive, the function returns ERROR\_INVALID\_PARAMETER.
 
-For more information, see [Registry Element Size Limits](https://msdn.microsoft.com/library/ms724872.aspx).
+For more information, see [Registry Element Size Limits](../sysinfo/registry-element-size-limits.md).
 
 </dd> <dt>
 
@@ -67,7 +67,7 @@ A pointer to a variable that receives a handle to the opened key. Use the [**ORC
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](https://msdn.microsoft.com/library/ms679351.aspx) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
+If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](/windows/win32/api/winbase/nf-winbase-formatmessage) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
 
 If the handle to be returned would be a handle to the root key of the hive, the function returns ERROR\_INVALID\_PARAMETER.
 
@@ -108,7 +108,3 @@ The **OROpenKey** function cannot be used to open the root key in an offline reg
  
 
  
-
-
-
-

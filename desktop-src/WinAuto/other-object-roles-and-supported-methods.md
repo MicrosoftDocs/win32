@@ -21,20 +21,20 @@ The following table lists additional object roles which Oleacc.dll supports.
 
 |                                                                         |                                                           |
 |-------------------------------------------------------------------------|-----------------------------------------------------------|
-| [**ROLE\_SYSTEM\_ALERT**](https://docs.microsoft.com/windows)                           | [**ROLE\_SYSTEM\_DROPLIST**](https://docs.microsoft.com/windows)       |
-| [**ROLE\_SYSTEM\_APPLICATION**](https://docs.microsoft.com/windows)               | [**ROLE\_SYSTEM\_EQUATION**](https://docs.microsoft.com/windows)       |
-| [**ROLE\_SYSTEM\_BORDER**](https://docs.microsoft.com/windows)                         | [**ROLE\_SYSTEM\_GRAPHIC**](https://docs.microsoft.com/windows)         |
-| [**ROLE\_SYSTEM\_BUTTONDROPDOWN**](https://docs.microsoft.com/windows)         | [**ROLE\_SYSTEM\_HELPBALLOON**](https://docs.microsoft.com/windows) |
-| [**ROLE\_SYSTEM\_BUTTONDROPDOWNGRID**](https://docs.microsoft.com/windows) | [**ROLE\_SYSTEM\_IPADDRESS**](https://docs.microsoft.com/windows)     |
-| [**ROLE\_SYSTEM\_BUTTONMENU**](https://docs.microsoft.com/windows)                 | [**ROLE\_SYSTEM\_LINK**](https://docs.microsoft.com/windows)               |
-| [**ROLE\_SYSTEM\_CELL**](https://docs.microsoft.com/windows)                             | [**ROLE\_SYSTEM\_PANE**](https://docs.microsoft.com/windows)               |
-| [**ROLE\_SYSTEM\_CHARACTER**](https://docs.microsoft.com/windows)                   | [**ROLE\_SYSTEM\_ROW**](https://docs.microsoft.com/windows)                 |
-| [**ROLE\_SYSTEM\_CHART**](https://docs.microsoft.com/windows)                           | [**ROLE\_SYSTEM\_ROWHEADER**](https://docs.microsoft.com/windows)     |
-| [**ROLE\_SYSTEM\_CLOCK**](https://docs.microsoft.com/windows)                           | [**ROLE\_SYSTEM\_SEPARATOR**](https://docs.microsoft.com/windows)     |
-| [**ROLE\_SYSTEM\_COLUMN**](https://docs.microsoft.com/windows)                         | [**ROLE\_SYSTEM\_SOUND**](https://docs.microsoft.com/windows)             |
-| [**ROLE\_SYSTEM\_DIAGRAM**](https://docs.microsoft.com/windows)                       | [**ROLE\_SYSTEM\_SPLITBUTTON**](https://docs.microsoft.com/windows) |
-| [**ROLE\_SYSTEM\_DIAL**](https://docs.microsoft.com/windows)                             | [**ROLE\_SYSTEM\_TABLE**](https://docs.microsoft.com/windows)             |
-| [**ROLE\_SYSTEM\_DOCUMENT**](https://docs.microsoft.com/windows)                     | [**ROLE\_SYSTEM\_WHITESPACE**](https://docs.microsoft.com/windows)   |
+| [**ROLE\_SYSTEM\_ALERT**](/windows)                           | [**ROLE\_SYSTEM\_DROPLIST**](/windows)       |
+| [**ROLE\_SYSTEM\_APPLICATION**](/windows)               | [**ROLE\_SYSTEM\_EQUATION**](/windows)       |
+| [**ROLE\_SYSTEM\_BORDER**](/windows)                         | [**ROLE\_SYSTEM\_GRAPHIC**](/windows)         |
+| [**ROLE\_SYSTEM\_BUTTONDROPDOWN**](/windows)         | [**ROLE\_SYSTEM\_HELPBALLOON**](/windows) |
+| [**ROLE\_SYSTEM\_BUTTONDROPDOWNGRID**](/windows) | [**ROLE\_SYSTEM\_IPADDRESS**](/windows)     |
+| [**ROLE\_SYSTEM\_BUTTONMENU**](/windows)                 | [**ROLE\_SYSTEM\_LINK**](/windows)               |
+| [**ROLE\_SYSTEM\_CELL**](/windows)                             | [**ROLE\_SYSTEM\_PANE**](/windows)               |
+| [**ROLE\_SYSTEM\_CHARACTER**](/windows)                   | [**ROLE\_SYSTEM\_ROW**](/windows)                 |
+| [**ROLE\_SYSTEM\_CHART**](/windows)                           | [**ROLE\_SYSTEM\_ROWHEADER**](/windows)     |
+| [**ROLE\_SYSTEM\_CLOCK**](/windows)                           | [**ROLE\_SYSTEM\_SEPARATOR**](/windows)     |
+| [**ROLE\_SYSTEM\_COLUMN**](/windows)                         | [**ROLE\_SYSTEM\_SOUND**](/windows)             |
+| [**ROLE\_SYSTEM\_DIAGRAM**](/windows)                       | [**ROLE\_SYSTEM\_SPLITBUTTON**](/windows) |
+| [**ROLE\_SYSTEM\_DIAL**](/windows)                             | [**ROLE\_SYSTEM\_TABLE**](/windows)             |
+| [**ROLE\_SYSTEM\_DOCUMENT**](/windows)                     | [**ROLE\_SYSTEM\_WHITESPACE**](/windows)   |
 
 
 
@@ -562,7 +562,3 @@ For more information on this role, see [**ROLE\_SYSTEM\_WHITESPACE**](object-rol
  
 
  
-
-
-
-

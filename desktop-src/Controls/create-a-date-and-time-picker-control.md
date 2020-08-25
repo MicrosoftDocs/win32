@@ -41,9 +41,9 @@ Register the window class by calling the [**InitCommonControlsEx**](/windows/des
 
 ### Step 2:
 
-To create the DTP control, use the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function. Specify [**DATETIMEPICK\_CLASS**](common-control-window-classes.md) as the window class, and pass the handle to the parent dialog box.
+To create the DTP control, use the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function. Specify [**DATETIMEPICK\_CLASS**](common-control-window-classes.md) as the window class, and pass the handle to the parent dialog box.
 
-The following C++ code example uses the [**CreateDialog**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdialoga) function to create a modeless dialog box. It then calls **CreateWindowEx** to create the DTP control.
+The following C++ code example uses the [**CreateDialog**](/windows/desktop/api/winuser/nf-winuser-createdialoga) function to create a modeless dialog box. It then calls **CreateWindowEx** to create the DTP control.
 
 
 ```C++
@@ -128,7 +128,3 @@ HWND WINAPI CreateDatePick(HWND hwndMain)
  
 
  
-
-
-
-

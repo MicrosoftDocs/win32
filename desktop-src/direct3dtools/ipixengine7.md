@@ -26,7 +26,7 @@ Extensions to the IPixEngine6 interface containing additions around versioning.
 
 ## Members
 
-The **IPixEngine7** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixEngine7** also has these types of members:
+The **IPixEngine7** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixEngine7** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IPixEngine7** interface has these methods.
  
 
  
-
-
-

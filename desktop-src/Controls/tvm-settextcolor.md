@@ -30,7 +30,7 @@ Sets the text color of the control. You can send this message explicitly or by u
 *lParam* 
 </dt> <dd>
 
-[**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value that contains the new text color. If this argument is -1, the control will revert to using the system color for the text color.
+[**COLORREF**](/windows/desktop/gdi/colorref) value that contains the new text color. If this argument is -1, the control will revert to using the system color for the text color.
 
 </dd> </dl>
 
@@ -58,10 +58,4 @@ Returns a **COLORREF** value that represents the previous text color. If this va
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

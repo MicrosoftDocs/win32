@@ -51,7 +51,7 @@ Type: **DWORD**
 
 </dd> <dd>
 
-The help context identifier for the control. When the system sends a [**WM\_HELP**](https://msdn.microsoft.com/library/Bb774305(v=VS.85).aspx) message, it passes the **helpID** value in the **dwContextId** member of the [**HELPINFO**](https://msdn.microsoft.com/library/Bb773313(v=VS.85).aspx) structure.
+The help context identifier for the control. When the system sends a [**WM\_HELP**](../shell/wm-help.md) message, it passes the **helpID** value in the **dwContextId** member of the [**HELPINFO**](/windows/win32/api/winuser/ns-winuser-helpinfo) structure.
 
 </dd> <dt>
 
@@ -62,7 +62,7 @@ Type: **DWORD**
 
 </dd> <dd>
 
-The extended styles for a window. This member is not used to create controls in dialog boxes, but applications that use dialog box templates can use it to create other types of windows. For a list of values, see [**Extended Window Styles**](https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles).
+The extended styles for a window. This member is not used to create controls in dialog boxes, but applications that use dialog box templates can use it to create other types of windows. For a list of values, see [**Extended Window Styles**](/windows/desktop/winmsg/extended-window-styles).
 
 </dd> <dt>
 
@@ -73,7 +73,7 @@ Type: **DWORD**
 
 </dd> <dd>
 
-The style of the control. This member can be a combination of [window style values](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) (such as **WS\_BORDER**) and one or more of the [control style values](https://docs.microsoft.com/windows/desktop/Controls/common-control-styles) (such as **BS\_PUSHBUTTON** and **ES\_LEFT**).
+The style of the control. This member can be a combination of [window style values](/windows/desktop/winmsg/window-styles) (such as **WS\_BORDER**) and one or more of the [control style values](/windows/desktop/Controls/common-control-styles) (such as **BS\_PUSHBUTTON** and **ES\_LEFT**).
 
 </dd> <dt>
 
@@ -178,7 +178,7 @@ Type: **WORD**
 
 </dd> <dd>
 
-The number of bytes of creation data that follow this member. If this value is greater than zero, the creation data begins at the next **WORD** boundary. This creation data can be of any size and format. The control's window procedure must be able to interpret the data. When the system creates the control, it passes a pointer to this data in the *lParam* parameter of the [**WM\_CREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-create) message that it sends to the control.
+The number of bytes of creation data that follow this member. If this value is greater than zero, the creation data begins at the next **WORD** boundary. This creation data can be of any size and format. The control's window procedure must be able to interpret the data. When the system creates the control, it passes a pointer to this data in the *lParam* parameter of the [**WM\_CREATE**](/windows/desktop/winmsg/wm-create) message that it sends to the control.
 
 </dd> </dl>
 
@@ -188,7 +188,7 @@ An extended template for a dialog box consists of a [**DLGTEMPLATEEX**](dlgtempl
 
 Each **DLGITEMTEMPLATEEX** structure must be aligned on a **DWORD** boundary. The variable-length **windowClass** and **title** arrays must be aligned on **WORD** boundaries. The creation data array, if any, must be aligned on a **WORD** boundary.
 
-If you specify character strings in the **windowClass** and **title** arrays, you must use Unicode strings. Use the [**MultiByteToWideChar**](https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar) function to generate Unicode strings from ANSI strings.
+If you specify character strings in the **windowClass** and **title** arrays, you must use Unicode strings. Use the [**MultiByteToWideChar**](/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar) function to generate Unicode strings from ANSI strings.
 
 The **x**, **y**, **cx**, and **cy** members specify values in dialog box units. You can convert these values to screen units (pixels) by using the [**MapDialogRect**](/windows/desktop/api/Winuser/nf-winuser-mapdialogrect) function.
 
@@ -216,7 +216,7 @@ The **x**, **y**, **cx**, and **cy** members specify values in dialog box units.
 [**CreateDialogIndirectParam**](/windows/desktop/api/Winuser/nf-winuser-createdialogindirectparama)
 </dt> <dt>
 
-[**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa)
+[**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa)
 </dt> <dt>
 
 [**DialogBoxIndirect**](/windows/desktop/api/Winuser/nf-winuser-dialogboxindirecta)
@@ -231,7 +231,7 @@ The **x**, **y**, **cx**, and **cy** members specify values in dialog box units.
 [**MapDialogRect**](/windows/desktop/api/Winuser/nf-winuser-mapdialogrect)
 </dt> <dt>
 
-[**WM\_CREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-create)
+[**WM\_CREATE**](/windows/desktop/winmsg/wm-create)
 </dt> <dt>
 
 **Conceptual**
@@ -243,17 +243,11 @@ The **x**, **y**, **cx**, and **cy** members specify values in dialog box units.
 **Other Resources**
 </dt> <dt>
 
-[**MultiByteToWideChar**](https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar)
+[**MultiByteToWideChar**](/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar)
 </dt> <dt>
 
-[**WM\_HELP**](https://msdn.microsoft.com/library/Bb774305(v=VS.85).aspx)
+[**WM\_HELP**](../shell/wm-help.md)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -44,7 +44,7 @@ Pointer to the central access policy to be freed.
 
 If the function succeeds, the function returns **TRUE**.
 
-If the function is unable to perform the evaluation, it returns **FALSE**. Use [**SetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) to return an error to the access check function.
+If the function is unable to perform the evaluation, it returns **FALSE**. Use [**SetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) to return an error to the access check function.
 
 ## See also
 
@@ -59,6 +59,3 @@ If the function is unable to perform the evaluation, it returns **FALSE**. Use [
  
 
  
-
-
-

@@ -17,11 +17,11 @@ ms.date: 05/31/2018
 # Starting a Single Timer Event
 
 > [!Note]  
-> This topic describes an obsolete function. New applications should use the [**CreateTimerQueueTimer**](https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) function to create timers.
+> This topic describes an obsolete function. New applications should use the [**CreateTimerQueueTimer**](/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) function to create timers.
 
  
 
-To start a single timer event, call the [**timeSetEvent**](https://msdn.microsoft.com/library/Dd757634(v=VS.85).aspx) function, specifying the amount of time before the callback occurs, the resolution, the address of the callback function (see [**TimeProc**](https://msdn.microsoft.com/library/Dd757631(v=VS.85).aspx)), and the user data to supply with the callback function. An application can use a function like the following to start a single timer event.
+To start a single timer event, call the [**timeSetEvent**](/previous-versions//dd757634(v=vs.85)) function, specifying the amount of time before the callback occurs, the resolution, the address of the callback function (see [**TimeProc**](/previous-versions//dd757631(v=vs.85))), and the user data to supply with the callback function. An application can use a function like the following to start a single timer event.
 
 
 ```C++
@@ -56,7 +56,3 @@ For an example of the callback function OneShotCallback, see [Writing a Timer Ca
  
 
  
-
-
-
-

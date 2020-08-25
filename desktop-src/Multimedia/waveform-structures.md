@@ -14,14 +14,14 @@ ms.date: 05/31/2018
 
 # Waveform Structures
 
--   [**PCMWAVEFORMAT**](https://msdn.microsoft.com/library/Dd743663(v=VS.85).aspx)
+-   [**PCMWAVEFORMAT**](/windows/win32/api/mmreg/ns-mmreg-pcmwaveformat)
 -   [**WAVEFILTER**](/windows/desktop/api/Mmreg/ns-mmreg-wavefilter)
 -   [**WAVEFORMAT**](/windows/win32/api/mmreg/ns-mmreg-waveformat)
--   [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd757713(v=VS.85).aspx)
--   [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/library/Dd757714(v=VS.85).aspx)
--   [**WAVEHDR**](https://msdn.microsoft.com/library/Dd743837(v=VS.85).aspx)
--   [**WAVEINCAPS**](https://msdn.microsoft.com/library/Dd743839(v=VS.85).aspx)
--   [**WAVEOUTCAPS**](https://msdn.microsoft.com/library/Dd743855(v=VS.85).aspx)
+-   [**WAVEFORMATEX**](/windows/win32/api/mmeapi/ns-mmeapi-waveformatex)
+-   [**WAVEFORMATEXTENSIBLE**](/windows/win32/api/mmreg/ns-mmreg-waveformatextensible)
+-   [**WAVEHDR**](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr)
+-   [**WAVEINCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-waveincaps)
+-   [**WAVEOUTCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-waveoutcaps)
 
 ## Related topics
 
@@ -33,7 +33,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

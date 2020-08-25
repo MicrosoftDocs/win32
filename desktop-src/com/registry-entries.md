@@ -20,13 +20,9 @@ As of Windows Server 2003, COM uses only the current process token to decide wh
 
 <dl> <dt>
 
-[Registry](https://docs.microsoft.com/windows/desktop/SysInfo/registry)
+[Registry](/windows/desktop/SysInfo/registry)
 </dt> </dl>
 
  
 
  
-
-
-
-

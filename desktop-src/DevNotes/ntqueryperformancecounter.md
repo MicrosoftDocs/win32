@@ -57,7 +57,7 @@ If the function succeeds, it returns the **NTSTATUS** code **STATUS\_SUCCESS**; 
 
 ## Remarks
 
-No header file is available for **NtQueryPerformanceCounter**. You should use the alternative functions named above, although you can also use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Ntdll.dll.
+No header file is available for **NtQueryPerformanceCounter**. You should use the alternative functions named above, although you can also use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Ntdll.dll.
 
 Performance frequency is the frequency of the performance counter in hertz, specifically in counts per second. This value is implementation dependent. If the implementation does not have hardware to support performance timing, the value returned is 0.
 
@@ -75,16 +75,12 @@ Performance frequency is the frequency of the performance counter in hertz, spec
 
 <dl> <dt>
 
-[**QueryPerformanceCounter**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx)
+[**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)
 </dt> <dt>
 
-[**QueryPerformanceFrequency**](https://msdn.microsoft.com/library/ms644905(v=VS.85).aspx)
+[**QueryPerformanceFrequency**](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency)
 </dt> </dl>
 
  
 
  
-
-
-
-

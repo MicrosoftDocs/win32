@@ -19,13 +19,13 @@ ms.date: 05/31/2018
 
 # IVMVirtualMachine interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Defines the interface for a virtual machine. **IVMVirtualMachine** can notify clients about events using the [**IVMVirtualMachineEvents**](ivmvirtualmachineevents.md) outgoing interface. **IVMVirtualMachine** objects are returned from [**IVMVirtualPC**](ivmvirtualpc.md) methods such as [**CreateVirtualMachine**](ivmvirtualpc-createvirtualmachine.md), [**RegisterVirtualMachine**](ivmvirtualpc-registervirtualmachine.md), and [**FindVirtualMachine**](ivmvirtualpc-findvirtualmachine.md). You can also retrieve an **IVMVirtualMachine** object from the [**IVMVirtualMachineCollection**](ivmvirtualmachinecollection.md) object returned from the [**IVMVirtualPC::VirtualMachines**](ivmvirtualpc-virtualmachines.md) property.
 
 ## Members
 
-The **IVMVirtualMachine** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMVirtualMachine** also has these types of members:
+The **IVMVirtualMachine** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **IVMVirtualMachine** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -130,10 +130,4 @@ The **IVMVirtualMachine** interface has these properties.
 
 
  
-
- 
-
-
-
-
 

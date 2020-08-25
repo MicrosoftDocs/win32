@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Installing as a Service Application
 
-In addition to running as a local server executable (EXE), a COM object may also package itself to run as a service application when activated by a local or remote client. Services support numerous useful and user interfaceâ€“integrated administrative features, including local and remote starting, stopping, pausing, and restarting, as well as the ability to establish the server to run under a specific [user account](https://docs.microsoft.com/windows/desktop/Services/service-user-accounts) and [window station](https://docs.microsoft.com/windows/desktop/winstation/window-stations).
+In addition to running as a local server executable (EXE), a COM object may also package itself to run as a service application when activated by a local or remote client. Services support numerous useful and user interfaceâ€“integrated administrative features, including local and remote starting, stopping, pausing, and restarting, as well as the ability to establish the server to run under a specific [user account](/windows/desktop/Services/service-user-accounts) and [window station](/windows/desktop/winstation/window-stations).
 
 An object written as a service is installed for use by COM by establishing a [LocalService](localservice.md) value under its [AppID](appid-key.md) key and performing a standard service installation.
 
@@ -41,7 +41,3 @@ A server registered either with **LocalService** or **RunAs** can register an ob
  
 
  
-
-
-
-

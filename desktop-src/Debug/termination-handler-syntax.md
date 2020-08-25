@@ -32,7 +32,7 @@ As with the exception handler, both the **\_\_try** block and the **\_\_finally*
 
 The **\_\_try** block contains the guarded body of code that is protected by the termination handler. A function can have any number of termination handlers, and these termination-handling blocks can be nested within the same function or in different functions.
 
-The **\_\_finally** block is executed whenever the flow of control leaves the **\_\_try** block. However, the **\_\_finally** block is not executed if you call any of the following functions within the **\_\_try** block: [**ExitProcess**](https://msdn.microsoft.com/library/ms682658(v=VS.85).aspx), [**ExitThread**](https://msdn.microsoft.com/library/ms682659(v=VS.85).aspx), or **abort**.
+The **\_\_finally** block is executed whenever the flow of control leaves the **\_\_try** block. However, the **\_\_finally** block is not executed if you call any of the following functions within the **\_\_try** block: [**ExitProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitprocess), [**ExitThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitthread), or **abort**.
 
 The **\_\_finally** block is executed in the context of the function in which the termination handler is located. This means that the **\_\_finally** block can access that function's local variables. Execution of the **\_\_finally** block can terminate by any of the following means.
 
@@ -51,6 +51,3 @@ If execution of the **\_\_finally** block terminates because of the **return** c
  
 
  
-
-
-

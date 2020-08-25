@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Testing Whether Running on a Domain Controller
 
-The following code uses the [**VerifyVersionInfo**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa) function to determine whether the calling process is running on a Windows 2000 Server domain controller. Your service installation program could use this test before installing a service under the LocalSystem account. If the test indicates that you are running on a domain controller, you either install the service to run under a user account, or display a dialog box warning of the dangers in running as LocalSystem on a domain controller (which are that the service would then have unrestricted access to Active Directory Domain Services, a supremely powerful security context that has the potential to damage the entire network).
+The following code uses the [**VerifyVersionInfo**](/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa) function to determine whether the calling process is running on a Windows 2000 Server domain controller. Your service installation program could use this test before installing a service under the LocalSystem account. If the test indicates that you are running on a domain controller, you either install the service to run under a user account, or display a dialog box warning of the dangers in running as LocalSystem on a domain controller (which are that the service would then have unrestricted access to Active Directory Domain Services, a supremely powerful security context that has the potential to damage the entire network).
 
 
 ```C++
@@ -43,7 +43,3 @@ BOOL Is_Win2000_DomainController ()
  
 
  
-
-
-
-

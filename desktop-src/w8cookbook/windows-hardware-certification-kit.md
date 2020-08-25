@@ -41,13 +41,9 @@ Before you can test any hardware or filter driver, you must set up the proper te
 ## Resources
 
 -   [Windows Hardware Development](https://msdn.microsoft.com/windows/hardware/)
--   [Windows Hardware Certification Program](https://msdn.microsoft.com/library/windows/hardware/gg463010)
--   [Start Developing Hardware for Windows](https://msdn.microsoft.com/library/windows/hardware/gg507680)
+-   [Windows Hardware Certification Program](/previous-versions/windows/hardware/hck/jj124227(v=vs.85))
+-   [Start Developing Hardware for Windows](/previous-versions/gg507680(v=msdn.10))
 
  
 
  
-
-
-
-

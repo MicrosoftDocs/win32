@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Trace logs containing debugging information can assist users in finding the root causes of issues that occur during the EAP authentication process. The debugging information can include API calls performed, internal function calls performed, and state transitions performed.
 
-Tracing can be enabled on both the client side and the authenticator side. Tracing can also be enabled for calls to the [Routing and Remote Access Service (RRAS)](https://docs.microsoft.com/windows/desktop/RRAS/routing-start-page) APIs. For more information, see [Tracing on the Routing and Remote Access Service](#tracing-on-the-routing-and-remote-access-service).
+Tracing can be enabled on both the client side and the authenticator side. Tracing can also be enabled for calls to the [Routing and Remote Access Service (RRAS)](/windows/desktop/RRAS/routing-start-page) APIs. For more information, see [Tracing on the Routing and Remote Access Service](#tracing-on-the-routing-and-remote-access-service).
 
 > [!Note]  
 > Trace logs are available in English only.
@@ -80,13 +80,9 @@ For more information, see [Netsh Commands](Http://go.microsoft.com/fwlink/p/?lin
 [Using EAPHost](using-eap-host.md)
 </dt> <dt>
 
-[Routing and Remote Access Service (RRAS)](https://docs.microsoft.com/windows/desktop/RRAS/routing-start-page)
+[Routing and Remote Access Service (RRAS)](/windows/desktop/RRAS/routing-start-page)
 </dt> </dl>
 
  
 
  
-
-
-
-

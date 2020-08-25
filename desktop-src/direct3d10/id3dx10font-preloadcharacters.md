@@ -39,7 +39,7 @@ HRESULT PreloadCharacters(
 *First* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 ID of the first character to be loaded into video memory.
 
@@ -48,7 +48,7 @@ ID of the first character to be loaded into video memory.
 *Last* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 ID of the last character to be loaded into video memory.
 
@@ -66,7 +66,7 @@ This method generates textures containing glyphs that represent the input charac
 
 Characters will not be rendered to the device; ID3DX10Font::DrawText must still be called to render the characters. However, by pre-loading characters into video memory, ID3DX10Font::DrawText will use substantially fewer CPU resources.
 
-This method internally converts characters to glyphs using the GDI function [GetCharacterPlacement](https://msdn2.microsoft.com/library/ms534004.aspx).
+This method internally converts characters to glyphs using the GDI function [GetCharacterPlacement](/previous-versions//ms534004(v=vs.85)).
 
 ## Requirements
 
@@ -92,7 +92,3 @@ This method internally converts characters to glyphs using the GDI function [Get
  
 
  
-
-
-
-

@@ -26,7 +26,7 @@ Exposes property type information.
 
 ## Members
 
-The **IResultType** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IResultType** also has these types of members:
+The **IResultType** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IResultType** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -66,10 +66,4 @@ These methods expose the types of information returned.
 
 
  
-
- 
-
-
-
-
 

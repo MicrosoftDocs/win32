@@ -29,10 +29,10 @@ The following procedure describes how to create a new work item task.
 
 **To create a new work item task**
 
-1.  Call [**CoInitialize**](https://msdn.microsoft.com/library/ms678543(v=VS.85).aspx) to initialize the COM library and [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) to get a Task Scheduler object. (This example assumes that the Task Scheduler service is running.)
+1.  Call [**CoInitialize**](/windows/win32/api/objbase/nf-objbase-coinitialize) to initialize the COM library and [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) to get a Task Scheduler object. (This example assumes that the Task Scheduler service is running.)
 2.  Call [**ITaskScheduler::NewWorkItem**](/windows/desktop/api/Mstask/nf-mstask-itaskscheduler-newworkitem) to create a new task. (This method returns a pointer to an [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) interface.)
-3.  Save the new task to disk by calling [**IPersistFile::Save**](https://msdn.microsoft.com/library/ms693701(v=VS.85).aspx). (The [**IPersistFile**](https://msdn.microsoft.com/library/ms687223(v=VS.85).aspx) interface is a standard COM interface supported by the **ITask** interface.)
-4.  Call **ITask::Release** to release all resources. (Note that [**Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) is an [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) method inherited by [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask).)
+3.  Save the new task to disk by calling [**IPersistFile::Save**](/windows/win32/api/objidl/nf-objidl-ipersistfile-save). (The [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) interface is a standard COM interface supported by the **ITask** interface.)
+4.  Call **ITask::Release** to release all resources. (Note that [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) is an [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) method inherited by [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask).)
 
 
 
@@ -54,7 +54,3 @@ The following procedure describes how to create a new work item task.
  
 
  
-
-
-
-

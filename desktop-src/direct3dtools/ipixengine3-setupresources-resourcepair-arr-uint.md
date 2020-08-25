@@ -52,11 +52,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## <span id="see_also"></span>See also
 
-[**IPixEngine3**](https://docs.microsoft.com/windows/desktop/direct3dtools/ipixengine3)
+[**IPixEngine3**](/windows/desktop/direct3dtools/ipixengine3)
 
  
 
  
-
-
-

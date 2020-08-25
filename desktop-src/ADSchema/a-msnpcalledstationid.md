@@ -173,13 +173,9 @@ The **msNPCalledStationID** attribute is used internally. Do not modify this val
 
 <dl> <dt>
 
-[RAS Administration Functions](https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions)
+[RAS Administration Functions](/windows/desktop/RRAS/ras-administration-functions)
 </dt> </dl>
 
  
 
  
-
-
-
-

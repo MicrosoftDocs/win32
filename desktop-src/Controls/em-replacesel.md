@@ -44,7 +44,7 @@ This message does not return a value.
 
 ## Remarks
 
-Use the **EM\_REPLACESEL** message to replace only a portion of the text in an edit control. To replace all of the text, use the [**WM\_SETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-settext) message.
+Use the **EM\_REPLACESEL** message to replace only a portion of the text in an edit control. To replace all of the text, use the [**WM\_SETTEXT**](/windows/desktop/winmsg/wm-settext) message.
 
 If there is no selection, the replacement text is inserted at the caret.
 
@@ -68,14 +68,8 @@ In a rich edit control, the replacement text takes the formatting of the charact
 
 <dl> <dt>
 
-[**WM\_SETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-settext)
+[**WM\_SETTEXT**](/windows/desktop/winmsg/wm-settext)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

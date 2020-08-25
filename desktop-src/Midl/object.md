@@ -58,7 +58,7 @@ The name of the interface.
 *base-interface* 
 </dt> <dd>
 
-The COM interface from which this interface derives. The base interface must be [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx), [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx), or another COM interface that derives, either directly or indirectly, from **IUnknown** or **IDispatch**.
+The COM interface from which this interface derives. The base interface must be [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown), [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch), or another COM interface that derives, either directly or indirectly, from **IUnknown** or **IDispatch**.
 
 </dd> </dl>
 
@@ -68,7 +68,7 @@ An interface attribute list for a COM interface must include the **\[**[**uuid**
 
 By default, compiling a COM interface with the MIDL compiler generates the files needed to build a proxy DLL. This DLL contains the code to support the use of the custom COM interface by both client applications and object servers. However, if the interface attribute list for a COM interface specifies the **\[**[**local**](local.md)**\]** attribute, the MIDL compiler generates only the interface header file.
 
-The MIDL compiler automatically generates an interface data type for a COM interface. As an alternative, you can use [**typedef**](typedef.md) with the [**interface**](interface.md) keyword to explicitly define an interface data type. The interface specification can then use the interface data type in function parameters and return values, [**struct**](struct.md) and [**union**](union.md) members, and other type declarations. The following example illustrates the use of an automatically generated [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) data type:
+The MIDL compiler automatically generates an interface data type for a COM interface. As an alternative, you can use [**typedef**](typedef.md) with the [**interface**](interface.md) keyword to explicitly define an interface data type. The interface specification can then use the interface data type in function parameters and return values, [**struct**](struct.md) and [**union**](union.md) members, and other type declarations. The following example illustrates the use of an automatically generated [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) data type:
 
 ``` syntax
 [
@@ -147,7 +147,3 @@ interface ILocalInterface : ISomeOldCOMInterface
  
 
  
-
-
-
-

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.DestBearingRef Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.DestBearingRef](https://msdn.microsoft.com/library/bb787490(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.DestBearingRef](../properties/props-system-gps-destbearingref.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.GPS.DestBearingRef](https://msdn.microsoft.com/library/bb787490(VS.85).aspx)
+[System.GPS.DestBearingRef](../properties/props-system-gps-destbearingref.md)
 </dt> </dl>
 
  
 
  
-
-
-

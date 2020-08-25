@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Effects (Direct3D 10)
 
-A DirectX effect is a collection of pipeline state, set by expressions written in [HLSL](https://msdn.microsoft.com/library/Bb509638(v=VS.85).aspx) and some syntax that is specific to the effect framework. After compiling an effect, use the effect framework APIs to render. Effect functionality can range from something as simple as a vertex shader that transforms geometry and a pixel shader that outputs a solid color, to a rendering technique that requires multiple passes, uses every stage of the graphics pipeline, and manipulates shader state as well as the pipeline state not associated with the programmable shaders.
+A DirectX effect is a collection of pipeline state, set by expressions written in [HLSL](../direct3dhlsl/dx-graphics-hlsl-reference.md) and some syntax that is specific to the effect framework. After compiling an effect, use the effect framework APIs to render. Effect functionality can range from something as simple as a vertex shader that transforms geometry and a pixel shader that outputs a solid color, to a rendering technique that requires multiple passes, uses every stage of the graphics pipeline, and manipulates shader state as well as the pipeline state not associated with the programmable shaders.
 
 The first step is to organize the state you want to control in an effect. This includes shader state (vertex, geometry and pixel shaders), texture and sampler state used by the shaders, and other non-programmable pipeline state. You can create an effect in memory as a text string, but typically, the size gets large enough that it is handy to store effect state in an effect file (a text file that ends in a .fx extension). To use an effect, you must compile it (to check HLSL syntax as well as effect framework syntax), initialize effect state through API calls, and modify your render loop to call the rendering APIs.
 
@@ -29,6 +29,3 @@ An effect encapsulates all of the render state required by a particular effect i
  
 
  
-
-
-

@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # IRemoteDesktopClientTouchPointer properties
 
-The [**IRemoteDesktopClientTouchPointer**](https://msdn.microsoft.com/library/Mt787029(v=VS.85).aspx) interface exposes the following properties.
+The [**IRemoteDesktopClientTouchPointer**](/windows/win32/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer) interface exposes the following properties.
 
 ## In this section
 
@@ -22,14 +22,14 @@ Whether the touch pointer feature is enabled on the RDP app container client con
 
 </dd> <dt>
 
-[**EventsEnabled property**](https://msdn.microsoft.com/library/Mt787031(v=VS.85).aspx)
+[**EventsEnabled property**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclienttouchpointer-get_eventsenabled)
 </dt> <dd>
 
 Whether touch pointer event notifications are enabled for the RDP app container client control.
 
 </dd> <dt>
 
-[**PointerSpeed property**](https://msdn.microsoft.com/library/Mt787032(v=VS.85).aspx)
+[**PointerSpeed property**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclienttouchpointer-get_pointerspeed)
 </dt> <dd>
 
 How fast the touch pointer cursor will move on the virtual desktop relative to the speed of the gesture on the client.
@@ -39,7 +39,3 @@ How fast the touch pointer cursor will move on the virtual desktop relative to t
  
 
  
-
-
-
-

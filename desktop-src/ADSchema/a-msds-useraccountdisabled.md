@@ -62,13 +62,7 @@ Indicates whether an account is disabled or enabled. True if the account disable
 
 ## Remarks
 
-In ADAM, this attribute replaces the [**ADS\_UF\_ACCOUNTDISABLE**](https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-ads_user_flag_enum) flag of the [**userAccountControl**](a-useraccountcontrol.md) attribute.
+In ADAM, this attribute replaces the [**ADS\_UF\_ACCOUNTDISABLE**](/windows/desktop/api/iads/ne-iads-ads_user_flag_enum) flag of the [**userAccountControl**](a-useraccountcontrol.md) attribute.
 
  
-
- 
-
-
-
-
 

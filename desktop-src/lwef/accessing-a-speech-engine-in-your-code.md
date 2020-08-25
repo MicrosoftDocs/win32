@@ -28,7 +28,7 @@ Check and set the character's [**LanguageID**](https://www.bing.com/search?q=**L
 
 A character set for text-to-speech (TTS) output can be compiled with a default speech output engine's mode ID preference. When the character is loaded, if the engine is installed and matches the character's [**LanguageID**](https://www.bing.com/search?q=**LanguageID**), Agent will attempt to load that mode ID for speech output. If the engine is not present or has a different **LanguageID**, Agent will attempt to load the first mode ID it finds that matches the character's **LanguageID**, but still sets the character's compiled speed and pitch setting.
 
-Note that since all Microsoft Agent supplied characters are compiled to use the Lernout & Hauspie TruVoice American English engine as the default speech output engine, the characters' speed and pitch setting are tuned for this language and engine. Therefore when using other TTS engines or engines of other languages the characters may not speak at the optimal pitch or speed. Although your application or webpage cannot write the [**Pitch**](https://msdn.microsoft.com/library/ms809428(v=MSDN.10).aspx) and [**Speed**](https://www.bing.com/search?q=**Speed**) property values, you can include [Pit](pit-tag.md) (pitch) and [Spd](spd-tag.md) (speed) tags in your output text that will temporarily change the pitch and speed for a particular utterance. However, using the Pit and Spd tags will not change the **Pitch** and **Speed** properties. See [Programming the Microsoft Agent Control](programming-the-microsoft-agent-control.md) and the [Microsoft Agent Speech Output Tags](microsoft-agent-speech-output-tags.md) for details.
+Note that since all Microsoft Agent supplied characters are compiled to use the Lernout & Hauspie TruVoice American English engine as the default speech output engine, the characters' speed and pitch setting are tuned for this language and engine. Therefore when using other TTS engines or engines of other languages the characters may not speak at the optimal pitch or speed. Although your application or webpage cannot write the [**Pitch**](/previous-versions/ms809428(v=msdn.10)) and [**Speed**](https://www.bing.com/search?q=**Speed**) property values, you can include [Pit](pit-tag.md) (pitch) and [Spd](spd-tag.md) (speed) tags in your output text that will temporarily change the pitch and speed for a particular utterance. However, using the Pit and Spd tags will not change the **Pitch** and **Speed** properties. See [Programming the Microsoft Agent Control](programming-the-microsoft-agent-control.md) and the [Microsoft Agent Speech Output Tags](microsoft-agent-speech-output-tags.md) for details.
 
 You also need to install the SAPI 4.0a runtime binaries (SPCHAPI.exe) when using other SAPI-compliant TTS engines than the L&H TruVoice American English engine with the Microsoft Agent supplied characters so that the engines are enumerated properly. From your webpage, include the following Object tag to automatically install the component:
 
@@ -90,7 +90,3 @@ To query for or set an engine's mode ID, use [**TTSModeID**](https://www.bing.co
  
 
  
-
-
-
-

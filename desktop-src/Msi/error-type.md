@@ -35,7 +35,7 @@ propVal = Error.Type
 
 ## C++
 
-See [**get\_Type Function**](https://msdn.microsoft.com/library/Aa369256(v=VS.85).aspx) function (Error Object).
+See [**get\_Type Function**](/windows/win32/api/mergemod/nf-mergemod-imsmerror-get_type) function (Error Object).
 
 ## Requirements
 
@@ -50,9 +50,4 @@ See [**get\_Type Function**](https://msdn.microsoft.com/library/Aa369256(v=VS.85
 
 
  
-
- 
-
-
-
 

@@ -1,6 +1,6 @@
 ---
 title: EAP MS-CHAPv2 User Properties
-description: Is an instance of the mschapv2userpropertiesv1 legacy schema.
+description: Learn about the EAP MS-CHAPv2 user properties. See a sample that's an instance of the mschapv2userpropertiesv1 legacy schema.
 ms.assetid: f360913d-be5d-4ef0-96c9-652e4d08d9cd
 ms.topic: article
 ms.date: 05/31/2018

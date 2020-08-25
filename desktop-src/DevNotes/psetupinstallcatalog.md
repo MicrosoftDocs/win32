@@ -67,7 +67,7 @@ If the function succeeds, it returns **NO\_ERROR**; otherwise, it returns a Win3
 
 The file is copied by the system into a special directory and is optionally renamed.
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
@@ -83,13 +83,9 @@ This function has no associated import library or header file; you must call it 
 
 <dl> <dt>
 
-[**CryptCATAdminAddCatalog**](https://msdn.microsoft.com/library/Aa379890(v=VS.85).aspx)
+[**CryptCATAdminAddCatalog**](/windows/win32/api/mscat/nf-mscat-cryptcatadminaddcatalog)
 </dt> </dl>
 
  
 
  
-
-
-
-

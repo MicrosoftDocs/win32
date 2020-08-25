@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 # IVMMouse::UsingAbsoluteCoordinates property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves whether mouse coordinates represent absolute or relative coordinates.
 
@@ -88,10 +88,4 @@ This property is local only to this object and will default to **VARIANT\_FALSE*
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

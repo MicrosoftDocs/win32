@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 The Microsoft Active Directory schema contains formal definitions of every object class that can be created in an Active Directory forest. The schema also contains formal definitions of every attribute that can exist in an Active Directory object. This section provides the reference for each schema object and provides a brief explanation of the attributes, classes, and other objects that make up the Active Directory schema.
 
 > [!Note]  
-> The following documentation contains the programming reference for Active Directory schema. If you are an end-user attempting to debug a printer error, try searching on the [Microsoft community site](https://answers.microsoft.com). If you are a developer looking for a general overview of Active Directory schema, see the [Active Directory Schema](https://docs.microsoft.com/windows/desktop/AD/active-directory-schema) overview topics. If you are looking for programming guidelines for updating or modifying the schema, For more information about extending and customizing the schema, see [Extending the Schema](https://docs.microsoft.com/windows/desktop/AD/extending-the-schema), as well as many of the topics in the [Active Directory Domain Services](https://docs.microsoft.com/windows/desktop/AD/active-directory-domain-services) and [Active Directory Lightweight Directory Services](https://docs.microsoft.com/previous-versions/windows/desktop/adam/active-directory-lightweight-directory-services) programming guides.
+> The following documentation contains the programming reference for Active Directory schema. If you are an end-user attempting to debug a printer error, try searching on the [Microsoft community site](https://answers.microsoft.com). If you are a developer looking for a general overview of Active Directory schema, see the [Active Directory Schema](/windows/desktop/AD/active-directory-schema) overview topics. If you are looking for programming guidelines for updating or modifying the schema, For more information about extending and customizing the schema, see [Extending the Schema](/windows/desktop/AD/extending-the-schema), as well as many of the topics in the [Active Directory Domain Services](/windows/desktop/AD/active-directory-domain-services) and [Active Directory Lightweight Directory Services](/previous-versions/windows/desktop/adam/active-directory-lightweight-directory-services) programming guides.
 
  
 
@@ -45,10 +45,4 @@ The following sections contain detailed information about the Active Directory s
 -   [RootDSE](rootdse.md)
 
  
-
- 
-
-
-
-
 

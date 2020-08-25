@@ -22,7 +22,7 @@ COM defines a standard, serialized data format for property sets. When handling 
 
 -   Property sets allow for different applications to create their own independent property sets to serve the application.
 -   Property sets can be stored in a single [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) instance or in an [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) instance that contains multiple streams. Property sets are simply another data type that can be stored in many different forms of an in-memory or on-disk storage. For more information and recommended conventions for creating the string name for the storage object, see [Storage Object Naming Conventions](storage-object-naming-conventions.md).
--   Property sets allow for a dictionary of display names to be included that describe the contents. A set of conventions for choosing property names is recommended. For more information about this optional dictionary, see [Reserved Property Identifiers](reserved-property-identifiers.md), including [Property ID 0](https://docs.microsoft.com/windows/desktop/Stg/reserved-property-identifiers).
+-   Property sets allow for a dictionary of display names to be included that describe the contents. A set of conventions for choosing property names is recommended. For more information about this optional dictionary, see [Reserved Property Identifiers](reserved-property-identifiers.md), including [Property ID 0](/windows/desktop/Stg/reserved-property-identifiers).
 
 The property set stream is divided into three major parts:
 
@@ -40,7 +40,3 @@ The overall length of the property set stream must be less than or equal to 256K
  
 
  
-
-
-
-

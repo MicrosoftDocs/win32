@@ -194,15 +194,9 @@ The last time and date that an attempt to log on to this account was made with a
 
 ## Remarks
 
-The high part of this large integer corresponds to the **dwHighDateTime** member of the [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime) structure and the low part corresponds to the **dwLowDateTime** member of the **FILETIME** structure.
+The high part of this large integer corresponds to the **dwHighDateTime** member of the [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) structure and the low part corresponds to the **dwLowDateTime** member of the **FILETIME** structure.
 
 This attribute is not replicated and is maintained separately on each domain controller in the domain. To get an accurate value for the user's last bad password time in the domain, each domain controller in the domain must be queried. The largest value that is obtained represents the true bad password time.
 
  
-
- 
-
-
-
-
 

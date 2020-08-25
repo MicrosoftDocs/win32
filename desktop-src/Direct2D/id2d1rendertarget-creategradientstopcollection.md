@@ -16,7 +16,7 @@ ms.topic: reference
 
 # ID2D1RenderTarget::CreateGradientStopCollection methods
 
-Creates an [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx) from the specified array of [**D2D1\_GRADIENT\_STOP**](https://msdn.microsoft.com/library/Dd368119(v=VS.85).aspx) structures.
+Creates an [**ID2D1GradientStopCollection**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection) from the specified array of [**D2D1\_GRADIENT\_STOP**](/windows/win32/api/d2d1/ns-d2d1-d2d1_gradient_stop) structures.
 
 ### Overload list
 
@@ -24,14 +24,14 @@ Creates an [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/library/
 
 | Method                                                                                                                                                                                                                                                               | Description                                                                                                                                                                                                                           |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateGradientStopCollection(D2D1\_GRADIENT\_STOP\*,D2D1\_GAMMA,D2D1\_EXTEND\_MODE,ID2D1GradientStopCollection\*\*)**](id2d1rendertarget-creategradientstopcollection-ptr-d2d1-gradient-stop-d2d1-gamma-d2d1-extend-mode-ptr-ptr-https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx) | Creates an [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx) from the specified gradient stops, color interpolation gamma, and extend mode. <br/>                                                              |
-| [**CreateGradientStopCollection(D2D1\_GRADIENT\_STOP\*,ID2D1GradientStopCollection\*\*)**](id2d1rendertarget-creategradientstopcollection-ptr-d2d1-gradient-stop-ptr-ptr-https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx)                                                            | Creates an [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx) from the specified gradient stops that uses the [**D2D1\_GAMMA\_2\_2**](https://msdn.microsoft.com/library/Dd368113(v=VS.85).aspx) color interpolation gamma and the clamp extend mode.<br/> |
+| [**CreateGradientStopCollection(D2D1\_GRADIENT\_STOP\*,D2D1\_GAMMA,D2D1\_EXTEND\_MODE,ID2D1GradientStopCollection\*\*)**](id2d1rendertarget-creategradientstopcollection-ptr-d2d1-gradient-stop-d2d1-gamma-d2d1-extend-mode-ptr-ptr-https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx) | Creates an [**ID2D1GradientStopCollection**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection) from the specified gradient stops, color interpolation gamma, and extend mode. <br/>                                                              |
+| [**CreateGradientStopCollection(D2D1\_GRADIENT\_STOP\*,ID2D1GradientStopCollection\*\*)**](id2d1rendertarget-creategradientstopcollection-ptr-d2d1-gradient-stop-ptr-ptr-https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx)                                                            | Creates an [**ID2D1GradientStopCollection**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection) from the specified gradient stops that uses the [**D2D1\_GAMMA\_2\_2**](/windows/win32/api/d2d1/ne-d2d1-d2d1_gamma) color interpolation gamma and the clamp extend mode.<br/> |
 
 
 
 ## Examples
 
-The following example creates an array of gradient stops, then uses them to create an [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx).
+The following example creates an array of gradient stops, then uses them to create an [**ID2D1GradientStopCollection**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection).
 
 
 ```C++
@@ -57,7 +57,7 @@ hr = m_pRenderTarget->CreateGradientStopCollection(
 
 
 
-The next code example uses the [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx) to create an [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/library/Dd371488(v=VS.85).aspx).
+The next code example uses the [**ID2D1GradientStopCollection**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection) to create an [**ID2D1LinearGradientBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1lineargradientbrush).
 
 
 ```C++
@@ -97,7 +97,7 @@ if (SUCCEEDED(hr))
 [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)
 </dt> <dt>
 
-[**D2D1\_GRADIENT\_STOP**](https://msdn.microsoft.com/library/Dd368119(v=VS.85).aspx)
+[**D2D1\_GRADIENT\_STOP**](/windows/win32/api/d2d1/ns-d2d1-d2d1_gradient_stop)
 </dt> <dt>
 
 [How to Create a Linear Gradient Brush](how-to-create-a-linear-gradient-brush.md)

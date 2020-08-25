@@ -38,7 +38,7 @@ typedef struct D3DXKEY_QUATERNION {
 **Time**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -77,7 +77,3 @@ Type: **[**D3DXQUATERNION**](d3dxquaternion.md)**
  
 
  
-
-
-
-

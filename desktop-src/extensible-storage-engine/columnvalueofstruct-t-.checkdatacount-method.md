@@ -55,7 +55,7 @@ protected void CheckDataCount(
 #### Parameters
 
   - count  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The size of the retrieved data.
 
@@ -68,4 +68,3 @@ protected void CheckDataCount(
 [ColumnValueOfStruct\<T\> members](dn334217\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

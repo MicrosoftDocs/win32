@@ -9,9 +9,9 @@ ms.date: 05/31/2018
 
 # Connecting to WMI Remotely with PowerShell
 
-Windows PowerShell provides a simple mechanism to connect to Windows Management Instrumentation (WMI) on a remote computer. Remote connections in WMI are affected by the [Windows Firewall](https://technet.microsoft.com/network/bb545423.aspx), DCOM settings, and [User Account Control (UAC)](https://technet.microsoft.com/En-US/WindowsVista/aa905108.aspx). For more information about configuring remote connections, see [Connecting to WMI Remotely Starting with Windows Vista](connecting-to-wmi-remotely-starting-with-vista.md).
+Windows PowerShell provides a simple mechanism to connect to Windows Management Instrumentation (WMI) on a remote computer. Remote connections in WMI are affected by the [Windows Firewall](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754274(v=ws.11)), DCOM settings, and [User Account Control (UAC)](/previous-versions/aa905108(v=msdn.10)). For more information about configuring remote connections, see [Connecting to WMI Remotely Starting with Windows Vista](connecting-to-wmi-remotely-starting-with-vista.md).
 
-The examples in this topic are based on the VBScripts from [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md). All of the examples in this topic use the [Get-WmiObject](https://technet.microsoft.com/library/dd315295.aspx) cmdlet. For more information, see [Get-WmiObject](https://technet.microsoft.com/library/dd315295.aspx).
+The examples in this topic are based on the VBScripts from [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md). All of the examples in this topic use the [Get-WmiObject](/previous-versions//dd315295(v=technet.10)) cmdlet. For more information, see [Get-WmiObject](/previous-versions//dd315295(v=technet.10)).
 
 ## Windows PowerShell examples
 
@@ -29,7 +29,7 @@ Get-WmiObject -Namespace "root\cimv2" -Class Win32_Process -Impersonation 3 -Com
 
 In the preceding example, the user connects to a remote computer by using the same credentials (domain and user name) that they logged on with. The user also requested to use impersonation. Unlike the original VBScript example, a moniker string is not needed because the impersonation level is set by the "Impersonation" property. By default, the impersonation level is set to 3 (Impersonate).
 
-The example lists all the instances of the [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) class that are running on remote computer.
+The example lists all the instances of the [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process) class that are running on remote computer.
 
 > [!Note]  
 > You should specify the WMI namespace to connect to on the remote computer because it is possible that the default namespace is not the same on different computers.
@@ -56,7 +56,7 @@ In the preceding example, the computer name was assigned to the $Computer variab
 
  
 
-The following Windows PowerShell example connects to a group of remote computers in the same domain by creating an array of remote computer names and then displaying names of the Plug and Play devices—instances of [**Win32\_PnPEntity**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-pnpentity)—on each computer:
+The following Windows PowerShell example connects to a group of remote computers in the same domain by creating an array of remote computer names and then displaying names of the Plug and Play devices—instances of [**Win32\_PnPEntity**](/windows/desktop/CIMWin32Prov/win32-pnpentity)—on each computer:
 
 
 ```PowerShell
@@ -85,11 +85,11 @@ $ColItems[0..47] | Format-List Name, Status
  
 
 -   The computer names in the array must be enclosed in quotation marks because they are strings.
--   The objects returned by the [Get-WmiObject](https://technet.microsoft.com/library/dd315295.aspx) are assigned to the $ColItems variable.
--   The range operator \[\] limited the list of Plug and Play devices to 48 instances. For more information, see [About\_Operators](https://technet.microsoft.com/library/dd347588.aspx).
--   The "\|" is the pipeline character. The object returned by ColItems is sent to the [Format-List]( http://technet.microsoft.com/en-us/library/dd347700.aspx) cmdlet.
+-   The objects returned by the [Get-WmiObject](/previous-versions//dd315295(v=technet.10)) are assigned to the $ColItems variable.
+-   The range operator \[\] limited the list of Plug and Play devices to 48 instances. For more information, see [About\_Operators](/previous-versions//dd347588(v=technet.10)).
+-   The "\|" is the pipeline character. The object returned by ColItems is sent to the [Format-List]( /previous-versions//dd347700(v=technet.10)) cmdlet.
 
-The following Windows PowerShell example enables you to connect to a remote computer on a different domain. This example also displays the process names for instances of [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) on the remote computer.
+The following Windows PowerShell example enables you to connect to a remote computer on a different domain. This example also displays the process names for instances of [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process) on the remote computer.
 
 
 ```PowerShell
@@ -112,7 +112,7 @@ write-host "Process Name:" $ObjItem.name
 
  
 
-In the preceding example, the user connects to a remote computer on a different domain and specifies a preferred locale. The [Get-Credential](https://technet.microsoft.com/library/dd315327.aspx) command requests the user's credentials and assigns the credentials to an object. The example also lists the names of instances of the [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) class that are running on the computer.
+In the preceding example, the user connects to a remote computer on a different domain and specifies a preferred locale. The [Get-Credential](/previous-versions//dd315327(v=technet.10)) command requests the user's credentials and assigns the credentials to an object. The example also lists the names of instances of the [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process) class that are running on the computer.
 
 ## Related topics
 
@@ -124,6 +124,3 @@ In the preceding example, the user connects to a remote computer on a different 
  
 
  
-
-
-

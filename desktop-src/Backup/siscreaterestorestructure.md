@@ -76,7 +76,7 @@ Pointer to an array of file names that specifies the list of internal files used
 
 ## Return value
 
-This function returns **TRUE** if it completes successfully and **FALSE** otherwise. Call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get more information about the reason the call failed.
+This function returns **TRUE** if it completes successfully and **FALSE** otherwise. Call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get more information about the reason the call failed.
 
 ## Remarks
 
@@ -119,10 +119,4 @@ After the restore operation is complete, deallocate the memory used by the *comm
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

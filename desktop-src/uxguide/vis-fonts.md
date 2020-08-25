@@ -173,16 +173,10 @@ Text has several usage patterns:
 
 -   Most UI text should be plain without any attributes. Attributes may be used as follows:
     -   **Bold.** Use in control labels to make the text easier to parse. Use sparingly to draw attention to text users must read. Using too much bold lessens its impact.
-    -   **Italic.** Use to refer to text literally instead of quotation marks. Use sparingly to emphasize specific words. Use for [prompts](glossary.md) in [text boxes](ctrl-text-boxes.md) and [editable drop-down lists](https://docs.microsoft.com/windows/desktop/uxguide/ctrl-drop).
+    -   **Italic.** Use to refer to text literally instead of quotation marks. Use sparingly to emphasize specific words. Use for [prompts](glossary.md) in [text boxes](ctrl-text-boxes.md) and [editable drop-down lists](/windows/desktop/uxguide/ctrl-drop).
     -   **Bold italic.** Don't use.
     -   **Underline.** Don't use except for links. Use italic instead for emphasis.
 -   Not all fonts support bold and italic, so they should never be crucial to understanding the text.
 
  
-
- 
-
-
-
-
 

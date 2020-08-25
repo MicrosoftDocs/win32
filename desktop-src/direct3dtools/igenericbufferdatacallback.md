@@ -26,7 +26,7 @@ Callback to return the contents of an object in XML form.
 
 ## Members
 
-The **IGenericBufferDataCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IGenericBufferDataCallback** also has these types of members:
+The **IGenericBufferDataCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IGenericBufferDataCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IGenericBufferDataCallback** interface has these methods.
  
 
  
-
-
-

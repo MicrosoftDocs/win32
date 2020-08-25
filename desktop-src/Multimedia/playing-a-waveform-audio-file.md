@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Playing a Waveform-Audio File
 
-The following example opens a waveform-audio device and plays the waveform-audio file specified by the *lpszWAVEFileName* parameter using the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function.
+The following example opens a waveform-audio device and plays the waveform-audio file specified by the *lpszWAVEFileName* parameter using the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function.
 
 
 ```C++
@@ -61,7 +61,3 @@ DWORD playWAVEFile(HWND hWndNotify, LPSTR lpszWAVEFileName)
  
 
  
-
-
-
-

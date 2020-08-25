@@ -20,7 +20,7 @@ api_location:
 
 \[This function is a wrapper over the **FormatMessage** function. This function may be altered or unavailable in the future. Applications should call **FormatMessage** directly.\]
 
-Formats a message string. See [**FormatMessage**](https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx).
+Formats a message string. See [**FormatMessage**](/windows/win32/api/winbase/nf-winbase-formatmessage).
 
 ## Syntax
 
@@ -54,13 +54,9 @@ DWORD _FormatMessage(
 
 <dl> <dt>
 
-[**FormatMessage**](https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx)
+[**FormatMessage**](/windows/win32/api/winbase/nf-winbase-formatmessage)
 </dt> </dl>
 
  
 
  
-
-
-
-

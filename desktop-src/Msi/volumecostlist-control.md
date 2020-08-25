@@ -62,12 +62,8 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the WC\_LISTVIEW class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **LVS\_REPORT**, **WS\_VSCROLL**, **WS\_HSCROLL**, **LVS\_SHAREIMAGELISTS**, **LVS\_AUTOARRANGE**, **LVS\_SINGLESEL**, **WS\_BORDER**, **WS\_CHILD**, **WS\_TABSTOP**, and **WS\_GROUP** styles.
+This control can be created from the WC\_LISTVIEW class by using the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. It has the **LVS\_REPORT**, **WS\_VSCROLL**, **WS\_HSCROLL**, **LVS\_SHAREIMAGELISTS**, **LVS\_AUTOARRANGE**, **LVS\_SINGLESEL**, **WS\_BORDER**, **WS\_CHILD**, **WS\_TABSTOP**, and **WS\_GROUP** styles.
 
  
 
  
-
-
-
-

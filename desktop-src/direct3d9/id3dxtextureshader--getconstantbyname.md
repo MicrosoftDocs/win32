@@ -48,7 +48,7 @@ A [handle](handles.md) to the parent data structure. If the constant is a top-le
 *pName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 A string containing the name of the constant.
 
@@ -81,7 +81,3 @@ Returns a unique identifier to the constant.
  
 
  
-
-
-
-

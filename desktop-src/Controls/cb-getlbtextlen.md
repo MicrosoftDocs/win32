@@ -48,7 +48,7 @@ If the *wParam* parameter does not specify a valid index, the return value is CB
 
 Under certain conditions, the return value is larger than the actual length of the text. This occurs with certain mixtures of ANSI and Unicode, and is due to the operating system allowing for the possible existence of double-byte character set (DBCS) characters within the text. The return value, however, will always be at least as large as the actual length of the text; so you can always use it to guide buffer allocation. This behavior can occur when an application uses both ANSI functions and common dialogs, which use Unicode.
 
-To obtain the exact length of the text, use the [**WM\_GETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext), [**LB\_GETTEXT**](lb-gettext.md), or [**CB\_GETLBTEXT**](cb-getlbtext.md) messages, or the [**GetWindowText**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowtexta) function.
+To obtain the exact length of the text, use the [**WM\_GETTEXT**](/windows/desktop/winmsg/wm-gettext), [**LB\_GETTEXT**](lb-gettext.md), or [**CB\_GETLBTEXT**](cb-getlbtext.md) messages, or the [**GetWindowText**](/windows/desktop/api/winuser/nf-winuser-getwindowtexta) function.
 
 ## Requirements
 
@@ -78,17 +78,11 @@ To obtain the exact length of the text, use the [**WM\_GETTEXT**](https://docs.m
 **Other Resources**
 </dt> <dt>
 
-[**GetWindowText**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowtexta)
+[**GetWindowText**](/windows/desktop/api/winuser/nf-winuser-getwindowtexta)
 </dt> <dt>
 
-[**WM\_GETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext)
+[**WM\_GETTEXT**](/windows/desktop/winmsg/wm-gettext)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -19,7 +19,7 @@ ms.date: 07/29/2019
 # IDODownloadInternal::SetPropertyEx method
 
 > [!IMPORTANT]
-> The **IDODownloadInternal** interface is deprecated. Instead, use the [IDODownload](/windows/win32/delivery_optimization/do/nn-do-idodownload) interface.
+> The **IDODownloadInternal** interface is deprecated. Instead, use the [IDODownload](../do/nn-do-idodownload.md) interface.
 
 Sets an extended download property. The method accepts a pointer to a **VARIANT** that contains a specific property value to apply to the download.
 

@@ -44,7 +44,7 @@ Allocated memory that is no longer in use, but has not been freed.
 <span id="_rpc_mqis_glos"></span><span id="_RPC_MQIS_GLOS"></span>**Message Queue Information Service (MQIS)**
 </dt> <dd>
 
-Microsoft SQL Server database that stores information for Microsoft Message Queuing. See also [Microsoft Message Queuing (MSMQ)](https://docs.microsoft.com/windows).
+Microsoft SQL Server database that stores information for Microsoft Message Queuing. See also [Microsoft Message Queuing (MSMQ)](/windows).
 
 </dd> <dt>
 
@@ -79,7 +79,3 @@ Principal name in Microsoft-standard form.
  
 
  
-
-
-
-

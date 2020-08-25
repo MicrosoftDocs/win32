@@ -16,15 +16,15 @@ To do this, you need access to write to the swap chain, and a handle to the wind
 
 The overall process for drawing to the screen is as follows:
 
--   Get a [**CoreWindow**](https://docs.microsoft.com/uwp/api/Windows.UI.Core.CoreWindow) for your app.
+-   Get a [**CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow) for your app.
 -   Get an interface for the Direct3D device and context.
--   Create the swap chain to display your rendered image in the [**CoreWindow**](https://docs.microsoft.com/uwp/api/Windows.UI.Core.CoreWindow).
+-   Create the swap chain to display your rendered image in the [**CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow).
 -   Create a render target for drawing and populate it with pixels.
 -   Present the swap chain!
 
 ## Create a window for your app
 
-The first thing we need to do is create a window. First, create a window class by populating an instance of [**WNDCLASS**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-wndclassa), then register it using [**RegisterClass**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa). The window class contains essential properties of the window, including the icon it uses, the static message processing function (more on this later), and a unique name for the window class.
+The first thing we need to do is create a window. First, create a window class by populating an instance of [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa), then register it using [**RegisterClass**](/windows/desktop/api/winuser/nf-winuser-registerclassa). The window class contains essential properties of the window, including the icon it uses, the static message processing function (more on this later), and a unique name for the window class.
 
 
 ```C++
@@ -62,7 +62,7 @@ if(!RegisterClass(&wndClass))
 
 
 
-Next, you create the window. We also need to provide size information for the window and the name of the window class we just created. When you call [**CreateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa), you get back an opaque pointer to the window called an HWND; you'll need to keep the HWND pointer and use it any time you need to reference the window, including destroying or recreating it, and (especially important) when creating the DXGI swap chain you use to draw in the window.
+Next, you create the window. We also need to provide size information for the window and the name of the window class we just created. When you call [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa), you get back an opaque pointer to the window called an HWND; you'll need to keep the HWND pointer and use it any time you need to reference the window, including destroying or recreating it, and (especially important) when creating the DXGI swap chain you use to draw in the window.
 
 
 ```C++
@@ -145,7 +145,7 @@ LRESULT CALLBACK MainClass::StaticWindowProc(
 
 
 
-This simple example only checks for program exit conditions: [**WM\_CLOSE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-close), sent when the window is requested to be closed, and [**WM\_DESTROY**](https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy), which is sent after the window is actually removed from the screen. A full, production app needs to handle other windowing events too—for the complete list of windowing events, see [Window Notifications](https://docs.microsoft.com/windows/desktop/winmsg/window-notifications).
+This simple example only checks for program exit conditions: [**WM\_CLOSE**](/windows/desktop/winmsg/wm-close), sent when the window is requested to be closed, and [**WM\_DESTROY**](/windows/desktop/winmsg/wm-destroy), which is sent after the window is actually removed from the screen. A full, production app needs to handle other windowing events too—for the complete list of windowing events, see [Window Notifications](/windows/desktop/winmsg/window-notifications).
 
 The main program loop itself needs to acknowledge Windows messages by allowing Windows the opportunity to run the static message proc. Help the program run efficiently by forking the behavior: each iteration should choose to process new Windows messages if they are available, and if no messages are in the queue it should render a new frame. Here's a very simple example:
 
@@ -186,9 +186,9 @@ while (WM_QUIT != msg.message)
 
 ## Get an interface for the Direct3D device and context
 
-The first step to using Direct3D is to acquire an interface for the Direct3D hardware (the GPU), represented as instances of [**ID3D11Device**](https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2) and [**ID3D11DeviceContext**](https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2). The former is a virtual representation of the GPU resources, and the latter is a device-agnostic abstraction of the rendering pipeline and process. Here's an easy way to think of it: **ID3D11Device** contains the graphics methods you call infrequently, usually before any rendering occurs, to acquire and configure the set of resources you need to start drawing pixels. **ID3D11DeviceContext**, on the other hand, contains the methods you call every frame: loading in buffers and views and other resources, changing output-merger and rasterizer state, managing shaders, and drawing the results of passing those resources through the states and shaders.
+The first step to using Direct3D is to acquire an interface for the Direct3D hardware (the GPU), represented as instances of [**ID3D11Device**](/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2) and [**ID3D11DeviceContext**](/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2). The former is a virtual representation of the GPU resources, and the latter is a device-agnostic abstraction of the rendering pipeline and process. Here's an easy way to think of it: **ID3D11Device** contains the graphics methods you call infrequently, usually before any rendering occurs, to acquire and configure the set of resources you need to start drawing pixels. **ID3D11DeviceContext**, on the other hand, contains the methods you call every frame: loading in buffers and views and other resources, changing output-merger and rasterizer state, managing shaders, and drawing the results of passing those resources through the states and shaders.
 
-There's one very important part of this process: setting the feature level. The feature level tells DirectX the minimum level of hardware your app supports, with D3D\_FEATURE\_LEVEL\_9\_1 as the lowest feature set and D3D\_FEATURE\_LEVEL\_11\_1 as the current highest. You should support 9\_1 as the minimum if you want to reach the widest possible audience. Take some time to read up on Direct3D [feature levels](https://docs.microsoft.com/previous-versions/windows/apps/hh994923(v=win.10)) and assess for yourself the minimum and maximum feature levels you want your game to support and to understand the implications of your choice.
+There's one very important part of this process: setting the feature level. The feature level tells DirectX the minimum level of hardware your app supports, with D3D\_FEATURE\_LEVEL\_9\_1 as the lowest feature set and D3D\_FEATURE\_LEVEL\_11\_1 as the current highest. You should support 9\_1 as the minimum if you want to reach the widest possible audience. Take some time to read up on Direct3D [feature levels](/previous-versions/windows/apps/hh994923(v=win.10)) and assess for yourself the minimum and maximum feature levels you want your game to support and to understand the implications of your choice.
 
 Obtain references (pointers) to both the Direct3D device and device context and store them as class-level variables on the **DeviceResources** instance (as **ComPtr** smart pointers). Use these references whenever you need to access the Direct3D device or device context.
 
@@ -247,20 +247,20 @@ context.As(&m_pd3dDeviceContext);
 
 Okay: You have a window to draw in, and you have an interface to send data and give commands to the GPU. Now let's see how to bring them together.
 
-First, you tell DXGI what values to use for the properties of the swap chain. Do this using a [**DXGI\_SWAP\_CHAIN\_DESC**](https://docs.microsoft.com/windows/desktop/api/dxgi/ns-dxgi-dxgi_swap_chain_desc) structure. Six fields are particularly important for desktop apps:
+First, you tell DXGI what values to use for the properties of the swap chain. Do this using a [**DXGI\_SWAP\_CHAIN\_DESC**](/windows/desktop/api/dxgi/ns-dxgi-dxgi_swap_chain_desc) structure. Six fields are particularly important for desktop apps:
 
 -   **Windowed**: Indicates whether the swap chain is full-screen or clipped to the window. Set this to TRUE to put the swap chain in the window you created earlier.
 -   **BufferUsage**: Set this to DXGI\_USAGE\_RENDER\_TARGET\_OUTPUT. This indicates that the swap chain will be a drawing surface, allowing you to use it as a Direct3D render-target.
 -   **SwapEffect**: Set this to DXGI\_SWAP\_EFFECT\_FLIP\_SEQUENTIAL.
 -   **Format**: The DXGI\_FORMAT\_B8G8R8A8\_UNORM format specifies 32-bit color: 8 bits for each of the three RGB color channels, and 8 bits for the alpha channel.
 -   **BufferCount**: Set this to 2 for a traditional double-buffered behavior to avoid tearing. Set the buffer count to 3 if your graphics content takes more than one monitor refresh cycle to render a single frame (at 60 Hz for example, the threshold is more than 16 ms).
--   **SampleDesc**: This field controls multisampling. Set **Count** to 1 and **Quality** to 0 for flip-model swap chains. (To use multisampling with flip-model swap chains, draw on a separate multisampled render target and then resolve that target to the swap chain just before presenting it. Example code is provided in [Multisampling in Windows Store apps](https://docs.microsoft.com/previous-versions/windows/apps/dn458384(v=win.10)).)
+-   **SampleDesc**: This field controls multisampling. Set **Count** to 1 and **Quality** to 0 for flip-model swap chains. (To use multisampling with flip-model swap chains, draw on a separate multisampled render target and then resolve that target to the swap chain just before presenting it. Example code is provided in [Multisampling in Windows Store apps](/previous-versions/windows/apps/dn458384(v=win.10)).)
 
 After you have specified a configuration for the swap chain, you must use the same DXGI factory that created the Direct3D device (and device context) in order to create the swap chain.
 
 **Short form:  **
 
-Get the [**ID3D11Device**](https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2) reference you created previously. Upcast it to [**IDXGIDevice3**](https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgidevice3) (if you haven't already) and then call [**IDXGIDevice::GetAdapter**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-getadapter) to acquire the DXGI adapter. Get the parent factory for that adapter by calling [**IDXGIFactory2::GetParent**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiobject-getparent) ([**IDXGIFactory2**](https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2) inherits from [**IDXGIObject**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiobject))—now you can use that factory to create the swap chain by calling [**CreateSwapChainForHwnd**](https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd), as seen in the following code sample.
+Get the [**ID3D11Device**](/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2) reference you created previously. Upcast it to [**IDXGIDevice3**](/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgidevice3) (if you haven't already) and then call [**IDXGIDevice::GetAdapter**](/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-getadapter) to acquire the DXGI adapter. Get the parent factory for that adapter by calling [**IDXGIFactory2::GetParent**](/windows/desktop/api/dxgi/nf-dxgi-idxgiobject-getparent) ([**IDXGIFactory2**](/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2) inherits from [**IDXGIObject**](/windows/desktop/api/dxgi/nn-dxgi-idxgiobject))—now you can use that factory to create the swap chain by calling [**CreateSwapChainForHwnd**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd), as seen in the following code sample.
 
 
 ```C++
@@ -305,7 +305,7 @@ Now you've got a window from the operating system, a way to access the GPU and i
 
 ## Create a render target for drawing
 
-The shader pipeline needs a resource to draw pixels into. The simplest way to create this resource is to define a [**ID3D11Texture2D**](https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11texture2d) resource as a back buffer for the pixel shader to draw into, and then read that texture into the swap chain.
+The shader pipeline needs a resource to draw pixels into. The simplest way to create this resource is to define a [**ID3D11Texture2D**](/windows/desktop/api/d3d11/nn-d3d11-id3d11texture2d) resource as a back buffer for the pixel shader to draw into, and then read that texture into the swap chain.
 
 To do this, you create a render-target *view*. In Direct3D, a view is a way to access a specific resource. In this case, the view enables the pixel shader to write into the texture as it completes its per-pixel operations.
 
@@ -329,9 +329,9 @@ m_pBackBuffer->GetDesc(&m_bbDesc);
 
 
 
-Also create a *depth-stencil buffer*. A depth-stencil buffer is just a particular form of [**ID3D11Texture2D**](https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11texture2d) resource, which is typically used to determine which pixels have draw priority during rasterization based on the distance of the objects in the scene from the camera. A depth-stencil buffer can also be used for stencil effects, where specific pixels are discarded or ignored during rasterization. This buffer must be the same size as the render target. Note that you cannot read from or render to the frame buffer depth-stencil texture because it is used exclusively by the shader pipeline before and during final rasterization.
+Also create a *depth-stencil buffer*. A depth-stencil buffer is just a particular form of [**ID3D11Texture2D**](/windows/desktop/api/d3d11/nn-d3d11-id3d11texture2d) resource, which is typically used to determine which pixels have draw priority during rasterization based on the distance of the objects in the scene from the camera. A depth-stencil buffer can also be used for stencil effects, where specific pixels are discarded or ignored during rasterization. This buffer must be the same size as the render target. Note that you cannot read from or render to the frame buffer depth-stencil texture because it is used exclusively by the shader pipeline before and during final rasterization.
 
-Also create a view for the depth-stencil buffer as an [**ID3D11DepthStencilView**](https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11depthstencilview). The view tells the shader pipeline how to interpret the underlying [**ID3D11Texture2D**](https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11texture2d) resource - so if you don't supply this view no per-pixel depth testing is performed, and the objects in your scene may seem a bit inside-out at the very least!
+Also create a view for the depth-stencil buffer as an [**ID3D11DepthStencilView**](/windows/desktop/api/d3d11/nn-d3d11-id3d11depthstencilview). The view tells the shader pipeline how to interpret the underlying [**ID3D11Texture2D**](/windows/desktop/api/d3d11/nn-d3d11-id3d11texture2d) resource - so if you don't supply this view no per-pixel depth testing is performed, and the objects in your scene may seem a bit inside-out at the very least!
 
 
 ```C++
@@ -396,7 +396,3 @@ Next you'll look at the structure of the graphics pipeline; see [Understand the 
  
 
  
-
-
-
-

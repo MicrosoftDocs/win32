@@ -24,7 +24,7 @@ Remote desktop input sink.
 
 ## Members
 
-The **IMsRdpInputSink** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMsRdpInputSink** also has these types of members:
+The **IMsRdpInputSink** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMsRdpInputSink** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -36,14 +36,14 @@ The **IMsRdpInputSink** interface has these methods.
 
 | Method                                                               | Description                          |
 |:---------------------------------------------------------------------|:-------------------------------------|
-| [**AddTouchInput**](https://msdn.microsoft.com/library/Mt786987(v=VS.85).aspx)               | Adds touch input.<br/>         |
-| [**BeginTouchFrame**](https://msdn.microsoft.com/library/Mt786988(v=VS.85).aspx)           | Begin touch frame.<br/>        |
-| [**EndTouchFrame**](https://msdn.microsoft.com/library/Mt786989(v=VS.85).aspx)               | End touch frame.<br/>          |
-| [**SendKeyboardEvent**](https://msdn.microsoft.com/library/Mt786990(v=VS.85).aspx)       | Sends keyboard event.<br/>     |
-| [**SendMouseButtonEvent**](https://msdn.microsoft.com/library/Mt786991(v=VS.85).aspx) | Sends mouse button event.<br/> |
-| [**SendMouseMoveEvent**](https://msdn.microsoft.com/library/Mt786992(v=VS.85).aspx)     | Sends mouse move event.<br/>   |
-| [**SendMouseWheelEvent**](https://msdn.microsoft.com/library/Mt786993(v=VS.85).aspx)   | Sends mouse wheel event.<br/>  |
-| [**SendSyncEvent**](https://msdn.microsoft.com/library/Mt786994(v=VS.85).aspx)               | Sends sync event.<br/>         |
+| [**AddTouchInput**](/previous-versions/windows/desktop/legacy/mt786987(v=vs.85))               | Adds touch input.<br/>         |
+| [**BeginTouchFrame**](/previous-versions/windows/desktop/legacy/mt786988(v=vs.85))           | Begin touch frame.<br/>        |
+| [**EndTouchFrame**](/previous-versions/windows/desktop/legacy/mt786989(v=vs.85))               | End touch frame.<br/>          |
+| [**SendKeyboardEvent**](/previous-versions/windows/desktop/legacy/mt786990(v=vs.85))       | Sends keyboard event.<br/>     |
+| [**SendMouseButtonEvent**](/previous-versions/windows/desktop/legacy/mt786991(v=vs.85)) | Sends mouse button event.<br/> |
+| [**SendMouseMoveEvent**](/previous-versions/windows/desktop/legacy/mt786992(v=vs.85))     | Sends mouse move event.<br/>   |
+| [**SendMouseWheelEvent**](/previous-versions/windows/desktop/legacy/mt786993(v=vs.85))   | Sends mouse wheel event.<br/>  |
+| [**SendSyncEvent**](/previous-versions/windows/desktop/legacy/mt786994(v=vs.85))               | Sends sync event.<br/>         |
 
 
 
@@ -64,10 +64,4 @@ The **IMsRdpInputSink** interface has these methods.
 
 
  
-
- 
-
-
-
-
 

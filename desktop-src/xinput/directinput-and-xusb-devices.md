@@ -8,20 +8,20 @@ ms.date: 05/31/2018
 
 # DirectInput and XUSB Devices
 
-The driver for the Xbox Common Controller class (XUSB) on Windows implements the kernel-mode interface for the XINPUT DLL. To provide a good experience for legacy titles that use the [DirectInput](https://docs.microsoft.com/previous-versions/windows/desktop/ee416842(v=vs.85)) API with the common controller device, the driver also exports a Human Interface Device (HID) class interface, which is picked up by DirectInput. We chose the mapping of XUSB to HID based on typical behavior in a set of gaming applications for the original XINPUT version, and we updated the mapping for newer subtypes. This topic describes the mapping.
+The driver for the Xbox Common Controller class (XUSB) on Windows implements the kernel-mode interface for the XINPUT DLL. To provide a good experience for legacy titles that use the [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)) API with the common controller device, the driver also exports a Human Interface Device (HID) class interface, which is picked up by DirectInput. We chose the mapping of XUSB to HID based on typical behavior in a set of gaming applications for the original XINPUT version, and we updated the mapping for newer subtypes. This topic describes the mapping.
 
 ## Human Interface Device (HID)
 
-HID standard is a standard from the Universal Serial Bus (USB) committee originally proposed by Microsoft to generalize protocols for input devices. It consists of a byte-code description language and can express gamepads, mice, joysticks, throttle and rudder controls, and multi-axis controllers. Because this standard is so generalized, you might have difficulty writing software that consumes input from arbitrary devices. Therefore, for the game-centric [DirectInput](https://docs.microsoft.com/previous-versions/windows/desktop/ee416842(v=vs.85)) API, we developed a specific sub-mapping of types to encourage hardware manufactures to support through their drivers.
+HID standard is a standard from the Universal Serial Bus (USB) committee originally proposed by Microsoft to generalize protocols for input devices. It consists of a byte-code description language and can express gamepads, mice, joysticks, throttle and rudder controls, and multi-axis controllers. Because this standard is so generalized, you might have difficulty writing software that consumes input from arbitrary devices. Therefore, for the game-centric [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)) API, we developed a specific sub-mapping of types to encourage hardware manufactures to support through their drivers.
 
 - [USB Device Class Definition for HID v1.11](https://www.usb.org/document-library/device-class-definition-hid-111)
 
 > [!Important]
-> You can also access HID input devices via [RawInput API](https://docs.microsoft.com/windows/win32/inputdev/about-raw-input) and process input reports via low level [HID API](https://docs.microsoft.com/windows-hardware/drivers/hid/introduction-to-hid-concepts) but vibration feedback will not work as with [DirectInput](https://docs.microsoft.com/previous-versions/windows/desktop/ee416842(v=vs.85)).
+> You can also access HID input devices via [RawInput API](../inputdev/about-raw-input.md) and process input reports via low level [HID API](/windows-hardware/drivers/hid/introduction-to-hid-concepts) but vibration feedback will not work as with [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)).
 
 ## Mappings
 
-The XUSB driver implements both an XUSB class interface and a HID class interface for devices in order to support both XINPUT and [DirectInput](https://docs.microsoft.com/previous-versions/windows/desktop/ee416842(v=vs.85)) usage. This mapping is based on the XUSB subtype information. The driver implements four distinct groups of mappings.
+The XUSB driver implements both an XUSB class interface and a HID class interface for devices in order to support both XINPUT and [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)) usage. This mapping is based on the XUSB subtype information. The driver implements four distinct groups of mappings.
 
 | XUSB Subtype                                      | Mapping                     |
 |---------------------------------------------------|-----------------------------|
@@ -61,7 +61,7 @@ This is the default mapping and is designed around the standard Xbox Common Cont
 | RSB (right stick button)     | Button 10      | 0x09       | 0x0A       |
 
 > [!Note]  
-> (\*): This is combined so that Z exhibits the centering behavior expected by most titles for rotation; this does mean it is not possible to see all possible trigger combination values through [DirectInput](https://docs.microsoft.com/previous-versions/windows/desktop/ee416842(v=vs.85)) and HID.
+> (\*): This is combined so that Z exhibits the centering behavior expected by most titles for rotation; this does mean it is not possible to see all possible trigger combination values through [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)) and HID.
 
 ## Arcade Stick/Arcade Pad
 
@@ -104,7 +104,7 @@ This mapping is designed around the Xbox Racing Wheel, and is exposed as a *Game
 | START                                                          | Button 10      | 0x09       | 0x0A     |
 
 > [!Note]  
-> (\*): This is combined so that Z exhibits the centering behavior expected by most titles for the brake and accelerator controls; this does mean it is not possible to see all possible pedal combination values through [DirectInput](https://docs.microsoft.com/previous-versions/windows/desktop/ee416842(v=vs.85)).
+> (\*): This is combined so that Z exhibits the centering behavior expected by most titles for the brake and accelerator controls; this does mean it is not possible to see all possible pedal combination values through [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)).
 
 ## Flight Stick
 
@@ -130,4 +130,3 @@ This mapping is designed around the Xbox Flight Stick, and is exposed as a *Joys
 
 > [!Note]  
 > This is based on the final Flight Stick design. Because this differs from early Flight Stick definitions, many devices have a mode switch that supports the old versus new model. This mapping assumes the new model.
-

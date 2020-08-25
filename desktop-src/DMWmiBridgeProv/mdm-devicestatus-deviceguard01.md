@@ -62,12 +62,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[LsaCfgCredGuardStatus](https://docs.microsoft.com/windows/client-management/mdm/devicestatus-csp#devicestatus-deviceguard-lsacfgcredguardstatus)
+[LsaCfgCredGuardStatus](/windows/client-management/mdm/devicestatus-csp#devicestatus-deviceguard-lsacfgcredguardstatus)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -87,12 +87,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[VirtualizationBasedSecurityHwReq](https://docs.microsoft.com/windows/client-management/mdm/devicestatus-csp#devicestatus-deviceguard-virtualizationbasedsecurityhwreq)
+[VirtualizationBasedSecurityHwReq](/windows/client-management/mdm/devicestatus-csp#devicestatus-deviceguard-virtualizationbasedsecurityhwreq)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -103,7 +103,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[VirtualizationBasedSecurityStatus](https://docs.microsoft.com/windows/client-management/mdm/devicestatus-csp#devicestatus-deviceguard-virtualizationbasedsecuritystatus)
+[VirtualizationBasedSecurityStatus](/windows/client-management/mdm/devicestatus-csp#devicestatus-deviceguard-virtualizationbasedsecuritystatus)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -129,10 +129,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

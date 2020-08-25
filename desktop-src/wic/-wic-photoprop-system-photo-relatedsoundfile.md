@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.RelatedSoundFile Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.RelatedSoundFile](https://msdn.microsoft.com/library/bb760524(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.RelatedSoundFile](../properties/props-system-photo-relatedsoundfile.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.RelatedSoundFile](https://msdn.microsoft.com/library/bb760524(VS.85).aspx)
+[System.Photo.RelatedSoundFile](../properties/props-system-photo-relatedsoundfile.md)
 </dt> </dl>
 
  
 
  
-
-
-

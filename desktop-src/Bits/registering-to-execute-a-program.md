@@ -24,7 +24,7 @@ You can register to have BITS execute a program based on job transferred and err
 
 Note that BITS will not execute the program if you also [registered to receive COM callbacks](registering-a-com-callback.md) and the callback interface pointer is valid or the notification method that BITS calls returns a success code. However, if the notification method returns a failure code, such as E\_FAIL, BITS will execute the command line.
 
-BITS calls the [**CreateProcessAsUser**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) function to launch the program. If you specify a parameter string, the first parameter must be the program name.
+BITS calls the [**CreateProcessAsUser**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) function to launch the program. If you specify a parameter string, the first parameter must be the program name.
 
 The following example shows how to register to execute a program when the job-transferred event occurs. The example assumes the [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) interface pointer is valid.
 
@@ -36,13 +36,13 @@ HRESULT hr;
 IBackgroundCopyJob* pJob;
 IBackgroundCopyJob2* pJob2 = NULL;
 WCHAR szJobId[48];
-WCHAR *pProgram = L"c:\\PATHHERE\\PROGRAMNAMEHERE.exe";
+const WCHAR *pProgram = L"c:\\PATHHERE\\PROGRAMNAMEHERE.exe";
 WCHAR szParameters[MAX_PARAMETER_LEN+1];
 GUID JobId;
 int rc;
 
 hr = pJob->GetId(&JobId);
-if (SUCCEEDED(hr)
+if (SUCCEEDED(hr))
 {
   rc = StringFromGUID2(JobId, szJobId, ARRAYSIZE(szJobId));
   if (rc)
@@ -55,7 +55,7 @@ if (SUCCEEDED(hr)
       hr = pJob->SetNotifyFlags(BG_NOTIFY_JOB_TRANSFERRED);
     }
     pJob2->Release();
-    if (FAILED(hr)
+    if (FAILED(hr))
     {
       //Handle error - unable to register for command line notification.
     }
@@ -131,7 +131,3 @@ int wmain(int argc, wchar_t *argv[])
  
 
  
-
-
-
-

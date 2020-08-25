@@ -20,11 +20,8 @@ The following diagram illustrates how consumers, the registry, PDH, and performa
 
 Consumer A uses the registry interface to obtain counter information. Consumer B and the Performance Monitor use PDH to obtain counter information. In turn, the PDH functions can use either the registry interface or WMI.
 
-For more information on creating and using WMI providers, see the [WMI SDK documentation](https://docs.microsoft.com/windows/desktop/WmiSdk/monitoring-performance-data).
+For more information on creating and using WMI providers, see the [WMI SDK documentation](/windows/desktop/WmiSdk/monitoring-performance-data).
 
  
 
  
-
-
-

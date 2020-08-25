@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 This topic demonstrates code for handling dragging and dropping of tree-view items. The sample code consists of three functions. The first function begins the drag operation, the second function drags the image, and the third function ends the drag operation.
 
 > [!Note]  
-> Dragging a tree-view item typically involves processing the [TVN\_BEGINDRAG](tvn-begindrag.md) (or [TVN\_BEGINRDRAG](tvn-beginrdrag.md)) notification code, the [**WM\_MOUSEMOVE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove) message, and the [**WM\_LBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttonup) (or [**WM\_RBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-rbuttonup)) message. It also involves using the [Image Lists](image-lists.md) functions to draw the item as it is being dragged.
+> Dragging a tree-view item typically involves processing the [TVN\_BEGINDRAG](tvn-begindrag.md) (or [TVN\_BEGINRDRAG](tvn-beginrdrag.md)) notification code, the [**WM\_MOUSEMOVE**](/windows/desktop/inputdev/wm-mousemove) message, and the [**WM\_LBUTTONUP**](/windows/desktop/inputdev/wm-lbuttonup) (or [**WM\_RBUTTONUP**](/windows/desktop/inputdev/wm-rbuttonup)) message. It also involves using the [Image Lists](image-lists.md) functions to draw the item as it is being dragged.
 
  
 
@@ -56,7 +56,7 @@ Because the drag image replaces the mouse pointer for the duration of the drag o
 
 The following function demonstrates how to begin dragging a tree-view item. It uses the drag image provided by the tree-view control and obtains the bounding rectangle of the item to determine the appropriate point for the hot spot. The dimensions of the bounding rectangle are the same as those of the image.
 
-The function captures mouse input, causing mouse messages to be sent to the parent window. The parent window needs the subsequent [**WM\_MOUSEMOVE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove) messages to determine where to drag the image and the [**WM\_LBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttonup) message to determine when to end the drag operation.
+The function captures mouse input, causing mouse messages to be sent to the parent window. The parent window needs the subsequent [**WM\_MOUSEMOVE**](/windows/desktop/inputdev/wm-mousemove) messages to determine where to drag the image and the [**WM\_LBUTTONUP**](/windows/desktop/inputdev/wm-lbuttonup) message to determine when to end the drag operation.
 
 
 ```C++
@@ -97,7 +97,7 @@ void Main_OnBeginDrag(HWND hwndTV, LPNMTREEVIEW lpnmtv)
 
 ### Step 2: Dragging the tree-view item
 
-You drag a tree-view item by calling the [**ImageList\_DragMove**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_dragmove) function when the parent window receives a [**WM\_MOUSEMOVE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove) message, as the following example shows. The example also demonstrates how to perform hit testing during the drag operation to determine whether to highlight other items in the tree view as targets of a drag-and-drop operation.
+You drag a tree-view item by calling the [**ImageList\_DragMove**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_dragmove) function when the parent window receives a [**WM\_MOUSEMOVE**](/windows/desktop/inputdev/wm-mousemove) message, as the following example shows. The example also demonstrates how to perform hit testing during the drag operation to determine whether to highlight other items in the tree view as targets of a drag-and-drop operation.
 
 
 ```C++
@@ -146,7 +146,7 @@ void Main_OnMouseMove(HWND hwndParent, HWND hwndTV, LONG xCur, LONG yCur)
 
 ### Step 3: Ending the tree-view drag operation
 
-The following example shows how to end a drag operation. The [**ImageList\_EndDrag**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_enddrag) function is called when the parent window receives a [**WM\_LBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttonup) message. The handle of the tree-view control is passed to the function.
+The following example shows how to end a drag operation. The [**ImageList\_EndDrag**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_enddrag) function is called when the parent window receives a [**WM\_LBUTTONUP**](/windows/desktop/inputdev/wm-lbuttonup) message. The handle of the tree-view control is passed to the function.
 
 
 ```C++
@@ -190,7 +190,3 @@ void Main_OnLButtonUp(HWND hwndTV)
  
 
  
-
-
-
-

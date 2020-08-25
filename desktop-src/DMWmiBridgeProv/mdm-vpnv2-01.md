@@ -58,7 +58,7 @@ The **MDM\_VPNv2\_01** class has these properties.
 
 <dl> <dt>
 
-[AlwaysOn](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-alwayson)
+[AlwaysOn](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-alwayson)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -69,7 +69,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ByPassForLocal](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-bypassforlocal)
+[ByPassForLocal](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-bypassforlocal)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -80,7 +80,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DnsSuffix](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-dnssuffix)
+[DnsSuffix](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-dnssuffix)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -91,7 +91,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EdpModeId](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-edpmodeid)
+[EdpModeId](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-edpmodeid)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -111,14 +111,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is the VPN profile name.
 
 </dd> <dt>
 
-[LockDown](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-lockdown)
+[LockDown](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-lockdown)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -138,14 +138,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/VPNv2"
 
 </dd> <dt>
 
-[ProfileXML](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-profilexml)
+[ProfileXML](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-profilexml)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -156,7 +156,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RememberCredentials](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-remembercredentials)
+[RememberCredentials](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-remembercredentials)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -167,7 +167,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[TrustedNetworkDetection](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-trustednetworkdetection)
+[TrustedNetworkDetection](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-trustednetworkdetection)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -196,14 +196,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

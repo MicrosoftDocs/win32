@@ -103,5 +103,5 @@ They will return TRUE or FALSE depending on the question you are asking, and you
 ## Resources
 
 -   [Application Compatibility Toolkit Download](https://www.microsoft.com/downloads/details.aspx?FamilyId=24DA89E9-B581-47B0-B45E-492DD6DA2971)
--   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](https://technet.microsoft.com/library/cc765984.aspx)
--   [VersionHelpers APIs](https://msdn.microsoft.com/library/windows/desktop/dn424972(v=vs.85).aspx)
+-   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](/previous-versions/windows/it-pro/windows-7/cc765984(v=ws.10))
+-   [VersionHelpers APIs](../sysinfo/version-helper-apis.md)

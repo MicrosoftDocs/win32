@@ -12,15 +12,15 @@ ms.date: 05/31/2018
 
 | Field                                                            | Description                                                                                                  |
 |------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| [**BottomSlope**](boundingfrustum-bottomslope.md)<br/>    | The slope of the bottom of the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx).<br/>                        |
-| [**CORNER\_COUNT**](boundingfrustum-corner-count.md)<br/> | The number of corners defining the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx).<br/>                    |
-| [**Far**](boundingfrustum-far.md)<br/>                    | The distance of the far plane from the origin of the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx).<br/>  |
-| [**LeftSlope**](boundingfrustum-leftslope.md)<br/>        | The slope of the left side of the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx).<br/>                     |
-| [**Near**](boundingfrustum-near.md)<br/>                  | The distance of the near plane of the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx) from its origin.<br/> |
-| [**Orientation**](boundingfrustum-orientation.md)<br/>    | The orientation of the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx).<br/>                                |
-| [**Origin**](boundingfrustum-origin.md)<br/>              | The origin of the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx).<br/>                                     |
-| [**RightSlope**](boundingfrustum-rightslope.md)<br/>      | The slope of the right side of the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx).<br/>                    |
-| [**TopSlope**](boundingfrustum-topslope.md)<br/>          | The slope of the top of the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx).<br/>                           |
+| [**BottomSlope**](boundingfrustum-bottomslope.md)<br/>    | The slope of the bottom of the [**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).<br/>                        |
+| [**CORNER\_COUNT**](boundingfrustum-corner-count.md)<br/> | The number of corners defining the [**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).<br/>                    |
+| [**Far**](boundingfrustum-far.md)<br/>                    | The distance of the far plane from the origin of the [**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).<br/>  |
+| [**LeftSlope**](boundingfrustum-leftslope.md)<br/>        | The slope of the left side of the [**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).<br/>                     |
+| [**Near**](boundingfrustum-near.md)<br/>                  | The distance of the near plane of the [**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) from its origin.<br/> |
+| [**Orientation**](boundingfrustum-orientation.md)<br/>    | The orientation of the [**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).<br/>                                |
+| [**Origin**](boundingfrustum-origin.md)<br/>              | The origin of the [**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).<br/>                                     |
+| [**RightSlope**](boundingfrustum-rightslope.md)<br/>      | The slope of the right side of the [**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).<br/>                    |
+| [**TopSlope**](boundingfrustum-topslope.md)<br/>          | The slope of the top of the [**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).<br/>                           |
 
 
 
@@ -30,13 +30,9 @@ ms.date: 05/31/2018
 
 <dl> <dt>
 
-[BoundingFrustum](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx)
+[BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
 </dt> </dl>
 
  
 
  
-
-
-
-

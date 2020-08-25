@@ -43,7 +43,7 @@ Handle to the capture. For information about obtaining the capture handle, see t
 
 ## Return value
 
-If the function is successful, the return value is a pointer to a [SYSTEMTIME](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure.
+If the function is successful, the return value is a pointer to a [SYSTEMTIME](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure.
 
 If the function is unsuccessful, the return value is **NULL**.
 
@@ -73,13 +73,8 @@ Do not overwrite the data in the **SYSTEMTIME** structure. The data is part of t
 
 <dl> <dt>
 
-[SYSTEMTIME](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime)
+[SYSTEMTIME](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -3,17 +3,35 @@ Description: Privileges determine the type of system operations that a user acco
 ms.assetid: 973796a6-bc2e-4e64-92db-5e17b9c25460
 title: Privilege Constants (Winnt.h)
 ms.topic: reference
-ms.date: 02/05/2019
+ms.date: 07/27/2020
 ---
 
 # Privilege Constants (Authorization)
 
 Privileges determine the type of system operations that a user account can perform. An administrator assigns privileges to user and group accounts. Each user's privileges include those granted to the user and to the groups to which the user belongs.
 
-The functions that get and adjust the privileges in an [*access token*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) use the [*locally unique identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LUID) type to identify privileges. Use the [**LookupPrivilegeValue**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegevaluea) function to determine the [**LUID**](/windows/desktop/api/Winnt/ns-winnt-luid) on the local system that corresponds to a privilege constant. Use the [**LookupPrivilegeName**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegenamea) function to convert a **LUID** to its corresponding string constant.
+The functions that get and adjust the privileges in an [*access token*](/windows/desktop/SecGloss/a-gly) use the [*locally unique identifier*](/windows/desktop/SecGloss/l-gly) (LUID) type to identify privileges. Use the [**LookupPrivilegeValue**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegevaluea) function to determine the [**LUID**](/windows/desktop/api/Winnt/ns-winnt-luid) on the local system that corresponds to a privilege constant. Use the [**LookupPrivilegeName**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegenamea) function to convert a **LUID** to its corresponding string constant.
 
 The operating system represents a privilege by using the string that follows "User Right" in the Description column of the following table. The operating system displays the user right strings in the **Policy** column of the **User Rights Assignment** node of the Local Security Settings Microsoft Management Console (MMC) snap-in.
 
+## Example
+
+```cpp
+BOOL EnablePrivilege()
+{
+    LUID PrivilegeRequired ;
+    BOOL bRes = FALSE;
+  
+    bRes = LookupPrivilegeValue(NULL, SE_DEBUG_NAME, &PrivilegeRequired);
+
+    // ...
+
+    return bRes;
+}
+```
+Example from [Windows Classic Samples](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/ManagementInfrastructure/cpp/Process/Provider/WindowsProcess.c) on GitHub.
+
+## Constants
 
 
 <table>
@@ -218,9 +236,4 @@ Privilege constants are defined as strings in Winnt.h. For example, the SE\_AUDI
 </dt> </dl>
 
  
-
- 
-
-
-
 

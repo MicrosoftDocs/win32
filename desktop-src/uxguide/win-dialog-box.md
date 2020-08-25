@@ -176,7 +176,7 @@ In this example, Windows Network Diagnostics consists of progress and results pa
 -   **On the input page, use specific command buttons or command links to initiate the task.**
 -   **Use a Cancel button on the input and progress pages, and a Close button on the results page.**
 
-**Developers:** You can create multi-page task dialogs using the [TDM\_NAVIGATE\_PAGE](https://msdn2.microsoft.com/library/aa969766.aspx) message.
+**Developers:** You can create multi-page task dialogs using the [TDM\_NAVIGATE\_PAGE](../controls/tdm-navigate-page.md) message.
 
 ### Presentation
 
@@ -948,10 +948,4 @@ When referring to dialog boxes:
 Example: In **Windows Security**, click **More Options**.
 
  
-
- 
-
-
-
-
 

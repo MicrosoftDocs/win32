@@ -24,7 +24,7 @@ The following list contains best practices for developing applications using the
 
 -   Use MUI compliant strings.
 
-    All the localizable strings are stored in a common data structure: [**FWPM\_DISPLAY\_DATA0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwpm_display_data0). The strings within this structure can be indirect strings of the type supported by [**SHLoadIndirectString**](https://msdn.microsoft.com/library/Bb759919(v=VS.85).aspx). Before an **FWPM\_DISPLAY\_DATA0** structure is returned by any of the functions, the indirect strings are resolved to the specified string resource using the caller's locale.
+    All the localizable strings are stored in a common data structure: [**FWPM\_DISPLAY\_DATA0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwpm_display_data0). The strings within this structure can be indirect strings of the type supported by [**SHLoadIndirectString**](/windows/win32/api/shlwapi/nf-shlwapi-shloadindirectstring). Before an **FWPM\_DISPLAY\_DATA0** structure is returned by any of the functions, the indirect strings are resolved to the specified string resource using the caller's locale.
 
 -   Associate all objects to a provider.
 
@@ -44,7 +44,7 @@ The following list contains best practices for developing applications using the
 
 -   Perform packet inspection at Stream/Datagram Data layer rather than at the Transport layer.
 
-    This applies to developing callouts. For more information, see [Callout Driver Programming Considerations](https://msdn.microsoft.com/library/ff543882.aspx) in the Windows Driver Kit (WDK).
+    This applies to developing callouts. For more information, see [Callout Driver Programming Considerations](/windows-hardware/drivers/network/callout-driver-programming-considerations) in the Windows Driver Kit (WDK).
 
 -   Consider performance implications when using complex filters.
 
@@ -53,7 +53,3 @@ The following list contains best practices for developing applications using the
  
 
  
-
-
-
-

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The actual properties follow the table of Property Identifiers/Offset Pairs property set values. Each property is stored as a **DWORD**, followed by the data type value.
 
-Type indicators and their associated values are described in the [**PROPVARIANT**](https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx) structure.
+Type indicators and their associated values are described in the [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structure.
 
 All Type/Value pairs must begin on a 32-bit boundary. Thus, values may be followed with null bytes to align the subsequent pair on a 32-bit boundary.
 
@@ -43,7 +43,3 @@ A property value of type identifier **VT\_LPSTR** \| **VT\_VECTOR** would includ
  
 
  
-
-
-
-

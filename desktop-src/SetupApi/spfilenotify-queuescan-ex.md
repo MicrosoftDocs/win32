@@ -32,7 +32,7 @@ Pointer to a [**FILEPATHS**](/windows/desktop/api/Setupapi/ns-setupapi-filepaths
 
 ## Return value
 
-The callback routine should return a [system error code](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+The callback routine should return a [system error code](/windows/desktop/Debug/system-error-codes).
 
 If the callback routine returns NO\_ERROR, the queue scan continues. If the routine returns any other error code, the queue scan aborts and [**SetupScanFileQueue**](/windows/desktop/api/Setupapi/nf-setupapi-setupscanfilequeuea) returns FALSE.
 
@@ -67,9 +67,4 @@ If the callback routine returns NO\_ERROR, the queue scan continues. If the rout
 </dt> </dl>
 
  
-
- 
-
-
-
 

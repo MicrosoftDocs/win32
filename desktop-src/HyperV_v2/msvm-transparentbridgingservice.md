@@ -140,7 +140,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-The time-out period, in seconds, for aging out dynamically learned MAC addresses. This property is inherited from [**CIM\_TransparentBridgingService**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-transparentbridgingservice).
+The time-out period, in seconds, for aging out dynamically learned MAC addresses. This property is inherited from [**CIM\_TransparentBridgingService**](/previous-versions/windows/desktop/clushyperv/cim-transparentbridgingservice).
 
 </dd> <dt>
 
@@ -153,7 +153,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-Indicates the possible values for the *RequestedState* parameter of the **RequestStateChange** method. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
+Indicates the possible values for the *RequestedState* parameter of the **RequestStateChange** method. This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)).
 
 </dd> <dt>
 
@@ -166,7 +166,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always "Virtual Switch Transparent Bridging Service".
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always "Virtual Switch Transparent Bridging Service".
 
 </dd> <dt>
 
@@ -179,7 +179,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 <dl> <dt>
 
@@ -215,7 +215,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-service).
+A short description of the object. This property is inherited from [**CIM\_Service**](/windows/desktop/CIMWin32Prov/cim-service).
 
 </dd> <dt>
 
@@ -228,7 +228,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Microsoft Virtual Switch Transparent Bridging Service".
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Microsoft Virtual Switch Transparent Bridging Service".
 
 </dd> <dt>
 
@@ -241,7 +241,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Compliments the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Compliments the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 <dl> <dt>
 
@@ -280,7 +280,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property allows each instance to define a display name in addition to its key properties, identity data, and description information. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A display name for the object. This property allows each instance to define a display name in addition to its key properties, identity data, and description information. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -293,7 +293,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-An administrator's default or startup configuration for the Enabled State of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
+An administrator's default or startup configuration for the Enabled State of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)).
 
 </dd> <dt>
 
@@ -306,7 +306,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The enabled and disabled states of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
+The enabled and disabled states of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)).
 
 </dd> <dt>
 
@@ -319,7 +319,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-The filtering database identifier used by switches that support VLAN and that have more than one filtering database. This property is inherited from [**CIM\_TransparentBridgingService**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-transparentbridgingservice).
+The filtering database identifier used by switches that support VLAN and that have more than one filtering database. This property is inherited from [**CIM\_TransparentBridgingService**](/previous-versions/windows/desktop/clushyperv/cim-transparentbridgingservice).
 
 </dd> <dt>
 
@@ -332,7 +332,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The current health of the element. This attribute expresses the health of this element but not necessarily that of its subcomponents. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+The current health of the element. This attribute expresses the health of this element but not necessarily that of its subcomponents. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -345,7 +345,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-Specifies the time when the object was installed. Lack of a value does not indicate that the object is not installed. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and it is not used.
+Specifies the time when the object was installed. Lack of a value does not indicate that the object is not installed. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and it is not used.
 
 </dd> <dt>
 
@@ -361,7 +361,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -374,7 +374,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-Do not use. A free-form array of strings that provide descriptive words and phrases that can be used in queries. This property is not implemented because it is not standardized. If this property were a necessary query construct, then it would be required higher in the inheritance hierarchy. This property is inherited from [**CIM\_NetworkService**](https://docs.microsoft.com/previous-versions//cc136875(v=vs.85)).
+Do not use. A free-form array of strings that provide descriptive words and phrases that can be used in queries. This property is not implemented because it is not standardized. If this property were a necessary query construct, then it would be required higher in the inheritance hierarchy. This property is inherited from [**CIM\_NetworkService**](/previous-versions//cc136875(v=vs.85)).
 
 </dd> <dt>
 
@@ -387,7 +387,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A name that uniquely identifies the service and provides an indication of the functionality that is managed. This property is inherited from [**CIM\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-service).
+A name that uniquely identifies the service and provides an indication of the functionality that is managed. This property is inherited from [**CIM\_Service**](/windows/desktop/CIMWin32Prov/cim-service).
 
 </dd> <dt>
 
@@ -400,7 +400,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 <dl> <dt>
 
@@ -472,7 +472,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-The current status of the element. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+The current status of the element. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -485,7 +485,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The enabled or disabled state of the element when the **EnabledState** property is set to 1 (Other). This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), and it is not used.
+The enabled or disabled state of the element when the **EnabledState** property is set to 1 (Other). This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)), and it is not used.
 
 </dd> <dt>
 
@@ -498,7 +498,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The type of protocol that is being forwarded when the value of **ProtocolType** is 1 (Other). This property is inherited from [**CIM\_ForwardingService**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-forwardingservice).
+The type of protocol that is being forwarded when the value of **ProtocolType** is 1 (Other). This property is inherited from [**CIM\_ForwardingService**](/previous-versions/windows/desktop/clushyperv/cim-forwardingservice).
 
 </dd> <dt>
 
@@ -511,7 +511,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that provides information about how the primary owner of the Service can be reached. This property is inherited from [**CIM\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-service).
+A string that provides information about how the primary owner of the Service can be reached. This property is inherited from [**CIM\_Service**](/windows/desktop/CIMWin32Prov/cim-service).
 
 </dd> <dt>
 
@@ -524,7 +524,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The name of the primary owner for the service, if one is defined. This property is inherited from [**CIM\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-service).
+The name of the primary owner for the service, if one is defined. This property is inherited from [**CIM\_Service**](/windows/desktop/CIMWin32Prov/cim-service).
 
 </dd> <dt>
 
@@ -537,7 +537,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status of the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status of the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 <dl> <dt>
 
@@ -570,7 +570,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The type of protocol that is being forwarded. This property is inherited from [**CIM\_ForwardingService**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-forwardingservice).
+The type of protocol that is being forwarded. This property is inherited from [**CIM\_ForwardingService**](/previous-versions/windows/desktop/clushyperv/cim-forwardingservice).
 
 </dd> <dt>
 
@@ -583,7 +583,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The last requested or desired state for the management service. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
+The last requested or desired state for the management service. This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)).
 
 </dd> <dt>
 
@@ -596,7 +596,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Do not use. A URL that provides the protocol, network location, and other service-specific information required to access the service. Instead, use the **ServiceAccessURI** class, which correctly positions the semantics of the service access, and clarifies the format of the information. This property is inherited from [**CIM\_NetworkService**](https://docs.microsoft.com/previous-versions//cc136875(v=vs.85)).
+Do not use. A URL that provides the protocol, network location, and other service-specific information required to access the service. Instead, use the **ServiceAccessURI** class, which correctly positions the semantics of the service access, and clarifies the format of the information. This property is inherited from [**CIM\_NetworkService**](/previous-versions//cc136875(v=vs.85)).
 
 </dd> <dt>
 
@@ -609,7 +609,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether the service has been started (**True**), or stopped (**False**). This property is inherited from [**CIM\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-service).
+Indicates whether the service has been started (**True**), or stopped (**False**). This property is inherited from [**CIM\_Service**](/windows/desktop/CIMWin32Prov/cim-service).
 
 </dd> <dt>
 
@@ -622,7 +622,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether the service is automatically started by a system, an operating system, and so on, or is started only upon request. This property is inherited from [**CIM\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-service).
+Indicates whether the service is automatically started by a system, an operating system, and so on, or is started only upon request. This property is inherited from [**CIM\_Service**](/windows/desktop/CIMWin32Prov/cim-service).
 
 </dd> <dt>
 
@@ -635,7 +635,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-Do not use. A free-form array of strings that specify any specific preconditions that must be met for this service to start correctly. This property is not useful because it is not standardized. If this property were a necessary construct, then it would be required higher in the inheritance hierarchy (on Service). This property is inherited from [**CIM\_NetworkService**](https://docs.microsoft.com/previous-versions//cc136875(v=vs.85)).
+Do not use. A free-form array of strings that specify any specific preconditions that must be met for this service to start correctly. This property is not useful because it is not standardized. If this property were a necessary construct, then it would be required higher in the inheritance hierarchy (on Service). This property is inherited from [**CIM\_NetworkService**](/previous-versions//cc136875(v=vs.85)).
 
 </dd> <dt>
 
@@ -648,7 +648,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-Do not use. A free-form array of strings that specify any specific parameters that must be supplied to the **StartService** method for this service to start correctly. If this method were refined, then its parameters would more formally convey this information. This property is inherited from [**CIM\_NetworkService**](https://docs.microsoft.com/previous-versions//cc136875(v=vs.85)).
+Do not use. A free-form array of strings that specify any specific parameters that must be supplied to the **StartService** method for this service to start correctly. If this method were refined, then its parameters would more formally convey this information. This property is inherited from [**CIM\_NetworkService**](/previous-versions//cc136875(v=vs.85)).
 
 </dd> <dt>
 
@@ -661,7 +661,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The current status of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+The current status of the object. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -674,7 +674,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-Strings that describe the various **OperationalStatus** array values. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Strings that describe the various **OperationalStatus** array values. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -687,7 +687,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The creation class name of the scoping system. This property is inherited from [**CIM\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-service).
+The creation class name of the scoping system. This property is inherited from [**CIM\_Service**](/windows/desktop/CIMWin32Prov/cim-service).
 
 </dd> <dt>
 
@@ -700,7 +700,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The NetBIOS name of the hosting computer system. This property is inherited from [**CIM\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-service).
+The NetBIOS name of the hosting computer system. This property is inherited from [**CIM\_Service**](/windows/desktop/CIMWin32Prov/cim-service).
 
 </dd> <dt>
 
@@ -713,7 +713,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date or time when the enabled state of the element last changed. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), and it is not used.
+The date or time when the enabled state of the element last changed. This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)), and it is not used.
 
 </dd> <dt>
 
@@ -726,13 +726,13 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates the target state to which the instance is transitioning. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
+Indicates the target state to which the instance is transitioning. This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_TransparentBridgingService** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_TransparentBridgingService** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -755,13 +755,8 @@ Access to the **Msvm\_TransparentBridgingService** class might be restricted by 
 [**CIM\_TransparentBridgingService**](cim-transparentbridgingservice.md)
 </dt> <dt>
 
-[**CIM\_TransparentBridgingService**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-transparentbridgingservice)
+[**CIM\_TransparentBridgingService**](/previous-versions/windows/desktop/clushyperv/cim-transparentbridgingservice)
 </dt> </dl>
 
  
-
- 
-
-
-
 

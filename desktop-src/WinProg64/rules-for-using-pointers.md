@@ -100,7 +100,7 @@ Porting your code to compile for both 32- and 64-bit Microsoft Windows is straig
 
     `SetWindowLongPtr(hWnd, GWLP_WNDPROC, (LONG_PTR)MyWndProc);`
 
-    When setting the **cbWndExtra** member of the [**WNDCLASS**](https://msdn.microsoft.com/library/ms633576(v=VS.85).aspx) structure, be sure to reserve enough space for pointers. For example, if you are currently reserving sizeof(DWORD) bytes for a pointer value, reserve sizeof(DWORD\_PTR) bytes.
+    When setting the **cbWndExtra** member of the [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) structure, be sure to reserve enough space for pointers. For example, if you are currently reserving sizeof(DWORD) bytes for a pointer value, reserve sizeof(DWORD\_PTR) bytes.
 
 8.  Access all window and class data using **FIELD\_OFFSET**.
 
@@ -113,7 +113,3 @@ Porting your code to compile for both 32- and 64-bit Microsoft Windows is straig
  
 
  
-
-
-
-

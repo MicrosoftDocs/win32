@@ -14,7 +14,7 @@ The [COM compound file storage object implementation](ipropertystorage-compound-
 
 To get a pointer to the compound file implementation of [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage), specify the header-defined name for the identifier IID\_IStorage as the *riid* parameter, or use the [**StgCreateStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex) or [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) functions. In both cases, specify STGFMT\_STORAGE as the *stgfmt* parameter. (STGFMT\_ANY can alternatively be specified in the case of **StgOpenStorageEx**.) Also, specify the header-defined name for the interface identifier (IID) IID\_IPropertySetStorage as the *riid* parameter. Both functions supply a pointer to the object **IPropertySetStorage** interface.
 
-Another way to get a pointer to the compound file implementation is to specify the header-defined name for the identifier IID\_IStorage as the *riid* parameter, or to use the [**StgCreateDocfile**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile) or [**StgOpenStorage**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorage) functions. This will supply a pointer to the object [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) interface. When you want to deal with persistent property sets, call [**IStorage::QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) for the [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) interface.
+Another way to get a pointer to the compound file implementation is to specify the header-defined name for the identifier IID\_IStorage as the *riid* parameter, or to use the [**StgCreateDocfile**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile) or [**StgOpenStorage**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorage) functions. This will supply a pointer to the object [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) interface. When you want to deal with persistent property sets, call [**IStorage::QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) for the [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) interface.
 
 ## When to Use IPropertySetStorage
 
@@ -36,7 +36,7 @@ Deletes a property set in this property storage.
 
 [**IPropertySetStorage::Enum**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-enum)
 
-Creates an object used to enumerate [**STATPROPSETSTG**](https://msdn.microsoft.com/library/Aa379184(v=VS.85).aspx) structures. Each **STATPROPSETSTG** structure provides data about a single property set.
+Creates an object used to enumerate [**STATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) structures. Each **STATPROPSETSTG** structure provides data about a single property set.
 
 ## Remarks
 
@@ -73,13 +73,9 @@ Simple property sets cannot be transacted. You cannot specify STGM\_TRANSACTED i
 [**PROPSETFLAG Constants**](propsetflag-constants.md)
 </dt> <dt>
 
-[**STATPROPSETSTG**](https://msdn.microsoft.com/library/Aa379184(v=VS.85).aspx)
+[**STATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg)
 </dt> </dl>
 
  
 
  
-
-
-
-

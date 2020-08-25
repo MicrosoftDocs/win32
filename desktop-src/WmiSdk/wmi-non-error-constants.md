@@ -18,7 +18,7 @@ If an operation does not result in an error, WMI returns one of the following co
 
  
 
-In C++, you can call [**FormatMessage**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage) and specify **C:\\Windows\\System32\\wbem\\wmiutils.dll** as the message module.
+In C++, you can call [**FormatMessage**](/windows/desktop/api/winbase/nf-winbase-formatmessage) and specify **C:\\Windows\\System32\\wbem\\wmiutils.dll** as the message module.
 
 <dl> <dt>
 
@@ -225,9 +225,4 @@ Reserved for future use.
 </dt> </dl>
 
  
-
- 
-
-
-
 

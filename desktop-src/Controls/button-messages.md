@@ -21,7 +21,7 @@ The following topics are discussed in this section.
 
 ## Sending Messages to Buttons
 
-A parent window can send messages to a button in an overlapped or child window by using the [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage) function, or it can send messages to a button in a dialog box by using the [**SendDlgItemMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-senddlgitemmessagea), [**CheckDlgButton**](/windows/desktop/api/Winuser/nf-winuser-checkdlgbutton), [**CheckRadioButton**](/windows/desktop/api/Winuser/nf-winuser-checkradiobutton), and [**IsDlgButtonChecked**](/windows/desktop/api/Winuser/nf-winuser-isdlgbuttonchecked) functions.
+A parent window can send messages to a button in an overlapped or child window by using the [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) function, or it can send messages to a button in a dialog box by using the [**SendDlgItemMessage**](/windows/desktop/api/winuser/nf-winuser-senddlgitemmessagea), [**CheckDlgButton**](/windows/desktop/api/Winuser/nf-winuser-checkdlgbutton), [**CheckRadioButton**](/windows/desktop/api/Winuser/nf-winuser-checkradiobutton), and [**IsDlgButtonChecked**](/windows/desktop/api/Winuser/nf-winuser-isdlgbuttonchecked) functions.
 
 An application can use the [**BM\_GETCHECK**](bm-getcheck.md) message to retrieve the check state of a check box or radio button. An application can also use the [**BM\_GETSTATE**](bm-getstate.md) message to retrieve the button's current states (the check state, push state, and focus state). To get information about a specific state, use a bitmask on the returned state value.
 
@@ -29,19 +29,19 @@ The [**BM\_SETCHECK**](bm-setcheck.md) message sets the check state of a check b
 
 A button of the [**BS\_BITMAP**](button-styles.md) or [**BS\_ICON**](button-styles.md) style displays a bitmap or icon instead of text. The [**BM\_SETIMAGE**](bm-setimage.md) message associates a handle to a bitmap or icon with a button. The [**BM\_GETIMAGE**](bm-getimage.md) message retrieves a handle to the bitmap or icon associated with a button.
 
-An application can also use the [**DM\_GETDEFID**](https://docs.microsoft.com/windows/desktop/dlgbox/dm-getdefid) message to retrieve the identifier of the default push button control in a dialog box. An application can use the [**DM\_SETDEFID**](https://docs.microsoft.com/windows/desktop/dlgbox/dm-setdefid) message to set the default push button for a dialog box.
+An application can also use the [**DM\_GETDEFID**](/windows/desktop/dlgbox/dm-getdefid) message to retrieve the identifier of the default push button control in a dialog box. An application can use the [**DM\_SETDEFID**](/windows/desktop/dlgbox/dm-setdefid) message to set the default push button for a dialog box.
 
 Calling the [**CheckDlgButton**](/windows/desktop/api/Winuser/nf-winuser-checkdlgbutton) or [**CheckRadioButton**](/windows/desktop/api/Winuser/nf-winuser-checkradiobutton) function is equivalent to sending a [**BM\_SETCHECK**](bm-setcheck.md) message. Calling the [**IsDlgButtonChecked**](/windows/desktop/api/Winuser/nf-winuser-isdlgbuttonchecked) function is equivalent to sending a [**BM\_GETCHECK**](bm-getcheck.md) message.
 
 ## Handling Messages from a Button
 
-Notifications from a button are sent as either [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) or [**WM\_NOTIFY**](wm-notify.md) messages. Information about which message is used can be found on the reference page for each notification.
+Notifications from a button are sent as either [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) or [**WM\_NOTIFY**](wm-notify.md) messages. Information about which message is used can be found on the reference page for each notification.
 
 For more information on how to handle messages, see [Control Messages](control-messages.md). See also Button Messages.
 
 ## Notification Messages from Buttons
 
-When the user clicks a button, its state changes, and the button sends notification codes, in the form of [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) messages, to its parent window. For example, a push button control sends the [BN\_CLICKED](bn-clicked.md) notification code whenever the user chooses the button. In all cases (except for [BCN\_HOTITEMCHANGE](bcn-hotitemchange.md)), the low-order word of the *wParam* parameter contains the control identifier, the high-order word of *wParam* contains the notification code, and the *lParam* parameter contains the control window handle.
+When the user clicks a button, its state changes, and the button sends notification codes, in the form of [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) messages, to its parent window. For example, a push button control sends the [BN\_CLICKED](bn-clicked.md) notification code whenever the user chooses the button. In all cases (except for [BCN\_HOTITEMCHANGE](bcn-hotitemchange.md)), the low-order word of the *wParam* parameter contains the control identifier, the high-order word of *wParam* contains the notification code, and the *lParam* parameter contains the control window handle.
 
 Both the message and the parent window's response depend on the type, style, and current state of the button. Following are the button notification codes an application should monitor and process.
 
@@ -71,7 +71,7 @@ When the user selects an owner-drawn button, the button sends its parent window 
 
 ## Button Color Messages
 
-The system provides default color values for buttons. An application can retrieve the default values for these colors by calling the [**GetSysColor**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor) function, or set the values by calling the [**SetSysColors**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setsyscolors) function. The following table shows the default button-color values.
+The system provides default color values for buttons. An application can retrieve the default values for these colors by calling the [**GetSysColor**](/windows/desktop/api/winuser/nf-winuser-getsyscolor) function, or set the values by calling the [**SetSysColors**](/windows/desktop/api/winuser/nf-winuser-setsyscolors) function. The following table shows the default button-color values.
 
 
 
@@ -90,7 +90,7 @@ The system provides default color values for buttons. An application can retriev
 
  
 
-However, calling [**SetSysColors**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setsyscolors) affects all applications, so you should not call this function to customize buttons for your application.
+However, calling [**SetSysColors**](/windows/desktop/api/winuser/nf-winuser-setsyscolors) affects all applications, so you should not call this function to customize buttons for your application.
 
 The system sends a [**WM\_CTLCOLORBTN**](wm-ctlcolorbtn.md) message to a button's parent window before drawing a button. This message contains a handle to the button's device context and a handle to the child window. The parent window can use these handles to change the button's text and background colors. However, only owner-drawn buttons respond to the parent window processing the message.
 
@@ -267,7 +267,7 @@ The window procedure for the predefined button control window class carries out 
 
  
 
-The predefined window procedure passes all other messages to the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function for default processing.
+The predefined window procedure passes all other messages to the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function for default processing.
 
 ## Related topics
 
@@ -279,7 +279,3 @@ The predefined window procedure passes all other messages to the [**DefWindowPro
  
 
  
-
-
-
-

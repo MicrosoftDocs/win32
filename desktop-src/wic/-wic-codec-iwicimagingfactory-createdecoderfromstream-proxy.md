@@ -49,7 +49,7 @@ Type: **[**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwici
 *pIStream* \[in\]
 </dt> <dd>
 
-Type: **[IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream)\***
+Type: **[IStream](/windows/desktop/api/objidl/nn-objidl-istream)\***
 
 The stream to create the decoder from.
 
@@ -103,9 +103,4 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
  
-
- 
-
-
-
 

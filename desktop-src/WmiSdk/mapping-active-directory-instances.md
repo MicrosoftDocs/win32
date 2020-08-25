@@ -66,11 +66,8 @@ For more information about **Uint8Array** and **DN\_With\_Binary**, see [Mapping
 
 ## Mapping Instance Associations
 
-The Directory Services provider maps the different container relationships in Active Directory using instances of the [**DS\_LDAP\_Instance\_Containment**](https://docs.microsoft.com/previous-versions/windows/desktop/dsprov/ds-ldap-instance-containment) class.
+The Directory Services provider maps the different container relationships in Active Directory using instances of the [**DS\_LDAP\_Instance\_Containment**](/previous-versions/windows/desktop/dsprov/ds-ldap-instance-containment) class.
 
  
 
  
-
-
-

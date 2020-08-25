@@ -36,9 +36,9 @@ This parameter is not used.
 
 The coordinates of a point in the control's client area. The coordinates are in screen units and are relative to the upper-left corner of the control's client area.
 
-**Rich edit controls:** A pointer to a [**POINTL**](https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)) structure that contains the horizontal and vertical coordinates.
+**Rich edit controls:** A pointer to a [**POINTL**](/previous-versions//dd162807(v=vs.85)) structure that contains the horizontal and vertical coordinates.
 
-**Edit controls:** The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the horizontal coordinate. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) contains the vertical coordinate.
+**Edit controls:** The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the horizontal coordinate. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) contains the vertical coordinate.
 
 </dd> </dl>
 
@@ -46,7 +46,7 @@ The coordinates of a point in the control's client area. The coordinates are in 
 
 **Rich edit controls:** The return value specifies the zero-based character index of the character nearest the specified point. The return value indicates the last character in the edit control if the specified point is beyond the last character in the control.
 
-**Edit controls:** The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the zero-based index of the character nearest the specified point. This index is relative to the beginning of the control, not the beginning of the line. If the specified point is beyond the last character in the edit control, the return value indicates the last character in the control. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the zero-based index of the line that contains the character. For single-line edit controls, this value is zero. The index indicates the line delimiter if the specified point is beyond the last visible character in a line.
+**Edit controls:** The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the zero-based index of the character nearest the specified point. This index is relative to the beginning of the control, not the beginning of the line. If the specified point is beyond the last character in the edit control, the return value indicates the last character in the control. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the zero-based index of the line that contains the character. For single-line edit controls, this value is zero. The index indicates the line delimiter if the specified point is beyond the last visible character in a line.
 
 ## Remarks
 
@@ -79,17 +79,11 @@ If a point is passed to **EM\_CHARFROMPOS** as the *lParam* and the point is out
 **Other Resources**
 </dt> <dt>
 
-[**MAKELPARAM**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makelparam)
+[**MAKELPARAM**](/windows/desktop/api/winuser/nf-winuser-makelparam)
 </dt> <dt>
 
-[**POINTL**](https://docs.microsoft.com/previous-versions//dd162807(v=vs.85))
+[**POINTL**](/previous-versions//dd162807(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

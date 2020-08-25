@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Using the Proper Active Directory Syntax
 
-You supply the Lightweight Directory Access Protocol (LDAP) namespace and Active Directory Services Interface (ADSI) paths when calling the [Active Directory Provider](https://docs.microsoft.com/previous-versions/windows/desktop/dsprov/active-directory-provider) through WMI.
+You supply the Lightweight Directory Access Protocol (LDAP) namespace and Active Directory Services Interface (ADSI) paths when calling the [Active Directory Provider](/previous-versions/windows/desktop/dsprov/active-directory-provider) through WMI.
 
 The following topics describe the LDAP namespace and the ADSI path:
 
@@ -29,6 +29,3 @@ The following topics describe the LDAP namespace and the ADSI path:
  
 
  
-
-
-

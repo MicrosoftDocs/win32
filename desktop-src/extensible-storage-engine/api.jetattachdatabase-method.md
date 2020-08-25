@@ -70,7 +70,7 @@ public static JET_wrn JetAttachDatabase(
 <!-- end list -->
 
   - database  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The database to attach.
 
@@ -95,4 +95,3 @@ An ESENT warning code.
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

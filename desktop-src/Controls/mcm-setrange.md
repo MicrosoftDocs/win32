@@ -33,8 +33,8 @@ Flag values that specify which date limits are being set. This value must be one
 
 | Value                                                                                                                                          | Meaning                                                                                                                                                          |
 |------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="GDTR_MAX"></span><span id="gdtr_max"></span><dl> <dt>**GDTR\_MAX**</dt> </dl> | The maximum allowable date is being set. The [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure at *lpSysTimeArray*\[1\] must contain date information. <br/> |
-| <span id="GDTR_MIN"></span><span id="gdtr_min"></span><dl> <dt>**GDTR\_MIN**</dt> </dl> | The minimum allowable date is being set. The [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure at *lpSysTimeArray*\[0\] must contain date information. <br/> |
+| <span id="GDTR_MAX"></span><span id="gdtr_max"></span><dl> <dt>**GDTR\_MAX**</dt> </dl> | The maximum allowable date is being set. The [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure at *lpSysTimeArray*\[1\] must contain date information. <br/> |
+| <span id="GDTR_MIN"></span><span id="gdtr_min"></span><dl> <dt>**GDTR\_MIN**</dt> </dl> | The minimum allowable date is being set. The [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure at *lpSysTimeArray*\[0\] must contain date information. <br/> |
 
 
 
@@ -45,7 +45,7 @@ Flag values that specify which date limits are being set. This value must be one
 *lParam* 
 </dt> <dd>
 
-Pointer to a two-element array of [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structures that contain the date limits. The maximum limit must be in *lpSysTimeArray*\[1\] if GDTR\_MAX is specified, and *lpSysTimeArray*\[0\] must contain the minimum limit if GDTR\_MIN is specified.
+Pointer to a two-element array of [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structures that contain the date limits. The maximum limit must be in *lpSysTimeArray*\[1\] if GDTR\_MAX is specified, and *lpSysTimeArray*\[0\] must contain the minimum limit if GDTR\_MIN is specified.
 
 </dd> </dl>
 
@@ -73,10 +73,4 @@ Returns nonzero if successful, or zero otherwise.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

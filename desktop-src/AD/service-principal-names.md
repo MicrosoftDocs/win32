@@ -44,7 +44,7 @@ When a client wants to connect to a service, it locates an instance of the servi
 
 <dl> <dt>
 
-[What is an SPN and why should you care?](https://blogs.msdn.microsoft.com/autz_auth_stuff/2011/04/28/what-is-a-spn-and-why-should-you-care/)
+[What is an SPN and why should you care?](/archive/blogs/autz_auth_stuff/what-is-a-spn-and-why-should-you-care)
 </dt> <dt>
 
 [Mutual Authentication Using Kerberos](mutual-authentication-using-kerberos.md)
@@ -53,7 +53,3 @@ When a client wants to connect to a service, it locates an instance of the servi
  
 
  
-
-
-
-

@@ -8,27 +8,27 @@ ms.date: 05/31/2018
 
 # How to save Direct2D content to an image file
 
-This topic shows how to use [**IWICImageEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder) to save content in the form of an [**ID2D1Image**](https://msdn.microsoft.com/library/Hh446803(v=VS.85).aspx) to an encoded image file such as JPEG. If you are writing a Windows Store app, you can have the user select a destination file using [**Windows::Storage::Pickers::FileSavePicker**](https://docs.microsoft.com/uwp/api/Windows.Storage.Pickers.FileSavePicker).
+This topic shows how to use [**IWICImageEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder) to save content in the form of an [**ID2D1Image**](/windows/win32/api/d2d1/nn-d2d1-id2d1image) to an encoded image file such as JPEG. If you are writing a Windows Store app, you can have the user select a destination file using [**Windows::Storage::Pickers::FileSavePicker**](/uwp/api/Windows.Storage.Pickers.FileSavePicker).
 
 ## What you need to know
 
 ### Technologies
 
--   [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx)
+-   [Direct2D](./direct2d-portal.md)
 -   [Direct2D effects](effects-overview.md)
--   [**Windows::Storage::Pickers::FileSavePicker**](https://docs.microsoft.com/uwp/api/Windows.Storage.Pickers.FileSavePicker)
+-   [**Windows::Storage::Pickers::FileSavePicker**](/uwp/api/Windows.Storage.Pickers.FileSavePicker)
 
 ### Prerequisites
 
--   You need an [**ID2D1DeviceContext**](https://msdn.microsoft.com/library/Hh404479(v=VS.85).aspx) object and an object containing [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) content that implements [**ID2D1Image**](https://msdn.microsoft.com/library/Hh446803(v=VS.85).aspx) such as [**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx) or [**ID2D1Bitmap1**](https://msdn.microsoft.com/library/Hh404349(v=VS.85).aspx).
+-   You need an [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) object and an object containing [Direct2D](./direct2d-portal.md) content that implements [**ID2D1Image**](/windows/win32/api/d2d1/nn-d2d1-id2d1image) such as [**ID2D1Effect**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1effect) or [**ID2D1Bitmap1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1bitmap1).
 
 ## Instructions
 
 ### Step 1: Get a destination file and stream
 
-If you want to allow the user to select a destination file, you can use [**FileSavePicker**](https://docs.microsoft.com/uwp/api/Windows.Storage.Pickers.FileSavePicker), open the returned file, and obtain an [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) to use with WIC.
+If you want to allow the user to select a destination file, you can use [**FileSavePicker**](/uwp/api/Windows.Storage.Pickers.FileSavePicker), open the returned file, and obtain an [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) to use with WIC.
 
-Create a [**Windows::Storage::Pickers::FileSavePicker**](https://docs.microsoft.com/uwp/api/Windows.Storage.Pickers.FileSavePicker) and set its parameters for image files. Call the [**PickSaveFileAsync**](https://docs.microsoft.com/uwp/api/windows.storage.pickers.filesavepicker.picksavefileasync) method.
+Create a [**Windows::Storage::Pickers::FileSavePicker**](/uwp/api/Windows.Storage.Pickers.FileSavePicker) and set its parameters for image files. Call the [**PickSaveFileAsync**](/uwp/api/windows.storage.pickers.filesavepicker.picksavefileasync) method.
 
 
 ```C++
@@ -48,7 +48,7 @@ Create a [**Windows::Storage::Pickers::FileSavePicker**](https://docs.microsoft.
 
 
 
-Declare a completion handler to run after the file picker async operation returns. Use the [**GetResults**](https://docs.microsoft.com/windows/desktop/WinRT/iasyncaction-getresults) method to retrieve the file and to get the file stream object.
+Declare a completion handler to run after the file picker async operation returns. Use the [**GetResults**](/windows/desktop/WinRT/iasyncaction-getresults) method to retrieve the file and to get the file stream object.
 
 
 ```C++
@@ -66,7 +66,7 @@ Declare a completion handler to run after the file picker async operation return
 
 
 
-Obtain an [**IRandomAccessStream**](https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)) by calling [**OpenAsync**](https://docs.microsoft.com/uwp/api/windows.storage.storagefile.openasync) on the file and getting the result of the async operation.
+Obtain an [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85)) by calling [**OpenAsync**](/uwp/api/windows.storage.storagefile.openasync) on the file and getting the result of the async operation.
 
 
 ```C++
@@ -76,7 +76,7 @@ Obtain an [**IRandomAccessStream**](https://docs.microsoft.com/previous-versions
 
 
 
-Finally, use the [**CreateStreamOverRandomAccessStream**](https://docs.microsoft.com/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) method to convert the file stream. Windows Runtime APIs represent streams with [**IRandomAccessStream**](https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)), while WIC consumes [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream).
+Finally, use the [**CreateStreamOverRandomAccessStream**](/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) method to convert the file stream. Windows Runtime APIs represent streams with [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85)), while WIC consumes [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream).
 
 
 ```C++
@@ -89,13 +89,13 @@ Finally, use the [**CreateStreamOverRandomAccessStream**](https://docs.microsoft
 
 
 > [!Note]  
-> To use the [**CreateStreamOverRandomAccessStream**](https://docs.microsoft.com/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) function, you should include **shcore.h** in your project.
+> To use the [**CreateStreamOverRandomAccessStream**](/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) function, you should include **shcore.h** in your project.
 
  
 
 ### Step 2: Get the WIC bitmap and frame encoder
 
-[IWICBitmapEncoder](https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapencoder) and [IWICBitmapFrameEncode](https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapframeencode) provide the functionality to save imaging data to an encoded file format.
+[IWICBitmapEncoder](/windows/desktop/wic/-wic-imp-iwicbitmapencoder) and [IWICBitmapFrameEncode](/windows/desktop/wic/-wic-imp-iwicbitmapframeencode) provide the functionality to save imaging data to an encoded file format.
 
 Create and initialize the encoder objects.
 
@@ -134,7 +134,7 @@ Create and initialize the encoder objects.
 
 ### Step 3: Get an IWICImageEncoder
 
-[**IWICImageEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder) is a new interface in Windows 8. It can be created from [**IWICImagingFactory2**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory2), which extends **IWICImagingFactory** and is also new for Windows 8.
+[**IWICImageEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder) is a new interface in Windows 8. It can be created from [**IWICImagingFactory2**](/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory2), which extends **IWICImagingFactory** and is also new for Windows 8.
 
 
 ```C++
@@ -152,7 +152,7 @@ DX::ThrowIfFailed(
 
 
 
-Call [**IWICImagingFactory2::CreateImageEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory2-createimageencoder). The first parameter is an [**ID2D1Device**](https://msdn.microsoft.com/library/Hh404478(v=VS.85).aspx) and must be the device on which the image you want to encode was created – you cannot mix images from different resource domains within a single [**IWICImageEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder).
+Call [**IWICImagingFactory2::CreateImageEncoder**](/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory2-createimageencoder). The first parameter is an [**ID2D1Device**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1device) and must be the device on which the image you want to encode was created – you cannot mix images from different resource domains within a single [**IWICImageEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder).
 
 
 ```C++
@@ -169,9 +169,9 @@ Call [**IWICImagingFactory2::CreateImageEncoder**](https://docs.microsoft.com/wi
 
 ### Step 4: Write the Direct2D content using IWICImageEncoder
 
-[**IWICImageEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder) can write a [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) image into an image frame, a frame thumbnail, or the container thumbnail. You can then use [IWICBitmapEncoder](https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapencoder) and [IWICBitmapFrameEncode](https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapframeencode) to encode the imaging data to a file as normal.
+[**IWICImageEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder) can write a [Direct2D](./direct2d-portal.md) image into an image frame, a frame thumbnail, or the container thumbnail. You can then use [IWICBitmapEncoder](/windows/desktop/wic/-wic-imp-iwicbitmapencoder) and [IWICBitmapFrameEncode](/windows/desktop/wic/-wic-imp-iwicbitmapframeencode) to encode the imaging data to a file as normal.
 
-Write the [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) image to the frame. In this snippet we write an [**ID2D1Bitmap**](https://msdn.microsoft.com/library/Dd371109(v=VS.85).aspx) that contains rasterized Direct2D content. However, you can provide any interface that implements [**ID2D1Image**](https://msdn.microsoft.com/library/Hh446803(v=VS.85).aspx).
+Write the [Direct2D](./direct2d-portal.md) image to the frame. In this snippet we write an [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) that contains rasterized Direct2D content. However, you can provide any interface that implements [**ID2D1Image**](/windows/win32/api/d2d1/nn-d2d1-id2d1image).
 
 
 ```C++
@@ -187,7 +187,7 @@ Write the [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) 
 
 
 > [!Note]  
-> The [**ID2D1Image**](https://msdn.microsoft.com/library/Hh446803(v=VS.85).aspx) parameter must have been created on the [**ID2D1Device**](https://msdn.microsoft.com/library/Hh404478(v=VS.85).aspx) that was passed into [**IWICImagingFactory2::CreateImageEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory2-createimageencoder).
+> The [**ID2D1Image**](/windows/win32/api/d2d1/nn-d2d1-id2d1image) parameter must have been created on the [**ID2D1Device**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1device) that was passed into [**IWICImagingFactory2::CreateImageEncoder**](/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory2-createimageencoder).
 
  
 
@@ -212,11 +212,11 @@ Commit the WIC and stream resources to finalize the operation.
 
 
 > [!Note]  
-> Some implementations of [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) do not implement the [**Commit**](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-commit) method and return **E\_NOTIMPL**.
+> Some implementations of [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) do not implement the [**Commit**](/windows/desktop/api/objidl/nf-objidl-istream-commit) method and return **E\_NOTIMPL**.
 
  
 
-Now you have a file containing the [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) image.
+Now you have a file containing the [Direct2D](./direct2d-portal.md) image.
 
 ## Complete example
 
@@ -363,7 +363,3 @@ void SaveAsImageFile::SaveBitmapToStream(
  
 
  
-
-
-
-

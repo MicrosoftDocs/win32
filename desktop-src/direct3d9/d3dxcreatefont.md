@@ -49,16 +49,16 @@ HRESULT D3DXCreateFont(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, the device to be associated with the font object.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, the device to be associated with the font object.
 
 </dd> <dt>
 
 *Height* \[in\]
 </dt> <dd>
 
-Type: **[**INT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**INT**](../winprog/windows-data-types.md)**
 
 The height of the characters in logical units.
 
@@ -67,7 +67,7 @@ The height of the characters in logical units.
 *Width* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The width of the characters in logical units.
 
@@ -76,7 +76,7 @@ The width of the characters in logical units.
 *Weight* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Typeface weight. One example is bold.
 
@@ -85,7 +85,7 @@ Typeface weight. One example is bold.
 *MipLevels* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The number of mipmap levels.
 
@@ -94,7 +94,7 @@ The number of mipmap levels.
 *Italic* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 True for italic font, false otherwise.
 
@@ -103,7 +103,7 @@ True for italic font, false otherwise.
 *CharSet* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 The character set of the font.
 
@@ -112,7 +112,7 @@ The character set of the font.
 *OutputPrecision* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Specifies how Windows should attempt to match the desired font sizes and characteristics with actual fonts. Use OUT\_TT\_ONLY\_PRECIS for instance, to ensure that you always get a TrueType font.
 
@@ -121,7 +121,7 @@ Specifies how Windows should attempt to match the desired font sizes and charact
 *Quality* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Specifies how Windows should match the desired font with a real font. It applies to raster fonts only and should not affect TrueType fonts.
 
@@ -130,7 +130,7 @@ Specifies how Windows should match the desired font with a real font. It applies
 *PitchAndFamily* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Pitch and family index.
 
@@ -139,7 +139,7 @@ Pitch and family index.
 *pFacename* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 String containing the typeface name. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the string data type resolves to LPCSTR. See Remarks.
 
@@ -166,7 +166,7 @@ The creation of an ID3DXFont object requires that the device supports 32-bit col
 
 The compiler setting also determines the function version. If Unicode is defined, the function call resolves to D3DXCreateFontW. Otherwise, the function call resolves to D3DXCreateFontA because ANSI strings are being used.
 
-If you want more information about font parameters, see [The Logical Font](https://msdn.microsoft.com/library/Dd183520(v=VS.85).aspx).
+If you want more information about font parameters, see [The Logical Font](../gdi/creating-a-logical-font.md).
 
 ## Requirements
 
@@ -189,7 +189,3 @@ If you want more information about font parameters, see [The Logical Font](https
  
 
  
-
-
-
-

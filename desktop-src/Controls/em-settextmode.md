@@ -85,7 +85,7 @@ In rich text mode, a rich edit control has standard rich edit functionality. How
 -   The user cannot paste rich text formats, such as Rich Text Format (RTF) or embedded objects into a plain text control.
 -   Rich text mode controls always have a default end-of-document marker or carriage return, to format paragraphs. Plain text controls, on the other hand, do not need the default, end-of-document marker, so it is omitted.
 
-The control must contain no text when it receives the **EM\_SETTEXTMODE** message. To ensure there is no text, send a [**WM\_SETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-settext) message with an empty string ("").
+The control must contain no text when it receives the **EM\_SETTEXTMODE** message. To ensure there is no text, send a [**WM\_SETTEXT**](/windows/desktop/winmsg/wm-settext) message with an empty string ("").
 
 ## Requirements
 
@@ -112,14 +112,8 @@ The control must contain no text when it receives the **EM\_SETTEXTMODE** messag
 [**TEXTMODE**](/windows/win32/api/richedit/ne-richedit-textmode)
 </dt> <dt>
 
-[**WM\_SETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-settext)
+[**WM\_SETTEXT**](/windows/desktop/winmsg/wm-settext)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

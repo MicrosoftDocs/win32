@@ -24,7 +24,7 @@ To keep track of the data coming from multiple sensors, you can use the followin
 
 ## Example Code
 
-The following example code shows an implementation for the [**OnDataUpdated**](https://msdn.microsoft.com/library/Dd318859(v=VS.85).aspx) event. The event handler calls a helper function, named **UpdateUI**, that changes the user interface based on the lux value. Writing the implementation of UpdateUI is up to you.
+The following example code shows an implementation for the [**OnDataUpdated**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensorevents-ondataupdated) event. The event handler calls a helper function, named **UpdateUI**, that changes the user interface based on the lux value. Writing the implementation of UpdateUI is up to you.
 
 
 ```C++
@@ -80,6 +80,3 @@ STDMETHODIMP CALSEventSink::OnDataUpdated(
  
 
  
-
-
-

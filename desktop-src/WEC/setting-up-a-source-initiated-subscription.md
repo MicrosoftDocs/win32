@@ -156,6 +156,8 @@ The following prerequisites must be met before the subscription is created.
 - If the client certificate was issued by an Intermediate certification authority and the collector is running Windows 2012 or later you will have to configure the following registry key:
 
     **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\Schannel\ClientAuthTrustMode (DWORD) = 2**
+ 
+- Verify that both the server and client are able to successfully check revocation status on all certificates. Use of the **certutil** command can assist in troubleshooting any errors.
 
 Find more information in this article: https://technet.microsoft.com/library/dn786429(v=ws.11).aspx
 
@@ -182,7 +184,7 @@ Find more information in this article: https://technet.microsoft.com/library/dn7
 1. Create new local user and add it to the local Administrators group.
 2. Create the certificate mapping using a certificate that is present in the machine’s “Trusted Root Certification Authorities” or “Intermediate Certification Authorities”.
 
-    This is the certificate of the Root or Intermediate CA that issued the certificates installed on the Event Source computers:
+    This is the certificate of the Root or Intermediate CA that issued the certificates installed on the Event Source computers *(to avoid confusion, this is the CA immediately above the certificate in the certificate chain)*:
 
     **winrm create winrm/config/service/certmapping?Issuer**=&lt;_Thumbprint of the issuing CA certificate_&gt;**+Subject=&#42;+URI=&#42; @{UserName="**&lt;_username_&gt;**";Password="**&lt;_password_&gt;**"} -remote:localhost**
 

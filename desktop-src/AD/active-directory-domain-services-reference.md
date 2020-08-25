@@ -24,12 +24,8 @@ This section includes reference materials for programming in Microsoft Active Di
 -   [User Interface Mappings](user-interface-mappings-in-active-directory-domain-services.md)
 -   [WMI Provider Reference](wmi-provider-reference-for-active-directory-domain-services.md)
 
-To view the online reference pages for the Active Directory schema, see the [Active Directory Schema](https://docs.microsoft.com/windows/desktop/ADSchema/active-directory-schema). For overview information about the Active Directory Schema from an Active Directory Domain Services perspective, see [Active Directory Schema](active-directory-schema.md).
+To view the online reference pages for the Active Directory schema, see the [Active Directory Schema](/windows/desktop/ADSchema/active-directory-schema). For overview information about the Active Directory Schema from an Active Directory Domain Services perspective, see [Active Directory Schema](active-directory-schema.md).
 
  
 
  
-
-
-
-

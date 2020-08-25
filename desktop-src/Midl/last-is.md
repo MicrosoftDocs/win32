@@ -57,7 +57,7 @@ proc1(
 
 <dl> <dt>
 
-[Field Attributes](https://docs.microsoft.com/windows/desktop/Rpc/field-attributes)
+[Field Attributes](/windows/desktop/Rpc/field-attributes)
 </dt> <dt>
 
 [**first\_is**](first-is.md)
@@ -78,7 +78,3 @@ proc1(
  
 
  
-
-
-
-

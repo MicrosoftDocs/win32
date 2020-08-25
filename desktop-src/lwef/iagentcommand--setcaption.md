@@ -16,7 +16,7 @@ HRESULT SetCaption(
 );
 ```
 
-Sets the [**Caption**](caption-property.md) text displayed for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
+Sets the [**Caption**](caption-property.md) text displayed for a [**Command**](/windows/desktop/lwef/the-command-object).
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,11 +25,11 @@ Sets the [**Caption**](caption-property.md) text displayed for a [**Command**](h
 <span id="bszCaption"></span><span id="bszcaption"></span><span id="BSZCAPTION"></span>*bszCaption*
 </dt> <dd>
 
-A BSTR that specifies the text for the [**Caption**](caption-property.md) property for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
+A BSTR that specifies the text for the [**Caption**](caption-property.md) property for a [**Command**](/windows/desktop/lwef/the-command-object).
 
 </dd> </dl>
 
-Setting the [**Caption**](caption-property.md) property for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) defines how it will appear on the character's pop-up menu when its [**Visible**](visible-property.md) property is set to **True** and your application is not the input-active client. To specify an access key (unlined mnemonic) for your **Caption**, include an ampersand (&) character before that character. To make it selectable, its [**Enabled**](enabled-property.md) property must be set to **True**.
+Setting the [**Caption**](caption-property.md) property for a [**Command**](/windows/desktop/lwef/the-command-object) defines how it will appear on the character's pop-up menu when its [**Visible**](visible-property.md) property is set to **True** and your application is not the input-active client. To specify an access key (unlined mnemonic) for your **Caption**, include an ampersand (&) character before that character. To make it selectable, its [**Enabled**](enabled-property.md) property must be set to **True**.
 
 ## See Also
 
@@ -39,7 +39,3 @@ Setting the [**Caption**](caption-property.md) property for a [**Command**](http
  
 
  
-
-
-
-

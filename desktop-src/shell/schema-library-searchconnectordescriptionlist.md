@@ -46,12 +46,9 @@ Search connectors for Windows Federated Search and protocol handler scopes canno
 [Library Description Schema](library-schema-entry.md)
 </dt> <dt>
 
-[Search Connector Description Schema](https://msdn.microsoft.com/library/Dd743009(v=VS.85).aspx)
+[Search Connector Description Schema](/previous-versions//dd743009(v=vs.85))
 </dt> </dl>
 
  
 
  
-
-
-

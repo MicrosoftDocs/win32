@@ -55,7 +55,7 @@ The **MDM\_Policy\_Result01\_Kerberos02** class has these properties.
 
 <dl> <dt>
 
-[AllowForestSearchOrder](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-kerberos#kerberos-allowforestsearchorder)
+[AllowForestSearchOrder](/windows/client-management/mdm/policy-csp-kerberos#kerberos-allowforestsearchorder)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -75,12 +75,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[KerberosClientSupportsClaimsCompoundArmor](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-kerberos#kerberos-kerberosclientsupportsclaimscompoundarmor)
+[KerberosClientSupportsClaimsCompoundArmor](/windows/client-management/mdm/policy-csp-kerberos#kerberos-kerberosclientsupportsclaimscompoundarmor)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -100,12 +100,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[RequireKerberosArmoring](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-kerberos#kerberos-requirekerberosarmoring)
+[RequireKerberosArmoring](/windows/client-management/mdm/policy-csp-kerberos#kerberos-requirekerberosarmoring)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -116,7 +116,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RequireStrictKDCValidation](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-kerberos#kerberos-requirestrictkdcvalidation)
+[RequireStrictKDCValidation](/windows/client-management/mdm/policy-csp-kerberos#kerberos-requirestrictkdcvalidation)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -127,7 +127,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SetMaximumContextTokenSize](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-kerberos#kerberos-setmaximumcontexttokensize)
+[SetMaximumContextTokenSize](/windows/client-management/mdm/policy-csp-kerberos#kerberos-setmaximumcontexttokensize)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -153,10 +153,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

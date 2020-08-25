@@ -46,7 +46,7 @@ The **Provider** element is defined by the [**SystemPropertiesType**](eventschem
 
 | Name            | Type                                                | Description                                                                                                                                        |
 |-----------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| EventSourceName | string                                              | The name of the event source that published the event (if the event source is from the legacy [Event Logging](https://docs.microsoft.com/windows/desktop/EventLog/event-logging) API).<br/> |
+| EventSourceName | string                                              | The name of the event source that published the event (if the event source is from the legacy [Event Logging](/windows/desktop/EventLog/event-logging) API).<br/> |
 | Guid            | [**GUIDType**](eventschema-guidtype-simpletype.md) | The globally unique identifier that uniquely identifies the provider.<br/>                                                                   |
 | Name            | anyURI                                              | The name of the event provider that logged the event.<br/>                                                                                   |
 
@@ -74,10 +74,4 @@ The **Provider** element is defined by the [**SystemPropertiesType**](eventschem
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

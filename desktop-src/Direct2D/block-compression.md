@@ -17,11 +17,11 @@ This topic describes how block compression works and how to use it in WIC and Di
 
 ## About Block Compression
 
-[Block Compression](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression) (BC) refers to a class of compression techniques for reducing texture sizes. Direct3D 11 supports up to 7 different BC formats depending on feature level. In Windows 8.1 Direct2D introduces support for the BC1, BC2 and BC3 formats which are available across all feature levels.
+[Block Compression](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression) (BC) refers to a class of compression techniques for reducing texture sizes. Direct3D 11 supports up to 7 different BC formats depending on feature level. In Windows 8.1 Direct2D introduces support for the BC1, BC2 and BC3 formats which are available across all feature levels.
 
 ### How Block Compression works
 
-The block compressed formats all use the same basic technique to reduce the space consumed by color data. This section summarizes the simplest algorithm, BC1. For a more detailed explanation, see [Block Compression](https://docs.microsoft.com/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11).
+The block compressed formats all use the same basic technique to reduce the space consumed by color data. This section summarizes the simplest algorithm, BC1. For a more detailed explanation, see [Block Compression](/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11).
 
 First, the image is divided into blocks of 4 by 4 pixels. Each block is compressed separately.
 
@@ -56,7 +56,7 @@ There are variations to support alpha data and varying numbers of color channels
 
 ### DirectDraw Surface (DDS) file format
 
-Block compressed data is typically stored in [DirectDraw Surface (DDS)](https://docs.microsoft.com/windows/desktop/direct3ddds/dx-graphics-dds-reference) files. You may be familiar with DDS files if you are a Direct3D developer. Note that Direct2D only supports certain DDS features; for more information see [DDS Requirements](#dds-requirements).
+Block compressed data is typically stored in [DirectDraw Surface (DDS)](/windows/desktop/direct3ddds/dx-graphics-dds-reference) files. You may be familiar with DDS files if you are a Direct3D developer. Note that Direct2D only supports certain DDS features; for more information see [DDS Requirements](#dds-requirements).
 
 ### Advantages of block compression
 
@@ -82,7 +82,7 @@ Block compressed DDS files are a runtime-optimized format, meaning that they are
 
 The DDS file format was designed to support a wide range of features used in Direct3D. Direct2D only uses a subset of these features. Therefore when you are creating DDS images for use with Direct2D, you must keep in mind the following restrictions:
 
--   Only the following [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) values are allowed:
+-   Only the following [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) values are allowed:
     -   DXGI\_FORMAT\_BC1\_UNORM
     -   DXGI\_FORMAT\_BC2\_UNORM
     -   DXGI\_FORMAT\_BC3\_UNORM
@@ -96,7 +96,7 @@ There are a variety of DDS authoring tools available to create or convert block 
 
 Beginning with Visual Studio 2013, you can have Visual Studio convert existing visual assets such as JPEG and PNG to the correct DDS block compressed format as an automatic part of your build process. This is accomplished using the Image Content Task custom build step.
 
-For information on how to set this up for your project, see: [How to: Export a Texture for Use with Direct2D or Javascipt Apps](https://msdn.microsoft.com/library/Dn392693(v=VS.120).aspx).
+For information on how to set this up for your project, see: [How to: Export a Texture for Use with Direct2D or Javascipt Apps](/previous-versions/visualstudio/visual-studio-2013/dn392693(v=vs.120)).
 
 ### Direct2D APIs
 
@@ -110,54 +110,50 @@ For the preceding formats, you must use premultiplied alpha. In addition, these 
 
 The following methods are updated in Windows 8.1 to support BC formats:
 
--   [**ID2D1DeviceContext::IsDxgiFormatSupported**](https://msdn.microsoft.com/library/Hh847982(v=VS.85).aspx)
--   [**ID2D1DeviceContext::CreateBitmap**](https://msdn.microsoft.com/library/Hh404480(v=VS.85).aspx)
+-   [**ID2D1DeviceContext::IsDxgiFormatSupported**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-isdxgiformatsupported)
+-   [**ID2D1DeviceContext::CreateBitmap**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmap(d2d1_size_u_constvoid_uint32_constd2d1_bitmap_properties1__id2d1bitmap1))
 -   [**ID2D1DeviceContext::CreateBitmapFromDxgiSurface**](/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromdxgisurface(idxgisurface_constd2d1_bitmap_properties1__id2d1bitmap1))
--   [**ID2D1RenderTarget::CreateSharedBitmap**](https://msdn.microsoft.com/library/Dd371865(v=VS.85).aspx)
+-   [**ID2D1RenderTarget::CreateSharedBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsharedbitmap)
 -   [**ID2D1RenderTarget::CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md)
--   [**ID2D1Bitmap::CopyFromMemory**](https://msdn.microsoft.com/library/Dd371155(v=VS.85).aspx)
--   [**ID2D1Bitmap::CopyFromBitmap**](https://msdn.microsoft.com/library/Dd371152(v=VS.85).aspx)
--   [**ID2D1Bitmap1::GetSurface**](https://msdn.microsoft.com/library/Hh404355(v=VS.85).aspx)
+-   [**ID2D1Bitmap::CopyFromMemory**](/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-copyfrommemory)
+-   [**ID2D1Bitmap::CopyFromBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-copyfrombitmap)
+-   [**ID2D1Bitmap1::GetSurface**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-getsurface)
 
-Note that [**CreateBitmapFromWicBitmap**](id2d1devicecontext-createbitmapfromwicbitmap-overload.md) takes [**IWICBitmapSource**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource) as an interface; however in Windows 8.1 WIC does not support obtaining block compressed data from **IWICBitmapSource**, and there is no WIC pixel format corresponding to DXGI\_FORMAT\_BC1\_UNORM, etc. Instead, **CreateBitmapFromWicBitmap** determines if the **IWICBitmapSource** is a valid DDS [**IWICBitmapFrameDecode**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode) and directly loads the block compressed data. You can either explicitly specify the pixel format in the [**D2D1\_BITMAP\_PROPERTIES1**](/windows/desktop/api/D2D1_1/ns-d2d1_1-d2d1_bitmap_properties1) struct, or allow Direct2D to automatically determine the correct format.
+Note that [**CreateBitmapFromWicBitmap**](id2d1devicecontext-createbitmapfromwicbitmap-overload.md) takes [**IWICBitmapSource**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource) as an interface; however in Windows 8.1 WIC does not support obtaining block compressed data from **IWICBitmapSource**, and there is no WIC pixel format corresponding to DXGI\_FORMAT\_BC1\_UNORM, etc. Instead, **CreateBitmapFromWicBitmap** determines if the **IWICBitmapSource** is a valid DDS [**IWICBitmapFrameDecode**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode) and directly loads the block compressed data. You can either explicitly specify the pixel format in the [**D2D1\_BITMAP\_PROPERTIES1**](/windows/desktop/api/D2D1_1/ns-d2d1_1-d2d1_bitmap_properties1) struct, or allow Direct2D to automatically determine the correct format.
 
 ### Windows Imaging Component APIs
 
 The Windows Imaging Component (WIC) adds a new DDS codec in Windows 8.1. In addition, it adds new interfaces that support accessing DDS-specific data, including block compressed pixel data:
 
--   [**IWICDdsDecoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicddsdecoder)
--   [**IWICDdsEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicddsencoder)
--   [**IWICDdsFrameDecode**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicddsframedecode)
+-   [**IWICDdsDecoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicddsdecoder)
+-   [**IWICDdsEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicddsencoder)
+-   [**IWICDdsFrameDecode**](/windows/desktop/api/wincodec/nn-wincodec-iwicddsframedecode)
 
 ### Block Compressed WIC pixel formats
 
-There are no new WIC block compressed pixel formats in Windows 8.1. Instead, if you obtain an [**IWICBitmapFrameDecode**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode) from the DDS decoder and call [**CopyPixels**](https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels), you will receive standard uncompressed pixels such as WICPixelFormat32bppPBGRA. You can use [**IWICDdsFrameDecode::CopyBlocks**](https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicddsframedecode-copyblocks) to obtain the raw block compressed data in the form of a memory buffer from a DDS file.
+There are no new WIC block compressed pixel formats in Windows 8.1. Instead, if you obtain an [**IWICBitmapFrameDecode**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode) from the DDS decoder and call [**CopyPixels**](/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels), you will receive standard uncompressed pixels such as WICPixelFormat32bppPBGRA. You can use [**IWICDdsFrameDecode::CopyBlocks**](/windows/desktop/api/wincodec/nf-wincodec-iwicddsframedecode-copyblocks) to obtain the raw block compressed data in the form of a memory buffer from a DDS file.
 
 ### Multi-frame DDS access
 
-The DDS file format allows for multiple related images to be stored in a single file. For example, a DDS file may contain a cubemap, volume texture, or texture array, all of which can be mipmapped. In Direct3D, these multiple images are exposed as subresources. In WIC, multiple images are exposed as frames ([**IWICBitmapFrameDecode**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode) and [**IWICBitmapFrameEncode**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode)).
+The DDS file format allows for multiple related images to be stored in a single file. For example, a DDS file may contain a cubemap, volume texture, or texture array, all of which can be mipmapped. In Direct3D, these multiple images are exposed as subresources. In WIC, multiple images are exposed as frames ([**IWICBitmapFrameDecode**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode) and [**IWICBitmapFrameEncode**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode)).
 
-WIC only supports the notion of a single dimensional array of frames, while DDS supports three independent dimensions (although only two may be used in any one file). WIC provides convenience methods to assist with mapping between a DDS subresource and WIC frame. For decoding, [**IWICDdsDecoder::GetFrame**](https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicddsdecoder-getframe) lets you specify the array index, mip level and slice index of the subresource, and returns the correct WIC frame.
+WIC only supports the notion of a single dimensional array of frames, while DDS supports three independent dimensions (although only two may be used in any one file). WIC provides convenience methods to assist with mapping between a DDS subresource and WIC frame. For decoding, [**IWICDdsDecoder::GetFrame**](/windows/desktop/api/wincodec/nf-wincodec-iwicddsdecoder-getframe) lets you specify the array index, mip level and slice index of the subresource, and returns the correct WIC frame.
 
-For encoding, [**IWICDdsEncoder::CreateNewFrame**](https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicddsencoder-createnewframe) computes the resulting array index, mip level and slice index when you create a new frame. You must have first called [**IWICDdsEncoder::SetParameters**](https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicddsencoder-setparameters) to define the DDS-specific file parameters.
+For encoding, [**IWICDdsEncoder::CreateNewFrame**](/windows/desktop/api/wincodec/nf-wincodec-iwicddsencoder-createnewframe) computes the resulting array index, mip level and slice index when you create a new frame. You must have first called [**IWICDdsEncoder::SetParameters**](/windows/desktop/api/wincodec/nf-wincodec-iwicddsencoder-setparameters) to define the DDS-specific file parameters.
 
 ## Related topics
 
 <dl> <dt>
 
-[How to: Export a Texture for Use with Direct2D or Javascipt Apps](https://msdn.microsoft.com/library/Dn392693(v=VS.120).aspx)
+[How to: Export a Texture for Use with Direct2D or Javascipt Apps](/previous-versions/visualstudio/visual-studio-2013/dn392693(v=vs.120))
 </dt> <dt>
 
-[Reference for DDS](https://docs.microsoft.com/windows/desktop/direct3ddds/dx-graphics-dds-reference)
+[Reference for DDS](/windows/desktop/direct3ddds/dx-graphics-dds-reference)
 </dt> <dt>
 
-[Block Compression](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression)
+[Block Compression](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression)
 </dt> </dl>
 
  
 
  
-
-
-
-

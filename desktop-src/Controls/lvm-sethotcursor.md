@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # LVM\_SETHOTCURSOR message
 
-Sets the HCURSOR value that the list-view control uses when the pointer is over an item while hot tracking is enabled. You can send this message explicitly or use the [**ListView\_SetHotCursor**](/windows/desktop/api/Commctrl/nf-commctrl-listview_sethotcursor) macro. To check whether hot tracking is enabled, call [**SystemParametersInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa).
+Sets the HCURSOR value that the list-view control uses when the pointer is over an item while hot tracking is enabled. You can send this message explicitly or use the [**ListView\_SetHotCursor**](/windows/desktop/api/Commctrl/nf-commctrl-listview_sethotcursor) macro. To check whether hot tracking is enabled, call [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa).
 
 ## Parameters
 
@@ -55,10 +55,4 @@ A list-view control uses hot tracking and hover selection when the [**LVS\_EX\_T
 
 
  
-
- 
-
-
-
-
 

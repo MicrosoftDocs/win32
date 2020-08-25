@@ -34,29 +34,29 @@ You can create an Internet shortcut by using a WebBrowser control or with the UR
 
 If your application hosts a WebBrowser control, you can use the Internet shortcut object to create shortcuts in the following way.
 
-1.  Create an instance of the Internet shortcut object with [CoCreateInstance](https://msdn.microsoft.com/library/ms686615(VS.85).aspx), using a class identifier (CLSID) of CLSID\_InternetShortcut.
-2.  Pass the pointer to the WebBrowser's [IUnknown](https://msdn.microsoft.com/library/ms680509(VS.85).aspx) interface to the Internet shortcut object with [IObjectWithSite::SetSite](https://msdn.microsoft.com/library/ms683869(VS.85).aspx).
-3.  Call the Internet shortcut object's [IPersistFile::Save](https://msdn.microsoft.com/library/ms693701(VS.85).aspx) method when you want to create a shortcut to the page being viewed by the WebBrowser control.
+1.  Create an instance of the Internet shortcut object with [CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance), using a class identifier (CLSID) of CLSID\_InternetShortcut.
+2.  Pass the pointer to the WebBrowser's [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface to the Internet shortcut object with [IObjectWithSite::SetSite](/windows/win32/api/ocidl/nf-ocidl-iobjectwithsite-setsite).
+3.  Call the Internet shortcut object's [IPersistFile::Save](/windows/win32/api/objidl/nf-objidl-ipersistfile-save) method when you want to create a shortcut to the page being viewed by the WebBrowser control.
 
-A shortcut will be created in the location specified in [IPersistFile::Save](https://msdn.microsoft.com/library/ms693701(VS.85).aspx). This location enables the WebBrowser control to restore its state, which includes the task of loading of the correct documents into framesets.
+A shortcut will be created in the location specified in [IPersistFile::Save](/windows/win32/api/objidl/nf-objidl-ipersistfile-save). This location enables the WebBrowser control to restore its state, which includes the task of loading of the correct documents into framesets.
 
 ### Creating an Internet Shortcut from a URL
 
 You can also create an Internet shortcut if you have the URL of the page to which you want to link.
 
-1.  Create an instance of the Internet shortcut object with [CoCreateInstance](https://msdn.microsoft.com/library/ms686615(VS.85).aspx), using a CLSID of CLSID\_InternetShortcut.
-2.  Use the [IUniformResourceLocator::SetURL](https://msdn.microsoft.com/library/dd565676(VS.85).aspx) method to set the URL in the shortcut.
-3.  Use the [IPersistFile::Save](https://msdn.microsoft.com/library/ms693701(VS.85).aspx) method to save the shortcut file to a desired location.
+1.  Create an instance of the Internet shortcut object with [CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance), using a CLSID of CLSID\_InternetShortcut.
+2.  Use the [IUniformResourceLocator::SetURL](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/dd565676(v=vs.85)) method to set the URL in the shortcut.
+3.  Use the [IPersistFile::Save](/windows/win32/api/objidl/nf-objidl-ipersistfile-save) method to save the shortcut file to a desired location.
 
 ## Accessing Property Storage
 
-The Internet shortcut object contains several properties that you can access through the object's [IPropertySetStorage](https://msdn.microsoft.com/library/Aa379840(VS.85).aspx) interface with the following procedure.
+The Internet shortcut object contains several properties that you can access through the object's [IPropertySetStorage](/windows/win32/api/propidl/nn-propidl-ipropertysetstorage) interface with the following procedure.
 
-1.  Get the [IPropertySetStorage](https://msdn.microsoft.com/library/Aa379840(VS.85).aspx) interface by calling [QueryInterface](https://msdn.microsoft.com/library/ms682521(VS.85).aspx) with IID\_IPropertySetStorage.
-2.  Access the Internet shortcut property storage set by calling [IPropertySetStorage::Open](https://msdn.microsoft.com/library/Aa379965(VS.85).aspx) with FMTID\_Intshcut or FMTID\_InternetSite to obtain the [IPropertyStorage](https://msdn.microsoft.com/library/Aa379968(VS.85).aspx) interface.
-3.  Read the property storage information with [IPropertyStorage::ReadMultiple](https://msdn.microsoft.com/library/Aa379975(VS.85).aspx) by passing the appropriate property ID.
+1.  Get the [IPropertySetStorage](/windows/win32/api/propidl/nn-propidl-ipropertysetstorage) interface by calling [QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) with IID\_IPropertySetStorage.
+2.  Access the Internet shortcut property storage set by calling [IPropertySetStorage::Open](/windows/win32/api/propidl/nf-propidl-ipropertysetstorage-open) with FMTID\_Intshcut or FMTID\_InternetSite to obtain the [IPropertyStorage](/windows/win32/api/propidlbase/nn-propidlbase-ipropertystorage) interface.
+3.  Read the property storage information with [IPropertyStorage::ReadMultiple](/windows/win32/api/propidlbase/nf-propidlbase-ipropertystorage-readmultiple) by passing the appropriate property ID.
 
-With [version 4.70 or higher](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)) of Shell32.dll, you can also retrieve the [IPropertySetStorage](https://msdn.microsoft.com/library/Aa379840(VS.85).aspx) interface by calling [**IShellFolder::BindToStorage**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtostorage) with the *pidl* parameter set to the .URL file and the *riid* parameter set to IID\_IPropertySetStorage.
+With [version 4.70 or higher](/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)) of Shell32.dll, you can also retrieve the [IPropertySetStorage](/windows/win32/api/propidl/nn-propidl-ipropertysetstorage) interface by calling [**IShellFolder::BindToStorage**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtostorage) with the *pidl* parameter set to the .URL file and the *riid* parameter set to IID\_IPropertySetStorage.
 
 The following property IDs can be requested for FMTID\_Intshcut.
 
@@ -148,22 +148,22 @@ The Internet shortcut object exposes a number of interfaces.
 
 ### OLE interfaces
 
--   [IDataObject](https://msdn.microsoft.com/library/ms688421(VS.85).aspx)
--   [IPersistFile](https://msdn.microsoft.com/library/ms687223(VS.85).aspx)
--   [IPersistStream](https://msdn.microsoft.com/library/ms690091(VS.85).aspx)
--   [IOleCommandTarget](https://msdn.microsoft.com/library/ms683797(VS.85).aspx)
--   [IPropertySetStorage](https://msdn.microsoft.com/library/Aa379840(VS.85).aspx)
--   [IObjectWithSite](https://msdn.microsoft.com/library/ms693765(VS.85).aspx)
+-   [IDataObject](/windows/win32/api/objidl/nn-objidl-idataobject)
+-   [IPersistFile](/windows/win32/api/objidl/nn-objidl-ipersistfile)
+-   [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream)
+-   [IOleCommandTarget](/windows/win32/api/docobj/nn-docobj-iolecommandtarget)
+-   [IPropertySetStorage](/windows/win32/api/propidl/nn-propidl-ipropertysetstorage)
+-   [IObjectWithSite](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite)
 
 ### Shell interfaces
 
--   [**IContextMenu2**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2)
--   [**IExtractIcon**](https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona)
--   [**INewShortcutHook**](https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-inewshortcuthooka)
--   [**IShellExtInit**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit)
--   [**IShellLink**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka)
--   [**IShellPropSheetExt**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext)
--   [**IQueryInfo**](https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iqueryinfo)
+-   [**IContextMenu2**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2)
+-   [**IExtractIcon**](/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona)
+-   [**INewShortcutHook**](/windows/desktop/api/shlobj/nn-shlobj-inewshortcuthooka)
+-   [**IShellExtInit**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit)
+-   [**IShellLink**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka)
+-   [**IShellPropSheetExt**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext)
+-   [**IQueryInfo**](/windows/desktop/api/shlobj_core/nn-shlobj_core-iqueryinfo)
 
 ## Functions
 
@@ -171,15 +171,11 @@ There are several utility functions that can be used with the Internet shortcut 
 
 ### Internet shortcut utility functions
 
--   [**InetIsOffline**](https://docs.microsoft.com/windows/desktop/api/intshcut/nf-intshcut-inetisoffline)
--   [**MIMEAssociationDialog**](https://docs.microsoft.com/windows/desktop/api/intshcut/nf-intshcut-mimeassociationdialoga)
--   [**TranslateURL**](https://docs.microsoft.com/windows/desktop/api/intshcut/nf-intshcut-translateurla)
--   [**URLAssociationDialog**](https://docs.microsoft.com/windows/desktop/api/intshcut/nf-intshcut-urlassociationdialoga)
+-   [**InetIsOffline**](/windows/desktop/api/intshcut/nf-intshcut-inetisoffline)
+-   [**MIMEAssociationDialog**](/windows/desktop/api/intshcut/nf-intshcut-mimeassociationdialoga)
+-   [**TranslateURL**](/windows/desktop/api/intshcut/nf-intshcut-translateurla)
+-   [**URLAssociationDialog**](/windows/desktop/api/intshcut/nf-intshcut-urlassociationdialoga)
 
  
 
  
-
-
-
-

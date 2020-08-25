@@ -26,7 +26,7 @@ Callback to return a render target. The format of the returned render target is 
 
 ## Members
 
-The **IFrameBufferCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IFrameBufferCallback** also has these types of members:
+The **IFrameBufferCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IFrameBufferCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IFrameBufferCallback** interface has these methods.
  
 
  
-
-
-

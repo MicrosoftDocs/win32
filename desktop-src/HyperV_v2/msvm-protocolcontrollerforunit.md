@@ -94,26 +94,26 @@ Indicates whether the controller is actively commanding or accessing the device 
 **Antecedent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ProtocolController**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-protocolcontroller)**
+Data type: **[**CIM\_ProtocolController**](/previous-versions/windows/desktop/iscsitarg/cim-protocolcontroller)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The protocol controller. This class is inherited from [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency).
+The protocol controller. This class is inherited from [**CIM\_Dependency**](/windows/desktop/CIMWin32Prov/cim-dependency).
 
 </dd> <dt>
 
 **Dependent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice)**
+Data type: **[**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The controlled device. This class is inherited from [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency).
+The controlled device. This class is inherited from [**CIM\_Dependency**](/windows/desktop/CIMWin32Prov/cim-dependency).
 
 </dd> <dt>
 
@@ -160,7 +160,7 @@ The address of the associated device in the context of the antecedent controller
 
 ## Remarks
 
-Access to the **Msvm\_ProtocolControllerForUnit** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_ProtocolControllerForUnit** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -183,16 +183,11 @@ Access to the **Msvm\_ProtocolControllerForUnit** class might be restricted by U
 [**CIM\_ProtocolControllerForUnit**](cim-protocolcontrollerforunit.md)
 </dt> <dt>
 
-[**CIM\_ProtocolControllerForUnit**](https://docs.microsoft.com/previous-versions//cc150672(v=vs.85))
+[**CIM\_ProtocolControllerForUnit**](/previous-versions//cc150672(v=vs.85))
 </dt> <dt>
 
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -34,7 +34,7 @@ The system state can be backed up in any order, but restoration of the system st
 3.  Restore the Active Directory server.
 4.  Restore the registry.
 
-For more information about backing up and restoring Certificate Services, see [Using the Certificate Services Backup and Restore Functions](https://docs.microsoft.com/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions).
+For more information about backing up and restoring Certificate Services, see [Using the Certificate Services Backup and Restore Functions](/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions).
 
 For more information about backing up and restoring Active Directory Domain Services, see:
 
@@ -46,7 +46,3 @@ For more information about backing up and restoring Active Directory Domain Serv
  
 
  
-
-
-
-

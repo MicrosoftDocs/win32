@@ -38,7 +38,7 @@ HRESULT SetPriorityBlend(
 *BlendWeight* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Priority blending weight used by the animation controller.
 
@@ -78,7 +78,3 @@ The blend weight is used to blend high and low priority tracks together.
  
 
  
-
-
-
-

@@ -24,7 +24,7 @@ An **ID3DX11Effect** interface manages a set of state objects, resources, and sh
 
 ## Members
 
-The **ID3DX11Effect** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ID3DX11Effect** also has these types of members:
+The **ID3DX11Effect** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ID3DX11Effect** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -70,7 +70,7 @@ The effect system groups the information required for rendering into an effect w
 
 > [!Note]
 >
-> If you call [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on an **ID3DX11Effect** object to retrieve the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface, **QueryInterface** returns E\_NOINTERFACE. To work around this issue, use the following code:
+> If you call [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on an **ID3DX11Effect** object to retrieve the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface, **QueryInterface** returns E\_NOINTERFACE. To work around this issue, use the following code:
 >
 > <span codelanguage=""></span>
 >
@@ -115,7 +115,3 @@ The effect system groups the information required for rendering into an effect w
 >
 >  
 >
-
-
-
-

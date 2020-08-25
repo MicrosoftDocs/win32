@@ -35,7 +35,7 @@ propVal = Dependency.Module
 
 ## C++
 
-See the [**IMsmDependency\_get\_Module**](https://msdn.microsoft.com/library/Aa369247(v=VS.85).aspx) method.
+See the [**IMsmDependency\_get\_Module**](/windows/win32/api/mergemod/nf-mergemod-imsmdependency-get_module) method.
 
 ## Requirements
 
@@ -50,9 +50,4 @@ See the [**IMsmDependency\_get\_Module**](https://msdn.microsoft.com/library/Aa3
 
 
  
-
- 
-
-
-
 

@@ -40,7 +40,7 @@ case BCN_DROPDOWN:
 
 ### Step 2: Get the screen coordinates of the button.
 
-Use the [**ClientToScreen**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clienttoscreen) function to convert the window coordinates of the button's lower left edge to screen coordinates.
+Use the [**ClientToScreen**](/windows/desktop/api/winuser/nf-winuser-clienttoscreen) function to convert the window coordinates of the button's lower left edge to screen coordinates.
 
 
 ```C++
@@ -54,7 +54,7 @@ ClientToScreen(pDropDown->hdr.hwndFrom, &pt);
 
 ### Step 3: Create a menu and add items.
 
-Use the [**CreatePopupMenu**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createpopupmenu) function to create a menu. Use the [**AppendMenu**](https://docs.microsoft.com/windows/desktop/menurc/u) function to add items to the menu. IDC\_MENUCOMMAND1 and IDC\_MENUCOMMAND2 are application-defined constants for menu commands.
+Use the [**CreatePopupMenu**](/windows/desktop/api/winuser/nf-winuser-createpopupmenu) function to create a menu. Use the [**AppendMenu**](/windows/desktop/menurc/u) function to add items to the menu. IDC\_MENUCOMMAND1 and IDC\_MENUCOMMAND2 are application-defined constants for menu commands.
 
 
 ```C++
@@ -67,7 +67,7 @@ AppendMenu(hSplitMenu, MF_BYPOSITION, IDC_MENUCOMMAND2, L"Menu item 2");
 
 ### Step 4: Display the menu.
 
-The [**TrackPopupMenu**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenu) function displays a shortcut menu at the specified location and tracks the selection of items on the menu.
+The [**TrackPopupMenu**](/windows/desktop/api/winuser/nf-winuser-trackpopupmenu) function displays a shortcut menu at the specified location and tracks the selection of items on the menu.
 
 
 ```C++
@@ -135,7 +135,3 @@ case WM_NOTIFY:
  
 
  
-
-
-
-

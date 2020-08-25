@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # queryControl
 
-Not supported in Windows 7 and later. Specifies what control to use in the query builder. There should be only one [queryControl](https://msdn.microsoft.com/library/Bb773883(v=VS.85).aspx) element for each [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) element.
+Not supported in Windows 7 and later. Specifies what control to use in the query builder. There should be only one [queryControl]() element for each [displayInfo](./propdesc-schema-displayinfo.md) element.
 
-If there are multiple elements, the last one is used. If no [queryControl](https://msdn.microsoft.com/library/Bb773883(v=VS.85).aspx) element is provided, then the default attribute settings are applied to the property description.
+If there are multiple elements, the last one is used. If no [queryControl]() element is provided, then the default attribute settings are applied to the property description.
 
 ## Syntax
 
@@ -46,7 +46,7 @@ If there are multiple elements, the last one is used. If no [queryControl](https
 
 | Parent Element                                   | Child Elements |
 |--------------------------------------------------|----------------|
-| [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) | None           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | None           |
 
 
 
@@ -170,6 +170,3 @@ If there are multiple elements, the last one is used. If no [queryControl](https
  
 
  
-
-
-

@@ -1,6 +1,6 @@
 ---
 title: EapMethod (EapHostUserCredentials) Element
-description: Identifies the method being referred to.
+description: Learn about the EapMethod (EapHostUserCredentials) element. This element identifies the method being referred to.
 ms.assetid: 0a510f44-09ac-466e-a806-4e89909fe850
 keywords:
 - EapMethod element EAPHost
@@ -32,10 +32,10 @@ The **EapMethod** element is defined by the [**EapHostUserCredentials**](eaphost
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

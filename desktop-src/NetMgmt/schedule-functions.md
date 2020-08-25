@@ -27,14 +27,10 @@ The schedule service functions are listed following.
 
  
 
-For the network management schedule functions to succeed, a caller must have administrator's privilege at the computer where the schedule service is running. The schedule service functions are also known as "Job" and "AT command" functions. For more information about calling functions that require administrator privileges, see [Running with Special Privileges](https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges).
+For the network management schedule functions to succeed, a caller must have administrator's privilege at the computer where the schedule service is running. The schedule service functions are also known as "Job" and "AT command" functions. For more information about calling functions that require administrator privileges, see [Running with Special Privileges](/windows/desktop/SecBP/running-with-special-privileges).
 
 The [**AT\_INFO**](/windows/desktop/api/Lmat/ns-lmat-at_info) structure is used by the [**NetScheduleJobAdd**](/windows/desktop/api/Lmat/nf-lmat-netschedulejobadd) function to specify information when submitting a job, and by the [**NetScheduleJobGetInfo**](/windows/desktop/api/Lmat/nf-lmat-netschedulejobgetinfo) function to retrieve information about a job that has been submitted. The [**AT\_ENUM**](/windows/desktop/api/Lmat/ns-lmat-at_enum) structure is used by [**NetScheduleJobEnum**](/windows/desktop/api/Lmat/nf-lmat-netschedulejobenum) to enumerate and return information about an entire queue of submitted jobs.
 
  
 
  
-
-
-
-

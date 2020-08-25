@@ -35,7 +35,7 @@ The **ObTrace** class does not define any members.
 
 ## Remarks
 
-To enable object manager event tracing, call the [**TraceSetInformation**](tracesetinformation.md) function with the *InformationClass* parameter equal to the [**TRACE\_INFO\_CLASS**](trace-info-class.md) enumeration value **TraceSystemTraceEnableFlagsInfo** and the [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md) structure's **EnableFlags** member equal to **PERF\_OB\_HANDLE** (0x80000040).
+To enable object manager event tracing, call the [**TraceSetInformation**](/windows/win32/api/evntrace/nf-evntrace-tracesetinformation) function with the *InformationClass* parameter equal to the [**TRACE\_INFO\_CLASS**](/windows/win32/api/evntrace/ne-evntrace-trace_query_info_class) enumeration value **TraceSystemTraceEnableFlagsInfo** and the [**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) structure's **EnableFlags** member equal to **PERF\_OB\_HANDLE** (0x80000040).
 
 ## Requirements
 
@@ -52,7 +52,3 @@ To enable object manager event tracing, call the [**TraceSetInformation**](trace
  
 
  
-
-
-
-

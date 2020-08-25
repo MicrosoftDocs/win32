@@ -25,7 +25,7 @@ api_location:
 
 # \_\_ACE class
 
-The **\_\_ACE** abstract system class represents an access control entry ([*ACE*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly)).
+The **\_\_ACE** abstract system class represents an access control entry ([*ACE*](/windows/desktop/SecGloss/a-gly)).
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -65,7 +65,7 @@ Data type:
 Access type: Read/write
 </dt> </dl>
 
-Bit flags representing rights that are granted or denied to the trustee. For more information and a description of the flags, see **AccessMask** property in the [**Win32\_ACE**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-ace) class.
+Bit flags representing rights that are granted or denied to the trustee. For more information and a description of the flags, see **AccessMask** property in the [**Win32\_ACE**](/previous-versions/windows/desktop/secrcw32prov/win32-ace) class.
 
 </dd> <dt>
 
@@ -78,7 +78,7 @@ Data type:
 Access type: Read/write
 </dt> </dl>
 
-Bit flags specifying the inheritance of the ACE. For more information and a description of the flags, see **AceFlags** property in the [**Win32\_ACE**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-ace) class.
+Bit flags specifying the inheritance of the ACE. For more information and a description of the flags, see **AceFlags** property in the [**Win32\_ACE**](/previous-versions/windows/desktop/secrcw32prov/win32-ace) class.
 
 </dd> <dt>
 
@@ -149,7 +149,7 @@ The trustee of the ACE entry represented by this instance of the **\_\_ACE** cla
 
 ## Remarks
 
-This class provides the properties that are inherited by the [**Win32\_ACE**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-ace) class, which is a member of the [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) class. For more information, see [WMI Security Descriptor Objects](wmi-security-descriptor-objects.md) and [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md). For more information about ACEs, see [Access Control Components](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-components).
+This class provides the properties that are inherited by the [**Win32\_ACE**](/previous-versions/windows/desktop/secrcw32prov/win32-ace) class, which is a member of the [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) class. For more information, see [WMI Security Descriptor Objects](wmi-security-descriptor-objects.md) and [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md). For more information about ACEs, see [Access Control Components](/windows/desktop/SecAuthZ/access-control-components).
 
 ## Requirements
 
@@ -173,16 +173,11 @@ This class provides the properties that are inherited by the [**Win32\_ACE**](ht
 [WMI System Classes](wmi-system-classes.md)
 </dt> <dt>
 
-[**Win32\_ACE**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-ace)
+[**Win32\_ACE**](/previous-versions/windows/desktop/secrcw32prov/win32-ace)
 </dt> <dt>
 
 [Maintaining WMI Security](maintaining-wmi-security.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

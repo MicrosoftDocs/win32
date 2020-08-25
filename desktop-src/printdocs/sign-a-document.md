@@ -124,7 +124,7 @@ The following code example illustrates how to use the preceding steps in a progr
 **Used in This Section**
 </dt> <dt>
 
-[**CertFreeCertificateContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext)
+[**CertFreeCertificateContext**](/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext)
 </dt> <dt>
 
 [**IXpsSignatureManager**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturemanager)
@@ -154,10 +154,10 @@ The following code example illustrates how to use the preceding steps in a progr
 **For More Information**
 </dt> <dt>
 
-[Cryptography API](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-portal)
+[Cryptography API](/windows/desktop/SecCrypto/cryptography-portal)
 </dt> <dt>
 
-[Cryptography Functions](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions)
+[Cryptography Functions](/windows/desktop/SecCrypto/cryptography-functions)
 </dt> <dt>
 
 [Load a Certificate From a File](load-a-certificate-from-a-file.md)
@@ -184,6 +184,3 @@ The following code example illustrates how to use the preceding steps in a progr
  
 
  
-
-
-

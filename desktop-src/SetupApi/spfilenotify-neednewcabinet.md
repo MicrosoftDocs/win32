@@ -47,7 +47,7 @@ Your routine should return one of the following values.
 | Return code                                                                                 | Description                                                                                                                                                                                                                                  |
 |---------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**NO\_ERROR**</dt> </dl>    | No error was encountered, continue processing the cabinet.<br/>                                                                                                                                                                        |
-| <dl> <dt>**ERROR\_*XXX***</dt> </dl> | An error of the specified type occurred. The [**SetupIterateCabinet**](/windows/desktop/api/Setupapi/nf-setupapi-setupiteratecabineta) function will return **FALSE**, and the specified error code will be returned by a call to [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).<br/> |
+| <dl> <dt>**ERROR\_*XXX***</dt> </dl> | An error of the specified type occurred. The [**SetupIterateCabinet**](/windows/desktop/api/Setupapi/nf-setupapi-setupiteratecabineta) function will return **FALSE**, and the specified error code will be returned by a call to [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).<br/> |
 
 
 
@@ -93,9 +93,4 @@ Your callback function should ensure that the cabinet is accessible before it re
 </dt> </dl>
 
  
-
- 
-
-
-
 

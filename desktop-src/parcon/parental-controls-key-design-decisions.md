@@ -12,7 +12,7 @@ Major design decisions in the development of Windows Vista Parental Controls ar
 
 ## Essential Dependency on Windows Vista User Account Control (UAC) Feature
 
-A key decision for Windows Vista Parental Controls is to rely on the new User Account Control (UAC) feature to implement the reduced rights account identities especially needed for offline restrictions on controlled users. For more information about UAC, see [The Windows Vista and Windows Server 2008 Developer Story: Windows Vista Application Development Requirements for User Account Control (UAC)](https://msdn.microsoft.com/library/aa905330.aspx). In summary, every account with administrator rights effectively has privileges to perform the parent or guardian role of viewing log data and setting policies. Parental controls may only be set on standard-rights users (formerly called Least-privileged User Accounts, or LUAs), as only they cannot alter logs and settings with Access Control Lists (ACLs) configured only for administrators to write. In other words:
+A key decision for Windows Vista Parental Controls is to rely on the new User Account Control (UAC) feature to implement the reduced rights account identities especially needed for offline restrictions on controlled users. For more information about UAC, see [The Windows Vista and Windows Server 2008 Developer Story: Windows Vista Application Development Requirements for User Account Control (UAC)](/previous-versions/aa905330(v=msdn.10)). In summary, every account with administrator rights effectively has privileges to perform the parent or guardian role of viewing log data and setting policies. Parental controls may only be set on standard-rights users (formerly called Least-privileged User Accounts, or LUAs), as only they cannot alter logs and settings with Access Control Lists (ACLs) configured only for administrators to write. In other words:
 
 -   A parent or guardian identity implicitly equals an account that has rights of an administrator.
 -   Parentally controlled users must be standard users.
@@ -30,6 +30,3 @@ A mechanism will be provided to expose the functionality for the domain-joined c
  
 
  
-
-
-

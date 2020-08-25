@@ -17,7 +17,7 @@ api_location:
 
 # Store.Certificates property
 
-\[The **Certificates** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](https://msdn.microsoft.com/library/Hh424027(v=MSDN.10).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[The **Certificates** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](/previous-versions/windows/embedded/hh424027(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
 
 The **Certificates** property retrieves the collection that includes all of the certificates in the store. This is the default property.
 
@@ -55,7 +55,3 @@ The collection of certificates in the store.
  
 
  
-
-
-
-

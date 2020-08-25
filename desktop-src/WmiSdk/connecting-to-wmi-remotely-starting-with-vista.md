@@ -14,7 +14,7 @@ api_location:
 
 # Setting up a Remote WMI Connection
 
-Connecting to a WMI namespace on a remote computer may require that you change the settings for [Windows Firewall](https://technet.microsoft.com/network/bb545423.aspx), [User Account Control (UAC)](https://technet.microsoft.com/En-US/WindowsVista/aa905108.aspx), DCOM, or Common Information Model Object Manager (CIMOM).
+Connecting to a WMI namespace on a remote computer may require that you change the settings for [Windows Firewall](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754274(v=ws.11)), [User Account Control (UAC)](/previous-versions/aa905108(v=msdn.10)), DCOM, or Common Information Model Object Manager (CIMOM).
 
 The following sections are discussed in this topic:
 
@@ -96,7 +96,7 @@ To disable the firewall exceptions separately, use the following commands.
 
 ## User Account Control Settings
 
-User Account Control (UAC) access-token filtering can affect which operations are allowed in WMI namespaces or what data is returned. Under UAC, all accounts in the local Administrators group run with a standard user [*access token*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly), also known as UAC access-token filtering. An administrator account can run a script with an elevated privilege—"Run as Administrator".
+User Account Control (UAC) access-token filtering can affect which operations are allowed in WMI namespaces or what data is returned. Under UAC, all accounts in the local Administrators group run with a standard user [*access token*](/windows/desktop/SecGloss/a-gly), also known as UAC access-token filtering. An administrator account can run a script with an elevated privilege—"Run as Administrator".
 
 When you are not connecting to the built-in Administrator account, UAC affects connections to a remote computer differently depending on whether the two computers are in a domain or a workgroup. For more information about UAC and remote connections, see [User Account Control and WMI](user-account-control-and-wmi.md).
 
@@ -127,6 +127,3 @@ If the **AllowAnonymousCallback** value is set to 0, the WMI service prevents an
  
 
  
-
-
-

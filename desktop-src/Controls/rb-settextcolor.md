@@ -30,13 +30,13 @@ Sets a rebar control's default text color.
 *lParam* 
 </dt> <dd>
 
-[**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value that represents the new default text color.
+[**COLORREF**](/windows/desktop/gdi/colorref) value that represents the new default text color.
 
 </dd> </dl>
 
 ## Return value
 
-Returns a [**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value that represents the previous default text color.
+Returns a [**COLORREF**](/windows/desktop/gdi/colorref) value that represents the previous default text color.
 
 ## Remarks
 
@@ -62,10 +62,4 @@ The rebar control's default text color is used to draw the text in a rebar contr
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

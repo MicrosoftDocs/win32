@@ -19,12 +19,8 @@ In distributed computing, an interface is a collection of definitions and remote
 
 The Microsoft Interface Definition Language (MIDL) is for implementing interfaces used in distributed applications. With MIDL, an application can have one interface or many. Each interface specifies a unique distributed contract between the client and server programs. Applications based on remote procedure calls (RPC), Component Object Model (COM), and Distributed Component Object Model (DCOM) specify their interfaces using MIDL.
 
-MIDL resembles C and C++ in many ways. For an overview of writing MIDL interfaces, see [Developing the Interface](https://docs.microsoft.com/windows/desktop/Rpc/developing-the-interface).
+MIDL resembles C and C++ in many ways. For an overview of writing MIDL interfaces, see [Developing the Interface](/windows/desktop/Rpc/developing-the-interface).
 
  
 
  
-
-
-
-

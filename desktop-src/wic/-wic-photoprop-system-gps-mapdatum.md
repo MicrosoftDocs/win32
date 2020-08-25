@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.MapDatum Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.MapDatum](https://msdn.microsoft.com/library/bb760574(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.MapDatum](../properties/props-system-gps-mapdatum.md) property.
 
 ### PKEY
 
@@ -70,12 +70,9 @@ If the file is in TIFF format, the handler will read, write, and remove the data
 
 <dl> <dt>
 
-[System.GPS.MapDatum](https://msdn.microsoft.com/library/bb760574(VS.85).aspx)
+[System.GPS.MapDatum](../properties/props-system-gps-mapdatum.md)
 </dt> </dl>
 
  
 
  
-
-
-

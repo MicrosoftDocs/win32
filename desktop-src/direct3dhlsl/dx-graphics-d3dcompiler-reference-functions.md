@@ -128,7 +128,7 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 <br/> Gets the input and output signatures from a compilation result.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3DGetInputSignatureBlob</strong>](d3dgetinputsignatureblob.md)<br/></td>
+<td>[<strong>D3DGetInputSignatureBlob</strong>](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetinputsignatureblob)<br/></td>
 <td><blockquote>
 [!Note]<br />
 <a href="d3dgetinputsignatureblob.md"><strong>D3DGetInputSignatureBlob</strong></a> may be altered or unavailable for releases after Windows 8.1. Instead use <a href="d3dgetblobpart.md"><strong>D3DGetBlobPart</strong></a> with the <a href="d3d-blob-part.md"><strong>D3D_BLOB_INPUT_SIGNATURE_BLOB</strong></a> value.
@@ -212,10 +212,4 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

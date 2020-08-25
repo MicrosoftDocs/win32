@@ -70,7 +70,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-An array of strings that provides additional information related to the **AdvertiseType** property. A description must be provided when the **AdvertiseType** is 1 (Other). An entry in this array corresponds to the same index in the **AdvertiseTypes** array. This property is inherited from [**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85)).
+An array of strings that provides additional information related to the **AdvertiseType** property. A description must be provided when the **AdvertiseType** is 1 (Other). An entry in this array corresponds to the same index in the **AdvertiseTypes** array. This property is inherited from [**CIM\_RegisteredProfile**](/previous-versions//ee309375(v=vs.85)).
 
 </dd> <dt>
 
@@ -83,7 +83,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-Specifies the advertisement for the profile information. It is used by the advertising services of the WBEM infrastructure to determine what should be advertised, through what mechanisms. The property is an array so that the profile can be advertised using several mechanisms. If this property is **Null**, this is equivalent to specifying the value 2 (Not Advertised). This property is inherited from [**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85)).
+Specifies the advertisement for the profile information. It is used by the advertising services of the WBEM infrastructure to determine what should be advertised, through what mechanisms. The property is an array so that the profile can be advertised using several mechanisms. If this property is **Null**, this is equivalent to specifying the value 2 (Not Advertised). This property is inherited from [**CIM\_RegisteredProfile**](/previous-versions//ee309375(v=vs.85)).
 
 <dl> <dt>
 
@@ -107,7 +107,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -120,7 +120,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -133,7 +133,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A display name for the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -149,7 +149,7 @@ Access type: Read-only
 Qualifiers: **Key**, **Override**
 </dt> </dl>
 
-A string that uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A string that uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -165,7 +165,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** ( 256 )
 </dt> </dl>
 
-A string that provides a description of the organization when **RegisteredOrganization** contains 1 (Other). This property is inherited from [**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85)).
+A string that provides a description of the organization when **RegisteredOrganization** contains 1 (Other). This property is inherited from [**CIM\_RegisteredProfile**](/previous-versions//ee309375(v=vs.85)).
 
 </dd> <dt>
 
@@ -181,7 +181,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** ( 256 )
 </dt> </dl>
 
-The name of this registered profile. Since multiple versions can exist for the same **RegisteredName**, the combination of **RegisteredName**, **RegisteredOrganization**, and **RegisteredVersion** must uniquely identify the registered profile within the scope of the organization. This property is inherited from [**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85)).
+The name of this registered profile. Since multiple versions can exist for the same **RegisteredName**, the combination of **RegisteredName**, **RegisteredOrganization**, and **RegisteredVersion** must uniquely identify the registered profile within the scope of the organization. This property is inherited from [**CIM\_RegisteredProfile**](/previous-versions//ee309375(v=vs.85)).
 
 </dd> <dt>
 
@@ -194,7 +194,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The organization that defines this profile. This property is inherited from [**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85)).
+The organization that defines this profile. This property is inherited from [**CIM\_RegisteredProfile**](/previous-versions//ee309375(v=vs.85)).
 
 <dl> <dt>
 
@@ -281,7 +281,7 @@ The version of this profile. The string must be in the form: "*M*.*N*.*U*" Where
 -   *N* is the minor version (in numeric form) describing the profile's creation or last modification.
 -   *U* is the update (in numeric form) describing the profile's creation or last modification.
 
-This property is inherited from [**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85)).
+This property is inherited from [**CIM\_RegisteredProfile**](/previous-versions//ee309375(v=vs.85)).
 
 </dd> </dl>
 
@@ -300,9 +300,4 @@ This property is inherited from [**CIM\_RegisteredProfile**](https://docs.micros
 
 
  
-
- 
-
-
-
 

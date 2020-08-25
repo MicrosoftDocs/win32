@@ -10,14 +10,10 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [About Router Management with MIB](https://docs.microsoft.com/windows/desktop/RRAS/about-router-management-with-mib)
+-   [About Router Management with MIB](/windows/desktop/RRAS/about-router-management-with-mib)
 -   [Using the Router Management MIB API](using-the-router-management-mib-api.md)
 -   [Router Management MIB Reference](router-management-mib-reference.md)
 
  
 
  
-
-
-
-

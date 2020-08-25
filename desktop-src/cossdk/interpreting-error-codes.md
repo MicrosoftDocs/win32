@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 After you have determined which application is the source of a problem, you need to find out what error has occurred. Errors are raised and reported in different formats, depending on the language your application uses.
 
-In Microsoft Visual C++, success, warning, and failure values are returned using a 32-bit number known as a **HRESULT**. For a list of system-defined **HRESULT** values, see the header file Winerror.h included with the Windows SDK. This file includes all COM+ error codes and descriptions. For more information about **HRESULT** values, see [Error Handling](https://docs.microsoft.com/windows/desktop/com/error-handling-in-com).
+In Microsoft Visual C++, success, warning, and failure values are returned using a 32-bit number known as a **HRESULT**. For a list of system-defined **HRESULT** values, see the header file Winerror.h included with the Windows SDK. This file includes all COM+ error codes and descriptions. For more information about **HRESULT** values, see [Error Handling](/windows/desktop/com/error-handling-in-com).
 
 In the Java language, an instance of com.ms.com.ComFailException is thrown to indicate failure, where the ComFailException object specifies an **HRESULT**. An instance of com.ms.com.ComSuccessException indicates success with a return value of False. For information about interpreting these exceptions, see the Microsoft Visual J++ documentation.
 
@@ -81,13 +81,13 @@ The following table provides descriptions of common error codes in COM+.
 | COMADMIN\_E\_COMPFILE\_BADTLB<br/>                      | The type library could not be loaded.<br/>                                                                                                                                                                 |
 | COMADMIN\_E\_COMPFILE\_CLASSNOTAVAIL<br/>               | The DLL does not support the components listed in the type library.<br/>                                                                                                                                   |
 | COMADMIN\_E\_COMPFILE\_DOESNOTEXIST<br/>                | This file does not exist.<br/>                                                                                                                                                                             |
-| COMADMIN\_E\_COMPFILE\_GETCLASSOBJ<br/>                 | The [**GetClassObject**](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iclassactivator-getclassobject) method failed in the DLL.<br/>                                                                                                                |
+| COMADMIN\_E\_COMPFILE\_GETCLASSOBJ<br/>                 | The [**GetClassObject**](/windows/desktop/api/objidl/nf-objidl-iclassactivator-getclassobject) method failed in the DLL.<br/>                                                                                                                |
 | COMADMIN\_E\_COMPFILE\_LOADDLLFAIL<br/>                 | The DLL could not be loaded.<br/>                                                                                                                                                                          |
 | COMADMIN\_E\_COMPFILE\_NOREGISTRAR<br/>                 | The component registrar referenced in this file is not available.<br/>                                                                                                                                     |
 | COMADMIN\_E\_COMPFILE\_NOTINSTALLABLE<br/>              | The file does not contain components or component information.<br/>                                                                                                                                        |
 | COMADMIN\_E\_COREQCOMPINSTALLED<br/>                    | A component in the same DLL is already installed.<br/>                                                                                                                                                     |
 | COMADMIN\_E\_DLLLOADFAILED<br/>                         | The DLL could not be loaded.<br/>                                                                                                                                                                          |
-| COMADMIN\_E\_DLLREGISTERSERVER<br/>                     | The [**DllRegisterServer**](https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllregisterserver) function failed when the component was installed.<br/>                                                                                                  |
+| COMADMIN\_E\_DLLREGISTERSERVER<br/>                     | The [**DllRegisterServer**](/windows/desktop/api/olectl/nf-olectl-dllregisterserver) function failed when the component was installed.<br/>                                                                                                  |
 | COMADMIN\_E\_EVENTCLASS\_CANT\_BE\_SUBSCRIBER<br/>      | An event class cannot be configured as a subscriber component. When an attempt is made to create a subscription with an event class as a subscriber, this error is returned.<br/>                          |
 | COMADMIN\_E\_INVALIDUSERIDS<br/>                        | One or more users in the application file are not valid.<br/>                                                                                                                                              |
 | COMADMIN\_E\_KEYMISSING<br/>                            | The object was not found in the catalog.<br/>                                                                                                                                                              |
@@ -147,9 +147,4 @@ The following table provides descriptions of common error codes in COM+.
 </dt> </dl>
 
  
-
- 
-
-
-
 

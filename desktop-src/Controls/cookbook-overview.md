@@ -217,7 +217,7 @@ Support for visual styles can be added to an extension, plug-in, MMC snap-in, or
 
     
 
-    For more information about ISOLATION\_AWARE\_ENABLED, see [Isolating Components](https://docs.microsoft.com/windows/desktop/SbsCs/isolating-components).
+    For more information about ISOLATION\_AWARE\_ENABLED, see [Isolating Components](/windows/desktop/SbsCs/isolating-components).
 
 2.  Include the common control header file in your snap-in source.
     ```C++
@@ -254,7 +254,7 @@ Support for visual styles can be added to an extension, plug-in, MMC snap-in, or
 
     
 
-4.  Add the manifest to your snap-in's resource file. See [Using ComCtl32 Version 6 in an Application That Uses Extensions, Plug-ins, or a DLL That Is Brought into a Process](https://msdn.microsoft.com/library/ms649781(v=VS.85).aspx) for details on adding a manifest to a resource file.
+4.  Add the manifest to your snap-in's resource file. See [Using ComCtl32 Version 6 in an Application That Uses Extensions, Plug-ins, or a DLL That Is Brought into a Process](/previous-versions//ms649781(v=vs.85)) for details on adding a manifest to a resource file.
 
 ## Turning Off Visual Styles
 
@@ -318,7 +318,3 @@ Much of the visual style architecture is designed to make it simple to continue 
  
 
  
-
-
-
-

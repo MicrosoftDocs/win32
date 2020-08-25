@@ -41,7 +41,7 @@ HRESULT SetBoolVector(
 *pData* 
 </dt> <dd>
 
-Type: **[**BOOL**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)\***
+Type: **[**BOOL**](/windows/desktop/WinProg/windows-data-types)\***
 
 A pointer to the first component.
 
@@ -79,10 +79,4 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

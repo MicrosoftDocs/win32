@@ -39,7 +39,7 @@ HRESULT GetAnimationSet(
 *Index* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Index of the animation set.
 
@@ -85,7 +85,3 @@ The animation controller contains an array of animation sets. This method return
  
 
  
-
-
-
-

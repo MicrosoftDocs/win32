@@ -39,7 +39,7 @@ These events provide the hardware configuration of the computer. Unlike other NT
 
 For hardware configuration events on Windows XP, see the [HWConfig](hwconfig.md) class.
 
-Event trace consumers can implement special processing for hardware configuration events by calling the [**SetTraceCallback**](settracecallback.md) function and specifying [**EventTraceConfigGuid**](nt-kernel-logger-constants.md) as the *pGuid* parameter. Use the following event types to identify the actual hardware configuration event when consuming events.
+Event trace consumers can implement special processing for hardware configuration events by calling the [**SetTraceCallback**](/windows/win32/api/evntrace/nf-evntrace-settracecallback) function and specifying [**EventTraceConfigGuid**](nt-kernel-logger-constants.md) as the *pGuid* parameter. Use the following event types to identify the actual hardware configuration event when consuming events.
 
 
 
@@ -118,7 +118,3 @@ Event trace consumers can implement special processing for hardware configuratio
  
 
  
-
-
-
-

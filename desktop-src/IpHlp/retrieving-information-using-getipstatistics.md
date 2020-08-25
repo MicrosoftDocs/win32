@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Retrieving Information Using GetIpStatistics
 
-The [**GetIpStatistics**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getipstatistics) function fills a pointer to an [**MIB\_IPSTATS**](https://msdn.microsoft.com/library/Aa366871(v=VS.85).aspx) structure with information about the current IP statistics associated with the system.
+The [**GetIpStatistics**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getipstatistics) function fills a pointer to an [**MIB\_IPSTATS**](/windows/win32/api/ipmib/ns-ipmib-mib_ipstats_lh) structure with information about the current IP statistics associated with the system.
 
 **To use GetIpStatistics**
 
 1.  Declare some variables that are needed.
 
-    Declare a **DWORD** variable `dwRetval` that will be using for error checking function calls. Declare a pointer to an [**MIB\_IPSTATS**](https://msdn.microsoft.com/library/Aa366871(v=VS.85).aspx) variable called *pStats*, and allocate memory for the structure. Check that memory could be allocated.
+    Declare a **DWORD** variable `dwRetval` that will be using for error checking function calls. Declare a pointer to an [**MIB\_IPSTATS**](/windows/win32/api/ipmib/ns-ipmib-mib_ipstats_lh) variable called *pStats*, and allocate memory for the structure. Check that memory could be allocated.
 
     ```C++
     MIB_IPSTATS  *pStats;
@@ -39,7 +39,7 @@ The [**GetIpStatistics**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getipstatist
 
     
 
-3.  If the call to [**GetIpStatistics**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getipstatistics) was successful, print out some of the data in the [**MIB\_IPSTATS**](https://msdn.microsoft.com/library/Aa366871(v=VS.85).aspx) structure pointed to by the *pStats* parameter.
+3.  If the call to [**GetIpStatistics**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getipstatistics) was successful, print out some of the data in the [**MIB\_IPSTATS**](/windows/win32/api/ipmib/ns-ipmib-mib_ipstats_lh) structure pointed to by the *pStats* parameter.
     ```C++
     printf("Number of interfaces:   %ld\n", pStats->dwNumIf);
     printf("Number of IP addresses: %ld\n", pStats->dwNumAddr);
@@ -49,7 +49,7 @@ The [**GetIpStatistics**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getipstatist
 
     
 
-4.  Free the memory allocated for the [**MIB\_IPSTATS**](https://msdn.microsoft.com/library/Aa366871(v=VS.85).aspx) structure pointed to by the *pStats* parameter. This should be done once the application no longer needs the data returned by the *pStats* parameter.
+4.  Free the memory allocated for the [**MIB\_IPSTATS**](/windows/win32/api/ipmib/ns-ipmib-mib_ipstats_lh) structure pointed to by the *pStats* parameter. This should be done once the application no longer needs the data returned by the *pStats* parameter.
     ```C++
     if (pStats)
         free(pStats);
@@ -64,6 +64,3 @@ Previous Step: [Managing IP Addresses Using AddIPAddress and DeleteIPAddress](ma
  
 
  
-
-
-

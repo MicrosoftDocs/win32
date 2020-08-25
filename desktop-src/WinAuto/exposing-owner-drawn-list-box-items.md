@@ -14,18 +14,14 @@ To allow Microsoft Active Accessibility to expose the items in an owner-drawn li
 
 -   Use the **LBS\_HASSTRINGS** style when creating the list box.
 -   Create a textual counterpart that names or describes each item in the list box.
--   When adding items to the owner-drawn list box, use the [LB\_ADDSTRING](https://msdn.microsoft.com/library/bb775181(VS.85).aspx) message to add the text that you want Microsoft Active Accessibility to expose. This text is not displayed, so it is not part of the owner-drawn data. Add the owner-drawn item data using the [LB\_SETITEMDATA](https://msdn.microsoft.com/library/bb761346(VS.85).aspx) message.
+-   When adding items to the owner-drawn list box, use the [LB\_ADDSTRING](../controls/lb-addstring.md) message to add the text that you want Microsoft Active Accessibility to expose. This text is not displayed, so it is not part of the owner-drawn data. Add the owner-drawn item data using the [LB\_SETITEMDATA](../controls/lb-setitemdata.md) message.
 
 When using the above method, note the following:
 
--   If you use the **LBS\_SORT** style, the list box is sorted using the supplied strings and not the [WM\_COMPAREITEM](https://msdn.microsoft.com/library/bb775921(VS.85).aspx) callback procedure.
--   With owner-drawn variable list boxes created with the style **LBS\_OWNERDRAWVARIABLE**, use a global variable or some other mechanism to keep track of when the **itemData member** of the [MEASUREITEMSTRUCT](https://msdn.microsoft.com/library/bb775804(VS.85).aspx) is valid. The global variable is needed because the system sends the [WM\_MEASUREITEM](https://msdn.microsoft.com/library/bb775925(VS.85).aspx) message as soon as the string is added but before the item data is attached, and at this point the **itemData** member is not valid.
--   To change the string for an item in a list box with the **LBS\_HASSTRINGS** style, delete the item with the [LB\_DELETESTRING](https://msdn.microsoft.com/library/bb775183(VS.85).aspx) message and add the new string with the LB\_ADDSTRING message.
+-   If you use the **LBS\_SORT** style, the list box is sorted using the supplied strings and not the [WM\_COMPAREITEM](../controls/wm-compareitem.md) callback procedure.
+-   With owner-drawn variable list boxes created with the style **LBS\_OWNERDRAWVARIABLE**, use a global variable or some other mechanism to keep track of when the **itemData member** of the [MEASUREITEMSTRUCT](/windows/win32/api/winuser/ns-winuser-measureitemstruct) is valid. The global variable is needed because the system sends the [WM\_MEASUREITEM](../controls/wm-measureitem.md) message as soon as the string is added but before the item data is attached, and at this point the **itemData** member is not valid.
+-   To change the string for an item in a list box with the **LBS\_HASSTRINGS** style, delete the item with the [LB\_DELETESTRING](../controls/lb-deletestring.md) message and add the new string with the LB\_ADDSTRING message.
 
  
 
  
-
-
-
-

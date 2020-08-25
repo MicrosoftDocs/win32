@@ -84,7 +84,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 String that uniquely identifies this instance of the **MSMCAInfo\_RawMCAEvent** class.
@@ -133,9 +133,4 @@ The **MSMCAInfo\_RawMCAEvent** class is derived from [**WMIEvent**](wmievent.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

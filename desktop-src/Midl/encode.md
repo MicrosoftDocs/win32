@@ -96,7 +96,7 @@ When the **\[encode\]** or **\[**[**decode**](decode.md)**\]** attribute is appl
 
 The MIDL compiler generates two functions for each type the **\[encode\]** attribute applies to, and one additional function for each type the **\[**[**decode**](decode.md)**\]** attribute applies to. For example, for a user-defined type named MyType, the compiler generates code for the MyType\_Encode, MyType\_Decode, and MyType\_AlignSize functions. For these functions, the compiler writes prototypes to STUB.H and source code to STUB\_C.C.
 
-For additional information about serialization handles and encoding or decoding data, see [Serialization Services](https://docs.microsoft.com/windows/desktop/Rpc/serialization-services).
+For additional information about serialization handles and encoding or decoding data, see [Serialization Services](/windows/desktop/Rpc/serialization-services).
 
 ## Examples
 
@@ -138,7 +138,3 @@ interface regress
  
 
  
-
-
-
-

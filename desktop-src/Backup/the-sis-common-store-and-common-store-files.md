@@ -19,7 +19,7 @@ The properties of a common-store file are the following:
 -   After it is created, the contents of a common-store file never change.
 -   The names of common-store files are globally unique—that is, they are unique across all volumes across all systems in the world, and the binding between a common-store file name and its data is globally static.
 
-When SIS is enabled on a volume, one copy of the duplicate files is then created to the common store, and all of the duplicate files are replaced with [SIS links](sis-links-and-reparse-points.md) pointing to the common-store file. For more information, see [Enabling or Disabling SIS on a Volume](https://technet.microsoft.com/library/dd573313.aspx) in the TechNet documentation.
+When SIS is enabled on a volume, one copy of the duplicate files is then created to the common store, and all of the duplicate files are replaced with [SIS links](sis-links-and-reparse-points.md) pointing to the common-store file. For more information, see [Enabling or Disabling SIS on a Volume](/previous-versions/windows/it-pro/windows-server-storage-solutions/dd573313(v=ws.10)) in the TechNet documentation.
 
 When one of the SIS links is accessed for a write operation, the SIS filter first restores the original contents of the SIS link file from the common-store file, the reparse point linking the SIS link file to the common store is removed, and then the write operation is performed on the original destination file.
 
@@ -28,7 +28,3 @@ The common-store file is removed only when the last SIS link pointing to it is d
  
 
  
-
-
-
-

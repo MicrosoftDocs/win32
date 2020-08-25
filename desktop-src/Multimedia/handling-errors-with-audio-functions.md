@@ -23,19 +23,15 @@ You can use the following functions to retrieve textual descriptions of audio er
 
 | Function                                           | Description                                                                 |
 |----------------------------------------------------|-----------------------------------------------------------------------------|
-| [**waveInGetErrorText**](https://msdn.microsoft.com/library/Dd743842(v=VS.85).aspx)   | Retrieves a textual description of a specified waveform-audio input error.  |
-| [**waveOutGetErrorText**](https://msdn.microsoft.com/library/Dd743858(v=VS.85).aspx) | Retrieves a textual description of a specified waveform-audio output error. |
+| [**waveInGetErrorText**](/windows/win32/api/mmeapi/nf-mmeapi-waveingeterrortext)   | Retrieves a textual description of a specified waveform-audio input error.  |
+| [**waveOutGetErrorText**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgeterrortext) | Retrieves a textual description of a specified waveform-audio output error. |
 
 
 
  
 
-The only audio functions that do not return error values are [**auxGetNumDevs**](https://msdn.microsoft.com/library/Dd756713(v=VS.85).aspx), [**waveInGetNumDevs**](https://msdn.microsoft.com/library/Dd743844(v=VS.85).aspx), and [**waveOutGetNumDevs**](https://msdn.microsoft.com/library/Dd743860(v=VS.85).aspx). These functions return zero if no devices are present in a system or if they encounter any errors.
+The only audio functions that do not return error values are [**auxGetNumDevs**](/windows/win32/api/mmeapi/nf-mmeapi-auxgetnumdevs), [**waveInGetNumDevs**](/windows/win32/api/mmeapi/nf-mmeapi-waveingetnumdevs), and [**waveOutGetNumDevs**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgetnumdevs). These functions return zero if no devices are present in a system or if they encounter any errors.
 
  
 
  
-
-
-
-

@@ -127,7 +127,7 @@ ms.date: 05/31/2018
 -   [**LVM\_SETTEXTCOLOR**](lvm-settextcolor.md)
 -   [**LVM\_SETTILEINFO**](lvm-settileinfo.md)
 -   [**LVM\_SETTILEVIEWINFO**](lvm-settileviewinfo.md)
--   [**LVM\_SETTILEWIDTH**](https://docs.microsoft.com/previous-versions//bb761214(v=vs.85))
+-   [**LVM\_SETTILEWIDTH**](/previous-versions//bb761214(v=vs.85))
 -   [**LVM\_SETTOOLTIPS**](lvm-settooltips.md)
 -   [**LVM\_SETUNICODEFORMAT**](lvm-setunicodeformat.md)
 -   [**LVM\_SETVIEW**](lvm-setview.md)
@@ -141,7 +141,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

@@ -11,12 +11,8 @@ ms.date: 05/31/2018
 ## In This Section
 
 -   [**IS\_INTRESOURCE**](/windows/desktop/api/Winuser/nf-winuser-is_intresource)
--   [**MAKEINTRESOURCE**](https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx)
+-   [**MAKEINTRESOURCE**](/windows/win32/api/winuser/nf-winuser-makeintresourcea)
 
  
 
  
-
-
-
-

@@ -20,7 +20,7 @@ Before using opportunistic locks in your application, you should be familiar wit
 
 The maximum number of concurrent opportunistic locks that you can create is limited only by the amount of available memory.
 
-Local applications should not attempt to request opportunistic locks from remote servers. An error will be returned by [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) if an attempt is made to do this.
+Local applications should not attempt to request opportunistic locks from remote servers. An error will be returned by [**DeviceIoControl**](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) if an attempt is made to do this.
 
 Opportunistic locks are of very limited use for applications. The only practical use is to test a network redirector or a server opportunistic lock handler. Typically, file systems implement support for opportunistic locks. Applications generally leave opportunistic lock management to the file system drivers. Anyone implementing a file system should use the [Installable File System (IFS) Kit](https://www.microsoft.com/whdc/devtools/ifskit/default.mspx). Anyone developing a device driver other than an installable file system should use the [Windows Driver Kit (WDK)](https://www.microsoft.com/?ref=go).
 
@@ -50,9 +50,4 @@ The following topics identify opportunistic locks.
 For additional information about opportunistic locks, see the CIFS Internet Draft document. Any discrepancies between this topic and the current CIFS Internet Draft should be resolved in favor of the CIFS Internet Draft.
 
  
-
- 
-
-
-
 

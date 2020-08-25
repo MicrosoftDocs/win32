@@ -24,7 +24,7 @@ Implement the **IDeliveryOptimizationFile** interface to identify the status of 
 
 ## Members
 
-The **IDeliveryOptimizationFile** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDeliveryOptimizationFile** also has these types of members:
+The **IDeliveryOptimizationFile** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDeliveryOptimizationFile** also has these types of members:
 
 -   [Methods](#methods)
 

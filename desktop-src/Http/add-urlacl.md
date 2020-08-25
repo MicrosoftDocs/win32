@@ -11,7 +11,7 @@ api_name:
 api_type:
 - NA
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/29/2020
 ---
 
 # add urlacl
@@ -30,14 +30,16 @@ add urlacl [url=]string
 
 <dl> <dt>
 
-<span id="_url__string"></span><span id="_URL__STRING"></span>**\[url=\]***string*
+<span id="_url__string"></span><span id="_URL__STRING"></span>
+**[url=] string**
 </dt> <dd>
 
 Specifies the fully qualified URL.
 
 </dd> <dt>
 
-<span id="_user__string"></span><span id="_USER__STRING"></span>**\[user=\]***string*
+<span id="_user__string"></span><span id="_USER__STRING"></span>
+**[user=] string**
 </dt> <dd>
 
 Specifies the user or user group name.
@@ -64,7 +66,8 @@ Specifies one of the following values:
 
 </dd> <dt>
 
-<span id="_sddl__string"></span><span id="_SDDL__STRING"></span>**\[sddl=\]***string*
+<span id="_sddl__string"></span><span id="_SDDL__STRING"></span>
+**[sddl=] string**
 </dt> <dd>
 
 Specifies the SDDL string that describes the DACL.
@@ -73,16 +76,14 @@ Specifies the SDDL string that describes the DACL.
 
 ## Examples
 
-**add urlacl url=https://+:80/MyUri user=DOMAIN\\user**
+* add urlacl url=https://+:80/MyUri user=DOMAIN\\user
 
-**add urlacl url=https://www.contoso.com:80/MyUri user=DOMAIN\\user listen=yes**
+* add urlacl url=https://www.contoso.com:80/MyUri user=DOMAIN\\user listen=yes
 
-**add urlacl url=https://www.contoso.com:80/MyUri user=DOMAIN\\user delegate=no**
-
- 
+* add urlacl url=https://www.contoso.com:80/MyUri user=DOMAIN\\user delegate=no
 
  
+## See Also
 
-
-
-
+* [Netsh http commands](/windows-server/networking/technologies/netsh/netsh-http#add-urlacl)
+ 

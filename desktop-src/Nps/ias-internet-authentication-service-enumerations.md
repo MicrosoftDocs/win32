@@ -16,18 +16,14 @@ ms.date: 05/31/2018
 
 Use the following enumerated types when developing NPS Extension DLLs.
 
--   [**RADIUS\_ACTION**](https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_action)
--   [**RADIUS\_ATTRIBUTE\_TYPE**](https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_attribute_type)
--   [**RADIUS\_AUTHENTICATION\_PROVIDER**](https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_authentication_provider)
--   [**RADIUS\_CODE**](https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_code)
--   [**RADIUS\_DATA\_TYPE**](https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_data_type)
--   [**RADIUS\_EXTENSION\_POINT**](https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_extension_point)
--   [**RADIUS\_REJECT\_REASON\_CODE**](https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_reject_reason_code)
+-   [**RADIUS\_ACTION**](/windows/desktop/api/authif/ne-authif-radius_action)
+-   [**RADIUS\_ATTRIBUTE\_TYPE**](/windows/desktop/api/authif/ne-authif-radius_attribute_type)
+-   [**RADIUS\_AUTHENTICATION\_PROVIDER**](/windows/desktop/api/authif/ne-authif-radius_authentication_provider)
+-   [**RADIUS\_CODE**](/windows/desktop/api/authif/ne-authif-radius_code)
+-   [**RADIUS\_DATA\_TYPE**](/windows/desktop/api/authif/ne-authif-radius_data_type)
+-   [**RADIUS\_EXTENSION\_POINT**](/windows/desktop/api/authif/ne-authif-radius_extension_point)
+-   [**RADIUS\_REJECT\_REASON\_CODE**](/windows/desktop/api/authif/ne-authif-radius_reject_reason_code)
 
  
 
  
-
-
-
-

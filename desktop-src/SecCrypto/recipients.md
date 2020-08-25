@@ -17,9 +17,9 @@ api_location:
 
 # Recipients object
 
-\[The **Recipients** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsRecipientCollection Class**](https://msdn.microsoft.com/library/0y59h9e9(v=VS.100).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.100).aspx) namespace.\]
+\[The **Recipients** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsRecipientCollection Class**](/dotnet/api/system.security.cryptography.pkcs.cmsrecipientcollection?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
 
-The **Recipients** object represents a collection of [**Certificate**](certificate.md) objects. Each object represents an intended recipient of the enveloped message. Data in an [**EnvelopedData**](envelopeddata.md) object is encrypted with a [*symmetric*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) session key, and that symmetric session key is then itself encrypted for each recipient by using the public key from that intended recipient's certificate. A recipient with access to the [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) associated with a certificate's [*public key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) can decrypt the [*session key*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) and use the decrypted session key to decrypt the actual data.
+The **Recipients** object represents a collection of [**Certificate**](certificate.md) objects. Each object represents an intended recipient of the enveloped message. Data in an [**EnvelopedData**](envelopeddata.md) object is encrypted with a [*symmetric*](../secgloss/s-gly.md) session key, and that symmetric session key is then itself encrypted for each recipient by using the public key from that intended recipient's certificate. A recipient with access to the [*private key*](../secgloss/p-gly.md) associated with a certificate's [*public key*](../secgloss/p-gly.md) can decrypt the [*session key*](../secgloss/s-gly.md) and use the decrypted session key to decrypt the actual data.
 
 ## When to use
 
@@ -61,7 +61,7 @@ The **Recipients** object has these properties.
 
 | Property                                           | Access type          | Description                                                                                                                                                                                                                     |
 |:---------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](recipients-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
+| [**\_NewEnum**](recipients-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
 | [**Count**](recipients-count.md)<br/>       |                      | The number of objects in the **Recipients** collection.<br/>                                                                                                                                                              |
 | [**Item**](recipients-item.md)<br/>         |                      | An indexed object in the collection. This is the default property.<br/>                                                                                                                                                   |
 
@@ -94,7 +94,3 @@ The **Recipients** object cannot be created.
  
 
  
-
-
-
-

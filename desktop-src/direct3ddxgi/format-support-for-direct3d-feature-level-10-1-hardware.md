@@ -1,5 +1,5 @@
 ---
-Description: This section specifies the formats ([**DXGI_FORMAT_***](https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx) values) that are supported in Direct3D Feature Level 10.1 hardware.
+Description: This section specifies the formats ([**DXGI_FORMAT_***](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) values) that are supported in Direct3D Feature Level 10.1 hardware.
 ms.assetid: 2C7E16D7-EEF0-4EA7-A819-5274C9105F68
 title: Format support for Direct3D Feature Level 10.1 hardware
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Format support for Direct3D Feature Level 10.1 hardware
 
-This section specifies the formats ([**DXGI_FORMAT_***](https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx) values) that are supported in Direct3D Feature Level 10.1 hardware.
+This section specifies the formats ([**DXGI_FORMAT_***](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) values) that are supported in Direct3D Feature Level 10.1 hardware.
 
 The table summarizes the feature support, using the following key.
 
@@ -5506,12 +5506,12 @@ The purpose of the format can change from one hardware feature level to the next
 <sup>V</sup> : video format
 </dt> </dl>
 
-Back buffers and scan outs with the [**DXGI\_FORMAT\_R16G16B16A16\_FLOAT**](https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx) format contain linear-valued gamma data.
+Back buffers and scan outs with the [**DXGI\_FORMAT\_R16G16B16A16\_FLOAT**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) format contain linear-valued gamma data.
 
 ## Related topics
 
-[D3D12 Hardware Feature Levels](https://msdn.microsoft.com/library/Mt186615(v=VS.85).aspx)
+[D3D12 Hardware Feature Levels](../direct3d12/hardware-feature-levels.md)
 
-[**ID3D10Device::CheckFormatSupport**](https://msdn.microsoft.com/library/Bb173536(v=VS.85).aspx)
+[**ID3D10Device::CheckFormatSupport**](/windows/win32/api/d3d10/nf-d3d10-id3d10device-checkformatsupport)
 
 [Programming Guide for DXGI](dx-graphics-dxgi-overviews.md)

@@ -46,7 +46,7 @@ HRESULT ProcessDeviceWorkItems(
 *iWorkItemCount* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The number of work items to set to the device.
 
@@ -86,10 +86,4 @@ As an example of how one might use this API, say you are nearing the end of one 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -45,7 +45,7 @@ HRESULT D3DXCreateText(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
 Pointer to the device that created the mesh.
 
@@ -63,7 +63,7 @@ Device context, containing the font for output. The font selected by the device 
 *pText* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 Pointer to a string that specifies the text to generate. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the string data type resolves to LPCSTR. See Remarks.
 
@@ -72,7 +72,7 @@ Pointer to a string that specifies the text to generate. If the compiler setting
 *Deviation* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Maximum chordal deviation from TrueType font outlines.
 
@@ -81,7 +81,7 @@ Maximum chordal deviation from TrueType font outlines.
 *Extrusion* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Amount to extrude text in the negative z-direction.
 
@@ -108,9 +108,9 @@ Pointer to a buffer containing adjacency information. May be **NULL**.
 *pGlyphMetrics* \[out\]
 </dt> <dd>
 
-Type: **[**LPGLYPHMETRICSFLOAT**](https://msdn.microsoft.com/library/Dd374209(v=VS.85).aspx)**
+Type: **[**LPGLYPHMETRICSFLOAT**](/windows/win32/api/wingdi/ns-wingdi-glyphmetricsfloat)**
 
-Pointer to an array of [**GLYPHMETRICSFLOAT**](https://msdn.microsoft.com/library/Dd374209(v=VS.85).aspx) structures that contain the glyph metric data. Each element contains information about the position and orientation of the corresponding glyph in the string. The number of elements in the array should be equal to the number of characters in the string. Note that the origin in each structure is not relative to the entire string, but rather is relative to that character cell. To compute the entire bounding box, add the increment for each glyph while traversing the string. If you are not concerned with the glyph sizes, set this parameter to **NULL**.
+Pointer to an array of [**GLYPHMETRICSFLOAT**](/windows/win32/api/wingdi/ns-wingdi-glyphmetricsfloat) structures that contain the glyph metric data. Each element contains information about the position and orientation of the corresponding glyph in the string. The number of elements in the array should be equal to the number of characters in the string. Note that the origin in each structure is not relative to the entire string, but rather is relative to that character cell. To compute the entire bounding box, add the increment for each glyph while traversing the string. If you are not concerned with the glyph sizes, set this parameter to **NULL**.
 
 </dd> </dl>
 
@@ -147,7 +147,3 @@ This function creates a mesh with the D3DXMESH\_MANAGED creation option and [D3D
  
 
  
-
-
-
-

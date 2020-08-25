@@ -19,7 +19,7 @@ api_location:
 
 \[This function is a wrapper over the **SendMessage** function. This function may be altered or unavailable in the future. Applications should call **SendMessage** directly.\]
 
-Sends the specified message to a window or windows. See [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx).
+Sends the specified message to a window or windows. See [**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage).
 
 ## Syntax
 
@@ -53,13 +53,9 @@ LRESULT _SendMessage(
 
 <dl> <dt>
 
-[**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx)
+[**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage)
 </dt> </dl>
 
  
 
  
-
-
-
-

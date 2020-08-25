@@ -30,7 +30,7 @@ Where:
 
 -   dst is a destination register.
 -   src0 is a source register that provides the texture coordinates for the texture sample. See [Texture Coordinate Register](dx9-graphics-reference-asm-ps-registers-texture-coordinate.md).
--   src1 identifies the source sampler register (s\#), where \# specifies which texture sampler number to sample. The sampler has associated with it a texture and a control state defined by the [**D3DSAMPLERSTATETYPE**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dsamplerstatetype) enumeration (ex. D3DSAMP\_MINFILTER).
+-   src1 identifies the source sampler register (s\#), where \# specifies which texture sampler number to sample. The sampler has associated with it a texture and a control state defined by the [**D3DSAMPLERSTATETYPE**](/windows/desktop/direct3d9/d3dsamplerstatetype) enumeration (ex. D3DSAMP\_MINFILTER).
 -   src2 is an input source register that specifies the x gradient.
 -   src3 is an input source register that specifies the y gradient.
 
@@ -46,7 +46,7 @@ Where:
 
  
 
-\* This instruction is only supported by ps\_2\_a. It is not supported by ps\_2\_b. For more information about profiles, see [**D3DXGetPixelShaderProfile**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dxgetpixelshaderprofile).
+\* This instruction is only supported by ps\_2\_a. It is not supported by ps\_2\_b. For more information about profiles, see [**D3DXGetPixelShaderProfile**](/windows/desktop/direct3d9/d3dxgetpixelshaderprofile).
 
 This instruction samples a texture using the texture coordinates at src0, the sampler specified by src1, and the gradients DSX and DSY coming from src2 and src3. The x and y gradient values are used to select the appropriate mipmap level of the texture for sampling.
 
@@ -64,7 +64,3 @@ All write masks are valid on the destination.
  
 
  
-
-
-
-

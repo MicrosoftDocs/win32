@@ -34,7 +34,7 @@ Redraw flag. If this parameter is **TRUE**, the message redraws the trackbar aft
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the starting logical position for the selection range, and the [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the ending logical position.
+The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the starting logical position for the selection range, and the [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the ending logical position.
 
 </dd> </dl>
 
@@ -80,10 +80,4 @@ This message is ignored if the trackbar does not have the [**TBS\_ENABLESELRANGE
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

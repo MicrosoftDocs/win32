@@ -62,7 +62,7 @@ The **MDM\_Policy\_Result01\_TextInput02** class has these properties.
 
 <dl> <dt>
 
-[AllowIMELogging](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-textinput#textinput-allowimelogging)
+[AllowIMELogging](/windows/client-management/mdm/policy-csp-textinput#textinput-allowimelogging)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -73,7 +73,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowIMENetworkAccess](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-textinput#textinput-allowimenetworkaccess)
+[AllowIMENetworkAccess](/windows/client-management/mdm/policy-csp-textinput#textinput-allowimenetworkaccess)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -84,7 +84,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowInputPanel](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-textinput#textinput-allowinputpanel)
+[AllowInputPanel](/windows/client-management/mdm/policy-csp-textinput#textinput-allowinputpanel)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -95,7 +95,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowJapaneseIMESurrogatePairCharacters](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-textinput#textinput-allowjapaneseimesurrogatepaircharacters)
+[AllowJapaneseIMESurrogatePairCharacters](/windows/client-management/mdm/policy-csp-textinput#textinput-allowjapaneseimesurrogatepaircharacters)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -106,7 +106,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowJapaneseIVSCharacters](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-textinput#textinput-allowjapaneseivscharacters)
+[AllowJapaneseIVSCharacters](/windows/client-management/mdm/policy-csp-textinput#textinput-allowjapaneseivscharacters)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -117,7 +117,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowJapaneseNonPublishingStandardGlyph](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-textinput#textinput-allowjapanesenonpublishingstandardglyph)
+[AllowJapaneseNonPublishingStandardGlyph](/windows/client-management/mdm/policy-csp-textinput#textinput-allowjapanesenonpublishingstandardglyph)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -128,7 +128,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowJapaneseUserDictionary](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-textinput#textinput-allowjapaneseuserdictionary)
+[AllowJapaneseUserDictionary](/windows/client-management/mdm/policy-csp-textinput#textinput-allowjapaneseuserdictionary)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -139,7 +139,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowKeyboardTextSuggestions](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-textinput#textinput-allowkeyboardtextsuggestions)
+[AllowKeyboardTextSuggestions](/windows/client-management/mdm/policy-csp-textinput#textinput-allowkeyboardtextsuggestions)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -150,7 +150,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowLanguageFeaturesUninstall](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-textinput#textinput-allowlanguagefeaturesuninstall)
+[AllowLanguageFeaturesUninstall](/windows/client-management/mdm/policy-csp-textinput#textinput-allowlanguagefeaturesuninstall)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -161,7 +161,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ExcludeJapaneseIMEExceptJIS0208](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-textinput#textinput-excludejapaneseimeexceptjis0208)
+[ExcludeJapaneseIMEExceptJIS0208](/windows/client-management/mdm/policy-csp-textinput#textinput-excludejapaneseimeexceptjis0208)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -172,7 +172,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ExcludeJapaneseIMEExceptJIS0208andEUDC](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-textinput#textinput-excludejapaneseimeexceptjis0208andeudc)
+[ExcludeJapaneseIMEExceptJIS0208andEUDC](/windows/client-management/mdm/policy-csp-textinput#textinput-excludejapaneseimeexceptjis0208andeudc)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -183,7 +183,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ExcludeJapaneseIMEExceptShiftJIS](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-textinput#textinput-excludejapaneseimeexceptshiftjis)
+[ExcludeJapaneseIMEExceptShiftJIS](/windows/client-management/mdm/policy-csp-textinput#textinput-excludejapaneseimeexceptshiftjis)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -203,7 +203,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "TextInput"
@@ -219,7 +219,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/Policy/Result"
@@ -244,14 +244,8 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

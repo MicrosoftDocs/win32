@@ -17,7 +17,7 @@ There are some key differences between object selection and object focus:
 
 For example, a user can select several items in a list-view control, but the focus is given only to one object in the system at a time. Note that focused items are from a selection of items.
 
-Clients determine whether a particular accessible object or child element has the focus by calling [**IAccessible::get\_accFocus**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accfocus). Clients determine whether an object is selected, or which children within an accessible object are selected, by calling [**IAccessible::get\_accSelection**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accselection). For objects such as list-view controls in which more than one child is selected, the parent object must support the [IEnumVARIANT](https://msdn.microsoft.com/library/ms221053.aspx) interface, which allows clients to enumerate the selected children.
+Clients determine whether a particular accessible object or child element has the focus by calling [**IAccessible::get\_accFocus**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accfocus). Clients determine whether an object is selected, or which children within an accessible object are selected, by calling [**IAccessible::get\_accSelection**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accselection). For objects such as list-view controls in which more than one child is selected, the parent object must support the [IEnumVARIANT](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) interface, which allows clients to enumerate the selected children.
 
 ## Events Triggered in Menus
 
@@ -35,7 +35,3 @@ Microsoft Active Accessibility exposes standard menus created with the Microsoft
  
 
  
-
-
-
-

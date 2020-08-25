@@ -42,7 +42,7 @@ D3DXVECTOR4* D3DXVec4Hermite(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to the [**D3DXVECTOR4**](d3d10-d3dxvector4.md) that is the result of the operation.
 
@@ -51,7 +51,7 @@ Pointer to the [**D3DXVECTOR4**](d3d10-d3dxvector4.md) that is the result of the
 *pV1* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to a source D3DXVECTOR4 structure, a position vector.
 
@@ -60,7 +60,7 @@ Pointer to a source D3DXVECTOR4 structure, a position vector.
 *pT1* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to a source D3DXVECTOR4 structure, a tangent vector.
 
@@ -69,7 +69,7 @@ Pointer to a source D3DXVECTOR4 structure, a tangent vector.
 *pV2* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to a source D3DXVECTOR4 structure, a position vector.
 
@@ -78,7 +78,7 @@ Pointer to a source D3DXVECTOR4 structure, a position vector.
 *pT2* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to a source D3DXVECTOR4 structure, a tangent vector.
 
@@ -87,7 +87,7 @@ Pointer to a source D3DXVECTOR4 structure, a tangent vector.
 *s* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Weighting factor. See Remarks.
 
@@ -95,7 +95,7 @@ Weighting factor. See Remarks.
 
 ## Return value
 
-Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to a D3DXVECTOR4 structure that is the result of the Hermite spline interpolation.
 
@@ -169,7 +169,3 @@ The return value for this function is the same value returned in the pOut parame
  
 
  
-
-
-
-

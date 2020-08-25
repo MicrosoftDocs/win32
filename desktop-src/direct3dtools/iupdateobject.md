@@ -26,7 +26,7 @@ Request for updating the contents of an object.
 
 ## Members
 
-The **IUpdateObject** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IUpdateObject** also has these types of members:
+The **IUpdateObject** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IUpdateObject** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IUpdateObject** interface has these methods.
  
 
  
-
-
-

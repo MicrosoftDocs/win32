@@ -58,7 +58,7 @@ Locale identifier of the locale for which to retrieve the parent locale identifi
 
 ## Return value
 
-Returns the parent locale identifier if successful, or 0 otherwise. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx), which can return one of the following error codes:
+Returns the parent locale identifier if successful, or 0 otherwise. To get extended error information, the application can call [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror), which can return one of the following error codes:
 
 -   ERROR\_INVALID\_PARAMETER. Any of the parameter values was invalid.
 
@@ -99,7 +99,3 @@ The required header file and DLL are part of the "Microsoft NLS Downlevel Data M
  
 
  
-
-
-
-

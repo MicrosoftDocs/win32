@@ -12,7 +12,7 @@ To use an application dictionary with the Tablet PC API, you must first create a
 
 The easiest solution for this is to use a text file that contains a list of the words. When your application loads, it reads the text file and creates a [**WordList**](inkwordlist-class.md) object from the list of words in the file. For each [**RecognizerContext**](inkrecognizercontext-class.md) associated with the application dictionary, set the [**WordList**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist) property of the **RecognizerContext** object to the word list in the text file.
 
-The following example illustrates how to create a [**WordList**](inkwordlist-class.md) object from a [StringCollection](https://msdn.microsoft.com/library/d1w61sc5(v=VS.90).aspx) collection. This example assumes that you have already loaded the list of words from disk and created a StringCollection collection from these words.
+The following example illustrates how to create a [**WordList**](inkwordlist-class.md) object from a [StringCollection](/dotnet/api/system.collections.specialized.stringcollection?view=netcore-3.1) collection. This example assumes that you have already loaded the list of words from disk and created a StringCollection collection from these words.
 
 
 ```C++
@@ -35,7 +35,7 @@ theRecognizerContext.WordList = theUserWordList;
 
 
 > [!Note]  
-> The [**Strokes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_strokes) property of the [**RecognizerContext**](inkrecognizercontext-class.md) object must be empty before you set the [**WordList**](inkwordlist-class.md) property. If the [**Strokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) property is not empty, an exception is thrown. In addition, words should never be added to a word list after it has been assigned to a **RecognizerContext** object. Words that are added to the word list after it is assigned to the **RecognizerContext** object are not updated in the recognizer. To update the word list you must reassign the **WordList** object to the [**WordList**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist) property of the **RecognizerContext** object.
+> The [**Strokes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_strokes) property of the [**RecognizerContext**](inkrecognizercontext-class.md) object must be empty before you set the [**WordList**](inkwordlist-class.md) property. If the [**Strokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) property is not empty, an exception is thrown. In addition, words should never be added to a word list after it has been assigned to a **RecognizerContext** object. Words that are added to the word list after it is assigned to the **RecognizerContext** object are not updated in the recognizer. To update the word list you must reassign the **WordList** object to the [**WordList**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist) property of the **RecognizerContext** object.
 
  
 
@@ -46,6 +46,3 @@ For an example of using application dictionaries with the [InkEdit](inkedit-cont
  
 
  
-
-
-

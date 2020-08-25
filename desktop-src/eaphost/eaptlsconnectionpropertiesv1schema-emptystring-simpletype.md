@@ -1,6 +1,6 @@
 ---
 title: emptyString Simple Type
-description: Is not in use.
+description: Learn about the emptyString simple type, which is not in use. See requirements and view additional available resources.
 ms.assetid: e561b8d5-8683-41a1-bd72-73b1a767b6cf
 keywords:
 - emptyString simple type EAPHost
@@ -36,10 +36,10 @@ The **emptyString** simple type is not in use.
 
 
 
-|                                     |                                                      |
+| Role | Minimum supported OS version |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

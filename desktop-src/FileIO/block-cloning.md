@@ -14,7 +14,7 @@ A file system manages the mappings of [Clusters and Extents](clusters-and-extent
 
 A block clone operation does not break the isolation provided between files. After a block clone completes, writes to the source file do not appear in the destination, or vice versa.
 
-Block cloning is available only on the [ReFS file system](https://docs.microsoft.com/windows/desktop/w8cookbook/resilient-file-system--refs-) type beginning with Windows Server 2016.
+Block cloning is available only on the [ReFS file system](/windows/desktop/w8cookbook/resilient-file-system--refs-) type beginning with Windows Server 2016.
 
 ## Block Cloning on ReFS
 
@@ -61,12 +61,9 @@ After the modifying write, region B is still shared on disk. Note that if region
 [**DUPLICATE\_EXTENTS\_DATA**](/windows/desktop/api/WinIoCtl/ns-winioctl-duplicate_extents_data)
 </dt> <dt>
 
-[**FSCTL\_DUPLICATE\_EXTENTS\_TO\_FILE**](https://msdn.microsoft.com/library/Mt590823(v=VS.85).aspx)
+[**FSCTL\_DUPLICATE\_EXTENTS\_TO\_FILE**](/windows/win32/api/winioctl/ni-winioctl-fsctl_duplicate_extents_to_file)
 </dt> </dl>
 
  
 
  
-
-
-

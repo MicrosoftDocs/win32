@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # EmailAction.Bcc property
 
-\[This object is no longer supported. Please use IExecAction with the powershell [**Send-MailMessage**](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/send-mailmessage) cmdlet as a workaround.\]
+\[This object is no longer supported. Please use IExecAction with the powershell [**Send-MailMessage**](/powershell/module/microsoft.powershell.utility/send-mailmessage) cmdlet as a workaround.\]
 
 For scripting, gets or sets the email address or addresses that you want to Bcc in the email message.
 
@@ -65,10 +65,4 @@ The email address or addresses that you want to Bcc in the email message.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

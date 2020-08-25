@@ -19,7 +19,7 @@ api_location:
 
 \[This function is a wrapper over the **MessageBox** function. This function may be altered or unavailable in the future. Applications should call **MessageBox** directly.\]
 
-Creates, displays, and operates a message box. See [**MessageBox**](https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx).
+Creates, displays, and operates a message box. See [**MessageBox**](/windows/win32/api/winuser/nf-winuser-messagebox).
 
 ## Syntax
 
@@ -53,13 +53,9 @@ int _MessageBox(
 
 <dl> <dt>
 
-[**MessageBox**](https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx)
+[**MessageBox**](/windows/win32/api/winuser/nf-winuser-messagebox)
 </dt> </dl>
 
  
 
  
-
-
-
-

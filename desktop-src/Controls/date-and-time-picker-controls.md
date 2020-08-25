@@ -22,7 +22,7 @@ The following topics are discussed:
 -   [Related topics](#related-topics)
 
 > [!Note]
-> Windows does not support dates prior to 1601. See the [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime) structure for details.
+> Windows does not support dates prior to 1601. See the [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) structure for details.
 >
 > The control is based on the Gregorian calendar, which was introduced in 1753. It will not calculate dates that are consistent with the Julian calendar.
 
@@ -64,7 +64,7 @@ DTP controls that do not use the [**DTS\_UPDOWN**](date-and-time-picker-control-
 
 ## Date and Time Picker Control Styles and Formats
 
-Date and time picker (DTP) controls have several [Date and Time Picker Control Styles](date-and-time-picker-control-styles.md) that determine a control's appearance and behavior. Specify the style when creating the control with the *dwStyle* parameter of [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa). To retrieve or change the window style after you have created the control, use [**GetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlonga) and [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga).
+Date and time picker (DTP) controls have several [Date and Time Picker Control Styles](date-and-time-picker-control-styles.md) that determine a control's appearance and behavior. Specify the style when creating the control with the *dwStyle* parameter of [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa). To retrieve or change the window style after you have created the control, use [**GetWindowLong**](/windows/desktop/api/winuser/nf-winuser-getwindowlonga) and [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga).
 
 ### Preset Formats
 
@@ -165,7 +165,3 @@ The following notification codes are used with DTP controls.
  
 
  
-
-
-
-

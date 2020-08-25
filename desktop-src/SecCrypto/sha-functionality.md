@@ -8,13 +8,10 @@ ms.date: 05/31/2018
 
 # SHA Functionality
 
-The original Base Provider incorrectly reported that the [*SHA*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) hash algorithm enumerating algorithms by calls to [**CryptGetProvParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetprovparam) with parameter PP\_ENUMALGS specified. This has been fixed in the Base Provider. Both the revised Base Provider and the Extended Provider and now correctly report SHA-1.
+The original Base Provider incorrectly reported that the [*SHA*](../secgloss/s-gly.md) hash algorithm enumerating algorithms by calls to [**CryptGetProvParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetprovparam) with parameter PP\_ENUMALGS specified. This has been fixed in the Base Provider. Both the revised Base Provider and the Extended Provider and now correctly report SHA-1.
 
 A defined CALG\_SHA1 constant has been added to Wincrypt.h with the same value as CALG\_SHA.
 
  
 
  
-
-
-

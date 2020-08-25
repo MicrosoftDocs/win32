@@ -79,7 +79,7 @@ This can only be 0 or IPDFP\_COPY\_ALL\_FILES. A value of 0 means that the print
 
 If the operation succeeds, the return value is S\_OK, otherwise the **HRESULT** will contain an error code.
 
-For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx).
+For more information about COM error codes, see [Error Handling](../com/error-handling-in-com.md).
 
 ## Remarks
 
@@ -122,9 +122,4 @@ Only signed packages can be installed on a remote computer.
 </dt> </dl>
 
  
-
- 
-
-
-
 

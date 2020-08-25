@@ -1,6 +1,6 @@
 ---
 title: Common EAPHost Constants
-description: Common EAPHost Constants
+description: Learn about common EAPHost constants. See additional topics like EAP method properties and EAP method flags.
 ms.assetid: 35ea5b31-0a83-47e0-acb4-e90d93c2b490
 ms.topic: article
 ms.date: 05/31/2018

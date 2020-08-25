@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MsiRestartManagerSessionKey property
 
-The installer sets the value of the **MsiRestartManagerSessionKey** property to the session key for the [Restart Manager](https://msdn.microsoft.com/library/Cc948910(v=VS.85).aspx) session. Custom actions can use the session key to join the [Restart Manager](https://msdn.microsoft.com/library/Cc948910(v=VS.85).aspx) session.
+The installer sets the value of the **MsiRestartManagerSessionKey** property to the session key for the [Restart Manager](../rstmgr/restart-manager-portal.md) session. Custom actions can use the session key to join the [Restart Manager](../rstmgr/restart-manager-portal.md) session.
 
 ## Remarks
 
@@ -37,7 +37,3 @@ The installer sets the value of the **MsiRestartManagerSessionKey** property at 
  
 
  
-
-
-
-

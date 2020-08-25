@@ -12,7 +12,7 @@ Microsoft Active Accessibility supports most Microsoft platforms and is included
 
 If you do not have the latest version of Microsoft Active Accessibility, use the [Microsoft Active Accessibility 2.0 Redistributable Kit (RDK)](https://www.microsoft.com/downloads/details.aspx?familyid=9b14f6e1-888a-4f1d-b1a1-da08ee4077df&displaylang=en) to upgrade. This RDK contains all of the core system files needed to incorporate Microsoft Active Accessibility technology into client and server applications. It supports Windows 98, Windows NT 4.0 with Service Pack 6 (SP6) and later, Windows 2000, Windows Millennium Edition (Windows Me), Windows XP, and Windows Server 2003.
 
-To install the Microsoft Active Accessibility RDK, see the [Microsoft Accessibility Developer Center on MSDN](https://msdn.microsoft.com/windows/bb735024.aspx).
+To install the Microsoft Active Accessibility RDK, see the [Microsoft Accessibility Developer Center on MSDN](/windows/apps/accessibility).
 
 The following table lists each Windows operating system and the Microsoft Active Accessibility version that supports it. Note that Windows CE and Windows 3.1 are not supported by any Microsoft Active Accessibility version.
 
@@ -42,7 +42,3 @@ The following table lists each Windows operating system and the Microsoft Active
  
 
  
-
-
-
-

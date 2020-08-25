@@ -56,7 +56,7 @@ The **MDM\_VPNv2\_APNBinding02** class has these properties.
 
 <dl> <dt>
 
-[AccessPointName](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-apnbinding-accesspointname)
+[AccessPointName](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-apnbinding-accesspointname)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -67,7 +67,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AuthenticationType](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-apnbinding-authenticationtype)
+[AuthenticationType](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-apnbinding-authenticationtype)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -87,14 +87,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Reserved for future use.
 
 </dd> <dt>
 
-[IsCompressionEnabled](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-apnbinding-iscompressionenabled)
+[IsCompressionEnabled](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-apnbinding-iscompressionenabled)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -114,14 +114,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Reserved for future use.
 
 </dd> <dt>
 
-[Password](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-apnbinding-password)
+[Password](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-apnbinding-password)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -132,7 +132,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ProviderId](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-apnbinding-providerid)
+[ProviderId](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-apnbinding-providerid)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -143,7 +143,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[UserName](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-apnbinding-username)
+[UserName](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-apnbinding-username)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -172,14 +172,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

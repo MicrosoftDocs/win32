@@ -29,7 +29,7 @@ This overview contains the following parts:
 
 ## Part 1: IDWriteGdiInterop
 
-The [**IDWriteGdiInterop**](https://msdn.microsoft.com/library/Dd371172(v=VS.85).aspx) interface is used to convert between GDI font structures and [DirectWrite](direct-write-portal.md) font interfaces, and also to create an [**IDWriteBitmapRenderTarget**](https://msdn.microsoft.com/library/Dd368165(v=VS.85).aspx) object. Get an **IDWriteGdiInterop** object by using the [**IDWriteFactory::GetGdiInterop**](https://msdn.microsoft.com/library/Dd368207(v=VS.85).aspx) method, as shown in the following code.
+The [**IDWriteGdiInterop**](/windows/win32/api/dwrite/nn-dwrite-idwritegdiinterop) interface is used to convert between GDI font structures and [DirectWrite](direct-write-portal.md) font interfaces, and also to create an [**IDWriteBitmapRenderTarget**](/windows/win32/api/dwrite/nn-dwrite-idwritebitmaprendertarget) object. Get an **IDWriteGdiInterop** object by using the [**IDWriteFactory::GetGdiInterop**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-getgdiinterop) method, as shown in the following code.
 
 
 ```C++
@@ -44,7 +44,7 @@ if (SUCCEEDED(hr))
 
 ## Part 2: Font Objects
 
-GDI uses the LOGFONT structure to store information about the font and style of text. The [**IDWriteGdiInterop::CreateFontFromLOGFONT**](https://msdn.microsoft.com/library/Dd371187(v=VS.85).aspx) method will convert a LOGFONT structure to an [**IDWriteFont**](https://msdn.microsoft.com/library/Dd368213(v=VS.85).aspx) object, as seen in the following code.
+GDI uses the LOGFONT structure to store information about the font and style of text. The [**IDWriteGdiInterop::CreateFontFromLOGFONT**](/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfromlogfont) method will convert a LOGFONT structure to an [**IDWriteFont**](/windows/win32/api/dwrite/nn-dwrite-idwritefont) object, as seen in the following code.
 
 
 ```C++
@@ -57,9 +57,9 @@ if (SUCCEEDED(hr))
 
 
 
-However, [**IDWriteFont**](https://msdn.microsoft.com/library/Dd368213(v=VS.85).aspx) does not encapsulate all of the same information that a LOGFONT does. A LOGFONT structure contains the font size, weight, style, underline, strikeout, font face name, and some other information. **IDWriteFont** objects contain information about a font and its weight and style, but not the font size, underline, and so on. With [DirectWrite](direct-write-portal.md), formatting information elements such as these are encapsulated by an [**IDWriteTextFormat**](https://msdn.microsoft.com/library/Dd316628(v=VS.85).aspx) object or, for specific ranges of text, an [**IDWriteTextLayout**](https://msdn.microsoft.com/library/Dd316718(v=VS.85).aspx) object.
+However, [**IDWriteFont**](/windows/win32/api/dwrite/nn-dwrite-idwritefont) does not encapsulate all of the same information that a LOGFONT does. A LOGFONT structure contains the font size, weight, style, underline, strikeout, font face name, and some other information. **IDWriteFont** objects contain information about a font and its weight and style, but not the font size, underline, and so on. With [DirectWrite](direct-write-portal.md), formatting information elements such as these are encapsulated by an [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) object or, for specific ranges of text, an [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) object.
 
-You do have the option to convert a [**IDWriteFont**](https://msdn.microsoft.com/library/Dd368213(v=VS.85).aspx) to a LOGFONT by using the [**IDWriteGdiInterop::ConvertFontToLOGFONT**](https://msdn.microsoft.com/library/Dd371177(v=VS.85).aspx).
+You do have the option to convert a [**IDWriteFont**](/windows/win32/api/dwrite/nn-dwrite-idwritefont) to a LOGFONT by using the [**IDWriteGdiInterop::ConvertFontToLOGFONT**](/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-convertfonttologfont).
 
 ## Part 3: Rendering
 
@@ -68,7 +68,3 @@ To render DirectWrite text to a GDI surface you use a custom text renderer. See 
  
 
  
-
-
-
-

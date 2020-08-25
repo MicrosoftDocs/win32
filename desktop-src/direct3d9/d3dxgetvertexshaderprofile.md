@@ -38,15 +38,15 @@ LPCSTR D3DXGetVertexShaderProfile(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to the device. See [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx).
+Pointer to the device. See [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9).
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 The HLSL profile name.
 
@@ -98,7 +98,7 @@ A shader profile specifies the assembly shader version to use and the capabiliti
 
  
 
-For more information about the differences between shader versions, see [Vertex Shader Differences](https://msdn.microsoft.com/library/Bb172931(v=VS.85).aspx).
+For more information about the differences between shader versions, see [Vertex Shader Differences](../direct3dhlsl/dx9-graphics-reference-asm-vs-differences.md).
 
 ## Requirements
 
@@ -121,7 +121,3 @@ For more information about the differences between shader versions, see [Vertex 
  
 
  
-
-
-
-

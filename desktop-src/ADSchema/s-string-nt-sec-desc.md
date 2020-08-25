@@ -29,7 +29,7 @@ An octet string that contains a Windows NT or Windows 2000 security descriptor
 | MAPI Type    | BINARY                                                                                         |
 | ADS Type     | ADSTYPE\_NT\_SECURITY\_DESCRIPTOR                                                              |
 | Variant Type | VT\_DISPATCH                                                                                   |
-| SDS Type     | A COM object that can be cast to an [**IADsSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor). |
+| SDS Type     | A COM object that can be cast to an [**IADsSecurityDescriptor**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor). |
 
 
 
@@ -37,13 +37,9 @@ An octet string that contains a Windows NT or Windows 2000 security descriptor
 
 <dl> <dt>
 
-[**IADsSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor)
+[**IADsSecurityDescriptor**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor)
 </dt> </dl>
 
  
 
  
-
-
-
-

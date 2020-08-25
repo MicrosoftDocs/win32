@@ -16,9 +16,9 @@ Each object class in Active Directory Domain Services is defined by a **classSch
 -   Class identifiers: Classes have several identifiers including **ldapDisplayName**, which are used by LDAP clients to identify the class in search filters, and **schemaIDGUID**, which are used in security descriptors to control access to the class.
 -   Possible attributes: An object class definition includes lists of the mandatory and optional attributes that can be set on an instance of the class.
 -   Possible parents: Every object instance, except the root of the directory hierarchy, has exactly one parent. An object class definition includes lists of possible parents, that is, of the object classes that can contain an instance of the class.
--   Superclasses and auxiliary classes: Every object class (except [*top*](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms681941(v=vs.85))) is derived from another class. A class inherits possible attributes and possible parents from the classes above it in the class hierarchy. A class can also have any number of auxiliary classes from which it inherits lists of possible attributes. For more information, see [Class Inheritance in the Active Directory Schema](class-inheritance-in-the-active-directory-schema.md).
+-   Superclasses and auxiliary classes: Every object class (except [*top*](/previous-versions/windows/desktop/legacy/ms681941(v=vs.85))) is derived from another class. A class inherits possible attributes and possible parents from the classes above it in the class hierarchy. A class can also have any number of auxiliary classes from which it inherits lists of possible attributes. For more information, see [Class Inheritance in the Active Directory Schema](class-inheritance-in-the-active-directory-schema.md).
 
-The following table lists the **lDAPDisplayName** and description of the key attributes of a **classSchema** object. For more information, and a complete list of the mandatory and optional attributes of a **classSchema** object, see [**classSchema**](https://docs.microsoft.com/windows/desktop/ADSchema/c-classschema).
+The following table lists the **lDAPDisplayName** and description of the key attributes of a **classSchema** object. For more information, and a complete list of the mandatory and optional attributes of a **classSchema** object, see [**classSchema**](/windows/desktop/ADSchema/c-classschema).
 
 
 
@@ -128,10 +128,4 @@ For more information, see <a href="structural-abstract-and-auxiliary-classes.md"
  
 
  
-
- 
-
-
-
-
 

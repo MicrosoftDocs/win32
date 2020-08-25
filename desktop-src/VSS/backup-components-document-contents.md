@@ -44,7 +44,7 @@ A requester can determine which components have been explicitly included in an o
 
 The [**IVssBackupComponents::GetWriterComponentsCount**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponentscount) method returns the number of writers with component information stored in the Backup Components Document (and not the number of components in the document).
 
-The requester indexes through the stored writer information using [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents), which returns instances of the [**IVssWriterComponentsExt**](https://msdn.microsoft.com/library/Aa384312(v=VS.85).aspx) interface. The **IVssWriterComponentsExt** interface allows the requester to obtain the [*writer class*](vssgloss-w.md) and [*writer instance*](vssgloss-w.md) of participating writers, as well as to access information about those of its components stored in the Backup Components Document.
+The requester indexes through the stored writer information using [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents), which returns instances of the [**IVssWriterComponentsExt**](/windows/win32/api/vsbackup/nl-vsbackup-ivsswritercomponentsext) interface. The **IVssWriterComponentsExt** interface allows the requester to obtain the [*writer class*](vssgloss-w.md) and [*writer instance*](vssgloss-w.md) of participating writers, as well as to access information about those of its components stored in the Backup Components Document.
 
 ## Information on Included Components
 
@@ -52,9 +52,9 @@ The Backup Components Document's representation of the component data (which doe
 
 Requesters and writers obtain access to instances of the [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) interface in different ways.
 
-A requester examines component data on a writer by writer basis by using instances of the [**IVssWriterComponentsExt**](https://msdn.microsoft.com/library/Aa384312(v=VS.85).aspx) interface returned by [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents).
+A requester examines component data on a writer by writer basis by using instances of the [**IVssWriterComponentsExt**](/windows/win32/api/vsbackup/nl-vsbackup-ivsswritercomponentsext) interface returned by [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents).
 
-In addition to the writer identification information, the [**IVssWriterComponentsExt**](https://msdn.microsoft.com/library/Aa384312(v=VS.85).aspx) interface provides an array of instances of the [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) interface—one for each of the selected writers included components.
+In addition to the writer identification information, the [**IVssWriterComponentsExt**](/windows/win32/api/vsbackup/nl-vsbackup-ivsswritercomponentsext) interface provides an array of instances of the [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) interface—one for each of the selected writers included components.
 
 As noted in [Backup Components Document Life Cycle](backup-components-document-life-cycle.md), the writers can gain access to the same information through the [**IVssWriterComponents**](/windows/desktop/api/VsWriter/nl-vswriter-ivsswritercomponents) interface when handling the PrepareForBackup, PrepareForSnapshot, PostSnapshot, BackupComplete, PreRestore, or PostRestore event.
 
@@ -194,6 +194,3 @@ Retrieved by writers and requesters using [**IVssComponent::GetPreRestoreFailure
  
 
  
-
-
-

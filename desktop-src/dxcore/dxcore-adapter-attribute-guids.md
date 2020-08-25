@@ -1,6 +1,6 @@
 ---
 title: DXCore adapter attribute GUIDs
-description: The following adapter attribute GUIDs are declared in `dxcore_interface.h`, and are used with the [IDXCoreAdapterFactory::CreateAdapterList](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-createadapterlist) and [IDXCoreAdapter::IsAttributeSupported](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-isattributesupported) methods.
+description: The following adapter attribute GUIDs are declared in `dxcore_interface.h`, and are used with the [IDXCoreAdapterFactory::CreateAdapterList](./dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-createadapterlist.md) and [IDXCoreAdapter::IsAttributeSupported](./dxcore_interface/nf-dxcore_interface-idxcoreadapter-isattributesupported.md) methods.
 keywords:
 - DXCore, adapter attribute, GUIDs
 topic_type:
@@ -18,7 +18,7 @@ ms.date: 06/20/2019
 
 # DXCore adapter attribute GUIDs
 
-The following adapter attribute GUIDs are declared in `dxcore_interface.h`, and are used with the [IDXCoreAdapterFactory::CreateAdapterList](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-createadapterlist) and [IDXCoreAdapter::IsAttributeSupported](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-isattributesupported) methods. For any given adapter, one or more of the attributes could apply.
+The following adapter attribute GUIDs are declared in `dxcore_interface.h`, and are used with the [IDXCoreAdapterFactory::CreateAdapterList](./dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-createadapterlist.md) and [IDXCoreAdapter::IsAttributeSupported](./dxcore_interface/nf-dxcore_interface-idxcoreadapter-isattributesupported.md) methods. For any given adapter, one or more of the attributes could apply.
 
 | GUID | Value |
 |-|-|
@@ -34,8 +34,8 @@ The following adapter attribute GUIDs are declared in `dxcore_interface.h`, and 
 
 ## See also
 
-* [IDXCoreAdapterFactory::CreateAdapterList](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-createadapterlist)
-* [IDXCoreAdapter::IsAttributeSupported](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-isattributesupported)
-* [DXCore Reference](/windows/win32/dxcore/dxcore-reference)
-* [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
-* [Direct3D 12 graphics](/windows/win32/direct3d12/direct3d-12-graphics)
+* [IDXCoreAdapterFactory::CreateAdapterList](./dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-createadapterlist.md)
+* [IDXCoreAdapter::IsAttributeSupported](./dxcore_interface/nf-dxcore_interface-idxcoreadapter-isattributesupported.md)
+* [DXCore Reference](./dxcore-reference.md)
+* [Using DXCore to enumerate adapters](./dxcore-enum-adapters.md)
+* [Direct3D 12 graphics](../direct3d12/direct3d-12-graphics.md)

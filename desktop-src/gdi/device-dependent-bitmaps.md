@@ -12,7 +12,7 @@ Device-dependent bitmaps (DDBs) are described by using a single structure, the [
 
 To use a DDB in a device context, it must have the color organization of that device context. Thus, a DDB is often called a *compatible bitmap* and it usually has better GDI performance than a DIB. For example, to create a bitmap for video memory, it is best to use a compatible bitmap with the same color format as the primary display. Once in video memory, rendering to the bitmap and displaying it to the screen are significantly faster than from a system memory surface or directly from a DIB.
 
-In addition to enabling better GDI performance, compatible bitmaps are used to capture images (see [Capturing an Image](capturing-an-image.md) ) and to create bitmaps at run time for menus see "Creating the Bitmap" in (see [Using Menus](https://msdn.microsoft.com/library/ms647558(v=VS.85).aspx) ).
+In addition to enabling better GDI performance, compatible bitmaps are used to capture images (see [Capturing an Image](capturing-an-image.md) ) and to create bitmaps at run time for menus see "Creating the Bitmap" in (see [Using Menus](../menurc/using-menus.md) ).
 
 To transfer a bitmap between devices with different color organization, use [**GetDIBits**](/windows/desktop/api/Wingdi/nf-wingdi-getdibits) to convert the compatible bitmap to a DIB and call [**SetDIBits**](/windows/desktop/api/Wingdi/nf-wingdi-setdibits) or [**StretchDIBits**](/windows/desktop/api/Wingdi/nf-wingdi-stretchdibits) to display the DIB to the second device.
 
@@ -23,6 +23,3 @@ An application can create a DDB from a DIB by initializing the required structur
  
 
  
-
-
-

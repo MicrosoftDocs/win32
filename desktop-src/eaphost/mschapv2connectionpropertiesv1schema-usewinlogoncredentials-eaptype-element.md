@@ -1,6 +1,6 @@
 ---
 title: UseWinLogonCredentials (EapType) Element
-description: Controls use of the winlogin credentials.
+description: Learn about the UseWinLogonCredentials (EapType) element. This element controls the use of winlogin credentials.
 ms.assetid: 8ebd87ce-7d2b-4305-b50c-239bb9c7af75
 keywords:
 - UseWinLogonCredentials element EAPHost
@@ -36,10 +36,10 @@ If TRUE, then EAP MS-CHAPv2 obtains credentials from winlogon. If FALSE, then EA
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS versions |
+|------|-------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

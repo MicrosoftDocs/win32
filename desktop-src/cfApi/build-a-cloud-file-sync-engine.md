@@ -14,7 +14,7 @@ Windows 10 version 1709 (also called the Fall Creators Update) introduced the *c
 The cloud files API contains the following native Win32 APIs and Universal Windows Platform (UWP) APIs:
 
 * [Cloud Filter API](cloud-filter-reference.md): This native Win32 API provides functionality at the boundary between the user mode and the file system. This API handles the creation and management of placeholder files and directories.
-* [Windows.Storage.Provider namespace](https://docs.microsoft.com/uwp/api/windows.storage.provider): This WinRT API enables applications to configure and register a cloud storage provider's sync root with the operating system.
+* [Windows.Storage.Provider namespace](/uwp/api/windows.storage.provider): This WinRT API enables applications to configure and register a cloud storage provider's sync root with the operating system.
 
 ## Supported features
 
@@ -68,7 +68,7 @@ The following image demonstrates how the placeholder, full, and pinned full file
 
 ### Desktop Bridge
 
-* Sync engines using the cloud files APIs are designed to use the [Desktop Bridge](https://docs.microsoft.com/windows/uwp/porting/desktop-to-uwp-root) as an implementation requirement.
+* Sync engines using the cloud files APIs are designed to use the [Desktop Bridge](/windows/uwp/porting/desktop-to-uwp-root) as an implementation requirement.
 
 ## Cloud Mirror sample
 
@@ -114,7 +114,7 @@ File system minifilter drivers are managed and supported by a special kernel-mod
 
 ## Hydration Policies
 
-Windows supports a variety of [primary hydration policies](https://docs.microsoft.com/windows/desktop/api/cfapi/ne-cfapi-cf_hydration_policy_primary) and [secondary hydration policy](https://docs.microsoft.com/windows/desktop/api/cfapi/ne-cfapi-cf_hydration_policy_modifier) modifiers. Primary hydration policies have this order:
+Windows supports a variety of [primary hydration policies](/windows/desktop/api/cfapi/ne-cfapi-cf_hydration_policy_primary) and [secondary hydration policy](/windows/desktop/api/cfapi/ne-cfapi-cf_hydration_policy_modifier) modifiers. Primary hydration policies have this order:
 
   **Always full > Full > Progressive > Partial**
 
@@ -130,7 +130,6 @@ Note that the file hydration policy cannot be changed after the file is opened.
 
 ## Compatibility with applications that use reparse points
 
-The cloud files API implements the placeholder system using [reparse points](https://docs.microsoft.com/windows/desktop/FileIO/reparse-points). A common misconception about reparse points is that they are the same as symbolic links. This misconception is occasionally reflected in application implementations, and as a result, many existing applications hit errors when encountering any reparse point.
+The cloud files API implements the placeholder system using [reparse points](/windows/desktop/FileIO/reparse-points). A common misconception about reparse points is that they are the same as symbolic links. This misconception is occasionally reflected in application implementations, and as a result, many existing applications hit errors when encountering any reparse point.
 
-To mitigate this compatibility issue, the cloud files API always hides its reparse points from all applications except for sync engines and processes whose main image resides under **%systemroot%**. Applications that understand reparse points correctly can force the platform to expose cloud files API reparse points using [RtlSetProcessPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlsetprocessplaceholdercompatibilitymode) or [RtlSetThreadProcessPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlsetthreadplaceholdercompatibilitymode).
-
+To mitigate this compatibility issue, the cloud files API always hides its reparse points from all applications except for sync engines and processes whose main image resides under **%systemroot%**. Applications that understand reparse points correctly can force the platform to expose cloud files API reparse points using [RtlSetProcessPlaceholderCompatibilityMode](/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlsetprocessplaceholdercompatibilitymode) or [RtlSetThreadProcessPlaceholderCompatibilityMode](/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlsetthreadplaceholdercompatibilitymode).

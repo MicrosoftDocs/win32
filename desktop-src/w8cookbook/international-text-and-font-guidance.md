@@ -24,25 +24,21 @@ Note that support for a script may require certain changes to text stack compone
 
 **Typography guidance for developers**
 
-Typography is at the heart of the Microsoft design language. Each of the Microsoft design principles reinforces the importance of typography. For the first time, app developers have a set of frameworks that support advanced typographic features. Go to [Displaying and editing text](https://msdn.microsoft.com/library/windows/apps/hh465442.aspx) for information about how to use JavaScript and HTML to display and edit text in Windows Store apps.
+Typography is at the heart of the Microsoft design language. Each of the Microsoft design principles reinforces the importance of typography. For the first time, app developers have a set of frameworks that support advanced typographic features. Go to [Displaying and editing text](/previous-versions/windows/apps/hh465442(v=win.10)) for information about how to use JavaScript and HTML to display and edit text in Windows Store apps.
 
 **Font metrics**
 
-Font metrics are an area of particular importance to application developers. Font files contain various values related to vertical and horizontal metrics. These values are documented in the [OpenType specification](https://www.microsoft.com/typography/otspec/) and these are exposed via a variety of APIs found at [DWRITE\_FONT\_METRICS structure](https://msdn.microsoft.com/library/windows/desktop/dd368074(v=vs.85)) and at [TEXTMETRIC Structure](https://msdn.microsoft.com/library/windows/desktop/dd145132(v=vs.85).aspx).
+Font metrics are an area of particular importance to application developers. Font files contain various values related to vertical and horizontal metrics. These values are documented in the [OpenType specification](https://www.microsoft.com/typography/otspec/) and these are exposed via a variety of APIs found at [DWRITE\_FONT\_METRICS structure](/windows/win32/api/dwrite/ns-dwrite-dwrite_font_metrics) and at [TEXTMETRIC Structure](/windows/win32/api/wingdi/ns-wingdi-textmetrica).
 
 ## Resources
 
 -   [Script and Font Support for Windows](https://msdn.microsoft.com/goglobal/bb688099.aspx)
 -   [Go Global Development Center](https://msdn.microsoft.com/goglobal/default)
--   [Displaying and editing text](https://msdn.microsoft.com/library/windows/apps/hh465442.aspx)
+-   [Displaying and editing text](/previous-versions/windows/apps/hh465442(v=win.10))
 -   [OpenType specification](https://www.microsoft.com/typography/otspec/)
--   [DWRITE\_FONT\_METRICS structure](https://msdn.microsoft.com/library/windows/desktop/dd368074(v=vs.85))
--   [TEXTMETRIC Structure](https://msdn.microsoft.com/library/windows/desktop/dd145132(v=vs.85).aspx)
+-   [DWRITE\_FONT\_METRICS structure](/windows/win32/api/dwrite/ns-dwrite-dwrite_font_metrics)
+-   [TEXTMETRIC Structure](/windows/win32/api/wingdi/ns-wingdi-textmetrica)
 
  
 
  
-
-
-
-

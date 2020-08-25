@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The MsiAssembly Table specifies Windows Installer settings for Microsoft .NET Framework assemblies and Win32 assemblies. For more information, see [Installation of Assemblies to the Global Assembly Cache](installation-of-assemblies-to-the-global-assembly-cache.md) and [Installation of Win32 Assemblies](installation-of-win32-assemblies.md).
 
-On Windows XP, Windows Installer can install Win32 assemblies as [side-by-side assemblies](side-by-side-assemblies.md). For more information, see the [Side-by-Side Assembly API](https://msdn.microsoft.com/library/Aa376204(v=VS.85).aspx).
+On Windows XP, Windows Installer can install Win32 assemblies as [side-by-side assemblies](side-by-side-assemblies.md). For more information, see the [Side-by-Side Assembly API](../sbscs/side-by-side-assembly-api.md).
 
 **Windows 2000:** This feature is not supported.
 
@@ -104,6 +104,3 @@ The assemblies are not committed until successful execution of the [InstallFinal
  
 
  
-
-
-

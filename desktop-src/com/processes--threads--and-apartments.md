@@ -14,7 +14,7 @@ Processes communicate with one another through messages, using Microsoft's Remot
 
 When a thread begins to execute, it continues until it is killed or until it is interrupted by a thread with higher priority (by a user action or the kernel's thread scheduler). Each thread can run separate sections of code, or multiple threads can execute the same section of code. Threads executing the same block of code maintain separate stacks. Each thread in a process shares that process's global variables and resources.
 
-The thread scheduler determines when and how often to execute a thread, according to a combination of the process's priority class attribute and the thread's base priority. You set a process's priority class attribute by calling the [**SetPriorityClass**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setpriorityclass) function , and you set a thread's base priority with a call to [**SetThreadPriority**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadpriority).
+The thread scheduler determines when and how often to execute a thread, according to a combination of the process's priority class attribute and the thread's base priority. You set a process's priority class attribute by calling the [**SetPriorityClass**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setpriorityclass) function , and you set a thread's base priority with a call to [**SetThreadPriority**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadpriority).
 
 Multithreaded applications must avoid two threading problems: *deadlocks* and *races*. A deadlock occurs when each thread is waiting for the other to do something. The COM call control helps prevent deadlocks in calls between objects. A race condition occurs when one thread finishes before another on which it depends, causing the former to use an uninitialized value because the latter has not yet supplied a valid one. COM supplies some functions specifically designed to help avoid race conditions in out-of-process servers. (See [Out-of-Process Server Implementation Helpers](out-of-process-server-implementation-helpers.md).)
 
@@ -61,7 +61,3 @@ For more information, see the following topics:
  
 
  
-
-
-
-

@@ -44,7 +44,7 @@ A statement contained information with a format or size different from the expec
 <span id="tools.u_5_gly"></span><span id="TOOLS.U_5_GLY"></span>**Unknown DIB header format**
 </dt> <dd>
 
-The device-independent bitmap (DIB) header is not a [**BITMAPCOREHEADER**](https://msdn.microsoft.com/library/Dd183372(v=VS.85).aspx) or [**BITMAPINFOHEADER**](https://msdn.microsoft.com/library/Dd183376(v=VS.85).aspx) structure.
+The device-independent bitmap (DIB) header is not a [**BITMAPCOREHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapcoreheader) or [**BITMAPINFOHEADER**](/previous-versions//dd183376(v=vs.85)) structure.
 
 </dd> <dt>
 
@@ -65,7 +65,3 @@ The format of the information following a [**VERSIONINFO**](versioninfo-resource
  
 
  
-
-
-
-

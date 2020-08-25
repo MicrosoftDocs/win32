@@ -19,7 +19,7 @@ Activating a link runs the link source's server application, which the user requ
 [Creating Linked and Embedded Objects from Existing Data](creating-linked-and-embedded-objects-from-existing-data.md)
 </dt> <dt>
 
-[Distributed Link Tracking and Object Identifiers](https://docs.microsoft.com/windows/desktop/FileIO/distributed-link-tracking-and-object-identifiers)
+[Distributed Link Tracking and Object Identifiers](/windows/desktop/FileIO/distributed-link-tracking-and-object-identifiers)
 </dt> <dt>
 
 [Linked Objects and Monikers](linked-objects-and-monikers.md)
@@ -28,7 +28,3 @@ Activating a link runs the link source's server application, which the user requ
  
 
  
-
-
-
-

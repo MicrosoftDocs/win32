@@ -39,7 +39,7 @@ HRESULT Lock(
 *pSize* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**SIZE\_T**](../winprog/windows-data-types.md)\***
 
 Pointer to the size of the .x file data.
 
@@ -89,7 +89,3 @@ Returned parameter values are not guaranteed to be valid due to possible file co
  
 
  
-
-
-
-

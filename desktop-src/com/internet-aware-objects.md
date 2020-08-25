@@ -17,7 +17,7 @@ The following tables describe the meaning for various categories as both impleme
 | Required Categories                                                                                                                                                                                | Description                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CATID\_PersistsToMoniker, CATID\_PersistsToStreamInit, CATID\_PersisitsToStream, CATID\_PersistsToStorage, CATID\_PersistsToMemory, CATID\_PersistsToFile, CATID\_PersistsToPropertyBag<br/> | Each of these categories is mutually exclusive and only used when an object supports only one persistence mechanism at all (hence the mutual exclusion). Containers that do not support the persistence mechanism described by one of these categories should prevent themselves from creating any objects of classes so marked.<br/> |
-| CATID\_RequiresDataPathHost<br/>                                                                                                                                                             | The object requires the ability to save data to one or more paths and requires container involvement, therefore requiring container support for [**IBindHost**](https://msdn.microsoft.com/library/ms775076(v=VS.85).aspx).<br/>                                                                                                                                  |
+| CATID\_RequiresDataPathHost<br/>                                                                                                                                                             | The object requires the ability to save data to one or more paths and requires container involvement, therefore requiring container support for [**IBindHost**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775076(v=vs.85)).<br/>                                                                                                                                  |
 
 
 
@@ -60,10 +60,4 @@ The following table provides the exact CATIDs assigned to each category:
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

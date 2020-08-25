@@ -147,7 +147,7 @@ The definition of an object in code. In C++, the class of an object is defined a
 <span id="com.class_factory_gloss"></span><span id="COM.CLASS_FACTORY_GLOSS"></span>**class factory**
 </dt> <dd>
 
-A COM object that implements the [**IClassFactory**](https://msdn.microsoft.com/library/ms694364(v=VS.85).aspx) interface and that creates one or more instances of an object identified by a given class identifier(CLSID).
+A COM object that implements the [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) interface and that creates one or more instances of an object identified by a given class identifier(CLSID).
 
 </dd> <dt>
 
@@ -499,42 +499,42 @@ An opaque result handle defined to be zero for a successful return from a functi
 <span id="com.hyperlink_object_gloss"></span><span id="COM.HYPERLINK_OBJECT_GLOSS"></span>**hyperlink object**
 </dt> <dd>
 
-A COM object that implements, at a minimum, the [**IHlink**](https://msdn.microsoft.com/library/Aa767974(v=VS.85).aspx) interface and acts as a link to an object at another location (the target). A hyperlink is made up of four parts: a moniker that identifies the target's location; a string for the location within the target; a friendly, or displayable, name for the target; and a string that can contain additional parameters.
+A COM object that implements, at a minimum, the [**IHlink**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767974(v=vs.85)) interface and acts as a link to an object at another location (the target). A hyperlink is made up of four parts: a moniker that identifies the target's location; a string for the location within the target; a friendly, or displayable, name for the target; and a string that can contain additional parameters.
 
 </dd> <dt>
 
 <span id="com.hyperlink_browse_context_gloss"></span><span id="COM.HYPERLINK_BROWSE_CONTEXT_GLOSS"></span>**hyperlink browse context**
 </dt> <dd>
 
-A COM object that implements the [**IHlinkBrowseContext**](https://msdn.microsoft.com/library/Aa767949(v=VS.85).aspx) interface and maintains the hyperlink navigation stack. The browse context object manages the hyperlink frame window and hyperlink target object's window.
+A COM object that implements the [**IHlinkBrowseContext**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767949(v=vs.85)) interface and maintains the hyperlink navigation stack. The browse context object manages the hyperlink frame window and hyperlink target object's window.
 
 </dd> <dt>
 
 <span id="com.hyperlink_container_gloss"></span><span id="COM.HYPERLINK_CONTAINER_GLOSS"></span>**hyperlink container**
 </dt> <dd>
 
-A container application that supports hyperlinks by implementing the [**IHlinkSite**](https://msdn.microsoft.com/library/Aa767933(v=VS.85).aspx) interface and, if the container's objects can be targets of other hyperlinks, the [**IHlinkTarget**](https://msdn.microsoft.com/library/Aa767929(v=VS.85).aspx) interface.
+A container application that supports hyperlinks by implementing the [**IHlinkSite**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767933(v=vs.85)) interface and, if the container's objects can be targets of other hyperlinks, the [**IHlinkTarget**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767929(v=vs.85)) interface.
 
 </dd> <dt>
 
 <span id="com.hyperlink_frame_object_gloss"></span><span id="COM.HYPERLINK_FRAME_OBJECT_GLOSS"></span>**hyperlink frame object**
 </dt> <dd>
 
-A COM object that implements the [**IHlinkFrame**](https://msdn.microsoft.com/library/Aa767938(v=VS.85).aspx) interface and controls the top-level navigation and display of hyperlinks for the frame's container and the hyperlink target's server.
+A COM object that implements the [**IHlinkFrame**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767938(v=vs.85)) interface and controls the top-level navigation and display of hyperlinks for the frame's container and the hyperlink target's server.
 
 </dd> <dt>
 
 <span id="com.hyperlink_site_object_gloss"></span><span id="COM.HYPERLINK_SITE_OBJECT_GLOSS"></span>**hyperlink site object**
 </dt> <dd>
 
-A COM object that implements the [**IHlinkSite**](https://msdn.microsoft.com/library/Aa767933(v=VS.85).aspx) interface and supplies either the moniker or interface identifier of its hyperlink container. One hyperlink site can serve multiple hyperlinks.
+A COM object that implements the [**IHlinkSite**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767933(v=vs.85)) interface and supplies either the moniker or interface identifier of its hyperlink container. One hyperlink site can serve multiple hyperlinks.
 
 </dd> <dt>
 
 <span id="com.hyperlink_target_object_gloss"></span><span id="COM.HYPERLINK_TARGET_OBJECT_GLOSS"></span>**hyperlink target object**
 </dt> <dd>
 
-A COM object that implements the [**IHlinkTarget**](https://msdn.microsoft.com/library/Aa767929(v=VS.85).aspx) interface and supplies its moniker, friendly name, and other information that other hyperlink objects will use to navigate to it.
+A COM object that implements the [**IHlinkTarget**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767929(v=vs.85)) interface and supplies its moniker, friendly name, and other information that other hyperlink objects will use to navigate to it.
 
 </dd> <dt>
 
@@ -639,7 +639,7 @@ An out-of-process server implemented as an .EXE application running on the same 
 <span id="com.lock_gloss"></span><span id="COM.LOCK_GLOSS"></span>**lock**
 </dt> <dd>
 
-A pointer held to-and possibly, a reference count incremented on-a running object. OLE defines two types of locks that can be held on an object: strong and weak. To implement a strong lock, a server must maintain both a pointer and a reference count, so that the object will remain "locked" in memory at least until the server calls [**IUnknown::Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx). To implement a weak lock, the server maintains only a pointer to the object, so that the object can be destroyed by another process.
+A pointer held to-and possibly, a reference count incremented on-a running object. OLE defines two types of locks that can be held on an object: strong and weak. To implement a strong lock, a server must maintain both a pointer and a reference count, so that the object will remain "locked" in memory at least until the server calls [**IUnknown::Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release). To implement a weak lock, the server maintains only a pointer to the object, so that the object can be destroyed by another process.
 
 </dd> <dt>
 
@@ -702,7 +702,7 @@ An application that makes available monikers that identify the objects it manage
 <span id="com.namespace_extension_gloss"></span><span id="COM.NAMESPACE_EXTENSION_GLOSS"></span>**namespace extension**
 </dt> <dd>
 
-An in-process COM object that implements [**IShellFolder**](https://msdn.microsoft.com/library/Bb775075(v=VS.85).aspx), [**IPersistFolder**](https://msdn.microsoft.com/library/Bb775348(v=VS.85).aspx), and [**IShellView**](https://msdn.microsoft.com/library/Bb774834(v=VS.85).aspx), which are sometimes referred to as the namespace extension interfaces. A namespace extension is used either to extend the shell's namespace or to create a separate namespace. Primary users are the Windows Explorer and common file dialog boxes.
+An in-process COM object that implements [**IShellFolder**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder), [**IPersistFolder**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipersistfolder), and [**IShellView**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellview), which are sometimes referred to as the namespace extension interfaces. A namespace extension is used either to extend the shell's namespace or to create a separate namespace. Primary users are the Windows Explorer and common file dialog boxes.
 
 </dd> <dt>
 
@@ -767,7 +767,7 @@ The state of a COM object when it is stored (on disk or in a database). The obje
 
 Information that can be stored persistently as part of a storage object such as a file or directory. Persistent properties are grouped into property sets, which can be displayed and edited.
 
-A persistent property is different from the run-time properties of objects created with OLE Controls and Automation technologies, which can be used to affect system behavior. The [**PROPVARIANT**](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-propvariant) structure defines all valid types of persistent properties, whereas the **VARIANT** structure defines all valid types of run-time properties.
+A persistent property is different from the run-time properties of objects created with OLE Controls and Automation technologies, which can be used to affect system behavior. The [**PROPVARIANT**](/windows/win32/api/propidl/ns-propidl-propvariant) structure defines all valid types of persistent properties, whereas the **VARIANT** structure defines all valid types of run-time properties.
 
 </dd> <dt>
 
@@ -844,7 +844,7 @@ The location within a property frame where a property page is displayed. The pro
 <span id="com.property_set_gloss"></span><span id="COM.PROPERTY_SET_GLOSS"></span>**property set**
 </dt> <dd>
 
-A logically related group of properties that is associated with a persistently stored object. To create, open, delete, or enumerate one or more property sets, implement the [**IPropertySetStorage**](https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage) interface. If you are using compound files, you can use OLE's implementation of this interface rather than implementing your own.
+A logically related group of properties that is associated with a persistently stored object. To create, open, delete, or enumerate one or more property sets, implement the [**IPropertySetStorage**](/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage) interface. If you are using compound files, you can use OLE's implementation of this interface rather than implementing your own.
 
 </dd> <dt>
 
@@ -965,14 +965,14 @@ A static object can result, for example, from the breaking of a link on a linked
 <span id="com.storage_object_gloss"></span><span id="COM.STORAGE_OBJECT_GLOSS"></span>**storage object**
 </dt> <dd>
 
-A COM object that implements the [**IStorage**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage) interface. A storage object contains nested storage objects or stream objects, resulting in the equivalent of a directory/file structure within a single file.
+A COM object that implements the [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) interface. A storage object contains nested storage objects or stream objects, resulting in the equivalent of a directory/file structure within a single file.
 
 </dd> <dt>
 
 <span id="com.stream_object_gloss"></span><span id="COM.STREAM_OBJECT_GLOSS"></span>**stream object**
 </dt> <dd>
 
-A COM object that implements the [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface. A stream object is analogous to a file in a directory/file system.
+A COM object that implements the [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) interface. A stream object is analogous to a file in a directory/file system.
 
 </dd> <dt>
 
@@ -1056,7 +1056,3 @@ A moniker based on a universal resource locator (URL). A client can use URL moni
  
 
  
-
-
-
-

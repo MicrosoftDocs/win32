@@ -148,7 +148,7 @@ Same as **PRIVACY\_TEMPLATE\_LOW**.
 ## Remarks
 
 > [!Note]  
-> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 
@@ -168,17 +168,11 @@ Same as **PRIVACY\_TEMPLATE\_LOW**.
 
 <dl> <dt>
 
-[**PrivacyGetZonePreferenceW**](https://msdn.microsoft.com/library/Aa385336(v=VS.85).aspx)
+[**PrivacyGetZonePreferenceW**](/windows/win32/api/winineti/nf-winineti-privacygetzonepreferencew)
 </dt> <dt>
 
-[**PrivacySetZonePreferenceW**](https://msdn.microsoft.com/library/Aa385338(v=VS.85).aspx)
+[**PrivacySetZonePreferenceW**](/windows/win32/api/winineti/nf-winineti-privacysetzonepreferencew)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

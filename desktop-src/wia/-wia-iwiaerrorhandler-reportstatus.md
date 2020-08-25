@@ -51,9 +51,9 @@ Type: **HWND**
 *punkItem* \[in\]
 </dt> <dd>
 
-Type: **[IUnknown](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx)\***
+Type: **[IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
-Pointer to the [IUnknown](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface of the item being transferred. This object minimally implements [**IWiaItem2**](-wia-iwiaitem2.md) and [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer).
+Pointer to the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface of the item being transferred. This object minimally implements [**IWiaItem2**](-wia-iwiaitem2.md) and [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer).
 
 </dd> <dt>
 
@@ -127,7 +127,3 @@ If *hrStatus* is SEVERITY\_SUCCESS, the user should be allowed to cancel the tra
  
 
  
-
-
-
-

@@ -19,7 +19,7 @@ api_location:
 
 \[The **\_NewEnum** property is available for use in the operating systems specified in the Requirements section. For more information, see [**Qualifier**](qualifier.md).\]
 
-The **\_NewEnum** property retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
+The **\_NewEnum** property retrieves an [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
 
 ## Syntax
 
@@ -32,7 +32,7 @@ NoticeNumbers._NewEnum As IUnknown
 
 ## Property value
 
-An [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection.
+An [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) interface on an object that can be used to enumerate the collection.
 
 ## Requirements
 
@@ -55,7 +55,3 @@ An [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx)
  
 
  
-
-
-
-

@@ -12,10 +12,10 @@ ms.date: 05/31/2018
 
 # Bluetooth and setsockopt
 
-Bluetooth uses the [**setsockopt**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt) function to set various parameters associated with the server channel or the connection. Use of **setsockopt** with Bluetooth has the following requirements:
+Bluetooth uses the [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) function to set various parameters associated with the server channel or the connection. Use of **setsockopt** with Bluetooth has the following requirements:
 
--   The *s* parameter of [**setsockopt**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt) must be a valid Bluetooth socket.
--   The *level* parameter of [**setsockopt**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt) must be SOL\_RFCOMM.
+-   The *s* parameter of [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) must be a valid Bluetooth socket.
+-   The *level* parameter of [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) must be SOL\_RFCOMM.
 
 For a listing of available Bluetooth socket options, see [Bluetooth and Socket Options](bluetooth-and-socket-options.md).
 
@@ -23,16 +23,12 @@ For a listing of available Bluetooth socket options, see [Bluetooth and Socket O
 
 <dl> <dt>
 
-[Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)
+[Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> <dt>
 
-[**setsockopt**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt)
+[**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt)
 </dt> </dl>
 
  
 
  
-
-
-
-

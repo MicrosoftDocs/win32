@@ -28,7 +28,7 @@ The **INapSoHConstructor** provides methods that are used by SHAs to construct [
 
 ## Members
 
-The **INapSoHConstructor** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapSoHConstructor** also has these types of members:
+The **INapSoHConstructor** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INapSoHConstructor** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -74,10 +74,4 @@ The **INapSoHConstructor** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

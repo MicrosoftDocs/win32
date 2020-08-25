@@ -3,7 +3,7 @@ Description: The KNOWNFOLDERID constants represent GUIDs that identify standard 
 ms.assetid: f2c08ade-3083-44e4-82b0-dde45f0e3094
 title: KNOWNFOLDERID (Knownfolders.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/27/2020
 ---
 
 # KNOWNFOLDERID
@@ -11,6 +11,50 @@ ms.date: 05/31/2018
 The **KNOWNFOLDERID** constants represent GUIDs that identify standard folders registered with the system as [Known Folders](known-folders.md). 
 These folders are installed with Windows Vista and later operating systems, and a computer will have only folders appropriate to it installed. 
 For descriptions of these folders, see [**CSIDL**](csidl.md).
+
+## Example
+
+```c
+HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *prf)
+{
+    IKnownFolderManager *pManager;
+    HRESULT hr = CoCreateInstance(CLSID_KnownFolderManager, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pManager));
+    if (SUCCEEDED(hr))
+    {
+        UINT cCount;
+        KNOWNFOLDERID *pkfid;
+
+        hr = pManager->GetFolderIds(&pkfid, &cCount);
+        if (SUCCEEDED(hr))
+        {
+            for (UINT i = 0; i < cCount; i++)
+            {
+                IKnownFolder *pKnownFolder;
+                hr = pManager->GetFolder(pkfid[i], &pKnownFolder);
+                if (SUCCEEDED(hr))
+                {
+                    IShellItem *psi;
+                    hr = pKnownFolder->GetShellItem(0, IID_PPV_ARGS(&psi));
+                    if (SUCCEEDED(hr))
+                    {
+                        hr = prf->AddItem(psi);
+                        psi->Release();
+                    }
+                    pKnownFolder->Release();
+                }
+            }
+            CoTaskMemFree(pkfid);
+        }
+        pManager->Release();
+    }
+    return hr;
+}
+
+```
+
+Example from [Windows classic samples](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/winui/shell/appplatform/ExplorerBrowserCustomContents/ExplorerBrowserCustomContents.cpp) on GitHub.
+
+## Constants
 
 
 
@@ -4879,13 +4923,9 @@ Note that some paths have changed for Windows Vista.
 [How to Extend Known Folders with Custom Folders](how-to-extend-known-folders-with-custom-folders.md)
 </dt> <dt>
 
-[Known Folders Sample](https://msdn.microsoft.com/library/Dd940364(v=VS.85).aspx)
+[Known Folders Sample](/previous-versions/windows/desktop/legacy/dd940364(v=vs.85))
 </dt> </dl>
 
  
 
  
-
-
-
-

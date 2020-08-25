@@ -126,7 +126,7 @@ Current user was not authorized to execute the method.
 
 ## Remarks
 
-This method is similar to [**SWbemServices.ExecMethod**](swbemservices-execmethod.md), but it operates directly on the object whose method is to be executed. For example, the following code example calls the [**StartService**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/startservice-method-in-class-win32-service) provider method in [**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service) and uses [direct access](manipulating-class-and-instance-information.md).
+This method is similar to [**SWbemServices.ExecMethod**](swbemservices-execmethod.md), but it operates directly on the object whose method is to be executed. For example, the following code example calls the [**StartService**](/windows/desktop/CIMWin32Prov/startservice-method-in-class-win32-service) provider method in [**Win32\_Service**](/windows/desktop/CIMWin32Prov/win32-service) and uses [direct access](manipulating-class-and-instance-information.md).
 
 
 ```VB
@@ -136,7 +136,7 @@ iStatus = oService.StartService()
 
 
 
-This version calls **SWbemObject.ExecMethod\_** to execute the [**StartService**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/startservice-method-in-class-win32-service) method.
+This version calls **SWbemObject.ExecMethod\_** to execute the [**StartService**](/windows/desktop/CIMWin32Prov/startservice-method-in-class-win32-service) method.
 
 
 ```VB
@@ -152,7 +152,7 @@ Use **SWbemObject.ExecMethod\_** as an alternative to direct access for executin
 
 ## Examples
 
-The following example shows the [**ExecMethod**](swbemservices-execmethod.md) method.The script creates a [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) object representing a process running Notepad. For more information about a script illustrating the same operations performed asynchronously, see [**SWbemObject.ExecMethodAsync\_**](swbemobject-execmethodasync-.md). For an example using direct access, see [**Create Method in Class Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) . For an example of the same operation using an [**SWbemServices**](swbemservices.md) object, see **SWbemServices.ExecMethod**.
+The following example shows the [**ExecMethod**](swbemservices-execmethod.md) method.The script creates a [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process) object representing a process running Notepad. For more information about a script illustrating the same operations performed asynchronously, see [**SWbemObject.ExecMethodAsync\_**](swbemobject-execmethodasync-.md). For an example using direct access, see [**Create Method in Class Win32\_Process**](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) . For an example of the same operation using an [**SWbemServices**](swbemservices.md) object, see **SWbemServices.ExecMethod**.
 
 
 ```VB
@@ -223,9 +223,4 @@ End If
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Publishing Your Event Schema for a Classic Provider
 
-[Classic](about-event-tracing.md) providers should use [Managed Object Format](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx) (MOF) to publish the layout of their event data. Consumers can then read the published layout from WMI at runtime and use it to read the event data.
+[Classic](about-event-tracing.md) providers should use [Managed Object Format](../wmisdk/managed-object-format--mof-.md) (MOF) to publish the layout of their event data. Consumers can then read the published layout from WMI at runtime and use it to read the event data.
 
 If you use MOF to publish the layout of your event data in WMI, you typically create the following three types of MOF classes in the root\\wmi namespace:
 
@@ -18,17 +18,17 @@ If you use MOF to publish the layout of your event data in WMI, you typically cr
 
 ## Provider MOF classes
 
-If you publish the layout of your event data, you must create a MOF class that identifies your provider. This class must derive from the **EventTrace** MOF class and must be empty (no properties or methods). The class must also include the **Guid** qualifier which uniquely identifies the provider. This is the same GUID you use when you calling the [**RegisterTraceGuids**](registertraceguids.md) function to register your provider.
+If you publish the layout of your event data, you must create a MOF class that identifies your provider. This class must derive from the **EventTrace** MOF class and must be empty (no properties or methods). The class must also include the **Guid** qualifier which uniquely identifies the provider. This is the same GUID you use when you calling the [**RegisterTraceGuids**](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa) function to register your provider.
 
 ## Event MOF classes
 
-An event MOF class defines a class of events that the provider provides. This class derives from the provider MOF class and must be empty (no properties or methods). The class must also include the **Guid** qualifier which uniquely identifies the class of events that its child classes define. The provider uses this same GUID when setting the **Guid** member of the [**EVENT\_TRACE\_HEADER**](event-trace-header.md) structure.
+An event MOF class defines a class of events that the provider provides. This class derives from the provider MOF class and must be empty (no properties or methods). The class must also include the **Guid** qualifier which uniquely identifies the class of events that its child classes define. The provider uses this same GUID when setting the **Guid** member of the [**EVENT\_TRACE\_HEADER**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header) structure.
 
 ## Event type MOF classes
 
 An event type MOF class defines the actual event data. This class derives from its parent event MOF class. When naming the event type MOF class, the convention is to use the event MOF class name at the beginning of the event type MOF class name. For example, if the event MOF class name is HWConfig and the event type MOF class represents CPU information, you should name the event type MOF class, HWConfig\_CPU.
 
-Use the **EventType** qualifier on the event type MOF class to identify the event type. If multiple event types use the same event data, they can use the same MOF class. The provider uses the same event type value to identify the event when setting the **Class.Type** member of the [**EVENT\_TRACE\_HEADER**](event-trace-header.md) structure.
+Use the **EventType** qualifier on the event type MOF class to identify the event type. If multiple event types use the same event data, they can use the same MOF class. The provider uses the same event type value to identify the event when setting the **Class.Type** member of the [**EVENT\_TRACE\_HEADER**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header) structure.
 
 The event type MOF class contains properties. The order of these properties define the layout of the event data. The following table identifies the data types and qualifiers you can use to define the properties. For more information on the property and class qualifiers that you can use, see [Event Tracing MOF Qualifiers](event-tracing-mof-qualifiers.md).
 
@@ -92,13 +92,13 @@ class MyCategory_MyEvent : MyCategory
 
 Note that the provider, event, and event type MOF class names must be unique within the entire namespace. To avoid naming conflicts, you should use unique and descriptive name for all class names. Class properties should also be descriptive and unique within its class hierarchy—a child class that contains the same property name as a parent class overwrites the property of the parent class.
 
-After defining your MOF classes, use the MOF compiler to generate your event schema and add it to the CIM repository. Consumers can then read the schema from the repository and programmatically read the event data. For a complete description of the MOF syntax and using the MOF compiler (Mofcomp.exe) to add your MOF classes to the CIM repository, see [Managed Object Format](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx). For information on using Wbemtest.exe to access the CIM repository, see [Windows Management Instrumentation](https://msdn.microsoft.com/library/Aa394582(v=VS.85).aspx) (WMI).
+After defining your MOF classes, use the MOF compiler to generate your event schema and add it to the CIM repository. Consumers can then read the schema from the repository and programmatically read the event data. For a complete description of the MOF syntax and using the MOF compiler (Mofcomp.exe) to add your MOF classes to the CIM repository, see [Managed Object Format](../wmisdk/managed-object-format--mof-.md). For information on using Wbemtest.exe to access the CIM repository, see [Windows Management Instrumentation](../wmisdk/wmi-start-page.md) (WMI).
 
 ## Versioning MOF class
 
 If you add or change an event type MOF class, the convention is to version both the event MOF class and its child event type MOF classes. To version the current event MOF class, append \_Vn to the class name, where n is an incremental number starting at 0. If this is the first revision to the class, append \_V0 to the class name. You must also add the **EventVersion** qualifier to the class. Use the same version number you used in the class name for the value of the **EventVersion** qualifier.
 
-The new version of the event MOF class must use the same name and **Guid** qualifier as the original class. The new class may optionally add the **EventVersion** qualifier. The event MOF class that does not contain the **EventVersion** qualifier is considered the latest version, or if all the versions of the class contain an **EventVersion** qualifier, then the class with the highest version number is considered the latest version. The provider uses the **Class.Version** member of the [**EVENT\_TRACE\_HEADER**](event-trace-header.md) structure to identify the version of the event included in the trace.
+The new version of the event MOF class must use the same name and **Guid** qualifier as the original class. The new class may optionally add the **EventVersion** qualifier. The event MOF class that does not contain the **EventVersion** qualifier is considered the latest version, or if all the versions of the class contain an **EventVersion** qualifier, then the class with the highest version number is considered the latest version. The provider uses the **Class.Version** member of the [**EVENT\_TRACE\_HEADER**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header) structure to identify the version of the event included in the trace.
 
 The following example shows how to version an event MOF class.
 
@@ -154,7 +154,3 @@ class MyCategory_V0_MyEvent : MyCategory_V0
  
 
  
-
-
-
-

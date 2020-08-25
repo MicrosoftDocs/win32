@@ -31,12 +31,12 @@ Be aware that these commands are specific to MTP; and are therefore, only implem
 |                                                                                                                                      |                                                                                                   |
 |--------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | Command                                                                                                                              | Description                                                                                       |
-| [**WPD\_COMMAND\_MTP\_EXT\_END\_DATA\_TRANSFER**](https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-mtp-ext-end-data-transfer)                                      | Issues an MTP command that signals the conclusion of a data read or write operation.              |
-| [**WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITHOUT\_DATA\_PHASE**](https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-mtp-ext-execute-command-without-data-phase)  | Issues an MTP command without a corresponding data phase.                                         |
-| [**WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_WRITE**](https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-mtp-ext-execute-command-with-data-to-write) | Issues an MTP command that is followed by accompanying data, which will be written to the device. |
-| [**WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_READ**](https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-mtp-ext-execute-command-with-data-to-read)   | Issues an MTP command that is followed by accompanying data, which is read from the device.       |
-| [**WPD\_COMMAND\_MTP\_EXT\_READ\_DATA**](https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-mtp-ext-read-data)                                                       | Issues an MTP command that sends data from the device to the PC.                                  |
-| [**WPD\_COMMAND\_MTP\_EXT\_WRITE\_DATA**](https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-mtp-ext-write-data)                                                     | Issues an MTP command that sends data to the device from the PC.                                  |
+| [**WPD\_COMMAND\_MTP\_EXT\_END\_DATA\_TRANSFER**](/windows/desktop/wpd_sdk/wpd-command-mtp-ext-end-data-transfer)                                      | Issues an MTP command that signals the conclusion of a data read or write operation.              |
+| [**WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITHOUT\_DATA\_PHASE**](/windows/desktop/wpd_sdk/wpd-command-mtp-ext-execute-command-without-data-phase)  | Issues an MTP command without a corresponding data phase.                                         |
+| [**WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_WRITE**](/windows/desktop/wpd_sdk/wpd-command-mtp-ext-execute-command-with-data-to-write) | Issues an MTP command that is followed by accompanying data, which will be written to the device. |
+| [**WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_READ**](/windows/desktop/wpd_sdk/wpd-command-mtp-ext-execute-command-with-data-to-read)   | Issues an MTP command that is followed by accompanying data, which is read from the device.       |
+| [**WPD\_COMMAND\_MTP\_EXT\_READ\_DATA**](/windows/desktop/wpd_sdk/wpd-command-mtp-ext-read-data)                                                       | Issues an MTP command that sends data from the device to the PC.                                  |
+| [**WPD\_COMMAND\_MTP\_EXT\_WRITE\_DATA**](/windows/desktop/wpd_sdk/wpd-command-mtp-ext-write-data)                                                     | Issues an MTP command that sends data to the device from the PC.                                  |
 
 
 
@@ -56,6 +56,3 @@ If the MTP driver was able to send the command to the device, the return values 
  
 
  
-
-
-

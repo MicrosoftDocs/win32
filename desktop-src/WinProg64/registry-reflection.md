@@ -17,7 +17,7 @@ The [registry redirector](registry-redirector.md) isolates 32-bit and 64-bit app
 
 The process of *registry reflection* copies registry keys and values between two registry views to keep them synchronized. Each view has a separate physical copy of each reflected registry key, one for the 32-bit registry view and the other for the 64-bit registry view.
 
-A reflected key is copied when a key is closed by calling [**RegCloseKey**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey). Note that this gives rise to a possible race condition: if more than one process changes the reflected key, the last **RegCloseKey** call determines the key's final value.
+A reflected key is copied when a key is closed by calling [**RegCloseKey**](/windows/desktop/api/winreg/nf-winreg-regclosekey). Note that this gives rise to a possible race condition: if more than one process changes the reflected key, the last **RegCloseKey** call determines the key's final value.
 
 The reflector copies COM activation data for Local servers between the views, but it does not copy in-process data because 32/64 in-process data mixing is not permitted on 64-bit Windows.
 
@@ -39,11 +39,11 @@ Most of the keys under the classes root are in this category. Updates to the key
 
 For **HKEY\_LOCAL\_MACHINE\\Software\\Classes\\CLSID** and **HKEY\_CURRENT\_USER\\Software\\Classes\\CLSID**, only CLSIDs that do not specify InprocServer32 or InprocHandler32 are reflected. Only LocalServer32 CLSIDs are reflected because they run out-of-process and can be activated by either 32- or 64-bit applications. InProcServer32 CLSIDs are not reflected because it is not possible to load a 32-bit DLL for execution in a 64-bit process, or a 64-bit DLL for execution in a 32-bit process.
 
-For **HKEY\_LOCAL\_MACHINE\\Software\\Classes\\Appid** and **HKEY\_CURRENT\_USER\\Software\\Classes\\Appid**, the [DllSurrogate](https://msdn.microsoft.com/library/ms691260.aspx) and [DllSurrogateExecutable]( http://msdn.microsoft.com/en-us/library/ms694509.aspx) registry values are not reflected if their value is an empty string.
+For **HKEY\_LOCAL\_MACHINE\\Software\\Classes\\Appid** and **HKEY\_CURRENT\_USER\\Software\\Classes\\Appid**, the [DllSurrogate](../com/dllsurrogate.md) and [DllSurrogateExecutable]( ../com/dllsurrogateexecutable.md) registry values are not reflected if their value is an empty string.
 
-To disable and enable registry reflection for a particular reflected key, use the [**RegDisableReflectionKey**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdisablereflectionkey) and [**RegEnableReflectionKey**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regenablereflectionkey) functions. These functions do not affect keys that are not on the list of reflected keys earlier in this topic. Applications should disable reflection only for the registry keys that they create and not attempt to disable reflection for the predefined keys such as **HKEY\_LOCAL\_MACHINE** or **HKEY\_CURRENT\_USER**. To determine whether the keys on the reflection list have been disabled, use the [**RegQueryReflectionKey**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryreflectionkey) function.
+To disable and enable registry reflection for a particular reflected key, use the [**RegDisableReflectionKey**](/windows/desktop/api/winreg/nf-winreg-regdisablereflectionkey) and [**RegEnableReflectionKey**](/windows/desktop/api/winreg/nf-winreg-regenablereflectionkey) functions. These functions do not affect keys that are not on the list of reflected keys earlier in this topic. Applications should disable reflection only for the registry keys that they create and not attempt to disable reflection for the predefined keys such as **HKEY\_LOCAL\_MACHINE** or **HKEY\_CURRENT\_USER**. To determine whether the keys on the reflection list have been disabled, use the [**RegQueryReflectionKey**](/windows/desktop/api/winreg/nf-winreg-regqueryreflectionkey) function.
 
-Reflected keys should not be used in transacted registry operations. Writing to reflected keys during a transaction can cause the transaction to fail. For more information about transactions, see [Kernel Transaction Manager](https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-portal).
+Reflected keys should not be used in transacted registry operations. Writing to reflected keys during a transaction can cause the transaction to fail. For more information about transactions, see [Kernel Transaction Manager](/windows/desktop/Ktm/kernel-transaction-manager-portal).
 
 ## Related topics
 
@@ -52,7 +52,7 @@ Reflected keys should not be used in transacted registry operations. Writing to 
 [Registry Redirector](registry-redirector.md)
 </dt> <dt>
 
-[Registry Reflection in Windows](https://docs.microsoft.com/windows-hardware/drivers/display/microsoft-windows-vista-display-driver-64-bit-issues)
+[Registry Reflection in Windows](/windows-hardware/drivers/display/microsoft-windows-vista-display-driver-64-bit-issues)
 </dt> <dt>
 
 [Registry Keys Affected by WOW64](shared-registry-keys.md)
@@ -61,7 +61,3 @@ Reflected keys should not be used in transacted registry operations. Writing to 
  
 
  
-
-
-
-

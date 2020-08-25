@@ -26,7 +26,7 @@ Exposes information and properties regarding the result set.
 
 ## Members
 
-The **ISearchResult** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ISearchResult** also has these types of members:
+The **ISearchResult** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ISearchResult** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -75,10 +75,4 @@ These methods expose properties and actions applicable to the result set.
 
 
  
-
- 
-
-
-
-
 

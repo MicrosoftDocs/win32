@@ -22,7 +22,7 @@ The **IWMSecureBuffer** interface encrypts and decrypts data pointers.
 
 ## Members
 
-The **IWMSecureBuffer** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMSecureBuffer** also has these types of members:
+The **IWMSecureBuffer** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMSecureBuffer** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -49,10 +49,4 @@ The **IWMSecureBuffer** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

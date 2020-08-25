@@ -68,7 +68,7 @@ Length or number of tracks.
 
 ## Remarks
 
-The MCI\_STATUS\_ITEM flag must be set in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the **dwItem** member, which should contain one of the constants indicating what status information is being requested.
+The MCI\_STATUS\_ITEM flag must be set in the *fdwCommand* parameter of the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function to validate the **dwItem** member, which should contain one of the constants indicating what status information is being requested.
 
 ## Requirements
 
@@ -95,14 +95,8 @@ The MCI\_STATUS\_ITEM flag must be set in the *fdwCommand* parameter of the [**m
 [**MCI\_STATUS**](mci-status.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](/previous-versions//dd757160(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

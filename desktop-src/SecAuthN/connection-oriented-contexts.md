@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Connection-Oriented Contexts
 
-With a connection-oriented [*context*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly), the function's caller is responsible for formatting messages. The caller relies on the [*security package*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) to authenticate connections and to ensure the integrity of specific parts of the message.
+With a connection-oriented [*context*](/windows/desktop/SecGloss/c-gly), the function's caller is responsible for formatting messages. The caller relies on the [*security package*](/windows/desktop/SecGloss/s-gly) to authenticate connections and to ensure the integrity of specific parts of the message.
 
 Most context options are available to connection-oriented contexts. These options include mutual authentication, replay detection, and sequence detection, as described in [Context Requirements](context-requirements.md).
 
@@ -17,6 +17,3 @@ A security package sets the SECPKG\_FLAG\_CONNECTION flag to indicate that it su
  
 
  
-
-
-

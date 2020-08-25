@@ -48,7 +48,7 @@ A value specifying the color type to retrieve for the soft keyboard. Possible va
 *lpColor* \[out\]
 </dt> <dd>
 
-Pointer to a buffer in which this method retrieves a 32-bit [**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value specifying an RGB color.
+Pointer to a buffer in which this method retrieves a 32-bit [**COLORREF**](/windows/desktop/gdi/colorref) value specifying an RGB color.
 
 </dd> </dl>
 
@@ -89,20 +89,14 @@ This method can return one of these values.
 [**ISoftKbd**](isoftkbd.md)
 </dt> <dt>
 
-[**ISoftKbd::SetSoftKeyboardColors**](https://docs.microsoft.com/windows/desktop/TSF/isoftkbd-setsoftkeyboardcolors)
+[**ISoftKbd::SetSoftKeyboardColors**](/windows/desktop/TSF/isoftkbd-setsoftkeyboardcolors)
 </dt> <dt>
 
 [**COLORTYPE**](colortype.md)
 </dt> <dt>
 
-[**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref)
+[**COLORREF**](/windows/desktop/gdi/colorref)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

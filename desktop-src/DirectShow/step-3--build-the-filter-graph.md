@@ -59,7 +59,7 @@ done:
 
 The `DShowPlayer::InitializeGraph` method creates a new filter graph. This method does the following:
 
-1.  Calls [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) to create a new instance of the [Filter Graph Manager](filter-graph-manager.md).
+1.  Calls [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) to create a new instance of the [Filter Graph Manager](filter-graph-manager.md).
 2.  Queries the Filter Graph Manager for the [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol) and [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex) interfaces.
 3.  Calls [**IMediaEventEx::SetNotifyWindow**](/windows/desktop/api/Control/nf-control-imediaeventex-setnotifywindow) to set up event notification. For more information, see [Event Notification in DirectShow](event-notification-in-directshow.md).
 
@@ -282,6 +282,3 @@ Next: [Step 4: Add the Video Renderer](step-4--add-the-video-renderer.md).
  
 
  
-
-
-

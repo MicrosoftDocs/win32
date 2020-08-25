@@ -177,7 +177,7 @@ If successful, WMI returns an [**SWbemServices**](swbemservices.md) object that 
 
 ## Error codes
 
-After the completion of the **ConnectServer** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
+After the completion of the **ConnectServer** method, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
 
 <dl> <dt>
 
@@ -231,7 +231,7 @@ Using an IPv4 address to connect to a remote server may result in unexpected beh
 
 ## Examples
 
-The following VBScript code example describes how to connect to a remote computer to obtain [**Win32\_IP4RouteTable**](https://docs.microsoft.com/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4routetable) data. The domain name that is specified in *strDomain* is used in *strAuthority*.
+The following VBScript code example describes how to connect to a remote computer to obtain [**Win32\_IP4RouteTable**](/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4routetable) data. The domain name that is specified in *strDomain* is used in *strAuthority*.
 
 
 ```VB
@@ -322,9 +322,4 @@ $WbemClasses
 </dt> </dl>
 
  
-
- 
-
-
-
 

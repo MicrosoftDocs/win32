@@ -51,9 +51,9 @@ The function cancels all pending I/O operations for this file handle.
 
 ## Return value
 
-If the function succeeds, the return value is nonzero. The cancel operation for all pending I/O operations issued by the calling thread for the specified file handle was successfully requested. The thread can use the [**GetOverlappedResult**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult) function to determine when the I/O operations themselves have been completed.
+If the function succeeds, the return value is nonzero. The cancel operation for all pending I/O operations issued by the calling thread for the specified file handle was successfully requested. The thread can use the [**GetOverlappedResult**](/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult) function to determine when the I/O operations themselves have been completed.
 
-If the function fails, the return value is zero (0). To get extended error information, call the [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function.
+If the function fails, the return value is zero (0). To get extended error information, call the [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function.
 
 ## Remarks
 
@@ -106,7 +106,7 @@ In Windows 8 and Windows Server 2012, this function is supported by the followin
 [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea)
 </dt> <dt>
 
-[**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
+[**DeviceIoControl**](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
 </dt> <dt>
 
 [File Management Functions](file-management-functions.md)
@@ -134,9 +134,4 @@ In Windows 8 and Windows Server 2012, this function is supported by the followin
 </dt> </dl>
 
  
-
- 
-
-
-
 

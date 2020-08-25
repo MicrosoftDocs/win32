@@ -65,7 +65,7 @@ For print servers, this string is one of the predefined strings listed in the fo
 *Type* \[in\]
 </dt> <dd>
 
-A code that indicates the type of data that the *pData* parameter points to. For a list of the possible type codes, see [Registry Value Types](https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types).
+A code that indicates the type of data that the *pData* parameter points to. For a list of the possible type codes, see [Registry Value Types](/windows/desktop/SysInfo/registry-value-types).
 
 </dd> <dt>
 
@@ -143,7 +143,7 @@ The time specified in **SPLREG\_RESTART\_JOB\_ON\_POOL\_ERROR** is a minimum tim
 
 **HKLM\\SYSTEM\\CurrentControlSet\\Control\\Print\\Monitors\\<*MonitorName*>\\Ports**
 
-Call the [**RegSetValueEx**](https://msdn.microsoft.com/library/ms724922(v=VS.85).aspx) function to set these values.
+Call the [**RegSetValueEx**](/windows/win32/api/winreg/nf-winreg-regsetvaluea) function to set these values.
 
 
 
@@ -210,9 +210,4 @@ In Windows 7 and later versions of Windows, print jobs that are sent to a print 
 </dt> </dl>
 
  
-
- 
-
-
-
 

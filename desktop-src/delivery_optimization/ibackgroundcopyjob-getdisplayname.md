@@ -41,7 +41,7 @@ HRESULT GetDisplayName(
 *ppDisplayName* \[out\]
 </dt> <dd>
 
-Null-terminated string that contains the display name that identifies the job. More than one job can have the same display name. Call the [**CoTaskMemFree**](https://msdn.microsoft.com/windows/desktop/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7) function to free *ppDisplayName* when done.
+Null-terminated string that contains the display name that identifies the job. More than one job can have the same display name. Call the [**CoTaskMemFree**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) function to free *ppDisplayName* when done.
 
 </dd> </dl>
 
@@ -84,10 +84,4 @@ This method returns the following **HRESULT** values, as well as others.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

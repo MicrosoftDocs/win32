@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # The represent\_as Attribute
 
-The \[ [represent\_as](https://docs.microsoft.com/windows/desktop/Midl/represent-as)\] attribute lets you specify how a particular transmittable data type is represented to the application. This is done by specifying the name of the represented type for a known transmittable type and supplying the conversion routines. You must also supply the routines to free the memory used by the data type objects.
+The \[ [represent\_as](/windows/desktop/Midl/represent-as)\] attribute lets you specify how a particular transmittable data type is represented to the application. This is done by specifying the name of the represented type for a known transmittable type and supplying the conversion routines. You must also supply the routines to free the memory used by the data type objects.
 
 Use the **\[represent\_as\]** attribute to present an application with a different, possibly untransmittable, data type rather than the type that is actually transmitted between the client and server. It is also possible that the type the application manipulates can be unknown at the time of MIDL compilation. When you choose a well-defined transmittable type, you need not be concerned about data representation in the heterogeneous environment. The **\[represent\_as\]** attribute can make your application more efficient by reducing the amount of data transmitted over the network.
 
-The **\[represent\_as\]** attribute is similar to the \[ [transmit\_as](https://docs.microsoft.com/windows/desktop/Midl/transmit-as)\] attribute. However, while **\[transmit\_as\]** lets you specify a data type that will be used for transmission, **\[represent\_as\]** lets you specify how a data type is represented for the application. The represented type need not be defined in the MIDL processed files; it can be defined at the time the stubs are compiled with the C compiler. To do this, use the include directive in the [application configuration file (ACF)](the-application-configuration-file-acf-.md) to compile the appropriate header file. For example, the following ACF defines a type local to the application, **repr\_type**, for the transmittable type **named\_type:**
+The **\[represent\_as\]** attribute is similar to the \[ [transmit\_as](/windows/desktop/Midl/transmit-as)\] attribute. However, while **\[transmit\_as\]** lets you specify a data type that will be used for transmission, **\[represent\_as\]** lets you specify how a data type is represented for the application. The represented type need not be defined in the MIDL processed files; it can be defined at the time the stubs are compiled with the C compiler. To do this, use the include directive in the [application configuration file (ACF)](the-application-configuration-file-acf-.md) to compile the appropriate header file. For example, the following ACF defines a type local to the application, **repr\_type**, for the transmittable type **named\_type:**
 
 ``` syntax
 typedef [represent_as(repr_type) [, type_attribute_list] named_type;
@@ -40,7 +40,7 @@ Other than by these four programmer-supplied routines, the named type is not man
 
 For temporary **named\_type** objects, the stub will call **named\_type\_free\_inst** to free any memory allocated by a call to **named\_type\_from\_local**.
 
-If the represented type is a pointer or contains a pointer, the **named\_type\_to\_local** routine must allocate memory for the data to which the pointers point (the represented type object itself is manipulated by the stub in the usual way). For \[ [out](https://docs.microsoft.com/windows/desktop/Midl/out-idl)\] and \[ [in](https://docs.microsoft.com/windows/desktop/Midl/in), out\] parameters of a type that contain **\[represent\_as** or one of its components, the **named\_type\_free\_local** routine is automatically called for the data objects that contain the attribute. For **\[in\]** parameters, the **named\_type\_free\_local** routine is called only if the **\[represent\_as\]** attribute has been applied to the parameter. If the attribute has been applied to the components of the parameter, the *\****\_free\_local** routine is not called. Freeing routines are not called for the embedded data and at-most-once call (related to the top-level attribute) for an **\[in\]** only parameter.
+If the represented type is a pointer or contains a pointer, the **named\_type\_to\_local** routine must allocate memory for the data to which the pointers point (the represented type object itself is manipulated by the stub in the usual way). For \[ [out](/windows/desktop/Midl/out-idl)\] and \[ [in](/windows/desktop/Midl/in), out\] parameters of a type that contain **\[represent\_as** or one of its components, the **named\_type\_free\_local** routine is automatically called for the data objects that contain the attribute. For **\[in\]** parameters, the **named\_type\_free\_local** routine is called only if the **\[represent\_as\]** attribute has been applied to the parameter. If the attribute has been applied to the components of the parameter, the *\****\_free\_local** routine is not called. Freeing routines are not called for the embedded data and at-most-once call (related to the top-level attribute) for an **\[in\]** only parameter.
 
 > [!Note]  
 > It is possible to apply both the **\[transmit\_as\]** and **\[represent\_as\]** attributes to the same type. When marshaling data, the **\[represent\_as\]** type conversion is applied first and then the **\[transmit\_as\]** conversion is applied. The order is reversed when unmarshaling data. Thus, when marshaling, \***\_from\_local** allocates an instance of a named type and translates it from a local type object to the temporary named type object. This object is the presented type object used for the \***\_to\_xmit** routine. The \***\_to\_xmit** routine then allocates a transmitted type object and translates it from the presented (named) object to the transmitted object.
@@ -114,7 +114,3 @@ The routines shown above do the following:
  
 
  
-
-
-
-

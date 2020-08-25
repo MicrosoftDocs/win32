@@ -75,7 +75,7 @@ The intermediate resource, as a pointer to an [**ID3D12Resource**](/windows/desk
 *FirstSubresource* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The index of the first subresource in the resource. The range of valid values is 0 to D3D12\_REQ\_SUBRESOURCES.
 
@@ -84,7 +84,7 @@ The index of the first subresource in the resource. The range of valid values is
 *NumSubresources* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The number of subresources in the resource. The range of valid values is 0 to (D3D12\_REQ\_SUBRESOURCES - *FirstSubresource*).
 
@@ -93,7 +93,7 @@ The number of subresources in the resource. The range of valid values is 0 to (D
 *RequiredSize* 
 </dt> <dd>
 
-Type: **[**UINT64**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT64**](/windows/desktop/WinProg/windows-data-types)**
 
 The required size, in bytes, for the update.
 
@@ -111,7 +111,7 @@ Pointer to an array (of length *NumSubresources*) of pointers to the structures 
 *pNumRows* \[in\]
 </dt> <dd>
 
-Type: **const [**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)\***
+Type: **const [**UINT**](/windows/desktop/WinProg/windows-data-types)\***
 
 Pointer to an array (of length *NumSubresources*) of UINTS containing the number of rows for each subresource.
 
@@ -120,7 +120,7 @@ Pointer to an array (of length *NumSubresources*) of UINTS containing the number
 *pRowSizesInBytes* \[in\]
 </dt> <dd>
 
-Type: **const [**UINT64**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)\***
+Type: **const [**UINT64**](/windows/desktop/WinProg/windows-data-types)\***
 
 Pointer to an array (of length *NumSubresources*) of UINTS containing the size, in bytes, of each row.
 
@@ -137,7 +137,7 @@ Pointer to an array (of length *NumSubresources*) of pointers to [**D3D12\_SUBRE
 
 ## Return value
 
-Type: **[**UINT64**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT64**](/windows/desktop/WinProg/windows-data-types)**
 
 The size, in bytes, of the buffer.
 
@@ -164,10 +164,4 @@ The size, in bytes, of the buffer.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

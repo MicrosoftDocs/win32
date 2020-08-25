@@ -44,7 +44,7 @@ HRESULT D3DXSHEvalHemisphereLight(
 *Order* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Order of the spherical harmonic (SH) evaluation. Must be in the range of D3DXSH\_MINORDER to D3DXSH\_MAXORDER, inclusive. The evaluation generates Order² coefficients. The degree of the evaluation is Order - 1.
 
@@ -53,7 +53,7 @@ Order of the spherical harmonic (SH) evaluation. Must be in the range of D3DXSH\
 *pDir* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to the (x, y, z) hemisphere axis direction vector in which to evaluate the SH basis functions. See Remarks.
 
@@ -62,7 +62,7 @@ Pointer to the (x, y, z) hemisphere axis direction vector in which to evaluate t
 *Top* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/library/Bb172721(v=VS.85).aspx)**
+Type: **[**D3DXCOLOR**](../direct3d9/d3dxcolor.md)**
 
 The sky color.
 
@@ -71,7 +71,7 @@ The sky color.
 *Bottom* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/library/Bb172721(v=VS.85).aspx)**
+Type: **[**D3DXCOLOR**](../direct3d9/d3dxcolor.md)**
 
 The ground color.
 
@@ -80,7 +80,7 @@ The ground color.
 *pROut* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to the output SH vector for the red component.
 
@@ -89,7 +89,7 @@ Pointer to the output SH vector for the red component.
 *pGOut* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to the output SH vector for the green component.
 
@@ -98,7 +98,7 @@ Pointer to the output SH vector for the green component.
 *pBOut* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to the output SH vector for the blue component.
 
@@ -143,7 +143,3 @@ The following equations show the relationship between Cartesian (x, y, z) and sp
  
 
  
-
-
-
-

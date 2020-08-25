@@ -69,7 +69,7 @@ void WINAPI DoItemCallback(PNMCOMBOBOXEX pNMCBex)
 [ComboBoxEx Control Reference](bumper-comboboxex-comboboxex-control-reference.md)
 </dt> <dt>
 
-[Using ComboBoxEx Controls](https://docs.microsoft.com/windows/desktop/Controls/using-comboboxex)
+[Using ComboBoxEx Controls](/windows/desktop/Controls/using-comboboxex)
 </dt> <dt>
 
 [ComboBoxEx](comboboxex-control-reference.md)
@@ -78,7 +78,3 @@ void WINAPI DoItemCallback(PNMCOMBOBOXEX pNMCBex)
  
 
  
-
-
-
-

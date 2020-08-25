@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Command Strings
 
-To send a string command to an MCI device, use the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function, which includes parameters for the string command and a buffer for any returned information.
+To send a string command to an MCI device, use the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function, which includes parameters for the string command and a buffer for any returned information.
 
-The **mciSendString** function returns zero if successful. If the function fails, the low-order word of the return value contains an error code. You can pass this error code to the [**mciGetErrorString**](https://msdn.microsoft.com/library/Dd757158(v=VS.85).aspx) function to get a text description of the error.
+The **mciSendString** function returns zero if successful. If the function fails, the low-order word of the return value contains an error code. You can pass this error code to the [**mciGetErrorString**](/previous-versions//dd757158(v=vs.85)) function to get a text description of the error.
 
 ## Syntax of Command Strings
 
@@ -86,7 +86,3 @@ You can use the following data types for the variables in a command string.
  
 
  
-
-
-
-

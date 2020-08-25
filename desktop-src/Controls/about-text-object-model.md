@@ -28,7 +28,7 @@ TOM version 2 (TOM 2) extends the original text object model; the new interfaces
 
 The top-level TOM 2 object is defined by the [**ITextDocument2**](/windows/desktop/api/Tom/nn-tom-itextdocument2) interface, which has methods for creating and retrieving objects lower in the object hierarchy. For simple plain-text processing, you can obtain an [**ITextRange2**](/windows/desktop/api/Tom/nn-tom-itextrange2) object from an **ITextDocument2** object and do most everything with that. If you need to add rich-text formatting, you can obtain [**ITextFont2**](/windows/desktop/api/Tom/nn-tom-itextfont2) and [**ITextPara2**](/windows/desktop/api/Tom/nn-tom-itextpara2) objects from an **ITextRange2** object. **ITextFont2** provides the programming equivalent of the Microsoft Word format-font dialog, and **ITextPara2** provides the equivalent of the Word format-paragraph dialog.
 
-In addition to these three lower-level objects, TOM 2 has a selection object ([**ITextSelection2**](https://msdn.microsoft.com/library/Hh768717(v=VS.85).aspx)), which is an [**ITextRange2**](/windows/desktop/api/Tom/nn-tom-itextrange2) object with selection highlighting and some UI-oriented methods.
+In addition to these three lower-level objects, TOM 2 has a selection object ([**ITextSelection2**](/windows/win32/api/tom/nn-tom-itextselection2)), which is an [**ITextRange2**](/windows/desktop/api/Tom/nn-tom-itextrange2) object with selection highlighting and some UI-oriented methods.
 
 The range and selection objects include screen-oriented methods that enable programs to examine text on screen or text that could be scrolled onto the screen. These capabilities help make text accessible to people with impaired vision, for example.
 
@@ -55,7 +55,7 @@ An [**ITextRange2**](/windows/desktop/api/Tom/nn-tom-itextrange2) object is defi
 
 An explicit story object is not needed, since an [**ITextRange**](/windows/desktop/api/Tom/nn-tom-itextrange) object can always be created to represent any given story. In particular, the [**ITextDocument**](/windows/desktop/api/Tom/nn-tom-itextdocument) object can create an [**ITextStoryRanges**](/windows/desktop/api/Tom/nn-tom-itextstoryranges) object to enumerate the stories in the document in terms of ranges with start and end character position values that describe complete stories (such as, 0 and **tomForward**).
 
-With an [**ITextStoryRanges2**](/windows/desktop/api/Tom/nn-tom-itextstoryranges2) object, an explicit story object is not needed, since the each story is described by an [**ITextRange2**](/windows/desktop/api/Tom/nn-tom-itextrange2) object. In particular, the [**ITextDocument2**](https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument2) object can create an [**ITextStoryRanges2**](https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstoryranges2) object to enumerate the stories in the document in terms of ranges with start and end character position values that describe complete stories (such as, 0 and **tomForward**).
+With an [**ITextStoryRanges2**](/windows/desktop/api/Tom/nn-tom-itextstoryranges2) object, an explicit story object is not needed, since the each story is described by an [**ITextRange2**](/windows/desktop/api/Tom/nn-tom-itextrange2) object. In particular, the [**ITextDocument2**](/windows/desktop/api/tom/nn-tom-itextdocument2) object can create an [**ITextStoryRanges2**](/windows/desktop/api/tom/nn-tom-itextstoryranges2) object to enumerate the stories in the document in terms of ranges with start and end character position values that describe complete stories (such as, 0 and **tomForward**).
 
 The [**ITextRow**](/windows/desktop/api/Tom/nn-tom-itextrow) interface together with the [**ITextRange::Move**](/windows/desktop/api/Tom/nf-tom-itextrange-move) and [**ITextRange::Expand**](/windows/desktop/api/Tom/nf-tom-itextrange-expand) methods give the capability to insert, query, and change tables.
 
@@ -273,7 +273,7 @@ For more information, see the Microsoft Active Accessibility specification. Afte
 
 ### Interface from Running Object Table
 
-A running object table (ROT) tells what object instances are active. By querying this table, you can accelerate the process of connecting a client to an object when the object is already running. Before programs can access TOM interfaces through the running object table, a TOM instance with a window needs to register in the ROT using a moniker. You construct the moniker from a string containing the hexadecimal value of its [**HWND**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types). The following code sample shows how to do this.
+A running object table (ROT) tells what object instances are active. By querying this table, you can accelerate the process of connecting a client to an object when the object is already running. Before programs can access TOM interfaces through the running object table, a TOM instance with a window needs to register in the ROT using a moniker. You construct the moniker from a string containing the hexadecimal value of its [**HWND**](/windows/desktop/WinProg/windows-data-types). The following code sample shows how to do this.
 
 
 ```
@@ -327,9 +327,9 @@ if( pDoc )
 
 ### Interface from Window Messages
 
-The [**EM\_GETOLEINTERFACE**](em-getoleinterface.md) message provides another way to obtain an [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface for an object at a given screen position. As described in [Interface from Running Object Table](#interface-from-running-object-table), you get an [**HWND**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types) for the screen position and then send this message to that **HWND**. The **EM\_GETOLEINTERFACE** message is rich edit-specific and returns a pointer to an [**IRichEditOle**](/windows/desktop/api/Richole/nn-richole-iricheditole) interface in the variable addressed by *lParam*.
+The [**EM\_GETOLEINTERFACE**](em-getoleinterface.md) message provides another way to obtain an [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface for an object at a given screen position. As described in [Interface from Running Object Table](#interface-from-running-object-table), you get an [**HWND**](/windows/desktop/WinProg/windows-data-types) for the screen position and then send this message to that **HWND**. The **EM\_GETOLEINTERFACE** message is rich edit-specific and returns a pointer to an [**IRichEditOle**](/windows/desktop/api/Richole/nn-richole-iricheditole) interface in the variable addressed by *lParam*.
 
-**Tip** If a pointer is returned (be sure to set the object to which *lParam* points to null before sending the message), you can call its [**IUnknown::QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) method to obtain an [**ITextDocument**](/windows/desktop/api/Tom/nn-tom-itextdocument) interface. The following code sample illustrates this approach.
+**Tip** If a pointer is returned (be sure to set the object to which *lParam* points to null before sending the message), you can call its [**IUnknown::QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) method to obtain an [**ITextDocument**](/windows/desktop/api/Tom/nn-tom-itextdocument) interface. The following code sample illustrates this approach.
 
 
 ```
@@ -374,9 +374,9 @@ Some TOM methods are particularly useful for navigating around the screen, while
 
 ## Character Match Sets
 
-The *variant* parameter of the various **Move**\* methods in [**ITextRange**](/windows/desktop/api/Tom/nn-tom-itextrange), such as [**MoveWhile**](/windows/desktop/api/Tom/nf-tom-itextrange-movewhile) and [**MoveUntil**](/windows/desktop/api/Tom/nf-tom-itextrange-moveuntil), can take an explicit string or a character-match set 32-bit index. The indexes are defined by either Unicode ranges or [**GetStringTypeEx**](https://docs.microsoft.com/windows/win32/api/stringapiset/nf-stringapiset-getstringtypeexw) character sets. The Unicode range starting at *n* and of length *l* (< 32768) is given by the index *n* + (*l <*< 16) + 0x80000000. For example, basic Greek letters are defined by CR\_Greek = 0x805f0370 and printable ASCII characters are defined by CR\_ASCIIPrint = 0x805e0020. In addition, the **MoveWhile** and **MoveUntil** methods let you rapidly bypass a span of characters in any **GetStringTypeEx** character set, or in a span of characters that is not in any one of these character sets.
+The *variant* parameter of the various **Move**\* methods in [**ITextRange**](/windows/desktop/api/Tom/nn-tom-itextrange), such as [**MoveWhile**](/windows/desktop/api/Tom/nf-tom-itextrange-movewhile) and [**MoveUntil**](/windows/desktop/api/Tom/nf-tom-itextrange-moveuntil), can take an explicit string or a character-match set 32-bit index. The indexes are defined by either Unicode ranges or [**GetStringTypeEx**](/windows/win32/api/stringapiset/nf-stringapiset-getstringtypeexw) character sets. The Unicode range starting at *n* and of length *l* (< 32768) is given by the index *n* + (*l <*< 16) + 0x80000000. For example, basic Greek letters are defined by CR\_Greek = 0x805f0370 and printable ASCII characters are defined by CR\_ASCIIPrint = 0x805e0020. In addition, the **MoveWhile** and **MoveUntil** methods let you rapidly bypass a span of characters in any **GetStringTypeEx** character set, or in a span of characters that is not in any one of these character sets.
 
-The [**GetStringTypeEx**](https://docs.microsoft.com/windows/win32/api/stringapiset/nf-stringapiset-getstringtypeexw) sets are specified by the values for *Ctype1*, *Ctype2*, and *Ctype3*, and are defined as follows.
+The [**GetStringTypeEx**](/windows/win32/api/stringapiset/nf-stringapiset-getstringtypeexw) sets are specified by the values for *Ctype1*, *Ctype2*, and *Ctype3*, and are defined as follows.
 
 
 
@@ -515,7 +515,3 @@ An Edit Development Kit (EDK) could include *pVar* index definitions for the fol
  
 
  
-
-
-
-

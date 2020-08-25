@@ -14,11 +14,8 @@ If the current service provider supports it, the application has the option to s
 
 Not all service providers support use of this operation.
 
-**TAPI 2.x:** See [**lineAccept**](https://msdn.microsoft.com/library/ms734922(v=VS.85).aspx).
+**TAPI 2.x:** See [**lineAccept**](/windows/win32/api/tapi/nf-tapi-lineaccept).
 
  
 
  
-
-
-

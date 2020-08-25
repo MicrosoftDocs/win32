@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Delivery Optimization is a cloud-managed, peer-to-peer client and a downloader service that delivers updates to an organization's networked devices. Delivery Optimization allows devices to download updates from alternate sources (such as other peers on the network), in addition to Microsoft servers. Delivery Optimization combines partial bits from local devices, with partial bits from Microsoft servers to update devices in the network environment. The expected result is reduced bandwidth usage, and a faster update process.
 
-See [Configure Delivery Optimization for Windows 10 updates](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization) for more information.
+See [Configure Delivery Optimization for Windows 10 updates](/windows/deployment/update/waas-delivery-optimization) for more information.
 
 ## In this section
 
@@ -25,10 +25,4 @@ See [Configure Delivery Optimization for Windows 10 updates](https://docs.micros
  
 
  
-
- 
-
-
-
-
 

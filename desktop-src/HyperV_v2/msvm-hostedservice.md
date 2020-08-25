@@ -49,32 +49,32 @@ The **Msvm\_HostedService** class has these properties.
 **Antecedent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
+Data type: **[**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-A reference to the hosting computer system. This property is inherited from [**CIM\_HostedService**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-hostedservice).
+A reference to the hosting computer system. This property is inherited from [**CIM\_HostedService**](/windows/desktop/CIMWin32Prov/cim-hostedservice).
 
 </dd> <dt>
 
 **Dependent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-service)**
+Data type: **[**CIM\_Service**](/windows/desktop/CIMWin32Prov/cim-service)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-A reference to the service being hosted. This property is inherited from [**CIM\_HostedService**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-hostedservice).
+A reference to the service being hosted. This property is inherited from [**CIM\_HostedService**](/windows/desktop/CIMWin32Prov/cim-hostedservice).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_HostedService** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_HostedService** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
@@ -101,16 +101,11 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [**CIM\_HostedService**](cim-hostedservice.md)
 </dt> <dt>
 
-[**CIM\_HostedService**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-hostedservice)
+[**CIM\_HostedService**](/windows/desktop/CIMWin32Prov/cim-hostedservice)
 </dt> <dt>
 
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

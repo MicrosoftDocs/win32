@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following example reboots the local system using the [**InitiateSystemShutdown**](/windows/desktop/api/Winreg/nf-winreg-initiatesystemshutdowna) function. The system displays a dialog box with a custom message and a message to the user to close applications within the specified time-out interval (30 seconds). After the time-out interval elapses, the system is restarted.
 
-The application must enable the SE\_SHUTDOWN\_NAME privilege before calling [**InitiateSystemShutdown**](/windows/desktop/api/Winreg/nf-winreg-initiatesystemshutdowna). For more information, see [Privileges](https://msdn.microsoft.com/library/Aa379306(v=VS.85).aspx).
+The application must enable the SE\_SHUTDOWN\_NAME privilege before calling [**InitiateSystemShutdown**](/windows/desktop/api/Winreg/nf-winreg-initiatesystemshutdowna). For more information, see [Privileges](../secauthz/privileges.md).
 
 
 ```C++
@@ -130,6 +130,3 @@ BOOL PreventSystemShutdown()
  
 
  
-
-
-

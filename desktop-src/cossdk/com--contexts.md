@@ -19,7 +19,7 @@ In COM+, every COM object is associated with precisely one context as it runs (t
 
 COM+ uses context properties as the basis for providing run-time services. These properties hold state that determines how the execution environment performs services for objects within the context. In some cases, you can interact directly with an object's context properties to indicate some state relevant to a service being provided for the object. For example, you would do this when an object that is participating in an automatic transaction votes on the outcome of the transaction.
 
-For a detailed discussion of the COM foundation of these concepts, see [Processes, Threads, and Apartments](https://docs.microsoft.com/windows/desktop/com/processes--threads--and-apartments).
+For a detailed discussion of the COM foundation of these concepts, see [Processes, Threads, and Apartments](/windows/desktop/com/processes--threads--and-apartments).
 
 ## Programmatic Interaction with Context Properties
 
@@ -43,6 +43,3 @@ Contexts effectively replace the MTS context wrappers. The purpose they served�
  
 
  
-
-
-

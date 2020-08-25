@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Sent after a window has been moved.
 
-A window receives this message through its [**WindowProc**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-defwindowproca) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca) function.
 
 
 ```C++
@@ -57,9 +57,9 @@ yPos = (int)(short) HIWORD(lParam);   // vertical position
 
 
 
-You can also use the [**MAKEPOINTS**](https://msdn.microsoft.com/library/Dd145043(v=VS.85).aspx) macro to convert the *lParam* parameter to a [**POINTS**](https://msdn.microsoft.com/library/Dd162808(v=VS.85).aspx) structure.
+You can also use the [**MAKEPOINTS**](/windows/win32/api/wingdi/nf-wingdi-makepoints) macro to convert the *lParam* parameter to a [**POINTS**](/previous-versions//dd162808(v=vs.85)) structure.
 
-The [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function
+The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function
 sends the **WM\_SIZE** and **WM\_MOVE** messages when it processes
 the [**WM\_WINDOWPOSCHANGED**](wm-windowposchanged.md) message.
 The **WM\_SIZE** and **WM\_MOVE** messages are not sent if an application handles
@@ -84,10 +84,10 @@ the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**.
 **Reference**
 </dt> <dt>
 
-[**HIWORD**](https://msdn.microsoft.com/library/ms632657(v=VS.85).aspx)
+[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
 </dt> <dt>
 
-[**LOWORD**](https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx)
+[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
 </dt> <dt>
 
 [**WM\_WINDOWPOSCHANGED**](wm-windowposchanged.md)
@@ -102,16 +102,12 @@ the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**.
 **Other Resources**
 </dt> <dt>
 
-[**MAKEPOINTS**](https://msdn.microsoft.com/library/Dd145043(v=VS.85).aspx)
+[**MAKEPOINTS**](/windows/win32/api/wingdi/nf-wingdi-makepoints)
 </dt> <dt>
 
-[**POINTS**](https://msdn.microsoft.com/library/Dd162808(v=VS.85).aspx)
+[**POINTS**](/previous-versions//dd162808(v=vs.85))
 </dt> </dl>
 
  
 
  
-
-
-
-

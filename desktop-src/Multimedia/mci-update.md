@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_UPDATE command updates the display rectangle. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function with the following parameters.
 
 
 ```C++
@@ -86,7 +86,7 @@ The **rc** member of the structure identified by *lpUnfreeze* contains a valid d
 <span id="MCI_DGV_UPDATE_PAINT"></span><span id="mci_dgv_update_paint"></span>MCI\_DGV\_UPDATE\_PAINT
 </dt> <dd>
 
-An application uses this flag when it receives a [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) message that is intended for a display DC. A frame-buffer device usually paints the key color. If the display device does not have a frame buffer, it might ignore the MCI\_UPDATE command when the **MCI\_DGV\_UPDATE\_PAINT** flag is used because the display will be repainted during the playback operation.
+An application uses this flag when it receives a [**WM\_PAINT**](/windows/desktop/gdi/wm-paint) message that is intended for a display DC. A frame-buffer device usually paints the key color. If the display device does not have a frame buffer, it might ignore the MCI\_UPDATE command when the **MCI\_DGV\_UPDATE\_PAINT** flag is used because the display will be repainted during the playback operation.
 
 </dd> </dl>
 
@@ -115,10 +115,4 @@ For digital-video devices, the *lpDest* parameter points to an [**MCI\_DGV\_UPDA
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

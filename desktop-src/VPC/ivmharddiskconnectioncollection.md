@@ -19,13 +19,13 @@ ms.date: 05/31/2018
 
 # IVMHardDiskConnectionCollection interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Defines the collection of hard disk connections within the virtual machine. To obtain an **IVMHardDiskConnectionCollection** object, use the [**IVMVirtualMachine::HardDiskConnections**](ivmvirtualmachine-harddiskconnections.md) property.
 
 ## Members
 
-The **IVMHardDiskConnectionCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMHardDiskConnectionCollection** also has these types of members:
+The **IVMHardDiskConnectionCollection** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **IVMHardDiskConnectionCollection** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -71,10 +71,4 @@ The **IVMHardDiskConnectionCollection** interface has these properties.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

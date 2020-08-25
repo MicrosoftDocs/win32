@@ -296,9 +296,9 @@
       - name: "PERF_MEM_FREE"
         href: /windows/desktop/api/Perflib/nc-perflib-perf_mem_free
       - name: "PM_CLOSE_PROC"
-        href: https://docs.microsoft.com/windows/desktop/api/winperf/nc-winperf-pm_close_proc
+        href: /windows/desktop/api/winperf/nc-winperf-pm_close_proc
       - name: "PM_COLLECT_PROC"
-        href: https://docs.microsoft.com/windows/desktop/api/winperf/nc-winperf-pm_collect_proc
+        href: /windows/desktop/api/winperf/nc-winperf-pm_collect_proc
       - name: "PERFLIBREQUEST"
         href: /windows/desktop/api/Perflib/nc-perflib-perflibrequest
       - name: "CounterCleanup"
@@ -310,7 +310,7 @@
       - name: "LoadPerfCounterTextStrings"
         href: /windows/desktop/api/Loadperf/nf-loadperf-loadperfcountertextstringsa
       - name: "PM_OPEN_PROC"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa372200(v=vs.85)
       - name: "PdhAddCounter"
         href: /windows/desktop/api/Pdh/nf-pdh-pdhaddcountera
       - name: "PdhAddEnglishCounter"

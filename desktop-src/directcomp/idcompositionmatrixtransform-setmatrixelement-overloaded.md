@@ -24,7 +24,7 @@ Changes or animates the value of one element of the matrix of this 2D transform.
 
 | Method                                                                                                                               | Description                                                                      |
 |:-------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
-| [**SetMatrixElement(int, int, float)**](https://msdn.microsoft.com/library/Hh437431(v=VS.85).aspx)                                           | Changes the value of one element of the matrix of this 2D transform.<br/>  |
+| [**SetMatrixElement(int, int, float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionmatrixtransform-setmatrixelement(int_int_float))                                           | Changes the value of one element of the matrix of this 2D transform.<br/>  |
 | [**SetMatrixElement(int, int, IDCompositionAnimation\*)**](idcompositionmatrixtransform-setmatrixelement-idcompositionanimation.md) | Animates the value of one element of the matrix of this 2D transform.<br/> |
 
 
@@ -47,14 +47,9 @@ Changes or animates the value of one element of the matrix of this 2D transform.
 
 <dl> <dt>
 
-[**IDCompositionMatrixTransform**](https://msdn.microsoft.com/library/Hh437424(v=VS.85).aspx)
+[**IDCompositionMatrixTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositionmatrixtransform)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

@@ -47,7 +47,7 @@ typedef struct {
 **lNotifyHandle**
 </dt> <dd>
 
-Contains the notification handle. This is identical to the handle passed for the *handle* parameter in the [**IExtendPropertySheet2::CreatePropertyPages**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814847(v=vs.85)) method.
+Contains the notification handle. This is identical to the handle passed for the *handle* parameter in the [**IExtendPropertySheet2::CreatePropertyPages**](/previous-versions/windows/desktop/legacy/aa814847(v=vs.85)) method.
 
 </dd> <dt>
 
@@ -94,10 +94,4 @@ Contains an application-defined 32-bit value. This value is passed back to the a
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

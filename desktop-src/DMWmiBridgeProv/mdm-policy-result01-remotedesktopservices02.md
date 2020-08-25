@@ -56,7 +56,7 @@ The **MDM\_Policy\_Result01\_RemoteDesktopServices02** class has these propertie
 
 <dl> <dt>
 
-[AllowUsersToConnectRemotely](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotedesktopservices#remotedesktopservices-allowuserstoconnectremotely)
+[AllowUsersToConnectRemotely](/windows/client-management/mdm/policy-csp-remotedesktopservices#remotedesktopservices-allowuserstoconnectremotely)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -67,7 +67,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ClientConnectionEncryptionLevel](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotedesktopservices#remotedesktopservices-clientconnectionencryptionlevel)
+[ClientConnectionEncryptionLevel](/windows/client-management/mdm/policy-csp-remotedesktopservices#remotedesktopservices-clientconnectionencryptionlevel)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -78,7 +78,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DoNotAllowDriveRedirection](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotedesktopservices#remotedesktopservices-donotallowdriveredirection)
+[DoNotAllowDriveRedirection](/windows/client-management/mdm/policy-csp-remotedesktopservices#remotedesktopservices-donotallowdriveredirection)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -89,7 +89,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DoNotAllowPasswordSaving](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotedesktopservices#remotedesktopservices-donotallowpasswordsaving)
+[DoNotAllowPasswordSaving](/windows/client-management/mdm/policy-csp-remotedesktopservices#remotedesktopservices-donotallowpasswordsaving)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -109,7 +109,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
@@ -123,12 +123,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[PromptForPasswordUponConnection](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotedesktopservices#remotedesktopservices-promptforpassworduponconnection)
+[PromptForPasswordUponConnection](/windows/client-management/mdm/policy-csp-remotedesktopservices#remotedesktopservices-promptforpassworduponconnection)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -139,7 +139,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RequireSecureRPCCommunication](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotedesktopservices#remotedesktopservices-requiresecurerpccommunication)
+[RequireSecureRPCCommunication](/windows/client-management/mdm/policy-csp-remotedesktopservices#remotedesktopservices-requiresecurerpccommunication)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -165,10 +165,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

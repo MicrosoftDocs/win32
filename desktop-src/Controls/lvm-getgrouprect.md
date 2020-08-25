@@ -34,9 +34,9 @@ Specifies the group by **iGroupId** (see [**LVGROUP**](/windows/win32/api/commct
 *lParam* \[in, out\]
 </dt> <dd>
 
-A pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure to receive information on the group specified by *wParam*. The message receiver is responsible for setting the structure members with information for the group specified by *wParam*.
+A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure to receive information on the group specified by *wParam*. The message receiver is responsible for setting the structure members with information for the group specified by *wParam*.
 
-The calling process is responsible for allocating memory for the structure. Set the **top** member of the [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) to one of the following flags to specify the coordinates of the rectangle to get.
+The calling process is responsible for allocating memory for the structure. Set the **top** member of the [**RECT**](/previous-versions//dd162897(v=vs.85)) to one of the following flags to specify the coordinates of the rectangle to get.
 
 
 
@@ -70,10 +70,4 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 
  
-
- 
-
-
-
-
 

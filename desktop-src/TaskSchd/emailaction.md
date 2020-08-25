@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # EmailAction object
 
-\[This object is no longer supported. Please use IExecAction with the powershell [**Send-MailMessage**](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/send-mailmessage) cmdlet as a workaround.\]
+\[This object is no longer supported. Please use IExecAction with the powershell [**Send-MailMessage**](/powershell/module/microsoft.powershell.utility/send-mailmessage) cmdlet as a workaround.\]
 
 Scripting object that represents an action that sends an email message.
 
@@ -62,7 +62,7 @@ When reading or writing your own XML for a task, an email action is specified us
 
 ## Examples
 
-For more information and example code for this scripting object, see [Event Trigger Example (Scripting)](https://msdn.microsoft.com/library/Aa446887(v=VS.85).aspx).
+For more information and example code for this scripting object, see [Event Trigger Example (Scripting)](/previous-versions//aa446887(v=vs.85)).
 
 ## Requirements
 
@@ -80,10 +80,4 @@ For more information and example code for this scripting object, see [Event Trig
 
 
  
-
- 
-
-
-
-
 

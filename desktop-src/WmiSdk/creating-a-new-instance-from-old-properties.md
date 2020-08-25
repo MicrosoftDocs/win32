@@ -13,7 +13,7 @@ A join view class contains properties from source class instances that are conne
 
 You can base a join view class on inequality of property values, such as **Class1.Prop1** <> **Class2.Prop2** where **Prop1** and **Prop2** are not mapped to the same property in the view class.
 
-A join view class is helpful when the information you are looking for is contained in separate but related classes. For example, if you want information about a printer and about the printer configuration, you can create a join view class that contains some of the properties of the [**Win32\_Printer**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-printer) class and some of the properties of the [**Win32\_PrinterConfiguration**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-printerconfiguration) class. Without the View Provider, you must retrieve and merge the properties of the separate instances to get the information you need.
+A join view class is helpful when the information you are looking for is contained in separate but related classes. For example, if you want information about a printer and about the printer configuration, you can create a join view class that contains some of the properties of the [**Win32\_Printer**](/windows/desktop/CIMWin32Prov/win32-printer) class and some of the properties of the [**Win32\_PrinterConfiguration**](/windows/desktop/CIMWin32Prov/win32-printerconfiguration) class. Without the View Provider, you must retrieve and merge the properties of the separate instances to get the information you need.
 
 The following procedure describes how to create a join view class.
 
@@ -41,7 +41,7 @@ The following procedure describes how to create a join view class.
 
     By using the [**HiddenDefault**](qualifiers-specific-to-the-view-provider.md) qualifier, you can tag the properties that belong to a source class.
 
-The following code example shows a join view class created from the Performance Monitor provider classes [**Win32\_PerfRawData\_PerfProc\_Process**](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data) and [**Win32\_PerfRawData\_PerfProc\_Thread**](https://docs.microsoft.com/previous-versions//aa394325(v=vs.85)) with properties of both classes joined by the **ProcessID** property.
+The following code example shows a join view class created from the Performance Monitor provider classes [**Win32\_PerfRawData\_PerfProc\_Process**](/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data) and [**Win32\_PerfRawData\_PerfProc\_Thread**](/previous-versions//aa394325(v=vs.85)) with properties of both classes joined by the **ProcessID** property.
 
 ``` syntax
 #pragma namespace("\\\\.\\root\\cimv2")
@@ -94,6 +94,3 @@ class JoinedProcessThread
  
 
  
-
-
-

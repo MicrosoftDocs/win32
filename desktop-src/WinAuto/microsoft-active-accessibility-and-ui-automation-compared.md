@@ -41,7 +41,7 @@ Microsoft designed the Microsoft Active Accessibility object model at about the 
 
 ## Object Model Navigation
 
-Another limitation of Microsoft Active Accessibility involves navigating the object model. Microsoft Active Accessibility represents the UI as a hierarchy of accessible objects. Clients navigate from one accessible object to another using interfaces and methods available from the accessible object. Servers can expose the children of an accessible object with properties of the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface, or with the standard [IEnumVARIANT](https://msdn.microsoft.com/library/ms221053.aspx) COM interface. Clients, however, must be able to deal with both approaches for any server. This ambiguity means extra work for client implementers, and broken accessible object models for server implementers.
+Another limitation of Microsoft Active Accessibility involves navigating the object model. Microsoft Active Accessibility represents the UI as a hierarchy of accessible objects. Clients navigate from one accessible object to another using interfaces and methods available from the accessible object. Servers can expose the children of an accessible object with properties of the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface, or with the standard [IEnumVARIANT](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) COM interface. Clients, however, must be able to deal with both approaches for any server. This ambiguity means extra work for client implementers, and broken accessible object models for server implementers.
 
 UI Automation represents the UI as a hierarchical tree of automation elements, and provides a single interface for navigating the tree. Clients can customize the view of elements in the tree by scoping and filtering.
 
@@ -97,7 +97,3 @@ For more information, see [The IAccessibleEx Interface](iaccessibleex.md).
  
 
  
-
-
-
-

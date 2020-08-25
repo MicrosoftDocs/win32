@@ -331,7 +331,9 @@ The following display options apply to all SignTool commands.
 
  
 
-The SignTool **verify** command determines whether the signing certificate was issued by a trusted authority, whether the signing certificate has been revoked, and, optionally, whether the signing certificate is valid for a specific policy.
+The SignTool **verify** command determines whether the signing certificate was issued by a trusted authority, whether the signing certificate has been revoked, and, optionally, whether the signing certificate is valid for a specific policy.  
+
+The SignTool **verify** command will output the **embedded** signature status unless an option is specified to search a catalog (/a, /ad, /as, /ag, /c).
 
 SignTool returns an exit code of zero for successful execution, one for failed execution, and two for execution that completed with warnings. If the SignTool encounters an unhandled exception, however, the return value is undefined.
 

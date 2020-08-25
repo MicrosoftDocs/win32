@@ -10,35 +10,35 @@ ms.date: 05/31/2018
 
 The event (notification) interfaces allow a TAPI 3 application to respond to asynchronous events.
 
-You must call the [**ITTAPI::put\_EventFilter**](https://msdn.microsoft.com/library/ms732553(v=VS.85).aspx) method and set an event filter mask to enable reception of request events. If you do not call **ITTAPI::put\_EventFilter**, your application will not receive any events.
+You must call the [**ITTAPI::put\_EventFilter**](/windows/win32/api/tapi3if/nf-tapi3if-ittapi-put_eventfilter) method and set an event filter mask to enable reception of request events. If you do not call **ITTAPI::put\_EventFilter**, your application will not receive any events.
 
-Please see the [Events](https://msdn.microsoft.com/library/ms726212(v=VS.85).aspx) overview for a description of how an application ensures reception of notifications. See the individual interfaces listed in the following table for more information about setting a filter mask for individual event types.
+Please see the [Events](./asynchronous-spontaneous-events.md) overview for a description of how an application ensures reception of notifications. See the individual interfaces listed in the following table for more information about setting a filter mask for individual event types.
 
 
 
 | Interface                                                           | Description                                                                                                                                 |
 |---------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ITAddressEvent**](https://msdn.microsoft.com/library/ms728210(v=VS.85).aspx)                   | Retrieves the description of address events.                                                                                                |
-| [**ITASRTerminalEvent**](https://msdn.microsoft.com/library/Aa382353(v=VS.85).aspx)           | Retrieves the description of Automatic Speech Recognition terminal events.                                                                  |
-| [**ITCallHubEvent**](https://msdn.microsoft.com/library/ms729263(v=VS.85).aspx)                   | Retrieves the description of CallHub events.                                                                                                |
-| [**ITCallInfoChangeEvent**](https://msdn.microsoft.com/library/ms729287(v=VS.85).aspx)     | Retrieves the description of call information change events.                                                                                |
-| [**ITCallMediaEvent**](https://msdn.microsoft.com/library/ms729332(v=VS.85).aspx)               | Retrieves the description of call media events.                                                                                             |
-| [**ITCallNotificationEvent**](https://msdn.microsoft.com/library/ms729340(v=VS.85).aspx) | Retrieves the description of call notification events.                                                                                      |
-| [**ITCallStateEvent**](https://msdn.microsoft.com/library/ms729348(v=VS.85).aspx)               | Retrieves the description of call state events.                                                                                             |
-| [**ITDigitDetectionEvent**](https://msdn.microsoft.com/library/ms729517(v=VS.85).aspx)     | Retrieves information about DTMF digit events during a call.                                                                                |
-| [**ITDigitGenerationEvent**](https://msdn.microsoft.com/library/ms729523(v=VS.85).aspx)   | Retrieves information about calls that require the generation of DTMF digits.                                                               |
-| [**ITDigitsGatheredEvent**](https://msdn.microsoft.com/library/ms729528(v=VS.85).aspx)     | Retrieves data related to an application's digit-gathering request.                                                                         |
-| [**ITFileTerminalEvent**](https://msdn.microsoft.com/library/ms730039(v=VS.85).aspx)         | Retrieves the description of file terminal events.                                                                                          |
-| [**ITParticipantEvent**](https://msdn.microsoft.com/library/ms730763(v=VS.85).aspx)           | Retrieves the description of conference participant events.                                                                                 |
-| [**ITPhoneEvent**](https://msdn.microsoft.com/library/ms730844(v=VS.85).aspx)                       | Retrieves the description of phone events.                                                                                                  |
-| [**ITQOSEvent**](https://msdn.microsoft.com/library/ms731442(v=VS.85).aspx)                           | Retrieves the description of quality of service (QOS) events.                                                                               |
-| [**ITQueueEvent**](https://msdn.microsoft.com/library/ms731451(v=VS.85).aspx)                       | Retrieves the description of Automatic Call Distribution (ACD) queue events.                                                                |
-| [**ITRequestEvent**](https://msdn.microsoft.com/library/ms731494(v=VS.85).aspx)                   | Retrieves the description of [Assisted Telephony](https://msdn.microsoft.com/library/ms726209(v=VS.85).aspx) request events.                                 |
-| [**ITTAPIObjectEvent**](https://msdn.microsoft.com/library/ms732512(v=VS.85).aspx)             | Retrieves the description of TAPI object events.                                                                                            |
-| [**ITTAPIObjectEvent2**](https://msdn.microsoft.com/library/ms732515(v=VS.85).aspx)           | Extends [**ITTAPIObjectEvent**](https://msdn.microsoft.com/library/ms732512(v=VS.85).aspx); retrieves a pointer to the phone object that caused the TAPI object event. |
-| [**ITToneDetectionEvent**](https://msdn.microsoft.com/library/ms733243(v=VS.85).aspx)       | Retrieves information about a tone detection event.                                                                                         |
-| [**ITToneTerminalEvent**](https://msdn.microsoft.com/library/ms733263(v=VS.85).aspx)         | Retrieves the description of tone terminal events.                                                                                          |
-| [**ITTTSTerminalEvent**](https://msdn.microsoft.com/library/ms733276(v=VS.85).aspx)           | Retrieves the description of text-to-speech (TTS) terminal events.                                                                          |
+| [**ITAddressEvent**](/windows/win32/api/tapi3if/nn-tapi3if-itaddressevent)                   | Retrieves the description of address events.                                                                                                |
+| [**ITASRTerminalEvent**](/windows/win32/api/tapi3if/nn-tapi3if-itasrterminalevent)           | Retrieves the description of Automatic Speech Recognition terminal events.                                                                  |
+| [**ITCallHubEvent**](/windows/win32/api/tapi3if/nn-tapi3if-itcallhubevent)                   | Retrieves the description of CallHub events.                                                                                                |
+| [**ITCallInfoChangeEvent**](/windows/win32/api/tapi3if/nn-tapi3if-itcallinfochangeevent)     | Retrieves the description of call information change events.                                                                                |
+| [**ITCallMediaEvent**](/windows/win32/api/tapi3if/nn-tapi3if-itcallmediaevent)               | Retrieves the description of call media events.                                                                                             |
+| [**ITCallNotificationEvent**](/windows/win32/api/tapi3if/nn-tapi3if-itcallnotificationevent) | Retrieves the description of call notification events.                                                                                      |
+| [**ITCallStateEvent**](/windows/win32/api/tapi3if/nn-tapi3if-itcallstateevent)               | Retrieves the description of call state events.                                                                                             |
+| [**ITDigitDetectionEvent**](/windows/win32/api/tapi3if/nn-tapi3if-itdigitdetectionevent)     | Retrieves information about DTMF digit events during a call.                                                                                |
+| [**ITDigitGenerationEvent**](/windows/win32/api/tapi3if/nn-tapi3if-itdigitgenerationevent)   | Retrieves information about calls that require the generation of DTMF digits.                                                               |
+| [**ITDigitsGatheredEvent**](/windows/win32/api/tapi3if/nn-tapi3if-itdigitsgatheredevent)     | Retrieves data related to an application's digit-gathering request.                                                                         |
+| [**ITFileTerminalEvent**](/windows/win32/api/tapi3if/nn-tapi3if-itfileterminalevent)         | Retrieves the description of file terminal events.                                                                                          |
+| [**ITParticipantEvent**](./itparticipantevent.md)           | Retrieves the description of conference participant events.                                                                                 |
+| [**ITPhoneEvent**](/windows/win32/api/tapi3if/nn-tapi3if-itphoneevent)                       | Retrieves the description of phone events.                                                                                                  |
+| [**ITQOSEvent**](/windows/win32/api/tapi3if/nn-tapi3if-itqosevent)                           | Retrieves the description of quality of service (QOS) events.                                                                               |
+| [**ITQueueEvent**](/windows/win32/api/tapi3cc/nn-tapi3cc-itqueueevent)                       | Retrieves the description of Automatic Call Distribution (ACD) queue events.                                                                |
+| [**ITRequestEvent**](/windows/win32/api/tapi3if/nn-tapi3if-itrequestevent)                   | Retrieves the description of [Assisted Telephony](./assisted-telephony-overview.md) request events.                                 |
+| [**ITTAPIObjectEvent**](/windows/win32/api/tapi3if/nn-tapi3if-ittapiobjectevent)             | Retrieves the description of TAPI object events.                                                                                            |
+| [**ITTAPIObjectEvent2**](/windows/win32/api/tapi3if/nn-tapi3if-ittapiobjectevent2)           | Extends [**ITTAPIObjectEvent**](/windows/win32/api/tapi3if/nn-tapi3if-ittapiobjectevent); retrieves a pointer to the phone object that caused the TAPI object event. |
+| [**ITToneDetectionEvent**](/windows/win32/api/tapi3if/nn-tapi3if-ittonedetectionevent)       | Retrieves information about a tone detection event.                                                                                         |
+| [**ITToneTerminalEvent**](/windows/win32/api/tapi3if/nn-tapi3if-ittoneterminalevent)         | Retrieves the description of tone terminal events.                                                                                          |
+| [**ITTTSTerminalEvent**](/windows/win32/api/tapi3if/nn-tapi3if-itttsterminalevent)           | Retrieves the description of text-to-speech (TTS) terminal events.                                                                          |
 
 
 
@@ -48,8 +48,8 @@ Please see the [Events](https://msdn.microsoft.com/library/ms726212(v=VS.85).asp
 
 | Interface                                                                                             | Description                                                                                      |
 |-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| [**ITPluggableTerminalEventSink**](https://msdn.microsoft.com/library/ms731414(v=VS.85).aspx)                         | Notifies client applications about changes in a pluggable terminal.                              |
-| [**ITPluggableTerminalEventSinkRegistration**](https://msdn.microsoft.com/library/ms731415(v=VS.85).aspx) | Registers and unregisters a client application for notification about pluggable terminal events. |
+| [**ITPluggableTerminalEventSink**](/windows/win32/api/tapi3/nn-tapi3-itpluggableterminaleventsink)                         | Notifies client applications about changes in a pluggable terminal.                              |
+| [**ITPluggableTerminalEventSinkRegistration**](/windows/win32/api/tapi3/nn-tapi3-itpluggableterminaleventsinkregistration) | Registers and unregisters a client application for notification about pluggable terminal events. |
 
 
 
@@ -58,6 +58,3 @@ Please see the [Events](https://msdn.microsoft.com/library/ms726212(v=VS.85).asp
  
 
  
-
-
-

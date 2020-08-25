@@ -10,7 +10,7 @@ ms.topic: reference
 
 # WBEMTimeSpan::WbemTimeSpan constructors
 
-\[The [**WBEMTimeSpan**](https://msdn.microsoft.com/library/Aa393989(v=VS.85).aspx) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The [**WBEMTimeSpan**](/windows/win32/api/wbemtime/nl-wbemtime-wbemtimespan) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The **WBEMTimeSpan** class constructor creates a time span object. The constructor is overloaded.
 
@@ -20,9 +20,9 @@ The **WBEMTimeSpan** class constructor creates a time span object. The construct
 
 | Constructor                                                                                                 | Description                                                                  |
 |:------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
-| [**WBEMTimeSpan()**](https://msdn.microsoft.com/library/Aa394010(v=VS.85).aspx)                                                      | Creates an uninitialized time span object.<br/>                        |
-| [**WBEMTimeSpan(BSTR)**](https://msdn.microsoft.com/library/Aa394008(v=VS.85).aspx)                                               | Initializes the new time span object to value in the parameter.<br/>   |
-| [**WBEMTimeSpan(int,int,int,int,int,int,int)**](https://msdn.microsoft.com/library/Aa394009(v=VS.85).aspx) | Initializes the new time span object to values in the parameters.<br/> |
+| [**WBEMTimeSpan()**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr))                                                      | Creates an uninitialized time span object.<br/>                        |
+| [**WBEMTimeSpan(BSTR)**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr))                                               | Initializes the new time span object to value in the parameter.<br/>   |
+| [**WBEMTimeSpan(int,int,int,int,int,int,int)**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(int_int_int_int_int_int_int)) | Initializes the new time span object to values in the parameters.<br/> |
 
 
 
@@ -42,7 +42,3 @@ The **WBEMTimeSpan** class constructor creates a time span object. The construct
 �
 
 �
-
-
-
-

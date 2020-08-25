@@ -68,12 +68,8 @@ mmioClose(hmmio, 0);
 
 
 
-When you finish accessing a file I/O buffer, call the [**mmioSetInfo**](https://msdn.microsoft.com/library/Dd757339(v=VS.85).aspx) function, passing an address of the [**MMIOINFO**](https://msdn.microsoft.com/library/Dd757322(v=VS.85).aspx) structure filled by the [**mmioGetInfo**](https://msdn.microsoft.com/library/Dd757321(v=VS.85).aspx) function. If you wrote to the buffer, set the MMIO\_DIRTY flag in the **dwFlags** member of the **MMIOINFO** structure before calling **mmioSetInfo**. Otherwise, the buffer will not be flushed to disk.
+When you finish accessing a file I/O buffer, call the [**mmioSetInfo**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiosetinfo) function, passing an address of the [**MMIOINFO**](/previous-versions//dd757322(v=vs.85)) structure filled by the [**mmioGetInfo**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiogetinfo) function. If you wrote to the buffer, set the MMIO\_DIRTY flag in the **dwFlags** member of the **MMIOINFO** structure before calling **mmioSetInfo**. Otherwise, the buffer will not be flushed to disk.
 
  
 
  
-
-
-
-

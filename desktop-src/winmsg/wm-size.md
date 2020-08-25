@@ -3,14 +3,14 @@ Description: Sent to a window after its size has changed.
 ms.assetid: e3e14dcd-9236-48bd-a692-6985d8146f81
 title: WM_SIZE message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/27/2020
 ---
 
 # WM\_SIZE message
 
 Sent to a window after its size has changed.
 
-A window receives this message through its [**WindowProc**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-defwindowproca) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca) function.
 
 
 ```C++
@@ -59,13 +59,60 @@ Type: **LRESULT**
 
 If an application processes this message, it should return zero.
 
+## Example
+
+```cpp
+/******************************************************************
+*                                                                 *
+*  SimpleText::OnResize                                           *
+*                                                                 *
+*  If the application receives a WM_SIZE message, this method     *
+*  resize the render target appropriately.                        *
+*                                                                 *
+******************************************************************/
+
+void SimpleText::OnResize(UINT width, UINT height)
+{
+    if (pRT_)
+    {
+        D2D1_SIZE_U size;
+        size.width = width;
+        size.height = height;
+        pRT_->Resize(size);
+    }
+}
+
+LRESULT CALLBACK SimpleText::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
+{
+   
+    SimpleText *pSimpleText = reinterpret_cast<SimpleText *>(
+                ::GetWindowLongPtr(hwnd, GWLP_USERDATA));
+
+    if (pSimpleText)
+    {
+        switch(message)
+        {
+        case WM_SIZE:
+            {
+                UINT width = LOWORD(lParam);
+                UINT height = HIWORD(lParam);
+                pSimpleText->OnResize(width, height);
+            }
+            return 0;
+
+// ...
+
+```
+
+Example from [Windows classic samples](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/multimedia/DirectWrite/HelloWorld/SimpleText.cpp) on GitHub.
+
 ## Remarks
 
-If the [**SetScrollPos**](https://msdn.microsoft.com/library/Cc411085(v=MSDN.10).aspx) or [**MoveWindow**](https://msdn.microsoft.com/library/ms633534(v=VS.85).aspx) function is called for a child window as a result of the **WM\_SIZE** message, the *bRedraw* or *bRepaint* parameter should be nonzero to cause the window to be repainted.
+If the [**SetScrollPos**](https://msdn.microsoft.com/library/Cc411085(v=MSDN.10).aspx) or [**MoveWindow**](/windows/win32/api/winuser/nf-winuser-movewindow) function is called for a child window as a result of the **WM\_SIZE** message, the *bRedraw* or *bRepaint* parameter should be nonzero to cause the window to be repainted.
 
 Although the width and height of a window are 32-bit values, the *lParam* parameter contains only the low-order 16 bits of each.
 
-The [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function
+The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function
 sends the **WM\_SIZE** and **WM\_MOVE** messages when it processes
 the [**WM\_WINDOWPOSCHANGED**](wm-windowposchanged.md) message.
 The **WM\_SIZE** and **WM\_MOVE** messages are not sent if an application handles
@@ -90,13 +137,13 @@ the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**.
 **Reference**
 </dt> <dt>
 
-[**HIWORD**](https://msdn.microsoft.com/library/ms632657(v=VS.85).aspx)
+[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
 </dt> <dt>
 
-[**LOWORD**](https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx)
+[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
 </dt> <dt>
 
-[**MoveWindow**](https://msdn.microsoft.com/library/ms633534(v=VS.85).aspx)
+[**MoveWindow**](/windows/win32/api/winuser/nf-winuser-movewindow)
 </dt> <dt>
 
 [**WM\_WINDOWPOSCHANGED**](wm-windowposchanged.md)
@@ -117,7 +164,3 @@ the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**.
  
 
  
-
-
-
-

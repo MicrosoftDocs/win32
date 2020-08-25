@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Assisted Telephony Functions
 
-TAPI supports the following [Assisted Telephony](https://msdn.microsoft.com/library/ms726209(v=VS.85).aspx) functions:
+TAPI supports the following [Assisted Telephony](./assisted-telephony-overview.md) functions:
 
 -   [**tapiGetLocationInfo**](/windows/desktop/api/Tapi/nf-tapi-tapigetlocationinfo)
 -   [**tapiRequestDrop**](/windows/desktop/api/Tapi/nf-tapi-tapirequestdrop)
@@ -20,6 +20,3 @@ For a categorization of TAPI functions by service level and task, see [TAPI Quic
  
 
  
-
-
-

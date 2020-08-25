@@ -20,7 +20,7 @@ api_location:
 The **SignerSignEx2** function signs and time stamps the specified file, allowing multiple nested signatures.
 
 > [!Note]  
-> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Mssign32.dll.
+> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Mssign32.dll.
 
  
 
@@ -99,7 +99,7 @@ A pointer to a [**SIGNER\_SIGNATURE\_INFO**](signer-signature-info.md) structure
 *pProviderInfo* \[in, optional\]
 </dt> <dd>
 
-Pointer to a [**SIGNER\_PROVIDER\_INFO**](signer-provider-info.md) structure that specifies the [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP) and private key information used to create the digital signature.
+Pointer to a [**SIGNER\_PROVIDER\_INFO**](signer-provider-info.md) structure that specifies the [*cryptographic service provider*](../secgloss/c-gly.md) (CSP) and private key information used to create the digital signature.
 
 If the value of this parameter is **NULL**, the *pSignerCert* parameter must specify a certificate that is associated with a CSP.
 
@@ -156,7 +156,7 @@ A 32-bit value that is passed as additional data to SIP functions. The format an
 *ppSignerContext* \[out\]
 </dt> <dd>
 
-The address of a pointer to the [**SIGNER\_CONTEXT**](signer-context.md) structure that contains the signed [*BLOB*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx). When you have finished using the **SIGNER\_CONTEXT** structure, free the **SIGNER\_CONTEXT** structure by calling the [**SignerFreeSignerContext**](signerfreesignercontext.md) function.
+The address of a pointer to the [**SIGNER\_CONTEXT**](signer-context.md) structure that contains the signed [*BLOB*](../secgloss/b-gly.md). When you have finished using the **SIGNER\_CONTEXT** structure, free the **SIGNER\_CONTEXT** structure by calling the [**SignerFreeSignerContext**](signerfreesignercontext.md) function.
 
 </dd> <dt>
 
@@ -218,7 +218,3 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
  
 
  
-
-
-
-

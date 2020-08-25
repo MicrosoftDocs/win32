@@ -58,7 +58,7 @@ The **MDM\_Policy\_Config01\_NetworkIsolation02** class has these properties.
 
 <dl> <dt>
 
-[EnterpriseCloudResources](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-networkisolation#networkisolation-enterprisecloudresources)
+[EnterpriseCloudResources](/windows/client-management/mdm/policy-csp-networkisolation#networkisolation-enterprisecloudresources)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -69,7 +69,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EnterpriseInternalProxyServers](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-networkisolation#networkisolation-enterpriseinternalproxyservers)
+[EnterpriseInternalProxyServers](/windows/client-management/mdm/policy-csp-networkisolation#networkisolation-enterpriseinternalproxyservers)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -80,7 +80,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EnterpriseIPRange](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-networkisolation#networkisolation-enterpriseiprange)
+[EnterpriseIPRange](/windows/client-management/mdm/policy-csp-networkisolation#networkisolation-enterpriseiprange)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -91,7 +91,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EnterpriseIPRangesAreAuthoritative](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-networkisolation#networkisolation-enterpriseiprangesareauthoritative)
+[EnterpriseIPRangesAreAuthoritative](/windows/client-management/mdm/policy-csp-networkisolation#networkisolation-enterpriseiprangesareauthoritative)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -102,7 +102,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EnterpriseNetworkDomainNames](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-networkisolation#networkisolation-enterprisenetworkdomainnames)
+[EnterpriseNetworkDomainNames](/windows/client-management/mdm/policy-csp-networkisolation#networkisolation-enterprisenetworkdomainnames)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -113,7 +113,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EnterpriseProxyServers](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-networkisolation#networkisolation-enterpriseproxyservers)
+[EnterpriseProxyServers](/windows/client-management/mdm/policy-csp-networkisolation#networkisolation-enterpriseproxyservers)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -124,7 +124,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EnterpriseProxyServersAreAuthoritative](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-networkisolation#networkisolation-enterpriseproxyserversareauthoritative)
+[EnterpriseProxyServersAreAuthoritative](/windows/client-management/mdm/policy-csp-networkisolation#networkisolation-enterpriseproxyserversareauthoritative)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -144,14 +144,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "NetworkIsolation".
 
 </dd> <dt>
 
-[NeutralResources](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-networkisolation#networkisolation-neutralresources)
+[NeutralResources](/windows/client-management/mdm/policy-csp-networkisolation#networkisolation-neutralresources)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -171,7 +171,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/Policy/Config"
@@ -193,10 +193,4 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 
  
-
- 
-
-
-
-
 

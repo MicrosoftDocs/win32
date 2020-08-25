@@ -44,7 +44,7 @@ The return value is the previous locale identifier. If the *wParam* parameter sp
 
 ## Remarks
 
-Use the [**MAKELCID**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid) macro to construct a locale identifier.
+Use the [**MAKELCID**](/windows/desktop/api/winnt/nf-winnt-makelcid) macro to construct a locale identifier.
 
 ## Requirements
 
@@ -72,10 +72,4 @@ Use the [**MAKELCID**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-w
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

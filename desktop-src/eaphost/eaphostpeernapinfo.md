@@ -48,20 +48,20 @@ An [**ISOLATION\_STATE**](/windows/desktop/api/eaphostpeertypes/ne-eaphostpeerty
 **probationTime**
 </dt> <dd>
 
-A **ProbationTime** structure that specifies the time required for the connection to come out of quarantine after which the connection will be dropped. A **ProbationTime** structure is identical to a [FILETIME](https://docs.microsoft.com/windows/win32/api/minwinbase/ns-minwinbase-filetime?redirectedfrom=MSDN) structure.
+A **ProbationTime** structure that specifies the time required for the connection to come out of quarantine after which the connection will be dropped. A **ProbationTime** structure is identical to a [FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime) structure.
 
 </dd> <dt>
 
 **stringCorrelationIdLength**
 </dt> <dd>
 
-The length, in bytes, of the NAP [stringCorrelationId](https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes) that follows this structure.
+The length, in bytes, of the NAP [stringCorrelationId](/windows/desktop/NAP/nap-datatypes) that follows this structure.
 
 </dd> </dl>
 
 ## Remarks
 
-The **EapHostPeerNapInfo** structure precedes the NAP [stringCorrelationId](https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes) of data type **WCHAR** in the RPC byte stream.
+The **EapHostPeerNapInfo** structure precedes the NAP [stringCorrelationId](/windows/desktop/NAP/nap-datatypes) of data type **WCHAR** in the RPC byte stream.
 
 ## Requirements
 
@@ -89,10 +89,4 @@ The **EapHostPeerNapInfo** structure precedes the NAP [stringCorrelationId](http
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

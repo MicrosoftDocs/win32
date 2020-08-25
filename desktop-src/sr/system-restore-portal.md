@@ -46,14 +46,8 @@ The System Restore API is supported on client operating systems starting with Wi
 
 <dl> <dt>
 
-[WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-start-page)
+[WMI](/windows/desktop/WmiSdk/wmi-start-page)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

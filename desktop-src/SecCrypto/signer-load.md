@@ -17,7 +17,7 @@ api_location:
 
 # Signer.Load method
 
-\[The **Load** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsSigner Class**](https://msdn.microsoft.com/library/5x3db70t(v=VS.90).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.100).aspx) namespace.\]
+\[The **Load** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsSigner Class**](/dotnet/api/system.security.cryptography.pkcs.cmssigner?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
 
 The **Load** method loads a signing certificate from a specified .pfx file.
 
@@ -47,7 +47,7 @@ Name of the .pfx file that contains the signing certificate.
 *Password* \[optional\]
 </dt> <dd>
 
-String containing the plaintext password used to open the file. Up to 32 Unicode characters, including a terminating null character, can be used for the password. The default value is an empty string (""). For information about protecting the password, see [Handling Passwords](https://msdn.microsoft.com/library/ms717799(v=VS.85).aspx).
+String containing the plaintext password used to open the file. Up to 32 Unicode characters, including a terminating null character, can be used for the password. The default value is an empty string (""). For information about protecting the password, see [Handling Passwords](../secbp/handling-passwords.md).
 
 </dd> </dl>
 
@@ -82,7 +82,3 @@ This method raises CAPICOM\_E\_NOT\_ALLOWED when it is scripted from a web-based
  
 
  
-
-
-
-

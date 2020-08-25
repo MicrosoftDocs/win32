@@ -48,7 +48,7 @@ For a C++ application, these two dimensions correspond directly to the Width and
 
 Whatever formula you decide to use, be sure to set Zₙ to as large a value as possible, because z-values extremely close to the camera don't vary by much. This makes depth comparisons using 16-bit z-buffers somewhat complicated.
 
-As with the world and view transformations, you call the [**IDirect3DDevice9::SetTransform**](https://msdn.microsoft.com/library/Bb174463(v=VS.85).aspx) method to set the projection transform.
+As with the world and view transformations, you call the [**IDirect3DDevice9::SetTransform**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settransform) method to set the projection transform.
 
 ## Setting Up a Projection Matrix
 
@@ -86,7 +86,7 @@ ProjectionMatrix(const float near_plane, // Distance to near clipping
 
 
 
-After creating the matrix, set it with [**IDirect3DDevice9::SetTransform**](https://msdn.microsoft.com/library/Bb174463(v=VS.85).aspx) specifying D3DTS\_PROJECTION.
+After creating the matrix, set it with [**IDirect3DDevice9::SetTransform**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settransform) specifying D3DTS\_PROJECTION.
 
 The D3DX utility library provides the following functions to help you set up your projection matrix.
 
@@ -119,6 +119,3 @@ Direct3D uses the currently set projection matrix in its w-based depth calculati
  
 
  
-
-
-

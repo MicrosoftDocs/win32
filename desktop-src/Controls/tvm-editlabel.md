@@ -46,7 +46,7 @@ This message sends a [TVN\_BEGINLABELEDIT](tvn-beginlabeledit.md) notification c
 
 When the user completes or cancels editing, the edit control is destroyed and the handle is no longer valid. You can subclass the edit control, but do not destroy it.
 
-The control must have the focus before you send this message to the control. Focus can be set using the [**SetFocus**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setfocus) function.
+The control must have the focus before you send this message to the control. Focus can be set using the [**SetFocus**](/windows/desktop/api/winuser/nf-winuser-setfocus) function.
 
 ## Requirements
 
@@ -62,10 +62,4 @@ The control must have the focus before you send this message to the control. Foc
 
 
  
-
- 
-
-
-
-
 

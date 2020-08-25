@@ -48,4 +48,4 @@ The following illustration shows a default thumbnail transformed into a customiz
 
 [Desktop Window Manager](dwm-overview.md)
 
-[Windows Development](https://docs.microsoft.com/windows/desktop/win32-and-com-development)
+[Windows Development](/windows/desktop/win32-and-com-development)

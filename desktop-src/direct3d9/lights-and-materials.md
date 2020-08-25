@@ -27,9 +27,9 @@ How you work with lighting and materials makes a big difference in the appearanc
 
 Although both direct and ambient light illuminate objects in a scene, they are independent of one another, they have very different effects, and they require that you work with them in completely different ways.
 
-Direct light is just that: direct. Direct light always has direction and color, and it is a factor for shading algorithms, such as Gouraud shading. Different types of lights emit direct light in different ways, creating special attenuation effects. You create a set of light parameters for direct light by calling the [**IDirect3DDevice9::SetLight**](https://msdn.microsoft.com/library/Bb174436(v=VS.85).aspx) method.
+Direct light is just that: direct. Direct light always has direction and color, and it is a factor for shading algorithms, such as Gouraud shading. Different types of lights emit direct light in different ways, creating special attenuation effects. You create a set of light parameters for direct light by calling the [**IDirect3DDevice9::SetLight**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setlight) method.
 
-Ambient light is effectively everywhere in a scene. You can think of it as a general level of light that fills an entire scene, regardless of the objects and their locations in that scene. Ambient light has no position or direction, only color and intensity. Each light adds to the overall ambient light in a scene. Set the ambient light level with a call to the [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx) method, specifying D3DRS\_AMBIENT as the *State* parameter, and the desired RGBA color as the Value parameter.
+Ambient light is effectively everywhere in a scene. You can think of it as a general level of light that fills an entire scene, regardless of the objects and their locations in that scene. Ambient light has no position or direction, only color and intensity. Each light adds to the overall ambient light in a scene. Set the ambient light level with a call to the [**IDirect3DDevice9::SetRenderState**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setrenderstate) method, specifying D3DRS\_AMBIENT as the *State* parameter, and the desired RGBA color as the Value parameter.
 
 Ambient light color takes the form of an RGBA value, where each component is an integer value from 0 to 255. This is unlike most color values in Direct3D.
 
@@ -69,6 +69,3 @@ Additional information is contained in: [Light Types (Direct3D 9)](light-types.m
  
 
  
-
-
-

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Example Code for Creating a Container Object
 
-The following code example creates two objects. First, a container object and, second, a sub-container object. A value for the sub-container object is added to the [**otherWellKnownObjects**](https://docs.microsoft.com/windows/desktop/ADSchema/a-otherwellknownobjects) property of the container object. The code example binds to the sub-container object using the WKGUID binding and displays its ADsPath. It then renames the sub-container object and binds again using the same WKGUID binding.
+The following code example creates two objects. First, a container object and, second, a sub-container object. A value for the sub-container object is added to the [**otherWellKnownObjects**](/windows/desktop/ADSchema/a-otherwellknownobjects) property of the container object. The code example binds to the sub-container object using the WKGUID binding and displays its ADsPath. It then renames the sub-container object and binds again using the same WKGUID binding.
 
 
 ```C++
@@ -300,7 +300,3 @@ HRESULT AddValueToOtherWKOProperty(IADs *pads,
  
 
  
-
-
-
-

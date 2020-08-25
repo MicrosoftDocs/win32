@@ -22,7 +22,7 @@ An application implements this interface to handle callbacks in animation sets g
 
 ## Members
 
-The **ID3DXAnimationCallbackHandler** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXAnimationCallbackHandler** also has these types of members:
+The **ID3DXAnimationCallbackHandler** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DXAnimationCallbackHandler** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -73,7 +73,3 @@ typedef interface ID3DXAnimationCallbackHandler *LPD3DXANIMATIONCALLBACKHANDLER;
  
 
  
-
-
-
-

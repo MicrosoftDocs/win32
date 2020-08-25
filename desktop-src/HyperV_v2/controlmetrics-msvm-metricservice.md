@@ -39,7 +39,7 @@ uint32 ControlMetrics(
 *Subject* \[in\]
 </dt> <dd>
 
-A [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement) instance that identifies the managed elements for which metrics will be collected. If this parameter is **Null**, the metrics for all the managed elements associated with the *Definition* parameter will be collected.
+A [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement) instance that identifies the managed elements for which metrics will be collected. If this parameter is **Null**, the metrics for all the managed elements associated with the *Definition* parameter will be collected.
 
 </dd> <dt>
 
@@ -155,9 +155,4 @@ This method will fail in the following instances:
 </dt> </dl>
 
  
-
- 
-
-
-
 

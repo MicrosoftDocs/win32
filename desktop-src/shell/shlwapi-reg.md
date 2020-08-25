@@ -22,7 +22,7 @@ This section describes the Windows Shell registry handling functions. The progra
 
 | Topic                                                             | Description                                                                                                                                                                         |
 |-------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AssocCreate**](/windows/desktop/api/Shlwapi/nf-shlwapi-assoccreate)<br/>                     | Returns a pointer to an [**IQueryAssociations**](https://msdn.microsoft.com/library/Bb761400(v=VS.85).aspx) object.<br/>                                                                                         |
+| [**AssocCreate**](/windows/desktop/api/Shlwapi/nf-shlwapi-assoccreate)<br/>                     | Returns a pointer to an [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) object.<br/>                                                                                         |
 | [**AssocGetPerceivedType**](/windows/desktop/api/Shlwapi/nf-shlwapi-assocgetperceivedtype)<br/> | Retrieves a file's perceived type based on its extension.<br/>                                                                                                                |
 | [**AssocIsDangerous**](/windows/desktop/api/Shlwapi/nf-shlwapi-associsdangerous)<br/>           | Determines whether a file type is considered a potential security risk.<br/>                                                                                                  |
 | [**AssocQueryKey**](/windows/desktop/api/Shlwapi/nf-shlwapi-assocquerykeya)<br/>                 | Searches for and retrieves a key related to a file or protocol association from the registry.<br/>                                                                            |
@@ -34,7 +34,7 @@ This section describes the Windows Shell registry handling functions. The progra
 | [**SHDeleteValue**](/windows/desktop/api/Shlwapi/nf-shlwapi-shdeletevaluea)<br/>                 | Deletes a named value from the specified registry key.<br/>                                                                                                                   |
 | [**SHEnumKeyEx**](/windows/desktop/api/Shlwapi/nf-shlwapi-shenumkeyexa)<br/>                     | Enumerates the subkeys of the specified open registry key.<br/>                                                                                                               |
 | [**SHEnumValue**](/windows/desktop/api/Shlwapi/nf-shlwapi-shenumvaluea)<br/>                     | Enumerates the values of the specified open registry key.<br/>                                                                                                                |
-| [**SHGetAssocKeys**](/windows/desktop/api/Shlwapi/nf-shlwapi-shgetassockeys)<br/>               | Retrieves an array of class subkeys associated with an [**IQueryAssociations**](https://msdn.microsoft.com/library/Bb761400(v=VS.85).aspx) object.<br/>                                                          |
+| [**SHGetAssocKeys**](/windows/desktop/api/Shlwapi/nf-shlwapi-shgetassockeys)<br/>               | Retrieves an array of class subkeys associated with an [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) object.<br/>                                                          |
 | [**SHGetValue**](/windows/desktop/api/Shlwapi/nf-shlwapi-shgetvaluea)<br/>                       | Retrieves a registry value.<br/>                                                                                                                                              |
 | [**SHOpenRegStream2**](/windows/desktop/api/Shlwapi/nf-shlwapi-shopenregstream2a)<br/>           | Opens a registry value and supplies a stream that can be used to read from or write to the value. This function supersedes [**SHOpenRegStream**](/windows/desktop/api/Shlwapi/nf-shlwapi-shopenregstreama).<br/>   |
 | [**SHQueryInfoKey**](/windows/desktop/api/Shlwapi/nf-shlwapi-shqueryinfokeya)<br/>               | Retrieves information about a specified registry key.<br/>                                                                                                                    |
@@ -55,7 +55,7 @@ This section describes the Windows Shell registry handling functions. The progra
 | [**SHRegQueryUSValue**](/windows/desktop/api/Shlwapi/nf-shlwapi-shregqueryusvaluea)<br/>         | Retrieves the type and data for a specified name associated with an open registry subkey in a user-specific subtree (HKEY\_CURRENT\_USER or HKEY\_LOCAL\_MACHINE).<br/>       |
 | [**SHRegSetPath**](/windows/desktop/api/Shlwapi/nf-shlwapi-shregsetpatha)<br/>                   | Takes a file path, replaces folder names with environment strings, and places the resulting string in the registry.<br/>                                                      |
 | [**SHRegSetUSValue**](/windows/desktop/api/Shlwapi/nf-shlwapi-shregsetusvaluea)<br/>             | Sets a registry subkey value in a user-specific subtree (HKEY\_CURRENT\_USER or HKEY\_LOCAL\_MACHINE).<br/>                                                                   |
-| [**SHRegSetValue**](/windows/desktop/api/shlwapi/nf-shlwapi-shregsetvalue)<br/>                 | Sets a registry value.<br/> Use [**RegSetValue**](https://msdn.microsoft.com/library/ms724922(v=VS.85).aspx) in its place.<br/>                                                                                  |
+| [**SHRegSetValue**](/windows/desktop/api/shlwapi/nf-shlwapi-shregsetvalue)<br/>                 | Sets a registry value.<br/> Use [**RegSetValue**](/windows/win32/api/winreg/nf-winreg-regsetvaluea) in its place.<br/>                                                                                  |
 | [**SHRegWriteUSValue**](/windows/desktop/api/Shlwapi/nf-shlwapi-shregwriteusvaluea)<br/>         | Writes a value to a registry subkey in a user-specific subtree (HKEY\_CURRENT\_USER or HKEY\_LOCAL\_MACHINE).<br/>                                                            |
 | [**SHSetValue**](/windows/desktop/api/Shlwapi/nf-shlwapi-shsetvaluea)<br/>                       | Sets the value of a registry key.<br/>                                                                                                                                        |
 
@@ -66,7 +66,3 @@ This section describes the Windows Shell registry handling functions. The progra
  
 
  
-
-
-
-

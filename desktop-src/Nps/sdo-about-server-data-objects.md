@@ -13,13 +13,9 @@ ms.date: 05/31/2018
 
 The following sections provide an overview of the Server Data Objects (SDO) API.
 
--   [Elements of the SDO API](https://docs.microsoft.com/windows/desktop/Nps/sdo-elements-of-the-sdo-api)
--   [Order in Which to Use the SDO API](https://docs.microsoft.com/windows/desktop/Nps/sdo-order-in-which-to-use-the-sdo-api)
+-   [Elements of the SDO API](/windows/desktop/Nps/sdo-elements-of-the-sdo-api)
+-   [Order in Which to Use the SDO API](/windows/desktop/Nps/sdo-order-in-which-to-use-the-sdo-api)
 
  
 
  
-
-
-
-

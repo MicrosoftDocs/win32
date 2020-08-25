@@ -55,14 +55,8 @@ The Control Panel also provides a Default Location page to enable users to provi
 
 ## Related topics
 
-<dl> <dt>
-
 [About the Sensor API](about-the-sensor-api.md)
-</dt> </dl>
 
- 
+[Windows Hardware Developer Central Web site](https://www.microsoft.com/whdc/device/sensors/default.mspx)
 
- 
-
-
-
+[Windows Developer Center](https://msdn.microsoft.com/windows/default.aspx?wt.svl=client)

@@ -14,11 +14,11 @@ To share data, multiple processes can use memory-mapped files that the system pa
 
 The first process creates the file mapping object by calling the [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) function with **INVALID\_HANDLE\_VALUE** and a name for the object. By using the **PAGE\_READWRITE** flag, the process has read/write permission to the memory through any file views that are created.
 
-Then the process uses the file mapping object handle that [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) returns in a call to [**MapViewOfFile**](https://msdn.microsoft.com/library/Aa366761(v=VS.85).aspx) to create a view of the file in the process address space. The **MapViewOfFile** function returns a pointer to the file view, `pBuf`. The process then uses the [**CopyMemory**](https://msdn.microsoft.com/library/Aa366535(v=VS.85).aspx) function to write a string to the view that can be accessed by other processes.
+Then the process uses the file mapping object handle that [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) returns in a call to [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) to create a view of the file in the process address space. The **MapViewOfFile** function returns a pointer to the file view, `pBuf`. The process then uses the [**CopyMemory**](/previous-versions/windows/desktop/legacy/aa366535(v=vs.85)) function to write a string to the view that can be accessed by other processes.
 
-Prefixing the file mapping object names with "Global\\" allows processes to communicate with each other even if they are in different terminal server sessions. This requires that the first process must have the [**SeCreateGlobalPrivilege**](https://msdn.microsoft.com/library/Bb530716(v=VS.85).aspx) privilege.
+Prefixing the file mapping object names with "Global\\" allows processes to communicate with each other even if they are in different terminal server sessions. This requires that the first process must have the [**SeCreateGlobalPrivilege**](../secauthz/privilege-constants.md) privilege.
 
-When the process no longer needs access to the file mapping object, it should call the [**CloseHandle**](https://msdn.microsoft.com/library/ms724211(v=VS.85).aspx) function. When all handles are closed, the system can free the section of the paging file that the object uses.
+When the process no longer needs access to the file mapping object, it should call the [**CloseHandle**](/windows/win32/api/handleapi/nf-handleapi-closehandle) function. When all handles are closed, the system can free the section of the paging file that the object uses.
 
 
 ```C++
@@ -82,7 +82,7 @@ int _tmain()
 
 ## Second Process
 
-A second process can access the string written to the shared memory by the first process by calling the [**OpenFileMapping**](/windows/desktop/api/WinBase/nf-winbase-openfilemappinga) function specifying the same name for the mapping object as the first process. Then it can use the [**MapViewOfFile**](https://msdn.microsoft.com/library/Aa366761(v=VS.85).aspx) function to obtain a pointer to the file view, `pBuf`. The process can display this string as it would any other string. In this example, the message box displayed contains the message "Message from first process" that was written by the first process.
+A second process can access the string written to the shared memory by the first process by calling the [**OpenFileMapping**](/windows/desktop/api/WinBase/nf-winbase-openfilemappinga) function specifying the same name for the mapping object as the first process. Then it can use the [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) function to obtain a pointer to the file view, `pBuf`. The process can display this string as it would any other string. In this example, the message box displayed contains the message "Message from first process" that was written by the first process.
 
 
 ```C++
@@ -150,6 +150,3 @@ int _tmain()
  
 
  
-
-
-

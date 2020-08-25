@@ -17,7 +17,7 @@ The DEVINTERFACE\_XXX GUIDs are used to represent the GUIDs for device interface
 
 
 
-Specifies the query string used to enumerate all audio capture devices on the system. This value is returned by [**MediaDevice::GetAudioCaptureSelector**](https://docs.microsoft.com/uwp/api/windows.media.devices.mediadevice.getaudiocaptureselector).
+Specifies the query string used to enumerate all audio capture devices on the system. This value is returned by [**MediaDevice::GetAudioCaptureSelector**](/uwp/api/windows.media.devices.mediadevice.getaudiocaptureselector).
 
 Passing this value to [**ActivateAudioInterfaceAsync**](/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync) activates the requested interface on the default audio capture device.
 
@@ -29,7 +29,7 @@ Passing this value to [**ActivateAudioInterfaceAsync**](/windows/desktop/api/mmd
 
 
 
-Specifies the query string used to enumerate all audio render devices on the system. This value is returned by [**MediaDevice::GetAudioRenderSelector**](https://docs.microsoft.com/uwp/api/windows.media.devices.mediadevice.getaudiorenderselector).
+Specifies the query string used to enumerate all audio render devices on the system. This value is returned by [**MediaDevice::GetAudioRenderSelector**](/uwp/api/windows.media.devices.mediadevice.getaudiorenderselector).
 
 Passing this value to [**ActivateAudioInterfaceAsync**](/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync) activates the requested interface on the default audio render device.
 
@@ -41,7 +41,7 @@ Passing this value to [**ActivateAudioInterfaceAsync**](/windows/desktop/api/mmd
 
 
 
-Specifies the query string used to enumerate all [**MidiInPort**](https://docs.microsoft.com/uwp/api/Windows.Devices.Midi.MidiInPort) objects on the system. This value is returned by [**MidiInPort::GetDeviceSelector**](https://docs.microsoft.com/uwp/api/windows.devices.midi.midiinport.getdeviceselector).
+Specifies the query string used to enumerate all [**MidiInPort**](/uwp/api/Windows.Devices.Midi.MidiInPort) objects on the system. This value is returned by [**MidiInPort::GetDeviceSelector**](/uwp/api/windows.devices.midi.midiinport.getdeviceselector).
 
 
 </dt> </dl> </dd> <dt>
@@ -51,7 +51,7 @@ Specifies the query string used to enumerate all [**MidiInPort**](https://docs.m
 
 
 
-Specifies the query string used to enumerate all [**MidiOutPort**](https://docs.microsoft.com/uwp/api/Windows.Devices.Midi.MidiOutPort) objects on the system. This value is returned by [**MidiOutPort::GetDeviceSelector**](https://docs.microsoft.com/uwp/api/windows.devices.midi.midioutport.getdeviceselector).
+Specifies the query string used to enumerate all [**MidiOutPort**](/uwp/api/Windows.Devices.Midi.MidiOutPort) objects on the system. This value is returned by [**MidiOutPort::GetDeviceSelector**](/uwp/api/windows.devices.midi.midioutport.getdeviceselector).
 
 
 </dt> </dl> </dd> </dl>
@@ -67,9 +67,4 @@ Specifies the query string used to enumerate all [**MidiOutPort**](https://docs.
 
 
  
-
- 
-
-
-
 

@@ -35,13 +35,10 @@ Default media type monitoring is performed for the media types for which the lin
 
 An application can obtain device identifiers for various device classes associated with an opened line by calling [**lineGetID**](/windows/desktop/api/Tapi/nf-tapi-linegetid). This function takes a line handle, address, or call handle and a device class description. It returns the device identifier for the device of the given device class that is associated with the open line device, address, or call. If the device class is "tapi/line," then the device identifier of the line device is returned. If the device class is "mci/wave," then the device identifier of an mci waveaudio device is returned (if supported), which allows activities such as the recording or playback of audio over the call on the line.
 
-The application can use the returned device identifier with the corresponding media API to query the device's capabilities and subsequently open the media device. For example, if your application needs to use the line as a waveform device, it must first call [**waveInGetDevCaps**](https://msdn.microsoft.com/library/Dd743841(v=VS.85).aspx) and/or [**waveOutGetDevCaps**](https://msdn.microsoft.com/library/Dd743857(v=VS.85).aspx) to determine the waveform capabilities of the device. The typical waveform data format supported by telephony in North America is 8-bit m-law at 8000 samples per second, although the wave device driver can convert this sample rate and companding to other more common multimedia audio formats.
+The application can use the returned device identifier with the corresponding media API to query the device's capabilities and subsequently open the media device. For example, if your application needs to use the line as a waveform device, it must first call [**waveInGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-waveingetdevcaps) and/or [**waveOutGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgetdevcaps) to determine the waveform capabilities of the device. The typical waveform data format supported by telephony in North America is 8-bit m-law at 8000 samples per second, although the wave device driver can convert this sample rate and companding to other more common multimedia audio formats.
 
-To subsequently open a line device for audio playback using the waveform API, an application calls [**waveOutOpen**](https://msdn.microsoft.com/library/Dd743866(v=VS.85).aspx). The implementation of **waveOutOpen** is device specific, and there are a variety of options for implementing this function.
-
- 
+To subsequently open a line device for audio playback using the waveform API, an application calls [**waveOutOpen**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutopen). The implementation of **waveOutOpen** is device specific, and there are a variety of options for implementing this function.
 
  
 
-
-
+ 

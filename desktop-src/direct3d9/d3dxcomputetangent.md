@@ -52,7 +52,7 @@ Pointer to an [**ID3DXMesh**](id3dxmesh.md) interface that represent the input m
 *TexStageIndex* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Index that represents the texture stage.
 
@@ -61,7 +61,7 @@ Index that represents the texture stage.
 *TangentIndex* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Index that provides the usage index for the tangent data. The vertex declaration implies the usage; this index modifies the usage with the usage index. For more information about a vertex declaration, see [Vertex Declaration (Direct3D 9)](vertex-declaration.md).
 
@@ -70,7 +70,7 @@ Index that provides the usage index for the tangent data. The vertex declaration
 *BinormIndex* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Index that provides the usage index for the binormal data. The vertex declaration implies the usage; this index modifies the usage with the usage index. For more information about a vertex declaration, see [Vertex Declaration (Direct3D 9)](vertex-declaration.md).
 
@@ -79,7 +79,7 @@ Index that provides the usage index for the binormal data. The vertex declaratio
 *Wrap* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Set this value to 0 for no wrapping, or to 1 for wrapping in the U and V directions.
 
@@ -88,7 +88,7 @@ Set this value to 0 for no wrapping, or to 1 for wrapping in the U and V directi
 *pAdjacency* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of three DWORDs per face to be filled with adjacent face indices. The number of bytes in this array must be at least ((3 \* [**GetNumFaces**](id3dxbasemesh--getnumfaces.md)) \* sizeof(DWORD)).
 
@@ -156,7 +156,3 @@ D3DXComputeTangentFrameEx( Mesh,
  
 
  
-
-
-
-

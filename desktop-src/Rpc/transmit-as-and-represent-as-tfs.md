@@ -33,7 +33,7 @@ The flag nibble can have the following flags:
 #define PRESENTED_TYPE_ALIGN_8      0x40
 ```
 
-The PRESENTED\_TYPE\_IS\_ARRAY flag marks a top-level transmit as (or represent as) argument being an array of something and passed-by value. The [**–Oi**](https://docs.microsoft.com/windows/desktop/Midl/-oi) interpreter uses this flag to step over such an argument (which is actually a pointer on stack, not the array). The other two flags are also used only in previous interpreters to step correctly over a presented type on the stack.
+The PRESENTED\_TYPE\_IS\_ARRAY flag marks a top-level transmit as (or represent as) argument being an array of something and passed-by value. The [**–Oi**](/windows/desktop/Midl/-oi) interpreter uses this flag to step over such an argument (which is actually a pointer on stack, not the array). The other two flags are also used only in previous interpreters to step correctly over a presented type on the stack.
 
 The quintuple\_index<2> is an index of the callback routine quintuple (this is actually a quadruple) of functions. The table is common to both transmit as and represent as and there is an obvious mapping for the position of the routines, as the same entry points service transmit as and represent as codes. The mapping is from\_local => to\_xmit, to\_local => from\_xmit, free\_inst => free\_xmit, free\_local => free\_inst.
 
@@ -46,7 +46,3 @@ The transmitted\_type\_offset<2> is the usual relative type offset to the transm
  
 
  
-
-
-
-

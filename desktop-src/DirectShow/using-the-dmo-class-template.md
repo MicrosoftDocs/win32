@@ -131,10 +131,10 @@ For the remaining **IMediaObject** methods, there is not a one-to-one correspond
 | **GetInputCurrentType**               | Fully implemented                                                                |
 | **GetOutputCurrentType**              | Fully implemented                                                                |
 | **GetStreamCount**                    | Fully implemented                                                                |
-| **GetInputStatus**                    | [**InternalAcceptingInput**](https://msdn.microsoft.com/library/Dd406931(v=VS.85).aspx)        |
-| **Lock** (implemented as **DMOLock**) | [**Lock**](https://msdn.microsoft.com/library/Dd406934(v=VS.85).aspx), [**Unlock**](https://msdn.microsoft.com/library/Dd406938(v=VS.85).aspx) |
-| **SetInputType**                      | [**InternalCheckInputType**](https://msdn.microsoft.com/library/Dd406932(v=VS.85).aspx)        |
-| **SetOutputType**                     | [**InternalCheckOutputType**](https://msdn.microsoft.com/library/Dd406933(v=VS.85).aspx)      |
+| **GetInputStatus**                    | [**InternalAcceptingInput**](/previous-versions/ms809095(v=msdn.10))        |
+| **Lock** (implemented as **DMOLock**) | [**Lock**](/previous-versions/ms809100(v=msdn.10)), [**Unlock**](/previous-versions/ms809101(v=msdn.10)) |
+| **SetInputType**                      | [**InternalCheckInputType**](/previous-versions/ms809096(v=msdn.10))        |
+| **SetOutputType**                     | [**InternalCheckOutputType**](/previous-versions/ms809098(v=msdn.10))      |
 
 
 
@@ -153,6 +153,3 @@ For the remaining **IMediaObject** methods, there is not a one-to-one correspond
  
 
  
-
-
-

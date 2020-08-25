@@ -34,7 +34,7 @@ Not used. Must be zero.
 *lParam* \[in\]
 </dt> <dd>
 
-A pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure to receive the bounding rectangle information. The message sender is responsible for allocating this structure. The coordinates returned in the **RECT** structure are expressed as screen coordinates.
+A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure to receive the bounding rectangle information. The message sender is responsible for allocating this structure. The coordinates returned in the **RECT** structure are expressed as screen coordinates.
 
 </dd> </dl>
 
@@ -66,10 +66,4 @@ The header control must have style **HDF\_SPLITBUTTON**.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

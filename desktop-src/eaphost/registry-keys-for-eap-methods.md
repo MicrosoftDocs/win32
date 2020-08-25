@@ -1,6 +1,6 @@
 ---
 title: Configuring Registry Values for EAP Methods
-description: Configuring Registry Values for EAP Methods
+description: Learn about configuring registry values for EAP peer and EAP authentication methods. See a list of topics and view additional available resources.
 ms.assetid: 1022cfa6-2e12-40e7-b5d6-bb60a4d787be
 ms.topic: reference
 ms.date: 05/31/2018
@@ -20,7 +20,7 @@ The registry values required for EAP peer methods and EAP authentication methods
 [Using EAPHost](using-eap-host.md)
 </dt> <dt>
 
-[RFC 3748](Http://go.microsoft.com/fwlink/p/?linkid=84016)
+[RFC 3748](https://go.microsoft.com/fwlink/p/?linkid=84016)
 </dt> </dl>
 
  

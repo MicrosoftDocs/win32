@@ -16,7 +16,7 @@ HRESULT SetVoice(
 );
 ```
 
-Sets the [**Voice**](voice-property.md) property for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
+Sets the [**Voice**](voice-property.md) property for a [**Command**](/windows/desktop/lwef/the-command-object).
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,11 +25,11 @@ Sets the [**Voice**](voice-property.md) property for a [**Command**](https://doc
 <span id="bszVoice"></span><span id="bszvoice"></span><span id="BSZVOICE"></span>*bszVoice*
 </dt> <dd>
 
-A BSTR that specifies the text for the [**Voice**](voice-property.md) property of a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
+A BSTR that specifies the text for the [**Voice**](voice-property.md) property of a [**Command**](/windows/desktop/lwef/the-command-object).
 
 </dd> </dl>
 
-A [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) must have its [**Voice**](voice-property.md) property and [**Enabled**](enabled-property.md) property set to be voice-accessible. It also must have its [**VoiceCaption**](voicecaption-property.md) property set to appear in the **Voice Commands Window**. (For backward compatibility, if there is no **VoiceCaption**, the [**Caption**](caption-property.md) setting is used.)
+A [**Command**](/windows/desktop/lwef/the-command-object) must have its [**Voice**](voice-property.md) property and [**Enabled**](enabled-property.md) property set to be voice-accessible. It also must have its [**VoiceCaption**](voicecaption-property.md) property set to appear in the **Voice Commands Window**. (For backward compatibility, if there is no **VoiceCaption**, the [**Caption**](caption-property.md) setting is used.)
 
 The BSTR expression you supply can include square bracket characters (\[ \]) to indicate optional words and vertical bar characters (\|) to indicate alternative strings. Alternates must be enclosed in parentheses. For example, "(hello \[there\] \| hi)" tells the speech engine to accept "hello," "hello there," or "hi" for the command. Remember to include appropriate spaces between the text that's in brackets or parentheses and the text that's not in brackets or parentheses.
 
@@ -70,7 +70,7 @@ You can also use an ellipsis (...) to support *word spotting*, that is, telling 
 
 When defining the words and grammar for your command, always make sure that you include at least one word that is required; that is, avoid supplying only optional words. In addition, make sure that the word includes only pronounceable words and letters. For numbers, it is better to spell out the word rather than using the numeric representation. Also, omit any punctuation or symbols. For example, instead of "the \#1 $10 pizza!", use "the number one ten dollar pizza". Including non-pronounceable characters or symbols for one command may cause the speech engine to fail to compile the grammar for all your commands. Finally, make your voice parameter as distinct as reasonably possible from other voice commands you define. The greater the similarity between the voice grammar for commands, the more likely the speech engine will make a recognition error. You can also use the confidence scores to better distinguish between two commands that may have similar or similar-sounding voice grammar.
 
-Setting the [**Voice**](voice-property.md) property for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) automatically enables Agent's speech services, making the Listening key and Listening Tip available. However, it does not load the speech recognition engine.
+Setting the [**Voice**](voice-property.md) property for a [**Command**](/windows/desktop/lwef/the-command-object) automatically enables Agent's speech services, making the Listening key and Listening Tip available. However, it does not load the speech recognition engine.
 
 > [!Note]  
 > The grammar features available may depend on the speech recognition engine. You may want to check with the engine's vendor to determine what grammar options are supported. Use [**IAgentCharacterEx::SRModeID**](https://www.bing.com/search?q=**IAgentCharacterEx::SRModeID**) to specify an engine.
@@ -85,7 +85,3 @@ Setting the [**Voice**](voice-property.md) property for a [**Command**](https://
  
 
  
-
-
-
-

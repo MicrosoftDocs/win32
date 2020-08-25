@@ -14,7 +14,7 @@ Because the client is managing its connection to the server, the client applicat
 
 In the call to [**RpcStringBindingCompose**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcstringbindingcompose), the parameters do not specify the UUID because this tutorial assumes there is just one implementation of the interface "hello." In addition, the call does not specify a network address because the application will use the default, which is the local host machine. The protocol sequence is a character string that represents the underlying network transport. The endpoint is a name which is specific to the protocol sequence. This example uses named pipes for its network transport, so the protocol sequence is "ncacn\_np". The endpoint name is "\\pipe\\hello".
 
-The actual remote procedure calls, **HelloProc** and **Shutdown**, take place within the RPC exception handler—a set of macros that let you control exceptions that occur outside the application code. If the RPC run-time module reports an exception, control passes to the [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept) block. This is where you would insert code to do any needed cleanup and then exit gracefully. This example program simply informs the user that an exception occurred. If you do not want to use exceptions, you can use the ACF attributes [comm\_status](https://docs.microsoft.com/windows/desktop/Midl/comm-status) and [fault\_status](https://docs.microsoft.com/windows/desktop/Midl/fault-status) to report errors.
+The actual remote procedure calls, **HelloProc** and **Shutdown**, take place within the RPC exception handler—a set of macros that let you control exceptions that occur outside the application code. If the RPC run-time module reports an exception, control passes to the [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept) block. This is where you would insert code to do any needed cleanup and then exit gracefully. This example program simply informs the user that an exception occurred. If you do not want to use exceptions, you can use the ACF attributes [comm\_status](/windows/desktop/Midl/comm-status) and [fault\_status](/windows/desktop/Midl/fault-status) to report errors.
 
 After the remote procedure calls are completed, the client first calls [**RpcStringFree**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcstringfree) to free the memory that was allocated for the string binding. Note that once the binding handle has been created, a client program can free a string binding at any time. The client next calls [**RpcBindingFree**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfree) to release the handle.
 
@@ -94,7 +94,3 @@ void __RPC_USER midl_user_free(void __RPC_FAR * ptr)
  
 
  
-
-
-
-

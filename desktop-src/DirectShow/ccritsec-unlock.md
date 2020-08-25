@@ -41,7 +41,7 @@ This method does not return a value.
 
 ## Remarks
 
-This method calls the [**LeaveCriticalSection**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-leavecriticalsection) function. Call this method once for each call to the [**CCritSec::Lock**](ccritsec-lock.md) method.
+This method calls the [**LeaveCriticalSection**](/windows/desktop/api/synchapi/nf-synchapi-leavecriticalsection) function. Call this method once for each call to the [**CCritSec::Lock**](ccritsec-lock.md) method.
 
 ## Requirements
 
@@ -62,9 +62,4 @@ This method calls the [**LeaveCriticalSection**](https://docs.microsoft.com/wind
 </dt> </dl>
 
  
-
- 
-
-
-
 

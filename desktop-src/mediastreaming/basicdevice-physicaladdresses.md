@@ -42,13 +42,9 @@ An enumerable collection of pointers to physical addresses.
 
 <dl> <dt>
 
-[**BasicDevice**](https://msdn.microsoft.com/library/Hh828813(v=VS.85).aspx)
+[**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -79,17 +79,17 @@ WARP allows you to access all Direct3D 10 and later graphics features even on co
 WARP fully supports all Direct3D 10 and 10.1 features. For example, WARP supports the following most important features:
 
 -   All the precision requirements of the Direct3D 10 and 10.1 specification
--   Direct3D 11 when used with feature levels 9\_1, 9\_2, 9\_3, 10\_0, and 10\_1 (for more information about feature levels, see [**D3D\_FEATURE\_LEVEL**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level))
+-   Direct3D 11 when used with feature levels 9\_1, 9\_2, 9\_3, 10\_0, and 10\_1 (for more information about feature levels, see [**D3D\_FEATURE\_LEVEL**](/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level))
 -   All optional texture formats, such as multisample render targets and sampling from float surfaces
 -   Antialiased, high quality rendering up to 8x multisample antialiasing (MSAA)
 -   Anisotropic filtering
 -   32-bit and 64-bit applications and large address aware 32-bit applications
 
-When you install the [Platform Update for Windows 7](https://support.microsoft.com/kb/2670838) on Windows 7 SP1 or Windows Server 2008 R2 SP1, that operating system then includes the Direct3D 11.1 runtime and a version of WARP that supports Direct3D 11.x when used with [feature levels](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9\_1, 9\_2, 9\_3, 10\_0, 10\_1, and 11\_0.
+When you install the [Platform Update for Windows 7](https://support.microsoft.com/kb/2670838) on Windows 7 SP1 or Windows Server 2008 R2 SP1, that operating system then includes the Direct3D 11.1 runtime and a version of WARP that supports Direct3D 11.x when used with [feature levels](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9\_1, 9\_2, 9\_3, 10\_0, 10\_1, and 11\_0.
 
-Windows 8, Windows 10, Windows Server 2012 & above, and Windows RT include the Direct3D 11.1 runtime and a new version of WARP. This version supports Direct3D 11.x when used with [feature levels](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9\_1, 9\_2, 9\_3, 10\_0, 10\_1, 11\_0, and 11\_1.
+Windows 8, Windows 10, Windows Server 2012 & above, and Windows RT include the Direct3D 11.1 runtime and a new version of WARP. This version supports Direct3D 11.x when used with [feature levels](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9\_1, 9\_2, 9\_3, 10\_0, 10\_1, 11\_0, and 11\_1.
 
-Windows 10 Fall Creators Update (1709) includes a new version of WARP that supports [Direct3D 12](https://docs.microsoft.com/windows/win32/direct3d12/direct3d-12-graphics) feature levels 12\_0 and 12\_1. 
+Windows 10 Fall Creators Update (1709) includes a new version of WARP that supports [Direct3D 12](../direct3d12/direct3d-12-graphics.md) feature levels 12\_0 and 12\_1. 
 
 The minimum computer requirements for WARP are the same as for Windows Vista, specifically:
 

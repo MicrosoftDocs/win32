@@ -21,14 +21,14 @@ In CERT\_SYSTEM\_STORE\_CURRENT\_USER, there is also a predefined UserDS store. 
 
 Here are the system stores followed by further remarks:
 
--   [CERT\_SYSTEM\_STORE\_CURRENT\_USER](https://docs.microsoft.com/windows)
--   [CERT\_SYSTEM\_STORE\_LOCAL\_MACHINE](https://docs.microsoft.com/windows)
--   [CERT\_SYSTEM\_STORE\_CURRENT\_SERVICE](https://docs.microsoft.com/windows)
--   [CERT\_SYSTEM\_STORE\_SERVICES](https://docs.microsoft.com/windows)
--   [CERT\_SYSTEM\_STORE\_USERS](https://docs.microsoft.com/windows)
--   [CERT\_SYSTEM\_CURRENT\_USER\_GROUP\_POLICY](https://docs.microsoft.com/windows)
--   [CERT\_SYSTEM\_LOCAL\_MACHINE\_GROUP\_POLICY](https://docs.microsoft.com/windows)
--   [CERT\_SYSTEM\_STORE\_LOCAL\_MACHINE\_ENTERPRISE](https://docs.microsoft.com/windows)
+-   [CERT\_SYSTEM\_STORE\_CURRENT\_USER](/windows)
+-   [CERT\_SYSTEM\_STORE\_LOCAL\_MACHINE](/windows)
+-   [CERT\_SYSTEM\_STORE\_CURRENT\_SERVICE](/windows)
+-   [CERT\_SYSTEM\_STORE\_SERVICES](/windows)
+-   [CERT\_SYSTEM\_STORE\_USERS](/windows)
+-   [CERT\_SYSTEM\_CURRENT\_USER\_GROUP\_POLICY](/windows)
+-   [CERT\_SYSTEM\_LOCAL\_MACHINE\_GROUP\_POLICY](/windows)
+-   [CERT\_SYSTEM\_STORE\_LOCAL\_MACHINE\_ENTERPRISE](/windows)
 -   [Remarks](#remarks)
 
 ### CERT\_SYSTEM\_STORE\_CURRENT\_USER
@@ -216,7 +216,7 @@ The predefined physical stores associated with these system stores are as follow
 
 Additional physical stores can be associated with a system store by using [**CertRegisterPhysicalStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certregisterphysicalstore).
 
-CERT\_SYSTEM\_STORE\_SERVICE and CERT\_SYSTEM\_STORE\_USERS stores are opened by prefixing the name of the store in the string passed to *pvPara* with the service or user name such as *ServiceName*\\**Trust** or **.Default**\\**MY**. The CERT\_SYSTEM\_STORE\_SERVICES or CERT\_SYSTEM\_STORE\_USERS location can open the same store in CERT\_SYSTEM\_CURRENT\_SERVICE or CERT\_SYSTEM\_STORE\_CURRENT\_USER by using the textual [*security identifier*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SID) of the current service or user.
+CERT\_SYSTEM\_STORE\_SERVICE and CERT\_SYSTEM\_STORE\_USERS stores are opened by prefixing the name of the store in the string passed to *pvPara* with the service or user name such as *ServiceName*\\**Trust** or **.Default**\\**MY**. The CERT\_SYSTEM\_STORE\_SERVICES or CERT\_SYSTEM\_STORE\_USERS location can open the same store in CERT\_SYSTEM\_CURRENT\_SERVICE or CERT\_SYSTEM\_STORE\_CURRENT\_USER by using the textual [*security identifier*](../secgloss/s-gly.md) (SID) of the current service or user.
 
 Stores in CERT\_SYSTEM\_STORE\_USER\_GROUP\_POLICY and CERT\_SYSTEM\_LOCAL\_MACHINE\_GROUP\_POLICY in a network setting are downloaded to the client computer from the Group Policy Template (GPT) during computer startup or user logon. These stores can be updated on the client computer after startup or logon when the GPT is changed on the domain server by an administrator. The [**CertControlStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certcontrolstore) function allows an application to be notified when stores in either of these locations have changed.
 
@@ -237,7 +237,3 @@ System store locations are opened remotely by prefixing the store name in the st
  
 
  
-
-
-
-

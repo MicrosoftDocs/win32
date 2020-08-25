@@ -53,7 +53,7 @@ This method can return one of these values.
 
 ## Remarks
 
-TAPI calls the [**AddRef**](https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx) method on the [**IEnumParticipant**](ienumparticipant.md) interface returned by **IEnumParticipant::Clone**. The application must call [**Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) on the **IEnumParticipant** interface to free resources associated with it.
+TAPI calls the [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) method on the [**IEnumParticipant**](ienumparticipant.md) interface returned by **IEnumParticipant::Clone**. The application must call [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) on the **IEnumParticipant** interface to free resources associated with it.
 
 ## Requirements
 
@@ -79,9 +79,4 @@ TAPI calls the [**AddRef**](https://msdn.microsoft.com/library/ms691379(v=VS.85)
 </dt> </dl>
 
  
-
- 
-
-
-
 

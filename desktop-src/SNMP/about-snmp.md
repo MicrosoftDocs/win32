@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # About SNMP
 
-\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](https://docs.microsoft.com/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
+\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
 
 SNMP uses a distributed architecture consisting of managers and agents. An agent is an SNMP application that responds to queries from SNMP manager applications. The SNMP agent is responsible for retrieving and updating local management information based on the requests of the SNMP manager. The agent also notifies registered managers when significant events or traps occur. A manager is an SNMP application that generates queries to SNMP agent applications and receives traps from SNMP agent applications.
 
@@ -19,7 +19,3 @@ On computers running Microsoft Windows XP/Windows 2000/Windows NT, the SNMP a
  
 
  
-
-
-
-

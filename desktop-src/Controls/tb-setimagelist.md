@@ -112,14 +112,8 @@ Finally, the buttons are added to the toolbar control with a [**TB\_ADDBUTTONS**
 
 <dl> <dt>
 
-[**MAKELONG**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632660(v=vs.85))
+[**MAKELONG**](/previous-versions/windows/desktop/legacy/ms632660(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

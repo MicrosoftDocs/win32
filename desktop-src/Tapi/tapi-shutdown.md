@@ -16,9 +16,9 @@ TAPI provides a series of functions and methods to assist in the process. Obviou
 
 | TAPI 2.x functions                                                            | Description                                                            |
 |-------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [**lineRegisterRequestRecipient**](https://msdn.microsoft.com/library/ms736043(v=VS.85).aspx) | Unregisters the application as a handler for assisted telephony calls. |
-| [**lineClose**](https://msdn.microsoft.com/library/ms735573(v=VS.85).aspx)                                       | Disconnects the application as a manager for calls on the given line.  |
-| [**lineShutdown**](https://msdn.microsoft.com/library/ms736117(v=VS.85).aspx)                                 | Shuts down the application's usage of the line abstraction.            |
+| [**lineRegisterRequestRecipient**](/windows/win32/api/tapi/nf-tapi-lineregisterrequestrecipient) | Unregisters the application as a handler for assisted telephony calls. |
+| [**lineClose**](/windows/win32/api/tapi/nf-tapi-lineclose)                                       | Disconnects the application as a manager for calls on the given line.  |
+| [**lineShutdown**](/windows/win32/api/tapi/nf-tapi-lineshutdown)                                 | Shuts down the application's usage of the line abstraction.            |
 
 
 
@@ -38,6 +38,3 @@ TAPI provides a series of functions and methods to assist in the process. Obviou
  
 
  
-
-
-

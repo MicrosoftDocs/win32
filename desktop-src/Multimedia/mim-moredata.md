@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # MIM\_MOREDATA message
 
-The **MIM\_MOREDATA** message is sent to a MIDI input callback function when a MIDI message is received by a MIDI input device but the application is not processing [**MIM\_DATA**](mim-data.md) messages fast enough to keep up with the input device driver. The callback function receives this message only when the application specifies MIDI\_IO\_STATUS in the call to the [**midiInOpen**](https://msdn.microsoft.com/library/Dd798458(v=VS.85).aspx) function.
+The **MIM\_MOREDATA** message is sent to a MIDI input callback function when a MIDI message is received by a MIDI input device but the application is not processing [**MIM\_DATA**](mim-data.md) messages fast enough to keep up with the input device driver. The callback function receives this message only when the application specifies MIDI\_IO\_STATUS in the call to the [**midiInOpen**](/windows/win32/api/mmeapi/nf-mmeapi-midiinopen) function.
 
 
 ```C++
@@ -58,7 +58,7 @@ The two MIDI data bytes are optional, depending on the MIDI status byte.
 <span id="dwTimestamp"></span><span id="dwtimestamp"></span><span id="DWTIMESTAMP"></span>*dwTimestamp*
 </dt> <dd>
 
-Specifies the time that the message was received by the input device driver. The time stamp is specified in milliseconds, beginning at 0 when the [**midiInStart**](https://msdn.microsoft.com/library/Dd798462(v=VS.85).aspx) function was called.
+Specifies the time that the message was received by the input device driver. The time stamp is specified in milliseconds, beginning at 0 when the [**midiInStart**](/windows/win32/api/mmeapi/nf-mmeapi-midiinstart) function was called.
 
 </dd> </dl>
 
@@ -68,7 +68,7 @@ This message does not return a value.
 
 ## Remarks
 
-An application should do only a minimal amount of processing of MIM\_MOREDATA messages. (In particular, applications should not call the [PostMessage](https://msdn.microsoft.com/library/ms644944.aspx) function while processing MIM\_MOREDATA.) Instead, the application should place the event data into a buffer and then return.
+An application should do only a minimal amount of processing of MIM\_MOREDATA messages. (In particular, applications should not call the [PostMessage](/windows/win32/api/winuser/nf-winuser-postmessagea) function while processing MIM\_MOREDATA.) Instead, the application should place the event data into a buffer and then return.
 
 When an application receives an [**MIM\_DATA**](mim-data.md) message after a series of MIM\_MOREDATA messages, it has caught up with incoming MIDI events and can safely call time-intensive functions.
 
@@ -99,10 +99,4 @@ This message is not sent when a MIDI system-exclusive message is received.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

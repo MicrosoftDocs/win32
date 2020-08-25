@@ -51,9 +51,9 @@ The property methods of the [**IADsAccessControlEntry**](/windows/desktop/api/Ia
 
 Contains a set of flags that specifies access privileges for the object. Valid values for Active Directory objects are defined in the [**ADS\_RIGHTS\_ENUM**](/windows/win32/api/iads/ne-iads-ads_rights_enum) enumeration.
 
-For more information and a list of possible values for file or file share objects, see [File Security and Access Rights](https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights).
+For more information and a list of possible values for file or file share objects, see [File Security and Access Rights](/windows/desktop/FileIO/file-security-and-access-rights).
 
-For more information and a list of possible values for registry objects, see [Registry Key Security and Access Rights](https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights).
+For more information and a list of possible values for registry objects, see [Registry Key Security and Access Rights](/windows/desktop/SysInfo/registry-key-security-and-access-rights).
 
 <dt>
 
@@ -83,7 +83,7 @@ HRESULT put_AccessMask(
 
 Contains a set of flags that specifies if other containers or objects can inherit the ACE. Valid values for Active Directory object are defined in the [**ADS\_ACEFLAG\_ENUM**](/windows/win32/api/iads/ne-iads-ads_aceflag_enum) enumeration.
 
-For more information and possible values for file, file share, and registry objects, see the **AceFlags** member of the [**ACE\_HEADER**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header) structure.
+For more information and possible values for file, file share, and registry objects, see the **AceFlags** member of the [**ACE\_HEADER**](/windows/desktop/api/winnt/ns-winnt-ace_header) structure.
 
 <dt>
 
@@ -113,7 +113,7 @@ HRESULT put_AceFlags(
 
 Contains a value that indicates the type of ACE. Valid values for Active Directory objects are defined in the [**ADS\_ACETYPE\_ENUM**](/windows/win32/api/iads/ne-iads-ads_acetype_enum) enumeration.
 
-For more information and possible values for file, file share, and registry objects, see the **AceType** member of the [**ACE\_HEADER**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header) structure.
+For more information and possible values for file, file share, and registry objects, see the **AceType** member of the [**ACE\_HEADER**](/windows/desktop/api/winnt/ns-winnt-ace_header) structure.
 
 <dt>
 
@@ -463,10 +463,4 @@ Cleanup:
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

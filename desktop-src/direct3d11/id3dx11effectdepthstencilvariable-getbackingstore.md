@@ -42,7 +42,7 @@ HRESULT GetBackingStore(
 *Index* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 Index into an array of depth-stencil-state descriptions. If there is only one depth-stencil variable in the effect, use 0.
 
@@ -91,10 +91,4 @@ Effect variables are saved in memory in the backing store; when a technique is a
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

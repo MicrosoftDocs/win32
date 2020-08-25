@@ -22,7 +22,7 @@ api_location:
 
 The **ExecNotificationQueryAsync** method of the [**SWbemServices**](swbemservices.md) object executes a query to receive events. This call returns immediately and the results and status are returned to the caller through events delivered to the sink that is specified in *objWbemSink*.
 
-The events that are specified in the query can be intrinsic Windows Management Instrumentation (WMI) events, such as [**\_\_InstanceCreationEvent**](--instancecreationevent.md), or extrinsic events, such as [**Win32\_IP4RouteTableEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4routetableevent) or [**RegistryKeyChangeEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/registrykeychangeevent). For more information, see [Determining the Type of Event to Receive](determining-the-type-of-event-to-receive.md).
+The events that are specified in the query can be intrinsic Windows Management Instrumentation (WMI) events, such as [**\_\_InstanceCreationEvent**](--instancecreationevent.md), or extrinsic events, such as [**Win32\_IP4RouteTableEvent**](/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4routetableevent) or [**RegistryKeyChangeEvent**](/previous-versions/windows/desktop/regprov/registrykeychangeevent). For more information, see [Determining the Type of Event to Receive](determining-the-type-of-event-to-receive.md).
 
 The method is called in the asynchronous mode. For more information, see [Calling a Method](calling-a-method.md).
 
@@ -118,7 +118,7 @@ This method does not return a value. If successful, the sink receives an [**OnOb
 
 ## Error codes
 
-After the completion of the **ExecNotificationQueryAsync** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes identified in the following list.
+After the completion of the **ExecNotificationQueryAsync** method, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes identified in the following list.
 
 <dl> <dt>
 
@@ -166,7 +166,7 @@ Not enough memory to complete the operation.
 
 ## Remarks
 
-The **ExecNotificationQueryAsync** method returns event type objects that future events generate. The event objects that **ExecNotificationQueryAsync** requests can be intrinsic (for example, [**\_\_InstanceCreationEvent**](--instancecreationevent.md)), or extrinsic (for example, [**RegistryKeyChangeEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/registrykeychangeevent) or SNMP events). For more information, see [Determining the Type of Event to Receive](determining-the-type-of-event-to-receive.md).
+The **ExecNotificationQueryAsync** method returns event type objects that future events generate. The event objects that **ExecNotificationQueryAsync** requests can be intrinsic (for example, [**\_\_InstanceCreationEvent**](--instancecreationevent.md)), or extrinsic (for example, [**RegistryKeyChangeEvent**](/previous-versions/windows/desktop/regprov/registrykeychangeevent) or SNMP events). For more information, see [Determining the Type of Event to Receive](determining-the-type-of-event-to-receive.md).
 
 The call to **ExecNotificationQueryAsync** returns immediately. The requested objects and status are returned to the caller through callbacks delivered to the sink that is specified in *objWbemSink*. To process each object when it is returned, create an *objWbemSink*.[**OnObjectReady**](swbemsink-onobjectready.md) event subroutine. After all the objects are returned, perform the final processing to implement the *objWbemSink*.[**OnCompleted**](swbemsink-oncompleted.md) event.
 
@@ -176,9 +176,9 @@ There are limits to the number of **AND** and **OR** keywords that can be used i
 
 ## Examples
 
-The following VBScript code example shows a script that is waiting for a WMI event notification that indicates that a process has terminated. It is waiting for a WMI intrinsic event, an instance of the event class [**\_\_InstanceDeletionEvent**](--instancedeletionevent.md). The **\_\_InstanceDeletionEvent** must represent the deletion of an instance of [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process). For more information about WMI intrinsic events, see [Determining the Type of Event to Receive](determining-the-type-of-event-to-receive.md).
+The following VBScript code example shows a script that is waiting for a WMI event notification that indicates that a process has terminated. It is waiting for a WMI intrinsic event, an instance of the event class [**\_\_InstanceDeletionEvent**](--instancedeletionevent.md). The **\_\_InstanceDeletionEvent** must represent the deletion of an instance of [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process). For more information about WMI intrinsic events, see [Determining the Type of Event to Receive](determining-the-type-of-event-to-receive.md).
 
-The following script runs indefinitely until the computer is rebooted, WMI is stopped, or the script is stopped. To stop the script manually, use Task Manager to stop the process. To stop it programmatically, use the [**Terminate**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/terminate-method-in-class-win32-process) method in the Win32\_Process class.
+The following script runs indefinitely until the computer is rebooted, WMI is stopped, or the script is stopped. To stop the script manually, use Task Manager to stop the process. To stop it programmatically, use the [**Terminate**](/windows/desktop/CIMWin32Prov/terminate-method-in-class-win32-process) method in the Win32\_Process class.
 
 
 ```VB
@@ -248,9 +248,4 @@ End Sub
 </dt> </dl>
 
  
-
- 
-
-
-
 

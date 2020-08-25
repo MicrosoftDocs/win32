@@ -13,11 +13,11 @@ ms.date: 05/31/2018
 
 # Supporting Dual or Dispatch Interfaces
 
-Like the dispatch interface, all dual interfaces must inherit from [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx), which delegates all of its **IDispatch** functions ([**GetIDsOfNames**](https://msdn.microsoft.com/library/ms221306(v=VS.71).aspx), [**Invoke**](https://msdn.microsoft.com/library/ms221479(v=VS.71).aspx), [**GetTypeInfo**](https://msdn.microsoft.com/library/ms221571(v=VS.71).aspx), [**GetTypeInfoCount**](https://msdn.microsoft.com/library/ms221674(v=VS.71).aspx)) back to the **IDispatch** of the aggregator (ADSI). In order to delegate, an extension object should query for the **IDispatch** of the aggregator, call the appropriate aggregator method, and release the pointer after use.
+Like the dispatch interface, all dual interfaces must inherit from [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch), which delegates all of its **IDispatch** functions ([**GetIDsOfNames**](/windows/win32/api/oaidl/nf-oaidl-idispatch-getidsofnames), [**Invoke**](/windows/win32/api/oaidl/nf-oaidl-idispatch-invoke), [**GetTypeInfo**](/windows/win32/api/oaidl/nf-oaidl-idispatch-gettypeinfo), [**GetTypeInfoCount**](/windows/win32/api/oaidl/nf-oaidl-idispatch-gettypeinfocount)) back to the **IDispatch** of the aggregator (ADSI). In order to delegate, an extension object should query for the **IDispatch** of the aggregator, call the appropriate aggregator method, and release the pointer after use.
 
-If the extension can be a standalone component, verify that it is aggregated. If so, reroute the dispatch functions to the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) of the aggregator, otherwise you can call your internal implementation of **IDispatch**, or you can call your implementation of [**IADsExtension**](/windows/desktop/api/Iads/nn-iads-iadsextension).
+If the extension can be a standalone component, verify that it is aggregated. If so, reroute the dispatch functions to the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) of the aggregator, otherwise you can call your internal implementation of **IDispatch**, or you can call your implementation of [**IADsExtension**](/windows/desktop/api/Iads/nn-iads-iadsextension).
 
-The following code example shows how to reroute the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) call to the **IDispatch** of the aggregator. This code example assumes that the **m\_pOuterUnknown** member variable has been initialized to the **IUnknown** pointer of the aggregator.
+The following code example shows how to reroute the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) call to the **IDispatch** of the aggregator. This code example assumes that the **m\_pOuterUnknown** member variable has been initialized to the **IUnknown** pointer of the aggregator.
 
 
 ```C++
@@ -93,7 +93,3 @@ Extension writers are strongly encouraged to support dual interfaces instead of 
  
 
  
-
-
-
-

@@ -30,7 +30,7 @@ This section contains information about the programming elements used with anima
 | Topic                                           | Contents                                                                                                                                                                                                                                                          |
 |-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Animate\_Close**](/windows/desktop/api/Commctrl/nf-commctrl-animate_close)         | Closes an AVI clip. You can use this macro or send the [**ACM\_OPEN**](acm-open.md) message explicitly, passing in **NULL** parameters. <br/>                                                                                                              |
-| [**Animate\_Create**](/windows/desktop/api/Commctrl/nf-commctrl-animate_create)       | Creates an animation control. [**Animate\_Create**](/windows/desktop/api/Commctrl/nf-commctrl-animate_create) calls the [**CreateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa) function to create the animation control. <br/>                                                                                   |
+| [**Animate\_Create**](/windows/desktop/api/Commctrl/nf-commctrl-animate_create)       | Creates an animation control. [**Animate\_Create**](/windows/desktop/api/Commctrl/nf-commctrl-animate_create) calls the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) function to create the animation control. <br/>                                                                                   |
 | [**Animate\_IsPlaying**](/windows/desktop/api/Commctrl/nf-commctrl-animate_isplaying) | Checks to see if an AVI clip is playing. You can use this macro or send an [**ACM\_ISPLAYING**](acm-isplaying.md) message.<br/>                                                                                                                            |
 | [**Animate\_Open**](/windows/desktop/api/Commctrl/nf-commctrl-animate_open)           | Opens an AVI clip and displays its first frame in an animation control. You can use this macro or send the [**ACM\_OPEN**](acm-open.md) message explicitly. <br/>                                                                                          |
 | [**Animate\_OpenEx**](/windows/desktop/api/Commctrl/nf-commctrl-animate_openex)       | Opens an AVI clip from a resource in a specified module and displays its first frame in an animation control. You can use this macro or send the [**ACM\_OPEN**](acm-open.md) message explicitly. <br/>                                                    |
@@ -63,8 +63,8 @@ This section contains information about the programming elements used with anima
 
 | Topic                           | Contents                                                                                                                                                                                                       |
 |---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ACN\_START**](acn-start.md) | Notifies an animation control's parent window that the associated AVI clip has started playing. This notification code is sent in the form of a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message. <br/>      |
-| [**ACN\_STOP**](acn-stop.md)   | Notifies the parent window of an animation control that the associated AVI clip has stopped playing. This notification code is sent in the form of a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message. <br/> |
+| [**ACN\_START**](acn-start.md) | Notifies an animation control's parent window that the associated AVI clip has started playing. This notification code is sent in the form of a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message. <br/>      |
+| [**ACN\_STOP**](acn-stop.md)   | Notifies the parent window of an animation control that the associated AVI clip has stopped playing. This notification code is sent in the form of a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message. <br/> |
 
 
 
@@ -83,10 +83,4 @@ This section contains information about the programming elements used with anima
  
 
  
-
- 
-
-
-
-
 

@@ -1,6 +1,6 @@
 ---
 title: General Frequently Asked Questions
-description: Provides answers to commonly-asked questions about the EAPHost APIs.
+description: "Read answers to commonly-asked questions about the EAPHost APIs, such as 'What is the lifetime of an authentication?'."
 ms.assetid: 4025e8da-8cb1-477b-86bb-7756d9636224
 ms.topic: article
 ms.date: 05/31/2018
@@ -60,7 +60,7 @@ The following topic provides answers to commonly-asked questions about the EAPHo
 </tr>
 <tr class="odd">
 <td>What are legacy methods?</td>
-<td>Legacy EAP methods are defined in the [Extensible Authentication Protocol Reference](https://docs.microsoft.com/previous-versions/windows/desktop/eap/extensible-authentication-protocol-reference). The legacy EAP methods are available for use in Windows Vista and Windows Server 2008. These methods may not be available for use in subsequent versions of the operating system.</td>
+<td>Legacy EAP methods are defined in the [Extensible Authentication Protocol Reference](/previous-versions/windows/desktop/eap/extensible-authentication-protocol-reference). The legacy EAP methods are available for use in Windows Vista and Windows Server 2008. These methods may not be available for use in subsequent versions of the operating system.</td>
 </tr>
 <tr class="even">
 <td>What's the difference between legacy and native methods?</td>
@@ -84,11 +84,11 @@ The following topic provides answers to commonly-asked questions about the EAPHo
 </tr>
 <tr class="odd">
 <td>What is Protected Extensible Authentication Protocol (PEAP)?</td>
-<td>For more information, see [PEAP](Http://go.microsoft.com/fwlink/p/?linkid=84002) and [About Extensible Authentication Protocol](https://docs.microsoft.com/previous-versions/windows/desktop/eap/about-extensible-authentication-protocol).</td>
+<td>For more information, see [PEAP](Http://go.microsoft.com/fwlink/p/?linkid=84002) and [About Extensible Authentication Protocol](/previous-versions/windows/desktop/eap/about-extensible-authentication-protocol).</td>
 </tr>
 <tr class="even">
 <td>How does PEAP deal with session resumption and re-authentication?</td>
-<td>Session resumption and re-authentication typically occurs while roaming on a wireless network. Windows Data Protection API (DPAPI) provides a way to protect and bind data to a user and optionally the logon session. The caller gives [<strong>CryptProtectMemory</strong>](https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory) an unencrypted buffer and DPAPI will encrypt the memory in place. Later, the caller can pass in the encrypted buffer to [<strong>CryptUnprotectMemory</strong>](https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory) and DPAPI will decrypt the memory, once again in place. For more information, see [TLS Inner Application Extension (TSL/IA)](Http://go.microsoft.com/fwlink/p/?linkid=84011) and [PEAP](Http://go.microsoft.com/fwlink/p/?linkid=84002).<br/></td>
+<td>Session resumption and re-authentication typically occurs while roaming on a wireless network. Windows Data Protection API (DPAPI) provides a way to protect and bind data to a user and optionally the logon session. The caller gives [<strong>CryptProtectMemory</strong>](/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory) an unencrypted buffer and DPAPI will encrypt the memory in place. Later, the caller can pass in the encrypted buffer to [<strong>CryptUnprotectMemory</strong>](/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory) and DPAPI will decrypt the memory, once again in place. For more information, see [TLS Inner Application Extension (TSL/IA)](Http://go.microsoft.com/fwlink/p/?linkid=84011) and [PEAP](Http://go.microsoft.com/fwlink/p/?linkid=84002).<br/></td>
 </tr>
 <tr class="odd">
 <td>What is EAP-Transport Level Security (EAP-TLS)?</td>
@@ -96,24 +96,24 @@ The following topic provides answers to commonly-asked questions about the EAPHo
 </tr>
 <tr class="even">
 <td>How do I implement a password change using the Local Security Authority (LSA) API?</td>
-<td>Use the [<strong>LsaCallAuthenticationPackage</strong>](https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage) function to implement a password change.</td>
+<td>Use the [<strong>LsaCallAuthenticationPackage</strong>](/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage) function to implement a password change.</td>
 </tr>
 <tr class="odd">
 <td>Why would I want to enable tracing in EAPHost?</td>
 <td>The trace logs contain debugging information (available in English only) that may assist Microsoft developers and partners in finding the root causes of any issues being experienced with the authentication process. For more information, see [Enabling Tracing](enabling-tracing.md).<br/></td>
 </tr>
 <tr class="even">
-<td>Why do I encounter the error code, NTE_BAD_KEY_STATE (0x8009000BL) when I use the [Cryptography](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-portal) API to sign into the EAP-TLS exchange?</td>
+<td>Why do I encounter the error code, NTE_BAD_KEY_STATE (0x8009000BL) when I use the [Cryptography](/windows/desktop/SecCrypto/cryptography-portal) API to sign into the EAP-TLS exchange?</td>
 <td>In Winerror.h NTE_BAD_KEY_STATE (0x8009000BL) is defined as a &quot;key not valid for use in specified state&quot;. This error is typically returned in the following scenarios.
 <ul>
 <li>When attempting to export a non-exportable private key BLOB</li>
-<li>When unsuccessfully attempting to generate a pseudo-random function (PRF) hash handle using [<strong>CryptCreateHash</strong>](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash)</li>
+<li>When unsuccessfully attempting to generate a pseudo-random function (PRF) hash handle using [<strong>CryptCreateHash</strong>](/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash)</li>
 </ul>
-For more information, see [Finish Messages in the TLS 1.0 Protocol](https://docs.microsoft.com/windows/desktop/SecCrypto/finish-messages-in-the-tls-1-0-protocol).</td>
+For more information, see [Finish Messages in the TLS 1.0 Protocol](/windows/desktop/SecCrypto/finish-messages-in-the-tls-1-0-protocol).</td>
 </tr>
 <tr class="odd">
 <td>What is a pseudo-random function (PRF)?</td>
-<td>A function that takes a key, label, and seed as input, then produces an output of arbitrary length. For more information, see [Finish Messages in the TLS 1.0 Protocol](https://docs.microsoft.com/windows/desktop/SecCrypto/finish-messages-in-the-tls-1-0-protocol).<br/></td>
+<td>A function that takes a key, label, and seed as input, then produces an output of arbitrary length. For more information, see [Finish Messages in the TLS 1.0 Protocol](/windows/desktop/SecCrypto/finish-messages-in-the-tls-1-0-protocol).<br/></td>
 </tr>
 <tr class="even">
 <td>How does EAPHost bind to network adapters?</td>
@@ -140,10 +140,4 @@ For more information, see [Finish Messages in the TLS 1.0 Protocol](https://docs
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Graphics.FromHDC methods
 
-This topic lists the FromHDC methods of the [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx).
+This topic lists the FromHDC methods of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics).
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the FromHDC methods of the [**Graphics**](https://msdn.microsof
 
 | Method                                                                      | Description                                                                                                                                                                                                                 |
 |:----------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**FromHDC(HDC)**](https://msdn.microsoft.com/library/ms535950(v=VS.85).aspx)                | The [**Graphics::FromHDC**](https://msdn.microsoft.com/library/ms535950(v=VS.85).aspx)[**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) object that is associated with a specified device context.<br/>                                |
-| [**FromHDC(HDD,HANDLE)**](https://msdn.microsoft.com/library/ms535951(v=VS.85).aspx) | The [**Graphics::FromHDC**](https://msdn.microsoft.com/library/ms535951(v=VS.85).aspx)[**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) object that is associated with a specified device context and a specified device.<br/> |
+| [**FromHDC(HDC)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fromhdc(inhdc))                | The [**Graphics::FromHDC**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fromhdc(inhdc))[**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object that is associated with a specified device context.<br/>                                |
+| [**FromHDC(HDD,HANDLE)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fromhdc(inhdc_inhandle)) | The [**Graphics::FromHDC**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fromhdc(inhdc_inhandle))[**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object that is associated with a specified device context and a specified device.<br/> |
 
 
 
@@ -34,7 +34,3 @@ This topic lists the FromHDC methods of the [**Graphics**](https://msdn.microsof
  
 
  
-
-
-
-

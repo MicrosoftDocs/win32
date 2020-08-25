@@ -31,7 +31,7 @@
       href: callback-functions.md
       items: 
       - name: "RM_WRITE_STATUS_CALLBACK"
-        href: https://docs.microsoft.com/windows/desktop/api/restartmanager/nc-restartmanager-rm_write_status_callback
+        href: /windows/desktop/api/restartmanager/nc-restartmanager-rm_write_status_callback
     - name: "Restart Manager Enumerations"
       href: enumerations.md
       items: 

@@ -22,7 +22,7 @@ From a UI Automation perspective, the main tasks that a UI Automation client app
 
     Information about UI elements, and access to UI element functionality, is exposed to clients by UI Automation providers. However, client applications do not work directly with providers. Instead, a core service lies between the client and the provider. When a client calls the UI Automation API, it is actually calling the UI Automation core service which, in turn, makes calls to the interfaces implemented by the provider.
 
-    To gain access to the core UI Automation service, a client must create an instance of the [**CUIAutomation**](https://msdn.microsoft.com/library/Ff384838(v=VS.85).aspx) object and retrieve an [**IUIAutomation**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomation) interface pointer on the object. The **IUIAutomation** pointer is the client's key to accessing all of the UI Automation functionality that is available to the client. For more information, see [Creating the CUIAutomation Object](uiauto-creatingcuiautomation.md).
+    To gain access to the core UI Automation service, a client must create an instance of the [**CUIAutomation**](/previous-versions/windows/desktop/legacy/ff384838(v=vs.85)) object and retrieve an [**IUIAutomation**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomation) interface pointer on the object. The **IUIAutomation** pointer is the client's key to accessing all of the UI Automation functionality that is available to the client. For more information, see [Creating the CUIAutomation Object](uiauto-creatingcuiautomation.md).
 
 2.  **Retrieve IUIAutomationElement interfaces for UI elements from the UI Automation tree.**
 
@@ -59,7 +59,3 @@ From a UI Automation perspective, the main tasks that a UI Automation client app
  
 
  
-
-
-
-

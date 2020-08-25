@@ -98,9 +98,9 @@ This page is provided as a guide to the documentation. You should refer to the R
 
 Setup developers can use Windows Installer 5.0 to author a single installation package capable of either per-machine installation or per-user installation of the application. For more information, see [Single Package Authoring](single-package-authoring.md). The internal consistency evaluator [ICE105](ice-105.md) checks that the package has been authored to be installed in a per-user context. An application capable of being installed, updated, run, and removed by a standard user without elevation is called a Per-User Application (PUA.) A PUA can provide a better user experience, minimize effects on the system and other users of the computer, and reserves UAC prompting to situations that actually require the elevation of the user's privileges. The Single Package Authoring features of Windows Installer 5.0 can facilitate the development of Per-User Applications.
 
-Services configuration options enable a Windows Installer package to customize the [services](https://msdn.microsoft.com/library/ms685141(v=VS.85).aspx) on a computer. For more information, see [Using Services Configuration](using-services-configuration.md).
+Services configuration options enable a Windows Installer package to customize the [services](../services/services.md) on a computer. For more information, see [Using Services Configuration](using-services-configuration.md).
 
-Beginning with Windows Installer 5.0, a Windows Installer package is capable to secure new accounts, Windows [Services](https://msdn.microsoft.com/library/ms685141(v=VS.85).aspx), files, folders, and registry keys. The [MsiLockPermissionsEx](msilockpermissionsex-table.md) table can specify a security descriptor that denies permissions, specifies inheritance of permissions from a parent resource, or specifies the permissions of a new account. For information, see [Securing Resources](securing-resources-.md).
+Beginning with Windows Installer 5.0, a Windows Installer package is capable to secure new accounts, Windows [services](../services/services.md), files, folders, and registry keys. The [MsiLockPermissionsEx](msilockpermissionsex-table.md) table can specify a security descriptor that denies permissions, specifies inheritance of permissions from a parent resource, or specifies the permissions of a new account. For information, see [Securing Resources](securing-resources-.md).
 
 Windows Installer 5.0 can enumerate all components installed on the computer and obtain the key path for the component. For more information, see [Enumerating Components](enumerating-components-.md).
 
@@ -109,6 +109,3 @@ Windows Installer 5.0 running on Windows Server 2012 or Windows 8 supports the
 Windows Installer 5.0 running on Windows 10 on Arm64 processors supports the installation of applications compiled specifically for the Arm64 platform.  The [**Template Summary**](template-summary.md) property of these packages needs to include the value Arm64. 
 
  
-
-
-

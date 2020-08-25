@@ -61,13 +61,9 @@ interface iface
 [Interface Definition (IDL) File](interface-definition-idl-file.md)
 </dt> <dt>
 
-[**string binding**](https://docs.microsoft.com/windows/desktop/Rpc/string-binding)
+[**string binding**](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
  
 
  
-
-
-
-

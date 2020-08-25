@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using StoServe
 
-**StoServe** is a DLL that is intended primarily as a COM server. Although it can be implicitly loaded by linking to its associated .LIB file, it is normally used after an explicit LoadLibrary call, usually from within the COM function [**CoGetClassObject**](https://msdn.microsoft.com/library/ms684007(v=VS.85).aspx). **StoServe** is a self-registering in-process server.
+**StoServe** is a DLL that is intended primarily as a COM server. Although it can be implicitly loaded by linking to its associated .LIB file, it is normally used after an explicit LoadLibrary call, usually from within the COM function [**CoGetClassObject**](/windows/win32/api/combaseapi/nf-combaseapi-cogetclassobject). **StoServe** is a self-registering in-process server.
 
 To use **StoServe**, a client program does not need to include STOSERVE.H or link to STOSERVE.LIB. A COM client of **StoServe** obtains access solely through its object's CLSID and COM services. For **StoServe**, that CLSID is CLSID\_DllPaper (defined in file PAPGUIDS.H in the \\INC sibling directory). The [StoClien](structured-storage-client-sample--stoclien-.md) code sample shows how the client obtains this access.
 
@@ -29,7 +29,3 @@ In this series, the makefiles use the REGISTER.EXE utility from the REGISTER sam
  
 
  
-
-
-
-

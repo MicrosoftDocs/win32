@@ -30,7 +30,7 @@ This section contains the core classes and interfaces in the Tablet PC COM Libra
 -   [**IInkStrokeDisp Interface**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp)
 -   [**IInkTablet Interface**](/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet)
 -   [**IInkTablet2 Interface**](/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet2)
--   [**IInkTablet3**](https://msdn.microsoft.com/library/Dd464653(v=VS.85).aspx)
+-   [**IInkTablet3**](/windows/win32/api/msinkaut/nn-msinkaut-iinktablet3)
 -   [**IInkWordList2 Interface**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2)
 -   [**InkCollector Class**](inkcollector-class.md)
 -   [**InkDisp Class**](inkdisp-class.md)
@@ -39,11 +39,11 @@ This section contains the core classes and interfaces in the Tablet PC COM Libra
 -   [**InkOverlay Class**](inkoverlay-class.md)
 -   [**InkRecognizerContext Class**](inkrecognizercontext-class.md)
 -   [**InkRecognizerGuide Class**](inkrecognizerguide-class.md)
--   [**InkRecognizers Collection**](https://msdn.microsoft.com/library/ms702438(v=VS.85).aspx)
+-   [**InkRecognizers Collection**](/previous-versions/windows/desktop/legacy/ms702438(v=vs.85))
 -   [**InkRectangle Class**](inkrectangle-class.md)
 -   [**InkRenderer Class**](inkrenderer-class.md)
--   [**InkStrokes Collection**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx)
--   [**InkTablets Collection**](https://msdn.microsoft.com/library/ms704832(v=VS.85).aspx)
+-   [**InkStrokes Collection**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85))
+-   [**InkTablets Collection**](/previous-versions/windows/desktop/legacy/ms704832(v=vs.85))
 -   [**InkTransform Class**](inktransform-class.md)
 -   [**InkWordList Class**](inkwordlist-class.md)
 -   [**PenInputPanel Class**](peninputpanel-class.md)
@@ -51,6 +51,3 @@ This section contains the core classes and interfaces in the Tablet PC COM Libra
  
 
  
-
-
-

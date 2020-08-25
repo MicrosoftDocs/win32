@@ -18,9 +18,9 @@ api_location:
 
 # ChangeSecurityPermissionsEx method of the Win32\_Directory class
 
-The **ChangeSecurityPermissionsEx** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method changes the security permissions for the directory entry file specified in the object path (this method is an extended version of the [**ChangeSecurityPermissions**](changesecuritypermissions-method-in-class-win32-directory.md) method). If the logical file is a directory, then this method is recursive, and changes the security permissions of all of the files and subdirectories that the directory contains.
+The **ChangeSecurityPermissionsEx** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method changes the security permissions for the directory entry file specified in the object path (this method is an extended version of the [**ChangeSecurityPermissions**](changesecuritypermissions-method-in-class-win32-directory.md) method). If the logical file is a directory, then this method is recursive, and changes the security permissions of all of the files and subdirectories that the directory contains.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -44,7 +44,7 @@ uint32 ChangeSecurityPermissionsEx(
 *SecurityDescriptor* \[in\]
 </dt> <dd>
 
-Expression that resolves to an instance of [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor). This parameter contains new security permissions for the instance of [**Win32\_PageFile**](win32-pagefile.md).
+Expression that resolves to an instance of [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor). This parameter contains new security permissions for the instance of [**Win32\_PageFile**](win32-pagefile.md).
 
 </dd> <dt>
 
@@ -269,16 +269,11 @@ A specified parameter is not valid.
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_Directory**](win32-directory.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

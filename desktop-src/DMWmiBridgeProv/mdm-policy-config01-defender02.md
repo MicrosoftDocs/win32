@@ -85,7 +85,7 @@ The **MDM\_Policy\_Config01\_Defender02** class has these properties.
 
 <dl> <dt>
 
-[AllowArchiveScanning](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-allowarchivescanning)
+[AllowArchiveScanning](/windows/client-management/mdm/policy-csp-defender#defender-allowarchivescanning)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -96,7 +96,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowBehaviorMonitoring](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-allowbehaviormonitoring)
+[AllowBehaviorMonitoring](/windows/client-management/mdm/policy-csp-defender#defender-allowbehaviormonitoring)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -107,7 +107,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowCloudProtection](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-allowcloudprotection)
+[AllowCloudProtection](/windows/client-management/mdm/policy-csp-defender#defender-allowcloudprotection)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -118,7 +118,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowEmailScanning](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-allowemailscanning)
+[AllowEmailScanning](/windows/client-management/mdm/policy-csp-defender#defender-allowemailscanning)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -129,7 +129,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowFullScanOnMappedNetworkDrives](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-allowfullscanonmappednetworkdrives)
+[AllowFullScanOnMappedNetworkDrives](/windows/client-management/mdm/policy-csp-defender#defender-allowfullscanonmappednetworkdrives)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -140,7 +140,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowFullScanRemovableDriveScanning](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-allowfullscanremovabledrivescanning)
+[AllowFullScanRemovableDriveScanning](/windows/client-management/mdm/policy-csp-defender#defender-allowfullscanremovabledrivescanning)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -151,7 +151,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowIntrusionPreventionSystem](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-allowintrusionpreventionsystem)
+[AllowIntrusionPreventionSystem](/windows/client-management/mdm/policy-csp-defender#defender-allowintrusionpreventionsystem)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -162,7 +162,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowIOAVProtection](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-allowioavprotection)
+[AllowIOAVProtection](/windows/client-management/mdm/policy-csp-defender#defender-allowioavprotection)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -173,7 +173,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowOnAccessProtection](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-allowonaccessprotection)
+[AllowOnAccessProtection](/windows/client-management/mdm/policy-csp-defender#defender-allowonaccessprotection)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -184,7 +184,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowRealtimeMonitoring](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-allowrealtimemonitoring)
+[AllowRealtimeMonitoring](/windows/client-management/mdm/policy-csp-defender#defender-allowrealtimemonitoring)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -195,7 +195,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowScanningNetworkFiles](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-allowscanningnetworkfiles)
+[AllowScanningNetworkFiles](/windows/client-management/mdm/policy-csp-defender#defender-allowscanningnetworkfiles)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -206,7 +206,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowScriptScanning](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-allowscriptscanning)
+[AllowScriptScanning](/windows/client-management/mdm/policy-csp-defender#defender-allowscriptscanning)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -217,7 +217,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowUserUIAccess](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-allowuseruiaccess)
+[AllowUserUIAccess](/windows/client-management/mdm/policy-csp-defender#defender-allowuseruiaccess)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -228,7 +228,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AttackSurfaceReductionOnlyExclusions](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-attacksurfacereductiononlyexclusions)
+[AttackSurfaceReductionOnlyExclusions](/windows/client-management/mdm/policy-csp-defender#defender-attacksurfacereductiononlyexclusions)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -239,7 +239,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AttackSurfaceReductionRules](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-attacksurfacereductionrules)
+[AttackSurfaceReductionRules](/windows/client-management/mdm/policy-csp-defender#defender-attacksurfacereductionrules)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -250,7 +250,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AVGCPULoadFactor](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-avgcpuloadfactor)
+[AVGCPULoadFactor](/windows/client-management/mdm/policy-csp-defender#defender-avgcpuloadfactor)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -261,7 +261,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[CloudBlockLevel](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-cloudblocklevel)
+[CloudBlockLevel](/windows/client-management/mdm/policy-csp-defender#defender-cloudblocklevel)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -272,7 +272,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[CloudExtendedTimeout](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-cloudextendedtimeout)
+[CloudExtendedTimeout](/windows/client-management/mdm/policy-csp-defender#defender-cloudextendedtimeout)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -283,7 +283,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ControlledFolderAccessAllowedApplications](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-controlledfolderaccessallowedapplications)
+[ControlledFolderAccessAllowedApplications](/windows/client-management/mdm/policy-csp-defender#defender-controlledfolderaccessallowedapplications)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -294,7 +294,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ControlledFolderAccessProtectedFolders](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-controlledfolderaccessprotectedfolders)
+[ControlledFolderAccessProtectedFolders](/windows/client-management/mdm/policy-csp-defender#defender-controlledfolderaccessprotectedfolders)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -305,7 +305,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DaysToRetainCleanedMalware](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-daystoretaincleanedmalware)
+[DaysToRetainCleanedMalware](/windows/client-management/mdm/policy-csp-defender#defender-daystoretaincleanedmalware)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -316,7 +316,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EnableControlledFolderAccess](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-enablecontrolledfolderaccess)
+[EnableControlledFolderAccess](/windows/client-management/mdm/policy-csp-defender#defender-enablecontrolledfolderaccess)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -327,7 +327,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EnableNetworkProtection](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection)
+[EnableNetworkProtection](/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -338,7 +338,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ExcludedExtensions](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-excludedextensions)
+[ExcludedExtensions](/windows/client-management/mdm/policy-csp-defender#defender-excludedextensions)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -349,7 +349,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ExcludedPaths](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-excludedpaths)
+[ExcludedPaths](/windows/client-management/mdm/policy-csp-defender#defender-excludedpaths)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -360,7 +360,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ExcludedProcesses](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-excludedprocesses)
+[ExcludedProcesses](/windows/client-management/mdm/policy-csp-defender#defender-excludedprocesses)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -380,7 +380,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "Defender".
@@ -396,14 +396,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/Policy/Config"
 
 </dd> <dt>
 
-[PUAProtection](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-puaprotection)
+[PUAProtection](/windows/client-management/mdm/policy-csp-defender#defender-puaprotection)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -414,7 +414,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RealTimeScanDirection](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-realtimescandirection)
+[RealTimeScanDirection](/windows/client-management/mdm/policy-csp-defender#defender-realtimescandirection)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -425,7 +425,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ScanParameter](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-scanparameter)
+[ScanParameter](/windows/client-management/mdm/policy-csp-defender#defender-scanparameter)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -436,7 +436,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ScheduleQuickScanTime](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-schedulequickscantime)
+[ScheduleQuickScanTime](/windows/client-management/mdm/policy-csp-defender#defender-schedulequickscantime)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -447,7 +447,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ScheduleScanDay](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-schedulescanday)
+[ScheduleScanDay](/windows/client-management/mdm/policy-csp-defender#defender-schedulescanday)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -458,7 +458,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ScheduleScanTime](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-schedulescantime)
+[ScheduleScanTime](/windows/client-management/mdm/policy-csp-defender#defender-schedulescantime)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -469,7 +469,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SignatureUpdateInterval](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-signatureupdateinterval)
+[SignatureUpdateInterval](/windows/client-management/mdm/policy-csp-defender#defender-signatureupdateinterval)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -480,7 +480,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SubmitSamplesConsent](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-submitsamplesconsent)
+[SubmitSamplesConsent](/windows/client-management/mdm/policy-csp-defender#defender-submitsamplesconsent)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -491,7 +491,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ThreatSeverityDefaultAction](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-threatseveritydefaultaction)
+[ThreatSeverityDefaultAction](/windows/client-management/mdm/policy-csp-defender#defender-threatseveritydefaultaction)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -520,14 +520,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -57,7 +57,7 @@ public Nullable<T> Value { get; set; }
 
 #### Property value
 
-Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[T](dn334171\(v=exchg.10\).md)\>  
+Type: [System.Nullable](/dotnet/api/system.nullable-1)\<[T](dn334171\(v=exchg.10\).md)\>  
 
 ## See also
 
@@ -68,4 +68,3 @@ Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?
 [ColumnValueOfStruct\<T\> members](dn334217\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

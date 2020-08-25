@@ -38,7 +38,7 @@ HRESULT LoadMatrix(
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **const [**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to the D3DXMATRIX structure loaded into the current matrix.
 
@@ -78,7 +78,3 @@ Note that this method does not add an item to the stack; rather, it replaces the
  
 
  
-
-
-
-

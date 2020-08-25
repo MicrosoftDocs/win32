@@ -19,7 +19,7 @@ The following functions are used with embedded Microsoft OpenType fonts.
 | [*CFP\_REALLOCPROC*](/windows/desktop/api/FontSub/nc-fontsub-cfp_reallocproc)                                  | Application-provided memory reallocation function for CreateFontPackage and MergeFontPackage.                                                            |
 | [**CreateFontPackage**](/windows/desktop/api/FontSub/nf-fontsub-createfontpackage)                             | Creates a more compact version of a specified TrueType font, in order to pass it to a printer. The resulting font may be subsetted, compressed, or both. |
 | [**MergeFontPackage**](/windows/desktop/api/FontSub/nf-fontsub-mergefontpackage)                               | Merges subset fonts created by CreateFontPackage.                                                                                                        |
-| [*READEMBEDPROC*](https://msdn.microsoft.com/library/Dd162894(v=VS.85).aspx)                                       | Client-provided callback function to read stream contents from a buffer.                                                                                 |
+| [*READEMBEDPROC*](/previous-versions//dd162894(v=vs.85))                                       | Client-provided callback function to read stream contents from a buffer.                                                                                 |
 | [**TTCharToUnicode**](/windows/desktop/api/T2embapi/nf-t2embapi-ttchartounicode)                                 | Converts an array of 8-bit character code values to 16-bit Unicode values.                                                                               |
 | [**TTDeleteEmbeddedFont**](/windows/desktop/api/T2embapi/nf-t2embapi-ttdeleteembeddedfont)                       | Releases memory used by an embedded font.                                                                                                                |
 | [**TTEmbedFont**](/windows/desktop/api/T2embapi/nf-t2embapi-ttembedfont)                                         | Creates a font structure containing a subsetted wide character (16-bit) font, using a device context as the font-embedding information source.           |
@@ -34,7 +34,7 @@ The following functions are used with embedded Microsoft OpenType fonts.
 | [**TTLoadEmbeddedFont**](/windows/desktop/api/T2embapi/nf-t2embapi-ttloadembeddedfont)                           | Reads the embedded font from the document stream and installs it. Also allows a client to further restrict embedding privileges of the font.             |
 | [**TTRunValidationTests**](/windows/desktop/api/T2embapi/nf-t2embapi-ttrunvalidationtests)                       | Validates part or all glyph data of a wide-character (16-bit) font, in the size range specified.                                                         |
 | [**TTRunValidationTestsEx**](/windows/desktop/api/T2embapi/nf-t2embapi-ttrunvalidationtestsex)                   | UCS-4 version of TTRunValidationTests.                                                                                                                   |
-| [*WRITEEMBEDPROC*](https://msdn.microsoft.com/library/Dd145225(v=VS.85).aspx)                                     | Client-provided callback function to write stream contents to a buffer.                                                                                  |
+| [*WRITEEMBEDPROC*](/previous-versions//dd145225(v=vs.85))                                     | Client-provided callback function to write stream contents to a buffer.                                                                                  |
 
 
 
@@ -43,6 +43,3 @@ The following functions are used with embedded Microsoft OpenType fonts.
  
 
  
-
-
-

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Configuring an Installable Driver
 
-To direct an installable driver to carry out useful tasks, you must open the driver by using the [OpenDriver](https://msdn.microsoft.com/library/Dd743639(v=VS.85).aspx) function and send it messages by using the [SendDriverMessage](https://msdn.microsoft.com/library/Dd798653(v=VS.85).aspx) function. The following example shows how to direct the driver to display its configuration dialog box.
+To direct an installable driver to carry out useful tasks, you must open the driver by using the [OpenDriver](/windows/win32/api/mmiscapi/nf-mmiscapi-opendriver) function and send it messages by using the [SendDriverMessage](/windows/win32/api/mmiscapi/nf-mmiscapi-senddrivermessage) function. The following example shows how to direct the driver to display its configuration dialog box.
 
 
 ```C++
@@ -51,7 +51,3 @@ LONG MyConfigureDriver()
  
 
  
-
-
-
-

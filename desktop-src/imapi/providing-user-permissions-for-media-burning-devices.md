@@ -21,7 +21,7 @@ At this panel, an administrator must specify the settings of two device options 
 -   Set "Devices: Restrict CD-ROM access to locally logged-on user only" to **Enabled**
 -   Set "Devices: Allowed to format and eject removable media" to **Administrators and Power Users**. It is also possible to emulate Windows Vista permissions by setting this option to **Administrators and Interactive Users**.
 
-While a specific UI does not exist in Windows XP or Windows Server 2003 for the use of [**SetSecurityInfo**](https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo) or [SetupDiSetDeviceRegistryProperty](https://msdn.microsoft.com/en-US/library/aa363461.aspx), it is possible to use these APIs to grant custom user groups device permissions. For example, a call to **SetSecurityInfo** will grant permissions to user groups. Permission changes with this API are temporary and will not persist across a reboot. However, calling [SetupDiSetDeviceRegistryProperty](https://msdn.microsoft.com/en-US/library/aa363461.aspx) will implement the permission changes in the registry, which will persist across a reboot.
+While a specific UI does not exist in Windows XP or Windows Server 2003 for the use of [**SetSecurityInfo**](/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo) or [SetupDiSetDeviceRegistryProperty](/windows/win32/api/setupapi/nf-setupapi-setupdisetdeviceregistrypropertya), it is possible to use these APIs to grant custom user groups device permissions. For example, a call to **SetSecurityInfo** will grant permissions to user groups. Permission changes with this API are temporary and will not persist across a reboot. However, calling [SetupDiSetDeviceRegistryProperty](/windows/win32/api/setupapi/nf-setupapi-setupdisetdeviceregistrypropertya) will implement the permission changes in the registry, which will persist across a reboot.
 
 ## Related topics
 
@@ -30,16 +30,12 @@ While a specific UI does not exist in Windows XP or Windows Server 2003 for th
 [Using IMAPI](using-imapi.md)
 </dt> <dt>
 
-[**SetSecurityInfo**](https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo)
+[**SetSecurityInfo**](/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo)
 </dt> <dt>
 
-[SetupDiSetDeviceRegistryProperty](https://msdn.microsoft.com/en-US/library/aa363461.aspx)
+[SetupDiSetDeviceRegistryProperty](/windows/win32/api/setupapi/nf-setupapi-setupdisetdeviceregistrypropertya)
 </dt> </dl>
 
  
 
  
-
-
-
-

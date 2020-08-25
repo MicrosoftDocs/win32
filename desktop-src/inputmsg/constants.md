@@ -23,7 +23,7 @@ The topics in this section provide the reference specifications for [Pointer Inp
 | [**Pointer Flags**](pointer-flags-contants.md)<br/>                        | Values that can appear in the **pointerFlags** field of the [**POINTER_INFO**](/previous-versions/windows/desktop/api) structure.<br/>                                                                              |
 | [**Pointer Message Flags**](pointer-message-flags.md)<br/>                 | Values that are used in various pointer macros (see [Macros](macros.md)).<br/>                                                                                                                       |
 | [**Touch Flags**](touch-flags-constants.md)<br/>                           | Values that can appear in the **touchFlags** field of the [**POINTER_TOUCH_INFO**](/previous-versions/windows/desktop/api) structure.<br/>                                                                   |
-| [**Touch Hit Testing Window**](touch-hit-testing-window-constants.md)<br/> | Indicates how messages for touch hit testing are processed by windows that are registered through the [**RegisterTouchHitTestingWindow**](https://msdn.microsoft.com/library/windows/desktop/hh437252) function.<br/> |
+| [**Touch Hit Testing Window**](touch-hit-testing-window-constants.md)<br/> | Indicates how messages for touch hit testing are processed by windows that are registered through the [**RegisterTouchHitTestingWindow**](/windows/win32/api/winuser/nf-winuser-registertouchhittestingwindow) function.<br/> |
 | [**Touch Mask**](touch-mask-constants.md)<br/>                             | Values that can appear in the **touchMask** field of the [**POINTER_TOUCH_INFO**](/previous-versions/windows/desktop/api) structure.<br/>                                                                    |
 
 
@@ -38,10 +38,4 @@ The topics in this section provide the reference specifications for [Pointer Inp
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

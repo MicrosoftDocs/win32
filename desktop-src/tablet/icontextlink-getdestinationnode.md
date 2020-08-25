@@ -48,7 +48,7 @@ For a description of return values, see [Classes and Interfaces - Ink Analysis](
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppDstContextNodeId* when you no longer need to use the destination node.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppDstContextNodeId* when you no longer need to use the destination node.
 
  
 
@@ -86,9 +86,4 @@ If the [**IContextLink**](icontextlink.md) object has a link type of Encloses (s
 </dt> </dl>
 
  
-
- 
-
-
-
 

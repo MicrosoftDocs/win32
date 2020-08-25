@@ -155,7 +155,7 @@ ahpsp[1] = CreatePropertySheetPage(&psp);
 
 When you create a page, you can assign custom data to it by using the **lParam** member of the [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structure, typically by assigning it a pointer to a user-defined structure.
 
-When the page is first selected, its dialog box procedure receives a [**WM\_INITDIALOG**](https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog) message. The message's *lParam* value points to a copy of of the page's [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structure, from which you can retrieve the custom data. You can then store this data for use in subsequent messages by using [**SetWindowLongPtr**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlongptra) with GWL\_USERDATA as the index parameter. Multiple pages can have a pointer to the same data, and any change to the data made by one page is available to the other pages in their dialog procedures.
+When the page is first selected, its dialog box procedure receives a [**WM\_INITDIALOG**](/windows/desktop/dlgbox/wm-initdialog) message. The message's *lParam* value points to a copy of of the page's [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structure, from which you can retrieve the custom data. You can then store this data for use in subsequent messages by using [**SetWindowLongPtr**](/windows/desktop/api/winuser/nf-winuser-setwindowlongptra) with GWL\_USERDATA as the index parameter. Multiple pages can have a pointer to the same data, and any change to the data made by one page is available to the other pages in their dialog procedures.
 
 ### Define the Wizard Property Sheet
 
@@ -192,7 +192,7 @@ PropertySheet(&psh);
 
 ### The Dialog Box Procedure
 
-Each page of the wizard needs a dialog box procedure to process Windows messages, particularly notifications from its controls and the wizard. The three messages that almost all wizards must be able to handle are [**WM\_INITDIALOG**](https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog), [**WM\_DESTROY**](https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy), and [**WM\_NOTIFY**](wm-notify.md).
+Each page of the wizard needs a dialog box procedure to process Windows messages, particularly notifications from its controls and the wizard. The three messages that almost all wizards must be able to handle are [**WM\_INITDIALOG**](/windows/desktop/dlgbox/wm-initdialog), [**WM\_DESTROY**](/windows/desktop/winmsg/wm-destroy), and [**WM\_NOTIFY**](wm-notify.md).
 
 The [**WM\_NOTIFY**](wm-notify.md) message is received before the page is displayed and when any of the wizard's buttons are clicked. The *lParam* parameter of the message is a pointer to a [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) header structure. The notification's ID is contained in the structure's **code** member. The four notifications that most wizards need to handle are the following.
 
@@ -211,13 +211,13 @@ The [**WM\_NOTIFY**](wm-notify.md) message is received before the page is displa
 
 ### Handle WM\_INITDIALOG and WM\_DESTROY
 
-When a page is about to be displayed for the first time, its dialog box procedure receives a [**WM\_INITDIALOG**](https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog) message. Handling this message allows the wizard to do any needed initialization tasks, such as storing custom data or setting fonts.
+When a page is about to be displayed for the first time, its dialog box procedure receives a [**WM\_INITDIALOG**](/windows/desktop/dlgbox/wm-initdialog) message. Handling this message allows the wizard to do any needed initialization tasks, such as storing custom data or setting fonts.
 
-When the property sheet is destroyed, you receive a [**WM\_DESTROY**](https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy) message. The wizard is automatically destroyed by the system, but handling this message allows you to do any needed cleanup.
+When the property sheet is destroyed, you receive a [**WM\_DESTROY**](/windows/desktop/winmsg/wm-destroy) message. The wizard is automatically destroyed by the system, but handling this message allows you to do any needed cleanup.
 
 ### Handle PSN\_SETACTIVE
 
-The [PSN\_SETACTIVE](psn-setactive.md) notification code is sent each time a page is about to be made visible. The first time a page is visited, PSN\_SETACTIVE follows the [**WM\_INITDIALOG**](https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog) message. If the page is subsequently revisited, it receives only a PSN\_SETACTIVE notification. This notification is usually handled to initialize data for the page and enable the appropriate buttons.
+The [PSN\_SETACTIVE](psn-setactive.md) notification code is sent each time a page is about to be made visible. The first time a page is visited, PSN\_SETACTIVE follows the [**WM\_INITDIALOG**](/windows/desktop/dlgbox/wm-initdialog) message. If the page is subsequently revisited, it receives only a PSN\_SETACTIVE notification. This notification is usually handled to initialize data for the page and enable the appropriate buttons.
 
 By default, the wizard displays **Back**, **Next**, and **Cancel** buttons, with all buttons enabled. To disable a button or display **Finish** instead of **Next**, you must send a [**PSM\_SETWIZBUTTONS**](psm-setwizbuttons.md) message. After this message has been sent, the state of the buttons is preserved until it is modified by another **PSM\_SETWIZBUTTONS** message, even if a new page is selected. Typically, all [PSN\_SETACTIVE](psn-setactive.md) handlers send this message to ensure that each page has the correct button state.
 
@@ -256,7 +256,7 @@ case WM_NOTIFY :
 
 When a **Next** or **Back** button is clicked, you receive a [PSN\_WIZNEXT](psn-wiznext.md) or [PSN\_WIZBACK](psn-wizback.md) notification code. By default, the wizard automatically goes to either the next or previous page in the order that is defined when the property sheet is created. A common reason to handle these notifications is to prevent the user from switching pages, or to override the default page order.
 
-To prevent the user from switching pages, handle the button notification, call the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function with the DWL\_MSGRESULT value set to –1, and return **TRUE**. For example:
+To prevent the user from switching pages, handle the button notification, call the [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function with the DWL\_MSGRESULT value set to –1, and return **TRUE**. For example:
 
 
 ```C++
@@ -274,7 +274,7 @@ case PSN_WIZNEXT :
 
 
 
-To override the standard order and go to a particular page, call [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) with the DWL\_MSGRESULT value set to the page's dialog box resource ID, and return **TRUE**. For example:
+To override the standard order and go to a particular page, call [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) with the DWL\_MSGRESULT value set to the page's dialog box resource ID, and return **TRUE**. For example:
 
 
 ```C++
@@ -292,7 +292,7 @@ case PSN_WIZNEXT :
 
 
 
-When the **Finish** or **Cancel** button is clicked, you receive a [PSN\_WIZFINISH](psn-wizfinish.md) or [PSN\_RESET](psn-reset.md) notification code, respectively. When either of these buttons is clicked, the wizard is automatically destroyed by the system. However, you can handle these notifications if you need to perform cleanup tasks before the wizard is destroyed. To prevent the wizard from being destroyed when you receive a PSN\_WIZFINISH notification, call [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) with the DWL\_MSGRESULT value set to **TRUE**, and return **TRUE**. For example:
+When the **Finish** or **Cancel** button is clicked, you receive a [PSN\_WIZFINISH](psn-wizfinish.md) or [PSN\_RESET](psn-reset.md) notification code, respectively. When either of these buttons is clicked, the wizard is automatically destroyed by the system. However, you can handle these notifications if you need to perform cleanup tasks before the wizard is destroyed. To prevent the wizard from being destroyed when you receive a PSN\_WIZFINISH notification, call [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) with the DWL\_MSGRESULT value set to **TRUE**, and return **TRUE**. For example:
 
 
 ```C++
@@ -321,11 +321,11 @@ If you are writing a wizard for systems with earlier versions of the common cont
 -   Create the interior page's header area explicitly on your templates.
 -   Do not use a header graphic because it may conflict with the title or subtitle if the wizard changes size.
 
-For further discussion of backward-compatible wizards, see [Backward Compatible Wizard 97](https://msdn.microsoft.com/library/ms737910(v=VS.85).aspx).
+For further discussion of backward-compatible wizards, see [Backward Compatible Wizard 97](/previous-versions//ms737910(v=vs.85)).
 
 ## Remarks
 
-For a complete discussion of design issues for Wizard97, see the [Wizard97 Specification](https://msdn.microsoft.com/library/ms738248(v=VS.85).aspx), elsewhere in the Windows SDK. This document has guidelines for such things as the dimensions for the dialog boxes, bitmap dimensions and colors, and the placement of controls.
+For a complete discussion of design issues for Wizard97, see the [Wizard97 Specification](/previous-versions//ms738248(v=vs.85)), elsewhere in the Windows SDK. This document has guidelines for such things as the dimensions for the dialog boxes, bitmap dimensions and colors, and the placement of controls.
 
 ## Related topics
 
@@ -340,7 +340,3 @@ For a complete discussion of design issues for Wizard97, see the [Wizard97 Speci
  
 
  
-
-
-
-

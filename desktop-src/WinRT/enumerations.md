@@ -14,25 +14,22 @@ ms.date: 05/31/2018
 -   [**HANDLE\_CREATION\_OPTIONS**](/windows/desktop/api/windowsstoragecom/ne-windowsstoragecom-handle_creation_options)
 -   [**HANDLE\_OPTIONS**](/windows/desktop/api/windowsstoragecom/ne-windowsstoragecom-handle_options)
 -   [**HANDLE\_SHARING\_OPTIONS**](/windows/desktop/api/windowsstoragecom/ne-windowsstoragecom-handle_sharing_options)
--   [**ActivationType**](https://msdn.microsoft.com/library/Dn408447(v=VS.85).aspx)
+-   [**ActivationType**](/windows/win32/api/activationregistration/ne-activationregistration-activationtype)
 -   [**AgileReferenceOptions**](/windows/desktop/api/combaseapi/ne-combaseapi-agilereferenceoptions)
--   [**BSOS\_OPTIONS**](https://msdn.microsoft.com/library/Hh846254(v=VS.85).aspx)
--   [**AsyncStatus**](https://msdn.microsoft.com/library/BR205767(v=VS.85).aspx)
--   [**ErrorOptions**](https://msdn.microsoft.com/library/Hh438361(v=VS.85).aspx)
--   [**IdentityType**](https://msdn.microsoft.com/library/Dn408454(v=VS.85).aspx)
--   [**InputStreamOptions**](https://msdn.microsoft.com/library/Hh438389(v=VS.85).aspx)
--   [**InstancingType**](https://msdn.microsoft.com/library/Dn408469(v=VS.85).aspx)
--   [**PropertyType**](https://msdn.microsoft.com/library/BR224615(v=VS.85).aspx)
--   [**RegisteredTrustLevel**](https://msdn.microsoft.com/library/Dn408470(v=VS.85).aspx)
--   [**RegistrationScope**](https://msdn.microsoft.com/library/Dn408453(v=VS.85).aspx)
--   [**ThreadingType**](https://msdn.microsoft.com/library/Dn408457(v=VS.85).aspx)
--   [**TrustLevel**](https://msdn.microsoft.com/library/Dn408452(v=VS.85).aspx)
--   [**RO\_INIT\_TYPE**](https://msdn.microsoft.com/library/BR224661(v=VS.85).aspx)
+-   [**BSOS\_OPTIONS**](/windows/win32/api/shcore/ne-shcore-bsos_options)
+-   [**AsyncStatus**](/windows/win32/api/asyncinfo/ne-asyncinfo-asyncstatus)
+-   [**ErrorOptions**](/previous-versions//hh438361(v=vs.85))
+-   [**IdentityType**](/windows/win32/api/activationregistration/ne-activationregistration-identitytype)
+-   [**InputStreamOptions**](/previous-versions//hh438389(v=vs.85))
+-   [**InstancingType**](/windows/win32/api/activationregistration/ne-activationregistration-instancingtype)
+-   [**PropertyType**](/windows/win32/api/windows.foundation/ne-windows-foundation-propertytype)
+-   [**RegisteredTrustLevel**](/previous-versions//dn408470(v=vs.85))
+-   [**RegistrationScope**](/windows/win32/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_registrationscope)
+-   [**ThreadingType**](/windows/win32/api/activationregistration/nf-activationregistration-idllserveractivatableclassregistration-get_threadingtype)
+-   [**TrustLevel**](/windows/win32/api/activationregistration/nf-activationregistration-iactivatableclassregistration-get_registeredtrustlevel)
+-   [**RO\_INIT\_TYPE**](/windows/win32/api/roapi/ne-roapi-ro_init_type)
 -   [**RO\_ERROR\_REPORTING\_FLAGS**](/windows/win32/api/roerrorapi/ne-roerrorapi-roerrorreportingflags)
 
  
 
  
-
-
-

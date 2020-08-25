@@ -19,7 +19,7 @@ An AppID is a GUID that represents a server process for one or more classes. Eac
 
 For some COM servers, the registration code generates an AppID and places entries in the registry that map the AppID to the name of the executable. But some COM servers do not provide this functionality. However, if the server's registration code adds an entry for HKCR\\CLSID{ServerCLSID}\\[LocalServer32](localserver32.md) when dcomcnfg.exe is run, it will automatically add an AppID for the CLSID.
 
-For a COM client that is not a server, this mapping is not created because the client is never registered. Therefore, to set security using the **AppID** key, the client must create the necessary registry entries, either programmatically by using the [registry functions](https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions) or by using regedit.
+For a COM client that is not a server, this mapping is not created because the client is never registered. Therefore, to set security using the **AppID** key, the client must create the necessary registry entries, either programmatically by using the [registry functions](/windows/desktop/SysInfo/registry-functions) or by using regedit.
 
 If you decide to set process-wide security in the registry under the **AppID** key, be aware that there are two named values under the **AppID** key that you can set without having administrator permissions:
 
@@ -41,7 +41,3 @@ The **AuthenticationLevel** and **AccessPermission** values are set independentl
  
 
  
-
-
-
-

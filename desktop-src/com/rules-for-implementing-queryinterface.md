@@ -61,7 +61,7 @@ the following rules apply:
 
 Interface implementations must maintain a counter of outstanding pointer references to all the interfaces on a given object. You should use an **unsigned integer** for the counter.
 
-If a client needs to know that resources have been freed, it must use a method in some interface on the object with higher-level semantics before calling [**IUnknown::Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx).
+If a client needs to know that resources have been freed, it must use a method in some interface on the object with higher-level semantics before calling [**IUnknown::Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release).
 
 ## Related topics
 
@@ -73,7 +73,3 @@ If a client needs to know that resources have been freed, it must use a method i
  
 
  
-
-
-
-

@@ -51,7 +51,7 @@ An application should return zero if it processes this message.
 
 ## Remarks
 
-The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function returns zero.
+The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function returns zero.
 
 ## Requirements
 
@@ -72,7 +72,7 @@ The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/n
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
 [**WM\_EXITMENULOOP**](wm-exitmenuloop.md)
@@ -85,10 +85,4 @@ The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/n
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

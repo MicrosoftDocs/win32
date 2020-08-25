@@ -43,7 +43,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 > [!Note]  
 > This message is posted by the operating system. Applications typically do not send this message.
@@ -52,9 +52,9 @@ A window receives this message through its [**WindowProc**](https://msdn.microso
 
 Themes are specifications for the appearance of controls, so that the visual element of a control is treated separately from its functionality.
 
-To release an existing theme handle, call [**CloseThemeData**](https://msdn.microsoft.com/library/Bb773287(v=VS.85).aspx). To acquire a new theme handle, use [**OpenThemeData**](https://msdn.microsoft.com/library/Bb759821(v=VS.85).aspx).
+To release an existing theme handle, call [**CloseThemeData**](/windows/win32/api/uxtheme/nf-uxtheme-closethemedata). To acquire a new theme handle, use [**OpenThemeData**](/windows/win32/api/uxtheme/nf-uxtheme-openthemedata).
 
-Following the **WM\_THEMECHANGED** broadcast, any existing theme handles are invalid. A theme-aware window should release and reopen any of its pre-existing theme handles when it receives the **WM\_THEMECHANGED** message. If the [**OpenThemeData**](https://msdn.microsoft.com/library/Bb759821(v=VS.85).aspx) function returns **NULL**, the window should paint unthemed.
+Following the **WM\_THEMECHANGED** broadcast, any existing theme handles are invalid. A theme-aware window should release and reopen any of its pre-existing theme handles when it receives the **WM\_THEMECHANGED** message. If the [**OpenThemeData**](/windows/win32/api/uxtheme/nf-uxtheme-openthemedata) function returns **NULL**, the window should paint unthemed.
 
 ## Requirements
 
@@ -75,19 +75,15 @@ Following the **WM\_THEMECHANGED** broadcast, any existing theme handles are inv
 **Other Resources**
 </dt> <dt>
 
-[**CloseThemeData**](https://msdn.microsoft.com/library/Bb773287(v=VS.85).aspx)
+[**CloseThemeData**](/windows/win32/api/uxtheme/nf-uxtheme-closethemedata)
 </dt> <dt>
 
-[**IsThemeActive**](https://msdn.microsoft.com/library/Bb759813(v=VS.85).aspx)
+[**IsThemeActive**](/windows/win32/api/uxtheme/nf-uxtheme-isthemeactive)
 </dt> <dt>
 
-[**OpenThemeData**](https://msdn.microsoft.com/library/Bb759821(v=VS.85).aspx)
+[**OpenThemeData**](/windows/win32/api/uxtheme/nf-uxtheme-openthemedata)
 </dt> </dl>
 
  
 
  
-
-
-
-

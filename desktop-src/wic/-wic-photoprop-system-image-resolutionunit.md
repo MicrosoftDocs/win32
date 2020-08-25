@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Image.ResolutionUnit Photo Metadata Policy
 
-The photo metadata policy for the [System.Image.ResolutionUnit](https://msdn.microsoft.com/library/bb787466(VS.85).aspx) property.
+The photo metadata policy for the [System.Image.ResolutionUnit](../properties/props-system-image-resolutionunit.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Image.ResolutionUnit](https://msdn.microsoft.com/library/bb787466(VS.85).aspx)
+[System.Image.ResolutionUnit](../properties/props-system-image-resolutionunit.md)
 </dt> </dl>
 
  
 
  
-
-
-

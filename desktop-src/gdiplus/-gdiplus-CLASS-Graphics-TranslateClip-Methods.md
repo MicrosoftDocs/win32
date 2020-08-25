@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Graphics.TranslateClip methods
 
-This topic lists the TranslateClip methods of the [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx).
+This topic lists the TranslateClip methods of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics).
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the TranslateClip methods of the [**Graphics**](https://msdn.mi
 
 | Method                                                                                     | Description                                                                                                                                                                                                      |
 |:-------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**TranslateClip(INT,INT)**](https://msdn.microsoft.com/library/ms535821(v=VS.85).aspx)     | The [**Graphics::TranslateClip**](https://msdn.microsoft.com/library/ms535821(v=VS.85).aspx) method translates the clipping region of this [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) object.<br/>   |
-| [**TranslateClip(REAL,REAL)**](https://msdn.microsoft.com/library/ms535822(v=VS.85).aspx) | The [**Graphics::TranslateClip**](https://msdn.microsoft.com/library/ms535822(v=VS.85).aspx) method translates the clipping region of this [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) object.<br/> |
+| [**TranslateClip(INT,INT)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-translateclip(inint_inint))     | The [**Graphics::TranslateClip**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-translateclip(inint_inint)) method translates the clipping region of this [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object.<br/>   |
+| [**TranslateClip(REAL,REAL)**](/previous-versions//ms535822(v=vs.85)) | The [**Graphics::TranslateClip**](/previous-versions//ms535822(v=vs.85)) method translates the clipping region of this [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object.<br/> |
 
 
 
@@ -34,7 +34,3 @@ This topic lists the TranslateClip methods of the [**Graphics**](https://msdn.mi
  
 
  
-
-
-
-

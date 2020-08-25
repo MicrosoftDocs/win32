@@ -8,15 +8,15 @@ ms.date: 05/31/2018
 
 # Device Events
 
-Applications, including services, can register to receive notification of device events. For example, a catalog service can receive notice of volumes being mounted or dismounted so it can adjust the paths to files on the volume. The system notifies an application that a device event has occurred by sending the application a [**WM\_DEVICECHANGE**](wm-devicechange.md) message. The system notifies a service that a device event has occurred by invoking the service's event handler function, [**HandlerEx**](https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex).
+Applications, including services, can register to receive notification of device events. For example, a catalog service can receive notice of volumes being mounted or dismounted so it can adjust the paths to files on the volume. The system notifies an application that a device event has occurred by sending the application a [**WM\_DEVICECHANGE**](wm-devicechange.md) message. The system notifies a service that a device event has occurred by invoking the service's event handler function, [**HandlerEx**](/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex).
 
-To receive device event notices, call the [**RegisterDeviceNotification**](/windows/desktop/api/Winuser/nf-winuser-registerdevicenotificationa) function with a [**DEV\_BROADCAST\_HANDLE**](/windows/desktop/api/Dbt/ns-dbt-dev_broadcast_handle) structure. Be sure to set the **dbch\_handle** member to the device handle obtained from the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function. Also, set the **dbch\_devicetype** member to **DBT\_DEVTYP\_HANDLE**. The function returns a device notification handle. Note that this is not the same as the volume handle.
+To receive device event notices, call the [**RegisterDeviceNotification**](/windows/desktop/api/Winuser/nf-winuser-registerdevicenotificationa) function with a [**DEV\_BROADCAST\_HANDLE**](/windows/desktop/api/Dbt/ns-dbt-dev_broadcast_handle) structure. Be sure to set the **dbch\_handle** member to the device handle obtained from the [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) function. Also, set the **dbch\_devicetype** member to **DBT\_DEVTYP\_HANDLE**. The function returns a device notification handle. Note that this is not the same as the volume handle.
 
 When your application receives notification, if the event type is [DBT\_CUSTOMEVENT](dbt-customevent.md), you may have received one of the device events defined in IoEvent.h. To determine if one of these events has occurred, use the following steps.
 
 1.  Treat the event data as a [**DEV\_BROADCAST\_HDR**](/windows/desktop/api/Dbt/ns-dbt-dev_broadcast_hdr) structure. Verify that the **dbch\_devicetype** member is set to **DBT\_DEVTYP\_HANDLE**.
 2.  If **dbch\_devicetype** is **DBT\_DEVTYP\_HANDLE**, the event data is really a pointer to a [**DEV\_BROADCAST\_HANDLE**](/windows/desktop/api/Dbt/ns-dbt-dev_broadcast_handle) structure.
-3.  Compare the **dbch\_eventguid** member to the **GUID**s listed in the following table using the [**IsEqualGUID**](https://msdn.microsoft.com/library/ms680575(v=VS.85).aspx) function.
+3.  Compare the **dbch\_eventguid** member to the **GUID**s listed in the following table using the [**IsEqualGUID**](/windows/win32/api/guiddef/nf-guiddef-isequalguid) function.
 
 <dl> <dt>
 
@@ -30,7 +30,7 @@ bc56c139-7a10-47ee-a294-4c6a38f0149a
 
 The CD-ROM device has been locked for exclusive access.
 
-**Windows Server 2003 and Windows XP:** Support for this value requires IMAPI 2.0. For more information, see [Image Mastering API](https://docs.microsoft.com/windows/desktop/imapi/portal).
+**Windows Server 2003 and Windows XP:** Support for this value requires IMAPI 2.0. For more information, see [Image Mastering API](/windows/desktop/imapi/portal).
 
 
 </dt> </dl> </dd> <dt>
@@ -45,7 +45,7 @@ a3b6d27d-5e35-4885-81e5-ee18c00ed779
 
 A CD-ROM device that was locked for exclusive access has been unlocked.
 
-**Windows Server 2003 and Windows XP:** Support for this value requires IMAPI 2.0. For more information, see [Image Mastering API](https://docs.microsoft.com/windows/desktop/imapi/portal).
+**Windows Server 2003 and Windows XP:** Support for this value requires IMAPI 2.0. For more information, see [Image Mastering API](/windows/desktop/imapi/portal).
 
 
 </dt> </dl> </dd> <dt>
@@ -291,7 +291,7 @@ af39da42-6622-41f5-970b-139d092fa3d9
 
 
 
-The volume's unique identifier has been changed. For more information about the unique identifier, see [**IOCTL\_MOUNTDEV\_QUERY\_UNIQUE\_ID**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mountdev/ni-mountdev-ioctl_mountdev_query_unique_id).
+The volume's unique identifier has been changed. For more information about the unique identifier, see [**IOCTL\_MOUNTDEV\_QUERY\_UNIQUE\_ID**](/windows-hardware/drivers/ddi/content/mountdev/ni-mountdev-ioctl_mountdev_query_unique_id).
 
 **Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This value is not supported until Windows Server 2008 R2 and Windows 7.
 
@@ -345,9 +345,4 @@ The **dbch\_hdevnotify** member of the [**DEV\_BROADCAST\_HANDLE**](/windows/des
 
 
  
-
- 
-
-
-
 

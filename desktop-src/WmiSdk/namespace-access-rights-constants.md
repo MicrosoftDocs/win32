@@ -23,7 +23,7 @@ api_location:
 
 # Namespace Access Rights Constants
 
-WMI has security constants used for namespace access checking by [**\_\_SystemSecurity::GetCallerAccessRights**](--systemsecurity-getcalleraccessrights.md). For security information about access control lists (ACLs, DACLs, or SACLs), see [Access Control Lists (ACLs)](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists) and [**Standard Access Rights**](https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights). These constants are defined in the **WBEM\_SECURITY\_FLAGS** enumeration.
+WMI has security constants used for namespace access checking by [**\_\_SystemSecurity::GetCallerAccessRights**](--systemsecurity-getcalleraccessrights.md). For security information about access control lists (ACLs, DACLs, or SACLs), see [Access Control Lists (ACLs)](/windows/desktop/SecAuthZ/access-control-lists) and [**Standard Access Rights**](/windows/desktop/SecAuthZ/standard-access-rights). These constants are defined in the **WBEM\_SECURITY\_FLAGS** enumeration.
 
 <dl> <dt>
 
@@ -137,9 +137,4 @@ Allows a user account to remotely perform any operations allowed by the permissi
 </dt> </dl>
 
  
-
- 
-
-
-
 

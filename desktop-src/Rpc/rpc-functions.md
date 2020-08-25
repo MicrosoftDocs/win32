@@ -23,7 +23,7 @@ Microsoft RPC currently supports the following functions:
 -   [**MesIncrementalHandleReset**](/windows/desktop/api/Midles/nf-midles-mesincrementalhandlereset)
 -   [**MesInqProcEncodingId**](/windows/desktop/api/Midles/nf-midles-mesinqprocencodingid)
 -   [**NdrGetUserMarshalInfo**](/windows/desktop/api/Rpcndr/nf-rpcndr-ndrgetusermarshalinfo)
--   [**RpcAbnormalTermination**](https://msdn.microsoft.com/library/Aa375386(v=VS.80).aspx)
+-   [**RpcAbnormalTermination**](/previous-versions/)
 -   [**RpcAsyncAbortCall**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasyncabortcall)
 -   [**RpcAsyncCancelCall**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccancelcall)
 -   [**RpcAsyncCompleteCall**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccompletecall)
@@ -53,7 +53,7 @@ Microsoft RPC currently supports the following functions:
 -   [**RpcCancelThread**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpccancelthread)
 -   [**RpcCancelThreadEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpccancelthreadex)
 -   [**RpcCertGeneratePrincipalName**](/windows/desktop/api/Rpcssl/nf-rpcssl-rpccertgenerateprincipalname)
--   [**RpcDiagnoseError**](https://msdn.microsoft.com/library/Aa375627(v=VS.80).aspx)
+-   [**RpcDiagnoseError**](/previous-versions/aa375627(v=vs.80))
 -   [**RpcEpRegister**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcepregister)
 -   [**RpcEpRegisterNoReplace**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcepregisternoreplace)
 -   [**RpcEpResolveBinding**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcepresolvebinding)
@@ -181,7 +181,7 @@ Microsoft RPC currently supports the following functions:
 -   [**RpcSsContextLockShared**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcsscontextlockshared)
 -   [**RpcSsDestroyClientContext**](/windows/desktop/api/Rpcndr/nf-rpcndr-rpcssdestroyclientcontext)
 -   [**RpcSsDisableAllocate**](/windows/desktop/api/Rpcndr/nf-rpcndr-rpcssdisableallocate)
--   [**RpcSsDontSerializeContext**](https://msdn.microsoft.com/library/Aa378473(v=VS.80).aspx)
+-   [**RpcSsDontSerializeContext**](/previous-versions/aa378473(v=vs.80))
 -   [**RpcSsEnableAllocate**](/windows/desktop/api/Rpcndr/nf-rpcndr-rpcssenableallocate)
 -   [**RpcSsFree**](/windows/desktop/api/Rpcndr/nf-rpcndr-rpcssfree)
 -   [**RpcSsGetThreadHandle**](/windows/desktop/api/Rpcndr/nf-rpcndr-rpcssgetthreadhandle)
@@ -205,7 +205,3 @@ Microsoft RPC currently supports the following functions:
  
 
  
-
-
-
-

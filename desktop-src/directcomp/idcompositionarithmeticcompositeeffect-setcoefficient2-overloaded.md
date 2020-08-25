@@ -24,8 +24,8 @@ Sets the second coefficient for the equation used to composite the two input ima
 
 | Method                                                                                                          | Description                                                                                     |
 |:----------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------|
-| [**SetCoefficient2**](https://msdn.microsoft.com/library/Dn919702(v=VS.85).aspx)                               | Sets the second coefficient for the equation used to composite the two input images.<br/> |
-| [**SetCoefficient2 (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919703(v=VS.85).aspx) | Sets the second coefficient for the equation used to composite the two input images.<br/> |
+| [**SetCoefficient2**](/windows/win32/api/dcomp/nf-dcomp-idcompositionarithmeticcompositeeffect-setcoefficient2(float))                               | Sets the second coefficient for the equation used to composite the two input images.<br/> |
+| [**SetCoefficient2 (IDCompositionAnimation \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionarithmeticcompositeeffect-setcoefficient2(idcompositionanimation)) | Sets the second coefficient for the equation used to composite the two input images.<br/> |
 
 
 
@@ -43,14 +43,9 @@ Sets the second coefficient for the equation used to composite the two input ima
 
 <dl> <dt>
 
-[**idcompositionarithmeticcompositeeffect**](https://msdn.microsoft.com/library/Dn919698(v=VS.85).aspx)
+[**idcompositionarithmeticcompositeeffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionarithmeticcompositeeffect)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

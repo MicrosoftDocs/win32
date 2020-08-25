@@ -1220,7 +1220,7 @@ End If
 <dl>
     <dt>[<b>CIM_Processor</b>](cim-processor.md)</dt>
     <dt>[Computer System Hardware Classes](computer-system-hardware-classes.md)</dt>
-    <dt>[WMI Tasks: Computer Hardware](/windows/win32/wmisdk/wmi-tasks--computer-hardware)</dt>
+    <dt>[WMI Tasks: Computer Hardware](../wmisdk/wmi-tasks--computer-hardware.md)</dt>
 </dl>
 
   [0]: /windows/win32/wmisdk/retrieving-a-class

@@ -51,7 +51,7 @@ Identifier of of the string to be loaded.
 
 Type: **LPWSTR\***
 
-The location where the newly allocated string will be placed. The string must be freed using [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) when it is no longer needed.
+The location where the newly allocated string will be placed. The string must be freed using [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) when it is no longer needed.
 
 </dd> <dt>
 
@@ -108,14 +108,8 @@ Possible return values include, but are not limited to, the following.
 [**UtilAssembleStringsWithAlloc**](utilassemblestringswithalloc.md)
 </dt> <dt>
 
-[**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree)
+[**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -32,7 +32,7 @@ Retrieves the minimum and maximum positions (range) for an up-down control.
 
 ## Return value
 
-The return value is a 32-bit value that contains the minimum and maximum positions. The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is the maximum position for the control, and the [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) is the minimum position.
+The return value is a 32-bit value that contains the minimum and maximum positions. The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is the maximum position for the control, and the [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) is the minimum position.
 
 ## Requirements
 
@@ -47,10 +47,4 @@ The return value is a 32-bit value that contains the minimum and maximum positio
 
 
  
-
- 
-
-
-
-
 

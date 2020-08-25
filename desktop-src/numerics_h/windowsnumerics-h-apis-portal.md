@@ -23,4 +23,4 @@ This namespace is available only in C++. Its .NET equivalent is [System.Numerics
 | [**float4x4 structure**](float4x4-structure.md) | A 4x4 matrix, used for 3D transforms. |
 | [**plane structure**](plane-structure.md) | This structure represents a plane using a 3D vector normal and a distance value. |
 | [**quaternion structure**](quaternion-structure.md) | A four dimensional vector, used to represent a rotation. |
-| [**Windows numerics and DirectXMath interop APIs**](windows-numerics-and-directxmath-interop-apis.md) | These functions convert [**Windows.Foundation.Numerics**](/uwp/api/Windows.Foundation.Numerics) types to and from the DirectXMath SIMD types [XMVECTOR](/windows/win32/dxmath/xmvector-data-type) and [XMMATRIX](/windows/win32/api/directxmath/ns-directxmath-xmmatrix). |
+| [**Windows numerics and DirectXMath interop APIs**](windows-numerics-and-directxmath-interop-apis.md) | These functions convert [**Windows.Foundation.Numerics**](/uwp/api/Windows.Foundation.Numerics) types to and from the DirectXMath SIMD types [XMVECTOR](../dxmath/xmvector-data-type.md) and [XMMATRIX](/windows/win32/api/directxmath/ns-directxmath-xmmatrix). |

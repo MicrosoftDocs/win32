@@ -57,18 +57,15 @@ For instructions about how to build the sample, see the Readme file included wit
 
 <dl> <dt>
 
-[**IFileDialog**](https://msdn.microsoft.com/library/Bb775966(v=VS.85).aspx)
+[**IFileDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifiledialog)
 </dt> <dt>
 
 [**IFileSaveDialog**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ifilesavedialog)
 </dt> <dt>
 
-[**IFileOpenDialog**](https://msdn.microsoft.com/library/Bb775834(v=VS.85).aspx)
+[**IFileOpenDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifileopendialog)
 </dt> </dl>
 
  
 
  
-
-
-
