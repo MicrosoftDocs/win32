@@ -20,7 +20,7 @@ keywords:
 - custom dialog boxes
 - dialog boxes,settings
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 08/25/2020
 ---
 
 # Dialog Box Programming Considerations
@@ -30,14 +30,14 @@ This overview discusses some programming considerations concerning dialog boxes.
 The overview includes the following topics.
 
 -   [Dialog Box Procedures](#dialog-box-procedures)
-    -   [The WM\_INITDIALOG Message](/windows)
-    -   [The WM\_COMMAND Message](/windows)
-    -   [The WM\_PARENTNOTIFY Message](/windows)
+    -   [The WM\_INITDIALOG Message](wm-initdialog.md)
+    -   [The WM\_COMMAND Message](/windows/desktop/menurc/wm-command)
+    -   [The WM\_PARENTNOTIFY Message]((/previous-versions/windows/desktop/inputmsg/wm-parentnotify)
     -   [Control-Color Messages](#control-color-messages)
     -   [Dialog Box Default Message Processing](#dialog-box-default-message-processing)
 -   [Dialog Box Keyboard Interface](#dialog-box-keyboard-interface)
-    -   [The WS\_TABSTOP Style](/windows)
-    -   [The WS\_GROUP Style](/windows)
+    -   [The WS\_TABSTOP Style](/windows/desktop/winmsg/window-styles)
+    -   [The WS\_GROUP Style](/windows/desktop/winmsg/window-styles)
     -   [Mnemonics](#mnemonics)
 -   [Dialog Box Settings](#dialog-box-settings)
     -   [Radio Buttons and Check Boxes](#radio-buttons-and-check-boxes)
