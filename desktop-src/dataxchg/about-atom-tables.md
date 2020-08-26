@@ -13,7 +13,7 @@ keywords:
 - integer atoms
 - string atoms
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 08/25/2020
 ---
 
 # About Atom Tables
@@ -29,6 +29,7 @@ The system uses atom tables that are not directly accessible to applications. Ho
 The following topics are discussed in this section.
 
 -   [Global Atom Table](#global-atom-table)
+-   [User Atom Table](#user-atom-table)
 -   [Local Atom Tables](#local-atom-tables)
 -   [Atom Types](#atom-types)
     -   [String Atoms](#string-atoms)
@@ -42,6 +43,18 @@ The following topics are discussed in this section.
 The global atom table is available to all applications. When an application places a string in the global atom table, the system generates an atom that is unique throughout the system. Any application that has the atom can obtain the string it identifies by querying the global atom table.
 
 An application that defines a private DDE-data format for sharing data with other applications should place the format name in the global atom table. This technique prevents conflicts with the names of formats defined by the system or by other applications, and makes the identifiers (atoms) for the messages or formats available to the other applications.
+
+## User Atom Table
+
+In addition to the global atom table, the user atom table is another system atom table that is also shared across all processes. The user atom table is used for a small number of scenarios internal to win32k; for example, windows module names, well known strings in win32k, OLE formats, etc. Although applications do not interact with the user atom table directly, they call several APIs—such as [RegisterClass](/windows/win32/api/winuser/nf-winuser-registerclassexa), [RegisterWindowMessage](/windows/win32/api/winuser/nf-winuser-registerwindowmessagea), and [RegisterClipboardFormat](/windows/win32/api/winuser/nf-winuser-registerclipboardformata)—that add entries to the user atom table. The entries added by `RegisterClass` can be deleted by `UnregisterClass`. However, the entries added by `RegisterWindowMessage` and `RegisterClipboardFormat` do not get deleted until the session ends. If the user atom table has no more space and the string being passed in is not already in the table, the call will fail. 
+
+### Atom Table Size
+ 
+Many critical APIs, including [CreateWindow](/windows/win32/api/winuser/nf-winuser-createwindowa), rely on user atoms. Therefore, space exhaustion in the user atom table will result in serious issues; for example, all applications may fail to launch. Here are some recommendations to ensure your application utilizes atom tables efficiently and preserves the reliability and performance of the application and system:  
+
+1. You should limit your app's usage of the user atom table. Storing unique strings using APIs like `RegisterClass`, `RegisterWindowMessage`, or `RegisterClipboardFormat` takes space in the user atom table, which is used globally by other apps to register window classes using strings. If at all possible, you should use [AddAtom](/windows/desktop/api/Winbase/nf-winbase-addatomw)/[DeleteAtom](/windows/desktop/api/Winbase/nf-winbase-deleteatom) to store strings in a local atom table, or  [GlobalAddAtom](/windows/desktop/api/Winbase/nf-winbase-globaladdatoma)/[GlobalDeleteAtom](/windows/desktop/api/Winbase/nf-winbase-globaldeleteatom) if the atoms are needed cross-process.
+
+1. If there is concern about the application causing user atom table issues, you can investigate the root cause by connecting the kernel debugger and breaking into the process on calls to `UserAddAtomEx` (`bae1 win32kbase!UserAddAtomEx /p <eprocess> "kc10;g"`). Look for `user32!` on the callstack to see which API is being called. The methodology is similar to the global atom table issue detection explained in [Identifying Global Atom Table Leaks](/archive/blogs/ntdebugging/identifying-global-atom-table-leaks). Another way to dump the contents of the user atom table is by calling [GetClipboardFormatName](/windows/win32/api/winuser/nf-winuser-getclipboardformatnamea) over the range of possible atoms from 0xC000 to 0xFFFF. If the total atom count steadily goes up while the application is running or does not return to baseline when the app is closed, there is a problem.
 
 ## Local Atom Tables
 
