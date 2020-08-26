@@ -32,7 +32,7 @@ The overview includes the following topics.
 -   [Dialog Box Procedures](#dialog-box-procedures)
     -   [The WM\_INITDIALOG Message](wm-initdialog.md)
     -   [The WM\_COMMAND Message](/windows/desktop/menurc/wm-command)
-    -   [The WM\_PARENTNOTIFY Message]((/previous-versions/windows/desktop/inputmsg/wm-parentnotify)
+    -   [The WM\_PARENTNOTIFY Message](/previous-versions/windows/desktop/inputmsg/wm-parentnotify)
     -   [Control-Color Messages](#control-color-messages)
     -   [Dialog Box Default Message Processing](#dialog-box-default-message-processing)
 -   [Dialog Box Keyboard Interface](#dialog-box-keyboard-interface)
