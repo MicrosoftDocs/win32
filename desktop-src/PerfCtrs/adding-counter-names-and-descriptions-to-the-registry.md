@@ -8,96 +8,124 @@ ms.date: 05/31/2018
 
 # Adding Counter Names and Descriptions to the Registry
 
-The names and descriptions of all performance objects and their counters are stored in the registry. To store names and descriptions for your objects and counters:
+> [!IMPORTANT]
+> Due to significant performance and reliability limitations, the method for providing performance counter data that this topic describes may be altered or unavailable in the future. Instead, Microsoft recommends that you use the method described in [Providing Counter Data Using Version 2.0](providing-counter-data-using-version-2-0.md) for creating new performance counters and that you migrate existing performance counters to use that method.
 
--   [Create a .h header file](#creating-a-symbolic-constants-h-file) that contains the symbolic constants for the offsets to your objects and counters
--   [Create an initialization (.INI) file](#creating-an-initialization-ini-file) that contains the strings
--   [Run the **lodctr** tool](#running-the-lodctr-tool), included with the computer, to load the names and descriptions into the registry
+The names and descriptions of all V1 performance objects and their counters must be installed the system. To store names and descriptions for the objects and counters from your [V1 provider](providing-counter-data.md):
+
+- [Create a .h header file](#creating-a-symbolic-constants-h-file) that contains the symbolic constants for the offsets to your objects and counters.
+- [Create an initialization (.INI) file](#creating-an-initialization-ini-file) that contains the strings.
+- When installing your component, [run the **lodctr** tool](#running-the-lodctr-tool) to install the names and descriptions into the registry.
+- When uninstalling your component, run the unlodctr tool to remove the names and descriptions from the registry.
 
 ## Creating a symbolic constants (.h) file
 
-Create a .h header file that defines constants for the offsets to the objects and counters that your provider provides. The constant values must be consecutive, even numbers beginning with zero. Group the constants by objects. The constants determine the order in which the counters are added to the name and help text in the registry. The provider uses the offsets to determine which object is being queried and the index values to use when returning the data. For details, see [Implementing OpenPerformanceData](implementing-openperformancedata.md).
+Create a .h header file that defines constants (macros) for the offsets to the objects and counters that your provider provides. The .h header is used as input to **lodctr** during installation of your provider, and may also be used by the C/C++ code of your provider.
 
-The following shows an example of a symbolic constant file, named CounterOffsets.h that is used in the [Creating a Performance Extension DLL](creating-a-performance-extension-dll.md) example.
+The constant values must be consecutive, even numbers beginning with zero. Group the constants by objects (i.e. start each group with the object offset, then follow with the offsets of the counters for that object).
 
+The constants in the header determine the order in which the counters are added to the name and help text in the registry. The provider uses the offsets to determine which object is being queried and the index values to use when returning the data. For details, see [Implementing OpenPerformanceData](implementing-openperformancedata.md).
+
+The following shows an example of a symbolic constant file, named CounterOffsets.h, that is used in the [Creating a Performance Extension DLL](creating-a-performance-extension-dll.md) example.
 
 ```C++
-#ifndef _OFFSETS_H
-#define _OFFSETS_H
+#ifndef OFFSETS_H
+#define OFFSETS_H
 
 // Symbol file that defines constant values for the objects
 // and counters that the provider provides. The counters should be
 // grouped by object.
 
-#define TRANSFER_OBJECT      0
-#define BYTES_SENT           2
-#define AVAILABLE_BANDWIDTH  4
+#define TRANSFER_OBJECT      0 // First object must be at offset 0.
+#define BYTES_SENT           2 // Counters for the object follow.
+#define AVAILABLE_BANDWIDTH  4 // Offsets must be even numbers.
 
+// Not required, but for convenience in implementing the Open function:
 #define LAST_TRANSFER_OBJECT_COUNTER_OFFSET  AVAILABLE_BANDWIDTH
 
-#define PEER_OBJECT          6
-#define BYTES_SERVED         8
+#define PEER_OBJECT          6 // Second object must be at the next offset.
+#define BYTES_SERVED         8 // Counter for the second object.
 
+// Not required, but for convenience in implementing the Open function:
 #define LAST_PEER_OBJECT_COUNTER_OFFSET  BYTES_SERVED
 
-#endif
+#endif // OFFSETS_H
 ```
-
-
 
 ## Creating an initialization (.INI) file
 
-The initialization (.INI) file contains the name and help strings for each object and counter defined in your symbol file. The .INI file is used as input to **lodctr** and has the following format:
+The initialization (.INI) file contains the name and help strings for each object and counter defined in your symbol file. The .INI file is used as input to **lodctr** during installation of your provider.
 
-``` syntax
-// Information about the application that is providing the counter data.
-// You must specify the DriverName and SymbolFile keys. The Trusted key is
-// optional.
+The .INI file should be encoded as UTF-16LE (with byte order mark) and should have the following sections and keys:
+
+```ini
 [info]
-drivername=Application_Name
+drivername=ServiceKeyName
 symbolfile=SymbolFile.h
-trusted=
+trusted=(Unused)
 
-// List of performance objects that the provider supports. Value is ignored.
-// Specify the object's symbolic constant for only one language identifier
-// if the object supports more than one language.
-[objects] 
-symbol_langid_NAME=  // Performance object name string
+[objects]
+<symbol>_<langid>_NAME=(Unused)
 
-// Specify one key for each language supported. Value is ignored.
-[languages] 
-langid=              // Language identifier, for example, for English use 009
+[languages]
+<langid>=(Unused)
 
-// Name and description of each counter or object.
-[text]  
-symbol_langid_NAME=Name         // Counter name string 
-symbol_langid_HELP=Description  // Help description string 
+[text]
+<symbol>_<langid>_NAME=Name
+<symbol>_<langid>_HELP=Description
 ```
 
-Although the objects section is optional, you are encourage to include this section in your .INI file. If you include this section, your performance DLL is called only if you support the requested object. If you do not include the objects section, your DLL is called for each query because the system does not know which objects you support. Also, if the object section is not included, **lodctr** generates a message in the application event log stating that the .INI file did not contain an objects section. The event identifier of this message is 2000.
+### [info] section
 
-The keys are defined as follows:
+The `[info]` section contains general information about the provider. The section keys are defined as follows:
 
+|Key|Description
+|---|-----------
+|**DriverName**| Specify the name of the provider's performance key located in the registry under the `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services` key. For information on creating this key, see [Creating the Application's Performance Key](creating-the-applications-performance-key.md).
+|**SymbolFile**| Specify the .h header file that contains symbolic values of your provider's objects and counters. During installation (when invoking **lodctr**), the header file must be in the same directory as the .INI file.
+|**Trusted**| If you include this key in the `[info]` section, **lodctr** will add a Library Validation Code registry value to your performance key with a binary signature of your performance DLL. When PERFLIB calls your DLL it compares the signature with your DLL to determine if the DLL has been modified. The value of the **Trusted** key is ignored.
 
+The `DriverName` and `SymbolFile` keys are required.
 
-| Key                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **DriverName**                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Specify the name of the application's performance key located under the **HKEY\_LOCAL\_MACHINE**\\**SYSTEM**\\**CurrentControlSet**\\**Services** key. For information on creating this key, see [Creating the Application's Performance Key](creating-the-applications-performance-key.md).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| **SymbolFile**                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Specify the .h header file that contains symbolic values of your provider's objects and counters. The header file must be in the same directory as the .INI file.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Trusted**                                                                                                                                                                                                                                                                                                                                                                                                                                                       | No value. If you include this key, **lodctr** adds a Library Validation Code registry value to your performance key. The data value is a binary signature of your performance DLL. When PERFLIB calls your DLL it compare the signature with your DLL to determine if it can trust it.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| **Langid**                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Specify the language identifier of each language for which you are providing name and help text. To specify most languages, use the primary language identifier only. The complete list of language identifiers is in the Winnt.h header file, under the heading "Primary Language Ids." Convert the hex value found in Winnt.h into a sequence of characters that omit the  x.  For example, to specify English strings (0x09), use 009. To specify French strings (0x0C), use 00C. Note also that you can not specify Microsoft Locale ID here (e.g. 1033 for English-US.) To specify Chinese and Portuguese text, use both the primary and sublanguage identifiers. If you specify the primary identifier only, **lodctr** uses 804 (simplified Chinese) and 416 (Portuguese), respectively.**Windows Server 2003 and Windows XP:** Specify only the primary language identifier for Portuguese.<br/> <br/> |
-| <dl> <dt><span id="symbol_langid_NAME"></span><span id="symbol_langid_name"></span><span id="SYMBOL_LANGID_NAME"></span>***symbol*\_*langid*\_NAME**</dt> <dd></dd> <dt><span id="symbol_langid_HELP"></span><span id="symbol_langid_help"></span><span id="SYMBOL_LANGID_HELP"></span>***symbol*\_*langid*\_HELP**</dt> <dd></dd> </dl> | Specify the text for your objects and counters. *Symbol* is the symbolic constant defined in *SymbolFile*. *Langid* is the language identifier of the text. NAME and HELP identify the text as either the name of the counter or the help text associated with the counter. The HELP text is optional, but you are encourage to provide it. The text keys can appear in any order. The length of the text strings is arbitrary. The text strings should not contain formatting characters.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                      |
+### [objects] section
 
+The `[objects]` section provides a list of the performance objects that the provider supports. This is used to determine whether each symbol from the `[text]` section refers an object or a counter.
 
+For each object (counterset) supported by your provider, add one key named `<symbol>_<langid>_NAME=` to the `[objects]` section, where `<symbol>` is the name of the object and `<langid>` is the language id of one of the supported languages. The value is ignored.
 
- 
+> [!IMPORTANT]
+> The `[objects]` section improves the performance of the system. Although the objects section is optional, you should always include this section in your .INI file. If you include this section, your performance DLL is called only if you support the requested object. If you do not include the objects section, your DLL is called for every query because the system does not know which objects your provider supports. If the object section is not included, **lodctr** generates a message in the application event log stating that the .INI file did not contain an objects section. The event identifier of this message is 2000.
 
-The following is an example of an initialization file that is used in the [Creating a Performance Extension DLL](creating-a-performance-extension-dll.md) example.
+### [languages] section
 
+The `[languages]` section provides a list of the language identifiers of each language for which your provider supplies name and help strings. All providers should support `009` (English).
 
-```C++
-// Initialization file example
+For each supported language, add one key named `<langid>=`. The value is ignored, but for documentation purposes the value is normally set to the name of the corresponding language, e.g. `009=English`.
 
+For most languages, you should use the primary language identifier. The complete list of language identifiers is in the Winnt.h header file, under the heading "Primary Language Ids." Convert the value found in Winnt.h into a sequence of 3 hexadecimal digits by removing the `0x` prefix and adding leading `0` digits until the sequence is 3 digits long. For example, to specify English strings (0x9), use 009. To specify Italian strings (0x10), use 010.
+
+Chinese and Portuguese languages require both the primary and sublanguage identifiers. Use 404, 804, 416, or 816 instead of 004 or 016.
+
+### [text] section
+
+The `[text]` section provides the name and help strings for your objects and counters.
+
+For each object or counter, and for each supported language, you must provide a NAME key (containing the name or title string for your object or counter) and you may optionally provide a HELP key (containing the description or explanation string for your object or counter). The keys should be named `<symbol>_<langid>_NAME` and `<symbol>_<langid>_HELP`, where `<symbol>` is the symbolic constant for the object or counter (as defined in the symbolic constant .h file), and `<langid>` is the language identifier used for this string.
+
+For example, the English strings for a counter with symbol `MY_COUNTER` would be specified as:
+
+```ini
+MY_COUNTER_009_NAME=My Counter
+MY_COUNTER_009_HELP=Description for My Counter.
+```
+
+The text keys can appear in any order. The text strings should not contain formatting characters such as tabs.
+
+### Example INI file
+
+The following is an example of an initialization file that is used in the [Creating a Performance Extension DLL](creating-a-performance-extension-dll.md) sample.
+
+```ini
 [info]
 drivername=MyApplication
 symbolfile=CounterOffsets.h
@@ -107,14 +135,14 @@ trusted=
 TRANSFER_OBJECT_009_NAME=
 PEER_OBJECT_009_NAME=
 
-[languages] 
+[languages]
 009=English
-012=French
+00C=French
 
-[text] 
+[text]
 
 // English strings
- 
+
 TRANSFER_OBJECT_009_NAME=Transfer
 TRANSFER_OBJECT_009_HELP=Provides information related to transferring files.
 
@@ -132,35 +160,33 @@ BYTES_SERVED_009_HELP=Number of bytes served from the cache.
 
 // French strings
 
-TRANSFER_OBJECT_012_NAME=Transfert
-TRANSFER_OBJECT_012_HELP=Fournit des informations lio?=es aux transferts de fichiers.
+TRANSFER_OBJECT_00C_NAME=Transfert
+TRANSFER_OBJECT_00C_HELP=Fournit des informations liées aux transferts de fichiers.
 
-BYTES_SENT_012_NAME=Octets Envoyo?=s
-BYTES_SENT_012_HELP=Nombre d'octets envoyo?=s dans le dernier transfert.
+BYTES_SENT_00C_NAME=Octets Envoyés
+BYTES_SENT_00C_HELP=Nombre d'octets envoyés dans le dernier transfert.
 
-AVAILABLE_BANDWIDTH_012_NAME=Bande Passante Disponible
-AVAILABLE_BANDWIDTH_012_HELP=Bande passante disponible sur le ro?=seau, en octets.
+AVAILABLE_BANDWIDTH_00C_NAME=Bande Passante Disponible
+AVAILABLE_BANDWIDTH_00C_HELP=Bande passante disponible sur le réseau, en octets.
 
-PEER_OBJECT_012_NAME=Pair
-PEER_OBJECT_012_HELP=Fournit des informations lio?=es o?= mise en cache homologue.
+PEER_OBJECT_00C_NAME=Pair
+PEER_OBJECT_00C_HELP=Fournit des informations liées é mise en cache homologue.
 
-BYTES_SERVED_012_NAME=Octets Servis
-BYTES_SERVED_012_HELP=Le nombre d'octets servis du cache.
+BYTES_SERVED_00C_NAME=Octets Servis
+BYTES_SERVED_00C_HELP=Le nombre d'octets servis du cache.
 ```
-
-
 
 ## Running the Lodctr tool
 
-To load the names and help strings defined in your .INI file, run the **lodctr** tool from the folder that contains your .INI file and header file. The tool is included with the computer. You must run **lodctr** with elevated privileges. For details on using the **lodctr** tool, see Help and Support Center.
+To load the names and help strings defined in your .INI file (during the installation of your provider), run the **lodctr** tool from the folder that contains your .INI file and header file. The tool is included with the computer. You must run **lodctr** with elevated privileges. The parameter to **lodctr** is the path to your .INI file. For example, `lodctr "C:\Program Files\MyCompany\MyProvider\MyProvider.ini"`.
 
-The **lodctr** utility copies the strings from the .INI file to the **Counters** and **Help** registry values under the appropriate language subkeys. If the language subkey does not exist, the strings for that language are not copied. The utility also updates the **Last Counter** and **Last Help** values.
+To unload the names and help strings (during uninstall), run the **unlodctr** tool. You must run **unlodctr** with elevated privileges. The parameter to **unlodctr** is the DriverName of your provider (the name of the provider's performance key). For example, `unlodctr "MyProvider"`.
 
 Before running **lodctr**, be sure that your application has an entry under the **Services** key. For details, see [Creating the Application's Performance Key](creating-the-applications-performance-key.md). If the key does not exist, **lodctr** will not update the registry with your names and descriptions.
 
-As an option to running **lodctr**, you can call [**LoadPerfCounterTextStrings**](/windows/desktop/api/Loadperf/nf-loadperf-loadperfcountertextstringsa) (defined in Loadperf.h) from your installation program to load your counter names descriptions.
+As an alternative to running **lodctr**, you can call [**LoadPerfCounterTextStrings**](/windows/win32/api/loadperf/nf-loadperf-loadperfcountertextstringsw) (defined in Loadperf.h) from your installation program to load your counter names descriptions. You can then call [**UnloadPerfCounterTextStrings**](/windows/win32/api/loadperf/nf-loadperf-unloadperfcountertextstringsw) during uninstall.
 
-The performance counter names and descriptions are stored in the following location in the registry.
+The **lodctr** utility copies the strings from the .INI file to the **Counters** and **Help** registry values under the appropriate language subkeys. If the corresponding language subkey does not exist, the strings for that language are not copied. The utility also updates the **Last Counter** and **Last Help** value. The performance counter names and descriptions are stored in the following location in the registry.
 
 ```
 HKEY_LOCAL_MACHINE
@@ -193,13 +219,5 @@ HKEY_LOCAL_MACHINE
                   Last Counter = highest counter index assigned to provider
                   Last Help = highest help index assigned to provider
                   Object List = list of object index values if the .INI includes the [objects] section
-                  Library Validation Code = if the [info] section contains a trustedkey
+                  Library Validation Code = if the [info] section contains a "trusted" key
 ```
-
- 
-
- 
-
-
-
-

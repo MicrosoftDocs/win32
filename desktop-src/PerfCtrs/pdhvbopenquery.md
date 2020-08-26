@@ -19,6 +19,9 @@ api_location:
 
 The **PdhVbOpenQuery** function creates and initializes a unique query structure that is used to manage the collection of performance data.
 
+> [!IMPORTANT]
+> The function that this topic describes may be altered or unavailable in the future. Instead, Microsoft recommends that you use the functions described in [Performance Counters Functions](performance-counters-functions.md).
+
 Function PdhVbOpenQuery( \_ ByVal QueryHandle As Long \_ ) As Long
 
 ## Parameters
