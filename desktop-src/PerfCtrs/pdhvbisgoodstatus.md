@@ -19,6 +19,9 @@ api_location:
 
 The **PdhVbIsGoodStatus** function tests a status value to determine if it is a success or failure code. If the status value is a successful one, then the return value will be nonzero. If it is a failure status code, the return value will be zero.
 
+> [!IMPORTANT]
+> The function that this topic describes may be altered or unavailable in the future. Instead, Microsoft recommends that you use the functions described in [Performance Counters Functions](performance-counters-functions.md).
+
 Function PdhVbIsGoodStatus( \_ ByVal StatusValue As Long \_ ) As Long
 
 ## Parameters

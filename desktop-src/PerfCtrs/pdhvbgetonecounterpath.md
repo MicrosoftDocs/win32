@@ -19,6 +19,9 @@ api_location:
 
 The **PdhVbGetOneCounterPath** function displays a dialog box that lets the user browse the available performance counters and select one counter. The counter selected is returned in the *PathString* variable. The *PathString* variable must be dimensioned and initialized before this function is called, and the dimensioned size must be indicated by the *PathLength* variable.
 
+> [!IMPORTANT]
+> The function that this topic describes may be altered or unavailable in the future. Instead, Microsoft recommends that you use the functions described in [Performance Counters Functions](performance-counters-functions.md).
+
 Function PdhVbGetOneCounterPath( \_ ByVal PathString As String, \_ ByVal PathLength As Long, \_ ByVal DetailLevel As Long, \_ ByVal CaptionString As String \_ ) As Long
 
 ## Parameters

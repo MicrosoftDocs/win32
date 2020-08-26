@@ -19,6 +19,9 @@ api_location:
 
 The **PdhVbGetCounterPathElements** function parses a fully qualified performance counter path string into its individual elements. Each of the string variables must be the same size (*BufferSize*) and dimensioned and initialized before it is used in this function.
 
+> [!IMPORTANT]
+> The function that this topic describes may be altered or unavailable in the future. Instead, Microsoft recommends that you use the functions described in [Performance Counters Functions](performance-counters-functions.md).
+
 Function PdhVbGetCounterPathElements( \_ ByVal PathString As String, \_ ByVal MachineName As String, \_ ByVal ObjectName As String, \_ ByVal InstanceName As String, \_ ByVal ParentInstance As String, \_ ByVal CounterName As String, \_ ByVal BufferSize As Long \_ ) As Long
 
 ## Parameters

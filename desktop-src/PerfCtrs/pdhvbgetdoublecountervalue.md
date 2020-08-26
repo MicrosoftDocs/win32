@@ -19,6 +19,9 @@ api_location:
 
 The **PdhVbGetDoubleCounterValue** function returns the current value of the specified counter as a double-precision floating point value. You should check *CounterStatus* before using the returned number, because the counter may not be valid when it is read. To check the counter status, call the [**PdhVbIsGoodStatus**](pdhvbisgoodstatus.md) function.
 
+> [!IMPORTANT]
+> The function that this topic describes may be altered or unavailable in the future. Instead, Microsoft recommends that you use the functions described in [Performance Counters Functions](performance-counters-functions.md).
+
 Function PdhVbGetDoubleCounterValue( \_ ByVal CounterHandle As Long, \_ ByVal CounterStatus As Long \_ ) As Double
 
 ## Parameters
