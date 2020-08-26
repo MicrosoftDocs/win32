@@ -8,7 +8,7 @@ Our documentation is written in Markdown, a lightweight text style syntax. If yo
 
 ### Editing a file
 
-You can find guidance on using this repo in the [Windows Authoring Guide](https://review.docs.microsoft.com/en-us/windows-authoring-guide/contribute/?branch=master). Documentation on upcoming features must be contributed via the private repository only. You **must** make sure you are contributing to the correct branch. 
+You can find guidance on using this repo in the [Windows Authoring Guide](https://review.docs.microsoft.com/en-us/windows-authoring-guide/?branch=master). Documentation on upcoming features must be contributed via the private repository only. You **must** make sure you are contributing to the correct branch. 
 
 You may clone this repository locally and make edits on your own machine, or you can use the GitHub interface to make edits. Cloning is a better option for large changes. In-browser editing works well for small fixes. Make sure you do so in a new personal branch. When you are ready to submit your edits, create a PR here on the GitHub page.
 
