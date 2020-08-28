@@ -195,8 +195,8 @@ The following steps illustrate using the functions described above to populate a
 
 6.  Populate an [**XAUDIO2\_BUFFER**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer) structure.
     ```
-    buffer.AudioBytes = dwChunkSize;  //buffer containing audio data
-    buffer.pAudioData = pDataBuffer;  //size of the audio buffer in bytes
+    buffer.AudioBytes = dwChunkSize;  //size of the audio buffer in bytes
+    buffer.pAudioData = pDataBuffer;  //buffer containing audio data
     buffer.Flags = XAUDIO2_END_OF_STREAM; // tell the source voice not to expect any data after this buffer
     ```
 
