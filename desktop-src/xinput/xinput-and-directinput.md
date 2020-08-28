@@ -76,6 +76,9 @@ BOOL IsXInputDevice( const GUID* pGuidProductFromDirectInput )
     hr = CoInitialize(NULL);
     bool bCleanupCOM = SUCCEEDED(hr);
 
+    // So we can call VariantClear() later, even if we never had a successful IWbemClassObject::Get().
+    VariantInit(&var);
+
     // Create WMI
     hr = CoCreateInstance( __uuidof(WbemLocator),
                            NULL,
@@ -140,12 +143,14 @@ BOOL IsXInputDevice( const GUID* pGuidProductFromDirectInput )
                         goto LCleanup;
                     }
                 }
-            }   
+            }
+            VariantClear(&var);
             SAFE_RELEASE( pDevices[iDevice] );
         }
     }
 
 LCleanup:
+    VariantClear(&var);
     if(bstrNamespace)
         SysFreeString(bstrNamespace);
     if(bstrDeviceID)
