@@ -18,8 +18,7 @@ This sample includes a small command-line application, Memfile.exe, that demonst
 
 At the command line, type:
 
-<dl> **Memfile Filename BitRate**  
-</dl>
+**Memfile Filename BitRate**  
 
 The Async sample filter does not support AVI files, because it cannot connect to the [AVI Splitter](avi-splitter-filter.md) filter. The Async filter's output pin proposes MEDIATYPE\_Stream and MEDIASUBTYPE\_NULL for the media type. The input pin on the AVI Splitter filter does not accept MEDIASUBTYPE\_NULL, and does not propose any types of its own. Therefore, the pin connection fails. The Async filter could be enhanced to offer MEDIASUBTYPE\_Avi when appropriate. For example, it could examine the file format, or use the file extension.
 
@@ -31,10 +30,10 @@ This sample is installed under the following path: \[*SDK Root*\]\\Samples\\Mult
 
 ## Related topics
 
-<dl> <dt>
+
 
 [DirectShow Samples](directshow-samples.md)
-</dt> </dl>
+
 
  
 

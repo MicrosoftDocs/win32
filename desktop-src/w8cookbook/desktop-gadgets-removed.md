@@ -15,9 +15,10 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-<dl> **Clients** - Windows 8  
+ **Clients** - Windows 8  
 **Servers** - Windows Server 2012  
-</dl>
+
+
 
 ## Description
 

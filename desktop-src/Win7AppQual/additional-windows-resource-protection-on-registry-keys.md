@@ -10,15 +10,22 @@ ms.date: 05/31/2018
 
 ## Platform
 
-<dl> **Clients** - Windows 7  
+**Clients** - Windows 7  
 **Servers** - Windows Server 2008 R2  
-</dl>
+
+
+
+
+
+
+
+
 
 ## Feature Impact
 
-<dl> **Severity** - Medium  
+**Severity** - Medium  
 **Frequency** - Low  
-</dl>
+
 
 ## Description
 

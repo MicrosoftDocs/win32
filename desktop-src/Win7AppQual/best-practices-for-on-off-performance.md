@@ -10,9 +10,8 @@ ms.date: 05/31/2018
 
 ## Platform
 
-<dl> **Clients -** Windows Vista \| Windows 7  
+**Clients -** Windows Vista \| Windows 7  
 **Servers -** Windows Server 2008 \| Windows Server 2008 R2  
-</dl>
 
 ## Description
 

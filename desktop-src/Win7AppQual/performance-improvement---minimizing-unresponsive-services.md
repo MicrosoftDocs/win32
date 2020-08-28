@@ -10,8 +10,7 @@ ms.date: 05/31/2018
 
 ## Affected Platform
 
-<dl> **Clients** – Windows Vista \| Windows 7  
-</dl>
+ **Clients** – Windows Vista \| Windows 7  
 
 ## Description
 

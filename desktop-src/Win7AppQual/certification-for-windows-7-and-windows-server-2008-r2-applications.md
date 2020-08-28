@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients** - Windows 7  
-</dl>
+ **Clients** - Windows 7  
+
 
 ## Description: Client Application Certification
 

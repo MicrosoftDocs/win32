@@ -64,7 +64,7 @@ You can request the **ACCESS\_SYSTEM\_SECURITY** access right to a thread object
 
 The following specific access rights are not allowed from a process to the threads of a protected process:
 
-<dl> **THREAD\_ALL\_ACCESS**  
+**THREAD\_ALL\_ACCESS**  
 **THREAD\_DIRECT\_IMPERSONATION**  
 **THREAD\_GET\_CONTEXT**  
 **THREAD\_IMPERSONATE**  
@@ -73,7 +73,7 @@ The following specific access rights are not allowed from a process to the threa
 **THREAD\_SET\_INFORMATION**  
 **THREAD\_SET\_TOKEN**  
 **THREAD\_TERMINATE**  
-</dl>
+
 
 The **THREAD\_QUERY\_LIMITED\_INFORMATION** right was introduced to provide access to a subset of the information available through **THREAD\_QUERY\_INFORMATION**.
 

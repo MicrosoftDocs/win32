@@ -15,7 +15,8 @@ ms.date: 05/31/2018
 
 ## Platform
 
-<dl> **Clients** – Windows 8  
+**Clients** – Windows 8 
+
 
 > [!Note]  
 > The DAM is present only on Windows 8 client machines that support connected standby. The DAM is not present on server SKUs.

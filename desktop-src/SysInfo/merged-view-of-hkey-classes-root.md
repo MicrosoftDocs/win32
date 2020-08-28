@@ -30,7 +30,7 @@ The following example shows a set of subkeys under the **HKEY\_LOCAL\_MACHINE** 
 
 The following subkeys are found in both **HKEY\_LOCAL\_MACHINE\\Software\\Classes** and **HKEY\_CURRENT\_USER\\Software\\Classes**. From the **HKEY\_LOCAL\_MACHINE** tree, the immediate subkeys of these keys are included in the merged view only if they are not duplicates of immediate subkeys from the **HKEY\_CURRENT\_USER** tree. The merged view does not include the **HKEY\_LOCAL\_MACHINE** contents of duplicate subkeys.
 
-<dl> **\***  
+**\***  
 **\*\\shellex**  
 **\*\\shellex\\ContextMenuHandlers**  
 **\*\\shellex\\PropertySheetHandlers**  
@@ -58,7 +58,7 @@ The following subkeys are found in both **HKEY\_LOCAL\_MACHINE\\Software\\Classe
 **Mime\\Database\\Codepage**  
 **Mime\\Database\\Content Type**  
 **Typelib**  
-</dl>
+
 
  
 
