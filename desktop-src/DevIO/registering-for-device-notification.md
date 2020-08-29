@@ -8,7 +8,7 @@ ms.date: 08/28/2020
 
 # Registering for device notification
 
-The operating system can send notification messages that represent the events raised by a device. The system sends those notifications either to a window or to a Windows service. And you can register to receive those notifications by calling the  function.
+The operating system can send notification messages that represent the events raised by a device. The system sends those notifications either to a window or to a Windows service. And you can register to receive those notifications by calling the [**RegisterDeviceNotification**](/windows/win32/api/winuser/nf-winuser-registerdevicenotificationw) function.
 
 This topic provides a code example that shows you how to register for device notifications. You can identify the device to receive notifications about by specifying a device class when you call **RegisterDeviceNotification**. And you identify that device class by its GUID.
 
