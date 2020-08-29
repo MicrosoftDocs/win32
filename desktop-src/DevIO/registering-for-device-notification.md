@@ -1,17 +1,25 @@
 ---
 Description: Applications can use the RegisterDeviceNotification function to register to receive notification messages from the system.
 ms.assetid: f3a4477a-7b09-4943-8b06-f252f8f9fed8
-title: Registering for Device Notification
+title: Registering for device notification
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 08/28/2020
 ---
 
-# Registering for Device Notification
+# Registering for device notification
 
-Applications can use the [**RegisterDeviceNotification**](/windows/desktop/api/Winuser/nf-winuser-registerdevicenotificationa) function to register to receive notification messages from the system. The following example shows how to register for notification of events for the device interfaces which are members of the interface class whose GUID is passed to the function.
+The operating system can send notification messages that represent the events raised by a device. The system sends those notifications either to a window or to a Windows service. And you can register to receive those notifications by calling the  function.
 
+This topic provides a code example that shows you how to register for device notifications. You can identify the device to receive notifications about by specifying a device class when you call **RegisterDeviceNotification**. And you identify that device class by its GUID.
 
-```C++
+## Source code listing
+
+If you want to build and run this source code example as an app, then begin by creating a new project in Microsoft Visual Studio. Create a new project based on the **Windows Desktop Application** project template. Name the project *RegisterDeviceNotification*.
+
+Open `RegisterDeviceNotification.cpp`, delete its entire contents, and paste in the listing below.
+
+```cpp
+// RegisterDeviceNotification.cpp
 #include <windows.h>
 #include <stdio.h>
 #include <tchar.h>
@@ -20,23 +28,142 @@ Applications can use the [**RegisterDeviceNotification**](/windows/desktop/api/W
 
 // This GUID is for all USB serial host PnP drivers, but you can replace it 
 // with any valid device class guid.
-GUID WceusbshGUID = { 0x25dbce51, 0x6c8f, 0x4a72, 
+GUID WceusbshGUID = { 0x25dbce51, 0x6c8f, 0x4a72,
                       0x8a,0x6d,0xb5,0x4c,0x2b,0x4f,0xc8,0x35 };
 
-// For informational messages and window titles
+// For informational messages and window titles.
 PWSTR g_pszAppName;
 
-// Forward declarations
-void OutputMessage(HWND hOutWnd, WPARAM wParam, LPARAM lParam);
-void ErrorHandler(LPTSTR lpszFunction);
+void OutputMessage(
+    HWND hOutWnd,
+    WPARAM wParam,
+    LPARAM lParam
+)
+// Routine Description:
+//     Support routine.
+//     Send text to the output window, scrolling if necessary.
 
-//
-// DoRegisterDeviceInterfaceToHwnd
-//
-BOOL DoRegisterDeviceInterfaceToHwnd( 
-    IN GUID InterfaceClassGuid, 
+// Parameters:
+//     hOutWnd - Handle to the output window.
+//     wParam  - Standard windows message code, not used.
+//     lParam  - String message to send to the window.
+
+// Return Value:
+//     None
+
+// Note:
+//     This routine assumes the output window is an edit control
+//     with vertical scrolling enabled.
+
+//     This routine has no error-checking.
+{
+    LRESULT   lResult;
+    LONG      bufferLen;
+    LONG      numLines;
+    LONG      firstVis;
+
+    // Make writable and turn off redraw.
+    lResult = SendMessage(hOutWnd, EM_SETREADONLY, FALSE, 0L);
+    lResult = SendMessage(hOutWnd, WM_SETREDRAW, FALSE, 0L);
+
+    // Obtain current text length in the window.
+    bufferLen = SendMessage(hOutWnd, WM_GETTEXTLENGTH, 0, 0L);
+    numLines = SendMessage(hOutWnd, EM_GETLINECOUNT, 0, 0L);
+    firstVis = SendMessage(hOutWnd, EM_GETFIRSTVISIBLELINE, 0, 0L);
+    lResult = SendMessage(hOutWnd, EM_SETSEL, bufferLen, bufferLen);
+
+    // Write the new text.
+    lResult = SendMessage(hOutWnd, EM_REPLACESEL, 0, lParam);
+
+    // See whether scrolling is necessary.
+    if (numLines > (firstVis + 1))
+    {
+        int        lineLen = 0;
+        int        lineCount = 0;
+        int        charPos;
+
+        // Find the last nonblank line.
+        numLines--;
+        while (!lineLen)
+        {
+            charPos = SendMessage(
+                hOutWnd, EM_LINEINDEX, (WPARAM)numLines, 0L);
+            lineLen = SendMessage(
+                hOutWnd, EM_LINELENGTH, charPos, 0L);
+            if (!lineLen)
+                numLines--;
+        }
+        // Prevent negative value finding min.
+        lineCount = numLines - firstVis;
+        lineCount = (lineCount >= 0) ? lineCount : 0;
+
+        // Scroll the window.
+        lResult = SendMessage(
+            hOutWnd, EM_LINESCROLL, 0, (LPARAM)lineCount);
+    }
+
+    // Done, make read-only and allow redraw.
+    lResult = SendMessage(hOutWnd, WM_SETREDRAW, TRUE, 0L);
+    lResult = SendMessage(hOutWnd, EM_SETREADONLY, TRUE, 0L);
+}
+
+void ErrorHandler(
+    LPCTSTR lpszFunction
+)
+// Routine Description:
+//     Support routine.
+//     Retrieve the system error message for the last-error code
+//     and pop a modal alert box with usable info.
+
+// Parameters:
+//     lpszFunction - String containing the function name where 
+//     the error occurred plus any other relevant data you'd 
+//     like to appear in the output. 
+
+// Return Value:
+//     None
+
+// Note:
+//     This routine is independent of the other windowing routines
+//     in this application and can be used in a regular console
+//     application without modification.
+{
+
+    LPVOID lpMsgBuf;
+    LPVOID lpDisplayBuf;
+    DWORD dw = GetLastError();
+
+    FormatMessage(
+        FORMAT_MESSAGE_ALLOCATE_BUFFER |
+        FORMAT_MESSAGE_FROM_SYSTEM |
+        FORMAT_MESSAGE_IGNORE_INSERTS,
+        NULL,
+        dw,
+        MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
+        (LPTSTR)&lpMsgBuf,
+        0, NULL);
+
+    // Display the error message and exit the process.
+
+    lpDisplayBuf = (LPVOID)LocalAlloc(LMEM_ZEROINIT,
+        (lstrlen((LPCTSTR)lpMsgBuf)
+            + lstrlen((LPCTSTR)lpszFunction) + 40)
+        * sizeof(TCHAR));
+    if (!lpDisplayBuf) return;
+    StringCchPrintf((LPTSTR)lpDisplayBuf,
+        LocalSize(lpDisplayBuf) / sizeof(TCHAR),
+        TEXT("%s failed with error %d: %s"),
+        lpszFunction, dw, (LPCTSTR)lpMsgBuf);
+    MessageBox(NULL, (LPCTSTR)lpDisplayBuf, g_pszAppName, MB_OK);
+
+    LocalFree(lpMsgBuf);
+    LocalFree(lpDisplayBuf);
+}
+
+BOOL DoRegisterDeviceInterfaceToHwnd(
+    IN GUID InterfaceClassGuid,
     IN HWND hWnd,
-    OUT HDEVNOTIFY *hDeviceNotify 
+    OUT HDEVNOTIFY* hDeviceNotify
 )
 // Routine Description:
 //     Registers an HWND for notification of changes in the device interfaces
@@ -62,29 +189,26 @@ BOOL DoRegisterDeviceInterfaceToHwnd(
 {
     DEV_BROADCAST_DEVICEINTERFACE NotificationFilter;
 
-    ZeroMemory( &NotificationFilter, sizeof(NotificationFilter) );
+    ZeroMemory(&NotificationFilter, sizeof(NotificationFilter));
     NotificationFilter.dbcc_size = sizeof(DEV_BROADCAST_DEVICEINTERFACE);
     NotificationFilter.dbcc_devicetype = DBT_DEVTYP_DEVICEINTERFACE;
     NotificationFilter.dbcc_classguid = InterfaceClassGuid;
 
-    *hDeviceNotify = RegisterDeviceNotification( 
+    *hDeviceNotify = RegisterDeviceNotification(
         hWnd,                       // events recipient
         &NotificationFilter,        // type of device
         DEVICE_NOTIFY_WINDOW_HANDLE // type of recipient handle
-        );
+    );
 
-    if ( NULL == *hDeviceNotify ) 
+    if (NULL == *hDeviceNotify)
     {
-        ErrorHandler(TEXT("RegisterDeviceNotification"));
+        ErrorHandler(L"RegisterDeviceNotification");
         return FALSE;
     }
 
     return TRUE;
 }
 
-//
-// MessagePump
-//
 void MessagePump(
     HWND hWnd
 )
@@ -98,18 +222,18 @@ void MessagePump(
 // Return Value:
 //     None.
 {
-    MSG msg; 
+    MSG msg;
     int retVal;
 
     // Get all messages for any window that belongs to this thread,
     // without any filtering. Potential optimization could be
     // obtained via use of filter values if desired.
 
-    while( (retVal = GetMessage(&msg, NULL, 0, 0)) != 0 ) 
-    { 
-        if ( retVal == -1 )
+    while ((retVal = GetMessage(&msg, NULL, 0, 0)) != 0)
+    {
+        if (retVal == -1)
         {
-            ErrorHandler(TEXT("GetMessage"));
+            ErrorHandler(L"GetMessage");
             break;
         }
         else
@@ -117,18 +241,15 @@ void MessagePump(
             TranslateMessage(&msg);
             DispatchMessage(&msg);
         }
-    } 
+    }
 }
 
-//
-// WinProcCallback
-//
 INT_PTR WINAPI WinProcCallback(
-                              HWND hWnd,
-                              UINT message,
-                              WPARAM wParam,
-                              LPARAM lParam
-                              )
+    HWND hWnd,
+    UINT message,
+    WPARAM wParam,
+    LPARAM lParam
+)
 // Routine Description:
 //     Simple Windows callback for handling messages.
 //     This is where all the work is done because the example
@@ -162,13 +283,13 @@ INT_PTR WINAPI WinProcCallback(
         // If you were using a service, you would put this in your main code 
         // path as part of your service initialization.
         //
-        if ( ! DoRegisterDeviceInterfaceToHwnd(
-                        WceusbshGUID, 
-                        hWnd,
-                        &hDeviceNotify) )
+        if (!DoRegisterDeviceInterfaceToHwnd(
+            WceusbshGUID,
+            hWnd,
+            &hDeviceNotify))
         {
             // Terminate on failure.
-            ErrorHandler(TEXT("DoRegisterDeviceInterfaceToHwnd"));
+            ErrorHandler(L"DoRegisterDeviceInterfaceToHwnd");
             ExitProcess(1);
         }
 
@@ -177,39 +298,39 @@ INT_PTR WINAPI WinProcCallback(
         // Make the child window for output.
         //
         hEditWnd = CreateWindow(TEXT("EDIT"),// predefined class 
-                                NULL,        // no window title 
-                                WS_CHILD | WS_VISIBLE | WS_VSCROLL | 
-                                ES_LEFT | ES_MULTILINE | ES_AUTOVSCROLL, 
-                                0, 0, 0, 0,  // set size in WM_SIZE message 
-                                hWnd,        // parent window 
-                                (HMENU)1,    // edit control ID 
-                                (HINSTANCE) GetWindowLong(hWnd, GWL_HINSTANCE), 
-                                NULL);       // pointer not needed 
+            NULL,        // no window title 
+            WS_CHILD | WS_VISIBLE | WS_VSCROLL |
+            ES_LEFT | ES_MULTILINE | ES_AUTOVSCROLL,
+            0, 0, 0, 0,  // set size in WM_SIZE message 
+            hWnd,        // parent window 
+            (HMENU)1,    // edit control ID 
+            (HINSTANCE)GetWindowLong(hWnd, GWL_HINSTANCE),
+            NULL);       // pointer not needed 
 
-        if ( hEditWnd == NULL )
+        if (hEditWnd == NULL)
         {
             // Terminate on failure.
-            ErrorHandler(TEXT("CreateWindow: Edit Control"));
+            ErrorHandler(L"CreateWindow: Edit Control");
             ExitProcess(1);
         }
         // Add text to the window. 
-        SendMessage(hEditWnd, WM_SETTEXT, 0, 
-            (LPARAM)TEXT("Registered for USB device notification...\n")); 
+        SendMessage(hEditWnd, WM_SETTEXT, 0,
+            (LPARAM)TEXT("Registered for USB device notification...\n"));
 
         break;
 
-    case WM_SETFOCUS: 
-        SetFocus(hEditWnd); 
+    case WM_SETFOCUS:
+        SetFocus(hEditWnd);
 
         break;
 
-    case WM_SIZE: 
+    case WM_SIZE:
         // Make the edit control the size of the window's client area. 
-        MoveWindow(hEditWnd, 
-                   0, 0,                  // starting x- and y-coordinates 
-                   LOWORD(lParam),        // width of client area 
-                   HIWORD(lParam),        // height of client area 
-                   TRUE);                 // repaint window 
+        MoveWindow(hEditWnd,
+            0, 0,                  // starting x- and y-coordinates 
+            LOWORD(lParam),        // width of client area 
+            HIWORD(lParam),        // height of client area 
+            TRUE);                 // repaint window 
 
         break;
 
@@ -224,7 +345,7 @@ INT_PTR WINAPI WinProcCallback(
         // way. Refer to the extended information for your particular device type 
         // specified by your GUID.
         //
-        PDEV_BROADCAST_DEVICEINTERFACE b = (PDEV_BROADCAST_DEVICEINTERFACE) lParam;
+        PDEV_BROADCAST_DEVICEINTERFACE b = (PDEV_BROADCAST_DEVICEINTERFACE)lParam;
         TCHAR strBuff[256];
 
         // Output some messages to the window.
@@ -233,36 +354,36 @@ INT_PTR WINAPI WinProcCallback(
         case DBT_DEVICEARRIVAL:
             msgCount++;
             StringCchPrintf(
-                strBuff, 256, 
-                TEXT("Message %d: DBT_DEVICEARRIVAL\n"), msgCount);
+                strBuff, 256,
+                TEXT("Message %d: DBT_DEVICEARRIVAL\n"), (int)msgCount);
             break;
         case DBT_DEVICEREMOVECOMPLETE:
             msgCount++;
             StringCchPrintf(
-                strBuff, 256, 
-                TEXT("Message %d: DBT_DEVICEREMOVECOMPLETE\n"), msgCount);
+                strBuff, 256,
+                TEXT("Message %d: DBT_DEVICEREMOVECOMPLETE\n"), (int)msgCount);
             break;
         case DBT_DEVNODES_CHANGED:
             msgCount++;
             StringCchPrintf(
-                strBuff, 256, 
-                TEXT("Message %d: DBT_DEVNODES_CHANGED\n"), msgCount);
+                strBuff, 256,
+                TEXT("Message %d: DBT_DEVNODES_CHANGED\n"), (int)msgCount);
             break;
         default:
             msgCount++;
             StringCchPrintf(
-                strBuff, 256, 
-                TEXT("Message %d: WM_DEVICECHANGE message received, value %d unhandled.\n"), 
-                msgCount, wParam);
+                strBuff, 256,
+                TEXT("Message %d: WM_DEVICECHANGE message received, value %d unhandled.\n"),
+                (int)msgCount, wParam);
             break;
         }
         OutputMessage(hEditWnd, wParam, (LPARAM)strBuff);
     }
-            break;
+    break;
     case WM_CLOSE:
-        if ( ! UnregisterDeviceNotification(hDeviceNotify) )
+        if (!UnregisterDeviceNotification(hDeviceNotify))
         {
-           ErrorHandler(TEXT("UnregisterDeviceNotification")); 
+            ErrorHandler(L"UnregisterDeviceNotification");
         }
         DestroyWindow(hWnd);
         break;
@@ -282,9 +403,6 @@ INT_PTR WINAPI WinProcCallback(
 
 #define WND_CLASS_NAME TEXT("SampleAppWindowClass")
 
-//
-// InitWindowClass
-//
 BOOL InitWindowClass()
 // Routine Description:
 //      Simple wrapper to initialize and register a window class.
@@ -308,43 +426,38 @@ BOOL InitWindowClass()
     wndClass.lpfnWndProc = reinterpret_cast<WNDPROC>(WinProcCallback);
     wndClass.cbClsExtra = 0;
     wndClass.cbWndExtra = 0;
-    wndClass.hIcon = LoadIcon(0,IDI_APPLICATION);
-    wndClass.hbrBackground = CreateSolidBrush(RGB(192,192,192));
+    wndClass.hIcon = LoadIcon(0, IDI_APPLICATION);
+    wndClass.hbrBackground = CreateSolidBrush(RGB(192, 192, 192));
     wndClass.hCursor = LoadCursor(0, IDC_ARROW);
     wndClass.lpszClassName = WND_CLASS_NAME;
     wndClass.lpszMenuName = NULL;
     wndClass.hIconSm = wndClass.hIcon;
 
 
-    if ( ! RegisterClassEx(&wndClass) )
+    if (!RegisterClassEx(&wndClass))
     {
-        ErrorHandler(TEXT("RegisterClassEx"));
+        ErrorHandler(L"RegisterClassEx");
         return FALSE;
     }
     return TRUE;
 }
 
-//
-// main
-//
-
 int __stdcall _tWinMain(
-                      HINSTANCE hInstanceExe, 
-                      HINSTANCE, // should not reference this parameter
-                      PTSTR lpstrCmdLine, 
-                      int nCmdShow
-                      )
+    _In_ HINSTANCE hInstanceExe,
+    _In_opt_ HINSTANCE, // should not reference this parameter
+    _In_ PTSTR lpstrCmdLine,
+    _In_ int nCmdShow)
 {
-//
-// To enable a console project to compile this code, set
-// Project->Properties->Linker->System->Subsystem: Windows.
-//
+    //
+    // To enable a console project to compile this code, set
+    // Project->Properties->Linker->System->Subsystem: Windows.
+    //
 
     int nArgC = 0;
     PWSTR* ppArgV = CommandLineToArgvW(lpstrCmdLine, &nArgC);
     g_pszAppName = ppArgV[0];
 
-    if ( ! InitWindowClass() )
+    if (!InitWindowClass())
     {
         // InitWindowClass displays any errors
         return -1;
@@ -353,19 +466,19 @@ int __stdcall _tWinMain(
     // Main app window
 
     HWND hWnd = CreateWindowEx(
-                    WS_EX_CLIENTEDGE | WS_EX_APPWINDOW,
-                    WND_CLASS_NAME,
-                    g_pszAppName,
-                    WS_OVERLAPPEDWINDOW, // style
-                    CW_USEDEFAULT, 0, 
-                    640, 480,
-                    NULL, NULL, 
-                    hInstanceExe, 
-                    NULL);
-    
-    if ( hWnd == NULL )
+        WS_EX_CLIENTEDGE | WS_EX_APPWINDOW,
+        WND_CLASS_NAME,
+        g_pszAppName,
+        WS_OVERLAPPEDWINDOW, // style
+        CW_USEDEFAULT, 0,
+        640, 480,
+        NULL, NULL,
+        hInstanceExe,
+        NULL);
+
+    if (hWnd == NULL)
     {
-        ErrorHandler(TEXT("CreateWindowEx: main appwindow hWnd"));
+        ErrorHandler(L"CreateWindowEx: main appwindow hWnd");
         return -1;
     }
 
@@ -380,175 +493,18 @@ int __stdcall _tWinMain(
 
     return 1;
 }
-
-//
-// OutputMessage
-//
-void OutputMessage(
-    HWND hOutWnd, 
-    WPARAM wParam, 
-    LPARAM lParam
-)
-// Routine Description:
-//     Support routine.
-//     Send text to the output window, scrolling if necessary.
-
-// Parameters:
-//     hOutWnd - Handle to the output window.
-//     wParam  - Standard windows message code, not used.
-//     lParam  - String message to send to the window.
-
-// Return Value:
-//     None
-
-// Note:
-//     This routine assumes the output window is an edit control
-//     with vertical scrolling enabled.
-
-//     This routine has no error checking.
-{
-    LRESULT   lResult;
-    LONG      bufferLen;
-    LONG      numLines;
-    LONG      firstVis;
-  
-    // Make writable and turn off redraw.
-    lResult = SendMessage(hOutWnd, EM_SETREADONLY, FALSE, 0L);
-    lResult = SendMessage(hOutWnd, WM_SETREDRAW, FALSE, 0L);
-
-    // Obtain current text length in the window.
-    bufferLen = SendMessage (hOutWnd, WM_GETTEXTLENGTH, 0, 0L);
-    numLines = SendMessage (hOutWnd, EM_GETLINECOUNT, 0, 0L);
-    firstVis = SendMessage (hOutWnd, EM_GETFIRSTVISIBLELINE, 0, 0L);
-    lResult = SendMessage (hOutWnd, EM_SETSEL, bufferLen, bufferLen);
-
-    // Write the new text.
-    lResult = SendMessage (hOutWnd, EM_REPLACESEL, 0, lParam);
-
-    // See whether scrolling is necessary.
-    if (numLines > (firstVis + 1))
-    {
-        int        lineLen = 0;
-        int        lineCount = 0;
-        int        charPos;
-
-        // Find the last nonblank line.
-        numLines--;
-        while(!lineLen)
-        {
-            charPos = SendMessage(
-                hOutWnd, EM_LINEINDEX, (WPARAM)numLines, 0L);
-            lineLen = SendMessage(
-                hOutWnd, EM_LINELENGTH, charPos, 0L);
-            if(!lineLen)
-                numLines--;
-        }
-        // Prevent negative value finding min.
-        lineCount = numLines - firstVis;
-        lineCount = (lineCount >= 0) ? lineCount : 0;
-        
-        // Scroll the window.
-        lResult = SendMessage(
-            hOutWnd, EM_LINESCROLL, 0, (LPARAM)lineCount);
-    }
-
-    // Done, make read-only and allow redraw.
-    lResult = SendMessage(hOutWnd, WM_SETREDRAW, TRUE, 0L);
-    lResult = SendMessage(hOutWnd, EM_SETREADONLY, TRUE, 0L);
-}  
-
-//
-// ErrorHandler
-//
-void ErrorHandler(
-   LPTSTR lpszFunction
-) 
-// Routine Description:
-//     Support routine.
-//     Retrieve the system error message for the last-error code
-//     and pop a modal alert box with usable info.
-
-// Parameters:
-//     lpszFunction - String containing the function name where 
-//     the error occurred plus any other relevant data you'd 
-//     like to appear in the output. 
-
-// Return Value:
-//     None
-
-// Note:
-//     This routine is independent of the other windowing routines
-//     in this application and can be used in a regular console
-//     application without modification.
-{ 
-
-    LPVOID lpMsgBuf;
-    LPVOID lpDisplayBuf;
-    DWORD dw = GetLastError(); 
-
-    FormatMessage(
-        FORMAT_MESSAGE_ALLOCATE_BUFFER | 
-        FORMAT_MESSAGE_FROM_SYSTEM |
-        FORMAT_MESSAGE_IGNORE_INSERTS,
-        NULL,
-        dw,
-        MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
-        (LPTSTR) &lpMsgBuf,
-        0, NULL );
-
-    // Display the error message and exit the process.
-
-    lpDisplayBuf = (LPVOID)LocalAlloc(LMEM_ZEROINIT, 
-        (lstrlen((LPCTSTR)lpMsgBuf)
-                  + lstrlen((LPCTSTR)lpszFunction)+40)
-                  * sizeof(TCHAR)); 
-    StringCchPrintf((LPTSTR)lpDisplayBuf, 
-        LocalSize(lpDisplayBuf) / sizeof(TCHAR),
-        TEXT("%s failed with error %d: %s"), 
-        lpszFunction, dw, lpMsgBuf); 
-    MessageBox(NULL, (LPCTSTR)lpDisplayBuf, g_pszAppName, MB_OK); 
-
-    LocalFree(lpMsgBuf);
-    LocalFree(lpDisplayBuf);
-}
 ```
 
+You can now build and run the project.
 
+## About the code example
 
-This example uses a window handle for device change notifications and contains a large amount of code to support the windowing mechanisms. An application intended to be installed as a Windows service would contain different support code.
+The code example uses a window handle for device change notifications, and it contains a large amount of code just to manage the windowing infrastructure. An application intended to be installed as a Windows service would contain different infrastructure code.
 
-The application will receive the [**WM\_DEVICECHANGE**](wm-devicechange.md) message whenever a USB device interface event notification is sent.
+The application will receive the [**WM_DEVICECHANGE**](/windows/win32/devio/wm-devicechange) message whenever a USB device interface event notification is sent.
 
-The system broadcasts a set of default device change events to all applications and services. You do not need to register to receive these default events. For details, see the Remarks section in [**RegisterDeviceNotification**](/windows/desktop/api/Winuser/nf-winuser-registerdevicenotificationa).
-
-The following is an example makefile for building the previous example code using nmake.exe from the SDK or Visual Studio command prompt.
-
-``` syntax
-proj = main
-
-all: $(proj).exe
-
-# Update the object file if necessary
-
-$(proj).obj: $(proj).cpp
-  cl -c  /D_UNICODE /DUNICODE -DWIN32 -D_WIN32 -DNDEBUG -GS -D_X86_=1 -D_WIN32_WINNT=0x0501 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -D_MT -D_DLL -MD $*.cpp
-
-# Update the executable file if necessary
-
-$(proj).exe: $(proj).obj
-  link -release -incremental:no -nologo -subsystem:windows,5.01 $(proj).obj kernel32.lib user32.lib advapi32.lib gdi32.lib shell32.lib -out:$(proj).exe
-```
+The system broadcasts a set of default device change events to all applications and services. You don't need to register to receive those default events. For details, see the **Remarks** section in [**RegisterDeviceNotification**](/windows/win32/api/winuser/nf-winuser-registerdevicenotificationw).
 
 ## Related topics
 
-<dl> <dt>
-
-[Device Notifications](device-notifications.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
+* [Device notifications](/windows/win32/devio/device-notifications)

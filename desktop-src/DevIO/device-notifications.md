@@ -20,7 +20,7 @@ Device notification handles returned by [**RegisterDeviceNotification**](/window
 
 <dl> <dt>
 
-[Registering for Device Notification](registering-for-device-notification.md)
+[Registering for device notification](registering-for-device-notification.md)
 </dt> </dl>
 
  

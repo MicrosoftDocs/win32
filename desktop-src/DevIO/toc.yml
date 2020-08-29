@@ -127,7 +127,7 @@
     items: 
     - name: "Calling DeviceIoControl"
       href: calling-deviceiocontrol.md
-    - name: "Registering for Device Notification"
+    - name: "Registering for device notification"
       href: registering-for-device-notification.md
     - name: "Detecting Media Insertion or Removal"
       href: detecting-media-insertion-or-removal.md
