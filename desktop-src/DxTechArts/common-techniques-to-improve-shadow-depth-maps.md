@@ -80,7 +80,7 @@ Projective aliasing is harder to show than perspective aliasing. The distended s
 
 **Figure 7. High-projective aliasing vs. low-projective aliasing**
 
-![high-projective aliasing vs. low-projective aliasing](images/high-projective-aliasing-vs-low projective-aliasing.jpg)
+![high-projective aliasing vs. low-projective aliasing](images/high-projective-aliasing-vs-low%20projective-aliasing.jpg)
 
 Techniques used to alleviate perspective aliasing errors also mitigate projective aliasing. Projective aliasing occurs when the surface normal is orthogonal to the light; these surfaces should be receiving less light based on diffuse lighting equations.
 
@@ -154,7 +154,7 @@ The view frustum in Figure 13 was purposely chosen to be small. A small view fru
 
 **Figure 13. Near and far planes based on Scene AABB**
 
-![near and far planes based on scene aabb](images/near-far- planes-based-on-scene-aabb.jpg)
+![near and far planes based on scene aabb](images/near-far-%20planes-based-on-scene-aabb.jpg)
 
 ### Frustum-Based Near Plane and Far Plane
 
@@ -253,7 +253,7 @@ Hard edges are problematic for self-shadowing. The depth disparity near the tip 
 
 **Figure 18. Sharp edges cause artifacts stemming from low-depth disparity with offsets**
 
-![sharp edges cause artifacts stemming from low-depth disparity with offsets](images/sharp-edges-cause artifacts.jpg)
+![sharp edges cause artifacts stemming from low-depth disparity with offsets](images/sharp-edges-cause%20artifacts.jpg)
 
 Narrow objects such as walls should have backs even if they are never visible. This will increase the depth disparity.
 
