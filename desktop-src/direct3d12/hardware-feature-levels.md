@@ -27,7 +27,7 @@ Now when you create a device, you can attempt to create a device for the feature
 
 The basic properties of feature levels are:
 
--   All Direct3D 12 drivers will be Feature Level 11.0 or better.
+-   All Direct3D 12 drivers will be Feature Level 11\_0 or better.
 -   A GPU that allows a device to be created meets or exceeds the functionality of that feature level.
 -   A feature level always includes the functionality of previous or lower feature levels.
 -   A feature level does not imply performance, only functionality. Performance is dependent on hardware implementation.
@@ -101,9 +101,9 @@ The headings across the top row are Direct3D feature levels. The headings in the
 -   ¹ Requires the Direct3D 11.1 runtime.
 -   ² Shader model 5.0 can optionally support double-precision shaders, extended double-precision shaders, the **SAD4** shader instruction, and partial-precision shaders. To determine the shader model 5.0 options that are available, call [**ID3D12Device::CheckFeatureSupport**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport). Some compatibility depends on what hardware you are running on: Shader model 5.1 is only supported on hardware that supports the DirectX 12 API, regardless of the feature level that's being used. DirectX 11 hardware only supports up to shader model 5.0. The DirectX 12 API only goes down to feature level 11\_0.
 -   ³ Higher tiers are optional.
--   Feature levels 12.0 and 12.1 require the Direct3D 11.3 or Direct3D 12 runtime.
--   Feature level 11.1 requires the Direct3D 11.1 runtime.
--   Feature level 11.0 requires the Direct3D 11.0 runtime.
+-   Feature levels 12\_0 and 12\_1 require the Direct3D 11.3 or Direct3D 12 runtime.
+-   Feature level 11\_1 requires the Direct3D 11.1 runtime.
+-   Feature level 11\_0 requires the Direct3D 11.0 runtime.
 
 ## Hardware support for DXGI Formats
 
