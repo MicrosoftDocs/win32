@@ -34,14 +34,14 @@ Windows automatically enables PAE if DEP is enabled on a computer that supports 
 
 To explicitly enable PAE, use the following [**BCDEdit /set**](/windows-hardware/drivers/devtest/bcdedit--set) command to set the **pae** boot entry option:
 
-<dl> **bcdedit /set \[{ID}\] pae ForceEnable**  
-</dl>
+ **bcdedit /set \[{ID}\] pae ForceEnable**  
+
 
 IF DEP is enabled, PAE cannot be disabled. Use the following [**BCDEdit /set**](/windows-hardware/drivers/devtest/bcdedit--set) commands to disable both DEP and PAE:
 
-<dl> **bcdedit /set \[{ID}\] nx AlwaysOff**  
+ **bcdedit /set \[{ID}\] nx AlwaysOff**  
 **bcdedit /set \[{ID}\] pae ForceDisable**  
-</dl>
+
 
 **Windows Server 2003 and Windows XP:** To enable PAE, use the **/PAE** switch in the [boot.ini](/windows-hardware/drivers/devtest/overview-of-the-boot-ini-file) file. To disable PAE, use the **/NOPAE** switch. To disable DEP, use the **/EXECUTE** switch.
 
@@ -61,7 +61,7 @@ AWE does not require PAE or 4GT but is often used together with PAE to allocate 
 
 ## Related topics
 
-<dl> <dt>
+
 
 [**IsProcessorFeaturePresent**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-isprocessorfeaturepresent)
 </dt> <dt>

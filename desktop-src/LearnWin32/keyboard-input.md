@@ -70,19 +70,19 @@ Key strokes are converted into characters by the [**TranslateMessage**](/windows
 
 As you might guess, [**WM\_CHAR**](/windows/desktop/inputdev/wm-char) messages are generated from [**WM\_KEYDOWN**](/windows/desktop/inputdev/wm-keydown) messages, while [**WM\_SYSCHAR**](/windows/desktop/menurc/wm-syschar) messages are generated from [**WM\_SYSKEYDOWN**](/windows/desktop/inputdev/wm-syskeydown) messages. For example, suppose the user presses the SHIFT key followed by the A key. Assuming a standard keyboard layout, you would get the following sequence of messages:
 
-<dl> **WM\_KEYDOWN**: SHIFT  
+WM\_KEYDOWN**: SHIFT  
 **WM\_KEYDOWN**: A  
 **WM\_CHAR**: 'A'  
-</dl>
+
 
 On the other hand, the combination ALT + P would generate:
 
-<dl> **WM\_SYSKEYDOWN**: VK\_MENU  
+ **WM\_SYSKEYDOWN**: VK\_MENU  
 **WM\_SYSKEYDOWN**: 0x50  
 **WM\_SYSCHAR**: 'p'  
 **WM\_SYSKEYUP**: 0x50  
 **WM\_KEYUP**: VK\_MENU  
-</dl>
+
 
 (The virtual-key code for the ALT key is named VK\_MENU for historical reasons.)
 
@@ -92,14 +92,14 @@ The [**WM\_CHAR**](/windows/desktop/inputdev/wm-char) message is what you normal
 
 Users can also install an Input Method Editor (IME) to enter complex scripts, such as Japanese characters, with a standard keyboard. For example, using a Japanese IME to enter the katakana character カ (ka), you might get the following messages:
 
-<dl> **WM\_KEYDOWN**: VK\_PROCESSKEY (the IME PROCESS key)  
+**WM\_KEYDOWN**: VK\_PROCESSKEY (the IME PROCESS key)  
 **WM\_KEYUP**: 0x4B  
 **WM\_KEYDOWN**: VK\_PROCESSKEY  
 **WM\_KEYUP**: 0x41  
 **WM\_KEYDOWN**: VK\_PROCESSKEY  
 **WM\_CHAR**: カ  
 **WM\_KEYUP**: VK\_RETURN  
-</dl>
+
 
 Some CTRL key combinations are translated into ASCII control characters. For example, CTRL+A is translated to the ASCII ctrl-A (SOH) character (ASCII value 0x01). For text input, you should generally filter out the control characters. Also, avoid using [**WM\_CHAR**](/windows/desktop/inputdev/wm-char) to implement keyboard shortcuts. Instead, use [**WM\_KEYDOWN**](/windows/desktop/inputdev/wm-keydown) messages; or even better, use an accelerator table. Accelerator tables are described in the next topic, [Accelerator Tables](accelerator-tables.md).
 

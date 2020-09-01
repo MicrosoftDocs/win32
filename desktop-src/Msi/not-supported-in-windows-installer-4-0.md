@@ -30,19 +30,21 @@ The following features are not supported in Windows Installer 4.0 and earlier v
 -   [MsiEmbeddedChainer table](msiembeddedchainer-table.md)
 -   [MsiEmbeddedUI table](msiembeddedui-table.md)
 -   [MsiPackageCertificate Table](msipackagecertificate-table.md)
--   [Component table](component-table.md)<dl> **msidbComponentAttributesUninstallOnSupersedence**  
+-   [Component table](component-table.md)
+- **msidbComponentAttributesUninstallOnSupersedence**  
     **msidbComponentAttributesShared**  
-    </dl>
--   [CustomAction](customaction-table.md)<dl> ExtendedType Column  
-    </dl>
+    
+-   [CustomAction](customaction-table.md) ExtendedType Column  
+    
 
 [Custom Action Patch Uninstall Option](custom-action-patch-uninstall-option.md)
 
-<dl>
 
-[MsiTransformView*<PatchGUID>*](msitransformview.md)  
+
+[MsiTransformView\<PatchGUID\>](msitransformview.md)  
+
 **msidbCustomActionTypePatchUninstall**  
-</dl>
+
 
 [System Policy](system-policy.md)
 

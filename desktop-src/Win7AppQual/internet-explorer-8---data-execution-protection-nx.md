@@ -10,9 +10,17 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients** - Windows XP \| Windows Vista \| Windows 7  
+ **Clients** - Windows XP \| Windows Vista \| Windows 7  
 **Servers** - Windows Server 2003 \| Windows Server 2008 \| Windows Server 2008 R2  
-</dl>
+
+
+
+
+
+
+
+
+
 
 > [!Note]  
 > Internet Explorer 8 will enable DEP/NX protection when run on an operating system with the latest service pack. Windows XP SP3, Windows Server 2003 SP3, Windows Vista SP1, and Windows Server 2008 all have DEP/NX enabled by default in Internet Explorer 8.
@@ -21,9 +29,8 @@ ms.date: 05/31/2018
 
 ## Feature Impact
 
-<dl> **Severity** - Medium  
+**Severity** - Medium  
 **Frequency** - Low  
-</dl>
 
 > [!Note]  
 > Typically, any application that runs in Internet Explorer and is not compatible with DEP/NX will crash on startup and will not function. Internet Explorer may crash on startup if add-ons that are not compatible with DEP/NX are installed.

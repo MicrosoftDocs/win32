@@ -10,15 +10,19 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients (running as virtual machines)** - Windows Vista \| Windows 7  
+**Clients (running as virtual machines)** - Windows Vista \| Windows 7  
 **Servers** - Windows Server 2008 R2 Hyper-V SP1  
-</dl>
+
 
 ## Feature Impact
 
-<dl> **Severity** - Low  
+ **Severity** - Low  
 **Frequency** - High  
-</dl>
+
+
+
+
+
 
 ## Description
 

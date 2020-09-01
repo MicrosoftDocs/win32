@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients** - Windows Vista SP1 and later \| Windows 7  
+**Clients** - Windows Vista SP1 and later \| Windows 7  
 **Servers** - Windows Server 2008 RTM and later \| Windows Server 2008 R2  
-</dl>
+
 
 ## Description
 

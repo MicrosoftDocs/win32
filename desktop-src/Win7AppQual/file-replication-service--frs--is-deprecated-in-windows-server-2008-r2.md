@@ -10,14 +10,13 @@ ms.date: 05/31/2018
 
 ## Platform
 
-<dl> **Servers -** Windows Server 2008 R2  
-</dl>
+ **Servers -** Windows Server 2008 R2  
 
 ## Feature Impact
 
-<dl> **Severity -** High  
+ **Severity -** High  
 **Frequency -** High  
-</dl>
+
 
 ## Description
 

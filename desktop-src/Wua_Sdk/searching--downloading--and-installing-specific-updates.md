@@ -24,8 +24,8 @@ Before you attempt to run this sample, note the following:
 -   WUA must be installed on the computer. For more info about how to determine the version of WUA that is installed, see [Determining the Current Version of WUA](determining-the-current-version-of-wua.md).
 -   The sample doesn't provide its own user interface. WUA prompts the user to restart the computer if an update requires a restart.
 -   The sample can download updates only from WUA. It can't download updates from a Software Update Services (SUS) 1.0 server.
--   Running this sample requires Windows Script Host (WSH). For more info about WSH, see the WSH section of the Platform Software Development Kit (SDK). If the sample is copied to a file named WUA\_SpecificUpdate.vbs, you can run it by opening a Command Prompt window and by typing this command:<dl> **cscript WUA\_SpecificUpdate.vbs**  
-    </dl>
+-   Running this sample requires Windows Script Host (WSH). For more info about WSH, see the WSH section of the Platform Software Development Kit (SDK). If the sample is copied to a file named WUA\_SpecificUpdate.vbs, you can run it by opening a Command Prompt window and by typing this command: **cscript WUA\_SpecificUpdate.vbs**  
+    
 
 ## Example
 

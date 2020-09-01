@@ -47,7 +47,7 @@ The following constants are used to identify registry values that control privat
 
 The differences between the **szKEY\_CACHE\_SECONDS** and the **szPRIV\_KEY\_CACHE\_PURGE\_INTERVAL\_SECONDS** values are as follows:
 
-<dl> **szKEY\_CACHE\_SECONDS**  
+ **szKEY\_CACHE\_SECONDS**  
 
 -   This value only applies to a specific CSP. After the CSP is released, the CSP's cache is released as well.  
 -   This value is only applied when an attempt is made to use a specific private key with a specific context handle.  
@@ -57,7 +57,7 @@ The differences between the **szKEY\_CACHE\_SECONDS** and the **szPRIV\_KEY\_CAC
 -   This value applies to all CSPs in a process. Even if the CSP is released, this cache is not released.  
 -   This value applies whenever any stored private key is used or read from storage in a single process.  
 
-</dl>
+
 
 ## Requirements
 

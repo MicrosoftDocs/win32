@@ -10,10 +10,10 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-<dl> **Clients** - Windows 7 \| Windows 8  
+ **Clients** - Windows 7 \| Windows 8  
 **Servers** - Windows Server 2008 R2 \| Windows Server 2012  
 **Server/Controller** - Windows Server 2008 R2  
-</dl>
+
 
 ## Description
 

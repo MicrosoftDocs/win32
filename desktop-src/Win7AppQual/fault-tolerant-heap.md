@@ -10,14 +10,13 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients -** Windows 7  
-</dl>
+**Clients -** Windows 7  
 
 ## Feature Impact
 
-<dl> **Severity -** Medium  
+ **Severity -** Medium  
 **Frequency -** Low  
-</dl>
+
 
 ## Description
 
@@ -38,16 +37,15 @@ The service stop and start events contain no additional data. The FTH Enabled ev
 
 **Disabling Fault Tolerant Heap**
 
-<dl> **Caution** Serious problems may occur if you modify the registry incorrectly by using Registry Editor or by using another method. These problems may require you to reinstall the operating system. Microsoft cannot guarantee that these problems can be solved. Modify the registry at your own risk.  
-</dl> To disable Fault Tolerant Heap entirely on a system, set the REG\_DWORD value **HKLM\\Software\\Microsoft\\FTH\\Enabled** to **0**.
+**Caution** Serious problems may occur if you modify the registry incorrectly by using Registry Editor or by using another method. These problems may require you to reinstall the operating system. Microsoft cannot guarantee that these problems can be solved. Modify the registry at your own risk.  
+ To disable Fault Tolerant Heap entirely on a system, set the REG\_DWORD value **HKLM\\Software\\Microsoft\\FTH\\Enabled** to **0**.
 
 After changing this value, restart the system. FTH will no longer activate for new applications.
 
 **Resetting the list of applications tracked by FTH**
 
-Fault Tolerant heap is self-managing and will autonomously stop applying in the case that mitigations are not effective for a given application. However, if you need to reset the list of applications for which FTH is mitigating problems (for example, if you are testing an application and need to reproduce a crash that FTH is mitigating), you can run the following command from an elevated command prompt: <dl> **Rundll32.exe fthsvc.dll,FthSysprepSpecialize**  
+Fault Tolerant heap is self-managing and will autonomously stop applying in the case that mitigations are not effective for a given application. However, if you need to reset the list of applications for which FTH is mitigating problems (for example, if you are testing an application and need to reproduce a crash that FTH is mitigating), you can run the following command from an elevated command prompt:  **Rundll32.exe fthsvc.dll,FthSysprepSpecialize**  
 **Caution** Running this command will clear all FTH applications, so applications that are currently functioning properly may begin to crash again after running this command.  
-</dl>
 
  
 

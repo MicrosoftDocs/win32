@@ -10,8 +10,7 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-<dl> **Clients** - Windows 7 \| Windows 8  
-</dl>
+**Clients** - Windows 7 \| Windows 8  
 
 ## Description
 
@@ -136,7 +135,7 @@ Other tools, such as the Windows Performance Toolkit, are included in the ADK. T
 
 ## Resources
 
-<dl> **Video:**
+**Video:**
 
 -   [Channel9   BUILD ADK Videos](https://channel9.msdn.com/Events/BUILD/BUILD2011?sort=status&direction=asc&term=&t=assessment+and+deployment+kit)
 
@@ -149,7 +148,7 @@ Other tools, such as the Windows Performance Toolkit, are included in the ADK. T
 -   [Windows Performance Analysis](https://msdn.microsoft.com/performance/default.aspx)
 
   
-</dl>
+
 
  
 
