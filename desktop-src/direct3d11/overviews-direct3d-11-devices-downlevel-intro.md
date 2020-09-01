@@ -85,7 +85,7 @@ The following features are available for the feature levels listed. The headings
 | Max Anisotropy | 16 | 16 | 16 | 16 | 16 | 16 | 16 |
 | Max Primitive Count | 2^32 – 1 | 2^32 – 1 | 2^32 – 1 | 2^32 – 1 | 2^32 – 1 | 2^32 – 1 | 1048575 |
 | Max Vertex Index | 2^32 – 1 | 2^32 – 1 | 2^32 – 1 | 2^32 – 1 | 2^32 – 1 | 2^32 – 1 | 1048575 |
-| Max Input Slots | 32 | 32 | 32 | 32 | 32 | 16 | 16 | 16 | 16 |
+| Max Input Slots | 32 | 32 | 32 | 32 | 32 | 16 | 16 |
 | Simultaneous Render Targets | 8 | 8 | 8 | 8 | 8 | 8 | 4 |
 | Occlusion Queries | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | <b>Feature \\ Feature Level</b> | <b>12\_1<sup>0</sup></b> | <b>12\_0<sup>0</sup></b> | <b>11\_1<sup>1</sup></b> | <b>11\_0</b> | <b>10\_1</b> | <b>10\_0</b> | <b>9\_3<sup>7</sup></b> |
