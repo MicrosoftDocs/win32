@@ -36,7 +36,7 @@ This topic contains the following sections.
 
 ## Programming Languages
 
-Microsoft Active Accessibility is based on the Component Object Model (COM) with support for dual interfaces, and therefore, is programmable in C/C++, Microsoft Visual Basic 6.0, and scripting languages.
+Microsoft Active Accessibility is based on the Component Object Model (COM) with support for dual interfaces, and therefore, is programmable in C/C++ and scripting languages.
 
 When UI Automation was introduced, the client API was limited to managed code, while the provider API included both managed and unmanaged implementations. With Windows 7, a new COM-based client API was introduced to make it easier to program UI Automation client applications in C/C++.
 
