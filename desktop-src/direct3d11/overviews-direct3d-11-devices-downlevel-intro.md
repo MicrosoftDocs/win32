@@ -167,7 +167,7 @@ The following features are available for the feature levels listed. The headings
 
 <sup>6</sup> Higher tiers optional.
 
-<sup>7</sup> For Feature Level 9_3, only indexed instanced rendering is supported. Also for Feature Level 9_3, point list topology is not supported for drawing indexed and/or instanced.
+<sup>7</sup> For Feature Level 9_3, the only rendering methods supported are **Draw**, **DrawIndexed**, and **DrawIndexInstanced**. Also for Feature Level 9_3, point list rendering is supported only for rendering via **Draw**.
 
 For details of format support at different hardware feature levels, refer to:
 
