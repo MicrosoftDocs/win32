@@ -12,9 +12,9 @@ This preview provides students and beginners a way to start building knowledge i
 > [!NOTE]
 > The following features are available in prerelease versions of Windows 10, and are subject to change.
 
-## Install the latest Windows Insider Fast build 
+## Install the latest Windows Insider Dev Channel build 
 
-To use this preview, you'll need to [register for the Windows Insider Program](https://insider.windows.com/getting-started/#register). Once you do, follow [these instuctions](https://insider.windows.com/en-us/getting-started/#install) to install the latest insider build. When choosing your settings, ensure you're selecting the [Fast ring](/windows-insider/flight-hub/#active-development-builds-of-windows-10). 
+To use this preview, you'll need to [register for the Windows Insider Program](https://insider.windows.com/getting-started/#register). Once you do, follow [these instuctions](https://insider.windows.com/en-us/getting-started/#install) to install the latest insider build. When choosing your settings, ensure you're selecting the [Dev Channel](/windows-insider/flight-hub/#active-development-builds-of-windows-10). 
 
 For this preview, you need Build 20150 or higher. You can check your build version number by running `winver` via the **Run** command (Windows logo key + R).
 
