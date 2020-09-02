@@ -12,7 +12,7 @@ The Windows Insider SDK supports running existing ML tools, libraries, and popul
 > [!NOTE]
 > The following features are available in prerelease versions of Windows 10, and are subject to change.
 
-## Install the latest Windows Insider Fast build 
+## Install the latest Windows Insider Dev Channel build 
 
 To use this preview, you'll need to [register for the Windows Insider Program](https://insider.windows.com/getting-started/#register). Once you do, follow [these instuctions](https://insider.windows.com/getting-started/#install) to install the latest Insider build. When choosing your settings, ensure you're selecting the [Dev Channel](/windows-insider/flight-hub/#active-development-builds-of-windows-10). 
 
