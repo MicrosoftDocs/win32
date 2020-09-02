@@ -384,6 +384,24 @@ This property is inherited from [**CIM\_Chassis**](cim-chassis.md).
 
 **Sealed-Case PC** (24)
 
+</dt> <dd></dd> <dt>
+
+<span id="Tablet"></span><span id="tablet"></span><span id="TABLET"></span>
+
+**Tablet** (30)
+
+</dt> <dd></dd> <dt>
+
+<span id="Convertible"></span><span id="Convertible"></span><span id="Convertible"></span>
+
+**Convertible** (31)
+
+</dt> <dd></dd> <dt>
+
+<span id="Detachable"></span><span id="Detachable "></span><span id="Detachable "></span>
+
+**Detachable** (32)
+
 
 </dt> <dd></dd> </dl>
 
