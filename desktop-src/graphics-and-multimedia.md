@@ -23,7 +23,7 @@ Windows provides APIs and components that support graphics, gaming, and imaging.
 | [ANGLE for Windows Store (External Site)](https://github.com/microsoft/angle/wiki)<br/> | ANGLE for Windows Store is an open-source project that allows developers to run OpenGL ES content on Windows by translating OpenGL ES API calls to DirectX 11 API calls. ANGLE for Windows Store supports Windows 8.1, Windows Phone 8.1, and Windows 10.<br/> |
 
 > [!NOTE]
-> As of Windows 10, version 1809 (10.0; Build 17763), Truplay is removed from Windows. TruePlay documentation is not published.
+> As of Windows 10, version 1809 (10.0; Build 17763), TruePlay is removed from Windows. TruePlay documentation is not published.
 
 ## Related topics
 
