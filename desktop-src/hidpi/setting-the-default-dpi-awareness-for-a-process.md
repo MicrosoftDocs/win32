@@ -108,7 +108,7 @@ There are multiple APIs that let you specify the default DPI awareness for your 
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/library/windows/desktop/ms633543(v=vs.85).aspx">SetProcessDpiAware</a></td>
+<td><a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiaware">SetProcessDpiAware</a></td>
 <td>Windows Vista</td>
 <td>N/A</td>
 <td>SetProcessDpiAware()</td>

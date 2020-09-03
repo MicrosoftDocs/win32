@@ -95,7 +95,7 @@ Set colServices = objSession.Enumerate( strResource )
 
 ## Locating a Specific Instance of a WMI Resource
 
-In WMI, you can designate a particular instance of a class either by specifying values for the key properties or by querying for an instance that matches a list of property values. Key properties have the WMI [**Key qualifier**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier).
+In WMI, you can designate a particular instance of a class either by specifying values for the key properties or by querying for an instance that matches a list of property values. Key properties have the WMI [**Key qualifier**](/windows/desktop/WmiSdk/key-qualifier).
 
 You can obtain a specific instance of a class in several ways:
 
@@ -114,7 +114,7 @@ You can obtain a specific instance of a class in several ways:
 
     
 
--   A call to [**SWbemServices.Get**](https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservices-get). For [**Session.Get**](session-get.md), you must supply one or more specific key values, preceded by a question mark (?).
+-   A call to [**SWbemServices.Get**](/windows/desktop/WmiSdk/swbemservices-get). For [**Session.Get**](session-get.md), you must supply one or more specific key values, preceded by a question mark (?).
 
     The format of the URI for a specific instance is "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/WMI\_Class?Key1=Value".
 
@@ -126,7 +126,7 @@ You can obtain a specific instance of a class in several ways:
 
     A WMI class may have more than one key. Key name-value pairs are separated by a "+" sign. In that case, the format is: http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service?Key1=Value1+Key2=Value2.
 
-    The WinRM syntax to obtain a singleton WMI object is different from WMI. A singleton is a WMI class defined so that only one instance is allowed. [**Win32\_CurrentTime**](https://docs.microsoft.com/previous-versions/windows/desktop/wmitimepprov/win32-currenttime) or [**Win32\_WMISetting**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-wmisetting) are examples of a WMI singleton class.
+    The WinRM syntax to obtain a singleton WMI object is different from WMI. A singleton is a WMI class defined so that only one instance is allowed. [**Win32\_CurrentTime**](/previous-versions/windows/desktop/wmitimepprov/win32-currenttime) or [**Win32\_WMISetting**](/windows/desktop/CIMWin32Prov/win32-wmisetting) are examples of a WMI singleton class.
 
     The WMI syntax for singletons is shown in the following VBScript code example.
 
@@ -146,7 +146,7 @@ You can obtain a specific instance of a class in several ways:
 
 -   Adding a [*selector*](windows-remote-management-glossary.md) to a [**ResourceLocator**](resourcelocator.md) or [**IWSManResourceLocator**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanresourcelocator) object.
 
-    The following VBScript code example shows how to use a selector to get a specific instance of [**Win32\_Processor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-processor).
+    The following VBScript code example shows how to use a selector to get a specific instance of [**Win32\_Processor**](/windows/desktop/CIMWin32Prov/win32-processor).
 
     ```VB
     strUri = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Processor"

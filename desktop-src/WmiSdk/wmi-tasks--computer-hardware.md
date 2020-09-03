@@ -279,7 +279,7 @@ if (!$pcmcia.count) {
 </tr>
 <tr class="even">
 <td>...identify devices that are not working (those marked with an exclamation point icon in <strong>Device Manager</strong>)?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-pnpentity"><strong>Win32_PnPEntity</strong></a> class and use the following clause in your <a href="querying-with-wql.md">WQL</a> query. <strong>WHERE ConfigManagerErrorCode <> 0</strong> Note that this code may not detect USB devices that are missing drivers.</p>
+<td><p>Use the <a href="/windows/desktop/CIMWin32Prov/win32-pnpentity"><strong>Win32_PnPEntity</strong></a> class and use the following clause in your <a href="querying-with-wql.md">WQL</a> query. <strong>WHERE ConfigManagerErrorCode <> 0</strong> Note that this code may not detect USB devices that are missing drivers.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -729,9 +729,4 @@ The [Multithreaded System Asset Gathering with Powershell](https://Gallery.TechN
 </dt> </dl>
 
  
-
- 
-
-
-
 

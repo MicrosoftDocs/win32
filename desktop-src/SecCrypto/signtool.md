@@ -164,7 +164,7 @@ The following options apply to the **sign** command.
 </tr>
 <tr class="even">
 <td><strong>/p</strong> <em>Password</em></td>
-<td>Specifies the password to use when opening a PFX file. A PFX file can be specified by using the <strong>/f</strong> option. For information about protecting passwords, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.<br/></td>
+<td>Specifies the password to use when opening a PFX file. A PFX file can be specified by using the <strong>/f</strong> option. For information about protecting passwords, see <a href="/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/p7</strong> <em>Path</em></td>
@@ -347,7 +347,3 @@ The following command line shows signing a file automatically using the best cer
  
 
  
-
-
-
-

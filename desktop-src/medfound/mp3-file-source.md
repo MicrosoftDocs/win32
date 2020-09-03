@@ -74,7 +74,7 @@ In addition, it exposes the following interfaces through [**IMFGetService**](/wi
 </tr>
 <tr class="even">
 <td><strong>MF_PROPERTY_HANDLER_SERVICE</strong></td>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore"><strong>IPropertyStore</strong></a>
+<td><a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore"><strong>IPropertyStore</strong></a>
 <blockquote>
 [!Note]<br />
 See <a href="shell-metadata-providers.md">Shell Metadata Providers</a>.

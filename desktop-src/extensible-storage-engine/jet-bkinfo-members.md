@@ -82,7 +82,7 @@ Top
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.finalize?redirectedfrom=MSDN#System_Object_Finalize">Finalize</a></td>
+<td><a href="/dotnet/api/system.object.finalize#System_Object_Finalize">Finalize</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="even">
@@ -92,12 +92,12 @@ Top
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.gettype?redirectedfrom=MSDN#System_Object_GetType">GetType</a></td>
+<td><a href="/dotnet/api/system.object.gettype#System_Object_GetType">GetType</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone?redirectedfrom=MSDN#System_Object_MemberwiseClone">MemberwiseClone</a></td>
+<td><a href="/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">MemberwiseClone</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="odd">
@@ -145,4 +145,3 @@ Top
 [JET_BKINFO structure](hh577892\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

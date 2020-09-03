@@ -60,7 +60,7 @@ The D3DCompiler API is available in the Windows SDK.
 </tr>
 <tr class="even">
 <td><span id="XNAMATH"></span><span id="xnamath"></span>XNAMATH<br/></td>
-<td>The most recent version of XNAMATH, which is updated for Windows 8, is now <a href="https://docs.microsoft.com/windows/desktop/dxmath/directxmath-portal">DirectXMath</a>. The headers for DirectXMath are available in the Windows SDK.<br/></td>
+<td>The most recent version of XNAMATH, which is updated for Windows 8, is now <a href="/windows/desktop/dxmath/directxmath-portal">DirectXMath</a>. The headers for DirectXMath are available in the Windows SDK.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="DirectX_Control_Panel_and_DirectX_Capabilities_Viewer"></span><span id="directx_control_panel_and_directx_capabilities_viewer"></span><span id="DIRECTX_CONTROL_PANEL_AND_DIRECTX_CAPABILITIES_VIEWER"></span>DirectX Control Panel and DirectX Capabilities Viewer<br/></td>

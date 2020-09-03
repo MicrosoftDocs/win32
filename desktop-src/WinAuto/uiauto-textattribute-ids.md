@@ -97,7 +97,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_BackgroundColorAttributeId"></span><span id="uia_backgroundcolorattributeid"></span><span id="UIA_BACKGROUNDCOLORATTRIBUTEID"></span><dl> <dt><strong>UIA_BackgroundColorAttributeId</strong></dt> <dt>40001</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>BackgroundColor</strong> text attribute, which specifies the background color of the text. This attribute is specified as a <a href="https://msdn.microsoft.com/library/dd183449(VS.85).aspx">COLORREF</a>; a 32-bit value used to specify an RGB or RGBA color. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0 <br/></td>
+<td style="text-align: left;">Identifies the <strong>BackgroundColor</strong> text attribute, which specifies the background color of the text. This attribute is specified as a <a href="/windows/win32/gdi/colorref">COLORREF</a>; a 32-bit value used to specify an RGB or RGBA color. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0 <br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_BeforeParagraphSpacingAttributeId"></span><span id="uia_beforeparagraphspacingattributeid"></span><span id="UIA_BEFOREPARAGRAPHSPACINGATTRIBUTEID"></span><dl> <dt><strong>UIA_BeforeParagraphSpacingAttributeId</strong></dt> <dt>40041</dt> </dl></td>
@@ -150,7 +150,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_ForegroundColorAttributeId"></span><span id="uia_foregroundcolorattributeid"></span><span id="UIA_FOREGROUNDCOLORATTRIBUTEID"></span><dl> <dt><strong>UIA_ForegroundColorAttributeId</strong></dt> <dt>40008</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>ForegroundColor</strong> text attribute, which specifies the foreground color of the text. This attribute is specified as a <a href="https://msdn.microsoft.com/library/dd183449(VS.85).aspx">COLORREF</a>, a 32-bit value used to specify an RGB or RGBA color. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
+<td style="text-align: left;">Identifies the <strong>ForegroundColor</strong> text attribute, which specifies the foreground color of the text. This attribute is specified as a <a href="/windows/win32/gdi/colorref">COLORREF</a>, a 32-bit value used to specify an RGB or RGBA color. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_HorizontalTextAlignmentAttributeId"></span><span id="uia_horizontaltextalignmentattributeid"></span><span id="UIA_HORIZONTALTEXTALIGNMENTATTRIBUTEID"></span><dl> <dt><strong>UIA_HorizontalTextAlignmentAttributeId</strong></dt> <dt>40009</dt> </dl></td>
@@ -222,7 +222,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_OverlineColorAttributeId"></span><span id="uia_overlinecolorattributeid"></span><span id="UIA_OVERLINECOLORATTRIBUTEID"></span><dl> <dt><strong>UIA_OverlineColorAttributeId</strong></dt> <dt>40023</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>OverlineColor</strong> text attribute, which specifies the color of the overline text decoration. This attribute is specified as a <a href="https://msdn.microsoft.com/library/dd183449(VS.85).aspx">COLORREF</a>, a 32-bit value used to specify an RGB or RGBA color. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
+<td style="text-align: left;">Identifies the <strong>OverlineColor</strong> text attribute, which specifies the color of the overline text decoration. This attribute is specified as a <a href="/windows/win32/gdi/colorref">COLORREF</a>, a 32-bit value used to specify an RGB or RGBA color. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_OverlineStyleAttributeId"></span><span id="uia_overlinestyleattributeid"></span><span id="UIA_OVERLINESTYLEATTRIBUTEID"></span><dl> <dt><strong>UIA_OverlineStyleAttributeId</strong></dt> <dt>40024</dt> </dl></td>
@@ -234,7 +234,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_StrikethroughColorAttributeId"></span><span id="uia_strikethroughcolorattributeid"></span><span id="UIA_STRIKETHROUGHCOLORATTRIBUTEID"></span><dl> <dt><strong>UIA_StrikethroughColorAttributeId</strong></dt> <dt>40025</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>StrikethroughColor</strong> text attribute, which specifies the color of the strikethrough text decoration. This attribute is specified as a <a href="https://msdn.microsoft.com/library/dd183449(VS.85).aspx">COLORREF</a>, a 32-bit value used to specify an RGB or RGBA color. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
+<td style="text-align: left;">Identifies the <strong>StrikethroughColor</strong> text attribute, which specifies the color of the strikethrough text decoration. This attribute is specified as a <a href="/windows/win32/gdi/colorref">COLORREF</a>, a 32-bit value used to specify an RGB or RGBA color. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_StrikethroughStyleAttributeId"></span><span id="uia_strikethroughstyleattributeid"></span><span id="UIA_STRIKETHROUGHSTYLEATTRIBUTEID"></span><dl> <dt><strong>UIA_StrikethroughStyleAttributeId</strong></dt> <dt>40026</dt> </dl></td>
@@ -258,7 +258,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_UnderlineColorAttributeId"></span><span id="uia_underlinecolorattributeid"></span><span id="UIA_UNDERLINECOLORATTRIBUTEID"></span><dl> <dt><strong>UIA_UnderlineColorAttributeId</strong></dt> <dt>40029</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>UnderlineColor</strong> text attribute, which specifies the color of the underline text decoration. This attribute is specified as a <a href="https://msdn.microsoft.com/library/dd183449(VS.85).aspx">COLORREF</a>, a 32-bit value used to specify an RGB or RGBA color. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
+<td style="text-align: left;">Identifies the <strong>UnderlineColor</strong> text attribute, which specifies the color of the underline text decoration. This attribute is specified as a <a href="/windows/win32/gdi/colorref">COLORREF</a>, a 32-bit value used to specify an RGB or RGBA color. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_UnderlineStyleAttributeId"></span><span id="uia_underlinestyleattributeid"></span><span id="UIA_UNDERLINESTYLEATTRIBUTEID"></span><dl> <dt><strong>UIA_UnderlineStyleAttributeId</strong></dt> <dt>40030</dt> </dl></td>
@@ -305,6 +305,4 @@ This topic describes the named constants used to identify text attributes of a M
 
 [UI Automation Support for Textual Content](uiauto-ui-automation-textpattern-overview.md)
 </dt> </dl>
-
- 
 

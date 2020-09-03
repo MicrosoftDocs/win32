@@ -69,9 +69,9 @@ The following procedure shows how to execute the WMI application. Steps 1 throug
 
     
 
-    Once the value of the `Name` property is stored in the [**VARIANT**](https://msdn.microsoft.com/library/ms221627(v=VS.71).aspx) variable `vtProp`, it can then be displayed to the user.
+    Once the value of the `Name` property is stored in the [**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant) variable `vtProp`, it can then be displayed to the user.
 
-    The following code example shows how the [**VARIANT**](https://msdn.microsoft.com/library/ms221627(v=VS.71).aspx) variable can be used again to store and display the value of the amount of free physical memory.
+    The following code example shows how the [**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant) variable can be used again to store and display the value of the amount of free physical memory.
 
     ```C++
     hr = pclsObj->Get(L"FreePhysicalMemory",

@@ -114,7 +114,7 @@ The latest version of this interface is <a href="/windows/desktop/api/d3d11_3/nn
 <td>Represents a fence, an object used for synchronization of the CPU and one or more GPUs.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11inputlayout"><strong>ID3D11InputLayout</strong></a><br/></td>
+<td><a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11inputlayout"><strong>ID3D11InputLayout</strong></a><br/></td>
 <td>An input-layout interface holds a definition of how to feed vertex data that is laid out in memory into the <a href="d3d10-graphics-programming-guide-input-assembler-stage.md">input-assembler stage</a> of the <a href="overviews-direct3d-11-graphics-pipeline.md">graphics pipeline</a>.<br/></td>
 </tr>
 <tr class="even">
@@ -169,10 +169,4 @@ Direct3D 11 implements interfaces for:
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

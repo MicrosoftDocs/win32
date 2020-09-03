@@ -217,7 +217,7 @@ This attribute value can be zero or a combination of one or more of the followin
 </tr>
 <tr class="even">
 <td>0x00000040</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_PASSWD_CANT_CHANGE</strong></a></td>
+<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_PASSWD_CANT_CHANGE</strong></a></td>
 <td>The user cannot change the password.
 <blockquote>
 [!Note]<br />
@@ -318,10 +318,4 @@ You cannot assign the permission settings of PASSWD_CANT_CHANGE by directly modi
  
 
  
-
- 
-
-
-
-
 

@@ -42,7 +42,7 @@ In addition, NPS contains a set of new features that expand the IAS capabilities
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page">Network Access Protection (NAP)</a><br/></td>
+<td><a href="/windows/desktop/NAP/network-access-protection-start-page">Network Access Protection (NAP)</a><br/></td>
 <td>NPS is the central server of Network Access Protection.<br/> NPS supports policy authoring using the following additional conditions:<br/>
 <ul>
 <li>Policy expiration.</li>
@@ -89,7 +89,7 @@ NPS, through NAP, interoperates with CISCO NAC.<br/> IAS does not support NAP.<b
 <td>NPS is integrated with the Server Manager and the Role Management Tool. This integration facilitates the configuration and management of NPS and related scenarios.<br/> Server Manager is not available on computers running IAS.<br/></td>
 </tr>
 <tr class="odd">
-<td>Updated Command Line Scripting with <a href="https://technet.microsoft.com/library/fd1e2fbe-15a6-413b-b712-28afb312c92f">Netsh</a>.<br/></td>
+<td>Updated Command Line Scripting with <a href="/previous-versions/windows/it-pro/windows-server-2003/cc785383(v=ws.10)">Netsh</a>.<br/></td>
 <td>NPS supports the &quot;Netsh nps&quot; command line interface. &quot;Netsh nps&quot; contains new commands that permit to fully configure NPS, including NAP features.<br/> IAS supports the &quot;Netsh aaaa&quot; command line interface.<br/></td>
 </tr>
 <tr class="even">
@@ -117,6 +117,4 @@ See [TechNet: Network Policy Server](/previous-versions/windows/it-pro/windows-s
 
 [Working with a State Server](/windows/desktop/Nps/ias-working-with-a-state-server)
 </dt> </dl>
-
- 
 

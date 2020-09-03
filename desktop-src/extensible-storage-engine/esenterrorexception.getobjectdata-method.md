@@ -90,7 +90,7 @@ public override void GetObjectData(
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception?redirectedfrom=MSDN">ArgumentNullException</a></td>
+<td><a href="/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
 <td><p>The info parameter is a null reference (Nothing in Visual Basic).</p></td>
 </tr>
 </tbody>

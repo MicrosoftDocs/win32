@@ -965,7 +965,7 @@ This function has been replaced by <a href="/windows/desktop/api/Shlwapi/nf-shlw
 <td>Exposes methods that enable the addition of custom columns in the Windows Explorer Details view. <br/>
 <blockquote>
 [!Note]<br />
-Support for <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-icolumnprovider"><strong>IColumnProvider</strong></a> has been removed as of Windows Vista. The Windows property system is used in its place. See <a href="/windows/desktop/properties/windows-properties-system">Windows Property System</a> for conceptual materials that explain the use of the new system.
+Support for <a href="/windows/desktop/api/shlobj/nn-shlobj-icolumnprovider"><strong>IColumnProvider</strong></a> has been removed as of Windows Vista. The Windows property system is used in its place. See <a href="/windows/desktop/properties/windows-properties-system">Windows Property System</a> for conceptual materials that explain the use of the new system.
 </blockquote>
 <br/></td>
 </tr>
@@ -986,7 +986,7 @@ Support for <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-sh
 <td>Deprecated. Exposes one method that determines a page's web content zone setting before the page is accessed.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskband"><strong>IDeskBand</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskband"><strong>IDeskBand</strong></a><br/></td>
 <td>Used to obtain information about a band object.<br/>
 <blockquote>
 [!Important]<br />

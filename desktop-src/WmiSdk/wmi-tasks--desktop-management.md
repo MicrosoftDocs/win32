@@ -280,7 +280,7 @@ foreach ($system in $computers) {
 </tr>
 <tr class="odd">
 <td>...reboot or shut down a remote computer?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-operatingsystem"><strong>Win32_OperatingSystem</strong></a> class and the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32shutdown-method-in-class-win32-operatingsystem"><strong>Win32Shutdown</strong></a> method. You must include the <a href="privilege-constants.md">RemoteShutdown</a> privilege when connecting to WMI. For more information, see <a href="executing-privileged-operations-using-vbscript.md">Executing Privileged Operations Using VBScript</a>. Unlike the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/shutdown-method-in-class-win32-operatingsystem"><strong>Shutdown</strong></a> method on <strong>Win32_OperatingSystem</strong>, the <strong>Win32Shutdown</strong> method allows you to set flags to control the shutdown behavior.</p>
+<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-operatingsystem"><strong>Win32_OperatingSystem</strong></a> class and the <a href="/windows/desktop/CIMWin32Prov/win32shutdown-method-in-class-win32-operatingsystem"><strong>Win32Shutdown</strong></a> method. You must include the <a href="privilege-constants.md">RemoteShutdown</a> privilege when connecting to WMI. For more information, see <a href="executing-privileged-operations-using-vbscript.md">Executing Privileged Operations Using VBScript</a>. Unlike the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/shutdown-method-in-class-win32-operatingsystem"><strong>Shutdown</strong></a> method on <strong>Win32_OperatingSystem</strong>, the <strong>Win32Shutdown</strong> method allows you to set flags to control the shutdown behavior.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -410,9 +410,4 @@ foreach ($objStartupCommand in $colItems)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -28,27 +28,27 @@ The [EsentStopwatch](dn334867\(v=exchg.10\).md) type exposes the following membe
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.equals?redirectedfrom=MSDN#System_Object_Equals_System_Object_">Equals</a></td>
+<td><a href="/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Equals</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.finalize?redirectedfrom=MSDN#System_Object_Finalize">Finalize</a></td>
+<td><a href="/dotnet/api/system.object.finalize#System_Object_Finalize">Finalize</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode?redirectedfrom=MSDN#System_Object_GetHashCode">GetHashCode</a></td>
+<td><a href="/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">GetHashCode</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.gettype?redirectedfrom=MSDN#System_Object_GetType">GetType</a></td>
+<td><a href="/dotnet/api/system.object.gettype#System_Object_GetType">GetType</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone?redirectedfrom=MSDN#System_Object_MemberwiseClone">MemberwiseClone</a></td>
+<td><a href="/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">MemberwiseClone</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="even">
@@ -74,7 +74,7 @@ The [EsentStopwatch](dn334867\(v=exchg.10\).md) type exposes the following membe
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn334873(v=exchg.10).md">ToString</a></td>
-<td>Returns a <a href="/dotnet/api/system.string">String</a> that represents the current <a href="https://docs.microsoft.com/dotnet/api/system.diagnostics.stopwatch?redirectedfrom=MSDN">Stopwatch</a>. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.object.tostring?redirectedfrom=MSDN#System_Object_ToString">Object.ToString()</a>.)</td>
+<td>Returns a <a href="/dotnet/api/system.string">String</a> that represents the current <a href="/dotnet/api/system.diagnostics.stopwatch">Stopwatch</a>. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.object.tostring?redirectedfrom=MSDN#System_Object_ToString">Object.ToString()</a>.)</td>
 </tr>
 </tbody>
 </table>

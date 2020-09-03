@@ -47,7 +47,7 @@ Calculates the level of detail.
 </tr>
 <tr class="even">
 <td><span id="S"></span><span id="s"></span><em>S</em><br/></td>
-<td>[in] A <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-effect-sampler-syntax">Sampler state</a>. This is an object declared in an effect file that contains state assignments.<br/></td>
+<td>[in] A <a href="/windows/desktop/direct3d10/d3d10-effect-sampler-syntax">Sampler state</a>. This is an object declared in an effect file that contains state assignments.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="x"></span><span id="X"></span><em>x</em><br/></td>
@@ -113,10 +113,4 @@ This function is supported in the following shader models.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

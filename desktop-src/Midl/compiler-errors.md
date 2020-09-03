@@ -459,7 +459,7 @@ The following error messages are generated during MIDL compilation:
 </tr>
 <tr class="odd">
 <td><span id="MIDL2104"></span><span id="midl2104"></span><dl> <dt><strong>MIDL2104</strong></dt> </dl></td>
-<td><dl> <dt><span id="pointer_to_a_conformant_array_or_an_array_that_contains_a_conformant_array_is_not_supported"></span><span id="POINTER_TO_A_CONFORMANT_ARRAY_OR_AN_ARRAY_THAT_CONTAINS_A_CONFORMANT_ARRAY_IS_NOT_SUPPORTED"></span>pointer to a conformant array or an array that contains a conformant array is not supported</dt> <dd> Illegal conformant array usage. For rules governing conformant arrays, see <a href="https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-rpc">Arrays and RPC</a>.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="pointer_to_a_conformant_array_or_an_array_that_contains_a_conformant_array_is_not_supported"></span><span id="POINTER_TO_A_CONFORMANT_ARRAY_OR_AN_ARRAY_THAT_CONTAINS_A_CONFORMANT_ARRAY_IS_NOT_SUPPORTED"></span>pointer to a conformant array or an array that contains a conformant array is not supported</dt> <dd> Illegal conformant array usage. For rules governing conformant arrays, see <a href="/windows/desktop/Rpc/arrays-and-rpc">Arrays and RPC</a>.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2105"></span><span id="midl2105"></span><dl> <dt><strong>MIDL2105</strong></dt> </dl></td>
@@ -911,7 +911,7 @@ The following error messages are generated during MIDL compilation:
 </tr>
 <tr class="odd">
 <td><span id="MIDL2216"></span><span id="midl2216"></span><dl> <dt><strong>MIDL2216</strong></dt> </dl></td>
-<td><dl> <dt><span id="_ptr__does_not_support_aliasing_in_this_version"></span><span id="_PTR__DOES_NOT_SUPPORT_ALIASING_IN_THIS_VERSION"></span>[ptr] does not support aliasing in this version</dt> <dd> An alias occurs when data is accessible through more than one pointer or variable name. Remove the alias. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Rpc/unique-pointers">Unique Pointers</a>.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="_ptr__does_not_support_aliasing_in_this_version"></span><span id="_PTR__DOES_NOT_SUPPORT_ALIASING_IN_THIS_VERSION"></span>[ptr] does not support aliasing in this version</dt> <dd> An alias occurs when data is accessible through more than one pointer or variable name. Remove the alias. For more information, see <a href="/windows/desktop/Rpc/unique-pointers">Unique Pointers</a>.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2217"></span><span id="midl2217"></span><dl> <dt><strong>MIDL2217</strong></dt> </dl></td>
@@ -1822,10 +1822,4 @@ Occasionally this error occurs even when the IDL file is correct and no optimiza
  
 
  
-
- 
-
-
-
-
 

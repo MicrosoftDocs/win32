@@ -95,7 +95,7 @@ Next</code></pre></td>
 </tr>
 <tr class="even">
 <td>...determine whether users have .MP3 files stored on their computer?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-datafile"><strong>CIM_DataFile</strong></a> class and select files using the following <a href="querying-with-wql.md">WQL</a> <strong>WHERE</strong> clause: Where Extension = &quot;MP3&quot;.</p>
+<td><p>Use the <a href="/windows/desktop/CIMWin32Prov/cim-datafile"><strong>CIM_DataFile</strong></a> class and select files using the following <a href="querying-with-wql.md">WQL</a> <strong>WHERE</strong> clause: Where Extension = &quot;MP3&quot;.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>

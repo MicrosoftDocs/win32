@@ -32,7 +32,7 @@ This topic contains two examples that use tab controls. The first example demons
 </tr>
 <tr class="even">
 <td><a href="create-a-tabbed-dialog-box.md">How to Create a Tabbed Dialog Box</a><br/></td>
-<td>The example in this section demonstrates how to create a dialog box that uses tabs to provide multiple pages of controls. The main dialog box is a modal dialog box. Each page of controls is defined by a dialog box template that has the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles"><strong>WS_CHILD</strong></a> style. When a tab is selected, a modeless dialog box is created for the incoming page and the dialog box for the outgoing page is destroyed. <br/>
+<td>The example in this section demonstrates how to create a dialog box that uses tabs to provide multiple pages of controls. The main dialog box is a modal dialog box. Each page of controls is defined by a dialog box template that has the <a href="/windows/desktop/winmsg/window-styles"><strong>WS_CHILD</strong></a> style. When a tab is selected, a modeless dialog box is created for the incoming page and the dialog box for the outgoing page is destroyed. <br/>
 <blockquote>
 [!Note]<br />
 In many cases, you can implement multiple-page dialog boxes more easily by using property sheets. For more information about property sheets, see <a href="property-sheets.md">About Property Sheets</a>.
@@ -47,10 +47,4 @@ In many cases, you can implement multiple-page dialog boxes more easily by using
  
 
  
-
- 
-
-
-
-
 

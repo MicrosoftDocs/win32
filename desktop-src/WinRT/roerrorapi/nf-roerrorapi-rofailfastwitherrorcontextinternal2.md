@@ -36,7 +36,7 @@ void WINAPI RoFailFastWithErrorContextInternal2(
 
 `hrError`
 
-Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
+Type: **[HRESULT](../../com/structure-of-com-error-codes.md)**
 
 The **HRESULT** associated with the current error. The exception is raised for any value of *hrError*.
 

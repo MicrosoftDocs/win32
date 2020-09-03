@@ -34,7 +34,7 @@ The SSPI model supports three types of security contexts.
 </tr>
 <tr class="even">
 <td><a href="datagram-contexts.md">Datagram</a></td>
-<td>A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly"><em>datagram</em></a>-oriented context has extra support for DCE-style datagram communication. It can also be used generically for a datagram-oriented transport application.<br/>
+<td>A <a href="/windows/desktop/SecGloss/d-gly"><em>datagram</em></a>-oriented context has extra support for DCE-style datagram communication. It can also be used generically for a datagram-oriented transport application.<br/>
 <blockquote>
 <p>[!Important]</p>
 <p>The <a href="microsoft-kerberos.md">Microsoft Kerberos</a> package does not support datagram contexts in user-to-user mode.<br/></p>

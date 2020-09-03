@@ -236,7 +236,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 <ul>
 <li><a href="https://support.microsoft.com/kb/197571">AppInit DLLs</a></li>
 <li><a href="https://docs.microsoft.com/windows/desktop/w8cookbook/application--executable--manifest">App (executable) manifest</a></li>
-<li><a href="https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows">Writing High-DPI Win32 Applications</a></li>
+<li><a href="/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows">Writing High-DPI Win32 Applications</a></li>
 </ul>
 <br/></td>
 </tr>
@@ -259,7 +259,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 </tr>
 <tr class="even">
 <td>Clean Reversible Installation</td>
-<td>A clean, reversible, installation allows users to successfully manage (deploy and remove) apps on their systems. For more information see, <a href="https://docs.microsoft.com/visualstudio/deployment/how-to-install-prerequisites-with-a-clickonce-application?view=vs-2015">How to: Install Prerequisites with a ClickOnce Application</a>.</td>
+<td>A clean, reversible, installation allows users to successfully manage (deploy and remove) apps on their systems. For more information see, <a href="/visualstudio/deployment/how-to-install-prerequisites-with-a-clickonce-application?view=vs-2015">How to: Install Prerequisites with a ClickOnce Application</a>.</td>
 </tr>
 <tr class="odd">
 <td>Digitally sign files and drivers</td>
@@ -267,13 +267,13 @@ Thank you again for joining in our commitment to delivering great customer exper
 </tr>
 <tr class="even">
 <td>Do not block installation or app launch based on operating system version check</td>
-<td>It is important that customers are not artificially blocked from installing or running their app when there are no technical limitations. In general, if apps were written for Windows Vista or later releases, they should have no reason to check the operating system version. For more information see, <a href="https://docs.microsoft.com/windows/desktop/Win7AppQual/operating-system-versioning">Operating System Versioning</a>.</td>
+<td>It is important that customers are not artificially blocked from installing or running their app when there are no technical limitations. In general, if apps were written for Windows Vista or later releases, they should have no reason to check the operating system version. For more information see, <a href="/windows/desktop/Win7AppQual/operating-system-versioning">Operating System Versioning</a>.</td>
 </tr>
 <tr class="odd">
 <td>Do not load Services and Drivers in Safe Mode</td>
 <td>Safe mode allows users to diagnose and troubleshoot Windows. Unless needed for basic operations of the system (for example, storage device drivers) or for diagnostic and recovery purposes (for example, anti-virus scanners), drivers and services must not be set to load in safe mode. By default, the safe mode does not start most drivers and services that did not come preinstalled with Windows. They should remain disabled unless the system requires them for basic operations or for diagnostic and recovery purposes.<br/> For more information see:
 <ul>
-<li><a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/determining-whether-the-operating-system-is-running-in-safe-mode">Determining Whether the Operating System Is Running in Safe Mode</a></li>
+<li><a href="/windows-hardware/drivers/kernel/determining-whether-the-operating-system-is-running-in-safe-mode">Determining Whether the Operating System Is Running in Safe Mode</a></li>
 <li><a href="https://support.microsoft.com/kb/837643">How to determine whether the system is running in Safe Mode from a device driver</a></li>
 </ul>
 <br/></td>
@@ -282,7 +282,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 <td>Follow User Account Control (UAC) Guidelines</td>
 <td>Some Windows app run in the security context of an administrator account, and many require excessive user rights and Windows privileges. Controlling access to resources enables users to be in control of their systems against unwanted changes (An unwanted change can be malicious, such as a rootkit stealthily taking over the machine, or an action from people who have limited privileges, for example, an employee installing prohibited software on a work computer). The most important rule for controlling access to resources is to provide the least amount of access  standard user context  necessary for a user to perform his or her necessary tasks. Following UAC guidelines provides app with the necessary permissions when needed, without leaving the system constantly exposed to security risks.<br/> For more information see:
 <ul>
-<li><a href="https://docs.microsoft.com/windows/desktop/uxguide/winenv-uac">User Account Control</a></li>
+<li><a href="/windows/desktop/uxguide/winenv-uac">User Account Control</a></li>
 <li><a href="/previous-versions/aa480152(v=msdn.10)">UAC: Application Update Guidelines</a></li>
 </ul>
 <br/></td>
@@ -293,7 +293,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 </tr>
 <tr class="even">
 <td>Support Multi-User Sessions</td>
-<td>Windows users should be able to run concurrent sessions without conflict or disruption. For more information see, <a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-programming-guidelines">Remote Desktop Services Programming Guidelines</a>.</td>
+<td>Windows users should be able to run concurrent sessions without conflict or disruption. For more information see, <a href="/windows/desktop/TermServ/terminal-services-programming-guidelines">Remote Desktop Services Programming Guidelines</a>.</td>
 </tr>
 <tr class="odd">
 <td>Support x64 versions of Windows</td>

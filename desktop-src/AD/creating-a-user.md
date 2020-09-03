@@ -47,7 +47,7 @@ You can also set other attributes. The following user attributes are set with de
 <td>Specifies when the account will expire. The default is <strong>TIMEQ_FOREVER</strong>, which indicates that the account will never expire.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/ADSchema/a-ntsecuritydescriptor"><strong>nTSecurityDescriptor</strong></a></td>
+<td><a href="/windows/desktop/ADSchema/a-ntsecuritydescriptor"><strong>nTSecurityDescriptor</strong></a></td>
 <td>A security descriptor is created based on specific rules. For more information, see <a href="how-security-descriptors-are-set-on-new-directory-objects.md">How Security Descriptors are Set on New Directory Objects</a>.<br/></td>
 </tr>
 <tr class="odd">
@@ -113,6 +113,4 @@ When a new user account is created, the [**userAccountControl**](/windows/deskto
 
 [Example Code for Creating a User](example-code-for-creating-a-user.md)
 </dt> </dl>
-
- 
 

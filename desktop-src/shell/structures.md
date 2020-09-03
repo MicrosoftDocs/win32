@@ -213,7 +213,7 @@ In place of this structure, you can use the <a href="/windows/desktop/api/Shlwap
 <td>Contains the clipboard format definition for CFSTR_FILE_ATTRIBUTES_ARRAY.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-filedescriptora"><strong>FILEDESCRIPTOR</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-filedescriptora"><strong>FILEDESCRIPTOR</strong></a><br/></td>
 <td>Describes the properties of a file that is being copied by means of the clipboard during a Microsoft ActiveX <a href="dragdrop.md">drag-and-drop</a> operation.<br/></td>
 </tr>
 <tr class="even">
@@ -572,7 +572,3 @@ As of Windows Vista, the use of the <a href="/windows/desktop/api/shobjidl_core
  
 
  
-
-
-
-

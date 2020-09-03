@@ -181,7 +181,7 @@ For more informtion, check the <strong>AppXDeployment-Server</strong> event log.
 <li>Package deployment is blocked by Application Control Policies.</li>
 <li>Package deployment is blocked by the &quot;Allow deployment operations in special profiles&quot; policy.</li>
 </ul>
-One of the possible reasons is a need for a roaming profile. For information about setting up Roaming User Profiles on user accounts, see <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj649079(v=ws.11)">Deploy Roaming User Profiles</a>. If there are no policies configured on your system and you still see this error, perhaps you are logged in with a temporary profile. Log out and log in again, then try the operation again.<br/></td>
+One of the possible reasons is a need for a roaming profile. For information about setting up Roaming User Profiles on user accounts, see <a href="/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj649079(v=ws.11)">Deploy Roaming User Profiles</a>. If there are no policies configured on your system and you still see this error, perhaps you are logged in with a temporary profile. Log out and log in again, then try the operation again.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_PACKAGES_IN_USE</strong></td>
@@ -311,7 +311,7 @@ One of the possible reasons is a need for a roaming profile. For information abo
 <tr class="odd">
 <td><strong>ERROR_PACKAGES_REPUTATION_</strong><br/> <strong>CHECK_FAILED</strong><br/></td>
 <td>0x80073D1B</td>
-<td>The packages failed the <a href="https://docs.microsoft.com/windows/security/threat-protection/windows-defender-smartscreen/windows-defender-smartscreen-overview">SmartScreen reputation check</a>.<br/></td>
+<td>The packages failed the <a href="/windows/security/threat-protection/windows-defender-smartscreen/windows-defender-smartscreen-overview">SmartScreen reputation check</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_PACKAGES_REPUTATION_</strong><br/> <strong>CHECK_TIMEDOUT</strong><br/></td>
@@ -356,7 +356,7 @@ One of the possible reasons is a need for a roaming profile. For information abo
 <tr class="even">
 <td><strong>ERROR_DEPLOYMENT_FAILED_</strong><br/> <strong>CONFLICTING_MUTABLE_PACKAGE_</strong><br/> <strong>DIRECTORY</strong><br/></td>
 <td>0x80073D24</td>
-<td>The deployment operation failed due to a conflicting package's <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-mutablepackagedirectory">mutable package directory</a>. To install this package, remove the existing package with the conflicting mutable package directory.<br/></td>
+<td>The deployment operation failed due to a conflicting package's <a href="/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-mutablepackagedirectory">mutable package directory</a>. To install this package, remove the existing package with the conflicting mutable package directory.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>ERROR_SINGLETON_RESOURCE_</strong><br/> <strong>INSTALLED_IN_ACTIVE_USER</strong><br/></td>
@@ -471,12 +471,12 @@ If the package contains \AppxMetadata\CodeIntegrity.cat, it must also contain \A
 <tr class="odd">
 <td><strong>CERT_E_UNTRUSTEDROOT</strong></td>
 <td>0x800B0109</td>
-<td>A certificate chain processed, but terminated in a root certificate which isn't trusted by the trust provider.<br/> See <a href="https://docs.microsoft.com/previous-versions/br230260(v=vs.110)">Signing a package</a>.<br/></td>
+<td>A certificate chain processed, but terminated in a root certificate which isn't trusted by the trust provider.<br/> See <a href="/previous-versions/br230260(v=vs.110)">Signing a package</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>CERT_E_CHAINING</strong></td>
 <td>0x800B010A</td>
-<td>A certificate chain couldn't be built to a trusted root certification authority.<br/> See <a href="https://docs.microsoft.com/previous-versions/br230260(v=vs.110)">Signing a package</a>.<br/></td>
+<td>A certificate chain couldn't be built to a trusted root certification authority.<br/> See <a href="/previous-versions/br230260(v=vs.110)">Signing a package</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>APPX_E_INVALID_</strong> <br/> <strong>SIP_CLIENT_DATA</strong> <br/></td>

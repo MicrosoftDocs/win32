@@ -923,7 +923,7 @@ This interface is the current, renamed version of <a href="https://docs.microsof
 </tr>
 <tr class="odd">
 <td><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iqueryinfo"><strong>IQueryInfo</strong></a><br/></td>
-<td>Exposes methods that the Shell uses to retrieve flags and info tip information for an item that resides in an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a> implementation. Info tips are usually displayed inside a <a href="/windows/desktop/Controls/tooltip-controls">tooltip</a> control.<br/></td>
+<td>Exposes methods that the Shell uses to retrieve flags and info tip information for an item that resides in an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a> implementation. Info tips are usually displayed inside a <a href="/windows/desktop/Controls/tooltip-controls">tooltip</a> control.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irelateditem"><strong>IRelatedItem</strong></a><br/></td>

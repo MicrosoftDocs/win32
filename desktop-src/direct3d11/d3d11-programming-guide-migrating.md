@@ -136,7 +136,7 @@ This solution is not suited to Windows Store apps because it requires the <a hre
 </tr>
 <tr class="odd">
 <td>D3DX9/D3DX10 Math</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/dxmath/directxmath-portal">DirectXMath</a></td>
+<td><a href="/windows/desktop/dxmath/directxmath-portal">DirectXMath</a></td>
 </tr>
 <tr class="even">
 <td>D3DX10</td>
@@ -227,6 +227,4 @@ The Windows 8.1 includes [Direct3D 11.2](direct3d-11-2-features.md), [DXGI 1.3](
 
 [Effects (Direct3D 11)](d3d11-graphics-programming-guide-effects.md)
 </dt> </dl>
-
- 
 

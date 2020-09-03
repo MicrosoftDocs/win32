@@ -56,7 +56,7 @@ The following procedure is used to execute the WMI application. Steps 1 through 
 
     
 
-    After the value of the Name property is stored in the [**VARIANT**](https://msdn.microsoft.com/library/ms221627(v=VS.71).aspx) variable vtProp, it can then be displayed to the user.
+    After the value of the Name property is stored in the [**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant) variable vtProp, it can then be displayed to the user.
 
     For more information, see [Enumerating WMI](enumerating-wmi.md).
 

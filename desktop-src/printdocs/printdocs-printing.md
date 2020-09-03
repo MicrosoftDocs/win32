@@ -29,7 +29,7 @@ Windows programmers can select from several different technologies to print from
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/printdocs/tailored-app-printing-api">Print Document Package API</a><br/></td>
+<td><a href="/windows/desktop/printdocs/tailored-app-printing-api">Print Document Package API</a><br/></td>
 <td>Provides an interface that allows an application to access and manage the print document package. This API is available with Windows 8 and later versions of Windows.<br/></td>
 </tr>
 <tr class="even">
@@ -80,6 +80,4 @@ For more info about printing from Windows Store apps that are written in JavaScr
 
 [Bidirectional printer communications (Hardware Dev Center)](/windows-hardware/drivers/print/bidirectional-communication)
 </dt> </dl>
-
- 
 

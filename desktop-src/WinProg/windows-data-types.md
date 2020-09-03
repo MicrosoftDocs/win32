@@ -212,7 +212,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="ATOM"></span><span id="atom"></span><strong>ATOM</strong></td>
-<td>An atom. For more information, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/about-atom-tables">About Atom Tables</a>.<br/> This type is declared in WinDef.h as follows:<br/> <code>typedef WORD ATOM;</code><br/></td>
+<td>An atom. For more information, see <a href="/windows/desktop/dataxchg/about-atom-tables">About Atom Tables</a>.<br/> This type is declared in WinDef.h as follows:<br/> <code>typedef WORD ATOM;</code><br/></td>
 </tr>
 <tr class="odd">
 <td><span id="BOOL"></span><span id="bool"></span><strong>BOOL</strong></td>
@@ -236,7 +236,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="CHAR"></span><span id="char"></span><strong>CHAR</strong></td>
-<td>An 8-bit Windows (ANSI) character. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/character-sets-used-by-fonts">Character Sets Used By Fonts</a>.<br/> This type is declared in WinNT.h as follows:<br/> <code>typedef char CHAR;</code><br/></td>
+<td>An 8-bit Windows (ANSI) character. For more information, see <a href="/windows/desktop/gdi/character-sets-used-by-fonts">Character Sets Used By Fonts</a>.<br/> This type is declared in WinNT.h as follows:<br/> <code>typedef char CHAR;</code><br/></td>
 </tr>
 <tr class="odd">
 <td><span id="COLORREF"></span><span id="colorref"></span><strong>COLORREF</strong></td>
@@ -272,7 +272,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="HACCEL"></span><span id="haccel"></span><strong>HACCEL</strong></td>
-<td>A handle to an <a href="https://docs.microsoft.com/windows/desktop/menurc/keyboard-accelerators">accelerator table</a>.<br/> This type is declared in WinDef.h as follows:<br/> <code>typedef HANDLE HACCEL;</code><br/></td>
+<td>A handle to an <a href="/windows/desktop/menurc/keyboard-accelerators">accelerator table</a>.<br/> This type is declared in WinDef.h as follows:<br/> <code>typedef HANDLE HACCEL;</code><br/></td>
 </tr>
 <tr class="even">
 <td><span id="HALF_PTR"></span><span id="half_ptr"></span><strong>HALF_PTR</strong></td>
@@ -306,19 +306,19 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HBITMAP"></span><span id="hbitmap"></span><strong>HBITMAP</strong></td>
-<td><p>A handle to a <a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">bitmap</a>.</p>
+<td><p>A handle to a <a href="/windows/desktop/gdi/bitmaps">bitmap</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HBITMAP;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="HBRUSH"></span><span id="hbrush"></span><strong>HBRUSH</strong></td>
-<td><p>A handle to a <a href="https://docs.microsoft.com/windows/desktop/gdi/brushes">brush</a>.</p>
+<td><p>A handle to a <a href="/windows/desktop/gdi/brushes">brush</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HBRUSH;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="HCOLORSPACE"></span><span id="hcolorspace"></span><strong>HCOLORSPACE</strong></td>
-<td><p>A handle to a <a href="https://docs.microsoft.com/previous-versions//dd316799(v=vs.85)">color space</a>.</p>
+<td><p>A handle to a <a href="/previous-versions//dd316799(v=vs.85)">color space</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HCOLORSPACE;</code></p></td>
 </tr>
@@ -336,7 +336,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="HCURSOR"></span><span id="hcursor"></span><strong>HCURSOR</strong></td>
-<td><p>A handle to a <a href="https://docs.microsoft.com/windows/desktop/menurc/cursors">cursor</a>.</p>
+<td><p>A handle to a <a href="/windows/desktop/menurc/cursors">cursor</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HICON HCURSOR;</code></p></td>
 </tr>
@@ -354,7 +354,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HDESK"></span><span id="hdesk"></span><strong>HDESK</strong></td>
-<td><p>A handle to a <a href="https://docs.microsoft.com/windows/desktop/winstation/desktops">desktop</a>.</p>
+<td><p>A handle to a <a href="/windows/desktop/winstation/desktops">desktop</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HDESK;</code></p></td>
 </tr>
@@ -372,7 +372,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="HENHMETAFILE"></span><span id="henhmetafile"></span><strong>HENHMETAFILE</strong></td>
-<td><p>A handle to an <a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">enhanced metafile</a>.</p>
+<td><p>A handle to an <a href="/windows/desktop/gdi/metafiles">enhanced metafile</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HENHMETAFILE;</code></p></td>
 </tr>
@@ -384,7 +384,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="HFONT"></span><span id="hfont"></span><strong>HFONT</strong></td>
-<td><p>A handle to a <a href="https://docs.microsoft.com/windows/desktop/gdi/about-fonts">font</a>.</p>
+<td><p>A handle to a <a href="/windows/desktop/gdi/about-fonts">font</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HFONT;</code></p></td>
 </tr>
@@ -402,13 +402,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HHOOK"></span><span id="hhook"></span><strong>HHOOK</strong></td>
-<td><p>A handle to a <a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">hook</a>.</p>
+<td><p>A handle to a <a href="/windows/desktop/winmsg/hooks">hook</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HHOOK;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="HICON"></span><span id="hicon"></span><strong>HICON</strong></td>
-<td><p>A handle to an <a href="https://docs.microsoft.com/windows/desktop/menurc/icons">icon</a>.</p>
+<td><p>A handle to an <a href="/windows/desktop/menurc/icons">icon</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HICON;</code></p></td>
 </tr>
@@ -439,13 +439,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HMENU"></span><span id="hmenu"></span><strong>HMENU</strong></td>
-<td><p>A handle to a <a href="https://docs.microsoft.com/windows/desktop/menurc/menus">menu</a>.</p>
+<td><p>A handle to a <a href="/windows/desktop/menurc/menus">menu</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HMENU;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="HMETAFILE"></span><span id="hmetafile"></span><strong>HMETAFILE</strong></td>
-<td><p>A handle to a <a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">metafile</a>.</p>
+<td><p>A handle to a <a href="/windows/desktop/gdi/metafiles">metafile</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HMETAFILE;</code></p></td>
 </tr>
@@ -470,19 +470,19 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="HPEN"></span><span id="hpen"></span><strong>HPEN</strong></td>
-<td><p>A handle to a <a href="https://docs.microsoft.com/windows/desktop/gdi/pens">pen</a>.</p>
+<td><p>A handle to a <a href="/windows/desktop/gdi/pens">pen</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HPEN;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="HRESULT"></span><span id="hresult"></span><strong>HRESULT</strong></td>
-<td><p>The return codes used by COM interfaces. For more information, see <a href="https://docs.microsoft.com/windows/desktop/com/structure-of-com-error-codes">Structure of the COM Error Codes</a>. To test an <strong>HRESULT</strong> value, use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed"><strong>FAILED</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded"><strong>SUCCEEDED</strong></a> macros.</p>
+<td><p>The return codes used by COM interfaces. For more information, see <a href="/windows/desktop/com/structure-of-com-error-codes">Structure of the COM Error Codes</a>. To test an <strong>HRESULT</strong> value, use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed"><strong>FAILED</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded"><strong>SUCCEEDED</strong></a> macros.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef LONG HRESULT;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="HRGN"></span><span id="hrgn"></span><strong>HRGN</strong></td>
-<td><p>A handle to a <a href="https://docs.microsoft.com/windows/desktop/gdi/regions">region</a>.</p>
+<td><p>A handle to a <a href="/windows/desktop/gdi/regions">region</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HRGN;</code></p></td>
 </tr>
@@ -500,13 +500,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HWINSTA"></span><span id="hwinsta"></span><strong>HWINSTA</strong></td>
-<td><p>A handle to a <a href="https://docs.microsoft.com/windows/desktop/winstation/window-stations">window station</a>.</p>
+<td><p>A handle to a <a href="/windows/desktop/winstation/window-stations">window station</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE WINSTA;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="HWND"></span><span id="hwnd"></span><strong>HWND</strong></td>
-<td><p>A handle to a <a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">window</a>.</p>
+<td><p>A handle to a <a href="/windows/desktop/winmsg/windows">window</a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HWND;</code></p></td>
 </tr>
@@ -570,19 +570,19 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="LANGID"></span><span id="langid"></span><strong>LANGID</strong></td>
-<td><p>A language identifier. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">Language Identifiers</a>.</p>
+<td><p>A language identifier. For more information, see <a href="/windows/desktop/Intl/language-identifiers">Language Identifiers</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef WORD LANGID;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="LCID"></span><span id="lcid"></span><strong>LCID</strong></td>
-<td><p>A locale identifier. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale Identifiers</a>.</p>
+<td><p>A locale identifier. For more information, see <a href="/windows/desktop/Intl/locale-identifiers">Locale Identifiers</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef DWORD LCID;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="LCTYPE"></span><span id="lctype"></span><strong>LCTYPE</strong></td>
-<td><p>A locale information type. For a list, see <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-information-constants">Locale Information Constants</a>.</p>
+<td><p>A locale information type. For a list, see <a href="/windows/desktop/Intl/locale-information-constants">Locale Information Constants</a>.</p>
 <p>This type is declared in WinNls.h as follows:</p>
 <p><code>typedef DWORD LCTYPE;</code></p></td>
 </tr>
@@ -692,13 +692,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="LPCSTR"></span><span id="lpcstr"></span><strong>LPCSTR</strong></td>
-<td><p>A pointer to a constant null-terminated string of 8-bit Windows (ANSI) characters. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/character-sets-used-by-fonts">Character Sets Used By Fonts</a>.</p>
+<td><p>A pointer to a constant null-terminated string of 8-bit Windows (ANSI) characters. For more information, see <a href="/windows/desktop/gdi/character-sets-used-by-fonts">Character Sets Used By Fonts</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef __nullterminated CONST CHAR *LPCSTR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="LPCTSTR"></span><span id="lpctstr"></span><strong>LPCTSTR</strong></td>
-<td><p>An <a href="#lpcwstr"><strong>LPCWSTR</strong></a> if <strong>UNICODE</strong> is defined, an <a href="#lpcstr"><strong>LPCSTR</strong></a> otherwise. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/windows-data-types-for-strings">Windows Data Types for Strings</a>.</p>
+<td><p>An <a href="#lpcwstr"><strong>LPCWSTR</strong></a> if <strong>UNICODE</strong> is defined, an <a href="#lpcstr"><strong>LPCSTR</strong></a> otherwise. For more information, see <a href="/windows/desktop/Intl/windows-data-types-for-strings">Windows Data Types for Strings</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -732,7 +732,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="LPCWSTR"></span><span id="lpcwstr"></span><strong>LPCWSTR</strong></td>
-<td><p>A pointer to a constant null-terminated string of 16-bit Unicode characters. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/character-sets-used-by-fonts">Character Sets Used By Fonts</a>.</p>
+<td><p>A pointer to a constant null-terminated string of 16-bit Unicode characters. For more information, see <a href="/windows/desktop/gdi/character-sets-used-by-fonts">Character Sets Used By Fonts</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef CONST WCHAR *LPCWSTR;</code></p></td>
 </tr>
@@ -762,13 +762,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="LPSTR"></span><span id="lpstr"></span><strong>LPSTR</strong></td>
-<td><p>A pointer to a null-terminated string of 8-bit Windows (ANSI) characters. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/character-sets-used-by-fonts">Character Sets Used By Fonts</a>.</p>
+<td><p>A pointer to a null-terminated string of 8-bit Windows (ANSI) characters. For more information, see <a href="/windows/desktop/gdi/character-sets-used-by-fonts">Character Sets Used By Fonts</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef CHAR *LPSTR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="LPTSTR"></span><span id="lptstr"></span><strong>LPTSTR</strong></td>
-<td><p>An <a href="#lpwstr"><strong>LPWSTR</strong></a> if <strong>UNICODE</strong> is defined, an <a href="#lpstr"><strong>LPSTR</strong></a> otherwise. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/windows-data-types-for-strings">Windows Data Types for Strings</a>.</p>
+<td><p>An <a href="#lpwstr"><strong>LPWSTR</strong></a> if <strong>UNICODE</strong> is defined, an <a href="#lpstr"><strong>LPSTR</strong></a> otherwise. For more information, see <a href="/windows/desktop/Intl/windows-data-types-for-strings">Windows Data Types for Strings</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -808,7 +808,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="LPWSTR"></span><span id="lpwstr"></span><strong>LPWSTR</strong></td>
-<td><p>A pointer to a null-terminated string of 16-bit Unicode characters. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/character-sets-used-by-fonts">Character Sets Used By Fonts</a>.</p>
+<td><p>A pointer to a null-terminated string of 16-bit Unicode characters. For more information, see <a href="/windows/desktop/gdi/character-sets-used-by-fonts">Character Sets Used By Fonts</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef WCHAR *LPWSTR;</code></p></td>
 </tr>
@@ -844,13 +844,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="PCSTR"></span><span id="pcstr"></span><strong>PCSTR</strong></td>
-<td><p>A pointer to a constant null-terminated string of 8-bit Windows (ANSI) characters. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/character-sets-used-by-fonts">Character Sets Used By Fonts</a>.</p>
+<td><p>A pointer to a constant null-terminated string of 8-bit Windows (ANSI) characters. For more information, see <a href="/windows/desktop/gdi/character-sets-used-by-fonts">Character Sets Used By Fonts</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef CONST CHAR *PCSTR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PCTSTR"></span><span id="pctstr"></span><strong>PCTSTR</strong></td>
-<td><p>A <a href="#pcwstr"><strong>PCWSTR</strong></a> if <strong>UNICODE</strong> is defined, a <a href="#pcstr"><strong>PCSTR</strong></a> otherwise. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/windows-data-types-for-strings">Windows Data Types for Strings</a>.</p>
+<td><p>A <a href="#pcwstr"><strong>PCWSTR</strong></a> if <strong>UNICODE</strong> is defined, a <a href="#pcstr"><strong>PCSTR</strong></a> otherwise. For more information, see <a href="/windows/desktop/Intl/windows-data-types-for-strings">Windows Data Types for Strings</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -878,7 +878,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="PCWSTR"></span><span id="pcwstr"></span><strong>PCWSTR</strong></td>
-<td><p>A pointer to a constant null-terminated string of 16-bit Unicode characters. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/character-sets-used-by-fonts">Character Sets Used By Fonts</a>.</p>
+<td><p>A pointer to a constant null-terminated string of 16-bit Unicode characters. For more information, see <a href="/windows/desktop/gdi/character-sets-used-by-fonts">Character Sets Used By Fonts</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef CONST WCHAR *PCWSTR;</code></p></td>
 </tr>
@@ -1119,7 +1119,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="PSTR"></span><span id="pstr"></span><strong>PSTR</strong></td>
-<td><p>A pointer to a null-terminated string of 8-bit Windows (ANSI) characters. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/character-sets-used-by-fonts">Character Sets Used By Fonts</a>.</p>
+<td><p>A pointer to a null-terminated string of 8-bit Windows (ANSI) characters. For more information, see <a href="/windows/desktop/gdi/character-sets-used-by-fonts">Character Sets Used By Fonts</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef CHAR *PSTR;</code></p></td>
 </tr>
@@ -1137,7 +1137,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="PTSTR"></span><span id="ptstr"></span><strong>PTSTR</strong></td>
-<td><p>A <a href="#pwstr"><strong>PWSTR</strong></a> if <strong>UNICODE</strong> is defined, a <a href="#pstr"><strong>PSTR</strong></a> otherwise. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/windows-data-types-for-strings">Windows Data Types for Strings</a>.</p>
+<td><p>A <a href="#pwstr"><strong>PWSTR</strong></a> if <strong>UNICODE</strong> is defined, a <a href="#pstr"><strong>PSTR</strong></a> otherwise. For more information, see <a href="/windows/desktop/Intl/windows-data-types-for-strings">Windows Data Types for Strings</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -1288,7 +1288,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="PWSTR"></span><span id="pwstr"></span><strong>PWSTR</strong></td>
-<td><p>A pointer to a null-terminated string of 16-bit Unicode characters. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/character-sets-used-by-fonts">Character Sets Used By Fonts</a>.</p>
+<td><p>A pointer to a null-terminated string of 16-bit Unicode characters. For more information, see <a href="/windows/desktop/gdi/character-sets-used-by-fonts">Character Sets Used By Fonts</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef WCHAR *PWSTR;</code></p></td>
 </tr>
@@ -1300,19 +1300,19 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="SC_HANDLE"></span><span id="sc_handle"></span><strong>SC_HANDLE</strong></td>
-<td><p>A handle to a service control manager database. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Services/scm-handles">SCM Handles</a>.</p>
+<td><p>A handle to a service control manager database. For more information, see <a href="/windows/desktop/Services/scm-handles">SCM Handles</a>.</p>
 <p>This type is declared in WinSvc.h as follows:</p>
 <p><code>typedef HANDLE SC_HANDLE;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="SC_LOCK"></span><span id="sc_lock"></span><strong>SC_LOCK</strong></td>
-<td><p>A lock to a service control manager database. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Services/scm-handles">SCM Handles</a>.</p>
+<td><p>A lock to a service control manager database. For more information, see <a href="/windows/desktop/Services/scm-handles">SCM Handles</a>.</p>
 <p>This type is declared in WinSvc.h as follows:</p>
 <p><code>typedef LPVOID SC_LOCK;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="SERVICE_STATUS_HANDLE"></span><span id="service_status_handle"></span><strong>SERVICE_STATUS_HANDLE</strong></td>
-<td><p>A handle to a service status value. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Services/scm-handles">SCM Handles</a>.</p>
+<td><p>A handle to a service status value. For more information, see <a href="/windows/desktop/Services/scm-handles">SCM Handles</a>.</p>
 <p>This type is declared in WinSvc.h as follows:</p>
 <p><code>typedef HANDLE SERVICE_STATUS_HANDLE;</code></p></td>
 </tr>
@@ -1606,7 +1606,7 @@ typedef const UNICODE_STRING *PCUNICODE_STRING;</code></pre></td>
 </tr>
 <tr class="even">
 <td><span id="WCHAR"></span><span id="wchar"></span><strong>WCHAR</strong></td>
-<td><p>A 16-bit Unicode character. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/character-sets-used-by-fonts">Character Sets Used By Fonts</a>.</p>
+<td><p>A 16-bit Unicode character. For more information, see <a href="/windows/desktop/gdi/character-sets-used-by-fonts">Character Sets Used By Fonts</a>.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef wchar_t WCHAR;</code></p></td>
 </tr>
@@ -1645,6 +1645,4 @@ typedef const UNICODE_STRING *PCUNICODE_STRING;</code></pre></td>
 | Header<br/>                   | <dl> <dt>BaseTsd.h; </dt> <dt>WinDef.h; </dt> <dt>WinNT.h</dt> </dl> |
 
 
-
- 
 

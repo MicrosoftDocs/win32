@@ -28,57 +28,57 @@ The [ColumnStream](dn334143\(v=exchg.10\).md) type exposes the following members
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.beginread?redirectedfrom=MSDN#System_IO_Stream_BeginRead_System_Byte___System_Int32_System_Int32_System_AsyncCallback_System_Object_">BeginRead</a></td>
+<td><a href="/dotnet/api/system.io.stream.beginread#System_IO_Stream_BeginRead_System_Byte___System_Int32_System_Int32_System_AsyncCallback_System_Object_">BeginRead</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.beginwrite?redirectedfrom=MSDN#System_IO_Stream_BeginWrite_System_Byte___System_Int32_System_Int32_System_AsyncCallback_System_Object_">BeginWrite</a></td>
+<td><a href="/dotnet/api/system.io.stream.beginwrite#System_IO_Stream_BeginWrite_System_Byte___System_Int32_System_Int32_System_AsyncCallback_System_Object_">BeginWrite</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.close?redirectedfrom=MSDN#System_IO_Stream_Close">Close</a></td>
+<td><a href="/dotnet/api/system.io.stream.close#System_IO_Stream_Close">Close</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject.createobjref?redirectedfrom=MSDN#System_MarshalByRefObject_CreateObjRef_System_Type_">CreateObjRef</a></td>
+<td><a href="/dotnet/api/system.marshalbyrefobject.createobjref#System_MarshalByRefObject_CreateObjRef_System_Type_">CreateObjRef</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject?redirectedfrom=MSDN">MarshalByRefObject</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.createwaithandle?redirectedfrom=MSDN#System_IO_Stream_CreateWaitHandle">CreateWaitHandle</a></td>
+<td><a href="/dotnet/api/system.io.stream.createwaithandle#System_IO_Stream_CreateWaitHandle">CreateWaitHandle</a></td>
 <td><strong>Obsolete.</strong> (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.dispose?redirectedfrom=MSDN#System_IO_Stream_Dispose">Dispose()</a></td>
+<td><a href="/dotnet/api/system.io.stream.dispose#System_IO_Stream_Dispose">Dispose()</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.dispose?redirectedfrom=MSDN#System_IO_Stream_Dispose_System_Boolean_">Dispose(Boolean)</a></td>
+<td><a href="/dotnet/api/system.io.stream.dispose#System_IO_Stream_Dispose_System_Boolean_">Dispose(Boolean)</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.endread?redirectedfrom=MSDN#System_IO_Stream_EndRead_System_IAsyncResult_">EndRead</a></td>
+<td><a href="/dotnet/api/system.io.stream.endread#System_IO_Stream_EndRead_System_IAsyncResult_">EndRead</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.endwrite?redirectedfrom=MSDN#System_IO_Stream_EndWrite_System_IAsyncResult_">EndWrite</a></td>
+<td><a href="/dotnet/api/system.io.stream.endwrite#System_IO_Stream_EndWrite_System_IAsyncResult_">EndWrite</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.equals?redirectedfrom=MSDN#System_Object_Equals_System_Object_">Equals</a></td>
+<td><a href="/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Equals</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.finalize?redirectedfrom=MSDN#System_Object_Finalize">Finalize</a></td>
+<td><a href="/dotnet/api/system.object.finalize#System_Object_Finalize">Finalize</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="even">
@@ -88,32 +88,32 @@ The [ColumnStream](dn334143\(v=exchg.10\).md) type exposes the following members
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode?redirectedfrom=MSDN#System_Object_GetHashCode">GetHashCode</a></td>
+<td><a href="/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">GetHashCode</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice?redirectedfrom=MSDN#System_MarshalByRefObject_GetLifetimeService">GetLifetimeService</a></td>
+<td><a href="/dotnet/api/system.marshalbyrefobject.getlifetimeservice#System_MarshalByRefObject_GetLifetimeService">GetLifetimeService</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject?redirectedfrom=MSDN">MarshalByRefObject</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.gettype?redirectedfrom=MSDN#System_Object_GetType">GetType</a></td>
+<td><a href="/dotnet/api/system.object.gettype#System_Object_GetType">GetType</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice?redirectedfrom=MSDN#System_MarshalByRefObject_InitializeLifetimeService">InitializeLifetimeService</a></td>
+<td><a href="/dotnet/api/system.marshalbyrefobject.initializelifetimeservice#System_MarshalByRefObject_InitializeLifetimeService">InitializeLifetimeService</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject?redirectedfrom=MSDN">MarshalByRefObject</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone?redirectedfrom=MSDN#System_Object_MemberwiseClone">MemberwiseClone()</a></td>
+<td><a href="/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">MemberwiseClone()</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone?redirectedfrom=MSDN#System_MarshalByRefObject_MemberwiseClone_System_Boolean_">MemberwiseClone(Boolean)</a></td>
+<td><a href="/dotnet/api/system.marshalbyrefobject.memberwiseclone#System_MarshalByRefObject_MemberwiseClone_System_Boolean_">MemberwiseClone(Boolean)</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject?redirectedfrom=MSDN">MarshalByRefObject</a>.)</td>
 </tr>
 <tr class="odd">
@@ -123,7 +123,7 @@ The [ColumnStream](dn334143\(v=exchg.10\).md) type exposes the following members
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.readbyte?redirectedfrom=MSDN#System_IO_Stream_ReadByte">ReadByte</a></td>
+<td><a href="/dotnet/api/system.io.stream.readbyte#System_IO_Stream_ReadByte">ReadByte</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
 </tr>
 <tr class="odd">
@@ -148,7 +148,7 @@ The [ColumnStream](dn334143\(v=exchg.10\).md) type exposes the following members
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.writebyte?redirectedfrom=MSDN#System_IO_Stream_WriteByte_System_Byte_">WriteByte</a></td>
+<td><a href="/dotnet/api/system.io.stream.writebyte#System_IO_Stream_WriteByte_System_Byte_">WriteByte</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
 </tr>
 </tbody>

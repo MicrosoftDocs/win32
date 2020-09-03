@@ -38,7 +38,7 @@ The [ColumnStream](dn334143\(v=exchg.10\).md) type exposes the following members
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.cantimeout?redirectedfrom=MSDN#System_IO_Stream_CanTimeout">CanTimeout</a></td>
+<td><a href="/dotnet/api/system.io.stream.cantimeout#System_IO_Stream_CanTimeout">CanTimeout</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
 </tr>
 <tr class="even">
@@ -63,12 +63,12 @@ The [ColumnStream](dn334143\(v=exchg.10\).md) type exposes the following members
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.readtimeout?redirectedfrom=MSDN#System_IO_Stream_ReadTimeout">ReadTimeout</a></td>
+<td><a href="/dotnet/api/system.io.stream.readtimeout#System_IO_Stream_ReadTimeout">ReadTimeout</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.writetimeout?redirectedfrom=MSDN#System_IO_Stream_WriteTimeout">WriteTimeout</a></td>
+<td><a href="/dotnet/api/system.io.stream.writetimeout#System_IO_Stream_WriteTimeout">WriteTimeout</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
 </tr>
 </tbody>
@@ -84,4 +84,3 @@ Top
 [ColumnStream class](dn334143\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

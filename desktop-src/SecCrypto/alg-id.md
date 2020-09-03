@@ -106,7 +106,7 @@ The following table lists the algorithm identifiers that are currently defined. 
 <td>Elliptic curve Diffie-Hellman key exchange algorithm.
 <blockquote>
 [!Note]<br />
-This algorithm is supported only through <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography API: Next Generation</a>.
+This algorithm is supported only through <a href="/windows/desktop/SecCNG/cng-portal">Cryptography API: Next Generation</a>.
 </blockquote>
 <br/> <strong>Windows Server 2003 and Windows XP:</strong> This algorithm is not supported.<br/></td>
 </tr>
@@ -116,7 +116,7 @@ This algorithm is supported only through <a href="https://docs.microsoft.com/win
 <td>Ephemeral elliptic curve Diffie-Hellman key exchange algorithm.
 <blockquote>
 [!Note]<br />
-This algorithm is supported only through <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography API: Next Generation</a>.
+This algorithm is supported only through <a href="/windows/desktop/SecCNG/cng-portal">Cryptography API: Next Generation</a>.
 </blockquote>
 <br/> <strong>Windows Server 2003 and Windows XP:</strong> This algorithm is not supported.<br/></td>
 </tr>
@@ -126,7 +126,7 @@ This algorithm is supported only through <a href="https://docs.microsoft.com/win
 <td>Elliptic curve digital signature algorithm.
 <blockquote>
 [!Note]<br />
-This algorithm is supported only through <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography API: Next Generation</a>.
+This algorithm is supported only through <a href="/windows/desktop/SecCNG/cng-portal">Cryptography API: Next Generation</a>.
 </blockquote>
 <br/> <strong>Windows Server 2003 and Windows XP:</strong> This algorithm is not supported.<br/></td>
 </tr>
@@ -158,7 +158,7 @@ This algorithm is supported only through <a href="https://docs.microsoft.com/win
 <tr class="even">
 <td>CALG_MAC</td>
 <td>0x00008005</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly"><em>MAC</em></a> keyed hash algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider.md">Microsoft Base Cryptographic Provider</a>.</td>
+<td><a href="/windows/desktop/SecGloss/m-gly"><em>MAC</em></a> keyed hash algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider.md">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="odd">
 <td>CALG_MD2</td>

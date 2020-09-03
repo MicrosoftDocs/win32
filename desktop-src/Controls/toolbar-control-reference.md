@@ -48,7 +48,7 @@ This section contains information about the programming elements used with toolb
 <td>Creates a toolbar window and adds the specified buttons to the toolbar.
 <blockquote>
 [!Note]<br />
-This function is deprecated, because it does not support all features of toolbars. Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa"><strong>CreateWindowEx</strong></a> instead. For examples, see <a href="using-toolbar-controls.md">Using Toolbar Controls</a>.
+This function is deprecated, because it does not support all features of toolbars. Use <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa"><strong>CreateWindowEx</strong></a> instead. For examples, see <a href="using-toolbar-controls.md">Using Toolbar Controls</a>.
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -277,8 +277,6 @@ Comctl32.dll version 6 is not redistributable but it is included in Windows or l
 </table>
 
 
-
- 
 
  
 

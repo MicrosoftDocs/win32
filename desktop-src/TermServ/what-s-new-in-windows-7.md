@@ -30,14 +30,14 @@ Windows 7 introduces the following new programming elements for Remote Desktop S
 <td>Remote Desktop Services Web Access Control API<br/></td>
 <td>Remote Desktop Services Web Access Control exposes interfaces that support the publishing of user-specific resources in RemoteApp and Desktop Connection.<br/>
 <ul>
-<li><a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-services-web-access-control-interfaces">Remote Desktop Services Web Access Control API</a></li>
+<li><a href="/windows/desktop/TermServ/remote-desktop-services-web-access-control-interfaces">Remote Desktop Services Web Access Control API</a></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>RemoteApp and Desktop Connection Runtime API<br/></td>
 <td>RemoteApp and Desktop Connection Runtime API supports the development of custom clients in RemoteApp and Desktop Connection.<br/>
 <ul>
-<li><a href="https://docs.microsoft.com/windows/desktop/TermServ/remoteapp-and-desktop-connection-runtime-interfaces">RemoteApp and Desktop Connection Runtime API</a></li>
+<li><a href="/windows/desktop/TermServ/remoteapp-and-desktop-connection-runtime-interfaces">RemoteApp and Desktop Connection Runtime API</a></li>
 </ul></td>
 </tr>
 </tbody>
@@ -48,10 +48,4 @@ Windows 7 introduces the following new programming elements for Remote Desktop S
  
 
  
-
- 
-
-
-
-
 

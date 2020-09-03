@@ -283,7 +283,7 @@ The IMM sends a WM\_IME\_NOTIFY message to the application whenever an IME windo
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setopenstatus">IMN_SETOPENSTATUS</a></td>
+<td><a href="/windows/desktop/Intl/imn-setopenstatus">IMN_SETOPENSTATUS</a></td>
 <td>This attribute contains information such as the status of each character in the composition string (for example, converted or non-converted). This information is needed because CDXUTIMEEditBox colors the composition string characters differently based upon their attributes.</td>
 </tr>
 <tr class="even">
@@ -299,7 +299,7 @@ The IMM sends a WM\_IME\_NOTIFY message to the application whenever an IME windo
 </ol></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a></td>
+<td><a href="/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a></td>
 <td>Sent to the application when a candidate window is about to close. This happens when a user has made a selection from the candidate list. CDXUTIMEEditBox handles this command by setting the visible flag of the candidate window to FALSE and then clearing the candidate string buffer.</td>
 </tr>
 <tr class="even">
@@ -532,6 +532,4 @@ Declared in Imm.h.
 Use Imm.lib.
 
 </dd> </dl>
-
- 
 

@@ -114,7 +114,7 @@ The window procedure for the predefined button control window class carries out 
 <tbody>
 <tr class="odd">
 <td><a href="bm-click.md"><strong>BM_CLICK</strong></a></td>
-<td>Sends the button a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown"><strong>WM_LBUTTONDOWN</strong></a> and a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttonup"><strong>WM_LBUTTONUP</strong></a> message, and sends the parent window a <a href="bn-clicked.md">BN_CLICKED</a> notification code.</td>
+<td>Sends the button a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown"><strong>WM_LBUTTONDOWN</strong></a> and a <a href="/windows/desktop/inputdev/wm-lbuttonup"><strong>WM_LBUTTONUP</strong></a> message, and sends the parent window a <a href="bn-clicked.md">BN_CLICKED</a> notification code.</td>
 </tr>
 <tr class="even">
 <td><a href="bm-getcheck.md"><strong>BM_GETCHECK</strong></a></td>
@@ -217,7 +217,7 @@ The window procedure for the predefined button control window class carries out 
 <td>Removes the focus rectangle from a button. For push buttons and default push buttons, the focus rectangle is invalidated. If the button has the mouse capture, the capture is released, the button is not clicked, and any push state is removed.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondblclk"><strong>WM_LBUTTONDBLCLK</strong></a></td>
+<td><a href="/windows/desktop/inputdev/wm-lbuttondblclk"><strong>WM_LBUTTONDBLCLK</strong></a></td>
 <td>Sends a <a href="bn-dblclk.md">BN_DBLCLK</a> notification code to the parent window for radio buttons and owner-drawn buttons. For other buttons, a double-click is processed as a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown"><strong>WM_LBUTTONDOWN</strong></a> message.</td>
 </tr>
 <tr class="even">
@@ -245,7 +245,7 @@ The window procedure for the predefined button control window class carries out 
 <td>Draws the button according to its style and current state.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-setfocus"><strong>WM_SETFOCUS</strong></a></td>
+<td><a href="/windows/desktop/inputdev/wm-setfocus"><strong>WM_SETFOCUS</strong></a></td>
 <td>Draws a focus rectangle on the button getting the focus. For radio buttons and automatic radio buttons, the parent window is sent a <a href="bn-clicked.md">BN_CLICKED</a> notification code.</td>
 </tr>
 <tr class="odd">

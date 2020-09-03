@@ -28,7 +28,7 @@ The [EsentSLVPagesNotReservedException](dn350735\(v=exchg.10\).md) type exposes 
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.data?redirectedfrom=MSDN#System_Exception_Data">Data</a></td>
+<td><a href="/dotnet/api/system.exception.data#System_Exception_Data">Data</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
 </tr>
 <tr class="even">
@@ -38,37 +38,37 @@ The [EsentSLVPagesNotReservedException](dn350735\(v=exchg.10\).md) type exposes 
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.helplink?redirectedfrom=MSDN#System_Exception_HelpLink">HelpLink</a></td>
+<td><a href="/dotnet/api/system.exception.helplink#System_Exception_HelpLink">HelpLink</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Protected property" alt="Protected property" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.hresult?redirectedfrom=MSDN#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.innerexception?redirectedfrom=MSDN#System_Exception_InnerException">InnerException</a></td>
+<td><a href="/dotnet/api/system.exception.innerexception#System_Exception_InnerException">InnerException</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.message?redirectedfrom=MSDN#System_Exception_Message">Message</a></td>
+<td><a href="/dotnet/api/system.exception.message#System_Exception_Message">Message</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.source?redirectedfrom=MSDN#System_Exception_Source">Source</a></td>
+<td><a href="/dotnet/api/system.exception.source#System_Exception_Source">Source</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.stacktrace?redirectedfrom=MSDN#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.targetsite?redirectedfrom=MSDN#System_Exception_TargetSite">TargetSite</a></td>
+<td><a href="/dotnet/api/system.exception.targetsite#System_Exception_TargetSite">TargetSite</a></td>
 <td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
 </tr>
 </tbody>
@@ -84,4 +84,3 @@ Top
 [EsentSLVPagesNotReservedException class](dn350735\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
