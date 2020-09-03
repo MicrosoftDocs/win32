@@ -39,7 +39,7 @@ For a complete list of compatible AMD products, please refer to the AMD Release 
 
 ### NVIDIA 
 
-Future versions of NVIDIA’s preview driver will support DirectML. For more information, see [GPU in Windows Subsystem for Linux – Public Preview](https://blogs.windows.com/windowsdeveloper/?p=55781).
+[Download and install NVIDIA's preview driver](https://developer.nvidia.com/cuda/wsl/download) to use with DirectML from their website. For more information, see [NVIDIA's GPU in Windows Subsystem for Linux (WSL)](https://developer.nvidia.com/cuda/wsl) page.
 
 ## Set up the TensorFlow with DirectML preview 
 
