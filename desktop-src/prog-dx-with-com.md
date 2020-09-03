@@ -58,7 +58,7 @@ Although a GUID is a structure, a GUID is often expressed in equivalent string f
 Because the actual GUID is somewhat clumsy to use and easy to mistype, an equivalent name is usually provided as well. In your code, you can use this name instead of the actual structure when you call functions, for example when you pass an argument for the `riid` parameter to [**D3D12CreateDevice**](/windows/desktop/api/d3d12/nf-d3d12-d3d12createdevice). The customary naming convention is to prepend either IID_ or CLSID_ to the descriptive name of the interface or object, respectively. For example, the name of the **ID3D12Device** interface's IID is IID_ID3D12Device.
 
 > [!NOTE]
-> DirectX applications should link with ``dxguid.lib`` and ``uuid.lib`` to provide definitions for the varoius interface and class GUIDs. Visual C++ and other compilers support the **__uuidof** operator language extension, but explicilt C-style linkage with these link libraries is also supported and fully portable.
+> DirectX applications should link with ``dxguid.lib`` and ``uuid.lib`` to provide definitions for the various interface and class GUIDs. Visual C++ and other compilers support the **__uuidof** operator language extension, but explicit C-style linkage with these link libraries is also supported and fully portable.
 
 ## HRESULT values
 
@@ -215,7 +215,7 @@ if (FAILED(hr)) return hr;
 ```
 
 > [!NOTE]
-> In C++ you can make use of the ``IID_PPV_ARGS`` macro rather thant the explicit IID and cast pointer: ``pDXGISwapChain1->QueryInterface(IID_PPV_ARGS(&pDXGISwapChain3));``.
+> In C++ you can make use of the ``IID_PPV_ARGS`` macro rather than the explicit IID and cast pointer: ``pDXGISwapChain1->QueryInterface(IID_PPV_ARGS(&pDXGISwapChain3));``.
 > This is often used for creation methods as well as **QueryInterface**. See [combaseapi.h](/windows/win32/api/combaseapi/nf-combaseapi-iid_ppv_args) for more information.
 
 ## Managing a COM object's lifetime
