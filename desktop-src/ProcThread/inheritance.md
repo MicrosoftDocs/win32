@@ -14,9 +14,9 @@ A child process can inherit several properties and resources from its parent pro
 -   Open handles to process, thread, mutex, event, semaphore, named-pipe, anonymous-pipe, and file-mapping objects. These are returned by the [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa), [**CreateThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread), [**CreateMutex**](/windows/desktop/api/synchapi/nf-synchapi-createmutexa), [**CreateEvent**](/windows/desktop/api/synchapi/nf-synchapi-createeventa), [**CreateSemaphore**](/windows/desktop/api/winbase/nf-winbase-createsemaphorea), [**CreateNamedPipe**](/windows/desktop/api/winbase/nf-winbase-createnamedpipea), [**CreatePipe**](/windows/desktop/api/namedpipeapi/nf-namedpipeapi-createpipe), and [**CreateFileMapping**](/windows/desktop/api/winbase/nf-winbase-createfilemappinga) functions, respectively.
 -   Environment variables.
 -   The current directory.
--   The console, unless the process is detached or a new console is created. A child console process can also inherits the parent's standard handles, as well as access to the input buffer and the active screen buffer.
+-   The console, unless the process is detached or a new console is created. A child console process can also inherit the parent's standard handles, as well as access to the input buffer and the active screen buffer.
 -   The error mode, as set by the [**SetErrorMode**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode) function.
--   The process affinity mask.
+-   The processor affinity mask.
 -   The association with a job.
 
 The child process does not inherit the following:
@@ -34,9 +34,11 @@ A child process can inherit some of its parent's handles, but not inherit others
 -   Specify that the handle is to be inherited when you create, open, or duplicate the handle. Creation functions typically use the **bInheritHandle** member of a [**SECURITY\_ATTRIBUTES**](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure for this purpose. [**DuplicateHandle**](/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle) uses the *bInheritHandles* parameter.
 -   Specify that inheritable handles are to be inherited by setting the *bInheritHandles* parameter to TRUE when calling the [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa) function. Additionally, to inherit the standard input, standard output, and standard error handles, the **dwFlags** member of the [**STARTUPINFO**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa) structure must include STARTF\_USESTDHANDLES.
 
+For fine grained control of which handles should be inherited by a specific child process, call the [**UpdateProcThreadAttribute**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute) function with the *PROC_THREAD_ATTRIBUTE_HANDLE_LIST* flag to specify a list of the handles that should be inherited.
+
 An inherited handle refers to the same object in the child process as it does in the parent process. It also has the same value and access privileges. Therefore, when one process changes the state of the object, the change affects both processes. To use a handle, the child process must retrieve the handle value and "know" the object to which it refers. Usually, the parent process communicates this information to the child process through its command line, environment block, or some form of [interprocess communication](/windows/desktop/ipc/interprocess-communications).
 
-The [**DuplicateHandle**](/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle) function is useful if a process has an inheritable open handle that you do not want to be inherited by the child process. In this case, use **DuplicateHandle** to open a duplicate of the handle that cannot be inherited, then use the [**CloseHandle**](/windows/desktop/api/handleapi/nf-handleapi-closehandle) function to close the inheritable handle. You can also use the **DuplicateHandle** function to open an inheritable duplicate of a handle that cannot be inherited.
+The [**SetHandleInformation**](windows/win32/api/handleapi/nf-handleapi-sethandleinformation) function can be used to control if an existing handle is inheritable or not.
 
 ## Inheriting Environment Variables
 
@@ -45,7 +47,3 @@ A child process inherits the environment variables of its parent process by defa
 ## Inheriting the Current Directory
 
 The [**GetCurrentDirectory**](/windows/desktop/api/winbase/nf-winbase-getcurrentdirectory) function retrieves the current directory of the calling process. A child process inherits the current directory of its parent process by default. However, [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa) enables the parent process to specify a different current directory for the child process. To change the current directory of the calling process, use the [**SetCurrentDirectory**](/windows/desktop/api/winbase/nf-winbase-setcurrentdirectory) function.
-
- 
-
- 
