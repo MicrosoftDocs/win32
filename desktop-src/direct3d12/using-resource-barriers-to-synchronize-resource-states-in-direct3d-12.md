@@ -588,3 +588,6 @@ D3D12_RESOURCE_BARRIER BarrierDesc = {};
 [Multi-engine synchronization](./user-mode-heap-synchronization.md)
 
 [Work Submission in Direct3D 12](command-queues-and-command-lists.md)
+
+[A Look Inside D3D12 Resource State Barriers](https://devblogs.microsoft.com/directx/a-look-inside-d3d12-resource-state-barriers/)
+
