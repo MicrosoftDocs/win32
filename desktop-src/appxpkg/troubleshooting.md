@@ -136,7 +136,7 @@ For more informtion, check the <strong>AppXDeployment-Server</strong> event log.
 <tr class="even">
 <td><strong>ERROR_REMOVE_FAILED</strong></td>
 <td>0x80073CFA</td>
-<td>Package removal failed.<br/> You may get this error for failures that occur during package uninstall.<br/> For more information, see <a href="https://docs.microsoft.com/uwp/api/windows.management.deployment.packagemanager.removepackageasync"><strong>RemovePackageAsync</strong></a>.<br/></td>
+<td>Package removal failed.<br/> You may get this error for failures that occur during package uninstall.<br/> For more information, see <a href="/uwp/api/windows.management.deployment.packagemanager.removepackageasync"><strong>RemovePackageAsync</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>ERROR_PACKAGE_</strong><br/> <strong>ALREADY_EXISTS</strong><br/></td>
@@ -481,12 +481,12 @@ If the package contains \AppxMetadata\CodeIntegrity.cat, it must also contain \A
 <tr class="odd">
 <td><strong>APPX_E_INVALID_</strong> <br/> <strong>SIP_CLIENT_DATA</strong> <br/></td>
 <td>0x80080209</td>
-<td>The <a href="https://docs.microsoft.com/windows/win32/api/mssip/ns-mssip-sip_subjectinfo"><strong>SIP_SUBJECTINFO</strong></a>structure used to sign the package didn't contain the required data<br/></td>
+<td>The <a href="/windows/win32/api/mssip/ns-mssip-sip_subjectinfo"><strong>SIP_SUBJECTINFO</strong></a>structure used to sign the package didn't contain the required data<br/></td>
 </tr>
 <tr class="even">
 <td><strong>APPX_E_INVALID_</strong> <br/> <strong>KEY_INFO</strong> <br/></td>
 <td>0x8008020A</td>
-<td>The <a href="https://docs.microsoft.com/windows/win32/api/appxpackaging/ns-appxpackaging-appx_key_info"><strong>APPX_KEY_INFO</strong></a> structure used to encrypt or decrypt the package contains invalid data.<br/></td>
+<td>The <a href="/windows/win32/api/appxpackaging/ns-appxpackaging-appx_key_info"><strong>APPX_KEY_INFO</strong></a> structure used to encrypt or decrypt the package contains invalid data.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>APPX_E_INVALID_</strong><br/> <strong>CONTENTGROUPMAP</strong><br/></td>
