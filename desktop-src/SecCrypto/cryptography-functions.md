@@ -158,7 +158,7 @@ Applications use the following service functions to connect and disconnect a [*c
 [!Important]<br />
 This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Acquires a handle to the current user's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly"><em>key container</em></a> within a particular CSP.</td>
+<br/> Acquires a handle to the current user's <a href="/windows/desktop/SecGloss/k-gly"><em>key container</em></a> within a particular CSP.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcontextaddref"><strong>CryptContextAddRef</strong></a></td>
@@ -166,7 +166,7 @@ This API is deprecated. New and existing software should start using <a href="/w
 [!Important]<br />
 This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Increments the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly"><em>reference count</em></a> on an <a href="hcryptprov.md"><strong>HCRYPTPROV</strong></a> handle.</td>
+<br/> Increments the <a href="/windows/desktop/SecGloss/r-gly"><em>reference count</em></a> on an <a href="hcryptprov.md"><strong>HCRYPTPROV</strong></a> handle.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumprovidersa"><strong>CryptEnumProviders</strong></a></td>
@@ -242,7 +242,7 @@ This API is deprecated. New and existing software should start using <a href="/w
 </tr>
 <tr class="even">
 <td><a href="freecryptprovfromcertex.md"><strong>FreeCryptProvFromCertEx</strong></a></td>
-<td>Releases the handle either to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly"><em>cryptographic service provider</em></a> (CSP) or to a Cryptography API: Next Generation (CNG) key.</td>
+<td>Releases the handle either to a <a href="/windows/desktop/SecGloss/c-gly"><em>cryptographic service provider</em></a> (CSP) or to a Cryptography API: Next Generation (CNG) key.</td>
 </tr>
 </tbody>
 </table>
@@ -289,7 +289,7 @@ This API is deprecated. New and existing software should start using <a href="/w
 [!Important]<br />
 This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Makes an exact copy of a key, including the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly"><em>state</em></a> of the key.</td>
+<br/> Makes an exact copy of a key, including the <a href="/windows/desktop/SecGloss/s-gly"><em>state</em></a> of the key.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey"><strong>CryptExportKey</strong></a></td>
@@ -297,7 +297,7 @@ This API is deprecated. New and existing software should start using <a href="/w
 [!Important]<br />
 This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Transfers a key from the CSP into a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly"><em>key BLOB</em></a> in the application's memory space.</td>
+<br/> Transfers a key from the CSP into a <a href="/windows/desktop/SecGloss/k-gly"><em>key BLOB</em></a> in the application's memory space.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenkey"><strong>CryptGenKey</strong></a></td>
@@ -337,7 +337,7 @@ This API is deprecated. New and existing software should start using <a href="/w
 [!Important]<br />
 This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Transfers a key from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly"><em>key BLOB</em></a> to a CSP.</td>
+<br/> Transfers a key from a <a href="/windows/desktop/SecGloss/k-gly"><em>key BLOB</em></a> to a CSP.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam"><strong>CryptSetKeyParam</strong></a></td>
@@ -391,7 +391,7 @@ The following functions support encryption and decryption operations. [**CryptEn
 [!Important]<br />
 This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Decrypts a section of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly"><em>ciphertext</em></a> by using the specified encryption key.</td>
+<br/> Decrypts a section of <a href="/windows/desktop/SecGloss/c-gly"><em>ciphertext</em></a> by using the specified encryption key.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencrypt"><strong>CryptEncrypt</strong></a></td>
@@ -399,11 +399,11 @@ This API is deprecated. New and existing software should start using <a href="/w
 [!Important]<br />
 This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Encrypts a section of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly"><em>plaintext</em></a> by using the specified encryption key.</td>
+<br/> Encrypts a section of <a href="/windows/desktop/SecGloss/p-gly"><em>plaintext</em></a> by using the specified encryption key.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectdata"><strong>CryptProtectData</strong></a></td>
-<td>Performs encryption on the data in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)"><strong>DATA_BLOB</strong></a> structure.</td>
+<td>Performs encryption on the data in a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)"><strong>DATA_BLOB</strong></a> structure.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectmemory"><strong>CryptProtectMemory</strong></a></td>
@@ -411,7 +411,7 @@ This API is deprecated. New and existing software should start using <a href="/w
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectdata"><strong>CryptUnprotectData</strong></a></td>
-<td>Performs a decryption and integrity check of the data in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)"><strong>DATA_BLOB</strong></a>.</td>
+<td>Performs a decryption and integrity check of the data in a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)"><strong>DATA_BLOB</strong></a>.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectmemory"><strong>CryptUnprotectMemory</strong></a></td>
@@ -498,7 +498,7 @@ This API is deprecated. New and existing software should start using <a href="/w
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign"><strong>CryptUIWizDigitalSign</strong></a></td>
-<td>Displays a wizard that digitally signs a document or a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly"><em>BLOB</em></a>.</td>
+<td>Displays a wizard that digitally signs a document or a <a href="/windows/desktop/SecGloss/b-gly"><em>BLOB</em></a>.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizfreedigitalsigncontext"><strong>CryptUIWizFreeDigitalSignContext</strong></a></td>
@@ -856,15 +856,15 @@ The following CryptoAPI functions manage data and certificates.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcompareintegerblob"><strong>CertCompareIntegerBlob</strong></a></td>
-<td>Compares two integer <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly"><em>BLOBs</em></a>.</td>
+<td>Compares two integer <a href="/windows/desktop/SecGloss/b-gly"><em>BLOBs</em></a>.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparepublickeyinfo"><strong>CertComparePublicKeyInfo</strong></a></td>
-<td>Compares two <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly"><em>public keys</em></a> to determine whether they are identical.</td>
+<td>Compares two <a href="/windows/desktop/SecGloss/p-gly"><em>public keys</em></a> to determine whether they are identical.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certfindattribute"><strong>CertFindAttribute</strong></a></td>
-<td>Finds the first attribute identified by its <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly"><em>object identifier</em></a> (OID).</td>
+<td>Finds the first attribute identified by its <a href="/windows/desktop/SecGloss/o-gly"><em>object identifier</em></a> (OID).</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certfindextension"><strong>CertFindExtension</strong></a></td>
@@ -872,7 +872,7 @@ The following CryptoAPI functions manage data and certificates.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certfindrdnattr"><strong>CertFindRDNAttr</strong></a></td>
-<td>Finds the first <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly"><em>RDN</em></a> attribute identified by its OID in the name list of the <em>Relative Distinguished Names</em>.</td>
+<td>Finds the first <a href="/windows/desktop/SecGloss/r-gly"><em>RDN</em></a> attribute identified by its OID in the name list of the <em>Relative Distinguished Names</em>.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certgetintendedkeyusage"><strong>CertGetIntendedKeyUsage</strong></a></td>
@@ -880,11 +880,11 @@ The following CryptoAPI functions manage data and certificates.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certgetpublickeylength"><strong>CertGetPublicKeyLength</strong></a></td>
-<td>Acquires the public/private key's bit length from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly"><em>public key BLOB</em></a>.</td>
+<td>Acquires the public/private key's bit length from the <a href="/windows/desktop/SecGloss/p-gly"><em>public key BLOB</em></a>.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certisrdnattrsincertificatename"><strong>CertIsRDNAttrsInCertificateName</strong></a></td>
-<td>Compares the attributes in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly"><em>certificate name</em></a> with the specified <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-cert_rdn"><strong>CERT_RDN</strong></a> to determine whether all attributes are included there.</td>
+<td>Compares the attributes in the <a href="/windows/desktop/SecGloss/c-gly"><em>certificate name</em></a> with the specified <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-cert_rdn"><strong>CERT_RDN</strong></a> to determine whether all attributes are included there.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certisstronghashtosign"><strong>CertIsStrongHashToSign</strong></a></td>
@@ -892,7 +892,7 @@ The following CryptoAPI functions manage data and certificates.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifycrlrevocation"><strong>CertVerifyCRLRevocation</strong></a></td>
-<td>Verifies that the subject certificate is not on the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly"><em>certificate revocation list</em></a> (CRL).</td>
+<td>Verifies that the subject certificate is not on the <a href="/windows/desktop/SecGloss/c-gly"><em>certificate revocation list</em></a> (CRL).</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifycrltimevalidity"><strong>CertVerifyCRLTimeValidity</strong></a></td>
@@ -932,7 +932,7 @@ The following CryptoAPI functions manage data and certificates.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptfindcertificatekeyprovinfo"><strong>CryptFindCertificateKeyProvInfo</strong></a></td>
-<td>Enumerates the cryptographic providers and their <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly"><em>key containers</em></a> to find the private key that corresponds to a certificate's public key.</td>
+<td>Enumerates the cryptographic providers and their <a href="/windows/desktop/SecGloss/k-gly"><em>key containers</em></a> to find the private key that corresponds to a certificate's public key.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptfindlocalizedname"><strong>CryptFindLocalizedName</strong></a></td>
@@ -972,7 +972,7 @@ This API is deprecated. New and existing software should start using <a href="/w
 [!Important]<br />
 This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Imports the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly"><em>private key</em></a> in PKCS #8 format to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly"><em>cryptographic service provider</em></a> (CSP).</td>
+<br/> Imports the <a href="/windows/desktop/SecGloss/p-gly"><em>private key</em></a> in PKCS #8 format to a <a href="/windows/desktop/SecGloss/c-gly"><em>cryptographic service provider</em></a> (CSP).</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfo"><strong>CryptImportPublicKeyInfo</strong></a></td>
@@ -1028,7 +1028,7 @@ This API is deprecated. New and existing software should start using <a href="/w
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipcreateindirectdata"><strong>CryptSIPCreateIndirectData</strong></a></td>
-<td>Returns a <a href="/windows/win32/api/mssip/ns-mssip-sip_indirect_data"><strong>SIP_INDIRECT_DATA</strong></a> structure that contains a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly"><em>hash</em></a> of the supplied <a href="/windows/win32/api/mssip/ns-mssip-sip_subjectinfo"><strong>SIP_SUBJECTINFO</strong></a> structure, the digest algorithm, and an encoding attribute. The hash can be used as an indirect reference to the data.</td>
+<td>Returns a <a href="/windows/win32/api/mssip/ns-mssip-sip_indirect_data"><strong>SIP_INDIRECT_DATA</strong></a> structure that contains a <a href="/windows/desktop/SecGloss/h-gly"><em>hash</em></a> of the supplied <a href="/windows/win32/api/mssip/ns-mssip-sip_subjectinfo"><strong>SIP_SUBJECTINFO</strong></a> structure, the digest algorithm, and an encoding attribute. The hash can be used as an indirect reference to the data.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipgetcaps"><strong>CryptSIPGetCaps</strong></a></td>
@@ -1068,11 +1068,11 @@ This API is deprecated. New and existing software should start using <a href="/w
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptupdateprotectedstate"><strong>CryptUpdateProtectedState</strong></a></td>
-<td>Migrates the current user's master keys after the user's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly"><em>security identifier</em></a> (SID) has changed.</td>
+<td>Migrates the current user's master keys after the user's <a href="/windows/desktop/SecGloss/s-gly"><em>security identifier</em></a> (SID) has changed.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifycertificatesignature"><strong>CryptVerifyCertificateSignature</strong></a></td>
-<td>Verifies the signature of a subject certificate or a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly"><em>CRL</em></a> by using the public key information.</td>
+<td>Verifies the signature of a subject certificate or a <a href="/windows/desktop/SecGloss/c-gly"><em>CRL</em></a> by using the public key information.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifycertificatesignatureex"><strong>CryptVerifyCertificateSignatureEx</strong></a></td>
@@ -1156,7 +1156,7 @@ A key identifier can have the same properties as a certificate context. For more
 [!Important]<br />
 This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Creates a key identifier from a CSP's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly"><em>public key BLOB</em></a>.</td>
+<br/> Creates a key identifier from a CSP's <a href="/windows/desktop/SecGloss/p-gly"><em>public key BLOB</em></a>.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumkeyidentifierproperties"><strong>CryptEnumKeyIdentifierProperties</strong></a></td>

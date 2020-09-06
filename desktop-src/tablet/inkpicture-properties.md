@@ -45,7 +45,7 @@ This section contains Properties for the InkPicture Control.
 <td>Gets the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors"><strong>IInkCursors</strong></a> collection available for use in the <a href="inkpicture-control-reference.md">InkPicture</a> control's inking region.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703274(v=vs.85)"><strong>CustomStrokes</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/legacy/ms703274(v=vs.85)"><strong>CustomStrokes</strong></a></td>
 <td>Gets the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes"><strong>IInkCustomStrokes</strong></a> collection to be persisted with the ink (design-time only).<br/></td>
 </tr>
 <tr class="odd">
@@ -141,8 +141,6 @@ This property is equivalent to the <a href="/windows/desktop/api/msinkaut/nf-msi
 </table>
 
 
-
- 
 
  
 

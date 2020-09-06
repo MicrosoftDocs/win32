@@ -99,7 +99,7 @@ Each key contains the following settings.
 <td>Required.<br/>The absolute path to the XML Cryptographic Provider DLL.
 <blockquote>
 <p>[!Note]We recommend that cryptographic extension DLLs be located in directories that can only be written to by applications with administrative privilege.</p>
-<p><a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya"><strong>LoadLibrary</strong></a> is used to load the cryptographic extension DLL.<br/></p>
+<p><a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya"><strong>LoadLibrary</strong></a> is used to load the cryptographic extension DLL.<br/></p>
 </blockquote>
 <br/></td>
 </tr>

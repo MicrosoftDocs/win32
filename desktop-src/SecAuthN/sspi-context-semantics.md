@@ -30,7 +30,7 @@ The SSPI model supports three types of security contexts.
 <tbody>
 <tr class="odd">
 <td><a href="connection-oriented-contexts.md">Connection</a></td>
-<td>A connection-oriented <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly"><em>context</em></a> is the most common security context, and the simplest to use. The caller is responsible for the overall message format and for the location of the data in the message. The caller is also responsible for the location of the security-relevant fields within a message, such as the location of the signature data.<br/></td>
+<td>A connection-oriented <a href="/windows/desktop/SecGloss/c-gly"><em>context</em></a> is the most common security context, and the simplest to use. The caller is responsible for the overall message format and for the location of the data in the message. The caller is also responsible for the location of the security-relevant fields within a message, such as the location of the signature data.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="datagram-contexts.md">Datagram</a></td>

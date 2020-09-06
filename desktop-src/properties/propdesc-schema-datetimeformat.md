@@ -96,7 +96,7 @@ If there are multiple elements, the last one is used. If no [dateTimeFormat]() e
 <tbody>
 <tr class="odd">
 <td>General</td>
-<td>Default. Formats the date-time value using <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shformatdatetimea"><strong>SHFormatDateTime</strong></a>. Use the <em>formatTimeAs</em> and <em>formatDateAs</em> attributes to specify how the time and date are formatted. Requires the property type to be DateTime.</td>
+<td>Default. Formats the date-time value using <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shformatdatetimea"><strong>SHFormatDateTime</strong></a>. Use the <em>formatTimeAs</em> and <em>formatDateAs</em> attributes to specify how the time and date are formatted. Requires the property type to be DateTime.</td>
 </tr>
 <tr class="even">
 <td>Month</td>

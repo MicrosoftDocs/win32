@@ -53,7 +53,7 @@ The following table contains examples and describes how binding handles are assi
 <tbody>
 <tr class="odd">
 <td><pre class="syntax" data-space="preserve"><code>void proc1( void );</code></pre></td>
-<td>No explicit handle is specified. The implicit binding handle, specified by [ <a href="/windows/desktop/Midl/implicit-handle">implicit_handle</a>] or [ <a href="https://docs.microsoft.com/windows/desktop/Midl/auto-handle">auto_handle</a>], is used. When no ACF is present, an auto handle is used.</td>
+<td>No explicit handle is specified. The implicit binding handle, specified by [ <a href="/windows/desktop/Midl/implicit-handle">implicit_handle</a>] or [ <a href="/windows/desktop/Midl/auto-handle">auto_handle</a>], is used. When no ACF is present, an auto handle is used.</td>
 </tr>
 <tr class="even">
 <td><pre class="syntax" data-space="preserve"><code>void proc2([in] handle_t H,

@@ -107,7 +107,7 @@ This form of the control does not allow for property editing.
 </tr>
 <tr class="odd">
 <td>StaticText</td>
-<td>Uses <a href="https://msdn.microsoft.com/library/Bb761521(v=VS.85).aspx>"><strong>IPropertyDescription::FormatForDisplay</strong></a> to display the property value.</td>
+<td>Uses <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-formatfordisplay"><strong>IPropertyDescription::FormatForDisplay</strong></a> to display the property value.</td>
 </tr>
 <tr class="even">
 <td>IconList</td>

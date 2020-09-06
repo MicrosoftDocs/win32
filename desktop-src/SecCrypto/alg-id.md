@@ -38,12 +38,12 @@ The following table lists the algorithm identifiers that are currently defined. 
 <tr class="odd">
 <td>CALG_3DES</td>
 <td>0x00006603</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly"><em>Triple DES</em></a> encryption algorithm.</td>
+<td><a href="/windows/desktop/SecGloss/t-gly"><em>Triple DES</em></a> encryption algorithm.</td>
 </tr>
 <tr class="even">
 <td>CALG_3DES_112</td>
 <td>0x00006609</td>
-<td>Two-key <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly"><em>triple DES</em></a> encryption with effective key length equal to 112 bits.</td>
+<td>Two-key <a href="/windows/desktop/SecGloss/t-gly"><em>triple DES</em></a> encryption with effective key length equal to 112 bits.</td>
 </tr>
 <tr class="odd">
 <td>CALG_AES</td>
@@ -98,7 +98,7 @@ The following table lists the algorithm identifiers that are currently defined. 
 <tr class="odd">
 <td>CALG_DSS_SIGN</td>
 <td>0x00002200</td>
-<td>DSA <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly"><em>public key</em></a> signature algorithm.</td>
+<td>DSA <a href="/windows/desktop/SecGloss/p-gly"><em>public key</em></a> signature algorithm.</td>
 </tr>
 <tr class="even">
 <td>CALG_ECDH</td>
