@@ -28,7 +28,7 @@ This topic contains two examples that use tab controls. The first example demons
 <tbody>
 <tr class="odd">
 <td><a href="create-a-tab-control-in-the-main-window.md">How to Create a Tab Control in the Main Window</a><br/></td>
-<td>The example in this section demonstrates how to create a tab control and display it in the client area of the application's main window. The application displays a third window (a static control) in the display area of the tab control. The parent window positions and sizes the tab control and static control when it processes the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-size"><strong>WM_SIZE</strong></a> message. <br/> There are seven tabs in this example, one for each day of the week. When the user selects a tab, the application displays the name of the corresponding day in the static control. <br/></td>
+<td>The example in this section demonstrates how to create a tab control and display it in the client area of the application's main window. The application displays a third window (a static control) in the display area of the tab control. The parent window positions and sizes the tab control and static control when it processes the <a href="/windows/desktop/winmsg/wm-size"><strong>WM_SIZE</strong></a> message. <br/> There are seven tabs in this example, one for each day of the week. When the user selects a tab, the application displays the name of the corresponding day in the static control. <br/></td>
 </tr>
 <tr class="even">
 <td><a href="create-a-tabbed-dialog-box.md">How to Create a Tabbed Dialog Box</a><br/></td>
@@ -37,14 +37,12 @@ This topic contains two examples that use tab controls. The first example demons
 [!Note]<br />
 In many cases, you can implement multiple-page dialog boxes more easily by using property sheets. For more information about property sheets, see <a href="property-sheets.md">About Property Sheets</a>.
 </blockquote>
-<br/> The template for the main dialog box simply defines two button controls. When processing the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog"><strong>WM_INITDIALOG</strong></a> message, the dialog box procedure creates a tab control and loads the dialog box template resources for each of the child dialog boxes. <br/></td>
+<br/> The template for the main dialog box simply defines two button controls. When processing the <a href="/windows/desktop/dlgbox/wm-initdialog"><strong>WM_INITDIALOG</strong></a> message, the dialog box procedure creates a tab control and loads the dialog box template resources for each of the child dialog boxes. <br/></td>
 </tr>
 </tbody>
 </table>
 
 
-
- 
 
  
 

@@ -67,7 +67,7 @@ For a description of each clock type, see the <strong>ClientContext</strong> mem
 <tr class="even">
 <td><strong>EnableKernelFlags</strong></td>
 <td><strong>REG_BINARY</strong></td>
-<td>Use this value to enable one or more kernel providers. If you enable kernel providers, the Global Logger session will rename itself to NT Kernel Logger when it starts. For possible values, see the <strong>EnableFlags</strong> member of <a href="event-trace-properties.md"><strong>EVENT_TRACE_PROPERTIES</strong></a>.<br/></td>
+<td>Use this value to enable one or more kernel providers. If you enable kernel providers, the Global Logger session will rename itself to NT Kernel Logger when it starts. For possible values, see the <strong>EnableFlags</strong> member of <a href="/windows/win32/api/evntrace/ns-evntrace-event_trace_properties"><strong>EVENT_TRACE_PROPERTIES</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>FileCounter</strong></td>
@@ -136,6 +136,4 @@ For details on starting an event tracing session, see [Configuring and Starting 
 For details on starting a private logger session, see [Configuring and Starting a Private Logger Session](configuring-and-starting-a-private-logger-session.md).
 
 For details on starting an NT Kernel Logger session, see [Configuring and Starting the NT Kernel Logger Session](configuring-and-starting-the-nt-kernel-logger-session.md).
-
- 
 

@@ -62,7 +62,7 @@ A combination of one or more flags that control the device create behavior.
 </tr>
 <tr class="odd">
 <td>D3DCREATE_ENABLE_PRESENTSTATS</td>
-<td>Enables the gathering of present statistics on the device. Calls to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb205901(v=vs.85)"><strong>GetPresentStatistics</strong></a> will return valid data. 
+<td>Enables the gathering of present statistics on the device. Calls to <a href="/previous-versions/windows/desktop/legacy/bb205901(v=vs.85)"><strong>GetPresentStatistics</strong></a> will return valid data. 
 <table>
 <tbody>
 <tr class="odd">

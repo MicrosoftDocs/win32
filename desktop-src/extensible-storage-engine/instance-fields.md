@@ -29,7 +29,7 @@ The [Instance](dn350923\(v=exchg.10\).md) type exposes the following members.
 <tr class="odd">
 <td><img src="../images/dn350944.protfield(exchg.10).gif" title="Protected field" alt="Protected field" /></td>
 <td><a href="/dotnet/api/system.runtime.interopservices.safehandle.handle">handle</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle?redirectedfrom=MSDN">SafeHandle</a>.)</td>
+<td>(Inherited from <a href="/dotnet/api/system.runtime.interopservices.safehandle">SafeHandle</a>.)</td>
 </tr>
 </tbody>
 </table>

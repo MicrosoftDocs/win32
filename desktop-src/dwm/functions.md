@@ -37,7 +37,7 @@ This section contains information about the Desktop Window Manager (DWM) functio
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmdefwindowproc"><strong>DwmDefWindowProc</strong></a><br/></td>
-<td>Default window procedure for DWM hit testing within the non-client area.<br/> You also need to ensure that <a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmdefwindowproc"><strong>DwmDefWindowProc</strong></a> is called for the <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-ncmouseleave"><strong>WM_NCMOUSELEAVE</strong></a> message. If <strong>DwmDefWindowProc</strong> is not called for the <strong>WM_NCMOUSELEAVE</strong> message, DWM does not remove the highlighting from the <strong>Maximize</strong>, <strong>Minimize</strong>, and <strong>Close</strong> buttons when the cursor leaves the window.<br/></td>
+<td>Default window procedure for DWM hit testing within the non-client area.<br/> You also need to ensure that <a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmdefwindowproc"><strong>DwmDefWindowProc</strong></a> is called for the <a href="/windows/desktop/inputdev/wm-ncmouseleave"><strong>WM_NCMOUSELEAVE</strong></a> message. If <strong>DwmDefWindowProc</strong> is not called for the <strong>WM_NCMOUSELEAVE</strong> message, DWM does not remove the highlighting from the <strong>Maximize</strong>, <strong>Minimize</strong>, and <strong>Close</strong> buttons when the cursor leaves the window.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmdetachmilcontent"><strong>DwmDetachMilContent</strong></a><br/></td>
@@ -145,7 +145,7 @@ Checks the requirements needed to get tabs in the application title bar for the 
 <td>Sets the value of non-client rendering attributes for a window.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmshowcontact"><strong>DwmShowContact</strong></a><br/></td>
+<td><a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmshowcontact"><strong>DwmShowContact</strong></a><br/></td>
 <td>Called by an app or framework to specify the visual feedback type to draw in response to a particular touch or pen contact.<br/></td>
 </tr>
 <tr class="even">
@@ -153,7 +153,7 @@ Checks the requirements needed to get tabs in the application title bar for the 
 <td>Enables the graphical feedback of touch and drag interactions to the user.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmtransitionownedwindow"><strong>DwmTransitionOwnedWindow</strong></a><br/></td>
+<td><a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmtransitionownedwindow"><strong>DwmTransitionOwnedWindow</strong></a><br/></td>
 <td>Coordinates the animations of tool windows with the DWM.<br/></td>
 </tr>
 <tr class="even">
@@ -172,10 +172,4 @@ Checks the requirements needed to get tabs in the application title bar for the 
  
 
  
-
- 
-
-
-
-
 

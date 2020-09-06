@@ -370,8 +370,8 @@ Microsoft Rich Edit 4.1 includes the following features in addition to the featu
 <td>The <a href="rich-edit-control-styles.md"><strong>ES_VERTICAL</strong></a> window style is supported.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-unichar"><strong>WM_UNICHAR</strong></a> support</td>
-<td>To send or post Unicode characters to ANSI windows, use <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-unichar"><strong>WM_UNICHAR</strong></a>. It is equivalent to <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-char"><strong>WM_CHAR</strong></a>, but it uses (UTF)-32.</td>
+<td><a href="/windows/desktop/inputdev/wm-unichar"><strong>WM_UNICHAR</strong></a> support</td>
+<td>To send or post Unicode characters to ANSI windows, use <a href="/windows/desktop/inputdev/wm-unichar"><strong>WM_UNICHAR</strong></a>. It is equivalent to <a href="/windows/desktop/inputdev/wm-char"><strong>WM_CHAR</strong></a>, but it uses (UTF)-32.</td>
 </tr>
 </tbody>
 </table>
@@ -488,6 +488,4 @@ Rich edit controls support the following shortcut keys.
 
 [Windowless Rich Edit Controls](windowless-rich-edit-controls.md)
 </dt> </dl>
-
- 
 

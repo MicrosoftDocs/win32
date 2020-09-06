@@ -287,11 +287,11 @@ The IMM sends a WM\_IME\_NOTIFY message to the application whenever an IME windo
 <td>This attribute contains information such as the status of each character in the composition string (for example, converted or non-converted). This information is needed because CDXUTIMEEditBox colors the composition string characters differently based upon their attributes.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a> / <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-changecandidate">IMN_CHANGECANDIDATE</a></td>
+<td><a href="/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a> / <a href="/windows/desktop/Intl/imn-changecandidate">IMN_CHANGECANDIDATE</a></td>
 <td>Sent to the application when the candidate window is about to be opened or updated, respectively. The candidate window opens when a user wishes to change the converted text choice. The window is updated when a user moves the selection indicator or changes the page. CDXUTIMEEditBox uses one message handler for both of these commands because the tasks required are exactly the same:<br/>
 <ol>
 <li>CDXUTIMEEditBox sets the bShowWindow member of the candidate list structure s_CandList to TRUE to indicate that the candidate window needs to be drawn during frame rendering.</li>
-<li>CDXUTIMEEditBox retrieves the candidate list by calling <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immgetcandidatelista"><strong>ImmGetCandidateList</strong></a>, first to get the required buffer size, and then again to get the actual data.</li>
+<li>CDXUTIMEEditBox retrieves the candidate list by calling <a href="/windows/desktop/api/imm/nf-imm-immgetcandidatelista"><strong>ImmGetCandidateList</strong></a>, first to get the required buffer size, and then again to get the actual data.</li>
 <li>The private candidate list structure s_CandList is initialized with the retrieved candidate data.</li>
 <li>The candidate strings are stored as an array of strings.</li>
 <li>The index of the selected entry, as well as the page index, is saved.</li>
@@ -532,4 +532,3 @@ Declared in Imm.h.
 Use Imm.lib.
 
 </dd> </dl>
-

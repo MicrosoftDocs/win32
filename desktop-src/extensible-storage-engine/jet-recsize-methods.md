@@ -34,7 +34,7 @@ The [JET_RECSIZE](hh557010\(v=exchg.10\).md) type exposes the following members.
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh558506(v=exchg.10).md">Equals(Object)</a></td>
-<td>Returns a value indicating whether this instance is equal to another instance. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.valuetype.equals?redirectedfrom=MSDN#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a>.)</td>
+<td>Returns a value indicating whether this instance is equal to another instance. (Overrides <a href="/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -44,22 +44,22 @@ The [JET_RECSIZE](hh557010\(v=exchg.10\).md) type exposes the following members.
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
 <td><a href="/dotnet/api/system.object.finalize#System_Object_Finalize">Finalize</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
+<td>(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh557078(v=exchg.10).md">GetHashCode</a></td>
-<td>Returns the hash code for this instance. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.valuetype.gethashcode?redirectedfrom=MSDN#System_ValueType_GetHashCode">ValueType.GetHashCode()</a>.)</td>
+<td>Returns the hash code for this instance. (Overrides <a href="/dotnet/api/system.valuetype.gethashcode#System_ValueType_GetHashCode">ValueType.GetHashCode()</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="/dotnet/api/system.object.gettype#System_Object_GetType">GetType</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
+<td>(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
 <td><a href="/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">MemberwiseClone</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
+<td>(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
@@ -69,7 +69,7 @@ The [JET_RECSIZE](hh557010\(v=exchg.10\).md) type exposes the following members.
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="/dotnet/api/system.valuetype.tostring#System_ValueType_ToString">ToString</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.valuetype?redirectedfrom=MSDN">ValueType</a>.)</td>
+<td>(Inherited from <a href="/dotnet/api/system.valuetype">ValueType</a>.)</td>
 </tr>
 </tbody>
 </table>

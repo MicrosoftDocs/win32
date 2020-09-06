@@ -29,7 +29,7 @@ The [EsentFileCloseException](dn274332\(v=exchg.10\).md) type exposes the follow
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="/dotnet/api/system.exception.data#System_Exception_Data">Data</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
+<td>(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
@@ -39,37 +39,37 @@ The [EsentFileCloseException](dn274332\(v=exchg.10\).md) type exposes the follow
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="/dotnet/api/system.exception.helplink#System_Exception_HelpLink">HelpLink</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
+<td>(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Protected property" alt="Protected property" /></td>
 <td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
+<td>(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="/dotnet/api/system.exception.innerexception#System_Exception_InnerException">InnerException</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
+<td>(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="/dotnet/api/system.exception.message#System_Exception_Message">Message</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
+<td>(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="/dotnet/api/system.exception.source#System_Exception_Source">Source</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
+<td>(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
+<td>(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="/dotnet/api/system.exception.targetsite#System_Exception_TargetSite">TargetSite</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
+<td>(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 </tbody>
 </table>

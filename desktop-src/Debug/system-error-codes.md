@@ -21,7 +21,7 @@ We've listed the system error codes in this section, organized by number. If you
 
 * Use the [Microsoft Error Lookup Tool](system-error-code-lookup-tool.md).
 *  Install the Debugging Tools for Windows, load a memory dump file, and then run the **\!err \<code>** command.
-* Search the Microsoft Protocols site for the raw text or error code. For more information, see [[MS-ERREF]: Windows Error Codes](https://docs.microsoft.com/openspecs/windows_protocols/ms-erref/1bc92ddf-b79e-413c-bbaa-99a5281a6c90).
+* Search the Microsoft Protocols site for the raw text or error code. For more information, see [[MS-ERREF]: Windows Error Codes](/openspecs/windows_protocols/ms-erref/1bc92ddf-b79e-413c-bbaa-99a5281a6c90).
 
 ## Third party error codes
 
@@ -45,4 +45,3 @@ The following topics provide lists of system error codes. These values are defin
 -   [System Error Codes (8200-8999) (0x2008-0x2327)](system-error-codes--8200-8999-.md)
 -   [System Error Codes (9000-11999) (0x2328-0x2edf)](system-error-codes--9000-11999-.md)
 -   [System Error Codes (12000-15999) (0x2ee0-0x3e7f)](system-error-codes--12000-15999-.md)
-
