@@ -159,7 +159,7 @@ Read-only.<br />
 </dl> This property is used by the Windows Media Format runtime. The property type is <strong>VARIANT_BOOL</strong>. If the value is <strong>VARIANT_TRUE</strong>, the decoder should be drained after a discontinuity. For more information about draining an MFT, see <a href="basic-mft-processing-model.md">Basic MFT Processing Model</a>.<br/>
 <blockquote>
 [!Note]<br />
-To query this property, use the <a href="https://docs.microsoft.com/windows/desktop/com/ipropertybag-and-ipersistpropertybag"><strong>IPropertyBag</strong></a> interface.
+To query this property, use the <a href="/windows/desktop/com/ipropertybag-and-ipersistpropertybag"><strong>IPropertyBag</strong></a> interface.
 </blockquote>
 <br/></td>
 </tr>

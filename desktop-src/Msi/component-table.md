@@ -113,7 +113,7 @@ This column contains a bit flag that specifies options for remote execution. Add
 <td><dl> <dt><strong>msidbComponentAttributes64bit</strong></dt> <dt>256</dt> <dt>0x0100</dt> </dl> Set this bit to mark this as a 64-bit component. This attribute facilitates the installation of packages that include both 32-bit and 64-bit components. If this bit is not set, the component is registered as a 32-bit component.<br/> If this is a 64-bit component replacing a 32-bit component, set this bit and assign a new GUID in the ComponentId column.<br/></td>
 </tr>
 <tr class="odd">
-<td><dl> <dt><strong>msidbComponentAttributesDisableRegistryReflection</strong></dt> <dt>512</dt> <dt>0x0200</dt> </dl> Set this bit to disable <a href="/windows/desktop/WinProg64/registry-reflection">Registry Reflection</a> on all existing and new registry keys affected by this component. If this bit is set, the Windows Installer calls the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdisablereflectionkey"><strong>RegDisableReflectionKey</strong></a> on each key being accessed by the component. This bit is available with Windows Installer version 4.0. This bit is ignored on 32-bit systems. This bit is ignored on the 64-bit versions of Windows XP.<br/>
+<td><dl> <dt><strong>msidbComponentAttributesDisableRegistryReflection</strong></dt> <dt>512</dt> <dt>0x0200</dt> </dl> Set this bit to disable <a href="/windows/desktop/WinProg64/registry-reflection">Registry Reflection</a> on all existing and new registry keys affected by this component. If this bit is set, the Windows Installer calls the <a href="/windows/desktop/api/winreg/nf-winreg-regdisablereflectionkey"><strong>RegDisableReflectionKey</strong></a> on each key being accessed by the component. This bit is available with Windows Installer version 4.0. This bit is ignored on 32-bit systems. This bit is ignored on the 64-bit versions of Windows XP.<br/>
 <blockquote>
 [!Note]<br />
 32-bit Windows applications running on the 64-bit Windows emulator (WOW64) refer to a different view of the registry than 64-bit applications. Registry reflection copies some registry values between these two registry views.
@@ -222,6 +222,4 @@ See also, [Controlling Feature Selection States](controlling-feature-selection-s
 [ICE92](ice92.md)  
 [ICE97](ice97.md)  
 </dl>
-
- 
 

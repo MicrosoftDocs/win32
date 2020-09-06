@@ -158,7 +158,7 @@ For the codec requirements for HCK encoder certification, see the **Certified Ha
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/avenccommonratecontrolmode-property"><strong>CODECAPI_AVEncCommonRateControlMode</strong></a></td>
+<td><a href="/windows/desktop/DirectShow/avenccommonratecontrolmode-property"><strong>CODECAPI_AVEncCommonRateControlMode</strong></a></td>
 <td>Sets the rate control mode. The supported modes are:<br/>
 <ul>
 <li><strong>eAVEncCommonRateControlMode_CBR</strong></li>

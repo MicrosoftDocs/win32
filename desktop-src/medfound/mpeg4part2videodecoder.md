@@ -129,14 +129,14 @@ The MPEG4 Part 2 Video decoder supports the following properties.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecvideoswpowerlevel-property"><strong>CODECAPI_AVDecVideoSWPowerLevel</strong></a></td>
+<td><a href="/windows/desktop/DirectShow/avdecvideoswpowerlevel-property"><strong>CODECAPI_AVDecVideoSWPowerLevel</strong></a></td>
 <td>Specifies the power level.<br/> <dl> Windows 7.<br />
 Write-only.<br />
 </dl></td>
 <td>100</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecvideothumbnailgenerationmode-property"><strong>CODECAPI_AVDecVideoThumbnailGenerationMode</strong></a></td>
+<td><a href="/windows/desktop/DirectShow/avdecvideothumbnailgenerationmode-property"><strong>CODECAPI_AVDecVideoThumbnailGenerationMode</strong></a></td>
 <td>Specifies the thumbnail generation mode.<br/> <dl> Windows 7.<br />
 Write-only.<br />
 </dl></td>

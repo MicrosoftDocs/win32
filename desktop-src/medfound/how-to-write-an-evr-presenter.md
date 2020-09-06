@@ -625,7 +625,7 @@ For more information, see <a href="#end-of-stream">End of Stream</a>.<br/></td>
 For more information, see <a href="#managing-the-direct3d-device">Managing the Direct3D Device</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-errorabort"><strong>EC_ERRORABORT</strong></a></td>
+<td><a href="/windows/desktop/DirectShow/ec-errorabort"><strong>EC_ERRORABORT</strong></a></td>
 <td>An error has occurred that requires streaming to stop.<br/>
 <ul>
 <li><em>Param1</em>: <strong>HRESULT</strong> indicating the error that occurred.</li>
@@ -642,7 +642,7 @@ For more information, see <a href="#managing-the-direct3d-device">Managing the D
 For more information, see <a href="#processing-output">Processing Output</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-sample-latency"><strong>EC_SAMPLE_LATENCY</strong></a></td>
+<td><a href="/windows/desktop/DirectShow/ec-sample-latency"><strong>EC_SAMPLE_LATENCY</strong></a></td>
 <td>Specifies the current lag time in rendering samples. If the value is positive, samples are behind schedule. If the value is negative, samples are ahead of schedule. (Optional.)<br/>
 <ul>
 <li><em>Param1</em>: Pointer to a constant <strong>LONGLONG</strong> value that contains the lag time, in 100-nanosecond units.</li>

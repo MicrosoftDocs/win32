@@ -29,7 +29,7 @@ ms.date: 05/31/2018
 <td>Enables advanced media capture.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/mfmediacapture/nn-mfmediacapture-iadvancedmediacaptureinitializationsettings"><strong>IAdvancedMediaCaptureInitializationSettings</strong></a><br/></td>
+<td><a href="/windows/desktop/api/mfmediacapture/nn-mfmediacapture-iadvancedmediacaptureinitializationsettings"><strong>IAdvancedMediaCaptureInitializationSettings</strong></a><br/></td>
 <td>Provides initialization settings for advanced media capture.<br/></td>
 </tr>
 <tr class="odd">
@@ -66,11 +66,11 @@ ms.date: 05/31/2018
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/evr/nn-evr-ievrfilterconfig"><strong>IEVRFilterConfig</strong></a><br/></td>
-<td>Sets the number of input pins on the DirectShow <a href="https://docs.microsoft.com/windows/desktop/DirectShow/enhanced-video-renderer-filter"><strong>Enhanced Video Renderer</strong></a> (EVR) filter.<br/></td>
+<td>Sets the number of input pins on the DirectShow <a href="/windows/desktop/DirectShow/enhanced-video-renderer-filter"><strong>Enhanced Video Renderer</strong></a> (EVR) filter.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/evr/nn-evr-ievrfilterconfigex"><strong>IEVRFilterConfigEx</strong></a><br/></td>
-<td>Configures the DirectShow <a href="https://docs.microsoft.com/windows/desktop/DirectShow/enhanced-video-renderer-filter"><strong>Enhanced Video Renderer</strong></a> (EVR) filter.<br/></td>
+<td>Configures the DirectShow <a href="/windows/desktop/DirectShow/enhanced-video-renderer-filter"><strong>Enhanced Video Renderer</strong></a> (EVR) filter.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin"><strong>IEVRTrustedVideoPlugin</strong></a><br/></td>
@@ -917,7 +917,7 @@ ms.date: 05/31/2018
 <td>Initializes a video mixer or presenter.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftrackedsample"><strong>IMFTrackedSample</strong></a><br/></td>
+<td><a href="/windows/desktop/api/mfidl/nn-mfidl-imftrackedsample"><strong>IMFTrackedSample</strong></a><br/></td>
 <td>Tracks the reference counts on a video media sample.<br/></td>
 </tr>
 <tr class="odd">
@@ -1026,7 +1026,7 @@ ms.date: 05/31/2018
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/mfsharingengine/nn-mfsharingengine-iplaytosourceclassfactory"><strong>IPlayToSourceClassFactory</strong></a><br/></td>
-<td>Creates an instance of the <a href="https://docs.microsoft.com/uwp/api/Windows.Media.PlayTo.PlayToSource"><strong>PlayToSource</strong></a> object.<br/></td>
+<td>Creates an instance of the <a href="/uwp/api/Windows.Media.PlayTo.PlayToSource"><strong>PlayToSource</strong></a> object.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecleakybucket"><strong>IWMCodecLeakyBucket</strong></a><br/></td>
