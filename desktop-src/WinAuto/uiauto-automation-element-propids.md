@@ -276,7 +276,7 @@ Variant type: <strong>VT_BOOL</strong><br/> Default value: <strong>FALSE</strong
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_LiveSettingPropertyId"></span><span id="uia_livesettingpropertyid"></span><span id="UIA_LIVESETTINGPROPERTYID"></span><dl> <dt><strong>UIA_LiveSettingPropertyId</strong></dt> <dt>30135</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>LiveSetting</strong> property, which is supported by an automation element that represents a live region. The <strong>LiveSetting</strong> property indicates the &quot;politeness&quot; level that a client should use to notify the user of changes to the live region. This property can be one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-livesetting"><strong>LiveSetting</strong></a> enumeration. Supported starting with Windows 8.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
+<td style="text-align: left;">Identifies the <strong>LiveSetting</strong> property, which is supported by an automation element that represents a live region. The <strong>LiveSetting</strong> property indicates the &quot;politeness&quot; level that a client should use to notify the user of changes to the live region. This property can be one of the values from the <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-livesetting"><strong>LiveSetting</strong></a> enumeration. Supported starting with Windows 8.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_LocalizedControlTypePropertyId"></span><span id="uia_localizedcontroltypepropertyid"></span><span id="UIA_LOCALIZEDCONTROLTYPEPROPERTYID"></span><dl> <dt><strong>UIA_LocalizedControlTypePropertyId</strong></dt> <dt>30004</dt> </dl></td>
@@ -384,4 +384,3 @@ Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
 
 [Retrieving Properties from UI Automation Elements](uiauto-propertiesforclients.md)
 </dt> </dl>
-

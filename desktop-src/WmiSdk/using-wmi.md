@@ -52,7 +52,7 @@ The following procedure describes how to obtain data from WMI by writing a scrip
     </tr>
     <tr class="even">
     <td>Windows PowerShell<br/></td>
-    <td><a href="/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7">Getting Started with Windows PowerShell</a><br/> WMI PowerShell Cmdlets, such as <a href="https://technet.microsoft.com/library/dd315295.aspx">Get-WmiObject</a>.<br/></td>
+    <td><a href="/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7">Getting Started with Windows PowerShell</a><br/> WMI PowerShell Cmdlets, such as <a href="/previous-versions//dd315295(v=technet.10)">Get-WmiObject</a>.<br/></td>
     </tr>
     <tr class="odd">
     <td>Visual Basic applications<br/></td>
@@ -68,10 +68,10 @@ The following procedure describes how to obtain data from WMI by writing a scrip
     </tr>
     <tr class="even">
     <td>.NET Framework applications written in C#, Visual Basic .NET, or J#<br/></td>
-    <td>Classes in the <a href="https://docs.microsoft.com/previous-versions//hh872326(v=vs.85)"><strong>Microsoft.Management.Infrastructure</strong></a> namespace.<br/>
+    <td>Classes in the <a href="/previous-versions//hh872326(v=vs.85)"><strong>Microsoft.Management.Infrastructure</strong></a> namespace.<br/>
     <blockquote>
     [!Note]<br />
-    <strong>System.Management</strong> was the original namespace that covered managed code for WMI. However, the underlying technology for <strong>System.Management</strong> is generally slower than, and does not scale as well as, <a href="/previous-versions//hh872326(v=vs.85)"><strong>Microsoft.Management.Infrastructure</strong></a>. As such, it is not recommended that you use <strong>System.Management</strong> for new projects. (For more information on <strong>System.Management</strong>, see <a href="https://msdn.microsoft.com/library/bb404655.aspx">WMI .NET Overview</a>.)
+    <strong>System.Management</strong> was the original namespace that covered managed code for WMI. However, the underlying technology for <strong>System.Management</strong> is generally slower than, and does not scale as well as, <a href="/previous-versions//hh872326(v=vs.85)"><strong>Microsoft.Management.Infrastructure</strong></a>. As such, it is not recommended that you use <strong>System.Management</strong> for new projects. (For more information on <strong>System.Management</strong>, see <a href="/previous-versions/bb404655(v=vs.90)">WMI .NET Overview</a>.)
     </blockquote>
     <br/></td>
     </tr>
@@ -173,6 +173,4 @@ The following topics provide information about using WMI to monitor and control 
 | [Getting and Providing Data on a 64-bit Computer](getting-and-providing-data-on-a-64-bit-computer.md)<br/>                               | Describes how to access nondefault providers and considerations for provider writers on 64-bit systems.<br/>                                                                                                                                                                                                                                                    |
 
 
-
- 
 

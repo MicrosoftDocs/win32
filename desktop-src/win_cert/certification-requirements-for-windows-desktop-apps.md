@@ -235,7 +235,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 <td>Crashes & hangs are a major disruption to users and cause frustration. Apps are expected to be resilient and stable, eliminating such failures helps ensure that software is more predictable, maintainable, performant and trustworthy.<br/> User facing app entry point must be manifested for compatibility, as well as declaring the right GUID. <br/> User facing app entry points must be manifested for HIGH-DPI awareness and that the proper APIs are being called to support HIGH-DPI.<br/> For more information see:
 <ul>
 <li><a href="https://support.microsoft.com/kb/197571">AppInit DLLs</a></li>
-<li><a href="https://docs.microsoft.com/windows/desktop/w8cookbook/application--executable--manifest">App (executable) manifest</a></li>
+<li><a href="/windows/desktop/w8cookbook/application--executable--manifest">App (executable) manifest</a></li>
 <li><a href="/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows">Writing High-DPI Win32 Applications</a></li>
 </ul>
 <br/></td>
@@ -245,7 +245,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 <td>Using Windows security best practices will help avoid creating exposure to Windows attack surfaces. Attack surfaces are the entry points that a malicious attacker could use to exploit the operating system by taking advantage of vulnerabilities in the target software. One of the worst security vulnerabilities is the elevation of privilege.<br/> For more information see:
 <ul>
 <li><a href="https://technet.microsoft.com/security/gg749821">Attack Surface Analyzer</a></li>
-<li><a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists">Access Control Lists</a></li>
+<li><a href="/windows/desktop/SecAuthZ/access-control-lists">Access Control Lists</a></li>
 </ul>
 <br/></td>
 </tr>

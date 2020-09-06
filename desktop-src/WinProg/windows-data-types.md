@@ -240,7 +240,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="COLORREF"></span><span id="colorref"></span><strong>COLORREF</strong></td>
-<td>The red, green, blue (RGB) color value (32 bits). See <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref"><strong>COLORREF</strong></a> for information on this type.<br/> This type is declared in WinDef.h as follows:<br/> <code>typedef DWORD COLORREF;</code><br/></td>
+<td>The red, green, blue (RGB) color value (32 bits). See <a href="/windows/desktop/gdi/colorref"><strong>COLORREF</strong></a> for information on this type.<br/> This type is declared in WinDef.h as follows:<br/> <code>typedef DWORD COLORREF;</code><br/></td>
 </tr>
 <tr class="even">
 <td><span id="CONST"></span><span id="const"></span><strong>CONST</strong></td>
@@ -378,7 +378,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HFILE"></span><span id="hfile"></span><strong>HFILE</strong></td>
-<td><p>A handle to a file opened by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile"><strong>OpenFile</strong></a>, not <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea"><strong>CreateFile</strong></a>.</p>
+<td><p>A handle to a file opened by <a href="/windows/desktop/api/winbase/nf-winbase-openfile"><strong>OpenFile</strong></a>, not <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea"><strong>CreateFile</strong></a>.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef int HFILE;</code></p></td>
 </tr>
@@ -476,7 +476,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HRESULT"></span><span id="hresult"></span><strong>HRESULT</strong></td>
-<td><p>The return codes used by COM interfaces. For more information, see <a href="/windows/desktop/com/structure-of-com-error-codes">Structure of the COM Error Codes</a>. To test an <strong>HRESULT</strong> value, use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed"><strong>FAILED</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded"><strong>SUCCEEDED</strong></a> macros.</p>
+<td><p>The return codes used by COM interfaces. For more information, see <a href="/windows/desktop/com/structure-of-com-error-codes">Structure of the COM Error Codes</a>. To test an <strong>HRESULT</strong> value, use the <a href="/windows/desktop/api/winerror/nf-winerror-failed"><strong>FAILED</strong></a> and <a href="/windows/desktop/api/winerror/nf-winerror-succeeded"><strong>SUCCEEDED</strong></a> macros.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef LONG HRESULT;</code></p></td>
 </tr>
@@ -588,7 +588,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="LGRPID"></span><span id="lgrpid"></span><strong>LGRPID</strong></td>
-<td><p>A language group identifier. For a list, see <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumlanguagegrouplocalesa"><strong>EnumLanguageGroupLocales</strong></a>.</p>
+<td><p>A language group identifier. For a list, see <a href="/windows/desktop/api/winnls/nf-winnls-enumlanguagegrouplocalesa"><strong>EnumLanguageGroupLocales</strong></a>.</p>
 <p>This type is declared in WinNls.h as follows:</p>
 <p><code>typedef DWORD LGRPID;</code></p></td>
 </tr>
@@ -686,7 +686,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="LPCOLORREF"></span><span id="lpcolorref"></span><strong>LPCOLORREF</strong></td>
-<td><p>A pointer to a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref"><strong>COLORREF</strong></a> value.</p>
+<td><p>A pointer to a <a href="/windows/desktop/gdi/colorref"><strong>COLORREF</strong></a> value.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef DWORD *LPCOLORREF;</code></p></td>
 </tr>
@@ -1643,6 +1643,3 @@ typedef const UNICODE_STRING *PCUNICODE_STRING;</code></pre></td>
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                         |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                |
 | Header<br/>                   | <dl> <dt>BaseTsd.h; </dt> <dt>WinDef.h; </dt> <dt>WinNT.h</dt> </dl> |
-
-
-

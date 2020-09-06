@@ -46,7 +46,7 @@ The debug version of the library asserts if the subscript (either on the left or
 
 ## Examples
 
-The following code example shows the use of [**CHStringArray::operator \[\]**](https://msdn.microsoft.com/library/Aa384934(v=VS.85).aspx).
+The following code example shows the use of [**CHStringArray::operator \[\]**](/previous-versions/windows/desktop/legacy/aa384934(v=vs.85)).
 
 
 ```C++
@@ -90,6 +90,4 @@ assert( array[0] == L"String 3" );
 
 [**CHStringArray::SetAt**](/windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-setat(int_lpcwstr))
 </dt> </dl>
-
- 
 

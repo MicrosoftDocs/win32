@@ -129,7 +129,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
 </blockquote>
-<br/> Gets a control pattern object from a <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-variant"><strong>VARIANT</strong></a> type.<br/></td>
+<br/> Gets a control pattern object from a <a href="/windows/win32/api/oaidl/ns-oaidl-variant"><strong>VARIANT</strong></a> type.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiahtextrangefromvariant"><strong>UiaHTextRangeFromVariant</strong></a><br/></td>
@@ -137,7 +137,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
 </blockquote>
-<br/> Gets a text range from a <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-variant"><strong>VARIANT</strong></a> type.<br/></td>
+<br/> Gets a text range from a <a href="/windows/win32/api/oaidl/ns-oaidl-variant"><strong>VARIANT</strong></a> type.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiahuianodefromvariant"><strong>UiaHUiaNodeFromVariant</strong></a><br/></td>
@@ -145,7 +145,7 @@ This function is deprecated. Client applications should use the UI Automation CO
 [!Note]<br />
 This function is deprecated. Client applications should use the UI Automation COM interfaces instead.
 </blockquote>
-<br/> Gets an HUIANODE from a <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-variant"><strong>VARIANT</strong></a> type.<br/></td>
+<br/> Gets an HUIANODE from a <a href="/windows/win32/api/oaidl/ns-oaidl-variant"><strong>VARIANT</strong></a> type.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uialookupid"><strong>UiaLookupId</strong></a><br/></td>
@@ -282,10 +282,4 @@ This function is deprecated. Client applications should use the UI Automation CO
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

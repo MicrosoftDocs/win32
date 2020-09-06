@@ -54,7 +54,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...rename a file without getting an error message?</td>
-<td>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-datafile"><strong>CIM_DataFile</strong></a> class. Ensure that you pass the entire path name when calling the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/rename-method-in-class-cim-datafile"><strong>Rename</strong></a> method, for example, &quot;C:\Scripts\Test.txt&quot; instead of &quot;Text.txt&quot;. For PowerShell, using <strong>CIM_DataFile</strong> may be inefficient. As such, you may simply use the Rename-Item cmdlet.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Use the <a href="/windows/desktop/CIMWin32Prov/cim-datafile"><strong>CIM_DataFile</strong></a> class. Ensure that you pass the entire path name when calling the <a href="/windows/desktop/CIMWin32Prov/rename-method-in-class-cim-datafile"><strong>Rename</strong></a> method, for example, &quot;C:\Scripts\Test.txt&quot; instead of &quot;Text.txt&quot;. For PowerShell, using <strong>CIM_DataFile</strong> may be inefficient. As such, you may simply use the Rename-Item cmdlet.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -141,7 +141,7 @@ Next</code></pre></td>
 </tr>
 <tr class="odd">
 <td>...create shared folders on a computer?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-share"><strong>Win32_Share</strong></a> class and the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/create-method-in-class-win32-share"><strong>Create</strong></a> method.</p>
+<td><p>Use the <a href="/windows/desktop/CIMWin32Prov/win32-share"><strong>Win32_Share</strong></a> class and the <a href="/windows/desktop/CIMWin32Prov/create-method-in-class-win32-share"><strong>Create</strong></a> method.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -190,7 +190,7 @@ $Shares= [WMICLASS]&quot;Win32_Share&quot;
 </tr>
 <tr class="even">
 <td>...copy a folder?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-directory"><strong>Win32_Directory</strong></a> class and the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/copy-method-in-class-win32-directory"><strong>Copy</strong></a> method. For PowerShell, you can simply use the Copy-Item cmdlet.</p>
+<td><p>Use the <a href="/windows/desktop/CIMWin32Prov/win32-directory"><strong>Win32_Directory</strong></a> class and the <a href="/windows/desktop/CIMWin32Prov/copy-method-in-class-win32-directory"><strong>Copy</strong></a> method. For PowerShell, you can simply use the Copy-Item cmdlet.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -236,7 +236,7 @@ Next </code></pre></td>
 </tr>
 <tr class="odd">
 <td>...move a folder?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-directory"><strong>Win32_Directory</strong></a> class and the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/rename-method-in-class-win32-directory"><strong>Rename</strong></a> method. For PowerShell, you can simply use the Move-Item cmdlet.</p>
+<td><p>Use the <a href="/windows/desktop/CIMWin32Prov/win32-directory"><strong>Win32_Directory</strong></a> class and the <a href="/windows/desktop/CIMWin32Prov/rename-method-in-class-win32-directory"><strong>Rename</strong></a> method. For PowerShell, you can simply use the Move-Item cmdlet.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>

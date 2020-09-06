@@ -210,7 +210,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 </tr>
 <tr class="odd">
 <td>Solution</td>
-<td>Make sure that you are calling <a href="/windows/desktop/api/winuser/nf-winuser-touch_coord_to_pixel"><strong>TOUCH_COORD_TO_PIXEL</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-screentoclient"><strong>ScreenToClient</strong></a>. The following code shows how to do this. <span data-codelanguage="ManagedCPlusPlus"></span>
+<td>Make sure that you are calling <a href="/windows/desktop/api/winuser/nf-winuser-touch_coord_to_pixel"><strong>TOUCH_COORD_TO_PIXEL</strong></a> and <a href="/windows/desktop/api/winuser/nf-winuser-screentoclient"><strong>ScreenToClient</strong></a>. The following code shows how to do this. <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />

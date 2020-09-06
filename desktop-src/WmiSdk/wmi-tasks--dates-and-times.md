@@ -101,7 +101,7 @@ End Function </code></pre></td>
 </tr>
 <tr class="even">
 <td><p>...determine the time currently configured on a computer?</p></td>
-<td><p>Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmitimepprov/win32-localtime"><strong>Win32_LocalTime</strong></a> class.</p>
+<td><p>Use the <a href="/previous-versions/windows/desktop/wmitimepprov/win32-localtime"><strong>Win32_LocalTime</strong></a> class.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -172,7 +172,7 @@ Foreach ($time in $times) {
 </tr>
 <tr class="odd">
 <td><p>...determine the name of the time zone in which a computer is running?</p></td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-timezone"><strong>Win32_TimeZone</strong></a> class and check the value of the <strong>Description</strong> property.</p>
+<td><p>Use the <a href="/windows/desktop/CIMWin32Prov/win32-timezone"><strong>Win32_TimeZone</strong></a> class and check the value of the <strong>Description</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
