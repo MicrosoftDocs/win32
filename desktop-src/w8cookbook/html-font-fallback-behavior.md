@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 ## Platform
 
-<dl> **Clients -** Windows 8.1  
+Clients -** Windows 8.1  
 **Servers -** Windows Server 2012 R2  
-</dl>
+
 
 ## Description
 
