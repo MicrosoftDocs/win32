@@ -42,7 +42,7 @@ To run the compiled sample with debugging in Visual Studio, press F5.
 
 ## Support
 
-The [Windows Ribbon Development Forum](https://social.msdn.microsoft.com/Forums/windowsdesktop/en-US/home?forum=windowsribbondevelopment) is available to discuss topics and ask questions related to developing Windows Ribbon applications.
+The [Windows Ribbon Development Forum](https://social.msdn.microsoft.com/Forums/windowsdesktop/home?forum=windowsribbondevelopment) is available to discuss topics and ask questions related to developing Windows Ribbon applications.
 
 ## Minimum Requirements
 

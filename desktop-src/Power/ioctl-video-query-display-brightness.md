@@ -119,7 +119,7 @@ If the operation fails or is pending, [**DeviceIoControl**](/windows/desktop/api
 
 ## Remarks
 
-The header file used to build applications that include this functionality, Ntddvdeo.h, is included in the Microsoft Windows Driver Development Kit (DDK). For information on obtaining the DDK, see [https://www.microsoft.com/whdc/devtools/ddk/default.mspx](https://msdn.microsoft.com/en-US/windows/hardware/gg454513).
+The header file used to build applications that include this functionality, Ntddvdeo.h, is included in the Microsoft Windows Driver Development Kit (DDK). For information on obtaining the DDK, see [https://www.microsoft.com/whdc/devtools/ddk/default.mspx](https://msdn.microsoft.com/windows/hardware/gg454513).
 
 Alternatively, you can define this control code as follows:
 

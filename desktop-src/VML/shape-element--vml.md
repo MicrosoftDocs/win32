@@ -130,7 +130,7 @@ xmlns:o="urn:schemas-microsoft-com:office:office"
 
 
 
-You must also have the following in your [**STYLE**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style) element to register the behavior of VML and Microsoft Office Extensions. If you are not using Office Extensions, you can omit the second behavior definition.
+You must also have the following in your [**STYLE**](https://developer.mozilla.org/docs/Web/HTML/Element/style) element to register the behavior of VML and Microsoft Office Extensions. If you are not using Office Extensions, you can omit the second behavior definition.
 
 
 ```HTML

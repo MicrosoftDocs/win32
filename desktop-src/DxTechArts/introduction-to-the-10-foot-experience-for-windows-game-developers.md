@@ -25,7 +25,7 @@ A growing number of people are using their personal computers in a completely ne
 
 ## What is Windows Media Center?
 
-Windows Media Center can act as the interface to the multimedia capabilities of the host computer. The Web site for this feature, [Windows Media Center Home](https://windows.microsoft.com/en-US/windows/products/windows-media-center/), offers a thorough introduction and shows off all the good stuff available in the latest version. Media Center is included in Windows XP Media Center Edition, Windows Vista Home Premium, Windows Vista Ultimate, and most editions of Windows 7.
+Windows Media Center can act as the interface to the multimedia capabilities of the host computer. The Web site for this feature, [Windows Media Center Home](https://windows.microsoft.com/windows/products/windows-media-center/), offers a thorough introduction and shows off all the good stuff available in the latest version. Media Center is included in Windows XP Media Center Edition, Windows Vista Home Premium, Windows Vista Ultimate, and most editions of Windows 7.
 
 In the past, the only way to get Windows Media Center was to buy a Media Center PC from a tier-1 system manufacturer, but because Windows Media Center is now included with two editions of Windows Vista, the potential marketplace is now much larger.
 

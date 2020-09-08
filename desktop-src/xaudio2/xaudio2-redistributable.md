@@ -50,7 +50,7 @@ Unlike the older XAudio 2.7, it is not possible to use CoCreateInstance to load 
 
 ## Verifying the DLL signature
 
-The XAUDIO2\_9REDIST.DLL binary is signed by Microsoft using a SHA-2 signature. Any code that attempts to validate the signature, e.g., anti-cheat modules for games, therefore needs to support SHA-2. Note that Windows 7 SP1 did not originally support SHA-2 and requires an update to add that functionality. The update is available as [KB4474419](https://support.microsoft.com/en-us/help/4474419/sha-2-code-signing-support-update).
+The XAUDIO2\_9REDIST.DLL binary is signed by Microsoft using a SHA-2 signature. Any code that attempts to validate the signature, e.g., anti-cheat modules for games, therefore needs to support SHA-2. Note that Windows 7 SP1 did not originally support SHA-2 and requires an update to add that functionality. The update is available as [KB4474419](https://support.microsoft.com/help/4474419/sha-2-code-signing-support-update).
 
 # Testing
 

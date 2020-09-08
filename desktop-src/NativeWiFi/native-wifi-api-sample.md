@@ -41,7 +41,7 @@ The Native Wifi sample demonstrates how to perform the following tasks:
 [Using Native Wifi](using-native-wifi.md)
 </dt> <dt>
 
-[Windows Vista Wireless SDK Forum](https://social.msdn.microsoft.com/Forums/en-US/b6bbd8f0-a921-480f-9b4b-845336462bc0/welcome-to-the-windows-vista-wireless-sdk-forum)
+[Windows Vista Wireless SDK Forum](https://social.msdn.microsoft.com/Forums/b6bbd8f0-a921-480f-9b4b-845336462bc0/welcome-to-the-windows-vista-wireless-sdk-forum)
 </dt> <dt>
 
 [Troubleshooting Windows Vista 802.11 Wireless Connections](/previous-versions/windows/it-pro/windows-vista/cc766215(v=ws.10))

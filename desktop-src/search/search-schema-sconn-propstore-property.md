@@ -114,7 +114,7 @@ The following example shows a <propertyStore> element with two <property> elemen
 
 ```
 <propertyStore>
-    <property name="OpenSearchHTMLRolloverTemplate">https://www.adventureworks.com/Search/en-US/?Query={searchTerms}</property>
+    <property name="OpenSearchHTMLRolloverTemplate">https://www.adventureworks.com/Search/?Query={searchTerms}</property>
     <property name="isExternal" type="boolean">true</property>
 </propertyStore>
 ```

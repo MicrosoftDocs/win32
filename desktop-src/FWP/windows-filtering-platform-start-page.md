@@ -54,7 +54,7 @@ The Windows Filtering Platform is supported on clients running Windows Vista and
 
 ## Additional resources
 
-To ask questions and have discussions about using the WFP API, visit the [Windows Filtering Platform Forum](https://social.msdn.microsoft.com/forums/en-US/wfp/threads/).
+To ask questions and have discussions about using the WFP API, visit the [Windows Filtering Platform Forum](https://social.msdn.microsoft.com/forums/wfp/threads/).
 
 ## Related topics
 
