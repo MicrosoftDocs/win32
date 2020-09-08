@@ -1,5 +1,5 @@
 ---
-title: Geometries Overview
+title: Geometries overview
 description: Describes the basics of Direct2D geometries, objects that you can use to represent, manipulate, and analyze shapes.
 ms.assetid: f5870d4b-dd30-4034-884e-1c398a6865c6
 keywords:
@@ -9,31 +9,11 @@ ms.date: 05/31/2018
 ms.custom: "seodec18"
 ---
 
-# Geometries Overview
+# Geometries overview
 
 This overview describes how to create and use [**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry) objects to define and manipulate 2D figures. It contains the following sections.
 
--   [What Is a Direct2D Geometry?](#what-is-a-direct2d-geometry)
--   [Simple Geometries](#simple-geometries)
--   [Path Geometries](#path-geometries)
--   [Composite Geometries](#composite-geometries)
-    -   [Geometry Groups](#geometry-groups)
-    -   [Transformed Geometries](#transformed-geometries)
--   [Geometries as Masks](#geometries-as-masks)
--   [Geometric Operations](#geometric-operations)
-    -   [Combining Geometries](#combining-geometries)
-    -   [Widen](#getbounds-and-getwidenedbounds)
-    -   [Tessellate](#tessellate)
-    -   [FillContainsPoint and StrokeContainsPoint](#fillcontainspoint-and-strokecontainspoint)
-    -   [Simplify](#simplify)
-    -   [ComputeLength and ComputeArea](#computelength-and-computearea)
-    -   [CompareWithGeometry](#comparewithgeometry)
-    -   [Outline](#outline)
-    -   [GetBounds and GetWidenedBounds](#getbounds-and-getwidenedbounds)
-    -   [ComputePointAtLength](#computepointatlength)
--   [Related topics](#related-topics)
-
-## What Is a Direct2D Geometry?
+## What is a Direct2D geometry?
 
 A Direct2D geometry is an [**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry) object. This object can be a simple geometry ([**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1rectanglegeometry), [**ID2D1RoundedRectangleGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry), or [**ID2D1EllipseGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1ellipsegeometry)), a path geometry ([**ID2D1PathGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry)), or a composite geometry ([**ID2D1GeometryGroup**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrygroup) and [**ID2D1TransformedGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry)).
 
@@ -43,7 +23,7 @@ Direct2D geometries are immutable and device-independent resources created by [*
 
 The following sections describe the different kinds of geometries.
 
-## Simple Geometries
+## Simple geometries
 
 Simple geometries include [**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1rectanglegeometry), [**ID2D1RoundedRectangleGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry), and [**ID2D1EllipseGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1ellipsegeometry) objects, and can be used to create basic geometric figures, such as rectangles, rounded rectangles, circles, and ellipses.
 
@@ -82,7 +62,7 @@ m_pRenderTarget->DrawGeometry(m_pEllipseGeometry, m_pBlackBrush, 5);
 
 To draw the outline of any geometry, use the [**DrawGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry) method. To paint its interior, use the [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) method.
 
-## Path Geometries
+## Path geometries
 
 Path geometries are represented by the [**ID2D1PathGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry) interface. These objects can be used to describe complex geometric figures composed of segments such as arcs, curves, and lines. The following illustration shows a drawing created by using path geometry.
 
@@ -90,11 +70,11 @@ Path geometries are represented by the [**ID2D1PathGeometry**](/windows/win32/ap
 
 For more information and examples, see the [Path Geometries Overview](path-geometries-overview.md).
 
-## Composite Geometries
+## Composite geometries
 
 A composite geometry is a geometry grouped or combined with another geometry object, or with a transform. Composite geometries include [**ID2D1TransformedGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry) and [**ID2D1GeometryGroup**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrygroup) objects.
 
-### Geometry Groups
+### Geometry groups
 
 Geometry groups are a convenient way to group several geometries at the same time so all figures of several distinct geometries are concatenated into one. To create a [**ID2D1GeometryGroup**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrygroup) object, call the [**CreateGeometryGroup**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-creategeometrygroup) method on the [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory) object, passing in the *fillMode* with possible values of [**D2D1\_FILL\_MODE\_ALTERNATE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_fill_mode) (alternate) and **D2D1\_FILL\_MODE\_WINDING**, an array of geometry objects to add to the geometry group, and the number of elements in this array.
 
@@ -128,17 +108,13 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
 The following illustration shows the results of rendering the two group geometries from the example.
 
 ![illustration of two sets of four concentric circles, one with alternating rings filled and one with all rings filled](images/create-geometry-group.png)
 
-### Transformed Geometries
+### Transformed geometries
 
-
-There are multiple ways to transform a geometry. You can use the [**SetTransform**](/windows/win32/api/d2d1/nf-d2d1-id2d1brush-settransform(constd2d1_matrix_3x2_f_)) method of a render target to transform everything that the render target draws, or you can associate a transform directly with a geometry by using the [**CreateTransformedGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createtransformedgeometry(id2d1geometry_constd2d1_matrix_3x2_f_id2d1transformedgeometry).md) method to create an [**ID2D1TransformedGeometry**](/previous-versions/windows/desktop/legacy/dd371304(v=vs.85)).
-
+There are multiple ways to transform a geometry. You can use the [**SetTransform**](/windows/win32/api/d2d1/nf-d2d1-id2d1brush-settransform(constd2d1_matrix_3x2_f_)) method of a render target to transform everything that the render target draws, or you can associate a transform directly with a geometry by using the [**CreateTransformedGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createtransformedgeometry(id2d1geometry_constd2d1_matrix_3x2_f_id2d1transformedgeometry)) method to create an [**ID2D1TransformedGeometry**](/previous-versions/windows/desktop/legacy/dd371304(v=vs.85)).
 
 The method that you should use depends on the effect that you want. When you use the render target to transform and then render a geometry, the transform affects everything about the geometry, including the width of any stroke that you have applied. On the other hand, when you use an [**ID2D1TransformedGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry), the transform affects only the coordinates that describe the shape. The transformation will not affect the stroke thickness when the geometry is drawn.
 
@@ -220,11 +196,11 @@ m_pRenderTarget->DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
 
 
 
-## Geometries as Masks
+## Geometries as masks
 
 You can use an [**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry) object as a geometric mask when you call the [**PushLayer**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)) method. The geometric mask specifies the area of the layer that is composited into the render target. For more information, see the Geometric Masks section of the [Layers Overview](direct2d-layers-overview.md).
 
-## Geometric Operations
+## Geometric operations
 
 The [**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry) interface provides several geometric operations that you can use to manipulate and measure geometric figures. For example, you can use them to calculate and return their bounds, compare to see how one geometry is spatially related to another (useful for hit testing), calculate the areas and lengths, and more. The following table describes the common geometric operations.
 
@@ -251,7 +227,7 @@ The [**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry) interface
 
  
 
-### Combining Geometries
+### Combining geometries
 
 To combine one geometry with another, call the [**ID2D1Geometry::CombineWithGeometry**](id2d1geometry-combinewithgeometry.md) method. When you combine the geometries, you specify one of the four ways to perform the combine operation: [**D2D1\_COMBINE\_MODE\_UNION**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_combine_mode) (union), [**D2D1\_COMBINE\_MODE\_INTERSECT**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_combine_mode) (intersect), [**D2D1\_COMBINE\_MODE\_XOR**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_combine_mode) (xor), and [**D2D1\_COMBINE\_MODE\_EXCLUDE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_combine_mode) (exclude). The following code example shows two circles that are combined by using the union combine mode, where the first circle has the center point of (75, 75) and the radius of 50, and the second circle has the center point of (125, 75) and the radius of 50.
 
