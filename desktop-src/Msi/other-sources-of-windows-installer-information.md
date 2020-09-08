@@ -112,7 +112,7 @@ You can visit non-Microsoft Web sites that provide useful information about the 
 
     Windows Installer information for developers.
 
--   [Desktop Engineer's Junk Drawer](http://www.desktopengineer.com/) and [AppDeploy.com](http://www.appdeploy.com/)
+-   [Desktop Engineer's Junk Drawer](https://cloudywindows.io) and [AppDeploy.com](https://www.itninja.com)
 
     Windows Installer information for IT professionals.
 

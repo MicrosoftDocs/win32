@@ -15,7 +15,7 @@ This topic describes the relationship between the Extensible Authentication Prot
 EAPHost is considered to be a framework for EAP for two reasons.
 
 -   EAPHost is a Windows infrastructure component that hosts the EAP plug-ins
--   EAPHost implements the EAP protocol as per [RFC 3748](Http://go.microsoft.com/fwlink/p/?linkid=84063). An EAP authentication consists of the EAP protocol as per [RFC 3748](Http://go.microsoft.com/fwlink/p/?linkid=84063), and the EAP method-specific aspects of the protocol.
+-   EAPHost implements the EAP protocol as per [RFC 3748](Https//go.microsoft.com/fwlink/p/?linkid=84063). An EAP authentication consists of the EAP protocol as per [RFC 3748](Https//go.microsoft.com/fwlink/p/?linkid=84063), and the EAP method-specific aspects of the protocol.
 
 ## Related topics
 

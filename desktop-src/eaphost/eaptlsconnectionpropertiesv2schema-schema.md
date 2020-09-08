@@ -28,7 +28,7 @@ The eaptlsconnectionpropertiesv2 schema defines authentication configuration dat
 [eaptlsconnectionpropertiesv1 Schema](eaptlsconnectionpropertiesv1schema-schema.md)
 </dt> <dt>
 
-[PPP EAP TLS Authentication Protocol](Http://go.microsoft.com/fwlink/p/?linkid=84050)
+[PPP EAP TLS Authentication Protocol](Https//go.microsoft.com/fwlink/p/?linkid=84050)
 </dt> </dl>
 
  

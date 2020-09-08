@@ -133,7 +133,7 @@ There is no specific function to programmatically detect the type of disk a part
 [Dynamic Disks and Volumes Technical Reference](/previous-versions/windows/it-pro/windows-server-2003/cc785638(v=ws.10))
 </dt> <dt>
 
-[Basic Storage Versus Dynamic Storage in Windows XP]( http://support.microsoft.com/kb/314343/)
+[Basic Storage Versus Dynamic Storage in Windows XP]( Https//support.microsoft.com/kb/314343/)
 </dt> </dl>
 
  

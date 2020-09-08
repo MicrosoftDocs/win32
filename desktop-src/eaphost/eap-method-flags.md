@@ -204,7 +204,7 @@ Do not use. Reserved for future use.
 
 
 
-Indicates that tunnel methods should perform a full authentication instead of an abbreviated version, such as [Protected EAP (PEAP) Fast Reconnect](Http://go.microsoft.com/fwlink/p/?linkid=84002).
+Indicates that tunnel methods should perform a full authentication instead of an abbreviated version, such as [Protected EAP (PEAP) Fast Reconnect](Https//go.microsoft.com/fwlink/p/?linkid=84002).
 
 
 </dt> </dl> </dd> <dt>

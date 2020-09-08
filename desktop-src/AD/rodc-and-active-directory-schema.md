@@ -27,13 +27,13 @@ For step by step instructions to adding attributes to the RODC filtered attribut
 
 ## Marking attributes as confidential
 
-In addition, it is recommended that you also mark as confidential any attributes that you configure as part of the RODC filtered attribute set. To mark an attribute confidential, you have to remove the Read permission for the attribute for the Authenticated Users group. Marking the attribute as confidential provides an additional safeguard against an RODC that is compromised by removing the permissions that are necessary to read the credential-like data. For more information about marking attributes as confidential, see [article 922836 in the Microsoft Knowledge Base]( http://support.microsoft.com/kb/922836).
+In addition, it is recommended that you also mark as confidential any attributes that you configure as part of the RODC filtered attribute set. To mark an attribute confidential, you have to remove the Read permission for the attribute for the Authenticated Users group. Marking the attribute as confidential provides an additional safeguard against an RODC that is compromised by removing the permissions that are necessary to read the credential-like data. For more information about marking attributes as confidential, see [article 922836 in the Microsoft Knowledge Base]( https://support.microsoft.com/kb/922836).
 
 ## Related topics
 
 <dl> <dt>
 
-[Step-by-Step Guide for Read-only Domain Controllers]( http://support.microsoft.com/kb/922836)
+[Step-by-Step Guide for Read-only Domain Controllers]( https://support.microsoft.com/kb/922836)
 </dt> </dl>
 
  

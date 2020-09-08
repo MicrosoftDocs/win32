@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Creating an OpenSearch Description File in Windows Federated Search
 
-Describes how to create an OpenSearch Description (.osdx) file to connect external data stores to the Windows Client via the [OpenSearch](http://www.opensearch.org/Home) protocol. Federated search enables users to search a remote data store and view the results from within Windows Explorer.
+Describes how to create an OpenSearch Description (.osdx) file to connect external data stores to the Windows Client via the [OpenSearch](https://github.com/dewitt/opensearch) protocol. Federated search enables users to search a remote data store and view the results from within Windows Explorer.
 
 This topic contains the following sections:
 
@@ -36,7 +36,7 @@ This topic contains the following sections:
 
 An OpenSearch Description (.osdx) file for Windows Federated Search must abide by the following rules:
 
--   Be a valid OpenSearch Description document, as defined by the [OpenSearch](http://www.opensearch.org/Home) 1.1 specification.
+-   Be a valid OpenSearch Description document, as defined by the [OpenSearch](https://github.com/dewitt/opensearch) 1.1 specification.
 -   Provide a URL template with either an RSS or an Atom format type.
 -   Use the .osdx file name extension, or be associated with the .osdx file name extension when downloading from the web. For example, a server is not required to use .osdx. A server can return the file with any file name extension, such as .xml for example, and treated as if it were an .osdx file if it uses the correct MIME Type for OpenSearch Description documents (.osdx files).
 -   Provide a **ShortName** element value (recommended).
@@ -172,7 +172,7 @@ An item index identifies the first result item in a page of results. If you want
 
 
 
-The [OpenSearch](http://www.opensearch.org/Home) provider then replaces the token in the URL with a starting index value. The first request starts with the first item, as illustrated in the following example:
+The [OpenSearch](https://github.com/dewitt/opensearch) provider then replaces the token in the URL with a starting index value. The first request starts with the first item, as illustrated in the following example:
 
 
 ```
@@ -226,7 +226,7 @@ You may want to configure your web service to permit a request to specify the si
 
 
 
-The [OpenSearch](http://www.opensearch.org/Home) provider can then set the desired page size, in number of results per page, as shown in the following example:
+The [OpenSearch](https://github.com/dewitt/opensearch) provider can then set the desired page size, in number of results per page, as shown in the following example:
 
 
 ```
@@ -243,7 +243,7 @@ The OpenSearch provider determines the page size based on the number of results 
 
 In addition to the standard elements, federated search supports the following extended elements: **MaximumResultCount** and **ResultsProcessing**.
 
-Because these extended child elements are not supported in the [OpenSearch](http://www.opensearch.org/Home) v1.1 specification, they must be added by using the following namespace:
+Because these extended child elements are not supported in the [OpenSearch](https://github.com/dewitt/opensearch) v1.1 specification, they must be added by using the following namespace:
 
 
 ```
@@ -267,7 +267,7 @@ By default, search connectors are limited to 100 results per user query. This li
 
 
 
-The preceding example declares the namespace prefix `ms-ose` in the top-level **OpenSearchDescription** element, and then uses it as a prefix in the element name. This declaration is required because the **MaximumResultCount** is not supported in the [OpenSearch](http://www.opensearch.org/Home) v1.1 specification.
+The preceding example declares the namespace prefix `ms-ose` in the top-level **OpenSearchDescription** element, and then uses it as a prefix in the element name. This declaration is required because the **MaximumResultCount** is not supported in the [OpenSearch](https://github.com/dewitt/opensearch) v1.1 specification.
 
 ### Property Mapping
 

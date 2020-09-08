@@ -18,9 +18,9 @@ EAP is crucial for protecting the security of wireless (802.1X) LANs, wired LANs
 
 The following components support the EAP protocol.
 
--   Microsoft Remote Access Clients and Servers for both dial-up and VPN (PPTP and L2TP/IPSec) implement EAP as an extension to PPP. For more information, see [RFC 3748](Http://go.microsoft.com/fwlink/p/?linkid=84063).
+-   Microsoft Remote Access Clients and Servers for both dial-up and VPN (PPTP and L2TP/IPSec) implement EAP as an extension to PPP. For more information, see [RFC 3748](Https//go.microsoft.com/fwlink/p/?linkid=84063).
 -   Microsoft IEEE 802.1X compatible wireless and wired LAN clients implement EAP as defined in the IEEE 802.1X draft standard.
--   Microsoft RADIUS server, called Internet Authentication Service (IAS) implement EAP as defined in [RFC 2865](Http://go.microsoft.com/fwlink/p/?linkid=84055).
+-   Microsoft RADIUS server, called Internet Authentication Service (IAS) implement EAP as defined in [RFC 2865](Https//go.microsoft.com/fwlink/p/?linkid=84055).
 
 All of the above components support this extensible architecture through the Microsoft Windows Software Development Kit (SDK), making it possible to integrate third-party authentication modules. This extensible mechanism can be used to support token cards, Kerberos, Public Key, and S/Key authentication protocols.
 
@@ -30,7 +30,7 @@ In addition to EAP, the wireless (802.1X) implementation and RADIUS server also 
 
 PEAP provides several key services to other EAP authentication protocols, as follows.
 
--   PEAP encrypts EAP packets of other EAP authentication protocols using Transport Layer Security (TLS), a Secure Socket Layer (SSL) based technology. For more information, see [RFC 2716](Http://go.microsoft.com/fwlink/p/?linkid=84050).
+-   PEAP encrypts EAP packets of other EAP authentication protocols using Transport Layer Security (TLS), a Secure Socket Layer (SSL) based technology. For more information, see [RFC 2716](Https//go.microsoft.com/fwlink/p/?linkid=84050).
 -   PEAP authenticates the server-side using a Server Certificate, with RADIUS server.
 -   PEAP offers fast re-authentication capability that supports efficient roaming between wireless devices.
 -   PEAP manages the fragmentation and re-assembly of EAP packets.

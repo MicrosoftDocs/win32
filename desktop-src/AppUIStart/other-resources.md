@@ -118,7 +118,7 @@ Communications of the ACM (January 1991): 72-86
 
 <dl> <dt>
 
-<span id="ACM_Special_Interest_Group_on_Computer-Human_Interaction__SIGCHI_"></span><span id="acm_special_interest_group_on_computer-human_interaction__sigchi_"></span><span id="ACM_SPECIAL_INTEREST_GROUP_ON_COMPUTER-HUMAN_INTERACTION__SIGCHI_"></span>[ACM Special Interest Group on Computer-Human Interaction (SIGCHI)](http://www.sigchi.org/)
+<span id="ACM_Special_Interest_Group_on_Computer-Human_Interaction__SIGCHI_"></span><span id="acm_special_interest_group_on_computer-human_interaction__sigchi_"></span><span id="ACM_SPECIAL_INTEREST_GROUP_ON_COMPUTER-HUMAN_INTERACTION__SIGCHI_"></span>[ACM Special Interest Group on Computer-Human Interaction (SIGCHI)](https://sigchi.org/)
 </dt> <dd>
 
 The largest organization of UI practitioners.
@@ -143,7 +143,7 @@ The UPA supports people who research, design, and evaluate the user experience o
 
 <dl> <dt>
 
-<span id="useit.com__Jakob_Nielsen_s_Website"></span><span id="useit.com__jakob_nielsen_s_website"></span><span id="USEIT.COM__JAKOB_NIELSEN_S_WEBSITE"></span>[useit.com: Jakob Nielsen's Website](http://www.useit.com/)
+<span id="useit.com__Jakob_Nielsen_s_Website"></span><span id="useit.com__jakob_nielsen_s_website"></span><span id="USEIT.COM__JAKOB_NIELSEN_S_WEBSITE"></span>[useit.com: Jakob Nielsen's Website](https://www.nngroup.com/articles/)
 </dt> <dd>
 
 Jakob's column on Web usability.

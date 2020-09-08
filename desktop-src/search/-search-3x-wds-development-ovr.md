@@ -80,7 +80,7 @@ Another option is using the search-ms:// and search:// protocols, which execute 
 
 ### Querying Remote Data Stores (Federated Search)
 
-In Windows 7 and later, federated search offers a new search provider that queries remote data stores through web servers, through the [OpenSearch](http://www.opensearch.org/Home) protocol, and enumerates the results as RSS or Atom XML feeds. Search Connectors are namespace junctions that simulate folder behavior by using a search provider. For more information about search federation to remote data stores in Windows 7, see [Federated Search in Windows](-search-federated-search-overview.md).
+In Windows 7 and later, federated search offers a new search provider that queries remote data stores through web servers, through the [OpenSearch](https://github.com/dewitt/opensearch) protocol, and enumerates the results as RSS or Atom XML feeds. Search Connectors are namespace junctions that simulate folder behavior by using a search provider. For more information about search federation to remote data stores in Windows 7, see [Federated Search in Windows](-search-federated-search-overview.md).
 
 ### Indexing Files and Items
 
