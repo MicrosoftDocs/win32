@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Virtual machine generation identifier
 
-Windows 8 and Windows Server 2012 introduce the ability for software that is running on a virtual machine to detect that a time shift event may have occurred. Time shift events can occur as a result of an application of a virtual machine snapshot or the restoration of a virtual machine backup. For more information about this functionality, see the [Virtual Machine Generation ID white paper](Https//download.microsoft.com/download/3/1/C/31CFC307-98CA-4CA5-914C-D9772691E214/VirtualMachineGenerationID.docx).
+Windows 8 and Windows Server 2012 introduce the ability for software that is running on a virtual machine to detect that a time shift event may have occurred. Time shift events can occur as a result of an application of a virtual machine snapshot or the restoration of a virtual machine backup. For more information about this functionality, see the [Virtual Machine Generation ID white paper](https://download.microsoft.com/download/3/1/C/31CFC307-98CA-4CA5-914C-D9772691E214/VirtualMachineGenerationID.docx).
 
 ## Prerequisites
 
