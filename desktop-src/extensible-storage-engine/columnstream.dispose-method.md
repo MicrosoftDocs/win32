@@ -33,13 +33,13 @@ Include inherited members
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.dispose?redirectedfrom=MSDN#System_IO_Stream_Dispose">Dispose()</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
+<td><a href="/dotnet/api/system.io.stream.dispose#System_IO_Stream_Dispose">Dispose()</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.io.stream">Stream</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.io.stream.dispose?redirectedfrom=MSDN#System_IO_Stream_Dispose_System_Boolean_">Dispose(Boolean)</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN">Stream</a>.)</td>
+<td><a href="/dotnet/api/system.io.stream.dispose#System_IO_Stream_Dispose_System_Boolean_">Dispose(Boolean)</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.io.stream">Stream</a>.)</td>
 </tr>
 </tbody>
 </table>
@@ -56,4 +56,3 @@ Top
 [ColumnStream members](dn334190\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

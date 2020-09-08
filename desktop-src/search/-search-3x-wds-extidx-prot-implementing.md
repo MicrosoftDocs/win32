@@ -23,7 +23,7 @@ This topic is organized as follows:
 
 When users need to search legacy databases, email stores or other data structures that are not supported by Windows Search, you should first determine whether a protocol handler already exists for that data store, perhaps for use with another application such as SharePoint Server. If so, you can install that protocol handler on the system. Windows Search protocol handlers use design specifications similar to SharePoint Server, and they can often be used interchangeably.
 
-For more information about Search Server 2008 deployment with Office SharePoint Server 2007, see [Federated Search \[Search Server 2008\]](https://msdn.microsoft.com/library/bb931109.aspx).
+For more information about Search Server 2008 deployment with Office SharePoint Server 2007, see [Federated Search \[Search Server 2008\]](/previous-versions/office/bb931109(v=office.14)).
 
 ### Shell Data Stores
 

@@ -67,29 +67,29 @@ The following functions are obsolete.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassinfoa"><strong>GetClassInfo</strong></a></td>
+<td><a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoa"><strong>GetClassInfo</strong></a></td>
 <td>Retrieves information about a window class. <br/>
 <blockquote>
 [!Note]<br />
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassinfoa"><strong>GetClassInfo</strong></a> function has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassinfoexa"><strong>GetClassInfoEx</strong></a> function. You can still use <strong>GetClassInfo</strong>, however, if you do not need information about the class small icon.
+The <a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoa"><strong>GetClassInfo</strong></a> function has been superseded by the <a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoexa"><strong>GetClassInfoEx</strong></a> function. You can still use <strong>GetClassInfo</strong>, however, if you do not need information about the class small icon.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassword"><strong>GetClassWord</strong></a></td>
+<td><a href="/windows/desktop/api/winuser/nf-winuser-getclassword"><strong>GetClassWord</strong></a></td>
 <td>Retrieves the 16-bit (<strong>WORD</strong>) value at the specified offset into the extra class memory for the window class to which the specified window belongs.
 <blockquote>
 [!Note]<br />
-This function is deprecated for any use other than <em>nIndex</em> set to GCW_ATOM. The function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclasslonga"><strong>GetClassLong</strong></a> function.
+This function is deprecated for any use other than <em>nIndex</em> set to GCW_ATOM. The function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="/windows/desktop/api/winuser/nf-winuser-getclasslonga"><strong>GetClassLong</strong></a> function.
 </blockquote>
 <br/> <br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclasslonga"><strong>SetClassLong</strong></a></td>
-<td>Replaces the specified 32-bit (<strong>long</strong>) value at the specified offset into the extra class memory or the <a href="https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-wndclassexa"><strong>WNDCLASSEX</strong></a> structure for the class to which the specified window belongs.
+<td><a href="/windows/desktop/api/winuser/nf-winuser-setclasslonga"><strong>SetClassLong</strong></a></td>
+<td>Replaces the specified 32-bit (<strong>long</strong>) value at the specified offset into the extra class memory or the <a href="/windows/win32/api/winuser/ns-winuser-wndclassexa"><strong>WNDCLASSEX</strong></a> structure for the class to which the specified window belongs.
 <blockquote>
 [!Note]<br />
-This function has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclasslongptra"><strong>SetClassLongPtr</strong></a> function. To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <strong>SetClassLongPtr</strong>.
+This function has been superseded by the <a href="/windows/desktop/api/winuser/nf-winuser-setclasslongptra"><strong>SetClassLongPtr</strong></a> function. To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <strong>SetClassLongPtr</strong>.
 </blockquote>
 <br/> <br/></td>
 </tr>

@@ -34,7 +34,7 @@ The **IPixelHistoryCallback** interface inherits from the [**IUnknown**](/window
 
 The **IPixelHistoryCallback** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/ipixelhistorycallback-resultcallback-dword-pixelhistoryoperation-arr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>A callback that notifies the host of pixel history request results.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixelhistorycallback-resultcallback-dword-pixelhistoryoperation-arr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>A callback that notifies the host of pixel history request results.</p></td></tr></tbody></table>
 
  
 

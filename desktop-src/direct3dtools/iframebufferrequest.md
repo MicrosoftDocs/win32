@@ -34,7 +34,7 @@ The **IFrameBufferRequest** interface inherits from the [**IUnknown**](/windows/
 
 The **IFrameBufferRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/iframebufferrequest-requestasync-dword-eventid-dword-iframebuffercallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Requests framebuffer output of the specified render target, event, and frame.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iframebufferrequest-requestasync-dword-eventid-dword-iframebuffercallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Requests framebuffer output of the specified render target, event, and frame.</p></td></tr></tbody></table>
 
  
 

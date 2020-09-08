@@ -40,10 +40,10 @@ The DirectShow EVR filter is documented in the Media Foundation SDK documentatio
 </ul>
 Media Foundation interfaces:<br/>
 <ul>
-<li><a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-ievrfilterconfig"><strong>IEVRFilterConfig</strong></a></li>
-<li><a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfgetservice"><strong>IMFGetService</strong></a></li>
-<li><a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideopositionmapper"><strong>IMFVideoPositionMapper</strong></a></li>
-<li><a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideorenderer"><strong>IMFVideoRenderer</strong></a></li>
+<li><a href="/windows/desktop/api/evr/nn-evr-ievrfilterconfig"><strong>IEVRFilterConfig</strong></a></li>
+<li><a href="/windows/desktop/api/mfidl/nn-mfidl-imfgetservice"><strong>IMFGetService</strong></a></li>
+<li><a href="/windows/desktop/api/evr/nn-evr-imfvideopositionmapper"><strong>IMFVideoPositionMapper</strong></a></li>
+<li><a href="/windows/desktop/api/evr/nn-evr-imfvideorenderer"><strong>IMFVideoRenderer</strong></a></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -60,9 +60,9 @@ Media Foundation interfaces:<br/>
 </ul>
 Media Foundation interfaces:<br/>
 <ul>
-<li><a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideomemoryconfiguration"><strong>IDirectXVideoMemoryConfiguration</strong></a></li>
-<li><a href="https://docs.microsoft.com/windows/desktop/api/evr9/nn-evr9-ievrvideostreamcontrol"><strong>IEVRVideoStreamControl</strong></a></li>
-<li><a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfgetservice"><strong>IMFGetService</strong></a></li>
+<li><a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideomemoryconfiguration"><strong>IDirectXVideoMemoryConfiguration</strong></a></li>
+<li><a href="/windows/desktop/api/evr9/nn-evr9-ievrvideostreamcontrol"><strong>IEVRVideoStreamControl</strong></a></li>
+<li><a href="/windows/desktop/api/mfidl/nn-mfidl-imfgetservice"><strong>IMFGetService</strong></a></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -141,6 +141,4 @@ The EVR forwards seek commands upstream through pin 0. The substream pins do not
 
 [DirectShow Filters](directshow-filters.md)
 </dt> </dl>
-
- 
 

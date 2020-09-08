@@ -789,19 +789,19 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-callbackmayrunlong"><strong>CallbackMayRunLong</strong></a></td>
+<td><a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-callbackmayrunlong"><strong>CallbackMayRunLong</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-callnamedpipea"><strong>CallNamedPipeA</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-callnamedpipea"><strong>CallNamedPipeA</strong></a></td>
 <td>Introduced into api-ms-win-core-namedpipe-ansi-l1-1-1.dll in 10.0.10586. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-callnamedpipea"><strong>CallNamedPipeW</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-callnamedpipea"><strong>CallNamedPipeW</strong></a></td>
 <td>Introduced into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.10586. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-callntpowerinformation"><strong>CallNtPowerInformation</strong></a></td>
+<td><a href="/windows/desktop/api/powerbase/nf-powerbase-callntpowerinformation"><strong>CallNtPowerInformation</strong></a></td>
 <td>Introduced into api-ms-win-power-base-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -809,79 +809,79 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. Removed in 10.0.10586.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio"><strong>CancelIo</strong></a></td>
+<td><a href="/windows/desktop/FileIO/cancelio"><strong>CancelIo</strong></a></td>
 <td>Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelioex-func"><strong>CancelIoEx</strong></a></td>
+<td><a href="/windows/desktop/FileIO/cancelioex-func"><strong>CancelIoEx</strong></a></td>
 <td>Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-cancelipchangenotify"><strong>CancelIPChangeNotify</strong></a></td>
+<td><a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-cancelipchangenotify"><strong>CancelIPChangeNotify</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-cancelmibchangenotify2"><strong>CancelMibChangeNotify2</strong></a></td>
+<td><a href="/windows/desktop/api/netioapi/nf-netioapi-cancelmibchangenotify2"><strong>CancelMibChangeNotify2</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelsynchronousio-func"><strong>CancelSynchronousIo</strong></a></td>
+<td><a href="/windows/desktop/FileIO/cancelsynchronousio-func"><strong>CancelSynchronousIo</strong></a></td>
 <td>Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-cancelthreadpoolio"><strong>CancelThreadpoolIo</strong></a></td>
+<td><a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-cancelthreadpoolio"><strong>CancelThreadpoolIo</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-cancelwaitabletimer"><strong>CancelWaitableTimer</strong></a></td>
+<td><a href="/windows/desktop/api/synchapi/nf-synchapi-cancelwaitabletimer"><strong>CancelWaitableTimer</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/windowsceip/nf-windowsceip-ceipisoptedin"><strong>CeipIsOptedIn</strong></a></td>
+<td><a href="/windows/desktop/api/windowsceip/nf-windowsceip-ceipisoptedin"><strong>CeipIsOptedIn</strong></a></td>
 <td>Introduced into api-ms-win-core-windowsceip-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddcertificatecontexttostore"><strong>CertAddCertificateContextToStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddcertificatecontexttostore"><strong>CertAddCertificateContextToStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddcertificatelinktostore"><strong>CertAddCertificateLinkToStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddcertificatelinktostore"><strong>CertAddCertificateLinkToStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddcrlcontexttostore"><strong>CertAddCRLContextToStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddcrlcontexttostore"><strong>CertAddCRLContextToStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddcrllinktostore"><strong>CertAddCRLLinkToStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddcrllinktostore"><strong>CertAddCRLLinkToStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddctlcontexttostore"><strong>CertAddCTLContextToStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddctlcontexttostore"><strong>CertAddCTLContextToStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddctllinktostore"><strong>CertAddCTLLinkToStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddctllinktostore"><strong>CertAddCTLLinkToStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcertificatetostore"><strong>CertAddEncodedCertificateToStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcertificatetostore"><strong>CertAddEncodedCertificateToStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcertificatetosystemstorea"><strong>CertAddEncodedCertificateToSystemStoreA</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcertificatetosystemstorea"><strong>CertAddEncodedCertificateToSystemStoreA</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcertificatetosystemstorea"><strong>CertAddEncodedCertificateToSystemStoreW</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcertificatetosystemstorea"><strong>CertAddEncodedCertificateToSystemStoreW</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcrltostore"><strong>CertAddEncodedCRLToStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcrltostore"><strong>CertAddEncodedCRLToStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedctltostore"><strong>CertAddEncodedCTLToStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedctltostore"><strong>CertAddEncodedCTLToStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -889,19 +889,19 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddrefserverocspresponse"><strong>CertAddRefServerOcspResponse</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddrefserverocspresponse"><strong>CertAddRefServerOcspResponse</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddrefserverocspresponsecontext"><strong>CertAddRefServerOcspResponseContext</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddrefserverocspresponsecontext"><strong>CertAddRefServerOcspResponseContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddserializedelementtostore"><strong>CertAddSerializedElementToStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddserializedelementtostore"><strong>CertAddSerializedElementToStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddstoretocollection"><strong>CertAddStoreToCollection</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddstoretocollection"><strong>CertAddStoreToCollection</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -909,23 +909,23 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcloseserverocspresponse"><strong>CertCloseServerOcspResponse</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcloseserverocspresponse"><strong>CertCloseServerOcspResponse</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore"><strong>CertCloseStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore"><strong>CertCloseStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcomparecertificate"><strong>CertCompareCertificate</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcomparecertificate"><strong>CertCompareCertificate</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcomparecertificatename"><strong>CertCompareCertificateName</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcomparecertificatename"><strong>CertCompareCertificateName</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcompareintegerblob"><strong>CertCompareIntegerBlob</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcompareintegerblob"><strong>CertCompareIntegerBlob</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -933,235 +933,235 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore"><strong>CertControlStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore"><strong>CertControlStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatechainengine"><strong>CertCreateCertificateChainEngine</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatechainengine"><strong>CertCreateCertificateChainEngine</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext"><strong>CertCreateCertificateContext</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext"><strong>CertCreateCertificateContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecontext"><strong>CertCreateContext</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecontext"><strong>CertCreateContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecrlcontext"><strong>CertCreateCRLContext</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecrlcontext"><strong>CertCreateCRLContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatectlcontext"><strong>CertCreateCTLContext</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcreatectlcontext"><strong>CertCreateCTLContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatectlentryfromcertificatecontextproperties"><strong>CertCreateCTLEntryFromCertificateContextProperties</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcreatectlentryfromcertificatecontextproperties"><strong>CertCreateCTLEntryFromCertificateContextProperties</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreateselfsigncertificate"><strong>CertCreateSelfSignCertificate</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcreateselfsigncertificate"><strong>CertCreateSelfSignCertificate</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletecertificatefromstore"><strong>CertDeleteCertificateFromStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certdeletecertificatefromstore"><strong>CertDeleteCertificateFromStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletecrlfromstore"><strong>CertDeleteCRLFromStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certdeletecrlfromstore"><strong>CertDeleteCRLFromStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletectlfromstore"><strong>CertDeleteCTLFromStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certdeletectlfromstore"><strong>CertDeleteCTLFromStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatechain"><strong>CertDuplicateCertificateChain</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatechain"><strong>CertDuplicateCertificateChain</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext"><strong>CertDuplicateCertificateContext</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext"><strong>CertDuplicateCertificateContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecrlcontext"><strong>CertDuplicateCRLContext</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecrlcontext"><strong>CertDuplicateCRLContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatectlcontext"><strong>CertDuplicateCTLContext</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatectlcontext"><strong>CertDuplicateCTLContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatestore"><strong>CertDuplicateStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatestore"><strong>CertDuplicateStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumcertificatecontextproperties"><strong>CertEnumCertificateContextProperties</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumcertificatecontextproperties"><strong>CertEnumCertificateContextProperties</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumcertificatesinstore"><strong>CertEnumCertificatesInStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumcertificatesinstore"><strong>CertEnumCertificatesInStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumcrlcontextproperties"><strong>CertEnumCRLContextProperties</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumcrlcontextproperties"><strong>CertEnumCRLContextProperties</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumcrlsinstore"><strong>CertEnumCRLsInStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumcrlsinstore"><strong>CertEnumCRLsInStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumctlcontextproperties"><strong>CertEnumCTLContextProperties</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumctlcontextproperties"><strong>CertEnumCTLContextProperties</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumctlsinstore"><strong>CertEnumCTLsInStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumctlsinstore"><strong>CertEnumCTLsInStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumphysicalstore"><strong>CertEnumPhysicalStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumphysicalstore"><strong>CertEnumPhysicalStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumsubjectinsortedctl"><strong>CertEnumSubjectInSortedCTL</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumsubjectinsortedctl"><strong>CertEnumSubjectInSortedCTL</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstore"><strong>CertEnumSystemStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstore"><strong>CertEnumSystemStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstorelocation"><strong>CertEnumSystemStoreLocation</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstorelocation"><strong>CertEnumSystemStoreLocation</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindattribute"><strong>CertFindAttribute</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindattribute"><strong>CertFindAttribute</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateincrl"><strong>CertFindCertificateInCRL</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateincrl"><strong>CertFindCertificateInCRL</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateinstore"><strong>CertFindCertificateInStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateinstore"><strong>CertFindCertificateInStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindchaininstore"><strong>CertFindChainInStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindchaininstore"><strong>CertFindChainInStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindcrlinstore"><strong>CertFindCRLInStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindcrlinstore"><strong>CertFindCRLInStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindctlinstore"><strong>CertFindCTLInStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindctlinstore"><strong>CertFindCTLInStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindextension"><strong>CertFindExtension</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindextension"><strong>CertFindExtension</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindrdnattr"><strong>CertFindRDNAttr</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindrdnattr"><strong>CertFindRDNAttr</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinctl"><strong>CertFindSubjectInCTL</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinctl"><strong>CertFindSubjectInCTL</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinsortedctl"><strong>CertFindSubjectInSortedCTL</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinsortedctl"><strong>CertFindSubjectInSortedCTL</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechain"><strong>CertFreeCertificateChain</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechain"><strong>CertFreeCertificateChain</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechainengine"><strong>CertFreeCertificateChainEngine</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechainengine"><strong>CertFreeCertificateChainEngine</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechainlist"><strong>CertFreeCertificateChainList</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechainlist"><strong>CertFreeCertificateChainList</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext"><strong>CertFreeCertificateContext</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext"><strong>CertFreeCertificateContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext"><strong>CertFreeCRLContext</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext"><strong>CertFreeCRLContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext"><strong>CertFreeCTLContext</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext"><strong>CertFreeCTLContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreeserverocspresponsecontext"><strong>CertFreeServerOcspResponseContext</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreeserverocspresponsecontext"><strong>CertFreeServerOcspResponseContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain"><strong>CertGetCertificateChain</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain"><strong>CertGetCertificateChain</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatecontextproperty"><strong>CertGetCertificateContextProperty</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatecontextproperty"><strong>CertGetCertificateContextProperty</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcrlcontextproperty"><strong>CertGetCRLContextProperty</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcrlcontextproperty"><strong>CertGetCRLContextProperty</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcrlfromstore"><strong>CertGetCRLFromStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcrlfromstore"><strong>CertGetCRLFromStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetctlcontextproperty"><strong>CertGetCTLContextProperty</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetctlcontextproperty"><strong>CertGetCTLContextProperty</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetenhancedkeyusage"><strong>CertGetEnhancedKeyUsage</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetenhancedkeyusage"><strong>CertGetEnhancedKeyUsage</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetintendedkeyusage"><strong>CertGetIntendedKeyUsage</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetintendedkeyusage"><strong>CertGetIntendedKeyUsage</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetissuercertificatefromstore"><strong>CertGetIssuerCertificateFromStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetissuercertificatefromstore"><strong>CertGetIssuerCertificateFromStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetnamestringa"><strong>CertGetNameStringA</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetnamestringa"><strong>CertGetNameStringA</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetnamestringa"><strong>CertGetNameStringW</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetnamestringa"><strong>CertGetNameStringW</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetpublickeylength"><strong>CertGetPublicKeyLength</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetpublickeylength"><strong>CertGetPublicKeyLength</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetserverocspresponsecontext"><strong>CertGetServerOcspResponseContext</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetserverocspresponsecontext"><strong>CertGetServerOcspResponseContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetstoreproperty"><strong>CertGetStoreProperty</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetstoreproperty"><strong>CertGetStoreProperty</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetsubjectcertificatefromstore"><strong>CertGetSubjectCertificateFromStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetsubjectcertificatefromstore"><strong>CertGetSubjectCertificateFromStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetvalidusages"><strong>CertGetValidUsages</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetvalidusages"><strong>CertGetValidUsages</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -1169,11 +1169,11 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certisstronghashtosign"><strong>CertIsStrongHashToSign</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certisstronghashtosign"><strong>CertIsStrongHashToSign</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certisvalidcrlforcertificate"><strong>CertIsValidCRLForCertificate</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certisvalidcrlforcertificate"><strong>CertIsValidCRLForCertificate</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -1181,11 +1181,11 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra"><strong>CertNameToStrA</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra"><strong>CertNameToStrA</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra"><strong>CertNameToStrW</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra"><strong>CertNameToStrW</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -1193,35 +1193,35 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenserverocspresponse"><strong>CertOpenServerOcspResponse</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenserverocspresponse"><strong>CertOpenServerOcspResponse</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore"><strong>CertOpenStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore"><strong>CertOpenStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopensystemstorea"><strong>CertOpenSystemStoreA</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopensystemstorea"><strong>CertOpenSystemStoreA</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopensystemstorea"><strong>CertOpenSystemStoreW</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopensystemstorea"><strong>CertOpenSystemStoreW</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certrdnvaluetostra"><strong>CertRDNValueToStrA</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certrdnvaluetostra"><strong>CertRDNValueToStrA</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certrdnvaluetostra"><strong>CertRDNValueToStrW</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certrdnvaluetostra"><strong>CertRDNValueToStrW</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certregisterphysicalstore"><strong>CertRegisterPhysicalStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certregisterphysicalstore"><strong>CertRegisterPhysicalStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certregistersystemstore"><strong>CertRegisterSystemStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certregistersystemstore"><strong>CertRegisterSystemStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -1229,51 +1229,51 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certremovestorefromcollection"><strong>CertRemoveStoreFromCollection</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certremovestorefromcollection"><strong>CertRemoveStoreFromCollection</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certresynccertificatechainengine"><strong>CertResyncCertificateChainEngine</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certresynccertificatechainengine"><strong>CertResyncCertificateChainEngine</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certretrievelogoorbiometricinfo"><strong>CertRetrieveLogoOrBiometricInfo</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certretrievelogoorbiometricinfo"><strong>CertRetrieveLogoOrBiometricInfo</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsavestore"><strong>CertSaveStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsavestore"><strong>CertSaveStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certselectcertificatechains"><strong>CertSelectCertificateChains</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certselectcertificatechains"><strong>CertSelectCertificateChains</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certserializecertificatestoreelement"><strong>CertSerializeCertificateStoreElement</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certserializecertificatestoreelement"><strong>CertSerializeCertificateStoreElement</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certserializecrlstoreelement"><strong>CertSerializeCRLStoreElement</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certserializecrlstoreelement"><strong>CertSerializeCRLStoreElement</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certserializectlstoreelement"><strong>CertSerializeCTLStoreElement</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certserializectlstoreelement"><strong>CertSerializeCTLStoreElement</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextpropertiesfromctlentry"><strong>CertSetCertificateContextPropertiesFromCTLEntry</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextpropertiesfromctlentry"><strong>CertSetCertificateContextPropertiesFromCTLEntry</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty"><strong>CertSetCertificateContextProperty</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty"><strong>CertSetCertificateContextProperty</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcrlcontextproperty"><strong>CertSetCRLContextProperty</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsetcrlcontextproperty"><strong>CertSetCRLContextProperty</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetctlcontextproperty"><strong>CertSetCTLContextProperty</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsetctlcontextproperty"><strong>CertSetCTLContextProperty</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -1281,51 +1281,51 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetstoreproperty"><strong>CertSetStoreProperty</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsetstoreproperty"><strong>CertSetStoreProperty</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certstrtonamea"><strong>CertStrToNameA</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certstrtonamea"><strong>CertStrToNameA</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certstrtonamea"><strong>CertStrToNameW</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certstrtonamea"><strong>CertStrToNameW</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certunregisterphysicalstore"><strong>CertUnregisterPhysicalStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certunregisterphysicalstore"><strong>CertUnregisterPhysicalStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certunregistersystemstore"><strong>CertUnregisterSystemStore</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certunregistersystemstore"><strong>CertUnregisterSystemStore</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy"><strong>CertVerifyCertificateChainPolicy</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy"><strong>CertVerifyCertificateChainPolicy</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycrlrevocation"><strong>CertVerifyCRLRevocation</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifycrlrevocation"><strong>CertVerifyCRLRevocation</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycrltimevalidity"><strong>CertVerifyCRLTimeValidity</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifycrltimevalidity"><strong>CertVerifyCRLTimeValidity</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifyctlusage"><strong>CertVerifyCTLUsage</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifyctlusage"><strong>CertVerifyCTLUsage</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifyrevocation"><strong>CertVerifyRevocation</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifyrevocation"><strong>CertVerifyRevocation</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifysubjectcertificatecontext"><strong>CertVerifySubjectCertificateContext</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifysubjectcertificatecontext"><strong>CertVerifySubjectCertificateContext</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifytimevalidity"><strong>CertVerifyTimeValidity</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifytimevalidity"><strong>CertVerifyTimeValidity</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -1333,91 +1333,91 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-changeaccountpassworda"><strong>ChangeAccountPasswordA</strong></a></td>
+<td><a href="/windows/desktop/api/sspi/nf-sspi-changeaccountpassworda"><strong>ChangeAccountPasswordA</strong></a></td>
 <td>Introduced into sspicli.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-changeaccountpassworda"><strong>ChangeAccountPasswordW</strong></a></td>
+<td><a href="/windows/desktop/api/sspi/nf-sspi-changeaccountpassworda"><strong>ChangeAccountPasswordW</strong></a></td>
 <td>Introduced into sspicli.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/previous-versions//ms533235(v=vs.85)"><strong>ChangeDisplaySettingsExW</strong></a></td>
+<td><a href="/previous-versions//ms533235(v=vs.85)"><strong>ChangeDisplaySettingsExW</strong></a></td>
 <td>Introduced into api-ms-win-ntuser-sysparams-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a"><strong>ChangeServiceConfig2A</strong></a></td>
+<td><a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a"><strong>ChangeServiceConfig2A</strong></a></td>
 <td>Introduced into api-ms-win-service-winsvc-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-service-winsvc-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a"><strong>ChangeServiceConfig2W</strong></a></td>
+<td><a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a"><strong>ChangeServiceConfig2W</strong></a></td>
 <td>Introduced into api-ms-win-service-management-l2-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga"><strong>ChangeServiceConfigA</strong></a></td>
+<td><a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga"><strong>ChangeServiceConfigA</strong></a></td>
 <td>Introduced into api-ms-win-service-winsvc-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-service-winsvc-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga"><strong>ChangeServiceConfigW</strong></a></td>
+<td><a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga"><strong>ChangeServiceConfigW</strong></a></td>
 <td>Introduced into api-ms-win-service-management-l2-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-changetimerqueuetimer"><strong>ChangeTimerQueueTimer</strong></a></td>
+<td><a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-changetimerqueuetimer"><strong>ChangeTimerQueueTimer</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-legacy-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charlowera"><strong>CharLowerA</strong></a></td>
+<td><a href="/windows/desktop/api/winuser/nf-winuser-charlowera"><strong>CharLowerA</strong></a></td>
 <td>Introduced into api-ms-win-core-stringansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/menurc/f"><strong>CharLowerBuffA</strong></a></td>
+<td><a href="/windows/desktop/menurc/f"><strong>CharLowerBuffA</strong></a></td>
 <td>Introduced into api-ms-win-core-stringansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/menurc/f"><strong>CharLowerBuffW</strong></a></td>
+<td><a href="/windows/desktop/menurc/f"><strong>CharLowerBuffW</strong></a></td>
 <td>Introduced into api-ms-win-core-string-l2-1-0.dll in 10.0.10240. Moved into api-ms-win-core-string-l2-1-1.dll in 10.0.10586. Moved into api-ms-win-core-string-l2-1-0.dll in 10.0.14393.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charlowera"><strong>CharLowerW</strong></a></td>
+<td><a href="/windows/desktop/api/winuser/nf-winuser-charlowera"><strong>CharLowerW</strong></a></td>
 <td>Introduced into api-ms-win-core-string-l2-1-0.dll in 10.0.10240. Moved into api-ms-win-core-string-l2-1-1.dll in 10.0.10586. Moved into api-ms-win-core-string-l2-1-0.dll in 10.0.14393.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charnexta"><strong>CharNextA</strong></a></td>
+<td><a href="/windows/desktop/api/winuser/nf-winuser-charnexta"><strong>CharNextA</strong></a></td>
 <td>Introduced into api-ms-win-core-stringansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charnextexa"><strong>CharNextExA</strong></a></td>
+<td><a href="/windows/desktop/api/winuser/nf-winuser-charnextexa"><strong>CharNextExA</strong></a></td>
 <td>Introduced into api-ms-win-core-stringansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charnexta"><strong>CharNextW</strong></a></td>
+<td><a href="/windows/desktop/api/winuser/nf-winuser-charnexta"><strong>CharNextW</strong></a></td>
 <td>Introduced into api-ms-win-core-string-l2-1-0.dll in 10.0.10240. Moved into api-ms-win-core-string-l2-1-1.dll in 10.0.10586. Moved into api-ms-win-core-string-l2-1-0.dll in 10.0.14393.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/menurc/v"><strong>CharPrevA</strong></a></td>
+<td><a href="/windows/desktop/menurc/v"><strong>CharPrevA</strong></a></td>
 <td>Introduced into api-ms-win-core-stringansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charprevexa"><strong>CharPrevExA</strong></a></td>
+<td><a href="/windows/desktop/api/winuser/nf-winuser-charprevexa"><strong>CharPrevExA</strong></a></td>
 <td>Introduced into api-ms-win-core-stringansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/menurc/v"><strong>CharPrevW</strong></a></td>
+<td><a href="/windows/desktop/menurc/v"><strong>CharPrevW</strong></a></td>
 <td>Introduced into api-ms-win-core-string-l2-1-0.dll in 10.0.10240. Moved into api-ms-win-core-string-l2-1-1.dll in 10.0.10586. Moved into api-ms-win-core-string-l2-1-0.dll in 10.0.14393.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charuppera"><strong>CharUpperA</strong></a></td>
+<td><a href="/windows/desktop/api/winuser/nf-winuser-charuppera"><strong>CharUpperA</strong></a></td>
 <td>Introduced into api-ms-win-core-stringansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charupperbuffa"><strong>CharUpperBuffA</strong></a></td>
+<td><a href="/windows/desktop/api/winuser/nf-winuser-charupperbuffa"><strong>CharUpperBuffA</strong></a></td>
 <td>Introduced into api-ms-win-core-stringansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charupperbuffa"><strong>CharUpperBuffW</strong></a></td>
+<td><a href="/windows/desktop/api/winuser/nf-winuser-charupperbuffa"><strong>CharUpperBuffW</strong></a></td>
 <td>Introduced into api-ms-win-core-string-l2-1-0.dll in 10.0.10240. Moved into api-ms-win-core-string-l2-1-1.dll in 10.0.10586. Moved into api-ms-win-core-string-l2-1-0.dll in 10.0.14393.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charuppera"><strong>CharUpperW</strong></a></td>
+<td><a href="/windows/desktop/api/winuser/nf-winuser-charuppera"><strong>CharUpperW</strong></a></td>
 <td>Introduced into api-ms-win-core-string-l2-1-0.dll in 10.0.10240. Moved into api-ms-win-core-string-l2-1-1.dll in 10.0.10586. Moved into api-ms-win-core-string-l2-1-0.dll in 10.0.14393.</td>
 </tr>
 <tr class="odd">
@@ -1425,7 +1425,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into userenv.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gamingtcui/nf-gamingtcui-checkgamingprivilegesilently"><strong>CheckGamingPrivilegeSilently</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/gamingtcui/nf-gamingtcui-checkgamingprivilegesilently"><strong>CheckGamingPrivilegeSilently</strong></a></td>
 <td>Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
@@ -1433,7 +1433,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gamingtcui/nf-gamingtcui-checkgamingprivilegewithui"><strong>CheckGamingPrivilegeWithUI</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/gamingtcui/nf-gamingtcui-checkgamingprivilegewithui"><strong>CheckGamingPrivilegeWithUI</strong></a></td>
 <td>Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
@@ -1441,19 +1441,19 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent"><strong>CheckRemoteDebuggerPresent</strong></a></td>
+<td><a href="/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent"><strong>CheckRemoteDebuggerPresent</strong></a></td>
 <td>Introduced into api-ms-win-core-debug-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-debug-l1-1-2.dll in 10.0.10586. Moved into api-ms-win-core-debug-l1-1-1.dll in 10.0.14393.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokencapability"><strong>CheckTokenCapability</strong></a></td>
+<td><a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokencapability"><strong>CheckTokenCapability</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokenmembership"><strong>CheckTokenMembership</strong></a></td>
+<td><a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokenmembership"><strong>CheckTokenMembership</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokenmembershipex"><strong>CheckTokenMembershipEx</strong></a></td>
+<td><a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokenmembershipex"><strong>CheckTokenMembershipEx</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -1465,11 +1465,11 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into wldap32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-cldap_open"><strong>cldap_openA</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-cldap_open"><strong>cldap_openA</strong></a></td>
 <td>Introduced into wldap32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-cldap_open"><strong>cldap_openW</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-cldap_open"><strong>cldap_openW</strong></a></td>
 <td>Introduced into wldap32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -1481,7 +1481,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-clearcustdata"><strong>ClearCustData</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-clearcustdata"><strong>ClearCustData</strong></a></td>
 <td>Introduced into oleaut32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -1489,11 +1489,11 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/compressapi/nf-compressapi-closecompressor"><strong>CloseCompressor</strong></a></td>
+<td><a href="/windows/desktop/api/compressapi/nf-compressapi-closecompressor"><strong>CloseCompressor</strong></a></td>
 <td>Introduced into cabinet.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/compressapi/nf-compressapi-closedecompressor"><strong>CloseDecompressor</strong></a></td>
+<td><a href="/windows/desktop/api/compressapi/nf-compressapi-closedecompressor"><strong>CloseDecompressor</strong></a></td>
 <td>Introduced into cabinet.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -1501,223 +1501,223 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle"><strong>CloseHandle</strong></a></td>
+<td><a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle"><strong>CloseHandle</strong></a></td>
 <td>Introduced into api-ms-win-core-handle-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-closepackageinfo"><strong>ClosePackageInfo</strong></a></td>
+<td><a href="/windows/desktop/api/appmodel/nf-appmodel-closepackageinfo"><strong>ClosePackageInfo</strong></a></td>
 <td>Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/namespaceapi/nf-namespaceapi-closeprivatenamespace"><strong>ClosePrivateNamespace</strong></a></td>
+<td><a href="/windows/desktop/api/namespaceapi/nf-namespaceapi-closeprivatenamespace"><strong>ClosePrivateNamespace</strong></a></td>
 <td>Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-closeservicehandle"><strong>CloseServiceHandle</strong></a></td>
+<td><a href="/windows/desktop/api/winsvc/nf-winsvc-closeservicehandle"><strong>CloseServiceHandle</strong></a></td>
 <td>Introduced into api-ms-win-service-management-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket"><strong>closesocket</strong></a></td>
+<td><a href="/windows/desktop/api/winsock/nf-winsock-closesocket"><strong>closesocket</strong></a></td>
 <td>Introduced into ws2_32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpool"><strong>CloseThreadpool</strong></a></td>
+<td><a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpool"><strong>CloseThreadpool</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolcleanupgroup"><strong>CloseThreadpoolCleanupGroup</strong></a></td>
+<td><a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolcleanupgroup"><strong>CloseThreadpoolCleanupGroup</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolcleanupgroupmembers"><strong>CloseThreadpoolCleanupGroupMembers</strong></a></td>
+<td><a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolcleanupgroupmembers"><strong>CloseThreadpoolCleanupGroupMembers</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolio"><strong>CloseThreadpoolIo</strong></a></td>
+<td><a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolio"><strong>CloseThreadpoolIo</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpooltimer"><strong>CloseThreadpoolTimer</strong></a></td>
+<td><a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpooltimer"><strong>CloseThreadpoolTimer</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwait"><strong>CloseThreadpoolWait</strong></a></td>
+<td><a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwait"><strong>CloseThreadpoolWait</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwork"><strong>CloseThreadpoolWork</strong></a></td>
+<td><a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwork"><strong>CloseThreadpoolWork</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/ETW/closetrace"><strong>CloseTrace</strong></a></td>
+<td><a href="/windows/desktop/ETW/closetrace"><strong>CloseTrace</strong></a></td>
 <td>Introduced into api-ms-win-eventing-consumer-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromprogid"><strong>CLSIDFromProgID</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromprogid"><strong>CLSIDFromProgID</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromstring"><strong>CLSIDFromString</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromstring"><strong>CLSIDFromString</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_delete_class_key"><strong>CM_Delete_Class_Key</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_delete_class_key"><strong>CM_Delete_Class_Key</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_keyw"><strong>CM_Delete_Device_Interface_KeyW</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_keyw"><strong>CM_Delete_Device_Interface_KeyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_delete_devnode_key"><strong>CM_Delete_DevNode_Key</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_delete_devnode_key"><strong>CM_Delete_DevNode_Key</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_disable_devnode"><strong>CM_Disable_DevNode</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_disable_devnode"><strong>CM_Disable_DevNode</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_enable_devnode"><strong>CM_Enable_DevNode</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_enable_devnode"><strong>CM_Enable_DevNode</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/previous-versions//aa363181(v=vs.85)"><strong>CM_Get_Child</strong></a></td>
+<td><a href="/previous-versions//aa363181(v=vs.85)"><strong>CM_Get_Child</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_class_property_keys"><strong>CM_Get_Class_Property_Keys</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_class_property_keys"><strong>CM_Get_Class_Property_Keys</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_class_propertyw"><strong>CM_Get_Class_PropertyW</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_class_propertyw"><strong>CM_Get_Class_PropertyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_class_registry_propertyw"><strong>CM_Get_Class_Registry_PropertyW</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_class_registry_propertyw"><strong>CM_Get_Class_Registry_PropertyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_depth"><strong>CM_Get_Depth</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_depth"><strong>CM_Get_Depth</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea"><strong>CM_Get_Device_ID_List_SizeW</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea"><strong>CM_Get_Device_ID_List_SizeW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_lista"><strong>CM_Get_Device_ID_ListW</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_lista"><strong>CM_Get_Device_ID_ListW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_size"><strong>CM_Get_Device_ID_Size</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_size"><strong>CM_Get_Device_ID_Size</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_idw"><strong>CM_Get_Device_IDW</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_idw"><strong>CM_Get_Device_IDW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/previous-versions//aa363184(v=vs.85)"><strong>CM_Get_Device_Interface_List_SizeW</strong></a></td>
+<td><a href="/previous-versions//aa363184(v=vs.85)"><strong>CM_Get_Device_Interface_List_SizeW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/previous-versions//aa363183(v=vs.85)"><strong>CM_Get_Device_Interface_ListW</strong></a></td>
+<td><a href="/previous-versions//aa363183(v=vs.85)"><strong>CM_Get_Device_Interface_ListW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_property_keysw"><strong>CM_Get_Device_Interface_Property_KeysW</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_property_keysw"><strong>CM_Get_Device_Interface_Property_KeysW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_propertyw"><strong>CM_Get_Device_Interface_PropertyW</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_propertyw"><strong>CM_Get_Device_Interface_PropertyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_devnode_property_keys"><strong>CM_Get_DevNode_Property_Keys</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_devnode_property_keys"><strong>CM_Get_DevNode_Property_Keys</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_devnode_propertyw"><strong>CM_Get_DevNode_PropertyW</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_devnode_propertyw"><strong>CM_Get_DevNode_PropertyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/previous-versions//aa363185(v=vs.85)"><strong>CM_Get_DevNode_Registry_PropertyW</strong></a></td>
+<td><a href="/previous-versions//aa363185(v=vs.85)"><strong>CM_Get_DevNode_Registry_PropertyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_devnode_status"><strong>CM_Get_DevNode_Status</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_devnode_status"><strong>CM_Get_DevNode_Status</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_parent"><strong>CM_Get_Parent</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_parent"><strong>CM_Get_Parent</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_sibling"><strong>CM_Get_Sibling</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_sibling"><strong>CM_Get_Sibling</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_locate_devnodea"><strong>CM_Locate_DevNodeW</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_locate_devnodea"><strong>CM_Locate_DevNodeW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_mapcrtowin32err"><strong>CM_MapCrToWin32Err</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_mapcrtowin32err"><strong>CM_MapCrToWin32Err</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_class_keyw"><strong>CM_Open_Class_KeyW</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_class_keyw"><strong>CM_Open_Class_KeyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_device_interface_keyw"><strong>CM_Open_Device_Interface_KeyW</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_device_interface_keyw"><strong>CM_Open_Device_Interface_KeyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_devnode_key"><strong>CM_Open_DevNode_Key</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_devnode_key"><strong>CM_Open_DevNode_Key</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_query_and_remove_subtreew"><strong>CM_Query_And_Remove_SubTreeW</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_query_and_remove_subtreew"><strong>CM_Query_And_Remove_SubTreeW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_register_notification"><strong>CM_Register_Notification</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_register_notification"><strong>CM_Register_Notification</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_set_class_propertyw"><strong>CM_Set_Class_PropertyW</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_set_class_propertyw"><strong>CM_Set_Class_PropertyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_set_class_registry_propertyw"><strong>CM_Set_Class_Registry_PropertyW</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_set_class_registry_propertyw"><strong>CM_Set_Class_Registry_PropertyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_set_device_interface_propertyw"><strong>CM_Set_Device_Interface_PropertyW</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_set_device_interface_propertyw"><strong>CM_Set_Device_Interface_PropertyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_set_devnode_propertyw"><strong>CM_Set_DevNode_PropertyW</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_set_devnode_propertyw"><strong>CM_Set_DevNode_PropertyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/previous-versions//aa363186(v=vs.85)"><strong>CM_Set_DevNode_Registry_PropertyW</strong></a></td>
+<td><a href="/previous-versions//aa363186(v=vs.85)"><strong>CM_Set_DevNode_Registry_PropertyW</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_setup_devnode"><strong>CM_Setup_DevNode</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_setup_devnode"><strong>CM_Setup_DevNode</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_uninstall_devnode"><strong>CM_Uninstall_DevNode</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_uninstall_devnode"><strong>CM_Uninstall_DevNode</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_unregister_notification"><strong>CM_Unregister_Notification</strong></a></td>
+<td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_unregister_notification"><strong>CM_Unregister_Notification</strong></a></td>
 <td>Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-devices-config-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coaddrefserverprocess"><strong>CoAddRefServerProcess</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coaddrefserverprocess"><strong>CoAddRefServerProcess</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
@@ -1725,176 +1725,176 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into dnsapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coallowunmarshalerclsid"><strong>CoAllowUnmarshalerCLSID</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coallowunmarshalerclsid"><strong>CoAllowUnmarshalerCLSID</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocancelcall"><strong>CoCancelCall</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocancelcall"><strong>CoCancelCall</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocopyproxy"><strong>CoCopyProxy</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocopyproxy"><strong>CoCopyProxy</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreatefreethreadedmarshaler"><strong>CoCreateFreeThreadedMarshaler</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreatefreethreadedmarshaler"><strong>CoCreateFreeThreadedMarshaler</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateguid"><strong>CoCreateGuid</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateguid"><strong>CoCreateGuid</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance"><strong>CoCreateInstance</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance"><strong>CoCreateInstance</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex"><strong>CoCreateInstanceEx</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex"><strong>CoCreateInstanceEx</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstancefromapp"><strong>CoCreateInstanceFromApp</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstancefromapp"><strong>CoCreateInstanceFromApp</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-codecodeproxy"><strong>CoDecodeProxy</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-codecodeproxy"><strong>CoDecodeProxy</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-codecrementmtausage"><strong>CoDecrementMTAUsage</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-codecrementmtausage"><strong>CoDecrementMTAUsage</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-codisablecallcancellation"><strong>CoDisableCallCancellation</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-codisablecallcancellation"><strong>CoDisableCallCancellation</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-
 
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectcontext"><strong>CoDisconnectContext</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectcontext"><strong>CoDisconnectContext</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectobject"><strong>CoDisconnectObject</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectobject"><strong>CoDisconnectObject</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coenablecallcancellation"><strong>CoEnableCallCancellation</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coenablecallcancellation"><strong>CoEnableCallCancellation</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cofreeunusedlibraries"><strong>CoFreeUnusedLibraries</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cofreeunusedlibraries"><strong>CoFreeUnusedLibraries</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cofreeunusedlibrariesex"><strong>CoFreeUnusedLibrariesEx</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cofreeunusedlibrariesex"><strong>CoFreeUnusedLibrariesEx</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetapartmenttype"><strong>CoGetApartmentType</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetapartmenttype"><strong>CoGetApartmentType</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext"><strong>CoGetCallContext</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext"><strong>CoGetCallContext</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallertid"><strong>CoGetCallerTID</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallertid"><strong>CoGetCallerTID</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcancelobject"><strong>CoGetCancelObject</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcancelobject"><strong>CoGetCancelObject</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject"><strong>CoGetClassObject</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject"><strong>CoGetClassObject</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcontexttoken"><strong>CoGetContextToken</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcontexttoken"><strong>CoGetContextToken</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcurrentlogicalthreadid"><strong>CoGetCurrentLogicalThreadId</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcurrentlogicalthreadid"><strong>CoGetCurrentLogicalThreadId</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcurrentprocess"><strong>CoGetCurrentProcess</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcurrentprocess"><strong>CoGetCurrentProcess</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetdefaultcontext"><strong>CoGetDefaultContext</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetdefaultcontext"><strong>CoGetDefaultContext</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetinterfaceandreleasestream"><strong>CoGetInterfaceAndReleaseStream</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetinterfaceandreleasestream"><strong>CoGetInterfaceAndReleaseStream</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc"><strong>CoGetMalloc</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc"><strong>CoGetMalloc</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetmarshalsizemax"><strong>CoGetMarshalSizeMax</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetmarshalsizemax"><strong>CoGetMarshalSizeMax</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetobjectcontext"><strong>CoGetObjectContext</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetobjectcontext"><strong>CoGetObjectContext</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetpsclsid"><strong>CoGetPSClsid</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetpsclsid"><strong>CoGetPSClsid</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetstandardmarshal"><strong>CoGetStandardMarshal</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetstandardmarshal"><strong>CoGetStandardMarshal</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetstdmarshalex"><strong>CoGetStdMarshalEx</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetstdmarshalex"><strong>CoGetStdMarshalEx</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogettreatasclass"><strong>CoGetTreatAsClass</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogettreatasclass"><strong>CoGetTreatAsClass</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coimpersonateclient"><strong>CoImpersonateClient</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coimpersonateclient"><strong>CoImpersonateClient</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coincrementmtausage"><strong>CoIncrementMTAUsage</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coincrementmtausage"><strong>CoIncrementMTAUsage</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex"><strong>CoInitializeEx</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex"><strong>CoInitializeEx</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity"><strong>CoInitializeSecurity</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity"><strong>CoInitializeSecurity</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinvalidateremotemachinebindings"><strong>CoInvalidateRemoteMachineBindings</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinvalidateremotemachinebindings"><strong>CoInvalidateRemoteMachineBindings</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coishandlerconnected"><strong>CoIsHandlerConnected</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coishandlerconnected"><strong>CoIsHandlerConnected</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-colockobjectexternal"><strong>CoLockObjectExternal</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-colockobjectexternal"><strong>CoLockObjectExternal</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalhresult"><strong>CoMarshalHresult</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-comarshalhresult"><strong>CoMarshalHresult</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface"><strong>CoMarshalInterface</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface"><strong>CoMarshalInterface</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterthreadinterfaceinstream"><strong>CoMarshalInterThreadInterfaceInStream</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterthreadinterfaceinstream"><strong>CoMarshalInterThreadInterfaceInStream</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
@@ -1902,63 +1902,63 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into dnsapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-comparefiletime"><strong>CompareFileTime</strong></a></td>
+<td><a href="/windows/desktop/api/fileapi/nf-fileapi-comparefiletime"><strong>CompareFileTime</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-compareobjecthandles"><strong>CompareObjectHandles</strong></a></td>
+<td><a href="/windows/desktop/api/handleapi/nf-handleapi-compareobjecthandles"><strong>CompareObjectHandles</strong></a></td>
 <td>Introduced into api-ms-win-core-handle-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw"><strong>CompareStringA</strong></a></td>
+<td><a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw"><strong>CompareStringA</strong></a></td>
 <td>Introduced into api-ms-win-core-localization-obsolete-l1-3-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex"><strong>CompareStringEx</strong></a></td>
+<td><a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex"><strong>CompareStringEx</strong></a></td>
 <td>Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringordinal"><strong>CompareStringOrdinal</strong></a></td>
+<td><a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringordinal"><strong>CompareStringOrdinal</strong></a></td>
 <td>Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw"><strong>CompareStringW</strong></a></td>
+<td><a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw"><strong>CompareStringW</strong></a></td>
 <td>Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/compressapi/nf-compressapi-compress"><strong>Compress</strong></a></td>
+<td><a href="/windows/desktop/api/compressapi/nf-compressapi-compress"><strong>Compress</strong></a></td>
 <td>Introduced into cabinet.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect"><strong>connect</strong></a></td>
+<td><a href="/windows/desktop/api/winsock2/nf-winsock2-connect"><strong>connect</strong></a></td>
 <td>Introduced into ws2_32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe"><strong>ConnectNamedPipe</strong></a></td>
+<td><a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe"><strong>ConnectNamedPipe</strong></a></td>
 <td>Introduced into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-continuedebugevent"><strong>ContinueDebugEvent</strong></a></td>
+<td><a href="/windows/desktop/api/debugapi/nf-debugapi-continuedebugevent"><strong>ContinueDebugEvent</strong></a></td>
 <td>Introduced into api-ms-win-core-debug-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-debug-l1-1-2.dll in 10.0.10586. Moved into api-ms-win-core-debug-l1-1-1.dll in 10.0.14393.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlservice"><strong>ControlService</strong></a></td>
+<td><a href="/windows/desktop/api/winsvc/nf-winsvc-controlservice"><strong>ControlService</strong></a></td>
 <td>Introduced into api-ms-win-service-winsvc-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-service-winsvc-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa"><strong>ControlServiceExA</strong></a></td>
+<td><a href="/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa"><strong>ControlServiceExA</strong></a></td>
 <td>Introduced into api-ms-win-service-winsvc-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-service-winsvc-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa"><strong>ControlServiceExW</strong></a></td>
+<td><a href="/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa"><strong>ControlServiceExW</strong></a></td>
 <td>Introduced into api-ms-win-service-management-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace"><strong>ControlTraceA</strong></a></td>
+<td><a href="/windows/desktop/ETW/controltrace"><strong>ControlTraceA</strong></a></td>
 <td>Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace"><strong>ControlTraceW</strong></a></td>
+<td><a href="/windows/desktop/ETW/controltrace"><strong>ControlTraceW</strong></a></td>
 <td>Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -1970,11 +1970,11 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/previous-versions//ms776314(v=vs.85)"><strong>ConvertDefaultLocale</strong></a></td>
+<td><a href="/previous-versions//ms776314(v=vs.85)"><strong>ConvertDefaultLocale</strong></a></td>
 <td>Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-convertfibertothread"><strong>ConvertFiberToThread</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-convertfibertothread"><strong>ConvertFiberToThread</strong></a></td>
 <td>Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-fibers-l2-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
@@ -1986,43 +1986,43 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfacealiastoluid"><strong>ConvertInterfaceAliasToLuid</strong></a></td>
+<td><a href="/windows/desktop/api/netioapi/nf-netioapi-convertinterfacealiastoluid"><strong>ConvertInterfaceAliasToLuid</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceguidtoluid"><strong>ConvertInterfaceGuidToLuid</strong></a></td>
+<td><a href="/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceguidtoluid"><strong>ConvertInterfaceGuidToLuid</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceindextoluid"><strong>ConvertInterfaceIndexToLuid</strong></a></td>
+<td><a href="/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceindextoluid"><strong>ConvertInterfaceIndexToLuid</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceluidtoalias"><strong>ConvertInterfaceLuidToAlias</strong></a></td>
+<td><a href="/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceluidtoalias"><strong>ConvertInterfaceLuidToAlias</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceluidtoguid"><strong>ConvertInterfaceLuidToGuid</strong></a></td>
+<td><a href="/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceluidtoguid"><strong>ConvertInterfaceLuidToGuid</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceluidtoindex"><strong>ConvertInterfaceLuidToIndex</strong></a></td>
+<td><a href="/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceluidtoindex"><strong>ConvertInterfaceLuidToIndex</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceluidtonamea"><strong>ConvertInterfaceLuidToNameA</strong></a></td>
+<td><a href="/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceluidtonamea"><strong>ConvertInterfaceLuidToNameA</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceluidtonamew"><strong>ConvertInterfaceLuidToNameW</strong></a></td>
+<td><a href="/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceluidtonamew"><strong>ConvertInterfaceLuidToNameW</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfacenametoluida"><strong>ConvertInterfaceNameToLuidA</strong></a></td>
+<td><a href="/windows/desktop/api/netioapi/nf-netioapi-convertinterfacenametoluida"><strong>ConvertInterfaceNameToLuidA</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfacenametoluidw"><strong>ConvertInterfaceNameToLuidW</strong></a></td>
+<td><a href="/windows/desktop/api/netioapi/nf-netioapi-convertinterfacenametoluidw"><strong>ConvertInterfaceNameToLuidW</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -2030,11 +2030,11 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertipv4masktolength"><strong>ConvertIpv4MaskToLength</strong></a></td>
+<td><a href="/windows/desktop/api/netioapi/nf-netioapi-convertipv4masktolength"><strong>ConvertIpv4MaskToLength</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertlengthtoipv4mask"><strong>ConvertLengthToIpv4Mask</strong></a></td>
+<td><a href="/windows/desktop/api/netioapi/nf-netioapi-convertlengthtoipv4mask"><strong>ConvertLengthToIpv4Mask</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -2062,27 +2062,27 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora"><strong>ConvertSecurityDescriptorToStringSecurityDescriptorW</strong></a></td>
+<td><a href="/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora"><strong>ConvertSecurityDescriptorToStringSecurityDescriptorW</strong></a></td>
 <td>Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsidtostringsida"><strong>ConvertSidToStringSidA</strong></a></td>
+<td><a href="/windows/desktop/api/sddl/nf-sddl-convertsidtostringsida"><strong>ConvertSidToStringSidA</strong></a></td>
 <td>Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsidtostringsida"><strong>ConvertSidToStringSidW</strong></a></td>
+<td><a href="/windows/desktop/api/sddl/nf-sddl-convertsidtostringsida"><strong>ConvertSidToStringSidW</strong></a></td>
 <td>Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora"><strong>ConvertStringSecurityDescriptorToSecurityDescriptorW</strong></a></td>
+<td><a href="/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora"><strong>ConvertStringSecurityDescriptorToSecurityDescriptorW</strong></a></td>
 <td>Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertstringsidtosida"><strong>ConvertStringSidToSidA</strong></a></td>
+<td><a href="/windows/desktop/api/sddl/nf-sddl-convertstringsidtosida"><strong>ConvertStringSidToSidA</strong></a></td>
 <td>Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertstringsidtosida"><strong>ConvertStringSidToSidW</strong></a></td>
+<td><a href="/windows/desktop/api/sddl/nf-sddl-convertstringsidtosida"><strong>ConvertStringSidToSidW</strong></a></td>
 <td>Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -2098,31 +2098,31 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber"><strong>ConvertThreadToFiber</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber"><strong>ConvertThreadToFiber</strong></a></td>
 <td>Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-fibers-l2-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-convertthreadtofiberex"><strong>ConvertThreadToFiberEx</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-convertthreadtofiberex"><strong>ConvertThreadToFiberEx</strong></a></td>
 <td>Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-converttoautoinheritprivateobjectsecurity"><strong>ConvertToAutoInheritPrivateObjectSecurity</strong></a></td>
+<td><a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-converttoautoinheritprivateobjectsecurity"><strong>ConvertToAutoInheritPrivateObjectSecurity</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copycontext"><strong>CopyContext</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-copycontext"><strong>CopyContext</strong></a></td>
 <td>Introduced into api-ms-win-core-xstate-l2-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile2"><strong>CopyFile2</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-copyfile2"><strong>CopyFile2</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfileexa"><strong>CopyFileExA</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-copyfileexa"><strong>CopyFileExA</strong></a></td>
 <td>Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfileexa"><strong>CopyFileExW</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-copyfileexa"><strong>CopyFileExW</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
@@ -2134,123 +2134,123 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into userenv.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-copysid"><strong>CopySid</strong></a></td>
+<td><a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-copysid"><strong>CopySid</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coqueryauthenticationservices"><strong>CoQueryAuthenticationServices</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coqueryauthenticationservices"><strong>CoQueryAuthenticationServices</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coqueryclientblanket"><strong>CoQueryClientBlanket</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coqueryclientblanket"><strong>CoQueryClientBlanket</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coqueryproxyblanket"><strong>CoQueryProxyBlanket</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coqueryproxyblanket"><strong>CoQueryProxyBlanket</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coregisteractivationfilter"><strong>CoRegisterActivationFilter</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coregisteractivationfilter"><strong>CoRegisterActivationFilter</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject"><strong>CoRegisterClassObject</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject"><strong>CoRegisterClassObject</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coregisterpsclsid"><strong>CoRegisterPSClsid</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coregisterpsclsid"><strong>CoRegisterPSClsid</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coregistersurrogate"><strong>CoRegisterSurrogate</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coregistersurrogate"><strong>CoRegisterSurrogate</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coreleasemarshaldata"><strong>CoReleaseMarshalData</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coreleasemarshaldata"><strong>CoReleaseMarshalData</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coreleaseserverprocess"><strong>CoReleaseServerProcess</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coreleaseserverprocess"><strong>CoReleaseServerProcess</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coresumeclassobjects"><strong>CoResumeClassObjects</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coresumeclassobjects"><strong>CoResumeClassObjects</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coreverttoself"><strong>CoRevertToSelf</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coreverttoself"><strong>CoRevertToSelf</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-corevokeclassobject"><strong>CoRevokeClassObject</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-corevokeclassobject"><strong>CoRevokeClassObject</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cosetcancelobject"><strong>CoSetCancelObject</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cosetcancelobject"><strong>CoSetCancelObject</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket"><strong>CoSetProxyBlanket</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket"><strong>CoSetProxyBlanket</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cosuspendclassobjects"><strong>CoSuspendClassObjects</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cosuspendclassobjects"><strong>CoSuspendClassObjects</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coswitchcallcontext"><strong>CoSwitchCallContext</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-coswitchcallcontext"><strong>CoSwitchCallContext</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc"><strong>CoTaskMemAlloc</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc"><strong>CoTaskMemAlloc</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree"><strong>CoTaskMemFree</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree"><strong>CoTaskMemFree</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemrealloc"><strong>CoTaskMemRealloc</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemrealloc"><strong>CoTaskMemRealloc</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotestcancel"><strong>CoTestCancel</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotestcancel"><strong>CoTestCancel</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize"><strong>CoUninitialize</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize"><strong>CoUninitialize</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalhresult"><strong>CoUnmarshalHresult</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalhresult"><strong>CoUnmarshalHresult</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalinterface"><strong>CoUnmarshalInterface</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalinterface"><strong>CoUnmarshalInterface</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cowaitformultiplehandles"><strong>CoWaitForMultipleHandles</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cowaitformultiplehandles"><strong>CoWaitForMultipleHandles</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cowaitformultipleobjects"><strong>CoWaitForMultipleObjects</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-cowaitformultipleobjects"><strong>CoWaitForMultipleObjects</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createactctxa"><strong>CreateActCtxA</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createactctxa"><strong>CreateActCtxA</strong></a></td>
 <td>Introduced into api-ms-win-core-sidebyside-ansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createactctxa"><strong>CreateActCtxW</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createactctxa"><strong>CreateActCtxW</strong></a></td>
 <td>Introduced into api-ms-win-core-sidebyside-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createanycastipaddressentry"><strong>CreateAnycastIpAddressEntry</strong></a></td>
+<td><a href="/windows/desktop/api/netioapi/nf-netioapi-createanycastipaddressentry"><strong>CreateAnycastIpAddressEntry</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-createappcontainerprofile"><strong>CreateAppContainerProfile</strong></a></td>
+<td><a href="/windows/desktop/api/userenv/nf-userenv-createappcontainerprofile"><strong>CreateAppContainerProfile</strong></a></td>
 <td>Introduced into userenv.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -2258,11 +2258,11 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into userenv.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createboundarydescriptora"><strong>CreateBoundaryDescriptorA</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createboundarydescriptora"><strong>CreateBoundaryDescriptorA</strong></a></td>
 <td>Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createboundarydescriptora"><strong>CreateBoundaryDescriptorW</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createboundarydescriptora"><strong>CreateBoundaryDescriptorW</strong></a></td>
 <td>Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -2270,35 +2270,35 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/compressapi/nf-compressapi-createcompressor"><strong>CreateCompressor</strong></a></td>
+<td><a href="/windows/desktop/api/compressapi/nf-compressapi-createcompressor"><strong>CreateCompressor</strong></a></td>
 <td>Introduced into cabinet.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/console/createconsolescreenbuffer"><strong>CreateConsoleScreenBuffer</strong></a></td>
+<td><a href="/windows/console/createconsolescreenbuffer"><strong>CreateConsoleScreenBuffer</strong></a></td>
 <td>Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/compressapi/nf-compressapi-createdecompressor"><strong>CreateDecompressor</strong></a></td>
+<td><a href="/windows/desktop/api/compressapi/nf-compressapi-createdecompressor"><strong>CreateDecompressor</strong></a></td>
 <td>Introduced into cabinet.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice"><strong>CreateDirect3D11DeviceFromDXGIDevice</strong></a></td>
+<td><a href="/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice"><strong>CreateDirect3D11DeviceFromDXGIDevice</strong></a></td>
 <td>Introduced into d3d11.dll in 10.0.10586. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice"><strong>CreateDirect3D11SurfaceFromDXGISurface</strong></a></td>
+<td><a href="/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice"><strong>CreateDirect3D11SurfaceFromDXGISurface</strong></a></td>
 <td>Introduced into d3d11.dll in 10.0.10586. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createdirectorya"><strong>CreateDirectoryA</strong></a></td>
+<td><a href="/windows/desktop/api/fileapi/nf-fileapi-createdirectorya"><strong>CreateDirectoryA</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createdirectoryexa"><strong>CreateDirectoryExA</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createdirectoryexa"><strong>CreateDirectoryExA</strong></a></td>
 <td>Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createdirectoryexa"><strong>CreateDirectoryExW</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createdirectoryexa"><strong>CreateDirectoryExW</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
@@ -2310,83 +2310,83 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into userenv.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createdirectorya"><strong>CreateDirectoryW</strong></a></td>
+<td><a href="/windows/desktop/api/fileapi/nf-fileapi-createdirectorya"><strong>CreateDirectoryW</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createdisptypeinfo"><strong>CreateDispTypeInfo</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createdisptypeinfo"><strong>CreateDispTypeInfo</strong></a></td>
 <td>Introduced into oleaut32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory"><strong>CreateDXGIFactory</strong></a></td>
+<td><a href="/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory"><strong>CreateDXGIFactory</strong></a></td>
 <td>Introduced into dxgi.dll in 10.0.10586. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1"><strong>CreateDXGIFactory1</strong></a></td>
+<td><a href="/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1"><strong>CreateDXGIFactory1</strong></a></td>
 <td>Introduced into dxgi.dll in 10.0.10586. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-createdxgifactory2"><strong>CreateDXGIFactory2</strong></a></td>
+<td><a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-createdxgifactory2"><strong>CreateDXGIFactory2</strong></a></td>
 <td>Introduced into dxgi.dll in 10.0.10586. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave"><strong>CreateEnclave</strong></a></td>
+<td><a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave"><strong>CreateEnclave</strong></a></td>
 <td>Introduced into api-ms-win-core-enclave-l1-1-0.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-createenvironmentblock"><strong>CreateEnvironmentBlock</strong></a></td>
+<td><a href="/windows/desktop/api/userenv/nf-userenv-createenvironmentblock"><strong>CreateEnvironmentBlock</strong></a></td>
 <td>Introduced into userenv.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createerrorinfo"><strong>CreateErrorInfo</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createerrorinfo"><strong>CreateErrorInfo</strong></a></td>
 <td>Introduced into oleaut32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa"><strong>CreateEventA</strong></a></td>
+<td><a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa"><strong>CreateEventA</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventexa"><strong>CreateEventExA</strong></a></td>
+<td><a href="/windows/desktop/api/synchapi/nf-synchapi-createeventexa"><strong>CreateEventExA</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventexa"><strong>CreateEventExW</strong></a></td>
+<td><a href="/windows/desktop/api/synchapi/nf-synchapi-createeventexa"><strong>CreateEventExW</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa"><strong>CreateEventW</strong></a></td>
+<td><a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa"><strong>CreateEventW</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiber"><strong>CreateFiber</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createfiber"><strong>CreateFiber</strong></a></td>
 <td>Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-fibers-l2-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiberex"><strong>CreateFiberEx</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createfiberex"><strong>CreateFiberEx</strong></a></td>
 <td>Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfile2"><strong>CreateFile2</strong></a></td>
+<td><a href="/windows/desktop/api/fileapi/nf-fileapi-createfile2"><strong>CreateFile2</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea"><strong>CreateFileA</strong></a></td>
+<td><a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea"><strong>CreateFileA</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-createfilemappingfromapp"><strong>CreateFileMappingFromApp</strong></a></td>
+<td><a href="/windows/desktop/api/memoryapi/nf-memoryapi-createfilemappingfromapp"><strong>CreateFileMappingFromApp</strong></a></td>
 <td>Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappingnumaa"><strong>CreateFileMappingNumaW</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createfilemappingnumaa"><strong>CreateFileMappingNumaW</strong></a></td>
 <td>Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga"><strong>CreateFileMappingW</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createfilemappinga"><strong>CreateFileMappingW</strong></a></td>
 <td>Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea"><strong>CreateFileW</strong></a></td>
+<td><a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea"><strong>CreateFileW</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
@@ -2394,19 +2394,19 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into userenv.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createhardlinka"><strong>CreateHardLinkA</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createhardlinka"><strong>CreateHardLinkA</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l2-1-2.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createhardlinka"><strong>CreateHardLinkW</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createhardlinka"><strong>CreateHardLinkW</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-createilockbytesonhglobal"><strong>CreateILockBytesOnHGlobal</strong></a></td>
+<td><a href="/windows/desktop/api/coml2api/nf-coml2api-createilockbytesonhglobal"><strong>CreateILockBytesOnHGlobal</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport"><strong>CreateIoCompletionPort</strong></a></td>
+<td><a href="/windows/desktop/FileIO/createiocompletionport"><strong>CreateIoCompletionPort</strong></a></td>
 <td>Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
@@ -2414,7 +2414,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createipforwardentry2"><strong>CreateIpForwardEntry2</strong></a></td>
+<td><a href="/windows/desktop/api/netioapi/nf-netioapi-createipforwardentry2"><strong>CreateIpForwardEntry2</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -2422,11 +2422,11 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createipnetentry2"><strong>CreateIpNetEntry2</strong></a></td>
+<td><a href="/windows/desktop/api/netioapi/nf-netioapi-createipnetentry2"><strong>CreateIpNetEntry2</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createjobobjecta"><strong>CreateJobObjectW</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createjobobjecta"><strong>CreateJobObjectW</strong></a></td>
 <td>Introduced into api-ms-win-core-job-l2-1-0.dll in 10.0.10240. Moved into api-ms-win-core-job-l2-1-1.dll in 10.0.10586. Moved into api-ms-win-core-job-l2-1-0.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
@@ -2434,83 +2434,83 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into userenv.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-creatememoryresourcenotification"><strong>CreateMemoryResourceNotification</strong></a></td>
+<td><a href="/windows/desktop/api/memoryapi/nf-memoryapi-creatememoryresourcenotification"><strong>CreateMemoryResourceNotification</strong></a></td>
 <td>Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa"><strong>CreateMutexA</strong></a></td>
+<td><a href="/windows/desktop/api/synchapi/nf-synchapi-createmutexa"><strong>CreateMutexA</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexexa"><strong>CreateMutexExA</strong></a></td>
+<td><a href="/windows/desktop/api/synchapi/nf-synchapi-createmutexexa"><strong>CreateMutexExA</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexexa"><strong>CreateMutexExW</strong></a></td>
+<td><a href="/windows/desktop/api/synchapi/nf-synchapi-createmutexexa"><strong>CreateMutexExW</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa"><strong>CreateMutexW</strong></a></td>
+<td><a href="/windows/desktop/api/synchapi/nf-synchapi-createmutexa"><strong>CreateMutexW</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea"><strong>CreateNamedPipeW</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea"><strong>CreateNamedPipeW</strong></a></td>
 <td>Introduced into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation"><strong>CreatePersistentTcpPortReservation</strong></a></td>
+<td><a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation"><strong>CreatePersistentTcpPortReservation</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistentudpportreservation"><strong>CreatePersistentUdpPortReservation</strong></a></td>
+<td><a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistentudpportreservation"><strong>CreatePersistentUdpPortReservation</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-createpipe"><strong>CreatePipe</strong></a></td>
+<td><a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-createpipe"><strong>CreatePipe</strong></a></td>
 <td>Introduced into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createprivatenamespacea"><strong>CreatePrivateNamespaceA</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createprivatenamespacea"><strong>CreatePrivateNamespaceA</strong></a></td>
 <td>Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createprivatenamespacea"><strong>CreatePrivateNamespaceW</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createprivatenamespacea"><strong>CreatePrivateNamespaceW</strong></a></td>
 <td>Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurity"><strong>CreatePrivateObjectSecurity</strong></a></td>
+<td><a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurity"><strong>CreatePrivateObjectSecurity</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurityex"><strong>CreatePrivateObjectSecurityEx</strong></a></td>
+<td><a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurityex"><strong>CreatePrivateObjectSecurityEx</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecuritywithmultipleinheritance"><strong>CreatePrivateObjectSecurityWithMultipleInheritance</strong></a></td>
+<td><a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecuritywithmultipleinheritance"><strong>CreatePrivateObjectSecurityWithMultipleInheritance</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/previous-versions/60katz9k(v=vs.80)"><strong>CreateProcessA</strong></a></td>
+<td><a href="/previous-versions/60katz9k(v=vs.80)"><strong>CreateProcessA</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera"><strong>CreateProcessAsUserA</strong></a></td>
+<td><a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera"><strong>CreateProcessAsUserA</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera"><strong>CreateProcessAsUserW</strong></a></td>
+<td><a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera"><strong>CreateProcessAsUserW</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/previous-versions/60katz9k(v=vs.80)"><strong>CreateProcessW</strong></a></td>
+<td><a href="/previous-versions/60katz9k(v=vs.80)"><strong>CreateProcessW</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-createprofile"><strong>CreateProfile</strong></a></td>
+<td><a href="/windows/desktop/api/userenv/nf-userenv-createprofile"><strong>CreateProfile</strong></a></td>
 <td>Introduced into userenv.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-createpropertystore"><strong>CreatePropertyStore</strong></a></td>
+<td><a href="/windows/desktop/api/mfidl/nf-mfidl-createpropertystore"><strong>CreatePropertyStore</strong></a></td>
 <td>Introduced into mfplat.dll in 10.0.10586. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
@@ -2522,63 +2522,63 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/shcore/nf-shcore-createrandomaccessstreamonfile"><strong>CreateRandomAccessStreamOnFile</strong></a></td>
+<td><a href="/windows/desktop/api/shcore/nf-shcore-createrandomaccessstreamonfile"><strong>CreateRandomAccessStreamOnFile</strong></a></td>
 <td>Introduced into api-ms-win-shcore-stream-winrt-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/shcore/nf-shcore-createrandomaccessstreamoverstream"><strong>CreateRandomAccessStreamOverStream</strong></a></td>
+<td><a href="/windows/desktop/api/shcore/nf-shcore-createrandomaccessstreamoverstream"><strong>CreateRandomAccessStreamOverStream</strong></a></td>
 <td>Introduced into api-ms-win-shcore-stream-winrt-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethread"><strong>CreateRemoteThread</strong></a></td>
+<td><a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethread"><strong>CreateRemoteThread</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethreadex"><strong>CreateRemoteThreadEx</strong></a></td>
+<td><a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethreadex"><strong>CreateRemoteThreadEx</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken"><strong>CreateRestrictedToken</strong></a></td>
+<td><a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken"><strong>CreateRestrictedToken</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createsemaphorea"><strong>CreateSemaphoreA</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createsemaphorea"><strong>CreateSemaphoreA</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createsemaphoreexa"><strong>CreateSemaphoreExA</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createsemaphoreexa"><strong>CreateSemaphoreExA</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createsemaphoreexa"><strong>CreateSemaphoreExW</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createsemaphoreexa"><strong>CreateSemaphoreExW</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createsemaphorea"><strong>CreateSemaphoreW</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createsemaphorea"><strong>CreateSemaphoreW</strong></a></td>
 <td>Introduced into api-ms-win-core-synch-l1-2-1.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea"><strong>CreateServiceA</strong></a></td>
+<td><a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea"><strong>CreateServiceA</strong></a></td>
 <td>Introduced into api-ms-win-service-winsvc-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-service-winsvc-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea"><strong>CreateServiceW</strong></a></td>
+<td><a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea"><strong>CreateServiceW</strong></a></td>
 <td>Introduced into api-ms-win-service-management-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createsortedaddresspairs"><strong>CreateSortedAddressPairs</strong></a></td>
+<td><a href="/windows/desktop/api/netioapi/nf-netioapi-createsortedaddresspairs"><strong>CreateSortedAddressPairs</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createstddispatch"><strong>CreateStdDispatch</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createstddispatch"><strong>CreateStdDispatch</strong></a></td>
 <td>Introduced into oleaut32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal"><strong>CreateStreamOnHGlobal</strong></a></td>
+<td><a href="/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal"><strong>CreateStreamOnHGlobal</strong></a></td>
 <td>Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream"><strong>CreateStreamOverRandomAccessStream</strong></a></td>
+<td><a href="/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream"><strong>CreateStreamOverRandomAccessStream</strong></a></td>
 <td>Introduced into api-ms-win-shcore-stream-winrt-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
@@ -2586,59 +2586,59 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createsymboliclinka"><strong>CreateSymbolicLinkA</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createsymboliclinka"><strong>CreateSymbolicLinkA</strong></a></td>
 <td>Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createsymboliclinka"><strong>CreateSymbolicLinkW</strong></a></td>
+<td><a href="/windows/desktop/api/winbase/nf-winbase-createsymboliclinka"><strong>CreateSymbolicLinkW</strong></a></td>
 <td>Introduced into api-ms-win-core-file-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread"><strong>CreateThread</strong></a></td>
+<td><a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread"><strong>CreateThread</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpool"><strong>CreateThreadpool</strong></a></td>
+<td><a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpool"><strong>CreateThreadpool</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolcleanupgroup"><strong>CreateThreadpoolCleanupGroup</strong></a></td>
+<td><a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolcleanupgroup"><strong>CreateThreadpoolCleanupGroup</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolio"><strong>CreateThreadpoolIo</strong></a></td>
+<td><a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolio"><strong>CreateThreadpoolIo</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpooltimer"><strong>CreateThreadpoolTimer</strong></a></td>
+<td><a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpooltimer"><strong>CreateThreadpoolTimer</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwait"><strong>CreateThreadpoolWait</strong></a></td>
+<td><a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwait"><strong>CreateThreadpoolWait</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwork"><strong>CreateThreadpoolWork</strong></a></td>
+<td><a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwork"><strong>CreateThreadpoolWork</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue"><strong>CreateTimerQueue</strong></a></td>
+<td><a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue"><strong>CreateTimerQueue</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-legacy-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer"><strong>CreateTimerQueueTimer</strong></a></td>
+<td><a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer"><strong>CreateTimerQueueTimer</strong></a></td>
 <td>Introduced into api-ms-win-core-threadpool-legacy-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib"><strong>CreateTypeLib</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib"><strong>CreateTypeLib</strong></a></td>
 <td>Introduced into oleaut32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib2"><strong>CreateTypeLib2</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib2"><strong>CreateTypeLib2</strong></a></td>
 <td>Introduced into oleaut32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createunicastipaddressentry"><strong>CreateUnicastIpAddressEntry</strong></a></td>
+<td><a href="/windows/desktop/api/netioapi/nf-netioapi-createunicastipaddressentry"><strong>CreateUnicastIpAddressEntry</strong></a></td>
 <td>Introduced into iphlpapi.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -2658,55 +2658,55 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into api-ms-win-core-synch-l1-2-1.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createwellknownsid"><strong>CreateWellKnownSid</strong></a></td>
+<td><a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createwellknownsid"><strong>CreateWellKnownSid</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms752822(v=vs.85)"><strong>CreateXmlReader</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/ms752822(v=vs.85)"><strong>CreateXmlReader</strong></a></td>
 <td>Introduced into xmllite.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms752859(v=vs.85)"><strong>CreateXmlReaderInputWithEncodingCodePage</strong></a></td>
-<td>Introduced into xmllite.dll in 10.0.10240. Removed in 10.0.15063.</td>
-</tr>
-<tr class="odd">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms752899(v=vs.85)"><strong>CreateXmlReaderInputWithEncodingName</strong></a></td>
-<td>Introduced into xmllite.dll in 10.0.10240. Removed in 10.0.15063.</td>
-</tr>
-<tr class="even">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms752911(v=vs.85)"><strong>CreateXmlWriter</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/ms752859(v=vs.85)"><strong>CreateXmlReaderInputWithEncodingCodePage</strong></a></td>
 <td>Introduced into xmllite.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms753133(v=vs.85)"><strong>CreateXmlWriterOutputWithEncodingCodePage</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/ms752899(v=vs.85)"><strong>CreateXmlReaderInputWithEncodingName</strong></a></td>
 <td>Introduced into xmllite.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms752894(v=vs.85)"><strong>CreateXmlWriterOutputWithEncodingName</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/ms752911(v=vs.85)"><strong>CreateXmlWriter</strong></a></td>
 <td>Introduced into xmllite.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creddeletea"><strong>CredDeleteA</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/ms753133(v=vs.85)"><strong>CreateXmlWriterOutputWithEncodingCodePage</strong></a></td>
+<td>Introduced into xmllite.dll in 10.0.10240. Removed in 10.0.15063.</td>
+</tr>
+<tr class="even">
+<td><a href="/previous-versions/windows/desktop/ms752894(v=vs.85)"><strong>CreateXmlWriterOutputWithEncodingName</strong></a></td>
+<td>Introduced into xmllite.dll in 10.0.10240. Removed in 10.0.15063.</td>
+</tr>
+<tr class="odd">
+<td><a href="/windows/desktop/api/wincred/nf-wincred-creddeletea"><strong>CredDeleteA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creddeletea"><strong>CredDeleteW</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-creddeletea"><strong>CredDeleteW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credenumeratea"><strong>CredEnumerateA</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credenumeratea"><strong>CredEnumerateA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credenumeratea"><strong>CredEnumerateW</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credenumeratea"><strong>CredEnumerateW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credfindbestcredentiala"><strong>CredFindBestCredentialA</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credfindbestcredentiala"><strong>CredFindBestCredentialA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credfindbestcredentiala"><strong>CredFindBestCredentialW</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credfindbestcredentiala"><strong>CredFindBestCredentialW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -2714,103 +2714,103 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credgetsessiontypes"><strong>CredGetSessionTypes</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credgetsessiontypes"><strong>CredGetSessionTypes</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credgettargetinfoa"><strong>CredGetTargetInfoA</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credgettargetinfoa"><strong>CredGetTargetInfoA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credgettargetinfoa"><strong>CredGetTargetInfoW</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credgettargetinfoa"><strong>CredGetTargetInfoW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credismarshaledcredentiala"><strong>CredIsMarshaledCredentialW</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credismarshaledcredentiala"><strong>CredIsMarshaledCredentialW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credisprotecteda"><strong>CredIsProtectedA</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credisprotecteda"><strong>CredIsProtectedA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credisprotecteda"><strong>CredIsProtectedW</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credisprotecteda"><strong>CredIsProtectedW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala"><strong>CredMarshalCredentialA</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala"><strong>CredMarshalCredentialA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala"><strong>CredMarshalCredentialW</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala"><strong>CredMarshalCredentialW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credprotecta"><strong>CredProtectA</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credprotecta"><strong>CredProtectA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credprotecta"><strong>CredProtectW</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credprotecta"><strong>CredProtectW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credreada"><strong>CredReadA</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credreada"><strong>CredReadA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credreaddomaincredentialsa"><strong>CredReadDomainCredentialsA</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credreaddomaincredentialsa"><strong>CredReadDomainCredentialsA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credreaddomaincredentialsa"><strong>CredReadDomainCredentialsW</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credreaddomaincredentialsa"><strong>CredReadDomainCredentialsW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credreada"><strong>CredReadW</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credreada"><strong>CredReadW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credunmarshalcredentiala"><strong>CredUnmarshalCredentialA</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credunmarshalcredentiala"><strong>CredUnmarshalCredentialA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credunmarshalcredentiala"><strong>CredUnmarshalCredentialW</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credunmarshalcredentiala"><strong>CredUnmarshalCredentialW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credunprotecta"><strong>CredUnprotectA</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credunprotecta"><strong>CredUnprotectA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credunprotecta"><strong>CredUnprotectW</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credunprotecta"><strong>CredUnprotectW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credwritea"><strong>CredWriteA</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credwritea"><strong>CredWriteA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credwritedomaincredentialsa"><strong>CredWriteDomainCredentialsA</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credwritedomaincredentialsa"><strong>CredWriteDomainCredentialsA</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credwritedomaincredentialsa"><strong>CredWriteDomainCredentialsW</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credwritedomaincredentialsa"><strong>CredWriteDomainCredentialsW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credwritea"><strong>CredWriteW</strong></a></td>
+<td><a href="/windows/desktop/api/wincred/nf-wincred-credwritea"><strong>CredWriteW</strong></a></td>
 <td>Introduced into api-ms-win-security-credentials-l1-1-0.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecertificateprivatekey"><strong>CryptAcquireCertificatePrivateKey</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecertificateprivatekey"><strong>CryptAcquireCertificatePrivateKey</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptbinarytostringa"><strong>CryptBinaryToStringA</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptbinarytostringa"><strong>CryptBinaryToStringA</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptbinarytostringa"><strong>CryptBinaryToStringW</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptbinarytostringa"><strong>CryptBinaryToStringW</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -2830,23 +2830,23 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodemessage"><strong>CryptDecodeMessage</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodemessage"><strong>CryptDecodeMessage</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject"><strong>CryptDecodeObject</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject"><strong>CryptDecodeObject</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobjectex"><strong>CryptDecodeObjectEx</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobjectex"><strong>CryptDecodeObjectEx</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature"><strong>CryptDecryptAndVerifyMessageSignature</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature"><strong>CryptDecryptAndVerifyMessageSignature</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptmessage"><strong>CryptDecryptMessage</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptmessage"><strong>CryptDecryptMessage</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -2858,15 +2858,15 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject"><strong>CryptEncodeObject</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject"><strong>CryptEncodeObject</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobjectex"><strong>CryptEncodeObjectEx</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobjectex"><strong>CryptEncodeObjectEx</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencryptmessage"><strong>CryptEncryptMessage</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencryptmessage"><strong>CryptEncryptMessage</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -2874,35 +2874,35 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidfunction"><strong>CryptEnumOIDFunction</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidfunction"><strong>CryptEnumOIDFunction</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidinfo"><strong>CryptEnumOIDInfo</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidinfo"><strong>CryptEnumOIDInfo</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidersa"><strong>CryptEnumProvidersA</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidersa"><strong>CryptEnumProvidersA</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidersa"><strong>CryptEnumProvidersW</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidersa"><strong>CryptEnumProvidersW</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidertypesa"><strong>CryptEnumProviderTypesA</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidertypesa"><strong>CryptEnumProviderTypesA</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidertypesa"><strong>CryptEnumProviderTypesW</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidertypesa"><strong>CryptEnumProviderTypesW</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpkcs8"><strong>CryptExportPKCS8</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpkcs8"><strong>CryptExportPKCS8</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpublickeyinfo"><strong>CryptExportPublicKeyInfo</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpublickeyinfo"><strong>CryptExportPublicKeyInfo</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -2910,7 +2910,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpublickeyinfofrombcryptkeyhandle"><strong>CryptExportPublicKeyInfoFromBCryptKeyHandle</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpublickeyinfofrombcryptkeyhandle"><strong>CryptExportPublicKeyInfoFromBCryptKeyHandle</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -2918,19 +2918,19 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindlocalizedname"><strong>CryptFindLocalizedName</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindlocalizedname"><strong>CryptFindLocalizedName</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo"><strong>CryptFindOIDInfo</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo"><strong>CryptFindOIDInfo</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptformatobject"><strong>CryptFormatObject</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptformatobject"><strong>CryptFormatObject</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptfreeoidfunctionaddress"><strong>CryptFreeOIDFunctionAddress</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptfreeoidfunctionaddress"><strong>CryptFreeOIDFunctionAddress</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -2942,11 +2942,11 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetdefaultoiddlllist"><strong>CryptGetDefaultOIDDllList</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetdefaultoiddlllist"><strong>CryptGetDefaultOIDDllList</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetdefaultoidfunctionaddress"><strong>CryptGetDefaultOIDFunctionAddress</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetdefaultoidfunctionaddress"><strong>CryptGetDefaultOIDFunctionAddress</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -2954,23 +2954,23 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetmessagecertificates"><strong>CryptGetMessageCertificates</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetmessagecertificates"><strong>CryptGetMessageCertificates</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetmessagesignercount"><strong>CryptGetMessageSignerCount</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetmessagesignercount"><strong>CryptGetMessageSignerCount</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetobjecturl"><strong>CryptGetObjectUrl</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetobjecturl"><strong>CryptGetObjectUrl</strong></a></td>
 <td>Introduced into cryptnet.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetoidfunctionaddress"><strong>CryptGetOIDFunctionAddress</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetoidfunctionaddress"><strong>CryptGetOIDFunctionAddress</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetoidfunctionvalue"><strong>CryptGetOIDFunctionValue</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetoidfunctionvalue"><strong>CryptGetOIDFunctionValue</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -2978,15 +2978,15 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashcertificate2"><strong>CryptHashCertificate2</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashcertificate2"><strong>CryptHashCertificate2</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashmessage"><strong>CryptHashMessage</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashmessage"><strong>CryptHashMessage</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashpublickeyinfo"><strong>CryptHashPublicKeyInfo</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashpublickeyinfo"><strong>CryptHashPublicKeyInfo</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -2998,11 +2998,11 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpkcs8"><strong>CryptImportPKCS8</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpkcs8"><strong>CryptImportPKCS8</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpublickeyinfo"><strong>CryptImportPublicKeyInfo</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpublickeyinfo"><strong>CryptImportPublicKeyInfo</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -3010,11 +3010,11 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpublickeyinfoex2"><strong>CryptImportPublicKeyInfoEx2</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpublickeyinfoex2"><strong>CryptImportPublicKeyInfoEx2</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptinitoidfunctionset"><strong>CryptInitOIDFunctionSet</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptinitoidfunctionset"><strong>CryptInitOIDFunctionSet</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -3026,7 +3026,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress"><strong>CryptInstallOIDFunctionAddress</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress"><strong>CryptInstallOIDFunctionAddress</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -3034,115 +3034,115 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemalloc"><strong>CryptMemAlloc</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemalloc"><strong>CryptMemAlloc</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree"><strong>CryptMemFree</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree"><strong>CryptMemFree</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemrealloc"><strong>CryptMemRealloc</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemrealloc"><strong>CryptMemRealloc</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcalculateencodedlength"><strong>CryptMsgCalculateEncodedLength</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcalculateencodedlength"><strong>CryptMsgCalculateEncodedLength</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose"><strong>CryptMsgClose</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose"><strong>CryptMsgClose</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol"><strong>CryptMsgControl</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol"><strong>CryptMsgControl</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersign"><strong>CryptMsgCountersign</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersign"><strong>CryptMsgCountersign</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersignencoded"><strong>CryptMsgCountersignEncoded</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersignencoded"><strong>CryptMsgCountersignEncoded</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgduplicate"><strong>CryptMsgDuplicate</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgduplicate"><strong>CryptMsgDuplicate</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgencodeandsignctl"><strong>CryptMsgEncodeAndSignCTL</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgencodeandsignctl"><strong>CryptMsgEncodeAndSignCTL</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetandverifysigner"><strong>CryptMsgGetAndVerifySigner</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetandverifysigner"><strong>CryptMsgGetAndVerifySigner</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetparam"><strong>CryptMsgGetParam</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetparam"><strong>CryptMsgGetParam</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentodecode"><strong>CryptMsgOpenToDecode</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentodecode"><strong>CryptMsgOpenToDecode</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode"><strong>CryptMsgOpenToEncode</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode"><strong>CryptMsgOpenToEncode</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgsignctl"><strong>CryptMsgSignCTL</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgsignctl"><strong>CryptMsgSignCTL</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgupdate"><strong>CryptMsgUpdate</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgupdate"><strong>CryptMsgUpdate</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgverifycountersignatureencoded"><strong>CryptMsgVerifyCountersignatureEncoded</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgverifycountersignatureencoded"><strong>CryptMsgVerifyCountersignatureEncoded</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgverifycountersignatureencodedex"><strong>CryptMsgVerifyCountersignatureEncodedEx</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgverifycountersignatureencodedex"><strong>CryptMsgVerifyCountersignatureEncodedEx</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata"><strong>CryptProtectData</strong></a></td>
+<td><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata"><strong>CryptProtectData</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory"><strong>CryptProtectMemory</strong></a></td>
+<td><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory"><strong>CryptProtectMemory</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptqueryobject"><strong>CryptQueryObject</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptqueryobject"><strong>CryptQueryObject</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisterdefaultoidfunction"><strong>CryptRegisterDefaultOIDFunction</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisterdefaultoidfunction"><strong>CryptRegisterDefaultOIDFunction</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidfunction"><strong>CryptRegisterOIDFunction</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidfunction"><strong>CryptRegisterOIDFunction</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidinfo"><strong>CryptRegisterOIDInfo</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidinfo"><strong>CryptRegisterOIDInfo</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext"><strong>CryptReleaseContext</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext"><strong>CryptReleaseContext</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla"><strong>CryptRetrieveObjectByUrlA</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla"><strong>CryptRetrieveObjectByUrlA</strong></a></td>
 <td>Introduced into cryptnet.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla"><strong>CryptRetrieveObjectByUrlW</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla"><strong>CryptRetrieveObjectByUrlW</strong></a></td>
 <td>Introduced into cryptnet.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrievetimestamp"><strong>CryptRetrieveTimeStamp</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrievetimestamp"><strong>CryptRetrieveTimeStamp</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -3154,23 +3154,23 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue"><strong>CryptSetOIDFunctionValue</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue"><strong>CryptSetOIDFunctionValue</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovidera"><strong>CryptSetProviderA</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovidera"><strong>CryptSetProviderA</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetproviderexa"><strong>CryptSetProviderExA</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetproviderexa"><strong>CryptSetProviderExA</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetproviderexa"><strong>CryptSetProviderExW</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetproviderexa"><strong>CryptSetProviderExW</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovidera"><strong>CryptSetProviderW</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovidera"><strong>CryptSetProviderW</strong></a></td>
 <td>Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
@@ -3178,7 +3178,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignandencryptmessage"><strong>CryptSignAndEncryptMessage</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignandencryptmessage"><strong>CryptSignAndEncryptMessage</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -3186,23 +3186,23 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignmessage"><strong>CryptSignMessage</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignmessage"><strong>CryptSignMessage</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignmessagewithkey"><strong>CryptSignMessageWithKey</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignmessagewithkey"><strong>CryptSignMessageWithKey</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipaddprovider"><strong>CryptSIPAddProvider</strong></a></td>
+<td><a href="/windows/desktop/api/mssip/nf-mssip-cryptsipaddprovider"><strong>CryptSIPAddProvider</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipcreateindirectdata"><strong>CryptSIPCreateIndirectData</strong></a></td>
+<td><a href="/windows/desktop/api/mssip/nf-mssip-cryptsipcreateindirectdata"><strong>CryptSIPCreateIndirectData</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipgetcaps"><strong>CryptSIPGetCaps</strong></a></td>
+<td><a href="/windows/desktop/api/mssip/nf-mssip-cryptsipgetcaps"><strong>CryptSIPGetCaps</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
@@ -3210,43 +3210,43 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipgetsigneddatamsg"><strong>CryptSIPGetSignedDataMsg</strong></a></td>
+<td><a href="/windows/desktop/api/mssip/nf-mssip-cryptsipgetsigneddatamsg"><strong>CryptSIPGetSignedDataMsg</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipload"><strong>CryptSIPLoad</strong></a></td>
+<td><a href="/windows/desktop/api/mssip/nf-mssip-cryptsipload"><strong>CryptSIPLoad</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipputsigneddatamsg"><strong>CryptSIPPutSignedDataMsg</strong></a></td>
+<td><a href="/windows/desktop/api/mssip/nf-mssip-cryptsipputsigneddatamsg"><strong>CryptSIPPutSignedDataMsg</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipremoveprovider"><strong>CryptSIPRemoveProvider</strong></a></td>
+<td><a href="/windows/desktop/api/mssip/nf-mssip-cryptsipremoveprovider"><strong>CryptSIPRemoveProvider</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipremovesigneddatamsg"><strong>CryptSIPRemoveSignedDataMsg</strong></a></td>
+<td><a href="/windows/desktop/api/mssip/nf-mssip-cryptsipremovesigneddatamsg"><strong>CryptSIPRemoveSignedDataMsg</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipretrievesubjectguid"><strong>CryptSIPRetrieveSubjectGuid</strong></a></td>
+<td><a href="/windows/desktop/api/mssip/nf-mssip-cryptsipretrievesubjectguid"><strong>CryptSIPRetrieveSubjectGuid</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipretrievesubjectguidforcatalogfile"><strong>CryptSIPRetrieveSubjectGuidForCatalogFile</strong></a></td>
+<td><a href="/windows/desktop/api/mssip/nf-mssip-cryptsipretrievesubjectguidforcatalogfile"><strong>CryptSIPRetrieveSubjectGuidForCatalogFile</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipverifyindirectdata"><strong>CryptSIPVerifyIndirectData</strong></a></td>
+<td><a href="/windows/desktop/api/mssip/nf-mssip-cryptsipverifyindirectdata"><strong>CryptSIPVerifyIndirectData</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptstringtobinarya"><strong>CryptStringToBinaryA</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptstringtobinarya"><strong>CryptStringToBinaryA</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptstringtobinarya"><strong>CryptStringToBinaryW</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptstringtobinarya"><strong>CryptStringToBinaryW</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
@@ -3258,151 +3258,151 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata"><strong>CryptUnprotectData</strong></a></td>
+<td><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata"><strong>CryptUnprotectData</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory"><strong>CryptUnprotectMemory</strong></a></td>
+<td><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory"><strong>CryptUnprotectMemory</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptunregisterdefaultoidfunction"><strong>CryptUnregisterDefaultOIDFunction</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptunregisterdefaultoidfunction"><strong>CryptUnregisterDefaultOIDFunction</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptunregisteroidfunction"><strong>CryptUnregisterOIDFunction</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptunregisteroidfunction"><strong>CryptUnregisterOIDFunction</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptunregisteroidinfo"><strong>CryptUnregisterOIDInfo</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptunregisteroidinfo"><strong>CryptUnregisterOIDInfo</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptupdateprotectedstate"><strong>CryptUpdateProtectedState</strong></a></td>
+<td><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptupdateprotectedstate"><strong>CryptUpdateProtectedState</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifycertificatesignature"><strong>CryptVerifyCertificateSignature</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifycertificatesignature"><strong>CryptVerifyCertificateSignature</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifycertificatesignatureex"><strong>CryptVerifyCertificateSignatureEx</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifycertificatesignatureex"><strong>CryptVerifyCertificateSignatureEx</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifydetachedmessagehash"><strong>CryptVerifyDetachedMessageHash</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifydetachedmessagehash"><strong>CryptVerifyDetachedMessageHash</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifydetachedmessagesignature"><strong>CryptVerifyDetachedMessageSignature</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifydetachedmessagesignature"><strong>CryptVerifyDetachedMessageSignature</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagehash"><strong>CryptVerifyMessageHash</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagehash"><strong>CryptVerifyMessageHash</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignature"><strong>CryptVerifyMessageSignature</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignature"><strong>CryptVerifyMessageSignature</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignaturewithkey"><strong>CryptVerifyMessageSignatureWithKey</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignaturewithkey"><strong>CryptVerifyMessageSignatureWithKey</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifytimestampsignature"><strong>CryptVerifyTimeStampSignature</strong></a></td>
+<td><a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifytimestampsignature"><strong>CryptVerifyTimeStampSignature</strong></a></td>
 <td>Introduced into crypt32.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_addref"><strong>CStdAsyncStubBuffer_AddRef</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_addref"><strong>CStdAsyncStubBuffer_AddRef</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_connect"><strong>CStdAsyncStubBuffer_Connect</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_connect"><strong>CStdAsyncStubBuffer_Connect</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_disconnect"><strong>CStdAsyncStubBuffer_Disconnect</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_disconnect"><strong>CStdAsyncStubBuffer_Disconnect</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_invoke"><strong>CStdAsyncStubBuffer_Invoke</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_invoke"><strong>CStdAsyncStubBuffer_Invoke</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_queryinterface"><strong>CStdAsyncStubBuffer_QueryInterface</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_queryinterface"><strong>CStdAsyncStubBuffer_QueryInterface</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_release"><strong>CStdAsyncStubBuffer_Release</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_release"><strong>CStdAsyncStubBuffer_Release</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer2_connect"><strong>CStdAsyncStubBuffer2_Connect</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer2_connect"><strong>CStdAsyncStubBuffer2_Connect</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer2_disconnect"><strong>CStdAsyncStubBuffer2_Disconnect</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer2_disconnect"><strong>CStdAsyncStubBuffer2_Disconnect</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer2_release"><strong>CStdAsyncStubBuffer2_Release</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer2_release"><strong>CStdAsyncStubBuffer2_Release</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_addref"><strong>CStdStubBuffer_AddRef</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_addref"><strong>CStdStubBuffer_AddRef</strong></a></td>
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_connect"><strong>CStdStubBuffer_Connect</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_connect"><strong>CStdStubBuffer_Connect</strong></a></td>
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_countrefs"><strong>CStdStubBuffer_CountRefs</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_countrefs"><strong>CStdStubBuffer_CountRefs</strong></a></td>
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_debugserverqueryinterface"><strong>CStdStubBuffer_DebugServerQueryInterface</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_debugserverqueryinterface"><strong>CStdStubBuffer_DebugServerQueryInterface</strong></a></td>
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_debugserverrelease"><strong>CStdStubBuffer_DebugServerRelease</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_debugserverrelease"><strong>CStdStubBuffer_DebugServerRelease</strong></a></td>
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_disconnect"><strong>CStdStubBuffer_Disconnect</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_disconnect"><strong>CStdStubBuffer_Disconnect</strong></a></td>
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_invoke"><strong>CStdStubBuffer_Invoke</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_invoke"><strong>CStdStubBuffer_Invoke</strong></a></td>
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_isiidsupported"><strong>CStdStubBuffer_IsIIDSupported</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_isiidsupported"><strong>CStdStubBuffer_IsIIDSupported</strong></a></td>
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_queryinterface"><strong>CStdStubBuffer_QueryInterface</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_queryinterface"><strong>CStdStubBuffer_QueryInterface</strong></a></td>
 <td>Introduced into rpcrt4.dll in 10.0.10240.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer2_connect"><strong>CStdStubBuffer2_Connect</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer2_connect"><strong>CStdStubBuffer2_Connect</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer2_countrefs"><strong>CStdStubBuffer2_CountRefs</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer2_countrefs"><strong>CStdStubBuffer2_CountRefs</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer2_disconnect"><strong>CStdStubBuffer2_Disconnect</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer2_disconnect"><strong>CStdStubBuffer2_Disconnect</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer2_queryinterface"><strong>CStdStubBuffer2_QueryInterface</strong></a></td>
+<td><a href="/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer2_queryinterface"><strong>CStdStubBuffer2_QueryInterface</strong></a></td>
 <td>Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. Removed in 10.0.15063.</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-cveeventwrite"><strong>CveEventWrite</strong></a></td>
+<td><a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-cveeventwrite"><strong>CveEventWrite</strong></a></td>
 <td>Introduced into api-ms-win-security-base-l1-2-1.dll in 10.0.14393. Removed in 10.0.15063.</td>
 </tr>
 </tbody>

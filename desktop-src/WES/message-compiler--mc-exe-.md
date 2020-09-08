@@ -175,14 +175,14 @@ You can use this argument with the **-km** or **-um** argument.
 <span id="-cs_namespace"></span><span id="-CS_NAMESPACE"></span>**-cs** *namespace*
 </dt> <dd>
 
-Use this argument to have the compiler generate a C# class based on the .NET 3.5 [EventProvider](https://docs.microsoft.com/dotnet/api/system.diagnostics.eventing.eventprovider?view=netframework-3.5) class.
+Use this argument to have the compiler generate a C# class based on the .NET 3.5 [EventProvider](/dotnet/api/system.diagnostics.eventing.eventprovider?view=netframework-3.5) class.
 
 </dd> <dt>
 
 <span id="-css_namespace"></span><span id="-CSS_NAMESPACE"></span>**-css** *namespace*
 </dt> <dd>
 
-Use this argument to have the compiler generate a static C# class based on the .NET 3.5 [EventProvider](https://docs.microsoft.com/dotnet/api/system.diagnostics.eventing.eventprovider?view=netframework-3.5) class.
+Use this argument to have the compiler generate a static C# class based on the .NET 3.5 [EventProvider](/dotnet/api/system.diagnostics.eventing.eventprovider?view=netframework-3.5) class.
 
 </dd> <dt>
 
@@ -196,7 +196,7 @@ Use this argument to have the compiler generate the kernel-mode code that you wo
 <span id="-mof"></span><span id="-MOF"></span>**-mof**
 </dt> <dd>
 
-DEPRECATED. Use this argument to have the compiler generate code that you can use to log events on computers prior to Windows Vista. This option also creates a MOF file that contains the MOF classes for each event defined in the manifest. To register the classes in the MOF file so that consumers can decode the events, use the MOF compiler (Mofcomp.exe). For details on using the MOF compiler, see [Managed Object Format](https://docs.microsoft.com/windows/desktop/WmiSdk/managed-object-format--mof-).
+DEPRECATED. Use this argument to have the compiler generate code that you can use to log events on computers prior to Windows Vista. This option also creates a MOF file that contains the MOF classes for each event defined in the manifest. To register the classes in the MOF file so that consumers can decode the events, use the MOF compiler (Mofcomp.exe). For details on using the MOF compiler, see [Managed Object Format](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 To use this switch, you must adhere to the following restrictions:
 

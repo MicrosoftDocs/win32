@@ -52,7 +52,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...retrieve information about the Security event log?</td>
-<td>Include the <a href="privilege-constants.md">Security</a> privilege when connecting to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa394225(v=vs.85)"><strong>Win32_NTEventlogFile</strong></a> class. For more information, see <a href="executing-privileged-operations-using-vbscript.md">Executing Privileged Operations Using VBScript</a>.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Include the <a href="privilege-constants.md">Security</a> privilege when connecting to the <a href="/previous-versions/windows/desktop/legacy/aa394225(v=vs.85)"><strong>Win32_NTEventlogFile</strong></a> class. For more information, see <a href="executing-privileged-operations-using-vbscript.md">Executing Privileged Operations Using VBScript</a>.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -105,7 +105,7 @@ foreach ($objLogFile in $colLogFiles)
 </tr>
 <tr class="even">
 <td>...back up an event log?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa394225(v=vs.85)"><strong>Win32_NTEventlogFile</strong></a> class and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eventlogprov/backupeventlog-method-in-class-win32-nteventlogfile"><strong>BackupEventLog</strong></a> method. You may need to include the <a href="privilege-constants.md">Backup</a> privilege when connecting to WMI. For more information, see <a href="executing-privileged-operations-using-vbscript.md">Executing Privileged Operations Using VBScript</a>.</p>
+<td><p>Use the <a href="/previous-versions/windows/desktop/legacy/aa394225(v=vs.85)"><strong>Win32_NTEventlogFile</strong></a> class and the <a href="/previous-versions/windows/desktop/eventlogprov/backupeventlog-method-in-class-win32-nteventlogfile"><strong>BackupEventLog</strong></a> method. You may need to include the <a href="privilege-constants.md">Backup</a> privilege when connecting to WMI. For more information, see <a href="executing-privileged-operations-using-vbscript.md">Executing Privileged Operations Using VBScript</a>.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -157,7 +157,7 @@ foreach ($objLogFile in $colLogFiles)
 </tr>
 <tr class="odd">
 <td>...back up an event log more than once?</td>
-<td><p>Ensure that the backup file has a unique name before using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa394225(v=vs.85)"><strong>Win32_NTEventlogFile</strong></a> and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eventlogprov/backupeventlog-method-in-class-win32-nteventlogfile"><strong>BackupEventLog</strong></a> method. The operating system does not allow you to overwrite an existing backup file; you must either move the backup file or rename it before you can run the script again. You may need to include the <a href="privilege-constants.md">Backup</a> privilege when connecting to WMI. For more information, see <a href="executing-privileged-operations-using-vbscript.md">Executing Privileged Operations Using VBScript</a>.</p>
+<td><p>Ensure that the backup file has a unique name before using the <a href="/previous-versions/windows/desktop/legacy/aa394225(v=vs.85)"><strong>Win32_NTEventlogFile</strong></a> and the <a href="/previous-versions/windows/desktop/eventlogprov/backupeventlog-method-in-class-win32-nteventlogfile"><strong>BackupEventLog</strong></a> method. The operating system does not allow you to overwrite an existing backup file; you must either move the backup file or rename it before you can run the script again. You may need to include the <a href="privilege-constants.md">Backup</a> privilege when connecting to WMI. For more information, see <a href="executing-privileged-operations-using-vbscript.md">Executing Privileged Operations Using VBScript</a>.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -216,7 +216,7 @@ foreach ($objLogFile in $colLogFiles)
 </tr>
 <tr class="even">
 <td>...determine the number of records in an event log?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa394225(v=vs.85)"><strong>Win32_NTEventlogFile</strong></a> class and check the value of the <strong>NumberOfRecords</strong> property.</p>
+<td><p>Use the <a href="/previous-versions/windows/desktop/legacy/aa394225(v=vs.85)"><strong>Win32_NTEventlogFile</strong></a> class and check the value of the <strong>NumberOfRecords</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -266,7 +266,7 @@ foreach ($objLogFile in $colLogFiles)
 </tr>
 <tr class="odd">
 <td>...clear my event logs?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa394225(v=vs.85)"><strong>Win32_NTEventlogFile</strong></a> class and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eventlogprov/cleareventlog-method-in-class-win32-nteventlogfile"><strong>ClearEventLog</strong></a> method.</p>
+<td><p>Use the <a href="/previous-versions/windows/desktop/legacy/aa394225(v=vs.85)"><strong>Win32_NTEventlogFile</strong></a> class and the <a href="/previous-versions/windows/desktop/eventlogprov/cleareventlog-method-in-class-win32-nteventlogfile"><strong>ClearEventLog</strong></a> method.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -318,7 +318,7 @@ foreach ($objLogFile in $colLogFiles)
 </tr>
 <tr class="even">
 <td>...read events from the event logs?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent"><strong>Win32_NTLogEvent</strong></a> class.</p>
+<td><p>Use the <a href="/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent"><strong>Win32_NTLogEvent</strong></a> class.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -405,11 +405,4 @@ foreach ($objEvent in $colLoggedEvents)
 
 [TechNet ScriptCenter](https://www.microsoft.com/technet/scriptcenter)
 </dt> </dl>
-
- 
-
- 
-
-
-
 

@@ -117,12 +117,12 @@ If Vertex Shader 3\_0 is supported, the following caps are supported in hardware
 <tr class="odd">
 <td>VertexTextureFilterCaps</td>
 <td><ul>
-<li><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MINFPOINT</a></li>
-<li><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MAGFPOINT</a></li>
+<li><a href="/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MINFPOINT</a></li>
+<li><a href="/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MAGFPOINT</a></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddevcaps2">D3DDEVCAPS2_VERTEXELEMENTSCANSHARESTREAMOFFSET</a></td>
+<td><a href="/windows/desktop/direct3d9/d3ddevcaps2">D3DDEVCAPS2_VERTEXELEMENTSCANSHARESTREAMOFFSET</a></td>
 <td>Vertex elements in a vertex declaration can share the same stream offset.</td>
 </tr>
 <tr class="odd">

@@ -121,7 +121,7 @@ The following table lists the currently defined **ACE** types.
 <li>System alarm</li>
 <li>Object specific</li>
 </ul></td>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_alarm_object_ace"><strong>SYSTEM_ALARM_OBJECT_ACE</strong></a></td>
+<td><a href="/windows/desktop/api/winnt/ns-winnt-system_alarm_object_ace"><strong>SYSTEM_ALARM_OBJECT_ACE</strong></a></td>
 <td>System</td>
 </tr>
 <tr class="odd">
@@ -203,6 +203,4 @@ System-alarm and object-specific system-alarm ACEs are not currently supported.
 
 [**SYSTEM\_AUDIT\_ACE**](/windows/desktop/api/Winnt/ns-winnt-system_audit_ace)
 </dt> </dl>
-
- 
 

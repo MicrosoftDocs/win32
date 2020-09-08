@@ -34,7 +34,7 @@ The **IPixProgressCallback** interface inherits from the [**IUnknown**](/windows
 
 The **IPixProgressCallback** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/ipixprogresscallback-progress-dword-dword"><strong>Progress</strong></a></td><td style="text-align: left;"><p>A callback that notifies the host of the progress of an associated request.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixprogresscallback-progress-dword-dword"><strong>Progress</strong></a></td><td style="text-align: left;"><p>A callback that notifies the host of the progress of an associated request.</p></td></tr></tbody></table>
 
  
 

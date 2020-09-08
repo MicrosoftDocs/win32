@@ -12,15 +12,15 @@ ms.date: 05/31/2018
 
 ## An Introduction to Server-Stub Memory Management
 
-MIDL-generated stubs act as the interface between a client process and a server process. A client stub marshals all data passed to parameters marked with the [**\[in\]**](https://msdn.microsoft.com/library/windows/desktop/aa367051) attribute, and sends it to the server stub. The server stub, upon receiving this data, reconstructs the call stack, and then executes the corresponding user-implemented server function. The server stub also marshals the parameter data marked with the [**\[out\]**](https://msdn.microsoft.com/library/windows/desktop/aa367136) attribute and returns it to the client application.
+MIDL-generated stubs act as the interface between a client process and a server process. A client stub marshals all data passed to parameters marked with the [**\[in\]**](../midl/in.md) attribute, and sends it to the server stub. The server stub, upon receiving this data, reconstructs the call stack, and then executes the corresponding user-implemented server function. The server stub also marshals the parameter data marked with the [**\[out\]**](../midl/out-idl.md) attribute and returns it to the client application.
 
 The 32-bit marshaled data format used by MSRPC is a compliant version of the Network Data Representation (NDR) transfer syntax. For more information about this format, see [The Open Group website](https://www.opengroup.org/). For 64-bit platforms, a Microsoft 64-bit extension to NDR transfer syntax called NDR64 can be used for better performance.
 
 ## Unmarshaling Inbound Data
 
-In MSRPC, the client stub marshals all of the parameter data tagged as [**\[in\]**](https://msdn.microsoft.com/library/windows/desktop/aa367051) in one continuous buffer for transmission to the server stub. Likewise, the server stub marshals all data marked with the [**\[out\]**](https://msdn.microsoft.com/library/windows/desktop/aa367136) attribute in a continuous buffer for return to the client stub. While the network protocol layer beneath RPC can fragment and packetize the buffer for transmission, the fragmentation is transparent to the RPC stubs.
+In MSRPC, the client stub marshals all of the parameter data tagged as [**\[in\]**](../midl/in.md) in one continuous buffer for transmission to the server stub. Likewise, the server stub marshals all data marked with the [**\[out\]**](../midl/out-idl.md) attribute in a continuous buffer for return to the client stub. While the network protocol layer beneath RPC can fragment and packetize the buffer for transmission, the fragmentation is transparent to the RPC stubs.
 
-Memory allocation for creating the server call frame can be an expensive operation. The server stub will attempt to minimize unnecessary memory usage when possible, and it is assumed that the server routine will not free or reallocate data marked with the [**\[in\]**](https://msdn.microsoft.com/library/windows/desktop/aa367051) or **\[in, out\]** attributes. The server stub attempts to reuse data in the buffer whenever possible to avoid unnecessary duplication. The general rule is that if the marshaled data format is the same as the memory format, RPC will use pointers to the marshalled data instead of allocating additional memory for identically formatted data.
+Memory allocation for creating the server call frame can be an expensive operation. The server stub will attempt to minimize unnecessary memory usage when possible, and it is assumed that the server routine will not free or reallocate data marked with the [**\[in\]**](../midl/in.md) or **\[in, out\]** attributes. The server stub attempts to reuse data in the buffer whenever possible to avoid unnecessary duplication. The general rule is that if the marshaled data format is the same as the memory format, RPC will use pointers to the marshalled data instead of allocating additional memory for identically formatted data.
 
 For example, the following RPC call is defined with a structure whose marshaled format is identical to its in-memory format.
 
@@ -44,9 +44,9 @@ Be aware that memory is allocated for *plOutStructure*, since no data is passed 
 
 ## Memory Allocation for Inbound Data
 
-Cases can arise where the server stub allocates memory for parameter data marked with the [**\[in\]**](https://msdn.microsoft.com/library/windows/desktop/aa367051) or **\[in, out\]** attributes. This occurs when the marshaled data format differs from the memory format, or when the structures that comprise the marshaled data are sufficient complex and must be read atomically by the RPC server stub. Listed below are several common cases when memory must be allocated for data received by the server stub.
+Cases can arise where the server stub allocates memory for parameter data marked with the [**\[in\]**](../midl/in.md) or **\[in, out\]** attributes. This occurs when the marshaled data format differs from the memory format, or when the structures that comprise the marshaled data are sufficient complex and must be read atomically by the RPC server stub. Listed below are several common cases when memory must be allocated for data received by the server stub.
 
--   The data is a varying array or a conformant varying array. These are arrays (or pointers to arrays) that have the [**\[length\_is()\]**](https://msdn.microsoft.com/library/windows/desktop/aa367068) or [**\[first\_is()\]**](https://msdn.microsoft.com/library/windows/desktop/aa366831) attribute set on them. In NDR, only the first element of these arrays are marshaled and transmitted. For example, in the code snippet below, the data passed in the parameter *pv* will have memory allocated for it.
+-   The data is a varying array or a conformant varying array. These are arrays (or pointers to arrays) that have the [**\[length\_is()\]**](../midl/length-is.md) or [**\[first\_is()\]**](../midl/first-is.md) attribute set on them. In NDR, only the first element of these arrays are marshaled and transmitted. For example, in the code snippet below, the data passed in the parameter *pv* will have memory allocated for it.
 
     ``` syntax
     void RpcFunction
@@ -57,7 +57,7 @@ Cases can arise where the server stub allocates memory for parameter data marked
     );
     ```
 
--   The data is a sized string or non-conformant string. These strings are usually pointers to character data tagged with the [**\[size\_is()\]**](https://msdn.microsoft.com/library/windows/desktop/aa367164) attribute. In the example below, the string passed to the **SizedString** server-side function will have memory allocated, whereas the string passed to the **NormalString** function will be reused.
+-   The data is a sized string or non-conformant string. These strings are usually pointers to character data tagged with the [**\[size\_is()\]**](../midl/size-is.md) attribute. In the example below, the string passed to the **SizedString** server-side function will have memory allocated, whereas the string passed to the **NormalString** function will be reused.
 
     ``` syntax
     void SizedString
@@ -85,15 +85,15 @@ Cases can arise where the server stub allocates memory for parameter data marked
     }
     ```
 
--   The data contains a structure that must be marshaled field by field. These fields include interface pointers defined in DCOM interfaces; ignored pointers; integer values set with the [**\[range\]**](https://msdn.microsoft.com/library/windows/desktop/aa367151) attribute; elements of arrays defined with the [**\[wire\_marshal\]**](https://msdn.microsoft.com/library/windows/desktop/aa367309), [**\[user\_marshal\]**](https://msdn.microsoft.com/library/windows/desktop/aa367296), [**\[transmit\_as\]**](https://msdn.microsoft.com/library/windows/desktop/aa367286) and [**\[represent\_as\]**](https://msdn.microsoft.com/library/windows/desktop/aa367154) attributes; and embedded complex data structures.
+-   The data contains a structure that must be marshaled field by field. These fields include interface pointers defined in DCOM interfaces; ignored pointers; integer values set with the [**\[range\]**](../midl/range.md) attribute; elements of arrays defined with the [**\[wire\_marshal\]**](../midl/wire-marshal.md), [**\[user\_marshal\]**](../midl/user-marshal.md), [**\[transmit\_as\]**](../midl/transmit-as.md) and [**\[represent\_as\]**](../midl/represent-as.md) attributes; and embedded complex data structures.
 -   The data contains a union, a structure containing a union, or an array of unions. Only the specific branch of the union is marshaled on the wire.
 -   The data contains a structure with a multidimensional conformant array that has at least one non-fixed dimension.
 -   The data contains an array of complex structures.
 -   The data contains an array of simple data types such as **enum16** and **\_\_int3264**.
 -   The data contains an array of ref and interface pointers.
--   The data has a [**\[force\_allocate\]**](https://msdn.microsoft.com/library/windows/desktop/aa366835) attribute applied to a pointer.
--   The data has a [**\[allocate(all\_nodes)\]**](https://msdn.microsoft.com/library/windows/desktop/aa366724) attribute applied to a pointer.
--   The data has a [**\[byte\_count\]**](https://msdn.microsoft.com/library/windows/desktop/aa366744) attribute applied to a pointer.
+-   The data has a [**\[force\_allocate\]**](../midl/force-allocate.md) attribute applied to a pointer.
+-   The data has a [**\[allocate(all\_nodes)\]**](../midl/allocate.md) attribute applied to a pointer.
+-   The data has a [**\[byte\_count\]**](../midl/byte-count.md) attribute applied to a pointer.
 
 ## 64-bit Data and NDR64 Transfer Syntax
 
@@ -118,7 +118,7 @@ In contrast with 32-bit NDR, simple data tyes such as **enum16** and **\_\_int32
 
 ## Initializing Outbound Data
 
-After all of the inbound data has been unmarshalled, the server stub needs to initialize the outbound-only pointers marked with the [**\[out\]**](https://msdn.microsoft.com/library/windows/desktop/aa367136) attribute.
+After all of the inbound data has been unmarshalled, the server stub needs to initialize the outbound-only pointers marked with the [**\[out\]**](../midl/out-idl.md) attribute.
 
 
 ```C++
@@ -137,7 +137,7 @@ void ProcessRpcStructure
 
 
 
-In the above call, the server stub must initialize *plOutStructure* because it was not present in the marshaled data, and it is an implied [**\[ref\]**](https://msdn.microsoft.com/library/windows/desktop/aa367153) pointer that must be made available to the server function implementation. The RPC server stub initializes and zeroes out any top-level reference-only pointers with the [**\[out\]**](https://msdn.microsoft.com/library/windows/desktop/aa367136) attribute. Any **\[out\]** reference pointers beneath it are recursively initialized as well. The recursion stops at any pointers with the [**\[unique\]**](https://msdn.microsoft.com/library/windows/desktop/aa367294) or [**\[ptr\]**](https://msdn.microsoft.com/library/windows/desktop/aa367149) attributes set on them.
+In the above call, the server stub must initialize *plOutStructure* because it was not present in the marshaled data, and it is an implied [**\[ref\]**](../midl/ref.md) pointer that must be made available to the server function implementation. The RPC server stub initializes and zeroes out any top-level reference-only pointers with the [**\[out\]**](../midl/out-idl.md) attribute. Any **\[out\]** reference pointers beneath it are recursively initialized as well. The recursion stops at any pointers with the [**\[unique\]**](../midl/unique.md) or [**\[ptr\]**](../midl/ptr.md) attributes set on them.
 
 The server function implementation cannot directly alter top-level pointer values, and thus cannot reallocate them. For example, in the implementation of **ProcessRpcStructure** above, the following code is invalid:
 
@@ -170,25 +170,25 @@ Be aware that in the case of DCOM interfaces, MIDL-generated stubs may not be in
 
 ## Server-side Function Implementations and Outbound Data Marshaling
 
-Immediately subsequent to the unmarshalling on inbound data and the initialization of the memory allocated to contain outbound data, the RPC server stub executes the server-side implementation of the function called by the client. At this time, the server can modify the data specifically marked with the **\[in, out\]** attribute, and it can populate the memory allocated for outbound-only data (the data tagged with [**\[out\]**](https://msdn.microsoft.com/library/windows/desktop/aa367136)).
+Immediately subsequent to the unmarshalling on inbound data and the initialization of the memory allocated to contain outbound data, the RPC server stub executes the server-side implementation of the function called by the client. At this time, the server can modify the data specifically marked with the **\[in, out\]** attribute, and it can populate the memory allocated for outbound-only data (the data tagged with [**\[out\]**](../midl/out-idl.md)).
 
 The general rules for the manipulation of marshalled parameter data are simple: the server can only allocate new memory or modify the memory specifically allocated by the server stub. Reallocating or releasing existing memory for data can have a negative impact on the results and performance of the function call, and can be very difficult to debug.
 
-Logically, the RPC server lives in a different address space than the client, and it can generally be assumed that they do not share memory. As a result, it is safe for the server function implementation to use the data marked with the [**\[in\]**](https://msdn.microsoft.com/library/windows/desktop/aa367051) attribute as "scratch" memory without affecting the client memory addresses. That said, the server should not attempt to reallocate or release **\[in\]** data, leaving the control of those spaces to the RPC server stub itself.
+Logically, the RPC server lives in a different address space than the client, and it can generally be assumed that they do not share memory. As a result, it is safe for the server function implementation to use the data marked with the [**\[in\]**](../midl/in.md) attribute as "scratch" memory without affecting the client memory addresses. That said, the server should not attempt to reallocate or release **\[in\]** data, leaving the control of those spaces to the RPC server stub itself.
 
-Generally, the server function implementation does not need to reallocate or release data marked with the **\[in, out\]** attribute. For fixed size data, the function implementation logic can directly modify the data. Likewise, for variable-sized data, the function implementation must not modify the field value supplied to the [**\[size\_is()\]**](https://msdn.microsoft.com/library/windows/desktop/aa367164) attribute, either. Change the field value used to size the data results in a smaller or larger buffer returned to the client which may be ill-equipped to deal with the abnormal length.
+Generally, the server function implementation does not need to reallocate or release data marked with the **\[in, out\]** attribute. For fixed size data, the function implementation logic can directly modify the data. Likewise, for variable-sized data, the function implementation must not modify the field value supplied to the [**\[size\_is()\]**](../midl/size-is.md) attribute, either. Change the field value used to size the data results in a smaller or larger buffer returned to the client which may be ill-equipped to deal with the abnormal length.
 
-If circumstances occur where the server routine has to reallocate the memory used by data marked with the **\[in, out\]** attribute, it is entirely possible that the server-side function implementation will not know if the pointer provided by the stub is to memory allocated with **MIDL\_user\_allocate()** or the marshaled wire buffer. To work around this problem, MS RPC can ensure that no memory leak or corruption occurs if the [**\[force\_allocate\]**](https://msdn.microsoft.com/library/windows/desktop/aa366835) attribute is set on the data. When **\[force\_allocate\]** is set, the server stub will always allocate memory for the pointer, although the caveat is that performance will decrease for every use of it.
+If circumstances occur where the server routine has to reallocate the memory used by data marked with the **\[in, out\]** attribute, it is entirely possible that the server-side function implementation will not know if the pointer provided by the stub is to memory allocated with **MIDL\_user\_allocate()** or the marshaled wire buffer. To work around this problem, MS RPC can ensure that no memory leak or corruption occurs if the [**\[force\_allocate\]**](../midl/force-allocate.md) attribute is set on the data. When **\[force\_allocate\]** is set, the server stub will always allocate memory for the pointer, although the caveat is that performance will decrease for every use of it.
 
-When the call returns from the server-side function implementation, the server stub marshals the data marked with the [**\[out\]**](https://msdn.microsoft.com/library/windows/desktop/aa367136) attribute and sends it to the client. Be aware that the stub does not marshal the data if the server-side function implementation throws an exception.
+When the call returns from the server-side function implementation, the server stub marshals the data marked with the [**\[out\]**](../midl/out-idl.md) attribute and sends it to the client. Be aware that the stub does not marshal the data if the server-side function implementation throws an exception.
 
 ## Releasing Allocated Memory
 
 The RPC server stub will release the stack memory after the call has returned from the server-side function, whether an exception occurs or not. The server stub frees all memory allocated by the stub as well as any memory allocated with **MIDL\_user\_allocate()**. The server-side function implementation must always give RPC a consistent state, either by throwing an exception or returning an error code. If the function fails during the population of complicated data structures, it must ensure that all pointers point to valid data or are set to **NULL**.
 
-During this pass, the server stub frees all memory that is not part of the marshaled buffer containing the [**\[in\]**](https://msdn.microsoft.com/library/windows/desktop/aa367051) data. One exception to this behavior is data with the [**\[allocate(dont\_free)\]**](https://msdn.microsoft.com/library/windows/desktop/aa366724) attribute set on them - the server stub does not free any memory associated with these pointers.
+During this pass, the server stub frees all memory that is not part of the marshaled buffer containing the [**\[in\]**](../midl/in.md) data. One exception to this behavior is data with the [**\[allocate(dont\_free)\]**](../midl/allocate.md) attribute set on them - the server stub does not free any memory associated with these pointers.
 
-After the server stub releases the memory allocated by the stub and the function implementation, the stub calls a specific notification function if the [**\[notify\_flag\]**](https://msdn.microsoft.com/library/windows/desktop/aa367122) attribute is specified for particular data.
+After the server stub releases the memory allocated by the stub and the function implementation, the stub calls a specific notification function if the [**\[notify\_flag\]**](../midl/notify-flag.md) attribute is specified for particular data.
 
 ## Marshalling a Linked List over RPC -- An Example
 
@@ -226,7 +226,3 @@ This attribute forces the server stub to allocate each node of the linked list s
  
 
  
-
-
-
-

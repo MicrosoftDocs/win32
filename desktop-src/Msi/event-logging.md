@@ -61,7 +61,7 @@ For information about how to enable verbose logging on a user's computer when tr
 <tr class="even">
 <td>1006</td>
 <td>Verification of the digital signature for cabinet '%1' cannot be performed. WinVerifyTrust is not available on the computer.</td>
-<td>Warning message. A cabinet was authored in the <a href="msidigitalsignature-table.md">MsiDigitalSignature table</a> to have a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust"><strong>WinVerifyTrust</strong></a> check performed. This action could not be performed because the computer does not have the proper cryptography DLLs installed.</td>
+<td>Warning message. A cabinet was authored in the <a href="msidigitalsignature-table.md">MsiDigitalSignature table</a> to have a <a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust"><strong>WinVerifyTrust</strong></a> check performed. This action could not be performed because the computer does not have the proper cryptography DLLs installed.</td>
 </tr>
 <tr class="odd">
 <td>1007</td>

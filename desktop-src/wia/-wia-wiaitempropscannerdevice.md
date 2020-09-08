@@ -582,7 +582,7 @@ This property is not supported by Windows Vista. Use <a href="-wia-wiaitemprops
 <td style="text-align: left;"><span id="WIA_DPS_PAD_COLOR"></span><span id="wia_dps_pad_color"></span><dl> <dt><strong>WIA_DPS_PAD_COLOR</strong></dt> <dt>ScannerDevicePadColor</dt> </dl></td>
 <td style="text-align: left;"><p>Color used to pad when there is not enough image data to fill a requested buffer. This property is implemented for scanners that pad the buffer. This property is optional for all scanners. The minidriver creates and maintains this property.</p>
 <p>Type: <strong>VT_UI1</strong> | <strong>VT_VECTOR</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
-<p>The format of the color information is <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>.</p></td>
+<p>The format of the color information is <a href="/windows/win32/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>.</p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_DPS_PAGE_HEIGHT"></span><span id="wia_dps_page_height"></span><dl> <dt><strong>WIA_DPS_PAGE_HEIGHT</strong></dt> <dt>ScannerDevicePageHeight</dt> </dl></td>
@@ -793,7 +793,7 @@ If duplex mode is enabled (<strong>WIA_DPS_DOCUMENT_HANDLING_SELECT</strong> is 
 <td style="text-align: left;"><span id="WIA_DPS_PLATEN_COLOR"></span><span id="wia_dps_platen_color"></span><dl> <dt><strong>WIA_DPS_PLATEN_COLOR</strong></dt> <dt>ScannerDevicePlatenColor</dt> </dl></td>
 <td style="text-align: left;"><p>Specifies the color of the platen in back of the sheet to be scanned. This property is optional for scanners that have a platen. The minidriver creates and maintains this property.</p>
 <p>Type: <strong>VT_UI1</strong> | <strong>VT_VECTOR</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
-<p>The format of the color information is <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>.</p></td>
+<p>The format of the color information is <a href="/windows/win32/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>.</p></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_DPS_PREVIEW"></span><span id="wia_dps_preview"></span><dl> <dt><strong>WIA_DPS_PREVIEW</strong></dt> <dt>ScannerDevicePreview</dt> </dl></td>
@@ -1045,7 +1045,3 @@ This property is not supported with Windows Vista and later. Use <a href="-wia-
  
 
  
-
-
-
-

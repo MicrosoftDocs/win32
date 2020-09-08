@@ -36,7 +36,7 @@ Accesses specific matrix elements referenced by row and column from the current 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x4-operator-function-call(size_t_size_t)"><strong>XMFLOAT4X4::operator () (size_t,size_t)</strong></a></td>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x4-operator-function-call(size_t_size_t)"><strong>XMFLOAT4X4::operator () (size_t,size_t)</strong></a></td>
 <td style="text-align: left;">Returns a <code>reference</code> to a matrix element of an instance <code>XMFLOAT4X4</code> as specified by row and column arguments.<br/>
 <blockquote>
 [!Note]<br />
@@ -45,8 +45,8 @@ This operator is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x4-operator-function-call(size_t_size_t)"><strong>XMFLOAT4X4::operator () (size_t,size_t)</strong></a></td>
-<td style="text-align: left;">Return the value of a matrix element in an instance <code>XMFLOAT4X4</code> as specified by row and column arguments. <br/> This operator returns the value of a matrix element of an instance <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x4"><strong>XMFLOAT4X4</strong></a> as specified by row and column arguments. <br/>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x4-operator-function-call(size_t_size_t)"><strong>XMFLOAT4X4::operator () (size_t,size_t)</strong></a></td>
+<td style="text-align: left;">Return the value of a matrix element in an instance <code>XMFLOAT4X4</code> as specified by row and column arguments. <br/> This operator returns the value of a matrix element of an instance <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x4"><strong>XMFLOAT4X4</strong></a> as specified by row and column arguments. <br/>
 <blockquote>
 [!Note]<br />
 This operator is only available when developing with C++.

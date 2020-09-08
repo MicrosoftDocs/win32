@@ -64,20 +64,20 @@ The flags, listed in the following table, are used in the *dwControlFlags* param
 </tr>
 <tr class="even">
 <td><strong>LUP_RETURN_NAME</strong></td>
-<td>Return the display name of the service in the <strong>lpszServiceInstanceName</strong> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a> structure for each call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta"><strong>WSALookupServiceNext</strong></a> function.</td>
+<td>Return the display name of the service in the <strong>lpszServiceInstanceName</strong> member of the <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a> structure for each call to the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta"><strong>WSALookupServiceNext</strong></a> function.</td>
 </tr>
 <tr class="odd">
 <td><strong>LUP_RETURN_TYPE</strong></td>
-<td>Return the service class ID in the <strong>lpServiceClassId</strong> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a> structure.
+<td>Return the service class ID in the <strong>lpServiceClassId</strong> member of the <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a> structure.
 <blockquote>
 [!Note]<br />
-Use of this flag is only applicable to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina"><strong>WSALookupServiceBegin</strong></a> function. This value is always zero for <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta"><strong>WSALookupServiceNext</strong></a>.
+Use of this flag is only applicable to the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina"><strong>WSALookupServiceBegin</strong></a> function. This value is always zero for <a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta"><strong>WSALookupServiceNext</strong></a>.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
 <td><strong>LUP_RETURN_ADDR</strong></td>
-<td>Return an address in the <strong>lpcsaBuffer</strong> member to be used with <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect"><strong>connect</strong></a> function calls. The returned address contains the port number.</td>
+<td>Return an address in the <strong>lpcsaBuffer</strong> member to be used with <a href="/windows/desktop/api/winsock2/nf-winsock2-connect"><strong>connect</strong></a> function calls. The returned address contains the port number.</td>
 </tr>
 <tr class="odd">
 <td><strong>LUP_RETURN_BLOB</strong></td>
@@ -89,7 +89,7 @@ Use of this flag is only applicable to the <a href="https://docs.microsoft.com/w
 </tr>
 <tr class="odd">
 <td><strong>LUP_RETURN_COMMENT</strong></td>
-<td>Return the service description in the <strong>lpszComment</strong> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a> structure for each call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta"><strong>WSALookupServiceNext</strong></a> function.</td>
+<td>Return the service description in the <strong>lpszComment</strong> member of the <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a> structure for each call to the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta"><strong>WSALookupServiceNext</strong></a> function.</td>
 </tr>
 <tr class="even">
 <td><strong>LUP_FLUSHPREVIOUS</strong></td>
@@ -219,6 +219,4 @@ After each successful call to the [**WSALookupServiceNext**](/windows/desktop/ap
 
 [Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> </dl>
-
- 
 

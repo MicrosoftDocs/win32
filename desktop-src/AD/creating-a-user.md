@@ -43,27 +43,27 @@ You can also set other attributes. The following user attributes are set with de
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/ADSchema/a-accountexpires"><strong>accountExpires</strong></a></td>
+<td><a href="/windows/desktop/ADSchema/a-accountexpires"><strong>accountExpires</strong></a></td>
 <td>Specifies when the account will expire. The default is <strong>TIMEQ_FOREVER</strong>, which indicates that the account will never expire.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/ADSchema/a-ntsecuritydescriptor"><strong>nTSecurityDescriptor</strong></a></td>
+<td><a href="/windows/desktop/ADSchema/a-ntsecuritydescriptor"><strong>nTSecurityDescriptor</strong></a></td>
 <td>A security descriptor is created based on specific rules. For more information, see <a href="how-security-descriptors-are-set-on-new-directory-objects.md">How Security Descriptors are Set on New Directory Objects</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/ADSchema/a-objectcategory"><strong>objectCategory</strong></a></td>
+<td><a href="/windows/desktop/ADSchema/a-objectcategory"><strong>objectCategory</strong></a></td>
 <td>Specifies the user category. The default is &quot;Person&quot;.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/ADSchema/a-name"><strong>name</strong></a></td>
-<td>Specifies the user name. The default is the value set for <a href="https://docs.microsoft.com/windows/desktop/ADSchema/a-cn"><strong>cn</strong></a>.<br/></td>
+<td><a href="/windows/desktop/ADSchema/a-name"><strong>name</strong></a></td>
+<td>Specifies the user name. The default is the value set for <a href="/windows/desktop/ADSchema/a-cn"><strong>cn</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/ADSchema/a-pwdlastset"><strong>pwdLastSet</strong></a></td>
+<td><a href="/windows/desktop/ADSchema/a-pwdlastset"><strong>pwdLastSet</strong></a></td>
 <td>Specifies when the user last set the password. The default is zero, which indicates that the user must change the password at next logon.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/ADSchema/a-useraccountcontrol"><strong>userAccountControl</strong></a></td>
+<td><a href="/windows/desktop/ADSchema/a-useraccountcontrol"><strong>userAccountControl</strong></a></td>
 <td>Contains values that determine several logon and account features for the user.<br/> By default, the following flags are set:<br/>
 <ul>
 <li><strong>UF_ACCOUNTDISABLE</strong> - The account is disabled.</li>
@@ -72,7 +72,7 @@ You can also set other attributes. The following user attributes are set with de
 </ul></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/ADSchema/a-memberof"><strong>memberOf</strong></a></td>
+<td><a href="/windows/desktop/ADSchema/a-memberof"><strong>memberOf</strong></a></td>
 <td>Specifies the group or groups that the user is a direct member of. The default is &quot;Domain Users&quot;.<br/></td>
 </tr>
 </tbody>
@@ -113,6 +113,3 @@ When a new user account is created, the [**userAccountControl**](/windows/deskto
 
 [Example Code for Creating a User](example-code-for-creating-a-user.md)
 </dt> </dl>
-
- 
-

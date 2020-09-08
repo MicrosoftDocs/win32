@@ -30,7 +30,7 @@ The following technologies and tools, formerly part of the DirectX SDK, are now 
 <tbody>
 <tr class="odd">
 <td><span id="Windows_Graphics_Components"></span><span id="windows_graphics_components"></span><span id="WINDOWS_GRAPHICS_COMPONENTS"></span>Windows Graphics Components<br/></td>
-<td>The headers and libraries for <a href="/windows/desktop/direct3d">Direct3D</a> and other Windows graphics APIs, like <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a>, are available in the Windows SDK. <br/>
+<td>The headers and libraries for <a href="/windows/desktop/direct3d">Direct3D</a> and other Windows graphics APIs, like <a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a>, are available in the Windows SDK. <br/>
 <blockquote>
 [!Note]<br />
 D3DX is only available for download in previous versions of the DirectX SDK. The D3DCSX DirectCompute utility library is available in the Windows SDK.
@@ -48,7 +48,7 @@ The D3DCompiler API is available in the Windows SDK.
 </tr>
 <tr class="odd">
 <td><span id="PIX_for_"></span><span id="pix_for_"></span><span id="PIX_FOR_"></span>PIX for Windows<br/></td>
-<td>A replacement for the PIX for Windows tool is now a feature in Microsoft Visual Studio, called Visual Studio Graphics Debugger. This new feature has greatly improved usability, support for Windows 8, and Direct3D 11.1, and integration with traditional Microsoft Visual Studio features such as call stacks and debugging windows for <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl">HLSL</a> debugging. For more info about this new feature, see <a href="https://docs.microsoft.com/visualstudio/debugger/visual-studio-graphics-diagnostics?view=vs-2015">Debugging DirectX Graphics</a>.<br/></td>
+<td>A replacement for the PIX for Windows tool is now a feature in Microsoft Visual Studio, called Visual Studio Graphics Debugger. This new feature has greatly improved usability, support for Windows 8, and Direct3D 11.1, and integration with traditional Microsoft Visual Studio features such as call stacks and debugging windows for <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl">HLSL</a> debugging. For more info about this new feature, see <a href="/visualstudio/debugger/visual-studio-graphics-diagnostics?view=vs-2015">Debugging DirectX Graphics</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="XAudio2_for_"></span><span id="xaudio2_for_"></span><span id="XAUDIO2_FOR_"></span><a href="/windows/desktop/xaudio2/xaudio2-apis-portal">XAudio2</a> for Windows<br/></td>
@@ -60,7 +60,7 @@ The D3DCompiler API is available in the Windows SDK.
 </tr>
 <tr class="even">
 <td><span id="XNAMATH"></span><span id="xnamath"></span>XNAMATH<br/></td>
-<td>The most recent version of XNAMATH, which is updated for Windows 8, is now <a href="https://docs.microsoft.com/windows/desktop/dxmath/directxmath-portal">DirectXMath</a>. The headers for DirectXMath are available in the Windows SDK.<br/></td>
+<td>The most recent version of XNAMATH, which is updated for Windows 8, is now <a href="/windows/desktop/dxmath/directxmath-portal">DirectXMath</a>. The headers for DirectXMath are available in the Windows SDK.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="DirectX_Control_Panel_and_DirectX_Capabilities_Viewer"></span><span id="directx_control_panel_and_directx_capabilities_viewer"></span><span id="DIRECTX_CONTROL_PANEL_AND_DIRECTX_CAPABILITIES_VIEWER"></span>DirectX Control Panel and DirectX Capabilities Viewer<br/></td>

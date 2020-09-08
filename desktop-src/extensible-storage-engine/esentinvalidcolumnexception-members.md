@@ -57,43 +57,43 @@ Top
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.data?redirectedfrom=MSDN#System_Exception_Data">Data</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
+<td><a href="/dotnet/api/system.exception.data#System_Exception_Data">Data</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.helplink?redirectedfrom=MSDN#System_Exception_HelpLink">HelpLink</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
+<td><a href="/dotnet/api/system.exception.helplink#System_Exception_HelpLink">HelpLink</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Protected property" alt="Protected property" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.hresult?redirectedfrom=MSDN#System_Exception_HResult">HResult</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.innerexception?redirectedfrom=MSDN#System_Exception_InnerException">InnerException</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
+<td><a href="/dotnet/api/system.exception.innerexception#System_Exception_InnerException">InnerException</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn319488(v=exchg.10).md">Message</a></td>
-<td>Gets a text message describing the exception. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.exception.message?redirectedfrom=MSDN#System_Exception_Message">Exception.Message</a>.)</td>
+<td>Gets a text message describing the exception. (Overrides <a href="/dotnet/api/system.exception.message#System_Exception_Message">Exception.Message</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.source?redirectedfrom=MSDN#System_Exception_Source">Source</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
+<td><a href="/dotnet/api/system.exception.source#System_Exception_Source">Source</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.stacktrace?redirectedfrom=MSDN#System_Exception_StackTrace">StackTrace</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.targetsite?redirectedfrom=MSDN#System_Exception_TargetSite">TargetSite</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
+<td><a href="/dotnet/api/system.exception.targetsite#System_Exception_TargetSite">TargetSite</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 </tbody>
 </table>
@@ -114,43 +114,43 @@ Top
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.equals?redirectedfrom=MSDN#System_Object_Equals_System_Object_">Equals</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
+<td><a href="/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Equals</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.finalize?redirectedfrom=MSDN#System_Object_Finalize">Finalize</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
+<td><a href="/dotnet/api/system.object.finalize#System_Object_Finalize">Finalize</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.getbaseexception?redirectedfrom=MSDN#System_Exception_GetBaseException">GetBaseException</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
+<td><a href="/dotnet/api/system.exception.getbaseexception#System_Exception_GetBaseException">GetBaseException</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode?redirectedfrom=MSDN#System_Object_GetHashCode">GetHashCode</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
+<td><a href="/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">GetHashCode</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.getobjectdata?redirectedfrom=MSDN#System_Exception_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_">GetObjectData</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
+<td><a href="/dotnet/api/system.exception.getobjectdata#System_Exception_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_">GetObjectData</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.gettype?redirectedfrom=MSDN#System_Exception_GetType">GetType</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
+<td><a href="/dotnet/api/system.exception.gettype#System_Exception_GetType">GetType</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292116.protmethod(exchg.10).gif" title="Protected method" alt="Protected method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone?redirectedfrom=MSDN#System_Object_MemberwiseClone">MemberwiseClone</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN">Object</a>.)</td>
+<td><a href="/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">MemberwiseClone</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.object">Object</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.exception.tostring?redirectedfrom=MSDN#System_Exception_ToString">ToString</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN">Exception</a>.)</td>
+<td><a href="/dotnet/api/system.exception.tostring#System_Exception_ToString">ToString</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 </tbody>
 </table>
@@ -165,4 +165,3 @@ Top
 [EsentInvalidColumnException class](dn319487\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

@@ -607,7 +607,7 @@ The following table lists the events that the presenter sends, along with the ev
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-complete"><strong>EC_COMPLETE</strong></a></td>
+<td><a href="/windows/desktop/DirectShow/ec-complete"><strong>EC_COMPLETE</strong></a></td>
 <td>The presenter has finished rendering all frames after the MFVP_MESSAGE_ENDOFSTREAM message.<br/>
 <ul>
 <li><em>Param1</em>: HRESULT indicating the status of the operation.</li>
@@ -616,7 +616,7 @@ The following table lists the events that the presenter sends, along with the ev
 For more information, see <a href="#end-of-stream">End of Stream</a>.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-display-changed"><strong>EC_DISPLAY_CHANGED</strong></a></td>
+<td><a href="/windows/desktop/DirectShow/ec-display-changed"><strong>EC_DISPLAY_CHANGED</strong></a></td>
 <td>The Direct3D device has changed.<br/>
 <ul>
 <li><em>Param1</em>: Not used.</li>
@@ -625,7 +625,7 @@ For more information, see <a href="#end-of-stream">End of Stream</a>.<br/></td>
 For more information, see <a href="#managing-the-direct3d-device">Managing the Direct3D Device</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-errorabort"><strong>EC_ERRORABORT</strong></a></td>
+<td><a href="/windows/desktop/DirectShow/ec-errorabort"><strong>EC_ERRORABORT</strong></a></td>
 <td>An error has occurred that requires streaming to stop.<br/>
 <ul>
 <li><em>Param1</em>: <strong>HRESULT</strong> indicating the error that occurred.</li>
@@ -633,7 +633,7 @@ For more information, see <a href="#managing-the-direct3d-device">Managing the D
 </ul></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-processing-latency"><strong>EC_PROCESSING_LATENCY</strong></a></td>
+<td><a href="/windows/desktop/DirectShow/ec-processing-latency"><strong>EC_PROCESSING_LATENCY</strong></a></td>
 <td>Specifies the amount of time that the presenter is taking to render each frame. (Optional.)<br/>
 <ul>
 <li><em>Param1</em>: Pointer to a constant <strong>LONGLONG</strong> value that contains the amount of time to process the frame, in 100-nanosecond units.</li>
@@ -642,7 +642,7 @@ For more information, see <a href="#managing-the-direct3d-device">Managing the D
 For more information, see <a href="#processing-output">Processing Output</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-sample-latency"><strong>EC_SAMPLE_LATENCY</strong></a></td>
+<td><a href="/windows/desktop/DirectShow/ec-sample-latency"><strong>EC_SAMPLE_LATENCY</strong></a></td>
 <td>Specifies the current lag time in rendering samples. If the value is positive, samples are behind schedule. If the value is negative, samples are ahead of schedule. (Optional.)<br/>
 <ul>
 <li><em>Param1</em>: Pointer to a constant <strong>LONGLONG</strong> value that contains the lag time, in 100-nanosecond units.</li>
@@ -650,7 +650,7 @@ For more information, see <a href="#processing-output">Processing Output</a>.<br
 </ul></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-scrub-time"><strong>EC_SCRUB_TIME</strong></a></td>
+<td><a href="/windows/desktop/DirectShow/ec-scrub-time"><strong>EC_SCRUB_TIME</strong></a></td>
 <td>Sent immediately after <strong>EC_STEP_COMPLETE</strong> if the playback rate is zero. This event contains the time stamp of the frame that was displayed.<br/>
 <ul>
 <li><em>Param1</em>: Lower 32 bits of the time stamp.</li>
@@ -659,7 +659,7 @@ For more information, see <a href="#processing-output">Processing Output</a>.<br
 For more information, see <a href="#frame-stepping">Frame Stepping</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-step-complete"><strong>EC_STEP_COMPLETE</strong></a></td>
+<td><a href="/windows/desktop/DirectShow/ec-step-complete"><strong>EC_STEP_COMPLETE</strong></a></td>
 <td>The presenter has completed or canceled a frame step.<br/>
 <ul>
 <li><em>Param1</em>: Not used.</li>

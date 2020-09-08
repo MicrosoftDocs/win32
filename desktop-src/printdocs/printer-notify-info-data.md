@@ -193,7 +193,7 @@ If the **Type** member specifies PRINTER\_NOTIFY\_TYPE, the **Field** member can
 </tr>
 <tr class="odd">
 <td>PRINTER_NOTIFY_FIELD_SECURITY_DESCRIPTOR</td>
-<td><strong>pBuf</strong> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor"><strong>SECURITY_DESCRIPTOR</strong></a> structure for the printer. The pointer may be <strong>NULL</strong> if there is no security descriptor.</td>
+<td><strong>pBuf</strong> is a pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor"><strong>SECURITY_DESCRIPTOR</strong></a> structure for the printer. The pointer may be <strong>NULL</strong> if there is no security descriptor.</td>
 <td>0x0C</td>
 </tr>
 <tr class="even">
@@ -359,6 +359,4 @@ If the **Type** member specifies JOB\_NOTIFY\_TYPE, the **Field** member can be 
 
 [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime)
 </dt> </dl>
-
- 
 

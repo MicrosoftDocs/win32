@@ -32,19 +32,19 @@ The ACF parameter attributes let you specify attributes that apply to individual
 [**/osf**](/windows/desktop/Midl/-osf)
 </dt> <dt>
 
-[**\[auto\_handle\]**](https://msdn.microsoft.com/library/windows/desktop/aa366736)
+[**\[auto\_handle\]**](../midl/auto-handle.md)
 </dt> <dt>
 
-[**\[code\]**](https://msdn.microsoft.com/library/windows/desktop/aa366752)
+[**\[code\]**](../midl/code.md)
 </dt> <dt>
 
-[**\[explicit\_handle\]**](https://msdn.microsoft.com/library/windows/desktop/aa366825)
+[**\[explicit\_handle\]**](../midl/explicit-handle.md)
 </dt> <dt>
 
 [The Interface Definition Language (IDL) File](the-interface-definition-language-idl-file.md)
 </dt> <dt>
 
-[**\[implicit\_handle\]**](https://msdn.microsoft.com/library/windows/desktop/aa367046)
+[**\[implicit\_handle\]**](../midl/implicit-handle.md)
 </dt> <dt>
 
 [**include**](/windows/desktop/Midl/include)
@@ -53,13 +53,13 @@ The ACF parameter attributes let you specify attributes that apply to individual
 [midl](/windows/desktop/Midl/midl-language-reference)
 </dt> <dt>
 
-[**\[nocode\]**](https://msdn.microsoft.com/library/windows/desktop/aa367116)
+[**\[nocode\]**](../midl/nocode.md)
 </dt> <dt>
 
-[**\[optimize\]**](https://msdn.microsoft.com/library/windows/desktop/aa367131)
+[**\[optimize\]**](../midl/optimize.md)
 </dt> <dt>
 
-[**\[represent\_as\]**](https://msdn.microsoft.com/library/windows/desktop/aa367154)
+[**\[represent\_as\]**](../midl/represent-as.md)
 </dt> <dt>
 
 [**typedef**](/windows/desktop/Midl/typedef)

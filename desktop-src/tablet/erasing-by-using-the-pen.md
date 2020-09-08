@@ -37,7 +37,7 @@ If your application allows the top of the pen to be used for erasing, you should
 
 Use this cached value to modify the behavior of your application appropriately.
 
-The following C\# example defines a `GetEraseEnabled` method that checks the value of the `EraseEnable` entry of the `SysEventParameters` subkey. The `GetEraseEnabled` method returns **TRUE** if the value of the entry is 1; returns **FALSE** if the value of the entry is 0; or throws an [InvalidOperationException](https://docs.microsoft.com/dotnet/api/system.invalidoperationexception?redirectedfrom=MSDN) exception if the value of the entry is other than 1 or 0. The `GetEraseEnabled` method returns the expected value of **TRUE** if either the subkey or the entry is not present.
+The following C\# example defines a `GetEraseEnabled` method that checks the value of the `EraseEnable` entry of the `SysEventParameters` subkey. The `GetEraseEnabled` method returns **TRUE** if the value of the entry is 1; returns **FALSE** if the value of the entry is 0; or throws an [InvalidOperationException](/dotnet/api/system.invalidoperationexception) exception if the value of the entry is other than 1 or 0. The `GetEraseEnabled` method returns the expected value of **TRUE** if either the subkey or the entry is not present.
 
 
 ```C++
@@ -86,6 +86,3 @@ private bool GetEraseEnabled()
  
 
  
-
-
-

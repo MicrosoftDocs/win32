@@ -356,7 +356,7 @@ When <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>CredSs
 <tr class="even">
 <td style="text-align: left;"><a href="imsrdpclientnonscriptable4-publishercertificatechain.md"><strong>PublisherCertificateChain</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies the publisher certificate chain. The chain is stored in a variant of type VT_BYREF that contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context"><strong>CERT_CHAIN_CONTEXT</strong></a> structure.<br/></td>
+<td style="text-align: left;">Specifies the publisher certificate chain. The chain is stored in a variant of type VT_BYREF that contains a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context"><strong>CERT_CHAIN_CONTEXT</strong></a> structure.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="imsrdpclientnonscriptable3-redirectdynamicdevices.md"><strong>RedirectDynamicDevices</strong></a><br/></td>
@@ -530,6 +530,4 @@ When <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>CredSs
 
 [Remote Desktop ActiveX control classes](remote-desktop-activex-control-classes.md)
 </dt> </dl>
-
- 
 

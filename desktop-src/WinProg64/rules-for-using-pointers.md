@@ -70,10 +70,10 @@ Porting your code to compile for both 32- and 64-bit Microsoft Windows is straig
 
     If you have window or class private data that contains pointers, your code will need to use the following new functions:
 
-    -   [**GetClassLongPtr**](https://msdn.microsoft.com/library/ms633581(v=VS.85).aspx)
-    -   [**GetWindowLongPtr**](https://msdn.microsoft.com/library/ms633585(v=VS.85).aspx)
-    -   [**SetClassLongPtr**](https://msdn.microsoft.com/library/ms633589(v=VS.85).aspx)
-    -   [**SetWindowLongPtr**](https://msdn.microsoft.com/library/ms644898(v=VS.85).aspx)
+    -   [**GetClassLongPtr**](/windows/win32/api/winuser/nf-winuser-getclasslongptra)
+    -   [**GetWindowLongPtr**](/windows/win32/api/winuser/nf-winuser-getwindowlongptra)
+    -   [**SetClassLongPtr**](/windows/win32/api/winuser/nf-winuser-setclasslongptra)
+    -   [**SetWindowLongPtr**](/windows/win32/api/winuser/nf-winuser-setwindowlongptra)
 
     These functions can be used on both 32- and 64-bit Windows, but they are required on 64-bit Windows. Prepare for the transition by using these functions now.
 

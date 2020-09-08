@@ -97,7 +97,7 @@ The following event identifiers are defined.
 <td>PERFINFO_STREAMTRACE_MPEG2DEMUX_SAMPLE_RECEIVE</td>
 <td>Logged when MPEG-2 Demultiplexer receives a sample.
 <ul>
-<li><strong>data</strong>[0]: Current time returned by <a href="https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx>"><strong>QueryPerformanceCounter</strong></a>.</li>
+<li><strong>data</strong>[0]: Current time returned by <a href="/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter"><strong>QueryPerformanceCounter</strong></a>.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -182,7 +182,3 @@ To log this event from a DirectShow filter, use the **PERFLOG\_STREAMTRACE** fun
  
 
  
-
-
-
-

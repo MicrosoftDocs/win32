@@ -81,7 +81,7 @@ In addition, the following values are supported for MPEG-2 LSF: <br/>
 <li>MPEG-1 mono: 192,000 bps = 24,000 bytes per second.</li>
 <li>MPEG-2 LSF, mono or stereo: 160,000 bps = 20,000 bytes per second.</li>
 </ul>
-This attribute can be set to other values. If the value is not valid according to MPEG specifications, the MFT will reject the media type.<br/> You can also set the bit rate by using the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi"><strong>ICodecAPI</strong></a> interface. See Remarks for more information.<br/></td>
+This attribute can be set to other values. If the value is not valid according to MPEG specifications, the MFT will reject the media type.<br/> You can also set the bit rate by using the <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi"><strong>ICodecAPI</strong></a> interface. See Remarks for more information.<br/></td>
 </tr>
 </tbody>
 </table>

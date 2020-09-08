@@ -68,7 +68,7 @@ The type of system command requested. This parameter can be one of the following
 </tr>
 <tr class="even">
 <td><span id="SC_CONTEXTHELP"></span><span id="sc_contexthelp"></span><dl> <dt><strong>SC_CONTEXTHELP</strong></dt> <dt>0xF180</dt> </dl></td>
-<td>Changes the cursor to a question mark with a pointer. If the user then clicks a control in the dialog box, the control receives a <a href="https://docs.microsoft.com/windows/desktop/shell/wm-help"><strong>WM_HELP</strong></a> message.<br/></td>
+<td>Changes the cursor to a question mark with a pointer. If the user then clicks a control in the dialog box, the control receives a <a href="/windows/desktop/shell/wm-help"><strong>WM_HELP</strong></a> message.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="SC_DEFAULT"></span><span id="sc_default"></span><dl> <dt><strong>SC_DEFAULT</strong></dt> <dt>0xF160</dt> </dl></td>
@@ -239,6 +239,4 @@ If the *wParam* is **SC\_KEYMENU**, *lParam* contains the character code of the 
 
 [Keyboard Accelerators](keyboard-accelerators.md)
 </dt> </dl>
-
- 
 

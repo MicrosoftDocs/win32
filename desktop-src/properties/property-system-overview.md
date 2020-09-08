@@ -115,7 +115,7 @@ The remainder of this documentation contains the following sections:
 ## Additional Resources
 
 -   For information about reusing the In-Memory Property Store, see [Initializing Property Handlers](building-property-handlers-property-handlers.md) and [**PSCreateMemoryPropertyStore**](/windows/desktop/api/Propsys/nf-propsys-pscreatememorypropertystore).
--   For a specification of the Microsoft Property Store Binary File Format, see [\[MS\_PROPSTORE\]](https://docs.microsoft.com/openspecs/windows_protocols/ms-propstore/39ea873f-7af5-44dd-92f9-bc1f293852cc).
+-   For a specification of the Microsoft Property Store Binary File Format, see [\[MS\_PROPSTORE\]](/openspecs/windows_protocols/ms-propstore/39ea873f-7af5-44dd-92f9-bc1f293852cc).
 -   The relationship between Windows Search and indexing, and how to extend the index, are explained in the following topics in Windows Search:
     -   [Developing Filter Handlers for Windows Search](../search/-search-ifilter-conceptual.md)
     -   [Developing Protocol Handlers for Windows Search](../search/-search-3x-wds-phaddins.md)

@@ -41,7 +41,7 @@ The [**CHString**](chstring.md) class exposes the following methods.
 -   [**MakeReverse method**](/windows/desktop/api/ChString/nf-chstring-chstring-makereverse)
 -   [**MakeUpper method**](/windows/desktop/api/ChString/nf-chstring-chstring-makeupper)
 -   [**Mid methods**](/windows/desktop/api/ChString/nf-chstring-chstring-mid)
--   [**operator\[\] method**](https://msdn.microsoft.com/library/Aa386162(v=VS.85).aspx)
+-   [**operator\[\] method**](/previous-versions/windows/desktop/legacy/aa386162(v=vs.85))
 -   [**CHString::operator+**](chstring--operator-plus.md)
 -   [**CHString::operator+=**](chstring--operator-plus-equal.md)
 -   [**CHString::operator=**](chstring--operator-equal.md)

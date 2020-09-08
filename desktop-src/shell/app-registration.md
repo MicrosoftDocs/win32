@@ -107,7 +107,7 @@ Using the DropTarget entry avoids these potential issues by providing access to 
     </tr>
     <tr class="odd">
     <td>DropTarget</td>
-    <td>Is a class identifier (CLSID). The DropTarget entry contains the CLSID of an object (usually a local server rather than an in-process server) that implements <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>IDropTarget</strong></a>. By default, when the drop target is an executable file, and no DropTarget value is provided, the Shell converts the list of dropped files into a command-line parameter and passes it to <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> through <em>lpParameters</em>.</td>
+    <td>Is a class identifier (CLSID). The DropTarget entry contains the CLSID of an object (usually a local server rather than an in-process server) that implements <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>IDropTarget</strong></a>. By default, when the drop target is an executable file, and no DropTarget value is provided, the Shell converts the list of dropped files into a command-line parameter and passes it to <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> through <em>lpParameters</em>.</td>
     </tr>
     <tr class="even">
     <td>Path</td>
@@ -300,6 +300,4 @@ HKEY_CLASSES_ROOT
 
 [Association Arrays](fa-associationarray.md)
 </dt> </dl>
-
- 
 

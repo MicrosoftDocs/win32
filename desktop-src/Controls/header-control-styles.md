@@ -69,7 +69,7 @@ Comctl32.dll version 6 is not redistributable but it is included in Windows. To 
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="HDS_HIDDEN"></span><span id="hds_hidden"></span><dl> <dt><strong>HDS_HIDDEN</strong></dt> </dl></td>
-<td style="text-align: left;">Indicates a header control that is intended to be hidden. This style does not hide the control. Instead, when you send the <a href="hdm-layout.md"><strong>HDM_LAYOUT</strong></a> message to a header control with the HDS_HIDDEN style, the control returns zero in the <strong>cy</strong> member of the <a href="https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-windowpos"><strong>WINDOWPOS</strong></a> structure. You would then hide the control by setting its height to zero. This can be useful when you want to use the control as an information container instead of a visual control. <br/></td>
+<td style="text-align: left;">Indicates a header control that is intended to be hidden. This style does not hide the control. Instead, when you send the <a href="hdm-layout.md"><strong>HDM_LAYOUT</strong></a> message to a header control with the HDS_HIDDEN style, the control returns zero in the <strong>cy</strong> member of the <a href="/windows/win32/api/winuser/ns-winuser-windowpos"><strong>WINDOWPOS</strong></a> structure. You would then hide the control by setting its height to zero. This can be useful when you want to use the control as an information container instead of a visual control. <br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="HDS_HORZ"></span><span id="hds_horz"></span><dl> <dt><strong>HDS_HORZ</strong></dt> </dl></td>
@@ -109,6 +109,4 @@ To retrieve and change the styles after creating the control, use the [**GetWind
 | Header<br/> | <dl> <dt>CommCtrl.h</dt> </dl> |
 
 
-
- 
 

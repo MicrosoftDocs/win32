@@ -101,7 +101,7 @@ End Function </code></pre></td>
 </tr>
 <tr class="even">
 <td><p>...determine the time currently configured on a computer?</p></td>
-<td><p>Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmitimepprov/win32-localtime"><strong>Win32_LocalTime</strong></a> class.</p>
+<td><p>Use the <a href="/previous-versions/windows/desktop/wmitimepprov/win32-localtime"><strong>Win32_LocalTime</strong></a> class.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -172,7 +172,7 @@ Foreach ($time in $times) {
 </tr>
 <tr class="odd">
 <td><p>...determine the name of the time zone in which a computer is running?</p></td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-timezone"><strong>Win32_TimeZone</strong></a> class and check the value of the <strong>Description</strong> property.</p>
+<td><p>Use the <a href="/windows/desktop/CIMWin32Prov/win32-timezone"><strong>Win32_TimeZone</strong></a> class and check the value of the <strong>Description</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -230,7 +230,7 @@ if ($computer -eq &quot;.&quot;) {$computer = Hostname}
 </tr>
 <tr class="even">
 <td><p>...ensure that &quot;10/02/2000&quot; is interpreted as Oct. 2, 2000, not &quot;10 Feb, 2000&quot;?</p></td>
-<td><p>Manage dates in <a href="gloss-c.md"><em>CIM</em></a> <a href="datetime.md">DATETIME</a> format and use <a href="swbemdatetime.md"><strong>SWbemDateTime</strong></a> methods, such as <a href="swbemdatetime-getvardate.md"><strong>GetVarDate</strong></a> to convert to them to and from either <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime"><strong>FILETIME</strong></a> or <strong>VT_Date</strong> formats. Because DATETIME format is locale-independent, you can write a script that runs on any machine. Use the <strong>SWbemDateTime</strong> object to convert these to regular dates and times. See <a href="date-and-time-format.md">Date and Time Format</a> for more information on converting dates and times.</p></td>
+<td><p>Manage dates in <a href="gloss-c.md"><em>CIM</em></a> <a href="datetime.md">DATETIME</a> format and use <a href="swbemdatetime.md"><strong>SWbemDateTime</strong></a> methods, such as <a href="swbemdatetime-getvardate.md"><strong>GetVarDate</strong></a> to convert to them to and from either <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime"><strong>FILETIME</strong></a> or <strong>VT_Date</strong> formats. Because DATETIME format is locale-independent, you can write a script that runs on any machine. Use the <strong>SWbemDateTime</strong> object to convert these to regular dates and times. See <a href="date-and-time-format.md">Date and Time Format</a> for more information on converting dates and times.</p></td>
 </tr>
 <tr class="odd">
 <td><p>...convert a WMI datetime to a .NET DateTime value?</p></td>

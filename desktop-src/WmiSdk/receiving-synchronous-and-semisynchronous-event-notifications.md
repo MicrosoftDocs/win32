@@ -25,7 +25,7 @@ The following procedure describes how to receive semisynchronous event notificat
 
 1.  Create a query for the type of event that you want to receive. For more information, see [Determining the Type of Event to Receive](determining-the-type-of-event-to-receive.md).
 
-2.  If you request an instance type of event such as [**\_\_InstanceCreationEvent**](--instancecreationevent.md), indicate in the query a type of target instance, for example, [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk).
+2.  If you request an instance type of event such as [**\_\_InstanceCreationEvent**](--instancecreationevent.md), indicate in the query a type of target instance, for example, [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk).
 
 3.  If necessary, specify an instance, for example, the name of a namespace when requesting future [**\_\_NamespaceModificationEvent**](--namespacemodificationevent.md) instances for a specific namespace.
 
@@ -35,7 +35,7 @@ The following procedure describes how to receive semisynchronous event notificat
 
 6.  Loop through the collection you receive.
 
-The following example shows how to monitor insertion and removal of disks from a floppy disk drive on a local machine. The script requests \_[**\_\_InstanceModificationEvent**](--instancemodificationevent.md) instances for the floppy drive [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) instance and polls every 10 seconds for new instances. This script is an example of a temporary event consumer, and continues running until it is stopped in Task Manager or the system is rebooted. For more information, see [Receiving Events for the Duration of your Application](receiving-events-for-the-duration-of-your-application.md).
+The following example shows how to monitor insertion and removal of disks from a floppy disk drive on a local machine. The script requests \_[**\_\_InstanceModificationEvent**](--instancemodificationevent.md) instances for the floppy drive [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) instance and polls every 10 seconds for new instances. This script is an example of a temporary event consumer, and continues running until it is stopped in Task Manager or the system is rebooted. For more information, see [Receiving Events for the Duration of your Application](receiving-events-for-the-duration-of-your-application.md).
 
 
 ```VB

@@ -44,7 +44,7 @@ Network DDE provides functions that allow you to delete a share, get or set shar
 </tr>
 <tr class="odd">
 <td>Enumerate connected users</td>
-<td>Use the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsessionenum"><strong>NetSessionEnum</strong></a> function.</td>
+<td>Use the <a href="/windows/desktop/api/lmshare/nf-lmshare-netsessionenum"><strong>NetSessionEnum</strong></a> function.</td>
 </tr>
 <tr class="even">
 <td>Change the DDE share name</td>
@@ -65,9 +65,4 @@ Network DDE provides functions that allow you to delete a share, get or set shar
  
 
  
-
- 
-
-
-
 

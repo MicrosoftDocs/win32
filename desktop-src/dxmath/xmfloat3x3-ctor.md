@@ -41,8 +41,8 @@ Constructs instances of the [**XMFLOAT3X3**](/windows/win32/api/directxmath/ns-d
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmfloat3x3-xmfloat3x3"><strong>XMFLOAT3X3 ()</strong></a></td>
-<td style="text-align: left;">Default constructor for <code>XMFLOAT3X3</code><br/> Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3"><strong>XMFLOAT3X3</strong></a><br/>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat3x3-xmfloat3x3"><strong>XMFLOAT3X3 ()</strong></a></td>
+<td style="text-align: left;">Default constructor for <code>XMFLOAT3X3</code><br/> Default constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3"><strong>XMFLOAT3X3</strong></a><br/>
 <blockquote>
 [!Note]<br />
 This is only available for C++ based development.
@@ -50,8 +50,8 @@ This is only available for C++ based development.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmfloat3x3-xmfloat3x3(constfloat)"><strong>XMFLOAT3X3 (const float*)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT3X3</code> structure from a nine element <code>float</code> array. <br/> Initializes a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3"><strong>XMFLOAT3X3</strong></a> structure from a nine element <code>float</code> array. <br/>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat3x3-xmfloat3x3(constfloat)"><strong>XMFLOAT3X3 (const float*)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT3X3</code> structure from a nine element <code>float</code> array. <br/> Initializes a new instance of the <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3"><strong>XMFLOAT3X3</strong></a> structure from a nine element <code>float</code> array. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -59,8 +59,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmfloat3x3-xmfloat3x3(float_float_float_float_float_float_float_float_float)"><strong>XMFLOAT3X3 (float,float,float,float,float,float,float,float,float)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT3X3</code> structure from nine scalar <code>float</code> values. <br/> Initializes a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3"><strong>XMFLOAT3X3</strong></a> structure from nine scalar <code>float</code> values. <br/>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat3x3-xmfloat3x3(float_float_float_float_float_float_float_float_float)"><strong>XMFLOAT3X3 (float,float,float,float,float,float,float,float,float)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT3X3</code> structure from nine scalar <code>float</code> values. <br/> Initializes a new instance of the <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3"><strong>XMFLOAT3X3</strong></a> structure from nine scalar <code>float</code> values. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.

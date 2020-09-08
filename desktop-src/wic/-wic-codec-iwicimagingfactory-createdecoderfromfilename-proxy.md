@@ -72,7 +72,7 @@ Type: **DWORD**
 
 The access to the object, which can be read, write, or both.
 
-For more information, see [File Security and Access Rights \[Files\]](https://msdn.microsoft.com/library/Aa364399(VS.85).aspx).
+For more information, see [File Security and Access Rights \[Files\]](../fileio/file-security-and-access-rights.md).
 
 </dd> <dt>
 
@@ -115,9 +115,4 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
  
-
- 
-
-
-
 

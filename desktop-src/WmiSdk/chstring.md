@@ -104,7 +104,7 @@ The **CHString** class has these operators.`
 |:----------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------|
 | [**operator != (CHString, CHString)**](/previous-versions/windows/desktop/legacy/aa385704(v=vs.85))            | Compares two **CHStrings** for inequality.<br/>                                                             |
 | [**operator != (CHString, LPCWSTR)**](/previous-versions/windows/desktop/legacy/aa385763(v=vs.85))              | Compares a **CHString** with a **LPCWSTR** for inequality.<br/>                                             |
-| [**operator \[\]**](https://msdn.microsoft.com/library/Aa386162(v=VS.85).aspx)                                                | Returns the character at a given position   operator substitution for [**GetAt**](/windows/desktop/api/ChString/nf-chstring-chstring-getat(int)).<br/> |
+| [**operator \[\]**](/previous-versions/windows/desktop/legacy/aa386162(v=vs.85))                                                | Returns the character at a given position   operator substitution for [**GetAt**](/windows/desktop/api/ChString/nf-chstring-chstring-getat(int)).<br/> |
 | [**operator +**](chstring--operator-plus.md)                                                       | Concatenates two strings and returns a new string.<br/>                                                     |
 | [**operator +=**](chstring--operator-plus-equal.md)                                                | Concatenates a new string to the end of an existing string.<br/>                                            |
 | [**operator < (CHString, LPCWSTR)**](/previous-versions/windows/desktop/legacy/aa385695(v=vs.85))            | Compares a **CHString** with a **LPCWSTR**.<br/>                                                            |
@@ -141,6 +141,4 @@ The destructor for the class is **CHString::~CHString**.
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |
 
 
-
- 
 
