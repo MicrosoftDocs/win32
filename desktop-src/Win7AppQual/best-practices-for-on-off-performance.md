@@ -50,7 +50,7 @@ System extensions like drivers, applications, and services can have a significan
 -   [On/Off Transition Performance Analysis of Windows Vista](/windows-hardware/test/assessments/onoff-transition-performance)
 -   [Windows Performance Analysis](https://msdn.microsoft.com/performance/default.aspx)
 -   [Windows Performance Toolkit documentation on MSDN](/previous-versions/windows/desktop/xperf/windows-performance-analyzer--wpa-)
--   [Windows Performance Analysis forum](https://social.msdn.microsoft.com/Forums/en-US/wptk_v4/threads/)
+-   [Windows Performance Analysis forum](https://social.msdn.microsoft.com/Forums/wptk_v4/threads/)
 -   [Event Tracing for Windows on MSDN](../etw/event-tracing-portal.md)
 
  

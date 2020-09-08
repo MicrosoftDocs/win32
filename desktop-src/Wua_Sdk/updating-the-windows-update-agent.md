@@ -24,9 +24,9 @@ A user can manually update WUA to a current version by opening the Windows Updat
 
 **To programmatically update WUA on versions of Windows prior to Windows 7 and Windows Server 2008 R2**
 
-1.  Use the [WinHTTP](../winhttp/winhttp-start-page.md) APIs to download [Wuredist.cab](http://update.microsoft.com/redist/wuredist.cab).
-2.  Use the [Cryptography Functions](../seccrypto/cryptography-functions.md) to verify that the downloaded copy of [Wuredist.cab](http://update.microsoft.com/redist/wuredist.cab) has a digital signature from Microsoft. If you can't verify the digital signature, stop.
-3.  Use the [File Decompression Interface](../devnotes/cabinet-api-functions.md) APIs to extract the XML file from [Wuredist.cab](http://update.microsoft.com/redist/wuredist.cab).
+1.  Use the [WinHTTP](../winhttp/winhttp-start-page.md) APIs to download [Wuredist.cab](https://update.microsoft.com/redist/wuredist.cab).
+2.  Use the [Cryptography Functions](../seccrypto/cryptography-functions.md) to verify that the downloaded copy of [Wuredist.cab](https://update.microsoft.com/redist/wuredist.cab) has a digital signature from Microsoft. If you can't verify the digital signature, stop.
+3.  Use the [File Decompression Interface](../devnotes/cabinet-api-functions.md) APIs to extract the XML file from [Wuredist.cab](https://update.microsoft.com/redist/wuredist.cab).
 4.  Use the Microsoft XML Core Services ([MSXML](/previous-versions/windows/desktop/ms763742(v=vs.85))) APIs to load the XML file and locate the WURedist/StandaloneRedist/architecture node for the computer's architecture. For example, for x86, locate the WURedist/StandaloneRedist/architecture node with the **name** attribute of x86.
 5.  Call [**IWindowsUpdateAgentInfo::GetInfo**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsupdateagentinfo-getinfo) to determine the current version of WUA. If **IWindowsUpdateAgentInfo::GetInfo** returns a version number that is at least as high as the **clientVersion** attribute in the architecture node you located, stop.
 6.  Use the [MSXML](/previous-versions/windows/desktop/ms763742(v=vs.85)) APIs to read the **downloadUrl** attribute from the architecture node that you located. **downloadUrl** gives you the download URL for the appropriate WUA installer for the computer's architecture.

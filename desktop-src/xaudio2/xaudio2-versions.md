@@ -43,7 +43,7 @@ All previous versions of XAudio2 for use in apps have been provided as redistrib
 
 For access to historical versions of XAudio2, download the DirectX SDK from the Microsoft Download Center. The June 2010 release of the DirectX SDK is available at:
 
-<http://www.microsoft.com/download/en/details.aspx?id=6812>
+<https://www.microsoft.com/download/en/details.aspx?id=6812>
 
 Previous versions of XAudio2 cannot be used to build Windows Store apps for Windows 8.
 

@@ -117,7 +117,7 @@ Barycentric coordinates are a form of general coordinates. In this context, usin
 
 The return value for this function is the same value returned in the *pOut* parameter. In this way, the **D3DXVec4BaryCentric** function can be used as a parameter for another function.
 
-Barycentric coordinates define a point inside a triangle in terms of the triangle's vertices. For a more in-depth description of barycentric coordinates, see [Mathworld's Barycentric Coordinates Description](http://mathworld.wolfram.com/BarycentricCoordinates.html).
+Barycentric coordinates define a point inside a triangle in terms of the triangle's vertices. For a more in-depth description of barycentric coordinates, see [Mathworld's Barycentric Coordinates Description](https://mathworld.wolfram.com/BarycentricCoordinates.html).
 
 ## Requirements
 

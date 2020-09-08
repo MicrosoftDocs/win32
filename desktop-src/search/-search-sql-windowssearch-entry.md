@@ -29,7 +29,7 @@ This documentation assumes familiarity with Object Linking and Embedding Databas
 
 ## Code samples
 
-The WSSQL code sample demonstrates how to communicate between Microsoft OLE DB and Windows Search through SQL. The WSOleDB code sample illustrates Active Template Library (ATL) OLE DB access to Windows Search applications, and two additional methods for retrieving results from Windows Search. Both samples are available in the [Windows Search Samples](-search-samples-ovw.md) and the [Windows 10 SDK](https://developer.microsoft.com/en-US/windows/downloads/windows-10-sdk)
+The WSSQL code sample demonstrates how to communicate between Microsoft OLE DB and Windows Search through SQL. The WSOleDB code sample illustrates Active Template Library (ATL) OLE DB access to Windows Search applications, and two additional methods for retrieving results from Windows Search. Both samples are available in the [Windows Search Samples](-search-samples-ovw.md) and the [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk)
 
 ## Related topics
 

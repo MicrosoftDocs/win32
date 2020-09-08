@@ -18,7 +18,7 @@ The **\[**[**wire\_marshal**](/windows/desktop/Midl/wire-marshal)**\]** and **\[
 
 The **\[wire\_marshal\]** and **\[user\_marshal\]** attributes make it possible to marshal data types that otherwise could not be transmitted across process boundaries. Also, because there is less overhead associated with the type conversion, **\[wire\_marshal\]** and **\[user\_marshal\]** provide improved performance at run time, when compared to **\[transmit\_as\]** and **\[represent\_as\]**. The **\[wire\_marshal\]** and **\[user\_marshal\]** attributes are mutually exclusive with respect to each other and with respect to the **\[transmit\_as\]** and **\[represent\_as\]** attributes for a given type.
 
-It is important to note that the implementation of the **\[wire\_marshal\]** and **\[user\_marshal\]** attributes must follow the marshalling rules dictated by OSF-DCE specification. For that reason, the use of these attributes is not recommended if you are not familiar with the wire protocol. More information regarding the NDR Syntax Transfer can be found at [www.opengroup.org](http://pubs.opengroup.org/onlinepubs/9629399/chap14.htm).
+It is important to note that the implementation of the **\[wire\_marshal\]** and **\[user\_marshal\]** attributes must follow the marshalling rules dictated by OSF-DCE specification. For that reason, the use of these attributes is not recommended if you are not familiar with the wire protocol. More information regarding the NDR Syntax Transfer can be found at [www.opengroup.org](https://pubs.opengroup.org/onlinepubs/9629399/chap14.htm).
 
 This section provides a brief overview of these for MIDL attributes, in the following topics:
 

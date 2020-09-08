@@ -183,7 +183,7 @@ For example, to enable the auditing of Filtering Platform Policy Change events y
 [Event Log](/previous-versions/orphan-topics/ws.10/dd996684(v=ws.10))
 </dt> <dt>
 
-[Group Policy](http://go.microsoft.com/fwlink/?LinkID=31191)
+[Group Policy](https://go.microsoft.com/fwlink/?LinkID=31191)
 </dt> </dl>
 
  

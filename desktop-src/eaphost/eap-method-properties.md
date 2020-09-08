@@ -46,7 +46,7 @@ ms.date: 05/31/2018
 
 Used by supplicants and authenticators to determine the EAP methods to be used with a given supplicant or authenticator. Method properties also specify the configuration of a method.
 
-For example, the [802.1X](Http://go.microsoft.com/fwlink/p/?linkid=83938) supplicant may require methods to have certain properties for use with the [802.1X](Http://go.microsoft.com/fwlink/p/?linkid=83938) supplicant. Keying material, for example, is a requirement.
+For example, the [802.1X](https://go.microsoft.com/fwlink/p/?linkid=83938) supplicant may require methods to have certain properties for use with the [802.1X](https://go.microsoft.com/fwlink/p/?linkid=83938) supplicant. Keying material, for example, is a requirement.
 
 The properties supported by EAP methods are listed. Properties are stored as registry key values. For more information, see the EAP Peer Method DLL Registry Key section of the topic [Registry Configuration for EAP Methods.](registry-keys-for-eap-methods.md)
 
@@ -66,7 +66,7 @@ The method allows the cipher suite to be negotiated for the purpose of data encr
 -   TLS\_DHE\_DSS\_WITH\_3DES\_EDE\_CBC\_SHA (TLS & SSL 3)
 -   SSL\_CK\_DES\_192\_EDE3\_CBC\_WITH\_MD5 (SSL 2 if enabled)
 
-For more information about the TLS 1.0 security protocol, see [RFC 2246](Http://go.microsoft.com/fwlink/p/?linkid=84035).
+For more information about the TLS 1.0 security protocol, see [RFC 2246](https://go.microsoft.com/fwlink/p/?linkid=84035).
 
 
 </dt> </dl> </dd> <dt>
@@ -274,7 +274,7 @@ The method can support fragmentation and reassembly if EAP packets exceed the mi
 
 
 
-The method can communicate integrity-protected channel properties, such as endpoint identifiers, which can be compared to values communicated using out of band mechanisms - such as an [Authentication, Authorization, and Accounting](Http://go.microsoft.com/fwlink/p/?linkid=84063) (AAA) or the lower layer protocol.
+The method can communicate integrity-protected channel properties, such as endpoint identifiers, which can be compared to values communicated using out of band mechanisms - such as an [Authentication, Authorization, and Accounting](https://go.microsoft.com/fwlink/p/?linkid=84063) (AAA) or the lower layer protocol.
 
 
 </dt> </dl> </dd> <dt>
@@ -313,7 +313,7 @@ The method can be used on a standalone machine.
 
 
 
-The method supports [Microsoft Point-to-Point Encryption (MPPE) protocol](Http://go.microsoft.com/fwlink/p/?linkid=83915) encryption.
+The method supports [Microsoft Point-to-Point Encryption (MPPE) protocol](https://go.microsoft.com/fwlink/p/?linkid=83915) encryption.
 
 
 </dt> </dl> </dd> <dt>
@@ -417,7 +417,7 @@ Windows 7 or later: The method is a tunnelled method and supports EAP method cha
 
 
 
-Windows 7 or later: The method supports shared state equivalence as defined in [RFC 4017](Http://go.microsoft.com/fwlink/p/?linkid=90455).
+Windows 7 or later: The method supports shared state equivalence as defined in [RFC 4017](https://go.microsoft.com/fwlink/p/?linkid=90455).
 
 
 </dt> </dl> </dd> <dt>

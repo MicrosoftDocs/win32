@@ -48,7 +48,7 @@ The following topics have more information about the samples:
 [What's New in Native Wifi](what-s-new-in-native-wifi.md)
 </dt> <dt>
 
-[Windows Vista Wireless SDK Forum](https://social.msdn.microsoft.com/Forums/en-US/b6bbd8f0-a921-480f-9b4b-845336462bc0/welcome-to-the-windows-vista-wireless-sdk-forum)
+[Windows Vista Wireless SDK Forum](https://social.msdn.microsoft.com/Forums/b6bbd8f0-a921-480f-9b4b-845336462bc0/welcome-to-the-windows-vista-wireless-sdk-forum)
 </dt> </dl>
 
  

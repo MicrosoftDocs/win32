@@ -19,7 +19,7 @@ This topic is organized as follows:
 
 ## Best Practices for Windows Federated Search
 
-Best practices for working with [OpenSearch](http://www.opensearch.org/Home) in Windows 7 are as follows:
+Best practices for working with [OpenSearch](https://github.com/dewitt/opensearch) in Windows 7 are as follows:
 
 -   Support the *{startIndex}* and *{count}* parameters, and be sure to always return the number of items requested unless you are returning the last of the results.
 -   If you know the file name extension, map it to the [System.FileExtension](../properties/props-system-fileextension.md) Windows Shell property. Using file name extensions is a better way to identify a file type than MIME type.
@@ -44,7 +44,7 @@ Best practices for creating RSS output are as follows:
 -   Do not include any HTML formatting tags in the **title** attribute, or those tags will appear in the title and be displayed in Windows Explorer.
 -   For the **description** element:
     -   Show enough information so that the user knows why this result might be relevant.
-    -   Do not include HTML formatting. The [OpenSearch](http://www.opensearch.org/Home) provider removes the formatting, which might result in less than desirable results for your description.
+    -   Do not include HTML formatting. The [OpenSearch](https://github.com/dewitt/opensearch) provider removes the formatting, which might result in less than desirable results for your description.
     -   Do not include metadata that is already provided in other elements, such as enclosure file name, size, modified date, and so forth, because Windows Explorer already displays the metadata. Displaying it in the **description** element would be redundant.
 -   For enclosure or content URLs:
     -   Specify the type attribute as a valid MIME type.

@@ -30,7 +30,7 @@ VT\_LPWSTR
 
 A DLNA profile identifier is a string that identifies the encoding profile of the content.
 
-Profile identifiers are described in the [DLNA Networked Device Interoperability Guidelines](http://www.dlna.org/dlna-for-industry/about-dlna/guidelines). (This resource may not be available in some languages and countries.)
+Profile identifiers are described in the [DLNA Networked Device Interoperability Guidelines](https://www.dlna.org/about/organization). (This resource may not be available in some languages and countries.)
 
 ## Requirements
 

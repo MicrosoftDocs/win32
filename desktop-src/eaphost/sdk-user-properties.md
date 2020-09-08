@@ -12,9 +12,9 @@ This sample is an instance of the [eaphostusercredentials](eaphostusercredential
 
 ``` syntax
   <?xml version="1.0" ?>  
-  <EapHostUserCredentials xmlns="http://www.microsoft.com/provisioning/EapHostUserCredentials" 
-    xmlns:eapCommon="http://www.microsoft.com/provisioning/EapCommon" 
-    xmlns:baseEap="http://www.microsoft.com/provisioning/BaseEapMethodUserCredentials">
+  <EapHostUserCredentials xmlns="https://www.microsoft.com/provisioning/EapHostUserCredentials" 
+    xmlns:eapCommon="https://www.microsoft.com/provisioning/EapCommon" 
+    xmlns:baseEap="https://www.microsoft.com/provisioning/BaseEapMethodUserCredentials">
     <EapMethod>
       <eapCommon:Type>40</eapCommon:Type> 
       <eapCommon:AuthorId>100</eapCommon:AuthorId> 

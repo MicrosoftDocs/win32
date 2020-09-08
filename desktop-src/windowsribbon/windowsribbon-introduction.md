@@ -153,7 +153,7 @@ In addition, the Ribbon framework is a Windows feature and, as such, is localize
 
 The Ribbon is a new and engaging form of command presentation that application developers, architects, and designers should consider when designing and building new applications or updating existing ones.
 
-The [Windows Ribbon Development Forum](https://social.msdn.microsoft.com/Forums/windowsdesktop/en-US/home?forum=windowsribbondevelopment) is available to discuss topics and ask questions related to developing applications that implement the Windows Ribbon framework.
+The [Windows Ribbon Development Forum](https://social.msdn.microsoft.com/Forums/windowsdesktop/home?forum=windowsribbondevelopment) is available to discuss topics and ask questions related to developing applications that implement the Windows Ribbon framework.
 
 ## Related topics
 

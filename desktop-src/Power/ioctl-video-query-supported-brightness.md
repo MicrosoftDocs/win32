@@ -119,7 +119,7 @@ If the operation fails or is pending, [**DeviceIoControl**](/windows/desktop/api
 
 Each element in the *lpOutBuffer* array is one byte in length. Therefore, upon return, the *lpBytesReturned* parameter indicates the number of supported levels. Each level is a value from 0 to 100. The larger the value, the brighter the backlight. All levels are supported whether the power source is AC or DC.
 
-The header file used to build applications that include this functionality, Ntddvdeo.h, is included in the Microsoft Windows Driver Development Kit (DDK). For information on obtaining the DDK, see [https://www.microsoft.com/whdc/devtools/ddk/default.mspx](https://msdn.microsoft.com/en-US/windows/hardware/gg454513).
+The header file used to build applications that include this functionality, Ntddvdeo.h, is included in the Microsoft Windows Driver Development Kit (DDK). For information on obtaining the DDK, see [https://www.microsoft.com/whdc/devtools/ddk/default.mspx](https://msdn.microsoft.com/windows/hardware/gg454513).
 
 Alternatively, you can define this control code as follows:
 

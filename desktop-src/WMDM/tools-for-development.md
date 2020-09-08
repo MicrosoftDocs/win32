@@ -30,7 +30,7 @@ Certificates and Keys
 
 The Windows Media Device Manager SDK ships with a test key/certificate pair (in the key.c file) that can be used by an application or a service provider to use Windows Media Device Manager methods on unprotected content. This key/certificate pair allows the application or service provider to use most of the Windows Media Device Manager functionality.
 
-However, to develop an application or service provider that can handle DRM-protected content, you must request one or more certificates (each with a key) from the [Windows Media Licensing Page](http://wmlicense.smdisp.net/licenserequest/default.asp). Certificates are required for the following applications or objects:
+However, to develop an application or service provider that can handle DRM-protected content, you must request one or more certificates (each with a key) from the [Windows Media Licensing Page](https://www.microsoft.com/licensing/default). Certificates are required for the following applications or objects:
 
 -   Service Providers that handle DRM-protected content require a Windows Media Device Manager Service Provider Certificate (and key)
 -   Applications that transfer DRM-protected content require a Windows Media Device Manager Transfer Certificate (and key)
