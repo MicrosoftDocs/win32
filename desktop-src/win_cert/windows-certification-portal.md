@@ -44,7 +44,7 @@ If you are developing and certifying a UWP app from the start, see [Guidance for
 
  
 
-Note: Filter drivers must also pass the [Hardware Certification Kit](Https//download.microsoft.com/download/1/8/B/18BC088A-537D-4386-9334-687747A602E6/hlk/hlksetup.exe). (See [Certification requirements for Windows desktop apps, section 6.2](certification-requirements-for-windows-desktop-apps.md).)
+Note: Filter drivers must also pass the [Hardware Certification Kit](https://download.microsoft.com/download/1/8/B/18BC088A-537D-4386-9334-687747A602E6/hlk/hlksetup.exe). (See [Certification requirements for Windows desktop apps, section 6.2](certification-requirements-for-windows-desktop-apps.md).)
 
 ## Step 3: Use the Windows Certification Dashboard
 

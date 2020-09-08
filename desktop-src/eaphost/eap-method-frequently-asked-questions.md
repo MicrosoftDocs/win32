@@ -60,7 +60,7 @@ This topic provides answers to commonly-asked programming questions about EAP me
 </tr>
 <tr class="odd">
 <td>What is in-band [Network Access Protection](/windows/desktop/NAP/network-access-protection-start-page) (NAP) support?</td>
-<td>When in-band NAP support is enabled, NAP packets are transported inside EAP method packets. In contrast, when out-of-band NAP support is enabled, the NAP [Statement of Health](Https//go.microsoft.com/fwlink/p/?linkid=83917) (SoH) exchange occurs through means other than internal to EAP method packets, and NAP-generated certificates are used in EAP method authentication.</td>
+<td>When in-band NAP support is enabled, NAP packets are transported inside EAP method packets. In contrast, when out-of-band NAP support is enabled, the NAP [Statement of Health](https://go.microsoft.com/fwlink/p/?linkid=83917) (SoH) exchange occurs through means other than internal to EAP method packets, and NAP-generated certificates are used in EAP method authentication.</td>
 </tr>
 <tr class="even">
 <td>Can I enable in-band NAP support for my EAP method?</td>
@@ -75,7 +75,7 @@ This topic provides answers to commonly-asked programming questions about EAP me
 <li>The supplicant indicates to the user that credentials have changed and requests the user to re-enter their credentials.</li>
 <li>The supplicant re-enters the user credentials, and sends those credentials to the method.</li>
 </ul>
-For more information on EAP-FAST, see [EAP Flexible Authentication via Secure Tunneling](Https//go.microsoft.com/fwlink/p/?linkid=84010) (EAP-FAST).</td>
+For more information on EAP-FAST, see [EAP Flexible Authentication via Secure Tunneling](https://go.microsoft.com/fwlink/p/?linkid=84010) (EAP-FAST).</td>
 </tr>
 <tr class="even">
 <td>What is Pre-Shared Key(PSK)?</td>

@@ -36,7 +36,7 @@ Ensure that your development computer has all of the latest updates from Windows
 
 If you are developing applications on a previous version of Windows, you must obtain the Platform Update for Windows Vista or the Platform Update for Windows Server 2008 update from Windows Update. Installing either of these updates will enable you to take advantage of the new API provided by the Windows SDK for Windows 7.
 
-For more information about how to obtain updates from Windows Update see the [Knowledge Base article about the Platform Update for Windows Vista (KB 971644)](https://support.microsoft.com/kb/971644) (Https//support.microsoft.com/kb/971644).
+For more information about how to obtain updates from Windows Update see the [Knowledge Base article about the Platform Update for Windows Vista (KB 971644)](https://support.microsoft.com/kb/971644) (https://support.microsoft.com/kb/971644).
 
 ## Development Environment
 

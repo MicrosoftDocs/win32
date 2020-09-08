@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # About EAPHost
 
-EAPHost implements the Extensible Authentication Protocol (EAP) state machine and EAP protocol framework, as per [RFC 3748](Https//go.microsoft.com/fwlink/p/?linkid=84063).
+EAPHost implements the Extensible Authentication Protocol (EAP) state machine and EAP protocol framework, as per [RFC 3748](https://go.microsoft.com/fwlink/p/?linkid=84063).
 
 EAPHost supports EAP based [Network Access Protection](/windows/desktop/NAP/network-access-protection-start-page) (NAP).
 
