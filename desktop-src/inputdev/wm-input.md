@@ -12,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 ms.topic: reference
 ms.date: 04/17/2020
 ---
@@ -61,14 +66,6 @@ If an application processes this message, it should return zero.
 ## Remarks
 
 Raw input is available only when the application calls [**RegisterRawInputDevices**](/windows/win32/api/winuser/nf-winuser-registerrawinputdevices) with valid device specifications.
-
-## Requirements
-
-| | |
-|--------------------------|-------------------------------------------|
-| Minimum supported client | Windows XP \[desktop apps only\] |
-| Minimum supported server | Windows Server 2003 \[desktop apps only\] |
-| Header | <dl> <dt>**Winuser.h (include Windows.h)** </dt> </dl> |
 
 ## See also
 
