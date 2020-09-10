@@ -289,7 +289,7 @@ Alternate view:   Hello! 64-bit World
 
 To examine the effect of running this example with regedit, inspect the values of the following keys. Note that applications should avoid using Wow6432Node in hard-coded registry paths.
 
-<dl> **HKLM\\SOFTWARE\\Hello World**  
+**HKLM\\SOFTWARE\\Hello World**  
 **HKLM\\SOFTWARE\\Wow6432Node\\Hello World**  
 **HKCR\\CLSID\\{00000000-0000-0000-0000-ABCD00000000}**  
 **HKCR\\CLSID\\{00000000-0000-0000-0000-ABCD00000000}\\InprocServer32**  
@@ -298,7 +298,7 @@ To examine the effect of running this example with regedit, inspect the values o
 **HKCR\\Wow6432Node\\CLSID\\{00000000-0000-0000-0000-ABCD00000000}\\InprocServer32**  
 **HKCR\\Wow6432Node\\CLSID\\{00000000-0000-0000-0000-ABCD00000000}\\LocalServer32**  
 **HKCR\\Wow6432Node\\Hello**  
-</dl>
+
 
 ## Related topics
 

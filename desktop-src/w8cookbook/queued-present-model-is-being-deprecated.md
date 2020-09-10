@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-<dl> **Clients** – After Windows 8  
+**Clients** – After Windows 8  
 **Servers** – After Windows Server 2012  
-</dl>
+
 
 ## Description
 

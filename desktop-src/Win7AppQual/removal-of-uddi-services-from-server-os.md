@@ -16,9 +16,8 @@ ms.date: 05/31/2018
 
 ## Feature Impact
 
-<dl> **Severity** - Medium  
+**Severity** - Medium  
 **Frequency** - Low  
-</dl>
 
 ## Description
 

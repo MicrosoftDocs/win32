@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-<dl> **Clients -** Windows 7 \| Windows 8 \| Windows 8.1  
-</dl>
+**Clients -** Windows 7 \| Windows 8 \| Windows 8.1  
+
 
 ## Description
 

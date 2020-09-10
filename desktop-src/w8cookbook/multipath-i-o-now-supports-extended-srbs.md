@@ -10,8 +10,7 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-<dl> **Servers** – Windows Server 2012  
-</dl>
+**Servers** – Windows Server 2012 
 
 ## Description
 
