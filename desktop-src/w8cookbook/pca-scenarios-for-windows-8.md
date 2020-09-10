@@ -10,8 +10,7 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-<dl> **Clients** - Windows XP \| Windows Vista \| Windows 7 \| Windows 8  
-</dl>
+**Clients** - Windows XP \| Windows Vista \| Windows 7 \| Windows 8  
 
 ## Description
 
@@ -256,7 +255,7 @@ The Troubleshooter UI is shown below for reference:
 
 You can start the Compatibility Troubleshooter in two ways:
 
-<dl> **From the start screen:**
+**From the start screen:**
 
 1.  Type: compatibility troubleshooter
 2.  Under the settings section, click the ‘Run programs made for previous version of Windows’ tile
@@ -270,7 +269,7 @@ You can start the Compatibility Troubleshooter in two ways:
 4.  Choose ‘Troubleshoot Compatibility’
 
   
-</dl>
+
 
 **Using the Compatibility Tab**
 
@@ -278,7 +277,7 @@ Note that this is recommended only for users who are experts in trying different
 
 To access the Compatibility Tab:
 
-<dl> **From the start screen:**
+ **From the start screen:**
 
 1.  Right click the app tile
 2.  Open file location (desktop apps only)
@@ -296,7 +295,7 @@ To access the Compatibility Tab:
      
 
   
-</dl>
+
 
 ![using the compatibility tab](images/pcafigure19.png)
 

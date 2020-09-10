@@ -70,11 +70,12 @@ Your application can call either **GetNLSVersionEx** (Windows Vista or later) or
 
 -   GetNLSVersionEx:
 
-<dl> *Retrieves information about the current version of a specified NLS capability for a locale specified by name*  
+*Retrieves information about the current version of a specified NLS capability for a locale specified by name*  
 This function allows an application such as Active Directory to determine whether an NLS change affects the locale used for a particular index table. If it does not, there is no need to re-index the table. For more information, see Handling Locale and Language Information.  
 This function supports custom locales. If *lpLocaleName* specifies a supplemental locale, the data retrieved is the correct data for the collation order associated with that supplemental locale.  
+
 **Note:** Versions of Windows prior to Windows Vista do not support **GetNLSVersionEx**.  
-</dl>
+
 
 -   GetNLSVersion (use for applications running on versions of Windows prior to Windows Vista):
 
