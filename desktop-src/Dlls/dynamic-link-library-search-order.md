@@ -3,7 +3,7 @@ description: Applications can control the location from which a DLL is loaded by
 ms.assetid: 44228cf2-6306-466c-8f16-f513cd3ba8b5
 title: Dynamic-Link Library Search Order
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/11/2020
 ---
 
 # Dynamic-Link Library Search Order
