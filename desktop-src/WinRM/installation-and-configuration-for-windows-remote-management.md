@@ -1,15 +1,10 @@
 ---
 title: Installation and Configuration for Windows Remote Management
 description: For Windows Remote Management (WinRM) scripts to run, and for the **Winrm** command-line tool to perform data operations, Windows Remote Management (WinRM) has to be both installed and configured.
-ms.assetid: 81c40456-0003-46d0-8695-83bf77432056
-ms.tgt_platform: multiple
-ms.topic: article
 ms.date: 08/31/2020
-topic_type: 
-- kbArticle
-api_name: 
-api_type: 
-api_location: 
+ms.assetid: 81c40456-0003-46d0-8695-83bf77432056
+ms.topic: article
+ms.custom: contperfq1
 ---
 
 # Installation and configuration for Windows Remote Management
