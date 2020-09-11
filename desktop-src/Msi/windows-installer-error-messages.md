@@ -1,20 +1,17 @@
 ---
 Description: Message codes, message text, and remarks for Windows Installer error messages. Errors include ship errors, internal errors, and errors resulting from installing or uninstalling applications.
 ms.assetid: 20863e0d-05a8-42a5-aa6e-16c2724a9778
-title: Windows Installer Error Messages
+title: Windows Installer Error Messages (for Developers)
 ms.topic: article
-ms.date: 02/20/2020
+ms.date: 09/11/2020
 ---
 
-# Windows Installer Error Messages
-
-The error codes detailed in this topic are returned by the Windows Installer, and have error codes of 1000 or greater. The error codes numbered 1000 to 1999 are ship errors and must be authored into the [Error table](error-table.md). The error codes numbered greater than 2000 are internal errors and do not have authored strings, but these can occur if the installation package has been incorrectly authored. For error codes specific to the Windows Installer functions **MsiExec.exe** and **InstMsi.exe**, see [MsiExec.exe and InstMsi.exe Error Messages](error-codes.md). For a list of reserved error codes, see [Error table](error-table.md).
+# Windows Installer Error Messages (for Developers)
 
 > [!NOTE]  
-> If you are a user experiencing difficulty with your computer either during or after installing or uninstalling an application, you should contact customer support for the software you are trying to install or remove. If you feel you are in need of support for a Microsoft product, please go to our technical support site at [support.microsoft.com](https://support.microsoft.com).
+> This article is intended for software developers who are using Windows Installer to build installer packages for their applications. If you are a user experiencing difficulty with your computer either during or after installing or uninstalling an application, contact customer support for the software you are trying to install or remove. If you feel you are in need of support for a Microsoft product, please go to our technical support site at [support.microsoft.com](https://support.microsoft.com).
 
-> [!NOTE]
-> You can search the Internet or the [Microsoft support site](https://support.microsoft.com/) for solutions to many of the messages in the following table.
+The error codes detailed in this topic are returned by the Windows Installer, and have error codes of 1000 or greater. The error codes numbered 1000 to 1999 are ship errors and must be authored into the [Error table](error-table.md). The error codes numbered greater than 2000 are internal errors and do not have authored strings, but these can occur if the installation package has been incorrectly authored. For error codes specific to the Windows Installer functions **MsiExec.exe** and **InstMsi.exe**, see [MsiExec.exe and InstMsi.exe Error Messages](error-codes.md). For a list of reserved error codes, see [Error table](error-table.md). You can search the Internet or the [Microsoft support site](https://support.microsoft.com/) for solutions to many of the messages in the following table.
 
 Developers of installation packages can also test the internal consistency of their packages by using Internal Consistency Evaluators. For more information, see [Internal Consistency Evaluators - ICEs](internal-consistency-evaluators-ices.md).
 
