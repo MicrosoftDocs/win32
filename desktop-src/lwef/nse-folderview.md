@@ -116,7 +116,7 @@ The user can ensure that the folder view reflects the current state of the folde
 
 ### SaveViewState
 
-Windows Explorer calls the [**IShellView::SaveViewState**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-saveviewstate) method to prompt your folder view object to save its view state. You can then recover the state the next time the folder is viewed. The preferred way to save a view state is by calling the [**IShellBrowser::GetViewStateStream**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-getviewstatestream) method. This method returns an [IStream](/windows/win32/api/objidl/nn-objidl-istream) interface that your folder view object can use to save its state. When you create another folder view, you can call the same **IShellBrowser::GetViewStateStream** method to obtain anIStream pointer that allows you to read the settings saved by previous folder views.
+Windows Explorer calls the [**IShellView::SaveViewState**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-saveviewstate) method to prompt your folder view object to save its view state. You can then recover the state the next time the folder is viewed. The preferred way to save a view state is by calling the [**IShellBrowser::GetViewStateStream**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-getviewstatestream) method. This method returns an [IStream](/windows/win32/api/objidl/nn-objidl-istream) interface that your folder view object can use to save its state. When you create another folder view, you can call the same **IShellBrowser::GetViewStateStream** method to obtain an IStream pointer that allows you to read the settings saved by previous folder views.
 
 ### TranslateAcelerator
 
