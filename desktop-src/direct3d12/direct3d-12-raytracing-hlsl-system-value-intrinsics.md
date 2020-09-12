@@ -24,7 +24,7 @@ System values are retrieved by using special intrinsic functions, rather than in
 
 | Topic | Description |
 |-|-|
-| [**WorldRayOrigin**](worldrayorigin.md) | The world-space direction for the current ray. |
+| [**WorldRayOrigin**](worldrayorigin.md) | The world-space origin of the current ray. |
 | [**WorldRayDirection**](worldraydirection.md) | The world-space direction for the current ray. |
 | [**RayTMin**](raytmin.md) | A float representing the current parametric starting point for the ray. |
 | [**RayTCurrent**](raytcurrent.md) | A float representing the current parametric ending point for the ray.  |
