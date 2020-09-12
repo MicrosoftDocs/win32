@@ -16,7 +16,7 @@ api_type:
 
 # DispatchRaysIndex
 
-Gets the current x and y location within the width and height obtained with the [**DispatchRaysDimensions**](dispatchraysdimensions.md) system value intrinsic.
+Gets the current location within the width, height and depth obtained with the [**DispatchRaysDimensions**](dispatchraysdimensions.md) system value intrinsic.
 
 ## Syntax
 
