@@ -3,7 +3,7 @@ Description: The Version API Helper functions are used to determine the version 
 ms.assetid: 1a70b1d9-ed66-4201-9921-4e26e4001020
 title: Operating System Version
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/15/2020
 ---
 
 # Operating System Version
@@ -45,5 +45,5 @@ If you must require a particular operating system, be sure to use it as a minimu
 
 Note that a 32-bit application can detect whether it is running under WOW64 by calling the [**IsWow64Process**](/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process) function. It can obtain additional processor information by calling the [**GetNativeSystemInfo**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo) function.
 
- 
+For more information, see [Windows 10 release information](/windows/release-information/) and [Windows lifecycle fact sheet](https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet).
 
