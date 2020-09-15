@@ -104,10 +104,10 @@ Internally, the tessellator operates in two phases:
 
 | Type of Partitioning | Range                       |
 |----------------------|-----------------------------|
-| Fractional\_odd      | \[1...63\]                  |
-| Fractional\_even     | TessFactor range: \[2..64\] |
-| Integer              | TessFactor range: \[1..64\] |
-| Pow2                 | TessFactor range: \[1..64\] |
+| fractional\_odd      | \[1...63\]                  |
+| fractional\_even     | TessFactor range: \[2..64\] |
+| integer              | TessFactor range: \[1..64\] |
+| pow2                 | TessFactor range: \[1..64\] |
 
 
 
