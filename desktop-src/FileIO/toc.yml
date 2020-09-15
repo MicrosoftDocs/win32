@@ -515,6 +515,8 @@
         items: 
         - name: "Naming Files, Paths, and Namespaces"
           href: naming-a-file.md
+        - name: "Maximum file path limitation"
+          href: maximum-file-path-limitation.md
         - name: "Creating and Opening Files"
           href: creating-and-opening-files.md
         - name: "Moving and Replacing Files"
