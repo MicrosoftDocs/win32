@@ -1,6 +1,5 @@
 ---
-Description: The current x and y location within the width and height obtained with the DispatchRaysDimensions system value intrinsic.
-ms.assetid: 
+description: Gets the current location within the width, height, and depth obtained with the [**DispatchRaysDimensions**](dispatchraysdimensions.md) system value intrinsic.
 title: DispatchRaysIndex
 ms.localizationpriority: low
 ms.topic: reference
@@ -16,19 +15,17 @@ api_type:
 
 # DispatchRaysIndex
 
-Gets the current x and y location within the width and height obtained with the [**DispatchRaysDimensions**](dispatchraysdimensions.md) system value intrinsic.
+Gets the current location within the width, height, and depth obtained with the [**DispatchRaysDimensions**](dispatchraysdimensions.md) system value intrinsic.
 
 ## Syntax
 
-```
+```syntax
 uint3 DispatchRaysIndex();
-
 ```
-
 
 ## Remarks
 
-This function can be called from the following raytracing shader types:
+This function can be called from the following raytracing shader types.
 
 * [**Any Hit Shader**](any-hit-shader.md)
 * [**Callable Shader**](callable-shader.md)
@@ -37,21 +34,6 @@ This function can be called from the following raytracing shader types:
 * [**Miss Shader**](miss-shader.md)
 * [**Ray Generation Shader**](ray-generation-shader.md)
 
-
-
-
-
 ## See also
 
-<dl> <dt>
-
-[Direct3D 12 Raytracing HLSL Reference](direct3d-12-raytracing-hlsl-reference.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Direct3D 12 Raytracing HLSL Reference](direct3d-12-raytracing-hlsl-reference.md)

@@ -16,12 +16,12 @@ api_type:
 
 # WorldRayOrigin
 
-The world-space direction for the current ray.
+The world-space origin of the current ray.
 
 ## Syntax
 
 ```
-float3 WorldRayDirection();
+float3 WorldRayOrigin();
 
 ```
 

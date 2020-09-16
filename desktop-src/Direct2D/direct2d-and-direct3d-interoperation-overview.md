@@ -330,7 +330,7 @@ hr = m_pOffscreenTexture->QueryInterface(&pDxgiSurface);
 
     
 
-3.  Use the surface with the [**CreateDxgiSurfaceRenderTarget**]/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)) method to obtain a Direct2D render target.
+3.  Use the surface with the [**CreateDxgiSurfaceRenderTarget**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)) method to obtain a Direct2D render target.
 
 ```C++
     if (SUCCEEDED(hr))
