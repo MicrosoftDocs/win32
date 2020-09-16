@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Some systems use Internet firewalls or proxy servers that require authentication for all Internet traffic. Early versions of the symbol server could not access symbols from the Internet unless the system used a firewall client that handled the authentication transparently.
 
-Starting with Dbghelp 6.1, the symbol server supports proxy servers that require such authentication. The symbol server uses whatever server is configured as the default in the computer's LAN settings. To find this, open the**Internet Options** item in Control Panel, click the **Connections** tab and click **LAN Settings**. This can also be done from Internet Explorer by clicking **Internet Options** on the **Tools** menu. The symbol server has been tested on many brands of proxy servers using both basic and challenge-response methods of authentication.
+Starting with Dbghelp 6.1, the symbol server supports proxy servers that require such authentication. The symbol server uses whatever server is configured as the default in the computer's LAN settings. To find this, open the **Internet Options** item in Control Panel, click the **Connections** tab and click **LAN Settings**. This can also be done from Internet Explorer by clicking **Internet Options** on the **Tools** menu. The symbol server has been tested on many brands of proxy servers using both basic and challenge-response methods of authentication.
 
 To define a specific proxy server for symbol server to use, set the \_NT\_SYMBOL\_PROXY environment variable to the name (or IP address) of the proxy server, followed by the port number. Separate the two values with a colon. For example:
 
