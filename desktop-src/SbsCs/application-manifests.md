@@ -3,7 +3,7 @@ Description: An application manifest is an XML file that describes and identifie
 ms.assetid: c5016251-db7a-4edc-9be9-3acb03d495f8
 title: Application Manifests
 ms.topic: article
-ms.date: 01/22/2020
+ms.date: 9/15/2020
 ms.custom: 19H1
 ---
 
@@ -337,7 +337,7 @@ Specifies whether high-resolution-scrolling aware is enabled. **TRUE** indicates
 
 ### longPathAware
 
-Enables long paths that exceed **MAX_PATH** in length. This element is supported in Windows 10, version 1607, and later. For more information, see [this article](../fileio/naming-a-file.md#enable-long-paths-in-windows-10-version-1607-and-later).
+Enables long paths that exceed **MAX_PATH** in length. This element is supported in Windows 10, version 1607, and later. For more information, see [this article](../fileio/maximum-file-path-limitation.md).
 
 ```XML
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
