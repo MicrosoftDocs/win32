@@ -28,7 +28,7 @@ For additional information, see the following subsections:
     -   [Win32 Device Namespaces](#win32-device-namespaces)
     -   [NT Namespaces](#nt-namespaces)
 -   [Related topics](#related-topics)
-- 
+
 To learn about configuring Windows 10 to support long file paths, see [Maximum Path Length Limitation](/windows/desktop/api/FileAPI/maximum-file-path-limitation).
 
 ## File and Directory Names
