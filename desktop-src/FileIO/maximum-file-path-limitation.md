@@ -1,6 +1,6 @@
 ---
 description: Maximum path length limitation.
-title: Maximum path length limitation
+title: Maximum Path Length Limitation
 ms.topic: article
 ms.custom: contperfq1
 ms.date: 09/15/2020
