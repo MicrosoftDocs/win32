@@ -29,7 +29,7 @@ For additional information, see the following subsections:
     -   [NT Namespaces](#nt-namespaces)
 -   [Related topics](#related-topics)
 - 
-To learn about configuring Windows 10 to support long file paths, please see [Maximum Path Length Limitation](/windows/desktop/api/FileAPI/maximum-file-path-limitation).
+To learn about configuring Windows 10 to support long file paths, see [Maximum Path Length Limitation](/windows/desktop/api/FileAPI/maximum-file-path-limitation).
 
 ## File and Directory Names
 
