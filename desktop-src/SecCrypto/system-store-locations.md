@@ -21,14 +21,14 @@ In CERT\_SYSTEM\_STORE\_CURRENT\_USER, there is also a predefined UserDS store. 
 
 Here are the system stores followed by further remarks:
 
--   [CERT\_SYSTEM\_STORE\_CURRENT\_USER](/windows)
--   [CERT\_SYSTEM\_STORE\_LOCAL\_MACHINE](/windows)
--   [CERT\_SYSTEM\_STORE\_CURRENT\_SERVICE](/windows)
--   [CERT\_SYSTEM\_STORE\_SERVICES](/windows)
--   [CERT\_SYSTEM\_STORE\_USERS](/windows)
--   [CERT\_SYSTEM\_CURRENT\_USER\_GROUP\_POLICY](/windows)
--   [CERT\_SYSTEM\_LOCAL\_MACHINE\_GROUP\_POLICY](/windows)
--   [CERT\_SYSTEM\_STORE\_LOCAL\_MACHINE\_ENTERPRISE](/windows)
+-   [CERT\_SYSTEM\_STORE\_CURRENT\_USER](#cert_system_store_current_user)
+-   [CERT\_SYSTEM\_STORE\_LOCAL\_MACHINE](#cert_system_store_local_machine)
+-   [CERT\_SYSTEM\_STORE\_CURRENT\_SERVICE](#cert_system_store_current_service)
+-   [CERT\_SYSTEM\_STORE\_SERVICES](#cert_system_store_services)
+-   [CERT\_SYSTEM\_STORE\_USERS](#cert_system_store_users)
+-   [CERT\_SYSTEM\_CURRENT\_USER\_GROUP\_POLICY](#cert_system_current_user_group_policy)
+-   [CERT\_SYSTEM\_LOCAL\_MACHINE\_GROUP\_POLICY](#cert_system_local_machine_group_policy)
+-   [CERT\_SYSTEM\_STORE\_LOCAL\_MACHINE\_ENTERPRISE](#cert_system_store_local_machine_enterprise)
 -   [Remarks](#remarks)
 
 ### CERT\_SYSTEM\_STORE\_CURRENT\_USER
