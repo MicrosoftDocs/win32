@@ -169,6 +169,7 @@ This section lists the locale information constants that the application can use
 -   LOCALE\_FONTSIGNATURE
 -   LOCALE\_ICENTURY
 -   LOCALE\_ICOUNTRY
+-   LOCALE\_ICONSTRUCTEDLOCALE
 -   LOCALE\_IDATE
 -   LOCALE\_IDAYLZERO
 -   LOCALE\_IDEFAULTANSICODEPAGE
