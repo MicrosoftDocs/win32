@@ -24,3 +24,4 @@ An example would be a request for "de-US", or German in the United States. NLS w
 This may not be perfect as, for example, the system will likely not have information about the name of United States in German. However, if the application or user desires a "de-US" context, then the returned data is the best available. 
 
 Apps that use LOCALE_ICONSTRUCTEDLOCALE to reject locales and fall back to a different locale typically end up with a worse experience, such as landing on de-DE or en-US in this example. Neither of those are close to the original request for German language with a United States region.
+
