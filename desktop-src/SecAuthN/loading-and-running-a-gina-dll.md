@@ -17,13 +17,7 @@ HKEY_LOCAL_MACHINE
          Windows NT
             CurrentVersion
                Winlogon
-                  GinaDLL<dl>
-<dt>
-
-                  Data type
-</dt>
-<dd>                  REG_SZ</dd>
-</dl>
+                  GinaDLL Datatype EG_SZ
 ```
 
 If the GinaDLL key value is present, it must contain the name of a GINA DLL, which [*Winlogon*](../secgloss/w-gly.md) will load and use.
