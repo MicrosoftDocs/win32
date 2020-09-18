@@ -64,6 +64,24 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 The compiler setting also determines the function version. If Unicode is defined, the function call resolves to D3DXSavePRTBufferToFileW. Otherwise, the function call resolves to D3DXSavePRTBufferToFileA.
 
+The ``PRT`` file format is a binary file in the form of a header and then a data block:
+
+```C++
+struct PRTHeader
+{
+    UINT NumSamples;
+    UINT NumCoeffs;
+    UINT NumChannels;
+    UINT TexWidth;
+    UINT TexHeight;
+    UINT bIsTex;
+};
+```
+
+For the case of ``bIsTex`` being non-zero, then ``NumSamples`` should equal ``TexWidth * TexHeight``.
+
+The data block that follows the header is ``NumSamples * NumCoeffs * NumChannels * sizeof(float)`` bytes.
+
 ## Requirements
 
 
