@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_ICONSTRUCTEDLOCALE constant description
+description: LOCALE\_ICONSTRUCTEDLOCALE constant description
 ms.assetid: 5557ee1e-09bf-0d0b-8e73-df32d9a406dd
 title: LOCALE_ICONSTRUCTEDLOCALE
 ms.topic: article
