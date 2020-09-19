@@ -64,6 +64,30 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 The compiler setting also determines the function version. If Unicode is defined, the function call resolves to D3DXSavePRTCompBufferToFileW. Otherwise, the function call resolves to D3DXSavePRTCompBufferToFileA.
 
+The PCA file format is a binary file in the form of a header and then two or three data blocks.
+
+```C++
+struct PRTCompressHeader
+{
+    UINT NumSamples;
+    UINT NumCoeffs;
+    UINT NumChannels;
+    UINT TexWidth;
+    UINT TexHeight;
+    UINT bIsTex;
+    UINT NumClusters;
+    UINT NumPCA;
+};
+```
+
+For the case of ``bIsTex`` being non-zero, ``NumSamples`` should equal ``TexWidth * TexHeight``.
+
+The basis data block that follows the header is ``NumCoeffs * NumChannels * (NumPCA+1) * NumClusters * sizeof(float)`` bytes.
+
+Following that is the PCA weights data block which is ``NumPCA * NumSamples * sizeof(float)`` bytes
+
+If ``NumClusters`` is greater than 1, then the file ends with the cluster IDs data block of ``NumSamples * sizeof(UINT)`` bytes.
+
 ## Requirements
 
 
