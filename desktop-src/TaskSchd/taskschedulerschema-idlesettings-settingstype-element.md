@@ -36,6 +36,7 @@ The **IdleSettings** element is defined by the [**settingsType**](taskschedulers
 |-------------------------------------------------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | [**Settings**](taskschedulerschema-settings-tasktype-element.md) | [**settingsType**](taskschedulerschema-settingstype-complextype.md) | Contains the settings that the Task Scheduler uses to perform the task.<br/> |
 
+Please note that WaitTimeout and Duration settings have been deprecated. While they are still present in Task Scheduler UI and their interface methods may still return valid values, they are no longer used.
 
 
 ## Child elements
@@ -44,9 +45,10 @@ The **IdleSettings** element is defined by the [**settingsType**](taskschedulers
 
 | Element                                                                                  | Type     | Description                                                                                                              |
 |------------------------------------------------------------------------------------------|----------|--------------------------------------------------------------------------------------------------------------------------|
-| [**Duration**](taskschedulerschema-duration-idlesettingstype-element.md)                | duration | Specifies how long the computer must be in an idle state before the task is run.<br/>                              |
 | [**RestartOnIdle**](taskschedulerschema-restartonidle-idlesettingstype-element.md)      | boolean  | Specifies whether the task is restarted when the computer cycles into an idle condition more than once.<br/>       |
 | [**StopOnIdleEnd**](taskschedulerschema-terminateonidleend-idlesettingstype-element.md) | boolean  | Specifies that the Task Scheduler will stop the task if the idle condition ends before the task is completed.<br/> |
+Deprecated:
+| [**Duration**](taskschedulerschema-duration-idlesettingstype-element.md)                | duration | Specifies how long the computer must be in an idle state before the task is run.<br/>                              |
 | [**WaitTimeout**](taskschedulerschema-waittimeout-idlesettingstype-element.md)          | duration | Specifies the amount of time that the Task Scheduler will wait for an idle condition to occur.<br/>                |
 
 
@@ -65,10 +67,11 @@ The following XML defines a settings element that allows Task Scheduler to wait 
 ```XML
 <Settings>
     <IdleSettings>
-        <WaitTimeout>PT24H</WaitTimeout>
-        <Duration>PT5M</Duration>
-        <TerminateOnIdleEnd>false</TerminateOnIdleEnd>
+        <StopOnIdleEnd>false</StopOnIdleEnd>
         <RestartOnIdle>false</RestartOnIdle> 
+        <!-- WaitTimeout and Duration have been deprecated -->
+        <Duration>PT5M</Duration>
+        <WaitTimeout>PT24H</WaitTimeout>
     </IdleSettings>       
 </Settings>
 ```
