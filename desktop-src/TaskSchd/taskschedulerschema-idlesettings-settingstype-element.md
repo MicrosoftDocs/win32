@@ -30,26 +30,21 @@ The **IdleSettings** element is defined by the [**settingsType**](taskschedulers
 
 ## Parent element
 
-
-
 | Element                                                           | Derived from                                                         | Description                                                                        |
 |-------------------------------------------------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | [**Settings**](taskschedulerschema-settings-tasktype-element.md) | [**settingsType**](taskschedulerschema-settingstype-complextype.md) | Contains the settings that the Task Scheduler uses to perform the task.<br/> |
 
-
-
 ## Child elements
 
-
+> [!NOTE]
+> The *Duration* and *WaitTimeout* settings are deprecated. They're still present in the Task Scheduler user interface, and their interface methods may still return valid values, but they're no longer used.
 
 | Element                                                                                  | Type     | Description                                                                                                              |
 |------------------------------------------------------------------------------------------|----------|--------------------------------------------------------------------------------------------------------------------------|
-| [**Duration**](taskschedulerschema-duration-idlesettingstype-element.md)                | duration | Specifies how long the computer must be in an idle state before the task is run.<br/>                              |
 | [**RestartOnIdle**](taskschedulerschema-restartonidle-idlesettingstype-element.md)      | boolean  | Specifies whether the task is restarted when the computer cycles into an idle condition more than once.<br/>       |
 | [**StopOnIdleEnd**](taskschedulerschema-terminateonidleend-idlesettingstype-element.md) | boolean  | Specifies that the Task Scheduler will stop the task if the idle condition ends before the task is completed.<br/> |
-| [**WaitTimeout**](taskschedulerschema-waittimeout-idlesettingstype-element.md)          | duration | Specifies the amount of time that the Task Scheduler will wait for an idle condition to occur.<br/>                |
-
-
+| **Deprecated**: [**Duration**](taskschedulerschema-duration-idlesettingstype-element.md)                | duration | Specifies how long the computer must be in an idle state before the task is run.<br/>                              |
+| **Deprecated**: [**WaitTimeout**](taskschedulerschema-waittimeout-idlesettingstype-element.md)          | duration | Specifies the amount of time that the Task Scheduler will wait for an idle condition to occur.<br/>                |
 
 ## Remarks
 
@@ -61,46 +56,27 @@ For C++ development, idle settings are specified using the [**ITaskSettings::Idl
 
 The following XML defines a settings element that allows Task Scheduler to wait 24 hours for an idle condition and then allows only 10 minutes {IdleDuration) to initiate the task.
 
-
 ```XML
 <Settings>
     <IdleSettings>
-        <WaitTimeout>PT24H</WaitTimeout>
-        <Duration>PT5M</Duration>
-        <TerminateOnIdleEnd>false</TerminateOnIdleEnd>
+        <StopOnIdleEnd>false</StopOnIdleEnd>
         <RestartOnIdle>false</RestartOnIdle> 
+        <!-- WaitTimeout and Duration have been deprecated -->
+        <Duration>PT5M</Duration>
+        <WaitTimeout>PT24H</WaitTimeout>
     </IdleSettings>       
 </Settings>
 ```
 
-
-
 ## Requirements
-
-
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
-
-
 ## See also
 
-<dl> <dt>
-
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
-</dt> <dt>
 
 [Task Scheduler](task-scheduler-start-page.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
