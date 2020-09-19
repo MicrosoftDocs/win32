@@ -29,15 +29,18 @@ The **IdleSettings** object has these types of members:
 
 ### Properties
 
-The **IdleSettings** object has these properties.
+The **IdleSettings** object has these properties. 
+Please note that IdleDuration and WaitTimeout properties have been deprecated. While they are still present in Task Scheduler UI and their interface methods may still return valid values, they are no longer used.
+
 
 
 
 | Property                                                       | Access type           | Description                                                                                                                                                     |
 |:---------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IdleDuration**](idlesettings-idleduration.md)<br/>   | Read/write<br/> | Gets or sets a value that indicates the amount of time that the computer must be in an idle state before the task is run.<br/>                            |
 | [**RestartOnIdle**](idlesettings-restartonidle.md)<br/> | Read/write<br/> | Gets or sets a Boolean value that indicates whether the task is restarted when the computer cycles into an idle condition more than once.<br/>            |
 | [**StopOnIdleEnd**](idlesettings-stoponidleend.md)<br/> | Read/write<br/> | Gets or sets a Boolean value that indicates that the Task Scheduler will terminate the task if the idle condition ends before the task is completed.<br/> |
+Deprecated:
+| [**IdleDuration**](idlesettings-idleduration.md)<br/>   | Read/write<br/> | Gets or sets a value that indicates the amount of time that the computer must be in an idle state before the task is run.<br/>                            |
 | [**WaitTimeout**](idlesettings-waittimeout.md)<br/>     | Read/write<br/> | Gets or sets a value that indicates the amount of time that the Task Scheduler will wait for an idle condition to occur.<br/>                             |
 
 
@@ -49,6 +52,7 @@ The **IdleSettings** object has these properties.
 When reading or writing XML for a task, this setting is specified in the [**IdleSettings**](taskschedulerschema-idlesettings-settingstype-element.md) element of the Task Scheduler schema.
 
 If a task is triggered by an idle trigger, then the [**IdleSettings.WaitTimeout**](idlesettings-waittimeout.md) property is ignored.
+IdleSettings.WaitTimeout and IdleSettings.IdleDuration is deprecated.
 
 ## Requirements
 
