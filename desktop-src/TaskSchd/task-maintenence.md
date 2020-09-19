@@ -11,16 +11,49 @@ ms.date: 05/31/2018
 Maintenance activity refers to an application or process that helps maintain the health and performance of a Windows PC. Maintenance includes keeping Windows and applications up-to-date, checking security, and running scans for malware. Windows Automatic Management (WAM) is a set of enhancements to the Task Scheduler API you can use to link your applications into the Windows maintenance schedule. Specifically, WAM allows you to add activities that require regular scheduling, but do not have exact time requirements. Instead, WAM relies on the operating system to choose the appropriate time to activate the task throughout the day. The system chooses those times based on minimal impact to the user, PC performance, and energy efficiency.
 
 ## How Scheduled Maintenance Works
+Task Scheduler Maintenance Tasks are opportunistic tasks that run when the machine is idle and on AC power. One of the major goals of maintenance tasks is to minimize impact to the PC by scheduling maintenance only when the PC is plugged in to AC power and idle. The idea of maintenance today is to run when the machine can with least disruption to the user. Hence the old style maintenance hour (we talk more about this in **Automatic Maintenance - Daily wakeup**)
 
-Windows Automatic Maintenance minimizes impact to the PC by scheduling maintenance only when the PC is on and idle. By default, the system performs maintenance daily, starting at 3 AM. (Note that the user may re-schedule when the maintenance occurs.) This daily session is limited to a maximum duration of 1 hour per attempt. If the user is actively using the machine, the system defers maintenance until a later time. The system also suspends any executing maintenance task if the user returns to the PC.
+Your task may be starved if machines do not spend much time idle/on AC power. Make sure that your scenario will still provide value to the user, even if it is delayed. If the user is actively using the machine, the system defers maintenance until a later time. The system also suspends any executing maintenance task if the user returns to the PC.
 
 The system restarts a suspended maintenance task during the next idle period; however, the system will not suspend any task marked as critical. Instead, the system allows a critical task to complete, regardless of user action.
 
 Due to the nature of scheduling, some scheduled tasks may not finish: perhaps there are too many scheduled events to fit in the 1 hour maintenance window, or maybe the computer was simply not turned on. In such cases, you can define a task with a deadline. A deadline is defined as a recurring time frame in which the system must successfully perform the task at least once.
 
-If a task misses a deadline, the maintenance scheduler will continue to attempt to execute the task during the maintenance window. Further, the scheduler will not limit itself to the regular 1 hour time limit. Instead, the scheduler extends the duration of the maintenance window in order to complete the delayed task. If the system still cannot complete the task, the Action Center displays a warning notification to the user. The user can then manually initiate the maintenance action from the Action center.
+If a task misses a deadline, the maintenance scheduler will continue to attempt to execute the task during the maintenance window. Further, the scheduler will not limit itself to the regular 1 hour time limit. Instead, the scheduler extends the duration of the maintenance window in order to complete the delayed task. 
+
+Previously, if the system wouldn't complete the task, the Action Center display would display a warning notification to the user. The user could then manually initiate the maintenance action from the Action center. But this behavior is no longer present.
 
 Once the system completes the task (even with a failure error code), the attempt is considered successful. After a successful attempt, the scheduler resets to the regular maintenance schedule, and will attempt the task during the next period.
+
+## Automatic Maintenance - Daily wakeup
+During Win7, Maintenance Tasks ran exclusively during "Maintenance Hour", defaulting to 3am and configurable via Group Policy. The machine would wake up from Standby, run Maintenance tasks, and go back to sleep. This daily session was limited to a maximum duration of 1 hour per attempt. This would allow the system to perform maintenance daily, starting at 3 AM by default. Note that the user may re-schedule when the maintenance occurs by configuring these settings.
+
+With the advent of laptops, and the heavy focus on battery life, machines are no longer configured to allow S3 wakeup in most circumstances, and generally Doze-To-S4 (hibernate) as soon as possible, to save battery. In response to these changes, Task Scheduler (>Win7) runs Maintenance Tasks whenever they are due, and the machine is idle and on AC power.
+
+This setting can be configured in Control Panel.
+Open Control Panel -> System and Security -> Security and Maintenance -> Automatic Maintenance
+
+So based on how your machines and your tasks are configured, the daily wakeup behavior may not/may not occur today as expected because of this new configuration. 
+You can first determine if your machine is S3 capable or CS (Connected Standby) capable.
+This can be done by opening an elevated power shell prompt and running the following command: 
+
+  powercfg /a
+
+Maintenance Hour, if the machine is configured correctly, still works, but if it doesn't,
+  - Check your BIOS settings for Wake settings. 
+  - Check if Allow Wake Timer is enabled in Power Options.
+    Go to Control Panel -> Hardware and Sound -> Power Options -> Edit Plan Settings -> Change advanced power settings -> Click "Sleep" -> Allow Wake Timer
+  - Check if your scheduled task is configured with following:
+      * MaintenanceSettings: Task should be configured with Period, Deadline,
+      * Enabled : Task should be enabled.
+      * WakeToRun: Task should be allowed to wake the machine.
+  - For scheduling wakes from CS, machine should be AOAC capable
+  - For scheduling wakes in S3 machines,
+      * Check if machine went into S3 on AC Power.
+      * System should have Wake Enabled in Group Policy for Maintenance
+ 
+Connected Standby is the system state that an AOAC-compliant system can enter.
+See differences between Modern Standby and S3: https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/modern-standby-vs-s3
 
 ## Defining an Automatic Maintenance Task
 
