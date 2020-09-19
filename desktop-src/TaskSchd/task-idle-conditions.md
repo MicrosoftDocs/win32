@@ -51,14 +51,17 @@ The task settings can be used to define how the Task Scheduler handles the task 
 
 The following illustrations provide three possible timelines that show how these different idle conditions relate to each other. Be aware that the illustrations start when the task trigger is activated or when the task is started on demand (without requesting to [ignore the existing task constraints](/windows/win32/api/taskschd/ne-taskschd-task_run_flags)).
 
+Please note that the *Duration* and *WaitTimeout* settings are deprecated. They're still present in the Task Scheduler user interface, and their interface methods may still return valid values, but they're no longer used.
+
 ![idle condition timeline](images/idle-conditions2.png)
 
 The following list describes the idle conditions:
-
--   Idle Wait: The amount of time that the Task Scheduler will wait for an idle state to occur after a task trigger is activated or after the task is started on demand.
--   Idle Duration: The amount of time you want the computer to have been idle before starting the task.
 -   Idle Start: The time when the computer enters an idle state.
 -   Idle End: The time when the computer goes out of the idle state. Be aware that the amount of time the computer is in the idle state is independent of the idle duration time that was described previously.
+
+Idle Wait and Idle Duration have been deprecated.
+-   Idle Wait: The amount of time that the Task Scheduler will wait for an idle state to occur after a task trigger is activated or after the task is started on demand.
+-   Idle Duration: The amount of time you want the computer to have been idle before starting the task.
 
 For example, if a task is set to start only if the computer is idle for 30 minutes, and the task waits for the computer to be idle for 10 minutes, then the task will launch in 5 minutes only if the computer has been idle for 25 minutes prior to the time the trigger was activated. The task will not start if the computer enters an idle state 5 minutes after the trigger is activated.
 
