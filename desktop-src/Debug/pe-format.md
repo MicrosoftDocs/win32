@@ -4,6 +4,7 @@ ms.assetid: 3dbfbf7f-6662-45a4-99f1-e0e24c370dee
 title: PE Format
 ms.topic: article
 ms.date: 08/11/2020
+ms.custom: contperfq1
 ---
 
 # PE Format
