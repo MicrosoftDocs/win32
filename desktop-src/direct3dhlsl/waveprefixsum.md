@@ -48,6 +48,8 @@ The order of operations on this routine cannot be guaranteed, so effectively the
 
 A postfix sum can be computed by adding the prefix sum to the current lane’s value.
 
+Note that the active lane with the lowest index will always receive a 0 for it's prefix sum.
+
 This function is supported from shader model 6.0, in the following types of shaders:
 
 
@@ -62,11 +64,22 @@ This function is supported from shader model 6.0, in the following types of shad
 
 ## Examples
 
-``` syntax
- // compute distinct offset into buffer for each lane
-    uint numWrites; // number of values to write to the output from this lane
-    uint offset = WavePrefixSum(numWrites); // offset for this lane
+    uint numToSum = 2;
+    uint prefixSum = WavePrefixSum( numToMultiply );
 ```
+On a machine with a wave size of 8 and all lanes active except lanes 0 and 4 the following values would be returned from WavePrefixSum.
+
+| lane index | status   | prefixProduct | 
+|------------|----------|---------------|
+| 0          | inactive | n/a           |
+| 1          | active   | = 0           |
+| 2          | active   | = 0+2         |
+| 3          | active   | = 0+2+2       |
+| 4          | inactive | n/a           |
+| 5          | active   | = 0+2+2+2     |
+| 6          | active   | = 0+2+2+2+2   |
+| 7          | active   | = 0+2+2+2+2+2 |
+
 
 ## See also
 
