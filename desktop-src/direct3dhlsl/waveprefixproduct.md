@@ -65,7 +65,6 @@ This function is supported from shader model 6.0, in the following types of shad
 ## Examples
 
 ``` syntax
- // compute offset into buffer for this lane’s writes
     uint numToMultiply = 2;
     uint prefixProduct = WavePrefixProduct( numToMultiply );
 ```
