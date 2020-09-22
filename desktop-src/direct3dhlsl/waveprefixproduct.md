@@ -48,7 +48,7 @@ The order of operations on this routine cannot be guaranteed, so effectively the
 
 A postfix product can be computed by multiplying the prefix product by the current lane’s value.
 
-Note that the active lane with the lowest index will always receive a 0 for it's prefix product.
+Note that the active lane with the lowest index will always receive a 1 for it's prefix product.
 
 This function is supported from shader model 6.0, in the following types of shaders:
 
