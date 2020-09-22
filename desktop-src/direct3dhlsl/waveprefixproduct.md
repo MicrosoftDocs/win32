@@ -74,12 +74,12 @@ On a machine with a wave size of 8 and all lanes active except lanes 0 and 4 the
 |------------|----------|---------------|
 | 0          | inactive | n/a           |
 | 1          | active   | = 1           |
-| 2          | active   | = 1*2         |
-| 3          | active   | = 1*2*2       |
+| 2          | active   | = 1\*2        |
+| 3          | active   | = 1\*2\*2     |
 | 4          | inactive | n/a           |
-| 5          | active   | = 1*2*2*2     |
-| 6          | active   | = 1*2*2*2*2   |
-| 7          | active   | = 1*2*2*2*2*2 |
+| 5          | active   | = 1\*2\*2\*2       |
+| 6          | active   | = 1\*2\*2\*2\*2    |
+| 7          | active   | = 1\*2\*2\*2\*2\*2 |
 
 
 ## See also
