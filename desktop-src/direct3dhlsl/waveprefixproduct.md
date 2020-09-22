@@ -29,14 +29,9 @@ Returns the product of all of the values in the active lanes in this wave with i
 
 ## Parameters
 
-<dl> <dt>
-
 *value* 
-</dt> <dd>
 
 The value to multiply.
-
-</dd> </dl>
 
 ## Return value
 
@@ -44,31 +39,26 @@ The product of all the values.
 
 ## Remarks
 
-The order of operations on this routine cannot be guaranteed, so effectively the \[precise\] flag is ignored within it.
+The order of operations on this routine cannot be guaranteed. So, effectively, the \[precise\] flag is ignored within it.
 
-A postfix product can be computed by multiplying the prefix product by the current lane’s value.
+A postfix product can be computed by multiplying the prefix product by the current lane's value.
 
-Note that the active lane with the lowest index will always receive a 1 for it's prefix product.
+Note that the active lane with the lowest index will always receive a 1 for its prefix product.
 
-This function is supported from shader model 6.0, in the following types of shaders:
-
-
+This function is supported from shader model 6.0, in the following types of shaders.
 
 | Vertex | Hull | Domain | Geometry | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 
-
-
- 
-
 ## Examples
 
-``` syntax
-    uint numToMultiply = 2;
-    uint prefixProduct = WavePrefixProduct( numToMultiply );
+```hlsl
+uint numToMultiply = 2;
+uint prefixProduct = WavePrefixProduct( numToMultiply );
 ```
-On a machine with a wave size of 8 and all lanes active except lanes 0 and 4 the following values would be returned from WavePrefixProduct.
+
+On a machine with a wave size of 8, and all lanes active except lanes 0 and 4, the following values would be returned from WavePrefixProduct.
 
 | lane index | status   | prefixProduct | 
 |------------|----------|---------------|
@@ -81,21 +71,8 @@ On a machine with a wave size of 8 and all lanes active except lanes 0 and 4 the
 | 6          | active   | = 1\*2\*2\*2\*2    |
 | 7          | active   | = 1\*2\*2\*2\*2\*2 |
 
-
 ## See also
 
-<dl> <dt>
-
 [Overview of Shader Model 6](hlsl-shader-model-6-0-features-for-direct3d-12.md)
-</dt> <dt>
 
 [Shader Model 6](shader-model-6-0.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
