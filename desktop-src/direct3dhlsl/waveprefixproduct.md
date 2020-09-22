@@ -48,6 +48,8 @@ The order of operations on this routine cannot be guaranteed, so effectively the
 
 A postfix product can be computed by multiplying the prefix product by the current lane’s value.
 
+Note that the active lane with the lowest index will always receive a 0 for it's prefix product.
+
 This function is supported from shader model 6.0, in the following types of shaders:
 
 
@@ -64,9 +66,22 @@ This function is supported from shader model 6.0, in the following types of shad
 
 ``` syntax
  // compute offset into buffer for this lane’s writes
-    uint numWrites;      // number of DWORDs to write to the output from this lane
-    uint offset = WavePrefixProduct( numWrites );
+    uint numToMultiply = 2;
+    uint prefixProduct = WavePrefixProduct( numToMultiply );
 ```
+On a machine with a wave size of 8 and all lanes active except lanes 0 and 4 the following values would be returned from WavePrefixProduct.
+
+| lane index | status   | prefixProduct | 
+|------------|----------|---------------|
+| 0          | inactive | n/a           |
+| 1          | active   | = 1           |
+| 2          | active   | = 1*2         |
+| 3          | active   | = 1*2*2       |
+| 4          | inactive | n/a           |
+| 5          | active   | = 1*2*2*2     |
+| 6          | active   | = 1*2*2*2*2   |
+| 7          | active   | = 1*2*2*2*2*2 |
+
 
 ## See also
 
