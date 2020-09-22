@@ -65,7 +65,7 @@ This function is supported from shader model 6.0, in the following types of shad
 ## Examples
 
     uint numToSum = 2;
-    uint prefixSum = WavePrefixSum( numToMultiply );
+    uint prefixSum = WavePrefixSum( numToSum );
 ```
 On a machine with a wave size of 8 and all lanes active except lanes 0 and 4 the following values would be returned from WavePrefixSum.
 
