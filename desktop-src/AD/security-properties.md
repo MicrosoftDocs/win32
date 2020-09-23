@@ -37,7 +37,7 @@ X509:<I>C=US,O=InternetCA,CN=APublicCertificateAuthority<S>C=US,O=Fabrikam,OU=Sa
 
 
 
-Be aware that "\<I\>" or "\<I>" and "\<S\>" are supported. Having only "\<S\>" is not supported. Applications should not modify the values within "\<I\>" or "\<S\>" because partial DN matching is not supported.
+Be aware that "\<S\>" or "\<I>" and "\<S\>" are supported. Having only "\<I\>" is not supported. Applications should not modify the values within "\<I\>" or "\<S\>" because partial DN matching is not supported.
 
 For external Kerberos accounts, the values should be the Kerberos account name. The Kerberos package uses the following syntax: "Kerberos:MITaccountname". For example, the following is the value for an account at Fabrikam.com:
 

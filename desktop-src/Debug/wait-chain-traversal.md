@@ -1,9 +1,10 @@
 ---
-Description: Wait Chain Traversal (WCT) enables debuggers to diagnose application hangs and deadlocks.
+description: Wait Chain Traversal (WCT) enables debuggers to diagnose application hangs and deadlocks.
 ms.assetid: d266a663-b101-4936-9574-f6ce223419ae
 title: Wait Chain Traversal
 ms.topic: article
 ms.date: 08/10/2020
+ms.custom: contperfq1
 ---
 
 # Wait Chain Traversal

@@ -22,66 +22,68 @@ Saves a compressed precomputed radiance transfer (PRT) buffer to disk.
 
 ## Syntax
 
-
-```C++
+```cpp
 HRESULT D3DXSavePRTCompBufferToFile(
   _In_ LPCSTR              pFileName,
   _In_ LPD3DXPRTCOMPBUFFER pBuffer
 );
 ```
 
-
-
 ## Parameters
 
-<dl> <dt>
-
 *pFileName* \[in\]
-</dt> <dd>
 
-Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
+Type: **[LPCSTR](../winprog/windows-data-types.md)**
 
 Name of the file to which the compressed buffer is to be saved.
 
-</dd> <dt>
-
 *pBuffer* \[in\]
-</dt> <dd>
 
-Type: **[**LPD3DXPRTCOMPBUFFER**](id3dxprtcompbuffer.md)**
+Type: **[LPD3DXPRTCOMPBUFFER](id3dxprtcompbuffer.md)**
 
 Address of a pointer to the input [**ID3DXPRTCompBuffer**](id3dxprtcompbuffer.md) object.
 
-</dd> </dl>
-
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
-If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
+If the method succeeds, then the return value is **D3D\_OK**. If the method fails, then the return value can be **D3DERR\_INVALIDCALL**.
 
 ## Remarks
 
-The compiler setting also determines the function version. If Unicode is defined, the function call resolves to D3DXSavePRTCompBufferToFileW. Otherwise, the function call resolves to D3DXSavePRTCompBufferToFileA.
+The compiler setting also determines the function version. If Unicode is defined, then the function call resolves to [D3DXSavePRTCompBufferToFileW](/windows/win32/direct3d9/d3dxsaveprtcompbuffertofile). Otherwise, the function call resolves to **D3DXSavePRTCompBufferToFileA**.
+
+The PCA file format is a binary file in the form of a header and then two or three data blocks.
+
+```cpp
+struct PRTCompressHeader
+{
+    UINT NumSamples;
+    UINT NumCoeffs;
+    UINT NumChannels;
+    UINT TexWidth;
+    UINT TexHeight;
+    UINT bIsTex;
+    UINT NumClusters;
+    UINT NumPCA;
+};
+```
+
+For the case of *bIsTex* being non-zero, *NumSamples* should equal `TexWidth * TexHeight`.
+
+The basis data block that follows the header is `NumCoeffs * NumChannels * (NumPCA + 1) * NumClusters * sizeof(float)` bytes.
+
+Following that is the PCA weights data block, which is `NumPCA * NumSamples * sizeof(float)` bytes.
+
+If *NumClusters* is greater than 1, then the file ends with the cluster IDs data block of `NumSamples * sizeof(UINT)` bytes.
 
 ## Requirements
-
-
 
 |                    |                                                                                        |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
 
-
-
 ## See also
 
-<dl> <dt>
-
 [Precomputed Radiance Transfer Functions](dx9-graphics-reference-d3dx-functions-prt.md)
-</dt> </dl>
-
- 
-
- 
