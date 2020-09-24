@@ -2,7 +2,7 @@
 Description: This section describes how to determine which version of the Shell DLLs your application is running on and how to target your application for a specific version.
 title: Shell and Shlwapi DLL Versions
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/24/2020
 ms.assetid: ecfb6484-a1d6-4ace-8457-3940b111a4d2
 api_name: 
 api_type: 
@@ -76,7 +76,7 @@ The following sample function `GetVersion` loads a specified DLL and attempts to
 > Using [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) incorrectly can pose security risks. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.
 
 
-```
+```C++
 #include "stdafx.h"
 #include "windows.h"
 #include "windef.h"
@@ -129,7 +129,7 @@ DWORD GetVersion(LPCTSTR lpszDllName)
 The following code example illustrates how you can use `GetVersion` to test whether Shell32.dll is version 6.0 or later.
 
 
-```
+```C++
 LPCTSTR lpszDllName = L"C:\\Windows\\System32\\Shell32.dll";
 DWORD dwVer = GetVersion(lpszDllName);
 DWORD dwTarget = PACKVERSION(6,0);
