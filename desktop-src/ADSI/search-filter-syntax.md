@@ -7,7 +7,7 @@ keywords:
 - Search Filter Syntax ADSI
 - queries, search filter syntax
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/25/2020
 ---
 
 # Search Filter Syntax
@@ -192,12 +192,13 @@ Get all entries without an email attribute:
 
 
 
-The formal definition of the search filter is as follows (from RFC 1960):
+The formal definition of the search filter is as follows (from [RFC 2254](https://tools.ietf.org/html/rfc2254)):
 
 
 ```C++
 <filter> ::= '(' <filtercomp> ')'
-<filtercomp> ::= <and> | <or> | <not> | <item><and> ::= '&' <filterlist>
+<filtercomp> ::= <and> | <or> | <not> | <item>
+<and> ::= '&' <filterlist>
 <or> ::= '|' <filterlist>
 <not> ::= '!' <filter>
 <filterlist> ::= <filter> | <filter> <filterlist>
