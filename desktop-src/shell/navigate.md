@@ -49,7 +49,7 @@ main()
    
     CoInitialize( NULL );
     
-    hr = SHGetFolderLocation(NULL, CSIDL_PROGRAM_FILES, NULL, NULL, &pidlProgFiles);
+    hr = SHGetFolderLocation(NULL, CSIDL_PROGRAM_FILES, NULL, 0, &pidlProgFiles);
 
     hr = SHGetDesktopFolder(&psfDeskTop);
 
