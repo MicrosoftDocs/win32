@@ -77,7 +77,7 @@ This parameter can be one of the following messages: [WM_LBUTTONDOWN](/windows/d
 
 Type: **LPARAM**
 
-A pointer to an [KBDLLHOOKSTRUCT](/windows/desktop/api/winuser/ns-winuser-kbdllhookstruct) structure.
+A pointer to an [MSLLHOOKSTRUCT](/windows/desktop/api/winuser/ns-winuser-msllhookstruct) structure.
 
 ## Returns
 
@@ -122,6 +122,8 @@ For more information on raw input, see [Raw Input](/windows/desktop/inputdev/raw
 [mouse_event](/windows/desktop/api/winuser/nf-winuser-mouse_event)
 
 [KBDLLHOOKSTRUCT](/windows/desktop/api/winuser/ns-winuser-kbdllhookstruct)
+
+[MSLLHOOKSTRUCT](/windows/desktop/api/winuser/ns-winuser-msllhookstruct)
 
 [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw)
 
