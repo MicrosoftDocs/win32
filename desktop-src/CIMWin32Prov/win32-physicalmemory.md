@@ -932,9 +932,7 @@ FBD2
 
 </dt> <dd></dd> <dt>
 
-<span id="DDR2"></span><span id="ddr2"></span>
-
-<span id="DDR2"></span><span id="ddr2"></span>**DDR4** (26)
+<span id="DDR4"></span><span id="DDR4"></span>**DDR4** (26)
 
 </dd> </dl>
 
