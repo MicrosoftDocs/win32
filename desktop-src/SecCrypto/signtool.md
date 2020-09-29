@@ -91,10 +91,8 @@ The following commands are supported by SignTool.
 |`/dxml`  |When used with the <strong>/dg</strong> option, produces an XML file. The output file will be: <em>Path</em>\<em>FileName.dig.xml</em>.|  
 |`/f`  *SignCertFile*|Specifies the signing certificate in a file. If the file is in Personal Information Exchange (PFX) format and protected by a password, use the `/p` option to specify the password. If the file does not contain private keys, use the `/csp` and `/kc` options to specify the CSP and private key container name.|  
 |`/fd`|Specifies the file digest algorithm to use for creating file signatures.
-<blockquote>
  [!Note]
-A warning is generated if <strong>/fd</strong> switch is not provided while signing. The default alg is SHA1 but SHA256 is recommended.
-</blockquote>|  
+A warning is generated if <strong>/fd</strong> switch is not provided while signing. The default alg is SHA1 but SHA256 is recommended.|  
 |`/i`  *IssuerName*|Specifies the name of the issuer of the signing certificate. This value can be a substring of the entire issuer name.|  
 |`/kc`  *PrivKeyContainerName*|Specifies the private key container name.|  
 |`/n`  *SubjectName*|Specifies the name of the subject of the signing certificate. This value can be a substring of the entire subject name.|  
