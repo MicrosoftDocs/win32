@@ -903,7 +903,7 @@ This property is inherited from [**CIM\_PhysicalMemory**](cim-physicalmemory.md)
 
 </dt> <dd>
 
-DDR2—May not be available; see note above.
+DDR2—May not be available.
 
 </dd> <dt>
 
@@ -914,14 +914,14 @@ DDR2—May not be available; see note above.
 
 </dt> <dd>
 
-DDR2—FB-DIMM,May not be available; see note above.
+DDR2—FB-DIMM,May not be available.
 
 </dd> <dt>
 
 24
 </dt> <dd>
 
-DDR3—May not be available; see note above.
+DDR3—May not be available.
 
 </dd> <dt>
 
@@ -929,6 +929,10 @@ DDR3—May not be available; see note above.
 </dt> <dd>
 
 FBD2
+
+</dt> <dd></dd> <dt>
+
+<span id="DDR4"></span><span id="DDR4"></span>**DDR4** (26)
 
 </dd> </dl>
 
