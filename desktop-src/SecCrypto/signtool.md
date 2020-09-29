@@ -90,9 +90,7 @@ The following commands are supported by SignTool.
 |`/du`  *URL*|Specifies a Uniform Resource Locator (URL) for the expanded description of the signed content.|  
 |`/dxml`  |When used with the <strong>/dg</strong> option, produces an XML file. The output file will be: <em>Path</em>\<em>FileName.dig.xml</em>.|  
 |`/f`  *SignCertFile*|Specifies the signing certificate in a file. If the file is in Personal Information Exchange (PFX) format and protected by a password, use the `/p` option to specify the password. If the file does not contain private keys, use the `/csp` and `/kc` options to specify the CSP and private key container name.|  
-|`/fd`|Specifies the file digest algorithm to use for creating file signatures.
- [!Note]
-A warning is generated if <strong>/fd</strong> switch is not provided while signing. The default alg is SHA1 but SHA256 is recommended.|  
+|`/fd`|Specifies the file digest algorithm to use for creating file signatures. [!Note] A warning is generated if <strong>/fd</strong> switch is not provided while signing. The default alg is SHA1 but SHA256 is recommended.|
 |`/i`  *IssuerName*|Specifies the name of the issuer of the signing certificate. This value can be a substring of the entire issuer name.|  
 |`/kc`  *PrivKeyContainerName*|Specifies the private key container name.|  
 |`/n`  *SubjectName*|Specifies the name of the subject of the signing certificate. This value can be a substring of the entire subject name.|  
@@ -107,9 +105,7 @@ A warning is generated if <strong>/fd</strong> switch is not provided while sign
 |`/sha1`  *Hash*|Specifies the SHA1 hash of the signing certificate. The SHA1 hash is commonly specified when multiple certificates satisfy the criteria specified by the remaining switches.|  
 |`/sm`|Specifies that a machine store, instead of a user store, is used.|  
 |`/t`  *URL*|Specifies the URL of the time stamp server. If this option (or `/tr`) is not present, the signed file will not be time stamped. A warning is generated if time stamping fails. This option cannot be used with the `/tr` option.|  
-|`/td`  *alg*|Used with the `/tr` option to request a digest algorithm used by the RFC 3161 time stamp server. 
-<blockquote>
- [!Note]<br />
+|`/td`  *alg*|Used with the `/tr` option to request a digest algorithm used by the RFC 3161 time stamp server. <blockquote> [!Note]<br />
 A warning is generated if <strong>/td</strong> switch is not provided while timestamping. The default alg is SHA1 but SHA256 is recommended. <br/> 
 The <strong>/td</strong> switch must be declared after the <strong>/tr</strong> switch, not before. If the <strong>/td</strong> switch is declared before the <strong>/tr</strong> switch, the timestamp that is returned is from an SHA1 algorithm instead of the intended SHA256 algorithm. 
 </blockquote>|  
@@ -167,7 +163,14 @@ The SignTool **verify** command determines whether the signing certificate was i
 
 The SignTool **verify** command will output the **embedded** signature status unless an option is specified to search a catalog (/a, /ad, /as, /ag, /c).
 
-SignTool returns an exit code of zero for successful execution, one for failed execution, and two for execution that completed with warnings. If the SignTool encounters an unhandled exception, however, the return value is undefined.
+## Return Value  
+ Sign Tool returns one of the following exit codes when it terminates.  
+  
+|Exit code|Description|  
+|---------------|-----------------|  
+|0|Execution was successful.|  
+|1|Execution has failed.|  
+|2|Execution has completed with warnings.|
 
 The following command line shows signing a file automatically using the best certificate.
 
