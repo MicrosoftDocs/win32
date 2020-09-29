@@ -169,15 +169,65 @@ The SignTool **verify** command will output the **embedded** signature status un
 |1|Execution has failed.|  
 |2|Execution has completed with warnings.|
 
-The following command line shows signing a file automatically using the best certificate.
-
-**signtool sign** **/a** *MyFile.exe*
-
-> [!Note]  
-> When signing an executable file that is larger than approximately 300 megabytes for use on a computer running Windows XP with Service Pack 2 (SP2) and later, you should use catalog signing with the [MakeCat](makecat.md) tool rather than use the SignTool tool. Depending on the available system resources of the computer on which the file is verified, some applications may not be able to verify the binary signature of a large file. For more information, see KB article [922225](https://support.microsoft.com/kb/922225).
-
- 
-
- 
+## Examples  
+ The following command adds the catalog file MyCatalogFileName.cat to the system component and driver database. The `/u` option generates a unique name if necessary to prevent replacing an existing catalog file named `MyCatalogFileName.cat`.  
+  
+```console  
+signtool catdb /v /u MyCatalogFileName.cat  
+```  
+  
+ The following command signs a file automatically by using the best certificate.  
+  
+```console  
+signtool sign /a MyFile.exe /fd SHA256
+```  
+  
+ The following command digitally signs a file by using a certificate stored in a password-protected PFX file.  
+  
+```console  
+signtool sign /f MyCert.pfx /p MyPassword MyFile.exe /fd SHA256
+```  
+  
+ The following command digitally signs and time-stamps a file. The certificate used to sign the file is stored in a PFX file.  
+  
+```console  
+signtool sign /f MyCert.pfx /t http://timestamp.digicert.com MyFile.exe /fd SHA256
+```  
+  
+ The following command signs a file by using a certificate located in the `My` store that has a subject name of `My Company Certificate`.  
+  
+```console  
+signtool sign /n "My Company Certificate" MyFile.exe /fd SHA256
+```  
+  
+ The following command signs an ActiveX control and provides information that is displayed by Internet Explorer when the user is prompted to install the control.  
+  
+```console  
+Signtool sign /f MyCert.pfx /d: "MyControl" /du http://www.example.com/MyControl/info.html MyControl.exe /fd SHA256
+```  
+  
+ The following command time-stamps a file that has already been digitally signed.  
+  
+```console  
+signtool timestamp /t http://timestamp.digicert.com MyFile.exe /td SHA256 
+```  
+  
+ The following command verifies that a file has been signed.  
+  
+```console  
+signtool verify MyFile.exe  
+```  
+  
+ The following command verifies a system file that may be signed in a catalog.  
+  
+```console  
+signtool verify /a SystemFile.dll  
+```  
+  
+ The following command verifies a system file that is signed in a catalog named `MyCatalog.cat`.  
+  
+```console  
+signtool verify /c MyCatalog.cat SystemFile.dll  
+```  
 
  
