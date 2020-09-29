@@ -120,12 +120,7 @@ The following commands are supported by SignTool.
 |----------------------|-----------------|  
 |`/p7`|Time stamps PKCS #7 files.|  
 |`/t`  *URL*|Specifies the URL of the time stamp server. The file being time stamped must have previously been signed. Either the `/t` or the `/tr` option is required.|  
-|`/td`  *alg*|Used with the `/tr` option to request a digest algorithm used by the RFC 3161 time stamp server. <br />
-<blockquote><br />
- [!Note]<br />
-A warning is generated if <strong>/td</strong> switch is not provided while timestamping. The default alg is SHA1 but SHA256 is recommended. <br/> 
-The <strong>/td</strong> switch must be declared after the <strong>/tr</strong> switch, not before. If the <strong>/td</strong> switch is declared before the <strong>/tr</strong> switch, the timestamp that is returned is from an SHA1 algorithm instead of the intended SHA256 algorithm. <br />
-</blockquote> <br />|
+|`/td`  *alg*|Used with the `/tr` option to request a digest algorithm used by the RFC 3161 time stamp server. </br> **Note:** A warning is generated if <strong>/td</strong> switch is not provided while timestamping. The default alg is SHA1 but SHA256 is recommended. <br/> The <strong>/td</strong> switch must be declared after the <strong>/tr</strong> switch, not before. If the <strong>/td</strong> switch is declared before the <strong>/tr</strong> switch, the timestamp that is returned is from an SHA1 algorithm instead of the intended SHA256 algorithm. |
 |`/tp` *index*|Time stamps the signature at *index*.|  
 |`/tr`  *URL*|Specifies the URL of the RFC 3161 time stamp server. The file being time stamped must have previously been signed. Either the `/tr` or the `/t` option is required.|  
 
@@ -229,5 +224,3 @@ signtool verify /a SystemFile.dll
 ```console  
 signtool verify /c MyCatalog.cat SystemFile.dll  
 ```  
-
- 
