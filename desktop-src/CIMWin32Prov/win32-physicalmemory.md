@@ -930,6 +930,12 @@ DDR3—May not be available; see note above.
 
 FBD2
 
+</dt> <dd></dd> <dt>
+
+<span id="DDR2"></span><span id="ddr2"></span>
+
+<span id="DDR2"></span><span id="ddr2"></span>**DDR4** (26)
+
 </dd> </dl>
 
 </dd> <dt>
