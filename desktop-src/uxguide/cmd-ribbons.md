@@ -2,6 +2,7 @@
 title: Ribbons
 description: Ribbons are the modern way to help users find, understand, and use commands efficiently and directly \ 8212;with a minimum number of clicks, with less need to resort to trial-and-error, and without having to refer to Help.
 ms.assetid: 8a4699da-9840-4622-9e94-d6d5c4e7708c
+ms.custom: contperfq1
 ms.topic: article
 ms.date: 09/18/2020
 ---
