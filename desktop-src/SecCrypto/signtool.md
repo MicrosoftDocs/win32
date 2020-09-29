@@ -94,7 +94,7 @@ The following commands are supported by SignTool.
 <blockquote>
  [!Note]<br />
 A warning is generated if <strong>/fd</strong> switch is not provided while signing. The default alg is SHA1 but SHA256 is recommended. <br/> 
-</blockquote>|  |  
+</blockquote>|  
 |`/i`  *IssuerName*|Specifies the name of the issuer of the signing certificate. This value can be a substring of the entire issuer name.|  
 |`/kc`  *PrivKeyContainerName*|Specifies the private key container name.|  
 |`/n`  *SubjectName*|Specifies the name of the subject of the signing certificate. This value can be a substring of the entire subject name.|  
