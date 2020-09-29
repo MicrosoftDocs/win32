@@ -3,7 +3,7 @@ Description: SignTool is a Windows command-line tool for code signing, date stam
 ms.assetid: aa59cb35-5fba-4ce8-97ea-fc767c83f88e
 title: SignTool
 ms.topic: article
-ms.date: 09/28/2020
+ms.date: 05/31/2018
 ---
 
 # SignTool
@@ -60,15 +60,11 @@ The following commands are supported by SignTool.
 | **/g** *GUID* | Specifies that the catalog database identified by the GUID be updated.<br/>                                                                                                                                                                                                                                               |
 | **/r**        | Removes the specified catalog from the catalog database. If this option is not specified, SignTool will add the specified catalog to the catalog database.<br/>                                                                                                                                                           |
 | **/u**        | Specifies that a unique name be automatically generated for the added catalog files. If necessary, the catalog files are renamed to prevent name conflicts with existing catalog files. If this option is not specified, SignTool overwrites any existing catalog that has the same name as the catalog being added.<br/> |
-
-
-
  
 
 > [!Note]  
 > Catalog databases are used for automatic lookup of catalog files.
 
- 
 
 <a name="sign"></a>
 ## Sign Command Options  
@@ -110,7 +106,7 @@ The following commands are supported by SignTool.
 |`/u`  *Usage*|Specifies the enhanced key usage (EKU) that must be present in the signing certificate. The usage value can be specified by OID or string. The default usage is "Code Signing" (1.3.6.1.5.5.7.3.3).|  
 |`/uw`|Specifies usage of "Windows System Component Verification" (1.3.6.1.4.1.311.10.3.6).|  
   
- For usage examples, see [Using SignTool to Sign a File](/windows/desktop/SecCrypto/using-signtool-to-sign-a-file).  
+ For usage examples, see [Using SignTool to Sign a File](signtool.md#Examples).  
   
 <a name="TimeStamp"></a>
 ## TimeStamp Command Options  
@@ -164,6 +160,7 @@ The SignTool **verify** command will output the **embedded** signature status un
 |1|Execution has failed.|  
 |2|Execution has completed with warnings.|
 
+<a name="Examples"></a>
 ## Examples  
  The following command adds the catalog file MyCatalogFileName.cat to the system component and driver database. The `/u` option generates a unique name if necessary to prevent replacing an existing catalog file named `MyCatalogFileName.cat`.  
   
