@@ -709,8 +709,6 @@ A .theme file has file associations; therefore, theme installer applications can
 
 Supported file types include the following:
 
-
-
 | File type    | Extension                           |
 |--------------|-------------------------------------|
 | Theme        | .theme                              |
@@ -720,9 +718,21 @@ Supported file types include the following:
 | Desktop icon | .ico                                |
 | Brand logo   | .png                                |
 
+If you place these asset files in the root of the .cab, you can reference most of them in your .theme file directly. For example, if you have a file called `Alert.wav` in the root of your .cab, you can use it in your sound scheme:
 
+```ini
+[AppEvents\Schemes\Apps\.Default\SystemAsterisk]
+DefaultValue=Alert.wav
+```
 
- 
+Wallpaper images behave differently. When a user activates a theme, these files are extracted to a `DesktopBackground\` folder relative to the .theme file. You should include this directory in your paths in .theme, but you should still place these files at the root of the .cab. For example, if you have a wallpaper called `BestDesktop.jpg` at the root of your .cab file, you should reference it in your .cab like this:
+
+```
+[Control Panel\Desktop]
+; Note the extra `DesktopBackground\` directory, even though the file is at the root of the .cab
+Wallpaper=DesktopBackground\BestDesktop.jpg
+```
+
 
 ## Related topics
 
