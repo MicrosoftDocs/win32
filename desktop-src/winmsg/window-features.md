@@ -162,18 +162,35 @@ The user sets the foreground window by clicking a window, or by using the ALT+TA
 
 An application sets the foreground window by using the [**SetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-setforegroundwindow) function.
 
-The system restricts which processes can set the foreground window. A process can set the foreground window only if one of the following conditions is true:
+The system restricts which applications can set the foreground window.
+A process can set the foreground window by calling [**SetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-setforegroundwindow) only if:
 
--   The process is the foreground process.
--   The process was started by the foreground process.
--   The process received the last input event.
--   There is no foreground process.
--   The foreground process is being debugged.
--   The foreground is not locked (see [**LockSetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-locksetforegroundwindow)).
--   The foreground lock time-out has expired (see **SPI\_GETFOREGROUNDLOCKTIMEOUT** in [**SystemParametersInfo**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa)).
--   No menus are active.
+- At least one of the following conditions is true:
+  - The calling process is the foreground process -
+    the process that created the previous foreground thread
+    and foreground window.
+  - The calling process was started by the foreground process.
+  - There is currently no foreground window, and thus no foreground process.
+  - The calling process received the last input event.
+  - Either the foreground process or the calling process is being debugged.
+- And all of the following conditions are true:
+  - The calling process belongs to a desktop application,
+    not a UWP app or a Windows Store app designed for Windows 8 or 8.1.
+  - The foreground process has not disabled calls to [**SetForegroundWindow**](
+    /windows/win32/api/winuser/nf-winuser-setforegroundwindow) by a previous call to the
+    [**LockSetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-locksetforegroundwindow)
+    function.
+  - The foreground lock time-out has expired (see
+    [**SPI_GETFOREGROUNDLOCKTIMEOUT** in **SystemParametersInfo**](
+    /windows/win32/api/winuser/nf-winuser-systemparametersinfoa#SPI_GETFOREGROUNDLOCKTIMEOUT)).
+  - No menus are active.
 
-A process that can set the foreground window can enable another process to set the foreground window by calling the [**AllowSetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-allowsetforegroundwindow) function, or by calling the [**BroadcastSystemMessage**](/windows/win32/api/winuser/nf-winuser-broadcastsystemmessage) function with the **BSF\_ALLOWSFW** flag. The foreground process can disable calls to [**SetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-setforegroundwindow) by calling the [**LockSetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-locksetforegroundwindow) function.
+It is possible for a process to be denied the right to set the foreground window
+even if it meets these conditions.
+
+A process that can set the foreground window can enable another process to set the foreground window by calling the [**AllowSetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-allowsetforegroundwindow) function, or by calling the [**BroadcastSystemMessage**](/windows/win32/api/winuser/nf-winuser-broadcastsystemmessage) function with the **BSF\_ALLOWSFW** flag.
+
+The foreground process can disable calls to [**SetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-setforegroundwindow) by calling the [**LockSetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-locksetforegroundwindow) function.
 
 ### Owned Windows
 
