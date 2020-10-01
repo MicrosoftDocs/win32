@@ -35,7 +35,7 @@ On Xbox One, Microsoft Spatial Sound capabilities are always available for the c
 
 ![enable spatial sound on xbox one in the settings app ](images/audiosettingsbitstream.png)
 
-Dolby Atmos for home theater is listed as a “Bitstream format” option only when connected to devices that report support for this format via HDMI Extended Display Identification Data (EDID). Note that selecting this option the first time requires the user download the Dolby Access app.
+After Dolby Atmos for home theater is selected as a “Bitstream format”, support for this format is checked via HDMI Extended Display Identification Data (EDID). If the HDMI device does not support the format, an error message is displayed to the user. Note that selecting this option the first time requires the user download the Dolby Access app.
 
 If a format other than "Bitstream out" is selected for **HDMI audio** then the **Bitstream format** dropdown is disabled.
 
