@@ -13,7 +13,7 @@ ms.date: 09/18/2020
 
 Microsoft Spatial Sound is Microsoft’s platform-level solution for spatial sound support on Xbox, Windows and HoloLens 2, enabling both surround and elevation (above or below the listener) audio cues. Spatial sound can be leveraged by Windows desktop (Win32) apps as well as Universal Windows Platform (UWP) apps on supported platforms. The spatial sound APIs allow developers to create audio objects that emit audio from positions in 3D space. Dynamic audio objects allow you to emit audio from an arbitrary position in space, which can change over time. You can also specify that audio objects emit sound from one of 17 pre-defined static channels (8.1.4.4) that can represent real or virtualized speakers. The actual output format is selected by the user, and can be abstracted from Microsoft Spatial Sound implementations; audio will be presented to existing speakers, headphones, and home theater receivers without needing any code or content changes. The platform fully supports real-time Dolby Atmos encoding for both HDMI and stereo headphone output, DTS:X for Headphones, and Windows Sonic for Headphones encoding for stereo headphones. Finally, Microsoft Spatial Sound apps abide by the system mixing policy, and their audio will also be mixed with non-spatially aware apps. Microsoft Spatial Sound support is also integrated into Media Foundation; apps that use media foundation can successfully play Dolby Atmos content with no additional implementation.
 
-Spatial sound with Microsoft Spatial Sound supports TVs, home theaters, and sound bars that support Dolby Atmos. Spatial sound can also be used with any pair of headphones the consumer may own, with audio rendered by the platform using Windows Sonic for Headphones, Dolby Atmos for Headphones, or DTS:X for Headphones.
+Spatial sound with Microsoft Spatial Sound supports TVs, home theaters, and sound bars that support Dolby Atmos. Spatial sound can also be used with any pair of headphones the consumer may own, with audio rendered by the platform using Windows Sonic for Headphones, Dolby Atmos for Headphones, or DTS Headphone:X.
 
 
 ## Enabling Microsoft Spatial Sound
@@ -41,7 +41,7 @@ If a format other than "Bitstream out" is selected for **HDMI audio** then the *
 
 ![spatial sound disabled on xbox one in the settings app ](images/audiosettingsplain.png)
 
-Select Dolby Atmos for Headphones, DTS:X for Headphones, or Windows Sonic for Headphones from the **Headset format** dropdown under **Headset audio**
+Select Dolby Atmos for Headphones, DTS Headphone:X, or Windows Sonic for Headphones from the **Headset format** dropdown under **Headset audio**
 
 ![enable spatial sound for headphones on xbox one in the settings app ](images/audiosettingsheadphone.png)
 
@@ -67,7 +67,7 @@ The general implementation coding pattern for **ISpatialAudioClient** is:
 -   Feed each object’s audio buffer each frame so the system can render it.
 -   Update dynamic objects’ 3D positions on demand – as frequently (or infrequently) as the app desires.
 
-Note that the current output format (speakers or headphones; Windows Sonic for Headphones, Dolby Atmos, or DTS:X for Headphones) is abstracted from the above implementation – the app developer can focus on spatial sound without needing to pivot based on format. Apps that do want their behavior to diverge based on output format can query the format in use, but the abstraction means an app is not required to handle these formats.
+Note that the current output format (speakers or headphones; Windows Sonic for Headphones, Dolby Atmos, or DTS Headphone:X) is abstracted from the above implementation – the app developer can focus on spatial sound without needing to pivot based on format. Apps that do want their behavior to diverge based on output format can query the format in use, but the abstraction means an app is not required to handle these formats.
 
 ## Microsoft Spatial Sound Integration with Audio Renderers
 
@@ -83,13 +83,13 @@ Renderers can also mix and match between these approaches.
 
 On Windows and Xbox, the number of available voices varies based on the format in use. Dolby Atmos formats support 32 total active objects (so if a 7.1.4 channel bed is in use, 20 additional dynamic sound objects can be active). Windows Sonic for Headphones supports 128 total active objects, with the Low Frequency Effects (LFE) channel not actually being counted as an object -- so when an 8.1.4.4 channel bed is in use, 112 dynamic sound objects can be active.
 
-For Universal Windows Platform apps running on Xbox One game consoles, realtime encode (for Dolby Atmos for home theater, Dolby Atmos for Headphones, DTS:X for Headphones, and Windows Sonic for Headphones) is performed in hardware at no CPU cost.
+For Universal Windows Platform apps running on Xbox One game consoles, realtime encode (for Dolby Atmos for home theater, Dolby Atmos for Headphones, DTS Headphone:X, and Windows Sonic for Headphones) is performed in hardware at no CPU cost.
 
 | Format                       | Max Static Objects (Channel Bed) | Max Dynamic Objects <br> Xbox One | Max Dynamic Objects <br> Windows | Max Dynamic Objects <br> HoloLens 2
 |------------------------------|----------------------------------|-------------------------------------------|------------------------------------------|------------------------------------------|
 | Dolby Atmos (HDMI)           | 12 (7.1.4)                       | 20                                        | 20                                       | NA |
 | Dolby Atmos (Headphones & Built-in Speakers)     | 17 (8.1.4.4)                     | 16                                        | 16                                       | NA |
-| DTS:X (Headphones) | 17 (8.1.4.4)        | 16                                        | 32                                      | NA |
+| DTS Headphone:X (Headphones) | 17 (8.1.4.4)        | 16                                        | 32                                      | NA |
 | Windows Sonic for Headphones | 17 (8.1.4.4)        | 15                                        | 112                                      | 31 |
 
 
@@ -100,7 +100,7 @@ Apps should also consider the following resource implications:
 
 ## Microsoft Spatial Sound and Sound Spatialization Cues
 
-Microsoft Spatial Sound is focused on sound positioning simulation on an idealized sphere around the listener. Windows Sonic for Headphones, DTS:X for Headphones, and Dolby Atmos implement speaker mapping and virtualization to headphones, but note that many other aspects of sound spatial simulation, already typically implemented in content creator-enabled ways, are left to existing engines. Content creators continue to use the existing game tools and processes they’ve previously had for such spatial cues as Doppler, distance-based attenuation and filtering, occlusion and obstruction, and environmental reverberation.
+Microsoft Spatial Sound is focused on sound positioning simulation on an idealized sphere around the listener. Windows Sonic for Headphones, DTS Headphone:X, and Dolby Atmos implement speaker mapping and virtualization to headphones, but note that many other aspects of sound spatial simulation, already typically implemented in content creator-enabled ways, are left to existing engines. Content creators continue to use the existing game tools and processes they’ve previously had for such spatial cues as Doppler, distance-based attenuation and filtering, occlusion and obstruction, and environmental reverberation.
 
 ## Additional Resources
 
