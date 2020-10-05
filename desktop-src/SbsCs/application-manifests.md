@@ -189,14 +189,14 @@ Force a process to use UTF-8 as the process code page.
 This element has no attributes. **UTF-8** is only valid value for **activeCodePage** element.
 
 ```XML
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
-  <assemblyIdentity type="win32" name="..." version="6.0.0.0"/>
-  <application>
-    <windowsSettings>
-      <activeCodePage xmlns="http://schemas.microsoft.com/SMI/2019/WindowsSettings">UTF-8</activeCodePage>
-    </windowsSettings>
-  </application>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
+ ...
+  <asmv3:application>
+    <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2019/WindowsSettings"> 
+      <activeCodePage>UTF-8</activeCodePage> 
+    </asmv3:windowsSettings>
+  </asmv3:application>
+ ...
 </assembly>
 ```
 
