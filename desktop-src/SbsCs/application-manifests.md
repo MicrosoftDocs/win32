@@ -1,4 +1,4 @@
-﻿---
+---
 description: An application manifest is an XML file that describes and identifies the shared and private side-by-side assemblies that an application should bind to at run time.
 ms.assetid: c5016251-db7a-4edc-9be9-3acb03d495f8
 title: Application Manifests
@@ -189,7 +189,7 @@ Force a process to use UTF-8 as the process code page.
 This element has no attributes. **UTF-8** is only valid value for **activeCodePage** element.
 
 ```XML
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
  ...
   <asmv3:application>
     <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2019/WindowsSettings"> 
@@ -219,7 +219,7 @@ Specifies whether giving UI elements a theme is disabled. **TRUE** indicates dis
 Specifies whether to disable window filtering. **TRUE** disables window filtering so you can enumerate immersive windows from the desktop. **disableWindowFiltering** was added in Windows 8 and has no attributes.
 
 ```XML
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
  ...
   <asmv3:application>
     <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2011/WindowsSettings">
@@ -254,7 +254,7 @@ For more information about dpi awareness settings, see [Comparison of DPI Awaren
 **dpiAware** has no attributes.
 
 ```XML
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
  ...
   <asmv3:application>
     <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">
@@ -291,7 +291,7 @@ For more information about dpi awareness settings supported by this element, see
 **dpiAwareness** has no attributes.
 
 ```XML
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
  ...
   <asmv3:application>
     <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">
@@ -316,7 +316,7 @@ Non-vector graphics (such as bitmaps, icons, or toolbars) cannot be scaled by th
 
 
 ```XML
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
  ...
   <asmv3:application>
     <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2017/WindowsSettings">
@@ -340,7 +340,7 @@ Specifies whether high-resolution-scrolling aware is enabled. **TRUE** indicates
 Enables long paths that exceed **MAX_PATH** in length. This element is supported in Windows 10, version 1607, and later. For more information, see [this article](../fileio/maximum-file-path-limitation.md).
 
 ```XML
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
  ...
   <asmv3:application>
     <asmv3:windowsSettings xmlns:ws2="http://schemas.microsoft.com/SMI/2016/WindowsSettings">
@@ -363,7 +363,7 @@ Specifies whether printer driver isolation is enabled. **TRUE** indicates that i
 
 
 ```XML
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
  ...
   <asmv3:application>
     <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2011/WindowsSettings">
@@ -416,7 +416,7 @@ Overrides the default heap implementation for the [Win32 heap APIs](../Memory/he
 This element has no attributes.
 
 ```XML
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
  ...
   <asmv3:application>
     <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2020/WindowsSettings">
