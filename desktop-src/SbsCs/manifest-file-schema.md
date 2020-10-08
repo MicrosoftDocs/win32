@@ -161,7 +161,6 @@ The following is the complete listing of the manifest file schema.
   <ElementType name="disableTheming" /> 
   <ElementType name="disableWindowFiltering" /> 
   <ElementType name="highResolutionScrollingAware" /> 
-  <ElementType name="magicFutureSetting" /> 
   <ElementType name="printerDriverIsolation" /> 
   <ElementType name="ultraHighResolutionScrollingAware" /> 
 
