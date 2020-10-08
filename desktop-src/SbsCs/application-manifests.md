@@ -3,7 +3,7 @@ description: An application manifest is an XML file that describes and identifie
 ms.assetid: c5016251-db7a-4edc-9be9-3acb03d495f8
 title: Application Manifests
 ms.topic: article
-ms.date: 9/15/2020
+ms.date: 10/08/2020
 ms.custom: 19H1
 ---
 
@@ -46,7 +46,6 @@ Application manifests have the following elements and attributes.
 | **gdiScaling**                        |                           | No       |
 | **highResolutionScrollingAware**      |                           | No       |
 | **longPathAware**                     |                           | No       |
-| **magicFutureSetting**                |                           | No       |
 | **printerDriverIsolation**            |                           | No       |
 | **ultraHighResolutionScrollingAware** |                           | No       |
 | **msix**                              |                           | No       |
@@ -333,7 +332,7 @@ Non-vector graphics (such as bitmaps, icons, or toolbars) cannot be scaled by th
 
 Specifies whether high-resolution-scrolling aware is enabled. **TRUE** indicates that it is enabled. It has no attributes.
 
-<span id="magicFutureSetting"></span><span id="magicfuturesetting"></span><span id="MAGICFUTURESETTING"></span>
+<span id="longPathAware"></span><span id="longpathaware"></span><span id="LONGPATHAWARE"></span>
 
 ### longPathAware
 
@@ -350,10 +349,6 @@ Enables long paths that exceed **MAX_PATH** in length. This element is supported
  ...
 </assembly>
 ```
-
-### magicFutureSetting
-
-Specifies whether magic-future setting is enabled. **TRUE** indicates that it is enabled. It has no attributes.
 
 <span id="printerDriverIsolation"></span><span id="printerdriverisolation"></span><span id="PRINTERDRIVERISOLATION"></span>
 
