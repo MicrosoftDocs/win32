@@ -1079,8 +1079,8 @@
         href: /windows/win32/api/mswsock/nf-mswsock-wsarecvex
       - name: "WSARecvFrom"
         href: /windows/win32/api/Winsock2/nf-winsock2-wsarecvfrom
-      - name: "WSARecvMsg"
-        href: /previous-versions/windows/desktop/legacy/ms741687(v=vs.85)
+      - name: "LPFN_WSARECVMSG (WSARecvMsg)"
+        href: /windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg
       - name: "WSARemoveServiceClass"
         href: /windows/win32/api/Winsock2/nf-winsock2-wsaremoveserviceclass
       - name: "WSAResetEvent"

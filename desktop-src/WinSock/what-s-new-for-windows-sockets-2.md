@@ -118,7 +118,7 @@ The following functions are supported for Windows Store apps on Windows 8.1, Wi
 -   [**WSAProviderConfigChange**](/windows/desktop/api/Winsock2/nf-winsock2-wsaproviderconfigchange)
 -   [**WSARecv**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv)
 -   [**WSARecvFrom**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecvfrom)
--   [**WSARecvMsg**](/previous-versions/windows/desktop/legacy/ms741687(v=vs.85))
+-   [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg)
 -   [**WSAResetEvent**](/windows/desktop/api/Winsock2/nf-winsock2-wsaresetevent)
 -   [**WSASend**](/windows/desktop/api/Winsock2/nf-winsock2-wsasend)
 -   [**WSASendMsg**](/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg)
@@ -219,7 +219,7 @@ The following functions are supported for Windows Phone Store apps on Windows P
 -   [**WSANtohs**](/windows/desktop/api/Winsock2/nf-winsock2-wsantohs)
 -   [**WSARecv**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv)
 -   [**WSARecvFrom**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecvfrom)
--   [**WSARecvMsg**](/previous-versions/windows/desktop/legacy/ms741687(v=vs.85))
+-   [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg)
 -   [**WSAResetEvent**](/windows/desktop/api/Winsock2/nf-winsock2-wsaresetevent)
 -   [**WSASend**](/windows/desktop/api/Winsock2/nf-winsock2-wsasend)
 -   [**WSASendTo**](/windows/desktop/api/Winsock2/nf-winsock2-wsasendto)
@@ -505,7 +505,7 @@ The following are new Windows Sockets functions:
 -   [**getnameinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getnameinfo)
 -   [**TransmitPackets**](/windows/desktop/api/Mswsock/nc-mswsock-lpfn_transmitpackets)
 -   [**WSANSPIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsanspioctl)
--   [**WSARecvMsg**](/previous-versions/windows/desktop/legacy/ms741687(v=vs.85))
+-   [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg)
 
 The following are new Windows Sockets structure definitions:
 

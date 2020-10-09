@@ -68,7 +68,7 @@ The following functions can be used to start I/O operations that complete by usi
 -   [**WSASendTo**](/windows/desktop/api/winsock2/nf-winsock2-wsasendto)
 -   [**WSASend**](/windows/desktop/api/winsock2/nf-winsock2-wsasend)
 -   [**WSARecvFrom**](/windows/desktop/api/winsock2/nf-winsock2-wsarecvfrom)
--   [**WSARecvMsg**](/previous-versions/windows/desktop/legacy/ms741687(v=vs.85))
+-   [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg)
 -   [**WSARecv**](/windows/desktop/api/winsock2/nf-winsock2-wsarecv)
 
 ## Related topics
