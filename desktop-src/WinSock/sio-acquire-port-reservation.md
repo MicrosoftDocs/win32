@@ -10,7 +10,7 @@ api_location:
  - mstcpip.h
 ---
 
-# SIO_ACQUIRE_PORT_RESERVATION Control Code
+# SIO_ACQUIRE_PORT_RESERVATION control code
 
 ## Description
 
@@ -104,6 +104,8 @@ For overlapped operations, the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-w
 Otherwise, the function does not return until the operation has been completed or an error occurs.
 
 ### lpCompletionRoutine
+
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](/windows/win32/api/winsock2/nc-winsock2-lpwsaoverlapped_completion_routine)
 
 A pointer to the completion routine called when the operation has been completed (ignored for non-overlapped sockets).
 

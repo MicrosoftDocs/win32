@@ -310,7 +310,7 @@ The following are new Windows IP socket options added to support the Windows Fil
 
 The following are a new Windows Sockets Ioctl and an associated structure added to control the initial (SYN / SYN+ACK) retransmission characteristics of a TCP socket:
 
--   [**SIO\_TCP\_INITIAL\_RTO**](/previous-versions/windows/desktop/legacy/jj710203(v=vs.85))
+-   [**SIO_TCP_INITIAL_RTO**](/windows/win32/winsock/sio-tcp-initial-rto)
 -   [**TCP\_INITIAL\_RTO\_PARAMETERS**](/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers)
 
 The following are a new Windows Sockets Ioctl and an associated structure added to retrieve the association between a socket and an RSS processor core and NUMA node:

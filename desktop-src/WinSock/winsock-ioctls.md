@@ -474,11 +474,11 @@ Reserved.
 
 Associate the specified [**QOS**](/windows/win32/api/winsock2/ns-winsock2-qos) structure with the socket. No output buffer is required, the **QOS** structure will be obtained from the input buffer. The [WSAENOPROTOOPT](windows-sockets-error-codes-2.md) error code is indicated for service providers that do not support quality of service.
 
-### SIO\_TCP\_INITIAL\_RTO (opcode setting: I, T==3)
+### SIO_TCP_INITIAL_RTO (opcode setting: I, T==3)
 
 Controls the initial (SYN / SYN+ACK) retransmission characteristics of a TCP socket by configuring initial retransmission timeout (RTO) parameters. The configuration parameters are specified in a [**TCP\_INITIAL\_RTO\_PARAMETERS**](/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers) structure.
 
-For more detailed information, see the [**SIO\_TCP\_INITIAL\_RTO**](/previous-versions/windows/desktop/legacy/jj710203(v=vs.85)) reference. [**SIO\_TCP\_INITIAL\_RTO**](/previous-versions/windows/desktop/legacy/jj710203(v=vs.85)) is supported on Windows 8, Windows Server 2012, and later.
+For more detailed information, see the [**SIO_TCP_INITIAL_RTO**](/windows/win32/winsock/sio-tcp-initial-rto) reference. [**SIO_TCP_INITIAL_RTO**](/windows/win32/winsock/sio-tcp-initial-rto) is supported on Windows 8, Windows Server 2012, and later.
 
 ### SIO\_TRANSLATE\_HANDLE (opcode setting: I, O, T==1)
 
