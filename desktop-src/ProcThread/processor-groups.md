@@ -17,6 +17,7 @@ Support for systems that have more than 64 logical processors is based on the co
 **Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** Processor groups are not supported.
 
 When the system starts, the operating system creates processor groups and assigns logical processors to the groups. If the system is capable of hot-adding processors, the operating system allows space in groups for processors that might arrive while the system is running. The operating system minimizes the number of groups in a system. For example, a system with 128 logical processors would have two processor groups with 64 processors in each group, not four groups with 32 logical processors in each group.
+For another example, a system with 100 logical processors might have two groups with 50 in each, not a group with 64 and a group with 46.
 
 For better performance, the operating system takes physical locality into account when assigning logical processors to groups. All of the logical processors in a core, and all of the cores in a physical processor, are assigned to the same group, if possible. Physical processors that are physically close to one another are assigned to the same group. A NUMA node is assigned to a single group unless the capacity of the node exceeds the maximum group size. For more information, see [NUMA Support](numa-support.md).
 
@@ -49,7 +50,3 @@ For a list of new functions and structures that support processor groups, see [W
 
 [NUMA Support](numa-support.md)
 </dt> </dl>
-
- 
-
- 
