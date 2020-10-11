@@ -209,7 +209,8 @@ m_d2dContext->BeginDraw();
 …
 m_d2dContext->EndDraw();
 
-// Call the FillOpacityMask method. 
+// Call the FillOpacityMask method
+// Note: for this call to work correctly the anti alias mode must be D2D1_ANTIALIAS_MODE_ALIASED. 
 m_d2dContext->SetTarget(oldTarget.Get());
 m_d2dContext->FillOpacityMask(
     opacityBitmap.Get(),
