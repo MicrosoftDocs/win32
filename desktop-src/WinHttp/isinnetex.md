@@ -55,7 +55,7 @@ isInNetEx(host, "198.95.0.0/16");
 ```
 
 ``` syntax
-isInNetEx(host, "3ffe:8311:ffff/48");
+isInNetEx(host, "3ffe:8311:ffff::/48");
     true if the IP address of the host matches 3ffe:8311:fff:*:*:*:*:*
 ```
 
