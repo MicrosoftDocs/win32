@@ -1,9 +1,9 @@
 ---
-Description: SignTool is a Windows command-line tool for code signing, date stamping files, creating Windows digital signatures, and for verifying digital signatures.
+Description: SignTool is a command-line tool that digitally signs files, verifies the signatures in files, and timestamps files.
 ms.assetid: aa59cb35-5fba-4ce8-97ea-fc767c83f88e
 title: SignTool
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/12/2020
 ---
 
 # SignTool
@@ -51,7 +51,7 @@ The following commands are supported by SignTool.
  
 
 <a name="catdb"></a>
-## Catdb Command Options  
+## Catdb command options  
  The following table lists the options that can be used with the `Catdb` command.  
 
 | Catdb option  | Description                                                                                                                                                                                                                                                                                                                     |
@@ -67,7 +67,7 @@ The following commands are supported by SignTool.
 
 
 <a name="sign"></a>
-## Sign Command Options  
+## Sign command options  
  The following table lists the options that can be used with the `sign` command.  
   
 |Sign command option|Description|  
@@ -110,7 +110,7 @@ The following commands are supported by SignTool.
  For usage examples, see [Using SignTool to Sign a File](signtool.md#Examples).  
   
 <a name="TimeStamp"></a>
-## TimeStamp Command Options  
+## TimeStamp command options  
  The following table lists the options that can be used with the `TimeStamp` command.  
   
 |TimeStamp option|Description|  
@@ -124,7 +124,7 @@ The following commands are supported by SignTool.
 
  
 <a name="Verify"></a>
-## Verify Command Options  
+## Verify command options  
 
 | Verify option                   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -152,7 +152,7 @@ The SignTool **verify** command determines whether the signing certificate was i
 
 The SignTool **verify** command will output the **embedded** signature status unless an option is specified to search a catalog (/a, /ad, /as, /ag, /c).
 
-## Return Value  
+## Return value  
  Sign Tool returns one of the following exit codes when it terminates.  
   
 |Exit code|Description|  
