@@ -14,7 +14,7 @@ Microsoft Authenticode signatures provide authorship and integrity guarantees fo
 
 [*Authenticode*](../secgloss/a-gly.md) applies digital signature technology to guarantee the authorship and integrity of binary data such as installable software. A client web browser, or other system components, can use the Authenticode signatures to verify the integrity of the data when the software is downloaded or installed. Authenticode signatures can be used with many software formats, including .cab, .exe, .ocx, and .dll.
 
-Microsoft maintains a list of public [*certification authorities*](../secgloss/c-gly.md) (CAs). Issuers of Authenticode certificates currently include [VeriSign](https://www.verisign.com/), [Thawte](https://www.thawte.com/), [Comodo](https://www.comodo.com/), [Geotrust](https://www.geotrust.com/), and [GlobalSign](https://www.globalsign.com/).
+Microsoft maintains a list of public [*certification authorities*](https://docs.microsoft.com/en-us/security/trusted-root/participants-list) (CAs). Issuers of Authenticode certificates currently include [SSl.com](https://www.ssl.com/), [Digicert](https://www.digicert.com/), [Sectigo(Comodo)](https://www.sectigo.com/), and [GlobalSign](https://www.globalsign.com/).
 
 ## About Cryptographic Time Stamping
 
