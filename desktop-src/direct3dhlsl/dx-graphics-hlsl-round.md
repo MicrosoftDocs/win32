@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # round
 
-Rounds the specified value to the nearest integer.
+Rounds the specified value to the nearest integer. Halfway cases are rounded to the nearest even.
 
 
 
