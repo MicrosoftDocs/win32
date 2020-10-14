@@ -443,7 +443,11 @@ In this example, based off of the previous one, the **Get Log Pages** request is
     protocolData->ProtocolType = ProtocolTypeNvme;  
     protocolData->DataType = NVMeDataTypeLogPage;  
     protocolData->ProtocolDataRequestValue = NVME_LOG_PAGE_HEALTH_INFO;  
-    protocolData->ProtocolDataRequestSubValue = 0;  
+    protocolData->ProtocolDataRequestSubValue = 0;  // This will be passed as the lower 32 bit of log page offset if controller supports extended data for the Get Log Page.
+    protocolData->ProtocolDataRequestSubValue2 = 0; // This will be passed as the higher 32 bit of log page offset if controller supports extended data for the Get Log Page.
+    protocolData->ProtocolDataRequestSubValue3 = 0; // This will be passed as Log Specific Identifier in CDW11.
+    protocolData->ProtocolDataRequestSubValue4 = 0; // This will map to STORAGE_PROTOCOL_DATA_SUBVALUE_GET_LOG_PAGE definition, then user can pass Retain Asynchronous Event, Log Specific Field.
+
     protocolData->ProtocolDataOffset = sizeof(STORAGE_PROTOCOL_SPECIFIC_DATA);  
     protocolData->ProtocolDataLength = sizeof(NVME_HEALTH_INFO_LOG);  
 
@@ -562,8 +566,128 @@ In this example, based off of the previous one, the **Get Features** request is 
         _tprintf(_T("DeviceNVMeQueryProtocolDataTest: ***Get Feature - Volatile Cache succeeded***.\n"));
     }
 ```
+## Protocol-specific set
 
+From Windows 10 19H1, the IOCTL_STORAGE_SET_PROPERTY was enhanced to support NVMe Set Features.
 
+The input buffer for the IOCTL_STORAGE_SET_PROPERTY is shown here:
+
+```C++
+typedef struct _STORAGE_PROPERTY_SET {
+
+    //
+    // ID of the property being retrieved
+    //
+
+    STORAGE_PROPERTY_ID PropertyId;
+
+    //
+    // Flags indicating the type of set property being performed
+    //
+
+    STORAGE_SET_TYPE SetType;
+
+    //
+    // Space for additional parameters if necessary
+    //
+
+    UCHAR AdditionalParameters[1];
+
+} STORAGE_PROPERTY_SET, *PSTORAGE_PROPERTY_SET;
+```
+
+When using IOCTL_STORAGE_SET_PROPERTY to set NVMe feature, configure the STORAGE_PROPERTY_SET structure as follows:
+
+-	Allocate a buffer that can contains both a STORAGE_PROPERTY_SET and a STORAGE_PROTOCOL_SPECIFIC_DATA_EXT structure;
+-	Set the PropertyID field to StorageAdapterProtocolSpecificProperty or StorageDeviceProtocolSpecificProperty for a controller or device/namespace request, respectively.
+-	Fill the STORAGE_PROTOCOL_SPECIFIC_DATA_EXT structure with the desired values. The start of the STORAGE_PROTOCOL_SPECIFIC_DATA_EXT is the AdditionalParameters field of STORAGE_PROPERTY_SET.
+
+The STORAGE_PROTOCOL_SPECIFIC_DATA_EXT structure is shown here.
+
+```C++
+typedef struct _STORAGE_PROTOCOL_SPECIFIC_DATA_EXT {
+
+    STORAGE_PROTOCOL_TYPE ProtocolType;
+    ULONG   DataType;                   // The value will be protocol specific, as defined in STORAGE_PROTOCOL_NVME_DATA_TYPE or STORAGE_PROTOCOL_ATA_DATA_TYPE.
+
+    ULONG   ProtocolDataValue;
+    ULONG   ProtocolDataSubValue;      // Data sub request value
+
+    ULONG   ProtocolDataOffset;         // The offset of data buffer is from beginning of this data structure.
+    ULONG   ProtocolDataLength;
+
+    ULONG   FixedProtocolReturnData;
+    ULONG   ProtocolDataSubValue2;     // First additional data sub request value
+
+    ULONG   ProtocolDataSubValue3;     // Second additional data sub request value
+    ULONG   ProtocolDataSubValue4;     // Third additional data sub request value
+
+    ULONG   ProtocolDataSubValue5;     // Fourth additional data sub request value
+    ULONG   Reserved[5];
+} STORAGE_PROTOCOL_SPECIFIC_DATA_EXT, *PSTORAGE_PROTOCOL_SPECIFIC_DATA_EXT;
+```
+
+To specify a type of NVMe feature to set, configure the STORAGE_PROTOCOL_SPECIFIC_DATA_EXT structure as follows:
+-	Set the ProtocolType field to ProtocolTypeNvme;
+-	Set the DataType field to the enumeration value NVMeDataTypeFeature defined by STORAGE_PROTOCOL_NVME_DATA_TYPE;
+
+The following examples demonstrate NVMe feature set.
+
+### Example: NVMe Set Features
+
+In this example, the Set Features request is sent to an NVMe drive. The following code prepares the set data structure and then sends the command down to the device via DeviceIoControl.
+
+```C++
+            PSTORAGE_PROPERTY_SET                   setProperty = NULL;
+            PSTORAGE_PROTOCOL_SPECIFIC_DATA_EXT     protocolData = NULL;
+            PSTORAGE_PROTOCOL_DATA_DESCRIPTOR_EXT   protocolDataDescr = NULL;
+
+            //
+            // Allocate buffer for use.
+            //
+            bufferLength = FIELD_OFFSET(STORAGE_PROPERTY_SET, AdditionalParameters) + sizeof(STORAGE_PROTOCOL_SPECIFIC_DATA_EXT);
+            bufferLength += NVME_MAX_LOG_SIZE;
+
+            buffer = new UCHAR[bufferLength];
+
+            //
+            // Initialize query data structure to get the desired log page.
+            //
+            ZeroMemory(buffer, bufferLength);
+
+            setProperty = (PSTORAGE_PROPERTY_SET)buffer;
+
+            setProperty->PropertyId = StorageAdapterProtocolSpecificProperty;
+            setProperty->SetType = PropertyStandardSet;
+
+            protocolData = (PSTORAGE_PROTOCOL_SPECIFIC_DATA_EXT)setProperty->AdditionalParameters;
+
+            protocolData->ProtocolType = ProtocolTypeNvme;
+            protocolData->DataType = NVMeDataTypeFeature;
+            protocolData->ProtocolDataValue = NVME_FEATURE_HOST_CONTROLLED_THERMAL_MANAGEMENT;
+
+            protocolData->ProtocolDataSubValue = 0; // This will pass to CDW11.
+            protocolData->ProtocolDataSubValue2 = 0; // This will pass to CDW12.
+            protocolData->ProtocolDataSubValue3 = 0; // This will pass to CDW13.
+            protocolData->ProtocolDataSubValue4 = 0; // This will pass to CDW14.
+            protocolData->ProtocolDataSubValue5 = 0; // This will pass to CDW15.
+
+            protocolData->ProtocolDataOffset = 0;
+            protocolData->ProtocolDataLength = 0;
+
+            //
+            // Send request down.
+            //
+            result = DeviceIoControl(m_deviceHandle,
+                                     IOCTL_STORAGE_SET_PROPERTY,
+                                     buffer,
+                                     bufferLength,
+                                     buffer,
+                                     bufferLength,
+                                     &returnedLength,
+                                     NULL
+            );
+```
 
 ## Temperature queries
 
