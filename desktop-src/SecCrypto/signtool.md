@@ -10,7 +10,7 @@ ms.date: 10/12/2020
 
 SignTool is a command-line tool that digitally signs files, verifies the signatures in files, and timestamps files. For information about why signing files is important, see [Introduction to Code Signing](cryptography-tools.md). The tool is installed in the \\Bin folder of the Microsoft Windows Software Development Kit (SDK) installation path.
 
-SignTool is available as part of the Windows SDK, which you can download from <https://developer.microsoft.com/en-US/windows/downloads/windows-10-sdk/>.
+SignTool is available as part of the Windows SDK, which you can download from <https://developer.microsoft.com/windows/downloads/windows-10-sdk/>.
 
 > [!Note]  
 > The Windows 10 SDK, Windows 10 HLK, Windows 10 WDK and Windows 10 ADK **builds 20236 and above** will now require specifying the digest algorithm. The SignTool sign command requires the /fd `file digest algorithm` and the /td `timestamp digest algorithm` option to be specified during signing and timestamping, respectively. A warning (error code 0, initially) will be thrown if /fd is not specified during signing and if /td is not specified during timestamping. In later versions of SignTool, the warning will become an error. SHA256 is recommended and considered to be more secure than SHA1 by the industry.  
@@ -25,7 +25,7 @@ signtool [command] [options] [file_name | ...]
 ## Parameters  
   
 |Argument|Description|  
-|--------------|-----------------|  
+|----|----|  
 |`command`|One of four commands (`catdb`, `sign`, `Timestamp`, or `Verify`) that specifies an operation to perform on a file. For a description of each command, see the next table.|  
 |`options`|An option that modifies a command. In addition to the global `/q` and `/v` options, each command supports a unique set of options.|  
 |`file_name`|The path to a file to sign.| 
@@ -34,7 +34,7 @@ signtool [command] [options] [file_name | ...]
 The following commands are supported by SignTool. 
 
 |Command|Description|  
-|-------------|-----------------|  
+|----|----|  
 |`Catdb`|Adds a catalog file to, or removes it from, a catalog database. Catalog databases are used for automatic lookup of catalog files and are identified by GUID. For a list of the options supported by the `catdb` command, see [catdb Command Options](signtool-exe.md#catdb).|  
 |`Sign`|Digitally signs files. Digital signatures protect files from tampering, and enable users to verify the signer based on a signing certificate. For a list of the options supported by the `sign` command, see [sign Command Options](signtool-exe.md#sign).|  
 |`Timestamp`|Time-stamps files. For a list of the options supported by the `TimeStamp` command, see [TimeStamp Command Options](signtool-exe.md#TimeStamp).|  
@@ -43,7 +43,7 @@ The following commands are supported by SignTool.
  The following options apply to all Sign Tool commands.  
   
 |Global option|Description|  
-|-------------------|-----------------|  
+|----|----|  
 |**/q**|Displays no output if the command runs successfully, and displays minimal output if the command fails.|  
 |**/v**|Displays verbose output regardless of whether the command runs successfully or fails, and displays warning messages.|  
 |**/debug**|Displays debugging information.|  
@@ -54,14 +54,12 @@ The following commands are supported by SignTool.
 ## Catdb command options  
  The following table lists the options that can be used with the `Catdb` command.  
 
-| Catdb option  | Description                                                                                                                                                                                                                                                                                                                     |
-|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **/d**        | Specifies that the default catalog database be updated. If neither the **/d** nor **/g** option is used, SignTool updates the system component and driver database.<br/>                                                                                                                                                  |
-| **/g** *GUID* | Specifies that the catalog database identified by the GUID be updated.<br/>                                                                                                                                                                                                                                               |
-| **/r**        | Removes the specified catalog from the catalog database. If this option is not specified, SignTool will add the specified catalog to the catalog database.<br/>                                                                                                                                                           |
-| **/u**        | Specifies that a unique name be automatically generated for the added catalog files. If necessary, the catalog files are renamed to prevent name conflicts with existing catalog files. If this option is not specified, SignTool overwrites any existing catalog that has the same name as the catalog being added.<br/> |
- 
-
+| Catdb option | Description |
+|----|----| 
+| **/d** | Specifies that the default catalog database be updated. If neither the **/d** nor **/g** option is used, SignTool updates the system component and driver database. |
+| **/g** *GUID* | Specifies that the catalog database identified by the GUID be updated.|
+| **/r** | Removes the specified catalog from the catalog database. If this option is not specified, SignTool will add the specified catalog to the catalog database.|
+| **/u** | Specifies that a unique name be automatically generated for the added catalog files. If necessary, the catalog files are renamed to prevent name conflicts with existing catalog files. If this option is not specified, SignTool overwrites any existing catalog that has the same name as the catalog being added.|
 > [!Note]  
 > Catalog databases are used for automatic lookup of catalog files.
 
@@ -71,7 +69,7 @@ The following commands are supported by SignTool.
  The following table lists the options that can be used with the `sign` command.  
   
 |Sign command option|Description|  
-|-------------------------|-----------------|  
+|----|----| 
 |`/a`|Automatically selects the best signing certificate. Sign Tool will find all valid certificates that satisfy all specified conditions and select the one that is valid for the longest time. If this option is not present, Sign Tool expects to find only one valid signing certificate.|  
 |`/ac`  *file*|Adds an additional certificate from *file* to the signature block.|  
 |`/as`|Appends this signature. If no primary signature is present, this signature is made the primary signature instead.|  
@@ -114,7 +112,7 @@ The following commands are supported by SignTool.
  The following table lists the options that can be used with the `TimeStamp` command.  
   
 |TimeStamp option|Description|  
-|----------------------|-----------------|  
+|----|----|  
 |`/p7`|Time stamps PKCS #7 files.|  
 |`/t`  *URL*|Specifies the URL of the time stamp server. The file being time stamped must have previously been signed. Either the `/t` or the `/tr` option is required.|  
 |`/td`  *alg*|Used with the `/tr` option to request a digest algorithm used by the RFC 3161 time stamp server. </br> **Note:** A warning is generated if <strong>/td</strong> switch is not provided while timestamping. The default alg is SHA1 but SHA256 is recommended. <br/> The <strong>/td</strong> switch must be declared after the <strong>/tr</strong> switch, not before. If the <strong>/td</strong> switch is declared before the <strong>/tr</strong> switch, the timestamp that is returned is from an SHA1 algorithm instead of the intended SHA256 algorithm. |
@@ -126,26 +124,26 @@ The following commands are supported by SignTool.
 <a name="Verify"></a>
 ## Verify command options  
 
-| Verify option                   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **/a**                          | Specifies that all methods can be used to verify the file. First, the catalog databases are searched to determine whether the file is signed in a catalog. If the file is not signed in any catalog, SignTool attempts to verify the file's embedded signature. This option is recommended when verifying files that may or may not be signed in a catalog. Examples of files that may or may not be signed include Windows files or drivers.<br/> |
-| **/ad**                         | Finds the catalog by using the default catalog database.<br/>                                                                                                                                                                                                                                                                                                                                                                                      |
-| **/all**                        | Verifies all signatures in a file with multiple signatures.<br/>                                                                                                                                                                                                                                                                                                                                                                                   |
-| **/as**                         | Finds the catalog by using the system component (driver) catalog database.<br/>                                                                                                                                                                                                                                                                                                                                                                    |
-| **/ag** *CatDBGUID*             | Finds the catalog in the catalog database identified by the **GUID**.<br/>                                                                                                                                                                                                                                                                                                                                                                         |
-| **/c** *CatFile*                | Specifies the catalog file by name.<br/>                                                                                                                                                                                                                                                                                                                                                                                                           |
-| **/d**                          | Print the description and description URL.<br/> **Windows Vista and earlier:** This flag is not supported.<br/> <br/>                                                                                                                                                                                                                                                                                                                  |
-| **/ds** *Index*                 | Verifies the signature at a certain position.<br/>                                                                                                                                                                                                                                                                                                                                                                                                 |
-| **/hash**{**SHA1**\|**SHA256**} | Specifies an optional hash algorithm to use when searching for a file in a catalog.<br/>                                                                                                                                                                                                                                                                                                                                                           |
-| **/kp**                         | Performs the verification by using the x64 kernel-mode driver signing policy.<br/>                                                                                                                                                                                                                                                                                                                                                                 |
-| **/ms**                         | Uses multiple verification semantics. This is the default behavior of a [**WinVerifyTrust**](/windows/desktop/api/Wintrust/nf-wintrust-winverifytrust) call.<br/>                                                                                                                                                                                                                                                                                                                        |
-| **/o** *Version*                | Verifies the file by operating system version. The version parameter is of the form:<br/> *PlatformID***:***VerMajor***.***VerMinor***.***BuildNumber*<br/> The use of the */o* switch is recommended. If */o* is not specified SignTool may return unexpected results. For example, if you do not include the */o* switch, then system catalogs that validate correctly on an older OS may not validate correctly on a newer OS.<br/> |
-| **/p7**                         | Verify PKCS \#7 files. No existing policies are used for PKCS \#7 validation. The signature is checked and a chain is built for the signing certificate.<br/>                                                                                                                                                                                                                                                                                      |
-| **/pa**                         | Specifies that the Default Authentication Verification Policy is used. If the **/pa** option is not specified, SignTool uses the Windows Driver Verification Policy. This option cannot be used with the **catdb** options.<br/>                                                                                                                                                                                                                   |
-| **/pg** *PolicyGUID*            | Specifies a verification policy by **GUID**. The **GUID** corresponds to the ActionID of the verification policy. This option cannot be used with the **catdb** options.<br/>                                                                                                                                                                                                                                                                      |
-| **/ph**                         | Print and verify page hash values.<br/> **Windows Vista and earlier:** This flag is not supported.<br/> <br/>                                                                                                                                                                                                                                                                                                                          |
-| **/r** *RootSubjectName*        | Specifies the name of the subject of the root certificate that the signing certificate must chain to. This value can be a substring of the entire subject name of the root certificate.<br/>                                                                                                                                                                                                                                                       |
-| **/tw**                         | Specifies that a warning is generated if the signature is not time stamped.<br/>                                                                                                                                                                                                                                                                                                                                                                   |
+| Verify option | Description |
+|----|----|          
+| **/a** | Specifies that all methods can be used to verify the file. First, the catalog databases are searched to determine whether the file is signed in a catalog. If the file is not signed in any catalog, SignTool attempts to verify the file's embedded signature. This option is recommended when verifying files that may or may not be signed in a catalog. Examples of files that may or may not be signed include Windows files or drivers. |
+| **/ad** | Finds the catalog by using the default catalog database. |
+| **/all** | Verifies all signatures in a file with multiple signatures. |
+| **/as** | Finds the catalog by using the system component (driver) catalog database. |
+| **/ag** *CatDBGUID* | Finds the catalog in the catalog database identified by the **GUID**. |
+| **/c** *CatFile* | Specifies the catalog file by name. |
+| **/d** | Print the description and description URL.<br/> **Windows Vista and earlier:** This flag is not supported.<br/> |
+| **/ds** *Index* | Verifies the signature at a certain position. |
+| **/hash**{**SHA1**\|**SHA256**} | Specifies an optional hash algorithm to use when searching for a file in a catalog. |
+| **/kp** | Performs the verification by using the x64 kernel-mode driver signing policy. |
+| **/ms** | Uses multiple verification semantics. This is the default behavior of a [**WinVerifyTrust**](/windows/desktop/api/Wintrust/nf-wintrust-winverifytrust) call. |
+| **/o** *Version* | Verifies the file by operating system version. The version parameter is of the form:<br/> *PlatformID***:***VerMajor***.***VerMinor***.***BuildNumber*<br/> The use of the */o* switch is recommended. If */o* is not specified SignTool may return unexpected results. For example, if you do not include the */o* switch, then system catalogs that validate correctly on an older OS may not validate correctly on a newer OS. |
+| **/p7** | Verify PKCS \#7 files. No existing policies are used for PKCS \#7 validation. The signature is checked and a chain is built for the signing certificate. |
+| **/pa** | Specifies that the Default Authentication Verification Policy is used. If the **/pa** option is not specified, SignTool uses the Windows Driver Verification Policy. This option cannot be used with the **catdb** options. |
+| **/pg** *PolicyGUID* | Specifies a verification policy by **GUID**. The **GUID** corresponds to the ActionID of the verification policy. This option cannot be used with the **catdb** options. |
+| **/ph** | Print and verify page hash values.<br/> **Windows Vista and earlier:** This flag is not supported.<br/>  |
+| **/r** *RootSubjectName* | Specifies the name of the subject of the root certificate that the signing certificate must chain to. This value can be a substring of the entire subject name of the root certificate. |
+| **/tw** | Specifies that a warning is generated if the signature is not time stamped. |
  
 
 The SignTool **verify** command determines whether the signing certificate was issued by a trusted authority, whether the signing certificate has been revoked, and, optionally, whether the signing certificate is valid for a specific policy.  
@@ -156,7 +154,7 @@ The SignTool **verify** command will output the **embedded** signature status un
  Sign Tool returns one of the following exit codes when it terminates.  
   
 |Exit code|Description|  
-|---------------|-----------------|  
+|----|----| 
 |0|Execution was successful.|  
 |1|Execution has failed.|  
 |2|Execution has completed with warnings.|
