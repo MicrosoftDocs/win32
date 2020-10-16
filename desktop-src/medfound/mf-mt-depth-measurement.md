@@ -18,7 +18,7 @@ A value that defines the measurement system for a depth value in a video frame.
 
 ## Remarks
 
-This value is a member of the [**\_MFDepthMeasurement**](/windows/desktop/api/mfapi/ne-mfapi-_mfdepthmeasurement) enumeration
+This value is a member of the [**\_MFDepthMeasurement**](/windows/win32/api/mfapi/ne-mfapi-mfdepthmeasurement) enumeration
 
 If this attribute is not present it is assumed to be **DistanceToFocalPlane**. The distance to focal plane is typically easier to consume in a 3D Euclidian coordinate system.
 

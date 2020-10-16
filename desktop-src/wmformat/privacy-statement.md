@@ -11,10 +11,7 @@ ms.date: 05/31/2018
 
 # Privacy Statement
 
-Developers who build applications on this software should clearly communicate to their end users how an end users' privacy could be affected. To assist you in creating an end user privacy statement, Microsoft has created a Web site and posted materials specific to the Windows Media Format SDK that should help you. Please visit one of the following Web sites when you are ready to author your privacy statement:
-
--   [Privacy statement information for the Windows Media Format 9 Series SDK](https://www.microsoft.com/windows/windowsmedia/privacy/9ssdk.aspx)
--   [Privacy statement information for the Windows Media Format 9.5 SDK](https://www.microsoft.com/windows/windowsmedia/privacy/10ssdk.aspx)
+Developers who build applications on this software should clearly communicate to their end users how an end users' privacy could be affected. 
 
 ## Related topics
 

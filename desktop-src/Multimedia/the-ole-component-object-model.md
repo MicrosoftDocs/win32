@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The objects used by the AVIFile library are all part of the OLE Component Object Model. Primarily, this means they share certain methods that make them easier to work with, and the values they return are common to most OLE interface methods.
 
-The OLE Component Object Model of the file and stream handlers uses the OLE **IClassFactory** interface to create instances of their object class. As component objects, they implement the [IUnknown](iunknown.md) interface, which consists of the [**QueryInterface**](/previous-versions//dd757101(v=vs.85)), [**Release**](/previous-versions//dd757102(v=vs.85)), and [**AddRef**](/previous-versions//dd757100(v=vs.85)) methods. The **IUnknown** interface lets an application obtain pointers to other interfaces supported by the same object.
+The OLE Component Object Model of the file and stream handlers uses the OLE **IClassFactory** interface to create instances of their object class. As component objects, they implement the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface, which consists of the [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)), [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release), and [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) methods. The **IUnknown** interface lets an application obtain pointers to other interfaces supported by the same object.
 
 You can determine if an object supports a specific interface by using the **QueryInterface** method. If an object supports a specified interface, **QueryInterface** returns a pointer to that interface.
 
