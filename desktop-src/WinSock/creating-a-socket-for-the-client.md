@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Creating a Socket for the Client
+# Creating a socket for the client
 
 After initialization, a **SOCKET** object must be instantiated for use by the client.
 
@@ -82,9 +82,8 @@ Error detection is a key part of successful networking code. If the [**socket**]
 
 > [!Note]  
 > More extensive error checking may be necessary depending on the application.
-> The AF_UNSPEC value of parameter hints.ai_fammily can cause connect call to fail . Use specific IPv4 (AF_INET)  or IPv6 (AF_INET6) in case the connect call fails .  
-
- 
+>
+> For example, setting *hints.ai_family* to **AF_UNSPEC** can cause the connect call to fail. If that happens, then use a specific IPv4 (**AF_INET**) or IPv6 (**AF_INET6**) value instead.
 
 [**WSACleanup**](/windows/desktop/api/winsock/nf-winsock-wsacleanup) is used to terminate the use of the WS2\_32 DLL.
 
