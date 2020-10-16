@@ -1,7 +1,7 @@
 ---
-Description: SignTool is a command-line tool that digitally signs files, verifies the signatures in files, and timestamps files.
-ms.assetid: aa59cb35-5fba-4ce8-97ea-fc767c83f88e
 title: SignTool
+description: SignTool is a command-line tool that digitally signs files, verifies the signatures in files, and timestamps files.
+ms.assetid: aa59cb35-5fba-4ce8-97ea-fc767c83f88e
 ms.topic: article
 ms.date: 10/12/2020
 ---
@@ -31,14 +31,14 @@ signtool [command] [options] [file_name | ...]
 |`file_name`|The path to a file to sign.| 
 
 
-The following commands are supported by SignTool. 
+The following commands are supported by SignTool.
 
 |Command|Description|  
 |----|----|  
-|`Catdb`|Adds a catalog file to, or removes it from, a catalog database. Catalog databases are used for automatic lookup of catalog files and are identified by GUID. For a list of the options supported by the `catdb` command, see [catdb Command Options](signtool-exe.md#catdb).|  
-|`Sign`|Digitally signs files. Digital signatures protect files from tampering, and enable users to verify the signer based on a signing certificate. For a list of the options supported by the `sign` command, see [sign Command Options](signtool-exe.md#sign).|  
-|`Timestamp`|Time-stamps files. For a list of the options supported by the `TimeStamp` command, see [TimeStamp Command Options](signtool-exe.md#TimeStamp).|  
-|`Verify`|Verifies the digital signature of files by determining whether the signing certificate was issued by a trusted authority, whether the signing certificate has been revoked, and, optionally, whether the signing certificate is valid for a specific policy. For a list of the options supported by the `Verify` command, see [Verify Command Options](signtool-exe.md#Verify).|
+|`Catdb`|Adds a catalog file to, or removes it from, a catalog database. Catalog databases are used for automatic lookup of catalog files and are identified by GUID. For a list of the options supported by the `catdb` command, see [catdb Command Options](/dotnet/framework/tools/signtool-exe#catdb-command-options).|  
+|`Sign`|Digitally signs files. Digital signatures protect files from tampering, and enable users to verify the signer based on a signing certificate. For a list of the options supported by the `sign` command, see [sign Command Options](/dotnet/framework/tools/signtool-exe#sign-command-options).|  
+|`Timestamp`|Time-stamps files. For a list of the options supported by the `TimeStamp` command, see [TimeStamp Command Options](/dotnet/framework/tools/signtool-exe#timestamp-command-options).|  
+|`Verify`|Verifies the digital signature of files by determining whether the signing certificate was issued by a trusted authority, whether the signing certificate has been revoked, and, optionally, whether the signing certificate is valid for a specific policy. For a list of the options supported by the `Verify` command, see [Verify Command Options](/dotnet/framework/tools/signtool-exe#verify-command-options).|
 
  The following options apply to all Sign Tool commands.  
   
@@ -49,10 +49,9 @@ The following commands are supported by SignTool.
 |**/debug**|Displays debugging information.|  
 
  
-
-<a name="catdb"></a>
 ## Catdb command options  
- The following table lists the options that can be used with the `Catdb` command.  
+
+ The following table lists the options that can be used with the `Catdb` command.
 
 | Catdb option | Description |
 |----|----| 
@@ -60,12 +59,13 @@ The following commands are supported by SignTool.
 | **/g** *GUID* | Specifies that the catalog database identified by the GUID be updated.|
 | **/r** | Removes the specified catalog from the catalog database. If this option is not specified, SignTool will add the specified catalog to the catalog database.|
 | **/u** | Specifies that a unique name be automatically generated for the added catalog files. If necessary, the catalog files are renamed to prevent name conflicts with existing catalog files. If this option is not specified, SignTool overwrites any existing catalog that has the same name as the catalog being added.|
+
 > [!Note]  
 > Catalog databases are used for automatic lookup of catalog files.
 
 
-<a name="sign"></a>
 ## Sign command options  
+
  The following table lists the options that can be used with the `sign` command.  
   
 |Sign command option|Description|  
@@ -105,10 +105,11 @@ The following commands are supported by SignTool.
 |`/u`  *Usage*|Specifies the enhanced key usage (EKU) that must be present in the signing certificate. The usage value can be specified by OID or string. The default usage is "Code Signing" (1.3.6.1.5.5.7.3.3).|  
 |`/uw`|Specifies usage of "Windows System Component Verification" (1.3.6.1.4.1.311.10.3.6).|  
   
- For usage examples, see [Using SignTool to Sign a File](signtool.md#Examples).  
+ For usage examples, see [Using SignTool to Sign a File](using-signtool-to-sign-a-file.md).  
   
-<a name="TimeStamp"></a>
+
 ## TimeStamp command options  
+
  The following table lists the options that can be used with the `TimeStamp` command.  
   
 |TimeStamp option|Description|  
@@ -120,8 +121,6 @@ The following commands are supported by SignTool.
 |`/tr`  *URL*|Specifies the URL of the RFC 3161 time stamp server. The file being time stamped must have previously been signed. Either the `/tr` or the `/t` option is required.|  
 
 
- 
-<a name="Verify"></a>
 ## Verify command options  
 
 | Verify option | Description |
@@ -145,12 +144,13 @@ The following commands are supported by SignTool.
 | **/r** *RootSubjectName* | Specifies the name of the subject of the root certificate that the signing certificate must chain to. This value can be a substring of the entire subject name of the root certificate. |
 | **/tw** | Specifies that a warning is generated if the signature is not time stamped. |
  
-
 The SignTool **verify** command determines whether the signing certificate was issued by a trusted authority, whether the signing certificate has been revoked, and, optionally, whether the signing certificate is valid for a specific policy.  
 
 The SignTool **verify** command will output the **embedded** signature status unless an option is specified to search a catalog (/a, /ad, /as, /ag, /c).
 
+
 ## Return value  
+
  Sign Tool returns one of the following exit codes when it terminates.  
   
 |Exit code|Description|  
@@ -159,8 +159,9 @@ The SignTool **verify** command will output the **embedded** signature status un
 |1|Execution has failed.|  
 |2|Execution has completed with warnings.|
 
-<a name="Examples"></a>
+
 ## Examples  
+
  The following command adds the catalog file MyCatalogFileName.cat to the system component and driver database. The `/u` option generates a unique name if necessary to prevent replacing an existing catalog file named `MyCatalogFileName.cat`.  
   
 ```console  
