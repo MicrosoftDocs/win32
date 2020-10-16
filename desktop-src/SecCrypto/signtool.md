@@ -124,7 +124,7 @@ The following commands are supported by SignTool.
 ## Verify command options  
 
 |Verify option|Description|
-|----|----|          
+|----|----|
 | **/a** | Specifies that all methods can be used to verify the file. First, the catalog databases are searched to determine whether the file is signed in a catalog. If the file is not signed in any catalog, SignTool attempts to verify the file's embedded signature. This option is recommended when verifying files that may or may not be signed in a catalog. Examples of files that may or may not be signed include Windows files or drivers. |
 | **/ad** | Finds the catalog by using the default catalog database. |
 | **/all** | Verifies all signatures in a file with multiple signatures. |
@@ -142,8 +142,9 @@ The following commands are supported by SignTool.
 | **/pg** *PolicyGUID* | Specifies a verification policy by **GUID**. The **GUID** corresponds to the ActionID of the verification policy. This option cannot be used with the **catdb** options. |
 | **/ph** | Print and verify page hash values.<br/> **Windows Vista and earlier:** This flag is not supported.<br/>  |
 | **/r** *RootSubjectName* | Specifies the name of the subject of the root certificate that the signing certificate must chain to. This value can be a substring of the entire subject name of the root certificate. |
-| **/tw** | Specifies that a warning is generated if the signature is not time stamped. |
- 
+| **/tw** | Specifies that a warning is generated if the signature is not time stamped.|
+
+
 The SignTool **verify** command determines whether the signing certificate was issued by a trusted authority, whether the signing certificate has been revoked, and, optionally, whether the signing certificate is valid for a specific policy.  
 
 The SignTool **verify** command will output the **embedded** signature status unless an option is specified to search a catalog (/a, /ad, /as, /ag, /c).
