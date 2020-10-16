@@ -16,7 +16,7 @@ The following topics are discussed in this article.
 
 -   [Creating a Theme File](#creating-a-theme-file)
 -   [Description of a Theme File](#description-of-a-theme-file)
-    -   [\[Theme\] Section](#theme-file-format)
+    -   [\[Theme\] Section](#theme-section)
     -   [\[Control Panel\\Colors\] Section](#control-panelcolors-section)
     -   [\[Control Panel\\Cursors\] Section](#control-panelcursors-section)
     -   [\[Control Panel\\Desktop\] Section](#control-paneldesktop-section)
