@@ -123,7 +123,7 @@ The following commands are supported by SignTool.
 
 ## Verify command options  
 
-| Verify option | Description |
+|Verify option|Description|
 |----|----|          
 | **/a** | Specifies that all methods can be used to verify the file. First, the catalog databases are searched to determine whether the file is signed in a catalog. If the file is not signed in any catalog, SignTool attempts to verify the file's embedded signature. This option is recommended when verifying files that may or may not be signed in a catalog. Examples of files that may or may not be signed include Windows files or drivers. |
 | **/ad** | Finds the catalog by using the default catalog database. |
