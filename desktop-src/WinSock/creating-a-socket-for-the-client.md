@@ -82,6 +82,7 @@ Error detection is a key part of successful networking code. If the [**socket**]
 
 > [!Note]  
 > More extensive error checking may be necessary depending on the application.
+> The AF_UNSPEC value of parameter hints.ai_fammily can cause connect call to fail . Use specific IPv4 (AF_INET)  or IPv6 (AF_INET6) in case the connect call fails .  
 
  
 
