@@ -144,7 +144,9 @@ For file I/O, the "\\\\?\\" prefix to a path string tells the Windows APIs to di
 
 Because it turns off automatic expansion of the path string, the "\\\\?\\" prefix also allows the use of ".." and "." in the path names, which can be useful if you are attempting to perform operations on a file with these otherwise reserved relative path specifiers as part of the fully qualified path.
 
-Many but not all file I/O APIs support "\\\\?\\"; you should look at the reference topic for each API to be sure.
+Many but not all file I/O APIs support "\\\\?\\"; you should look at the reference topic for each API to be sure. 
+
+Note that Unicode APIs should be used to make sure the "\\\\?\\" prefix allows you to exceed the **MAX\_PATH** 
 
 ### Win32 Device Namespaces
 
