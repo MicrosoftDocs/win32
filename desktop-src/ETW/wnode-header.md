@@ -1,5 +1,5 @@
 ---
-Description: The WNODE\_HEADER structure is a member of the EVENT\_TRACE\_PROPERTIES structure.
+description: The WNODE\_HEADER structure is a member of the EVENT\_TRACE\_PROPERTIES structure.
 ms.assetid: 862a8f46-a326-48c6-92b7-8bb667837bb7
 title: WNODE_HEADER structure (Wmistr.h)
 ms.topic: reference
@@ -219,7 +219,7 @@ c. If ReservedFlags == 3 (CPU cycle counter): DOUBLE timeStampScale = 10.0 / log
 [**GetTraceLoggerHandle**](/windows/win32/api/evntrace/nf-evntrace-gettraceloggerhandle)
 </dt> <dt>
 
-[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer~r1)
+[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer-r1)
 </dt> </dl>
 
  

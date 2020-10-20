@@ -746,7 +746,7 @@
       - name: "D2D1CreateDeviceContext"
         href: /windows/desktop/api/d2d1_1/nf-d2d1_1-d2d1createdevicecontext
       - name: "D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,void**)"
-        href: /windows/desktop/api/d2d1/nf-d2d1-d2d1createfactory~r1
+        href: /windows/win32/api/d2d1/nf-d2d1-d2d1createfactory-r1
       - name: "D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,D2D1_FACTORY_OPTIONS*,void**)"
         href: /windows/desktop/api/d2d1/nf-d2d1-d2d1createfactory
       - name: "D2D1GetGradientMeshInteriorPointsFromCoonsPatch"

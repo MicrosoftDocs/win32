@@ -88,10 +88,6 @@ The following online documentation and examples are available to help you learn 
 
     [WMI Scripting Primer: Part 3](/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/ms974547(v=msdn.10))
 
--   WMI Blog
-
-    You can search for posts on WMI at [https://blogs.msdn.com/wmi/default.aspx](https://blogs.msdn.com/wmi/default.aspx).
-
 -   [Scripting Guide](https://technet.microsoft.com/library/ee692931.aspx)
 
     A comprehensive overview of the scripting technologies available in the Windows operating systems, including WMI. This Microsoft TechNet website offers hundreds of administrator scripting examples and information about how to modify them for the needs of your system.

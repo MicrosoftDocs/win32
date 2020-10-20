@@ -147,7 +147,7 @@ This enumeration is supported by the Direct3D 11.1 runtime, which is available o
 <td>Indicates how the pipeline interprets geometry or hull shader input primitives. <br/></td>
 </tr>
 <tr>
-<td><a href="/previous-versions/windows/win32/legacy/ff476189(v=vs.85)"><strong>D3D11_PRIMITIVE_TOPOLOGY</strong></a><br/></td>
+<td><a href="/previous-versions/windows/desktop/legacy/ff476189(v=vs.85)"><strong>D3D11_PRIMITIVE_TOPOLOGY</strong></a><br/></td>
 <td>How the pipeline interprets vertex data that is bound to the input-assembler stage. These primitive topology values determine how the vertex data is rendered on screen.<br/></td>
 </tr>
 <tr>

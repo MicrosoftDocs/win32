@@ -184,8 +184,6 @@ The **Win32\_PowerManagementEvent** class has only two properties: EventType, us
 
 For more information on responding to Windows power events, see the [Monitor and Respond to Windows Power Events with PowerShell](https://blogs.technet.com/b/heyscriptingguy/archive/2011/08/16/monitor-and-respond-to-windows-power-events-with-powershell.aspx) article on the Hey! Scripting Guy! blog.
 
-For more information on charging laptops, see [Hey, Scripting Guy! How Can I Retrieve Information About Laptops Changing from Full Power to Minimal Power Usage?](https://blogs.technet.com/b/heyscriptingguy/archive/2010/04/14/hey-scripting-guy-april-14-2010.aspx)
-
 ## Examples
 
 The following VBScript monitors changes in power status on a computer.

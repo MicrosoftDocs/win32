@@ -1,5 +1,5 @@
 ---
-Description: The LARGEINT datatype defines a LARGE\_INTEGER value.
+description: The LARGEINT datatype defines a LARGE\_INTEGER value.
 ms.assetid: '65801136-bde7-4bca-af1f-243e757f3d8d'
 title: LARGEINT (Netmon.h)
 ms.topic: article
@@ -13,7 +13,7 @@ api_location:
 
 # LARGEINT
 
-The **LARGEINT** datatype defines a [**LARGE\_INTEGER**](https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1) value.
+The **LARGEINT** datatype defines a [**LARGE\_INTEGER**](https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer-r1) value.
 
 
 ```C++

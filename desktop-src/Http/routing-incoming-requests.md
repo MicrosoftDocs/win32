@@ -24,21 +24,21 @@ The HTTP Server API routing algorithm locates the best match for the [UrlPrefix]
 
 For example, consider the following registrations (listed in descending order of priority based on bucket types:
 
--   Registration: https://+:80/vroot/ is registered by application 1
+-   Registration: `https://+:80/vroot/` is registered by application 1
 
--   Registration: https://adatum.com:80/ is registered by application 2
+-   Registration: `https://adatum.com:80/` is registered by application 2
 
--   Registration: https://\*:80/ is registered by application 3
+-   Registration: `https://\*:80/` is registered by application 3
 
-An incoming request for https://adatum.com:80/vroot/subdir/file.htm/ is delivered to application 1. An incoming request for https://adatum.com:80/default.htm/ is delivered to application 2. An incoming request for https://otheradatum.com:80/file.htm/ is delivered to application 3.
+An incoming request for `https://adatum.com:80/vroot/subdir/file.htm/` is delivered to application 1. An incoming request for `https://adatum.com:80/default.htm/` is delivered to application 2. An incoming request for `https://otheradatum.com:80/file.htm/` is delivered to application 3.
 
 If the best match is a reservation entry, this means that the application that should receive the request is not running. For example, consider the following registration and reservation:
 
--   Registration: https://\*:80/vroot/ is registered by application 1, user A
+-   Registration: `https://\*:80/vroot/` is registered by application 1, user A
 
--   Reservation: https://adatum.com:80/ has been reserved for user B
+-   Reservation: `https://adatum.com:80/` has been reserved for user B
 
-An incoming request for https://adatum.com:80/vroot/file.htm/ is not delivered to application 1 because the best match leads to the reservation entry for user B. The precedence rules are applied in this case to the reservation which has a higher priority. If no process is active that is authorized and registered to service requests for the URL received, the request is rejected with a 400 status code (Bad Request).
+An incoming request for `https://adatum.com:80/vroot/file.htm/` is not delivered to application 1 because the best match leads to the reservation entry for user B. The precedence rules are applied in this case to the reservation which has a higher priority. If no process is active that is authorized and registered to service requests for the URL received, the request is rejected with a 400 status code (Bad Request).
 
  
 

@@ -52,9 +52,9 @@ The relativeURI element is optional, but if present must always be followed by a
 
 Examples of properly formed UrlPrefixes are:
 
--   "https://www.adatum.com:80/vroot/"
--   "https://adatum.com:443/secure/database/"
--   "https://+:80/vroot/"
+-   `https://www.adatum.com:80/vroot/`
+-   `https://adatum.com:443/secure/database/`
+-   `https://+:80/vroot/`
 
 ## Host-Specifier Categories
 
@@ -118,7 +118,7 @@ This host specification can be used as a default catch-all in some circumstances
 
 For reservation and registration purposes, the four different categories of UrlPrefix are treated separately, without reference to one another. It is possible to register conflicting UrlPrefixes as long as they are in different categories. Only within the same category does a conflict cause a reservation attempt to fail.
 
-For example, it would be possible to reserve both the explicit UrlPrefix https://www.adatum.com:80/vroot/ and the conflicting strong wildcard UrlPrefix https://+:80/vroot/, since they belong to different categories. However, a subsequent attempt to reserve https://+:80/vroot/ to a different user would fail because it would conflict with an existing reservation in its own category.
+For example, it would be possible to reserve both the explicit UrlPrefix `https://www.adatum.com:80/vroot/` and the conflicting strong wildcard UrlPrefix `https://+:80/vroot/`, since they belong to different categories. However, a subsequent attempt to reserve https://+:80/vroot/ to a different user would fail because it would conflict with an existing reservation in its own category.
 
 ## Routing Behavior
 
@@ -141,11 +141,10 @@ If no match is found in any of the categories, the HTTP Server API sends a respo
 
 Within each UrlPrefix category, HTTP Server API routes a request to the queue associated with the longest matching UrlPrefix. For example, suppose the following two UrlPrefixes are registered to different queues:
 
-<dl> "Queue1 https://www.adatum.com:80/"  
-"Queue2 https://www.adatum.com:80/dir/sna/"  
-</dl>
+- `Queue1 https://www.adatum.com:80/`
+- `Queue2 https://www.adatum.com:80/dir/sna/`
 
-The HTTP Server API routes a request for https://www.adatum.com:80/default.htm to Queue1, and a request for https://www.adatum.com:80/dir/sna/snadefault.htm to Queue2. It routes a request for https://www.adatum.com:80/dir/app.htm to Queue1 because the longest complete match is with the https://www.adatum.com:80/ UrlPrefix, not with the https://www.adatum.com:80/dir/sna UrlPrefix.
+The HTTP Server API routes a request for `https://www.adatum.com:80/default.htm` to Queue1, and a request for `https://www.adatum.com:80/dir/sna/snadefault.htm` to Queue2. It routes a request for `https://www.adatum.com:80/dir/app.htm` to Queue1 because the longest complete match is with the `https://www.adatum.com:80/` UrlPrefix, not with the `https://www.adatum.com:80/dir/sna` UrlPrefix.
 
  
 

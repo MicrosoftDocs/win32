@@ -48,7 +48,7 @@ The following information presents the necessary constants and data types to use
 </tr>
 <tr class="even">
 <td>AM_PROPERTY_COPY_MACROVISION</td>
-<td>This is a set-only property. This property sets the analog copy protection level for the NTSC encoder on the output end of the receiving pin. Uses <a href="/windows/desktop/api/dvdmedia/ns-dvdmedia-am_copy_macrovision"><strong>AM_COPY_MACROVISION</strong></a>.</td>
+<td>This is a set-only property. This property sets the analog copy protection level for the NTSC encoder on the output end of the receiving pin. Uses <a href="/previous-versions/ms778996(v=vs.85)"><strong>AM_COPY_MACROVISION</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td>AM_PROPERTY_DVDCOPY_CHLG_KEY</td>

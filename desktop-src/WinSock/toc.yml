@@ -1464,7 +1464,7 @@
         - name: "LPWSPADDRESSTOSTRING"
           href: /windows/win32/api/Ws2spi/nc-ws2spi-lpwspaddresstostring
         - name: "LPWSPASYNCSELECT"
-          href: /previous-versions/windows/win32/legacy/ms742267(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/ms742267(v=vs.85)
         - name: "LPWSPBIND"
           href: /previous-versions/windows/hardware/network/ff566268(v=vs.85)
         - name: "LPWSPCANCELBLOCKINGCALL"

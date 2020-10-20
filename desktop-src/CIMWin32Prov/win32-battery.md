@@ -1597,8 +1597,6 @@ The [Toggle-Wireless.ps1](https://Gallery.TechNet.Microsoft.Com/Toggle-Wirelessp
 
 The [List UPS Information](https://Gallery.TechNet.Microsoft.Com/7196121e-97de-4290-9939-26d0ce266270) Perl sample Lists information about the uninterruptible power sources attached to a computer.
 
-For a furthe discussion of using Win32\_Battery to monitor your laptop, see [Use PowerShell to Detect Power State and to Set Power Plan](https://blogs.technet.com/b/heyscriptingguy/archive/2012/11/28/use-powershell-to-detect-power-state-and-set-power-plan.aspx).
-
 ## Requirements
 
 
