@@ -1,5 +1,5 @@
 ---
-Description: The following are frequently asked questions (FAQ) about developing for the Tablet PC platform components installed by the Windows Vista SDK.
+description: The following are frequently asked questions (FAQ) about developing for the Tablet PC platform components installed by the Windows Vista SDK.
 ms.assetid: eb349493-a2b2-4b58-bcbc-ee09953c8dc8
 title: Frequently Asked Questions (Tablet PC)
 ms.topic: article
