@@ -1,12 +1,12 @@
 ---
-title: COM Interfaces
+title: COM Interfaces - Device Access
 description: Component Object Model (COM)interfaces in the Device Access API.
 ms.assetid: 96F532B7-5CF9-4341-932B-7F8BEDA9551F
 ms.topic: article
 ms.date: 02/11/2020
 ---
 
-# COM Interfaces
+# COM Interfaces - Device Access
 
 Component Object Model (COM)interfaces in the Device Access API.
 
@@ -20,4 +20,4 @@ Component Object Model (COM)interfaces in the Device Access API.
 
 ## Related topics
 
-[Custom Driver Access Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Custom%20driver%20access%20sample), [UWP device apps for internal devices](/windows-hardware/drivers/devapps/uwp-device-apps-for-specialized-devices), [Hardware Dev Center](/windows/hardware/)
+[Custom Driver Access Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Custom%20driver%20access%20sample), [UWP device apps for internal devices](/windows-hardware/drivers/devapps/uwp-device-apps-for-specialized-devices), [Hardware Dev Center](/windows-hardware/drivers/)

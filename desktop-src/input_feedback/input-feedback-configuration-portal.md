@@ -34,4 +34,4 @@ The Input Feedback ConfigurationAPIs are designed for developers who are buildin
 
 ## Related topics
 
-[User Interaction](../user-interaction.md), [SystemParametersInfo](/win32/api/winuser/nf-winuser-systemparametersinfoa)
+[User Interaction](../user-interaction.md), [SystemParametersInfo](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa)

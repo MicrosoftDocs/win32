@@ -1,5 +1,5 @@
 ---
-Description: An ABC width is a composite value defined by a GDI ABC structure. The structure contains members abcA, abcB, and abcC, corresponding to the &\#0034;A&\#0034;, &\#0034;B&\#0034;, and &\#0034;C&\#0034; widths of a glyph or run.
+description: An ABC width is a composite value defined by a GDI ABC structure. The structure contains members abcA, abcB, and abcC, corresponding to the &\#0034;A&\#0034;, &\#0034;B&\#0034;, and &\#0034;C&\#0034; widths of a glyph or run.
 ms.assetid: 48c766e5-a69d-47d2-a885-f24b80e910d8
 title: Uniscribe Glossary
 ms.topic: article
@@ -14,7 +14,7 @@ The "A" width is [underhang](#underhang) (positive; also known as "padding") or 
 
 The following illustration shows an italic lowercase F with overhang to both its left and right. That is, the "A" and "C" widths here are both negative. See [underhang](#underhang) for an illustration of positive "A" and "C" widths.
 
-![illustration showing one character and then two characters; each has labels for the a, b, and c widths](images/abcwidth.gif)
+![illustration showing an italic lowercase F with overhang to both its left and right.](images/abcwidth.gif)
 
 When two or more glyphs are displayed as a unit, usually only the leftmost glyph contributes to the "A" width of the run, and only the rightmost glyph contributes to the "C" width of the run. However, this is not a strict rule. For example, if the first glyph in a run is a narrow letter and the second glyph is a wide diacritical mark, and they are handled as separate glyphs, the diacritical mark might actually extend beyond the letter.
 
@@ -26,7 +26,7 @@ The "A" width is [underhang](#underhang) (positive; also known as "padding") or 
 
 The following illustration shows an italic lowercase F with overhang to both its left and right. That is, the "A" and "C" widths here are both negative. See [underhang](#underhang) for an illustration of positive "A" and "C" widths.
 
-![illustration showing one character and then two characters; each has labels for the a, b, and c widths](images/abcwidth.gif)
+![illustration showing an italic lowercase F with overhang to both its left and right.](images/abcwidth.gif)
 
 When two or more glyphs are displayed as a unit, usually only the leftmost glyph contributes to the "A" width of the run, and only the rightmost glyph contributes to the "C" width of the run. However, this is not a strict rule. For example, if the first glyph in a run is a narrow letter and the second glyph is a wide diacritical mark, and they are handled as separate glyphs, the diacritical mark might actually extend beyond the letter.
 
@@ -48,7 +48,7 @@ An application can justify text to fit a line by adjusting the cell width for ce
 
 ## cluster
 
-A cluster is the smallest linguistic unit that can be shaped. In languages such as Arabic and many of the Indic languages, the glyphs used to represent each character (Unicode code point) depend strongly on the surrounding code points, which constitute the cluster. In these languages, applications can translate code points into appropriate glyphs only by looking at the cluster. In some scripts, such as Devanagari, the order of glyphs within a cluster can differ from the order of the corresponding Unicode code points. For more information, see [Windows Glyph Processing](/typography/opentype/processing-part1) on the Microsoft typography site.
+A cluster is the smallest linguistic unit that can be shaped. In languages such as Arabic and many of the Indic languages, the glyphs used to represent each character (Unicode code point) depend strongly on the surrounding code points, which constitute the cluster. In these languages, applications can translate code points into appropriate glyphs only by looking at the cluster. In some scripts, such as Devanagari, the order of glyphs within a cluster can differ from the order of the corresponding Unicode code points. For more information, see [Windows Glyph Processing](/typography/develop/processing-part1) on the Microsoft typography site.
 
 ## complex script
 
@@ -132,7 +132,7 @@ A script is a system of written language, for example, Latin script, Arabic scri
 
 The underhang is a width of white space to the left or right of the solid portion of a glyph. Underhang corresponds to a positive "A" or "C" width, as described for [ABC width](#abc-width). Underhang is sometimes known as "padding". The following illustration shows the underhang for the lowercase letter n.
 
-![illustration showing one character and then two characters; each has labels for the a, b, and c widths](images/underhang.gif)
+![illustration showing the underhang for the lowercase letter n.](images/underhang.gif)
 
 ## Related topics
 
