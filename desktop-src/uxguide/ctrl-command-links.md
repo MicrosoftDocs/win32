@@ -3,10 +3,13 @@ title: Command Links
 description: With command links, users select a single response to a main instruction and by doing so, move on to the next step in a task.
 ms.assetid: a77819b1-9a32-4468-94fb-3f73a469fb81
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Command Links
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/en-us/windows/uwp/design/).
 
 With command links, users select a single response to a main instruction and by doing so, move on to the next step in a task.
 

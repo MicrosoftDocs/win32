@@ -3,10 +3,13 @@ title: Touch
 description: All Microsoft Windows applications should have a great touch experience. And creating such an experience is easier than you think.
 ms.assetid: a87d0726-1c57-4cf8-9e35-4e73a09ff1a3
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Touch
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/en-us/windows/uwp/design/).
 
 All Microsoft Windows applications should have a great touch experience. And creating such an experience is easier than you think.
 

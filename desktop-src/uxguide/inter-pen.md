@@ -3,10 +3,13 @@ title: Pen
 description: All Microsoft Windows applications should be pen enabled. And doing so is easier than you think.
 ms.assetid: 45635d5a-c9ff-47d0-89ef-a9c48ac67594
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Pen
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/en-us/windows/uwp/design/).
 
 All Microsoft Windows applications should be pen enabled. And doing so is easier than you think.
 

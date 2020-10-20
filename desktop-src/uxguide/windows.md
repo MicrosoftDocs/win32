@@ -3,10 +3,13 @@ title: Windows (Design basics)
 description: Windows are the main \ 0034;canvases \ 0034; or UI surfaces of your desktop app, including the main windows itself and pop-ups, dialogs, and wizards. Follow these guidelines when deciding which surface to use and how best to use them.
 ms.assetid: E1FA78DA-D580-4B0E-AB59-29F013278766
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Windows
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/en-us/windows/uwp/design/).
 
 Windows are the main "canvases" or UI surfaces of your desktop app, including the main windows itself and pop-ups, dialogs, and wizards. Follow these guidelines when deciding which surface to use and how best to use them.
 

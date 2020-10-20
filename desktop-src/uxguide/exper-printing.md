@@ -3,10 +3,13 @@ title: Printing (Design basics)
 description: Printing is the user experience on paper. It's easy to overlook, but it is an important part of the overall user experience.
 ms.assetid: 26f5a8dc-27b2-4c2d-a05a-f942784c3cf9
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Printing
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/en-us/windows/uwp/design/).
 
 Printing is the user experience on paper. It's easy to overlook, but it is an important part of the overall user experience.
 

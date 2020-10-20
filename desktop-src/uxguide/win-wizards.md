@@ -3,10 +3,13 @@ title: Wizards
 description: Despite that wonderful, whimsical name, wizards are not really a special form of user interface, and they have only a particular range of utility.
 ms.assetid: 122d6e65-92f0-4e8a-92f7-ecd7e90665c8
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Wizards
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/en-us/windows/uwp/design/).
 
 Despite that wonderful, whimsical name, wizards are not really a special form of user interface, and they have only a particular range of utility.
 

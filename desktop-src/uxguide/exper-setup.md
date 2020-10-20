@@ -3,10 +3,13 @@ title: Setup
 description: Users don't enjoy installing software, so modern setup experiences need to be simple, efficient, and problem-free.
 ms.assetid: ed0265a6-4c39-4a1f-9493-e316a6519df7
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Setup
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/en-us/windows/uwp/design/).
 
 Users don't enjoy installing software, so modern setup experiences need to be simple, efficient, and problem-free.
 

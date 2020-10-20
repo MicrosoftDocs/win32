@@ -3,10 +3,13 @@ title: Links
 description: With a link, users can navigate to another page, window, or Help topic; display a definition; initiate a command; or choose an option.
 ms.assetid: a23748e4-b2dd-4b9f-9a7c-ff6533922c8c
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Links
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/en-us/windows/uwp/design/).
 
 With a *link*, users can navigate to another page, window, or Help topic; display a definition; initiate a command; or choose an option. A link is text or a graphic that indicates that it can be clicked, typically by being displayed using the visited or unvisited [link system colors](vis-color.md). Traditionally, links are underlined as well, but that approach is often unnecessary and falling out of favor to reduce visual clutter.
 

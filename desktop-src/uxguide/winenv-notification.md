@@ -3,10 +3,13 @@ title: Notification Area
 description: The notification area provides notifications and status. Well-designed programs use the notification area appropriately, without being annoying or distracting.
 ms.assetid: d30e293f-b424-4fe3-8191-1692c081245d
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Notification Area
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/en-us/windows/uwp/design/).
 
 The notification area provides notifications and status. Well-designed programs use the notification area appropriately, without being annoying or distracting.
 

@@ -3,10 +3,13 @@ title: Glossary (Design basics)
 description: A glossary of terms used in the UX guidelines for Windows desktop apps.
 ms.assetid: 9f35f9be-6165-4d98-a2e6-26fb4fc91eae
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Glossary
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/en-us/windows/uwp/design/).
 
 [A](#glossary) \| [B](#b) \| [C](#c) \| [D](#d) \| [E](#e) \| [F](#f) \| [G](#g) \| [H](#h) \| [I](#i) \| [J](#j) \| [K](#k) \| [L](#l) \| [M](#m) \|
 

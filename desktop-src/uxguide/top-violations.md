@@ -3,10 +3,13 @@ title: UX checklist for desktop applications
 description: Here's a collection of some of the important guidelines in UX Guide. You can use this as a checklist to make sure your program user interface gets these important items right.
 ms.assetid: 4705a807-5949-4957-8ea6-70871beaf8e0
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # UX checklist for desktop applications
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/en-us/windows/uwp/design/).
 
 Here's a collection of some of the important guidelines in UX Guide. You can use this as a checklist to make sure your program user interface gets these important items right.
 
