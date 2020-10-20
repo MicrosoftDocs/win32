@@ -1,5 +1,5 @@
 ---
-Description: A child process can inherit several properties and resources from its parent process.
+description: A child process can inherit several properties and resources from its parent process.
 ms.assetid: c530e723-2d40-4022-a259-dfc650604e44
 title: Inheritance (Processes and Threads)
 ms.topic: article
