@@ -164,6 +164,7 @@ MFTs: [**\_MFT\_PROCESS\_OUTPUT\_FLAGS**](/windows/win32/api/mftransform/ne-mftr
 
 DMOs: [**\_DMO\_OUTPUT\_DATA\_BUFFER\_FLAGS**](/previous-versions/windows/desktop/api/Mediaobj/ne-mediaobj-_dmo_output_data_buffer_flags) enumeration.
 
+
 MFTs: [**\_MFT\_OUTPUT\_DATA\_BUFFER\_FLAGS**](/windows/win32/api/mftransform/ne-mftransform-_mft_output_data_buffer_flags) enumeration.
 
 
