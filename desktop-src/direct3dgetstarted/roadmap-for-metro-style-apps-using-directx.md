@@ -24,7 +24,7 @@ Here are some key topics. Setting up your DirectX project, acclimating yourself 
 | [Tools for DirectX Graphics](/windows/desktop/direct3dtools/dx-graphics-tools) | Documentation for tools used to support DirectX development. |
 | [What's new in Direct3D 11](/windows/desktop/direct3d11/dx-graphics-overviews-introduction) | A breakdown of all the features added in the most recent versions of DirectX and Direct3D (currently 11.2). |
 | [Download Visual Studio 2013](https://msdn.microsoft.com/windows/apps/br229516.aspx) | You must have Visual Studio Express 2013 for Windows Desktop to create Windows Store games. For a tour of Visual Studio, see [Develop Windows Store apps using Visual Studio 2012](/previous-versions/windows/apps/br211384(v=win.10)). For info about new features in Visual Studio, see [Product Highlights for Visual Studio 2013](/previous-versions/visualstudio/visual-studio-2013/bb386063(v=vs.120)). |
-| [Where is the DirectX SDK?](/windows/desktop/directx-sdk-august-2009-) | Contains guidance for devs who want to bring their DirectX projects into Microsoft Visual Studio. |
+| [Where is the DirectX SDK?](/windows/win32/directx-sdk--august-2009-) | Contains guidance for devs who want to bring their DirectX projects into Microsoft Visual Studio. |
 
 ## Sample applications
 
@@ -48,7 +48,7 @@ Here are some key topics. Setting up your DirectX project, acclimating yourself 
 | [How to: Create a Constant Buffer](/windows/desktop/direct3d11/overviews-direct3d-11-resources-buffers-constant-how-to) | How to pass constant (uniform) data between the CPU and the GPU during rendering. |
 | [How to: Create a Texture](/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-create) | How to create a texture or other buffer resource that can be sampled by the GPU. |
 | [How to: Initialize a Texture From a File](/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-how-to) | How to load a texture from a file and process it for use by the shader pipeline. |
-| [How To: Compile a Shader](/windows/desktop/direct3d11/how-to-compile-a-shader) | How to compile a shader for use in your graphics application. |
+| [How To: Compile a Shader](/windows/win32/direct3d11/how-to--compile-a-shader) | How to compile a shader for use in your graphics application. |
 
 ## Graphics APIs
 

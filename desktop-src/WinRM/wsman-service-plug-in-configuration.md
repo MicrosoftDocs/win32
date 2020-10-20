@@ -13,15 +13,14 @@ A Windows Remote Management (WinRM) plug-in must be registered in the WinRM cata
 
 The following command registers a plug-in configuration with the WinRM service:
 
-**winrm create http://schemas.microsoft.com/wbem/wsman/1/config/plugin?name=MyPlugIn -file:myplugin.xml**
+```console
+winrm create http://schemas.microsoft.com/wbem/wsman/1/config/plugin?name=MyPlugIn -file:myplugin.xml
+```
 
-> [!Note]  
+> [!NOTE]
 > The WinRM service needs to be restarted to expose the newly registered plug-ins.
 
- 
-
 Plug-in configuration is specified in XML. The following is an example.
-
 
 ```XML
 <PlugInConfiguration xmlns="http://schemas.microsoft.com/wbem/wsman/1/config/PluginConfiguration" 

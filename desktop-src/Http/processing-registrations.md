@@ -19,13 +19,13 @@ The HTTP Server APIs use the routing database to apply access checks during regi
 
 The following examples illustrate the process to install a registration in the routing database. Reservations 1 and 2 exist in the routing database.
 
--   Reservation 1: https://+:80/vroot/subdir/ for User A and User C. This reservation is placed in the "+" bucket.
--   Reservation 2: https://adatum.com:80/vroot/ for User B. This reservation is placed in the "Explicit Host" bucket.
--   Registration: https://+:80/vroot/subdir/ by User B fails due to reservation 1.
--   Registration: https://adatum.com:80/vroot/subdir/ by User B succeeds due to reservation 2.
--   Registration: https://adatum.com:80/vroot/subdir/ by User C fails due to the more explicit reservation 2. The strong wildcard reservation does not have meaning within the context of the explicit reservation or registration.
--   Registration: https://+:80/vroot/subdir/ by User A succeeds due to reservation 1.
--   Registration: https://adatum.com:80/vroot/anotherdir/ by User B succeeds due to reservation 2.
+-   Reservation 1: `https://+:80/vroot/subdir/` for User A and User C. This reservation is placed in the "+" bucket.
+-   Reservation 2: `https://adatum.com:80/vroot/` for User B. This reservation is placed in the "Explicit Host" bucket.
+-   Registration: `https://+:80/vroot/subdir/` by User B fails due to reservation 1.
+-   Registration: `https://adatum.com:80/vroot/subdir/` by User B succeeds due to reservation 2.
+-   Registration: `https://adatum.com:80/vroot/subdir/` by User C fails due to the more explicit reservation 2. The strong wildcard reservation does not have meaning within the context of the explicit reservation or registration.
+-   Registration: `https://+:80/vroot/subdir/` by User A succeeds due to reservation 1.
+-   Registration: `https://adatum.com:80/vroot/anotherdir/` by User B succeeds due to reservation 2.
 
 The access check for registration does not include checks for delegation privileges. There are no access checks based on reservations (see [**HttpRemoveUrl**](/windows/desktop/api/Http/nf-http-httpremoveurl)). The only requirement for deleting a registration us that the calling process must have created the registration.
 

@@ -58,7 +58,7 @@ A fully qualified email address, such as &quot;someone@example.com&quot;, must b
 <tr class="even">
 <td style="text-align: left;"><span id="FACTOID_WEB"></span><span id="factoid_web"></span><dl> <dt><strong>FACTOID_WEB</strong></dt> </dl></td>
 <td style="text-align: left;">Indicates to a recognizer to look for a Web address.<br/>
-<pre class="syntax" data-space="preserve"><code>https://www.adatum.com</code></pre></td>
+<pre class="syntax" data-space="preserve"><code>`https://www.adatum.com`</code></pre></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="___________FACTOID_ONECHAR_________"></span><span id="___________factoid_onechar_________"></span><dl> <dt> <strong>FACTOID_ONECHAR</strong> </dt> </dl></td>
