@@ -1432,6 +1432,11 @@
             href: ibytebuffer-unlockregion.md
           - name: "Write Method"
             href: ibytebuffer-write.md
+      - name: "ICcgDomainAuthCredentials"
+        href: iccgdomainauthcredentials.md
+        items: 
+        - name: "GetPasswordCredentials Method"
+          href: iccgdomainauthcredentials-getpasswordcredentials.md
       - name: "IConnectedIdentityProvider"
         href: /windows/desktop/api/Identityprovider/nn-identityprovider-iconnectedidentityprovider
         items: 
