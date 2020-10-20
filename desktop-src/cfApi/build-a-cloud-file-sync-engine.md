@@ -65,6 +65,10 @@ The following image demonstrates how the placeholder, full, and pinned full file
   * If a user blocks an app from hydrating files through an interactive toast, they can unblock the app in the **Automatic file downloads** page in **Settings**.
     
     ![Screenshot of the automatic file downloads setting](images/allow-automatic-file-downloads-setting.png)
+* Hooking copy engine operations:
+  * Cloud Providers are able to register a shell copy hook for monitoring file operations within their sync root.
+  * The provider registers their copy hook by setting the "CopyHook" registry value under their sync root registry key to a the CLSID of their COM local server object.
+  * This local server object implements the [IStorageProviderCopyHook](need_a_link) interface.
 
 ### Desktop Bridge
 
