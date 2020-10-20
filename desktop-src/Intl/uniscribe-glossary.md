@@ -14,7 +14,7 @@ The "A" width is [underhang](#underhang) (positive; also known as "padding") or 
 
 The following illustration shows an italic lowercase F with overhang to both its left and right. That is, the "A" and "C" widths here are both negative. See [underhang](#underhang) for an illustration of positive "A" and "C" widths.
 
-![illustration showing one character and then two characters; each has labels for the a, b, and c widths](images/abcwidth.gif)
+![illustration showing an italic lowercase F with overhang to both its left and right.](images/abcwidth.gif)
 
 When two or more glyphs are displayed as a unit, usually only the leftmost glyph contributes to the "A" width of the run, and only the rightmost glyph contributes to the "C" width of the run. However, this is not a strict rule. For example, if the first glyph in a run is a narrow letter and the second glyph is a wide diacritical mark, and they are handled as separate glyphs, the diacritical mark might actually extend beyond the letter.
 
@@ -26,7 +26,7 @@ The "A" width is [underhang](#underhang) (positive; also known as "padding") or 
 
 The following illustration shows an italic lowercase F with overhang to both its left and right. That is, the "A" and "C" widths here are both negative. See [underhang](#underhang) for an illustration of positive "A" and "C" widths.
 
-![illustration showing one character and then two characters; each has labels for the a, b, and c widths](images/abcwidth.gif)
+![illustration showing an italic lowercase F with overhang to both its left and right.](images/abcwidth.gif)
 
 When two or more glyphs are displayed as a unit, usually only the leftmost glyph contributes to the "A" width of the run, and only the rightmost glyph contributes to the "C" width of the run. However, this is not a strict rule. For example, if the first glyph in a run is a narrow letter and the second glyph is a wide diacritical mark, and they are handled as separate glyphs, the diacritical mark might actually extend beyond the letter.
 
@@ -132,7 +132,7 @@ A script is a system of written language, for example, Latin script, Arabic scri
 
 The underhang is a width of white space to the left or right of the solid portion of a glyph. Underhang corresponds to a positive "A" or "C" width, as described for [ABC width](#abc-width). Underhang is sometimes known as "padding". The following illustration shows the underhang for the lowercase letter n.
 
-![illustration showing one character and then two characters; each has labels for the a, b, and c widths](images/underhang.gif)
+![illustration showing the underhang for the lowercase letter n.](images/underhang.gif)
 
 ## Related topics
 
