@@ -1,5 +1,5 @@
 ---
-Description: If you want to display a list of objects and their counters in a user interface, you must retrieve the performance data.
+description: If you want to display a list of objects and their counters in a user interface, you must retrieve the performance data.
 ms.assetid: 0d122fa8-2ed8-4bd8-a52e-6cb20fe81741
 title: Displaying Object, Instance, and Counter Names
 ms.topic: article
