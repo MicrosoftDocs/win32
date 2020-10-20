@@ -10,7 +10,7 @@ ms.date: 02/03/2020
 
 When using multiple viewports, *Hit testing*determines which viewport(s) are affected by user input by taking the screen location of a contact and determining which viewport rectangle the contact hits.
 
-A common scenario in [Direct Manipulation](direct-manipulation-portal.md) is to place one viewport inside another, also known as *nesting viewports*. If the contact hits more than one viewport, the order of  [**SetContact**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact) calls by the window's [*WndProc*](https://docs.microsoft.com/windows/win32/legacy/ms644975(v%3dvs.85)) determines the parent-child relationship of the nested viewports.
+A common scenario in [Direct Manipulation](direct-manipulation-portal.md) is to place one viewport inside another, also known as *nesting viewports*. If the contact hits more than one viewport, the order of  [**SetContact**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact) calls by the window's [*WndProc*](/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)) determines the parent-child relationship of the nested viewports.
 
 Rule: The child element should call [**SetContact**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact)before calling the parent.
 

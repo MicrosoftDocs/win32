@@ -58,9 +58,9 @@ A. Yes, sample code for COM and selected managed languages is included in the Ta
 
 For available sample applications, see:
 
--   [Mobile PC and Tablet PC Samples](mobile-pc-and-tablet-pc-samples.md)
--   [Digital Ink Samples, Windows Presentation Foundation (WPF)](/previous-versions/dotnet/netframework-3.0/aa972145(v=vs.85))
--   <systemdrive>:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Samples\\TabletPC
+- [Mobile PC and Tablet PC Samples](mobile-pc-and-tablet-pc-samples.md)
+- [Digital Ink Samples, Windows Presentation Foundation (WPF)](/previous-versions/dotnet/netframework-3.0/aa972145(v=vs.85))
+- <systemdrive>:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Samples\\TabletPC
 
 ## Q. What's the base level of Tablet hardware that I should develop for?
 
@@ -90,7 +90,6 @@ The proper way to determine if a component of the API is installed is to attempt
 
 For example, to determine if the [**InkCollector**](inkcollector-class.md) object is available, attempt to create it using [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
 
-
 ```C++
 IInkCollector* pIInkCollector = NULL;
 HRESULT hr = CoCreateInstance(CLSID_InkCollector,
@@ -106,8 +105,6 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
 ## Q. How do I run the Tablet Input Service on Server SKUs?
 
 A. TabletInputService is designed not to run automatically in server SKUs when the client pack is installed. Client pack installs all of the components in the platform so any of the Tablet client applications can run on a server as well. The Tablet Input Service listens for PnP notification that an external digitizer is plugged in. To enable the Tablet Input Service on a server, use the System Configuration Utility.
@@ -116,9 +113,5 @@ From the **Start** menu, select **Run**. Type in "msconfig" and press Enter. Sel
 
 ## Q. More FAQs and Other Resources
 
--   [Windows Vista Developer Center](https://msdn.microsoft.com/windows/default.aspx)
--   [Windows XP Tablet PC Edition Home Page](https://www.microsoft.com/windows/tabletpc/)
-
- 
-
- 
+- [Microsoft Developer Center](https://developer.microsoft.com)
+- [Core Tablet PC Reference](/windows/win32/tablet/core-reference---tablet-pc-com-library)

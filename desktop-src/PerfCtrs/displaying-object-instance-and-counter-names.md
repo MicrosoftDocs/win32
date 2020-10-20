@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 If you want to display a list of objects and their counters in a user interface, you must retrieve the performance data. The performance data contains a variable number of performance objects and their instances and counters. For information on the format of the performance data, see [Performance Data Format](performance-data-format.md).
 
-The performance data does not contain the object and counter names. Instead, the data contains index values that you use to retrieve the names of the objects and counters, which are stored in resources known to the performance counters infrastructure. However, the instance names are stored in performance data. For an example that reads the object and counter names from the registry and creates an index table for accessing the names later, see [Retrieving Counter Names and Help Text](retrieving-counter-names-and-explanations.md).
+The performance data does not contain the object and counter names. Instead, the data contains index values that you use to retrieve the names of the objects and counters, which are stored in resources known to the performance counters infrastructure. However, the instance names are stored in performance data. For an example that reads the object and counter names from the registry and creates an index table for accessing the names later, see [Retrieving Counter Names and Help Text](retrieving-counter-names-and-help-text.md).
 
 The following example shows how to retrieve the object, instance, and counter blocks from the performance data. After retrieving the object names, instance names, and counter names, the example sorts the objects by name and for each object, sorts its instances and counters by name. The example then prints the sorted lists.
 

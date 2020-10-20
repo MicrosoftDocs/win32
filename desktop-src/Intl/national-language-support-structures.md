@@ -16,7 +16,7 @@ The following structures are used with NLS:
 [**CPINFO**](/windows/desktop/api/Winnls/ns-winnls-cpinfo)  
 [**CPINFOEX**](/windows/desktop/api/Winnls/ns-winnls-cpinfoexa)  
 [**CURRENCYFMT**](/windows/desktop/api/Winnls/ns-winnls-currencyfmta)  
-[**NLSVERSIONINFO**](/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1)  
+[**NLSVERSIONINFO**](/windows/win32/api/winnls/ns-winnls-nlsversioninfo-r1)  
 [**NLSVERSIONINFOEX**](/windows/desktop/api/Winnls/ns-winnls-nlsversioninfoex)  
 [**NUMBERFMT**](/windows/desktop/api/Winnls/ns-winnls-numberfmta)  
 </dl>
