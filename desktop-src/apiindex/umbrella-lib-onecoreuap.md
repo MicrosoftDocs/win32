@@ -3,7 +3,7 @@ Description: For convenience, an umbrella library named OneCoreUap.lib is provid
 ms.assetid: 3c01b790-ac12-47b7-a8e2-4d4fa47ba496
 title: OneCoreUap.lib umbrella library (by module)
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/21/2020
 topic_type: 
 - kbArticle
 api_name: 
@@ -7650,7 +7650,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**alljoyn\_aboutdata\_createfrommsgarg**](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c)                                          | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. Removed in 10.0.15063. |
 | [**alljoyn\_aboutdata\_destroy**](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c)                                                   | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. Removed in 10.0.15063. |
 | [**alljoyn\_aboutdata\_getaboutdata**](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c)                                              | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. Removed in 10.0.15063. |
-| [**alljoyn\_aboutdata\_getajsoftwareversion**](/scripting/chakra-hosting/jsoftwareversion-function)                        | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. Removed in 10.0.15063. |
+| [**alljoyn\_aboutdata\_getajsoftwareversion**](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c)                        | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. Removed in 10.0.15063. |
 | [**alljoyn\_aboutdata\_getannouncedaboutdata**](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c)                                     | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. Removed in 10.0.15063. |
 | [**alljoyn\_aboutdata\_getappid**](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c)                                                  | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. Removed in 10.0.15063. |
 | [**alljoyn\_aboutdata\_getappname**](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c)                                                | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. Removed in 10.0.15063. |
