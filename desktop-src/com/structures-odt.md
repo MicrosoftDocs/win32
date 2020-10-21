@@ -34,7 +34,7 @@ The following structures are used to implement compound documents and perform da
 -   [**OLEVERB**](/windows/win32/api/oleidl/ne-oleidl-oleverbattrib)
 -   [**POINTF**](/windows/win32/api/ocidl/ns-ocidl-pointf)
 -   [**STATDATA**](/windows/desktop/api/ObjIdl/nn-objidl-ienumstatdata)
--   [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1)
+-   [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1)
 
  
 

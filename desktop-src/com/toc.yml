@@ -2815,7 +2815,7 @@
         - name: "STATDATA"
           href: /windows/win32/api/ObjIdl/ns-objidl-statdata
         - name: "STGMEDIUM"
-          href: /windows/win32/api/ObjIdl/ns-objidl-ustgmedium~r1
+          href: /windows/win32/api/objidl/ns-objidl-ustgmedium-r1
   - name: "Controls and Property Pages"
     href: controls-and-property-pages.md
     items: 

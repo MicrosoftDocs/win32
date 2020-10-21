@@ -151,7 +151,7 @@ Retrieves the source and destination IP address, and port of the request that ge
 
 
 
-Retreives the [**TCP\_INFO\_v0**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v0) struct for the underlying connection used by the request. The returned struct may contain statistics from prior requests sent over the same connection.
+Retrieves the [**TCP\_INFO\_v0**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v0) struct for the underlying connection used by the request. The returned struct may contain statistics from prior requests sent over the same connection.
 
 > [!Note]
 > This option has been superseded by **WINHTTP\_OPTION\_CONNECTION\_STATS\_V1**.
@@ -164,7 +164,7 @@ Retreives the [**TCP\_INFO\_v0**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info
 
 
 
-Retreives the [**TCP\_INFO\_v1**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v1) struct for the underlying connection used by the request. The returned struct may contain statistics from prior requests sent over the same connection.
+Retrieves the [**TCP_INFO_v1**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v1) struct for the underlying connection used by the request. The returned struct may contain statistics from prior requests sent over the same connection.
 
 
 </dt> </dl> </dd> <dt>
@@ -657,7 +657,7 @@ This option has been deprecated; it has no effect.
 
 
 
-Retreives statistics for the request.  For a list of the available statistics, see [**WINHTTP\_REQUEST\_STATS**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_stats).
+Retrieves statistics for the request.  For a list of the available statistics, see [**WINHTTP\_REQUEST\_STATS**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_stats).
 
 
 </dt> </dl> </dd> <dt>
@@ -667,7 +667,7 @@ Retreives statistics for the request.  For a list of the available statistics, s
 
 
 
-Retreives timing information for the request. For a list of the available timings, see [**WINHTTP\_REQUEST\_TIMES**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_times).
+Retrieves timing information for the request. For a list of the available timings, see [**WINHTTP\_REQUEST\_TIMES**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_times).
 
 
 </dt> </dl> </dd> <dt>
@@ -738,7 +738,7 @@ Sets or retrieves an unsigned long integer value that contains the security flag
 
 
 
-Retreives the SChannel connection and cipher information for a request.
+Retrieves the SChannel connection and cipher information for a request.
 
 
 </dt> </dl> </dd> <dt>

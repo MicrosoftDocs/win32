@@ -74,7 +74,7 @@ The vblank count when the scheduler last sampled the machine time by calling Que
 **SyncQPCTime**
 </dt> <dd>
 
-Type: **[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer~r1)**
+Type: **[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer-r1)**
 
 </dd> <dd>
 
@@ -85,7 +85,7 @@ The scheduler's last sampled machine time, obtained by calling [**QueryPerforman
 **SyncGPUTime**
 </dt> <dd>
 
-Type: **[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer~r1)**
+Type: **[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer-r1)**
 
 </dd> <dd>
 

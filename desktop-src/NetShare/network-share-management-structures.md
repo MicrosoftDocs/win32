@@ -52,7 +52,7 @@ The Network Share Management structures can be grouped as follows.
 <dl>
 
 [**STAT\_SERVER\_0**](/windows/desktop/api/Lmstats/ns-lmstats-stat_server_0)  
-[**STAT\_WORKSTATION\_0**](/windows/win32/api/lmstats/ns-lmstats-stat_workstation_0~r1)  
+[**STAT_WORKSTATION_0**](/windows/win32/api/lmstats/ns-lmstats-stat_workstation_0-r1)  
 </dl>
 
  

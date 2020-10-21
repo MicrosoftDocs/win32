@@ -52,7 +52,7 @@ Advanced color support first shipped with Windows 10, version 1703, and it has b
 
 ### Display
 
-To take advantage of high dynamic range, you must have a display that supports the HDR10 standard. Windows works best with displays that are [VESA DisplayHDR certified](www.displayhdr.org).
+To take advantage of high dynamic range, you must have a display that supports the HDR10 standard. Windows works best with displays that are [VESA DisplayHDR certified](https://displayhdr.org/).
 
 ### Graphics processor (GPU)
 

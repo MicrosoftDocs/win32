@@ -81,7 +81,7 @@ Device name for GDI.
 **DriverVersion**
 </dt> <dd>
 
-Type: **[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer~r1)**
+Type: **[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer-r1)**
 
 </dd> <dd>
 

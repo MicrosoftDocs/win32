@@ -52,7 +52,7 @@ The **IBasicDevice** interface has these methods.
 | [**RemoteStreamingUrls**](ibasicdevice-remotestreamingurls.md)                        | Returns a vector of remote streaming URLs.<br/>                                                                          |
 | [**remove\_ConnectionStatusChanged**](ibasicdevice-remove-connectionstatuschanged.md) | Unregisters an event handler for the [**ConnectionStatusChanged**](connectionstatuschanged.md) event.<br/>              |
 | [**SerialNumber**](ibasicdevice-serialnumber.md)                                      | Retrieves the device s serial number.<br/>                                                                               |
-| [**Type**](ibasicdevice-type.md)                                                      | Retreives an enumeration value indicating the device type of the DLNA device.<br/>                                       |
+| [**Type**](ibasicdevice-type.md)                                                      | Retrieves an enumeration value indicating the device type of the DLNA device.<br/>                                       |
 | [**UniqueDeviceName**](ibasicdevice-uniquedevicename.md)                              | Retrieves the device s unique device name (UDN).<br/>                                                                    |
 
 

@@ -418,10 +418,10 @@ A pipe is a construct that lets one or more threads write data that is then read
 
 ## Xbox 360 Performance
 
-The performance of synchronization instructions and functions on Xbox 360 will vary depending on what other code is running. Acquiring locks will take much longer if another thread currently owns the lock. [**InterlockedIncrement**](/windows/win32/api/winbase/nf-winbase-interlockedincrement) and critical section operations will take much longer if other threads are writing to the same cache line. The contents of the store queues can also affect performance. Therefore, all of these numbers are just approximations, generated from very simple tests:
+The performance of synchronization instructions and functions on Xbox 360 will vary depending on what other code is running. Acquiring locks will take much longer if another thread currently owns the lock. [**InterlockedIncrement**](/windows/win32/api/winnt/nf-winnt-interlockedincrement) and critical section operations will take much longer if other threads are writing to the same cache line. The contents of the store queues can also affect performance. Therefore, all of these numbers are just approximations, generated from very simple tests:
 
 -   **lwsync** was measured as taking 33-48 cycles.
--   [**InterlockedIncrement**](/windows/win32/api/winbase/nf-winbase-interlockedincrement) was measured as taking 225-260 cycles.
+-   [**InterlockedIncrement**](/windows/win32/api/winnt/nf-winnt-interlockedincrement) was measured as taking 225-260 cycles.
 -   Acquiring or releasing a critical section was measured as taking about 345 cycles.
 -   Acquiring or releasing a mutex was measured as taking about 2350 cycles.
 
@@ -432,7 +432,7 @@ The performance of synchronization instructions and functions on Windows vary wi
 However, even some measurements generated from very simple tests are helpful:
 
 -   [**MemoryBarrier**](/windows/win32/api/winnt/nf-winnt-memorybarrier) was measured as taking 20-90 cycles.
--   [**InterlockedIncrement**](/windows/win32/api/winbase/nf-winbase-interlockedincrement) was measured as taking 36-90 cycles.
+-   [**InterlockedIncrement**](/windows/win32/api/winnt/nf-winnt-interlockedincrement) was measured as taking 36-90 cycles.
 -   Acquiring or releasing a critical section was measured as taking 40-100 cycles.
 -   Acquiring or releasing a mutex was measured as taking about 750-2500 cycles.
 

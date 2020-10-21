@@ -55,6 +55,6 @@
         href: large-integer-structures.md
         items: 
         - name: "LARGE_INTEGER"
-          href: /windows/win32/api/winnt/ns-winnt-large_integer~r1
+          href: /windows/win32/api/winnt/ns-winnt-large_integer-r1
         - name: "ULARGE_INTEGER"
           href: /windows/win32/api/winnt/ns-winnt-ularge_integer~r1
