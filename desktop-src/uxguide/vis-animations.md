@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Animations and Transitions
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/en-us/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 Strategic use of animations and transitions can make your program easier to understand, feel smoother, more natural, and of higher quality, and be more engaging. But the gratuitous use of animations and transitions can make your program distracting and even annoying.
 

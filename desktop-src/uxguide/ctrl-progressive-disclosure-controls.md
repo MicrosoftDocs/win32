@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Progressive Disclosure Controls
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/en-us/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 With a progressive disclosure control, users can show or hide additional information including data, options, or commands. Progressive disclosure promotes simplicity by focusing on the essential, yet revealing additional detail as needed.
 

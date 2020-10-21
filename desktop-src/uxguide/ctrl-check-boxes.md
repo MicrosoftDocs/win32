@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Check Boxes
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/en-us/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 With a check box, users make a decision between two clearly opposite choices. The check box label indicates the selected state, whereas the meaning of the cleared state must be the unambiguous opposite of the selected state. Consequently, **check boxes should be used only to toggle an option on or off or to select or deselect an item.**
 

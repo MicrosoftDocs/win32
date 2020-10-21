@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Status Bars
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/en-us/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 A status bar is an area at the bottom of a primary window that displays information about the current window's state (such as what is being viewed and how), background tasks (such as printing, scanning, and formatting), or other contextual information (such as selection and keyboard state).
 
