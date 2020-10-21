@@ -320,7 +320,7 @@ In the incorrect example, the icon doesn't lead into the text.
 
     https://www.microsoft.com
 
-    www.microsoft.com
+    `www.microsoft.com`
 
     **Correct:**
 
