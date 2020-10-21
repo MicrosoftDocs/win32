@@ -17,6 +17,7 @@ To create a new class or attribute, adhere to the following naming rules:
 
 -   Use the same name for both the **cn** and **lDAPDisplayName** properties of a new **attributeSchema** or **classSchema** object.
 -   Identify the company with a lower-case prefix in the first section of the name. This prefix can be a DNS name, acronym, or other string that uniquely identifies the company. The prefix ensures that all attributes and classes for a specific company are displayed consecutively when browsing the schema.
+-   If you are developing a schema extension as an independent software vendor, add an abbreviation of the product name of the prefix. This adds distinction between multiple products that contain LDAP schema extensions.
 -   Use a hyphen as the next character after the prefix.
 -   Specify an attribute or class name that is unique within the company's attributes after the hyphen. This part of the common-name should be descriptive. Do not use illogical names that are meaningless to developers and viewers of the schema.
 
