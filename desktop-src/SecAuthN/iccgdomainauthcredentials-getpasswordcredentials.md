@@ -1,8 +1,8 @@
 ---
-Description: The Clone method creates a new object with its own seek pointer that references the same bytes as the original IByteBuffer object.
+Description: Returns credentials to authenticate a non-domain joined container with Active Directory.
 title: ICcgDomainAuthCredentials::GetPasswordCredentials method (ccgplugins.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 10/21/2020
 topic_type: 
 - APIRef
 - kbSyntax
@@ -11,7 +11,7 @@ api_name:
 api_type: 
 - COM
 api_location: 
-- ccgplugins.dll
+- ccgplugins.h
 ---
 
 # ICcgDomainAuthCredentials::GetPasswordCredentials method
@@ -91,25 +91,25 @@ The following is an example credential specification file. For information on su
         "Sid": "S-1-5-21-3700119848-2853083131-2094573802",
         "MachineAccountName": "gmsa1",
         "Guid": "630a7dd3-2d3e-4471-ae91-1d9ea2556cd5",
-        "DnsTreeName": "jirenugo.dom",
-        "DnsName": "jirenugo.dom",
-        "NetBiosName": "JIRENUGO"
+        "DnsTreeName": "contoso.com",
+        "DnsName": "contoso.com",
+        "NetBiosName": "CONTOSO"
     },
     "ActiveDirectoryConfig": {
         "GroupManagedServiceAccounts": [
             {
                 "Name": "gmsa1",
-                "Scope": "jirenugo.dom"
+                "Scope": "contoso.com"
             },
             {
                 "Name": "gmsa1",
-                "Scope": "JIRENUGO"
+                "Scope": "CONTOSO"
             }
         ],
         "HostAccountConfig": {
             "PortableCcgVersion": "1",
             "PluginGUID": "{CFCA0441-511D-4B2A-862E-20348A78760B}",
-            "PluginInput": "jirenugo.dom:gmsaccg:<password>"
+            "PluginInput": "contoso.com:gmsaccg:<password>"
         }
     }
 }
@@ -191,12 +191,9 @@ CoCreatableClass(CCGStubPlugin);
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>ccgplugins.h</dt> </dl>   |
-| Type library<br/>             | <dl> <dt>ccgplugins.tlb</dt> </dl> |
-| DLL<br/>                      | <dl> <dt>ccgplugins.dll</dt> </dl> |
-| IID<br/>                      | 6ecda518-2010-4437-8bc3-46e752b7b172<br/>          |
+| Minimum supported server | Windows Server, version 2004                                    |
+| Header                   | ccgplugins.h   |
+| IID                    | 6ecda518-2010-4437-8bc3-46e752b7b172          |
 
 
 
