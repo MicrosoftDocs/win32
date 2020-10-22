@@ -239,8 +239,8 @@ The following error codes are defined in the Windows Media DRM for Portable Devi
 | DRM\_E\_WRONGTOKENTYPE                      | The token parameter is of an incompatible type.                                                                                                                                    | 0x8004c00d        |
 | DRM\_E\_XMLNOTFOUND                         | A required XML tag cannot be found.                                                                                                                                                | 0X8004C04F        |
 | NS\_E\_DRM\_DEBUGGING\_NOT\_ALLOWED         | A command cannot be run with a debugger attached.                                                                                                                                  | 0xC00D2767        |
-|                                             | The DRM security elements must be updated. The user can go to the [Windows Media Individualization Page](https://drmlicense.one.microsoft.com/Indivsite/force.asp) to update their computer. | 0x800480CF        |
-|                                             | The DRM security elements must be updated. The user can go to the [Windows Media Individualization Page](https://drmlicense.one.microsoft.com/Indivsite/force.asp) to update their computer. | 0x80049006        |
+|                                             | The DRM security elements must be updated. The user can visit [DRM individualization](/windows/win32/wmformat/drm-individualization) to update their computer. | 0x800480CF        |
+|                                             | The DRM security elements must be updated. The user can visit [DRM individualization](/windows/win32/wmformat/drm-individualization) to update their computer. | 0x80049006        |
 
 
 
