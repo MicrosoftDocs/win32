@@ -28,7 +28,7 @@ A variation of Meiryo, called Meiryo UI, is preferred in the [ribbons](cmd-ribbo
 
 To support locales using these character sets, Segoe UI is replaced with the correct fonts depending on each locale during the [localization](glossary.md) process.
 
-To license Segoe UI and other Microsoft fonts for distribution with a Windows-based program, contact [Ascender](https://www.ascendercorp.com/msfonts/msfonts_main.mdl).
+To license Segoe UI and other Microsoft fonts for distribution with a Windows-based program, contact [Monotype](https://www.monotype.com/).
 
 **Note:** Guidelines related to [style and tone](text-style-tone.md) and [user interface text](text-ui.md) are presented in separate articles.
 
