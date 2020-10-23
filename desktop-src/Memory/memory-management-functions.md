@@ -1,5 +1,5 @@
 ---
-Description: 'This topic describes the memory management functions:'
+description: 'This topic describes the memory management functions:'
 ms.assetid: 5a2a7a62-0bda-4a0d-93d2-25b4898871fd
 title: Memory Management Functions
 ms.topic: article
@@ -58,7 +58,9 @@ These functions are used in [file mapping](file-mapping.md).
 
 | Function | Description |
 |-|-|
-| [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) | Creates or opens a named or unnamed file-mapping object for a specified file. |
+| [**CreateFileMappingA**](/windows/win32/api/winbase/nf-winbase-createfilemappinga) | Creates or opens a named or unnamed file-mapping object for a specified file. |
+| [**CreateFileMappingW**](/windows/win32/api/memoryapi/nf-memoryapi-createfilemappingw) | Creates or opens a named or unnamed file-mapping object for a specified file. |
+| [**CreateFileMapping2**](/windows/win32/api/memoryapi/nf-memoryapi-createfilemapping2) | Creates or opens a named or unnamed file mapping object for a specified file. You can specify specify a preferred NUMA node for the physical memory as an extended parameter; see the *ExtendedParameters* parameter. |
 | [**CreateFileMappingFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-createfilemappingfromapp) | Creates or opens a named or unnamed file-mapping object for a specified file from a Windows Store app. |
 | [**CreateFileMappingNuma**](/windows/desktop/api/WinBase/nf-winbase-createfilemappingnumaa) | Creates or opens a named or unnamed file-mapping object for a specified file, and specifies the NUMA node for the physical memory. |
 | [**FlushViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-flushviewoffile) | Writes to the disk a byte range within a mapped view of a file. |
