@@ -42449,6 +42449,36 @@
       "source_path": "desktop-src/properties/samples-recipepropertyhandlersample.md",
       "redirect_url": "/windows/win32/properties/property-system-code-samples",
       "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/apiindex/windows-81-api-sets.md",
+      "redirect_url": "/windows/win32/apiindex/windows-apisets",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/apiindex/windows-8-api-sets.md",
+      "redirect_url": "/windows/win32/apiindex/windows-apisets",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/apiindex/umbrella-lib-onecore.md",
+      "redirect_url": "/windows/win32/apiindex/windows-umbrella-libraries",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/apiindex/umbrella-lib-onecore-alpha.md",
+      "redirect_url": "/windows/win32/apiindex/windows-umbrella-libraries",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/apiindex/umbrella-lib-onecoreuap.md",
+      "redirect_url": "/windows/win32/apiindex/windows-umbrella-libraries",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/apiindex/umbrella-lib-onecoreuap-alpha.md",
+      "redirect_url": "/windows/win32/apiindex/windows-umbrella-libraries",
+      "redirect_document_id": false
 }
   ]
 }
