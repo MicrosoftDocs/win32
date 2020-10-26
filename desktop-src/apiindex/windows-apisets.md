@@ -17,7 +17,7 @@ API sets specifically address the following scenarios:
 
 - Some Win32 API implementations exist in DLLs with different names across different Windows 10 devices. Using API set names instead of DLL names when detecting API availability and delay loading APIs provide a correct route to the implementation no matter where the API is actually implemented.
 
-For more details, see [API set loader operation](api-set-loader-operation.md) and [Detect API set availability](api-set-loader-operation.md).
+For more details, see [API set loader operation](api-set-loader-operation.md) and [Detect API set availability](detect-api-set-availability.md).
 
 ## Linking to umbrella libraries
 
@@ -60,5 +60,5 @@ To identify whether a particular Win32 API belongs to an API set, review the req
 ## In this section
 
 * [API set loader operation](api-set-loader-operation.md)
-* [Detect API set availability](api-set-loader-operation.md)
+* [Detect API set availability](detect-api-set-availability.md)
 * [Windows umbrella libraries](windows-umbrella-libraries.md)
