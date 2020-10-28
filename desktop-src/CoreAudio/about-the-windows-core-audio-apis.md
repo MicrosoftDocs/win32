@@ -68,7 +68,7 @@ This overview contains the following topics.
 | [What's New for Core Audio APIs in Windows 7](what-s-new-for-core-audio-apis-in-windows-7.md) | Summarizes the new features and the improvements to the Core Audio APIs                   |
 | [Header Files and System Components](header-files-and-system-components.md)                   | Describes the header files and system components for the Core Audio APIs.                 |
 | [SDK Samples That Use the Core Audio APIs](sdk-samples-that-use-the-core-audio-apis.md)       | Lists the samples in the Windows SDK that use the Core Audio APIs.                        |
-| [For More Information](for-more-information.md)                                               | Refers to online resources that provide additional information about the Core Audio APIs. |
+
 
 
 

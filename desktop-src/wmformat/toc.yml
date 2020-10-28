@@ -2129,7 +2129,7 @@
       - name: "drm_val16"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_val16
       - name: "drm_video_output_protection"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__tagdrm_output_protection
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_output_protection
       - name: "drm_video_output_protection_ids"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_video_output_protection_ids
       - name: "wm_address_accessentry"
