@@ -1512,9 +1512,9 @@
               - name: "ID3D12VideoDecodeCommandList2::ExecuteExtensionCommand"
                 href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist1-decodeframe1
               - name: "ID3D12VideoDecodeCommandList2::InitializeExtensionCommand"
-                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist2-initializeextensioncommand
+                href: /windows/win32/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist2-initializeextensioncommand
               - name: "ID3D12VideoDecodeCommandList2::SetProtectedResourceSession"
-                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist2-setprotectedresourcesession
+                href: /windows/win32/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist2-setprotectedresourcesession
           - name: "ID3D12VideoDecoder"
             href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodecoder
             items:
@@ -1646,10 +1646,10 @@
               - name: "ID3D12VideoProcessCommandList1::ProcessFrames1"
                 href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist1-processframes1
           - name: "ID3D12VideoProcessCommandList2"
-            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videoprocesscommandlist2
+            href: /windows/win32/api/d3d12video/nn-d3d12video-id3d12videoprocesscommandlist2
             items:
               - name: "ID3D12VideoProcessCommandList2::ExecuteExtensionCommand"
-                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist2-executeextensioncommand
+                href: /windows/win32/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist2-executeextensioncommand
               - name: "ID3D12VideoProcessCommandList2::InitializeExtensionCommand"
                 href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist2-initializeextensioncommand
               - name: "ID3D12VideoProcessCommandList2::SetProtectedResourceSession"
@@ -1743,8 +1743,6 @@
             href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_output_stream_arguments1
           - name: "D3D12_VIDEO_DECODE_REFERENCE_FRAMES"
             href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_reference_frames
-          - name: "D3D12_VIDEO_DECODE_SUB_SAMPLE_MAPPING_BLOCK"
-            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_sub_sample_mapping_block
           - name: "D3D12_VIDEO_EXTENSION_COMMAND_DESC"
             href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_extension_command_desc
           - name: "D3D12_VIDEO_EXTENSION_COMMAND_INFO"
@@ -3481,7 +3479,7 @@
       href: media-foundation-enumerations.md
       items: 
       - name: "_MFDepthMeasurement"
-        href: /windows/desktop/api/mfapi/ne-mfapi-_mfdepthmeasurement
+        href: /windows/win32/api/mfapi/ne-mfapi-mfdepthmeasurement
       - name: "_MF_CROSS_ORIGIN_POLICY"
         href: /windows/win32/api/mfidl/ne-mfidl-mf_cross_origin_policy
       - name: "_MFP_CREATION_OPTIONS"
@@ -8687,7 +8685,7 @@
       - name: "ROI_AREA"
         href: /windows/win32/api/mfapi/ns-mfapi-roi_area
       - name: "SENSORPROFILEID"
-        href: /windows/desktop/api/mfidl/ns-mfidl-sensorprofileid
+        href: /windows/win32/api/mfidl/ns-mfidl-sensorprofileid
       - name: "STREAM_MEDIUM"
         href: /windows/win32/api/Mftransform/ns-mftransform-stream_medium
     - name: "Media Foundation Unions"
