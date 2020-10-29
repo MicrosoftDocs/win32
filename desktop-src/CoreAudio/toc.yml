@@ -149,6 +149,8 @@
       items: 
       - name: "Render Spatial Sound Using Spatial Audio Objects"
         href: render-spatial-sound-using-spatial-audio-objects.md
+      - name: "Recovering from an Invalid-Device Error (Spatial Sound)"
+        href: recovering-from-an-invalid-device-error-spatial-sound.md
   - name: "Programming Reference"
     href: programming-reference.md
     items: 
