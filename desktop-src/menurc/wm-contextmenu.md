@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # WM\_CONTEXTMENU message
 
-Notifies a window that the user clicked the right mouse button (right-clicked) in the window.
+Notifies a window that the user desires a context menu to appear.  The user may have clicked the right mouse button (right-clicked) in the window, pressed Shift+F10 or pressed the applications key (context menu key) available on some keyboards.
 
 
 ```C++
