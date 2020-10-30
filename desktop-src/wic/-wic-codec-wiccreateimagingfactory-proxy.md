@@ -13,7 +13,7 @@ api_type:
 - DllExport
 api_location: 
 - Windowscodecs.dll
-- Wincodec.lib
+- Windowscodecs.lib
 ---
 
 # WICCreateImagingFactory\_Proxy function
@@ -58,6 +58,8 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 ## Remarks
 
+This function is a helper for creating a WIC factory for explicit DLL linking that was needed for Windows XP. In normal usage, you would just use **[**CoCreateInstance**](/windows/win32/wic/-wic-api#class-factories)** instead as it's always included in all newer versions of Windows.
+
 ## Requirements
 
 
@@ -66,7 +68,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
-| DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>windowscodecs.lib</dt> </dl> |
 
 
 
