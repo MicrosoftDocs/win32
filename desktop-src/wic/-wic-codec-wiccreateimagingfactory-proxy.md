@@ -22,15 +22,12 @@ Proxy function for creating the [**IWICImagingFactory**](/windows/desktop/api/Wi
 
 ## Syntax
 
-
-```C++
+```cpp
 HRESULT WICCreateImagingFactory_Proxy(
   _In_  UINT               SDKVersion,
   _Out_ IWICImagingFactory **ppIImagingFactory
 );
 ```
-
-
 
 ## Parameters
 
@@ -58,7 +55,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 ## Remarks
 
-This function is a helper for creating a WIC factory for explicit DLL linking that was needed for Windows XP. In normal usage, you would just use **[**CoCreateInstance**](/windows/win32/wic/-wic-api#class-factories)** instead as it's always included in all newer versions of Windows.
+This function is a helper for creating a WIC factory for explicit DLL linking, which was needed for Windows XP. In normal usage, you would use [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) instead (see [WIC API class factories](/windows/win32/wic/-wic-api#class-factories)), since that's always included in all newer versions of Windows.
 
 ## Requirements
 
