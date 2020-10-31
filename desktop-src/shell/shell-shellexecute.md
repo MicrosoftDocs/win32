@@ -154,6 +154,7 @@ VBScript:
 
         set objShell = nothing
     end function
+</script>
 ```
 
 
