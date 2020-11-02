@@ -17,7 +17,7 @@ This topic describes the best practices for developing multithreaded [Direct2D](
 
 ## Developing Thread-Safe Apps that Call Only Direct2D APIs
 
-You can create a multithreaded [Direct2D](./direct2d-portal.md) factory instance. You can use and share a multithreaded factory and all it's resources from more than one thread, but accesses to those resources (via Direct2D calls) are serialized by Direct2D, so no access conflicts occur. If your app calls only Direct2D APIs, such protection is automatically done by Direct2D in a granular level with minimum overhead. The code to create a multithreaded factory here.
+You can create a multithreaded [Direct2D](./direct2d-portal.md) factory instance. You can use and share a multithreaded factory and all its resources from more than one thread, but accesses to those resources (via Direct2D calls) are serialized by Direct2D, so no access conflicts occur. If your app calls only Direct2D APIs, such protection is automatically done by Direct2D in a granular level with minimum overhead. The code to create a multithreaded factory here.
 
 ```cpp
 ID2D1Factory* m_D2DFactory;
