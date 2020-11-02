@@ -46,7 +46,7 @@ The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) of
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that provides a suggested size and position of the current window scaled for the new DPI. The expectation is that apps will reposition and resize windows based on the suggestions provided by *lParam* when handling this message.
+A pointer to a [**RECT**](/windows/desktop/api/windef/ns-windef-rect) structure that provides a suggested size and position of the current window scaled for the new DPI. The expectation is that apps will reposition and resize windows based on the suggestions provided by *lParam* when handling this message.
 
 </dd> </dl>
 
