@@ -44,7 +44,7 @@ Handle to the edit control.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**NMSEACHWEB**](/windows/desktop/api/Commctrl/ns-commctrl-nmsearchweb) structure.
+A pointer to a [**NMSEARCHWEB**](/windows/desktop/api/Commctrl/ns-commctrl-nmsearchweb) structure.
 
 </dd> </dl>
 
