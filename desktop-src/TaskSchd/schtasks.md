@@ -33,7 +33,7 @@ schtasks /Create
 [/XML xmlfile] [/V1]] [/SD startdate] [/ED enddate] [/IT] [/Z] [/F]
 ```
 
-## Parameters
+## Creation Parameters
 
 <dl> <dt>
 
@@ -293,7 +293,7 @@ schtasks /Delete
 [/TN taskname] [/F]
 ```
 
-## Parameters
+## Deletion Parameters
 
 <dl> <dt>
 
@@ -349,7 +349,7 @@ schtasks /Run
 /TN taskname
 ```
 
-## Parameters
+## Run Parameters
 
 <dl> <dt>
 
@@ -403,7 +403,7 @@ schtasks /End
 /TN taskname
 ```
 
-## Parameters
+## End Parameters
 
 <dl> <dt>
 
@@ -452,7 +452,7 @@ schtasks /Query
 [/FO format | /XML] [/NH] [/V] [/TN taskname] [/?]
 ```
 
-## Parameters
+## Query Parameters
 
 <dl> <dt>
 
@@ -540,7 +540,7 @@ schtasks /Change
 [/SD startdate] [/ED enddate] [/ENABLE | /DISABLE] [/IT] [/Z] }
 ```
 
-## Parameters
+## Change Parameters
 
 <dl> <dt>
 
