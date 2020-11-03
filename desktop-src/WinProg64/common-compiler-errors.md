@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 This section illustrates the typical compiler errors that occur when migrating an existing code base. These examples happen to be from system-level HAL code, although the concepts are directly applicable to user-level code.
 
-## Warning C4311
+## Warning C4311 Example 1
 
 'type cast' : pointer truncation from 'void \*\_\_ptr64 ' to 'unsigned long
 
@@ -44,7 +44,7 @@ Using the macro **PtrToUlong** to convert the 64-bit **PVOID** to the needed **U
 
 </dd> </dl>
 
-## Warning C4311
+## Warning C4311 Example 2
 
 'type cast' : pointer truncation from 'struct \_ERROR\_FRAME \*\_\_ptr64 ' to 'unsigned long
 
@@ -73,7 +73,7 @@ You might ask why **PVOID** was not used as the last parameter. Depending on the
 
 </dd> </dl>
 
-## Warning C4244
+## Warning C4244 Example 1
 
 '=' : conversion from 'struct \_CONFIGURATION\_COMPONENT \*\_\_ptr64 ' to 'struct \_CONFIGURATION\_COMPONENT \*', possible loss of data
 
@@ -123,7 +123,7 @@ To work around this problem, use CONFIGURATION\_COMPONENT \* rather than the 32-
 
 </dd> </dl>
 
-## Warning C4242
+## Warning C4242 Example 2
 
 '=' : conversion from '\_\_int64 ' to 'unsigned long ', possible loss of data
 
@@ -168,7 +168,7 @@ If the result may not fit in a 32-bit **ULONG**, change the base type of the var
 
 </dd> </dl>
 
-## Warning C4311
+## Warning C4311 - Example 1
 
 'type cast' : pointer truncation from 'void \*\_\_ptr64 ' to 'unsigned long '
 
@@ -258,7 +258,7 @@ return ComPortAddress;
 
 </dd> </dl>
 
-## Warning C4311
+## Warning C4311 - Example 2
 
 'type cast' : pointer truncation from 'void \*\_\_ptr64 ' to 'unsigned long '
 
@@ -301,7 +301,7 @@ Be safe and use **ULONG\_PTR** for all address and pointer math.
 
 </dd> </dl>
 
-## Warning C4311
+## Warning C4311 Example 3
 
 'type cast' : pointer truncation from 'void \*\_\_ptr64 ' to 'unsigned long '
 
@@ -345,7 +345,7 @@ if ( ((ULONG_PTR) Qva & QVA_SELECTORS) == QVA_ENABLE ) {
 
 </dd> </dl>
 
-## Warning C4311
+## Warning C4311 Example 4
 
 'type cast' : pointer truncation from 'void \*\_\_ptr64 ' to 'unsigned long '
 
@@ -395,7 +395,7 @@ This works in this example: the **HalCreateQva** macro is returning 64 bits, wit
 
 </dd> </dl>
 
-## Warning C4311
+## Warning C4311 Example 5
 
 'type cast' : pointer truncation from 'void \*\_\_ptr64 ' to 'unsigned long '
 
