@@ -60,7 +60,7 @@ This function is supported from shader model 6.0, in the following types of shad
 
 | Vertex | Hull | Domain | Geometry | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
-|        |      |        |          | x     | x       |
+| x      | x    | x      | x        | x     | x       |
 
 
 
