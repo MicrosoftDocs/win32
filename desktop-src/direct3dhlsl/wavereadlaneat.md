@@ -54,13 +54,7 @@ The resulting value is the result of *expr*. It will be uniform if *laneIndex* i
 
 This function is effectively a broadcast of the value in the laneIndex’th lane.
 
-This function is supported from shader model 6.0, in the following types of shaders:
-
-
-
-| Vertex | Hull | Domain | Geometry | Pixel | Compute |
-|--------|------|--------|----------|-------|---------|
-| x      | x    | x      | x        | x     | x       |
+This function is supported from shader model 6.0 in all shader stages. 
 
 
 
