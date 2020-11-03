@@ -133,27 +133,6 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 
 
-## Error codes
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                                                                                                                                                                  |
-|-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *target* was not GL\_TEXTURE\_1D.<br/>                                                                                                                                                                                                                             |
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *format* was not an accepted constant.<br/>                                                                                                                                                                                                                        |
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *type* was not an accepted constant.<br/>                                                                                                                                                                                                                          |
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *type* was GL\_BITMAP and *format* was not GL\_COLOR\_INDEX.<br/>                                                                                                                                                                                                  |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *level* was less than zero or greater than log2 *max*, where *max* was the returned value of GL\_MAX\_TEXTURE\_SIZE.<br/>                                                                                                                                          |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *xoffset* was less than *b*, or *offset* + *width* was greater than *wb*, where *w* is the GL\_TEXTURE\_WIDTH, and *b* is the width of the GL\_TEXTURE\_BORDER of the texture image being modified.<br/> Note that *w* includes twice the border width.<br/> |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *width* was was less than *b*, where *b* is the border width of the texture array.<br/>                                                                                                                                                                            |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *border* was not zero or 1.<br/>                                                                                                                                                                                                                                   |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The texure array was not defined by a previous **glTexImage1D** operation.<br/>                                                                                                                                                                                    |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/>                                                                                                                                    |
-
-
-
 ## Remarks
 
 One-dimensional texturing for a primitive is enabled using [**glEnable**](glenable.md) and **glDisable** with the argument GL\_TEXTURE\_1D. During texturing, part of a specified texture image is mapped into each enabled primitive. You use the **glTexSubImage1D** function to specify a contiguous sub-image of an existing one-dimensional texture image for texturing.

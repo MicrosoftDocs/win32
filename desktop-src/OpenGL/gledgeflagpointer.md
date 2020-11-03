@@ -66,18 +66,6 @@ The following error code can be retrieved by the [**glGetError**](glgeterror.md)
 
 
 
-## Error codes
-
-The following error code can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                             | Meaning                                      |
-|--------------------------------------------------------------------------------------------------|----------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl> | *stride* or *count* was negative.<br/> |
-
-
-
 ## Remarks
 
 The **glEdgeFlagPointer** function specifies the location and data of an array of Boolean edge flags to use when rendering. The *stride* parameter determines the byte offset from one edge flag to the next, which enables the packing of vertices and attributes in a single array or storage in separate arrays. In some implementations, storing the vertices and attributes in a single array can be more efficient than using separate arrays.

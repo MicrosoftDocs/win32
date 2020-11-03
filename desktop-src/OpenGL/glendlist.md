@@ -49,18 +49,6 @@ The following error code can be retrieved by the [**glGetError**](glgeterror.md)
 
 
 
-## Error codes
-
-The following error code can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                                       |
-|-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | **glEndList** was called without a preceding **glNewList**, or if **glnewlist** was called while a display list was being defined.<br/> |
-
-
-
 ## Remarks
 
 Display lists are groups of OpenGL commands that have been stored for subsequent execution. The display lists are created with [**glNewList**](glnewlist.md). All subsequent commands are placed in the display list, in the order issued, until **glEndList** is called.
