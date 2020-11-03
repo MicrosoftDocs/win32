@@ -51,7 +51,6 @@ The following procedure describes how to create an event consumer that sends ema
 6.  Create an instance of [**\_\_FilterToConsumerBinding**](--filtertoconsumerbinding.md) to associate the filter and the consumer.
 7.  Compile the MOF file by using [**Mofcomp.exe**](mofcomp.md).
 
-## 
 
 ## Example
 

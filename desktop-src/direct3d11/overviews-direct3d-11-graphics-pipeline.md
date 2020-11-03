@@ -16,7 +16,6 @@ The graphics pipeline for Microsoft Direct3D 11 supports the same stages as the 
 
 You can use the Direct3D 11API to configure all of the stages. Stages that feature common shader cores (the rounded rectangular blocks) are programmable by using the [HLSL](/windows/desktop/direct3dhlsl/dx-graphics-hlsl) programming language. As you will see, this makes the pipeline extremely flexible and adaptable.
 
-## 
 
 ## In this section
 

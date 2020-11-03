@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 Security credentials are a piece of evidence that a communicating party possesses that can be used to create or obtain a security token. Thus, credentials are typically longer-lived than security tokens, and a security token can be viewed as the runtime manifestation of the security credentials. Example of credentials include a machine certificate (which can be converted into an X.509 security token at runtime) or a username/password pair for a domain (which can be used to obtain a Kerberos security token).
 
-## 
 
 Credentials are specified as part of the [security bindings](security-bindings.md).
 

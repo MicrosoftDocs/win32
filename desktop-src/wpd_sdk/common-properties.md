@@ -19,7 +19,6 @@ api_location:
 
 Windows Portable Devices (WPD) supports the following properties of command parameters.
 
-## 
 
 
 

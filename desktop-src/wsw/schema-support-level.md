@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 This section covers the details around the level of schema support.
 
-## 
 
 The schema directly supports the following:
 

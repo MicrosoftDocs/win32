@@ -24,7 +24,6 @@ ActiveX Installer provides the following object.
 
  
 
-## 
 
 Authorization Manager provides the following objects.
 
@@ -39,7 +38,6 @@ Authorization Manager provides the following objects.
 
  
 
-## 
 
  
 

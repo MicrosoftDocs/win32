@@ -23,7 +23,6 @@ This topic demonstrates how to implement a simple word processor by adding a mul
 
 ## Instructions
 
-### 
 
 Your application must include code to create an instance of and initialize a multiline edit control and then process user edit commands.
 
@@ -36,7 +35,6 @@ User edit commands are sent to the window process via [**WM\_COMMAND**](/windows
 
  
 
-## 
 
 
 ```C++

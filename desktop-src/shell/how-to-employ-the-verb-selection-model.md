@@ -12,7 +12,6 @@ Registry values must be set for verbs to handle situations where a user can sele
 
 ## Instructions
 
-### 
 
 Specify the MultiSelectModel value for all verbs. If the MultiSelectModel value is not specified, it is inferred from the type of verb implementation you have chosen. For COM-based methods (such as DropTarget and ExecuteCommand) **Player** is assumed, and for the other methods **Document** is assumed.
 

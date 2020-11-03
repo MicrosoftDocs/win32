@@ -12,7 +12,6 @@ Device groups allow the specification of the Icons, Label, or DeviceHandlers pro
 
 ## Instructions
 
-### 
 
 The following example uses a system with several attached Zip drives. Without specifying the Icons, Label, and DeviceHandlers values for each drive individually, you create a device group called ZipDrive and define those values within it. Each Zip drive is then declared a member of the ZipDrive group.
 

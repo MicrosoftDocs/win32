@@ -23,7 +23,6 @@ This topic demonstrates how to process a format notification sent by the date an
 
 ## Instructions
 
-### 
 
 A DTP control sends the [DTN\_FORMAT](dtn-format.md) notification to request text that will be displayed in a callback field of the control. Your application must handle this notification to enable the DTP control to display information that it does not natively support.
 

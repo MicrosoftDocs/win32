@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 To support service model, wsutil.exe generates header to be used in both client and service side. It generates C proxy file for client side, and C stub file for service side, as needed.
 
-## 
 
 To support [serialization](serialization.md), the compiler generates headers for element descriptions for global element definitions, and all type definition information in proxy file to be consumed by the serialization engine.
 

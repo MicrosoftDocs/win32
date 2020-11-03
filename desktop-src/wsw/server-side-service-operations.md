@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 This section describes service side service operations.
 
-## 
 
 The following is the layout of a server side service operation
 

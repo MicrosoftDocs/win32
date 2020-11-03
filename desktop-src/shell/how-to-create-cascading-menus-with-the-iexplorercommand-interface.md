@@ -12,7 +12,6 @@ Another option for adding verbs to a cascading menu is through [**IExplorerComma
 
 ## Instructions
 
-### 
 
 The following two screen shots illustrate the use of cascading menus in the **Devices** folder.
 

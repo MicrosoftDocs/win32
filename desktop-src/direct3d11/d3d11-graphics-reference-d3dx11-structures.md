@@ -18,7 +18,6 @@ This section contains information about the D3DX 11 structures.
 
  
 
-## 
 
 ## In this section
 

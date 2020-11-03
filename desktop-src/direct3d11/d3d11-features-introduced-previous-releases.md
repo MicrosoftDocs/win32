@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 Discover what new features have been added to the previous SDK updates:
 
-## 
 
 ## In this section
 

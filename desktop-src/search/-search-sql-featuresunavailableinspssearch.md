@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 Microsoft Windows Search query language is based on Structured Query Language (SQL); however, it does not search in a relational database with user-defined tables or indexes. Because of this, many standard SQL statements and syntax features do not apply. The following is a list of the more significant SQL features that are not supported in Windows Search.
 
-## 
 
 -   BATCH statements
 -   COALESCE\_TABLE function

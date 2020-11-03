@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 The [Wsutil.exe](web-service-compiler-tool.md) utility generates a C language stub according to supplied WSDL metadata, as well as data type definitions and descriptions for data types described by user-authored XML schemas.
 
-## 
 
 The following is an example WSDL document and XML schema that serves as a basis for the discussion that follows:
 

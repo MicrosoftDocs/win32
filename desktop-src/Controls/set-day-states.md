@@ -25,13 +25,11 @@ Month calendar controls that use the [**MCS\_DAYSTATE**](month-calendar-control-
 
 ## Instructions
 
-### 
 
 An application can explicitly set day state information by sending the [**MCM\_SETDAYSTATE**](mcm-setdaystate.md) message or by using the corresponding macro, [**MonthCal\_SetDayState**](/windows/desktop/api/Commctrl/nf-commctrl-monthcal_setdaystate). However, day state information is usually set in response to the [MCN\_GETDAYSTATE](mcn-getdaystate.md) notification code, which is sent whenever the control needs to be refreshed because, for example, a different month has scrolled into view.
 
 The following example code shows how to process the [MCN\_GETDAYSTATE](mcn-getdaystate.md) notification code in a [**WM\_NOTIFY**](wm-notify.md) message handler. It processes MCN\_GETDAYSTATE by specifying that the first and fifteenth day of each visible month should be highlighted. The **cDayState** member of the [**NMDAYSTATE**](/windows/win32/api/commctrl/ns-commctrl-nmdaystate) structure specifies the number of [**MONTHDAYSTATE**](monthdaystate.md) values that are needed in the array, which is given an arbitrary maximum size. The code then loops to set the appropriate bits in each valid element of the array, using the application-defined **BOLDDAY** macro.
 
-## 
 
 
 ```C++

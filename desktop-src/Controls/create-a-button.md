@@ -23,7 +23,6 @@ To create buttons dynamically, you use the [**CreateWindow**](/windows/desktop/a
 
 ## Instructions
 
-### 
 
 Use the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) function to create a button control.
 

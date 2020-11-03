@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 This section contains reference information about the D3DCSX utility library, which you can use with a compute shader.
 
-## 
 
 ## In this section
 

@@ -11,7 +11,6 @@ Illustrates the process for adding a device handler to a device.
 
 ## Instructions
 
-### 
 
 To assign a device handler to a device, under the **Device Parameters** subkey of the device instance, add a value of type **REG\_SZ** named **DeviceHandlers**. The data entry for this value is the name of the device handler.
 

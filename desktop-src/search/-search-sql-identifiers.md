@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 Identifiers specify the names of columns (sometimes referred to as properties), catalogs, and aliases. For example, System.ItemName and System.DateCreated are the identifiers of two system-defined property columns. Literals, by contrast, specify string and numeric values.
 
-## 
 
 You can create identifiers that are up to 128 characters long, and in one of two types, distinguished by the characters used in the identifier name:
 

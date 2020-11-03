@@ -423,7 +423,6 @@ The MSLU does not have these limitations.
 
  
 
-### 
 
 -   (a) The ANSI string being measured or retrieved must satisfy the following condition: the length of the corresponding Unicode version of the string cannot exceed the length of the ANSI version of the string. If this condition is not met, the returned length will be short. If there is insufficient memory to determine the length of the Unicode string, the function returns zero, not LB\_ERR or CB\_ERR as might be expected.
 -   (b) If string conversion is necessary, all strings are converted through the CP\_ACP code page.

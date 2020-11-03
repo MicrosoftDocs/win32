@@ -12,7 +12,6 @@ This tutorial describes how to create a status callback function used to monitor
 
 Status callback functions receive status callbacks on any Internet requests that originated from any WinINet function that was passed a nonzero context value.
 
-## 
 
 The following steps are necessary for creating a status callback function:
 

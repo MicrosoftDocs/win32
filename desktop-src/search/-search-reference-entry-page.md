@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # Windows Search Reference
 
-## 
 
 This reference consists of the following sections:
 

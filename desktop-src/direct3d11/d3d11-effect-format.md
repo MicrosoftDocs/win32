@@ -20,7 +20,6 @@ The preceding diagram shows the categories of effect state.
 
 The definition of the effect binary format can be found in Binary\\EffectBinaryFormat.h in the effects source code.
 
-## 
 
 ## In this section
 

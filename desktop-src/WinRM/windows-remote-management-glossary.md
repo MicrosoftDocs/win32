@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 # Windows Remote Management Glossary
 
-## 
 
 <dl> <dt>
 

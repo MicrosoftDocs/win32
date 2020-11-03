@@ -21,7 +21,6 @@ Class qualifiers specify information about the performance object to which the W
 -   [Qualifiers for Formatted Performance Classes](#)
 -   [Related topics](#related-topics)
 
-## 
 
 Performance counter–specific qualifiers are automatically attached by the "WbemPerfClass" provider to [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) classes and properties in Root\\CIMv2.
 

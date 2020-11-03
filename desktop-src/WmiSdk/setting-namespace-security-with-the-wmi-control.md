@@ -11,7 +11,6 @@ ms.date: 05/31/2018
 
 The WMI Control is an MMC snap-in located in the **Control Panel** and is used to set WMI namespace security manually on a local computer. You can also set the default namespace for scripting.
 
-## 
 
 The following procedure describes how to locate the WMI Control.
 

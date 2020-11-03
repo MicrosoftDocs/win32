@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 Channels encapsulate a communication context between two or more parties and are used to send and receive messages.
 
-## 
 
 On the client, use [**WsCreateChannel**](/windows/desktop/api/WebServices/nf-webservices-wscreatechannel) to create a channel. On the server, use [**WsCreateChannelForListener**](/windows/desktop/api/WebServices/nf-webservices-wscreatechannelforlistener) to create a channel that can be accepted by the client using a [listener](listener.md).
 

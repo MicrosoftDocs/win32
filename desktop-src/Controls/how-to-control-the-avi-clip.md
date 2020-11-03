@@ -24,7 +24,6 @@ This topic demonstrates how to use the animation control macros to play, stop, a
 
 ## Instructions
 
-### 
 
 Create a function that takes as parameters a handle to the animation control and a flag that indicates the action to be performed on the associated AVI clip.
 

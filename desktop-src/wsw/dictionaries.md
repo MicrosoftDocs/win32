@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 Dictionaries allow tokenization of common node data such as element / attribute names, namespaces and common text within a binary XML format.
 
-## 
 
 A [**Dictionary>**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_dictionary) can be specified as part of the [**WS\_XML\_STRING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_string) type. All strings within a single **Dictionary>** must be unique.
 

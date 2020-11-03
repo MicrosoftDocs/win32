@@ -27,7 +27,6 @@ WIC is designed to meet the needs of the following classes of developers:
 -   Developers who want run-time codec discovery for newly designed or implemented image codecs.
 -   Developers designing or implementing new image codecs and metadata formats.
 
-## 
 
 ## In this section
 

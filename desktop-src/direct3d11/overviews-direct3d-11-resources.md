@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 Resources provide data to the pipeline and define what is rendered during your scene. Resources can be loaded from your game media or created dynamically at run time. Typically, resources include texture data, vertex data, and shader data. Most Direct3D applications create and destroy resources extensively throughout their lifespan. This section describes aspects of Direct3D 11 resources.
 
-## 
 
 ## In this section
 

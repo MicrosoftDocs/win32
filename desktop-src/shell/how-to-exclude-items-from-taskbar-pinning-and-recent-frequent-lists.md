@@ -11,7 +11,6 @@ Applications, processes, and windows can opt to make themselves unavailable for 
 
 ## Instructions
 
-### 
 
 There are three mechanisms to accomplish the exclusion of items from taskbar pinning and recent/frequent lists:
 

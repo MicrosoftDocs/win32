@@ -19,7 +19,6 @@ api_location:
 
 For Windows 7, Windows Portable Devices supports the following attributes for methods of a device service. These attributes are returned by the [**IPortableDeviceServiceCapabilities::GetMethodAttributes**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getmethodattributes) method.
 
-## 
 
 
 

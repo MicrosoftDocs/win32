@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 The Direct3D API defines several core API elements.
 
-## 
 
 ## In this section
 

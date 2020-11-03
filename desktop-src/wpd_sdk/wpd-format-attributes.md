@@ -19,7 +19,6 @@ api_location:
 
 For Windows 7, Windows Portable Devices supports the following attributes for formats on a device service. These attributes are returned by the [**IPortableDeviceServiceCapabilities::GetFormatAttributes**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getformatattributes) method.
 
-## 
 
 
 

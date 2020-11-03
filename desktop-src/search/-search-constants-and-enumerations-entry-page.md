@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # Windows Search Constants and Enumerations
 
-## 
 
 This section documents the following constants and enumerations:
 
