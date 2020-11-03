@@ -7,7 +7,7 @@ ms.date: 10/29/2020
 
 # Recovering from an Invalid-Device Error
 
-Many of the methods in spatial audio API (ISAC) return error codes if the audio endpoint device that the client application is using becomes invalid or the spatial audio rendering is changed on the endpoint. These error codes indicates that the endpoint device has been unplugged, or that the audio hardware or associated hardware resources have been reconfigured, disabled, removed, spatial audio mode is changed or otherwise made unavailable for use. Frequently, the application can recover from this error.
+Many of the methods of the [ISpatialAudioClient](/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient) interface return error codes if the audio endpoint device that the client application is using becomes invalid or the spatial audio rendering format is changed on the endpoint. These error codes indicates that the endpoint device has been unplugged, or that the audio hardware or associated hardware resources have been reconfigured, disabled, removed, spatial audio mode is changed or otherwise made unavailable for use. Frequently, the application can recover from this error.
 
 Error codes that indicate an invalid-device error include the following:
 
