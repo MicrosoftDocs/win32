@@ -36,7 +36,7 @@ A DDS file is a binary file that contains the following information:
 
     
 
-    If the DDS\_PIXELFORMAT dwFlags is set to DDPF\_FOURCC and dwFourCC is set to "DX10" an additional [**DDS\_HEADER\_DXT10**](dds-header-dxt10.md) structure will be present to accommodate texture arrays or DXGI formats that cannot be expressed as an RGB pixel foramt such as floating point formats, sRGB formats etc. When the **DDS\_HEADER\_DXT10** structure is present the entire data description will looks like this.
+    If the DDS\_PIXELFORMAT dwFlags is set to DDPF\_FOURCC and dwFourCC is set to "DX10" an additional [**DDS\_HEADER\_DXT10**](dds-header-dxt10.md) structure will be present to accommodate texture arrays or DXGI formats that cannot be expressed as an RGB pixel format such as floating point formats, sRGB formats etc. When the **DDS\_HEADER\_DXT10** structure is present the entire data description will looks like this.
 
     ```
     DWORD               dwMagic;
@@ -90,11 +90,11 @@ The D3DX library (for example, D3DX11.lib) and other similar libraries unreliabl
 
 ## DDS Variants
 
-There are many tools that create and consume DDS files, but they can vary in the details of what they require in the header. Writers should populate the headers as fully as possible, and readers should check the minimal values for maximum compatibilty. To validate a DDS file, a reader should ensure the file is at least 128 bytes long to accommodate the magic value and basic header, the magic value is 0x20534444 ("DDS "), the DDS\_HEADER size is 124, and the DDS\_PIXELFORMAT in the header size is 32. If the DDS\_PIXELFORMAT dwFlags is set to DDPF\_FOURCC and a dwFourCC is set to "DX10", then the total file size needs to be at least 148 bytes.
+There are many tools that create and consume DDS files, but they can vary in the details of what they require in the header. Writers should populate the headers as fully as possible, and readers should check the minimal values for maximum compatibility. To validate a DDS file, a reader should ensure the file is at least 128 bytes long to accommodate the magic value and basic header, the magic value is 0x20534444 ("DDS "), the DDS\_HEADER size is 124, and the DDS\_PIXELFORMAT in the header size is 32. If the DDS\_PIXELFORMAT dwFlags is set to DDPF\_FOURCC and a dwFourCC is set to "DX10", then the total file size needs to be at least 148 bytes.
 
 There are some common variants in use where the pixel format is set to a DDPF\_FOURCC code where dwFourCC is set to a D3DFORMAT or DXGI\_FORMAT enumeration value. There is no way to tell if an enumeration value is a D3DFORMAT or a DXGI\_FORMAT, so it is highly recommended that the "DX10" extension and DDS\_HEADER\_DXT10 header is used instead to store the dxgiFormat when the basic DDS\_PIXELFORMAT cannot express the format.
 
-The standard DDS\_PIXELFORMAT should be preferred for maximum compatibilty to store RGB uncompressed data and DXT1-5 data as not all DDS tools support the DX10 extension.
+The standard DDS\_PIXELFORMAT should be preferred for maximum compatibility to store RGB uncompressed data and DXT1-5 data as not all DDS tools support the DX10 extension.
 
 ## Using Texture Arrays in Direct3D 10/11
 
