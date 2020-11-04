@@ -45,11 +45,7 @@ A postfix sum can be computed by adding the prefix sum to the current lane's val
 
 Note that the active lane with the lowest index will always receive a 0 for its prefix sum.
 
-This function is supported from shader model 6.0, in the following types of shaders.
-
-| Vertex | Hull | Domain | Geometry | Pixel | Compute |
-|--------|------|--------|----------|-------|---------|
-|        |      |        |          | x     | x       |
+This function is supported from shader model 6.0 in all shader stages. 
 
 ## Examples
 
