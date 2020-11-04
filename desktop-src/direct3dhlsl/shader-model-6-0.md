@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Shader Model 6
 
-Shader model 6.0 adds a range of wave operation intrinsics for the pixel and compute shaders.
+All non-quad related Wave Intrinsics are available in all shader stages. Quad wave intrinsics are available only in pixel and compute shaders.
 
 ## In this section
 
