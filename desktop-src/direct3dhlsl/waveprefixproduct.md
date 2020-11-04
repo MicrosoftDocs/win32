@@ -45,11 +45,7 @@ A postfix product can be computed by multiplying the prefix product by the curre
 
 Note that the active lane with the lowest index will always receive a 1 for its prefix product.
 
-This function is supported from shader model 6.0, in the following types of shaders.
-
-| Vertex | Hull | Domain | Geometry | Pixel | Compute |
-|--------|------|--------|----------|-------|---------|
-|        |      |        |          | x     | x       |
+This function is supported from shader model 6.0 in all shader stages. 
 
 ## Examples
 
