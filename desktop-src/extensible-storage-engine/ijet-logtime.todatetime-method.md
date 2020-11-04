@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Generate a DateTime representation of this IJET_LOGTIME.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,8 +58,8 @@ A DateTime representing the IJET_LOGTIME. If the IJET_LOGTIME is null then null 
 
 #### Reference
 
-[IJET_LOGTIME interface](hh596687\(v=exchg.10\).md)
+[IJET_LOGTIME interface](./ijet-logtime-interface.md)
 
-[IJET_LOGTIME members](hh578100\(v=exchg.10\).md)
+[IJET_LOGTIME members](./ijet-logtime-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

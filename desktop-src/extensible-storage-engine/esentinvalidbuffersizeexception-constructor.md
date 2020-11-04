@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidBufferSizeException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentInvalidBufferSizeException()
 
 #### Reference
 
-[EsentInvalidBufferSizeException class](dn319475\(v=exchg.10\).md)
+[EsentInvalidBufferSizeException class](./esentinvalidbuffersizeexception-class.md)
 
-[EsentInvalidBufferSizeException members](dn319445\(v=exchg.10\).md)
+[EsentInvalidBufferSizeException members](./esentinvalidbuffersizeexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

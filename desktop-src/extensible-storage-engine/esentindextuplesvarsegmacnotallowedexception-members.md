@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.IndexTuplesVarSegMacNotAllowed exceptions.
 
-The [EsentIndexTuplesVarSegMacNotAllowedException](dn319430\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexTuplesVarSegMacNotAllowedException](./esentindextuplesvarsegmacnotallowedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentIndexTuplesVarSegMacNotAllowedException class](dn319430\(v=exchg.10\).md)
+[EsentIndexTuplesVarSegMacNotAllowedException class](./esentindextuplesvarsegmacnotallowedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.BadPageLink exceptions.
 
-The [EsentBadPageLinkException](dn274083\(v=exchg.10\).md) type exposes the following members.
+The [EsentBadPageLinkException](./esentbadpagelinkexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentBadPageLinkException class](dn274083\(v=exchg.10\).md)
+[EsentBadPageLinkException class](./esentbadpagelinkexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

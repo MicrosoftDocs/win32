@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDatabaseLockedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentDatabaseLockedException()
 
 #### Reference
 
-[EsentDatabaseLockedException class](dn334474\(v=exchg.10\).md)
+[EsentDatabaseLockedException class](./esentdatabaselockedexception-class.md)
 
-[EsentDatabaseLockedException members](dn334355\(v=exchg.10\).md)
+[EsentDatabaseLockedException members](./esentdatabaselockedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

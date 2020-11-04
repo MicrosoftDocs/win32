@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidSettingsException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentInvalidSettingsException()
 
 #### Reference
 
-[EsentInvalidSettingsException class](dn334521\(v=exchg.10\).md)
+[EsentInvalidSettingsException class](./esentinvalidsettingsexception-class.md)
 
-[EsentInvalidSettingsException members](dn319587\(v=exchg.10\).md)
+[EsentInvalidSettingsException members](./esentinvalidsettingsexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

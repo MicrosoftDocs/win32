@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentSoftRecoveryOnBackupDatabaseException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentSoftRecoveryOnBackupDatabaseException()
 
 #### Reference
 
-[EsentSoftRecoveryOnBackupDatabaseException class](dn334788\(v=exchg.10\).md)
+[EsentSoftRecoveryOnBackupDatabaseException class](./esentsoftrecoveryonbackupdatabaseexception-class.md)
 
-[EsentSoftRecoveryOnBackupDatabaseException members](dn334898\(v=exchg.10\).md)
+[EsentSoftRecoveryOnBackupDatabaseException members](./esentsoftrecoveryonbackupdatabaseexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

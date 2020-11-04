@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentExistingLogFileHasBadSignatureException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentExistingLogFileHasBadSignatureException()
 
 #### Reference
 
-[EsentExistingLogFileHasBadSignatureException class](dn274318\(v=exchg.10\).md)
+[EsentExistingLogFileHasBadSignatureException class](./esentexistinglogfilehasbadsignatureexception-class.md)
 
-[EsentExistingLogFileHasBadSignatureException members](dn274261\(v=exchg.10\).md)
+[EsentExistingLogFileHasBadSignatureException members](./esentexistinglogfilehasbadsignatureexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

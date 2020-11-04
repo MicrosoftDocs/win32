@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVReadVerifyFailureException](dn334832\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVReadVerifyFailureException](./esentslvreadverifyfailureexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -160,6 +160,6 @@ Top
 
 #### Reference
 
-[EsentSLVReadVerifyFailureException class](dn334832\(v=exchg.10\).md)
+[EsentSLVReadVerifyFailureException class](./esentslvreadverifyfailureexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

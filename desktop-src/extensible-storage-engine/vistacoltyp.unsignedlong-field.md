@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Unsigned 32-bit number.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,9 +52,8 @@ public const JET_coltyp UnsignedLong
 
 #### Reference
 
-[VistaColtyp class](dn351274\(v=exchg.10\).md)
+[VistaColtyp class](./vistacoltyp-class.md)
 
-[VistaColtyp members](dn335346\(v=exchg.10\).md)
+[VistaColtyp members](./vistacoltyp-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.FileIOAbort exceptions.
 
-The [EsentFileIOAbortException](dn274355\(v=exchg.10\).md) type exposes the following members.
+The [EsentFileIOAbortException](./esentfileioabortexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentFileIOAbortException class](dn274355\(v=exchg.10\).md)
+[EsentFileIOAbortException class](./esentfileioabortexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

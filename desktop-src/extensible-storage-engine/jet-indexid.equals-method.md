@@ -51,8 +51,8 @@ Top
 
 #### Reference
 
-[JET_INDEXID structure](hh557060\(v=exchg.10\).md)
+[JET_INDEXID structure](./jet-indexid-structure2.md)
 
-[JET_INDEXID members](hh565743\(v=exchg.10\).md)
+[JET_INDEXID members](./jet-indexid-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

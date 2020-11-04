@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentLogTornWriteDuringHardRestoreException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentLogTornWriteDuringHardRestoreException()
 
 #### Reference
 
-[EsentLogTornWriteDuringHardRestoreException class](dn334605\(v=exchg.10\).md)
+[EsentLogTornWriteDuringHardRestoreException class](./esentlogtornwriteduringhardrestoreexception-class.md)
 
-[EsentLogTornWriteDuringHardRestoreException members](dn334663\(v=exchg.10\).md)
+[EsentLogTornWriteDuringHardRestoreException members](./esentlogtornwriteduringhardrestoreexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

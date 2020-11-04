@@ -15,7 +15,7 @@ Include inherited members
 
 System parameters that were introduced in Windows 8.
 
-The [Windows8Param](dn335398\(v=exchg.10\).md) type exposes the following members.
+The [Windows8Param](./windows8param-class.md) type exposes the following members.
 
 ## Fields
 
@@ -83,7 +83,6 @@ Top
 
 #### Reference
 
-[Windows8Param class](dn335398\(v=exchg.10\).md)
+[Windows8Param class](./windows8param-class.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.RollbackRequired exceptions.
 
-The [EsentRollbackRequiredException](dn350571\(v=exchg.10\).md) type exposes the following members.
+The [EsentRollbackRequiredException](./esentrollbackrequiredexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentRollbackRequiredException class](dn350571\(v=exchg.10\).md)
+[EsentRollbackRequiredException class](./esentrollbackrequiredexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [VistaParam](dn335284\(v=exchg.10\).md) type exposes the following members.
+The [VistaParam](./vistaparam-class.md) type exposes the following members.
 
 ## Fields
 
@@ -146,7 +146,6 @@ Top
 
 #### Reference
 
-[VistaParam class](dn335284\(v=exchg.10\).md)
+[VistaParam class](./vistaparam-class.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

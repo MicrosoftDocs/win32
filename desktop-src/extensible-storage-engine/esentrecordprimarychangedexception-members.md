@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.RecordPrimaryChanged exceptions.
 
-The [EsentRecordPrimaryChangedException](dn319853\(v=exchg.10\).md) type exposes the following members.
+The [EsentRecordPrimaryChangedException](./esentrecordprimarychangedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentRecordPrimaryChangedException class](dn319853\(v=exchg.10\).md)
+[EsentRecordPrimaryChangedException class](./esentrecordprimarychangedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

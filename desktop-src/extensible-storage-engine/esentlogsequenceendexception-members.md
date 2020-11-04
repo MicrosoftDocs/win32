@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.LogSequenceEnd exceptions.
 
-The [EsentLogSequenceEndException](dn334652\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogSequenceEndException](./esentlogsequenceendexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentLogSequenceEndException class](dn334652\(v=exchg.10\).md)
+[EsentLogSequenceEndException class](./esentlogsequenceendexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

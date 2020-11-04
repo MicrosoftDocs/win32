@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.OutOfFileHandles exceptions.
 
-The [EsentOutOfFileHandlesException](dn319728\(v=exchg.10\).md) type exposes the following members.
+The [EsentOutOfFileHandlesException](./esentoutoffilehandlesexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentOutOfFileHandlesException class](dn319728\(v=exchg.10\).md)
+[EsentOutOfFileHandlesException class](./esentoutoffilehandlesexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidLCMapStringFlagsException](dn319538\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidLCMapStringFlagsException](./esentinvalidlcmapstringflagsexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentInvalidLCMapStringFlagsException class](dn319538\(v=exchg.10\).md)
+[EsentInvalidLCMapStringFlagsException class](./esentinvalidlcmapstringflagsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

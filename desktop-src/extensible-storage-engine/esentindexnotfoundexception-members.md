@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.IndexNotFound exceptions.
 
-The [EsentIndexNotFoundException](dn350459\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexNotFoundException](./esentindexnotfoundexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentIndexNotFoundException class](dn350459\(v=exchg.10\).md)
+[EsentIndexNotFoundException class](./esentindexnotfoundexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -40,7 +40,7 @@ To enable the new long path behavior, both of the following conditions must be m
     > [!NOTE]  
     > This registry key can also be controlled via Group Policy at `Computer Configuration > Administrative Templates > System > Filesystem > Enable Win32 long paths`.
 
-* The [application manifest](/windows/win32/sbscs/application-manifests) must also include the `longPathAware` element.
+* The [application manifest](../sbscs/application-manifests.md) must also include the `longPathAware` element.
 
     ```XML
     <application xmlns="urn:schemas-microsoft-com:asm.v3">

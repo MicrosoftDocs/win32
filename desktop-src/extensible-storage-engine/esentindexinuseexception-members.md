@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.IndexInUse exceptions.
 
-The [EsentIndexInUseException](dn350505\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexInUseException](./esentindexinuseexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentIndexInUseException class](dn350505\(v=exchg.10\).md)
+[EsentIndexInUseException class](./esentindexinuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

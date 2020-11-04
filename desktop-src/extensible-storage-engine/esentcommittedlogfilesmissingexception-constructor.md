@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentCommittedLogFilesMissingException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentCommittedLogFilesMissingException()
 
 #### Reference
 
-[EsentCommittedLogFilesMissingException class](dn334311\(v=exchg.10\).md)
+[EsentCommittedLogFilesMissingException class](./esentcommittedlogfilesmissingexception-class.md)
 
-[EsentCommittedLogFilesMissingException members](dn274211\(v=exchg.10\).md)
+[EsentCommittedLogFilesMissingException members](./esentcommittedlogfilesmissingexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

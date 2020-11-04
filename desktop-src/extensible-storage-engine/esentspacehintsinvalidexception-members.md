@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.SpaceHintsInvalid exceptions.
 
-The [EsentSpaceHintsInvalidException](dn334800\(v=exchg.10\).md) type exposes the following members.
+The [EsentSpaceHintsInvalidException](./esentspacehintsinvalidexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentSpaceHintsInvalidException class](dn334800\(v=exchg.10\).md)
+[EsentSpaceHintsInvalidException class](./esentspacehintsinvalidexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Interface for objects that can be cloned. This creates a deep copy of the object. It is used for cloning meta-data objects.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -55,7 +55,6 @@ public interface IDeepCloneable<T>
 
 #### Reference
 
-[IDeepCloneable\<T\> members](hh596443\(v=exchg.10\).md)
+[IDeepCloneable\<T\> members](./ideepcloneable-t-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

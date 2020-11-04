@@ -32,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the table options.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -55,15 +55,14 @@ public ObjectInfoGrbit grbit { get; private set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.ObjectInfoGrbit](hh163294\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.ObjectInfoGrbit](./objectinfogrbit-enumeration.md)  
 
 ## See also
 
 #### Reference
 
-[JET_OBJECTINFO class](dn335219\(v=exchg.10\).md)
+[JET_OBJECTINFO class](./jet-objectinfo-class.md)
 
-[JET_OBJECTINFO members](dn335195\(v=exchg.10\).md)
+[JET_OBJECTINFO members](./jet-objectinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

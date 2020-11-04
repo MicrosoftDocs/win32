@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentLogGenerationMismatchException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentLogGenerationMismatchException()
 
 #### Reference
 
-[EsentLogGenerationMismatchException class](dn334564\(v=exchg.10\).md)
+[EsentLogGenerationMismatchException class](./esentloggenerationmismatchexception-class.md)
 
-[EsentLogGenerationMismatchException members](dn334568\(v=exchg.10\).md)
+[EsentLogGenerationMismatchException members](./esentloggenerationmismatchexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

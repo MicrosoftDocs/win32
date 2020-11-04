@@ -15,7 +15,7 @@ Include inherited members
 
 Holds an index ID. An index ID is a hint that is used to accelerate the selection of the current index using JetSetCurrentIndex. It is most useful when there is a very large number of indexes over a table. The index ID can be retrieved using JetGetIndexInfo or JetGetTableIndexInfo.
 
-The [JET_INDEXID](hh557060\(v=exchg.10\).md) type exposes the following members.
+The [JET_INDEXID](./jet-indexid-structure2.md) type exposes the following members.
 
 ## Methods
 
@@ -100,6 +100,6 @@ Top
 
 #### Reference
 
-[JET_INDEXID structure](hh557060\(v=exchg.10\).md)
+[JET_INDEXID structure](./jet-indexid-structure2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

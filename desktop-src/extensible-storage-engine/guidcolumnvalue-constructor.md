@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # GuidColumnValue constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +49,8 @@ public GuidColumnValue()
 
 #### Reference
 
-[GuidColumnValue class](dn350902\(v=exchg.10\).md)
+[GuidColumnValue class](./guidcolumnvalue-class.md)
 
-[GuidColumnValue members](dn350892\(v=exchg.10\).md)
+[GuidColumnValue members](./guidcolumnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

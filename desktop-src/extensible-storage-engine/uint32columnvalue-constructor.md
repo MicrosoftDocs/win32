@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # UInt32ColumnValue constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +49,8 @@ public UInt32ColumnValue()
 
 #### Reference
 
-[UInt32ColumnValue class](dn351251\(v=exchg.10\).md)
+[UInt32ColumnValue class](./uint32columnvalue-class.md)
 
-[UInt32ColumnValue members](dn351186\(v=exchg.10\).md)
+[UInt32ColumnValue members](./uint32columnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

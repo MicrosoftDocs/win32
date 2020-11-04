@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentIOException class. This constructor is used to deserialize a serialized exception.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -69,10 +69,10 @@ protected EsentIOException(
 
 #### Reference
 
-[EsentIOException class](dn319595\(v=exchg.10\).md)
+[EsentIOException class](./esentioexception-class.md)
 
-[EsentIOException members](dn334537\(v=exchg.10\).md)
+[EsentIOException members](./esentioexception-members.md)
 
-[EsentIOException overload](dn334540\(v=exchg.10\).md)
+[EsentIOException overload](./esentioexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

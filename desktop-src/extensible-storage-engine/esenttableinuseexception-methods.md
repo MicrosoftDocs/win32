@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentTableInUseException](dn334903\(v=exchg.10\).md) type exposes the following members.
+The [EsentTableInUseException](./esenttableinuseexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentTableInUseException class](dn334903\(v=exchg.10\).md)
+[EsentTableInUseException class](./esenttableinuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

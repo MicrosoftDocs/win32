@@ -33,11 +33,11 @@ Set a column of a struct type (e.g. Int32/Guid).
 ## Inheritance hierarchy
 
 [System.Object](/dotnet/api/system.object)  
-  [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
+  [Microsoft.Isam.Esent.Interop.ColumnValue](./columnvalue-class.md)  
     Microsoft.Isam.Esent.Interop.ColumnValueOfStruct\<T\>  
       
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -68,14 +68,14 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[ColumnValueOfStruct\<T\> members](dn334217\(v=exchg.10\).md)
+[ColumnValueOfStruct\<T\> members](./columnvalueofstruct-t-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)
 
 ## Derived types
 
 [System.Object](/dotnet/api/system.object)  
-  [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
+  [Microsoft.Isam.Esent.Interop.ColumnValue](./columnvalue-class.md)  
     Microsoft.Isam.Esent.Interop.ColumnValueOfStruct\<T\>  
       [Microsoft.Isam.Esent.Interop.BoolColumnValue](dn334148\(v=exchg.10\).md)  
       [Microsoft.Isam.Esent.Interop.ByteColumnValue](dn334109\(v=exchg.10\).md)  

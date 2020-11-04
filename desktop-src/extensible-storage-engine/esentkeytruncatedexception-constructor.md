@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentKeyTruncatedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentKeyTruncatedException()
 
 #### Reference
 
-[EsentKeyTruncatedException class](dn334565\(v=exchg.10\).md)
+[EsentKeyTruncatedException class](./esentkeytruncatedexception-class.md)
 
-[EsentKeyTruncatedException members](dn334567\(v=exchg.10\).md)
+[EsentKeyTruncatedException members](./esentkeytruncatedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

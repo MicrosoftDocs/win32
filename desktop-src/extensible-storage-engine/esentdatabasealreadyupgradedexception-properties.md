@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseAlreadyUpgradedException](dn334272\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseAlreadyUpgradedException](./esentdatabasealreadyupgradedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseAlreadyUpgradedException class](dn334272\(v=exchg.10\).md)
+[EsentDatabaseAlreadyUpgradedException class](./esentdatabasealreadyupgradedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

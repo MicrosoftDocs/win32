@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for Quota exceptions.
 
-The [EsentQuotaException](dn319806\(v=exchg.10\).md) type exposes the following members.
+The [EsentQuotaException](./esentquotaexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -167,6 +167,6 @@ Top
 
 #### Reference
 
-[EsentQuotaException class](dn319806\(v=exchg.10\).md)
+[EsentQuotaException class](./esentquotaexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

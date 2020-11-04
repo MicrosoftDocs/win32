@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_RETRIEVECOLUMN](dn351033\(v=exchg.10\).md) type exposes the following members.
+The [JET_RETRIEVECOLUMN](./jet-retrievecolumn-class.md) type exposes the following members.
 
 ## Properties
 
@@ -86,7 +86,6 @@ Top
 
 #### Reference
 
-[JET_RETRIEVECOLUMN class](dn351033\(v=exchg.10\).md)
+[JET_RETRIEVECOLUMN class](./jet-retrievecolumn-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

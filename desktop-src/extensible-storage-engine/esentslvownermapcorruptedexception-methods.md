@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVOwnerMapCorruptedException](dn350716\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVOwnerMapCorruptedException](./esentslvownermapcorruptedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentSLVOwnerMapCorruptedException class](dn350716\(v=exchg.10\).md)
+[EsentSLVOwnerMapCorruptedException class](./esentslvownermapcorruptedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

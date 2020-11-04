@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.OneDatabasePerSession exceptions.
 
-The [EsentOneDatabasePerSessionException](dn319719\(v=exchg.10\).md) type exposes the following members.
+The [EsentOneDatabasePerSessionException](./esentonedatabasepersessionexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentOneDatabasePerSessionException class](dn319719\(v=exchg.10\).md)
+[EsentOneDatabasePerSessionException class](./esentonedatabasepersessionexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

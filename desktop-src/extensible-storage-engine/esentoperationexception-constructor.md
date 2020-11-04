@@ -51,9 +51,8 @@ Top
 
 #### Reference
 
-[EsentOperationException class](dn319727\(v=exchg.10\).md)
+[EsentOperationException class](./esentoperationexception-class.md)
 
-[EsentOperationException members](dn319684\(v=exchg.10\).md)
+[EsentOperationException members](./esentoperationexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.CannotMaterializeForwardOnlySort exceptions.
 
-The [EsentCannotMaterializeForwardOnlySortException](dn274102\(v=exchg.10\).md) type exposes the following members.
+The [EsentCannotMaterializeForwardOnlySortException](./esentcannotmaterializeforwardonlysortexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentCannotMaterializeForwardOnlySortException class](dn274102\(v=exchg.10\).md)
+[EsentCannotMaterializeForwardOnlySortException class](./esentcannotmaterializeforwardonlysortexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

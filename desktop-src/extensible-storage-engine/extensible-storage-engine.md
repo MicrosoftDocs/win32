@@ -35,5 +35,4 @@ ESE was formerly known as Joint Engine Technology (JET) Blue, and so frequently 
 
 ### In This Section
 
-[Extensible Storage Engine Reference](gg269245\(v=exchg.10\).md)
-
+[Extensible Storage Engine Reference](./extensible-storage-engine-reference.md)

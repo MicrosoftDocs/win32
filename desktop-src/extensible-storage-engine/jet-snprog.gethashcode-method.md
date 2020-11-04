@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Returns the hash code for this instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,8 +58,8 @@ The hash code for this instance.
 
 #### Reference
 
-[JET_SNPROG class](dn351044\(v=exchg.10\).md)
+[JET_SNPROG class](./jet-snprog-class.md)
 
-[JET_SNPROG members](dn351084\(v=exchg.10\).md)
+[JET_SNPROG members](./jet-snprog-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.DistributedTransactionAlreadyPreparedToCommit exceptions.
 
-The [EsentDistributedTransactionAlreadyPreparedToCommitException](dn334490\(v=exchg.10\).md) type exposes the following members.
+The [EsentDistributedTransactionAlreadyPreparedToCommitException](./esentdistributedtransactionalreadypreparedtocommitexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentDistributedTransactionAlreadyPreparedToCommitException class](dn334490\(v=exchg.10\).md)
+[EsentDistributedTransactionAlreadyPreparedToCommitException class](./esentdistributedtransactionalreadypreparedtocommitexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

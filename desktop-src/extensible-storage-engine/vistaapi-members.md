@@ -15,7 +15,7 @@ Include inherited members
 
 ESENT APIs that were first supported in Windows Vista.
 
-The [VistaApi](dn335321\(v=exchg.10\).md) type exposes the following members.
+The [VistaApi](./vistaapi-class.md) type exposes the following members.
 
 ## Methods
 
@@ -93,7 +93,6 @@ Top
 
 #### Reference
 
-[VistaApi class](dn335321\(v=exchg.10\).md)
+[VistaApi class](./vistaapi-class.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

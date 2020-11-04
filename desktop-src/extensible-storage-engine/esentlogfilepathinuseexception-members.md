@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.LogFilePathInUse exceptions.
 
-The [EsentLogFilePathInUseException](dn334545\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogFilePathInUseException](./esentlogfilepathinuseexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentLogFilePathInUseException class](dn334545\(v=exchg.10\).md)
+[EsentLogFilePathInUseException class](./esentlogfilepathinuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

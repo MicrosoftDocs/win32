@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentReadLostFlushVerifyFailureException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentReadLostFlushVerifyFailureException()
 
 #### Reference
 
-[EsentReadLostFlushVerifyFailureException class](dn319812\(v=exchg.10\).md)
+[EsentReadLostFlushVerifyFailureException class](./esentreadlostflushverifyfailureexception-class.md)
 
-[EsentReadLostFlushVerifyFailureException members](dn319874\(v=exchg.10\).md)
+[EsentReadLostFlushVerifyFailureException members](./esentreadlostflushverifyfailureexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -115,5 +115,4 @@ This structure is meant primarily for usage in debugging.
 
 ### See Also
 
-[JET_DBINFOMISC](gg294147\(v=exchg.10\).md)
-
+[JET_DBINFOMISC](./jet-dbinfomisc-structure.md)

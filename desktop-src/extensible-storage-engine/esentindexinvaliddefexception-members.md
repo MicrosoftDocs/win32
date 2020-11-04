@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.IndexInvalidDef exceptions.
 
-The [EsentIndexInvalidDefException](dn319396\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexInvalidDefException](./esentindexinvaliddefexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentIndexInvalidDefException class](dn319396\(v=exchg.10\).md)
+[EsentIndexInvalidDefException class](./esentindexinvaliddefexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

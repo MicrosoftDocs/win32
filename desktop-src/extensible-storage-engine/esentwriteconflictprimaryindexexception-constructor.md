@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentWriteConflictPrimaryIndexException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentWriteConflictPrimaryIndexException()
 
 #### Reference
 
-[EsentWriteConflictPrimaryIndexException class](dn350897\(v=exchg.10\).md)
+[EsentWriteConflictPrimaryIndexException class](./esentwriteconflictprimaryindexexception-class.md)
 
-[EsentWriteConflictPrimaryIndexException members](dn350884\(v=exchg.10\).md)
+[EsentWriteConflictPrimaryIndexException members](./esentwriteconflictprimaryindexexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

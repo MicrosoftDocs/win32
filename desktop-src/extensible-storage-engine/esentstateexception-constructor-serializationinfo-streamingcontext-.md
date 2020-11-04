@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentStateException class. This constructor is used to deserialize a serialized exception.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -69,10 +69,10 @@ protected EsentStateException(
 
 #### Reference
 
-[EsentStateException class](dn334920\(v=exchg.10\).md)
+[EsentStateException class](./esentstateexception-class.md)
 
-[EsentStateException members](dn334927\(v=exchg.10\).md)
+[EsentStateException members](./esentstateexception-members.md)
 
-[EsentStateException overload](dn334862\(v=exchg.10\).md)
+[EsentStateException overload](./esentstateexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

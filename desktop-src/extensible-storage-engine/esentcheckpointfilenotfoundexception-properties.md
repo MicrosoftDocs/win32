@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentCheckpointFileNotFoundException](dn274140\(v=exchg.10\).md) type exposes the following members.
+The [EsentCheckpointFileNotFoundException](./esentcheckpointfilenotfoundexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentCheckpointFileNotFoundException class](dn274140\(v=exchg.10\).md)
+[EsentCheckpointFileNotFoundException class](./esentcheckpointfilenotfoundexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

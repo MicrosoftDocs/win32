@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVPagesNotReservedException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +49,8 @@ public EsentSLVPagesNotReservedException()
 
 #### Reference
 
-[EsentSLVPagesNotReservedException class](dn350735\(v=exchg.10\).md)
+[EsentSLVPagesNotReservedException class](./esentslvpagesnotreservedexception-class.md)
 
-[EsentSLVPagesNotReservedException members](dn334825\(v=exchg.10\).md)
+[EsentSLVPagesNotReservedException members](./esentslvpagesnotreservedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

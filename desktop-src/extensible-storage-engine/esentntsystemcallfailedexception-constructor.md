@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentNTSystemCallFailedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentNTSystemCallFailedException()
 
 #### Reference
 
-[EsentNTSystemCallFailedException class](dn334749\(v=exchg.10\).md)
+[EsentNTSystemCallFailedException class](./esentntsystemcallfailedexception-class.md)
 
-[EsentNTSystemCallFailedException members](dn319692\(v=exchg.10\).md)
+[EsentNTSystemCallFailedException members](./esentntsystemcallfailedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

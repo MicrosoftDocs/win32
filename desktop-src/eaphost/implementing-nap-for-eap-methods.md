@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Implementing NAP Support for EAP Methods
 
-This topic explains how to implement NAP for an EAPHost supplicant. In Windows Vista and Windows Server 2008 a NAP Enforcement Client (NAP EC) is available for [802.1X](https://go.microsoft.com/fwlink/p/?linkid=83938) authenticated connections.
+This topic explains how to implement NAP for an EAPHost supplicant. In Windows Vista and Windows Server 2008 a NAP Enforcement Client (NAP EC) is available for [802.1X](/previous-versions/windows/embedded/ms890287(v=msdn.10)) authenticated connections.
 
 ## Implementing Network Access Protection (NAP)
 

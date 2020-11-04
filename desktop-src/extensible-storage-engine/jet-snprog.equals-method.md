@@ -51,8 +51,8 @@ Top
 
 #### Reference
 
-[JET_SNPROG class](dn351044\(v=exchg.10\).md)
+[JET_SNPROG class](./jet-snprog-class.md)
 
-[JET_SNPROG members](dn351084\(v=exchg.10\).md)
+[JET_SNPROG members](./jet-snprog-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -125,6 +125,6 @@ These flags get passed to [LCMapString](/windows/win32/api/winnls/nf-winnls-lcma
 
 ### See Also
 
-[JET_COLTYP](gg269213\(v=exchg.10\).md)  
-[JET_INDEXCREATE](gg269186\(v=exchg.10\).md)  
-[JetOpenTempTable3](gg269255\(v=exchg.10\).md)
+[JET_COLTYP](./jet-coltyp.md)  
+[JET_INDEXCREATE](./jet-indexcreate-structure.md)  
+[JetOpenTempTable3](./jetopentemptable3-function.md)

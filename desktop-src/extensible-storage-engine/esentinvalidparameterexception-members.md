@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.InvalidParameter exceptions.
 
-The [EsentInvalidParameterException](dn319601\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidParameterException](./esentinvalidparameterexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentInvalidParameterException class](dn319601\(v=exchg.10\).md)
+[EsentInvalidParameterException class](./esentinvalidparameterexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

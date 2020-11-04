@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInstanceUnavailableDueToFatalLogDiskFullException](dn319387\(v=exchg.10\).md) type exposes the following members.
+The [EsentInstanceUnavailableDueToFatalLogDiskFullException](./esentinstanceunavailableduetofatallogdiskfullexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentInstanceUnavailableDueToFatalLogDiskFullException class](dn319387\(v=exchg.10\).md)
+[EsentInstanceUnavailableDueToFatalLogDiskFullException class](./esentinstanceunavailableduetofatallogdiskfullexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

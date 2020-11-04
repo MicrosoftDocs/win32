@@ -15,7 +15,7 @@ Include inherited members
 
 A class that encapsulates an update on a JET_TABLEID.
 
-The [Update](dn351191\(v=exchg.10\).md) type exposes the following members.
+The [Update](./update-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[Update class](dn351191\(v=exchg.10\).md)
+[Update class](./update-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

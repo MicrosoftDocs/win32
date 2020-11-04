@@ -35,7 +35,7 @@ Defines how conditional indexing is performed for a given index. A conditional i
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_CONDITIONALCOLUMN  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,6 +63,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_CONDITIONALCOLUMN members](dn335054\(v=exchg.10\).md)
+[JET_CONDITIONALCOLUMN members](./jet-conditionalcolumn-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -31,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the size of the value in the column. This returns 0 for variable sized columns (i.e. binary and string).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,8 +58,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[FloatColumnValue class](dn350880\(v=exchg.10\).md)
+[FloatColumnValue class](./floatcolumnvalue-class.md)
 
-[FloatColumnValue members](dn350882\(v=exchg.10\).md)
+[FloatColumnValue members](./floatcolumnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

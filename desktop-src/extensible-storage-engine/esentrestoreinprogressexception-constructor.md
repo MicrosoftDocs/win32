@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentRestoreInProgressException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentRestoreInProgressException()
 
 #### Reference
 
-[EsentRestoreInProgressException class](dn350560\(v=exchg.10\).md)
+[EsentRestoreInProgressException class](./esentrestoreinprogressexception-class.md)
 
-[EsentRestoreInProgressException members](dn350582\(v=exchg.10\).md)
+[EsentRestoreInProgressException members](./esentrestoreinprogressexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.OutOfThreads exceptions.
 
-The [EsentOutOfThreadsException](dn319762\(v=exchg.10\).md) type exposes the following members.
+The [EsentOutOfThreadsException](./esentoutofthreadsexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentOutOfThreadsException class](dn319762\(v=exchg.10\).md)
+[EsentOutOfThreadsException class](./esentoutofthreadsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

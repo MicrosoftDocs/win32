@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidSettingsException](dn334521\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidSettingsException](./esentinvalidsettingsexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentInvalidSettingsException class](dn334521\(v=exchg.10\).md)
+[EsentInvalidSettingsException class](./esentinvalidsettingsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

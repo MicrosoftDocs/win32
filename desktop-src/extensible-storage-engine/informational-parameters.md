@@ -88,7 +88,7 @@ This read-only parameter indicates the maximum allowable index key length that c
 *JET_paramMaxColtyp*  
 131  
 
-This read only parameter returns the maximum [JET_COLTYP](gg269213\(v=exchg.10\).md) (JET_coltypMax) for that version of the database engine. This value can be used to test for support of a specific [JET_COLTYP](gg269213\(v=exchg.10\).md). If a given [JET_COLTYP](gg269213\(v=exchg.10\).md) is less than the value of this parameter then it is supported by the database engine.
+This read only parameter returns the maximum [JET_COLTYP](./jet-coltyp.md) (JET_coltypMax) for that version of the database engine. This value can be used to test for support of a specific [JET_COLTYP](./jet-coltyp.md). If a given [JET_COLTYP](./jet-coltyp.md) is less than the value of this parameter then it is supported by the database engine.
 
 <table>
 <colgroup>
@@ -233,7 +233,6 @@ Read only parameter that returns the long-value chunk size based on configured p
 
 ### See Also
 
-[JetCreateInstance](gg269354\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)  
-[JET_COLTYP](gg269213\(v=exchg.10\).md)
-
+[JetCreateInstance](./jetcreateinstance-function.md)  
+[JetInit](./jetinit-function.md)  
+[JET_COLTYP](./jet-coltyp.md)

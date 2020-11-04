@@ -51,9 +51,8 @@ Top
 
 #### Reference
 
-[EsentCorruptionException class](dn274225\(v=exchg.10\).md)
+[EsentCorruptionException class](./esentcorruptionexception-class.md)
 
-[EsentCorruptionException members](dn334328\(v=exchg.10\).md)
+[EsentCorruptionException members](./esentcorruptionexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

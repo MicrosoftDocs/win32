@@ -15,7 +15,7 @@ Include inherited members
 
 A [Byte](/dotnet/api/system.byte) column value.
 
-The [ByteColumnValue](dn334109\(v=exchg.10\).md) type exposes the following members.
+The [ByteColumnValue](./bytecolumnvalue-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[ByteColumnValue class](dn334109\(v=exchg.10\).md)
+[ByteColumnValue class](./bytecolumnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

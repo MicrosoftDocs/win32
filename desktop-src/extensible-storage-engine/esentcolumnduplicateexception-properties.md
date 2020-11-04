@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentColumnDuplicateException](dn274156\(v=exchg.10\).md) type exposes the following members.
+The [EsentColumnDuplicateException](./esentcolumnduplicateexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentColumnDuplicateException class](dn274156\(v=exchg.10\).md)
+[EsentColumnDuplicateException class](./esentcolumnduplicateexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

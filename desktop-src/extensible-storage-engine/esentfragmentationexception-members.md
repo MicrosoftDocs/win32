@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for Fragmentation exceptions.
 
-The [EsentFragmentationException](dn350462\(v=exchg.10\).md) type exposes the following members.
+The [EsentFragmentationException](./esentfragmentationexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -167,6 +167,6 @@ Top
 
 #### Reference
 
-[EsentFragmentationException class](dn350462\(v=exchg.10\).md)
+[EsentFragmentationException class](./esentfragmentationexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

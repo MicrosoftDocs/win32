@@ -15,7 +15,7 @@ Include inherited members
 
 Contains the information needed to create a table in an ESE database. Contains the information needed to create a table in an ESE database.
 
-The [JET_TABLECREATE](dn351072\(v=exchg.10\).md) type exposes the following members.
+The [JET_TABLECREATE](./jet-tablecreate-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -197,6 +197,6 @@ Top
 
 #### Reference
 
-[JET_TABLECREATE class](dn351072\(v=exchg.10\).md)
+[JET_TABLECREATE class](./jet-tablecreate-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

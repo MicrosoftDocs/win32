@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidSystemPathException](dn334526\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidSystemPathException](./esentinvalidsystempathexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentInvalidSystemPathException class](dn334526\(v=exchg.10\).md)
+[EsentInvalidSystemPathException class](./esentinvalidsystempathexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

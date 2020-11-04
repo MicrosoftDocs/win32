@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentFileSystemCorruptionException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentFileSystemCorruptionException()
 
 #### Reference
 
-[EsentFileSystemCorruptionException class](dn274381\(v=exchg.10\).md)
+[EsentFileSystemCorruptionException class](./esentfilesystemcorruptionexception-class.md)
 
-[EsentFileSystemCorruptionException members](dn350433\(v=exchg.10\).md)
+[EsentFileSystemCorruptionException members](./esentfilesystemcorruptionexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

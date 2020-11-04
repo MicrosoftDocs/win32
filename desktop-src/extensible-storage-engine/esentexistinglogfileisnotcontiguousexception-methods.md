@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentExistingLogFileIsNotContiguousException](dn274260\(v=exchg.10\).md) type exposes the following members.
+The [EsentExistingLogFileIsNotContiguousException](./esentexistinglogfileisnotcontiguousexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentExistingLogFileIsNotContiguousException class](dn274260\(v=exchg.10\).md)
+[EsentExistingLogFileIsNotContiguousException class](./esentexistinglogfileisnotcontiguousexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentRedoAbruptEndedException](dn319858\(v=exchg.10\).md) type exposes the following members.
+The [EsentRedoAbruptEndedException](./esentredoabruptendedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentRedoAbruptEndedException class](dn319858\(v=exchg.10\).md)
+[EsentRedoAbruptEndedException class](./esentredoabruptendedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

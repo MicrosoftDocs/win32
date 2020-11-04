@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentOutOfObjectIDsException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentOutOfObjectIDsException()
 
 #### Reference
 
-[EsentOutOfObjectIDsException class](dn319746\(v=exchg.10\).md)
+[EsentOutOfObjectIDsException class](./esentoutofobjectidsexception-class.md)
 
-[EsentOutOfObjectIDsException members](dn319811\(v=exchg.10\).md)
+[EsentOutOfObjectIDsException members](./esentoutofobjectidsexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentMultiValuedColumnMustBeTaggedException](dn334758\(v=exchg.10\).md) type exposes the following members.
+The [EsentMultiValuedColumnMustBeTaggedException](./esentmultivaluedcolumnmustbetaggedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentMultiValuedColumnMustBeTaggedException class](dn334758\(v=exchg.10\).md)
+[EsentMultiValuedColumnMustBeTaggedException class](./esentmultivaluedcolumnmustbetaggedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

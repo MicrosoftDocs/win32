@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentCallbackNotResolvedException](dn274063\(v=exchg.10\).md) type exposes the following members.
+The [EsentCallbackNotResolvedException](./esentcallbacknotresolvedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentCallbackNotResolvedException class](dn274063\(v=exchg.10\).md)
+[EsentCallbackNotResolvedException class](./esentcallbacknotresolvedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

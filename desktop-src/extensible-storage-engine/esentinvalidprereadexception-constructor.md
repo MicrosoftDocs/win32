@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidPrereadException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentInvalidPrereadException()
 
 #### Reference
 
-[EsentInvalidPrereadException class](dn334516\(v=exchg.10\).md)
+[EsentInvalidPrereadException class](./esentinvalidprereadexception-class.md)
 
-[EsentInvalidPrereadException members](dn319582\(v=exchg.10\).md)
+[EsentInvalidPrereadException members](./esentinvalidprereadexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

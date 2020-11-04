@@ -45,13 +45,13 @@ Address of a pointer to the input [**ID3DXPRTCompBuffer**](id3dxprtcompbuffer.md
 
 ## Return value
 
-Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
+Type: **[HRESULT](../com/structure-of-com-error-codes.md)**
 
 If the method succeeds, then the return value is **D3D\_OK**. If the method fails, then the return value can be **D3DERR\_INVALIDCALL**.
 
 ## Remarks
 
-The compiler setting also determines the function version. If Unicode is defined, then the function call resolves to [D3DXSavePRTCompBufferToFileW](/windows/win32/direct3d9/d3dxsaveprtcompbuffertofile). Otherwise, the function call resolves to **D3DXSavePRTCompBufferToFileA**.
+The compiler setting also determines the function version. If Unicode is defined, then the function call resolves to [D3DXSavePRTCompBufferToFileW](). Otherwise, the function call resolves to **D3DXSavePRTCompBufferToFileA**.
 
 The PCA file format is a binary file in the form of a header and then two or three data blocks.
 

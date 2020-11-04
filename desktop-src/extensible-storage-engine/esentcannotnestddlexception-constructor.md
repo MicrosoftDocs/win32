@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentCannotNestDDLException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentCannotNestDDLException()
 
 #### Reference
 
-[EsentCannotNestDDLException class](dn274172\(v=exchg.10\).md)
+[EsentCannotNestDDLException class](./esentcannotnestddlexception-class.md)
 
-[EsentCannotNestDDLException members](dn274121\(v=exchg.10\).md)
+[EsentCannotNestDDLException members](./esentcannotnestddlexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

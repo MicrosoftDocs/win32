@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentUpdateMustVersionException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentUpdateMustVersionException()
 
 #### Reference
 
-[EsentUpdateMustVersionException class](dn350839\(v=exchg.10\).md)
+[EsentUpdateMustVersionException class](./esentupdatemustversionexception-class.md)
 
-[EsentUpdateMustVersionException members](dn350842\(v=exchg.10\).md)
+[EsentUpdateMustVersionException members](./esentupdatemustversionexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

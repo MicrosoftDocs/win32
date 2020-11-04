@@ -233,7 +233,6 @@ This parameter indicates the relative or absolute file system path of the folder
 
 ### See Also
 
-[Extensible Storage Engine Files](gg294069\(v=exchg.10\).md)  
-[JetCreateInstance](gg269354\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)
-
+[Extensible Storage Engine Files](./extensible-storage-engine-files.md)  
+[JetCreateInstance](./jetcreateinstance-function.md)  
+[JetInit](./jetinit-function.md)

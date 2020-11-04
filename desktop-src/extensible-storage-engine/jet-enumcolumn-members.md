@@ -15,7 +15,7 @@ Include inherited members
 
 Enumerates the column values of a record using the JetEnumerateColumns function. JetEnumerateColumns returns an array of JET_ENUMCOLUMNVALUE structures. The array is returned in memory that was allocated using the callback that was supplied to that function.
 
-The [JET_ENUMCOLUMN](dn335081\(v=exchg.10\).md) type exposes the following members.
+The [JET_ENUMCOLUMN](./jet-enumcolumn-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -137,6 +137,6 @@ Top
 
 #### Reference
 
-[JET_ENUMCOLUMN class](dn335081\(v=exchg.10\).md)
+[JET_ENUMCOLUMN class](./jet-enumcolumn-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

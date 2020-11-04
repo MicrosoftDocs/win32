@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentTooManyColumnsException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentTooManyColumnsException()
 
 #### Reference
 
-[EsentTooManyColumnsException class](dn334989\(v=exchg.10\).md)
+[EsentTooManyColumnsException class](./esenttoomanycolumnsexception-class.md)
 
-[EsentTooManyColumnsException members](dn335017\(v=exchg.10\).md)
+[EsentTooManyColumnsException members](./esenttoomanycolumnsexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

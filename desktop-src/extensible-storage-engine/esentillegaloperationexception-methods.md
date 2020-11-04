@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentIllegalOperationException](dn350477\(v=exchg.10\).md) type exposes the following members.
+The [EsentIllegalOperationException](./esentillegaloperationexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentIllegalOperationException class](dn350477\(v=exchg.10\).md)
+[EsentIllegalOperationException class](./esentillegaloperationexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -15,7 +15,7 @@ Include inherited members
 
 A [Double](/dotnet/api/system.double) column value.
 
-The [DoubleColumnValue](dn273972\(v=exchg.10\).md) type exposes the following members.
+The [DoubleColumnValue](./doublecolumnvalue-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[DoubleColumnValue class](dn273972\(v=exchg.10\).md)
+[DoubleColumnValue class](./doublecolumnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

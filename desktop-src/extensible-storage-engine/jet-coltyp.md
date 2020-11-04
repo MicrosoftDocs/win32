@@ -173,5 +173,5 @@ The **JET_COLTYP** group of constants describe all possible column types that ca
 
 ### See Also
 
-[JetAddColumn](gg294122\(v=exchg.10\).md)  
-[JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)
+[JetAddColumn](./jetaddcolumn-function.md)  
+[JetCreateTableColumnIndex](./jetcreatetablecolumnindex-function.md)

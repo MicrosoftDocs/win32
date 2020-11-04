@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [StringColumnValue](dn351135\(v=exchg.10\).md) type exposes the following members.
+The [StringColumnValue](./stringcolumnvalue-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,7 +81,6 @@ Top
 
 #### Reference
 
-[StringColumnValue class](dn351135\(v=exchg.10\).md)
+[StringColumnValue class](./stringcolumnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

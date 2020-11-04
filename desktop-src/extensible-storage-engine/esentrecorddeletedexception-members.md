@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.RecordDeleted exceptions.
 
-The [EsentRecordDeletedException](dn319818\(v=exchg.10\).md) type exposes the following members.
+The [EsentRecordDeletedException](./esentrecorddeletedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentRecordDeletedException class](dn319818\(v=exchg.10\).md)
+[EsentRecordDeletedException class](./esentrecorddeletedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

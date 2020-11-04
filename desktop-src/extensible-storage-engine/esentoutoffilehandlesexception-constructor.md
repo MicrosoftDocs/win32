@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentOutOfFileHandlesException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentOutOfFileHandlesException()
 
 #### Reference
 
-[EsentOutOfFileHandlesException class](dn319728\(v=exchg.10\).md)
+[EsentOutOfFileHandlesException class](./esentoutoffilehandlesexception-class.md)
 
-[EsentOutOfFileHandlesException members](dn319736\(v=exchg.10\).md)
+[EsentOutOfFileHandlesException members](./esentoutoffilehandlesexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.LogSequenceEndDatabasesConsistent exceptions.
 
-The [EsentLogSequenceEndDatabasesConsistentException](dn334651\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogSequenceEndDatabasesConsistentException](./esentlogsequenceenddatabasesconsistentexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentLogSequenceEndDatabasesConsistentException class](dn334651\(v=exchg.10\).md)
+[EsentLogSequenceEndDatabasesConsistentException class](./esentlogsequenceenddatabasesconsistentexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

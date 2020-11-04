@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.OSSnapshotInvalidSnapId exceptions.
 
-The [EsentOSSnapshotInvalidSnapIdException](dn319741\(v=exchg.10\).md) type exposes the following members.
+The [EsentOSSnapshotInvalidSnapIdException](./esentossnapshotinvalidsnapidexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentOSSnapshotInvalidSnapIdException class](dn319741\(v=exchg.10\).md)
+[EsentOSSnapshotInvalidSnapIdException class](./esentossnapshotinvalidsnapidexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

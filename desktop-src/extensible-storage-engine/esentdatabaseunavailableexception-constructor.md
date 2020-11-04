@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDatabaseUnavailableException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentDatabaseUnavailableException()
 
 #### Reference
 
-[EsentDatabaseUnavailableException class](dn274227\(v=exchg.10\).md)
+[EsentDatabaseUnavailableException class](./esentdatabaseunavailableexception-class.md)
 
-[EsentDatabaseUnavailableException members](dn334385\(v=exchg.10\).md)
+[EsentDatabaseUnavailableException members](./esentdatabaseunavailableexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

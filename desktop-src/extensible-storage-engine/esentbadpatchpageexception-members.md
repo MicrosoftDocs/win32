@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.BadPatchPage exceptions.
 
-The [EsentBadPatchPageException](dn274093\(v=exchg.10\).md) type exposes the following members.
+The [EsentBadPatchPageException](./esentbadpatchpageexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentBadPatchPageException class](dn274093\(v=exchg.10\).md)
+[EsentBadPatchPageException class](./esentbadpatchpageexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

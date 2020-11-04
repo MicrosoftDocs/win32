@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDistributedTransactionNotYetPreparedToCommitException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentDistributedTransactionNotYetPreparedToCommitException()
 
 #### Reference
 
-[EsentDistributedTransactionNotYetPreparedToCommitException class](dn274293\(v=exchg.10\).md)
+[EsentDistributedTransactionNotYetPreparedToCommitException class](./esentdistributedtransactionnotyetpreparedtocommitexception-class.md)
 
-[EsentDistributedTransactionNotYetPreparedToCommitException members](dn334495\(v=exchg.10\).md)
+[EsentDistributedTransactionNotYetPreparedToCommitException members](./esentdistributedtransactionnotyetpreparedtocommitexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

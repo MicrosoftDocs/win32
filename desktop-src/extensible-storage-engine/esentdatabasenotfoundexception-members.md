@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.DatabaseNotFound exceptions.
 
-The [EsentDatabaseNotFoundException](dn334481\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseNotFoundException](./esentdatabasenotfoundexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseNotFoundException class](dn334481\(v=exchg.10\).md)
+[EsentDatabaseNotFoundException class](./esentdatabasenotfoundexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

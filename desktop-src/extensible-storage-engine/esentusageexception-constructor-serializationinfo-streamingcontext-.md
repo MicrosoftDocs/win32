@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentUsageException class. This constructor is used to deserialize a serialized exception.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -69,10 +69,10 @@ protected EsentUsageException(
 
 #### Reference
 
-[EsentUsageException class](dn350849\(v=exchg.10\).md)
+[EsentUsageException class](./esentusageexception-class.md)
 
-[EsentUsageException members](dn350859\(v=exchg.10\).md)
+[EsentUsageException members](./esentusageexception-members.md)
 
-[EsentUsageException overload](dn350852\(v=exchg.10\).md)
+[EsentUsageException overload](./esentusageexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

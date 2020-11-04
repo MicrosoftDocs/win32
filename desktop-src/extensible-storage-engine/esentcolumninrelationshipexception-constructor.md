@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentColumnInRelationshipException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentColumnInRelationshipException()
 
 #### Reference
 
-[EsentColumnInRelationshipException class](dn334259\(v=exchg.10\).md)
+[EsentColumnInRelationshipException class](./esentcolumninrelationshipexception-class.md)
 
-[EsentColumnInRelationshipException members](dn274169\(v=exchg.10\).md)
+[EsentColumnInRelationshipException members](./esentcolumninrelationshipexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

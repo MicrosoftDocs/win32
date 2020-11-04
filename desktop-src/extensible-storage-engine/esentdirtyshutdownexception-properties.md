@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDirtyShutdownException](dn334452\(v=exchg.10\).md) type exposes the following members.
+The [EsentDirtyShutdownException](./esentdirtyshutdownexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentDirtyShutdownException class](dn334452\(v=exchg.10\).md)
+[EsentDirtyShutdownException class](./esentdirtyshutdownexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentOutOfLongValueIDsException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentOutOfLongValueIDsException()
 
 #### Reference
 
-[EsentOutOfLongValueIDsException class](dn319790\(v=exchg.10\).md)
+[EsentOutOfLongValueIDsException class](./esentoutoflongvalueidsexception-class.md)
 
-[EsentOutOfLongValueIDsException members](dn319797\(v=exchg.10\).md)
+[EsentOutOfLongValueIDsException members](./esentoutoflongvalueidsexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

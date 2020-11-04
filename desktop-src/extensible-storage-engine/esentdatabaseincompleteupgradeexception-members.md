@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.DatabaseIncompleteUpgrade exceptions.
 
-The [EsentDatabaseIncompleteUpgradeException](dn334320\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseIncompleteUpgradeException](./esentdatabaseincompleteupgradeexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseIncompleteUpgradeException class](dn334320\(v=exchg.10\).md)
+[EsentDatabaseIncompleteUpgradeException class](./esentdatabaseincompleteupgradeexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

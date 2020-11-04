@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentColumnCannotBeCompressedException](dn274217\(v=exchg.10\).md) type exposes the following members.
+The [EsentColumnCannotBeCompressedException](./esentcolumncannotbecompressedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentColumnCannotBeCompressedException class](dn274217\(v=exchg.10\).md)
+[EsentColumnCannotBeCompressedException class](./esentcolumncannotbecompressedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

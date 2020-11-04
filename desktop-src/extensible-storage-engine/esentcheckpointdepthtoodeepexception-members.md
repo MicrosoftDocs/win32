@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.CheckpointDepthTooDeep exceptions.
 
-The [EsentCheckpointDepthTooDeepException](dn274195\(v=exchg.10\).md) type exposes the following members.
+The [EsentCheckpointDepthTooDeepException](./esentcheckpointdepthtoodeepexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentCheckpointDepthTooDeepException class](dn274195\(v=exchg.10\).md)
+[EsentCheckpointDepthTooDeepException class](./esentcheckpointdepthtoodeepexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

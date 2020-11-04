@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentUnicodeTranslationBufferTooSmallException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentUnicodeTranslationBufferTooSmallException()
 
 #### Reference
 
-[EsentUnicodeTranslationBufferTooSmallException class](dn350843\(v=exchg.10\).md)
+[EsentUnicodeTranslationBufferTooSmallException class](./esentunicodetranslationbuffertoosmallexception-class.md)
 
-[EsentUnicodeTranslationBufferTooSmallException members](dn350824\(v=exchg.10\).md)
+[EsentUnicodeTranslationBufferTooSmallException members](./esentunicodetranslationbuffertoosmallexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

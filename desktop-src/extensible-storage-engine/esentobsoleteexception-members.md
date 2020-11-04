@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for Obsolete exceptions.
 
-The [EsentObsoleteException](dn319668\(v=exchg.10\).md) type exposes the following members.
+The [EsentObsoleteException](./esentobsoleteexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -167,6 +167,6 @@ Top
 
 #### Reference
 
-[EsentObsoleteException class](dn319668\(v=exchg.10\).md)
+[EsentObsoleteException class](./esentobsoleteexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

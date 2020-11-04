@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVCorruptedException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +49,8 @@ public EsentSLVCorruptedException()
 
 #### Reference
 
-[EsentSLVCorruptedException class](dn350672\(v=exchg.10\).md)
+[EsentSLVCorruptedException class](./esentslvcorruptedexception-class.md)
 
-[EsentSLVCorruptedException members](dn350663\(v=exchg.10\).md)
+[EsentSLVCorruptedException members](./esentslvcorruptedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -15,7 +15,7 @@ Include inherited members
 
 A Unicode string column value.
 
-The [StringColumnValue](dn351135\(v=exchg.10\).md) type exposes the following members.
+The [StringColumnValue](./stringcolumnvalue-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -157,6 +157,6 @@ Top
 
 #### Reference
 
-[StringColumnValue class](dn351135\(v=exchg.10\).md)
+[StringColumnValue class](./stringcolumnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

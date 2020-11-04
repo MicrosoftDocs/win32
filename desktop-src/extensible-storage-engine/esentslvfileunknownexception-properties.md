@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVFileUnknownException](dn334785\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVFileUnknownException](./esentslvfileunknownexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentSLVFileUnknownException class](dn334785\(v=exchg.10\).md)
+[EsentSLVFileUnknownException class](./esentslvfileunknownexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

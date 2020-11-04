@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDensityInvalidException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentDensityInvalidException()
 
 #### Reference
 
-[EsentDensityInvalidException class](dn334433\(v=exchg.10\).md)
+[EsentDensityInvalidException class](./esentdensityinvalidexception-class.md)
 
-[EsentDensityInvalidException members](dn274271\(v=exchg.10\).md)
+[EsentDensityInvalidException members](./esentdensityinvalidexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

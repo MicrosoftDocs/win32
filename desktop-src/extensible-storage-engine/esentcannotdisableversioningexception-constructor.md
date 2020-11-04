@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentCannotDisableVersioningException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentCannotDisableVersioningException()
 
 #### Reference
 
-[EsentCannotDisableVersioningException class](dn274157\(v=exchg.10\).md)
+[EsentCannotDisableVersioningException class](./esentcannotdisableversioningexception-class.md)
 
-[EsentCannotDisableVersioningException members](dn274097\(v=exchg.10\).md)
+[EsentCannotDisableVersioningException members](./esentcannotdisableversioningexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

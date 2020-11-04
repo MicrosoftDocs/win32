@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.InvalidPlaceholderColumn exceptions.
 
-The [EsentInvalidPlaceholderColumnException](dn319579\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidPlaceholderColumnException](./esentinvalidplaceholdercolumnexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentInvalidPlaceholderColumnException class](dn319579\(v=exchg.10\).md)
+[EsentInvalidPlaceholderColumnException class](./esentinvalidplaceholdercolumnexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

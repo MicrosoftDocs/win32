@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.AttachedDatabaseMismatch exceptions.
 
-The [EsentAttachedDatabaseMismatchException](dn334236\(v=exchg.10\).md) type exposes the following members.
+The [EsentAttachedDatabaseMismatchException](./esentattacheddatabasemismatchexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentAttachedDatabaseMismatchException class](dn334236\(v=exchg.10\).md)
+[EsentAttachedDatabaseMismatchException class](./esentattacheddatabasemismatchexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

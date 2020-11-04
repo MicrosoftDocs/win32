@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidCreateDbVersionException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentInvalidCreateDbVersionException()
 
 #### Reference
 
-[EsentInvalidCreateDbVersionException class](dn319468\(v=exchg.10\).md)
+[EsentInvalidCreateDbVersionException class](./esentinvalidcreatedbversionexception-class.md)
 
-[EsentInvalidCreateDbVersionException members](dn319504\(v=exchg.10\).md)
+[EsentInvalidCreateDbVersionException members](./esentinvalidcreatedbversionexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

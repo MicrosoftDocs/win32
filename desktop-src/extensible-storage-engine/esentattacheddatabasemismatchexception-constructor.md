@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentAttachedDatabaseMismatchException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentAttachedDatabaseMismatchException()
 
 #### Reference
 
-[EsentAttachedDatabaseMismatchException class](dn334236\(v=exchg.10\).md)
+[EsentAttachedDatabaseMismatchException class](./esentattacheddatabasemismatchexception-class.md)
 
-[EsentAttachedDatabaseMismatchException members](dn274010\(v=exchg.10\).md)
+[EsentAttachedDatabaseMismatchException members](./esentattacheddatabasemismatchexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

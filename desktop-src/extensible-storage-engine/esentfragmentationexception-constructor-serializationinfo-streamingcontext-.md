@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentFragmentationException class. This constructor is used to deserialize a serialized exception.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -69,10 +69,10 @@ protected EsentFragmentationException(
 
 #### Reference
 
-[EsentFragmentationException class](dn350462\(v=exchg.10\).md)
+[EsentFragmentationException class](./esentfragmentationexception-class.md)
 
-[EsentFragmentationException members](dn350419\(v=exchg.10\).md)
+[EsentFragmentationException members](./esentfragmentationexception-members.md)
 
-[EsentFragmentationException overload](dn350466\(v=exchg.10\).md)
+[EsentFragmentationException overload](./esentfragmentationexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

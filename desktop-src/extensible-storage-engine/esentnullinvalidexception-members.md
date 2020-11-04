@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.NullInvalid exceptions.
 
-The [EsentNullInvalidException](dn319698\(v=exchg.10\).md) type exposes the following members.
+The [EsentNullInvalidException](./esentnullinvalidexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentNullInvalidException class](dn319698\(v=exchg.10\).md)
+[EsentNullInvalidException class](./esentnullinvalidexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

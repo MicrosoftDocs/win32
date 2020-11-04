@@ -74,6 +74,5 @@ Supports the ESE infrastructure and cannot be used from your code.
 
 ### See Also
 
-[JET_BKINFO](gg294120\(v=exchg.10\).md)  
-[JET_DBINFOMISC](gg294147\(v=exchg.10\).md)
-
+[JET_BKINFO](./jet-bkinfo-structure.md)  
+[JET_DBINFOMISC](./jet-dbinfomisc-structure.md)

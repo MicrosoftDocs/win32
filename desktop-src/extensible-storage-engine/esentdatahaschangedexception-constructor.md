@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDataHasChangedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentDataHasChangedException()
 
 #### Reference
 
-[EsentDataHasChangedException class](dn334397\(v=exchg.10\).md)
+[EsentDataHasChangedException class](./esentdatahaschangedexception-class.md)
 
-[EsentDataHasChangedException members](dn274234\(v=exchg.10\).md)
+[EsentDataHasChangedException members](./esentdatahaschangedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)
