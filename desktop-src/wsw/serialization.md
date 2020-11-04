@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 Serialization is the process of writing values in C data structures (structs, arrays, and primitive values) as an XML element. Deserialization is the reverse process.
 
-## 
 
 Serialization is the process of writing values in C data structures (structures, arrays, and primitive values) as an XML element. Deserialization is the reverse process.
 

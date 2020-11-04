@@ -23,7 +23,6 @@ This topic demonstrates how to add items and subitems to a list-view control.
 
 ## Instructions
 
-### 
 
 To add an item to a list-view control, an application must first define an [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) structure and then send an [**LVM\_INSERTITEM**](lvm-insertitem.md) message, specifying the address of the **LVITEM** structure. If an application uses report view, subitem text must be provided.
 

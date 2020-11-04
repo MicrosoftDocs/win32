@@ -26,7 +26,6 @@ The Known Folder system provides these advantages:
 
 The CSIDL system and APIs that make use of CSIDL values are still supported for compatibility. However, it is not recommended to use them in any new development.
 
-## 
 
 The following topics discuss the specifics of the Known Folders system.
 

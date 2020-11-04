@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # Mouse Input Functions
 
-## 
 
 ## In this section
 

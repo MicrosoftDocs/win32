@@ -12,7 +12,6 @@ Illustrates which registry key must be set to prevent AutoPlay.
 
 ## Instructions
 
-### 
 
 To prevent AutoPlay from launching in response to an event, add the following **REG\_SZ** value, as shown in this example.
 

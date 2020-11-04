@@ -62,7 +62,6 @@ A Windows service is a process that runs in the background, controlled by the se
 
  
 
-## 
 
 The following table summarizes the differences listed here.
 

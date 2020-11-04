@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 The following table lists the mappings between variant data types and OLE DB data types.
 
-## 
 
 
 

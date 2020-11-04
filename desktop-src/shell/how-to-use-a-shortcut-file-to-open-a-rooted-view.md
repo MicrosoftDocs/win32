@@ -11,7 +11,6 @@ You can launch a rooted view of a junction point through a [shortcut file](./lin
 
 ## Instructions
 
-### 
 
 Set the shortcut file's Target line to Explorer.exe with a /root flag. The exact form of the command depends on the location of the junction point:
 

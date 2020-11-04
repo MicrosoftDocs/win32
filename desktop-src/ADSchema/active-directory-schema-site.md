@@ -11,7 +11,6 @@ ms.date: 05/31/2018
 
 The following terms are commonly used to refer to the Active Directory schema.
 
-## 
 
 <dl> <dt>
 

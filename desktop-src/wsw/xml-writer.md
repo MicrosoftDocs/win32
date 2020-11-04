@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 XML Writer is an API for emitting XML. At its core, an XML Writer writes one [XML Node](xml-node.md) at a time, but there are additional helper APIs to make writing a sequence of nodes easier.
 
-## 
 
 The following types of writer output are supported:
 

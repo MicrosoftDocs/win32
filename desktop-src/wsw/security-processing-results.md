@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 On a secure channel, only those messages that successfully pass security checks are delivered to the application. For these messages, some results from security verification are attached as message properties, and the application may extract and examine these properties to perform additional steps such as authorization checks.
 
-## 
 
 The function [**WsGetMessageProperty**](/windows/desktop/api/WebServices/nf-webservices-wsgetmessageproperty) can be used to retrieve any of the security-related properties defined in [**WS\_MESSAGE\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_message_property_id). **WsGetMessageProperty** returns an error for queries that ask for security properties not applicable to the type of security used on the channel. The message continues to own the properties returned by the query function.
 

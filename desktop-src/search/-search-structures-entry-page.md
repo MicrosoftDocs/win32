@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # Windows Search Structures
 
-## 
 
 This section documents the following structures:
 

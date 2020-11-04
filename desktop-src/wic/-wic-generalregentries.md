@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # General Registry Entries
 
-## 
 
 The following registry entries must be made separately for both the decoder and the encoder:
 

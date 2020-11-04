@@ -84,7 +84,6 @@ Use an output-write mask to control (per component) what data can be written to 
 
 A sample mask is a 32-bit multisample coverage mask that determines which samples get updated in active render targets. Only one sample mask is allowed. The mapping of bits in a sample mask to the samples in a resource is defined by a user. For n-sample rendering, the first n bits (from the LSB) of the sample mask are used (32 bits it the maximum number of bits).
 
-## 
 
 ## In this section
 

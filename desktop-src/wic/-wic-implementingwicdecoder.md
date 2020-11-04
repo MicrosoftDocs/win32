@@ -7,7 +7,6 @@ ms.date: 05/31/2018
 
 # Implementing a WIC-Enabled Decoder
 
-## 
 
 Implementing a Windows Imaging Component (WIC) decoder requires writing two classes. The interfaces on these classes correspond directly to the decoder responsibilities outlined in the [Decoding](-wic-howwicworks.md) section of [How The Windows Imaging Component Works](-wic-howwicworks.md).
 

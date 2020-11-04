@@ -14,7 +14,6 @@ This section contains information about the shader interfaces.
 
 Each of these shader interfaces manages a compiled shader. The interface is created when a shader is compiled, and is then passed to various APIs that need access to a compiled shader; such as when binding a shader to a pipeline stage or getting a shader signature.
 
-## 
 
 ## In this section
 

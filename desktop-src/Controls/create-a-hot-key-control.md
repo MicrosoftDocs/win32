@@ -23,7 +23,6 @@ This topic demonstrates how to create a hot key control. You create a hot key co
 
 ## Instructions
 
-### 
 
 Before you create the hot key control, ensure that the common controls DLL is loaded.
 
@@ -31,7 +30,6 @@ In the following C++ code example, the application-defined function calls the [*
 
 This hot key control does not allow the user to choose a hot key that is a single unmodified key, nor does it permit the user to choose only SHIFT and a key. These rules effectively prevent the user from choosing a hot key that might be entered accidentally while typing text.
 
-## 
 
 
 ```C++

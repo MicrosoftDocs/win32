@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 The service host is the runtime environment for hosting a service within a process.
 
-## 
 
 A service can configure one or more endpoints inside a service host.
 

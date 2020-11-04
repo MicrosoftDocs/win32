@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # Crawl Scope Interfaces
 
-## 
 
 This Windows Search reference section consists of the following crawl scope interfaces:
 

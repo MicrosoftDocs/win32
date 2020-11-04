@@ -133,7 +133,6 @@ End If
 
 
 
-## 
 
 The following procedure describes how to call a provider method using C++.
 

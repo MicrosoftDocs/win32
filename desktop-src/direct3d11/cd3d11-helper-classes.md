@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 Direct3D 11 defines several helper structures that you can use to create Direct3D structures. These helper structures behave like C++ classes.
 
-## 
 
 ## In this section
 

@@ -18,7 +18,6 @@ ms.date: 05/31/2018
 
 In Direct3D 10, you specify the samplers and textures independently; texture sampling is implemented by using a templated-texture object. This templated-texture object has a specific format, returns a specific type, and implements several methods.
 
-## 
 
 
 

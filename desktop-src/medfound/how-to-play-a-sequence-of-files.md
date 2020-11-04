@@ -12,7 +12,6 @@ ms.date: 05/31/2018
 
 This topic describes how to play a sequence of audio/video files using MFPlay.
 
-## 
 
 The topic [Getting Started with MFPlay](getting-started-with-mfplay.md) shows how to play a single media file. You can also use MFPlay to play a sequence of files.
 

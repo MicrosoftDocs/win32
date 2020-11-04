@@ -22,7 +22,6 @@ The following is the layout of a client-side service operation:
 -   [**WS\_ASYNC\_CONTEXT**](/windows/desktop/api/WebServices/ns-webservices-ws_async_context) asyncContext: Async context for executing the call asynchronously.
 -   [WS\_ERROR](ws-error.md) error: Rich error object.
 
-## 
 
 ### Signature for Client-side Service Operations
 

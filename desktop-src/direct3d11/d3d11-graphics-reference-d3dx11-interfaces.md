@@ -18,7 +18,6 @@ This section contains reference information for the component object model (COM)
 
  
 
-## 
 
 ## In this section
 

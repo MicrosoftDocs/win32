@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 The contents of a metadata document map to the metadata API in the ways explained in the following sections.
 
-## 
 
 The following namespace prefixes are used throughout this documentation:
 

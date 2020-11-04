@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 This Windows Search reference section consists of protocol handler interfaces.
 
-## 
 
 ## In this section
 

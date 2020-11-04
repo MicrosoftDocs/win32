@@ -18,7 +18,6 @@ You may disable rasterization by telling the pipeline there is no pixel shader (
 
 On hardware that implements hierarchical Z-buffer optimizations, you may enable preloading the z-buffer by setting the pixel shader stage to **NULL** while enabling depth and stencil testing.
 
-## 
 
 ## In this section
 

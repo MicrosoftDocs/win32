@@ -12,7 +12,6 @@ ms.date: 05/31/2018
 
 This section contains information about the shader functions.
 
-## 
 
 ## In this section
 

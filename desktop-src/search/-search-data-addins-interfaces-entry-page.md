@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # Data Add-in Interfaces
 
-## 
 
 This Windows Search reference section consists of the following data add-in interfaces:
 

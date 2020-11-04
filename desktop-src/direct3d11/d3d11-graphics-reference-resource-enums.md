@@ -12,7 +12,6 @@ ms.date: 05/31/2018
 
 Enumerations are used to specify information about how resources are created and accessed during rendering.
 
-## 
 
 ## In this section
 

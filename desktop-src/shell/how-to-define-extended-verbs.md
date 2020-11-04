@@ -12,7 +12,6 @@ You can use the registry to define one or more extended verbs. The associated co
 
 ## Instructions
 
-### 
 
 To define a verb as extended, simply add an "extended" **REG\_SZ** value to the verb's subkey. The value should not have any data associated with it. The following sample registry entry shows the example from the previous section, with "doit" defined as an extended verb.
 

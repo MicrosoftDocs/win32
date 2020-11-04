@@ -11,7 +11,6 @@ You can use the registry to specify that browsing into a junction point will ope
 
 ## Instructions
 
-### 
 
 To specify that browsing into a junction point should open a rooted view, add **Open**\\**Command** and **Explore**\\**Command** subkeys to your extension's **CLSID** subkey, with their default values assigned to the command lines shown here:
 

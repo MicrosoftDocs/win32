@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 Service operation is the code and the metadata associated with a specific operation of a service.
 
-## 
 
 In terms of WSDL, each wsdl:operation defined in the WSDL document for a given portType is a service operation.
 

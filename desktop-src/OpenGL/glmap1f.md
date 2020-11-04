@@ -120,22 +120,6 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 
 
-## Error codes
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                               |
-|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *target* was not an accepted value.<br/>                                                                                        |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *u1* was equal to *u2*.<br/>                                                                                                    |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *stride* was less than the number of values in a control point.<br/>                                                            |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *order* was less than one or GL\_MAX\_EVAL\_ORDER.<br/>                                                                         |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/> |
-
-
-
 ## Remarks
 
 Evaluators provide a way to use polynomial or rational polynomial mapping to produce vertices, normals, texture coordinates, and colors. The values produced by an evaluator are sent to further stages of OpenGL processing just as if they had been presented using [**glVertex**](glvertex-functions.md), [**glNormal**](glnormal-functions.md), [**glTexCoord**](gltexcoord-functions.md), and [**glColor**](glcolor-functions.md) commands, except that the generated values do not update the current normal, texture coordinates, or color.

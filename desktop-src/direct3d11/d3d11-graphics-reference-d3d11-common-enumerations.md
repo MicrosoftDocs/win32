@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 This section contains information about the common version enumerations.
 
-## 
 
 ## In this section
 

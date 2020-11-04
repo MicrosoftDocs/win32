@@ -23,13 +23,11 @@ This topic demonstrates how to use the [**ImageList\_Create**](/windows/desktop/
 
 ## Instructions
 
-### 
 
 You create an image list by calling the [**ImageList\_Create**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_create) function. The parameters include the type of image list to create, the dimensions of each image, and the number of images that you intend to add to the list.
 
 The following example creates a masked image list and uses the [**ImageList\_AddIcon**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_addicon) macro to add two icons to the list.
 
-## 
 
 
 ```C++

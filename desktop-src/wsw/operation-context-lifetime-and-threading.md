@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 The lifetime of the operation context, represented by a [WS\_OPERATION\_CONTEXT](ws-operation-context.md) handle, determines the lifetime of the properties it contains. Therefore, a context should only be used within the lifetime of the [service operation](service-operation.md) or the callback to which its provided. The lifetime of a synchronous call is the execution of function itself. For an asynchronous call the lifetime ends once the asynchronous call is completed. The Service Model gives no guarantees about the context once the call is completed. The behavior of relying on operation context or any of its properties beyond its lifetime is undefined.
 
-## 
 
 See also, the session based calculator example, [SessionfullCalculatorServiceExample](sessionfullcalculatorserviceexample.md).
 

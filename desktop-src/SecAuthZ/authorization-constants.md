@@ -26,7 +26,6 @@ Authorization constants are categorized according to usage as follows.
 
  
 
-## 
 
  
 

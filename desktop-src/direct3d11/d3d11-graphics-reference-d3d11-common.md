@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 The Direct3D API defines several API elements that are common to the Direct3D 12, Direct3D 11, Direct3D 10, and Direct3D 10.1. You can use these API elements in your code for any of these Direct3D versions. These API elements are known as version neutral.
 
-## 
 
 ## In this section
 

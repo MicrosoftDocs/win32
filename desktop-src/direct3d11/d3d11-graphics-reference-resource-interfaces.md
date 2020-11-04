@@ -14,7 +14,6 @@ There are a number of interfaces for the two basic types of resources: buffers a
 
 An application uses a view to bind a resource to a pipeline stage. The view defines how the resource can be accessed during rendering. This section describes the view interfaces.
 
-## 
 
 ## In this section
 

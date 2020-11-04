@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # Notifications Interfaces
 
-## 
 
 This Windows Search reference section consists of the following notifications interfaces:
 

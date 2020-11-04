@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 A security binding is the specification of a security token, and tells the runtime how to obtain and use a security token for channel security. The security token contains information that vouches for the right to access resources. It may also have an associated cryptographic key for performing signatures and encryption.
 
-## 
 
 Each security binding contains its own collection of optional [security binding settings](security-binding-settings.md) that are scoped to the security token it defines. It also contains [security credentials](security-credentials.md), representing the security evidence (such as username and passwords, or certificates) needed to create security tokens.
 

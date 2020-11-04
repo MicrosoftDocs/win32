@@ -15,7 +15,6 @@ The D3DX 11 API is described in this section.
 
  
 
-## 
 
 ## In this section
 

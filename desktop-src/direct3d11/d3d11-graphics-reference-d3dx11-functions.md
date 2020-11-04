@@ -17,7 +17,6 @@ This section contains information about the D3DX 11 functions.
 
  
 
-## 
 
 ## In this section
 

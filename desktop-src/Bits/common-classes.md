@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 You can use the code examples in this topic as a starting point for many Background Intelligent Transfer Service (BITS) applications that perform COM initialization, need error handling, and receive callback notifications.
 
-## 
 
 The following code example defines an exception class to handle errors.
 
@@ -32,7 +31,6 @@ public:
 
 The MyException class is a generic exception class that accepts an HRESULT code and error string.
 
-## 
 
 The following code example defines a resource acquisition helper class for the [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) function.
 
@@ -61,7 +59,6 @@ public:
 
 The CCoInitializer class deals with resource allocation and deallocation for COM initialization. This class enables the destructor to be called when the class goes out of scope. This class eliminates the need for the [CoUninitialize](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize) method to be called after every exception block.
 
-## 
 
 The following code example is the declaration of the CNotifyInterface callback interface.
 
@@ -104,7 +101,6 @@ CNotifyInterface uses the following methods to receive notification that a job i
 
 This example uses the [CoTaskMemFree](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) to free memory resources.
 
-## 
 
 The following code example is the implementation of the [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) callback interface.
 
@@ -210,7 +206,6 @@ HRESULT CNotifyInterface::JobError(IBackgroundCopyJob* pJob, IBackgroundCopyErro
 
 
 
-## 
 
 The following header file is used for the common code classes. These classes are used in the previous code examples.
 
@@ -281,7 +276,6 @@ private:
 
 
 
-## 
 
 The following example code is the implementation of the common code classes.
 

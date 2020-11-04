@@ -34,7 +34,6 @@ The following procedure describes how to run a script.
 
 The following table lists script examples that can be used to obtain various types of data from the local computer.
 
-## 
 
 
 

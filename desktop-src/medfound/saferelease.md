@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # SafeRelease
 
-## 
 
 Many of the code examples in this documentation use the following function to release COM interface pointers.
 

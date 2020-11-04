@@ -57,7 +57,7 @@ wecutil { gs | get-subscription } SUBSCRIPTION_ID [/f:VALUE
 [/u:VALUE] ...]
 ```
 
-## Parameters
+## Get Configuration Parameters
 
 <dl> <dt>
 
@@ -91,7 +91,7 @@ wecutil { gr | get-subscriptionruntimestatus } SUBSCRIPTION_ID
  [EVENT_SOURCE [EVENT_SOURCE] ...]
 ```
 
-## Parameters
+## Get Status Parameters
 
 <dl> <dt>
 
@@ -127,7 +127,7 @@ wecutil {ss | set_subscription } /c:CONGIG_FILE [/cun:USERNAME]
 [/cup:PASSWORD]
 ```
 
-## Parameters
+## Set Configuration Parameters
 
 <dl> <dt>
 
@@ -412,7 +412,7 @@ wecutil {cs | create-subscription } CONFIGURATION_FILE [/cun:USERNAME]
 [/cup:PASSWORD] 
 ```
 
-## Parameters
+## Creation Parameters
 
 <dl> <dt>
 
@@ -562,7 +562,7 @@ The following syntax is used to delete an event subscription.
 wecutil { ds | delete-subscription } SUBSCRIPTION_ID
 ```
 
-## Parameters
+## Deletion Parameters
 
 <dl> <dt>
 
@@ -582,7 +582,7 @@ wecutil { rs | retry-subscription } SUBSCRIPTION_ID
 [EVENT_SOURCE [EVENT_SOURCE] ...]
 ```
 
-## Parameters
+## Retry Parameters
 
 <dl> <dt>
 
@@ -614,7 +614,7 @@ The following syntax is used to configure the Windows Event Collector service to
 wecutil { qc | quick-config } /q:VALUE
 ```
 
-## Parameters
+## Configure Event Collector Parameters
 
 <dl> <dt>
 

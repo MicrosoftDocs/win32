@@ -24,7 +24,6 @@ The following data types are used with authorization applications.
 
  
 
-## 
 
  
 

@@ -72,7 +72,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 
-## Inheritance hierarchy
+## Derived types
 
 [System.Object](/dotnet/api/system.object)  
   [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  

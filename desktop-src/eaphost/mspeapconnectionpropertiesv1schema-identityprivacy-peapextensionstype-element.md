@@ -16,7 +16,6 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# 
 
 The **IdentityPrivacy (PeapExtensionsType)** element indicates whether a user's true identity or an anonymous identity is sent.
 

@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 An endpoint address represents the address of a service on the network. When you open a [channel](channel.md), by calling the [**WsOpenChannel**](/windows/desktop/api/WebServices/nf-webservices-wsopenchannel) function, you need to provide the endpoint address of the service you which to communicate with, as well as specifying the channel you wish to open.
 
-## 
 
 An endpoint address consists of:
 

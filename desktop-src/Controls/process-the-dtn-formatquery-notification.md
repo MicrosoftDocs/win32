@@ -23,7 +23,6 @@ This topic demonstrates how to process a Format Query notification that is sent 
 
 ## Instructions
 
-### 
 
 A DTP control sends a [DTN\_FORMATQUERY](dtn-formatquery.md) notification code to request information about the maximum possible size of a callback field within the control. Your application must handle this message to ensure that all fields are displayed properly.
 
@@ -31,7 +30,6 @@ The following C++ code example is an application-defined function that processes
 
 **Security Warning:** Using **lstrcmp** incorrectly can compromise the security of your application. For example, before calling **lstrcmp** in the following code example you should make sure the two strings are null-terminated. You should review [Security Considerations: Microsoft Windows Controls](sec-comctls.md) before continuing.
 
-## 
 
 
 ```C++
