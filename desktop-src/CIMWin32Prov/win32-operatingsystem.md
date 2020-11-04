@@ -1351,7 +1351,18 @@ Storage Server Workgroup Edition (Server Core installation)
 
 </dt> <dd>
 
-Storage Server Enterprise Edition (Server Core installation)
+Storage Server Workgroup Edition (Server Core installation)
+
+</dd> <dt>
+
+<span id="PRODUCT_PROFESSIONAL"></span><span id="product_professional"></span>
+
+<span id="PRODUCT_PROFESSIONAL"></span><span id="product_professional"></span>**PRODUCT\_PROFESSIONAL** (48)
+
+
+</dt> <dd>
+
+Windows Professional
 
 </dd> <dt>
 
