@@ -419,6 +419,8 @@
           href: ./secbp/best-practices-for-the-security-apis.md
         - name: "Certificate Enrollment API"
           href: ./seccertenroll/certenroll-portal.md
+        - name: "Control-flow Enforcement Technology"
+          href: ./CET/index.md
         - name: "Cryptography"
           href: ./seccrypto/cryptography-portal.md
         - name: "Cryptography API: Next Generation"
