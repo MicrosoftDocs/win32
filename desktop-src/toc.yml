@@ -420,7 +420,7 @@
         - name: "Certificate Enrollment API"
           href: ./seccertenroll/certenroll-portal.md
         - name: "Control-flow Enforcement Technology (CET)"
-          href: ./CET/index.md
+          href: ./CET/cet-portal.md
         - name: "Cryptography"
           href: ./seccrypto/cryptography-portal.md
         - name: "Cryptography API: Next Generation"
