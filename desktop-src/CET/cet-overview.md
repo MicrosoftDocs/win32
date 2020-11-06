@@ -7,7 +7,7 @@ ms.date: 11/04/2020
 
 # Control-flow Enforcement Technology overview
 
-[Overview description here.]
+Overview description here.
 
 
 ## Writing code compliant with user-mode CET

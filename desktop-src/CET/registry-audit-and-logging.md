@@ -1,13 +1,13 @@
 ---
 title: Registry Keys, APIs, Audit Mode and Logging
-description: [Overview description here.]
+description: Overview description here.
 ms.topic: article
 ms.date: 11/04/2020
 ---
 
 # Registry Keys, APIs, Audit Mode and Logging
 
-[Overview description here.]
+Overview description here.
 
 ##	Registry setting for turning on user-mode CET feature
 

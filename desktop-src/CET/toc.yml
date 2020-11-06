@@ -14,4 +14,4 @@
       - name: "Registry Keys, Audit Mode, and Logging"
         href: registry-audit-and-logging.md
   - name: "CET Reference"
-  href: /windows/win32/api/winnt/
+    href: /windows/win32/api/winnt/

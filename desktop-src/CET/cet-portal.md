@@ -1,6 +1,6 @@
 ---
 title: Control-flow Enforcement Technology
-description: Control-flow Enforcement Technology is a hardware-based security feature that eliminates Return-Oriented Programming based attacks, by maintaining a "Shadow Stack" for every call stack to enforce control flow integrity.
+description: Landing overview page for Control-flow Enforcement Technology (CET).
 ms.topic: article
 ms.date: 11/04/2020
 ---
@@ -9,7 +9,7 @@ ms.date: 11/04/2020
 
 ## Overview
 
-[Overview description here.]
+Overview description here.
 
 
 ## Developer Audience
