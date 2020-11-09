@@ -17,7 +17,7 @@ This documentation set contains information about programming with DXCore, as we
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **Supported runtime environments** | Windows/C++ |
-| **Recommended programming languages** | C/C++ |
+| **Recommended programming languages** | C++ |
 | **Minimum supported client** | Windows 10, version 2004 (10.0; Build 19041) |
 | **Header** | dxcore.h and dxcore_interface.h |
 | **Library** | dxcore.lib |
