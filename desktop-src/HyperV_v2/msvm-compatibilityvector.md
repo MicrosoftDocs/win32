@@ -161,7 +161,7 @@ Identifies a compatibility vector that represents a specific attribute. This pro
 
 ## Remarks
 
-The [**GetSystemCompatibilityVectors**](getsystemcompatibilityvectors-msvm-virtualsystemmigrationservice.md) method of the [**Msvm\_VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md) class returns an array of **Msvm\_CompatibilityVector** instances for the host (if run on the host) or a VM (if run on the VM). Each **Msvm\_CompatibilityVector** entry in the list describes a compatibility attribute vector. For a VM to be compatible with a host, all of its compatibility attributes must be compatible with the host s attributes.
+The [**GetSystemCompatibilityVectors**](getsystemcompatibilityvectors-msvm-virtualsystemmigrationservice.md) method of the [**Msvm\_VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md) class returns an array of **Msvm\_CompatibilityVector** instances for the host (if run on the host) or a VM (if run on the VM). Each **Msvm\_CompatibilityVector** entry in the list describes a compatibility attribute vector. For a VM to be compatible with a host, all of its compatibility attributes must be compatible with the host's attributes.
 
 Each **Msvm\_CompatibilityVector** entry has these properties:
 
@@ -212,7 +212,7 @@ The set of operations defined for **CompareOperation** just involve basic intege
 SCVMM needs to do these steps to determine whether a VM is compatible with a host.
 
 > [!NOTE]
-> VMM uses *Msvm_CompatibilityVector* to compare the compatibility between the virtual machine and the host. When you live migrate VMs between different host versions, if the compatibility vector is not updated, migration within the new cluster will be blocked. Restart The virtual machine to fix this issue. Restart updates the   *Msvm_CompatibilityVector* values as per the new host version.
+> VMM uses *Msvm_CompatibilityVector* to compare the compatibility between the virtual machine and the host. When you live-migrate VMs between different host versions, if the compatibility vector isn't updated, then migration within the new cluster will be blocked. To fix this issue, restart the virtual machine. Restarting updates the *Msvm_CompatibilityVector* values as per the new host version.
 
 **To determine whether a VM is compatible with a host**
  
