@@ -211,6 +211,9 @@ The set of operations defined for **CompareOperation** just involve basic intege
 
 SCVMM needs to do these steps to determine whether a VM is compatible with a host.
 
+>[!NOTE]
+> VMM uses *Msvm_CompatibilityVector* to compare the compatibility between the virtual machine and the host. When you live migrate VMs between different host versions, if the compatibility vector is not updated, migration within the new cluster will be blocked. Restart The virtual machine to fix this issue. Restart updates the   *Msvm_CompatibilityVector* values as per the new host version.
+
 **To determine whether a VM is compatible with a host**
 
 1.  Iterate through all of the **Msvm\_CompatibilityVector** elements for the VM.
