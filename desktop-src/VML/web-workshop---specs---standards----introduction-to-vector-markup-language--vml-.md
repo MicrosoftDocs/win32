@@ -30,7 +30,7 @@ Vector Markup Language (VML) is an XML-based exchange, editing, and delivery for
 
 VML is currently supported by Microsoft Internet Explorer version 5.0 or later.
 
-VML has been proposed to the W3C as a standard for vector graphics on the Web (see [https://www.w3.org/TR/NOTE-VML](https://www.w3.org/TR/NOTE-datetime.html)). Microsoft is continuing to lead the charge in the development and implementation of XML-based technologies, working with leading industry partners (AutoDesk, Hewlett-Packard, Macromedia, Visio) and the W3C to advance Web-based standards. We expect to work with the W3C to ultimately drive to one standard format for vector graphics on the Web.
+VML has been proposed to the W3C as a standard for vector graphics on the Web (see [https://www.w3.org/TR/NOTE-VML](https://www.w3.org/TR/NOTE-VML)). Microsoft is continuing to lead the charge in the development and implementation of XML-based technologies, working with leading industry partners (AutoDesk, Hewlett-Packard, Macromedia, Visio) and the W3C to advance Web-based standards. We expect to work with the W3C to ultimately drive to one standard format for vector graphics on the Web.
 
 VML is also supported by Microsoft Office 2000 or later. Microsoft Word, Microsoft Excel, and Microsoft PowerPoint can be used to create VML graphics.
 
