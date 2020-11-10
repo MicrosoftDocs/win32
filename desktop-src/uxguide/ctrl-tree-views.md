@@ -3,10 +3,13 @@ title: Tree Views
 description: With a tree view, users can view and interact with a hierarchically arranged collection of objects, using either single selection or multiple selection.
 ms.assetid: f0206485-e028-41d8-9be2-5d59f0a0b677
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Tree Views
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 With a tree view, users can view and interact with a hierarchically arranged collection of objects, using either single selection or multiple selection.
 

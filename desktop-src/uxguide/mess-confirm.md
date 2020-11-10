@@ -3,10 +3,13 @@ title: Confirmations
 description: A confirmation is a modal dialog box that asks if the user wants to proceed with an action.
 ms.assetid: 086302cd-c8a1-479c-87be-580945e5d3e6
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Confirmations
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 A confirmation is a modal dialog box that asks if the user wants to proceed with an action.
 

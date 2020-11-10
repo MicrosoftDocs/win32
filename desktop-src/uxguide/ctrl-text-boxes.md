@@ -3,10 +3,13 @@ title: Text Boxes
 description: With a text box, users can display, enter, or edit a text or numeric value.
 ms.assetid: fb8ed262-1451-496d-a3f4-a29af39763bb
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Text Boxes
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 With a text box, users can display, enter, or edit a text or numeric value.
 
