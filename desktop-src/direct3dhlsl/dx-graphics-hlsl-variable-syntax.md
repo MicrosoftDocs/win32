@@ -67,7 +67,25 @@ Optional storage-class modifiers that give the compiler hints about variable sco
 </tr>
 <tr class="odd">
 <td><strong>precise</strong></td>
-<td> The <strong>precise</strong> keyword must be put on the shader output, not on the intermediate variables. This prevents the compiler from making IEEE unsafe optimizations that affect this output. For example, the compiler can't use fused <a href="dx-graphics-hlsl-mul.md"><strong>mul</strong></a> + <strong>add</strong> as an optimization. Instead, you must explicitly use the <a href="mad.md"><strong>mad</strong></a> intrinsic function. The <strong>precise</strong> modifier also ensures that the compiler preserves the order of operations, and that it must account for the possibility of NaN (not a number) and INF (infinite) values from constants and stream inputs. Without the <strong>precise</strong> modifier, the compiler can perform optimizations and mathematical operations that don't account for NaN and INF values. These optimizations and mathematical operations are not IEEE safe. When you use the <strong>precise</strong> keyword, these optimizations are prohibited for all calculations that affect the output. The ability to control optimizations in this way is useful when you write shaders for tessellation to maintain water-tight patch seams, or when it's desirable to match depth values for multiple passes.<br/></td>
+<td>The <strong>precise</strong> keyword when applied to a variable will restrict any calculations used to produce the value assigned to that variable in the following ways:
+
+*	Separate operations are kept separate. For example, where a mul and add operation might have been fused into a mad operation, <strong>precise</strong> forces the operations to remain separate. Instead, you must explicitly use the mad intrinsic function.
+*	Order of operations are maintained. Where the order of instructions might have been shuffled to improve performance, <strong>precise</strong> ensures that the compiler preserves the order as written.
+*	IEEE unsafe operations are restricted. Where the compiler might use fast math operations that do not account for NaN (not a number) and INF (infinite) values, <strong>precise</strong> forces IEEE requirements concerning NaN and INF values to be respected. Without <strong>precise</strong>, these optimizations and mathematical operations are not IEEE safe.
+*	Qualifying a variable <strong>precise</strong> does not make operations that use the variable <strong>precise</strong>.  Since <strong>precise</strong> propagates only to operations that contribute to the values that are assigned to the <strong>precise</strong>-qualified variable, correctly making desired calculations <strong>precise</strong> can be tricky, so the recommended practice is to mark the shader outputs <strong>precise</strong> directly where they are declared, whether that is on a structure field, or on an output parameter or the return type of the entry function.
+
+The ability to control optimizations in this way maintains result invariance for the modified output variable by disabling optimizations that might affect final results due to differences in accumulated precision differences. It is useful when you want shaders for tessellation to maintain water-tight patch seams or match depth values over multiple passes.
+
+[Sample code](https://github.com/microsoft/DirectXShaderCompiler/blob/master/tools/clang/test/HLSLFileCheck/hlsl/types/modifiers/precise/precise4.hlsl): 
+```HLSL
+matrix g_mWorldViewProjection;
+void main(in float3 InPos : Position, out precise float4 OutPos : SV_Position)
+{
+  // operation is precise because it contributes to the precise parameter OutPos
+  OutPos = mul( float4( InPos, 1.0 ), g_mWorldViewProjection );
+}
+```
+</td>
 </tr>
 <tr class="even">
 <td><strong>shared</strong></td>
