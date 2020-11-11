@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # Windows Search Interfaces
 
-## 
 
 This section documents the following categories of interfaces:
 

@@ -36,14 +36,14 @@ lParam = (DWORD_PTR) (LPVOID) lpbiOutput;
 <span id="lpbiInput"></span><span id="lpbiinput"></span><span id="LPBIINPUT"></span>*lpbiInput*
 </dt> <dd>
 
-Pointer to a [**BITMAPINFO**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure containing the input format.
+Pointer to a [**BITMAPINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure containing the input format.
 
 </dd> <dt>
 
 <span id="lpbiOutput"></span><span id="lpbioutput"></span><span id="LPBIOUTPUT"></span>*lpbiOutput*
 </dt> <dd>
 
-Pointer to a [**BITMAPINFO**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure to contain the output format. You can specify zero to request only the size of the output format, as in the [**ICDecompressGetFormatSize**](/windows/desktop/api/Vfw/nf-vfw-icdecompressgetformatsize) macro.
+Pointer to a [**BITMAPINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure to contain the output format. You can specify zero to request only the size of the output format, as in the [**ICDecompressGetFormatSize**](/windows/desktop/api/Vfw/nf-vfw-icdecompressgetformatsize) macro.
 
 </dd> </dl>
 
@@ -55,7 +55,7 @@ If *lpbiOutput* is nonzero, returns ICERR\_OK if successful or an error otherwis
 
 ## Remarks
 
-If *lpbiOutput* is nonzero, the driver should fill the [**BITMAPINFO**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure with the default output format corresponding to the input format specified for *lpbiInput*. If the compressor can produce several formats, the default format should be the one that preserves the greatest amount of information.
+If *lpbiOutput* is nonzero, the driver should fill the [**BITMAPINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure with the default output format corresponding to the input format specified for *lpbiInput*. If the compressor can produce several formats, the default format should be the one that preserves the greatest amount of information.
 
 ## Requirements
 
@@ -80,10 +80,4 @@ If *lpbiOutput* is nonzero, the driver should fill the [**BITMAPINFO**](https://
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

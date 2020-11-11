@@ -47,7 +47,7 @@ api_location:
 
 # Win32\_SerialPortConfiguration class
 
-The **Win32\_SerialPortConfiguration** [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) represents the settings for data transmission on a Windows-based serial port. This includes configurations for establishing a connection and error checking.
+The **Win32\_SerialPortConfiguration** [WMI class](../wmisdk/retrieving-a-class.md) represents the settings for data transmission on a Windows-based serial port. This includes configurations for establishing a connection and error checking.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -110,7 +110,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|fAbortOnError")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|fAbortOnError")
 </dt> </dl>
 
 If **TRUE**, read and write operations are terminated if an error occurs. If **TRUE**, the driver terminates all read and write operations with an error status if an error occurs. The driver will not accept any further communications operations until the application acknowledges the error.
@@ -126,7 +126,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|BaudRate")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|BaudRate")
 </dt> </dl>
 
 Baud (bits per second) rate at which the communications device operates.
@@ -144,7 +144,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|fBinary")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|fBinary")
 </dt> </dl>
 
 If **TRUE**, binary-mode data transfers are enabled for the serial port. Computer systems running Windows only allow binary transfers through serial ports, so this value is always **TRUE**.
@@ -160,7 +160,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|ByteSize")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|ByteSize")
 </dt> </dl>
 
 Number of bits transmitted and received for each byte of data for the Windows serial port. The number may vary with control and error correction bits, such as parity bits.
@@ -178,7 +178,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64)
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (64)
 </dt> </dl>
 
 Short textual description of the current object.
@@ -196,7 +196,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|fTXContinueOnXoff")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|fTXContinueOnXoff")
 </dt> </dl>
 
 If **TRUE**, data transmissions continue when the input buffer has come within **XOffXMitThreshold** bytes of being full and the driver has transmitted the **XOffChararcter** value to stop receiving bytes. If **FALSE**, transmission does not continue until the input buffer is within **XOnXMitThreshold** bytes of being empty and the driver has transmitted the **XOnCharacter** value to resume reception.
@@ -212,7 +212,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|fOutxCtsFlow")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|fOutxCtsFlow")
 </dt> </dl>
 
 If **TRUE**, the clear to send (CTS) signal is checked before transmitting data. CTS signals that both devices on the serial connection are ready to transfer data. Data transmission is suspended until the CTS signal is given.
@@ -243,7 +243,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|fNull")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|fNull")
 </dt> </dl>
 
 If **TRUE**, **NULL** bytes (characters) are discarded when they are received.
@@ -259,7 +259,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|fOutxDsrFlow")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|fOutxDsrFlow")
 </dt> </dl>
 
 If **TRUE**, data outflow control is enabled when there is a data set ready (DSR) condition. DSR signals that the connection has been established by the devices on the serial connection. DSR data transmission is suspended until the DSR signal is given.
@@ -275,7 +275,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|fDsrSensitivity")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|fDsrSensitivity")
 </dt> </dl>
 
 If **TRUE**, the communications driver is sensitive to the state of the DSR signal. The driver ignores any bytes received, unless the DSR modem input line is high.
@@ -291,7 +291,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|fDtrControl")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|fDtrControl")
 </dt> </dl>
 
 Use of the data terminal ready (DTR) flow control after a connection has been established.
@@ -330,7 +330,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|EofChar")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|EofChar")
 </dt> </dl>
 
 Value of the character used to signal the end of data.
@@ -348,7 +348,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|ErrorChar")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|ErrorChar")
 </dt> </dl>
 
 Value of the character used to replace bytes received with a parity error.
@@ -366,7 +366,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|fErrorChar")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|fErrorChar")
 </dt> </dl>
 
 If **TRUE**, bytes received with parity errors are replaced with the **ErrorReplaceCharacter** value. Characters with parity errors are only replaced if this property is **TRUE** and the parity is enabled.
@@ -382,7 +382,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|EvtChar")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|EvtChar")
 </dt> </dl>
 
 Value of the control character that is used to signal an event, such as end of file.
@@ -400,7 +400,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|File Functions\|CreateFile")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|File Functions\|CreateFile")
 </dt> </dl>
 
 If **TRUE**, the serial port is busy.
@@ -416,7 +416,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (256), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|Hardware\\\\DeviceMap\\\\SerialComm")
+Qualifiers: [**key**](../wmisdk/key-qualifier.md), [**MaxLen**](../wmisdk/standard-qualifiers.md) (256), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry\|Hardware\\\\DeviceMap\\\\SerialComm")
 </dt> </dl>
 
 Name of the Windows serial port.
@@ -434,7 +434,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|Parity")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|Parity")
 </dt> </dl>
 
 Method of parity checking to be used. Parity is used as an error checking technique where an extra parity bit is included with every unit of data. The receiver can then verify the validity of the data by counting the bits that are set.
@@ -507,7 +507,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|fParity")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|fParity")
 </dt> </dl>
 
 If **TRUE**, parity checking is enabled.
@@ -582,7 +582,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (256)
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (256)
 </dt> </dl>
 
 Identifier by which the current object is known.
@@ -600,7 +600,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|StopBits")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|StopBits")
 </dt> </dl>
 
 Number of stop bits to be used. Stop bits separate each unit of data on an asynchronous serial connection. They are also sent continuously when no data is available for transmission.
@@ -639,7 +639,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|XoffChar")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|XoffChar")
 </dt> </dl>
 
 Value of the XOFF character for both transmission and reception. XOFF is a software control to stop the transmission of data (whereas RTS and CTS are hardware controls). XON resumes the transmission.
@@ -655,7 +655,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|XoffLim")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|XoffLim")
 </dt> </dl>
 
 Maximum number of bytes allowed in the input buffer before the XOFF character is sent.
@@ -671,7 +671,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|XonChar")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|XonChar")
 </dt> </dl>
 
 Value of the XON character for both transmission and reception. XON is a software control to resume the transmission of data (whereas RTS and CTS are hardware controls). XOFF stops the transmission.
@@ -687,7 +687,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|XonLim")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|XonLim")
 </dt> </dl>
 
 Minimum number of bytes allowed in the input buffer before the XON character is sent. This property works in conjunction with **XOffXMitThreshold** to regulate the rate at which data is transferred.
@@ -703,7 +703,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|fInX")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|fInX")
 </dt> </dl>
 
 If **TRUE**, XON/XOFF flow control is used during reception. If **TRUE**, the **XOffCharacter** value is sent when the input buffer comes within **XOffXMitThreshold** bytes of being full, and the **XOnCharacter** value is sent when the input buffer comes within **XOnXMitThreshold** bytes of being empty.
@@ -743,7 +743,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/library/Aa363214(v=VS.85).aspx)\|fOutX")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Communication Structures\|[**DCB**](/windows/win32/api/winbase/ns-winbase-dcb)\|fOutX")
 </dt> </dl>
 
 The **XOnXOffOutFlowControl** specifies whether XON or XOFF flow control is used during transmission. If **TRUE**, transmission stops when the **XOffCharacter** value is received and starts again when the **XOnCharacter** value is received.
@@ -781,7 +781,3 @@ The **Win32\_SerialPortConfiguration** class is derived from [**CIM\_Setting**](
  
 
  
-
-
-
-

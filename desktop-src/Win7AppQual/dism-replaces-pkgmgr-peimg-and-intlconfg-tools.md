@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients** - Windows Vista SP1 and later \| Windows 7  
+**Clients** - Windows Vista SP1 and later \| Windows 7  
 **Servers** - Windows Server 2008 RTM and later \| Windows Server 2008 R2  
-</dl>
+
 
 ## Description
 
@@ -32,12 +32,9 @@ Check to ensure that calls to DISM have replaced any calls to pkgmgr, PEImg, and
 
 <dl> <dt>
 
-[Deployment Image Servicing and Management (TechNet)](https://technet.microsoft.com/library/dd744256(WS.10).aspx)
+[Deployment Image Servicing and Management (TechNet)](/previous-versions/windows/it-pro/windows-7/dd744256(v=ws.10))
 </dt> </dl>
 
  
 
  
-
-
-

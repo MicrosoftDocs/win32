@@ -28,7 +28,6 @@ When the words joined by NEAR in the query are found within approximately 50 wor
 
  
 
-## 
 
 The following table describes content search term types that can be used with a NEAR term in a CONTAINS predicate.
 

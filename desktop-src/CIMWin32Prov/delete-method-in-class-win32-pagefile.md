@@ -18,9 +18,9 @@ api_location:
 
 # Delete method of the Win32\_PageFile class
 
-The **Delete** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method deletes the logical paging file (or directory) specified in the object path.
+The **Delete** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method deletes the logical paging file (or directory) specified in the object path.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -150,16 +150,11 @@ A parameter specified is not valid.
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_PageFile**](win32-pagefile.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

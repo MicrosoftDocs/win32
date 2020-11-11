@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Getting Information About Schannel Connections
 
-The following topics describe the functions that return information on specified Schannel credentials and the [*security context*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) securing a client/server connection.
+The following topics describe the functions that return information on specified Schannel credentials and the [*security context*](/windows/desktop/SecGloss/s-gly) securing a client/server connection.
 
 
 
@@ -22,9 +22,4 @@ The following topics describe the functions that return information on specified
  
 
  
-
- 
-
-
-
 

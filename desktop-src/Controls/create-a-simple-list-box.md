@@ -27,7 +27,6 @@ The C++ code example in this topic includes a dialog box procedure that fills a 
 
 ## Instructions
 
-### 
 
 The application must perform the following list box–related tasks:
 
@@ -36,7 +35,6 @@ The application must perform the following list box–related tasks:
 
 In the following C++ code example, information about players is stored in an array of structures. During initialization, the dialog box procedure uses the [**LB\_ADDSTRING**](lb-addstring.md) message to add the names of team members to the list box (**IDC\_LISTBOX\_EXAMPLE**) one at a time. It also uses the [**LB\_SETITEMDATA**](lb-setitemdata.md) message to add the array index of the player to the list box as item data. Later, when the user selects a player from the list box, the dialog box procedure uses the [**LB\_GETITEMDATA**](lb-getitemdata.md) message to retrieve the corresponding array index. It then uses the array index to retrieve player information from the array.
 
-## 
 
 
 ```C++

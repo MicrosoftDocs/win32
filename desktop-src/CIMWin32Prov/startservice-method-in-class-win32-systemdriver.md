@@ -20,7 +20,7 @@ api_location:
 
 The **StartService** method attempts to place the service managed by the system driver into its startup state.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -248,16 +248,11 @@ $Return = $usbPrintDriver.StartService()
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_SystemDriver**](win32-systemdriver.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

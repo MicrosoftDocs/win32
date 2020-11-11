@@ -56,11 +56,11 @@ This topic provides answers to commonly-asked programming questions about EAP me
 </tr>
 <tr class="even">
 <td>How do I install an EAP method?</td>
-<td>To install an EAP method, you must first implement [<strong>DllRegisterServer</strong>](https://msdn.microsoft.com/windows/desktop/4442206b-b2ad-47d7-8add-18002c44c5a2) and [<strong>DllUnregisterServer</strong>](https://msdn.microsoft.com/windows/desktop/b71137a7-284e-4521-a3b2-9dad9c9d3c54) in the EAP method DLL itself. After that, use <strong>regsvr32.exe</strong> to install and uninstall the method. The appropriate registry keys must also be set. For more information, see [Installing an EAP Method](installing-an-eap-method.md).<br/></td>
+<td>To install an EAP method, you must first implement [<strong>DllRegisterServer</strong>](/windows/win32/api/olectl/nf-olectl-dllregisterserver) and [<strong>DllUnregisterServer</strong>](/windows/win32/api/olectl/nf-olectl-dllunregisterserver) in the EAP method DLL itself. After that, use <strong>regsvr32.exe</strong> to install and uninstall the method. The appropriate registry keys must also be set. For more information, see [Installing an EAP Method](installing-an-eap-method.md).<br/></td>
 </tr>
 <tr class="odd">
-<td>What is in-band [Network Access Protection](https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page) (NAP) support?</td>
-<td>When in-band NAP support is enabled, NAP packets are transported inside EAP method packets. In contrast, when out-of-band NAP support is enabled, the NAP [Statement of Health](Http://go.microsoft.com/fwlink/p/?linkid=83917) (SoH) exchange occurs through means other than internal to EAP method packets, and NAP-generated certificates are used in EAP method authentication.</td>
+<td>What is in-band [Network Access Protection](/windows/desktop/NAP/network-access-protection-start-page) (NAP) support?</td>
+<td>When in-band NAP support is enabled, NAP packets are transported inside EAP method packets. In contrast, when out-of-band NAP support is enabled, the NAP [Statement of Health](https://go.microsoft.com/fwlink/p/?linkid=83917) (SoH) exchange occurs through means other than internal to EAP method packets, and NAP-generated certificates are used in EAP method authentication.</td>
 </tr>
 <tr class="even">
 <td>Can I enable in-band NAP support for my EAP method?</td>
@@ -75,7 +75,7 @@ This topic provides answers to commonly-asked programming questions about EAP me
 <li>The supplicant indicates to the user that credentials have changed and requests the user to re-enter their credentials.</li>
 <li>The supplicant re-enters the user credentials, and sends those credentials to the method.</li>
 </ul>
-For more information on EAP-FAST, see [EAP Flexible Authentication via Secure Tunneling](Http://go.microsoft.com/fwlink/p/?linkid=84010) (EAP-FAST).</td>
+For more information on EAP-FAST, see [EAP Flexible Authentication via Secure Tunneling](https://go.microsoft.com/fwlink/p/?linkid=84010) (EAP-FAST).</td>
 </tr>
 <tr class="even">
 <td>What is Pre-Shared Key(PSK)?</td>
@@ -141,10 +141,4 @@ For more information on EAP-FAST, see [EAP Flexible Authentication via Secure Tu
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

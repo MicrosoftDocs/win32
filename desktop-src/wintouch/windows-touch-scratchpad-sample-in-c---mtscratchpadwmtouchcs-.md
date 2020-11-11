@@ -13,7 +13,7 @@ ms.date: 10/28/2019
 
 # Windows Touch Scratchpad Sample (C#)
 
-The [Windows Touch Scratchpad sample in C#](https://github.com/MicrosoftDocs/win32-pr/blob/d99b905b0c9161069cb9337a92a887d647737b2a/desktop-src/wintouch/windows-touch-scratchpad-sample-in-c---mtscratchpadwmtouchcs-.md) shows how to use Windows Touch messages to draw traces of the touch points to a window. The trace of the primary finger, the one that was put on the digitizer first, is drawn in black. Secondary fingers are drawn in six other colors: red, green, blue, cyan, magenta, and yellow. The following image shows how the application could look when it runs.
+The [Windows Touch Scratchpad sample in C#](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS) shows how to use Windows Touch messages to draw traces of the touch points to a window. The trace of the primary finger, the one that was put on the digitizer first, is drawn in black. Secondary fingers are drawn in six other colors: red, green, blue, cyan, magenta, and yellow. The following image shows how the application could look when it runs.
 
 ![screen shot that shows the windows touch scratchpad sample in c sharp, with black, green, blue, and red squiggles on the screen](images/mtscratchpadwmtouchcs.png)
 

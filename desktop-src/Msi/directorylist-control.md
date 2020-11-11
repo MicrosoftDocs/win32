@@ -59,14 +59,9 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the WC\_LISTVIEW class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **LVS\_LIST**, **LVS\_EDITLABELS**, **WS\_VSCROLL**, **LVS\_SHAREIMAGELISTS**, **LVS\_AUTOARRANGE**, **LVS\_SINGLESEL**, **WS\_BORDER**, **LVS\_SORTASCENDING**, **WS\_CHILD**, **WS\_GROUP**, and **WS\_TABSTOP** styles.
+This control can be created from the WC\_LISTVIEW class by using the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. It has the **LVS\_LIST**, **LVS\_EDITLABELS**, **WS\_VSCROLL**, **LVS\_SHAREIMAGELISTS**, **LVS\_AUTOARRANGE**, **LVS\_SINGLESEL**, **WS\_BORDER**, **LVS\_SORTASCENDING**, **WS\_CHILD**, **WS\_GROUP**, and **WS\_TABSTOP** styles.
 
 This control lets the user select a subfolder of the current selection. With additional buttons it also lets the user select a new folder in the current selection or step up one level in the path. If the user chooses the **Create New Folder** button in a folder where a new folder already exists, a second new folder is not created and the existing new folder's name is selected for editing.
 
  
-
- 
-
-
-
 

@@ -10,9 +10,16 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients** - Windows 7  
+**Clients** - Windows 7  
 **Servers** - Windows Server 2008 R2  
-</dl>
+
+
+
+
+
+
+
+
 
 ## Description
 
@@ -172,32 +179,29 @@ The sample code below illustrates this issue. The unbounded access to the "buffe
 
 ## Links to Resources
 
--   [Windows Error Reporting](https://msdn.microsoft.com/library/Bb513641(v=VS.85).aspx)
+-   [Windows Error Reporting](../wer/windows-error-reporting.md)
 -   [Asynchronous Design](https://msdn.microsoft.com/library/ms228969(v=VS.80).aspx)
--   [Asynchronous I/O](https://msdn.microsoft.com/library/Aa365683(v=VS.85).aspx)
--   [**AttachThreadInput Function**](https://msdn.microsoft.com/library/ms681956(v=VS.85).aspx)
+-   [Asynchronous I/O](../fileio/synchronous-and-asynchronous-i-o.md)
+-   [**AttachThreadInput Function**](/windows/win32/api/winuser/nf-winuser-attachthreadinput)
 -   [**auto\_ptr Class**](https://msdn.microsoft.com/library/ew3fk483(v=VS.71).aspx)
--   [**DisableProcessWindowsGhosting Function**](https://msdn.microsoft.com/library/ms648415(v=VS.85).aspx)
--   [**DllMain Callback Function**](https://msdn.microsoft.com/library/ms682583(v=VS.85).aspx)
+-   [**DisableProcessWindowsGhosting Function**](/windows/win32/api/winuser/nf-winuser-disableprocesswindowsghosting)
+-   [**DllMain Callback Function**](../dlls/dllmain.md)
 -   [Events](https://msdn.microsoft.com/library/wewwczdw(v=VS.80).aspx)
--   [**GetMessage Function**](https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx)
--   [I/O cancellation](https://msdn.microsoft.com/library/Aa363789(v=VS.85).aspx)
--   [**IsHungAppWindow Function**](https://msdn.microsoft.com/library/ms633526(v=VS.85).aspx)
--   [Message Queue](https://msdn.microsoft.com/library/ms644928(v=VS.85).aspx)
--   [**MsgWaitForMultipleObjects Function**](https://msdn.microsoft.com/library/ms684242(v=VS.85).aspx)
--   [New Thread Pool API](https://msdn.microsoft.com/library/ms686766(v=VS.85).aspx)
--   [**PostMessage Function**](https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx)
--   [Restart and Recovery](https://msdn.microsoft.com/library/Bb525423(v=VS.85).aspx)
--   [**SendMessageCallback Function**](https://msdn.microsoft.com/library/ms644951(v=VS.85).aspx)
--   [**SendNotifyMessage Function**](https://msdn.microsoft.com/library/ms644953(v=VS.85).aspx)
--   [Synchronization Objects](https://msdn.microsoft.com/library/ms681924(v=VS.85).aspx)
--   [**TerminateThread Function**](https://msdn.microsoft.com/library/ms686717(v=VS.85).aspx)
--   [Windows Error Reporting](https://msdn.microsoft.com/library/Bb513641(v=VS.85).aspx)
+-   [**GetMessage Function**](/windows/win32/api/winuser/nf-winuser-getmessage)
+-   [I/O cancellation](../fileio/canceling-pending-i-o-operations.md)
+-   [**IsHungAppWindow Function**](/windows/win32/api/winuser/nf-winuser-ishungappwindow)
+-   [Message Queue](../winmsg/using-messages-and-message-queues.md)
+-   [**MsgWaitForMultipleObjects Function**](/windows/win32/api/winuser/nf-winuser-msgwaitformultipleobjects)
+-   [New Thread Pool API](../procthread/thread-pool-api.md)
+-   [**PostMessage Function**](/windows/win32/api/winuser/nf-winuser-postmessagea)
+-   [Restart and Recovery](../recovery/registering-for-application-restart.md)
+-   [**SendMessageCallback Function**](/windows/win32/api/winuser/nf-winuser-sendmessagecallbacka)
+-   [**SendNotifyMessage Function**](/windows/win32/api/winuser/nf-winuser-sendnotifymessagea)
+-   [Synchronization Objects](../sync/about-synchronization.md)
+-   [**TerminateThread Function**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-terminatethread)
+-   [Windows Error Reporting](../wer/windows-error-reporting.md)
 -   [Winqual](/windows-hardware/drivers/dashboard/winqual-submission-tool--winqualexe-)
 
  
 
  
-
-
-

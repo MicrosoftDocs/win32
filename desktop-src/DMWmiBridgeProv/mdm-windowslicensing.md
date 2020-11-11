@@ -138,7 +138,7 @@ The **MDM\_WindowsLicensing** class has these properties.
 
 <dl> <dt>
 
-[Edition](https://docs.microsoft.com/windows/client-management/mdm/windowslicensing-csp#edition)
+[Edition](/windows/client-management/mdm/windowslicensing-csp#edition)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -158,14 +158,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node.
 
 </dd> <dt>
 
-[LicenseKeyType](https://docs.microsoft.com/windows/client-management/mdm/windowslicensing-csp#licensekeytype)
+[LicenseKeyType](/windows/client-management/mdm/windowslicensing-csp#licensekeytype)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -185,14 +185,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/"
 
 </dd> <dt>
 
-[Status](https://docs.microsoft.com/windows/client-management/mdm/windowslicensing-csp#subscriptions-subscriptionid-status)
+[Status](/windows/client-management/mdm/windowslicensing-csp#subscriptions-subscriptionid-status)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -221,14 +221,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

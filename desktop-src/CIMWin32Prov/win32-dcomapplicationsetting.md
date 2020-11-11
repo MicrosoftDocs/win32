@@ -30,7 +30,7 @@ api_location:
 
 # Win32\_DCOMApplicationSetting class
 
-The **Win32\_DCOMApplicationSetting** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) represents the settings of a DCOM application. It contains DCOM configuration options associated with the **AppID** key in the registry. These options are valid on the components logically grouped under the given application class.
+The **Win32\_DCOMApplicationSetting** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) represents the settings of a DCOM application. It contains DCOM configuration options associated with the **AppID** key in the registry. These options are valid on the components logically grouped under the given application class.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -73,9 +73,9 @@ The **Win32\_DCOMApplicationSetting** class has these methods.
 | [**GetAccessSecurityDescriptor**](getaccesssecuritydescriptor-method-in-class-win32-dcomapplicationsetting.md)               | Gets the security descriptor that controls who is allowed to access a DCOM application.<br/>                                                                                                                              |
 | [**GetConfigurationSecurityDescriptor**](getconfigurationsecuritydescriptor-method-in-class-win32-dcomapplicationsetting.md) | Gets the security descriptor that controls who is allowed to configure a DCOM application.<br/>                                                                                                                           |
 | [**GetLaunchSecurityDescriptor**](getlaunchsecuritydescriptor-in-class-win32-dcomapplicationsetting.md)                      | Gets the security descriptor that controls who is allowed to launch a DCOM application.<br/>                                                                                                                              |
-| [**SetAccessSecurityDescriptor**](setaccesssecuritydescriptor-method-in-class-win32-dcomapplicationsetting.md)               | Updates the access security descriptor of the DCOM application with a new security descriptor that is defined by an instance of the [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) class.<br/>        |
-| [**SetConfigurationSecurityDescriptor**](setconfigurationsecuritydescriptor-method-in-class-win32-dcomapplicationsetting.md) | Updates the configuration security descriptor of the DCOM application with a new security descriptor that is defined by an instance of the [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) class.<br/> |
-| [**SetLaunchSecurityDescriptor**](setlaunchsecuritydescriptor-method-in-class-win32-dcomapplicationsetting.md)               | Updates the launch security descriptor of the DCOM application with a new security descriptor that is defined by an instance of the [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) class.<br/>        |
+| [**SetAccessSecurityDescriptor**](setaccesssecuritydescriptor-method-in-class-win32-dcomapplicationsetting.md)               | Updates the access security descriptor of the DCOM application with a new security descriptor that is defined by an instance of the [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) class.<br/>        |
+| [**SetConfigurationSecurityDescriptor**](setconfigurationsecuritydescriptor-method-in-class-win32-dcomapplicationsetting.md) | Updates the configuration security descriptor of the DCOM application with a new security descriptor that is defined by an instance of the [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) class.<br/> |
+| [**SetLaunchSecurityDescriptor**](setlaunchsecuritydescriptor-method-in-class-win32-dcomapplicationsetting.md)               | Updates the launch security descriptor of the DCOM application with a new security descriptor that is defined by an instance of the [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) class.<br/>        |
 
 
 
@@ -96,7 +96,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes\\\\AppID\\\\{GUID}\[Default\]")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes\\\\AppID\\\\{GUID}\[Default\]")
 </dt> </dl>
 
 Globally unique identifier (GUID) for this DCOM application.
@@ -112,7 +112,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes\\\\AppID\\\\{GUID}\[AuthenticationLevel\]")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes\\\\AppID\\\\{GUID}\[AuthenticationLevel\]")
 </dt> </dl>
 
 Minimum client authentication level required by this COM server. If **NULL**, the default values are used.
@@ -196,7 +196,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64)
+Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64)
 </dt> </dl>
 
 Short textual description of the current object.
@@ -214,7 +214,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes\\\\AppID\\\\{GUID}\[DllSurrogate\]")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes\\\\AppID\\\\{GUID}\[DllSurrogate\]")
 </dt> </dl>
 
 Name of the custom surrogate in which the in-process DCOM application is activated. If this value is **NULL** and the **UseSurrogate** key is **TRUE**, then the system provides a surrogate process.
@@ -245,7 +245,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes\\\\AppID\\\\{GUID}\[ActivateAtStorage\]")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes\\\\AppID\\\\{GUID}\[ActivateAtStorage\]")
 </dt> </dl>
 
 DCOM application retrieves the saved state of the application or begins from the state in which the application is first initialized.
@@ -261,7 +261,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes\\\\AppID\\\\{GUID}\[LocalService\]")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes\\\\AppID\\\\{GUID}\[LocalService\]")
 </dt> </dl>
 
 Name for the services provided by the DCOM application.
@@ -277,7 +277,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes\\\\AppID\\\\{GUID}\[RemoteServerName\]")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes\\\\AppID\\\\{GUID}\[RemoteServerName\]")
 </dt> </dl>
 
 Name of the remote server where the application is activated.
@@ -293,7 +293,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes\\\\AppID\\\\{GUID}\[RunAs\]")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes\\\\AppID\\\\{GUID}\[RunAs\]")
 </dt> </dl>
 
 Specific user account under which the application is to be run on activation.
@@ -309,7 +309,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes\\\\AppID\\\\{GUID}\[ServiceParameters\]")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes\\\\AppID\\\\{GUID}\[ServiceParameters\]")
 </dt> </dl>
 
 Command-line parameters passed to the DCOM application. This is valid only if the application is written as a Windows-based service.
@@ -325,7 +325,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (256)
+Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (256)
 </dt> </dl>
 
 Identifier by which the current object is known.
@@ -343,7 +343,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes\\\\AppID\\\\{GUID}\[DllSurrogate\]")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|HKEY\_LOCAL\_MACHINE\\\\SOFTWARE\\\\Classes\\\\AppID\\\\{GUID}\[DllSurrogate\]")
 </dt> </dl>
 
 DCOM application can be activated as an out-of-process server by use of a surrogate executable file.
@@ -375,22 +375,17 @@ The **Win32\_DCOMApplicationSetting** class is derived from [**Win32\_COMSetting
 [**Win32\_COMSetting**](win32-comsetting.md)
 </dt> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
-[**Privilege Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/privilege-constants)
+[**Privilege Constants**](/windows/desktop/WmiSdk/privilege-constants)
 </dt> <dt>
 
-[WMI Security Descriptor Objects](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-security-descriptor-objects)
+[WMI Security Descriptor Objects](/windows/desktop/WmiSdk/wmi-security-descriptor-objects)
 </dt> <dt>
 
-[Changing Access Security on Securable Objects](https://docs.microsoft.com/windows/desktop/WmiSdk/changing-access-security-on-securable-objects)
+[Changing Access Security on Securable Objects](/windows/desktop/WmiSdk/changing-access-security-on-securable-objects)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -11,9 +11,8 @@ ms.date: 05/31/2018
 > [!NOTE]
 > Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use [Windows Search](../search/-search-3x-wds-overview.md) instead.
 
-## 
 
-[**ChangeAdviseCodes**](https://msdn.microsoft.com/library/Aa965736(v=VS.85).aspx)
+[**ChangeAdviseCodes**](/previous-versions//aa965736(v=vs.85))
 
 [**ColumnSortOrder**](/windows/win32/api/mmcobj/ne-mmcobj-_columnsortorder)
 
@@ -28,7 +27,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

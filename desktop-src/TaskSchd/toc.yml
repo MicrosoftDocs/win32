@@ -922,7 +922,7 @@
           - name: "WaitTimeout Property of IIdleSettings"
             href: /windows/desktop/api/taskschd/nf-taskschd-iidlesettings-get_waittimeout
         - name: "IIdleTrigger"
-          href: https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iidletrigger
+          href: /windows/desktop/api/taskschd/nn-taskschd-iidletrigger
         - name: "ILogonTrigger"
           href: /windows/desktop/api/taskschd/nn-taskschd-ilogontrigger
           items: 
@@ -1291,7 +1291,7 @@
           href: /windows/desktop/api/taskschd/nn-taskschd-itasksettings3
           items: 
           - name: "CreateMantenanceSettings method"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh832149(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/hh832149(v=vs.85)
           - name: "MaintenanceSettings property"
             href: /windows/desktop/api/Taskschd/nf-taskschd-itasksettings3-get_maintenancesettings
           - name: "Volatile property"

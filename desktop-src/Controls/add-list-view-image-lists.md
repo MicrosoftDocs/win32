@@ -25,9 +25,8 @@ You create only the image lists that the control uses. For example, if your appl
 
 ## Instructions
 
-### 
 
-To display item images, you must assign an image list to the list-view control. To do this, use the [**LVM\_SETIMAGELIST**](lvm-setimagelist.md) message or the corresponding macro [**ListView\_SetImageList**](/windows/desktop/api/Commctrl/nf-commctrl-listview_setimagelist), specifying whether the image list contains full-sized icons, small icons, or state images. To retrieve the handle to an image list that is currently assigned to a list-view control, use the [**LVM\_GETIMAGELIST**](lvm-getimagelist.md) message. You can use the [**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function to determine appropriate dimensions for the full-sized and small icons.
+To display item images, you must assign an image list to the list-view control. To do this, use the [**LVM\_SETIMAGELIST**](lvm-setimagelist.md) message or the corresponding macro [**ListView\_SetImageList**](/windows/desktop/api/Commctrl/nf-commctrl-listview_setimagelist), specifying whether the image list contains full-sized icons, small icons, or state images. To retrieve the handle to an image list that is currently assigned to a list-view control, use the [**LVM\_GETIMAGELIST**](lvm-getimagelist.md) message. You can use the [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function to determine appropriate dimensions for the full-sized and small icons.
 
 In the following C++ code example, the application-defined function first creates image lists and then assigns them to a list-view control.
 
@@ -109,7 +108,3 @@ BOOL InitListViewImageLists(HWND hWndListView)
  
 
  
-
-
-
-

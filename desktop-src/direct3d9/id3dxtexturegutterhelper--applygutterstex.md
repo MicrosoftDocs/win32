@@ -18,7 +18,7 @@ api_location:
 
 # ID3DXTextureGutterHelper::ApplyGuttersTex method
 
-Applies gutters to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) texture object.
+Applies gutters to an [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9) texture object.
 
 ## Syntax
 
@@ -38,9 +38,9 @@ HRESULT ApplyGuttersTex(
 *pTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9)**
 
-Pointer to a [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) texture object.
+Pointer to a [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9) texture object.
 
 </dd> </dl>
 
@@ -77,7 +77,3 @@ The width and height of the texture must be the same as those returned by [**ID3
  
 
  
-
-
-
-

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Opening Multiple AVI Files
 
-If your application opens multiple files, it should include routines such as the following simple functions. The application would use the "initAVI" function during its initialization and the "termAVI" function during its termination. These functions simply wrap the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function.
+If your application opens multiple files, it should include routines such as the following simple functions. The application would use the "initAVI" function during its initialization and the "termAVI" function during its termination. These functions simply wrap the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function.
 
 
 ```C++
@@ -36,7 +36,3 @@ void termAVI(VOID)
  
 
  
-
-
-
-

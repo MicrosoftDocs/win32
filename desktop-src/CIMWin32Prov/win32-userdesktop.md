@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_UserDesktop class
 
-The **Win32\_UserDesktop** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates a user account and desktop settings that are specific to it.
+The **Win32\_UserDesktop** association [WMI class](../wmisdk/retrieving-a-class.md) relates a user account and desktop settings that are specific to it.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_UserAccount**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Element"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_UserAccount")
+Qualifiers: [**key**](../wmisdk/key-qualifier.md), [**Override**](../wmisdk/standard-qualifiers.md) ("Element"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_UserAccount")
 </dt> </dl>
 
 Reference to the instance representing the user account whose desktop can be customized by the **Settings** property of this class.
@@ -72,7 +72,7 @@ Data type: **Win32\_Desktop**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Setting"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_Desktop")
+Qualifiers: [**key**](../wmisdk/key-qualifier.md), [**Override**](../wmisdk/standard-qualifiers.md) ("Setting"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_Desktop")
 </dt> </dl>
 
 Reference to the instance representing the desktop settings that serve to customize a specific user account desktop.
@@ -104,13 +104,9 @@ The **Win32\_UserDesktop** class is derived from [**CIM\_ElementSetting**](cim-e
 [**CIM\_ElementSetting**](cim-elementsetting.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](./operating-system-classes.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

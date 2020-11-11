@@ -10,8 +10,7 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-<dl> **Clients** - Windows XP \| Windows Vista \| Windows 7 \| Windows 8  
-</dl>
+**Clients** - Windows XP \| Windows Vista \| Windows 7 \| Windows 8  
 
 ## Description
 
@@ -166,7 +165,7 @@ Since Desktop Window Manager (DWM) is always on in Windows 8, some older Window
 
 **App fails to declare DPI awareness**
 
-Another typical display problem with many older apps happens when Windows and the app run in high DPI mode, but the app does not declare its awareness of High DPI through its EXE manifest. Among the common problems that can occur due to this mismatch in settings are clipped UI elements or text and incorrect font size. For more details on the issues, see this link [here](https://docs.microsoft.com/previous-versions//dd464660(v=vs.85)).
+Another typical display problem with many older apps happens when Windows and the app run in high DPI mode, but the app does not declare its awareness of High DPI through its EXE manifest. Among the common problems that can occur due to this mismatch in settings are clipped UI elements or text and incorrect font size. For more details on the issues, see this link [here](/previous-versions//dd464660(v=vs.85)).
 
 In such cases, Windows detects that the app is high DPI aware, and applies the HIGHDPIAWARE compatibility mode to the app at the end of the first run. PCA will then inform the user about this as shown below:
 
@@ -256,7 +255,7 @@ The Troubleshooter UI is shown below for reference:
 
 You can start the Compatibility Troubleshooter in two ways:
 
-<dl> **From the start screen:**
+**From the start screen:**
 
 1.  Type: compatibility troubleshooter
 2.  Under the settings section, click the ‘Run programs made for previous version of Windows’ tile
@@ -270,7 +269,7 @@ You can start the Compatibility Troubleshooter in two ways:
 4.  Choose ‘Troubleshoot Compatibility’
 
   
-</dl>
+
 
 **Using the Compatibility Tab**
 
@@ -278,7 +277,7 @@ Note that this is recommended only for users who are experts in trying different
 
 To access the Compatibility Tab:
 
-<dl> **From the start screen:**
+ **From the start screen:**
 
 1.  Right click the app tile
 2.  Open file location (desktop apps only)
@@ -296,7 +295,7 @@ To access the Compatibility Tab:
      
 
   
-</dl>
+
 
 ![using the compatibility tab](images/pcafigure19.png)
 
@@ -379,7 +378,3 @@ The compatibility modes used by PCA are listed below with a brief description of
  
 
  
-
-
-
-

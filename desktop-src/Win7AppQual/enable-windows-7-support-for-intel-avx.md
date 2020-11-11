@@ -10,15 +10,18 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients** - Windows 7 SP1  
+ **Clients** - Windows 7 SP1  
 **Servers** - Windows Server 2008 R2 SP1  
-</dl>
+
 
 ## Feature Impact
 
-<dl> **Severity** - Low  
+ **Severity** - Low  
 **Frequency** - Low  
-</dl>
+
+
+
+
 
 ## Description
 
@@ -42,14 +45,13 @@ There are three general levels of potential impact.
 
 **Level 2:** Applications in this category have the option to access and manipulate AVX state at the time of the exception from within their exception filters. After obtaining the base processor context via GetExceptionInformation, filters should:
 
-<dl> **1.** Check the value of the **CONTEXT\_XSTATE** flag. This flag indicates the presence of at least one XState feature in the context.  
+ **1.** Check the value of the **CONTEXT\_XSTATE** flag. This flag indicates the presence of at least one XState feature in the context.  
 **2.** If this is the case, call **GetXStateFeaturesMask** and test the value of the **XSTATE\_AVX** flag in the returned mask. This indicates the presence of AVX state in the context.  
 **3.** Call **LocateXStateFeature** to retrieve the actual location where the AVX state is stored.  
-</dl>
 
 **Level 3:** It is not necessary to update existing debugger applications unless they wish access the Intel AVX registers:
 
-<dl> **1.** To determine if AVX is enabled, the debugger should use:
+**1.** To determine if AVX is enabled, the debugger should use:
 
 -   GetEnabledXStateFeatures to get a mask of enabled XState features on x86 or x64 processors to determine what features are present and enabled on the system before using an XState processor feature or attempting to manipulate XState contexts
 
@@ -67,16 +69,13 @@ There are three general levels of potential impact.
 -   SetXStateFeaturesMask to set the mask of XState features set within a context structure
 
   
-</dl>
+
 
 ## Links to Other Resources
 
--   For information about the XState functions in the Windows SDK, see [Debugging Functions](https://msdn.microsoft.com/library/ms679303(v=VS.85).aspx).
+-   For information about the XState functions in the Windows SDK, see [Debugging Functions](../debug/debugging-functions.md).
 -   For an overview of the instructions and capabilities of the Intel AVX, see [Intel AVX: New Frontiers in Performance Improvements and Energy Efficiency](https://software.intel.com/articles/intel-avx-new-frontiers-in-performance-improvements-and-energy-efficiency/).
 
  
 
  
-
-
-

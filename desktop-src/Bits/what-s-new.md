@@ -46,7 +46,7 @@ BITS version 10.3 is included in the Windows 10 May 2019 Update (10.0; Build 183
 <li>Added <a href="/windows/win32/api/bits10_2/nn-bits10_2-ibackgroundcopyjobhttpoptions2"><strong>BackgroundCopyJobHttpOptions2</strong></a> to change the HTTP method for HTTP downloads.</li>
 <li>BITS now uses the default proxy ordering to be more consistent with the rest of the system.</li>
 <li>It's easier for programmers to set BITS proxy configuration for enterprise scenarios.</li>
-<li>BITS is now more careful of power and supports [Modern Standby](https://docs.microsoft.com/windows-hardware/design/device-experiences/modern-standby).</li>
+<li>BITS is now more careful of power and supports [Modern Standby](/windows-hardware/design/device-experiences/modern-standby).</li>
 <li>BITS now support Mobile device manager (MDM) [policies](/windows/client-management/mdm/policy-configuration-service-provider) in addition to [group policies](./group-policies).</li>
 </ul>
 BITS version 10.2 is included in Windows 10 October 2018 Update(10.0; Build 17763), and later.
@@ -67,14 +67,14 @@ BITS version 10.1 is included in Windows 10 Creator's Update and later.
 <td>New features:<br/>
 <ul>
 <li>Added the <a href="/windows/win32/api/Bits5_0/nn-bits5_0-ibackgroundcopyjob5"><strong>IBackgroundCopyJob5</strong></a> interface which adds generic methods for getting and setting BITS job properties to the methods inherited from the <a href="/windows/win32/api/Bits3_0/nn-bits3_0-ibackgroundcopyjob4"><strong>IBackgroundCopyJob4</strong></a> interface.<br/> For information on using the new <a href="/windows/win32/api/Bits5_0/nn-bits5_0-ibackgroundcopyjob5"><strong>IBackgroundCopyJob5</strong></a> interface, see <a href="how-to-block-a-bits-job-from-downloading-over-an-expensive-connection.md">How to control whether a BITS job is allowed to download over an expensive connection</a> and <a href="how-to-get-the-last-set-of-http-headers-received-for-each-file-in-a-bits-download-job.md">How to get the last set of HTTP headers received for each file in a BITS download job</a>.<br/></li>
-<li>Added the <a href="/windows/win32/api/bits5_0/ne-bits5_0-bits_job_property_value"><strong>BITS_JOB_PROPERTY_VALUE</strong></a> union and the <a href="/windows/win32/api/bits5_0/ne-bits5_0-bits_job_property_id"><strong>BITS_JOB_PROPERTY_ID</strong></a>, and <a href="/windows/win32/api/bits5_0/ne-bits5_0-bits_job_transfer_policy"><strong>BITS_JOB_TRANSFER_POLICY</strong></a> enumerations. For usage examples, see the above How to topics.</li>
+<li>Added the <a href="/windows/win32/api/bits5_0/ns-bits5_0-bits_job_property_value"><strong>BITS_JOB_PROPERTY_VALUE</strong></a> union and the <a href="/windows/win32/api/bits5_0/ne-bits5_0-bits_job_property_id"><strong>BITS_JOB_PROPERTY_ID</strong></a>, and <a href="/windows/win32/api/bits5_0/ne-bits5_0-bits_job_transfer_policy"><strong>BITS_JOB_TRANSFER_POLICY</strong></a> enumerations. For usage examples, see the above How to topics.</li>
 <li>Added the <a href="/windows/win32/api/Bits5_0/nn-bits5_0-ibackgroundcopyfile5"><strong>IBackgroundCopyFile5</strong></a> interface, which adds methods for getting and setting generic properties on BackgroundCopyFile objects to the methods inherited from the <a href="/windows/win32/api/Bits4_0/nn-bits4_0-ibackgroundcopyfile4"><strong>IBackgroundCopyFile4</strong></a> interface. The addition of generic properties will make it possible to enhance BackgroundCopyFile capabilities in the future without requiring that a new interface be created.</li>
 <li>The first generic property exposed by <a href="/windows/win32/api/Bits5_0/nn-bits5_0-ibackgroundcopyfile5"><strong>IBackgroundCopyFile5</strong></a> is the <strong>HttpResponseHeaders</strong> property.</li>
 <li>Added the <a href="/windows/win32/api/bits5_0/ns-bits5_0-bits_file_property_value"><strong>BITS_FILE_PROPERTY_VALUE</strong></a> union and the <a href="/windows/win32/api/bits5_0/ne-bits5_0-bits_file_property_id"><strong>BITS_FILE_PROPERTY_ID</strong></a> enumeration.</li>
 </ul>
 BITS version 5.0 is included in the Windows Server 2012 and Windows 8 operating systems, where the version of %windir%\System32\QMgr.dll is &quot;7.7.xxxx.xxxx&quot;.<br/> The following features were added to BITS in Windows 10<br/>
 <ul>
-<li>In Windows 10, version 1607, it is possible to use the BITS COM APIs and BITS PowerShell cmdlets (where available) in a PowerShell Remote Session. This is especially useful when administrating versions of Windows Server 2016 that have no local login capability. BITS jobs started via PowerShell Remote Sessions run in the session's user account context, and will only make progress when there is at least on active local logon session or PowerShell Remote session associated with that user account. Consider using persistent PowerShell Remote sessions (see <a href="https://technet.microsoft.com/library/hh849717.aspx">New-PSSession</a>) for long-running transfers.</li>
+<li>In Windows 10, version 1607, it is possible to use the BITS COM APIs and BITS PowerShell cmdlets (where available) in a PowerShell Remote Session. This is especially useful when administrating versions of Windows Server 2016 that have no local login capability. BITS jobs started via PowerShell Remote Sessions run in the session's user account context, and will only make progress when there is at least on active local logon session or PowerShell Remote session associated with that user account. Consider using persistent PowerShell Remote sessions (see <a href="/powershell/module/microsoft.powershell.core/new-pssession">New-PSSession</a>) for long-running transfers.</li>
 <li>In Windows 10, version 1607, it is now possible for a BITS job owner to set helper tokens without being an administrator, as long as the helper token does not have administrator capabilities. This reduces the vulnerability footprint of background download or update tools by enabling them to run under the lower-privileged NetworkService account rather than under an account with administrative privileges.</li>
 </ul>
 BITS version 5.0 is also included in Windows 10, where the version of %windir%\System32\QMgr.dll is &quot;7.8.xxxx.xxxx&quot;.<br/></td>
@@ -119,7 +119,7 @@ BITS now uses group policies to limit the number of jobs and files you can creat
 </tr>
 <tr class="odd">
 <td>Version 1.5</td>
-<td>Added upload and upload-reply capability, command-line execution for events, and explicit credentials and proxy credentials.<br/> Starting with BITS 1.5, users with a <a href="https://msdn.microsoft.com/library/aa379316.aspx">restricted token</a> cannot create or modify jobs.<br/> BITS version 1.5 is included in Windows Server 2003. A redistributable is available for Windows XP from the <a href="https://www.microsoft.com/download/details.aspx?id=22250">Microsoft Download Center</a>.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.5.xxxx.xxxx&quot;.<br/></td>
+<td>Added upload and upload-reply capability, command-line execution for events, and explicit credentials and proxy credentials.<br/> Starting with BITS 1.5, users with a <a href="/windows/win32/secauthz/restricted-tokens">restricted token</a> cannot create or modify jobs.<br/> BITS version 1.5 is included in Windows Server 2003. A redistributable is available for Windows XP from the <a href="https://www.microsoft.com/download/details.aspx?id=22250">Microsoft Download Center</a>.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.5.xxxx.xxxx&quot;.<br/></td>
 </tr>
 <tr class="even">
 <td>Version 1.2</td>
@@ -133,7 +133,7 @@ BITS now uses group policies to limit the number of jobs and files you can creat
 </table>
 
 To light up features in your program based on BITS capabilities, use QueryInterface on (for example) your Job object to see if the Job object allows you to create the version you need. Alternatively, 
-see [Determining the Version of BITS on a Computer](/windows/win32/Bits/determining-the-version-of-bits-on-a-computer) to convert the QMgr.dll version number into the BITS version.
+see [Determining the Version of BITS on a Computer](./determining-the-version-of-bits-on-a-computer.md) to convert the QMgr.dll version number into the BITS version.
 
 ## Version 10.3
 
@@ -229,7 +229,3 @@ The following interfaces and topics were added for version 1.5:
 ## Updating BITS versions
  
 You can download BITS 4.0 for Windows Server 2008 with Service Pack 2 (SP2), Windows Vista with Service Pack 1 (SP1), and Windows Vista with Service Pack 2 (SP2). For information about downloading BITS 4.0, see [KB968929](https://support.microsoft.com/kb/968929).
-
-
-
-

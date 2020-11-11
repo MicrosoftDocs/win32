@@ -11,7 +11,6 @@ ms.date: 05/31/2018
 
 The following terms are commonly used to refer to the Active Directory schema.
 
-## 
 
 <dl> <dt>
 
@@ -160,7 +159,7 @@ A formal definition of the directory service contents and structure. The schema 
 <span id="Security_Descriptor"></span><span id="security_descriptor"></span><span id="SECURITY_DESCRIPTOR"></span>Security Descriptor
 </dt> <dd>
 
-Information about the ownership of an object and the permissions that other users have on that object. The [**NT-Security-Descriptor**](a-ntsecuritydescriptor.md) property of a schema entry contains a string that represents the security descriptor of the object. For more information about the format of the information in this field, see [Security Descriptor String Format](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-string-format).
+Information about the ownership of an object and the permissions that other users have on that object. The [**NT-Security-Descriptor**](a-ntsecuritydescriptor.md) property of a schema entry contains a string that represents the security descriptor of the object. For more information about the format of the information in this field, see [Security Descriptor String Format](/windows/desktop/SecAuthZ/security-descriptor-string-format).
 
 </dd> <dt>
 
@@ -202,7 +201,3 @@ A family of standards developed jointly by the ISO and ITU, formerly known as th
  
 
  
-
-
-
-

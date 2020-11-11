@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Creating a DriverProc Function
 
-You create a [DriverProc](https://msdn.microsoft.com/library/Dd797918(v=VS.85).aspx) function in much the same way as you create a window procedure. The function consists of a **switch** statement, and each case processes a given driver message, returning a value indicating success or failure. The **DriverProc** function has the following form:
+You create a [DriverProc](/windows/win32/api/mmiscapi/nc-mmiscapi-driverproc) function in much the same way as you create a window procedure. The function consists of a **switch** statement, and each case processes a given driver message, returning a value indicating success or failure. The **DriverProc** function has the following form:
 
 
 ```C++
@@ -104,7 +104,3 @@ LONG DriverProc(DWORD dwDriverId, HDRVR hdrvr, UINT msg,
  
 
  
-
-
-
-

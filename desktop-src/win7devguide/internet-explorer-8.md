@@ -22,25 +22,21 @@ In addition to the improvements made to the underlying platform and developer ex
 
 <dl> <dt>
 
-[What's New in Internet Explorer 8](https://msdn.microsoft.com/library/cc288472(VS.85).aspx)
+[What's New in Internet Explorer 8](/previous-versions//cc288472(v=vs.85))
 </dt> <dt>
 
 [Silverlight](https://msdn.microsoft.com/library/bb871518.aspx)
 </dt> <dt>
 
-[Windows Presentation Foundation](https://msdn.microsoft.com/library/ms754130.aspx)
+[Windows Presentation Foundation](/dotnet/framework/wpf/)
 </dt> <dt>
 
 [CSS Improvements in Internet Explorer 8](https://msdn.microsoft.com/library/cc304082(VS.85).aspx)
 </dt> <dt>
 
-[Discovering Internet Explorer Developer Tools](https://msdn.microsoft.com/library/dd565628(VS.85).aspx)
+[Discovering Internet Explorer Developer Tools](/previous-versions//dd565628(v=vs.85))
 </dt> </dl>
 
  
 
  
-
-
-
-

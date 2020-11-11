@@ -16,7 +16,7 @@ Number of bits per audio sample in an audio media type.
 
 ## Remarks
 
-This attribute corresponds to the **wBitsPerSample** member of the [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) structure.
+This attribute corresponds to the **wBitsPerSample** member of the [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) structure.
 
 If some bits contain padding, set the [**MF\_MT\_AUDIO\_VALID\_BITS\_PER\_SAMPLE**](mf-mt-audio-valid-bits-per-sample-attribute.md) attribute to specify the number of bits of valid audio data in each sample.
 
@@ -58,7 +58,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

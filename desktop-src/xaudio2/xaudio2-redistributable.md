@@ -50,7 +50,7 @@ Unlike the older XAudio 2.7, it is not possible to use CoCreateInstance to load 
 
 ## Verifying the DLL signature
 
-The XAUDIO2\_9REDIST.DLL binary is signed by Microsoft using a SHA-2 signature. Any code that attempts to validate the signature, e.g., anti-cheat modules for games, therefore needs to support SHA-2. Note that Windows 7 SP1 did not originally support SHA-2 and requires an update to add that functionality. The update is available as [KB4474419](https://support.microsoft.com/en-us/help/4474419/sha-2-code-signing-support-update).
+The XAUDIO2\_9REDIST.DLL binary is signed by Microsoft using a SHA-2 signature. Any code that attempts to validate the signature, e.g., anti-cheat modules for games, therefore needs to support SHA-2. Note that Windows 7 SP1 did not originally support SHA-2 and requires an update to add that functionality. The update is available as [KB4474419](https://support.microsoft.com/help/4474419/sha-2-code-signing-support-update).
 
 # Testing
 
@@ -140,7 +140,7 @@ Starting with the Windows 10 1903 update, XAudio 2.9 automatically uses virtual 
 
 Normally, XAudio 2.9 performs a folds down any multi-channel audio to match the "physical" number of audio channels that are supported by the audio endpoint. For example, if the game provides a 7.1 channel audio source, but the sound is played on headphones, XAudio 2.9 will fold down the 7.1 channel audio into stereo, using an industry standard fold-down matrix. If the PC is connected to a HDMI audio endpoint, then the 7.1 channel audio will be transmitted as-is over the HDMI connection.
 
-Windows 10 adds support for spatial audio, using a centralized encoder that encodes audio into a user-selected [spatial sound](/windows/win32/coreaudio/spatial-sound) format. Windows 10 comes included with a spatial sound format called Windows Sonic. Other formats, such as Dolby Atmos for Headphones, can be downloaded from the Microsoft Store. Some of the spatial sound formats, such as Windows Sonic and Dolby Atmos for Headphones, are designed to be used on stereo audio endpoints. These formats fold down surround sound to stereo using proprietary algorithms that achieve a "virtual" surround sound effect. In other words, the listener can perceive sound appearing from different positions in 3D space even while only wearing headphones, or while listening on a single pair of stereo speakers.
+Windows 10 adds support for spatial audio, using a centralized encoder that encodes audio into a user-selected [spatial sound](../coreaudio/spatial-sound.md) format. Windows 10 comes included with a spatial sound format called Windows Sonic. Other formats, such as Dolby Atmos for Headphones, can be downloaded from the Microsoft Store. Some of the spatial sound formats, such as Windows Sonic and Dolby Atmos for Headphones, are designed to be used on stereo audio endpoints. These formats fold down surround sound to stereo using proprietary algorithms that achieve a "virtual" surround sound effect. In other words, the listener can perceive sound appearing from different positions in 3D space even while only wearing headphones, or while listening on a single pair of stereo speakers.
 
 Similar effects can be achieved using the [X3DAudio](x3daudio.md) APIs that are included with XAudio 2.9. The main difference is that X3DAudio requires the app developer to explicitly program for 3D audio, whereas virtual surround sound is applied automatically to any tradional channel-based sound source.
 

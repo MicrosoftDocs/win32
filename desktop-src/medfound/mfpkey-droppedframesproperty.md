@@ -12,7 +12,7 @@ Specifies the number of video frames dropped during encoding.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -44,7 +44,3 @@ Video frames are sometimes skipped, or dropped, during encoding because of buffe
  
 
  
-
-
-
-

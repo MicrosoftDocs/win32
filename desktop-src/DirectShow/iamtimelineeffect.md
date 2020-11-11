@@ -38,7 +38,7 @@ To create an effect object, call [**IAMTimeline::CreateEmptyNode**](iamtimeline-
 
 ## Members
 
-The **IAMTimelineEffect** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineEffect** also has these types of members:
+The **IAMTimelineEffect** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IAMTimelineEffect** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -89,7 +89,3 @@ The **IAMTimelineEffect** interface has these methods.
  
 
  
-
-
-
-

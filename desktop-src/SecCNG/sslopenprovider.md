@@ -17,7 +17,7 @@ api_location:
 
 # SslOpenProvider function
 
-The **SslOpenProvider** function opens a handle to the specified [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) protocol provider.
+The **SslOpenProvider** function opens a handle to the specified [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) protocol provider.
 
 ## Syntax
 
@@ -93,9 +93,4 @@ Possible return codes include, but are not limited to, the following.
 
 
  
-
- 
-
-
-
 

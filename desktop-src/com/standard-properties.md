@@ -61,7 +61,7 @@ All of these standard properties have negative DISPID values, indicating their s
 
 Note that to avoid conflicts in the programmatic symbols for these DISPIDs, all ambient properties are given symbols in the form DISPID\_AMBIENT\_*property* as in DISPID\_AMBIENT\_FORECOLOR. All other symbols use DISPID\_*property* as usual.
 
-Some ambient properties, as well as control properties, involve colors. The **OLE\_COLOR** type mentioned in the previous tables can refer to a standard **COLORREF** type, an index to a palette, a palette-relative index, or a system color index used with the [**GetSysColor**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor) function. The [**OleTranslateColor**](/windows/desktop/api/OleCtl/nf-olectl-oletranslatecolor) function converts an **OLE\_COLOR** type to a **COLORREF** type given a palette.
+Some ambient properties, as well as control properties, involve colors. The **OLE\_COLOR** type mentioned in the previous tables can refer to a standard **COLORREF** type, an index to a palette, a palette-relative index, or a system color index used with the [**GetSysColor**](/windows/desktop/api/winuser/nf-winuser-getsyscolor) function. The [**OleTranslateColor**](/windows/desktop/api/OleCtl/nf-olectl-oletranslatecolor) function converts an **OLE\_COLOR** type to a **COLORREF** type given a palette.
 
 ## Related topics
 
@@ -71,10 +71,4 @@ Some ambient properties, as well as control properties, involve colors. The **OL
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

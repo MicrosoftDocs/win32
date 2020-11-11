@@ -16,9 +16,9 @@ Calls within an apartment are direct, while calls across apartments (out-of-proc
 
 Objects in a multithreaded apartment (MTA) execute on any thread and allow any number of methods to occur simultaneously. MTAs support reentrance implicitly.
 
-COM+ classes are marked with a **ThreadingModel** property that allows COM+ to create the object in the proper apartment. To determine which apartment an object is created in, [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) uses the **ThreadingModel** property.
+COM+ classes are marked with a **ThreadingModel** property that allows COM+ to create the object in the proper apartment. To determine which apartment an object is created in, [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) uses the **ThreadingModel** property.
 
-Threads must call [**CoInitializeEx**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) before they can use COM+. This creates them inside the correct apartment and context. The main thread apartment is determined to be the first STA called by **CoInitializeEx**. This is usually associated with the main thread of a process. **CoInitializeEx** indicates the type of apartment required by the thread by setting the following flags:
+Threads must call [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) before they can use COM+. This creates them inside the correct apartment and context. The main thread apartment is determined to be the first STA called by **CoInitializeEx**. This is usually associated with the main thread of a process. **CoInitializeEx** indicates the type of apartment required by the thread by setting the following flags:
 
 -   **COINIT\_MULTITHREADED**—Locates the thread in the single multithreaded apartment.
 -   **COINIT\_APARTMENTTHREADED**—Places the thread into a new STA.
@@ -32,7 +32,7 @@ The following topics in this section provide more information about using thread
 
 <dl> <dt>
 
-[Processes, Threads, and Apartments](https://docs.microsoft.com/windows/desktop/com/processes--threads--and-apartments)
+[Processes, Threads, and Apartments](/windows/desktop/com/processes--threads--and-apartments)
 </dt> <dt>
 
 [**ThreadingModel**](components.md)
@@ -41,6 +41,3 @@ The following topics in this section provide more information about using thread
  
 
  
-
-
-

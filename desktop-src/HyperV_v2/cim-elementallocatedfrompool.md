@@ -53,7 +53,7 @@ Data type: **CIM\_ResourcePool**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 The resource pool.
@@ -69,7 +69,7 @@ Data type: **CIM\_LogicalElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The allocated resource.
@@ -98,9 +98,4 @@ The allocated resource.
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -10,14 +10,18 @@ ms.date: 05/31/2018
 
 ## Platform
 
-<dl> **Servers** - Windows Server 2008 R2  
-</dl>
+**Servers** - Windows Server 2008 R2  
+
+
 
 ## Feature Impact
 
-<dl> **Severity** - Low  
+ **Severity** - Low  
 **Frequency** - Low  
-</dl>
+
+
+
+
 
 ## Description
 
@@ -35,7 +39,7 @@ Verify that the .NET classes your code uses is included in Server Core. Also tes
 
 ## Links to Other Resources
 
--   [Server Core](https://msdn.microsoft.com/library/ms723891(v=VS.85).aspx)
+-   [Server Core](/previous-versions/windows/desktop/legacy/ms723891(v=vs.85))
 -   [Server Core Blog](https://blogs.technet.com/server_core/archive/2008/11/25/net-2-0-and-server-core-in-windows-server-2008-r2.aspx)
 -   *See also* the Server Core section of the *Windows Server 2008 R2 SDK* when it becomes available
 
@@ -47,6 +51,3 @@ Verify that the .NET classes your code uses is included in Server Core. Also tes
  
 
  
-
-
-

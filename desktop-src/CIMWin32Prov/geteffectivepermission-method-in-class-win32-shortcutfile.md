@@ -18,9 +18,9 @@ api_location:
 
 # GetEffectivePermission method of the Win32\_ShortcutFile class
 
-The **GetEffectivePermission** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method determines whether the user has all of the required permissions specified in the *Permissions* parameter for the file object, directory, and share where the shortcut file is located, if the file or directory is on a share.
+The **GetEffectivePermission** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method determines whether the user has all of the required permissions specified in the *Permissions* parameter for the file object, directory, and share where the shortcut file is located, if the file or directory is on a share.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -221,16 +221,11 @@ Returns **True** if the user has the specified permissions, and **false** if the
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_ShortcutFile**](win32-shortcutfile.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

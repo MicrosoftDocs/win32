@@ -71,7 +71,7 @@ The following libraries can all be used with Direct3D 12.
 | [DirectX Tool Kit for DirectX 12](https://github.com/Microsoft/DirectXTK12) | A substantial collection of helper classes for writing Direct3D 12 C++ code for Universal Windows Platform (UWP) apps, Win32 desktop applications for Windows 10, and Xbox One exclusive apps.                                                                         | [DirectX12TK wiki](https://github.com/Microsoft/DirectXTK12/wiki)                                          |
 | [DirectXTex](https://github.com/Microsoft/DirectXTex)                      | Use this for reading and writing DDS files, and performing various texture content processing operations including resizing, format conversion, mip-map generation, block compression for Direct3D runtime texture resources, and height-map to normal-map conversion. | [DirectXTex wiki](https://github.com/Microsoft/DirectXTex/wiki)                                            |
 | [DirectXMesh](https://github.com/Microsoft/DirectXMesh)                   | Use this for performing various geometry content processing operations including generating normals and tangent frames, triangle adjacency computations, and vertex cache optimization.                                                                                | [DirectXMesh wiki](https://github.com/Microsoft/DirectXMesh/wiki)                                          |
-| [DirectXMath](https://github.com/Microsoft/DirectXMath)                     | A large number of helper classes and methods to support vectors, scalars, matrices, quaternions, and many other mathematical operations.                                                                                                                               | [DirectXMath documentation at MSDN](https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-progguide) |
+| [DirectXMath](https://github.com/Microsoft/DirectXMath)                     | A large number of helper classes and methods to support vectors, scalars, matrices, quaternions, and many other mathematical operations.                                                                                                                               | [DirectXMath documentation at MSDN](/windows/desktop/dxmath/ovw-xnamath-progguide) |
 | [UVAtlas](https://github.com/Microsoft/UVAtlas)                         | Use this for creating and packing an isochart texture atlas.                                                                                                                                                                                                           | [UVAtlas wiki](https://github.com/Microsoft/UVAtlas/wiki)                                                  |
 
 
@@ -125,7 +125,3 @@ There are a number of Direct3D 12 and Windows 10 related videos at [DirectX adva
  
 
  
-
-
-
-

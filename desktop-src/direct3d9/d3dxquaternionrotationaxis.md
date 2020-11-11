@@ -58,7 +58,7 @@ Pointer to the [**D3DXVECTOR3**](d3dxvector3.md) structure that identifies the a
 *Angle* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Angle of rotation, in radians. Angles are measured clockwise when looking along the rotation axis toward the origin.
 
@@ -103,7 +103,3 @@ Use [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) for any quaternion
  
 
  
-
-
-
-

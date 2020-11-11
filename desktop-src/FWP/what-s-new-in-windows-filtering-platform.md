@@ -15,7 +15,7 @@ Windows 8 and Windows Server 2012 introduce new Windows Filtering Platform pro
 -   *App container management*: Allows access to information about app containers and network isolation connectivity issues.
 -   *IPsec updates*: Extended IPsec functionality including connection state monitoring, certificate selection, and key management.
 
-The Windows Driver Kit also includes information on [WFP Changes for Windows 8](https://msdn.microsoft.com/library/windows/hardware/hh440281(v=vs.85).aspx).
+The Windows Driver Kit also includes information on [WFP Changes for Windows 8](/windows-hardware/drivers/network/wfp-changes-for-windows-8).
 
 ## Windows 8 API updates
 
@@ -49,7 +49,7 @@ Many new APIs have been added for Windows 8 and Windows Server 2012.
 -   [**IPSEC\_KEY\_MANAGER\_KEY\_DICTATION\_CHECK0**](/windows/desktop/api/Fwpmu/nc-fwpmu-ipsec_key_manager_key_dictation_check0)
 -   [**IPSEC\_KEY\_MANAGER\_DICTATE\_KEY0**](/windows/desktop/api/Fwpmu/nc-fwpmu-ipsec_key_manager_dictate_key0)
 -   [**IPSEC\_KEY\_MANAGER\_NOTIFY\_KEY0**](/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_key_manager_notify_key0)
--   [**IPSEC\_SA\_CONTEXT\_CALLBACK0**](https://msdn.microsoft.com/library/Hh447457(v=VS.85).aspx)
+-   [**IPSEC\_SA\_CONTEXT\_CALLBACK0**](/windows/win32/api/fwpmu/nc-fwpmu-ipsec_sa_context_callback0)
 -   [**IPsecKeyManagerAddAndRegister0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipseckeymanageraddandregister0)
 -   [**IPsecKeyManagerGetSecurityInfoByKey0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipseckeymanagergetsecurityinfobykey0)
 -   [**IPsecKeyManagerSetSecurityInfoByKey0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipseckeymanagersetsecurityinfobykey0)
@@ -58,15 +58,15 @@ Many new APIs have been added for Windows 8 and Windows Server 2012.
 -   [**IPsecSaContextSubscribe0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextsubscribe0)
 -   [**IPsecSaContextSubscriptionsGet0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextsubscriptionsget0)
 -   [**IPsecSaContextUnsubscribe0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextunsubscribe0)
--   [**NetworkIsolationDiagnoseConnectFailureAndGetInfo**](https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationdiagnoseconnectfailureandgetinfo)
--   [**NetworkIsolationEnumAppContainers**](https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationenumappcontainers)
--   [**NetworkIsolationEnumerateAppContainerRules**](https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationenumerateappcontainerrules)
--   [**NetworkIsolationFreeAppContainers**](https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationfreeappcontainers)
--   [**NetworkIsolationGetAppContainerConfig**](https://docs.microsoft.com/windows/desktop/api/networkisolation/nf-networkisolation-networkisolationgetappcontainerconfig)
--   [**NetworkIsolationRegisterForAppContainerChanges**](https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationregisterforappcontainerchanges)
--   [**NetworkIsolationSetAppContainerConfig**](https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationsetappcontainerconfig)
--   [**NetworkIsolationSetupAppContainerBinaries**](https://docs.microsoft.com/windows/desktop/api/networkisolation/nf-networkisolation-networkisolationsetupappcontainerbinaries)
--   [**PAC\_CHANGES\_CALLBACK\_FN**](https://docs.microsoft.com/windows/desktop/api/networkisolation/nc-networkisolation-pac_changes_callback_fn)
+-   [**NetworkIsolationDiagnoseConnectFailureAndGetInfo**](/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationdiagnoseconnectfailureandgetinfo)
+-   [**NetworkIsolationEnumAppContainers**](/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationenumappcontainers)
+-   [**NetworkIsolationEnumerateAppContainerRules**](/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationenumerateappcontainerrules)
+-   [**NetworkIsolationFreeAppContainers**](/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationfreeappcontainers)
+-   [**NetworkIsolationGetAppContainerConfig**](/windows/desktop/api/networkisolation/nf-networkisolation-networkisolationgetappcontainerconfig)
+-   [**NetworkIsolationRegisterForAppContainerChanges**](/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationregisterforappcontainerchanges)
+-   [**NetworkIsolationSetAppContainerConfig**](/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationsetappcontainerconfig)
+-   [**NetworkIsolationSetupAppContainerBinaries**](/windows/desktop/api/networkisolation/nf-networkisolation-networkisolationsetupappcontainerbinaries)
+-   [**PAC\_CHANGES\_CALLBACK\_FN**](/windows/desktop/api/networkisolation/nc-networkisolation-pac_changes_callback_fn)
 
 ## New structures
 
@@ -173,12 +173,8 @@ Many new APIs have been added for Windows 8 and Windows Server 2012.
 
 ## Windows 7 updates to the Windows Filtering Platform
 
-The document [What's New in Windows Filtering Platform](http://download.microsoft.com/download/5/2/0/520FB22A-4374-45FC-B62B-B556E749AEE0/WFP - What's New in Win7-V1.1.docx) details many of the updates made for Windows 7. Information is also available in the Windows Driver Kit on [WFP Changes for Windows 7](https://msdn.microsoft.com/library/windows/hardware/ff571062(v=vs.85).aspx).
+The document [What's New in Windows Filtering Platform](/windows/win32/fwp/what-s-new-in-windows-filtering-platform) details many of the updates made for Windows 7. Information is also available in the Windows Driver Kit on [WFP Changes for Windows 7](/windows-hardware/drivers/network/wfp-changes-for-windows-7).
 
  
 
  
-
-
-
-

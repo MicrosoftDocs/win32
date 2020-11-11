@@ -3,10 +3,13 @@ title: Control Panels
 description: Use control panel items to help users configure system-level features and perform related tasks. Programs that have a user interface should be configured directly from their UI instead.
 ms.assetid: 845325ef-9f1d-4aa7-a5b0-685fac74a9f8
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Control Panels
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 Use control panel items to help users configure system-level features and perform related tasks. Programs that have a user interface should be configured directly from their UI instead.
 
@@ -24,7 +27,7 @@ A control panel category page lists the items within a single category, along wi
 
 Control panel items are implemented using [task flows](glossary.md) or property sheets. For Windows Vista and later, task flows are the preferred user interface (UI).
 
-**Developers:** To learn how to create control panel items, see [Control Panel Items](https://docs.microsoft.com/previous-versions//bb776838(v=vs.85)).
+**Developers:** To learn how to create control panel items, see [Control Panel Items](/previous-versions//bb776838(v=vs.85)).
 
 **Note:** Guidelines related to [property sheets](win-property-win.md) are presented in a separate article.
 
@@ -35,7 +38,7 @@ To decide, consider these questions:
 -   **Is the purpose to configure system-level features?** If not, use another integration point. Make your application features configurable directly from the UI using options dialog boxes, instead of using Control Panel. For utilities that aren't used for setup, configuration, or related tasks (like troubleshooting), use the Start menu as the integration point.
 -   **Does the system-level feature have its own UI?** If so, that UI is where users should go to make changes. For example, a system backup utility should be configured from its program options instead of from Control Panel.
 -   **Will users need to change the configuration often?** If so (say, several times a week), consider alternative solutions, perhaps in addition to using Control Panel. For example, the Windows master volume setting can be configured directly from its icon in the notification area. Some settings can be configured automatically. In Windows Explorer, for example, the Compatibility tab for application properties allows an application to be run in 256 color mode instead of requiring users to change the video mode manually.
--   **Are the target users IT professionals?** If so, use a [Microsoft Management Console (MMC)](https://msdn2.microsoft.com/library/aa814987.aspx) snap-in instead, which is designed specifically for system management tasks. In some cases, the best solution is to have both a control panel item for general users and an MMC snap-in for IT professionals.
+-   **Are the target users IT professionals?** If so, use a [Microsoft Management Console (MMC)](/previous-versions/windows/desktop/mmc/microsoft-management-console-start-page) snap-in instead, which is designed specifically for system management tasks. In some cases, the best solution is to have both a control panel item for general users and an MMC snap-in for IT professionals.
 
     ![screen shot of computer management window ](images/winenv-ctrl-panels-image2.png)
 
@@ -724,10 +727,4 @@ Examples:
 -   Return to the main **Parental Controls** page.
 
  
-
- 
-
-
-
-
 

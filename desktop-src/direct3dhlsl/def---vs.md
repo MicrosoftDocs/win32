@@ -52,7 +52,7 @@ There are two ways to set a constant in a shader.
     def - vs can only define floating-point constants.
 
 2.  Use the API methods to set a constant.
-    -   Use [**SetVertexShaderConstantF**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstantf) to set a floating-point constant.
+    -   Use [**SetVertexShaderConstantF**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstantf) to set a floating-point constant.
 
 ## Related topics
 
@@ -70,7 +70,3 @@ There are two ways to set a constant in a shader.
  
 
  
-
-
-
-

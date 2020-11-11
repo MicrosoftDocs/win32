@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-<dl> **Clients** – Windows 8  
+**Clients** – Windows 8  
 **Servers** – Windows Server 2012  
-</dl>
+
 
 ## Description
 
@@ -58,12 +58,8 @@ To use thinly provisioned LUNs in Windows 8 or Windows Server 2012, system and s
 ## Resources
 
 -   [T10 SCSI Block Command Spec (SBC3r27)](https://www.t10.org/cgi-bin/ac.pl?t=f&f=sbc3r27.pdf)
--   [Hardware Dashboard Services](https://msdn.microsoft.com/windows/hardware/br230803.aspx)
+-   [Hardware Dashboard Services](/windows-hardware/drivers/dashboard/)
 
  
 
  
-
-
-
-

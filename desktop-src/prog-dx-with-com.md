@@ -57,6 +57,9 @@ Although a GUID is a structure, a GUID is often expressed in equivalent string f
 
 Because the actual GUID is somewhat clumsy to use and easy to mistype, an equivalent name is usually provided as well. In your code, you can use this name instead of the actual structure when you call functions, for example when you pass an argument for the `riid` parameter to [**D3D12CreateDevice**](/windows/desktop/api/d3d12/nf-d3d12-d3d12createdevice). The customary naming convention is to prepend either IID_ or CLSID_ to the descriptive name of the interface or object, respectively. For example, the name of the **ID3D12Device** interface's IID is IID_ID3D12Device.
 
+> [!NOTE]
+> DirectX applications should link with ``dxguid.lib`` and ``uuid.lib`` to provide definitions for the various interface and class GUIDs. Visual C++ and other compilers support the **__uuidof** operator language extension, but explicit C-style linkage with these link libraries is also supported and fully portable.
+
 ## HRESULT values
 
 Most COM methods return a 32-bit integer called an **HRESULT**. With most methods, the HRESULT is essentially a structure that contains two primary pieces of information.
@@ -211,6 +214,10 @@ hr = pDXGISwapChain1->QueryInterface(IID_IDXGISwapChain3, (LPVOID*)&pDXGISwapCha
 if (FAILED(hr)) return hr;
 ```
 
+> [!NOTE]
+> In C++ you can make use of the ``IID_PPV_ARGS`` macro rather than the explicit IID and cast pointer: ``pDXGISwapChain1->QueryInterface(IID_PPV_ARGS(&pDXGISwapChain3));``.
+> This is often used for creation methods as well as **QueryInterface**. See [combaseapi.h](/windows/win32/api/combaseapi/nf-combaseapi-iid_ppv_args) for more information.
+
 ## Managing a COM object's lifetime
 
 When an object is created, the system allocates the necessary memory resources. When an object is no longer needed, it should be destroyed. The system can use that memory for other purposes. With C++ objects, you can control the object's lifetime directly with the `new` and `delete` operators in cases where you're operating at that level, or just by using the stack and scope lifetime. COM doesn't enable you to directly create or destroy objects. The reason for this design is that the same object may be used by more than one part of your application or, in some cases, by more than one application. If one of those references were to destroy the object, then the other references would become invalid. Instead, COM uses a system of reference counting to control an object's lifetime.
@@ -226,9 +233,6 @@ Whenever you obtain a new interface pointer, the reference count must be increme
 You must release all interface pointers, regardless of whether you or the object incremented the reference count. When you no longer need an interface pointer, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) to decrement the reference count. A common practice is to initialize all interface pointers to `nullptr`, and then to set them back to `nullptr` when they are released. That convention allows you to test all interface pointers in your cleanup code. Those that are not `nullptr` are still active, and you need to release them before you terminate the application.
 
 The following code fragment extends the sample shown earlier to illustrate how to handle reference counting.
-
-> [!IMPORTANT]
-> The code below essentially opens up a window into the low-level mechanics of COM reference-counting. Instead of coding like this (which is at a raw and error-prone level), your code will be more reliable and no less efficient if you use a smart pointer class. For more info, see [How to create and use CComPtr and CComQIPtr](/cpp/cpp/how-to-create-and-use-ccomptr-and-ccomqiptr-instances), [CComPtr class](/cpp/atl/reference/ccomptr-class), and [COM smart pointers revisited](https://msdn.microsoft.com/magazine/dn904668.aspx).
 
 ```cpp
 HRESULT hr = S_OK;
@@ -273,6 +277,17 @@ if (pDXGISwapChain3Copy != nullptr)
     pDXGISwapChain3Copy = nullptr;
 }
 ```
+
+## COM Smart Pointers
+
+The code so far has explicitly called ``Release`` and ``AddRef`` to maintain the reference counts using **IUnknown** methods. This pattern requires the programmer to be diligent in remembering to properly maintain the count in all possible codepaths. This can result in complicated error-handling, and with C++ exception handling enabled can be particularly difficult to implement. A better solution with C++ is to make use of a [smart pointer](/cpp/cpp/smart-pointers-modern-cpp).
+
+* **winrt::com_ptr** is a smart pointer provided by the [C++/WinRT language projections](/uwp/cpp-ref-for-winrt/com-ptr). This is the recommended COM smart pointer to use for UWP apps. Note that C++/WinRT requires C++17.
+
+* **Microsoft::WRL::ComPtr** is a smart pointer provided by the [Windows Runtime C++ Template Library (WRL)](/cpp/cppcx/wrl/comptr-class). This library is "pure" C++ so it can be utilized for Windows Runtime applications (via C++/CX or C++/WinRT) as well as classic Win32 desktop applications. This smart pointer also works on older versions of Windows that do not support the Windows Runtime APIs. For Win32 desktop applications, you can use ``#include <wrl/client.h>`` to only include this class and optionally define the preprocessor symbol ``__WRL_CLASSIC_COM_STRICT__`` as well. For more information, see [COM smart pointers revisited](/archive/msdn-magazine/2015/february/windows-with-c-com-smart-pointers-revisited).
+
+* **CComPtr** is a smart pointer provided by the [Active Template Library (ATL)](/cpp/atl/reference/ccomptr-class). The **Microsoft::WRL::ComPtr** is a newer version of this implementation that addresses a number of subtle usage issues, so use of this smart pointer is not recommended for new projects. For more information, see [How to create and use CComPtr and CComQIPtr](/cpp/cpp/how-to-create-and-use-ccomptr-and-ccomqiptr-instances).
+
 
 ## Using ATL with DirectX 9
 

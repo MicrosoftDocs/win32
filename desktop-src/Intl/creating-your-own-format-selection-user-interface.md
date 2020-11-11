@@ -21,31 +21,31 @@ Please see [Options for Displaying Text](https://msdn.microsoft.com/globalizatio
 
 <dl> <dt>
 
-[**TextOut**](https://msdn.microsoft.com/library/Dd145133(v=VS.85).aspx)
+[**TextOut**](/windows/win32/api/wingdi/nf-wingdi-textouta)
 </dt> <dt>
 
-[**ExtTextOut**](https://msdn.microsoft.com/library/Dd162713(v=VS.85).aspx)
+[**ExtTextOut**](/windows/win32/api/wingdi/nf-wingdi-exttextouta)
 </dt> <dt>
 
-[**TabbedTextOut**](https://msdn.microsoft.com/library/Dd145129(v=VS.85).aspx)
+[**TabbedTextOut**](/windows/win32/api/winuser/nf-winuser-tabbedtextouta)
 </dt> <dt>
 
-[**DrawText**](https://msdn.microsoft.com/library/Dd162498(v=VS.85).aspx)
+[**DrawText**](/windows/win32/api/winuser/nf-winuser-drawtext)
 </dt> <dt>
 
-[**GetTabbedTextExtent**](https://msdn.microsoft.com/library/Dd144930(v=VS.85).aspx)
+[**GetTabbedTextExtent**](/windows/win32/api/winuser/nf-winuser-gettabbedtextextenta)
 </dt> <dt>
 
-[**GetTextExtentPoint32**](https://msdn.microsoft.com/library/Dd144938(v=VS.85).aspx)
+[**GetTextExtentPoint32**](/windows/win32/api/wingdi/nf-wingdi-gettextextentpoint32a)
 </dt> <dt>
 
-[**GetTextExtentExPoint**](https://msdn.microsoft.com/library/Dd144935(v=VS.85).aspx)
+[**GetTextExtentExPoint**](/windows/win32/api/wingdi/nf-wingdi-gettextextentexpointa)
 </dt> <dt>
 
-[**Edit control**](https://msdn.microsoft.com/library/Aa368342(v=VS.85).aspx)
+[**Edit control**](../msi/edit-control.md)
 </dt> <dt>
 
-[Rich Edit](https://msdn.microsoft.com/library/Bb787873(v=VS.85).aspx)
+[Rich Edit](../controls/about-rich-edit-controls.md)
 </dt> <dt>
 
 [Uniscribe](uniscribe.md)
@@ -54,6 +54,3 @@ Please see [Options for Displaying Text](https://msdn.microsoft.com/globalizatio
  
 
  
-
-
-

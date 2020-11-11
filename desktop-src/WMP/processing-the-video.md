@@ -92,7 +92,7 @@ while( dwHeight-- )
 
 
 
-For more information about video formats, see the [FourCC website](/windows/win32/directshow/fourcc-codes).
+For more information about video formats, see the [FourCC website](../directshow/fourcc-codes.md).
 
 ## Related topics
 
@@ -104,7 +104,3 @@ For more information about video formats, see the [FourCC website](/windows/win3
  
 
  
-
-
-
-

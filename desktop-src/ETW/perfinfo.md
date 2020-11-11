@@ -35,13 +35,13 @@ The **PerfInfo** class does not define any members.
 
 ## Remarks
 
-To enable deferred procedure call (DPC) events in an NT Kernel logging session, specify the **EVENT\_TRACE\_FLAG\_DPC** flag in the **EnableFlags** member of an [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md) structure when calling the [**StartTrace**](starttrace.md) function. You can also specify one or more of the following flags:
+To enable deferred procedure call (DPC) events in an NT Kernel logging session, specify the **EVENT\_TRACE\_FLAG\_DPC** flag in the **EnableFlags** member of an [**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) structure when calling the [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea) function. You can also specify one or more of the following flags:
 
 -   **EVENT\_TRACE\_FLAG\_INTERRUPT**
 -   **EVENT\_TRACE\_FLAG\_PROFILE**
 -   **EVENT\_TRACE\_FLAG\_SYSTEMCALL**
 
-Event trace consumers can implement special processing for DPC events by calling the [**SetTraceCallback**](settracecallback.md) function and specifying [**PerfInfoGuid**](nt-kernel-logger-constants.md) as the *pGuid* parameter. Use the following event types to identify the actual event when consuming events.
+Event trace consumers can implement special processing for DPC events by calling the [**SetTraceCallback**](/windows/win32/api/evntrace/nf-evntrace-settracecallback) function and specifying [**PerfInfoGuid**](nt-kernel-logger-constants.md) as the *pGuid* parameter. Use the following event types to identify the actual event when consuming events.
 
 
 
@@ -73,7 +73,3 @@ Event trace consumers can implement special processing for DPC events by calling
  
 
  
-
-
-
-

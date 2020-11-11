@@ -1140,24 +1140,24 @@
           href: installable-driver-functions.md
           items: 
           - name: "CloseDriver"
-            href: https://docs.microsoft.com/previous-versions//dd797785(v=vs.85)
+            href: /previous-versions//dd797785(v=vs.85)
           - name: "DrvGetModuleHandle"
-            href: https://docs.microsoft.com/previous-versions//dd797924(v=vs.85)
+            href: /previous-versions//dd797924(v=vs.85)
           - name: "GetDriverModuleHandle"
-            href: https://docs.microsoft.com/previous-versions//dd797983(v=vs.85)
+            href: /previous-versions//dd797983(v=vs.85)
           - name: "OpenDriver"
-            href: https://docs.microsoft.com/previous-versions//dd743639(v=vs.85)
+            href: /previous-versions//dd743639(v=vs.85)
           - name: "SendDriverMessage"
-            href: https://docs.microsoft.com/previous-versions//dd798653(v=vs.85)
+            href: /previous-versions//dd798653(v=vs.85)
         - name: "Driver Functions"
           href: driver-functions.md
           items: 
           - name: "DefDriverProc"
-            href: https://docs.microsoft.com/previous-versions//dd797870(v=vs.85)
+            href: /previous-versions//dd797870(v=vs.85)
           - name: "DriverProc"
-            href: https://docs.microsoft.com/previous-versions//dd797918(v=vs.85)
+            href: /previous-versions//dd797918(v=vs.85)
           - name: "DriverCallback"
-            href: https://docs.microsoft.com/previous-versions//dd797917(v=vs.85)
+            href: /previous-versions//dd797917(v=vs.85)
         - name: "Installable Driver Messages"
           href: installable-driver-messages.md
           items: 
@@ -1189,7 +1189,7 @@
           href: installable-driver-structures.md
           items: 
           - name: "DRVCONFIGINFO"
-            href: https://docs.microsoft.com/previous-versions//dd797923(v=vs.85)
+            href: /previous-versions//dd797923(v=vs.85)
   - name: "Multimedia Reference"
     href: multimedia-reference.md
     items: 
@@ -1205,7 +1205,7 @@
       - name: "acmDriverEnum"
         href: /windows/desktop/api/Msacm/nf-msacm-acmdriverenum
       - name: "ACMDRIVERENUMCB"
-        href: https://docs.microsoft.com/previous-versions//dd742891(v=vs.85)
+        href: /previous-versions//dd742891(v=vs.85)
       - name: "acmDriverID"
         href: /windows/desktop/api/Msacm/nf-msacm-acmdriverid
       - name: "acmDriverMessage"
@@ -1273,15 +1273,15 @@
       - name: "acmStreamUnprepareHeader"
         href: /windows/desktop/api/Msacm/nf-msacm-acmstreamunprepareheader
       - name: "auxGetDevCaps"
-        href: https://docs.microsoft.com/previous-versions//dd756712(v=vs.85)
+        href: /previous-versions//dd756712(v=vs.85)
       - name: "auxGetNumDevs"
-        href: https://docs.microsoft.com/previous-versions//dd756713(v=vs.85)
+        href: /previous-versions//dd756713(v=vs.85)
       - name: "auxGetVolume"
-        href: https://docs.microsoft.com/previous-versions//dd756714(v=vs.85)
+        href: /previous-versions//dd756714(v=vs.85)
       - name: "auxOutMessage"
-        href: https://docs.microsoft.com/previous-versions//dd756716(v=vs.85)
+        href: /previous-versions//dd756716(v=vs.85)
       - name: "auxSetVolume"
-        href: https://docs.microsoft.com/previous-versions//dd756717(v=vs.85)
+        href: /previous-versions//dd756717(v=vs.85)
       - name: "AVIBuildFilter"
         href: /windows/desktop/api/Vfw/nf-vfw-avibuildfiltera
       - name: "AVIClearClipboard"
@@ -1387,7 +1387,7 @@
       - name: "CreateEditableStream"
         href: /windows/desktop/api/Vfw/nf-vfw-createeditablestream
       - name: "DllGetClassObject"
-        href: https://docs.microsoft.com/previous-versions//dd797891(v=vs.85)
+        href: /previous-versions//dd797891(v=vs.85)
       - name: "DrawDibBegin"
         href: /windows/desktop/api/Vfw/nf-vfw-drawdibbegin
       - name: "DrawDibChangePalette"
@@ -1485,191 +1485,191 @@
       - name: "ICSetStatusProc"
         href: /windows/desktop/api/Vfw/nf-vfw-icsetstatusproc
       - name: "IOProc"
-        href: https://docs.microsoft.com/previous-versions//dd757098(v=vs.85)
+        href: /previous-versions//dd757098(v=vs.85)
       - name: "joyConfigChanged"
         href: /windows/desktop/api/joystickapi/nf-joystickapi-joyconfigchanged
       - name: "joyGetDevCaps"
-        href: https://docs.microsoft.com/previous-versions//dd757105(v=vs.85)
+        href: /previous-versions//dd757105(v=vs.85)
       - name: "joyGetNumDevs"
-        href: https://docs.microsoft.com/previous-versions//dd757106(v=vs.85)
+        href: /previous-versions//dd757106(v=vs.85)
       - name: "joyGetPos"
-        href: https://docs.microsoft.com/previous-versions//dd757107(v=vs.85)
+        href: /previous-versions//dd757107(v=vs.85)
       - name: "joyGetPosEx"
-        href: https://docs.microsoft.com/previous-versions//dd757108(v=vs.85)
+        href: /previous-versions//dd757108(v=vs.85)
       - name: "joyGetThreshold"
-        href: https://docs.microsoft.com/previous-versions//dd757109(v=vs.85)
+        href: /previous-versions//dd757109(v=vs.85)
       - name: "joyReleaseCapture"
-        href: https://docs.microsoft.com/previous-versions//dd757113(v=vs.85)
+        href: /previous-versions//dd757113(v=vs.85)
       - name: "joySetCapture"
-        href: https://docs.microsoft.com/previous-versions//dd757114(v=vs.85)
+        href: /previous-versions//dd757114(v=vs.85)
       - name: "joySetThreshold"
-        href: https://docs.microsoft.com/previous-versions//dd757115(v=vs.85)
+        href: /previous-versions//dd757115(v=vs.85)
       - name: "LPTIMECALLBACK"
-        href: https://docs.microsoft.com/previous-versions//ff728861(v=vs.85)
+        href: /previous-versions//ff728861(v=vs.85)
       - name: "mciExecute"
-        href: https://docs.microsoft.com/previous-versions//dd757154(v=vs.85)
+        href: /previous-versions//dd757154(v=vs.85)
       - name: "mciGetCreatorTask"
-        href: https://docs.microsoft.com/previous-versions//dd757155(v=vs.85)
+        href: /previous-versions//dd757155(v=vs.85)
       - name: "mciGetDeviceID"
-        href: https://docs.microsoft.com/previous-versions//dd757156(v=vs.85)
+        href: /previous-versions//dd757156(v=vs.85)
       - name: "mciGetDeviceIDFromElementID"
-        href: https://docs.microsoft.com/previous-versions//dd757157(v=vs.85)
+        href: /previous-versions//dd757157(v=vs.85)
       - name: "mciGetErrorString"
-        href: https://docs.microsoft.com/previous-versions//dd757158(v=vs.85)
+        href: /previous-versions//dd757158(v=vs.85)
       - name: "mciGetYieldProc"
-        href: https://docs.microsoft.com/previous-versions//dd757159(v=vs.85)
+        href: /previous-versions//dd757159(v=vs.85)
       - name: "mciSendCommand"
-        href: https://docs.microsoft.com/previous-versions//dd757160(v=vs.85)
+        href: /previous-versions//dd757160(v=vs.85)
       - name: "mciSendString"
-        href: https://docs.microsoft.com/previous-versions//dd757161(v=vs.85)
+        href: /previous-versions//dd757161(v=vs.85)
       - name: "mciSetYieldProc"
-        href: https://docs.microsoft.com/previous-versions//dd757163(v=vs.85)
+        href: /previous-versions//dd757163(v=vs.85)
       - name: "MCIWndCreate"
         href: /windows/desktop/api/Vfw/nf-vfw-mciwndcreatea
       - name: "MCIWndRegisterClass"
         href: /windows/desktop/api/Vfw/nf-vfw-mciwndregisterclass
       - name: "midiConnect"
-        href: https://docs.microsoft.com/previous-versions//dd798446(v=vs.85)
+        href: /previous-versions//dd798446(v=vs.85)
       - name: "midiDisconnect"
-        href: https://docs.microsoft.com/previous-versions//dd798447(v=vs.85)
+        href: /previous-versions//dd798447(v=vs.85)
       - name: "midiInAddBuffer"
-        href: https://docs.microsoft.com/previous-versions//dd798450(v=vs.85)
+        href: /previous-versions//dd798450(v=vs.85)
       - name: "midiInClose"
-        href: https://docs.microsoft.com/previous-versions//dd798452(v=vs.85)
+        href: /previous-versions//dd798452(v=vs.85)
       - name: "midiInGetDevCaps"
-        href: https://docs.microsoft.com/previous-versions//dd798453(v=vs.85)
+        href: /previous-versions//dd798453(v=vs.85)
       - name: "midiInGetErrorText"
-        href: https://docs.microsoft.com/previous-versions//dd798454(v=vs.85)
+        href: /previous-versions//dd798454(v=vs.85)
       - name: "midiInGetID"
-        href: https://docs.microsoft.com/previous-versions//dd798455(v=vs.85)
+        href: /previous-versions//dd798455(v=vs.85)
       - name: "midiInGetNumDevs"
-        href: https://docs.microsoft.com/previous-versions//dd798456(v=vs.85)
+        href: /previous-versions//dd798456(v=vs.85)
       - name: "midiInMessage"
-        href: https://docs.microsoft.com/previous-versions//dd798457(v=vs.85)
+        href: /previous-versions//dd798457(v=vs.85)
       - name: "midiInOpen"
-        href: https://docs.microsoft.com/previous-versions//dd798458(v=vs.85)
+        href: /previous-versions//dd798458(v=vs.85)
       - name: "midiInPrepareHeader"
-        href: https://docs.microsoft.com/previous-versions//dd798459(v=vs.85)
+        href: /previous-versions//dd798459(v=vs.85)
       - name: "MidiInProc"
-        href: https://docs.microsoft.com/previous-versions//dd798460(v=vs.85)
+        href: /previous-versions//dd798460(v=vs.85)
       - name: "midiInReset"
-        href: https://docs.microsoft.com/previous-versions//dd798461(v=vs.85)
+        href: /previous-versions//dd798461(v=vs.85)
       - name: "midiInStart"
-        href: https://docs.microsoft.com/previous-versions//dd798462(v=vs.85)
+        href: /previous-versions//dd798462(v=vs.85)
       - name: "midiInStop"
-        href: https://docs.microsoft.com/previous-versions//dd798463(v=vs.85)
+        href: /previous-versions//dd798463(v=vs.85)
       - name: "midiInUnprepareHeader"
-        href: https://docs.microsoft.com/previous-versions//dd798464(v=vs.85)
+        href: /previous-versions//dd798464(v=vs.85)
       - name: "midiOutCacheDrumPatches"
-        href: https://docs.microsoft.com/previous-versions//dd798465(v=vs.85)
+        href: /previous-versions//dd798465(v=vs.85)
       - name: "midiOutCachePatches"
-        href: https://docs.microsoft.com/previous-versions//dd798466(v=vs.85)
+        href: /previous-versions//dd798466(v=vs.85)
       - name: "midiOutClose"
-        href: https://docs.microsoft.com/previous-versions//dd798468(v=vs.85)
+        href: /previous-versions//dd798468(v=vs.85)
       - name: "midiOutGetDevCaps"
-        href: https://docs.microsoft.com/previous-versions//dd798469(v=vs.85)
+        href: /previous-versions//dd798469(v=vs.85)
       - name: "midiOutGetErrorText"
-        href: https://docs.microsoft.com/previous-versions//dd798470(v=vs.85)
+        href: /previous-versions//dd798470(v=vs.85)
       - name: "midiOutGetID"
-        href: https://docs.microsoft.com/previous-versions//dd798471(v=vs.85)
+        href: /previous-versions//dd798471(v=vs.85)
       - name: "midiOutGetNumDevs"
-        href: https://docs.microsoft.com/previous-versions//dd798472(v=vs.85)
+        href: /previous-versions//dd798472(v=vs.85)
       - name: "midiOutGetVolume"
-        href: https://docs.microsoft.com/previous-versions//dd798473(v=vs.85)
+        href: /previous-versions//dd798473(v=vs.85)
       - name: "midiOutLongMsg"
-        href: https://docs.microsoft.com/previous-versions//dd798474(v=vs.85)
+        href: /previous-versions//dd798474(v=vs.85)
       - name: "midiOutMessage"
-        href: https://docs.microsoft.com/previous-versions//dd798475(v=vs.85)
+        href: /previous-versions//dd798475(v=vs.85)
       - name: "midiOutOpen"
-        href: https://docs.microsoft.com/previous-versions//dd798476(v=vs.85)
+        href: /previous-versions//dd798476(v=vs.85)
       - name: "midiOutPrepareHeader"
-        href: https://docs.microsoft.com/previous-versions//dd798477(v=vs.85)
+        href: /previous-versions//dd798477(v=vs.85)
       - name: "MidiOutProc"
-        href: https://docs.microsoft.com/previous-versions//dd798478(v=vs.85)
+        href: /previous-versions//dd798478(v=vs.85)
       - name: "midiOutReset"
-        href: https://docs.microsoft.com/previous-versions//dd798479(v=vs.85)
+        href: /previous-versions//dd798479(v=vs.85)
       - name: "midiOutSetVolume"
-        href: https://docs.microsoft.com/previous-versions//dd798480(v=vs.85)
+        href: /previous-versions//dd798480(v=vs.85)
       - name: "midiOutShortMsg"
-        href: https://docs.microsoft.com/previous-versions//dd798481(v=vs.85)
+        href: /previous-versions//dd798481(v=vs.85)
       - name: "midiOutUnprepareHeader"
-        href: https://docs.microsoft.com/previous-versions//dd798482(v=vs.85)
+        href: /previous-versions//dd798482(v=vs.85)
       - name: "midiStreamClose"
-        href: https://docs.microsoft.com/previous-versions//dd798485(v=vs.85)
+        href: /previous-versions//dd798485(v=vs.85)
       - name: "midiStreamOpen"
-        href: https://docs.microsoft.com/previous-versions//dd798486(v=vs.85)
+        href: /previous-versions//dd798486(v=vs.85)
       - name: "midiStreamOut"
-        href: https://docs.microsoft.com/previous-versions//dd798487(v=vs.85)
+        href: /previous-versions//dd798487(v=vs.85)
       - name: "midiStreamPause"
-        href: https://docs.microsoft.com/previous-versions//dd798488(v=vs.85)
+        href: /previous-versions//dd798488(v=vs.85)
       - name: "midiStreamPosition"
-        href: https://docs.microsoft.com/previous-versions//dd798489(v=vs.85)
+        href: /previous-versions//dd798489(v=vs.85)
       - name: "midiStreamProperty"
-        href: https://docs.microsoft.com/previous-versions//dd798490(v=vs.85)
+        href: /previous-versions//dd798490(v=vs.85)
       - name: "midiStreamRestart"
-        href: https://docs.microsoft.com/previous-versions//dd798491(v=vs.85)
+        href: /previous-versions//dd798491(v=vs.85)
       - name: "midiStreamStop"
-        href: https://docs.microsoft.com/previous-versions//dd798492(v=vs.85)
+        href: /previous-versions//dd798492(v=vs.85)
       - name: "mixerClose"
-        href: https://docs.microsoft.com/previous-versions//dd757292(v=vs.85)
+        href: /previous-versions//dd757292(v=vs.85)
       - name: "mixerGetControlDetails"
-        href: https://docs.microsoft.com/previous-versions//dd757299(v=vs.85)
+        href: /previous-versions//dd757299(v=vs.85)
       - name: "mixerGetDevCaps"
-        href: https://docs.microsoft.com/previous-versions//dd757300(v=vs.85)
+        href: /previous-versions//dd757300(v=vs.85)
       - name: "mixerGetID"
-        href: https://docs.microsoft.com/previous-versions//dd757301(v=vs.85)
+        href: /previous-versions//dd757301(v=vs.85)
       - name: "mixerGetLineControls"
-        href: https://docs.microsoft.com/previous-versions//dd757302(v=vs.85)
+        href: /previous-versions//dd757302(v=vs.85)
       - name: "mixerGetLineInfo"
-        href: https://docs.microsoft.com/previous-versions//dd757303(v=vs.85)
+        href: /previous-versions//dd757303(v=vs.85)
       - name: "mixerGetNumDevs"
-        href: https://docs.microsoft.com/previous-versions//dd757304(v=vs.85)
+        href: /previous-versions//dd757304(v=vs.85)
       - name: "mixerMessage"
-        href: https://docs.microsoft.com/previous-versions//dd757307(v=vs.85)
+        href: /previous-versions//dd757307(v=vs.85)
       - name: "mixerOpen"
-        href: https://docs.microsoft.com/previous-versions//dd757308(v=vs.85)
+        href: /previous-versions//dd757308(v=vs.85)
       - name: "mixerSetControlDetails"
-        href: https://docs.microsoft.com/previous-versions//dd757309(v=vs.85)
+        href: /previous-versions//dd757309(v=vs.85)
       - name: "mmGetCurrentTask"
         href: /windows/desktop/api/Mmddk/nf-mmddk-mmgetcurrenttask
       - name: "mmioAdvance"
-        href: https://docs.microsoft.com/previous-versions//dd757314(v=vs.85)
+        href: /previous-versions//dd757314(v=vs.85)
       - name: "mmioAscend"
-        href: https://docs.microsoft.com/previous-versions//dd757315(v=vs.85)
+        href: /previous-versions//dd757315(v=vs.85)
       - name: "mmioClose"
-        href: https://docs.microsoft.com/previous-versions//dd757316(v=vs.85)
+        href: /previous-versions//dd757316(v=vs.85)
       - name: "mmioCreateChunk"
-        href: https://docs.microsoft.com/previous-versions//dd757317(v=vs.85)
+        href: /previous-versions//dd757317(v=vs.85)
       - name: "mmioDescend"
-        href: https://docs.microsoft.com/previous-versions//dd757318(v=vs.85)
+        href: /previous-versions//dd757318(v=vs.85)
       - name: "mmioFlush"
-        href: https://docs.microsoft.com/previous-versions//dd757319(v=vs.85)
+        href: /previous-versions//dd757319(v=vs.85)
       - name: "mmioGetInfo"
-        href: https://docs.microsoft.com/previous-versions//dd757321(v=vs.85)
+        href: /previous-versions//dd757321(v=vs.85)
       - name: "mmioInstallIOProc"
-        href: https://docs.microsoft.com/previous-versions//dd757323(v=vs.85)
+        href: /previous-versions//dd757323(v=vs.85)
       - name: "mmioOpen"
-        href: https://docs.microsoft.com/previous-versions//dd757331(v=vs.85)
+        href: /previous-versions//dd757331(v=vs.85)
       - name: "MMIOProc"
-        href: https://docs.microsoft.com/previous-versions//dd757332(v=vs.85)
+        href: /previous-versions//dd757332(v=vs.85)
       - name: "mmioRead"
-        href: https://docs.microsoft.com/previous-versions//dd757334(v=vs.85)
+        href: /previous-versions//dd757334(v=vs.85)
       - name: "mmioRename"
-        href: https://docs.microsoft.com/previous-versions//dd757335(v=vs.85)
+        href: /previous-versions//dd757335(v=vs.85)
       - name: "mmioSeek"
-        href: https://docs.microsoft.com/previous-versions//dd757336(v=vs.85)
+        href: /previous-versions//dd757336(v=vs.85)
       - name: "mmioSendMessage"
-        href: https://docs.microsoft.com/previous-versions//dd757337(v=vs.85)
+        href: /previous-versions//dd757337(v=vs.85)
       - name: "mmioSetBuffer"
-        href: https://docs.microsoft.com/previous-versions//dd757338(v=vs.85)
+        href: /previous-versions//dd757338(v=vs.85)
       - name: "mmioSetInfo"
-        href: https://docs.microsoft.com/previous-versions//dd757339(v=vs.85)
+        href: /previous-versions//dd757339(v=vs.85)
       - name: "mmioStringToFOURCC"
-        href: https://docs.microsoft.com/previous-versions//dd757340(v=vs.85)
+        href: /previous-versions//dd757340(v=vs.85)
       - name: "mmioWrite"
-        href: https://docs.microsoft.com/previous-versions//dd757341(v=vs.85)
+        href: /previous-versions//dd757341(v=vs.85)
       - name: "mmsystemGetVersion"
-        href: https://docs.microsoft.com/previous-versions//dd757342(v=vs.85)
+        href: /previous-versions//dd757342(v=vs.85)
       - name: "mmTaskBlock"
         href: /windows/desktop/api/Mmddk/nf-mmddk-mmtaskblock
       - name: "mmTaskCreate"
@@ -1679,13 +1679,13 @@
       - name: "mmTaskYield"
         href: /windows/desktop/api/Mmddk/nf-mmddk-mmtaskyield
       - name: "MyStatusProc"
-        href: https://docs.microsoft.com/previous-versions//dd743620(v=vs.85)
+        href: /previous-versions//dd743620(v=vs.85)
       - name: "PlaySound"
-        href: https://docs.microsoft.com/previous-versions//dd743680(v=vs.85)
+        href: /previous-versions//dd743680(v=vs.85)
       - name: "sndOpenSound"
         href: /windows/desktop/api/mmiscapi/nf-mmiscapi-sndopensound
       - name: "sndPlaySound"
-        href: https://docs.microsoft.com/previous-versions//dd798676(v=vs.85)
+        href: /previous-versions//dd798676(v=vs.85)
       - name: "StretchDIB"
         href: /windows/desktop/api/Vfw/nf-vfw-stretchdib
       - name: "timeBeginPeriod"
@@ -1699,85 +1699,85 @@
       - name: "timeGetTime"
         href: /windows/desktop/api/TimeAPI/nf-timeapi-timegettime
       - name: "timeKillEvent"
-        href: https://docs.microsoft.com/previous-versions//dd757630(v=vs.85)
+        href: /previous-versions//dd757630(v=vs.85)
       - name: "TimeProc"
-        href: https://docs.microsoft.com/previous-versions//dd757631(v=vs.85)
+        href: /previous-versions//dd757631(v=vs.85)
       - name: "timeSetEvent"
-        href: https://docs.microsoft.com/previous-versions//dd757634(v=vs.85)
+        href: /previous-versions//dd757634(v=vs.85)
       - name: "waveInAddBuffer"
-        href: https://docs.microsoft.com/previous-versions//dd743838(v=vs.85)
+        href: /previous-versions//dd743838(v=vs.85)
       - name: "waveInClose"
-        href: https://docs.microsoft.com/previous-versions//dd743840(v=vs.85)
+        href: /previous-versions//dd743840(v=vs.85)
       - name: "waveInGetDevCaps"
-        href: https://docs.microsoft.com/previous-versions//dd743841(v=vs.85)
+        href: /previous-versions//dd743841(v=vs.85)
       - name: "waveInGetErrorText"
-        href: https://docs.microsoft.com/previous-versions//dd743842(v=vs.85)
+        href: /previous-versions//dd743842(v=vs.85)
       - name: "waveInGetID"
-        href: https://docs.microsoft.com/previous-versions//dd743843(v=vs.85)
+        href: /previous-versions//dd743843(v=vs.85)
       - name: "waveInGetNumDevs"
-        href: https://docs.microsoft.com/previous-versions//dd743844(v=vs.85)
+        href: /previous-versions//dd743844(v=vs.85)
       - name: "waveInGetPosition"
-        href: https://docs.microsoft.com/previous-versions//dd743845(v=vs.85)
+        href: /previous-versions//dd743845(v=vs.85)
       - name: "waveInMessage"
-        href: https://docs.microsoft.com/previous-versions//dd743846(v=vs.85)
+        href: /previous-versions//dd743846(v=vs.85)
       - name: "waveInOpen"
-        href: https://docs.microsoft.com/previous-versions//dd743847(v=vs.85)
+        href: /previous-versions//dd743847(v=vs.85)
       - name: "waveInPrepareHeader"
-        href: https://docs.microsoft.com/previous-versions//dd743848(v=vs.85)
+        href: /previous-versions//dd743848(v=vs.85)
       - name: "waveInProc"
-        href: https://docs.microsoft.com/previous-versions//dd743849(v=vs.85)
+        href: /previous-versions//dd743849(v=vs.85)
       - name: "waveInReset"
-        href: https://docs.microsoft.com/previous-versions//dd743850(v=vs.85)
+        href: /previous-versions//dd743850(v=vs.85)
       - name: "waveInStart"
-        href: https://docs.microsoft.com/previous-versions//dd743851(v=vs.85)
+        href: /previous-versions//dd743851(v=vs.85)
       - name: "waveInStop"
-        href: https://docs.microsoft.com/previous-versions//dd743852(v=vs.85)
+        href: /previous-versions//dd743852(v=vs.85)
       - name: "waveInUnprepareHeader"
-        href: https://docs.microsoft.com/previous-versions//dd743853(v=vs.85)
+        href: /previous-versions//dd743853(v=vs.85)
       - name: "waveOutBreakLoop"
-        href: https://docs.microsoft.com/previous-versions//dd743854(v=vs.85)
+        href: /previous-versions//dd743854(v=vs.85)
       - name: "waveOutClose"
-        href: https://docs.microsoft.com/previous-versions//dd743856(v=vs.85)
+        href: /previous-versions//dd743856(v=vs.85)
       - name: "waveOutGetDevCaps"
-        href: https://docs.microsoft.com/previous-versions//dd743857(v=vs.85)
+        href: /previous-versions//dd743857(v=vs.85)
       - name: "waveOutGetErrorText"
-        href: https://docs.microsoft.com/previous-versions//dd743858(v=vs.85)
+        href: /previous-versions//dd743858(v=vs.85)
       - name: "waveOutGetID"
-        href: https://docs.microsoft.com/previous-versions//dd743859(v=vs.85)
+        href: /previous-versions//dd743859(v=vs.85)
       - name: "waveOutGetNumDevs"
-        href: https://docs.microsoft.com/previous-versions//dd743860(v=vs.85)
+        href: /previous-versions//dd743860(v=vs.85)
       - name: "waveOutGetPitch"
-        href: https://docs.microsoft.com/previous-versions//dd743861(v=vs.85)
+        href: /previous-versions//dd743861(v=vs.85)
       - name: "waveOutGetPlaybackRate"
-        href: https://docs.microsoft.com/previous-versions//dd743862(v=vs.85)
+        href: /previous-versions//dd743862(v=vs.85)
       - name: "waveOutGetPosition"
-        href: https://docs.microsoft.com/previous-versions//dd743863(v=vs.85)
+        href: /previous-versions//dd743863(v=vs.85)
       - name: "waveOutGetVolume"
-        href: https://docs.microsoft.com/previous-versions//dd743864(v=vs.85)
+        href: /previous-versions//dd743864(v=vs.85)
       - name: "waveOutMessage"
-        href: https://docs.microsoft.com/previous-versions//dd743865(v=vs.85)
+        href: /previous-versions//dd743865(v=vs.85)
       - name: "waveOutOpen"
-        href: https://docs.microsoft.com/previous-versions//dd743866(v=vs.85)
+        href: /previous-versions//dd743866(v=vs.85)
       - name: "waveOutPause"
-        href: https://docs.microsoft.com/previous-versions//dd743867(v=vs.85)
+        href: /previous-versions//dd743867(v=vs.85)
       - name: "waveOutPrepareHeader"
-        href: https://docs.microsoft.com/previous-versions//dd743868(v=vs.85)
+        href: /previous-versions//dd743868(v=vs.85)
       - name: "waveOutProc"
-        href: https://docs.microsoft.com/previous-versions//dd743869(v=vs.85)
+        href: /previous-versions//dd743869(v=vs.85)
       - name: "waveOutReset"
-        href: https://docs.microsoft.com/previous-versions//dd743870(v=vs.85)
+        href: /previous-versions//dd743870(v=vs.85)
       - name: "waveOutRestart"
-        href: https://docs.microsoft.com/previous-versions//dd743871(v=vs.85)
+        href: /previous-versions//dd743871(v=vs.85)
       - name: "waveOutSetPitch"
-        href: https://docs.microsoft.com/previous-versions//dd743872(v=vs.85)
+        href: /previous-versions//dd743872(v=vs.85)
       - name: "waveOutSetPlaybackRate"
-        href: https://docs.microsoft.com/previous-versions//dd743873(v=vs.85)
+        href: /previous-versions//dd743873(v=vs.85)
       - name: "waveOutSetVolume"
-        href: https://docs.microsoft.com/previous-versions//dd743874(v=vs.85)
+        href: /previous-versions//dd743874(v=vs.85)
       - name: "waveOutUnprepareHeader"
-        href: https://docs.microsoft.com/previous-versions//dd743875(v=vs.85)
+        href: /previous-versions//dd743875(v=vs.85)
       - name: "waveOutWrite"
-        href: https://docs.microsoft.com/previous-versions//dd743876(v=vs.85)
+        href: /previous-versions//dd743876(v=vs.85)
     - name: "Multimedia Structures"
       href: multimedia-structures.md
       items: 
@@ -1798,7 +1798,7 @@
       - name: "ACMSTREAMHEADER"
         href: /windows/desktop/api/Msacm/ns-msacm-acmstreamheader
       - name: "AUXCAPS"
-        href: https://docs.microsoft.com/previous-versions//dd756711(v=vs.85)
+        href: /previous-versions//dd756711(v=vs.85)
       - name: "AVICOMPRESSOPTIONS"
         href: /windows/desktop/api/Vfw/ns-vfw-avicompressoptions
       - name: "AVIFILEINFO"
@@ -1838,11 +1838,11 @@
       - name: "ICSETSTATUSPROC"
         href: /windows/desktop/api/Vfw/ns-vfw-icsetstatusproc
       - name: "JOYCAPS"
-        href: https://docs.microsoft.com/previous-versions//dd757103(v=vs.85)
+        href: /previous-versions//dd757103(v=vs.85)
       - name: "JOYINFO"
-        href: https://docs.microsoft.com/previous-versions//dd757110(v=vs.85)
+        href: /previous-versions//dd757110(v=vs.85)
       - name: "JOYINFOEX"
-        href: https://docs.microsoft.com/previous-versions//dd757112(v=vs.85)
+        href: /previous-versions//dd757112(v=vs.85)
       - name: "MCI_BREAK_PARMS"
         href: mci-break-parms.md
       - name: "MCI_DGV_CAPTURE_PARMS"
@@ -1862,7 +1862,7 @@
       - name: "MCI_DGV_LIST_PARMS"
         href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_list_parmsa
       - name: "MCI_DGV_LOAD_PARMS"
-        href: https://docs.microsoft.com/previous-versions//dd743391(v=vs.85)
+        href: /previous-versions//dd743391(v=vs.85)
       - name: "MCI_DGV_MONITOR_PARMS"
         href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_monitor_parms
       - name: "MCI_DGV_OPEN_PARMS"
@@ -1870,23 +1870,23 @@
       - name: "MCI_DGV_PASTE_PARMS"
         href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_paste_parms
       - name: "MCI_DGV_PAUSE_PARMS"
-        href: https://docs.microsoft.com/previous-versions//dd743395(v=vs.85)
+        href: /previous-versions//dd743395(v=vs.85)
       - name: "MCI_DGV_PLAY_PARMS"
-        href: https://docs.microsoft.com/previous-versions//dd743396(v=vs.85)
+        href: /previous-versions//dd743396(v=vs.85)
       - name: "MCI_DGV_PUT_PARMS"
-        href: https://docs.microsoft.com/previous-versions//dd743397(v=vs.85)
+        href: /previous-versions//dd743397(v=vs.85)
       - name: "MCI_DGV_QUALITY_PARMS"
         href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_quality_parmsa
       - name: "MCI_DGV_RECORD_PARMS"
         href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_record_parms
       - name: "MCI_DGV_RECT_PARMS"
-        href: https://docs.microsoft.com/windows/desktop/api/digitalv/ns-digitalv-mci_dgv_rect_parms
+        href: /windows/desktop/api/digitalv/ns-digitalv-mci_dgv_rect_parms
       - name: "MCI_DGV_RESERVE_PARMS"
         href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_reserve_parmsa
       - name: "MCI_DGV_RESTORE_PARMS"
         href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_restore_parmsa
       - name: "MCI_DGV_RESUME_PARMS"
-        href: https://docs.microsoft.com/previous-versions//dd743403(v=vs.85)
+        href: /previous-versions//dd743403(v=vs.85)
       - name: "MCI_DGV_SAVE_PARMS"
         href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_save_parmsa
       - name: "MCI_DGV_SET_PARMS"
@@ -1902,7 +1902,7 @@
       - name: "MCI_DGV_STEP_PARMS"
         href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_step_parms
       - name: "MCI_DGV_STOP_PARMS"
-        href: https://docs.microsoft.com/previous-versions//dd743411(v=vs.85)
+        href: /previous-versions//dd743411(v=vs.85)
       - name: "MCI_DGV_UPDATE_PARMS"
         href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_update_parms
       - name: "MCI_DGV_WINDOW_PARMS"
@@ -1924,7 +1924,7 @@
       - name: "MCI_OVLY_RECT_PARMS"
         href: mci-ovly-rect-parms.md
       - name: "MCI_OVLY_SAVE_PARMS"
-        href: https://docs.microsoft.com/previous-versions//dd743447(v=vs.85)
+        href: /previous-versions//dd743447(v=vs.85)
       - name: "MCI_OVLY_WINDOW_PARMS"
         href: mci-ovly-window-parms.md
       - name: "MCI_PLAY_PARMS"
@@ -1978,45 +1978,45 @@
       - name: "MCI_WAVE_SET_PARMS"
         href: mci-wave-set-parms.md
       - name: "MIDIEVENT"
-        href: https://docs.microsoft.com/previous-versions//dd798448(v=vs.85)
+        href: /previous-versions//dd798448(v=vs.85)
       - name: "MIDIHDR"
-        href: https://docs.microsoft.com/previous-versions//dd798449(v=vs.85)
+        href: /previous-versions//dd798449(v=vs.85)
       - name: "MIDIINCAPS"
-        href: https://docs.microsoft.com/previous-versions//dd798451(v=vs.85)
+        href: /previous-versions//dd798451(v=vs.85)
       - name: "MIDIOUTCAPS"
-        href: https://docs.microsoft.com/previous-versions//dd798467(v=vs.85)
+        href: /previous-versions//dd798467(v=vs.85)
       - name: "MIDIPROPTEMPO"
-        href: https://docs.microsoft.com/previous-versions//dd798483(v=vs.85)
+        href: /previous-versions//dd798483(v=vs.85)
       - name: "MIDIPROPTIMEDIV"
-        href: https://docs.microsoft.com/previous-versions//dd798484(v=vs.85)
+        href: /previous-versions//dd798484(v=vs.85)
       - name: "MIDISTRMBUFFVER"
-        href: https://docs.microsoft.com/previous-versions//dd798493(v=vs.85)
+        href: /previous-versions//dd798493(v=vs.85)
       - name: "MIXERCAPS"
-        href: https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercapsa
+        href: /windows/desktop/api/mmeapi/ns-mmeapi-mixercapsa
       - name: "MIXERCONTROL"
-        href: https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercontrola
+        href: /windows/desktop/api/mmeapi/ns-mmeapi-mixercontrola
       - name: "MIXERCONTROLDETAILS"
         href: /windows/win32/api/mmeapi/ns-mmeapi-mixercontroldetails_listtexta
       - name: "MIXERCONTROLDETAILS_BOOLEAN"
-        href: https://docs.microsoft.com/previous-versions//dd757295(v=vs.85)
+        href: /previous-versions//dd757295(v=vs.85)
       - name: "MIXERCONTROLDETAILS_LISTTEXT"
-        href: https://docs.microsoft.com/previous-versions//dd757296(v=vs.85)
+        href: /previous-versions//dd757296(v=vs.85)
       - name: "MIXERCONTROLDETAILS_SIGNED"
-        href: https://docs.microsoft.com/previous-versions//dd757297(v=vs.85)
+        href: /previous-versions//dd757297(v=vs.85)
       - name: "MIXERCONTROLDETAILS_UNSIGNED"
-        href: https://docs.microsoft.com/previous-versions//dd757298(v=vs.85)
+        href: /previous-versions//dd757298(v=vs.85)
       - name: "MIXERLINE"
-        href: https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixerlinea
+        href: /windows/desktop/api/mmeapi/ns-mmeapi-mixerlinea
       - name: "MIXERLINECONTROLS"
-        href: https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixerlinecontrolsa
+        href: /windows/desktop/api/mmeapi/ns-mmeapi-mixerlinecontrolsa
       - name: "MMCKINFO"
-        href: https://docs.microsoft.com/previous-versions//dd757312(v=vs.85)
+        href: /previous-versions//dd757312(v=vs.85)
       - name: "MMIOINFO"
-        href: https://docs.microsoft.com/previous-versions//dd757322(v=vs.85)
+        href: /previous-versions//dd757322(v=vs.85)
       - name: "MMTIME"
-        href: https://docs.microsoft.com/previous-versions//dd757347(v=vs.85)
+        href: /previous-versions//dd757347(v=vs.85)
       - name: "PCMWAVEFORMAT"
-        href: https://docs.microsoft.com/previous-versions//dd743663(v=vs.85)
+        href: /previous-versions//dd743663(v=vs.85)
       - name: "TIMECAPS"
         href: /windows/win32/api/TimeAPI/ns-timeapi-timecaps
       - name: "VIDEOHDR"
@@ -2026,15 +2026,15 @@
       - name: "WAVEFORMAT"
         href: /windows/desktop/api/mmeapi/ns-mmeapi-waveformat
       - name: "WAVEFORMATEX"
-        href: https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)
+        href: /previous-versions//dd757713(v=vs.85)
       - name: "WAVEFORMATEXTENSIBLE"
-        href: https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-waveformatextensible
+        href: /windows/desktop/api/mmreg/ns-mmreg-waveformatextensible
       - name: "WAVEHDR"
-        href: https://docs.microsoft.com/previous-versions//dd743837(v=vs.85)
+        href: /previous-versions//dd743837(v=vs.85)
       - name: "WAVEINCAPS"
-        href: https://docs.microsoft.com/previous-versions//dd743839(v=vs.85)
+        href: /previous-versions//dd743839(v=vs.85)
       - name: "WAVEOUTCAPS"
-        href: https://docs.microsoft.com/previous-versions//dd743855(v=vs.85)
+        href: /previous-versions//dd743855(v=vs.85)
     - name: "Multimedia Macros"
       href: multimedia-macros.md
       items: 
@@ -2285,7 +2285,7 @@
       - name: "MCI_MAKE_TMSF"
         href: mci-make-tmsf.md
       - name: "MCI_MSF_FRAME"
-        href: https://docs.microsoft.com/previous-versions//dd743438(v=vs.85)
+        href: /previous-versions//dd743438(v=vs.85)
       - name: "MCI_MSF_MINUTE"
         href: mci-msf-minute.md
       - name: "MCI_MSF_SECOND"
@@ -2437,15 +2437,15 @@
       - name: "MCIWndValidateMedia"
         href: /windows/desktop/api/Vfw/nf-vfw-mciwndvalidatemedia
       - name: "MEVT_EVENTPARM"
-        href: https://docs.microsoft.com/previous-versions//dd798441(v=vs.85)
+        href: /previous-versions//dd798441(v=vs.85)
       - name: "MEVT_EVENTTYPE"
-        href: https://docs.microsoft.com/previous-versions//dd798442(v=vs.85)
+        href: /previous-versions//dd798442(v=vs.85)
       - name: "min"
         href: min.md
       - name: "mmioFOURCC"
-        href: https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mmiofourcc
+        href: /windows/desktop/api/vfw/nf-vfw-mmiofourcc
       - name: "sndAlias"
-        href: https://docs.microsoft.com/previous-versions//dd798675(v=vs.85)
+        href: /previous-versions//dd798675(v=vs.85)
     - name: "Multimedia Messages"
       href: multimedia-messages.md
       items: 

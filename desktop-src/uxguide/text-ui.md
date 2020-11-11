@@ -3,10 +3,13 @@ title: User Interface Text
 description: User interface text appears on UI surfaces.
 ms.assetid: db42fe22-9baf-453a-9b89-9bbb251b0b6f
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # User Interface Text
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 User interface text appears on UI surfaces. This text includes control labels and static text:
 
@@ -182,7 +185,7 @@ For more information and examples, see [Fonts](vis-fonts.md) and [Color](vis-col
 
     The terms document and file are often used interchangeably.
 
--   Use for [prompts](glossary.md) in [text boxes](ctrl-text-boxes.md) and [editable drop-down lists](https://docs.microsoft.com/windows/desktop/uxguide/ctrl-drop).
+-   Use for [prompts](glossary.md) in [text boxes](ctrl-text-boxes.md) and [editable drop-down lists](/windows/desktop/uxguide/ctrl-drop).
 
     ![screen shot of search text box ](images/text-ui-image26.png)
 
@@ -614,10 +617,4 @@ The following table shows the most common commit button labels and their usage.
  
 
  
-
- 
-
-
-
-
 

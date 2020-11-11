@@ -92,7 +92,7 @@ A pointer to a variable that receives the number of bytes stored into the buffer
 *pType* \[out\]
 </dt> <dd>
 
-A pointer to a variable that receives a code indicating the type of data stored in the specified value. For a list of the possible type codes, see [Registry Value Types](https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types). The *pType* parameter can be **NULL** if the type code is not required.
+A pointer to a variable that receives a code indicating the type of data stored in the specified value. For a list of the possible type codes, see [Registry Value Types](/windows/desktop/SysInfo/registry-value-types). The *pType* parameter can be **NULL** if the type code is not required.
 
 </dd> <dt>
 
@@ -188,9 +188,4 @@ If you want to have the operating system supply an adequate buffer size, first c
 </dt> </dl>
 
  
-
- 
-
-
-
 

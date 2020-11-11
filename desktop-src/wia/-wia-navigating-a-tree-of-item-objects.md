@@ -13,7 +13,7 @@ api_location:
 # Navigating a Tree of Item Objects
 
 > [!Note]  
-> This scripting system has been replaced with Windows Image Acquisition (WIA) Automation Layer. See [Windows Image Acquisition Automation Layer](https://docs.microsoft.com/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage).
+> This scripting system has been replaced with Windows Image Acquisition (WIA) Automation Layer. See [Windows Image Acquisition Automation Layer](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage).
 
  
 
@@ -28,6 +28,3 @@ Enumerate this collection (recursively, if necessary) to navigate item tree.
  
 
  
-
-
-

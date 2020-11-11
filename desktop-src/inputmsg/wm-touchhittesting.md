@@ -21,7 +21,7 @@ ms.date: 02/03/2020
 Sent to a window on a touch down in order to determine the most probable touch target.
 
 > \[!Important\]  
-> Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
+> Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](/previous-versions//dd464660(v=vs.85)).
 
  
 
@@ -46,21 +46,21 @@ Unused.
 *lParam* 
 </dt> <dd>
 
-Pointer to the [**TOUCH_HIT_TESTING_INPUT**](https://msdn.microsoft.com/library/windows/desktop/hh437254) structure that holds the touch contact area data.
+Pointer to the [**TOUCH_HIT_TESTING_INPUT**](/windows/win32/api/winuser/ns-winuser-touch_hit_testing_input) structure that holds the touch contact area data.
 
 </dd> </dl>
 
 ## Return value
 
-If one or more elements are within the touch contact area, an application should return the result of [**PackTouchHitTestingProximityEvaluation**](https://msdn.microsoft.com/library/windows/desktop/hh437250).
+If one or more elements are within the touch contact area, an application should return the result of [**PackTouchHitTestingProximityEvaluation**](/windows/win32/api/winuser/nf-winuser-packtouchhittestingproximityevaluation).
 
-If no elements are within the touch contact area, an application should set the value of **score** in [**TOUCH_HIT_TESTING_PROXIMITY_EVALUATION**](https://msdn.microsoft.com/library/windows/desktop/hh437256) to [**TOUCH_HIT_TESTING_PROXIMITY_FARTHEST**](https://msdn.microsoft.com/library/windows/desktop/hh437249) and call [**PackTouchHitTestingProximityEvaluation**](https://msdn.microsoft.com/library/windows/desktop/hh437250) to get the LRESULT return value.
+If no elements are within the touch contact area, an application should set the value of **score** in [**TOUCH_HIT_TESTING_PROXIMITY_EVALUATION**](/windows/win32/api/winuser/ns-winuser-touch_hit_testing_proximity_evaluation) to [**TOUCH_HIT_TESTING_PROXIMITY_FARTHEST**](/previous-versions/windows/desktop/input_touchhittest/hit-testing-scores) and call [**PackTouchHitTestingProximityEvaluation**](/windows/win32/api/winuser/nf-winuser-packtouchhittestingproximityevaluation) to get the LRESULT return value.
 
-If the application does not process this message, it must call [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572).
+If the application does not process this message, it must call [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
 ## Remarks
 
-This message is sent to windows that register through the [**RegisterTouchHitTestingWindow**](https://msdn.microsoft.com/library/windows/desktop/hh437252) function.
+This message is sent to windows that register through the [**RegisterTouchHitTestingWindow**](/windows/win32/api/winuser/nf-winuser-registertouchhittestingwindow) function.
 
 ## Requirements
 
@@ -81,14 +81,8 @@ This message is sent to windows that register through the [**RegisterTouchHitTes
 [Messages](messages.md)
 </dt> <dt>
 
-[**Touch Hit Testing Scores**](https://msdn.microsoft.com/library/windows/desktop/hh437249)
+[**Touch Hit Testing Scores**](/previous-versions/windows/desktop/input_touchhittest/hit-testing-scores)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

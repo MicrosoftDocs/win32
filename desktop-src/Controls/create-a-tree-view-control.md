@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Create a Tree-View Control
 
-To create a tree-view control, use the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specifying the [**WC\_TREEVIEW**](common-control-window-classes.md) value for the window class. The tree-view window class is registered in the application's address space when the common control DLL is loaded. To ensure that the DLL is loaded, use the [**InitCommonControls**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrols) function.
+To create a tree-view control, use the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specifying the [**WC\_TREEVIEW**](common-control-window-classes.md) value for the window class. The tree-view window class is registered in the application's address space when the common control DLL is loaded. To ensure that the DLL is loaded, use the [**InitCommonControls**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrols) function.
 
 ## What you need to know
 
@@ -78,7 +78,7 @@ HWND CreateATreeView(HWND hwndParent)
 
 ## Remarks
 
-When you create a tree-view control, you can also send it a [**WM\_SETFONT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-setfont) message to set the font to be used for the text. You should send this message before inserting any items. By default, a tree view uses the icon title font. Although you can customize the font per-item by using [Custom Draw](custom-draw.md), the tree-view control uses the dimensions of the font specified by the **WM\_SETFONT** message to determine spacing and layout.
+When you create a tree-view control, you can also send it a [**WM\_SETFONT**](/windows/desktop/winmsg/wm-setfont) message to set the font to be used for the text. You should send this message before inserting any items. By default, a tree view uses the icon title font. Although you can customize the font per-item by using [Custom Draw](custom-draw.md), the tree-view control uses the dimensions of the font specified by the **WM\_SETFONT** message to determine spacing and layout.
 
 ## Related topics
 
@@ -93,7 +93,3 @@ When you create a tree-view control, you can also send it a [**WM\_SETFONT**](ht
  
 
  
-
-
-
-

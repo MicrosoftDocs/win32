@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 \[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
 
-Defines constants that specify what kind of PRI file(s) should be created by [**MrmCreateResourceFile**](mrmcreateresourcefile.md) and [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md). For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems).
+Defines constants that specify what kind of PRI file(s) should be created by [**MrmCreateResourceFile**](mrmcreateresourcefile.md) and [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md). For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
 
 ## Syntax
 
@@ -76,14 +76,8 @@ Specifies that an add-on satellite PRI file should be created.
 
 <dl> <dt>
 
-[Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems)
+[Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

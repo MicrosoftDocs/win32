@@ -61,7 +61,7 @@ Pointer to a [**CALDATETIME**](caldatetime.md) structure defining the maximum su
 
 ## Return value
 
-Returns **TRUE** if successful or **FALSE** otherwise. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx), which can return one of the following error codes:
+Returns **TRUE** if successful or **FALSE** otherwise. To get extended error information, the application can call [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror), which can return one of the following error codes:
 
 -   ERROR\_INVALID\_PARAMETER. Any of the parameter values was invalid.
 
@@ -69,7 +69,7 @@ Returns **TRUE** if successful or **FALSE** otherwise. To get extended error inf
 
 The earliest date supported by this function is January 1, 1601.
 
-This function does not have an associated header file or library file. The application can call [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) with the DLL name (Kernel32.dll) to obtain a module handle. It can then call [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) with the module handle and the name of this function to get the function address.
+This function does not have an associated header file or library file. The application can call [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) with the DLL name (Kernel32.dll) to obtain a module handle. It can then call [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) with the module handle and the name of this function to get the function address.
 
 ## Requirements
 
@@ -99,7 +99,3 @@ This function does not have an associated header file or library file. The appli
  
 
  
-
-
-
-

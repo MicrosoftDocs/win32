@@ -27,13 +27,11 @@ The list box has the [**LBS\_OWNERDRAWFIXED**](list-box-styles.md) and [**LBS\_H
 
 ## Instructions
 
-### 
 
 To initialize an owner-drawn list box, your application must load the text string and associated bitmap for each list box item.
 
 In the following C++ code example, the dialog box procedure initializes the list box, **IDC\_LIST\_STUFF**, by sending the [**LB\_ADDSTRING**](lb-addstring.md) message to set the text, and then sends the [**LB\_SETITEMDATA**](lb-setitemdata.md) message to associate a bitmap with each list box item. The code also sets the height of each list box item by processing the [**WM\_MEASUREITEM**](wm-measureitem.md) message and draws the text and bitmap for each item by processing the [**WM\_DRAWITEM**](wm-drawitem.md) message.
 
-## 
 
 
 ```C++

@@ -39,7 +39,7 @@ To establish a password for a **RunAs** class, you must use the DCOMCNFG adminis
 
 For **RunAs** identities used by DCOM servers, the user account specified in the value must have the rights to log on as a batch job. This right can be added using Local Security Policy administrative tool. Go to **Local Policies** and open **User Rights Assignment**. Select **Log on as a batch job**, and add the user account.
 
-The **RunAs** value is not used for servers configured to be run as services. COM services that need to run under an identity other than LocalSystem should set the appropriate user name and password using the services control panel applet or the service controller functions. (For more information about these functions, see [Services](https://docs.microsoft.com/windows/desktop/Services/services).)
+The **RunAs** value is not used for servers configured to be run as services. COM services that need to run under an identity other than LocalSystem should set the appropriate user name and password using the services control panel applet or the service controller functions. (For more information about these functions, see [Services](/windows/desktop/Services/services).)
 
 > [!Note]  
 > As of Microsoft Windows Server 2003, the class AppID is explicitly read from **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\AppID**, which, unlike most registry keys, is not interchangeable with **HKEY\_CLASSES\_ROOT\\AppID**.
@@ -56,7 +56,3 @@ The **RunAs** value is not used for servers configured to be run as services. CO
  
 
  
-
-
-
-

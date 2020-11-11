@@ -62,7 +62,7 @@ Data type: **String**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Gets the X.500 path for the naming context (NC) that holds this cursor.
@@ -91,7 +91,7 @@ Data type: **String**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Gets the invocation identifier of the originating server to which the **USNAttributeFilter** corresponds.
@@ -146,10 +146,4 @@ Gets the maximum update sequence number to which the destination server can indi
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

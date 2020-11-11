@@ -18,24 +18,19 @@ You can pass a directory handle to the following functions.
 
 | Function                                                         | Description                                                                                                                                                      |
 |------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**BackupRead**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupread)                              | Back up a file or directory, including the security information.<br/>                                                                                      |
-| [**BackupSeek**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupseek)                              | Seeks forward in a data stream initially accessed by using the [**BackupRead**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupread) or [**BackupWrite**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupwrite) function.<br/> |
-| [**BackupWrite**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupwrite)                            | Restore a file or directory that was backed up using [**BackupRead**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupread).<br/>                                                             |
+| [**BackupRead**](/windows/desktop/api/winbase/nf-winbase-backupread)                              | Back up a file or directory, including the security information.<br/>                                                                                      |
+| [**BackupSeek**](/windows/desktop/api/winbase/nf-winbase-backupseek)                              | Seeks forward in a data stream initially accessed by using the [**BackupRead**](/windows/desktop/api/winbase/nf-winbase-backupread) or [**BackupWrite**](/windows/desktop/api/winbase/nf-winbase-backupwrite) function.<br/> |
+| [**BackupWrite**](/windows/desktop/api/winbase/nf-winbase-backupwrite)                            | Restore a file or directory that was backed up using [**BackupRead**](/windows/desktop/api/winbase/nf-winbase-backupread).<br/>                                                             |
 | [**GetFileInformationByHandle**](/windows/desktop/api/FileAPI/nf-fileapi-getfileinformationbyhandle) | Retrieves file information for the specified file.<br/>                                                                                                    |
 | [**GetFileSize**](/windows/desktop/api/FileAPI/nf-fileapi-getfilesize)                               | Retrieves the size of the specified file, in bytes.<br/>                                                                                                   |
-| [**GetFileTime**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfiletime)                              | Retrieves the date and time that a file or directory was created, last accessed, and last modified.<br/>                                                   |
+| [**GetFileTime**](/windows/desktop/api/fileapi/nf-fileapi-getfiletime)                              | Retrieves the date and time that a file or directory was created, last accessed, and last modified.<br/>                                                   |
 | [**GetFileType**](/windows/desktop/api/FileAPI/nf-fileapi-getfiletype)                               | Retrieves the file type of the specified file.<br/>                                                                                                        |
 | [**ReadDirectoryChangesW**](/windows/desktop/api/WinBase/nf-winbase-readdirectorychangesw)           | Retrieves information that describes the changes within the specified directory.<br/>                                                                      |
-| [**SetFileTime**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfiletime)                              | Sets the date and time that the specified file or directory was created, last accessed, or last modified.<br/>                                             |
+| [**SetFileTime**](/windows/desktop/api/fileapi/nf-fileapi-setfiletime)                              | Sets the date and time that the specified file or directory was created, last accessed, or last modified.<br/>                                             |
 
 
 
  
 
  
-
- 
-
-
-
 

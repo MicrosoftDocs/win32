@@ -12,26 +12,22 @@ ms.date: 05/31/2018
 
 # Adding or Deleting an Application Directory Partition Replica
 
-The first replica of an application directory partition is created on the domain controller that was bound to it at creation time. Additional replicas can be created on any domain controller in the forest, not necessarily in the same domain as the initial domain controller. An application directory partition replica can only exist on a domain controller that is running Windows Server 2003 or later. For more information, see this TechNet article on [Partition Management](https://TechNet.Microsoft.Com/library/cc730970(WS.10).aspx).
+The first replica of an application directory partition is created on the domain controller that was bound to it at creation time. Additional replicas can be created on any domain controller in the forest, not necessarily in the same domain as the initial domain controller. An application directory partition replica can only exist on a domain controller that is running Windows Server 2003 or later. For more information, see this TechNet article on [Partition Management](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730970(v=ws.10)).
 
 **To add a replica for an application directory partition, perform the following steps**
 
-1.  Search the Partitions container for a [**crossRef**](https://docs.microsoft.com/windows/desktop/ADSchema/c-crossref) object that has an [**nCName**](https://docs.microsoft.com/windows/desktop/ADSchema/a-ncname) attribute value that is equal to the distinguished name of the application directory partition.
-2.  Bind to the [**crossRef**](https://docs.microsoft.com/windows/desktop/ADSchema/c-crossref) object with delegation enabled. This is required because the **crossRef** object can only be modified on the Domain-Naming FSMO role holder. With delegation enabled, the domain controller can contact the Domain-Naming FSMO role holder using the same credentials.
-3.  Add the distinguished name of the [**nTDSDSA**](https://docs.microsoft.com/windows/desktop/ADSchema/c-ntdsdsa) object for the domain controller that will host the new replica to the [**msDS-NC-Replica-Locations**](https://docs.microsoft.com/windows/desktop/ADSchema/a-msds-nc-replica-locations) attribute of the [**crossRef**](https://docs.microsoft.com/windows/desktop/ADSchema/c-crossref) object.
+1.  Search the Partitions container for a [**crossRef**](/windows/desktop/ADSchema/c-crossref) object that has an [**nCName**](/windows/desktop/ADSchema/a-ncname) attribute value that is equal to the distinguished name of the application directory partition.
+2.  Bind to the [**crossRef**](/windows/desktop/ADSchema/c-crossref) object with delegation enabled. This is required because the **crossRef** object can only be modified on the Domain-Naming FSMO role holder. With delegation enabled, the domain controller can contact the Domain-Naming FSMO role holder using the same credentials.
+3.  Add the distinguished name of the [**nTDSDSA**](/windows/desktop/ADSchema/c-ntdsdsa) object for the domain controller that will host the new replica to the [**msDS-NC-Replica-Locations**](/windows/desktop/ADSchema/a-msds-nc-replica-locations) attribute of the [**crossRef**](/windows/desktop/ADSchema/c-crossref) object.
 
-When the new [**msDS-NC-Replica-Locations**](https://docs.microsoft.com/windows/desktop/ADSchema/a-msds-nc-replica-locations) attribute value is replicated to the new domain controller that will host a replica of the application directory partition, the KCC will be triggered to replicate the application directory partition to the target domain controller.
+When the new [**msDS-NC-Replica-Locations**](/windows/desktop/ADSchema/a-msds-nc-replica-locations) attribute value is replicated to the new domain controller that will host a replica of the application directory partition, the KCC will be triggered to replicate the application directory partition to the target domain controller.
 
-To remove a replica for an application directory partition, perform the same steps above to locate the [**crossRef**](https://docs.microsoft.com/windows/desktop/ADSchema/c-crossref) object that represents the application directory partition and remove the value that corresponds to the domain controller from the [**msDS-NC-Replica-Locations**](https://docs.microsoft.com/windows/desktop/ADSchema/a-msds-nc-replica-locations) attribute of the **crossRef** object.
+To remove a replica for an application directory partition, perform the same steps above to locate the [**crossRef**](/windows/desktop/ADSchema/c-crossref) object that represents the application directory partition and remove the value that corresponds to the domain controller from the [**msDS-NC-Replica-Locations**](/windows/desktop/ADSchema/a-msds-nc-replica-locations) attribute of the **crossRef** object.
 
-When the new [**msDS-NC-Replica-Locations**](https://docs.microsoft.com/windows/desktop/ADSchema/a-msds-nc-replica-locations) attribute value is replicated to the domain controller that will no longer host a replica of the application directory partition, the KCC will be triggered to remove the replica of the application directory partition on the target domain controller.
+When the new [**msDS-NC-Replica-Locations**](/windows/desktop/ADSchema/a-msds-nc-replica-locations) attribute value is replicated to the domain controller that will no longer host a replica of the application directory partition, the KCC will be triggered to remove the replica of the application directory partition on the target domain controller.
 
-If a domain controller that is hosting an application directory partition replica is removed or demoted, the Active Directory server will automatically remove the value corresponding to the domain controller from the [**msDS-NC-Replica-Locations**](https://docs.microsoft.com/windows/desktop/ADSchema/a-msds-nc-replica-locations) attribute of all [**crossRef**](https://docs.microsoft.com/windows/desktop/ADSchema/c-crossref) objects.
-
- 
+If a domain controller that is hosting an application directory partition replica is removed or demoted, the Active Directory server will automatically remove the value corresponding to the domain controller from the [**msDS-NC-Replica-Locations**](/windows/desktop/ADSchema/a-msds-nc-replica-locations) attribute of all [**crossRef**](/windows/desktop/ADSchema/c-crossref) objects.
 
  
 
-
-
-
+ 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # What's New for Printing
 
-Windows 8 supports [printing for Windows Store apps using JavaScript and HTML](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10)) and [printing for Windows Store apps using C#/VB/C++ and XAML](https://docs.microsoft.com/previous-versions/windows/apps/hh465196(v=win.10)).
+Windows 8 supports [printing for Windows Store apps using JavaScript and HTML](/previous-versions/windows/apps/hh465225(v=win.10)) and [printing for Windows Store apps using C#/VB/C++ and XAML](/previous-versions/windows/apps/hh465196(v=win.10)).
 
 Windows 8 also includes a new COM-based API that provides full support for [OpenXPS printing](app-support-for-openxps-printing.md) and access to portions of the new printer drivers that Windows 8 supports. For more information about the new API, see [Print Document Package API](tailored-app-printing-api.md).
 
@@ -20,17 +20,12 @@ The following topics describe the printing and document features that were intro
 
 | Topic                                                                                         | Description                                                                                          |
 |-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| [What's New for Printing in Windows 7](https://msdn.microsoft.com/library/Ee264335(v=VS.85).aspx)<br/>         | Describes what is new for documents and printing in Windows 7.<br/>                            |
-| [What's New for Printing in Windows Vista](https://msdn.microsoft.com/library/Dd145198(v=VS.85).aspx)<br/> | Lists the printing application programming interfaces (APIs) introduced in Windows Vista.<br/> |
+| [What's New for Printing in Windows 7](./what-s-new-in-windows-7.md)<br/>         | Describes what is new for documents and printing in Windows 7.<br/>                            |
+| [What's New for Printing in Windows Vista](./what-s-new-in-windows-vista.md)<br/> | Lists the printing application programming interfaces (APIs) introduced in Windows Vista.<br/> |
 
 
 
  
 
  
-
- 
-
-
-
 

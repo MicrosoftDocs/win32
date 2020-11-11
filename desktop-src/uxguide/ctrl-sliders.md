@@ -3,10 +3,13 @@ title: Sliders (Design basics)
 description: With a slider, users can choose from a continuous range of values.
 ms.assetid: dee70fbc-6f18-43c7-9d41-4e97eac41e53
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Sliders
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 With a slider, users can choose from a continuous range of values. A slider has a bar that shows the range and an indicator that shows the current value. Optional tick marks show values.
 
@@ -27,7 +30,7 @@ A slider is a good choice when you know that users think of the value as a relat
 
 To decide, consider these questions:
 
--   **Does the setting seem like a relative quantity?** If not, use [radio buttons](ctrl-radio-buttons.md), or a [drop-down](https://docs.microsoft.com/windows/desktop/uxguide/ctrl-drop) or [single-selection list](ctrl-list-boxes.md).
+-   **Does the setting seem like a relative quantity?** If not, use [radio buttons](ctrl-radio-buttons.md), or a [drop-down](/windows/desktop/uxguide/ctrl-drop) or [single-selection list](ctrl-list-boxes.md).
 -   **Is the setting an exact, known numeric value?** If so, use a [numeric text boxes](ctrl-text-boxes.md).
 -   **Would a user benefit from instant feedback on the effect of setting changes?** If so, use a slider. For example, users can choose a color more easily by immediately seeing the effect of changes to hue, saturation, or luminosity values.
 -   **Does the setting have a range of four or more values?** If not, use radio buttons.
@@ -148,7 +151,3 @@ Example: To increase your screen resolution, move the **Screen resolution** slid
  
 
  
-
-
-
-

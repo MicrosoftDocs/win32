@@ -37,7 +37,7 @@ The following two examples each draw a red line of width 3 from location (20, 10
 
 ### Drawing a line with GDI
 
-To draw a line with GDI, you need two objects: a device context and a pen. You get a handle to a device context by calling [**BeginPaint**](https://msdn.microsoft.com/library/Dd183362(v=VS.85).aspx), and a handle to a pen by calling [CreatePen](/windows/win32/api/wingdi/nf-wingdi-createpen). Next, you call [SelectObject](/windows/win32/api/wingdi/nf-wingdi-selectobject) to select the pen into the device context. You set the pen position to (20, 10) by calling [MoveToEx](/windows/win32/api/wingdi/nf-wingdi-movetoex) and then draw a line from that pen position to (200, 100) by calling **LineTo**. Note that MoveToEx and [LineTo](/windows/win32/api/wingdi/nf-wingdi-lineto) both receive **hdc** as an argument.
+To draw a line with GDI, you need two objects: a device context and a pen. You get a handle to a device context by calling [**BeginPaint**](/windows/win32/api/winuser/nf-winuser-beginpaint), and a handle to a pen by calling [CreatePen](/windows/win32/api/wingdi/nf-wingdi-createpen). Next, you call [SelectObject](/windows/win32/api/wingdi/nf-wingdi-selectobject) to select the pen into the device context. You set the pen position to (20, 10) by calling [MoveToEx](/windows/win32/api/wingdi/nf-wingdi-movetoex) and then draw a line from that pen position to (200, 100) by calling **LineTo**. Note that MoveToEx and [LineTo](/windows/win32/api/wingdi/nf-wingdi-lineto) both receive **hdc** as an argument.
 
 
 ```
@@ -113,7 +113,7 @@ All four of the [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics
 
 ## No More Current Position
 
-Note that in the [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inreal_inreal_inreal_inreal)) methods shown previously both the starting point and the ending point of the line are received as arguments. This is a departure from the GDI scheme where you call to set the current pen position followed by to draw a line starting at (**x1**, **y1**) and ending at (**x2**, **y2**). GDI+ as a whole has abandoned the notion of current position.
+Note that in the [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inreal_inreal_inreal_inreal)) methods shown previously both the starting point and the ending point of the line are received as arguments. This is a departure from the GDI scheme where you call **MoveToEx** to set the current pen position followed by **LineTo** in order to draw a line starting at (**x1**, **y1**) and ending at (**x2**, **y2**). GDI+ as a whole has abandoned the notion of current position.
 
 ## Separate Methods for Draw and Fill
 
@@ -166,6 +166,3 @@ region2.Intersect(onePath);
  
 
  
-
-
-

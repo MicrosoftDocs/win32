@@ -189,11 +189,11 @@
           - name: "RasGetNapStatus"
             href: /windows/desktop/api/Ras/nf-ras-rasgetnapstatus
           - name: "RasGetProjectionInfo"
-            href: https://docs.microsoft.com/en-us/previous-versions/aa918872(v%3dmsdn.10)
+            href: /previous-versions/aa918872(v=msdn.10)
           - name: "RasGetProjectionInfoEx"
             href: /windows/desktop/api/Ras/nf-ras-rasgetprojectioninfoex
           - name: "RasGetQuarantineConnectionId"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377552(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377552(v=vs.85)
           - name: "RasGetSubEntryHandle"
             href: /windows/desktop/api/Ras/nf-ras-rasgetsubentryhandlea
           - name: "RasGetSubEntryProperties"
@@ -203,7 +203,7 @@
           - name: "RasInvokeEapUI"
             href: /windows/desktop/api/Ras/nf-ras-rasinvokeeapui
           - name: "RasMonitorDlg"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377584(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377584(v=vs.85)
           - name: "RasPBDlgFunc"
             href: /windows/desktop/api/Rasdlg/nc-rasdlg-raspbdlgfunca
           - name: "RasPhonebookDlg"
@@ -262,90 +262,90 @@
           - name: "RAS_STATS"
             href: /windows/win32/api/Ras/ns-ras-ras_stats
           - name: "RASADPARAMS"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376719(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa376719(v=vs.85)
           - name: "RASAMB"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376720(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa376720(v=vs.85)
           - name: "RASAPIVERSION"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd408102(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/dd408102(v=vs.85)
           - name: "RASAUTODIALENTRY"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa376721(v=vs.85)
           - name: "RASCOMMSETTINGS"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376724(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa376724(v=vs.85)
           - name: "RASCONN"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa376725(v=vs.85)
           - name: "RASCONNSTATUS"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376728(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa376728(v=vs.85)
           - name: "RASCREDENTIALS"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376730(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa376730(v=vs.85)
           - name: "RASCTRYINFO"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376731(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa376731(v=vs.85)
           - name: "RASCUSTOMSCRIPTEXTENSIONS"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376738(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa376738(v=vs.85)
           - name: "RASDEVINFO"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377001(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377001(v=vs.85)
           - name: "RASDEVSPECIFICINFO"
             href: /windows/win32/api/Ras/ns-ras-rasdevspecificinfo
           - name: "RASDIALDLG"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377023(v=vs.85)
           - name: "RASDIALEXTENSIONS"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377029(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377029(v=vs.85)
           - name: "RASDIALPARAMS"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377238(v=vs.85)
           - name: "RASEAPINFO"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377242(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377242(v=vs.85)
           - name: "RASEAPUSERIDENTITY"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377247(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377247(v=vs.85)
           - name: "RASENTRY"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377274(v=vs.85)
           - name: "RASENTRYDLG"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377260(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377260(v=vs.85)
           - name: "RASENTRYNAME"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377267(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377267(v=vs.85)
           - name: "RASIKEV2_PROJECTION_INFO"
             href: /windows/win32/api/Ras/ns-ras-rasikev2_projection_info
           - name: "RASIPADDR"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377578(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377578(v=vs.85)
           - name: "RASMONITORDLG"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377591(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377591(v=vs.85)
           - name: "RASNAPSTATE"
             href: /windows/win32/api/ras/ns-ras-rasnapstate
           - name: "RASNOUSER"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377598(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377598(v=vs.85)
           - name: "RASPBDLG"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377607(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377607(v=vs.85)
           - name: "RASPPP_PROJECTION_INFO"
             href: /windows/win32/api/Ras/ns-ras-rasppp_projection_info
           - name: "RASPPPCCP"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377620(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377620(v=vs.85)
           - name: "RASPPPIP"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377634(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377634(v=vs.85)
           - name: "RASPPPIPV6"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa816540(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa816540(v=vs.85)
           - name: "RASPPPIPX"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377623(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377623(v=vs.85)
           - name: "RASPPPLCP"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377638(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377638(v=vs.85)
           - name: "RASPPPNBF"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377642(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377642(v=vs.85)
           - name: "RASPROJECTION_INFO_TYPE"
             href: /windows/win32/api/Ras/ne-ras-rasprojection_info_type
           - name: "RASSLIP"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377836(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377836(v=vs.85)
           - name: "RASSUBENTRY"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377839(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377839(v=vs.85)
           - name: "RASTUNNELENDPOINT"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd430579(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/dd430579(v=vs.85)
           - name: "RASUPDATECONN"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd408110(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/dd408110(v=vs.85)
         - name: "Remote Access Service Enumerations"
           href: remote-access-service-enumerations.md
           items: 
           - name: "RASCONNSTATE"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376727(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa376727(v=vs.85)
           - name: "RASCONNSUBSTATE"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd408103(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/dd408103(v=vs.85)
           - name: "RASPROJECTION"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377648(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377648(v=vs.85)
     - name: "Remote Access Service Administration"
       href: remote-access-service-administration.md
       items: 
@@ -422,7 +422,7 @@
             - name: "MprAdminInitializeDll"
               href: /windows/desktop/api/Mprapi/nf-mprapi-mpradmininitializedll
             - name: "MprAdminInitializeDllEx"
-              href: https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininitializedllex
+              href: /windows/desktop/api/mprapi/nf-mprapi-mpradmininitializedllex
             - name: "MprAdminLinkHangupNotification"
               href: /windows/desktop/api/Mprapi/nf-mprapi-mpradminlinkhangupnotification
             - name: "MprAdminReleaseIpAddress"
@@ -1099,9 +1099,9 @@
           href: multicast-group-manager-callbacks.md
           items: 
           - name: "PMGM_CREATION_ALERT_CALLBACK"
-            href: https://docs.microsoft.com/windows/desktop/api/mgm/nc-mgm-pmgm_creation_alert_callback
+            href: /windows/desktop/api/mgm/nc-mgm-pmgm_creation_alert_callback
           - name: "PMGM_DISABLE_IGMP_CALLBACK"
-            href: https://docs.microsoft.com/windows/desktop/api/mgm/nc-mgm-pmgm_disable_igmp_callback
+            href: /windows/desktop/api/mgm/nc-mgm-pmgm_disable_igmp_callback
           - name: "PMGM_ENABLE_IGMP_CALLBACK"
             href: /windows/desktop/api/Mgm/nc-mgm-pmgm_enable_igmp_callback
           - name: "PMGM_JOIN_ALERT_CALLBACK"
@@ -1219,23 +1219,23 @@
             - name: "SUPPORT_FUNCTIONS"
               href: /windows/win32/api/Routprot/ns-routprot-support_functions_50
             - name: "DemandDialRequest"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa373924(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa373924(v=vs.85)
             - name: "MIBEntryCreate"
-              href: https://docs.microsoft.com//previous-versions/windows/desktop/legacy/aa374538(v=vs.85)
+              href: //previous-versions/windows/desktop/legacy/aa374538(v=vs.85)
             - name: "MIBEntryDelete"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374539(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa374539(v=vs.85)
             - name: "MIBEntryGet"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374540(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa374540(v=vs.85)
             - name: "MIBEntryGetFirst"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374541(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa374541(v=vs.85)
             - name: "MIBEntryGetNext"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374542(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa374542(v=vs.85)
             - name: "MIBEntrySet"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374543(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa374543(v=vs.85)
             - name: "SetInterfaceReceiveType"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa382181(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa382181(v=vs.85)
             - name: "ValidateRoute"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa382342(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa382342(v=vs.85)
         - name: "IPX Service Table Management"
           href: ipx-service-table-management.md
           items: 

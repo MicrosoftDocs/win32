@@ -12,13 +12,10 @@ This section contains the reference for MSHTML.
 
 > [!IMPORTANT]
 >
-> The documentation in this section is a partial listing of IWebBrowswer2 interface members. The complete [IWebBrowser2 interface](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752127(v=vs.85)) is documented in the [MSHTML Reference](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/hh801968(v=vs.85)) content.
+> The documentation in this section is a partial listing of IWebBrowswer2 interface members. The complete [IWebBrowser2 interface](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752127(v=vs.85)) is documented in the [MSHTML Reference](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/hh801968(v=vs.85)) content.
 
  
 
  
 
  
-
-
-

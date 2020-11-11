@@ -21,7 +21,7 @@ api_location:
 
 # Win32\_ProtocolBinding class
 
-The **Win32\_ProtocolBinding** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates a system-level driver, network protocol, and network adapter.
+The **Win32\_ProtocolBinding** association [WMI class](../wmisdk/retrieving-a-class.md) relates a system-level driver, network protocol, and network adapter.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -58,7 +58,7 @@ Data type: **Win32\_NetworkProtocol**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_NetworkProtocol")
+Qualifiers: [**key**](../wmisdk/key-qualifier.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_NetworkProtocol")
 </dt> </dl>
 
 Reference to the instance representing the protocol that is used with the system driver and on the network adapter.
@@ -74,7 +74,7 @@ Data type: **Win32\_SystemDriver**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_SystemDriver")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_SystemDriver")
 </dt> </dl>
 
 Reference to the instance representing the system driver that uses the network adapter through the network protocol of this class.
@@ -90,7 +90,7 @@ Data type: **Win32\_NetworkAdapter**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_NetworkAdapter")
+Qualifiers: [**key**](../wmisdk/key-qualifier.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_NetworkAdapter")
 </dt> </dl>
 
 Properties of the network adapter being used on the computer system.
@@ -115,13 +115,9 @@ Properties of the network adapter being used on the computer system.
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](./operating-system-classes.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

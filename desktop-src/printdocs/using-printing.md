@@ -26,13 +26,13 @@ This separation of printing from user interaction will influence how the program
 
 A native Windows program must provide the main window procedure to process the window messages that it receives from the operating system. Every window in a Windows program has a corresponding **WndProc** function that processes these window messages. The thread in which this function runs is called the user interface, or UI, thread.
 
-<dl> **Use resources for strings.**  
+**Use resources for strings.**  
 Use string resources from the program's resource file instead of string constants for strings that might need to be changed when you support another language. Before a program can use a string resource as a string, the program must retrieve the resource from the resource file and copy it to a local memory buffer. This requires some additional programming in the beginning, but allows for easier modification, translation, and localization of the program in the future.  
 **Process data in steps.**  
 Process the print job in steps that can be interrupted. This design makes it possible for the user to cancel a long processing operation before it completes and prevents the program from blocking other programs that might be running at the same time.  
 **Use window user data.**  
 Printing applications often have several windows and threads. To keep the data available between threads and processing steps without using static, global variables, reference the data structures by a data pointer that is part of the window in which they are used.  
-</dl>
+
 
 The following code example shows a main entry point for a printing application. This example shows how to use string resources instead of string constants and also shows the main message loop that processes the program's window messages.
 
@@ -117,14 +117,14 @@ wWinMain(
 
 Native Windows programs that print should be designed for multi-threaded processing. One of the requirements of a multi-threaded design is to protect the program's data elements so that they are safe for multiple threads to use at the same time. You can protect data elements by using synchronization objects and organizing the data to avoid conflicts between the threads. At the same time, the program must prevent changes to the program data while it is being printed. The sample program uses several different multi-threaded programming techniques.
 
-<dl> **Synchronization Events**  
+ **Synchronization Events**  
 The sample program uses events, thread handles, and wait functions to synchronize the processing between the print thread and the main program and to indicate that the data is in use.  
 **Application-Specific Windows Messages**  
 The sample program uses application-specific window messages to make the program more compatible with other native Windows programs. Breaking the processing into smaller steps and queuing those steps in the window message loop makes it easier for Windows to manage the processing without blocking other applications that might also be running on the computer.  
 **Data Structures**  
 The sample program is not written in an object-oriented style using objects and classes, although it does group data elements into data structures. The sample does not use an object-oriented approach to avoid implying that one approach is better or worse than another.  
 You can use the functions and data structures of the sample program as a starting point when you design your program. Whether you decide to design an object-oriented program or not, the important design consideration to remember is to group the related data elements so that you can use them safely in different threads as necessary.  
-</dl>
+
 
 ### Printer Device Context
 
@@ -132,10 +132,10 @@ When printing, you might want to render the content to be printed to a device co
 
 ## Related topics
 
-<dl> <dt>
+
 
 [How to print from a Windows application](how-to--print-from-a-windows-application.md)
-</dt> </dl>
+
 
  
 

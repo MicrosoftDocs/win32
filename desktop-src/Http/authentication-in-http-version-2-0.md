@@ -37,7 +37,7 @@ To initiate HTTP Server authentication, the application enables the authenticati
 
 1.  The application enables authentication. See the preceding "Enabling Authentication" section.
     > [!Note]  
-    > The client sends an unauthenticated request. The HTTP Server API passes the request to the server application and allows it to generate the initial 401 challenge. The HTTP Server API includes the [**HTTP\_REQUEST\_AUTH\_INFO**](/windows/desktop/api/Http/ns-http-http_request_auth_info) structure embedded with the [**HTTP\_REQUEST**](https://msdn.microsoft.com/library/Aa364545(v=VS.85).aspx) structure. The **AuthStatus** member indicates **HttpAuthStatusNotAuthenticated**
+    > The client sends an unauthenticated request. The HTTP Server API passes the request to the server application and allows it to generate the initial 401 challenge. The HTTP Server API includes the [**HTTP\_REQUEST\_AUTH\_INFO**](/windows/desktop/api/Http/ns-http-http_request_auth_info) structure embedded with the [**HTTP\_REQUEST**](/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)) structure. The **AuthStatus** member indicates **HttpAuthStatusNotAuthenticated**
 
      
 
@@ -57,7 +57,7 @@ To initiate HTTP Server authentication, the application enables the authenticati
 
      
 
-5.  The server application examines the **AuthStatus** member of the [**HTTP\_REQUEST\_AUTH\_INFO**](/windows/desktop/api/Http/ns-http-http_request_auth_info) structure to determine if authentication was successful. When authentication fails, the HTTP Server API includes the error returned from [AcceptSecurityContext](https://msdn.microsoft.com/library/ms937012.aspx) in the **SecStatus** member of the **HTTP\_REQUEST\_AUTH\_INFO** structure. If the authentication attempt fails due to bad credentials, the application can generate another 401 challenge with the desired WWW-Authenticate header, or may decided to service the request as anonymous.
+5.  The server application examines the **AuthStatus** member of the [**HTTP\_REQUEST\_AUTH\_INFO**](/windows/desktop/api/Http/ns-http-http_request_auth_info) structure to determine if authentication was successful. When authentication fails, the HTTP Server API includes the error returned from [AcceptSecurityContext](/previous-versions/windows/embedded/ms937012(v=msdn.10)) in the **SecStatus** member of the **HTTP\_REQUEST\_AUTH\_INFO** structure. If the authentication attempt fails due to bad credentials, the application can generate another 401 challenge with the desired WWW-Authenticate header, or may decided to service the request as anonymous.
 6.  If authentication was successful, the application uses the token provided in the [**HTTP\_REQUEST\_AUTH\_INFO**](/windows/desktop/api/Http/ns-http-http_request_auth_info) structure to impersonate the client and to access resources. The access token handle returned to the application is valid as long as the request ID is valid, which is typically until the application completes the response to the request. The token may, however, expire during this period and the application may need to send another 401 challenge to the client.
 7.  The application sends the final 200 OK response, and it must close the handle to the access token.
     > [!Note]  
@@ -75,12 +75,8 @@ According to the HTTP protocol, after the client has established authentication 
 
 ### Mutual Authentication
 
-Mutual authentication data is generated when the negotiate scheme is used during handshake and it is resolved to Kerberos, and client has asked for mutual authentication. The mutual authentication data is automatically inserted by HTTP Server API in the final 200 OK response sent by the server application. By default HTTP Server API does not pass the Mutual authentication data to the server application, since it automatically handles the sending of it. However, if server application enables the ReceiveMutualAuth flag in the [**HTTP\_SERVER\_AUTHENTICATION\_INFO**](/windows/desktop/api/Http/ns-http-http_server_authentication_info) structure in configuration, the mutual authentication data is passed to the application in [**HTTP\_REQUEST\_AUTH\_INFO**](/windows/desktop/api/Http/ns-http-http_request_auth_info) structure embedded with the authenticated [**HTTP\_REQUEST**](https://msdn.microsoft.com/library/Aa364545(v=VS.85).aspx). In this case application should send the mutual authentication data with the final 200 OK response. In the case where multiple sites are served by a single computer, all sites on the computer use the credentials for the Local Machine Account in the domain for mutual authentication.
+Mutual authentication data is generated when the negotiate scheme is used during handshake and it is resolved to Kerberos, and client has asked for mutual authentication. The mutual authentication data is automatically inserted by HTTP Server API in the final 200 OK response sent by the server application. By default HTTP Server API does not pass the Mutual authentication data to the server application, since it automatically handles the sending of it. However, if server application enables the ReceiveMutualAuth flag in the [**HTTP\_SERVER\_AUTHENTICATION\_INFO**](/windows/desktop/api/Http/ns-http-http_server_authentication_info) structure in configuration, the mutual authentication data is passed to the application in [**HTTP\_REQUEST\_AUTH\_INFO**](/windows/desktop/api/Http/ns-http-http_request_auth_info) structure embedded with the authenticated [**HTTP\_REQUEST**](/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)). In this case application should send the mutual authentication data with the final 200 OK response. In the case where multiple sites are served by a single computer, all sites on the computer use the credentials for the Local Machine Account in the domain for mutual authentication.
 
  
 
  
-
-
-
-

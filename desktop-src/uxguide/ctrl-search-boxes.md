@@ -3,10 +3,13 @@ title: Search Boxes
 description: With a Search box, users can quickly locate specific objects or text within a large set of data by filtering or highlighting matches.
 ms.assetid: e2d77b36-e001-403c-9b66-2d136c394a24
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Search Boxes
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 With a Search box, users can quickly locate specific objects or text within a large set of data by filtering or highlighting matches. There is no standard search control, but you should strive to make your program's search features consistent with those of Windows.
 

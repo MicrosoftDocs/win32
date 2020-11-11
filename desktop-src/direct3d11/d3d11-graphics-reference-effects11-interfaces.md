@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 This section contains reference information for the component object model (COM) interfaces of the Effects 11 source.
 
-## 
 
 ## In this section
 

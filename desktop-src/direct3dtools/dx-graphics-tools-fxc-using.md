@@ -78,7 +78,7 @@ while (1)
 }
 ```
 
-For additional information on spawning a process see the reference page for [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa).
+For additional information on spawning a process see the reference page for [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa).
 
 ## Related topics
 

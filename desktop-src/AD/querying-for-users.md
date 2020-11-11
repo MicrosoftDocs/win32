@@ -16,12 +16,8 @@ To query for a user, the query must contain the search expression "(&(objectClas
 
 Because the computer class is a subclass of user, a query containing only (objectClass=user) would return user objects and computer objects. Also, the object category of the user object is person (not user); therefore, the expression (objectCategory=user) does not return any users. If you use the expression (objectCategory=person), the query returns user objects and contact objects.
 
-Users can be placed in any container or organizational unit in a domain as well as the root of the domain. This means that users can be in numerous locations in the directory hierarchy. You can perform a deep search for "(objectCategory=user)" to find all users in a container, organizational unit, domain, domain tree, or forest—depending on the object that the [**IDirectorySearch**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch) pointer you are using is bound to.
+Users can be placed in any container or organizational unit in a domain as well as the root of the domain. This means that users can be in numerous locations in the directory hierarchy. You can perform a deep search for "(objectCategory=user)" to find all users in a container, organizational unit, domain, domain tree, or forest—depending on the object that the [**IDirectorySearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) pointer you are using is bound to.
 
  
 
  
-
-
-
-

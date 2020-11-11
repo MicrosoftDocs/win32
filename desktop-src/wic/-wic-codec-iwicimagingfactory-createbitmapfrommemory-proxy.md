@@ -81,7 +81,7 @@ The pixel format of the new bitmap.
 
 Type: **UINT**
 
-The [*stride*](https://docs.microsoft.com/windows) of the given pixel data.
+The [*stride*](/windows) of the given pixel data.
 
 </dd> <dt>
 
@@ -133,9 +133,4 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
  
-
- 
-
-
-
 

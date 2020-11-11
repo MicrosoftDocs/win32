@@ -102,7 +102,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64)
+Qualifiers: [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (64)
 </dt> </dl>
 
 A short textual description of the subject.
@@ -120,7 +120,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (256)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier), [**maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (256)
 </dt> </dl>
 
 Identifier used in conjunction with other keys to uniquely identify the check.
@@ -155,7 +155,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Mappingstrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Software Signature\|002.4")
+Qualifiers: [**Mappingstrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Software Signature\|002.4")
 </dt> </dl>
 
 Value calculated as the 16-bit sum of the file's first 32 bytes.
@@ -171,7 +171,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Mappingstrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Software Signature\|002.5")
+Qualifiers: [**Mappingstrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Software Signature\|002.5")
 </dt> </dl>
 
 CRC value calculated using the middle 512 KB.
@@ -187,7 +187,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Mappingstrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Software Signature\|002.6")
+Qualifiers: [**Mappingstrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Software Signature\|002.6")
 </dt> </dl>
 
 CRC value for the middle 512 KB of the file, modulo 3.
@@ -203,7 +203,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Fixed**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**Fixed**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 File creation date and time.
@@ -234,12 +234,12 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("kilobytes")
+Qualifiers: [**units**](/windows/desktop/WmiSdk/standard-qualifiers) ("kilobytes")
 </dt> </dl>
 
 Size of the file, in bytes.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> <dt>
 
@@ -252,7 +252,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (16)
+Qualifiers: [**maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (16)
 </dt> </dl>
 
 Algorithm for computing a 128-bit checksum for any file or object. The likelihood of two different files producing the same MD5 checksum is very small (about 1 in 2^64), and the MD5 checksum of a file can be used to construct a reliable content identifier that is likely to uniquely identify the file. The reverse is also true. If two files have the same MD5 checksum, it is very likely that the files are identical. For purposes of MOF specification of the MD5 property, the MD5 algorithm always generates a 32-character string. For example, the string "abcdefghijklmnopqrstuvwxyz" generates the string "c3fcd3d76192e4007dfb496cca67e13b". For more information about implementing the MD5 algorithm, see [RFC 1321](https://www.ietf.org/rfc/rfc1321.txt).
@@ -268,7 +268,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (Name), [**Fixed**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1024)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) (Name), [**Fixed**](/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (1024)
 </dt> </dl>
 
 Either the name of the file or the name of the file with a directory prefix.
@@ -284,7 +284,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_SoftwareElement**](cim-softwareelement.md).**SoftwareElementID**"), [**CIM\_key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (256)
+Qualifiers: [**Propagated**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_SoftwareElement**](cim-softwareelement.md).**SoftwareElementID**"), [**CIM\_key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (256)
 </dt> </dl>
 
 This is an identifier for this software element.
@@ -302,7 +302,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_SoftwareElement**](cim-softwareelement.md).**SoftwareElementState**"), [**CIM\_key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**Propagated**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_SoftwareElement**](cim-softwareelement.md).**SoftwareElementState**"), [**CIM\_key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 The software element state of a software element.
@@ -366,7 +366,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_SoftwareElement**](cim-softwareelement.md).**TargetOperatingSystem**"), [**CIM\_key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**Mappingstrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Software Component Information\|002.5")
+Qualifiers: [**Propagated**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_SoftwareElement**](cim-softwareelement.md).**TargetOperatingSystem**"), [**CIM\_key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**Mappingstrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Software Component Information\|002.5")
 </dt> </dl>
 
 Target operating system of the software element.
@@ -892,7 +892,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_SoftwareElement**](cim-softwareelement.md).**Version**"), [**CIM\_key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**Maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64), [**Mappingstrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|ComponentID\|001.3")
+Qualifiers: [**Propagated**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_SoftwareElement**](cim-softwareelement.md).**Version**"), [**CIM\_key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**Mappingstrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|ComponentID\|001.3")
 </dt> </dl>
 
 Version of the operation.
@@ -934,9 +934,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -39,7 +39,7 @@ HRESULT Remap(
 *NumVertices* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Number of vertices to remap.
 
@@ -48,7 +48,7 @@ Number of vertices to remap.
 *pVertexRemap* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Array of DWORDS whose length is specified by NumVertices.
 
@@ -85,7 +85,3 @@ Each element in pVertexRemap specifies the previous vertex index for that positi
  
 
  
-
-
-
-

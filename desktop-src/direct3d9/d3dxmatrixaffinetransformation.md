@@ -51,7 +51,7 @@ Pointer to the [**D3DXMATRIX**](d3dxmatrix.md) structure that is the result of t
 *Scaling* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Scaling factor.
 
@@ -139,7 +139,3 @@ For 2D affine transformations, use [**D3DXMatrixAffineTransformation2D**](d3dxma
  
 
  
-
-
-
-

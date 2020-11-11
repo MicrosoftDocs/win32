@@ -49,9 +49,9 @@ Currently unused. Should be set to zero.
 *pSource* \[in\]
 </dt> <dd>
 
-Type: **[IStream](https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx)\***
+Type: **[IStream](/windows/win32/api/objidl/nn-objidl-istream)\***
 
-Specifies a pointer to the [IStream](https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx) data.
+Specifies a pointer to the [IStream](/windows/win32/api/objidl/nn-objidl-istream) data.
 
 </dd> <dt>
 
@@ -87,7 +87,3 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
  
 
  
-
-
-
-

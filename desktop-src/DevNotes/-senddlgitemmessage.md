@@ -19,7 +19,7 @@ api_location:
 
 \[This function is a wrapper over the **SendDlgItemMessage** function. This function may be altered or unavailable in the future. Applications should call **SendDlgItemMessage** directly.\]
 
-Sends a message to the specified control in a dialog box. See [**SendDlgItemMessage**](https://msdn.microsoft.com/library/ms645515(v=VS.85).aspx).
+Sends a message to the specified control in a dialog box. See [**SendDlgItemMessage**](/windows/win32/api/winuser/nf-winuser-senddlgitemmessagea).
 
 ## Syntax
 
@@ -53,13 +53,9 @@ LRESULT _SendDlgItemMessage(
 
 <dl> <dt>
 
-[**SendDlgItemMessage**](https://msdn.microsoft.com/library/ms645515(v=VS.85).aspx)
+[**SendDlgItemMessage**](/windows/win32/api/winuser/nf-winuser-senddlgitemmessagea)
 </dt> </dl>
 
  
 
  
-
-
-
-

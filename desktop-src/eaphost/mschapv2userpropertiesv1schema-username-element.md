@@ -1,6 +1,6 @@
 ---
-title: Username Element
-description: Identifies the user being authenticated.
+title: Username element (CHAP)
+description: Learn about the Username element, which identifies the user that's being authenticated. See a syntax example and view additional available resources.
 ms.assetid: 3dd12864-5e0a-492c-a2c3-28118d21a0f2
 keywords:
 - Username element EAPHost
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# Username Element
+# Username element (CHAP)
 
 The **Username** element identifies the user being authenticated.
 
@@ -34,10 +34,10 @@ If the **Username** element is not present, the user name is obtained from winlo
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

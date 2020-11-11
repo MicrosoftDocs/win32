@@ -21,7 +21,7 @@ ms.date: 02/03/2020
 Posted to provide an update on a pointer that made contact over the client area of a window or on a hovering uncaptured pointer over the client area of a window. While the pointer is hovering, the message targets whichever window the pointer happens to be over. While the pointer is in contact with the surface, the pointer is implicitly captured to the window over which the pointer made contact and that window continues to receive input for the pointer until it breaks contact.
 
 > \[!Important\]  
-> Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
+> Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](/previous-versions//dd464660(v=vs.85)).
 
  
 
@@ -78,8 +78,8 @@ Contains the point location of the pointer.
 
 Use the following macros to retrieve the physical screen coordinates of the point.
 
--   [**GET_X_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632654)(lParam): the x (horizontal point) coordinate.
--   [**GET_Y_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655)(lParam): the y (vertical point) coordinate.
+-   [**GET_X_LPARAM**](/windows/win32/api/windowsx/nf-windowsx-get_x_lparam)(lParam): the x (horizontal point) coordinate.
+-   [**GET_Y_LPARAM**](/windows/win32/api/windowsx/nf-windowsx-get_y_lparam)(lParam): the y (vertical point) coordinate.
 
 </dd> </dl>
 
@@ -87,7 +87,7 @@ Use the following macros to retrieve the physical screen coordinates of the poin
 
 If an application processes this message, it should return zero.
 
-If the application does not process this message, it should call [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572).
+If the application does not process this message, it should call [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
 ## Remarks
 
@@ -113,13 +113,13 @@ yPos = GET_Y_LPARAM(lParam);
 
 
 
-The [**MAKEPOINTS**](https://msdn.microsoft.com/library/windows/desktop/dd145043) macro can also be used to convert the lParam parameter to a [**POINTS**](https://msdn.microsoft.com/library/windows/desktop/dd162808) structure.
+The [**MAKEPOINTS**](/windows/win32/api/wingdi/nf-wingdi-makepoints) macro can also be used to convert the lParam parameter to a [**POINTS**](/previous-versions//dd162808(v=vs.85)) structure.
 
-The [**GetKeyState**](https://msdn.microsoft.com/library/windows/desktop/ms646301) function can be used to determine the keyboard modifier key states associated with this message. For example, to detect that the ALT key was pressed, check whether **GetKeyState** (VK_MENU) &lt; 0.
+The [**GetKeyState**](/windows/win32/api/winuser/nf-winuser-getkeystate) function can be used to determine the keyboard modifier key states associated with this message. For example, to detect that the ALT key was pressed, check whether **GetKeyState** (VK_MENU) &lt; 0.
 
-If the application does not process this message, [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) may generate one or more [**WM_GESTURE**](https://msdn.microsoft.com/library/windows/desktop/dd353242) messages if the sequence of input from this and, possibly, other pointers is recognized as a gesture. If a gesture is not recognized, **DefWindowProc** may generate mouse input.
+If the application does not process this message, [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca) may generate one or more [**WM_GESTURE**](../wintouch/wm-gesture.md) messages if the sequence of input from this and, possibly, other pointers is recognized as a gesture. If a gesture is not recognized, **DefWindowProc** may generate mouse input.
 
-If an application selectively consumes some pointer input and passes the rest to [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572), the resulting behavior is undefined.
+If an application selectively consumes some pointer input and passes the rest to [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca), the resulting behavior is undefined.
 
 Use the [**GetPointerInfo**](/previous-versions/windows/desktop/api) function to retrieve further information related to this message.
 
@@ -127,7 +127,7 @@ If the application does not process these messages as fast as they are generated
 
 ## Examples
 
-The following code example shows how to use [**GET_X_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632654), [**GET_Y_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655), [**IS_POINTER_FIRSTBUTTON_WPARAM**](/previous-versions/windows/desktop/api), and [**IS_POINTER_SECONDBUTTON_WPARAM**](/previous-versions/windows/desktop/api) to retrieve relevant information from the wParam and lParam parameters of the **WM_POINTERUPDATE** message.
+The following code example shows how to use [**GET_X_LPARAM**](/windows/win32/api/windowsx/nf-windowsx-get_x_lparam), [**GET_Y_LPARAM**](/windows/win32/api/windowsx/nf-windowsx-get_y_lparam), [**IS_POINTER_FIRSTBUTTON_WPARAM**](/previous-versions/windows/desktop/api), and [**IS_POINTER_SECONDBUTTON_WPARAM**](/previous-versions/windows/desktop/api) to retrieve relevant information from the wParam and lParam parameters of the **WM_POINTERUPDATE** message.
 
 
 ```
@@ -174,12 +174,12 @@ POINTER_TOUCH_INFO   touchInfo;
 POINTER_PEN_INFO     penInfo;
 POINTER_INFO pointerInfo;
 UINT32       pointerId = GET_POINTERID_WPARAM(wParam);
-POINTER_TYPE pointerType = PT_POINTER;
+POINTER_INPUT_TYPE pointerType = PT_POINTER;
 
 // default to unhandled to enable call to DefWindowProc
 fHandled = FALSE;
 
-if (!GetPointerType(pointerId, &amp;pointerType))
+if (!GetPointerType(pointerId, &pointerType))
 {
     // failure, call GetLastError()
     // set PT_POINTER to fall to default case below
@@ -190,7 +190,7 @@ switch (pointerType)
 {
 case PT_TOUCH:
     // Retrieve touch information
-    if (!GetPointerTouchInfo(pointerId, &amp;touchInfo))
+    if (!GetPointerTouchInfo(pointerId, &touchInfo))
     {
         // failure, call GetLastError()
     }
@@ -203,7 +203,7 @@ case PT_TOUCH:
     break;
 case PT_PEN:
     // Retrieve pen information
-    if (!GetPointerPenInfo(pointerId, &amp;penInfo))
+    if (!GetPointerPenInfo(pointerId, &penInfo))
     {
         // failure, call GetLastError()
     }
@@ -215,14 +215,14 @@ case PT_PEN:
     }
     break;
 default:
-    if (!GetPointerInfo(pointerId, &amp;pointerInfo)) 
+    if (!GetPointerInfo(pointerId, &pointerInfo)) 
     {
         // failure.
     } 
     else 
     {
         // success, proceed with pointerInfo.
-        fHandled = HandleGenericPointerInfo(&amp;pointerInfo);
+        fHandled = HandleGenericPointerInfo(&pointerInfo);
     }
     break;
 }
@@ -286,10 +286,4 @@ default:
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

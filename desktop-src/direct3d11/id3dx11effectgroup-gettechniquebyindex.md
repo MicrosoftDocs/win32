@@ -41,7 +41,7 @@ ID3DX11EffectTechnique* GetTechniqueByIndex(
 *Index* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 A zero-based index.
 
@@ -79,10 +79,4 @@ A pointer to an [**ID3DX11EffectTechnique**](id3dx11effecttechnique.md).
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

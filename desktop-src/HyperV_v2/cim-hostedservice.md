@@ -53,7 +53,7 @@ Data type: **CIM\_System**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 The hosting System.
@@ -69,7 +69,7 @@ Data type: **CIM\_Service**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Weak**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Weak**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 The Service hosted on the System.
@@ -98,9 +98,4 @@ The Service hosted on the System.
 </dt> </dl>
 
  
-
- 
-
-
-
 

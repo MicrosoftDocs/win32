@@ -17,7 +17,7 @@ api_location:
 
 # CAPICOM\_STORE\_LOCATION enumeration
 
-The **CAPICOM\_STORE\_LOCATION** enumeration type indicates the location of a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+The **CAPICOM\_STORE\_LOCATION** enumeration type indicates the location of a [*certificate store*](../secgloss/c-gly.md).
 
 ## Members
 
@@ -54,7 +54,3 @@ The **CAPICOM\_STORE\_LOCATION** enumeration type is used by the following metho
  
 
  
-
-
-
-

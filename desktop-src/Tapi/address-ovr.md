@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The concept of an address is core to most communications operations. An address represents a location on a network. The local assignment of an address to a line or channel typically takes place during the installation of the service provider but can be modified later. Details on the procedures involved can be found in the operating system's Resource Kit for Microsoft-supplied service providers and in the service provider documentation for non-Microsoft products.
 
-A single address may be shared by more than one line device. Different switch vendors have different names for this concept, such as address bridging, multiple appearance directory number (MADN), or bridged appearance. An incoming call on a shared address is offered on all lines associated with the address. See [LINEADDRESSSHARING\_ Constants](https://msdn.microsoft.com/library/ms734934(v=VS.85).aspx) for a description of the configurations that TAPI recognizes.
+A single address may be shared by more than one line device. Different switch vendors have different names for this concept, such as address bridging, multiple appearance directory number (MADN), or bridged appearance. An incoming call on a shared address is offered on all lines associated with the address. See [LINEADDRESSSHARING\_ Constants](./lineaddresssharing--constants.md) for a description of the configurations that TAPI recognizes.
 
 The address itself is a string that identifies a location on a network. In the case of a telephone network, the address is a telephone number complete with national or international codes. If the network is IP-based, the address may be an IP address. See [LINEADDRESSTYPE\_ Constants](lineaddresstype--constants.md) for TAPI-defined address types. A service provider may define additional address types.
 
@@ -20,7 +20,7 @@ Different addresses have different features, capabilities, and states. The servi
 
 Applications acquire this information by processing events from TAPI or by using query operations. This allows an application to take into account factors such as whether a given address supports a specific capability, such as [park](park-ovr.md).
 
-**TAPI 2.x:** Applications call the [**lineGetAddressCaps**](https://msdn.microsoft.com/library/ms735674(v=VS.85).aspx) function to determine the telephony capabilities of each address and then receives this information in a [**LINEADDRESSCAPS**](https://msdn.microsoft.com/library/ms734930(v=VS.85).aspx) data structure. In a similar way, an application can call [**lineGetDevCaps**](https://msdn.microsoft.com/library/ms735735(v=VS.85).aspx) for a line device to determine the number of addresses assigned to the line, as well as other information.
+**TAPI 2.x:** Applications call the [**lineGetAddressCaps**](/windows/win32/api/tapi/nf-tapi-linegetaddresscaps) function to determine the telephony capabilities of each address and then receives this information in a [**LINEADDRESSCAPS**](/windows/win32/api/tapi/ns-tapi-lineaddresscaps) data structure. In a similar way, an application can call [**lineGetDevCaps**](/windows/win32/api/tapi/nf-tapi-linegetdevcaps) for a line device to determine the number of addresses assigned to the line, as well as other information.
 
 **TAPI 3.x:** Applications use the [Address Object Interfaces](address-object-interfaces.md) to acquire information on address capabilities and events.
 
@@ -82,7 +82,7 @@ Hex encoding
 
  
 
-The subscriber number should not contain the left parenthesis or right parenthesis character (which are used only to delimit the area code), nor should it contain the "\|", "^", or CRLF characters (which are used to begin following fields). Most commonly, nondigit characters in the subscriber number would include only spaces, periods ("."), and dashes ("-"). Any allowable nondigit characters that appear in the subscriber number are omitted from the *DialableString* returned by the [**lineTranslateAddress**](https://msdn.microsoft.com/library/ms736136(v=VS.85).aspx) function, but are retained in the *DisplayableString*.
+The subscriber number should not contain the left parenthesis or right parenthesis character (which are used only to delimit the area code), nor should it contain the "\|", "^", or CRLF characters (which are used to begin following fields). Most commonly, nondigit characters in the subscriber number would include only spaces, periods ("."), and dashes ("-"). Any allowable nondigit characters that appear in the subscriber number are omitted from the *DialableString* returned by the [**lineTranslateAddress**](/windows/win32/api/tapi/nf-tapi-linetranslateaddress) function, but are retained in the *DisplayableString*.
 
 \|
 
@@ -153,9 +153,4 @@ The components of this structure are given in the following table.
 Address translation can be used to translate an address from canonical format to dialable format.
 
  
-
- 
-
-
-
 

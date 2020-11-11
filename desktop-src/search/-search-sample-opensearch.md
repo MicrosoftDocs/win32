@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # OpenSearch
 
-The OpenSearch code sample demonstrates how to create a federated search service using the [OpenSearch](http://www.opensearch.org/Home) protocol, and an OpenSearch Descriptor (.osdx) file (a search connector).
+The OpenSearch code sample demonstrates how to create a federated search service using the [OpenSearch](https://github.com/dewitt/opensearch) protocol, and an OpenSearch Descriptor (.osdx) file (a search connector).
 
 This topic contains the following sections.
 
@@ -98,12 +98,9 @@ To build the sample using Microsoft Visual Studio (preferred):
 **Other Resources**
 </dt> <dt>
 
-[Library Description Schema](https://msdn.microsoft.com/library/Dd798389(v=VS.85).aspx)
+[Library Description Schema](../shell/library-schema-entry.md)
 </dt> </dl>
 
  
 
  
-
-
-

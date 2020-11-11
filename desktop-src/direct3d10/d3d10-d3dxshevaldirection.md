@@ -40,7 +40,7 @@ FLOAT* D3DXSHEvalDirection(
 *pOut* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to Spherical harmonic (SH) output coefficients. The evaluation generates Order² coefficients. See Remarks.
 
@@ -49,7 +49,7 @@ Pointer to Spherical harmonic (SH) output coefficients. The evaluation generates
 *Order* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Order of the SH evaluation. Must be in the range of D3DXSH\_MINORDER to D3DXSH\_MAXORDER, inclusive. The evaluation generates Order² coefficients. The degree of the evaluation is Order - 1.
 
@@ -58,7 +58,7 @@ Order of the SH evaluation. Must be in the range of D3DXSH\_MINORDER to D3DXSH\_
 *pDir* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 (x, y, z) direction vector in which to evaluate the SH basis functions. Must be normalized. See Remarks.
 
@@ -66,7 +66,7 @@ Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to SH output coefficients. See Remarks.
 
@@ -106,7 +106,3 @@ The following equations show the relationship between Cartesian (x, y, z) and sp
  
 
  
-
-
-
-

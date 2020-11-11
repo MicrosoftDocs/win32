@@ -34,7 +34,7 @@ objScript = ShellFolderView.Script
 
 ## Property value
 
-A variable of type [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) that receives the scripting object.
+A variable of type [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) that receives the scripting object.
 
 ## Requirements
 
@@ -53,7 +53,3 @@ A variable of type [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v
  
 
  
-
-
-
-

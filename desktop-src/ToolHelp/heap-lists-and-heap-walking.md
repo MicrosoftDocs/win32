@@ -12,7 +12,7 @@ A snapshot that includes the heap list for a specified process contains identifi
 
 You can retrieve information about the first block of a heap by using the [**Heap32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32first) function. After retrieving the first block of a heap, you can retrieve information about subsequent blocks of the same heap by using the [**Heap32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32next) function. **Heap32First** and **Heap32Next** fill a [**HEAPENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-heapentry32) structure with information for the appropriate block of a heap.
 
-You can retrieve an extended error status code for [**Heap32ListFirst**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32listfirst), [**Heap32ListNext**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32listnext), [**Heap32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32first), and [**Heap32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32next) by using the [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function.
+You can retrieve an extended error status code for [**Heap32ListFirst**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32listfirst), [**Heap32ListNext**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32listnext), [**Heap32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32first), and [**Heap32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32next) by using the [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function.
 
 > [!Note]  
 > The heap identifier, which is specified in the **th32HeapID** member of the [**HEAPENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-heapentry32) structure, has meaning only to the tool help functions. It is not a handle, nor is it usable by other functions.
@@ -22,7 +22,3 @@ You can retrieve an extended error status code for [**Heap32ListFirst**](/window
  
 
  
-
-
-
-

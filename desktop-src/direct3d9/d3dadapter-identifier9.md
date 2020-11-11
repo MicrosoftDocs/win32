@@ -81,7 +81,7 @@ Device name for GDI.
 **DriverVersion**
 </dt> <dd>
 
-Type: **[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer~r1)**
+Type: **[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer-r1)**
 
 </dd> <dd>
 
@@ -92,7 +92,7 @@ Identify the version of the Direct3D driver. It is legal to do less than and gre
 **DriverVersionLowPart**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -103,7 +103,7 @@ Identify the version of the Direct3D driver. It is legal to do < and > compariso
 **DriverVersionHighPart**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -114,7 +114,7 @@ Identify the version of the Direct3D driver. It is legal to do < and > compariso
 **VendorId**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -125,7 +125,7 @@ Can be used to help identify a particular chip set. Query this member to identif
 **DeviceId**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -136,7 +136,7 @@ Can be used to help identify a particular chip set. Query this member to identif
 **SubSysId**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -147,7 +147,7 @@ Can be used to help identify a particular chip set. Query this member to identif
 **Revision**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -169,7 +169,7 @@ Can be queried to check changes in the driver and chip set. This GUID is a uniqu
 **WHQLLevel**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -203,7 +203,7 @@ The following values are also used.
 
 Differences between Direct3D 9 and Direct3D 9Ex:
 
-For Direct3D9Ex running on Windows Vista, Windows Server 2008, Windows 7, and Windows Server 2008 R2 (or more current operating system), [**IDirect3D9::GetAdapterIdentifier**](https://msdn.microsoft.com/library/Bb174317(v=VS.85).aspx) returns 1 for the WHQL level without checking the status of the driver.
+For Direct3D9Ex running on Windows Vista, Windows Server 2008, Windows 7, and Windows Server 2008 R2 (or more current operating system), [**IDirect3D9::GetAdapterIdentifier**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-getadapteridentifier) returns 1 for the WHQL level without checking the status of the driver.
 
 </dd> </dl>
 
@@ -254,7 +254,3 @@ The VendorId, DeviceId, SubSysId, and Revision members can be used in tandem to 
  
 
  
-
-
-
-

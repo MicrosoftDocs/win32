@@ -3,10 +3,13 @@ title: Drop-down Lists Combo Boxes
 description: With a drop-down list or combo box, users make a choice among a list of mutually exclusive values.
 ms.assetid: dbe88cf1-7946-4343-bc16-ce12be7ce205
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Drop-down Lists & Combo Boxes
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 With a drop-down list or combo box, users make a choice among a list of mutually exclusive values. Users can choose one and only one option. With a standard drop-down list, users are limited to choices in the list, but with a combo box they can enter a choice that isn't in the list.
 

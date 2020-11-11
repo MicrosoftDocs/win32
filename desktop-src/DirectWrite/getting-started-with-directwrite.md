@@ -38,7 +38,7 @@ This tutorial contains the following parts:
 
 ## Source Code
 
-The source code shown in this overview is taken from the [DirectWrite Hello World sample](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples). Each part is implemented in a separate class (SimpleText and MultiformattedText) and is displayed in a separate child window. Each class represents a Microsoft Win32 window. In addition to the *WndProc* method, each class contains the following methods:
+The source code shown in this overview is taken from the [DirectWrite Hello World sample](/samples/browse/?redirectedfrom=MSDN-samples). Each part is implemented in a separate class (SimpleText and MultiformattedText) and is displayed in a separate child window. Each class represents a Microsoft Win32 window. In addition to the *WndProc* method, each class contains the following methods:
 
 
 
@@ -48,19 +48,19 @@ The source code shown in this overview is taken from the [DirectWrite Hello Worl
 | **DiscardDeviceIndependentResources** | Releases the device-independent resources after they are no longer needed.                          |
 | **CreateDeviceResources**             | Creates resources, such as brushes and render targets, that are tied to a particular device.        |
 | **DiscardDeviceResources**            | Releases the device-dependent resources after they are no longer needed.                            |
-| **DrawD2DContent**                    | Uses [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) to render to the screen.                              |
-| **DrawText**                          | Draws the text string by using [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx).                            |
-| **OnResize**                          | Resizes the [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) render target when the window size is changed. |
+| **DrawD2DContent**                    | Uses [Direct2D](../direct2d/direct2d-portal.md) to render to the screen.                              |
+| **DrawText**                          | Draws the text string by using [Direct2D](../direct2d/direct2d-portal.md).                            |
+| **OnResize**                          | Resizes the [Direct2D](../direct2d/direct2d-portal.md) render target when the window size is changed. |
 
 
 
  
 
-You can use the sample provided, or use the instructions that follow to add [DirectWrite](direct-write-portal.md) and [Direct2D](rendering-by-using-direct2d.md) to your own Win32 application. For more information about the sample and the associated project files, see the [DirectWriteHelloWorld sample](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples).
+You can use the sample provided, or use the instructions that follow to add [DirectWrite](direct-write-portal.md) and [Direct2D](rendering-by-using-direct2d.md) to your own Win32 application. For more information about the sample and the associated project files, see the [DirectWriteHelloWorld sample](/samples/browse/?redirectedfrom=MSDN-samples).
 
 ## Drawing Simple Text
 
-This section shows how to use [DirectWrite](direct-write-portal.md) and [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) to render simple text that has a single format, as shown in the following screen shot.
+This section shows how to use [DirectWrite](direct-write-portal.md) and [Direct2D](../direct2d/direct2d-portal.md) to render simple text that has a single format, as shown in the following screen shot.
 
 ![screen shot of "hello world using directwrite!" in a single format](images/simplecropped.png)
 
@@ -69,9 +69,9 @@ Drawing simple text to the screen requires four components:
 -   A character string to render.
 -   An instance of [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat).
 -   The dimensions of the area to contain the text.
--   An object that can render the text. In this tutorial. you use a [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) render target.
+-   An object that can render the text. In this tutorial. you use a [Direct2D](../direct2d/direct2d-portal.md) render target.
 
-The [**IDWriteTextFormat**](https://msdn.microsoft.com/library/Dd316628(v=VS.85).aspx) interface describes the font-family name, size, weight, style, and stretch used to format text, and it describes locale information. **IDWriteTextFormat** also defines methods for setting and getting the following properties:
+The [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) interface describes the font-family name, size, weight, style, and stretch used to format text, and it describes locale information. **IDWriteTextFormat** also defines methods for setting and getting the following properties:
 
 -   The line spacing.
 -   The text alignment relative to the left and right edges of the layout box.
@@ -81,15 +81,15 @@ The [**IDWriteTextFormat**](https://msdn.microsoft.com/library/Dd316628(v=VS.85)
 -   The incremental tab stop.
 -   The paragraph flow direction.
 
-The [**IDWriteTextFormat**](https://msdn.microsoft.com/library/Dd316628(v=VS.85).aspx) interface is required for drawing text that uses both of the processes described in this document .
+The [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) interface is required for drawing text that uses both of the processes described in this document .
 
-Before you can create an [**IDWriteTextFormat**](https://msdn.microsoft.com/library/Dd316628(v=VS.85).aspx) object, or any other [DirectWrite](direct-write-portal.md) object, you need an [**IDWriteFactory**](https://msdn.microsoft.com/library/Dd368183(v=VS.85).aspx) instance. You use an **IDWriteFactory** to create **IDWriteTextFormat** instances and other DirectWrite objects. To obtain a factory instance, use the [**DWriteCreateFactory**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) function.
+Before you can create an [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) object, or any other [DirectWrite](direct-write-portal.md) object, you need an [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) instance. You use an **IDWriteFactory** to create **IDWriteTextFormat** instances and other DirectWrite objects. To obtain a factory instance, use the [**DWriteCreateFactory**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) function.
 
 ### Part 1: Declare DirectWrite and Direct2D Resources.
 
-In this part, you declare the objects that you will use later for creating and displaying text as private data members of your class. All of the interfaces, functions, and datatypes for [DirectWrite](direct-write-portal.md) are declared in the *dwrite.h* header file, and those for [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) are declared in the *d2d1.h*; if you haven't already done this, include these headers in your project.
+In this part, you declare the objects that you will use later for creating and displaying text as private data members of your class. All of the interfaces, functions, and datatypes for [DirectWrite](direct-write-portal.md) are declared in the *dwrite.h* header file, and those for [Direct2D](../direct2d/direct2d-portal.md) are declared in the *d2d1.h*; if you haven't already done this, include these headers in your project.
 
-1.  In your class header file (SimpleText.h), declare pointers to [**IDWriteFactory**](https://msdn.microsoft.com/library/Dd368183(v=VS.85).aspx) and [**IDWriteTextFormat**](https://msdn.microsoft.com/library/Dd316628(v=VS.85).aspx) interfaces as private members.
+1.  In your class header file (SimpleText.h), declare pointers to [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) and [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) interfaces as private members.
     ```C++
     IDWriteFactory* pDWriteFactory_;
     IDWriteTextFormat* pTextFormat_;
@@ -107,7 +107,7 @@ In this part, you declare the objects that you will use later for creating and d
 
     
 
-3.  Declare pointers to [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory), [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget), and [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1solidcolorbrush) interfaces for rendering the text with [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx).
+3.  Declare pointers to [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory), [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget), and [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1solidcolorbrush) interfaces for rendering the text with [Direct2D](../direct2d/direct2d-portal.md).
     ```C++
     ID2D1Factory* pD2DFactory_;
     ID2D1HwndRenderTarget* pRT_;
@@ -127,7 +127,7 @@ In this section, you create the device-independent resources that are used by yo
 
 Some of the resources that are used have to be created only one time and are not tied to a device. The initialization for these resources is put in the *SimpleText::CreateDeviceIndependentResources* method, which is called when initializing the class.
 
-1.  Inside the *SimpleText::CreateDeviceIndependentResources* method in the class implementation file (SimpleText.cpp), call the [**D2D1CreateFactory**](/windows/win32/api/d2d1/nf-d2d1-d2d1createfactory) function to create an [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory) interface, which is the root factory interface for all [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) objects. You use the same factory to instantiate other Direct2D resources.
+1.  Inside the *SimpleText::CreateDeviceIndependentResources* method in the class implementation file (SimpleText.cpp), call the [**D2D1CreateFactory**](/windows/win32/api/d2d1/nf-d2d1-d2d1createfactory) function to create an [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory) interface, which is the root factory interface for all [Direct2D](../direct2d/direct2d-portal.md) objects. You use the same factory to instantiate other Direct2D resources.
     ```C++
     hr = D2D1CreateFactory(
         D2D1_FACTORY_TYPE_SINGLE_THREADED,
@@ -138,7 +138,7 @@ Some of the resources that are used have to be created only one time and are not
 
     
 
-2.  Call the [**DWriteCreateFactory**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) function to create an [**IDWriteFactory**](https://msdn.microsoft.com/library/Dd368183(v=VS.85).aspx) interface, which is the root factory interface for all [DirectWrite](direct-write-portal.md) objects. You use the same factory to instantiate other DirectWrite resources.
+2.  Call the [**DWriteCreateFactory**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) function to create an [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) interface, which is the root factory interface for all [DirectWrite](direct-write-portal.md) objects. You use the same factory to instantiate other DirectWrite resources.
     ```C++
     if (SUCCEEDED(hr))
     {
@@ -163,7 +163,7 @@ Some of the resources that are used have to be created only one time and are not
 
     
 
-4.  Create an [**IDWriteTextFormat**](https://msdn.microsoft.com/library/Dd316628(v=VS.85).aspx) interface object by using the [**IDWriteFactory::CreateTextFormat**](https://msdn.microsoft.com/library/Dd368203(v=VS.85).aspx) method. The **IDWriteTextFormat** specifies the font, weight, stretch, style, and locale that will be used to render the text string.
+4.  Create an [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) interface object by using the [**IDWriteFactory::CreateTextFormat**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtextformat) method. The **IDWriteTextFormat** specifies the font, weight, stretch, style, and locale that will be used to render the text string.
     ```C++
     if (SUCCEEDED(hr))
     {
@@ -183,7 +183,7 @@ Some of the resources that are used have to be created only one time and are not
 
     
 
-5.  Center the text horizontally and vertically by calling the [**IDWriteTextFormat::SetTextAlignment**](https://msdn.microsoft.com/library/Dd316709(v=VS.85).aspx) and [**IDWriteTextFormat::SetParagraphAlignment**](https://msdn.microsoft.com/library/Dd316702(v=VS.85).aspx) methods.
+5.  Center the text horizontally and vertically by calling the [**IDWriteTextFormat::SetTextAlignment**](/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-settextalignment) and [**IDWriteTextFormat::SetParagraphAlignment**](/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setparagraphalignment) methods.
     ```C++
     // Center align (horizontally) the text.
     if (SUCCEEDED(hr))
@@ -258,7 +258,7 @@ Now that you have created a render target and a brush, you can use them to rende
 
 ### Part 4: Draw Text By Using the Direct2D DrawText Method.
 
-1.  In the SimpleText::DrawText method of your class, define the area for the text layout by retrieving the dimensions of the rendering area, and create a [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) rectangle that has the same dimensions.
+1.  In the SimpleText::DrawText method of your class, define the area for the text layout by retrieving the dimensions of the rendering area, and create a [Direct2D](../direct2d/direct2d-portal.md) rectangle that has the same dimensions.
     ```C++
     D2D1_RECT_F layoutRect = D2D1::RectF(
         static_cast<FLOAT>(rc.left) / dpiScaleX_,
@@ -271,10 +271,10 @@ Now that you have created a render target and a brush, you can use them to rende
 
     
 
-2.  Use the [**ID2D1RenderTarget::DrawText**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)) method and the [**IDWriteTextFormat**](https://msdn.microsoft.com/library/Dd316628(v=VS.85).aspx) object to render text to the screen. The **ID2D1RenderTarget::DrawText** method takes the following parameters:
+2.  Use the [**ID2D1RenderTarget::DrawText**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)) method and the [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) object to render text to the screen. The **ID2D1RenderTarget::DrawText** method takes the following parameters:
     -   A string to render.
-    -   A pointer to an [**IDWriteTextFormat**](https://msdn.microsoft.com/library/Dd316628(v=VS.85).aspx) interface.
-    -   A [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) layout rectangle.
+    -   A pointer to an [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) interface.
+    -   A [Direct2D](../direct2d/direct2d-portal.md) layout rectangle.
     -   A pointer to an interface that exposes [**ID2D1Brush**](/windows/win32/api/d2d1/nn-d2d1-id2d1brush).
 
     ```C++
@@ -292,7 +292,7 @@ Now that you have created a render target and a brush, you can use them to rende
 
 ### Part 5: Render the Window Contents Using Direct2D
 
-To render the contents of the window by using [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) when a paint message is received, do the following:
+To render the contents of the window by using [Direct2D](../direct2d/direct2d-portal.md) when a paint message is received, do the following:
 
 1.  Create the device dependent resources by calling the SimpleText::CreateDeviceResources method implemented in Part 3.
 2.  Call the [**ID2D1HwndRenderTarget::BeginDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw) method of the render target.
@@ -336,21 +336,21 @@ The SimpleText class is implemented in SimpleText.h and SimpleText.cpp.
 
 ## Drawing Text with Multiple Formats.
 
-This section shows how to use [DirectWrite](direct-write-portal.md) and [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) to render text with multiple formats, as shown in the following screen shot.
+This section shows how to use [DirectWrite](direct-write-portal.md) and [Direct2D](../direct2d/direct2d-portal.md) to render text with multiple formats, as shown in the following screen shot.
 
 ![screen shot of "hello world using directwrite!", with some parts in different styles, sizes, and formats](images/multiformattedcropped.png)
 
-The code for this section is implemented as the MultiformattedText class in the [DWriteHelloWorld Sample](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples). It is based on the steps from the previous section.
+The code for this section is implemented as the MultiformattedText class in the [DWriteHelloWorld Sample](/samples/browse/?redirectedfrom=MSDN-samples). It is based on the steps from the previous section.
 
-To create multi-formatted text, you use the [**IDWriteTextLayout**](https://msdn.microsoft.com/library/Dd316718(v=VS.85).aspx) interface in addition to the [**IDWriteTextFormat**](https://msdn.microsoft.com/library/Dd316628(v=VS.85).aspx) interface introduced in the previous section. The **IDWriteTextLayout** interface describes the formatting and layout of a block of text. In addition to default formatting specified by an **IDWriteTextFormat** object, the formatting for specific ranges of text can be changed by using **IDWriteTextLayout**. This includes font family name, size, weight, style, stretch, strikethrough, and underlining.
+To create multi-formatted text, you use the [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) interface in addition to the [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) interface introduced in the previous section. The **IDWriteTextLayout** interface describes the formatting and layout of a block of text. In addition to default formatting specified by an **IDWriteTextFormat** object, the formatting for specific ranges of text can be changed by using **IDWriteTextLayout**. This includes font family name, size, weight, style, stretch, strikethrough, and underlining.
 
-[**IDWriteTextLayout**](https://msdn.microsoft.com/library/Dd316718(v=VS.85).aspx) also provides hit-testing methods. The hit-testing metrics returned by these methods are relative to the layout box specified when the **IDWriteTextLayout** interface object is created by using the [**CreateTextLayout**](https://msdn.microsoft.com/library/Dd368205(v=VS.85).aspx) method of the [**IDWriteFactory**](https://msdn.microsoft.com/library/Dd368183(v=VS.85).aspx) interface.
+[**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) also provides hit-testing methods. The hit-testing metrics returned by these methods are relative to the layout box specified when the **IDWriteTextLayout** interface object is created by using the [**CreateTextLayout**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtextlayout) method of the [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) interface.
 
-The [**IDWriteTypography**](https://msdn.microsoft.com/library/Dd371541(v=VS.85).aspx) interface is used to add optional [OpenType](/windows/win32/Intl/opentype-font-format) typographic features to a text layout, such as swashes and alternative stylistic text sets. Typographic features can be added to a specific range of text within a text layout by calling the [**AddFontFeature**](https://msdn.microsoft.com/library/Dd371545(v=VS.85).aspx) method of the **IDWriteTypography** interface. This method receives a [**DWRITE\_FONT\_FEATURE**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_feature_tag) structure as a parameter that contains a **DWRITE\_FONT\_FEATURE\_TAG** enumeration constant and a **UINT32** execution parameter. A list of registered OpenType features can be found at the [OpenType Layout Tag Registry](https://www.microsoft.com/typography/otspec/features_ae.htm) on microsoft.com. For the equivalent DirectWrite enumeration constants, see **DWRITE\_FONT\_FEATURE\_TAG**.
+The [**IDWriteTypography**](/windows/win32/api/dwrite/nn-dwrite-idwritetypography) interface is used to add optional [OpenType](../intl/opentype-font-format.md) typographic features to a text layout, such as swashes and alternative stylistic text sets. Typographic features can be added to a specific range of text within a text layout by calling the [**AddFontFeature**](/windows/win32/api/dwrite/nf-dwrite-idwritetypography-addfontfeature) method of the **IDWriteTypography** interface. This method receives a [**DWRITE\_FONT\_FEATURE**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_feature_tag) structure as a parameter that contains a **DWRITE\_FONT\_FEATURE\_TAG** enumeration constant and a **UINT32** execution parameter. A list of registered OpenType features can be found at the [OpenType Layout Tag Registry](https://www.microsoft.com/typography/otspec/features_ae.htm) on microsoft.com. For the equivalent DirectWrite enumeration constants, see **DWRITE\_FONT\_FEATURE\_TAG**.
 
 ### Part 1: Create an IDWriteTextLayout Interface.
 
-1.  Declare a pointer to an [**IDWriteTextLayout**](https://msdn.microsoft.com/library/Dd316718(v=VS.85).aspx) interface as a member of the MultiformattedText class.
+1.  Declare a pointer to an [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) interface as a member of the MultiformattedText class.
     ```C++
     IDWriteTextLayout* pTextLayout_;
     
@@ -358,7 +358,7 @@ The [**IDWriteTypography**](https://msdn.microsoft.com/library/Dd371541(v=VS.85)
 
     
 
-2.  At the end of the MultiformattedText::CreateDeviceIndependentResources method, create an [**IDWriteTextLayout**](https://msdn.microsoft.com/library/Dd316718(v=VS.85).aspx) interface object by calling the [**CreateTextLayout**](https://msdn.microsoft.com/library/Dd368205(v=VS.85).aspx) method. The **IDWriteTextLayout** interface provides additional formatting features, such as the ability to apply different formats to selected portions of text.
+2.  At the end of the MultiformattedText::CreateDeviceIndependentResources method, create an [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) interface object by calling the [**CreateTextLayout**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtextlayout) method. The **IDWriteTextLayout** interface provides additional formatting features, such as the ability to apply different formats to selected portions of text.
     ```C++
     // Create a text layout using the text format.
     if (SUCCEEDED(hr))
@@ -384,9 +384,9 @@ The [**IDWriteTypography**](https://msdn.microsoft.com/library/Dd371541(v=VS.85)
 
 ### Part 2: Applying Formatting with IDWriteTextLayout.
 
-Formatting, such as the font size, weight, and underlining, can be applied to substrings of the text to be displayed by using the [**IDWriteTextLayout**](https://msdn.microsoft.com/library/Dd316718(v=VS.85).aspx) interface.
+Formatting, such as the font size, weight, and underlining, can be applied to substrings of the text to be displayed by using the [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) interface.
 
-1.  Set the font size for the substring "Di" of "DirectWrite" to 100 by declaring a [**DWRITE\_TEXT\_RANGE**](/windows/win32/api/dwrite/ns-dwrite-dwrite_text_range) and calling the [**IDWriteTextLayout::SetFontSize**](https://msdn.microsoft.com/library/Dd371490(v=VS.85).aspx) method.
+1.  Set the font size for the substring "Di" of "DirectWrite" to 100 by declaring a [**DWRITE\_TEXT\_RANGE**](/windows/win32/api/dwrite/ns-dwrite-dwrite_text_range) and calling the [**IDWriteTextLayout::SetFontSize**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setfontsize) method.
     ```C++
     // Format the "DirectWrite" substring to be of font size 100.
     if (SUCCEEDED(hr))
@@ -399,7 +399,7 @@ Formatting, such as the font size, weight, and underlining, can be applied to su
 
     
 
-2.  Underline the substring "DirectWrite" by calling the [**IDWriteTextLayout::SetUnderline**](https://msdn.microsoft.com/library/Dd371518(v=VS.85).aspx) method.
+2.  Underline the substring "DirectWrite" by calling the [**IDWriteTextLayout::SetUnderline**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setunderline) method.
     ```C++
     // Format the word "DWrite" to be underlined.
     if (SUCCEEDED(hr))
@@ -413,7 +413,7 @@ Formatting, such as the font size, weight, and underlining, can be applied to su
 
     
 
-3.  Set the font weight to bold for the substring "DirectWrite" by calling the [**IDWriteTextLayout::SetFontWeight**](https://msdn.microsoft.com/library/Dd371498(v=VS.85).aspx) method.
+3.  Set the font weight to bold for the substring "DirectWrite" by calling the [**IDWriteTextLayout::SetFontWeight**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setfontweight) method.
     ```C++
     if (SUCCEEDED(hr))
     {
@@ -428,7 +428,7 @@ Formatting, such as the font size, weight, and underlining, can be applied to su
 
 ### Part 3: Adding Typographic Features with IDWriteTypography.
 
-1.  Declare and create an [**IDWriteTypography**](https://msdn.microsoft.com/library/Dd371541(v=VS.85).aspx) interface object by calling the [**IDWriteFactory::CreateTypography**](https://msdn.microsoft.com/library/Dd368206(v=VS.85).aspx) method.
+1.  Declare and create an [**IDWriteTypography**](/windows/win32/api/dwrite/nn-dwrite-idwritetypography) interface object by calling the [**IDWriteFactory::CreateTypography**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtypography) method.
     ```C++
     // Declare a typography pointer.
     IDWriteTypography* pTypography = NULL;
@@ -443,7 +443,7 @@ Formatting, such as the font size, weight, and underlining, can be applied to su
 
     
 
-2.  Add a font feature by declaring a [**DWRITE\_FONT\_FEATURE**](/windows/win32/api/dwrite/ns-dwrite-dwrite_font_feature) object that has the stylistic set 7 specified and calling the [**IDWriteTypography::AddFontFeature**](https://msdn.microsoft.com/library/Dd371545(v=VS.85).aspx) method.
+2.  Add a font feature by declaring a [**DWRITE\_FONT\_FEATURE**](/windows/win32/api/dwrite/ns-dwrite-dwrite_font_feature) object that has the stylistic set 7 specified and calling the [**IDWriteTypography::AddFontFeature**](/windows/win32/api/dwrite/nf-dwrite-idwritetypography-addfontfeature) method.
     ```C++
     // Set the stylistic set.
     DWRITE_FONT_FEATURE fontFeature = {DWRITE_FONT_FEATURE_TAG_STYLISTIC_SET_7,
@@ -457,7 +457,7 @@ Formatting, such as the font size, weight, and underlining, can be applied to su
 
     
 
-3.  Set the text layout to use the typography over the whole string by declaring a [**DWRITE\_TEXT\_RANGE**](/windows/win32/api/dwrite/ns-dwrite-dwrite_text_range) variable and calling the [**IDWriteTextLayout::SetTypography**](https://msdn.microsoft.com/library/Dd371517(v=VS.85).aspx) method and passing in the text range.
+3.  Set the text layout to use the typography over the whole string by declaring a [**DWRITE\_TEXT\_RANGE**](/windows/win32/api/dwrite/ns-dwrite-dwrite_text_range) variable and calling the [**IDWriteTextLayout::SetTypography**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-settypography) method and passing in the text range.
     ```C++
     if (SUCCEEDED(hr))
     {
@@ -484,9 +484,9 @@ Formatting, such as the font size, weight, and underlining, can be applied to su
 
 ### Part 4: Draw Text Using the Direct2D DrawTextLayout Method.
 
-To draw the text with the text layout settings specified by the [**IDWriteTextLayout**](https://msdn.microsoft.com/library/Dd316718(v=VS.85).aspx) object, change the code in the MultiformattedText::DrawText method to use [**IDWriteTextLayout::DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout).
+To draw the text with the text layout settings specified by the [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) object, change the code in the MultiformattedText::DrawText method to use [**IDWriteTextLayout::DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout).
 
-1.  Delcare a [**D2D1\_POINT\_2F**](/windows/win32/Direct2D/d2d1-point-2f) variable and set it to the upper-left point of the window.
+1.  Delcare a [**D2D1\_POINT\_2F**](../direct2d/d2d1-point-2f.md) variable and set it to the upper-left point of the window.
     ```C++
     D2D1_POINT_2F origin = D2D1::Point2F(
         static_cast<FLOAT>(rc.left / dpiScaleX_),
@@ -497,7 +497,7 @@ To draw the text with the text layout settings specified by the [**IDWriteTextLa
 
     
 
-2.  Draw the text to the screen by calling the [**ID2D1RenderTarget::DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) method of the [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) render target and passing the [**IDWriteTextLayout**](https://msdn.microsoft.com/library/Dd316718(v=VS.85).aspx) pointer.
+2.  Draw the text to the screen by calling the [**ID2D1RenderTarget::DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) method of the [Direct2D](../direct2d/direct2d-portal.md) render target and passing the [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) pointer.
     ```C++
     pRT_->DrawTextLayout(
         origin,
@@ -514,7 +514,3 @@ The MultiformattedText class is implemented in MultiformattedText.h and Multifor
  
 
  
-
-
-
-

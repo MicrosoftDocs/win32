@@ -1,5 +1,5 @@
 ---
-Description: 'This topic describes the memory management functions:'
+description: 'This topic describes the memory management functions:'
 ms.assetid: 5a2a7a62-0bda-4a0d-93d2-25b4898871fd
 title: Memory Management Functions
 ms.topic: article
@@ -25,22 +25,22 @@ ms.date: 11/06/2018
 | Function | Description |
 |-|-|
 | [**AddSecureMemoryCacheCallback**](/windows/desktop/api/WinBase/nf-winbase-addsecurememorycachecallback) | Registers a callback function to be called when a secured memory range is freed or its protections are changed. |
-| [**CopyMemory**](https://msdn.microsoft.com/library/Aa366535(v=VS.85).aspx) | Copies a block of memory from one location to another. |
-| [**CreateMemoryResourceNotification**](https://msdn.microsoft.com/library/Aa366541(v=VS.85).aspx) | Creates a memory resource notification object. |
-| [**FillMemory**](https://msdn.microsoft.com/library/Aa366561(v=VS.85).aspx) | Fills a block of memory with a specified value. |
-| [**GetLargePageMinimum**](https://msdn.microsoft.com/library/Aa366568(v=VS.85).aspx) | Retrieves the minimum size of a large page. |
-| [**GetPhysicallyInstalledSystemMemory**](https://msdn.microsoft.com/library/Cc300158(v=VS.85).aspx) | Retrieves the amount of RAM that is physically installed on the computer. |
-| [**GetSystemFileCacheSize**](https://msdn.microsoft.com/library/Aa965224(v=VS.85).aspx) | Retrieves the current size limits for the working set of the system cache. |
-| [**GetWriteWatch**](https://msdn.microsoft.com/library/Aa366573(v=VS.85).aspx) | Retrieves the addresses of the pages that have been written to in a region of virtual memory. |
-| [**GlobalMemoryStatusEx**](https://msdn.microsoft.com/library/Aa366589(v=VS.85).aspx) | Obtains information about the system's current usage of both physical and virtual memory. |
-| [**MoveMemory**](https://msdn.microsoft.com/library/Aa366788(v=VS.85).aspx) | Moves a block of memory from one location to another. |
-| [**QueryMemoryResourceNotification**](https://msdn.microsoft.com/library/Aa366799(v=VS.85).aspx) | Retrieves the state of the specified memory resource object. |
+| [**CopyMemory**](/previous-versions/windows/desktop/legacy/aa366535(v=vs.85)) | Copies a block of memory from one location to another. |
+| [**CreateMemoryResourceNotification**](/windows/win32/api/memoryapi/nf-memoryapi-creatememoryresourcenotification) | Creates a memory resource notification object. |
+| [**FillMemory**](/previous-versions/windows/desktop/legacy/aa366561(v=vs.85)) | Fills a block of memory with a specified value. |
+| [**GetLargePageMinimum**](/windows/win32/api/memoryapi/nf-memoryapi-getlargepageminimum) | Retrieves the minimum size of a large page. |
+| [**GetPhysicallyInstalledSystemMemory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getphysicallyinstalledsystemmemory) | Retrieves the amount of RAM that is physically installed on the computer. |
+| [**GetSystemFileCacheSize**](/windows/win32/api/memoryapi/nf-memoryapi-getsystemfilecachesize) | Retrieves the current size limits for the working set of the system cache. |
+| [**GetWriteWatch**](/windows/win32/api/memoryapi/nf-memoryapi-getwritewatch) | Retrieves the addresses of the pages that have been written to in a region of virtual memory. |
+| [**GlobalMemoryStatusEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex) | Obtains information about the system's current usage of both physical and virtual memory. |
+| [**MoveMemory**](/previous-versions/windows/desktop/legacy/aa366788(v=vs.85)) | Moves a block of memory from one location to another. |
+| [**QueryMemoryResourceNotification**](/windows/win32/api/memoryapi/nf-memoryapi-querymemoryresourcenotification) | Retrieves the state of the specified memory resource object. |
 | [**RemoveSecureMemoryCacheCallback**](/windows/desktop/api/WinBase/nf-winbase-removesecurememorycachecallback) | Unregisters a callback function that was previously registered with the [**AddSecureMemoryCacheCallback**](/windows/desktop/api/WinBase/nf-winbase-addsecurememorycachecallback) function. |
-| [**ResetWriteWatch**](https://msdn.microsoft.com/library/Aa366874(v=VS.85).aspx) | Resets the write-tracking state for a region of virtual memory. |
+| [**ResetWriteWatch**](/windows/win32/api/memoryapi/nf-memoryapi-resetwritewatch) | Resets the write-tracking state for a region of virtual memory. |
 | [**SecureMemoryCacheCallback**](/windows/desktop/api/WinNT/nc-winnt-psecure_memory_cache_callback) | An application-defined function that is called when a secured memory range is freed or its protections are changed. |
-| [**SecureZeroMemory**](https://msdn.microsoft.com/library/Aa366877(v=VS.85).aspx) | Fills a block of memory with zeros. |
-| [**SetSystemFileCacheSize**](https://msdn.microsoft.com/library/Aa965240(v=VS.85).aspx) | Limits the size of the working set for the file system cache. |
-| [**ZeroMemory**](https://msdn.microsoft.com/library/Aa366920(v=VS.85).aspx) | Fills a block of memory with zeros. |
+| [**SecureZeroMemory**](/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)) | Fills a block of memory with zeros. |
+| [**SetSystemFileCacheSize**](/windows/win32/api/memoryapi/nf-memoryapi-setsystemfilecachesize) | Limits the size of the working set for the file system cache. |
+| [**ZeroMemory**](/previous-versions/windows/desktop/legacy/aa366920(v=vs.85)) | Fills a block of memory with zeros. |
 
 ## Data execution prevention functions
 
@@ -58,23 +58,25 @@ These functions are used in [file mapping](file-mapping.md).
 
 | Function | Description |
 |-|-|
-| [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) | Creates or opens a named or unnamed file-mapping object for a specified file. |
+| [**CreateFileMappingA**](/windows/win32/api/winbase/nf-winbase-createfilemappinga) | Creates or opens a named or unnamed file-mapping object for a specified file. |
+| [**CreateFileMappingW**](/windows/win32/api/memoryapi/nf-memoryapi-createfilemappingw) | Creates or opens a named or unnamed file-mapping object for a specified file. |
+| [**CreateFileMapping2**](/windows/win32/api/memoryapi/nf-memoryapi-createfilemapping2) | Creates or opens a named or unnamed file mapping object for a specified file. You can specify specify a preferred NUMA node for the physical memory as an extended parameter; see the *ExtendedParameters* parameter. |
 | [**CreateFileMappingFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-createfilemappingfromapp) | Creates or opens a named or unnamed file-mapping object for a specified file from a Windows Store app. |
 | [**CreateFileMappingNuma**](/windows/desktop/api/WinBase/nf-winbase-createfilemappingnumaa) | Creates or opens a named or unnamed file-mapping object for a specified file, and specifies the NUMA node for the physical memory. |
-| [**FlushViewOfFile**](https://msdn.microsoft.com/library/Aa366563(v=VS.85).aspx) | Writes to the disk a byte range within a mapped view of a file. |
-| [**GetMappedFileName**](https://msdn.microsoft.com/library/ms683195(v=VS.85).aspx) | Checks whether the specified address is within a memory-mapped file in the address space of the specified process. If so, the function returns the name of the memory-mapped file. |
-| [**MapViewOfFile**](https://msdn.microsoft.com/library/Aa366761(v=VS.85).aspx) | Maps a view of a file mapping into the address space of a calling process. |
-| [**MapViewOfFile2**](https://msdn.microsoft.com/library/Mt492557(v=VS.85).aspx) | Maps a view of a file or a pagefile-backed section into the address space of the specified process. |
+| [**FlushViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-flushviewoffile) | Writes to the disk a byte range within a mapped view of a file. |
+| [**GetMappedFileName**](/windows/win32/api/psapi/nf-psapi-getmappedfilenamea) | Checks whether the specified address is within a memory-mapped file in the address space of the specified process. If so, the function returns the name of the memory-mapped file. |
+| [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) | Maps a view of a file mapping into the address space of a calling process. |
+| [**MapViewOfFile2**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile2) | Maps a view of a file or a pagefile-backed section into the address space of the specified process. |
 | [**MapViewOfFile3**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffile3) | Maps a view of a file or a pagefile-backed section into the address space of the specified process. |
 | [**MapViewOfFile3FromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffile3fromapp) | Maps a view of a file mapping into the address space of a calling process from a Windows Store app. |
-| [**MapViewOfFileEx**](https://msdn.microsoft.com/library/Aa366763(v=VS.85).aspx) | Maps a view of a file mapping into the address space of a calling process. A caller can optionally specify a suggested memory address for the view. |
+| [**MapViewOfFileEx**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffileex) | Maps a view of a file mapping into the address space of a calling process. A caller can optionally specify a suggested memory address for the view. |
 | [**MapViewOfFileExNuma**](/windows/desktop/api/WinBase/nf-winbase-mapviewoffileexnuma) | Maps a view of a file mapping into the address space of a calling process, and specifies the NUMA node for the physical memory. |
 | [**MapViewOfFileFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffilefromapp) | Maps a view of a file mapping into the address space of a calling process from a Windows Store app. |
-| [**MapViewOfFileNuma2**](https://msdn.microsoft.com/library/Mt492558(v=VS.85).aspx) | Maps a view of a file or a pagefile-backed section into the address space of the specified process. |
+| [**MapViewOfFileNuma2**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffilenuma2) | Maps a view of a file or a pagefile-backed section into the address space of the specified process. |
 | [**OpenFileMapping**](/windows/win32/api/winbase/nf-winbase-openfilemappinga) | Opens a named file-mapping object. |
 | [**OpenFileMappingFromApp**](/windows/win32/api/winbase/nf-winbase-openfilemappingafromapp) | Opens a named file-mapping object. |
-| [**UnmapViewOfFile**](https://msdn.microsoft.com/library/Aa366882(v=VS.85).aspx) | Unmaps a mapped view of a file from the calling process's address space. |
-| [**UnmapViewOfFile2**](https://msdn.microsoft.com/library/Mt492559(v=VS.85).aspx) | Unmaps a previously mapped view of a file or a pagefile-backed section. |
+| [**UnmapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-unmapviewoffile) | Unmaps a mapped view of a file from the calling process's address space. |
+| [**UnmapViewOfFile2**](/windows/win32/api/memoryapi/nf-memoryapi-unmapviewoffile2) | Unmaps a previously mapped view of a file or a pagefile-backed section. |
 | [**UnmapViewOfFileEx**](/windows/desktop/api/MemoryApi/nf-memoryapi-unmapviewoffileex) | Unmaps a previously mapped view of a file or a pagefile-backed section. |
 
 ## AWE functions
@@ -83,10 +85,10 @@ These are the [AWE functions](address-windowing-extensions.md).
 
 | Function | Description |
 |-|-|
-| [**AllocateUserPhysicalPages**](https://msdn.microsoft.com/library/Aa366528(v=VS.85).aspx) | Allocates physical memory pages to be mapped and unmapped within any AWE region of the process. |
-| [**AllocateUserPhysicalPagesNuma**](https://msdn.microsoft.com/library/Aa366529(v=VS.85).aspx) | Allocates physical memory pages to be mapped and unmapped within any AWE region of the process, and specifies the NUMA node for the physical memory. |
-| [**FreeUserPhysicalPages**](https://msdn.microsoft.com/library/Aa366566(v=VS.85).aspx) | Frees physical memory pages previously allocated with [**AllocateUserPhysicalPages**](https://msdn.microsoft.com/library/Aa366528(v=VS.85).aspx). |
-| [**MapUserPhysicalPages**](https://msdn.microsoft.com/library/Aa366753(v=VS.85).aspx) | Maps previously allocated physical memory pages at the specified address within an AWE region. |
+| [**AllocateUserPhysicalPages**](/windows/win32/api/memoryapi/nf-memoryapi-allocateuserphysicalpages) | Allocates physical memory pages to be mapped and unmapped within any AWE region of the process. |
+| [**AllocateUserPhysicalPagesNuma**](/windows/win32/api/memoryapi/nf-memoryapi-allocateuserphysicalpagesnuma) | Allocates physical memory pages to be mapped and unmapped within any AWE region of the process, and specifies the NUMA node for the physical memory. |
+| [**FreeUserPhysicalPages**](/windows/win32/api/memoryapi/nf-memoryapi-freeuserphysicalpages) | Frees physical memory pages previously allocated with [**AllocateUserPhysicalPages**](/windows/win32/api/memoryapi/nf-memoryapi-allocateuserphysicalpages). |
+| [**MapUserPhysicalPages**](/windows/win32/api/memoryapi/nf-memoryapi-mapuserphysicalpages) | Maps previously allocated physical memory pages at the specified address within an AWE region. |
 | [**MapUserPhysicalPagesScatter**](/windows/desktop/api/WinBase/nf-winbase-mapuserphysicalpagesscatter) | Maps previously allocated physical memory pages at the specified address within an AWE region. |
 
 ## Heap functions
@@ -117,27 +119,27 @@ These are the [virtual memory functions](virtual-memory-functions.md).
 
 | Function | Description |
 |-|-|
-| [**DiscardVirtualMemory**](https://msdn.microsoft.com/library/Dn781432(v=VS.85).aspx) | Discards the memory contents of a range of memory pages, without decommitting the memory. The contents of discarded memory is undefined and must be rewritten by the application. |
-| [**OfferVirtualMemory**](https://msdn.microsoft.com/library/Dn781436(v=VS.85).aspx) | Indicates that the data contained in a range of memory pages is no longer needed by the application and can be discarded by the system if necessary. |
-| [**PrefetchVirtualMemory**](https://msdn.microsoft.com/library/Hh780543(v=VS.85).aspx) | Prefetches virtual address ranges into physical memory. |
+| [**DiscardVirtualMemory**](/windows/win32/api/memoryapi/nf-memoryapi-discardvirtualmemory) | Discards the memory contents of a range of memory pages, without decommitting the memory. The contents of discarded memory is undefined and must be rewritten by the application. |
+| [**OfferVirtualMemory**](/windows/win32/api/memoryapi/nf-memoryapi-offervirtualmemory) | Indicates that the data contained in a range of memory pages is no longer needed by the application and can be discarded by the system if necessary. |
+| [**PrefetchVirtualMemory**](/windows/win32/api/memoryapi/nf-memoryapi-prefetchvirtualmemory) | Prefetches virtual address ranges into physical memory. |
 | [**QueryVirtualMemoryInformation**](/windows/desktop/api/MemoryApi/nf-memoryapi-queryvirtualmemoryinformation) | Returns information about a page or a set of pages within the virtual address space of the specified process. |
-| [**ReclaimVirtualMemory**](https://msdn.microsoft.com/library/Dn781437(v=VS.85).aspx) | Reclaims a range of memory pages that were offered to the system with [**OfferVirtualMemory**](https://msdn.microsoft.com/library/Dn781436(v=VS.85).aspx). |
+| [**ReclaimVirtualMemory**](/windows/win32/api/memoryapi/nf-memoryapi-reclaimvirtualmemory) | Reclaims a range of memory pages that were offered to the system with [**OfferVirtualMemory**](/windows/win32/api/memoryapi/nf-memoryapi-offervirtualmemory). |
 | [**SetProcessValidCallTargets**](/windows/desktop/api/MemoryApi/nf-memoryapi-setprocessvalidcalltargets) | Provides CFG with a list of valid indirect call targets and specifies whether they should be marked valid or not. |
 | [**VirtualAlloc**](/windows/desktop/api/MemoryApi/nf-memoryapi-virtualalloc) | Reserves or commits a region of pages in the virtual address space of the calling process. |
 | [**VirtualAlloc2**](/windows/desktop/api/MemoryApi/nf-memoryapi-virtualalloc2) | Reserves, commits, or changes the state of a region of memory within the virtual address space of a specified process. The function initializes the memory it allocates to zero. |
 | [**VirtualAlloc2FromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-virtualallocfromapp) | Reserves, commits, or changes the state of a region of pages in the virtual address space of the calling process. Memory allocated by this function is automatically initialized to zero. |
-| [**VirtualAllocEx**](https://msdn.microsoft.com/library/Aa366890(v=VS.85).aspx) | Reserves or commits a region of pages in the virtual address space of the specified process. |
-| [**VirtualAllocExNuma**](https://msdn.microsoft.com/library/Aa366891(v=VS.85).aspx) | Reserves or commits a region of memory within the virtual address space of the specified process, and specifies the NUMA node for the physical memory. |
+| [**VirtualAllocEx**](/windows/win32/api/memoryapi/nf-memoryapi-virtualallocex) | Reserves or commits a region of pages in the virtual address space of the specified process. |
+| [**VirtualAllocExNuma**](/windows/win32/api/memoryapi/nf-memoryapi-virtualallocexnuma) | Reserves or commits a region of memory within the virtual address space of the specified process, and specifies the NUMA node for the physical memory. |
 | [**VirtualAllocFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-virtualallocfromapp) | Reserves, commits, or changes the state of a region of pages in the virtual address space of the calling process. Memory allocated by this function is automatically initialized to zero. |
-| [**VirtualFree**](https://msdn.microsoft.com/library/Aa366892(v=VS.85).aspx) | Releases or decommits a region of pages within the virtual address space of the calling process. |
-| [**VirtualFreeEx**](https://msdn.microsoft.com/library/Aa366894(v=VS.85).aspx) | Releases or decommits a region of memory within the virtual address space of a specified process. |
-| [**VirtualLock**](https://msdn.microsoft.com/library/Aa366895(v=VS.85).aspx) | Locks the specified region of the process's virtual address space into physical memory. |
-| [**VirtualProtect**](https://msdn.microsoft.com/library/Aa366898(v=VS.85).aspx) | Changes the access protection on a region of committed pages in the virtual address space of the calling process. |
-| [**VirtualProtectEx**](https://msdn.microsoft.com/library/Aa366899(v=VS.85).aspx) | Changes the access protection on a region of committed pages in the virtual address space of the calling process. |
+| [**VirtualFree**](/windows/win32/api/memoryapi/nf-memoryapi-virtualfree) | Releases or decommits a region of pages within the virtual address space of the calling process. |
+| [**VirtualFreeEx**](/windows/win32/api/memoryapi/nf-memoryapi-virtualfreeex) | Releases or decommits a region of memory within the virtual address space of a specified process. |
+| [**VirtualLock**](/windows/win32/api/memoryapi/nf-memoryapi-virtuallock) | Locks the specified region of the process's virtual address space into physical memory. |
+| [**VirtualProtect**](/windows/win32/api/memoryapi/nf-memoryapi-virtualprotect) | Changes the access protection on a region of committed pages in the virtual address space of the calling process. |
+| [**VirtualProtectEx**](/windows/win32/api/memoryapi/nf-memoryapi-virtualprotectex) | Changes the access protection on a region of committed pages in the virtual address space of the calling process. |
 | [**VirtualProtectFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-virtualprotectfromapp) | Changes the protection on a region of committed pages in the virtual address space of the calling process. |
-| [**VirtualQuery**](https://msdn.microsoft.com/library/Aa366902(v=VS.85).aspx) | Provides information about a range of pages in the virtual address space of the calling process. |
-| [**VirtualQueryEx**](https://msdn.microsoft.com/library/Aa366907(v=VS.85).aspx) | Provides information about a range of pages in the virtual address space of the calling process. |
-| [**VirtualUnlock**](https://msdn.microsoft.com/library/Aa366910(v=VS.85).aspx) | Unlocks a specified range of pages in the virtual address space of a process. |
+| [**VirtualQuery**](/windows/win32/api/memoryapi/nf-memoryapi-virtualquery) | Provides information about a range of pages in the virtual address space of the calling process. |
+| [**VirtualQueryEx**](/windows/win32/api/memoryapi/nf-memoryapi-virtualqueryex) | Provides information about a range of pages in the virtual address space of the calling process. |
+| [**VirtualUnlock**](/windows/win32/api/memoryapi/nf-memoryapi-virtualunlock) | Unlocks a specified range of pages in the virtual address space of a process. |
 
 ## Global and local functions
 
@@ -146,7 +148,7 @@ Also see [global and local functions](global-and-local-functions.md). These func
 | Function | Description | Corresponding heap function |
 |-|-|-|
 | [**GlobalAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalalloc), [**LocalAlloc**](/windows/desktop/api/WinBase/nf-winbase-localalloc) | Allocates the specified number of bytes from the heap. | [**HeapAlloc**](/windows/desktop/api/HeapApi/nf-heapapi-heapalloc) |
-| [**GlobalDiscard**](/windows/desktop/api/WinBase/nf-winbase-globaldiscard), [**LocalDiscard**](https://msdn.microsoft.com/library/Aa366727(v=VS.85).aspx) | Discards the specified global memory block. | Not applicable. |
+| [**GlobalDiscard**](/windows/desktop/api/WinBase/nf-winbase-globaldiscard), [**LocalDiscard**](/windows/win32/api/minwinbase/nf-minwinbase-localdiscard) | Discards the specified global memory block. | Not applicable. |
 | [**GlobalFlags**](/windows/desktop/api/WinBase/nf-winbase-globalflags), [**LocalFlags**](/windows/desktop/api/WinBase/nf-winbase-localflags) | Returns information about the specified global memory object. | Not applicable. Use [**HeapValidate**](/windows/desktop/api/HeapApi/nf-heapapi-heapvalidate) to validate the heap. |
 | [**GlobalFree**](/windows/desktop/api/WinBase/nf-winbase-globalfree), [**LocalFree**](/windows/desktop/api/WinBase/nf-winbase-localfree) | Frees the specified global memory object. | [**HeapFree**](/windows/desktop/api/HeapApi/nf-heapapi-heapfree) |
 | [**GlobalHandle**](/windows/desktop/api/WinBase/nf-winbase-globalhandle), [**LocalHandle**](/windows/desktop/api/WinBase/nf-winbase-localhandle) | Retrieves the handle associated with the specified pointer to a global memory block. This function should be used only with OLE and clipboard functions that require it. | Not applicable. |
@@ -159,10 +161,10 @@ Also see [global and local functions](global-and-local-functions.md). These func
 
 | Function | Description |
 |-|-|
-| [**BadMemoryCallbackRoutine**](https://msdn.microsoft.com/library/Hh691011(v=VS.85).aspx) | An application-defined function registered with the [**RegisterBadMemoryNotification**](https://msdn.microsoft.com/library/Hh691013(v=VS.85).aspx) function that is called when one or more bad memory pages are detected. |
-| [**GetMemoryErrorHandlingCapabilities**](https://msdn.microsoft.com/library/Hh691012(v=VS.85).aspx) | Gets the memory error handling capabilities of the system. |
-| [**RegisterBadMemoryNotification**](https://msdn.microsoft.com/library/Hh691013(v=VS.85).aspx) | Registers a bad memory notification that is called when one or more bad memory pages are detected. |
-| [**UnregisterBadMemoryNotification**](https://msdn.microsoft.com/library/Hh691014(v=VS.85).aspx) | Closes the specified bad memory notification handle. |
+| [**BadMemoryCallbackRoutine**](/previous-versions/windows/desktop/legacy/hh691011(v=vs.85)) | An application-defined function registered with the [**RegisterBadMemoryNotification**](/windows/win32/api/memoryapi/nf-memoryapi-registerbadmemorynotification) function that is called when one or more bad memory pages are detected. |
+| [**GetMemoryErrorHandlingCapabilities**](/windows/win32/api/memoryapi/nf-memoryapi-getmemoryerrorhandlingcapabilities) | Gets the memory error handling capabilities of the system. |
+| [**RegisterBadMemoryNotification**](/windows/win32/api/memoryapi/nf-memoryapi-registerbadmemorynotification) | Registers a bad memory notification that is called when one or more bad memory pages are detected. |
+| [**UnregisterBadMemoryNotification**](/windows/win32/api/memoryapi/nf-memoryapi-unregisterbadmemorynotification) | Closes the specified bad memory notification handle. |
 
 ## Enclave functions
 
@@ -191,6 +193,6 @@ These functions are provided only for compatibility with 16-bit versions of Wind
 - [**IsBadStringPtr**](/windows/desktop/api/WinBase/nf-winbase-isbadstringptra)
 - [**IsBadWritePtr**](/windows/desktop/api/WinBase/nf-winbase-isbadwriteptr)
 
-The function below can return incorrect information, and should not be used. Instead, use the [**GlobalMemoryStatusEx**](https://msdn.microsoft.com/library/Aa366589(v=VS.85).aspx) function.
+The function below can return incorrect information, and should not be used. Instead, use the [**GlobalMemoryStatusEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex) function.
 
 - [**GlobalMemoryStatus**](/windows/desktop/api/WinBase/nf-winbase-globalmemorystatus)

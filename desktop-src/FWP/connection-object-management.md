@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**FWPM\_CONNECTION\_CALLBACK0**](https://msdn.microsoft.com/library/Hh447352(v=VS.85).aspx)
+-   [**FWPM\_CONNECTION\_CALLBACK0**](/windows/win32/api/fwpmu/nc-fwpmu-fwpm_connection_callback0)
 -   [**FwpmConnectionCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmconnectioncreateenumhandle0)
 -   [**FwpmConnectionDestroyEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmconnectiondestroyenumhandle0)
 -   [**FwpmConnectionEnum0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmconnectionenum0)
@@ -24,7 +24,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

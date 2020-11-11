@@ -18,9 +18,9 @@ api_location:
 
 # UserControlService method of the Win32\_BaseService class
 
-The [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method attempts to send a user-defined control code to a service.
+The [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method attempts to send a user-defined control code to a service.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -399,16 +399,11 @@ The service is currently paused in the system.
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_BaseService**](win32-baseservice.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

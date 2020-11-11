@@ -26,7 +26,7 @@ Reserved. Request to live debug a shader.
 
 ## Members
 
-The **IDebugLiveShaderRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDebugLiveShaderRequest** also has these types of members:
+The **IDebugLiveShaderRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDebugLiveShaderRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,7 +34,7 @@ The **IDebugLiveShaderRequest** interface inherits from the [**IUnknown**](https
 
 The **IDebugLiveShaderRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/idebugliveshaderrequest-begindebugliveshader-debugshaderrequestinfo-ptr"><strong>BeginDebugLiveShader</strong></a></td><td style="text-align: left;"><p>Requests to debug a shader on the GPU (live debugging) vs CPU (trace-based debugging).</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/idebugliveshaderrequest-begindebugliveshader-debugshaderrequestinfo-ptr"><strong>BeginDebugLiveShader</strong></a></td><td style="text-align: left;"><p>Requests to debug a shader on the GPU (live debugging) vs CPU (trace-based debugging).</p></td></tr></tbody></table>
 
  
 
@@ -45,6 +45,3 @@ The **IDebugLiveShaderRequest** interface has these methods.
  
 
  
-
-
-

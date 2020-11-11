@@ -42,16 +42,12 @@ Windows Sockets 2 can be used on all Windows platforms. Where certain implementa
 
 <dl> <dt>
 
-[IP Helper](https://msdn.microsoft.com/library/Aa366073(v=VS.85).aspx)
+[IP Helper](../iphlp/ip-helper-start-page.md)
 </dt> <dt>
 
-[Quality of Service](https://msdn.microsoft.com/library/Aa374094(v=VS.80).aspx)
+[Quality of Service](/previous-versions/windows/desktop/qos/qos-start-page)
 </dt> </dl>
 
  
 
  
-
-
-
-

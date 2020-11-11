@@ -75,7 +75,7 @@ Set the following attributes on the output media type.
 <tr class="even">
 <td><a href="mf-mt-user-data-attribute.md">MF_MT_USER_DATA</a></td>
 <td>Additional codec data.</td>
-<td>This attribute contains the 12 bytes of the <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-mpeglayer3waveformat"><strong>MPEGLAYER3WAVEFORMAT</strong></a> structure that follow the <strong>wfx</strong> member of that structure.</td>
+<td>This attribute contains the 12 bytes of the <a href="/windows/desktop/api/mmreg/ns-mmreg-mpeglayer3waveformat"><strong>MPEGLAYER3WAVEFORMAT</strong></a> structure that follow the <strong>wfx</strong> member of that structure.</td>
 </tr>
 </tbody>
 </table>
@@ -84,7 +84,7 @@ Set the following attributes on the output media type.
 
  
 
-Alternatively, you can fill in an [**MPEGLAYER3WAVEFORMAT**](https://msdn.microsoft.com/library/Dd390710(v=VS.85).aspx) structure and call [**MFInitMediaTypeFromWaveFormatEx**](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex) to convert the structure to a Media Foundation media type.
+Alternatively, you can fill in an [**MPEGLAYER3WAVEFORMAT**](/windows/win32/api/mmreg/ns-mmreg-mpeglayer3waveformat) structure and call [**MFInitMediaTypeFromWaveFormatEx**](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex) to convert the structure to a Media Foundation media type.
 
 ### Input Types
 
@@ -178,7 +178,3 @@ The MP3 encoder does not support the following formats defined by the standard.
  
 
  
-
-
-
-

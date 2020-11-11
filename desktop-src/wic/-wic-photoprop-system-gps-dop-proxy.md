@@ -12,7 +12,7 @@ The property proxy for the System.GPS.DOP photo metadata policy.
 
 ### Description
 
-The property proxy returns a rational pair a through the [PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx) uhVal member.
+The property proxy returns a rational pair a through the [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal member.
 
 ### Containers
 
@@ -38,12 +38,9 @@ LowPart of the uhVal.
 
 <dl> <dt>
 
-[System.GPS.DOP](https://msdn.microsoft.com/library/bb787518(VS.85).aspx)
+[System.GPS.DOP](../properties/props-system-gps-dop.md)
 </dt> </dl>
 
  
 
  
-
-
-

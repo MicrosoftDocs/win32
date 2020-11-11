@@ -23,14 +23,13 @@ When a triangle or line strip is bound to the input-assembler stage, each strip 
 There are two ways to feed stream-output data into the pipeline:
 
 -   Stream-output data can be fed back into the input-assembler stage.
--   Stream-output data can be read by programmable shaders using load functions (such as [Load](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-load)).
+-   Stream-output data can be read by programmable shaders using load functions (such as [Load](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-load)).
 
 To use a buffer as a stream-output resource, create the buffer with the [**D3D11\_BIND\_STREAM\_OUTPUT**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_bind_flag) flag. The stream-output stage supports up to 4 buffers simultaneously.
 
 -   If you are streaming data into multiple buffers, each buffer can only capture a single element (up to 4 components) of per-vertex data, with an implied data stride equal to the element width in each buffer (compatible with the way single element buffers can be bound for input into shader stages). Furthermore, if the buffers have different sizes, writing stops as soon as any one of the buffers is full.
 -   If you are streaming data into a single buffer, the buffer can capture up to 64 scalar components of per-vertex data (256 bytes or less) or the vertex stride can be up to 2048 bytes.
 
-## 
 
 ## In this section
 
@@ -51,14 +50,8 @@ To use a buffer as a stream-output resource, create the buffer with the [**D3D11
 [Graphics Pipeline](overviews-direct3d-11-graphics-pipeline.md)
 </dt> <dt>
 
-[Pipeline Stages (Direct3D 10)](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
+[Pipeline Stages (Direct3D 10)](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

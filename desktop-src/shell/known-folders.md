@@ -26,7 +26,6 @@ The Known Folder system provides these advantages:
 
 The CSIDL system and APIs that make use of CSIDL values are still supported for compatibility. However, it is not recommended to use them in any new development.
 
-## 
 
 The following topics discuss the specifics of the Known Folders system.
 
@@ -59,12 +58,9 @@ A C++ sample that demonstrates the Known Folder APIs is included in the Windows 
 
 <dl> <dt>
 
-[Known Folders Sample](https://msdn.microsoft.com/library/Dd940364(v=VS.85).aspx)
+[Known Folders Sample](/previous-versions/windows/desktop/legacy/dd940364(v=vs.85))
 </dt> </dl>
 
  
 
  
-
-
-

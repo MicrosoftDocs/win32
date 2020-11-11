@@ -8,15 +8,12 @@ ms.date: 05/31/2018
 
 # IEffectivePermission Methods
 
-The [**IEffectivePermission**](https://msdn.microsoft.com/library/Aa378393(v=VS.85).aspx) interface exposes the following methods.
+The [**IEffectivePermission**](/windows/win32/api/aclui/nn-aclui-ieffectivepermission) interface exposes the following methods.
 
 ## In this section
 
--   [**GetEffectivePermission Method**](https://msdn.microsoft.com/library/Aa378526(v=VS.85).aspx)
+-   [**GetEffectivePermission Method**](/windows/win32/api/aclui/nf-aclui-ieffectivepermission-geteffectivepermission)
 
  
 
  
-
-
-

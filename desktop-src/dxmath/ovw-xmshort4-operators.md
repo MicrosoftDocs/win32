@@ -21,7 +21,7 @@ The [**XMSHORT4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvect
 
 | Methods                                               | Description                                                                                                          |
 |-------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://msdn.microsoft.com/library/Ee420208(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMSHORT4` to the current instance of `XMSHORT4`. <br/> |
+| [**operator =**](/windows/win32/api/directxpackedvector/nf-directxpackedvector-xmshort4-operator-assign)<br/> | Assigns the vector component data from one instance of `XMSHORT4` to the current instance of `XMSHORT4`. <br/> |
 
 
 
@@ -43,7 +43,3 @@ The [**XMSHORT4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvect
  
 
  
-
-
-
-

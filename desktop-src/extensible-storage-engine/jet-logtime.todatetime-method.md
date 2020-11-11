@@ -51,7 +51,7 @@ public Nullable<DateTime> ToDateTime()
 
 #### Return value
 
-Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[DateTime](https://docs.microsoft.com/dotnet/api/system.datetime?redirectedfrom=MSDN)\>  
+Type: [System.Nullable](/dotnet/api/system.nullable-1)\<[DateTime](/dotnet/api/system.datetime)\>  
 A DateTime representing the JET_LOGTIME. If the JET_LOGTIME is null then null is returned.  
 
 #### Implements
@@ -67,4 +67,3 @@ A DateTime representing the JET_LOGTIME. If the JET_LOGTIME is null then null is
 [JET_LOGTIME members](hh579151\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

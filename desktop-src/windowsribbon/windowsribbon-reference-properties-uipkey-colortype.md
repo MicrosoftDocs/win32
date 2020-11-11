@@ -24,21 +24,21 @@ propertyDescription
 
 UI\_PKEY\_ColorType is used by an application to query color setting of the [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md) control.
 
-The property value is from the [**UI\_SWATCHCOLORTYPE**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_swatchcolortype) enumeration.
+The property value is from the [**UI\_SWATCHCOLORTYPE**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_swatchcolortype) enumeration.
 
 
 
 |                                |                                                                                                                                                                                 |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | UI\_SWATCHCOLORTYPE\_NOCOLOR   | Application should treat the color setting as transparent. Typically used in conjunction with the **No color** color setting.                                                   |
-| UI\_SWATCHCOLORTYPE\_AUTOMATIC | Application should query [GetSysColor(COLOR\_WINDOWTEXT)](https://msdn.microsoft.com/library/ms724371.aspx). Typically used in conjunction with the **Automatic** color setting. |
+| UI\_SWATCHCOLORTYPE\_AUTOMATIC | Application should query [GetSysColor(COLOR\_WINDOWTEXT)](/windows/win32/api/winuser/nf-winuser-getsyscolor). Typically used in conjunction with the **Automatic** color setting. |
 | UI\_SWATCHCOLORTYPE\_RGB       | Application should query [UI\_PKEY\_Color](windowsribbon-reference-properties-uipkey-color.md) for the color setting.                                                          |
 
 
 
  
 
-UI\_PKEY\_ColorType is passed to the [**IUICommandHandler::Execute**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) callback method when a color swatch is selected in a [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md).
+UI\_PKEY\_ColorType is passed to the [**IUICommandHandler::Execute**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) callback method when a color swatch is selected in a [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md).
 
 ## Related topics
 
@@ -50,7 +50,3 @@ UI\_PKEY\_ColorType is passed to the [**IUICommandHandler::Execute**](https://do
  
 
  
-
-
-
-

@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 A literal is a string of characters that represents a value in a query statement. You use literals to compare column values or to specify search terms. Windows Search supports the following types of literals.
 
-## 
 
 -   **String literals** can be any length and can contain either ANSI or Unicode characters. You must enclose string literals in single quotation marks('). To include a single quotation mark inside a string literal, use two single quotation marks (''). Represent an empty string as two consecutive single quotation marks ('').
 -   **Numeric literals** can contain the digits 0-9, a period, and the letter E (or e). Numeric literals represent numbers, including positive and negative integers, decimal numbers, and currency values. Numeric literals can be defined by using scientific notation (for example, 2.3E-05). Do not enclose a numeric literal in single quotation marks, or it will be interpreted as a string literal and compared using string comparison techniques. Currency values cannot contain currency symbols.

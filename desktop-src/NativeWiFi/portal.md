@@ -39,7 +39,7 @@ The Native Wifi component requires clients running Windows Vista, Windows XP w
 
 ## Additional resources
 
-For additional information on the Native Wifi API on older versions of Windows, visit the [Windows Vista Wireless SDK Forum](https://social.msdn.microsoft.com/Forums/en-US/b6bbd8f0-a921-480f-9b4b-845336462bc0/welcome-to-the-windows-vista-wireless-sdk-forum) or the [Windows XP Wireless SDK Forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=xpwirelesssdk).
+For additional information on the Native Wifi API on older versions of Windows, visit the [Windows Vista Wireless SDK Forum](https://social.msdn.microsoft.com/Forums/b6bbd8f0-a921-480f-9b4b-845336462bc0/welcome-to-the-windows-vista-wireless-sdk-forum) or the [Windows XP Wireless SDK Forum](https://social.msdn.microsoft.com/Forums/home?forum=xpwirelesssdk).
 
 ## Related topics
 

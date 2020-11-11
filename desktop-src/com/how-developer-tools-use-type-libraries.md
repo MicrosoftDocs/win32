@@ -20,12 +20,8 @@ In Visual Basic, the scenario is somewhat simpler. You do not need to generate a
 
 The OLE-COM viewer reads a type library, generates a temporary IDL file based on the type library, and displays it to users. The OLE-COM viewer also displays the C++ syntax for the COM elements listed in the type library.
 
-For more information about type libraries, see [Type Libraries and the Object Description Language](https://msdn.microsoft.com/library/ms221567.aspx).
+For more information about type libraries, see [Type Libraries and the Object Description Language](/previous-versions/windows/desktop/automat/type-libraries-and-the-object-description-language).
 
  
 
  
-
-
-
-

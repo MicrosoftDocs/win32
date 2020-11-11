@@ -29,7 +29,7 @@ ms.date: 05/31/2018
 
 # Edit Control Styles
 
-To create an edit control using the [**CreateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specify the EDIT class, appropriate window style constants, and a combination of the following edit control styles. After the control has been created, these styles cannot be modified, except as noted.
+To create an edit control using the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specify the EDIT class, appropriate window style constants, and a combination of the following edit control styles. After the control has been created, these styles cannot be modified, except as noted.
 
 ## Example
 
@@ -89,7 +89,7 @@ Example from [Windows Classic Samples](https://github.com/microsoft/Windows-clas
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="ES_LOWERCASE"></span><span id="es_lowercase"></span><dl> <dt><strong>ES_LOWERCASE</strong></dt> </dl></td>
-<td style="text-align: left;">Converts all characters to lowercase as they are typed into the edit control.<br/> To change this style after the control has been created, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga"><strong>SetWindowLong</strong></a>.<br/></td>
+<td style="text-align: left;">Converts all characters to lowercase as they are typed into the edit control.<br/> To change this style after the control has been created, use <a href="/windows/desktop/api/winuser/nf-winuser-setwindowlonga"><strong>SetWindowLong</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="ES_MULTILINE"></span><span id="es_multiline"></span><dl> <dt><strong>ES_MULTILINE</strong></dt> </dl></td>
@@ -101,11 +101,11 @@ Example from [Windows Classic Samples](https://github.com/microsoft/Windows-clas
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="ES_NUMBER"></span><span id="es_number"></span><dl> <dt><strong>ES_NUMBER</strong></dt> </dl></td>
-<td style="text-align: left;">Allows only digits to be entered into the edit control. Note that, even with this set, it is still possible to paste non-digits into the edit control. <br/> To change this style after the control has been created, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga"><strong>SetWindowLong</strong></a>.<br/> To translate text that was entered into the edit control to an integer value, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdlgitemint"><strong>GetDlgItemInt</strong></a> function. To set the text of the edit control to the string representation of a specified integer, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdlgitemint"><strong>SetDlgItemInt</strong></a> function.<br/></td>
+<td style="text-align: left;">Allows only digits to be entered into the edit control. Note that, even with this set, it is still possible to paste non-digits into the edit control. <br/> To change this style after the control has been created, use <a href="/windows/desktop/api/winuser/nf-winuser-setwindowlonga"><strong>SetWindowLong</strong></a>.<br/> To translate text that was entered into the edit control to an integer value, use the <a href="/windows/desktop/api/winuser/nf-winuser-getdlgitemint"><strong>GetDlgItemInt</strong></a> function. To set the text of the edit control to the string representation of a specified integer, use the <a href="/windows/desktop/api/winuser/nf-winuser-setdlgitemint"><strong>SetDlgItemInt</strong></a> function.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="ES_OEMCONVERT"></span><span id="es_oemconvert"></span><dl> <dt><strong>ES_OEMCONVERT</strong></dt> </dl></td>
-<td style="text-align: left;">Converts text entered in the edit control. The text is converted from the Windows character set to the OEM character set and then back to the Windows character set. This ensures proper character conversion when the application calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-chartooema"><strong>CharToOem</strong></a> function to convert a Windows string in the edit control to OEM characters. This style is most useful for edit controls that contain file names that will be used on file systems that do not support Unicode. <br/> To change this style after the control has been created, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga"><strong>SetWindowLong</strong></a>. <br/></td>
+<td style="text-align: left;">Converts text entered in the edit control. The text is converted from the Windows character set to the OEM character set and then back to the Windows character set. This ensures proper character conversion when the application calls the <a href="/windows/desktop/api/winuser/nf-winuser-chartooema"><strong>CharToOem</strong></a> function to convert a Windows string in the edit control to OEM characters. This style is most useful for edit controls that contain file names that will be used on file systems that do not support Unicode. <br/> To change this style after the control has been created, use <a href="/windows/desktop/api/winuser/nf-winuser-setwindowlonga"><strong>SetWindowLong</strong></a>. <br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="ES_PASSWORD"></span><span id="es_password"></span><dl> <dt><strong>ES_PASSWORD</strong></dt> </dl></td>
@@ -126,11 +126,11 @@ To use Comctl32.dll version 6, specify it in a manifest. For more information on
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="ES_UPPERCASE"></span><span id="es_uppercase"></span><dl> <dt><strong>ES_UPPERCASE</strong></dt> </dl></td>
-<td style="text-align: left;">Converts all characters to uppercase as they are typed into the edit control. <br/> To change this style after the control has been created, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga"><strong>SetWindowLong</strong></a>.<br/></td>
+<td style="text-align: left;">Converts all characters to uppercase as they are typed into the edit control. <br/> To change this style after the control has been created, use <a href="/windows/desktop/api/winuser/nf-winuser-setwindowlonga"><strong>SetWindowLong</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="ES_WANTRETURN"></span><span id="es_wantreturn"></span><dl> <dt><strong>ES_WANTRETURN</strong></dt> </dl></td>
-<td style="text-align: left;">Specifies that a carriage return be inserted when the user presses the ENTER key while entering text into a multiline edit control in a dialog box. If you do not specify this style, pressing the ENTER key has the same effect as pressing the dialog box's default push button. This style has no effect on a single-line edit control. <br/> To change this style after the control has been created, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga"><strong>SetWindowLong</strong></a>.<br/></td>
+<td style="text-align: left;">Specifies that a carriage return be inserted when the user presses the ENTER key while entering text into a multiline edit control in a dialog box. If you do not specify this style, pressing the ENTER key has the same effect as pressing the dialog box's default push button. This style has no effect on a single-line edit control. <br/> To change this style after the control has been created, use <a href="/windows/desktop/api/winuser/nf-winuser-setwindowlonga"><strong>SetWindowLong</strong></a>.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -144,14 +144,6 @@ To use Comctl32.dll version 6, specify it in a manifest. For more information on
 |                   |                                                                                      |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winuser.h</dt> </dl> |
-
-
-
- 
-
- 
-
-
 
 
 

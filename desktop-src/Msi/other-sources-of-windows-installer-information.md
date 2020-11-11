@@ -30,7 +30,7 @@ Microsoft Technical Communities provides access to public newsgroups about Windo
 
 ## Windows Installer Team Blog
 
-You can read commentary by Microsoft Bloggers on the [MSDN blog site](https://blogs.msdn.com/).
+You can read commentary by Microsoft Bloggers on the [MSDN blog site](/archive/blogs/).
 
 Read blogs by developers about the Windows Installer.
 
@@ -46,7 +46,7 @@ You can participate in live MSDN technical chat sessions about the Windows Insta
 
 <!-- -->
 
--   [Archive of MSDN Windows Installer Chats](https://msdn.microsoft.com/chats/aa497439.aspx)
+-   [Archive of MSDN Windows Installer Chats](/previous-versions/msdn10/aa497439(v=msdn.10))
 
     Transcripts of previous chats about the Windows Installer are archived for you to read at any time.
 
@@ -69,8 +69,8 @@ You can search the Knowledge Base (KB) for articles about the Windows Installer:
 You can read white papers that describe the Windows Installer:
 
 -   [Windows Installer: Benefits and Implementation for System Administrators](https://www.microsoft.com/technet/prodtechnol/windows2000serv/maintain/featusability/winmsi.mspx)
--   [New Features and Design Changes in Windows Installer 2.0](https://technet.microsoft.com/library/bb457094.aspx)
--   [Using Software Restriction Policies to Protect Against Unauthorized Software](https://technet.microsoft.com/library/bb457006.aspx)
+-   [New Features and Design Changes in Windows Installer 2.0](/previous-versions/windows/it-pro/windows-xp/bb457094(v=technet.10))
+-   [Using Software Restriction Policies to Protect Against Unauthorized Software](/previous-versions/windows/it-pro/windows-xp/bb457006(v=technet.10))
 -   [Patch Sequencing in Windows Installer version 3.0](https://www.microsoft.com/downloads/details.aspx?FamilyID=ad7ac91e-2493-4549-ae6f-bf5e007c12a3)
 -   [Software Installation and Maintenance](https://www.microsoft.com/technet/prodtechnol/windows2000serv/maintain/featusability/inmnwp.mspx)
 -   [Step-by-Step Guide to Creating Windows Installer Packages and Repackaging Software for the Windows Installer](https://www.microsoft.com/technet/prodtechnol/windows2000serv/howto/winstall.mspx)
@@ -81,7 +81,7 @@ You can read white papers that describe the Windows Installer:
 
 You can read about Windows Installer online:
 
--   [Windows Installer SDK](https://msdn.microsoft.com/library/cc185688.aspx)
+-   [Windows Installer SDK](./windows-installer-portal.md)
     > [!Note]  
     > You need to download and install the [Microsoft Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/windows-10-sdk/) to obtain the development tools described in the [Windows Installer Development Tools](windows-installer-development-tools.md) section of the documentation.
 
@@ -112,7 +112,7 @@ You can visit non-Microsoft Web sites that provide useful information about the 
 
     Windows Installer information for developers.
 
--   [Desktop Engineer's Junk Drawer](http://www.desktopengineer.com/) and [AppDeploy.com](http://www.appdeploy.com/)
+-   [Desktop Engineer's Junk Drawer](https://cloudywindows.io) and [AppDeploy.com](https://www.itninja.com)
 
     Windows Installer information for IT professionals.
 
@@ -123,6 +123,3 @@ You can visit non-Microsoft Web sites that provide useful information about the 
  
 
  
-
-
-

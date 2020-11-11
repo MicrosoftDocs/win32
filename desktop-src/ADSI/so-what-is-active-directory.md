@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 # Tutorial Overview: ADSI with Visual Basic
 
 > [!Note]  
-> The following documentation is part of an extended scenario description for Visual Basic developers. If you are looking for a general overview of Active Directory, see the [IT Pro docs on Technet](https://technet.microsoft.com/library/cc977985.aspx). For a more in-depth look at the development side of Active Directory, see [Active Directory Domain Services](https://docs.microsoft.com/windows/desktop/AD/active-directory-domain-services). For a larger introduction to Active Directory Service Interfaces, see this topic's parent topic: [Active Directory Service Interfaces](active-directory-service-interfaces-adsi.md), as well as the sibling topic: [About Active Directory Service Interfaces](about-adsi.md).
+> The following documentation is part of an extended scenario description for Visual Basic developers. If you are looking for a general overview of Active Directory, see the [IT Pro docs on Technet](/previous-versions/windows/it-pro/windows-2000-server/cc977985(v=technet.10)). For a more in-depth look at the development side of Active Directory, see [Active Directory Domain Services](/windows/desktop/AD/active-directory-domain-services). For a larger introduction to Active Directory Service Interfaces, see this topic's parent topic: [Active Directory Service Interfaces](active-directory-service-interfaces-adsi.md), as well as the sibling topic: [About Active Directory Service Interfaces](about-adsi.md).
 
  
 
@@ -38,7 +38,3 @@ The following screen shot shows the Active Directory domain partition.
  
 
  
-
-
-
-

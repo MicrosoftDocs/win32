@@ -22,7 +22,7 @@ This interface is used to control animation functionality, connecting animation 
 
 ## Members
 
-The **ID3DXAnimationController** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXAnimationController** also has these types of members:
+The **ID3DXAnimationController** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DXAnimationController** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -131,7 +131,3 @@ typedef D3DXEVENTHANDLE *LPD3DXEVENTHANDLE;
  
 
  
-
-
-
-

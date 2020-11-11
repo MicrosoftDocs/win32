@@ -57,16 +57,12 @@ How to configure the Internet Protocol Security (IPsec).
 [Best Practices](best-practices.md)
 </dt> <dt>
 
-[Implementing the Teredo Security Model](https://docs.microsoft.com/windows/desktop/Teredo/implementing-the-teredo-security-model)
+[Implementing the Teredo Security Model](/windows/desktop/Teredo/implementing-the-teredo-security-model)
 </dt> <dt>
 
-[WFP Discussion Forum](https://social.msdn.microsoft.com/forums/en-US/wfp/threads/)
+[WFP Discussion Forum](https://social.msdn.microsoft.com/forums/wfp/threads/)
 </dt> </dl>
 
  
 
  
-
-
-
-

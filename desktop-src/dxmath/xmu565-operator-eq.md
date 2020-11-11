@@ -17,7 +17,7 @@ api_location:
 
 Assigns vector component data to the current instance of `XMU565`.
 
-Assigns vector component data to the current instance of [**XMU565**](https://msdn.microsoft.com/library/Ee420413(v=VS.85).aspx).
+Assigns vector component data to the current instance of [**XMU565**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmu565).
 
 ### Overload list
 
@@ -36,12 +36,12 @@ Assigns vector component data to the current instance of [**XMU565**](https://ms
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-operator-assign(xmu565__)"><strong>XMU565::operator = (const XMU565&)</strong></a></td>
-<td style="text-align: left;">Assigns the vector component data from one instance of <code>XMU565</code> to the current instance of <code>XMU565</code>. <br/> This operator assigns the vector component data from one instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> to the current instance of <code>XMU565</code>. <br/></td>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-operator-assign(xmu565__)"><strong>XMU565::operator = (const XMU565&)</strong></a></td>
+<td style="text-align: left;">Assigns the vector component data from one instance of <code>XMU565</code> to the current instance of <code>XMU565</code>. <br/> This operator assigns the vector component data from one instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> to the current instance of <code>XMU565</code>. <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-operator-assign(uint16_t)"><strong>XMU565::operator = (const uint16_t)</strong></a></td>
-<td style="text-align: left;">Assigns the vector component data packed in an instance of <code>uint16_t</code> to the current instance of <code>XMU565</code>. <br/> Assigns the vector component data packed in an instance of <code>uint16_t</code> to the current instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a>. <br/>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-operator-assign(uint16_t)"><strong>XMU565::operator = (const uint16_t)</strong></a></td>
+<td style="text-align: left;">Assigns the vector component data packed in an instance of <code>uint16_t</code> to the current instance of <code>XMU565</code>. <br/> Assigns the vector component data packed in an instance of <code>uint16_t</code> to the current instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a>. <br/>
 <blockquote>
 [!Note]<br />
 This operator is only available under C++.
@@ -63,13 +63,9 @@ This operator is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMU565**](https://msdn.microsoft.com/library/Ee420413(v=VS.85).aspx)
+[**XMU565**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmu565)
 </dt> </dl>
 
  
 
  
-
-
-
-

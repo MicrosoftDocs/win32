@@ -1,6 +1,6 @@
 ---
 title: SDK User Properties
-description: Is an instance of the eaphostusercredentials native schema.
+description: Learn about the SDK user properties. See a sample that's an instance of the eaphostusercredentials native schema.
 ms.assetid: e8a9656d-48e7-4580-a84d-2b829e7a692f
 ms.topic: article
 ms.date: 05/31/2018
@@ -12,9 +12,9 @@ This sample is an instance of the [eaphostusercredentials](eaphostusercredential
 
 ``` syntax
   <?xml version="1.0" ?>  
-  <EapHostUserCredentials xmlns="http://www.microsoft.com/provisioning/EapHostUserCredentials" 
-    xmlns:eapCommon="http://www.microsoft.com/provisioning/EapCommon" 
-    xmlns:baseEap="http://www.microsoft.com/provisioning/BaseEapMethodUserCredentials">
+  <EapHostUserCredentials xmlns="https://www.microsoft.com/provisioning/EapHostUserCredentials" 
+    xmlns:eapCommon="https://www.microsoft.com/provisioning/EapCommon" 
+    xmlns:baseEap="https://www.microsoft.com/provisioning/BaseEapMethodUserCredentials">
     <EapMethod>
       <eapCommon:Type>40</eapCommon:Type> 
       <eapCommon:AuthorId>100</eapCommon:AuthorId> 

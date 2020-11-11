@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 The freeze command freezes video input or video output on a VCR or disables video acquisition to the frame buffer. Digital-video, video-overlay, and VCR devices recognize this command.
 
-To send this command, call the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -164,10 +164,4 @@ freeze vboard at 0 0 100 100
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

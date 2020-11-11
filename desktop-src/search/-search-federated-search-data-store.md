@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Enabling Your Data Store in Windows Federated Search
 
-Explains how to enable your data store to be accessed by an [OpenSearch](http://www.opensearch.org/Home) web service, and how to avoid potential barriers for doing so.
+Explains how to enable your data store to be accessed by an [OpenSearch](https://github.com/dewitt/opensearch) web service, and how to avoid potential barriers for doing so.
 
 This topic is organized as follows:
 
@@ -25,7 +25,7 @@ This topic is organized as follows:
 
 ## Conditions for Search Request Acceptance
 
-The [OpenSearch](http://www.opensearch.org/Home) web service you create on your web server **must** fulfill the following two requirements:
+The [OpenSearch](https://github.com/dewitt/opensearch) web service you create on your web server **must** fulfill the following two requirements:
 
 -   Be able to accept a `GET URL` query from the client.
 -   Permit the search terms to be embedded in the URL.
@@ -58,11 +58,11 @@ Windows Federated Search supports Windows-based authentication, and can provide 
 -   NTLM.
 -   Kerberos.
 -   Basic (only over https).
--   Other Security Support Providers (SSPs) installed on Windows that provide additional querying capacity. See the [SSP Interface](https://msdn.microsoft.com/library/aa380493(VS.85).aspx) SDK documentation to keep abreast of the potential addition of other SSPs.
+-   Other Security Support Providers (SSPs) installed on Windows that provide additional querying capacity. See the [SSP Interface](../secauthn/sspi.md) SDK documentation to keep abreast of the potential addition of other SSPs.
 
 ## Sending Queries and Returning Search Results in RSS or Atom
 
-The [OpenSearch](http://www.opensearch.org/Home) provider is responsible for mapping the XML element values to Windows Shell system properties that can be used by Windows applications. But you are not limited to the default mappings of standard RSS or Atom elements, and can include custom XML elements in the Windows namespace for each of the properties. For example, you can add your own custom XML elements within the **item** element to provide additional metadata to Windows. You can also map elements from other XML namespaces, such as iTunes
+The [OpenSearch](https://github.com/dewitt/opensearch) provider is responsible for mapping the XML element values to Windows Shell system properties that can be used by Windows applications. But you are not limited to the default mappings of standard RSS or Atom elements, and can include custom XML elements in the Windows namespace for each of the properties. For example, you can add your own custom XML elements within the **item** element to provide additional metadata to Windows. You can also map elements from other XML namespaces, such as iTunes
 
 ### Example of an RSS Feed Output
 
@@ -118,7 +118,7 @@ http://schemas.microsoft.com/windows/2008/propertynamespace
 
 **About Windows Shell System Properties**
 
-Windows defines a complete list of [System Properties](https://msdn.microsoft.com/library/dd561977(VS.85).aspx) and the value type format required for each property. The documentation for the [System.FileExtension](https://msdn.microsoft.com/library/bb760699(VS.85).aspx) Window Shell property, for example, specifies that the value must contain the leading dot (".docx" and not "docx").
+Windows defines a complete list of [System Properties](../properties/props.md) and the value type format required for each property. The documentation for the [System.FileExtension](../properties/props-system-fileextension.md) Window Shell property, for example, specifies that the value must contain the leading dot (".docx" and not "docx").
 
 **Date and Time Values**
 
@@ -143,28 +143,28 @@ The following flowchart shows how Windows determines an item's file type.
 
 ![flowchart showing paths from an item to decisions to treat it as a web link type item or as a file type](images/determineanitemfiletype.png)
 
-The [OpenSearch](http://www.opensearch.org/Home) provider performs the following steps to map an item to a file type:
+The [OpenSearch](https://github.com/dewitt/opensearch) provider performs the following steps to map an item to a file type:
 
 -   Identify whether the item should be treated as a file or a web link.
 -   Identify the correct file name extension to use.
 
-For example, if the item has a link URL that uses a file system path (such as `file:///\\server\share\etc\item.ext`), the [OpenSearch](http://www.opensearch.org/Home) provider treats the link as a file and determines the type by the file name extension used in the path (.ext in this example).
+For example, if the item has a link URL that uses a file system path (such as `file:///\\server\share\etc\item.ext`), the [OpenSearch](https://github.com/dewitt/opensearch) provider treats the link as a file and determines the type by the file name extension used in the path (.ext in this example).
 
-If the item uses the standard RSS enclosure or **MediaRSS media:content** element, the [OpenSearch](http://www.opensearch.org/Home) provider assumes that the item is a file and identifies the file name extension as follows:
+If the item uses the standard RSS enclosure or **MediaRSS media:content** element, the [OpenSearch](https://github.com/dewitt/opensearch) provider assumes that the item is a file and identifies the file name extension as follows:
 
--   If the [System.FileExtension](https://msdn.microsoft.com/library/bb760699(VS.85).aspx) Windows Shell property has been mapped for the item, the provider uses that file name extension.
--   If the [System.FileExtension](https://msdn.microsoft.com/library/bb760699(VS.85).aspx) Windows Shell property has not been mapped, the provider uses the **Type** attribute specified in the enclosure or content element. This element should contain a `MIMEType` string, such as `"image/jpeg"`. If the `MIMEType` is associated with a file name extension that is registered on the client computer, the item is regarded as a file of that type. If the `MIMEType` is not associated with a file name extension registered on the client computer, the item is treated as a web link type. The [OpenSearch](http://www.opensearch.org/Home) provider does not attempt to parse the **Url** attribute to locate the file name extension.
+-   If the [System.FileExtension](../properties/props-system-fileextension.md) Windows Shell property has been mapped for the item, the provider uses that file name extension.
+-   If the [System.FileExtension](../properties/props-system-fileextension.md) Windows Shell property has not been mapped, the provider uses the **Type** attribute specified in the enclosure or content element. This element should contain a `MIMEType` string, such as `"image/jpeg"`. If the `MIMEType` is associated with a file name extension that is registered on the client computer, the item is regarded as a file of that type. If the `MIMEType` is not associated with a file name extension registered on the client computer, the item is treated as a web link type. The [OpenSearch](https://github.com/dewitt/opensearch) provider does not attempt to parse the **Url** attribute to locate the file name extension.
 -   If the `MIMEType` is associated with a file name extension that is registered on the client computer, the provider determines whether the file name extension is a known web file type (.htm, .html, .asp, .aspx, .php, .swf, .stm). If so, the file type is regarded as a web link type; otherwise, it is regarded as a file type. For example, if the `MIMEType "text/html"` is associated with the .htm file name extension, that item is regarded as a web link instead of as an .htm file type.
 
 ## Avoiding Potential Barriers to Enabling a Data Store
 
-Some data stores do not provide an [OpenSearch](http://www.opensearch.org/Home)-compatible web service but can still be connected to Windows Federated Search. Such data stores include:
+Some data stores do not provide an [OpenSearch](https://github.com/dewitt/opensearch)-compatible web service but can still be connected to Windows Federated Search. Such data stores include:
 
 -   Remote indexes with authentication methods that are not supported in Windows 7 Federated Search.
 
     Examples include forms-based authentication and other custom authentication methods.
 
--   If a high-value public store has public web APIs, anyone can write another web service that is [OpenSearch](http://www.opensearch.org/Home)-compatible and calls those APIs behind the scenes.
+-   If a high-value public store has public web APIs, anyone can write another web service that is [OpenSearch](https://github.com/dewitt/opensearch)-compatible and calls those APIs behind the scenes.
 
     Examples include the Library of Congress, and medical research databases.
 
@@ -182,8 +182,8 @@ However, there are alternatives that can avoid barriers to enabling a data store
 
 **To use an existing search engine when you cannot enable a public data store:**
 
-1.  Use a public search engine that already supports [OpenSearch](http://www.opensearch.org/Home) with RSS. You can do so by providing your users with an .osdx file that has a URL template that restricts results to only those for your specific domain.
-2.  See the following example of an [OpenSearch](http://www.opensearch.org/Home) description for searching only the Help content for Windows by using a query against live.com.
+1.  Use a public search engine that already supports [OpenSearch](https://github.com/dewitt/opensearch) with RSS. You can do so by providing your users with an .osdx file that has a URL template that restricts results to only those for your specific domain.
+2.  See the following example of an [OpenSearch](https://github.com/dewitt/opensearch) description for searching only the Help content for Windows by using a query against live.com.
 
     ```
     <?xml version="1.0" encoding="UTF-8"?>
@@ -200,13 +200,13 @@ However, there are alternatives that can avoid barriers to enabling a data store
 
 **To use an existing indexing server that supports OpenSearch when you cannot enable proprietary enterprise data stores or indexes:**
 
-1.  Select an existing indexing server that supports [OpenSearch](http://www.opensearch.org/Home) to index your content, such as the SharePoint Search Server.
+1.  Select an existing indexing server that supports [OpenSearch](https://github.com/dewitt/opensearch) to index your content, such as the SharePoint Search Server.
 2.  Create an .osdx file that restricts the results from the SharePoint index to only those from your server by using their KeyWord syntax within the URL template.
 
 **To write a client-side data store if a server-side-only solution does not work:**
 
-1.  Write a client-side [OpenSearch](http://www.opensearch.org/Home) data source that sits between the Windows [OpenSearch](http://www.opensearch.org/Home) provider and the external data source.
-2.  Use the [IOpenSearchSource Interface](https://msdn.microsoft.com/library/dd378289(VS.85).aspx) API in the Windows SDK to create an appropriately configured .searchconnector-ms file through which Windows Explorer can call your implementation with the query parameters. Your implementation can then return results formatted in RSS or Atom format. Doing so enables your implementation to provide custom authentication UI and to connect to the data source using its proprietary API.
+1.  Write a client-side [OpenSearch](https://github.com/dewitt/opensearch) data source that sits between the Windows [OpenSearch](https://github.com/dewitt/opensearch) provider and the external data source.
+2.  Use the [IOpenSearchSource Interface](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iopensearchsource) API in the Windows SDK to create an appropriately configured .searchconnector-ms file through which Windows Explorer can call your implementation with the query parameters. Your implementation can then return results formatted in RSS or Atom format. Doing so enables your implementation to provide custom authentication UI and to connect to the data source using its proprietary API.
 
 > [!Note]  
 > Opening an .osdx file creates a .searchconnector-ms file (search connector) in the %userprofile%/searches directory and places a link to it in the %userprofile%/links directory.
@@ -215,7 +215,7 @@ However, there are alternatives that can avoid barriers to enabling a data store
 
 ## Additional Resources
 
-For additional information about implementing search federation to remote data stores using OpenSearch technologies in Windows 7 and later, see "Additional Resources" at [Federated Search in Windows](https://msdn.microsoft.com/library/dd742958(VS.85).aspx).
+For additional information about implementing search federation to remote data stores using OpenSearch technologies in Windows 7 and later, see "Additional Resources" at [Federated Search in Windows](/previous-versions//dd742958(v=vs.85)).
 
 ## Related topics
 
@@ -242,6 +242,3 @@ For additional information about implementing search federation to remote data s
  
 
  
-
-
-

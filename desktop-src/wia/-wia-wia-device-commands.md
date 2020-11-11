@@ -65,7 +65,7 @@ The following constants form the set of valid Windows Image Acquisition (WIA) ha
 <td style="text-align: left;">Used for document scanners that have a page feeder. Tells the device to start the feeder motor. This feature is available starting with Windows 8.<br/>
 <blockquote>
 [!Note]<br />
-The WIA minidriver must reject this command and return <strong>WIA_ERROR_INVALID_COMMAND</strong> when the <a href="https://msdn.microsoft.com/library/Hh706219(v=VS.85).aspx>"><strong>WIA_IPS_FEEDER_CONTROL</strong></a> property is not supported, or is set to WIA_FEEDER_CONTROL_AUTO.
+The WIA minidriver must reject this command and return <strong>WIA_ERROR_INVALID_COMMAND</strong> when the <a href="/windows-hardware/drivers/image/wia-ips-feeder-control"><strong>WIA_IPS_FEEDER_CONTROL</strong></a> property is not supported, or is set to WIA_FEEDER_CONTROL_AUTO.
 </blockquote>
 <br/></td>
 </tr>
@@ -107,7 +107,3 @@ The WIA minidriver must reject this command and return <strong>WIA_ERROR_INVALID
  
 
  
-
-
-
-

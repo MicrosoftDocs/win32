@@ -3,10 +3,13 @@ title: Text Boxes
 description: With a text box, users can display, enter, or edit a text or numeric value.
 ms.assetid: fb8ed262-1451-496d-a3f4-a29af39763bb
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Text Boxes
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 With a text box, users can display, enter, or edit a text or numeric value.
 
@@ -23,7 +26,7 @@ A typical text box.
 
 To decide, consider these questions:
 
--   **Is it practical to enumerate all the valid values efficiently?** If so, consider a [single-selection list](ctrl-list-boxes.md), [list view](ctrl-list-views.md), [drop-down list](https://docs.microsoft.com/windows/desktop/uxguide/ctrl-drop), editable drop-down list, or [slider](ctrl-sliders.md) instead.
+-   **Is it practical to enumerate all the valid values efficiently?** If so, consider a [single-selection list](ctrl-list-boxes.md), [list view](ctrl-list-views.md), [drop-down list](/windows/desktop/uxguide/ctrl-drop), editable drop-down list, or [slider](ctrl-sliders.md) instead.
 -   **Is the valid data completely unconstrained? Or is the valid data constrained only by format (constrained length or character types)?** If so, use a text box.
 -   **Does the value represent a data type that has a specialized common control?** Examples include date, time, or IPv4 or IPv6 address. If so, use the appropriate control, such as a date control rather than a text box.
 -   If the data is numeric:
@@ -394,10 +397,4 @@ When referring to text boxes:
     1234 56 7890
 
  
-
- 
-
-
-
-
 

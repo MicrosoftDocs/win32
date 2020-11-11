@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Named Pipe Open Modes
 
-The pipe server specifies the pipe access, overlap, and write-through modes in the *dwOpenMode* parameter of the [**CreateNamedPipe**](/windows/desktop/api/Winbase/nf-winbase-createnamedpipea) function. The pipe clients can specify these open modes for their pipe handles using the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function.
+The pipe server specifies the pipe access, overlap, and write-through modes in the *dwOpenMode* parameter of the [**CreateNamedPipe**](/windows/desktop/api/Winbase/nf-winbase-createnamedpipea) function. The pipe clients can specify these open modes for their pipe handles using the [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) function.
 
 ## Access Mode
 
@@ -28,7 +28,7 @@ Setting the pipe access mode is equivalent to specifying read or write access as
 
 If the pipe server creates a pipe with PIPE\_ACCESS\_INBOUND, the pipe is read-only for the pipe server and write-only for the pipe client. If the pipe server creates a pipe with PIPE\_ACCESS\_OUTBOUND, the pipe is write-only for the pipe server and read-only for the pipe client. A pipe created with PIPE\_ACCESS\_DUPLEX is read/write for both the pipe server and the pipe client.
 
-Pipe clients using [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) to connect to a named pipe must specify an access right in the *dwDesiredAccess* parameter that is compatible with the access mode specified by the pipe server. For example, a client must specify GENERIC\_READ access to open a handle for a pipe that the pipe server created with PIPE\_ACCESS\_OUTBOUND. The access modes must be the same for all instances of a pipe.
+Pipe clients using [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) to connect to a named pipe must specify an access right in the *dwDesiredAccess* parameter that is compatible with the access mode specified by the pipe server. For example, a client must specify GENERIC\_READ access to open a handle for a pipe that the pipe server created with PIPE\_ACCESS\_OUTBOUND. The access modes must be the same for all instances of a pipe.
 
 To read pipe attributes such as the read mode or blocking mode, the pipe handle must have the FILE\_READ\_ATTRIBUTES access right; to write pipe attributes, the pipe handle must have the FILE\_WRITE\_ATTRIBUTES access right. These access rights can be combined with the generic access right that is appropriate for the pipe: GENERIC\_READ with FILE\_WRITE\_ATTRIBUTES for a read-only pipe, or GENERIC\_WRITE with FILE\_READ\_ATTRIBUTES for a write-only pipe. Restricting access rights in this way provides better security for the pipe.
 
@@ -36,7 +36,7 @@ To read pipe attributes such as the read mode or blocking mode, the pipe handle 
 
 In overlapped mode, functions performing lengthy read, write, and connect operations can return immediately. This enables the thread to perform other operations while a time-consuming operation is executing in the background. To specify overlapped mode, use the FILE\_FLAG\_OVERLAPPED flag. For more information, see [Synchronous and Overlapped Input and Output](synchronous-and-overlapped-input-and-output.md).
 
-The [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function allows the pipe client to set overlapped mode (FILE\_FLAG\_OVERLAPPED) for its pipe handles using the *dwFlagsAndAttributes* parameter.
+The [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) function allows the pipe client to set overlapped mode (FILE\_FLAG\_OVERLAPPED) for its pipe handles using the *dwFlagsAndAttributes* parameter.
 
 ## Write-Through Mode
 
@@ -44,13 +44,10 @@ Specify write-through mode with FILE\_FLAG\_WRITE\_THROUGH. This mode affects on
 
 If write-through mode is not enabled, the system enhances the efficiency of network operations by buffering data until a minimum number of bytes have accumulated or until a maximum time period has elapsed. Buffering enables the system to combine multiple write operations into a single network transmission. This means that a write operation can be successfully completed after the system puts the data in the outbound buffer, but before the system transmits it across the network.
 
-The [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function allows the pipe client to set write-through mode (FILE\_FLAG\_WRITE\_THROUGH) for its pipe handles using the *dwFlagsAndAttributes* parameter. The write-through mode of a pipe handle cannot be changed after the pipe handle has been created. The write-through mode can be different for server and client handles to the same pipe instance.
+The [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) function allows the pipe client to set write-through mode (FILE\_FLAG\_WRITE\_THROUGH) for its pipe handles using the *dwFlagsAndAttributes* parameter. The write-through mode of a pipe handle cannot be changed after the pipe handle has been created. The write-through mode can be different for server and client handles to the same pipe instance.
 
-A pipe client can use the [**SetNamedPipeHandleState**](https://msdn.microsoft.com/library/Aa365787(v=VS.85).aspx) function to control the number of bytes and the time-out period before transmission for a pipe on which write-through mode is disabled. For a read-only pipe, the pipe handle must be opened with the GENERIC\_READ and FILE\_WRITE\_ATTRIBUTES access rights.
-
- 
+A pipe client can use the [**SetNamedPipeHandleState**](/windows/win32/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate) function to control the number of bytes and the time-out period before transmission for a pipe on which write-through mode is disabled. For a read-only pipe, the pipe handle must be opened with the GENERIC\_READ and FILE\_WRITE\_ATTRIBUTES access rights.
 
  
 
-
-
+ 

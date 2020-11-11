@@ -21,20 +21,33 @@ Performs a specified operation on a specified file.
 
 ## Syntax
 
+JScript:
 
-```JScript
+```js
 iRetVal = Shell.ShellExecute(
   sFile,
   [ vArguments ],
   [ vDirectory ],
   [ vOperation ],
   [ vShow ]
+);
+```
+
+VBScript:
+
+```vb
+iRetVal = Shell.ShellExecute( _
+  sFile, _
+  [ ByVal vArguments ], _
+  [ ByVal vDirectory ], _
+  [ ByVal vOperation ], _
+  [ ByVal vShow ] _
 )
 ```
 
+VB:
 
-```VB
-
+```vb
 Shell.ShellExecute( _
   ByVal sFile As BSTR, _
   [ ByVal vArguments As Variant ], _
@@ -44,10 +57,6 @@ Shell.ShellExecute( _
 ) As Integer
 ```
 
-
-
-
-
 ## Parameters
 
 <dl> <dt>
@@ -55,7 +64,7 @@ Shell.ShellExecute( _
 *sFile* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** that contains the name of the file on which **ShellExecute** will perform the action specified by *vOperation*.
 
@@ -128,32 +137,21 @@ JScript:
 
 
 ```JScript
-<script language="JScript">
-    function fnShellExecuteJ()
-    {
-        var objShell = new ActiveXObject("shell.application");
-        
-        objShell.ShellExecute("notepad.exe", "", "", "open", 1);
-    }
-</script>
+function ShellExecuteJS()
+{
+    var objShell = new ActiveXObject("Shell.Application");
+    objShell.ShellExecute("notepad.exe", "", "", "open", 1);
+}
 ```
-
-
 
 VBScript:
 
-
-```VB
-<script language="VBScript">
-    function fnShellExecuteVB()
-        dim objShell
-
-        set objShell = CreateObject("shell.application")
-
-        objShell.ShellExecute "notepad.exe", "", "", "open", 1
-
-        set objShell = nothing
-    end function
+```vb
+Function ShellExecuteVB()
+    Dim objShell
+    Set objShell = CreateObject("Shell.Application")
+    Call objShell.ShellExecute("notepad.exe", "", "", "open", 1)
+End Function
 ```
 
 
@@ -175,7 +173,3 @@ VBScript:
  
 
  
-
-
-
-

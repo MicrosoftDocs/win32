@@ -65,7 +65,7 @@ Data type: **real32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("inches")
+Qualifiers: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("inches")
 </dt> </dl>
 
 Distance, in inches, between adjacent slots.
@@ -135,13 +135,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 <dl> <dt>
 
-[CIM Classes](https://docs.microsoft.com/windows/desktop/WmiSdk/cimclas)
+[CIM Classes](/windows/desktop/WmiSdk/cimclas)
 </dt> </dl>
 
  
-
- 
-
-
-
 

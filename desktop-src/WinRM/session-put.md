@@ -57,7 +57,7 @@ This parameter can contain one of elements contained in the following list:
     
 
 -   [**ResourceLocator**](resourcelocator.md) object which may contain selectors, [*fragments*](windows-remote-management-glossary.md), or [*options*](windows-remote-management-glossary.md).
--   [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the [WS-Management Protocol](ws-management-protocol.md) standard. For more information about the public specification for WS-Management protocol, see [Management Specifications Index Page](https://msdn.microsoft.com/library/ms951267.aspx).
+-   [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the [WS-Management Protocol](ws-management-protocol.md) standard. For more information about the public specification for WS-Management protocol, see [Management Specifications Index Page](/previous-versions/dotnet/articles/ms951267(v=msdn.10)).
 
 </dd> <dt>
 
@@ -81,7 +81,7 @@ The XML that contains the updated resource content.
 
 ## Examples
 
-The following VBScript code example writes data to the [**Win32\_WMISetting**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-wmisetting) object. You must include all non-array properties of the object in the XML of the *Resource* parameter. The order of the properties is not significant.
+The following VBScript code example writes data to the [**Win32\_WMISetting**](/windows/desktop/CIMWin32Prov/win32-wmisetting) object. You must include all non-array properties of the object in the XML of the *Resource* parameter. The order of the properties is not significant.
 
 
 ```VB
@@ -158,10 +158,4 @@ End Sub
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

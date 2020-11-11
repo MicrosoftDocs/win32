@@ -80,8 +80,8 @@ For details on consuming events, see the following topics:
 
 The standard end user tools for consuming event are:
 
--   [Event Viewer](https://technet.microsoft.com/library/cc766042.aspx)
--   The Windows PowerShell [Get-WinEvent](https://technet.microsoft.com/library/dd367894.aspx) cmdlet
+-   [Event Viewer](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc766042(v=ws.11))
+-   The Windows PowerShell [Get-WinEvent](/previous-versions//dd367894(v=technet.10)) cmdlet
 -   [**WevtUtil**](windows-event-log-tools.md)
 
 ## XPath 1.0 limitations
@@ -106,7 +106,3 @@ Windows Event Log supports a subset of XPath 1.0. The primary restriction is tha
  
 
  
-
-
-
-

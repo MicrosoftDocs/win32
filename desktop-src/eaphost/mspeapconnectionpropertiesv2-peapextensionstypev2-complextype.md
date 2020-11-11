@@ -1,6 +1,6 @@
 ---
 title: PeapExtensionsTypeV2 Complex Type
-description: Enables future enhancements to the schema.
+description: Learn about the PeapExtensionsTypeV2 complex type. This type enables future enhancements to the schema.
 ms.assetid: cb011182-afec-4813-bd56-add894c74c9c
 ms.topic: article
 ms.date: 05/31/2018

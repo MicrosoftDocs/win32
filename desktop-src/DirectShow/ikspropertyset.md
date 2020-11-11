@@ -29,7 +29,7 @@ In some cases, software components must implement either this interface, or else
 
 ## Members
 
-The **IKsPropertySet** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IKsPropertySet** also has these types of members:
+The **IKsPropertySet** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IKsPropertySet** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -76,7 +76,3 @@ You must include Ks.h before Ksproxy.h.
  
 
  
-
-
-
-

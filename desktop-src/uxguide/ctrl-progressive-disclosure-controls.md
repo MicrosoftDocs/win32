@@ -3,10 +3,13 @@ title: Progressive Disclosure Controls
 description: With a progressive disclosure control, users can show or hide additional information including data, options, or commands.
 ms.assetid: 0ca00c49-f897-49a6-926a-cc65f3155c6c
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Progressive Disclosure Controls
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 With a progressive disclosure control, users can show or hide additional information including data, options, or commands. Progressive disclosure promotes simplicity by focusing on the essential, yet revealing additional detail as needed.
 
@@ -45,7 +48,7 @@ To decide, consider these questions:
 
 -   **Is the additional information a sentence or sentence fragment that describes what an item does or how it can be used?** If so, consider using a [tooltip](ctrl-tooltips-and-infotips.md) or infotip.
 -   **Is the additional information related to the current task, but independent of the currently displayed information?** If so, consider using [tabs](ctrl-tabs.md) instead. However, collapsible lists are often preferable to tabs because they are more flexible and scalable.
--   **Is showing or hiding the additional information essentially a data filter?** If so, consider using a [drop-down list](https://docs.microsoft.com/windows/desktop/uxguide/ctrl-drop) or [check boxes](ctrl-check-boxes.md) instead to apply the filter to the entire list.
+-   **Is showing or hiding the additional information essentially a data filter?** If so, consider using a [drop-down list](/windows/desktop/uxguide/ctrl-drop) or [check boxes](ctrl-check-boxes.md) instead to apply the filter to the entire list.
 
 ## Design concepts
 
@@ -357,10 +360,4 @@ Examples:
 -   (For plus/minus) To view your picture, click **Pictures**.
 
  
-
- 
-
-
-
-
 

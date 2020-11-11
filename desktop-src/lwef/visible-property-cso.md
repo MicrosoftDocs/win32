@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Description**
 </dt> <dd>
 
-Returns or sets a value that determines whether your [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection's caption appears in the character's pop-up menu.
+Returns or sets a value that determines whether your [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection's caption appears in the character's pop-up menu.
 
 </dd> <dt>
 
@@ -28,7 +28,7 @@ Returns or sets a value that determines whether your [**Commands**](https://docs
 
 | Part      | Description                                                                                                                                                                                                                             |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *boolean* | A Boolean expression specifying whether your [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) object appears in the character's pop-up menu. <br/> **True** The caption appears.<br/> **False** The caption does not appear.<br/> |
+| *boolean* | A Boolean expression specifying whether your [**Commands**](/windows/desktop/lwef/the-commands-collection-object) object appears in the character's pop-up menu. <br/> **True** The caption appears.<br/> **False** The caption does not appear.<br/> |
 
 
 
@@ -41,10 +41,4 @@ Returns or sets a value that determines whether your [**Commands**](https://docs
 For the caption to appear in the character's pop-up menu when your application is not the input-active client, this property must be set to **True** and the [**Caption**](caption-property.md) property set for your Commands collection. In addition, this property must be set to **True** for commands in your collection to appear in the pop-up menu when your application is input-active.
 
  
-
- 
-
-
-
-
 

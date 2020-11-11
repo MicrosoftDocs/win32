@@ -12,7 +12,7 @@ Condition variables are synchronization primitives that enable threads to wait u
 
 Condition variables enable threads to atomically release a lock and enter the sleeping state. They can be used with critical sections or slim reader/writer (SRW) locks. Condition variables support operations that "wake one" or "wake all" waiting threads. After a thread is woken, it re-acquires the lock it released when the thread entered the sleeping state.
 
-Note that the caller must allocate a **CONDITION\_VARIABLE** structure and initialize it by either calling [**InitializeConditionVariable**](https://msdn.microsoft.com/library/ms683469(v=VS.85).aspx) (to initialize the structure dynamically) or assign the constant **CONDITION\_VARIABLE\_INIT** to the structure variable (to initialize the structure statically).
+Note that the caller must allocate a **CONDITION\_VARIABLE** structure and initialize it by either calling [**InitializeConditionVariable**](/windows/win32/api/synchapi/nf-synchapi-initializeconditionvariable) (to initialize the structure dynamically) or assign the constant **CONDITION\_VARIABLE\_INIT** to the structure variable (to initialize the structure statically).
 
 **Windows Server 2003 and Windows XP:** Condition variables are not supported.
 
@@ -22,11 +22,11 @@ The following are the condition variable functions.
 
 | Condition variable function                                        | Description                                                                                                    |
 |--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| [**InitializeConditionVariable**](https://msdn.microsoft.com/library/ms683469(v=VS.85).aspx) | Initializes a condition variable.                                                                              |
-| [**SleepConditionVariableCS**](https://msdn.microsoft.com/library/ms686301(v=VS.85).aspx)       | Sleeps on the specified condition variable and releases the specified critical section as an atomic operation. |
-| [**SleepConditionVariableSRW**](https://msdn.microsoft.com/library/ms686304(v=VS.85).aspx)     | Sleeps on the specified condition variable and releases the specified SRW lock as an atomic operation.         |
-| [**WakeAllConditionVariable**](https://msdn.microsoft.com/library/ms687076(v=VS.85).aspx)       | Wakes all threads waiting on the specified condition variable.                                                 |
-| [**WakeConditionVariable**](https://msdn.microsoft.com/library/ms687080(v=VS.85).aspx)             | Wakes a single thread waiting on the specified condition variable.                                             |
+| [**InitializeConditionVariable**](/windows/win32/api/synchapi/nf-synchapi-initializeconditionvariable) | Initializes a condition variable.                                                                              |
+| [**SleepConditionVariableCS**](/windows/win32/api/synchapi/nf-synchapi-sleepconditionvariablecs)       | Sleeps on the specified condition variable and releases the specified critical section as an atomic operation. |
+| [**SleepConditionVariableSRW**](/windows/win32/api/synchapi/nf-synchapi-sleepconditionvariablesrw)     | Sleeps on the specified condition variable and releases the specified SRW lock as an atomic operation.         |
+| [**WakeAllConditionVariable**](/windows/win32/api/synchapi/nf-synchapi-wakeallconditionvariable)       | Wakes all threads waiting on the specified condition variable.                                                 |
+| [**WakeConditionVariable**](/windows/win32/api/synchapi/nf-synchapi-wakeconditionvariable)             | Wakes a single thread waiting on the specified condition variable.                                             |
 
 
 
@@ -66,7 +66,7 @@ For example, in an implementation of a reader/writer lock, the `TestPredicate` f
 
 Condition variables are subject to spurious wakeups (those not associated with an explicit wake) and stolen wakeups (another thread manages to run before the woken thread). Therefore, you should recheck a predicate (typically in a **while** loop) after a sleep operation returns.
 
-You can wake other threads using [**WakeConditionVariable**](https://msdn.microsoft.com/library/ms687080(v=VS.85).aspx) or [**WakeAllConditionVariable**](https://msdn.microsoft.com/library/ms687076(v=VS.85).aspx) either inside or outside the lock associated with the condition variable. It is usually better to release the lock before waking other threads to reduce the number of context switches.
+You can wake other threads using [**WakeConditionVariable**](/windows/win32/api/synchapi/nf-synchapi-wakeconditionvariable) or [**WakeAllConditionVariable**](/windows/win32/api/synchapi/nf-synchapi-wakeallconditionvariable) either inside or outside the lock associated with the condition variable. It is usually better to release the lock before waking other threads to reduce the number of context switches.
 
 It is often convenient to use more than one condition variable with the same lock. For example, an implementation of a reader/writer lock might use a single critical section but separate condition variables for readers and writers.
 
@@ -80,6 +80,3 @@ It is often convenient to use more than one condition variable with the same loc
  
 
  
-
-
-

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Network Tracing in Windows 7
 
-As the complexity of the networking stack increases, it is often difficult to quickly trace and diagnose issues within the stack. Windows 7 expands on the Network Diagnostic Framework (NDF) to provide a quick method for troubleshooting network connectivity issues by enabling collection of all the needed information in one step, and by leveraging [Event Tracing for Windows (ETW)](https://msdn.microsoft.com/library/bb968803.aspx) to log network events & packets in a single file.
+As the complexity of the networking stack increases, it is often difficult to quickly trace and diagnose issues within the stack. Windows 7 expands on the Network Diagnostic Framework (NDF) to provide a quick method for troubleshooting network connectivity issues by enabling collection of all the needed information in one step, and by leveraging [Event Tracing for Windows (ETW)](../etw/event-tracing-portal.md) to log network events & packets in a single file.
 
 Related events and packets are grouped together for a given activity, such as browsing a website, across the various components in the networking stack. The output of this process is an Event Trace Log (ETL) file. By allowing all of the events related to a specific activity to be viewed at once in this file, the time required to isolate and diagnose network issues can be greatly reduced.
 
@@ -29,7 +29,3 @@ Related events and packets are grouped together for a given activity, such as br
  
 
  
-
-
-
-

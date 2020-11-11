@@ -21,7 +21,7 @@ The class identifier (CLSID) for the Windows Media Video decoder is represented 
 
 ## Interfaces
 
-A video decoder object exposes the [**IMediaObject**](https://msdn.microsoft.com/library/Dd406926(v=VS.85).aspx) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface so that the object can be used as a Media Foundation Transform (MFT).
+A video decoder object exposes the [**IMediaObject**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface so that the object can be used as a Media Foundation Transform (MFT).
 
 A video decoder behaves as a DMO or an MFT depending on which interfaces you obtain and which version of Windows is running. The following table shows the conditions under which a video decoder behaves as a DMO or an MFT.
 
@@ -36,7 +36,7 @@ A video decoder behaves as a DMO or an MFT depending on which interfaces you obt
 
  
 
-Beginning with Windows 7, the Windows Media Video decoder implements the [**IDMOQualityControl**](https://msdn.microsoft.com/library/Dd406839(v=VS.85).aspx) interface.
+Beginning with Windows 7, the Windows Media Video decoder implements the [**IDMOQualityControl**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-idmoqualitycontrol) interface.
 
 ## Input Formats
 
@@ -159,7 +159,7 @@ Read-only.<br />
 </dl> This property is used by the Windows Media Format runtime. The property type is <strong>VARIANT_BOOL</strong>. If the value is <strong>VARIANT_TRUE</strong>, the decoder should be drained after a discontinuity. For more information about draining an MFT, see <a href="basic-mft-processing-model.md">Basic MFT Processing Model</a>.<br/>
 <blockquote>
 [!Note]<br />
-To query this property, use the <a href="https://docs.microsoft.com/windows/desktop/com/ipropertybag-and-ipersistpropertybag"><strong>IPropertyBag</strong></a> interface.
+To query this property, use the <a href="/windows/desktop/com/ipropertybag-and-ipersistpropertybag"><strong>IPropertyBag</strong></a> interface.
 </blockquote>
 <br/></td>
 </tr>
@@ -199,7 +199,3 @@ The maximum resolution allowed by the Windows Media Video 9 decoder is 4096x4096
  
 
  
-
-
-
-

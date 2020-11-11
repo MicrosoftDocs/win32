@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM_IME_NOTIFY message
 
-Sent to an application to notify it of changes to the IME window. A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+Sent to an application to notify it of changes to the IME window. A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -135,7 +135,3 @@ An application processes this message if it is responsible for managing the IME 
  
 
  
-
-
-
-

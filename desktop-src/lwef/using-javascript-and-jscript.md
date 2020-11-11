@@ -27,12 +27,8 @@ statements
 
 Because not all browsers currently support this event syntax, you may want to use JavaScript only for pages that support Microsoft Internet Explorer or for code that does not require event handling.
 
-To access Agent's object collections, use the JScript [**Enumerator**](https://www.bing.com/search?q=**Enumerator**) function. However, versions of JScript included prior to Internet Explorer 4.0 do not support this function and do not support collections. To access methods and properties of the [**Character**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) object, use the [**Character**](character-method.md) method. Similarly, to access the properties of a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object, use the [**Command**](command-method.md) method.
+To access Agent's object collections, use the JScript [**Enumerator**](https://www.bing.com/search?q=**Enumerator**) function. However, versions of JScript included prior to Internet Explorer 4.0 do not support this function and do not support collections. To access methods and properties of the [**Character**](/windows/desktop/lwef/the-characters-object) object, use the [**Character**](character-method.md) method. Similarly, to access the properties of a [**Command**](/windows/desktop/lwef/the-command-object) object, use the [**Command**](command-method.md) method.
 
  
 
  
-
-
-
-

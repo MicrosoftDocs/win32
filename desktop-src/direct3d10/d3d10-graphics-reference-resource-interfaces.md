@@ -30,7 +30,7 @@ An application uses a view to bind a resource to a [pipeline stage](d3d10-graphi
 
 | Interfaces                                                               | Description                                                                                                  |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| [**ID3D10DepthStencilView Interface**](/windows/desktop/api/D3D10/nn-d3d10-id3d10depthstencilview)       | Accesses data in a [depth-stencil](https://msdn.microsoft.com/library/Bb205120(v=VS.85).aspx) texture. |
+| [**ID3D10DepthStencilView Interface**](/windows/desktop/api/D3D10/nn-d3d10-id3d10depthstencilview)       | Accesses data in a [depth-stencil](../direct3d11/d3d10-graphics-programming-guide-output-merger-stage.md) texture. |
 | [**ID3D10RenderTargetView Interface**](/windows/desktop/api/D3D10/nn-d3d10-id3d10rendertargetview)       | Accesses data in a [render target](d3d10-graphics-programming-guide-resources-creating-textures.md).        |
 | [**ID3D10ShaderResourceView Interface**](/windows/desktop/api/d3d10/nn-d3d10-id3d10shaderresourceview)   | Accesses data in a shader-resource in Direct3D 10.0.                                                         |
 | [**ID3D10ShaderResourceView1 Interface**](/windows/desktop/api/d3d10_1/nn-d3d10_1-id3d10shaderresourceview1) | Accesses data in a shader-resource in Direct3D 10.1.                                                         |
@@ -50,6 +50,3 @@ An application uses a view to bind a resource to a [pipeline stage](d3d10-graphi
  
 
  
-
-
-

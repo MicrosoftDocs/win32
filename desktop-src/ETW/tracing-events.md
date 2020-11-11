@@ -12,34 +12,34 @@ Before you can write events to a trace session, you must register your provider.
 
 **Prior to Windows Vista:** There is no limit to the number of providers that a process can register.
 
-To register a classic provider, call the [**RegisterTraceGuids**](registertraceguids.md) function. The function registers the provider's GUID, event trace class GUIDs, and identifies the callback that ETW calls when a controller enables or disables the provider.
+To register a classic provider, call the [**RegisterTraceGuids**](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa) function. The function registers the provider's GUID, event trace class GUIDs, and identifies the callback that ETW calls when a controller enables or disables the provider.
 
-If the provider calls the [**TraceEvent**](traceevent.md) function to log events, you do not need to include the array of class GUIDs (can be **NULL**) when calling the [**RegisterTraceGuids**](registertraceguids.md) function. You only need to include the array if the provider calls the [**TraceEventInstance**](traceeventinstance.md) function to log events.
+If the provider calls the [**TraceEvent**](/windows/win32/api/evntrace/nf-evntrace-traceevent) function to log events, you do not need to include the array of class GUIDs (can be **NULL**) when calling the [**RegisterTraceGuids**](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa) function. You only need to include the array if the provider calls the [**TraceEventInstance**](/windows/win32/api/evntrace/nf-evntrace-traceeventinstance) function to log events.
 
 **Windows XP and Windows 2000:** You always need to include the array of class GUIDs (cannot be **NULL**).
 
 After a provider registers itself and is enabled by the controller, the provider can log events to the controller's trace session.
 
-Before the provider exits, call the [**UnregisterTraceGuids**](unregistertraceguids.md) function to remove the provider's registration from ETW. The [**RegisterTraceGuids**](registertraceguids.md) function returns the registration handle that you pass to the **UnregisterTraceGuids** function.
+Before the provider exits, call the [**UnregisterTraceGuids**](/windows/win32/api/evntrace/nf-evntrace-unregistertraceguids) function to remove the provider's registration from ETW. The [**RegisterTraceGuids**](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa) function returns the registration handle that you pass to the **UnregisterTraceGuids** function.
 
 If your provider logs events to the Global Logger session only, you do not have to register your provider with ETW because the Global Logger controller does not enable or disable providers. For details, see [Configuring and Starting the Global Logger Session](configuring-and-starting-the-global-logger-session.md).
 
-All [classic](about-event-tracing.md) providers (except those that trace events to the Global Logger session) must implement the [**ControlCallback**](controlcallback.md) function. The provider uses the information in the callback to determine if it is enabled or disabled and which events it should write.
+All [classic](about-event-tracing.md) providers (except those that trace events to the Global Logger session) must implement the [**ControlCallback**](/windows/win32/api/evntrace/nc-evntrace-wmidprequest) function. The provider uses the information in the callback to determine if it is enabled or disabled and which events it should write.
 
-The provider specifies the name of the callback function when it calls the [**RegisterTraceGuids**](registertraceguids.md) function to register itself. ETW calls the callback function when the controller calls the [**EnableTrace**](enabletrace.md) function to enable or disable the provider.
+The provider specifies the name of the callback function when it calls the [**RegisterTraceGuids**](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa) function to register itself. ETW calls the callback function when the controller calls the [**EnableTrace**](/windows/win32/api/evntrace/nf-evntrace-enabletrace) function to enable or disable the provider.
 
-In your [**ControlCallback**](controlcallback.md) implementation, you must call the [**GetTraceLoggerHandle**](gettraceloggerhandle.md) function to retrieve the session handle; you use the session handle when calling the [**TraceEvent**](traceevent.md) function. You only need to call the [**GetTraceEnableFlags**](gettraceenableflags.md) function or the [**GetTraceEnableLevel**](gettraceenablelevel.md) function in your**ControlCallback** implementation if your provider uses the enable level or enable flags.
+In your [**ControlCallback**](/windows/win32/api/evntrace/nc-evntrace-wmidprequest) implementation, you must call the [**GetTraceLoggerHandle**](/windows/win32/api/evntrace/nf-evntrace-gettraceloggerhandle) function to retrieve the session handle; you use the session handle when calling the [**TraceEvent**](/windows/win32/api/evntrace/nf-evntrace-traceevent) function. You only need to call the [**GetTraceEnableFlags**](/windows/win32/api/evntrace/nf-evntrace-gettraceenableflags) function or the [**GetTraceEnableLevel**](/windows/win32/api/evntrace/nf-evntrace-gettraceenablelevel) function in your**ControlCallback** implementation if your provider uses the enable level or enable flags.
 
-A provider can log trace events to only one session, but there is nothing to prevent multiple controllers from enabling a single provider. To prevent another controller from redirecting your trace events to its session, you may want to add logic to your [**ControlCallback**](controlcallback.md) implementation to compare session handles and ignore enable requests from other controllers.
+A provider can log trace events to only one session, but there is nothing to prevent multiple controllers from enabling a single provider. To prevent another controller from redirecting your trace events to its session, you may want to add logic to your [**ControlCallback**](/windows/win32/api/evntrace/nc-evntrace-wmidprequest) implementation to compare session handles and ignore enable requests from other controllers.
 
-To log events, [classic](about-event-tracing.md) providers call the [**TraceEvent**](traceevent.md) function. An event consists of the [**EVENT\_TRACE\_HEADER**](event-trace-header.md) structure and any event-specific data that is appended to the header.
+To log events, [classic](about-event-tracing.md) providers call the [**TraceEvent**](/windows/win32/api/evntrace/nf-evntrace-traceevent) function. An event consists of the [**EVENT\_TRACE\_HEADER**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header) structure and any event-specific data that is appended to the header.
 
 The header must contain the following information:
 
--   The **Size** member must contain the total number of bytes to be recorded for the event (including the size of the [**EVENT\_TRACE\_HEADER**](event-trace-header.md) structure and of any event-specific data that is appended to the header).
+-   The **Size** member must contain the total number of bytes to be recorded for the event (including the size of the [**EVENT\_TRACE\_HEADER**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header) structure and of any event-specific data that is appended to the header).
 -   The **Guid** member must contain the class GUID of the event (or the **GuidPtr** member must contain a pointer to the class GUID).
 
-    **Windows XP and Windows 2000:** The class GUID must have been registered previously using the [**RegisterTraceGuids**](registertraceguids.md) function.
+    **Windows XP and Windows 2000:** The class GUID must have been registered previously using the [**RegisterTraceGuids**](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa) function.
 
 -   The **Flags** member must contain the **WNODE\_FLAG\_TRACED\_GUID** flag. If you specify the class GUID using the **GuidPtr** member, also add the **WNODE\_FLAG\_USE\_GUID\_PTR** flag.
 -   The **Class.Type** member must contain the event type, if you use MOF to publish the layout of your event data.
@@ -47,11 +47,11 @@ The header must contain the following information:
 
 If you write both the provider and the consumer, you can use a structure to populate the event-specific data that is appended to the header. However, if you use MOF to publish the event-specific data so that any consumer can process the event, you should not use a structure to append the event-specific data to the header. This is because the compiler may add extra bytes to the event-specific data for byte alignment purposes. Because the MOF definition does not account for the extra bytes, the consumer may retrieve data that is not valid.
 
-You should either allocate a block of memory for the event and copy each event data item to the memory, or create a structure that includes an array of [**MOF\_FIELD**](mof-field.md) structures; most applications will create a structure that includes an array of **MOF\_FIELD** structures. Make sure that **Header.Size** reflects the actual number of **MOF\_FIELD** structures that are actually set before logging the event. For example, if the event contains three data fields, set **Header.Size** to sizeof(EVENT\_TRACE\_HEADER) + (sizeof(MOF\_FIELD) \* 3).
+You should either allocate a block of memory for the event and copy each event data item to the memory, or create a structure that includes an array of [**MOF\_FIELD**](/windows/win32/api/evntrace/ns-evntrace-mof_field) structures; most applications will create a structure that includes an array of **MOF\_FIELD** structures. Make sure that **Header.Size** reflects the actual number of **MOF\_FIELD** structures that are actually set before logging the event. For example, if the event contains three data fields, set **Header.Size** to sizeof(EVENT\_TRACE\_HEADER) + (sizeof(MOF\_FIELD) \* 3).
 
 For information on tracing related events, see [Writing Related Events in an End-to-End Scenario](writing-related-events-in-an-end-to-end-scenario.md).
 
-The following example shows how to call the [**TraceEvent**](traceevent.md) function to log events. The example references the events defined in [Publishing Your Event Schema for a Classic Provider](publishing-your-event-schema-for-a-classic-provider.md).
+The following example shows how to call the [**TraceEvent**](/windows/win32/api/evntrace/nf-evntrace-traceevent) function to log events. The example references the events defined in [Publishing Your Event Schema for a Classic Provider](publishing-your-event-schema-for-a-classic-provider.md).
 
 
 ```C++
@@ -357,6 +357,3 @@ ULONG WINAPI ControlCallback(
  
 
  
-
-
-

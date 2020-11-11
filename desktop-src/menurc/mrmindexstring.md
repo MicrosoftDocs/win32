@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 \[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
 
-Indexes a single string resource belonging to a UWP app. Takes an explicit (but optional) list of resource qualifiers. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems).
+Indexes a single string resource belonging to a UWP app. Takes an explicit (but optional) list of resource qualifiers. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
 
 ## Syntax
 
@@ -106,14 +106,8 @@ The file name segment of *resourceUri* is used as the resource name.
 
 <dl> <dt>
 
-[Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems)
+[Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -18,7 +18,7 @@ api_location:
 
 # CInstance::GetWBEMINT64 methods
 
-\[The [**CInstance**](/windows/desktop/api/Instance/nl-instance-cinstance) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The [**CInstance**](/windows/desktop/api/Instance/nl-instance-cinstance) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The **CInstance::GetWBEMINT64** method retrieves a 64-bit integer property.
 
@@ -28,9 +28,9 @@ The **CInstance::GetWBEMINT64** method retrieves a 64-bit integer property.
 
 | Method                                                                                   | Description                                     |
 |:-----------------------------------------------------------------------------------------|:------------------------------------------------|
-| [**GetWBEMINT64(LPCWSTR, LONGLONG&)**](https://msdn.microsoft.com/library/Aa388983(v=VS.85).aspx)   | Retrieves a 64-bit integer property.<br/> |
-| [**GetWBEMINT64(LPCWSTR, WBEMINT64&)**](https://msdn.microsoft.com/library/Aa388985(v=VS.85).aspx) | Retrieves a 64-bit integer property.<br/> |
-| [**GetWBEMINT64(LPCWSTR, ULONGLONG&)**](https://msdn.microsoft.com/library/Aa388984(v=VS.85).aspx) | Retrieves a 64-bit integer property.<br/> |
+| [**GetWBEMINT64(LPCWSTR, LONGLONG&)**](/windows/win32/api/instance/nf-instance-cinstance-getwbemint64(lpcwstr_longlong_))   | Retrieves a 64-bit integer property.<br/> |
+| [**GetWBEMINT64(LPCWSTR, WBEMINT64&)**](/windows/win32/api/instance/nf-instance-cinstance-getwbemint64(lpcwstr_ulonglong_)) | Retrieves a 64-bit integer property.<br/> |
+| [**GetWBEMINT64(LPCWSTR, ULONGLONG&)**](/windows/win32/api/instance/nf-instance-cinstance-getwbemint64(lpcwstr_ulonglong_)) | Retrieves a 64-bit integer property.<br/> |
 
 
 
@@ -56,9 +56,4 @@ The **CInstance::GetWBEMINT64** method retrieves a 64-bit integer property.
 </dt> </dl>
 
  
-
- 
-
-
-
 

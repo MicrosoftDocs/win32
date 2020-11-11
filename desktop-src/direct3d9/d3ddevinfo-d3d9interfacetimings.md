@@ -41,7 +41,7 @@ typedef struct D3DDEVINFO_D3D9INTERFACETIMINGS {
 **WaitingForGPUToUseApplicationResourceTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -52,7 +52,7 @@ Percentage of time the driver spent waiting for the GPU to finish using a locked
 **WaitingForGPUToAcceptMoreCommandsTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -63,20 +63,20 @@ Percentage of time the driver spent waiting for the GPU to finish processing som
 **WaitingForGPUToStayWithinLatencyTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
 Percentage of time the driver spent waiting for the GPU latency to reduce to less than three rendering frames.
 
-If an application is GPU-limited, the driver must stall the CPU until the GPU gets within three frames. This prevents an application from queuing up many seconds' worth of rendering calls which may dramatically increase the latency between when the user inputs new data and when the user sees the results of that input. In general, the driver can track the number of times [**Present**](https://msdn.microsoft.com/library/Bb174423(v=VS.85).aspx) is called to prevent queuing up more than three frames of rendering work.
+If an application is GPU-limited, the driver must stall the CPU until the GPU gets within three frames. This prevents an application from queuing up many seconds' worth of rendering calls which may dramatically increase the latency between when the user inputs new data and when the user sees the results of that input. In general, the driver can track the number of times [**Present**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-present) is called to prevent queuing up more than three frames of rendering work.
 
 </dd> <dt>
 
 **WaitingForGPUExclusiveResourceTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -87,7 +87,7 @@ Percentage of time the driver spent waiting for a resource that cannot be pipeli
 **WaitingForGPUOtherTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -118,13 +118,9 @@ These system-global metrics may or may not be implemented. Depending on the spec
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx)
+[**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata)
 </dt> </dl>
 
  
 
  
-
-
-
-

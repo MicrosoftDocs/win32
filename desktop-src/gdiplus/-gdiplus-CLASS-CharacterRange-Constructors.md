@@ -8,7 +8,7 @@ ms.topic: reference
 
 # CharacterRange.CharacterRange constructors
 
-This topic lists the constructors of the [**CharacterRange**](https://msdn.microsoft.com/library/ms534426(v=VS.85).aspx) class. For a complete class listing, see **CharacterRange Class**.
+This topic lists the constructors of the [**CharacterRange**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-characterrange) class. For a complete class listing, see **CharacterRange Class**.
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the constructors of the [**CharacterRange**](https://msdn.micro
 
 | Constructor                                                                                   | Description                                                                                                                                                                                |
 |:----------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CharacterRange()**](https://msdn.microsoft.com/library/ms536268(v=VS.85).aspx)                     | Creates a [**CharacterRange::CharacterRange**](https://msdn.microsoft.com/library/ms536268(v=VS.85).aspx) object with the data members set to zero.<br/>                                     |
-| [**CharacterRange(INT,INT)**](https://msdn.microsoft.com/library/ms536269(v=VS.85).aspx) | Creates a [**CharacterRange::CharacterRange**](https://msdn.microsoft.com/library/ms536269(v=VS.85).aspx) object and initializes the data members to the values specified.<br/> |
+| [**CharacterRange()**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-characterrange-characterrange-r2)                     | Creates a [**CharacterRange**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-characterrange) object with the data members set to zero.<br/>                                     |
+| [**CharacterRange(INT,INT)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-characterrange-characterrange(int_int)) | Creates a [**CharacterRange**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-characterrange) object and initializes the data members to the values specified.<br/> |
 
 
 
@@ -34,7 +34,3 @@ This topic lists the constructors of the [**CharacterRange**](https://msdn.micro
  
 
  
-
-
-
-

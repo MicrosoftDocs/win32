@@ -396,15 +396,15 @@
       href: authorization-functions.md
       items: 
       - name: "AccessCheck"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck
       - name: "AccessCheckAndAuditAlarm"
         href: /windows/desktop/api/Winbase/nf-winbase-accesscheckandauditalarma
       - name: "AccessCheckByType"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheckbytype
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheckbytype
       - name: "AccessCheckByTypeAndAuditAlarm"
         href: /windows/desktop/api/Winbase/nf-winbase-accesscheckbytypeandauditalarma
       - name: "AccessCheckByTypeResultList"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheckbytyperesultlist
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheckbytyperesultlist
       - name: "DeriveCapabilitySidsFromName"
         href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-derivecapabilitysidsfromname
       - name: "AccessCheckByTypeResultListAndAuditAlarm"
@@ -412,25 +412,25 @@
       - name: "AccessCheckByTypeResultListAndAuditAlarmByHandle"
         href: /windows/desktop/api/Winbase/nf-winbase-accesscheckbytyperesultlistandauditalarmbyhandlea
       - name: "AddAccessAllowedAce"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedace
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedace
       - name: "AddAccessAllowedAceEx"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedaceex
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedaceex
       - name: "AddAccessAllowedObjectAce"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedobjectace
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedobjectace
       - name: "AddAccessDeniedAce"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedace
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedace
       - name: "AddAccessDeniedAceEx"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedaceex
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedaceex
       - name: "AddAccessDeniedObjectAce"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedobjectace
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedobjectace
       - name: "AddAce"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addace
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-addace
       - name: "AddAuditAccessAce"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addauditaccessace
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-addauditaccessace
       - name: "AddAuditAccessAceEx"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addauditaccessaceex
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-addauditaccessaceex
       - name: "AddAuditAccessObjectAce"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addauditaccessobjectace
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-addauditaccessobjectace
       - name: "AddConditionalAce"
         href: /windows/desktop/api/WinBase/nf-winbase-addconditionalace
       - name: "AddMandatoryAce"
@@ -440,17 +440,17 @@
       - name: "AddScopedPolicyIDAce"
         href: /windows/desktop/api/Securitybaseapi/nf-securitybaseapi-addscopedpolicyidace
       - name: "AdjustTokenGroups"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokengroups
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokengroups
       - name: "AdjustTokenPrivileges"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges
       - name: "AllocateAndInitializeSid"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-allocateandinitializesid
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-allocateandinitializesid
       - name: "AllocateLocallyUniqueId"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-allocatelocallyuniqueid
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-allocatelocallyuniqueid
       - name: "AreAllAccessesGranted"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-areallaccessesgranted
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-areallaccessesgranted
       - name: "AreAnyAccessesGranted"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-areanyaccessesgranted
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-areanyaccessesgranted
       - name: "AuditComputeEffectivePolicyBySid"
         href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-auditcomputeeffectivepolicybysid
       - name: "AuditComputeEffectivePolicyByToken"
@@ -580,7 +580,7 @@
       - name: "CheckTokenCapability"
         href: /windows/desktop/api/Securitybaseapi/nf-securitybaseapi-checktokencapability
       - name: "CheckTokenMembership"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokenmembership
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokenmembership
       - name: "CheckTokenMembershipEx"
         href: /windows/desktop/api/Securitybaseapi/nf-securitybaseapi-checktokenmembershipex
       - name: "ConvertSecurityDescriptorToStringSecurityDescriptor"
@@ -592,25 +592,25 @@
       - name: "ConvertStringSidToSid"
         href: /windows/desktop/api/Sddl/nf-sddl-convertstringsidtosida
       - name: "ConvertToAutoInheritPrivateObjectSecurity"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-converttoautoinheritprivateobjectsecurity
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-converttoautoinheritprivateobjectsecurity
       - name: "CopySid"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-copysid
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-copysid
       - name: "CreatePrivateObjectSecurity"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurity
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurity
       - name: "CreatePrivateObjectSecurityEx"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurityex
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurityex
       - name: "CreatePrivateObjectSecurityWithMultipleInheritance"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecuritywithmultipleinheritance
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecuritywithmultipleinheritance
       - name: "CreateRestrictedToken"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken
       - name: "CreateSecurityPage"
         href: /windows/desktop/api/Aclui/nf-aclui-createsecuritypage
       - name: "CreateWellKnownSid"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createwellknownsid
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-createwellknownsid
       - name: "DeleteAce"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-deleteace
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-deleteace
       - name: "DestroyPrivateObjectSecurity"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-destroyprivateobjectsecurity
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-destroyprivateobjectsecurity
       - name: "DSCreateSecurityPage"
         href: /windows/desktop/api/DSSec/nf-dssec-dscreatesecuritypage
       - name: "DSCreateISecurityInfoObject"
@@ -620,29 +620,29 @@
       - name: "DSEditSecurity"
         href: /windows/desktop/api/DSSec/nf-dssec-dseditsecurity
       - name: "DuplicateToken"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetoken
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetoken
       - name: "DuplicateTokenEx"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetokenex
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetokenex
       - name: "EditSecurity"
         href: /windows/desktop/api/Aclui/nf-aclui-editsecurity
       - name: "EditSecurityAdvanced"
         href: /windows/desktop/api/Aclui/nf-aclui-editsecurityadvanced
       - name: "EqualDomainSid"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equaldomainsid
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-equaldomainsid
       - name: "EqualPrefixSid"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalprefixsid
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalprefixsid
       - name: "EqualSid"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalsid
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalsid
       - name: "FindFirstFreeAce"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-findfirstfreeace
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-findfirstfreeace
       - name: "FreeInheritedFromArray"
         href: /windows/desktop/api/Aclapi/nf-aclapi-freeinheritedfromarray
       - name: "FreeSid"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-freesid
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-freesid
       - name: "GetAce"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getace
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getace
       - name: "GetAclInformation"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getaclinformation
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getaclinformation
       - name: "GetAppContainerNamedObjectPath"
         href: /windows/desktop/api/Securityappcontainer/nf-securityappcontainer-getappcontainernamedobjectpath
       - name: "GetAuditedPermissionsFromAcl"
@@ -662,9 +662,9 @@
       - name: "GetInheritanceSource"
         href: /windows/desktop/api/Aclapi/nf-aclapi-getinheritancesourcea
       - name: "GetKernelObjectSecurity"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getkernelobjectsecurity
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getkernelobjectsecurity
       - name: "GetLengthSid"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getlengthsid
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getlengthsid
       - name: "GetMultipleTrustee"
         href: getmultipletrustee.md
       - name: "GetMultipleTrusteeOperation"
@@ -672,33 +672,33 @@
       - name: "GetNamedSecurityInfo"
         href: /windows/desktop/api/Aclapi/nf-aclapi-getnamedsecurityinfoa
       - name: "GetPrivateObjectSecurity"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getprivateobjectsecurity
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getprivateobjectsecurity
       - name: "GetSecurityDescriptorControl"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorcontrol
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorcontrol
       - name: "GetSecurityDescriptorDacl"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptordacl
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptordacl
       - name: "GetSecurityDescriptorGroup"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorgroup
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorgroup
       - name: "GetSecurityDescriptorLength"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorlength
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorlength
       - name: "GetSecurityDescriptorOwner"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorowner
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorowner
       - name: "GetSecurityDescriptorRMControl"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorrmcontrol
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorrmcontrol
       - name: "GetSecurityDescriptorSacl"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorsacl
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorsacl
       - name: "GetSecurityInfo"
         href: /windows/desktop/api/Aclapi/nf-aclapi-getsecurityinfo
       - name: "GetSidIdentifierAuthority"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsididentifierauthority
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsididentifierauthority
       - name: "GetSidLengthRequired"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidlengthrequired
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidlengthrequired
       - name: "GetSidSubAuthority"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidsubauthority
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidsubauthority
       - name: "GetSidSubAuthorityCount"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidsubauthoritycount
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidsubauthoritycount
       - name: "GetTokenInformation"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation
       - name: "GetTrusteeForm"
         href: /windows/desktop/api/Aclapi/nf-aclapi-gettrusteeforma
       - name: "GetTrusteeName"
@@ -708,31 +708,31 @@
       - name: "GetUserObjectSecurity"
         href: /windows/desktop/api/Winuser/nf-winuser-getuserobjectsecurity
       - name: "GetWindowsAccountDomainSid"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getwindowsaccountdomainsid
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-getwindowsaccountdomainsid
       - name: "ImpersonateAnonymousToken"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-impersonateanonymoustoken
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-impersonateanonymoustoken
       - name: "ImpersonateLoggedOnUser"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-impersonateloggedonuser
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-impersonateloggedonuser
       - name: "ImpersonateNamedPipeClient"
-        href: https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-impersonatenamedpipeclient
+        href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-impersonatenamedpipeclient
       - name: "ImpersonateSelf"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-impersonateself
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-impersonateself
       - name: "InitializeAcl"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializeacl
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializeacl
       - name: "InitializeSecurityDescriptor"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializesecuritydescriptor
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializesecuritydescriptor
       - name: "InitializeSid"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializesid
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializesid
       - name: "IsTokenRestricted"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-istokenrestricted
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-istokenrestricted
       - name: "IsValidAcl"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidacl
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidacl
       - name: "IsValidSecurityDescriptor"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsecuritydescriptor
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsecuritydescriptor
       - name: "IsValidSid"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsid
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsid
       - name: "IsWellKnownSid"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-iswellknownsid
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-iswellknownsid
       - name: "LookupAccountName"
         href: /windows/desktop/api/Winbase/nf-winbase-lookupaccountnamea
       - name: "LookupAccountSid"
@@ -748,11 +748,11 @@
       - name: "LookupSecurityDescriptorParts"
         href: /windows/desktop/api/Aclapi/nf-aclapi-lookupsecuritydescriptorpartsa
       - name: "MakeAbsoluteSD"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-makeabsolutesd
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-makeabsolutesd
       - name: "MakeSelfRelativeSD"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-makeselfrelativesd
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-makeselfrelativesd
       - name: "MapGenericMask"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-mapgenericmask
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-mapgenericmask
       - name: "NtCompareTokens"
         href: ntcomparetokens.md
       - name: "ObjectCloseAuditAlarm"
@@ -764,11 +764,11 @@
       - name: "ObjectPrivilegeAuditAlarm"
         href: /windows/desktop/api/Winbase/nf-winbase-objectprivilegeauditalarma
       - name: "OpenProcessToken"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocesstoken
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocesstoken
       - name: "OpenThreadToken"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken
       - name: "PrivilegeCheck"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-privilegecheck
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-privilegecheck
       - name: "PrivilegedServiceAuditAlarm"
         href: /windows/desktop/api/Winbase/nf-winbase-privilegedserviceauditalarma
       - name: "QuerySecurityAccessMask"
@@ -780,45 +780,45 @@
       - name: "RegSetKeySecurity"
         href: /windows/desktop/api/Winreg/nf-winreg-regsetkeysecurity
       - name: "RevertToSelf"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-reverttoself
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-reverttoself
       - name: "RtlConvertSidToUnicodeString"
         href: /windows/desktop/api/Winternl/nf-winternl-rtlconvertsidtounicodestring
       - name: "SetAclInformation"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setaclinformation
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-setaclinformation
       - name: "SetEntriesInAcl"
         href: /windows/desktop/api/Aclapi/nf-aclapi-setentriesinacla
       - name: "SetFileSecurity"
         href: /windows/desktop/api/Winbase/nf-winbase-setfilesecuritya
       - name: "SetKernelObjectSecurity"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setkernelobjectsecurity
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-setkernelobjectsecurity
       - name: "SetNamedSecurityInfo"
         href: /windows/desktop/api/Aclapi/nf-aclapi-setnamedsecurityinfoa
       - name: "SetPrivateObjectSecurity"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurity
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurity
       - name: "SetPrivateObjectSecurityEx"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurityex
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurityex
       - name: "SetSecurityAccessMask"
         href: /windows/desktop/api/Securitybaseapi/nf-securitybaseapi-setsecurityaccessmask
       - name: "SetSecurityDescriptorControl"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorcontrol
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorcontrol
       - name: "SetSecurityDescriptorDacl"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl
       - name: "SetSecurityDescriptorGroup"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorgroup
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorgroup
       - name: "SetSecurityDescriptorOwner"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorowner
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorowner
       - name: "SetSecurityDescriptorRMControl"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorrmcontrol
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorrmcontrol
       - name: "SetSecurityDescriptorSacl"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorsacl
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorsacl
       - name: "SetSecurityInfo"
         href: /windows/desktop/api/Aclapi/nf-aclapi-setsecurityinfo
       - name: "SetServiceObjectSecurity"
         href: /windows/desktop/api/Winsvc/nf-winsvc-setserviceobjectsecurity
       - name: "SetThreadToken"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadtoken
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadtoken
       - name: "SetTokenInformation"
-        href: https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-settokeninformation
+        href: /windows/desktop/api/securitybaseapi/nf-securitybaseapi-settokeninformation
       - name: "SetUserObjectSecurity"
         href: /windows/desktop/api/Winuser/nf-winuser-setuserobjectsecurity
       - name: "TreeResetNamedSecurityInfo"
@@ -1759,71 +1759,71 @@
           - name: "InitializeSystemInstaller Method"
             href: ieaxisysteminstaller-initializesysteminstaller.md
       - name: "IEffectivePermission"
-        href: https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-ieffectivepermission
+        href: /windows/desktop/api/aclui/nn-aclui-ieffectivepermission
         items: 
         - name: "IEffectivePermission Methods"
           href: ieffectivepermission-methods.md
           items: 
           - name: "GetEffectivePermission Method"
-            href: https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-ieffectivepermission-geteffectivepermission
+            href: /windows/desktop/api/aclui/nf-aclui-ieffectivepermission-geteffectivepermission
       - name: "IEffectivePermission2"
-        href: https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-ieffectivepermission2
+        href: /windows/desktop/api/aclui/nn-aclui-ieffectivepermission2
         items: 
         - name: "ComputeEffectivePermissionWithSecondarySecurity Method"
-          href: https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-ieffectivepermission2-computeeffectivepermissionwithsecondarysecurity
+          href: /windows/desktop/api/aclui/nf-aclui-ieffectivepermission2-computeeffectivepermissionwithsecondarysecurity
       - name: "ISecurityInformation"
-        href: https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation
+        href: /windows/desktop/api/aclui/nn-aclui-isecurityinformation
         items: 
         - name: "ISecurityInformation Methods"
           href: isecurityinformation-methods.md
           items: 
           - name: "GetAccessRights Method"
-            href: https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getaccessrights
+            href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation-getaccessrights
           - name: "GetInheritTypes Method"
-            href: https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getinherittypes
+            href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation-getinherittypes
           - name: "GetObjectInformation Method"
-            href: https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation
+            href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation
           - name: "GetSecurity Method"
-            href: https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getsecurity
+            href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation-getsecurity
           - name: "MapGeneric Method"
-            href: https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-mapgeneric
+            href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation-mapgeneric
           - name: "PropertySheetPageCallback Method"
-            href: https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-propertysheetpagecallback
+            href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation-propertysheetpagecallback
           - name: "SetSecurity Method"
-            href: https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-setsecurity
+            href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation-setsecurity
       - name: "ISecurityInformation2"
-        href: https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation2
+        href: /windows/desktop/api/aclui/nn-aclui-isecurityinformation2
         items: 
         - name: "ISecurityInformation2 Methods"
           href: isecurityinformation2-methods.md
           items: 
           - name: "IsDaclCanonical Method"
-            href: https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation2-isdaclcanonical
+            href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation2-isdaclcanonical
           - name: "LookupSids Method"
-            href: https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation2-lookupsids
+            href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation2-lookupsids
       - name: "ISecurityInformation3"
-        href: https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation3
+        href: /windows/desktop/api/aclui/nn-aclui-isecurityinformation3
         items: 
         - name: "ISecurityInformation3 Methods"
           href: isecurityinformation3-methods.md
           items: 
           - name: "GetFullResourceName Method"
-            href: https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation3-getfullresourcename
+            href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation3-getfullresourcename
           - name: "OpenElevatedEditor Method"
-            href: https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation3-openelevatededitor
+            href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation3-openelevatededitor
       - name: "ISecurityInformation4"
-        href: https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation4
+        href: /windows/desktop/api/aclui/nn-aclui-isecurityinformation4
         items: 
         - name: "GetSecondarySecurity Method"
-          href: https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation4-getsecondarysecurity
+          href: /windows/desktop/api/aclui/nf-aclui-isecurityinformation4-getsecondarysecurity
       - name: "ISecurityObjectTypeInfo"
-        href: https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityobjecttypeinfo
+        href: /windows/desktop/api/aclui/nn-aclui-isecurityobjecttypeinfo
         items: 
         - name: "ISecurityObjectTypeInfo Methods"
           href: isecurityobjecttypeinfo-methods.md
           items: 
           - name: "GetInheritSource Method"
-            href: https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityobjecttypeinfo-getinheritsource
+            href: /windows/desktop/api/aclui/nf-aclui-isecurityobjecttypeinfo-getinheritsource
     - name: "Authorization Objects"
       href: authorization-objects.md
       items: 
@@ -1913,7 +1913,7 @@
       - name: "PRIVILEGE_SET"
         href: /windows/win32/api/Winnt/ns-winnt-privilege_set
       - name: "SECURITY_ATTRIBUTES"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa379560(v=vs.85)
       - name: "SECURITY_CAPABILITIES"
         href: /windows/win32/api/Winnt/ns-winnt-security_capabilities
       - name: "SECURITY_DESCRIPTOR"
@@ -1947,7 +1947,7 @@
       - name: "SYSTEM_ALARM_CALLBACK_OBJECT_ACE"
         href: /windows/win32/api/Winnt/ns-winnt-system_alarm_callback_object_ace
       - name: "SYSTEM_ALARM_OBJECT_ACE"
-        href: https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_alarm_object_ace
+        href: /windows/desktop/api/winnt/ns-winnt-system_alarm_object_ace
       - name: "SYSTEM_AUDIT_ACE"
         href: /windows/win32/api/Winnt/ns-winnt-system_audit_ace
       - name: "SYSTEM_AUDIT_CALLBACK_ACE"

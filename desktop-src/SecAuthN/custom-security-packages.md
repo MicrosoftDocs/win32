@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Custom Security Packages
 
-To implement new security protocols that are integrated with the Windows Server and Windows operating systems, use the custom security package API and the [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LSA) functions.
+To implement new security protocols that are integrated with the Windows Server and Windows operating systems, use the custom security package API and the [*Local Security Authority*](/windows/desktop/SecGloss/l-gly) (LSA) functions.
 
-The custom security package API supports combined development of custom [*security support providers*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSPs), which provide [Noninteractive Authentication](noninteractive-authentication.md) services and secure message exchange to client/server applications, with the development of custom [*authentication packages*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly), which provide services for applications that perform [Interactive Authentication](interactive-authentication.md). These services, when combined in a single package, are called a security support provider/authentication package (SSP/AP).
+The custom security package API supports combined development of custom [*security support providers*](/windows/desktop/SecGloss/s-gly) (SSPs), which provide [Noninteractive Authentication](noninteractive-authentication.md) services and secure message exchange to client/server applications, with the development of custom [*authentication packages*](/windows/desktop/SecGloss/a-gly), which provide services for applications that perform [Interactive Authentication](interactive-authentication.md). These services, when combined in a single package, are called a security support provider/authentication package (SSP/AP).
 
 As with Microsoft-provided security packages, users of the custom security package access interactive authentication services using the [LSA Logon Functions](authentication-functions.md). Noninteractive authentication and message protection services can be accessed directly using [Security Support Provider Interface](sspi.md) (SSPI).
 
-The security packages deployed in SSP/APs are fully integrated with the LSA. Using the LSA support functions available to custom security packages, developers can implement advanced security features such as token creation, [*supplemental credentials*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) support, and pass-through authentication. For a list of these support functions, see [LSA Functions Called by Authentication Packages](authentication-functions.md). For information about how to implement custom security packages, see [Creating Custom Security Packages](creating-custom-security-packages.md).
+The security packages deployed in SSP/APs are fully integrated with the LSA. Using the LSA support functions available to custom security packages, developers can implement advanced security features such as token creation, [*supplemental credentials*](/windows/desktop/SecGloss/s-gly) support, and pass-through authentication. For a list of these support functions, see [LSA Functions Called by Authentication Packages](authentication-functions.md). For information about how to implement custom security packages, see [Creating Custom Security Packages](creating-custom-security-packages.md).
 
 For more information about custom security packages, see the following topics.
 
@@ -31,9 +31,4 @@ For more information about custom security packages, see the following topics.
  
 
  
-
- 
-
-
-
 

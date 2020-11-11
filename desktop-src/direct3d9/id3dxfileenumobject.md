@@ -22,7 +22,7 @@ Applications use the methods of the ID3DXFileEnumObject interface to cycle throu
 
 ## Members
 
-The **ID3DXFileEnumObject** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXFileEnumObject** also has these types of members:
+The **ID3DXFileEnumObject** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DXFileEnumObject** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -78,7 +78,3 @@ typedef interface ID3DXFileEnumObject *LPD3DXFILEENUMOBJECT;
  
 
  
-
-
-
-

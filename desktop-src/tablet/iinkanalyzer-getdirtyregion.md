@@ -48,7 +48,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppDirtyRegion* when you no longer need to use the object.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppDirtyRegion* when you no longer need to use the object.
 
  
 
@@ -62,7 +62,7 @@ The [**IInkAnalyzer**](iinkanalyzer.md) analyzes ink within its dirty region dur
 
 This property may contain nonadjacent areas.
 
-Use [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to free the memory from the *ppDirtyRegion* array when you are finished with it.
+Use [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to free the memory from the *ppDirtyRegion* array when you are finished with it.
 
 ## Requirements
 
@@ -115,9 +115,4 @@ Use [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseap
 </dt> </dl>
 
  
-
- 
-
-
-
 

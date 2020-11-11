@@ -79,7 +79,7 @@ public static Nullable<bool> RetrieveColumnAsBoolean(
 
 #### Return value
 
-Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)\>  
+Type: [System.Nullable](/dotnet/api/system.nullable-1)\<[Boolean](/dotnet/api/system.boolean)\>  
 The data retrieved from the column as a boolean. Null if the column is null.  
 
 ## See also
@@ -93,4 +93,3 @@ The data retrieved from the column as a boolean. Null if the column is null.
 [RetrieveColumnAsBoolean overload](dn334063\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

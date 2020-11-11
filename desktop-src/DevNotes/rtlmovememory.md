@@ -65,7 +65,7 @@ None
 
 The source memory block, which is defined by *Source* and *Length*, can overlap the destination memory block, which is defined by *Destination* and *Length*.
 
-The [**RtlCopyMemory**](https://msdn.microsoft.com/library/Ff561808(v=VS.85).aspx) routine runs faster than **RtlMoveMemory**, but **RtlCopyMemory** requires that the source and destination memory blocks do not overlap.
+The [**RtlCopyMemory**](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcopymemory) routine runs faster than **RtlMoveMemory**, but **RtlCopyMemory** requires that the source and destination memory blocks do not overlap.
 
 Callers of **RtlMoveMemory** can be running at any IRQL if the source and destination memory blocks are in nonpaged system memory. Otherwise, the caller must be running at IRQL <= APC\_LEVEL.
 
@@ -77,7 +77,7 @@ Callers of **RtlMoveMemory** can be running at any IRQL if the source and destin
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                    |
-| Target platform<br/>          | <dl> <dt>[Universal](https://msdn.microsoft.com/En-US/Library/Windows/Hardware/EB2264A4-BAE8-446B-B9A5-19893936DDCA)</dt> </dl> |
+| Target platform<br/>          | <dl> <dt>[Universal](https://msdn.microsoft.com/Library/Windows/Hardware/EB2264A4-BAE8-446B-B9A5-19893936DDCA)</dt> </dl> |
 | Header<br/>                   | <dl> <dt>Wdm.h (include Wdm.h, Ntddk.h, or Ntifs.h)</dt> </dl>                   |
 | Library<br/>                  | <dl> <dt>Ntdll.lib</dt> </dl>                                                    |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll</dt> </dl>                                                    |
@@ -88,13 +88,9 @@ Callers of **RtlMoveMemory** can be running at any IRQL if the source and destin
 
 <dl> <dt>
 
-[**RtlCopyMemory**](https://msdn.microsoft.com/library/Ff561808(v=VS.85).aspx)
+[**RtlCopyMemory**](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcopymemory)
 </dt> </dl>
 
  
 
  
-
-
-
-

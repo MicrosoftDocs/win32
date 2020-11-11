@@ -71,7 +71,7 @@ Data type: **[**Win32\_TSVm**](win32-tsvm.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 An instance of the [**Win32\_TSVm**](win32-tsvm.md) class that represents the virtual machine.
@@ -93,10 +93,4 @@ An instance of the [**Win32\_TSVm**](win32-tsvm.md) class that represents the vi
 
 
  
-
- 
-
-
-
-
 

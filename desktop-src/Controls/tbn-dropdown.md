@@ -59,7 +59,7 @@ Returns one of the following values:
 ## Remarks
 
 > [!Note]  
-> Dropdown buttons can be plain ([**BTNS\_DROPDOWN**](toolbar-control-and-button-styles.md) style), display an arrow next to the button image ([**BTNS\_WHOLEDROPDOWN**](toolbar-control-and-button-styles.md) style), or display an arrow that is separated from the image ([**TBSTYLE\_EX\_DRAWDDARROWS**](toolbar-extended-styles.md) style). If a separated arrow is used, TBN\_DROPDOWN is sent only if the user clicks the arrow portion of the button. If the user clicks the main part of the button, a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message with button's ID is sent, just as with a standard button. For the other two styles of dropdown button, TBN\_DROPDOWN is sent when the user clicks any part of the button.
+> Dropdown buttons can be plain ([**BTNS\_DROPDOWN**](toolbar-control-and-button-styles.md) style), display an arrow next to the button image ([**BTNS\_WHOLEDROPDOWN**](toolbar-control-and-button-styles.md) style), or display an arrow that is separated from the image ([**TBSTYLE\_EX\_DRAWDDARROWS**](toolbar-extended-styles.md) style). If a separated arrow is used, TBN\_DROPDOWN is sent only if the user clicks the arrow portion of the button. If the user clicks the main part of the button, a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message with button's ID is sent, just as with a standard button. For the other two styles of dropdown button, TBN\_DROPDOWN is sent when the user clicks any part of the button.
 
  
 
@@ -76,10 +76,4 @@ Returns one of the following values:
 
 
  
-
- 
-
-
-
-
 

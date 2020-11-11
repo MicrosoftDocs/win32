@@ -24,18 +24,18 @@ Draws the outline of a rectangle that has the specified dimensions and stroke st
 
 | Method                                                                                                                                                                   | Description                                                                                      |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------|
-| [**DrawRectangle(D2D1\_RECT\_F&,ID2D1Brush\*,FLOAT,ID2D1StrokeStyle\*)**](https://msdn.microsoft.com/library/Dd371902(v=VS.85).aspx)  | Draws the outline of a rectangle that has the specified dimensions and stroke style. <br/> |
-| [**DrawRectangle(D2D1\_RECT\_F\*,ID2D1Brush\*,FLOAT,ID2D1StrokeStyle\*)**](https://msdn.microsoft.com/library/Dd371899(v=VS.85).aspx) | Draws the outline of a rectangle that has the specified dimensions and stroke style. <br/> |
+| [**DrawRectangle(D2D1\_RECT\_F&,ID2D1Brush\*,FLOAT,ID2D1StrokeStyle\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawrectangle(constd2d1_rect_f__id2d1brush_float_id2d1strokestyle))  | Draws the outline of a rectangle that has the specified dimensions and stroke style. <br/> |
+| [**DrawRectangle(D2D1\_RECT\_F\*,ID2D1Brush\*,FLOAT,ID2D1StrokeStyle\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawrectangle(constd2d1_rect_f__id2d1brush_float_id2d1strokestyle)) | Draws the outline of a rectangle that has the specified dimensions and stroke style. <br/> |
 
 
 
 ## Remarks
 
-When this method fails, it does not return an error code. To determine whether a drawing method (such as **DrawRectangle**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](https://msdn.microsoft.com/library/Dd371924(v=VS.85).aspx) or [**ID2D1RenderTarget::Flush**](https://msdn.microsoft.com/library/Dd316801(v=VS.85).aspx) method.
+When this method fails, it does not return an error code. To determine whether a drawing method (such as **DrawRectangle**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) or [**ID2D1RenderTarget::Flush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush) method.
 
 ## Examples
 
-The following example uses an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/Dd371275(v=VS.85).aspx) to draw and fill several rectangles. This example produces the output shown in the following illustration.
+The following example uses an [**ID2D1HwndRenderTarget**](/previous-versions/windows/desktop/legacy/dd371275(v=vs.85)) to draw and fill several rectangles. This example produces the output shown in the following illustration.
 
 ![illustration of two rectangles on a grid background](images/drawrectangleexample-small.png)
 
@@ -151,8 +151,3 @@ For a related tutorial, see [Creating a Simple Direct2D Application](direct2d-qu
 �
 
 �
-
-
-
-
-

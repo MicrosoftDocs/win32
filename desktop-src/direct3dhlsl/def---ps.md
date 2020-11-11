@@ -46,7 +46,7 @@ Where:
 There are two ways to set a floating-point constant in a pixel shader.
 
 1.  Use def to define the constant directly inside a shader.
-2.  Use the API to set a constant with [**SetPixelShaderConstantF**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantf).
+2.  Use the API to set a constant with [**SetPixelShaderConstantF**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantf).
 
 def defines a shader constant whose value is loaded any time a shader is set to a device. These are called immediate constants. Immediate constants take precedence over constants set by the API method.
 
@@ -66,7 +66,3 @@ def defines a shader constant whose value is loaded any time a shader is set to 
  
 
  
-
-
-
-

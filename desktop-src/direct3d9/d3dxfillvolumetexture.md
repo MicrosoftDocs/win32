@@ -40,9 +40,9 @@ HRESULT D3DXFillVolumeTexture(
 *pTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVOLUMETEXTURE9**](https://msdn.microsoft.com/library/Bb205941(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DVOLUMETEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvolumetexture9)**
 
-Pointer to an [**IDirect3DVolumeTexture9**](https://msdn.microsoft.com/library/Bb205941(v=VS.85).aspx) interface, representing the filled texture.
+Pointer to an [**IDirect3DVolumeTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvolumetexture9) interface, representing the filled texture.
 
 </dd> <dt>
 
@@ -58,7 +58,7 @@ Pointer to a user-provided evaluator function, which will be used to compute the
 *pData* \[in\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](../winprog/windows-data-types.md)**
 
 Pointer to an arbitrary block of user-defined data. This pointer will be passed to the function provided in *pFunction*.
 
@@ -116,7 +116,3 @@ if (FAILED (hr = D3DXFillVolumeTexture (m_pTexture, ColorVolumeFill, NULL)))
  
 
  
-
-
-
-

@@ -32,7 +32,7 @@ Enables the remapping of database file paths that are stored in the transaction 
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_RSTMAP  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
@@ -66,4 +66,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 [JET_RSTMAP members](dn335249\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

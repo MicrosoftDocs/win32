@@ -44,7 +44,7 @@ HRESULT D3DX10CreateAsyncEffectCompilerProcessor(
 *pFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 A string that contains the effect filename.
 
@@ -62,16 +62,16 @@ A NULL-terminated array of shader macros (see [**D3D\_SHADER\_MACRO**](/windows/
 *pInclude* \[in\]
 </dt> <dd>
 
-Type: **[**LPD3D10INCLUDE**](https://msdn.microsoft.com/library/Bb173775(v=VS.85).aspx)**
+Type: **[**LPD3D10INCLUDE**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))**
 
-A pointer to an include interface (see [**ID3D10Include Interface**](https://msdn.microsoft.com/library/Bb173775(v=VS.85).aspx)). This parameter can be **NULL**.
+A pointer to an include interface (see [**ID3D10Include Interface**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))). This parameter can be **NULL**.
 
 </dd> <dt>
 
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 [HLSL compile options](d3d10-graphics-reference-effect-constants.md).
 
@@ -80,7 +80,7 @@ Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 *FXFlags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 [Effect compile options](d3d10-graphics-reference-effect-constants.md)).
 
@@ -139,7 +139,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

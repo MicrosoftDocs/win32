@@ -38,7 +38,7 @@ UINT GetNumTranslationKeys(
 *Animation* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Animation index.
 
@@ -46,7 +46,7 @@ Animation index.
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of translation keys in the specified key frame animation.
 
@@ -71,7 +71,3 @@ Number of translation keys in the specified key frame animation.
  
 
  
-
-
-
-

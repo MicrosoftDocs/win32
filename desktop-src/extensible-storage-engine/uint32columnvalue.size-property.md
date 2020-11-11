@@ -52,7 +52,7 @@ protected override int Size { get; }
 
 #### Property value
 
-Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+Type: [System.Int32](/dotnet/api/system.int32)  
 
 ## See also
 
@@ -63,4 +63,3 @@ Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirect
 [UInt32ColumnValue members](dn351186\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

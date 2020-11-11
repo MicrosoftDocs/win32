@@ -10,14 +10,19 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Servers** - Windows Server 2008 R2  
-</dl>
+**Servers** - Windows Server 2008 R2  
+
+
 
 ## Feature Impact
 
-<dl> **Severity** - Low  
+ **Severity** - Low  
 **Frequency** - High  
-</dl>
+
+
+
+
+
 
 ## Description
 
@@ -51,22 +56,19 @@ Note that 64-bit Windows does not support running 16-bit Windows-based applicati
 
 ## Links to Other Resources
 
--   [Running 32-bit Applications](https://docs.microsoft.com/windows/desktop/WinProg64/running-32-bit-applications)
--   [Performance and Memory Consumption](https://docs.microsoft.com/windows/desktop/WinProg64/performance-and-memory-consumption)
--   [WOW64 Implementation Details](https://docs.microsoft.com/windows/desktop/WinProg64/wow64-implementation-details)
--   [Registry Redirector](https://docs.microsoft.com/windows/desktop/WinProg64/registry-redirector)
--   [File System Redirector](https://docs.microsoft.com/windows/desktop/WinProg64/file-system-redirector)
--   [Memory Management](https://docs.microsoft.com/windows/desktop/WinProg64/memory-management)
--   [Processor Affinity](https://docs.microsoft.com/windows/desktop/WinProg64/processor-affinity)
--   [Interprocess Communication](https://docs.microsoft.com/windows/desktop/WinProg64/interprocess-communication)
--   [Application Installation on 64-bit Systems](https://docs.microsoft.com/windows/desktop/WinProg64/application-installation)
--   [Debugging WOW64](https://docs.microsoft.com/windows/desktop/WinProg64/debugging-wow64)
--   [**IsWow64Process Function**](https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process)
--   [**GetNativeSystemInfo Function**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo)
+-   [Running 32-bit Applications](/windows/desktop/WinProg64/running-32-bit-applications)
+-   [Performance and Memory Consumption](/windows/desktop/WinProg64/performance-and-memory-consumption)
+-   [WOW64 Implementation Details](/windows/desktop/WinProg64/wow64-implementation-details)
+-   [Registry Redirector](/windows/desktop/WinProg64/registry-redirector)
+-   [File System Redirector](/windows/desktop/WinProg64/file-system-redirector)
+-   [Memory Management](/windows/desktop/WinProg64/memory-management)
+-   [Processor Affinity](/windows/desktop/WinProg64/processor-affinity)
+-   [Interprocess Communication](/windows/desktop/WinProg64/interprocess-communication)
+-   [Application Installation on 64-bit Systems](/windows/desktop/WinProg64/application-installation)
+-   [Debugging WOW64](/windows/desktop/WinProg64/debugging-wow64)
+-   [**IsWow64Process Function**](/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process)
+-   [**GetNativeSystemInfo Function**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo)
 
  
 
  
-
-
-

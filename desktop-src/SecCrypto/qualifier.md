@@ -17,7 +17,7 @@ api_location:
 
 # Qualifier object
 
-\[The **Qualifier** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Extension Class**](https://msdn.microsoft.com/library/x5x51x86(v=VS.100).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Policies to process qualifiers that are part of the policy information in the Certificate Policies extension.\]
+\[The **Qualifier** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Extension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extension?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Policies to process qualifiers that are part of the policy information in the Certificate Policies extension.\]
 
 The **Qualifier** object represents a Certification Practice Statement (CPS) pointer or user notice qualifier.
 
@@ -26,7 +26,7 @@ The **Qualifier** object represents a Certification Practice Statement (CPS) poi
 The **Qualifier** object is used to perform the following tasks:
 
 -   Retrieve the object identifier of the qualifier.
--   Retrieve the Uniform Resource Identifier (URI) that points to a CPS published by the [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA).
+-   Retrieve the Uniform Resource Identifier (URI) that points to a CPS published by the [*certification authority*](../secgloss/c-gly.md) (CA).
 -   Retrieve the name of the organization associated with the qualifier.
 -   Retrieve the name and content of a user notice.
 
@@ -72,7 +72,3 @@ The **Qualifier** object cannot be created.
  
 
  
-
-
-
-

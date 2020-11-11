@@ -43,7 +43,7 @@ HRESULT Execute(
 *FunctionNum* 
 </dt> <dd>
 
-A **DWORD** that contains one or more DXVA function numbers. For details, refer to the [DXVA 1.0 specification](https://msdn.microsoft.com/library/windows/hardware/gg463516).
+A **DWORD** that contains one or more DXVA function numbers. For details, refer to the [DXVA 1.0 specification](/windows-hardware/drivers/display/directx-video-acceleration).
 
 </dd> <dt>
 
@@ -115,7 +115,3 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
  
 
  
-
-
-
-

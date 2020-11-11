@@ -46,7 +46,7 @@ The identifier of the Remote Desktop Services session.
 *ppEndpointEnumerator* \[out\]
 </dt> <dd>
 
-The address of a pointer to an [**IMMDeviceEnumerator**](https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator) interface.
+The address of a pointer to an [**IMMDeviceEnumerator**](/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator) interface.
 
 </dd> </dl>
 
@@ -76,14 +76,8 @@ This function is not defined in a header file. You should implement and export t
 [Implementing a Custom Audio Endpoint Enumerator](implementing-an-audio-endpoint-enumerator.md)
 </dt> <dt>
 
-[**IMMDeviceEnumerator**](https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator)
+[**IMMDeviceEnumerator**](/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

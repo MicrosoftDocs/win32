@@ -61,7 +61,7 @@ Data type: **CIM\_ClusteringService**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_ClusteringService**](cim-clusteringservice.md) that describes the clustering service.
@@ -77,7 +77,7 @@ Data type: **CIM\_ClusteringSAP**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_ClusteringSAP**](cim-clusteringsap.md) that describes an access point for the clustering service.
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

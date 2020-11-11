@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 The Direct3D API defines several API elements to help you create and manage programmable shaders. Shaders are executable programs that are programmed exclusively using HLSL.
 
-## 
 
 ## In this section
 

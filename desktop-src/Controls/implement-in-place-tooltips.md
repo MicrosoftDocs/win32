@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 In-place tooltips are used to display text strings for objects that have been clipped. For an illustration, see [About Tooltip Controls](tooltip-controls.md).
 
-The difference between ordinary and in-place tooltips is positioning. By default, when the mouse pointer hovers over a region that has a tooltip associated with it, the tooltip is displayed adjacent to the region. However, tooltips are windows, and they can be positioned anywhere you choose by calling [**SetWindowPos**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos). Creating an in-place tooltip is a matter of positioning the tooltip window so that it overlays the text string.
+The difference between ordinary and in-place tooltips is positioning. By default, when the mouse pointer hovers over a region that has a tooltip associated with it, the tooltip is displayed adjacent to the region. However, tooltips are windows, and they can be positioned anywhere you choose by calling [**SetWindowPos**](/windows/desktop/api/winuser/nf-winuser-setwindowpos). Creating an in-place tooltip is a matter of positioning the tooltip window so that it overlays the text string.
 
 ## What you need to know
 
@@ -33,7 +33,6 @@ You need to keep track of three rectangles when positioning an in-place tooltip:
 2.  The rectangle that surrounds the tooltip text. The tooltip text is identical to the complete label text, and normally is the same size and font. The two text rectangles will thus usually be the same size.
 3.  The tooltip window rectangle. This rectangle is somewhat larger than the tooltip text rectangle that it encloses.
 
-### 
 
 The three rectangles are shown schematically in the following illustration. The hidden portion of the label text is indicated by a gray background.
 
@@ -44,7 +43,6 @@ To create an in-place tooltip, you must position the tooltip text rectangle so t
 1.  Define the label text rectangle.
 2.  Position the tooltip window so that the tooltip text rectangle overlays the label text rectangle.
 
-### 
 
 In practice, it is usually sufficient to align the upper-left corner of the two text rectangles. Attempting to resize the tooltip text rectangle to exactly match the label text rectangle could cause problems with the tooltip display.
 
@@ -52,7 +50,7 @@ The problem with this simple scheme is that you cannot position the tooltip text
 
 ### Implement In-Place Tooltips
 
-The following code fragment illustrates how to use a [**TTM\_ADJUSTRECT**](ttm-adjustrect.md) message in a [TTN\_SHOW](ttn-show.md) handler to display an in-place tooltip. Your application indicates that the label text is truncated by setting the private *fMyStringIsTruncated* variable to **TRUE**. The handler calls an application-defined function, **GetMyItemRect**, to retrieve the label text rectangle. This rectangle is passed to the tooltip control with **TTM\_ADJUSTRECT**, which returns the corresponding window rectangle. [**SetWindowPos**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos) is then called to position the tooltip over the label.
+The following code fragment illustrates how to use a [**TTM\_ADJUSTRECT**](ttm-adjustrect.md) message in a [TTN\_SHOW](ttn-show.md) handler to display an in-place tooltip. Your application indicates that the label text is truncated by setting the private *fMyStringIsTruncated* variable to **TRUE**. The handler calls an application-defined function, **GetMyItemRect**, to retrieve the label text rectangle. This rectangle is passed to the tooltip control with **TTM\_ADJUSTRECT**, which returns the corresponding window rectangle. [**SetWindowPos**](/windows/desktop/api/winuser/nf-winuser-setwindowpos) is then called to position the tooltip over the label.
 
 
 ```C++
@@ -73,7 +71,7 @@ case TTN_SHOW:
 
 
 
-This example does not change the size of the tooltip, just its position. The two text rectangles are aligned at their upper-left corners, but not necessarily with the same dimensions. In practice, the difference is usually small, and this approach is recommended for most purposes. While you can, in principle, use [**SetWindowPos**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos) to resize as well as reposition the tooltip, doing so might have unpredictable consequences.
+This example does not change the size of the tooltip, just its position. The two text rectangles are aligned at their upper-left corners, but not necessarily with the same dimensions. In practice, the difference is usually small, and this approach is recommended for most purposes. While you can, in principle, use [**SetWindowPos**](/windows/desktop/api/winuser/nf-winuser-setwindowpos) to resize as well as reposition the tooltip, doing so might have unpredictable consequences.
 
 ## Remarks
 
@@ -89,7 +87,3 @@ Common controls [version 5.80](common-control-versions.md) simplifies the use of
  
 
  
-
-
-
-

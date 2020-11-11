@@ -48,7 +48,7 @@ This method does not return a value.
 
 ## C++
 
-See [**Log**](https://msdn.microsoft.com/library/Aa369274(v=VS.85).aspx) function.
+See [**Log**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-log) function.
 
 ## Requirements
 
@@ -65,7 +65,3 @@ See [**Log**](https://msdn.microsoft.com/library/Aa369274(v=VS.85).aspx) functio
  
 
  
-
-
-
-

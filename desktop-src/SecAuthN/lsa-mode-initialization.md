@@ -8,16 +8,16 @@ ms.date: 05/31/2018
 
 # LSA Mode Initialization
 
-When the computer system is started, the [*Local Security Authority*](https://msdn.microsoft.com/library/ms721592(v=VS.85).aspx) (LSA) automatically loads all registered [*security support provider*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx)/[*authentication package*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (SSP/AP) DLLs into its process space. The following illustrations show the initialization process.
+When the computer system is started, the [*Local Security Authority*](../secgloss/l-gly.md) (LSA) automatically loads all registered [*security support provider*](../secgloss/s-gly.md)/[*authentication package*](../secgloss/a-gly.md) (SSP/AP) DLLs into its process space. The following illustrations show the initialization process.
 
 > [!Note]  
-> "Kerberos" represents the Microsoft [*Kerberos*](https://msdn.microsoft.com/library/ms721590(v=VS.85).aspx) SSP/AP, and "My SSP/AP" represents a custom SSP/AP that contains two custom security packages.
+> "Kerberos" represents the Microsoft [*Kerberos*](../secgloss/k-gly.md) SSP/AP, and "My SSP/AP" represents a custom SSP/AP that contains two custom security packages.
 
  
 
 ![lsa mode initialization](images/lsamode1.png)
 
-At startup, the LSA calls the [**SpLsaModeInitialize**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-splsamodeinitializefn) function in each SSP/AP to obtain pointers to the functions implemented by each [*security package*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) in the DLL. The function pointers are passed to the LSA in an array of [**SECPKG\_FUNCTION\_TABLE**](/windows/desktop/api/Ntsecpkg/ns-ntsecpkg-secpkg_function_table) structures.
+At startup, the LSA calls the [**SpLsaModeInitialize**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-splsamodeinitializefn) function in each SSP/AP to obtain pointers to the functions implemented by each [*security package*](../secgloss/s-gly.md) in the DLL. The function pointers are passed to the LSA in an array of [**SECPKG\_FUNCTION\_TABLE**](/windows/desktop/api/Ntsecpkg/ns-ntsecpkg-secpkg_function_table) structures.
 
 ![the lsa calls splsamodeinitialize to get function pointers](images/lsamode2.png)
 
@@ -30,6 +30,3 @@ For information about registering an SSP/AP DLL, see [Registering SSP/AP DLLs](r
  
 
  
-
-
-

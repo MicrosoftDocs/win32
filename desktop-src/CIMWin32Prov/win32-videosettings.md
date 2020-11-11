@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_VideoSettings class
 
-The **Win32\_VideoSettings** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates a video controller and video settings that can be applied to it.
+The **Win32\_VideoSettings** association [WMI class](../wmisdk/retrieving-a-class.md) relates a video controller and video settings that can be applied to it.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_VideoController**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Element"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_VideoController")
+Qualifiers: [**Key**](../wmisdk/key-qualifier.md), [**Override**](../wmisdk/standard-qualifiers.md) ("Element"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_VideoController")
 </dt> </dl>
 
 A [**Win32\_VideoController**](win32-videocontroller.md) containing the properties of the video controller that a video setting can be used on.
@@ -72,7 +72,7 @@ Data type: **CIM\_VideoControllerResolution**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Setting"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("CIM\|CIM\_VideoControllerResolution")
+Qualifiers: [**Key**](../wmisdk/key-qualifier.md), [**Override**](../wmisdk/standard-qualifiers.md) ("Setting"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("CIM\|CIM\_VideoControllerResolution")
 </dt> </dl>
 
 A [**CIM\_VideoControllerResolution**](cim-videocontrollerresolution.md) containing settings that can be applied to the video controller.
@@ -110,7 +110,3 @@ The **Win32\_VideoSettings** class is derived from [**CIM\_VideoSetting**](cim-v
  
 
  
-
-
-
-

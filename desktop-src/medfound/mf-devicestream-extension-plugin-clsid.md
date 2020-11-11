@@ -24,7 +24,7 @@ To get this attribute, do the following:
 2.  Call [**IMFMediaSourceEx::GetStreamAttributes**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasourceex-getstreamattributes) to get an [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) pointer for the stream.
 3.  Call [**IMFAttributes::GetGUID**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getguid) to get the attribute.
 
-To create the plug-in, call [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx).
+To create the plug-in, call [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance).
 
 ## Requirements
 
@@ -48,7 +48,3 @@ To create the plug-in, call [**CoCreateInstance**](https://msdn.microsoft.com/li
  
 
  
-
-
-
-

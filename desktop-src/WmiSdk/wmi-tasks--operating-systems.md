@@ -18,7 +18,6 @@ WMI tasks for operating systems obtain information about the operating system, s
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
-## 
 
 The following procedure describes how to run a script.
 
@@ -52,7 +51,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...determine if a service pack has been installed on a computer?</td>
-<td>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-operatingsystem"><strong>Win32_OperatingSystem</strong></a> class and check the value of the <strong>ServicePackMajorVersion</strong> and <strong>ServicePackMinorVersion</strong> properties.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Use the <a href="/windows/desktop/CIMWin32Prov/win32-operatingsystem"><strong>Win32_OperatingSystem</strong></a> class and check the value of the <strong>ServicePackMajorVersion</strong> and <strong>ServicePackMinorVersion</strong> properties.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -94,7 +93,7 @@ Next</code></pre></td>
 </tr>
 <tr class="even">
 <td>...determine when the operating system was installed on a computer?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-operatingsystem"><strong>Win32_OperatingSystem</strong></a> class and the <strong>InstallDate</strong> property.</p>
+<td><p>Use the <a href="/windows/desktop/CIMWin32Prov/win32-operatingsystem"><strong>Win32_OperatingSystem</strong></a> class and the <strong>InstallDate</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -138,7 +137,7 @@ Next</code></pre></td>
 </tr>
 <tr class="odd">
 <td>...determine which version of the Windows operating system is installed on a computer?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-operatingsystem"><strong>Win32_OperatingSystem</strong></a> class, and retrieve both the <strong>Name</strong> and <strong>Version</strong> properties.</p>
+<td><p>Use the <a href="/windows/desktop/CIMWin32Prov/win32-operatingsystem"><strong>Win32_OperatingSystem</strong></a> class, and retrieve both the <strong>Name</strong> and <strong>Version</strong> properties.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -182,7 +181,7 @@ Next</code></pre></td>
 </tr>
 <tr class="even">
 <td>...determine which folder is the Windows folder (%Windir%) on a computer?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-operatingsystem"><strong>Win32_OperatingSystem</strong></a> class, and check the value of the <strong>WindowsDirectory</strong> property.</p>
+<td><p>Use the <a href="/windows/desktop/CIMWin32Prov/win32-operatingsystem"><strong>Win32_OperatingSystem</strong></a> class, and check the value of the <strong>WindowsDirectory</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -226,7 +225,7 @@ Next</code></pre></td>
 </tr>
 <tr class="odd">
 <td>...determine what hotfixes have been installed on a computer?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-quickfixengineering"><strong>Win32_QuickFixEngineering</strong></a> class.</p>
+<td><p>Use the <a href="/windows/desktop/CIMWin32Prov/win32-quickfixengineering"><strong>Win32_QuickFixEngineering</strong></a> class.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -271,7 +270,7 @@ Next</code></pre></td>
 </tr>
 <tr class="even">
 <td>...determine if I need to activate the operating system on a computer?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa394520(v=vs.85)"><strong>Win32_WindowsProductActivation</strong></a> class and check the value of the <strong>ActivationRequired</strong> property.</p>
+<td><p>Use the <a href="/previous-versions/windows/desktop/legacy/aa394520(v=vs.85)"><strong>Win32_WindowsProductActivation</strong></a> class and check the value of the <strong>ActivationRequired</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -337,9 +336,4 @@ Next</code></pre></td>
 </dt> </dl>
 
  
-
- 
-
-
-
 

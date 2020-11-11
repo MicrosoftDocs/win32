@@ -18,7 +18,6 @@ WMI tasks for the registry create and modify registry keys and values. For other
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
-## 
 
 The following procedure describes how to run a script.
 
@@ -52,7 +51,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...read registry key values using WMI?</td>
-<td>Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/stdregprov"><strong>StdRegProv</strong></a> class, located in root\default namespace. You cannot get any instances of this class because the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/system-registry-provider">System Registry Provider</a> is a method and event provider only. However, you can get registry data through methods such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/enumkey-method-in-class-stdregprov"><strong>EnumKey</strong></a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/enumvalues-method-in-class-stdregprov"><strong>EnumValue</strong></a>. The <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-registry"><strong>Win32_Registry</strong></a>, located in root\cimv2 namespace, gets data about the registry as a whole, such as how large it is.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Use the <a href="/previous-versions/windows/desktop/regprov/stdregprov"><strong>StdRegProv</strong></a> class, located in root\default namespace. You cannot get any instances of this class because the <a href="/previous-versions/windows/desktop/regprov/system-registry-provider">System Registry Provider</a> is a method and event provider only. However, you can get registry data through methods such as <a href="/previous-versions/windows/desktop/regprov/enumkey-method-in-class-stdregprov"><strong>EnumKey</strong></a> or <a href="/previous-versions/windows/desktop/regprov/enumvalues-method-in-class-stdregprov"><strong>EnumValue</strong></a>. The <a href="/windows/desktop/CIMWin32Prov/win32-registry"><strong>Win32_Registry</strong></a>, located in root\cimv2 namespace, gets data about the registry as a whole, such as how large it is.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -100,7 +99,7 @@ $results = $reg.GetDWORDValue($HKEY_CURRENT_USER, $Key, $value)
 </tr>
 <tr class="even">
 <td>...create a new registry key?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/stdregprov"><strong>StdRegProv</strong></a> class, located in root\default namespace, and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/createkey-method-in-class-stdregprov"><strong>CreateKey</strong></a> method.</p>
+<td><p>Use the <a href="/previous-versions/windows/desktop/regprov/stdregprov"><strong>StdRegProv</strong></a> class, located in root\default namespace, and the <a href="/previous-versions/windows/desktop/regprov/createkey-method-in-class-stdregprov"><strong>CreateKey</strong></a> method.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -150,7 +149,7 @@ If ($results.Returnvalue -eq 0) {&quot;Key created&quot;} </code></pre></td>
 </tr>
 <tr class="odd">
 <td>...create a new registry value under a key?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/stdregprov"><strong>StdRegProv</strong></a> class, located in the root\default namespace, and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/createkey-method-in-class-stdregprov"><strong>CreateKey</strong></a> method. Then use one of the Set methods, depending on what registry datatype the value is, such as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/setdwordvalue-method-in-class-stdregprov"><strong>SetDWORDValue</strong></a>. The Set methods create a value if it does not already exist. For more information, see <a href="mapping-a-registry-data-type-to-a-wmi-data-type.md">Mapping a Registry Data Type to a WMI Data Type</a>.</p>
+<td><p>Use the <a href="/previous-versions/windows/desktop/regprov/stdregprov"><strong>StdRegProv</strong></a> class, located in the root\default namespace, and the <a href="/previous-versions/windows/desktop/regprov/createkey-method-in-class-stdregprov"><strong>CreateKey</strong></a> method. Then use one of the Set methods, depending on what registry datatype the value is, such as the <a href="/previous-versions/windows/desktop/regprov/setdwordvalue-method-in-class-stdregprov"><strong>SetDWORDValue</strong></a>. The Set methods create a value if it does not already exist. For more information, see <a href="mapping-a-registry-data-type-to-a-wmi-data-type.md">Mapping a Registry Data Type to a WMI Data Type</a>.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -203,7 +202,7 @@ If ($results.Returnvalue -eq 0) {&quot;Value created&quot;}</code></pre></td>
 </tr>
 <tr class="even">
 <td>...avoid getting an Invalid Class error when trying to write a script to read the registry?</td>
-<td><p>Use the root\default namespace when accessing the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/stdregprov"><strong>StdRegProv</strong></a> class. <strong>StdRegProv</strong> is not part of the cimv2 namespace, which is why an &quot;Invalid Class&quot; error is generated if you try to connect to &quot;root\cimv2:StdRegProv&quot;.</p>
+<td><p>Use the root\default namespace when accessing the <a href="/previous-versions/windows/desktop/regprov/stdregprov"><strong>StdRegProv</strong></a> class. <strong>StdRegProv</strong> is not part of the cimv2 namespace, which is why an &quot;Invalid Class&quot; error is generated if you try to connect to &quot;root\cimv2:StdRegProv&quot;.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -232,11 +231,11 @@ Wscript.Echo &quot;Current History Buffer Size: &quot; & dwValue</code></pre></t
 </tr>
 <tr class="odd">
 <td>...check security on a specific registry key?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/stdregprov"><strong>StdRegProv</strong></a> class, located in root\default namespace and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/checkaccess-method-in-class-stdregprov"><strong>CheckAccess</strong></a> method. You can only check the access rights for the current user that is running the script or application. You cannot check the access rights for another specified user.</p></td>
+<td><p>Use the <a href="/previous-versions/windows/desktop/regprov/stdregprov"><strong>StdRegProv</strong></a> class, located in root\default namespace and the <a href="/previous-versions/windows/desktop/regprov/checkaccess-method-in-class-stdregprov"><strong>CheckAccess</strong></a> method. You can only check the access rights for the current user that is running the script or application. You cannot check the access rights for another specified user.</p></td>
 </tr>
 <tr class="even">
 <td>...read and write binary registry values?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/stdregprov"><strong>StdRegProv</strong></a> class, located in &quot;Root\Default&quot; namespace and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/getbinaryvalue-method-in-class-stdregprov"><strong>GetBinaryValue</strong></a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/setbinaryvalue-method-in-class-stdregprov"><strong>SetBinaryValue</strong></a> methods. Registry values that appear in the RegEdt32 utility as a series of byte hexadecimal values are in the <strong>REG_BINARY</strong> data format. For more information, see <a href="mapping-a-registry-data-type-to-a-wmi-data-type.md">Mapping a Registry Data Type to a WMI Data Type</a>. The following VBScript code example creates a new key with a binary value. The binary value is supplied in the <em>iValues</em> byte array specified in Hex.</p>
+<td><p>Use the <a href="/previous-versions/windows/desktop/regprov/stdregprov"><strong>StdRegProv</strong></a> class, located in &quot;Root\Default&quot; namespace and the <a href="/previous-versions/windows/desktop/regprov/getbinaryvalue-method-in-class-stdregprov"><strong>GetBinaryValue</strong></a> and <a href="/previous-versions/windows/desktop/regprov/setbinaryvalue-method-in-class-stdregprov"><strong>SetBinaryValue</strong></a> methods. Registry values that appear in the RegEdt32 utility as a series of byte hexadecimal values are in the <strong>REG_BINARY</strong> data format. For more information, see <a href="mapping-a-registry-data-type-to-a-wmi-data-type.md">Mapping a Registry Data Type to a WMI Data Type</a>. The following VBScript code example creates a new key with a binary value. The binary value is supplied in the <em>iValues</em> byte array specified in Hex.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -320,7 +319,7 @@ Foreach ($byte in $results.uvalue) {&quot;{0}&quot; -f $byte.tostring(&quot;x&qu
 </tr>
 <tr class="odd">
 <td>...read and write registry values that contain multiple strings?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/stdregprov"><strong>StdRegProv</strong></a> class, located in root\default namespace and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/getmultistringvalue-method-in-class-stdregprov"><strong>GetMultiStringValue</strong></a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/setmultistringvalue-method-in-class-stdregprov"><strong>SetMultiStringValue</strong></a> methods. Registry keys that appear in the RegEdt32 utility as a series of strings separated by spaces are in the <strong>REG_MULTI_SZ</strong> data format. For more information, see <a href="mapping-a-registry-data-type-to-a-wmi-data-type.md">Mapping a Registry Data Type to a WMI Data Type</a>. The following VBScript code example creates a new key and a new multistring value.</p>
+<td><p>Use the <a href="/previous-versions/windows/desktop/regprov/stdregprov"><strong>StdRegProv</strong></a> class, located in root\default namespace and the <a href="/previous-versions/windows/desktop/regprov/getmultistringvalue-method-in-class-stdregprov"><strong>GetMultiStringValue</strong></a> and <a href="/previous-versions/windows/desktop/regprov/setmultistringvalue-method-in-class-stdregprov"><strong>SetMultiStringValue</strong></a> methods. Registry keys that appear in the RegEdt32 utility as a series of strings separated by spaces are in the <strong>REG_MULTI_SZ</strong> data format. For more information, see <a href="mapping-a-registry-data-type-to-a-wmi-data-type.md">Mapping a Registry Data Type to a WMI Data Type</a>. The following VBScript code example creates a new key and a new multistring value.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -426,7 +425,7 @@ $results.svalue</code></pre></td>
 </tr>
 <tr class="even">
 <td>...remove a registry key?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/stdregprov"><strong>StdRegProv</strong></a> class, located in root\default namespace and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/deletevalue-method-in-class-stdregprov"><strong>DeleteKey</strong></a> methods.</p>
+<td><p>Use the <a href="/previous-versions/windows/desktop/regprov/stdregprov"><strong>StdRegProv</strong></a> class, located in root\default namespace and the <a href="/previous-versions/windows/desktop/regprov/deletevalue-method-in-class-stdregprov"><strong>DeleteKey</strong></a> methods.</p>
 <div class="code">
 <span data-codelanguage="PowerShell"></span>
 <table>
@@ -475,13 +474,5 @@ If ($results.Returnvalue -eq 0) {&quot;Key Removed&quot;} </code></pre></td>
 [Modifying the System Registry](modifying-the-system-registry.md)
 </dt> <dt>
 
-[**StdRegProv**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/stdregprov)
+[**StdRegProv**](/previous-versions/windows/desktop/regprov/stdregprov)
 </dt> </dl>
-
- 
-
- 
-
-
-
-

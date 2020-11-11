@@ -48,7 +48,7 @@ Unique identifier. See [Handles (Direct3D 9)](handles.md).
 *f* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Floating point value.
 
@@ -84,7 +84,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

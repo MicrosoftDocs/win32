@@ -6,13 +6,13 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Creating a Socket for the Client
+# Creating a socket for the client
 
 After initialization, a **SOCKET** object must be instantiated for use by the client.
 
 **To create a socket**
 
-1.  Declare an [**addrinfo**](https://msdn.microsoft.com/library/ms737530(v=VS.85).aspx) object that contains a [**sockaddr**](sockaddr-2.md) structure and initialize these values. For this application, the Internet address family is unspecified so that either an IPv6 or IPv4 address can be returned. The application requests the socket type to be a stream socket for the TCP protocol.
+1.  Declare an [**addrinfo**](/windows/win32/api/ws2def/ns-ws2def-addrinfoa) object that contains a [**sockaddr**](sockaddr-2.md) structure and initialize these values. For this application, the Internet address family is unspecified so that either an IPv6 or IPv4 address can be returned. The application requests the socket type to be a stream socket for the TCP protocol.
     ```C++
     struct addrinfo *result = NULL,
                     *ptr = NULL,
@@ -82,8 +82,8 @@ Error detection is a key part of successful networking code. If the [**socket**]
 
 > [!Note]  
 > More extensive error checking may be necessary depending on the application.
-
- 
+>
+> For example, setting *hints.ai_family* to **AF_UNSPEC** can cause the connect call to fail. If that happens, then use a specific IPv4 (**AF_INET**) or IPv6 (**AF_INET6**) value instead.
 
 [**WSACleanup**](/windows/desktop/api/winsock/nf-winsock-wsacleanup) is used to terminate the use of the WS2\_32 DLL.
 
@@ -105,6 +105,3 @@ Next Step: [Connecting to a Socket](connecting-to-a-socket.md)
  
 
  
-
-
-

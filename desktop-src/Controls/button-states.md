@@ -21,7 +21,7 @@ The section consists of the following topics:
 
 ## Button Selection
 
-The user can select a button in three ways: by clicking it with the mouse, by tabbing to it and then pressing the ENTER key, or (if the button is part of a group defined by the [**WS\_GROUP**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) style) by tabbing to the selected button in the group and using the arrow keys to move within that group. The two tabbing methods are part of the predefined keyboard interface provided by the system. For a complete description of this interface, see [Dialog Boxes](https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes).
+The user can select a button in three ways: by clicking it with the mouse, by tabbing to it and then pressing the ENTER key, or (if the button is part of a group defined by the [**WS\_GROUP**](/windows/desktop/winmsg/window-styles) style) by tabbing to the selected button in the group and using the arrow keys to move within that group. The two tabbing methods are part of the predefined keyboard interface provided by the system. For a complete description of this interface, see [Dialog Boxes](/windows/desktop/dlgbox/dialog-boxes).
 
 Selecting a button typically causes the following events:
 
@@ -65,7 +65,3 @@ An application can determine a button's state by sending it a [**BM\_GETCHECK**]
  
 
  
-
-
-
-

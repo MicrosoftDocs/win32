@@ -12,7 +12,6 @@ A Direct3D device allocates and destroys objects, renders primitives, and commun
 
 Objects created from one device cannot be used directly with other devices. Use a shared resource to share data between multiple devices, with the constraint that a shared object can be used only by the device that created it.
 
-## 
 
 ## In this section
 

@@ -49,7 +49,7 @@ Pointer to the array of 16-bit floats.
 *pIn* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of 32-bit floats.
 
@@ -58,7 +58,7 @@ Pointer to an array of 32-bit floats.
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The number of elements in the array.
 
@@ -91,7 +91,3 @@ Pointer to an array of 16-bit floats.
  
 
  
-
-
-
-

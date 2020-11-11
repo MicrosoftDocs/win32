@@ -14,23 +14,23 @@ The following functions are supported for Windows Store apps on Windows 8.1, Wi
 
 -   [**\_\_WSAFDIsSet**](/windows/win32/api/winsock/nf-winsock-__wsafdisset)
 -   [**accept**](/windows/desktop/api/Winsock2/nf-winsock2-accept)
--   [**AcceptEx**](https://msdn.microsoft.com/library/ms737524(v=VS.85).aspx)
+-   [**AcceptEx**](/windows/win32/api/mswsock/nf-mswsock-acceptex)
 -   [**bind**](/windows/desktop/api/winsock/nf-winsock-bind)
 -   [**closesocket**](/windows/desktop/api/winsock/nf-winsock-closesocket)
 -   [**connect**](/windows/desktop/api/Winsock2/nf-winsock2-connect)
 -   [**ConnectEx**](/windows/desktop/api/Mswsock/nc-mswsock-lpfn_connectex)
--   [**DisconnectEx**](https://msdn.microsoft.com/library/ms737757(v=VS.85).aspx)
+-   [**DisconnectEx**](/previous-versions/windows/desktop/legacy/ms737757(v=vs.85))
 -   [**freeaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-freeaddrinfo)
 -   [**FreeAddrInfoExW**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-freeaddrinfoex)
 -   [**freeaddrinfoW**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-freeaddrinfo)
--   [**GetAcceptExSockaddrs**](https://msdn.microsoft.com/library/ms738516(v=VS.85).aspx)
+-   [**GetAcceptExSockaddrs**](/windows/win32/api/mswsock/nf-mswsock-getacceptexsockaddrs)
 -   [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo)
 -   [**GetAddrInfoExCancel**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexcancel)
 -   [**GetAddrInfoExOverlappedResult**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexoverlappedresult)
 -   [**GetAddrInfoExW**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexa)
 -   [**GetAddrInfoW**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfow)
--   [**gethostbyaddr**](https://msdn.microsoft.com/library/ms738521(v=VS.85).aspx)
--   [**gethostbyname**](https://msdn.microsoft.com/library/ms738524(v=VS.85).aspx)
+-   [**gethostbyaddr**](/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr)
+-   [**gethostbyname**](/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyname)
 -   [**gethostname**](/windows/desktop/api/winsock/nf-winsock-gethostname)
 -   [**GetHostNameW**](/windows/desktop/api/Winsock2/nf-winsock2-gethostnamew)
 -   [**getipv4sourcefilter**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getipv4sourcefilter)
@@ -49,8 +49,8 @@ The following functions are supported for Windows Store apps on Windows 8.1, Wi
 -   [**htonl**](/windows/desktop/api/winsock/nf-winsock-htonl)
 -   [**htonll**](/windows/desktop/api/Winsock2/nf-winsock2-htonll)
 -   [**htons**](/windows/desktop/api/winsock/nf-winsock-htons)
--   [**inet\_addr**](https://msdn.microsoft.com/library/ms738563(v=VS.85).aspx)
--   [**inet\_ntoa**](https://msdn.microsoft.com/library/ms738564(v=VS.85).aspx)
+-   [**inet\_addr**](/windows/win32/api/winsock2/nf-winsock2-inet_addr)
+-   [**inet\_ntoa**](/windows/win32/api/winsock2/nf-winsock2-inet_ntoa)
 -   [**inet\_ntop**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-inetntopw)
 -   [**inet\_pton**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-inetptonw)
 -   [**InetNtopW**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-inetntopw)
@@ -64,7 +64,7 @@ The following functions are supported for Windows Store apps on Windows 8.1, Wi
 -   [**ntohs**](/windows/desktop/api/winsock/nf-winsock-ntohs)
 -   [**recv**](/windows/desktop/api/winsock/nf-winsock-recv)
 -   [**recvfrom**](/windows/desktop/api/winsock/nf-winsock-recvfrom)
--   [**RIOCloseCompletionQueue**](https://msdn.microsoft.com/library/Hh448837(v=VS.85).aspx)
+-   [**RIOCloseCompletionQueue**](/previous-versions/windows/desktop/legacy/hh448837(v=vs.85))
 -   [**RIOCreateCompletionQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion)
 -   [**RIOCreateRequestQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riocreaterequestqueue)
 -   [**RIODequeueCompletion**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion)
@@ -72,11 +72,11 @@ The following functions are supported for Windows Store apps on Windows 8.1, Wi
 -   [**RIONotify**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify)
 -   [**RIOReceive**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceive)
 -   [**RIOReceiveEx**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceiveex)
--   [**RIORegisterBuffer**](https://msdn.microsoft.com/library/Hh437199(v=VS.85).aspx)
--   [**RIOResizeCompletionQueue**](https://msdn.microsoft.com/library/Hh437202(v=VS.85).aspx)
--   [**RIOResizeRequestQueue**](https://msdn.microsoft.com/library/Hh437204(v=VS.85).aspx)
+-   [**RIORegisterBuffer**](/previous-versions/windows/desktop/legacy/hh437199(v=vs.85))
+-   [**RIOResizeCompletionQueue**](/previous-versions/windows/desktop/legacy/hh437202(v=vs.85))
+-   [**RIOResizeRequestQueue**](/previous-versions/windows/desktop/legacy/hh437204(v=vs.85))
 -   [**RIOSend**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riosend)
--   [**RIOSendEx**](https://msdn.microsoft.com/library/Hh437216(v=VS.85).aspx)
+-   [**RIOSendEx**](/previous-versions/windows/desktop/legacy/hh437216(v=vs.85))
 -   [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select)
 -   [**send**](/windows/desktop/api/Winsock2/nf-winsock2-send)
 -   [**sendto**](/windows/desktop/api/winsock/nf-winsock-sendto)
@@ -86,7 +86,7 @@ The following functions are supported for Windows Store apps on Windows 8.1, Wi
 -   [**setsourcefilter**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-setsourcefilter)
 -   [**shutdown**](/windows/desktop/api/winsock/nf-winsock-shutdown)
 -   [**socket**](/windows/desktop/api/Winsock2/nf-winsock2-socket)
--   [**TransmitFile**](https://msdn.microsoft.com/library/ms740565(v=VS.85).aspx)
+-   [**TransmitFile**](/windows/win32/api/mswsock/nf-mswsock-transmitfile)
 -   [**TransmitPackets**](/windows/desktop/api/Mswsock/nc-mswsock-lpfn_transmitpackets)
 -   [**WSAAccept**](/windows/desktop/api/Winsock2/nf-winsock2-wsaaccept)
 -   [**WSAAddressToStringW**](/windows/desktop/api/Winsock2/nf-winsock2-wsaaddresstostringa)
@@ -114,11 +114,11 @@ The following functions are supported for Windows Store apps on Windows 8.1, Wi
 -   [**WSANSPIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsanspioctl)
 -   [**WSANtohl**](/windows/desktop/api/Winsock2/nf-winsock2-wsantohl)
 -   [**WSANtohs**](/windows/desktop/api/Winsock2/nf-winsock2-wsantohs)
--   [**WSAPoll**](https://msdn.microsoft.com/library/ms741669(v=VS.85).aspx)
+-   [**WSAPoll**](/windows/win32/api/winsock2/nf-winsock2-wsapoll)
 -   [**WSAProviderConfigChange**](/windows/desktop/api/Winsock2/nf-winsock2-wsaproviderconfigchange)
 -   [**WSARecv**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv)
 -   [**WSARecvFrom**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecvfrom)
--   [**WSARecvMsg**](https://msdn.microsoft.com/library/ms741687(v=VS.85).aspx)
+-   [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg)
 -   [**WSAResetEvent**](/windows/desktop/api/Winsock2/nf-winsock2-wsaresetevent)
 -   [**WSASend**](/windows/desktop/api/Winsock2/nf-winsock2-wsasend)
 -   [**WSASendMsg**](/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg)
@@ -136,16 +136,16 @@ The following functions are supported for Windows Store apps on Windows 8.1, Wi
 The following functions are supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 -   [**\_\_WSAFDIsSet**](/windows/win32/api/winsock/nf-winsock-__wsafdisset)
--   [**AcceptEx**](https://msdn.microsoft.com/library/ms737524(v=VS.85).aspx)
+-   [**AcceptEx**](/windows/win32/api/mswsock/nf-mswsock-acceptex)
 -   [**bind**](/windows/desktop/api/winsock/nf-winsock-bind)
 -   [**closesocket**](/windows/desktop/api/winsock/nf-winsock-closesocket)
 -   [**connect**](/windows/desktop/api/Winsock2/nf-winsock2-connect)
 -   [**ConnectEx**](/windows/desktop/api/Mswsock/nc-mswsock-lpfn_connectex)
--   [**DisconnectEx**](https://msdn.microsoft.com/library/ms737757(v=VS.85).aspx)
+-   [**DisconnectEx**](/previous-versions/windows/desktop/legacy/ms737757(v=vs.85))
 -   [**freeaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-freeaddrinfo)
 -   [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo)
--   [**gethostbyaddr**](https://msdn.microsoft.com/library/ms738521(v=VS.85).aspx)
--   [**gethostbyname**](https://msdn.microsoft.com/library/ms738524(v=VS.85).aspx)
+-   [**gethostbyaddr**](/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr)
+-   [**gethostbyname**](/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyname)
 -   [**gethostname**](/windows/desktop/api/winsock/nf-winsock-gethostname)
 -   [**GetHostNameW**](/windows/desktop/api/Winsock2/nf-winsock2-gethostnamew)
 -   [**getipv4sourcefilter**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getipv4sourcefilter)
@@ -162,8 +162,8 @@ The following functions are supported for Windows Phone Store apps on Windows P
 -   [**htond**](/windows/desktop/api/Winsock2/nf-winsock2-htond)
 -   [**htonf**](/windows/desktop/api/Winsock2/nf-winsock2-htonf)
 -   [**htonll**](/windows/desktop/api/Winsock2/nf-winsock2-htonll)
--   [**inet\_addr**](https://msdn.microsoft.com/library/ms738563(v=VS.85).aspx)
--   [**inet\_ntoa**](https://msdn.microsoft.com/library/ms738564(v=VS.85).aspx)
+-   [**inet\_addr**](/windows/win32/api/winsock2/nf-winsock2-inet_addr)
+-   [**inet\_ntoa**](/windows/win32/api/winsock2/nf-winsock2-inet_ntoa)
 -   [**ioctlsocket**](/windows/desktop/api/winsock/nf-winsock-ioctlsocket)
 -   [**listen**](/windows/desktop/api/Winsock2/nf-winsock2-listen)
 -   [**ntohd**](/windows/desktop/api/Winsock2/nf-winsock2-ntohd)
@@ -171,7 +171,7 @@ The following functions are supported for Windows Phone Store apps on Windows P
 -   [**ntohll**](/windows/desktop/api/Winsock2/nf-winsock2-ntohll)
 -   [**recv**](/windows/desktop/api/winsock/nf-winsock-recv)
 -   [**recvfrom**](/windows/desktop/api/winsock/nf-winsock-recvfrom)
--   [**RIOCloseCompletionQueue**](https://msdn.microsoft.com/library/Hh448837(v=VS.85).aspx)
+-   [**RIOCloseCompletionQueue**](/previous-versions/windows/desktop/legacy/hh448837(v=vs.85))
 -   [**RIOCreateCompletionQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion)
 -   [**RIOCreateRequestQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riocreaterequestqueue)
 -   [**RIODequeueCompletion**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion)
@@ -179,11 +179,11 @@ The following functions are supported for Windows Phone Store apps on Windows P
 -   [**RIONotify**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify)
 -   [**RIOReceive**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceive)
 -   [**RIOReceiveEx**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceiveex)
--   [**RIORegisterBuffer**](https://msdn.microsoft.com/library/Hh437199(v=VS.85).aspx)
--   [**RIOResizeCompletionQueue**](https://msdn.microsoft.com/library/Hh437202(v=VS.85).aspx)
--   [**RIOResizeRequestQueue**](https://msdn.microsoft.com/library/Hh437204(v=VS.85).aspx)
+-   [**RIORegisterBuffer**](/previous-versions/windows/desktop/legacy/hh437199(v=vs.85))
+-   [**RIOResizeCompletionQueue**](/previous-versions/windows/desktop/legacy/hh437202(v=vs.85))
+-   [**RIOResizeRequestQueue**](/previous-versions/windows/desktop/legacy/hh437204(v=vs.85))
 -   [**RIOSend**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riosend)
--   [**RIOSendEx**](https://msdn.microsoft.com/library/Hh437216(v=VS.85).aspx)
+-   [**RIOSendEx**](/previous-versions/windows/desktop/legacy/hh437216(v=vs.85))
 -   [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select)
 -   [**send**](/windows/desktop/api/Winsock2/nf-winsock2-send)
 -   [**sendto**](/windows/desktop/api/winsock/nf-winsock-sendto)
@@ -219,7 +219,7 @@ The following functions are supported for Windows Phone Store apps on Windows P
 -   [**WSANtohs**](/windows/desktop/api/Winsock2/nf-winsock2-wsantohs)
 -   [**WSARecv**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv)
 -   [**WSARecvFrom**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecvfrom)
--   [**WSARecvMsg**](https://msdn.microsoft.com/library/ms741687(v=VS.85).aspx)
+-   [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg)
 -   [**WSAResetEvent**](/windows/desktop/api/Winsock2/nf-winsock2-wsaresetevent)
 -   [**WSASend**](/windows/desktop/api/Winsock2/nf-winsock2-wsasend)
 -   [**WSASendTo**](/windows/desktop/api/Winsock2/nf-winsock2-wsasendto)
@@ -239,7 +239,7 @@ A set of high-speed networking extensions are available for increased networking
 
 The following are new Windows Sockets functions added to support Winsock high-speed networking Registered I/O extensions:
 
--   [**RIOCloseCompletionQueue**](https://msdn.microsoft.com/library/Hh448837(v=VS.85).aspx)
+-   [**RIOCloseCompletionQueue**](/previous-versions/windows/desktop/legacy/hh448837(v=vs.85))
 -   [**RIOCreateCompletionQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion)
 -   [**RIOCreateRequestQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riocreaterequestqueue)
 -   [**RIODequeueCompletion**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion)
@@ -247,11 +247,11 @@ The following are new Windows Sockets functions added to support Winsock high-sp
 -   [**RIONotify**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify)
 -   [**RIOReceive**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceive)
 -   [**RIOReceiveEx**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceiveex)
--   [**RIORegisterBuffer**](https://msdn.microsoft.com/library/Hh437199(v=VS.85).aspx)
--   [**RIOResizeCompletionQueue**](https://msdn.microsoft.com/library/Hh437202(v=VS.85).aspx)
--   [**RIOResizeRequestQueue**](https://msdn.microsoft.com/library/Hh437204(v=VS.85).aspx)
+-   [**RIORegisterBuffer**](/previous-versions/windows/desktop/legacy/hh437199(v=vs.85))
+-   [**RIOResizeCompletionQueue**](/previous-versions/windows/desktop/legacy/hh437202(v=vs.85))
+-   [**RIOResizeRequestQueue**](/previous-versions/windows/desktop/legacy/hh437204(v=vs.85))
 -   [**RIOSend**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riosend)
--   [**RIOSendEx**](https://msdn.microsoft.com/library/Hh437216(v=VS.85).aspx)
+-   [**RIOSendEx**](/previous-versions/windows/desktop/legacy/hh437216(v=vs.85))
 
 The following are new Windows Sockets enumerations, structures, and typedefs added to support Winsock high-speed networking Registered I/O extensions:
 
@@ -299,9 +299,9 @@ The following new Windows Sockets function has been added to retrieve the local 
 
 The following are new Windows Sockets Ioctls added to support the Windows Filtering Platform (WFP) redirect service:
 
--   [**SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_CONTEXT**](https://msdn.microsoft.com/library/Hh859712(v=VS.85).aspx)
--   [**SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_RECORDS**](https://msdn.microsoft.com/library/Hh859713(v=VS.85).aspx)
--   [**SIO\_SET\_WFP\_CONNECTION\_REDIRECT\_RECORDS**](https://msdn.microsoft.com/library/Hh859714(v=VS.85).aspx)
+-   [**SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_CONTEXT**](/previous-versions/windows/desktop/legacy/hh859712(v=vs.85))
+-   [**SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_RECORDS**](/previous-versions/windows/desktop/legacy/hh859713(v=vs.85))
+-   [**SIO\_SET\_WFP\_CONNECTION\_REDIRECT\_RECORDS**](/previous-versions/windows/desktop/legacy/hh859714(v=vs.85))
 
 The following are new Windows IP socket options added to support the Windows Filtering Platform (WFP) redirect service:
 
@@ -310,18 +310,18 @@ The following are new Windows IP socket options added to support the Windows Fil
 
 The following are a new Windows Sockets Ioctl and an associated structure added to control the initial (SYN / SYN+ACK) retransmission characteristics of a TCP socket:
 
--   [**SIO\_TCP\_INITIAL\_RTO**](https://msdn.microsoft.com/library/JJ710203(v=VS.85).aspx)
+-   [**SIO_TCP_INITIAL_RTO**](/windows/win32/winsock/sio-tcp-initial-rto)
 -   [**TCP\_INITIAL\_RTO\_PARAMETERS**](/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers)
 
 The following are a new Windows Sockets Ioctl and an associated structure added to retrieve the association between a socket and an RSS processor core and NUMA node:
 
--   [**SIO\_QUERY\_RSS\_PROCESSOR\_INFO**](https://msdn.microsoft.com/library/JJ553482(v=VS.85).aspx)
+-   [**SIO\_QUERY\_RSS\_PROCESSOR\_INFO**](/previous-versions/windows/desktop/legacy/jj553482(v=vs.85))
 -   [**SOCKET\_PROCESSOR\_AFFINITY**](/windows/desktop/api/Ws2def/ns-ws2def-socket_processor_affinity)
 
 The following new Windows Sockets Ioctls are added to apply and query transport settings on a socket:
 
--   [**SIO\_APPLY\_TRANSPORT\_SETTING**](https://msdn.microsoft.com/library/JJ553481(v=VS.85).aspx)
--   [**SIO\_QUERY\_TRANSPORT\_SETTING**](https://msdn.microsoft.com/library/JJ553483(v=VS.85).aspx)
+-   [**SIO\_APPLY\_TRANSPORT\_SETTING**](/previous-versions/windows/desktop/legacy/jj553481(v=vs.85))
+-   [**SIO\_QUERY\_TRANSPORT\_SETTING**](/previous-versions/windows/desktop/legacy/jj553483(v=vs.85))
 
 The only transport setting currently defines is for the **REAL\_TIME\_NOTIFICATION\_CAPABILITY** capability on a TCP socket. The following new structures and enumerations are added to support the **REAL\_TIME\_NOTIFICATION\_CAPABILITY**:
 
@@ -329,11 +329,11 @@ The only transport setting currently defines is for the **REAL\_TIME\_NOTIFICATI
 -   [**REAL\_TIME\_NOTIFICATION\_SETTING\_INPUT**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input)
 -   [**REAL\_TIME\_NOTIFICATION\_SETTING\_INPUT**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input)
 -   [**REAL\_TIME\_NOTIFICATION\_SETTING\_OUTPUT**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input)
--   [**TRANSPORT\_SETTING\_ID**](https://msdn.microsoft.com/library/JJ553485(v=VS.85).aspx)
+-   [**TRANSPORT\_SETTING\_ID**](/windows/win32/api/transportsettingcommon/ns-transportsettingcommon-transport_setting_id)
 
 The following new Windows Sockets Ioctl is added to enable a fast path for loopback on a TCP socket. This feature can lower latency and improve performance for applications that use TCP loopback (applications used by the financial service industry, for example).:
 
--   [**SIO\_LOOPBACK\_FAST\_PATH**](https://msdn.microsoft.com/library/JJ841212(v=VS.85).aspx)
+-   [**SIO\_LOOPBACK\_FAST\_PATH**](/previous-versions/windows/desktop/legacy/jj841212(v=vs.85))
 
 An enhancement to support transferring streaming media that require quality of service (Voice over IP, for example).
 
@@ -367,7 +367,7 @@ The following are new Windows Sockets options:
 -   [**IP\_ORIGINAL\_ARRIVAL\_IF**](ipproto-ip-socket-options.md)
 -   [**IP\_ORIGINAL\_ARRIVAL\_IF for IPv6**](ipproto-ipv6-socket-options.md)
 
-Dynamic send buffering for TCP was added on Windows 7 and Windows Server 2008 R2. As a result, the use of the **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** and **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTLs are needed only in special circumstances. For more information, see [**SIO\_IDEAL\_SEND\_BACKLOG\_QUERY**](https://msdn.microsoft.com/library/Bb736549(v=VS.85).aspx).
+Dynamic send buffering for TCP was added on Windows 7 and Windows Server 2008 R2. As a result, the use of the **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** and **SIO\_IDEAL\_SEND\_BACKLOG\_QUERY** IOCTLs are needed only in special circumstances. For more information, see [**SIO\_IDEAL\_SEND\_BACKLOG\_QUERY**](/previous-versions/windows/desktop/legacy/bb736549(v=vs.85)).
 
 ## Updated for Windows Server 2008 and Windows Vista with Service Pack 1 (SP1)
 
@@ -375,8 +375,8 @@ Microsoft Windows Server 2008 and Windows Vista with Service Pack 1 (SP1) int
 
 The following are new Windows Sockets Ioctls:
 
--   [**SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE**](https://msdn.microsoft.com/library/Bb736548(v=VS.85).aspx)
--   [**SIO\_IDEAL\_SEND\_BACKLOG\_QUERY**](https://msdn.microsoft.com/library/Bb736549(v=VS.85).aspx)
+-   [**SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE**](/previous-versions/windows/desktop/legacy/bb736548(v=vs.85))
+-   [**SIO\_IDEAL\_SEND\_BACKLOG\_QUERY**](/previous-versions/windows/desktop/legacy/bb736549(v=vs.85))
 
 These new Ioctls can be used by an application using TCP to determine the ideal value for the amount of data outstanding to send in order to achieve the best throughput for a connection. This is called the ideal send backlog (ISB) size.
 
@@ -406,7 +406,7 @@ The following are new Windows Sockets functions:
 -   [**WSADeleteSocketPeerTargetName**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsadeletesocketpeertargetname)
 -   [**WSAEnumNameSpaceProvidersEx**](/windows/desktop/api/Winsock2/nf-winsock2-wsaenumnamespaceprovidersexa)
 -   [**WSAImpersonateSocketPeer**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsaimpersonatesocketpeer)
--   [**WSAPoll**](https://msdn.microsoft.com/library/ms741669(v=VS.85).aspx)
+-   [**WSAPoll**](/windows/win32/api/winsock2/nf-winsock2-wsapoll)
 -   [**WSAQuerySocketSecurity**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity)
 -   [**WSARevertImpersonation**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsarevertimpersonation)
 -   [**WSASendMsg**](/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg)
@@ -416,7 +416,7 @@ The following are new Windows Sockets functions:
 The following are new Windows Sockets structures and enumerations:
 
 -   [**addrinfoex**](/windows/desktop/api/Ws2def/ns-ws2def-addrinfoexw)
--   [**BLOB**](https://msdn.microsoft.com/library/ms737551(v=VS.85).aspx)
+-   [**BLOB**](/windows/win32/api/wtypesbase/ns-wtypesbase-blob)
 -   [**GROUP\_FILTER**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-group_filter)
 -   [**GROUP\_REQ**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-group_req)
 -   [**GROUP\_SOURCE\_REQ**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-group_source_req)
@@ -465,10 +465,10 @@ Microsoft Windows Vista introduces new Windows Sockets programming elements.
 
 The following are new Windows Sockets Ioctls:
 
--   [**SIO\_ACQUIRE\_PORT\_RESERVATION**](https://msdn.microsoft.com/library/Gg699720(v=VS.85).aspx)
--   [**SIO\_ASSOCIATE\_PORT\_RESERVATION**](https://msdn.microsoft.com/library/Gg699721(v=VS.85).aspx)
--   [**SIO\_SET\_COMPATIBILITY\_MODE**](https://msdn.microsoft.com/library/Cc136103(v=VS.85).aspx)
--   [**SIO\_RELEASE\_PORT\_RESERVATION**](https://msdn.microsoft.com/library/Gg699722(v=VS.85).aspx)
+-   [**SIO\_ACQUIRE\_PORT\_RESERVATION**](/previous-versions/windows/desktop/legacy/gg699720(v=vs.85))
+-   [**SIO\_ASSOCIATE\_PORT\_RESERVATION**](/previous-versions/windows/desktop/legacy/gg699721(v=vs.85))
+-   [**SIO\_SET\_COMPATIBILITY\_MODE**](/previous-versions/windows/desktop/legacy/cc136103(v=vs.85))
+-   [**SIO\_RELEASE\_PORT\_RESERVATION**](/previous-versions/windows/desktop/legacy/gg699722(v=vs.85))
 
 The following are new Windows Sockets options:
 
@@ -498,26 +498,23 @@ Microsoft Windows Server 2003 introduces new Windows Sockets programming elemen
 The following are new Windows Sockets functions:
 
 -   [**ConnectEx**](/windows/desktop/api/Mswsock/nc-mswsock-lpfn_connectex)
--   [**DisconnectEx**](https://msdn.microsoft.com/library/ms737757(v=VS.85).aspx)
+-   [**DisconnectEx**](/previous-versions/windows/desktop/legacy/ms737757(v=vs.85))
 -   [**freeaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-freeaddrinfo)
 -   [**gai\_strerror**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-gai_strerrora)
 -   [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo)
 -   [**getnameinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getnameinfo)
 -   [**TransmitPackets**](/windows/desktop/api/Mswsock/nc-mswsock-lpfn_transmitpackets)
 -   [**WSANSPIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsanspioctl)
--   [**WSARecvMsg**](https://msdn.microsoft.com/library/ms741687(v=VS.85).aspx)
+-   [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg)
 
 The following are new Windows Sockets structure definitions:
 
--   [**addrinfo**](https://msdn.microsoft.com/library/ms737530(v=VS.85).aspx)
+-   [**addrinfo**](/windows/win32/api/ws2def/ns-ws2def-addrinfoa)
 -   [**in\_pktinfo**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-in_pktinfo)
--   [**SOCKADDR\_STORAGE**](https://msdn.microsoft.com/library/ms740504(v=VS.85).aspx)
+-   [**SOCKADDR\_STORAGE**](/previous-versions/windows/desktop/legacy/ms740504(v=vs.85))
 -   [**TRANSMIT\_PACKETS\_ELEMENT**](/windows/desktop/api/Mswsock/ns-mswsock-transmit_packets_element)
 -   [**WSAMSG**](/windows/desktop/api/Ws2def/ns-ws2def-wsamsg)
 
  
 
  
-
-
-

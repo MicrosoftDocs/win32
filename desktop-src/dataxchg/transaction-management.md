@@ -129,7 +129,7 @@ The asynchronous transaction method is provided for applications that must send 
 
 Synchronous transactions are simpler to maintain and are faster than asynchronous transactions. However, only one synchronous transaction can be performed at a time, whereas many asynchronous transactions can be performed simultaneously. With synchronous transactions, a slow server can cause a client to remain idle while it is waiting for a response. Also, synchronous transactions cause the client to enter a modal loop that could bypass message filtering in the application's own message loop.
 
-If the client has installed a hook procedure to filter messages (that is, specified the WH\_MSGFILTER hook type in a call to the [**SetWindowsHookEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa) function), a synchronous transaction will not cause the system to bypass the hook procedure. When an input event occurs while the client is waiting for a synchronous transaction to end, the hook procedure receives an MSGF\_DDEMGR hook code. The main danger of using a synchronous transaction modal loop is that a modal loop created by a dialog box can interfere with its operation. Asynchronous transactions should always be used when the DDEML is being used by a DLL.
+If the client has installed a hook procedure to filter messages (that is, specified the WH\_MSGFILTER hook type in a call to the [**SetWindowsHookEx**](/windows/desktop/api/winuser/nf-winuser-setwindowshookexa) function), a synchronous transaction will not cause the system to bypass the hook procedure. When an input event occurs while the client is waiting for a synchronous transaction to end, the hook procedure receives an MSGF\_DDEMGR hook code. The main danger of using a synchronous transaction modal loop is that a modal loop created by a dialog box can interfere with its operation. Asynchronous transactions should always be used when the DDEML is being used by a DLL.
 
 ## Transaction Control
 
@@ -194,10 +194,4 @@ Each DDE transaction type has a receiver and an associated activity that causes 
  
 
  
-
- 
-
-
-
-
 

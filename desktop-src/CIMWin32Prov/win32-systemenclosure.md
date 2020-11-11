@@ -56,7 +56,7 @@ api_location:
 
 # Win32\_SystemEnclosure class
 
-The **Win32\_SystemEnclosure** [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) represents the properties that are associated with a physical system enclosure.
+The **Win32\_SystemEnclosure** [WMI class](../wmisdk/retrieving-a-class.md) represents the properties that are associated with a physical system enclosure.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -157,7 +157,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_PhysicalFrame**](cim-physicalframe.md).**SecurityBreach**")
+Qualifiers: [**ModelCorrespondence**](../wmisdk/standard-qualifiers.md) ("[**CIM\_PhysicalFrame**](cim-physicalframe.md).**SecurityBreach**")
 </dt> </dl>
 
 Free-form string that provides more information if the **SecurityBreach** property indicates that a security-related event occurred.
@@ -190,7 +190,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Caption")
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (64), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Caption")
 </dt> </dl>
 
 Short description of the object—a one-line string.
@@ -208,7 +208,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Indexed"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Physical Container Global Table\|002.1"), [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Chassis**](cim-chassis.md).**TypeDescriptions**")
+Qualifiers: [**ArrayType**](../wmisdk/standard-qualifiers.md) ("Indexed"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("MIF.DMTF\|Physical Container Global Table\|002.1"), [**ModelCorrespondence**](../wmisdk/standard-qualifiers.md) ("[**CIM\_Chassis**](cim-chassis.md).**TypeDescriptions**")
 </dt> </dl>
 
 Array of chassis types.
@@ -384,6 +384,24 @@ This property is inherited from [**CIM\_Chassis**](cim-chassis.md).
 
 **Sealed-Case PC** (24)
 
+</dt> <dd></dd> <dt>
+
+<span id="Tablet"></span><span id="tablet"></span><span id="TABLET"></span>
+
+**Tablet** (30)
+
+</dt> <dd></dd> <dt>
+
+<span id="Convertible"></span><span id="Convertible"></span><span id="Convertible"></span>
+
+**Convertible** (31)
+
+</dt> <dd></dd> <dt>
+
+<span id="Detachable"></span><span id="Detachable "></span><span id="Detachable "></span>
+
+**Detachable** (32)
+
 
 </dt> <dd></dd> </dl>
 
@@ -398,7 +416,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (256)
+Qualifiers: [**CIM\_Key**](../wmisdk/standard-wmi-qualifiers.md), [**MaxLen**](../wmisdk/standard-qualifiers.md) (256)
 </dt> </dl>
 
 Name of the first concrete class that appears in the inheritance chain that is used in the creation of an instance. When used with the other key properties of the class, this property allows all instances of this class and its subclasses to be identified uniquely.
@@ -416,7 +434,7 @@ Data type: **sint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("amps at 120 volts")
+Qualifiers: [**Units**](../wmisdk/standard-qualifiers.md) ("amps at 120 volts")
 </dt> </dl>
 
 Current that is required by the chassis at 120V. If power is provided by the chassis—as in the case of an uninterruptible power supply (UPS)—this property may indicate the amperage produced (as a negative number).
@@ -434,7 +452,7 @@ Data type: **real32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("inches")
+Qualifiers: [**Units**](../wmisdk/standard-qualifiers.md) ("inches")
 </dt> </dl>
 
 Depth of the physical package—in inches.
@@ -452,7 +470,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Description")
+Qualifiers: [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Description")
 </dt> </dl>
 
 Description of the object.
@@ -470,7 +488,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("BTU per hour")
+Qualifiers: [**Units**](../wmisdk/standard-qualifiers.md) ("BTU per hour")
 </dt> </dl>
 
 Amount of heat that is generated by the chassis in BTU/hour.
@@ -488,7 +506,7 @@ Data type: **real32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("inches")
+Qualifiers: [**Units**](../wmisdk/standard-qualifiers.md) ("inches")
 </dt> </dl>
 
 Height of the physical package—in inches.
@@ -521,7 +539,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Install Date")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Install Date")
 </dt> </dl>
 
 Date and time the object was installed. This property does not require a value to indicate that the object is installed.
@@ -554,7 +572,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (256)
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (256)
 </dt> </dl>
 
 Name of the organization that produces the physical element.
@@ -574,7 +592,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64)
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (64)
 </dt> </dl>
 
 Name by which the physical element is known.
@@ -592,7 +610,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Name")
+Qualifiers: [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Name")
 </dt> </dl>
 
 Label by which the object is known. When subclassed, the property can be overridden to be a key property.
@@ -640,7 +658,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (256)
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (256)
 </dt> </dl>
 
 Part number that is assigned by the organization that produces or manufacturing the physical element.
@@ -703,7 +721,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Physical Container Global Table\|002.12"), [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_PhysicalFrame**](cim-physicalframe.md).**BreachDescription**")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("MIF.DMTF\|Physical Container Global Table\|002.12"), [**ModelCorrespondence**](../wmisdk/standard-qualifiers.md) ("[**CIM\_PhysicalFrame**](cim-physicalframe.md).**BreachDescription**")
 </dt> </dl>
 
 Status of a physical breach of the frame.
@@ -758,7 +776,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 3\|Security Status")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("SMBIOS\|Type 3\|Security Status")
 </dt> </dl>
 
 Security setting for external input, for example, a keyboard, to a computer.
@@ -813,7 +831,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64)
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (64)
 </dt> </dl>
 
 Manufacturer-allocated number used to identify the physical element.
@@ -833,7 +851,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Indexed"), [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_PhysicalFrame**](cim-physicalframe.md).**ServicePhilosophy**")
+Qualifiers: [**ArrayType**](../wmisdk/standard-qualifiers.md) ("Indexed"), [**ModelCorrespondence**](../wmisdk/standard-qualifiers.md) ("[**CIM\_PhysicalFrame**](cim-physicalframe.md).**ServicePhilosophy**")
 </dt> </dl>
 
 Array of more detailed explanations for any of the entries in the **ServicePhilosophy** array. Be aware that each entry of this array is related to the entry in **ServicePhilosophy** that is located at the same index.
@@ -851,7 +869,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Indexed"), [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_PhysicalFrame**](cim-physicalframe.md).**ServiceDescriptions**")
+Qualifiers: [**ArrayType**](../wmisdk/standard-qualifiers.md) ("Indexed"), [**ModelCorrespondence**](../wmisdk/standard-qualifiers.md) ("[**CIM\_PhysicalFrame**](cim-physicalframe.md).**ServiceDescriptions**")
 </dt> </dl>
 
 Array that includes whether the frame is serviced from the top, front, back, or side, whether the frame has sliding trays or removable sides, and whether the frame is moveable—for example, having rollers.
@@ -934,7 +952,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64)
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (64)
 </dt> </dl>
 
 Stock keeping unit number for the physical element.
@@ -952,7 +970,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 3\|Asset Tag")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("SMBIOS\|Type 3\|Asset Tag")
 </dt> </dl>
 
 Asset tag number of the system enclosure.
@@ -970,7 +988,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Status")
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (10), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Status")
 </dt> </dl>
 
 Current status of the object. Various operational and nonoperational statuses can be defined. Operational statuses include: "OK", "Degraded", and "Pred Fail" (an element, such as a SMART-enabled hard disk drive, may be functioning properly but predicting a failure in the near future). Nonoperational statuses include: "Error", "Starting", "Stopping", and "Service". The latter, "Service", could apply during mirror-resilvering of a disk, reload of a user permissions list, or other administrative work. Not all such work is online, yet the managed element is neither "OK" nor in one of the other states.
@@ -1076,7 +1094,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (256), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Tag"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI")
+Qualifiers: [**Key**](../wmisdk/key-qualifier.md), [**MaxLen**](../wmisdk/standard-qualifiers.md) (256), [**Override**](../wmisdk/standard-qualifiers.md) ("Tag"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI")
 </dt> </dl>
 
 Unique identifier of the system enclosure.
@@ -1096,7 +1114,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Indexed"), [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Chassis**](cim-chassis.md).**ChassisTypes**")
+Qualifiers: [**ArrayType**](../wmisdk/standard-qualifiers.md) ("Indexed"), [**ModelCorrespondence**](../wmisdk/standard-qualifiers.md) ("[**CIM\_Chassis**](cim-chassis.md).**ChassisTypes**")
 </dt> </dl>
 
 Array of more information about the **ChassisTypes** array entries. Be aware that each entry of this array is related to the entry in **ChassisTypes** that is located at the same index.
@@ -1114,7 +1132,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64)
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (64)
 </dt> </dl>
 
 Version of the physical element.
@@ -1149,7 +1167,7 @@ Data type: **real32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("pounds")
+Qualifiers: [**Units**](../wmisdk/standard-qualifiers.md) ("pounds")
 </dt> </dl>
 
 Weight of the physical package in pounds.
@@ -1167,7 +1185,7 @@ Data type: **real32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("inches")
+Qualifiers: [**Units**](../wmisdk/standard-qualifiers.md) ("inches")
 </dt> </dl>
 
 Width of the physical package in inches.
@@ -1208,13 +1226,9 @@ The [Multithreaded System Asset Gathering with Powershell](https://Gallery.TechN
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> <dt>
 
-[WMI Tasks: Computer Hardware](https://msdn.microsoft.com/library/Aa394587(v=VS.85).aspx)
+[WMI Tasks: Computer Hardware](../wmisdk/wmi-tasks--computer-hardware.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

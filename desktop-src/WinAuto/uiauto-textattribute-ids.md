@@ -97,7 +97,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_BackgroundColorAttributeId"></span><span id="uia_backgroundcolorattributeid"></span><span id="UIA_BACKGROUNDCOLORATTRIBUTEID"></span><dl> <dt><strong>UIA_BackgroundColorAttributeId</strong></dt> <dt>40001</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>BackgroundColor</strong> text attribute, which specifies the background color of the text. This attribute is specified as a <a href="https://msdn.microsoft.com/library/dd183449(VS.85).aspx">COLORREF</a>; a 32-bit value used to specify an RGB or RGBA color. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0 <br/></td>
+<td style="text-align: left;">Identifies the <strong>BackgroundColor</strong> text attribute, which specifies the background color of the text. This attribute is specified as a <a href="/windows/win32/gdi/colorref">COLORREF</a>; a 32-bit value used to specify an RGB or RGBA color. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0 <br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_BeforeParagraphSpacingAttributeId"></span><span id="uia_beforeparagraphspacingattributeid"></span><span id="UIA_BEFOREPARAGRAPHSPACINGATTRIBUTEID"></span><dl> <dt><strong>UIA_BeforeParagraphSpacingAttributeId</strong></dt> <dt>40041</dt> </dl></td>
@@ -113,11 +113,11 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_CaretBidiModeAttributeId"></span><span id="uia_caretbidimodeattributeid"></span><span id="UIA_CARETBIDIMODEATTRIBUTEID"></span><dl> <dt><strong>UIA_CaretBidiModeAttributeId</strong></dt> <dt>40039</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>CaretBidiMode</strong> text attribute, which indicates the direction of text flow in the text range. This attribute is specified as a value from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-caretbidimode"><strong>CaretBidiMode</strong></a> enumerated type. Supported starting with Windows 8.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-caretbidimode"><strong>CaretBidiMode_LTR</strong></a><br/></td>
+<td style="text-align: left;">Identifies the <strong>CaretBidiMode</strong> text attribute, which indicates the direction of text flow in the text range. This attribute is specified as a value from the <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-caretbidimode"><strong>CaretBidiMode</strong></a> enumerated type. Supported starting with Windows 8.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-caretbidimode"><strong>CaretBidiMode_LTR</strong></a><br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_CaretPositionAttributeId"></span><span id="uia_caretpositionattributeid"></span><span id="UIA_CARETPOSITIONATTRIBUTEID"></span><dl> <dt><strong>UIA_CaretPositionAttributeId</strong></dt> <dt>40038</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>CaretPosition</strong> text attribute, which indicates whether the caret is at the beginning or the end of a line of text in the text range. This attribute is specified as a value from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-caretposition"><strong>CaretPosition</strong></a> enumerated type. Supported starting with Windows 8.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-caretposition"><strong>CaretPosition_Unknown</strong></a><br/></td>
+<td style="text-align: left;">Identifies the <strong>CaretPosition</strong> text attribute, which indicates whether the caret is at the beginning or the end of a line of text in the text range. This attribute is specified as a value from the <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-caretposition"><strong>CaretPosition</strong></a> enumerated type. Supported starting with Windows 8.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-caretposition"><strong>CaretPosition_Unknown</strong></a><br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_CultureAttributeId"></span><span id="uia_cultureattributeid"></span><span id="UIA_CULTUREATTRIBUTEID"></span><dl> <dt><strong>UIA_CultureAttributeId</strong></dt> <dt>40004</dt> </dl></td>
@@ -133,7 +133,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_FontWeightAttributeId"></span><span id="uia_fontweightattributeid"></span><span id="UIA_FONTWEIGHTATTRIBUTEID"></span><dl> <dt><strong>UIA_FontWeightAttributeId</strong></dt> <dt>40007</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>FontWeight</strong> text attribute, which specifies the relative stroke, thickness, or boldness of the font. The <strong>FontWeight</strong> attribute is modeled after the <strong>lfWeight</strong> member of the GDI <a href="https://msdn.microsoft.com/library/dd145037(VS.85).aspx">LOGFONT</a> structure, and related standards, and can be one of the following values:
+<td style="text-align: left;">Identifies the <strong>FontWeight</strong> text attribute, which specifies the relative stroke, thickness, or boldness of the font. The <strong>FontWeight</strong> attribute is modeled after the <strong>lfWeight</strong> member of the GDI <a href="/windows/win32/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure, and related standards, and can be one of the following values:
 <ul>
 <li>0 = <strong>DontCare</strong></li>
 <li>100 = <strong>Thin</strong></li>
@@ -150,11 +150,11 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_ForegroundColorAttributeId"></span><span id="uia_foregroundcolorattributeid"></span><span id="UIA_FOREGROUNDCOLORATTRIBUTEID"></span><dl> <dt><strong>UIA_ForegroundColorAttributeId</strong></dt> <dt>40008</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>ForegroundColor</strong> text attribute, which specifies the foreground color of the text. This attribute is specified as a <a href="https://msdn.microsoft.com/library/dd183449(VS.85).aspx">COLORREF</a>, a 32-bit value used to specify an RGB or RGBA color. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
+<td style="text-align: left;">Identifies the <strong>ForegroundColor</strong> text attribute, which specifies the foreground color of the text. This attribute is specified as a <a href="/windows/win32/gdi/colorref">COLORREF</a>, a 32-bit value used to specify an RGB or RGBA color. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_HorizontalTextAlignmentAttributeId"></span><span id="uia_horizontaltextalignmentattributeid"></span><span id="UIA_HORIZONTALTEXTALIGNMENTATTRIBUTEID"></span><dl> <dt><strong>UIA_HorizontalTextAlignmentAttributeId</strong></dt> <dt>40009</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>HorizontalTextAlignment</strong> text attribute, which specifies how the text is aligned horizontally. This attribute is specified as a value from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee671233(v=vs.85)"><strong>HorizontalTextAlignmentEnum</strong></a> enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee671233(v=vs.85)"><strong>HorizontalTextAlignment_Left</strong></a><br/></td>
+<td style="text-align: left;">Identifies the <strong>HorizontalTextAlignment</strong> text attribute, which specifies how the text is aligned horizontally. This attribute is specified as a value from the <a href="/previous-versions/windows/desktop/legacy/ee671233(v=vs.85)"><strong>HorizontalTextAlignmentEnum</strong></a> enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: <a href="/previous-versions/windows/desktop/legacy/ee671233(v=vs.85)"><strong>HorizontalTextAlignment_Left</strong></a><br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_IndentationFirstLineAttributeId"></span><span id="uia_indentationfirstlineattributeid"></span><span id="UIA_INDENTATIONFIRSTLINEATTRIBUTEID"></span><dl> <dt><strong>UIA_IndentationFirstLineAttributeId</strong></dt> <dt>40010</dt> </dl></td>
@@ -222,7 +222,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_OverlineColorAttributeId"></span><span id="uia_overlinecolorattributeid"></span><span id="UIA_OVERLINECOLORATTRIBUTEID"></span><dl> <dt><strong>UIA_OverlineColorAttributeId</strong></dt> <dt>40023</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>OverlineColor</strong> text attribute, which specifies the color of the overline text decoration. This attribute is specified as a <a href="https://msdn.microsoft.com/library/dd183449(VS.85).aspx">COLORREF</a>, a 32-bit value used to specify an RGB or RGBA color. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
+<td style="text-align: left;">Identifies the <strong>OverlineColor</strong> text attribute, which specifies the color of the overline text decoration. This attribute is specified as a <a href="/windows/win32/gdi/colorref">COLORREF</a>, a 32-bit value used to specify an RGB or RGBA color. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_OverlineStyleAttributeId"></span><span id="uia_overlinestyleattributeid"></span><span id="UIA_OVERLINESTYLEATTRIBUTEID"></span><dl> <dt><strong>UIA_OverlineStyleAttributeId</strong></dt> <dt>40024</dt> </dl></td>
@@ -230,11 +230,11 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_SelectionActiveEndAttributeId"></span><span id="uia_selectionactiveendattributeid"></span><span id="UIA_SELECTIONACTIVEENDATTRIBUTEID"></span><dl> <dt><strong>UIA_SelectionActiveEndAttributeId</strong></dt> <dt>40037</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>SelectionActiveEnd</strong> text attribute, which indicates the location of the caret relative to a text range that represents the currently selected text. This attribute is specified as a value from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-activeend"><strong>ActiveEnd</strong></a> enumeration. Supported starting with Windows 8.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-activeend"><strong>ActiveEnd_None</strong></a><br/></td>
+<td style="text-align: left;">Identifies the <strong>SelectionActiveEnd</strong> text attribute, which indicates the location of the caret relative to a text range that represents the currently selected text. This attribute is specified as a value from the <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-activeend"><strong>ActiveEnd</strong></a> enumeration. Supported starting with Windows 8.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-activeend"><strong>ActiveEnd_None</strong></a><br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_StrikethroughColorAttributeId"></span><span id="uia_strikethroughcolorattributeid"></span><span id="UIA_STRIKETHROUGHCOLORATTRIBUTEID"></span><dl> <dt><strong>UIA_StrikethroughColorAttributeId</strong></dt> <dt>40025</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>StrikethroughColor</strong> text attribute, which specifies the color of the strikethrough text decoration. This attribute is specified as a <a href="https://msdn.microsoft.com/library/dd183449(VS.85).aspx">COLORREF</a>, a 32-bit value used to specify an RGB or RGBA color. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
+<td style="text-align: left;">Identifies the <strong>StrikethroughColor</strong> text attribute, which specifies the color of the strikethrough text decoration. This attribute is specified as a <a href="/windows/win32/gdi/colorref">COLORREF</a>, a 32-bit value used to specify an RGB or RGBA color. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_StrikethroughStyleAttributeId"></span><span id="uia_strikethroughstyleattributeid"></span><span id="UIA_STRIKETHROUGHSTYLEATTRIBUTEID"></span><dl> <dt><strong>UIA_StrikethroughStyleAttributeId</strong></dt> <dt>40026</dt> </dl></td>
@@ -258,7 +258,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_UnderlineColorAttributeId"></span><span id="uia_underlinecolorattributeid"></span><span id="UIA_UNDERLINECOLORATTRIBUTEID"></span><dl> <dt><strong>UIA_UnderlineColorAttributeId</strong></dt> <dt>40029</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>UnderlineColor</strong> text attribute, which specifies the color of the underline text decoration. This attribute is specified as a <a href="https://msdn.microsoft.com/library/dd183449(VS.85).aspx">COLORREF</a>, a 32-bit value used to specify an RGB or RGBA color. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
+<td style="text-align: left;">Identifies the <strong>UnderlineColor</strong> text attribute, which specifies the color of the underline text decoration. This attribute is specified as a <a href="/windows/win32/gdi/colorref">COLORREF</a>, a 32-bit value used to specify an RGB or RGBA color. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_UnderlineStyleAttributeId"></span><span id="uia_underlinestyleattributeid"></span><span id="UIA_UNDERLINESTYLEATTRIBUTEID"></span><dl> <dt><strong>UIA_UnderlineStyleAttributeId</strong></dt> <dt>40030</dt> </dl></td>
@@ -305,12 +305,3 @@ This topic describes the named constants used to identify text attributes of a M
 
 [UI Automation Support for Textual Content](uiauto-ui-automation-textpattern-overview.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-
-

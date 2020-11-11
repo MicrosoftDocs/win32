@@ -1,6 +1,6 @@
 ---
 title: Enabling Group Policy
-description: Explains how to configure the supplicant by enabling group policy.
+description: Learn how to configure the supplicant by enabling group policy. See considerations for supplicants and view additional available resources.
 ms.assetid: ac04b83b-1322-41d4-85e0-93687f10a7f6
 ms.topic: article
 ms.date: 05/31/2018

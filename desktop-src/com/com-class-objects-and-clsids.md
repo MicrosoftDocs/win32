@@ -16,10 +16,10 @@ For clients and servers on the same computer, the CLSID of the server is all the
 
 For distributed systems, COM provides registry entries that allow a remote server to register itself for use by a client. While applications need know only a server's CLSID, because they can rely on the registry to locate the server, COM allows clients to override registry entries and to specify server locations, to take full advantage of the network. (See [Locating a Remote Object](locating-a-remote-object.md).)
 
-The basic way to create an instance of a class is through a COM *class object*. This is simply an intermediate object that supports functions common to creating new instances of a given class. Most class objects used to create objects from a CLSID support the [**IClassFactory**](https://msdn.microsoft.com/library/ms694364(v=VS.85).aspx) interface, an interface that includes the important [**CreateInstance**](/windows/desktop/api/Unknwn/nf-unknwn-iclassfactory-createinstance) method. You implement an **IClassFactory** interface for each class of object that you offer to be instantiated. (For more information about implementing **IClassFactory**, see [Implementing IClassFactory](implementing-iclassfactory.md).)
+The basic way to create an instance of a class is through a COM *class object*. This is simply an intermediate object that supports functions common to creating new instances of a given class. Most class objects used to create objects from a CLSID support the [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) interface, an interface that includes the important [**CreateInstance**](/windows/desktop/api/Unknwn/nf-unknwn-iclassfactory-createinstance) method. You implement an **IClassFactory** interface for each class of object that you offer to be instantiated. (For more information about implementing **IClassFactory**, see [Implementing IClassFactory](implementing-iclassfactory.md).)
 
 > [!Note]  
-> Servers that support some other custom class factory interface are not required to support [**IClassFactory**](https://msdn.microsoft.com/library/ms694364(v=VS.85).aspx) specifically. However, calls to activation functions other than [**CoGetClassObject**](/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject) (such as [**CoCreateInstanceEx**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex)) require that the server support **IClassFactory**.
+> Servers that support some other custom class factory interface are not required to support [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) specifically. However, calls to activation functions other than [**CoGetClassObject**](/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject) (such as [**CoCreateInstanceEx**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex)) require that the server support **IClassFactory**.
 
  
 
@@ -46,7 +46,3 @@ COM provides several helper functions that reduce the work of creating object in
  
 
  
-
-
-
-

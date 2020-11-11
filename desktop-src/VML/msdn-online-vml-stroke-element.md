@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).
 
  
 
@@ -32,7 +32,7 @@ The following attributes modify a stroke.
 | [EndArrowWidth](msdn-online-vml-endarrowwidth-attribute.md)       | Defines an arrowhead width for the end of a stroke.           |
 | [EndCap](msdn-online-vml-endcap-attribute.md)                     | Defines the cap style for the end of a stroke.                |
 | [FillType](msdn-online-vml-filltype-attribute.md)                 | Defines the type of fill used for the background of a stroke. |
-| [HRef](https://msdn.microsoft.com/library/Bb229431(v=VS.85).aspx)    | Defines the URL to the original image for the stroke.         |
+| [HRef](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/bb229431(v=vs.85))    | Defines the URL to the original image for the stroke.         |
 | [ID](id-attribute--stroke--vml.md)                                | Defines a unique identifier for the stroke.                   |
 | [ImageAlignShape](msdn-online-vml-imagealignshape-attribute.md)   | Determines the alignment of a stroke image.                   |
 | [ImageAspect](msdn-online-vml-imageaspect-attribute.md)           | Defines how the stroke image aspect ratio will be preserved.  |
@@ -71,13 +71,9 @@ The following code shows how the **Stroke** element can be used to modify a line
 
 **Examples**
 
--   [Simple Stroke Example](https://docs.microsoft.com/previous-versions/bb229466(v%3dvs.85))
--   [Stroke Image Example](https://docs.microsoft.com/previous-versions/bb229468(v%3dvs.85))
+-   [Simple Stroke Example](/previous-versions/bb229466(v=vs.85))
+-   [Stroke Image Example](/previous-versions/bb229468(v=vs.85))
 
  
 
  
-
-
-
-

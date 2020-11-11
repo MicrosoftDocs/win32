@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Virtual Disk Service
 
-\[Beginning with Windows 8 and Windows Server 2012, the Virtual Disk Service COM interface is superseded by the [Windows Storage Management API](https://docs.microsoft.com/previous-versions/windows/win32/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the Virtual Disk Service COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 ## Purpose
 
@@ -16,9 +16,9 @@ The Virtual Disk Service (VDS) manages a wide range of storage configurations, f
 
 ## Where applicable
 
-Beginning with Windows 8 and Windows Server 8, the Virtual Disk Service COM interface is superseded by the Storage Management API, a WMI-based programming interface. For managing storage subsystems, (Windows) disks, partitions, and volumes, we strongly recommend using the Storage Management API. For more information, see the [Windows Storage Management API](https://docs.microsoft.com/previous-versions/windows/win32/stormgmt/windows-storage-management-api-portal).
+Beginning with Windows 8 and Windows Server 8, the Virtual Disk Service COM interface is superseded by the Storage Management API, a WMI-based programming interface. For managing storage subsystems, (Windows) disks, partitions, and volumes, we strongly recommend using the Storage Management API. For more information, see the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).
 
-For all usages except mirror boot volumes (using a mirror volume to host the operating system ), dynamic disks are deprecated. For data that requires resiliency against drive failure, use Storage Spaces, a resilient storage virtualization solution. For more information, see [Storage Spaces Technical Preview](https://technet.microsoft.com/library/hh831739.aspx).
+For all usages except mirror boot volumes (using a mirror volume to host the operating system ), dynamic disks are deprecated. For data that requires resiliency against drive failure, use Storage Spaces, a resilient storage virtualization solution. For more information, see [Storage Spaces Technical Preview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831739(v=ws.11)).
 
 Application developers who use the interfaces described in this guide can query and configure a heterogeneous set of vendor-supplied and internally managed storage. VDS hides from applications the complexities associated with storage, making the service both vendor and technology neutral.
 
@@ -51,9 +51,4 @@ VDS is available in the Microsoft Windows Software Development Kit (SDK). You ca
  
 
  
-
- 
-
-
-
 

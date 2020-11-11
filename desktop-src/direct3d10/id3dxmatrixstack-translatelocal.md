@@ -40,7 +40,7 @@ HRESULT TranslateLocal(
 *x* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The translation factor in the x-direction.
 
@@ -49,7 +49,7 @@ The translation factor in the x-direction.
 *y* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The translation factor in the y-direction.
 
@@ -58,7 +58,7 @@ The translation factor in the y-direction.
 *z* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The translation factor in the z-direction.
 
@@ -107,7 +107,3 @@ m_stack[m_currentPos] = tmp * m_stack[m_currentPos];
  
 
  
-
-
-
-

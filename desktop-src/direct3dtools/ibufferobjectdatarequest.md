@@ -26,7 +26,7 @@ Request for the contents of an object in buffer form for those that support it.
 
 ## Members
 
-The **IBufferObjectDataRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IBufferObjectDataRequest** also has these types of members:
+The **IBufferObjectDataRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IBufferObjectDataRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,7 +34,7 @@ The **IBufferObjectDataRequest** interface inherits from the [**IUnknown**](http
 
 The **IBufferObjectDataRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/ibufferobjectdatarequest-requestasync-eventid-dword-bstr-bstr-ibufferobjectdatacallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Requests to get the raw contents of an object (buffer, texture, render target view, etc.)</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ibufferobjectdatarequest-requestasync-eventid-dword-bstr-bstr-ibufferobjectdatacallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Requests to get the raw contents of an object (buffer, texture, render target view, etc.)</p></td></tr></tbody></table>
 
  
 
@@ -45,6 +45,3 @@ The **IBufferObjectDataRequest** interface has these methods.
  
 
  
-
-
-

@@ -21,7 +21,7 @@ The **IUpdateEndpointAuthProvider** interface contains the methods used for nego
 
 ## Members
 
-The **IUpdateEndpointAuthProvider** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IUpdateEndpointAuthProvider** also has these types of members:
+The **IUpdateEndpointAuthProvider** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IUpdateEndpointAuthProvider** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -62,7 +62,3 @@ WUA calls the [**GetPreferredEndpointTokenType**](iupdateendpointauthprovider-ge
  
 
  
-
-
-
-

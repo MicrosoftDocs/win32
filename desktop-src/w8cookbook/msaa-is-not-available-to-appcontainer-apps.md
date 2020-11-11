@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## Platform
 
-<dl> **Clients** – Windows 8  
-</dl>
+**Clients** – Windows 8 
+
 
 ## Description
 
@@ -33,12 +33,8 @@ Switch any existing in-box tools that use MSAA to UIA if they need to interact w
 
 ## Resources
 
--   [UI Automation Fundamentals](https://msdn.microsoft.com/library/windows/desktop/ee684009(v=vs.85).aspx)
+-   [UI Automation Fundamentals](../winauto/entry-uiauto-win32.md)
 
  
 
  
-
-
-
-

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # EN\_HSCROLL notification code
 
-Sent when the user clicks an edit control's horizontal scroll bar. The parent window of the edit control receives this notification code through a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message. The parent window is notified before the screen is updated.
+Sent when the user clicks an edit control's horizontal scroll bar. The parent window of the edit control receives this notification code through a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message. The parent window is notified before the screen is updated.
 
 
 ```C++
@@ -37,7 +37,7 @@ EN_HSCROLL
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the identifier of the edit control. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
+The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the identifier of the edit control. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
 
 </dd> <dt>
 
@@ -79,14 +79,8 @@ This notification code is sent for the following mouse events on the horizontal 
 **Other Resources**
 </dt> <dt>
 
-[**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command)
+[**WM\_COMMAND**](/windows/desktop/menurc/wm-command)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

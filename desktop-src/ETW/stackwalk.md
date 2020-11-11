@@ -35,7 +35,7 @@ The **StackWalk** class does not define any members.
 
 ## Remarks
 
-To enable stack tracing of kernel events, call the [**TraceSetInformation**](tracesetinformation.md) function and specify the kernel events and types for which you want to capture the stack trace. To enable stack tracing for other events, set the **EnableProperty** member of [**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md) to **EVENT\_ENABLE\_PROPERTY\_STACK\_TRACE**.
+To enable stack tracing of kernel events, call the [**TraceSetInformation**](/windows/win32/api/evntrace/nf-evntrace-tracesetinformation) function and specify the kernel events and types for which you want to capture the stack trace. To enable stack tracing for other events, set the **EnableProperty** member of [**ENABLE\_TRACE\_PARAMETERS**](/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters) to **EVENT\_ENABLE\_PROPERTY\_STACK\_TRACE**.
 
 Use the following event type to identify the actual event when consuming events.
 
@@ -63,7 +63,3 @@ Use the following event type to identify the actual event when consuming events.
  
 
  
-
-
-
-

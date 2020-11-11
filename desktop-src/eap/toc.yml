@@ -62,9 +62,9 @@
       href: eap-functions.md
       items: 
       - name: "RasEapBegin"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa363520(v=vs.85)
       - name: "RasEapEnd"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363521(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa363521(v=vs.85)
       - name: "RasEapFreeMemory"
         href: /windows/desktop/api/Raseapif/nf-raseapif-raseapfreememory
       - name: "RasEapGetIdentity"
@@ -72,13 +72,13 @@
       - name: "RasEapGetInfo"
         href: /windows/desktop/api/Raseapif/nf-raseapif-raseapgetinfo
       - name: "RasEapInitialize"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363527(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa363527(v=vs.85)
       - name: "RasEapInvokeConfigUI"
         href: /windows/desktop/api/Raseapif/nf-raseapif-raseapinvokeconfigui
       - name: "RasEapInvokeInteractiveUI"
         href: /windows/desktop/api/Raseapif/nf-raseapif-raseapinvokeinteractiveui
       - name: "RasEapMakeMessage"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa363532(v=vs.85)
     - name: "EAP Interfaces"
       href: eap-interfaces.md
       items: 

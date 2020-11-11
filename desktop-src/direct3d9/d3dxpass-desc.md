@@ -40,7 +40,7 @@ typedef struct D3DXPASS_DESC {
 **Name**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -51,7 +51,7 @@ String value used for the pass.
 **Annotations**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -62,7 +62,7 @@ Annotations are user-specific data that can be attached to any technique, pass, 
 **pVertexShaderFunction**
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 </dd> <dd>
 
@@ -73,7 +73,7 @@ Pointer to the vertex shader function. If an effect is created with [D3DXFX\_NOT
 **pPixelShaderFunction**
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 </dd> <dd>
 
@@ -104,7 +104,3 @@ Pointer to the pixel shader function. If an effect is created with [D3DXFX\_NOT\
  
 
  
-
-
-
-

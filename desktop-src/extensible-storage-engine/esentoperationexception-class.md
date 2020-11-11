@@ -32,8 +32,8 @@ Base class for Operation exceptions.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
-  [System.Exception](https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
+  [System.Exception](/dotnet/api/system.exception)  
     [Microsoft.Isam.Esent.EsentException](dn292088\(v=exchg.10\).md)  
       [Microsoft.Isam.Esent.Interop.EsentErrorException](dn274314\(v=exchg.10\).md)  
         Microsoft.Isam.Esent.Interop.EsentOperationException  
@@ -70,10 +70,10 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
 
-## Inheritance hierarchy
+## Derived types
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
-  [System.Exception](https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
+  [System.Exception](/dotnet/api/system.exception)  
     [Microsoft.Isam.Esent.EsentException](dn292088\(v=exchg.10\).md)  
       [Microsoft.Isam.Esent.Interop.EsentErrorException](dn274314\(v=exchg.10\).md)  
         Microsoft.Isam.Esent.Interop.EsentOperationException  
@@ -91,4 +91,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
           [Microsoft.Isam.Esent.Interop.EsentTermInProgressException](dn334979\(v=exchg.10\).md)  
           [Microsoft.Isam.Esent.Interop.EsentUnicodeLanguageValidationFailureException](dn350816\(v=exchg.10\).md)  
           [Microsoft.Isam.Esent.Interop.EsentUnicodeTranslationFailException](dn350826\(v=exchg.10\).md)
-

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The programmer specifies whether a property set is stored in a storage or a stream when the property set is created. The PROPSETFLAG\_NONSIMPLE enumeration value, passed in the *grfFlags* parameter to the [**IPropertySetStorage::Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) method, indicates this. Setting where the property set is stored provides proper application controls to fully interoperate through the [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) interface with the COM property set.
 
-If the PROPSETFLAG\_NONSIMPLE flag is set, the property set is stored in a storage object, and nonsimple property values can be written to it. Nonsimple values include values with a **VARTYPE** of VT\_STORAGE, VT\_STREAM, VT\_STORED\_OBJECT, or VT\_STREAMED\_OBJECT. For more information about **VARTYPE** values and how to use them, see the [**PROPVARIANT**](https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx) structure.
+If the PROPSETFLAG\_NONSIMPLE flag is set, the property set is stored in a storage object, and nonsimple property values can be written to it. Nonsimple values include values with a **VARTYPE** of VT\_STORAGE, VT\_STREAM, VT\_STORED\_OBJECT, or VT\_STREAMED\_OBJECT. For more information about **VARTYPE** values and how to use them, see the [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structure.
 
 If the PROPSETFLAG\_NONSIMPLE flag is not set, only simple values can be written to the property set.
 
@@ -19,7 +19,3 @@ In the storage object of a nonsimple property set, a stream is created named Con
  
 
  
-
-
-
-

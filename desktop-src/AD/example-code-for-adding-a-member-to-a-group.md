@@ -11,11 +11,10 @@ ms.date: 05/31/2018
 
 # Example Code for Adding a Member to a Group
 
-This topic contains code examples that add a member to a group. The Visual Basic Scripting Edition (VBScript) and C++ examples add a member by adding the [**IADs**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads) object that represents the member to the [**IADsGroup**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsgroup) object that represents the group. The Visual Basic .NET and C# examples modify the member property of the [DirectoryEntry](https://docs.microsoft.com/dotnet/api/system.directoryservices.directoryentry?redirectedfrom=MSDN) object that represents the group.
+This topic contains code examples that add a member to a group. The Visual Basic Scripting Edition (VBScript) and C++ examples add a member by adding the [**IADs**](/windows/desktop/api/iads/nn-iads-iads) object that represents the member to the [**IADsGroup**](/windows/desktop/api/iads/nn-iads-iadsgroup) object that represents the group. The Visual Basic .NET and C# examples modify the member property of the [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) object that represents the group.
 
-## 
 
-The following C# code examples add an existing member to a group. The function takes the ADsPath of the group container and the distinguished name of the member to be added to the group. The ADsPath is used to create a [DirectoryEntry](https://docs.microsoft.com/dotnet/api/system.directoryservices.directoryentry?redirectedfrom=MSDN) object that represents the group. The [PropertyValueCollection.Add](https://docs.microsoft.com/dotnet/api/system.directoryservices.propertyvaluecollection.add?redirectedfrom=MSDN#System_DirectoryServices_PropertyValueCollection_Add_System_Object_) method adds to the group the member whose distinguished name was passed to the function. The function then uses the [DirectoryEntry.CommitChanges](https://docs.microsoft.com/dotnet/api/system.directoryservices.directoryentry.commitchanges?redirectedfrom=MSDN#System_DirectoryServices_DirectoryEntry_CommitChanges) method to write the new member information to the database.
+The following C# code examples add an existing member to a group. The function takes the ADsPath of the group container and the distinguished name of the member to be added to the group. The ADsPath is used to create a [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) object that represents the group. The [PropertyValueCollection.Add](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_) method adds to the group the member whose distinguished name was passed to the function. The function then uses the [DirectoryEntry.CommitChanges](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges) method to write the new member information to the database.
 
 Call the function with the following parameters:
 
@@ -61,9 +60,8 @@ private void AddMemberToGroup(
 
 
 
-## 
 
-The following Visual Basic .NET code examples add an existing member to a group. The function takes the ADsPath of the group container and the distinguished name of the member to be added to the group. The ADsPath is used to create a [DirectoryEntry](https://docs.microsoft.com/dotnet/api/system.directoryservices.directoryentry?redirectedfrom=MSDN) object that represents the group. The [PropertyValueCollection.Add](https://docs.microsoft.com/dotnet/api/system.directoryservices.propertyvaluecollection.add?redirectedfrom=MSDN#System_DirectoryServices_PropertyValueCollection_Add_System_Object_) method adds to the group the member whose distinguished name was passed to the function. The function then uses the [DirectoryEntry.CommitChanges](https://docs.microsoft.com/dotnet/api/system.directoryservices.directoryentry.commitchanges?redirectedfrom=MSDN#System_DirectoryServices_DirectoryEntry_CommitChanges) method to write the new member information to the database.
+The following Visual Basic .NET code examples add an existing member to a group. The function takes the ADsPath of the group container and the distinguished name of the member to be added to the group. The ADsPath is used to create a [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) object that represents the group. The [PropertyValueCollection.Add](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_) method adds to the group the member whose distinguished name was passed to the function. The function then uses the [DirectoryEntry.CommitChanges](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges) method to write the new member information to the database.
 
 Call the function with the following parameters:
 
@@ -98,7 +96,6 @@ End Sub
 
 
 
-## 
 
 The following VBScript example adds an existing member to a group. The script adds the user, Jeff Smith, to the TestGroup group.
 
@@ -264,7 +261,6 @@ End Sub
 
 
 
-## 
 
 The following C++ code example adds an existing member to a group.
 
@@ -319,25 +315,21 @@ HRESULT AddMemberToGroup(IADsGroup * pGroup, IADs* pIADsNewMember)
 [Adding Members to Groups in a Domain](adding-members-to-groups-in-a-domain.md)
 </dt> <dt>
 
-[DirectoryEntry](https://docs.microsoft.com/dotnet/api/system.directoryservices.directoryentry?redirectedfrom=MSDN)
+[DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry)
 </dt> <dt>
 
-[DirectoryEntry.CommitChanges](https://docs.microsoft.com/dotnet/api/system.directoryservices.directoryentry.commitchanges?redirectedfrom=MSDN#System_DirectoryServices_DirectoryEntry_CommitChanges)
+[DirectoryEntry.CommitChanges](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges)
 </dt> <dt>
 
-[**IADs**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads)
+[**IADs**](/windows/desktop/api/iads/nn-iads-iads)
 </dt> <dt>
 
-[**IADsGroup**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsgroup)
+[**IADsGroup**](/windows/desktop/api/iads/nn-iads-iadsgroup)
 </dt> <dt>
 
-[PropertyValueCollection.Add](https://docs.microsoft.com/dotnet/api/system.directoryservices.propertyvaluecollection.add?redirectedfrom=MSDN#System_DirectoryServices_PropertyValueCollection_Add_System_Object_)
+[PropertyValueCollection.Add](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_)
 </dt> </dl>
 
  
 
  
-
-
-
-

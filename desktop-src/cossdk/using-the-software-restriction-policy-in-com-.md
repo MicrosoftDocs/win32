@@ -14,9 +14,9 @@ The software restriction policy depends on assigning trust levels to the code th
 
 Configuring the software restriction policy for a system is done through the Local Security Policy administrative tool, while the restriction policy configuration of individual COM+ applications is done either programmatically or through the Component Services administrative tool. If the restriction policy trust level is not specified for a COM+ application, the systemwide settings will be used to determine the application's trust level. The COM+ restriction policy settings must be carefully coordinated with the systemwide settings because a COM+ application that has an Unrestricted trust level can load only components with an Unrestricted trust level; a Disallowed COM+ application can load components with any trust level but cannot access all of the user's privileges.
 
-In addition to the software restriction policy trust levels of individual COM+ applications, two other properties determine how the restriction policy is used for all COM+ applications. If [SRPRunningObjectChecks](https://docs.microsoft.com/windows/desktop/com/srprunningobjectchecks) is enabled, attempts to connect to running objects will be checked for appropriate trust levels. The running object cannot have a less stringent trust level than the client object. For example, the running object cannot have a Disallowed trust level if the client object has an Unrestricted trust level.
+In addition to the software restriction policy trust levels of individual COM+ applications, two other properties determine how the restriction policy is used for all COM+ applications. If [SRPRunningObjectChecks](/windows/desktop/com/srprunningobjectchecks) is enabled, attempts to connect to running objects will be checked for appropriate trust levels. The running object cannot have a less stringent trust level than the client object. For example, the running object cannot have a Disallowed trust level if the client object has an Unrestricted trust level.
 
-The second property determines how the software restriction policy handles activate-as-activator connections. If [SRPActivateAsActivatorChecks](https://docs.microsoft.com/windows/desktop/com/srpactivateasactivatorchecks) is enabled, the trust level that is configured for the server object is compared with the trust level of the client object and the more stringent trust level will be used to run the server object. If SRPActivateAsActivatorChecks is not enabled, the server object will run with the trust level of the client object regardless of the trust level with which it was configured. By default, both SRPRunningObjectChecks and SRPActivateAsActivatorChecks are enabled.
+The second property determines how the software restriction policy handles activate-as-activator connections. If [SRPActivateAsActivatorChecks](/windows/desktop/com/srpactivateasactivatorchecks) is enabled, the trust level that is configured for the server object is compared with the trust level of the client object and the more stringent trust level will be used to run the server object. If SRPActivateAsActivatorChecks is not enabled, the server object will run with the trust level of the client object regardless of the trust level with which it was configured. By default, both SRPRunningObjectChecks and SRPActivateAsActivatorChecks are enabled.
 
 ## Related topics
 
@@ -46,6 +46,3 @@ The second property determines how the software restriction policy handles activ
  
 
  
-
-
-

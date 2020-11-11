@@ -23,7 +23,7 @@ This topic is organized as follows:
 
 When users need to search legacy databases, email stores or other data structures that are not supported by Windows Search, you should first determine whether a protocol handler already exists for that data store, perhaps for use with another application such as SharePoint Server. If so, you can install that protocol handler on the system. Windows Search protocol handlers use design specifications similar to SharePoint Server, and they can often be used interchangeably.
 
-For more information about Search Server 2008 deployment with Office SharePoint Server 2007, see [Federated Search \[Search Server 2008\]](https://msdn.microsoft.com/library/bb931109.aspx).
+For more information about Search Server 2008 deployment with Office SharePoint Server 2007, see [Federated Search \[Search Server 2008\]](/previous-versions/office/bb931109(v=office.14)).
 
 ### Shell Data Stores
 
@@ -42,11 +42,11 @@ If you want users to view their search results from within Windows Explorer, the
 -   Icon handler
 -   Some other type of file handler
 
-For a list of handlers identified by the developer scenario you are trying to achieve, see "Overview of Handlers" in [Windows Search as a Development Platform](-search-3x-wds-development-ovr.md). For information on creating handlers, see [Registering Shell Extensions](https://msdn.microsoft.com/library/cc144110(VS.85).aspx), [Context Menu](https://msdn.microsoft.com/library/cc144169(VS.85).aspx), and [File Type Handlers](https://msdn.microsoft.com/library/cc144146(VS.85).aspx).
+For a list of handlers identified by the developer scenario you are trying to achieve, see "Overview of Handlers" in [Windows Search as a Development Platform](-search-3x-wds-development-ovr.md). For information on creating handlers, see [Registering Shell Extensions](../shell/reg-shell-exts.md), [Context Menu](/previous-versions/windows/desktop/legacy/cc144169(v=vs.85)), and [File Type Handlers](../shell/fa-file-extensions.md).
 
 ### Protocol Handlers
 
-If the data store is also a container (such as a file system folder), you must implement a filter to enumerate the URLs in the container. If the data store contains data or file types other than one of the 200 file types supported by Windows Search, you must implement a filter to access and index the contents of items in the store. Windows Search uses protocol handler and [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) technology similar to that used by SharePoint Server. If you already have filters for a specific store and file type installed on the system being indexed, Windows Search may be able to use the existing interfaces to index this data.
+If the data store is also a container (such as a file system folder), you must implement a filter to enumerate the URLs in the container. If the data store contains data or file types other than one of the 200 file types supported by Windows Search, you must implement a filter to access and index the contents of items in the store. Windows Search uses protocol handler and [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) technology similar to that used by SharePoint Server. If you already have filters for a specific store and file type installed on the system being indexed, Windows Search may be able to use the existing interfaces to index this data.
 
 For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md). For conceptual information on filter handlers, see [Developing Filter Handlers](-search-ifilter-conceptual.md).
 
@@ -72,7 +72,7 @@ Test.zip
     |- FileY.doc
 ```
 
-The FILE protocol handler discovers when FILE://c:/test/test.zip changes by monitoring file system change logs, and it will invoke an [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) registered for .zip files on that file when the file changes, but it has no knowledge of the internal structure of the .zip file itself.
+The FILE protocol handler discovers when FILE://c:/test/test.zip changes by monitoring file system change logs, and it will invoke an [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) registered for .zip files on that file when the file changes, but it has no knowledge of the internal structure of the .zip file itself.
 
 You must inform the indexer that the compound file format is a data store. It is necessary to do so for individual items to be indexed and retrieved as unique entities. After you have implemented a Shell data source and performed the following steps, you will have a protocol handler that can process and expose the data from a compound file format (a .zip file) as individual items.
 
@@ -103,8 +103,8 @@ You must inform the indexer that the compound file format is a data store. It is
     ```
 
 2.  Ensure that your protocol handler meets the following two conditions:
-    -   The root URLs for a .zip file should emit PKEY\_Search\_IsClosedDirectory ([System.Search.IsClosedDirectory](https://msdn.microsoft.com/library/Bb760168(v=VS.85).aspx)) on the URLs that are the root .zip file URLs. For example, .zip:///FILE:%2f%2f%2fc:%2ftest%2ftest.zip/ should emit IsClosedDirectory = **TRUE**. This tells the indexer that if the date on this URL has not changed, it does not need to process any of the child URLs.
-    -   Every child URL for that URL should emit PKEY\_Search\_IsFullyContained ([System.Search.IsFullyContained](https://msdn.microsoft.com/library/Bb760169(v=VS.85).aspx)) on the child URLs of the root .zip URL. Normally at the end of an incremental crawl, the indexer treats all unvisited URLs as items that should be deleted. But the root .zip file should not process root URLs because nothing has changed. Emitting this property as **TRUE** tells the indexer that if this URL has not been processed at the end of an incremental crawl, it should not be deleted. It will only be deleted if the root item has changed and it is not visited.
+    -   The root URLs for a .zip file should emit PKEY\_Search\_IsClosedDirectory ([System.Search.IsClosedDirectory](../properties/props-system-search-iscloseddirectory.md)) on the URLs that are the root .zip file URLs. For example, .zip:///FILE:%2f%2f%2fc:%2ftest%2ftest.zip/ should emit IsClosedDirectory = **TRUE**. This tells the indexer that if the date on this URL has not changed, it does not need to process any of the child URLs.
+    -   Every child URL for that URL should emit PKEY\_Search\_IsFullyContained ([System.Search.IsFullyContained](../properties/props-system-search-isfullycontained.md)) on the child URLs of the root .zip URL. Normally at the end of an incremental crawl, the indexer treats all unvisited URLs as items that should be deleted. But the root .zip file should not process root URLs because nothing has changed. Emitting this property as **TRUE** tells the indexer that if this URL has not been processed at the end of an incremental crawl, it should not be deleted. It will only be deleted if the root item has changed and it is not visited.
 
 Windows Search requires a start page for a protocol in order to know what URLs to crawl incrementally and which URLs should be ignored when they are found. But we can't start with a URL for each .zip file, because we don't know where each .zip file is. Hence, the .zip protocol handler's start page URL must be able to enumerate everything at the root of the escaped paths of all of the .zip files. Those .zip files are not necessarily in the FILE: namespace and could be a MAPI type URL that points to a .zip file as an attachment, for example.
 
@@ -119,15 +119,15 @@ Windows Search requires a start page for a protocol in order to know what URLs t
     ```
 
 3.  When Windows Search periodically does an incremental crawl on your .zip:/// root URL, you must reflect back the list of URLs that Windows Search is already maintaining that are .zip URLs. If a deletion is discovered in the native store where the .zip file is stored, it does not appear in your enumeration, and that branch of the tree in the .zip is removed.
-4.  To bind to the .zip data for another protocol handler, you should ideally go through the [IShellFolder](https://msdn.microsoft.com/library/bb775075(VS.85).aspx) for that URL to bind to the storage of the object, and not assume it is always a file. Doing so affords you the flexibility to work with attachments in mail stores, for example.
-5.  When emitting child URLs for each .zip file, you should use PKEY\_Search\_UrlToIndexWithModificationTime ([System.Search.UrlToIndexWithModificationTime](https://msdn.microsoft.com/library/bb760179(VS.85).aspx)) to pass PKEY\_DateModified ([System.DateModified](https://msdn.microsoft.com/library/bb760685(VS.85).aspx)) of the actual .zip file so that the indexer crawls the .zip file only if it has changed.
+4.  To bind to the .zip data for another protocol handler, you should ideally go through the [IShellFolder](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder) for that URL to bind to the storage of the object, and not assume it is always a file. Doing so affords you the flexibility to work with attachments in mail stores, for example.
+5.  When emitting child URLs for each .zip file, you should use PKEY\_Search\_UrlToIndexWithModificationTime ([System.Search.UrlToIndexWithModificationTime](../properties/props-system-search-urltoindexwithmodificationtime.md)) to pass PKEY\_DateModified ([System.DateModified](../properties/props-system-datemodified.md)) of the actual .zip file so that the indexer crawls the .zip file only if it has changed.
 
 To have your .zip URLs indexed immediately after they are created or modified, and not have to wait for an incremental crawl to discover their new state, you could conceivably monitor the file system yourself for .zip file changes. However, such an approach would not work for other data stores such as MAPI.
 
 **To have your .zip urls indexed when they are created or modified:**
 
-1.  Create a filter (and implementation of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface) for the .zip file type. For more information, see [Developing Property Handlers for Windows Search](-search-3x-wds-extidx-propertyhandlers.md).
-2.  Whenever your [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) implementation is called, it is because that URL has been discovered or changed. Then, generate an event for the .zip URL appropriate for the source URL, through the [**IGatherNotifyInline**](https://msdn.microsoft.com/library/Bb231470(v=VS.85).aspx) interface. Doing so gives you the ability to immediately tell the indexer that there is new data to be indexed without having to wait for the incremental crawl.
+1.  Create a filter (and implementation of the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface) for the .zip file type. For more information, see [Developing Property Handlers for Windows Search](-search-3x-wds-extidx-propertyhandlers.md).
+2.  Whenever your [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) implementation is called, it is because that URL has been discovered or changed. Then, generate an event for the .zip URL appropriate for the source URL, through the [**IGatherNotifyInline**](/previous-versions/windows/desktop/legacy/bb231470(v=vs.85)) interface. Doing so gives you the ability to immediately tell the indexer that there is new data to be indexed without having to wait for the incremental crawl.
 
 ## Related topics
 
@@ -160,6 +160,3 @@ To have your .zip URLs indexed immediately after they are created or modified, a
  
 
  
-
-
-

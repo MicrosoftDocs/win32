@@ -3,10 +3,13 @@ title: Radio Buttons
 description: With a radio button, users make a choice among a set of mutually exclusive, related options.
 ms.assetid: f9af0a8a-d4a1-464c-a967-bab88ae0726b
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Radio Buttons
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 With a radio button, users make a choice among a set of mutually exclusive, related options. Users can choose one and only one option. Radio buttons are so called because they function like the channel presets on radios.
 
@@ -26,7 +29,7 @@ A group of radio buttons behaves like a single control. Only the selected choice
 To decide, consider these questions:
 
 -   **Is the control used to choose one option from a set of mutually exclusive choices?** If not, use another control. To choose multiple options, use [check boxes](ctrl-check-boxes.md), a [multiple-selection list](ctrl-list-boxes.md) or a check box list instead.
--   **Is the number of options between two and seven?** Since the screen space used is proportional to the number of options, keep the number of options in a group between two and seven. For eight or more options, use a [drop-down list](https://docs.microsoft.com/windows/desktop/uxguide/ctrl-drop) or [single-selection list](ctrl-list-boxes.md).
+-   **Is the number of options between two and seven?** Since the screen space used is proportional to the number of options, keep the number of options in a group between two and seven. For eight or more options, use a [drop-down list](/windows/desktop/uxguide/ctrl-drop) or [single-selection list](ctrl-list-boxes.md).
 -   **Would a check box be a better choice?** If there are only two options, you could use a single [check box](ctrl-check-boxes.md) instead. However, check boxes are suitable only for turning a single option on or off, whereas radio buttons can be used for completely different alternatives. If both solutions are possible:
     -   Use radio buttons if the meaning of the cleared check box isn't completely obvious.
 
@@ -69,7 +72,7 @@ To decide, consider these questions:
 -   **Would a set of command buttons, command links, or a split button be a better choice?** If the radio buttons are used only to affect how a command is performed, it is often better to present the command variations instead. Doing so allows users to choose the right command with a single interaction.
 -   **Do the options present program options, rather than data?** The options' values shouldn't be based on context or other data. For data, use a drop-down list or single-selection list.
 -   If the control is used on a wizard page or control panel, **is the control a response to the main instruction and can users later change the choice?** If so, consider using command links instead of radio buttons to make the interaction more efficient.
--   **Are the values non-numeric?** For numeric data, use [text boxes](ctrl-text-boxes.md), [drop-down lists](https://docs.microsoft.com/windows/desktop/uxguide/ctrl-drop), or [sliders](ctrl-sliders.md).
+-   **Are the values non-numeric?** For numeric data, use [text boxes](ctrl-text-boxes.md), [drop-down lists](/windows/desktop/uxguide/ctrl-drop), or [sliders](ctrl-sliders.md).
 
 ## Guidelines
 
@@ -223,7 +226,3 @@ Example: Click **Current page**, and then click **OK**.
  
 
  
-
-
-
-

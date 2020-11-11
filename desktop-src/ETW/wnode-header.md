@@ -1,5 +1,5 @@
 ---
-Description: The WNODE\_HEADER structure is a member of the EVENT\_TRACE\_PROPERTIES structure.
+description: The WNODE\_HEADER structure is a member of the EVENT\_TRACE\_PROPERTIES structure.
 ms.assetid: 862a8f46-a326-48c6-92b7-8bb667837bb7
 title: WNODE_HEADER structure (Wmistr.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # WNODE\_HEADER structure
 
-The **WNODE\_HEADER** structure is a member of the [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md) structure.
+The **WNODE\_HEADER** structure is a member of the [**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) structure.
 
 ## Syntax
 
@@ -52,7 +52,7 @@ typedef struct _WNODE_HEADER {
 **BufferSize**
 </dt> <dd>
 
-Total size of memory allocated, in bytes, for the event tracing session properties. The size of memory must include the room for the [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md) structure plus the session name string and log file name string that follow the structure in memory.
+Total size of memory allocated, in bytes, for the event tracing session properties. The size of memory must include the room for the [**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) structure plus the session name string and log file name string that follow the structure in memory.
 
 </dd> <dt>
 
@@ -146,7 +146,7 @@ You can specify one of the following values.
 <tbody>
 <tr class="odd">
 <td><dl> <dt>1</dt> </dl></td>
-<td>Query performance counter (QPC). The QPC counter provides a high-resolution time stamp that is not affected by adjustments to the system clock. The time stamp stored in the event is equivalent to the value returned from the QueryPerformanceCounter API. For more information on the characteristics of this time stamp, see <a href=" https://go.microsoft.com/fwlink/?LinkId=733315">Acquiring high-resolution time stamps</a>.<br/> You should use this resolution if you have high event rates or if the consumer merges events from different buffers. In these cases, the precision and stability of the QPC time stamp allows for better accuracy in ordering the events from different buffers. However, the QPC time stamp will not reflect updates to the system clock, e.g. if the system clock is adjusted forward due to synchronization with an NTP server while the trace is in progress, the QPC time stamps in the trace will continue to reflect time as if no update had occurred.<br/> To determine the resolution, use the <strong>PerfFreq</strong> member of <a href="trace-logfile-header.md"><strong>TRACE_LOGFILE_HEADER</strong></a> when consuming the event.<br/> To convert an event’s time stamp into 100-ns units, use the following conversion formula: <br/> scaledTimestamp = eventRecord.EventHeader.TimeStamp.QuadPart * 10000000.0 / logfileHeader.PerfFreq.QuadPart<br/> Note that on older computers, the time stamp may not be accurate because the counter sometimes skips forward due to hardware errors.<br/></td>
+<td>Query performance counter (QPC). The QPC counter provides a high-resolution time stamp that is not affected by adjustments to the system clock. The time stamp stored in the event is equivalent to the value returned from the QueryPerformanceCounter API. For more information on the characteristics of this time stamp, see <a href=" https://go.microsoft.com/fwlink/?LinkId=733315">Acquiring high-resolution time stamps</a>.<br/> You should use this resolution if you have high event rates or if the consumer merges events from different buffers. In these cases, the precision and stability of the QPC time stamp allows for better accuracy in ordering the events from different buffers. However, the QPC time stamp will not reflect updates to the system clock, e.g. if the system clock is adjusted forward due to synchronization with an NTP server while the trace is in progress, the QPC time stamps in the trace will continue to reflect time as if no update had occurred.<br/> To determine the resolution, use the <strong>PerfFreq</strong> member of <a href="/windows/win32/api/evntrace/ns-evntrace-trace_logfile_header"><strong>TRACE_LOGFILE_HEADER</strong></a> when consuming the event.<br/> To convert an event’s time stamp into 100-ns units, use the following conversion formula: <br/> scaledTimestamp = eventRecord.EventHeader.TimeStamp.QuadPart * 10000000.0 / logfileHeader.PerfFreq.QuadPart<br/> Note that on older computers, the time stamp may not be accurate because the counter sometimes skips forward due to hardware errors.<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt>2</dt> </dl></td>
@@ -159,7 +159,7 @@ Prior to Windows 10, the resolution of this time stamp was the resolution of a s
 </tr>
 <tr class="odd">
 <td><dl> <dt>3</dt> </dl></td>
-<td>CPU cycle counter. The CPU counter provides the highest resolution time stamp and is the least resource-intensive to retrieve. However, the CPU counter is unreliable and should not be used in production. For example, on some computers, the timers will change frequency due to thermal and power changes, in addition to stopping in some states.<br/> To determine the resolution, use the <strong>CpuSpeedInMHz</strong> member of <a href="trace-logfile-header.md"><strong>TRACE_LOGFILE_HEADER</strong></a> when consuming the event.<br/> If your hardware does not support this clock type, ETW uses system time.<br/> <strong>Windows Server 2003, Windows XP with SP1 and Windows XP:</strong> This value is not supported, it was introduced in Windows Server 2003 with SP1 and Windows XP with SP2.<br/></td>
+<td>CPU cycle counter. The CPU counter provides the highest resolution time stamp and is the least resource-intensive to retrieve. However, the CPU counter is unreliable and should not be used in production. For example, on some computers, the timers will change frequency due to thermal and power changes, in addition to stopping in some states.<br/> To determine the resolution, use the <strong>CpuSpeedInMHz</strong> member of <a href="/windows/win32/api/evntrace/ns-evntrace-trace_logfile_header"><strong>TRACE_LOGFILE_HEADER</strong></a> when consuming the event.<br/> If your hardware does not support this clock type, ETW uses system time.<br/> <strong>Windows Server 2003, Windows XP with SP1 and Windows XP:</strong> This value is not supported, it was introduced in Windows Server 2003 with SP1 and Windows XP with SP2.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -210,22 +210,18 @@ c. If ReservedFlags == 3 (CPU cycle counter): DOUBLE timeStampScale = 10.0 / log
 
 <dl> <dt>
 
-[*ControlCallback*](controlcallback.md)
+[*ControlCallback*](/windows/win32/api/evntrace/nc-evntrace-wmidprequest)
 </dt> <dt>
 
-[**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md)
+[**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties)
 </dt> <dt>
 
-[**GetTraceLoggerHandle**](gettraceloggerhandle.md)
+[**GetTraceLoggerHandle**](/windows/win32/api/evntrace/nf-evntrace-gettraceloggerhandle)
 </dt> <dt>
 
-[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer~r1)
+[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer-r1)
 </dt> </dl>
 
  
 
  
-
-
-
-

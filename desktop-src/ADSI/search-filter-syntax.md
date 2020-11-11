@@ -7,7 +7,7 @@ keywords:
 - Search Filter Syntax ADSI
 - queries, search filter syntax
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/25/2020
 ---
 
 # Search Filter Syntax
@@ -78,7 +78,7 @@ In addition to the operators above, LDAP defines two matching rule object identi
 
 
 
-"&lt;attribute name&gt;" is the **lDAPDisplayName** of the attribute, "&lt;rule OID&gt;" is the OID for the matching rule, and "&lt;value&gt;" is the value to use for comparison. Be aware that spaces cannot be used in this string. "&lt;value&gt;" must be a decimal number; it cannot be a hexadecimal number or a constant name such as **ADS\_GROUP\_TYPE\_SECURITY\_ENABLED**. For more information about the available Active Directory attributes, see [All Attributes](https://docs.microsoft.com/windows/desktop/ADSchema/attributes-all).
+"&lt;attribute name&gt;" is the **lDAPDisplayName** of the attribute, "&lt;rule OID&gt;" is the OID for the matching rule, and "&lt;value&gt;" is the value to use for comparison. Be aware that spaces cannot be used in this string. "&lt;value&gt;" must be a decimal number; it cannot be a hexadecimal number or a constant name such as **ADS\_GROUP\_TYPE\_SECURITY\_ENABLED**. For more information about the available Active Directory attributes, see [All Attributes](/windows/desktop/ADSchema/attributes-all).
 
 The following table lists the matching rule OIDs implemented by LDAP.
 
@@ -192,12 +192,13 @@ Get all entries without an email attribute:
 
 
 
-The formal definition of the search filter is as follows (from RFC 1960):
+The formal definition of the search filter is as follows (from [RFC 2254](https://tools.ietf.org/html/rfc2254)):
 
 
 ```C++
 <filter> ::= '(' <filtercomp> ')'
-<filtercomp> ::= <and> | <or> | <not> | <item><and> ::= '&' <filterlist>
+<filtercomp> ::= <and> | <or> | <not> | <item>
+<and> ::= '&' <filterlist>
 <or> ::= '|' <filterlist>
 <not> ::= '!' <filter>
 <filterlist> ::= <filter> | <filter> <filterlist>
@@ -268,7 +269,3 @@ In addition, arbitrary binary data may be represented by using the escape sequen
  
 
  
-
-
-
-

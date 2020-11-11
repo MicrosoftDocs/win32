@@ -84,7 +84,7 @@ public static void JetSetSessionParameter(
 <!-- end list -->
 
   - dataSize  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Size of the data provided.
 
@@ -97,4 +97,3 @@ public static void JetSetSessionParameter(
 [Windows8Api members](dn335373\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-

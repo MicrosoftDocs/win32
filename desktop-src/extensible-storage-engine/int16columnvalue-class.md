@@ -28,13 +28,13 @@ ROBOTS: INDEX,FOLLOW
 
 # Int16ColumnValue class
 
-An [Int16](https://docs.microsoft.com/dotnet/api/system.int16?redirectedfrom=MSDN) column value.
+An [Int16](/dotnet/api/system.int16) column value.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Int16](https://docs.microsoft.com/dotnet/api/system.int16?redirectedfrom=MSDN)\>  
+    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Int16](/dotnet/api/system.int16)\>  
       Microsoft.Isam.Esent.Interop.Int16ColumnValue  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
@@ -65,4 +65,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 [Int16ColumnValue members](dn350987\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

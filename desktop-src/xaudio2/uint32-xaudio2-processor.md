@@ -46,7 +46,8 @@ Defines values to use with [**XAudio2Create**](/windows/desktop/api/xaudio2/nf-x
 | <span id="Processor30"></span><span id="processor30"></span><span id="PROCESSOR30"></span><dl> <dt>**Processor30**</dt> <dt>0x20000000</dt> </dl>               | Processor 30<br/>                                        |
 | <span id="Processor31"></span><span id="processor31"></span><span id="PROCESSOR31"></span><dl> <dt>**Processor31**</dt> <dt>0x40000000</dt> </dl>               | Processor 31<br/>                                        |
 | <span id="Processor32"></span><span id="processor32"></span><span id="PROCESSOR32"></span><dl> <dt>**Processor32**</dt> <dt>0x80000000</dt> </dl>               | Processor 32<br/>                                        |
-| <span id="XAUDIO2_ANY_PROCESSOR"></span><span id="xaudio2_any_processor"></span><dl> <dt>**XAUDIO2\_ANY\_PROCESSOR**</dt> <dt>0xffffffff</dt> </dl>             | Any processor<br/>                                       |
+| <span id="XAUDIO2_ANY_PROCESSOR"></span><span id="xaudio2_any_processor"></span><dl> <dt>**XAUDIO2\_ANY\_PROCESSOR**</dt> <dt>0xffffffff</dt> </dl>             | All processors. <div class="alert"><b>Note</b> If you specify <a href="/windows/desktop/xaudio2/uint32-xaudio2-processor">XAUDIO2_ANY_PROCESSOR</a>, the system will use all of the device's processors and, as stated in the Remarks section below, create a worker thread for each processor.
+<br/>                                       |
 | <span id="XAUDIO2_DEFAULT_PROCESSOR"></span><span id="xaudio2_default_processor"></span><dl> <dt>**XAUDIO2\_DEFAULT\_PROCESSOR**</dt> <dt>Processor1</dt> </dl> | Default processor, which is defined as processor 1.<br/> |
 
 
@@ -54,6 +55,9 @@ Defines values to use with [**XAudio2Create**](/windows/desktop/api/xaudio2/nf-x
 ## Remarks
 
 **XAUDIO2\_PROCESSOR** is type defined as a 32-bit value.
+
+<div class="alert"><b>Note</b>  If multiple processors bits are set when calling <a href="/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create">XAudio2Create</a>, the system will create a separate worker thread for each processor.</div>
+
 
 
 ```
@@ -89,7 +93,3 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
  
 
  
-
-
-
-

@@ -14,7 +14,7 @@ The DMO Wrapper filter enables a DirectShow application to use a [DirectX Media 
 
 |                                          |                                                                                                                                                                                                                                                    |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IDMOWrapperFilter**](/previous-versions/windows/desktop/api/Dmodshow/nn-dmodshow-idmowrapperfilter), [**IPersistStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream)                                                                                                                       |
+| Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IDMOWrapperFilter**](/previous-versions/windows/desktop/api/Dmodshow/nn-dmodshow-idmowrapperfilter), [**IPersistStream**](/windows/desktop/api/objidl/nn-objidl-ipersiststream)                                                                                                                       |
 | Input Pin Media Types                    | See Remarks                                                                                                                                                                                                                                        |
 | Input Pin Interfaces                     | [**IMemInputPin**](/windows/desktop/api/Strmif/nn-strmif-imeminputpin), [**IPin**](/windows/desktop/api/Strmif/nn-strmif-ipin), [**IQualityControl**](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)                                                                                                                                             |
 | Output Pin Media Types                   | See Remarks                                                                                                                                                                                                                                        |
@@ -117,6 +117,3 @@ In GraphEdit, the DMO Wrapper filter does not appear under its own name. Instead
  
 
  
-
-
-

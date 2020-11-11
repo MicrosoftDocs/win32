@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Interactive User
 
-The *interactive user* is the user that is currently logged on to the computer where the COM server is running. If the identity is set to be the interactive user, all clients use the same instance of the server if the server registers its class factory as multi-use. If no user is logged on, the server will not run. If the server has a graphical user interface (GUI) that the client needs to see, you should use interactive user for the server's identity. However, choosing this identity carries some security risks because the server runs under the identity of the logged on user without the logged on user's knowledge or consent. In addition, a service application cannot display a user interface. For more information, see [Interactive Services](https://docs.microsoft.com/windows/desktop/Services/interactive-services).
+The *interactive user* is the user that is currently logged on to the computer where the COM server is running. If the identity is set to be the interactive user, all clients use the same instance of the server if the server registers its class factory as multi-use. If no user is logged on, the server will not run. If the server has a graphical user interface (GUI) that the client needs to see, you should use interactive user for the server's identity. However, choosing this identity carries some security risks because the server runs under the identity of the logged on user without the logged on user's knowledge or consent. In addition, a service application cannot display a user interface. For more information, see [Interactive Services](/windows/desktop/Services/interactive-services).
 
 If a COM server is configured to run as the interactive user, in a terminal services environment, the server will be launched in the interactive session that matches the client's user identity. However, the client application can use the session moniker to reference an object provided by the server in a session that does not match the client identity. When this is used, the client application can specify any session, in which case the server will run as the user who owns the session, not the launching user. The default access permissions in this scenario would not allow the launching user to call methods on the server. However, the following security risks remain:
 
@@ -34,7 +34,3 @@ If a COM server is configured to run as the interactive user, in a terminal serv
  
 
  
-
-
-
-

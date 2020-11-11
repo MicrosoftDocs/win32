@@ -38,7 +38,7 @@ HRESULT SetAdjacencyData(
 *pAdjacency* \[in\]
 </dt> <dd>
 
-Type: **const [**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**UINT**](../winprog/windows-data-types.md)\***
 
 The adjacency data to set.
 
@@ -74,7 +74,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

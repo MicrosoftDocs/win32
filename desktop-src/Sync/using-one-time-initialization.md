@@ -14,9 +14,9 @@ The following examples demonstrate the use of the one-time initialization functi
 
 In this example, the `g_InitOnce` global variable is the one-time initialization structure. It is initialized statically using **INIT\_ONCE\_STATIC\_INIT**.
 
-The `OpenEventHandleSync` function returns a handle to an event that is created only once. It calls the [**InitOnceExecuteOnce**](https://msdn.microsoft.com/library/ms683493(v=VS.85).aspx) function to execute the initialization code contained in the `InitHandleFunction` callback function. If the callback function succeeds, `OpenEventHandleSync` returns the event handle returned in *lpContext*; otherwise, it returns **INVALID\_HANDLE\_VALUE**.
+The `OpenEventHandleSync` function returns a handle to an event that is created only once. It calls the [**InitOnceExecuteOnce**](/windows/win32/api/synchapi/nf-synchapi-initonceexecuteonce) function to execute the initialization code contained in the `InitHandleFunction` callback function. If the callback function succeeds, `OpenEventHandleSync` returns the event handle returned in *lpContext*; otherwise, it returns **INVALID\_HANDLE\_VALUE**.
 
-The `InitHandleFunction` function is the [one-time initialization callback function](https://msdn.microsoft.com/library/ms683490(v=VS.85).aspx). `InitHandleFunction` calls the [**CreateEvent**](https://msdn.microsoft.com/library/ms682396(v=VS.85).aspx) function to create the event and returns the event handle in the *lpContext* parameter.
+The `InitHandleFunction` function is the [one-time initialization callback function](/windows/win32/api/synchapi/nc-synchapi-pinit_once_fn). `InitHandleFunction` calls the [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa) function to create the event and returns the event handle in the *lpContext* parameter.
 
 
 ```C++
@@ -89,11 +89,11 @@ BOOL CALLBACK InitHandleFunction (
 
 In this example, the `g_InitOnce` global variable is the one-time initialization structure. It is initialized statically using **INIT\_ONCE\_STATIC\_INIT**.
 
-The `OpenEventHandleAsync` function returns a handle to an event that is created only once. `OpenEventHandleAsync` calls the [**InitOnceBeginInitialize**](https://msdn.microsoft.com/library/ms683487(v=VS.85).aspx) function to enter the initializing state.
+The `OpenEventHandleAsync` function returns a handle to an event that is created only once. `OpenEventHandleAsync` calls the [**InitOnceBeginInitialize**](/windows/win32/api/synchapi/nf-synchapi-initoncebegininitialize) function to enter the initializing state.
 
-If the call succeeds, the code checks the value of the *fPending* parameter to determine whether to create the event or simply return a handle to the event created by another thread. If *fPending* is **FALSE**, initialization has already completed so `OpenEventHandleAsync` returns the event handle returned in the *lpContext* parameter. Otherwise, it calls the [**CreateEvent**](https://msdn.microsoft.com/library/ms682396(v=VS.85).aspx) function to create the event and the [**InitOnceComplete**](https://msdn.microsoft.com/library/ms683491(v=VS.85).aspx) function to complete the initialization.
+If the call succeeds, the code checks the value of the *fPending* parameter to determine whether to create the event or simply return a handle to the event created by another thread. If *fPending* is **FALSE**, initialization has already completed so `OpenEventHandleAsync` returns the event handle returned in the *lpContext* parameter. Otherwise, it calls the [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa) function to create the event and the [**InitOnceComplete**](/windows/win32/api/synchapi/nf-synchapi-initoncecomplete) function to complete the initialization.
 
-If the call to [**InitOnceComplete**](https://msdn.microsoft.com/library/ms683491(v=VS.85).aspx) succeeds, `OpenEventHandleAsync` returns the new event handle. Otherwise, it closes the event handle and calls [**InitOnceBeginInitialize**](https://msdn.microsoft.com/library/ms683487(v=VS.85).aspx) with **INIT\_ONCE\_CHECK\_ONLY** to determine whether initialization failed or was completed by another thread.
+If the call to [**InitOnceComplete**](/windows/win32/api/synchapi/nf-synchapi-initoncecomplete) succeeds, `OpenEventHandleAsync` returns the new event handle. Otherwise, it closes the event handle and calls [**InitOnceBeginInitialize**](/windows/win32/api/synchapi/nf-synchapi-initoncebegininitialize) with **INIT\_ONCE\_CHECK\_ONLY** to determine whether initialization failed or was completed by another thread.
 
 If the initialization was completed by another thread, `OpenEventHandleAsync` returns the event handle returned in *lpContext*. Otherwise, it returns **INVALID\_HANDLE\_VALUE**.
 
@@ -188,6 +188,3 @@ HANDLE OpenEventHandleAsync()
  
 
  
-
-
-

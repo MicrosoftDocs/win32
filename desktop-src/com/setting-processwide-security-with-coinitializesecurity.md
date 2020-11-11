@@ -18,7 +18,7 @@ Another common scenario in which you might set process-wide security programmati
 
 If your application has very specialized security requirements, such as allowing certain groups access to different objects depending on the time of day, you might want to handle all of your security programmatically, ensuring that COM does no automatic checking for you at all. To do this, you must call [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity), setting the *dwAuthnLevel* parameter to none and the *pVoid* parameter to **NULL**. If you have your own security package you would also need to register it in the *pAuthnSvc* parameter. Then you can handle all of your own security programmatically through calls to the proxy-level interface and functions described in [Setting Security at the Interface Proxy Level](setting-security-at-the-interface-proxy-level.md).
 
-[**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) offers a rich set of capabilities. If you call **CoInitializeSecurity**, the registry values are ignored and the security initialization values you pass in to the call are used instead. Depending on the result you want, the first parameter, *pVoid*, can point to three different types of values: a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) , an [**IAccessControl**](/windows/desktop/api/IAccess/nn-iaccess-iaccesscontrol) object, or a pointer to an AppID. In most cases, you will use Windows functions to create a **SECURITY\_DESCRIPTOR** that *pVoid* will point to.
+[**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) offers a rich set of capabilities. If you call **CoInitializeSecurity**, the registry values are ignored and the security initialization values you pass in to the call are used instead. Depending on the result you want, the first parameter, *pVoid*, can point to three different types of values: a [**SECURITY\_DESCRIPTOR**](/windows/desktop/api/winnt/ns-winnt-security_descriptor) , an [**IAccessControl**](/windows/desktop/api/IAccess/nn-iaccess-iaccesscontrol) object, or a pointer to an AppID. In most cases, you will use Windows functions to create a **SECURITY\_DESCRIPTOR** that *pVoid* will point to.
 
 However, *pVoid* can also point to an [**IAccessControl**](/windows/desktop/api/IAccess/nn-iaccess-iaccesscontrol) object.
 
@@ -36,7 +36,3 @@ Another type of value you can pass to the *pVoid* parameter is a pointer to a GU
  
 
  
-
-
-
-

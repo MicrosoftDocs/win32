@@ -3,10 +3,13 @@ title: Accessibility (Design basics)
 description: Designing software for accessibility means ensuring that programs and functionality are easily available to the widest range of users, including those who have disabilities and impairments.
 ms.assetid: df6947ec-6a1d-4645-ae3e-863839c32588
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Accessibility
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 Designing software for accessibility means ensuring that programs and functionality are easily available to the widest range of users, including those who have disabilities and impairments.
 
@@ -50,7 +53,7 @@ For more guidelines about helping users with these impairments, see [Addressing 
 
 A screen reader enables users with visual disabilities or impairments to navigate a UI by transforming visuals to audio. Thus, UI text, controls, menus, toolbars, graphics, and other screen elements are spoken by the computerized voice of the screen reader. To create a program optimized for screen reader assistive technology, you must plan for how the screen reader will identify each UI element.
 
-Each UI element that the user can interact with must be keyboard accessible, as well as be exposed through an accessibility application programming interface (API). We recommend using UI Automation, the new accessibility framework for all versions of Microsoft Windows that support Windows Presentation Foundation (WPF). UI Automation provides programmatic access to most elements on the desktop, enabling assistive technology products such as screen readers to provide information about the UI to users and to manipulate the UI by means other than standard input (for example, by speaking rather than or in addition to manipulating the mouse or keyboard). For more information, see the [UI Automation Overview](https://msdn2.microsoft.com/library/ms747327.aspx).
+Each UI element that the user can interact with must be keyboard accessible, as well as be exposed through an accessibility application programming interface (API). We recommend using UI Automation, the new accessibility framework for all versions of Microsoft Windows that support Windows Presentation Foundation (WPF). UI Automation provides programmatic access to most elements on the desktop, enabling assistive technology products such as screen readers to provide information about the UI to users and to manipulate the UI by means other than standard input (for example, by speaking rather than or in addition to manipulating the mouse or keyboard). For more information, see the [UI Automation Overview](/dotnet/framework/ui-automation/ui-automation-overview).
 
 Be aware that although screen readers are a very important assistive technology, there are others as well. For more information about the range of technologies available, see [Types of Assistive Technology Products](https://www.microsoft.com/enable/at/types.aspx).
 
@@ -149,7 +152,7 @@ Respect as a general, guiding principle is vital for designing accessible progra
 
 You should also demonstrate respect by:
 
--   Using system-wide settings (for example, System Color) rather than hardwiring settings for your particular program. Respect not only the parameters that users have specifically selected for interacting with their programs, but also accessibility features built into the operating system that the user wants in effect no matter which program they are using. For more information, see [About Windows Accessibility Features](https://msdn2.microsoft.com/library/ms695605.aspx).
+-   Using system-wide settings (for example, System Color) rather than hardwiring settings for your particular program. Respect not only the parameters that users have specifically selected for interacting with their programs, but also accessibility features built into the operating system that the user wants in effect no matter which program they are using. For more information, see [About Windows Accessibility Features](/previous-versions//ms695605(v=vs.85)).
 -   Preferring common controls to custom controls, because common controls have already implemented the Windows accessibility APIs.
 -   Documenting all accessibility options and features (for example, all keyboard shortcuts). Users with impairments are highly motivated to discover accessibility features, and often expect comprehensive information to be collected in Help.
 -   Creating accessible documentation in accessible formats. Thus, the documentation itself should adhere to the same rules of accessibility as the primary UI, including the ability to enlarge font size, the use of alt text for graphics, and redundant information architecture (for example, using color-coding only as a supplement to text).
@@ -162,8 +165,8 @@ Providing programmatic access to the UI is essential so that assistive technolog
 
 Do this well by:
 
--   Enabling programmatic access to all UI elements and text (for example, using the Active Accessibility COM interface, [**IAccessible**](https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible)).
--   Placing names (or titles) and descriptions on UI objects, frames, and pages (for example, using the [**IAccessible**](https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible) Name property).
+-   Enabling programmatic access to all UI elements and text (for example, using the Active Accessibility COM interface, [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible)).
+-   Placing names (or titles) and descriptions on UI objects, frames, and pages (for example, using the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) Name property).
 -   Ensuring programmatic events are triggered by all UI activities (for example, focus events for all UI activities involving focus movement).
 
 **If you do only four things...**
@@ -342,10 +345,4 @@ For more guidelines and examples, see [Keyboard](inter-keyboard.md).
  
 
  
-
- 
-
-
-
-
 

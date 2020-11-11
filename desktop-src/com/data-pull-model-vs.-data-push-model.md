@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Data-Pull Model and Data-Push Model
 
-A client of an asynchronous moniker can choose between a data-pull and data-push model for driving an asynchronous [**IMoniker::BindToStorage**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtostorage) operation and receiving asynchronous notifications. In the data-pull model, the client drives the bind operation and the moniker provides data to the client only as it is read. In other words, after the first call to [**IBindStatusCallback::OnDataAvailable**](https://msdn.microsoft.com/library/ms775061(v=VS.85).aspx), the moniker does not provide any data to the client unless the client has consumed all of the data that is already available.
+A client of an asynchronous moniker can choose between a data-pull and data-push model for driving an asynchronous [**IMoniker::BindToStorage**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtostorage) operation and receiving asynchronous notifications. In the data-pull model, the client drives the bind operation and the moniker provides data to the client only as it is read. In other words, after the first call to [**IBindStatusCallback::OnDataAvailable**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775061(v=vs.85)), the moniker does not provide any data to the client unless the client has consumed all of the data that is already available.
 
 Because data is downloaded only as it is requested, clients that choose the data-pull model must make sure to read this data in a timely manner. In the case of Internet downloads with [URL monikers](url-monikers.md), the bind operation may fail if a client waits too long before requesting more data.
 
@@ -31,7 +31,3 @@ Be sure to follow these rules when allocating strings or buffers that are passed
  
 
  
-
-
-
-

@@ -16,7 +16,7 @@ Microsoft Windows HTTP Services (WinHTTP) provides developers with an HTTP clien
 
 WinHTTP supports desktop client applications, Windows services, and Windows server-based applications.
 
-For more information on how to use WinHTTP for applications built on the Microsoft .NET Framework, see the [WinHttpHandler API](https://docs.microsoft.com/dotnet/api/system.net.http?redirectedfrom=MSDN&view=netframework-4.8)
+For more information on how to use WinHTTP for applications built on the Microsoft .NET Framework, see the [WinHttpHandler API](/dotnet/api/system.net.http?view=netframework-4.8)
 
 ## Developer audience
 
@@ -42,6 +42,3 @@ WinHTTP 5.1 offers improvements over version 5.0. It is included in the operatin
  
 
  
-
-
-

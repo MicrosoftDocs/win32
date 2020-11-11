@@ -22,7 +22,7 @@ The **IESP** interface provides the methods that connect the NPP to the network,
 
 ## Members
 
-The **IESP** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IESP** also has these types of members:
+The **IESP** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IESP** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -63,9 +63,4 @@ The **IESP** interface has these methods.
 
 
  
-
- 
-
-
-
 

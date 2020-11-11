@@ -24,21 +24,21 @@ HKEY_CLASSES_ROOT
       <clsid>
 ```
 
-*<clsid>* is the string representation of the CLSID as produced by the [**StringFromCLSID**](https://msdn.microsoft.com/library/ms683917(v=VS.85).aspx) function. Under the *<clsid>* key, there is an **InProcServer32** key that identifies the object as a 32-bit in-proc server. Under the **InProcServer32** key, the location of the DLL is specified in the default value and the threading model is specified in the **ThreadingModel** value. All context menu extension must use the "Apartment" threading model.
+*<clsid>* is the string representation of the CLSID as produced by the [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) function. Under the *<clsid>* key, there is an **InProcServer32** key that identifies the object as a 32-bit in-proc server. Under the **InProcServer32** key, the location of the DLL is specified in the default value and the threading model is specified in the **ThreadingModel** value. All context menu extension must use the "Apartment" threading model.
 
 ## Registering with Active Directory Domain Services
 
-Context menu extension registration is specific to one locale. If the context menu extension applies to all locales, it must be registered in the object class [**displaySpecifier**](https://docs.microsoft.com/windows/desktop/ADSchema/c-displayspecifier) object in all of the locale subcontainers in the Display Specifiers container. If the context menu extension is localized for a certain locale, it must be registered in the **displaySpecifier** object in that locale's subcontainer. For more information about the Display Specifiers container and locales, see [Display Specifiers](display-specifiers.md) and [DisplaySpecifiers Container](displayspecifiers-container.md).
+Context menu extension registration is specific to one locale. If the context menu extension applies to all locales, it must be registered in the object class [**displaySpecifier**](/windows/desktop/ADSchema/c-displayspecifier) object in all of the locale subcontainers in the Display Specifiers container. If the context menu extension is localized for a certain locale, it must be registered in the **displaySpecifier** object in that locale's subcontainer. For more information about the Display Specifiers container and locales, see [Display Specifiers](display-specifiers.md) and [DisplaySpecifiers Container](displayspecifiers-container.md).
 
-There are two display specifier attributes that a context menu extension item can be registered under. These are [**adminContextMenu**](https://docs.microsoft.com/windows/desktop/ADSchema/a-admincontextmenu) and [**shellContextMenu**](https://docs.microsoft.com/windows/desktop/ADSchema/a-shellcontextmenu).
+There are two display specifier attributes that a context menu extension item can be registered under. These are [**adminContextMenu**](/windows/desktop/ADSchema/a-admincontextmenu) and [**shellContextMenu**](/windows/desktop/ADSchema/a-shellcontextmenu).
 
-The [**adminContextMenu**](https://docs.microsoft.com/windows/desktop/ADSchema/a-admincontextmenu) attribute identifies administrative context menus to display in Active Directory administrative snap-ins. The context menu appears when the user displays the context menu for objects of the appropriate class in one of the Active Directory administrative MMC snap-ins.
+The [**adminContextMenu**](/windows/desktop/ADSchema/a-admincontextmenu) attribute identifies administrative context menus to display in Active Directory administrative snap-ins. The context menu appears when the user displays the context menu for objects of the appropriate class in one of the Active Directory administrative MMC snap-ins.
 
-The [**shellContextMenu**](https://docs.microsoft.com/windows/desktop/ADSchema/a-shellcontextmenu) attribute identifies end-user context menus to display in the Windows shell. The context menu appears when the user views the context menu for objects of the appropriate class in the Windows Explorer. Beginning with Windows Server 2003, the Windows shell no longer displays objects of Active Directory Domain Services.
+The [**shellContextMenu**](/windows/desktop/ADSchema/a-shellcontextmenu) attribute identifies end-user context menus to display in the Windows shell. The context menu appears when the user views the context menu for objects of the appropriate class in the Windows Explorer. Beginning with Windows Server 2003, the Windows shell no longer displays objects of Active Directory Domain Services.
 
 All of these attributes are multi-valued.
 
-When registering a context menu extension, the values for the [**adminContextMenu**](https://docs.microsoft.com/windows/desktop/ADSchema/a-admincontextmenu) and [**shellContextMenu**](https://docs.microsoft.com/windows/desktop/ADSchema/a-shellcontextmenu) attributes require the following format.
+When registering a context menu extension, the values for the [**adminContextMenu**](/windows/desktop/ADSchema/a-admincontextmenu) and [**shellContextMenu**](/windows/desktop/ADSchema/a-shellcontextmenu) attributes require the following format.
 
 
 ```C++
@@ -49,7 +49,7 @@ When registering a context menu extension, the values for the [**adminContextMen
 
 The "&lt;order number&gt;" is an unsigned number that represents the item position in the context menu. When a context menu is displayed, the values are sorted using a comparison of each value's "&lt;order number&gt;". If more than one value has the same "&lt;order number&gt;", those context menu extensions are loaded in the order they are read from the Active Directory server. If possible, use a non-existing "&lt;order number&gt;", that is, one that has not been used by other values in the property. There is no prescribed starting position and gaps are allowed in the "&lt;order number&gt;" sequence.
 
-The "&lt;clsid&gt;" is the string representation of the CLSID as produced by the [**StringFromCLSID**](https://msdn.microsoft.com/library/ms683917(v=VS.85).aspx) function.
+The "&lt;clsid&gt;" is the string representation of the CLSID as produced by the [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) function.
 
 In the Windows shell, multiple-selection context menu items are supported. In this case, the context menu extension is invoked for each selected object. In Active Directory administrative snap-ins, multiple-selection context menu extension items are also supported. In this case, the [**DSOBJECTNAMES**](/windows/desktop/api/Dsclient/ns-dsclient-dsobjectnames) structure will contain a [**DSOBJECT**](/windows/desktop/api/Dsclient/ns-dsclient-dsobject) structure for each directory object selected.
 
@@ -63,7 +63,3 @@ For more information, and a code example of how to implement a context menu exte
  
 
  
-
-
-
-

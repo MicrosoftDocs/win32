@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Title Photo Metadata Policy
 
-The photo metadata policy for the [System.Title](https://msdn.microsoft.com/library/bb787584(VS.85).aspx) property.
+The photo metadata policy for the [System.Title](../properties/props-system-title.md) property.
 
 ### PKEY
 
@@ -165,12 +165,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Title](https://msdn.microsoft.com/library/bb787584(VS.85).aspx)
+[System.Title](../properties/props-system-title.md)
 </dt> </dl>
 
  
 
  
-
-
-

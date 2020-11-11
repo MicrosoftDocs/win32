@@ -18,9 +18,9 @@ api_location:
 
 # TakeOwnerShipEx method of the Win32\_Directory class
 
-The **TakeOwnerShipEx** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method obtains ownership of the logical directory entry file specified in the object path. This method is an extended version of the [**TakeOwnerShip**](takeownership-method-in-class-win32-directory.md) method. If the logical file is actually a directory, then this method acts recursively, taking ownership of all of the files and subdirectories the directory contains.
+The **TakeOwnerShipEx** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method obtains ownership of the logical directory entry file specified in the object path. This method is an extended version of the [**TakeOwnerShip**](takeownership-method-in-class-win32-directory.md) method. If the logical file is actually a directory, then this method acts recursively, taking ownership of all of the files and subdirectories the directory contains.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -49,7 +49,7 @@ Name of the file or directory where the **TakeOwnerShipEx** method failed. This 
 *StartFileName* \[in, optional\]
 </dt> <dd>
 
-Names the child file or directory to use as a starting point for **TakeOwnerShipEx**. The *StartFileName* parameter is typically the *StopFileName* parameter that specifies the file or directory at which an error occurred from the previous method call. If this parameter is **NULL**, the operation is performed on the file or directory specified in the [**ExecMethod**](https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod) call.
+Names the child file or directory to use as a starting point for **TakeOwnerShipEx**. The *StartFileName* parameter is typically the *StopFileName* parameter that specifies the file or directory at which an error occurred from the previous method call. If this parameter is **NULL**, the operation is performed on the file or directory specified in the [**ExecMethod**](/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod) call.
 
 If *StartFileName* is used, *Recursive* must be set to true as well.
 
@@ -208,16 +208,11 @@ wscript.echo objOutParams.ReturnValue
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_Directory**](win32-directory.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

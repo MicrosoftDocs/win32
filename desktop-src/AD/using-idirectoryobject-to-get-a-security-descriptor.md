@@ -16,9 +16,9 @@ This topic includes a code example used to get a security descriptor.
 The following C++ code example:
 
 -   Creates a buffer.
--   Uses the [**IDirectoryObject**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectoryobject) interface to get the security descriptor of the specified object.
+-   Uses the [**IDirectoryObject**](/windows/desktop/api/iads/nn-iads-idirectoryobject) interface to get the security descriptor of the specified object.
 -   Copies the security descriptor to the buffer.
--   Returns a pointer to a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure that contains the security descriptor data.
+-   Returns a pointer to a [**SECURITY\_DESCRIPTOR**](/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure that contains the security descriptor data.
 
 
 ```C++
@@ -83,7 +83,3 @@ HRESULT GetSDFromIDirectoryObject(
  
 
  
-
-
-
-

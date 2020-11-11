@@ -54,7 +54,7 @@ The current index is stored as a floating-point value. Integer values are conver
 
 Index values outside the representable range of the color-index buffer are not clamped. However, before an index is dithered (if enabled) and written to the framebuffer, it is converted to fixed-point format. Any bits in the integer portion of the resulting fixed-point value that do not correspond to bits in the framebuffer are masked out.
 
-The current index can be updated at any time. In particular, **glIndexiv** can be called between a call to [**glBegin**](https://docs.microsoft.com/windows/desktop/OpenGL/glbegin) and the corresponding call to [**glEnd**](glend.md).
+The current index can be updated at any time. In particular, **glIndexiv** can be called between a call to [**glBegin**](/windows/desktop/OpenGL/glbegin) and the corresponding call to [**glEnd**](glend.md).
 
 The following function retrieves information related to **glIndexiv**:
 
@@ -91,10 +91,4 @@ The following function retrieves information related to **glIndexiv**:
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

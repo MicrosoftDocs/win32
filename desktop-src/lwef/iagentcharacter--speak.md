@@ -41,22 +41,22 @@ The URL (or file specification) of a sound file to use for spoken output. This c
 <span id="pdwReqID"></span><span id="pdwreqid"></span><span id="PDWREQID"></span>*pdwReqID*
 </dt> <dd>
 
-Address of a variable that receives the [**Speak**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--speak) request ID.
+Address of a variable that receives the [**Speak**](/windows/desktop/lwef/iagentcharacter--speak) request ID.
 
 </dd> </dl>
 
 To use this method with a character configured to speak using a text-to-speech (TTS) engine; simply provide the *bszText* parameter. You can include vertical bar characters (\|) in the *bszText* parameter to designate alternative strings, so that each time the server processes the method, it randomly choose a different string. Support of TTS output is defined when the character is compiled using the Microsoft Agent Character Editor.
 
-If you want to use sound file output for the character, specify the location for the file in the *bszURL* parameter. When using the HTTP protocol to download a sound file, use the [**Prepare**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--prepare) method to ensure the availability of the file before using this method. You can use the *bszText* parameter to specify the words that appear in the character's word balloon. If you specify a linguistically enhanced sound file (.LWV) for the *bszURL* parameter and do not specify text, the *bszText* parameter uses the text stored in the file.
+If you want to use sound file output for the character, specify the location for the file in the *bszURL* parameter. When using the HTTP protocol to download a sound file, use the [**Prepare**](/windows/desktop/lwef/iagentcharacter--prepare) method to ensure the availability of the file before using this method. You can use the *bszText* parameter to specify the words that appear in the character's word balloon. If you specify a linguistically enhanced sound file (.LWV) for the *bszURL* parameter and do not specify text, the *bszText* parameter uses the text stored in the file.
 
-The [**Speak**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--speak) method uses the last animation played to determine which speaking animation to play. For example, if you precede the **Speak** command with an [**IAgentCharacter::Play**](iagentcharacter--play.md) "**GestureRight**", the server will play **GestureRight** and then the **GestureRight** speaking animation. If the last animation played has no speaking animation, then Microsoft Agent plays the animation assigned to the character's **Speaking** state.
+The [**Speak**](/windows/desktop/lwef/iagentcharacter--speak) method uses the last animation played to determine which speaking animation to play. For example, if you precede the **Speak** command with an [**IAgentCharacter::Play**](iagentcharacter--play.md) "**GestureRight**", the server will play **GestureRight** and then the **GestureRight** speaking animation. If the last animation played has no speaking animation, then Microsoft Agent plays the animation assigned to the character's **Speaking** state.
 
-If you call [**Speak**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--speak) and the audio channel is busy, the character's audio output will not be heard, but the text will display in the word balloon. The word balloon's [Enabled](enabled-property.md) property must also be **True** for the text to display.
+If you call [**Speak**](/windows/desktop/lwef/iagentcharacter--speak) and the audio channel is busy, the character's audio output will not be heard, but the text will display in the word balloon. The word balloon's [Enabled](enabled-property.md) property must also be **True** for the text to display.
 
 Microsoft Agent's automatic word breaking in the word balloon, breaks words using white-space characters (for example, space and tab). However, it may break a word to fit the balloon as well. In languages like Japanese, Chinese, and Thai, where spaces are not used to break words, insert a Unicode zero width space character (0x200B) between characters to define logical word breaks.
 
 > [!Note]  
-> Set the character's language ID (using [**IAgentCharacterEx::SetLanguageID**](iagentcharacterex--setlanguageid.md) before using the [**Speak**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--speak) method to ensure appropriate text display within the word balloon.
+> Set the character's language ID (using [**IAgentCharacterEx::SetLanguageID**](iagentcharacterex--setlanguageid.md) before using the [**Speak**](/windows/desktop/lwef/iagentcharacter--speak) method to ensure appropriate text display within the word balloon.
 
  
 
@@ -68,7 +68,3 @@ Microsoft Agent's automatic word breaking in the word balloon, breaks words usin
  
 
  
-
-
-
-

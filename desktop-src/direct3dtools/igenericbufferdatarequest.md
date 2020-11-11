@@ -26,7 +26,7 @@ Request for the contents of an object in XML form.
 
 ## Members
 
-The **IGenericBufferDataRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IGenericBufferDataRequest** also has these types of members:
+The **IGenericBufferDataRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IGenericBufferDataRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,7 +34,7 @@ The **IGenericBufferDataRequest** interface inherits from the [**IUnknown**](htt
 
 The **IGenericBufferDataRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/igenericbufferdatarequest-requestasync-dumpertype-eventid-dword-igenericbufferdatacallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Requests to return generic object data that describes an object in the .vsglog file for the specified event and in the specified format.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/igenericbufferdatarequest-requestasync-dumpertype-eventid-dword-igenericbufferdatacallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Requests to return generic object data that describes an object in the .vsglog file for the specified event and in the specified format.</p></td></tr></tbody></table>
 
  
 
@@ -45,6 +45,3 @@ The **IGenericBufferDataRequest** interface has these methods.
  
 
  
-
-
-

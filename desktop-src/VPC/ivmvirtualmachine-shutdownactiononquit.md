@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualMachine::ShutdownActionOnQuit property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves and sets the action to be performed on this virtual machine (VM) if it is running when Windows Virtual PC is quit.
 
@@ -91,10 +91,4 @@ By default, running VMs are saved when Windows Virtual PC is quit. The shutdown 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

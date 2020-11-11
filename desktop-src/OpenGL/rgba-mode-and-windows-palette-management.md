@@ -21,7 +21,7 @@ The standard super-VGA display uses palettes with eight color-bits per pixel. Th
 
 Because there are eight color-bits per pixel, OpenGL emphasizes the use of a three-three-two RGBA palette. "Three-three-two" refers to how the color-bit data is handled by the hardware or physical palette. Red (R) and green (G) are each specified by three bits; blue (B) is specified by two bits. Red is the least-significant bit and blue is the most-significant bit.
 
-You determine the colors of your application's logical palette with [PALETTEENTRY](https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)) structures. Typically you create an array of **PALETTEENTRY** structures to specify the entire palette entry table of the logical palette.
+You determine the colors of your application's logical palette with [PALETTEENTRY](/previous-versions//dd162769(v=vs.85)) structures. Typically you create an array of **PALETTEENTRY** structures to specify the entire palette entry table of the logical palette.
 
 ## RGBA Mode Palette Sample
 
@@ -295,7 +295,3 @@ main(int argc, char *argv[])
  
 
  
-
-
-
-

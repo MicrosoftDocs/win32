@@ -13,7 +13,6 @@ You must use a rooted view in order to have an extension display the contents of
 
 ## Instructions
 
-### 
 
 The following example illustrates how to use the registry to provide a rooted view of the members of a file type by modifying the registry. The sample registry entry is a modification of one of the examples in [Extending Shortcut Menus](context.md). The registry entries define files with an .myp file name extension as a file type, and use the **browse** verb to launch a rooted view of members of that type.
 

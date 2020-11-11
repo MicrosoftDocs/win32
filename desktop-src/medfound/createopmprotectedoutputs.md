@@ -46,7 +46,7 @@ NTSTATUS WINAPI CreateOPMProtectedOutputs(
 *pstrDeviceName* \[in\]
 </dt> <dd>
 
-A pointer to a [**UNICODE\_STRING**](https://msdn.microsoft.com/library/Aa380518(v=VS.85).aspx) structure that contains the name of the display device, as returned by the [**GetMonitorInfo**](https://msdn.microsoft.com/library/Dd144901(v=VS.85).aspx) function.
+A pointer to a [**UNICODE\_STRING**](/windows/win32/api/subauth/ns-subauth-unicode_string) structure that contains the name of the display device, as returned by the [**GetMonitorInfo**](/windows/win32/api/winuser/nf-winuser-getmonitorinfoa) function.
 
 </dd> <dt>
 
@@ -89,7 +89,7 @@ Instead of using this function, applications should call one of the following fu
 -   [**OPMGetVideoOutputsFromIDirect3DDevice9Object**](/windows/desktop/api/opmapi/nf-opmapi-opmgetvideooutputsfromidirect3ddevice9object)
 -   [**OPMGetVideoOutputsFromHMONITOR**](/windows/desktop/api/opmapi/nf-opmapi-opmgetvideooutputsfromhmonitor)
 
-This function has no associated import library. To call this function, you must use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Gdi32.dll.
+This function has no associated import library. To call this function, you must use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Gdi32.dll.
 
 ## Requirements
 
@@ -116,7 +116,3 @@ This function has no associated import library. To call this function, you must 
  
 
  
-
-
-
-

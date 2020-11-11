@@ -17,7 +17,7 @@ api_location:
 
 # SslIncrementProviderReferenceCount function
 
-The **SslIncrementProviderReferenceCount** function increments the reference count to a [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) provider instance.
+The **SslIncrementProviderReferenceCount** function increments the reference count to a [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) provider instance.
 
 ## Syntax
 
@@ -73,9 +73,4 @@ Possible return codes include, but are not limited to, the following.
 
 
  
-
- 
-
-
-
 

@@ -17,9 +17,9 @@ api_location:
 
 # ISCardISO7816::WriteBinary method
 
-\[The **WriteBinary** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **WriteBinary** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
-The **WriteBinary** method constructs an [*application protocol data unit*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (APDU) command that writes binary values into an elementary file.
+The **WriteBinary** method constructs an [*application protocol data unit*](../secgloss/a-gly.md) (APDU) command that writes binary values into an elementary file.
 
 Depending upon the file attributes, the command performs one of the following operations:
 
@@ -73,7 +73,7 @@ Pointer to the string of data units to be written.
 
 On input, a pointer to an [**ISCardCmd**](iscardcmd.md) interface object or **NULL**.
 
-On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) [**ISCardCmd**](iscardcmd.md) object is internally created and returned via the *ppCmd* pointer.
+On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](../secgloss/s-gly.md) [**ISCardCmd**](iscardcmd.md) object is internally created and returned via the *ppCmd* pointer.
 
 </dd> </dl>
 
@@ -96,7 +96,7 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-The encapsulated command can only be performed if the security status of the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) satisfies the security attributes of the elementary file being processed.
+The encapsulated command can only be performed if the security status of the [*smart card*](../secgloss/s-gly.md) satisfies the security attributes of the elementary file being processed.
 
 When the command contains a valid short elementary identifier, it sets the file as current elementary file.
 
@@ -144,7 +144,3 @@ In addition to the COM error codes listed above, this interface may return a sma
  
 
  
-
-
-
-

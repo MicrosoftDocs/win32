@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 With Windows Media 10 technology, you can now meter content usage on a portable device. If a Windows Media 10 license allows metering, the device can store the play count for songs and upload usage back to the license issuer over the Internet. This system enables content providers to adjust their royalty fees by accurately measuring content usage.
 
-To meter content, the application must have a metering certificate provided by a licensing service built on the Windows Media Rights Manager 10 SDK. Only content licensed by this same service can be metered. For more information on how metering works, and how to build a license metering service, see the [Windows Media Rights Manager SDK documentation](https://msdn.microsoft.com/library/ms986509.aspx) on MSDN. The SDK can be acquired by filling out the necessary information on the [Windows Media Licensing Page](http://wmlicense.smdisp.net/licenserequest/default.asp).
+To meter content, the application must have a metering certificate provided by a licensing service built on the Windows Media Rights Manager 10 SDK. Only content licensed by this same service can be metered. For more information on how metering works, and how to build a license metering service, see the [Windows Media Rights Manager SDK documentation](/previous-versions/ms986509(v=msdn.10)) on MSDN. The SDK can be acquired by filling out the necessary information on the [Windows Media Licensing Page](https://www.microsoft.com/licensing/default).
 
 An application can have metering built in to it, or you can build a COM plug-in for an existing application, such as the Windows Media Player, if the application accepts metering plug-ins.
 
@@ -32,12 +32,8 @@ The following steps show how an application can meter content usage.
 3.  Send the retrieved metering data to the metering service at the URL retrieved by **GenerateMeterChallenge**. The format of data sent to the service depends on the scripting on that particular service. For example, some services might require the data sent as a POST command as a name/value pair. The service provider should let you know their particular formatting requirements.
 4.  Get a response from the metering service, and send it to the device by calling [**IWMDRMDeviceApp::ProcessMeterResponse**](iwmdrmdeviceapp-processmeterresponse.md). This causes the device to reset play counts, and also returns a value indicating whether more metering data exists on the device that should be retrieved by calling **GenerateMeterChallenge** again.
 
-For extensive information and sample code for metering, see the [Windows Media Web site](https://msdn.microsoft.com/library/windows/desktop/bb614723(v=vs.85).aspx).
+For extensive information and sample code for metering, see the [Windows Media Web site](/previous-versions//bb614723(v=vs.85)).
 
  
 
  
-
-
-
-

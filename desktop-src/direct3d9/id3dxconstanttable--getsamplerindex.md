@@ -46,7 +46,7 @@ The sampler handle.
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Returns the sampler index number from the constant table.
 
@@ -71,7 +71,3 @@ Returns the sampler index number from the constant table.
  
 
  
-
-
-
-

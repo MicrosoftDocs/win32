@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 In the following example, a hypothetical software development company called Litware, Inc. creates a new audio player called LitwarePlayer. Litware wants to design a file association between LitwarePlayer and its primary file type, which uses a newly developed audio format that enables an entire audio CD to be stored in less than 10 kilobytes of memory with no loss of quality.
 
 > [!IMPORTANT]
-> This topic does not apply for Windows 10. The way that default file associations work changed in Windows 10. For more information, see the section on **Changes to how Windows 10 handles default apps** in [this post](http://blogs.windows.com/bloggingwindows/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/).
+> This topic does not apply for Windows 10. The way that default file associations work changed in Windows 10. For more information, see the section on **Changes to how Windows 10 handles default apps** in [this post](https://blogs.windows.com/bloggingwindows/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/).
 
  
 
@@ -62,7 +62,7 @@ The company should take the following steps.
 
 -   [Introduction to File Associations](fa-intro.md)
 -   [How to Register an Internet Browser or Email Client With the Windows Start Menu](start-menu-reg.md)
--   [Registering an Application to a URI Scheme](https://msdn.microsoft.com/library/Aa767914(v=VS.85).aspx)
+-   [Registering an Application to a URI Scheme](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767914(v=vs.85))
 
 ## Related topics
 
@@ -83,6 +83,3 @@ The company should take the following steps.
  
 
  
-
-
-

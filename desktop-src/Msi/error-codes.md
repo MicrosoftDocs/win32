@@ -1,25 +1,19 @@
 ---
-Description: These error codes are returned by the Windows Installer functions MsiExec.exe and InstMsi.exe.
+description: These error codes are returned by the Windows Installer functions MsiExec.exe and InstMsi.exe.
 ms.assetid: 9ea81ef3-a5b5-4d13-b0b8-3da6e919315e
-title: MsiExec.exe and InstMsi.exe Error Messages
+title: MsiExec.exe and InstMsi.exe Error Messages (for Developers)
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/11/2020
 ---
 
-# MsiExec.exe and InstMsi.exe Error Messages
+# MsiExec.exe and InstMsi.exe Error Messages (for Developers)
+
+> [!NOTE]  
+> This article is intended for software developers who are using Windows Installer to build installer packages for their applications. If you are a user experiencing difficulty with your computer either during or after installing or uninstalling an application, you should contact customer support for the software you are trying to install or remove. If you feel you are in need of support for a Microsoft product, please go to our technical support site at [support.microsoft.com](https://support.microsoft.com).
 
 These error codes are returned by the Windows Installer functions **MsiExec.exe** and **InstMsi.exe**. Note that any error in Winerror.h (such as ERROR\_INVALID\_DATA, included here) can be returned as well. For more error codes returned by the Windows Installer, see [Windows Installer Error Messages](windows-installer-error-messages.md).
-
-> [!Note]  
+ 
 > The error codes ERROR\_SUCCESS, ERROR\_SUCCESS\_REBOOT\_INITIATED, and ERROR\_SUCCESS\_REBOOT\_REQUIRED are indicative of success. If ERROR\_SUCCESS\_REBOOT\_REQUIRED is returned, the installation completed successfully but a reboot is required to complete the installation operation.
-
- 
-
-> [!Note]  
-> If you are a user experiencing difficulty with your computer either during or after installing or uninstalling an application, you should contact customer support for the software you are trying to install or remove. If you feel you are in need of support for a Microsoft product, please go to our technical support site at [support.microsoft.com](https://support.microsoft.com).
-
- 
-
 
 
 | Error code                                 | Value | Description                                                                                                                                                                                                                                                                   |
@@ -79,7 +73,7 @@ These error codes are returned by the Windows Installer functions **MsiExec.exe*
 | ERROR\_PATCH\_REMOVAL\_DISALLOWED          | 1649  | Patch removal was disallowed by policy. Available beginning with Windows Installer version 3.0.                                                                                                                                                                               |
 | ERROR\_INVALID\_PATCH\_XML                 | 1650  | The XML patch data is invalid. Available beginning with Windows Installer version 3.0.                                                                                                                                                                                        |
 | ERROR\_PATCH\_MANAGED\_ADVERTISED\_PRODUCT | 1651  | Administrative user failed to apply patch for a per-user managed or a per-machine application that is in advertise state. Available beginning with Windows Installer version 3.0.                                                                                             |
-| ERROR\_INSTALL\_SERVICE\_SAFEBOOT          | 1652  | Windows Installer is not accessible when the computer is in Safe Mode. Exit Safe Mode and try again or try using [System Restore](https://docs.microsoft.com/windows/desktop/sr/system-restore-portal) to return your computer to a previous state. Available beginning with Windows Installer version 4.0.          |
+| ERROR\_INSTALL\_SERVICE\_SAFEBOOT          | 1652  | Windows Installer is not accessible when the computer is in Safe Mode. Exit Safe Mode and try again or try using [System Restore](/windows/desktop/sr/system-restore-portal) to return your computer to a previous state. Available beginning with Windows Installer version 4.0.          |
 | ERROR\_ROLLBACK\_DISABLED                  | 1653  | Could not perform a multiple-package transaction because rollback has been disabled. [Multiple-Package Installations](multiple-package-installations.md) cannot run if rollback is disabled. Available beginning with Windows Installer version 4.5.                         |
 | ERROR\_INSTALL\_REJECTED                   | 1654  | The app that you are trying to run is not supported on this version of Windows. A Windows Installer package, patch, or transform that has not been signed by Microsoft cannot be installed on an ARM computer.                                                                |
 | ERROR\_SUCCESS\_REBOOT\_REQUIRED           | 3010  | A restart is required to complete the install. This message is indicative of a success. This does not include installs where the [ForceReboot](forcereboot-action.md) action is run.                                                                                         |
@@ -89,9 +83,4 @@ These error codes are returned by the Windows Installer functions **MsiExec.exe*
  
 
  
-
- 
-
-
-
 

@@ -12,7 +12,7 @@ Several options are available for receiving completion indications, thus providi
 
 ## Blocking and Waiting for Completion Indication
 
-Applications can block while waiting for one or more event objects to become set using the [**WSAWaitForMultipleEvents**](/windows/desktop/api/Winsock2/nf-winsock2-wsawaitformultipleevents) function. In Windows implementations, the process or thread truly blocks. Since Windows Sockets 2 event objects are implemented as Windows events, the native Windows function, [**WaitForMultipleObjects**](https://msdn.microsoft.com/library/ms687025(v=VS.85).aspx) can also be used for this purpose. This is especially useful if the thread needs to wait on both socket and nonsocket events.
+Applications can block while waiting for one or more event objects to become set using the [**WSAWaitForMultipleEvents**](/windows/desktop/api/Winsock2/nf-winsock2-wsawaitformultipleevents) function. In Windows implementations, the process or thread truly blocks. Since Windows Sockets 2 event objects are implemented as Windows events, the native Windows function, [**WaitForMultipleObjects**](/windows/win32/api/synchapi/nf-synchapi-waitformultipleobjects) can also be used for this purpose. This is especially useful if the thread needs to wait on both socket and nonsocket events.
 
 ## Polling for Completion Indication
 
@@ -42,6 +42,3 @@ The particular overlapped I/O completion indication to be used for a given overl
  
 
  
-
-
-

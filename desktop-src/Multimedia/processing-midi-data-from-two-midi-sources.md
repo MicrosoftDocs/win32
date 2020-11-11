@@ -18,16 +18,12 @@ ms.date: 05/31/2018
 
 The MIDI subsystem can route MIDI messages from two data sources to a single MIDI output device for concurrent playback. For example, one source can be background music or a bass line that has been pre-recorded and stored in a file. The second source can be live data from a MIDI instrument, such as a keyboard or guitar.
 
-Both data sources send MIDI data to a single MIDI device that is identified with one handle. Send one data stream by using the [**midiStreamOut**](https://msdn.microsoft.com/library/Dd798487(v=VS.85).aspx) function and one or more stream buffers. This data stream typically contains prerecorded data that is packed into the buffer.
+Both data sources send MIDI data to a single MIDI device that is identified with one handle. Send one data stream by using the [**midiStreamOut**](/windows/win32/api/mmeapi/nf-mmeapi-midistreamout) function and one or more stream buffers. This data stream typically contains prerecorded data that is packed into the buffer.
 
-Send the second data stream (typically from a MIDI instrument) asynchronously by using the [**midiOutShortMsg**](https://msdn.microsoft.com/library/Dd798481(v=VS.85).aspx) function. The running status of a stream buffer will not be adversely affected by the asynchronous calls made by the second data stream.
+Send the second data stream (typically from a MIDI instrument) asynchronously by using the [**midiOutShortMsg**](/windows/win32/api/mmeapi/nf-mmeapi-midioutshortmsg) function. The running status of a stream buffer will not be adversely affected by the asynchronous calls made by the second data stream.
 
 Each short message sent with **midiOutShortMsg** must be a complete MIDI message, with a status byte and the appropriate number of data bytes. If the status byte is omitted, **midiOutShortMsg** returns an error. (However, there is no running status with stream output.)
 
  
 
  
-
-
-
-

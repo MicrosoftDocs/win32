@@ -29,13 +29,13 @@ ms.date: 05/31/2018
 
 # Text and TextRange Control Patterns
 
-Describes guidelines and conventions for implementing [**ITextProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextprovider), [**ITextProvider2**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider2), and [**ITextRangeProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextrangeprovider), including information about properties and methods. The **Text** control pattern enables applications and controls to expose a simple text object model, enabling clients to retrieve textual content, text attributes, and embedded objects from text-based controls.
+Describes guidelines and conventions for implementing [**ITextProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextprovider), [**ITextProvider2**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider2), and [**ITextRangeProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextrangeprovider), including information about properties and methods. The **Text** control pattern enables applications and controls to expose a simple text object model, enabling clients to retrieve textual content, text attributes, and embedded objects from text-based controls.
 
-To support the **Text** control pattern, controls implement the [**ITextProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextprovider) and [**ITextProvider2**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider2) interfaces. Control types that should support the **Text** control pattern include the [Edit](uiauto-supporteditcontroltype.md) and [Document](uiauto-supportdocumentcontroltype.md) control types, and any other control type that enables the user to enter text or select read-only text.
+To support the **Text** control pattern, controls implement the [**ITextProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextprovider) and [**ITextProvider2**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider2) interfaces. Control types that should support the **Text** control pattern include the [Edit](uiauto-supporteditcontroltype.md) and [Document](uiauto-supportdocumentcontroltype.md) control types, and any other control type that enables the user to enter text or select read-only text.
 
 The **Text** control pattern can be used with other Microsoft UI Automation control patterns to support several types of embedded objects in the text, including tables, hyperlinks, and command buttons.
 
-The [**ITextProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextprovider) and [**ITextProvider2**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider2) interfaces include a number of methods for acquiring text ranges. A *text range* is an object that represents a contiguous span of text—or multiple, disjoint spans of text—in a text container. One **ITextProvider** method acquires a text range that represents the entire document, while others acquire text ranges that represent some portion of the document, such as the selected text, the visible text, or an object embedded in the text.
+The [**ITextProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextprovider) and [**ITextProvider2**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider2) interfaces include a number of methods for acquiring text ranges. A *text range* is an object that represents a contiguous span of text—or multiple, disjoint spans of text—in a text container. One **ITextProvider** method acquires a text range that represents the entire document, while others acquire text ranges that represent some portion of the document, such as the selected text, the visible text, or an object embedded in the text.
 
 A text range object is represented by the **TextRange** control pattern, which is implemented through the [**ITextRangeProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextrangeprovider) interface. The **TextRange** control pattern provides methods and properties used to expose information about the text in the range, move the endpoints of the range, select or deselect text, scroll the range into view, and so on.
 
@@ -111,13 +111,13 @@ The following properties and methods are required for implementing the [**ITextP
 
  
 
-The following additional properties and methods are required for implementing the [**ITextProvider2**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider2) interface.
+The following additional properties and methods are required for implementing the [**ITextProvider2**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider2) interface.
 
 
 
 | Required members                                                         | Member type | Notes |
 |--------------------------------------------------------------------------|-------------|-------|
-| [**GetCaretRange**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextprovider2-getcaretrange)         | Method      | None  |
+| [**GetCaretRange**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextprovider2-getcaretrange)         | Method      | None  |
 | [**RangeFromAnnotation**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextprovider2-rangefromannotation) | Method      | None  |
 
 
@@ -174,7 +174,7 @@ This section describes how a provider should implement various methods of the [*
 
 ### Manipulating a Text Range by Text Unit
 
-The [**ITextRangeProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextrangeprovider) interface provides several methods for manipulating and navigating text ranges in a text-based control. The [**ITextRangeProvider::Move**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-move), [**MoveEndpointByUnit**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-moveendpointbyunit), and [**ExpandToEnclosingUnit**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-expandtoenclosingunit) methods move a text range or one of its endpoints by the specified text unit, such as character, word, paragraph, and so on. For more information, see [UI Automation Text Units](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-uiautomationtextunits).
+The [**ITextRangeProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextrangeprovider) interface provides several methods for manipulating and navigating text ranges in a text-based control. The [**ITextRangeProvider::Move**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-move), [**MoveEndpointByUnit**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-moveendpointbyunit), and [**ExpandToEnclosingUnit**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-expandtoenclosingunit) methods move a text range or one of its endpoints by the specified text unit, such as character, word, paragraph, and so on. For more information, see [UI Automation Text Units](/windows/desktop/WinAuto/uiauto-uiautomationtextunits).
 
 Despite its name, the [**ITextRangeProvider::ExpandToEnclosingUnit**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-expandtoenclosingunit) method does not necessarily expand a text range. Instead, it "normalizes" a text range by moving the endpoints so that the range encompasses the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is longer than the specified unit. It is critical that the **ExpandToEnclosingUnit** method always normalizes text ranges in a consistent manner; otherwise, other aspects of text range manipulation by text unit would be unpredictable. The following diagram shows how **ExpandToEnclosingUnit** normalizes a text range by moving the endpoints of the range.
 
@@ -226,7 +226,7 @@ When a control contains selected text, the current design of the **Text** contro
 
 Because the accessibility framework provides built-in support for the system caret but not for a custom caret, text-based controls should use the system caret whenever possible. Controls that use a custom caret can ensure that the caret is accessible by creating a system caret that has the same dimensions as the custom caret, and positioning the system caret at the same location in the UI of the control as the custom caret—that is, at the insertion point. As an alternative, a control that uses a custom caret can implement a Microsoft Active Accessibility provider for [**OBJID\_CARET**](object-identifiers.md) to provide accessibility information directly for your custom caret.
 
-For more information about the system caret, see [Carets](https://docs.microsoft.com/windows/desktop/menurc/carets).
+For more information about the system caret, see [Carets](/windows/desktop/menurc/carets).
 
 To test whether your control properly exposes the location of the system caret, use the [Inspect](inspect-objects.md) and [Accessible Event Watcher](accessible-event-watcher.md) tools.
 
@@ -260,7 +260,3 @@ The screen coordinates of the center of the system caret bitmap should always ma
  
 
  
-
-
-
-

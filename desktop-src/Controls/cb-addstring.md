@@ -48,7 +48,7 @@ If you create an owner-drawn combo box with the [**CBS\_SORT**](combo-box-styles
 
 To insert a string at a specific location within the list, use the [**CB\_INSERTSTRING**](cb-insertstring.md) message.
 
-If the combo box has [**WS\_HSCROLL**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) style and you add a string wider than the combo box, send a [**LB\_SETHORIZONTALEXTENT**](lb-sethorizontalextent.md) message to ensure the horizontal scroll bar appears.
+If the combo box has [**WS\_HSCROLL**](/windows/desktop/winmsg/window-styles) style and you add a string wider than the combo box, send a [**LB\_SETHORIZONTALEXTENT**](lb-sethorizontalextent.md) message to ensure the horizontal scroll bar appears.
 
 **Comclt32.dll version 5.0 or later:** If [**CBS\_LOWERCASE**](combo-box-styles.md) or [**CBS\_UPPERCASE**](combo-box-styles.md) is set, the Unicode version of **CB\_ADDSTRING** alters the string. If using read-only global memory, this causes the application to fail.
 
@@ -84,10 +84,4 @@ If the combo box has [**WS\_HSCROLL**](https://docs.microsoft.com/windows/deskto
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

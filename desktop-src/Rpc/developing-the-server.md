@@ -20,12 +20,8 @@ The server application was developed in two files, Mysrvr.c and Rprocs.c. The fi
 
 The files Mysrvr.c and Rprocs.c were compiled together with Myapp\_s.c to produce object files. The object files were then linked with the RPC run-time library, and any other libraries that they might need. The result is an executable server program named Mysrvr.exe.
 
-If you do not compile your IDL file in Open Software Foundation (OSF) compatibility mode ([**/osf**](https://docs.microsoft.com/windows/desktop/Midl/-osf)), your server program must provide a function for allocating memory and a function for deallocating it. For Windows 2000 and later versions of Windows, the recommended mode is [**/Oicf**](https://docs.microsoft.com/windows/desktop/Midl/-oi). For details, see [How Memory Is Allocated and Deallocated](how-memory-is-allocated-and-deallocated.md), and [Pointers and Memory Allocation](pointers-and-memory-allocation.md).
+If you do not compile your IDL file in Open Software Foundation (OSF) compatibility mode ([**/osf**](/windows/desktop/Midl/-osf)), your server program must provide a function for allocating memory and a function for deallocating it. For Windows 2000 and later versions of Windows, the recommended mode is [**/Oicf**](/windows/desktop/Midl/-oi). For details, see [How Memory Is Allocated and Deallocated](how-memory-is-allocated-and-deallocated.md), and [Pointers and Memory Allocation](pointers-and-memory-allocation.md).
 
  
 
  
-
-
-
-

@@ -179,13 +179,13 @@ To create the cursor, [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser
 
  
 
-For more information, see [Bitmaps](https://docs.microsoft.com/windows/desktop/gdi/bitmaps).
+For more information, see [Bitmaps](/windows/desktop/gdi/bitmaps).
 
 Before closing, you must use the [**DestroyCursor**](/windows/desktop/api/Winuser/nf-winuser-destroycursor) function to destroy any cursors you created with [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor). It is not necessary to destroy cursors created by other functions.
 
 ## Displaying a Cursor
 
-The system automatically displays the class cursor (the cursor associated with the window to which the cursor is pointing). You can assign a class cursor while registering a window class. The following example illustrates this by assigning a cursor handle to the **hCursor** member of the [**WNDCLASS**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-wndclassa) structure identified by the *wc* parameter.
+The system automatically displays the class cursor (the cursor associated with the window to which the cursor is pointing). You can assign a class cursor while registering a window class. The following example illustrates this by assigning a cursor handle to the **hCursor** member of the [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) structure identified by the *wc* parameter.
 
 
 ```
@@ -237,7 +237,7 @@ case WM_SETCURSOR:
 
 When the window is not minimized, the system displays the class cursor.
 
-You can replace a class cursor by using the [**SetClassLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclasslonga) function. This function changes the default window settings for all windows of a specified class. The following example replaces the existing class cursor with the `hCurs2` cursor.
+You can replace a class cursor by using the [**SetClassLong**](/windows/desktop/api/winuser/nf-winuser-setclasslonga) function. This function changes the default window settings for all windows of a specified class. The following example replaces the existing class cursor with the `hCurs2` cursor.
 
 
 ```
@@ -250,7 +250,7 @@ SetClassLong(hwnd,    // window handle
 
 
 
-For more information, see [Window Classes](https://docs.microsoft.com/windows/desktop/winmsg/window-classes) and [Mouse Input](https://docs.microsoft.com/windows/desktop/inputdev/mouse-input).
+For more information, see [Window Classes](/windows/desktop/winmsg/window-classes) and [Mouse Input](/windows/desktop/inputdev/mouse-input).
 
 ## Confining a Cursor
 
@@ -600,7 +600,3 @@ switch (message)
  
 
  
-
-
-
-

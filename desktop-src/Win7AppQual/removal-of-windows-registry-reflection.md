@@ -10,15 +10,25 @@ ms.date: 05/31/2018
 
 ## Platform
 
-<dl> **Clients** - Windows 7  
+**Clients** - Windows 7  
 **Servers** - Windows Server 2008 R2  
-</dl>
+
+
+
+
+
+
+
+
 
 ## Feature Impact
 
-<dl> **Severity** - Low  
+ **Severity** - Low  
 **Frequency** - Low  
-</dl>
+
+
+
+
 
 ## Description
 
@@ -75,9 +85,9 @@ Apply one of the following options if you are relying on RegDisableReflectionKey
 
 ## Links to Other Resources
 
--   [Registry Reflection article](https://msdn.microsoft.com/library/Aa384235(v=VS.85).aspx)
--   [Redirected keys list within Registry Redirector article](https://msdn.microsoft.com/library/Aa384232(v=VS.85).aspx)
--   [Best Practices for Wow64](https://docs.microsoft.com/windows-hardware/drivers/display/microsoft-windows-vista-display-driver-64-bit-issues)
+-   [Registry Reflection article](../winprog64/registry-reflection.md)
+-   [Redirected keys list within Registry Redirector article](../winprog64/registry-redirector.md)
+-   [Best Practices for Wow64](/windows-hardware/drivers/display/microsoft-windows-vista-display-driver-64-bit-issues)
 
 > [!Note]  
 > These resources may not be available in some languages and countries/regions.
@@ -87,6 +97,3 @@ Apply one of the following options if you are relying on RegDisableReflectionKey
  
 
  
-
-
-

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Setting the Stream Source (Direct3D 9)
 
-The [**IDirect3DDevice9::SetStreamSource**](/windows/desktop/api) method binds a vertex buffer to a device data stream, creating an association between the vertex data and one of several data stream ports that feed the primitive processing functions. The actual references to the stream data do not occur until a drawing method, such as [**IDirect3DDevice9::DrawPrimitive**](https://msdn.microsoft.com/library/Bb174371(v=VS.85).aspx), is called.
+The [**IDirect3DDevice9::SetStreamSource**](/windows/desktop/api) method binds a vertex buffer to a device data stream, creating an association between the vertex data and one of several data stream ports that feed the primitive processing functions. The actual references to the stream data do not occur until a drawing method, such as [**IDirect3DDevice9::DrawPrimitive**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawprimitive), is called.
 
 A stream is defined as a uniform array of component data, where each component consists of one or more elements representing a single entity such as position, normal, color, and so on. The Stride parameter specifies the size of the component, in bytes.
 
@@ -45,6 +45,3 @@ For more information about this code see the following tutorial: [Tutorial 3: Us
  
 
  
-
-
-

@@ -348,7 +348,7 @@
           - name: "PEER_EVENT_MEMBER_CHANGE_DATA"
             href: /windows/win32/api/P2P/ns-p2p-peer_event_member_change_data
           - name: "PEER_GROUP_EVENT_DATA"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_group_event_data~r1
+            href: /windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1
           - name: "PEER_GROUP_EVENT_REGISTRATION"
             href: /windows/win32/api/P2P/ns-p2p-peer_group_event_registration
           - name: "PEER_GROUP_PROPERTIES"
@@ -613,7 +613,7 @@
           - name: "PNRPINFO_V1"
             href: /windows/win32/api/Pnrpns/ns-pnrpns-pnrpinfo_v1
           - name: "PNRPINFO_V2"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa371671(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa371671(v=vs.85)
         - name: "PNRP Constants"
           href: pnrp-constants.md
           items: 
@@ -769,7 +769,7 @@
         - name: "PEER_APP_LAUNCH_INFO"
           href: /windows/win32/api/P2P/ns-p2p-peer_app_launch_info
         - name: "PEER_COLLAB_EVENT_DATA"
-          href: /windows/desktop/api/P2P/ns-p2p-peer_collab_event_data~r1
+          href: /windows/win32/api/p2p/ns-p2p-peer_collab_event_data-r1
         - name: "PEER_COLLAB_EVENT_REGISTRATION"
           href: /windows/win32/api/P2P/ns-p2p-peer_collab_event_registration
         - name: "PEER_CONTACT"

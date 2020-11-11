@@ -38,60 +38,60 @@
       href: windows-networking-callbacks.md
       items: 
       - name: "PFNGETPROFILEPATH"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385358(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa385358(v=vs.85)
       - name: "PFNPROCESSPOLICIES"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385360(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa385360(v=vs.85)
       - name: "PFNRECONCILEPROFILE"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385364(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa385364(v=vs.85)
     - name: "Windows Networking Functions"
       href: windows-networking-functions.md
       items: 
       - name: "MultinetGetConnectionPerformance"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-multinetgetconnectionperformancea
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-multinetgetconnectionperformancea
       - name: "WNetAddConnection"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona
       - name: "WNetAddConnection2"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a
       - name: "WNetAddConnection3"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a
       - name: "WNetCancelConnection"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnectiona
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnectiona
       - name: "WNetCancelConnection2"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a
       - name: "WNetCloseEnum"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcloseenum
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetcloseenum
       - name: "WNetConnectionDialog"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog
       - name: "WNetConnectionDialog1"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog1a
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog1a
       - name: "WNetDisconnectDialog"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog
       - name: "WNetDisconnectDialog1"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog1a
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog1a
       - name: "WNetEnumResource"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea
       - name: "WNetGetConnection"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona
       - name: "WNetGetLastError"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora
       - name: "WNetGetNetworkInformation"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa
       - name: "WNetGetProviderName"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetprovidernamea
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetgetprovidernamea
       - name: "WNetGetResourceInformation"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceinformationa
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceinformationa
       - name: "WNetGetResourceParent"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceparenta
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceparenta
       - name: "WNetGetUniversalName"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetuniversalnamea
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetgetuniversalnamea
       - name: "WNetGetUser"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetusera
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetgetusera
       - name: "WNetOpenEnum"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetopenenuma
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetopenenuma
       - name: "WNetRestoreConnectionW"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetrestoreconnectionw
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetrestoreconnectionw
       - name: "WNetUseConnection"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetuseconnectiona
+        href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetuseconnectiona
     - name: "Windows Networking Structures"
       href: windows-networking-structures.md
       items: 

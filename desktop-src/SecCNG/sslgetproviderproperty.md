@@ -42,7 +42,7 @@ SECURITY_STATUS WINAPI SslGetProviderProperty(
 *hSslProvider* \[in\]
 </dt> <dd>
 
-The handle of the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) provider for which to retrieve the property.
+The handle of the [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) provider for which to retrieve the property.
 
 </dd> <dt>
 
@@ -119,9 +119,4 @@ Possible return codes include, but are not limited to, the following.
 
 
  
-
- 
-
-
-
 

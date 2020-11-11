@@ -44,9 +44,9 @@ When your application is performing custom rendering or when your application is
 
 | Object or Control                                            | Event                                                                                                                                                                                                                     |
 |--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**InkCollector**](inkcollector-class.md) Object<br/> | The underlying control's [Control.Invalidated](https://msdn.microsoft.com/library/z4yzf1s6(v=VS.90).aspx) and [Control.Paint](https://msdn.microsoft.com/library/02745s21(v=VS.90).aspx) events.<br/>                                 |
-| [**InkOverlay**](inkoverlay-class.md) Object<br/>     | The underlying control's [Control.Invalidated](https://msdn.microsoft.com/library/z4yzf1s6(v=VS.90).aspx) and [Control.Paint](https://msdn.microsoft.com/library/02745s21(v=VS.90).aspx) events.<br/>                                 |
-| [InkPicture](inkpicture-control.md) Control<br/>      | [InkPicture](inkpicture-control.md) control's inherited [Control.Invalidated](https://msdn.microsoft.com/library/z4yzf1s6(v=VS.90).aspx) and [Control.Paint](https://msdn.microsoft.com/library/02745s21(v=VS.90).aspx) events.<br/> |
+| [**InkCollector**](inkcollector-class.md) Object<br/> | The underlying control's [Control.Invalidated](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) and [Control.Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) events.<br/>                                 |
+| [**InkOverlay**](inkoverlay-class.md) Object<br/>     | The underlying control's [Control.Invalidated](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) and [Control.Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) events.<br/>                                 |
+| [InkPicture](inkpicture-control.md) Control<br/>      | [InkPicture](inkpicture-control.md) control's inherited [Control.Invalidated](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) and [Control.Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) events.<br/> |
 
 
 
@@ -66,15 +66,15 @@ Most [**InkCollector**](inkcollector-class.md) and [**InkOverlay**](inkoverlay-c
 
 ### Ink Object and Strokes Collection Events
 
-The [**Ink**](inkdisp-class.md) object and [**Strokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection events may come from the ink thread or the UI thread. When your application manipulates the **Ink** object or **Strokes** collection, the event is generated in the UI thread. When the [**InkCollector**](inkcollector-class.md) or the [**InkOverlay**](inkoverlay-class.md) object updates the **Ink** object or **Strokes** collection, the event is generated in the ink thread.
+The [**Ink**](inkdisp-class.md) object and [**Strokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) collection events may come from the ink thread or the UI thread. When your application manipulates the **Ink** object or **Strokes** collection, the event is generated in the UI thread. When the [**InkCollector**](inkcollector-class.md) or the [**InkOverlay**](inkoverlay-class.md) object updates the **Ink** object or **Strokes** collection, the event is generated in the ink thread.
 
-The [InkPicture](inkpicture-control-reference.md) and [InkEdit](inkedit-control-reference.md) controls operate in a single-threaded apartment (STA). When the InkPicture or InkEdit control updates the [**Ink**](inkdisp-class.md) object or [**Strokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection, the event is raised on the UI thread.
+The [InkPicture](inkpicture-control-reference.md) and [InkEdit](inkedit-control-reference.md) controls operate in a single-threaded apartment (STA). When the InkPicture or InkEdit control updates the [**Ink**](inkdisp-class.md) object or [**Strokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) collection, the event is raised on the UI thread.
 
 ### Recognition Events
 
 Recognition events are raised on the UI thread or the background recognition thread.
 
--   The [InkEdit](inkedit-control-reference.md) control's [**Recognize**](/windows/desktop/api/inked/nf-inked-iinkedit-recognize) method raises the [Recognition](https://msdn.microsoft.com/library/ms836436(v=MSDN.10).aspx) (Managed Library only) or [**RecognitionResult**](inkedit-recognitionresult.md) (Automation only) event on the UI thread.
+-   The [InkEdit](inkedit-control-reference.md) control's [**Recognize**](/windows/desktop/api/inked/nf-inked-iinkedit-recognize) method raises the [Recognition](/previous-versions/ms836436(v=msdn.10)) (Managed Library only) or [**RecognitionResult**](inkedit-recognitionresult.md) (Automation only) event on the UI thread.
 -   The [**RecognizerContext**](inkrecognizercontext-class.md) object's [**BackgroundRecognize**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognize) and [**BackgroundRecognizeWithAlternates**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates) methods raise the [**Recognition**](inkrecognizercontext-recognition.md) and [**RecognitionWithAlternates**](inkrecognizercontext-recognitionwithalternates.md) events on the background recognition thread.
 
 ### Pen Input Panel Events
@@ -85,28 +85,23 @@ Recognition events are raised on the UI thread or the background recognition thr
 
 <dl> <dt>
 
-[Microsoft.Ink.InkCollector.DynamicRendering](https://msdn.microsoft.com/library/ms836502(v=MSDN.10).aspx)
+[Microsoft.Ink.InkCollector.DynamicRendering](/previous-versions/ms836502(v=msdn.10))
 </dt> <dt>
 
-[Microsoft.Ink.InkOverlay.DynamicRendering](https://msdn.microsoft.com/library/ms833104(v=MSDN.10).aspx)
+[Microsoft.Ink.InkOverlay.DynamicRendering](/previous-versions/ms833104(v=msdn.10))
 </dt> <dt>
 
-[Microsoft.Ink.InkPicture.DynamicRendering](https://msdn.microsoft.com/library/ms582188(v=VS.90).aspx)
+[Microsoft.Ink.InkPicture.DynamicRendering](/previous-versions/ms582188(v=vs.100))
 </dt> <dt>
 
-[Microsoft.Ink.InkCollector.AutoRedraw](https://msdn.microsoft.com/library/ms836495(v=MSDN.10).aspx)
+[Microsoft.Ink.InkCollector.AutoRedraw](/previous-versions/ms836495(v=msdn.10))
 </dt> <dt>
 
-[Microsoft.Ink.InkOverlay.AutoRedraw](https://msdn.microsoft.com/library/ms833082(v=MSDN.10).aspx)
+[Microsoft.Ink.InkOverlay.AutoRedraw](/previous-versions/ms833082(v=msdn.10))
 </dt> <dt>
 
-[Microsoft.Ink.InkPicture.AutoRedraw](https://msdn.microsoft.com/library/ms582180(v=VS.90).aspx)
+[Microsoft.Ink.InkPicture.AutoRedraw](/previous-versions/ms582180(v=vs.100))
 </dt> </dl>
 
  
-
- 
-
-
-
 

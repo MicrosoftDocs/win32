@@ -59,6 +59,29 @@ The network management structures can be grouped as follows.
 -   [**LOCALGROUP\_MEMBERS\_INFO\_3**](/windows/desktop/api/Lmaccess/ns-lmaccess-localgroup_members_info_3)
 -   [**LOCALGROUP\_USERS\_INFO\_0**](/windows/desktop/api/Lmaccess/ns-lmaccess-localgroup_users_info_0)
 
+## Offline Domain Join Structures
+
+-   [**Offline Domain Join IDL Definitions**](odj-idl.md)
+-   [**ODJ\_PROVISION\_DATA**](odj-odj_provision_data.md)
+-   [**ODJ\_BLOB**](odj-odj_blob.md)
+-   [**OP\_BLOB**](odj-op_blob.md)
+-   [**OP\_PACKAGE**](odj-op_package.md)
+-   [**OP\_PACKAGE\_PART**](odj-op_package_part.md)
+-   [**OP\_PACKAGE\_COLLECTION**](odj-op_package_collection.md)
+-   [**ODJ\_SID\_IDENTIFIER\_AUTHORITY**](odj-sid_identifier_authority.md)
+-   [**ODJ\_SID**](odj-odj_sid.md)
+-   [**ODJ\_UNICODE\_STRING**](odj-odj_unicode_string.md)
+-   [**ODJ\_POLICY\_DNS\_DOMAIN\_INFO**](odj-odj_policy_dns_domain_info.md)
+-   [**ODJ\_WIN7BLOB**](odj-odj_win7blob.md)
+-   [**OP\_JOIN\_PROV2\_PART**](odj-op_join_prov2_part.md)
+-   [**OP\_JOIN\_PROV3\_PART**](odj-op_join_prov3_part.md)
+-   [**OP\_CERT\_PFX\_STORE**](odj-op_cert_pfx_store.md)
+-   [**OP\_CERT\_SST\_STORE**](odj-op_cert_sst_store.md)
+-   [**OP\_CERT\_PART**](odj-op_cert_part.md)
+-   [**OP\_POLICY\_ELEMENT**](odj-op_policy_element.md)
+-   [**OP\_POLICY\_ELEMENT\_LIST**](odj-op_policy_element_list.md)
+-   [**OP\_POLICY\_PART**](odj-op_policy_part.md)
+
 ## Message Structures
 
 -   [**MSG\_INFO\_0**](/windows/desktop/api/Lmmsg/ns-lmmsg-msg_info_0)
@@ -134,15 +157,15 @@ The network management structures can be grouped as follows.
 
 <dl>
 
-[**SHARE\_INFO\_0**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_0)  
-[**SHARE\_INFO\_1**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1)  
-[**SHARE\_INFO\_2**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_2)  
-[**SHARE\_INFO\_501**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_501)  
-[**SHARE\_INFO\_502**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_502)  
-[**SHARE\_INFO\_1004**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1004)  
-[**SHARE\_INFO\_1005**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1005)  
-[**SHARE\_INFO\_1006**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1006)  
-[**SHARE\_INFO\_1501**](https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1501)  
+[**SHARE\_INFO\_0**](/windows/desktop/api/lmshare/ns-lmshare-share_info_0)  
+[**SHARE\_INFO\_1**](/windows/desktop/api/lmshare/ns-lmshare-share_info_1)  
+[**SHARE\_INFO\_2**](/windows/desktop/api/lmshare/ns-lmshare-share_info_2)  
+[**SHARE\_INFO\_501**](/windows/desktop/api/lmshare/ns-lmshare-share_info_501)  
+[**SHARE\_INFO\_502**](/windows/desktop/api/lmshare/ns-lmshare-share_info_502)  
+[**SHARE\_INFO\_1004**](/windows/desktop/api/lmshare/ns-lmshare-share_info_1004)  
+[**SHARE\_INFO\_1005**](/windows/desktop/api/lmshare/ns-lmshare-share_info_1005)  
+[**SHARE\_INFO\_1006**](/windows/desktop/api/lmshare/ns-lmshare-share_info_1006)  
+[**SHARE\_INFO\_1501**](/windows/desktop/api/lmshare/ns-lmshare-share_info_1501)  
 </dl>
 
 ## Use Structures
@@ -234,7 +257,3 @@ The network management structures can be grouped as follows.
  
 
  
-
-
-
-

@@ -10,15 +10,19 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients (running as virtual machines)** - Windows Vista \| Windows 7  
+**Clients (running as virtual machines)** - Windows Vista \| Windows 7  
 **Servers** - Windows Server 2008 R2 Hyper-V SP1  
-</dl>
+
 
 ## Feature Impact
 
-<dl> **Severity** - Low  
+ **Severity** - Low  
 **Frequency** - High  
-</dl>
+
+
+
+
+
 
 ## Description
 
@@ -30,7 +34,7 @@ There are two key usage scenarios where Dynamic Memory comes into play, host-sid
 
 **Host-side applications (management tools)**
 
-Old tools managing a new Windows Server 2008 R2 SP1 server will not be able to access the new Dynamic Memory settings. New WMI APIs and performance counters have been developed to manage the new Dynamic Memory settings for Hyper-V virtual machines. Software developers working on management tools should take advantage of these APIs and counters for use with Windows Server 2008 R2 SP1 with the Hyper-V role installed. Details about these new APIs will be available via [Hyper-V WMI Provider documentation on MSDN](https://msdn.microsoft.com/library/Cc723875(v=VS.85).aspx).
+Old tools managing a new Windows Server 2008 R2 SP1 server will not be able to access the new Dynamic Memory settings. New WMI APIs and performance counters have been developed to manage the new Dynamic Memory settings for Hyper-V virtual machines. Software developers working on management tools should take advantage of these APIs and counters for use with Windows Server 2008 R2 SP1 with the Hyper-V role installed. Details about these new APIs will be available via [Hyper-V WMI Provider documentation on MSDN](/previous-versions/windows/desktop/virtual/using-the-virtualization-wmi-provider).
 
 **Guest-side applications**
 
@@ -45,7 +49,7 @@ Virtual machines must have updated integration services (SP1) installed in order
 ## Links to Other Resources
 
 -   [Dynamic Memory Coming To Hyper-V blog](https://blogs.technet.com/b/virtualization/archive/2010/03/18/dynamic-memory-coming-to-hyper-v.aspx)
--   [Using the Hyper-V WMI Provider](https://msdn.microsoft.com/library/Cc723875(v=VS.85).aspx)
+-   [Using the Hyper-V WMI Provider](/previous-versions/windows/desktop/virtual/using-the-virtualization-wmi-provider)
 
 ## Disclaimer
 
@@ -54,6 +58,3 @@ The information contained in this document relates to prerelease software produc
  
 
  
-
-
-

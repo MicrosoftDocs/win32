@@ -36,21 +36,21 @@ void WINAPI RoFailFastWithErrorContextInternal2(
 
 `hrError`
 
-Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
+Type: **[HRESULT](../../com/structure-of-com-error-codes.md)**
 
 The **HRESULT** associated with the current error. The exception is raised for any value of *hrError*.
 
 `cStowedExceptions`
 
-Type: **[ULONG](/windows/win32/winprog/windows-data-types)**
+Type: **[ULONG](../../winprog/windows-data-types.md)**
 
 The number of elements in the *aStowedExceptionPointers* array.
 
 `aStowedExceptionPointers`
 
-Type: **[PSTOWED_EXCEPTION_INFORMATION_V2](/windows/win32/wer/stowed-exception-information-v2)\[\]**
+Type: **[PSTOWED_EXCEPTION_INFORMATION_V2](../../wer/stowed-exception-information-v2.md)\[\]**
 
-An array of pointers to [**STOWED_EXCEPTION_INFORMATION_V2**](/windows/win32/wer/stowed-exception-information-v2) structures. Each structure contains info describing a stowed exception. The info in these structures is then submitted to Windows Error Reporting (WER) along with the stowed exception information that was captured by the platform.
+An array of pointers to [**STOWED_EXCEPTION_INFORMATION_V2**](../../wer/stowed-exception-information-v2.md) structures. Each structure contains info describing a stowed exception. The info in these structures is then submitted to Windows Error Reporting (WER) along with the stowed exception information that was captured by the platform.
 
 ## Return value
 

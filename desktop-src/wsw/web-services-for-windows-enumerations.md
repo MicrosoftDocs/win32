@@ -43,7 +43,7 @@ The Windows Web Services API includes the following enumerations:
 -   [**WS\_HTTP\_HEADER\_MAPPING\_OPTIONS**](/windows/win32/api/webservices/ne-webservices-ws_xml_writer_property_id)
 -   [**WS\_HTTP\_PROXY\_SETTING\_MODE**](/windows/desktop/api/WebServices/ne-webservices-ws_http_proxy_setting_mode)
 -   [**WS\_HTTP\_REQUEST\_MAPPING\_OPTIONS**](/windows/win32/api/webservices/ne-webservices-ws_xml_writer_property_id)
--   [**WS\_HTTP\_RESPONSE\_MAPPING\_OPTIONS**](https://msdn.microsoft.com/library/Dd401921(v=VS.85).aspx)
+-   **WS_HTTP_RESPONSE_MAPPING_OPTIONS**
 -   [**WS\_IP\_VERSION**](/windows/desktop/api/WebServices/ne-webservices-ws_ip_version)
 -   [**WS\_LISTENER\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_listener_property_id)
 -   [**WS\_LISTENER\_STATE**](/windows/desktop/api/WebServices/ne-webservices-ws_listener_state)
@@ -99,7 +99,7 @@ The Windows Web Services API includes the following enumerations:
 -   [**WS\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_type)
 -   [**WS\_TYPE\_MAPPING**](/windows/desktop/api/WebServices/ne-webservices-ws_type_mapping)
 -   [**WS\_URL\_FLAGS**](/windows/win32/api/webservices/ne-webservices-ws_xml_writer_encoding_type)
--   [**WS\_URL\_MATCHING\_OPTIONS**](https://msdn.microsoft.com/library/Dd323493(v=VS.85).aspx)
+-   **WS_URL_MATCHING_OPTIONS**
 -   [**WS\_URL\_SCHEME\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_url_scheme_type)
 -   [**WS\_USERNAME\_CREDENTIAL\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_username_credential_type)
 -   [**WS\_VALUE\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_value_type)

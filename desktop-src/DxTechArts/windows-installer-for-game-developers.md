@@ -47,7 +47,7 @@ An application is made up of one or more components, identified by a GUID compon
 
 ### Features
 
-A feature is a group of components, identified by a GUID feature ID. Unlike components, multiple features may contain the same component. A component shared between multiple features will be installed if any of those features is installed, and removed only when all features that reference the component have been uninstalled. Installation of a feature can be done automatically as part of the installation of a product, or it can be done manually using the [**MsiConfigureFeature**](https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea) API.
+A feature is a group of components, identified by a GUID feature ID. Unlike components, multiple features may contain the same component. A component shared between multiple features will be installed if any of those features is installed, and removed only when all features that reference the component have been uninstalled. Installation of a feature can be done automatically as part of the installation of a product, or it can be done manually using the [**MsiConfigureFeature**](/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea) API.
 
 Although few games have multiple "features" that can be installed independently, the Windows Installer concept of a feature is still useful. Since a Windows Installer feature is nothing more than a collection of components that can be installed together, games can use features to group together all of the content needed for a particular stage of the game. For example, a level-oriented game could define one feature per level, consisting of all of the content required for that level. This would allow the game to install the content one level at a time from within the game itself, rather than installing all of the content for all of the levels during the initial installation.
 
@@ -81,7 +81,7 @@ The feature is available and is installed to run from the original source media 
 <span id="Advertised"></span><span id="advertised"></span><span id="ADVERTISED"></span>Advertised
 </dt> <dd>
 
-The feature is not installed, but can be installed on demand using the [**MsiConfigureFeature**](https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea) API. When the feature is actually installed, it can be installed either to the Local or Source state.
+The feature is not installed, but can be installed on demand using the [**MsiConfigureFeature**](/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea) API. When the feature is actually installed, it can be installed either to the Local or Source state.
 
 </dd> </dl>
 
@@ -95,9 +95,9 @@ Windows Installer allows an application to mark features as Advertised, meaning 
 
 Although Windows Installer provides a default user interface that guides the user through the installation of the application, this interface looks like that of a standard Windows application. Many game developers prefer that their installation UI have the same look and feel as the game itself, to provide the user with a taste of the game's ambiance. To support this, Windows Installer allows its built-in user interface to be completely disabled, allowing the developer to provide a completely custom UI.
 
-The custom setup program first disables Windows Installer's built-in user interface using the [**MsiSetInternalUI**](https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetinternalui) API to set the UI level to INSTALLUILEVEL\_NONE. It then calls the [**MsiSetExternalUI**](https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetexternaluia) API to specify a callback function that will be called during the installation process to notify the setup program of key events during the installation.
+The custom setup program first disables Windows Installer's built-in user interface using the [**MsiSetInternalUI**](/windows/desktop/api/msi/nf-msi-msisetinternalui) API to set the UI level to INSTALLUILEVEL\_NONE. It then calls the [**MsiSetExternalUI**](/windows/desktop/api/msi/nf-msi-msisetexternaluia) API to specify a callback function that will be called during the installation process to notify the setup program of key events during the installation.
 
-The actual installation process is then started by calling the [**MsiInstallProduct**](https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiinstallproducta) API. This API accepts a parameter string that allows the caller to specify values for named properties. These properties can be used within the installation database itself to customize how the application is to be installed. These properties can be used to specify:
+The actual installation process is then started by calling the [**MsiInstallProduct**](/windows/desktop/api/msi/nf-msi-msiinstallproducta) API. This API accepts a parameter string that allows the caller to specify values for named properties. These properties can be used within the installation database itself to customize how the application is to be installed. These properties can be used to specify:
 
 -   The directory to which the application is to be installed
 -   Which features are to be installed locally and which are to be installed to run from the CD/DVD (for example, to enable choosing between a minimal install and a full install)
@@ -111,17 +111,13 @@ Windows Installer allows installed applications to be patched by applying a patc
 
 In order to create a patch, you need the setup image for each of the versions of the application that you wish the patch to upgrade from, as well as the setup image for the new, upgraded version of the application. A setup image consists of the MSI database and all of the actual data files for the application. The best way to create a setup image for a new version of the application is to copy the setup image from the previous version of the application, and then make any changes necessary to update that copy to the patched version.
 
-Once you have all of the necessary setup images, you can create the patches using Msimsp.exe, which is a patch creation tool available as part of the Platform SDK. The tool will ask for the locations of each of the setup images, and then determine how to efficiently represent the differences between the successive versions. The output of the tool is the final patch file (identified by the extension MSP). In order to install the patch programmatically, call the [**MsiApplyPatch**](https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiapplypatcha) API. The user can also install the patch manually by double-clicking on the MSP file in Explorer.
+Once you have all of the necessary setup images, you can create the patches using Msimsp.exe, which is a patch creation tool available as part of the Platform SDK. The tool will ask for the locations of each of the setup images, and then determine how to efficiently represent the differences between the successive versions. The output of the tool is the final patch file (identified by the extension MSP). In order to install the patch programmatically, call the [**MsiApplyPatch**](/windows/desktop/api/msi/nf-msi-msiapplypatcha) API. The user can also install the patch manually by double-clicking on the MSP file in Explorer.
 
 ## Other Resources
 
--   For detailed info on the Windows Installer API, see [Windows Installer](https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal).
--   For info on best practices for game installation, see [Installation and Maintenance of Games](https://docs.microsoft.com/windows/desktop/DxTechArts/installation-and-maintenance-of-games).
+-   For detailed info on the Windows Installer API, see [Windows Installer](/windows/desktop/Msi/windows-installer-portal).
+-   For info on best practices for game installation, see [Installation and Maintenance of Games](/windows/desktop/DxTechArts/installation-and-maintenance-of-games).
 
  
 
  
-
-
-
-

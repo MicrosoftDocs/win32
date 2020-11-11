@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # EN\_STARTCOMPOSITION notification code
 
-Notifies a rich edit control parent window that the user started typing with IME or [Text Services Framework](https://docs.microsoft.com/windows/desktop/TSF/text-services-framework).
+Notifies a rich edit control parent window that the user started typing with IME or [Text Services Framework](/windows/desktop/TSF/text-services-framework).
 
 
 ```C++
@@ -53,10 +53,4 @@ An [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure.
 
 
  
-
- 
-
-
-
-
 

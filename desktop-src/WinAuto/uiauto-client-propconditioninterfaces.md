@@ -18,7 +18,7 @@ This section describes property condition interfaces for UI Automation clients f
 |--------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IUIAutomationAndCondition**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationandcondition)<br/>           | Exposes properties and methods that Microsoft UI Automation client applications can use to retrieve information about an AND-based property condition. <br/> |
 | [**IUIAutomationBoolCondition**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationboolcondition)<br/>         | Represents a condition that can be either **TRUE** (selects all elements) or **FALSE** (selects no elements).<br/>                                           |
-| [**IUIAutomationCondition**](https://msdn.microsoft.com/library/Ee671420(v=VS.85).aspx)<br/>                 | This is the primary interface for conditions used in filtering when searching for elements in the UI Automation tree.<br/>                                   |
+| [**IUIAutomationCondition**](/windows/win32/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition)<br/>                 | This is the primary interface for conditions used in filtering when searching for elements in the UI Automation tree.<br/>                                   |
 | [**IUIAutomationNotCondition**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationnotcondition)<br/>           | Represents a condition that is the negative of another condition.<br/>                                                                                       |
 | [**IUIAutomationOrCondition**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationorcondition)<br/>             | Represents a condition made up of multiple conditions, at least one of which must be true.<br/>                                                              |
 | [**IUIAutomationPropertyCondition**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationpropertycondition)<br/> | Represents a condition based on a property value that is used to find UI Automation elements.<br/>                                                           |
@@ -35,10 +35,4 @@ This section describes property condition interfaces for UI Automation clients f
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -145,7 +145,7 @@ This section contains information about the programming elements used with tab c
 
 | Topic                                                          | Contents                                                                                                                                                                                                                                                                                                                                         |
 |----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Tab Control Extended Styles](tab-control-extended-styles.md) | The tab control now supports extended styles. These styles are manipulated using the [**TCM\_GETEXTENDEDSTYLE**](tcm-getextendedstyle.md) and [**TCM\_SETEXTENDEDSTYLE**](tcm-setextendedstyle.md) messages and should not be confused with extended window styles that are passed to [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa). <br/> |
+| [Tab Control Extended Styles](tab-control-extended-styles.md) | The tab control now supports extended styles. These styles are manipulated using the [**TCM\_GETEXTENDEDSTYLE**](tcm-getextendedstyle.md) and [**TCM\_SETEXTENDEDSTYLE**](tcm-setextendedstyle.md) messages and should not be confused with extended window styles that are passed to [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa). <br/> |
 | [Tab Control Item States](tab-control-item-states.md)         | Tab control items now support an item state to support the [**TCM\_DESELECTALL**](tcm-deselectall.md) message. Additionally, the [**TCITEM**](/windows/win32/api/commctrl/ns-commctrl-tcitema) structure supports item state values. <br/>                                                                                                                                     |
 | [Tab Control Styles](tab-control-styles.md)                   | This section lists supported tab control styles.<br/>                                                                                                                                                                                                                                                                                      |
 
@@ -154,10 +154,4 @@ This section contains information about the programming elements used with tab c
  
 
  
-
- 
-
-
-
-
 

@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 This section contains information about the common version enumerations.
 
-## 
 
 ## In this section
 
@@ -26,7 +25,7 @@ This section contains information about the common version enumerations.
 | [**D3D\_MIN\_PRECISION**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_min_precision)<br/>                                | Values that indicate the minimum desired interpolation precision.<br/>                                                                                                                                                                                                                                                               |
 | [**D3D\_NAME**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_name)<br/>                                                   | Values that identify shader parameters that use system-value semantics.<br/>                                                                                                                                                                                                                                                         |
 | [**D3D\_PRIMITIVE**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_primitive)<br/>                                         | Values that indicate how the pipeline interprets geometry or hull shader input primitives.<br/>                                                                                                                                                                                                                                      |
-| [**D3D\_PRIMITIVE\_TOPOLOGY**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_primitive_topology)<br/>                      | Values that indicate how the pipeline interprets vertex data that is bound to the [input-assembler stage](d3d10-graphics-programming-guide-input-assembler-stage.md). These [primitive topology values](https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-primitive-topologies) determine how the vertex data is rendered on screen.<br/> |
+| [**D3D\_PRIMITIVE\_TOPOLOGY**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_primitive_topology)<br/>                      | Values that indicate how the pipeline interprets vertex data that is bound to the [input-assembler stage](d3d10-graphics-programming-guide-input-assembler-stage.md). These [primitive topology values](/windows/desktop/direct3d11/d3d10-graphics-programming-guide-primitive-topologies) determine how the vertex data is rendered on screen.<br/> |
 | [**D3D\_REGISTER\_COMPONENT\_TYPE**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_register_component_type)<br/>           | Values that identify the data types that can be stored in a register.<br/>                                                                                                                                                                                                                                                           |
 | [**D3D\_RESOURCE\_RETURN\_TYPE**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_resource_return_type)<br/>                 | Values that identify the return type of a resource.<br/>                                                                                                                                                                                                                                                                             |
 | [**D3D\_SHADER\_CBUFFER\_FLAGS**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_shader_cbuffer_flags)<br/>                 | Values that identify the indended use of a constant-data buffer.<br/>                                                                                                                                                                                                                                                                |
@@ -52,10 +51,4 @@ This section contains information about the common version enumerations.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

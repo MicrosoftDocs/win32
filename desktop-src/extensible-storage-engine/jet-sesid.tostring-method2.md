@@ -34,7 +34,7 @@ Include inherited members
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="hh564756(v=exchg.10).md">ToString()</a></td>
-<td>Generate a string representation of the structure. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.valuetype.tostring?redirectedfrom=MSDN#System_ValueType_ToString">ValueType.ToString()</a>.)</td>
+<td>Generate a string representation of the structure. (Overrides <a href="/dotnet/api/system.valuetype.tostring#System_ValueType_ToString">ValueType.ToString()</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -56,4 +56,3 @@ Top
 [JET_SESID members](hh557719\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

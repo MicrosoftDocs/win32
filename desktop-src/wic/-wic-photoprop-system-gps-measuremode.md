@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.MeasureMode Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.MeasureMode](https://msdn.microsoft.com/library/bb760576(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.MeasureMode](../properties/props-system-gps-measuremode.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.GPS.MeasureMode](https://msdn.microsoft.com/library/bb760576(VS.85).aspx)
+[System.GPS.MeasureMode](../properties/props-system-gps-measuremode.md)
 </dt> </dl>
 
  
 
  
-
-
-

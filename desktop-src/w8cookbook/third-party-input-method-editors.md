@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-<dl> **Clients** - Windows 8  
+**Clients** - Windows 8  
 **Servers** - Windows Server 2012  
-</dl>
+
 
 ## Description
 
@@ -126,7 +126,7 @@ Make sure that your candidate pane’s UI (and other UI elements) are not drawn 
 
 **Searching**
 
-In Windows 8, Windows Store apps can easily provide their users with search features by implementing the [search contract](https://docs.microsoft.com/previous-versions/windows/apps/hh464906(v=win.10)) and integrating with the Search pane. The Search pane is a central location for users to perform searches across all their apps. Windows helps apps that use the Search pane get their users where they want to go as fast as possible. In particular, for IME users, it provides a unique search experience that lets compatible IMEs integrate with the Windows 8 for greater efficiency and usability.
+In Windows 8, Windows Store apps can easily provide their users with search features by implementing the [search contract](/previous-versions/windows/apps/hh464906(v=win.10)) and integrating with the Search pane. The Search pane is a central location for users to perform searches across all their apps. Windows helps apps that use the Search pane get their users where they want to go as fast as possible. In particular, for IME users, it provides a unique search experience that lets compatible IMEs integrate with the Windows 8 for greater efficiency and usability.
 
 An IME is compatible with the integrated search experience if it meets these criteria:
 
@@ -153,8 +153,8 @@ All third-party IMEs must be digitally signed in order to be installed onto the 
 
 -   **Use an Authenticode signature to digitally sign programs**
     -   Obtain a valid Authenticode code signing certificate from one of the many certificate authorities supported by Windows
-    -   Use development tools (such as [signtool.exe](/windows/win32/SecCrypto/signtool)) to sign the apps prior to distribution
-    -   For more information and a step-by-step description of the code signing process, see the [Everything you need to know about Authenticode code signing](https://blogs.msdn.microsoft.com/ieinternals/2011/03/22/everything-you-need-to-know-about-authenticode-code-signing/) blog entry
+    -   Use development tools (such as [signtool.exe](../seccrypto/signtool.md)) to sign the apps prior to distribution
+    -   For more information and a step-by-step description of the code signing process, see the [Everything you need to know about Authenticode code signing](/archive/blogs/ieinternals/everything-you-need-to-know-about-authenticode-code-signing) blog entry
 -   **Ensure downloads are not detected as malware**
     -   Downloaded programs that are detected and confirmed as malware affect both the download’s reputation and the reputation of the digital certificate used to sign that file
 -   **Apply for Windows certification**
@@ -162,10 +162,10 @@ All third-party IMEs must be digitally signed in order to be installed onto the 
 
 For more info, see these articles about digital signatures and code signing:
 
--   [Authenticode Overview](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537359(v=vs.85))
--   [Ensuring Integrity and Authenticity](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85))
--   [Code Signing Best Practices](https://msdn.microsoft.com/windows/hardware/gg487309.aspx)
--   [What are Digital Certificates?](https://docs.microsoft.com/previous-versions/office/developer/office2000/aa190113(v=office.10))
+-   [Authenticode Overview](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537359(v=vs.85))
+-   [Ensuring Integrity and Authenticity](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85))
+-   [Code Signing Best Practices](/previous-versions/windows/hardware/design/dn653556(v=vs.85))
+-   [What are Digital Certificates?](/previous-versions/office/developer/office2000/aa190113(v=office.10))
 
 If an IME **is not** signed, the user receives this warning message when they try to download the IME:
 
@@ -179,26 +179,22 @@ Based on these notifications, users can choose whether to delete the file or ign
 
 **IME revocation**
 
-IMEs that are malicious or that do not follow the Windows 8 IME Guidelines can be removed from the system by using Windows Defender. For more info about malicious IMEs, see the article on [Third-party IMEs in Windows 8](https://docs.microsoft.com/previous-versions/windows/apps/hh967426(v=win.10)).
+IMEs that are malicious or that do not follow the Windows 8 IME Guidelines can be removed from the system by using Windows Defender. For more info about malicious IMEs, see the article on [Third-party IMEs in Windows 8](/previous-versions/windows/apps/hh967426(v=win.10)).
 
 ## Resources
 
--   [ITfThreadMgrEx::Get Active Flags method](https://msdn.microsoft.com/library/windows/win32/aa383154.aspx)
--   [SignTool](https://msdn.microsoft.com/library/aa387764.aspx)
+-   [ITfThreadMgrEx::Get Active Flags method](/windows/win32/api/msctf/nf-msctf-itfthreadmgrex-getactiveflags)
+-   [SignTool](../seccrypto/signtool.md)
 -   [Everything you need to know about Authenticode Code Signing](https://blogs.msdn.com/b/ieinternals/archive/2011/03/22/authenticode-code-signing-for-developers-for-file-downloads-building-smartscreen-application-reputation.aspx)
--   [Windows app contracts and extensions](https://msdn.microsoft.com/library/windows/apps/hh464906.aspx)
--   [Certification requirements for Windows 8 desktop apps](https://msdn.microsoft.com/library/windows/win32/hh749939.aspx)
+-   [Windows app contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
+-   [Certification requirements for Windows 8 desktop apps](../win_cert/certification-requirements-for-windows-desktop-apps.md)
 -   [Certification requirements for Windows apps](https://msdn.microsoft.com/library/windows/apps/51A7C609-94AB-49ab-B8E0-F26FF776DDB4.aspx)
--   [Using the Windows App Certification Kit](/windows/win32/win_cert/using-the-windows-app-certification-kit)
--   [Authenticode Overview](https://msdn.microsoft.com/library/ms537359.aspx)
--   [Ensuring Integrity and Authenticity](https://msdn.microsoft.com/library/ms537361.aspx#Ensuring_Integrity_a)
--   [Code Signing Best Practices](https://msdn.microsoft.com/windows/hardware/gg487309.aspx)
--   [What are Digital Certificates?](https://msdn.microsoft.com/library/Aa190113)
+-   [Using the Windows App Certification Kit](../win_cert/using-the-windows-app-certification-kit.md)
+-   [Authenticode Overview](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537359(v=vs.85))
+-   [Ensuring Integrity and Authenticity](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85)#Ensuring_Integrity_a)
+-   [Code Signing Best Practices](/previous-versions/windows/hardware/design/dn653556(v=vs.85))
+-   [What are Digital Certificates?](/previous-versions/office/developer/office2000/aa190113(v=office.10))
 
  
 
  
-
-
-
-

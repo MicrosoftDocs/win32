@@ -194,7 +194,7 @@ The date and time that the password for this account was last changed. This valu
 
 ## Remarks
 
-The high part of this large integer corresponds to the **dwHighDateTime** member of the [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime) structure and the low part corresponds to the **dwLowDateTime** member of the **FILETIME** structure.
+The high part of this large integer corresponds to the **dwHighDateTime** member of the [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) structure and the low part corresponds to the **dwLowDateTime** member of the **FILETIME** structure.
 
 ## See also
 
@@ -204,10 +204,4 @@ The high part of this large integer corresponds to the **dwHighDateTime** member
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

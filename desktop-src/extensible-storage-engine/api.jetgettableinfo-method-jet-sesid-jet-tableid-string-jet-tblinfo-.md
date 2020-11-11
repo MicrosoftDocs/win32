@@ -73,7 +73,7 @@ public static void JetGetTableInfo(
 <!-- end list -->
 
   - result  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     Retrieved information.
 
@@ -99,4 +99,3 @@ This overload is used with [Name](hh557667\(v=exchg.10\).md) and [TemplateTableN
 [JetGetTableInfo overload](dn292194\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

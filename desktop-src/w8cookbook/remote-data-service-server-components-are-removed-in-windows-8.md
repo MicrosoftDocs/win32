@@ -12,9 +12,10 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-<dl> **Clients** - Windows 8  
+ **Clients** - Windows 8  
 **Servers** - Windows Server 2012  
-</dl>
+
+
 
 ## Description
 
@@ -38,7 +39,7 @@ Customers can keep their RDS server on a machine with Windows 7 or other down-le
 
 ## Resources
 
-[Data Access Technologies Roadmap](https://msdn.microsoft.com/library/ms810810.aspx)
+[Data Access Technologies Roadmap](/sql/connect/connect-history?view=sqlallproducts-allversions)
 
  
 

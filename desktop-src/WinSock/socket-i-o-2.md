@@ -14,11 +14,8 @@ There are three primary ways of doing I/O in Windows Sockets 2:
 -   Nonblocking I/O along with asynchronous notification of network events.
 -   Overlapped I/O with completion indication.
 
-We describe each method in the following sections. Blocking I/O is the default behavior, nonblocking mode can be used on any socket that is placed into nonblocking mode, and overlapped I/O can only occur on sockets that are created with the overlapped attribute. It is also interesting to note that the two calls for sending: [**WSPSend**](https://msdn.microsoft.com/library/ms742292(v=VS.85).aspx) and [**WSPSendTo**](https://msdn.microsoft.com/library/ms742291(v=VS.85).aspx) and the two calls for receiving: [**WSPRecv**](https://msdn.microsoft.com/library/ms742288(v=VS.85).aspx) and [**WSPRecvFrom**](https://msdn.microsoft.com/library/ms742287(v=VS.85).aspx) each implement all three methods of I/O. Service providers determine how to perform the I/O operation based on socket modes, attributes, and the input parameter values.
+We describe each method in the following sections. Blocking I/O is the default behavior, nonblocking mode can be used on any socket that is placed into nonblocking mode, and overlapped I/O can only occur on sockets that are created with the overlapped attribute. It is also interesting to note that the two calls for sending: [**WSPSend**](/previous-versions/windows/hardware/network/ff566316(v=vs.85)) and [**WSPSendTo**](/previous-versions/windows/desktop/legacy/ms742291(v=vs.85)) and the two calls for receiving: [**WSPRecv**](/previous-versions/windows/hardware/network/ff566309(v=vs.85)) and [**WSPRecvFrom**](/previous-versions/windows/desktop/legacy/ms742287(v=vs.85)) each implement all three methods of I/O. Service providers determine how to perform the I/O operation based on socket modes, attributes, and the input parameter values.
 
  
 
  
-
-
-

@@ -24,8 +24,8 @@ Sets the x value of the black point.
 
 | Method                                                                                               | Description                                     |
 |:-----------------------------------------------------------------------------------------------------|:------------------------------------------------|
-| [**SetBlackPointX**](https://msdn.microsoft.com/library/Dn919713(v=VS.85).aspx)                               | Sets the x value of the black point.<br/> |
-| [**SetBlackPointX (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919714(v=VS.85).aspx) | Sets the x value of the black point.<br/> |
+| [**SetBlackPointX**](/windows/win32/api/dcomp/nf-dcomp-idcompositionbrightnesseffect-setblackpointx(float))                               | Sets the x value of the black point.<br/> |
+| [**SetBlackPointX (IDCompositionAnimation \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionbrightnesseffect-setblackpointx(idcompositionanimation)) | Sets the x value of the black point.<br/> |
 
 
 
@@ -43,14 +43,9 @@ Sets the x value of the black point.
 
 <dl> <dt>
 
-[**idcompositionbrightnesseffect**](https://msdn.microsoft.com/library/Dn919711(v=VS.85).aspx)
+[**idcompositionbrightnesseffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionbrightnesseffect)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

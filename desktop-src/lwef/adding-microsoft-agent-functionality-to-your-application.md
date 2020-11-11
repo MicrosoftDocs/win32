@@ -18,7 +18,7 @@ Agent's language components can be installed the same way. Similarly, you can us
 
 Because Microsoft Agent's components are designed as operating system components, Agent may not be uninstalled. Similarly, where Agent is already installed as part of the Windows operating system, the Agent self-installing cabinet may not install.
 
-Once installed, to call Agent's interfaces, create an instance of the server and request a pointer to a specific interface that the server supports using the standard COM convention. In particular, the COM library provides an API function, [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance), that creates an instance of the object and returns a pointer to the requested interface of the object. Request a pointer to the [**IAgent**](iagent.md) or [**IAgentEx**](iagentex.md) interface in your **CoCreateInstance** call or in a subsequent call to [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)).
+Once installed, to call Agent's interfaces, create an instance of the server and request a pointer to a specific interface that the server supports using the standard COM convention. In particular, the COM library provides an API function, [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance), that creates an instance of the object and returns a pointer to the requested interface of the object. Request a pointer to the [**IAgent**](iagent.md) or [**IAgentEx**](iagentex.md) interface in your **CoCreateInstance** call or in a subsequent call to [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)).
 
 The following code illustrates this in C/C++.
 
@@ -37,12 +37,8 @@ If the Microsoft Agent server is running, this function connects to the server; 
 
 Note that the Microsoft Agent server interfaces often include extended interfaces that include an "Ex" suffix. These interfaces are derived from, and therefore include all the functionality of, their non-Ex counterparts. If you want to use any of the extended features, use the Ex interfaces.
 
-Functions that take pointers to BSTRs allocate memory using [**SysAllocString**](https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring). It is the caller's responsibility to free this memory using [**SysFreeString**](https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring).
+Functions that take pointers to BSTRs allocate memory using [**SysAllocString**](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring). It is the caller's responsibility to free this memory using [**SysFreeString**](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring).
 
  
 
  
-
-
-
-

@@ -21,24 +21,24 @@ The following procedure describes how to call a provider for a privileged operat
 
 2.  Obtain permission for the provider process to enable the privileged operation.
 
-    Typically, you can set provider permissions with a call to the [**AdjustTokenPrivileges**](https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges) function.
+    Typically, you can set provider permissions with a call to the [**AdjustTokenPrivileges**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges) function.
 
 3.  Obtain permission for the client process to enable the privileged operation.
 
     This step is necessary only if the provider is local to the client. If the client and provider exist on the same computer, the client must specifically enable the privileged operation by using one of the following techniques:
 
-    -   If the client owns the process, the client can use [**AdjustTokenPrivileges**](https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges) to adjust the process token before calling WMI. In this case, you do not need to code any further.
-    -   If the client cannot access the client token, the client can use the following procedure to create a thread token and use [**AdjustTokenPrivileges**](https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges) on that token.
+    -   If the client owns the process, the client can use [**AdjustTokenPrivileges**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges) to adjust the process token before calling WMI. In this case, you do not need to code any further.
+    -   If the client cannot access the client token, the client can use the following procedure to create a thread token and use [**AdjustTokenPrivileges**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges) on that token.
 
-The following procedure describes how to create a thread token and use [**AdjustTokenPrivileges**](https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges) on that token.
+The following procedure describes how to create a thread token and use [**AdjustTokenPrivileges**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges) on that token.
 
 **To create a thread token and use AdjustTokenPrivileges on that token**
 
-1.  Create a copy of the process token by calling [**ImpersonateSelf**](https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-impersonateself).
-2.  Retrieve the newly created thread token by calling [**GetTokenInformation**](https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation).
-3.  Enable the privileged operation with a call to [**AdjustTokenPrivileges**](https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges) on the new token.
+1.  Create a copy of the process token by calling [**ImpersonateSelf**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-impersonateself).
+2.  Retrieve the newly created thread token by calling [**GetTokenInformation**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation).
+3.  Enable the privileged operation with a call to [**AdjustTokenPrivileges**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges) on the new token.
 4.  Obtain a pointer to [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices).
-5.  Cloak the pointer to [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) with a call to [**CoSetProxyBlanket**](https://msdn.microsoft.com/library/ms692692(v=VS.85).aspx).
+5.  Cloak the pointer to [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) with a call to [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket).
 6.  Repeat steps 1 through 5 on each call to WMI.
 
     > [!Note]  
@@ -127,6 +127,3 @@ else
  
 
  
-
-
-

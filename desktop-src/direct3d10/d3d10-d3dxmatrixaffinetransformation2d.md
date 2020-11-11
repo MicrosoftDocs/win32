@@ -42,7 +42,7 @@ D3DXMATRIX* D3DXMatrixAffineTransformation2D(
 *pOut* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) that is the result of the operation.
 
@@ -51,7 +51,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) that is the result of the o
 *Scaling* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Scaling factor.
 
@@ -60,7 +60,7 @@ Scaling factor.
 *pRotationCenter* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointer to a [**D3DXVECTOR2**](d3d10-d3dxvector2.md), a point identifying the center of rotation. If this argument is **NULL**, an identity M<sub>rc</sub> matrix is applied to the formula in Remarks.
 
@@ -69,7 +69,7 @@ Pointer to a [**D3DXVECTOR2**](d3d10-d3dxvector2.md), a point identifying the ce
 *Rotation* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The angle of rotation.
 
@@ -78,7 +78,7 @@ The angle of rotation.
 *pTranslation* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointer to a [**D3DXVECTOR2**](d3d10-d3dxvector2.md), representing the translation. If this argument is **NULL**, an identity Mₜ matrix is applied to the formula in Remarks.
 
@@ -86,7 +86,7 @@ Pointer to a [**D3DXVECTOR2**](d3d10-d3dxvector2.md), representing the translati
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to a D3DXMATRIX structure that is an affine transformation matrix.
 
@@ -133,7 +133,3 @@ For 3D affine transformations, use D3DXMatrixAffineTransformation.
  
 
  
-
-
-
-

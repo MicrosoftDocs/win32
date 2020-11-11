@@ -35,7 +35,7 @@ At the bottom of the window, there are several tabs that present more functional
 
 The **Styles** tab enables you to change the current window style of the control. Select or deselect any of the listed styles, then click the **Apply** button to change the style of the displayed control. Alternately, you can use the **Recreate** button to create a new control with the selected styles. The **Reset** button will return the control to the default styles.
 
-The **Copy Style** and **Copy ExStyle** buttons below the tab will copy the selected style constants to the Clipboard as a bitwise OR (\|) delimited list. You can paste this list directly into your call to [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) to provide a control in your own application with the same style.
+The **Copy Style** and **Copy ExStyle** buttons below the tab will copy the selected style constants to the Clipboard as a bitwise OR (\|) delimited list. You can paste this list directly into your call to [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) to provide a control in your own application with the same style.
 
 The following image shows the **Styles** tab for a button control.
 
@@ -43,7 +43,7 @@ The following image shows the **Styles** tab for a button control.
 
 ## Messages
 
-The **Messages** tab enables you to send almost any message to a control. After selecting a message from the list box, you can enter data which is sent as the *wParam* and *lParam* parameters of the call to [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage). After you click **Send**, the message is sent to the control and any result is displayed in the text box at the bottom of the tab.
+The **Messages** tab enables you to send almost any message to a control. After selecting a message from the list box, you can enter data which is sent as the *wParam* and *lParam* parameters of the call to [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage). After you click **Send**, the message is sent to the control and any result is displayed in the text box at the bottom of the tab.
 
 The following image shows the messages tab when a particular message is selected.
 
@@ -55,7 +55,7 @@ The **Size/Color** tab can be used to change the size of the control as well as 
 
 ## Where to Get Control Spy
 
-You can download [Control Spy 2.0](https://www.microsoft.com/en-us/download/details.aspx?id=4635) from MSDN. Both versions are contained in the download.
+You can download [Control Spy 2.0](https://www.microsoft.com/download/details.aspx?id=4635) from MSDN. Both versions are contained in the download.
 
 ## Related topics
 
@@ -73,7 +73,3 @@ You can download [Control Spy 2.0](https://www.microsoft.com/en-us/download/deta
  
 
  
-
-
-
-

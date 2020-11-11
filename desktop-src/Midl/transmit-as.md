@@ -61,7 +61,7 @@ Specifies a [base type](midl-base-types.md), [**struct**](struct.md), [**union**
 *declarator-list* 
 </dt> <dd>
 
-Specifies standard C declarators, such as identifiers, pointer declarators, and array declarators. For more information, see [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md), [**arrays**](arrays-1.md), and [Arrays and Pointers](https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-pointers). The *declarator-list* consists of one or more declarators separated by commas. The parameter declarator in the function declarator, such as the parameter name, is optional.
+Specifies standard C declarators, such as identifiers, pointer declarators, and array declarators. For more information, see [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md), [**arrays**](arrays-1.md), and [Arrays and Pointers](/windows/desktop/Rpc/arrays-and-pointers). The *declarator-list* consists of one or more declarators separated by commas. The parameter declarator in the function declarator, such as the parameter name, is optional.
 
 </dd> <dt>
 
@@ -199,7 +199,3 @@ void __RPC_USER TREE_TYPE_free_xmit(
  
 
  
-
-
-
-

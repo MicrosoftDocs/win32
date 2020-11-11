@@ -119,43 +119,39 @@ The following code enumerates the protocols in the NPS protocols collection.
 
 ## Remarks
 
-The vtName and vtProtocol variables are of type [\_variant\_t](https://msdn.microsoft.com/library/Aa278648.aspx). A [\_variant\_t](https://msdn.microsoft.com/library/Aa278648.aspx) object encapsulates, or encloses, the **VARIANT** data type. The class manages resource allocation and deallocation, and makes function calls to [**VariantInit**](https://msdn.microsoft.com/library/ms221402(v=VS.71).aspx) and [**VariantClear**](https://msdn.microsoft.com/library/ms221165(v=VS.71).aspx) as appropriate.
+The vtName and vtProtocol variables are of type [\_variant\_t](/previous-versions/visualstudio/visual-studio-6.0/aa278648(v=vs.60)). A [\_variant\_t](/previous-versions/visualstudio/visual-studio-6.0/aa278648(v=vs.60)) object encapsulates, or encloses, the **VARIANT** data type. The class manages resource allocation and deallocation, and makes function calls to [**VariantInit**](/windows/win32/api/oleauto/nf-oleauto-variantinit) and [**VariantClear**](/windows/win32/api/oleauto/nf-oleauto-variantclear) as appropriate.
 
 ## Related topics
 
 <dl> <dt>
 
-[\_variant\_t](https://msdn.microsoft.com/library/Aa278648.aspx)
+[\_variant\_t](/previous-versions/visualstudio/visual-studio-6.0/aa278648(v=vs.60))
 </dt> <dt>
 
-[Adding a Client](https://docs.microsoft.com/windows/desktop/Nps/sdo-adding-a-client)
+[Adding a Client](/windows/desktop/Nps/sdo-adding-a-client)
 </dt> <dt>
 
-[**IASCOMMONPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties)
+[**IASCOMMONPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties)
 </dt> <dt>
 
-[**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx)
+[**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant)
 </dt> <dt>
 
-[**ISdo::GetProperty**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty)
+[**ISdo::GetProperty**](/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty)
 </dt> <dt>
 
-[Retrieving a Service SDO](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-service-sdo)
+[Retrieving a Service SDO](/windows/desktop/Nps/sdo-retrieving-a-service-sdo)
 </dt> <dt>
 
-[**VariantClear**](https://msdn.microsoft.com/library/ms221165(v=VS.71).aspx)
+[**VariantClear**](/windows/win32/api/oleauto/nf-oleauto-variantclear)
 </dt> <dt>
 
-[**VariantInit**](https://msdn.microsoft.com/library/ms221402(v=VS.71).aspx)
+[**VariantInit**](/windows/win32/api/oleauto/nf-oleauto-variantinit)
 </dt> <dt>
 
-[**VARIANT**](https://msdn.microsoft.com/library/ms221627(v=VS.71).aspx)
+[**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -8,67 +8,63 @@ ms.date: 05/31/2018
 
 # The ACF Body
 
-The ACF body contains configuration attributes that apply to types and functions defined in the interface body of the IDL file. The body of the ACF can be empty or it can contain ACF [**include**](https://docs.microsoft.com/windows/desktop/Midl/include), [**typedef**](https://docs.microsoft.com/windows/desktop/Midl/typedef), function, and parameter attributes. All of these items are optional. Attributes applied to individual types and functions in the ACF body override attributes in the ACF header.
+The ACF body contains configuration attributes that apply to types and functions defined in the interface body of the IDL file. The body of the ACF can be empty or it can contain ACF [**include**](/windows/desktop/Midl/include), [**typedef**](/windows/desktop/Midl/typedef), function, and parameter attributes. All of these items are optional. Attributes applied to individual types and functions in the ACF body override attributes in the ACF header.
 
-The ACF specifies behavior on the local computer and does not affect the data transmitted over the network. It is used to specify details of a stub to be generated. In DCE-compatibility mode ([**/osf**](https://docs.microsoft.com/windows/desktop/Midl/-osf)), the ACF does not affect interaction between stubs, but between the stub and application code.
+The ACF specifies behavior on the local computer and does not affect the data transmitted over the network. It is used to specify details of a stub to be generated. In DCE-compatibility mode ([**/osf**](/windows/desktop/Midl/-osf)), the ACF does not affect interaction between stubs, but between the stub and application code.
 
 A parameter specified in the ACF must be one of the parameters specified in the IDL file. The order of specification of the parameter in the ACF is not significant because the matching is by name, not by position. The parameter list in the ACF can be empty, even when the parameter list in the corresponding IDL signature is not (but this is not recommended). Abstract declarators (unnamed parameters) in the IDL file cause the MIDL compiler to report errors while processing the ACF because the parameter is not found.
 
 The ACF **include** directive specifies the header files to appear in the generated header as part of a standard C-preprocessor **\#include** statement. The ACF keyword **include** differs from an **\#include** directive. The ACF keyword **include** causes the line "**\#include** *filename*" to appear in the generated header file, while the C-language directive "**\#include** *filename*" causes the contents of that file to be placed in the ACF.
 
-The ACF [**typedef**](https://docs.microsoft.com/windows/desktop/Midl/typedef) statement lets you apply ACF type attributes to types previously defined in the IDL file. The ACF **typedef** syntax differs from the C **typedef** syntax.
+The ACF [**typedef**](/windows/desktop/Midl/typedef) statement lets you apply ACF type attributes to types previously defined in the IDL file. The ACF **typedef** syntax differs from the C **typedef** syntax.
 
-The ACF function attributes let you specify attributes that apply to the function as a whole. For more information, see **\[**[**code**](https://docs.microsoft.com/windows/desktop/Midl/code)**\]**, **\[**[**optimize**](https://docs.microsoft.com/windows/desktop/Midl/optimize)**\]**, and **\[**[**nocode**](https://docs.microsoft.com/windows/desktop/Midl/nocode)**\]**.
+The ACF function attributes let you specify attributes that apply to the function as a whole. For more information, see **\[**[**code**](/windows/desktop/Midl/code)**\]**, **\[**[**optimize**](/windows/desktop/Midl/optimize)**\]**, and **\[**[**nocode**](/windows/desktop/Midl/nocode)**\]**.
 
-The ACF parameter attributes let you specify attributes that apply to individual parameters of the function. For more information, see **\[**[**byte\_count**](https://docs.microsoft.com/windows/desktop/Midl/byte-count)**\]**.
+The ACF parameter attributes let you specify attributes that apply to individual parameters of the function. For more information, see **\[**[**byte\_count**](/windows/desktop/Midl/byte-count)**\]**.
 
 ## Related topics
 
 <dl> <dt>
 
-[**/app\_config**](https://docs.microsoft.com/windows/desktop/Midl/-app-config)
+[**/app\_config**](/windows/desktop/Midl/-app-config)
 </dt> <dt>
 
-[**/osf**](https://docs.microsoft.com/windows/desktop/Midl/-osf)
+[**/osf**](/windows/desktop/Midl/-osf)
 </dt> <dt>
 
-[**\[auto\_handle\]**](https://msdn.microsoft.com/library/windows/desktop/aa366736)
+[**\[auto\_handle\]**](../midl/auto-handle.md)
 </dt> <dt>
 
-[**\[code\]**](https://msdn.microsoft.com/library/windows/desktop/aa366752)
+[**\[code\]**](../midl/code.md)
 </dt> <dt>
 
-[**\[explicit\_handle\]**](https://msdn.microsoft.com/library/windows/desktop/aa366825)
+[**\[explicit\_handle\]**](../midl/explicit-handle.md)
 </dt> <dt>
 
 [The Interface Definition Language (IDL) File](the-interface-definition-language-idl-file.md)
 </dt> <dt>
 
-[**\[implicit\_handle\]**](https://msdn.microsoft.com/library/windows/desktop/aa367046)
+[**\[implicit\_handle\]**](../midl/implicit-handle.md)
 </dt> <dt>
 
-[**include**](https://docs.microsoft.com/windows/desktop/Midl/include)
+[**include**](/windows/desktop/Midl/include)
 </dt> <dt>
 
-[midl](https://docs.microsoft.com/windows/desktop/Midl/midl-language-reference)
+[midl](/windows/desktop/Midl/midl-language-reference)
 </dt> <dt>
 
-[**\[nocode\]**](https://msdn.microsoft.com/library/windows/desktop/aa367116)
+[**\[nocode\]**](../midl/nocode.md)
 </dt> <dt>
 
-[**\[optimize\]**](https://msdn.microsoft.com/library/windows/desktop/aa367131)
+[**\[optimize\]**](../midl/optimize.md)
 </dt> <dt>
 
-[**\[represent\_as\]**](https://msdn.microsoft.com/library/windows/desktop/aa367154)
+[**\[represent\_as\]**](../midl/represent-as.md)
 </dt> <dt>
 
-[**typedef**](https://docs.microsoft.com/windows/desktop/Midl/typedef)
+[**typedef**](/windows/desktop/Midl/typedef)
 </dt> </dl>
 
  
 
  
-
-
-
-

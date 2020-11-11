@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_INFO command retrieves string information from a device. All devices recognize this command. Information is returned in the **lpstrReturn** member of the structure identified by *lpInfo*. The **dwRetSize** member specifies the buffer length for the returned data.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function with the following parameters.
 
 
 ```C++
@@ -279,10 +279,4 @@ Obtains the product name of the current output and its value is device specific.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

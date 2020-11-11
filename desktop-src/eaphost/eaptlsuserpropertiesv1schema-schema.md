@@ -24,7 +24,7 @@ The eaptlsuserpropertiesv1 schema defines authentication credentials and credent
 [EAPHost and Legacy Schema](eaphost-schemas.md)
 </dt> <dt>
 
-[PPP EAP TLS Authentication Protocol](Http://go.microsoft.com/fwlink/p/?linkid=84050)
+[PPP EAP TLS Authentication Protocol](https://go.microsoft.com/fwlink/p/?linkid=84050)
 </dt> </dl>
 
  

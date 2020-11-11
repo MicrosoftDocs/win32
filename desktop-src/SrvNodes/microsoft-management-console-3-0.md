@@ -10,12 +10,9 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [Microsoft Management Console 3.0](https://msdn.microsoft.com/library/ms692740(v=VS.85).aspx)
+-   [Microsoft Management Console 3.0](/previous-versions/windows/desktop/mmc/mmc-3.0/ms692740(v=vs.85))
 -   [MMC Class Library](https://www.bing.com/search?q=MMC+Class+Library)
 
  
 
  
-
-
-

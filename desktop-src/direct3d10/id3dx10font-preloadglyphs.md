@@ -39,7 +39,7 @@ HRESULT PreloadGlyphs(
 *First* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 ID of the first glyph to be loaded into video memory.
 
@@ -48,7 +48,7 @@ ID of the first glyph to be loaded into video memory.
 *Last* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 ID of the last glyph to be loaded into video memory.
 
@@ -90,7 +90,3 @@ Glyphs will not be rendered to the device; ID3DX10Font::DrawText must still be c
  
 
  
-
-
-
-

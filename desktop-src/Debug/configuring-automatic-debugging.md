@@ -72,12 +72,9 @@ HKEY_LOCAL_MACHINE
 
 <dl> <dt>
 
-[Enabling Postmortem Debugging with WinDbg](https://msdn.microsoft.com/library/Ff542967(v=VS.85).aspx)
+[Enabling Postmortem Debugging with WinDbg](/windows-hardware/drivers/debugger/enabling-postmortem-debugging)
 </dt> </dl>
 
  
 
  
-
-
-

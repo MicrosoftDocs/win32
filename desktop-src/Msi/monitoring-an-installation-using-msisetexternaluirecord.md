@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Package authors can monitor internal Windows Installer messages through the creation of an executable application that contains both a record-based callback handler to receive the messages and functionality to initiate an installation.
 
-The record-based handler in the following example conforms to the [**INSTALLUI\_HANDLER\_RECORD**](https://msdn.microsoft.com/library/Aa369545(v=VS.85).aspx) prototype, and a pointer to this callback handler is passed to [**MsiSetExternalUIRecord**](/windows/desktop/api/Msi/nf-msi-msisetexternaluirecord) function.
+The record-based handler in the following example conforms to the [**INSTALLUI\_HANDLER\_RECORD**](/windows/win32/api/msi/nc-msi-installui_handler_record) prototype, and a pointer to this callback handler is passed to [**MsiSetExternalUIRecord**](/windows/desktop/api/Msi/nf-msi-msisetexternaluirecord) function.
 
 
 ```C++
@@ -163,6 +163,3 @@ return ERROR_SUCCESS == uiRet ? 0 : 1;
  
 
  
-
-
-

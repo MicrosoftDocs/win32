@@ -48,7 +48,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**pAppliedChangesRegion* when you no longer need to use the analysis region.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**pAppliedChangesRegion* when you no longer need to use the analysis region.
 
  
 
@@ -81,9 +81,4 @@ This method is most frequently used when the application receives information fo
 </dt> </dl>
 
  
-
- 
-
-
-
 

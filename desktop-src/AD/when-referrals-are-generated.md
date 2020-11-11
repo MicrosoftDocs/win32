@@ -15,7 +15,7 @@ A referral is the way that a directory server communicates that it does not cont
 
 The following operations can result in one or more referrals:
 
--   Binding to a server that does not contain the object specified by the requested distinguished name but has data about a server or domain that may contain that object. For ADSI, this can occur if the application calls [**ADsGetObject**](https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsgetobject) or [**ADsOpenObject**](https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject) to bind to an object that exists in another domain in the forest (internal referral) or a naming context that is completely separate from the forest (external referral). For the LDAP API, this can occur when performing add, modify, delete, or search operations that specify an object that exists in another domain in the forest (internal referral) or a naming context that is completely separate from the forest (external referral).
+-   Binding to a server that does not contain the object specified by the requested distinguished name but has data about a server or domain that may contain that object. For ADSI, this can occur if the application calls [**ADsGetObject**](/windows/desktop/api/adshlp/nf-adshlp-adsgetobject) or [**ADsOpenObject**](/windows/desktop/api/adshlp/nf-adshlp-adsopenobject) to bind to an object that exists in another domain in the forest (internal referral) or a naming context that is completely separate from the forest (external referral). For the LDAP API, this can occur when performing add, modify, delete, or search operations that specify an object that exists in another domain in the forest (internal referral) or a naming context that is completely separate from the forest (external referral).
 
     If name resolution fails to find an object locally and there are no **crossRef** objects for that portion of the namespace, the domain controller will attempt to construct an external referral based on the domain components of the distinguished name. For example, if a search was based at "CN=a,CN=b,DC=c,DC=d,DC=e", the domain controller will construct a referral to the LDAP server at DNS address "c.d.e".
 
@@ -26,7 +26,3 @@ The following operations can result in one or more referrals:
  
 
  
-
-
-
-

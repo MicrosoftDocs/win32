@@ -119,7 +119,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64), **WmiDataId** (1), **InterfaceVersion** (1), **InterfaceRevision** (0)
+Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), **WmiDataId** (1), **InterfaceVersion** (1), **InterfaceRevision** (0)
 </dt> </dl>
 
 The ID of the QOS queue.
@@ -151,7 +151,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: **WmiDataId** (5), [**Version**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Revision**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
+Qualifiers: **WmiDataId** (5), [**Version**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Revision**](/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 Indicates whether hardware offloads for limits are attempted if available.
@@ -167,7 +167,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: **WmiDataId** (6), [**Version**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Revision**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0)
+Qualifiers: **WmiDataId** (6), [**Version**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Revision**](/windows/desktop/WmiSdk/standard-qualifiers) (0)
 </dt> </dl>
 
 Indicates whether hardware offloads for reservations are attempted if available.
@@ -260,9 +260,4 @@ The QOS reservation mode on the switch.
 </dt> </dl>
 
  
-
- 
-
-
-
 

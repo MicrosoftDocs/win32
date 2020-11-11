@@ -77,14 +77,14 @@ public static void JetCompact(
 <!-- end list -->
 
   - sourceDatabase  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The source database that will be compacted.
 
 <!-- end list -->
 
   - destinationDatabase  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The name to use for the compacted database.
 
@@ -118,4 +118,3 @@ public static void JetCompact(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

@@ -31,9 +31,9 @@ Initialization is essential for pointers that are embedded in arrays and structu
 
 Be careful when aliasing pointers (allowing pointers to point to the same piece of memory). If the aliasing is intentional, these pointers should be declared aliased in the IDL file. Pointers declared as nonaliased should never alias each other.
 
-Pay attention to how you allocate and free memory. Remember that, unless you explicitly tell a COM object (by using the [**allocate**](https://docs.microsoft.com/windows/desktop/Midl/allocate) attribute) not to free a data structure that was created during an out-of-process call, that structure will be destroyed when the call completes. Also, consider the potentially destructive overhead created by inefficient allocation of data structures that now need to be marshaled and unmarshaled.
+Pay attention to how you allocate and free memory. Remember that, unless you explicitly tell a COM object (by using the [**allocate**](/windows/desktop/Midl/allocate) attribute) not to free a data structure that was created during an out-of-process call, that structure will be destroyed when the call completes. Also, consider the potentially destructive overhead created by inefficient allocation of data structures that now need to be marshaled and unmarshaled.
 
-Finally, be careful when defining your **HRESULT** return values so that you don't create error codes that conflict with COM-defined FACILITY\_ITF codes (values between 0x0000 and 0x01FF are reserved) or that conflict with other **HRESULT** values with the same value. Whenever possible, use the universal COM success and failure return values, and use an [**out**](https://docs.microsoft.com/windows/desktop/Midl/out-idl) parameter, rather than an **HRESULT**, to return information specific to the function call.
+Finally, be careful when defining your **HRESULT** return values so that you don't create error codes that conflict with COM-defined FACILITY\_ITF codes (values between 0x0000 and 0x01FF are reserved) or that conflict with other **HRESULT** values with the same value. Whenever possible, use the universal COM success and failure return values, and use an [**out**](/windows/desktop/Midl/out-idl) parameter, rather than an **HRESULT**, to return information specific to the function call.
 
 For more information, see the following topics:
 
@@ -44,13 +44,9 @@ For more information, see the following topics:
 
 <dl> <dt>
 
-[Interface Definitions and Type Libraries](https://docs.microsoft.com/windows/desktop/Midl/interface-definitions-and-type-libraries)
+[Interface Definitions and Type Libraries](/windows/desktop/Midl/interface-definitions-and-type-libraries)
 </dt> </dl>
 
  
 
  
-
-
-
-

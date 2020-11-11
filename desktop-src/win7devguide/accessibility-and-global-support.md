@@ -16,7 +16,7 @@ Windows 7 also makes supporting multiple global languages easier than in previo
 
 Windows 7 delivers a rich, standards-based automation layer that is extended for native applications. It builds on Microsoft Active Accessibility and Microsoft UI Automation. It's also designed to work with industry standards such as the W3C Web ARIA (Accessible Rich Internet Application) and *Section 508 Specifications*.
 
-UI Automation offers improved performance by introducing faster unmanaged automation proxies for Microsoft Win32 controls and legacy Microsoft Active Accessibility (*MSAA*) applications, and better and faster UI Automation event and proxy registrations. New extensibility features extend control patterns, properties, and custom events. (See [Windows Automation API: Overview](https://msdn.microsoft.com/library/dd561932(VS.85).aspx).)
+UI Automation offers improved performance by introducing faster unmanaged automation proxies for Microsoft Win32 controls and legacy Microsoft Active Accessibility (*MSAA*) applications, and better and faster UI Automation event and proxy registrations. New extensibility features extend control patterns, properties, and custom events. (See [Windows Automation API: Overview](../winauto/windows-automation-api-overview.md).)
 
 ## Accessibility Support Tools
 
@@ -28,12 +28,8 @@ UIA Verify is a test automation framework that facilitates manual and automated 
 
 Windows 7 provides developers with a standard method to prepare their applications for the international market by delivering an improved multi-language user interface support and linguistic services that they can use in their applications.
 
-Extended Linguistic Services is a new feature in Windows 7 that allows developers to use the same small set of APIs to leverage a variety of advanced linguistic functionality. By using Extended Linguistic ServicesAPIs in Windows 7, developers can auto-detect the language of any piece of Unicode text and use that information to help make smarter user experience choices for customers around the world. Extended Linguistic Services also offers built in transliteration support that converts text from one writing system to another. For example, developers can now auto-convert text between simplified and traditional Chinese to help people communicate with each other across linguistic boundaries. By using Extended Linguistic ServicesAPIs, developers will be able to use existing Extended Linguistic Services as well as pick up new services in the future without learning new code. (See [Extended Linguistic Services](https://msdn.microsoft.com/library/dd317839(VS.85).aspx).)
+Extended Linguistic Services is a new feature in Windows 7 that allows developers to use the same small set of APIs to leverage a variety of advanced linguistic functionality. By using Extended Linguistic ServicesAPIs in Windows 7, developers can auto-detect the language of any piece of Unicode text and use that information to help make smarter user experience choices for customers around the world. Extended Linguistic Services also offers built in transliteration support that converts text from one writing system to another. For example, developers can now auto-convert text between simplified and traditional Chinese to help people communicate with each other across linguistic boundaries. By using Extended Linguistic ServicesAPIs, developers will be able to use existing Extended Linguistic Services as well as pick up new services in the future without learning new code. (See [Extended Linguistic Services](../intl/extended-linguistic-services.md).)
 
  
 
  
-
-
-
-

@@ -33,12 +33,8 @@ Be aware that restoring an Active Directory server is always a two-part operatio
 
 A computer running on Windows 2000 or Windows Server 2003, that contains a replica of the directory service, is a domain controller.
 
-The [**DsRestoreRegister**](dsrestoreregister.md) function adds data to the registry that must survive the registry restoration process for the restoration to work correctly. To ensure this registry data is preserved, restore Active Directory Domain Services with the **DsRestore\*** functions prior to restarting the computer after the [**RegReplaceKey**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regreplacekeya) function is called. This process works because **RegReplaceKey** does not actually replace the registry hive until the computer is restarted and the registry data added by the **DsRestoreRegister** function is specifically excluded from being replaced during a registry restore operation.
+The [**DsRestoreRegister**](dsrestoreregister.md) function adds data to the registry that must survive the registry restoration process for the restoration to work correctly. To ensure this registry data is preserved, restore Active Directory Domain Services with the **DsRestore\*** functions prior to restarting the computer after the [**RegReplaceKey**](/windows/desktop/api/winreg/nf-winreg-regreplacekeya) function is called. This process works because **RegReplaceKey** does not actually replace the registry hive until the computer is restarted and the registry data added by the **DsRestoreRegister** function is specifically excluded from being replaced during a registry restore operation.
 
  
 
  
-
-
-
-

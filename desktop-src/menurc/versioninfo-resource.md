@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # VERSIONINFO resource
 
-Defines a version-information resource. The resource contains such information about the file as its version number, its intended operating system, and its original filename. The resource is intended to be used with the [Version Information](https://msdn.microsoft.com/library/ms646981(v=VS.85).aspx) functions.
+Defines a version-information resource. The resource contains such information about the file as its version number, its intended operating system, and its original filename. The resource is intended to be used with the [Version Information](./version-information.md) functions.
 
 There are two ways to format a **VERSIONINFO** statement:
 
@@ -57,8 +57,8 @@ Version information, such as the file version and the intended operating system.
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **FILEVERSION** *version*         | Binary version number for the file. The *version* consists of two 32-bit integers, defined by four 16-bit integers. For example, "FILEVERSION 3,10,0,61" is translated into two doublewords: 0x0003000a and 0x0000003d, in that order. Therefore, if *version* is defined by the **DWORD** values *dw1* and *dw2*, they need to appear in the **FILEVERSION** statement as follows: `HIWORD(dw1)`, `LOWORD(dw1)`, `HIWORD(dw2)`, `LOWORD(dw2)`. |
 | **PRODUCTVERSION** *version*      | Binary version number for the product with which the file is distributed. The *version* parameter is two 32-bit integers, defined by four 16-bit integers. For more information about *version*, see the **FILEVERSION** description.                                                                                                                                                                                                           |
-| **FILEFLAGSMASK** *fileflagsmask* | Bits in the **FILEFLAGS** statement are valid. If a bit is set, the corresponding bit in **FILEFLAGS** is valid.                                                                                                                                                                                                                                                                                                                                |
-| **FILEFLAGS** *fileflags*         | Attributes of the file. The *fileflags* parameter must be the combination of all the file flags that are valid at compile time. For 16-bit Windows, this value is 0x3f.                                                                                                                                                                                                                                                                         |
+| **FILEFLAGSMASK** *fileflagsmask* | Indicates which bits in the **FILEFLAGS** statement are valid. For 16-bit Windows, this value is 0x3f.                                                                                                                                                                                                                                                                                                                                          |
+| **FILEFLAGS** *fileflags*         | Attributes of the file.                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **FILEOS** *fileos*               | Operating system for which this file was designed. The *fileos* parameter can be one of the operating system values given in the Remarks section.                                                                                                                                                                                                                                                                                               |
 | **FILETYPE** *filetype*           | General type of file. The *filetype* parameter can be one of the file type values listed in the Remarks section.                                                                                                                                                                                                                                                                                                                                |
 | **FILESUBTYPE** *subtype*         | Function of the file. The *subtype* parameter is zero unless the *filetype* parameter in the **FILETYPE** statement is VFT\_DRV, VFT\_FONT, or VFT\_VXD. For a list of file subtype values, see the Remarks section.                                                                                                                                                                                                                            |
@@ -365,16 +365,12 @@ END
 
 <dl> <dt>
 
-[Using Version Information](https://msdn.microsoft.com/library/ms646985(v=VS.85).aspx)
+[Using Version Information](./using-version-information.md)
 </dt> <dt>
 
-[Version Information](https://msdn.microsoft.com/library/ms646981(v=VS.85).aspx)
+[Version Information](./version-information.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

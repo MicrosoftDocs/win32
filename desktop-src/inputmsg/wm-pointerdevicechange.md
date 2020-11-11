@@ -21,7 +21,7 @@ ms.date: 02/03/2020
 Sent to a window when there is a change in the settings of a monitor that has a digitizer attached to it. This message contains information regarding the scaling of the display mode.
 
 > \[!Important\]  
-> Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
+> Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](/previous-versions//dd464660(v=vs.85)).
 
  
 
@@ -54,7 +54,7 @@ Additional message-specific information.
 
 If the application processes this message, it should return zero.
 
-If the application does not process this message, it should call [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572).
+If the application does not process this message, it should call [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
 ## Requirements
 
@@ -76,10 +76,4 @@ If the application does not process this message, it should call [**DefWindowPro
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

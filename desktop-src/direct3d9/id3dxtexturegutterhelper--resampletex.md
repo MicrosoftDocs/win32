@@ -42,7 +42,7 @@ HRESULT ResampleTex(
 *pTextureIn* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9)**
 
 Texture that corresponds to the original parameterization in pMeshIn. This texture will be used to create pTextureOut.
 
@@ -60,16 +60,16 @@ Mesh containing the original and new parameterizations. It is required to store 
 *Usage* \[in\]
 </dt> <dd>
 
-Type: **[**D3DDECLUSAGE**](https://msdn.microsoft.com/library/Bb172534(v=VS.85).aspx)**
+Type: **[**D3DDECLUSAGE**](./d3ddeclusage.md)**
 
-Vertex data usage (used in combination with UsageIndex) which identifies the component of the vertex declaration that contains the original parameterization in pMeshIn. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/library/Bb172534(v=VS.85).aspx).
+Vertex data usage (used in combination with UsageIndex) which identifies the component of the vertex declaration that contains the original parameterization in pMeshIn. See [**D3DDECLUSAGE**](./d3ddeclusage.md).
 
 </dd> <dt>
 
 *UsageIndex* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Zero-based index (used in combination with Usage), which identifies the component of the vertex declaration that contains the original parameterization in pMeshIn. The combination of D3DDECLUSAGE\_TEXCOORD and index 0 is required for the new parameterization; any other usage/index combination may be used.
 
@@ -78,7 +78,7 @@ Zero-based index (used in combination with Usage), which identifies the componen
 *pTextureOut* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9)**
 
 Resampled texture.
 
@@ -157,7 +157,3 @@ One common scenario might be to use UVAtlas to create a texture atlas and then u
  
 
  
-
-
-
-

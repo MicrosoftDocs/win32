@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 This section describe level of XML Language support in WWS.
 
-## 
 
 See the functions DownlevelLCIDToLocaleName on versions of Windows earlier than Windows Vista, and LCIDToLocalName otherwise, to convert between an LCID and an xml:lang value.
 

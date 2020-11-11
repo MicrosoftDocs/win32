@@ -73,11 +73,11 @@ Each icon in the notification area can be identified in two ways:
 
 Icons in the notification area can have a tooltip. The tooltip can be either a standard tooltip (preferred) or an application-drawn, pop-up UI. While a tooltip is not required, it is recommended.
 
-Notification area icons should be high-DPI aware. An application should provide both a 16x16 pixel icon and a 32x32 icon in its resource file, and then use [**LoadIconMetric**](https://msdn.microsoft.com/library/Bb775701(v=VS.85).aspx) to ensure that the correct icon is loaded and scaled appropriately.
+Notification area icons should be high-DPI aware. An application should provide both a 16x16 pixel icon and a 32x32 icon in its resource file, and then use [**LoadIconMetric**](/windows/win32/api/commctrl/nf-commctrl-loadiconmetric) to ensure that the correct icon is loaded and scaled appropriately.
 
 The application responsible for the notification area icon should handle a mouse click for that icon. When a user right-clicks the icon, it should bring up a normal shortcut menu. However, the result of a single click with the left mouse button will vary with the function of the icon. It should display what the user would expect to see in the form best suited to that content—a popup window, a dialog box or the program window itself. For instance, it could show status text for a status icon, or a slider for the volume control.
 
-The placement of a popup window or dialog box that results from the click should be placed near the coordinate of the click in the notification area. Use the [**CalculatePopupWindowPosition**](https://msdn.microsoft.com/library/Dd565861(v=VS.85).aspx) to determine its location.
+The placement of a popup window or dialog box that results from the click should be placed near the coordinate of the click in the notification area. Use the [**CalculatePopupWindowPosition**](/windows/win32/api/winuser/nf-winuser-calculatepopupwindowposition) to determine its location.
 
 The icon can be added to the notification area without displaying a notification by defining only the icon-specific members of [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) (discussed above) and calling [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) as shown here:
 
@@ -255,6 +255,3 @@ See the [NotificationIcon Sample](samples-notificationicon.md) sample in the Win
  
 
  
-
-
-

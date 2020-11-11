@@ -29,7 +29,7 @@ Retrieves a string from a toolbar's string pool.
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the length of the *lParam* buffer, in bytes. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the index of the string.
+The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the length of the *lParam* buffer, in bytes. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the index of the string.
 
 </dd> <dt>
 
@@ -78,10 +78,4 @@ This message returns the specified string from the toolbar's string pool. It doe
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

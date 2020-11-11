@@ -18,7 +18,7 @@ topic_type:
 
 # SFVM\_GETHELPTEXT message
 
-Allows the callback object to specify a help text string for menu items or toolbar buttons. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
+Allows the callback object to specify a help text string for menu items or toolbar buttons. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
 
 
 ```C++
@@ -66,7 +66,3 @@ A null-terminated string containing the help text.
  
 
  
-
-
-
-

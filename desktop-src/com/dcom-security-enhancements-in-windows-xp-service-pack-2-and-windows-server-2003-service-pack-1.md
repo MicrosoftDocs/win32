@@ -28,7 +28,7 @@ This feature applies to you if you have a COM server application that meets one 
 
 ### Computer-wide restrictions
 
-A change has been made in COM to provide computer-wide access controls that govern access to all call, activation, or launch requests on the computer. The simplest way to think about these access controls is as an additional [**AccessCheck**](https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck) call that is done against a computer-wide access control list (ACL) on each call, activation, or launch of any COM server on the computer. If the **AccessCheck** fails, the call, activation, or launch request is denied. This is in addition to any **AccessCheck** that is run against the server-specific ACLs. In effect, it provides a minimum authorization standard that must be passed to access any COM server on the computer. There is a computer-wide ACL for launch permissions to cover activate and launch rights, and a computer-wide ACL for access permissions to cover call rights. These can be configured through the Component Services Microsoft Management Console (MMC).
+A change has been made in COM to provide computer-wide access controls that govern access to all call, activation, or launch requests on the computer. The simplest way to think about these access controls is as an additional [**AccessCheck**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck) call that is done against a computer-wide access control list (ACL) on each call, activation, or launch of any COM server on the computer. If the **AccessCheck** fails, the call, activation, or launch request is denied. This is in addition to any **AccessCheck** that is run against the server-specific ACLs. In effect, it provides a minimum authorization standard that must be passed to access any COM server on the computer. There is a computer-wide ACL for launch permissions to cover activate and launch rights, and a computer-wide ACL for access permissions to cover call rights. These can be configured through the Component Services Microsoft Management Console (MMC).
 
 These computer-wide ACLs provide a way to override weak security settings specified by a specific application through [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) or application-specific security settings. This provides a minimum security standard that must be passed, regardless of the settings of the specific server.
 
@@ -286,10 +286,4 @@ ACL - Access Control List
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

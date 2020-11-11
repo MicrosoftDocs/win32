@@ -14,7 +14,7 @@ The following documentation explains how these applications achieve connectivity
 
 ## Obtaining a Destination Address
 
-An application attempts to obtain the destination address using various methods such as Domain Name System (DNS) or Peer Name Resolution Protocol (PNRP). It is possible for the application to obtain multiple IPv4 and IPv6 IP addresses using these methods. The typical APIs used to obtain IP addresses include the Windows XP API [**GetHostByName**](https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname) and the new Windows Vista API [**GetAddrInfo**](https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo). For example, using the GetAddrInfo API with the *ai\_family* parameter set to AF\_INET6 as the addrinfo/protocol hint allows the user to query DNS servers for IPv6 addresses specifically. The [**DnsQuery**](https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a) API with the type DNS\_TYPE\_AAAA can also be used to query the DNS servers for AAAA records.
+An application attempts to obtain the destination address using various methods such as Domain Name System (DNS) or Peer Name Resolution Protocol (PNRP). It is possible for the application to obtain multiple IPv4 and IPv6 IP addresses using these methods. The typical APIs used to obtain IP addresses include the Windows XP API [**GetHostByName**](/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname) and the new Windows Vista API [**GetAddrInfo**](/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo). For example, using the GetAddrInfo API with the *ai\_family* parameter set to AF\_INET6 as the addrinfo/protocol hint allows the user to query DNS servers for IPv6 addresses specifically. The [**DnsQuery**](/windows/desktop/api/windns/nf-windns-dnsquery_a) API with the type DNS\_TYPE\_AAAA can also be used to query the DNS servers for AAAA records.
 
 ## Establishing a Connection
 
@@ -27,11 +27,11 @@ A connection established with Teredo is described as 'seamless' because it is ha
 
 When an application attempts to connect to a destination using IPv6 addresses, the following will occur:
 
--   The application obtains a list of IPv6 addresses by calling the [**GetAdaptersAddresses**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses) API. The Windows Vista stack returns a list of all interfaces based on the sorting order specified in [RFC 3484](http://www.apps.ietf.org/rfc/rfc3484.html). As a result, IPv6 and 6to4 IPv6 interfaces will be listed before Teredo interface. However, when native IPv6 or 6to4 connectivity is not available, Teredo will be the only IPv6 capable interface listed.
+-   The application obtains a list of IPv6 addresses by calling the [**GetAdaptersAddresses**](/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses) API. The Windows Vista stack returns a list of all interfaces based on the sorting order specified in [RFC 3484](https://www.irt.org/rfc/rfc3484.htm). As a result, IPv6 and 6to4 IPv6 interfaces will be listed before Teredo interface. However, when native IPv6 or 6to4 connectivity is not available, Teredo will be the only IPv6 capable interface listed.
 
     It is important to remember that an application can use any interface provided by the Windows Vista stack, however the ordering of the interface list returned will most often result in Teredo being attempted last.
 
--   Before Windows Vista attempts a connection over the Teredo interface, the operating system ensures that the IPv6 address has stabilized. This is done automatically for outgoing connections and is not a crucial consideration for an application. In the event the application is required to guarantee address stability, the [**NotifyStableUnicastIpAddressTable**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable) API can be called to ensure that the Teredo address is stable.
+-   Before Windows Vista attempts a connection over the Teredo interface, the operating system ensures that the IPv6 address has stabilized. This is done automatically for outgoing connections and is not a crucial consideration for an application. In the event the application is required to guarantee address stability, the [**NotifyStableUnicastIpAddressTable**](/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable) API can be called to ensure that the Teredo address is stable.
 
 -   A Teredo interface will attempt to connect to another Teredo interface at the destination. If a Teredo interface is not present, a connection is established with a native or 6to4 destination address through a host-specific relay.
 
@@ -57,7 +57,3 @@ Due to current absence of Teredo relays on the Internet, connections to native I
  
 
  
-
-
-
-

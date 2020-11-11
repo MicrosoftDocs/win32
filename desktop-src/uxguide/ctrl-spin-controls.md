@@ -3,10 +3,13 @@ title: Spin Controls
 description: With a spin control, users can click arrow buttons to change incrementally the value within its associated numeric text box.
 ms.assetid: 5f791fb9-1354-41b9-a9de-ddab35302d50
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Spin Controls
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 With a spin control, users can click arrow buttons to change incrementally the value within its associated [numeric text box](ctrl-text-boxes.md). The term spin box refers to the combination of a text box and its associated spin control.
 
@@ -27,7 +30,7 @@ While spin controls are used for numeric input, the input doesn't have to be a p
 
 To decide, consider these questions:
 
--   **Is the control used for numeric input?** If not, use another control, such as a [drop-down list](https://docs.microsoft.com/windows/desktop/uxguide/ctrl-drop) or [slider](ctrl-sliders.md), to select from a fixed set of values. Use scroll bars for scrolling.
+-   **Is the control used for numeric input?** If not, use another control, such as a [drop-down list](/windows/desktop/uxguide/ctrl-drop) or [slider](ctrl-sliders.md), to select from a fixed set of values. Use scroll bars for scrolling.
 -   **Do users think of the value as a relative quantity, not a numeric value?** If so, use a slider instead. Use spin boxes only for exact, known numeric values. For example, users think about setting their audio volume to low or medium—not about setting the value to 2 or 5.
 -   **Is the control paired with a text box?** If not, don't use. Spin controls shouldn't be used alone or with other types of controls besides a text box.
 
@@ -159,7 +162,3 @@ Example: In the **Date** box, type or select the part of the date you want to ch
  
 
  
-
-
-
-

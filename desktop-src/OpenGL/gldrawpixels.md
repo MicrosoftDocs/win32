@@ -211,24 +211,6 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 | <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/>                                                        |
 
 
-
-## Error codes
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                                                                                      |
-|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | Either *width* or *height* was negative.<br/>                                                                                                                                          |
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | Either *format* or *type* was not an accepted value. <br/>                                                                                                                             |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | *format* was GL\_RED, GL\_GREEN, GL\_BLUE, GL\_ALPHA, GL\_RGB, GL\_RGBA, GL\_BGR\_EXT, GL\_BGRA\_EXT, GL\_LUMINANCE, or GL\_LUMINANCE\_ALPHA, and OpenGL was in color-index mode.<br/> |
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *type* was GL\_BITMAP and *format* was not either GL\_COLOR\_INDEX or GL\_STENCIL\_INDEX.<br/>                                                                                         |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | *format* was GL\_STENCIL\_INDEX and there was no stencil buffer.<br/>                                                                                                                  |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/>                                                        |
-
-
-
 ## Remarks
 
 The **glDrawPixels** function reads pixel data from memory and writes it into the framebuffer relative to the current raster position. Use [**glRasterPos**](glrasterpos-functions.md) to set the current raster position, and use [**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) with argument GL\_CURRENT\_RASTER\_POSITION to query the raster position.

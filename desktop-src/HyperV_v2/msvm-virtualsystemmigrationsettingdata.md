@@ -179,7 +179,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -192,7 +192,7 @@ Data type: **uint16**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CPUCappingMagnitude")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("CPUCappingMagnitude")
 </dt> </dl>
 
 Degree of CPU capping during migration.
@@ -236,7 +236,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -275,7 +275,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85)).
+A display name for the object. This property is inherited from [**CIM\_SettingData**](/previous-versions//cc136911(v=vs.85)).
 
 </dd> <dt>
 
@@ -306,7 +306,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -319,7 +319,7 @@ Data type: **uint16**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MigrationType")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("MigrationType")
 </dt> </dl>
 
 Specifies the type of migration operation to be performed. This property is inherited from **CIM\_VirtualSystemMigrationSettingData**.
@@ -458,7 +458,7 @@ Data type: **uint16**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("TransportType")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("TransportType")
 </dt> </dl>
 
 Specifies the type of transport to be applied for a virtual system migration operation. This property is inherited from **CIM\_VirtualSystemMigrationSettingData**.
@@ -565,7 +565,7 @@ Data type: **string** array
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed"), **HyperVEmbeddedInstance** ("Msvm\_MoveUnmanagedVhd")
+Qualifiers: [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed"), **HyperVEmbeddedInstance** ("Msvm\_MoveUnmanagedVhd")
 </dt> </dl>
 
 An array of embedded [**Msvm\_MoveUnmanagedVhd**](msvm-moveunmanagedvhd.md) instances which contain unmanaged VHDs information.
@@ -602,9 +602,4 @@ An array of embedded [**Msvm\_MoveUnmanagedVhd**](msvm-moveunmanagedvhd.md) inst
 </dt> </dl>
 
  
-
- 
-
-
-
 

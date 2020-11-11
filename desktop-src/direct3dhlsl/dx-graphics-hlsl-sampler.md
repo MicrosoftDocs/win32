@@ -129,7 +129,7 @@ ComparisonFunc
 
 
 
-The right side of each expression is the value assigned to each state. See the [**D3D11\_SAMPLER\_DESC**](https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_sampler_desc) structure for the possible state values for Direct3D 11. There is a 1 to 1 relationship between the state names and the members of the structure. See the following example.
+The right side of each expression is the value assigned to each state. See the [**D3D11\_SAMPLER\_DESC**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_sampler_desc) structure for the possible state values for Direct3D 11. There is a 1 to 1 relationship between the state names and the members of the structure. See the following example.
 
 </dd> </dl>
 
@@ -137,8 +137,8 @@ The right side of each expression is the value assigned to each state. See the [
 
 When you implement an effect, sampler state is one of several types of state that you might need to set up in the pipeline for rendering. For a list of all the possible states that you can set in an effect, see:
 
--   Direct3D 10 uses [state groups](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-effect-states).
--   Direct3D 9 uses individual [states](https://docs.microsoft.com/windows/desktop/direct3d9/effect-states).
+-   Direct3D 10 uses [state groups](/windows/desktop/direct3d10/d3d10-effect-states).
+-   Direct3D 9 uses individual [states](/windows/desktop/direct3d9/effect-states).
 
 ## Example
 
@@ -227,10 +227,4 @@ float fShadow = g_ShadowMap.SampleCmpLevelZero( ShadowSampler, vModProjUV.xy, vM
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

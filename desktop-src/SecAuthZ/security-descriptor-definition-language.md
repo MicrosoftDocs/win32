@@ -8,10 +8,10 @@ ms.date: 05/31/2018
 
 # Security Descriptor Definition Language
 
-The security descriptor definition language (SDDL) defines the string format that the [**ConvertSecurityDescriptorToStringSecurityDescriptor**](/windows/desktop/api/Sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) and [**ConvertStringSecurityDescriptorToSecurityDescriptor**](/windows/desktop/api/Sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora) functions use to describe a [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) as a text string. The language also defines string elements for describing information in the components of a security descriptor.
+The security descriptor definition language (SDDL) defines the string format that the [**ConvertSecurityDescriptorToStringSecurityDescriptor**](/windows/desktop/api/Sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) and [**ConvertStringSecurityDescriptorToSecurityDescriptor**](/windows/desktop/api/Sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora) functions use to describe a [*security descriptor*](/windows/desktop/SecGloss/s-gly) as a text string. The language also defines string elements for describing information in the components of a security descriptor.
 
 > [!Note]  
-> Conditional [*access control entries*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACEs) have a different SDDL format than other ACE types. For ACEs, see [ACE Strings](ace-strings.md). For conditional ACEs, see [Security Descriptor Definition Language for Conditional ACEs](security-descriptor-definition-language-for-conditional-aces-.md).
+> Conditional [*access control entries*](/windows/desktop/SecGloss/a-gly) (ACEs) have a different SDDL format than other ACE types. For ACEs, see [ACE Strings](ace-strings.md). For conditional ACEs, see [Security Descriptor Definition Language for Conditional ACEs](security-descriptor-definition-language-for-conditional-aces-.md).
 
  
 
@@ -31,12 +31,9 @@ The security descriptor definition language (SDDL) defines the string format tha
 [SID Strings](sid-strings.md)
 </dt> <dt>
 
-[\[MS-DTYP\]: Security Descriptor Description Language](https://msdn.microsoft.com/library/cc230368(PROT.10).aspx)
+[\[MS-DTYP\]: Security Descriptor Description Language](/openspecs/windows_protocols/ms-dtyp/4f4251cc-23b6-44b6-93ba-69688422cb06)
 </dt> </dl>
 
  
 
  
-
-
-

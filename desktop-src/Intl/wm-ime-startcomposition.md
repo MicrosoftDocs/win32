@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM\_IME\_STARTCOMPOSITION message
 
-Sent immediately before the IME generates the composition string as a result of a keystroke. A window receives this message through its [*WindowProc*](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+Sent immediately before the IME generates the composition string as a result of a keystroke. A window receives this message through its [*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -36,7 +36,7 @@ This message has no return value.
 
 This message is a notification to an IME window to open its composition window. An application should process this message if it displays composition characters itself.
 
-If an application has created an IME window, it should pass this message to that window. The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function processes the message by passing it to the default IME window.
+If an application has created an IME window, it should pass this message to that window. The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function processes the message by passing it to the default IME window.
 
 ## Requirements
 
@@ -63,7 +63,3 @@ If an application has created an IME window, it should pass this message to that
  
 
  
-
-
-
-

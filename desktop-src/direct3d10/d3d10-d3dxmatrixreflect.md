@@ -39,7 +39,7 @@ D3DXMATRIX* D3DXMatrixReflect(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the result of the operation.
 
@@ -48,7 +48,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the resul
 *pPlane* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXPLANE**](https://msdn.microsoft.com/library/Bb205385(v=VS.85).aspx)\***
+Type: **const [**D3DXPLANE**](../direct3d9/d3dxplane.md)\***
 
 Pointer to the source [**D3DXPLANE**](d3d10-d3dxplane.md).
 
@@ -56,7 +56,7 @@ Pointer to the source [**D3DXPLANE**](d3d10-d3dxplane.md).
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to a D3DXMATRIX structure that reflects the coordinate system about the source plane.
 
@@ -101,7 +101,3 @@ P = normalize(Plane);
  
 
  
-
-
-
-

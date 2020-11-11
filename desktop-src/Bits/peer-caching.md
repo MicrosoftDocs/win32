@@ -8,7 +8,7 @@ ms.date: 11/29/2018
 
 # Peer Caching
 
-Starting with Background Intelligent Transfer Service (BITS) 4.0, the BITS service was extended to allow subnet-level peer caching for downloaded URL data by using Windows BranchCache. BITS clients can retrieve data from other computers in their own subnet that have already downloaded the data, instead of retrieving the data from remote servers. For more information about Windows BranchCache, see the [BranchCache Overview](https://technet.microsoft.com/library/dd755969(WS.10).aspx).
+Starting with Background Intelligent Transfer Service (BITS) 4.0, the BITS service was extended to allow subnet-level peer caching for downloaded URL data by using Windows BranchCache. BITS clients can retrieve data from other computers in their own subnet that have already downloaded the data, instead of retrieving the data from remote servers. For more information about Windows BranchCache, see the [BranchCache Overview](/previous-versions/windows/it-pro/windows-7/dd755969(v=ws.10)).
 
 If an administrator enables Windows BranchCache on client and server computers in an organization through a group policy or local configuration settings, BITS will use Windows BranchCache for data transfers.
 
@@ -21,14 +21,14 @@ If an administrator enables Windows BranchCache on client and server computers i
 
 The following configuration is required for peer caching in BITS 4.0 to function:
 
--   Windows BranchCache must be enabled on the client through a group policy or local configuration settings. For more information, see [BranchCache client configuration](https://technet.microsoft.com/library/dd637820.aspx).
+-   Windows BranchCache must be enabled on the client through a group policy or local configuration settings. For more information, see [BranchCache client configuration](/previous-versions/windows/it-pro/windows-7/dd637820(v=ws.10)).
     > [!Note]  
     > The Windows BranchCache feature is disabled by default.
 
      
 
--   The Windows BranchCache feature is an optional component that must be installed on the server. For more information, see [BranchCache server configuration](https://technet.microsoft.com/library/dd637785.aspx).
--   The server must also enable the Windows BranchCache feature though group policy or local configuration settings. For more information, see [BranchCache server configuration](https://technet.microsoft.com/library/dd637785.aspx).
+-   The Windows BranchCache feature is an optional component that must be installed on the server. For more information, see [BranchCache server configuration](/previous-versions/windows/it-pro/windows-7/dd637785(v=ws.10)).
+-   The server must also enable the Windows BranchCache feature though group policy or local configuration settings. For more information, see [BranchCache server configuration](/previous-versions/windows/it-pro/windows-7/dd637785(v=ws.10)).
     > [!Note]  
     > The Windows BranchCache feature is disabled by default.
 
@@ -49,16 +49,16 @@ An application can also disable the Windows BranchCache on a per job basis by ca
 
 ## Verification and Monitoring
 
-There are a number of ways to verify and monitor peer caching statistics. Administrators can call the [**IBackgroundCopyFile4::GetPeerDownloadStats**](/windows/desktop/api/Bits4_0/nf-bits4_0-ibackgroundcopyfile4-getpeerdownloadstats) method to query the amount of data that was downloaded from peers and from origin servers. Administrators can also check the event log for [Event ID 60](https://technet.microsoft.com/library/cc734635.aspx), which provides job-specific information.
+There are a number of ways to verify and monitor peer caching statistics. Administrators can call the [**IBackgroundCopyFile4::GetPeerDownloadStats**](/windows/desktop/api/Bits4_0/nf-bits4_0-ibackgroundcopyfile4-getpeerdownloadstats) method to query the amount of data that was downloaded from peers and from origin servers. Administrators can also check the event log for [Event ID 60](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc734635(v=ws.10)), which provides job-specific information.
 
-The Windows BranchCache feature also provides a number of mechanisms to verify and monitor peer caching statistics. For more information, see [Verification and Monitoring](https://technet.microsoft.com/library/dd637782.aspx) and [Performance Counters](https://technet.microsoft.com/library/dd637826.aspx).
+The Windows BranchCache feature also provides a number of mechanisms to verify and monitor peer caching statistics. For more information, see [Verification and Monitoring](/previous-versions/windows/it-pro/windows-7/dd637782(v=ws.10)) and [Performance Counters](/previous-versions/windows/it-pro/windows-7/dd637826(v=ws.10)).
 
 The peer caching model that uses Windows BranchCache replaces the peer caching model used in BITS 3.0. For more information about Windows BranchCache, see the following:
 
--   [BranchCache](https://technet.microsoft.com/network/dd425028.aspx)
--   [BranchCache Overview](https://technet.microsoft.com/library/dd755969(WS.10).aspx)
--   [Windows 7 Services](https://msdn.microsoft.com/library/dd371739.aspx)
--   [Peer Distribution API](https://msdn.microsoft.com/library/dd408043.aspx)
+-   [BranchCache](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127252(v=ws.11))
+-   [BranchCache Overview](/previous-versions/windows/it-pro/windows-7/dd755969(v=ws.10))
+-   [Windows 7 Services](../win7devguide/services.md)
+-   [Peer Distribution API](../p2psdk/peer-distribution.md)
 
 ## Peer Caching in BITS 3.0
 
@@ -101,7 +101,3 @@ See also [Administering the Peer Cache](/windows/desktop/Bits/administering-the-
  
 
  
-
-
-
-

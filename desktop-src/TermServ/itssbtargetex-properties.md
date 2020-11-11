@@ -9,16 +9,12 @@ ms.date: 05/31/2018
 
 # ITsSbTargetEx Properties
 
-The [**ITsSbTargetEx**](https://docs.microsoft.com/windows/desktop/TermServ/itssbtargetex) interface exposes the [ITsSbTarget Properties](itssbtarget-properties.md) as well as the following properties.
+The [**ITsSbTargetEx**](/windows/desktop/TermServ/itssbtargetex) interface exposes the [ITsSbTarget Properties](itssbtarget-properties.md) as well as the following properties.
 
 ## In this section
 
--   [**TargetLoad property**](https://msdn.microsoft.com/library/Mt703468(v=VS.85).aspx)
+-   [**TargetLoad property**](/previous-versions/windows/desktop/legacy/mt703468(v=vs.85))
 
  
 
  
-
-
-
-

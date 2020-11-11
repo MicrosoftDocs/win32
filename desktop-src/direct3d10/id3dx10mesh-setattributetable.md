@@ -48,7 +48,7 @@ Pointer to an array of D3DX10\_ATTRIBUTE\_RANGE structures, representing the ent
 *cAttribTableSize* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of attributes in the mesh attribute table.
 
@@ -88,7 +88,3 @@ If an application keeps track of the information in an attribute table, and rear
  
 
  
-
-
-
-

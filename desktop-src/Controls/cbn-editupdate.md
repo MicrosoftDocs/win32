@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # CBN\_EDITUPDATE notification code
 
-Sent when the edit control portion of a combo box is about to display altered text. This notification code is sent after the control has formatted the text, but before it displays the text. The parent window of the combo box receives this notification code through the [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message.
+Sent when the edit control portion of a combo box is about to display altered text. This notification code is sent after the control has formatted the text, but before it displays the text. The parent window of the combo box receives this notification code through the [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message.
 
 
 ```C++
@@ -37,7 +37,7 @@ CBN_EDITUPDATE
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the control identifier of the combo box. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
+The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the control identifier of the combo box. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
 
 </dd> <dt>
 
@@ -77,20 +77,14 @@ If the combo box has the [**CBS\_DROPDOWNLIST**](combo-box-styles.md) style, thi
 **Other Resources**
 </dt> <dt>
 
-[**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
 </dt> <dt>
 
-[**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
+[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
 </dt> <dt>
 
-[**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command)
+[**WM\_COMMAND**](/windows/desktop/menurc/wm-command)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

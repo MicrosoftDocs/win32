@@ -26,7 +26,7 @@ Callback to return the list of events in a frame.
 
 ## Members
 
-The **IFrameEventsCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IFrameEventsCallback** also has these types of members:
+The **IFrameEventsCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IFrameEventsCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,7 +34,7 @@ The **IFrameEventsCallback** interface inherits from the [**IUnknown**](https://
 
 The **IFrameEventsCallback** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/iframeeventscallback-getsupportedeventcolumns-dword-eventcolumnid-arr-bstr-arr"><strong>GetSupportedEventColumns</strong></a></td><td style="text-align: left;"><p>Gets information about which columns (types of event data) are supported by the event list.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/iframeeventscallback-resultcallback-dword-dword-dword-dword-variant-arr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>A callback function used to notify the host of information about events in the event list.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iframeeventscallback-getsupportedeventcolumns-dword-eventcolumnid-arr-bstr-arr"><strong>GetSupportedEventColumns</strong></a></td><td style="text-align: left;"><p>Gets information about which columns (types of event data) are supported by the event list.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iframeeventscallback-resultcallback-dword-dword-dword-dword-variant-arr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>A callback function used to notify the host of information about events in the event list.</p></td></tr></tbody></table>
 
  
 
@@ -45,6 +45,3 @@ The **IFrameEventsCallback** interface has these methods.
  
 
  
-
-
-

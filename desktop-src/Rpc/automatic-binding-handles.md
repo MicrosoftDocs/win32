@@ -17,7 +17,7 @@ For example, a time-stamp operation can be implemented using an auto handle. It 
 
  
 
-You specify the use of auto handles by including the \[[**auto\_handle**](https://docs.microsoft.com/windows/desktop/Midl/auto-handle)\] attribute in the ACF. The time-stamp example uses the following ACF:
+You specify the use of auto handles by including the \[[**auto\_handle**](/windows/desktop/Midl/auto-handle)\] attribute in the ACF. The time-stamp example uses the following ACF:
 
 ``` syntax
 /* ACF file */
@@ -52,7 +52,3 @@ The benefit of the auto handle is that the developer does not have to write any 
  
 
  
-
-
-
-

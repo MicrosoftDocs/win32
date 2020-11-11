@@ -55,7 +55,7 @@ Data type: **CIM\_ResourceAllocationSettingData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_ResourceAllocationSettingData**](cim-resourceallocationsettingdata.md) that represents the independent resource in this association.
@@ -71,7 +71,7 @@ Data type: **CIM\_ResourceAllocationSettingData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_ResourceAllocationSettingData**](cim-resourceallocationsettingdata.md) that represents the resource that is dependent on the Antecedent.
@@ -100,9 +100,4 @@ A [**CIM\_ResourceAllocationSettingData**](cim-resourceallocationsettingdata.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

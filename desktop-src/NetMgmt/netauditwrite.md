@@ -18,12 +18,8 @@ api_location:
 
 # NetAuditWrite
 
-The **NetAuditWrite** function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use [event logging](https://docs.microsoft.com/windows/desktop/EventLog/event-logging).
+The **NetAuditWrite** function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use [event logging](/windows/desktop/EventLog/event-logging).
 
  
 
  
-
-
-
-

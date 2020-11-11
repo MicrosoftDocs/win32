@@ -21,7 +21,7 @@ Provides data for an app suspending event.
 
 ## Members
 
-The **ISuspendingEventArgs** interface inherits from [**IInspectable**](https://msdn.microsoft.com/library/BR205821(v=VS.85).aspx). **ISuspendingEventArgs** also has these types of members:
+The **ISuspendingEventArgs** interface inherits from [**IInspectable**](/windows/win32/api/inspectable/nn-inspectable-iinspectable). **ISuspendingEventArgs** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -41,7 +41,7 @@ The **ISuspendingEventArgs** interface has these properties.
 
 ## Remarks
 
-This object is accessed when you implement event handlers like [**SuspendingEventHandler**](https://msdn.microsoft.com/library/BR242303(v=Win.10).aspx), [**SuspendingEventHandler**](https://msdn.microsoft.com/library/BR244262(v=Win.10).aspx), and [**add\_Suspending**](https://msdn.microsoft.com/library/Hh438376(v=VS.85).aspx) to respond to app suspending events.
+This object is accessed when you implement event handlers like [**SuspendingEventHandler**](/uwp/api/windows.ui.webui.suspendingeventhandler?view=winrt-19041), [**SuspendingEventHandler**](/uwp/api/windows.ui.xaml.suspendingeventhandler?view=winrt-19041), and [**add\_Suspending**](/previous-versions//hh438376(v=vs.85)) to respond to app suspending events.
 
 ## Requirements
 
@@ -60,7 +60,7 @@ This object is accessed when you implement event handlers like [**SuspendingEven
 
 <dl> <dt>
 
-[**IInspectable**](https://msdn.microsoft.com/library/BR205821(v=VS.85).aspx)
+[**IInspectable**](/windows/win32/api/inspectable/nn-inspectable-iinspectable)
 </dt> <dt>
 
 [**ISuspendingOperation**](isuspendingoperation.md)
@@ -72,7 +72,3 @@ This object is accessed when you implement event handlers like [**SuspendingEven
  
 
  
-
-
-
-

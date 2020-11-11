@@ -30,14 +30,10 @@ You can stretch a video clip by using the [**MCIWndGetDest**](/windows/desktop/a
 If the size of the destination rectangle becomes larger than the playback area, you can specify which portion of the playback area will display the video clip by using **MCIWndPutDest**.
 
 > [!Note]  
-> The [**MCIWndPutDest**](/windows/desktop/api/Vfw/nf-vfw-mciwndputdest) macro does not change the size of the playback area. To stretch the MCIWnd window along with the destination rectangle, you need to know the current size of the MCIWnd window and issue new window dimensions based on the destination rectangle. You can retrieve the MCIWnd window dimensions by using the [GetWindowRect](https://msdn.microsoft.com/library/ms633519.aspx) function and resize the MCIWnd window by using the [SetWindowPos](https://msdn.microsoft.com/library/ms633545.aspx) function.
+> The [**MCIWndPutDest**](/windows/desktop/api/Vfw/nf-vfw-mciwndputdest) macro does not change the size of the playback area. To stretch the MCIWnd window along with the destination rectangle, you need to know the current size of the MCIWnd window and issue new window dimensions based on the destination rectangle. You can retrieve the MCIWnd window dimensions by using the [GetWindowRect](/windows/win32/api/winuser/nf-winuser-getwindowrect) function and resize the MCIWnd window by using the [SetWindowPos](/windows/win32/api/winuser/nf-winuser-setwindowpos) function.
 
  
 
  
 
  
-
-
-
-

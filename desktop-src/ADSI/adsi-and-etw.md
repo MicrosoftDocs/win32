@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Event Tracing in ADSI
 
-Windows Server 2008 and Windows Vista introduce [Event Tracing](https://docs.microsoft.com/windows/desktop/ETW/event-tracing-portal) in [Active Directory Service Interfaces](active-directory-service-interfaces-adsi.md) (ADSI). Certain areas of the ADSI LDAP Provider have an underlying implementation that is complex or that involves a sequence of steps that makes it difficult to diagnose problems. To help application developers troubleshoot, Event Tracing has been added to the following areas:
+Windows Server 2008 and Windows Vista introduce [Event Tracing](/windows/desktop/ETW/event-tracing-portal) in [Active Directory Service Interfaces](active-directory-service-interfaces-adsi.md) (ADSI). Certain areas of the ADSI LDAP Provider have an underlying implementation that is complex or that involves a sequence of steps that makes it difficult to diagnose problems. To help application developers troubleshoot, Event Tracing has been added to the following areas:
 
 ## Schema Parsing and Downloading
 
@@ -25,7 +25,7 @@ If the schema cannot be obtained from the disk or the server, ADSI uses a hardco
 
 ## ADSI Bind Cache
 
-ADSI internally tries to reuse LDAP connections whenever possible (see [Connection Caching](connection-caching.md)). When troubleshooting, it is useful to trace whether a new connection was opened for communication with the server or whether an existing connection was used. It can also be useful to trace the lifecycle of the connection cache (sometimes referred to as the bind cache) and its creation or closure, and whether a connection referral took place. In the case of a [serverless bind](https://docs.microsoft.com/windows/desktop/AD/serverless-binding-and-rootdse), ADSI calls the DC locator to select a server for the domain of the user's context. ADSI then maintains a cache of the domain-server mapping for subsequent connections. Event Tracing helps to trace the selection of the DC, and is therefore helpful in troubleshooting connection-related issues.
+ADSI internally tries to reuse LDAP connections whenever possible (see [Connection Caching](connection-caching.md)). When troubleshooting, it is useful to trace whether a new connection was opened for communication with the server or whether an existing connection was used. It can also be useful to trace the lifecycle of the connection cache (sometimes referred to as the bind cache) and its creation or closure, and whether a connection referral took place. In the case of a [serverless bind](/windows/desktop/AD/serverless-binding-and-rootdse), ADSI calls the DC locator to select a server for the domain of the user's context. ADSI then maintains a cache of the domain-server mapping for subsequent connections. Event Tracing helps to trace the selection of the DC, and is therefore helpful in troubleshooting connection-related issues.
 
 ## Enabling Tracing and Starting a Tracing Session
 
@@ -206,10 +206,4 @@ Scenario 2: The administrator wants to trace the schema parsing and download ope
     **tracerpt.exe .\\w3wp.etl -o -report**
 
  
-
- 
-
-
-
-
 

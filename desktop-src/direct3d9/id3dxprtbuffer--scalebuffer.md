@@ -38,7 +38,7 @@ HRESULT ScaleBuffer(
 *Scale* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Constant value used to scale the buffer. Every value in the buffer is replaced by the product of this value and the original buffer value.
 
@@ -71,7 +71,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
  
 
  
-
-
-
-

@@ -25,7 +25,7 @@ Uses an application-defined comparison function to sort groups by ID within a li
 <dl> <dt>
 
 *wParam* 
-</dt> <dd>Pointer to an application-defined comparison function, <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nc-commctrl-pfnlvgroupcompare">LVGroupCompare</a>.</dd> <dt>
+</dt> <dd>Pointer to an application-defined comparison function, <a href="/windows/desktop/api/commctrl/nc-commctrl-pfnlvgroupcompare">LVGroupCompare</a>.</dd> <dt>
 
 *lParam* 
 </dt> <dd>Void pointer to the application-defined information.</dd> </dl>
@@ -57,14 +57,6 @@ Returns 1 if successful, or 0 otherwise.
 
 <dl> <dt>
 
-[**LVGroupCompare**](https://msdn.microsoft.com/library/Bb775142(v=VS.85).aspx)
+[**LVGroupCompare**](/windows/win32/api/commctrl/nc-commctrl-pfnlvgroupcompare)
 </dt> </dl>
-
- 
-
- 
-
-
-
-
 

@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 <dl> <dt>
 
-<span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>[**Description**](https://msdn.microsoft.com/library/Dd757024(v=VS.85).aspx)
+<span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>[**Description**](../wmformat/description.md)
 </dt> <dd>
 
 Sets the active client or character.
@@ -44,7 +44,7 @@ You can also use this method to explicitly manage when your client receives inpu
 
 However, you can also set yourself to be the active client for a character without making the character topmost, by setting *State* to 1. This enables your client to receive input directed to that character when the character becomes topmost. Similarly, you can set your client to not be the active client (not to receive input) when the character becomes topmost, by setting *State* to 0.
 
-Avoid calling this method directly after a [**Show**](https://msdn.microsoft.com/library/d79z7xxa(v=VS.71).aspx) method. **Show** automatically sets the input-active client. When the character is hidden, the [**Activate**](https://msdn.microsoft.com/library/01ayxx68(v=VS.71).aspx) call may fail if it gets processed before the **Show** method completes.
+Avoid calling this method directly after a [**Show**](/previous-versions/visualstudio/foxpro/d79z7xxa(v=vs.71)) method. **Show** automatically sets the input-active client. When the character is hidden, the [**Activate**](/previous-versions/visualstudio/foxpro/01ayxx68(v=vs.71)) call may fail if it gets processed before the **Show** method completes.
 
 If you call this method to a function, it returns a Boolean value that indicates whether the method succeeded. Attempting to call this method with the *State* parameter set to 2 when the specified character is hidden will fail. Similarly, if you set *State* to 0 and your application is the only client, this call fails because a character must always have a topmost client.
 
@@ -82,10 +82,4 @@ If you call this method to a function, it returns a Boolean value that indicates
 
 
  
-
- 
-
-
-
-
 

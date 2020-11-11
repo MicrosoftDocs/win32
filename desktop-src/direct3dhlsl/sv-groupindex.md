@@ -46,7 +46,7 @@ where dimx and dimy are the dimensions specified in the [numthreads](sm5-attribu
 
 This system value is optional. However, its use ensures that a thread only writes to its assigned region of memory in the groupshared variable.
 
-The following illustration shows the relationship between the parameters passed to [**ID3D11DeviceContext::Dispatch**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-dispatch), Dispatch(5,3,2), the values specified in the [numthreads](sm5-attributes-numthreads.md) attribute, numthreads(10,8,3), and values that will passed to the compute shader for the thread-related system values (SV\_GroupIndex,[SV\_DispatchThreadID](sv-dispatchthreadid.md),[SV\_GroupThreadID](sv-groupthreadid.md),[SV\_GroupID](sv-groupid.md)).
+The following illustration shows the relationship between the parameters passed to [**ID3D11DeviceContext::Dispatch**](/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-dispatch), Dispatch(5,3,2), the values specified in the [numthreads](sm5-attributes-numthreads.md) attribute, numthreads(10,8,3), and values that will passed to the compute shader for the thread-related system values (SV\_GroupIndex,[SV\_DispatchThreadID](sv-dispatchthreadid.md),[SV\_GroupThreadID](sv-groupthreadid.md),[SV\_GroupID](sv-groupid.md)).
 
 ![illustration of the relationship between dispatch, thread groups, and threads](images/threadgroupids.png)
 
@@ -75,7 +75,3 @@ This function is supported in the following types of shaders:
  
 
  
-
-
-
-

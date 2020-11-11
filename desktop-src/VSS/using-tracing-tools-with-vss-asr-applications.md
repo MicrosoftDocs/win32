@@ -33,7 +33,7 @@ The following procedure describes how to use Logman with your ASR application.
 
 The trace log file is *x:\\*asr.etl.
 
-For more information about the Logman tool, see [Logman](https://technet.microsoft.com/library/574a5203-5b3b-4759-a678-f26d00dde447).
+For more information about the Logman tool, see [Logman](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc753820(v=ws.11)).
 
 ## Using Tracelog
 
@@ -65,6 +65,3 @@ For more information about the Tracelog tool, see [Tracelog](https://msdn.micros
  
 
  
-
-
-

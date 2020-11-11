@@ -26,7 +26,7 @@ This topic contains the following sections.
 
 ## Description
 
-This sample shows how to implement a Shell verb using the DropTarget method. This method is preferred for verb implementations that must work on Windows XP. This sample implements a standalone local server Component Object Model (COM) object but it is expected that the verb implementation will be integrated into existing applications. To do so, your main application object registers a class factory for itself. That object implements [**IDropTarget**](https://msdn.microsoft.com/library/ms679679(v=VS.85).aspx) for your application's verbs. Note that COM launches your application if it is not already running but connects to a running instance of your application if one is present.
+This sample shows how to implement a Shell verb using the DropTarget method. This method is preferred for verb implementations that must work on Windows XP. This sample implements a standalone local server Component Object Model (COM) object but it is expected that the verb implementation will be integrated into existing applications. To do so, your main application object registers a class factory for itself. That object implements [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) for your application's verbs. Note that COM launches your application if it is not already running but connects to a running instance of your application if one is present.
 
 ## Requirements
 
@@ -69,6 +69,3 @@ To build the sample using Microsoft Visual Studio (preferred):
  
 
  
-
-
-

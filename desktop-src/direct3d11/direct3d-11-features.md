@@ -20,7 +20,7 @@ The programming guide contains information about how to use the Direct3D 11 prog
 
 ## Compute Shader
 
-A compute shader is a programmable shader designed for general-purpose data-parallel processing. In other words, compute shaders allow a GPU to be used as a general-purpose parallel processor. The compute shader is similar to the other programmable pipeline shaders (such as vertex, pixel, geometry) in the way that it accesses inputs and outputs. The compute shader technology is also known as the [DirectCompute](https://blogs.msdn.com/b/chuckw/archive/2010/07/14/directcompute.aspx) technology. A compute shader is integrated into Direct3D and is accessible through a Direct3D device. It can directly share memory resources with graphics shaders by using the Direct3D device. However, it is not directly connected to other shader stages.
+A compute shader is a programmable shader designed for general-purpose data-parallel processing. In other words, compute shaders allow a GPU to be used as a general-purpose parallel processor. The compute shader is similar to the other programmable pipeline shaders (such as vertex, pixel, geometry) in the way that it accesses inputs and outputs. The compute shader technology is also known as the DirectCompute technology. A compute shader is integrated into Direct3D and is accessible through a Direct3D device. It can directly share memory resources with graphics shaders by using the Direct3D device. However, it is not directly connected to other shader stages.
 
 A compute shader is designed for mass-market applications that perform computations at interactive rates, when the cost of transitioning between the API (and its associated software stack) and a CPU would consume too much overhead.
 
@@ -38,7 +38,7 @@ These large, general-purpose shaders handle this challenge by recompiling the sa
 
 Direct3D 11 and shader model 5 introduce object-oriented language constructs and provide runtime support of shader linking to help developers program shaders.
 
-See [Dynamic Linking](https://docs.microsoft.com/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl-dynamic-linking) for additional information.
+See [Dynamic Linking](/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl-dynamic-linking) for additional information.
 
 ## Multithreading
 
@@ -74,13 +74,13 @@ This is a complete list of the features in Direct3D 11.
     -   Multithread resource/shader/object creation
     -   Multithreaded Display list creation
 
--   Direct3D 11 expands shaders with the following features (see [Shader Model 5](https://docs.microsoft.com/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl))
+-   Direct3D 11 expands shaders with the following features (see [Shader Model 5](/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl))
 
     -   Addressable resources - textures, constant buffers, and samplers
     -   Additional resource types, such as read/write buffers and textures (see [New Resource Types](direct3d-11-advanced-stages-cs-resources.md)).
     -   Subroutines
     -   Compute shader (see [Compute Shader Overview](direct3d-11-advanced-stages-compute-shader.md)) - A shader that speeds up computations by dividing the problem space between several software threads or groups of threads, and sharing data among shader registers to significantly reduce the amount of data required to input into a shader. Algorithms that the compute shader can significantly improve include post processing, animation, physics, and artificial intelligence.
-    -   Geometry shader (see [Geometry Shader Features](https://docs.microsoft.com/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl-gs-features))
+    -   Geometry shader (see [Geometry Shader Features](/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl-gs-features))
 
         -   Instancing - Allows the geometry shader to output a maximum of 1024 vertices, or any combination of instances and vertices up to 1024 (maximum of 32 instances of 32 vertices each).
 
@@ -124,7 +124,7 @@ This is a complete list of the features in Direct3D 11.
     -   Increase Stream output count to 4
     -   Change all stream output buffers to be multi-element
 
--   Direct3D 11 supports Shader Model 5 (see [Shader Model 5](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3d11-graphics-reference-sm5))
+-   Direct3D 11 supports Shader Model 5 (see [Shader Model 5](/windows/desktop/direct3dhlsl/d3d11-graphics-reference-sm5))
 
     -   Doubles with denorms
     -   Count bits set instruction
@@ -170,7 +170,3 @@ For the list of the features added in previous releases, see the following topic
  
 
  
-
-
-
-

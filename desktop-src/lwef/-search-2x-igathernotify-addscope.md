@@ -21,7 +21,7 @@ api_location:
 
 \[**AddScope** may be altered or unavailable in subsequent versions of the operating system or product.\]
 
-This Windows Desktop Search interface topic is deprecated and is superseded by the Windows Search [**ISearchPersistentItemsChangedSink**](https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchpersistentitemschangedsink) API in the Windows SDK.
+This Windows Desktop Search interface topic is deprecated and is superseded by the Windows Search [**ISearchPersistentItemsChangedSink**](/windows/desktop/api/searchapi/nn-searchapi-isearchpersistentitemschangedsink) API in the Windows SDK.
 
 Adds the start page or URL you are monitoring. This initiates an incremental crawl when you connect, and then assumes all further URL changes are by notification.
 
@@ -60,7 +60,3 @@ Calling this method starts an incremental crawl when connected to the store. The
  
 
  
-
-
-
-

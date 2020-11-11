@@ -34,7 +34,7 @@ Zero-based index of a band in the rebar control.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that will receive the bounds of the rebar band.
+Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that will receive the bounds of the rebar band.
 
 </dd> </dl>
 
@@ -55,10 +55,4 @@ Returns nonzero if successful, or zero otherwise.
 
 
  
-
- 
-
-
-
-
 

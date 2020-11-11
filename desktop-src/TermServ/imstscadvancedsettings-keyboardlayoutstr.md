@@ -24,7 +24,7 @@ ms.date: 05/31/2018
 
 Specifies the name of the active input locale identifier (formerly called the keyboard layout) to use for the connection.
 
-If this property is not set, the control uses the default layout returned by the [**GetKeyboardLayout**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardlayout) function.
+If this property is not set, the control uses the default layout returned by the [**GetKeyboardLayout**](/windows/desktop/api/winuser/nf-winuser-getkeyboardlayout) function.
 
 This property is write-only.
 
@@ -83,10 +83,4 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

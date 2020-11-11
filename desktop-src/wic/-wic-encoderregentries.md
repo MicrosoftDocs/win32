@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # Encoder-Specific Registry Entries
 
-## 
 
 In addition to the entries listed above for encoder, you must also register your encoder under the category of Windows Imaging Component (WIC) encoders so the discovery engine can find it. You do this by making the following registry entries. The first GUID in the following entries is the category identifier (CATID) for WICBitmapEncoders.
 

@@ -12,14 +12,14 @@ ms.date: 05/31/2018
 
 | Method                                                                                | Description                                                                                                        |
 |---------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| [**Contains**](boundingorientedbox-contains.md)<br/>                           | Tests whether the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx) contains another object.<br/>           |
-| [**Intersects**](boundingorientedbox-intersects.md)<br/>                       | Tests the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx) for intersection with another object.<br/>      |
-| [**Transform**](boundingorientedbox-transform.md)<br/>                         | Transforms the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).<br/>                                      |
-| [**ContainedBy**](/windows/desktop/api/DirectXCollision/nf-directxcollision-boundingbox-containedby)<br/>                     | Tests whether the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx) is contained by a frustum.<br/>         |
-| [**CreateFromBoundingBox**](https://msdn.microsoft.com/library/Hh855894(v=VS.85).aspx)<br/> | Creates a [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx) from a [**BoundingBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingbox).<br/> |
-| [**CreateFromPoints**](https://msdn.microsoft.com/library/Hh855896(v=VS.85).aspx)<br/>           | Creates a [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx) from a collection of points.<br/>               |
-| [**GetCorners**](https://msdn.microsoft.com/library/Hh855909(v=VS.85).aspx)<br/>                       | Retrieves the corners of the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).<br/>                        |
-| [**op\_Assignment**](https://msdn.microsoft.com/library/Hh855937(v=VS.85).aspx)<br/>                | Copies values from another [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).<br/>                          |
+| [**Contains**](boundingorientedbox-contains.md)<br/>                           | Tests whether the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox) contains another object.<br/>           |
+| [**Intersects**](boundingorientedbox-intersects.md)<br/>                       | Tests the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox) for intersection with another object.<br/>      |
+| [**Transform**](boundingorientedbox-transform.md)<br/>                         | Transforms the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox).<br/>                                      |
+| [**ContainedBy**](/windows/desktop/api/DirectXCollision/nf-directxcollision-boundingbox-containedby)<br/>                     | Tests whether the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox) is contained by a frustum.<br/>         |
+| [**CreateFromBoundingBox**](/windows/win32/api/directxcollision/nf-directxcollision-boundingorientedbox-createfromboundingbox)<br/> | Creates a [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox) from a [**BoundingBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingbox).<br/> |
+| [**CreateFromPoints**](/windows/win32/api/directxcollision/nf-directxcollision-boundingorientedbox-createfrompoints)<br/>           | Creates a [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox) from a collection of points.<br/>               |
+| [**GetCorners**](/windows/win32/api/directxcollision/nf-directxcollision-boundingorientedbox-getcorners)<br/>                       | Retrieves the corners of the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox).<br/>                        |
+| [**op\_Assignment**](/windows/win32/api/directxcollision/nf-directxcollision-boundingorientedbox-operator-assign(boundingorientedbox__))<br/>                | Copies values from another [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox).<br/>                          |
 
 
 
@@ -29,13 +29,9 @@ ms.date: 05/31/2018
 
 <dl> <dt>
 
-[BoundingOrientedBox](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx)
+[BoundingOrientedBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox)
 </dt> </dl>
 
  
 
  
-
-
-
-

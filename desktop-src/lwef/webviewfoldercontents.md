@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 Implemented by the Shell for use inside a *WebView*. **WebViewFolderContents** automatically initializes itself to WebView's current folder. It creates a Shell folder view that displays the contents of the folder in one of five formats: Small Icon, Large Icon, List, Details, or Thumbnail. It is not valid outside of a WebView.
 
-The methods and properties exposed by **WebViewFolderContents** are identical to those of the [**ShellFolderView**](https://docs.microsoft.com/windows/desktop/shell/shellfolderview) object.
+The methods and properties exposed by **WebViewFolderContents** are identical to those of the [**ShellFolderView**](/windows/desktop/shell/shellfolderview) object.
 
 ## Members
 
@@ -54,7 +54,7 @@ The **WebViewFolderContents** object has these methods.
 | Method                                                       | Description                                                                                                          |
 |:-------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------|
 | [**PopupItemMenu**](webviewfoldercontents-popupitemmenu.md) | Creates a shortcut menu for the specified item and returns the selected command string.<br/>                   |
-| [**SelectedItems**](webviewfoldercontents-selecteditems.md) | Gets a [**FolderItems**](/windows/win32/shell/folderitems) object that represents all of the selected items in the view.<br/> |
+| [**SelectedItems**](webviewfoldercontents-selecteditems.md) | Gets a [**FolderItems**](../shell/folderitems.md) object that represents all of the selected items in the view.<br/> |
 | [**SelectItem**](webviewfoldercontents-selectitem.md)       | Sets the selection state of an item in the view.<br/>                                                          |
 
 
@@ -70,11 +70,11 @@ The **WebViewFolderContents** object has these properties.
 | Property                                                            | Access type          | Description                                                                                                                              |
 |:--------------------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|
 | [**Application**](webviewfoldercontents-application.md)<br/> | Read-only<br/> | Not implemented.<br/>                                                                                                              |
-| [**FocusedItem**](webviewfoldercontents-focuseditem.md)<br/> | Read-only<br/> | Gets a [**FolderItem**](/windows/win32/shell/folderitem) object that represents the item that has the input focus.<br/>                           |
-| [**Folder**](webviewfoldercontents-folder.md)<br/>           | Read-only<br/> | Gets a [**Folder**](/windows/win32/shell/folder) object that represents the view.<br/>                                                            |
+| [**FocusedItem**](webviewfoldercontents-focuseditem.md)<br/> | Read-only<br/> | Gets a [**FolderItem**](../shell/folderitem.md) object that represents the item that has the input focus.<br/>                           |
+| [**Folder**](webviewfoldercontents-folder.md)<br/>           | Read-only<br/> | Gets a [**Folder**](../shell/folder.md) object that represents the view.<br/>                                                            |
 | [**Parent**](webviewfoldercontents-parent.md)<br/>           | Read-only<br/> | Not implemented.<br/>                                                                                                              |
 | [**Script**](webviewfoldercontents-script.md)<br/>           | Read-only<br/> | Gets the scripting object for the view.<br/>                                                                                       |
-| [**ViewOptions**](webviewfoldercontents-viewoptions.md)<br/> | Read-only<br/> | Gets a set of [**ShellFolderViewOptions**](https://docs.microsoft.com/windows/desktop/api/shldisp/ne-shldisp-shellfolderviewoptions) flags that indicate the current options of the view.<br/> |
+| [**ViewOptions**](webviewfoldercontents-viewoptions.md)<br/> | Read-only<br/> | Gets a set of [**ShellFolderViewOptions**](/windows/desktop/api/shldisp/ne-shldisp-shellfolderviewoptions) flags that indicate the current options of the view.<br/> |
 
 
 
@@ -95,10 +95,4 @@ The **WebViewFolderContents** object has these properties.
 
 
  
-
- 
-
-
-
-
 

@@ -297,7 +297,7 @@ Data type: **datetime**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**SubType**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("interval")
+Qualifiers: [**SubType**](/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("interval")
 </dt> </dl>
 
 Identifies the maximum duration for which the **AutomaticCriticalErrorAction** will be performed to resolve the critical error. This is applicable only when the value of the **AutomaticCriticalErrorAction** property is not 0 (None). Once the timeout expires, the VM will be powered off. The value will be rounded up to the nearest minute. A value of 0 implies that the VM should be powered off immediately when it encounters a critical error condition.
@@ -318,7 +318,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Action to take for the virtual machine when the software executed by the virtual machine fails. Failures in this case means a failure that is detectable by the host platform, such as a noninterruptible wait state condition. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+Action to take for the virtual machine when the software executed by the virtual machine fails. Failures in this case means a failure that is detectable by the host platform, such as a noninterruptible wait state condition. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 This can be one of the following values.
 
@@ -346,7 +346,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Action to take for the virtual machine when the host is shut down. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+Action to take for the virtual machine when the host is shut down. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 This can be one of the following values.
 
@@ -392,7 +392,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Action to take for the virtual machine when the host is started. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+Action to take for the virtual machine when the host is started. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 This can be one of the following values.
 
@@ -420,7 +420,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The delay time before the virtual machine is automatically started up. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+The delay time before the virtual machine is automatically started up. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 </dd> <dt>
 
@@ -433,7 +433,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-A number that indicates the relative sequence of virtual machine activation when the host system is started. A lower number indicates earlier activation. If one or more configurations show the same value, the sequence is implementation dependent. A value of 0 indicates that the sequence is implementation dependent. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+A number that indicates the relative sequence of virtual machine activation when the host system is started. A lower number indicates earlier activation. If one or more configurations show the same value, the sequence is implementation dependent. A value of 0 indicates that the sequence is implementation dependent. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 </dd> <dt>
 
@@ -498,7 +498,7 @@ Data type: **uint16** array
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed"), [**MAX**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (4)
+Qualifiers: [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed"), [**MAX**](/windows/desktop/WmiSdk/standard-qualifiers) (4)
 </dt> </dl>
 
 The boot order set within the BIOS of the virtual machine. This property is an array of values, **BootOrder**\[0\] through **BootOrder**\[3\], inclusive, where each value indicates a device to boot from. Each of the 4 values in the array must be set and must not be the same as another value in the array. The virtual machine will first attempt to boot from the device indicated by the first value within the array. If that device does not contain a boot sector, the virtual machine will attempt to boot from the next device specified by the **BootOrder** property and so on. If no device specified within the **BootOrder** contains a boot sector the virtual machine will fail to boot. The default value for a virtual machine is \[0, 1, 2, 3\].
@@ -589,7 +589,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -628,7 +628,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The path of a directory where information about the virtual machine configuration is stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+The path of a directory where information about the virtual machine configuration is stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 </dd> <dt>
 
@@ -641,7 +641,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The relative path and file name of a file where information about the virtual machine configuration is stored. This path is relative to the **ConfigurationDataRoot** property. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+The relative path and file name of a file where information about the virtual machine configuration is stored. This path is relative to the **ConfigurationDataRoot** property. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 </dd> <dt>
 
@@ -654,7 +654,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The unique identifier of the virtual machine configuration. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+The unique identifier of the virtual machine configuration. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 </dd> <dt>
 
@@ -715,7 +715,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date and time at which the settings for the virtual machine were created. If this object represents the current settings for the virtual machine, this value would be the time at which the system was created. If this object represents the snapshot settings for the virtual machine, this value would be the time at which the snapshot was taken. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+The date and time at which the settings for the virtual machine were created. If this object represents the current settings for the virtual machine, this value would be the time at which the system was created. If this object represents the snapshot settings for the virtual machine, this value would be the time at which the snapshot was taken. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 </dd> <dt>
 
@@ -794,7 +794,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to one of the following values.
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to one of the following values.
 
 
 
@@ -818,7 +818,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)), and it is always set to the display name for the machine. This name may not exceed 100 characters in length.
+A display name for the object. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)), and it is always set to the display name for the machine. This name may not exceed 100 characters in length.
 
 </dd> <dt>
 
@@ -953,7 +953,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85)).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_SettingData**](/previous-versions//cc136911(v=vs.85)).
 
 </dd> <dt>
 
@@ -1015,7 +1015,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The path of a directory where log information for the virtual machine is stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+The path of a directory where log information for the virtual machine is stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 </dd> <dt>
 
@@ -1076,7 +1076,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-User supplied notes that are related to the virtual machine. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+User supplied notes that are related to the virtual machine. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 </dd> <dt>
 
@@ -1135,7 +1135,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The full path of a file where recovery related information for the virtual machine is stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+The full path of a file where recovery related information for the virtual machine is stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 </dd> <dt>
 
@@ -1188,7 +1188,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The path of a directory where information about the virtual machine snapshots is stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+The path of a directory where information about the virtual machine snapshots is stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 </dd> <dt>
 
@@ -1201,7 +1201,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The path of a directory where information about the virtual machine suspend-related information is stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+The path of a directory where information about the virtual machine suspend-related information is stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 </dd> <dt>
 
@@ -1214,7 +1214,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The path of a directory where swap files for the virtual machine are stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+The path of a directory where swap files for the virtual machine are stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 </dd> <dt>
 
@@ -1304,7 +1304,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**Msvm\_ProcessorSettingData**](msvm-processorsettingdata.md).**MaxProcessorsPerNumaNode**", "[**Msvm\_MemorySettingData**](msvm-memorysettingdata.md).**MaxMemoryBlocksPerNumaNode**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**Msvm\_ProcessorSettingData**](msvm-processorsettingdata.md).**MaxProcessorsPerNumaNode**", "[**Msvm\_MemorySettingData**](msvm-memorysettingdata.md).**MaxMemoryBlocksPerNumaNode**")
 </dt> </dl>
 
 **True** if virtual non-uniform memory access (NUMA) nodes are projected into the virtual machine; **False** if the virtual machine will have a single node. If **True**, the number of virtual NUMA nodes projected into the virtual machine is determined from the values of the [**Msvm\_ProcessorSettingData.MaxProcessorsPerNumaNode**](msvm-processorsettingdata.md) and [**Msvm\_MemorySettingData.MaxMemoryBlocksPerNumaNode**](msvm-memorysettingdata.md) properties.
@@ -1320,10 +1320,10 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_VirtualSystemSettingData.VirtualSystemIdentifier"), [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_ComputerSystem**](cim-computersystem.md).**Name**")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_VirtualSystemSettingData.VirtualSystemIdentifier"), [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_ComputerSystem**](cim-computersystem.md).**Name**")
 </dt> </dl>
 
-The name of the [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) object to which this setting data belongs. This property is an override from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+The name of the [**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem) object to which this setting data belongs. This property is an override from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 </dd> <dt>
 
@@ -1367,7 +1367,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Specifies the type of virtual machine the setting data represents. This property is inherited from the [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)) class. This will be one of the following values.
+Specifies the type of virtual machine the setting data represents. This property is inherited from the [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)) class. This will be one of the following values.
 
 
 
@@ -1391,7 +1391,7 @@ Specifies the type of virtual machine the setting data represents. This property
 
 ## Remarks
 
-Access to the **Msvm\_VirtualSystemSettingData** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_VirtualSystemSettingData** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -1414,16 +1414,11 @@ Access to the **Msvm\_VirtualSystemSettingData** class might be restricted by UA
 [**CIM\_VirtualSystemSettingData**](cim-virtualsystemsettingdata.md)
 </dt> <dt>
 
-[**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85))
+[**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85))
 </dt> <dt>
 
 [Virtual System Classes](virtual-system-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

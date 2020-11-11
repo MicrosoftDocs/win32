@@ -19,7 +19,6 @@ api_location:
 
 Generates a random value using the Perlin-noise algorithm.
 
-## 
 
 
 
@@ -56,8 +55,8 @@ Perlin noise values change smoothly from one point to another over a space, crea
 
 | Name  | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md) | Size |
 |-------|-------------------------------------------------------------------------------------|----------------------------------------------------------------|------|
-| *x*   | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                        | any  |
-| *ret* | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                        | 1    |
+| *x*   | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types)                        | any  |
+| *ret* | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types)                        | 1    |
 
 
 
@@ -86,10 +85,4 @@ This function is supported in the following shader models.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

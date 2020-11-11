@@ -16,7 +16,7 @@ The following techniques can be used for communication between 32-bit and 64-bit
 -   Remote procedure calls (RPC) can be used.
 -   COM LocalServers can be used if both 32-bit and 64-bit proxy/stub DLLs are registered for all interfaces used.
 -   Shared memory can be used if pointer-dependent types are converted properly (or avoided).
--   The [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) and [**ShellExecute**](https://msdn.microsoft.com/library/Bb762153(v=VS.85).aspx) functions can launch 32-bit and 64-bit processes from either 32-bit or 64-bit processes with certain limitations.
+-   The [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) and [**ShellExecute**](/windows/win32/api/shellapi/nf-shellapi-shellexecutea) functions can launch 32-bit and 64-bit processes from either 32-bit or 64-bit processes with certain limitations.
 
 A 64-bit executable file located under %windir%\\System32 cannot be launched from a 32-bit process, because the file system redirector redirects the path. Do not disable redirection to accomplish this; use %windir%\\Sysnative instead. For more information, see [File System Redirector](file-system-redirector.md).
 

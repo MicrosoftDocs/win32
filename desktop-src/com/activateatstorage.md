@@ -26,7 +26,7 @@ This is a **REG\_SZ** value. Any value that begins with 'Y' or 'y' indicates tha
 
 The **ActivateAtStorage** capability provides a transparent way to allow clients to locate running objects on the same computer as the data that they use. This reduces network traffic because the object performs local file-system calls instead of calls across the network.
 
-When a value is set for **ActivateAtStorage**, this becomes the default behavior in calls to the [**CoGetInstanceFromFile**](/windows/desktop/api/Objbase/nf-objbase-cogetinstancefromfile) and [**CoGetInstanceFromIStorage**](/windows/desktop/api/Objbase/nf-objbase-cogetinstancefromistorage) functions, as well as to the file moniker implementation of [**IMoniker::BindToObject**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtoobject). In all of these calls, specifying a [**COSERVERINFO**](https://msdn.microsoft.com/library/ms687322(v=VS.85).aspx) structure overrides the setting of **ActivateAtStorage** for the duration of the function call. The caller can pass **COSERVERINFO** information to **IMoniker::BindToObject** through the [**BIND\_OPTS2**](/windows/win32/api/objidl/ns-objidl-bind_opts2~r1) structure.
+When a value is set for **ActivateAtStorage**, this becomes the default behavior in calls to the [**CoGetInstanceFromFile**](/windows/desktop/api/Objbase/nf-objbase-cogetinstancefromfile) and [**CoGetInstanceFromIStorage**](/windows/desktop/api/Objbase/nf-objbase-cogetinstancefromistorage) functions, as well as to the file moniker implementation of [**IMoniker::BindToObject**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtoobject). In all of these calls, specifying a [**COSERVERINFO**](/windows/win32/api/objidlbase/ns-objidlbase-coserverinfo) structure overrides the setting of **ActivateAtStorage** for the duration of the function call. The caller can pass **COSERVERINFO** information to **IMoniker::BindToObject** through the [**BIND\_OPTS2**](/windows/win32/api/objidl/ns-objidl-bind_opts2~r1) structure.
 
 The value set for **ActivateAtStorage** is also the default behavior when CLSCTX\_REMOTE\_SERVER is specified if no registry information for the class is installed on the client's computer. Client applications written to take advantage of **ActivateAtStorage** may therefore require less administration.
 
@@ -34,7 +34,7 @@ The value set for **ActivateAtStorage** is also the default behavior when CLSCTX
 
 <dl> <dt>
 
-[**CLSCTX**](https://msdn.microsoft.com/library/ms693716(v=VS.85).aspx)
+[**CLSCTX**](/windows/win32/api/wtypesbase/ne-wtypesbase-clsctx)
 </dt> <dt>
 
 [**CoGetInstanceFromFile**](/windows/desktop/api/Objbase/nf-objbase-cogetinstancefromfile)
@@ -43,7 +43,7 @@ The value set for **ActivateAtStorage** is also the default behavior when CLSCTX
 [**CoGetInstanceFromIStorage**](/windows/desktop/api/Objbase/nf-objbase-cogetinstancefromistorage)
 </dt> <dt>
 
-[**COSERVERINFO**](https://msdn.microsoft.com/library/ms687322(v=VS.85).aspx)
+[**COSERVERINFO**](/windows/win32/api/objidlbase/ns-objidlbase-coserverinfo)
 </dt> <dt>
 
 [**IMoniker::BindToObject**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtoobject)
@@ -55,7 +55,3 @@ The value set for **ActivateAtStorage** is also the default behavior when CLSCTX
  
 
  
-
-
-
-

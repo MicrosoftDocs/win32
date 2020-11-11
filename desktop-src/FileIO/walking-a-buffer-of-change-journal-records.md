@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Walking a Buffer of Change Journal Records
 
-The control codes that return update sequence number (USN) change journal records, [**FSCTL\_READ\_USN\_JOURNAL**](https://msdn.microsoft.com/library/Aa364586(v=VS.85).aspx) and [**FSCTL\_ENUM\_USN\_DATA**](https://msdn.microsoft.com/library/Aa364563(v=VS.85).aspx), return similar data in the output buffer. Both return a USN followed by zero or more change journal records, each in a [**USN\_RECORD\_V2**](/windows/desktop/api/WinIoCtl/ns-winioctl-usn_record_v2) or [**USN\_RECORD\_V3**](/windows/desktop/api/WinIoCtl/ns-winioctl-usn_record_v3) structure.
+The control codes that return update sequence number (USN) change journal records, [**FSCTL\_READ\_USN\_JOURNAL**](/windows/win32/api/winioctl/ni-winioctl-fsctl_read_usn_journal) and [**FSCTL\_ENUM\_USN\_DATA**](/windows/win32/api/winioctl/ni-winioctl-fsctl_enum_usn_data), return similar data in the output buffer. Both return a USN followed by zero or more change journal records, each in a [**USN\_RECORD\_V2**](/windows/desktop/api/WinIoCtl/ns-winioctl-usn_record_v2) or [**USN\_RECORD\_V3**](/windows/desktop/api/WinIoCtl/ns-winioctl-usn_record_v3) structure.
 
 The target volume for USN operations must be ReFS or NTFS 3.0 or later. To obtain the NTFS version of a volume, open a command prompt with Administrator access rights and execute the following command:
 
@@ -18,8 +18,8 @@ where *X* is the drive letter of the volume.
 
 The following list identifies ways to get change journal records:
 
--   Use [**FSCTL\_ENUM\_USN\_DATA**](https://msdn.microsoft.com/library/Aa364563(v=VS.85).aspx) to get a listing (enumeration) of all change journal records between two USNs.
--   Use [**FSCTL\_READ\_USN\_JOURNAL**](https://msdn.microsoft.com/library/Aa364586(v=VS.85).aspx) to be more selective, such as selecting specific reasons for changes or returning when a file is closed.
+-   Use [**FSCTL\_ENUM\_USN\_DATA**](/windows/win32/api/winioctl/ni-winioctl-fsctl_enum_usn_data) to get a listing (enumeration) of all change journal records between two USNs.
+-   Use [**FSCTL\_READ\_USN\_JOURNAL**](/windows/win32/api/winioctl/ni-winioctl-fsctl_read_usn_journal) to be more selective, such as selecting specific reasons for changes or returning when a file is closed.
 
 > [!Note]  
 > Both of these operations return only the subset of change journal records that meet the specified criteria.
@@ -32,7 +32,7 @@ The **FileName** member of [**USN\_RECORD\_V2**](/windows/desktop/api/WinIoCtl/n
 
 When you work with the **FileName** member of [**USN\_RECORD\_V2**](/windows/desktop/api/WinIoCtl/ns-winioctl-usn_record_v2) and [**USN\_RECORD\_V3**](/windows/desktop/api/WinIoCtl/ns-winioctl-usn_record_v3) structures, do not assume that the file name contains a trailing '\\0' delimiter. To determine the length of the file name, use the **FileNameLength** member.
 
-The following example calls [**FSCTL\_READ\_USN\_JOURNAL**](https://msdn.microsoft.com/library/Aa364586(v=VS.85).aspx) and walks the buffer of change journal records that the operation returns.
+The following example calls [**FSCTL\_READ\_USN\_JOURNAL**](/windows/win32/api/winioctl/ni-winioctl-fsctl_read_usn_journal) and walks the buffer of change journal records that the operation returns.
 
 
 ```C++
@@ -149,6 +149,3 @@ In the C programming language, the largest possible record size is the following
  
 
  
-
-
-

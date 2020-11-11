@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # WebViewFolderContents.SelectedItems method
 
-Gets a [**FolderItems**](/windows/win32/shell/folderitems) object that represents all of the selected items in the view.
+Gets a [**FolderItems**](../shell/folderitems.md) object that represents all of the selected items in the view.
 
 ## Syntax
 
@@ -37,9 +37,9 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**FolderItems**](/windows/win32/shell/folderitems)\*\***
+Type: **[**FolderItems**](../shell/folderitems.md)\*\***
 
-An object reference to the [**FolderItems**](/windows/win32/shell/folderitems) object.
+An object reference to the [**FolderItems**](../shell/folderitems.md) object.
 
 ## Examples
 
@@ -92,10 +92,4 @@ The following example shows the proper usage of this method for JScript embedded
 
 
  
-
- 
-
-
-
-
 

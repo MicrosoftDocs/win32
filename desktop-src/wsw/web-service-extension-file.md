@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 This section outlines Web Service extension file.
 
-## 
 
 WSX file (WCF service extension) is our extension file to allow application to manipulate local behaviors that do not affect wire data representation. It should be extensible that we can add new features in the future without breaking interoperability.
 

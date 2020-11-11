@@ -81,7 +81,7 @@ Specifies zero or more attributes appropriate for the parameter type. Parameter 
 *declarator* 
 </dt> <dd>
 
-Specifies standard C declarators, such as identifiers, pointer declarators, and array declarators. For more information, see [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md), [**\[arrays\]**](https://msdn.microsoft.com/library/windows/desktop/aa373539), and [Arrays and Pointers](https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-pointers). The parameter declarator in the function declarator, such as the parameter name, is optional.
+Specifies standard C declarators, such as identifiers, pointer declarators, and array declarators. For more information, see [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md), [**\[arrays\]**](../rpc/arrays.md), and [Arrays and Pointers](/windows/desktop/Rpc/arrays-and-pointers). The parameter declarator in the function declarator, such as the parameter name, is optional.
 
 </dd> </dl>
 
@@ -105,7 +105,3 @@ The **\[annotate\]** attribute allows overriding MIDL-generated SAL annotations 
  
 
  
-
-
-
-

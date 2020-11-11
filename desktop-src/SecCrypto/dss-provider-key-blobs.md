@@ -8,14 +8,14 @@ ms.date: 05/31/2018
 
 # DSS Provider Key BLOBs
 
-[*BLOBs*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx) are used with the [*Digital Signature Standard*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx) (DSS) provider to export keys from, and import keys into, the [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP).
+[*BLOBs*](../secgloss/b-gly.md) are used with the [*Digital Signature Standard*](../secgloss/d-gly.md) (DSS) provider to export keys from, and import keys into, the [*cryptographic service provider*](../secgloss/c-gly.md) (CSP).
 
 -   [Public Key BLOBs](#public-key-blobs)
 -   [Private Key BLOBs](#private-key-blobs)
 
 ## Public Key BLOBs
 
-A DSS [*public key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) is exported and imported as a BLOB, a sequence of bytes structured as follows.
+A DSS [*public key*](../secgloss/p-gly.md) is exported and imported as a BLOB, a sequence of bytes structured as follows.
 
 ``` syntax
 PUBLICKEYSTRUC    publickeystruc;
@@ -27,13 +27,13 @@ BYTE              y[dsspubkey.bitlen/8];
 DSSSEED           seedstruct;
 ```
 
-The following table describes these components. All values are in [*little-endian*](https://msdn.microsoft.com/library/ms721592(v=VS.85).aspx) format.
+The following table describes these components. All values are in [*little-endian*](../secgloss/l-gly.md) format.
 
 
 
 | Field          | Description                                                                                                                                                                                                          |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| dsspubkey      | A [**DSSPUBKEY**](https://msdn.microsoft.com/library/Aa381982(v=VS.85).aspx) structure. The **magic** member must have a value of 0x31535344. This hexadecimal number is the [*ASCII*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) encoding of DSS1. |
+| dsspubkey      | A [**DSSPUBKEY**](/previous-versions/windows/desktop/legacy/aa381982(v=vs.85)) structure. The **magic** member must have a value of 0x31535344. This hexadecimal number is the [*ASCII*](../secgloss/a-gly.md) encoding of DSS1. |
 | g              | A **BYTE** sequence. The generator, g. Must be the same length as p. If it is not the same length as p, then it must be padded with 0x00 bytes.                                                                      |
 | p              | A **BYTE** sequence. The prime modulus, p. The most significant bit of the most significant byte must be set to one.                                                                                                 |
 | publickeystruc | A [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-publickeystruc) structure.                                                                                                                                                                |
@@ -46,13 +46,13 @@ The following table describes these components. All values are in [*little-endia
  
 
 > [!Note]  
-> [*Public key BLOBs*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) are not encrypted. They contain public keys in [*plaintext*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) form.
+> [*Public key BLOBs*](../secgloss/p-gly.md) are not encrypted. They contain public keys in [*plaintext*](../secgloss/p-gly.md) form.
 
  
 
 ## Private Key BLOBs
 
-A DSS [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) is exported and imported as a sequence of bytes structured as follows.
+A DSS [*private key*](../secgloss/p-gly.md) is exported and imported as a sequence of bytes structured as follows.
 
 ``` syntax
 PUBLICKEYSTRUC    publickeystruc;
@@ -64,13 +64,13 @@ BYTE              x[20];
 DSSSEED           seedstruct;
 ```
 
-The following table describes each component. All values are in [*little-endian*](https://msdn.microsoft.com/library/ms721592(v=VS.85).aspx) format.
+The following table describes each component. All values are in [*little-endian*](../secgloss/l-gly.md) format.
 
 
 
 | Field          | Description                                                                                                                                                                                                    |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| dsspubkey      | A [**DSSPUBKEY**](https://msdn.microsoft.com/library/Aa381982(v=VS.85).aspx) structure. The **magic** member must be set to 0x32535344. This hexadecimal number is the [*ASCII*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) encoding of DSS2. |
+| dsspubkey      | A [**DSSPUBKEY**](/previous-versions/windows/desktop/legacy/aa381982(v=vs.85)) structure. The **magic** member must be set to 0x32535344. This hexadecimal number is the [*ASCII*](../secgloss/a-gly.md) encoding of DSS2. |
 | g              | A **BYTE** sequence. The generator, g. Must be the same length as p. If it is not the same length as p, then it must be padded with 0x00 bytes.                                                                |
 | publickeystruc | A [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-publickeystruc) structure.                                                                                                                                                          |
 | p              | A **BYTE** sequence. The prime modulus, p. The most significant bit of the most significant byte must be set to one.                                                                                           |
@@ -97,6 +97,3 @@ When calling [**CryptExportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryp
  
 
  
-
-
-

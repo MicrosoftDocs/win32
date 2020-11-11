@@ -451,7 +451,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FWPM_CONDITION_IP_LOCAL_ADDRESS_TYPE"></span><span id="fwpm_condition_ip_local_address_type"></span><dl> <dt><strong>FWPM_CONDITION_IP_LOCAL_ADDRESS_TYPE</strong></dt> </dl></td>
-<td style="text-align: left;">The local IP address type. <br/> <strong>Possible values:</strong> Any of the following <a href="https://msdn.microsoft.com/library/ff568757.aspx">NL_ADDRESS_TYPE</a> enumeration values.
+<td style="text-align: left;">The local IP address type. <br/> <strong>Possible values:</strong> Any of the following <a href="/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration values.
 <ul>
 <li>NlatUnspecified</li>
 <li>NlatUnicast</li>
@@ -463,7 +463,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_IP_DESTINATION_ADDRESS_TYPE"></span><span id="fwpm_condition_ip_destination_address_type"></span><dl> <dt><strong>FWPM_CONDITION_IP_DESTINATION_ADDRESS_TYPE</strong></dt> </dl></td>
-<td style="text-align: left;">The destination IP address type for forwarded packets. <br/> <strong>Possible values:</strong> Any of the following <a href="https://msdn.microsoft.com/library/ff568757.aspx">NL_ADDRESS_TYPE</a> enumeration values.
+<td style="text-align: left;">The destination IP address type for forwarded packets. <br/> <strong>Possible values:</strong> Any of the following <a href="/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration values.
 <ul>
 <li>NlatUnspecified</li>
 <li>NlatUnicast</li>
@@ -511,7 +511,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_EMBEDDED_LOCAL_ADDRESS_TYPE"></span><span id="fwpm_condition_embedded_local_address_type"></span><dl> <dt><strong>FWPM_CONDITION_EMBEDDED_LOCAL_ADDRESS_TYPE</strong></dt> </dl></td>
-<td style="text-align: left;">The local IP address type that is embedded in the ICMP packet.<br/> <strong>Possible values:</strong> Any of the following <a href="https://msdn.microsoft.com/library/ff568757.aspx">NL_ADDRESS_TYPE</a> enumeration values.
+<td style="text-align: left;">The local IP address type that is embedded in the ICMP packet.<br/> <strong>Possible values:</strong> Any of the following <a href="/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration values.
 <ul>
 <li>NlatUnspecified</li>
 <li>NlatUnicast</li>
@@ -608,7 +608,7 @@ The standard conditions are listed first, followed by the conditions specific to
 <li>SIO_RCVALL_IGMPMCAST</li>
 <li>SIO_RCVALL_MCAST</li>
 </ul>
-For a description of these raw socket modes, see the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl"><strong>WSAIoctl</strong></a> function.<br/> <strong>Data type:</strong> FWP_UINT32<br/></td>
+For a description of these raw socket modes, see the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaioctl"><strong>WSAIoctl</strong></a> function.<br/> <strong>Data type:</strong> FWP_UINT32<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_ALE_SIO_FIREWALL_SYSTEM_PORT"></span><span id="fwpm_condition_ale_sio_firewall_system_port"></span><dl> <dt><strong>FWPM_CONDITION_ALE_SIO_FIREWALL_SYSTEM_PORT</strong></dt> </dl></td>
@@ -740,11 +740,11 @@ Available only on Windows Server 2008 R2, Windows 7, and later.
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_RPC_AUTH_TYPE"></span><span id="fwpm_condition_rpc_auth_type"></span><dl> <dt><strong>FWPM_CONDITION_RPC_AUTH_TYPE</strong></dt> </dl></td>
-<td style="text-align: left;">The authentication service type. For more information about authentication service types, see <a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-service-constants"><strong>Authentication-Service Constants</strong></a>. <br/> <strong>Data type:</strong> FWP_UINT8<br/></td>
+<td style="text-align: left;">The authentication service type. For more information about authentication service types, see <a href="/windows/desktop/Rpc/authentication-service-constants"><strong>Authentication-Service Constants</strong></a>. <br/> <strong>Data type:</strong> FWP_UINT8<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FWPM_CONDITION_RPC_AUTH_LEVEL"></span><span id="fwpm_condition_rpc_auth_level"></span><dl> <dt><strong>FWPM_CONDITION_RPC_AUTH_LEVEL</strong></dt> </dl></td>
-<td style="text-align: left;">The authentication service level. For more information about authentication service levels, see <a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-level-constants"><strong>Authentication-Level Constants</strong></a>. <br/> <strong>Data type:</strong> FWP_UINT8<br/></td>
+<td style="text-align: left;">The authentication service level. For more information about authentication service levels, see <a href="/windows/desktop/Rpc/authentication-level-constants"><strong>Authentication-Level Constants</strong></a>. <br/> <strong>Data type:</strong> FWP_UINT8<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_SEC_ENCRYPT_ALGORITHM"></span><span id="fwpm_condition_sec_encrypt_algorithm"></span><dl> <dt><strong>FWPM_CONDITION_SEC_ENCRYPT_ALGORITHM</strong></dt> </dl></td>

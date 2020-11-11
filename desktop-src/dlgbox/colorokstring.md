@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # COLOROKSTRING message
 
-A **Color** dialog box sends the **COLOROKSTRING** registered message to your hook procedure, [*CCHookProc*](https://msdn.microsoft.com/library/ms646908(v=VS.85).aspx), when the user selects a color and clicks the **OK** button. The hook procedure can accept the color and allow the dialog box to close, or reject the color and force the dialog box to remain open.
+A **Color** dialog box sends the **COLOROKSTRING** registered message to your hook procedure, [*CCHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpcchookproc), when the user selects a color and clicks the **OK** button. The hook procedure can accept the color and allow the dialog box to close, or reject the color and force the dialog box to remain open.
 
 
 ```C++
@@ -55,7 +55,7 @@ If the hook procedure returns a nonzero value, the **Color** dialog box rejects 
 
 ## Remarks
 
-The hook procedure must specify the **COLOROKSTRING** constant in a call to the [**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function to get the identifier of the message sent by the dialog box.
+The hook procedure must specify the **COLOROKSTRING** constant in a call to the [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function to get the identifier of the message sent by the dialog box.
 
 ## Requirements
 
@@ -80,7 +80,7 @@ The hook procedure must specify the **COLOROKSTRING** constant in a call to the 
 [**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora~r1)
 </dt> <dt>
 
-[**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)
+[**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)
 </dt> <dt>
 
 **Conceptual**
@@ -90,10 +90,4 @@ The hook procedure must specify the **COLOROKSTRING** constant in a call to the 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

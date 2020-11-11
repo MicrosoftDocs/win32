@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Graphics.DrawBezier methods
 
-This topic lists the DrawBezier methods of the [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx).
+This topic lists the DrawBezier methods of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics).
 
 ### Overload list
 
@@ -16,10 +16,10 @@ This topic lists the DrawBezier methods of the [**Graphics**](https://msdn.micro
 
 | Method                                                                                                                                                                    | Description                                                                                                                                                                       |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DrawBezier(Pen\*,POINT&,POINT&,POINT&,POINT&)**](https://msdn.microsoft.com/library/ms536148(v=VS.85).aspx)                              | The [**Graphics::DrawBezier**](https://msdn.microsoft.com/library/ms536148(v=VS.85).aspx) method draws a Bézier spline.<br/>                  |
-| [**DrawBezier(Pen\*,INT,INT,INT,INT,INT,INT,INT,INT)**](https://msdn.microsoft.com/library/ms536151(v=VS.85).aspx)          | The [**Graphics::DrawBezier**](https://msdn.microsoft.com/library/ms536151(v=VS.85).aspx) method draws a Bézier spline.<br/>  |
-| [**DrawBezier(Pen\*,POINTF&,POINTF&,POINTF&,POINTF&)**](https://msdn.microsoft.com/library/ms536149(v=VS.85).aspx)                      | The [**Graphics::DrawBezier**](https://msdn.microsoft.com/library/ms536149(v=VS.85).aspx) method draws a Bézier spline.<br/>              |
-| [**DrawBezier(Pen\*,REAL,REAL,REAL,REAL,REAL,REAL,REAL,REAL)**](https://msdn.microsoft.com/library/ms536150(v=VS.85).aspx) | The [**Graphics::DrawBezier**](https://msdn.microsoft.com/library/ms536150(v=VS.85).aspx) method draws a Bézier spline.<br/> |
+| [**DrawBezier(Pen\*,POINT&,POINT&,POINT&,POINT&)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawbezier(inconstpen_inconstpoint__inconstpoint__inconstpoint__inconstpoint_))                              | The [**Graphics::DrawBezier**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawbezier(inconstpen_inconstpoint__inconstpoint__inconstpoint__inconstpoint_)) method draws a Bézier spline.<br/>                  |
+| [**DrawBezier(Pen\*,INT,INT,INT,INT,INT,INT,INT,INT)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawbezier(inconstpen_inint_inint_inint_inint_inint_inint_inint_inint))          | The [**Graphics::DrawBezier**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawbezier(inconstpen_inint_inint_inint_inint_inint_inint_inint_inint)) method draws a Bézier spline.<br/>  |
+| [**DrawBezier(Pen\*,POINTF&,POINTF&,POINTF&,POINTF&)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawbezier(inconstpen_inconstpointf__inconstpointf__inconstpointf__inconstpointf_))                      | The [**Graphics::DrawBezier**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawbezier(inconstpen_inconstpointf__inconstpointf__inconstpointf__inconstpointf_)) method draws a Bézier spline.<br/>              |
+| [**DrawBezier(Pen\*,REAL,REAL,REAL,REAL,REAL,REAL,REAL,REAL)**](/previous-versions//ms536150(v=vs.85)) | The [**Graphics::DrawBezier**](/previous-versions//ms536150(v=vs.85)) method draws a Bézier spline.<br/> |
 
 
 
@@ -36,7 +36,3 @@ This topic lists the DrawBezier methods of the [**Graphics**](https://msdn.micro
  
 
  
-
-
-
-

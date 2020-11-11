@@ -67,9 +67,9 @@ We also strongly recommend converting data offline (at build or installation tim
 
 Another common issue we've seen is very long installation times required for many modern PC games. The installers prompt the user many times, sometimes simply to tell the user, for example, "You do not need DirectX installed." Generally, these offending installers require the user to select **Next** or **OK** many times before installation of the game actually begins. Once it does begin, we've seen some titles take an hour or more before the user gets the opportunity to play the game. We feel strongly that the first hour of game play experience should not be the installation.
 
-We recommend a number of approaches for dealing with installation. First, keep the prompts simple and to a minimum. Second, architect your game data such that some or all the data files can be used directly from the distribution disk where possible — modern DVD drives have very high bandwidth. Third, consider implementing install-on-demand in your titles to reduce or eliminate the installation process and allow users to get into the game as quickly as possible. (For more information about installing on demand, see [Install-on-Demand for Games](https://docs.microsoft.com/windows/desktop/DxTechArts/install-on-demand-for-games).)
+We recommend a number of approaches for dealing with installation. First, keep the prompts simple and to a minimum. Second, architect your game data such that some or all the data files can be used directly from the distribution disk where possible — modern DVD drives have very high bandwidth. Third, consider implementing install-on-demand in your titles to reduce or eliminate the installation process and allow users to get into the game as quickly as possible. (For more information about installing on demand, see [Install-on-Demand for Games](/windows/desktop/DxTechArts/install-on-demand-for-games).)
 
-For more recommendations about game installation, see [Simplifying Game Installation](https://docs.microsoft.com/windows/desktop/DxTechArts/simplifying-game-installation).
+For more recommendations about game installation, see [Simplifying Game Installation](/windows/desktop/DxTechArts/simplifying-game-installation).
 
 ## Lack of Consideration of Physical Memory
 
@@ -82,7 +82,7 @@ Another common source of CPU cycle burn we've seen occurs when the audio system 
 We recommend creating all of your DirectSound buffers with the same sample rate. If you make any use of Microsoft Win32 **waveOut** functions, you should use a consistent sample rate with these, too. With WDM drivers, the buffers will all be mixed by the kernel, and if you use a higher sampling rate on some of them, the sample rates of all of the rest will be converted to match. Note that this implies using the same playback rate for all your audio samples, including any streaming audio decompression buffers. Setting the primary buffer rate has no effect unless you are targeting either Windows 98 or Windows Millennium Edition.
 
 > [!Note]  
-> On Windows Vista and later versions of the operating system, DirectSound and **waveOut** use the [Windows Audio Session API (WASAPI)](https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi) for all audio output.
+> On Windows Vista and later versions of the operating system, DirectSound and **waveOut** use the [Windows Audio Session API (WASAPI)](/windows/desktop/CoreAudio/wasapi) for all audio output.
 
  
 
@@ -124,16 +124,12 @@ Furthermore, the actual size of the redistributable folder can be configured to 
 
 When profiling games, the top hotspots are often found to be related to entering and leaving critical sections. With the prevalence of multi-core CPUs, the use of multithreading in games has increased dramatically, and many implementations rely on heavy use of thread synchronization. The CPU time to take a critical section even without any contention is quite significant, and all other forms of thread synchronization are even more expensive. So, care must be taken to minimize the use of these primitives.
 
-A common source of excessive synchronization in games is the use of [D3DCREATE\_MULTITHREADED](https://docs.microsoft.com/windows/desktop/direct3d9/d3dcreate). This flag, while making Direct3D thread-safe for rendering from multiple threads, takes a very conservative approach, resulting in high synchronization overhead. Games should avoid this flag. Instead, architect the engine so that all communication with Direct3D is from a single thread and any communication between threads is handled directly. For more information about designing multi-threaded games, see the article [Coding For Multiple Cores on Xbox 360 and Microsoft Windows](https://docs.microsoft.com/windows/desktop/DxTechArts/coding-for-multiple-cores).
+A common source of excessive synchronization in games is the use of [D3DCREATE\_MULTITHREADED](/windows/desktop/direct3d9/d3dcreate). This flag, while making Direct3D thread-safe for rendering from multiple threads, takes a very conservative approach, resulting in high synchronization overhead. Games should avoid this flag. Instead, architect the engine so that all communication with Direct3D is from a single thread and any communication between threads is handled directly. For more information about designing multi-threaded games, see the article [Coding For Multiple Cores on Xbox 360 and Microsoft Windows](/windows/desktop/DxTechArts/coding-for-multiple-cores).
 
 ## Use of RDTSC
 
-Use of the x86 instruction **RDTSC** is not recommended. **RDTSC** fails to correctly compute timing on some power management schemes that change the CPU frequency dynamically and on many multi-core CPUs for which the cycle counter is not synchronized between cores. Games should instead use the [**QueryPerformanceCounter**](https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter) API. For more information about issues with **RDTSC** and implementing high-resolution timing with **QueryPerformanceCounter**, see the article [Game Timing and Multicore Processors](https://docs.microsoft.com/windows/desktop/DxTechArts/game-timing-and-multicore-processors).
+Use of the x86 instruction **RDTSC** is not recommended. **RDTSC** fails to correctly compute timing on some power management schemes that change the CPU frequency dynamically and on many multi-core CPUs for which the cycle counter is not synchronized between cores. Games should instead use the [**QueryPerformanceCounter**](/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter) API. For more information about issues with **RDTSC** and implementing high-resolution timing with **QueryPerformanceCounter**, see the article [Game Timing and Multicore Processors](/windows/desktop/DxTechArts/game-timing-and-multicore-processors).
 
  
 
  
-
-
-
-

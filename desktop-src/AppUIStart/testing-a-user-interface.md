@@ -33,7 +33,7 @@ The primary scenarios for usability testing are:
 -   If you are a software product vendor, testing real users of your product means you are evaluating the design. Based on how you have designed the application, can users complete the tasks they need to do? Testing real users doing real tasks can also point out if the UI guidelines you are following are working within the context of your product, and when consistency helps or hinders the ability of a user to do their work.
 -   If you are a software product purchaser, you can do usability testing to evaluate a product for purchase. For example, your company might consider buying a product for their twenty thousand employees. Before the company spends its money, it wants to make sure that the product in question will really help employees do their jobs better. Usability testing can also be useful to see if the proposed application follows published UI style guidelines (internal or external). It's best to use UI guidelines as an auxiliary, rather than primary, source of information for making purchase decisions.
 
-For more information, see [Usability in Practice: Usability Testing](https://msdn.microsoft.com/magazine/dd920305.aspx).
+For more information, see [Usability in Practice: Usability Testing](/archive/msdn-magazine/2009/brownfield/usability-in-practice-usability-testing).
 
 ## Accessibility Testing
 
@@ -48,12 +48,8 @@ Ensuring that an application is accessible to users with disabilities involves t
 
 Testing for these aspects of an application can be accomplished through an accessibility audit, which involves a manual review of the application by an accessibility expert, and a focused usability study of disabled users and assistive technology devices.
 
-Although seemingly unrelated, there is a close correlation between the programmatic access requirements of automated test frameworks and those of assistive technology devices. Supporting one has the added benefit of enabling the other. For more information on accessibility and test automation in Windows applications, see [Accessibility](https://docs.microsoft.com/windows/desktop/accessibility), [Testing Tools](https://docs.microsoft.com/windows/desktop/WinAuto/testing-tools), and the [Windows Automation API](https://docs.microsoft.com/windows/desktop/WinAuto/windows-automation-api-portal).
+Although seemingly unrelated, there is a close correlation between the programmatic access requirements of automated test frameworks and those of assistive technology devices. Supporting one has the added benefit of enabling the other. For more information on accessibility and test automation in Windows applications, see [Accessibility](/windows/desktop/accessibility), [Testing Tools](/windows/desktop/WinAuto/testing-tools), and the [Windows Automation API](/windows/desktop/WinAuto/windows-automation-api-portal).
 
  
 
  
-
-
-
-

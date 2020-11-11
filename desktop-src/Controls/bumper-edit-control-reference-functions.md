@@ -10,12 +10,8 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**EditWordBreakProc**](https://msdn.microsoft.com/library/Bb761709(v=VS.85).aspx)
+-   [**EditWordBreakProc**](/windows/win32/api/winuser/nc-winuser-editwordbreakproca)
 
  
 
  
-
-
-
-

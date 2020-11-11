@@ -39,7 +39,7 @@ HRESULT PreloadText(
 *pString* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)\***
 
 Pointer to a string of characters to be loaded into video memory. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR; otherwise, the data type resolves to LPCSTR. See Remarks.
 
@@ -48,7 +48,7 @@ Pointer to a string of characters to be loaded into video memory. If the compile
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**INT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**INT**](../winprog/windows-data-types.md)**
 
 Number of characters in the text string.
 
@@ -68,7 +68,7 @@ This method generates textures that contain glyphs that represent the input text
 
 Text will not be rendered to the device; [**DrawText**](id3dxfont--drawtext.md) must still be called to render the text. However, by preloading text into video memory, **DrawText** will use substantially fewer CPU resources.
 
-This method internally converts characters to glyphs using the GDI function [**GetCharacterPlacement**](https://msdn.microsoft.com/library/Dd144860(v=VS.85).aspx).
+This method internally converts characters to glyphs using the GDI function [**GetCharacterPlacement**](/windows/win32/api/wingdi/nf-wingdi-getcharacterplacementa).
 
 ## Requirements
 
@@ -91,7 +91,3 @@ This method internally converts characters to glyphs using the GDI function [**G
  
 
  
-
-
-
-

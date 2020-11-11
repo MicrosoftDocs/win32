@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 This topic provides a technical overview of interoperability using surface sharing between Windows graphics APIs, including Direct3D 11, Direct2D, DirectWrite, Direct3D 10, and Direct3D 9Ex. If you already have a working knowledge of these APIs, this paper can help you use multiple APIs to render to the same surface in an application designed for the Windows 7 or Windows Vista operating systems. This topic also provides best practice guidelines and pointers to additional resources.
 
 > [!Note]  
-> For Direct2D and DirectWrite interoperability on the DirectX 11.1 runtime, you can use [Direct2D devices and device contexts](https://docs.microsoft.com/windows/desktop/Direct2D/devices-and-device-contexts) to render directly to Direct3D 11 devices.
+> For Direct2D and DirectWrite interoperability on the DirectX 11.1 runtime, you can use [Direct2D devices and device contexts](/windows/desktop/Direct2D/devices-and-device-contexts) to render directly to Direct3D 11 devices.
 
  
 
@@ -114,7 +114,7 @@ pSwapChain->Present(0, 0);
 
 Device sharing is suitable for in-process, single-threaded usage of one rendering device shared by both Direct3D 10.1 and Direct2D rendering APIs. Synchronized shared surfaces enable multi-threaded, in-process and out-of-process usage of multiple rendering devices used by Direct3D 10.1, Direct2D and Direct3D 11 APIs.
 
-Another method of Direct3D 10.1 and Direct2D interoperability is by using ID3D1RenderTarget::CreateSharedBitmap, which creates an ID2D1Bitmap object from IDXGISurface. You can write a Direct3D10.1 scene to the bitmap and render it with Direct2D. For more information, see [ID2D1RenderTarget::CreateSharedBitmap Method](https://msdn.microsoft.com/library/dd371865(VS.85).aspx).
+Another method of Direct3D 10.1 and Direct2D interoperability is by using ID3D1RenderTarget::CreateSharedBitmap, which creates an ID2D1Bitmap object from IDXGISurface. You can write a Direct3D10.1 scene to the bitmap and render it with Direct2D. For more information, see [ID2D1RenderTarget::CreateSharedBitmap Method](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsharedbitmap).
 
 ### Direct2D Software Rasterization
 
@@ -132,7 +132,7 @@ In Direct3D 10.1 and later APIs, to use DXGI 1.1, ensure that the Direct3D devic
 
 ### APIs
 
-<dl> **D3D10\_RESOURCE\_MISC\_SHARED\_KEYEDMUTEX**  
+**D3D10\_RESOURCE\_MISC\_SHARED\_KEYEDMUTEX**  
 When creating the synchronized shared resource, set D3D10\_RESOURCE\_MISC\_SHARED\_KEYEDMUTEX in D3D10\_RESOURCE\_MISC\_FLAG.  
 
 
@@ -314,7 +314,7 @@ The ISurfaceQueue object is the building block for using the shared surfaces. It
 
 Each instance of the ISurfaceQueue object provides a sort of one-way street that can be used to send surfaces from the producing device to the consuming device. Multiple such one-way streets can be used to enable surface sharing scenarios between devices of specific applications.
 
-<dl> **Creation/Object Lifetime**  
+**Creation/Object Lifetime**  
 There are two ways to create the queue object: through CreateSurfaceQueue, or through the Clone method of ISurfaceQueue. Because the interfaces are COM objects, standard COM lifetime management applies.  
 **Producer/Consumer Model**  
 Enqueue (): The producer calls this function to indicate it is done with the surface, which can now become available to another device. Upon returning from this function, the producer device no longer has rights to the surface and it is unsafe to continue using it.  
@@ -351,7 +351,7 @@ The queue exposes the following APIs:
 
  
 
-<dl> **CreateSurfaceQueue**  
+**CreateSurfaceQueue**  
 
 
 ```C++
@@ -368,12 +368,13 @@ typedef struct SURFACE_QUEUE_DESC {
 
 
 **Members**  
-<dl> **Width**, **Height**  
-<dl> The dimensions of the shared surfaces. All shared surfaces must have the same dimensions. </dl> </dd> **Format** <dl> The format of the shared surfaces. All shared surfaces must have the same format. The valid formats depend on the devices that will be used, because different pairs of devices can share different format types.  
-</dl> </dd> **NumSurfaces** <dl> The number of surfaces that are part of the queue. This is a fixed number.  
-</dl> </dd> **MetaDataSize** <dl> The maximum size of the metadata buffer.  
-</dl> </dd> **Flags** <dl> Flags to control the behavior of the queue. See Remarks.  
-</dl> </dd> </dl>
+
+**Width**, **Height**  The dimensions of the shared surfaces. All shared surfaces must have the same dimensions.  
+**Format** The format of the shared surfaces. All shared surfaces must have the same format. The valid formats depend on the devices that will be used, because different pairs of devices can share different format types.  
+**NumSurfaces**  The number of surfaces that are part of the queue. This is a fixed number.  
+ **MetaDataSize**  The maximum size of the metadata buffer.  
+**Flags**  Flags to control the behavior of the queue. See Remarks.  
+
 
 
 ```C++
@@ -388,10 +389,12 @@ HRESULT CreateSurfaceQueue(
 
 **Parameters**
 
-<dl> *pDesc* \[in\] <dl> The description of the shared surface queue to be created.  
-</dl> </dd> *pDevice* \[in\] <dl> The device that should be used to create the shared surfaces. This is an explicit parameter because of a feature in Windows Vista. For surfaces shared between Direct3D 9 and Direct3D 10, the surfaces must be created with Direct3D 9.  
-</dl> </dd> *ppQueue* \[out\] <dl> On return, contains a pointer to the ISurfaceQueue object.  
-</dl> </dd> </dl>
+ *pDesc* \[in\]  The description of the shared surface queue to be created.  
+
+ *pDevice* \[in\]  The device that should be used to create the shared surfaces. This is an explicit parameter because of a feature in Windows Vista. For surfaces shared between Direct3D 9 and Direct3D 10, the surfaces must be created with Direct3D 9.  
+
+ *ppQueue* \[out\]  On return, contains a pointer to the ISurfaceQueue object.  
+
 
 **Return Values**
 
@@ -403,7 +406,7 @@ Creating the queue object also creates all of the surfaces. All surfaces are ass
 
 The developer can specify a flag that indicates whether the queue will be accessed by multiple threads. If no flags are set (**Flags** == 0), the queue will be used by multiple threads. The developer can specify single threaded access, which turns off the synchronization code and provides a performance improvement for those cases. Each cloned queue has its own flag, so it is possible for different queues in the system to have different synchronization controls.
 
-</dd> **Open a Producer**  
+ **Open a Producer**  
 
 
 ```C++
@@ -416,15 +419,19 @@ HRESULT OpenProducer(
 
 
 **Parameters**  
-<dl> *pDevice* \[in\]  
-<dl> The producer device that enqueues surfaces onto the surface queue. </dl> </dd> *ppProducer* \[out\] <dl> Returns an object to the producer interface.  
-</dl> </dd> </dl>
+
+*pDevice* \[in\]  
+
+The producer device that enqueues surfaces onto the surface queue. 
+
+*ppProducer* \[out\] Returns an object to the producer interface.  
+
 
 **Return Values**
 
 If the device is not capable of sharing surfaces, returns DXGI\_ERROR\_INVALID\_CALL.
 
-</dd> **Open a Consumer**  
+**Open a Consumer**  
 
 
 ```C++
@@ -437,9 +444,10 @@ HRESULT OpenConsumer(
 
 
 **Parameters**  
-<dl> *pDevice* \[in\]  
-<dl> The consumer device that dequeues surfaces from the surface queue. </dl> </dd> *ppConsumer* \[out\] <dl> Returns an object to the consumer interface.  
-</dl> </dd> </dl>
+ *pDevice* \[in\]  
+ The consumer device that dequeues surfaces from the surface queue. 
+ *ppConsumer* \[out\]  Returns an object to the consumer interface.  
+
 
 **Return Values**
 
@@ -449,11 +457,11 @@ If the device is not capable of sharing surfaces, returns DXGI\_ERROR\_INVALID\_
 
 This function opens all of the surfaces in the queue for the input device and caches them. Subsequent calls to Dequeue will simply go to the cache and not have to reopen the surfaces each time.
 
-</dd> </dl>
+
 
 ### Cloning an IDXGIXSurfaceQueue
 
-<dl>
+
 
 
 ```C++
@@ -465,8 +473,8 @@ typedef struct SHARED_SURFACE_QUEUE_CLONE_DESC {
 
 
 
-**Members** <dl> **MetaDataSize** and **Flags** have the same behavior as they do for CreateSurfaceQueue.  
-</dl>
+**Members** **MetaDataSize** and **Flags** have the same behavior as they do for CreateSurfaceQueue.  
+
 
 
 ```C++
@@ -480,14 +488,14 @@ HRESULT Clone(
 
 **Parameters**
 
-<dl> *pDesc* \[in\] <dl> A struct that provides a description of the Clone object to be created. This parameter should be initialized.  
-</dl> </dd> *ppQueue* \[out\] <dl> Returns the initialized object.  
-</dl> </dd> </dl>
+*pDesc* \[in\] A struct that provides a description of the Clone object to be created. This parameter should be initialized.  
+*ppQueue* \[out\] Returns the initialized object.  
+</dl>
 
 **Remarks**
 
-<dl> You can clone from any existing queue object, even if it is not the root.  
-</dl> </dd> </dl>
+You can clone from any existing queue object, even if it is not the root.  
+</dl>
 
 ### IDXGIXSurfaceConsumer
 
@@ -507,28 +515,28 @@ HRESULT Dequeue(
 
 
 **Parameters**  
-<dl> *id* \[in\]  
-<dl> The REFIID of a 2D surface of the consuming device.  
+*id* \[in\]  
+The REFIID of a 2D surface of the consuming device.  
 
 -   For a IDirect3DDevice9, the REFIID should be \_\_uuidof(IDirect3DTexture9).
 -   For a ID3D10Device, the REFIID should be \_\_uuidof(ID3D10Texture2D).
 -   For a ID3D11Device, the REFIID should be \_\_uuidof(ID3D11Texture2D).
 
-</dl> </dd> *ppSurface* \[out\] <dl> Returns a pointer to the surface.  
-</dl> </dd> *pBuffer* \[in, out\] <dl> An optional parameter and if not **NULL**, on return, contains the metadata that was passed in on the corresponding enqueue call.  
-</dl> </dd> *pBufferSize* \[in, out\] <dl> The size of *pBuffer*, in bytes. Returns the number of bytes returned in *pBuffer*. If the enqueue call did not provide metadata, *pBuffer* is set to 0.  
-</dl> </dd> *dwTimeout* \[in\] <dl> Specifies a timeout value. See the Remarks for more detail.  
-</dl> </dd> </dl>
+*ppSurface* \[out\] Returns a pointer to the surface.  
+*pBuffer* \[in, out\] An optional parameter and if not **NULL**, on return, contains the metadata that was passed in on the corresponding enqueue call.  
+*pBufferSize* \[in, out\] The size of *pBuffer*, in bytes. Returns the number of bytes returned in *pBuffer*. If the enqueue call did not provide metadata, *pBuffer* is set to 0.  
+*dwTimeout* \[in\] Specifies a timeout value. See the Remarks for more detail.  
+</dl>
 
 **Return Values**
 
-<dl> This function can return WAIT\_TIMEOUT if a timeout value is specified and the function does not return before the time out value. See Remarks. If no surfaces are available, the function returns with *ppSurface* set to **NULL**, *pBufferSize* set to 0 and the return value is 0x80070120 (WIN32\_TO\_HRESULT(WAIT\_TIMEOUT)).  
+This function can return WAIT\_TIMEOUT if a timeout value is specified and the function does not return before the time out value. See Remarks. If no surfaces are available, the function returns with *ppSurface* set to **NULL**, *pBufferSize* set to 0 and the return value is 0x80070120 (WIN32\_TO\_HRESULT(WAIT\_TIMEOUT)).  
 </dl>
 
 **Remarks**
 
-<dl> This API can block if the queue is empty. The *dwTimeout* parameter works identically to the Windows synchronization APIs, such as WaitForSingleObject. For non-blocking behavior, use a timeout of 0.  
-</dl> </dd> </dl>
+This API can block if the queue is empty. The *dwTimeout* parameter works identically to the Windows synchronization APIs, such as WaitForSingleObject. For non-blocking behavior, use a timeout of 0.  
+</dl>
 
 ### ISurfaceProducer
 
@@ -545,7 +553,7 @@ This interface provides two methods that allow the app to enqueue surfaces. Afte
 
  
 
-<dl> **Enqueue**  
+**Enqueue**  
 
 
 ```C++
@@ -560,15 +568,15 @@ HRESULT Enqueue(
 
 
 **Parameters**  
-<dl> *pSurface* \[in\]  
-<dl> The surface of the producing device that needs to be enqueued. This surface must be a dequeued surface from the same queue network. </dl> </dd> *pBuffer* \[in\] <dl> An optional parameter, which is used to pass in metadata. It should point to the data that will be passed on to the dequeue call.  
-</dl> </dd> *BufferSize* \[in\] <dl> The size of *pBuffer*, in bytes.  
-</dl> </dd> *Flags* \[in\] <dl> An optional parameter that controls the behavior of this function. The only flag is SURFACE\_QUEUE\_FLAG\_ DO\_NOT\_WAIT. See the Remarks for Flush. If no flag is passed (*Flags* == 0), then the default blocking behavior is used.  
-</dl> </dd> </dl>
+*pSurface* \[in\]  
+The surface of the producing device that needs to be enqueued. This surface must be a dequeued surface from the same queue network. *pBuffer* \[in\] An optional parameter, which is used to pass in metadata. It should point to the data that will be passed on to the dequeue call.  
+*BufferSize* \[in\] The size of *pBuffer*, in bytes.  
+*Flags* \[in\] An optional parameter that controls the behavior of this function. The only flag is SURFACE\_QUEUE\_FLAG\_ DO\_NOT\_WAIT. See the Remarks for Flush. If no flag is passed (*Flags* == 0), then the default blocking behavior is used.  
+</dl>
 
 **Return Values**
 
-<dl> This function can return DXGI\_ERROR\_WAS\_STILL\_DRAWING if a SURFACE\_QUEUE\_FLAG\_DO\_NOT\_WAIT flag is used.  
+This function can return DXGI\_ERROR\_WAS\_STILL\_DRAWING if a SURFACE\_QUEUE\_FLAG\_DO\_NOT\_WAIT flag is used.  
 </dl>
 
 **Remarks**
@@ -576,7 +584,7 @@ HRESULT Enqueue(
 -   This function puts the surface on the queue. If the application does not specify SURFACE\_QUEUE\_FLAG\_DO\_NOT\_WAIT, this function is blocking and will do a GPU-CPU synchronization to assure that all the rendering on the enqueued surface is complete. If this function succeeds, a surface will be available for dequeue. If you want non-blocking behavior, use the DO\_NOT\_WAIT flag. See Flush() for details.
 -   As per the COM reference counting rules, the surface returned by Dequeue will be AddRef() so the application does not need to do this. After calling Enqueue, the application must Release the surface because they are no longer using it.
 
-</dd> **Flush**  
+**Flush**  
 
 
 ```C++
@@ -589,18 +597,18 @@ HRESULT Flush(
 
 
 **Parameters**  
-<dl> *Flags* \[in\]  
-<dl> The only flag is SURFACE\_QUEUE\_FLAG\_ DO\_NOT\_WAIT. See Remarks. </dl> </dd> *nSurfaces* \[out\] <dl> Returns the number of surfaces that are still pending and not flushed.  
-</dl> </dd> </dl>
+*Flags* \[in\]  
+The only flag is SURFACE\_QUEUE\_FLAG\_ DO\_NOT\_WAIT. See Remarks. *nSurfaces* \[out\] Returns the number of surfaces that are still pending and not flushed.  
+</dl>
 
 **Return Values**
 
-<dl> This function can return DXGI\_ERROR\_WAS\_STILL\_DRAWING if the SURFACE\_QUEUE\_FLAG\_DO\_NOT\_WAIT flag is used. This function returns S\_OK if any surfaces were successfully flushed. This function returns DXGI\_ERROR\_WAS\_STILL\_DRAWING only if no surfaces were flushed. Together, the return value and *nSurfaces* indicate to the application what work has been done and if any work is left to do.  
+This function can return DXGI\_ERROR\_WAS\_STILL\_DRAWING if the SURFACE\_QUEUE\_FLAG\_DO\_NOT\_WAIT flag is used. This function returns S\_OK if any surfaces were successfully flushed. This function returns DXGI\_ERROR\_WAS\_STILL\_DRAWING only if no surfaces were flushed. Together, the return value and *nSurfaces* indicate to the application what work has been done and if any work is left to do.  
 </dl>
 
 **Remarks**
 
-<dl> Flush is meaningful only if the previous call to enqueue used the DO\_NOT\_WAIT flag; otherwise, it will be a no-op. If the call to enqueue used the DO\_NOT\_WAIT flag, enqueue returns immediately and the GPU-CPU synchronization is not guaranteed. The surface is still considered enqueued, the producing device cannot continue using it, but it is not available for dequeue. In order to try to commit the surface for dequeue, Flush must be called. Flush attempts to commit all of the surfaces that are currently enqueued. If no flag is passed to Flush, it will block and clear out the entire queue, readying all surfaces in it for dequeue. If the DO\_NOT\_WAIT flag is used, the queue will check the surfaces to see if any of them are ready; this step is non-blocking. Surfaces that have finished the GPU-CPU sync will be ready for the consumer device. Surfaces that are still pending will be unaffected. The function returns the number of surfaces that still need to be flushed.
+Flush is meaningful only if the previous call to enqueue used the DO\_NOT\_WAIT flag; otherwise, it will be a no-op. If the call to enqueue used the DO\_NOT\_WAIT flag, enqueue returns immediately and the GPU-CPU synchronization is not guaranteed. The surface is still considered enqueued, the producing device cannot continue using it, but it is not available for dequeue. In order to try to commit the surface for dequeue, Flush must be called. Flush attempts to commit all of the surfaces that are currently enqueued. If no flag is passed to Flush, it will block and clear out the entire queue, readying all surfaces in it for dequeue. If the DO\_NOT\_WAIT flag is used, the queue will check the surfaces to see if any of them are ready; this step is non-blocking. Surfaces that have finished the GPU-CPU sync will be ready for the consumer device. Surfaces that are still pending will be unaffected. The function returns the number of surfaces that still need to be flushed.
 
 > [!Note]  
 > Flush will not break the queue semantics. The API guarantees that surfaces enqueued first will be committed before surfaces enqueued later, regardless of when the GPU-CPU sync happens.
@@ -608,7 +616,7 @@ HRESULT Flush(
  
 
   
-</dl> </dd> </dl>
+</dl>
 
 ### Direct3D 9Ex and DXGI Interop Helper: How To Use
 
@@ -618,7 +626,7 @@ We expect most of the usage cases to involve two devices sharing a number of sur
 
 The example application that uses this helper can use Direct3D 9Ex and Direct3D 11 together. The application can process content with both devices, and present content using Direct3D 9. Processing could mean rendering content, decoding video, running compute shaders, and so on. For every frame, the application will first process with Direct3D 11, then process with Direct3D 9, and finally present with Direct3D 9. Furthermore, the processing with Direct3D 11 will produce some metadata that the Direct3D 9 present will need to consume. This section covers the helper usage in three parts that correspond to this sequence: Initialization, Main Loop, and Cleanup.
 
-<dl> **Initialization**  
+**Initialization**  
 Initialization involves the following steps:  
 
 1.  Initialize both devices.
@@ -730,7 +738,7 @@ m_p11to9Queue->Release();
 
 The previous example makes sense for a multithreaded usage case in which each device has its own thread. The example uses the blocking versions of the APIs: INFINITE for timeout, and no flag to enqueue. If you want to use the helper in a non-blocking way, you need to make only a few changes. This section shows non-blocking use with both devices on one thread.
 
-<dl> **Initialization**  
+**Initialization**  
 Initialization is identical except for the flags. Because the application is single-threaded, use that flag for creation. This turns off some of the synchronization code, which potentially improves performance.  
 
 
@@ -822,7 +830,6 @@ while (!done)
 
 
 
-For the complete helper source and examples, refer to Direc3D9Ex and DXGI Interop Helper and Sample on MSDN Code Gallery <https://code.msdn.microsoft.com/D3D9ExDXGISharedSurf>.  
 A more complex solution could check the return value from enqueue and from flush to determine if flushing is necessary.  
 </dl>
 
@@ -877,7 +884,3 @@ You can create solutions that use interoperability to employ the power of multip
  
 
  
-
-
-
-

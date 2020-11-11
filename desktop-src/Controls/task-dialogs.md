@@ -10,11 +10,6 @@ ms.date: 05/31/2018
 
 This section contains information about the programming elements used with a task dialog. A *task dialog* is similar to, while much more flexible than, a basic message box.
 
-> [!Note]  
-> Applications written in managed code can access task dialogs by using a source code library provided by Microsoft. For more information, including downloading instructions, see the [Windows API Code Pack for Microsoft .NET Framework](https://code.msdn.microsoft.com/WindowsAPICodePack) on the MSDN Code Gallery.
-
- 
-
 ### Overviews
 
 
@@ -34,7 +29,7 @@ This section contains information about the programming elements used with a tas
 | Topic                                                  | Contents                                                                                                                                                                                                                                                                                                                                                                                              |
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**TaskDialog**](/windows/desktop/api/Commctrl/nf-commctrl-taskdialog)                       | Creates, displays, and operates a task dialog. The task dialog contains application-defined message text and title, icons, and any combination of predefined push buttons. This function does not support the registration of a callback function to receive notifications.<br/>                                                                                                                |
-| [*TaskDialogCallbackProc*](https://msdn.microsoft.com/library/Bb760542(v=VS.85).aspx) | An application-defined function used with the [**TaskDialogIndirect**](/windows/desktop/api/Commctrl/nf-commctrl-taskdialogindirect) function. It receives messages from the task dialog when various events occur.<br/> The **PFTASKDIALOGCALLBACK** type defines a pointer to this callback function. [*TaskDialogCallbackProc*](https://msdn.microsoft.com/library/Bb760542(v=VS.85).aspx) is a placeholder for the application defined function name.<br/> |
+| [*TaskDialogCallbackProc*](/windows/win32/api/commctrl/nc-commctrl-pftaskdialogcallback) | An application-defined function used with the [**TaskDialogIndirect**](/windows/desktop/api/Commctrl/nf-commctrl-taskdialogindirect) function. It receives messages from the task dialog when various events occur.<br/> The **PFTASKDIALOGCALLBACK** type defines a pointer to this callback function. [*TaskDialogCallbackProc*](/windows/win32/api/commctrl/nc-commctrl-pftaskdialogcallback) is a placeholder for the application defined function name.<br/> |
 | [**TaskDialogIndirect**](/windows/desktop/api/Commctrl/nf-commctrl-taskdialogindirect)       | Creates, displays, and operates a task dialog. The task dialog contains application-defined icons, messages, title, verification check box, command links, push buttons, and radio buttons. This function can register a callback function to receive notification messages.<br/>                                                                                                               |
 
 
@@ -103,10 +98,4 @@ This section contains information about the programming elements used with a tas
  
 
  
-
- 
-
-
-
-
 

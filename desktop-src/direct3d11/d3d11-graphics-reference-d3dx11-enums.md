@@ -17,7 +17,6 @@ This section contains information about D3DX 11 enumerations.
 
  
 
-## 
 
 ## In this section
 

@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_CONFIGURE command displays a dialog box for setting the operating options. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function with the following parameters.
 
 
 ```C++
@@ -86,10 +86,4 @@ Returns zero if successful or an error otherwise.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

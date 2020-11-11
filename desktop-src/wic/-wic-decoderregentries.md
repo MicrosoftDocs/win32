@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # Decoder-Specific Registry Entries
 
-## 
 
 In addition to the registry entries required for all encoders and decoders, the following registry entries are required specifically for decoders.
 

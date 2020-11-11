@@ -46,7 +46,7 @@ Pointer to the source [**D3DXVECTOR2**](d3dxvector2.md) structure.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The vector's squared length.
 
@@ -74,7 +74,3 @@ The vector's squared length.
  
 
  
-
-
-
-

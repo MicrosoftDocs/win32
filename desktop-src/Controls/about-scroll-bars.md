@@ -35,7 +35,7 @@ The following screen shot shows a rich edit control with vertical and horizontal
 
 ## Standard Scroll Bars and Scroll Bar Controls
 
-A scroll bar is included in a window either as a standard scroll bar or as a scroll bar control. A standard scroll bar is located in the nonclient area of a window. It is created with the window and displayed when the window is displayed. The sole purpose of a standard scroll bar is to enable the user to generate scrolling requests for viewing the entire content of the client area. You can include a standard scroll bar in a window by specifying [**WS\_HSCROLL**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles), [**WS\_VSCROLL**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles), or both styles when you create the window. The **WS\_HSCROLL** style creates a horizontal scroll bar positioned at the bottom of the client area. The **WS\_VSCROLL** style creates a vertical scroll bar positioned at the right of the client area. The SM\_CXHSCROLL and SM\_CYHSCROLL system metric values define the width and height of a standard horizontal scroll bar. The SM\_CXVSCROLL and SM\_CYVSCROLL values define the width and height of a standard vertical scroll bar. A standard scroll bar is part of its associated window and therefore does not have a window handle of its own.
+A scroll bar is included in a window either as a standard scroll bar or as a scroll bar control. A standard scroll bar is located in the nonclient area of a window. It is created with the window and displayed when the window is displayed. The sole purpose of a standard scroll bar is to enable the user to generate scrolling requests for viewing the entire content of the client area. You can include a standard scroll bar in a window by specifying [**WS\_HSCROLL**](/windows/desktop/winmsg/window-styles), [**WS\_VSCROLL**](/windows/desktop/winmsg/window-styles), or both styles when you create the window. The **WS\_HSCROLL** style creates a horizontal scroll bar positioned at the bottom of the client area. The **WS\_VSCROLL** style creates a vertical scroll bar positioned at the right of the client area. The SM\_CXHSCROLL and SM\_CYHSCROLL system metric values define the width and height of a standard horizontal scroll bar. The SM\_CXVSCROLL and SM\_CYVSCROLL values define the width and height of a standard vertical scroll bar. A standard scroll bar is part of its associated window and therefore does not have a window handle of its own.
 
 A scroll bar control is a control window that belongs to the SCROLLBAR window class. A scroll bar control appears and functions like a standard scroll bar, but it is a separate window. As a separate window, a scroll bar control takes direct input focus. Unlike a standard scroll bar, a scroll bar control also has a built-in keyboard interface.
 
@@ -45,7 +45,7 @@ The advantage of using a standard scroll bar is that the system creates the scro
 
 Applications can provide scroll bar controls for purposes other than scrolling the content of a window. For example, a screen saver application might provide a scroll bar for setting the speed at which graphics are moved about on the screen.
 
-A scroll bar control can have a number of styles that serves to control the orientation and position of the scroll bar. You specify the styles that you want when you call the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function to create a scroll bar control. Some of the styles create a scroll bar control that uses a default width or height. However, you must always specify the x- and y-coordinates and the other dimensions of the scroll bar.
+A scroll bar control can have a number of styles that serves to control the orientation and position of the scroll bar. You specify the styles that you want when you call the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function to create a scroll bar control. Some of the styles create a scroll bar control that uses a default width or height. However, you must always specify the x- and y-coordinates and the other dimensions of the scroll bar.
 
 For a table of scroll bar control styles, see [Scroll Bar Control Styles](scroll-bar-control-styles.md).
 
@@ -147,15 +147,15 @@ A scroll bar control provides a built-in keyboard interface that enables the use
 
  
 
-If you want a keyboard interface for a standard scroll bar, you can create one yourself by processing the [**WM\_KEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown) message in your window procedure and then performing the appropriate scrolling action based on the virtual-key code that accompanies the message. For information about how to create a keyboard interface for a scroll bar, see [Creating a Keyboard Interface for a Standard Scroll Bar](using-scroll-bars.md).
+If you want a keyboard interface for a standard scroll bar, you can create one yourself by processing the [**WM\_KEYDOWN**](/windows/desktop/inputdev/wm-keydown) message in your window procedure and then performing the appropriate scrolling action based on the virtual-key code that accompanies the message. For information about how to create a keyboard interface for a scroll bar, see [Creating a Keyboard Interface for a Standard Scroll Bar](using-scroll-bars.md).
 
 ## Scrolling the Client Area
 
 The simplest way to scroll the content of a client area is to erase and then redraw it. This is the method an application is likely to use with SB\_PAGEUP, SB\_PAGEDOWN, and SB\_TOP request codes, which typically require completely new content.
 
-For some request codes, such as SB\_LINEUP and SB\_LINEDOWN, not all the content need be erased, because some remains visible after scrolling occurs. The [**ScrollWindowEx**](/windows/desktop/api/Winuser/nf-winuser-scrollwindowex) function preserves a portion of the client area's content, moves the preserved portion a specified amount, and then prepares the rest of the client area for painting new information. **ScrollWindowEx** uses the [**BitBlt**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-bitblt) function to move a specific part of the data object to a new location within the client area. Any uncovered part of the client area (anything not preserved) is invalidated, erased, and painted when the next [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) message occurs.
+For some request codes, such as SB\_LINEUP and SB\_LINEDOWN, not all the content need be erased, because some remains visible after scrolling occurs. The [**ScrollWindowEx**](/windows/desktop/api/Winuser/nf-winuser-scrollwindowex) function preserves a portion of the client area's content, moves the preserved portion a specified amount, and then prepares the rest of the client area for painting new information. **ScrollWindowEx** uses the [**BitBlt**](/windows/desktop/api/wingdi/nf-wingdi-bitblt) function to move a specific part of the data object to a new location within the client area. Any uncovered part of the client area (anything not preserved) is invalidated, erased, and painted when the next [**WM\_PAINT**](/windows/desktop/gdi/wm-paint) message occurs.
 
-The [**ScrollWindowEx**](/windows/desktop/api/Winuser/nf-winuser-scrollwindowex) function can be used to exclude a portion of the client area from the scrolling operation. This keeps items with fixed positions, such as child windows, from moving within the client area. It automatically invalidates the portion of the client area that is to receive the new information, so the application does not have to compute its own clipping regions. For more information on clipping, see [Clipping](https://docs.microsoft.com/windows/desktop/gdi/clipping).
+The [**ScrollWindowEx**](/windows/desktop/api/Winuser/nf-winuser-scrollwindowex) function can be used to exclude a portion of the client area from the scrolling operation. This keeps items with fixed positions, such as child windows, from moving within the client area. It automatically invalidates the portion of the client area that is to receive the new information, so the application does not have to compute its own clipping regions. For more information on clipping, see [Clipping](/windows/desktop/gdi/clipping).
 
 Usually an application scrolls the content of a window in the direction opposite that indicated by the scroll bar. For example, when the user clicks the scroll bar shaft in the area below the scroll box, an application scrolls the object in the window upward to reveal a portion of the object that is below the visible portion.
 
@@ -163,9 +163,9 @@ You can also scroll a rectangular region using the [**ScrollDC**](/windows/deskt
 
 ## Scroll Bar Colors and Metrics
 
-The system-defined color value, COLOR\_SCROLLBAR, controls the color within a scroll bar shaft. Use the [**GetSysColor**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor) function to determine the color of the scroll bar shaft and the [**SetSysColors**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setsyscolors) function to set the color of the scroll bar shaft. Note, however, that this change of color affects all scroll bars in the system.
+The system-defined color value, COLOR\_SCROLLBAR, controls the color within a scroll bar shaft. Use the [**GetSysColor**](/windows/desktop/api/winuser/nf-winuser-getsyscolor) function to determine the color of the scroll bar shaft and the [**SetSysColors**](/windows/desktop/api/winuser/nf-winuser-setsyscolors) function to set the color of the scroll bar shaft. Note, however, that this change of color affects all scroll bars in the system.
 
-You can get the dimensions of the bitmaps that the system uses in standard scroll bars by calling the [**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function. Following are the system metric values associated with scroll bars.
+You can get the dimensions of the bitmaps that the system uses in standard scroll bars by calling the [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function. Following are the system metric values associated with scroll bars.
 
 
 
@@ -185,7 +185,3 @@ You can get the dimensions of the bitmaps that the system uses in standard scrol
  
 
  
-
-
-
-

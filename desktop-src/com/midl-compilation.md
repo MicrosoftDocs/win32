@@ -30,17 +30,11 @@ You use the header file and all of the .c files to [create a proxy DLL](building
 
 <dl> <dt>
 
-[Files Generated for a COM Interface](https://docs.microsoft.com/windows/desktop/Midl/files-generated-for-a-com-interface)
+[Files Generated for a COM Interface](/windows/desktop/Midl/files-generated-for-a-com-interface)
 </dt> <dt>
 
 [MIDL Compiler Options](midl-compiler-options.md)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -36,7 +36,7 @@ WMI scripting and Visual Basic applications must set DCOM security levels approp
 
 When connecting to a remote computer, you may need to change the service (NTLM or Kerberos) that handles authentication. For more information, see [Setting the Authentication Service Using VBScript](setting-the-authentication-service-using-vbscript.md).
 
-Access to some WMI classes or data may require a privilege that is not enabled. For example, you must include the Security privilege when connecting to the [**Win32\_NTEventlogFile**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa394225(v=vs.85)) class. For more information, see [Executing Privileged Operations Using VBScript](executing-privileged-operations-using-vbscript.md).
+Access to some WMI classes or data may require a privilege that is not enabled. For example, you must include the Security privilege when connecting to the [**Win32\_NTEventlogFile**](/previous-versions/windows/desktop/legacy/aa394225(v=vs.85)) class. For more information, see [Executing Privileged Operations Using VBScript](executing-privileged-operations-using-vbscript.md).
 
 If you are accessing WMI from an Active Server Page (ASP), then some IIS configuration is required. For more information, see [Configuring IIS 5.0 and Later for WMI ASP Scripting](configuring-iis-5-for-wmi-asp-scripting.md).
 
@@ -45,6 +45,3 @@ You may be trying to connect to a namespace which requires an encrypted connecti
  
 
  
-
-
-

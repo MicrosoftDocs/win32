@@ -19,7 +19,7 @@ api_location:
 # D3DX10PreprocessShaderFromResource function
 
 > [!Note]  
-> Instead of using this legacy function, we recommend that you use the [**D3DPreprocess**](https://msdn.microsoft.com/library/Dd607332(v=VS.85).aspx) API.
+> Instead of using this legacy function, we recommend that you use the [**D3DPreprocess**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dpreprocess) API.
 
  
 
@@ -50,7 +50,7 @@ HRESULT D3DX10PreprocessShaderFromResource(
 *hModule* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HMODULE**](../winprog/windows-data-types.md)**
 
 Handle to the resource module containing the shader. HMODULE can be obtained with [GetModuleHandle Function](/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlea).
 
@@ -59,7 +59,7 @@ Handle to the resource module containing the shader. HMODULE can be obtained wit
 *pResourceName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 The name of the resource in side hModule containing the shader. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR.
 
@@ -68,7 +68,7 @@ The name of the resource in side hModule containing the shader. If the compiler 
 *pSrcFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 Optional. Effect file name, which is used for error messages only. Can be **NULL**.
 
@@ -86,9 +86,9 @@ A NULL-terminated array of shader macros (see [**D3D\_SHADER\_MACRO**](/windows/
 *pInclude* \[in\]
 </dt> <dd>
 
-Type: **[**LPD3D10INCLUDE**](https://msdn.microsoft.com/library/Bb173775(v=VS.85).aspx)**
+Type: **[**LPD3D10INCLUDE**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))**
 
-A pointer to an include interface (see [**ID3D10Include Interface**](https://msdn.microsoft.com/library/Bb173775(v=VS.85).aspx)); set this to **NULL** to specify there is no include file.
+A pointer to an include interface (see [**ID3D10Include Interface**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))); set this to **NULL** to specify there is no include file.
 
 </dd> <dt>
 
@@ -146,7 +146,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

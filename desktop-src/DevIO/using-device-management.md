@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The following examples demonstrate device management:
 
 -   [Calling DeviceIoControl](calling-deviceiocontrol.md)
--   [Registering for Device Notification](registering-for-device-notification.md)
+-   [Registering for device notification](registering-for-device-notification.md)
 -   [Detecting Media Insertion or Removal](detecting-media-insertion-or-removal.md)
 -   [Processing a Request to Remove a Device](processing-a-request-to-remove-a-device.md)
 

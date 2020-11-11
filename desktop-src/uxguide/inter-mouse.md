@@ -3,10 +3,13 @@ title: Mouse and Pointers
 description: The mouse is the primary input device used to interact with objects in Windows.
 ms.assetid: 4d99287d-e908-4c8b-b4f6-6e8c91c6c93e
 ms.topic: article
-ms.date: 02/27/2020
+ms.date: 10/20/2020
 ---
 
 # Mouse and Pointers
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 The mouse is the primary input device used to interact with objects in Windows. Mouse functionality can also encompass other pointing devices, such as trackballs, touchpads and pointing sticks built into notebook computers, pens used with Windows Tablet and Touch Technology, and, on computers with touchscreens, even a user's finger.
 
@@ -127,7 +130,7 @@ Text and graphics links use a hand or "link select" pointer (a hand with the ind
 
 ### Custom pointers
 
-Windows supports the creation of custom pointers. For more details see, [Setting the Cursor Image](/windows/win32/learnwin32/setting-the-cursor-image) and [User Input: Extended Example](/windows/win32/learnwin32/user-input--extended-example).
+Windows supports the creation of custom pointers. For more details see, [Setting the Cursor Image](../learnwin32/setting-the-cursor-image.md) and [User Input: Extended Example](../learnwin32/user-input--extended-example.md).
 
 Many applications provide a palette of controls with custom pointers to support application functionality.
 
@@ -238,7 +241,7 @@ The following table summarizes the mouse button interactions that apply in most 
 - **Provide users a margin of error spatially.** Allow for some mouse movement (for example, three pixels) when users release a mouse button. Users sometimes move the mouse slightly as they release the mouse button, so the mouse position just before button release better reflects the user's intention than the position just after.
 - **Provide users a margin of error temporally.** Use the system double-click speed to distinguish between single and double clicks.
 - **Have clicks take effect on mouse button up.** Allow users to abandon mouse actions by removing the mouse from valid targets before releasing the mouse button. For most mouse interactions, pressing a mouse button only indicates the selected target and releasing the button activates the action. Auto-repeat functions (such as pressing a scroll arrow to continuously scroll) are an exception.
-- [Capture the mouse](https://msdn2.microsoft.com/library/ms646262.aspx) for selecting, moving, resizing, splitting, and dragging.
+- [Capture the mouse](/windows/win32/api/winuser/nf-winuser-setcapture) for selecting, moving, resizing, splitting, and dragging.
 - Use the Esc key to let users abandon compound mouse interactions such as moving, resizing, splitting, and dragging.
 - **If an object doesn't support double clicks but users are likely to assume it does, interpret a "double click" as one single click.** Assume the user intended a single action instead of two.
 
@@ -345,6 +348,6 @@ When referring to mouse pointers:
 - [Pen interaction guidelines](inter-pen.md)
 - [Text links](ctrl-links.md)
 - [Graphics links](ctrl-links.md)
-- [Capture the mouse](https://msdn2.microsoft.com/library/ms646262.aspx)
-- [Setting the Cursor Image](/windows/win32/learnwin32/setting-the-cursor-image)
-- [User Input: Extended Example](/windows/win32/learnwin32/user-input--extended-example)
+- [Capture the mouse](/windows/win32/api/winuser/nf-winuser-setcapture)
+- [Setting the Cursor Image](../learnwin32/setting-the-cursor-image.md)
+- [User Input: Extended Example](../learnwin32/user-input--extended-example.md)

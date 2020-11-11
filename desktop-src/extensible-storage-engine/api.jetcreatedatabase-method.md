@@ -73,14 +73,14 @@ public static void JetCreateDatabase(
 <!-- end list -->
 
   - database  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The path to the database file to create.
 
 <!-- end list -->
 
   - connect  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The parameter is not used.
 
@@ -107,4 +107,3 @@ public static void JetCreateDatabase(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

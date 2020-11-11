@@ -3,10 +3,13 @@ title: Fonts
 description: Users interact with text more than with any other element in Microsoft Windows. Segoe UI (pronounced \ 0034;SEE-go \ 0034;) is the Windows system font. The standard font size has been increased to 9 point.
 ms.assetid: 6d4f669d-d28c-4585-9bc3-ecda44de6df5
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Fonts
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 Users interact with text more than with any other element in Microsoft Windows. Segoe UI (pronounced "SEE-go") is the Windows system font. The standard font size has been increased to 9 point.
 
@@ -173,16 +176,10 @@ Text has several usage patterns:
 
 -   Most UI text should be plain without any attributes. Attributes may be used as follows:
     -   **Bold.** Use in control labels to make the text easier to parse. Use sparingly to draw attention to text users must read. Using too much bold lessens its impact.
-    -   **Italic.** Use to refer to text literally instead of quotation marks. Use sparingly to emphasize specific words. Use for [prompts](glossary.md) in [text boxes](ctrl-text-boxes.md) and [editable drop-down lists](https://docs.microsoft.com/windows/desktop/uxguide/ctrl-drop).
+    -   **Italic.** Use to refer to text literally instead of quotation marks. Use sparingly to emphasize specific words. Use for [prompts](glossary.md) in [text boxes](ctrl-text-boxes.md) and [editable drop-down lists](/windows/desktop/uxguide/ctrl-drop).
     -   **Bold italic.** Don't use.
     -   **Underline.** Don't use except for links. Use italic instead for emphasis.
 -   Not all fonts support bold and italic, so they should never be crucial to understanding the text.
 
  
-
- 
-
-
-
-
 

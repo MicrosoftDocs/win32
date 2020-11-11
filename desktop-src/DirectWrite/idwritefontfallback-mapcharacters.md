@@ -50,7 +50,7 @@ HRESULT MapCharacters(
 *source* 
 </dt> <dd>
 
-Type: **[**IDWriteTextAnalysisSource**](https://msdn.microsoft.com/library/Dd371318(v=VS.85).aspx)\***
+Type: **[**IDWriteTextAnalysisSource**](/windows/win32/api/dwrite/nn-dwrite-idwritetextanalysissource)\***
 
 The text source implementation holds the text and locale.
 
@@ -77,7 +77,7 @@ Length of the text to analyze.
 *baseFontCollection* \[in, optional\]
 </dt> <dd>
 
-Type: **[**IDWriteFontCollection**](https://msdn.microsoft.com/library/Dd368214(v=VS.85).aspx)\***
+Type: **[**IDWriteFontCollection**](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection)\***
 
 Default font collection to use.
 
@@ -131,7 +131,7 @@ Length of text mapped to the mapped font. This will always be less than or equal
 *mappedFont* \[out\]
 </dt> <dd>
 
-Type: **[**IDWriteFont**](https://msdn.microsoft.com/library/Dd368213(v=VS.85).aspx)\*\***
+Type: **[**IDWriteFont**](/windows/win32/api/dwrite/nn-dwrite-idwritefont)\*\***
 
 The font that should be used to render the first *mappedLength* characters of the text. If it returns NULL, that means that no font can render the text, and *mappedLength* is the number of characters to skip (rendered with a missing glyph).
 
@@ -170,14 +170,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IDWriteFontFallback**](https://msdn.microsoft.com/library/Dn280474(v=VS.85).aspx)
+[**IDWriteFontFallback**](/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefontfallback)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

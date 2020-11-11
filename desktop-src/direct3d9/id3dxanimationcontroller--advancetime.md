@@ -39,7 +39,7 @@ HRESULT AdvanceTime(
 *TimeDelta* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](../winprog/windows-data-types.md)**
 
 Amount, in seconds, by which to advance the global animation time. TimeDelta value must be non-negative or zero.
 
@@ -81,7 +81,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

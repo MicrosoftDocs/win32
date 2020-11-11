@@ -20,22 +20,22 @@ These logs may be located in the %systemroot%\\system32\\wbem\\logs directory.
 
 ## Wmiprov.log
 
-The Wmiprov.log file contains management data and events from WMI-enabled Windows Driver Model (WDM) drivers and the [WDM Provider](https://docs.microsoft.com/windows/desktop/WmiCoreProv/wdm-provider). It supplies warning and error information primarily for troubleshooting and debugging the provider and client applications that use it.
+The Wmiprov.log file contains management data and events from WMI-enabled Windows Driver Model (WDM) drivers and the [WDM Provider](/windows/desktop/WmiCoreProv/wdm-provider). It supplies warning and error information primarily for troubleshooting and debugging the provider and client applications that use it.
 
 The Wmiprov.log contains:
 
--   Errors from the [WDM provider](https://docs.microsoft.com/windows/desktop/WmiCoreProv/wdm-provider) or the device driver such as the binary MOF compile failing or failure to retrieve data.
+-   Errors from the [WDM Provider](/windows/desktop/WmiCoreProv/wdm-provider) or the device driver such as the binary MOF compile failing or failure to retrieve data.
 -   The status of the MOF compile for each of the drivers which use MOF format.
 -   Provider construction and deconstruction events.
 -   Printout of WNODE.
 
 ## Ntevt.log
 
-The Ntevt.log file contains trace messages from the [Event Log Provider](https://docs.microsoft.com/previous-versions/windows/desktop/eventlogprov/event-log-provider).
+The Ntevt.log file contains trace messages from the [Event Log Provider](/previous-versions/windows/desktop/eventlogprov/event-log-provider).
 
 ## Dsprovider.log
 
-The Dsprovider.log file contains trace information and error messages for the [Active Directory Provider](https://docs.microsoft.com/previous-versions/windows/desktop/dsprov/active-directory-provider).
+The Dsprovider.log file contains trace information and error messages for the [Active Directory Provider](/previous-versions/windows/desktop/dsprov/active-directory-provider).
 
 The following table lists some common problems that can occur and offers possible causes and solutions.
 
@@ -60,9 +60,4 @@ The following table lists some common problems that can occur and offers possibl
 </dt> </dl>
 
  
-
- 
-
-
-
 

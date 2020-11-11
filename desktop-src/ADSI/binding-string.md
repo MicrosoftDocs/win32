@@ -67,7 +67,7 @@ The following table lists ADsPath special characters.
 | Name                      | Character           | Description                                                                                                                                                                                           |
 |---------------------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Double quote<br/>   | "<br/>        | Used to quote any part of the ADsPath that may contain a special character so that the string is interpreted literally. For example, "CN=Name/Prefix".<br/>                                     |
-| Backslash<br/>      | \\<br/>       | Used to precede special characters to signify they should be used as literals. For more information and a list of special characters, see [Distinguished Names](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/distinguished-names).<br/> |
+| Backslash<br/>      | \\<br/>       | Used to precede special characters to signify they should be used as literals. For more information and a list of special characters, see [Distinguished Names](/previous-versions/windows/desktop/ldap/distinguished-names).<br/> |
 | Slash<br/>          | /<br/>        | Component separator.<br/>                                                                                                                                                                       |
 | Angle brackets<br/> | <><br/> | Delimit an ADsPath within another naming convention.<br/>                                                                                                                                       |
 
@@ -81,13 +81,7 @@ Some ADSI providers may have added syntax restrictions due to namespace requirem
 
 ## Active Directory Binding Options
 
-Active Directory provides the ability to bind to an object using several other types of binding strings, such as a COM globally unique identifier (GUID) or a security identifier (SID). For more information, see [Binding to Active Directory](https://docs.microsoft.com/windows/desktop/AD/binding-to-active-directory-domain-services).
+Active Directory provides the ability to bind to an object using several other types of binding strings, such as a COM globally unique identifier (GUID) or a security identifier (SID). For more information, see [Binding to Active Directory](/windows/desktop/AD/binding-to-active-directory-domain-services).
 
  
-
- 
-
-
-
-
 

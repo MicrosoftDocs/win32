@@ -42,7 +42,7 @@ typedef struct D3DVIEWPORT9 {
 **X**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -53,7 +53,7 @@ Pixel coordinate of the upper-left corner of the viewport on the render-target s
 **Y**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -64,7 +64,7 @@ Pixel coordinate of the upper-left corner of the viewport on the render-target s
 **Width**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -75,7 +75,7 @@ Width dimension of the clip volume, in pixels. Unless you are rendering only to 
 **Height**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -109,7 +109,7 @@ Together with MinZ, value describing the range of depth values into which a scen
 
 The X, Y, Width, and Height members describe the position and dimensions of the viewport on the render-target surface. Usually, applications render to the entire target surface; when rendering on a 640 x 480 surface, these members should be 0, 0, 640, and 480, respectively. The MinZ and MaxZ are typically set to 0.0 and 1.0 but can be set to other values to achieve specific effects. For example, you might set them both to 0.0 to force the system to render objects to the foreground of a scene, or both to 1.0 to force the objects into the background.
 
-When the viewport parameters for a device change (because of a call to the [**SetViewport**](https://msdn.microsoft.com/library/Bb174469(v=VS.85).aspx) method), the driver builds a new transformation matrix.
+When the viewport parameters for a device change (because of a call to the [**SetViewport**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setviewport) method), the driver builds a new transformation matrix.
 
 ## Requirements
 
@@ -128,16 +128,12 @@ When the viewport parameters for a device change (because of a call to the [**Se
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetViewport**](https://msdn.microsoft.com/library/Bb174420(v=VS.85).aspx)
+[**GetViewport**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getviewport)
 </dt> <dt>
 
-[**SetViewport**](https://msdn.microsoft.com/library/Bb174469(v=VS.85).aspx)
+[**SetViewport**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setviewport)
 </dt> </dl>
 
  
 
  
-
-
-
-

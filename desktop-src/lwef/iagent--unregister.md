@@ -16,7 +16,7 @@ HRESULT Unregister(
 );
 ```
 
-Unloads the character data for the specified character from the [**Characters**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) collection.
+Unloads the character data for the specified character from the [**Characters**](/windows/desktop/lwef/the-characters-object) collection.
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -39,7 +39,3 @@ Use this method when you no longer need Microsoft Agent services, such as when y
  
 
  
-
-
-
-

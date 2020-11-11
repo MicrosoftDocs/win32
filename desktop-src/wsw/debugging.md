@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 A set of functions is only available in the DEBUG build, and are intended for testing and debugging.
 
-## 
 
 There are a number of functions and environment variables available in the DEBUG mode only. They can be used to help with testing and debugging.
 

@@ -43,7 +43,7 @@ Size, in bytes, of the structure referenced by**s**.
 <span id="psAudioFormat"></span><span id="psaudioformat"></span><span id="PSAUDIOFORMAT"></span>*psAudioFormat*
 </dt> <dd>
 
-Pointer to a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd757713(v=VS.85).aspx) structure, or **NULL**. If the value is **NULL**, the size, in bytes, required to hold the structure is returned.
+Pointer to a [**WAVEFORMATEX**](/windows/win32/api/mmeapi/ns-mmeapi-waveformatex) structure, or **NULL**. If the value is **NULL**, the size, in bytes, required to hold the structure is returned.
 
 </dd> </dl>
 
@@ -78,10 +78,4 @@ Because compressed audio formats vary in size requirements applications must fir
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

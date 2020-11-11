@@ -77,7 +77,7 @@ Return values include the following.
 
 ## Remarks
 
-This function has no associated .lib file. You must use [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) to use it.
+This function has no associated .lib file. You must use [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) to use it.
 
 ## Requirements
 
@@ -96,13 +96,9 @@ This function has no associated .lib file. You must use [**LoadLibrary**](https:
 
 <dl> <dt>
 
-[**ShowShareFolderUI**](https://msdn.microsoft.com/library/Bb762235(v=VS.85).aspx)
+[**ShowShareFolderUI**](./showsharefolderui.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

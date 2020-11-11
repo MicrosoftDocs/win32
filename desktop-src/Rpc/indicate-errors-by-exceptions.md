@@ -24,7 +24,7 @@ long sample(...)
 }
 ```
 
-The problem with this approach is that RPC return values are simply long integers. They have no special meaning as errors (note that [**error\_status\_t**](https://docs.microsoft.com/windows/desktop/Midl/error-status-t) has no special semantics on the server side), which carries important implications.
+The problem with this approach is that RPC return values are simply long integers. They have no special meaning as errors (note that [**error\_status\_t**](/windows/desktop/Midl/error-status-t) has no special semantics on the server side), which carries important implications.
 
 First, RPC is not alerted that the operation failed; it attempts to unmarshal all \[in, out\] and \[out\] arguments. The failure semantics of context handles are also different. The packet returned to the client is essentially a success packet, with the error code buried deep in the packet. This also means RPC does not use extended error information, so client software often is unable to discern where the call failed.
 
@@ -40,7 +40,3 @@ Indicating errors in RPC server routines by throwing Structured Exception Handli
  
 
  
-
-
-
-

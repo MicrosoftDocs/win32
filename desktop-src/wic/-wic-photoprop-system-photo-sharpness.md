@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.Sharpness Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.Sharpness](https://msdn.microsoft.com/library/bb787263(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.Sharpness](../properties/props-system-photo-sharpness.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.Sharpness](https://msdn.microsoft.com/library/bb787263(VS.85).aspx)
+[System.Photo.Sharpness](../properties/props-system-photo-sharpness.md)
 </dt> </dl>
 
  
 
  
-
-
-

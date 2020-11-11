@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_MemoryDeviceLocation class
 
-The **Win32\_MemoryDeviceLocation** association [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) relates a memory device and the physical memory on which it exists.
+The **Win32\_MemoryDeviceLocation** association [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) relates a memory device and the physical memory on which it exists.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_PhysicalMemory**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_PhysicalMemory")
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_PhysicalMemory")
 </dt> </dl>
 
 A [**Win32\_PhysicalMemory**](win32-physicalmemory.md) that represents the physical memory containing the memory device.
@@ -72,7 +72,7 @@ Data type: **Win32\_MemoryDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_MemoryDevice")
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_MemoryDevice")
 </dt> </dl>
 
 A **Win32\_MemoryDeviceLocation** that represents the memory device existing in the physical memory.
@@ -108,9 +108,4 @@ The **Win32\_MemoryDeviceLocation** class is derived from [**CIM\_Realizes**](ci
 </dt> </dl>
 
  
-
- 
-
-
-
 

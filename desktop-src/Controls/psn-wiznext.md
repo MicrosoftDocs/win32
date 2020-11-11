@@ -46,7 +46,7 @@ Return 0 to allow the wizard to go to the next page. Return -1 to prevent the wi
 
 ## Remarks
 
-To set the return value, the dialog box procedure for the page must call the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function with the **DWL\_MSGRESULT** value and return **TRUE**. For example:
+To set the return value, the dialog box procedure for the page must call the [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function with the **DWL\_MSGRESULT** value and return **TRUE**. For example:
 
 ``` syntax
 case PSN_WIZNEXT :
@@ -102,10 +102,4 @@ Note that this technique is necessary only if your wizard removes pages dynamica
 
 
  
-
- 
-
-
-
-
 

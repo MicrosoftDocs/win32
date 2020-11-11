@@ -20,9 +20,9 @@ Error
 
 ## Description
 
-This error applies to all elements that have the [**role**](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference) attribute. It indicates that the **role** attribute is not a valid Web Accessibility Initiative - Accessible Rich Internet Applications (WAI-ARIA) role value as defined by the WAI-ARIA specification. Setting a valid role helps ensure that the element is correctly interpreted by screen readers and other assistive technology tools.
+This error applies to all elements that have the [**role**](https://developer.mozilla.org/docs/Web/HTML/Reference) attribute. It indicates that the **role** attribute is not a valid Web Accessibility Initiative - Accessible Rich Internet Applications (WAI-ARIA) role value as defined by the WAI-ARIA specification. Setting a valid role helps ensure that the element is correctly interpreted by screen readers and other assistive technology tools.
 
-To fix this error, set the [**role**](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference) attribute to a valid WAI-ARIA role value. Note that abstract WAI-ARIA roles are not valid.
+To fix this error, set the [**role**](https://developer.mozilla.org/docs/Web/HTML/Reference) attribute to a valid WAI-ARIA role value. Note that abstract WAI-ARIA roles are not valid.
 
 ## Example
 

@@ -53,7 +53,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
+Qualifiers: [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
 </dt> </dl>
 
 The parent element in the association.
@@ -69,7 +69,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 The child element in the association.
@@ -98,9 +98,4 @@ The child element in the association.
 </dt> </dl>
 
  
-
- 
-
-
-
 

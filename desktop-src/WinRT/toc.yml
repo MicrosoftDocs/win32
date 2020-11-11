@@ -127,7 +127,7 @@
     - name: "RoFailFastWithErrorContext"
       href: /windows/win32/api/roerrorapi/nf-roerrorapi-rofailfastwitherrorcontext
     - name: "RoFailFastWithErrorContextInternal2"
-      href: /windows/win32/winrt/roerrorapi/nf-roerrorapi-rofailfastwitherrorcontextinternal2
+      href: ./roerrorapi/nf-roerrorapi-rofailfastwitherrorcontextinternal2.md
     - name: "RoFreeParameterizedTypeExtra"
       href: /windows/win32/api/roparameterizediid/nf-roparameterizediid-rofreeparameterizedtypeextra
     - name: "RoGetActivatableClassRegistration"
@@ -1383,7 +1383,7 @@
       href: /windows/win32/api/roparameterizediid/ns-roparameterizediid-irometadatalocator
       items: 
       - name: "Locate method"
-        href: https://docs.microsoft.com/en-us/previous-versions//hh438405(v=vs.85)?redirectedfrom=MSDN
+        href: /previous-versions//hh438405(v=vs.85)
     - name: "Point"
       href: /windows/win32/api/windows.foundation/ns-windows-foundation-point
     - name: "PDF_RENDER_PARAMS"

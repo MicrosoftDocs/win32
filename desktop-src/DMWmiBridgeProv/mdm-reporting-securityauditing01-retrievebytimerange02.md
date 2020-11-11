@@ -68,14 +68,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "RetrieveByTimeRange".
 
 </dd> <dt>
 
-[Logs](https://docs.microsoft.com/windows/client-management/mdm/reporting-csp#logs)
+[Logs](/windows/client-management/mdm/reporting-csp#logs)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -95,14 +95,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/SecurityAuditing"
 
 </dd> <dt>
 
-[StartTime](https://docs.microsoft.com/windows/client-management/mdm/reporting-csp#starttime)
+[StartTime](/windows/client-management/mdm/reporting-csp#starttime)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -113,7 +113,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[StopTime](https://docs.microsoft.com/windows/client-management/mdm/reporting-csp#stoptime)
+[StopTime](/windows/client-management/mdm/reporting-csp#stoptime)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -139,10 +139,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

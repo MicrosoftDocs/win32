@@ -63,12 +63,12 @@ public int CompareTo(
 
 #### Return value
 
-Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+Type: [System.Int32](/dotnet/api/system.int32)  
 A signed number indicating the relative positions of this instance and the value parameter.  
 
 #### Implements
 
-[IComparable\<T\>.CompareTo(T)](https://docs.microsoft.com/dotnet/api/system.icomparable-1.compareto?redirectedfrom=MSDN#System_IComparable_1_CompareTo__0_)  
+[IComparable\<T\>.CompareTo(T)](/dotnet/api/system.icomparable-1.compareto#System_IComparable_1_CompareTo__0_)  
 
 ## See also
 
@@ -79,4 +79,3 @@ A signed number indicating the relative positions of this instance and the value
 [JET_COLUMNID members](hh558343\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

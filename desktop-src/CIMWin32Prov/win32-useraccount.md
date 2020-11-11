@@ -34,7 +34,7 @@ api_location:
 
 # Win32\_UserAccount class
 
-The **Win32\_UserAccount** [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) contains information about a user account on a computer system running Windows.
+The **Win32\_UserAccount** [WMI class](../wmisdk/retrieving-a-class.md) contains information about a user account on a computer system running Windows.
 
 > [!Note]  
 > Because both the **Name** and **Domain** are key properties, enumerating **Win32\_UserAccount** on a large network can negatively affect performance. Calling **GetObject** or querying for a specific instance has less impact.
@@ -104,7 +104,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](https://msdn.microsoft.com/library/Aa371337(v=VS.85).aspx)\|usri2\_flags")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](/windows/win32/api/lmaccess/ns-lmaccess-user_info_2)\|usri2\_flags")
 </dt> </dl>
 
 Flags that describe the characteristics of a Windows user account.
@@ -187,7 +187,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Caption")
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (64), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Caption")
 </dt> </dl>
 
 Domain and username of the account.
@@ -205,7 +205,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Description")
+Qualifiers: [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Description")
 </dt> </dl>
 
 Description of the account.
@@ -223,7 +223,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|USER\_INFO\|UF\_ACCOUNTDISABLE")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|USER\_INFO\|UF\_ACCOUNTDISABLE")
 </dt> </dl>
 
 Windows user account is disabled.
@@ -239,7 +239,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Domain"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Functions\|domainname")
+Qualifiers: [**Override**](../wmisdk/standard-qualifiers.md) ("Domain"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Functions\|domainname")
 </dt> </dl>
 
 Name of the Windows domain to which a user account belongs, for example: "NA-SALES".
@@ -255,7 +255,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](https://msdn.microsoft.com/library/Aa371337(v=VS.85).aspx)\|**usri2\_full\_name**")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](/windows/win32/api/lmaccess/ns-lmaccess-user_info_2)\|**usri2\_full\_name**")
 </dt> </dl>
 
 Full name of a local user, for example: "Dan Wilson".
@@ -271,7 +271,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Install Date")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Install Date")
 </dt> </dl>
 
 Date the object is installed. This property does not need a value to indicate that the object is installed.
@@ -289,7 +289,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Fixed**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx)
+Qualifiers: [**Fixed**](../wmisdk/standard-wmi-qualifiers.md)
 </dt> </dl>
 
 If **true**, the account is defined on the local computer.
@@ -307,7 +307,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](https://msdn.microsoft.com/library/Aa371337(v=VS.85).aspx)\|**UF\_LOCKOUT**")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](/windows/win32/api/lmaccess/ns-lmaccess-user_info_2)\|**UF\_LOCKOUT**")
 </dt> </dl>
 
 If **true**, the user account is locked out of the Windows operating system.
@@ -323,7 +323,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Name"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|name")
+Qualifiers: [**Override**](../wmisdk/standard-qualifiers.md) ("Name"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|name")
 </dt> </dl>
 
 Name of the Windows user account on the domain that the **Domain** property of this class specifies.
@@ -343,7 +343,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](https://msdn.microsoft.com/library/Aa371337(v=VS.85).aspx)\|**UF\_PASSWD\_CANT\_CHANGE**")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](/windows/win32/api/lmaccess/ns-lmaccess-user_info_2)\|**UF\_PASSWD\_CANT\_CHANGE**")
 </dt> </dl>
 
 If **true**, the password on this user account can be changed.
@@ -359,7 +359,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](https://msdn.microsoft.com/library/Aa371337(v=VS.85).aspx)\|**UF\_DONT\_EXPIRE\_PASSWD**")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](/windows/win32/api/lmaccess/ns-lmaccess-user_info_2)\|**UF\_DONT\_EXPIRE\_PASSWD**")
 </dt> </dl>
 
 If **true**, the password on this user account expires.
@@ -375,7 +375,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](https://msdn.microsoft.com/library/Aa371337(v=VS.85).aspx)\|**UF\_PASSWD\_NOTREQD**")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](/windows/win32/api/lmaccess/ns-lmaccess-user_info_2)\|**UF\_PASSWD\_NOTREQD**")
 </dt> </dl>
 
 If **true**, a password is required on a Windows user account. If **false**, this account does not require a password.
@@ -391,7 +391,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Fixed**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Security Identifiers (SIDs)")
+Qualifiers: [**Fixed**](../wmisdk/standard-wmi-qualifiers.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Security Identifiers (SIDs)")
 </dt> </dl>
 
 Security identifier (SID) for this account. A SID is a string value of variable length that is used to identify a trustee. Each account has a unique SID that an authority, such as a Windows domain, issues. The SID is stored in the security database. When a user logs on, the system retrieves the user SID from the database, places the SID in the user access token, and then uses the SID in the user access token to identify the user in all subsequent interactions with Windows security. Each SID is a unique identifier for a user or group, and a different user or group cannot have the same SID.
@@ -409,7 +409,7 @@ Data type: **uint8**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Fixed**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Access Control Enumeration Types\|[**SID\_NAME\_USE**](https://msdn.microsoft.com/library/Aa379601(v=VS.85).aspx)")
+Qualifiers: [**Fixed**](../wmisdk/standard-wmi-qualifiers.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Access Control Enumeration Types\|[**SID\_NAME\_USE**](/windows/win32/api/winnt/ne-winnt-sid_name_use)")
 </dt> </dl>
 
 Enumerated value that specifies the type of SID.
@@ -492,7 +492,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Status")
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (10), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Status")
 </dt> </dl>
 
 Current status of an object. Various operational and nonoperational statuses can be defined. Operational statuses include: "OK", "Degraded", and "Pred Fail", which is an element such as a SMART-enabled hard disk drive that may be functioning properly, but predicts a failure in the near future. Nonoperational statuses include: "Error", "Starting", "Stopping", and "Service", which can apply during mirror resilvering of a disk, reloading a user permissions list, or other administrative work.
@@ -664,13 +664,9 @@ using System.Management;
 [**Win32\_Account**](win32-account.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](./operating-system-classes.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

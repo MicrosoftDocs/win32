@@ -61,7 +61,7 @@ Data type: **CIM\_MultiStateSensor**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
+Qualifiers: [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
 </dt> </dl>
 
 A [**CIM\_MultiStateSensor**](cim-multistatesensor.md) that describes the multi-state sensor.
@@ -77,7 +77,7 @@ Data type: **CIM\_BinarySensor**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (2), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
+Qualifiers: [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (2), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 A [**CIM\_BinarySensor**](cim-binarysensor.md) that describes a binary sensor that is part of the multi-state sensor.
@@ -112,9 +112,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -16,7 +16,7 @@ ms.topic: reference
 
 # ID2D1Factory::CreateRoundedRectangleGeometry methods
 
-Creates an [**ID2D1RoundedRectangleGeometry**](https://msdn.microsoft.com/library/Dd371292(v=VS.85).aspx).
+Creates an [**ID2D1RoundedRectangleGeometry**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85)).
 
 ### Overload list
 
@@ -24,8 +24,8 @@ Creates an [**ID2D1RoundedRectangleGeometry**](https://msdn.microsoft.com/librar
 
 | Method                                                                                                                                                                                                     | Description                                                                                    |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
-| [**CreateRoundedRectangleGeometry(D2D1\_ROUNDED\_RECT&,ID2D1RoundedRectangleGeometry\*\*)**](id2d1factory-createroundedrectanglegeometry-ref-d2d1-rounded-rect-ptr-ptr-https://msdn.microsoft.com/library/Dd371292(v=VS.85).aspx)  | Creates an [**ID2D1RoundedRectangleGeometry**](https://msdn.microsoft.com/library/Dd371292(v=VS.85).aspx). <br/> |
-| [**CreateRoundedRectangleGeometry(D2D1\_ROUNDED\_RECT\*,ID2D1RoundedRectangleGeometry\*\*)**](id2d1factory-createroundedrectanglegeometry-ptr-d2d1-rounded-rect-ptr-ptr-https://msdn.microsoft.com/library/Dd371292(v=VS.85).aspx) | Creates an [**ID2D1RoundedRectangleGeometry**](https://msdn.microsoft.com/library/Dd371292(v=VS.85).aspx). <br/> |
+| [**CreateRoundedRectangleGeometry(D2D1\_ROUNDED\_RECT&,ID2D1RoundedRectangleGeometry\*\*)**](id2d1factory-createroundedrectanglegeometry-ref-d2d1-rounded-rect-ptr-ptr-https://msdn.microsoft.com/library/Dd371292(v=VS.85).aspx)  | Creates an [**ID2D1RoundedRectangleGeometry**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85)). <br/> |
+| [**CreateRoundedRectangleGeometry(D2D1\_ROUNDED\_RECT\*,ID2D1RoundedRectangleGeometry\*\*)**](id2d1factory-createroundedrectanglegeometry-ptr-d2d1-rounded-rect-ptr-ptr-https://msdn.microsoft.com/library/Dd371292(v=VS.85).aspx) | Creates an [**ID2D1RoundedRectangleGeometry**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85)). <br/> |
 
 
 
@@ -45,14 +45,9 @@ Creates an [**ID2D1RoundedRectangleGeometry**](https://msdn.microsoft.com/librar
 
 <dl> <dt>
 
-[**ID2D1Factory**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx)
+[**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

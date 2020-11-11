@@ -63,7 +63,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64)
+Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64)
 </dt> </dl>
 
 Short textual description for the statistic or metric.
@@ -92,7 +92,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (256)
+Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (256)
 </dt> </dl>
 
 Label by which the statistic or metric is known. When subclassed, this property can be overridden to be a key property.
@@ -120,9 +120,4 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
  
-
- 
-
-
-
 

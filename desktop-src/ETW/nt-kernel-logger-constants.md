@@ -25,7 +25,7 @@ The NT Kernel Logger session is the only session that can accept events from ker
 
 ETW uses the DEFINE\_GUID macro to define GUIDs. To use **SystemTraceControlGuid** in your code, you must include \#define INITGUID before including Evntrace.h. The compiler will then turn the DEFINE\_GUID into a constant GUID.
 
-The following values define the possible class GUIDs for kernel events that an NT Kernel Logger session can trace. You can pass the class GUIDs to the [**SetTraceCallback**](settracecallback.md) function to set up special processing for each event class.
+The following values define the possible class GUIDs for kernel events that an NT Kernel Logger session can trace. You can pass the class GUIDs to the [**SetTraceCallback**](/windows/win32/api/evntrace/nf-evntrace-settracecallback) function to set up special processing for each event class.
 
 
 
@@ -212,6 +212,3 @@ static const GUID ThreadGuid =
  
 
  
-
-
-

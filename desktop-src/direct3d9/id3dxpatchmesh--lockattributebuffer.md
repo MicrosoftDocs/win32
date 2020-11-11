@@ -39,7 +39,7 @@ HRESULT LockAttributeBuffer(
 *flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Combination of zero or more locking flags that describe the type of lock to perform. For this method, the valid flags are:
 
@@ -55,7 +55,7 @@ For a description of the flags, see [D3DLOCK](d3dlock.md).
 *ppData* \[out, retval\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\*\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\*\***
 
 Address of a pointer to a buffer containing a DWORD for each face in the mesh.
 
@@ -92,7 +92,3 @@ The attribute buffer is usually locked, written to, and then unlocked for readin
  
 
  
-
-
-
-

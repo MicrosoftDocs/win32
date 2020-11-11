@@ -47,7 +47,7 @@ Although elements can be retrieved directly by using methods, such as [**IUIAuto
 
 ## Conditions
 
-For most techniques you use to retrieve UI Automation elements, you must specify a condition. A condition is a set of criteria that defines the elements that you want to retrieve. A condition is represented by the [**IUIAutomationCondition**](https://msdn.microsoft.com/library/Ee671420(v=VS.85).aspx) interface.
+For most techniques you use to retrieve UI Automation elements, you must specify a condition. A condition is a set of criteria that defines the elements that you want to retrieve. A condition is represented by the [**IUIAutomationCondition**](/windows/win32/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition) interface.
 
 The simplest condition is the true condition, which is a predefined object that specifies that all elements in the search scope are to be returned. The false condition is the inverse of the true condition and is less useful, because it would prevent any elements from being found. You can obtain an interface to the true condition by using [**IUIAutomation::CreateTrueCondition**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomation-createtruecondition).
 
@@ -143,7 +143,3 @@ To retrieve an [**IUIAutomationElement**](/windows/desktop/api/UIAutomationClien
  
 
  
-
-
-
-

@@ -12,7 +12,6 @@ ms.date: 05/31/2018
 
 Structures are used to create and use shaders.
 
-## 
 
 ## In this section
 

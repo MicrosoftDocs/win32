@@ -93,7 +93,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Caption")
+Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Caption")
 </dt> </dl>
 
 A short textual description of the object.
@@ -111,7 +111,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**CIM\_Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Class Name")
+Qualifiers: [**CIM\_Key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Class Name")
 </dt> </dl>
 
 Name of the class or subclass used in the creation of an instance. When used with other key properties of the class, this property allows all instances of the class and its subclasses to be uniquely identified.
@@ -129,7 +129,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Description")
+Qualifiers: [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Description")
 </dt> </dl>
 
 A textual description of the object.
@@ -147,7 +147,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Install Date")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Install Date")
 </dt> </dl>
 
 Indicates when the object was installed. Lack of a value does not indicate that the object is not installed.
@@ -165,7 +165,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The Name property uniquely identifies the service and provides an indication of the functionality that is managed. This functionality is described in more detail in the object's **Description** property.
@@ -183,7 +183,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Started")
+Qualifiers: [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Started")
 </dt> </dl>
 
 If **TRUE**, the service has started.
@@ -201,7 +201,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Start Mode")
+Qualifiers: [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Start Mode")
 </dt> </dl>
 
 Indicates whether the service is automatically started (for example, by an operating system) or only started upon request.
@@ -235,7 +235,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (10), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Status")
+Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (10), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Status")
 </dt> </dl>
 
 String that indicates the current status of the object. Operational and non-operational status can be defined. Operational status can include "OK", "Degraded", and "Pred Fail". "Pred Fail" indicates that an element is functioning properly, but is predicting a failure (for example, a SMART-enabled hard disk drive).
@@ -343,7 +343,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_System**](cim-system.md).**CreationClassName**"), [**CIM\_Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("System Class Name")
+Qualifiers: [**Propagated**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_System**](cim-system.md).**CreationClassName**"), [**CIM\_Key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("System Class Name")
 </dt> </dl>
 
 Scoping system's creation class name.
@@ -361,7 +361,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_System**](cim-system.md).**Name**"), [**CIM\_Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("System Name")
+Qualifiers: [**Propagated**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_System**](cim-system.md).**Name**"), [**CIM\_Key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("System Name")
 </dt> </dl>
 
 Name of the system that hosts the service.
@@ -400,9 +400,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

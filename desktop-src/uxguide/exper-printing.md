@@ -3,10 +3,13 @@ title: Printing (Design basics)
 description: Printing is the user experience on paper. It's easy to overlook, but it is an important part of the overall user experience.
 ms.assetid: 26f5a8dc-27b2-4c2d-a05a-f942784c3cf9
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Printing
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 Printing is the user experience on paper. It's easy to overlook, but it is an important part of the overall user experience.
 
@@ -304,13 +307,13 @@ Handling large objects, such as spreadsheets, graphics, and photos, is a problem
 
 In this example, Fabrikam incorrectly uses a separate dialog for additional print options.
 
-**Developers:** For information about how to extend the Print common dialog, see [PRINTDLGEX Structure](https://msdn2.microsoft.com/library/ms646844.aspx).
+**Developers:** For information about how to extend the Print common dialog, see [PRINTDLGEX Structure](/windows/win32/api/commdlg/ns-commdlg-printdlgexa).
 
 -   **When extending the Print options common dialog, don't duplicate any features already provided.**
 -   **If users are likely to maintain settings from one print job to the next, make those settings the defaults.** For the first print job after program launch, use the standard default values, including the default printer. For subsequent print jobs in the program [instance](glossary.md), preserve the last selected printer and paper size. Don't preserve the number of copies or page ranges, because these are far less likely to be reselected later.
 -   **Optimize the settings by removing options that currently don't apply.** Remove options that are inconsistent with the capabilities of the selected printer or characteristics of the current document. For example, a photo printing application could limit the combinations of paper size, paper type, and print quality that give the best results, so choosing a glossy paper option might remove envelopes from the paper formats. If for any reason users want to see all the options, you can provide this ability through a control such as a check box.
 
-**Developers:** To learn how to determine the capabilities of the selected printer, see [Print Schema](https://msdn2.microsoft.com/library/ms716462.aspx).
+**Developers:** To learn how to determine the capabilities of the selected printer, see [Print Schema](../printdocs/print-schema.md).
 
 -   **For advanced document creation programs, save the document-related print options within the document itself.** For these programs, the print options are an integral part of the document.
 -   **For other types of programs, save settings on a per-user basis.**
@@ -364,10 +367,4 @@ The Print Preview mode in Word has an obvious close preview command.
 -   Use print queue, not printer queue.
 
  
-
- 
-
-
-
-
 

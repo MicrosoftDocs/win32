@@ -53,7 +53,7 @@ HRESULT D3DXSHPRTCompSplitMeshSC(
 *pClusterIDs* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 *NumVertices* cluster IDs (extracted from a compressed buffer.)
 
@@ -62,7 +62,7 @@ Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\**
 *NumVertices* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of vertices in original mesh.
 
@@ -71,7 +71,7 @@ Number of vertices in original mesh.
 *NumCs* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of clusters (input parameter to compression.)
 
@@ -80,7 +80,7 @@ Number of clusters (input parameter to compression.)
 *pSClusterIDs* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Array of size *NumCs* that will contain super cluster IDs.
 
@@ -89,7 +89,7 @@ Array of size *NumCs* that will contain super cluster IDs.
 *NumSCs* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of super clusters allocated in [**D3DXSHPRTCompSuperCluster**](d3dxshprtcompsupercluster.md).
 
@@ -98,7 +98,7 @@ Number of super clusters allocated in [**D3DXSHPRTCompSuperCluster**](d3dxshprtc
 *pInputIB* \[in\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](../winprog/windows-data-types.md)**
 
 Raw index buffer for mesh. The format depends on *InputIBIs32Bit*.
 
@@ -107,7 +107,7 @@ Raw index buffer for mesh. The format depends on *InputIBIs32Bit*.
 *InputIBIs32Bit* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 If **TRUE**, the index buffer is set to 32 bit; otherwise, 16 bit.
 
@@ -116,7 +116,7 @@ If **TRUE**, the index buffer is set to 32 bit; otherwise, 16 bit.
 *NumFaces* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of faces in the original mesh (*pInputIB* is 3 times this length.)
 
@@ -134,7 +134,7 @@ Raw index buffer that will contain the resulting split faces. Format determined 
 *pIBDataLength* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Length of *ppIBData*, assigned in function.
 
@@ -143,7 +143,7 @@ Length of *ppIBData*, assigned in function.
 *OutputIBIs32Bit* \[in, out\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 If **TRUE**, allocates an unsigned integer array; otherwise, allocates an unsigned short array.
 
@@ -170,7 +170,7 @@ New vertex data structure. Size of *pVertDataLength*.
 *pVertDataLength* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Number of new vertices in split mesh. Assigned in function.
 
@@ -179,7 +179,7 @@ Number of new vertices in split mesh. Assigned in function.
 *pSCClusterList* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Array of length *NumCs* which *pSCData* indexes into (*pClusterIDs*\* fields) for each supercluster, contains clusters sorted by supercluster.
 
@@ -221,7 +221,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

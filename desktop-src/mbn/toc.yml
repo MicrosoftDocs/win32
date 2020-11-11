@@ -62,7 +62,7 @@
       - name: "MBN_SIGNAL_CONSTANTS"
         href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_signal_constants
       - name: "MBN_SMS_CAPS"
-        href: https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_caps
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_caps
       - name: "MBN_SMS_CDMA_ENCODING"
         href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_cdma_encoding
       - name: "MBN_SMS_CDMA_LANG"
@@ -182,15 +182,15 @@
         - name: "QueryCommand method"
           href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-querycommand
         - name: "OpenDataSession method"
-          href: https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-opendatasession
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-opendatasession
         - name: "CloseDataSession method"
           href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-closedatasession
         - name: "WriteData method"
-          href: https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-writedata
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-writedata
         - name: "IsDataSessionOpen property"
           href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_isdatasessionopen
         - name: "InterfaceID property"
-          href: https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_interfaceid
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_interfaceid
         - name: "DeviceServiceID property"
           href: /windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_deviceserviceid
         - name: "IsCommandSessionOpen property"
@@ -501,7 +501,7 @@
         - name: "Index Property"
           href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgpdu-get_index
         - name: "Message Property"
-          href: https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgpdu-get_message
+          href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgpdu-get_message
         - name: "PduData Property"
           href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsreadmsgpdu-get_pdudata
         - name: "Status Property"

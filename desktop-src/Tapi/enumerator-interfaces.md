@@ -24,8 +24,8 @@ The following interfaces enumerate TAPI 3 elements according to COM standards. T
 | [**IEnumPhone**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumphone)                                           | [**ITPhone**](/windows/desktop/api/tapi3if/nn-tapi3if-itphone)                                                                                                                         |
 | [**IEnumPluggableSuperclassInfo**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumpluggablesuperclassinfo)       | [**ITPluggableTerminalSuperclassInfo**](/windows/desktop/api/tapi3if/nn-tapi3if-itpluggableterminalsuperclassinfo)                                                                     |
 | [**IEnumPluggableTerminalClassInfo**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumpluggableterminalclassinfo) | [**ITPluggableTerminalClassInfo**](/windows/desktop/api/tapi3if/nn-tapi3if-itpluggableterminalclassinfo)                                                                               |
-| [**IEnumQueue**](https://msdn.microsoft.com/library/ms727545(v=VS.85).aspx)                                           | [**ITQueue**](https://msdn.microsoft.com/library/ms731449(v=VS.85).aspx)                                                                                                                         |
-| [**IEnumTerminal**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminal)                                     | [**ITTerminal**](https://msdn.microsoft.com/library/ms732646(v=VS.85).aspx)                                                                                                                   |
+| [**IEnumQueue**](/windows/win32/api/tapi3cc/nn-tapi3cc-ienumqueue)                                           | [**ITQueue**](/windows/win32/api/tapi3cc/nn-tapi3cc-itqueue)                                                                                                                         |
+| [**IEnumTerminal**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminal)                                     | [**ITTerminal**](/windows/win32/api/tapi3if/nn-tapi3if-itterminal)                                                                                                                   |
 | [**IEnumTerminalClass**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminalclass)                           | [**Terminal Class**](terminal-class.md)                                                                                                           |
 
 
@@ -35,6 +35,3 @@ The following interfaces enumerate TAPI 3 elements according to COM standards. T
  
 
  
-
-
-

@@ -29,7 +29,7 @@ There are several ways to obtain a pointer to an **IWMProfile** interface. The p
 
 ## Members
 
-The **IWMProfile** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMProfile** also has these types of members:
+The **IWMProfile** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMProfile** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -47,11 +47,11 @@ The **IWMProfile** interface has these methods.
 | [**CreateNewStream**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-createnewstream)                   | Creates a stream configuration object for the profile.<br/>                           |
 | [**GetDescription**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-getdescription)                     | Retrieves the description of the profile.<br/>                                        |
 | [**GetMutualExclusion**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-getmutualexclusion)             | Retrieves a mutual exclusion object from the profile.<br/>                            |
-| [**GetMutualExclusionCount**](/previous-versions/windows/win32/api/wmcontainer/nf-wmcontainer-imfasfprofile-getmutualexclusioncount)   | Retrieves the number of mutual exclusion objects in the profile.<br/>                 |
+| [**GetMutualExclusionCount**](/windows/win32/api/wmcontainer/nf-wmcontainer-imfasfprofile-getmutualexclusioncount)   | Retrieves the number of mutual exclusion objects in the profile.<br/>                 |
 | [**GetName**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-getname)                                   | Retrieves the name of the profile.<br/>                                               |
 | [**GetStream**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-getstream)                               | Retrieves a stream, using an index number, from the profile.<br/>                     |
-| [**GetStreamByNumber**](/previous-versions/windows/win32/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreambynumber)               | Retrieves a stream, using the number of the stream, from the profile.<br/>            |
-| [**GetStreamCount**](/previous-versions/windows/win32/api/mftransform/nf-mftransform-imftransform-getstreamcount)                     | Retrieves the number of streams in the profile.<br/>                                  |
+| [**GetStreamByNumber**](/windows/win32/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreambynumber)               | Retrieves a stream, using the number of the stream, from the profile.<br/>            |
+| [**GetStreamCount**](/windows/win32/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreamcount)                     | Retrieves the number of streams in the profile.<br/>                                  |
 | [**GetVersion**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-getversion)                             | Retrieves the version number of Microsoft Windows Media Services in the profile.<br/> |
 | [**ReconfigStream**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-reconfigstream)                     | Enables changes made to a stream configuration to be included in the profile.<br/>    |
 | [**RemoveMutualExclusion**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-removemutualexclusion)       | Removes a mutual exclusion object from the profile.<br/>                              |
@@ -89,10 +89,4 @@ For information about which interfaces can be obtained by using the QueryInterfa
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

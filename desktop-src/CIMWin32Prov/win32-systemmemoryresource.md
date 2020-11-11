@@ -28,7 +28,7 @@ api_location:
 
 # Win32\_SystemMemoryResource class
 
-The **Win32\_SystemMemoryResource** abstract [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) represents a system memory resource on a computer system running Windows.
+The **Win32\_SystemMemoryResource** abstract [WMI class](../wmisdk/retrieving-a-class.md) represents a system memory resource on a computer system running Windows.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -72,7 +72,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Caption")
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (64), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Caption")
 </dt> </dl>
 
 A short textual description of the object.
@@ -90,7 +90,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (256), [**CIM\_Key**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx)
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (256), [**CIM\_Key**](../wmisdk/standard-wmi-qualifiers.md)
 </dt> </dl>
 
 Name of the class or subclass used in the creation of an instance. When used with other key properties of the class, this property allows all instances of the class and its subclasses to be uniquely identified.
@@ -108,7 +108,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_ComputerSystem**](cim-computersystem.md).**CreationClassName**"), [**CIM\_Key**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (256)
+Qualifiers: [**Propagated**](../wmisdk/standard-qualifiers.md) ("[**CIM\_ComputerSystem**](cim-computersystem.md).**CreationClassName**"), [**CIM\_Key**](../wmisdk/standard-wmi-qualifiers.md), [**MaxLen**](../wmisdk/standard-qualifiers.md) (256)
 </dt> </dl>
 
 Scoping computer system's **CreationClassName** property.
@@ -126,7 +126,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_ComputerSystem**](cim-computersystem.md).**Name**"), [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (256), [**CIM\_Key**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx)
+Qualifiers: [**Propagated**](../wmisdk/standard-qualifiers.md) ("[**CIM\_ComputerSystem**](cim-computersystem.md).**Name**"), [**MaxLen**](../wmisdk/standard-qualifiers.md) (256), [**CIM\_Key**](../wmisdk/standard-wmi-qualifiers.md)
 </dt> </dl>
 
 Scoping computer system's **Name** property.
@@ -144,7 +144,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Description")
+Qualifiers: [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Description")
 </dt> </dl>
 
 A textual description of the object.
@@ -162,12 +162,12 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Memory Mapped I/O\|001.2")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("MIF.DMTF\|Memory Mapped I/O\|001.2")
 </dt> </dl>
 
 Ending address of memory mapped I/O.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](../wmisdk/creating-a-wmi-script.md).
 
 This property is inherited from [**CIM\_MemoryMappedIO**](cim-memorymappedio.md).
 
@@ -182,7 +182,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Install Date")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Install Date")
 </dt> </dl>
 
 Indicates when the object was installed. Lack of a value does not indicate that the object is not installed.
@@ -200,7 +200,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Name")
+Qualifiers: [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Name")
 </dt> </dl>
 
 Label by which the object is known. When subclassed, this property can be overridden to be a key property.
@@ -218,12 +218,12 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Memory Mapped I/O\|001.1")
+Qualifiers: [**CIM\_Key**](../wmisdk/standard-wmi-qualifiers.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("MIF.DMTF\|Memory Mapped I/O\|001.1")
 </dt> </dl>
 
 Starting address of memory mapped I/O. The hardware resource identifier property should be set to this value to construct the mapped I/O resource key.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](../wmisdk/creating-a-wmi-script.md).
 
 This property is inherited from [**CIM\_MemoryMappedIO**](cim-memorymappedio.md).
 
@@ -238,7 +238,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Status")
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (10), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Status")
 </dt> </dl>
 
 String that indicates the current status of the object. Operational and non-operational status can be defined. Operational status can include "OK", "Degraded", and "Pred Fail". "Pred Fail" indicates that an element is functioning properly, but is predicting a failure (for example, a SMART-enabled hard disk drive).
@@ -368,7 +368,3 @@ The **Win32\_SystemMemoryResource** class is derived from [**CIM\_MemoryMappedIO
  
 
  
-
-
-
-

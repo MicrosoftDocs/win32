@@ -10,13 +10,13 @@ ms.date: 05/31/2018
 
 The following functions are used to handle modem connections.
 
--   [**InternetAutodial**](https://msdn.microsoft.com/library/Aa384336(v=VS.85).aspx)
--   [**InternetAutodialHangup**](https://msdn.microsoft.com/library/Aa384340(v=VS.85).aspx)
--   [**InternetDial**](https://msdn.microsoft.com/library/Aa384587(v=VS.85).aspx)
--   [**InternetGetConnectedState**](https://msdn.microsoft.com/library/Aa384702(v=VS.85).aspx)
--   [**InternetGetConnectedStateEx**](https://msdn.microsoft.com/library/Aa384705(v=VS.85).aspx)
--   [**InternetHangUp**](https://msdn.microsoft.com/library/Aa384737(v=VS.85).aspx)
--   [**InternetGoOnline**](https://msdn.microsoft.com/library/Aa384734(v=VS.85).aspx)
+-   [**InternetAutodial**](/windows/win32/api/winineti/nf-winineti-internetautodial)
+-   [**InternetAutodialHangup**](/windows/win32/api/winineti/nf-winineti-internetautodialhangup)
+-   [**InternetDial**](/windows/win32/api/winineti/nf-winineti-internetdial)
+-   [**InternetGetConnectedState**](/windows/win32/api/winineti/nf-winineti-internetgetconnectedstate)
+-   [**InternetGetConnectedStateEx**](/windows/win32/api/winineti/nf-winineti-internetgetconnectedstateex)
+-   [**InternetHangUp**](/windows/win32/api/winineti/nf-winineti-internethangup)
+-   [**InternetGoOnline**](/windows/win32/api/winineti/nf-winineti-internetgoonline)
 
 > [!Note]  
 > WinINet dial-up functions do not support double-dial connections, SmartCard authentication, or connections that require registry-based certification.
@@ -24,19 +24,15 @@ The following functions are used to handle modem connections.
  
 
 > [!Note]  
-> Starting on Windows Vista and Windows Server 2008, the WinINet dial-up functions use the [RAS functions](https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions) to establish a dial-up connection. WinINet supports the functionality documented in the [**RasDialDlg**](https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasdialdlga) function.
+> Starting on Windows Vista and Windows Server 2008, the WinINet dial-up functions use the [RAS functions](/windows/desktop/RRAS/remote-access-service-functions) to establish a dial-up connection. WinINet supports the functionality documented in the [**RasDialDlg**](/windows/desktop/api/rasdlg/nf-rasdlg-rasdialdlga) function.
 
  
 
 > [!Note]  
-> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 
  
 
  
-
-
-
-

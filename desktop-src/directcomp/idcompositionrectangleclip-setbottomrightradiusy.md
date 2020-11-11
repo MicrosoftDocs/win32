@@ -24,8 +24,8 @@ Changes or animates the value of the BottomRightRadiusY property of this clip. T
 
 | Method                                                                                                                             | Description                                                                    |
 |:-----------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------|
-| [**SetBottomRightRadiusY(float)**](https://msdn.microsoft.com/library/Hh448857(v=VS.85).aspx)                                     | Changes the value of the BottomRightRadiusY property of this clip.<br/>  |
-| [**SetBottomRightRadiusY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448858(v=VS.85).aspx) | Animates the value of the BottomRightRadiusY property of this clip.<br/> |
+| [**SetBottomRightRadiusY(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-setbottomrightradiusy(idcompositionanimation))                                     | Changes the value of the BottomRightRadiusY property of this clip.<br/>  |
+| [**SetBottomRightRadiusY(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-setbottomrightradiusy(idcompositionanimation)) | Animates the value of the BottomRightRadiusY property of this clip.<br/> |
 
 
 
@@ -47,14 +47,9 @@ Changes or animates the value of the BottomRightRadiusY property of this clip. T
 
 <dl> <dt>
 
-[**IDCompositionRectangleClip**](https://msdn.microsoft.com/library/Hh437434(v=VS.85).aspx)
+[**IDCompositionRectangleClip**](/windows/win32/api/dcomp/nn-dcomp-idcompositionrectangleclip)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

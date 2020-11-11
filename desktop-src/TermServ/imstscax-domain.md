@@ -99,7 +99,7 @@ Return **S\_OK** if successful.
 
 Setting the **Domain** property is optional. If it is not set, the user can choose a domain when the Windows Logon dialog box appears during the connection.
 
-The **get\_Domain** method allocates the memory required for the buffer pointed to by the *pDomain* parameter. Calling C/C++ applications must free the memory with a call to the [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) function. This is not required for Visual Basic and scripting clients.
+The **get\_Domain** method allocates the memory required for the buffer pointed to by the *pDomain* parameter. Calling C/C++ applications must free the memory with a call to the [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) function. This is not required for Visual Basic and scripting clients.
 
 This property can be set only if the control is not in the connected state. It returns **E\_FAIL** if it is called when the control is connected. You can check if the control is connected by responding to connection events in [**IMsTscAxEvents**](imstscaxevents-interface.md) or examining the [**Connected**](imstscax-connected.md) property.
 
@@ -160,10 +160,4 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

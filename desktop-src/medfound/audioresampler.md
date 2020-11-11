@@ -19,9 +19,9 @@ CLSID\_CResamplerMediaObject
 
 ## Interfaces
 
--   [**IMediaObject**](https://docs.microsoft.com/previous-versions/ms785953%28v%3dvs.85%29)
+-   [**IMediaObject**](/previous-versions/ms785953(v=vs.85))
 -   [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)
--   [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx)
+-   [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore)
 -   [**IWMResamplerProps**](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresamplerprops)
 
 ## Formats

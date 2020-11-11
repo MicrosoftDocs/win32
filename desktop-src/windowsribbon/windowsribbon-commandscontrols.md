@@ -53,7 +53,7 @@ Commands are declared in Ribbon markup with a unique ID, or assigned a markup co
 
  
 
-Each Command has an underlying Command type itemized in the [**UI\_COMMANDTYPE**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype) enumeration.
+Each Command has an underlying Command type itemized in the [**UI\_COMMANDTYPE**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype) enumeration.
 
 ### The Command Experience In Action
 
@@ -90,7 +90,3 @@ When a control is hosted by the QAT, the new instance of the control maintains a
  
 
  
-
-
-
-

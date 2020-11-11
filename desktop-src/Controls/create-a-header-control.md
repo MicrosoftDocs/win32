@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Create a Header Control
 
-This topic demonstrates how to create a header control and position it within the parent window's client area. You can create a header control by using the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function and specifying the [**WC\_HEADER**](common-control-window-classes.md) window class and the appropriate [header control styles](header-control-styles.md). This window class is registered when the common control DLL is loaded. To ensure that this DLL is loaded, use the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function.
+This topic demonstrates how to create a header control and position it within the parent window's client area. You can create a header control by using the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function and specifying the [**WC\_HEADER**](common-control-window-classes.md) window class and the appropriate [header control styles](header-control-styles.md). This window class is registered when the common control DLL is loaded. To ensure that this DLL is loaded, use the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function.
 
 ## What you need to know
 
@@ -23,11 +23,9 @@ This topic demonstrates how to create a header control and position it within th
 
 ## Instructions
 
-### 
 
-The following C++ code example first calls the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function to load the common control DLL. It then calls the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function to create a header control. The control is initially hidden. The [**HDM\_LAYOUT**](hdm-layout.md) message is used to calculate the size and position of the control within the parent window. The control is then repositioned and made visible.
+The following C++ code example first calls the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function to load the common control DLL. It then calls the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function to create a header control. The control is initially hidden. The [**HDM\_LAYOUT**](hdm-layout.md) message is used to calculate the size and position of the control within the parent window. The control is then repositioned and made visible.
 
-## 
 
 
 ```C++
@@ -100,7 +98,3 @@ HWND DoCreateHeader(HWND hwndParent)
  
 
  
-
-
-
-

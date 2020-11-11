@@ -172,7 +172,7 @@ The last time the user logged on. This value is stored as a large integer that r
 
 ## Remarks
 
-The high part of this large integer corresponds to the **dwHighDateTime** member of the [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime) structure and the low part corresponds to the **dwLowDateTime** member of the **FILETIME** structure.
+The high part of this large integer corresponds to the **dwHighDateTime** member of the [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) structure and the low part corresponds to the **dwLowDateTime** member of the **FILETIME** structure.
 
 This attribute is not replicated and is maintained separately on each domain controller in the domain. To get an accurate value for the user's last logon in the domain, the **Last-Logon** attribute for the user must be retrieved from every domain controller in the domain. The largest value that is retrieved is the true last logon time for that user.
 
@@ -180,14 +180,8 @@ This attribute is not replicated and is maintained separately on each domain con
 
 <dl> <dt>
 
-[**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime)
+[**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

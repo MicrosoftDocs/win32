@@ -56,7 +56,7 @@ Pointer to the data to be processed.
 *cBytes* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**SIZE\_T**](/windows/desktop/WinProg/windows-data-types)**
 
 Size of the data to be processed.
 
@@ -94,10 +94,4 @@ This method is used by an [**ID3DX11ThreadPump Interface**](id3dx11threadpump.md
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -64,14 +64,8 @@ HRESULT get_Enabled(
 
 <dl> <dt>
 
-[**IRemoteDesktopClientTouchPointer**](https://msdn.microsoft.com/library/Mt787029(v=VS.85).aspx)
+[**IRemoteDesktopClientTouchPointer**](/windows/win32/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

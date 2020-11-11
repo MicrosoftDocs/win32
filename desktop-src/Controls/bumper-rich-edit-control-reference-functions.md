@@ -37,11 +37,11 @@ ms.date: 05/31/2018
 <td>The <a href="/windows/desktop/api/Richedit/nc-richedit-editwordbreakprocex"><em>EditWordBreakProcEx</em></a> function is an application defined callback function used with the <a href="em-setwordbreakprocex.md"><strong>EM_SETWORDBREAKPROCEX</strong></a> message. It determines the character index of the word break or the character class and word-break flags of the characters in the specified text. The <strong>EDITWORDBREAKPROCEX</strong> type defines a pointer to this callback function. <em>EditWordBreakProcEx</em> is a placeholder for the application-defined function name. <br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh780353(v=vs.85)"><strong>GetMathAlphanumeric</strong></a><br/></td>
+<td><a href="/previous-versions/windows/desktop/legacy/hh780353(v=vs.85)"><strong>GetMathAlphanumeric</strong></a><br/></td>
 <td>Retrieves the Unicode Transformation Format (UTF)-32 math alphanumeric character that corresponds to the specified Basic Multilingual Plane (BMP) character and math style. <br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh780354(v=vs.85)"><strong>GetMathAlphanumericCode</strong></a><br/></td>
+<td><a href="/previous-versions/windows/desktop/legacy/hh780354(v=vs.85)"><strong>GetMathAlphanumericCode</strong></a><br/></td>
 <td>Retrieves the math style and the upright Basic Multilingual Plane (BMP) character code that corresponds to the specified trailing byte of a math surrogate pair.<br/></td>
 </tr>
 <tr class="even">
@@ -49,15 +49,15 @@ ms.date: 05/31/2018
 <td>The <a href="/windows/desktop/api/Richedit/nf-richedit-hyphenateproc"><em>HyphenateProc</em></a> function is an application defined callback function used with the <a href="em-sethyphenateinfo.md"><strong>EM_SETHYPHENATEINFO</strong></a> message. It determines how hyphenation is done in a Microsoft Rich Edit control.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh780443(v=vs.85)"><strong>MathBuildDown</strong></a><br/></td>
+<td><a href="/previous-versions/windows/desktop/legacy/hh780443(v=vs.85)"><strong>MathBuildDown</strong></a><br/></td>
 <td>Translates the built-up math, ruby, and other inline objects in the specified range to linear form.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh780445(v=vs.85)"><strong>MathBuildUp</strong></a><br/></td>
+<td><a href="/previous-versions/windows/desktop/legacy/hh780445(v=vs.85)"><strong>MathBuildUp</strong></a><br/></td>
 <td>Converts the linear-format math in a range to a built-up form, or modifies the current built-up form. <br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh780446(v=vs.85)"><strong>MathTranslate</strong></a><br/></td>
+<td><a href="/previous-versions/windows/desktop/legacy/hh780446(v=vs.85)"><strong>MathTranslate</strong></a><br/></td>
 <td>Translates the math characters in the specified range.<br/></td>
 </tr>
 <tr class="even">
@@ -77,10 +77,4 @@ Intended for internal use; not recommended for use in applications. This functio
  
 
  
-
- 
-
-
-
-
 

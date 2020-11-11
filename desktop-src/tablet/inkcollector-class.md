@@ -127,7 +127,7 @@ The **InkCollector** class has these properties.
 
 ## Remarks
 
-This object can be instantiated by calling the [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
+This object can be instantiated by calling the [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
 
 The **InkCollector** object collects only ink and gestures that are input into the specific window with which it is associated. The sole purpose of the **InkCollector** is to collect ink from the hardware (for example, through an [**IInkCursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) and [**IInkTablet**](/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet) object) and deliver it to an application. It essentially acts as the source that distributes ink into one or many different [**InkDisp**](inkdisp-class.md) objects, which act as container that hold the distributed ink.
 
@@ -191,9 +191,4 @@ To improve your application's performance, dispose of your **InkCollector** obje
 </dt> </dl>
 
  
-
- 
-
-
-
 

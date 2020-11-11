@@ -32,10 +32,10 @@ The multiple-document interface (MDI) is a specification that defines a user int
 
 | Name                                                 | Description                                                                                                                                                                                                                                                                                                                                                                |
 |------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateMDIWindow**](https://msdn.microsoft.com/library/ms644923(v=VS.85).aspx)           | Creates a MDI child window. <br/>                                                                                                                                                                                                                                                                                                                                    |
-| [**DefFrameProc**](https://msdn.microsoft.com/library/ms644924(v=VS.85).aspx)                 | Provides default processing for any window messages that the window procedure of a MDI frame window does not process. All window messages that are not explicitly processed by the window procedure must be passed to the [**DefFrameProc**](https://msdn.microsoft.com/library/ms644924(v=VS.85).aspx) function, not the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function. <br/>                              |
-| [**DefMDIChildProc**](https://msdn.microsoft.com/library/ms644925(v=VS.85).aspx)           | Provides default processing for any window message that the window procedure of a MDI child window does not process. A window message not processed by the window procedure must be passed to the [**DefMDIChildProc**](https://msdn.microsoft.com/library/ms644925(v=VS.85).aspx) function, not to the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function. <br/>                                             |
-| [**TranslateMDISysAccel**](https://msdn.microsoft.com/library/ms644926(v=VS.85).aspx) | Processes accelerator keystrokes for window menu commands of the MDI child windows associated with the specified MDI client window. The function translates [**WM\_KEYUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup) and [**WM\_KEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown) messages to [**WM\_SYSCOMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand) messages and sends them to the appropriate MDI child windows. <br/> |
+| [**CreateMDIWindow**](/windows/win32/api/winuser/nf-winuser-createmdiwindowa)           | Creates a MDI child window. <br/>                                                                                                                                                                                                                                                                                                                                    |
+| [**DefFrameProc**](/windows/win32/api/winuser/nf-winuser-defframeproca)                 | Provides default processing for any window messages that the window procedure of a MDI frame window does not process. All window messages that are not explicitly processed by the window procedure must be passed to the [**DefFrameProc**](/windows/win32/api/winuser/nf-winuser-defframeproca) function, not the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function. <br/>                              |
+| [**DefMDIChildProc**](/windows/win32/api/winuser/nf-winuser-defmdichildproca)           | Provides default processing for any window message that the window procedure of a MDI child window does not process. A window message not processed by the window procedure must be passed to the [**DefMDIChildProc**](/windows/win32/api/winuser/nf-winuser-defmdichildproca) function, not to the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function. <br/>                                             |
+| [**TranslateMDISysAccel**](/windows/win32/api/winuser/nf-winuser-translatemdisysaccel) | Processes accelerator keystrokes for window menu commands of the MDI child windows associated with the specified MDI client window. The function translates [**WM\_KEYUP**](/windows/desktop/inputdev/wm-keyup) and [**WM\_KEYDOWN**](/windows/desktop/inputdev/wm-keydown) messages to [**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand) messages and sends them to the appropriate MDI child windows. <br/> |
 
 
 
@@ -70,16 +70,11 @@ The multiple-document interface (MDI) is a specification that defines a user int
 
 | Name                                       | Description                                                                                               |
 |--------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| [**MDICREATESTRUCT**](https://msdn.microsoft.com/library/ms644910(v=VS.85).aspx) | Contains information about the class, title, owner, location, and size of a MDI child window. <br/> |
+| [**MDICREATESTRUCT**](/windows/win32/api/winuser/ns-winuser-mdicreatestructa) | Contains information about the class, title, owner, location, and size of a MDI child window. <br/> |
 
 
 
  
 
  
-
- 
-
-
-
 

@@ -41,21 +41,21 @@ typedef struct _BG_JOB_TIMES {
 **CreationTime**
 </dt> <dd>
 
-Time the job was created. The time is specified as [FILETIME](https://msdn.microsoft.com/library/ms724284.aspx).
+Time the job was created. The time is specified as [FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 
 **ModificationTime**
 </dt> <dd>
 
-Time the job was last modified or bytes were transferred. Adding files or calling any of the set methods in the [**IBackgroundCopyJob\***](https://docs.microsoft.com/previous-versions//mt811348(v=vs.85)) interfaces changes this value. In addition, changes to the state of the job and calling the [**Suspend**](ibackgroundcopyjob-suspend.md), [**Resume**](ibackgroundcopyjob-resume.md), [**Cancel**](ibackgroundcopyjob-cancel.md), and [**Complete**](ibackgroundcopyjob-complete.md) methods change this value. The time is specified as [FILETIME](https://msdn.microsoft.com/library/ms724284.aspx).
+Time the job was last modified or bytes were transferred. Adding files or calling any of the set methods in the [**IBackgroundCopyJob\***](/previous-versions//mt811348(v=vs.85)) interfaces changes this value. In addition, changes to the state of the job and calling the [**Suspend**](ibackgroundcopyjob-suspend.md), [**Resume**](ibackgroundcopyjob-resume.md), [**Cancel**](ibackgroundcopyjob-cancel.md), and [**Complete**](ibackgroundcopyjob-complete.md) methods change this value. The time is specified as [FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> <dt>
 
 **TransferCompletionTime**
 </dt> <dd>
 
-Time the job entered the BG_JOB_STATE_TRANSFERRED state. The time is specified as [FILETIME](https://msdn.microsoft.com/library/ms724284.aspx).
+Time the job entered the BG_JOB_STATE_TRANSFERRED state. The time is specified as [FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime).
 
 </dd> </dl>
 
@@ -79,10 +79,4 @@ Time the job entered the BG_JOB_STATE_TRANSFERRED state. The time is specified a
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

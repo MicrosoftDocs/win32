@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-<dl> **Clients** – Windows 8  
+**Clients** – Windows 8  
 **Servers** – Windows Server 2012  
-</dl>
+
 
 ## Description
 
@@ -34,12 +34,8 @@ When distributing drivers more widely they must be properly signed by a trusted 
 
 ## Resources
 
--   [Signing Drivers](https://msdn.microsoft.com/windows/hardware/gg487317.aspx)
+-   [Signing Drivers](/previous-versions/windows/hardware/design/dn653563(v=vs.85))
 
  
 
  
-
-
-
-

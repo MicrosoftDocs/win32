@@ -29,12 +29,12 @@ Windows programmers can select from several different technologies to print from
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/printdocs/tailored-app-printing-api">Print Document Package API</a><br/></td>
+<td><a href="/windows/desktop/printdocs/tailored-app-printing-api">Print Document Package API</a><br/></td>
 <td>Provides an interface that allows an application to access and manage the print document package. This API is available with Windows 8 and later versions of Windows.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="print-spooler-api.md">Print Spooler API</a><br/></td>
-<td>Provides an interface to the print spooler so that applications can manage printers and print jobs.<br/> Applications use the <a href="print-spooler-api.md">Print Spooler API</a> to start, stop, control, and configure print jobs managed by the print spooler whether they use the <a href="https://docs.microsoft.com/windows/desktop/printdocs/tailored-app-printing-api">Print Document Package API</a> or the <a href="gdi-printing.md">GDI Print API</a> to print the content.<br/></td>
+<td>Provides an interface to the print spooler so that applications can manage printers and print jobs.<br/> Applications use the <a href="print-spooler-api.md">Print Spooler API</a> to start, stop, control, and configure print jobs managed by the print spooler whether they use the <a href="/windows/desktop/printdocs/tailored-app-printing-api">Print Document Package API</a> or the <a href="gdi-printing.md">GDI Print API</a> to print the content.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="print-ticket-api.md">Print Ticket API</a><br/></td>
@@ -45,7 +45,7 @@ Windows programmers can select from several different technologies to print from
 <td>Provides applications with a device-independent printing interface. <br/>
 <blockquote>
 [!Note]<br />
-Developers who are writing applications for Windows Vista and later versions of Windows should consider using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316976(v=vs.85)">XPS Document API</a> in their application.
+Developers who are writing applications for Windows Vista and later versions of Windows should consider using the <a href="/previous-versions/windows/desktop/dd316976(v=vs.85)">XPS Document API</a> in their application.
 </blockquote>
 <br/> The <a href="gdi-printing.md">GDI Print API</a> is suitable for applications that must run on Windows XP and earlier versions of Windows.<br/></td>
 </tr>
@@ -62,12 +62,12 @@ The following illustration provides a high-level view of how the different print
 
  
 
-The [Print Document Package API](https://msdn.microsoft.com/library/Hh448418(v=VS.85).aspx)s in this section describe the print document package and print preview interfaces that you can use with Windows 8 and later versions of Windows desktop.
+The [Print Document Package API](./tailored-app-printing-api.md)s in this section describe the print document package and print preview interfaces that you can use with Windows 8 and later versions of Windows desktop.
 
-For more info about printing from Windows Store apps that are written in JavaScript and HTML, see [Printing (Windows Store apps using JavaScript and HTML)](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10)). For more info about printing from Windows Store apps that are written in C#, Microsoft Visual Basic, or C++ and XAML, see [Printing (Windows Store apps using C)](https://docs.microsoft.com/previous-versions/windows/apps/hh465196(v=win.10)).
+For more info about printing from Windows Store apps that are written in JavaScript and HTML, see [Printing (Windows Store apps using JavaScript and HTML)](/previous-versions/windows/apps/hh465225(v=win.10)). For more info about printing from Windows Store apps that are written in C#, Microsoft Visual Basic, or C++ and XAML, see [Printing (Windows Store apps using C)](/previous-versions/windows/apps/hh465196(v=win.10)).
 
 > [!Note]  
-> See [Win32 and COM for Windows Store apps (printing and documents)](https://docs.microsoft.com/uwp/win32-and-com/win32-and-com-for-uwp-apps) for the list of the Desktop App Printing APIs that can also be used in Windows Store apps.
+> See [Win32 and COM for Windows Store apps (printing and documents)](/uwp/win32-and-com/win32-and-com-for-uwp-apps) for the list of the Desktop App Printing APIs that can also be used in Windows Store apps.
 
  
 
@@ -75,16 +75,9 @@ For more info about printing from Windows Store apps that are written in JavaScr
 
 <dl> <dt>
 
-[XPS Document API](https://msdn.microsoft.com/library/Dd316976(v=VS.85).aspx)
+[XPS Document API](/previous-versions/windows/desktop/dd316976(v=vs.85))
 </dt> <dt>
 
-[Bidirectional printer communications (Hardware Dev Center)](https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication?redirectedfrom=MSDN)
+[Bidirectional printer communications (Hardware Dev Center)](/windows-hardware/drivers/print/bidirectional-communication)
 </dt> </dl>
-
- 
-
- 
-
-
-
 

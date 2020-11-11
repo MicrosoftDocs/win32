@@ -100,7 +100,7 @@ public static JET_wrn JetSetColumn(
 <!-- end list -->
 
   - dataSize  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The size of data to set.
 
@@ -138,4 +138,3 @@ The SetColumn methods provide datatype-specific overrides which may be more effi
 [JetSetColumn overload](dn334007\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

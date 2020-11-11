@@ -8,20 +8,9 @@ ms.date: 05/31/2018
 
 # Performance Counter Enumerations
 
-You use the following enumerations when working with performance data.
+Consumers that use the [PerfLib V2 Consumer](using-the-perflib-functions-to-consume-counter-data.md) functions use the following enumerations:
 
-## Consumer enumerations
-
-Consumers that use the nine low-level functions that can consume version 2 performance counter data use the following enumerations.
-
--   [**PerfCounterDataType**](/windows/desktop/api/Perflib/ne-perflib-perfcounterdatatype)
--   [**PerfRegInfoType**](/windows/desktop/api/Perflib/ne-perflib-perfreginfotype)
+- [**PerfCounterDataType**](/windows/desktop/api/Perflib/ne-perflib-perfcounterdatatype)
+- [**PerfRegInfoType**](/windows/desktop/api/Perflib/ne-perflib-perfreginfotype)
 
 For information about the functions that are available for working with performance counters, see [Performance Counters Functions](performance-counters-functions.md).
-
- 
-
- 
-
-
-

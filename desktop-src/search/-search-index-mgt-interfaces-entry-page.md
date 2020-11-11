@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # Index Management Interfaces
 
-## 
 
 This Windows Search reference section consists of the following index management interfaces:
 

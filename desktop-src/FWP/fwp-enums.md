@@ -14,7 +14,7 @@ The Windows Filtering Platform (WFP) API Enumerated Types are as follows.
 
 Management Types
 
--   [**DL\_ADDRESS\_TYPE**](https://msdn.microsoft.com/library/Dd744934(v=VS.85).aspx)
+-   [**DL\_ADDRESS\_TYPE**](/windows/win32/api/fwpmtypes/ne-fwpmtypes-dl_address_type)
 -   [**FWPM\_APPC\_NETWORK\_CAPABILITY\_TYPE**](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_appc_network_capability_type)
 -   [**FWPM\_CHANGE\_TYPE**](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_change_type)
 -   [**FWPM\_CONNECTION\_EVENT\_TYPE**](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_connection_event_type)
@@ -29,7 +29,7 @@ Management Types
 Shared Types
 
 -   [**FWP\_AF**](/windows/win32/api/fwptypes/ne-fwptypes-fwp_af)
--   [**FWP\_CLASSIFY\_OPTION\_TYPE**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_classify_option_type_)
+-   [**FWP_CLASSIFY_OPTION_TYPE**](/windows/win32/api/fwptypes/ne-fwptypes-fwp_classify_option_type)
 -   [**FWP\_DATA\_TYPE**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type)
 -   [**FWP\_DIRECTION**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_direction)
 -   [**FWP\_ETHER\_ENCAP\_METHOD**](/windows/win32/api/fwptypes/ne-fwptypes-fwp_ether_encap_method)
@@ -69,7 +69,3 @@ IPsec Types
  
 
  
-
-
-
-

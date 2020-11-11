@@ -310,7 +310,7 @@ End Sub
 
 
 
-The following C# code example can be used to delete an application directory partition using [System.DirectoryServices](https://docs.microsoft.com/dotnet/api/system.directoryservices?redirectedfrom=MSDN). This example uses one of the **GetPartitionsDN\*** example functions described in [Example Code for Locating the Partitions Container](example-code-for-locating-the-partitions-container.md).
+The following C# code example can be used to delete an application directory partition using [System.DirectoryServices](/dotnet/api/system.directoryservices). This example uses one of the **GetPartitionsDN\*** example functions described in [Example Code for Locating the Partitions Container](example-code-for-locating-the-partitions-container.md).
 
 
 ```CSharp
@@ -409,7 +409,7 @@ static void DeleteAppPartition(
 
 
 
-The following Visual Basic .NET code example can be used to delete an application directory partition using [System.DirectoryServices](https://docs.microsoft.com/dotnet/api/system.directoryservices?redirectedfrom=MSDN). This example uses one of the **GetPartitionsDN\*** example functions described in [Example Code for Locating the Partitions Container](example-code-for-locating-the-partitions-container.md).
+The following Visual Basic .NET code example can be used to delete an application directory partition using [System.DirectoryServices](/dotnet/api/system.directoryservices). This example uses one of the **GetPartitionsDN\*** example functions described in [Example Code for Locating the Partitions Container](example-code-for-locating-the-partitions-container.md).
 
 
 ```VB
@@ -509,7 +509,3 @@ End Sub
  
 
  
-
-
-
-

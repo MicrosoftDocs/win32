@@ -30,9 +30,9 @@ HRESULT get__NewEnum(
 *pVal* \[out\]
 </dt> <dd>
 
-Pointer to an [IUnknown](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface on an enumerator object for the collection.
+Pointer to an [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface on an enumerator object for the collection.
 
-Call the [QueryInterface](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) method on the returned **IUnknown** interface to obtain a pointer to an [IEnumVARIANT](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) enumeration interface on the collection. **IEnumVARIANT** provides a number of methods that you can use to iterate through the collection.
+Call the [QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) method on the returned **IUnknown** interface to obtain a pointer to an [IEnumVARIANT](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) enumeration interface on the collection. **IEnumVARIANT** provides a number of methods that you can use to iterate through the collection.
 
 For more information, see the following Remarks section.
 
@@ -84,9 +84,4 @@ This method is interchangeable with [**get\_EnumerationIf**](ittimecollection-ge
 </dt> </dl>
 
  
-
- 
-
-
-
 

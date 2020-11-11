@@ -26,7 +26,7 @@ Request for callstack data.
 
 ## Members
 
-The **ICallStackRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ICallStackRequest** also has these types of members:
+The **ICallStackRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ICallStackRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,7 +34,7 @@ The **ICallStackRequest** interface inherits from the [**IUnknown**](https://doc
 
 The **ICallStackRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/icallstackrequest-requestasync-eventid-icallstackcallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>An asynchronous request to get the call stack RVAs (relative virtual addresses) of the specified event.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/icallstackrequest-requestasync-eventid-icallstackcallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>An asynchronous request to get the call stack RVAs (relative virtual addresses) of the specified event.</p></td></tr></tbody></table>
 
  
 
@@ -45,6 +45,3 @@ The **ICallStackRequest** interface has these methods.
  
 
  
-
-
-

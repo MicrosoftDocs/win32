@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # Using the IADs Interfaces
 
-ADSI, each element of a directory service is represented by an ADSI object, which is a Component Object Model (COM) object that supports the standard COM [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface as well as the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) and [**IADs**](/windows/desktop/api/Iads/nn-iads-iads) interfaces. **IADs** supplies the basic maintenance functions for ADSI objects.
+ADSI, each element of a directory service is represented by an ADSI object, which is a Component Object Model (COM) object that supports the standard COM [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface as well as the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) and [**IADs**](/windows/desktop/api/Iads/nn-iads-iads) interfaces. **IADs** supplies the basic maintenance functions for ADSI objects.
 
 Each ADSI object must support this interface, which serves to:
 
@@ -26,7 +26,7 @@ The [**IADs**](/windows/desktop/api/Iads/nn-iads-iads) interface is designed to 
 
 ![adsi object supporting the iads interface](images/ds2iads.png)
 
-The preceding figure shows a generic ADSI object that support the fundamental interfaces [**IADs**](/windows/desktop/api/Iads/nn-iads-iads), [**IADsPropertyList**](/windows/desktop/api/Iads/nn-iads-iadspropertylist), [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx), [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject), and [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx). An ADSI object such as this manages data from the data store of the underlying directory service through the interfaces it supports. This data is known as the properties of the object, and the routines that obtain and set these properties are known as property methods. Read-only properties have one property method that obtains the property value. Read/write properties have two methods; a method that sets the value and one that obtains the value. Properties are implemented on each ADSI object using a [property cache](the-adsi-attribute-cache.md). [**IADs::get\_ADsPath**](iads-property-methods.md) and **IADs::put\_ADsPath** are examples of property methods. Property methods are not apparent to Visual Basic and other Automation clients that enable direct references to the property. For example, Visual Basic refers to **IADs::ADsPath** directly using the **Object.ADsPath** syntax. For more information, see [Interface Property Methods](interface-property-methods.md).
+The preceding figure shows a generic ADSI object that support the fundamental interfaces [**IADs**](/windows/desktop/api/Iads/nn-iads-iads), [**IADsPropertyList**](/windows/desktop/api/Iads/nn-iads-iadspropertylist), [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown), [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject), and [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch). An ADSI object such as this manages data from the data store of the underlying directory service through the interfaces it supports. This data is known as the properties of the object, and the routines that obtain and set these properties are known as property methods. Read-only properties have one property method that obtains the property value. Read/write properties have two methods; a method that sets the value and one that obtains the value. Properties are implemented on each ADSI object using a [property cache](the-adsi-attribute-cache.md). [**IADs::get\_ADsPath**](iads-property-methods.md) and **IADs::put\_ADsPath** are examples of property methods. Property methods are not apparent to Visual Basic and other Automation clients that enable direct references to the property. For example, Visual Basic refers to **IADs::ADsPath** directly using the **Object.ADsPath** syntax. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 In addition, an ADSI object interacts with other ADSI objects and directly to a namespace through methods. Methods execute immediately. Examples of methods include [**IADs::SetInfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) and [**IADs::GetInfo**](/windows/desktop/api/Iads/nf-iads-iads-getinfo).
 
@@ -45,7 +45,3 @@ The [**IADs::SetInfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) method o
  
 
  
-
-
-
-

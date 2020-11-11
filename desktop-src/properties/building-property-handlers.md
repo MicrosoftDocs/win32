@@ -12,26 +12,23 @@ In Windows Vista and later, metadata became central as a method of organizing i
 
 The following topics discuss the requirements and strategies involved in defining your properties and property handlers.
 
--   [Understanding Property Handlers](https://msdn.microsoft.com/library/Cc144129(v=VS.85).aspx)
--   [Using Kind Names](https://msdn.microsoft.com/library/Cc144136(v=VS.85).aspx)
--   [Using Property Lists](https://msdn.microsoft.com/library/Cc144133(v=VS.85).aspx)
--   [Initializing Property Handlers](https://msdn.microsoft.com/library/Cc144131(v=VS.85).aspx)
--   [Registering and Distributing Property Handlers](https://msdn.microsoft.com/library/Dd894084(v=VS.85).aspx)
--   [Property Handler Best Practices and FAQ](https://msdn.microsoft.com/library/Dd894083(v=VS.85).aspx)
+-   [Understanding Property Handlers](./building-property-handlers-properties.md)
+-   [Using Kind Names](./building-property-handlers-user-friendly-kind-names.md)
+-   [Using Property Lists](./building-property-handlers-property-lists.md)
+-   [Initializing Property Handlers](./building-property-handlers-property-handlers.md)
+-   [Registering and Distributing Property Handlers](./prophand-reg-dist.md)
+-   [Property Handler Best Practices and FAQ](./prophand-bestprac-faq.md)
 
 ## Related topics
 
 <dl> <dt>
 
-[Creating Custom Properties](https://msdn.microsoft.com/library/Cc144135(v=VS.85).aspx)
+[Creating Custom Properties](./building-property-handlers-property-schemas.md)
 </dt> <dt>
 
-[Property Description Schema](https://msdn.microsoft.com/library/Bb773879(v=VS.85).aspx)
+[Property Description Schema](./propdesc-schema-entry.md)
 </dt> </dl>
 
  
 
  
-
-
-

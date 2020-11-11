@@ -12,7 +12,6 @@ Handlers define the software portion of AutoPlay. They define the software's ico
 
 ## Instructions
 
-### 
 
 Handlers and their associated values are defined under the **AutoplayHandlers**\\**Handlers** key. Subkeys differ depending on whether the system can read device contents directly or whether the device provides contents to the system through a proprietary interface.
 
@@ -79,7 +78,7 @@ HKEY_CLASSES_ROOT
                Clsid = {F1ABE2B5-C073-4dba-B6EB-FD7A5111DD8F}
 ```
 
-The [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) function uses the CLSID to implement the appropriate application.
+The [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) function uses the CLSID to implement the appropriate application.
 
 After you define the handler in either of these two ways, you need to register it for a specific event. You do this by providing the handler name as a value for that event's key under **EventHandlers**. The following example shows how to register **MyHandler** as a handler for the GenericVolumeArrival event. It has no assigned data value.
 
@@ -103,12 +102,9 @@ HKEY_LOCAL_MACHINE or HKEY_CURRENT_USER
 [**IHWEventHandler**](/windows/desktop/api/Shobjidl/nn-shobjidl-ihweventhandler)
 </dt> <dt>
 
-[**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx)
+[**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance)
 </dt> </dl>
 
  
 
  
-
-
-

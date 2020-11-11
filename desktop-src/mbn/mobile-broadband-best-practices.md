@@ -125,11 +125,11 @@ For example, performing a connect using one of the connection managers will chan
 
 ## Sending And Receiving Bytes
 
-Use the IP Helper functions [GetlfEntry](https://msdn.microsoft.com/library/aa365939(VS.85).aspx) and [GetlfEntry2](https://msdn.microsoft.com/library/aa365941(VS.85).aspx) to send and receive bytes.
+Use the IP Helper functions [GetlfEntry](/windows/win32/api/iphlpapi/nf-iphlpapi-getifentry) and [GetlfEntry2](/windows/win32/api/netioapi/nf-netioapi-getifentry2) to send and receive bytes.
 
 ## Using The Pin Unblock API
 
-A calling client application must be elevated in order to successfully to invoke [**IMbnPin::Unblock**](/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-unblock). This method is the only portion of the Mobile Broadband API that requires administrator or NCO privileges. See [A Description of the Network Configuration Operators Group]( http://support.microsoft.com/kb/297938/en-us) for more information.
+A calling client application must be elevated in order to successfully to invoke [**IMbnPin::Unblock**](/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-unblock). This method is the only portion of the Mobile Broadband API that requires administrator or NCO privileges. See [A Description of the Network Configuration Operators Group]( https://support.microsoft.com/kb/297938/en-us) for more information.
 
 ## Working With SafeArrays
 
@@ -242,6 +242,3 @@ ERROR_0:
  
 
  
-
-
-

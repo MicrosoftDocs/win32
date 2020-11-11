@@ -10,9 +10,17 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients** - Windows XP \| Windows Vista \| Windows 7  
+ **Clients** - Windows XP \| Windows Vista \| Windows 7  
 **Servers** - Windows Server 2003 \| Windows Server 2008 \| Windows Server 2008 R2  
-</dl>
+
+
+
+
+
+
+
+
+
 
 > [!Note]  
 > Internet Explorer 8 will enable DEP/NX protection when run on an operating system with the latest service pack. Windows XP SP3, Windows Server 2003 SP3, Windows Vista SP1, and Windows Server 2008 all have DEP/NX enabled by default in Internet Explorer 8.
@@ -21,9 +29,8 @@ ms.date: 05/31/2018
 
 ## Feature Impact
 
-<dl> **Severity** - Medium  
+**Severity** - Medium  
 **Frequency** - Low  
-</dl>
 
 > [!Note]  
 > Typically, any application that runs in Internet Explorer and is not compatible with DEP/NX will crash on startup and will not function. Internet Explorer may crash on startup if add-ons that are not compatible with DEP/NX are installed.
@@ -60,15 +67,12 @@ Compile applications by using the latest versions of frameworks that are DEP com
 
 ## Links to Other Resources
 
--   [Internet Explorer 8 Security Part I: DEP/NX Memory Protection](https://blogs.msdn.com/ie/archive/2008/04/08/ie8-security-part-I_3A00_-dep-nx-memory-protection.aspx)
--   [Data Execution Prevention](https://msdn.microsoft.com/library/Aa366553(v=VS.85).aspx)
--   [New NX APIs added to Windows Vista SP1, Windows XP SP3 and Windows Server 2008 R2](https://blogs.msdn.com/michael_howard/archive/2008/01/29/new-nx-apis-added-to-windows-vista-sp1-windows-xp-sp3-and-windows-server-2008.aspx)
+-   [Internet Explorer 8 Security Part I: DEP/NX Memory Protection](/archive/blogs/ie/)
+-   [Data Execution Prevention](../memory/data-execution-prevention.md)
+-   [New NX APIs added to Windows Vista SP1, Windows XP SP3 and Windows Server 2008 R2](/archive/blogs/michael_howard/)
 -   [Application Compatibility Toolkit Download](/windows-hardware/get-started/adk-install)
--   [Known Internet Explorer Security Feature Issues](https://technet.microsoft.com/library/cc722079.aspx)
+-   [Known Internet Explorer Security Feature Issues](/previous-versions/windows/it-pro/windows-7/cc722079(v=ws.10))
 
  
 
  
-
-
-

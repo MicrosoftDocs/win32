@@ -3,10 +3,13 @@ title: User Account Control (Design basics)
 description: A well designed User Account Control experience helps prevent unwanted system-wide changes in a way that is predictable and requires minimal effort.
 ms.assetid: c4b83537-c600-4b24-bda6-df7a82719ab1
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # User Account Control
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 A well designed User Account Control experience helps prevent unwanted system-wide changes in a way that is predictable and requires minimal effort.
 
@@ -41,7 +44,7 @@ The second intermediate setting in Windows 7 is the same as the first except tha
 
 Windows 7 introduces two intermediate UAC settings.
 
-**Note:** Guidelines related to writing [code to support User Account Control](https://msdn2.microsoft.com/library/aa905330.aspx) are presented in a separate article.
+**Note:** Guidelines related to writing [code to support User Account Control](/previous-versions/aa905330(v=msdn.10)) are presented in a separate article.
 
 ## Design concepts
 
@@ -253,10 +256,4 @@ In programming and other technical documentation:
 -   Refer to the dialog box used to enter passwords as the Credential UI. Refer to the dialog box used to give consent as the Consent UI. Refer to both generally as Elevation UI.
 
  
-
- 
-
-
-
-
 

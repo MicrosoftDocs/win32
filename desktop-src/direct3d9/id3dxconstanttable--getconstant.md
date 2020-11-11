@@ -48,7 +48,7 @@ Unique identifier to the parent data structure. If the constant is a top-level p
 *Index* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Zero-based index of the constant.
 
@@ -85,7 +85,3 @@ To get a constant from an array of constants, use [**ID3DXConstantTable::GetCons
  
 
  
-
-
-
-

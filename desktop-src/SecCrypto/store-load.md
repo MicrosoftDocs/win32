@@ -17,7 +17,7 @@ api_location:
 
 # Store.Load method
 
-\[The **Load** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](https://msdn.microsoft.com/library/d228271e(v=VS.100).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[The **Load** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](/dotnet/api/system.security.cryptography.x509certificates.x509store?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
 
 The **Load** method imports certificates from a file into the store.
 
@@ -48,7 +48,7 @@ The string that contains the path to a .cer, .sst, .spc, .p7s, or .pfx file, or 
 *Password* \[in, optional\]
 </dt> <dd>
 
-The string that contains the plaintext password to the file. Up to 32 Unicode characters, including a terminating null character, can be used for the password. For information about protecting the password, see [Handling Passwords](https://msdn.microsoft.com/library/ms717799(v=VS.85).aspx).
+The string that contains the plaintext password to the file. Up to 32 Unicode characters, including a terminating null character, can be used for the password. For information about protecting the password, see [Handling Passwords](../secbp/handling-passwords.md).
 
 </dd> <dt>
 
@@ -81,7 +81,7 @@ If the **Load** method is called on a memory store, any key containers that are 
 
 This method raises CAPICOM\_E\_NOT\_ALLOWED when it is scripted from a web-based application.
 
-If the password fails to decrypt the private key file, then the default [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP) should be queried. If the default CSP is the Microsoft Base Cryptographic Provider and the decrypt operation fails, then the decrypt operation should be tried again with the Microsoft Strong Cryptographic Provider or Microsoft Enhanced Cryptographic Provider, whichever is available.
+If the password fails to decrypt the private key file, then the default [*cryptographic service provider*](../secgloss/c-gly.md) (CSP) should be queried. If the default CSP is the Microsoft Base Cryptographic Provider and the decrypt operation fails, then the decrypt operation should be tried again with the Microsoft Strong Cryptographic Provider or Microsoft Enhanced Cryptographic Provider, whichever is available.
 
 If the certificate being loaded into the store is the same as one that is already there, the **Load** method will delete the existing certificate from the store and then add the new certificate. The new certificate will inherit properties from the existing certificate. The existing private key container is replaced by the new private key container.
 
@@ -106,7 +106,3 @@ If the certificate being loaded into the store is the same as one that is alread
  
 
  
-
-
-
-

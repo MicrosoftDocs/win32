@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 A service contract carries metadata that defines how a service to handles channel messages.
 
-## 
 
 A [**WS\_SERVICE\_CONTRACT**](/windows/desktop/api/WebServices/ns-webservices-ws_service_contract) carries metadata for a service to handle a [WS\_MESSAGE](ws-message.md).
 
@@ -26,7 +25,6 @@ If a [**WS\_CONTRACT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webserv
 
 ![](images/servicecontract.png)
 
-## 
 
 ``` syntax
 static WS_SERVICE_CONTRACT calculatorContract = 

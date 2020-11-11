@@ -17,7 +17,7 @@ api_location:
 
 # PrivateKey.Delete method
 
-\[The **Delete** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PrivateKey Property**](https://msdn.microsoft.com/library/ms148460(v=VS.90).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[The **Delete** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PrivateKey Property**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2.privatekey?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
 
 The **Delete** method deletes the private key container referenced by the [**PrivateKey**](privatekey.md) object.
 
@@ -61,7 +61,3 @@ This method raises CAPICOM\_E\_NOT\_ALLOWED when it is scripted from a web-based
  
 
  
-
-
-
-

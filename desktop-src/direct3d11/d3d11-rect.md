@@ -25,7 +25,7 @@ D3D11\_RECT is declared as follows:
 typedef RECT D3D11_RECT;
 ```
 
-For more information about this GDI rectangle structure, see [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)).
+For more information about this GDI rectangle structure, see [**RECT**](/previous-versions//dd162897(v=vs.85)).
 
 ## Remarks
 
@@ -50,10 +50,4 @@ This structure is used for scissor rectangles by [**ID3D11DeviceContext::RSGetSc
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

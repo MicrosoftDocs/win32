@@ -24,8 +24,8 @@ Sets the y value of the white point.
 
 | Method                                                                                               | Description                                     |
 |:-----------------------------------------------------------------------------------------------------|:------------------------------------------------|
-| [**SetWhitePointY**](https://msdn.microsoft.com/library/Dn919720(v=VS.85).aspx)                               | Sets the y value of the white point.<br/> |
-| [**SetWhitePointY (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919721(v=VS.85).aspx) | Sets the y value of the white point.<br/> |
+| [**SetWhitePointY**](/windows/win32/api/dcomp/nf-dcomp-idcompositionbrightnesseffect-setwhitepointy(float))                               | Sets the y value of the white point.<br/> |
+| [**SetWhitePointY (IDCompositionAnimation \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionbrightnesseffect-setwhitepointy(idcompositionanimation)) | Sets the y value of the white point.<br/> |
 
 
 
@@ -43,14 +43,9 @@ Sets the y value of the white point.
 
 <dl> <dt>
 
-[**idcompositionbrightnesseffect**](https://msdn.microsoft.com/library/Dn919711(v=VS.85).aspx)
+[**idcompositionbrightnesseffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionbrightnesseffect)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

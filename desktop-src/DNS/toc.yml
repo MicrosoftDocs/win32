@@ -179,7 +179,7 @@
       - name: "DNS_SERVICE_RESOLVE_REQUEST"
         href: /windows/desktop/api/windns/ns-windns-dns_service_resolve_request
       - name: "DNS_SIG_DATA"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms682094(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/ms682094(v=vs.85)
       - name: "DNS_SOA_DATA"
         href: /windows/desktop/api/Windns/ns-windns-dns_soa_dataa
       - name: "DNS_SRV_DATA"

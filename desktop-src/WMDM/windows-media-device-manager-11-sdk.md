@@ -37,7 +37,7 @@ You can build the following items using the Windows Media Device Manager SDK:
 -   Service providers, which act as the communication link between a custom device and a desktop application. Although Microsoft provides a number of service providers that can communicate with most devices out of the box, you can build a custom service provider to customize the communication between a device and a desktop application.
 -   Plug-ins, which can perform tasks such as requesting and logging play counts on devices. These plug-ins can be attached to other desktop applications, such as the Windows Media Player to send information to content providers to handle royalty payments to artists.
 
-To download the Windows Media Device Manager SDK, see [the Windows Media Download page](https://msdn.microsoft.com/en-US/windows/desktop/aa904949) on the MSDN Web site.
+To download the Windows Media Device Manager SDK, see [the Windows Media Download page](https://msdn.microsoft.com/windows/desktop/aa904949) on the MSDN Web site.
 
 This SDK is a component of the Microsoft Windows Media Software Development Kit. Other components include the Windows Media Format SDK, the Windows Media Services SDK, the Windows Media Encoder SDK, the Windows Media Rights Manager SDK, and the Windows Media Player SDK.
 

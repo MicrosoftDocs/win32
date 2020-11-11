@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Example Code for Setting Permissions on a Group of Properties
 
-The following C and C++ code examples create an ACE that assigns read and write access to the attributes of the [**Personal Information**](https://docs.microsoft.com/windows/desktop/ADSchema/r-personal-information) property set of user objects to the specified trustee.
+The following C and C++ code examples create an ACE that assigns read and write access to the attributes of the [**Personal Information**](/windows/desktop/ADSchema/r-personal-information) property set of user objects to the specified trustee.
 
 
 ```C++
@@ -130,7 +130,3 @@ HRESULT CreateAceChangePersonalInfoPropGroupOfUsers(LPWSTR pwszTrustee,
  
 
  
-
-
-
-

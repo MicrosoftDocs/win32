@@ -68,9 +68,9 @@ The number of color table entries to set.
 *prgb* \[in\]
 </dt> <dd>
 
-Type: **[**RGBQUAD**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-rgbquad)\***
+Type: **[**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad)\***
 
-A pointer to an array of *len* [**RGBQUAD**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-rgbquad) structures containing new color information for the color table of the DIB.
+A pointer to an array of *len* [**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad) structures containing new color information for the color table of the DIB.
 
 </dd> </dl>
 
@@ -104,10 +104,4 @@ Only image lists created with the [**ILC\_COLOR4**](/windows/desktop/api/Commctr
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

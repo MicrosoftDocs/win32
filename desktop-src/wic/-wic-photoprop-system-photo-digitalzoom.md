@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.DigitalZoom Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.DigitalZoom](https://msdn.microsoft.com/library/bb760412(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.DigitalZoom](../properties/props-system-photo-digitalzoom.md) property.
 
 ### PKEY
 
@@ -118,12 +118,9 @@ This value is generated from System.Photo.DigitalZoomNumerator and System.Photo.
 
 <dl> <dt>
 
-[System.Photo.DigitalZoom](https://msdn.microsoft.com/library/bb760412(VS.85).aspx)
+[System.Photo.DigitalZoom](../properties/props-system-photo-digitalzoom.md)
 </dt> </dl>
 
  
 
  
-
-
-

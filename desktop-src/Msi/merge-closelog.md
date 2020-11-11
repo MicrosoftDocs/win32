@@ -39,7 +39,7 @@ This method does not return a value.
 
 ## C++
 
-See [**CloseLog**](https://msdn.microsoft.com/library/Aa369266(v=VS.85).aspx) function.
+See [**CloseLog**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-closelog) function.
 
 ## Requirements
 
@@ -56,7 +56,3 @@ See [**CloseLog**](https://msdn.microsoft.com/library/Aa369266(v=VS.85).aspx) fu
  
 
  
-
-
-
-

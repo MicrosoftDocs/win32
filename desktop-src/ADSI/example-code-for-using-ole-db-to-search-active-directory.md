@@ -15,18 +15,17 @@ ms.date: 05/31/2018
 
 The following code example shows how to search Active Directory using C++, COM, and OLE DB. This is an example of a function that takes the distinguished name of the container to search under and the credentials to use for the search. The example will perform a subtree search under the specified container for all objects that have an **objectClass** of "user". The example will print the **name** and **ADsPath** attributes of each user to the console window.
 
-There are two query dialects that can be used with the ADSI OLE DB provider, LDAP and SQL. The dialect is specified in the [ICommandText::SetCommandText](https://msdn.microsoft.com/library/ms709757.aspx) method with one of the following GUIDs:
+There are two query dialects that can be used with the ADSI OLE DB provider, LDAP and SQL. The dialect is specified in the [ICommandText::SetCommandText](/previous-versions/windows/desktop/ms709757(v=vs.85)) method with one of the following GUIDs:
 
 -   **DBGUID\_SQL** for the SQL dialect.
 -   **DBGUID\_LDAPDialect** for the LDAP dialect.
 
 This example uses the LDAP dialect.
 
-The [ICommandText::SetCommandText](https://msdn.microsoft.com/library/ms709757.aspx) method can also accept the **DBGUID\_DEFAULT** GUID for the dialect. In this case, ADSI will attempt to use the SQL dialect first; if that fails, ADSI will attempt to use the LDAP dialect. For more information, see [LDAP dialect](ldap-dialect.md) and [SQL dialect](sql-dialect.md).
+The [ICommandText::SetCommandText](/previous-versions/windows/desktop/ms709757(v=vs.85)) method can also accept the **DBGUID\_DEFAULT** GUID for the dialect. In this case, ADSI will attempt to use the SQL dialect first; if that fails, ADSI will attempt to use the LDAP dialect. For more information, see [LDAP dialect](ldap-dialect.md) and [SQL dialect](sql-dialect.md).
 
 For more information about OLE DB, see the OLE DB Programmer's Guide.
 
-## 
 
 
 ```C++
@@ -466,7 +465,3 @@ void PrintRowData(DBBINDING *rgBind,
  
 
  
-
-
-
-

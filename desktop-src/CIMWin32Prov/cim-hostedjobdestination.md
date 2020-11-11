@@ -61,7 +61,7 @@ Data type: **CIM\_System**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_System**](cim-system.md) that describes the hosting system.
@@ -77,7 +77,7 @@ Data type: **CIM\_JobDestination**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Weak**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Weak**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 A [**CIM\_JobDestination**](cim-jobdestination.md) describing the job destination hosted on the system.
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -10,8 +10,7 @@ ms.date: 05/31/2018
 
 ## Platform
 
-<dl> **Servers** – Windows Server 2012  
-</dl>
+**Servers** – Windows Server 2012 
 
 ## Description
 
@@ -27,13 +26,9 @@ The key features of ReFS are:
 
 ## Resources
 
--   [Building Windows 8 Blog Post – Building the next generation file system for Windows: ReFS](https://blogs.msdn.com/b/b8/archive/2012/01/16/building-the-next-generation-file-system-for-windows-refs.aspx)
+-   [Building Windows 8 Blog Post – Building the next generation file system for Windows: ReFS](/archive/blogs/b8/building-the-next-generation-file-system-for-windows-refs)
 -   [Application Compatibility and ReFS](https://www.microsoft.com/download/en/details.aspx?id=29043)
 
  
 
  
-
-
-
-

@@ -34,7 +34,7 @@ Selects or deselects one or more consecutive items in a multiple-selection list 
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the zero-based index of the first item to select. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the zero-based index of the last item to select.
+The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the zero-based index of the first item to select. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the zero-based index of the last item to select.
 
 </dd> </dl>
 
@@ -76,14 +76,8 @@ This message can select a range only within the first 65,536 items.
 **Other Resources**
 </dt> <dt>
 
-[**MAKELPARAM**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makelparam)
+[**MAKELPARAM**](/windows/desktop/api/winuser/nf-winuser-makelparam)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

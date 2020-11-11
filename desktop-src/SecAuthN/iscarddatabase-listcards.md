@@ -17,9 +17,9 @@ api_location:
 
 # ISCardDatabase::ListCards method
 
-\[The **ListCards** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **ListCards** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
-The **ListCards** method retrieves all of the smart card names that match the specified interface identifiers (GUIDs), the specified [*ATR string*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx), or both.
+The **ListCards** method retrieves all of the smart card names that match the specified interface identifiers (GUIDs), the specified [*ATR string*](../secgloss/a-gly.md), or both.
 
 ## Syntax
 
@@ -42,7 +42,7 @@ HRESULT ListCards(
 *pAtr* \[in\]
 </dt> <dd>
 
-Pointer to a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) ATR string. The ATR string must be packaged into an [**IByteBuffer**](ibytebuffer.md).
+Pointer to a [*smart card*](../secgloss/s-gly.md) ATR string. The ATR string must be packaged into an [**IByteBuffer**](ibytebuffer.md).
 
 </dd> <dt>
 
@@ -86,9 +86,9 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-To retrieve all known [*readers*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx) or [*reader*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx), call [**ListReaders**](iscarddatabase-listreaders.md) or [**ListReaderGroups**](iscarddatabase-listreadergroups.md) respectively.
+To retrieve all known [*readers*](../secgloss/r-gly.md) or [*reader*](../secgloss/r-gly.md), call [**ListReaders**](iscarddatabase-listreaders.md) or [**ListReaderGroups**](iscarddatabase-listreadergroups.md) respectively.
 
-To retrieve the [*primary service*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) or the interfaces of a specific card [**GetProviderCardId**](iscarddatabase-getprovidercardid.md) or [**ListCardInterfaces**](iscarddatabase-listcardinterfaces.md) respectively.
+To retrieve the [*primary service*](../secgloss/p-gly.md) or the interfaces of a specific card [**GetProviderCardId**](iscarddatabase-getprovidercardid.md) or [**ListCardInterfaces**](iscarddatabase-listcardinterfaces.md) respectively.
 
 For a list of all the methods provided by this interface, see [**ISCardDatabase**](iscarddatabase.md).
 
@@ -165,7 +165,3 @@ else
  
 
  
-
-
-
-

@@ -87,13 +87,9 @@ Interfaces can be marked with the TYPEFLAG\_PROXY flag to indicate they will be 
 [**dual**](dual.md)
 </dt> <dt>
 
-[**TYPEFLAGS**](https://msdn.microsoft.com/library/ms221509(v=VS.71).aspx)
+[**TYPEFLAGS**](/windows/win32/api/oaidl/ne-oaidl-typeflags)
 </dt> </dl>
 
  
 
  
-
-
-
-

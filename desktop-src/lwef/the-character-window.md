@@ -21,7 +21,6 @@ Open \| Close <span class="underline">V</span>oice Commands Window
 ----------------------------…
 
 Command\*
-## 
 
 
 *OtherHostingApplicationCaption\*\**

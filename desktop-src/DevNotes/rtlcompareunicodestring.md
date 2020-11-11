@@ -81,7 +81,7 @@ A signed value that gives the results of the comparison:
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                    |
-| Target platform<br/>          | <dl> <dt>[Universal](https://msdn.microsoft.com/En-US/Library/Windows/Hardware/EB2264A4-BAE8-446B-B9A5-19893936DDCA)</dt> </dl> |
+| Target platform<br/>          | <dl> <dt>[Universal](https://msdn.microsoft.com/Library/Windows/Hardware/EB2264A4-BAE8-446B-B9A5-19893936DDCA)</dt> </dl> |
 | Header<br/>                   | <dl> <dt>Wdm.h (include Wdm.h, Ntddk.h, or Ntifs.h)</dt> </dl>                   |
 | Library<br/>                  | <dl> <dt>Ntdll.lib</dt> </dl>                                                    |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll</dt> </dl>                                                    |
@@ -92,16 +92,12 @@ A signed value that gives the results of the comparison:
 
 <dl> <dt>
 
-[**RtlCompareString**](https://msdn.microsoft.com/library/Ff561781(v=VS.85).aspx)
+[**RtlCompareString**](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlcomparestring)
 </dt> <dt>
 
-[**RtlEqualString**](https://msdn.microsoft.com/library/Ff561852(v=VS.85).aspx)
+[**RtlEqualString**](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlequalstring)
 </dt> </dl>
 
  
 
  
-
-
-
-

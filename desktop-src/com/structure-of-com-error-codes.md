@@ -28,7 +28,7 @@ Common facility fields are described in the following table.
 | FACILITY\_ITF<br/>      | 4<br/> | For most status codes returned from interface methods. The actual meaning of the error is defined by the interface. That is, two **HRESULT**s with exactly the same 32-bit value returned from two different interfaces might have different meanings. <br/>                                                       |
 | FACILITY\_NULL<br/>     | 0<br/> | For broadly applicable common status codes such as S\_OK. <br/>                                                                                                                                                                                                                                                    |
 | FACILITY\_RPC<br/>      | 1<br/> | For status codes returned from remote procedure calls. <br/>                                                                                                                                                                                                                                                       |
-| FACILITY\_STORAGE<br/>  | 3<br/> | For status codes returned from [**IStorage**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage) or [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) method calls relating to structured storage. Status codes whose code (lower 16 bits) value is in the range of MS-DOS error codes (that is, less than 256) have the same meaning as the corresponding MS-DOS error. <br/> |
+| FACILITY\_STORAGE<br/>  | 3<br/> | For status codes returned from [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) or [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) method calls relating to structured storage. Status codes whose code (lower 16 bits) value is in the range of MS-DOS error codes (that is, less than 256) have the same meaning as the corresponding MS-DOS error. <br/> |
 | FACILITY\_WIN32<br/>    | 7<br/> | Used to provide a means of handling error codes from functions in the Windows API as an **HRESULT**. Error codes in 16-bit OLE that duplicated system error codes have also been changed to FACILITY\_WIN32. <br/>                                                                                                 |
 | FACILITY\_WINDOWS<br/>  | 8<br/> | Used for additional error codes from Microsoft-defined interfaces.<br/>                                                                                                                                                                                                                                            |
 
@@ -51,14 +51,8 @@ Error codes are defined within the context of an interface implementation. Once 
 [Error Handling in COM](error-handling-in-com.md)
 </dt> <dt>
 
-[Windows Protocols: HRESULT](https://msdn.microsoft.com/library/cc231198(PROT.10).aspx)
+[Windows Protocols: HRESULT](/openspecs/windows_protocols/ms-erref/0642cb2f-2075-4469-918c-4441e69c548a)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

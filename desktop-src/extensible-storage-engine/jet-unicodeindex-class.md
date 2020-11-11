@@ -32,7 +32,7 @@ Customizes how Unicode data gets normalized when an index is created over a Unic
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
@@ -66,4 +66,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 [JET_UNICODEINDEX members](dn351131\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

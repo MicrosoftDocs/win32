@@ -1,6 +1,6 @@
 ---
-title: Username Element
-description: Captures the user name to be sent in the EAP-Identity response.
+title: Username element (TLS)
+description: Learn about the Username element. This element captures the user name to be sent in the EAP-Identity response.
 ms.assetid: dda4a7dd-36ba-418d-9b26-2818ef20854d
 keywords:
 - Username element EAPHost
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# Username Element
+# Username element (TLS)
 
 The **Username** element captures the user name to be sent in the EAP-Identity response.
 
@@ -32,10 +32,10 @@ If the **Username** element is absent, then EAP-TLS uses the name in the certifi
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS versions |
+|------|-------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

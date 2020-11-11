@@ -41,7 +41,7 @@ Constructs instances of the [**XMUBYTEN2**](/windows/desktop/api/DirectXPackedVe
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten2-xmubyten2(constfloat)"><strong>XMUBYTEN2 ()</strong></a></td>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten2-xmubyten2(constfloat)"><strong>XMUBYTEN2 ()</strong></a></td>
 <td style="text-align: left;">Default constructor for <code>XMUBYTEN2</code><br/> Default constructor for <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmubyten2"><strong>XMUBYTEN2</strong></a>.<br/>
 <blockquote>
 [!Note]<br />
@@ -50,7 +50,7 @@ This constructor is only available with C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten2-xmubyten2(float_float)"><strong>XMUBYTEN2 (float,float)</strong></a></td>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten2-xmubyten2(float_float)"><strong>XMUBYTEN2 (float,float)</strong></a></td>
 <td style="text-align: left;">Initializes a new instance of <code>XMUBYTEN2</code> from two <code>float</code> arguments.<br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmubyten2"><strong>XMUBYTEN2</strong></a> from two <code>float</code> arguments.<br/>
 <blockquote>
 [!Note]<br />
@@ -59,7 +59,7 @@ This constructor is only available with C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten2-xmubyten2(constfloat)"><strong>XMUBYTEN2 (const float*)</strong></a></td>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten2-xmubyten2(constfloat)"><strong>XMUBYTEN2 (const float*)</strong></a></td>
 <td style="text-align: left;">Initializes a new instance of <code>XMUBYTEN2</code> from a two-element <code>float</code> array argument.<br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmubyten2"><strong>XMUBYTEN2</strong></a> from a from a two-element <code>float</code> array argument.<br/>
 <blockquote>
 [!Note]<br />
@@ -68,7 +68,7 @@ This constructor is only available with C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten2-xmubyten2(constuint8_t)"><strong>XMUBYTEN2 (const uint8_t*)</strong></a></td>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten2-xmubyten2(constuint8_t)"><strong>XMUBYTEN2 (const uint8_t*)</strong></a></td>
 <td style="text-align: left;">Initializes a new instance of <code>XMUBYTEN2</code> from a two-element <code>uint8_t</code> array argument.<br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmubyten2"><strong>XMUBYTEN2</strong></a> from a two-element <code>uint8_t</code> array argument.<br/>
 <blockquote>
 [!Note]<br />
@@ -77,7 +77,7 @@ This constructor is only available with C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten2-xmubyten2(uint8_t_uint8_t)"><strong>XMUBYTEN2 (uint8_t,uint8_t)</strong></a></td>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmubyten2-xmubyten2(uint8_t_uint8_t)"><strong>XMUBYTEN2 (uint8_t,uint8_t)</strong></a></td>
 <td style="text-align: left;">Initializes a new instance of <code>XMUBYTEN2</code> from two <code>uint8_t</code> arguments.<br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmubyten2"><strong>XMUBYTEN2</strong></a> from two <code>uint8_t</code> arguments.<br/>
 <blockquote>
 [!Note]<br />
@@ -106,7 +106,3 @@ This constructor is only available with C++.
  
 
  
-
-
-
-

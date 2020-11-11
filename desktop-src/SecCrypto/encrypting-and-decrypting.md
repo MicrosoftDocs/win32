@@ -11,8 +11,8 @@ ms.date: 05/31/2018
 The following sections deal with encrypting messages and files:
 
 -   [Manual Session Key Exchanges](manual-session-key-exchanges.md)
--   [Encrypting a Message](https://msdn.microsoft.com/library/Aa375375(v=VS.85).aspx)
--   [Decrypting a Message](https://msdn.microsoft.com/library/Aa375205(v=VS.85).aspx)
+-   [Encrypting a Message](../secauthn/encrypting-a-message.md)
+-   [Decrypting a Message](../secauthn/decrypting-a-message.md)
 -   [Example C Program: Using CryptEncryptMessage and CryptDecryptMessage](example-c-program-using-cryptencryptmessage-and-cryptdecryptmessage.md)
 -   [Example C Program: Using CryptProtectData](example-c-program-using-cryptprotectdata.md)
 -   [Example C Program: Encrypting a File](example-c-program-encrypting-a-file.md)
@@ -21,6 +21,3 @@ The following sections deal with encrypting messages and files:
  
 
  
-
-
-

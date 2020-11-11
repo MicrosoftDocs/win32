@@ -29,7 +29,7 @@ Data loading object used by [**ID3DX11ThreadPump Interface**](id3dx11threadpump.
 
 ## Members
 
-The **ID3DX11DataLoader** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ID3DX11DataLoader** also has these types of members:
+The **ID3DX11DataLoader** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ID3DX11DataLoader** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -107,10 +107,4 @@ This object can be inherited and its members redefined. Doing so would enable yo
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

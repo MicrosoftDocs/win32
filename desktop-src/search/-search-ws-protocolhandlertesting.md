@@ -67,7 +67,7 @@ To distinguish between a SearchProtocolHost process running in the system contex
 
 ## Additional Resources
 
--   For information on creating handlers, see [Registering Shell Extensions](https://msdn.microsoft.com/library/cc144110(VS.85).aspx).
+-   For information on creating handlers, see [Registering Shell Extensions](../shell/reg-shell-exts.md).
 
 ## Related topics
 
@@ -76,7 +76,3 @@ To distinguish between a SearchProtocolHost process running in the system contex
  
 
  
-
-
-
-

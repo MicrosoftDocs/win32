@@ -34,7 +34,7 @@ Defines what the server authorizes.
 
 ## Remarks
 
-These constants are used by methods of the [**IClientSecurity**](/windows/desktop/api/ObjIdl/nn-objidl-iclientsecurity) interface. They are used in the [**SOLE\_AUTHENTICATION\_SERVICE**](https://msdn.microsoft.com/library/ms686648(v=VS.85).aspx) structure, which is retrieved by the [**CoQueryAuthenticationServices**](/windows/desktop/api/combaseapi/nf-combaseapi-coqueryauthenticationservices) function. They are also used in the [**SOLE\_AUTHENTICATION\_INFO**](https://msdn.microsoft.com/library/ms680049(v=VS.85).aspx) structure, which in turn is a member of the [**SOLE\_AUTHENTICATION\_LIST**](https://msdn.microsoft.com/library/ms680039(v=VS.85).aspx) structure. This structure, which is a list of authentication services, the authorization services they perform, and the authentication information for each service, is passed to the [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) function and the [**IClientSecurity::SetBlanket**](https://msdn.microsoft.com/library/ms691255(v=VS.85).aspx) method.
+These constants are used by methods of the [**IClientSecurity**](/windows/desktop/api/ObjIdl/nn-objidl-iclientsecurity) interface. They are used in the [**SOLE\_AUTHENTICATION\_SERVICE**](/windows/win32/api/objidlbase/ns-objidlbase-sole_authentication_service) structure, which is retrieved by the [**CoQueryAuthenticationServices**](/windows/desktop/api/combaseapi/nf-combaseapi-coqueryauthenticationservices) function. They are also used in the [**SOLE\_AUTHENTICATION\_INFO**](/windows/win32/api/objidlbase/ns-objidlbase-sole_authentication_info) structure, which in turn is a member of the [**SOLE\_AUTHENTICATION\_LIST**](/windows/win32/api/objidlbase/ns-objidlbase-sole_authentication_list) structure. This structure, which is a list of authentication services, the authorization services they perform, and the authentication information for each service, is passed to the [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) function and the [**IClientSecurity::SetBlanket**](/windows/win32/api/objidl/nf-objidl-iclientsecurity-setblanket) method.
 
 ## Requirements
 
@@ -61,17 +61,11 @@ These constants are used by methods of the [**IClientSecurity**](/windows/deskto
 [**IClientSecurity**](/windows/desktop/api/ObjIdl/nn-objidl-iclientsecurity)
 </dt> <dt>
 
-[**SOLE\_AUTHENTICATION\_INFO**](https://msdn.microsoft.com/library/ms680049(v=VS.85).aspx)
+[**SOLE\_AUTHENTICATION\_INFO**](/windows/win32/api/objidlbase/ns-objidlbase-sole_authentication_info)
 </dt> <dt>
 
-[**SOLE\_AUTHENTICATION\_SERVICE**](https://msdn.microsoft.com/library/ms686648(v=VS.85).aspx)
+[**SOLE\_AUTHENTICATION\_SERVICE**](/windows/win32/api/objidlbase/ns-objidlbase-sole_authentication_service)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

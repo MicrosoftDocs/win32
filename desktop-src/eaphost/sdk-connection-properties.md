@@ -1,6 +1,6 @@
 ---
 title: SDK Connection Properties
-description: Is an instance of the eaphostconfig native schema.
+description: Learn about SDK connection properties. See a sample that's an instance of the eaphostconfig native schema.
 ms.assetid: 34c9b423-4f4c-484e-86d7-4594566cd396
 ms.topic: article
 ms.date: 05/31/2018
@@ -12,9 +12,9 @@ This sample is an instance of the [eaphostconfig](eaphostconfigschema-schema.md)
 
 ``` syntax
   <?xml version="1.0" ?> 
-  <EapHostConfig xmlns="http://www.microsoft.com/provisioning/EapHostConfig" 
-    xmlns:eapCommon="http://www.microsoft.com/provisioning/EapCommon" 
-    xmlns:baseEap="http://www.microsoft.com/provisioning/BaseEapMethodConfig">
+  <EapHostConfig xmlns="https://www.microsoft.com/provisioning/EapHostConfig" 
+    xmlns:eapCommon="https://www.microsoft.com/provisioning/EapCommon" 
+    xmlns:baseEap="https://www.microsoft.com/provisioning/BaseEapMethodConfig">
     <EapMethod>
       <eapCommon:Type>40</eapCommon:Type> 
       <eapCommon:AuthorId>100</eapCommon:AuthorId> 

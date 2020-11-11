@@ -27,7 +27,7 @@ The [**PenInputPanel**](peninputpanel-class.md) object adopts the settings from 
 
 The [**PenInputPanel**](peninputpanel-class.md) object does not provide access to the underlying ink. To get the ink, use the [InkPicture](inkpicture-control-reference.md) control.
 
-The [**PenInputPanel**](peninputpanel-class.md) object provides an in-place user interface (UI) that is easily discoverable by end users of your applications. It is automatically activated when the user taps on a window with a **PenInputPanel** object using the tablet pen. The pen input panel appears automatically when the system detects a CursorButtonUp event for the window to which the **PenInputPanel** object is attached. Automatic activation can be disabled by setting the [**AutoShow**](https://msdn.microsoft.com/library/ms703289(v=VS.85).aspx) property to **FALSE**.
+The [**PenInputPanel**](peninputpanel-class.md) object provides an in-place user interface (UI) that is easily discoverable by end users of your applications. It is automatically activated when the user taps on a window with a **PenInputPanel** object using the tablet pen. The pen input panel appears automatically when the system detects a CursorButtonUp event for the window to which the **PenInputPanel** object is attached. Automatic activation can be disabled by setting the [**AutoShow**](/windows/win32/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_autoshow) property to **FALSE**.
 
 The pen input panel does not appear automatically on mouse events. Pen events are converted to mouse events when using Terminal Services. The [**PenInputPanel**](peninputpanel-class.md) object does not work over a Terminal Services connection.
 
@@ -74,7 +74,7 @@ The [**PenInputPanel**](peninputpanel-class.md) object supports shipping recogni
 
 By default, the pen input panel is automatically positioned relative to the control to which it is attached. It does not overlap the control unless there is not enough screen real estate for both the pen input panel and the control, or unless the developer sets the pen input panel's position explicitly.
 
-Automatic positioning functions only when the developer has not explicitly set the position using the [**MoveTo**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-moveto) method. To override automatic positioning, change the values of the [**Top**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_top) and [**Left**](https://msdn.microsoft.com/library/ms701203(v=VS.85).aspx) properties in a [**PanelMoving**](peninputpanel-panelmoving.md) event handler.
+Automatic positioning functions only when the developer has not explicitly set the position using the [**MoveTo**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-moveto) method. To override automatic positioning, change the values of the [**Top**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_top) and [**Left**](/windows/win32/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_left) properties in a [**PanelMoving**](peninputpanel-panelmoving.md) event handler.
 
 The position of the pen input panel is constrained by the edges of the screen. No edge of the pen input panel can be closer than 0.25 inches from any border of the screen.
 
@@ -91,11 +91,8 @@ It is sometimes necessary for the pen input panel to overlap the attached contro
 
 ### Windowless Controls
 
-In the case where a [**PenInputPanel**](peninputpanel-class.md) object is attached to a windowless control, the pen input panel is positioned relative to the parent of the windowless control. Set the [**Top**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_top) and [**Left**](https://msdn.microsoft.com/library/ms701203(v=VS.85).aspx) properties in a [**PanelMoving**](peninputpanel-panelmoving.md) event handler or use the [**MoveTo**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-moveto) method to manually position the pen input panel.
+In the case where a [**PenInputPanel**](peninputpanel-class.md) object is attached to a windowless control, the pen input panel is positioned relative to the parent of the windowless control. Set the [**Top**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_top) and [**Left**](/windows/win32/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_left) properties in a [**PanelMoving**](peninputpanel-panelmoving.md) event handler or use the [**MoveTo**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-moveto) method to manually position the pen input panel.
 
  
 
  
-
-
-

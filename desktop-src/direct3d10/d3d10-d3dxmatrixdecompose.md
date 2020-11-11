@@ -41,7 +41,7 @@ HRESULT D3DXMatrixDecompose(
 *pOutScale* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to the output [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that contains scaling factors applied along the x, y, and z-axes.
 
@@ -50,7 +50,7 @@ Pointer to the output [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that contains scal
 *pOutRotation* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that describes the rotation.
 
@@ -59,7 +59,7 @@ Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that describes the 
 *pOutTranslation* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to the D3DXVECTOR3 vector that describes the translation.
 
@@ -68,7 +68,7 @@ Pointer to the D3DXVECTOR3 vector that describes the translation.
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **const [**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to an input [**D3DXMATRIX**](d3d10-d3dxmatrix.md) matrix to decompose.
 
@@ -101,7 +101,3 @@ If the function succeeds, the return value is S\_OK. If the function fails, the 
  
 
  
-
-
-
-

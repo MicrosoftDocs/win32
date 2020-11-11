@@ -25,7 +25,7 @@ The **DeleteEx** method deletes the logical file (or directory) specified in the
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -53,7 +53,7 @@ String that represents the name of the file (or directory) where the method fail
 *StartFileName* \[in, optional\]
 </dt> <dd>
 
-String that names the child file (or directory) to use as a starting point for the method. Typically, this parameter is the *StopFileName* parameter specifying the file or directory at which an error occurred from the previous method call. If this parameter is null, the operation is performed on the file or directory specified in the [**ExecMethod**](https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservices-execmethod) call.
+String that names the child file (or directory) to use as a starting point for the method. Typically, this parameter is the *StopFileName* parameter specifying the file or directory at which an error occurred from the previous method call. If this parameter is null, the operation is performed on the file or directory specified in the [**ExecMethod**](/windows/desktop/WmiSdk/swbemservices-execmethod) call.
 
 </dd> </dl>
 
@@ -211,9 +211,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

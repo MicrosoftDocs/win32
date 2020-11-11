@@ -10,7 +10,7 @@ ms.topic: reference
 
 # WBEMTime::operator= operators
 
-\[The [**WBEMTime**](wbemtime.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The [**WBEMTime**](wbemtime.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The [**WBEMTime**](wbemtime.md) class assignment operators are overloaded to facilitate conversions between various Windows and ANSI C run-time time formats. The various overloaded signatures are listed below.
 
@@ -20,11 +20,11 @@ The [**WBEMTime**](wbemtime.md) class assignment operators are overloaded to fac
 
 | Operator                                                                     | Description                                                    |
 |:-----------------------------------------------------------------------------|:---------------------------------------------------------------|
-| [**operator=(BSTR)**](https://msdn.microsoft.com/library/Aa394031(v=VS.85).aspx)               | Converts a **BSTR** to **WBEMTime** format.<br/>         |
-| [**operator=(time\_t&)**](https://msdn.microsoft.com/library/Aa394035(v=VS.85).aspx)        | Converts **time\_t** to **WBEMTime** format.<br/>        |
-| [**operator=(FILETIME&)**](https://msdn.microsoft.com/library/Aa394032(v=VS.85).aspx)     | Converts **FILETIME** to **WBEMTime** format.<br/>       |
-| [**operator=(struct tm&)**](https://msdn.microsoft.com/library/Aa394033(v=VS.85).aspx)   | Converts a **tm** structure to **WBEMTime** format.<br/> |
-| [**operator=(SYSTEMTIME&)**](https://msdn.microsoft.com/library/Aa394034(v=VS.85).aspx) | Converts **SYSTEMTIME** to **WBEMTime** format.<br/>     |
+| [**operator=(BSTR)**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(constbstr))               | Converts a **BSTR** to **WBEMTime** format.<br/>         |
+| [**operator=(time\_t&)**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(consttime_t_))        | Converts **time\_t** to **WBEMTime** format.<br/>        |
+| [**operator=(FILETIME&)**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(constfiletime_))     | Converts **FILETIME** to **WBEMTime** format.<br/>       |
+| [**operator=(struct tm&)**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(consttm_))   | Converts a **tm** structure to **WBEMTime** format.<br/> |
+| [**operator=(SYSTEMTIME&)**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(constsystemtime_)) | Converts **SYSTEMTIME** to **WBEMTime** format.<br/>     |
 
 
 
@@ -44,7 +44,3 @@ The [**WBEMTime**](wbemtime.md) class assignment operators are overloaded to fac
 �
 
 �
-
-
-
-

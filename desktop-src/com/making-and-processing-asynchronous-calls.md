@@ -19,15 +19,15 @@ Clients do not make asynchronous calls directly on the server object. Instead, t
 
  
 
-Server objects that support asynchronous calls implement the [**ICallFactory**](https://msdn.microsoft.com/library/ms680133(v=VS.85).aspx) interface. This interface exposes a single method, [**CreateCall**](https://msdn.microsoft.com/library/ms688577(v=VS.85).aspx), which creates an instance of a specified call object. Clients can query for **ICallFactory** to determine whether an object supports asynchronous calling.
+Server objects that support asynchronous calls implement the [**ICallFactory**](/windows/win32/api/objidlbase/nn-objidlbase-icallfactory) interface. This interface exposes a single method, [**CreateCall**](/windows/win32/api/objidlbase/nf-objidlbase-icallfactory-createcall), which creates an instance of a specified call object. Clients can query for **ICallFactory** to determine whether an object supports asynchronous calling.
 
 For each method on a synchronous interface, the corresponding asynchronous interface implements two methods. These methods attach the prefixes Begin\_ and Finish\_ to the name of the synchronous method. For example, if an interface named ISimpleStream has a Read method, the AsyncISimpleStream interface will have a Begin\_Read and a Finish\_Read method. To begin an asynchronous call, the client calls the Begin\_ method.
 
-When you implement a server object, you do not have to provide a call object for every interface the object implements. If the server object implements the [**ICallFactory**](https://msdn.microsoft.com/library/ms680133(v=VS.85).aspx) interface and uses standard marshaling, a marshaled client can always obtain a proxy call object, even if there is no call object on the server side. This proxy will marshal the Begin\_ method as a synchronous call, the server will process the call synchronously, and the client can obtain the out parameters by calling the Finish\_ method.
+When you implement a server object, you do not have to provide a call object for every interface the object implements. If the server object implements the [**ICallFactory**](/windows/win32/api/objidlbase/nn-objidlbase-icallfactory) interface and uses standard marshaling, a marshaled client can always obtain a proxy call object, even if there is no call object on the server side. This proxy will marshal the Begin\_ method as a synchronous call, the server will process the call synchronously, and the client can obtain the out parameters by calling the Finish\_ method.
 
 Conversely, if a client makes a marshaled synchronous call on an interface for which there is a call object on the server side, the server will always process the call asynchronously. This behavior will not be apparent to the client, because the client will receive the same out parameters and the same return value it would have received from the synchronous method.
 
-In either case, the interaction between client and server is marshaled as if the call were synchronous: The output of synchronous and asynchronous proxies is indistinguishable, as is the output of the corresponding stubs. This behavior greatly simplifies the programming model both of clients and of servers. If a server object implements [**ICallFactory**](https://msdn.microsoft.com/library/ms680133(v=VS.85).aspx), a marshaled client does not have to attempt to create a call object that may not be available — to the client, a call object is always available.
+In either case, the interaction between client and server is marshaled as if the call were synchronous: The output of synchronous and asynchronous proxies is indistinguishable, as is the output of the corresponding stubs. This behavior greatly simplifies the programming model both of clients and of servers. If a server object implements [**ICallFactory**](/windows/win32/api/objidlbase/nn-objidlbase-icallfactory), a marshaled client does not have to attempt to create a call object that may not be available — to the client, a call object is always available.
 
 When client and server are in the same apartment, the server object will process whichever call the client makes. If a call object is not available, the client must explicitly obtain the synchronous interface and make a synchronous call.
 
@@ -41,7 +41,3 @@ For more information, see the following topics:
  
 
  
-
-
-
-

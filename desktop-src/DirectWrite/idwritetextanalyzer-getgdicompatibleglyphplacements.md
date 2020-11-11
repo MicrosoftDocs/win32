@@ -71,7 +71,7 @@ An array of characters containing the original string from which the glyphs came
 
 Type: **const UINT16\***
 
-A pointer to the mapping from character ranges to glyph ranges. This is returned by [**GetGlyphs**](https://msdn.microsoft.com/library/Dd316625(v=VS.85).aspx).
+A pointer to the mapping from character ranges to glyph ranges. This is returned by [**GetGlyphs**](/windows/win32/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs).
 
 </dd> <dt>
 
@@ -80,7 +80,7 @@ A pointer to the mapping from character ranges to glyph ranges. This is returned
 
 Type: **[**DWRITE\_SHAPING\_TEXT\_PROPERTIES**](/windows/win32/api/dwrite/ns-dwrite-dwrite_shaping_text_properties)\***
 
-A pointer to an array of structures that contains shaping properties for each character. This structure is returned by [**GetGlyphs**](https://msdn.microsoft.com/library/Dd316625(v=VS.85).aspx).
+A pointer to an array of structures that contains shaping properties for each character. This structure is returned by [**GetGlyphs**](/windows/win32/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs).
 
 </dd> <dt>
 
@@ -98,7 +98,7 @@ The text length of *textString*.
 
 Type: **const UINT16\***
 
-An array of glyph indices returned by [**GetGlyphs**](https://msdn.microsoft.com/library/Dd316625(v=VS.85).aspx).
+An array of glyph indices returned by [**GetGlyphs**](/windows/win32/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs).
 
 </dd> <dt>
 
@@ -107,7 +107,7 @@ An array of glyph indices returned by [**GetGlyphs**](https://msdn.microsoft.com
 
 Type: **const [**DWRITE\_SHAPING\_GLYPH\_PROPERTIES**](/windows/win32/api/dwrite/ns-dwrite-dwrite_shaping_glyph_properties)\***
 
-A pointer to an array of structures that contain shaping properties for each glyph returned by [**GetGlyphs**](https://msdn.microsoft.com/library/Dd316625(v=VS.85).aspx).
+A pointer to an array of structures that contain shaping properties for each glyph returned by [**GetGlyphs**](/windows/win32/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs).
 
 </dd> <dt>
 
@@ -116,7 +116,7 @@ A pointer to an array of structures that contain shaping properties for each gly
 
 Type: **UINT32**
 
-The number of glyphs returned from [**GetGlyphs**](https://msdn.microsoft.com/library/Dd316625(v=VS.85).aspx).
+The number of glyphs returned from [**GetGlyphs**](/windows/win32/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs).
 
 </dd> <dt>
 
@@ -188,7 +188,7 @@ A Boolean flag set to **TRUE** for right-to-left text.
 
 Type: **const [**DWRITE\_SCRIPT\_ANALYSIS**](/windows/win32/api/dwrite/ns-dwrite-dwrite_script_analysis)\***
 
-A pointer to a Script analysis result from an[**AnalyzeScript**](https://msdn.microsoft.com/library/Dd316620(v=VS.85).aspx) call.
+A pointer to a Script analysis result from an[**AnalyzeScript**](/windows/win32/api/dwrite/nf-dwrite-idwritetextanalyzer-analyzescript) call.
 
 </dd> <dt>
 
@@ -267,14 +267,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IDWriteTextAnalyzer**](https://msdn.microsoft.com/library/Dd316607(v=VS.85).aspx)
+[**IDWriteTextAnalyzer**](/windows/win32/api/dwrite/nn-dwrite-idwritetextanalyzer)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

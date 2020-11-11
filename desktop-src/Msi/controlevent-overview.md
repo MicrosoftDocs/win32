@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # ControlEvent Overview
 
-ControlEvents are analogous to Microsoft Windows messages in Win32-based applications. However, rather than creating a callback function to receive Windows messages and sending Windows messages with the [SendMessage](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx) function, the user interface (UI) installer and controls publish [ControlEvents](control-events.md). Other controls and the installer can be specified to subscribe to particular ControlEvents that will then change attributes of the subscribing control. To add working controls to dialog boxes, the author of the UI specifies the publication of ControlEvents in the [ControlEvent table](controlevent-table.md) and subscribes controls to ControlEvents in the [EventMapping table](eventmapping-table.md).
+ControlEvents are analogous to Microsoft Windows messages in Win32-based applications. However, rather than creating a callback function to receive Windows messages and sending Windows messages with the [SendMessage](/windows/win32/api/winuser/nf-winuser-sendmessage) function, the user interface (UI) installer and controls publish [ControlEvents](control-events.md). Other controls and the installer can be specified to subscribe to particular ControlEvents that will then change attributes of the subscribing control. To add working controls to dialog boxes, the author of the UI specifies the publication of ControlEvents in the [ControlEvent table](controlevent-table.md) and subscribes controls to ControlEvents in the [EventMapping table](eventmapping-table.md).
 
 The installer will publish the following events to subscribing controls listed in the [EventMapping table](eventmapping-table.md). A [ProgressBar control](progressbar-control.md) or [Billboard control](billboard-control.md) typically subscribes to SetProgress, the rest are subscribed to by [Text controls](text-control.md).
 
@@ -93,6 +93,3 @@ For a more information about particular ControlEvents, see the list of standard 
  
 
  
-
-
-

@@ -165,7 +165,7 @@ A handle to the FDI context. This datatype is declared as follows:
 **erf**
 </dt> <dd>
 
-The FDI error structure. See [**ERF**](https://msdn.microsoft.com/library/Bb432257(v=VS.85).aspx).
+The FDI error structure. See [**ERF**](/windows/win32/api/fdi_fci_types/ns-fdi_fci_types-erf).
 
 </dd> <dt>
 
@@ -364,6 +364,3 @@ If **fDestructive** is set to **TRUE**, extract only the current folder.
  
 
  
-
-
-

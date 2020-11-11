@@ -44,9 +44,9 @@ To fix this error, set the accessible name in one of the following ways (listed 
 -   Image/image button: Set the **alt** attribute.
 -   Buttons: Set the button caption text.
 -   For any element:
-    -   [**aria-labelledby**](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) attribute: Set to the **id** value of the element containing the accessible name string.
-    -   [**aria-label**](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) attribute: Set to the accessible name string.
-    -   [**title**](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title) attribute: Set to the accessible name string (also create a **tooltip**).
+    -   [**aria-labelledby**](https://developer.mozilla.org/docs/Web/Accessibility/ARIA) attribute: Set to the **id** value of the element containing the accessible name string.
+    -   [**aria-label**](https://developer.mozilla.org/docs/Web/Accessibility/ARIA) attribute: Set to the accessible name string.
+    -   [**title**](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/title) attribute: Set to the accessible name string (also create a **tooltip**).
 
 ## Example
 

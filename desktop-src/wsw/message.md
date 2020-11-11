@@ -16,7 +16,6 @@ A message is an object that encapsulates data that is transmitted or received. T
 
 ![](images/messageenvelope.png)
 
-## 
 
 Messages have a set of properties which can be used to specify optional settings that control the behavior of a message, and to provide a way to retrieve additional information about received messages (such as security information). See [**WS\_MESSAGE\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_message_property_id) for a complete list of message properties.
 

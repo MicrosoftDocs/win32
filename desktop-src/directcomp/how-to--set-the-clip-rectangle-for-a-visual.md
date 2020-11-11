@@ -22,8 +22,8 @@ The example in this topic defines a rectangular clip that is centered at the mou
 ### Technologies
 
 -   [DirectComposition](directcomposition-portal.md)
--   [Direct3D 11 Graphics](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
--   [DirectX Graphics Infrastructure (DXGI)](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
+-   [Direct3D 11 Graphics](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
+-   [DirectX Graphics Infrastructure (DXGI)](/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
 
 ### Prerequisites
 
@@ -42,7 +42,7 @@ For more information, see [How to initialize DirectComposition](initialize-direc
 
 ### Step 2: Create the rectangle clip object
 
-Use the [**IDCompositionDevice::CreateRectangleClip**](https://msdn.microsoft.com/library/Hh437399(v=VS.85).aspx) method to create an instance of the rectangle clip object.
+Use the [**IDCompositionDevice::CreateRectangleClip**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-createrectangleclip) method to create an instance of the rectangle clip object.
 
 
 ```C++
@@ -59,7 +59,7 @@ Use the [**IDCompositionDevice::CreateRectangleClip**](https://msdn.microsoft.co
 
 ### Step 3: Set the properties of the rectangle clip object
 
-Call the methods of the rectangle clip object's [**IDCompositionRectangleClip**](https://msdn.microsoft.com/library/Hh437434(v=VS.85).aspx) interface to set the properties of the clip rectangle.
+Call the methods of the rectangle clip object's [**IDCompositionRectangleClip**](/windows/win32/api/dcomp/nn-dcomp-idcompositionrectangleclip) interface to set the properties of the clip rectangle.
 
 The following example defines a clip rectangle that is centered around the current mouse location. The `m_offsetX` and `m_offsetY` member variables contain the values of the OffsetX and OffsetY properties of the visual.
 
@@ -84,16 +84,16 @@ The following example defines a clip rectangle that is centered around the curre
 
 
 
-Note that the [**IDCompositionRectangleClip**](https://msdn.microsoft.com/library/Hh437434(v=VS.85).aspx) interface includes the following methods for defining a clip rectangle that has rounded corners:
+Note that the [**IDCompositionRectangleClip**](/windows/win32/api/dcomp/nn-dcomp-idcompositionrectangleclip) interface includes the following methods for defining a clip rectangle that has rounded corners:
 
--   [**SetTopLeftRadiusX**](/windows/desktop/api/Dcomp/nf-dcomp-settopleftradiusx)
--   [**SetTopLeftRadiusY**](/windows/desktop/api/Dcomp/nf-dcomp-settopleftradiusy)
--   [**SetTopRightRadiusX**](/windows/desktop/api/Dcomp/nf-dcomp-settoprightradiusx)
--   [**SetTopRightRadiusY**](/windows/desktop/api/Dcomp/nf-dcomp-settoprightradiusy)
+-   [**SetTopLeftRadiusX**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-settopleftradiusx(float))
+-   [**SetTopLeftRadiusY**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-settopleftradiusy(float))
+-   [**SetTopRightRadiusX**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-settoprightradiusx(float))
+-   [**SetTopRightRadiusY**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-settoprightradiusy(float))
 
 ### Step 4: Set the Clip property of the visual
 
-Use the [**IDCompositionVisual::SetClip**](https://msdn.microsoft.com/library/Hh449153(v=VS.85).aspx) method to associate the Clip property of the visual with the rectangle clip object.
+Use the [**IDCompositionVisual::SetClip**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setclip(idcompositionclip)) method to associate the Clip property of the visual with the rectangle clip object.
 
 
 ```C++
@@ -109,7 +109,7 @@ Use the [**IDCompositionVisual::SetClip**](https://msdn.microsoft.com/library/Hh
 
 ### Step 5: Commit the composition
 
-Call the [**IDCompositionDevice::Commit**](https://msdn.microsoft.com/library/Hh437393(v=VS.85).aspx) method to commit the batch of commands to Microsoft DirectComposition for processing. The result of applying the clip rectangle appears in the target window.
+Call the [**IDCompositionDevice::Commit**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-commit) method to commit the batch of commands to Microsoft DirectComposition for processing. The result of applying the clip rectangle appears in the target window.
 
 
 ```C++
@@ -124,7 +124,7 @@ Call the [**IDCompositionDevice::Commit**](https://msdn.microsoft.com/library/Hh
 
 ### Step 6: Free the DirectComposition objects
 
-Be sure to free the rectangle clip object when you no longer need it, as well as the device object, the composition target object, and any visual objects. The following example calls the application-defined [**SafeRelease**](https://docs.microsoft.com/windows/desktop/medfound/saferelease) macro to free the DirectComposition objects.
+Be sure to free the rectangle clip object when you no longer need it, as well as the device object, the composition target object, and any visual objects. The following example calls the application-defined [**SafeRelease**](/windows/desktop/medfound/saferelease) macro to free the DirectComposition objects.
 
 
 ```C++
@@ -148,7 +148,3 @@ Be sure to free the rectangle clip object when you no longer need it, as well as
  
 
  
-
-
-
-

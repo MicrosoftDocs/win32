@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Closing All MCI Devices Used by an Application
 
-The following example closes all of the MCI devices that are opened by an application using the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function.
+The following example closes all of the MCI devices that are opened by an application using the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function.
 
 
 ```C++
@@ -30,7 +30,3 @@ if(dwReturn = mciSendCommand(MCI_ALL_DEVICE_ID, MCI_CLOSE, MCI_WAIT,
  
 
  
-
-
-
-

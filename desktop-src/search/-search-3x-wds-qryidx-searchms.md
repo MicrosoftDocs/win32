@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Querying the Index with the search-ms Protocol
 
-The **search-ms**  [application protocol](https://msdn.microsoft.com/library/Aa767916(VS.85).aspx) is a convention for querying the Windows Search index. The protocol enables applications, like Windows Explorer, to query the index with parameter-value arguments, including property arguments, previously saved searches, Advanced Query Syntax (AQS), Natural Query Syntax (NQS), and language code identifiers (LCIDs) for both the indexer and the query itself.
+The **search-ms**  [application protocol](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767916(v=vs.85)) is a convention for querying the Windows Search index. The protocol enables applications, like Windows Explorer, to query the index with parameter-value arguments, including property arguments, previously saved searches, Advanced Query Syntax (AQS), Natural Query Syntax (NQS), and language code identifiers (LCIDs) for both the indexer and the query itself.
 
 This section is organized as follows:
 
@@ -41,6 +41,3 @@ This section is organized as follows:
  
 
  
-
-
-

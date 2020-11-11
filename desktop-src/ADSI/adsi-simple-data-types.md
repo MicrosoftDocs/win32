@@ -80,7 +80,7 @@ DWORD
 **ADS\_LARGE\_INTEGER**
 </dt> <dd>
 
-[**LARGE\_INTEGER**](https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1)
+[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer-r1)
 
 </dd> <dt>
 
@@ -115,7 +115,7 @@ HANDLE
 **ADS\_UTC\_TIME**
 </dt> <dd>
 
-[**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime)
+[**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime)
 
 </dd> </dl>
 
@@ -136,10 +136,4 @@ When ADSI reads an attribute that has been defined as an **INTEGER** in the LDAP
 
 
  
-
- 
-
-
-
-
 

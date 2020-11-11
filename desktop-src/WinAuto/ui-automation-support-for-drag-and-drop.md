@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # UI Automation Support for Drag-and-Drop
 
-Microsoft UI Automation defines two control patterns for supporting drag-and-drop scenarios, the [Drag](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingdrag) control pattern, and the [DropTarget](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingdroptarget) control pattern. You implement the Drag control pattern for an element that can be dragged, and the DropTarget control pattern for an element that can receive a dragged element; that is, a drop target. The two control patterns expose information that an assistive technology can use to help an accessibility user complete a drag-and-drop operation.
+Microsoft UI Automation defines two control patterns for supporting drag-and-drop scenarios, the [Drag](/windows/desktop/WinAuto/uiauto-implementingdrag) control pattern, and the [DropTarget](/windows/desktop/WinAuto/uiauto-implementingdroptarget) control pattern. You implement the Drag control pattern for an element that can be dragged, and the DropTarget control pattern for an element that can receive a dragged element; that is, a drop target. The two control patterns expose information that an assistive technology can use to help an accessibility user complete a drag-and-drop operation.
 
 -   [Dragging Styles](#dragging-styles)
     -   [Source/target Style](#sourcetarget-style)
@@ -28,7 +28,7 @@ Microsoft UI Automation defines two control patterns for supporting drag-and-dro
 
 ## Dragging Styles
 
-When you implement the [Drag](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingdrag) control pattern for a draggable element, you need to decide whether to implement the *source/target* dragging style, or the *source-only* dragging style.
+When you implement the [Drag](/windows/desktop/WinAuto/uiauto-implementingdrag) control pattern for a draggable element, you need to decide whether to implement the *source/target* dragging style, or the *source-only* dragging style.
 
 ### Source/target Style
 
@@ -124,7 +124,3 @@ UI Automation client applications use the [**IUIAutomationDragPattern**](/window
  
 
  
-
-
-
-

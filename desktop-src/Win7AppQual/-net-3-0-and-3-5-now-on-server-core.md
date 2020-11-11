@@ -10,14 +10,18 @@ ms.date: 05/31/2018
 
 ## Platform
 
-<dl> **Servers** - Windows Server 2008 R2  
-</dl>
+**Servers** - Windows Server 2008 R2  
+
+
 
 ## Feature Impact
 
-<dl> **Severity** - Low  
+ **Severity** - Low  
 **Frequency** - Low  
-</dl>
+
+
+
+
 
 ## Description
 
@@ -35,7 +39,7 @@ Test applications that incorporate WCF, WF, and LINQ code on Server Core.
 
 ## Links to Other Resources
 
--   [Server Core](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms723891(v=vs.85))
+-   [Server Core](/previous-versions/windows/desktop/legacy/ms723891(v=vs.85))
 -   *See also* the "Server Core" sections of the *Windows Server 2008 R2 Step-by-Step Guides* when they become available.
 -   *See also* the "Server Core" section of the *Windows Server 2008 R2 SDK* when it becomes available
 
@@ -47,6 +51,3 @@ Test applications that incorporate WCF, WF, and LINQ code on Server Core.
  
 
  
-
-
-

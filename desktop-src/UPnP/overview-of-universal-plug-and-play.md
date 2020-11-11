@@ -12,7 +12,7 @@ The UPnP architecture defines peer-to-peer network connectivity of intelligent a
 
 UPnP is an IP-based protocol suite based on preliminary versions of Web Services protocols such as XML and Simple Object Access Protocol (SOAP). With UPnP, a device can dynamically join a network, obtain an IP address, convey its capability, and discover the presence and capabilities of other devices on the network.
 
-A UPnP device is a container of services and nested devices. For example, a VCR might consist of a tape transport service, a tuner service, and a clock service. Different categories of UPnP devices are associated with different sets of services and embedded devices. For example, services within a VCR are different from those within a printer. Information about the set of services that a particular device type can provide is captured in an XML device description document that the device hosts. The device description also lists properties such as device name and icons associated with the device. Microsoft has enhanced UPnP support to include integration with [PnP-X](https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/pnp-x) and [Function Discovery](https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/fd-portal).
+A UPnP device is a container of services and nested devices. For example, a VCR might consist of a tape transport service, a tuner service, and a clock service. Different categories of UPnP devices are associated with different sets of services and embedded devices. For example, services within a VCR are different from those within a printer. Information about the set of services that a particular device type can provide is captured in an XML device description document that the device hosts. The device description also lists properties such as device name and icons associated with the device. Microsoft has enhanced UPnP support to include integration with [PnP-X](/previous-versions/windows/desktop/fundisc/pnp-x) and [Function Discovery](/previous-versions/windows/desktop/fundisc/fd-portal).
 
 The UPnP architecture is more than just a simple extension of the plug-and-play peripheral model. It supports zero-configuration, invisible networking and automatic discovery for a range of device categories from a wide range of vendors. This enables a device to dynamically join a network, obtain an IP address, and convey its capabilities upon request. Then, other control points can use the Control Point API with UPnP technology to learn about the presence and capabilities of other devices. A device can leave a network smoothly and automatically when it is no longer in use.
 
@@ -36,7 +36,3 @@ Microsoft provides two APIs for working with UPnP-based devices:
  
 
  
-
-
-
-

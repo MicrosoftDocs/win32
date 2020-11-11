@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).
 
  
 
@@ -48,7 +48,7 @@ The following attributes modify a shape.
 | [Height](msdn-online-vml-height-attribute.md)                                                     | Specifies the height of the shape.                                                             |
 | [HR](msdn-online-vml-hr-attribute.md)                                                             | Specifies that a shape is a horizontal rule.                                                   |
 | [HRAlign](msdn-online-vml-hralign-attribute.md)                                                   | Defines the alignment of a horizontal rule.                                                    |
-| [HRef](https://msdn.microsoft.com/library/Bb263846(v=VS.85).aspx)                                     | Defines a URL for a shape. When the shape is clicked, the browser will load the URL.           |
+| [HRef](./href-attribute--shape--vml.md)                                     | Defines a URL for a shape. When the shape is clicked, the browser will load the URL.           |
 | [HRHeight](msdn-online-vml-hrheight-attribute.md)                                                 | Defines the thickness of a horizontal rule.                                                    |
 | [HRNoShade](msdn-online-vml-hrnoshade-attribute.md)                                               | Determines whether a horizontal rule will be displayed with 3-D shading.                       |
 | [HRPct](msdn-online-vml-hrpct-attribute.md)                                                       | Defines the length of a horizontal rule as a percentage of page width.                         |
@@ -130,7 +130,7 @@ xmlns:o="urn:schemas-microsoft-com:office:office"
 
 
 
-You must also have the following in your [**STYLE**](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style) element to register the behavior of VML and Microsoft Office Extensions. If you are not using Office Extensions, you can omit the second behavior definition.
+You must also have the following in your [**STYLE**](https://developer.mozilla.org/docs/Web/HTML/Element/style) element to register the behavior of VML and Microsoft Office Extensions. If you are not using Office Extensions, you can omit the second behavior definition.
 
 
 ```HTML
@@ -237,7 +237,3 @@ o\:* { behavior: url(#default#VML);}
  
 
  
-
-
-
-

@@ -42,7 +42,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 The **pwpos** member of the *lParam* structure receives size and position values appropriate for positioning the control along the top of the specified rectangle. The height value is the sum of the heights of the control's horizontal borders and the average height of characters in the font currently selected into the control's device context.
 
-To use **HDM\_LAYOUT** to set the initial size and position of a header control, set the initial visibility state of the control so that it is hidden. After sending **HDM\_LAYOUT** to retrieve the size and position values, use the [**SetWindowPos**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos) function to set the new size, position, and visibility state.
+To use **HDM\_LAYOUT** to set the initial size and position of a header control, set the initial visibility state of the control so that it is hidden. After sending **HDM\_LAYOUT** to retrieve the size and position values, use the [**SetWindowPos**](/windows/desktop/api/winuser/nf-winuser-setwindowpos) function to set the new size, position, and visibility state.
 
 ## Requirements
 
@@ -57,10 +57,4 @@ To use **HDM\_LAYOUT** to set the initial size and position of a header control,
 
 
  
-
- 
-
-
-
-
 

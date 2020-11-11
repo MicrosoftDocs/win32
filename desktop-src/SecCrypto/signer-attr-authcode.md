@@ -16,7 +16,7 @@ api_location:
 
 # SIGNER\_ATTR\_AUTHCODE structure
 
-The **SIGNER\_ATTR\_AUTHCODE** structure specifies attributes for an [*Authenticode*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) signature.
+The **SIGNER\_ATTR\_AUTHCODE** structure specifies attributes for an [*Authenticode*](../secgloss/a-gly.md) signature.
 
 > [!Note]  
 > This structure is not defined in any header file. To use this structure, you must define it yourself as shown in this topic.
@@ -98,7 +98,3 @@ The display name of the URL of the file upon download.
  
 
  
-
-
-
-

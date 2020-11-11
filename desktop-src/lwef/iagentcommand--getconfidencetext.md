@@ -16,7 +16,7 @@ HRESULT GetConfidenceText(
 );
 ```
 
-Retrieves the Listening Tip text previously set for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
+Retrieves the Listening Tip text previously set for a [**Command**](/windows/desktop/lwef/the-command-object).
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,7 +25,7 @@ Retrieves the Listening Tip text previously set for a [**Command**](https://docs
 <span id="pbszTipText"></span><span id="pbsztiptext"></span><span id="PBSZTIPTEXT"></span>*pbszTipText*
 </dt> <dd>
 
-The address of a BSTR that receives the value of the Listening Tip text for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
+The address of a BSTR that receives the value of the Listening Tip text for a [**Command**](/windows/desktop/lwef/the-command-object).
 
 </dd> </dl>
 
@@ -37,7 +37,3 @@ The address of a BSTR that receives the value of the Listening Tip text for a [*
  
 
  
-
-
-
-

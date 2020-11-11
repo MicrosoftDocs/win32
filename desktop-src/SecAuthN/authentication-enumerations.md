@@ -41,7 +41,7 @@ LSA uses the following enumerations.
 |-----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**KERB\_LOGON\_SUBMIT\_TYPE**](/windows/desktop/api/Ntsecapi/ne-ntsecapi-kerb_logon_submit_type)                                   | Lists the type of logon being requested.<br/>                                                                                                                                                                                                                  |
 | [**KERB\_PROFILE\_BUFFER\_TYPE**](/windows/desktop/api/Ntsecapi/ne-ntsecapi-kerb_profile_buffer_type)                               | Lists the type of logon profile returned.<br/>                                                                                                                                                                                                                 |
-| [**KERB\_PROTOCOL\_MESSAGE\_TYPE**](/windows/desktop/api/Ntsecapi/ne-ntsecapi-kerb_protocol_message_type)                           | Lists the types of messages which can be sent to the [*Kerberos*](https://docs.microsoft.com/windows/desktop/SecGloss/k-gly) authentication package by calling [**LsaCallAuthenticationPackage**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsacallauthenticationpackage).<br/> |
+| [**KERB\_PROTOCOL\_MESSAGE\_TYPE**](/windows/desktop/api/Ntsecapi/ne-ntsecapi-kerb_protocol_message_type)                           | Lists the types of messages which can be sent to the [*Kerberos*](/windows/desktop/SecGloss/k-gly) authentication package by calling [**LsaCallAuthenticationPackage**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsacallauthenticationpackage).<br/> |
 | [**LSA\_FOREST\_TRUST\_COLLISION\_RECORD\_TYPE**](/windows/desktop/api/Ntsecapi/ne-ntsecapi-lsa_forest_trust_collision_record_type) | Defines the types of collision that can occur between LSA forest trust records.<br/>                                                                                                                                                                           |
 | [**LSA\_FOREST\_TRUST\_RECORD\_TYPE**](/windows/desktop/api/Ntsecapi/ne-ntsecapi-lsa_forest_trust_record_type)                      | Defines the type of an LSA forest trust record.<br/>                                                                                                                                                                                                           |
 | [**LSA\_TOKEN\_INFORMATION\_TYPE**](/windows/desktop/api/Ntsecpkg/ne-ntsecpkg-lsa_token_information_type)                           | Specifies the levels of information that can be included in a logon token.<br/>                                                                                                                                                                                |
@@ -63,7 +63,7 @@ Network Provider uses the following enumerations.
 
 | Enumeration                                                                       | Description                                                                                                                                                                                |
 |-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**SECPKG\_EXTENDED\_INFORMATION\_CLASS**](/windows/desktop/api/Ntsecpkg/ne-ntsecpkg-secpkg_extended_information_class) | Enumeration type that specifies the type of information to set or get for a [*security package*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly).<br/> |
+| [**SECPKG\_EXTENDED\_INFORMATION\_CLASS**](/windows/desktop/api/Ntsecpkg/ne-ntsecpkg-secpkg_extended_information_class) | Enumeration type that specifies the type of information to set or get for a [*security package*](/windows/desktop/SecGloss/s-gly).<br/> |
 | [**SECPKG\_NAME\_TYPE**](/windows/desktop/api/Ntsecpkg/ne-ntsecpkg-secpkg_name_type)                                    | Enumeration value that specifies the type of name specified for an account.<br/>                                                                                                     |
 
 
@@ -94,7 +94,7 @@ Here are the other enumerations used by Authentication.
 |---------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IDENTITY\_TYPE**](/windows/win32/api/identitycommon/ne-identitycommon-identity_type)                       | Specifies the type of identities to enumerate.<br/>                                                                                                                                                                  |
 | [**PKU2U\_LOGON\_SUBMIT\_TYPE**](/windows/desktop/api/Ntsecapi/ne-ntsecapi-pku2u_logon_submit_type) | Indicates the type of logon message passed in a [**PKU2U\_CERTIFICATE\_S4U\_LOGON**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-pku2u_certificate_s4u_logon) structure.<br/>                                                                                |
-| [**SECPKG\_ATTR\_LCT\_STATUS**](/windows/desktop/api/Sspi/ne-sspi-secpkg_attr_lct_status)   | Indicates whether the token from the most recent call to the [**InitializeSecurityContext**](https://msdn.microsoft.com/library/Aa375506(v=VS.85).aspx) function is the last token from the client.<br/>                               |
+| [**SECPKG\_ATTR\_LCT\_STATUS**](/windows/desktop/api/Sspi/ne-sspi-secpkg_attr_lct_status)   | Indicates whether the token from the most recent call to the [**InitializeSecurityContext**](/windows/win32/api/sspi/nf-sspi-initializesecuritycontexta) function is the last token from the client.<br/>                               |
 | [**SECPKG\_CRED\_CLASS**](/windows/desktop/api/Sspi/ne-sspi-secpkg_cred_class)              | Indicates the type of credential used in a client context. The [**SECPKG\_CRED\_CLASS**](/windows/desktop/api/Sspi/ne-sspi-secpkg_cred_class) enumeration is used in the [**SecPkgContext\_CredInfo**](/windows/desktop/api/Sspi/ns-sspi-secpkgcontext_credinfo) structure.<br/> |
 
 
@@ -102,9 +102,4 @@ Here are the other enumerations used by Authentication.
  
 
  
-
- 
-
-
-
 

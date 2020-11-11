@@ -72,7 +72,7 @@ A second option to achieve consistent results is to request that Direct2D use in
 
 ## Controlling precision of intermediate textures
 
-Direct2D provides a few ways to control the precision of a graph. Before using high precision formats in Direct2D, applications must ensure they are supported sufficiently by the GPU. To check this, use [**ID2D1DeviceContext::IsBufferPrecisionSupported**](https://msdn.microsoft.com/library/Dn441541(v=VS.85).aspx).
+Direct2D provides a few ways to control the precision of a graph. Before using high precision formats in Direct2D, applications must ensure they are supported sufficiently by the GPU. To check this, use [**ID2D1DeviceContext::IsBufferPrecisionSupported**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-isbufferprecisionsupported).
 
 Applications may create a Direct3D device using WARP (software emulation) to guarantee that all buffer precisions are supported independent of the actual GPU hardware on the device. This is recommended in scenarios such as applying effects to a photo while saving to disk. Even if Direct2D supports high precision buffer formats on the GPU, using WARP is recommended in this scenario on feature level 9.X GPUs, due to the limited precision of shader arithmetic and sampling on some low-power mobile GPUs.
 
@@ -80,7 +80,7 @@ In each case below, the requested precision is actually the minimum precision Di
 
 ### Precision selection from ID2D1DeviceContext::SetRenderingControls
 
-The simplest way to control the precision of Direct2D’s intermediate textures is to use [**ID2D1DeviceContext::SetRenderingControls**](https://msdn.microsoft.com/library/Hh404530(v=VS.85).aspx). This controls the precision of all intermediate textures, as long as a precision is not also set manually on effects or transforms directly.
+The simplest way to control the precision of Direct2D’s intermediate textures is to use [**ID2D1DeviceContext::SetRenderingControls**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-setrenderingcontrols(constd2d1_rendering_controls)). This controls the precision of all intermediate textures, as long as a precision is not also set manually on effects or transforms directly.
 
 
 ```cpp
@@ -101,13 +101,13 @@ if (Device->IsBufferPrecisionSupported(D2D1_BUFFER_PRECISION_32BPC_FLOAT))
 
 ### Precision selection from inputs and render targets
 
-Applications may also rely on the precision of the inputs to an effect graph to control the precision of intermediate textures. This is true as long as a buffer precision is not specified using [**ID2D1DeviceContext::SetRenderingControls**](https://msdn.microsoft.com/library/Hh404530(v=VS.85).aspx), and is not set manually on effects and transform directly.
+Applications may also rely on the precision of the inputs to an effect graph to control the precision of intermediate textures. This is true as long as a buffer precision is not specified using [**ID2D1DeviceContext::SetRenderingControls**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-setrenderingcontrols(constd2d1_rendering_controls)), and is not set manually on effects and transform directly.
 
 The precisions of inputs to effects are propagated through the graph to select the precision of downstream intermediates. Where different branches in the effect graph meet, the greatest precision of any input is used.
 
-The precision selected based on a Direct2D bitmap is determined from its pixel format. The precision selected for an [**ID2D1ImageSource**](https://msdn.microsoft.com/library/Dn900413(v=VS.85).aspx) is determined from the WIC pixel format of the underlying IWICBitmapSource used to create the **ID2D1ImageSource**. Note that Direct2D doesn’t allow image sources to be created with WIC sources using precisions unsupported by Direct2D and the GPU.
+The precision selected based on a Direct2D bitmap is determined from its pixel format. The precision selected for an [**ID2D1ImageSource**](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1imagesource) is determined from the WIC pixel format of the underlying IWICBitmapSource used to create the **ID2D1ImageSource**. Note that Direct2D doesn’t allow image sources to be created with WIC sources using precisions unsupported by Direct2D and the GPU.
 
-It is possible that Direct2D cannot assign an effect a precision based on its inputs. This happens when an effect has no inputs, or when an [**ID2D1CommandList**](https://msdn.microsoft.com/library/Hh404392(v=VS.85).aspx) is used, which has no specific precision. In this case, the precision of intermediate textures is determined from the bitmap set as the context’s current render target.
+It is possible that Direct2D cannot assign an effect a precision based on its inputs. This happens when an effect has no inputs, or when an [**ID2D1CommandList**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1commandlist) is used, which has no specific precision. In this case, the precision of intermediate textures is determined from the bitmap set as the context’s current render target.
 
 ### Precision selection directly on the effect and transforms
 
@@ -150,7 +150,3 @@ Below is the full recursive logic used to determine the minimum precision for an
  
 
  
-
-
-
-

@@ -18,7 +18,6 @@ You may disable rasterization by telling the pipeline there is no pixel shader (
 
 On hardware that implements hierarchical Z-buffer optimizations, you may enable preloading the z-buffer by setting the pixel shader stage to **NULL** while enabling depth and stencil testing.
 
-## 
 
 ## In this section
 
@@ -40,14 +39,8 @@ On hardware that implements hierarchical Z-buffer optimizations, you may enable 
 [Graphics Pipeline](overviews-direct3d-11-graphics-pipeline.md)
 </dt> <dt>
 
-[Pipeline Stages (Direct3D 10)](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
+[Pipeline Stages (Direct3D 10)](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

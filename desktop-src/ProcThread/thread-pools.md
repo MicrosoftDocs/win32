@@ -36,8 +36,8 @@ The new [thread pool API](thread-pool-api.md) provides more flexibility and cont
 
 The following are best practices when using a thread pool:
 
--   The threads of a process share the thread pool. A single worker thread can execute multiple callback functions, one at a time. These worker threads are managed by the thread pool. Therefore, do not terminate a thread from the thread pool by calling [**TerminateThread**](https://msdn.microsoft.com/library/ms686717(v=VS.85).aspx) on the thread or by calling [**ExitThread**](https://msdn.microsoft.com/library/ms682659(v=VS.85).aspx) from a callback function.
--   An I/O request can run on any thread in the thread pool. Canceling I/O on a thread pool thread requires synchronization because the cancel function might run on a different thread than the one that is handling the I/O request, which can result in cancellation of an unknown operation. To avoid this, always provide the [**OVERLAPPED**](https://msdn.microsoft.com/library/ms684342(v=VS.85).aspx) structure with which an I/O request was initiated when calling [**CancelIoEx**](https://msdn.microsoft.com/library/Aa363792(v=VS.85).aspx) for asynchronous I/O, or use your own synchronization to ensure that no other I/O can be started on the target thread before calling either the [**CancelSynchronousIo**](https://msdn.microsoft.com/library/Aa363794(v=VS.85).aspx) or **CancelIoEx** function.
+-   The threads of a process share the thread pool. A single worker thread can execute multiple callback functions, one at a time. These worker threads are managed by the thread pool. Therefore, do not terminate a thread from the thread pool by calling [**TerminateThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-terminatethread) on the thread or by calling [**ExitThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitthread) from a callback function.
+-   An I/O request can run on any thread in the thread pool. Canceling I/O on a thread pool thread requires synchronization because the cancel function might run on a different thread than the one that is handling the I/O request, which can result in cancellation of an unknown operation. To avoid this, always provide the [**OVERLAPPED**](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) structure with which an I/O request was initiated when calling [**CancelIoEx**](/windows/win32/api/ioapiset/nf-ioapiset-cancelioex) for asynchronous I/O, or use your own synchronization to ensure that no other I/O can be started on the target thread before calling either the [**CancelSynchronousIo**](/windows/win32/api/ioapiset/nf-ioapiset-cancelsynchronousio) or **CancelIoEx** function.
 -   Clean up all resources created in the callback function before returning from the function. These include TLS, security contexts, thread priority, and COM registration. Callback functions must also restore the thread state before returning.
 -   Keep wait handles and their associated objects alive until the thread pool has signaled that it is finished with the handle.
 -   Mark all threads that are waiting on lengthy operations (such as I/O flushes or resource cleanup) so that the thread pool can allocate new threads instead of waiting for this one.
@@ -70,6 +70,3 @@ The following are best practices when using a thread pool:
  
 
  
-
-
-

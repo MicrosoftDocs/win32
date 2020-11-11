@@ -17,12 +17,8 @@ The following list contains information on callback functions that applications 
 -   [**RPC\_INTERFACE\_GROUP\_IDLE\_CALLBACK\_FN**](/windows/desktop/api/Rpcdce/nc-rpcdce-rpc_interface_group_idle_callback_fn)
 -   [**RPC\_MGMT\_AUTHORIZATION\_FN**](/windows/desktop/api/Rpcdce/nc-rpcdce-rpc_mgmt_authorization_fn)
 -   [**RPC\_OBJECT\_INQ\_FN**](/windows/desktop/api/Rpcdce/nc-rpcdce-rpc_object_inq_fn)
--   [**RPCNOTIFICATION\_ROUTINE**](https://msdn.microsoft.com/library/Aa375808(v=VS.80).aspx)
+-   [**RPCNOTIFICATION\_ROUTINE**](/previous-versions/aa375808(v=vs.80))
 
  
 
  
-
-
-
-

@@ -30,13 +30,13 @@ Gets the current minimum and maximum allowable system times for a date and time 
 *lParam* 
 </dt> <dd>
 
-A pointer to a two-element array of [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structures.
+A pointer to a two-element array of [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structures.
 
 </dd> </dl>
 
 ## Return value
 
-Returns a **DWORD** value that is a combination of GDTR\_MIN or GDTR\_MAX. The first element of the [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) array contains the minimum allowable time if GDTR\_MIN is set. The second element of the **SYSTEMTIME** array contains the maximum allowable time if GDTR\_MAX is set.
+Returns a **DWORD** value that is a combination of GDTR\_MIN or GDTR\_MAX. The first element of the [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) array contains the minimum allowable time if GDTR\_MIN is set. The second element of the **SYSTEMTIME** array contains the maximum allowable time if GDTR\_MAX is set.
 
 ## Remarks
 
@@ -55,10 +55,4 @@ The date and time picker displays only dates/times that fall within the specifie
 
 
  
-
- 
-
-
-
-
 

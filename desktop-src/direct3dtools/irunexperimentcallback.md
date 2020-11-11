@@ -26,7 +26,7 @@ Callback to return errors from the engine during capture.
 
 ## Members
 
-The **IRunExperimentCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IRunExperimentCallback** also has these types of members:
+The **IRunExperimentCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IRunExperimentCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,7 +34,7 @@ The **IRunExperimentCallback** interface inherits from the [**IUnknown**](https:
 
 The **IRunExperimentCallback** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/irunexperimentcallback-resultcallback-dword"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>Requests to run an experiment (capture) on the specified process.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/irunexperimentcallback-resultcallback-dword"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>Requests to run an experiment (capture) on the specified process.</p></td></tr></tbody></table>
 
  
 
@@ -45,6 +45,3 @@ The **IRunExperimentCallback** interface has these methods.
  
 
  
-
-
-

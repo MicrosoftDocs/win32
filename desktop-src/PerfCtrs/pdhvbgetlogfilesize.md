@@ -19,6 +19,9 @@ api_location:
 
 The **PdhVbGetLogFileSize** function returns the size of the specified log file. This function calls [**PdhGetLogFileSize**](/windows/desktop/api/Pdh/nf-pdh-pdhgetlogfilesize).
 
+> [!IMPORTANT]
+> The function that this topic describes may be altered or unavailable in the future. Instead, Microsoft recommends that you use the functions described in [Performance Counters Functions](performance-counters-functions.md).
+
 Function PdhVbGetLogFileSize( \_ ByVal hLog As PDH\_HLOG, \_ ByRef llSize As LONG \_ ) As DWORD
 
 ## Parameters
@@ -43,7 +46,7 @@ Pointer to a variable that receives the size of the log file, in bytes.
 
 If the function succeeds, it returns 0.
 
-If the function fails, the return value is a [system error code](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes) or a [PDH error code](pdh-error-codes.md). The following are possible values.
+If the function fails, the return value is a [system error code](/windows/desktop/Debug/system-error-codes) or a [PDH error code](pdh-error-codes.md). The following are possible values.
 
 
 
@@ -86,9 +89,4 @@ If the function fails, the return value is a [system error code](https://docs.mi
 </dt> </dl>
 
  
-
- 
-
-
-
 

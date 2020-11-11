@@ -82,7 +82,7 @@ Type: **DWORD**
 
 </dd> <dd>
 
-The help context identifier for the dialog box window. When the system sends a [**WM\_HELP**](https://msdn.microsoft.com/library/Bb774305(v=VS.85).aspx) message, it passes this value in the **wContextId** member of the [**HELPINFO**](https://msdn.microsoft.com/library/Bb773313(v=VS.85).aspx) structure.
+The help context identifier for the dialog box window. When the system sends a [**WM\_HELP**](../shell/wm-help.md) message, it passes this value in the **wContextId** member of the [**HELPINFO**](/windows/win32/api/winuser/ns-winuser-helpinfo) structure.
 
 </dd> <dt>
 
@@ -93,7 +93,7 @@ Type: **DWORD**
 
 </dd> <dd>
 
-The extended windows styles. This member is not used when creating dialog boxes, but applications that use dialog box templates can use it to create other types of windows. For a list of values, see [**Extended Window Styles**](https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles).
+The extended windows styles. This member is not used when creating dialog boxes, but applications that use dialog box templates can use it to create other types of windows. For a list of values, see [**Extended Window Styles**](/windows/desktop/winmsg/extended-window-styles).
 
 </dd> <dt>
 
@@ -104,9 +104,9 @@ Type: **DWORD**
 
 </dd> <dd>
 
-The style of the dialog box. This member can be a combination of [window style values](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) and [dialog box style values](dialog-box-styles.md).
+The style of the dialog box. This member can be a combination of [window style values](/windows/desktop/winmsg/window-styles) and [dialog box style values](dialog-box-styles.md).
 
-If **style** includes the **DS\_SETFONT** or **DS\_SHELLFONT** dialog box style, the **DLGTEMPLATEEX** header of the extended dialog box template contains four additional members ( **pointsize**, **weight**, **italic**, and **typeface**) that describe the font to use for the text in the client area and controls of the dialog box. If possible, the system creates a font according to the values specified in these members. Then the system sends a [**WM\_SETFONT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-setfont) message to the dialog box and to each control to provide a handle to the font.
+If **style** includes the **DS\_SETFONT** or **DS\_SHELLFONT** dialog box style, the **DLGTEMPLATEEX** header of the extended dialog box template contains four additional members ( **pointsize**, **weight**, **italic**, and **typeface**) that describe the font to use for the text in the client area and controls of the dialog box. If possible, the system creates a font according to the values specified in these members. Then the system sends a [**WM\_SETFONT**](/windows/desktop/winmsg/wm-setfont) message to the dialog box and to each control to provide a handle to the font.
 
 For more information, see [Dialog Box Fonts](about-dialog-boxes.md).
 
@@ -220,7 +220,7 @@ Type: **WORD**
 
 </dd> <dd>
 
-The weight of the font. Note that, although this can be any of the values listed for the **lfWeight** member of the [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure, any value that is used will be automatically changed to **FW\_NORMAL**.
+The weight of the font. Note that, although this can be any of the values listed for the **lfWeight** member of the [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure, any value that is used will be automatically changed to **FW\_NORMAL**.
 
 This member is present only if the **style** member specifies **DS\_SETFONT** or **DS\_SHELLFONT**.
 
@@ -246,7 +246,7 @@ Type: **BYTE**
 
 </dd> <dd>
 
-The character set to be used. For more information, see the **lfcharset** member of [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta).
+The character set to be used. For more information, see the **lfcharset** member of [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta).
 
 This member is present only if the **style** member specifies **DS\_SETFONT** or **DS\_SHELLFONT**.
 
@@ -275,7 +275,7 @@ Each [**DLGITEMTEMPLATEEX**](dlgitemtemplateex.md) structure in the template mus
 
 The **menu**, **windowClass**, **title**, and **typeface** arrays must be aligned on **WORD** boundaries.
 
-If you specify character strings in the **menu**, **windowClass**, **title**, and **typeface** arrays, you must use Unicode strings. Use the [**MultiByteToWideChar**](https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar) function to generate these Unicode strings from ANSI strings.
+If you specify character strings in the **menu**, **windowClass**, **title**, and **typeface** arrays, you must use Unicode strings. Use the [**MultiByteToWideChar**](/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar) function to generate these Unicode strings from ANSI strings.
 
 The **x**, **y**, **cx**, and **cy** members specify values in dialog box units. You can convert these values to screen units (pixels) by using the [**MapDialogRect**](/windows/desktop/api/Winuser/nf-winuser-mapdialogrect) function.
 
@@ -315,7 +315,7 @@ The **x**, **y**, **cx**, and **cy** members specify values in dialog box units.
 [**MapDialogRect**](/windows/desktop/api/Winuser/nf-winuser-mapdialogrect)
 </dt> <dt>
 
-[**WM\_SETFONT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-setfont)
+[**WM\_SETFONT**](/windows/desktop/winmsg/wm-setfont)
 </dt> <dt>
 
 **Conceptual**
@@ -327,17 +327,11 @@ The **x**, **y**, **cx**, and **cy** members specify values in dialog box units.
 **Other Resources**
 </dt> <dt>
 
-[**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta)
+[**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta)
 </dt> <dt>
 
-[**MultiByteToWideChar**](https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar)
+[**MultiByteToWideChar**](/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

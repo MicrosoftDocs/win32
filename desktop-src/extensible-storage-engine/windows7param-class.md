@@ -32,7 +32,7 @@ System parameters that have been added to the Windows 7 version of ESENT.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.Windows7.Windows7Param  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](hh577573\(v=exchg.10\).md)  
@@ -62,4 +62,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 [Windows7Param members](dn335315\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows7 namespace](hh577573\(v=exchg.10\).md)
-

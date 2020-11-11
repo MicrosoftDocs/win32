@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMFLOAT4 Operators
 
-The [**XMFLOAT4**](https://msdn.microsoft.com/library/Ee419608(v=VS.85).aspx) structure exposes the following operators.
+The [**XMFLOAT4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -21,7 +21,7 @@ The [**XMFLOAT4**](https://msdn.microsoft.com/library/Ee419608(v=VS.85).aspx) st
 
 | Methods                                               | Description                                                                                                         |
 |-------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://msdn.microsoft.com/library/Ee419647(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMFLOAT4` to the current instance of `XMFLOAT4`.<br/> |
+| [**operator =**](/windows/win32/api/directxmath/nf-directxmath-xmfloat4-operator-assign(xmfloat4__))<br/> | Assigns the vector component data from one instance of `XMFLOAT4` to the current instance of `XMFLOAT4`.<br/> |
 
 
 
@@ -37,13 +37,9 @@ The [**XMFLOAT4**](https://msdn.microsoft.com/library/Ee419608(v=VS.85).aspx) st
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT4**](https://msdn.microsoft.com/library/Ee419608(v=VS.85).aspx)
+[**XMFLOAT4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4)
 </dt> </dl>
 
  
 
  
-
-
-
-

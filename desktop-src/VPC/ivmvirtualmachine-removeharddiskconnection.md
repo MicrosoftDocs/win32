@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualMachine::RemoveHardDiskConnection method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Removes the specified hard disk connection from the virtual machine.
 
@@ -92,10 +92,4 @@ You can only remove an existing hard disk connection from a stopped virtual mach
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -91,7 +91,7 @@ Some of the changes that can occur in such case are listed in the table that fol
 [Initialize an XPS OM](xps-object-model-initialization.md)
 </dt> <dt>
 
-[Packaging API](https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging)
+[Packaging API](/previous-versions/windows/desktop/opc/packaging)
 </dt> <dt>
 
 [XPS Document API Reference](xps-programming-reference.md)
@@ -101,9 +101,4 @@ Some of the changes that can occur in such case are listed in the table that fol
 </dt> </dl>
 
  
-
- 
-
-
-
 

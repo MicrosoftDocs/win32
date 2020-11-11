@@ -19,7 +19,7 @@ The HTTP Server API provides the following structures:
 -   [**HTTP\_COOKED\_URL**](/windows/desktop/api/Http/ns-http-http_cooked_url)
 -   [**HTTP\_DATA\_CHUNK**](/windows/desktop/api/Http/ns-http-http_data_chunk)
 -   [**HTTP\_KNOWN\_HEADER**](/windows/desktop/api/Http/ns-http-http_known_header)
--   [**HTTP\_REQUEST**](https://msdn.microsoft.com/library/Aa364545(v=VS.85).aspx)
+-   [**HTTP\_REQUEST**](/previous-versions/windows/desktop/legacy/aa364545(v=vs.85))
 -   [**HTTP\_REQUEST\_HEADERS**](/windows/desktop/api/Http/ns-http-http_request_headers)
 -   [**HTTP\_RESPONSE**](http-response.md)
 -   [**HTTP\_RESPONSE\_HEADERS**](/windows/desktop/api/Http/ns-http-http_response_headers)
@@ -52,7 +52,3 @@ The HTTP Server API provides the following structures:
  
 
  
-
-
-
-

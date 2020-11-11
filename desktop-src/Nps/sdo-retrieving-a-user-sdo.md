@@ -44,28 +44,24 @@ The following code retrieves a Server Data Object (SDO) for the Administrator.
 
 <dl> <dt>
 
-[Attaching to an SDO-Enabled Computer](https://docs.microsoft.com/windows/desktop/Nps/sdo-attaching-to-an-sdo-enabled-computer)
+[Attaching to an SDO-Enabled Computer](/windows/desktop/Nps/sdo-attaching-to-an-sdo-enabled-computer)
 </dt> <dt>
 
-[**ISdo**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo)
+[**ISdo**](/windows/desktop/api/sdoias/nn-sdoias-isdo)
 </dt> <dt>
 
-[**ISdoMachine**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdomachine)
+[**ISdoMachine**](/windows/desktop/api/sdoias/nn-sdoias-isdomachine)
 </dt> <dt>
 
-[**ISdoMachine::GetUserSDO**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getusersdo)
+[**ISdoMachine::GetUserSDO**](/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getusersdo)
 </dt> <dt>
 
-[**SysAllocString**](https://msdn.microsoft.com/library/ms221458(v=VS.71).aspx)
+[**SysAllocString**](/windows/win32/api/oleauto/nf-oleauto-sysallocstring)
 </dt> <dt>
 
-[**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx)
+[**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring)
 </dt> </dl>
 
  
 
  
-
-
-
-

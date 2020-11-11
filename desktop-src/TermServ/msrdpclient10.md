@@ -35,7 +35,7 @@ This class implements the following interfaces.
 -   [**IMsRdpClient2**](imsrdpclient2.md)
 -   [**IMsRdpClient**](imsrdpclientshell2.md)
 -   [**IMsTscAx**](imstscax-interface.md)
--   [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
+-   [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)
 -   [**IMsTscAxEvents**](imstscaxevents-interface.md)
 -   [**IMsTscNonScriptable**](imstscnonscriptable-interface.md)
 -   [**IMsRdpClientNonScriptable**](imsrdpclientnonscriptable-interface.md)
@@ -66,7 +66,7 @@ The **MsRdpClient10** class has these methods.
 | [**GetErrorDescription**](imsrdpclient5-geterrordescription.md)                            | Retrieves the error codes and error messages.<br/>                                                                                                                                                                                                                                      |
 | [**GetStatusText**](imsrdpclient7-getstatustext.md)                                        | Retrieves the status text for the specified status code.<br/>                                                                                                                                                                                                                           |
 | [**GetVirtualChannelOptions**](imsrdpclient-getvirtualchanneloptions.md)                   | Retrieves the options set for a virtual channel.<br/>                                                                                                                                                                                                                                   |
-| [**NotifyRedirectDeviceChange**](imsrdpclientnonscriptable-notifyredirectdevicechange.md)  | Notifies the device redirection module of the Remote Desktop ActiveX control that a device change has occurred on the system. This method passes [**WM\_DEVICECHANGE**](https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange) notifications to the control.<br/>                                                        |
+| [**NotifyRedirectDeviceChange**](imsrdpclientnonscriptable-notifyredirectdevicechange.md)  | Notifies the device redirection module of the Remote Desktop ActiveX control that a device change has occurred on the system. This method passes [**WM\_DEVICECHANGE**](/windows/desktop/DevIO/wm-devicechange) notifications to the control.<br/>                                                        |
 | [**OnAuthenticationWarningDismissed**](imstscaxevents-onauthenticationwarningdismissed.md) | Called after an ActiveX control displays an authentication dialog box (for example, the certificate error dialog box).<br/>                                                                                                                                                             |
 | [**OnAuthenticationWarningDisplayed**](imstscaxevents-onauthenticationwarningdisplayed.md) | Called before an ActiveX control displays an authentication dialog box (for example, the certificate error dialog box).<br/>                                                                                                                                                            |
 | [**OnAutoReconnected**](imstscaxevents-onautoreconnected.md)                               | Called when the client control has automatically reconnected to a remote session.<br/>                                                                                                                                                                                                  |
@@ -107,7 +107,7 @@ The **MsRdpClient10** class has these methods.
 | [**SendRemoteAction**](imsrdpclient8-sendremoteaction.md)                                  | Causes an action to be performed in the remote session.<br/>                                                                                                                                                                                                                            |
 | [**SetVirtualChannelOptions**](imsrdpclient-setvirtualchanneloptions.md)                   | Sets the virtual channel options for the client control.<br/>                                                                                                                                                                                                                           |
 | [**SyncSessionDisplaySettings**](imsrdpclient9-syncsessiondisplaysettings.md)              | Synchronizes session display settings. <br/>                                                                                                                                                                                                                                            |
-| [**UpdateSessionDisplaySettings**](https://msdn.microsoft.com/library/Mt703457(v=VS.85).aspx)          | Updates session display settings. <br/>                                                                                                                                                                                                                                                 |
+| [**UpdateSessionDisplaySettings**](/previous-versions/windows/desktop/legacy/mt703457(v=vs.85))          | Updates session display settings. <br/>                                                                                                                                                                                                                                                 |
 
 
 
@@ -351,7 +351,7 @@ When <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>CredSs
 <tr class="odd">
 <td style="text-align: left;"><a href="imsrdpclientnonscriptable4-publishercertificatechain.md"><strong>PublisherCertificateChain</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies the publisher certificate chain. The chain is stored in a variant of type VT_BYREF that contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context"><strong>CERT_CHAIN_CONTEXT</strong></a> structure.<br/></td>
+<td style="text-align: left;">Specifies the publisher certificate chain. The chain is stored in a variant of type VT_BYREF that contains a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context"><strong>CERT_CHAIN_CONTEXT</strong></a> structure.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="imsrdpclientnonscriptable3-redirectdynamicdevices.md"><strong>RedirectDynamicDevices</strong></a><br/></td>
@@ -530,12 +530,4 @@ When <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>CredSs
 
 [Remote Desktop ActiveX control classes](remote-desktop-activex-control-classes.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-
 

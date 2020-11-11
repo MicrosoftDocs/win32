@@ -61,7 +61,7 @@ The basic policy does not support the scenario of an exception not overridden by
 
 In order to support the above scenarios, a filtering decision must be made more difficult to override than another filtering decision by managing the action override permission. This permission is implemented as the **FWPS\_RIGHT\_ACTION\_WRITE** flag and it is set on a per-filter basis.
 
-The evaluation algorithm maintains the current action ("Permit" or "Block") along with the **FWPS\_RIGHT\_ACTION\_WRITE** flag. The flag controls whether a lower priority sub-layer is allowed to override the action. By setting or resetting the **FWPS\_RIGHT\_ACTION\_WRITE** flag in the [FWPS\_CLASSIFY\_OUT0](https://msdn.microsoft.com/library/ff551229.aspx) structure, a provider governs how actions can or cannot be overridden. If the flag is set, it indicates that the action can be overridden. If the flag is absent, the action cannot be overridden.
+The evaluation algorithm maintains the current action ("Permit" or "Block") along with the **FWPS\_RIGHT\_ACTION\_WRITE** flag. The flag controls whether a lower priority sub-layer is allowed to override the action. By setting or resetting the **FWPS\_RIGHT\_ACTION\_WRITE** flag in the [FWPS\_CLASSIFY\_OUT0](/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0) structure, a provider governs how actions can or cannot be overridden. If the flag is set, it indicates that the action can be overridden. If the flag is absent, the action cannot be overridden.
 
 
 
@@ -125,10 +125,4 @@ User applications requesting ports to be opened add overridable filters to a low
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

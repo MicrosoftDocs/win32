@@ -14,7 +14,7 @@ The AutoLogger differs from the Global Logger in the following ways:
 
 -   You can specify one or more AutoLogger sessions (the Global Logger was a single session to which everyone logged events).
 -   The AutoLogger sends an enable notification to the providers when the session starts (the Global Logger did not send an enable notification to the providers, so the providers had to rely on other means to know if the Global Logger session was started in order to begin logging events).
--   The AutoLogger does not support logging NT Kernel Logger events (see the **EnableFlags** member of [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md)). To log NT Kernel Logger events, you must use the [Global Logger](configuring-and-starting-the-global-logger-session.md).
+-   The AutoLogger does not support logging NT Kernel Logger events (see the **EnableFlags** member of [**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties)). To log NT Kernel Logger events, you must use the [Global Logger](configuring-and-starting-the-global-logger-session.md).
 
 For more information on the Global Logger seesion, see [Configuring and Starting the Global Logger Session](configuring-and-starting-the-global-logger-session.md).
 
@@ -191,12 +191,12 @@ The following table describes the values that you can define for each provider t
 <tr class="even">
 <td><strong>EnableFlags</strong></td>
 <td><strong>REG_DWORD</strong></td>
-<td>Provider-defined value that specifies the class of events for which the provider generates events. For details, see the <em>EnableFlags</em> parameter of the <a href="enabletrace.md"><strong>EnableTrace</strong></a> function. Specify this value name if the provider does not support <strong>MatchAnyKeyword</strong> or <strong>MatchAllKeyword</strong>.</td>
+<td>Provider-defined value that specifies the class of events for which the provider generates events. For details, see the <em>EnableFlags</em> parameter of the <a href="/windows/win32/api/evntrace/nf-evntrace-enabletrace"><strong>EnableTrace</strong></a> function. Specify this value name if the provider does not support <strong>MatchAnyKeyword</strong> or <strong>MatchAllKeyword</strong>.</td>
 </tr>
 <tr class="odd">
 <td><strong>EnableLevel</strong></td>
 <td><strong>REG_DWORD</strong></td>
-<td>Provider-defined value that specifies the level of detail included in the event. For example, you can use this value to indicate the severity level of the events (informational, warning, error) that the provider generates. For a list of predefined levels, see the <em>level</em> parameter of the <a href="enabletraceex-func.md"><strong>EnableTraceEx</strong></a> function.</td>
+<td>Provider-defined value that specifies the level of detail included in the event. For example, you can use this value to indicate the severity level of the events (informational, warning, error) that the provider generates. For a list of predefined levels, see the <em>level</em> parameter of the <a href="/windows/win32/api/evntrace/nf-evntrace-enabletraceex"><strong>EnableTraceEx</strong></a> function.</td>
 </tr>
 <tr class="even">
 <td><strong>EnableProperty</strong></td>
@@ -207,22 +207,22 @@ The following table describes the values that you can define for each provider t
 <li><strong>EVENT_ENABLE_PROPERTY_TS_ID</strong> (0x00000002) = Include in the extended data the terminal session identifier.</li>
 <li><strong>EVENT_ENABLE_PROPERTY_STACK_TRACE</strong> (0x00000004) = Include in the extended data a call stack trace for events written using <a href="/windows/desktop/api/Evntprov/nf-evntprov-eventwrite"><strong>EventWrite</strong></a>.</li>
 <li><strong>EVENT_ENABLE_PROPERTY_IGNORE_KEYWORD_0</strong> (0x00000010) = Filters out all events that do not have a non-zero keyword specified.</li>
-<li><strong>EVENT_ENABLE_PROPERTY_PROVIDER_GROUP</strong> (0x00000020) = Indicates that this call to <a href="enabletraceex2.md"><strong>EnableTraceEx2</strong></a> should enable a <a href="provider-traits.md">Provider Group</a> rather than an individual Event Provider.</li>
+<li><strong>EVENT_ENABLE_PROPERTY_PROVIDER_GROUP</strong> (0x00000020) = Indicates that this call to <a href="/windows/win32/api/evntrace/nf-evntrace-enabletraceex2"><strong>EnableTraceEx2</strong></a> should enable a <a href="provider-traits.md">Provider Group</a> rather than an individual Event Provider.</li>
 <li><strong>EVENT_ENABLE_PROPERTY_PROCESS_START_KEY</strong> (0x00000080) = Include the Process Start Key in the extended data.</li>
 <li><strong>EVENT_ENABLE_PROPERTY_EVENT_KEY</strong> (0x00000100) = Include the Event Key in the extended data.</li>
 <li><strong>EVENT_ENABLE_PROPERTY_EXCLUDE_INPRIVATE</strong> (0x00000200) = Filters out all events that are either marked as an InPrivate event or come from a process that is marked as InPrivate.</li>
 </ul>
-For more information about these items, see the <strong>EnableProperty</strong> of the <a href="enable-trace-parameters.md"><strong>ENABLE_TRACE_PARAMETERS</strong></a> structure.<br/></td>
+For more information about these items, see the <strong>EnableProperty</strong> of the <a href="/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters"><strong>ENABLE_TRACE_PARAMETERS</strong></a> structure.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>MatchAnyKeyword</strong></td>
 <td><strong>REG_QWORD</strong></td>
-<td>Bitmask of keywords that determine the category of events that you want the provider to write. The provider writes the event if any of the event's keyword bits match any of the bits set in this mask. To specify that the provider write all events, set this value to zero. For an example, see the Remarks section of the <a href="enabletraceex-func.md"><strong>EnableTraceEx</strong></a> function.</td>
+<td>Bitmask of keywords that determine the category of events that you want the provider to write. The provider writes the event if any of the event's keyword bits match any of the bits set in this mask. To specify that the provider write all events, set this value to zero. For an example, see the Remarks section of the <a href="/windows/win32/api/evntrace/nf-evntrace-enabletraceex"><strong>EnableTraceEx</strong></a> function.</td>
 </tr>
 <tr class="even">
 <td><strong>MatchAllKeyword</strong></td>
 <td><strong>REG_QWORD</strong></td>
-<td>This bitmask is optional. This mask further restricts the category of events that you want the provider to write. If the event's keyword meets the <em>MatchAnyKeyword</em> condition, the provider will write the event only if all of the bits in this mask exist in the event's keyword. This mask is not used if <em>MatchAnyKeyword</em> is zero. For an example, see the Remarks section of the <a href="enabletraceex-func.md"><strong>EnableTraceEx</strong></a> function.</td>
+<td>This bitmask is optional. This mask further restricts the category of events that you want the provider to write. If the event's keyword meets the <em>MatchAnyKeyword</em> condition, the provider will write the event only if all of the bits in this mask exist in the event's keyword. This mask is not used if <em>MatchAnyKeyword</em> is zero. For an example, see the Remarks section of the <a href="/windows/win32/api/evntrace/nf-evntrace-enabletraceex"><strong>EnableTraceEx</strong></a> function.</td>
 </tr>
 </tbody>
 </table>
@@ -231,13 +231,13 @@ For more information about these items, see the <strong>EnableProperty</strong> 
 
  
 
-After the registry has been modified, the AutoLogger session is started the next time the computer is restarted. The AutoLogger session calls the [**EnableTraceEx**](enabletraceex-func.md) function to enable the providers.
+After the registry has been modified, the AutoLogger session is started the next time the computer is restarted. The AutoLogger session calls the [**EnableTraceEx**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex) function to enable the providers.
 
 The AutoLogger sessions increase the system boot time and should be used sparingly. Services that want to capture information during the boot process should consider adding controller logic to itself instead of using the AutoLogger session.
 
-To stop an AutoLogger session, call the [**ControlTrace**](controltrace.md) function. The session name that you pass to the function is the name of the registry key that you used to define the session in the registry.
+To stop an AutoLogger session, call the [**ControlTrace**](/windows/win32/api/evntrace/nf-evntrace-controltracea) function. The session name that you pass to the function is the name of the registry key that you used to define the session in the registry.
 
-On Windows 8.1,Windows Server 2012 R2, and later, event payload , scope, and stack walk filters can be used by the [**EnableTraceEx2**](enabletraceex2.md) function and the [**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md) and [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) structures to filter on specific conditions in a logger session. For more information on event payload filters, see the [**TdhCreatePayloadFilter**](/windows/desktop/api/Tdh/nf-tdh-tdhcreatepayloadfilter), and [**TdhAggregatePayloadFilters**](/windows/desktop/api/Tdh/nf-tdh-tdhaggregatepayloadfilters) functions and the **ENABLE\_TRACE\_PARAMETERS**, **EVENT\_FILTER\_DESCRIPTOR**, and [**PAYLOAD\_FILTER\_PREDICATE**](/windows/desktop/api/Tdh/ns-tdh-payload_filter_predicate) structures.
+On Windows 8.1,Windows Server 2012 R2, and later, event payload , scope, and stack walk filters can be used by the [**EnableTraceEx2**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) function and the [**ENABLE\_TRACE\_PARAMETERS**](/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters) and [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) structures to filter on specific conditions in a logger session. For more information on event payload filters, see the [**TdhCreatePayloadFilter**](/windows/desktop/api/Tdh/nf-tdh-tdhcreatepayloadfilter), and [**TdhAggregatePayloadFilters**](/windows/desktop/api/Tdh/nf-tdh-tdhaggregatepayloadfilters) functions and the **ENABLE\_TRACE\_PARAMETERS**, **EVENT\_FILTER\_DESCRIPTOR**, and [**PAYLOAD\_FILTER\_PREDICATE**](/windows/desktop/api/Tdh/ns-tdh-payload_filter_predicate) structures.
 
 For details on starting an event tracing session, see [Configuring and Starting an Event Tracing Session](configuring-and-starting-an-event-tracing-session.md).
 
@@ -261,10 +261,10 @@ For details on starting an NT Kernel Logger session, see [Configuring and Starti
 [Configuring and Starting the NT Kernel Logger Session](configuring-and-starting-the-nt-kernel-logger-session.md)
 </dt> <dt>
 
-[**EnableTraceEx2**](enabletraceex2.md)
+[**EnableTraceEx2**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2)
 </dt> <dt>
 
-[**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md)
+[**ENABLE\_TRACE\_PARAMETERS**](/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters)
 </dt> <dt>
 
 [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor)
@@ -281,11 +281,3 @@ For details on starting an NT Kernel Logger session, see [Configuring and Starti
 
 [Updating an Event Tracing Session](updating-an-event-tracing-session.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-

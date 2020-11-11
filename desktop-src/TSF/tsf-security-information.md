@@ -35,34 +35,30 @@ ms.date: 05/31/2018
 
 ## Best Practices for Developing with TSF
 
--   **Digital Signatures:** Text service providers should provide digital signatures with their binary executables. A registered text service has access to system threads and could expose information that would otherwise not be accessible. To help ensure stable and secure operation, the user should verify the digital signature of a text service before the text service is allowed to load. See [Introduction to Code Signing](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85)) for the proper procedure to create a digital signature.
+-   **Digital Signatures:** Text service providers should provide digital signatures with their binary executables. A registered text service has access to system threads and could expose information that would otherwise not be accessible. To help ensure stable and secure operation, the user should verify the digital signature of a text service before the text service is allowed to load. See [Introduction to Code Signing](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85)) for the proper procedure to create a digital signature.
 -   **Error Checking:** Each method or function call should be checked for success. In the event of failure, the remaining method or function calls should be skipped. Most of the code examples in this documentation have limited error checking, or none at all, to avoid obscuring the point to be illustrated. You should not paste examples from the documentation directly into production code; rather, you should enhance the examples by adding your own error checking.
 
--   **LoadLibrary Calls:** To obtain a pointer to any of the [TSF functions](text-services-framework-functions.md), you will need to use [LoadLibrary](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [GetProcAddress](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress). However, it is important to follow procedures for formatting the DLL path name, as given in **LoadLibrary** documentation.
+-   **LoadLibrary Calls:** To obtain a pointer to any of the [TSF functions](text-services-framework-functions.md), you will need to use [LoadLibrary](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [GetProcAddress](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress). However, it is important to follow procedures for formatting the DLL path name, as given in **LoadLibrary** documentation.
 
 ## Related topics
 
 <dl> <dt>
 
-[Security Best Practices](https://docs.microsoft.com/windows/desktop/SecBP/best-practices-for-the-security-apis)
+[Security Best Practices](/windows/desktop/SecBP/best-practices-for-the-security-apis)
 </dt> <dt>
 
-[Introduction to Code Signing](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85))
+[Introduction to Code Signing](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85))
 </dt> <dt>
 
 [TSF functions](text-services-framework-functions.md)
 </dt> <dt>
 
-[LoadLibrary](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya)
+[LoadLibrary](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya)
 </dt> <dt>
 
-[GetProcAddress](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress)
+[GetProcAddress](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress)
 </dt> </dl>
 
  
 
  
-
-
-
-

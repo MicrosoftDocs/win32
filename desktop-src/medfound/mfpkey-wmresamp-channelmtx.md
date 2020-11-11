@@ -12,7 +12,7 @@ Specifies the channel matrix, which is used to convert the source channels into 
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -67,7 +67,3 @@ then you would specify the array as:
  
 
  
-
-
-
-

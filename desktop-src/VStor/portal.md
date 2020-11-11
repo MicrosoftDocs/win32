@@ -52,11 +52,8 @@ VHD is supported on Windows 7 and Windows Server 2008 R2.
 
 ## <span id="related_topics"></span>Related topics
 
-[Virtual Disk Service](https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal)
+[Virtual Disk Service](/windows/desktop/VDS/virtual-disk-service-portal)
 
  
 
  
-
-
-

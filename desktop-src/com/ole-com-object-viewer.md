@@ -17,7 +17,7 @@ To view a COM object's type library:
 
 The object viewer displays the object's interfaces.
 
-For more information, see [Using the OLE/COM Object Viewer](https://msdn.microsoft.com/library/d0kh9f4c.aspx) in the Visual C++ documentation.
+For more information, see [Using the OLE/COM Object Viewer](/previous-versions/d0kh9f4c(v=vs.140)) in the Visual C++ documentation.
 
 ## Related topics
 
@@ -29,7 +29,3 @@ For more information, see [Using the OLE/COM Object Viewer](https://msdn.microso
  
 
  
-
-
-
-

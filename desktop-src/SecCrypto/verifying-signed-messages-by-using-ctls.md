@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Verifying Signed Messages by Using CTLs
 
-One of the advantages of using [*certificate trust lists*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CTLs) is that applications can be designed that can automatically verify signed messages against trusted certificates without bothering the user with dialog boxes. It also gives a network administrator control sources to be trusted.
+One of the advantages of using [*certificate trust lists*](../secgloss/c-gly.md) (CTLs) is that applications can be designed that can automatically verify signed messages against trusted certificates without bothering the user with dialog boxes. It also gives a network administrator control sources to be trusted.
 
 The following procedure can be used to verify the signature of a signed message by using a CTL.
 
@@ -16,7 +16,7 @@ The following procedure can be used to verify the signature of a signed message 
 
 1.  Decode the message as follows:
 
-    1.  Get a pointer to the received message (the encoded [*BLOB*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx)).
+    1.  Get a pointer to the received message (the encoded [*BLOB*](../secgloss/b-gly.md)).
     2.  Call [**CryptMsgOpenToDecode**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgopentodecode), passing the necessary arguments.
     3.  Call [**CryptMsgUpdate**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgupdate) once, passing in the handle retrieved in step b and a pointer to the data that is to be decoded. This causes the appropriate actions to be taken on the message, depending on the message type.
 
@@ -33,6 +33,3 @@ The following procedure can be used to verify the signature of a signed message 
  
 
  
-
-
-

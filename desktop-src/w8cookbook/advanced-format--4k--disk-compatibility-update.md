@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-<dl> **Clients**   Windows XP \| Windows Vista \| Windows 7 \| Windows 7 SP1 \| Windows 8  
+**Clients**   Windows XP \| Windows Vista \| Windows 7 \| Windows 7 SP1 \| Windows 8  
 **Servers**   Windows Server 2003 \| Windows Server 2008 \| Windows Server 2008 R2 \| Windows Server 2008 R2 SP1 \| Windows Server 2012 \| Windows Server 2012 R2 \| Windows Server 2016  
-</dl>
+
 
 ## Description
 
@@ -45,17 +45,17 @@ The below list summarizes the new features delivered as part of Windows 8 and Wi
 
 One of the problems of introducing this change in the media format is the potential for introducing compatibility issues with existing software and hardware. As a temporary compatibility solution, the storage industry is initially introducing disks that emulate a regular 512-byte sector disk, but make available info about the true sector size through standard ATA and SCSI commands. As a result of this emulation, there are, in essence, two sector sizes:
 
-<dl> **Logical sector:** The unit that is used for logical block addressing for the media. We can also think of it as the smallest unit of write that the storage can accept. This is the  emulation.   
+**Logical sector:** The unit that is used for logical block addressing for the media. We can also think of it as the smallest unit of write that the storage can accept. This is the  emulation.   
 **Physical sector:** The unit for which read and write operations to the device are completed in a single operation. This is the unit of atomic write.  
-</dl> Most current Windows APIs, such as IOCTL\_DISK\_GET\_DRIVE\_GEOMETRY will return the logical sector size, but the physical sector size can be retrieved through the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL\_STORAGE\_QUERY\_PROPERTY</a> control code, with the relevant info contained in the BytesPerPhysicalSector field in the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_access_alignment_descriptor">STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR</a> structure. This is discussed in more detail later in the article.
+ Most current Windows APIs, such as IOCTL\_DISK\_GET\_DRIVE\_GEOMETRY will return the logical sector size, but the physical sector size can be retrieved through the <a href="/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL\_STORAGE\_QUERY\_PROPERTY</a> control code, with the relevant info contained in the BytesPerPhysicalSector field in the <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_access_alignment_descriptor">STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR</a> structure. This is discussed in more detail later in the article.
 
 **Initial types of large sector media**
 
 The storage industry is quickly ramping up efforts to transition to this new Advanced Format type of storage for media having a 4 KB physical sector size. Two types of media will be released to the market:
 
-<dl> **4 KB native:** This media has no emulation layer and directly exposes 4 KB as its logical and physical sector size. The overall issue with this new type of media is that the majority of apps and operating systems do not query for and align I/Os to the physical sector size, which can result in unexpected failed I/Os.  
+**4 KB native:** This media has no emulation layer and directly exposes 4 KB as its logical and physical sector size. The overall issue with this new type of media is that the majority of apps and operating systems do not query for and align I/Os to the physical sector size, which can result in unexpected failed I/Os.  
 **512-byte emulation (512e):** This media has an emulation layer as discussed in the previous section and exposes 512-bytes as its logical sector size (similar to a regular disk today), but makes its physical sector size info (4 KB) available. The overall issue with this new type of media is that the majority of app and operating systems do not understand the existence of the physical sector size, which can result in a number of issues as will be discussed below.  
-</dl>**Overall Windows support for large sector media**
+**Overall Windows support for large sector media**
 
 This table documents the official Microsoft support policy for various media and their resulting reported sector sizes. See this [KB article](https://support.microsoft.com/kb/2510009) for details.
 
@@ -64,7 +64,7 @@ This table documents the official Microsoft support policy for various media and
 | Common Names                                  | Reported Logical Sector Size | Reported Physical Sector Size | Windows Version with Support                                                                                                                                                                                                                                                                             |
 |-----------------------------------------------|------------------------------|-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 512-byte Native, 512n                         | 512 bytes                    | 512 bytes                     | All Windows versions                                                                                                                                                                                                                                                                                     |
-| Advanced Format, 512e, AF, 512-byte Emulation | 512 bytes                    | 4 KB                          | Windows Vista w/ MS KB 2553708 <br/> Windows Server 2008\* w/ MS KB 2553708 <br/> Windows 7 w/ MS KB 982018 <br/> Windows Server 2008 R2* w/ MS KB 982018 <br/> All Windows versions from Windows 7 SP1 and beyond. <br/> All Server versions from Server 2008 R2 SP1 and beyond. <br/> <br/> \*Except for Hyper-V. See the ["Application support requirements for large-sector drives"](https://support.microsoft.com/en-us/help/2510009/microsoft-support-policy-for-4k-sector-hard-drives-in-windows) section. |
+| Advanced Format, 512e, AF, 512-byte Emulation | 512 bytes                    | 4 KB                          | Windows Vista w/ MS KB 2553708 <br/> Windows Server 2008\* w/ MS KB 2553708 <br/> Windows 7 w/ MS KB 982018 <br/> Windows Server 2008 R2* w/ MS KB 982018 <br/> All Windows versions from Windows 7 SP1 and beyond. <br/> All Server versions from Server 2008 R2 SP1 and beyond. <br/> <br/> \*Except for Hyper-V. See the ["Application support requirements for large-sector drives"](https://support.microsoft.com/help/2510009/microsoft-support-policy-for-4k-sector-hard-drives-in-windows) section. |
 | Advance Format, AF, 4K Native, 4Kn            | 4 KB                         | 4 KB                          | All Windows versions from Windows 8 and beyond <br/> All Server versions from Windows Server 2012 and beyond <br/>                                                                                                                                                                                                                                                      |
 | Other                                         | Not 4 KB or 512 bytes        | Not 4 KB or 512 bytes         | Not supported                                                                                                                                                                                                                                                                                            |
 
@@ -122,9 +122,9 @@ The simplest issue is that unbuffered writes are not aligned to the reported phy
 
 Some examples of scenarios where the resulting app I/O is unaligned:
 
-<dl> **Commit records are padded to 512-byte sectors:** Apps with a data store typically have some form of commit record that either maintains info about metadata changes or maintains the structure of the data store. In order to ensure that the loss of a sector does not affect multiple records, this commit record is typically padded out to a sector size. With a disk with a larger physical sector size, the app will need to query for the physical sector size as shown in the prior section, and ensure each commit record is padded to that size. With a 4K disk, this ensures I/Os do not fail. With a 512e disk, not only does this avoid the Read-Modify-Write cycle, it helps ensure that if a physical sector was lost, only one Commit Record would be lost.  
+**Commit records are padded to 512-byte sectors:** Apps with a data store typically have some form of commit record that either maintains info about metadata changes or maintains the structure of the data store. In order to ensure that the loss of a sector does not affect multiple records, this commit record is typically padded out to a sector size. With a disk with a larger physical sector size, the app will need to query for the physical sector size as shown in the prior section, and ensure each commit record is padded to that size. With a 4K disk, this ensures I/Os do not fail. With a 512e disk, not only does this avoid the Read-Modify-Write cycle, it helps ensure that if a physical sector was lost, only one Commit Record would be lost.  
 **Log files are written to in unaligned chunks:** Unbuffered I/O is typically used when updating or appending to a log file. Apps can either switch to buffered I/O, or internally buffer the log updates to units of the physical sector size to avoid failed I/Os or triggering a Read-Modify-Write.  
-</dl> To help determine if your app issues unbuffered I/O, make sure to include the FILE\_FLAG\_NO\_BUFFERING flag in the *dwFlagsAndAttributes* parameter when you are call the CreateFile function.
+ To help determine if your app issues unbuffered I/O, make sure to include the FILE\_FLAG\_NO\_BUFFERING flag in the *dwFlagsAndAttributes* parameter when you are call the CreateFile function.
 
 Moreover, if you are currently aligning the writes to the sector size, this sector size is most likely just the logical sector size, as most existing APIs that query for the sector size of the media just query the unit of addressing   that is, the logical sector size. The sector size of interest here is the physical sector size, which is the real unit of atomicity. Some examples of APIs that retrieve the logical sector size are:
 
@@ -163,7 +163,7 @@ typedef struct _FILE_FS_SECTOR_SIZE_INFORMATION {
 
 **Legacy method for Windows 7 and Windows Vista**
 
-Windows Vista and Windows Server 2008 introduced APIs to query for the physical sector size of the attached storage device for AHCI-based storage controllers. With Windows 7 and Windows Server 2008 R2, as of SP1 (or Microsoft Knowledge Base 982018), this support is extended to Storport-based storage controllers. Microsoft has provided a [code sample](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_access_alignment_descriptor) on MSDN detailing how an app can query for the physical sector size of the volume.
+Windows Vista and Windows Server 2008 introduced APIs to query for the physical sector size of the attached storage device for AHCI-based storage controllers. With Windows 7 and Windows Server 2008 R2, as of SP1 (or Microsoft Knowledge Base 982018), this support is extended to Storport-based storage controllers. Microsoft has provided a [code sample](/windows/desktop/api/winioctl/ns-winioctl-storage_access_alignment_descriptor) on MSDN detailing how an app can query for the physical sector size of the volume.
 
 While the code sample above allows you to get the physical sector size of the volume, you should do some basic sanity checking of the reported physical sector size before using it, as it has been observed that some drivers may not return correctly formatted data:
 
@@ -236,19 +236,13 @@ A 4K Native Disk has the  Bytes Per Sector  and  Bytes Per Physical Sector  fiel
 -   [Hotfix for Windows 7 and Windows Server 2008 R2](https://support.microsoft.com/kb/982018)
 -   [Hotfix for Windows Vista and Windows Server 2008](https://support.microsoft.com/kb/2553708)
 -   [HyperV Support Statement](https://support.microsoft.com/kb/2515143)
--   [General information about the IOCTL\_STORAGE\_QUERY\_PROPERTY control code](https://msdn.microsoft.com/library/ff560590(VS.85).aspx)
--   [IOCTL\_STORAGE\_QUERY\_PROPERTY Control Code](https://msdn.microsoft.com/library/ff800830(VS.85).aspx)
--   [General information about the STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR structure](https://msdn.microsoft.com/library/ff566344(VS.85).aspx)
+-   [General information about the IOCTL\_STORAGE\_QUERY\_PROPERTY control code](/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property)
+-   [IOCTL\_STORAGE\_QUERY\_PROPERTY Control Code](/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_query_property)
+-   [General information about the STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR structure](/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_access_alignment_descriptor)
 -   [Description of the standard terminology used to describe Microsoft software updates](https://support.microsoft.com/kb/824684/)
--   [WDK sample code with details for how to extract the reported storage access alignment info from the STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR structure when making a call to the IOCTL\_STORAGE\_QUERY\_PROPERTY control code](https://msdn.microsoft.com/library/ff800831(v=VS.85).aspx)
--   [General information about ImageX Command-Line Options](https://technet.microsoft.com/library/dd799302(WS.10).aspx)
+-   [WDK sample code with details for how to extract the reported storage access alignment info from the STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR structure when making a call to the IOCTL\_STORAGE\_QUERY\_PROPERTY control code](/windows/win32/api/winioctl/ns-winioctl-storage_access_alignment_descriptor)
+-   [General information about ImageX Command-Line Options](/previous-versions/windows/it-pro/windows-7/dd799302(v=ws.10))
 -   [Intel Chipset driver requirements to support 4 KB Sector Drives](https://www.intel.com/support/chipsets/imsm/sb/CS-031502.htm)
 
  
-
- 
-
-
-
-
 

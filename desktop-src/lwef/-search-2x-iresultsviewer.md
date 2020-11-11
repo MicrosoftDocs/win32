@@ -26,7 +26,7 @@ Exposes methods and properties for the results view.
 
 ## Members
 
-The **IResultsViewer** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IResultsViewer** also has these types of members:
+The **IResultsViewer** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IResultsViewer** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -93,10 +93,4 @@ These methods and properties are used to manipulate the information viewed.
 
 
  
-
- 
-
-
-
-
 

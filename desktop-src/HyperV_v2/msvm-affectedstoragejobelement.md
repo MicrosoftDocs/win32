@@ -53,7 +53,7 @@ The **Msvm\_AffectedStorageJobElement** class has these properties.
 **AffectedElement**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
+Data type: **[**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
 </dt> <dt>
 
 Access type: Read-only
@@ -62,7 +62,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-The managed element affected by the execution of the job. This property is inherited from [**CIM\_AffectedJobElement**](https://docs.microsoft.com/previous-versions//cc150663(v=vs.85)).
+The managed element affected by the execution of the job. This property is inherited from [**CIM\_AffectedJobElement**](/previous-versions//cc150663(v=vs.85)).
 
 </dd> <dt>
 
@@ -75,10 +75,10 @@ Data type: **[**Msvm\_StorageJob**](msvm-storagejob.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_AffectedJobElement.AffectingElement")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_AffectedJobElement.AffectingElement")
 </dt> </dl>
 
-The job that is affecting the affected element. This property is inherited from [**CIM\_AffectedJobElement**](https://docs.microsoft.com/previous-versions//cc150663(v=vs.85)).
+The job that is affecting the affected element. This property is inherited from [**CIM\_AffectedJobElement**](/previous-versions//cc150663(v=vs.85)).
 
 </dd> <dt>
 
@@ -91,7 +91,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-An enumeration that describes the effect on the managed element. This array corresponds to the **OtherElementEffectsDescriptions** property array, where the latter provides details related to the high-level effects enumerated by this property. Additional detail is required if the **ElementEffects** property array contains the value 1, (Other). This property is inherited from [**CIM\_AffectedJobElement**](https://docs.microsoft.com/previous-versions//cc150663(v=vs.85)).
+An enumeration that describes the effect on the managed element. This array corresponds to the **OtherElementEffectsDescriptions** property array, where the latter provides details related to the high-level effects enumerated by this property. Additional detail is required if the **ElementEffects** property array contains the value 1, (Other). This property is inherited from [**CIM\_AffectedJobElement**](/previous-versions//cc150663(v=vs.85)).
 
 <dl> <dt>
 
@@ -121,13 +121,13 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-Provides details for the effect at the corresponding array position in the **ElementEffects** property array. This information is required whenever the corresponding element in the **ElementEffects** property array contains the value 1 (Other). This property is inherited from [**CIM\_AffectedJobElement**](https://docs.microsoft.com/previous-versions//cc150663(v=vs.85)).
+Provides details for the effect at the corresponding array position in the **ElementEffects** property array. This information is required whenever the corresponding element in the **ElementEffects** property array contains the value 1 (Other). This property is inherited from [**CIM\_AffectedJobElement**](/previous-versions//cc150663(v=vs.85)).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_AffectedStorageJobElement** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_AffectedStorageJobElement** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -150,16 +150,11 @@ Access to the **Msvm\_AffectedStorageJobElement** class might be restricted by U
 [**CIM\_AffectedJobElement**](cim-affectedjobelement.md)
 </dt> <dt>
 
-[**CIM\_AffectedJobElement**](https://docs.microsoft.com/previous-versions//cc150663(v=vs.85))
+[**CIM\_AffectedJobElement**](/previous-versions//cc150663(v=vs.85))
 </dt> <dt>
 
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

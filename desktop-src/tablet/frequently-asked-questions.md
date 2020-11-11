@@ -1,12 +1,12 @@
 ---
-Description: The following are frequently asked questions (FAQ) about developing for the Tablet PC platform components installed by the Windows Vista SDK.
+description: The following are frequently asked questions (FAQ) about developing for the Tablet PC platform components installed by the Windows Vista SDK.
 ms.assetid: eb349493-a2b2-4b58-bcbc-ee09953c8dc8
 title: Frequently Asked Questions (Tablet PC)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Frequently Asked Questions
+# Frequently Asked Questions about developing for the Tablet PC platform
 
 The following are frequently asked questions (FAQ) about developing for the Tablet PC platform components installed by the Windows Vista SDK.
 
@@ -26,7 +26,7 @@ Also, the [InkEdit](inkedit-control-reference.md) and [InkPicture](inkpicture-co
 
 ## Q. Do I need to run a special version of Windows to do handwriting recognition?
 
-A. No. While only Windows XP Tablet PC Edition and certain versions of Windows Vista include handwriting recognizers, you can download the [Windows XP Tablet PC Edition 2005 Recognizer Pack]( http://www.microsoft.com/downloads/details.aspx?FamilyId=080184DD-5E92-4464-B907-10762E9F918B&amp;displaylang=en) and install it on Windows XP Professional or Windows Server 2003 for development purposes only. You may not redistribute the recognizers with your application.
+A. No. While only Windows XP Tablet PC Edition and certain versions of Windows Vista include handwriting recognizers, you can download the [Windows XP Tablet PC Edition 2005 Recognizer Pack]( https://www.microsoft.com/downloads/details.aspx?FamilyId=080184DD-5E92-4464-B907-10762E9F918B&amp;displaylang=en) and install it on Windows XP Professional or Windows Server 2003 for development purposes only. You may not redistribute the recognizers with your application.
 
 ## Q. What is the difference between Windows Vista and Tablet PC Technology?
 
@@ -44,7 +44,7 @@ A. Microsoft Windows applications that run on a Windows XP desktop or laptop com
 
 ## Q. I understand that I don't need to make any changes to my application, but it is difficult to use it with a pen and speech. What can I do to optimize my application for a Tablet PC?
 
-A. The API and ink controls of the Tablet PC platform components can be used to create user interfaces that are better suited to pen and handwriting input. For more information about specific ways you can improve your application, see [Mobile PC User Experience Guidelines for Developers](https://msdn.microsoft.com/library/Dd356056(v=VS.85).aspx).
+A. The API and ink controls of the Tablet PC platform components can be used to create user interfaces that are better suited to pen and handwriting input. For more information about specific ways you can improve your application, see [Mobile PC User Experience Guidelines for Developers](/previous-versions//dd356056(v=vs.85)).
 
 ## Q. What programming languages does the Tablet support?
 
@@ -58,9 +58,9 @@ A. Yes, sample code for COM and selected managed languages is included in the Ta
 
 For available sample applications, see:
 
--   [Mobile PC and Tablet PC Samples](mobile-pc-and-tablet-pc-samples.md)
--   [Digital Ink Samples, Windows Presentation Foundation (WPF)](https://msdn.microsoft.com/library/Aa972145(v=VS.85).aspx)
--   <systemdrive>:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Samples\\TabletPC
+- [Mobile PC and Tablet PC Samples](mobile-pc-and-tablet-pc-samples.md)
+- [Digital Ink Samples, Windows Presentation Foundation (WPF)](/previous-versions/dotnet/netframework-3.0/aa972145(v=vs.85))
+- <systemdrive>:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Samples\\TabletPC
 
 ## Q. What's the base level of Tablet hardware that I should develop for?
 
@@ -68,7 +68,7 @@ A. In general, you should design for a Windows Vista-compliant, legacy-free syst
 
 ## Q. What user interface guidelines can you provide for Tablet applications?
 
-A. Issues from drop-down menu orientation to screen/digitizer parallax are described in the [Mobile PC User Experience Guidelines for Developers](https://msdn.microsoft.com/library/Dd356056(v=VS.85).aspx) in the Mobile PC section of the Windows SDK.
+A. Issues from drop-down menu orientation to screen/digitizer parallax are described in the [Mobile PC User Experience Guidelines for Developers](/previous-versions//dd356056(v=vs.85)) in the Mobile PC section of the Windows SDK.
 
 ## Q. Do you include system-level handwriting gestures for commonly used keystrokes? Can I create my own gestures for use when an application is running or has focus?
 
@@ -88,8 +88,7 @@ A. Certain parts of the Tablet PC platform may be installed on non-Tablet versio
 
 The proper way to determine if a component of the API is installed is to attempt to create an instance of an object or control and check that it exists before attempting to use it.
 
-For example, to determine if the [**InkCollector**](inkcollector-class.md) object is available, attempt to create it using [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
-
+For example, to determine if the [**InkCollector**](inkcollector-class.md) object is available, attempt to create it using [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
 
 ```C++
 IInkCollector* pIInkCollector = NULL;
@@ -106,8 +105,6 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
 ## Q. How do I run the Tablet Input Service on Server SKUs?
 
 A. TabletInputService is designed not to run automatically in server SKUs when the client pack is installed. Client pack installs all of the components in the platform so any of the Tablet client applications can run on a server as well. The Tablet Input Service listens for PnP notification that an external digitizer is plugged in. To enable the Tablet Input Service on a server, use the System Configuration Utility.
@@ -116,12 +113,5 @@ From the **Start** menu, select **Run**. Type in "msconfig" and press Enter. Sel
 
 ## Q. More FAQs and Other Resources
 
--   [Windows Vista Developer Center](https://msdn.microsoft.com/windows/default.aspx)
--   [Windows XP Tablet PC Edition Home Page](https://www.microsoft.com/windows/tabletpc/)
-
- 
-
- 
-
-
-
+- [Microsoft Developer Center](https://developer.microsoft.com)
+- [Core Tablet PC Reference](/windows/win32/tablet/core-reference---tablet-pc-com-library)

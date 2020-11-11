@@ -33,7 +33,7 @@ Defines a 1-byte hexadecimal type.
 
 ## Patterns
 
-The **HexInt8Type** simple type is a [string](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) that is restricted by the following pattern:
+The **HexInt8Type** simple type is a [string](/dotnet/api/system.string) that is restricted by the following pattern:
 
 -   `0[xX][0-9A-Fa-f]{1,2}`
 
@@ -51,10 +51,4 @@ The **HexInt8Type** simple type is a [string](https://docs.microsoft.com/dotnet/
 
 
  
-
- 
-
-
-
-
 

@@ -40,9 +40,9 @@ HRESULT CloneMesh(
 *Options* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
-Combination of one or more [**D3DXMESH**](https://msdn.microsoft.com/library/Bb205370(v=VS.85).aspx) flags that specify creation options for the mesh.
+Combination of one or more [**D3DXMESH**](./d3dxmesh.md) flags that specify creation options for the mesh.
 
 </dd> <dt>
 
@@ -95,7 +95,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

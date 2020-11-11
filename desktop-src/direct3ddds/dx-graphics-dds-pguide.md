@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Direct3D implements the DDS file format for storing uncompressed or compressed (DXTn) textures. The file format implements several slightly different types designed for storing different types of data, and supports single layer textures, textures with mipmaps, cube maps, volume maps and texture arrays (in Direct3D 10/11). This section describes the layout of a DDS file.
 
-For help creating a texture in Direct3D 11, see [How to: Create a Texture](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-create). For help in Direct3D 9, see [Texture Support in D3DX (Direct3D 9)](https://docs.microsoft.com/windows/desktop/direct3d9/texture-support-in-d3dx).
+For help creating a texture in Direct3D 11, see [How to: Create a Texture](/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-create). For help in Direct3D 9, see [Texture Support in D3DX (Direct3D 9)](/windows/desktop/direct3d9/texture-support-in-d3dx).
 
 -   [DDS File Layout](#dds-file-layout)
 -   [DDS Variants](#dds-variants)
@@ -36,7 +36,7 @@ A DDS file is a binary file that contains the following information:
 
     
 
-    If the DDS\_PIXELFORMAT dwFlags is set to DDPF\_FOURCC and dwFourCC is set to "DX10" an additional [**DDS\_HEADER\_DXT10**](dds-header-dxt10.md) structure will be present to accommodate texture arrays or DXGI formats that cannot be expressed as an RGB pixel foramt such as floating point formats, sRGB formats etc. When the **DDS\_HEADER\_DXT10** structure is present the entire data description will looks like this.
+    If the DDS\_PIXELFORMAT dwFlags is set to DDPF\_FOURCC and dwFourCC is set to "DX10" an additional [**DDS\_HEADER\_DXT10**](dds-header-dxt10.md) structure will be present to accommodate texture arrays or DXGI formats that cannot be expressed as an RGB pixel format such as floating point formats, sRGB formats etc. When the **DDS\_HEADER\_DXT10** structure is present the entire data description will looks like this.
 
     ```
     DWORD               dwMagic;
@@ -61,9 +61,9 @@ A DDS file is a binary file that contains the following information:
 
     
 
-For broad hardware support, we recommend that you use the [**DXGI\_FORMAT\_R8G8B8A8\_UNORM**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_R8G8B8A8\_UNORM\_SRGB**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_R8G8B8A8\_SNORM**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_B8G8R8A8\_UNORM**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_R16G16\_SNORM**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_R8G8\_SNORM**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_R8\_UNORM**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_BC1\_UNORM**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_BC1\_UNORM\_SRGB**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_BC2\_UNORM**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_BC2\_UNORM\_SRGB**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_BC3\_UNORM**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), or [**DXGI\_FORMAT\_BC3\_UNORM\_SRGB**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) format.
+For broad hardware support, we recommend that you use the [**DXGI\_FORMAT\_R8G8B8A8\_UNORM**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_R8G8B8A8\_UNORM\_SRGB**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_R8G8B8A8\_SNORM**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_B8G8R8A8\_UNORM**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_R16G16\_SNORM**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_R8G8\_SNORM**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_R8\_UNORM**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_BC1\_UNORM**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_BC1\_UNORM\_SRGB**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_BC2\_UNORM**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_BC2\_UNORM\_SRGB**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), [**DXGI\_FORMAT\_BC3\_UNORM**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), or [**DXGI\_FORMAT\_BC3\_UNORM\_SRGB**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) format.
 
-For more info about compressed texture formats, see [Texture Block Compression in Direct3D 11](https://docs.microsoft.com/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11) and [Block Compression (Direct3D 10)](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression).
+For more info about compressed texture formats, see [Texture Block Compression in Direct3D 11](/windows/desktop/direct3d11/texture-block-compression-in-direct3d-11) and [Block Compression (Direct3D 10)](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression).
 
 The D3DX library (for example, D3DX11.lib) and other similar libraries unreliably or inconsistently provide the pitch value in the **dwPitchOrLinearSize** member of the [**DDS\_HEADER**](dds-header.md) structure. Therefore, when you read and write to DDS files, we recommend that you compute the pitch in one of the following ways for the indicated formats:
 
@@ -90,11 +90,11 @@ The D3DX library (for example, D3DX11.lib) and other similar libraries unreliabl
 
 ## DDS Variants
 
-There are many tools that create and consume DDS files, but they can vary in the details of what they require in the header. Writers should populate the headers as fully as possible, and readers should check the minimal values for maximum compatibilty. To validate a DDS file, a reader should ensure the file is at least 128 bytes long to accommodate the magic value and basic header, the magic value is 0x20534444 ("DDS "), the DDS\_HEADER size is 124, and the DDS\_PIXELFORMAT in the header size is 32. If the DDS\_PIXELFORMAT dwFlags is set to DDPF\_FOURCC and a dwFourCC is set to "DX10", then the total file size needs to be at least 148 bytes.
+There are many tools that create and consume DDS files, but they can vary in the details of what they require in the header. Writers should populate the headers as fully as possible, and readers should check the minimal values for maximum compatibility. To validate a DDS file, a reader should ensure the file is at least 128 bytes long to accommodate the magic value and basic header, the magic value is 0x20534444 ("DDS "), the DDS\_HEADER size is 124, and the DDS\_PIXELFORMAT in the header size is 32. If the DDS\_PIXELFORMAT dwFlags is set to DDPF\_FOURCC and a dwFourCC is set to "DX10", then the total file size needs to be at least 148 bytes.
 
 There are some common variants in use where the pixel format is set to a DDPF\_FOURCC code where dwFourCC is set to a D3DFORMAT or DXGI\_FORMAT enumeration value. There is no way to tell if an enumeration value is a D3DFORMAT or a DXGI\_FORMAT, so it is highly recommended that the "DX10" extension and DDS\_HEADER\_DXT10 header is used instead to store the dxgiFormat when the basic DDS\_PIXELFORMAT cannot express the format.
 
-The standard DDS\_PIXELFORMAT should be preferred for maximum compatibilty to store RGB uncompressed data and DXT1-5 data as not all DDS tools support the DX10 extension.
+The standard DDS\_PIXELFORMAT should be preferred for maximum compatibility to store RGB uncompressed data and DXT1-5 data as not all DDS tools support the DX10 extension.
 
 ## Using Texture Arrays in Direct3D 10/11
 
@@ -182,7 +182,7 @@ for (int iArrayElement = 0; iArrayElement < header10.arraySize; iArrayElement++)
 
 \* = A robust DDS reader must be able to handle these legacy format codes. However, such a DDS reader should prefer to use the "DX10" header extension when it writes these format codes to avoid ambiguity.
 
-\*\* = Because of some long-standing issues in common implementations of DDS readers and writers, the most robust way to write out 10:10:10:2-type data is to use the "DX10" header extension with the [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) code "24" (that is, the DXGI\_FORMAT\_R10G10B10A2\_UNORM value). D3DFMT\_A2R10G10B10 data should be converted to 10:10:10:2-type data before being written out as a DXGI\_FORMAT\_R10G10B10A2\_UNORM format DDS file.
+\*\* = Because of some long-standing issues in common implementations of DDS readers and writers, the most robust way to write out 10:10:10:2-type data is to use the "DX10" header extension with the [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) code "24" (that is, the DXGI\_FORMAT\_R10G10B10A2\_UNORM value). D3DFMT\_A2R10G10B10 data should be converted to 10:10:10:2-type data before being written out as a DXGI\_FORMAT\_R10G10B10A2\_UNORM format DDS file.
 
 ## Related topics
 
@@ -192,10 +192,4 @@ for (int iArrayElement = 0; iArrayElement < header10.arraySize; iArrayElement++)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

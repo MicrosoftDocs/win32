@@ -53,26 +53,26 @@ The **Msvm\_ServiceAffectsElement** class has these properties.
 **AffectedElement**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
+Data type: **[**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-A reference to the virtual machine. This property is inherited from [**CIM\_ServiceAffectsElement**](https://docs.microsoft.com/previous-versions//cc136907(v=vs.85)).
+A reference to the virtual machine. This property is inherited from [**CIM\_ServiceAffectsElement**](/previous-versions//cc136907(v=vs.85)).
 
 </dd> <dt>
 
 **AffectingElement**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-service)**
+Data type: **[**CIM\_Service**](/windows/desktop/CIMWin32Prov/cim-service)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-A reference to the service that controls the virtual machine. This property is inherited from [**CIM\_ServiceAffectsElement**](https://docs.microsoft.com/previous-versions//cc136907(v=vs.85)).
+A reference to the service that controls the virtual machine. This property is inherited from [**CIM\_ServiceAffectsElement**](/previous-versions//cc136907(v=vs.85)).
 
 </dd> <dt>
 
@@ -85,7 +85,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-Specifies the type of control that the association represents. This property is inherited from [**CIM\_ServiceAffectsElement**](https://docs.microsoft.com/previous-versions//cc136907(v=vs.85)), and it is always set to the following value.
+Specifies the type of control that the association represents. This property is inherited from [**CIM\_ServiceAffectsElement**](/previous-versions//cc136907(v=vs.85)), and it is always set to the following value.
 
 
 
@@ -108,13 +108,13 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-The details for the type of association at the corresponding array position in the **ElementAffects** property array. This information is required if **ElementAffects** is set to 1 (Other). This property is inherited from [**CIM\_ServiceAffectsElement**](https://docs.microsoft.com/previous-versions//cc136907(v=vs.85)), and it is always set to **Null**.
+The details for the type of association at the corresponding array position in the **ElementAffects** property array. This information is required if **ElementAffects** is set to 1 (Other). This property is inherited from [**CIM\_ServiceAffectsElement**](/previous-versions//cc136907(v=vs.85)), and it is always set to **Null**.
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_ServiceAffectsElement** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_ServiceAffectsElement** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -137,13 +137,8 @@ Access to the **Msvm\_ServiceAffectsElement** class might be restricted by UAC F
 [**CIM\_ServiceAffectsElement**](cim-serviceaffectselement.md)
 </dt> <dt>
 
-[**CIM\_ServiceAffectsElement**](https://docs.microsoft.com/previous-versions//cc136907(v=vs.85))
+[**CIM\_ServiceAffectsElement**](/previous-versions//cc136907(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
 

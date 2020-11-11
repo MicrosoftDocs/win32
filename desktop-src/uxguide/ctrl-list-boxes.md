@@ -3,10 +3,13 @@ title: List Boxes
 description: With a list box, users can select from a set of values presented in a list that is always visible.
 ms.assetid: 620e9ff9-b367-446b-9e97-9c9d6d14f4bb
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # List Boxes
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 With a list box, users can select from a set of values presented in a list that is always visible. With a single-selection list box, users select one item from a list of mutually exclusive values. With a multiple-selection list box, users select zero or more items from a list of values.
 
@@ -31,7 +34,7 @@ To decide, consider these questions:
 **Single-selection lists**
 
 -   **Is the control used to choose one option from a list of mutually exclusive values?** If not, use another control. To choose multiple options, use a standard multiple-selection list, check box list, list builder, or add/remove list instead.
--   **Is there a default option that is recommended for most users in most situations?** Is seeing the selected option far more important than seeing the alternatives? If so, consider using a [drop-down list](https://docs.microsoft.com/windows/desktop/uxguide/ctrl-drop) if you don't want to encourage users to make changes by hiding the alternatives.
+-   **Is there a default option that is recommended for most users in most situations?** Is seeing the selected option far more important than seeing the alternatives? If so, consider using a [drop-down list](/windows/desktop/uxguide/ctrl-drop) if you don't want to encourage users to make changes by hiding the alternatives.
 
 ![screen shot of highest quality as default button ](images/ctrl-list-boxes-image2.png)
 
@@ -300,10 +303,4 @@ When referring to list boxes:
 Example: In the **Go to what** list, select **Bookmark**.
 
  
-
- 
-
-
-
-
 

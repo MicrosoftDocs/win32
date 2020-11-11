@@ -28,13 +28,13 @@ ROBOTS: INDEX,FOLLOW
 
 # DateTimeColumnValue class
 
-A [Guid](https://docs.microsoft.com/dotnet/api/system.guid?redirectedfrom=MSDN) column value.
+A [Guid](/dotnet/api/system.guid) column value.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[DateTime](https://docs.microsoft.com/dotnet/api/system.datetime?redirectedfrom=MSDN)\>  
+    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[DateTime](/dotnet/api/system.datetime)\>  
       Microsoft.Isam.Esent.Interop.DateTimeColumnValue  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
@@ -65,4 +65,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 [DateTimeColumnValue members](dn334192\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

@@ -22,7 +22,7 @@ The **ID3DXPRTCompBuffer** interface stores a compressed version of a [**ID3DXPR
 
 ## Members
 
-The **ID3DXPRTCompBuffer** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXPRTCompBuffer** also has these types of members:
+The **ID3DXPRTCompBuffer** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DXPRTCompBuffer** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -37,7 +37,7 @@ The **ID3DXPRTCompBuffer** interface has these methods.
 | [**ExtractBasis**](id3dxprtcompbuffer--extractbasis.md)           | Extracts the mean and principal component analysis (PCA) basis vectors for a given cluster from an **ID3DXPRTCompBuffer** compressed data buffer.<br/>                                                                       |
 | [**ExtractClusterIDs**](id3dxprtcompbuffer--extractclusterids.md) | Extracts the per-sample cluster IDs from an **ID3DXPRTCompBuffer** compressed data buffer.<br/>                                                                                                                              |
 | [**ExtractPCA**](id3dxprtcompbuffer--extractpca.md)               | Extracts the per-sample principal component analysis (PCA) projection coefficients from an **ID3DXPRTCompBuffer** compressed data buffer.<br/>                                                                               |
-| [**ExtractTexture**](id3dxprtcompbuffer--extracttexture.md)       | Extracts the per-sample principal component analysis (PCA) projection coefficients from an **ID3DXPRTCompBuffer** compressed data buffer and adds the data to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) object.<br/> |
+| [**ExtractTexture**](id3dxprtcompbuffer--extracttexture.md)       | Extracts the per-sample principal component analysis (PCA) projection coefficients from an **ID3DXPRTCompBuffer** compressed data buffer and adds the data to an [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9) object.<br/> |
 | [**ExtractToMesh**](id3dxprtcompbuffer--extracttomesh.md)         | Extracts the per-sample principal component analysis (PCA) projection coefficients from an **ID3DXPRTCompBuffer** compressed data buffer and adds the data to an [**ID3DXMesh**](id3dxmesh.md) object.<br/>                 |
 | [**GetHeight**](id3dxprtcompbuffer--getheight.md)                 | Retrieves the height of the texture, in pixels.<br/>                                                                                                                                                                         |
 | [**GetNumChannels**](id3dxprtcompbuffer--getnumchannels.md)       | Retrieves the number of color channels used in memory to store samples.<br/>                                                                                                                                                 |
@@ -94,7 +94,3 @@ typedef interface ID3DXPRTCompBuffer *LPD3DXPRTCOMPBUFFER;
  
 
  
-
-
-
-

@@ -63,7 +63,6 @@ The network management functions can be grouped as follows.
 | [**NetGetJoinableOUs**](/windows/desktop/api/Lmjoin/nf-lmjoin-netgetjoinableous)                                       | Retrieves a list of organizational units (OUs) in which a computer account can be created.                                                                                                                                                                              |
 | [**NetGetJoinInformation**](/windows/desktop/api/Lmjoin/nf-lmjoin-netgetjoininformation)                               | Retrieves join status information for the specified computer.                                                                                                                                                                                                           |
 | [**NetJoinDomain**](/windows/desktop/api/Lmjoin/nf-lmjoin-netjoindomain)                                               | Joins a computer to a workgroup or domain.                                                                                                                                                                                                                              |
-| [**NetLogonSetServiceBits**](netlogonsetservicebits.md)                             | Notifies the Netlogon service of the running state of the services on a domain controller. The caller must be running in the context of either the LocalSystem or the LocalService account.                                                                             |
 | [**NetProvisionComputerAccount**](/windows/desktop/api/Lmjoin/nf-lmjoin-netprovisioncomputeraccount)                   | Provisions a computer account for later used in an offline domain join operation.                                                                                                                                                                                       |
 | [**NetRemoveAlternateComputerName**](/windows/desktop/api/Lmjoin/nf-lmjoin-netremovealternatecomputername)             | Removes an alternate name for the specified computer.                                                                                                                                                                                                                   |
 | [**NetRenameMachineInDomain**](/windows/desktop/api/Lmjoin/nf-lmjoin-netrenamemachineindomain)                         | Changes the name of a computer in a domain.                                                                                                                                                                                                                             |
@@ -154,9 +153,9 @@ The network management functions can be grouped as follows.
 
 | Function                                | Description                                                          |
 |-----------------------------------------|----------------------------------------------------------------------|
-| [**NetFileClose**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfileclose)     | Forces a resource to close.                                          |
-| [**NetFileEnum**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfileenum)       | Returns information about open files on a server.                    |
-| [**NetFileGetInfo**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfilegetinfo) | Returns information about a particular opening of a server resource. |
+| [**NetFileClose**](/windows/desktop/api/lmshare/nf-lmshare-netfileclose)     | Forces a resource to close.                                          |
+| [**NetFileEnum**](/windows/desktop/api/lmshare/nf-lmshare-netfileenum)       | Returns information about open files on a server.                    |
+| [**NetFileGetInfo**](/windows/desktop/api/lmshare/nf-lmshare-netfilegetinfo) | Returns information about a particular opening of a server resource. |
 
 
 
@@ -305,7 +304,7 @@ The network management functions can be grouped as follows.
 ## Obsolete Functions
 
 -   [**NetAccessAdd**](/windows/desktop/api/lmaccess/nf-lmaccess-netaccessadd)
--   [**NetAccessCheck**](https://msdn.microsoft.com/library/Aa370291(v=VS.85).aspx)
+-   [**NetAccessCheck**](/previous-versions/windows/desktop/legacy/aa370291(v=vs.85))
 -   [**NetAccessDel**](/windows/desktop/api/lmaccess/nf-lmaccess-netaccessdel)
 -   [**NetAccessEnum**](/windows/desktop/api/lmaccess/nf-lmaccess-netaccessenum)
 -   [**NetAccessGetInfo**](/windows/desktop/api/lmaccess/nf-lmaccess-netaccessgetinfo)
@@ -333,13 +332,9 @@ The network management functions can be grouped as follows.
 
 <dl> <dt>
 
-[Windows Networking Functions](https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions)
+[Windows Networking Functions](/windows/desktop/WNet/windows-networking-functions)
 </dt> </dl>
 
  
 
  
-
-
-
-

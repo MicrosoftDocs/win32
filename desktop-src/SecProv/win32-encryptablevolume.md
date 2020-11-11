@@ -163,7 +163,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The drive letter of the volume. This identifier can be used to associate a volume with other WMI provider classes, for example [**Win32\_Volume**](https://msdn.microsoft.com/library/Aa394515(v=VS.85).aspx).
+The drive letter of the volume. This identifier can be used to associate a volume with other WMI provider classes, for example [**Win32\_Volume**](/previous-versions/windows/desktop/legacy/aa394515(v=vs.85)).
 
 For volumes without drive letters, this value is **NULL**.
 
@@ -218,15 +218,15 @@ To use the **Win32\_EncryptableVolume** methods, the following conditions must b
 -   You must have administrator privileges.
 -   Connection encryption must be able to connect to the provider.
 
-    For more information about creating an encrypted connection, see [Requiring an Encrypted Connection to a Namespace](https://msdn.microsoft.com/library/aa393068.aspx).
+    For more information about creating an encrypted connection, see [Requiring an Encrypted Connection to a Namespace](../wmisdk/requiring-an-encrypted-connection-to-a-namespace.md).
 
-To enable remote connections, remote WMI traffic must be allowed. For more information about enabling WMI traffic, see [Connecting to WMI Remotely Starting with Vista](https://msdn.microsoft.com/library/aa822854.aspx).
+To enable remote connections, remote WMI traffic must be allowed. For more information about enabling WMI traffic, see [Connecting to WMI Remotely Starting with Vista](../wmisdk/connecting-to-wmi-remotely-starting-with-vista.md).
 
-The default namespace security setting includes an entry to allow editing by default. For more information about WMI namespace auditing, see [Access to WMI Namespaces](https://msdn.microsoft.com/library/aa822575.aspx).
+The default namespace security setting includes an entry to allow editing by default. For more information about WMI namespace auditing, see [Access to WMI Namespaces](../wmisdk/access-to-wmi-namespaces.md).
 
 ## Remarks
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## Requirements
 
@@ -244,7 +244,3 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
  
 
  
-
-
-
-

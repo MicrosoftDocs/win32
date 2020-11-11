@@ -41,7 +41,7 @@ You can use the following general-use APIs to access NVMe drives in Windows 10.
 -   [**IOCTL\_STORAGE\_QUERY\_PROPERTY**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property) : Use this IOCTL with the **STORAGE\_PROPERTY\_QUERY** structure to retrieve device information. For more info, see [Protocol-specific queries](#protocol-specific-queries) and [Temperature queries](#temperature-queries).
 
 -   [**STORAGE\_PROPERTY\_QUERY**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_property_query) : This structure includes the **PropertyId** and **AdditionalParameters** fields to specify the data to be queried. In the **PropertyId** filed, use the **STORAGE\_PROPERTY\_ID** enumeration to specify the type of data. Use the **AdditionalParameters** field to specify more details, depending on the type of data. For protocol-specific data, use the **STORAGE\_PROTOCOL\_SPECIFIC\_DATA** structure in the **AdditionalParameters** field. For temperature data, use the **STORAGE\_TEMPERATURE\_INFO** structure in the **AdditionalParameters** field.
--   [**STORAGE\_PROPERTY\_ID**](https://msdn.microsoft.com/library/Ff800839(v=VS.85).aspx) : This enumeration includes new values that allow **IOCTL\_STORAGE\_QUERY\_PROPERTY** to retrieve protocol-specific and temperature information.
+-   [**STORAGE\_PROPERTY\_ID**](/windows/win32/api/winioctl/ne-winioctl-storage_property_id) : This enumeration includes new values that allow **IOCTL\_STORAGE\_QUERY\_PROPERTY** to retrieve protocol-specific and temperature information.
 
     -   **StorageAdapterProtocolSpecificProperty**
     -   **StorageDeviceProtocolSpecificProperty**
@@ -120,7 +120,7 @@ For example, in NVMe, the IOCTL will allow the sending down of the following com
 -   Vendor Specific Admin Commands (C0h – FFh)
 -   Vendor Specific NVMe Commands (80h – FFh)
 
-As with all other IOCTLs, Use [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) to send the pass-through IOCTL down. The IOCTL is populated using the [**STORAGE\_PROTOCOL\_COMMAND**](/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_command) input-buffer structure found in **ntddstor.h**. Populate the **Command** field with the vendor-specific command.
+As with all other IOCTLs, Use [**DeviceIoControl**](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) to send the pass-through IOCTL down. The IOCTL is populated using the [**STORAGE\_PROTOCOL\_COMMAND**](/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_command) input-buffer structure found in **ntddstor.h**. Populate the **Command** field with the vendor-specific command.
 
 
 ```C++
@@ -161,7 +161,7 @@ typedef struct _STORAGE_PROTOCOL_COMMAND {
 
 The vendor specific command desired to be sent should be populated in the highlighted field above. Note again that the Command Effects Log must be implemented for pass-through commands. In particular, these commands need to be reported as supported in the Command Effects Log (see previous section for more information). Also note that PRP fields are driver specific thus applications sending commands can leave them as 0.
 
-Finally, this pass-through IOCTL is intended for sending vendor-specific commands. To send other admin or non-vendor specific NVMe commands such as Identify, this pass-through IOCTL should not be used. For example, **IOCTL\_STORAGE\_QUERY\_PROPERTY** should be used for Identify or Get Log Pages. For more info, see the next section, [Protocol-specific queries](https://docs.microsoft.com/windows).
+Finally, this pass-through IOCTL is intended for sending vendor-specific commands. To send other admin or non-vendor specific NVMe commands such as Identify, this pass-through IOCTL should not be used. For example, **IOCTL\_STORAGE\_QUERY\_PROPERTY** should be used for Identify or Get Log Pages. For more info, see the next section, [Protocol-specific queries](/windows).
 
 ### Don't update firmware through the pass-through mechanism
 
@@ -181,7 +181,7 @@ For getting storage information and updating firmware, Windows also supports Pow
 -   `Update-StorageFirmware `
 
 > [!Note]  
-> To update firmware on NVMe in Windows 8.1, use IOCTL\_SCSI\_MINIPORT\_FIRMWARE. This IOCTL was not backported to Windows 7. For more information, see [Upgrading Firmware for an NVMe Device in Windows 8.1](https://docs.microsoft.com/windows-hardware/drivers/storage/upgrading-firmware-for-an-nvme-device).
+> To update firmware on NVMe in Windows 8.1, use IOCTL\_SCSI\_MINIPORT\_FIRMWARE. This IOCTL was not backported to Windows 7. For more information, see [Upgrading Firmware for an NVMe Device in Windows 8.1](/windows-hardware/drivers/storage/upgrading-firmware-for-an-nvme-device).
 
  
 
@@ -443,7 +443,11 @@ In this example, based off of the previous one, the **Get Log Pages** request is
     protocolData->ProtocolType = ProtocolTypeNvme;  
     protocolData->DataType = NVMeDataTypeLogPage;  
     protocolData->ProtocolDataRequestValue = NVME_LOG_PAGE_HEALTH_INFO;  
-    protocolData->ProtocolDataRequestSubValue = 0;  
+    protocolData->ProtocolDataRequestSubValue = 0;  // This will be passed as the lower 32 bit of log page offset if controller supports extended data for the Get Log Page.
+    protocolData->ProtocolDataRequestSubValue2 = 0; // This will be passed as the higher 32 bit of log page offset if controller supports extended data for the Get Log Page.
+    protocolData->ProtocolDataRequestSubValue3 = 0; // This will be passed as Log Specific Identifier in CDW11.
+    protocolData->ProtocolDataRequestSubValue4 = 0; // This will map to STORAGE_PROTOCOL_DATA_SUBVALUE_GET_LOG_PAGE definition, then user can pass Retain Asynchronous Event, Log Specific Field.
+
     protocolData->ProtocolDataOffset = sizeof(STORAGE_PROTOCOL_SPECIFIC_DATA);  
     protocolData->ProtocolDataLength = sizeof(NVME_HEALTH_INFO_LOG);  
 
@@ -562,8 +566,128 @@ In this example, based off of the previous one, the **Get Features** request is 
         _tprintf(_T("DeviceNVMeQueryProtocolDataTest: ***Get Feature - Volatile Cache succeeded***.\n"));
     }
 ```
+## Protocol-specific set
 
+From Windows 10 19H1, the IOCTL_STORAGE_SET_PROPERTY was enhanced to support NVMe Set Features.
 
+The input buffer for the IOCTL_STORAGE_SET_PROPERTY is shown here:
+
+```C++
+typedef struct _STORAGE_PROPERTY_SET {
+
+    //
+    // ID of the property being retrieved
+    //
+
+    STORAGE_PROPERTY_ID PropertyId;
+
+    //
+    // Flags indicating the type of set property being performed
+    //
+
+    STORAGE_SET_TYPE SetType;
+
+    //
+    // Space for additional parameters if necessary
+    //
+
+    UCHAR AdditionalParameters[1];
+
+} STORAGE_PROPERTY_SET, *PSTORAGE_PROPERTY_SET;
+```
+
+When using IOCTL_STORAGE_SET_PROPERTY to set NVMe feature, configure the STORAGE_PROPERTY_SET structure as follows:
+
+-	Allocate a buffer that can contains both a STORAGE_PROPERTY_SET and a STORAGE_PROTOCOL_SPECIFIC_DATA_EXT structure;
+-	Set the PropertyID field to StorageAdapterProtocolSpecificProperty or StorageDeviceProtocolSpecificProperty for a controller or device/namespace request, respectively.
+-	Fill the STORAGE_PROTOCOL_SPECIFIC_DATA_EXT structure with the desired values. The start of the STORAGE_PROTOCOL_SPECIFIC_DATA_EXT is the AdditionalParameters field of STORAGE_PROPERTY_SET.
+
+The STORAGE_PROTOCOL_SPECIFIC_DATA_EXT structure is shown here.
+
+```C++
+typedef struct _STORAGE_PROTOCOL_SPECIFIC_DATA_EXT {
+
+    STORAGE_PROTOCOL_TYPE ProtocolType;
+    ULONG   DataType;                   // The value will be protocol specific, as defined in STORAGE_PROTOCOL_NVME_DATA_TYPE or STORAGE_PROTOCOL_ATA_DATA_TYPE.
+
+    ULONG   ProtocolDataValue;
+    ULONG   ProtocolDataSubValue;      // Data sub request value
+
+    ULONG   ProtocolDataOffset;         // The offset of data buffer is from beginning of this data structure.
+    ULONG   ProtocolDataLength;
+
+    ULONG   FixedProtocolReturnData;
+    ULONG   ProtocolDataSubValue2;     // First additional data sub request value
+
+    ULONG   ProtocolDataSubValue3;     // Second additional data sub request value
+    ULONG   ProtocolDataSubValue4;     // Third additional data sub request value
+
+    ULONG   ProtocolDataSubValue5;     // Fourth additional data sub request value
+    ULONG   Reserved[5];
+} STORAGE_PROTOCOL_SPECIFIC_DATA_EXT, *PSTORAGE_PROTOCOL_SPECIFIC_DATA_EXT;
+```
+
+To specify a type of NVMe feature to set, configure the STORAGE_PROTOCOL_SPECIFIC_DATA_EXT structure as follows:
+-	Set the ProtocolType field to ProtocolTypeNvme;
+-	Set the DataType field to the enumeration value NVMeDataTypeFeature defined by STORAGE_PROTOCOL_NVME_DATA_TYPE;
+
+The following examples demonstrate NVMe feature set.
+
+### Example: NVMe Set Features
+
+In this example, the Set Features request is sent to an NVMe drive. The following code prepares the set data structure and then sends the command down to the device via DeviceIoControl.
+
+```C++
+            PSTORAGE_PROPERTY_SET                   setProperty = NULL;
+            PSTORAGE_PROTOCOL_SPECIFIC_DATA_EXT     protocolData = NULL;
+            PSTORAGE_PROTOCOL_DATA_DESCRIPTOR_EXT   protocolDataDescr = NULL;
+
+            //
+            // Allocate buffer for use.
+            //
+            bufferLength = FIELD_OFFSET(STORAGE_PROPERTY_SET, AdditionalParameters) + sizeof(STORAGE_PROTOCOL_SPECIFIC_DATA_EXT);
+            bufferLength += NVME_MAX_LOG_SIZE;
+
+            buffer = new UCHAR[bufferLength];
+
+            //
+            // Initialize query data structure to get the desired log page.
+            //
+            ZeroMemory(buffer, bufferLength);
+
+            setProperty = (PSTORAGE_PROPERTY_SET)buffer;
+
+            setProperty->PropertyId = StorageAdapterProtocolSpecificProperty;
+            setProperty->SetType = PropertyStandardSet;
+
+            protocolData = (PSTORAGE_PROTOCOL_SPECIFIC_DATA_EXT)setProperty->AdditionalParameters;
+
+            protocolData->ProtocolType = ProtocolTypeNvme;
+            protocolData->DataType = NVMeDataTypeFeature;
+            protocolData->ProtocolDataValue = NVME_FEATURE_HOST_CONTROLLED_THERMAL_MANAGEMENT;
+
+            protocolData->ProtocolDataSubValue = 0; // This will pass to CDW11.
+            protocolData->ProtocolDataSubValue2 = 0; // This will pass to CDW12.
+            protocolData->ProtocolDataSubValue3 = 0; // This will pass to CDW13.
+            protocolData->ProtocolDataSubValue4 = 0; // This will pass to CDW14.
+            protocolData->ProtocolDataSubValue5 = 0; // This will pass to CDW15.
+
+            protocolData->ProtocolDataOffset = 0;
+            protocolData->ProtocolDataLength = 0;
+
+            //
+            // Send request down.
+            //
+            result = DeviceIoControl(m_deviceHandle,
+                                     IOCTL_STORAGE_SET_PROPERTY,
+                                     buffer,
+                                     bufferLength,
+                                     buffer,
+                                     bufferLength,
+                                     &returnedLength,
+                                     NULL
+            );
+```
 
 ## Temperature queries
 
@@ -670,6 +794,3 @@ The following files are relevant to NVMe development. These files are included w
  
 
  
-
-
-

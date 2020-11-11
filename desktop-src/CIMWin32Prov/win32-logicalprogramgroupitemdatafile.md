@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_LogicalProgramGroupItemDataFile class
 
-The **Win32\_LogicalProgramGroupItemDataFile** association [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) relates the program group items of the **Start** menu and the files in which they are stored.
+The **Win32\_LogicalProgramGroupItemDataFile** association [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) relates the program group items of the **Start** menu and the files in which they are stored.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_LogicalProgramGroupItem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_LogicalProgramGroupItem")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_LogicalProgramGroupItem")
 </dt> </dl>
 
 Reference to the instance representing the program groupings in the **Start** menu.
@@ -72,7 +72,7 @@ Data type: **CIM\_DataFile**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\|CIM\_DataFile")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\|CIM\_DataFile")
 </dt> </dl>
 
 Reference to the instance representing the class associated with the program group.
@@ -83,7 +83,7 @@ Reference to the instance representing the class associated with the program gro
 
 The **Win32\_LogicalProgramGroupItemDataFile** class is derived from [**CIM\_Dependency**](cim-dependency.md).
 
-The calling process that uses this class must have the **SE\_RESTORE\_NAME** privilege on the computer in which the registry resides. For example, if you enumerate this class on the local computer, the account under which your application runs must have this privilege. For more information, see [Executing Privileged Operations](https://docs.microsoft.com/windows/desktop/WmiSdk/executing-privileged-operations).
+The calling process that uses this class must have the **SE\_RESTORE\_NAME** privilege on the computer in which the registry resides. For example, if you enumerate this class on the local computer, the account under which your application runs must have this privilege. For more information, see [Executing Privileged Operations](/windows/desktop/WmiSdk/executing-privileged-operations).
 
 ## Requirements
 
@@ -106,13 +106,8 @@ The calling process that uses this class must have the **SE\_RESTORE\_NAME** pri
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -59,7 +59,7 @@ This event does not return a value.
 
 ## Error codes
 
-After the completion of the **OnObjectReady** event, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes below.
+After the completion of the **OnObjectReady** event, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes below.
 
 <dl> <dt>
 
@@ -112,9 +112,4 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 </dt> </dl>
 
  
-
- 
-
-
-
 

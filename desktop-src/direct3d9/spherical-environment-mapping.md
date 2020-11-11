@@ -24,7 +24,7 @@ If the normal points directly at the camera, the resulting coordinates should re
 
 ## Applying Spherical Environment Maps
 
-You apply an environment map to objects in the same manner as for any other texture, by setting the texture to the appropriate texture stage with the [**IDirect3DDevice9::SetTexture**](/windows/desktop/api) method. Set the first parameter to the index for the desired texture stage, and set the second parameter to the address of the [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface returned when you created the texture for the environment map. You can set the color and alpha blending operations and arguments as needed to achieve the desired texture blending effects.
+You apply an environment map to objects in the same manner as for any other texture, by setting the texture to the appropriate texture stage with the [**IDirect3DDevice9::SetTexture**](/windows/desktop/api) method. Set the first parameter to the index for the desired texture stage, and set the second parameter to the address of the [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface returned when you created the texture for the environment map. You can set the color and alpha blending operations and arguments as needed to achieve the desired texture blending effects.
 
 ## Related topics
 
@@ -36,6 +36,3 @@ You apply an environment map to objects in the same manner as for any other text
  
 
  
-
-
-

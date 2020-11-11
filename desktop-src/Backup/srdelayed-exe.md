@@ -13,13 +13,13 @@ ms.date: 05/31/2018
 
 Applications that perform system state restore operations early in the startup of the operating system may be unable to use the file management functions to move, delete, or set the short name of certain system files. Srdelayed.exe is an executable file, provided with the Windows Server Backup (WSB) feature in Windows Server 2008, that can enable system state recovery applications to move, delete, and set the short name of system files.
 
-The Srdelayed tool is intended for system state recovery applications; it does not replace the file management functions. This tool should be used only when the application is unable to move, delete, or set the short name of a system file using the [**MoveFileEx**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefileexa), [**DeleteFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea), and [**SetFileShortName**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setfileshortnamea) functions. During a system state restore and restart, Srdelayed.exe is used by System Restore and the wbadmin.exe command-line tool to move, delete, and set the short name on certain system files. Srdelayed may therefore be useful to developers that require the capability to restore these system files in their own system state recovery applications.
+The Srdelayed tool is intended for system state recovery applications; it does not replace the file management functions. This tool should be used only when the application is unable to move, delete, or set the short name of a system file using the [**MoveFileEx**](/windows/desktop/api/winbase/nf-winbase-movefileexa), [**DeleteFile**](/windows/desktop/api/fileapi/nf-fileapi-deletefilea), and [**SetFileShortName**](/windows/desktop/api/winbase/nf-winbase-setfileshortnamea) functions. During a system state restore and restart, Srdelayed.exe is used by System Restore and the wbadmin.exe command-line tool to move, delete, and set the short name on certain system files. Srdelayed may therefore be useful to developers that require the capability to restore these system files in their own system state recovery applications.
 
 Srdelayed can perform the following operations:
 
--   A move file operation similar to the [**MoveFileEx**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefileexa) function with the **MOVEFILE\_DELAY\_UNTIL\_REBOOT** flag
--   A delete file operation similar to the [**DeleteFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea) function
--   A set short-name operation similar to the [**SetFileShortName**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setfileshortnamea) function
+-   A move file operation similar to the [**MoveFileEx**](/windows/desktop/api/winbase/nf-winbase-movefileexa) function with the **MOVEFILE\_DELAY\_UNTIL\_REBOOT** flag
+-   A delete file operation similar to the [**DeleteFile**](/windows/desktop/api/fileapi/nf-fileapi-deletefilea) function
+-   A set short-name operation similar to the [**SetFileShortName**](/windows/desktop/api/winbase/nf-winbase-setfileshortnamea) function
 
 To use Srdelayed, your application requires the full path to the location of the Srdelayed.exe file and the full path to a Unicode text file that you have authored to contain the information the tool needs to perform all the file management operations being requested. Your application is responsible for ensuring that this text file does not contain redundant requests for an operation and that it handles any required ordering of the file management operations. For example, because a folder must be empty to be deleted, your application needs to ensure that the text file specifies the removal of all files inside the folder before requesting the folder be deleted.
 
@@ -27,13 +27,13 @@ If the **SetupExecute** entry does not already exist in the registry, your appli
 
 Your application should use the following format to set the value of **SetupExecute** to the full path to the location of the Srdelayed.exe file and the full path to the location of the text file. Prefix "\\\\??\\" to the path of the text file, as follows:
 
-<dl> *Full Path to Srdelayed.exe* \\\\??\\*Full Path to Text file*  
-</dl>
+*Full Path to Srdelayed.exe* \\\\??\\*Full Path to Text file*  
+
 
 For example, the following value for **SetupExecute** indicates that the Srdelayed.exe is located in the System32 folder and the text file is named DelayedOperations:
 
-<dl> C:\\Windows\\System32\\srdelayed.exe \\\\??\\C:\\temp\\DelayedOperations  
-</dl>
+C:\\Windows\\System32\\srdelayed.exe \\\\??\\C:\\temp\\DelayedOperations  
+
 
 Spaces in the path and name should be hexadecimal encoded. For example, for *Program Files*, encode the path as "\\\\??\\C:Program%20Files\\a.dll".
 
@@ -45,9 +45,9 @@ All the information Srdelayed needs to perform file management operations is spe
 
 The following string illustrates the format for a file requesting two operations and consisting of two records. Each parameter field ends with a single L'\\0' character. A record is composed of four consecutive fields. An additional single L'\\0' character is appended to the end of all records.
 
-<dl> `<ParamA1>L'\0'<ParamA2>L'\0'<ParamA3>L'\0'<ParamA4>L'\0'<ParamB1>L'\0'<ParamB2>L'\0'<ParamB3>L'\0'<ParamB4>L'\0'L'\0'`  
+`<ParamA1>L'\0'<ParamA2>L'\0'<ParamA3>L'\0'<ParamA4>L'\0'<ParamB1>L'\0'<ParamB2>L'\0'<ParamB3>L'\0'<ParamB4>L'\0'L'\0'`  
 `|-----------------------RecordA------------------------|------------------------RecordB------------------------|`  
-</dl>
+
 
 The meaning of the first, second, third, and fourth parameter fields depends on whether the record describes a move, delete, or set short-name operation.
 
@@ -63,13 +63,13 @@ Field 4 receives status information from Srdelayed. The value in this field shou
 
 The following example references the file by drive path. If the path and name of the source is C:\\Stage\\a.dll, this record requests that Srdelayed move it to C:\\temp\\a.dll.
 
-<dl> MoveFile \\\\??\\C:\\Stage\\a.dll \\\\??\\C:\\temp\\a.dll NotExecuted  
-</dl>
+MoveFile \\\\??\\C:\\Stage\\a.dll \\\\??\\C:\\temp\\a.dll NotExecuted  
+
 
 The following example references the file by volume GUID path. If the path and name of the source is \\\\?\\Volume{26a21bda-a627-11d7-9931-806e6f6e6963}\\Stage\\a.dll, this record requests that Srdelayed move it to \\\\?\\Volume{26a21bda-a627-11d7-9931-806e6f6e6963}\\temp\\a.dll
 
-<dl> MoveFile \\\\??\\Volume{26a21bda-a627-11d7-9931-806e6f6e6963}\\Stage\\a.dll \\\\??\\Volume{26a21bda-a627-11d7-9931-806e6f6e6963}\\temp\\a.dll NotExecuted  
-</dl>
+ MoveFile \\\\??\\Volume{26a21bda-a627-11d7-9931-806e6f6e6963}\\Stage\\a.dll \\\\??\\Volume{26a21bda-a627-11d7-9931-806e6f6e6963}\\temp\\a.dll NotExecuted  
+
 
 ## Format for a Delete File Record
 
@@ -83,13 +83,13 @@ Field 4 receives status information from Srdelayed. The value in this field shou
 
 The following example references the file by drive path. If the path and name is C:\\temp\\b.dll, this record requests that Srdelayed delete the file.
 
-<dl> DeleteFile Unused \\\\??\\C:\\temp\\b.dll NotExecuted  
-</dl>
+DeleteFile Unused \\\\??\\C:\\temp\\b.dll NotExecuted  
+
 
 The following example references the file by volume GUID. If the path and name is \\\\?\\Volume{26a21bda-a627-11d7-9931-806e6f6e6963}\\temp\\b.dll, this record requests that Srdelayed remove the file.
 
-<dl> DeleteFile Unused \\\\??\\Volume{26a21bda-a627-11d7-9931-806e6f6e6963}\\temp\\b.dll\\ NotExecuted  
-</dl>
+DeleteFile Unused \\\\??\\Volume{26a21bda-a627-11d7-9931-806e6f6e6963}\\temp\\b.dll\\ NotExecuted  
+
 
 ## Format for Set Short-Name Record
 
@@ -103,13 +103,13 @@ Field 4 receives status information from Srdelayed. The value in this field shou
 
 The following example references the file by drive path. If the path and name of the file is C:\\temp\\ShortFileName.dll, this record requests that the file receive a short name, ShortN~1.dll.
 
-<dl> SetFileShortName ShortN~1.dll \\\\??\\C:\\temp\\ShortFileName.dll NotExecuted  
-</dl>
+SetFileShortName ShortN~1.dll \\\\??\\C:\\temp\\ShortFileName.dll NotExecuted  
+
 
 The following example references the file by volume GUID. If the path and name of the file is \\\\?\\Volume{26a21bda-a627-11d7-9931-806e6f6e6963}\\temp\\ShortFileName.dll\\, this record requests that the file receive a short name, ShortN~1.dll.
 
-<dl> SetFileShortName ShortN~1.dll \\\\??\\Volume{26a21bda-a627-11d7-9931-806e6f6e6963}\\temp\\ShortFileName.dll\\ NotExecuted  
-</dl>
+SetFileShortName ShortN~1.dll \\\\??\\Volume{26a21bda-a627-11d7-9931-806e6f6e6963}\\temp\\ShortFileName.dll\\ NotExecuted  
+
 
 ## Srdelayed Operations Status
 
@@ -120,7 +120,3 @@ Srdelayed creates a registry key named **SystemRestore** under **HKEY\_LOCAL\_MA
  
 
  
-
-
-
-

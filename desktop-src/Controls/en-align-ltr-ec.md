@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # EN\_ALIGN\_LTR\_EC notification code
 
-Sent when the user has changed the edit control direction to left-to-right. The parent window of the edit control receives this notification code through a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message.
+Sent when the user has changed the edit control direction to left-to-right. The parent window of the edit control receives this notification code through a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message.
 
 
 ```C++
@@ -37,7 +37,7 @@ EN_ALIGN_LTR_EC
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the identifier of the edit control. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
+The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the identifier of the edit control. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
 
 </dd> <dt>
 
@@ -70,14 +70,8 @@ If there is a bidirectional language installed on your system, for example, Arab
 
 <dl> <dt>
 
-[**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command)
+[**WM\_COMMAND**](/windows/desktop/menurc/wm-command)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

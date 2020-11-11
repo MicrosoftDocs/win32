@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_PLAY command signals the device to begin transmitting output data. CD audio, digital-video, MIDI sequencer, videodisc, VCR, and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function with the following parameters.
 
 
 ```C++
@@ -115,7 +115,7 @@ Playback should use a full-screen display. Use this flag only when playing compr
 
 </dd> </dl>
 
-For digital-video devices, *lpPlay* points to an [**MCI\_DGV\_PLAY\_PARMS**](https://msdn.microsoft.com/library/Dd743396(v=VS.85).aspx) structure.
+For digital-video devices, *lpPlay* points to an [**MCI\_DGV\_PLAY\_PARMS**](/previous-versions//dd743396(v=vs.85)) structure.
 
 The following additional flags are used with the **vcr** device type:
 
@@ -206,10 +206,4 @@ The play speed is included in the **dwSpeed** member in the structure identified
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

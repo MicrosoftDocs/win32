@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # WIA Property Validation
 
-When an application performs an [IPropertyStorage::WriteMultiple](https://msdn.microsoft.com/library/Aa379985(v=VS.85).aspx) operation on any writeable Windows Image Acquisition (WIA) property, the WIA driver performs a validation on the new property value. Writing one property may have side affects that change other property values. It is up to the application to read all property values after a write operation to determine that all properties are set to values the application desires.
+When an application performs an [IPropertyStorage::WriteMultiple](/windows/win32/api/propidlbase/nf-propidlbase-ipropertystorage-writemultiple) operation on any writeable Windows Image Acquisition (WIA) property, the WIA driver performs a validation on the new property value. Writing one property may have side affects that change other property values. It is up to the application to read all property values after a write operation to determine that all properties are set to values the application desires.
 
-Multiple properties can be written simultaneously using the [IPropertyStorage::WriteMultiple](https://msdn.microsoft.com/library/Aa379985(v=VS.85).aspx) operation. There may be cases where some property assignments conflict. In such cases, the priority used to resolve conflicts is as follows:
+Multiple properties can be written simultaneously using the [IPropertyStorage::WriteMultiple](/windows/win32/api/propidlbase/nf-propidlbase-ipropertystorage-writemultiple) operation. There may be cases where some property assignments conflict. In such cases, the priority used to resolve conflicts is as follows:
 
 1.  WIA\_IPS\_CUR\_INTENT
 2.  WIA\_IPA\_DATATYPE
@@ -32,6 +32,3 @@ Multiple properties can be written simultaneously using the [IPropertyStorage::W
  
 
  
-
-
-

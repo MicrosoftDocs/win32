@@ -39,9 +39,9 @@ HRESULT BeginScene(
 *pSurface* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DSURFACE9**](https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DSURFACE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dsurface9)**
 
-Pointer to an [**IDirect3DSurface9**](https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx) interface, representing the render surface.
+Pointer to an [**IDirect3DSurface9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dsurface9) interface, representing the render surface.
 
 </dd> <dt>
 
@@ -84,7 +84,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # CThreadBase Methods
 
-\[The [**CThreadBase**](/windows/desktop/api/ThrdBase/nl-thrdbase-cthreadbase) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The [**CThreadBase**](/windows/desktop/api/ThrdBase/nl-thrdbase-cthreadbase) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The [**CThreadBase**](/windows/desktop/api/ThrdBase/nl-thrdbase-cthreadbase) class exposes the following methods.
 
@@ -25,6 +25,3 @@ The [**CThreadBase**](/windows/desktop/api/ThrdBase/nl-thrdbase-cthreadbase) cla
  
 
  
-
-
-

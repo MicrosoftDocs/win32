@@ -41,7 +41,7 @@ The following table lists the ACPI power states from highest to lowest power con
 <tr class="even">
 <td>Sleep<br/> (Modern Standby)<br/></td>
 <td>S0 low-power idle<br/></td>
-<td>Some SoC systems support a low-power idle state known as <a href="https://docs.microsoft.com/windows-hardware/design/device-experiences/modern-standby?redirectedfrom=MSDN">Modern Standby</a>. In this state, the system can very quickly switch from a low-power state to high-power state, so that it can respond quickly to hardware and network events. Systems that support Modern Standby do not use S1-S3.<br/></td>
+<td>Some SoC systems support a low-power idle state known as <a href="/windows-hardware/design/device-experiences/modern-standby">Modern Standby</a>. In this state, the system can very quickly switch from a low-power state to high-power state, so that it can respond quickly to hardware and network events. Systems that support Modern Standby do not use S1-S3.<br/></td>
 </tr>
 <tr class="odd">
 <td>Sleep<br/></td>
@@ -88,7 +88,7 @@ During the working state, the system is awake and running. In simple terms, the 
 
 ## Sleep state (Modern Standby)
 
-In the S0 low-power idle mode of the working state, also referred to as [Modern Standby](https://docs.microsoft.com/windows-hardware/design/device-experiences/modern-standby?redirectedfrom=MSDN), the system remains partially running. During Modern Standby, the system can stay up-to-date whenever a suitable network is available and also wake when real-time action is required, such as OS maintenance. Modern Standby wakes significantly faster than S1-S3. For more info, see [Modern Standby](https://docs.microsoft.com/windows-hardware/design/device-experiences/modern-standby?redirectedfrom=MSDN).
+In the S0 low-power idle mode of the working state, also referred to as [Modern Standby](/windows-hardware/design/device-experiences/modern-standby), the system remains partially running. During Modern Standby, the system can stay up-to-date whenever a suitable network is available and also wake when real-time action is required, such as OS maintenance. Modern Standby wakes significantly faster than S1-S3. For more info, see [Modern Standby](/windows-hardware/design/device-experiences/modern-standby).
 
 > [!Note]  
 > Modern Standby is only available on some SoC systems. When it's supported, the system does not support S1-S3.
@@ -128,7 +128,7 @@ When using fast startup, the system appears to the user as though a full shutdow
 
 Fast startup logs off user sessions, but the contents of kernel (session 0) are written to hard disk. This enables faster boot.
 
-To programmatically initiate a fast startup-style shutdown, call the [**InitiateShutdown**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-initiateshutdowna) function with the **SHUTDOWN\_HYBRID** flag or the [**ExitWindowsEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex) function with the **EWX\_HYBRID\_SHUTDOWN** flag.
+To programmatically initiate a fast startup-style shutdown, call the [**InitiateShutdown**](/windows/desktop/api/winreg/nf-winreg-initiateshutdowna) function with the **SHUTDOWN\_HYBRID** flag or the [**ExitWindowsEx**](/windows/desktop/api/winuser/nf-winuser-exitwindowsex) function with the **EWX\_HYBRID\_SHUTDOWN** flag.
 
 > [!Note]  
 > Starting in Windows 8, fast startup is the default transition when a system shutdown is requested. A full shutdown (S5) occurs when a system restart is requested (or an application calls a shutdown API).

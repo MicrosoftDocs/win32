@@ -14,12 +14,12 @@ The following table lists the Mergemod objects and interfaces.
 
 | Object                                              | Interface                                                                          |
 |-----------------------------------------------------|------------------------------------------------------------------------------------|
-| [**ConfigurableItem**](configurableitem-object.md) | [**IMsmConfigurableItem**](https://msdn.microsoft.com/library/Aa369242(v=VS.85).aspx)                     |
-| [**ConfigureModule**](configuremodule-object.md)   | [**IMsmConfigureModule**](https://msdn.microsoft.com/library/Aa369243(v=VS.85).aspx)                       |
-| [**Dependency**](dependency-object.md)             | [**IMsmDependency**](https://msdn.microsoft.com/library/Aa369249(v=VS.85).aspx)                                 |
-| [**Error**](error-object.md)                       | [**IMsmError**](https://msdn.microsoft.com/library/Aa369257(v=VS.85).aspx)                                           |
-| [**GetFiles**](getfiles-object.md)                 | [**IMsmGetFiles**](https://msdn.microsoft.com/library/Aa369259(v=VS.85).aspx)                                     |
-| [**Merge**](merge-object.md)                       | [**IMsmMerge2**](/windows/desktop/api/Mergemod/nn-mergemod-imsmmerge2)[**IMsmMerge**](https://msdn.microsoft.com/library/Aa369273(v=VS.85).aspx) |
+| [**ConfigurableItem**](configurableitem-object.md) | [**IMsmConfigurableItem**](/windows/win32/api/mergemod/nn-mergemod-imsmconfigurableitem)                     |
+| [**ConfigureModule**](configuremodule-object.md)   | [**IMsmConfigureModule**](/windows/win32/api/mergemod/nn-mergemod-imsmconfiguremodule)                       |
+| [**Dependency**](dependency-object.md)             | [**IMsmDependency**](/windows/win32/api/mergemod/nn-mergemod-imsmdependency)                                 |
+| [**Error**](error-object.md)                       | [**IMsmError**](/windows/win32/api/mergemod/nn-mergemod-imsmerror)                                           |
+| [**GetFiles**](getfiles-object.md)                 | [**IMsmGetFiles**](/windows/win32/api/mergemod/nn-mergemod-imsmgetfiles)                                     |
+| [**Merge**](merge-object.md)                       | [**IMsmMerge2**](/windows/desktop/api/Mergemod/nn-mergemod-imsmmerge2)[**IMsmMerge**](/windows/win32/api/mergemod/nn-mergemod-imsmmerge) |
 
 
 
@@ -28,6 +28,3 @@ The following table lists the Mergemod objects and interfaces.
  
 
  
-
-
-

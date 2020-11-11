@@ -17,7 +17,7 @@ api_location:
 # WINSOCK\_WS2HELP\_LSP\_DISABLE event
 
 > [!Note]  
-> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](https://msdn.microsoft.com/library/Aa366510(v=VS.85).aspx).
+> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](../fwp/windows-filtering-platform-start-page.md).
 
  
 
@@ -37,7 +37,7 @@ const EVENT_DESCRIPTOR WINSOCK_WS2HELP_LSP_DISABLE = {0x3, 0x0, 0x10, 0x0, 0x0, 
 *LSP Name* 
 </dt> <dd>
 
-The name of the LSP as obtained from the **szProtocol** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structure for the LSP being disabled.
+The name of the LSP as obtained from the **szProtocol** member of the [**WSAPROTOCOL\_INFO**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure for the LSP being disabled.
 
 </dd> <dt>
 
@@ -65,7 +65,7 @@ The GUID value of the Winsock transport provider that the LSP is being disabled.
 *Category* 
 </dt> <dd>
 
-The **dwCatalogEntryId** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structure for the LSP being disabled.
+The **dwCatalogEntryId** member of the [**WSAPROTOCOL\_INFO**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure for the LSP being disabled.
 
 </dd> </dl>
 
@@ -105,7 +105,3 @@ The **WINSOCK\_WS2HELP\_LSP\_DISABLE** event is traced for an LSP disable operat
  
 
  
-
-
-
-

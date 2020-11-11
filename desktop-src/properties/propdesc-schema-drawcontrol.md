@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # drawControl
 
-Specifies what control to use when simply displaying the property. There should be only one [drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx) element for each [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) element.
+Specifies what control to use when simply displaying the property. There should be only one [drawControl]() element for each [displayInfo](./propdesc-schema-displayinfo.md) element.
 
-If there are multiple elements, the last one is used. If no [drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx) element is provided, then the default attribute settings are applied to the property description.
+If there are multiple elements, the last one is used. If no [drawControl]() element is provided, then the default attribute settings are applied to the property description.
 
 This form of the control does not allow for property editing.
 
@@ -48,7 +48,7 @@ This form of the control does not allow for property editing.
 
 | Parent Element                                   | Child Elements |
 |--------------------------------------------------|----------------|
-| [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) | None           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | None           |
 
 
 
@@ -107,7 +107,7 @@ This form of the control does not allow for property editing.
 </tr>
 <tr class="odd">
 <td>StaticText</td>
-<td>Uses <a href="https://msdn.microsoft.com/library/Bb761521(v=VS.85).aspx>"><strong>IPropertyDescription::FormatForDisplay</strong></a> to display the property value.</td>
+<td>Uses <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-formatfordisplay"><strong>IPropertyDescription::FormatForDisplay</strong></a> to display the property value.</td>
 </tr>
 <tr class="even">
 <td>IconList</td>
@@ -132,6 +132,3 @@ This form of the control does not allow for property editing.
  
 
  
-
-
-

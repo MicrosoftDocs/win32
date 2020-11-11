@@ -77,7 +77,7 @@ Calling <a href="/windows/desktop/api/dmerror/nf-dmerror-make_hresult"><strong>M
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Winerror/nf-winerror-hresult_from_win32"><strong>HRESULT_FROM_WIN32</strong></a><br/></td>
-<td>Maps a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> to an <strong>HRESULT</strong> value. <br/></td>
+<td>Maps a <a href="/windows/desktop/Debug/system-error-codes">system error code</a> to an <strong>HRESULT</strong> value. <br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Winerror/nf-winerror-hresult_from_nt"><strong>HRESULT_FROM_NT</strong></a><br/></td>
@@ -98,10 +98,4 @@ Calling <a href="/windows/desktop/api/dmerror/nf-dmerror-make_hresult"><strong>M
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

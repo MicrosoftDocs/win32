@@ -49,7 +49,7 @@ The maximum number of viewports (and scissor rectangles) that can be bound to th
 
 ## Set the Scissor Rectangle
 
-A scissor rectangle gives you another opportunity to reduce the number of pixels that will be sent to the output merger stage. Pixels outside of the scissor rectangle are discarded. The size of the scissor rectangle is specified in integers. Only one scissor rectangle (based on *ViewportArrayIndex* in [system value semantics](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics)) can be applied to a triangle during rasterization.
+A scissor rectangle gives you another opportunity to reduce the number of pixels that will be sent to the output merger stage. Pixels outside of the scissor rectangle are discarded. The size of the scissor rectangle is specified in integers. Only one scissor rectangle (based on *ViewportArrayIndex* in [system value semantics](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics)) can be applied to a triangle during rasterization.
 
 To enable the scissor rectangle, use the *ScissorEnable* member (in [**D3D11\_RASTERIZER\_DESC1**](/windows/desktop/api/D3D11_1/ns-d3d11_1-cd3d11_rasterizer_desc1)). The default scissor rectangle is an empty rectangle; that is, all rect values are 0. In other words, if you do not set up the scissor rectangle and scissor is enabled, you will not send any pixels to the output-merger stage. The most common setup is to initialize the scissor rectangle to the size of the viewport.
 
@@ -140,7 +140,3 @@ There are no restrictions for mixing multisampled and non-multisampled rendering
  
 
  
-
-
-
-

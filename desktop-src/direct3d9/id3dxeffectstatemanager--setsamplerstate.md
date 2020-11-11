@@ -40,7 +40,7 @@ HRESULT SetSamplerState(
 *Sampler* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 The zero-based sampler number.
 
@@ -49,16 +49,16 @@ The zero-based sampler number.
 *Type* \[in\]
 </dt> <dd>
 
-Type: **[**D3DSAMPLERSTATETYPE**](https://msdn.microsoft.com/library/Bb172602(v=VS.85).aspx)**
+Type: **[**D3DSAMPLERSTATETYPE**](./d3dsamplerstatetype.md)**
 
-Identifies sampler state, which can specify the filtering, addressing, or the border color. See [**D3DSAMPLERSTATETYPE**](https://msdn.microsoft.com/library/Bb172602(v=VS.85).aspx).
+Identifies sampler state, which can specify the filtering, addressing, or the border color. See [**D3DSAMPLERSTATETYPE**](./d3dsamplerstatetype.md).
 
 </dd> <dt>
 
 *Value* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 A value from one of the sampler state types in Type.
 
@@ -71,7 +71,7 @@ Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).asp
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 
 -   The effect will fail during [**ID3DXEffect::BeginPass**](id3dxeffect--beginpass.md).
--   The dynamic effect state call (such as [**IDirect3DDevice9::SetSamplerState**](https://msdn.microsoft.com/library/Bb174456(v=VS.85).aspx)) will fail.
+-   The dynamic effect state call (such as [**IDirect3DDevice9::SetSamplerState**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setsamplerstate)) will fail.
 
 ## Requirements
 
@@ -94,7 +94,3 @@ The user-implemented method should return S\_OK. If the callback fails when sett
  
 
  
-
-
-
-

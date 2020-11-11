@@ -152,7 +152,7 @@ Data type: **CIM\_Controller**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 The controller.
@@ -168,7 +168,7 @@ Data type: **CIM\_LogicalDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The logical devices.
@@ -255,9 +255,4 @@ The time when the downstream device was last reset by the controller.
 </dt> </dl>
 
  
-
- 
-
-
-
 

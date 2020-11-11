@@ -26,7 +26,7 @@ Not used. Formerly a request for things like "capture frame" event.
 
 ## Members
 
-The **IRunActionRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IRunActionRequest** also has these types of members:
+The **IRunActionRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IRunActionRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,7 +34,7 @@ The **IRunActionRequest** interface inherits from the [**IUnknown**](https://doc
 
 The **IRunActionRequest** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/direct3dtools/irunactionrequest-requestasync-refguid-iunknown-ptr-irunactioncallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>An asynchronous request to initiate an action (for example, capture a frame) in the engine.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/irunactionrequest-requestasync-refguid-iunknown-ptr-irunactioncallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>An asynchronous request to initiate an action (for example, capture a frame) in the engine.</p></td></tr></tbody></table>
 
  
 
@@ -45,6 +45,3 @@ The **IRunActionRequest** interface has these methods.
  
 
  
-
-
-

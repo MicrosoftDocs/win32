@@ -17,7 +17,7 @@ Internet Authentication Service is the Microsoft implementation of a RADIUS serv
 
 Internet Authentication Service supports two API sets: [Network Policy Server Extensions API](ias-extensions.md) and [Server Data Objects API](server-data-objects.md).
 
-See [TechNet: Internet Authentication Service](https://technet.microsoft.com/network/bb643123.aspx) for more information on IAS.
+See [TechNet: Internet Authentication Service](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831683(v=ws.11)) for more information on IAS.
 
 ## Network Policy Server
 
@@ -42,7 +42,7 @@ In addition, NPS contains a set of new features that expand the IAS capabilities
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page">Network Access Protection (NAP)</a><br/></td>
+<td><a href="/windows/desktop/NAP/network-access-protection-start-page">Network Access Protection (NAP)</a><br/></td>
 <td>NPS is the central server of Network Access Protection.<br/> NPS supports policy authoring using the following additional conditions:<br/>
 <ul>
 <li>Policy expiration.</li>
@@ -61,7 +61,7 @@ NPS supports policy authoring using the following additional settings:<br/>
 NPS, through NAP, interoperates with CISCO NAC.<br/> IAS does not support NAP.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/win32/eap/eap-start-page">EAP</a> Policy and <a href="https://docs.microsoft.com/windows/win32/eaphost/portal">EAPHost</a> Support<br/></td>
+<td><a href="/windows/win32/eap/eap-start-page">EAP</a> Policy and <a href="/windows/win32/eaphost/portal">EAPHost</a> Support<br/></td>
 <td>NPS uses EAPHost for EAP method extensibility. Additionally, administrators may configure network access policy for EAP.<br/> IAS does not support EAPHost integration, or EAP type filter conditions for policies.<br/></td>
 </tr>
 <tr class="odd">
@@ -89,7 +89,7 @@ NPS, through NAP, interoperates with CISCO NAC.<br/> IAS does not support NAP.<b
 <td>NPS is integrated with the Server Manager and the Role Management Tool. This integration facilitates the configuration and management of NPS and related scenarios.<br/> Server Manager is not available on computers running IAS.<br/></td>
 </tr>
 <tr class="odd">
-<td>Updated Command Line Scripting with <a href="https://technet.microsoft.com/library/fd1e2fbe-15a6-413b-b712-28afb312c92f">Netsh</a>.<br/></td>
+<td>Updated Command Line Scripting with <a href="/previous-versions/windows/it-pro/windows-server-2003/cc785383(v=ws.10)">Netsh</a>.<br/></td>
 <td>NPS supports the &quot;Netsh nps&quot; command line interface. &quot;Netsh nps&quot; contains new commands that permit to fully configure NPS, including NAP features.<br/> IAS supports the &quot;Netsh aaaa&quot; command line interface.<br/></td>
 </tr>
 <tr class="even">
@@ -103,26 +103,18 @@ NPS, through NAP, interoperates with CISCO NAC.<br/> IAS does not support NAP.<b
 
  
 
-See [TechNet: Network Policy Server](https://technet.microsoft.com/network/bb629414.aspx) for more information on NPS.
+See [TechNet: Network Policy Server](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831683(v=ws.11)) for more information on NPS.
 
 ## Related topics
 
 <dl> <dt>
 
-[RADIUS Authentication, Authorization, and Accounting](https://docs.microsoft.com/windows/desktop/Nps/ias-radius-authentication-and-accounting)
+[RADIUS Authentication, Authorization, and Accounting](/windows/desktop/Nps/ias-radius-authentication-and-accounting)
 </dt> <dt>
 
-[Logging With Network Policy Server](https://docs.microsoft.com/windows/desktop/Nps/ias-radius-accounting-packets)
+[Logging With Network Policy Server](/windows/desktop/Nps/ias-radius-accounting-packets)
 </dt> <dt>
 
-[Working with a State Server](https://docs.microsoft.com/windows/desktop/Nps/ias-working-with-a-state-server)
+[Working with a State Server](/windows/desktop/Nps/ias-working-with-a-state-server)
 </dt> </dl>
-
- 
-
- 
-
-
-
-
 

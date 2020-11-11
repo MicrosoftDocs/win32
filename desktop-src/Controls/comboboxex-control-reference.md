@@ -62,7 +62,7 @@ This section contains information about the programming elements used with Combo
 | [CBEN\_ENDEDIT](cben-endedit.md)                          | Sent when the user has concluded an operation within the edit box or has selected an item from the control's drop-down list. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.<br/>                             |
 | [CBEN\_GETDISPINFO](cben-getdispinfo.md)                  | Sent to retrieve display information about a callback item. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message. <br/>                                                                                             |
 | [CBEN\_INSERTITEM](cben-insertitem.md)                    | Sent when a new item has been inserted in the control. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message. <br/>                                                                                                  |
-| [NM\_SETCURSOR (ComboBoxEx)](nm-setcursor-comboboxex-.md) | Notifies a ComboBoxEx control's parent window that the control is setting the cursor in response to a [**WM\_SETCURSOR**](https://docs.microsoft.com/windows/desktop/menurc/wm-setcursor) message. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message. <br/> |
+| [NM\_SETCURSOR (ComboBoxEx)](nm-setcursor-comboboxex-.md) | Notifies a ComboBoxEx control's parent window that the control is setting the cursor in response to a [**WM\_SETCURSOR**](/windows/desktop/menurc/wm-setcursor) message. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message. <br/> |
 
 
 
@@ -96,10 +96,4 @@ This section contains information about the programming elements used with Combo
  
 
  
-
- 
-
-
-
-
 

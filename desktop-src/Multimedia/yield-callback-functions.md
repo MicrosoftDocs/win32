@@ -10,12 +10,8 @@ ms.date: 05/31/2018
 
 # Yield Callback Functions
 
-Applications can use yield callback functions during streaming capture. (A yield callback function typically consists of a message loop that calls [PeekMessage](https://msdn.microsoft.com/library/ms644943.aspx), [TranslateMessage](https://msdn.microsoft.com/library/ms644955.aspx), and [DispatchMessage](https://msdn.microsoft.com/library/ms644934.aspx).) The capture window calls the yield callback function at least once for every captured video frame, but the exact rate depends on the frame rate and the overhead of the capture driver and disk.
+Applications can use yield callback functions during streaming capture. (A yield callback function typically consists of a message loop that calls [PeekMessage](/windows/win32/api/winuser/nf-winuser-peekmessagea), [TranslateMessage](/windows/win32/api/winuser/nf-winuser-translatemessage), and [DispatchMessage](/windows/win32/api/winuser/nf-winuser-dispatchmessage).) The capture window calls the yield callback function at least once for every captured video frame, but the exact rate depends on the frame rate and the overhead of the capture driver and disk.
 
  
 
  
-
-
-
-

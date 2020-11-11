@@ -31,13 +31,13 @@ Set to IMR\_COMPOSITIONFONT.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a buffer containing a [**LOGFONT**](https://msdn.microsoft.com/library/Dd145037(v=VS.85).aspx) structure. The application fills in the values for the current composition window.
+Pointer to a buffer containing a [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure. The application fills in the values for the current composition window.
 
 </dd> </dl>
 
 ## Return Value
 
-Returns a nonzero value if the application fills in the [**LOGFONT**](https://msdn.microsoft.com/library/Dd145037(v=VS.85).aspx) structure. Otherwise, the command returns 0.
+Returns a nonzero value if the application fills in the [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure. Otherwise, the command returns 0.
 
 ## Remarks
 
@@ -74,7 +74,3 @@ This command can be sent by the IME to a window that cleared the ISC\_SHOWUICOMP
  
 
  
-
-
-
-

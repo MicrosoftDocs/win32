@@ -25,7 +25,7 @@ This interface adds the ability to check if a color rendering path is potentiall
 
 ## Members
 
-The **IDWriteFont2** interface inherits from [**IDWriteFont1**](https://msdn.microsoft.com/library/Hh780404(v=VS.85).aspx). **IDWriteFont2** also has these types of members:
+The **IDWriteFont2** interface inherits from [**IDWriteFont1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefont1). **IDWriteFont2** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -61,14 +61,8 @@ The **IDWriteFont2** interface has these methods.
 
 <dl> <dt>
 
-[**IDWriteFont1**](https://msdn.microsoft.com/library/Hh780404(v=VS.85).aspx)
+[**IDWriteFont1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefont1)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

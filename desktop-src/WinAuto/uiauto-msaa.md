@@ -36,7 +36,7 @@ This topic contains the following sections.
 
 ## Programming Languages
 
-Microsoft Active Accessibility is based on the Component Object Model (COM) with support for dual interfaces, and therefore, is programmable in C/C++, Microsoft Visual Basic 6.0, and scripting languages.
+Microsoft Active Accessibility is based on the Component Object Model (COM) with support for dual interfaces, and therefore, is programmable in C/C++ and scripting languages.
 
 When UI Automation was introduced, the client API was limited to managed code, while the provider API included both managed and unmanaged implementations. With Windows 7, a new COM-based client API was introduced to make it easier to program UI Automation client applications in C/C++.
 
@@ -44,7 +44,7 @@ When UI Automation was introduced, the client API was limited to managed code, w
 
 In Microsoft Active Accessibility, servers and clients communicate directly, largely through the server implementation of the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface.
 
-In UI Automation, a core service lies between the server (provider) and the client. The core service makes calls to the interfaces implemented by providers and provides additional services, such as generating unique run-time identifiers for UI elements. Client applications gain access to this core service by creating a [**CUIAutomation**](https://msdn.microsoft.com/library/Ff384838(v=VS.85).aspx) object. This object supports a set of client interfaces that are separate from the provider interfaces. For more information, see [Creating the CUIAutomation Object](uiauto-creatingcuiautomation.md).
+In UI Automation, a core service lies between the server (provider) and the client. The core service makes calls to the interfaces implemented by providers and provides additional services, such as generating unique run-time identifiers for UI elements. Client applications gain access to this core service by creating a [**CUIAutomation**](/previous-versions/windows/desktop/legacy/ff384838(v=vs.85)) object. This object supports a set of client interfaces that are separate from the provider interfaces. For more information, see [Creating the CUIAutomation Object](uiauto-creatingcuiautomation.md).
 
 UI Automation providers can provide information to Microsoft Active Accessibility clients, and Microsoft Active Accessibility servers can provide information to UI Automation client applications. However, because Microsoft Active Accessibility does not expose as much information as UI Automation, the two models are not fully compatible.
 
@@ -290,7 +290,3 @@ Changes in the properties of an [**IUIAutomationLegacyIAccessiblePattern**](/win
  
 
  
-
-
-
-

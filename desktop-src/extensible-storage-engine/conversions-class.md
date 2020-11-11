@@ -32,7 +32,7 @@ Provide methods to convert data and flags between Win32 and the .NET Framework.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.Conversions  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
@@ -62,4 +62,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 [Conversions members](dn334184\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

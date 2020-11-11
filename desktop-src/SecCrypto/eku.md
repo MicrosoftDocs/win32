@@ -17,7 +17,7 @@ api_location:
 
 # EKU object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509EnhancedKeyUsageExtension Class**](https://msdn.microsoft.com/library/6f6fz8xs(v=VS.90).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509EnhancedKeyUsageExtension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509enhancedkeyusageextension?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
 
 The **EKU** object represents a single extended key usage (EKU) property of a certificate.
 
@@ -36,7 +36,7 @@ The **EKU** object has these properties.
 | Property                            | Access type           | Description                                                                                                                                                                                                   |
 |:------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Name**](eku-name.md)<br/> | Read/write<br/> | Sets or retrieves an enumeration value that specifies the CAPICOM name of the EKU. This is the default property.<br/>                                                                                   |
-| [**OID**](eku-oid.md)<br/>   | Read/write<br/> | Sets or retrieves a string that contains an EKU [*object identifier*](https://msdn.microsoft.com/library/ms721599(v=VS.85).aspx) (OID) string value as defined in Wincrypt.h.<br/> |
+| [**OID**](eku-oid.md)<br/>   | Read/write<br/> | Sets or retrieves a string that contains an EKU [*object identifier*](../secgloss/o-gly.md) (OID) string value as defined in Wincrypt.h.<br/> |
 
 
 
@@ -67,7 +67,3 @@ The **EKU** object cannot be created.
  
 
  
-
-
-
-

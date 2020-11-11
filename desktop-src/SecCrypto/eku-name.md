@@ -20,7 +20,7 @@ api_location:
 
 # IEKU::Name property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509EnhancedKeyUsageExtension Class**](https://msdn.microsoft.com/library/6f6fz8xs(v=VS.90).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509EnhancedKeyUsageExtension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509enhancedkeyusageextension?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
 
 The **Name** property sets or retrieves an enumeration value that specifies the CAPICOM name of the EKU. This is the default property.
 
@@ -57,7 +57,7 @@ A value of the [**CAPICOM\_EKU**](capicom-eku.md) enumeration that specifies the
 
 ## Remarks
 
-When the value of this property is reset, directly or indirectly, the whole [*state*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) of the object is reset.
+When the value of this property is reset, directly or indirectly, the whole [*state*](../secgloss/s-gly.md) of the object is reset.
 
 ## Requirements
 
@@ -75,7 +75,3 @@ When the value of this property is reset, directly or indirectly, the whole [*st
  
 
  
-
-
-
-

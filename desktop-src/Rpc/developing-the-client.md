@@ -24,12 +24,8 @@ The client program itself is created in the file MyClnt.c. In a real project, th
 
 The files MyClnt.c and MyApp\_c.c are compiled and linked together with the RPC run-time library, and any other libraries that the client program needs. The result is an executable client program named MyClnt.exe.
 
-If you do not compile your IDL file in OSF compatibility mode ([**/osf**](https://docs.microsoft.com/windows/desktop/Midl/-osf)), your client program must provide a function for allocating memory and a function for deallocating it. For Windows 2000 and later versions, the recommended mode is [**/Oicf**](https://docs.microsoft.com/windows/desktop/Midl/-oi). For details, see [How Memory Is Allocated and Deallocated](how-memory-is-allocated-and-deallocated.md), and [Pointers and Memory Allocation](pointers-and-memory-allocation.md).
+If you do not compile your IDL file in OSF compatibility mode ([**/osf**](/windows/desktop/Midl/-osf)), your client program must provide a function for allocating memory and a function for deallocating it. For Windows 2000 and later versions, the recommended mode is [**/Oicf**](/windows/desktop/Midl/-oi). For details, see [How Memory Is Allocated and Deallocated](how-memory-is-allocated-and-deallocated.md), and [Pointers and Memory Allocation](pointers-and-memory-allocation.md).
 
  
 
  
-
-
-
-

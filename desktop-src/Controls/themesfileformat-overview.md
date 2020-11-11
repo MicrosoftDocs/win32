@@ -16,7 +16,7 @@ The following topics are discussed in this article.
 
 -   [Creating a Theme File](#creating-a-theme-file)
 -   [Description of a Theme File](#description-of-a-theme-file)
-    -   [\[Theme\] Section](#theme-file-format)
+    -   [\[Theme\] Section](#theme-section)
     -   [\[Control Panel\\Colors\] Section](#control-panelcolors-section)
     -   [\[Control Panel\\Cursors\] Section](#control-panelcursors-section)
     -   [\[Control Panel\\Desktop\] Section](#control-paneldesktop-section)
@@ -253,7 +253,7 @@ Your theme's background can be a slide show either of images stored locally or o
 </tr>
 <tr class="odd">
 <td>RSSFeed=URL to RSS feed</td>
-<td>Required if ImagesRootPath is not specified. RSSFeed specifies an RSS feed to use as the background slide show. For the feed to work, you need to reference high-resolution images adhering to the &quot;enclosures&quot; standard used by the <a href="https://msdn.microsoft.com/library/ms684701(VS.85).aspx">Windows RSS Platform</a>. Because of this limitation, .theme files that include an RSS feed must be created manually. <br/>
+<td>Required if ImagesRootPath is not specified. RSSFeed specifies an RSS feed to use as the background slide show. For the feed to work, you need to reference high-resolution images adhering to the &quot;enclosures&quot; standard used by the <a href="/previous-versions/windows/desktop/ms684701(v=vs.85)">Windows RSS Platform</a>. Because of this limitation, .theme files that include an RSS feed must be created manually. <br/>
 <blockquote>
 [!Note]<br />
 You cannot specify both an RSSFeed and ImagesRootPath.
@@ -701,7 +701,7 @@ Transparency=1
 
 When Windows is initialized, the operating system enumerates the first-level subdirectories of %WinDir%\\Resources\\ to identify available themes. The system default theme files are located in %WinDir%\\Resources\\Themes. The user theme files are stored in %WinDir%\\Users\\<username>\\AppData\\Local\\Microsoft\\Windows\\Themes.
 
-A .theme file has file associations; therefore, theme installer applications can call [**ShellExecute**](https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea) on a .theme file to open the **Personalization** window in Control Panel to the specified theme.
+A .theme file has file associations; therefore, theme installer applications can call [**ShellExecute**](/windows/desktop/api/shellapi/nf-shellapi-shellexecutea) on a .theme file to open the **Personalization** window in Control Panel to the specified theme.
 
 ## Theme Packs
 
@@ -730,12 +730,4 @@ Supported file types include the following:
 
 [Visual Styles Overview](visual-styles-overview.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-
 

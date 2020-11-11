@@ -16,7 +16,7 @@ The system uses the following rules to merge information from the two sources:
 -   The merged view includes all immediate subkeys of the **HKEY\_LOCAL\_MACHINE\\Software\\Classes** key that do not duplicate the subkeys of **HKEY\_CURRENT\_USER\\Software\\Classes**.
 -   At the end of this topic is a list of subkeys that are found in both **HKEY\_LOCAL\_MACHINE\\Software\\Classes** and **HKEY\_CURRENT\_USER\\Software\\Classes**. The immediate subkeys of these keys from the **HKEY\_LOCAL\_MACHINE** tree are included in the merged view only if they are not duplicates of immediate subkeys from the **HKEY\_CURRENT\_USER** tree. The merged view does not include the **HKEY\_LOCAL\_MACHINE** contents of duplicate subkeys.
 
-If an application is run with administrator rights and User Account Control is disabled, the COM runtime ignores per-user COM configuration and accesses only per-machine COM configuration. Applications that require administrator rights should register dependent COM objects during installation to the per-machine COM configuration store (**HKEY\_LOCAL\_MACHINE\\Software\\Classes**). For more information, see [AC: UAC: COM Per-User Configuration](https://msdn.microsoft.com/library/bb756926.aspx).
+If an application is run with administrator rights and User Account Control is disabled, the COM runtime ignores per-user COM configuration and accesses only per-machine COM configuration. Applications that require administrator rights should register dependent COM objects during installation to the per-machine COM configuration store (**HKEY\_LOCAL\_MACHINE\\Software\\Classes**). For more information, see [AC: UAC: COM Per-User Configuration](/previous-versions/bb756926(v=msdn.10)).
 
 **Windows Server 2003 and Windows XP/2000:** Applications can register dependent COM objects to either the per-machine or per-user COM configuration store (**HKEY\_LOCAL\_MACHINE\\Software\\Classes** or **HKEY\_CURRENT\_USER\\Software\\Classes**).
 
@@ -30,7 +30,7 @@ The following example shows a set of subkeys under the **HKEY\_LOCAL\_MACHINE** 
 
 The following subkeys are found in both **HKEY\_LOCAL\_MACHINE\\Software\\Classes** and **HKEY\_CURRENT\_USER\\Software\\Classes**. From the **HKEY\_LOCAL\_MACHINE** tree, the immediate subkeys of these keys are included in the merged view only if they are not duplicates of immediate subkeys from the **HKEY\_CURRENT\_USER** tree. The merged view does not include the **HKEY\_LOCAL\_MACHINE** contents of duplicate subkeys.
 
-<dl> **\***  
+**\***  
 **\*\\shellex**  
 **\*\\shellex\\ContextMenuHandlers**  
 **\*\\shellex\\PropertySheetHandlers**  
@@ -58,11 +58,8 @@ The following subkeys are found in both **HKEY\_LOCAL\_MACHINE\\Software\\Classe
 **Mime\\Database\\Codepage**  
 **Mime\\Database\\Content Type**  
 **Typelib**  
-</dl>
+
 
  
 
  
-
-
-

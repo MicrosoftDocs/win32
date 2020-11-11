@@ -141,22 +141,6 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 
 
-## Error codes
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                               |
-|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *type* was not an accepted value.<br/>                                                                                          |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | Either *width* or height was negative.<br/>                                                                                     |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | *type* was GL\_DEPTH and there was no depth buffer.<br/>                                                                        |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | *type* was GL\_STENCIL and there was no stencil buffer.<br/>                                                                    |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/> |
-
-
-
 ## Remarks
 
 The **glCopyPixels** function copies a screen-aligned rectangle of pixels from the specified framebuffer location to a region relative to the current raster position. Its operation is well defined only if the entire pixel source region is within the exposed portion of the window. Results of copies from outside the window, or from regions of the window that are not exposed, are hardware dependent and undefined.

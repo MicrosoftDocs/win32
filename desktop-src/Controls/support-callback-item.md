@@ -23,7 +23,6 @@ This topic demonstrates how to provide support for callback items.
 
 ## Instructions
 
-### 
 
 If your application is going to use callback items in a ComboBoxEx control, it must be prepared to handle the [CBEN\_GETDISPINFO](cben-getdispinfo.md) notification code. A ComboBoxEx control sends this notification whenever it needs the owner to provide specific item information. For more information about callback items, see [Callback Items](comboboxex-controls.md).
 
@@ -69,7 +68,7 @@ void WINAPI DoItemCallback(PNMCOMBOBOXEX pNMCBex)
 [ComboBoxEx Control Reference](bumper-comboboxex-comboboxex-control-reference.md)
 </dt> <dt>
 
-[Using ComboBoxEx Controls](https://docs.microsoft.com/windows/desktop/Controls/using-comboboxex)
+[Using ComboBoxEx Controls](/windows/desktop/Controls/using-comboboxex)
 </dt> <dt>
 
 [ComboBoxEx](comboboxex-control-reference.md)
@@ -78,7 +77,3 @@ void WINAPI DoItemCallback(PNMCOMBOBOXEX pNMCBex)
  
 
  
-
-
-
-

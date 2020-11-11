@@ -43,7 +43,7 @@ HRESULT GetOutputSignatureElementDesc(
 *ShaderIndex* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 A zero-based shader index.
 
@@ -52,7 +52,7 @@ A zero-based shader index.
 *Element* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 A zero-based element index.
 
@@ -101,10 +101,4 @@ An effect contains one or more shaders; each shader has an input and output sign
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -42,7 +42,7 @@ We highly recommend that you always use the latest available version of the comp
 
 Many functions have an equivalent estimation function ending in Est. These functions trade some accuracy for improved performance. Est functions are appropriate for non-critical calculations where accuracy can be sacrificed for speed. The exact amount of lost accuracy and speed increase are platform dependent.
 
-For example, the [**XMVector3AngleBetweenNormalsEst**](https://msdn.microsoft.com/library/Ee420801(v=VS.85).aspx) function could be used in place of the [**XMVector3AngleBetweenNormals**](https://msdn.microsoft.com/library/Ee420800(v=VS.85).aspx) function.
+For example, the [**XMVector3AngleBetweenNormalsEst**](/windows/win32/api/directxmath/nf-directxmath-xmvector3anglebetweennormalsest) function could be used in place of the [**XMVector3AngleBetweenNormals**](/windows/win32/api/directxmath/nf-directxmath-xmvector3anglebetweennormals) function.
 
 ## Use Aligned Data Types and Operations
 
@@ -50,32 +50,32 @@ The SIMD instruction sets on versions of windows supporting SSE2 typically have 
 
 The DirectXMath Library provides access aligned and unaligned functionality through variant vector types, structure, and functions. These variants are indicated by an "A" at the end of the name.
 
-For example, there are an unaligned [**XMFLOAT4X4**](https://msdn.microsoft.com/library/Ee419621(v=VS.85).aspx) structure and an aligned [**XMFLOAT4X4A**](https://msdn.microsoft.com/library/Ee419623(v=VS.85).aspx) structure, which are used by the [**XMStoreFloat4**](https://msdn.microsoft.com/library/Ee420343(v=VS.85).aspx) and [**XMStoreFloat4A**](https://msdn.microsoft.com/library/Ee420344(v=VS.85).aspx) functions respectively.
+For example, there are an unaligned [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4) structure and an aligned [**XMFLOAT4X4A**](/previous-versions/windows/desktop/legacy/ee419623(v=vs.85)) structure, which are used by the [**XMStoreFloat4**](/windows/win32/api/directxmath/nf-directxmath-xmstorefloat4) and [**XMStoreFloat4A**](/windows/win32/api/directxmath/nf-directxmath-xmstorefloat4a) functions respectively.
 
 ## Properly Align Allocations
 
-The aligned versions of the [SSE](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)) intrinsics underlying the DirectXMath Library are faster than the unaligned.
+The aligned versions of the [SSE](/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)) intrinsics underlying the DirectXMath Library are faster than the unaligned.
 
-For this reason, DirectXMath operations using [**XMVECTOR**](xmvector-data-type.md) and [**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx) objects assume those objects are 16-byte aligned. This is automatic for stack based allocations, if code is compiled against the DirectXMath Library using the recommended Windows (see [Use Correct Compilation Settings](#use-correct-compilation-settings)) compiler settings. However, it is important to ensure that heap-allocation containing **XMVECTOR** and **XMMATRIX** objects, or casts to these types, meet these alignment requirements.
+For this reason, DirectXMath operations using [**XMVECTOR**](xmvector-data-type.md) and [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) objects assume those objects are 16-byte aligned. This is automatic for stack based allocations, if code is compiled against the DirectXMath Library using the recommended Windows (see [Use Correct Compilation Settings](#use-correct-compilation-settings)) compiler settings. However, it is important to ensure that heap-allocation containing **XMVECTOR** and **XMMATRIX** objects, or casts to these types, meet these alignment requirements.
 
 While 64-bit Windows memory allocations are 16-byte aligned, by default on 32 bit versions of Windows memory allocated is only 8-byte aligned. For information on controlling memory alignment, see [\_aligned\_malloc](https://msdn.microsoft.com/library/8z34s9c6(VS.80).aspx).
 
 When using aligned DirectXMath types with the Standard Template Library (STL), you will need to provide a custom allocator that ensures the 16-byte alignment. See the Visual C++ Team [blog](https://devblogs.microsoft.com/cppblog/the-mallocator/) for an example of writing a custom allocator (instead of malloc/free you'll want to use \_aligned\_malloc and \_aligned\_free in your implementation).
 
 > [!Note]  
-> Some STL templates modify the provided type's alignment. For example, [make\_shared<>](https://docs.microsoft.com/cpp/standard-library/memory-functions?view=vs-2017) adds some internal tracking information which may or may not respect the alignment of the provided user type, resulting in unaligned data members. In this case, you need to use unaligned types instead of aligned types. If you derive from existing classes, including many Windows Runtime objects, you can also modify the alignment of a class or structure.
+> Some STL templates modify the provided type's alignment. For example, [make\_shared<>](/cpp/standard-library/memory-functions?view=vs-2017) adds some internal tracking information which may or may not respect the alignment of the provided user type, resulting in unaligned data members. In this case, you need to use unaligned types instead of aligned types. If you derive from existing classes, including many Windows Runtime objects, you can also modify the alignment of a class or structure.
 
  
 
 ## Avoid Operator Overloads When Possible
 
-As a convenience feature, a number of types such as [**XMVECTOR**](xmvector-data-type.md) and [**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx) have operator overloads for common arithmetic operations. Such operator overloads tend to create numerous temporary objects. We recommend that you avoid these operator overloads in performance sensitive code.
+As a convenience feature, a number of types such as [**XMVECTOR**](xmvector-data-type.md) and [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) have operator overloads for common arithmetic operations. Such operator overloads tend to create numerous temporary objects. We recommend that you avoid these operator overloads in performance sensitive code.
 
 ## Denormals
 
 To support computations close to 0, the IEEE 754 float-point standard includes support for gradual underflow. Gradual underflow is implemented through the use of denormalized values, and many hardware implementations are slow when handling denormals. An optimization to consider is to disable the handling of denormals for the vector operations used by DirectXMath.
 
-Changing the handling of denormals is done by using the [\_controlfp\_s](https://docs.microsoft.com/cpp/c-runtime-library/reference/controlfp-s) routine on a pre-thread basis, and can result in performance improvements. Use this code to change the handling of denormals:
+Changing the handling of denormals is done by using the [\_controlfp\_s](/cpp/c-runtime-library/reference/controlfp-s) routine on a pre-thread basis, and can result in performance improvements. Use this code to change the handling of denormals:
 
 
 ```
@@ -87,7 +87,7 @@ Changing the handling of denormals is done by using the [\_controlfp\_s](https:/
 
 
 > [!Note]  
-> On 64-bit versions of Windows, [SSE](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)) instructions are used for all computations, not just the vector operations. Changing the denormal handling affects all floating-point computations in your program, not just the vector operations used by DirectXMath.
+> On 64-bit versions of Windows, [SSE](/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)) instructions are used for all computations, not just the vector operations. Changing the denormal handling affects all floating-point computations in your program, not just the vector operations used by DirectXMath.
 
  
 
@@ -115,20 +115,20 @@ When working with the IEEE 764 single precision floating-point number, it is imp
 
 ## Prefer Template Forms
 
-Template form exists for [**XMVectorSwizzle**](https://msdn.microsoft.com/library/Hh404826(v=VS.85).aspx), [**XMVectorPermute**](https://msdn.microsoft.com/library/Hh855956(v=VS.85).aspx), [**XMVectorInsert**](https://msdn.microsoft.com/library/Hh404801(v=VS.85).aspx), [**XMVectorShiftLeft**](https://msdn.microsoft.com/library/Hh404823(v=VS.85).aspx), [**XMVectorRotateLeft**](https://msdn.microsoft.com/library/Hh404806(v=VS.85).aspx), and [**XMVectorRotateRight**](https://msdn.microsoft.com/library/Hh404807(v=VS.85).aspx). Using these instead of the general function form allows the compiler to create much more efficent implementations. For [SSE](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)), this often collapses down to one or two \_mm\_shuffle\_ps values. For ARM-NEON, the **XMVectorSwizzle** template can utilize a number of special cases rather than the more general VTBL swizzle/permute.
+Template form exists for [**XMVectorSwizzle**](/windows/win32/api/directxmath/nf-directxmath-xmvectorswizzle), [**XMVectorPermute**](/windows/win32/api/directxmath/nf-directxmath-xmvectorpermute), [**XMVectorInsert**](/windows/win32/api/directxmath/nf-directxmath-xmvectorinsert), [**XMVectorShiftLeft**](/windows/win32/api/directxmath/nf-directxmath-xmvectorshiftleft), [**XMVectorRotateLeft**](/windows/win32/api/directxmath/nf-directxmath-xmvectorrotateleft), and [**XMVectorRotateRight**](/windows/win32/api/directxmath/nf-directxmath-xmvectorrotateright). Using these instead of the general function form allows the compiler to create much more efficent implementations. For [SSE](/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)), this often collapses down to one or two \_mm\_shuffle\_ps values. For ARM-NEON, the **XMVectorSwizzle** template can utilize a number of special cases rather than the more general VTBL swizzle/permute.
 
 ## Using DirectXMath with Direct3D
 
 A common use for DirectXMath is to perform graphics computations for use with Direct3D. With Direct3D 10.x and Direct3D 11.x, you can use the DirectXMath library in these direct ways:
 
--   Use the Colors namespace [constants](ovw-xnamath-reference-constants.md) directly in the *ColorRGBA* parameter in a call to the [**ID3D11DeviceContext::ClearRenderTargetView**](https://msdn.microsoft.com/library/Ff476388(v=VS.85).aspx) or [**ID3D10Device::ClearRenderTargetView**](https://msdn.microsoft.com/library/Bb173539(v=VS.85).aspx) method. For Direct3D 9, you must convert to the [**XMCOLOR**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor) type to use it as the *Color* parameter in a call to the [**IDirect3DDevice9::Clear**](https://msdn.microsoft.com/library/Bb174352(v=VS.85).aspx) method.
--   Use the [**XMFLOAT4**](https://msdn.microsoft.com/library/Ee419608(v=VS.85).aspx)/[**XMVECTOR**](xmvector-data-type.md) and [**XMFLOAT4X4**](https://msdn.microsoft.com/library/Ee419621(v=VS.85).aspx)/[**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx) types to setup constant buffer structures for reference by HLSL [**float4**](https://msdn.microsoft.com/library/Bb509646(v=VS.85).aspx) or [**matrix**](https://msdn.microsoft.com/library/Bb509623(v=VS.85).aspx)/float4x4 types.
+-   Use the Colors namespace [constants](ovw-xnamath-reference-constants.md) directly in the *ColorRGBA* parameter in a call to the [**ID3D11DeviceContext::ClearRenderTargetView**](/windows/win32/api/d3d11/nf-d3d11-id3d11devicecontext-clearrendertargetview) or [**ID3D10Device::ClearRenderTargetView**](/windows/win32/api/d3d10/nf-d3d10-id3d10device-clearrendertargetview) method. For Direct3D 9, you must convert to the [**XMCOLOR**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor) type to use it as the *Color* parameter in a call to the [**IDirect3DDevice9::Clear**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-clear) method.
+-   Use the [**XMFLOAT4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4)/[**XMVECTOR**](xmvector-data-type.md) and [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4)/[**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) types to setup constant buffer structures for reference by HLSL [**float4**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md)/float4x4 types.
     > [!Note]  
-    > [**XMFLOAT4X4**](https://msdn.microsoft.com/library/Ee419621(v=VS.85).aspx)/[**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx) types are in row-major format. Therefore, if you use the /Zpr compiler switch (the [**D3DCOMPILE\_PACK\_MATRIX\_COLUMN\_MAJOR**](https://msdn.microsoft.com/library/Gg615083(v=VS.85).aspx) compile flag) or omit the row\_major [keyword](https://msdn.microsoft.com/library/Bb509568(v=VS.85).aspx) when you declare the matrix type in HLSL, you must transpose the matrix when you set it into the constant buffer.
+    > [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4)/[**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) types are in row-major format. Therefore, if you use the /Zpr compiler switch (the [**D3DCOMPILE\_PACK\_MATRIX\_COLUMN\_MAJOR**](../direct3dhlsl/d3dcompile-constants.md) compile flag) or omit the row\_major [keyword](../direct3dhlsl/dx-graphics-hlsl-appendix-keywords.md) when you declare the matrix type in HLSL, you must transpose the matrix when you set it into the constant buffer.
 
      
 
--   With Direct3D 10.x and Direct3D 11.x, you can assume that the pointer returned by the Map method (for example, [**ID3D11DeviceContext::Map**](https://msdn.microsoft.com/library/Ff476457(v=VS.85).aspx)) in the **pData** member ([**D3D10\_MAPPED\_TEXTURE2D**](https://msdn.microsoft.com/library/Bb205319(v=VS.85).aspx).**pData**, [**D3D10\_MAPPED\_TEXTURE3D**](https://msdn.microsoft.com/library/Bb205320(v=VS.85).aspx).**pData**, or [**D3D11\_MAPPED\_SUBRESOURCE**](https://msdn.microsoft.com/library/Ff476182(v=VS.85).aspx).**pData**) is 16-byte aligned if you use [feature level](https://msdn.microsoft.com/library/Ff476876(v=VS.85).aspx) 10\_0 or higher or whenever you use [**D3D11\_USAGE\_STAGING**](https://msdn.microsoft.com/library/Ff476259(v=VS.85).aspx) resources.
+-   With Direct3D 10.x and Direct3D 11.x, you can assume that the pointer returned by the Map method (for example, [**ID3D11DeviceContext::Map**](/windows/win32/api/d3d11/nf-d3d11-id3d11devicecontext-map)) in the **pData** member ([**D3D10\_MAPPED\_TEXTURE2D**](/windows/win32/api/d3d10/ns-d3d10-d3d10_mapped_texture2d).**pData**, [**D3D10\_MAPPED\_TEXTURE3D**](/windows/win32/api/d3d10/ns-d3d10-d3d10_mapped_texture3d).**pData**, or [**D3D11\_MAPPED\_SUBRESOURCE**](/windows/win32/api/d3d11/ns-d3d11-d3d11_mapped_subresource).**pData**) is 16-byte aligned if you use [feature level](../direct3d11/overviews-direct3d-11-devices-downlevel-intro.md) 10\_0 or higher or whenever you use [**D3D11\_USAGE\_STAGING**](/windows/win32/api/d3d11/ne-d3d11-d3d11_usage) resources.
 
 ## Related topics
 
@@ -140,6 +140,3 @@ A common use for DirectXMath is to perform graphics computations for use with Di
  
 
  
-
-
-

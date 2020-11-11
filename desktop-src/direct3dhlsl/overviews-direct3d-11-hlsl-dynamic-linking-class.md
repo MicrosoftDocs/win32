@@ -168,7 +168,7 @@ To create a dynamic linkage array use the following steps
 
     
 
-3.  Create a [**ID3D11ShaderReflection**](/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflection) object using the [**D3DReflect**](d3dreflect.md) function.
+3.  Create a [**ID3D11ShaderReflection**](/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflection) object using the [**D3DReflect**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dreflect) function.
     ```
     ID3D11ShaderReflection* pReflector = NULL; 
     D3DReflect( pPixelShaderBuffer->GetBufferPointer(),                  
@@ -235,4 +235,3 @@ To create a dynamic linkage array use the following steps
 ## Related topics
 
 [Dynamic Linking](overviews-direct3d-11-hlsl-dynamic-linking.md)
-

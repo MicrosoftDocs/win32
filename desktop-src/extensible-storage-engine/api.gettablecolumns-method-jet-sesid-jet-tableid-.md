@@ -69,7 +69,7 @@ public static IEnumerable<ColumnInfo> GetTableColumns(
 
 #### Return value
 
-Type: [System.Collections.Generic.IEnumerable](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1?redirectedfrom=MSDN)\<[ColumnInfo](dn334128\(v=exchg.10\).md)\>  
+Type: [System.Collections.Generic.IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1)\<[ColumnInfo](dn334128\(v=exchg.10\).md)\>  
 An iterator over ColumnInfo for each column in the table.  
 
 ## See also
@@ -83,4 +83,3 @@ An iterator over ColumnInfo for each column in the table.
 [GetTableColumns overload](dn292091\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

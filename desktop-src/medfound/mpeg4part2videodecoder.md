@@ -48,19 +48,19 @@ The MPEG4 Part 2 Video decoder supports the following output media subtypes when
 
 The MPEG4 Part 2 Video decoder accepts the following formats.
 
--   [**VIDEOINFOHEADER**](https://msdn.microsoft.com/library/Dd407325(v=VS.85).aspx)
--   [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/library/Dd407326(v=VS.85).aspx) (VIH2)
+-   [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader)
+-   [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) (VIH2)
 -   [**MFVideoInfo**](/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoinfo)
--   [**MPEG2VIDEOINFO**](https://msdn.microsoft.com/library/Dd390707(v=VS.85).aspx) (Only the VIH2 portion of the header is used.)
+-   [**MPEG2VIDEOINFO**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo) (Only the VIH2 portion of the header is used.)
 
 ## Interfaces for the DMO
 
 If you create an instance of the MPEG4 Part 2 Video decoder as a DMO, the decoder exposes the following interfaces.
 
--   [**IMediaObject**](https://msdn.microsoft.com/library/Dd406926(v=VS.85).aspx)
--   [**ICodecAPI**](https://msdn.microsoft.com/library/Dd311953(v=VS.85).aspx)
+-   [**IMediaObject**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject)
+-   [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi)
 
-You can obtain an [**IMediaObject**](https://msdn.microsoft.com/library/Dd406926(v=VS.85).aspx) interface by calling **CoCreateInstance**, and you can obtain an [**ICodecAPI**](https://msdn.microsoft.com/library/Dd311953(v=VS.85).aspx) interface by calling **QueryInterface**.
+You can obtain an [**IMediaObject**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject) interface by calling **CoCreateInstance**, and you can obtain an [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi) interface by calling **QueryInterface**.
 
 ## Interfaces for the MFT
 
@@ -113,7 +113,7 @@ For more information about profiles and levels, see the MPEG4 Part 2 specificati
 
 ## Decoder Properties
 
-To set properties on the MPEG4 Part 2 Video decoder, use the [**ICodecAPI**](https://msdn.microsoft.com/library/Dd311953(v=VS.85).aspx) interface or the [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) interface.
+To set properties on the MPEG4 Part 2 Video decoder, use the [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi) interface or the [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) interface.
 
 The MPEG4 Part 2 Video decoder supports the following properties.
 
@@ -129,14 +129,14 @@ The MPEG4 Part 2 Video decoder supports the following properties.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecvideoswpowerlevel-property"><strong>CODECAPI_AVDecVideoSWPowerLevel</strong></a></td>
+<td><a href="/windows/desktop/DirectShow/avdecvideoswpowerlevel-property"><strong>CODECAPI_AVDecVideoSWPowerLevel</strong></a></td>
 <td>Specifies the power level.<br/> <dl> Windows 7.<br />
 Write-only.<br />
 </dl></td>
 <td>100</td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecvideothumbnailgenerationmode-property"><strong>CODECAPI_AVDecVideoThumbnailGenerationMode</strong></a></td>
+<td><a href="/windows/desktop/DirectShow/avdecvideothumbnailgenerationmode-property"><strong>CODECAPI_AVDecVideoThumbnailGenerationMode</strong></a></td>
 <td>Specifies the thumbnail generation mode.<br/> <dl> Windows 7.<br />
 Write-only.<br />
 </dl></td>
@@ -176,7 +176,3 @@ The globally unique identifiers (GUIDs) for RGB media subtypes differ depending 
  
 
  
-
-
-
-

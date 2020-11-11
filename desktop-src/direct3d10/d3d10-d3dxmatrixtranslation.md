@@ -41,7 +41,7 @@ D3DXMATRIX* D3DXMatrixTranslation(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 The matrix that will become a translation matrix. See [**D3DXMATRIX**](d3d10-d3dxmatrix.md).
 
@@ -50,7 +50,7 @@ The matrix that will become a translation matrix. See [**D3DXMATRIX**](d3d10-d3d
 *x* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The x-component of the translation.
 
@@ -59,7 +59,7 @@ The x-component of the translation.
 *y* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The y-component of the translation.
 
@@ -68,7 +68,7 @@ The y-component of the translation.
 *z* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The z-component of the translation.
 
@@ -76,7 +76,7 @@ The z-component of the translation.
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 The translation matrix.
 
@@ -101,7 +101,3 @@ The translation matrix.
  
 
  
-
-
-
-

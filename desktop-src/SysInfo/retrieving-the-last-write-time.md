@@ -79,15 +79,12 @@ int _tmain(int argc, TCHAR *argv[])
 
 <dl> <dt>
 
-[**FileTimeToSystemTime**](https://msdn.microsoft.com/library/ms724280(v=VS.85).aspx)
+[**FileTimeToSystemTime**](/windows/win32/api/timezoneapi/nf-timezoneapi-filetimetosystemtime)
 </dt> <dt>
 
-[**SystemTimeToTzSpecificLocalTime**](https://msdn.microsoft.com/library/ms724949(v=VS.85).aspx)
+[**SystemTimeToTzSpecificLocalTime**](/windows/win32/api/timezoneapi/nf-timezoneapi-systemtimetotzspecificlocaltime)
 </dt> </dl>
 
  
 
  
-
-
-

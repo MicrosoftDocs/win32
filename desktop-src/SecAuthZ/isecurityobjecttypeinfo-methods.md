@@ -8,15 +8,12 @@ ms.date: 05/31/2018
 
 # ISecurityObjectTypeInfo Methods
 
-The [**ISecurityObjectTypeInfo**](https://msdn.microsoft.com/library/Aa379128(v=VS.85).aspx) interface exposes the following methods.
+The [**ISecurityObjectTypeInfo**](/windows/win32/api/aclui/nn-aclui-isecurityobjecttypeinfo) interface exposes the following methods.
 
 ## In this section
 
--   [**GetInheritSource Method**](https://msdn.microsoft.com/library/Aa379132(v=VS.85).aspx)
+-   [**GetInheritSource Method**](/windows/win32/api/aclui/nf-aclui-isecurityobjecttypeinfo-getinheritsource)
 
  
 
  
-
-
-

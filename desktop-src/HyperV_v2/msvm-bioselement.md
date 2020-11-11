@@ -183,7 +183,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed"), [**MAX**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (4)
+Qualifiers: [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed"), [**MAX**](/windows/desktop/WmiSdk/standard-qualifiers) (4)
 </dt> </dl>
 
 The order in which devices will be searched for a boot sector at startup.
@@ -202,7 +202,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (64)
 </dt> </dl>
 
-The internal identifier for this compilation of software element. This property is inherited from [**CIM\_SoftwareElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-softwareelement), and it is always set to 14.
+The internal identifier for this compilation of software element. This property is inherited from [**CIM\_SoftwareElement**](/windows/desktop/CIMWin32Prov/cim-softwareelement), and it is always set to 14.
 
 </dd> <dt>
 
@@ -218,7 +218,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (64)
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -260,7 +260,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (64)
 </dt> </dl>
 
-The code set used by the software element. This property is inherited from [**CIM\_SoftwareElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-softwareelement), and it is always set to **Null**.
+The code set used by the software element. This property is inherited from [**CIM\_SoftwareElement**](/windows/desktop/CIMWin32Prov/cim-softwareelement), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -273,7 +273,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -286,7 +286,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The currently selected language for the BIOS. This property is inherited from [**CIM\_BIOSElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-bioselement), and it is always set to "en\|US\|iso8859-1".
+The currently selected language for the BIOS. This property is inherited from [**CIM\_BIOSElement**](/windows/desktop/CIMWin32Prov/cim-bioselement), and it is always set to "en\|US\|iso8859-1".
 
 </dd> <dt>
 
@@ -299,7 +299,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -312,7 +312,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Complements the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Complements the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -325,7 +325,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the element. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A display name for the element. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -342,7 +342,7 @@ Specifies the current health of the element. This attribute expresses the health
 
 When a critical error occurs, check the event log for details. The **EnabledState** property can also contain more information. For example, when disk space is critically low, **HealthState** is set to 25, the virtual machine pauses, and **EnabledState** is set to 32768 (Paused).
 
-This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 
 
@@ -370,7 +370,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (64)
 </dt> </dl>
 
-The manufacturer's identifier for this software element. Often this will be a stock keeping unit (SKU) or a part number. This property is inherited from [**CIM\_SoftwareElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-softwareelement), and it is always set to **Null**.
+The manufacturer's identifier for this software element. Often this will be a stock keeping unit (SKU) or a part number. This property is inherited from [**CIM\_SoftwareElement**](/windows/desktop/CIMWin32Prov/cim-softwareelement), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -383,7 +383,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-Automatically populated by the BIOS when the virtual machine is created. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Automatically populated by the BIOS when the virtual machine is created. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -399,7 +399,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -415,7 +415,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (32)
 </dt> </dl>
 
-The language edition of this software element. This property is inherited from [**CIM\_SoftwareElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-softwareelement), and it is always set to **Null**.
+The language edition of this software element. This property is inherited from [**CIM\_SoftwareElement**](/windows/desktop/CIMWin32Prov/cim-softwareelement), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -428,7 +428,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-A list of installable languages for the BIOS. THIS property is inherited from [**CIM\_BIOSElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-bioselement), and it is always set to "en\|US\|iso8859-1".
+A list of installable languages for the BIOS. THIS property is inherited from [**CIM\_BIOSElement**](/windows/desktop/CIMWin32Prov/cim-bioselement), and it is always set to "en\|US\|iso8859-1".
 
 </dd> <dt>
 
@@ -441,7 +441,7 @@ Data type: **unit64**
 Access type: Read-only
 </dt> </dl>
 
-The ending address of the memory which this BIOS occupies. This property is inherited from [**CIM\_BIOSElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-bioselement), and it is always set to 0xFFFFF.
+The ending address of the memory which this BIOS occupies. This property is inherited from [**CIM\_BIOSElement**](/windows/desktop/CIMWin32Prov/cim-bioselement), and it is always set to 0xFFFFF.
 
 </dd> <dt>
 
@@ -454,7 +454,7 @@ Data type: **unit64**
 Access type: Read-only
 </dt> </dl>
 
-The starting address of the memory which this BIOS occupies. This property is inherited from [**CIM\_BIOSElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-bioselement), and it is always set to 0xE0000.
+The starting address of the memory which this BIOS occupies. This property is inherited from [**CIM\_BIOSElement**](/windows/desktop/CIMWin32Prov/cim-bioselement), and it is always set to 0xE0000.
 
 </dd> <dt>
 
@@ -467,7 +467,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that describes the BIOS flash/load utility that is required to update the BIOS element. Version and other information may be indicated in this property. This property is inherited from [**CIM\_BIOSElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-bioselement), and it is always set to **Null**.
+A string that describes the BIOS flash/load utility that is required to update the BIOS element. Version and other information may be indicated in this property. This property is inherited from [**CIM\_BIOSElement**](/windows/desktop/CIMWin32Prov/cim-bioselement), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -483,7 +483,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (256)
 </dt> </dl>
 
-The manufacturer of this BIOS. This property is inherited from [**CIM\_BIOSElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-bioselement), and it is always set to "Microsoft Corporation".
+The manufacturer of this BIOS. This property is inherited from [**CIM\_BIOSElement**](/windows/desktop/CIMWin32Prov/cim-bioselement), and it is always set to "Microsoft Corporation".
 
 </dd> <dt>
 
@@ -499,7 +499,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (1024)
 </dt> </dl>
 
-The name used to identify this software element. When subclassed, this property can be overridden to be a key property. This property is inherited from [**CIM\_SoftwareElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-softwareelement), and it is always set to "BIOS".
+The name used to identify this software element. When subclassed, this property can be overridden to be a key property. This property is inherited from [**CIM\_SoftwareElement**](/windows/desktop/CIMWin32Prov/cim-softwareelement), and it is always set to "BIOS".
 
 </dd> <dt>
 
@@ -512,7 +512,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -525,7 +525,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-An array that contains the current statuses of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement). The value at index zero (0) is one of the following values.
+An array that contains the current statuses of the object. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement). The value at index zero (0) is one of the following values.
 
 
 
@@ -576,7 +576,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (64)
 </dt> </dl>
 
-The manufacturer and operating system for a software element when the **TargetOperatingSystem** property has a value of 1 (Other), which requires the **OtherTargetOS** property to have a non-**Null** value. For all other values of **TargetOperatingSystem**, the **OtherTargetOS** property must be **Null**. This property is inherited from [**CIM\_SoftwareElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-softwareelement), and it is always set to **Null**.
+The manufacturer and operating system for a software element when the **TargetOperatingSystem** property has a value of 1 (Other), which requires the **OtherTargetOS** property to have a non-**Null** value. For all other values of **TargetOperatingSystem**, the **OtherTargetOS** property must be **Null**. This property is inherited from [**CIM\_SoftwareElement**](/windows/desktop/CIMWin32Prov/cim-softwareelement), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -589,7 +589,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-If True, this is the primary BIOS of the computer system. This property is inherited from [**CIM\_BIOSElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-bioselement), and it is always set to **True**.
+If True, this is the primary BIOS of the computer system. This property is inherited from [**CIM\_BIOSElement**](/windows/desktop/CIMWin32Prov/cim-bioselement), and it is always set to **True**.
 
 </dd> <dt>
 
@@ -602,7 +602,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status information for the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status information for the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -615,7 +615,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-An array of strings representing the publication location of the BIOS attribute registry or registries the implementation complies to. This property is inherited from [**CIM\_BIOSElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-bioselement).
+An array of strings representing the publication location of the BIOS attribute registry or registries the implementation complies to. This property is inherited from [**CIM\_BIOSElement**](/windows/desktop/CIMWin32Prov/cim-bioselement).
 
 </dd> <dt>
 
@@ -628,7 +628,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date that the BIOS was released. This property is inherited from [**CIM\_BIOSElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-bioselement).
+The date that the BIOS was released. This property is inherited from [**CIM\_BIOSElement**](/windows/desktop/CIMWin32Prov/cim-bioselement).
 
 </dd> <dt>
 
@@ -644,7 +644,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (64)
 </dt> </dl>
 
-The assigned serial number of the BIOS. This property is inherited from [**CIM\_SoftwareElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-softwareelement).
+The assigned serial number of the BIOS. This property is inherited from [**CIM\_SoftwareElement**](/windows/desktop/CIMWin32Prov/cim-softwareelement).
 
 </dd> <dt>
 
@@ -660,7 +660,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (256)
 </dt> </dl>
 
-An identifier for the software element. This property is inherited from [**CIM\_SoftwareElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-softwareelement), and it is always set to "Microsoft:*GUID*\\*device-specific data*".
+An identifier for the software element. This property is inherited from [**CIM\_SoftwareElement**](/windows/desktop/CIMWin32Prov/cim-softwareelement), and it is always set to "Microsoft:*GUID*\\*device-specific data*".
 
 </dd> <dt>
 
@@ -673,7 +673,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The state of a software element's life cycle. This property is inherited from [**CIM\_SoftwareElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-softwareelement), and it is always set to 2 (Executable).
+The state of a software element's life cycle. This property is inherited from [**CIM\_SoftwareElement**](/windows/desktop/CIMWin32Prov/cim-softwareelement), and it is always set to 2 (Executable).
 
 </dd> <dt>
 
@@ -686,7 +686,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), but it is not used.
+This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement), but it is not used.
 
 </dd> <dt>
 
@@ -702,7 +702,7 @@ Access type: Read-only
 Qualifiers: **ArrayType** ("Indexed")
 </dt> </dl>
 
-An array that contains strings that describe the corresponding **OperationalStatus** array values. For example, if 11 (In Service) is the value assigned to **OperationalStatus**\[0\], then **StatusDescriptions**\[0\] may contain an explanation as to why the virtual machine is processing a request. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+An array that contains strings that describe the corresponding **OperationalStatus** array values. For example, if 11 (In Service) is the value assigned to **OperationalStatus**\[0\], then **StatusDescriptions**\[0\] may contain an explanation as to why the virtual machine is processing a request. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -715,7 +715,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The element's operating system environment. This property is inherited from [**CIM\_SoftwareElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-softwareelement), and it is always set to 0 (Unknown).
+The element's operating system environment. This property is inherited from [**CIM\_SoftwareElement**](/windows/desktop/CIMWin32Prov/cim-softwareelement), and it is always set to 0 (Unknown).
 
 </dd> <dt>
 
@@ -731,13 +731,13 @@ Access type: Read-only
 Qualifiers: **MaxLen** (64)
 </dt> </dl>
 
-The version of the BIOS. This property is inherited from [**CIM\_BIOSElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-bioselement), and it is always set to "8.02.00".
+The version of the BIOS. This property is inherited from [**CIM\_BIOSElement**](/windows/desktop/CIMWin32Prov/cim-bioselement), and it is always set to "8.02.00".
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_BIOSElement** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_BIOSElement** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -763,13 +763,8 @@ Access to the **Msvm\_BIOSElement** class might be restricted by UAC Filtering. 
 [BIOS Classes](bios-classes.md)
 </dt> <dt>
 
-[**CIM\_BIOSElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-bioselement)
+[**CIM\_BIOSElement**](/windows/desktop/CIMWin32Prov/cim-bioselement)
 </dt> </dl>
 
  
-
- 
-
-
-
 

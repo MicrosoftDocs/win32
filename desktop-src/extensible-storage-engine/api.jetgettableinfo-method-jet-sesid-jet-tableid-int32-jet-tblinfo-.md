@@ -73,7 +73,7 @@ public static void JetGetTableInfo(
 <!-- end list -->
 
   - result  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Retrieved information.
 
@@ -99,4 +99,3 @@ This overload is used with [SpaceOwned](hh557667\(v=exchg.10\).md) and [SpaceAva
 [JetGetTableInfo overload](dn292194\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

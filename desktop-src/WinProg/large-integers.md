@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 # Large Integers
 
-The large integer functions and structures originally provided support for 64-bit values on 32-bit Windows. Now, your C compiler may support 64-bit integers natively. For example, Microsoft Visual C++ supports the [**\_\_int64**](https://docs.microsoft.com/windows/desktop/Midl/--int64) sized integer type. For more information, see the documentation included with your C compiler.
+The large integer functions and structures originally provided support for 64-bit values on 32-bit Windows. Now, your C compiler may support 64-bit integers natively. For example, Microsoft Visual C++ supports the [**\_\_int64**](/windows/desktop/Midl/--int64) sized integer type. For more information, see the documentation included with your C compiler.
 
-For information on 64-bit integers on 64-bit Windows, see [The New Data Types](https://docs.microsoft.com/windows/desktop/WinProg64/the-new-data-types).
+For information on 64-bit integers on 64-bit Windows, see [The New Data Types](/windows/desktop/WinProg64/the-new-data-types).
 
 ## Large Integer Operations
 
@@ -28,7 +28,3 @@ Applications can also multiply and divide 32-bit values in a single operation by
  
 
  
-
-
-
-

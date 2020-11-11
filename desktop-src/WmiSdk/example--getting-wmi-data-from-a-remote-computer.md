@@ -20,24 +20,24 @@ The following procedure shows how to execute the WMI application. Steps 1 throug
 
 **To get WMI data from a remote computer**
 
-1.  Initialize COM parameters with a call to [**CoInitializeEx**](https://msdn.microsoft.com/library/ms695279(v=VS.85).aspx).
+1.  Initialize COM parameters with a call to [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex).
 
     For more information, see [Initializing COM for a WMI Application](initializing-com-for-a-wmi-application.md).
 
-2.  Initialize COM process security by calling [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx).
+2.  Initialize COM process security by calling [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity).
 
     For more information, see [Setting the Default Process Security Level Using C++](setting-the-default-process-security-level-using-c-.md).
 
-3.  Obtain the initial locator to WMI by calling [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx).
+3.  Obtain the initial locator to WMI by calling [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance).
 
     For more information, see [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
 
-4.  Obtain a pointer to [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) for the \\\\root\\cimv2 namespace on a remote computer by calling [**IWbemLocator::ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver). When connecting to a remote computer, you need to know the computer name, domain, user name, and password of the remote computer you are connecting to. These attributes are all passed into the **IWbemLocator::ConnectServer** method. Also, ensure the user name on the computer that is trying to connect to the remote computer has the correct access privileges on the remote computer. For more information, see [Connecting Through Windows Firewall](https://docs.microsoft.com/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista). To connect to the local computer, see [Example: Getting WMI Data from the Local Computer](example--getting-wmi-data-from-the-local-computer.md) and [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
+4.  Obtain a pointer to [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) for the \\\\root\\cimv2 namespace on a remote computer by calling [**IWbemLocator::ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver). When connecting to a remote computer, you need to know the computer name, domain, user name, and password of the remote computer you are connecting to. These attributes are all passed into the **IWbemLocator::ConnectServer** method. Also, ensure the user name on the computer that is trying to connect to the remote computer has the correct access privileges on the remote computer. For more information, see [Connecting Through Windows Firewall](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista). To connect to the local computer, see [Example: Getting WMI Data from the Local Computer](example--getting-wmi-data-from-the-local-computer.md) and [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
 
-    When handling user names and passwords, it is recommended that the user be prompted for the information, use the information, and then delete the information, so that there is less of a chance of the information being intercepted by an unauthorized user. Step 4 in the example code below uses [**CredUIPromptForCredentials**](https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa) to get the user name and password, and then uses [**SecureZeroMemory**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)) to get rid of the information after it is used in [**IWbemLocator::ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver). For more information, see [Handling Passwords](https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords) and [Asking the User for Credentials](https://docs.microsoft.com/windows/desktop/SecBP/asking-the-user-for-credentials) on MSDN.
+    When handling user names and passwords, it is recommended that the user be prompted for the information, use the information, and then delete the information, so that there is less of a chance of the information being intercepted by an unauthorized user. Step 4 in the example code below uses [**CredUIPromptForCredentials**](/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa) to get the user name and password, and then uses [**SecureZeroMemory**](/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)) to get rid of the information after it is used in [**IWbemLocator::ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver). For more information, see [Handling Passwords](/windows/desktop/SecBP/handling-passwords) and [Asking the User for Credentials](/windows/desktop/SecBP/asking-the-user-for-credentials) on MSDN.
 
-5.  Create a [COAUTHIDENTITY](https://msdn.microsoft.com/library/ms693358.aspx) structure to provide credentials for setting the proxy security.
-6.  Set [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) proxy security so WMI service can impersonate the client by calling [**CoSetProxyBlanket**](https://msdn.microsoft.com/library/ms692692(v=VS.85).aspx).
+5.  Create a [COAUTHIDENTITY](/windows/win32/api/wtypesbase/ns-wtypesbase-coauthidentity) structure to provide credentials for setting the proxy security.
+6.  Set [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) proxy security so WMI service can impersonate the client by calling [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket).
 
     For more information, see [Setting the Security Levels on a WMI Connection](setting-the-security-levels-on-a-wmi-connection.md).
 
@@ -69,9 +69,9 @@ The following procedure shows how to execute the WMI application. Steps 1 throug
 
     
 
-    Once the value of the `Name` property is stored in the [**VARIANT**](https://msdn.microsoft.com/library/ms221627(v=VS.71).aspx) variable `vtProp`, it can then be displayed to the user.
+    Once the value of the `Name` property is stored in the [**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant) variable `vtProp`, it can then be displayed to the user.
 
-    The following code example shows how the [**VARIANT**](https://msdn.microsoft.com/library/ms221627(v=VS.71).aspx) variable can be used again to store and display the value of the amount of free physical memory.
+    The following code example shows how the [**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant) variable can be used again to store and display the value of the amount of free physical memory.
 
     ```C++
     hr = pclsObj->Get(L"FreePhysicalMemory",
@@ -83,8 +83,6 @@ The following procedure shows how to execute the WMI application. Steps 1 throug
     
 
     For more information, see [Enumerating WMI](enumerating-wmi.md).
-
-For more code samples that retrieve WMI data from a remote computer, see the [Check OS bitness in C++](https://Code.MSDN.Microsoft.Com/CppCheckOSBitness-a16c69e4) in the MSDN Code Gallery.
 
 The following code example shows how to get WMI data semisynchronously from a remote computer.
 
@@ -418,6 +416,3 @@ int __cdecl main(int argc, char **argv)
  
 
  
-
-
-

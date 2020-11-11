@@ -204,13 +204,9 @@ In the second render pass the [**ID3D11DeviceContext::OMSetRenderTargets**](/win
 [Output-Merger Stage](d3d10-graphics-programming-guide-output-merger-stage.md)
 </dt> <dt>
 
-[Pipeline Stages (Direct3D 10)](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
+[Pipeline Stages (Direct3D 10)](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
 </dt> </dl>
 
  
 
  
-
-
-
-

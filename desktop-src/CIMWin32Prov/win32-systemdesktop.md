@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_SystemDesktop class
 
-The **Win32\_SystemDesktop** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates a computer system and its desktop configuration.
+The **Win32\_SystemDesktop** association [WMI class](../wmisdk/retrieving-a-class.md) relates a computer system and its desktop configuration.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_ComputerSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Element"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_ComputerSystem")
+Qualifiers: [**Override**](../wmisdk/standard-qualifiers.md) ("Element"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_ComputerSystem")
 </dt> </dl>
 
 Reference to the instance representing the computer system where the desktop configuration exists.
@@ -72,7 +72,7 @@ Data type: **Win32\_Desktop**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Setting"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_Desktop")
+Qualifiers: [**Override**](../wmisdk/standard-qualifiers.md) ("Setting"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_Desktop")
 </dt> </dl>
 
 Reference to the instance representing the configuration existing on the computer system.
@@ -104,13 +104,9 @@ The **Win32\_SystemDesktop** class is derived from [**Win32\_SystemSetting**](wi
 [**Win32\_SystemSetting**](win32-systemsetting.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](./operating-system-classes.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

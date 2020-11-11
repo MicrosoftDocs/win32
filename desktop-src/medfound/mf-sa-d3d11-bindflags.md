@@ -16,7 +16,7 @@ Specifies the binding flags to use when allocating Microsoft Direct3D 11 surfac
 
 ## Remarks
 
-The value of this attribute is a bitwise **OR** of [**D3D11\_BIND\_FLAG**](https://msdn.microsoft.com/library/Ff476085(v=VS.85).aspx) flags.
+The value of this attribute is a bitwise **OR** of [**D3D11\_BIND\_FLAG**](/windows/win32/api/d3d11/ne-d3d11-d3d11_bind_flag) flags.
 
 ### Microsoft Media Foundation Transforms
 
@@ -60,7 +60,3 @@ This attribute can be set on the video sample allocator, in the [**IMFVideoSampl
  
 
  
-
-
-
-

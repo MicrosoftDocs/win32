@@ -10,8 +10,12 @@ ms.date: 05/31/2018
 
 ## Platform
 
-<dl> **Servers -** Windows Server 2012 R2  
-</dl>
+**Servers -** Windows Server 2012 R2  
+
+
+
+
+
 
 ## Description
 
@@ -29,12 +33,8 @@ To access the Web Application Proxy, administrators can go to Server Manager and
 
 ## Resources
 
--   [Solution guide](https://technet.microsoft.com/library/dn280942.aspx)
+-   [Solution guide](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn280942(v=ws.11))
 
  
 
  
-
-
-
-

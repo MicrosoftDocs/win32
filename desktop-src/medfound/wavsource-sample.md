@@ -15,7 +15,7 @@ This sample is a relatively simple example of a media source:
 -   There is only one stream, so there is no code to implement stream selection.
 -   The media source does not implement rate control (that is, fast forward or reverse playback).
 -   All source and stream methods are implemented as synchronous methods.
--   Because the data portion of a .wav file is a single block of uncompressed PCM audio, the media source does not need to read packet headers or otherwise parse the stream during playback, other than reading the initial [**WAVEFORMAT**](https://msdn.microsoft.com/library/Dd757712(v=VS.85).aspx) header.
+-   Because the data portion of a .wav file is a single block of uncompressed PCM audio, the media source does not need to read packet headers or otherwise parse the stream during playback, other than reading the initial [**WAVEFORMAT**](/windows/win32/api/mmreg/ns-mmreg-waveformat) header.
 
 For a more advanced example of a media source, see the [MPEG1Source Sample](mpeg1source-sample.md).
 
@@ -31,7 +31,7 @@ This sample demonstrates the following Media Foundation interfaces:
 
 The WavSource sample builds a DLL that is a COM server for both the media source and media source's byte-stream handler. Before using the media source, you must register the DLL.
 
-To use the media source, you can run the [BasicPlayback](https://msdn.microsoft.com/library/Bb970475(v=VS.85).aspx). The source resolver will automatically load the media source if you select a .wav file for playback. (If an error occurs, make sure that you successfully registered the WavSource DLL.)
+To use the media source, you can run the [BasicPlayback](/previous-versions//bb970475(v=vs.85)). The source resolver will automatically load the media source if you select a .wav file for playback. (If an error occurs, make sure that you successfully registered the WavSource DLL.)
 
 You can also use the TopoEdit tool to build a playback topology that contains the media source. For more information about TopoEdit, see [TopoEdit](topoedit.md).
 
@@ -73,6 +73,3 @@ This sample is available in the [Windows classic samples github repository](http
  
 
  
-
-
-

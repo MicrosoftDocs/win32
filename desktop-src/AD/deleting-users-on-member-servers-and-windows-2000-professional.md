@@ -22,15 +22,11 @@ This topic shows how to delete a user from a member server or computer running o
 1.  Bind to the computer using the following rules:
     1.  Use an account with sufficient rights to access that computer.
     2.  Use the following binding string format using the WinNT provider, computer name, and an extra parameter to tell ADSI that it is binding to a computer: "WinNT://<computer name>,<computer>". The "&lt;computer name&gt;" parameter is the name of the computer whose groups you want to access. This parameter notifies ADSI that it is binding to a computer and allows the WinNT provider parser to skip some ambiguity resolution queries to determine what type of object you are binding to.
-    3.  Bind to the [**IADsContainer**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer) interface.
-2.  Specify "user" as the class using [**IADsContainer.Delete**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-delete) to delete the user.
+    3.  Bind to the [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer) interface.
+2.  Specify "user" as the class using [**IADsContainer.Delete**](/windows/desktop/api/iads/nf-iads-iadscontainer-delete) to delete the user.
 
-    Be aware that you do not need to call [**IADs.SetInfo**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo) to commit the change to the container. The [**IADsContainer.Delete**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-delete) call commits the deletion of the user directly to the directory.
-
- 
+    Be aware that you do not need to call [**IADs.SetInfo**](/windows/desktop/api/iads/nf-iads-iads-setinfo) to commit the change to the container. The [**IADsContainer.Delete**](/windows/desktop/api/iads/nf-iads-iadscontainer-delete) call commits the deletion of the user directly to the directory.
 
  
 
-
-
-
+ 

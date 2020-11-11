@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # What's New in VDS in Windows Server 2008 R2 and Windows 7
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Windows Server 2008 R2 and Windows 7 introduce the following changes to the Virtual Disk Service (VDS):
 
@@ -36,7 +36,7 @@ Windows Server 2008 R2 and Windows 7 introduce the following changes to the V
 [**IVdsVdProvider**](/windows/desktop/api/Vds/nn-vds-ivdsvdprovider)  
 [**IVdsVolume2**](/windows/desktop/api/Vds/nn-vds-ivdsvolume2)  
 [**IVdsVolumeMF3**](/windows/desktop/api/Vds/nn-vds-ivdsvolumemf3)  
-</dl>
+
 
 ## New VDS Enumerations
 
@@ -50,7 +50,7 @@ Windows Server 2008 R2 and Windows 7 introduce the following changes to the V
 [**VDS_STORAGE_POOL_TYPE**](/windows/desktop/api/Vds/ne-vds-vds_storage_pool_type)  
 [**VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG**](/windows/desktop/api/Vds/ne-vds-vds_sub_system_supported_raid_type_flag)  
 [**VDS_VDISK_STATE**](/windows/desktop/api/Vds/ne-vds-vds_vdisk_state)  
-</dl>
+
 
 ## New VDS Structures
 
@@ -68,73 +68,73 @@ Windows Server 2008 R2 and Windows 7 introduce the following changes to the V
 [**VDS_SUB_SYSTEM_PROP2**](/windows/desktop/api/Vds/ns-vds-vds_sub_system_prop2)  
 [**VDS_VDISK_PROPERTIES**](/windows/desktop/api/Vds/ns-vds-vds_vdisk_properties)  
 [**VDS_VOLUME_PROP2**](/windows/desktop/api/Vds/ns-vds-vds_volume_prop)  
-</dl>
+
 
 ## Modifications to Existing VDS Enumerations
 
 [**VDS_ASYNC_OUTPUT_TYPE**](/windows/desktop/api/Vds/ne-vds-vds_async_output_type) enumeration added values:
 
-<dl> **VDS_ASYNCOUT_CREATE_VDISK**  
+ **VDS_ASYNCOUT_CREATE_VDISK**  
 **VDS_ASYNCOUT_ATTACH_VDISK**  
 **VDS_ASYNCOUT_COMPACT_VDISK**  
 **VDS_ASYNCOUT_MERGE_VDISK**  
 **VDS_ASYNCOUT_EXPAND_VDISK**  
-</dl>
+
 
 [**VDS_CONTROLLER_STATUS**](/windows/desktop/api/Vds/ne-vds-vds_controller_status) enumeration added value:
 
-<dl> **VDS_CS_REMOVED**  
-</dl>
+**VDS_CS_REMOVED**  
+
 
 [**VDS_DISK_FLAG**](/windows/desktop/api/Vds/ne-vds-vds_disk_flag) enumeration added value:
 
-<dl> **VDS_DF_BOOT_FROM_DISK**  
+**VDS_DF_BOOT_FROM_DISK**  
 **VDS_DF_CURRENT_READ_ONLY**  
-</dl>
+
 
 [**VDS_DRIVE_FLAG**](/windows/desktop/api/Vds/ne-vds-vds_drive_flag) enumeration added values:
 
-<dl> **VDS_DRF_ASSIGNED**  
+**VDS_DRF_ASSIGNED**  
 **VDS_DRF_UNASSIGNED**  
 **VDS_DRF_HOTSPARE_IN_USE**  
 **VDS_DRF_HOTSPARE_STANDBY**  
-</dl>
+
 
 [**VDS_DRIVE_STATUS**](/windows/desktop/api/Vds/ne-vds-vds_drive_status) enumeration added value:
 
-<dl> **VDS_DRS_REMOVED**  
-</dl>
+**VDS_DRS_REMOVED**  
+
 
 [**VDS_FILE_SYSTEM_TYPE**](/windows/desktop/api/Vds/ne-vds-vds_file_system_type) enumeration added value:
 
-<dl> **VDS_FST_EXFAT**  
-</dl>
+**VDS_FST_EXFAT**  
+
 
 [**VDS_HEALTH**](/windows/desktop/api/Vds/ne-vds-vds_health) enumeration added values:
 
-<dl> **VDS_H_REPLACED**  
+**VDS_H_REPLACED**  
 **VDS_H_PENDING_FAILURE**  
 **VDS_H_DEGRADED**  
-</dl>
+
 
 [**VDS_HWPROVIDER_TYPE**](/windows/desktop/api/Vds/ne-vds-vds_hwprovider_type) enumeration added values:
 
-<dl> **VDS_HWT_SAS**  
+**VDS_HWT_SAS**  
 **VDS_HWT_HYBRID**  
-</dl>
+
 
 [**VDS_LUN_FLAG**](/windows/desktop/api/Vds/ne-vds-vds_lun_flag) enumeration added values:
 
-<dl> **VDS_LF_READ_CACHE_ENABLED**  
+**VDS_LF_READ_CACHE_ENABLED**  
 **VDS_LF_WRITE_CACHE_ENABLED**  
 **VDS_LF_MEDIA_SCAN_ENABLED**  
 **VDS_LF_CONSISTENCY_CHECK_ENABLED**  
 **VDS_LF_SNAPSHOT**  
-</dl>
+
 
 [**VDS_LUN_PLEX_TYPE**](/windows/desktop/api/Vds/ne-vds-vds_lun_plex_type) enumeration added values:
 
-<dl> **VDS_LPT_RAID2**  
+**VDS_LPT_RAID2**  
 **VDS_LPT_RAID3**  
 **VDS_LPT_RAID4**  
 **VDS_LPT_RAID5**  
@@ -147,11 +147,11 @@ Windows Server 2008 R2 and Windows 7 introduce the following changes to the V
 **VDS_LPT_RAID50**  
 **VDS_LPT_RAID53**  
 **VDS_LPT_RAID60**  
-</dl>
+
 
 [**VDS_LUN_TYPE**](/windows/desktop/api/Vds/ne-vds-vds_lun_type) enumeration added values:
 
-<dl> **VDS_LT_RAID2**  
+**VDS_LT_RAID2**  
 **VDS_LT_RAID3**  
 **VDS_LT_RAID4**  
 **VDS_LT_RAID5**  
@@ -167,87 +167,84 @@ Windows Server 2008 R2 and Windows 7 introduce the following changes to the V
 **VDS_LT_RAID53**  
 **VDS_LT_RAID60**  
 **VDS_LT_RAID61**  
-</dl>
+
 
 [**VDS_OBJECT_TYPE**](/windows/desktop/api/Vds/ne-vds-vds_object_type) enumeration added values:
 
-<dl> **VDS_OT_STORAGE_POOL**  
+**VDS_OT_STORAGE_POOL**  
 **VDS_OT_VDISK**  
 **VDS_OT_OPEN_VDISK**  
-</dl>
+
 
 [**VDS_PORT_STATUS**](/windows/desktop/api/Vds/ne-vds-vds_port_status) enumeration added value:
 
-<dl> **VDS_DRS_REMOVED**  
-</dl>
+**VDS_DRS_REMOVED**  
+
 
 [**VDS_PROVIDER_FLAG**](/windows/desktop/api/Vds/ne-vds-vds_provider_flag) enumeration added values:
 
-<dl> **VDS_PF_SUPPORT_MIRROR**  
+**VDS_PF_SUPPORT_MIRROR**  
 **VDS_PF_SUPPORT_RAID5**  
-</dl>
+
 
 [**VDS_PROVIDER_TYPE**](/windows/desktop/api/Vds/ne-vds-vds_provider_type) enumeration added values:
 
-<dl> **VDS_PT_VIRTUALDISK**  
+**VDS_PT_VIRTUALDISK**  
 **VDS_PT_MAX**  
-</dl>
+
 
 [**VDS_SERVICE_FLAG**](/windows/desktop/api/Vds/ne-vds-vds_service_flag) enumeration added values:
 
-<dl> **VDS_SVF_SUPPORT_MIRROR**  
+**VDS_SVF_SUPPORT_MIRROR**  
 **VDS_SVF_SUPPORT_RAID5**  
-</dl>
+
 
 [**VDS_SUB_SYSTEM_FLAG**](/windows/desktop/api/Vds/ne-vds-vds_sub_system_flag) enumeration added values:
 
-<dl> **VDS_SF_SUPPORTS_LUN_NUMBER**  
+**VDS_SF_SUPPORTS_LUN_NUMBER**  
 **VDS_SF_SUPPORTS_MIRRORED_CACHE**  
 **VDS_SF_READ_CACHING_CAPABLE**  
 **VDS_SF_WRITE_CACHING_CAPABLE**  
 **VDS_SF_MEDIA_SCAN_CAPABLE**  
 **VDS_SF_CONSISTENCY_CHECK_CAPABLE**  
-</dl>
+
 
 [**VDS_TRANSITION_STATE**](/windows/desktop/api/Vds/ne-vds-vds_transition_state) enumeration added value:
 
-<dl> **VDS_TS_RESTRIPING**  
-</dl>
+**VDS_TS_RESTRIPING**  
+
 
 [**VDS_VERSION_SUPPORT_FLAG**](/windows/desktop/api/Vds/ne-vds-vds_version_support_flag) enumeration added values:
 
-<dl> **VDS_VSF_2_0**  
+**VDS_VSF_2_0**  
 **VDS_VSF_2_1**  
 **VDS_VSF_3_0**  
-</dl>
+
 
 [**VDS_VOLUME_STATUS**](/windows/desktop/api/Vds/ne-vds-vds_volume_status) enumeration added value:
 
-<dl> **VDS_VS_OFFLINE**  
-</dl>
+**VDS_VS_OFFLINE**  
+
 
 ## Modifications to Existing VDS Structures
 
 [**VDS_CONTROLLER_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_controller_notification) structure added **ulEvent** values:
 
-<dl> VDS_NF_CONTROLLER_MODIFY  
+VDS_NF_CONTROLLER_MODIFY  
 VDS_NF_CONTROLLER_REMOVED  
-</dl>
+
 
 [**VDS_DRIVE_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_drive_notification) structure added **ulEvent** value:
 
-<dl> VDS_NF_DRIVE_REMOVED  
-</dl>
+VDS_NF_DRIVE_REMOVED  
+
 
 [**VDS_PORT_NOTIFICATION**](/windows/desktop/api/Vds/ns-vds-vds_port_notification) structure added **ulEvent** values:
 
-<dl> VDS_NF_PORT_MODIFY  
+VDS_NF_PORT_MODIFY  
 VDS_NF_PORT_REMOVED  
-</dl>
+
 
  
 
  
-
-
-

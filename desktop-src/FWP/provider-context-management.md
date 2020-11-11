@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**FWPM\_PROVIDER\_CONTEXT\_CHANGE\_CALLBACK0**](https://msdn.microsoft.com/library/Aa364293(v=VS.85).aspx)
+-   [**FWPM\_PROVIDER\_CONTEXT\_CHANGE\_CALLBACK0**](/windows/win32/api/fwpmu/nc-fwpmu-fwpm_provider_context_change_callback0)
 -   [**FwpmProviderContextAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmprovidercontextadd0)
 -   [**FwpmProviderContextAdd1**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmprovidercontextadd1)
 -   [**FwpmProviderContextAdd2**](/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextadd2)
@@ -36,7 +36,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

@@ -8,7 +8,7 @@ ms.date: 06/20/2019
 
 # DXCore
 
-DXCore is an adapter enumeration API for graphics and compute devices, so some of its facilities overlap with those of [DXGI](/windows/win32/direct3ddxgi/dx-graphics-dxgi). DXCore is used by Direct3D 12.
+DXCore is an adapter enumeration API for graphics and compute devices, so some of its facilities overlap with those of [DXGI](../direct3ddxgi/dx-graphics-dxgi.md). DXCore is used by Direct3D 12.
 
 This documentation set contains information about programming with DXCore, as well as the DXCore reference.
 
@@ -17,7 +17,7 @@ This documentation set contains information about programming with DXCore, as we
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **Supported runtime environments** | Windows/C++ |
-| **Recommended programming languages** | C/C++ |
+| **Recommended programming languages** | C++ |
 | **Minimum supported client** | Windows 10, version 2004 (10.0; Build 19041) |
 | **Header** | dxcore.h and dxcore_interface.h |
 | **Library** | dxcore.lib |

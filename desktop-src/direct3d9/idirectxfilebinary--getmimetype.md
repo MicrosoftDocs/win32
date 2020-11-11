@@ -38,7 +38,7 @@ HRESULT GetMimeType(
 *pszMimeType* \[out\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)\***
 
 Address of a pointer to receive the MIME type string.
 
@@ -75,7 +75,3 @@ When there is no MIME type specified in a DirectX file for a binary object, the 
  
 
  
-
-
-
-

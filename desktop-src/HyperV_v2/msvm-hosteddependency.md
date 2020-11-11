@@ -49,32 +49,32 @@ The **Msvm\_HostedDependency** class has these properties.
 **Antecedent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
+Data type: **[**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-A reference to the hosting computer system. This property is inherited from [**CIM\_HostedDependency**](https://docs.microsoft.com/previous-versions//cc136861(v=vs.85)).
+A reference to the hosting computer system. This property is inherited from [**CIM\_HostedDependency**](/previous-versions//cc136861(v=vs.85)).
 
 </dd> <dt>
 
 **Dependent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
+Data type: **[**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-A reference to the virtual machine. This property is inherited from [**CIM\_HostedDependency**](https://docs.microsoft.com/previous-versions//cc136861(v=vs.85)).
+A reference to the virtual machine. This property is inherited from [**CIM\_HostedDependency**](/previous-versions//cc136861(v=vs.85)).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_HostedDependency** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_HostedDependency** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -97,16 +97,11 @@ Access to the **Msvm\_HostedDependency** class might be restricted by UAC Filter
 [**CIM\_HostedDependency**](cim-hosteddependency.md)
 </dt> <dt>
 
-[**CIM\_HostedDependency**](https://docs.microsoft.com/previous-versions//cc136861(v=vs.85))
+[**CIM\_HostedDependency**](/previous-versions//cc136861(v=vs.85))
 </dt> <dt>
 
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

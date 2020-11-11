@@ -57,7 +57,7 @@ Specifies the name of an interface from which this derived interface inherits me
 *declarator-list* 
 </dt> <dd>
 
-Specifies standard C declarators, such as identifiers, pointer declarators, and array declarators. For more information, see [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md), [**arrays**](arrays-1.md)., and [Arrays and Pointers](https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-pointers). The *declarator-list* consists of one or more declarators, separated by commas.
+Specifies standard C declarators, such as identifiers, pointer declarators, and array declarators. For more information, see [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md), [**arrays**](arrays-1.md)., and [Arrays and Pointers](/windows/desktop/Rpc/arrays-and-pointers). The *declarator-list* consists of one or more declarators, separated by commas.
 
 </dd> </dl>
 
@@ -65,7 +65,7 @@ Specifies standard C declarators, such as identifiers, pointer declarators, and 
 
 The interface names in the IDL file and ACF must be the same, except when you use the MIDL compiler switch [**/acf**](-acf.md).
 
-The interface name forms the first part of the name of interface-handle data structures that are parameters to the RPC run-time functions. For more information, see [**RPC\_IF\_HANDLE**](https://docs.microsoft.com/windows/desktop/Rpc/rpc-if-handle).
+The interface name forms the first part of the name of interface-handle data structures that are parameters to the RPC run-time functions. For more information, see [**RPC\_IF\_HANDLE**](/windows/desktop/Rpc/rpc-if-handle).
 
 If the interface header includes the **\[**[**object**](object.md)**\]** attribute to indicate a COM interface, it must also include the **\[**[**uuid**](uuid.md)**\]** attribute and must specify the base COM interface from which it is derived. For more information about COM interfaces, see **\[**[**object**](object.md)**\]**.
 
@@ -129,7 +129,7 @@ typedef interface IStorage *LPSTORAGE;
 [**pointer\_default**](pointer-default.md)
 </dt> <dt>
 
-[**RPC\_IF\_HANDLE**](https://docs.microsoft.com/windows/desktop/Rpc/rpc-if-handle)
+[**RPC\_IF\_HANDLE**](/windows/desktop/Rpc/rpc-if-handle)
 </dt> <dt>
 
 [**typedef**](typedef.md)
@@ -144,7 +144,3 @@ typedef interface IStorage *LPSTORAGE;
  
 
  
-
-
-
-

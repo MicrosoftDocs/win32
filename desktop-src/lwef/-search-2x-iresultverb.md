@@ -26,7 +26,7 @@ Exposes verb properties.
 
 ## Members
 
-The **IResultVerb** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IResultVerb** also has these types of members:
+The **IResultVerb** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IResultVerb** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -67,10 +67,4 @@ These methods expose properties and actions applicable to verbs.
 
 
  
-
- 
-
-
-
-
 

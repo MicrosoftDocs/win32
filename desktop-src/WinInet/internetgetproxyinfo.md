@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 # InternetGetProxyInfo function
 
 > [!NOTE]
-> This function is deprecated. For autoproxy support, use HTTP Services (WinHTTP) version 5.1 instead. For more information, see [WinHTTP AutoProxy Support](/windows/win32/WinHttp/winhttp-autoproxy-support).
+> This function is deprecated. For autoproxy support, use HTTP Services (WinHTTP) version 5.1 instead. For more information, see [WinHTTP AutoProxy Support](../winhttp/winhttp-autoproxy-support.md).
 
 Retrieves proxy data for accessing specified resources. This function can only be called by dynamically linking to "JSProxy.dll".
 
@@ -84,7 +84,7 @@ A pointer to a variable that receives the size, in bytes, of the string returned
 
 ## Return value
 
-Returns **TRUE** if successful, or **FALSE** otherwise. To get extended error data, call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+Returns **TRUE** if successful, or **FALSE** otherwise. To get extended error data, call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
@@ -117,7 +117,7 @@ To call **InternetGetProxyInfo**, you must dynamically link to it using the defi
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
 > [!Note]  
-> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
 ## Requirements
 
@@ -129,8 +129,8 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## See also
 
-[**InternetInitializeAutoProxyDll**](https://msdn.microsoft.com/library/Aa385093(v=VS.85).aspx)
+[**InternetInitializeAutoProxyDll**](/windows/win32/api/winineti/nf-winineti-internetinitializeautoproxydll)
 
-[**InternetDeInitializeAutoProxyDll**](https://msdn.microsoft.com/library/Aa384580(v=VS.85).aspx)
+[**InternetDeInitializeAutoProxyDll**](/previous-versions/windows/desktop/legacy/aa384580(v=vs.85))
 
-[**DetectAutoProxyUrl**](https://msdn.microsoft.com/library/Aa383993(v=VS.85).aspx)
+[**DetectAutoProxyUrl**](/windows/win32/api/winineti/nf-winineti-detectautoproxyurl)

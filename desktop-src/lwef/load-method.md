@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Description**
 </dt> <dd>
 
-Loads a character into the [**Characters**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) collection.
+Loads a character into the [**Characters**](/windows/desktop/lwef/the-characters-object) collection.
 
 </dd> <dt>
 
@@ -93,7 +93,7 @@ If you use the **Load** method to load a character file stored on the local mach
 
 
 
-You can also handle the error by setting [**RaiseRequestErrors**](https://www.bing.com/search?q=**RaiseRequestErrors**) to **False**, declaring a object, and assigning the **Load** request to it. Then follow the **Load** call with a statement that checks the status of the [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object.
+You can also handle the error by setting [**RaiseRequestErrors**](https://www.bing.com/search?q=**RaiseRequestErrors**) to **False**, declaring a object, and assigning the **Load** request to it. Then follow the **Load** call with a statement that checks the status of the [**Request**](/windows/desktop/lwef/the-request-object) object.
 
 
 ```
@@ -115,13 +115,7 @@ Dim LoadRequest as Object
 
 
 
-If you load a character that is not local; for example, using HTTP protocol, you can also check for a **Load** failure by assigning a [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object to the **Load** method. However, because this method of loading a character is handled asynchronously, check its status in the [**RequestComplete**](requestcomplete-event.md) event. This technique will not work loading a character using the UNC protocol because the **Load** method is processed synchronously.
+If you load a character that is not local; for example, using HTTP protocol, you can also check for a **Load** failure by assigning a [**Request**](/windows/desktop/lwef/the-request-object) object to the **Load** method. However, because this method of loading a character is handled asynchronously, check its status in the [**RequestComplete**](requestcomplete-event.md) event. This technique will not work loading a character using the UNC protocol because the **Load** method is processed synchronously.
 
  
-
- 
-
-
-
-
 

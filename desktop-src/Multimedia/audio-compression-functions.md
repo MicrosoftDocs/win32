@@ -23,7 +23,7 @@ The following functions are used with audio compression.
 -   [**acmDriverClose**](/windows/desktop/api/Msacm/nf-msacm-acmdriverclose)
 -   [**acmDriverDetails**](/windows/desktop/api/Msacm/nf-msacm-acmdriverdetails)
 -   [**acmDriverEnum**](/windows/desktop/api/Msacm/nf-msacm-acmdriverenum)
--   [**acmDriverEnumCallback**](https://msdn.microsoft.com/library/Dd742891(v=VS.85).aspx)
+-   [**acmDriverEnumCallback**](/windows/win32/api/msacm/nc-msacm-acmdriverenumcb)
 -   [**acmDriverID**](/windows/desktop/api/Msacm/nf-msacm-acmdriverid)
 -   [**acmDriverMessage**](/windows/desktop/api/Msacm/nf-msacm-acmdrivermessage)
 -   [**acmDriverOpen**](/windows/desktop/api/Msacm/nf-msacm-acmdriveropen)
@@ -51,7 +51,7 @@ The following functions are used with audio compression.
 -   [**acmMetrics**](/windows/desktop/api/Msacm/nf-msacm-acmmetrics)
 -   [**acmStreamClose**](/windows/desktop/api/Msacm/nf-msacm-acmstreamclose)
 -   [**acmStreamConvert**](/windows/desktop/api/Msacm/nf-msacm-acmstreamconvert)
--   [**acmStreamConvertCallback**](https://docs.microsoft.com/previous-versions//dd742925(v=vs.85))
+-   [**acmStreamConvertCallback**](/previous-versions//dd742925(v=vs.85))
 -   [**acmStreamMessage**](/windows/desktop/api/Msacm/nf-msacm-acmstreammessage)
 -   [**acmStreamOpen**](/windows/desktop/api/Msacm/nf-msacm-acmstreamopen)
 -   [**acmStreamPrepareHeader**](/windows/desktop/api/Msacm/nf-msacm-acmstreamprepareheader)
@@ -69,7 +69,3 @@ The following functions are used with audio compression.
  
 
  
-
-
-
-

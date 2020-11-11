@@ -27,7 +27,7 @@ The [RecipeThumbnailProvider](samples-recipethumbnailprovider.md) sample demonst
 A thumbnail handler must always implement [**IThumbnailProvider**](/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailprovider) in concert with one of these interfaces:
 
 -   [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream)
--   [**IInitializeWithItem**](https://msdn.microsoft.com/library/Bb761814(v=VS.85).aspx)
+-   [**IInitializeWithItem**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem)
 -   [**IInitializeWithFile**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithfile)
 
 There are cases where initialization with streams is not possible. In scenarios where your thumbnail handler does not implement [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream), it must opt out of running in the isolated process where the system indexer places it by default when there is a change to the stream. To opt out of the process isolation feature, set the following registry value.
@@ -41,7 +41,7 @@ HKEY_CLASSES_ROOT
 
 If you implement [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream) and do a stream-based initialization, your handler is more secure and reliable. Typically, disabling process isolation is only intended for legacy handlers; avoid disabling this feature for any new code. **IInitializeWithStream** should be your first choice of initialization interface whenever possible.
 
-Because the image file in the sample is not embedded in the .recipe file and is not a part of its file stream, [**IInitializeWithItem**](https://msdn.microsoft.com/library/Bb761814(v=VS.85).aspx) is used in the sample. The implementation of the [**IInitializeWithItem::Initialize**](https://msdn.microsoft.com/library/Bb761816(v=VS.85).aspx) method simply passes its parameters to private class variables.
+Because the image file in the sample is not embedded in the .recipe file and is not a part of its file stream, [**IInitializeWithItem**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem) is used in the sample. The implementation of the [**IInitializeWithItem::Initialize**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iinitializewithitem-initialize) method simply passes its parameters to private class variables.
 
 [**IThumbnailProvider**](/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailprovider) has only one method—[**GetThumbnail**](/windows/desktop/api/Thumbcache/nf-thumbcache-ithumbnailprovider-getthumbnail)—that is called with the largest desired size of the image, in pixels. Although the parameter is named *cx*, its value is used as the maximum size of both the x and y dimensions of the image. If the retrieved thumbnail is not square, then the longer axis is limited by *cx* and the aspect ratio of the original image is preserved.
 
@@ -234,12 +234,9 @@ IFACEMETHODIMP CRecipeThumbProvider::GetThumbnail(UINT cx,
 [Thumbnail Handler Guidelines](thumbnail-provider-guidelines.md)
 </dt> <dt>
 
-[**IID\_PPV\_ARGS**](https://msdn.microsoft.com/library/Ee330727(v=VS.85).aspx)
+[**IID\_PPV\_ARGS**](/windows/win32/api/combaseapi/nf-combaseapi-iid_ppv_args)
 </dt> </dl>
 
  
 
  
-
-
-

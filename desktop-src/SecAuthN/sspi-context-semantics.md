@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # SSPI Context Semantics
 
-A [*security context*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) is the set of security attributes and rules in effect during a communication session. This includes such information as the identities of the principal and information on the keys, ciphers, and algorithms being used. For [*Security Support Provider Interface*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SSPI), a security context is an opaque structure that is created through an exchange involving the [**InitializeSecurityContext (General)**](https://msdn.microsoft.com/library/Aa375506(v=VS.85).aspx) function and the [**AcceptSecurityContext (General)**](https://msdn.microsoft.com/library/Aa374703(v=VS.85).aspx) function.
+A [*security context*](../secgloss/s-gly.md) is the set of security attributes and rules in effect during a communication session. This includes such information as the identities of the principal and information on the keys, ciphers, and algorithms being used. For [*Security Support Provider Interface*](../secgloss/s-gly.md) (SSPI), a security context is an opaque structure that is created through an exchange involving the [**InitializeSecurityContext (General)**](/windows/win32/api/sspi/nf-sspi-initializesecuritycontexta) function and the [**AcceptSecurityContext (General)**](/windows/win32/api/sspi/nf-sspi-acceptsecuritycontext) function.
 
 For more information about the context attributes, see [Context Requirements](context-requirements.md).
 
@@ -30,11 +30,11 @@ The SSPI model supports three types of security contexts.
 <tbody>
 <tr class="odd">
 <td><a href="connection-oriented-contexts.md">Connection</a></td>
-<td>A connection-oriented <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly"><em>context</em></a> is the most common security context, and the simplest to use. The caller is responsible for the overall message format and for the location of the data in the message. The caller is also responsible for the location of the security-relevant fields within a message, such as the location of the signature data.<br/></td>
+<td>A connection-oriented <a href="/windows/desktop/SecGloss/c-gly"><em>context</em></a> is the most common security context, and the simplest to use. The caller is responsible for the overall message format and for the location of the data in the message. The caller is also responsible for the location of the security-relevant fields within a message, such as the location of the signature data.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="datagram-contexts.md">Datagram</a></td>
-<td>A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly"><em>datagram</em></a>-oriented context has extra support for DCE-style datagram communication. It can also be used generically for a datagram-oriented transport application.<br/>
+<td>A <a href="/windows/desktop/SecGloss/d-gly"><em>datagram</em></a>-oriented context has extra support for DCE-style datagram communication. It can also be used generically for a datagram-oriented transport application.<br/>
 <blockquote>
 <p>[!Important]</p>
 <p>The <a href="microsoft-kerberos.md">Microsoft Kerberos</a> package does not support datagram contexts in user-to-user mode.<br/></p>
@@ -71,7 +71,3 @@ The SSPI model supports three types of security contexts.
  
 
  
-
-
-
-

@@ -69,7 +69,7 @@ An array whose size is equal to *numKeys*. An element is **TRUE** if the corresp
 *plKeyData* \[in\]
 </dt> <dd>
 
-An array whose size is equal to *numKeys*. The array contains keystroke data and corresponds to the value of the *lParam* parameter of the [WM\_KEYDOWN](https://msdn.microsoft.com/library/ms646280(VS.85).aspx) message. The data specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag. For a description of the bits in this array, see [WM\_KEYDOWN](https://msdn.microsoft.com/library/ms646280(VS.85).aspx).
+An array whose size is equal to *numKeys*. The array contains keystroke data and corresponds to the value of the *lParam* parameter of the [WM\_KEYDOWN](../inputdev/wm-keydown.md) message. The data specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag. For a description of the bits in this array, see [WM\_KEYDOWN](../inputdev/wm-keydown.md).
 
 The corresponding element in *pbArrayKeyUp* indicates if the key is UP or DOWN.
 
@@ -118,14 +118,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsRdpClientNonScriptable**](imsrdpclientnonscriptable-interface.md)
 </dt> <dt>
 
-[WM\_KEYDOWN](https://msdn.microsoft.com/library/ms646280(VS.85).aspx)
+[WM\_KEYDOWN](../inputdev/wm-keydown.md)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

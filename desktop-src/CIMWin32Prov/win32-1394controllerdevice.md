@@ -25,7 +25,7 @@ api_location:
 
 # Win32\_1394ControllerDevice class
 
-The **Win32\_1394ControllerDevice** association [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) relates the high-speed serial bus (IEEE 1394 Firewire) Controller and the [**CIM\_LogicalDevice**](cim-logicaldevice.md) instance connected to it. This serial bus provides enhanced connectivity for a wide range of devices, including consumer audio or video components, storage peripherals, other computers, and portable devices. IEEE 1394 has been adopted by the consumer electronics industry and provides a Plug and Play-compatible expansion interface.
+The **Win32\_1394ControllerDevice** association [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) relates the high-speed serial bus (IEEE 1394 Firewire) Controller and the [**CIM\_LogicalDevice**](cim-logicaldevice.md) instance connected to it. This serial bus provides enhanced connectivity for a wide range of devices, including consumer audio or video components, storage peripherals, other computers, and portable devices. IEEE 1394 has been adopted by the consumer electronics industry and provides a Plug and Play-compatible expansion interface.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -104,7 +104,7 @@ Data type: **Win32\_1394Controller**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_1394Controller")
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_1394Controller")
 </dt> </dl>
 
 The Win32\_1394Controller antecedent reference represents the 1394 controller associated with this device.
@@ -120,7 +120,7 @@ Data type: **CIM\_LogicalDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\|CIM\_LogicalDevice")
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\|CIM\_LogicalDevice")
 </dt> </dl>
 
 The CIM\_LogicalDevice dependent reference represents the CIM\_LogicalDevice connected to the 1394 controller.
@@ -136,7 +136,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("bits")
+Qualifiers: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("bits")
 </dt> </dl>
 
 When several bus or connection-data widths are possible, this property defines the one in use between the devices. Data width is specified in bits. If data width is not negotiated, or if this information is not available or important to device management, the property should be set to 0 (zero).
@@ -154,12 +154,12 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("bits per second")
+Qualifiers: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("bits per second")
 </dt> </dl>
 
 When several bus or connection speeds are possible, this property defines the one being used between the devices. Speed is specified in bits-per-second. If connection or bus speeds are not negotiated, or if this information is not available or important to device management, the property should be set to 0 (zero).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 This property is inherited from [**CIM\_DeviceConnection**](cim-deviceconnection.md).
 
@@ -288,9 +288,4 @@ Number of Soft Resets :
 </dt> </dl>
 
  
-
- 
-
-
-
 

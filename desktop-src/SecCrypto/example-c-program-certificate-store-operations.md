@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Example C Program: Certificate Store Operations
 
-The following example demonstrates a number of common [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) operations as well as the following tasks and [*CryptoAPI*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) functions:
+The following example demonstrates a number of common [*certificate store*](../secgloss/c-gly.md) operations as well as the following tasks and [*CryptoAPI*](../secgloss/c-gly.md) functions:
 
 -   Opening and closing memory and system stores using [**CertOpenStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certopenstore) and [**CertCloseStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certclosestore).
 -   Duplicating an open store using [**CertDuplicateStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certduplicatestore).
@@ -21,7 +21,7 @@ The following example demonstrates a number of common [*certificate store*](http
 
 This example uses the function [**MyHandleError**](myhandleerror.md). The code for this function is included with the sample. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).
 
-This example uses the **CreateMyDACL** function, defined in the [Creating a DACL](https://msdn.microsoft.com/library/ms717798(v=VS.85).aspx) topic, to ensure the open file is created with a proper DACL.
+This example uses the **CreateMyDACL** function, defined in the [Creating a DACL](../secbp/creating-a-dacl.md) topic, to ensure the open file is created with a proper DACL.
 
 This example creates a certificate store in memory. A system store is opened and duplicated. A certificate is retrieved from the system store. A new certificate is created from the encoded portion of the certificate retrieved. The certificate retrieved is added to the memory store. A second certificate is retrieved from the My store and a link to that certificate is added to the memory store. The certificate and the link are then retrieved from the memory store and the memory is saved to disk. All of the stores and files are closed. Next, the file store is reopened and a search is done for the certificate link. The success of this program depends upon a My store being available. That store must include a certificate with the subject "Insert\_cert\_subject\_name1," and a second certificate with the subject "Insert\_cert\_subject\_name2." The names of the subjects must be changed to the names of certificate subjects known to be in the My store.
 
@@ -432,6 +432,3 @@ void MyHandleError(char *s)
  
 
  
-
-
-

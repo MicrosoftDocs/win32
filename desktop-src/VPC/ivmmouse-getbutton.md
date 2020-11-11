@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IVMMouse::GetButton method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves the current state (up or down) of the specified mouse button.
 
@@ -96,10 +96,4 @@ This method can return one of these values.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

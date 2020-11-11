@@ -3,10 +3,13 @@ title: Touch
 description: All Microsoft Windows applications should have a great touch experience. And creating such an experience is easier than you think.
 ms.assetid: a87d0726-1c57-4cf8-9e35-4e73a09ff1a3
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Touch
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 All Microsoft Windows applications should have a great touch experience. And creating such an experience is easier than you think.
 
@@ -224,7 +227,7 @@ Effect: App bar is displayed.
 
 The swipe from edge gesture.
 
-Developers: For more info, see [**DIRECTMANIPULATION\_CONFIGURATION**](https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_configuration) enumeration.
+Developers: For more info, see [**DIRECTMANIPULATION\_CONFIGURATION**](/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_configuration) enumeration.
 
 ### Control usage
 
@@ -399,7 +402,7 @@ Using the correct controls gets you only part of the way to a touch-optimized ap
     -   Providing auto-complete suggestions when appropriate.
 
     > [!Note]  
-    > Developers: For more info about integrating the touch keyboard, see [**ITextInputPanel**](https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel).
+    > Developers: For more info about integrating the touch keyboard, see [**ITextInputPanel**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel).
 
      
 
@@ -424,13 +427,7 @@ Forgiveness is the ability to reverse or correct an undesired action easily. You
 
     Routine confirmations are acceptable for interactions that users often do accidentally using touch.
 
-    Developers: You can distinguish between mouse events and touch events using the [**INPUT\_MESSAGE\_SOURCE**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-input_message_source) API.
+    Developers: You can distinguish between mouse events and touch events using the [**INPUT\_MESSAGE\_SOURCE**](/windows/win32/api/winuser/ns-winuser-input_message_source) API.
 
  
-
- 
-
-
-
-
 

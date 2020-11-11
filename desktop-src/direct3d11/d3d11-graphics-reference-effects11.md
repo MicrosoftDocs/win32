@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 Use Effects 11 source to build your effects-type application. The Effects 11 source is available at [Effects for Direct3D 11 Update](https://github.com/Microsoft/FX11). The Effects 11 API is described in this section.
 
-## 
 
 ## In this section
 

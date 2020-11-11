@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # CHStringArray::operator \[ \]
 
-\[The [**CHStringArray**](/windows/desktop/api/ChStrArr/nl-chstrarr-chstringarray) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The [**CHStringArray**](/windows/desktop/api/ChStrArr/nl-chstrarr-chstringarray) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 These subscript operators set or get the element at the specified index. These operators are a convenient substitute for the [**SetAt**](/windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-setat(int_lpcwstr)) and [**GetAt**](/windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-getat(int)) methods.
 
@@ -46,7 +46,7 @@ The debug version of the library asserts if the subscript (either on the left or
 
 ## Examples
 
-The following code example shows the use of [**CHStringArray::operator \[\]**](https://msdn.microsoft.com/library/Aa384934(v=VS.85).aspx).
+The following code example shows the use of [**CHStringArray::operator \[\]**](/previous-versions/windows/desktop/legacy/aa384934(v=vs.85)).
 
 
 ```C++
@@ -90,11 +90,4 @@ assert( array[0] == L"String 3" );
 
 [**CHStringArray::SetAt**](/windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-setat(int_lpcwstr))
 </dt> </dl>
-
- 
-
- 
-
-
-
 

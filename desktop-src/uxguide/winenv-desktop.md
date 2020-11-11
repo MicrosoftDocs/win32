@@ -3,10 +3,13 @@ title: Desktop
 description: The desktop is the user's work area for their programs. It's not a way to promote awareness of your program or its brand. Don't abuse it .
 ms.assetid: 99cb218d-9b1f-4e43-94d2-4ea74b0e10d3
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Desktop
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 The desktop is the user's work area for their programs. It's not a way to promote awareness of your program or its brand. Don't abuse it!
 

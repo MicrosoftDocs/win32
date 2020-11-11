@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # displayInfo
 
-Specifies a property's display information. There should be only one [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) element for each [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx).
+Specifies a property's display information. There should be only one [displayInfo]() element for each [propertyDescription](./propdesc-schema-propertydescription.md).
 
-If there are multiple elements, the last one is used. If no [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) element is provided, then the default attribute settings are applied to the property description.
+If there are multiple elements, the last one is used. If no [displayInfo]() element is provided, then the default attribute settings are applied to the property description.
 
 ## Syntax
 
@@ -261,15 +261,15 @@ If there are multiple elements, the last one is used. If no [displayInfo](https:
 
 | Parent Element                                                   | Child Elements                                                                                                 |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) | [stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx)                                                             |
-|                                                                  | [booleanFormat](https://msdn.microsoft.com/library/Bb773862(v=VS.85).aspx)                                                           |
-|                                                                  | [numberFormat](https://msdn.microsoft.com/library/Bb773877(v=VS.85).aspx)                                                             |
-|                                                                  | [dateTimeFormat](https://msdn.microsoft.com/library/Bb773863(v=VS.85).aspx)                                                         |
-|                                                                  | [enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx)                                                         |
-|                                                                  | [drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx)                                                               |
-|                                                                  | [editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx)                                                               |
-|                                                                  | [filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx)                                                           |
-|                                                                  | [queryControl](https://msdn.microsoft.com/library/Bb773883(v=VS.85).aspx) (Windows Vista only. Not supported in Windows 7 and later.) |
+| [propertyDescription](./propdesc-schema-propertydescription.md) | [stringFormat](./propdesc-schema-stringformat.md)                                                             |
+|                                                                  | [booleanFormat](./propdesc-schema-booleanformat.md)                                                           |
+|                                                                  | [numberFormat](./propdesc-schema-numberformat.md)                                                             |
+|                                                                  | [dateTimeFormat](./propdesc-schema-datetimeformat.md)                                                         |
+|                                                                  | [enumeratedList](./propdesc-schema-enumeratedlist.md)                                                         |
+|                                                                  | [drawControl](./propdesc-schema-drawcontrol.md)                                                               |
+|                                                                  | [editControl](./propdesc-schema-editcontrol.md)                                                               |
+|                                                                  | [filterControl](./propdesc-schema-filtercontrol.md)                                                           |
+|                                                                  | [queryControl](./propdesc-schema-querycontrol.md) (Windows Vista only. Not supported in Windows 7 and later.) |
 
 
 
@@ -297,7 +297,7 @@ If there are multiple elements, the last one is used. If no [displayInfo](https:
 </tr>
 <tr class="even">
 <td>displayType</td>
-<td>Public. Optional. Default is &quot;String&quot;. Specifies the type of the display string. Once set here, the associated <strong>PROPDESC_DISPLAYTYPE</strong> values are retrieved by <a href="https://msdn.microsoft.com/library/Bb761535(v=VS.85).aspx>"><strong>IPropertyDescription::GetDisplayType</strong></a>. The following are valid types. 
+<td>Public. Optional. Default is &quot;String&quot;. Specifies the type of the display string. Once set here, the associated <strong>PROPDESC_DISPLAYTYPE</strong> values are retrieved by <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-getdisplaytype"><strong>IPropertyDescription::GetDisplayType</strong></a>. The following are valid types. 
 <table>
 <thead>
 <tr class="header">
@@ -361,7 +361,7 @@ If there are multiple elements, the last one is used. If no [displayInfo](https:
 </tr>
 <tr class="even">
 <td>relativeDescriptionType</td>
-<td>Optional. Default is &quot;General&quot;. Specifies how two values of this property should be described when they are compared with one another. In the case of equivalency, &quot;Same&quot; is always used. <a href="https://msdn.microsoft.com/library/Bb761547(v=VS.85).aspx>"><strong>IPropertyDescription::GetRelativeDescription</strong></a> and <a href="https://msdn.microsoft.com/library/Bb761549(v=VS.85).aspx>"><strong>IPropertyDescription::GetRelativeDescriptionType</strong></a> use this value to determine what relative description display names to use. 
+<td>Optional. Default is &quot;General&quot;. Specifies how two values of this property should be described when they are compared with one another. In the case of equivalency, &quot;Same&quot; is always used. <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-getrelativedescription"><strong>IPropertyDescription::GetRelativeDescription</strong></a> and <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-getrelativedescriptiontype"><strong>IPropertyDescription::GetRelativeDescriptionType</strong></a> use this value to determine what relative description display names to use. 
 <table>
 <thead>
 <tr class="header">
@@ -453,6 +453,3 @@ If there are multiple elements, the last one is used. If no [displayInfo](https:
  
 
  
-
-
-

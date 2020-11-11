@@ -19,7 +19,7 @@ To smooth the process of instance creation on distributed systems, COM has intro
 
 A class moniker permits you to identify the class of an object and is typically used with another moniker, like a file moniker, to indicate the location of the object. This permits you to bind to an object and specify the server that is to be launched for that object. Class monikers may also be composed to the right of monikers supporting binding to the [**IClassActivator**](/windows/desktop/api/ObjIdl/nn-objidl-iclassactivator) interface. For more information, see [Class Monikers](class-monikers.md).
 
-[**CoCreateInstanceEx**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex) extends [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) to make it possible to create a single uninitialized object associated with the given CLSID on a specified remote machine. In addition, rather than requesting a single interface and obtaining a single pointer to that interface, **CoCreateInstanceEx** makes it possible to query for multiple interfaces and (if available) receive pointers to them in a single round-trip, thus permitting fewer round-trips between machines. This can make remote object interaction much more efficient. To do this, the function uses an array of [**MULTI\_QI**](https://msdn.microsoft.com/library/ms687289(v=VS.85).aspx) structures.
+[**CoCreateInstanceEx**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex) extends [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) to make it possible to create a single uninitialized object associated with the given CLSID on a specified remote machine. In addition, rather than requesting a single interface and obtaining a single pointer to that interface, **CoCreateInstanceEx** makes it possible to query for multiple interfaces and (if available) receive pointers to them in a single round-trip, thus permitting fewer round-trips between machines. This can make remote object interaction much more efficient. To do this, the function uses an array of [**MULTI\_QI**](/windows/win32/api/objidlbase/ns-objidlbase-multi_qi) structures.
 
 Creating an object through [**CoCreateInstanceEx**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex) still requires that the object be initialized through a call to one of the initialization interfaces (such as [**IPersistStorage::Load**](/windows/desktop/api/ObjIdl/nf-objidl-ipersiststorage-load)). The helper functions [**CoGetInstanceFromFile**](/windows/desktop/api/Objbase/nf-objbase-cogetinstancefromfile) and [**CoGetInstanceFromIStorage**](/windows/desktop/api/Objbase/nf-objbase-cogetinstancefromistorage) encapsulate both the instance creation power of **CoCreateInstanceEx** and the initialization, the former from a file and the latter from a storage.
 
@@ -33,7 +33,3 @@ Creating an object through [**CoCreateInstanceEx**](/windows/desktop/api/combase
  
 
  
-
-
-
-

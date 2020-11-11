@@ -17,7 +17,7 @@ api_location:
 
 Assigns vector component data to the current instance of `XMDECN4`.
 
-Assigns vector component data to the current instance of [**XMDECN4**](https://msdn.microsoft.com/library/Ee419440(v=VS.85).aspx).
+Assigns vector component data to the current instance of [**XMDECN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmdecn4).
 
 ### Overload list
 
@@ -36,8 +36,8 @@ Assigns vector component data to the current instance of [**XMDECN4**](https://m
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmdecn4-operator-assign(uint32_t)"><strong>XMDECN4::operator = (const XMDECN4&)</strong></a></td>
-<td style="text-align: left;">Assigns the vector component data from one instance of <code>XMDECN4</code> to the current instance of <code>XMDECN4</code>. <br/> This operator assigns the vector component data from one instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4"><strong>XMDECN4</strong></a> to the current instance of <code>XMDECN4</code>. <br/>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmdecn4-operator-assign(uint32_t)"><strong>XMDECN4::operator = (const XMDECN4&)</strong></a></td>
+<td style="text-align: left;">Assigns the vector component data from one instance of <code>XMDECN4</code> to the current instance of <code>XMDECN4</code>. <br/> This operator assigns the vector component data from one instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4"><strong>XMDECN4</strong></a> to the current instance of <code>XMDECN4</code>. <br/>
 <blockquote>
 [!Note]<br />
 This operator is only available under C++.
@@ -45,8 +45,8 @@ This operator is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmdecn4-operator-assign(uint32_t)"><strong>XMDECN4::operator = (const uint32_t)</strong></a></td>
-<td style="text-align: left;">Assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <code>XMDECN4</code>. <br/> This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4"><strong>XMDECN4</strong></a>. <br/>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmdecn4-operator-assign(uint32_t)"><strong>XMDECN4::operator = (const uint32_t)</strong></a></td>
+<td style="text-align: left;">Assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <code>XMDECN4</code>. <br/> This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4"><strong>XMDECN4</strong></a>. <br/>
 <blockquote>
 [!Note]<br />
 This operator is only available under C++.
@@ -68,13 +68,9 @@ This operator is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMDECN4**](https://msdn.microsoft.com/library/Ee419440(v=VS.85).aspx)
+[**XMDECN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmdecn4)
 </dt> </dl>
 
  
 
  
-
-
-
-

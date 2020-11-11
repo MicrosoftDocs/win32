@@ -104,10 +104,10 @@ Internally, the tessellator operates in two phases:
 
 | Type of Partitioning | Range                       |
 |----------------------|-----------------------------|
-| Fractional\_odd      | \[1...63\]                  |
-| Fractional\_even     | TessFactor range: \[2..64\] |
-| Integer              | TessFactor range: \[1..64\] |
-| Pow2                 | TessFactor range: \[1..64\] |
+| fractional\_odd      | \[1...63\]                  |
+| fractional\_even     | TessFactor range: \[2..64\] |
+| integer              | TessFactor range: \[1..64\] |
+| pow2                 | TessFactor range: \[1..64\] |
 
 
 
@@ -150,7 +150,7 @@ void main( out    MyDSOutput result,
 
 Tessellation is implemented with two new programmable shader stages: a hull shader and a domain shader. These new shader stages are programmed with HLSL code that is defined in shader model 5. The new shader targets are: hs\_5\_0 and ds\_5\_0. Like all programmable shader stages, code for the hardware is extracted from compiled shaders passed into the runtime when shaders are bound to the pipeline using APIs such as [**DSSetShader**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-dssetshader) and [**HSSetShader**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-hssetshader). But first, the shader must be created using APIs such as [**CreateHullShader**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-createhullshader) and [**CreateDomainShader**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-createdomainshader).
 
-Enable tessellation by creating a hull shader and binding it to the hull-shader stage (this automatically sets up the tessellator stage). To generate the final vertex positions from the tessellated patches, you will also need to create a domain shader and bind it to the domain-shader stage. Once tessellation is enabled, the data input to the input-assembler stage must be patch data. That is, the input assembler topology must be a patch constant topology from [**D3D11\_PRIMITIVE\_TOPOLOGY**](https://msdn.microsoft.com/library/Ff476189(v=VS.85).aspx) set with [**IASetPrimitiveTopology**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-iasetprimitivetopology).
+Enable tessellation by creating a hull shader and binding it to the hull-shader stage (this automatically sets up the tessellator stage). To generate the final vertex positions from the tessellated patches, you will also need to create a domain shader and bind it to the domain-shader stage. Once tessellation is enabled, the data input to the input-assembler stage must be patch data. That is, the input assembler topology must be a patch constant topology from [**D3D11\_PRIMITIVE\_TOPOLOGY**](/previous-versions/windows/desktop/legacy/ff476189(v=vs.85)) set with [**IASetPrimitiveTopology**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-iasetprimitivetopology).
 
 To disable tessellation, set the hull shader and the domain shader to **NULL**. Neither the geometry-shader stage nor the stream-output stage can read hull-shader output-control points or patch data.
 
@@ -208,10 +208,4 @@ The documentation also contains examples for initializing the tessellation stage
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

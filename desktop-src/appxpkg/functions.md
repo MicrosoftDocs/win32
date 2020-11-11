@@ -70,7 +70,7 @@ Learn about the package query API, which you can use to get info about the app p
 **Concepts**
 </dt> <dt>
 
-[App packages and deployment](https://docs.microsoft.com/previous-versions/windows/apps/hh464929(v=win.10))
+[App packages and deployment](/previous-versions/windows/apps/hh464929(v=win.10))
 </dt> <dt>
 
 [Glossary](appx-packaging-glossary.md)
@@ -79,7 +79,7 @@ Learn about the package query API, which you can use to get info about the app p
 **Reference**
 </dt> <dt>
 
-[App package manifest schema](https://docs.microsoft.com/uwp/schemas/appxpackage/appx-package-manifest)
+[App package manifest schema](/uwp/schemas/appxpackage/appx-package-manifest)
 </dt> <dt>
 
 [Packaging API](interfaces.md)
@@ -89,10 +89,4 @@ Learn about the package query API, which you can use to get info about the app p
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

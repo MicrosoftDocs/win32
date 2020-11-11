@@ -79,13 +79,9 @@ interface iface
 [**endpoint**](endpoint.md)
 </dt> <dt>
 
-[**string binding**](https://docs.microsoft.com/windows/desktop/Rpc/string-binding)
+[**string binding**](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
  
 
  
-
-
-
-

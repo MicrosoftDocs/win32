@@ -10,15 +10,29 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients** - Windows 7  
+**Clients** - Windows 7  
 **Servers** - Windows Server 2008 R2  
-</dl>
+
+
+
+
+
+
+
+
 
 ## Feature Impact
 
-<dl> **Severity** - High  
+**Severity** - High  
 **Frequency** - High  
-</dl>
+
+
+
+
+
+
+
+
 
 ## Description
 
@@ -60,12 +74,9 @@ Do not design code that calls the Windows Mail UI API, since it will not work. Y
 
 <dl>
 
-[Application Compatibility Toolkit Download](https://docs.microsoft.com/windows-hardware/get-started/adk-install)  
+[Application Compatibility Toolkit Download](/windows-hardware/get-started/adk-install)  
 </dl>
 
  
 
  
-
-
-

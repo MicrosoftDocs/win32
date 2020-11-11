@@ -51,7 +51,7 @@ public override int GetHashCode()
 
 #### Return value
 
-Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+Type: [System.Int32](/dotnet/api/system.int32)  
 The hash code for this instance.  
 
 ## See also
@@ -63,4 +63,3 @@ The hash code for this instance.
 [JET_INSTANCE members](hh565454\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

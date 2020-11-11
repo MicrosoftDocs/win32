@@ -92,7 +92,7 @@ This section describes the DirectShow structures.
 | [**REGPINTYPES**](/windows/desktop/api/strmif/ns-strmif-regpintypes)                                          | Contains media type information for registering a filter.                                                                                                                                                             |
 | [**STREAM\_ID\_MAP**](/windows/desktop/api/strmif/ns-strmif-stream_id_map)                                    | Contains information about an elementary stream within an MPEG-2 program stream.                                                                                                                                      |
 | [**TIMECODE**](/windows/win32/api/strmif/ns-strmif-timecode)                                                | Contains basic timecode frame count information.                                                                                                                                                                      |
-| [**TIMECODE\_SAMPLE**](https://msdn.microsoft.com/library/Dd407197(v=VS.85).aspx)                                 | Contains complete timecode information.                                                                                                                                                                               |
+| [**TIMECODE\_SAMPLE**](/windows/win32/api/strmif/ns-strmif-timecode_sample)                                 | Contains complete timecode information.                                                                                                                                                                               |
 | [**TRUECOLORINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-truecolorinfo)                             | Maintains color information.                                                                                                                                                                                          |
 | [**VIDEO\_STREAM\_CONFIG\_CAPS**](/windows/win32/api/strmif/ns-strmif-video_stream_config_caps)             | Contains information about possible connections.                                                                                                                                                                      |
 | [**VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo)                                              | Contains information that specifies a video image and its color palette and bitmasks.                                                                                                                                 |
@@ -115,7 +115,7 @@ This section describes the DirectShow structures.
 | [**VMRMONITORINFO**](/windows/win32/api/strmif/ns-strmif-vmrmonitorinfo)                                    | Used to set and retrieve information about monitors on the system. (VMR-7.)                                                                                                                                           |
 | [**VMRPRESENTATIONINFO**](/windows/win32/api/strmif/ns-strmif-vmrpresentationinfo)                          | Used to present video frame information. (VMR-7.)                                                                                                                                                                     |
 | [**VMRVIDEOSTREAMINFO**](/windows/win32/api/strmif/ns-strmif-vmrvideostreaminfo)                            | Contains video stream information that is used in the Video Mixing Renderer filter call to the [**IVMRImageCompositor::CompositeImage**](/windows/desktop/api/Strmif/nf-strmif-ivmrimagecompositor-compositeimage) method. (VMR-7.)                     |
-| [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx)                                        | Defines the format of waveform-audio data.                                                                                                                                                                            |
+| [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85))                                        | Defines the format of waveform-audio data.                                                                                                                                                                            |
 | [**WAVEFORMATEXTENSIBLE**](/windows/desktop/api/MMReg/ns-mmreg-waveformatextensible)                        | Defines the format of waveform-audio data for formats having more than two channels.                                                                                                                                  |
 
 
@@ -132,6 +132,3 @@ This section describes the DirectShow structures.
  
 
  
-
-
-

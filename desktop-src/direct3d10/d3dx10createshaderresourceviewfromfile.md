@@ -52,7 +52,7 @@ A pointer to the device (see [**ID3D10Device Interface**](/windows/desktop/api/D
 *pSrcFile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 Name of the file that contains the shader-resource view. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR.
 
@@ -128,7 +128,3 @@ For a list of supported image formats, see [**D3DX10\_IMAGE\_FILE\_FORMAT**](d3d
  
 
  
-
-
-
-

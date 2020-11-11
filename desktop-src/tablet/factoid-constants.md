@@ -58,7 +58,7 @@ A fully qualified email address, such as &quot;someone@example.com&quot;, must b
 <tr class="even">
 <td style="text-align: left;"><span id="FACTOID_WEB"></span><span id="factoid_web"></span><dl> <dt><strong>FACTOID_WEB</strong></dt> </dl></td>
 <td style="text-align: left;">Indicates to a recognizer to look for a Web address.<br/>
-<pre class="syntax" data-space="preserve"><code>https://www.adatum.com</code></pre></td>
+<pre class="syntax" data-space="preserve"><code>`https://www.adatum.com`</code></pre></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="___________FACTOID_ONECHAR_________"></span><span id="___________factoid_onechar_________"></span><dl> <dt> <strong>FACTOID_ONECHAR</strong> </dt> </dl></td>
@@ -222,7 +222,7 @@ In C++, you can access these constants in the Msinkaut.h header file, which is l
  
 
 > [!Note]  
-> For recognizers of Latin script, the factoids defined in this class are provided for backward compatibility only. For new development, you are encouraged to use the values defined in the [SetInputScope](https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscope) function. For details, see [Using Context to Improve Accuracy](using-context-to-improve-accuracy.md).
+> For recognizers of Latin script, the factoids defined in this class are provided for backward compatibility only. For new development, you are encouraged to use the values defined in the [SetInputScope](/windows/desktop/api/inputscope/nf-inputscope-setinputscope) function. For details, see [Using Context to Improve Accuracy](using-context-to-improve-accuracy.md).
 
  
 
@@ -285,9 +285,4 @@ Alternatively, you can set this property with the actual factoid string constant
 </dt> </dl>
 
  
-
- 
-
-
-
 

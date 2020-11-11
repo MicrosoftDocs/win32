@@ -38,7 +38,7 @@ HRESULT SetGLLines(
 *bGLLines* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Toggles OpenGL-style line drawing. **TRUE** enables OpenGL-style lines, and **FALSE** enables Direct3D-style lines.
 
@@ -71,7 +71,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

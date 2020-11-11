@@ -61,7 +61,7 @@ Data type: **CIM\_OperatingSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
+Qualifiers: [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
 </dt> </dl>
 
 A [**CIM\_OperatingSystem**](cim-operatingsystem.md) describing the operating system.
@@ -77,7 +77,7 @@ Data type: **CIM\_Process**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent"), [**Weak**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent"), [**Weak**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 A [**CIM\_Process**](cim-process.md) describing the process running in the context of the operating system
@@ -112,9 +112,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The **WLAN\_REASON\_CODE** type indicates the reason a WLAN operation has failed.
 
-You can use the [**WlanReasonCodeToString**](/windows/desktop/api/wlanapi/nf-wlanapi-wlanreasoncodetostring) function to map a numeric reason code (for example, 0x00050007) to its text meaning. You can also use the lookup table to help interpret the numeric value of the reason code. To view the lookup table, see Appendix E: Mapping of reason codes to event messages in the document [Troubleshooting Windows Vista 802.11 Wireless Connections](https://technet.microsoft.com/library/3ed3d027-5ae8-4cb0-ade5-0a7c446cd4f7).
+You can use the [**WlanReasonCodeToString**](/windows/desktop/api/wlanapi/nf-wlanapi-wlanreasoncodetostring) function to map a numeric reason code (for example, 0x00050007) to its text meaning. You can also use the lookup table to help interpret the numeric value of the reason code. To view the lookup table, see Appendix E: Mapping of reason codes to event messages in the document [Troubleshooting Windows Vista 802.11 Wireless Connections](/previous-versions/windows/it-pro/windows-vista/cc766215(v=ws.10)).
 
 
 ```C++
@@ -199,7 +199,7 @@ The following table lists MSM security error codes.
 | WLAN\_REASON\_CODE\_MSMSEC\_PROFILE\_UNSUPPORTED\_AUTH                  | Profile specifies an unsupported authentication ,mechanism.                                                                                                                               |
 | WLAN\_REASON\_CODE\_MSMSEC\_PROFILE\_UNSUPPORTED\_CIPHER                | Profile specifies an unsupported cipher.                                                                                                                                                  |
 | WLAN\_REASON\_CODE\_MSMSEC\_UI\_REQUEST\_FAILURE                        | Failed to queue the user interface request.                                                                                                                                               |
-| WLAN\_REASON\_CODE\_MSMSEC\_CAPABILITY\_MFP\_NW\_NIC                    | The wireless LAN requires Management Frame Protection (MFP) and the network interface does not suppport MFP. For more informarion, see the IEEE 802.11w amendment to the 802.11 standard. |
+| WLAN\_REASON\_CODE\_MSMSEC\_CAPABILITY\_MFP\_NW\_NIC                    | The wireless LAN requires Management Frame Protection (MFP) and the network interface does not support MFP. For more information, see the IEEE 802.11w amendment to the 802.11 standard. |
 
 
 
@@ -322,7 +322,3 @@ The 802.1x error codes supported on Windows XP with SP3 and on the Wireless LAN
  
 
  
-
-
-
-

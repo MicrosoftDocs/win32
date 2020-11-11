@@ -138,7 +138,7 @@ This method has no return values. If successful, the sink receives an [**OnObjec
 
 ## Error codes
 
-After the completion of the **ExecQueryAsync** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object can contain one of the error codes in the following list.
+After the completion of the **ExecQueryAsync** method, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object can contain one of the error codes in the following list.
 
 <dl> <dt>
 
@@ -224,9 +224,4 @@ There are limits to the number of **AND** and **OR** keywords that can be used i
 </dt> </dl>
 
  
-
- 
-
-
-
 

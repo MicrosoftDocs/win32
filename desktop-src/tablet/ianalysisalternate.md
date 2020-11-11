@@ -21,7 +21,7 @@ Represents the possible handwriting recognition word matches for [**IContextNode
 
 ## Members
 
-The **IAnalysisAlternate** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IAnalysisAlternate** also has these types of members:
+The **IAnalysisAlternate** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IAnalysisAlternate** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -48,7 +48,7 @@ There are many variations in users' handwriting. For that reason, handwriting re
 
 **IAnalysisAlternate** objects are generally obtained through [**IInkAnalyzer::GetAlternates Method**](iinkanalyzer-getalternates.md). The first **IAnalysisAlternate** object in the collection is what the [**IInkAnalyzer**](iinkanalyzer.md) considers to be the most likely alternate.
 
-This interface is equivalent to [System.Windows.Ink.AnalysisCore.AnalysisAlternateBase](https://msdn.microsoft.com/library/ms610092(v=VS.90).aspx) in the .NET Framework.
+This interface is equivalent to [System.Windows.Ink.AnalysisCore.AnalysisAlternateBase](/previous-versions/ms610092(v=vs.100)) in the .NET Framework.
 
 ## Requirements
 
@@ -83,9 +83,4 @@ This interface is equivalent to [System.Windows.Ink.AnalysisCore.AnalysisAlterna
 </dt> </dl>
 
  
-
- 
-
-
-
 

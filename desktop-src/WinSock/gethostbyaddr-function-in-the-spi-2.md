@@ -15,7 +15,7 @@ The [**WSALookupServiceBegin**](/windows/desktop/api/Winsock2/nf-winsock2-wsaloo
 | Flag              | Description                                                                                                                                                  |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | LUP\_RETURN\_NAME | Returns the **h\_name** member from [**HOSTENT**](/windows/desktop/api/winsock/ns-winsock-hostent) structure in *lpszServiceInstanceName*.                                                     |
-| LUP\_RETURN\_ADDR | Returns addressing information from [**HOSTENT**](/windows/desktop/api/winsock/ns-winsock-hostent) in [**CSADDR\_INFO**](https://msdn.microsoft.com/library/ms737640(v=VS.85).aspx) structures, port information is defaulted to zero. |
+| LUP\_RETURN\_ADDR | Returns addressing information from [**HOSTENT**](/windows/desktop/api/winsock/ns-winsock-hostent) in [**CSADDR\_INFO**](/windows/win32/api/ws2def/ns-ws2def-csaddr_info) structures, port information is defaulted to zero. |
 
 
 
@@ -24,6 +24,3 @@ The [**WSALookupServiceBegin**](/windows/desktop/api/Winsock2/nf-winsock2-wsaloo
  
 
  
-
-
-

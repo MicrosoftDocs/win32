@@ -35,73 +35,73 @@ That said, the following virtual-key codes do map to ASCII equivalents:
 
 In some respects this mapping is unfortunate, because you should never think of virtual-key codes as characters, for the reasons discussed.
 
-The header file WinUser.h defines constants for most of the virtual-key codes. For example, the virtual-key code for the LEFT ARROW key is **VK\_LEFT** (0x25). For the complete list of virtual-key codes, see [**Virtual-Key Codes**](https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes). No constants are defined for the virtual-key codes that match ASCII values. For example, the virtual-key code for the A key is 0x41, but there is no constant named **VK\_A**. Instead, just use the numeric value.
+The header file WinUser.h defines constants for most of the virtual-key codes. For example, the virtual-key code for the LEFT ARROW key is **VK\_LEFT** (0x25). For the complete list of virtual-key codes, see [**Virtual-Key Codes**](/windows/desktop/inputdev/virtual-key-codes). No constants are defined for the virtual-key codes that match ASCII values. For example, the virtual-key code for the A key is 0x41, but there is no constant named **VK\_A**. Instead, just use the numeric value.
 
 ## Key-Down and Key-Up Messages
 
 When you press a key, the window that has keyboard focus receives one of the following messages.
 
--   [**WM\_SYSKEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeydown)
--   [**WM\_KEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown)
+-   [**WM\_SYSKEYDOWN**](/windows/desktop/inputdev/wm-syskeydown)
+-   [**WM\_KEYDOWN**](/windows/desktop/inputdev/wm-keydown)
 
-The [**WM\_SYSKEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeydown) message indicates a *system key*, which is a key stroke that invokes a system command. There are two types of system key:
+The [**WM\_SYSKEYDOWN**](/windows/desktop/inputdev/wm-syskeydown) message indicates a *system key*, which is a key stroke that invokes a system command. There are two types of system key:
 
 -   ALT + any key
 -   F10
 
 The F10 key activates the menu bar of a window. Various ALT-key combinations invoke system commands. For example, ALT + TAB switches to a new window. In addition, if a window has a menu, the ALT key can be used to activate menu items. Some ALT key combinations do not do anything.
 
-All other key strokes are considered nonsystem keys and produce the [**WM\_KEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown) message. This includes the function keys other than F10.
+All other key strokes are considered nonsystem keys and produce the [**WM\_KEYDOWN**](/windows/desktop/inputdev/wm-keydown) message. This includes the function keys other than F10.
 
 When you release a key, the system sends a corresponding key-up message:
 
--   [**WM\_KEYUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup)
--   [**WM\_SYSKEYUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeyup)
+-   [**WM\_KEYUP**](/windows/desktop/inputdev/wm-keyup)
+-   [**WM\_SYSKEYUP**](/windows/desktop/inputdev/wm-syskeyup)
 
 If you hold down a key long enough to start the keyboard's repeat feature, the system sends multiple key-down messages, followed by a single key-up message.
 
 In all four of the keyboard messages discussed so far, the *wParam* parameter contains the virtual-key code of the key. The *lParam* parameter contains some miscellaneous information packed into 32 bits. You typically do not need the information in *lParam*. One flag that might be useful is bit 30, the "previous key state" flag, which is set to 1 for repeated key-down messages.
 
-As the name implies, system key strokes are primarily intended for use by the operating system. If you intercept the [**WM\_SYSKEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeydown) message, call [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) afterward. Otherwise, you will block the operating system from handling the command.
+As the name implies, system key strokes are primarily intended for use by the operating system. If you intercept the [**WM\_SYSKEYDOWN**](/windows/desktop/inputdev/wm-syskeydown) message, call [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) afterward. Otherwise, you will block the operating system from handling the command.
 
 ## Character Messages
 
-Key strokes are converted into characters by the [**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage) function, which we first saw in [Module 1](your-first-windows-program.md). This function examines key-down messages and translates them into characters. For each character that is produced, the **TranslateMessage** function puts a [**WM\_CHAR**](https://docs.microsoft.com/windows/desktop/inputdev/wm-char) or [**WM\_SYSCHAR**](https://docs.microsoft.com/windows/desktop/menurc/wm-syschar) message on the message queue of the window. The *wParam* parameter of the message contains the UTF-16 character.
+Key strokes are converted into characters by the [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage) function, which we first saw in [Module 1](your-first-windows-program.md). This function examines key-down messages and translates them into characters. For each character that is produced, the **TranslateMessage** function puts a [**WM\_CHAR**](/windows/desktop/inputdev/wm-char) or [**WM\_SYSCHAR**](/windows/desktop/menurc/wm-syschar) message on the message queue of the window. The *wParam* parameter of the message contains the UTF-16 character.
 
-As you might guess, [**WM\_CHAR**](https://docs.microsoft.com/windows/desktop/inputdev/wm-char) messages are generated from [**WM\_KEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown) messages, while [**WM\_SYSCHAR**](https://docs.microsoft.com/windows/desktop/menurc/wm-syschar) messages are generated from [**WM\_SYSKEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeydown) messages. For example, suppose the user presses the SHIFT key followed by the A key. Assuming a standard keyboard layout, you would get the following sequence of messages:
+As you might guess, [**WM\_CHAR**](/windows/desktop/inputdev/wm-char) messages are generated from [**WM\_KEYDOWN**](/windows/desktop/inputdev/wm-keydown) messages, while [**WM\_SYSCHAR**](/windows/desktop/menurc/wm-syschar) messages are generated from [**WM\_SYSKEYDOWN**](/windows/desktop/inputdev/wm-syskeydown) messages. For example, suppose the user presses the SHIFT key followed by the A key. Assuming a standard keyboard layout, you would get the following sequence of messages:
 
-<dl> **WM\_KEYDOWN**: SHIFT  
+WM\_KEYDOWN**: SHIFT  
 **WM\_KEYDOWN**: A  
 **WM\_CHAR**: 'A'  
-</dl>
+
 
 On the other hand, the combination ALT + P would generate:
 
-<dl> **WM\_SYSKEYDOWN**: VK\_MENU  
+ **WM\_SYSKEYDOWN**: VK\_MENU  
 **WM\_SYSKEYDOWN**: 0x50  
 **WM\_SYSCHAR**: 'p'  
 **WM\_SYSKEYUP**: 0x50  
 **WM\_KEYUP**: VK\_MENU  
-</dl>
+
 
 (The virtual-key code for the ALT key is named VK\_MENU for historical reasons.)
 
-The [**WM\_SYSCHAR**](https://docs.microsoft.com/windows/desktop/menurc/wm-syschar) message indicates a system character. As with [**WM\_SYSKEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeydown), you should generally pass this message directly to [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca). Otherwise, you may interfere with standard system commands. In particular, do not treat **WM\_SYSCHAR** as text that the user has typed.
+The [**WM\_SYSCHAR**](/windows/desktop/menurc/wm-syschar) message indicates a system character. As with [**WM\_SYSKEYDOWN**](/windows/desktop/inputdev/wm-syskeydown), you should generally pass this message directly to [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca). Otherwise, you may interfere with standard system commands. In particular, do not treat **WM\_SYSCHAR** as text that the user has typed.
 
-The [**WM\_CHAR**](https://docs.microsoft.com/windows/desktop/inputdev/wm-char) message is what you normally think of as character input. The data type for the character is **wchar\_t**, representing a UTF-16 Unicode character. Character input can include characters outside the ASCII range, especially with keyboard layouts that are commonly used outside of the United States. You can try different keyboard layouts by installing a regional keyboard and then using the On-Screen Keyboard feature.
+The [**WM\_CHAR**](/windows/desktop/inputdev/wm-char) message is what you normally think of as character input. The data type for the character is **wchar\_t**, representing a UTF-16 Unicode character. Character input can include characters outside the ASCII range, especially with keyboard layouts that are commonly used outside of the United States. You can try different keyboard layouts by installing a regional keyboard and then using the On-Screen Keyboard feature.
 
 Users can also install an Input Method Editor (IME) to enter complex scripts, such as Japanese characters, with a standard keyboard. For example, using a Japanese IME to enter the katakana character カ (ka), you might get the following messages:
 
-<dl> **WM\_KEYDOWN**: VK\_PROCESSKEY (the IME PROCESS key)  
+**WM\_KEYDOWN**: VK\_PROCESSKEY (the IME PROCESS key)  
 **WM\_KEYUP**: 0x4B  
 **WM\_KEYDOWN**: VK\_PROCESSKEY  
 **WM\_KEYUP**: 0x41  
 **WM\_KEYDOWN**: VK\_PROCESSKEY  
 **WM\_CHAR**: カ  
 **WM\_KEYUP**: VK\_RETURN  
-</dl>
 
-Some CTRL key combinations are translated into ASCII control characters. For example, CTRL+A is translated to the ASCII ctrl-A (SOH) character (ASCII value 0x01). For text input, you should generally filter out the control characters. Also, avoid using [**WM\_CHAR**](https://docs.microsoft.com/windows/desktop/inputdev/wm-char) to implement keyboard shortcuts. Instead, use [**WM\_KEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown) messages; or even better, use an accelerator table. Accelerator tables are described in the next topic, [Accelerator Tables](accelerator-tables.md).
+
+Some CTRL key combinations are translated into ASCII control characters. For example, CTRL+A is translated to the ASCII ctrl-A (SOH) character (ASCII value 0x01). For text input, you should generally filter out the control characters. Also, avoid using [**WM\_CHAR**](/windows/desktop/inputdev/wm-char) to implement keyboard shortcuts. Instead, use [**WM\_KEYDOWN**](/windows/desktop/inputdev/wm-keydown) messages; or even better, use an accelerator table. Accelerator tables are described in the next topic, [Accelerator Tables](accelerator-tables.md).
 
 The following code displays the main keyboard messages in the debugger. Try playing with different keystroke combinations and see what messages are generated.
 
@@ -155,15 +155,15 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 
 Some other keyboard messages can safely be ignored by most applications.
 
--   The [**WM\_DEADCHAR**](https://docs.microsoft.com/windows/desktop/inputdev/wm-deadchar) message is sent for a combining key, such as a diacritic. For example, on a Spanish language keyboard, typing accent (') followed by E produces the character é. The **WM\_DEADCHAR** is sent for the accent character.
--   The [**WM\_UNICHAR**](https://docs.microsoft.com/windows/desktop/inputdev/wm-unichar) message is obsolete. It enables ANSI programs to receive Unicode character input.
--   The [**WM\_IME\_CHAR**](https://docs.microsoft.com/windows/desktop/Intl/wm-ime-char) character is sent when an IME translates a keystroke sequence into characters. It is sent in addition to the usual [**WM\_CHAR**](https://docs.microsoft.com/windows/desktop/inputdev/wm-char) message.
+-   The [**WM\_DEADCHAR**](/windows/desktop/inputdev/wm-deadchar) message is sent for a combining key, such as a diacritic. For example, on a Spanish language keyboard, typing accent (') followed by E produces the character é. The **WM\_DEADCHAR** is sent for the accent character.
+-   The [**WM\_UNICHAR**](/windows/desktop/inputdev/wm-unichar) message is obsolete. It enables ANSI programs to receive Unicode character input.
+-   The [**WM\_IME\_CHAR**](/windows/desktop/Intl/wm-ime-char) character is sent when an IME translates a keystroke sequence into characters. It is sent in addition to the usual [**WM\_CHAR**](/windows/desktop/inputdev/wm-char) message.
 
 ## Keyboard State
 
-The keyboard messages are event-driven. That is, you get a message when something interesting happens, such as a key press, and the message tells you what just happened. But you can also test the state of a key at any time, by calling the [**GetKeyState**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate) function.
+The keyboard messages are event-driven. That is, you get a message when something interesting happens, such as a key press, and the message tells you what just happened. But you can also test the state of a key at any time, by calling the [**GetKeyState**](/windows/desktop/api/winuser/nf-winuser-getkeystate) function.
 
-For example, consider how would you detect the combination of left mouse click + ALT key. You could track the state of the ALT key by listening for key-stroke messages and storing a flag, but [**GetKeyState**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate) saves you the trouble. When you receive the [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown) message, just call **GetKeyState** as follows:
+For example, consider how would you detect the combination of left mouse click + ALT key. You could track the state of the ALT key by listening for key-stroke messages and storing a flag, but [**GetKeyState**](/windows/desktop/api/winuser/nf-winuser-getkeystate) saves you the trouble. When you receive the [**WM\_LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown) message, just call **GetKeyState** as follows:
 
 
 ```C++
@@ -175,9 +175,9 @@ if (GetKeyState(VK_MENU) & 0x8000))
 
 
 
-The [**GetKeyState**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate) message takes a virtual-key code as input and returns a set of bit flags (actually just two flags). The value 0x8000 contains the bit flag that tests whether the key is currently pressed.
+The [**GetKeyState**](/windows/desktop/api/winuser/nf-winuser-getkeystate) message takes a virtual-key code as input and returns a set of bit flags (actually just two flags). The value 0x8000 contains the bit flag that tests whether the key is currently pressed.
 
-Most keyboards have two ALT keys, left and right. The previous example tests whether either of them of pressed. You can also use [**GetKeyState**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate) to distinguish between the left and right instances of the ALT, SHIFT, or CTRL keys. For example, the following code tests if the right ALT key is pressed.
+Most keyboards have two ALT keys, left and right. The previous example tests whether either of them of pressed. You can also use [**GetKeyState**](/windows/desktop/api/winuser/nf-winuser-getkeystate) to distinguish between the left and right instances of the ALT, SHIFT, or CTRL keys. For example, the following code tests if the right ALT key is pressed.
 
 
 ```C++
@@ -189,9 +189,9 @@ if (GetKeyState(VK_RMENU) & 0x8000))
 
 
 
-The [**GetKeyState**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate) function is interesting because it reports a *virtual* keyboard state. This virtual state is based on the contents of your message queue, and gets updated as you remove messages from the queue. As your program processes window messages, **GetKeyState** gives you a snapshot of the keyboard at the time that each message was queued. For example, if the last message on the queue was [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown), **GetKeyState** reports the keyboard state at the moment when the user clicked the mouse button.
+The [**GetKeyState**](/windows/desktop/api/winuser/nf-winuser-getkeystate) function is interesting because it reports a *virtual* keyboard state. This virtual state is based on the contents of your message queue, and gets updated as you remove messages from the queue. As your program processes window messages, **GetKeyState** gives you a snapshot of the keyboard at the time that each message was queued. For example, if the last message on the queue was [**WM\_LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown), **GetKeyState** reports the keyboard state at the moment when the user clicked the mouse button.
 
-Because [**GetKeyState**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate) is based on your message queue, it also ignores keyboard input that was sent to another program. If the user switches to another program, any key presses that are sent to that program are ignored by **GetKeyState**. If you really want to know the immediate physical state of the keyboard, there is a function for that: [**GetAsyncKeyState**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getasynckeystate). For most UI code, however, the correct function is **GetKeyState**.
+Because [**GetKeyState**](/windows/desktop/api/winuser/nf-winuser-getkeystate) is based on your message queue, it also ignores keyboard input that was sent to another program. If the user switches to another program, any key presses that are sent to that program are ignored by **GetKeyState**. If you really want to know the immediate physical state of the keyboard, there is a function for that: [**GetAsyncKeyState**](/windows/desktop/api/winuser/nf-winuser-getasynckeystate). For most UI code, however, the correct function is **GetKeyState**.
 
 ## Next
 
@@ -200,7 +200,3 @@ Because [**GetKeyState**](https://docs.microsoft.com/windows/desktop/api/winuser
  
 
  
-
-
-
-

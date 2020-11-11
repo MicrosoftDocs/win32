@@ -9,27 +9,27 @@ ms.date: 05/31/2018
 
 # IPv6 and IPv4 Support in WMI
 
-WMI [IP Route Provider](https://docs.microsoft.com/previous-versions/windows/desktop/wmiiprouteprov/ip-route-provider) and network classes supply data for IPv4 addresses. Starting with Windows Vista, WMI also provides limited support for IPv6 network capabilities.
+WMI [IP Route Provider](/previous-versions/windows/desktop/wmiiprouteprov/ip-route-provider) and network classes supply data for IPv4 addresses. Starting with Windows Vista, WMI also provides limited support for IPv6 network capabilities.
 
 ## WMI IP Data
 
 The following classes supply only IPv4 data:
 
--   [**Win32\_IP4RouteTable**](https://docs.microsoft.com/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4routetable)
--   [**Win32\_IP4PersistedRouteTable**](https://docs.microsoft.com/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4persistedroutetable)
--   [**Win32\_IP4RouteTableEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4routetableevent)
--   [**Win32\_ActiveRoute**](https://docs.microsoft.com/previous-versions/windows/desktop/wmiiprouteprov/win32-activeroute)
--   [**Win32\_NetworkAdapter**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkadapter)
+-   [**Win32\_IP4RouteTable**](/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4routetable)
+-   [**Win32\_IP4PersistedRouteTable**](/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4persistedroutetable)
+-   [**Win32\_IP4RouteTableEvent**](/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4routetableevent)
+-   [**Win32\_ActiveRoute**](/previous-versions/windows/desktop/wmiiprouteprov/win32-activeroute)
+-   [**Win32\_NetworkAdapter**](/windows/desktop/CIMWin32Prov/win32-networkadapter)
 
 The following classes supply data for both IPv4 and IPv6.
 
--   [**Win32\_NetworkAdapterConfiguration**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkadapterconfiguration)
+-   [**Win32\_NetworkAdapterConfiguration**](/windows/desktop/CIMWin32Prov/win32-networkadapterconfiguration)
 
     The **IpAddess** property contains the IPv6 address of the computer in an IPv6 network.
 
--   [**Win32\_PingStatus**](https://docs.microsoft.com/previous-versions/windows/desktop/wmipicmp/win32-pingstatus)
+-   [**Win32\_PingStatus**](/previous-versions/windows/desktop/wmipicmp/win32-pingstatus)
 
-    [**Win32\_PingStatus**](https://docs.microsoft.com/previous-versions/windows/desktop/wmipicmp/win32-pingstatus) can return data for either IPv4 or IPv6 addresses.
+    [**Win32\_PingStatus**](/previous-versions/windows/desktop/wmipicmp/win32-pingstatus) can return data for either IPv4 or IPv6 addresses.
 
 ## IPv4 and IPv6 Connections to WMI
 
@@ -49,6 +49,3 @@ A computer that runs both IPv4 and IPv6 and connects to a target computer runnin
  
 
  
-
-
-

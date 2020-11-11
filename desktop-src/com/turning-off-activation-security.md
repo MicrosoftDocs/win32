@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Turning Off Activation Security
 
-Normally, activation uses default security settings. However, you can control activation security by specifying a [**COAUTHINFO**](/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthinfo) structure, which is a member of the [**COSERVERINFO**](https://msdn.microsoft.com/library/ms687322(v=VS.85).aspx) structure that is passed to the activation functions. If the client specifies an authentication level of RPC\_C\_AUTHN\_LEVEL\_NONE in the **COAUTHINFO** structure, authentication is not attempted. Otherwise, secure activation is attempted, and if authentication fails, activation fails.
+Normally, activation uses default security settings. However, you can control activation security by specifying a [**COAUTHINFO**](/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthinfo) structure, which is a member of the [**COSERVERINFO**](/windows/win32/api/objidlbase/ns-objidlbase-coserverinfo) structure that is passed to the activation functions. If the client specifies an authentication level of RPC\_C\_AUTHN\_LEVEL\_NONE in the **COAUTHINFO** structure, authentication is not attempted. Otherwise, secure activation is attempted, and if authentication fails, activation fails.
 
 If the client does not specify an explicit [**COAUTHINFO**](/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthinfo) structure and instead sets the pointer to **NULL**, COM will attempt to authenticate the client. If it cannot authenticate the client, COM checks the launch permission security descriptor to see whether there is a **NULL** DACL or an ACL that allows access to Everyone. If this check succeeds, the server is launched. Therefore, even if the client does not specify a **COAUTHINFO**structure, unsecure activation may take place when the server allows it.
 
@@ -21,8 +21,8 @@ Why would a client want to turn off activation security explicitly even though u
 
 The following things must be done to explicitly turn off activation security:
 
--   The client must specify an authentication level of RPC\_C\_AUTHN\_LEVEL\_NONE in the [**COAUTHINFO**](/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthinfo) structure that is a member of the [**COSERVERINFO**](https://msdn.microsoft.com/library/ms687322(v=VS.85).aspx) structure supplied to the activation function.
--   The client must specify an impersonation level of RPC\_C\_IMP\_LEVEL\_IMPERSONATE in the [**COAUTHINFO**](/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthinfo) structure that is a member of the [**COSERVERINFO**](https://msdn.microsoft.com/library/ms687322(v=VS.85).aspx) structure supplied to the activation function. If this value is not passed, you will get RPC\_S\_SERVER\_UNAVAILABLE.
+-   The client must specify an authentication level of RPC\_C\_AUTHN\_LEVEL\_NONE in the [**COAUTHINFO**](/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthinfo) structure that is a member of the [**COSERVERINFO**](/windows/win32/api/objidlbase/ns-objidlbase-coserverinfo) structure supplied to the activation function.
+-   The client must specify an impersonation level of RPC\_C\_IMP\_LEVEL\_IMPERSONATE in the [**COAUTHINFO**](/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthinfo) structure that is a member of the [**COSERVERINFO**](/windows/win32/api/objidlbase/ns-objidlbase-coserverinfo) structure supplied to the activation function. If this value is not passed, you will get RPC\_S\_SERVER\_UNAVAILABLE.
 -   The server must specify **Everyone** for **Default Launch Permissions**. The recommended way to perform this task is to use Dcomcnfg.exe as follows:
     1.  Run Dcomcnfg.exe.
     2.  On the **Applications** page, select the application that represents the server. Click the **Properties** button (or double-click the selected application).
@@ -48,7 +48,3 @@ The following things must be done to explicitly turn off activation security:
  
 
  
-
-
-
-

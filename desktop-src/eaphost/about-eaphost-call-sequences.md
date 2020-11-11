@@ -1,6 +1,6 @@
 ---
 title: EAPHost Call Sequence
-description: EAPHost Call Sequence
+description: Learn about EAPHost call sequences. These call sequences are Supplicant API, Peer Method API, Tunnel Method API, and Authenticator Method API.
 ms.assetid: 6bf379aa-34ab-40b6-9ca7-24bf44e7fed0
 ms.topic: article
 ms.date: 05/31/2018

@@ -36,7 +36,7 @@ lParam = 0;
 <span id="lpbiInput"></span><span id="lpbiinput"></span><span id="LPBIINPUT"></span>*lpbiInput*
 </dt> <dd>
 
-Pointer to a [**BITMAPINFO**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure containing the new format and optional color table.
+Pointer to a [**BITMAPINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure containing the new format and optional color table.
 
 </dd> </dl>
 
@@ -71,10 +71,4 @@ This message should be supported by installable rendering handlers that draw DIB
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

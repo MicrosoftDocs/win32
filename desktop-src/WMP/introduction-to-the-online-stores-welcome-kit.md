@@ -56,11 +56,7 @@ Obtain this document from the Windows Media Player Services Virtual Team at mpsv
 </dd> <dt>
 
 <span id="Windows_Media_Rights_Manager_License__if_using_DRM_"></span><span id="windows_media_rights_manager_license__if_using_drm_"></span><span id="WINDOWS_MEDIA_RIGHTS_MANAGER_LICENSE__IF_USING_DRM_"></span>Windows Media Rights Manager License (if using DRM)
-</dt> <dd>
-
-You can request a Windows Media Rights Manager License by using the [Microsoft License Request form](https://go.microsoft.com/?linkid=9742685).
-
-</dd> <dt>
+</dt>  <dt>
 
 <span id="Windows_Media_Format_SDK_License"></span><span id="windows_media_format_sdk_license"></span><span id="WINDOWS_MEDIA_FORMAT_SDK_LICENSE"></span>Windows Media Format SDK License
 </dt> <dd>

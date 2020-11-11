@@ -46,9 +46,9 @@ HRESULT D3DXLoadSurfaceFromResource(
 *pDestSurface* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DSURFACE9**](https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DSURFACE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dsurface9)**
 
-Pointer to an [**IDirect3DSurface9**](https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx) interface. Specifies the destination surface, which receives the image.
+Pointer to an [**IDirect3DSurface9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dsurface9) interface. Specifies the destination surface, which receives the image.
 
 </dd> <dt>
 
@@ -64,16 +64,16 @@ Pointer to a [**PALETTEENTRY**](/windows/win32/api/wingdi/ns-wingdi-paletteentry
 *pDestRect* \[in\]
 </dt> <dd>
 
-Type: **const [**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx)\***
+Type: **const [**RECT**](/previous-versions//dd162897(v=vs.85))\***
 
-Pointer to a [**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx) structure. Specifies the destination rectangle. Set this parameter to **NULL** to specify the entire surface.
+Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure. Specifies the destination rectangle. Set this parameter to **NULL** to specify the entire surface.
 
 </dd> <dt>
 
 *hSrcModule* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HMODULE**](../winprog/windows-data-types.md)**
 
 Handle to the module where the resource is located, or **NULL** for module associated with the image the operating system used to create the current process.
 
@@ -82,7 +82,7 @@ Handle to the module where the resource is located, or **NULL** for module assoc
 *pSrcResource* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 Pointer to a string that specifies the resource name. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the string data type resolves to LPCSTR. See Remarks.
 
@@ -91,16 +91,16 @@ Pointer to a string that specifies the resource name. If the compiler settings r
 *pSrcRect* \[in\]
 </dt> <dd>
 
-Type: **const [**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx)\***
+Type: **const [**RECT**](/previous-versions//dd162897(v=vs.85))\***
 
-Pointer to a [**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx) structure. Specifies the source rectangle. Set this parameter to **NULL** to specify the entire image.
+Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure. Specifies the source rectangle. Set this parameter to **NULL** to specify the entire image.
 
 </dd> <dt>
 
 *Filter* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Combination of one or more [D3DX\_FILTER](d3dx-filter.md) controlling how the image is filtered. Specifying D3DX\_DEFAULT for this parameter is the equivalent of specifying D3DX\_FILTER\_TRIANGLE \| D3DX\_FILTER\_DITHER.
 
@@ -138,7 +138,7 @@ The resource being loaded must be of type RT\_BITMAP or RT\_RCDATA. Resource typ
 
 This function handles conversion to and from compressed texture formats.
 
-Writing to a non-level-zero surface will not cause the dirty rectangle to be updated. If [**D3DXLoadSurfaceFromFile**](d3dxloadsurfacefromfile.md) is called and the surface was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**AddDirtyRect**](https://msdn.microsoft.com/library/Bb205910(v=VS.85).aspx) on the surface.
+Writing to a non-level-zero surface will not cause the dirty rectangle to be updated. If [**D3DXLoadSurfaceFromFile**](d3dxloadsurfacefromfile.md) is called and the surface was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**AddDirtyRect**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-adddirtyrect) on the surface.
 
 ## Requirements
 
@@ -161,7 +161,3 @@ Writing to a non-level-zero surface will not cause the dirty rectangle to be upd
  
 
  
-
-
-
-

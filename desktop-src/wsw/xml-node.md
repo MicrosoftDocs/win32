@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 An XML Node represents a single piece of XML, for example, a start element and its attributes, an end element, text, or "typed" text content such as an integer or byte array. The data in a node varies according to the [**WS\_XML\_NODE\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_xml_node_type).
 
-## 
 
 The following shows an example of an encoding specific xml document represented with encoding independent structures.
 
@@ -106,7 +105,7 @@ The following functions are used with XML nodes:
 The following macros are used with XML nodes:
 
 -   [**WS\_XML\_STRING\_DICTIONARY\_VALUE**](/windows/desktop/api/WebServices/nf-webservices-ws_xml_string_dictionary_value)
--   [**WS\_XML\_STRING\_NULL**](https://msdn.microsoft.com/library/Dd323562(v=VS.85).aspx)
+-   [**WS\_XML\_STRING\_NULL**](/previous-versions/windows/desktop/legacy/dd323562(v=vs.85))
 -   [**WS\_XML\_STRING\_VALUE**](/windows/desktop/api/WebServices/nf-webservices-ws_xml_string_value)
 
 The following structures are used with XML nodes:
@@ -140,7 +139,3 @@ The following structures are used with XML nodes:
  
 
  
-
-
-
-

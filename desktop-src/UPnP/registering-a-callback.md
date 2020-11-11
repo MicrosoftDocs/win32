@@ -13,7 +13,7 @@ If the application requires notification when the value of a state variable chan
 Developers should not cancel an asynchronous operation inside an asynchronous callback.
 
 > [!Note]  
-> Adding a callback in Visual Basic is different from the method used in VBScript. The **GetRef** function used in the VBScript is not available in Visual Basic. Therefore, a developer must create an [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) object that has the callback function as the default method. See [Registering a Callback in Visual Basic](registering-a-callback-in-visual-basic.md).
+> Adding a callback in Visual Basic is different from the method used in VBScript. The **GetRef** function used in the VBScript is not available in Visual Basic. Therefore, a developer must create an [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) object that has the callback function as the default method. See [Registering a Callback in Visual Basic](registering-a-callback-in-visual-basic.md).
 
  
 
@@ -186,7 +186,3 @@ HRESULT AddCallbackToService(IUPnPService* pUPnPService)
  
 
  
-
-
-
-

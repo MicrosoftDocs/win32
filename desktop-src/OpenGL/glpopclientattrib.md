@@ -49,18 +49,6 @@ The following error code can be retrieved by the [**glGetError**](glgeterror.md)
 
 
 
-## Error codes
-
-The following error code can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                               | Meaning                                                                       |
-|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_STACK\_OVERFLOW**</dt> </dl> | The function was called while the client-attribute stack was full.<br/> |
-
-
-
 ## Remarks
 
 The **glPushClientAttrib** function uses its mask parameter to determine which groups of client-state variables are saved on the client-attribute stack. You can use the bitwise OR operator to join together accepted symbolic constants to set bits and construct a mask.

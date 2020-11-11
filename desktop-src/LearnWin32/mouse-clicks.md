@@ -14,14 +14,14 @@ If the user clicks a mouse button while the cursor is over the client area of a 
 
 | Message                                        | Meaning                   |
 |------------------------------------------------|---------------------------|
-| [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown) | Left button down          |
-| [**WM\_LBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttonup)     | Left button up            |
-| [**WM\_MBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mbuttondown) | Middle button down        |
-| [**WM\_MBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mbuttonup)     | Middle button up          |
-| [**WM\_RBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-rbuttondown) | Right button down         |
-| [**WM\_RBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-rbuttonup)     | Right button up           |
-| [**WM\_XBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-xbuttondown) | XBUTTON1 or XBUTTON2 down |
-| [**WM\_XBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-xbuttonup)     | XBUTTON1 or XBUTTON2 up   |
+| [**WM\_LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown) | Left button down          |
+| [**WM\_LBUTTONUP**](/windows/desktop/inputdev/wm-lbuttonup)     | Left button up            |
+| [**WM\_MBUTTONDOWN**](/windows/desktop/inputdev/wm-mbuttondown) | Middle button down        |
+| [**WM\_MBUTTONUP**](/windows/desktop/inputdev/wm-mbuttonup)     | Middle button up          |
+| [**WM\_RBUTTONDOWN**](/windows/desktop/inputdev/wm-rbuttondown) | Right button down         |
+| [**WM\_RBUTTONUP**](/windows/desktop/inputdev/wm-rbuttonup)     | Right button up           |
+| [**WM\_XBUTTONDOWN**](/windows/desktop/inputdev/wm-xbuttondown) | XBUTTON1 or XBUTTON2 down |
+| [**WM\_XBUTTONUP**](/windows/desktop/inputdev/wm-xbuttonup)     | XBUTTON1 or XBUTTON2 up   |
 
 
 
@@ -31,7 +31,7 @@ Recall that the client area is the portion of the window that excludes the frame
 
 ### Mouse Coordinates
 
-In all of these messages, the *lParam* parameter contains the x- and y-coordinates of the mouse pointer. The lowest 16 bits of *lParam* contain the x-coordinate, and the next 16 bits contain the y-coordinate. Use the [**GET\_X\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam) and [**GET\_Y\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam) macros to unpack the coordinates from *lParam*.
+In all of these messages, the *lParam* parameter contains the x- and y-coordinates of the mouse pointer. The lowest 16 bits of *lParam* contain the x-coordinate, and the next 16 bits contain the y-coordinate. Use the [**GET\_X\_LPARAM**](/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam) and [**GET\_Y\_LPARAM**](/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam) macros to unpack the coordinates from *lParam*.
 
 
 ```C++
@@ -76,9 +76,9 @@ if (wParam & MK_CONTROL) { ...
 
 
 
-If you need to find the state of other keys besides CTRL and SHIFT, use the [**GetKeyState**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate) function, which is described in [Keyboard Input](keyboard-input.md).
+If you need to find the state of other keys besides CTRL and SHIFT, use the [**GetKeyState**](/windows/desktop/api/winuser/nf-winuser-getkeystate) function, which is described in [Keyboard Input](keyboard-input.md).
 
-The [**WM\_XBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-xbuttondown) and [**WM\_XBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-xbuttonup) window messages apply to both XBUTTON1 and XBUTTON2. The *wParam* parameter indicates which button was clicked.
+The [**WM\_XBUTTONDOWN**](/windows/desktop/inputdev/wm-xbuttondown) and [**WM\_XBUTTONUP**](/windows/desktop/inputdev/wm-xbuttonup) window messages apply to both XBUTTON1 and XBUTTON2. The *wParam* parameter indicates which button was clicked.
 
 
 ```C++
@@ -97,7 +97,7 @@ else if (button == XBUTTON2)
 
 ## Double Clicks
 
-A window does not receive double-click notifications by default. To receive double clicks, set the **CS\_DBLCLKS** flag in the [**WNDCLASS**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-wndclassa) structure when you register the window class.
+A window does not receive double-click notifications by default. To receive double clicks, set the **CS\_DBLCLKS** flag in the [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) structure when you register the window class.
 
 
 ```C++
@@ -116,19 +116,19 @@ If you set the **CS\_DBLCLKS** flag as shown, the window will receive double-cli
 
 <dl>
 
-[**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown)  
-[**WM\_LBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttonup)  
-[**WM\_LBUTTONDBLCLK**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondblclk)  
-[**WM\_LBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttonup)  
+[**WM\_LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown)  
+[**WM\_LBUTTONUP**](/windows/desktop/inputdev/wm-lbuttonup)  
+[**WM\_LBUTTONDBLCLK**](/windows/desktop/inputdev/wm-lbuttondblclk)  
+[**WM\_LBUTTONUP**](/windows/desktop/inputdev/wm-lbuttonup)  
 </dl>
 
-In effect, the second [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown) message that would normally be generated becomes a [**WM\_LBUTTONDBLCLK**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondblclk) message. Equivalent messages are defined for right, middle, and XBUTTON buttons.
+In effect, the second [**WM\_LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown) message that would normally be generated becomes a [**WM\_LBUTTONDBLCLK**](/windows/desktop/inputdev/wm-lbuttondblclk) message. Equivalent messages are defined for right, middle, and XBUTTON buttons.
 
 Until you get the double-click message, there is no way to tell that the first mouse click is the start of a double click. Therefore, a double-click action should continue an action that begins with the first mouse click. For example, in the Windows Shell, a single click selects a folder, while a double click opens the folder.
 
 ## Non-client Mouse Messages
 
-A separate set of messages are defined for mouse events that occur within the non-client area of the window. These messages have the letters "NC" in the name. For example, [**WM\_NCLBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-nclbuttondown) is the non-client equivalent of [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown). A typical application will not intercept these messages, because the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function handles these messages correctly. However, they can be useful for certain advanced functions. For example, you could use these messages to implement custom behavior in the title bar. If you do handle these messages, you should generally pass them to **DefWindowProc** afterward. Otherwise, your application will break standard functionality such as dragging or minimizing the window.
+A separate set of messages are defined for mouse events that occur within the non-client area of the window. These messages have the letters "NC" in the name. For example, [**WM\_NCLBUTTONDOWN**](/windows/desktop/inputdev/wm-nclbuttondown) is the non-client equivalent of [**WM\_LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown). A typical application will not intercept these messages, because the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function handles these messages correctly. However, they can be useful for certain advanced functions. For example, you could use these messages to implement custom behavior in the title bar. If you do handle these messages, you should generally pass them to **DefWindowProc** afterward. Otherwise, your application will break standard functionality such as dragging or minimizing the window.
 
 ## Next
 
@@ -137,7 +137,3 @@ A separate set of messages are defined for mouse events that occur within the no
  
 
  
-
-
-
-

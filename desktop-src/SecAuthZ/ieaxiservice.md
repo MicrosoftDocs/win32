@@ -48,7 +48,7 @@ interface IeAxiService : IUnknown{
 
 ## Members
 
-The **IeAxiService** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IeAxiService** also has these types of members:
+The **IeAxiService** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IeAxiService** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -80,9 +80,4 @@ The **IeAxiService** interface has these methods.
 
 
  
-
- 
-
-
-
 

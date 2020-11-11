@@ -31,8 +31,8 @@ This topic provides answers to commonly-asked questions about the EAPHost Suppli
 <td>[<strong>EapHostPeerInitialize</strong>](/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerinitialize) and [<strong>EapHostPeerUninitialize</strong>](/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeeruninitialize) initialize and uninitialize the COM environment used for interprocess communication (IPC) between a supplicant and EAPHost.</td>
 </tr>
 <tr class="even">
-<td>Which functions must be invoked on threads that have COM initialized for [Single Threaded Apartment](Http://go.microsoft.com/fwlink/p/?linkid=83881) (STA)?</td>
-<td>[<strong>EapHostPeerInvokeConfigUI</strong>](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui), [<strong>EapHostPeerInvokeInteractiveUI</strong>](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeinteractiveui), and [<strong>EapHostAuthenticatorInvokeConfigUI</strong>](/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorinvokeconfigui) must be called on threads that have COM initialized for STA. This can be achieved by calling COM API [<strong>CoInitialize</strong>](https://msdn.microsoft.com/windows/desktop/0f171cf4-87b9-43a6-97f2-80ed344fe376); when the supplicant has finished with the STA thread [<strong>CoUninitialize</strong>](https://msdn.microsoft.com/windows/desktop/9411cbed-fa3b-46f7-b677-6ada53324edc) must be called before exiting.</td>
+<td>Which functions must be invoked on threads that have COM initialized for [Single Threaded Apartment](https://go.microsoft.com/fwlink/p/?linkid=83881) (STA)?</td>
+<td>[<strong>EapHostPeerInvokeConfigUI</strong>](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui), [<strong>EapHostPeerInvokeInteractiveUI</strong>](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeinteractiveui), and [<strong>EapHostAuthenticatorInvokeConfigUI</strong>](/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorinvokeconfigui) must be called on threads that have COM initialized for STA. This can be achieved by calling COM API [<strong>CoInitialize</strong>](/windows/win32/api/objbase/nf-objbase-coinitialize); when the supplicant has finished with the STA thread [<strong>CoUninitialize</strong>](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize) must be called before exiting.</td>
 </tr>
 <tr class="odd">
 <td>How does EAPHost export keying material?</td>
@@ -40,25 +40,25 @@ This topic provides answers to commonly-asked questions about the EAPHost Suppli
 </tr>
 <tr class="even">
 <td>What is an Extended Master Session Key (EMSK)?</td>
-<td>EMSK is additional keying material that is exported by the EAP method. EMSK is at least 64 octets in length. EMSK is shared between the EAP client and server, but is not shared with the authenticator or any other third party. Currently, EMSK is reserved for future use. For more information, see [Extensible Authentication Protocol EAP) Method Requirements for Wireless LANs](Http://go.microsoft.com/fwlink/p/?linkid=84064).<br/></td>
+<td>EMSK is additional keying material that is exported by the EAP method. EMSK is at least 64 octets in length. EMSK is shared between the EAP client and server, but is not shared with the authenticator or any other third party. Currently, EMSK is reserved for future use. For more information, see [Extensible Authentication Protocol EAP) Method Requirements for Wireless LANs](https://go.microsoft.com/fwlink/p/?linkid=84064).<br/></td>
 </tr>
 <tr class="odd">
 <td>When does a method consume or generate an attribute?</td>
 <td>If an EAP method generates attributes or EMSK, then the supplicant will consume attributes. Typically, attributes that are consumed by supplicants are keys. The attributes consumed are <strong>eatPeerId</strong>, <strong>eatServerId</strong>, <strong>eatMethodId</strong>, <strong>eatEMSK</strong>, and <strong>eatCredentialsChanged</strong>. For more information, see [<strong>EAP_ATTRIBUTE_TYPE</strong>](/windows/desktop/api/eaptypes/ne-eaptypes-eap_attribute_type). An EAP method can export additional application-specific EMSK material such as:
 <ul>
 <li>Session ID</li>
-<li>[Network Access Protection](https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page) (NAP)</li>
+<li>[Network Access Protection](/windows/desktop/NAP/network-access-protection-start-page) (NAP)</li>
 </ul>
 <br/></td>
 </tr>
 <tr class="even">
-<td>Which attributes does [802.1X](Http://go.microsoft.com/fwlink/p/?linkid=83938) consume?</td>
-<td>The native wireless [802.1X](Http://go.microsoft.com/fwlink/p/?linkid=83938) supplicant will consume the following EAPHost authentication attributes:
+<td>Which attributes does [802.1X](https://go.microsoft.com/fwlink/p/?linkid=83938) consume?</td>
+<td>The native wireless [802.1X](https://go.microsoft.com/fwlink/p/?linkid=83938) supplicant will consume the following EAPHost authentication attributes:
 <ul>
 <li>Change password notification</li>
 <li>Microsoft Point-to-Point Encryption (MPPE) send/receive keys. VendorId/VendorType = 331/16 and 311/1</li>
 </ul>
-MPPE keys are keys generated at the end of successful authentication, by both peer and authenticator. These keys are used by [802.1X](Http://go.microsoft.com/fwlink/p/?linkid=83938) and the network access server (NAS) to encrypt and decrypt packets that are sent and received.<br/></td>
+MPPE keys are keys generated at the end of successful authentication, by both peer and authenticator. These keys are used by [802.1X](https://go.microsoft.com/fwlink/p/?linkid=83938) and the network access server (NAS) to encrypt and decrypt packets that are sent and received.<br/></td>
 </tr>
 <tr class="odd">
 <td>What's the purpose of the EAP_PEER_FLAG_GUEST_ACCESS flag in EAPHost?</td>
@@ -82,7 +82,7 @@ MPPE keys are keys generated at the end of successful authentication, by both pe
 </tr>
 <tr class="even">
 <td>Why does the [<strong>EapHostPeerBeginSession</strong>](/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerbeginsession) API take a [<em>NotificationHandler</em>](/previous-versions/windows/desktop/api) callback function pointer as a parameter?</td>
-<td>[<em>NotificationHandler</em>](/previous-versions/windows/desktop/api) is the mechanism by which a supplicant is notified that it must re-authenticate. There are various scenarios where the supplicant is required to re-authenticate, including authentication with [Network Access Protection](https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page) (NAP).</td>
+<td>[<em>NotificationHandler</em>](/previous-versions/windows/desktop/api) is the mechanism by which a supplicant is notified that it must re-authenticate. There are various scenarios where the supplicant is required to re-authenticate, including authentication with [Network Access Protection](/windows/desktop/NAP/network-access-protection-start-page) (NAP).</td>
 </tr>
 <tr class="odd">
 <td>What is the purpose of the <em>pConnectionId</em> parameter in the [<strong>EapHostPeerBeginSession</strong>](/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerbeginsession) API?</td>
@@ -94,7 +94,7 @@ MPPE keys are keys generated at the end of successful authentication, by both pe
 </tr>
 <tr class="odd">
 <td>How do I know if there is a NAP QEC registered interface in the system?</td>
-<td>Open an elevated window, and run the following netsh command: &quot;netsh nap client show state&quot;. For more information, see [Netsh Commands](Http://go.microsoft.com/fwlink/p/?linkid=84004).</td>
+<td>Open an elevated window, and run the following netsh command: &quot;netsh nap client show state&quot;. For more information, see [Netsh Commands](https://go.microsoft.com/fwlink/p/?linkid=84004).</td>
 </tr>
 <tr class="even">
 <td>If the supplicant re-authenticates, what connection ID should the QEC use during re-authentication?</td>
@@ -136,10 +136,4 @@ MPPE keys are keys generated at the end of successful authentication, by both pe
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

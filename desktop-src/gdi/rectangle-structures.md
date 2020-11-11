@@ -10,13 +10,10 @@ ms.date: 05/31/2018
 
 The following structures are used with rectangles.
 
--   [**POINT**](https://msdn.microsoft.com/library/Dd162805(v=VS.85).aspx)
--   [**POINTS**](https://msdn.microsoft.com/library/Dd162808(v=VS.85).aspx)
--   [**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx)
+-   [**POINT**](/previous-versions//dd162805(v=vs.85))
+-   [**POINTS**](/previous-versions//dd162808(v=vs.85))
+-   [**RECT**](/previous-versions//dd162897(v=vs.85))
 
  
 
  
-
-
-

@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The [**MCI\_RECORD**](mci-record-parms.md) command starts recording from the current position or from one specified location to another specified location. VCR and waveform-audio devices recognize this command. Although digital-video devices and MIDI sequencers also recognize this command, the MCIAVI and MCISEQ drivers do not implement it.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function with the following parameters.
 
 
 ```C++
@@ -176,10 +176,4 @@ For VCR devices, *lpRecord* points to an [**MCI\_VCR\_RECORD\_PARMS**](mci-vcr-r
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

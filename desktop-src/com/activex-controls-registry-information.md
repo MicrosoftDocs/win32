@@ -28,7 +28,7 @@ HKEY_CLASSES_ROOT
          *Version = version_number
 ```
 
-The **DefaultIcon** entry is used to identify an icon to be displayed when the control is minimized to an icon. The [**ExtractIcon**](https://msdn.microsoft.com/library/ms648068(v=VS.85).aspx) function is used to get the icon from the .DLL or .EXE file specified.
+The **DefaultIcon** entry is used to identify an icon to be displayed when the control is minimized to an icon. The [**ExtractIcon**](/windows/win32/api/shellapi/nf-shellapi-extracticona) function is used to get the icon from the .DLL or .EXE file specified.
 
 The **ToolboxBitmap32** entry identifies the module name and resource identifier for a 16\*15 bitmap to use for the face of a toolbar or toolbox button. The standard Windows icon size is too large to be used for this purpose. This entry specifically supports control containers that have a design mode in which one selects controls and places them on a form being designed. For example, in Visual Basic, the control's icon is displayed in the Visual Basic toolbox during design mode.
 
@@ -49,7 +49,3 @@ Also in the type information for a control, the attribute control marks a coclas
  
 
  
-
-
-
-

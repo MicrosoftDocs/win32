@@ -16,8 +16,8 @@ ms.date: 05/31/2018
 
 ## Platform
 
-<dl> **Clients**   Windows 8  
-</dl>
+**Clients**   Windows 8  
+
 
 ## Description
 
@@ -35,7 +35,7 @@ New functionality has been added to Windows to ensure that end users are always 
 -   **Medium impact**   Apps that use 300 ms - 1000 ms of CPU time or 300 KB - 3 MB of disk I/O
 -   **Low impact**   Apps that use less than 300 ms of CPU time and less than 300 KB of disk I/O
 
-Microsoft provides tools to help app developers assess, analyze and take steps to reduce their startup impact and improve the user experience. The Assessment and Deployment Kit provides the ability to run a boot performance assessment and measure the impact of apps that run at startup. The assessment results contain detailed analysis and remediation info where applicable, for the top-impacting components at Windows startup. Using the Windows Performance Analyzer, app developers can perform deep analysis to find the root cause of the performance impact and improve Windows startup performance. Install the Windows ADK from [here](https://msdn.microsoft.com/library/hh825494.aspx).
+Microsoft provides tools to help app developers assess, analyze and take steps to reduce their startup impact and improve the user experience. The Assessment and Deployment Kit provides the ability to run a boot performance assessment and measure the impact of apps that run at startup. The assessment results contain detailed analysis and remediation info where applicable, for the top-impacting components at Windows startup. Using the Windows Performance Analyzer, app developers can perform deep analysis to find the root cause of the performance impact and improve Windows startup performance. Install the Windows ADK from [here](/previous-versions/windows/hh825494(v=win.10)).
 
 ## Guidance
 
@@ -175,7 +175,7 @@ Draw attention to goods and services available for purchase
  
 
 > [!Note]  
-> Accessibility apps guidelines are covered by separate direct engagements with ISVs. See [*Programming for Ease of Access*](https://msdn.microsoft.com/windows/bb879984.aspx) for details.
+> Accessibility apps guidelines are covered by separate direct engagements with ISVs. See [*Programming for Ease of Access*](../winauto/ease-of-access---assistive-technology-registration.md) for details.
 
  
 
@@ -191,8 +191,8 @@ Aggregated info for developing Windows Store apps is available at the [Windows D
 
 Examples:
 
--   [Developing Windows Store games](https://msdn.microsoft.com/library/windows/apps/hh452744(v=VS.85).aspx)
--   [Developing Windows Store app that use Media](https://msdn.microsoft.com/library/windows/apps/hh465132(v=VS.85).aspx)
+-   [Developing Windows Store games](/previous-versions/windows/apps/hh452744(v=win.10))
+-   [Developing Windows Store app that use Media](/previous-versions/windows/apps/hh465132(v=win.10))
 
 **Automatic maintenance tasks**
 
@@ -200,15 +200,9 @@ Periodic background activity should be designed as Automatic Maintenance tasks. 
 
 ## Resources
 
--   [Accessibility Guidelines](https://msdn.microsoft.com/windows/bb879984.aspx)
+-   [Accessibility Guidelines](../winauto/ease-of-access---assistive-technology-registration.md)
 -   [Windows Dev Center](https://msdn.microsoft.com/windows/apps/)
--   [Windows ADK](https://msdn.microsoft.com/library/hh825494.aspx)
+-   [Windows ADK](/previous-versions/windows/hh825494(v=win.10))
 
  
-
- 
-
-
-
-
 

@@ -49,7 +49,7 @@ If the window is currently redirected for printing, the function returns a nonze
 
 A window is redirected for printing when it processes a call to [**PrintWindow**](/windows/desktop/api/Winuser/nf-winuser-printwindow). In a call to **PrintWindow**, a window renders its content to an off-screen device context.
 
-This function has no associated import library or header file; you must call it by using the [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
+This function has no associated import library or header file; you must call it by using the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
@@ -70,22 +70,17 @@ This function has no associated import library or header file; you must call it 
 [**PrintWindow**](/windows/desktop/api/Winuser/nf-winuser-printwindow)
 </dt> <dt>
 
-[**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress)
+[**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress)
 </dt> <dt>
 
-[**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya)
+[**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya)
 </dt> <dt>
 
-[**WM\_PRINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-print)
+[**WM\_PRINT**](/windows/desktop/gdi/wm-print)
 </dt> <dt>
 
-[**WM\_PRINTCLIENT**](https://docs.microsoft.com/windows/desktop/gdi/wm-printclient)
+[**WM\_PRINTCLIENT**](/windows/desktop/gdi/wm-printclient)
 </dt> </dl>
 
  
-
- 
-
-
-
 

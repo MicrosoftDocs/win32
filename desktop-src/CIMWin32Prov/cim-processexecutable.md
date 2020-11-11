@@ -69,7 +69,7 @@ Data type: **CIM\_DataFile**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (Antecedent), [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) (Antecedent), [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 A [**CIM\_DataFile**](cim-datafile.md) that describes the data file participating in the execution of the process.
@@ -85,12 +85,12 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Schema**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
+Qualifiers: [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
 Base address of the module in the address space of the associated process.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> <dt>
 
@@ -103,7 +103,7 @@ Data type: **CIM\_Process**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (Dependent), [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) (Dependent), [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 A [**CIM\_Process**](cim-process.md) that describes the process.
@@ -119,7 +119,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Schema**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
+Qualifiers: [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
 Current number of processes that have the file loaded in memory.
@@ -135,7 +135,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**Schema**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
+Qualifiers: [**DEPRECATED**](/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
 Win32 instance handle. This property is obsolete, and there is no replacement value.
@@ -151,7 +151,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Schema**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
+Qualifiers: [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
 Reference count of the file in the associated process.
@@ -188,9 +188,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

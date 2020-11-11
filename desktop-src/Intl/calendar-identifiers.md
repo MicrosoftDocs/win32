@@ -14,8 +14,8 @@ This topic defines the calendar identifiers (data type CALID) that are used to s
 -   [**EnumCalendarInfo**](/windows/desktop/api/Winnls/nf-winnls-enumcalendarinfoa)
 -   [**EnumCalendarInfoEx**](/windows/desktop/api/Winnls/nf-winnls-enumcalendarinfoexa)
 -   [**EnumCalendarInfoExEx**](/windows/desktop/api/Winnls/nf-winnls-enumcalendarinfoexex)
--   [**EnumCalendarInfoProcEx**](https://msdn.microsoft.com/library/Dd317807(v=VS.85).aspx)
--   [**EnumDateFormatsProcEx**](https://msdn.microsoft.com/library/Dd317814(v=VS.85).aspx)
+-   [**EnumCalendarInfoProcEx**](/previous-versions/windows/desktop/legacy/dd317807(v=vs.85))
+-   [**EnumDateFormatsProcEx**](/previous-versions/windows/desktop/legacy/dd317814(v=vs.85))
 -   [**GetCalendarInfo**](/windows/desktop/api/Winnls/nf-winnls-getcalendarinfoa)
 -   [**GetCalendarInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getcalendarinfoex)
 -   [**GetCalendarSupportedDateRange**](getcalendarsupporteddaterange.md)
@@ -136,6 +136,3 @@ All applicable calendars for the specified locale
  
 
  
-
-
-

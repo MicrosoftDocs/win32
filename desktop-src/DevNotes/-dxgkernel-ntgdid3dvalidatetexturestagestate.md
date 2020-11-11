@@ -39,7 +39,7 @@ DWORD APIENTRY NtGdiD3DValidateTextureStageState(
 *pData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**D3DNTHAL\_VALIDATETEXTURESTAGESTATEDATA**](https://msdn.microsoft.com/library/Ff549031(v=VS.85).aspx) structure that contains the information required for the driver to determine and return the number of passes required to perform the blending operations.
+Pointer to a [**D3DNTHAL\_VALIDATETEXTURESTAGESTATEDATA**](/windows-hardware/drivers/ddi/) structure that contains the information required for the driver to determine and return the number of passes required to perform the blending operations.
 
 </dd> </dl>
 
@@ -80,7 +80,3 @@ Pointer to a [**D3DNTHAL\_VALIDATETEXTURESTAGESTATEDATA**](https://msdn.microsof
  
 
  
-
-
-
-

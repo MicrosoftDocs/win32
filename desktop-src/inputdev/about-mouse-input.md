@@ -38,7 +38,7 @@ This section covers the following topics:
 -   [Mouse Messages](#mouse-messages)
     -   [Client Area Mouse Messages](#client-area-mouse-messages)
     -   [Nonclient Area Mouse Messages](#nonclient-area-mouse-messages)
-    -   [The WM\_NCHITTEST Message](https://docs.microsoft.com/windows)
+    -   [The WM\_NCHITTEST Message](/windows)
 -   [Mouse Sonar](#mouse-sonar)
 -   [Mouse Vanish](#mouse-vanish)
 -   [The Mouse Wheel](#the-mouse-wheel)
@@ -48,11 +48,11 @@ This section covers the following topics:
 
 When the user moves the mouse, the system moves a bitmap on the screen called the *mouse cursor*. The mouse cursor contains a single-pixel point called the *hot spot*, a point that the system tracks and recognizes as the position of the cursor. When a mouse event occurs, the window that contains the hot spot typically receives the mouse message resulting from the event. The window need not be active or have the keyboard focus to receive a mouse message.
 
-The system maintains a variable that controls mouse speed—that is, the distance the cursor moves when the user moves the mouse. You can use the [**SystemParametersInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function with the **SPI\_GETMOUSE** or **SPI\_SETMOUSE** flag to retrieve or set mouse speed. For more information about mouse cursors, see [Cursors](https://docs.microsoft.com/windows/desktop/menurc/cursors).
+The system maintains a variable that controls mouse speed—that is, the distance the cursor moves when the user moves the mouse. You can use the [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function with the **SPI\_GETMOUSE** or **SPI\_SETMOUSE** flag to retrieve or set mouse speed. For more information about mouse cursors, see [Cursors](/windows/desktop/menurc/cursors).
 
 ## Mouse Capture
 
-The system typically posts a mouse message to the window that contains the cursor hot spot when a mouse event occurs. An application can change this behavior by using the [**SetCapture**](https://msdn.microsoft.com/library/ms646262(v=VS.85).aspx) function to route mouse messages to a specific window. The window receives all mouse messages until the application calls the [**ReleaseCapture**](https://msdn.microsoft.com/library/ms646261(v=VS.85).aspx) function or specifies another capture window, or until the user clicks a window created by another thread.
+The system typically posts a mouse message to the window that contains the cursor hot spot when a mouse event occurs. An application can change this behavior by using the [**SetCapture**](/windows/win32/api/winuser/nf-winuser-setcapture) function to route mouse messages to a specific window. The window receives all mouse messages until the application calls the [**ReleaseCapture**](/windows/win32/api/winuser/nf-winuser-releasecapture) function or specifies another capture window, or until the user clicks a window created by another thread.
 
 When the mouse capture changes, the system sends a [**WM\_CAPTURECHANGED**](wm-capturechanged.md) message to the window that is losing the mouse capture. The *lParam* parameter of the message specifies a handle to the window that is gaining the mouse capture.
 
@@ -60,11 +60,11 @@ Only the foreground window can capture mouse input. When a background window att
 
 Capturing mouse input is useful if a window must receive all mouse input, even when the cursor moves outside the window. For example, an application typically tracks the cursor position after a mouse button down event, following the cursor until a mouse button up event occurs. If an application has not captured mouse input and the user releases the mouse button outside the window, the window does not receive the button-up message.
 
-A thread can use the [**GetCapture**](https://msdn.microsoft.com/library/ms646257(v=VS.85).aspx) function to determine whether one of its windows has captured the mouse. If one of the thread's windows has captured the mouse, **GetCapture** retrieves a handle to the window.
+A thread can use the [**GetCapture**](/windows/win32/api/winuser/nf-winuser-getcapture) function to determine whether one of its windows has captured the mouse. If one of the thread's windows has captured the mouse, **GetCapture** retrieves a handle to the window.
 
 ## Mouse ClickLock
 
-The Mouse ClickLock accessibility feature enables a user lock down the primary mouse button after a single click. To an application, the button still appears to be pressed down. To unlock the button, an application can send any mouse message or the user can click any mouse button. This feature lets a user do complex mouse combinations more simply. For example, those with certain physical limitations can highlight text, drag objects, or open menus more easily. For more information, see the following flags and the Remarks in [**SystemParametersInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa):
+The Mouse ClickLock accessibility feature enables a user lock down the primary mouse button after a single click. To an application, the button still appears to be pressed down. To unlock the button, an application can send any mouse message or the user can click any mouse button. This feature lets a user do complex mouse combinations more simply. For example, those with certain physical limitations can highlight text, drag objects, or open menus more easily. For more information, see the following flags and the Remarks in [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa):
 
 -   **SPI\_GETMOUSECLICKLOCK**
 -   **SPI\_SETMOUSECLICKLOCK**
@@ -73,7 +73,7 @@ The Mouse ClickLock accessibility feature enables a user lock down the primary m
 
 ## Mouse Configuration
 
-Although the mouse is an important input device for applications, not every user necessarily has a mouse. An application can determine whether the system includes a mouse by passing the **SM\_MOUSEPRESENT** value to the [**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function.
+Although the mouse is an important input device for applications, not every user necessarily has a mouse. An application can determine whether the system includes a mouse by passing the **SM\_MOUSEPRESENT** value to the [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function.
 
 Windows supports a mouse having up to three buttons. On a three-button mouse, the buttons are designated as the left, middle, and right buttons. Messages and named constants related to the mouse buttons use the letters L, M, and R to identify the buttons. The button on a single-button mouse is considered to be the left button. Although Windows supports a mouse with multiple buttons, most applications use the left button primarily and the others minimally, if at all.
 
@@ -81,13 +81,13 @@ Applications can also support a mouse wheel. The mouse wheel can be pressed or r
 
 Applications can support application-command buttons. These buttons, called X buttons, are designed to allow easier access to an Internet browser, electronic mail, and media services. When an X button is pressed, a [**WM\_APPCOMMAND**](wm-appcommand.md) message is sent to your application. For more information, see the description in the **WM\_APPCOMMAND** message.
 
-An application can determine the number of buttons on the mouse by passing the **SM\_CMOUSEBUTTONS** value to the [**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function. To configure the mouse for a left-handed user, the application can use the [**SwapMouseButton**](https://msdn.microsoft.com/library/ms646264(v=VS.85).aspx) function to reverse the meaning of the left and right mouse buttons. Passing the **SPI\_SETMOUSEBUTTONSWAP** value to the [**SystemParametersInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function is another way to reverse the meaning of the buttons. Note, however, that the mouse is a shared resource, so reversing the meaning of the buttons affects all applications.
+An application can determine the number of buttons on the mouse by passing the **SM\_CMOUSEBUTTONS** value to the [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function. To configure the mouse for a left-handed user, the application can use the [**SwapMouseButton**](/windows/win32/api/winuser/nf-winuser-swapmousebutton) function to reverse the meaning of the left and right mouse buttons. Passing the **SPI\_SETMOUSEBUTTONSWAP** value to the [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function is another way to reverse the meaning of the buttons. Note, however, that the mouse is a shared resource, so reversing the meaning of the buttons affects all applications.
 
 ## XBUTTONs
 
 Windows supports a mouse with five buttons. In addition to the left, middle, and right buttons there are XBUTTON1 and XBUTTON2, which provide backward and forward navigation when using your browser.
 
-The window manager supports XBUTTON1 and XBUTTON2 through the **WM\_XBUTTON\*** and **WM\_NCXBUTTON\*** messages. The HIWORD of the **WPARAM** in these messages contains a flag indicating which X button was pressed. Because these mouse messages also fit between the constants **WM\_MOUSEFIRST** and **WM\_MOUSELAST**, an application can filter all mouse messages with [**GetMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage) or [**PeekMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea).
+The window manager supports XBUTTON1 and XBUTTON2 through the **WM\_XBUTTON\*** and **WM\_NCXBUTTON\*** messages. The HIWORD of the **WPARAM** in these messages contains a flag indicating which X button was pressed. Because these mouse messages also fit between the constants **WM\_MOUSEFIRST** and **WM\_MOUSELAST**, an application can filter all mouse messages with [**GetMessage**](/windows/desktop/api/winuser/nf-winuser-getmessage) or [**PeekMessage**](/windows/desktop/api/winuser/nf-winuser-peekmessagea).
 
 The following support XBUTTON1 and XBUTTON2:
 
@@ -98,17 +98,17 @@ The following support XBUTTON1 and XBUTTON2:
 -   [**WM\_XBUTTONDBLCLK**](wm-xbuttondblclk.md)
 -   [**WM\_XBUTTONDOWN**](wm-xbuttondown.md)
 -   [**WM\_XBUTTONUP**](wm-xbuttonup.md)
--   [**MOUSEHOOKSTRUCTEX**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-mousehookstructex)
+-   [**MOUSEHOOKSTRUCTEX**](/windows/win32/api/winuser/ns-winuser-mousehookstructex)
 
 The following APIs were modified to support these buttons:
 
--   [**mouse\_event**](https://msdn.microsoft.com/library/ms646260(v=VS.85).aspx)
--   [**ShellProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644991(v=vs.85))
--   [**MSLLHOOKSTRUCT**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-msllhookstruct)
--   [**MOUSEINPUT**](https://msdn.microsoft.com/library/ms646273(v=VS.85).aspx)
--   [**WM\_PARENTNOTIFY**](https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-parentnotify)
+-   [**mouse\_event**](/windows/win32/api/winuser/nf-winuser-mouse_event)
+-   [**ShellProc**](/previous-versions/windows/desktop/legacy/ms644991(v=vs.85))
+-   [**MSLLHOOKSTRUCT**](/windows/win32/api/winuser/ns-winuser-msllhookstruct)
+-   [**MOUSEINPUT**](/windows/win32/api/winuser/ns-winuser-mouseinput)
+-   [**WM\_PARENTNOTIFY**](/previous-versions/windows/desktop/inputmsg/wm-parentnotify)
 
-It is unlikely that a child window in a component application will be able to directly implement commands for the XBUTTON1 and XBUTTON2. So [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) sends a [**WM\_APPCOMMAND**](wm-appcommand.md) message to a window when an X button is clicked. **DefWindowProc** also sends the **WM\_APPCOMMAND** message to its parent window. This is similar to the way context menus are invoked with a right click—**DefWindowProc** sends a [**WM\_CONTEXTMENU**](https://docs.microsoft.com/windows/desktop/menurc/wm-contextmenu) message to the menu and also sends it to its parent. Additionally, if **DefWindowProc** receives a **WM\_APPCOMMAND** message for a top-level window, it calls a shell hook with code HSHELL\_APPCOMMAND.
+It is unlikely that a child window in a component application will be able to directly implement commands for the XBUTTON1 and XBUTTON2. So [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) sends a [**WM\_APPCOMMAND**](wm-appcommand.md) message to a window when an X button is clicked. **DefWindowProc** also sends the **WM\_APPCOMMAND** message to its parent window. This is similar to the way context menus are invoked with a right click—**DefWindowProc** sends a [**WM\_CONTEXTMENU**](/windows/desktop/menurc/wm-contextmenu) message to the menu and also sends it to its parent. Additionally, if **DefWindowProc** receives a **WM\_APPCOMMAND** message for a top-level window, it calls a shell hook with code HSHELL\_APPCOMMAND.
 
 There is support for the keyboards that have extra keys for browser functions, media functions, application launching, and power management. For more information, see [Keyboard Keys for Browsing and Other Functions](about-keyboard-input.md).
 
@@ -122,7 +122,7 @@ This section covers the following topics:
 
 -   [Client Area Mouse Messages](#client-area-mouse-messages)
 -   [Nonclient Area Mouse Messages](#nonclient-area-mouse-messages)
--   [The WM\_NCHITTEST Message](https://docs.microsoft.com/windows)
+-   [The WM\_NCHITTEST Message](/windows)
 
 ### Client Area Mouse Messages
 
@@ -149,7 +149,7 @@ A window receives a client area mouse message when a mouse event occurs within t
 
  
 
-In addition, an application can call the [**TrackMouseEvent**](https://msdn.microsoft.com/library/ms646265(v=VS.85).aspx) function to have the system send two other messages. It posts the [**WM\_MOUSEHOVER**](wm-mousehover.md) message when the cursor hovers over the client area for a certain time period. It posts the [**WM\_MOUSELEAVE**](wm-mouseleave.md) message when the cursor leaves the client area.
+In addition, an application can call the [**TrackMouseEvent**](/windows/win32/api/winuser/nf-winuser-trackmouseevent) function to have the system send two other messages. It posts the [**WM\_MOUSEHOVER**](wm-mousehover.md) message when the cursor hovers over the client area for a certain time period. It posts the [**WM\_MOUSELEAVE**](wm-mouseleave.md) message when the cursor leaves the client area.
 
 ### Message Parameters
 
@@ -177,9 +177,9 @@ The *wParam* parameter contains flags that indicate the status of the other mous
 
 The system generates a double-click message when the user clicks a mouse button twice in quick succession. When the user clicks a button, the system establishes a rectangle centered around the cursor hot spot. It also marks the time at which the click occurred. When the user clicks the same button a second time, the system determines whether the hot spot is still within the rectangle and calculates the time elapsed since the first click. If the hot spot is still within the rectangle and the elapsed time does not exceed the double-click time-out value, the system generates a double-click message.
 
-An application can get and set double-click time-out values by using the [**GetDoubleClickTime**](https://msdn.microsoft.com/library/ms646258(v=VS.85).aspx) and [**SetDoubleClickTime**](https://msdn.microsoft.com/library/ms646263(v=VS.85).aspx) functions, respectively. Alternatively, the application can set the double-click–time-out value by using the **SPI\_SETDOUBLECLICKTIME** flag with the [**SystemParametersInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function. It can also set the size of the rectangle that the system uses to detect double-clicks by passing the **SPI\_SETDOUBLECLKWIDTH** and **SPI\_SETDOUBLECLKHEIGHT** flags to **SystemParametersInfo**. Note, however, that setting the double-click–time-out value and rectangle affects all applications.
+An application can get and set double-click time-out values by using the [**GetDoubleClickTime**](/windows/win32/api/winuser/nf-winuser-getdoubleclicktime) and [**SetDoubleClickTime**](/windows/win32/api/winuser/nf-winuser-setdoubleclicktime) functions, respectively. Alternatively, the application can set the double-click–time-out value by using the **SPI\_SETDOUBLECLICKTIME** flag with the [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function. It can also set the size of the rectangle that the system uses to detect double-clicks by passing the **SPI\_SETDOUBLECLKWIDTH** and **SPI\_SETDOUBLECLKHEIGHT** flags to **SystemParametersInfo**. Note, however, that setting the double-click–time-out value and rectangle affects all applications.
 
-An application-defined window does not, by default, receive double-click messages. Because of the system overhead involved in generating double-click messages, these messages are generated only for windows belonging to classes that have the **CS\_DBLCLKS** class style. Your application must set this style when registering the window class. For more information, see [Window Classes](https://docs.microsoft.com/windows/desktop/winmsg/window-classes).
+An application-defined window does not, by default, receive double-click messages. Because of the system overhead involved in generating double-click messages, these messages are generated only for windows belonging to classes that have the **CS\_DBLCLKS** class style. Your application must set this style when registering the window class. For more information, see [Window Classes](/windows/desktop/winmsg/window-classes).
 
 A double-click message is always the third message in a four-message series. The first two messages are the button-down and button-up messages generated by the first click. The second click generates the double-click message followed by another button-up message. For example, double-clicking the left mouse button generates the following message sequence:
 
@@ -194,7 +194,7 @@ Because a window always receives a button-down message before receiving a double
 
 A window receives a nonclient area mouse message when a mouse event occurs in any part of a window except the client area. A window's nonclient area consists of its border, menu bar, title bar, scroll bar, window menu, minimize button, and maximize button.
 
-The system generates nonclient area messages primarily for its own use. For example, the system uses nonclient area messages to change the cursor to a two-headed arrow when the cursor hot spot moves into a window's border. A window must pass nonclient area mouse messages to the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function to take advantage of the built-in mouse interface.
+The system generates nonclient area messages primarily for its own use. For example, the system uses nonclient area messages to change the cursor to a two-headed arrow when the cursor hot spot moves into a window's border. A window must pass nonclient area mouse messages to the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function to take advantage of the built-in mouse interface.
 
 There is a corresponding nonclient area mouse message for each client area mouse message. The names of these messages are similar except that the named constants for the nonclient area messages include the letters NC. For example, moving the cursor in the nonclient area generates a [**WM\_NCMOUSEMOVE**](wm-ncmousemove.md) message, and pressing the left mouse button while the cursor is in the nonclient area generates a [**WM\_NCLBUTTONDOWN**](wm-nclbuttondown.md) message.
 
@@ -204,9 +204,9 @@ The *wParam* parameter contains a hit-test value, a value that indicates where i
 
 ### The WM\_NCHITTEST Message
 
-Whenever a mouse event occurs, the system sends a [**WM\_NCHITTEST**](wm-nchittest.md) message to either the window that contains the cursor hot spot or the window that has captured the mouse. The system uses this message to determine whether to send a client area or nonclient area mouse message. An application that must receive mouse movement and mouse button messages must pass the **WM\_NCHITTEST** message to the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function.
+Whenever a mouse event occurs, the system sends a [**WM\_NCHITTEST**](wm-nchittest.md) message to either the window that contains the cursor hot spot or the window that has captured the mouse. The system uses this message to determine whether to send a client area or nonclient area mouse message. An application that must receive mouse movement and mouse button messages must pass the **WM\_NCHITTEST** message to the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function.
 
-The *lParam* parameter of the [**WM\_NCHITTEST**](wm-nchittest.md) message contains the screen coordinates of the cursor hot spot. The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function examines the coordinates and returns a hit-test value that indicates the location of the hot spot. The hit-test value can be one of the following values.
+The *lParam* parameter of the [**WM\_NCHITTEST**](wm-nchittest.md) message contains the screen coordinates of the cursor hot spot. The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function examines the coordinates and returns a hit-test value that indicates the location of the hot spot. The hit-test value can be one of the following values.
 
 
 
@@ -219,7 +219,7 @@ The *lParam* parameter of the [**WM\_NCHITTEST**](wm-nchittest.md) message conta
 | **HTCAPTION**     | In a title bar.                                                                                                                                                                                     |
 | **HTCLIENT**      | In a client area.                                                                                                                                                                                   |
 | **HTCLOSE**       | In a **Close** button.                                                                                                                                                                              |
-| **HTERROR**       | On the screen background or on a dividing line between windows (same as HTNOWHERE, except that the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function produces a system beep to indicate an error). |
+| **HTERROR**       | On the screen background or on a dividing line between windows (same as HTNOWHERE, except that the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function produces a system beep to indicate an error). |
 | **HTGROWBOX**     | In a size box (same as **HTSIZE**).                                                                                                                                                                 |
 | **HTHELP**        | In a **Help** button.                                                                                                                                                                               |
 | **HTHSCROLL**     | In a horizontal scroll bar.                                                                                                                                                                         |
@@ -243,13 +243,13 @@ The *lParam* parameter of the [**WM\_NCHITTEST**](wm-nchittest.md) message conta
 
  
 
-If the cursor is in the client area of a window, [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) returns the **HTCLIENT** hit-test value to the window procedure. When the window procedure returns this code to the system, the system converts the screen coordinates of the cursor hot spot to client coordinates, and then posts the appropriate client area mouse message.
+If the cursor is in the client area of a window, [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) returns the **HTCLIENT** hit-test value to the window procedure. When the window procedure returns this code to the system, the system converts the screen coordinates of the cursor hot spot to client coordinates, and then posts the appropriate client area mouse message.
 
-The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function returns one of the other hit-test values when the cursor hot spot is in a window's nonclient area. When the window procedure returns one of these hit-test values, the system posts a nonclient area mouse message, placing the hit-test value in the message's *wParam* parameter and the cursor coordinates in the *lParam* parameter.
+The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function returns one of the other hit-test values when the cursor hot spot is in a window's nonclient area. When the window procedure returns one of these hit-test values, the system posts a nonclient area mouse message, placing the hit-test value in the message's *wParam* parameter and the cursor coordinates in the *lParam* parameter.
 
 ## Mouse Sonar
 
-The Mouse Sonar accessibility feature briefly shows several concentric circles around the pointer when the user presses and releases the CTRL key. This feature helps a user locate the mouse pointer on a screen that is cluttered or with resolution set to high, on a poor quality monitor, or for users with impaired vision. For more information, see the following flags in [**SystemParametersInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa):
+The Mouse Sonar accessibility feature briefly shows several concentric circles around the pointer when the user presses and releases the CTRL key. This feature helps a user locate the mouse pointer on a screen that is cluttered or with resolution set to high, on a poor quality monitor, or for users with impaired vision. For more information, see the following flags in [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa):
 
 **SPI\_GETMOUSESONAR**
 
@@ -257,7 +257,7 @@ The Mouse Sonar accessibility feature briefly shows several concentric circles a
 
 ## Mouse Vanish
 
-The Mouse Vanish accessibility feature hides the pointer when the user is typing. The mouse pointer reappears when the user moves the mouse. This feature keeps the pointer from obscuring the text being typed, for example, in an e-mail or other document. For more information, see the following flags in [**SystemParametersInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa):
+The Mouse Vanish accessibility feature hides the pointer when the user is typing. The mouse pointer reappears when the user moves the mouse. This feature keeps the pointer from obscuring the text being typed, for example, in an e-mail or other document. For more information, see the following flags in [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa):
 
 **SPI\_GETMOUSEVANISH**
 
@@ -269,11 +269,11 @@ The mouse wheel combines the features of a wheel and a mouse button. The wheel h
 
 The mouse wheel is supported through the [**WM\_MOUSEWHEEL**](wm-mousewheel.md) message.
 
-Rotating the mouse sends the [**WM\_MOUSEWHEEL**](wm-mousewheel.md) message to the focus window. The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function propagates the message to the window's parent. There should be no internal forwarding of the message, since **DefWindowProc** propagates it up the parent chain until a window that processes it is found.
+Rotating the mouse sends the [**WM\_MOUSEWHEEL**](wm-mousewheel.md) message to the focus window. The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function propagates the message to the window's parent. There should be no internal forwarding of the message, since **DefWindowProc** propagates it up the parent chain until a window that processes it is found.
 
 ### Determining the Number of Scroll Lines
 
-Applications should use the [**SystemParametersInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function to retrieve the number of lines a document scrolls for each scroll operation (wheel notch). To retrieve the number of lines, an application makes the following call:
+Applications should use the [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function to retrieve the number of lines a document scrolls for each scroll operation (wheel notch). To retrieve the number of lines, an application makes the following call:
 
 
 ```
@@ -288,7 +288,7 @@ The variable "pulScrollLines" points to an unsigned integer value that receives 
 -   If this number is **WHEEL\_PAGESCROLL**, a wheel roll should be interpreted as clicking once in the page down or page up regions of the scroll bar.
 -   If the number of lines to scroll is greater than the number of lines viewable, the scroll operation should also be interpreted as a page down or page up operation.
 
-The default value for the number of scroll lines will be 3. If a user changes the number of scroll lines, by using the Mouse Properties sheet in Control Panel, the operating system broadcasts a [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/library/ms725497(v=VS.85).aspx) message to all top-level windows with **SPI\_SETWHEELSCROLLLINES** specified. When an application receives the **WM\_SETTINGCHANGE** message, it can then get the new number of scroll lines by calling:
+The default value for the number of scroll lines will be 3. If a user changes the number of scroll lines, by using the Mouse Properties sheet in Control Panel, the operating system broadcasts a [**WM\_SETTINGCHANGE**](../winmsg/wm-settingchange.md) message to all top-level windows with **SPI\_SETWHEELSCROLLLINES** specified. When an application receives the **WM\_SETTINGCHANGE** message, it can then get the new number of scroll lines by calling:
 
 
 ```
@@ -320,7 +320,7 @@ The table below lists the controls with scrolling functionality (including scrol
 
 ### Detecting a Mouse with a Wheel
 
-To determine if a mouse with a wheel is connected, call [**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) with **SM\_MOUSEWHEELPRESENT**. A return value of **TRUE** indicates that the mouse is connected.
+To determine if a mouse with a wheel is connected, call [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) with **SM\_MOUSEWHEELPRESENT**. A return value of **TRUE** indicates that the mouse is connected.
 
 The following example is from the window procedure for a multiline edit control:
 
@@ -378,7 +378,7 @@ case WM_MOUSEWHEEL:
 
 ## Window Activation
 
-When the user clicks an inactive top-level window or the child window of an inactive top-level window, the system sends the [**WM\_MOUSEACTIVATE**](wm-mouseactivate.md) message (among others) to the top-level or child window. The system sends this message after posting the [**WM\_NCHITTEST**](wm-nchittest.md) message to the window, but before posting the button-down message. When **WM\_MOUSEACTIVATE** is passed to the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function, the system activates the top-level window and then posts the button-down message to the top-level or child window.
+When the user clicks an inactive top-level window or the child window of an inactive top-level window, the system sends the [**WM\_MOUSEACTIVATE**](wm-mouseactivate.md) message (among others) to the top-level or child window. The system sends this message after posting the [**WM\_NCHITTEST**](wm-nchittest.md) message to the window, but before posting the button-down message. When **WM\_MOUSEACTIVATE** is passed to the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function, the system activates the top-level window and then posts the button-down message to the top-level or child window.
 
 By processing [**WM\_MOUSEACTIVATE**](wm-mouseactivate.md), a window can control whether the top-level window becomes the active window as a result of a mouse click, and whether the window that was clicked receives the subsequent button-down message. It does so by returning one of the following values after processing **WM\_MOUSEACTIVATE**.
 
@@ -393,4 +393,4 @@ By processing [**WM\_MOUSEACTIVATE**](wm-mouseactivate.md), a window can control
 
 ## See also
 
-[Taking Advantage of High-Definition Mouse Movement](https://docs.microsoft.com/windows/win32/dxtecharts/taking-advantage-of-high-dpi-mouse-movement)
+[Taking Advantage of High-Definition Mouse Movement](../dxtecharts/taking-advantage-of-high-dpi-mouse-movement.md)

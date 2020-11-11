@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # DsRestoreGetDatabaseLocations function
 
-\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](https://msdn2.microsoft.com/library/aa384649.aspx) instead.\]
+\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](../vss/volume-shadow-copy-service-overview.md) instead.\]
 
 The **DsRestoreGetDatabaseLocations** function obtains the locations where backup files should be copied during a restore operation.
 
@@ -163,10 +163,4 @@ The **DsRestoreGetDatabaseLocations** function can be used to obtain the restora
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualNetwork interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Defines a virtual network. **IVMVirtualNetwork** objects are returned from [**IVMVirtualPC**](ivmvirtualpc.md) method [**FindVirtualNetwork**](ivmvirtualpc-findvirtualnetwork.md). You can also retrieve an **IVMVirtualNetwork** object from the [**IVMVirtualNetworkCollection**](ivmvirtualnetworkcollection.md) object returned from the [**IVMVirtualPC::VirtualNetworks**](ivmvirtualpc-virtualnetworks.md) property.
 
@@ -27,7 +27,7 @@ A virtual network consists of a virtual switch, which performs all internal rout
 
 ## Members
 
-The **IVMVirtualNetwork** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMVirtualNetwork** also has these types of members:
+The **IVMVirtualNetwork** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **IVMVirtualNetwork** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -55,7 +55,7 @@ The **IVMVirtualNetwork** interface has these properties.
 | Property                                                                | Access type          | Description                                                                    |
 |:------------------------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------------|
 | [**HostAdapter**](ivmvirtualnetwork-hostadapter.md)<br/>         | Read-only<br/> | The name of the adapter to which the virtual network is connected.<br/>  |
-| [**MediaType**](https://msdn.microsoft.com/library/Dd796707(v=VS.85).aspx)<br/>             | Read-only<br/> | Determines whether the virtual network instance is wireless or not.<br/> |
+| [**MediaType**](/previous-versions/windows/desktop/legacy/dd796707(v=vs.85))<br/>             | Read-only<br/> | Determines whether the virtual network instance is wireless or not.<br/> |
 | [**Name**](ivmvirtualnetwork-name.md)<br/>                       | Read-only<br/> | The unique name of the virtual network instance.<br/>                    |
 | [**NetworkAdapters**](ivmvirtualnetwork-networkadapters.md)<br/> | Read-only<br/> | An enumerable collection of NICs attached to the virtual network.<br/>   |
 
@@ -79,10 +79,4 @@ The **IVMVirtualNetwork** interface has these properties.
 
 
  
-
- 
-
-
-
-
 

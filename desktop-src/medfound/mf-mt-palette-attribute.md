@@ -16,7 +16,7 @@ Byte array
 
 ## Remarks
 
-The attribute data is an array of [**MFPaletteEntry**](/windows/desktop/api/mfobjects/ns-mfobjects-_mfpaletteentry) unions.
+The attribute data is an array of [**MFPaletteEntry**](/windows/win32/api/mfobjects/ns-mfobjects-mfpaletteentry) unions.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

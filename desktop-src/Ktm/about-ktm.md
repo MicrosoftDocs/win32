@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # About KTM
 
-Kernel Transaction Manager (KTM) is a transaction management service. It makes transactions available as kernel objects and provides transaction management services to system components such as [Transactional NTFS](https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal) (TxF).
+Kernel Transaction Manager (KTM) is a transaction management service. It makes transactions available as kernel objects and provides transaction management services to system components such as [Transactional NTFS](/windows/desktop/FileIO/transactional-ntfs-portal) (TxF).
 
 The following topics describe the uses and features of KTM:
 
@@ -18,11 +18,8 @@ The following topics describe the uses and features of KTM:
 -   [Interoperability With Other Windows Features](interoperability-with-other-windows-features.md)
 -   [KTM Security and Access Rights](ktm-security-and-access-rights.md)
 
-KTM relies on the [Common Log File System](https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-portal) for its operation. CLFS is a logging system that is capable of enabling transactions.
+KTM relies on the [Common Log File System](/previous-versions/windows/desktop/clfs/common-log-file-system-portal) for its operation. CLFS is a logging system that is capable of enabling transactions.
 
  
 
  
-
-
-

@@ -48,14 +48,10 @@ Link items can be in any one of three states, represented by the flags in the fo
 Some languages, such as Arabic or Hebrew, are written right-to-left (RTL); English is written left-to-right (LTR). Combining RTL with LTR is called bidirectional text. Mixing LTR and RTL Unicode or HTML directional markup constructs in resource strings, as bidirectional flow markers to control the flow of strings, may not produce the expected result when using a SysLink control. For instance, an LTR-marked sentence may not display correctly in RTL context.
 
 > [!Note]  
-> SysLink controls do not support bidirectional display under all scenarios. Use a SysLink control only if you know that a simple LTR or RTL layout is adequate. Otherwise, consider using a more advanced technology such as [MSHTML](https://msdn.microsoft.com/library/aa753630(VS.85).aspx).
+> SysLink controls do not support bidirectional display under all scenarios. Use a SysLink control only if you know that a simple LTR or RTL layout is adequate. Otherwise, consider using a more advanced technology such as [MSHTML](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa753630(v=vs.85)).
 
  
 
  
 
  
-
-
-
-

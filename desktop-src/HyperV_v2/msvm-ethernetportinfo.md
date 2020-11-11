@@ -55,7 +55,7 @@ Data type: **Msvm\_EthernetSwitchPort**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_Dependency.Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_Dependency.Antecedent")
 </dt> </dl>
 
 An instance of the [**Msvm\_EthernetSwitchPort**](msvm-ethernetswitchport.md) class that represents the switch port.
@@ -71,7 +71,7 @@ Data type: **Msvm\_EthernetPortData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_Dependency.Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_Dependency.Dependent")
 </dt> </dl>
 
 An instance of the [**Msvm\_EthernetPortData**](msvm-ethernetportdata.md) class that represents the port data.
@@ -93,9 +93,4 @@ An instance of the [**Msvm\_EthernetPortData**](msvm-ethernetportdata.md) class 
 
 
  
-
- 
-
-
-
 

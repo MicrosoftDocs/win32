@@ -32,7 +32,7 @@ The NTFS implementations of [**IPropertySetStorage**](/windows/desktop/api/Propi
 The NTFS implementation stores property sets in alternate streams of an NTFS file. The alternate streams must be copied when the main file is copied.
 
 > [!Caution]  
-> Not all file systems support such streams. If an NTFS file with property sets is copied to a FAT volume, only the data in the file is copied; the property set is lost. The [**CopyFile**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile) function does not return an error in this case.
+> Not all file systems support such streams. If an NTFS file with property sets is copied to a FAT volume, only the data in the file is copied; the property set is lost. The [**CopyFile**](/windows/desktop/api/winbase/nf-winbase-copyfile) function does not return an error in this case.
 
  
 
@@ -71,28 +71,28 @@ Deletes a property set in the current property storage.
 <span id="IPropertySetStorage__Enum"></span><span id="ipropertysetstorage__enum"></span><span id="IPROPERTYSETSTORAGE__ENUM"></span>[**IPropertySetStorage::Enum**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-enum)
 </dt> <dd>
 
-Creates an object used to enumerate [**STATPROPSETSTG**](https://msdn.microsoft.com/library/Aa379184(v=VS.85).aspx) structures. Each **STATPROPSETSTG** structure provides data about a single property set.
+Creates an object used to enumerate [**STATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) structures. Each **STATPROPSETSTG** structure provides data about a single property set.
 
 </dd> </dl>
 
 ## Remarks
 
-The NTFS implementations of [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) and [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) store property sets in a file without affecting the contents of that file. For example, if you create a property set in an HTML file named Default.htm, that file still displays properly in a Web browser. That is, changes to a file using these two interfaces are undetectable when accessing a file with the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function.
+The NTFS implementations of [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) and [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) store property sets in a file without affecting the contents of that file. For example, if you create a property set in an HTML file named Default.htm, that file still displays properly in a Web browser. That is, changes to a file using these two interfaces are undetectable when accessing a file with the [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) function.
 
 The NTFS implementation of [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) provides a safe implementation when used to write property sets to a file on an NTFS version 5.0 volume. Such property sets cannot be corrupted by the implementation even in the event of a system failure. For example, if the power to a system fails during a call to [**IPropertyStorage::Commit**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-commit) while the property set is flushed to the disk, the property set is never left in an intermediate state. Either the previous version of the property set remains or all of the updates are saved.
 
 The NTFS implementation of [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) differs from the compound file implementation in the following ways:
 
--   A [**STATPROPSETSTG**](https://msdn.microsoft.com/library/Aa379184(v=VS.85).aspx) structure obtained from the [**IEnumSTATPROPSETSTG**](https://msdn.microsoft.com/library/Aa379184(v=VS.85).aspx) interface contains a **clsid** member whose value is always zero (**CLSID\_NULL**). With the compound file implementation, the correct **clsid** member is returned for non-simple (see [Storage and Stream Objects for a Property Set](storage-vs--stream-for-a-property-set.md)) property sets.
+-   A [**STATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) structure obtained from the [**IEnumSTATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) interface contains a **clsid** member whose value is always zero (**CLSID\_NULL**). With the compound file implementation, the correct **clsid** member is returned for non-simple (see [Storage and Stream Objects for a Property Set](storage-vs--stream-for-a-property-set.md)) property sets.
 -   When obtaining an NTFS implementation of [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) interface pointer using the [**StgCreateStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex) or [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) function, the *grfmode* parameter must follow the same rules as for the compound file implementation.
 
     In addition, the following flags may not be used:
 
     **STGM\_SIMPLE**, **STGM\_TRANSACTED**, **STGM\_CONVERT**, **STGM\_PRIORITY**, and **STGM\_DELETEONRELEASE**.
 
--   When an NTFS [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) interface is obtained by the [**StgCreateStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex) or [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) functions, the sharing modes primarily apply to other instances of that interface, and not to instances of opening the file itself. For example, if an NTFS **IPropertySetStorage** interface is opened by calling the **StgOpenStorageEx** function, with the *grfmode* parameter set to **STGM\_READWRITE\|STGM\_SHARE\_EXCLUSIVE**, it is possible to open the file with the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function.
+-   When an NTFS [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) interface is obtained by the [**StgCreateStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex) or [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) functions, the sharing modes primarily apply to other instances of that interface, and not to instances of opening the file itself. For example, if an NTFS **IPropertySetStorage** interface is opened by calling the **StgOpenStorageEx** function, with the *grfmode* parameter set to **STGM\_READWRITE\|STGM\_SHARE\_EXCLUSIVE**, it is possible to open the file with the [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) function.
 
-    Such simultaneous instances of opening this interface are subject to the following constraints: the *dwShareMode* parameter in the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function must specify the **FILE\_SHARE\_READ** flag, and the *dwAccess* parameter must not specify the **DELETE** flag. Also, the [**DeleteFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea) and [**MoveFile**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefile) functions must not be called on a file for which these property set interfaces are open, as these functions require **DELETE** access to the file.
+    Such simultaneous instances of opening this interface are subject to the following constraints: the *dwShareMode* parameter in the [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) function must specify the **FILE\_SHARE\_READ** flag, and the *dwAccess* parameter must not specify the **DELETE** flag. Also, the [**DeleteFile**](/windows/desktop/api/fileapi/nf-fileapi-deletefilea) and [**MoveFile**](/windows/desktop/api/winbase/nf-winbase-movefile) functions must not be called on a file for which these property set interfaces are open, as these functions require **DELETE** access to the file.
 
 -   If an NTFS [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) method is opened as read-only, and the file currently has no property sets, the object returned will not actually hold open the file. Consequently, other openings of that file will succeed, even if the sharing mode of the original open operation would otherwise reject it.
 
@@ -117,13 +117,9 @@ The NTFS implementation of [**IPropertySetStorage**](/windows/desktop/api/Propid
 [**PROPSETFLAG Constants**](propsetflag-constants.md)
 </dt> <dt>
 
-[**STATPROPSETSTG**](https://msdn.microsoft.com/library/Aa379184(v=VS.85).aspx)
+[**STATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg)
 </dt> </dl>
 
  
 
  
-
-
-
-

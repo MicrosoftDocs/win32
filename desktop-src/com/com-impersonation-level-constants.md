@@ -36,7 +36,7 @@ Specifies an impersonation level, which indicates the amount of authority given 
 
 ## Remarks
 
-[**GetUserName**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getusernamea) will fail while impersonating at identify level. The workaround is to impersonate, call [**OpenThreadToken**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken), revert, call [**GetTokenInformation**](https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation), and finally, call [**LookupAccountSid**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountsida). Using [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket), the client sets the impersonation level
+[**GetUserName**](/windows/desktop/api/winbase/nf-winbase-getusernamea) will fail while impersonating at identify level. The workaround is to impersonate, call [**OpenThreadToken**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken), revert, call [**GetTokenInformation**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation), and finally, call [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida). Using [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket), the client sets the impersonation level
 
 Using [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket), the client sets the impersonation level and proxy identity that will be available when a server calls [**CoImpersonateClient**](/windows/desktop/api/combaseapi/nf-combaseapi-coimpersonateclient). The identity the server will see when impersonating takes place is described in [Cloaking](cloaking.md). Note that when making a call while impersonating, the callee will normally receive the caller's process token, not the caller's impersonation token. To receive the caller's impersonation token, the caller must enable cloaking.
 
@@ -60,10 +60,4 @@ Using [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cose
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

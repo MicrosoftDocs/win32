@@ -12,8 +12,8 @@ The **SECURITY\_INFORMATION** data type identifies the object-related security i
 
 -   The owner of an object
 -   The primary group of an object
--   The [*discretionary access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DACL) of an object
--   The [*system access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SACL) of an object
+-   The [*discretionary access control list*](/windows/desktop/SecGloss/d-gly) (DACL) of an object
+-   The [*system access control list*](/windows/desktop/SecGloss/s-gly) (SACL) of an object
 
 
 ```C++
@@ -38,7 +38,7 @@ Each item of security information is designated by a bit flag. Each bit flag can
 | GROUP\_SECURITY\_INFORMATION<br/> Right required to query: **READ\_CONTROL**<br/> Right required to set: **WRITE\_OWNER** <br/>                                                                                      | The primary group identifier of the object is being referenced.<br/>                                                                                                                                                                                                                                                                                                    |
 | LABEL\_SECURITY\_INFORMATION<br/> Right required to query: **READ\_CONTROL**<br/> Right required to set: **WRITE\_OWNER** <br/>                                                                                      | The mandatory integrity label is being referenced.<br/> The mandatory integrity label is an ACE in the SACL of the object.<br/> **Windows Server 2003 and Windows XP:** This bit flag is not available.<br/> <br/>                                                                                                                                    |
 | OWNER\_SECURITY\_INFORMATION<br/> Right required to query: **READ\_CONTROL**<br/> Right required to set: **WRITE\_OWNER** <br/>                                                                                      | The owner identifier of the object is being referenced.<br/>                                                                                                                                                                                                                                                                                                            |
-| PROTECTED\_DACL\_SECURITY\_INFORMATION<br/> Right required to query: Not available<br/> Right required to set: **WRITE\_DAC**<br/>                                                                                   | The DACL cannot inherit [*access control entries*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACEs).<br/>                                                                                                                                                                                                                   |
+| PROTECTED\_DACL\_SECURITY\_INFORMATION<br/> Right required to query: Not available<br/> Right required to set: **WRITE\_DAC**<br/>                                                                                   | The DACL cannot inherit [*access control entries*](/windows/desktop/SecGloss/a-gly) (ACEs).<br/>                                                                                                                                                                                                                   |
 | PROTECTED\_SACL\_SECURITY\_INFORMATION<br/> Right required to query: Not available<br/> Right required to set: **ACCESS\_SYSTEM\_SECURITY**<br/>                                                                     | The SACL cannot inherit ACEs.<br/>                                                                                                                                                                                                                                                                                                                                      |
 | SACL\_SECURITY\_INFORMATION<br/> Right required to query: **ACCESS\_SYSTEM\_SECURITY**<br/> Right required to set: **ACCESS\_SYSTEM\_SECURITY**<br/>                                                                 | The SACL of the object is being referenced.<br/>                                                                                                                                                                                                                                                                                                                        |
 | SCOPE\_SECURITY\_INFORMATION<br/> Right required to query: **READ\_CONTROL**<br/> Right required to set: **ACCESS\_SYSTEM\_SECURITY**<br/>                                                                           | The Central Access Policy (CAP) identifier applicable on the object that is being referenced. Each CAP identifier is stored in a SYSTEM\_SCOPED\_POLICY\_ID\_ACE type in the SACL of the SD.<br/> **Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This bit flag is not available.<br/> <br/> |
@@ -80,13 +80,13 @@ Each item of security information is designated by a bit flag. Each bit flag can
 [**GetFileSecurity**](/windows/desktop/api/Winbase/nf-winbase-getfilesecuritya)
 </dt> <dt>
 
-[**GetKernelObjectSecurity**](https://msdn.microsoft.com/library/Aa446641(v=VS.85).aspx)
+[**GetKernelObjectSecurity**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-getkernelobjectsecurity)
 </dt> <dt>
 
 [**GetNamedSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-getnamedsecurityinfoa)
 </dt> <dt>
 
-[**GetPrivateObjectSecurity**](https://msdn.microsoft.com/library/Aa446646(v=VS.85).aspx)
+[**GetPrivateObjectSecurity**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-getprivateobjectsecurity)
 </dt> <dt>
 
 [**GetSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-getsecurityinfo)
@@ -101,13 +101,13 @@ Each item of security information is designated by a bit flag. Each bit flag can
 [**SetFileSecurity**](/windows/desktop/api/Winbase/nf-winbase-setfilesecuritya)
 </dt> <dt>
 
-[**SetKernelObjectSecurity**](https://msdn.microsoft.com/library/Aa379578(v=VS.85).aspx)
+[**SetKernelObjectSecurity**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-setkernelobjectsecurity)
 </dt> <dt>
 
 [**SetNamedSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-setnamedsecurityinfoa)
 </dt> <dt>
 
-[**SetPrivateObjectSecurity**](https://msdn.microsoft.com/library/Aa379580(v=VS.85).aspx)
+[**SetPrivateObjectSecurity**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurity)
 </dt> <dt>
 
 [**SetSecurityAccessMask**](/windows/desktop/api/Securitybaseapi/nf-securitybaseapi-setsecurityaccessmask)
@@ -126,9 +126,4 @@ Each item of security information is designated by a bit flag. Each bit flag can
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -26,7 +26,7 @@ To create a job, call the [**IBackgroundCopyManager::CreateJob**](ibackgroundcop
 
 ## Members
 
-The **IBackgroundCopyJob** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IBackgroundCopyJob** also has these types of members:
+The **IBackgroundCopyJob** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IBackgroundCopyJob** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -90,10 +90,4 @@ The **IBackgroundCopyJob** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -23,7 +23,7 @@ topic_type:
 
 The user name to use for logon.
 
-For more details, see the documentation for the v1 [**UserName**](https://msdn.microsoft.com/library/Dd323307(v=VS.85).aspx) element.
+For more details, see the documentation for the v1 [**UserName**](./schema-username-userlogoncred-element.md) element.
 
 ## Element hierarchy
 
@@ -98,6 +98,3 @@ None.
  
 
  
-
-
-

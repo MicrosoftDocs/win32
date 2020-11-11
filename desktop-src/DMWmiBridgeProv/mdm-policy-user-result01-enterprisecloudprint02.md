@@ -56,7 +56,7 @@ The **MDM\_Policy\_User\_Result01\_EnterpriseCloudPrint02** class has these prop
 
 <dl> <dt>
 
-[CloudPrinterDiscoveryEndPoint](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-enterprisecloudprint#enterprisecloudprint-cloudprinterdiscoveryendpoint)
+[CloudPrinterDiscoveryEndPoint](/windows/client-management/mdm/policy-csp-enterprisecloudprint#enterprisecloudprint-cloudprinterdiscoveryendpoint)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -67,7 +67,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[CloudPrintOAuthAuthority](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-enterprisecloudprint#enterprisecloudprint-cloudprintoauthauthority)
+[CloudPrintOAuthAuthority](/windows/client-management/mdm/policy-csp-enterprisecloudprint#enterprisecloudprint-cloudprintoauthauthority)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -78,7 +78,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[CloudPrintOAuthClientId](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-enterprisecloudprint#enterprisecloudprint-cloudprintoauthclientid)
+[CloudPrintOAuthClientId](/windows/client-management/mdm/policy-csp-enterprisecloudprint#enterprisecloudprint-cloudprintoauthclientid)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -89,7 +89,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[CloudPrintResourceId](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-enterprisecloudprint#enterprisecloudprint-cloudprintresourceid)
+[CloudPrintResourceId](/windows/client-management/mdm/policy-csp-enterprisecloudprint#enterprisecloudprint-cloudprintresourceid)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -100,7 +100,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DiscoveryMaxPrinterLimit](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-enterprisecloudprint#enterprisecloudprint-discoverymaxprinterlimit)
+[DiscoveryMaxPrinterLimit](/windows/client-management/mdm/policy-csp-enterprisecloudprint#enterprisecloudprint-discoverymaxprinterlimit)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -120,12 +120,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[MopriaDiscoveryResourceId](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-enterprisecloudprint#enterprisecloudprint-mopriadiscoveryresourceid)
+[MopriaDiscoveryResourceId](/windows/client-management/mdm/policy-csp-enterprisecloudprint#enterprisecloudprint-mopriadiscoveryresourceid)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -145,7 +145,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> </dl>
@@ -165,10 +165,4 @@ Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qual
 
 
  
-
- 
-
-
-
-
 

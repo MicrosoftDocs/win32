@@ -49,7 +49,7 @@ Pointer to an [**ID3DXEffect**](id3dxeffect.md) interface that contains the effe
 *EnableColorCode* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Enable color coding to make the disassembly easier to read.
 
@@ -91,7 +91,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

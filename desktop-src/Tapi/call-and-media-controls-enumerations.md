@@ -40,7 +40,7 @@ TAPI 3.x methods use the following enumerations to set and report on events and 
 -   [**PHONE\_BUTTON\_FUNCTION**](/windows/desktop/api/Tapi3if/ne-tapi3if-phone_button_function)
 -   [**PHONE\_BUTTON\_MODE**](/windows/desktop/api/Tapi3if/ne-tapi3if-phone_button_mode)
 -   [**PHONE\_BUTTON\_STATE**](/windows/desktop/api/Tapi3if/ne-tapi3if-phone_button_state)
--   [**PHONE\_EVENT**](https://msdn.microsoft.com/library/ms725259(v=VS.85).aspx)
+-   [**PHONE\_EVENT**](/windows/win32/api/tspi/nc-tspi-phoneevent)
 -   [**PHONE\_HOOK\_SWITCH\_DEVICE**](/windows/desktop/api/Tapi3if/ne-tapi3if-phone_hook_switch_device)
 -   [**PHONE\_HOOK\_SWITCH\_STATE**](/windows/desktop/api/Tapi3if/ne-tapi3if-phone_hook_switch_state)
 -   [**PHONE\_LAMP\_MODE**](/windows/desktop/api/Tapi3if/ne-tapi3if-phone_lamp_mode)
@@ -68,6 +68,3 @@ TAPI 3.x methods use the following enumerations to set and report on events and 
  
 
  
-
-
-

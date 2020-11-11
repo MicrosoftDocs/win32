@@ -63,7 +63,7 @@ This section contains reference information for the Microsoft Direct3D 11 video
 -   [**D3D11\_VIDEO\_DECODER\_DESC**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_decoder_desc)
 -   [**D3D11\_VIDEO\_DECODER\_EXTENSION**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_decoder_extension)
 -   [**D3D11\_VIDEO\_DECODER\_OUTPUT\_VIEW\_DESC**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_decoder_output_view_desc)
--   [**D3D11\_VIDEO\_DECODER\_SUB\_SAMPLE\_MAPPING\_BLOCK**](/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_decoder_sub_sample_mapping_block)
+-   [**D3D11\_VIDEO\_DECODER\_SUB\_SAMPLE\_MAPPING\_BLOCK**](/windows/win32/api/d3d11_1/ns-d3d11_1-d3d11_video_decoder_sub_sample_mapping_block)
 -   [**D3D11\_VIDEO\_PROCESSOR\_CAPS**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_caps)
 -   [**D3D11\_VIDEO\_PROCESSOR\_COLOR\_SPACE**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_color_space)
 -   [**D3D11\_VIDEO\_PROCESSOR\_CONTENT\_DESC**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_content_desc)

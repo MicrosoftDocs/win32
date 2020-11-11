@@ -14,11 +14,11 @@ However, simply prompting for credentials may train users to supply those to any
 
 **To properly acquire user credentials**
 
-1.  Inform the user, by using a message that is clearly part of your application, that they will see a dialog box that requests their user name and password. You can also use the [**CREDUI\_INFO**](https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credui_infoa) structure on the call to [**CredUIPromptForCredentials**](https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa) to convey identifying data or a message.
-2.  Call [**CredUIPromptForCredentials**](https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa). Note that the maximum number of characters specified for user name and password information includes the terminating null character.
-3.  Call [**CredUIParseUserName**](https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduiparseusernamea) and [**CredUIConfirmCredentials**](https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduiconfirmcredentialsa) to verify that you obtained appropriate credentials.
+1.  Inform the user, by using a message that is clearly part of your application, that they will see a dialog box that requests their user name and password. You can also use the [**CREDUI\_INFO**](/windows/desktop/api/wincred/ns-wincred-credui_infoa) structure on the call to [**CredUIPromptForCredentials**](/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa) to convey identifying data or a message.
+2.  Call [**CredUIPromptForCredentials**](/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa). Note that the maximum number of characters specified for user name and password information includes the terminating null character.
+3.  Call [**CredUIParseUserName**](/windows/desktop/api/wincred/nf-wincred-creduiparseusernamea) and [**CredUIConfirmCredentials**](/windows/desktop/api/wincred/nf-wincred-creduiconfirmcredentialsa) to verify that you obtained appropriate credentials.
 
-The following example shows how to call [**CredUIPromptForCredentials**](https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa) to ask the user for a user name and password. It begins by filling in a CREDUI\_INFO structure with information about what prompts to use. Next, the code fills two buffers with zeros. This is done to ensure that no information gets passed to the function that might reveal an old user name or password to the user. The call to **CredUIPromptForCredentials** brings up the dialog box. For security reasons, this example uses the CREDUI\_FLAGS\_DO\_NOT\_PERSIST flag to prevent the operating system from storing the password because it might then be exposed. If there are no errors, **CredUIPromptForCredentials** fills in the pszName and pszPwd variables and returns zero. When the application has finished using the credentials, it should put zeros in the buffers to prevent the information from being accidentally revealed.
+The following example shows how to call [**CredUIPromptForCredentials**](/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa) to ask the user for a user name and password. It begins by filling in a CREDUI\_INFO structure with information about what prompts to use. Next, the code fills two buffers with zeros. This is done to ensure that no information gets passed to the function that might reveal an old user name or password to the user. The call to **CredUIPromptForCredentials** brings up the dialog box. For security reasons, this example uses the CREDUI\_FLAGS\_DO\_NOT\_PERSIST flag to prevent the operating system from storing the password because it might then be exposed. If there are no errors, **CredUIPromptForCredentials** fills in the pszName and pszPwd variables and returns zero. When the application has finished using the credentials, it should put zeros in the buffers to prevent the information from being accidentally revealed.
 
 
 ```C++
@@ -70,15 +70,12 @@ if(!dwErr)
 
 <dl> <dt>
 
-[**CredUICmdLinePromptForCredentials**](https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduicmdlinepromptforcredentialsa)
+[**CredUICmdLinePromptForCredentials**](/windows/desktop/api/wincred/nf-wincred-creduicmdlinepromptforcredentialsa)
 </dt> <dt>
 
-[**CREDUI\_UINFO**](https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credui_infoa)
+[**CREDUI\_UINFO**](/windows/desktop/api/wincred/ns-wincred-credui_infoa)
 </dt> </dl>
 
  
 
  
-
-
-

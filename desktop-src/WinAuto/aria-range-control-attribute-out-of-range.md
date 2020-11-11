@@ -20,11 +20,11 @@ Error
 
 ## Description
 
-This error applies to elements that have a [**role**](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference) (implicit or explicit) equal to **progressbar**, **slider**, or **spinbutton**.
+This error applies to elements that have a [**role**](https://developer.mozilla.org/docs/Web/HTML/Reference) (implicit or explicit) equal to **progressbar**, **slider**, or **spinbutton**.
 
-This error indicates that the exposed [**aria-valuenow**](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) value is not in the range defined by the [**aria-valuemin**](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) and [**aria-valuemax**](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) attributes.
+This error indicates that the exposed [**aria-valuenow**](https://developer.mozilla.org/docs/Web/Accessibility/ARIA) value is not in the range defined by the [**aria-valuemin**](https://developer.mozilla.org/docs/Web/Accessibility/ARIA) and [**aria-valuemax**](https://developer.mozilla.org/docs/Web/Accessibility/ARIA) attributes.
 
-To fix this error, check your implementation to ensure that the [**aria-valuemin**](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) and [**aria-valuemax**](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) attributes are correctly set, and that the [**aria-valuenow**](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) attribute value is properly maintained.
+To fix this error, check your implementation to ensure that the [**aria-valuemin**](https://developer.mozilla.org/docs/Web/Accessibility/ARIA) and [**aria-valuemax**](https://developer.mozilla.org/docs/Web/Accessibility/ARIA) attributes are correctly set, and that the [**aria-valuenow**](https://developer.mozilla.org/docs/Web/Accessibility/ARIA) attribute value is properly maintained.
 
 ## Related topics
 

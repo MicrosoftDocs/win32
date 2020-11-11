@@ -89,14 +89,14 @@ public static void JetOpenTempTable2(
 <!-- end list -->
 
   - numColumns  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Number of column definitions.
 
 <!-- end list -->
 
   - lcid  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The locale ID to use to compare any Unicode key column data in the temporary table. Any locale may be used as long as the appropriate language pack has been installed on the machine.
 
@@ -130,4 +130,3 @@ public static void JetOpenTempTable2(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

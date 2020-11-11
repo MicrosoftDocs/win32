@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Types of Coordinate Systems
 
-Windows GDI+ uses three coordinate spaces: world, page, and device. When you make the call `myGraphics.DrawLine(&myPen, 0, 0, 160, 80)`, the points that you pass to the [**Graphics::DrawLine**](https://msdn.microsoft.com/library/ms536020(v=VS.85).aspx) method — (0, 0) and (160, 80) — are in the world coordinate space. Before GDI+ can draw the line on the screen, the coordinates pass through a sequence of transformations. One transformation converts world coordinates to page coordinates, and another transformation converts page coordinates to device coordinates.
+Windows GDI+ uses three coordinate spaces: world, page, and device. When you make the call `myGraphics.DrawLine(&myPen, 0, 0, 160, 80)`, the points that you pass to the [**Graphics::DrawLine**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inconstpoint__inconstpoint_)) method — (0, 0) and (160, 80) — are in the world coordinate space. Before GDI+ can draw the line on the screen, the coordinates pass through a sequence of transformations. One transformation converts world coordinates to page coordinates, and another transformation converts page coordinates to device coordinates.
 
 Suppose you want to work with a coordinate system that has its origin in the body of the client area rather than the upper-left corner. Say, for example, that you want the origin to be 100 pixels from the left edge of the client area and 50 pixels from the top of the client area. The following illustration shows such a coordinate system.
 
@@ -59,7 +59,7 @@ myGraphics.DrawLine(&myPen, 0, 0, 2, 1);
 
 
 > [!Note] If you don't specify a pen width when you construct your pen, the previous example will draw a line that is one inch wide. You can specify the pen width in the second argument to the [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) constructor:
->
+> <br/><br/>
 > `Pen myPen(Color(255, 0, 0, 0), 1/myGraphics.GetDpiX())`.
 
  
@@ -110,6 +110,3 @@ If we assume that the display device has 96 dots per inch in the horizontal dire
  
 
  
-
-
-

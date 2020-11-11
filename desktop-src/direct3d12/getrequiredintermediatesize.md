@@ -50,7 +50,7 @@ A pointer to the [**ID3D12Resource**](/windows/desktop/api/d3d12/nn-d3d12-id3d12
 *FirstSubresource* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The index of the first subresource in the resource. The range of valid values is 0 to D3D12\_REQ\_SUBRESOURCES.
 
@@ -59,7 +59,7 @@ The index of the first subresource in the resource. The range of valid values is
 *NumSubresources* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The number of subresources in the resource. The range of valid values is 0 to (D3D12\_REQ\_SUBRESOURCES - *FirstSubresource*).
 
@@ -67,7 +67,7 @@ The number of subresources in the resource. The range of valid values is 0 to (D
 
 ## Return value
 
-Type: **[**UINT64**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT64**](/windows/desktop/WinProg/windows-data-types)**
 
 The size of the buffer, in bytes.
 
@@ -91,10 +91,4 @@ The size of the buffer, in bytes.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

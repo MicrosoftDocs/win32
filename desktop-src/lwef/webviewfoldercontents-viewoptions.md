@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # WebViewFolderContents.ViewOptions property
 
-Gets a set of [**ShellFolderViewOptions**](https://docs.microsoft.com/windows/desktop/api/shldisp/ne-shldisp-shellfolderviewoptions) flags that indicate the current options of the view.
+Gets a set of [**ShellFolderViewOptions**](/windows/desktop/api/shldisp/ne-shldisp-shellfolderviewoptions) flags that indicate the current options of the view.
 
 This property is read-only.
 
@@ -35,7 +35,7 @@ objViewOptions = WebViewFolderContents.ViewOptions
 
 ## Property value
 
-A variable of type [IDispatch](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) that receives the view options object.
+A variable of type [IDispatch](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) that receives the view options object.
 
 ## Examples
 
@@ -88,10 +88,4 @@ The following example shows the proper usage of this property in JScript embedde
 
 
  
-
- 
-
-
-
-
 

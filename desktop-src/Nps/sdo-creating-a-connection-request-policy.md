@@ -331,34 +331,30 @@ End Module
 
 <dl> <dt>
 
-[Order in Which to Use the SDO API](https://docs.microsoft.com/windows/desktop/Nps/sdo-order-in-which-to-use-the-sdo-api)
+[Order in Which to Use the SDO API](/windows/desktop/Nps/sdo-order-in-which-to-use-the-sdo-api)
 </dt> <dt>
 
-[SDO Supported Attributes](https://docs.microsoft.com/windows/desktop/Nps/sdo-sdo-supported-attributes)
+[SDO Supported Attributes](/windows/desktop/Nps/sdo-sdo-supported-attributes)
 </dt> <dt>
 
-[**ISdo**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo)
+[**ISdo**](/windows/desktop/api/sdoias/nn-sdoias-isdo)
 </dt> <dt>
 
-[**ISdoCollection**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdocollection)
+[**ISdoCollection**](/windows/desktop/api/sdoias/nn-sdoias-isdocollection)
 </dt> <dt>
 
-[**ISdoDictionaryOld**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold)
+[**ISdoDictionaryOld**](/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold)
 </dt> <dt>
 
-[**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties)
+[**IASPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-iasproperties)
 </dt> <dt>
 
-[**POLICYPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-policyproperties)
+[**POLICYPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-policyproperties)
 </dt> <dt>
 
-[**PROFILEPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-profileproperties)
+[**PROFILEPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-profileproperties)
 </dt> </dl>
 
  
 
  
-
-
-
-

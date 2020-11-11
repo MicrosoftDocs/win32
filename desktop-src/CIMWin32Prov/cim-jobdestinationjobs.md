@@ -61,7 +61,7 @@ Data type: **CIM\_JobDestination**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_JobDestination**](cim-jobdestination.md) describing the job destination, possibly a queue.
@@ -77,7 +77,7 @@ Data type: **CIM\_Job**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_Job**](cim-job.md) describing the job that is in the job queue/Destination.
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

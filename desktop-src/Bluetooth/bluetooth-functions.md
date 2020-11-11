@@ -47,7 +47,7 @@ Bluetooth is also supported by using the Windows Sockets programming interface. 
 | [**BluetoothSelectDevicesFree**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothselectdevicesfree)                       | Frees resources associated with a previous call to the [**BluetoothSelectDevices**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothselectdevices) function.                                                                     |
 | [**BluetoothSendAuthenticationResponse**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsendauthenticationresponse)     | Called when an authentication request to send the passkey response is received.                                                                                                               |
 | [**BluetoothSendAuthenticationResponseEx**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsendauthenticationresponseex) | Called when an authentication request to send the passkey or numeric comparison response is received.                                                                                         |
-| [**BluetoothSetLocalServiceInfo**](https://msdn.microsoft.com/library/Bb870603(v=VS.85).aspx)                   | Sets local service information for a specific Bluetooth radio.                                                                                                                                |
+| [**BluetoothSetLocalServiceInfo**](/previous-versions/windows/desktop/legacy/bb870603(v=vs.85))                   | Sets local service information for a specific Bluetooth radio.                                                                                                                                |
 | [**BluetoothSetServiceState**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothsetservicestate)                           | Enables or disables services for a Bluetooth device.                                                                                                                                          |
 | [**BluetoothUnregisterAuthentication**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothunregisterauthentication)         | Removes registration for a callback routine that was previously registered with a call to the [**BluetoothRegisterForAuthentication**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothregisterforauthentication) function.      |
 | [**BluetoothUpdateDeviceRecord**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothupdatedevicerecord)                     | Updates the local computer cache about a Bluetooth device.                                                                                                                                    |
@@ -59,7 +59,3 @@ Bluetooth is also supported by using the Windows Sockets programming interface. 
  
 
  
-
-
-
-

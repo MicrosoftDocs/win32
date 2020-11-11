@@ -23,7 +23,7 @@ ms.custom: "seodec18"
 
 # Improving the performance of Direct2D apps
 
-Although [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) is hardware accelerated and is meant for high performance, you must use the features correctly to maximize throughput. The techniques we show here are derived from studying common scenarios and might not apply to all app scenarios. Therefore, careful understanding of app behavior and performance goals can help achieve the results that you want.
+Although [Direct2D](./direct2d-portal.md) is hardware accelerated and is meant for high performance, you must use the features correctly to maximize throughput. The techniques we show here are derived from studying common scenarios and might not apply to all app scenarios. Therefore, careful understanding of app behavior and performance goals can help achieve the results that you want.
 
 -   [Resource usage](#resource-usage)
     -   [Reuse resources](#reuse-resources)
@@ -66,10 +66,10 @@ A resource is an allocation of some kind, either in video or system memory. Bitm
 
 In Direct2D, resources can be created both in software and hardware. Resource creation and deletion on hardware are expensive operations because they require lots of overhead for communicating with the video card. Let's see how Direct2D renders content to a target.
 
-In Direct2D, all the rendering commands are enclosed between a call to [**BeginDraw**](https://msdn.microsoft.com/library/Dd371768(v=VS.85).aspx) and a call to [**EndDraw**](https://msdn.microsoft.com/library/Dd371924(v=VS.85).aspx). These calls are made to a render target. You must call the **BeginDraw** method before you call rendering operations . After you call **BeginDraw** , a context typically builds up a batch of rendering commands, but delays processing of these commands until one of these statements is true:
+In Direct2D, all the rendering commands are enclosed between a call to [**BeginDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw) and a call to [**EndDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw). These calls are made to a render target. You must call the **BeginDraw** method before you call rendering operations . After you call **BeginDraw** , a context typically builds up a batch of rendering commands, but delays processing of these commands until one of these statements is true:
 
--   [**EndDraw**](https://msdn.microsoft.com/library/Dd371924(v=VS.85).aspx) occurred. When **EndDraw** is called, it causes any batched drawing operations to complete and returns the status of the operation.
--   You make an explicit call to [**Flush**](https://msdn.microsoft.com/library/Dd316801(v=VS.85).aspx): The **Flush** method causes the batch to be processed and all pending commands to be issued.
+-   [**EndDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) occurred. When **EndDraw** is called, it causes any batched drawing operations to complete and returns the status of the operation.
+-   You make an explicit call to [**Flush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush): The **Flush** method causes the batch to be processed and all pending commands to be issued.
 -   The buffer holding the rendering commands is full. If this buffer becomes full before the previous two conditions are fulfilled, the rendering commands are flushed out.
 
 Until the primitives are flushed, Direct2D keeps internal references to corresponding resources like bitmaps and brushes.
@@ -85,7 +85,7 @@ As already mentioned, resource creation and deletion is expensive on hardware. S
 
 ## Restrict the use of flush
 
-Because the [**Flush**](https://msdn.microsoft.com/library/Dd316801(v=VS.85).aspx) method causes the batched rendering commands to be processed, we recommend that you don't use it. For most common scenarios, leave resource management to Direct2D.
+Because the [**Flush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush) method causes the batched rendering commands to be processed, we recommend that you don't use it. For most common scenarios, leave resource management to Direct2D.
 
 ## Bitmaps
 
@@ -114,19 +114,19 @@ There are some common scenarios for which a bitmap atlas can serve very well. Sm
 Creating shared bitmaps enables advanced callers to create Direct2D bitmap objects that are backed directly by an existing object, already compatible with the render target. This avoids creating multiple surfaces and helps in reducing performance overhead.
 
 > [!Note]  
-> Shared bitmaps are usually limited to software targets or to targets interoperable with DXGI. Use the [**CreateBitmapFromDxgiSurface**](https://msdn.microsoft.com/library/Hh404482(v=VS.85).aspx), [**CreateBitmapFromWicBitmap**](https://msdn.microsoft.com/library/Hh847971(v=VS.85).aspx), and [**CreateSharedBitmap**](https://msdn.microsoft.com/library/Dd371865(v=VS.85).aspx) methods to create shared bitmaps.
+> Shared bitmaps are usually limited to software targets or to targets interoperable with DXGI. Use the [**CreateBitmapFromDxgiSurface**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromdxgisurface(idxgisurface_constd2d1_bitmap_properties1_id2d1bitmap1)), [**CreateBitmapFromWicBitmap**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromwicbitmap(iwicbitmapsource_constd2d1_bitmap_properties1_id2d1bitmap1)), and [**CreateSharedBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsharedbitmap) methods to create shared bitmaps.
 
  
 
 ### Copying bitmaps
 
-Creating a DXGI surface is an expensive operation so reuse existing surfaces when you can. Even in software, if a bitmap is mostly in the form you want except for a small portion, it is better to update that portion than to throw the whole bitmap away and re-create everything. Although you can use [**CreateCompatibleRenderTarget**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(id2d1bitmaprendertarget)) to achieve the same results, rendering is generally a much more expensive operation than copying. This is because, to improve cache locality, the hardware doesn't actually store a bitmap in the same memory order that the bitmap is addressed. Instead, the bitmap might be swizzled. The swizzling is hidden from the CPU either by the driver (which is slow and used only on lower-end parts), or by the memory manager on the GPU. Because of constraints on how data is written into a render target when rendering, render targets are typically either not swizzled, or swizzled in a way that is less optimal than can be achieved if you know that you never have to render to the surface. Therefore, the [CopyFrom](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap)\* methods are provided for copying rectangles from a source to the Direct2D bitmap.
+Creating a DXGI surface is an expensive operation so reuse existing surfaces when you can. Even in software, if a bitmap is mostly in the form you want except for a small portion, it is better to update that portion than to throw the whole bitmap away and re-create everything. Although you can use [**CreateCompatibleRenderTarget**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(id2d1bitmaprendertarget)) to achieve the same results, rendering is generally a much more expensive operation than copying. This is because, to improve cache locality, the hardware doesn't actually store a bitmap in the same memory order that the bitmap is addressed. Instead, the bitmap might be swizzled. The swizzling is hidden from the CPU either by the driver (which is slow and used only on lower-end parts), or by the memory manager on the GPU. Because of constraints on how data is written into a render target when rendering, render targets are typically either not swizzled, or swizzled in a way that is less optimal than can be achieved if you know that you never have to render to the surface. Therefore, the [CopyFrom](/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap)\* methods are provided for copying rectangles from a source to the Direct2D bitmap.
 
 CopyFrom can be used in any of its three forms:
 
--   [**CopyFromBitmap**](https://msdn.microsoft.com/library/Dd371152(v=VS.85).aspx)
--   [**CopyFromRenderTarget**](https://msdn.microsoft.com/library/Dd371158(v=VS.85).aspx)
--   [**CopyFromMemory**](https://msdn.microsoft.com/library/Dd371155(v=VS.85).aspx)
+-   [**CopyFromBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-copyfrombitmap)
+-   [**CopyFromRenderTarget**](/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-copyfromrendertarget)
+-   [**CopyFromMemory**](/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-copyfrommemory)
 
 ## Use tiled bitmap over dashing
 
@@ -139,7 +139,7 @@ Cache content if you render the same content frame over frame, especially when t
 There are three caching techniques that you can use:
 
 -   Full scene caching using a color bitmap.
--   Per primitive caching using an A8 bitmap and the [**FillOpacityMask**](https://msdn.microsoft.com/library/Hh847974(v=VS.85).aspx) method.
+-   Per primitive caching using an A8 bitmap and the [**FillOpacityMask**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-fillopacitymask(id2d1bitmap_id2d1brush_constd2d1_rect_f_constd2d1_rect_f)) method.
 -   Per-primitive caching using geometry realizations.
 
 Let's look at each of these in more detail.
@@ -209,7 +209,8 @@ m_d2dContext->BeginDraw();
 …
 m_d2dContext->EndDraw();
 
-// Call the FillOpacityMask method. 
+// Call the FillOpacityMask method
+// Note: for this call to work correctly the anti alias mode must be D2D1_ANTIALIAS_MODE_ALIASED. 
 m_d2dContext->SetTarget(oldTarget.Get());
 m_d2dContext->FillOpacityMask(
     opacityBitmap.Get(),
@@ -254,7 +255,7 @@ Here's an example:
 
 ### Use specific draw primitive over draw geometry
 
-Use more specific draw*primitive* calls like [**DrawRectangle**](https://msdn.microsoft.com/library/Dd371902(v=VS.85).aspx) over generic [**DrawGeometry**](https://msdn.microsoft.com/library/Dd371890(v=VS.85).aspx) calls. This is because with **DrawRectangle**, the geometry is already known so rendering is faster.
+Use more specific draw*primitive* calls like [**DrawRectangle**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawrectangle(constd2d1_rect_f__id2d1brush_float_id2d1strokestyle)) over generic [**DrawGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry) calls. This is because with **DrawRectangle**, the geometry is already known so rendering is faster.
 
 ### Rendering static geometry
 
@@ -262,7 +263,7 @@ In scenarios where the geometry is static, use the per-primitive caching techniq
 
 ### Use a multithreaded device context
 
-Applications that expect to render significant amounts of complex geometric content should consider specifying the [**D2D1\_DEVICE\_CONTEXT\_OPTIONS\_ENABLE\_MULTI\_THREADED\_OPTIMIZATIONS**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_device_context_options) flag when creating a [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) device context. When this flag is specified, Direct2D will distribute rendering across all of the logical cores present on the system, which can significantly decrease overall rendering time.
+Applications that expect to render significant amounts of complex geometric content should consider specifying the [**D2D1\_DEVICE\_CONTEXT\_OPTIONS\_ENABLE\_MULTI\_THREADED\_OPTIMIZATIONS**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_device_context_options) flag when creating a [Direct2D](./direct2d-portal.md) device context. When this flag is specified, Direct2D will distribute rendering across all of the logical cores present on the system, which can significantly decrease overall rendering time.
 
 Notes:
 
@@ -272,11 +273,11 @@ Notes:
 
 ## Drawing text with Direct2D
 
-Direct2D text rendering functionality is offered in two parts. The first part, exposed as the [**ID2D1RenderTarget::DrawText**](https://msdn.microsoft.com/library/Dd371919(v=VS.85).aspx) and [**ID2D1RenderTarget::DrawTextLayout**](https://msdn.microsoft.com/library/Dd371913(v=VS.85).aspx) method, enables a caller to pass either a string and formatting parameters or a DWrite text layout object for multiple formats. This should be suitable for most callers. The second way to render text, exposed as the [**ID2D1RenderTarget::DrawGlyphRun**](https://msdn.microsoft.com/library/Dd371893(v=VS.85).aspx) method, provides rasterization for customers who already know the position of the glyphs they want to render. The following two general rules can help improve text performance when drawing in Direct2D.
+Direct2D text rendering functionality is offered in two parts. The first part, exposed as the [**ID2D1RenderTarget::DrawText**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)) and [**ID2D1RenderTarget::DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) method, enables a caller to pass either a string and formatting parameters or a DWrite text layout object for multiple formats. This should be suitable for most callers. The second way to render text, exposed as the [**ID2D1RenderTarget::DrawGlyphRun**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun) method, provides rasterization for customers who already know the position of the glyphs they want to render. The following two general rules can help improve text performance when drawing in Direct2D.
 
 ### DrawTextLayout Vs. DrawText
 
-Both [**DrawText**](https://msdn.microsoft.com/library/Dd371919(v=VS.85).aspx) and [**DrawTextLayout**](https://msdn.microsoft.com/library/Dd371913(v=VS.85).aspx) enable an application to easily render text that is formatted by the [DirectWrite](https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal) API. **DrawTextLayout** draws an existing [**DWriteTextLayout**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout) object to the [**RenderTarget**](https://msdn.microsoft.com/library/Dd371766(v=VS.85).aspx), and **DrawText** constructs a DirectWrite layout for the caller, based on the parameters that are passed in. If the same text has to be rendered multiple times, use **DrawTextLayout** instead of **DrawText**, because **DrawText** creates a layout every time that it is called.
+Both [**DrawText**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)) and [**DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) enable an application to easily render text that is formatted by the [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) API. **DrawTextLayout** draws an existing [**DWriteTextLayout**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout) object to the [**RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget), and **DrawText** constructs a DirectWrite layout for the caller, based on the parameters that are passed in. If the same text has to be rendered multiple times, use **DrawTextLayout** instead of **DrawText**, because **DrawText** creates a layout every time that it is called.
 
 ### Choosing the right text rendering mode
 
@@ -292,7 +293,7 @@ The figure here shows the result of applying a clip to an image.
 
 ![an image that shows an example of an image before and after a clip.](images/clip.png)
 
-You can get this result by using layers with a geometry mask or the [**FillGeometry**](https://msdn.microsoft.com/library/Dd371933(v=VS.85).aspx) method with an opacity brush.
+You can get this result by using layers with a geometry mask or the [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) method with an opacity brush.
 
 Here's an example that uses a layer:
 
@@ -307,7 +308,7 @@ m_d2dContext->PushLayer(
 
 
 
-Here's an example that uses the [**FillGeometry**](https://msdn.microsoft.com/library/Dd371933(v=VS.85).aspx) method:
+Here's an example that uses the [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) method:
 
 
 ```C++
@@ -343,15 +344,15 @@ m_d2dContext->FillGeometry(
 
 In this code example, when you call the PushLayer method, you don't pass in an app created layer. Direct2D creates a layer for you. Direct2D is able to manage the allocation and destruction of this resource without any involvement from the app. This allows Direct2D to reuse layers internally and apply resource management optimizations.
 
-In Windows 8 many optimizations have been made to the usage of layers and we recommend you try using layer APIs instead of [**FillGeometry**](https://msdn.microsoft.com/library/Dd371933(v=VS.85).aspx) whenever possible.
+In Windows 8 many optimizations have been made to the usage of layers and we recommend you try using layer APIs instead of [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) whenever possible.
 
 ### PushLayer in Windows 8
 
-The [**ID2D1DeviceContext**](https://msdn.microsoft.com/library/Hh404479(v=VS.85).aspx) interface is derived from the [**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371766(v=VS.85).aspx) interface and is key to displaying Direct2D content in Windows 8, for more information about this interface see [Devices and Device Contexts](devices-and-device-contexts.md). With the device context interface, you can skip calling the [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) method and then pass NULL to the [**ID2D1DeviceContext::PushLayer**](https://msdn.microsoft.com/library/Hh847983(v=VS.85).aspx) method. Direct2D automatically manages the layer resource and can share resources between layers and effect graphs.
+The [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) interface is derived from the [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget) interface and is key to displaying Direct2D content in Windows 8, for more information about this interface see [Devices and Device Contexts](devices-and-device-contexts.md). With the device context interface, you can skip calling the [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) method and then pass NULL to the [**ID2D1DeviceContext::PushLayer**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-pushlayer(constd2d1_layer_parameters1_id2d1layer)) method. Direct2D automatically manages the layer resource and can share resources between layers and effect graphs.
 
 ### Axis-aligned clips
 
-If the region to be clipped is aligned to the axis of the drawing surface, instead of arbitrary. This case is suited for using a clip rectangle instead of a layer. The performance gain is more for aliased geometry than antialiased geometry. For more info on axis aligned clips, see the [**PushAxisAlignedClip**](https://msdn.microsoft.com/library/Dd316860(v=VS.85).aspx) topic.
+If the region to be clipped is aligned to the axis of the drawing surface, instead of arbitrary. This case is suited for using a clip rectangle instead of a layer. The performance gain is more for aliased geometry than antialiased geometry. For more info on axis aligned clips, see the [**PushAxisAlignedClip**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f__d2d1_antialias_mode)) topic.
 
 ## DXGI interoperability: avoid frequent switches
 
@@ -382,35 +383,35 @@ When a scene is vertex bound, reduce the complexity of the geometry. But remembe
 
 ## Improving performance for Direct2D printing apps
 
-[Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) offers compatibility with printing. You can send the same Direct2D drawing commands (in the form of Direct2D command lists) to the Direct2D print control for printing, if you don't know what devices you are drawing to, or how the drawing is translated to printing.
+[Direct2D](./direct2d-portal.md) offers compatibility with printing. You can send the same Direct2D drawing commands (in the form of Direct2D command lists) to the Direct2D print control for printing, if you don't know what devices you are drawing to, or how the drawing is translated to printing.
 
-You can further fine-tune their usage of the [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) print control and your Direct2D drawing commands to deliver printing results with better performance.
+You can further fine-tune their usage of the [Direct2D](./direct2d-portal.md) print control and your Direct2D drawing commands to deliver printing results with better performance.
 
-The [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) print control outputs debug messages when it sees a Direct2D code pattern that leads to lower printing quality or performance (like, code patterns listed later in this topic) to remind you where you can avoid performance problems. To see those debug messages, you need to enable [Direct2D Debug Layer](direct2ddebuglayer-portal.md) in your code. See [Debug Messages](direct2ddebuglayer-debugmessages.md) for instructions to enable debug message output.
+The [Direct2D](./direct2d-portal.md) print control outputs debug messages when it sees a Direct2D code pattern that leads to lower printing quality or performance (like, code patterns listed later in this topic) to remind you where you can avoid performance problems. To see those debug messages, you need to enable [Direct2D Debug Layer](direct2ddebuglayer-portal.md) in your code. See [Debug Messages](direct2ddebuglayer-debugmessages.md) for instructions to enable debug message output.
 
 ### Set the right property values when you create the D2D print control
 
-There are three properties that you can set when you create the [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) print control. Two of these properties impact how the Direct2D print control handles certain Direct2D commands and in turn impact the overall performance.
+There are three properties that you can set when you create the [Direct2D](./direct2d-portal.md) print control. Two of these properties impact how the Direct2D print control handles certain Direct2D commands and in turn impact the overall performance.
 
--   Font Subset Mode: The [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) print control subsets font resources used in each page before it sends the page to be printed. This mode reduces the size of page resources needed to print. Depending on font usage on the page, you can choose different font subset modes for the best performance.
-    -   [**D2D1\_PRINT\_FONT\_SUBSET\_MODE\_DEFAULT**](/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_print_font_subset_mode) provides the best printing performance in most cases. When set to this mode, the [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) print control uses a heuristic strategy to decide when to subset fonts.
-    -   For short print jobs with 1 or 2 pages, we recommend [**D2D1\_PRINT\_FONT\_SUBSET\_MODE\_EACHPAGE**](/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_print_font_subset_mode) , where the [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) print control subsets and embeds font resources in each page, then discards that font subset after the page prints. This option makes sure each page can be printed immediately after it is generated but slightly increases size of page resources needed for printing (with usually large font subsets).
-    -   For print jobs with many pages of texts and small font sizes (like 100 pages of text that uses a single font), we recommend [**D2D1\_PRINT\_FONT\_SUBSET\_MODE\_NONE**](/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_print_font_subset_mode), where the [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) print control doesn't subset font resources at all; instead, it sends out the original font resources along with the page that first uses the font, and re-uses the font resources for later pages without resending them.
--   Rasterization DPI: When the [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) print control needs to rasterize Direct2D commands during Direct2D-XPS conversion, it uses this DPI for rasterization. In other words, if the page doesn't have any rasterized contents, setting any DPI won't change performance and quality. Depending on rasterization usage on the page, you can choose different rasterization DPIs for the best balance between fidelity and performance.
-    -   150 is the default value if you don't specify a value when you create the [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) print control, which is the best balance of printing quality and printing performance in most cases.
+-   Font Subset Mode: The [Direct2D](./direct2d-portal.md) print control subsets font resources used in each page before it sends the page to be printed. This mode reduces the size of page resources needed to print. Depending on font usage on the page, you can choose different font subset modes for the best performance.
+    -   [**D2D1\_PRINT\_FONT\_SUBSET\_MODE\_DEFAULT**](/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_print_font_subset_mode) provides the best printing performance in most cases. When set to this mode, the [Direct2D](./direct2d-portal.md) print control uses a heuristic strategy to decide when to subset fonts.
+    -   For short print jobs with 1 or 2 pages, we recommend [**D2D1\_PRINT\_FONT\_SUBSET\_MODE\_EACHPAGE**](/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_print_font_subset_mode) , where the [Direct2D](./direct2d-portal.md) print control subsets and embeds font resources in each page, then discards that font subset after the page prints. This option makes sure each page can be printed immediately after it is generated but slightly increases size of page resources needed for printing (with usually large font subsets).
+    -   For print jobs with many pages of texts and small font sizes (like 100 pages of text that uses a single font), we recommend [**D2D1\_PRINT\_FONT\_SUBSET\_MODE\_NONE**](/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_print_font_subset_mode), where the [Direct2D](./direct2d-portal.md) print control doesn't subset font resources at all; instead, it sends out the original font resources along with the page that first uses the font, and re-uses the font resources for later pages without resending them.
+-   Rasterization DPI: When the [Direct2D](./direct2d-portal.md) print control needs to rasterize Direct2D commands during Direct2D-XPS conversion, it uses this DPI for rasterization. In other words, if the page doesn't have any rasterized contents, setting any DPI won't change performance and quality. Depending on rasterization usage on the page, you can choose different rasterization DPIs for the best balance between fidelity and performance.
+    -   150 is the default value if you don't specify a value when you create the [Direct2D](./direct2d-portal.md) print control, which is the best balance of printing quality and printing performance in most cases.
     -   Higher DPI values usually result in better printing quality (as in more details preserved) but lower performance due to the larger bitmaps it generates. We don't recommend any DPI value greater than 300 since that won't introduce extra information visually perceivable by human eyes.
     -   Lower DPI may mean better performance but may also produce lower quality.
 
 ### Avoid using certain Direct2D drawing patterns
 
-There are differences between what [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) can represent visually and what the print subsystem can maintain and transport along the whole print pipeline. The Direct2D print control bridges those gaps by either approximating or rasterizing Direct2D primitives that the print subsystem doesn't natively support. Such approximation usually results in lower printing fidelity, lower printing performance, or both. Therefore, even though a customer can use the same drawing patterns for both screen and print rendering, it is not ideal in all cases. It's best not to use such Direct2D primitives and patterns as much as possible for the print path, or to do you own rasterization where you have full control of the quality and the size of the rasterized images.
+There are differences between what [Direct2D](./direct2d-portal.md) can represent visually and what the print subsystem can maintain and transport along the whole print pipeline. The Direct2D print control bridges those gaps by either approximating or rasterizing Direct2D primitives that the print subsystem doesn't natively support. Such approximation usually results in lower printing fidelity, lower printing performance, or both. Therefore, even though a customer can use the same drawing patterns for both screen and print rendering, it is not ideal in all cases. It's best not to use such Direct2D primitives and patterns as much as possible for the print path, or to do you own rasterization where you have full control of the quality and the size of the rasterized images.
 
 The here is a list of cases where the print performance and quality won't be ideal and the you might want to consider varying the code path for optimal print performance.
 
 -   Avoid using primitive blend mode other than [**D2D1\_PRIMITIVE\_BLEND\_SOURCEOVER**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_primitive_blend).
 -   Avoid using Composition Modes when drawing an image other than [**D2D1\_COMPOSITE\_MODE\_SOURCE\_OVER**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_composite_mode) and **D2D1\_COMPOSITE\_MODE\_DESTINATION\_OVER**.
 -   Avoid drawing a GDI Meta File.
--   Avoid pushing a layer resource that copies the source background (calling [**PushLayer**](https://msdn.microsoft.com/library/Hh404419(v=VS.85).aspx) with passing [**D2D1\_LAYER\_OPTIONS1\_INITIALIZE\_FROM\_BACKGROUND**](/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_layer_parameters1) to the **D2D1\_LAYER\_PARAMETERS1** struct).
+-   Avoid pushing a layer resource that copies the source background (calling [**PushLayer**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1commandsink-pushlayer) with passing [**D2D1\_LAYER\_OPTIONS1\_INITIALIZE\_FROM\_BACKGROUND**](/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_layer_parameters1) to the **D2D1\_LAYER\_PARAMETERS1** struct).
 -   Avoid creating Bitmap Brush or Image Brush with D2D1\_EXTEND\_MODE\_CLAMP. We recommend you use D2D1\_EXTEND\_MODE\_MIRROR if don't care about pixels outside of the image bound at all (like, the image attached to the brush is known to be larger than the filled target region).
 -   Avoid drawing Bitmaps with [Perspective Transforms](3d-perspective-transform.md).
 
@@ -418,16 +419,16 @@ The here is a list of cases where the print performance and quality won't be ide
 
 Direct2D has several optimizations when rendering texts to display for better performance and/or better visual quality. But not all optimizations improve the printing performance and quality since the printing on paper is usually in a much higher DPI, and printing does not need to accommodate scenarios like animation. So, we recommend you draw the original text or glyphs directly and avoid any of the following optimizations when creating the command list for printing.
 
--   Avoid drawing text with the [**FillOpacityMask**](https://msdn.microsoft.com/library/Hh404414(v=VS.85).aspx) method.
+-   Avoid drawing text with the [**FillOpacityMask**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1commandsink-fillopacitymask) method.
 -   Avoid drawing text in Aliased Mode.
 
 ### Draw the original bitmaps when possible
 
-If the target bitmap is a JPEG, PNG, TIFF, or JPEG-XR, you can create a WIC bitmap either from a disk file or from an in-memory stream, then create a [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) bitmap from that WIC bitmap using [**ID2D1DeviceContext::CreateBitmapFromWicBitmap**](https://msdn.microsoft.com/library/Hh847971(v=VS.85).aspx), and finally directly pass that Direct2D bitmap to the Direct2D print control without further manipulation. By doing so, the Direct2D print control is able to reuse the bitmap stream, which usually leads to better printing performance (by skipping redundant bitmap encoding and decoding), and better printing quality (when metadata, such as color profiles, in the bitmap will be preserved).
+If the target bitmap is a JPEG, PNG, TIFF, or JPEG-XR, you can create a WIC bitmap either from a disk file or from an in-memory stream, then create a [Direct2D](./direct2d-portal.md) bitmap from that WIC bitmap using [**ID2D1DeviceContext::CreateBitmapFromWicBitmap**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromwicbitmap(iwicbitmapsource_constd2d1_bitmap_properties1_id2d1bitmap1)), and finally directly pass that Direct2D bitmap to the Direct2D print control without further manipulation. By doing so, the Direct2D print control is able to reuse the bitmap stream, which usually leads to better printing performance (by skipping redundant bitmap encoding and decoding), and better printing quality (when metadata, such as color profiles, in the bitmap will be preserved).
 
 Drawing the original bitmap provides the following benefit for applications.
 
--   In general, [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) print preserves the original information (without loss or noise) until late in the pipeline, especially when apps don't know (or do not want to know) the details of the print pipeline (like which printer it is printing to, what DPI is the target printer, and so on).
+-   In general, [Direct2D](./direct2d-portal.md) print preserves the original information (without loss or noise) until late in the pipeline, especially when apps don't know (or do not want to know) the details of the print pipeline (like which printer it is printing to, what DPI is the target printer, and so on).
 -   In many cases, delaying bitmap rasterization means better performance (like when printing an 96dpi photo to a 600dpi printer).
 -   In certain cases, passing the original images is the only way to honor high fidelity (like embedded color profiles).
 
@@ -444,7 +445,3 @@ Although Direct2D is hardware accelerated and is meant for high performance, you
  
 
  
-
-
-
-

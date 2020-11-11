@@ -14,9 +14,9 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-<dl> **Clients** – Windows 8  
+**Clients** – Windows 8  
 **Servers** – Windows Server 2012  
-</dl>
+
 
 ## Description
 
@@ -54,13 +54,9 @@ To advance the storage data movement, Microsoft has developed a new data transfe
 -   T10 XCOPY Lite Spec (11-059r8)
     -   [https://www.t10.org/cgi-bin/ac.pl?t=f&f=spc4r35b.pdf](https://www.t10.org/cgi-bin/ac.pl?t=f&f=spc4r35b.pdf)
     -   [https://www.t10.org/cgi-bin/ac.pl?t=f&f=sbc3r30.pdf](https://www.t10.org/cgi-bin/ac.pl?t=f&f=sbc3r30.pdf)
--   [Hardware Dashboard Services](https://msdn.microsoft.com/windows/hardware/br230803.aspx)
--   [SCSI\_PASS\_THROUGH Structure](https://msdn.microsoft.com/library/ff565345(VS.85).aspx)
+-   [Hardware Dashboard Services](/windows-hardware/drivers/dashboard/)
+-   [SCSI\_PASS\_THROUGH Structure](/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through)
 
  
 
  
-
-
-
-

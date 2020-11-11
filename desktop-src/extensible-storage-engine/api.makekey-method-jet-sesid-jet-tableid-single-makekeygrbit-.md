@@ -73,7 +73,7 @@ public static void MakeKey(
 <!-- end list -->
 
   - data  
-    Type: [System.Single](https://docs.microsoft.com/dotnet/api/system.single?redirectedfrom=MSDN)  
+    Type: [System.Single](/dotnet/api/system.single)  
     
     Column data for the current key column of the current index.
 
@@ -95,4 +95,3 @@ public static void MakeKey(
 [MakeKey overload](dn334039\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

@@ -18,10 +18,10 @@ A user establishes a security context by presenting credentials for authenticati
 
 Use the following methods to control the security context with which you bind to an Active Directory DC:
 
--   Bind using the **ADS\_SECURE\_AUTHENTICATION** option with the [**ADsOpenObject**](https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject) function or [**IADsOpenDSObject::OpenDSObject**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject) method and explicitly specify a user name and password. The system authenticates these credentials and generates an access token that it uses for access verification for the duration of that binding. For more information, see [Authentication](authentication.md).
+-   Bind using the **ADS\_SECURE\_AUTHENTICATION** option with the [**ADsOpenObject**](/windows/desktop/api/adshlp/nf-adshlp-adsopenobject) function or [**IADsOpenDSObject::OpenDSObject**](/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject) method and explicitly specify a user name and password. The system authenticates these credentials and generates an access token that it uses for access verification for the duration of that binding. For more information, see [Authentication](authentication.md).
 -   Bind using the **ADS\_SECURE\_AUTHENTICATION** option, but without specifying credentials. If you are not impersonating a user, the system uses the primary security context of your application, that is, the security context of the user who started your application. In the case of a system service, this is the security context of the service account or the LocalSystem account.
--   Impersonate a user and then bind with **ADS\_SECURE\_AUTHENTICATION**, but without specifying credentials. In this case, the system uses the security context of the client that is impersonated. For more information, see [Client Impersonation](https://docs.microsoft.com/windows/desktop/SecAuthZ/client-impersonation).
--   Bind using [**ADsOpenObject**](https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject) or [**IADsOpenDSObject::OpenDSObject**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject) with the **ADS\_NO\_AUTHENTICATION** option. This method binds without authentication and results in "Everyone" as the security context. Only the LDAP provider supports this option.
+-   Impersonate a user and then bind with **ADS\_SECURE\_AUTHENTICATION**, but without specifying credentials. In this case, the system uses the security context of the client that is impersonated. For more information, see [Client Impersonation](/windows/desktop/SecAuthZ/client-impersonation).
+-   Bind using [**ADsOpenObject**](/windows/desktop/api/adshlp/nf-adshlp-adsopenobject) or [**IADsOpenDSObject::OpenDSObject**](/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject) with the **ADS\_NO\_AUTHENTICATION** option. This method binds without authentication and results in "Everyone" as the security context. Only the LDAP provider supports this option.
 
 If possible, bind without specifying credentials. That is, use the security context of the logged-on user or the impersonated client. This enables you to avoid caching credentials. If you must use alternate user credentials, prompt for the credentials, bind with them, but do not cache them. To use the same security context in multiple bind operations, you can specify the user name and password for the first bind operation and then specify only the user name to make subsequent binds. For more information about using this technique, see [Authentication](authentication.md).
 
@@ -34,7 +34,3 @@ Some security contexts are more powerful than others. For example, the LocalSyst
  
 
  
-
-
-
-

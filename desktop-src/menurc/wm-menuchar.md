@@ -100,10 +100,10 @@ An application should process this message when an accelerator is used to select
 **Reference**
 </dt> <dt>
 
-[**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
 </dt> <dt>
 
-[**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
+[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
 </dt> <dt>
 
 **Conceptual**
@@ -113,10 +113,4 @@ An application should process this message when an accelerator is used to select
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

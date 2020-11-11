@@ -41,7 +41,7 @@ HRESULT D3DXFindShaderComment(
 *pFunction* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to the shader function DWORD stream.
 
@@ -50,7 +50,7 @@ Pointer to the shader function DWORD stream.
 *FourCC* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 FOURCC code that identifies the comment block. See [FourCC Formats](d3dformat.md).
 
@@ -59,7 +59,7 @@ FOURCC code that identifies the comment block. See [FourCC Formats](d3dformat.md
 *ppData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)\***
 
 Returns a pointer to the comment data (not including the comment token and FOURCC code). This value can be **NULL**.
 
@@ -68,7 +68,7 @@ Returns a pointer to the comment data (not including the comment token and FOURC
 *pSizeInBytes* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Returns the size of the comment data in bytes. This value can be **NULL**.
 
@@ -101,7 +101,3 @@ If the function succeeds, the return value is D3D\_OK. If the comment is not fou
  
 
  
-
-
-
-

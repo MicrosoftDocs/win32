@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Prioritizing Schannel Cipher Suites
 
-[Cryptography API: Next Generation](https://msdn.microsoft.com/library/Aa376210(v=VS.85).aspx) (CNG) provides functions that query, add, remove, and prioritize the cipher suites that a provider supports. Changes made by using these functions take effect immediately and do not require restarting an active server.
+[Cryptography API: Next Generation](../seccng/cng-portal.md) (CNG) provides functions that query, add, remove, and prioritize the cipher suites that a provider supports. Changes made by using these functions take effect immediately and do not require restarting an active server.
 
 > [!Note]You can also modify the list of cipher suites by configuring the **SSL Cipher Suite Order** group policy settings using the Group Policy Object snap-in in Microsoft Management Console.
 >
@@ -33,9 +33,9 @@ To prioritize Schannel cipher suites, see the following examples.
 
 ## Listing Supported Cipher Suites
 
-Call the [**BCryptEnumContextFunctions**](https://msdn.microsoft.com/library/Aa375426(v=VS.85).aspx) function to list the cipher suites that a provider supports in order of priority.
+Call the [**BCryptEnumContextFunctions**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptenumcontextfunctions) function to list the cipher suites that a provider supports in order of priority.
 
-The following example demonstrates how to use the [**BCryptEnumContextFunctions**](https://msdn.microsoft.com/library/Aa375426(v=VS.85).aspx) function to list supported cipher suites.
+The following example demonstrates how to use the [**BCryptEnumContextFunctions**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptenumcontextfunctions) function to list supported cipher suites.
 
 
 ```C++
@@ -89,9 +89,9 @@ Cleanup:
 
 ## Adding, Removing, and Prioritizing Cipher Suites
 
-Call the [**BCryptAddContextFunction**](https://msdn.microsoft.com/library/Aa375360(v=VS.85).aspx) and [**BCryptRemoveContextFunction**](https://msdn.microsoft.com/library/Aa375492(v=VS.85).aspx) functions to add and remove cipher suites from the list of supported cipher suites.
+Call the [**BCryptAddContextFunction**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptaddcontextfunction) and [**BCryptRemoveContextFunction**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptremovecontextfunction) functions to add and remove cipher suites from the list of supported cipher suites.
 
-When adding a cipher suite, set the value of the *dwPosition* parameter of the [**BCryptAddContextFunction**](https://msdn.microsoft.com/library/Aa375360(v=VS.85).aspx) function to **CRYPT\_PRIORITY\_TOP** to add it to the top of the prioritized list, or to **CRYPT\_PRIORITY\_BOTTOM** to add it to the bottom of the list.
+When adding a cipher suite, set the value of the *dwPosition* parameter of the [**BCryptAddContextFunction**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptaddcontextfunction) function to **CRYPT\_PRIORITY\_TOP** to add it to the top of the prioritized list, or to **CRYPT\_PRIORITY\_BOTTOM** to add it to the bottom of the list.
 
 To prioritize the list of cipher suites, remove all of the cipher suites from the list, and then add cipher suites to the list in the order you want them.
 
@@ -153,6 +153,3 @@ void main()
  
 
  
-
-
-

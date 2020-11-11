@@ -22,7 +22,6 @@ serviceProperties[0].value = &quotePtr; // assume this is some state that you wa
 serviceProperties[0].valueSize = sizeof(quotePtr);
 ```
 
-## 
 
 The state data is available to all service host callbacks and [service operations](service-operation.md). Callbacks and service operations retrieve the information by calling the [**WsGetOperationContextProperty**](/windows/desktop/api/WebServices/nf-webservices-wsgetoperationcontextproperty) function and specifying the context, referenced by the [WS\_OPERATION\_CONTEXT](ws-operation-context.md) structure, and the context property, as one of the values of the [**WS\_OPERATION\_CONTEXT\_PROPERTY\_HOST\_USER\_STATE**](/windows/desktop/api/WebServices/ne-webservices-ws_operation_context_property_id) eunumeration, as illustrated in the following example.
 

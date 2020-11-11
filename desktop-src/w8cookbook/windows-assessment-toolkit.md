@@ -10,8 +10,7 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-<dl> **Clients** - Windows 7 \| Windows 8  
-</dl>
+**Clients** - Windows 7 \| Windows 8  
 
 ## Description
 
@@ -136,26 +135,20 @@ Other tools, such as the Windows Performance Toolkit, are included in the ADK. T
 
 ## Resources
 
-<dl> **Video:**
+**Video:**
 
 -   [Channel9   BUILD ADK Videos](https://channel9.msdn.com/Events/BUILD/BUILD2011?sort=status&direction=asc&term=&t=assessment+and+deployment+kit)
 
   
 **Documentation:**
 
--   [Windows Assessment and Deployment Kit](https://msdn.microsoft.com/library/windows/hardware/hh825420.aspx)
--   [Windows Assessment Toolkit Technical Reference](https://msdn.microsoft.com/library/windows/hardware/hh825508.aspx)
--   [Assessment Execution Engine](https://docs.microsoft.com/previous-versions/windows/win32/axe/axe-access-portal)
+-   [Windows Assessment and Deployment Kit](/previous-versions/windows/hh825420(v=win.10))
+-   [Windows Assessment Toolkit Technical Reference](/previous-versions/windows/it-pro/windows-8.1-and-8/hh825508(v=win.10))
+-   [Assessment Execution Engine](/previous-versions/windows/desktop/axe/axe-access-portal)
 -   [Windows Performance Analysis](https://msdn.microsoft.com/performance/default.aspx)
 
   
-</dl>
+
 
  
-
- 
-
-
-
-
 

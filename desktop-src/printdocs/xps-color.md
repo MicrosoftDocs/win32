@@ -35,8 +35,8 @@ The structure's format depends on the value of *colorType*.
 
 <dl>
 
-[**XPS\_COLOR\_TYPE\_SRGB**](https://msdn.microsoft.com/library/Dd372944(v=VS.85).aspx)  
-[**XPS\_COLOR\_TYPE\_SCRGB**](https://msdn.microsoft.com/library/Dd372943(v=VS.85).aspx)  
+[**XPS\_COLOR\_TYPE\_SRGB**](/previous-versions/windows/desktop/dd372944(v=vs.85))  
+[**XPS\_COLOR\_TYPE\_SCRGB**](/previous-versions/windows/desktop/dd372943(v=vs.85))  
 [**XPS\_COLOR\_TYPE\_CONTEXT**](/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_color)  
 </dl>
 
@@ -61,9 +61,4 @@ The structure's format depends on the value of *colorType*.
 </dt> </dl>
 
  
-
- 
-
-
-
 

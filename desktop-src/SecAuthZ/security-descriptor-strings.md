@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Security Descriptor Strings
 
-A valid functional [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) contains security information in binary format. The Windows API provides functions for converting binary security descriptors to and from text strings. Security descriptors in string format are not functional, but they can be useful for storing or transporting security descriptor information.
+A valid functional [*security descriptor*](/windows/desktop/SecGloss/s-gly) contains security information in binary format. The Windows API provides functions for converting binary security descriptors to and from text strings. Security descriptors in string format are not functional, but they can be useful for storing or transporting security descriptor information.
 
 To convert a security descriptor to a string format, call the [**ConvertSecurityDescriptorToStringSecurityDescriptor**](/windows/desktop/api/Sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) function. To convert a string-format security descriptor back to a valid functional security descriptor, call the [**ConvertStringSecurityDescriptorToSecurityDescriptor**](/windows/desktop/api/Sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora) function.
 
@@ -17,6 +17,3 @@ For more information, see [Security Descriptor Definition Language](security-des
  
 
  
-
-
-

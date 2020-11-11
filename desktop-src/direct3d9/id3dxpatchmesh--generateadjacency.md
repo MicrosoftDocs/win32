@@ -38,7 +38,7 @@ HRESULT GenerateAdjacency(
 *fTolerance* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Specifies that vertices that differ in position by less than the tolerance should be treated as coincident.
 
@@ -78,7 +78,3 @@ After an application generates adjacency information for a mesh, the mesh data c
  
 
  
-
-
-
-

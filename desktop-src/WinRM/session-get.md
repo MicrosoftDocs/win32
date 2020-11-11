@@ -46,7 +46,7 @@ The identifier of the resource to be retrieved.
 
 This parameter can contain one of the following:
 
--   A URI with or without [*selectors*](windows-remote-management-glossary.md). When calling the **Get** method with a selector to obtain a WMI resource, use the key property or properties of the object. For example, in the following Visual Basic Scripting Edition (VBScript) code example, the key is specified by `Win32_Service?Name=winmgmt`. For singleton classes, such as [**Win32\_LocalTime**](https://docs.microsoft.com/previous-versions/windows/desktop/wmitimepprov/win32-localtime), you cannot use a selector.
+-   A URI with or without [*selectors*](windows-remote-management-glossary.md). When calling the **Get** method with a selector to obtain a WMI resource, use the key property or properties of the object. For example, in the following Visual Basic Scripting Edition (VBScript) code example, the key is specified by `Win32_Service?Name=winmgmt`. For singleton classes, such as [**Win32\_LocalTime**](/previous-versions/windows/desktop/wmitimepprov/win32-localtime), you cannot use a selector.
 
     ```VB
     strResourceUri = "http://schemas.microsoft.com/" _ 
@@ -59,7 +59,7 @@ This parameter can contain one of the following:
     
 
 -   A [**ResourceLocator**](resourcelocator.md) object which may contain selectors, [*fragments*](windows-remote-management-glossary.md), or [*options*](windows-remote-management-glossary.md).
--   A [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the WS-Management protocol standard. For more information about the public specification for [WS-Management Protocol](ws-management-protocol.md), see [Management Specifications Index Page](https://msdn.microsoft.com/library/ms951267.aspx).
+-   A [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the WS-Management protocol standard. For more information about the public specification for [WS-Management Protocol](ws-management-protocol.md), see [Management Specifications Index Page](/previous-versions/dotnet/articles/ms951267(v=msdn.10)).
 
 </dd> <dt>
 
@@ -76,7 +76,7 @@ An XML representation of the resource.
 
 ## Examples
 
-The following VBScript code example retrieves the XML representation of the [**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service) instance that represents the WMI Winmgmt service on the local computer.
+The following VBScript code example retrieves the XML representation of the [**Win32\_Service**](/windows/desktop/CIMWin32Prov/win32-service) instance that represents the WMI Winmgmt service on the local computer.
 
 
 ```VB
@@ -197,10 +197,4 @@ End Sub
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -119,7 +119,7 @@ This element has the attributes shown in the following table.
 
 | Attribute       | Description                                                                                                                                                                                                                                   |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **privatePath** | Specifies the [relative paths](https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file) of subdirectories of the application's base directory that might contain assemblies. A maximum of nine subdirectory paths can be specified. Delimit each subdirectory path with a semicolon. |
+| **privatePath** | Specifies the [relative paths](/windows/desktop/FileIO/naming-a-file) of subdirectories of the application's base directory that might contain assemblies. A maximum of nine subdirectory paths can be specified. Delimit each subdirectory path with a semicolon. |
 
 You can use the double-dots special specifier in a path to denote the parent directory of the current directory. No more than two levels above the current directory can be specified using double-dots. Do not use triple-dots. For example, an application using the following **probing** element checks additional directories for an assembly.
 

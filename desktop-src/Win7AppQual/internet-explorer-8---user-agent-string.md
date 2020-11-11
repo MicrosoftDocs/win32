@@ -10,15 +10,32 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients** - Windows XP \| Windows Vista \| Windows 7  
+ **Clients** - Windows XP \| Windows Vista \| Windows 7  
 **Servers** - Windows Server 2003 \| Windows Server 2008 \| Windows Server 2008 R2  
-</dl>
+
+
+
+
+
+
+
+
+
 
 ## Feature Impact
 
-<dl> **Severity** - Medium  
+**Severity** - Medium  
 **Frequency** - High  
-</dl>
+
+
+
+
+
+
+
+
+
+
 
 ## Description
 
@@ -42,16 +59,13 @@ Ensure that your applications properly handle the new 'MSIE 8.0' version in the 
 
 ## Links to Other Resources
 
--   [Understanding User Agent Strings](https://msdn.microsoft.com/library/ms537503(v=VS.85).aspx)
--   [Internet Explorer 8 User-Agent String](https://blogs.msdn.com/ie/archive/2008/02/21/the-internet-explorer-8-user-agent-string.aspx)
+-   [Understanding User Agent Strings](/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537503(v=vs.85))
+-   [Internet Explorer 8 User-Agent String](/archive/blogs/ie/)
 -   [User-Agent String and Version Vector](https://archive.msdn.microsoft.com/ie8whitepapers)
--   [Hosting and Reuse](https://msdn.microsoft.com/library/Aa752038(v=VS.85).aspx)
+-   [Hosting and Reuse](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752038(v=vs.85))
 -   [Application Compatibility Toolkit Download](/windows-hardware/get-started/adk-install)
--   [Known Internet Explorer Security Feature Issues](https://technet.microsoft.com/library/cc722079.aspx)
+-   [Known Internet Explorer Security Feature Issues](/previous-versions/windows/it-pro/windows-7/cc722079(v=ws.10))
 
  
 
  
-
-
-

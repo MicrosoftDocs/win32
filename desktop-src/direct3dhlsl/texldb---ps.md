@@ -30,7 +30,7 @@ Where:
 
 -   dst is the destination register.
 -   src0 is a source register that provides the texture coordinates for the texture sample. See [Texture Coordinate Register](dx9-graphics-reference-asm-ps-registers-texture-coordinate.md).
--   src1 identifies the [Sampler (Direct3D 9 asm-ps)](dx9-graphics-reference-asm-ps-registers-sampler.md) (s\#), where \# specifies which texture sampler number to sample. The sampler has associated with it a texture and a sampler state defined by [**D3DSAMPLERSTATETYPE**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dsamplerstatetype).
+-   src1 identifies the [Sampler (Direct3D 9 asm-ps)](dx9-graphics-reference-asm-ps-registers-sampler.md) (s\#), where \# specifies which texture sampler number to sample. The sampler has associated with it a texture and a sampler state defined by [**D3DSAMPLERSTATETYPE**](/windows/desktop/direct3d9/d3dsamplerstatetype).
 
 For the restrictions when using texldb, see the [texld - ps\_2\_0 and up](texld---ps-2-0.md) instruction.
 
@@ -95,7 +95,3 @@ If the source texture contains fewer than four components, defaults are placed i
  
 
  
-
-
-
-

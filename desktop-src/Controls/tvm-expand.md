@@ -58,7 +58,7 @@ Returns nonzero if the operation was successful, or zero otherwise.
 
 ## Remarks
 
-Expanding a node that is already expanded is considered a successful operation and [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage) returns a nonzero value. Collapsing a node returns zero if the node is already collapsed; otherwise it returns nonzero. Attempting to expand or collapse a node that has no children is considered a failure and **SendMessage** returns zero.
+Expanding a node that is already expanded is considered a successful operation and [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) returns a nonzero value. Collapsing a node returns zero if the node is already collapsed; otherwise it returns nonzero. Attempting to expand or collapse a node that has no children is considered a failure and **SendMessage** returns zero.
 
 When an item is first expanded by a **TVM\_EXPAND** message, the action generates [TVN\_ITEMEXPANDING](tvn-itemexpanding.md) and [TVN\_ITEMEXPANDED](tvn-itemexpanded.md) notification codes and the item's [**TVIS\_EXPANDEDONCE**](tree-view-control-item-states.md) state flag is set. As long as this state flag remains set, subsequent **TVM\_EXPAND** messages do not generate TVN\_ITEMEXPANDING or TVN\_ITEMEXPANDED notifications. To reset the **TVIS\_EXPANDEDONCE** state flag, you must send a **TVM\_EXPAND** message with the TVE\_COLLAPSE and TVE\_COLLAPSERESET flags set. Attempting to explicitly set **TVIS\_EXPANDEDONCE** will result in unpredictable behavior.
 
@@ -77,10 +77,4 @@ The expand operation may fail if the owner of the treeview control denies the op
 
 
  
-
- 
-
-
-
-
 

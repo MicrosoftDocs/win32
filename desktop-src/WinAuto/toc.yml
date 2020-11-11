@@ -28,7 +28,7 @@
     - name: "RegisterPointerInputTargetEx"
       href: /windows/desktop/api/WinUser/nf-winuser-registerpointerinputtargetex
     - name: "SoundSentryProc"
-      href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd373647(v=vs.85)
+      href: /previous-versions/windows/desktop/legacy/dd373647(v=vs.85)
     - name: "UnregisterPointerInputTarget"
       href: /windows/desktop/api/WinUser/nf-winuser-unregisterpointerinputtarget
     - name: "UnregisterPointerInputTargetEx"
@@ -1415,7 +1415,7 @@
             - name: "BooleanValue property"
               href: /windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationboolcondition-get_booleanvalue
           - name: "IUIAutomationCondition"
-            href: https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition
+            href: /windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition
           - name: "IUIAutomationNotCondition"
             href: /windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationnotcondition
             items: 
@@ -1815,9 +1815,9 @@
             - name: "CurrentStyleName property"
               href: /windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationstylespattern-get_currentstylename
             - name: "GetCachedExtendedPropertiesArray method"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437294(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/hh437294(v=vs.85)
             - name: "GetCurrentExtendedPropertiesArray method"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437295(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/hh437295(v=vs.85)
           - name: "IUIAutomationSynchronizedInputPattern"
             href: /windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationsynchronizedinputpattern
             items: 
@@ -2325,11 +2325,11 @@
         href: uiauto-entry-objects.md
         items: 
         - name: "CUIAutomation"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff384838(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/ff384838(v=vs.85)
         - name: "CUIAutomation8"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448746(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/hh448746(v=vs.85)
         - name: "CUIAutomationRegistrar"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff384837(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/ff384837(v=vs.85)
       - name: "UI Automation Structures"
         href: uiauto-entry-structures.md
         items: 
@@ -2414,7 +2414,7 @@
         - name: "FillType"
           href: /windows/desktop/api/UIAutomationCore/ne-uiautomationcore-filltype
         - name: "HorizontalTextAlignmentEnum"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee671233(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/ee671233(v=vs.85)
         - name: "LiveSetting"
           href: /windows/desktop/api/UIAutomationCore/ne-uiautomationcore-livesetting
         - name: "NavigateDirection"
@@ -2422,9 +2422,9 @@
         - name: "NormalizeState"
           href: /windows/desktop/api/UIAutomationCoreApi/ne-uiautomationcoreapi-normalizestate
         - name: "NotificationKind"
-          href: https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-notificationkind
+          href: /windows/desktop/api/uiautomationcore/ne-uiautomationcore-notificationkind
         - name: "NotificationProcessing"
-          href: https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-notificationprocessing
+          href: /windows/desktop/api/uiautomationcore/ne-uiautomationcore-notificationprocessing
         - name: "OrientationType"
           href: /windows/desktop/api/UIAutomationCore/ne-uiautomationcore-orientationtype
         - name: "OutlineStyles"
@@ -2460,7 +2460,7 @@
         - name: "TreeScope"
           href: /windows/desktop/api/UIAutomationClient/ne-uiautomationclient-treescope
         - name: "TreeTraversalOptions"
-          href: https://docs.microsoft.com/windows/desktop/api/uiautomationclient/ne-uiautomationclient-treetraversaloptions
+          href: /windows/desktop/api/uiautomationclient/ne-uiautomationclient-treetraversaloptions
         - name: "UIAutomationType"
           href: /windows/desktop/api/UIAutomationCore/ne-uiautomationcore-uiautomationtype
         - name: "VisualEffects"
@@ -2923,7 +2923,7 @@
           - name: "HWINEVENTHOOK"
             href: hwineventhook.md
           - name: "WINEVENTPROC"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd373882(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/dd373882(v=vs.85)
         - name: "WM_GETOBJECT Window Message"
           href: wm-getobject-window-message.md
           items: 

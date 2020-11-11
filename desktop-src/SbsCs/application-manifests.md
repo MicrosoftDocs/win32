@@ -1,9 +1,9 @@
-﻿---
-Description: An application manifest is an XML file that describes and identifies the shared and private side-by-side assemblies that an application should bind to at run time.
+---
+description: An application manifest is an XML file that describes and identifies the shared and private side-by-side assemblies that an application should bind to at run time.
 ms.assetid: c5016251-db7a-4edc-9be9-3acb03d495f8
 title: Application Manifests
 ms.topic: article
-ms.date: 01/22/2020
+ms.date: 10/08/2020
 ms.custom: 19H1
 ---
 
@@ -46,7 +46,6 @@ Application manifests have the following elements and attributes.
 | **gdiScaling**                        |                           | No       |
 | **highResolutionScrollingAware**      |                           | No       |
 | **longPathAware**                     |                           | No       |
-| **magicFutureSetting**                |                           | No       |
 | **printerDriverIsolation**            |                           | No       |
 | **ultraHighResolutionScrollingAware** |                           | No       |
 | **msix**                              |                           | No       |
@@ -93,7 +92,7 @@ The **assembly** element has the following attributes.
 
 ### noInherit
 
-Include this element in an application manifest to set the [activation contexts](activation-contexts.md) generated from the manifest with the "no inherit" flag. When this flag is not set in an activation context, and the activation context is active, it is inherited by new threads in the same process, windows, window procedures, and [Asynchronous Procedure Calls](https://docs.microsoft.com/windows/desktop/Sync/asynchronous-procedure-calls). Setting this flag prevents the new object from inheriting the active context.
+Include this element in an application manifest to set the [activation contexts](activation-contexts.md) generated from the manifest with the "no inherit" flag. When this flag is not set in an activation context, and the activation context is active, it is inherited by new threads in the same process, windows, window procedures, and [Asynchronous Procedure Calls](/windows/desktop/Sync/asynchronous-procedure-calls). Setting this flag prevents the new object from inheriting the active context.
 
 The **noInherit** element is optional and typically omitted. Most assemblies do not work correctly using a no-inherit activation context because the assembly must be explicitly designed to manage the propagation of their own activation context. The use of the **noInherit** element requires that any dependent assemblies referenced by the application manifest have a **noInherit** element in their [assembly manifest](assembly-manifests.md).
 
@@ -142,7 +141,7 @@ The **supportedOS** element has the following attribute. It has no subelements.
 
 ### maxversiontested
 
-The **maxversiontested** element specifies the maximum version of Windows that the application was tested against. This is intended to be used by desktop applications that use [XAML Islands](https://docs.microsoft.com/windows/apps/desktop/modernize/xaml-islands) and that are not deployed in an MSIX package. This element is supported in Windows 10, version 1903, and later versions.
+The **maxversiontested** element specifies the maximum version of Windows that the application was tested against. This is intended to be used by desktop applications that use [XAML Islands](/windows/apps/desktop/modernize/xaml-islands) and that are not deployed in an MSIX package. This element is supported in Windows 10, version 1903, and later versions.
 
 The **maxversiontested** element has the following attribute. It has no subelements.
 
@@ -184,19 +183,19 @@ The **file** element has the attributes shown in the following table.
 
 Force a process to use UTF-8 as the process code page.
 
-**activeCodePage** was added in Windows Version 1903 (May 2019 Update). You can declare this property and target/run on earlier Windows builds, but you must handle legacy code page detection and conversion as usual. See [Use the UTF-8 code page](https://docs.microsoft.com/windows/uwp/design/globalizing/use-utf8-code-page) for details.
+**activeCodePage** was added in Windows Version 1903 (May 2019 Update). You can declare this property and target/run on earlier Windows builds, but you must handle legacy code page detection and conversion as usual. See [Use the UTF-8 code page](/windows/uwp/design/globalizing/use-utf8-code-page) for details.
 
 This element has no attributes. **UTF-8** is only valid value for **activeCodePage** element.
 
 ```XML
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
-  <assemblyIdentity type="win32" name="..." version="6.0.0.0"/>
-  <application>
-    <windowsSettings>
-      <activeCodePage xmlns="http://schemas.microsoft.com/SMI/2019/WindowsSettings">UTF-8</activeCodePage>
-    </windowsSettings>
-  </application>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
+ ...
+  <asmv3:application>
+    <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2019/WindowsSettings"> 
+      <activeCodePage>UTF-8</activeCodePage> 
+    </asmv3:windowsSettings>
+  </asmv3:application>
+ ...
 </assembly>
 ```
 
@@ -219,7 +218,7 @@ Specifies whether giving UI elements a theme is disabled. **TRUE** indicates dis
 Specifies whether to disable window filtering. **TRUE** disables window filtering so you can enumerate immersive windows from the desktop. **disableWindowFiltering** was added in Windows 8 and has no attributes.
 
 ```XML
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
  ...
   <asmv3:application>
     <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2011/WindowsSettings">
@@ -242,19 +241,19 @@ The following table describes the behavior that results based upon the presence 
 
 | State of the **dpiAware** element | Description     |
 |-----------------------------------|---------|
-| Absent                            | The current process is dpi unaware by default. You can programmatically change this setting by calling the [**SetProcessDpiAwareness**](https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) or [**SetProcessDPIAware**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function.                                                                                                                                                            |
+| Absent                            | The current process is dpi unaware by default. You can programmatically change this setting by calling the [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) or [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function.                                                                                                                                                            |
 | Contains "true"                   | The current process is system dpi aware.                                                                                                                                                                                                                                                                                                                                                          |
-| Contains "false"                  | **Windows Vista, Windows 7 and Windows 8:** The behavior is the same as when the **dpiAware** is absent.<br/> **Windows 8.1 and Windows 10:** The current process is dpi unaware, and you cannot programmatically change this setting by calling the [**SetProcessDpiAwareness**](https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) or [**SetProcessDPIAware**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function.<br/> |
+| Contains "false"                  | **Windows Vista, Windows 7 and Windows 8:** The behavior is the same as when the **dpiAware** is absent.<br/> **Windows 8.1 and Windows 10:** The current process is dpi unaware, and you cannot programmatically change this setting by calling the [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) or [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function.<br/> |
 | Contains "true/pm"                | **Windows Vista, Windows 7 and Windows 8:** The current process is system dpi aware.<br/> **Windows 8.1 and Windows 10:** The current process is per-monitor dpi aware.<br/>                                                                                                                                                                                                          |
 | Contains "per monitor"            | **Windows Vista, Windows 7 and Windows 8:** The behavior is the same as when the **dpiAware** is absent.<br/> **Windows 8.1 and Windows 10:** The current process is per-monitor dpi aware.<br/>                                                                                                                                                                                      |
-| Contains any other string         | **Windows Vista, Windows 7 and Windows 8:** The behavior is the same as when the **dpiAware** is absent.<br/> **Windows 8.1 and Windows 10:** The current process is dpi unaware, and you cannot programmatically change this setting by calling the [**SetProcessDpiAwareness**](https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) or [**SetProcessDPIAware**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function.<br/> |
+| Contains any other string         | **Windows Vista, Windows 7 and Windows 8:** The behavior is the same as when the **dpiAware** is absent.<br/> **Windows 8.1 and Windows 10:** The current process is dpi unaware, and you cannot programmatically change this setting by calling the [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) or [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function.<br/> |
 
 For more information about dpi awareness settings, see [Comparison of DPI Awareness Levels](https://msdn.microsoft.com/library/windows/desktop/mt843498(v=vs.85).aspx(d=robot)).
 
 **dpiAware** has no attributes.
 
 ```XML
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
  ...
   <asmv3:application>
     <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">
@@ -280,18 +279,18 @@ The following table describes the behavior that results based upon the presence 
 | **dpiAwareness** element status:        | Description                          |
 |-----------------------------------------|-------------------------------------------|
 | Element is absent                       | The **dpiAware** element specifies whether the process is dpi aware.                                                                                                                                                                   |
-| Contains no recognized items            | The current process is dpi unaware by default. You can programmatically change this setting by calling the [**SetProcessDpiAwareness**](https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) or [**SetProcessDPIAware**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function. |
+| Contains no recognized items            | The current process is dpi unaware by default. You can programmatically change this setting by calling the [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) or [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function. |
 | First recognized item is "system"       | The current process is system dpi aware.                                                                                                                                                                                               |
 | First recognized item is "permonitor"   | The current process is per-monitor dpi aware.                                                                                                                                                                                          |
 | First recognized item is "permonitorv2" | The current process uses the per-monitor-v2 dpi awareness context. This item will only be recognized on Windows 10 version 1703 or later.                                                                                              |
-| First recognized item is "unaware"      | The current process is dpi unaware. You**cannot** programmatically change this setting by calling the [**SetProcessDpiAwareness**](https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) or [**SetProcessDPIAware**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function.      |
+| First recognized item is "unaware"      | The current process is dpi unaware. You**cannot** programmatically change this setting by calling the [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) or [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function.      |
 
-For more information about dpi awareness settings supported by this element, see [DPI\_AWARENESS](https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_awareness) and [DPI\_AWARENESS\_CONTEXT](https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context).
+For more information about dpi awareness settings supported by this element, see [DPI\_AWARENESS](/windows/desktop/api/windef/ne-windef-dpi_awareness) and [DPI\_AWARENESS\_CONTEXT](/windows/desktop/hidpi/dpi-awareness-context).
 
 **dpiAwareness** has no attributes.
 
 ```XML
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
  ...
   <asmv3:application>
     <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">
@@ -316,7 +315,7 @@ Non-vector graphics (such as bitmaps, icons, or toolbars) cannot be scaled by th
 
 
 ```XML
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
  ...
   <asmv3:application>
     <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2017/WindowsSettings">
@@ -333,27 +332,23 @@ Non-vector graphics (such as bitmaps, icons, or toolbars) cannot be scaled by th
 
 Specifies whether high-resolution-scrolling aware is enabled. **TRUE** indicates that it is enabled. It has no attributes.
 
-<span id="magicFutureSetting"></span><span id="magicfuturesetting"></span><span id="MAGICFUTURESETTING"></span>
+<span id="longPathAware"></span><span id="longpathaware"></span><span id="LONGPATHAWARE"></span>
 
 ### longPathAware
 
-Enables long paths that exceed **MAX_PATH** in length. This element is supported in Windows 10, version 1607, and later. For more information, see [this article](../fileio/naming-a-file.md#enable-long-paths-in-windows-10-version-1607-and-later).
+Enables long paths that exceed **MAX_PATH** in length. This element is supported in Windows 10, version 1607, and later. For more information, see [this article](../fileio/maximum-file-path-limitation.md).
 
 ```XML
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
  ...
   <asmv3:application>
-    <asmv3:windowsSettings xmlns:ws3="http://schemas.microsoft.com/SMI/2016/WindowsSettings">
+    <asmv3:windowsSettings xmlns:ws2="http://schemas.microsoft.com/SMI/2016/WindowsSettings">
       <ws2:longPathAware>true</ws2:longPathAware>
     </asmv3:windowsSettings>
   </asmv3:application>
  ...
 </assembly>
 ```
-
-### magicFutureSetting
-
-Specifies whether magic-future setting is enabled. **TRUE** indicates that it is enabled. It has no attributes.
 
 <span id="printerDriverIsolation"></span><span id="printerdriverisolation"></span><span id="PRINTERDRIVERISOLATION"></span>
 
@@ -363,7 +358,7 @@ Specifies whether printer driver isolation is enabled. **TRUE** indicates that i
 
 
 ```XML
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
  ...
   <asmv3:application>
     <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2011/WindowsSettings">
@@ -384,15 +379,15 @@ Specifies whether ultra-high-resolution-scrolling aware is enabled. **TRUE** ind
 
 ### msix
 
-Specifies the identity info of a [sparse MSIX package](https://docs.microsoft.com/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps) for the current application. This element is supported in Windows 10, version 2004, and later versions.
+Specifies the identity info of a [sparse MSIX package](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps) for the current application. This element is supported in Windows 10, version 2004, and later versions.
 
 The **msix** element must be in the namespace `urn:schemas-microsoft-com:msix.v1`. It has the attributes shown in the following table.
 
 | Attribute   | Description                                                                                             |
 |-------------|---------------------------------------------------------------------------------------------------------|
-| **publisher**    | Describes the publisher information. This value must match the **Publisher** attribute in the [Identity](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-identity) element in your sparse package manifest. |
-| **packageName** | Describes the contents of the package. This value must match the **Name** attribute in the [Identity](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-identity) element in your sparse package manifest.    |
-| **applicationId**    | The unique identifier of the application. This value must match the **Id** attribute in the [Application](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-application) element in your sparse package manifest.  |
+| **publisher**    | Describes the publisher information. This value must match the **Publisher** attribute in the [Identity](/uwp/schemas/appxpackage/uapmanifestschema/element-identity) element in your sparse package manifest. |
+| **packageName** | Describes the contents of the package. This value must match the **Name** attribute in the [Identity](/uwp/schemas/appxpackage/uapmanifestschema/element-identity) element in your sparse package manifest.    |
+| **applicationId**    | The unique identifier of the application. This value must match the **Id** attribute in the [Application](/uwp/schemas/appxpackage/uapmanifestschema/element-application) element in your sparse package manifest.  |
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -416,7 +411,7 @@ Overrides the default heap implementation for the [Win32 heap APIs](../Memory/he
 This element has no attributes.
 
 ```XML
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
  ...
   <asmv3:application>
     <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2020/WindowsSettings">

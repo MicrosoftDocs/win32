@@ -12,7 +12,6 @@ Polygons that are coplanar in 3D space can be made to appear as if they are not 
 
 This is a technique commonly used to ensure that shadows in a scene are displayed properly. For instance, a shadow on a wall will likely have the same depth value as the wall. If an application renders a wall first and then a shadow, the shadow might not be visible, or depth artifacts might be visible.
 
-## 
 
 An application can help ensure that coplanar polygons are rendered properly by adding the bias (from the **DepthBias** member of [**D3D11\_RASTERIZER\_DESC1**](/windows/desktop/api/D3D11_1/ns-d3d11_1-cd3d11_rasterizer_desc1)) to the z-values that the system uses when rendering the sets of coplanar polygons. Polygons with a larger z value will be drawn in front of polygons with a smaller z value.
 

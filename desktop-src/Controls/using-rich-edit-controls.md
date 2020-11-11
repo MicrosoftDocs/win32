@@ -28,7 +28,7 @@ This section contains topics that demonstrate how to create and use rich edit co
 <tbody>
 <tr class="odd">
 <td><a href="create-rich-edit-controls.md">How to Create Rich Edit Controls</a><br/></td>
-<td>To create a rich edit control, call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa"><strong>CreateWindowEx</strong></a> function, specifying the rich edit window class. For Microsoft Rich Edit 4.1 (Msftedit.dll), specify MSFTEDIT_CLASS as the window class. For all previous versions, specify RICHEDIT_CLASS. For more information, see <a href="about-rich-edit-controls.md">Versions of Rich Edit</a>. <br/> Rich edit controls support most of the window styles used with edit controls as well as additional styles. You should specify the <a href="edit-control-styles.md"><strong>ES_MULTILINE</strong></a> window style if you want to allow more than one line of text in the control. For more information, see <a href="rich-edit-control-styles.md">Rich Edit Control Styles</a>. <br/></td>
+<td>To create a rich edit control, call the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa"><strong>CreateWindowEx</strong></a> function, specifying the rich edit window class. For Microsoft Rich Edit 4.1 (Msftedit.dll), specify MSFTEDIT_CLASS as the window class. For all previous versions, specify RICHEDIT_CLASS. For more information, see <a href="about-rich-edit-controls.md">Versions of Rich Edit</a>. <br/> Rich edit controls support most of the window styles used with edit controls as well as additional styles. You should specify the <a href="edit-control-styles.md"><strong>ES_MULTILINE</strong></a> window style if you want to allow more than one line of text in the control. For more information, see <a href="rich-edit-control-styles.md">Rich Edit Control Styles</a>. <br/></td>
 </tr>
 <tr class="even">
 <td><a href="format-text-in-rich-edit-controls.md">How to Format Text in Rich Edit Controls</a><br/></td>
@@ -88,10 +88,4 @@ This section contains topics that demonstrate how to create and use rich edit co
  
 
  
-
- 
-
-
-
-
 

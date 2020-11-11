@@ -21,7 +21,7 @@ This section contains Events for the InkPicture Control.
 | [**CursorDown Event**](inkpicture-cursordown.md)                                  | Occurs when the cursor tip contacts the digitizing tablet surface.<br/>                                                                                                                                                                                                                                                                          |
 | [**CursorInRange Event**](inkpicture-cursorinrange.md)                            | Occurs when a cursor enters the physical detection range (proximity) of the tablet context.<br/>                                                                                                                                                                                                                                                 |
 | [**CursorOutOfRange Event**](inkpicture-cursoroutofrange.md)                      | Occurs when the cursor leaves the physical detection range (proximity) of the tablet context.<br/>                                                                                                                                                                                                                                               |
-| [**DblClick**](inkpicture-dblclick.md)                                            | Occurs when the [InkPicture](inkpicture-control-reference.md) control is double-clicked.<br/> This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IPEDblClick.<br/> |
+| [**DblClick**](inkpicture-dblclick.md)                                            | Occurs when the [InkPicture](inkpicture-control-reference.md) control is double-clicked.<br/> This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface with an identifier of DISPID\_IPEDblClick.<br/> |
 | [**Gesture Event**](inkpicture-gesture.md)                                        | Occurs when an application gesture is recognized.<br/>                                                                                                                                                                                                                                                                                           |
 | [**KeyDown Event \[InkPicture Control\]**](inkpicture-keydown.md)                 | Occurs when a key is pressed and in the down position while the [InkPicture](inkpicture-control-reference.md) control has focus.<br/>                                                                                                                                                                                                           |
 | [**KeyPress Event\[InkPicture Control\]**](inkpicture-keypress.md)                | Occurs when a key is pressed while the [InkPicture](inkpicture-control-reference.md) control has focus.<br/>                                                                                                                                                                                                                                    |
@@ -60,9 +60,4 @@ This section contains Events for the InkPicture Control.
  
 
  
-
- 
-
-
-
 

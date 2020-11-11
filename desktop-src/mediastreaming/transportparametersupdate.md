@@ -37,12 +37,8 @@ This event does not return a value.
 
 ## Remarks
 
-To handle notifications from this event, register a [**TransportParametersUpdateHandler**](https://msdn.microsoft.com/library/Hh829007(v=VS.85).aspx) event handler function using the [**add\_TransportParametersUpdate**](https://msdn.microsoft.com/library/Hh828929(v=VS.85).aspx) method. To unregister the event handler, use the [**remove\_TransportParametersUpdate**](https://msdn.microsoft.com/library/Hh828941(v=VS.85).aspx) method.
+To handle notifications from this event, register a [**TransportParametersUpdateHandler**](/previous-versions/windows/desktop/legacy/hh829007(v=vs.85)) event handler function using the [**add\_TransportParametersUpdate**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-add_transportparametersupdate) method. To unregister the event handler, use the [**remove\_TransportParametersUpdate**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-remove_transportparametersupdate) method.
 
  
 
  
-
-
-
-

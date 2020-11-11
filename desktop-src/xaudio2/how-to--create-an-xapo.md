@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to: Create an XAPO
 
-The XAPO API provides the [**IXAPO**](/windows/desktop/api/XAPO/nn-xapo-ixapo) interface and the [**CXAPOBase**](/windows/desktop/api/XAPOBase/nl-xapobase-cxapobase) class for building new XAPO types. The **IXAPO** interface contains all of the methods that need to be implemented to create a new XAPO. The **CXAPOBase** class provides a basic implementation of the **IXAPO** interface. **CXAPOBase** implements all of the **IXAPO** interface methods except the [**IXAPO::Process**](https://msdn.microsoft.com/library/Ee418456(v=VS.85).aspx) method, which is unique to each XAPO.
+The XAPO API provides the [**IXAPO**](/windows/desktop/api/XAPO/nn-xapo-ixapo) interface and the [**CXAPOBase**](/windows/desktop/api/XAPOBase/nl-xapobase-cxapobase) class for building new XAPO types. The **IXAPO** interface contains all of the methods that need to be implemented to create a new XAPO. The **CXAPOBase** class provides a basic implementation of the **IXAPO** interface. **CXAPOBase** implements all of the **IXAPO** interface methods except the [**IXAPO::Process**](/windows/win32/api/xapo/nf-xapo-ixapo-process) method, which is unique to each XAPO.
 
 ## To create a new static XAPO
 
@@ -19,19 +19,19 @@ The XAPO API provides the [**IXAPO**](/windows/desktop/api/XAPO/nn-xapo-ixapo) i
 
      
 
-2.  Override the [**CXAPOBase**](/windows/desktop/api/XAPOBase/nl-xapobase-cxapobase) class implementation of the [**IXAPO::LockForProcess**](https://msdn.microsoft.com/library/Ee418455(v=VS.85).aspx) method.
+2.  Override the [**CXAPOBase**](/windows/desktop/api/XAPOBase/nl-xapobase-cxapobase) class implementation of the [**IXAPO::LockForProcess**](/windows/win32/api/xapo/nf-xapo-ixapo-lockforprocess) method.
 
-    Overriding [**LockForProcess**](https://msdn.microsoft.com/library/Ee418455(v=VS.85).aspx) allows information about the format of audio data to be stored for use in [**IXAPO::Process**](https://msdn.microsoft.com/library/Ee418456(v=VS.85).aspx).
+    Overriding [**LockForProcess**](/windows/win32/api/xapo/nf-xapo-ixapo-lockforprocess) allows information about the format of audio data to be stored for use in [**IXAPO::Process**](/windows/win32/api/xapo/nf-xapo-ixapo-process).
 
-3.  Implement the [**IXAPO::Process**](https://msdn.microsoft.com/library/Ee418456(v=VS.85).aspx) method.
+3.  Implement the [**IXAPO::Process**](/windows/win32/api/xapo/nf-xapo-ixapo-process) method.
 
-    XAudio2 calls the [**IXAPO::Process**](https://msdn.microsoft.com/library/Ee418456(v=VS.85).aspx) method whenever an XAPO needs to process audio data. **Process** contains the bulk of the code for an XAPO.
+    XAudio2 calls the [**IXAPO::Process**](/windows/win32/api/xapo/nf-xapo-ixapo-process) method whenever an XAPO needs to process audio data. **Process** contains the bulk of the code for an XAPO.
 
 ## Implementing the Process Method
 
-The [**IXAPO::Process**](https://msdn.microsoft.com/library/Ee418456(v=VS.85).aspx) method accepts stream buffers for input and output audio data. A typical XAPO will expect one input stream buffer and one output stream buffer. You should base the processing of data from the input stream buffer on the format specified in the [**LockForProcess**](https://msdn.microsoft.com/library/Ee418455(v=VS.85).aspx) function and any flags passed to the **Process** function with the input stream buffer. Copy the processed input stream buffer data to the output stream buffer. Set the output stream buffer's BufferFlags parameter as either [**XAPO\_BUFFER\_VALID**](/windows/desktop/api/xapo/ne-xapo-xapo_buffer_flags) or **XAPO\_BUFFER\_SILENT**.
+The [**IXAPO::Process**](/windows/win32/api/xapo/nf-xapo-ixapo-process) method accepts stream buffers for input and output audio data. A typical XAPO will expect one input stream buffer and one output stream buffer. You should base the processing of data from the input stream buffer on the format specified in the [**LockForProcess**](/windows/win32/api/xapo/nf-xapo-ixapo-lockforprocess) function and any flags passed to the **Process** function with the input stream buffer. Copy the processed input stream buffer data to the output stream buffer. Set the output stream buffer's BufferFlags parameter as either [**XAPO\_BUFFER\_VALID**](/windows/desktop/api/xapo/ne-xapo-xapo_buffer_flags) or **XAPO\_BUFFER\_SILENT**.
 
-The following example demonstrates a [**LockForProcess**](https://msdn.microsoft.com/library/Ee418455(v=VS.85).aspx) and [**Process**](https://msdn.microsoft.com/library/Ee418456(v=VS.85).aspx) implementation that simply copies data from an input buffer to an output buffer. However, there is no processing if the input buffer is marked with [**XAPO\_BUFFER\_SILENT**](/windows/desktop/api/xapo/ne-xapo-xapo_buffer_flags).
+The following example demonstrates a [**LockForProcess**](/windows/win32/api/xapo/nf-xapo-ixapo-lockforprocess) and [**Process**](/windows/win32/api/xapo/nf-xapo-ixapo-process) implementation that simply copies data from an input buffer to an output buffer. However, there is no processing if the input buffer is marked with [**XAPO\_BUFFER\_SILENT**](/windows/desktop/api/xapo/ne-xapo-xapo_buffer_flags).
 
 
 ```
@@ -111,7 +111,7 @@ STDMETHOD_(void, Process)(UINT32 InputProcessParameterCount,
 
 
 
-When writing a [**Process**](https://msdn.microsoft.com/library/Ee418456(v=VS.85).aspx) method, it is important to note XAudio2 audio data is interleaved. This means data from each channel is adjacent for a particular sample number. For example, if there is a 4-channel wave playing into an XAudio2 source voice, the audio data is a sample of channel 0, a sample of channel 1, a sample of channel 2, a sample of channel 3, and then the next sample of channels 0, 1, 2, 3, and so on.
+When writing a [**Process**](/windows/win32/api/xapo/nf-xapo-ixapo-process) method, it is important to note XAudio2 audio data is interleaved. This means data from each channel is adjacent for a particular sample number. For example, if there is a 4-channel wave playing into an XAudio2 source voice, the audio data is a sample of channel 0, a sample of channel 1, a sample of channel 2, a sample of channel 3, and then the next sample of channels 0, 1, 2, 3, and so on.
 
 ## Related topics
 
@@ -126,6 +126,3 @@ When writing a [**Process**](https://msdn.microsoft.com/library/Ee418456(v=VS.85
  
 
  
-
-
-

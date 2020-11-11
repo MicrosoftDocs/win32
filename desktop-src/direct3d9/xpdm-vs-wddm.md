@@ -62,7 +62,6 @@ A Windows service is a process that runs in the background, controlled by the se
 
  
 
-## 
 
 The following table summarizes the differences listed here.
 
@@ -88,7 +87,7 @@ The following table summarizes the differences listed here.
 
  
 
-For more information about XPDM, WDDM, Direct3D9Ex, and Direct3D 10, see [Graphics APIs in Windows](https://msdn.microsoft.com/library/Ee417756(v=VS.85).aspx).
+For more information about XPDM, WDDM, Direct3D9Ex, and Direct3D 10, see [Graphics APIs in Windows](../direct3darticles/graphics-apis-in-windows-vista.md).
 
 ## Related topics
 
@@ -100,7 +99,3 @@ For more information about XPDM, WDDM, Direct3D9Ex, and Direct3D 10, see [Graphi
  
 
  
-
-
-
-

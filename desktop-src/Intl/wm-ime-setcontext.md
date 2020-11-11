@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM\_IME\_SETCONTEXT message
 
-Sent to an application when a window is activated. A window receives this message through its [*WindowProc*](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+Sent to an application when a window is activated. A window receives this message through its [*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -65,13 +65,13 @@ Display options. This parameter can have one or more of the following values.
 
 ## Return value
 
-Returns the value returned by [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) or [**ImmIsUIMessage**](/windows/desktop/api/Imm/nf-imm-immisuimessagea).
+Returns the value returned by [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) or [**ImmIsUIMessage**](/windows/desktop/api/Imm/nf-imm-immisuimessagea).
 
 ## Remarks
 
-If the application has created an IME window, it should call [**ImmIsUIMessage**](/windows/desktop/api/Imm/nf-imm-immisuimessagea). Otherwise, it should pass this message to [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca).
+If the application has created an IME window, it should call [**ImmIsUIMessage**](/windows/desktop/api/Imm/nf-imm-immisuimessagea). Otherwise, it should pass this message to [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca).
 
-If the application draws the composition window, the default IME window does not have to show its composition window. In this case, the application must clear the **ISC\_SHOWUICOMPOSITIONWINDOW** value from the *lParam* parameter before passing the message to [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) or [**ImmIsUIMessage**](/windows/desktop/api/Imm/nf-imm-immisuimessagea). To display a certain user interface window, an application should remove the corresponding value so that the IME will not display it.
+If the application draws the composition window, the default IME window does not have to show its composition window. In this case, the application must clear the **ISC\_SHOWUICOMPOSITIONWINDOW** value from the *lParam* parameter before passing the message to [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) or [**ImmIsUIMessage**](/windows/desktop/api/Imm/nf-imm-immisuimessagea). To display a certain user interface window, an application should remove the corresponding value so that the IME will not display it.
 
 ## Requirements
 
@@ -101,7 +101,3 @@ If the application draws the composition window, the default IME window does not
  
 
  
-
-
-
-

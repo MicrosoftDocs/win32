@@ -101,7 +101,7 @@ If a catalog reset should occur, the search service resets the entire catalog an
 
 -   For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
 -   For overviews of the Catalog Manager and Catalog Search Manager (CSM), see [Using the Catalog Manager](-search-3x-wds-mngidx-catalog-manager.md) and [Using the Crawl Scope Manager](-search-3x-wds-extidx-csm.md).
--   For information about creating a Shell data store, see [Implementing the Basic Folder Object Interfaces](https://msdn.microsoft.com/library/cc144093(VS.85).aspx).
+-   For information about creating a Shell data store, see [Implementing the Basic Folder Object Interfaces](/previous-versions/windows/desktop/legacy/cc144093(v=vs.85)).
 
 ## Related topics
 
@@ -134,6 +134,3 @@ If a catalog reset should occur, the search service resets the entire catalog an
  
 
  
-
-
-

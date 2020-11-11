@@ -36,7 +36,7 @@ Returns the value of extended style.For more information on styles, see [Edit Co
 
 ## Remarks
 
-The extended styles for an edit control have nothing to do with the extended styles used with function [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) or function [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga).
+The extended styles for an edit control have nothing to do with the extended styles used with function [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) or function [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga).
 
 ## Requirements
 
@@ -51,10 +51,4 @@ The extended styles for an edit control have nothing to do with the extended sty
 
 
  
-
- 
-
-
-
-
 

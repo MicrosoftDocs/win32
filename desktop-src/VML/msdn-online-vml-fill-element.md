@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).
 
  
 
@@ -34,7 +34,7 @@ The following attributes modify a fill.
 | [Focus](msdn-online-vml-focus-attribute.md)                       | Defines the center of a linear gradient fill.          |
 | [FocusPosition](msdn-online-vml-focusposition-attribute.md)       | Defines the center of a radial gradient fill.          |
 | [FocusSize](msdn-online-vml-focussize-attribute.md)               | Defines the focus size for a radial fill.              |
-| [HRef](https://msdn.microsoft.com/library/Bb229574(v=VS.85).aspx) | Defines a URL to the original image file.              |
+| [HRef](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/bb229574(v=vs.85)) | Defines a URL to the original image file.              |
 | [ID](id-attribute--fill--vml.md)                                  | Defines a unique identifier for the fill.              |
 | [Method](msdn-online-vml-method-attribute.md)                     | Defines the method used to generate a gradient fill.   |
 | [On](on-attribute--fill--vml.md)                                  | Determines whether the fill wil be displayed.          |
@@ -70,13 +70,9 @@ The following code shows a simple gradient fill for a shape.
 
 **Examples**
 
--   [Simple Gradient Fill](https://docs.microsoft.com/previous-versions/bb229620(v%3dvs.85))
--   [Dynamic Fill Example](https://docs.microsoft.com/previous-versions/bb229621(v%3dvs.85))
+-   [Simple Gradient Fill](/previous-versions/bb229620(v=vs.85))
+-   [Dynamic Fill Example](/previous-versions/bb229621(v=vs.85))
 
  
 
  
-
-
-
-

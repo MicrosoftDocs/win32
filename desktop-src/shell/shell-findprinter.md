@@ -51,7 +51,7 @@ Shell.FindPrinter( _
 *sName* \[in, optional\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** that contains the printer name.
 
@@ -60,7 +60,7 @@ A **String** that contains the printer name.
 *sLocation* \[in, optional\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** that contains the printer location.
 
@@ -69,7 +69,7 @@ A **String** that contains the printer location.
 *sModel* \[in, optional\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** that contains the printer model.
 
@@ -137,7 +137,3 @@ VBScript:
  
 
  
-
-
-
-

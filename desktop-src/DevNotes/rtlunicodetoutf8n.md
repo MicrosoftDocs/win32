@@ -28,7 +28,7 @@ NTSTATUS WINAPI RtlUnicodeToUTF8N(
   _In_      ULONG  UTF8StringMaxByteCount,
   _Out_opt_ PULONG UTF8StringActualByteCount,
   _In_      PCWSTR UnicodeStringSource,
-  _In_      ULONG  UnicodeStringWCharCount
+  _In_      ULONG  UnicodeStringByteCount
 );
 ```
 
@@ -66,10 +66,10 @@ A pointer to the Unicode source string to be translated.
 
 </dd> <dt>
 
-*UnicodeStringWCharCount* \[in\]
+*UnicodeStringByteCount * \[in\]
 </dt> <dd>
 
-Size, in WChar, of the string at *UnicodeStringSource*.
+Specifies the number of bytes in the Unicode source string that the *UnicodeStringSource* parameter points to.
 
 </dd> </dl>
 

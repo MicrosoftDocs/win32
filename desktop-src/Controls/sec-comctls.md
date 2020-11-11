@@ -27,7 +27,7 @@ Many of the control messages and macros have string parameters. Often these mess
 
 When you program Windows controls, it is necessary to manipulate strings. Almost every control requires text to be inserted. For example, to populate a list box you must load strings into the control. Because using strings incorrectly often causes buffer overruns, take precautions to avoid this security risk.
 
-For more information about buffer overruns, see *Writing Secure Code* by Michael Howard and David LeBlanc, Microsoft Press, 2002 and [Best Practices for the Security APIs](https://docs.microsoft.com/windows/desktop/SecBP/best-practices-for-the-security-apis).
+For more information about buffer overruns, see *Writing Secure Code* by Michael Howard and David LeBlanc, Microsoft Press, 2002 and [Best Practices for the Security APIs](/windows/desktop/SecBP/best-practices-for-the-security-apis).
 
 ## Input Validation
 
@@ -78,22 +78,18 @@ The following table lists features that, if used incorrectly, can compromise the
 **Other Resources**
 </dt> <dt>
 
-[Microsoft Security]( http://www.microsoft.com/security/default.aspx)
+[Microsoft Security](https://www.microsoft.com/security/default.aspx)
 </dt> <dt>
 
-[Security](https://docs.microsoft.com/windows/desktop/security)
+[Security](/windows/desktop/security)
 </dt> <dt>
 
-[TechNet Security Resources]( http://www.microsoft.com/technet/security/Bulletin/MS10-059.mspx)
+[TechNet Security Resources](https://www.microsoft.com/technet/security/Bulletin/MS10-059.mspx)
 </dt> <dt>
 
-[Best Practices for the Security APIs](https://docs.microsoft.com/windows/desktop/SecBP/best-practices-for-the-security-apis)
+[Best Practices for the Security APIs](/windows/desktop/SecBP/best-practices-for-the-security-apis)
 </dt> </dl>
 
  
 
  
-
-
-
-

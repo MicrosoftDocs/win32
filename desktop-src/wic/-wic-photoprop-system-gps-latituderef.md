@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.LatitudeRef Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.LatitudeRef](https://msdn.microsoft.com/library/bb760543(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.LatitudeRef](../properties/props-system-gps-latitude.md) property.
 
 ### PKEY
 
@@ -70,12 +70,9 @@ If the file is in TIFF format, the handler will read, write, and remove the data
 
 <dl> <dt>
 
-[System.GPS.LatitudeRef](https://msdn.microsoft.com/library/bb760543(VS.85).aspx)
+[System.GPS.LatitudeRef](../properties/props-system-gps-latitude.md)
 </dt> </dl>
 
  
 
  
-
-
-

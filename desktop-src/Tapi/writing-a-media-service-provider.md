@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Writing a Media Service Provider
 
-A media service provider must implement a minimum subset of MSPI interfaces: [**ITMSPAddress**](/windows/desktop/api/msp/nn-msp-itmspaddress), [**ITTerminalSupport**](https://msdn.microsoft.com/library/ms733156(v=VS.85).aspx), [**ITStreamControl**](https://msdn.microsoft.com/library/ms732393(v=VS.85).aspx), and [**ITStream**](https://msdn.microsoft.com/library/ms732390(v=VS.85).aspx). SubStream support is optional. In addition, a given MSP may implement additional methods, such as controls required for specialized hardware.
+A media service provider must implement a minimum subset of MSPI interfaces: [**ITMSPAddress**](/windows/desktop/api/msp/nn-msp-itmspaddress), [**ITTerminalSupport**](/windows/win32/api/tapi3if/nn-tapi3if-itterminalsupport), [**ITStreamControl**](/windows/win32/api/tapi3if/nn-tapi3if-itstreamcontrol), and [**ITStream**](/windows/win32/api/tapi3if/nn-tapi3if-itstream). SubStream support is optional. In addition, a given MSP may implement additional methods, such as controls required for specialized hardware.
 
 The following material documents:
 
@@ -19,6 +19,3 @@ The following material documents:
  
 
  
-
-
-

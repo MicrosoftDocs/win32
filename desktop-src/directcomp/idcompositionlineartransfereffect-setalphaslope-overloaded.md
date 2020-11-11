@@ -24,8 +24,8 @@ Sets the slope of the linear function for the alpha channel.
 
 | Method                                                                                                 | Description                                                             |
 |:-------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|
-| [**SetAlphaSlope**](https://msdn.microsoft.com/library/Dn919743(v=VS.85).aspx)                               | Sets the slope of the linear function for the alpha channel.<br/> |
-| [**SetAlphaSlope (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919744(v=VS.85).aspx) | Sets the slope of the linear function for the alpha channel.<br/> |
+| [**SetAlphaSlope**](/windows/win32/api/dcomp/nf-dcomp-idcompositionlineartransfereffect-setalphaslope(float))                               | Sets the slope of the linear function for the alpha channel.<br/> |
+| [**SetAlphaSlope (IDCompositionAnimation \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionlineartransfereffect-setalphaslope(idcompositionanimation)) | Sets the slope of the linear function for the alpha channel.<br/> |
 
 
 
@@ -43,14 +43,9 @@ Sets the slope of the linear function for the alpha channel.
 
 <dl> <dt>
 
-[**IDCompositionLinearTransferEffect**](https://msdn.microsoft.com/library/Dn919741(v=VS.85).aspx)
+[**IDCompositionLinearTransferEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionlineartransfereffect)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

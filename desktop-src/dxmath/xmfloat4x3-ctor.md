@@ -17,7 +17,7 @@ api_location:
 
 Constructors exposed by `XMFLOAT4X3`.
 
-Constructs instances of the [**XMFLOAT4X3**](https://msdn.microsoft.com/library/Ee419611(v=VS.85).aspx) structure.
+Constructs instances of the [**XMFLOAT4X3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x3) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -41,8 +41,8 @@ Constructs instances of the [**XMFLOAT4X3**](https://msdn.microsoft.com/library/
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x3-xmfloat4x3"><strong>XMFLOAT4X3 ()</strong></a></td>
-<td style="text-align: left;">Default constructor for <code>XMFLOAT4X3</code><br/> Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3"><strong>XMFLOAT4X3</strong></a><br/>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x3-xmfloat4x3"><strong>XMFLOAT4X3 ()</strong></a></td>
+<td style="text-align: left;">Default constructor for <code>XMFLOAT4X3</code><br/> Default constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3"><strong>XMFLOAT4X3</strong></a><br/>
 <blockquote>
 [!Note]<br />
 This is only available for C++ based development.
@@ -50,8 +50,8 @@ This is only available for C++ based development.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x3-xmfloat4x3(constfloat)"><strong>XMFLOAT4X3 (const float*)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT4X3</code> structure from a twelve element <code>float</code> array. <br/> Initializes a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3"><strong>XMFLOAT4X3</strong></a> structure from a twelve element <code>float</code> array. <br/>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x3-xmfloat4x3(constfloat)"><strong>XMFLOAT4X3 (const float*)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT4X3</code> structure from a twelve element <code>float</code> array. <br/> Initializes a new instance of the <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3"><strong>XMFLOAT4X3</strong></a> structure from a twelve element <code>float</code> array. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -59,8 +59,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x3-xmfloat4x3(float_float_float_float_float_float_float_float_float_float_float_float)"><strong>XMFLOAT4X3 (float,float,float,float,float,float,float,float,float,float,float,float)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT4X3</code> structure from twelve scalar <code>float</code> values. <br/> Initializes a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3"><strong>XMFLOAT4X3</strong></a> structure from twelve scalar <code>float</code> values. <br/>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x3-xmfloat4x3(float_float_float_float_float_float_float_float_float_float_float_float)"><strong>XMFLOAT4X3 (float,float,float,float,float,float,float,float,float,float,float,float)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT4X3</code> structure from twelve scalar <code>float</code> values. <br/> Initializes a new instance of the <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3"><strong>XMFLOAT4X3</strong></a> structure from twelve scalar <code>float</code> values. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -82,13 +82,9 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT4X3**](https://msdn.microsoft.com/library/Ee419611(v=VS.85).aspx)
+[**XMFLOAT4X3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x3)
 </dt> </dl>
 
  
 
  
-
-
-
-

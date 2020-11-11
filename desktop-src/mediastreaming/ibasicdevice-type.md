@@ -1,6 +1,6 @@
 ---
 title: IBasicDevice Type method
-description: Retreives an enumeration value indicating the device type of the DLNA device.
+description: Retrieves an enumeration value indicating the device type of the DLNA device.
 ms.assetid: D9FB3A02-7796-4ACB-B7D3-D171D1D9B77F
 keywords:
 - Type method Media Streaming API
@@ -19,7 +19,7 @@ api_location:
 
 # IBasicDevice::Type method
 
-Retreives an enumeration value indicating the device type of the DLNA device.
+Retrieves an enumeration value indicating the device type of the DLNA device.
 
 ## Syntax
 

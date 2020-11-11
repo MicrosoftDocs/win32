@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.CameraModel Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.CameraModel](https://msdn.microsoft.com/library/bb760388(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.CameraModel](../properties/props-system-photo-cameramodel.md) property.
 
 ### PKEY
 
@@ -128,12 +128,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.CameraModel](https://msdn.microsoft.com/library/bb760388(VS.85).aspx)
+[System.Photo.CameraModel](../properties/props-system-photo-cameramodel.md)
 </dt> </dl>
 
  
 
  
-
-
-

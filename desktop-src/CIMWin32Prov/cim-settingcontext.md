@@ -61,7 +61,7 @@ Data type: **CIM\_Configuration**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Reference to the configuration object that aggregates the setting.
@@ -102,9 +102,4 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
  
-
- 
-
-
-
 

@@ -24,7 +24,7 @@ For more information on IPsec, see also:
 
 <dl>
 
-[IPsec Technical Reference](https://technet.microsoft.com/library/fa2c6e21-a693-4a7c-bc0f-c171477928de)  
+[IPsec Technical Reference](/previous-versions/windows/it-pro/windows-server-2003/cc740240(v=ws.10))  
 </dl>
 
 ## What is IKE
@@ -35,7 +35,7 @@ For more information on IKE, see also:
 
 <dl>
 
-[Internet Key Exchange](https://technet.microsoft.com/library/f54655de-7129-408e-a7a9-b1a29baefa17)  
+[Internet Key Exchange](/previous-versions/windows/it-pro/windows-server-2003/cc784994(v=ws.10))  
 </dl>
 
 ## What is AuthIP
@@ -53,9 +53,9 @@ Authenticated Internet Protocol (AuthIP) is a new key exchange protocol that exp
 AuthIP has an authentication-retry mechanism that verifies all configured authentication methods before failing the connection.  
 AuthIP can be used with secure sockets to implement application-based IPsec secured traffic. It provides:
 
--   Per-socket authentication and encryption. See [**WSASetSocketSecurity**](https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity) for more information.
+-   Per-socket authentication and encryption. See [**WSASetSocketSecurity**](/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity) for more information.
 -   Client impersonation. (IPsec impersonates the security context under which the socket is created.)
--   Inbound and outbound peer name validation. See [**WSASetSocketPeerTargetName**](https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname) for more information.
+-   Inbound and outbound peer name validation. See [**WSASetSocketPeerTargetName**](/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname) for more information.
 
   
 </dl>
@@ -77,8 +77,8 @@ For more information on IPsec policies, see also:
 
 <dl>
 
-[Overview of IPsec Policy Concepts](https://technet.microsoft.com/library/cc776080(WS.10).aspx)  
-[Description of an IPsec Policy](https://technet.microsoft.com/library/9a6ec1f0-cfa5-420d-992f-7c368b1725ae)  
+[Overview of IPsec Policy Concepts](/previous-versions/windows/it-pro/windows-server-2003/cc776080(v=ws.10))  
+[Description of an IPsec Policy](/previous-versions/windows/it-pro/windows-server-2003/cc781593(v=ws.10))  
 </dl>
 
 ## How to Use WFP to Configure IPsec Policies
@@ -152,13 +152,9 @@ Below is a sample isolation policy that may be implemented using IPsec:
 **IPsec Solutions:**
 </dt> <dt>
 
-[Server and Domain Isolation](https://technet.microsoft.com/library/cc776080(WS.10).aspx)
+[Server and Domain Isolation](/previous-versions/windows/it-pro/windows-server-2003/cc776080(v=ws.10))
 </dt> </dl>
 
  
 
  
-
-
-
-

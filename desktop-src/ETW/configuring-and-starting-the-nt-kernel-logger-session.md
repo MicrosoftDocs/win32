@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Configuring and Starting the NT Kernel Logger Session
 
-The NT Kernel Logger session is an event tracing session that records a predefined set of kernel events. You do not call the [**EnableTrace**](enabletrace.md) function to enable the kernel providers. Instead, you use the **EnableFlags** member of [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md) structure to specify the kernel events that you want to receive. The [**StartTrace**](starttrace.md) function uses the enable flags that you specify to enable the kernel providers.
+The NT Kernel Logger session is an event tracing session that records a predefined set of kernel events. You do not call the [**EnableTrace**](/windows/win32/api/evntrace/nf-evntrace-enabletrace) function to enable the kernel providers. Instead, you use the **EnableFlags** member of [**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) structure to specify the kernel events that you want to receive. The [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea) function uses the enable flags that you specify to enable the kernel providers.
 
-There is only one NT Kernel Logger session. If the session is already in use, the [**StartTrace**](starttrace.md) function returns ERROR\_ALREADY\_EXISTS.
+There is only one NT Kernel Logger session. If the session is already in use, the [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea) function returns ERROR\_ALREADY\_EXISTS.
 
 For details on starting an event tracing session, see [Configuring and Starting an Event Tracing Session](configuring-and-starting-an-event-tracing-session.md).
 
@@ -132,6 +132,3 @@ cleanup:
  
 
  
-
-
-

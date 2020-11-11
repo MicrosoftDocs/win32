@@ -31,7 +31,7 @@ The following transport (or protocol family) identifiers are also listed in Mpra
 [About Router Management](about-router-management.md)
 </dt> <dt>
 
-[About Router Management and MIB](https://docs.microsoft.com/windows/desktop/RRAS/about-router-management-with-mib)
+[About Router Management and MIB](/windows/desktop/RRAS/about-router-management-with-mib)
 </dt> <dt>
 
 [Router Management MIB Reference](router-management-mib-reference.md)
@@ -43,7 +43,3 @@ The following transport (or protocol family) identifiers are also listed in Mpra
  
 
  
-
-
-
-

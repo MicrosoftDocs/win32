@@ -42,12 +42,8 @@ The following information levels are valid only for [**NetUserModalsSet**](/wind
 -   [**USER\_MODALS\_INFO\_1006**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_modals_info_1006)
 -   [**USER\_MODALS\_INFO\_1007**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_modals_info_1007)
 
-If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management user modal functions. For more information, see [**IADsDomain**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsdomain).
+If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management user modal functions. For more information, see [**IADsDomain**](/windows/desktop/api/iads/nn-iads-iadsdomain).
 
  
 
  
-
-
-
-

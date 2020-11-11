@@ -78,10 +78,10 @@ A pointer to a null-terminated Unicode string that represents the chaining mode 
 
 | Identifier                   | Value                         | Description                                                                                                                                                                    |
 |------------------------------|-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **BCRYPT\_CHAIN\_MODE\_CBC** | L"ChainingModeCBC"<br/> | Sets the algorithm's chaining mode to [*cipher block chaining*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly).<br/>            |
+| **BCRYPT\_CHAIN\_MODE\_CBC** | L"ChainingModeCBC"<br/> | Sets the algorithm's chaining mode to [*cipher block chaining*](/windows/desktop/SecGloss/c-gly).<br/>            |
 | **BCRYPT\_CHAIN\_MODE\_CCM** | L"ChainingModeCCM"<br/> | Sets the algorithm's chaining mode to counter with CBC-MAC mode (CCM).**Windows Vista:** This value is supported beginning with Windows Vista with SP1.<br/> <br/> |
-| **BCRYPT\_CHAIN\_MODE\_CFB** | L"ChainingModeCFB"<br/> | Sets the algorithm's chaining mode to [*cipher feedback*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly).<br/>                              |
-| **BCRYPT\_CHAIN\_MODE\_ECB** | L"ChainingModeECB"<br/> | Sets the algorithm's chaining mode to [*electronic codebook*](https://docs.microsoft.com/windows/desktop/SecGloss/e-gly).<br/>                  |
+| **BCRYPT\_CHAIN\_MODE\_CFB** | L"ChainingModeCFB"<br/> | Sets the algorithm's chaining mode to [*cipher feedback*](/windows/desktop/SecGloss/c-gly).<br/>                              |
+| **BCRYPT\_CHAIN\_MODE\_ECB** | L"ChainingModeECB"<br/> | Sets the algorithm's chaining mode to [*electronic codebook*](/windows/desktop/SecGloss/e-gly).<br/>                  |
 | **BCRYPT\_CHAIN\_MODE\_GCM** | L"ChainingModeGCM"<br/> | Sets the algorithm's chaining mode to Galois/counter mode (GCM).**Windows Vista:** This value is supported beginning with Windows Vista with SP1.<br/> <br/>       |
 | **BCRYPT\_CHAIN\_MODE\_NA**  | L"ChainingModeN/A"<br/> | The algorithm does not support chaining.<br/>                                                                                                                            |
 
@@ -167,7 +167,7 @@ L"HashOIDList"
 
 
 
-The list of [*DER*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly)-encoded hashing [*object identifiers*](https://docs.microsoft.com/windows/desktop/SecGloss/o-gly) (OIDs). This property is a [**BCRYPT\_OID\_LIST**](/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_oid_list) structure. This property can only be read.
+The list of [*DER*](/windows/desktop/SecGloss/d-gly)-encoded hashing [*object identifiers*](/windows/desktop/SecGloss/o-gly) (OIDs). This property is a [**BCRYPT\_OID\_LIST**](/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_oid_list) structure. This property can only be read.
 
 
 </dt> </dl> </dd> <dt>
@@ -180,7 +180,7 @@ L"IV"
 
 
 
-Contains the [*initialization vector*](https://docs.microsoft.com/windows/desktop/SecGloss/i-gly) (IV) for a key. This property only applies to keys.
+Contains the [*initialization vector*](/windows/desktop/SecGloss/i-gly) (IV) for a key. This property only applies to keys.
 
 
 </dt> </dl> </dd> <dt>
@@ -342,9 +342,4 @@ The size, in bytes, of the length of a signature for a key. This data type is a 
 
 
  
-
- 
-
-
-
 

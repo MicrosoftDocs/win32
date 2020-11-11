@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-<dl> **Clients** – Windows 8  
+**Clients** – Windows 8  
 **Servers** – Windows Server 2012  
-</dl>
+
 
 ## Description
 
@@ -61,7 +61,7 @@ These Windows components provide divergent behavior based on the compatibility s
 
 -   Windows 8: CShellLink::Save now determines if the IPersistFile handler is called with a relative path argument and fails the call if it is.
 
-    The [public documentation](https://msdn.microsoft.com/library/ms693701.aspx) describing this behavior indicates that path argument has to be an absolute path:
+    The [public documentation](/windows/win32/api/objidl/nf-objidl-ipersistfile-save) describing this behavior indicates that path argument has to be an absolute path:
 
 -   Windows 7 and earlier (default): CShellLink::Save does not determine if the iPersistFile handler sends a relative path check and allows apps to continue working with absolute or relative paths.
 
@@ -133,17 +133,13 @@ An app can specify multiple supported operating system IDs. You should add a sup
 
 ## Resources
 
--   [QueryActCtxW Function](https://msdn.microsoft.com/library/aa374191(v=VS.85).aspx)
--   [UAC manifest](https://msdn.microsoft.com/library/bb756929.aspx)
--   [Application Manifests for Windows Applications](https://msdn.microsoft.com/library/aa374191(v=VS.85).aspx)
--   [Desktop Window Manager (DWM)](https://msdn.microsoft.com/library/aa969540(v=VS.85).aspx)
+-   [QueryActCtxW Function](../sbscs/application-manifests.md)
+-   [UAC manifest](/previous-versions/bb756929(v=msdn.10))
+-   [Application Manifests for Windows Applications](../sbscs/application-manifests.md)
+-   [Desktop Window Manager (DWM)](../dwm/dwm-overview.md)
 -   [Context Mismatch Update](https://support.microsoft.com/kb/978637)
--   [Program Compatibility Assistant](https://msdn.microsoft.com/library/bb756937.aspx)
+-   [Program Compatibility Assistant](/previous-versions/bb756937(v=msdn.10))
 
  
 
  
-
-
-
-

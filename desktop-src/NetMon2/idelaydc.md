@@ -24,7 +24,7 @@ This interface captures frames from the network data stream and then copies the 
 
 ## Members
 
-The **IDelaydC** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDelaydC** also has these types of members:
+The **IDelaydC** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDelaydC** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -67,9 +67,4 @@ The **IDelaydC** interface has these methods.
 
 
  
-
- 
-
-
-
 

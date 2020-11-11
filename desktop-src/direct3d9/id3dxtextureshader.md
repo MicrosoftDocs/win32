@@ -22,7 +22,7 @@ The ID3DXTextureShader interface.
 
 ## Members
 
-The **ID3DXTextureShader** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXTextureShader** also has these types of members:
+The **ID3DXTextureShader** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DXTextureShader** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -66,7 +66,7 @@ The **ID3DXTextureShader** interface has these methods.
 
 The **ID3DXTextureShader** interface is obtained by calling the [**D3DXCreateTextureShader**](d3dxcreatetextureshader.md) function.
 
-The **ID3DXTextureShader** interface, like all COM interfaces, inherits the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface.
+The **ID3DXTextureShader** interface, like all COM interfaces, inherits the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
 
 The LPD3DXTEXTURESHADER type is defined as a pointer to the **ID3DXTextureShader** interface.
 
@@ -98,7 +98,3 @@ typedef interface ID3DXTextureShader *LPD3DXTEXTURESHADER;
  
 
  
-
-
-
-

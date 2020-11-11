@@ -52,7 +52,7 @@ float4 PSSceneMain(PSSceneIn input) : SV_Target
 
 The unbounded array feature is illustrated by the `g_txMats[]` array as it does not specify an array size. Dynamic indexing is used to index into `g_txMats[]` with `matIndex`, which is defined as a root constant. The shader has no knowledge of the size or the array or the value of the index at compile-time. Both attributes are defined in the root signature of the pipeline state object used with the shader.
 
-To take advantage of the dynamic indexing features in HLSL requires that the shader be compiled with SM 5.1. Additionally, to make use of unbounded arrays, the **/enable\_unbounded\_descriptor\_tables** flag must also be used. The following command line options are used to compile this shader with the [Effect-Compiler Tool](https://docs.microsoft.com/windows/desktop/direct3dtools/fxc) (FXC):
+To take advantage of the dynamic indexing features in HLSL requires that the shader be compiled with SM 5.1. Additionally, to make use of unbounded arrays, the **/enable\_unbounded\_descriptor\_tables** flag must also be used. The following command line options are used to compile this shader with the [Effect-Compiler Tool](/windows/desktop/direct3dtools/fxc) (FXC):
 
 ``` syntax
 fxc /Zi /E"PSSceneMain" /Od /Fo"dynamic_indexing_pixel.cso" /ps"_5_1" /nologo /enable_unbounded_descriptor_tables
@@ -93,7 +93,7 @@ Now, let's look at the root signature definition, particularly, how we define th
 | [**CD3DX12\_DESCRIPTOR\_RANGE**](cd3dx12-descriptor-range.md)        | [**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_type) |
 | [**CD3DX12\_ROOT\_PARAMETER**](cd3dx12-root-parameter.md)            | [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility)          |
 | [**CD3DX12\_ROOT\_SIGNATURE\_DESC**](cd3dx12-root-signature-desc.md) | [**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_signature_flags)   |
-| [**ID3DBlob**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85))                                   |                                                                       |
+| [**ID3DBlob**](/previous-versions/windows/desktop/legacy/ff728743(v=vs.85))                                   |                                                                       |
 | [**D3D12SerializeRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-d3d12serializerootsignature)    | [**D3D\_ROOT\_SIGNATURE\_VERSION**](/windows/desktop/api/d3d12/ne-d3d12-d3d_root_signature_version)   |
 | [**CreateRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrootsignature)       |                                                                       |
 
@@ -178,7 +178,7 @@ The contents of `g_txMats[]` are procedurally generated textures created in **Lo
 <tbody>
 <tr class="odd">
 <td><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_desc"><strong>D3D12_RESOURCE_DESC</strong></a></td>
-<td><dl><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format"><strong>DXGI_FORMAT</strong></a><br />
+<td><dl><a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format"><strong>DXGI_FORMAT</strong></a><br />
 <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags"><strong>D3D12_RESOURCE_FLAGS</strong></a><br />
 <a href=""></a>[<strong>D3D12_RESOURCE_DIMENSION</strong>](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_dimension)<br />
 </dl></td>
@@ -193,9 +193,9 @@ The contents of `g_txMats[]` are procedurally generated textures created in **Lo
 </dl></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type"><strong>XMVECTOR</strong></a></td>
-<td><dl><a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorset"><strong>XMVectorSet</strong></a><br />
-<a href=""></a>[<strong>XMColorHSLToRGB</strong>](https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcolorhsltorgb)<br />
+<td><a href="/windows/desktop/dxmath/xmvector-data-type"><strong>XMVECTOR</strong></a></td>
+<td><dl><a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorset"><strong>XMVectorSet</strong></a><br />
+<a href=""></a>[<strong>XMColorHSLToRGB</strong>](/windows/desktop/api/directxmath/nf-directxmath-xmcolorhsltorgb)<br />
 </dl></td>
 </tr>
 </tbody>
@@ -468,7 +468,7 @@ D3D12_FLOAT32_MAX (<a href="constants.md"><strong>Constants</strong></a>)<br />
 <tr class="even">
 <td><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_shader_resource_view_desc"><strong>D3D12_SHADER_RESOURCE_VIEW_DESC</strong></a></td>
 <td><dl><a href="constants.md">D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING</a><br />
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format"><strong>DXGI_FORMAT</strong></a><br />
+<a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format"><strong>DXGI_FORMAT</strong></a><br />
 <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_srv_dimension"><strong>D3D12_SRV_DIMENSION</strong></a><br />
 </dl></td>
 </tr>
@@ -532,16 +532,16 @@ Now when we render the scene, each city will have a different value for `matInde
 [D3D12 Code Walk-Throughs](d3d12-code-walk-throughs.md)
 </dt> <dt>
 
-[Effect-Compiler Tool](https://docs.microsoft.com/windows/desktop/direct3dtools/fxc)
+[Effect-Compiler Tool](/windows/desktop/direct3dtools/fxc)
 </dt> <dt>
 
-[HLSL Shader Model 5.1 Features for Direct3D 12](https://docs.microsoft.com/windows/desktop/direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12)
+[HLSL Shader Model 5.1 Features for Direct3D 12](/windows/desktop/direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12)
 </dt> <dt>
 
 [Resource Binding in HLSL](resource-binding-in-hlsl.md)
 </dt> <dt>
 
-[Shader Model 5.1](https://docs.microsoft.com/windows/desktop/direct3dhlsl/shader-model-5-1)
+[Shader Model 5.1](/windows/desktop/direct3dhlsl/shader-model-5-1)
 </dt> <dt>
 
 [Specifying Root Signatures in HLSL](specifying-root-signatures-in-hlsl.md)

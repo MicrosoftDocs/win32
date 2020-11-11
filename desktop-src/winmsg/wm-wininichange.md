@@ -8,14 +8,14 @@ ms.date: 05/31/2018
 
 # WM\_WININICHANGE message
 
-An application sends the **WM\_WININICHANGE** message to all top-level windows after making a change to the WIN.INI file. The [**SystemParametersInfo**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx) function sends this message after an application uses the function to change a setting in WIN.INI.
+An application sends the **WM\_WININICHANGE** message to all top-level windows after making a change to the WIN.INI file. The [**SystemParametersInfo**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa) function sends this message after an application uses the function to change a setting in WIN.INI.
 
 > [!Note]  
 > The **WM\_WININICHANGE** message is provided only for compatibility with earlier versions of the system. Applications should use the [**WM\_SETTINGCHANGE**](wm-settingchange.md) message.
 
  
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -50,7 +50,7 @@ If you process this message, return zero.
 
 ## Remarks
 
-To send the **WM\_WININICHANGE** message to all top-level windows, use the [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx) function with the *hWnd* parameter set to **HWND\_BROADCAST**.
+To send the **WM\_WININICHANGE** message to all top-level windows, use the [**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage) function with the *hWnd* parameter set to **HWND\_BROADCAST**.
 
 Calls to functions that change WIN.INI may be mapped to the registry instead. This mapping occurs when WIN.INI and the section being changed are specified in the registry under the following key:
 
@@ -74,13 +74,9 @@ The change in the storage location has no effect on the behavior of this message
 
 <dl> <dt>
 
-[**SystemParametersInfo**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx)
+[**SystemParametersInfo**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa)
 </dt> </dl>
 
  
 
  
-
-
-
-

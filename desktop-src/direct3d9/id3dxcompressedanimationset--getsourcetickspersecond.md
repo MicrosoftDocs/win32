@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](../winprog/windows-data-types.md)**
 
 Number of animation key frame ticks that occur per second.
 
@@ -60,7 +60,3 @@ Number of animation key frame ticks that occur per second.
  
 
  
-
-
-
-

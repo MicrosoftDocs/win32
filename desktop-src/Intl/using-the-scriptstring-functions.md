@@ -1,5 +1,5 @@
 ---
-Description: For an application dealing with unformatted text, Uniscribe provides the ScriptString\* functions.
+description: For an application dealing with unformatted text, Uniscribe provides the ScriptString\* functions.
 ms.assetid: bfbba5df-ce06-4012-a7b1-55d8ea580942
 title: Using the ScriptString Functions
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using the ScriptString Functions
 
-For an application dealing with unformatted text, Uniscribe provides the **ScriptString\*** functions. These functions are similar to [**ExtTextOut**](https://msdn.microsoft.com/library/Dd162713(v=VS.85).aspx), [**DrawText**](https://msdn.microsoft.com/library/Dd162498(v=VS.85).aspx), and [**GetTextExtent**](CDC::GetTextExtent), but they provide full complex script support, including caret placement. These functions are similar to the other Uniscribe functions, but are tailored to the simpler requirements of plain text processing.
+For an application dealing with unformatted text, Uniscribe provides the **ScriptString\*** functions. These functions are similar to [**ExtTextOut**](/windows/win32/api/wingdi/nf-wingdi-exttextouta), [**DrawText**](/windows/win32/api/winuser/nf-winuser-drawtext), and [**GetTextExtent**](/cpp/mfc/reference/cdc-class#gettextextent), but they provide full complex script support, including caret placement. These functions are similar to the other Uniscribe functions, but are tailored to the simpler requirements of plain text processing.
 
 The following table details the **ScriptString\*** functions and any counterparts in the other Uniscribe functions.
 
@@ -47,7 +47,7 @@ The following table details the **ScriptString\*** functions and any counterpart
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringgetorder"><strong>ScriptStringGetOrder</strong></a></td>
-<td>Maps character glyph positions in a similar way to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a>, for legacy use only. This function does not work well with scripts that generate more than one glyph per code point.</td>
+<td>Maps character glyph positions in a similar way to <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a>, for legacy use only. This function does not work well with scripts that generate more than one glyph per code point.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringout"><strong>ScriptStringOut</strong></a></td>
@@ -88,7 +88,3 @@ To only display plain text without any modifications, an application should call
  
 
  
-
-
-
-

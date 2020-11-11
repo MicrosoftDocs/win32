@@ -15,7 +15,7 @@ Windows Explorer is a powerful resource-browsing and management application. Win
 
  
 
-Open explorer windows can be discovered and programmed by using [**IShellWindows**](/windows/desktop/api/Exdisp/nn-exdisp-ishellwindows) (CLSID\_ShellWindows), and new instances of Windows Explorer can be created by using [**IWebBrowser2**](https://msdn.microsoft.com/library/Aa752127(v=VS.85).aspx) (CLSID\_ShellBrowserWindow).
+Open explorer windows can be discovered and programmed by using [**IShellWindows**](/windows/desktop/api/Exdisp/nn-exdisp-ishellwindows) (CLSID\_ShellWindows), and new instances of Windows Explorer can be created by using [**IWebBrowser2**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752127(v=vs.85)) (CLSID\_ShellBrowserWindow).
 
 The following code sample demonstrates how the Windows Explorer automation model can be used to create and discover explorer windows that are running.
 
@@ -324,6 +324,3 @@ These separate controls work together largely through events generated either by
  
 
  
-
-
-

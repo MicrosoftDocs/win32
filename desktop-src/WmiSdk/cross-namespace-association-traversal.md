@@ -17,7 +17,7 @@ To support this feature, the WMI infrastructure did the following:
 
 -   Created the interop namespace: \\root\\interop.
 -   Allowed cross namespace association traversal. Associations that cross namespaces support filtering at the association class level and at the implemented namespace level.
--   Added the [**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85)), [**CIM\_ElementConformsToProfile**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile), and [**CIM\_ReferencedProfile**](cim-referencedprofile.md) classes.
+-   Added the [**CIM\_RegisteredProfile**](/previous-versions//ee309375(v=vs.85)), [**CIM\_ElementConformsToProfile**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile), and [**CIM\_ReferencedProfile**](cim-referencedprofile.md) classes.
 -   Implemented CIM Schema version 2.17.1 compatibility. For more information, see [CIM Schema Compatibility](cim-schema-compatibility.md).
 
 ## Interop Namespace
@@ -32,17 +32,17 @@ The CIM classes described in the following list support cross-namespace associat
 
 <dl> <dt>
 
-<span id="CIM_RegisteredProfile"></span><span id="cim_registeredprofile"></span><span id="CIM_REGISTEREDPROFILE"></span>[**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85))
+<span id="CIM_RegisteredProfile"></span><span id="cim_registeredprofile"></span><span id="CIM_REGISTEREDPROFILE"></span>[**CIM\_RegisteredProfile**](/previous-versions//ee309375(v=vs.85))
 </dt> <dd>
 
 Used to identify the profile specification that is advertised as being implemented. This class specifies information that includes the profile name, organization, and version with which the implementation is compliant.
 
 </dd> <dt>
 
-<span id="CIM_ElementConformsToProfile"></span><span id="cim_elementconformstoprofile"></span><span id="CIM_ELEMENTCONFORMSTOPROFILE"></span>[**CIM\_ElementConformsToProfile**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile)
+<span id="CIM_ElementConformsToProfile"></span><span id="cim_elementconformstoprofile"></span><span id="CIM_ELEMENTCONFORMSTOPROFILE"></span>[**CIM\_ElementConformsToProfile**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile)
 </dt> <dd>
 
-Used to associate instances of management elements that are defined in profiles with the [**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85)) class that identifies the particular profile specifications that are implemented.
+Used to associate instances of management elements that are defined in profiles with the [**CIM\_RegisteredProfile**](/previous-versions//ee309375(v=vs.85)) class that identifies the particular profile specifications that are implemented.
 
 </dd> <dt>
 
@@ -69,10 +69,10 @@ To get the Windows 7 interop profiles, the Windows 7 version of the Interop.mo
 
 <dl> <dt>
 
-[**CIM\_RegisteredProfile**](https://docs.microsoft.com/previous-versions//ee309375(v=vs.85))
+[**CIM\_RegisteredProfile**](/previous-versions//ee309375(v=vs.85))
 </dt> <dt>
 
-[**CIM\_ElementConformsToProfile**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile)
+[**CIM\_ElementConformsToProfile**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile)
 </dt> <dt>
 
 [**CIM\_ReferencedProfile**](cim-referencedprofile.md)
@@ -90,6 +90,3 @@ To get the Windows 7 interop profiles, the Windows 7 version of the Interop.mo
  
 
  
-
-
-

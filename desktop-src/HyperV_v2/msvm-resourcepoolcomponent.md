@@ -70,7 +70,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The name of the class derived from [**CIM\_AllocationCapabilities**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-allocationcapabilities) that describes the allocation capabilities of this resource pool.
+The name of the class derived from [**CIM\_AllocationCapabilities**](/previous-versions/windows/desktop/clushyperv/cim-allocationcapabilities) that describes the allocation capabilities of this resource pool.
 
 </dd> <dt>
 
@@ -151,7 +151,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The name of the class derived from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice) that implements the physical device from which this pool allocates resources. This property can be **Null** if the virtual device class allocated from this pool is the same as the physical device class.
+The name of the class derived from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice) that implements the physical device from which this pool allocates resources. This property can be **Null** if the virtual device class allocated from this pool is the same as the physical device class.
 
 </dd> <dt>
 
@@ -164,7 +164,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The name of the class derived from [**CIM\_ResourcePool**](https://docs.microsoft.com/previous-versions//cc136903(v=vs.85)) that implements the resource pool.
+The name of the class derived from [**CIM\_ResourcePool**](/previous-versions//cc136903(v=vs.85)) that implements the resource pool.
 
 </dd> <dt>
 
@@ -177,7 +177,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The name of the class derived from [**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85)) that describes the non-allocation related settings of the resource pool.
+The name of the class derived from [**CIM\_SettingData**](/previous-versions//cc136911(v=vs.85)) that describes the non-allocation related settings of the resource pool.
 
 </dd> <dt>
 
@@ -196,7 +196,7 @@ A **GUID** that represents the class identifier of the component's WMI object fa
 
 ## Remarks
 
-Access to the **Msvm\_ResourcePoolComponent** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_ResourcePoolComponent** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -218,16 +218,11 @@ Access to the **Msvm\_ResourcePoolComponent** class might be restricted by UAC F
 
 <dl> <dt>
 
-[**Msvm\_VirtualizationComponent**](https://docs.microsoft.com/windows/desktop/HyperV_v2/msvm-virtualizationcomponent)
+[**Msvm\_VirtualizationComponent**](/windows/desktop/HyperV_v2/msvm-virtualizationcomponent)
 </dt> <dt>
 
 [**Msvm\_VirtualizationComponent**](msvm-virtualizationcomponent.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

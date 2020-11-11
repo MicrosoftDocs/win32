@@ -80,7 +80,7 @@ D3D10_SHADER_MACRO Shader_Macros[3] = { "zero", "0", "one", "1.0f", NULL, NULL }
 
 
 
-The macros are a NULL-terminated array of macros; where each macro is defined by using a [**D3D10\_SHADER\_MACRO**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro) struct.
+The macros are a NULL-terminated array of macros; where each macro is defined by using a [**D3D10\_SHADER\_MACRO**](/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro) struct.
 
 Modify the compile effect call to take a pointer to the macros.
 
@@ -101,15 +101,15 @@ Shader flags specify shader constraints to the HLSL compiler. These flags affect
 -   Including debug information, which prevents flow control.
 -   Affects the compile target and whether a shader can run on legacy hardware.
 
-These flags can be logically combined if you have not specified two conflicting characteristics. For a listing of the flags see [D3D10\_SHADER Constants](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-shader).
+These flags can be logically combined if you have not specified two conflicting characteristics. For a listing of the flags see [D3D10\_SHADER Constants](/windows/desktop/direct3d10/d3d10-shader).
 
 ## FX Flags
 
-Use these flags when you create an effect to define either compilation behavior or runtime effect behavior. For a listing of the flags see [D3D10\_EFFECT Constants](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-effect).
+Use these flags when you create an effect to define either compilation behavior or runtime effect behavior. For a listing of the flags see [D3D10\_EFFECT Constants](/windows/desktop/direct3d10/d3d10-effect).
 
 ## Checking Errors
 
-If during compilation an error occurs, the API returns an interface that contains the errors from the effect compiler. This interface is called [**ID3DBlob**](https://msdn.microsoft.com/library/Ff728743(v=VS.85).aspx). It is not directly readable; however, by returning a pointer to the buffer that contains the data (which is a string), you can see any compilation errors.
+If during compilation an error occurs, the API returns an interface that contains the errors from the effect compiler. This interface is called [**ID3DBlob**](/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)). It is not directly readable; however, by returning a pointer to the buffer that contains the data (which is a string), you can see any compilation errors.
 
 This example contains an error in the BasicHLSL.fx, the first variable declaration occurs twice.
 
@@ -165,7 +165,3 @@ if( pErrorBlob )
  
 
  
-
-
-
-

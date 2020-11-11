@@ -55,7 +55,7 @@ Data type: **[**Msvm\_WiFiPort**](msvm-wifiport.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 An instance of the [**Msvm\_WiFiPort**](msvm-wifiport.md) class that represents the logical device.
@@ -71,7 +71,7 @@ Data type: **[**Msvm\_WiFiEndpoint**](msvm-wifiendpoint.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 An instance of the [**Msvm\_WiFiEndpoint**](msvm-wifiendpoint.md) class that represents the service access point implemented using the logical device.
@@ -93,9 +93,4 @@ An instance of the [**Msvm\_WiFiEndpoint**](msvm-wifiendpoint.md) class that rep
 
 
  
-
- 
-
-
-
 

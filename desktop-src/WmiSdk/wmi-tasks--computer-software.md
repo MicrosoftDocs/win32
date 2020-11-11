@@ -18,7 +18,6 @@ WMI tasks for computer software obtain information such as which software is ins
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
-## 
 
 The following procedure describes how to run a script.
 
@@ -57,7 +56,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...uninstall software using a script?</td>
-<td>If the software was installed using Microsoft Windows Installer (MSI), use the WMI class <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa394378(v=vs.85)"><strong>Win32_Product</strong></a> and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msiprov/uninstall-method-in-class-win32-product"><strong>Uninstall</strong></a> method.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>If the software was installed using Microsoft Windows Installer (MSI), use the WMI class <a href="/previous-versions/windows/desktop/legacy/aa394378(v=vs.85)"><strong>Win32_Product</strong></a> and the <a href="/previous-versions/windows/desktop/msiprov/uninstall-method-in-class-win32-product"><strong>Uninstall</strong></a> method.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -107,7 +106,7 @@ foreach ($colItem in $colSoftware)
 </tr>
 <tr class="even">
 <td>...inventory all the software installed on a computer with a script?</td>
-<td><p>If the software was installed using Microsoft Windows Installer (MSI) use the WMI class <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa394378(v=vs.85)"><strong>Win32_Product</strong></a>.</p>
+<td><p>If the software was installed using Microsoft Windows Installer (MSI) use the WMI class <a href="/previous-versions/windows/desktop/legacy/aa394378(v=vs.85)"><strong>Win32_Product</strong></a>.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -162,7 +161,7 @@ foreach ($colItem in $colSoftware)
 </tr>
 <tr class="odd">
 <td>...determine what version of Microsoft Office is installed?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa394378(v=vs.85)"><strong>Win32_Product</strong></a> class and check the value of the <strong>Version</strong> property.</p>
+<td><p>Use the <a href="/previous-versions/windows/desktop/legacy/aa394378(v=vs.85)"><strong>Win32_Product</strong></a> class and check the value of the <strong>Version</strong> property.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -241,9 +240,4 @@ The [Powershell Remote PC Info Script](https://Gallery.TechNet.Microsoft.Com/2a8
 </dt> </dl>
 
  
-
- 
-
-
-
 

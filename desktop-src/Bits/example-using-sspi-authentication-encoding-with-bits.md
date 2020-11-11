@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 You can use Security Support Provider Interface (SSPI) Authentication and Background Intelligent Transfer Service (BITS) methods to get the credentials from a user, encode the credentials, and set the encoded credentials on a BITS transfer job. Encoding is required to convert credentials structure into strings that can be passed to a BITS transfer job.
 
-For more information about SSPI authentication and methods, see [SSPI](https://msdn.microsoft.com/library/aa380493.aspx).
+For more information about SSPI authentication and methods, see [SSPI](../secauthn/sspi.md).
 
 The following procedure prompts for credentials from the user by using the Negotiate security package. The program creates an authentication identity structure and populates the structure with the encoded strings that represent the user name, domain, and password of the user. Then the program creates a BITS download job and sets the encoded user name and password as the credentials for the job. The program frees the authentication identity structure after it is no longer needed.
 
@@ -19,19 +19,19 @@ This example uses the header and implementation defined in [Example: Common Clas
 **To use SSPI authentication encoding with BITS transfer jobs**
 
 1.  Initialize COM parameters by calling the CCoInitializer function. For more information about the CCoInitializer function, see [Example: Common Classes](common-classes.md).
-2.  Get pointers for the [**IBackgroundCopyManager**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopymanager), [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob), [**IBackgroundCopyJob2**](/windows/desktop/api/bits1_5/nn-bits1_5-ibackgroundcopyjob2) interfaces. This example uses the [CComPtr Class](https://msdn.microsoft.com/library/ezzw7k98.aspx) to manage COM interface pointers.
-3.  Create a [CREDUI\_INFO](https://msdn.microsoft.com/library/aa375183.aspx) structure that contains information for customizing the appearance of the dialog box for the [SspiPromptForCredentials Function]( http://msdn.microsoft.com/en-us/library/dd401714.aspx). Then prompt for credentials from the user. For more information, see the [SspiPromptForCredentials Function]( http://msdn.microsoft.com/en-us/library/dd401714.aspx).
-4.  Encode credential structure as strings that can be passed to a BITS transfer job by using the [SspiEncodeAuthIdentityAsStrings]( http://msdn.microsoft.com/en-us/library/dd401701.aspx) function.
+2.  Get pointers for the [**IBackgroundCopyManager**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopymanager), [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob), [**IBackgroundCopyJob2**](/windows/desktop/api/bits1_5/nn-bits1_5-ibackgroundcopyjob2) interfaces. This example uses the [CComPtr Class](/cpp/atl/reference/ccomptr-class?view=vs-2019) to manage COM interface pointers.
+3.  Create a [CREDUI\_INFO](/windows/win32/api/wincred/ns-wincred-credui_infoa) structure that contains information for customizing the appearance of the dialog box for the [SspiPromptForCredentials Function](/windows/win32/api/sspi/nf-sspi-sspipromptforcredentialsa). Then prompt for credentials from the user. For more information, see the [SspiPromptForCredentials Function](/windows/win32/api/sspi/nf-sspi-sspipromptforcredentialsa).
+4.  Encode credential structure as strings that can be passed to a BITS transfer job by using the [SspiEncodeAuthIdentityAsStrings](/windows/win32/api/sspi/nf-sspi-sspiencodeauthidentityasstrings) function.
 5.  Prepare a [**BG\_AUTH\_CREDENTIALS**](/windows/desktop/api/bits1_5/ns-bits1_5-bg_auth_credentials) structure.
-6.  Initialize COM process security by calling [CoInitializeSecurity](https://msdn.microsoft.com/library/ms693736.aspx). BITS requires at least the IMPERSONATE level of impersonation. BITS fails with **E\_ACCESSDENIED** if the correct impersonation level is not set.
-7.  Obtain the initial locator to BITS by calling the [CoCreateInstance]( http://msdn.microsoft.com/en-us/library/ms686615.aspx) function.
+6.  Initialize COM process security by calling [CoInitializeSecurity](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity). BITS requires at least the IMPERSONATE level of impersonation. BITS fails with **E\_ACCESSDENIED** if the correct impersonation level is not set.
+7.  Obtain the initial locator to BITS by calling the [CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) function.
 8.  Create a BITS transfer job by calling the [**IBackgroundCopyManager::CreateJob**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopymanager-createjob) method.
 9.  Get the identifier for the [**IBackgroundCopyJob2**](/windows/desktop/api/bits1_5/nn-bits1_5-ibackgroundcopyjob2) interface, and call the **IBackgroundCopyJob::QueryInterface** method.
 10. Populate the [**BG\_AUTH\_CREDENTIALS**](/windows/desktop/api/bits1_5/ns-bits1_5-bg_auth_credentials) structure with the encoded user name and password strings, and set the authentication scheme to Negotiate (**BG\_AUTH\_SCHEME\_NEGOTIATE**).
 11. Use the [**IBackgroundCopyJob2**](/windows/desktop/api/bits1_5/nn-bits1_5-ibackgroundcopyjob2) pointer to make requests to BITS. This program uses the [**IBackgroundCopyJob2::SetCredentials**](/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) method to set the credentials for the BITS transfer job.
 12. Add files, modify properties, or resume the BITS transfer job.
 13. After the BITS transfer job is complete, remove the job from the queue by calling [**IBackgroundCopyJob::Complete**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-complete).
-14. Finally, free the authentication identity structure by calling the [SspiFreeAuthIdentity](https://msdn.microsoft.com/library/dd401705.aspx) function.
+14. Finally, free the authentication identity structure by calling the [SspiFreeAuthIdentity](/windows/win32/api/sspi/nf-sspi-sspifreeauthidentity) function.
 
 The following code example demonstrates how to use SSPI Authentication Encoding with BITS transfer jobs.
 
@@ -239,7 +239,7 @@ void _cdecl _tmain(int argc, LPWSTR* argv)
 
 <dl> <dt>
 
-[SSPI](https://msdn.microsoft.com/library/aa380493.aspx)
+[SSPI](../secauthn/sspi.md)
 </dt> <dt>
 
 [**IBackgroundCopyManager**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopymanager)
@@ -257,7 +257,3 @@ void _cdecl _tmain(int argc, LPWSTR* argv)
  
 
  
-
-
-
-

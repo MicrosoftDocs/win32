@@ -41,7 +41,7 @@ The following procedure describes how to use a bookmark in a subscription.
 **To use a bookmark in a subscription**
 
 1.  Call the [**EvtSubscribe**](/windows/desktop/api/WinEvt/nf-winevt-evtsubscribe) function to subscribe to events that match your query. Pass the handle to the bookmark and the EvtSubscribeStartAfterBookmark flag.
-2.  If you implemented the [**EVT\_SUBSCRIBE\_CALLBACK**](https://msdn.microsoft.com/library/Aa385577(v=VS.85).aspx) function, your callback will receive events that begin after the bookmarked event.
+2.  If you implemented the [**EVT\_SUBSCRIBE\_CALLBACK**](/windows/win32/api/winevt/nc-winevt-evt_subscribe_callback) function, your callback will receive events that begin after the bookmarked event.
 3.  If you did not implement the callback, call the [**EvtNext**](/windows/desktop/api/WinEvt/nf-winevt-evtnext) function in a loop to enumerate the events that begin after the bookmarked event.
 
 For an example, see [Using a bookmark in a subscription](#using-a-bookmark-in-a-subscription).
@@ -459,7 +459,3 @@ cleanup:
  
 
  
-
-
-
-

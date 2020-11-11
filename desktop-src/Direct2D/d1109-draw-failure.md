@@ -33,14 +33,14 @@ The address of the render target.
 <span id="tag1"></span><span id="TAG1"></span>*tag1*
 </dt> <dd>
 
-The first tag value (see [**SetTags**](https://msdn.microsoft.com/library/Dd316892(v=VS.85).aspx) more for information).
+The first tag value (see [**SetTags**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-settags) more for information).
 
 </dd> <dt>
 
 <span id="tag2"></span><span id="TAG2"></span>*tag2*
 </dt> <dd>
 
-The second tag value (see [**SetTags**](https://msdn.microsoft.com/library/Dd316892(v=VS.85).aspx) more for information).
+The second tag value (see [**SetTags**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-settags) more for information).
 
 </dd> </dl> 
 
@@ -59,7 +59,3 @@ There are many reasons that a Draw call might fail. For more information, see th
  
 
  
-
-
-
-

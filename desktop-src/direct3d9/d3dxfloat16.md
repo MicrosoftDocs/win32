@@ -37,7 +37,7 @@ typedef struct D3DXFLOAT16 {
 **Value**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -69,7 +69,3 @@ C++ programmers can take advantage of operator overloading and type casting with
  
 
  
-
-
-
-

@@ -14,10 +14,10 @@ The following example demonstrates how the DLL entry-point function can use a fi
 
 The example uses file mapping to map a block of named shared memory into the virtual address space of each process that loads the DLL. To do this, the entry-point function must:
 
-1.  Call the [**CreateFileMapping**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga) function to get a handle to a file-mapping object. The first process that loads the DLL creates the file-mapping object. Subsequent processes open a handle to the existing object. For more information, see [Creating a File-Mapping Object](https://docs.microsoft.com/windows/desktop/Memory/creating-a-file-mapping-object).
-2.  Call the [**MapViewOfFile**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile) function to map a view into the virtual address space. This enables the process to access the shared memory. For more information, see [Creating a File View](https://docs.microsoft.com/windows/desktop/Memory/creating-a-file-view).
+1.  Call the [**CreateFileMapping**](/windows/desktop/api/winbase/nf-winbase-createfilemappinga) function to get a handle to a file-mapping object. The first process that loads the DLL creates the file-mapping object. Subsequent processes open a handle to the existing object. For more information, see [Creating a File-Mapping Object](/windows/desktop/Memory/creating-a-file-mapping-object).
+2.  Call the [**MapViewOfFile**](/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile) function to map a view into the virtual address space. This enables the process to access the shared memory. For more information, see [Creating a File View](/windows/desktop/Memory/creating-a-file-view).
 
-Note that while you can specify default security attributes by passing in a NULL value for the *lpAttributes* parameter of [**CreateFileMapping**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga), you may choose to use a [**SECURITY\_ATTRIBUTES**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure to provide additional security.
+Note that while you can specify default security attributes by passing in a NULL value for the *lpAttributes* parameter of [**CreateFileMapping**](/windows/desktop/api/winbase/nf-winbase-createfilemappinga), you may choose to use a [**SECURITY\_ATTRIBUTES**](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure to provide additional security.
 
 
 ```C++
@@ -292,6 +292,3 @@ int _tmain( void )
  
 
  
-
-
-

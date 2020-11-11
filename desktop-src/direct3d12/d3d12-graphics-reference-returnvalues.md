@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Direct3D 12 Return Codes
 
-The following are return codes from API functions. For more return codes, see [DXGI\_ERROR](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error).
+The following are return codes from API functions. For more return codes, see [DXGI\_ERROR](/windows/desktop/direct3ddxgi/dxgi-error).
 
 
 
@@ -40,7 +40,3 @@ The following are return codes from API functions. For more return codes, see [D
  
 
  
-
-
-
-

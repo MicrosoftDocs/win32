@@ -28,7 +28,7 @@ When you implement the methods of this interface, keep the following points in m
 
     **HKEY\_LOCAL\_MACHINE**\\**SYSTEM**\\**CurrentControlSet**\\**Services**\\**Tssdis**\\**Parameters**\\**ExtensibilityPluginCLSID**
 
-For more information about Dcomcnfg.exe, see [Enabling COM Security Using DCOMCNFG](https://docs.microsoft.com/windows/desktop/com/enabling-com-security-using-dcomcnfg).
+For more information about Dcomcnfg.exe, see [Enabling COM Security Using DCOMCNFG](/windows/desktop/com/enabling-com-security-using-dcomcnfg).
 
 ## Related topics
 
@@ -40,7 +40,3 @@ For more information about Dcomcnfg.exe, see [Enabling COM Security Using DCOMCN
  
 
  
-
-
-
-

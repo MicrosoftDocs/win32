@@ -58,7 +58,7 @@ Pointer to the arbitrary axis. See [**D3DXVECTOR3**](d3dxvector3.md).
 *Angle* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Angle of rotation in radians. Angles are measured clockwise when looking along the rotation axis toward the origin.
 
@@ -110,7 +110,3 @@ The return value for this function is the same value returned in the *pOut* para
  
 
  
-
-
-
-

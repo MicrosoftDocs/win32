@@ -31,7 +31,7 @@ In Windows Vista and later, an extensive set of properties covers the specifics
 
 ### Open Metadata
 
-The property system in Windows Vista and later is an open metadata system. A file format stores any property assigned to it and exposes that value when queried, regardless of relevance or meaning. This enables third-party developers to attach extra properties to the file without requiring a change in the property handler associated with it. Open metadata is a powerful concept. For more information about how to support open metadata for an XML-based file format, see "Supporting Open Metadata" in [Initializing Property Handlers](https://msdn.microsoft.com/library/Cc144131(v=VS.85).aspx).
+The property system in Windows Vista and later is an open metadata system. A file format stores any property assigned to it and exposes that value when queried, regardless of relevance or meaning. This enables third-party developers to attach extra properties to the file without requiring a change in the property handler associated with it. Open metadata is a powerful concept. For more information about how to support open metadata for an XML-based file format, see "Supporting Open Metadata" in [Initializing Property Handlers](./building-property-handlers-property-handlers.md).
 
 > [!Note]  
 > Property handlers are always associated with specific file types; thus, if your file format contains properties that require a custom property handler, you should always register a unique file name extension for each file format.
@@ -56,24 +56,21 @@ Secondary streams do not provide a robust solution in which properties are guara
 
 <dl> <dt>
 
-[Using Kind Names](https://msdn.microsoft.com/library/Cc144136(v=VS.85).aspx)
+[Using Kind Names](./building-property-handlers-user-friendly-kind-names.md)
 </dt> <dt>
 
-[Using Property Lists](https://msdn.microsoft.com/library/Cc144133(v=VS.85).aspx)
+[Using Property Lists](./building-property-handlers-property-lists.md)
 </dt> <dt>
 
-[Initializing Property Handlers](https://msdn.microsoft.com/library/Cc144131(v=VS.85).aspx)
+[Initializing Property Handlers](./building-property-handlers-property-handlers.md)
 </dt> <dt>
 
-[Registering and Distributing Property Handlers](https://msdn.microsoft.com/library/Dd894084(v=VS.85).aspx)
+[Registering and Distributing Property Handlers](./prophand-reg-dist.md)
 </dt> <dt>
 
-[Property Handler Best Practices and FAQ](https://msdn.microsoft.com/library/Dd894083(v=VS.85).aspx)
+[Property Handler Best Practices and FAQ](./prophand-bestprac-faq.md)
 </dt> </dl>
 
  
 
  
-
-
-

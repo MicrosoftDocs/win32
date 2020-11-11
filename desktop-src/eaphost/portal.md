@@ -1,6 +1,6 @@
 ---
 title: Extensible Authentication Protocol Host
-description: .
+description: Learn about the Extensible Authentication Protocol (EAP) host. See run-time requirements and view additional available resources.
 ms.assetid: caaef367-2952-44fc-ac4c-f0db6387850e
 ms.topic: article
 ms.date: 05/31/2018
@@ -10,7 +10,9 @@ ms.date: 05/31/2018
 
 ## Purpose
 
-EAPHost is a Microsoft Windows Networking component that provides an Extensible Authentication Protocol (EAP) infrastructure for the authentication of "supplicant" protocol implementations such as [802.1X](Http://go.microsoft.com/fwlink/p/?linkid=83938) and [Point-to-Point](Http://go.microsoft.com/fwlink/p/?linkid=83919) (PPP). It also allows for authentication with "authenticator" technologies such as the Microsoft network policy server (NPS). Unlike the previous IAS Server ([RADIUS](https://docs.microsoft.com/windows/desktop/Nps/ias-about-internet-authentication-service)), NPS supports [Network Access Protection](https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page) (NAP).
+
+EAPHost is a Microsoft Windows Networking component that provides an Extensible Authentication Protocol (EAP) infrastructure for the authentication of "supplicant" protocol implementations such as [802.1X](https://go.microsoft.com/fwlink/p/?linkid=83938) and [Point-to-Point](https://go.microsoft.com/fwlink/p/?linkid=83919) (PPP). It also allows for authentication with "authenticator" technologies such as the Microsoft network policy server (NPS). Unlike the previous IAS Server ([RADIUS](/windows/desktop/Nps/ias-about-internet-authentication-service)), NPS supports [Network Access Protection](/windows/desktop/NAP/network-access-protection-start-page) (NAP).
+
 
 The EAPHost APIs enable applications to authenticate using the EAPHost service, and provide a template for the development of conformant authentication methods for use with EAPHost.
 
@@ -34,7 +36,3 @@ The EAPHost APIs are supported only in Windows Vista and later operating system
  
 
  
-
-
-
-

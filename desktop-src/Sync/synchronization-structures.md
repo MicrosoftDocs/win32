@@ -10,12 +10,9 @@ ms.date: 05/31/2018
 
 The following structures are used with synchronization:
 
--   [**OVERLAPPED**](https://msdn.microsoft.com/library/ms684342(v=VS.85).aspx)
+-   [**OVERLAPPED**](/windows/win32/api/minwinbase/ns-minwinbase-overlapped)
 -   [**SLIST\_ENTRY**](/windows/win32/api/winnt/ns-winnt-slist_entry)
 
  
 
  
-
-
-

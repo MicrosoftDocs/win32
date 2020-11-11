@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Implementing the EAPHost LEAP Mechanism
 
-This topic describes the EAPHost mechanism that allows third parties to write Lightweight Extensible Authentication Protocol (LEAP) modules for Windows. LEAP is a legacy authentication method, created by Cisco, as per [RFC 3748](Http://go.microsoft.com/fwlink/p/?linkid=84016). For more information about LEAP, see [Cisco LEAP Q&A](Http://go.microsoft.com/fwlink/p/?linkid=84018).
+This topic describes the EAPHost mechanism that allows third parties to write Lightweight Extensible Authentication Protocol (LEAP) modules for Windows. LEAP is a legacy authentication method, created by Cisco, as per [RFC 3748](https://go.microsoft.com/fwlink/p/?linkid=84016). For more information about LEAP, see [Cisco LEAP Q&A](https://go.microsoft.com/fwlink/p/?linkid=84018).
 
 ## EAPHost Authentication Process
 

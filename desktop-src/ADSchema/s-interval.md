@@ -29,7 +29,7 @@ Represents a time interval value. The actual time units depend on which attribut
 | MAPI Type    | \-                                                                                 |
 | ADS Type     | ADSTYPE\_LARGE\_INTEGER                                                            |
 | Variant Type | VT\_DISPATCH                                                                       |
-| SDS Type     | A COM object that can be cast to an [**IADsLargeInteger**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadslargeinteger). |
+| SDS Type     | A COM object that can be cast to an [**IADsLargeInteger**](/windows/desktop/api/iads/nn-iads-iadslargeinteger). |
 
 
 
@@ -37,7 +37,7 @@ Represents a time interval value. The actual time units depend on which attribut
 
 <dl> <dt>
 
-[**IADsLargeInteger**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadslargeinteger)
+[**IADsLargeInteger**](/windows/desktop/api/iads/nn-iads-iadslargeinteger)
 </dt> <dt>
 
 [**LargeInteger**](s-largeinteger.md)
@@ -46,7 +46,3 @@ Represents a time interval value. The actual time units depend on which attribut
  
 
  
-
-
-
-

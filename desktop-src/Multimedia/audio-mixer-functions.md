@@ -18,16 +18,16 @@ ms.date: 05/31/2018
 
 The following functions are used with audio mixers.
 
--   [**mixerClose**](https://msdn.microsoft.com/library/Dd757292(v=VS.85).aspx)
--   [**mixerGetControlDetails**](https://msdn.microsoft.com/library/Dd757299(v=VS.85).aspx)
--   [**mixerGetDevCaps**](https://msdn.microsoft.com/library/Dd757300(v=VS.85).aspx)
--   [**mixerGetID**](https://msdn.microsoft.com/library/Dd757301(v=VS.85).aspx)
--   [**mixerGetLineControls**](https://msdn.microsoft.com/library/Dd757302(v=VS.85).aspx)
--   [**mixerGetLineInfo**](https://msdn.microsoft.com/library/Dd757303(v=VS.85).aspx)
--   [**mixerGetNumDevs**](https://msdn.microsoft.com/library/Dd757304(v=VS.85).aspx)
--   [**mixerMessage**](https://msdn.microsoft.com/library/Dd757307(v=VS.85).aspx)
--   [**mixerOpen**](https://msdn.microsoft.com/library/Dd757308(v=VS.85).aspx)
--   [**mixerSetControlDetails**](https://msdn.microsoft.com/library/Dd757309(v=VS.85).aspx)
+-   [**mixerClose**](/windows/win32/api/mmeapi/nf-mmeapi-mixerclose)
+-   [**mixerGetControlDetails**](/windows/win32/api/mmeapi/nf-mmeapi-mixergetcontroldetails)
+-   [**mixerGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-mixergetdevcaps)
+-   [**mixerGetID**](/windows/win32/api/mmeapi/nf-mmeapi-mixergetid)
+-   [**mixerGetLineControls**](/windows/win32/api/mmeapi/nf-mmeapi-mixergetlinecontrols)
+-   [**mixerGetLineInfo**](/windows/win32/api/mmeapi/nf-mmeapi-mixergetlineinfo)
+-   [**mixerGetNumDevs**](/windows/win32/api/mmeapi/nf-mmeapi-mixergetnumdevs)
+-   [**mixerMessage**](/windows/win32/api/mmeapi/nf-mmeapi-mixermessage)
+-   [**mixerOpen**](/windows/win32/api/mmeapi/nf-mmeapi-mixeropen)
+-   [**mixerSetControlDetails**](/windows/win32/api/mmeapi/nf-mmeapi-mixersetcontroldetails)
 
 ## Related topics
 
@@ -39,7 +39,3 @@ The following functions are used with audio mixers.
  
 
  
-
-
-
-

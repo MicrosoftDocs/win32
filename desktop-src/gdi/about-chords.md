@@ -12,13 +12,10 @@ A *chord* is a region bounded by the intersection of an ellipse and a line segme
 
 ![illustration of an elipse, showing two radials, a secant, and a chord](images/csfsh-02.png)
 
-When calling [**Chord**](https://msdn.microsoft.com/library/Dd183428(v=VS.85).aspx), an application supplies the coordinates of the upper-left and lower-right corners of the ellipse's bounding rectangle, as well as the coordinates of two points defining two radials. A radial is a line drawn from the center of an ellipse's bounding rectangle to a point on the ellipse.
+When calling [**Chord**](/windows/win32/api/wingdi/nf-wingdi-chord), an application supplies the coordinates of the upper-left and lower-right corners of the ellipse's bounding rectangle, as well as the coordinates of two points defining two radials. A radial is a line drawn from the center of an ellipse's bounding rectangle to a point on the ellipse.
 
 When the system draws the curved part of the chord, it does so by using the current arc direction for the specified device context. The default arc direction is counterclockwise. You can have your application reset the arc direction by calling the [**SetArcDirection**](/windows/desktop/api/Wingdi/nf-wingdi-setarcdirection) function.
 
  
 
  
-
-
-

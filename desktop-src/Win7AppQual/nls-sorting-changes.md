@@ -10,15 +10,23 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients** - Windows XP \| Windows Vista \| Windows 7  
+ **Clients** - Windows XP \| Windows Vista \| Windows 7  
 **Servers** - Windows Server 2003 \| Windows Server 2008 \| Windows Server 2008 R2  
-</dl>
+
+
+
+
+
+
+
+
+
 
 ## Feature Impact
 
-<dl> **Severity** - High  
+ **Severity** - High  
 **Frequency** - Low (few apps impacted, but if impacted, always broken)  
-</dl>
+
 
 ## Description
 
@@ -28,11 +36,11 @@ A collation table has two numbers that identify its version (revision): the defi
 
 For a major version, one or more code points change so that the application must re-index all data for comparisons to be valid. For a minor version, nothing moves, but code points are added. For this type of version, the application only has to re-index strings with previously unsortable values. In summary, here is what the version numbers mean in relation to the data changes in the locale-specific exception tables and default tables:
 
-<dl> **NLSVersion Major** – Changed code points in the 'exception,' or locale-specific tables  
+**NLSVersion Major** – Changed code points in the 'exception,' or locale-specific tables  
 **NLSVersion Minor** – Added new code points in the 'exception,' or locale-specific tables  
 **DefinedVersion Major** – Changed code points in the default table  
 **DefinedVersion Minor** – Added new code points in the default table  
-</dl>
+
 
 **Sorting version numbers for released versions:**
 
@@ -62,42 +70,40 @@ Your application can call either **GetNLSVersionEx** (Windows Vista or later) or
 
 -   GetNLSVersionEx:
 
-<dl> *Retrieves information about the current version of a specified NLS capability for a locale specified by name*  
+*Retrieves information about the current version of a specified NLS capability for a locale specified by name*  
 This function allows an application such as Active Directory to determine whether an NLS change affects the locale used for a particular index table. If it does not, there is no need to re-index the table. For more information, see Handling Locale and Language Information.  
 This function supports custom locales. If *lpLocaleName* specifies a supplemental locale, the data retrieved is the correct data for the collation order associated with that supplemental locale.  
+
 **Note:** Versions of Windows prior to Windows Vista do not support **GetNLSVersionEx**.  
-</dl>
+
 
 -   GetNLSVersion (use for applications running on versions of Windows prior to Windows Vista):
 
-<dl> *Retrieves information about the current version of a specified NLS capability for a locale specified by identifier*  
+*Retrieves information about the current version of a specified NLS capability for a locale specified by identifier*  
 This function allows an application such as Active Directory to determine if an NLS change affects the locale identifier used for a particular index table. If it does not, there is no need to re-index the table. For more information, see Handling Locale and Language Information.  
 **Note:** This function retrieves information only about a locale specified by identifier. The **GetNLSVersionEx** function supports additional locales, features, and RFC 4646 names. However, versions of Windows prior to Windows Vista do not support **GetNLSVersionEx**.  
 Applications meant to run only on Windows Vista and later should use **GetNLSVersionEx** in preference to this function. **GetNLSVersionEx** provides good support for supplemental locales.  
-</dl>
+
 
 ## Compatibility Test
 
 **Steps to tell if a collation version changed (that is, you need to re-index):**
 
 -   **Use GetNLSVersionEx()** to retrieve an **NLSVERSIONINFOEX** structure when doing the original indexing of your data.
--   Store the following properties with your index to identify the version: <dl> **NLSVERSIONINFOEX.dwNLSVersion** and **NLSVERSIONINFOEX.dwDefinedVersion** – These two properties together specify the version of the sorting table you are using.  
+-   Store the following properties with your index to identify the version:  **NLSVERSIONINFOEX.dwNLSVersion** and **NLSVERSIONINFOEX.dwDefinedVersion** – These two properties together specify the version of the sorting table you are using.  
     **NLSVERSIONINFOEX.dwEffectiveId** - This specifies the effective locale of your sort. A custom locale will point to an in-box locale's sort.  
-    </dl>
+    
 -   When using the index use **GetNlsVersionEx()** to discover the version of your data.
 -   If any of the three properties has changed, the sorting data you are using could return different results and any indexing you have may fail to find records.
 -   If you KNOW that your data does not contain invalid Unicode code points (that is, all of your strings returned **TRUE** from a call to **IsNLSDefinedString()**), then you may consider them the same if ONLY the low byte of **dwNLSVersion** and **dwDefinedVersion** changed (the minor versions described above).
 
 ## Links to Other Resources
 
--   [Internationalization for Windows Applications](https://msdn.microsoft.com/library/Dd318661(v=VS.85).aspx)
--   [GetNLSVersionEx Function](https://msdn.microsoft.com/library/Dd318107(v=VS.85).aspx)
--   [GetNLSVersion Function](https://msdn.microsoft.com/library/Dd318105(v=VS.85).aspx)
--   [How to tell if the collation version changed](https://blogs.msdn.com/shawnste/archive/2007/06/01/how-to-tell-if-the-collation-version-changed.aspx)
+-   [Internationalization for Windows Applications](../intl/international-support.md)
+-   [GetNLSVersionEx Function](/windows/win32/api/winnls/nf-winnls-getnlsversionex)
+-   [GetNLSVersion Function](/windows/win32/api/winnls/nf-winnls-getnlsversion)
+-   [How to tell if the collation version changed](/archive/blogs/shawnste/)
 
  
 
  
-
-
-

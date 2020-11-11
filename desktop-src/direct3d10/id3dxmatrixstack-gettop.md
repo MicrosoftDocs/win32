@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 This method returns a pointer to a D3DXMATRIX structure representing the current matrix.
 
@@ -69,7 +69,3 @@ Note that this method does not remove the current matrix from the top of the sta
  
 
  
-
-
-
-

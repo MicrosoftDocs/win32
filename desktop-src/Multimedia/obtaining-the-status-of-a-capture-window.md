@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Obtaining the Status of a Capture Window
 
-The following example uses the [SetWindowPos](https://msdn.microsoft.com/library/ms633545.aspx) function to set the size of the capture window to the overall dimensions of the incoming video stream based on information returned by the [**capGetStatus**](/windows/desktop/api/Vfw/nf-vfw-capgetstatus) macro in the [**CAPSTATUS**](/windows/win32/api/vfw/ns-vfw-capstatus) structure.
+The following example uses the [SetWindowPos](/windows/win32/api/winuser/nf-winuser-setwindowpos) function to set the size of the capture window to the overall dimensions of the incoming video stream based on information returned by the [**capGetStatus**](/windows/desktop/api/Vfw/nf-vfw-capgetstatus) macro in the [**CAPSTATUS**](/windows/win32/api/vfw/ns-vfw-capstatus) structure.
 
 
 ```C++
@@ -35,7 +35,3 @@ SetWindowPos(hWndC, NULL, 0, 0, CapStatus.uiImageWidth,
  
 
  
-
-
-
-

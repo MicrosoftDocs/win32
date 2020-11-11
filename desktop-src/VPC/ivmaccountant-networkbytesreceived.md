@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IVMAccountant::NetworkBytesReceived property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves the total number of bytes received by all virtual network adapters for this virtual machine.
 
@@ -82,10 +82,4 @@ Note that network I/O statistics are reset to zero when a virtual machine is pow
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -19,7 +19,7 @@ Windows provides several C++/COM APIs for graphics. These APIs are shown in the 
 -   DirectWrite is a text layout and rasterization engine. You can use either GDI or Direct2D to draw the rasterized text.
 -   DirectX Graphics Infrastructure (DXGI) performs low-level tasks, such as presenting frames for output. Most applications do not use DXGI directly. Rather, it serves as an intermediate layer between the graphics driver and Direct3D.
 
-Direct2D and DirectWrite were introduced in Windows 7. They are also available for Windows Vista and Windows Server 2008 through a Platform Update. For more information, see [Platform Update for Windows Vista](https://msdn.microsoft.com/library/ee663867(VS.85).aspx).
+Direct2D and DirectWrite were introduced in Windows 7. They are also available for Windows Vista and Windows Server 2008 through a Platform Update. For more information, see [Platform Update for Windows Vista](../win7ip/platform-update-for-windows-vista-portal.md).
 
 Direct2D is the focus of this module. While both GDI and GDI+ continue to be supported in Windows, Direct2D and DirectWrite are recommended for new programs. In some cases, a mix of technologies might be more practical. For these situations, Direct2D and DirectWrite are designed to interoperate with GDI.
 
@@ -60,7 +60,3 @@ Direct2D supports *vector graphics*. In vector graphics, mathematical formulas a
  
 
  
-
-
-
-

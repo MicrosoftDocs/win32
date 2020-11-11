@@ -50,7 +50,7 @@ Specify 0 to disable automatic link detection, or one of the following values to
 *lParam* 
 </dt> <dd>
 
-This parameter determines the URL schemes recognized if **AURL\_ENABLEURL** is active. If *lParam* is NULL, the default scheme name list is used (see Remarks). Alternatively, *lParam* can point to a null-terminated string consisting of up to 50 colon-terminated scheme names that supersede the default scheme name list. For example, the string could be "news:http:ftp:telnet:". The scheme name syntax is defined in the [Uniform Resource Identifiers (URI): Generic Syntax]( http://www.ietf.org/rfc/rfc2396.txt) document on The Internet Engineering Task Force (IETF) website. Specifically, a scheme name can contain up to 13 characters (including the colon), must start with an ASCII alphabetic, and can be followed by a mixture of ASCII alphabetics, digits, and the three punctuation characters: ".", "+", and "-". The string type can be either **char\*** or **WCHAR\***; the rich edit control automatically detects the type.
+This parameter determines the URL schemes recognized if **AURL\_ENABLEURL** is active. If *lParam* is NULL, the default scheme name list is used (see Remarks). Alternatively, *lParam* can point to a null-terminated string consisting of up to 50 colon-terminated scheme names that supersede the default scheme name list. For example, the string could be "news:http:ftp:telnet:". The scheme name syntax is defined in the [Uniform Resource Identifiers (URI): Generic Syntax]( https://www.ietf.org/rfc/rfc2396.txt) document on The Internet Engineering Task Force (IETF) website. Specifically, a scheme name can contain up to 13 characters (including the colon), must start with an ASCII alphabetic, and can be followed by a mixture of ASCII alphabetics, digits, and the three punctuation characters: ".", "+", and "-". The string type can be either **char\*** or **WCHAR\***; the rich edit control automatically detects the type.
 
 </dd> </dl>
 
@@ -86,7 +86,7 @@ If automatic URL detection is enabled (that is, *wParam* includes **AURL\_ENABLE
 
 When automatic link detection is enabled, the rich edit control removes the **CFE\_LINK** effect from modified text that does not have a format recognized by the control. If your application uses the **CFE\_LINK** effect to mark other types of text, do not enable automatic link detection. The rich edit control does not check whether a detected link exists; that responsibility belongs to the client.
 
-A rich edit control sends the [EN\_LINK](en-link.md) notification when it receives various messages while the mouse pointer is over text that has the **CFE\_LINK** effect. For more information, see [Automatic RichEdit Hyperlinks](https://blogs.msdn.com/b/murrays/archive/2009/08/31/automatic-richedit-hyperlinks.aspx) and [RichEdit Friendly Name Hyperlinks](https://blogs.msdn.com/b/murrays/archive/2009/09/24/richedit-friendly-name-hyperlinks.aspx).
+A rich edit control sends the [EN\_LINK](en-link.md) notification when it receives various messages while the mouse pointer is over text that has the **CFE\_LINK** effect. For more information, see [Automatic RichEdit Hyperlinks](/archive/blogs/murrays/automatic-richedit-hyperlinks) and [RichEdit Friendly Name Hyperlinks](/archive/blogs/murrays/richedit-friendly-name-hyperlinks).
 
 ## Requirements
 
@@ -111,10 +111,4 @@ A rich edit control sends the [EN\_LINK](en-link.md) notification when it receiv
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

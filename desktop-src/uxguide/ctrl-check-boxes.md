@@ -3,10 +3,13 @@ title: Check Boxes
 description: With a check box, users make a decision between two clearly opposite choices.
 ms.assetid: 7c39987d-807b-41c1-9788-65c3d468b976
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Check Boxes
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 With a check box, users make a decision between two clearly opposite choices. The check box label indicates the selected state, whereas the meaning of the cleared state must be the unambiguous opposite of the selected state. Consequently, **check boxes should be used only to toggle an option on or off or to select or deselect an item.**
 
@@ -24,7 +27,7 @@ A typical group of check boxes.
 To decide, consider these questions:
 
 -   **Is the check box used to toggle an option on or off or to select or deselect an item?** If not, use another control.
--   **Are the selected and cleared states clear and unambiguous opposites?** If not, use [radio buttons](ctrl-radio-buttons.md) or a [drop-down list](https://docs.microsoft.com/windows/desktop/uxguide/ctrl-drop) so that you can label the states independently.
+-   **Are the selected and cleared states clear and unambiguous opposites?** If not, use [radio buttons](ctrl-radio-buttons.md) or a [drop-down list](/windows/desktop/uxguide/ctrl-drop) so that you can label the states independently.
 -   **When used in a group, does the group comprise independent choices, from which users may choose zero or more?** If not, consider controls for dependent choices, such as radio buttons and [check box tree views](ctrl-tree-views.md).
 -   **When used in a group, does the group comprise dependent choices, from which users must choose one or more?** If so, use a group of check boxes and handle the error when none of the options are selected.
 -   **Is the number of options in a group 10 or fewer?** Since the screen space used is proportional to the number of options, keep the number of check boxes to 10 or fewer. For more than 10 options, use a [check box list](ctrl-list-boxes.md).
@@ -230,7 +233,7 @@ Recommended sizing and spacing for check boxes.
 
     In this example, the option doesn't use positive phrasing.
 
--   Describe just the option with the label. Keep labels brief so it's easy to refer to them in messages and documentation. If the option requires further explanation, provide the explanation in a [static text](https://msdn.microsoft.com/library/Dn688965(v=VS.85).aspx) control using complete sentences and ending punctuation.
+-   Describe just the option with the label. Keep labels brief so it's easy to refer to them in messages and documentation. If the option requires further explanation, provide the explanation in a [static text](./glossary.md) control using complete sentences and ending punctuation.
 
     > [!Note]
     >
@@ -283,10 +286,4 @@ When referring to check boxes:
     Example: Select the **Underline** check box.
 
  
-
- 
-
-
-
-
 

@@ -53,7 +53,7 @@ api_location:
 
 # Win32\_Battery class
 
-The **Win32\_Battery** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) represents a battery connected to the computer system.
+The **Win32\_Battery** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) represents a battery connected to the computer system.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -136,7 +136,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Operational State\|003.5", "MIB.IETF\|HOST-RESOURCES-MIB.hrDeviceStatus")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Operational State\|003.5", "MIB.IETF\|HOST-RESOURCES-MIB.hrDeviceStatus")
 </dt> </dl>
 
 Availability and status of the device.
@@ -339,7 +339,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("HKEY\_LOCAL\_MACHINE\\\\System\\\\CurrentControlSet\\\\Services\|RechargeRate"), [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("minutes")
+Qualifiers: [**DEPRECATED**](/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("HKEY\_LOCAL\_MACHINE\\\\System\\\\CurrentControlSet\\\\Services\|RechargeRate"), [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("minutes")
 </dt> </dl>
 
 Time required to fully charge the battery. This property is not supported. **BatteryRechargeTime** does not have a replacement property, and is now considered obsolete.
@@ -355,7 +355,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Portable Battery\|002.14")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Portable Battery\|002.14")
 </dt> </dl>
 
 Status of the battery. The value 10 (Undefined) is not valid in the CIM schema because in DMI it represents that no battery is installed. In this case, the object should not be instantiated.
@@ -460,7 +460,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Caption")
+Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Caption")
 </dt> </dl>
 
 Short description of the object a one-line string.
@@ -478,7 +478,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Portable Battery\|002.7")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Portable Battery\|002.7")
 </dt> </dl>
 
 Enumeration that describes the battery's chemistry.
@@ -554,7 +554,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Schema**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
+Qualifiers: [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
 Windows Configuration Manager error code.
@@ -914,7 +914,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Schema**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
+Qualifiers: [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
 If **True**, the device is using a user-defined configuration.
@@ -932,7 +932,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**CIM\_Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**CIM\_Key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 Name of the first concrete class that appears in the inheritance chain used in the creation of an instance. When used with the other key properties of the class, the property allows all instances of this class and its subclasses to be identified uniquely.
@@ -950,7 +950,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Description")
+Qualifiers: [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Description")
 </dt> </dl>
 
 Description of the object.
@@ -968,7 +968,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Portable Battery\|002.8"), [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("milliwatt-hours")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Portable Battery\|002.8"), [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("milliwatt-hours")
 </dt> </dl>
 
 Design capacity of the battery in milliwatt-hours. If the property is not supported, enter 0 (zero).
@@ -986,14 +986,14 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Portable Battery\|002.9"), [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("millivolts")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Portable Battery\|002.9"), [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("millivolts")
 </dt> </dl>
 
 Design voltage of the battery in millivolts. If the attribute is not supported, enter 0 (zero).
 
 This property is inherited from [**CIM\_Battery**](cim-battery.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> <dt>
 
@@ -1006,7 +1006,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("DeviceId"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("DeviceId"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("WMI")
 </dt> </dl>
 
 Identifies the battery.
@@ -1056,7 +1056,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("percent")
+Qualifiers: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("percent")
 </dt> </dl>
 
 Estimate of the percentage of full charge remaining.
@@ -1074,7 +1074,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Portable Battery\|002.15"), [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("minutes")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Portable Battery\|002.15"), [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("minutes")
 </dt> </dl>
 
 Estimate in minutes of the time to battery charge depletion under the present load conditions if the utility power is off, or lost and remains off, or a laptop is disconnected from a power source.
@@ -1092,7 +1092,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("HKEY\_LOCAL\_MACHINE\\\\System\\\\CurrentControlSet\\\\Services\|BatteryLife"), [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("minutes")
+Qualifiers: [**DEPRECATED**](/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("HKEY\_LOCAL\_MACHINE\\\\System\\\\CurrentControlSet\\\\Services\|BatteryLife"), [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("minutes")
 </dt> </dl>
 
 Amount of time it takes to completely drain the battery after it is fully charged. This property is no longer used and is considered obsolete.
@@ -1108,7 +1108,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("minutes")
+Qualifiers: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("minutes")
 </dt> </dl>
 
 Battery's expected lifetime in minutes, assuming that the battery is fully charged. The property represents the total expected life of the battery, not its current remaining life, which is indicated by the **EstimatedRunTime** property.
@@ -1126,7 +1126,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Portable Battery\|002.11"), [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("milliwatt-hours")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Portable Battery\|002.11"), [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("milliwatt-hours")
 </dt> </dl>
 
 Full charge capacity of the battery in milliwatt-hours. Comparison of the value to the **DesignCapacity** property determines when the battery requires replacement. A battery's end of life is typically when the **FullChargeCapacity** property falls below 80% of the **DesignCapacity** property. If the property is not supported, enter 0 (zero).
@@ -1144,7 +1144,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Install Date")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Install Date")
 </dt> </dl>
 
 Date and time the object was installed. This property does not need a value to indicate that the object is installed.
@@ -1177,7 +1177,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("minutes")
+Qualifiers: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("minutes")
 </dt> </dl>
 
 Maximum time, in minutes, to fully charge the battery. The property represents the time to recharge a fully depleted battery, not the current remaining charge time, which is indicated in the **TimeToFullCharge** property.
@@ -1195,7 +1195,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Name")
+Qualifiers: [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Name")
 </dt> </dl>
 
 Defines the label by which the object is known. When subclassed, the property can be overridden to be a key property.
@@ -1213,7 +1213,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Schema**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
+Qualifiers: [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
 Windows Plug and Play device identifier of the logical device.
@@ -1289,7 +1289,7 @@ The device can change its power state based on usage or other criteria.
 
 </dt> <dd>
 
-The [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) method is supported. This method is found on the parent [**CIM\_LogicalDevice**](cim-logicaldevice.md) class and can be implemented. For more information, see [Designing Managed Object Format (MOF) Classes](https://docs.microsoft.com/windows/desktop/WmiSdk/designing-managed-object-format--mof--classes).
+The [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) method is supported. This method is found on the parent [**CIM\_LogicalDevice**](cim-logicaldevice.md) class and can be implemented. For more information, see [Designing Managed Object Format (MOF) Classes](/windows/desktop/WmiSdk/designing-managed-object-format--mof--classes).
 
 </dd> <dt>
 
@@ -1343,7 +1343,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Portable Battery\|002.10")
+Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Portable Battery\|002.10")
 </dt> </dl>
 
 Data Specification version number supported by the battery. If the battery does not support this function, the value should be left blank.
@@ -1361,7 +1361,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (10), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Status")
+Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (10), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("Status")
 </dt> </dl>
 
 Current status of the object. Various operational and nonoperational statuses can be defined. Operational statuses include: "OK", "Degraded", and "Pred Fail" (an element, such as a SMART-enabled hard disk drive, may be functioning properly but predicting a failure in the near future). Nonoperational statuses include: "Error", "Starting", "Stopping", and "Service". The latter, "Service", could apply during mirror-resilvering of a disk, reload of a user permissions list, or other administrative work. Not all such work is online, yet the managed element is neither "OK" nor in one of the other states.
@@ -1467,7 +1467,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Operational State\|003.3")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Operational State\|003.3")
 </dt> </dl>
 
 State of the logical device. If this property does not apply to the logical device, the value 5 (Not Applicable) should be used.
@@ -1522,7 +1522,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_System**](cim-system.md).**CreationClassName**"), [**CIM\_Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**Propagated**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_System**](cim-system.md).**CreationClassName**"), [**CIM\_Key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 Value of the scoping computer's **CreationClassName** property.
@@ -1540,7 +1540,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_System**](cim-system.md).**Name**"), [**CIM\_Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**Propagated**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_System**](cim-system.md).**Name**"), [**CIM\_Key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 Name of the scoping system.
@@ -1558,7 +1558,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("seconds")
+Qualifiers: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("seconds")
 </dt> </dl>
 
 Elapsed time in seconds since the computer system's UPS last switched to battery power, or the time since the system or UPS was last restarted, whichever is less. If the battery is "on line", 0 (zero) is returned.
@@ -1576,7 +1576,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Portable Battery\|002.16"), [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("minutes")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Portable Battery\|002.16"), [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("minutes")
 </dt> </dl>
 
 Remaining time to charge the battery fully in minutes at the current charging rate and usage.
@@ -1596,8 +1596,6 @@ Windows Server 2008 contains the (APC) UPS drivers in the OS, which allows you t
 The [Toggle-Wireless.ps1](https://Gallery.TechNet.Microsoft.Com/Toggle-Wirelessps1-2d244a8f) PowerShell code sample queries **Win32\_Battery** to determine whether or not to toggle the wireless in order to save power.
 
 The [List UPS Information](https://Gallery.TechNet.Microsoft.Com/7196121e-97de-4290-9939-26d0ce266270) Perl sample Lists information about the uninterruptible power sources attached to a computer.
-
-For a furthe discussion of using Win32\_Battery to monitor your laptop, see [Use PowerShell to Detect Power State and to Set Power Plan](https://blogs.technet.com/b/heyscriptingguy/archive/2012/11/28/use-powershell-to-detect-power-state-and-set-power-plan.aspx).
 
 ## Requirements
 
@@ -1624,9 +1622,4 @@ For a furthe discussion of using Win32\_Battery to monitor your laptop, see [Use
 </dt> </dl>
 
  
-
- 
-
-
-
 

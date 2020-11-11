@@ -14,9 +14,9 @@ Time-related functions return time in one of several formats. You can use the ti
 
 | Format          | Type                                                                     | Description                                                                                                                         |
 |-----------------|--------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| System          | [**SYSTEMTIME**](https://msdn.microsoft.com/library/ms724950(v=VS.85).aspx)                                     | Year, month, day, hour, second, and millisecond, taken from the internal hardware clock.                                            |
-| Local           | [**SYSTEMTIME**](https://msdn.microsoft.com/library/ms724950(v=VS.85).aspx) or [**FILETIME**](https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx) | A system time or file time converted to the system's local time zone.                                                               |
-| File            | [**FILETIME**](https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx)                                         | The number of 100-nanosecond intervals since January 1, 1601.                                                                       |
+| System          | [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime)                                     | Year, month, day, hour, second, and millisecond, taken from the internal hardware clock.                                            |
+| Local           | [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) or [**FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) | A system time or file time converted to the system's local time zone.                                                               |
+| File            | [**FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime)                                         | The number of 100-nanosecond intervals since January 1, 1601.                                                                       |
 | MS-DOS          | **WORD**                                                                 | A packed word for the date, another for the time.                                                                                   |
 | Windows         | **DWORD** or **ULONGLONG**                                               | The number of milliseconds since the system was last started. When retrieved as a DWORD value, Windows time cycles every 49.7 days. |
 | Interrupt Count | **ULONGLONG**                                                            | The number of 100-nanosecond intervals since the system was last started.                                                           |
@@ -37,6 +37,3 @@ For more information, see the following topics:
  
 
  
-
-
-

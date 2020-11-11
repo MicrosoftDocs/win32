@@ -27,12 +27,12 @@ The system calls three different kinds of application-defined functions. Callbac
 
 The callback functions have the following names:
 
--   [**acmDriverEnumCallback**](https://msdn.microsoft.com/library/Dd742891(v=VS.85).aspx)
+-   [**acmDriverEnumCallback**](/windows/win32/api/msacm/nc-msacm-acmdriverenumcb)
 -   [**acmFilterEnumCallback**](/windows/desktop/api/Msacm/nc-msacm-acmfilterenumcb)
 -   [**acmFilterTagEnumCallback**](/windows/desktop/api/Msacm/nc-msacm-acmfiltertagenumcb)
 -   [**acmFormatEnumCallback**](/windows/desktop/api/Msacm/nc-msacm-acmformatenumcb)
 -   [**acmFormatTagEnumCallback**](/windows/desktop/api/Msacm/nc-msacm-acmformattagenumcb)
--   [**acmStreamConvertCallback**](https://docs.microsoft.com/previous-versions//dd742925(v=vs.85))
+-   [**acmStreamConvertCallback**](/previous-versions//dd742925(v=vs.85))
 
 Most of the enumeration functions in the ACM use callback functions. For example, when you call an enumeration function, the ACM enumerates the items by repeatedly calling the application through the callback function.
 
@@ -54,7 +54,3 @@ The following function is specified as a prototype that allows an application to
  
 
  
-
-
-
-

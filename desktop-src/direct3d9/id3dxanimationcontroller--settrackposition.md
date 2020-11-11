@@ -39,7 +39,7 @@ HRESULT SetTrackPosition(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Track identifier.
 
@@ -48,7 +48,7 @@ Track identifier.
 *Position* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](../winprog/windows-data-types.md)**
 
 Local animation time value to assign to the track.
 
@@ -81,7 +81,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

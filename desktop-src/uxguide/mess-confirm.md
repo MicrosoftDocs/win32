@@ -3,10 +3,13 @@ title: Confirmations
 description: A confirmation is a modal dialog box that asks if the user wants to proceed with an action.
 ms.assetid: 086302cd-c8a1-479c-87be-580945e5d3e6
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Confirmations
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 A confirmation is a modal dialog box that asks if the user wants to proceed with an action.
 
@@ -77,7 +80,7 @@ Here are some design alternatives that eliminate the need for routine confirmati
 -   **Provide undo.** Provide the ability to revert actions. For example, deleting a file in Microsoft Windows usually doesn't require a confirmation because deleted files can be recovered from the Recycle Bin. Note that if an action is very easy to perform, just having users redo the action may be sufficient.
 -   **Provide feedback.** Make undesirable outcomes obvious. Providing undo alone isn't sufficient if users don't realize when they make a mistake. For example, the effect of direct manipulation (such as a drag-and-drop operation) should always be obvious.
 -   **Assume the probable outcome, but make it easy to change.** If you aren't sure what users want but there is a likely, safe, and secure choice, assume that choice, make it clear what happened, and make it easy to change using a context menu. For example, Microsoft Word assumes that users want to spell words correctly. If it recognizes a misspelled word and it knows the likely correct spelling, Word automatically makes the correction but allows users to revert.
--   **Eliminate the choice completely.** If the choice isn't important, users just won't care. Better to [simplify](https://docs.microsoft.com/previous-versions//dn742474(v=vs.85)) your program and eliminate the choice.
+-   **Eliminate the choice completely.** If the choice isn't important, users just won't care. Better to [simplify](/previous-versions//dn742474(v=vs.85)) your program and eliminate the choice.
 
 ### Make confirmations require thought
 
@@ -489,10 +492,4 @@ When referring to confirmations:
 Example: In the **Copy File** message, click the newer file.
 
  
-
- 
-
-
-
-
 

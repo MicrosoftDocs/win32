@@ -25,10 +25,10 @@ These implicit reservations cannot be removed. However, it is possible to delega
 
 
 
-| Namespace reserved      | Reserved for |
-|-------------------------|--------------|
-| https://+:80/            | UserA, UserC |
-| https://adatum.com:443/ | UserB        |
+| Namespace reserved        | Reserved for |
+|---------------------------|--------------|
+| `https://+:80/`           | UserA, UserC |
+| `https://adatum.com:443/` | UserB        |
 
 
 

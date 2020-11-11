@@ -69,7 +69,7 @@ REFERENCES OF {SourceClass} WHERE
 
  
 
-For example, the following query will return the class [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) several times when enumerating classes in the **root\\cimv2** namespace.
+For example, the following query will return the class [**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem) several times when enumerating classes in the **root\\cimv2** namespace.
 
 
 ```sql
@@ -81,6 +81,3 @@ ASSOCIATORS OF {Win32_ComputerSystem} WHERE SchemaOnly
  
 
  
-
-
-

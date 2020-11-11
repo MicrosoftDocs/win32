@@ -3,10 +3,13 @@ title: Controls (Design basics)
 description: Controls are UI elements that your users interact with on your app's main window area. See visual examples of controls in Windows-based, desktop apps and get links to guidelines for each control.
 ms.assetid: 5c48728b-6d86-4827-9757-f06c23ca54d8
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Controls
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 Controls are UI elements that your users interact with on your app's main window area. See visual examples of controls in Windows-based, desktop apps and get links to guidelines for each control.
 
@@ -18,7 +21,7 @@ Controls are UI elements that your users interact with on your app's main window
 | ![checkbox](images/controls-image2.png)<br/> [Check boxes](ctrl-check-boxes.md) allow users to make a decision between two or more clearly differing choices.<br/>                                                                                                                                                                                                     |
 | ![command button](images/controls-image3.png)<br/> [Command buttons](ctrl-command-buttons.md) allow users to perform an immediate action.<br/>                                                                                                                                                                                                                         |
 | ![command link](images/controls-image4.png)<br/> [Command links](ctrl-command-links.md) allow users to make a choice among a set of mutually exclusive, related choices.<br/>                                                                                                                                                                                          |
-| ![drop down and combo box](images/controls-image5.png)<br/> [Drop-down lists and combo boxes](https://docs.microsoft.com/windows/desktop/uxguide/ctrl-drop) allow users to make a choice among a list of mutually exclusive values.<br/>                                                                                                                                                                           |
+| ![drop down and combo box](images/controls-image5.png)<br/> [Drop-down lists and combo boxes](/windows/desktop/uxguide/ctrl-drop) allow users to make a choice among a list of mutually exclusive values.<br/>                                                                                                                                                                           |
 | ![group box](images/controls-image6.png)<br/> [Group boxes](ctrl-group-boxes.md) allow users to see relationships among a set of related controls.<br/>                                                                                                                                                                                                                |
 | ![link](images/controls-image7.png)<br/> [Links](ctrl-links.md) allow users to navigate to another page, window, or Help topic; display a definition; initiate a command; or choose an option.<br/>                                                                                                                                                                    |
 | ![list box](images/controls-image8.png)<br/> [List boxes](ctrl-list-boxes.md) allow users to select from a set of values presented in a list that is always visible. With a single-selection list box, users select one item from a list of mutually exclusive values. With a multiple-selection list box, users select zero or more items from a list of values.<br/> |
@@ -42,10 +45,4 @@ Controls are UI elements that your users interact with on your app's main window
  
 
  
-
- 
-
-
-
-
 

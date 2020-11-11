@@ -80,7 +80,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Gets and sets the alias of the application.
@@ -224,7 +224,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Gets and sets the name of the application pool of the application.
@@ -253,7 +253,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**optional**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**optional**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 Gets and sets the security descriptor that controls access to the application, in security descriptor definition language (SDDL) format.
@@ -308,10 +308,4 @@ Gets and sets the virtual path to the application.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

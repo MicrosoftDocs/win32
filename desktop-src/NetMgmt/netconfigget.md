@@ -18,12 +18,8 @@ api_location:
 
 # NetConfigGet
 
-The **NetConfigGet** function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the [registry](https://docs.microsoft.com/windows/desktop/SysInfo/registry).
+The **NetConfigGet** function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the [registry](/windows/desktop/SysInfo/registry).
 
  
 
  
-
-
-
-

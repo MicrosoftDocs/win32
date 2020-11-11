@@ -14,16 +14,16 @@ ms.date: 05/31/2018
 
 | Topic                                                                                        | Description                                                                                                 |
 |----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| [System.Audio.ChannelCount](https://msdn.microsoft.com/library/Bb787782(v=VS.85).aspx)<br/>           | Indicates the channel count for the audio file. Possible values are 1 for mono and 2 for stereo.<br/> |
-| [System.Audio.Compression](https://msdn.microsoft.com/library/Bb787784(v=VS.85).aspx)<br/>             | Indicates the audio compression used on the audio file.<br/>                                          |
-| [System.Audio.EncodingBitrate](https://msdn.microsoft.com/library/Bb773922(v=VS.85).aspx)<br/>     | Indicates the average data rate in Hertz (Hz) for the audio file in bits per second.<br/>             |
-| [System.Audio.Format](https://msdn.microsoft.com/library/Bb773924(v=VS.85).aspx)<br/>                       | Indicates the format of the audio file.<br/>                                                          |
-| [System.Audio.IsVariableBitRate](https://msdn.microsoft.com/library/Bb773926(v=VS.85).aspx)<br/> | Indicates whether the audio file had a variable or constant bit rate.<br/>                            |
-| [System.Audio.PeakValue](https://msdn.microsoft.com/library/Bb773928(v=VS.85).aspx)<br/>                 |                                                                                                             |
-| [System.Audio.SampleRate](https://msdn.microsoft.com/library/Bb773930(v=VS.85).aspx)<br/>               | Indicates the sample rate for the audio file in samples per second.<br/>                              |
-| [System.Audio.SampleSize](https://msdn.microsoft.com/library/Bb773932(v=VS.85).aspx)<br/>               | Indicates the sample size for the audio file in bits per sample.<br/>                                 |
-| [System.Audio.StreamName](https://msdn.microsoft.com/library/Bb773934(v=VS.85).aspx)<br/>               | Identifies the name of the stream for the audio file.<br/>                                            |
-| [System.Audio.StreamNumber](https://msdn.microsoft.com/library/Bb773936(v=VS.85).aspx)<br/>           | Identifies the stream number of the audio file.<br/>                                                  |
+| [System.Audio.ChannelCount](./props-system-audio-channelcount.md)<br/>           | Indicates the channel count for the audio file. Possible values are 1 for mono and 2 for stereo.<br/> |
+| [System.Audio.Compression](./props-system-audio-compression.md)<br/>             | Indicates the audio compression used on the audio file.<br/>                                          |
+| [System.Audio.EncodingBitrate](./props-system-audio-encodingbitrate.md)<br/>     | Indicates the average data rate in Hertz (Hz) for the audio file in bits per second.<br/>             |
+| [System.Audio.Format](./props-system-audio-format.md)<br/>                       | Indicates the format of the audio file.<br/>                                                          |
+| [System.Audio.IsVariableBitRate](./props-system-audio-isvariablebitrate.md)<br/> | Indicates whether the audio file had a variable or constant bit rate.<br/>                            |
+| [System.Audio.PeakValue](./props-system-audio-peakvalue.md)<br/>                 |                                                                                                             |
+| [System.Audio.SampleRate](./props-system-audio-samplerate.md)<br/>               | Indicates the sample rate for the audio file in samples per second.<br/>                              |
+| [System.Audio.SampleSize](./props-system-audio-samplesize.md)<br/>               | Indicates the sample size for the audio file in bits per sample.<br/>                                 |
+| [System.Audio.StreamName](./props-system-audio-streamname.md)<br/>               | Identifies the name of the stream for the audio file.<br/>                                            |
+| [System.Audio.StreamNumber](./props-system-audio-streamnumber.md)<br/>           | Identifies the stream number of the audio file.<br/>                                                  |
 
 
 
@@ -32,7 +32,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # Session.Error property
 
-Gets additional error information in an XML stream. Error information can also be obtained from the VBScript [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object.
+Gets additional error information in an XML stream. Error information can also be obtained from the VBScript [Err](/previous-versions//sbf5ze0e(v=vs.85)) object.
 
 This property is read-only.
 
@@ -40,7 +40,7 @@ XML representation of error information.
 
 ## Examples
 
-The following VBScript code example shows a script that contains an error in the [*resource URI*](windows-remote-management-glossary.md). The correct resource URI is http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_QuotaSetting?VolumePath=c:\\.
+The following VBScript code example shows a script that contains an error in the [*resource URI*](windows-remote-management-glossary.md). The correct resource URI is `http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_QuotaSetting?VolumePath=c:\\`.
 
 
 ```VB
@@ -148,10 +148,4 @@ to get more information in how to construct a resource URI:
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

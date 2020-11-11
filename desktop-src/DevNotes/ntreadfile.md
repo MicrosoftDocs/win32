@@ -19,7 +19,7 @@ api_location:
 
 Reads data from an open file.
 
-This function is the user-mode equivalent to the [**ZwReadFile**](https://msdn.microsoft.com/library/Ff567072(v=VS.85).aspx) function documented in the Windows Driver Kit (WDK).
+This function is the user-mode equivalent to the [**ZwReadFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile) function documented in the Windows Driver Kit (WDK).
 
 ## Syntax
 
@@ -75,7 +75,7 @@ This parameter is reserved. Device and intermediate drivers should set this poin
 *IoStatusBlock* \[out\]
 </dt> <dd>
 
-Pointer to an [**IO\_STATUS\_BLOCK**](https://msdn.microsoft.com/library/Ff550671(v=VS.85).aspx) structure that receives the final completion status and information about the requested read operation. The **Information** member receives the number of bytes actually read from the file.
+Pointer to an [**IO\_STATUS\_BLOCK**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure that receives the final completion status and information about the requested read operation. The **Information** member receives the number of bytes actually read from the file.
 
 </dd> <dt>
 
@@ -153,9 +153,9 @@ File and event handles are valid only in the process context where the handles a
 
 Likewise, **NtReadFile** should be called in the context of the system process if it notifies the driver of I/O completion by means of an APC, because APCs are always fired in the context of the thread that issues the I/O request. If the driver calls **NtReadFile** in the context of a process other than the system one, the APC could be delayed indefinitely, or it might not fire at all.
 
-For more information about working with files, see [Using Files in a Driver](https://msdn.microsoft.com/library/Ff565384(v=VS.85).aspx).
+For more information about working with files, see [Using Files in a Driver](/windows-hardware/drivers/kernel/using-files-in-a-driver).
 
-Callers of **NtReadFile** must be running at IRQL = PASSIVE\_LEVEL and [with special kernel APCs enabled](https://msdn.microsoft.com/library/Ff543219(v=VS.85).aspx).
+Callers of **NtReadFile** must be running at IRQL = PASSIVE\_LEVEL and [with special kernel APCs enabled](/windows-hardware/drivers/kernel/disabling-apcs).
 
 ## Requirements
 
@@ -165,7 +165,7 @@ Callers of **NtReadFile** must be running at IRQL = PASSIVE\_LEVEL and [with spe
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                    |
-| Target platform<br/>          | <dl> <dt>[Universal](https://msdn.microsoft.com/En-US/Library/Windows/Hardware/EB2264A4-BAE8-446B-B9A5-19893936DDCA)</dt> </dl> |
+| Target platform<br/>          | <dl> <dt>[Universal](https://msdn.microsoft.com/Library/Windows/Hardware/EB2264A4-BAE8-446B-B9A5-19893936DDCA)</dt> </dl> |
 | Header<br/>                   | <dl> <dt>Wdm.h (include Wdm.h, Ntddk.h, or Ntifs.h)</dt> </dl>                   |
 | Library<br/>                  | <dl> <dt>Ntdll.lib</dt> </dl>                                                    |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll (user mode)</dt> </dl>                                        |
@@ -176,25 +176,21 @@ Callers of **NtReadFile** must be running at IRQL = PASSIVE\_LEVEL and [with spe
 
 <dl> <dt>
 
-[**KeInitializeEvent**](https://msdn.microsoft.com/library/Ff552137(v=VS.85).aspx)
+[**KeInitializeEvent**](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent)
 </dt> <dt>
 
 [**NtCreateFile**](/windows/desktop/api/Winternl/nf-winternl-ntcreatefile)
 </dt> <dt>
 
-[**NtQueryInformationFile**](https://msdn.microsoft.com/library/Ff556646(v=VS.85).aspx)
+[**NtQueryInformationFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile)
 </dt> <dt>
 
-[**NtSetInformationFile**](https://msdn.microsoft.com/library/Ff557671(v=VS.85).aspx)
+[**NtSetInformationFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile)
 </dt> <dt>
 
-[**NtWriteFile**](https://msdn.microsoft.com/library/Ff557714(v=VS.85).aspx)
+[**NtWriteFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile)
 </dt> </dl>
 
  
 
  
-
-
-
-

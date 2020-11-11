@@ -21,7 +21,6 @@ The network management directory service functions are listed following.
 | [**NetGetJoinableOUs**](/windows/desktop/api/Lmjoin/nf-lmjoin-netgetjoinableous)                           | Retrieves a list of organizational units (OUs) in which a computer account can be created.                                                                                                  |
 | [**NetGetJoinInformation**](/windows/desktop/api/Lmjoin/nf-lmjoin-netgetjoininformation)                   | Retrieves join status information for the specified computer.                                                                                                                               |
 | [**NetJoinDomain**](/windows/desktop/api/Lmjoin/nf-lmjoin-netjoindomain)                                   | Joins a computer to a workgroup or domain.                                                                                                                                                  |
-| [**NetLogonSetServiceBits**](netlogonsetservicebits.md)                 | Notifies the Netlogon service of the running state of the services on a domain controller. The caller must be running in the context of either the LocalSystem or the LocalService account. |
 | [**NetProvisionComputerAccount**](/windows/desktop/api/Lmjoin/nf-lmjoin-netprovisioncomputeraccount)       | Provisions a computer account for later used in an offline domain join operation.                                                                                                           |
 | [**NetRemoveAlternateComputerName**](/windows/desktop/api/Lmjoin/nf-lmjoin-netremovealternatecomputername) | Removes an alternate name for the specified computer.                                                                                                                                       |
 | [**NetRenameMachineInDomain**](/windows/desktop/api/Lmjoin/nf-lmjoin-netrenamemachineindomain)             | Changes the name of a computer in a domain.                                                                                                                                                 |
@@ -33,12 +32,8 @@ The network management directory service functions are listed following.
 
  
 
-For more information about programming for Active Directory, see the [Active Directory Reference](https://docs.microsoft.com/windows/desktop/AD/active-directory-domain-services-reference). For more information about organizational units, see [Managing Users](https://docs.microsoft.com/windows/desktop/AD/managing-users) in the Active Directory documentation.
+For more information about programming for Active Directory, see the [Active Directory Reference](/windows/desktop/AD/active-directory-domain-services-reference). For more information about organizational units, see [Managing Users](/windows/desktop/AD/managing-users) in the Active Directory documentation.
 
  
 
  
-
-
-
-

@@ -14,7 +14,7 @@ NTLM works both locally and across computers. That is, if the client and server 
 
 With NTLM, the client's identity is represented by a domain name, user name, and a password or token. When a server calls [**CoQueryClientBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-coqueryclientblanket), the client's domain name and user name are returned. However, when a server calls [**CoImpersonateClient**](/windows/desktop/api/combaseapi/nf-combaseapi-coimpersonateclient), the client's token is returned. If there is no trust relationship between client and server and if the server has a local account with the same name and password as the client, that account will be used to represent the client.
 
-NTLM supports mutual authentication cross-thread and cross-process (locally only). If the client specifies the principal name of the server in the form domain\\user in a call to [**IClientSecurity::SetBlanket**](https://msdn.microsoft.com/library/ms691255(v=VS.85).aspx), the server's identity must match that principal name or the call will fail. If the client specifies **NULL**, the server's identity will not be checked.
+NTLM supports mutual authentication cross-thread and cross-process (locally only). If the client specifies the principal name of the server in the form domain\\user in a call to [**IClientSecurity::SetBlanket**](/windows/win32/api/objidl/nf-objidl-iclientsecurity-setblanket), the server's identity must match that principal name or the call will fail. If the client specifies **NULL**, the server's identity will not be checked.
 
 NTLM additionally supports the delegate impersonation level cross-thread and cross-process (locally only).
 
@@ -28,7 +28,3 @@ NTLM additionally supports the delegate impersonation level cross-thread and cro
  
 
  
-
-
-
-

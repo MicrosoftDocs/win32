@@ -7,11 +7,10 @@ ms.date: 05/31/2018
 
 # How to Open a Rooted View of a Junction Point Through a Shortcut File
 
-You can launch a rooted view of a junction point through a [shortcut file](https://msdn.microsoft.com/library/Bb776891(v=VS.85).aspx) to that junction point.
+You can launch a rooted view of a junction point through a [shortcut file](./links.md) to that junction point.
 
 ## Instructions
 
-### 
 
 Set the shortcut file's Target line to Explorer.exe with a /root flag. The exact form of the command depends on the location of the junction point:
 
@@ -61,6 +60,3 @@ Set the shortcut file's Target line to Explorer.exe with a /root flag. The exact
  
 
  
-
-
-

@@ -31,7 +31,7 @@ This optimization is possible thanks to the DWM (Desktop Window Manager), which 
 
 ## When should I use the blt model?
 
-There is one piece of functionality that the flip model does not provide: the ability to have multiple different APIs producing content, which all layer together into the same **HWND**, on a present-by-present basis. An example of this would be using D3D to draw a window background, and then [Windows GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) to draw something on top, or using two different graphics APIs, or two swapchains from the same API, to produce alternating frames. If you don’t require **HWND**-level interop between graphics components, then you don’t need blt model.
+There is one piece of functionality that the flip model does not provide: the ability to have multiple different APIs producing content, which all layer together into the same **HWND**, on a present-by-present basis. An example of this would be using D3D to draw a window background, and then [Windows GDI](/windows/desktop/gdi/windows-gdi) to draw something on top, or using two different graphics APIs, or two swapchains from the same API, to produce alternating frames. If you don’t require **HWND**-level interop between graphics components, then you don’t need blt model.
 
 There is a second piece of functionality that was not provided in the original flip model design, but is available now, which is the ability to present at an unthrottled framerate. For an application using sync interval 0, we do not recommend switching to flip model unless the [IDXGIFactory5::CheckFeatureSupport](/windows/desktop/api/DXGI1_5/nf-dxgi1_5-idxgifactory5-checkfeaturesupport) API is available, and reports support for **DXGI\_FEATURE\_PRESENT\_ALLOW\_TEARING**. This feature is nearly ubiquitous on recent versions of Windows 10 and on modern hardware.
 
@@ -86,6 +86,3 @@ The first time you ask the GPU to write to the swapchain back buffer is the time
  
 
  
-
-
-

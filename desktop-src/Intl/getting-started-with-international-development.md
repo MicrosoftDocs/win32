@@ -35,7 +35,7 @@ The path you follow next in learning to create international software depends on
 
     The challenge is to develop an application that does not have to be rewritten for each language or culture.
 
-    -   Read the article [Understanding Multilingual User Interface (MUI)](https://msdn.microsoft.com/library/windows/desktop/dd317706(v=vs.85).aspx).
+    -   Read the article [Understanding Multilingual User Interface (MUI)](./about-multilingual-user-interface.md).
     -   Explore the documentation for [Multilingual User Interface](multilingual-user-interface.md).
     -   Get started with the [Hello MUI](#the-hello-mui-application) application.
 
@@ -58,14 +58,14 @@ The path you follow next in learning to create international software depends on
 
     International applications should use locale settings to properly sort strings, and to display culture-sensitive information, such as time, dates, and currency.
 
-    -   Explore the [National Language Support Knowledge Center](https://msdn.microsoft.com/library/windows/desktop/dd319083(v=vs.85).aspx).
+    -   Explore the [National Language Support Knowledge Center](./national-language-support-reference.md).
     -   Examine the documentation for [National Language Support (NLS)](national-language-support.md).
 
 -   **Discover the language or script used by the user, and apply it to the other services of the application.**
 
     If your application can determine the language in which text and user input is written, it can display content such as prompts or help in an understandable language.
 
-    -   Read the article [Writing World-Ready Applications in Windows: Extended Linguistic Services in Windows](https://msdn.microsoft.com/library/windows/desktop/dd374104(v=vs.85).aspx).
+    -   Read the article [Writing World-Ready Applications in Windows: Extended Linguistic Services in Windows](./using-extended-linguistic-services.md).
     -   Explore the documentation for [Extended Linguistic Services (ELS)](extended-linguistic-services.md).
 
 ## Internationalization Technologies in the SDK
@@ -91,6 +91,3 @@ You can begin the Hello MUI tutorial at [Adding Multilingual User Interface Supp
  
 
  
-
-
-

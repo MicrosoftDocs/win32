@@ -3,10 +3,13 @@ title: Balloons
 description: A balloon is a small pop-up window that informs users of a non-critical problem or special condition in a control.
 ms.assetid: 67092831-e573-4ad6-b1fc-baa1836031cb
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Balloons
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 A balloon is a small pop-up window that informs users of a non-critical problem or special condition in a control.
 
@@ -166,13 +169,13 @@ When used properly, balloons enhance accessibility. For balloons to be accessibl
 
 -   **Use title text that briefly summarizes the input problem or special condition in clear, plain, concise, specific language.** Users should be able to understand the purpose of the balloon quickly and with minimal effort.
 -   **Use text fragments or complete sentences without ending punctuation.**
--   **Use sentence-style capitalization.** For more info, see the [glossary](https://msdn.microsoft.com/library/Dn688965(v=VS.85).aspx).
+-   **Use sentence-style capitalization.** For more info, see the [glossary](./glossary.md).
 -   **Use no more than 48 characters (in English) to accommodate localization.** The title has a maximum length of 63 characters and must be able to expand by at least 30 percent to accommodate localization.
 
 **Body text**
 
 -   **Use the first sentence of the body text to state the problem or condition in a way that is clearly relevant to the user.** Don't repeat the information in the title. Omit this if there is nothing more to add.
--   **Use the second sentence to state what the user can do to resolve the problem or revert the state.** In accordance with the [Style and Tone](https://msdn.microsoft.com/library/Dn742477(v=VS.85).aspx) guidelines, there's no need to use the word Please in this statement. Put two line breaks between the first and second sentences.
+-   **Use the second sentence to state what the user can do to resolve the problem or revert the state.** In accordance with the [Style and Tone](./text-style-tone.md) guidelines, there's no need to use the word Please in this statement. Put two line breaks between the first and second sentences.
 
 ![screen shot of a balloon with title and body text](images/ctrl-balloons-image12.png)
 
@@ -194,10 +197,4 @@ When referring to balloons:
 -   When possible, format the title text using bold text. Otherwise, put the title in quotation marks only if required to prevent confusion.
 
  
-
- 
-
-
-
-
 

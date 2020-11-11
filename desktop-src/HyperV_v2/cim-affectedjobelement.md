@@ -57,7 +57,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The managed element affected by the execution of the job.
@@ -73,7 +73,7 @@ Data type: **CIM\_Job**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The job that is affecting the managed element.
@@ -89,7 +89,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed"), [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_AffectedJobElement**.**OtherElementEffectsDescriptions**")
+Qualifiers: [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed"), [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_AffectedJobElement**.**OtherElementEffectsDescriptions**")
 </dt> </dl>
 
 The effect the job has on the managed element.
@@ -149,7 +149,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed"), [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_AffectedJobElement**.**ElementEffects**")
+Qualifiers: [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed"), [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_AffectedJobElement**.**ElementEffects**")
 </dt> </dl>
 
 Additional details for corresponding "1" (Other) values in the **ElementEffects** array.
@@ -171,9 +171,4 @@ Additional details for corresponding "1" (Other) values in the **ElementEffects*
 
 
  
-
- 
-
-
-
 

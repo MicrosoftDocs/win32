@@ -12,7 +12,7 @@ This topic shows how to use Microsoft DirectX Graphics Infrastructure (DXGI) to 
 
 **To get adapter display modes**
 
-1.  Create an [**IDXGIFactory**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory) object and use it to enumerate the available adapters. For more information, see [How To: Enumerate Adapters](overviews-direct3d-11-devices-enum.md).
+1.  Create an [**IDXGIFactory**](/windows/desktop/api/dxgi/nn-dxgi-idxgifactory) object and use it to enumerate the available adapters. For more information, see [How To: Enumerate Adapters](overviews-direct3d-11-devices-enum.md).
 2.  Call IDXGIAdapter::EnumOutputs to enumerate the outputs for each adapter.
     ```
     IDXGIOutput* pOutput = NULL; 
@@ -23,7 +23,7 @@ This topic shows how to use Microsoft DirectX Graphics Infrastructure (DXGI) to 
 
     
 
-3.  Call IDXGIOutput::GetDisplayModeList to retrieve an array of [**DXGI\_MODE\_DESC**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173064(v=vs.85)) structures and the number of elements in the array. Each **DXGI\_MODE\_DESC** structure represents a valid display mode for the output.
+3.  Call IDXGIOutput::GetDisplayModeList to retrieve an array of [**DXGI\_MODE\_DESC**](/previous-versions/windows/desktop/legacy/bb173064(v=vs.85)) structures and the number of elements in the array. Each **DXGI\_MODE\_DESC** structure represents a valid display mode for the output.
     ```
     UINT numModes = 0;
     DXGI_MODE_DESC* displayModes = NULL;
@@ -53,7 +53,3 @@ This topic shows how to use Microsoft DirectX Graphics Infrastructure (DXGI) to 
  
 
  
-
-
-
-

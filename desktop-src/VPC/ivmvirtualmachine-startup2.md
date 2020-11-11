@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualMachine::Startup2 method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Starts the virtual machine (VM) from either the uninitialized or saved state, with advanced options.
 
@@ -119,10 +119,4 @@ The following values can be returned through the [**Error**](ivmtask-error.md) p
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

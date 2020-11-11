@@ -26,7 +26,7 @@ This version of Windows 7/Direct3D 11 ships as part of the DirectX SDK and conta
 <tbody>
 <tr class="odd">
 <td><span id="Direct2D"></span><span id="direct2d"></span><span id="DIRECT2D"></span>Direct2D<br/></td>
-<td>Direct2D is a hardware-accelerated, immediate-mode, 2-D graphics API that provides high performance and high quality rendering for 2-D geometry, bitmaps, and text. The Direct2D API is designed to interoperate well with Direct3D and GDI. This SDK allows developers to evaluate the API and write simple applications, with some of the more advanced functionality possible on properly configured machines. <br/> <a href="https://msdn.microsoft.com/library/dd370990(VS.85).aspx">Documentation</a> and <a href="https://msdn.microsoft.com/library/dd372354(VS.85).aspx">samples</a> for Direct2D are currently available on MSDN.<br/></td>
+<td>Direct2D is a hardware-accelerated, immediate-mode, 2-D graphics API that provides high performance and high quality rendering for 2-D geometry, bitmaps, and text. The Direct2D API is designed to interoperate well with Direct3D and GDI. This SDK allows developers to evaluate the API and write simple applications, with some of the more advanced functionality possible on properly configured machines. <br/> <a href="/windows/win32/direct2d/direct2d-portal">Documentation</a> and <a href="/previous-versions//dd372354(v=vs.85)">samples</a> for Direct2D are currently available on MSDN.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="DirectWrite"></span><span id="directwrite"></span><span id="DIRECTWRITE"></span>DirectWrite<br/></td>
@@ -38,16 +38,16 @@ This version of Windows 7/Direct3D 11 ships as part of the DirectX SDK and conta
 <li>Support for the advanced typography features of OpenType fonts.<br/></li>
 <li>Support for the layout and rendering of text in all languages supported by Windows.<br/></li>
 </ul>
-This SDK allows developers to evaluate the API and write basic applications for demonstration purposes only.<br/> <a href="https://msdn.microsoft.com/library/dd368038(VS.85).aspx">Documentation</a> and <a href="https://msdn.microsoft.com/library/dd371575(VS.85).aspx">samples</a> for DirectWrite are currently available on MSDN.<br/></td>
+This SDK allows developers to evaluate the API and write basic applications for demonstration purposes only.<br/> <a href="/windows/win32/directwrite/direct-write-portal">Documentation</a> and <a href="/windows/win32/directwrite/samples">samples</a> for DirectWrite are currently available on MSDN.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="DXGI_1.1"></span><span id="dxgi_1.1"></span>DXGI 1.1<br/></td>
-<td><a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dx-graphics-dxgi-overviews">DXGI 1.1</a> builds on DXGI 1.0 and will be available on both Windows Vista and Windows 7. DXGI 1.1 adds several new features:<br/>
+<td><a href="/windows/desktop/direct3ddxgi/dx-graphics-dxgi-overviews">DXGI 1.1</a> builds on DXGI 1.0 and will be available on both Windows Vista and Windows 7. DXGI 1.1 adds several new features:<br/>
 <ul>
 <li>Synchronized Shared Surfaces Support. This enables efficient read and write surface sharing between multiple D3D (could be between D3D10 and D3D11) devices.<br/></li>
 <li>BGRA format support. This allows GDI to render to the same DXGI surface targeted by a Direct2D, Direct3D 10.1 or Direct3D 11 device. <br/></li>
-<li>Maximum Frame Latency. Using <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgidevice1-setmaximumframelatency"><strong>IDXGIDevice1::SetMaximumFrameLatency</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgidevice1-getmaximumframelatency"><strong>IDXGIDevice1::GetMaximumFrameLatency</strong></a>, titles can control the number of frames that are allowed to be stored in a queue, before submission for rendering. Latency is often used to control how the CPU chooses between responding to user input and frames that are in the render queue.<br/></li>
-<li>Adapter Enumeration. Using <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory1-enumadapters1"><strong>IDXGIFactory1::EnumAdapters1</strong></a>, titles can enumerates local adapters without any monitors or outputs attached, as well as adapters with outputs attached.<br/></li>
+<li>Maximum Frame Latency. Using <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgidevice1-setmaximumframelatency"><strong>IDXGIDevice1::SetMaximumFrameLatency</strong></a> and <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgidevice1-getmaximumframelatency"><strong>IDXGIDevice1::GetMaximumFrameLatency</strong></a>, titles can control the number of frames that are allowed to be stored in a queue, before submission for rendering. Latency is often used to control how the CPU chooses between responding to user input and frames that are in the render queue.<br/></li>
+<li>Adapter Enumeration. Using <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgifactory1-enumadapters1"><strong>IDXGIFactory1::EnumAdapters1</strong></a>, titles can enumerates local adapters without any monitors or outputs attached, as well as adapters with outputs attached.<br/></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -73,12 +73,4 @@ This SDK allows developers to evaluate the API and write basic applications for 
 
 [Features Introduced In Previous Releases](d3d11-features-introduced-previous-releases.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-
 

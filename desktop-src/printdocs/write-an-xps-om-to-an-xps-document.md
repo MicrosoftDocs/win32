@@ -60,7 +60,7 @@ The [**IXpsOMPackageWriter**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmo
 **Used in This Section**
 </dt> <dt>
 
-[**IOpcPartUri**](https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi)
+[**IOpcPartUri**](/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi)
 </dt> <dt>
 
 [**IXpsOMPackage**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackage)
@@ -84,6 +84,3 @@ The [**IXpsOMPackageWriter**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmo
  
 
  
-
-
-

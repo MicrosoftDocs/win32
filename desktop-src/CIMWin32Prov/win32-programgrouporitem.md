@@ -23,7 +23,7 @@ api_location:
 
 # Win32\_ProgramGroupOrItem class
 
-The **Win32\_ProgramGroupOrItem** abstract [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) represents a logical grouping of programs on the user's **Start\\Programs** menu. It contains program groups and program group items.
+The **Win32\_ProgramGroupOrItem** abstract [WMI class](../wmisdk/retrieving-a-class.md) represents a logical grouping of programs on the user's **Start\\Programs** menu. It contains program groups and program group items.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -62,7 +62,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Caption")
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (64), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Caption")
 </dt> </dl>
 
 A short textual description of the object.
@@ -80,7 +80,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Description")
+Qualifiers: [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Description")
 </dt> </dl>
 
 A textual description of the object.
@@ -98,7 +98,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Install Date")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Install Date")
 </dt> </dl>
 
 Indicates when the object was installed. Lack of a value does not indicate that the object is not installed.
@@ -116,7 +116,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Name")
+Qualifiers: [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Name")
 </dt> </dl>
 
 Label by which the object is known. When subclassed, this property can be overridden to be a key property.
@@ -134,7 +134,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Status")
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (10), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Status")
 </dt> </dl>
 
 String that indicates the current status of the object. Operational and non-operational status can be defined. Operational status can include "OK", "Degraded", and "Pred Fail". "Pred Fail" indicates that an element is functioning properly, but is predicting a failure (for example, a SMART-enabled hard disk drive).
@@ -258,13 +258,9 @@ The **Win32\_ProgramGroupOrItem** class is derived from [**CIM\_LogicalElement**
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](./operating-system-classes.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

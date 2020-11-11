@@ -79,7 +79,7 @@ This value is supported starting in Windows 8.1.
 <td style="text-align: left;"><span id="DXGI_PRESENT_ALLOW_TEARING"></span><span id="dxgi_present_allow_tearing"></span><dl> <dt><strong>DXGI_PRESENT_ALLOW_TEARING</strong></dt> <dt>0x00000200UL</dt> </dl></td>
 <td style="text-align: left;">Allowing tearing is a requirement of variable refresh rate displays.<br/> The conditions for using DXGI_PRESENT_ALLOW_TEARING during Present are as follows:<br/>
 <ul>
-<li>The swap chain must be created with the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_chain_flag"><strong>DXGI_SWAP_CHAIN_FLAG_ALLOW_TEARING</strong></a> flag.</li>
+<li>The swap chain must be created with the <a href="/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_chain_flag"><strong>DXGI_SWAP_CHAIN_FLAG_ALLOW_TEARING</strong></a> flag.</li>
 <li>The sync interval passed in to <a href="/windows/desktop/api/DXGI/nf-dxgi-idxgiswapchain-present"><strong>Present</strong></a> (or <a href="/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1"><strong>Present1</strong></a>) must be 0.</li>
 <li>The DXGI_PRESENT_ALLOW_TEARING flag cannot be used in an application that is currently in full screen exclusive mode (set by calling <a href="/windows/desktop/api/DXGI/nf-dxgi-idxgiswapchain-setfullscreenstate"><strong>SetFullscreenState(TRUE)</strong></a>). It can only be used in windowed mode. To use this flag in full screen Win32 apps, the application should present to a fullscreen borderless window and disable automatic ALT+ENTER fullscreen switching using <a href="/windows/desktop/api/DXGI/nf-dxgi-idxgifactory-makewindowassociation"><strong>IDXGIFactory::MakeWindowAssociation</strong></a>. UWP apps that enter fullscreen mode by calling <code>Windows::UI::ViewManagement::ApplicationView::TryEnterFullscreen()</code> are fullscreen borderless windows and may use the flag.</li>
 </ul>
@@ -133,7 +133,3 @@ If you use the DXGI\_PRESENT\_STEREO\_TEMPORARY\_MONO flag when you present a st
  
 
  
-
-
-
-

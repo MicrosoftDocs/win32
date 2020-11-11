@@ -76,13 +76,8 @@ Defines the section of the instrumentation manifest that identifies the provider
 
 <dl> <dt>
 
-[**instrumentation**](https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-instrumentationtype-complextype)
+[**instrumentation**](/windows/desktop/WES/eventmanifestschema-instrumentationtype-complextype)
 </dt> </dl>
 
  
-
- 
-
-
-
 

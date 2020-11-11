@@ -30,7 +30,7 @@ These are the reasonable methods of working around the wire incompatibility issu
 
     This solution applies when a new parameter or data type must be exposed to a user, but actually does not have to be remoted separately or can be mapped to the old data types or parameters. For example, many system APIs turn around and execute a remote call. They may or may not be doing some kind of mapping from the user known data types to the data types actually used in the underlying RPC call. It is therefore always worth examining if the change in the user interface needs to propagate as a change to a remote interface.
 
-    A similar situation may happen when the user calls a remote API directly, but a wrapper could be introduced to do a new type mapping or some other additional actions that have become necessary. Interface Definition Language (IDL) has several ways of facilitating such remapping, namely \[[**call\_as**](https://docs.microsoft.com/windows/desktop/Midl/call-as)\], \[[**transmit\_as**](https://docs.microsoft.com/windows/desktop/Midl/transmit-as)\], and \[[**wire\_marshal**](https://docs.microsoft.com/windows/desktop/Midl/wire-marshal)\]. The \[**call\_as**\] attribute introduces a function wrapper on the client and server. Both are placed between the user code and the marshaler. The other attributes deal with direct type mapping. For extension problems, \[**call\_as**\] is the most frequently used, and is easiest to understand and manipulate without pitfalls.
+    A similar situation may happen when the user calls a remote API directly, but a wrapper could be introduced to do a new type mapping or some other additional actions that have become necessary. Interface Definition Language (IDL) has several ways of facilitating such remapping, namely \[[**call\_as**](/windows/desktop/Midl/call-as)\], \[[**transmit\_as**](/windows/desktop/Midl/transmit-as)\], and \[[**wire\_marshal**](/windows/desktop/Midl/wire-marshal)\]. The \[**call\_as**\] attribute introduces a function wrapper on the client and server. Both are placed between the user code and the marshaler. The other attributes deal with direct type mapping. For extension problems, \[**call\_as**\] is the most frequently used, and is easiest to understand and manipulate without pitfalls.
 
 5.  Modify data types through a defaultless union.
 
@@ -46,9 +46,9 @@ These are the reasonable methods of working around the wire incompatibility issu
 
     could return information at level 1, 2 or 3, with *XxxINFO* being a union with three branches: 1, 2 and 3.
 
-6.  Use the \[[**range**](https://docs.microsoft.com/windows/desktop/Midl/range)\] attribute to specify range.
+6.  Use the \[[**range**](/windows/desktop/Midl/range)\] attribute to specify range.
 
-    You can specify the \[[**range**](https://docs.microsoft.com/windows/desktop/Midl/range)\] attribute on a simple scale type without breaking backward compatibility. This attribute does not affect wire format, but during unmarshalling RPC checks the value on wire to confirm that it is within the range specified in the .idl file. If not, a RPC\_X\_INVALID\_BOUND exception is thrown. This is especially useful if the server knows the maximum size of a sized array.
+    You can specify the \[[**range**](/windows/desktop/Midl/range)\] attribute on a simple scale type without breaking backward compatibility. This attribute does not affect wire format, but during unmarshalling RPC checks the value on wire to confirm that it is within the range specified in the .idl file. If not, a RPC\_X\_INVALID\_BOUND exception is thrown. This is especially useful if the server knows the maximum size of a sized array.
 
     For example:
 
@@ -69,7 +69,3 @@ Due to quirks of internal representation of the NDR64 wire protocol, the recomme
  
 
  
-
-
-
-

@@ -48,7 +48,7 @@ Pointer to an array of [**D3DXATTRIBUTERANGE**](d3dxattributerange.md) structure
 *cAttribTableSize* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Number of attributes in the mesh attribute table.
 
@@ -91,7 +91,3 @@ If an application keeps track of the information in an attribute table, and rear
  
 
  
-
-
-
-

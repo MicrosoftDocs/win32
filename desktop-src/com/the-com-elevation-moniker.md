@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # The COM Elevation Moniker
 
-The COM elevation moniker allows applications that are running under user account control (UAC) to activate COM classes with elevated privileges. For more information, see [Focus on Least Privilege](https://msdn.microsoft.com/library/aa480194.aspx).
+The COM elevation moniker allows applications that are running under user account control (UAC) to activate COM classes with elevated privileges. For more information, see [Focus on Least Privilege](/previous-versions/dotnet/articles/aa480194(v=msdn.10)).
 
 ## When to Use the Elevation Moniker
 
@@ -38,7 +38,7 @@ HKEY_LOCAL_MACHINE\Software\Classes\CLSID
       LocalizedString = displayName
 ```
 
-If this entry is missing, the activation returns the error CO\_E\_MISSING\_DISPLAYNAME. If the MUI file is missing, the error code from the [**RegLoadMUIStringW**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regloadmuistringa) function is returned.
+If this entry is missing, the activation returns the error CO\_E\_MISSING\_DISPLAYNAME. If the MUI file is missing, the error code from the [**RegLoadMUIStringW**](/windows/desktop/api/winreg/nf-winreg-regloadmuistringa) function is returned.
 
 Optionally, to specify an application icon to be displayed by the UAC user interface, add the following registry key:
 
@@ -88,9 +88,9 @@ Elevation:Administrator!new:{guid}
 Elevation:Highest!new:{guid}
 ```
 
-The preceding syntax uses the "new" moniker to return an instance of the COM class specified by *guid*. Note that the "new" moniker internally uses the [**IClassFactory**](https://msdn.microsoft.com/library/ms694364(v=VS.85).aspx) interface to obtain a class object and then calls [**IClassFactory::CreateInstance**](/windows/desktop/api/Unknwn/nf-unknwn-iclassfactory-createinstance) on it.
+The preceding syntax uses the "new" moniker to return an instance of the COM class specified by *guid*. Note that the "new" moniker internally uses the [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) interface to obtain a class object and then calls [**IClassFactory::CreateInstance**](/windows/desktop/api/Unknwn/nf-unknwn-iclassfactory-createinstance) on it.
 
-The elevation moniker can also be used to get a class object, which implements [**IClassFactory**](https://msdn.microsoft.com/library/ms694364(v=VS.85).aspx). The caller then calls [**CreateInstance**](/windows/desktop/api/Unknwn/nf-unknwn-iclassfactory-createinstance) to get an object instance. The syntax for this is as follows:
+The elevation moniker can also be used to get a class object, which implements [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory). The caller then calls [**CreateInstance**](/windows/desktop/api/Unknwn/nf-unknwn-iclassfactory-createinstance) to get an object instance. The syntax for this is as follows:
 
 ``` syntax
 Elevation:Administrator!clsid:{guid}
@@ -126,7 +126,7 @@ HRESULT CoCreateInstanceAsAdmin(HWND hwnd, REFCLSID rclsid, REFIID riid, __out v
 
 The only addition is an **HWND** field, **hwnd**. This handle represents a window that becomes the owner of the Elevation UI, if applicable.
 
-If **hwnd** is **NULL**, COM will call [GetActiveWindow](https://msdn.microsoft.com/library/ms646292.aspx) to find a window handle associated with the current thread. This case might occur if the client is a script, which cannot fill in a [**BIND\_OPTS3**](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1) structure. In this case, COM will try to use the window associated with the script thread.
+If **hwnd** is **NULL**, COM will call [GetActiveWindow](/windows/win32/api/winuser/nf-winuser-getactivewindow) to find a window handle associated with the current thread. This case might occur if the client is a script, which cannot fill in a [**BIND\_OPTS3**](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1) structure. In this case, COM will try to use the window associated with the script thread.
 
 ## Over-The-Shoulder (OTS) Elevation
 
@@ -257,7 +257,7 @@ Windows Vista introduces the notion of *mandatory access labels* in security des
 
 As of Windows Vista, dcomcnfg.exe does not support changing the integrity level (IL) in COM permissions. It must be set programmatically.
 
-The following code example shows how to create a COM security descriptor with a label that allows launch/activation requests from all LOW IL clients. Note that the labels are valid for Launch/Activation and Call permissions. Thus, it is possible to write a COM server that disallows launch, activation or calls from clients with a certain IL. For more information about integrity levels, see the section "Understanding Windows Vista's Integrity Mechanism" in [Understanding and Working in Protected Mode Internet Explorer](https://msdn.microsoft.com/library/bb250462.aspx).
+The following code example shows how to create a COM security descriptor with a label that allows launch/activation requests from all LOW IL clients. Note that the labels are valid for Launch/Activation and Call permissions. Thus, it is possible to write a COM server that disallows launch, activation or calls from clients with a certain IL. For more information about integrity levels, see the section "Understanding Windows Vista's Integrity Mechanism" in [Understanding and Working in Protected Mode Internet Explorer](/previous-versions/windows/internet-explorer/ie-developer/).
 
 
 ```C++
@@ -327,13 +327,9 @@ This entry provides an "Activate As Activator" server with the same functionalit
 [Security in COM](security-in-com.md)
 </dt> <dt>
 
-[Understanding and Working in Protected Mode Internet Explorer](https://msdn.microsoft.com/library/bb250462.aspx)
+[Understanding and Working in Protected Mode Internet Explorer](/previous-versions/windows/internet-explorer/ie-developer/)
 </dt> </dl>
 
  
 
  
-
-
-
-

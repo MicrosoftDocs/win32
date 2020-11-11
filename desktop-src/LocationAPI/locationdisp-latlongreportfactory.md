@@ -16,7 +16,7 @@ api_location:
 
 # LocationDisp.LatLongReportFactory object
 
-\[The Location API object model is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, to access location from a website, use the [W3C Geolocation API](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). To access location from a desktop application, use the [**Windows.Devices.Geolocation**](https://docs.microsoft.com/uwp/api/Windows.Devices.Geolocation) API.\]
+\[The Location API object model is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, to access location from a website, use the [W3C Geolocation API](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). To access location from a desktop application, use the [**Windows.Devices.Geolocation**](/uwp/api/Windows.Devices.Geolocation) API.\]
 
 Manages latitude/longitude reports.
 
@@ -37,7 +37,7 @@ The **LocationDisp.LatLongReportFactory** object has these methods.
 |:---------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------|
 | [**ListenForReports**](locationdisp-latlongreportfactory-listenforreports.md)               | Requests latitude/longitude report events.<br/>                                         |
 | [**RequestPermissions**](locationdisp-latlongreportfactory-requestpermissions.md)           | Opens a system dialog box to request user permission for location-enabled devices.<br/> |
-| [**StopListeningForReports**](https://msdn.microsoft.com/library/Dd317718(v=VS.85).aspx) | Cancels requests for latitude/longitude report events.<br/>                             |
+| [**StopListeningForReports**](/previous-versions/windows/desktop/legacy/dd317718(v=vs.85)) | Cancels requests for latitude/longitude report events.<br/>                             |
 
 
 
@@ -112,9 +112,4 @@ Set latlongfactory = WScript.CreateObject("LocationDisp.LatLongReportFactory")
 </dt> </dl>
 
  
-
- 
-
-
-
 

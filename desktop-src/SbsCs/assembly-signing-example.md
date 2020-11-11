@@ -57,7 +57,7 @@ The next step is to run Makecat.exe over this .cdf to create the security catalo
 
 **c:\\MySampleAssembly>makecat MySampleAssembly.manifest.cdf**
 
-The final step is to run SignTool.exe to sign the catalog file with the certificate. This should be the same certificate that was used in the preceding to generate the public key token. For more information about SignTool.exe see the [**SignTool**](/windows/win32/SecCrypto/signtool) topic. The call to **SignTool** for the example would appear as follows:
+The final step is to run SignTool.exe to sign the catalog file with the certificate. This should be the same certificate that was used in the preceding to generate the public key token. For more information about SignTool.exe see the [**SignTool**](../seccrypto/signtool.md) topic. The call to **SignTool** for the example would appear as follows:
 
 **c:\\MySampleAssembly>signtool sign /f** *<fullpath>***mycompany.pfx /du https://www.mycompany.com/MySampleAssembly /t https[]()://timestamp.digicert.com MySampleAssembly.cat**
 
@@ -68,6 +68,3 @@ See also, [Creating Signed Files and Catalogs](creating-signed-files-and-catalog
  
 
  
-
-
-

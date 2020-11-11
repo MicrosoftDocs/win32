@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The executable program that interprets packages and installs products is Msiexec.exe.
 
 > [!Note]  
-> Msiexec also sets an error level on return that corresponds to [System Error Codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx).
+> Msiexec also sets an error level on return that corresponds to [System Error Codes](../debug/system-error-codes.md).
 
  
 
@@ -172,7 +172,3 @@ The equivalent Windows Installer command line has <a href="patch.md"><strong>PAT
  
 
  
-
-
-
-

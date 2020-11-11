@@ -16,7 +16,7 @@ This section contains code examples that demonstrate how to create and use list-
 
 | Topic                                                                                      | Description                                                                                                                                                                                                                                                                                                       |
 |--------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [How to Create a List-View Control](create-a-list-view-control.md)<br/>             | This topic demonstrates how to create a list-view control. To create a list-view control, you use the [**CreateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function and specify the [**WC\_LISTVIEW**](common-control-window-classes.md) window class. <br/> |
+| [How to Create a List-View Control](create-a-list-view-control.md)<br/>             | This topic demonstrates how to create a list-view control. To create a list-view control, you use the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function and specify the [**WC\_LISTVIEW**](common-control-window-classes.md) window class. <br/> |
 | [How to Add List-View Image Lists](add-list-view-image-lists.md)<br/>               | This topic demonstrates how to add image lists to a list-view control.<br/>                                                                                                                                                                                                                                 |
 | [How to Add List-View Columns](add-list-view-columns.md)<br/>                       | This topic demonstrates how to add columns to a list-view control.<br/>                                                                                                                                                                                                                                     |
 | [How to Add List-View Items and Subitems](add-list-view-items-and-subitems.md)<br/> | This topic demonstrates how to add items and subitems to a list-view control.<br/>                                                                                                                                                                                                                          |
@@ -30,10 +30,4 @@ This section contains code examples that demonstrate how to create and use list-
  
 
  
-
- 
-
-
-
-
 

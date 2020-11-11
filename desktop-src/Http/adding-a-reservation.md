@@ -33,22 +33,22 @@ If the above steps succeed, a new reservation entry is entered into the reservat
 
 The following examples illustrate the reservation process.
 
--   Reservation 1: https://+:80/vroot/subdir/ by Admin for User A and User C succeeds and is entered into the "+" bucket.
--   Reservation 2: https://adatum.com:80/vroot/ by Admin for User B succeeds and is entered into the "Explicit host" bucket.
--   Reservation 3: https://adatum.com:80/vroot/subdir/otherdir/ by User B for User C succeeds due to reservation 2.
--   Reservation 4: https://+:80/vroot/subdir/otherdir/ by User A for User E succeeds due to reservation 1.
--   Reservation 5: https://adatum.com:80/vroot/subdir/otherdir/ by User A for User E fails. Access denied due to reservation 2.
--   Reservation 6: https://+:80/vroot/subdir/ by Admin for User A fails. The reservation conflicts with reservation 1.
--   Reservation 7: https://adatum.com:80/newroot/ by User A for User A fails. Access denied due to implicit root reservation of https://adatum.com:80/ for LocalSystem or Administrator.
+-   Reservation 1: `https://+:80/vroot/subdir/` by Admin for User A and User C succeeds and is entered into the "+" bucket.
+-   Reservation 2: `https://adatum.com:80/vroot/` by Admin for User B succeeds and is entered into the "Explicit host" bucket.
+-   Reservation 3: `https://adatum.com:80/vroot/subdir/otherdir/` by User B for User C succeeds due to reservation 2.
+-   Reservation 4: `https://+:80/vroot/subdir/otherdir/` by User A for User E succeeds due to reservation 1.
+-   Reservation 5: `https://adatum.com:80/vroot/subdir/otherdir/` by User A for User E fails. Access denied due to reservation 2.
+-   Reservation 6: `https://+:80/vroot/subdir/` by Admin for User A fails. The reservation conflicts with reservation 1.
+-   Reservation 7: `https://adatum.com:80/newroot/` by User A for User A fails. Access denied due to implicit root reservation of `https://adatum.com:80/` for LocalSystem or Administrator.
 
 Reservations can affect the set of URLs in requests delivered to a process that has previously registered a UrlPrefix. For example, consider the following scenario.
 
--   Registration: https://adatum.com:80/vroot/ by application 1 for User A.
--   A request for https://adatum.com:80/vroot/subdir/file.htm is delivered to application 1.
--   Reservation: https://+:80/vroot/subdir/ for User B.
--   A request for https://adatum.com:80/vroot/subdir/file.htm is now rejected.
--   Registration: https://adatum.com:80/vroot/subdir/ by application 2 for User B.
--   A request for https://adatum.com:80/vroot/subdir/file.htm is delivered to application 2.
+-   Registration: `https://adatum.com:80/vroot/` by application 1 for User A.
+-   A request for `https://adatum.com:80/vroot/subdir/file.htm` is delivered to application 1.
+-   Reservation: `https://+:80/vroot/subdir/` for User B.
+-   A request for `https://adatum.com:80/vroot/subdir/file.htm` is now rejected.
+-   Registration: `https://adatum.com:80/vroot/subdir/` by application 2 for User B.
+-   A request for `https://adatum.com:80/vroot/subdir/file.htm` is delivered to application 2.
 
  
 

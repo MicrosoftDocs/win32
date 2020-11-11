@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Trace logs containing debugging information can assist users in finding the root causes of issues that occur during the EAP authentication process. The debugging information can include API calls performed, internal function calls performed, and state transitions performed.
 
-Tracing can be enabled on both the client side and the authenticator side. Tracing can also be enabled for calls to the [Routing and Remote Access Service (RRAS)](https://docs.microsoft.com/windows/desktop/RRAS/routing-start-page) APIs. For more information, see [Tracing on the Routing and Remote Access Service](#tracing-on-the-routing-and-remote-access-service).
+Tracing can be enabled on both the client side and the authenticator side. Tracing can also be enabled for calls to the [Routing and Remote Access Service (RRAS)](/windows/desktop/RRAS/routing-start-page) APIs. For more information, see [Tracing on the Routing and Remote Access Service](#tracing-on-the-routing-and-remote-access-service).
 
 > [!Note]  
 > Trace logs are available in English only.
@@ -19,7 +19,7 @@ Tracing can be enabled on both the client side and the authenticator side. Traci
 
 When EAPHost tracing is enabled, logging information is stored in an .etl file in a user-specified location. If errors occur during EAP authentication, tracing generates an .etl file that can be sent to Microsoft Developer Support for root cause analysis. Partners that have access to Microsoft windows build shares, symbols, and traceformat files can convert the .etl files into a plain text file using the **tracerpt** tool.
 
-Network policy server (NPS) failures are not captured in the EAPHost logs. If you are trying to troubleshoot a NPS failure, view the IASSAM.LOG and [IASNAP.LOG](Http://go.microsoft.com/fwlink/p/?linkid=84108) files.
+Network policy server (NPS) failures are not captured in the EAPHost logs. If you are trying to troubleshoot a NPS failure, view the IASSAM.LOG and [IASNAP.LOG](https://go.microsoft.com/fwlink/p/?linkid=84108) files.
 
 ## Tracing on the Client
 
@@ -71,7 +71,7 @@ To disable RRAS tracing:
 1.  Open an elevated command prompt window.
 2.  Run the following command: **netsh** **ras** **set** **tr** **\*** **dis**
 
-For more information, see [Netsh Commands](Http://go.microsoft.com/fwlink/p/?linkid=84004).
+For more information, see [Netsh Commands](https://go.microsoft.com/fwlink/p/?linkid=84004).
 
 ## Related topics
 
@@ -80,13 +80,9 @@ For more information, see [Netsh Commands](Http://go.microsoft.com/fwlink/p/?lin
 [Using EAPHost](using-eap-host.md)
 </dt> <dt>
 
-[Routing and Remote Access Service (RRAS)](https://docs.microsoft.com/windows/desktop/RRAS/routing-start-page)
+[Routing and Remote Access Service (RRAS)](/windows/desktop/RRAS/routing-start-page)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -18,7 +18,7 @@ api_location:
 
 # IChain2::Status property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Chain Class**](https://msdn.microsoft.com/library/9bys9et1(v=VS.90).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Chain Class**](/dotnet/api/system.security.cryptography.x509certificates.x509chain?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
 
 The **Status** property retrieves the validity status of the chain or a specific certificate in the chain.
 
@@ -123,7 +123,7 @@ The revocation status of the certificate or one of the certificates in the certi
 
 </dt> <dd>
 
-One of the certificates in the chain was issued by a [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) that the original certificate had certified.
+One of the certificates in the chain was issued by a [*certification authority*](../secgloss/c-gly.md) that the original certificate had certified.
 
 </dd> <dt>
 
@@ -301,7 +301,3 @@ A CTL used to create this chain is not valid for this usage.
  
 
  
-
-
-
-

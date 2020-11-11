@@ -108,8 +108,8 @@ The EtwEventWriteFull function and the structures that it returns are internal t
 
 <dl> <dt>
 
-[EventWrite](https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite)
+[EventWrite](/windows/desktop/api/evntprov/nf-evntprov-eventwrite)
 </dt> <dt>
 
-[EventWriteEx](https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwriteex)
+[EventWriteEx](/windows/desktop/api/evntprov/nf-evntprov-eventwriteex)
 </dt></dl>

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Virtual machine generation identifier
 
-Windows 8 and Windows Server 2012 introduce the ability for software that is running on a virtual machine to detect that a time shift event may have occurred. Time shift events can occur as a result of an application of a virtual machine snapshot or the restoration of a virtual machine backup. For more information about this functionality, see the [Virtual Machine Generation ID white paper](http://download.microsoft.com/download/3/1/C/31CFC307-98CA-4CA5-914C-D9772691E214/VirtualMachineGenerationID.docx).
+Windows 8 and Windows Server 2012 introduce the ability for software that is running on a virtual machine to detect that a time shift event may have occurred. Time shift events can occur as a result of an application of a virtual machine snapshot or the restoration of a virtual machine backup. For more information about this functionality, see the [Virtual Machine Generation ID white paper](https://download.microsoft.com/download/3/1/C/31CFC307-98CA-4CA5-914C-D9772691E214/VirtualMachineGenerationID.docx).
 
 ## Prerequisites
 
@@ -77,7 +77,7 @@ To programmatically obtain the virtual machine generation identifier, perform th
 
     
 
-2.  Open a handle to the "\\\\.\\VmGenerationCounter" device using the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function. Alternatively, you can use the PnP manager to consume the device interface **GUID\_DEVINTERFACE\_VM\_GENCOUNTER** ({3ff2c92b-6598-4e60-8e1c-0ccf4927e319}). These objects will not be present if the app is not running in a virtual machine.
+2.  Open a handle to the "\\\\.\\VmGenerationCounter" device using the [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) function. Alternatively, you can use the PnP manager to consume the device interface **GUID\_DEVINTERFACE\_VM\_GENCOUNTER** ({3ff2c92b-6598-4e60-8e1c-0ccf4927e319}). These objects will not be present if the app is not running in a virtual machine.
 3.  Send the [**IOCTL\_VMGENCOUNTER\_READ**](/windows/desktop/api/Vmgenerationcounter/ni-vmgenerationcounter-ioctl_vmgencounter_read) IOCTL to the driver to retrieve the generation identifier.
 
     The [**IOCTL\_VMGENCOUNTER\_READ**](/windows/desktop/api/Vmgenerationcounter/ni-vmgenerationcounter-ioctl_vmgencounter_read) IOCTL operates in one of two modes, *polling*, and *event driven*.
@@ -218,6 +218,3 @@ After you have obtained the virtual machine generation identifier, you should st
  
 
  
-
-
-

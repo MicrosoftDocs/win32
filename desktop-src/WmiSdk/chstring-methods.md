@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # CHString Methods
 
-\[The [**CHString**](chstring.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The [**CHString**](chstring.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The [**CHString**](chstring.md) class exposes the following methods.
 
@@ -21,7 +21,7 @@ The [**CHString**](chstring.md) class exposes the following methods.
 -   [**Compare method**](/windows/desktop/api/ChString/nf-chstring-chstring-compare)
 -   [**CompareNoCase method**](/windows/desktop/api/ChString/nf-chstring-chstring-comparenocase)
 -   [**Empty method**](/windows/desktop/api/ChString/nf-chstring-chstring-empty)
--   [**Find methods**](/windows/desktop/api/ChString/nf-chstring-chstring-find)
+-   [**Find methods**](/windows/win32/api/chstring/nf-chstring-chstring-find(wchar))
 -   [**FindOneOf method**](/windows/desktop/api/ChString/nf-chstring-chstring-findoneof)
 -   [**Format methods**](/windows/desktop/api/ChString/nf-chstring-chstring-format(uint_---))
 -   [**FormatMessageW methods**](/windows/desktop/api/ChString/nf-chstring-chstring-formatmessagew(uint_---))
@@ -40,23 +40,23 @@ The [**CHString**](chstring.md) class exposes the following methods.
 -   [**MakeLower method**](/windows/desktop/api/ChString/nf-chstring-chstring-makelower)
 -   [**MakeReverse method**](/windows/desktop/api/ChString/nf-chstring-chstring-makereverse)
 -   [**MakeUpper method**](/windows/desktop/api/ChString/nf-chstring-chstring-makeupper)
--   [**Mid methods**](/windows/desktop/api/ChString/nf-chstring-chstring-mid)
--   [**operator\[\] method**](https://msdn.microsoft.com/library/Aa386162(v=VS.85).aspx)
+-   [**Mid methods**](/windows/win32/api/chstring/nf-chstring-chstring-mid(int))
+-   [**operator\[\] method**](/previous-versions/windows/desktop/legacy/aa386162(v=vs.85))
 -   [**CHString::operator+**](chstring--operator-plus.md)
 -   [**CHString::operator+=**](chstring--operator-plus-equal.md)
 -   [**CHString::operator=**](chstring--operator-equal.md)
--   [**operator==(constCHString&, constCHString&) method**](https://msdn.microsoft.com/library/Aa385641(v=VS.85).aspx)
--   [**operator==(constCHString&, constLPCWSTR&) method**](https://msdn.microsoft.com/library/Aa385645(v=VS.85).aspx)
--   [**operator>(constCHString&, constCHString&) method**](https://msdn.microsoft.com/library/Aa385665(v=VS.85).aspx)
--   [**operator>(constCHString&, constLPCWSTR&) method**](https://msdn.microsoft.com/library/Aa385672(v=VS.85).aspx)
--   [**operator>=(constCHString&, constCHString&) method**](https://msdn.microsoft.com/library/Aa385652(v=VS.85).aspx)
--   [**operator>=(constCHString&, constLPCWSTR&) method**](https://msdn.microsoft.com/library/Aa385661(v=VS.85).aspx)
--   [**operator<(constCHString&, constCHString&) method**](https://msdn.microsoft.com/library/Aa385689(v=VS.85).aspx)
--   [**operator<(constCHString&, constLPCWSTR&) method**](https://msdn.microsoft.com/library/Aa385695(v=VS.85).aspx)
--   [**operator<=(constCHString&, constCHString&) method**](https://msdn.microsoft.com/library/Aa385676(v=VS.85).aspx)
--   [**operator<=(constCHString&, constLPCWSTR&) method**](https://msdn.microsoft.com/library/Aa385683(v=VS.85).aspx)
--   [**operator!=(constCHString&, constCHString&) method**](https://msdn.microsoft.com/library/Aa385704(v=VS.85).aspx)
--   [**operator!=(constCHString&, constLPCWSTR&) method**](https://msdn.microsoft.com/library/Aa385763(v=VS.85).aspx)
+-   [**operator==(constCHString&, constCHString&) method**](/previous-versions/windows/desktop/legacy/aa385641(v=vs.85))
+-   [**operator==(constCHString&, constLPCWSTR&) method**](/previous-versions/windows/desktop/legacy/aa385645(v=vs.85))
+-   [**operator>(constCHString&, constCHString&) method**](/previous-versions/windows/desktop/legacy/aa385665(v=vs.85))
+-   [**operator>(constCHString&, constLPCWSTR&) method**](/previous-versions/windows/desktop/legacy/aa385672(v=vs.85))
+-   [**operator>=(constCHString&, constCHString&) method**](/previous-versions/windows/desktop/legacy/aa385652(v=vs.85))
+-   [**operator>=(constCHString&, constLPCWSTR&) method**](/previous-versions/windows/desktop/legacy/aa385661(v=vs.85))
+-   [**operator<(constCHString&, constCHString&) method**](/previous-versions/windows/desktop/legacy/aa385689(v=vs.85))
+-   [**operator<(constCHString&, constLPCWSTR&) method**](/previous-versions/windows/desktop/legacy/aa385695(v=vs.85))
+-   [**operator<=(constCHString&, constCHString&) method**](/previous-versions/windows/desktop/legacy/aa385676(v=vs.85))
+-   [**operator<=(constCHString&, constLPCWSTR&) method**](/previous-versions/windows/desktop/legacy/aa385683(v=vs.85))
+-   [**operator!=(constCHString&, constCHString&) method**](/previous-versions/windows/desktop/legacy/aa385704(v=vs.85))
+-   [**operator!=(constCHString&, constLPCWSTR&) method**](/previous-versions/windows/desktop/legacy/aa385763(v=vs.85))
 -   [**operator LPCWSTR method**](/windows/desktop/api/ChString/nf-chstring-chstring-operatorlpcwstr)
 -   [**ReleaseBuffer method**](/windows/desktop/api/ChString/nf-chstring-chstring-releasebuffer)
 -   [**ReverseFind method**](/windows/desktop/api/ChString/nf-chstring-chstring-reversefind)
@@ -71,6 +71,3 @@ The [**CHString**](chstring.md) class exposes the following methods.
  
 
  
-
-
-

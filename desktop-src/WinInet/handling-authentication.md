@@ -38,7 +38,7 @@ The following table lists authentication schemes, the authentication type, the D
 | NT LAN Manager (NTLM)                     | challenge-response | Winsspi.dll          | A challenge-response scheme that bases the challenge on the user name.                                                                                                                                                                                                                                                                             |
 | Microsoft Network (MSN)                   | challenge-response | Msnsspc.dll          | The Microsoft Network's authentication scheme.                                                                                                                                                                                                                                                                                                     |
 | Distributed Password Authentication (DPA) | challenge-response | Msapsspc.dll         | Similar to MSN authentication and is also used by the Microsoft Network.                                                                                                                                                                                                                                                                           |
-| Remote Passphrase Authentication (RPA)    | CompuServe         | Rpawinet.dll, da.dll | CompuServe authentication scheme. For more information, see the [RPA Mechanism Specifications](http://www.compuserve.com/rpa/rpa1.htm).                                                                                                                                                                                                    |
+| Remote Passphrase Authentication (RPA)    | CompuServe         | Rpawinet.dll, da.dll | CompuServe authentication scheme. For more information, see the [RPA Mechanism Specifications](https://www.compuserve.com/).                                                                                                                                                                                                    |
 
 
 
@@ -237,14 +237,10 @@ switch (dwStatus)
 
 
 > [!Note]  
-> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 
  
 
  
-
-
-
-

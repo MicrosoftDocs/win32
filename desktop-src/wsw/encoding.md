@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 Encoding is a transform between XML and a linear wire format. Decoding is the reverse transform.
 
-## 
 
 An encoding is identified using an [**WS\_ENCODING**](/windows/desktop/api/WebServices/ne-webservices-ws_encoding) constant.
 

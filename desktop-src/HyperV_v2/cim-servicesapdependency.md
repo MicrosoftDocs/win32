@@ -53,7 +53,7 @@ Data type: **CIM\_ServiceAccessPoint**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 The required service access point.
@@ -69,7 +69,7 @@ Data type: **CIM\_Service**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The service that is dependent on the SAP.
@@ -98,9 +98,4 @@ The service that is dependent on the SAP.
 </dt> </dl>
 
  
-
- 
-
-
-
 

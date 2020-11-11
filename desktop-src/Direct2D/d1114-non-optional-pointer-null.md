@@ -54,7 +54,7 @@ The name of the method that received the invalid parameter.
 
 ### Examples
 
-The following example shows that the [**FillGeometry**](https://msdn.microsoft.com/library/Dd371933(v=VS.85).aspx) method receives a NULL pointer for the non-optional *geometry* parameter.
+The following example shows that the [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) method receives a NULL pointer for the non-optional *geometry* parameter.
 
 
 ```C++
@@ -81,7 +81,3 @@ Ensure that a non-optional parameter does not have a NULL pointer.
  
 
  
-
-
-
-

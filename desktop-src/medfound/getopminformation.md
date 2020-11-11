@@ -72,7 +72,7 @@ Applications should call [**IOPMVideoOutput::GetInformation**](/windows/desktop/
 
 The protected output object must be created with OPM semantics. See [**CreateOPMProtectedOutputs**](createopmprotectedoutputs.md).
 
-This function has no associated import library. To call this function, you must use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Gdi32.dll.
+This function has no associated import library. To call this function, you must use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Gdi32.dll.
 
 ## Requirements
 
@@ -99,7 +99,3 @@ This function has no associated import library. To call this function, you must 
  
 
  
-
-
-
-

@@ -24,7 +24,7 @@ api_location:
 
 The **CAMEvent** class is a wrapper for manual-reset and auto-reset events.
 
-This class provides a convenient way to manage events, rather than calling functions such as [**CreateEvent**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa), [**WaitForSingleObject**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject), and [**ResetEvent**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-resetevent).
+This class provides a convenient way to manage events, rather than calling functions such as [**CreateEvent**](/windows/desktop/api/synchapi/nf-synchapi-createeventa), [**WaitForSingleObject**](/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject), and [**ResetEvent**](/windows/desktop/api/synchapi/nf-synchapi-resetevent).
 
 
 
@@ -57,9 +57,4 @@ This class provides a convenient way to manage events, rather than calling funct
 
 
  
-
- 
-
-
-
 

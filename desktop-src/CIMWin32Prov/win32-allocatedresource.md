@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_AllocatedResource class
 
-The **Win32\_AllocatedResource** association [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) relates a logical device to a system resource. This class is used to discover which resources, such as IRQs or DMA channels, are in use by a specific device.
+The **Win32\_AllocatedResource** association [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) relates a logical device to a system resource. This class is used to discover which resources, such as IRQs or DMA channels, are in use by a specific device.
 
 This class is obsolete. In place of this class, you should use the properties in the [**Win32\_PNPAllocatedResource**](win32-pnpallocatedresource.md) class.
 
@@ -58,7 +58,7 @@ Data type: **CIM\_SystemResource**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\|CIM\_SystemResource")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\|CIM\_SystemResource")
 </dt> </dl>
 
 A [**CIM\_SystemResource**](cim-systemresource.md) that describes the properties of a system resource available to the logical device.
@@ -74,7 +74,7 @@ Data type: **CIM\_LogicalDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\|CIM\_LogicalDevice")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\|CIM\_LogicalDevice")
 </dt> </dl>
 
 A [**CIM\_LogicalDevice**](cim-logicaldevice.md) that represents the properties of the logical device that is using the system resources assigned to it.
@@ -110,9 +110,4 @@ The **Win32\_AllocatedResource** class is derived from [**CIM\_Dependency**](cim
 </dt> </dl>
 
  
-
- 
-
-
-
 

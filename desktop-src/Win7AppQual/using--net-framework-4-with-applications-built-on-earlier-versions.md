@@ -10,15 +10,19 @@ ms.date: 05/31/2018
 
 ## Platform
 
-<dl> **Clients** - Windows XP \| Windows Vista \| Windows 7  
+ **Clients** - Windows XP \| Windows Vista \| Windows 7  
 **Servers** - Windows Server 2003 \| Windows Server 2008 \| Windows Server 2008 R2  
-</dl>
+
 
 ## Feature Impact
 
-<dl> **Severity** - Low  
+ **Severity** - Low  
 **Frequency** - High  
-</dl>
+
+
+
+
+
 
 ## Description
 
@@ -34,27 +38,24 @@ However, if the .NET Framework 4 is the only runtime version that is installed o
 
 ## Solution
 
-To run applications that are built with earlier .NET Framework versions with .NET Framework 4, you must compile your application to target the .NET Framework 4 version by specifying it in the properties for your project in Microsoft Visual Studio, or you can specify .NET Framework 4 in the [**<supportedRuntime> element**](https://msdn.microsoft.com/library/w4atty68(v=VS.71).aspx) in an application configuration file.
+To run applications that are built with earlier .NET Framework versions with .NET Framework 4, you must compile your application to target the .NET Framework 4 version by specifying it in the properties for your project in Microsoft Visual Studio, or you can specify .NET Framework 4 in the [**<supportedRuntime> element**](/previous-versions/dotnet/netframework-1.1/w4atty68(v=vs.71)) in an application configuration file.
 
-For more information about how to migrate to the .NET Framework 4, see [Migration Guide to the .NET Framework 4](https://msdn.microsoft.com/library/Ff657133(v=VS.100).aspx) and [Version Compatibility in the .NET Framework](https://msdn.microsoft.com/library/Ff602939(v=VS.100).aspx).
+For more information about how to migrate to the .NET Framework 4, see [Migration Guide to the .NET Framework 4](/previous-versions/dotnet/netframework-4.0/ff657133(v=vs.100)) and [Version Compatibility in the .NET Framework](/previous-versions/dotnet/netframework-4.0/ff602939(v=vs.100)).
 
 ## Compatibility Tests
 
-After you make the changes, test your application to make sure that it runs correctly. You can test compatibility as described in the [.NET Framework 4 Application Compatibility](https://msdn.microsoft.com/library/dd889541.aspx) topic.
+After you make the changes, test your application to make sure that it runs correctly. You can test compatibility as described in the [.NET Framework 4 Application Compatibility](/previous-versions/dd889541(v=msdn.10)) topic.
 
 If your application or component does not work after .NET Framework 4 is installed, submit a bug through the [Microsoft Connect](https://connect.microsoft.com/visualstudio) website.
 
 ## Links to Other Resources
 
--   [**<supportedRuntime> Element**](https://msdn.microsoft.com/library/w4atty68(v=VS.71).aspx)
--   [Migration Guide to the .NET Framework 4](https://msdn.microsoft.com/library/Ff657133(v=VS.100).aspx)
--   [Version Compatibility in the .NET Framework](https://msdn.microsoft.com/library/Ff602939(v=VS.100).aspx)
+-   [**<supportedRuntime> element**](/previous-versions/dotnet/netframework-1.1/w4atty68(v=vs.71))
+-   [Migration Guide to the .NET Framework 4](/previous-versions/dotnet/netframework-4.0/ff657133(v=vs.100))
+-   [Version Compatibility in the .NET Framework](/previous-versions/dotnet/netframework-4.0/ff602939(v=vs.100))
 -   **.NET Framework 4 RTM Application Compatibility Walkthrough:**<https://msdn.microsoft.com/library/dd889541.aspx>
 -   [Microsoft Connect](https://connect.microsoft.com/)
 
  
 
  
-
-
-

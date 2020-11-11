@@ -73,7 +73,7 @@ Windows Automation API 3.0 is a set of DLLs and API elements that enable Assisti
 
 Microsoft Active Accessibility (MSAA) and UI Automation are similar in that both provide a means for exposing and collecting information about user interface elements and controls to support user interface accessibility and software test automation. UI Automation is a Windows implementation of the UI Automation specification. It is a newer technology that addresses many of the limitations of MSAA.
 
-For more information about the Windows Automation API 3.0, see [Windows Automation API: Overview](https://docs.microsoft.com/windows/desktop/WinAuto/windows-automation-api-overview).
+For more information about the Windows Automation API 3.0, see [Windows Automation API: Overview](/windows/desktop/WinAuto/windows-automation-api-overview).
 
 The Platform Update for Windows Vista and the Platform Update for Windows Server 2008 support the following Windows Automation API 3.0:
 
@@ -131,7 +131,7 @@ Windows XP Professional with SP3 (x86)<br />
 
 Microsoft Active Accessibility (MSAA) is a legacy technology that was first introduced with Windows 95. It is a set of APIs that improves the way Assistive Technology (AT) products work with applications running on Microsoft Windows. The API provide programming interfaces and methods for exposing information about user interface elements.
 
-For more information about Microsoft Active Accessibility, see the [Technical Overview](https://docs.microsoft.com/windows/desktop/WinAuto/technical-overview).
+For more information about Microsoft Active Accessibility, see the [Technical Overview](/windows/desktop/WinAuto/technical-overview).
 
 ### Supported Microsoft Active Accessibility API Elements
 
@@ -141,7 +141,7 @@ All APIs are supported on previous versions of Windows that are eligible for the
 
 UI Automation is a newer technology that implements the UI Automation specification and addresses many of the limitations of Microsoft Active Accessibility. It is a set of APIs that provides programmatic access to the user interface elements of applications. The provided API help Assistive Technology products and automated testing tools access, identify, and manipulate the standard and custom UI elements of an application.
 
-For more information about UI Automation, see [Windows Automation API: UI Automation](https://msdn.microsoft.com/library/Ee684009(v=VS.85).aspx).
+For more information about UI Automation, see [Windows Automation API: UI Automation](../winauto/entry-uiauto-win32.md).
 
 ### Supported UI Automation API Elements
 
@@ -203,7 +203,7 @@ Ultimate with SP2 (x86 and amd64)<br />
 
 The Direct2D API is a new hardware-accelerated, immediate-mode 2-D graphics API that provides high performance and high quality rendering for 2-D geometry, bitmaps, and text. The Direct2D API is designed to interoperate well with existing code that uses GDI, GDI+, or Direct3D.
 
-For more information about Direct2D, see [About Direct2D](https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-overview).
+For more information about Direct2D, see [About Direct2D](/windows/desktop/Direct2D/direct2d-overview).
 
 ### Supported Direct2D API Elements
 
@@ -217,9 +217,9 @@ If the WDDM 1.1 driver is missing on Windows Vista, the performance of Direct2D
 
 The Platform Update for Windows Vista provides BGRA surface support for Direct3D10 and Direct3D10.1 code-paths. Direct3D10Level9 enables Direct3D10 functionality to work on Direct3D9 hardware. Direct3D WARP10 is a performant software rasterizer for Direct3D10 applications. Direct3D11, the latest version of Direct3D, provides new capabilities such as improved multithreading support, tessellation, DirectCompute functionality, and dynamic shader linkage.
 
-If you create applications that use Direct3D, the [DirectX SDK](https://msdn.microsoft.com/directx/aa937788.aspx) (http://msdn.microsoft.com/en-us/directx/aa937788.aspx) is required.
+If you create applications that use Direct3D, the [DirectX SDK](/previous-versions/windows/apps/hh452744(v=win.10)) (http://msdn.microsoft.com/directx/aa937788.aspx) is required.
 
-For more information about Direct3D, see [Direct3D](https://msdn.microsoft.com/directx/default.aspx) (http://msdn.microsoft.com/en-us/directx/default.aspx).
+For more information about Direct3D, see [Direct3D](/previous-versions/windows/apps/hh452744(v=win.10)) (http://msdn.microsoft.com/directx/default.aspx).
 
 ### Supported Direct3D API Elements
 
@@ -229,7 +229,7 @@ All APIs are supported on previous versions of Windows that are eligible for the
 
 The DirectWrite API is a new text API that provides multiple layers of functionality, including text layout, script processing, glyph rendering, and the font system. DirectWrite uses OpenType fonts and sub-pixel ClearType rendering to enhance the text experience provided by applications. Text rendering is hardware-accelerated when used with Direct2D.
 
-For more information about DirectWrite, see [Introducing DirectWrite](https://docs.microsoft.com/windows/desktop/DirectWrite/introducing-directwrite).
+For more information about DirectWrite, see [Introducing DirectWrite](/windows/desktop/DirectWrite/introducing-directwrite).
 
 ### Supported DirectWrite API Elements
 
@@ -248,7 +248,7 @@ The following behavioral issues may affect the use of DirectWrite API on previou
 
 The Platform Update for Windows Vista supports a limited subset of the Packaging APIs that are needed to perform tasks with the XPS Document API in unmanaged applications.
 
-For more information about Packaging APIs, please see the [Packaging API Overview](https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview).
+For more information about Packaging APIs, please see the [Packaging API Overview](/previous-versions/windows/desktop/opc/packaging-api-overview).
 
 ### Supported Packaging API Elements
 
@@ -267,13 +267,13 @@ Supported Packaging APIs can be used to create streams over files as well as to 
 
 The behavior and performance of supported Packaging interfaces and methods are the same on all supported platforms.
 
-If an application attempts to instantiate or call an unsupported Packaging interface or method, the attempt will fail. If the call is to an unsupported [**IOpcFactory**](https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcfactory) method, the E\_NOTIMPL error code will be returned.
+If an application attempts to instantiate or call an unsupported Packaging interface or method, the attempt will fail. If the call is to an unsupported [**IOpcFactory**](/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcfactory) method, the E\_NOTIMPL error code will be returned.
 
 ### Windows Imaging Component
 
 New features for the Windows Imaging Component (WIC) include enhanced security, support for high color, and better metadata interoperability. In addition, the Windows Imaging Component broadens its standards compliance by providing support for progressive image decoding, expanded PNG features, GIF metadata, , HD Photo updates, and metadata that spans APPn segments.
 
-For more information about the Windows Imaging Component, see the [Windows Imaging Component Overview](https://docs.microsoft.com/windows/desktop/wic/-wic-about-windows-imaging-codec).
+For more information about the Windows Imaging Component, see the [Windows Imaging Component Overview](/windows/desktop/wic/-wic-about-windows-imaging-codec).
 
 ### Supported WIC API Elements
 
@@ -283,17 +283,17 @@ All APIs are supported on previous versions of Windows that are eligible for the
 
 The XPS Document APIs support the creating, modifying, and saving of XPS Documents in unmanaged applications
 
-For more information about XPS Document APIs, please see the [XPS Document Programming Guide.](https://msdn.microsoft.com/library/Dd372978(v=VS.85).aspx)
+For more information about XPS Document APIs, please see the [XPS Document Programming Guide.](/previous-versions//dd372978(v=vs.85))
 
 ### Supported XPS Document API Elements
 
-Only the [XPS Digital Signatures](https://docs.microsoft.com/previous-versions/windows/desktop/dd372947(v=vs.85)) interfaces are not supported on down-level OS versions.
+Only the [XPS Digital Signatures](/previous-versions/windows/desktop/dd372947(v=vs.85)) interfaces are not supported on down-level OS versions.
 
 ### XPS Print
 
 The XPS Print APIs support the printing of XPS documents from Windows-based applications.
 
-For more information about XPS Print APIs, please see the [XpsPrint API](https://docs.microsoft.com/windows/desktop/printdocs/xpsprint-api).
+For more information about XPS Print APIs, please see the [XpsPrint API](/windows/desktop/printdocs/xpsprint-api).
 
 ### Supported XPS Print API Elements
 
@@ -348,7 +348,7 @@ The Windows Ribbon (Ribbon) framework is a rich command presentation system that
 
 The framework is a collection of Microsoft Win32 APIs that provide a host of new user interface capabilities for Windows developers and includes both the Ribbon and a context menu system.
 
-For more information about the Ribbon framework, see [Introducing the Windows Ribbon Framework](https://msdn.microsoft.com/library/Dd316910(v=VS.85).aspx).
+For more information about the Ribbon framework, see [Introducing the Windows Ribbon Framework](../windowsribbon/windowsribbon-introduction.md).
 
 ### Supported Ribbon Framework API Elements
 
@@ -360,7 +360,7 @@ The Windows Animation Manager (Windows Animation) is a programmatic interface th
 
 Windows Animation is a single-threaded COM API that provides everything a developer needs to create, manage, and drive UI animation.
 
-For more information about the Windows Animation Manager, see [Introducing Windows Animation](https://docs.microsoft.com/windows/desktop/UIAnimation/introducing-windows-animation-manager).
+For more information about the Windows Animation Manager, see [Introducing Windows Animation](/windows/desktop/UIAnimation/introducing-windows-animation-manager).
 
 ### Supported Animation Manager API Elements
 
@@ -370,7 +370,7 @@ All APIs are supported on previous versions of Windows that are eligible for the
 
 The Platform Update for Windows Vista supports the Windows 7 extensions to the Windows Portable Devices (WPD) platform. This feature enables computers to communicate with attached media and storage devices. WPD provides a flexible, robust way for computers to communicate with digital cameras, music players, mobile phones, and many other types of connected devices.
 
-For more information about Windows Portable Devices, see [Windows Portable Devices](https://docs.microsoft.com/windows-hardware/drivers/portable/) (https://docs.microsoft.com/windows-hardware/drivers/portable/).
+For more information about Windows Portable Devices, see [Windows Portable Devices](/windows-hardware/drivers/portable/) (https://docs.microsoft.com/windows-hardware/drivers/portable/).
 
 ### Windows Editions Eligible for the Updates
 
@@ -422,7 +422,7 @@ The following table identifies the features that are supported for the Windows 
 
  
 
-For editions of Windows 7 and Windows Vista that do not have Microsoft Windows Media Player installed by default (the N and KN editions), you must install the [Windows Media Format 11 SDK]( http://msdn.microsoft.com/en-us/windows/bb190326.aspx) (http://msdn.microsoft.com/en-us/windows/bb190326.aspx) to enable WPD functionality. For more information, see the [Knowledge Base article](https://support.microsoft.com/kb/953693) (https://go.microsoft.com/fwlink/p/?linkid=158715), which was originally published as a resolution for Windows Vista.
+For editions of Windows 7 and Windows Vista that do not have Microsoft Windows Media Player installed by default (the N and KN editions), you must install the [Windows Media Format 11 SDK]( ../audio-and-video.md) (http://msdn.microsoft.com/windows/bb190326.aspx) to enable WPD functionality. For more information, see the [Knowledge Base article](https://support.microsoft.com/kb/953693) (https://go.microsoft.com/fwlink/p/?linkid=158715), which was originally published as a resolution for Windows Vista.
 
 ## Related topics
 
@@ -443,7 +443,3 @@ For editions of Windows 7 and Windows Vista that do not have Microsoft Windows
  
 
  
-
-
-
-

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Terminal Services GINA Functions
 
-When Terminal Services are enabled, the [*GINA*](https://msdn.microsoft.com/library/ms721584(v=VS.85).aspx) must call [*Winlogon*](https://msdn.microsoft.com/library/ms721635(v=VS.85).aspx) support functions to complete the setup for each user, to query the [*credentials*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) of a Terminal Services client session, and to disconnect from a Terminal Services network session.
+When Terminal Services are enabled, the [*GINA*](../secgloss/g-gly.md) must call [*Winlogon*](../secgloss/w-gly.md) support functions to complete the setup for each user, to query the [*credentials*](../secgloss/c-gly.md) of a Terminal Services client session, and to disconnect from a Terminal Services network session.
 
 > [!Note]  
 > GINA DLLs are ignored in Windows Vista.
@@ -21,11 +21,11 @@ These support functions include the following.
 
 | Function                                                                     | Description                                                                                         |
 |------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| [**WlxWin31Migrate**](https://msdn.microsoft.com/library/Aa381090(v=VS.85).aspx)                                   | Completes the setup of the user.                                                                    |
-| [**WlxQueryClientCredentials**](https://msdn.microsoft.com/library/Aa380576(v=VS.85).aspx)               | Called to query the credentials of remote clients that are not using an Internet connector license. |
-| [**WlxQueryInetConnectorCredentials**](https://msdn.microsoft.com/library/Aa380578(v=VS.85).aspx) | Called to query the credentials of remote clients that are using an Internet connector license.     |
-| [**WlxQueryTerminalServicesData**](https://msdn.microsoft.com/library/Aa380579(v=VS.85).aspx)         | Called to retrieve Terminal Services user configuration information.                                |
-| [**WlxDisconnect**](https://msdn.microsoft.com/library/Aa380559(v=VS.85).aspx)                                       | Called to disconnect from a Terminal Services network session.                                      |
+| [**WlxWin31Migrate**](/windows/win32/api/winwlx/nc-winwlx-pwlx_win31_migrate)                                   | Completes the setup of the user.                                                                    |
+| [**WlxQueryClientCredentials**](/windows/win32/api/winwlx/nc-winwlx-pwlx_query_client_credentials)               | Called to query the credentials of remote clients that are not using an Internet connector license. |
+| [**WlxQueryInetConnectorCredentials**](/windows/win32/api/winwlx/nc-winwlx-pwlx_query_ic_credentials) | Called to query the credentials of remote clients that are using an Internet connector license.     |
+| [**WlxQueryTerminalServicesData**](/windows/win32/api/winwlx/nc-winwlx-pwlx_query_terminal_services_data)         | Called to retrieve Terminal Services user configuration information.                                |
+| [**WlxDisconnect**](/windows/win32/api/winwlx/nc-winwlx-pwlx_disconnect)                                       | Called to disconnect from a Terminal Services network session.                                      |
 
 
 
@@ -36,6 +36,3 @@ In order to access these Winlogon support functions, the GINA DLL must use the [
  
 
  
-
-
-

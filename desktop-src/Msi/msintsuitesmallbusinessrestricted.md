@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MsiNTSuiteSmallBusinessRestricted property
 
-On Windows 2000 and later operating systems, the installer sets the **MsiNTSuiteSmallBusinessRestricted** property to 1 if Microsoft Small Business Server is installed with the restrictive client license in force. The installer sets this property to 1 only if the VER\_SUITE\_SMALLBUSINESS\_RESTRICTED flag is set in the [**OSVERSIONINFOEX**](https://msdn.microsoft.com/library/ms724833(v=VS.85).aspx) structure. Otherwise the installer does not set this property.
+On Windows 2000 and later operating systems, the installer sets the **MsiNTSuiteSmallBusinessRestricted** property to 1 if Microsoft Small Business Server is installed with the restrictive client license in force. The installer sets this property to 1 only if the VER\_SUITE\_SMALLBUSINESS\_RESTRICTED flag is set in the [**OSVERSIONINFOEX**](/windows/win32/api/winnt/ns-winnt-osversioninfoexa) structure. Otherwise the installer does not set this property.
 
 ## Requirements
 
@@ -30,7 +30,3 @@ On Windows 2000 and later operating systems, the installer sets the **MsiNTSuit
  
 
  
-
-
-
-

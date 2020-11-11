@@ -36,7 +36,7 @@ To access the packaging and deployment event logs by using **Event Viewer**, fol
 
 Start by looking at the logs under **AppXDeployment-Server**. If the error was caused by **0x80073CF0** or **ERROR_INSTALL_OPEN_PACKAGE_FAILED**, additional details may be present in the **AppxpackagingOM** logs.
 
-You can also use the [Get-AppxLog](https://docs.microsoft.com/powershell/module/appx/get-appxlog) command in PowerShell to get the first few logged events. The following example displays the logs associated with the most recent deployment operation.
+You can also use the [Get-AppxLog](/powershell/module/appx/get-appxlog) command in PowerShell to get the first few logged events. The following example displays the logs associated with the most recent deployment operation.
 
 ```PowerShell
 Get-Appxlog
@@ -136,7 +136,7 @@ For more informtion, check the <strong>AppXDeployment-Server</strong> event log.
 <tr class="even">
 <td><strong>ERROR_REMOVE_FAILED</strong></td>
 <td>0x80073CFA</td>
-<td>Package removal failed.<br/> You may get this error for failures that occur during package uninstall.<br/> For more information, see <a href="https://docs.microsoft.com/uwp/api/windows.management.deployment.packagemanager.removepackageasync"><strong>RemovePackageAsync</strong></a>.<br/></td>
+<td>Package removal failed.<br/> You may get this error for failures that occur during package uninstall.<br/> For more information, see <a href="/uwp/api/windows.management.deployment.packagemanager.removepackageasync"><strong>RemovePackageAsync</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>ERROR_PACKAGE_</strong><br/> <strong>ALREADY_EXISTS</strong><br/></td>
@@ -181,7 +181,7 @@ For more informtion, check the <strong>AppXDeployment-Server</strong> event log.
 <li>Package deployment is blocked by Application Control Policies.</li>
 <li>Package deployment is blocked by the &quot;Allow deployment operations in special profiles&quot; policy.</li>
 </ul>
-One of the possible reasons is a need for a roaming profile. For information about setting up Roaming User Profiles on user accounts, see <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj649079(v=ws.11)">Deploy Roaming User Profiles</a>. If there are no policies configured on your system and you still see this error, perhaps you are logged in with a temporary profile. Log out and log in again, then try the operation again.<br/></td>
+One of the possible reasons is a need for a roaming profile. For information about setting up Roaming User Profiles on user accounts, see <a href="/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj649079(v=ws.11)">Deploy Roaming User Profiles</a>. If there are no policies configured on your system and you still see this error, perhaps you are logged in with a temporary profile. Log out and log in again, then try the operation again.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_PACKAGES_IN_USE</strong></td>
@@ -201,7 +201,7 @@ One of the possible reasons is a need for a roaming profile. For information abo
 <tr class="odd">
 <td><strong>ERROR_DELETING_EXISTING_</strong><br/> <strong>APPLICATIONDATA_STORE_FAILED</strong><br/></td>
 <td>0x80073D05</td>
-<td>An error occurred while deleting the package's previously existing application data.<br/> You can get this error if the <a href="https://docs.microsoft.com/previous-versions/hh441475(v=vs.110)">simulator</a> is running. Close the simulator. You can also get this error if there are files open in the app data (for example, if you have a log file open in a text editor).<br/></td>
+<td>An error occurred while deleting the package's previously existing application data.<br/> You can get this error if the <a href="/previous-versions/hh441475(v=vs.110)">simulator</a> is running. Close the simulator. You can also get this error if there are files open in the app data (for example, if you have a log file open in a text editor).<br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_INSTALL_</strong><br/> <strong>PACKAGE_DOWNGRADE</strong><br/></td>
@@ -311,12 +311,12 @@ One of the possible reasons is a need for a roaming profile. For information abo
 <tr class="odd">
 <td><strong>ERROR_PACKAGES_REPUTATION_</strong><br/> <strong>CHECK_FAILED</strong><br/></td>
 <td>0x80073D1B</td>
-<td>The packages failed the <a href="https://docs.microsoft.com/windows/security/threat-protection/windows-defender-smartscreen/windows-defender-smartscreen-overview">SmartScreen reputation check</a>.<br/></td>
+<td>The packages failed the <a href="/windows/security/threat-protection/windows-defender-smartscreen/windows-defender-smartscreen-overview">SmartScreen reputation check</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_PACKAGES_REPUTATION_</strong><br/> <strong>CHECK_TIMEDOUT</strong><br/></td>
 <td>0x80073D1C</td>
-<td>The <a href="https://docs.microsoft.com/windows/security/threat-protection/windows-defender-smartscreen/windows-defender-smartscreen-overview">SmartScreen reputation check</a> operation timed out.<br/></td>
+<td>The <a href="/windows/security/threat-protection/windows-defender-smartscreen/windows-defender-smartscreen-overview">SmartScreen reputation check</a> operation timed out.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>ERROR_DEPLOYMENT_OPTION_</strong><br/> <strong>NOT_SUPPORTED</strong><br/></td>
@@ -356,7 +356,7 @@ One of the possible reasons is a need for a roaming profile. For information abo
 <tr class="even">
 <td><strong>ERROR_DEPLOYMENT_FAILED_</strong><br/> <strong>CONFLICTING_MUTABLE_PACKAGE_</strong><br/> <strong>DIRECTORY</strong><br/></td>
 <td>0x80073D24</td>
-<td>The deployment operation failed due to a conflicting package's <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-mutablepackagedirectory">mutable package directory</a>. To install this package, remove the existing package with the conflicting mutable package directory.<br/></td>
+<td>The deployment operation failed due to a conflicting package's <a href="/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-mutablepackagedirectory">mutable package directory</a>. To install this package, remove the existing package with the conflicting mutable package directory.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>ERROR_SINGLETON_RESOURCE_</strong><br/> <strong>INSTALLED_IN_ACTIVE_USER</strong><br/></td>
@@ -471,22 +471,22 @@ If the package contains \AppxMetadata\CodeIntegrity.cat, it must also contain \A
 <tr class="odd">
 <td><strong>CERT_E_UNTRUSTEDROOT</strong></td>
 <td>0x800B0109</td>
-<td>A certificate chain processed, but terminated in a root certificate which isn't trusted by the trust provider.<br/> See <a href="https://docs.microsoft.com/previous-versions/br230260(v=vs.110)">Signing a package</a>.<br/></td>
+<td>A certificate chain processed, but terminated in a root certificate which isn't trusted by the trust provider.<br/> See <a href="/previous-versions/br230260(v=vs.110)">Signing a package</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>CERT_E_CHAINING</strong></td>
 <td>0x800B010A</td>
-<td>A certificate chain couldn't be built to a trusted root certification authority.<br/> See <a href="https://docs.microsoft.com/previous-versions/br230260(v=vs.110)">Signing a package</a>.<br/></td>
+<td>A certificate chain couldn't be built to a trusted root certification authority.<br/> See <a href="/previous-versions/br230260(v=vs.110)">Signing a package</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>APPX_E_INVALID_</strong> <br/> <strong>SIP_CLIENT_DATA</strong> <br/></td>
 <td>0x80080209</td>
-<td>The <a href="https://docs.microsoft.com/windows/win32/api/mssip/ns-mssip-sip_subjectinfo"><strong>SIP_SUBJECTINFO</strong></a>structure used to sign the package didn't contain the required data<br/></td>
+<td>The <a href="/windows/win32/api/mssip/ns-mssip-sip_subjectinfo"><strong>SIP_SUBJECTINFO</strong></a>structure used to sign the package didn't contain the required data<br/></td>
 </tr>
 <tr class="even">
 <td><strong>APPX_E_INVALID_</strong> <br/> <strong>KEY_INFO</strong> <br/></td>
 <td>0x8008020A</td>
-<td>The <a href="https://docs.microsoft.com/windows/win32/api/appxpackaging/ns-appxpackaging-appx_key_info"><strong>APPX_KEY_INFO</strong></a> structure used to encrypt or decrypt the package contains invalid data.<br/></td>
+<td>The <a href="/windows/win32/api/appxpackaging/ns-appxpackaging-appx_key_info"><strong>APPX_KEY_INFO</strong></a> structure used to encrypt or decrypt the package contains invalid data.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>APPX_E_INVALID_</strong><br/> <strong>CONTENTGROUPMAP</strong><br/></td>
@@ -496,7 +496,7 @@ If the package contains \AppxMetadata\CodeIntegrity.cat, it must also contain \A
 <tr class="even">
 <td><strong>APPX_E_INVALID_</strong><br/> <strong>APPINSTALLER</strong><br/></td>
 <td>0x8008020C</td>
-<td>The <a href="https://docs.microsoft.com/windows/msix/app-installer/app-installer-root">.appinstaller file</a> for the package is invalid.<br/></td>
+<td>The <a href="/windows/msix/app-installer/app-installer-root">.appinstaller file</a> for the package is invalid.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>APPX_E_DELTA_BASELINE_</strong><br/> <strong>VERSION_MISMATCH</strong><br/></td>

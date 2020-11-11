@@ -35,7 +35,7 @@ The syntax for declaring output registers is similar to the declarations for the
 
 Where:
 
--   dcl\_semantics can use the same set of semantics as for the input declaration. Semantic names come from [**D3DDECLUSAGE**](https://docs.microsoft.com/windows/desktop/direct3d9/d3ddeclusage) (and are paired with an index, such as position3). There always has to be one output register with the positiont0 semantic when not used for processing vertices. The positiont0 semantic and the pointsize0 semantic are the only ones that have meaning beyond simply allowing linkage from vertex to pixel shaders. For shaders with flow control, it is assumed that the worst case output is declared. There are no defaults if a shader does not actually output what it declares it should (due to flow control).
+-   dcl\_semantics can use the same set of semantics as for the input declaration. Semantic names come from [**D3DDECLUSAGE**](/windows/desktop/direct3d9/d3ddeclusage) (and are paired with an index, such as position3). There always has to be one output register with the positiont0 semantic when not used for processing vertices. The positiont0 semantic and the pointsize0 semantic are the only ones that have meaning beyond simply allowing linkage from vertex to pixel shaders. For shaders with flow control, it is assumed that the worst case output is declared. There are no defaults if a shader does not actually output what it declares it should (due to flow control).
 -   o is an output register. See [Output\_Registers](dx9-graphics-reference-asm-vs-registers-vs-3-0.md).
 -   write\_mask indicates the same output register that can be declared multiple times (so different semantics can be applied to individual components), each time with a unique write mask. However, the same semantic cannot be used multiple times in a declaration. This means that vectors must be four components or less, and cannot go across four-component register boundaries (individual registers). When the point-size semantic is used, it should have full write mask because it is considered a scalar. When the position semantic is used, it should have a full write mask because all four components have to be written.
 
@@ -88,7 +88,3 @@ dcl_psize      o6      // Pointsize cannot have a mask
  
 
  
-
-
-
-

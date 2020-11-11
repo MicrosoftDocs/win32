@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # WM\_CHARTOITEM message
 
-Sent by a list box with the [**LBS\_WANTKEYBOARDINPUT**](list-box-styles.md) style to its owner in response to a [**WM\_CHAR**](https://docs.microsoft.com/windows/desktop/inputdev/wm-char) message.
+Sent by a list box with the [**LBS\_WANTKEYBOARDINPUT**](list-box-styles.md) style to its owner in response to a [**WM\_CHAR**](/windows/desktop/inputdev/wm-char) message.
 
 
 ```C++
@@ -37,7 +37,7 @@ WM_CHARTOITEM
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the character code of the key the user pressed. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the current position of the caret.
+The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the character code of the key the user pressed. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the current position of the caret.
 
 </dd> <dt>
 
@@ -54,11 +54,11 @@ The return value specifies the action that the application performed in response
 
 ## Remarks
 
-The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function returns  1.
+The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function returns  1.
 
 Only owner-drawn list boxes that do not have the [**LBS\_HASSTRINGS**](list-box-styles.md) style can receive this message.
 
-If a dialog box procedure handles this message, it should cast the desired return value to a **BOOL** and return the value directly. The *DWL\_MSGRESULT* value set by the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function is ignored.
+If a dialog box procedure handles this message, it should cast the desired return value to a **BOOL** and return the value directly. The *DWL\_MSGRESULT* value set by the [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function is ignored.
 
 ## Requirements
 
@@ -85,23 +85,17 @@ If a dialog box procedure handles this message, it should cast the desired retur
 **Other Resources**
 </dt> <dt>
 
-[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
 </dt> <dt>
 
-[**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
+[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
 </dt> <dt>
 
-[**WM\_CHAR**](https://docs.microsoft.com/windows/desktop/inputdev/wm-char)
+[**WM\_CHAR**](/windows/desktop/inputdev/wm-char)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -68,7 +68,7 @@ If an application receives a [**WM\_INITMENUPOPUP**](wm-initmenupopup.md) messag
 **Reference**
 </dt> <dt>
 
-[**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
 </dt> <dt>
 
 **Conceptual**
@@ -78,10 +78,4 @@ If an application receives a [**WM\_INITMENUPOPUP**](wm-initmenupopup.md) messag
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

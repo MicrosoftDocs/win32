@@ -52,7 +52,7 @@ The name of the value to be set. If a value with this name is not already presen
 
 If *lpValueName* is **NULL** or an empty string, "", the function sets the type and data for the key's unnamed or default value.
 
-For more information, see [Registry Element Size Limits](https://msdn.microsoft.com/library/ms724872.aspx).
+For more information, see [Registry Element Size Limits](../sysinfo/registry-element-size-limits.md).
 
 Registry keys do not have default values, but they can have one unnamed value, which can be of any type.
 
@@ -61,7 +61,7 @@ Registry keys do not have default values, but they can have one unnamed value, w
 *dwType* \[in\]
 </dt> <dd>
 
-The type of data pointed to by the *lpData* parameter. For a list of the possible types, see [Registry Value Types](https://msdn.microsoft.com/library/ms724884.aspx).
+The type of data pointed to by the *lpData* parameter. For a list of the possible types, see [Registry Value Types](../sysinfo/registry-value-types.md).
 
 </dd> <dt>
 
@@ -85,7 +85,7 @@ The size of the information pointed to by the *lpData* parameter, in bytes. If t
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](https://msdn.microsoft.com/library/ms679351.aspx) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
+If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](/windows/win32/api/winbase/nf-winbase-formatmessage) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
 
 ## Remarks
 
@@ -116,7 +116,3 @@ Value sizes are limited by available memory. Long values (more than 2048 bytes) 
  
 
  
-
-
-
-

@@ -18,9 +18,9 @@ api_location:
 
 # GetSecurityDescriptor method of the Win32\_Printer class
 
-The **GetSecurityDescriptor** method returns the security descriptor that controls access to the printer. The descriptor is returned as an instance of [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor). For more information, see [Changing Access Security on Securable Objects](https://docs.microsoft.com/windows/desktop/WmiSdk/changing-access-security-on-securable-objects).
+The **GetSecurityDescriptor** method returns the security descriptor that controls access to the printer. The descriptor is returned as an instance of [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor). For more information, see [Changing Access Security on Securable Objects](/windows/desktop/WmiSdk/changing-access-security-on-securable-objects).
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -46,7 +46,7 @@ The security descriptor associated with the printer.
 
 ## Return value
 
-Returns one of the values listed in the following list, or a different value to indicate an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+Returns one of the values listed in the following list, or a different value to indicate an error. For additional error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -87,13 +87,13 @@ A parameter specified in the method call is not valid.
 
 ## Remarks
 
-The [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) instance represents a [**SECURITY\_DESCRIPTOR\_CONTROL**](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control) data type and contains a [*discretionary access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DACL) and a [*system access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SACL). For more information, see [Access Control Lists](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists).
+The [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) instance represents a [**SECURITY\_DESCRIPTOR\_CONTROL**](/windows/desktop/SecAuthZ/security-descriptor-control) data type and contains a [*discretionary access control list*](/windows/desktop/SecGloss/d-gly) (DACL) and a [*system access control list*](/windows/desktop/SecGloss/s-gly) (SACL). For more information, see [Access Control Lists](/windows/desktop/SecAuthZ/access-control-lists).
 
-If the **SeSecurityPrivilege** is not granted or enabled when getting a security descriptor, then only the DACL is returned in the returned security descriptor. For more information, see [**Privilege Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/privilege-constants) and [Executing Privileged Operations](https://docs.microsoft.com/windows/desktop/WmiSdk/executing-privileged-operations).
+If the **SeSecurityPrivilege** is not granted or enabled when getting a security descriptor, then only the DACL is returned in the returned security descriptor. For more information, see [**Privilege Constants**](/windows/desktop/WmiSdk/privilege-constants) and [Executing Privileged Operations](/windows/desktop/WmiSdk/executing-privileged-operations).
 
 ## Examples
 
-The following VBScript code example lists the printers attached to the local computer and gets the security descriptor for each printer. Then the [*access control entries*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACE) in the [*discretionary access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DACL) are extracted to determine which users have access to the printer.
+The following VBScript code example lists the printers attached to the local computer and gets the security descriptor for each printer. Then the [*access control entries*](/windows/desktop/SecGloss/a-gly) (ACE) in the [*discretionary access control list*](/windows/desktop/SecGloss/d-gly) (DACL) are extracted to determine which users have access to the printer.
 
 
 ```VB
@@ -160,19 +160,14 @@ Next
 [**Win32\_Printer**](win32-printer.md)
 </dt> <dt>
 
-[**Privilege Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/privilege-constants)
+[**Privilege Constants**](/windows/desktop/WmiSdk/privilege-constants)
 </dt> <dt>
 
-[WMI Security Descriptor Objects](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-security-descriptor-objects)
+[WMI Security Descriptor Objects](/windows/desktop/WmiSdk/wmi-security-descriptor-objects)
 </dt> <dt>
 
-[Changing Access Security on Securable Objects](https://docs.microsoft.com/windows/desktop/WmiSdk/changing-access-security-on-securable-objects)
+[Changing Access Security on Securable Objects](/windows/desktop/WmiSdk/changing-access-security-on-securable-objects)
 </dt> </dl>
 
  
-
- 
-
-
-
 

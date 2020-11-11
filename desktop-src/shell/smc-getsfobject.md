@@ -58,7 +58,7 @@ This notification is received by the [**IShellMenuCallback::CallbackSM**](/windo
 
 The following interfaces may be requested.
 
--   [**IStream**](https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx)
+-   [**IStream**](/windows/win32/api/objidl/nn-objidl-istream)
 -   [**IShellMenu**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenu)
 -   [**IShellMenuCallback**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenucallback)
 
@@ -78,7 +78,3 @@ The following interfaces may be requested.
  
 
  
-
-
-
-

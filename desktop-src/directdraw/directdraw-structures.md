@@ -19,10 +19,10 @@ This section contains information about the following structures used with Direc
 -   [**DDGAMMARAMP**](/windows/desktop/api/Ddraw/ns-ddraw-ddgammaramp)
 -   [**DDOVERLAYFX**](/windows/desktop/api/Ddraw/ns-ddraw-ddoverlayfx)
 -   [**DDPIXELFORMAT**](/windows/desktop/api/Ddraw/ns-ddraw-ddpixelformat)
--   [**DDSCAPS**](/windows/desktop/api/Ddraw/ns-ddraw-_ddscaps)
--   [**DDSCAPS2**](/windows/desktop/api/Ddraw/ns-ddraw-_ddscaps2)
--   [**DDSURFACEDESC**](/windows/desktop/api/Ddraw/ns-ddraw-_ddsurfacedesc)
--   [**DDSURFACEDESC2**](/windows/desktop/api/Ddraw/ns-ddraw-_ddsurfacedesc2)
+-   [**DDSCAPS**](/previous-versions/ms783271(v=vs.85))
+-   [**DDSCAPS2**](/previous-versions/bb943980(v=vs.85))
+-   [**DDSURFACEDESC**](/previous-versions/ms783272(v=vs.85))
+-   [**DDSURFACEDESC2**](/previous-versions/bb943981(v=vs.85))
 
 > [!Note]  
 > You should initialize the memory for each DirectX structure to 0 before you use the structure. In addition, for all structures that contain a **dwSize** member, you should set the member to the size of the structure, in bytes, before the structure is used. The following example performs these tasks on a common structure, [**DDCAPS**](/windows/desktop/api/Ddraw/ns-ddraw-ddcaps_dx3):

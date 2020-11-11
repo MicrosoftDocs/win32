@@ -13,4 +13,3 @@ This section contains the reference material on using the Mobile Broadband clien
 -   [Mobile Broadband API Enumerations](mobile-broadband-networks-api-enumerations.md)
 -   [Mobile Broadband API Interfaces](mobile-broadband-networks-api-interfaces.md)
 -   [Mobile Broadband API Structures](mobile-broadband-networks-api-structures.md)
--   [Wireless Wide Area Network Functions](mobile-broadband-api-functions.md)

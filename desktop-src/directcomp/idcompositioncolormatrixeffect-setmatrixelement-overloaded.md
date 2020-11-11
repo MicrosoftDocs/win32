@@ -24,8 +24,8 @@ Sets an element of the color matrix.
 
 | Method                                                                                                              | Description                                     |
 |:--------------------------------------------------------------------------------------------------------------------|:------------------------------------------------|
-| [**SetMatrixElement**](https://msdn.microsoft.com/library/Dn919726(v=VS.85).aspx)                                         | Sets an element of the color matrix.<br/> |
-| [**SetMatrixElement (int, int, IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919727(v=VS.85).aspx) | Sets an element of the color matrix.<br/> |
+| [**SetMatrixElement**](/windows/win32/api/dcomp/nf-dcomp-idcompositioncolormatrixeffect-setmatrixelement(int_int_float))                                         | Sets an element of the color matrix.<br/> |
+| [**SetMatrixElement (int, int, IDCompositionAnimation \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositioncolormatrixeffect-setmatrixelement(int_int_idcompositionanimation)) | Sets an element of the color matrix.<br/> |
 
 
 
@@ -43,14 +43,9 @@ Sets an element of the color matrix.
 
 <dl> <dt>
 
-[**idcompositioncolormatrixeffect**](https://msdn.microsoft.com/library/Dn919722(v=VS.85).aspx)
+[**idcompositioncolormatrixeffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositioncolormatrixeffect)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

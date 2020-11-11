@@ -3,10 +3,13 @@ title: Animations and Transitions
 description: Strategic use of animations and transitions can make your program easier to understand, feel smoother, more natural, and of higher quality, and be more engaging.
 ms.assetid: 9e0e9604-f051-47e4-bcd0-59fbfd38b9c1
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Animations and Transitions
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 Strategic use of animations and transitions can make your program easier to understand, feel smoother, more natural, and of higher quality, and be more engaging. But the gratuitous use of animations and transitions can make your program distracting and even annoying.
 
@@ -450,7 +453,7 @@ Transitions have several usage patterns:
 
 **Attractors**
 
--   **Use attractors with restraint.** Unless the information is urgent, critical, or otherwise likely to affect the user's immediate behavior, it's usually better to change state inconspicuously and let users discover the change on their own. [Solve distractions, not discoverability](https://docs.microsoft.com/windows/desktop/uxguide/how-to-design-desktop-ux).
+-   **Use attractors with restraint.** Unless the information is urgent, critical, or otherwise likely to affect the user's immediate behavior, it's usually better to change state inconspicuously and let users discover the change on their own. [Solve distractions, not discoverability](/windows/desktop/uxguide/how-to-design-desktop-ux).
 
     ![screen shot of wireless status icons ](images/vis-animations-image45.png)
 
@@ -646,10 +649,4 @@ Examples:
 -   Use a cross-fade transition to change an object's state seamlessly.
 
  
-
- 
-
-
-
-
 

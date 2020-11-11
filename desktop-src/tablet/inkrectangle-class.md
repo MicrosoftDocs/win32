@@ -81,7 +81,7 @@ The **InkRectangle** class has these properties.
 
  
 
-This object can be instantiated by calling the [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method.
+This object can be instantiated by calling the [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method.
 
 > [!Note]  
 > An **InkRectangle** cannot be used if it is larger than LONG\_MAX (2^31 - 1) in either dimension.
@@ -102,9 +102,4 @@ This object can be instantiated by calling the [**CoCreateInstance**](https://do
 
 
  
-
- 
-
-
-
 

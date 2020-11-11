@@ -39,7 +39,7 @@ HRESULT ActionInformation(
 *value* \[out\]
 </dt> <dd>
 
-Receives a reference to an [**IMediaRendererActionInformation**](https://msdn.microsoft.com/library/Hh828915(v=VS.85).aspx) interface.
+Receives a reference to an [**IMediaRendererActionInformation**](/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-imediarendereractioninformation) interface.
 
 </dd> </dl>
 
@@ -65,10 +65,4 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

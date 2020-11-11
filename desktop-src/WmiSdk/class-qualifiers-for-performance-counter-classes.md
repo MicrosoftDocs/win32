@@ -14,22 +14,21 @@ api_location:
 
 # Class Qualifiers for Performance Counter Classes
 
-Class qualifiers specify information about the performance object to which the WMI [performance counter class](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/performance-counter-classes) is mapped. For more information, see [Monitoring Performance Data](monitoring-performance-data.md).
+Class qualifiers specify information about the performance object to which the WMI [performance counter class](/windows/desktop/CIMWin32Prov/performance-counter-classes) is mapped. For more information, see [Monitoring Performance Data](monitoring-performance-data.md).
 
 -   [Qualifiers for Raw and Formatted PerformanceClasses](#qualifiers-for-raw-and-formatted-performanceclasses)
 -   [Qualifiers for Raw Performance Classes](#)
 -   [Qualifiers for Formatted Performance Classes](#)
 -   [Related topics](#related-topics)
 
-## 
 
-Performance counter–specific qualifiers are automatically attached by the "WbemPerfClass" provider to [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata) classes and properties in Root\\CIMv2.
+Performance counter–specific qualifiers are automatically attached by the "WbemPerfClass" provider to [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) classes and properties in Root\\CIMv2.
 
 This information applies to all instances of the class. Some qualifiers with **Boolean** values that are always **False** may not be present on specific classes.
 
 ## Qualifiers for Raw and Formatted PerformanceClasses
 
-The following qualifiers apply to all classes that are derived from [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata) and [**Win32\_PerfFormattedData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfformatteddata).
+The following qualifiers apply to all classes that are derived from [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) and [**Win32\_PerfFormattedData**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata).
 
 <dl> <dt>
 
@@ -47,7 +46,7 @@ Indicates whether the class contains cooked data.
 
 **string**
 
-Performance object name. For more information, see [Performance Counters](https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-portal).
+Performance object name. For more information, see [Performance Counters](/windows/desktop/PerfCtrs/performance-counters-portal).
 
 </dd> <dt>
 
@@ -143,7 +142,7 @@ If **True**, indicates that only a single instance of the class exists.
 
 ## Qualifiers for Raw Performance Classes
 
-The following qualifiers apply to all classes that are derived from [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata).
+The following qualifiers apply to all classes that are derived from [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata).
 
 <dl> <dt>
 
@@ -176,7 +175,7 @@ Value is always **False**.
 
 ## Qualifiers for Formatted Performance Classes
 
-The following qualifiers apply to all classes that are derived from [**Win32\_PerfFormattedData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfformatteddata).
+The following qualifiers apply to all classes that are derived from [**Win32\_PerfFormattedData**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata).
 
 <dl> <dt>
 
@@ -208,7 +207,7 @@ Name of the raw class to use for calculation for the formatted class. This quali
 [Qualifiers Specific to WMI Performance Classes](qualifiers-specific-to-wmi-performance-classes.md)
 </dt> <dt>
 
-[Performance Counter Classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/performance-counter-classes)
+[Performance Counter Classes](/windows/desktop/CIMWin32Prov/performance-counter-classes)
 </dt> <dt>
 
 [Accessing WMI Preinstalled Performance Classes](accessing-wmi-preinstalled-performance-classes.md)
@@ -220,6 +219,3 @@ Name of the raw class to use for calculation for the formatted class. This quali
  
 
  
-
-
-

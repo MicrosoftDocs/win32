@@ -14,7 +14,6 @@ The interfaces that are described in the following topics provide programmatic a
 
 These topics contain a description of the interface, a list of the properties and methods defined by the interface, and remarks about any special circumstances that should be noted when using the interface.
 
-## 
 
 The following interfaces are introduced in Task Scheduler 2.0, which is used in the Windows Vista operating system.
 
@@ -31,7 +30,7 @@ The following interfaces are introduced in Task Scheduler 2.0, which is used in 
 | [**IEventTrigger**](/windows/desktop/api/taskschd/nn-taskschd-ieventtrigger)                           | Represents a trigger that starts a task when a system event occurs.                                                                                                                                                                                                                               |
 | [**IExecAction**](/windows/desktop/api/taskschd/nn-taskschd-iexecaction)                               | Represents an action that executes a command-line operation.                                                                                                                                                                                                                                      |
 | [**IIdleSettings**](/windows/desktop/api/taskschd/nn-taskschd-iidlesettings)                           | Specifies how the Task Scheduler performs tasks when the computer is in an idle condition.                                                                                                                                                                                                        |
-| [**IIdleTrigger**](https://msdn.microsoft.com/library/Aa380724(v=VS.85).aspx)                             | Represents a trigger that starts a task when the computer goes into an idle state.                                                                                                                                                                                                                |
+| [**IIdleTrigger**](/windows/win32/api/taskschd/nn-taskschd-iidletrigger)                             | Represents a trigger that starts a task when the computer goes into an idle state.                                                                                                                                                                                                                |
 | [**ILogonTrigger**](/windows/desktop/api/taskschd/nn-taskschd-ilogontrigger)                           | Represents a trigger that starts a task when a user logs on.                                                                                                                                                                                                                                      |
 | [**IMaintenanceSettings**](/windows/desktop/api/taskschd/nn-taskschd-imaintenancesettings)             | Provides the settings that the Task Scheduler uses to perform task during Automatic maintenance.                                                                                                                                                                                                  |
 | [**IMonthlyDOWTrigger**](/windows/desktop/api/taskschd/nn-taskschd-imonthlydowtrigger)                 | Represents a trigger that starts a task on a monthly day-of-week schedule.                                                                                                                                                                                                                        |
@@ -68,7 +67,6 @@ The following interfaces are introduced in Task Scheduler 2.0, which is used in 
 
  
 
-## 
 
 > [!WARNING]
 > The Task Scheduler 1.0 interfaces are available only in Windows 2000, Windows XP, and Windows Server 2003 operating systems. They are deprecated as of Windows Vista and may be removed completely in the future. Please use the Task Scheduler 2.0 interfaces listed above instead.
@@ -78,7 +76,3 @@ The following interfaces are introduced in Task Scheduler 2.0, which is used in 
  
 
  
-
-
-
-

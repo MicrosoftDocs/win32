@@ -23,18 +23,18 @@ The **CSecureChannelServer** class exposes the following methods.
 
 | Method                                                            | Description                                                                                 |
 |-------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| [**DecryptParam**](https://msdn.microsoft.com/library/Ff801048(v=VS.85).aspx)         | Decrypts the data contained in a parameter.                                                 |
-| [**EncryptParam**](https://msdn.microsoft.com/library/Ff801049(v=VS.85).aspx)         | Encrypts the data contained in a parameter.                                                 |
-| [**fIsAuthenticated**](https://msdn.microsoft.com/library/Ff801050(v=VS.85).aspx) | Verifies that a secure authentication channel has been successfully established.            |
-| [**GetAppSec**](https://msdn.microsoft.com/library/Ff801051(v=VS.85).aspx)               | Retrieves the application security levels of the local and remote components.               |
-| [**GetSessionKey**](https://msdn.microsoft.com/library/Ff801052(v=VS.85).aspx)       | Retrieves the current session key.                                                          |
-| [**MACFinal**](https://msdn.microsoft.com/library/Ff801053(v=VS.85).aspx)                 | Releases the message authentication code (MAC) channel and retrieves a final MAC value.     |
-| [**MACInit**](https://msdn.microsoft.com/library/Ff801054(v=VS.85).aspx)                   | Acquires a message authentication code (MAC) channel.                                       |
-| [**MACUpdate**](https://msdn.microsoft.com/library/Ff801056(v=VS.85).aspx)               | Updates the message authentication code (MAC) value with a parameter value.                 |
-| [**SACAuth**](https://msdn.microsoft.com/library/Ff801058(v=VS.85).aspx)                   | Establishes a secure authenticated channel between components.                              |
-| [**SACGetProtocols**](https://msdn.microsoft.com/library/Ff801060(v=VS.85).aspx)   | Reports the protocols supported by a component.                                             |
-| [**SetCertificate**](https://msdn.microsoft.com/library/Ff801063(v=VS.85).aspx)     | Specifies the certificate and private key of the secure authenticated channel (SAC) server. |
-| [**SetSessionKey**](https://msdn.microsoft.com/library/Ff801065(v=VS.85).aspx)       | Sets the session key that is used to communicate with another component.                    |
+| [**DecryptParam**](/previous-versions/bb231598(v=vs.85))         | Decrypts the data contained in a parameter.                                                 |
+| [**EncryptParam**](/previous-versions/ms868509(v=msdn.10))         | Encrypts the data contained in a parameter.                                                 |
+| [**fIsAuthenticated**](/previous-versions/bb231600(v=vs.85)) | Verifies that a secure authentication channel has been successfully established.            |
+| [**GetAppSec**](/previous-versions/bb231601(v=vs.85))               | Retrieves the application security levels of the local and remote components.               |
+| [**GetSessionKey**](/previous-versions/bb231602(v=vs.85))       | Retrieves the current session key.                                                          |
+| [**MACFinal**](/previous-versions/ms868513(v=msdn.10))                 | Releases the message authentication code (MAC) channel and retrieves a final MAC value.     |
+| [**MACInit**](/previous-versions/ms868514(v=msdn.10))                   | Acquires a message authentication code (MAC) channel.                                       |
+| [**MACUpdate**](/previous-versions/ms868515(v=msdn.10))               | Updates the message authentication code (MAC) value with a parameter value.                 |
+| [**SACAuth**](/previous-versions/ms868516(v=msdn.10))                   | Establishes a secure authenticated channel between components.                              |
+| [**SACGetProtocols**](/previous-versions/ms868517(v=msdn.10))   | Reports the protocols supported by a component.                                             |
+| [**SetCertificate**](/previous-versions/ms868518(v=msdn.10))     | Specifies the certificate and private key of the secure authenticated channel (SAC) server. |
+| [**SetSessionKey**](/previous-versions/ms868519(v=msdn.10))       | Sets the session key that is used to communicate with another component.                    |
 
 
 
@@ -59,7 +59,3 @@ The **CSecureChannelServer** class exposes the following methods.
  
 
  
-
-
-
-

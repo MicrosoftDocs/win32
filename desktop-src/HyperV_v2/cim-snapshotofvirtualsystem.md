@@ -53,7 +53,7 @@ Data type: **CIM\_ComputerSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (0), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 A reference to the computer system that represents the virtual system.
@@ -69,7 +69,7 @@ Data type: **CIM\_VirtualSystemSettingData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A reference to the settings data object that represents the snapshot of the virtual system.
@@ -98,9 +98,4 @@ A reference to the settings data object that represents the snapshot of the virt
 </dt> </dl>
 
  
-
- 
-
-
-
 

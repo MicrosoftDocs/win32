@@ -65,7 +65,7 @@ ms.date: 05/31/2018
 
 # Using ADSI with Exchange
 
-For Exchange 2000, information for using ADSI with Exchange is contained in the Exchange 2000 SDK. For more information, see [Management Tasks for ADSI](https://msdn.microsoft.com/library/aa125368.aspx).
+For Exchange 2000, information for using ADSI with Exchange is contained in the Exchange 2000 SDK. For more information, see [Management Tasks for ADSI](/previous-versions/office/developer/exchange-server-2003/aa125368(v=exchg.65)).
 
 The following tasks can be found in this section:
 
@@ -81,7 +81,7 @@ The following tasks can be found in this section:
 -   Creating a distribution list using CDOEXM and ADSI
 -   Setting message restriction on an SMTP virtual server using ADSI
 
-For Exchange 5.5, the ADSI reference and using information can be found in the [ADSI Exchange](https://msdn.microsoft.com/library/aa579394.aspx) guide.
+For Exchange 5.5, the ADSI reference and using information can be found in the [ADSI Exchange](/previous-versions/office/developer/exchange-server-2007/aa579394(v=exchg.80)) guide.
 
 The following tasks can be found in this section:
 
@@ -106,7 +106,3 @@ The following tasks can be found in this section:
  
 
  
-
-
-
-

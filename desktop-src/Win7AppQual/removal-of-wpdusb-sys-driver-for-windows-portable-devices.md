@@ -10,15 +10,25 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients** - Windows 7  
+**Clients** - Windows 7  
 **Servers** - Windows Server 2008 R2  
-</dl>
+
+
+
+
+
+
+
+
 
 ## Feature Impact
 
-<dl> **Severity** - Low  
+ **Severity** - Low  
 **Frequency** - Low  
-</dl>
+
+
+
+
 
 ## Description
 
@@ -44,11 +54,8 @@ The WPD API is supported in Windows XP (via the Windows Format SDK), Windows Vis
 
 ## Links to Other Resources
 
-[Windows Portable Devices](https://msdn.microsoft.com/library/Dd388998(v=VS.85).aspx)
+[Windows Portable Devices](../windows-portable-devices.md)
 
  
 
  
-
-
-

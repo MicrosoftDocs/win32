@@ -23,7 +23,7 @@ api_location:
 
 # Win32\_PnPDevicePropertySecurityDescriptor class
 
-Represents a PnP device property of type [**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/Aa394402(v=VS.85).aspx).
+Represents a PnP device property of type [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor).
 
 The following syntax is simplified from MOF code and includes all inherited properties.
 
@@ -55,7 +55,7 @@ The **Win32\_PnPDevicePropertySecurityDescriptor** class has these properties.
 **Data**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/Aa394402(v=VS.85).aspx)**
+Data type: **[**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)**
 </dt> <dt>
 
 Access type: Read-only
@@ -517,7 +517,7 @@ The possible values are.
 [**Win32\_PnPDeviceProperty**](win32-pnpdeviceproperty.md)
 </dt> <dt>
 
-[**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/Aa394402(v=VS.85).aspx)
+[**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)
 </dt> <dt>
 
 [**GetDeviceProperties**](getdeviceproperties-win32-pnpentity.md)
@@ -526,7 +526,3 @@ The possible values are.
  
 
  
-
-
-
-

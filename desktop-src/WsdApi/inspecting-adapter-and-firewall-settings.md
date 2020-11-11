@@ -38,25 +38,25 @@ Retest the program after making this firewall change. If the program now works s
 
 Advanced configuration of the Windows Firewall can take place in a Microsoft Management Control (MMC) snap-in named **Windows Firewall with Advanced Security**. This snap-in can be used to troubleshoot suspected firewall problems.
 
-Developers can use the [Windows Firewall with Advanced Security](https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-with-advanced-security-reference) APIs to create firewall rules that apply to their WSD applications. Specifically, the [**Add**](https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrules-add) method of the [**INetFwRules**](https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrules) interface can be used to add a new firewall rule. If firewall rules are created incorrectly, clients and hosts may not be able to see each other on the network.
+Developers can use the [Windows Firewall with Advanced Security](/previous-versions/windows/desktop/ics/windows-firewall-with-advanced-security-reference) APIs to create firewall rules that apply to their WSD applications. Specifically, the [**Add**](/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrules-add) method of the [**INetFwRules**](/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrules) interface can be used to add a new firewall rule. If firewall rules are created incorrectly, clients and hosts may not be able to see each other on the network.
 
 **To check for application-specific firewall rules**
 
 1.  Click **Start**, click **Run**, and then type **wf.msc**.
-2.  Look for application-specific rules that may be blocking traffic. For more information, see [Windows Firewall with Advanced Security - Diagnostics and Troubleshooting Tools](https://technet.microsoft.com/library/cc722062(WS.10).aspx?ocid=fwlink).
+2.  Look for application-specific rules that may be blocking traffic. For more information, see [Windows Firewall with Advanced Security - Diagnostics and Troubleshooting Tools](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc722062(v=ws.10)?ocid=fwlink).
 3.  Remove application-specific rules.
 
 If no application-specific rules were found, move on to the next step. If an application-specific rule was found and removed, retest the program after making the firewall change. If the program now works successfully, the cause of the problem has been identified and no further troubleshooting steps are necessary. Otherwise, move on to the next step.
 
 ## Enabling the ports used for discovery and metadata exchange
 
-WS-Discovery uses the UDP port 3702 for message exchange. In addition, TCP ports 5357 and 5358 are sometimes used for metadata exchange. These ports can be explicitly opened on the firewall using the procedures described in [Open a port in Windows Firewall](https://windowshelp.microsoft.com/Windows/en-US/Help/4da18300-9044-47b6-9038-595c78db81ab1033.mspx).
+WS-Discovery uses the UDP port 3702 for message exchange. In addition, TCP ports 5357 and 5358 are sometimes used for metadata exchange. These ports can be explicitly opened on the firewall using the procedures described in [Open a port in Windows Firewall](https://windowshelp.microsoft.com/Windows/Help/4da18300-9044-47b6-9038-595c78db81ab1033.mspx).
 
 Retest the program after making this firewall change. If the program now works successfully, the cause of the problem has been identified and no further troubleshooting steps are necessary. Otherwise, move on to the next step.
 
 ## Disabling the firewall
 
-The Windows Firewall can be disabled to help troubleshoot suspected problems. Other applicable firewalls (such as the firewall on a router) can also be disabled for troubleshooting purposes. For information about enabling and disabling the Windows Firewall, see [Turn Windows Firewall on or off](https://windowshelp.microsoft.com/Windows/en-US/Help/bfe523a9-7eec-4d3f-add1-2f68b9cfa1c01033.mspx).
+The Windows Firewall can be disabled to help troubleshoot suspected problems. Other applicable firewalls (such as the firewall on a router) can also be disabled for troubleshooting purposes. For information about enabling and disabling the Windows Firewall, see [Turn Windows Firewall on or off](https://windowshelp.microsoft.com/Windows/Help/bfe523a9-7eec-4d3f-add1-2f68b9cfa1c01033.mspx).
 
 Retest the application after disabling any applicable firewalls. If the program now works successfully, then the firewall was blocking the traffic. There are a few possible causes of blocked traffic.
 
@@ -80,6 +80,3 @@ Firewalls should always be re-enabled after troubleshooting has finished.
  
 
  
-
-
-

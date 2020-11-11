@@ -78,13 +78,13 @@ As well as the resource binding tier, there are many other features whose level 
 
 To view tables of DXGI formats and hardware features, refer to these topics.
 
-- [DXGI Format Support for Direct3D Feature Level 12.1 Hardware](https://docs.microsoft.com/windows/desktop/direct3ddxgi/hardware-support-for-direct3d-12-1-formats)
-- [DXGI Format Support for Direct3D Feature Level 12.0 Hardware](https://docs.microsoft.com/windows/desktop/direct3ddxgi/hardware-support-for-direct3d-12-0-formats)
-- [DXGI Format Support for Direct3D Feature Level 11.1 Hardware](https://docs.microsoft.com/windows/desktop/direct3ddxgi/format-support-for-direct3d-11-1-feature-level-hardware)
-- [DXGI Format Support for Direct3D Feature Level 11.0 Hardware](https://docs.microsoft.com/windows/desktop/direct3ddxgi/format-support-for-direct3d-11-0-feature-level-hardware)
-- [Hardware Support for Direct3D 10Level9 Formats](https://docs.microsoft.com/previous-versions//ff471324(v=vs.85))
-- [Hardware Support for Direct3D 10.1 Formats](https://docs.microsoft.com/previous-versions//cc627091(v=vs.85))
-- [Hardware Support for Direct3D 10 Formats](https://docs.microsoft.com/previous-versions//cc627090(v=vs.85))
+- [DXGI Format Support for Direct3D Feature Level 12.1 Hardware](/windows/desktop/direct3ddxgi/hardware-support-for-direct3d-12-1-formats)
+- [DXGI Format Support for Direct3D Feature Level 12.0 Hardware](/windows/desktop/direct3ddxgi/hardware-support-for-direct3d-12-0-formats)
+- [DXGI Format Support for Direct3D Feature Level 11.1 Hardware](/windows/desktop/direct3ddxgi/format-support-for-direct3d-11-1-feature-level-hardware)
+- [DXGI Format Support for Direct3D Feature Level 11.0 Hardware](/windows/desktop/direct3ddxgi/format-support-for-direct3d-11-0-feature-level-hardware)
+- [Hardware Support for Direct3D 10Level9 Formats](/previous-versions//ff471324(v=vs.85))
+- [Hardware Support for Direct3D 10.1 Formats](/previous-versions//cc627091(v=vs.85))
+- [Hardware Support for Direct3D 10 Formats](/previous-versions//cc627090(v=vs.85))
 
 ## Related topics
 

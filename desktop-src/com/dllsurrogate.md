@@ -39,13 +39,9 @@ The **DllSurrogate** value must be present for a DLL server to be activated in a
 [**DllSurrogateExecutable**](dllsurrogateexecutable.md)
 </dt> <dt>
 
-[**ISurrogate**](https://msdn.microsoft.com/library/ms695062(v=VS.85).aspx)
+[**ISurrogate**](/windows/win32/api/objidlbase/nn-objidlbase-isurrogate)
 </dt> </dl>
 
  
 
  
-
-
-
-

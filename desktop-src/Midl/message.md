@@ -61,14 +61,14 @@ As messages from the client, remote procedure calls with the **\[message\]** att
 
 By specifying asynchronous-mode messaging, the **\[message\]** attribute allows the client to make the remote procedure call and return immediately, even when the server application is not responding. If the target server is not available, the call will be stored until the server becomes available.
 
-In addition, asynchronous-mode messaging lets you control message-queue properties of the receive queue for the server. See [**RpcBindingSetOption**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetoption) for more information on selecting quality of service, call priority, and call lifetime for the server process.
+In addition, asynchronous-mode messaging lets you control message-queue properties of the receive queue for the server. See [**RpcBindingSetOption**](/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetoption) for more information on selecting quality of service, call priority, and call lifetime for the server process.
 
 The following restrictions also apply to the **\[message\]** attribute:
 
 -   Microsoft Message Queuing must be implemented in the client and server systems and the systems must be visible to each other as determined by the scope of the message queue installation.
 -   The binding must use well-known endpoints and the [**ncadg\_mq**](ncadg-mq.md) transport protocol.
 -   The function cannot contain output parameters or a return type other than [**void**](void.md). Note that the latter restriction makes the **\[message\]** attribute unsuitable for COM (object) interface methods, at this time. The next release of MIDL will permit **\[message\]** functions to return error\_status\_t or HRESULT.
--   Any interface that contains at least one **\[message\]** call must be registered by calling [**RpcServerRegisterIf**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif) or [**RpcServerRegisterIfEx**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterifex) before calling [**RpcServerUseProtseqEpEx(ncadg\_mq)**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqepex). Otherwise, calls that were waiting on the queue for the server will be read before the interface is registered, and the calls will fail.
+-   Any interface that contains at least one **\[message\]** call must be registered by calling [**RpcServerRegisterIf**](/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif) or [**RpcServerRegisterIfEx**](/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterifex) before calling [**RpcServerUseProtseqEpEx(ncadg\_mq)**](/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqepex). Otherwise, calls that were waiting on the queue for the server will be read before the interface is registered, and the calls will fail.
 
 ## Examples
 
@@ -101,13 +101,13 @@ The following restrictions also apply to the **\[message\]** attribute:
 [**optimize**](optimize.md)
 </dt> <dt>
 
-[RPC Message Queuing](https://docs.microsoft.com/windows/desktop/Rpc/rpc-message-queuing)
+[RPC Message Queuing](/windows/desktop/Rpc/rpc-message-queuing)
 </dt> <dt>
 
-[**RpcBindingSetOption**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetoption)
+[**RpcBindingSetOption**](/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetoption)
 </dt> <dt>
 
-[**RpcBindingInqOption**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqoption)
+[**RpcBindingInqOption**](/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqoption)
 </dt> <dt>
 
 [**void**](void.md)
@@ -116,7 +116,3 @@ The following restrictions also apply to the **\[message\]** attribute:
  
 
  
-
-
-
-

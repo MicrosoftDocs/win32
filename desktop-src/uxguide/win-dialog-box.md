@@ -3,10 +3,13 @@ title: Dialog Boxes (Design basics)
 description: A dialog box is a secondary window that allows users to perform a command, asks users a question, or provides users with information or progress feedback.
 ms.assetid: 2ded9f30-d45f-4027-a85d-4e7d0e412793
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Dialog Boxes
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 A dialog box is a secondary window that allows users to perform a command, asks users a question, or provides users with information or progress feedback.
 
@@ -176,7 +179,7 @@ In this example, Windows Network Diagnostics consists of progress and results pa
 -   **On the input page, use specific command buttons or command links to initiate the task.**
 -   **Use a Cancel button on the input and progress pages, and a Close button on the results page.**
 
-**Developers:** You can create multi-page task dialogs using the [TDM\_NAVIGATE\_PAGE](https://msdn2.microsoft.com/library/aa969766.aspx) message.
+**Developers:** You can create multi-page task dialogs using the [TDM\_NAVIGATE\_PAGE](../controls/tdm-navigate-page.md) message.
 
 ### Presentation
 
@@ -948,10 +951,4 @@ When referring to dialog boxes:
 Example: In **Windows Security**, click **More Options**.
 
  
-
- 
-
-
-
-
 

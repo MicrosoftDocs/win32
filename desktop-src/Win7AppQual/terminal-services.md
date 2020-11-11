@@ -10,8 +10,7 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Servers** – Windows Server 2008 \| Windows Server 2008 R2  
-</dl>
+**Servers** – Windows Server 2008 \| Windows Server 2008 R2  
 
 ## Description
 
@@ -60,14 +59,14 @@ In Windows Server 2008 R2, you can install a program on the Remote Desktop Serve
 
 Prior to the Windows Server 2008 R2 version of Remote Desktop Services, Windows supported only one Windows Installer installation at a time. For applications that required per-user configurations, such as Microsoft Office Word, an administrator needed to pre-install the application, and application developers needed to test these applications on both the remote desktop client and the Remote Desktop Session Host. Windows Installer RDS Compatibility feature allows identifying and installing missing per-user configurations for multiple users simultaneously and makes the application installation experience on Remote Desktop Server similar to that on a local desktop.
 
-**Windows Server 2008 R2 with the [Remote Desktop Services](https://msdn.microsoft.com/library/Bb892075(v=VS.85).aspx) role enabled:** Not supported. A multiple package installation using the [MsiEmbeddedChainer table](https://msdn.microsoft.com/library/Bb736316(v=VS.85).aspx) fails if the [Remote Desktop Services](https://msdn.microsoft.com/library/Bb892075(v=VS.85).aspx) role is enabled.
+**Windows Server 2008 R2 with the [Remote Desktop Services](../termserv/terminal-services-portal.md) role enabled:** Not supported. A multiple package installation using the [MsiEmbeddedChainer table](../msi/msiembeddedchainer-table.md) fails if the [Remote Desktop Services](../termserv/terminal-services-portal.md) role is enabled.
 
 ## Links to Other Resources
 
--   [Terminal Services Programming Guidelines](https://msdn.microsoft.com/library/Aa383490(v=VS.85).aspx)
+-   [Terminal Services Programming Guidelines](../termserv/terminal-services-programming-guidelines.md)
 -   [Terminal Services at TechNet](https://technet.microsoft.com/ts/default.aspx)
 -   [Terminal Services product home page](https://www.microsoft.com/windowsserver2008/en/us/rds-product-home.aspx)
--   [Application Readiness for Terminal Services white paper](https://docs.microsoft.com/collaborate/connect-redirect)
+-   [Application Readiness for Terminal Services white paper](/collaborate/connect-redirect)
 
 > [!Note]  
 > These resources may not be available in some languages and countries/regions.
@@ -77,6 +76,3 @@ Prior to the Windows Server 2008 R2 version of Remote Desktop Services, Windows 
  
 
  
-
-
-

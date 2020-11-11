@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Certification Authorities
 
-A [*certification authority*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) (CA) is responsible for attesting to the identity of users, computers, and organizations. The CA authenticates an entity and vouches for that identity by issuing a digitally signed certificate. The CA can also manage, revoke, and renew certificates.
+A [*certification authority*](/windows/desktop/SecGloss/c-gly) (CA) is responsible for attesting to the identity of users, computers, and organizations. The CA authenticates an entity and vouches for that identity by issuing a digitally signed certificate. The CA can also manage, revoke, and renew certificates.
 
 A CA can be public or private. A public CA provides certification services, typically for a fee, to the public over the Internet. A private CA provides this service to the members of a delimited population such as the employees of a business or members of some other private group.
 
@@ -30,6 +30,3 @@ The Certificate Enrollment API interacts with a CA mainly by using the [**IX509E
  
 
  
-
-
-

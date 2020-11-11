@@ -29,7 +29,7 @@ Exposes methods and properties that store state information about an incoming co
 
 </dd> <dt>
 
-[**ITsSbClientConnectionPropertySet**](https://msdn.microsoft.com/library/Dd379591(v=VS.85).aspx)
+[**ITsSbClientConnectionPropertySet**](/windows/win32/api/sbtsv/nn-sbtsv-itssbclientconnectionpropertyset)
 </dt> <dd>
 
 Can be used to define custom properties of a client connection as appropriate.
@@ -43,7 +43,7 @@ Exposes methods and properties that contain information about the environment th
 
 </dd> <dt>
 
-[**ITsSbEnvironmentPropertySet**](https://msdn.microsoft.com/library/Ee351632(v=VS.85).aspx)
+[**ITsSbEnvironmentPropertySet**](/windows/win32/api/sbtsv/nn-sbtsv-itssbenvironmentpropertyset)
 </dt> <dd>
 
 Can be used to define custom properties of an environment that hosts target computers as appropriate.
@@ -134,14 +134,14 @@ Exposes methods that notify RD Connection Broker about initialization or termin
 
 </dd> <dt>
 
-[**ITsSbPluginPropertySet**](https://msdn.microsoft.com/library/Dd379636(v=VS.85).aspx)
+[**ITsSbPluginPropertySet**](/windows/win32/api/sbtsv/nn-sbtsv-itssbpluginpropertyset)
 </dt> <dd>
 
 Can be used to define custom plug-in properties as appropriate.
 
 </dd> <dt>
 
-[**ITsSbPropertySet**](https://msdn.microsoft.com/library/Dd379645(v=VS.85).aspx)
+[**ITsSbPropertySet**](/windows/win32/api/sbtsv/nn-sbtsv-itssbpropertyset)
 </dt> <dd>
 
 Can be used to define custom properties as appropriate.
@@ -183,7 +183,7 @@ Exposes methods that RD Connection Broker uses to notify plug-ins of any state 
 
 </dd> <dt>
 
-[**ITsSbResourcePlugin**](https://msdn.microsoft.com/library/Dd379662(v=VS.85).aspx)
+[**ITsSbResourcePlugin**](/windows/win32/api/sbtsv/nn-sbtsv-itssbresourceplugin)
 </dt> <dd>
 
 Exposes methods that extend the capabilities of RD Connection Broker.
@@ -232,7 +232,7 @@ Exposes properties that store configuration and state information about a target
 
 </dd> <dt>
 
-[**ITsSbTargetPropertySet**](https://msdn.microsoft.com/library/Dd379695(v=VS.85).aspx)
+[**ITsSbTargetPropertySet**](/windows/win32/api/sbtsv/nn-sbtsv-itssbtargetpropertyset)
 </dt> <dd>
 
 Derive from this interface to define a custom target property set.
@@ -270,7 +270,3 @@ Used to extend the capabilities of Terminal Services Session Broker (TS Session
  
 
  
-
-
-
-

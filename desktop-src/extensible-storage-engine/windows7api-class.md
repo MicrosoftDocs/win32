@@ -32,7 +32,7 @@ ESENT APIs that were first supported in Windows 7 (Windows Server 2008 R2).
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.Windows7.Windows7Api  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](hh577573\(v=exchg.10\).md)  
@@ -62,4 +62,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 [Windows7Api members](dn335300\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows7 namespace](hh577573\(v=exchg.10\).md)
-

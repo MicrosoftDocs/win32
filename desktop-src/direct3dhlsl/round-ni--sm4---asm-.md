@@ -32,7 +32,7 @@ Floating-point round to integral float.
 
 ## Remarks
 
-This instruction performs a component-wise floating-point round of the values in *src0*, writing integral floating-point values to *dest*. **round\_ne** rounds toward -infinity, commonly known as floor().
+This instruction performs a component-wise floating-point round of the values in *src0*, writing integral floating-point values to *dest*. **round\_ni** rounds toward -infinity, commonly known as floor().
 
 The following table shows the results obtained when executing the instruction with various classes of numbers.
 

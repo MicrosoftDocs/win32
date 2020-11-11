@@ -17,7 +17,7 @@ api_location:
 
 # SignedData.Certificates property
 
-\[The **Certificates** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](https://msdn.microsoft.com/library/kz82bs5e(v=VS.90).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.100).aspx) namespace.\]
+\[The **Certificates** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](/dotnet/api/system.security.cryptography.pkcs.signedcms?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
 
 The **Certificates** property retrieves the [**Certificates**](certificates.md) collection that is associated with the [**SignedData**](signeddata.md) object. After being retrieved, the individual [**Certificate**](certificate.md) objects in the collection can be enumerated.
 
@@ -55,7 +55,3 @@ The [**Certificates**](certificates.md) collection that is associated with the [
  
 
  
-
-
-
-

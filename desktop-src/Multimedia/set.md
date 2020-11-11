@@ -23,7 +23,7 @@ Microsoft supports a diverse and inclusionary environment.  Within this document
 
 The set command establishes control settings for the device. CD audio, digital-video, MIDI sequencer, VCR, videodisc, video-overlay, and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -593,10 +593,4 @@ set mysound time format ms bitspersample 8 channels 1 samplespersec 11025
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

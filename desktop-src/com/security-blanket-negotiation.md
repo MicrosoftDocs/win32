@@ -29,7 +29,7 @@ When the application is acting as a client, the following values passed to [**Co
 
 When a proxy is created, COM uses the values specified by the server's security blanket and the client's security blanket to negotiate a default security blanket that is appropriate for the proxy. COM picks an authentication service that works on both the client and server. The authorization service and principal name are chosen to work with the authentication service. For the authentication level, COM chooses the higher of the authentication levels specified by the client and the server. The impersonation level and the capabilities chosen by COM are the ones specified by the client. The authentication identity is the one specified by the client for the chosen authentication service.
 
-Once the default security blanket has been computed, its values are assigned to the newly created proxy. The client can override the security settings for the proxy by calling [**IClientSecurity::SetBlanket**](https://msdn.microsoft.com/library/ms691255(v=VS.85).aspx). The values specified to **SetBlanket** are not negotiated; they are simply assigned to the specified proxy. However, if default parameters (such as RPC\_C\_IMP\_LEVEL\_DEFAULT) are passed to **SetBlanket**, COM uses the previously described security blanket negotiation algorithm to compute the default parameters.
+Once the default security blanket has been computed, its values are assigned to the newly created proxy. The client can override the security settings for the proxy by calling [**IClientSecurity::SetBlanket**](/windows/win32/api/objidl/nf-objidl-iclientsecurity-setblanket). The values specified to **SetBlanket** are not negotiated; they are simply assigned to the specified proxy. However, if default parameters (such as RPC\_C\_IMP\_LEVEL\_DEFAULT) are passed to **SetBlanket**, COM uses the previously described security blanket negotiation algorithm to compute the default parameters.
 
 ## Related topics
 
@@ -41,7 +41,3 @@ Once the default security blanket has been computed, its values are assigned to 
  
 
  
-
-
-
-

@@ -1009,7 +1009,7 @@ JET_errDatabaseDirtyShutdown</p></td>
 <tr class="even">
 <td><p>JET_errInvalidLCMapStringFlags<br />
 -1064</p></td>
-<td><p>There are invalid flags being used for <a href="https://msdn.microsoft.com/library/dd318700(VS.85).aspx">LCMapString</a>.</p></td>
+<td><p>There are invalid flags being used for <a href="/windows/win32/api/winnls/nf-winnls-lcmapstringa">LCMapString</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errVersionStoreEntryTooBig<br />
@@ -1854,4 +1854,3 @@ In general, a value that is greater than zero should be interpreted as a warning
 [Error Handling Parameters](gg269173\(v=exchg.10\).md)  
 [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md)  
 [Extensible Storage Engine Files](gg294069\(v=exchg.10\).md)
-

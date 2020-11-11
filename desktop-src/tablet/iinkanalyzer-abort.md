@@ -47,7 +47,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 ## Remarks
 
-Call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppAbortedRegion* when you no longer need to use the object.
+Call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on *ppAbortedRegion* when you no longer need to use the object.
 
 This method cancels the current analysis operation.
 
@@ -105,9 +105,4 @@ For more information about synchronizing your application data with the ink anal
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -16,13 +16,10 @@ To sign a file and create a catalog for it, you must first have a process for si
 2.  Use the public key token value to update the **publicKeyToken** attribute of the **assemblyIdentity** element in the manifest file.
 3.  Use [MT.exe](mt-exe.md) to generate hashes of files contained in the assembly manifest and to create the catalog description file (.cdf).
 4.  Use Makecat.exe with the generated .cdf to create the security catalog for the assembly. This tool is included in the CryptoAPI.
-5.  Use the [SignTool](https://docs.microsoft.com/windows/desktop/SecCrypto/signtool) utility to sign the catalog generated with the certificate used in step 1. The .cdf from steps 3 and 4 can be deleted once the catalog is created.
+5.  Use the [SignTool](/windows/desktop/SecCrypto/signtool) utility to sign the catalog generated with the certificate used in step 1. The .cdf from steps 3 and 4 can be deleted once the catalog is created.
 
 See also, [Assembly Signing Example](assembly-signing-example.md).
 
  
 
  
-
-
-

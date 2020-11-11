@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 Sends data from the client debugger to the server debugger.
 
 > [!Note]  
-> An import library containing the **ClientFillBuffer** function is not included in the Microsoft Windows Software Development Kit (SDK). An application can use the [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) and [**GetModuleHandle**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea) functions to retrieve a function pointer to [**DllDebugObjectRPCHook**](dlldebugobjectrpchook.md) from oleaut.dll and provide this function via the [**IOrpcDebugNotify**](iorpcdebugnotify.md) interface.
+> An import library containing the **ClientFillBuffer** function is not included in the Microsoft Windows Software Development Kit (SDK). An application can use the [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) and [**GetModuleHandle**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea) functions to retrieve a function pointer to [**DllDebugObjectRPCHook**](dlldebugobjectrpchook.md) from oleaut.dll and provide this function via the [**IOrpcDebugNotify**](iorpcdebugnotify.md) interface.
 
  
 
@@ -77,10 +77,4 @@ This method does not return a value.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

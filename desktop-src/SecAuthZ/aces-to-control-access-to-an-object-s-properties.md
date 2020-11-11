@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # ACEs to Control Access to an Object's Properties
 
-The [*discretionary access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DACL) of a directory service (DS) object can contain a hierarchy of [*access control entries*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACEs), as follows:
+The [*discretionary access control list*](/windows/desktop/SecGloss/d-gly) (DACL) of a directory service (DS) object can contain a hierarchy of [*access control entries*](/windows/desktop/SecGloss/a-gly) (ACEs), as follows:
 
 1.  ACEs that protect the object itself
 2.  [Object-specific ACEs](object-specific-aces.md) that protect a specified property set on the object
@@ -54,6 +54,3 @@ The system ignores object-specific ACEs that apply to other property sets or pro
  
 
  
-
-
-

@@ -25,7 +25,7 @@ The following procedure describes how to receive semisynchronous event notificat
 
 1.  Create a query for the type of event that you want to receive. For more information, see [Determining the Type of Event to Receive](determining-the-type-of-event-to-receive.md).
 
-2.  If you request an instance type of event such as [**\_\_InstanceCreationEvent**](--instancecreationevent.md), indicate in the query a type of target instance, for example, [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk).
+2.  If you request an instance type of event such as [**\_\_InstanceCreationEvent**](--instancecreationevent.md), indicate in the query a type of target instance, for example, [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk).
 
 3.  If necessary, specify an instance, for example, the name of a namespace when requesting future [**\_\_NamespaceModificationEvent**](--namespacemodificationevent.md) instances for a specific namespace.
 
@@ -35,7 +35,7 @@ The following procedure describes how to receive semisynchronous event notificat
 
 6.  Loop through the collection you receive.
 
-The following example shows how to monitor insertion and removal of disks from a floppy disk drive on a local machine. The script requests \_[**\_\_InstanceModificationEvent**](--instancemodificationevent.md) instances for the floppy drive [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) instance and polls every 10 seconds for new instances. This script is an example of a temporary event consumer, and continues running until it is stopped in Task Manager or the system is rebooted. For more information, see [Receiving Events for the Duration of your Application](receiving-events-for-the-duration-of-your-application.md).
+The following example shows how to monitor insertion and removal of disks from a floppy disk drive on a local machine. The script requests \_[**\_\_InstanceModificationEvent**](--instancemodificationevent.md) instances for the floppy drive [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) instance and polls every 10 seconds for new instances. This script is an example of a temporary event consumer, and continues running until it is stopped in Task Manager or the system is rebooted. For more information, see [Receiving Events for the Duration of your Application](receiving-events-for-the-duration-of-your-application.md).
 
 
 ```VB
@@ -64,9 +64,9 @@ The following procedure describes how to receive semisynchronous event notificat
 
 **To receive semisynchronous event notification in C++**
 
-1.  Set up the application with calls to the [**CoInitializeEx**](https://msdn.microsoft.com/library/ms695279(v=VS.85).aspx) and [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx) functions.
+1.  Set up the application with calls to the [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) and [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) functions.
 
-    Because WMI is COM based, calling [**CoInitializeEx**](https://msdn.microsoft.com/library/ms695279(v=VS.85).aspx) and [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx) is a required step for a WMI application. For more information, see [Creating a WMI Application or Script](creating-a-wmi-application-or-script.md).
+    Because WMI is COM based, calling [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) and [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) is a required step for a WMI application. For more information, see [Creating a WMI Application or Script](creating-a-wmi-application-or-script.md).
 
 2.  Determine the kind of events that you want to receive.
 
@@ -88,6 +88,3 @@ The following procedure describes how to receive semisynchronous event notificat
  
 
  
-
-
-

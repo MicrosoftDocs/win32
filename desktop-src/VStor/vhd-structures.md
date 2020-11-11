@@ -12,30 +12,27 @@ ms.date: 05/31/2018
 
 The following structures are used in Virtual Hard Disk (VHD):
 
--   [**APPLY\_SNAPSHOT\_VHDSET\_PARAMETERS**](https://msdn.microsoft.com/library/Mt638036(v=VS.85).aspx)
--   [**ATTACH\_VIRTUAL\_DISK\_PARAMETERS**](https://msdn.microsoft.com/library/Dd323694(v=VS.85).aspx)
--   [**COMPACT\_VIRTUAL\_DISK\_PARAMETERS**](https://msdn.microsoft.com/library/Dd323657(v=VS.85).aspx)
--   [**CREATE\_VIRTUAL\_DISK\_PARAMETERS**](https://msdn.microsoft.com/library/Dd323661(v=VS.85).aspx)
--   [**DELETE\_SNAPSHOT\_VHDSET\_PARAMETERS**](https://msdn.microsoft.com/library/Mt414214(v=VS.85).aspx)
--   [**EXPAND\_VIRTUAL\_DISK\_PARAMETERS**](https://msdn.microsoft.com/library/Dd323667(v=VS.85).aspx)
--   [**GET\_VIRTUAL\_DISK\_INFO**](https://msdn.microsoft.com/library/Dd323674(v=VS.85).aspx)
--   [**MERGE\_VIRTUAL\_DISK\_PARAMETERS**](https://msdn.microsoft.com/library/Dd323678(v=VS.85).aspx)
--   [**MIRROR\_VIRTUAL\_DISK\_PARAMETERS**](https://msdn.microsoft.com/library/Hh448680(v=VS.85).aspx)
--   [**MODIFY\_VHDSET\_PARAMETERS**](https://msdn.microsoft.com/library/Mt414218(v=VS.85).aspx)
--   [**OPEN\_VIRTUAL\_DISK\_PARAMETERS**](https://msdn.microsoft.com/library/Dd323682(v=VS.85).aspx)
--   [**RAW\_SCSI\_VIRTUAL\_DISK\_PARAMETERS**](https://msdn.microsoft.com/library/Mt764773(v=VS.85).aspx)
--   [**RAW\_SCSI\_VIRTUAL\_DISK\_RESPONSE**](https://msdn.microsoft.com/library/Mt764774(v=VS.85).aspx)
--   [**SET\_VIRTUAL\_DISK\_INFO**](https://msdn.microsoft.com/library/Dd323686(v=VS.85).aspx)
--   [**STORAGE\_DEPENDENCY\_INFO**](https://msdn.microsoft.com/library/Dd323688(v=VS.85).aspx)
--   [**STORAGE\_DEPENDENCY\_INFO\_TYPE\_1**](https://msdn.microsoft.com/library/Dd323689(v=VS.85).aspx)
--   [**STORAGE\_DEPENDENCY\_INFO\_TYPE\_2**](https://msdn.microsoft.com/library/Dd323690(v=VS.85).aspx)
--   [**TAKE\_SNAPSHOT\_VHDSET\_PARAMETERS**](https://msdn.microsoft.com/library/Mt414223(v=VS.85).aspx)
--   [**VIRTUAL\_DISK\_PROGRESS**](https://msdn.microsoft.com/library/Dd323703(v=VS.85).aspx)
--   [**VIRTUAL\_STORAGE\_TYPE**](https://msdn.microsoft.com/library/Dd323704(v=VS.85).aspx)
+-   [**APPLY\_SNAPSHOT\_VHDSET\_PARAMETERS**](/windows/win32/api/virtdisk/ns-virtdisk-apply_snapshot_vhdset_parameters)
+-   [**ATTACH\_VIRTUAL\_DISK\_PARAMETERS**](/windows/win32/api/virtdisk/ns-virtdisk-attach_virtual_disk_parameters)
+-   [**COMPACT\_VIRTUAL\_DISK\_PARAMETERS**](/windows/win32/api/virtdisk/ns-virtdisk-compact_virtual_disk_parameters)
+-   [**CREATE\_VIRTUAL\_DISK\_PARAMETERS**](/windows/win32/api/virtdisk/ns-virtdisk-create_virtual_disk_parameters)
+-   [**DELETE\_SNAPSHOT\_VHDSET\_PARAMETERS**](/windows/win32/api/virtdisk/ns-virtdisk-delete_snapshot_vhdset_parameters)
+-   [**EXPAND\_VIRTUAL\_DISK\_PARAMETERS**](/windows/win32/api/virtdisk/ns-virtdisk-expand_virtual_disk_parameters)
+-   [**GET\_VIRTUAL\_DISK\_INFO**](/windows/win32/api/virtdisk/ns-virtdisk-get_virtual_disk_info)
+-   [**MERGE\_VIRTUAL\_DISK\_PARAMETERS**](/windows/win32/api/virtdisk/ns-virtdisk-merge_virtual_disk_parameters)
+-   [**MIRROR\_VIRTUAL\_DISK\_PARAMETERS**](/windows/win32/api/virtdisk/ns-virtdisk-mirror_virtual_disk_parameters)
+-   [**MODIFY\_VHDSET\_PARAMETERS**](/windows/win32/api/virtdisk/ns-virtdisk-modify_vhdset_parameters)
+-   [**OPEN\_VIRTUAL\_DISK\_PARAMETERS**](/windows/win32/api/virtdisk/ns-virtdisk-open_virtual_disk_parameters)
+-   [**RAW\_SCSI\_VIRTUAL\_DISK\_PARAMETERS**](/windows/win32/api/virtdisk/ns-virtdisk-raw_scsi_virtual_disk_parameters)
+-   [**RAW\_SCSI\_VIRTUAL\_DISK\_RESPONSE**](/windows/win32/api/virtdisk/ns-virtdisk-raw_scsi_virtual_disk_response)
+-   [**SET\_VIRTUAL\_DISK\_INFO**](/windows/win32/api/virtdisk/ns-virtdisk-set_virtual_disk_info)
+-   [**STORAGE\_DEPENDENCY\_INFO**](/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info)
+-   [**STORAGE\_DEPENDENCY\_INFO\_TYPE\_1**](/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info_type_1)
+-   [**STORAGE\_DEPENDENCY\_INFO\_TYPE\_2**](/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info_type_2)
+-   [**TAKE\_SNAPSHOT\_VHDSET\_PARAMETERS**](/windows/win32/api/virtdisk/ns-virtdisk-take_snapshot_vhdset_parameters)
+-   [**VIRTUAL\_DISK\_PROGRESS**](/windows/win32/api/virtdisk/ns-virtdisk-virtual_disk_progress)
+-   [**VIRTUAL\_STORAGE\_TYPE**](/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type)
 
  
 
  
-
-
-

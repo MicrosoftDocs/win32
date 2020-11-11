@@ -8,7 +8,7 @@ ms.date: 06/20/2019
 
 # IDXCoreAdapterList::GetAdapter method
 
-Retrieves a specific adapter by index from a DXCore adapter list object. For programming guidance, and code examples, see [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters).
+Retrieves a specific adapter by index from a DXCore adapter list object. For programming guidance, and code examples, see [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md).
 
 ## Syntax
 
@@ -36,7 +36,7 @@ A zero-based index, identifying an adapter instance within the DXCore adapter li
 
 Type: **REFIID**
 
-A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in *ppvAdapter*. This is expected to be the interface identifier (IID) of [IDXCoreAdapter](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapter).
+A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in *ppvAdapter*. This is expected to be the interface identifier (IID) of [IDXCoreAdapter](./nn-dxcore_interface-idxcoreadapter.md).
 
 ### ppvAdapter [out]
 
@@ -46,9 +46,9 @@ The address of a pointer to an interface with the IID specified in the *riid* pa
 
 ## Returns
 
-Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
+Type: **[HRESULT](../../com/structure-of-com-error-codes.md)**
 
-If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESULT**](/windows/win32/com/structure-of-com-error-codes) [error code](/windows/win32/com/com-error-codes-10).
+If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESULT**](../../com/structure-of-com-error-codes.md) [error code](../../com/com-error-codes-10.md).
 
 |Return value|Description|
 |-|-|
@@ -63,4 +63,4 @@ Multiple calls passing an index that represents the same adapter return identica
 
 ## See also
 
-[IDXCoreAdapterList](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
+[IDXCoreAdapterList](./nn-dxcore_interface-idxcoreadapterlist.md), [DXCore Reference](../dxcore-reference.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)

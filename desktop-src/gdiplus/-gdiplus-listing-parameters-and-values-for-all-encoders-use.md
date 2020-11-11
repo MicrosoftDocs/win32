@@ -234,7 +234,7 @@ You can draw the following conclusions by examining the preceding program output
 -   The JPEG encoder supports the Transformation, Quality, LuminanceTable, and ChrominanceTable parameter categories.
 -   The TIFF encoder supports the Compression, ColorDepth, and SaveFlag parameter categories.
 
-You can also see the number of acceptable values for each parameter category. For example, you can see that the ColorDepth parameter category (TIFF codec) has five values of type **ULONG**. The following code lists those five values. Assume that **pEncoderParameters** is a pointer to an [**EncoderParameters**](https://msdn.microsoft.com/library/ms534435(v=VS.85).aspx) object that represents the TIFF encoder.
+You can also see the number of acceptable values for each parameter category. For example, you can see that the ColorDepth parameter category (TIFF codec) has five values of type **ULONG**. The following code lists those five values. Assume that **pEncoderParameters** is a pointer to an [**EncoderParameters**](/windows/win32/api/gdiplusimaging/nl-gdiplusimaging-encoderparameters) object that represents the TIFF encoder.
 
 
 ```
@@ -267,7 +267,7 @@ The allowable values for ColorDepth are
 
 
 > [!Note]  
-> In some cases, the values in an [**EncoderParameter**](https://msdn.microsoft.com/library/ms534434(v=VS.85).aspx) object are the numeric values of elements of the [**EncoderValue**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-encodervalue) enumeration. However, the numbers in the preceding list do not relate to the **EncoderValue** enumeration. The numbers mean 1 bit per pixel, 2 bits per pixel, and so on.
+> In some cases, the values in an [**EncoderParameter**](/windows/win32/api/gdiplusimaging/nl-gdiplusimaging-encoderparameter) object are the numeric values of elements of the [**EncoderValue**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-encodervalue) enumeration. However, the numbers in the preceding list do not relate to the **EncoderValue** enumeration. The numbers mean 1 bit per pixel, 2 bits per pixel, and so on.
 
  
 
@@ -304,7 +304,3 @@ If you write code similar to the preceding example to investigate the allowable 
  
 
  
-
-
-
-

@@ -55,7 +55,7 @@ You can retrieve the qualifiers on a WMI instance in C# by first retrieving the 
 
     For more information, see [Retrieving a WMI Instance](retrieving-an-instance.md).
 
-2.  You can retrieve the class qualifiers from the [CimInstance.CimClass.CimClassQualifiers](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832272(v=vs.85)), the property qualifiers from [CimInstance.CimClass.CimClassProperties](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832271(v=vs.85)), and the method qualifiers from [CimInstance.CimClass.CimClassMethods](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832270(v=vs.85)).
+2.  You can retrieve the class qualifiers from the [CimInstance.CimClass.CimClassQualifiers](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832272(v=vs.85)), the property qualifiers from [CimInstance.CimClass.CimClassProperties](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832271(v=vs.85)), and the method qualifiers from [CimInstance.CimClass.CimClassMethods](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832270(v=vs.85)).
 
     ```CSharp
     Console.WriteLine("Class: " + myDrive.ToString());
@@ -96,7 +96,7 @@ You can retrieve the qualifiers on a WMI object in C# by first retrieving the ob
 
 **To retrieve a qualifier using C# (System.Management)**
 
-1.  Retrieve the object whose qualifiers you want to view using [ManagementObject](https://docs.microsoft.com/dotnet/api/system.management.managementobject?redirectedfrom=MSDN).
+1.  Retrieve the object whose qualifiers you want to view using [ManagementObject](/dotnet/api/system.management.managementobject).
 
     ```CSharp
     using System.Management;
@@ -108,7 +108,7 @@ You can retrieve the qualifiers on a WMI object in C# by first retrieving the ob
 
     For more information, see [Retrieving a WMI Instance](retrieving-an-instance.md).
 
-2.  Place the qualifiers into a [QualifierDataCollection](https://docs.microsoft.com/dotnet/api/system.management.qualifierdatacollection?redirectedfrom=MSDN), and enumerate through the [QualifierData](https://docs.microsoft.com/dotnet/api/system.management.qualifierdata?redirectedfrom=MSDN) values.
+2.  Place the qualifiers into a [QualifierDataCollection](/dotnet/api/system.management.qualifierdatacollection), and enumerate through the [QualifierData](/dotnet/api/system.management.qualifierdata) values.
 
     ```CSharp
     
@@ -148,7 +148,7 @@ The following procedure describes how to retrieve a qualifier using VBScript.
 
     
 
-The following code example describes how to access all the qualifiers on a [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) object.
+The following code example describes how to access all the qualifiers on a [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process) object.
 
 
 ```VB
@@ -192,6 +192,3 @@ For more information on retrieving qualifiers, see the [Get-WmiClassMethodsAndWr
  
 
  
-
-
-

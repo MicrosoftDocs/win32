@@ -8,12 +8,12 @@ ms.date: 05/31/2018
 
 # ACE Strings
 
-The [security descriptor definition language](security-descriptor-definition-language.md) (SDDL) uses ACE strings in the DACL and SACL components of a [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) string.
+The [security descriptor definition language](security-descriptor-definition-language.md) (SDDL) uses ACE strings in the DACL and SACL components of a [*security descriptor*](/windows/desktop/SecGloss/s-gly) string.
 
 As shown in the [Security Descriptor String Format](security-descriptor-string-format.md) examples, each ACE in a security descriptor string is enclosed in parentheses. The fields of the ACE are in the following order and are separated by semicolons (;).
 
 > [!Note]  
-> There is a different format for conditional [*access control entries*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACEs) than other ACE types. For conditional ACEs, see [Security Descriptor Definition Language for Conditional ACEs](security-descriptor-definition-language-for-conditional-aces-.md).
+> There is a different format for conditional [*access control entries*](/windows/desktop/SecGloss/a-gly) (ACEs) than other ACE types. For conditional ACEs, see [Security Descriptor Definition Language for Conditional ACEs](security-descriptor-definition-language-for-conditional-aces-.md).
 
  
 
@@ -155,7 +155,7 @@ A string that indicates the [access rights](access-rights-and-access-masks.md) c
 <span id="object_guid"></span><span id="OBJECT_GUID"></span>**object\_guid**
 </dt> <dd>
 
-A string representation of a GUID that indicates the value of the **ObjectType** member of an object-specific ACE structure, such as [**ACCESS\_ALLOWED\_OBJECT\_ACE**](/windows/desktop/api/Winnt/ns-winnt-access_allowed_object_ace). The GUID string uses the format returned by the [**UuidToString**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidtostring) function.
+A string representation of a GUID that indicates the value of the **ObjectType** member of an object-specific ACE structure, such as [**ACCESS\_ALLOWED\_OBJECT\_ACE**](/windows/desktop/api/Winnt/ns-winnt-access_allowed_object_ace). The GUID string uses the format returned by the [**UuidToString**](/windows/desktop/api/rpcdce/nf-rpcdce-uuidtostring) function.
 
 The following table lists some commonly used object GUIDs.
 
@@ -175,7 +175,7 @@ The following table lists some commonly used object GUIDs.
 <span id="inherit_object_guid"></span><span id="INHERIT_OBJECT_GUID"></span>**inherit\_object\_guid**
 </dt> <dd>
 
-A string representation of a GUID that indicates the value of the **InheritedObjectType** member of an object-specific ACE structure. The GUID string uses the [**UuidToString**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidtostring) format.
+A string representation of a GUID that indicates the value of the **InheritedObjectType** member of an object-specific ACE structure. The GUID string uses the [**UuidToString**](/windows/desktop/api/rpcdce/nf-rpcdce-uuidtostring) format.
 
 </dd> <dt>
 
@@ -267,13 +267,6 @@ For more information, see [Security Descriptor String Format](security-descripto
 
 <dl> <dt>
 
-[\[MS-DTYP\]: Security Descriptor Description Language](https://msdn.microsoft.com/library/cc230368(PROT.10).aspx)
+[\[MS-DTYP\]: Security Descriptor Description Language](/openspecs/windows_protocols/ms-dtyp/4f4251cc-23b6-44b6-93ba-69688422cb06)
 </dt> </dl>
-
- 
-
- 
-
-
-
 

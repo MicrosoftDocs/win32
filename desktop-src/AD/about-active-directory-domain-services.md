@@ -23,7 +23,7 @@ This guide provides essential information for integrating Active Directory Domai
 -   Windows Server 2016
 
 > [!Note]  
-> These topics are for software developers. For support issues, see [Microsoft Support](https://windows.microsoft.com/windows/support#1tc). For information about administering Active Directory, see [Active Directory Domain Services](https://technet.microsoft.com/library/cc770946.aspx) at TechNet.
+> These topics are for software developers. For support issues, see [Microsoft Support](https://windows.microsoft.com/windows/support#1tc). For information about administering Active Directory, see [Active Directory Domain Services](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770946(v=ws.10)) at TechNet.
 
  
 
@@ -79,7 +79,7 @@ Active Directory Domain Services provides the features listed in the following t
 </tr>
 <tr class="odd">
 <td>Easily programmable</td>
-<td>The Active Directory server can be programmatically accessed and administered using the <a href="https://docs.microsoft.com/windows/desktop/ADSI/active-directory-service-interfaces-adsi">Active Directory Service Interfaces</a> API, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol</a> API, or the <a href="https://docs.microsoft.com/dotnet/api/system.directoryservices?redirectedfrom=MSDN">System.DirectoryServices</a> namespace.</td>
+<td>The Active Directory server can be programmatically accessed and administered using the <a href="/windows/desktop/ADSI/active-directory-service-interfaces-adsi">Active Directory Service Interfaces</a> API, <a href="/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol</a> API, or the <a href="/dotnet/api/system.directoryservices">System.DirectoryServices</a> namespace.</td>
 </tr>
 <tr class="even">
 <td>Directory enabled system services</td>
@@ -105,12 +105,4 @@ For more information about Active Directory Domain Services, see:
 -   [Core Concepts of Active Directory Domain Services](core-concepts-of-active-directory-domain-services.md)
 -   [Active Directory Architecture](active-directory-domain-services-architecture.md)
 -   [Active Directory Schema](active-directory-schema.md)
-
- 
-
- 
-
-
-
-
 

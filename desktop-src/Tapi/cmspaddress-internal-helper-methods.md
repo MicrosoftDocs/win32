@@ -12,8 +12,8 @@ ms.date: 05/31/2018
 
 | CMSPAddress internal helper methods                                        | Description                                                                                                                                                                                                                                                                  |
 |----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetStaticTerminals**](/windows/desktop/api/Mspaddr/nf-mspaddr-cmspaddress-getstaticterminals)               | Called by [**get\_StaticTerminals**](https://msdn.microsoft.com/library/ms733180(v=VS.85).aspx) and [**EnumerateStaticTerminals**](https://msdn.microsoft.com/library/ms733174(v=VS.85).aspx) to get an array of static terminals that can be used on this address.                                     |
-| [**GetDynamicTerminalClasses**](/windows/desktop/api/Mspaddr/nf-mspaddr-cmspaddress-getdynamicterminalclasses) | Called by [**get\_DynamicTerminalClasses**](https://msdn.microsoft.com/library/ms733178(v=VS.85).aspx) and [**EnumerateDynamicTerminalClasses**](https://msdn.microsoft.com/library/ms733173(v=VS.85).aspx) to get an array of dynamic terminal classes that can be used on this address. |
+| [**GetStaticTerminals**](/windows/desktop/api/Mspaddr/nf-mspaddr-cmspaddress-getstaticterminals)               | Called by [**get\_StaticTerminals**](/windows/win32/api/tapi3if/nf-tapi3if-itterminalsupport-get_staticterminals) and [**EnumerateStaticTerminals**](/windows/win32/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratestaticterminals) to get an array of static terminals that can be used on this address.                                     |
+| [**GetDynamicTerminalClasses**](/windows/desktop/api/Mspaddr/nf-mspaddr-cmspaddress-getdynamicterminalclasses) | Called by [**get\_DynamicTerminalClasses**](/windows/win32/api/tapi3if/nf-tapi3if-itterminalsupport-get_dynamicterminalclasses) and [**EnumerateDynamicTerminalClasses**](/windows/win32/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratedynamicterminalclasses) to get an array of dynamic terminal classes that can be used on this address. |
 | [**UpdateTerminalList**](/windows/desktop/api/Mspaddr/nf-mspaddr-cmspaddress-updateterminallist)               | Populates the MSP's list of static terminals.                                                                                                                                                                                                                                |
 | [**ReceiveTSPAddressData**](/windows/desktop/api/Mspaddr/nf-mspaddr-cmspaddress-receivetspaddressdata)         | Called when a TSP data message is intended to be processed by the address rather than by a specific call.                                                                                                                                                                    |
 
@@ -31,6 +31,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-

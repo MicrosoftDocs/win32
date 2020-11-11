@@ -17,9 +17,9 @@ api_location:
 
 # EnvelopedData.Algorithm property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**EnvelopedCms Class**](https://msdn.microsoft.com/library/f73feezf(v=VS.90).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.90).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**EnvelopedCms Class**](/dotnet/api/system.security.cryptography.pkcs.envelopedcms?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
 
-The **Algorithm** property retrieves the encryption algorithm and [*key length*](https://msdn.microsoft.com/library/ms721590(v=VS.85).aspx).
+The **Algorithm** property retrieves the encryption algorithm and [*key length*](../secgloss/k-gly.md).
 
 ## Syntax
 
@@ -57,7 +57,3 @@ An [**Algorithm**](algorithm.md) object that contains the encryption algorithm a
  
 
  
-
-
-
-

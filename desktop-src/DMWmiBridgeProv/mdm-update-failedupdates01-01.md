@@ -52,7 +52,7 @@ The **MDM\_Update\_FailedUpdates01\_01** class has these properties.
 
 <dl> <dt>
 
-[HResult](https://docs.microsoft.com/windows/client-management/mdm/update-csp#failedupdates-failed-update-guid-hresult)
+[HResult](/windows/client-management/mdm/update-csp#failedupdates-failed-update-guid-hresult)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -72,7 +72,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is the GUID of the failed update.
@@ -88,14 +88,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/Update/FailedUpdates"
 
 </dd> <dt>
 
-[**State**](https://docs.microsoft.com/windows/client-management/mdm/update-csp)
+[**State**](/windows/client-management/mdm/update-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -121,10 +121,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

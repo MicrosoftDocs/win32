@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 You can use the code examples in this topic as a starting point for many Background Intelligent Transfer Service (BITS) applications that perform COM initialization, need error handling, and receive callback notifications.
 
-## 
 
 The following code example defines an exception class to handle errors.
 
@@ -32,9 +31,8 @@ public:
 
 The MyException class is a generic exception class that accepts an HRESULT code and error string.
 
-## 
 
-The following code example defines a resource acquisition helper class for the [CoInitializeEx](https://msdn.microsoft.com/library/ms695279.aspx) function.
+The following code example defines a resource acquisition helper class for the [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) function.
 
 
 ```C++
@@ -59,9 +57,8 @@ public:
 
 
 
-The CCoInitializer class deals with resource allocation and deallocation for COM initialization. This class enables the destructor to be called when the class goes out of scope. This class eliminates the need for the [CoUninitialize](https://msdn.microsoft.com/library/ms688715.aspx) method to be called after every exception block.
+The CCoInitializer class deals with resource allocation and deallocation for COM initialization. This class enables the destructor to be called when the class goes out of scope. This class eliminates the need for the [CoUninitialize](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize) method to be called after every exception block.
 
-## 
 
 The following code example is the declaration of the CNotifyInterface callback interface.
 
@@ -98,13 +95,12 @@ private:
 
 
 
-The CNotifyInterface class derived from the [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) interface. The CNotifyInterface class implements the IUnknown interface. For more information, see [IUnknown]( http://msdn.microsoft.com/en-us/library/ms680509.aspx).
+The CNotifyInterface class derived from the [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) interface. The CNotifyInterface class implements the IUnknown interface. For more information, see [IUnknown]( /windows/win32/api/unknwn/nn-unknwn-iunknown).
 
 CNotifyInterface uses the following methods to receive notification that a job is complete, has been modified, or is in an error state: [**JobTransferred**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-jobtransferred), [**JobModification**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-jobmodification), and [**JobError**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-joberror). All of these methods take an [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) job object.
 
-This example uses the [CoTaskMemFree](https://msdn.microsoft.com/library/ms680722.aspx) to free memory resources.
+This example uses the [CoTaskMemFree](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) to free memory resources.
 
-## 
 
 The following code example is the implementation of the [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) callback interface.
 
@@ -210,7 +206,6 @@ HRESULT CNotifyInterface::JobError(IBackgroundCopyJob* pJob, IBackgroundCopyErro
 
 
 
-## 
 
 The following header file is used for the common code classes. These classes are used in the previous code examples.
 
@@ -281,7 +276,6 @@ private:
 
 
 
-## 
 
 The following example code is the implementation of the common code classes.
 
@@ -405,7 +399,7 @@ HRESULT CNotifyInterface::JobError(IBackgroundCopyJob* pJob, IBackgroundCopyErro
 
 <dl> <dt>
 
-[IUnknown]( http://msdn.microsoft.com/en-us/library/ms680509.aspx)
+[IUnknown]( /windows/win32/api/unknwn/nn-unknwn-iunknown)
 </dt> <dt>
 
 [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback)
@@ -414,16 +408,12 @@ HRESULT CNotifyInterface::JobError(IBackgroundCopyJob* pJob, IBackgroundCopyErro
 [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob)
 </dt> <dt>
 
-[CoInitializeEx](https://msdn.microsoft.com/library/ms695279.aspx)
+[CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex)
 </dt> <dt>
 
-[CoUninitialize](https://msdn.microsoft.com/library/ms688715.aspx)
+[CoUninitialize](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize)
 </dt> </dl>
 
  
 
  
-
-
-
-

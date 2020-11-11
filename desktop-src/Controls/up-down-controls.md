@@ -56,15 +56,15 @@ This section describes the standard Windows messages processed by an up-down con
 
 | Message                                        | Processing performed                                                                                                                                                                                         |
 |------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**WM\_CREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-create)             | Allocates and initializes a private data structure and saves its address as window data.                                                                                                                     |
-| [**WM\_DESTROY**](https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy)           | Frees data allocated during [**WM\_CREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-create) processing.                                                                                                                                   |
-| [**WM\_ENABLE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-enable)             | Invalidates the window.                                                                                                                                                                                      |
-| [**WM\_KEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown)         | Changes the current position in the case of an UP ARROW or DOWN ARROW key.                                                                                                                                   |
-| [**WM\_KEYUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup)             | Completes the position change.                                                                                                                                                                               |
-| [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown) | Captures the mouse. If the buddy window is an edit control or list box, it sets the focus to the buddy window. If the mouse is over the up or down button, it begins changing the position and sets a timer. |
-| [**WM\_LBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttonup)     | Completes the position change and releases the mouse capture if the up-down control has captured the mouse. If the buddy window is an edit control, it selects all the text in the edit control.             |
-| [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint)                  | Paints the up-down control. If the *wParam* parameter is non-NULL, the control assumes that the value is an **HDC** and paints using that device context.                                                    |
-| [**WM\_TIMER**](https://docs.microsoft.com/windows/desktop/winmsg/wm-timer)               | Changes the current position if the mouse is being held down over a button and a sufficient interval has elapsed.                                                                                            |
+| [**WM\_CREATE**](/windows/desktop/winmsg/wm-create)             | Allocates and initializes a private data structure and saves its address as window data.                                                                                                                     |
+| [**WM\_DESTROY**](/windows/desktop/winmsg/wm-destroy)           | Frees data allocated during [**WM\_CREATE**](/windows/desktop/winmsg/wm-create) processing.                                                                                                                                   |
+| [**WM\_ENABLE**](/windows/desktop/winmsg/wm-enable)             | Invalidates the window.                                                                                                                                                                                      |
+| [**WM\_KEYDOWN**](/windows/desktop/inputdev/wm-keydown)         | Changes the current position in the case of an UP ARROW or DOWN ARROW key.                                                                                                                                   |
+| [**WM\_KEYUP**](/windows/desktop/inputdev/wm-keyup)             | Completes the position change.                                                                                                                                                                               |
+| [**WM\_LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown) | Captures the mouse. If the buddy window is an edit control or list box, it sets the focus to the buddy window. If the mouse is over the up or down button, it begins changing the position and sets a timer. |
+| [**WM\_LBUTTONUP**](/windows/desktop/inputdev/wm-lbuttonup)     | Completes the position change and releases the mouse capture if the up-down control has captured the mouse. If the buddy window is an edit control, it selects all the text in the edit control.             |
+| [**WM\_PAINT**](/windows/desktop/gdi/wm-paint)                  | Paints the up-down control. If the *wParam* parameter is non-NULL, the control assumes that the value is an **HDC** and paints using that device context.                                                    |
+| [**WM\_TIMER**](/windows/desktop/winmsg/wm-timer)               | Changes the current position if the mouse is being held down over a button and a sufficient interval has elapsed.                                                                                            |
 
 
 
@@ -73,7 +73,3 @@ This section describes the standard Windows messages processed by an up-down con
  
 
  
-
-
-
-

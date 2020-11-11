@@ -43,17 +43,13 @@ In addition, from a localization perspective, each vendor should localize the cl
 
 **To add a name mapping value to the **attributeDisplayNames** attribute**
 
-1.  Determine if the name mapping value for the attribute exists. If a name mapping value is to be replaced, first deleted the existing value, using the [**IADs::PutEx**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex) method, with the *lnControlCode* parameter set to **ADS\_PROPERTY\_DELETE** and the *vProp* parameter set to the value to be removed. Do not use **ADS\_PROPERTY\_CLEAR** or **ADS\_PROPERTY\_UPDATE** for *lnControlCode*.
+1.  Determine if the name mapping value for the attribute exists. If a name mapping value is to be replaced, first deleted the existing value, using the [**IADs::PutEx**](/windows/desktop/api/iads/nf-iads-iads-putex) method, with the *lnControlCode* parameter set to **ADS\_PROPERTY\_DELETE** and the *vProp* parameter set to the value to be removed. Do not use **ADS\_PROPERTY\_CLEAR** or **ADS\_PROPERTY\_UPDATE** for *lnControlCode*.
 2.  Create the string that represents the attribute display name. For an example, see the format above.
-3.  Use the [**IADs::PutEx**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex) method with the *lnControlCode* parameter set to **ADS\_PROPERTY\_APPEND** to add the new value.
-4.  Call [**IADs::SetInfo**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo) to commit the changes to the directory.
+3.  Use the [**IADs::PutEx**](/windows/desktop/api/iads/nf-iads-iads-putex) method with the *lnControlCode* parameter set to **ADS\_PROPERTY\_APPEND** to add the new value.
+4.  Call [**IADs::SetInfo**](/windows/desktop/api/iads/nf-iads-iads-setinfo) to commit the changes to the directory.
 
 For more information about naming new classes and attributes, see [Naming Attributes and Classes](naming-attributes-and-classes.md).
 
  
 
  
-
-
-
-

@@ -13,7 +13,6 @@ ms.date: 05/31/2018
 
 The APIs that are used to manage triggers vary depending on the version of the Task Scheduler. However, in both cases these APIs enable you to create new triggers, retrieve and update existing triggers, and delete triggers that are no longer required.
 
-## 
 
 Applications that are developed using Task Scheduler 2.0 can use objects and interfaces to create, retrieve, modify, and delete the triggers for a task.
 
@@ -49,7 +48,7 @@ For more information about the methods and properties of the interfaces that are
 -   [**IBootTrigger**](/windows/desktop/api/taskschd/nn-taskschd-iboottrigger)
 -   [**IDailyTrigger**](/windows/desktop/api/taskschd/nn-taskschd-idailytrigger)
 -   [**IEventTrigger**](/windows/desktop/api/taskschd/nn-taskschd-ieventtrigger)
--   [**IIdleTrigger**](https://msdn.microsoft.com/library/Aa380724(v=VS.85).aspx)
+-   [**IIdleTrigger**](/windows/win32/api/taskschd/nn-taskschd-iidletrigger)
 -   [**ILogonTrigger**](/windows/desktop/api/taskschd/nn-taskschd-ilogontrigger)
 -   [**IMonthlyDOWTrigger**](/windows/desktop/api/taskschd/nn-taskschd-imonthlydowtrigger)
 -   [**IMonthlyTrigger**](/windows/desktop/api/taskschd/nn-taskschd-imonthlytrigger)
@@ -85,7 +84,3 @@ Once the trigger object is available, you can use the [**ITaskTrigger**](/window
  
 
  
-
-
-
-

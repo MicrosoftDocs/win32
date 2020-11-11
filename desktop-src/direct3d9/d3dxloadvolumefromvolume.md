@@ -45,9 +45,9 @@ HRESULT D3DXLoadVolumeFromVolume(
 *pDestVolume* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVOLUME9**](https://msdn.microsoft.com/library/Bb205932(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DVOLUME9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvolume9)**
 
-Pointer to an [**IDirect3DVolume9**](https://msdn.microsoft.com/library/Bb205932(v=VS.85).aspx) interface. Specifies the destination volume, which receives the image.
+Pointer to an [**IDirect3DVolume9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvolume9) interface. Specifies the destination volume, which receives the image.
 
 </dd> <dt>
 
@@ -72,9 +72,9 @@ Pointer to a [**D3DBOX**](d3dbox.md) structure. Specifies the destination box. S
 *pSrcVolume* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVOLUME9**](https://msdn.microsoft.com/library/Bb205932(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DVOLUME9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvolume9)**
 
-A Pointer to an [**IDirect3DVolume9**](https://msdn.microsoft.com/library/Bb205932(v=VS.85).aspx) interface. Specifies the source volume.
+A Pointer to an [**IDirect3DVolume9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvolume9) interface. Specifies the source volume.
 
 </dd> <dt>
 
@@ -99,7 +99,7 @@ Pointer to a [**D3DBOX**](d3dbox.md) structure. Specifies the source box. Set th
 *Filter* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 A combination of one or more [D3DX\_FILTER](d3dx-filter.md), controlling how the image is filtered. Specifying D3DX\_DEFAULT for this parameter is the equivalent of specifying D3DX\_FILTER\_TRIANGLE \| D3DX\_FILTER\_DITHER.
 
@@ -122,7 +122,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 ## Remarks
 
-Writing to a non-level-zero surface of the volume texture will not cause the dirty rectangle to be updated. If **D3DXLoadVolumeFromVolume** is called and the surface was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**IDirect3DVolumeTexture9::AddDirtyBox**](https://msdn.microsoft.com/library/Bb205942(v=VS.85).aspx) on the surface.
+Writing to a non-level-zero surface of the volume texture will not cause the dirty rectangle to be updated. If **D3DXLoadVolumeFromVolume** is called and the surface was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**IDirect3DVolumeTexture9::AddDirtyBox**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dvolumetexture9-adddirtybox) on the surface.
 
 ## Requirements
 
@@ -157,7 +157,3 @@ Writing to a non-level-zero surface of the volume texture will not cause the dir
  
 
  
-
-
-
-

@@ -18,9 +18,9 @@ api_location:
 
 # Pause method of the Win32\_PrintJob class
 
-The **Pause** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method suspends a print job.
+The **Pause** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method suspends a print job.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -102,9 +102,4 @@ Next
 </dt> </dl>
 
  
-
- 
-
-
-
 

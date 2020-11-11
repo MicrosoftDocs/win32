@@ -13,13 +13,10 @@ After beginning preview of a video stream, call the [**IWiaVideo::TakePicture**]
 When the [**IWiaVideo::TakePicture**](/windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-takepicture) method returns, the *pbstrNewImageFilename* parameter contains the full path and filename of the resulting image file. The file is in JPEG format. The directory in which the file is created is specified by the value of the [**IWiaVideo::ImagesDirectory**](/windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-get_imagesdirectory) property of the [**IWiaVideo**](/windows/desktop/api/Wiavideo/nn-wiavideo-iwiavideo) interface.
 
 > [!Note]  
-> Windows Image Acquisition (WIA) does not support video devices in Windows Server 2003, Windows Vista, or later. For those versions of the Windows, use [DirectShow](https://msdn.microsoft.com/library/ms783323(VS.85).aspx) to acquire images from video.
+> Windows Image Acquisition (WIA) does not support video devices in Windows Server 2003, Windows Vista, or later. For those versions of the Windows, use [DirectShow](/previous-versions//ms783323(v=vs.85)) to acquire images from video.
 
  
 
  
 
  
-
-
-

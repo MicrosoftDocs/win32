@@ -76,7 +76,7 @@ If the function fails, the return value is zero.
 
  
 
-The caller must have the [SeLoadDriverPrivilege](https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants).
+The caller must have the [SeLoadDriverPrivilege](/windows/desktop/SecAuthZ/authorization-constants).
 
 The **DeletePrinterDriver** function does not delete the associated files, it merely removes the driver name from the list returned by the [**EnumPrinterDrivers**](enumprinterdrivers.md) function.
 
@@ -114,9 +114,4 @@ Before calling **DeletePrinterDriver**, you must delete all printer objects that
 </dt> </dl>
 
  
-
- 
-
-
-
 

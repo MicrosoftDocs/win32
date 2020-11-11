@@ -39,7 +39,7 @@ In general, the marshaling is accomplished automatically by COM. For example, wh
 
 If one apartment (Apartment 1) in a process has an interface pointer and another apartment (Apartment 2) requires its use, Apartment 1 must call [**CoMarshalInterThreadInterfaceInStream**](/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterthreadinterfaceinstream) to marshal the interface. The stream that is created by this function is thread-safe and must be stored in a variable that is accessible by Apartment 2. Apartment 2 must pass this stream to [**CoGetInterfaceAndReleaseStream**](/windows/desktop/api/combaseapi/nf-combaseapi-cogetinterfaceandreleasestream) to unmarshal the interface and will get back a pointer to a proxy through which it can access the interface. The main apartment must remain alive until the client has completed all COM work (because some in-process objects are loaded in the main apartment, as described in [In-Process Server Threading Issues](in-process-server-threading-issues.md)). After one object has been passed between threads in this manner, it is very easy to pass interface pointers as parameters. That way, distributed COM does the marshaling and thread switching for the application.
 
-To handle calls from other processes and apartments within the same process, each single-threaded apartment must have a message loop. This means that the thread's work function must have a GetMessage/DispatchMessage loop. If other synchronization primitives are being used to communicate between threads, the [**MsgWaitForMultipleObjects**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjects) function can be used to wait both for messages and for thread synchronization events. The documentation for this function has an example of this sort of combination loop.
+To handle calls from other processes and apartments within the same process, each single-threaded apartment must have a message loop. This means that the thread's work function must have a GetMessage/DispatchMessage loop. If other synchronization primitives are being used to communicate between threads, the [**MsgWaitForMultipleObjects**](/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjects) function can be used to wait both for messages and for thread synchronization events. The documentation for this function has an example of this sort of combination loop.
 
 COM creates a hidden window using the Windows class "OleMainThreadWndClass" in each single-threaded apartment. A call to an object is received as a window message to this hidden window. When the object's apartment retrieves and dispatches the message, the hidden window will receive it. The window procedure will then call the corresponding interface method of the object.
 
@@ -72,7 +72,3 @@ The object can be reentered if one of its interface method implementations retri
  
 
  
-
-
-
-

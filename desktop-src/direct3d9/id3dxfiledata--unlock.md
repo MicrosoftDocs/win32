@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 The return value is S\_OK.
 
@@ -64,7 +64,3 @@ You must ensure that the number of [**ID3DXFileData::Lock**](id3dxfiledata--lock
  
 
  
-
-
-
-

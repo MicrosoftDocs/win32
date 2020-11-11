@@ -29,7 +29,7 @@ COM+ removes or reduces several limitations of debugging with Microsoft Visual B
     Set obj = Nothing
     ```
 
-    If the obj.Test method calls [**IObjectContext::SetComplete**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-setcomplete), COM+ immediately frees obj from memory, but obj has not yet been set to Nothing. When obj.Test returns, the Visual Basic debugger calls [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on obj for the [**IProvideClassInfo**](https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo) interface. The context wrapper associated with obj creates a new instance of MyApp.MyClass to service the **QueryInterface** call. As a result, you will see this uninitialized object in the debugger after obj.Test has returned. This object appears only in the debugger and is removed by the subsequent instruction to set obj to Nothing.
+    If the obj.Test method calls [**IObjectContext::SetComplete**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-setcomplete), COM+ immediately frees obj from memory, but obj has not yet been set to Nothing. When obj.Test returns, the Visual Basic debugger calls [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on obj for the [**IProvideClassInfo**](/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo) interface. The context wrapper associated with obj creates a new instance of MyApp.MyClass to service the **QueryInterface** call. As a result, you will see this uninitialized object in the debugger after obj.Test has returned. This object appears only in the debugger and is removed by the subsequent instruction to set obj to Nothing.
 
 ## Related topics
 
@@ -44,6 +44,3 @@ COM+ removes or reduces several limitations of debugging with Microsoft Visual B
  
 
  
-
-
-

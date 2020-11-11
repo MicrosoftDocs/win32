@@ -74,7 +74,7 @@ This method does not work on supported versions of Windows. Use <a href="--syste
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="--systemsecurity-getsd.md"><strong>GetSD</strong></a></td>
-<td style="text-align: left;">Gets the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor"><strong>SECURITY_DESCRIPTOR</strong></a> for the namespace to which the user is connected.<br/></td>
+<td style="text-align: left;">Gets the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor"><strong>SECURITY_DESCRIPTOR</strong></a> for the namespace to which the user is connected.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="getsecuritydescriptor-method-in-class---systemsecurity-.md"><strong>GetSecurityDescriptor</strong></a></td>
@@ -139,16 +139,9 @@ You can require that client scripts and applications use an encrypted connection
 [Establishing Inheritance of Namespace Security](establishing-inheritance-of-namespace-security.md)
 </dt> <dt>
 
-[Access Control Lists (ACLs)](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists)
+[Access Control Lists (ACLs)](/windows/desktop/SecAuthZ/access-control-lists)
 </dt> <dt>
 
-[**Security\_Descriptor**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor)
+[**Security\_Descriptor**](/windows/desktop/api/winnt/ns-winnt-security_descriptor)
 </dt> </dl>
-
- 
-
- 
-
-
-
 

@@ -16,7 +16,7 @@ long * plConfidenceThreshold  // address of ConfidenceThreshold
 );                            // setting for Command
 ```
 
-Retrieves the value of the [**ConfidenceThreshold**](https://docs.microsoft.com/windows/desktop/lwef/confidence-property) property for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
+Retrieves the value of the [**ConfidenceThreshold**](/windows/desktop/lwef/confidence-property) property for a [**Command**](/windows/desktop/lwef/the-command-object).
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,7 +25,7 @@ Retrieves the value of the [**ConfidenceThreshold**](https://docs.microsoft.com/
 <span id="plConfidenceThreshold"></span><span id="plconfidencethreshold"></span><span id="PLCONFIDENCETHRESHOLD"></span>*plConfidenceThreshold*
 </dt> <dd>
 
-The address of a variable that receives the value of the [**ConfidenceThreshold**](https://docs.microsoft.com/windows/desktop/lwef/confidence-property) property for a Command.
+The address of a variable that receives the value of the [**ConfidenceThreshold**](/windows/desktop/lwef/confidence-property) property for a Command.
 
 </dd> </dl>
 
@@ -37,7 +37,3 @@ The address of a variable that receives the value of the [**ConfidenceThreshold*
  
 
  
-
-
-
-

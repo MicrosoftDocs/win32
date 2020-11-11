@@ -810,7 +810,7 @@
       - name: "accept"
         href: /windows/win32/api/Winsock2/nf-winsock2-accept
       - name: "AcceptEx"
-        href: https://docs.microsoft.com/windows/win32/api/mswsock/nf-mswsock-acceptex
+        href: /windows/win32/api/mswsock/nf-mswsock-acceptex
       - name: "bind"
         href: /windows/win32/api/winsock/nf-winsock-bind
       - name: "closesocket"
@@ -832,7 +832,7 @@
       - name: "gai_strerror"
         href: /windows/win32/api/Ws2tcpip/nf-ws2tcpip-gai_strerrora
       - name: "GetAcceptExSockaddrs"
-        href: https://docs.microsoft.com/windows/win32/api/mswsock/nf-mswsock-getacceptexsockaddrs
+        href: /windows/win32/api/mswsock/nf-mswsock-getacceptexsockaddrs
       - name: "GetAddressByName"
         href: /windows/win32/api/Nspapi/nf-nspapi-getaddressbynamea
       - name: "getaddrinfo"
@@ -846,9 +846,9 @@
       - name: "GetAddrInfoW"
         href: /windows/win32/api/Ws2tcpip/nf-ws2tcpip-getaddrinfow
       - name: "gethostbyaddr"
-        href: https://docs.microsoft.com/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr
+        href: /windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr
       - name: "gethostbyname"
-        href: https://docs.microsoft.com/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyname
+        href: /windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyname
       - name: "gethostname"
         href: /windows/win32/api/winsock/nf-winsock-gethostname
       - name: "GetHostNameW"
@@ -892,9 +892,9 @@
       - name: "htons"
         href: /windows/win32/api/winsock/nf-winsock-htons
       - name: "inet_addr"
-        href: https://docs.microsoft.com/windows/win32/api/wsipv6ok/nf-wsipv6ok-inet_addr
+        href: /windows/win32/api/wsipv6ok/nf-wsipv6ok-inet_addr
       - name: "inet_ntoa"
-        href: https://docs.microsoft.com/windows/win32/api/wsipv6ok/nf-wsipv6ok-inet_ntoa
+        href: /windows/win32/api/wsipv6ok/nf-wsipv6ok-inet_ntoa
       - name: "InetNtop"
         href: /windows/win32/api/Ws2tcpip/nf-ws2tcpip-inetntopw
       - name: "InetPton"
@@ -966,7 +966,7 @@
       - name: "socket"
         href: /windows/win32/api/Winsock2/nf-winsock2-socket
       - name: "TransmitFile"
-        href: https://docs.microsoft.com/windows/win32/api/mswsock/nf-mswsock-transmitfile
+        href: /windows/win32/api/mswsock/nf-mswsock-transmitfile
       - name: "LPFN_TRANSMITPACKETS"
         href: /windows/win32/api/Mswsock/nc-mswsock-lpfn_transmitpackets
       - name: "WSAAccept"
@@ -974,9 +974,9 @@
       - name: "WSAAddressToString"
         href: /windows/win32/api/Winsock2/nf-winsock2-wsaaddresstostringa
       - name: "WSAAsyncGetHostByAddr"
-        href: https://docs.microsoft.com/windows/win32/api/wsipv6ok/nf-wsipv6ok-wsaasyncgethostbyaddr
+        href: /windows/win32/api/wsipv6ok/nf-wsipv6ok-wsaasyncgethostbyaddr
       - name: "WSAAsyncGetHostByName"
-        href: https://docs.microsoft.com/windows/win32/api/wsipv6ok/nf-wsipv6ok-wsaasyncgethostbyname
+        href: /windows/win32/api/wsipv6ok/nf-wsipv6ok-wsaasyncgethostbyname
       - name: "WSAAsyncGetProtoByName"
         href: /windows/win32/api/winsock/nf-winsock-wsaasyncgetprotobyname
       - name: "WSAAsyncGetProtoByNumber"
@@ -1066,7 +1066,7 @@
       - name: "WSANtohs"
         href: /windows/win32/api/Winsock2/nf-winsock2-wsantohs
       - name: "WSAPoll"
-        href: https://docs.microsoft.com/windows/win32/api/winsock2/nf-winsock2-wsapoll
+        href: /windows/win32/api/winsock2/nf-winsock2-wsapoll
       - name: "WSAQuerySocketSecurity"
         href: /windows/win32/api/Ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity
       - name: "WSAProviderConfigChange"
@@ -1076,11 +1076,11 @@
       - name: "WSARecvDisconnect"
         href: /windows/win32/api/Winsock2/nf-winsock2-wsarecvdisconnect
       - name: "WSARecvEx"
-        href: https://docs.microsoft.com/windows/win32/api/mswsock/nf-mswsock-wsarecvex
+        href: /windows/win32/api/mswsock/nf-mswsock-wsarecvex
       - name: "WSARecvFrom"
         href: /windows/win32/api/Winsock2/nf-winsock2-wsarecvfrom
-      - name: "WSARecvMsg"
-        href: /previous-versions/windows/desktop/legacy/ms741687(v=vs.85)
+      - name: "LPFN_WSARECVMSG (WSARecvMsg)"
+        href: /windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg
       - name: "WSARemoveServiceClass"
         href: /windows/win32/api/Winsock2/nf-winsock2-wsaremoveserviceclass
       - name: "WSAResetEvent"
@@ -1129,7 +1129,7 @@
       href: winsock-structures.md
       items: 
       - name: "addrinfo"
-        href: https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-addrinfoa
+        href: /windows/win32/api/ws2def/ns-ws2def-addrinfoa
       - name: "addrinfoW"
         href: /windows/win32/api/Ws2def/ns-ws2def-addrinfow
       - name: "addrinfoex"
@@ -1159,7 +1159,7 @@
       - name: "hostent"
         href: /windows/win32/api/winsock/ns-winsock-hostent
       - name: "in_addr"
-        href: https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-in_addr
+        href: /windows/win32/api/winsock2/ns-winsock2-in_addr
       - name: "in_pktinfo"
         href: /windows/win32/api/Ws2ipdef/ns-ws2ipdef-in_pktinfo
       - name: "in6_addr"
@@ -1263,7 +1263,7 @@
       - name: "TRANSMIT_PACKETS_ELEMENT"
         href: /windows/win32/api/Mswsock/ns-mswsock-transmit_packets_element
       - name: "TRANSPORT_SETTING_ID"
-        href: https://docs.microsoft.com/windows/win32/api/mstcpip/ns-mstcpip-transport_setting_id
+        href: /windows/win32/api/mstcpip/ns-mstcpip-transport_setting_id
       - name: "WSABUF"
         href: /windows/win32/api/ws2def/ns-ws2def-wsabuf
       - name: "WSACOMPLETION"
@@ -1464,23 +1464,23 @@
         - name: "LPWSPADDRESSTOSTRING"
           href: /windows/win32/api/Ws2spi/nc-ws2spi-lpwspaddresstostring
         - name: "LPWSPASYNCSELECT"
-          href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/ms742267(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/ms742267(v=vs.85)
         - name: "LPWSPBIND"
-          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566268(v%3dvs.85)
+          href: /previous-versions/windows/hardware/network/ff566268(v=vs.85)
         - name: "LPWSPCANCELBLOCKINGCALL"
           href: /windows/win32/api/ws2spi/nc-ws2spi-lpwspcancelblockingcall
         - name: "LPWSPCLEANUP"
-          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566270(v%3dvs.85)
+          href: /previous-versions/windows/hardware/network/ff566270(v=vs.85)
         - name: "LPWSPCLOSESOCKET"
-          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566273(v%3dvs.85)
+          href: /previous-versions/windows/hardware/network/ff566273(v=vs.85)
         - name: "LPWSPCONNECT"
-          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566275(v%3dvs.85)
+          href: /previous-versions/windows/hardware/network/ff566275(v=vs.85)
         - name: "LPWSPDUPLICATESOCKET"
-          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v%3dvs.85)
+          href: /previous-versions/windows/hardware/network/ff566282(v=vs.85)
         - name: "LPWSPENUMNETWORKEVENTS"
-          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566284(v%3dvs.85)
+          href: /previous-versions/windows/hardware/network/ff566284(v=vs.85)
         - name: "LPWSPEVENTSELECT"
-          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v%3dvs.85)
+          href: /previous-versions/windows/hardware/network/ff566287(v=vs.85)
         - name: "LPWSPGETOVERLAPPEDRESULT"
           href: /windows/win32/api/Ws2spi/nc-ws2spi-lpwspgetoverlappedresult
         - name: "LPWSPGETPEERNAME"
@@ -1490,15 +1490,15 @@
         - name: "LPWSPGETSOCKNAME"
           href: /windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockname
         - name: "LPWSPGETSOCKOPT"
-          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566292(v%3dvs.85)
+          href: /previous-versions/windows/hardware/network/ff566292(v=vs.85)
         - name: "LPWSPIOCTL"
-          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v%3dvs.85)
+          href: /previous-versions/windows/hardware/network/ff566296(v=vs.85)
         - name: "LPWSPJOINLEAF"
           href: /windows/win32/api/Ws2spi/nc-ws2spi-lpwspjoinleaf
         - name: "LPWSPLISTEN"
-          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566297(v%3dvs.85)
+          href: /previous-versions/windows/hardware/network/ff566297(v=vs.85)
         - name: "LPWSPRECV"
-          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v%3dvs.85)
+          href: /previous-versions/windows/hardware/network/ff566309(v=vs.85)
         - name: "LPWSPRECVDISCONNECT"
           href: /windows/win32/api/ws2spi/nc-ws2spi-lpwsprecvdisconnect
         - name: "LPWSPRECVFROM"
@@ -1506,13 +1506,13 @@
         - name: "LPWSPSELECT"
           href: /windows/win32/api/ws2spi/nc-ws2spi-lpwspselect
         - name: "LPWSPSEND"
-          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)
+          href: /previous-versions/windows/hardware/network/ff566316(v=vs.85)
         - name: "LPWSPSENDDISCONNECT"
           href: /windows/win32/api/ws2spi/nc-ws2spi-lpwspsenddisconnect
         - name: "LPWSPSENDTO"
           href: /windows/win32/api/ws2spi/nc-ws2spi-lpwspsendto
         - name: "LPWSPSETSOCKOPT"
-          href: https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566318(v%3dvs.85)
+          href: /previous-versions/windows/hardware/network/ff566318(v=vs.85)
         - name: "LPWSPSHUTDOWN"
           href: /windows/win32/api/ws2spi/nc-ws2spi-lpwspshutdown
         - name: "LPWSPSOCKET"

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Touch Hit Testing Reference
 
-The topics in this section provide the reference specifications for [Touch Hit Testing](https://msdn.microsoft.com/library/windows/desktop/hh437255).
+The topics in this section provide the reference specifications for [Touch Hit Testing](/previous-versions/windows/desktop/input_touchhittest/touch-hit-testing-portal).
 
 ## In this section
 

@@ -1,6 +1,6 @@
 ---
 title: PEAP MS-CHAPv2 User Properties
-description: Is an instance of the mschapv2userpropertiesv1 legacy schema.
+description: Learn about the PEAP MS-CHAPv2 user properties. See a sample that's an instance of the mschapv2userpropertiesv1 legacy schema.
 ms.assetid: af1ed6b1-712e-4b55-9ab4-b6b38f486fb1
 ms.topic: article
 ms.date: 05/31/2018
@@ -12,18 +12,18 @@ This sample is an instance of the [mschapv2userpropertiesv1](mschapv2userpropert
 
 ``` syntax
   <?xml version="1.0" ?> 
-  <EapHostUserCredentials xmlns="http://www.microsoft.com/provisioning/EapHostUserCredentials"
-    xmlns:eapCommon="http://www.microsoft.com/provisioning/EapCommon" 
-    xmlns:baseEap="http://www.microsoft.com/provisioning/BaseEapMethodUserCredentials">
+  <EapHostUserCredentials xmlns="https://www.microsoft.com/provisioning/EapHostUserCredentials"
+    xmlns:eapCommon="https://www.microsoft.com/provisioning/EapCommon" 
+    xmlns:baseEap="https://www.microsoft.com/provisioning/BaseEapMethodUserCredentials">
     <EapMethod>
       <eapCommon:Type>25</eapCommon:Type> 
       <eapCommon:AuthorId>0</eapCommon:AuthorId> 
     </EapMethod>
-    <Credentials xmlns:eapUser="http://www.microsoft.com/provisioning/EapUserPropertiesV1"
+    <Credentials xmlns:eapUser="https://www.microsoft.com/provisioning/EapUserPropertiesV1"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:baseEap="http://www.microsoft.com/provisioning/BaseEapUserPropertiesV1"
-      xmlns:MsPeap="http://www.microsoft.com/provisioning/MsPeapUserPropertiesV1"
-      xmlns:MsChapV2="http://www.microsoft.com/provisioning/MsChapV2UserPropertiesV1">
+      xmlns:baseEap="https://www.microsoft.com/provisioning/BaseEapUserPropertiesV1"
+      xmlns:MsPeap="https://www.microsoft.com/provisioning/MsPeapUserPropertiesV1"
+      xmlns:MsChapV2="https://www.microsoft.com/provisioning/MsChapV2UserPropertiesV1">
       <baseEap:Eap>
         <baseEap:Type>25</baseEap:Type> 
         <MsPeap:EapType>

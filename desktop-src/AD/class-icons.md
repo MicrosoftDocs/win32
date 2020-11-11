@@ -41,15 +41,11 @@ The "&lt;module file name&gt;" is the path and file name of a module, such as an
 
 To add a value to the **iconPath** attribute, perform the following steps.
 
-1.  Determine if the value for the attribute exists. If a value is to be replaced, first, delete the existing value using the [**IADs::PutEx**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex) method with the *lnControlCode* parameter set to **ADS\_PROPERTY\_DELETE** and the *vProp* parameter set to the value to be removed. Do not use **ADS\_PROPERTY\_CLEAR** or **ADS\_PROPERTY\_UPDATE** for *lnControlCode*.
+1.  Determine if the value for the attribute exists. If a value is to be replaced, first, delete the existing value using the [**IADs::PutEx**](/windows/desktop/api/iads/nf-iads-iads-putex) method with the *lnControlCode* parameter set to **ADS\_PROPERTY\_DELETE** and the *vProp* parameter set to the value to be removed. Do not use **ADS\_PROPERTY\_CLEAR** or **ADS\_PROPERTY\_UPDATE** for *lnControlCode*.
 2.  Create the string that represents the attribute icon data. For an example, see the format above.
-3.  To add the new value, use the [**IADs::PutEx**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex) method with the *lnControlCode* parameter set to **ADS\_PROPERTY\_APPEND**.
-4.  To commit changes to the directory, call [**IADs::SetInfo**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo).
+3.  To add the new value, use the [**IADs::PutEx**](/windows/desktop/api/iads/nf-iads-iads-putex) method with the *lnControlCode* parameter set to **ADS\_PROPERTY\_APPEND**.
+4.  To commit changes to the directory, call [**IADs::SetInfo**](/windows/desktop/api/iads/nf-iads-iads-setinfo).
 
  
 
  
-
-
-
-

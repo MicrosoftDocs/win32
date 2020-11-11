@@ -177,20 +177,14 @@ For example, to enable the auditing of Filtering Platform Policy Change events y
 
 <dl> <dt>
 
-[Auditpol](https://technet.microsoft.com/library/a02cfb9d-732f-4e77-aeba-f18265daa3af)
+[Auditpol](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc731451(v=ws.11))
 </dt> <dt>
 
-[Event Log](https://technet.microsoft.com/library/8a2a4750-ea96-4131-8bd0-e581e74bc13f)
+[Event Log](/previous-versions/orphan-topics/ws.10/dd996684(v=ws.10))
 </dt> <dt>
 
-[Group Policy](http://go.microsoft.com/fwlink/?LinkID=31191)
+[Group Policy](https://go.microsoft.com/fwlink/?LinkID=31191)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

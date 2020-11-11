@@ -24,9 +24,9 @@ Draw a metafile to the device context.
 
 | Method                                                                                                                 | Description                                       |
 |:-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------|
-| [**DrawGdiMetafile (ID2D1GdiMetafile\*, D2D1\_RECT\_F&, D2D1\_RECT\_F&)**](https://msdn.microsoft.com/library/Dn900374(v=VS.85).aspx)    | Draw a metafile to the device context.<br/> |
-| [**DrawGdiMetafile (ID2D1GdiMetafile\*, D2D1\_RECT\_F\*, D2D1\_RECT\_F\*)**](https://msdn.microsoft.com/library/Dn900375(v=VS.85).aspx) | Draw a metafile to the device context.<br/> |
-| [**DrawGdiMetafile (ID2D1GdiMetafile\*, D2D1\_RECT\_F&, D2D1\_RECT\_F\*)**](https://msdn.microsoft.com/library/Dn900376(v=VS.85).aspx)  | Draw a metafile to the device context.<br/> |
+| [**DrawGdiMetafile (ID2D1GdiMetafile\*, D2D1\_RECT\_F&, D2D1\_RECT\_F&)**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-drawgdimetafile(id2d1gdimetafile_constd2d1_rect_f_constd2d1_rect_f))    | Draw a metafile to the device context.<br/> |
+| [**DrawGdiMetafile (ID2D1GdiMetafile\*, D2D1\_RECT\_F\*, D2D1\_RECT\_F\*)**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-drawgdimetafile(id2d1gdimetafile_constd2d1_rect_f__constd2d1_rect_f)) | Draw a metafile to the device context.<br/> |
+| [**DrawGdiMetafile (ID2D1GdiMetafile\*, D2D1\_RECT\_F&, D2D1\_RECT\_F\*)**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-drawgdimetafile(id2d1gdimetafile_constd2d1_rect_f__constd2d1_rect_f))  | Draw a metafile to the device context.<br/> |
 
 
 
@@ -34,14 +34,8 @@ Draw a metafile to the device context.
 
 <dl> <dt>
 
-[**ID2D1DeviceContext2**](https://msdn.microsoft.com/library/Dn890789(v=VS.85).aspx)
+[**ID2D1DeviceContext2**](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

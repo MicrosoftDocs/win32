@@ -33,7 +33,7 @@ switch ((TA_LEFT | TA_RIGHT | TA_CENTER) & GetTextAlign(hdc))
 
 
 
-You can also use the [**SetTextAlign**](/windows/desktop/api/Wingdi/nf-wingdi-settextalign) function to update the current position when a text-output function is called. For instance, the following example uses the [**SetTextAlign**](https://msdn.microsoft.com/library/Dd145091(v=VS.85).aspx) function to update the current position when the [**TextOut**](/windows/desktop/api/Wingdi/nf-wingdi-textouta) function is called. In this example, the *cArial* parameter is an integer that specifies the number of Arial fonts.
+You can also use the [**SetTextAlign**](/windows/desktop/api/Wingdi/nf-wingdi-settextalign) function to update the current position when a text-output function is called. For instance, the following example uses the [**SetTextAlign**](/windows/win32/api/wingdi/nf-wingdi-settextalign) function to update the current position when the [**TextOut**](/windows/desktop/api/Wingdi/nf-wingdi-textouta) function is called. In this example, the *cArial* parameter is an integer that specifies the number of Arial fonts.
 
 
 ```C++
@@ -60,13 +60,10 @@ SetTextAlign(hdc, uAlignPrev);
 
 
 > [!Note]  
-> You should not use [**SetTextAlign**](https://msdn.microsoft.com/library/Dd145091(v=VS.85).aspx) with TA\_UPDATECP when you are using [**ScriptStringOut**](https://msdn.microsoft.com/library/Dd368571(v=VS.85).aspx), because selected text is not rendered correctly. If you must use this flag, you can unset and reset it as necessary to avoid the problem.
+> You should not use [**SetTextAlign**](/windows/win32/api/wingdi/nf-wingdi-settextalign) with TA\_UPDATECP when you are using [**ScriptStringOut**](/windows/win32/api/usp10/nf-usp10-scriptstringout), because selected text is not rendered correctly. If you must use this flag, you can unset and reset it as necessary to avoid the problem.
 
  
 
  
 
  
-
-
-

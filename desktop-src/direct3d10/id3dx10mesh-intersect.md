@@ -45,7 +45,7 @@ HRESULT Intersect(
 *pRayPos* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, specifying the point where the ray begins.
 
@@ -54,7 +54,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, specifying the p
 *pRayDir* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, specifying the direction of the ray.
 
@@ -63,7 +63,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, specifying the d
 *pHitCount* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 The number of times the ray intersected with the mesh.
 
@@ -72,7 +72,7 @@ The number of times the ray intersected with the mesh.
 *pFaceIndex* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Pointer to an index value of the face closest to the ray origin, if pHit is **TRUE**.
 
@@ -154,7 +154,3 @@ Barycentric coordinates define a point inside a triangle in terms of the triangl
  
 
  
-
-
-
-

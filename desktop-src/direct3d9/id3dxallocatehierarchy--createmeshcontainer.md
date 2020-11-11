@@ -45,7 +45,7 @@ HRESULT CreateMeshContainer(
 *Name* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Name of the mesh.
 
@@ -81,7 +81,7 @@ Array of effect instances used in the mesh. See [**D3DXEFFECTINSTANCE**](d3dxeff
 *NumMaterials* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Number of materials in the materials array.
 
@@ -90,7 +90,7 @@ Number of materials in the materials array.
 *pAdjacency* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 Adjacency array for the mesh.
 
@@ -141,7 +141,3 @@ The return values of this method are implemented by an application programmer. I
  
 
  
-
-
-
-

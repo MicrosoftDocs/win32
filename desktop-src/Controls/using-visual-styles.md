@@ -28,7 +28,7 @@ If visual styles are available, you can use visual-styles functions such as [**D
 2.  To draw the control background, call [**DrawThemeBackground**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemebackground) or [**DrawThemeBackgroundEx**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemebackgroundex).
 3.  To determine the location of the content rectangle, call [**GetThemeBackgroundContentRect**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemebackgroundcontentrect).
 4.  To render text, use either [**DrawThemeText**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemetext) or [**DrawThemeTextEx**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemetextex), basing the coordinates on the rectangle returned by [**GetThemeBackgroundContentRect**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemebackgroundcontentrect). These functions can render text either in the theme's font for a specified control part and state, or in the font currently selected into the device context (DC).
-5.  When your control receives a [**WM\_DESTROY**](https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy) message, call [**CloseThemeData**](/windows/desktop/api/Uxtheme/nf-uxtheme-closethemedata) to release the theme handle that was returned when you called [**OpenThemeData**](/windows/desktop/api/Uxtheme/nf-uxtheme-openthemedata).
+5.  When your control receives a [**WM\_DESTROY**](/windows/desktop/winmsg/wm-destroy) message, call [**CloseThemeData**](/windows/desktop/api/Uxtheme/nf-uxtheme-closethemedata) to release the theme handle that was returned when you called [**OpenThemeData**](/windows/desktop/api/Uxtheme/nf-uxtheme-openthemedata).
 
 The following example code demonstrates one way to draw a button control in the current visual style.
 
@@ -87,7 +87,7 @@ void DrawMyControl(HDC hDC, HWND hwndButton, HTHEME hTheme, int iState)
 
 
 
-The following example code is in the [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) message handler for a subclassed button control. The text for the control is drawn in the visual styles font, but the color is application-defined depending on the state of the control.
+The following example code is in the [**WM\_PAINT**](/windows/desktop/gdi/wm-paint) message handler for a subclassed button control. The text for the control is drawn in the visual styles font, but the color is application-defined depending on the state of the control.
 
 
 ```C++
@@ -132,7 +132,7 @@ Another approach to rendering controls in the active visual style is to use the 
 
 ## Responding to Theme Changes
 
-When your control receives a [**WM\_THEMECHANGED**](https://docs.microsoft.com/windows/desktop/winmsg/wm-themechanged) message and is holding a global handle to the theme, it should do the following:
+When your control receives a [**WM\_THEMECHANGED**](/windows/desktop/winmsg/wm-themechanged) message and is holding a global handle to the theme, it should do the following:
 
 -   Call [**CloseThemeData**](/windows/desktop/api/Uxtheme/nf-uxtheme-closethemedata) to close the existing theme handle.
 -   Call [**OpenThemeData**](/windows/desktop/api/Uxtheme/nf-uxtheme-openthemedata) to get the theme handle to the newly loaded visual style.
@@ -161,7 +161,3 @@ case WM_THEMECHANGED:
  
 
  
-
-
-
-

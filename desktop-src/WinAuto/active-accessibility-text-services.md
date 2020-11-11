@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 This section discusses the Active Accessibility Text Services interfaces.
 
 > [!Note]  
-> Active Accessibility Text Services is deprecated. Please see [Microsoft Windows Text Services Framework](https://msdn.microsoft.com/library/ms629032(VS.85).aspx) for more information on advanced text input and natural language technologies.
+> Active Accessibility Text Services is deprecated. Please see [Microsoft Windows Text Services Framework](../tsf/text-services-framework.md) for more information on advanced text input and natural language technologies.
 
 ## In this section
 

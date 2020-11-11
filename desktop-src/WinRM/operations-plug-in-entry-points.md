@@ -27,7 +27,7 @@ The following table provides an overview of the operations plug-in entry points 
 | [**WSMAN\_PLUGIN\_SEND**](/windows/desktop/api/Wsman/nc-wsman-wsman_plugin_send)                                         | Defines the send callback for a plug-in.<br/> All WinRM plug-ins that support shell capabilities need to implement this callback.<br/> The DLL entry point name for this method must be [**WSManPluginSend**](/windows/desktop/api/Wsman/nc-wsman-wsman_plugin_send).<br/>          |
 | [**WSMAN\_PLUGIN\_SHELL**](/windows/desktop/api/Wsman/nc-wsman-wsman_plugin_shell)                                       | Defines the shell callback for a plug-in.<br/> All WinRM plug-ins that support shell capabilities need to implement this callback.<br/> The DLL entry point name for this method must be [**WSManPluginShell**](/windows/desktop/api/Wsman/nc-wsman-wsman_plugin_shell).<br/>       |
 | [**WSMAN\_PLUGIN\_SHUTDOWN**](/windows/desktop/api/Wsman/nc-wsman-wsman_plugin_shutdown)                                 | Defines the shutdown callback for the plug-in.<br/> All WinRM plug-ins must implement this callback function.<br/> The DLL entry point name for this method must be [**WSManPluginShutdown**](/windows/desktop/api/Wsman/nc-wsman-wsman_plugin_shutdown).<br/>                      |
-| [**WSMAN\_PLUGIN\_SIGNAL**](https://msdn.microsoft.com/library/Dd891177(v=VS.85).aspx)                                     | Defines the signal callback for a plug-in.<br/> All WinRM plug-ins that support shell capabilities need to implement this callback.<br/> The DLL entry point name for this method must be [**WSManPluginSignal**](https://msdn.microsoft.com/library/Dd891177(v=VS.85).aspx).<br/>    |
+| [**WSMAN\_PLUGIN\_SIGNAL**](/windows/win32/api/wsman/nc-wsman-wsman_plugin_signal)                                     | Defines the signal callback for a plug-in.<br/> All WinRM plug-ins that support shell capabilities need to implement this callback.<br/> The DLL entry point name for this method must be [**WSManPluginSignal**](/windows/win32/api/wsman/nc-wsman-wsman_plugin_signal).<br/>    |
 | [**WSMAN\_PLUGIN\_STARTUP**](/windows/desktop/api/Wsman/nc-wsman-wsman_plugin_startup)                                   | Defines the startup callback for the plug-in.<br/> All WinRM plug-ins must implement this callback function.<br/> The DLL entry point name for this method must be [**WSManPluginStartup**](/windows/desktop/api/Wsman/nc-wsman-wsman_plugin_startup).<br/>                         |
 
 
@@ -35,10 +35,4 @@ The following table provides an overview of the operations plug-in entry points 
  
 
  
-
- 
-
-
-
-
 

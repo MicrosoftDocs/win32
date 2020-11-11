@@ -57,7 +57,7 @@ public bool Recovery { get; set; }
 
 #### Property value
 
-Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
+Type: [System.Boolean](/dotnet/api/system.boolean)  
 
 ## See also
 
@@ -68,4 +68,3 @@ Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redi
 [InstanceParameters members](dn350943\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

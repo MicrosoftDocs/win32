@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Most Windows Sockets 2 functions do not return the specific cause of an error when the function returns. For information, see the [Handling Winsock Errors](handling-winsock-errors.md) topic.
 
-The [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) function returns the last error that occurred for the calling thread. When a particular Windows Sockets function indicates an error has occurred, this function should be called immediately to retrieve the extended error code for the failing function call. These error codes and a short text description associated with an error code are defined in the *Winerror.h* header file. The [**FormatMessage**](https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx) function can be used to obtain the message string for the returned error.
+The [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) function returns the last error that occurred for the calling thread. When a particular Windows Sockets function indicates an error has occurred, this function should be called immediately to retrieve the extended error code for the failing function call. These error codes and a short text description associated with an error code are defined in the *Winerror.h* header file. The [**FormatMessage**](/windows/win32/api/winbase/nf-winbase-formatmessage) function can be used to obtain the message string for the returned error.
 
 For information on how to handle error codes when porting socket applications to Winsock, see [Error Codes - errno, h\_errno and WSAGetLastError](error-codes-errno-h-errno-and-wsagetlasterror-2.md).
 
@@ -263,7 +263,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="even">
 <td><span id="WSAEPROVIDERFAILEDINIT"></span><span id="wsaeproviderfailedinit"></span><dl> <dt><strong>WSAEPROVIDERFAILEDINIT</strong></dt> <dt>10106</dt> </dl></td>
-<td><dl> <dt><span id="Service_provider_failed_to_initialize."></span><span id="service_provider_failed_to_initialize."></span><span id="SERVICE_PROVIDER_FAILED_TO_INITIALIZE."></span>Service provider failed to initialize.</dt> <dd> The requested service provider could not be loaded or initialized. This error is returned if either a service provider's DLL could not be loaded (<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya"><strong>LoadLibrary</strong></a> failed) or the provider's <a href="/windows/desktop/api/Ws2spi/nf-ws2spi-wspstartup"><strong>WSPStartup</strong></a> or <a href="/windows/desktop/api/Ws2spi/nf-ws2spi-nspstartup"><strong>NSPStartup</strong></a> function failed.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Service_provider_failed_to_initialize."></span><span id="service_provider_failed_to_initialize."></span><span id="SERVICE_PROVIDER_FAILED_TO_INITIALIZE."></span>Service provider failed to initialize.</dt> <dd> The requested service provider could not be loaded or initialized. This error is returned if either a service provider's DLL could not be loaded (<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya"><strong>LoadLibrary</strong></a> failed) or the provider's <a href="/windows/desktop/api/Ws2spi/nf-ws2spi-wspstartup"><strong>WSPStartup</strong></a> or <a href="/windows/desktop/api/Ws2spi/nf-ws2spi-nspstartup"><strong>NSPStartup</strong></a> function failed.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSASYSCALLFAILURE"></span><span id="wsasyscallfailure"></span><dl> <dt><strong>WSASYSCALLFAILURE</strong></dt> <dt>10107</dt> </dl></td>
@@ -303,7 +303,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="even">
 <td><span id="WSANO_DATA"></span><span id="wsano_data"></span><dl> <dt><strong>WSANO_DATA</strong></dt> <dt>11004</dt> </dl></td>
-<td><dl> <dt><span id="Valid_name__no_data_record_of_requested_type."></span><span id="valid_name__no_data_record_of_requested_type."></span><span id="VALID_NAME__NO_DATA_RECORD_OF_REQUESTED_TYPE."></span>Valid name, no data record of requested type.</dt> <dd> The requested name is valid and was found in the database, but it does not have the correct associated data being resolved for. The usual example for this is a host name-to-address translation attempt (using <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname"><strong>gethostbyname</strong></a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-wsaasyncgethostbyname"><strong>WSAAsyncGetHostByName</strong></a>) which uses the DNS (Domain Name Server). An MX record is returned but no A record—indicating the host itself exists, but is not directly reachable.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Valid_name__no_data_record_of_requested_type."></span><span id="valid_name__no_data_record_of_requested_type."></span><span id="VALID_NAME__NO_DATA_RECORD_OF_REQUESTED_TYPE."></span>Valid name, no data record of requested type.</dt> <dd> The requested name is valid and was found in the database, but it does not have the correct associated data being resolved for. The usual example for this is a host name-to-address translation attempt (using <a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname"><strong>gethostbyname</strong></a> or <a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-wsaasyncgethostbyname"><strong>WSAAsyncGetHostByName</strong></a>) which uses the DNS (Domain Name Server). An MX record is returned but no A record—indicating the host itself exists, but is not directly reachable.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSA_QOS_RECEIVERS"></span><span id="wsa_qos_receivers"></span><dl> <dt><strong>WSA_QOS_RECEIVERS</strong></dt> <dt>11005</dt> </dl></td>
@@ -355,7 +355,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="odd">
 <td><span id="WSA_QOS_EFLOWSPEC"></span><span id="wsa_qos_eflowspec"></span><dl> <dt><strong>WSA_QOS_EFLOWSPEC</strong></dt> <dt>11017</dt> </dl></td>
-<td><dl> <dt><span id="QoS_flowspec_error."></span><span id="qos_flowspec_error."></span><span id="QOS_FLOWSPEC_ERROR."></span>QoS flowspec error.</dt> <dd> An invalid or inconsistent flowspec was found in the <a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos"><strong>QOS</strong></a> structure.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="QoS_flowspec_error."></span><span id="qos_flowspec_error."></span><span id="QOS_FLOWSPEC_ERROR."></span>QoS flowspec error.</dt> <dd> An invalid or inconsistent flowspec was found in the <a href="/windows/win32/api/winsock2/ns-winsock2-qos"><strong>QOS</strong></a> structure.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSA_QOS_EPROVSPECBUF"></span><span id="wsa_qos_eprovspecbuf"></span><dl> <dt><strong>WSA_QOS_EPROVSPECBUF</strong></dt> <dt>11018</dt> </dl></td>
@@ -440,7 +440,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 [Handling Winsock Errors](handling-winsock-errors.md)
 </dt> <dt>
 
-[**FormatMessage**](https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx)
+[**FormatMessage**](/windows/win32/api/winbase/nf-winbase-formatmessage)
 </dt> <dt>
 
 [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror)
@@ -449,7 +449,3 @@ The following list describes the possible error codes returned by the [**WSAGetL
  
 
  
-
-
-
-

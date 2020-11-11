@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 The WWSAPI Service Model API models the communication between a client and a service as method calls, rather than as data messages. In contrast to the [channel layer](channel-layer-overview.md), which supports more traditional [message](message.md) exchanges between client and service, the Service Model automatically manages communication by means of a service proxy on the client and a service host on the service. This means that the client calls generated functions and the server implements callbacks.
 
-## 
 
 For example, consider a calculator service which performs addition and subtraction on two numbers. Addition and subtraction are operations naturally represented as method calls.
 

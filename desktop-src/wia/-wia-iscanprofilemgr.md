@@ -21,7 +21,7 @@ The **IScanProfileMgr** interface provides methods for creating, opening, deleti
 
 ## Members
 
-The **IScanProfileMgr** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IScanProfileMgr** also has these types of members:
+The **IScanProfileMgr** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **IScanProfileMgr** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -52,7 +52,7 @@ The **IScanProfileMgr** interface has these methods.
 
 ## Remarks
 
-To create an **IScanProfileMgr** object, use the [CoCreateInstance](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) method with the following parameters:
+To create an **IScanProfileMgr** object, use the [CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) method with the following parameters:
 
 ``` syntax
 CoCreateInstance(CLSID_ScanProfileMgr, NULL, CLSCTX_LOCAL_SERVER, IID_IScanProfileMgr, ppv)
@@ -77,7 +77,7 @@ If a scan profile is saved using the [**IScanProfile::Save**](-wia-iscanprofile-
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)
 </dt> <dt>
 
 [Scan Profile Schema](-wia-scan-profile-schema.md)
@@ -86,7 +86,3 @@ If a scan profile is saved using the [**IScanProfile::Save**](-wia-iscanprofile-
  
 
  
-
-
-
-

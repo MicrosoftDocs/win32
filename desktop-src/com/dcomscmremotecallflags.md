@@ -75,7 +75,7 @@ By setting this flag, the local DCOMSCM on Windows Vista or above can be made t
 
 <dl> <dt>
 
-[Authentication for Remote Connections](https://docs.microsoft.com/windows/desktop/WinRM/authentication-for-remote-connections)
+[Authentication for Remote Connections](/windows/desktop/WinRM/authentication-for-remote-connections)
 </dt> <dt>
 
 [EnableDCOM](enabledcom.md)
@@ -90,7 +90,3 @@ By setting this flag, the local DCOMSCM on Windows Vista or above can be made t
  
 
  
-
-
-
-

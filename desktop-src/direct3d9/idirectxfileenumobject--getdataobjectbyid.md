@@ -39,7 +39,7 @@ HRESULT GetDataObjectById(
 *rguid* \[in\]
 </dt> <dd>
 
-Type: **[REFGUID](https://msdn.microsoft.com/library/cc237815(PROT.13).aspx)**
+Type: **[REFGUID](/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50)**
 
 Reference to the requested GUID.
 
@@ -81,7 +81,3 @@ If the method succeeds, the return value is DXFILE\_OK. If the method fails, the
  
 
  
-
-
-
-

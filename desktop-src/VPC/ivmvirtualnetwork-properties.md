@@ -8,21 +8,17 @@ ms.date: 05/31/2018
 
 # IVMVirtualNetwork Properties
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 The [**IVMVirtualNetwork**](ivmvirtualnetwork.md) interface exposes the following properties.
 
 ## In this section
 
 -   [**HostAdapter Property**](ivmvirtualnetwork-hostadapter.md)
--   [**MediaType Property**](https://msdn.microsoft.com/library/Dd796707(v=VS.85).aspx)
+-   [**MediaType Property**](/previous-versions/windows/desktop/legacy/dd796707(v=vs.85))
 -   [**Name Property**](ivmvirtualnetwork-name.md)
 -   [**NetworkAdapters Property**](ivmvirtualnetwork-networkadapters.md)
 
  
 
  
-
-
-
-

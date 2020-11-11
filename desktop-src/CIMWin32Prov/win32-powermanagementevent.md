@@ -22,7 +22,7 @@ api_location:
 
 # Win32\_PowerManagementEvent class
 
-The **Win32\_PowerManagementEvent** [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) represents power management events resulting from power state changes. These state changes are associated with either the Advanced Power Management (APM) or the Advanced Configuration and Power Interface (ACPI) system management protocols.
+The **Win32\_PowerManagementEvent** [WMI class](../wmisdk/retrieving-a-class.md) represents power management events resulting from power state changes. These state changes are associated with either the Advanced Power Management (APM) or the Advanced Configuration and Power Interface (ACPI) system management protocols.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -60,7 +60,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Power Management Events")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Power Management Events")
 </dt> </dl>
 
 Type of change in the system power state.
@@ -133,7 +133,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Power Management Events")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Power Management Events")
 </dt> </dl>
 
 System power state defined by the original equipment manufacturer (OEM) when the **EventType** property of this class is set to 11 (OEM Event); otherwise, this property is set to **NULL**. OEM events are generated when an APM BIOS signals an APM OEM event. OEM event codes are in the range 0x0200h - 0x02FFh.
@@ -149,7 +149,7 @@ Data type: **uint8** array
 Access type: Read-only
 </dt> </dl>
 
-Descriptor used by the event provider to determine which users can receive the event. This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/library/Aa394634(v=VS.85).aspx). For more information about constants used to set this security descriptor, see [WMI Security Constants](https://msdn.microsoft.com/library/Aa394576(v=VS.85).aspx).
+Descriptor used by the event provider to determine which users can receive the event. This property is inherited from [**\_\_Event**](../wmisdk/--event.md). For more information about constants used to set this security descriptor, see [WMI Security Constants](../wmisdk/wmi-security-constants.md).
 
 </dd> <dt>
 
@@ -164,15 +164,15 @@ Access type: Read-only
 
 Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Times (UTC) format.
 
-This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/library/Aa394634(v=VS.85).aspx).
+This property is inherited from [**\_\_Event**](../wmisdk/--event.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa389763(v=VS.85).aspx).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](../wmisdk/creating-a-wmi-script.md).
 
 </dd> </dl>
 
 ## Remarks
 
-The **Win32\_PowerManagementEvent** class is derived from [**\_\_ExtrinsicEvent**](https://msdn.microsoft.com/library/Aa394646(v=VS.85).aspx).
+The **Win32\_PowerManagementEvent** class is derived from [**\_\_ExtrinsicEvent**](../wmisdk/--extrinsicevent.md).
 
 Changes in power status often indicate that a problem has occurred with a computer or with another managed device. If a server suddenly switches from AC power to an uninterruptible power supply, this change can indicate that an electrical problem of some kind has occurred, either with the computer itself or with the electrical system in the room in which the computer is kept.
 
@@ -183,8 +183,6 @@ The **Win32\_PowerManagementEvent** class can be used to monitor changes in powe
 The **Win32\_PowerManagementEvent** class has only two properties: EventType, used to indicate the type of power change event that occurred, and OEMEventType, which is used by some original equipment manufacturers to define additional power change events.
 
 For more information on responding to Windows power events, see the [Monitor and Respond to Windows Power Events with PowerShell](https://blogs.technet.com/b/heyscriptingguy/archive/2011/08/16/monitor-and-respond-to-windows-power-events-with-powershell.aspx) article on the Hey! Scripting Guy! blog.
-
-For more information on charging laptops, see [Hey, Scripting Guy! How Can I Retrieve Information About Laptops Changing from Full Power to Minimal Power Usage?](https://blogs.technet.com/b/heyscriptingguy/archive/2010/04/14/hey-scripting-guy-april-14-2010.aspx)
 
 ## Examples
 
@@ -220,19 +218,15 @@ Loop
 
 <dl> <dt>
 
-[**\_\_ExtrinsicEvent**](https://msdn.microsoft.com/library/Aa394646(v=VS.85).aspx)
+[**\_\_ExtrinsicEvent**](../wmisdk/--extrinsicevent.md)
 </dt> <dt>
 
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> <dt>
 
-[Monitoring Changes in Computer Power Status](https://TechNet.Microsoft.Com/library/ee176537.aspx)
+[Monitoring Changes in Computer Power Status](/previous-versions/tn-archive/ee176537(v=technet.10))
 </dt> </dl>
 
  
 
  
-
-
-
-

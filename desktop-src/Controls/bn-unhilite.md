@@ -25,7 +25,7 @@ Sent when the highlight should be removed from a button.
 
  
 
-The parent window of the button receives this notification code through the [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message.
+The parent window of the button receives this notification code through the [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message.
 
 
 ```C++
@@ -44,7 +44,7 @@ BN_UNHILITE
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the button's control identifier. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
+The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the button's control identifier. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
 
 </dd> <dt>
 
@@ -72,10 +72,4 @@ BN\_UNHILITE is the same as the [BN\_UNPUSHED](bn-unpushed.md) notification code
 
 
  
-
- 
-
-
-
-
 

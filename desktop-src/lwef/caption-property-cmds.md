@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Description**
 </dt> <dd>
 
-Determines the text displayed for a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) object in the character's pop-up menu.
+Determines the text displayed for a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) object in the character's pop-up menu.
 
 </dd> <dt>
 
@@ -38,14 +38,10 @@ Determines the text displayed for a [**Commands**](https://docs.microsoft.com/wi
 
 ## Remarks
 
-Setting the [**Caption**](caption-property.md) property for your [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection defines how it will appear on the character's pop-up menu when its [**Visible**](visible-property.md) property is set to True and your application is not the input-active client. To specify an access key (unlined mnemonic) for your **Caption**, include an ampersand (&) character before that character.
+Setting the [**Caption**](caption-property.md) property for your [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection defines how it will appear on the character's pop-up menu when its [**Visible**](visible-property.md) property is set to True and your application is not the input-active client. To specify an access key (unlined mnemonic) for your **Caption**, include an ampersand (&) character before that character.
 
-If you define commands for a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection that has a [**Caption**](caption-property.md), you typically also define a **Caption** for its associated **Commands** collection.
-
- 
+If you define commands for a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection that has a [**Caption**](caption-property.md), you typically also define a **Caption** for its associated **Commands** collection.
 
  
 
-
-
-
+ 

@@ -35,7 +35,7 @@ interface AsyncRPC
 }
 ```
 
-For all asynchronous RPC functions that your application uses, you will need to modify the declaration of the asynchronous functions within your application's ACF file. Apply the [**\[async\]**](https://msdn.microsoft.com/library/windows/desktop/aa366732) attribute to each asynchronous function name, as shown in the following example:
+For all asynchronous RPC functions that your application uses, you will need to modify the declaration of the asynchronous functions within your application's ACF file. Apply the [**\[async\]**](../midl/async.md) attribute to each asynchronous function name, as shown in the following example:
 
 ``` syntax
 interface AsyncRPC
@@ -49,7 +49,3 @@ When you apply the **\[async\]** attribute in the ACF file, the MIDL compiler au
  
 
  
-
-
-
-

@@ -10,14 +10,12 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-<dl> **Clients** - Windows XP \| Windows Vista \| Windows 7  
-</dl>
+ **Clients** - Windows XP \| Windows Vista \| Windows 7  
 
 ## Feature Impact
 
-<dl> **Severity** - Medium  
+**Severity** - Medium  
 **Frequency** - Medium  
-</dl>
 
 ## Description
 
@@ -69,12 +67,9 @@ Re-run the DPI Awareness assessment and verify the issues are fixed.
 
 ## Links to Other Resources
 
--   [High DPI Desktop Application Development on Windows](/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows)
+-   [High DPI Desktop Application Development on Windows](../hidpi/high-dpi-desktop-application-development-on-windows.md)
 -   **Contact for technical questions:** <disup@microsoft.com>
 
  
 
  
-
-
-

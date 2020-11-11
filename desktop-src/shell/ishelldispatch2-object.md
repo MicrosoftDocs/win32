@@ -54,7 +54,7 @@ The **IShellDispatch2** object has these methods.
 
 ## Remarks
 
-For a discussion of Windows services, see the [Services](https://msdn.microsoft.com/library/ms685141(v=VS.85).aspx) documentation.
+For a discussion of Windows services, see the [Services](../services/services.md) documentation.
 
 ## Requirements
 
@@ -74,7 +74,7 @@ For a discussion of Windows services, see the [Services](https://msdn.microsoft.
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)
 </dt> <dt>
 
 [**Shell Object**](shell.md)
@@ -86,7 +86,3 @@ For a discussion of Windows services, see the [Services](https://msdn.microsoft.
  
 
  
-
-
-
-

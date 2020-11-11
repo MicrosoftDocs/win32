@@ -16,7 +16,7 @@ An administrator can use the following methods to enable a non-administrator use
 
 The following methods can also be used to install an application with elevated system privileges.
 
--   An administrator can advertise an application on a user's computer by assigning or publishing the Windows Installer package using application deployment and [Group Policy](https://msdn.microsoft.com/library/Aa374177(v=VS.85).aspx). The administrator advertises the package for per-machine installation. If a non-administrator user then installs the application, the installation can run with elevated privileges. Non-administrator users cannot install unadvertised packages that require elevated system privileges.
+-   An administrator can advertise an application on a user's computer by assigning or publishing the Windows Installer package using application deployment and [Group Policy](/previous-versions/windows/desktop/Policy/group-policy-start-page). The administrator advertises the package for per-machine installation. If a non-administrator user then installs the application, the installation can run with elevated privileges. Non-administrator users cannot install unadvertised packages that require elevated system privileges.
 -   An administrator can go to the user's computer and [advertise](advertisement.md) the application for per-machine installation. Because the Windows Installer always has elevated privileges while doing installs in the per-machine [installation context](installation-context.md), if a non-administrator user then installs the advertised application, the installation can run with elevated privileges. Non-administrator users still cannot install unadvertised packages that require elevated privileges.
 -   A non-privileged user can install an advertised application that requires elevated privileges if a local system agent advertises the application. The application can be advertised for a per-user or per-machine installation. An application installed using this method is considered managed. For more information, see [Advertising a Per-User Application To Be Installed with Elevated Privileges](advertising-a-per-user-application-to-be-installed-with-elevated-privileges.md).
 -   An administrator can set the [AlwaysInstallElevated](alwaysinstallelevated.md) policy for both per-user and per-machine installations. This method can open a computer to a security risk, because when this policy is set, a non-administrator user can run installations with elevated privileges and access secure locations on the computer, such as the SystemFolder or the **HKLM** registry key.
@@ -35,6 +35,3 @@ The following methods can also be used to install an application with elevated s
  
 
  
-
-
-

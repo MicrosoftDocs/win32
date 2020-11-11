@@ -484,7 +484,7 @@ The [**\_\_ProviderRegistration**](--providerregistration.md) class defines the 
 
 <dl> <dt>
 
-[**\_\_ObjectProviderRegistration**](https://docs.microsoft.com/windows/desktop/WmiSdk/--objectproviderregistration)
+[**\_\_ObjectProviderRegistration**](/windows/desktop/WmiSdk/--objectproviderregistration)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
@@ -500,9 +500,4 @@ The [**\_\_ProviderRegistration**](--providerregistration.md) class defines the 
 </dt> </dl>
 
  
-
- 
-
-
-
 

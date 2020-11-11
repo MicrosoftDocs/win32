@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # Encoder Interfaces
 
-## 
 
 The following tables show the interfaces implemented by Windows Imaging Component (WIC) encoders, and the class diagram shows the inheritance hierarchy.
 

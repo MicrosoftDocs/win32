@@ -32,7 +32,7 @@ A byte array column value.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
     Microsoft.Isam.Esent.Interop.BytesColumnValue  
 
@@ -64,4 +64,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 [BytesColumnValue members](dn334118\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

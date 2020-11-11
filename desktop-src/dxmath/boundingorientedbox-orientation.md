@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # BoundingOrientedBox.Orientation
 
-The orientation of the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx) represented as a quaternion.
+The orientation of the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox) represented as a quaternion.
 
 
 ```C++
@@ -44,13 +44,9 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx)
+[**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox)
 </dt> </dl>
 
  
 
  
-
-
-
-

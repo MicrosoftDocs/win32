@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Bitmap.ApplyEffect methods
 
-This topic lists the ApplyEffect methods of the [**Bitmap**](https://msdn.microsoft.com/library/ms534420(v=VS.85).aspx) class. For a complete list of methods for the **Bitmap** class, see [Bitmap Methods](-gdiplus-class-bitmap-methods.md).
+This topic lists the ApplyEffect methods of the [**Bitmap**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-bitmap) class. For a complete list of methods for the **Bitmap** class, see [Bitmap Methods](-gdiplus-class-bitmap-methods.md).
 
 ### Overload list
 
@@ -16,15 +16,11 @@ This topic lists the ApplyEffect methods of the [**Bitmap**](https://msdn.micros
 
 | Method                                                                                                                    | Description                                                                                                                                                                                                                               |
 |:--------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ApplyEffect(Effect\*,RECT\*)**](https://msdn.microsoft.com/library/ms536321(v=VS.85).aspx)                         | The [**Bitmap::ApplyEffect**](https://msdn.microsoft.com/library/ms536321(v=VS.85).aspx) method alters this [**Bitmap**](https://msdn.microsoft.com/library/ms534420(v=VS.85).aspx) object by applying a specified effect.<br/>                           |
-| [**ApplyEffect(Bitmap\*\*,INT,Effect\*,RECT\*,RECT\*,Bitmap\*\*)**](https://msdn.microsoft.com/library/ms536320(v=VS.85).aspx) | The [**Bitmap::ApplyEffect**](https://msdn.microsoft.com/library/ms536320(v=VS.85).aspx) method creates a new [**Bitmap**](https://msdn.microsoft.com/library/ms534420(v=VS.85).aspx) object by applying a specified effect to an existing **Bitmap** object.<br/> |
+| [**ApplyEffect(Effect\*,RECT\*)**](/previous-versions//ms536321(v=vs.85))                         | The [**Bitmap::ApplyEffect**](/previous-versions//ms536321(v=vs.85)) method alters this [**Bitmap**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-bitmap) object by applying a specified effect.<br/>                           |
+| [**ApplyEffect(Bitmap\*\*,INT,Effect\*,RECT\*,RECT\*,Bitmap\*\*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)) | The [**Bitmap::ApplyEffect**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)) method creates a new [**Bitmap**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-bitmap) object by applying a specified effect to an existing **Bitmap** object.<br/> |
 
 
 
  
 
  
-
-
-
-

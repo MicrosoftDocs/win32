@@ -28,8 +28,8 @@ The [Instance](dn350923\(v=exchg.10\).md) type exposes the following members.
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn350944.protfield(exchg.10).gif" title="Protected field" alt="Protected field" /></td>
-<td><a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle.handle?redirectedfrom=MSDN">handle</a></td>
-<td>(Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.safehandle?redirectedfrom=MSDN">SafeHandle</a>.)</td>
+<td><a href="/dotnet/api/system.runtime.interopservices.safehandle.handle">handle</a></td>
+<td>(Inherited from <a href="/dotnet/api/system.runtime.interopservices.safehandle">SafeHandle</a>.)</td>
 </tr>
 </tbody>
 </table>
@@ -44,4 +44,3 @@ Top
 [Instance class](dn350923\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

@@ -70,7 +70,7 @@ public static void JetOSSnapshotFreeze(
 <!-- end list -->
 
   - numInstances  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Returns the number of instances that are part of the snapshot session.
 
@@ -97,4 +97,3 @@ public static void JetOSSnapshotFreeze(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

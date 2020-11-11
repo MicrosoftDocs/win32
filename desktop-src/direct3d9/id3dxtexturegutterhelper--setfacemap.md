@@ -38,7 +38,7 @@ HRESULT SetFaceMap(
 *pFaceData* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Pointer to the index of the mesh face to which each texel belongs.
 
@@ -75,7 +75,3 @@ The mesh face data input to this method is valid only for valid (non-class 0) te
  
 
  
-
-
-
-

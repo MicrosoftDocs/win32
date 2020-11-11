@@ -39,7 +39,7 @@ HRESULT GetDataObjectByName(
 *szName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Pointer to the requested name.
 
@@ -85,7 +85,3 @@ Obtain the name szName of the current file data object with the [**ID3DXFileData
  
 
  
-
-
-
-

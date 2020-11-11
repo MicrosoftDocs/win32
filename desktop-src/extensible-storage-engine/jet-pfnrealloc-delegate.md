@@ -65,32 +65,31 @@ public delegate IntPtr JET_PFNREALLOC(
 #### Parameters
 
   - context  
-    Type: [System.IntPtr](https://docs.microsoft.com/dotnet/api/system.intptr?redirectedfrom=MSDN)  
+    Type: [System.IntPtr](/dotnet/api/system.intptr)  
     
     Context given to JetEnumerateColumns.
 
 <!-- end list -->
 
   - memory  
-    Type: [System.IntPtr](https://docs.microsoft.com/dotnet/api/system.intptr?redirectedfrom=MSDN)  
+    Type: [System.IntPtr](/dotnet/api/system.intptr)  
     
     If non-zero, a pointer to a memory block previously allocated by this callback.
 
 <!-- end list -->
 
   - requestedSize  
-    Type: [System.UInt32](https://docs.microsoft.com/dotnet/api/system.uint32?redirectedfrom=MSDN)  
+    Type: [System.UInt32](/dotnet/api/system.uint32)  
     
     The new size of the memory block (in bytes). If this is 0 and a memory block is specified, that memory block will be freed.
 
 #### Return value
 
-Type: [System.IntPtr](https://docs.microsoft.com/dotnet/api/system.intptr?redirectedfrom=MSDN)  
-A pointer to newly allocated memory. If memory could not be allocated then [Zero](https://docs.microsoft.com/dotnet/api/system.intptr.zero?redirectedfrom=MSDN) should be returned.  
+Type: [System.IntPtr](/dotnet/api/system.intptr)  
+A pointer to newly allocated memory. If memory could not be allocated then [Zero](/dotnet/api/system.intptr.zero) should be returned.  
 
 ## See also
 
 #### Reference
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

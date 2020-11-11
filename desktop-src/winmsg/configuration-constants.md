@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Configuration Constants
 
-This section provides the reference specifications for [**SystemParametersInfo**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx) constants related to [Configuration](configuration.md) system attributes.
+This section provides the reference specifications for [**SystemParametersInfo**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa) constants related to [Configuration](configuration.md) system attributes.
 
 ## In this section
 
@@ -31,13 +31,8 @@ This section provides the reference specifications for [**SystemParametersInfo**
 [Configuration Reference](configuration-reference.md)
 </dt> <dt>
 
-[Input Feedback Configuration](https://docs.microsoft.com/previous-versions/windows/desktop/input_feedback/input-feedback-configuration-portal)
+[Input Feedback Configuration](/previous-versions/windows/desktop/input_feedback/input-feedback-configuration-portal)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -12,7 +12,6 @@ This tutorial describes how to create a status callback function used to monitor
 
 Status callback functions receive status callbacks on any Internet requests that originated from any WinINet function that was passed a nonzero context value.
 
-## 
 
 The following steps are necessary for creating a status callback function:
 
@@ -239,7 +238,7 @@ The status callback function must follow the format of [*InternetStatusCallback*
     
 
 > [!Note]  
-> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 
@@ -259,7 +258,3 @@ The status callback function must follow the format of [*InternetStatusCallback*
  
 
  
-
-
-
-

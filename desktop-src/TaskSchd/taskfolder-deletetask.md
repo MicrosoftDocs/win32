@@ -48,7 +48,7 @@ The name of the task that is specified when the task was registered. The '.' cha
 *flags* \[in\]
 </dt> <dd>
 
-Not supported.
+Not supported. Value is 0
 
 </dd> </dl>
 

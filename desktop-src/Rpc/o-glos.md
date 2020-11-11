@@ -44,14 +44,10 @@ Memory on a client previously referred to by a pointer parameter that has been r
 <span id="_rpc_output_parameter_glos"></span><span id="_RPC_OUTPUT_PARAMETER_GLOS"></span>**output parameter**
 </dt> <dd>
 
-Parameter containing data that the server application is transmitting to the client application. The \[ [out](https://docs.microsoft.com/windows/desktop/Midl/out-idl)\] attribute designates an output parameter.
+Parameter containing data that the server application is transmitting to the client application. The \[ [out](/windows/desktop/Midl/out-idl)\] attribute designates an output parameter.
 
 </dd> </dl>
 
  
 
  
-
-
-
-

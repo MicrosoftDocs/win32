@@ -34,7 +34,7 @@ Value specifying the portion of the item for which to retrieve the bounding rect
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that, when sending the message, contains the handle of the item to retrieve the rectangle for. See the example below for more information on how to place the item handle in this parameter. After returning from the message, this parameter contains the bounding rectangle. The coordinates are relative to the upper-left corner of the tree-view control.
+Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that, when sending the message, contains the handle of the item to retrieve the rectangle for. See the example below for more information on how to place the item handle in this parameter. After returning from the message, this parameter contains the bounding rectangle. The coordinates are relative to the upper-left corner of the tree-view control.
 
 </dd> </dl>
 
@@ -70,10 +70,4 @@ SendMessage(hwndTreeView, TVM_GETITEMRECT, FALSE, (LPARAM)&rc);
 
 
  
-
- 
-
-
-
-
 

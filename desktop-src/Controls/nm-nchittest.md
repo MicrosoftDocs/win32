@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # NM\_NCHITTEST notification code
 
-Sent by a rebar control when the control receives a [**WM\_NCHITTEST**](https://docs.microsoft.com/windows/desktop/inputdev/wm-nchittest) message. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
+Sent by a rebar control when the control receives a [**WM\_NCHITTEST**](/windows/desktop/inputdev/wm-nchittest) message. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
 
 
 ```C++
@@ -42,7 +42,7 @@ A pointer to a [**NMMOUSE**](/windows/win32/api/commctrl/ns-commctrl-nmmouse) st
 
 ## Return value
 
-Unless otherwise specified, return zero to allow the control to perform default processing of the hit test message, or return one of the HT\* values documented under [**WM\_NCHITTEST**](https://docs.microsoft.com/windows/desktop/inputdev/wm-nchittest) to override the default hit test processing.
+Unless otherwise specified, return zero to allow the control to perform default processing of the hit test message, or return one of the HT\* values documented under [**WM\_NCHITTEST**](/windows/desktop/inputdev/wm-nchittest) to override the default hit test processing.
 
 ## Requirements
 
@@ -57,10 +57,4 @@ Unless otherwise specified, return zero to allow the control to perform default 
 
 
  
-
- 
-
-
-
-
 

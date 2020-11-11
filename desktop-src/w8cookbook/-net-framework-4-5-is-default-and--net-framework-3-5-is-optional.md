@@ -10,9 +10,8 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-<dl> **Clients**   Windows 8  
+**Clients**   Windows 8  
 **Servers**   Windows Server 2012  
-</dl>
 
 ## Description
 
@@ -138,5 +137,5 @@ This registry entry is supported:
 
 <dl>
 
-[Implementing Registry-based Policy](https://msdn.microsoft.com/library/aa374292(v=VS.85).aspx)  
+[Implementing Registry-based Policy](/previous-versions/windows/desktop/Policy/implementing-registry-based-policy)  
 </dl>

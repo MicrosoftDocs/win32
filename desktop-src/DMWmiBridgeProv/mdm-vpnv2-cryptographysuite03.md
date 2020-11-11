@@ -56,7 +56,7 @@ The **MDM\_VPNv2\_CryptographySuite03** class has these properties.
 
 <dl> <dt>
 
-[AuthenticationTransformConstants](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-nativeprofile-cryptographysuite-authenticationtransformconstants)
+[AuthenticationTransformConstants](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-nativeprofile-cryptographysuite-authenticationtransformconstants)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -67,7 +67,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[CipherTransformConstants](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-nativeprofile-cryptographysuite-ciphertransformconstants)
+[CipherTransformConstants](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-nativeprofile-cryptographysuite-ciphertransformconstants)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -78,7 +78,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DHGroup](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-nativeprofile-cryptographysuite-dhgroup)
+[DHGroup](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-nativeprofile-cryptographysuite-dhgroup)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -89,7 +89,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EncryptionMethod](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-nativeprofile-cryptographysuite-encryptionmethod)
+[EncryptionMethod](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-nativeprofile-cryptographysuite-encryptionmethod)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -109,14 +109,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Node containing the properties of IPSec tunnels.
 
 </dd> <dt>
 
-[IntegrityCheckMethod](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-nativeprofile-cryptographysuite-integritycheckmethod)
+[IntegrityCheckMethod](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-nativeprofile-cryptographysuite-integritycheckmethod)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -136,14 +136,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/VPNv2/*ProfileName*/NativeProfile"
 
 </dd> <dt>
 
-[PfsGroup](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-nativeprofile-cryptographysuite-pfsgroup)
+[PfsGroup](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-nativeprofile-cryptographysuite-pfsgroup)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -169,10 +169,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

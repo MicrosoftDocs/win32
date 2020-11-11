@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Storage Modes
 
-Asynchronous storage supports two storage modes: blocking and nonblocking, which a client (either a browser or the object itself) can specify by returning BINDF\_ASYNCSTORAGE from the moniker's call to [**IBindStatusCallback::GetBindInfo**](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775058(v=vs.85)). If a client specifies BINDF\_ASYNCSTORAGE, it receives a pointer to a nonblocking asynchronous storage. Otherwise, it receives a pointer to a blocking asynchronous storage. Even if the client does not request an asynchronous binding operation (by not registering [**IBindStatusCallback**](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775060(v=vs.85)) with the bind context), the moniker still returns a blocking asynchronous storage, enabling progressive loading for legacy applications.
+Asynchronous storage supports two storage modes: blocking and nonblocking, which a client (either a browser or the object itself) can specify by returning BINDF\_ASYNCSTORAGE from the moniker's call to [**IBindStatusCallback::GetBindInfo**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775058(v=vs.85)). If a client specifies BINDF\_ASYNCSTORAGE, it receives a pointer to a nonblocking asynchronous storage. Otherwise, it receives a pointer to a blocking asynchronous storage. Even if the client does not request an asynchronous binding operation (by not registering [**IBindStatusCallback**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775060(v=vs.85)) with the bind context), the moniker still returns a blocking asynchronous storage, enabling progressive loading for legacy applications.
 
 In nonblocking mode, an asynchronous storage returns E\_PENDING when data is unavailable. Upon receiving this message, the client waits for notification that additional data is available before trying again to download it.
 
@@ -19,7 +19,3 @@ Blocking mode is necessary because clients unaware of asynchronous storage will 
  
 
  
-
-
-
-

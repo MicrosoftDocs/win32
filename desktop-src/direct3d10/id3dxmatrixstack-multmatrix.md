@@ -38,7 +38,7 @@ HRESULT MultMatrix(
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **const [**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to the D3DXMATRIX structure to be multiplied with the current matrix.
 
@@ -87,7 +87,3 @@ This method does not add an item to the stack, it replaces the current matrix wi
  
 
  
-
-
-
-

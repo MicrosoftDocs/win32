@@ -12,11 +12,11 @@ ms.date: 05/31/2018
 
 # Including Attributes in the Global Catalog
 
-The global catalog of a forest includes a partial replica of every object in the forest. For each object, the global catalog includes only a subset of each object's attributes. The [**isMemberOfPartialAttributeSet**](https://docs.microsoft.com/windows/desktop/ADSchema/a-ismemberofpartialattributeset) attribute of an [**attributeSchema**](https://docs.microsoft.com/windows/desktop/ADSchema/c-attributeschema) object is set to **TRUE** if the attribute is replicated to the global catalog.
+The global catalog of a forest includes a partial replica of every object in the forest. For each object, the global catalog includes only a subset of each object's attributes. The [**isMemberOfPartialAttributeSet**](/windows/desktop/ADSchema/a-ismemberofpartialattributeset) attribute of an [**attributeSchema**](/windows/desktop/ADSchema/c-attributeschema) object is set to **TRUE** if the attribute is replicated to the global catalog.
 
 Attributes with the following characteristics are appropriate for storage in the global catalog:
 
--   The attribute is globally interesting, either because the attribute is required for locating objects that can occur anywhere in the forest, or because read access to the attribute is valuable even when the full object is not accessible. An example of the first type is the [**location**](https://docs.microsoft.com/windows/desktop/ADSchema/a-location) attribute, which can be used to find a [**printQueue**](https://docs.microsoft.com/windows/desktop/ADSchema/c-printqueue) object. An example of the second type is [**telephoneNumber**](https://docs.microsoft.com/windows/desktop/ADSchema/a-telephonenumber), because you can call someone even if you cannot access a full replica of their [**user**](https://docs.microsoft.com/windows/desktop/ADSchema/c-user) object.
+-   The attribute is globally interesting, either because the attribute is required for locating objects that can occur anywhere in the forest, or because read access to the attribute is valuable even when the full object is not accessible. An example of the first type is the [**location**](/windows/desktop/ADSchema/a-location) attribute, which can be used to find a [**printQueue**](/windows/desktop/ADSchema/c-printqueue) object. An example of the second type is [**telephoneNumber**](/windows/desktop/ADSchema/a-telephonenumber), because you can call someone even if you cannot access a full replica of their [**user**](/windows/desktop/ADSchema/c-user) object.
 -   The volatility of the attribute is very low. This is important, because if an attribute class is included in the global catalog, changes to every value of that attribute class throughout the enterprise forest are replicated to all global catalog servers in the enterprise.
 -   The size of the attribute value is small. "Small" is highly subjective: when placing an attribute in the global catalog, consider the impact of replicating the attribute to all global catalog servers in the enterprise. The smaller the attribute, the lower the impact. Because replication occurs only when the attribute changes, the impact of replication is also smaller as volatility decreases, so a large attribute with very low volatility may have a smaller overall impact than a small attribute with high volatility.
 
@@ -27,7 +27,3 @@ Frequently queried and referenced attributes, such as employee name and phone nu
  
 
  
-
-
-
-

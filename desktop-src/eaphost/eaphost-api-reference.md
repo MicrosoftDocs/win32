@@ -1,6 +1,6 @@
 ---
 title: EAPHost API Reference
-description: EAPHost API Reference
+description: Learn about EAPHost APIs and their components. See reference information for various API topics, like the EAPHost XML Schema.
 ms.assetid: ac2f074f-b525-42a2-8637-c96a08d77714
 ms.topic: article
 ms.date: 05/31/2018

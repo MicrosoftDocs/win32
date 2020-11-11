@@ -16,7 +16,7 @@ Specifies the audio policy class for the audio renderer.
 
 ## Remarks
 
-This attribute associates the audio renderer with an audio policy class. Each policy class has its own volume and policy control. If this attribute is not set, the new SAR joins the application's default audio session. For more information, see [**IAudioClient::Initialize**](https://msdn.microsoft.com/library/Dd370875(v=VS.85).aspx) in the core audio API documentation.
+This attribute associates the audio renderer with an audio policy class. Each policy class has its own volume and policy control. If this attribute is not set, the new SAR joins the application's default audio session. For more information, see [**IAudioClient::Initialize**](/windows/win32/api/audioclient/nf-audioclient-iaudioclient-initialize) in the core audio API documentation.
 
 You can use this attribute to configure the audio renderer. The usage depends on which function you call to create the audio renderer:
 
@@ -59,7 +59,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

@@ -36,7 +36,7 @@ SFVM_SETPOINTS
 <dl> <dt>
 
 *pdtobj* \[in\]
-</dt> <dd>A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">**IDataObject**</a> of the **Copy** and **Cut** commands.</dd> </dl>
+</dt> <dd>A pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">**IDataObject**</a> of the **Copy** and **Cut** commands.</dd> </dl>
 
 ## Return value
 
@@ -59,7 +59,3 @@ Always returns zero.
  
 
  
-
-
-
-

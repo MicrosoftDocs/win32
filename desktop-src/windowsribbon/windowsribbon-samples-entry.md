@@ -28,7 +28,7 @@ The Windows Ribbon framework samples can be downloaded as standalone Microsoft V
 | [FontControl Sample](windowsribbon-fontcontrolsample.md)<br/>                 | This code sample demonstrates the markup and code required to implement a FontControl within a Windows Ribbon application. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 ## Support
 
-The [Windows Ribbon Development Forum](https://social.msdn.microsoft.com/Forums/windowsdesktop/en-US/home?forum=windowsribbondevelopment) is available to discuss topics and ask questions related to developing Windows Ribbon applications.
+The [Windows Ribbon Development Forum](https://social.msdn.microsoft.com/Forums/windowsdesktop/home?forum=windowsribbondevelopment) is available to discuss topics and ask questions related to developing Windows Ribbon applications.
 
 ## Minimum Requirements
 

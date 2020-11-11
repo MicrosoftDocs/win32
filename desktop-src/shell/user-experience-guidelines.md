@@ -2,7 +2,7 @@
 Description: The primary responsibility of any Control Panel item is to display a window that allows the user to view and manipulate settings.
 title: User Experience Guidelines
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/24/2020
 ms.assetid: f03a154b-9781-4718-8244-3d57fee0755e
 api_name: 
 api_type: 
@@ -14,9 +14,9 @@ topic_type:
 
 # User Experience Guidelines
 
-The primary responsibility of any Control Panel item is to display a window that allows the user to view and manipulate settings. See [Control Panels user experience (UX) guidelines](https://msdn.microsoft.com/library/aa511272.aspx) for the Windows Vista for the behavior and design of Control Panel items. The guidelines discussed in that topic show a task flow method of organizing a Control Panel item. This places the most important settings on a home page. Less frequently used settings are placed on spoke pages or accessed from links in a side pane.
+The primary responsibility of any Control Panel item is to display a window that allows the user to view and manipulate settings. See the [Control Panels user experience (UX) guidelines](../uxguide/winenv-ctrl-panels.md) for the behavior and design of Control Panel items. The guidelines discussed in that topic show a task flow method of organizing a Control Panel item. This places the most important settings on a home page. Less frequently used settings are placed on spoke pages or accessed from links in a side pane.
 
-The Windows Vista Control Panel includes many Control Panel items that follow these guidelines, such as Windows Update, Ease of Access Center, or Network and Sharing Center. Other Control Panel items use the tabbed dialog property sheet format as in earlier versions of Windows. Examples include the Mouse item and Internet Options. Use of the property sheet format should be discontinued. If you create new Control Panel items for Windows Vista, you should follow the task flow guidelines.
+The Control Panel includes many items that follow these guidelines, such as Ease of Access Center and Network and Sharing Center. Other Control Panel items use the tabbed dialog property sheet format as in earlier versions of Windows. Examples include the Mouse item and Internet Options. Use of the property sheet format should be discontinued. If you create new Control Panel items, you should follow the task flow guidelines.
 
 In the past, Control Panel items were packaged as .cpl files. That is no longer necessary. New Control Panel items should be implemented as a standalone .exe file or as a command-line flag option for the application's main executable file.
 
@@ -53,7 +53,7 @@ In the past, Control Panel items were packaged as .cpl files. That is no longer 
 [Creating Searchable Task Links for a Control Panel Item](creating-searchable-task-links.md)
 </dt> <dt>
 
-[Accessing the Control Panel in Safe Mode under Windows Vista](accessing-the-cp-in-safe-mode-under-vista.md)
+[Accessing the Control Panel in Safe Mode](accessing-the-cp-in-safe-mode-under-vista.md)
 </dt> </dl>
 
  

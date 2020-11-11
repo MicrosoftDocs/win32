@@ -20,8 +20,8 @@ Windows defines the following data types for the MIDI input functions.
 | Value                            | Meaning                                                                                                                                                                                     |
 |----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **HMIDIIN**                      | Handle of a MIDI input device.                                                                                                                                                              |
-| [**MIDIHDR**](https://msdn.microsoft.com/library/Dd798449(v=VS.85).aspx)       | Header for a stream buffer or a block of MIDI system-exclusive data. For input applications, this structure records only system-exclusive data (streaming is not supported for MIDI input). |
-| [**MIDIINCAPS**](https://msdn.microsoft.com/library/Dd798451(v=VS.85).aspx) | Structure used to inquire about the capabilities of a MIDI input device.                                                                                                                    |
+| [**MIDIHDR**](/windows/win32/api/mmeapi/ns-mmeapi-midihdr)       | Header for a stream buffer or a block of MIDI system-exclusive data. For input applications, this structure records only system-exclusive data (streaming is not supported for MIDI input). |
+| [**MIDIINCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-midiincaps) | Structure used to inquire about the capabilities of a MIDI input device.                                                                                                                    |
 
 
 
@@ -37,7 +37,3 @@ Windows defines the following data types for the MIDI input functions.
  
 
  
-
-
-
-

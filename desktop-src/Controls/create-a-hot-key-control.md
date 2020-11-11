@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Create a Hot Key Control
 
-This topic demonstrates how to create a hot key control. You create a hot key control by using the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specifying the HOTKEY\_CLASS window class.
+This topic demonstrates how to create a hot key control. You create a hot key control by using the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specifying the HOTKEY\_CLASS window class.
 
 ## What you need to know
 
@@ -23,15 +23,13 @@ This topic demonstrates how to create a hot key control. You create a hot key co
 
 ## Instructions
 
-### 
 
 Before you create the hot key control, ensure that the common controls DLL is loaded.
 
-In the following C++ code example, the application-defined function calls the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function to load the common control DLL. Then it calls the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specifying the **HOTKEY\_CLASS** window class, to create a hot key control. It uses the [**HKM\_SETRULES**](hkm-setrules.md) and [**HKM\_SETHOTKEY**](hkm-sethotkey.md) messages to initialize the control and returns a handle to the control.
+In the following C++ code example, the application-defined function calls the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function to load the common control DLL. Then it calls the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specifying the **HOTKEY\_CLASS** window class, to create a hot key control. It uses the [**HKM\_SETRULES**](hkm-setrules.md) and [**HKM\_SETHOTKEY**](hkm-sethotkey.md) messages to initialize the control and returns a handle to the control.
 
 This hot key control does not allow the user to choose a hot key that is a single unmodified key, nor does it permit the user to choose only SHIFT and a key. These rules effectively prevent the user from choosing a hot key that might be entered accidentally while typing text.
 
-## 
 
 
 ```C++
@@ -108,7 +106,3 @@ HWND WINAPI InitializeHotkey(HWND hwndDlg)
  
 
  
-
-
-
-

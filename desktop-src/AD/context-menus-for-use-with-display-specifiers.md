@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Context Menus for Use with Display Specifiers
 
-The Active Directory administrative MMC snap-ins and Windows 2000 shell provide a mechanism to add an item to the context menu displayed for objects in Active Directory Domain Services. A context menu item can be added by implementing an COM in-proc server known as a *context menu extension*. A context menu item can also be added that invokes any file started with the [**ShellExecute**](https://msdn.microsoft.com/library/Bb762153(v=VS.85).aspx) API, such as an application or webpage URL. This is known as a *static context menu item*.
+The Active Directory administrative MMC snap-ins and Windows 2000 shell provide a mechanism to add an item to the context menu displayed for objects in Active Directory Domain Services. A context menu item can be added by implementing an COM in-proc server known as a *context menu extension*. A context menu item can also be added that invokes any file started with the [**ShellExecute**](/windows/win32/api/shellapi/nf-shellapi-shellexecutea) API, such as an application or webpage URL. This is known as a *static context menu item*.
 
 ## Developer Audience
 
@@ -23,18 +23,14 @@ A context menu extension is a COM in-proc server that implements certain interfa
 
 **To create and install a context menu extension**
 
-1.  Create the context menu extension DLL. A context menu extension is a COM in-proc server that, at a minimum, implements the [**IShellExtInit**](https://msdn.microsoft.com/library/Bb775096(v=VS.85).aspx) and [**IContextMenu**](https://msdn.microsoft.com/library/Bb776095(v=VS.85).aspx) interfaces. For more information, see [Implementing the Context Menu COM Object](implementing-the-context-menu-com-object.md).
+1.  Create the context menu extension DLL. A context menu extension is a COM in-proc server that, at a minimum, implements the [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) and [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) interfaces. For more information, see [Implementing the Context Menu COM Object](implementing-the-context-menu-com-object.md).
 2.  Install the context menu sheet extension on computers where the context menu extension is used. This is accomplished by creating a Microsoft Windows Installer package for the context menu extension DLL and deploying the package appropriately using the group policy. For more information, see [Distributing User Interface Components](distributing-user-interface-components.md).
 3.  Register the context menu extension in the Windows registry and with Active Directory Domain Services. For more information, see [Registering the Context Menu COM Object in a Display Specifier](registering-the-context-menu-com-object-in-a-display-specifier.md).
 
 ## Extending the Context Menu With a Static Context Menu Item
 
-A static context menu item can be used to invoke any file started with the [**ShellExecute**](https://msdn.microsoft.com/library/Bb762153(v=VS.85).aspx) API, such as an application or webpage URL. To accomplished this, the static context menu item for a particular object class must be registered so that the static context menu item is added to the context menu of objects of that class. For more information, see [Registering a Static Context Menu Item](registering-a-static-context-menu-item.md).
+A static context menu item can be used to invoke any file started with the [**ShellExecute**](/windows/win32/api/shellapi/nf-shellapi-shellexecutea) API, such as an application or webpage URL. To accomplished this, the static context menu item for a particular object class must be registered so that the static context menu item is added to the context menu of objects of that class. For more information, see [Registering a Static Context Menu Item](registering-a-static-context-menu-item.md).
 
  
 
  
-
-
-
-

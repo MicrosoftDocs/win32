@@ -17,7 +17,7 @@ api_location:
 
 # Signers object
 
-\[The **Signers** object is available for use in the operating systems specified in the Requirements section. Instead, use a collection of CmsSigner objects. For more information, see the [**CmsSigner Class**](https://msdn.microsoft.com/library/5x3db70t(v=VS.100).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.100).aspx) namespace.\]
+\[The **Signers** object is available for use in the operating systems specified in the Requirements section. Instead, use a collection of CmsSigner objects. For more information, see the [**CmsSigner Class**](/dotnet/api/system.security.cryptography.pkcs.cmssigner?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
 
 The **Signers** object represents a collection of [**Signer**](signer.md) objects.
 
@@ -43,7 +43,7 @@ The **Signers** object has these properties.
 
 | Property                                        | Access type          | Description                                                                                                                                                                                                                     |
 |:------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](signers-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
+| [**\_NewEnum**](signers-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
 | [**Count**](signers-count.md)<br/>       | Read-only<br/> | Number of [**Signer**](signer.md) objects in the collection.<br/>                                                                                                                                                        |
 | [**Item**](signers-item.md)<br/>         | Read-only<br/> | Retrieves the [**Signer**](signer.md) object that represents the indexed signer. This is the default property.<br/>                                                                                                      |
 
@@ -76,7 +76,3 @@ The **Signers** object cannot be created.
  
 
  
-
-
-
-

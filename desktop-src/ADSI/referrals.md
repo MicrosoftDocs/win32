@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Referrals occur when the server you are querying does not contain that data, but can find it. The target server returns the result set, which may include both the actual data and a referral to another server to retrieve the additional data. By enabling *referral chasing*, the underlying ADSI client code will use that referral data to attempt to retrieve the target object from the server described in the referral data. Be aware that the disabling referral chasing may result in a smaller result set, whereas enabling referral chasing may cause a query to span many servers. When possible, the recommended solution is to use the global catalog.
 
-For more information about referrals and referral chasing in Active Directory, see [Referrals](https://docs.microsoft.com/windows/desktop/AD/referrals).
+For more information about referrals and referral chasing in Active Directory, see [Referrals](/windows/desktop/AD/referrals).
 
 For example, when a client instructs Server A (A) to query a user object (U), A can suggest that the client continue the search on Server B (B) if U does not reside on A, but is known to be on B. The client has the choice of pursuing the referral or not. Search referrals free the client from requiring advanced recognition of the capability of each server. However, the client must specify the type of referrals a server should make.
 
@@ -51,7 +51,3 @@ For more information about using the referral chasing options with a specific se
  
 
  
-
-
-
-

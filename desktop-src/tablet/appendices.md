@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 | Appendix                                                                                                 | Description                                                      |
 |----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [COM APIs Used by Windows Presentation Foundation](com-apis-used-by-windows-presentation-foundation.md) | Contains the APIs used by Windows Presentation Foundation (WPF). |
-| [Input Personalization Interfaces](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317322(v=vs.85))                        | Contains the APIs used for input personalization.                |
+| [Input Personalization Interfaces](/previous-versions/windows/desktop/legacy/dd317322(v=vs.85))                        | Contains the APIs used for input personalization.                |
 | [Working with the Text Ink Object](working-with-the-text-ink-object.md)                                 | Explains how to use the text ink object.                         |
 
 
@@ -25,6 +25,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-

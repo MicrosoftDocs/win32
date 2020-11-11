@@ -60,12 +60,8 @@ When you specify a pointer attribute at the top level of a [**typedef**](typedef
 
 DCE IDL does not allow the same pointer attribute to be explicitly applied twice—for example, in both the [**typedef**](typedef.md) declaration and the parameter attribute list. When you use the default (Microsoft extensions) mode of the MIDL compiler, this constraint is relaxed.
 
-For a discussion of using MIDL arrays and pointers in remote procedure calls, see [Arrays and Pointers](https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-pointers).
+For a discussion of using MIDL arrays and pointers in remote procedure calls, see [Arrays and Pointers](/windows/desktop/Rpc/arrays-and-pointers).
 
  
 
  
-
-
-
-

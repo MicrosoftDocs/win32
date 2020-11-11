@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PROV\_RSA\_SCHANNEL
 
-The PROV\_RSA\_SCHANNEL provider type supports both RSA and [*Schannel*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) protocols.
+The PROV\_RSA\_SCHANNEL provider type supports both RSA and [*Schannel*](../secgloss/s-gly.md) protocols.
 
 ## Algorithms Supported
 
@@ -18,10 +18,10 @@ For descriptions of each of these algorithms, see the glossary.
 
 | Purpose      | Supported algorithms                                                                                                                                                                                                                                                                                                          |
 |--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Key Exchange | [*RSA*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx)                                                                                                                                                                                                                                                                   |
+| Key Exchange | [*RSA*](../secgloss/r-gly.md)                                                                                                                                                                                                                                                                   |
 | Signature    | RSA                                                                                                                                                                                                                                                                                                                           |
-| Encryption   | Any PROV\_RSA\_SCHANNEL CSP must implement one or more of the following algorithms: [*RC4*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx)<br/> [*DES*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx)<br/> [*Triple DES*](https://msdn.microsoft.com/library/ms721627(v=VS.85).aspx)<br/> |
-| Hashing      | [*MD5*](https://msdn.microsoft.com/library/ms721594(v=VS.85).aspx)[*SHA*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx)<br/>                                                                                                                                                                                             |
+| Encryption   | Any PROV\_RSA\_SCHANNEL CSP must implement one or more of the following algorithms: [*RC4*](../secgloss/r-gly.md)<br/> [*DES*](../secgloss/d-gly.md)<br/> [*Triple DES*](../secgloss/t-gly.md)<br/> |
+| Hashing      | [*MD5*](../secgloss/m-gly.md)[*SHA*](../secgloss/s-gly.md)<br/>                                                                                                                                                                                             |
 
 
 
@@ -30,7 +30,3 @@ For descriptions of each of these algorithms, see the glossary.
  
 
  
-
-
-
-

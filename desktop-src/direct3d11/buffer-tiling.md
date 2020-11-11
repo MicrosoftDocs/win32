@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 A [Buffer](overviews-direct3d-11-resources-buffers.md) resource is divided into 64KB tiles, with some empty space in the last tile if the size is not a multiple of 64KB.
 
-Structured buffers must have no constraint on the stride to be tiled. But possible performance optimizations in hardware for using [**StructuredBuffers**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-structuredbuffer) can be sacrificed by making them tiled in the first place.
+Structured buffers must have no constraint on the stride to be tiled. But possible performance optimizations in hardware for using [**StructuredBuffers**](/windows/desktop/direct3dhlsl/sm5-object-structuredbuffer) can be sacrificed by making them tiled in the first place.
 
 ## Related topics
 
@@ -22,7 +22,3 @@ Structured buffers must have no constraint on the stride to be tiled. But possib
  
 
  
-
-
-
-

@@ -122,7 +122,7 @@ The provider is also free to supply more than the requested range, up to the len
 
 ### Buffer Alignment Considerations
 
-ProjFS uses the [FILE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object) from the caller who requires the data to write the data to the local file system.  However ProjFS cannot control whether that FILE_OBJECT was opened for buffered or unbuffered I/O.  If the FILE_OBJECT was opened for unbuffered I/O, reads and writes to the file must adhere to certain alignment requirements.  The provider can meet those alignment requirements by doing two things:
+ProjFS uses the [FILE_OBJECT](/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object) from the caller who requires the data to write the data to the local file system.  However ProjFS cannot control whether that FILE_OBJECT was opened for buffered or unbuffered I/O.  If the FILE_OBJECT was opened for unbuffered I/O, reads and writes to the file must adhere to certain alignment requirements.  The provider can meet those alignment requirements by doing two things:
 
 1. Use **[PrjAllocateAlignedBuffer](/windows/win32/api/projectedfslib/nf-projectedfslib-prjallocatealignedbuffer)** to allocate the buffer to pass in **PrjWriteFileData**'s _buffer_ parameter.
 1. Ensure that the _byteOffset_ and _length_ parameters of **PrjWriteFileData** are integer multiples of the storage device's alignment requirement (note that the _length_ parameter does not have to meet this requirement if _byteOffset_ + _length_ is equal to the end of the file).  The provider can use **[PrjGetVirtualizationInstanceInfo](/windows/win32/api/projectedfslib/nf-projectedfslib-prjgetvirtualizationinstanceinfo)** to retrieve the storage device's alignment requirement.
@@ -131,7 +131,7 @@ ProjFS leaves it up to the provider to calculate proper alignment.  This is beca
 
 > If the provider is going to use a single call to **PrjWriteFileData** to either write the entire file, i.e. from _byteOffset_ = 0 to _length_ = size of the file, or to return the exact range requested in the **PRJ_GET_FILE_DATA_CB** callback, the provider does not have to do any alignment calculations.  However, it must still use **PrjAllocateAlignedBuffer** to ensure that _buffer_ meets the storage device’s alignment requirements.
 
-See the topic [File Buffering](https://docs.microsoft.com/windows/desktop/FileIO/file-buffering) for more information on buffered vs. unbuffered I/O.
+See the topic [File Buffering](/windows/desktop/FileIO/file-buffering) for more information on buffered vs. unbuffered I/O.
 
 ```C++
 //  BlockAlignTruncate(): Aligns P on the previous V boundary (V must be != 0).

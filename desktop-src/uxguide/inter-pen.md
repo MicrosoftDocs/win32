@@ -3,10 +3,13 @@ title: Pen
 description: All Microsoft Windows applications should be pen enabled. And doing so is easier than you think.
 ms.assetid: 45635d5a-c9ff-47d0-89ef-a9c48ac67594
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Pen
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
 
 All Microsoft Windows applications should be pen enabled. And doing so is easier than you think.
 
@@ -24,7 +27,7 @@ When the pen is used for handwriting, the user's strokes can be converted to tex
 
 An example of ink input.
 
-Most Windows programs are already pen-friendly in that a pen can be used instead of a mouse, the pen works smoothly for most important tasks and interactions, and the program responds to gestures. A program becomes handwriting-friendly when it assists with handwritten text input. A program becomes ink-enabled when it can handle ink directly, instead of requiring that pen strokes be translated to text or equivalent mouse movements. This allows users to write, draw, and add comments in free-flowing, high-quality digital ink. Collecting ink is different than collecting mouse events, because ink requires higher resolution and a higher sample rate, and it can also add nuance with pressure and tilt. For information about creating handwriting friendly and ink-enabled programs, see [Integrating Ink](https://msdn.microsoft.com/library/ms700674(VS.85).aspx) and [Text Input Using the Pen](https://msdn.microsoft.com/library/ms695501(VS.85).aspx).
+Most Windows programs are already pen-friendly in that a pen can be used instead of a mouse, the pen works smoothly for most important tasks and interactions, and the program responds to gestures. A program becomes handwriting-friendly when it assists with handwritten text input. A program becomes ink-enabled when it can handle ink directly, instead of requiring that pen strokes be translated to text or equivalent mouse movements. This allows users to write, draw, and add comments in free-flowing, high-quality digital ink. Collecting ink is different than collecting mouse events, because ink requires higher resolution and a higher sample rate, and it can also add nuance with pressure and tilt. For information about creating handwriting friendly and ink-enabled programs, see [Integrating Ink](/previous-versions/windows/desktop/ms700674(v=vs.85)) and [Text Input Using the Pen](/previous-versions/windows/desktop/ms695501(v=vs.85)).
 
 When positioning a pen, there is less need for a cursor because the tip represents itself. However, for targeting assistance, Windows provides a tiny pen cursor that indicates the current pen location. Unlike the mouse pointer it replaces, the pen cursor is not needed unless the pen is near the display, so it disappears after a few seconds of inactivity to allow an unobstructed view of information.
 
@@ -116,7 +119,7 @@ System gestures are defined and handled by Windows. As a result, all Windows pro
 
  
 
-**Developers:** For more information, see [SystemGesture Enumeration](https://msdn2.microsoft.com/library/microsoft.ink.systemgesture.aspx).
+**Developers:** For more information, see [SystemGesture Enumeration](/previous-versions/ms552724(v=vs.100)).
 
 **Flicks**
 
@@ -152,7 +155,7 @@ The navigational flicks have natural mapping, so they are easy to learn and reme
 
 **Application gestures**
 
-Applications can define and handle other gestures as well. The Microsoft Gesture Recognizer can recognize over [40 gestures](https://msdn2.microsoft.com/library/ms704830.aspx). To use application gestures, your program must define the gestures it recognizes, and then handle the resulting events.
+Applications can define and handle other gestures as well. The Microsoft Gesture Recognizer can recognize over [40 gestures](../tablet/application-gestures-and-semantic-behavior.md). To use application gestures, your program must define the gestures it recognizes, and then handle the resulting events.
 
 **Responsiveness and consistency**
 
@@ -221,7 +224,7 @@ In this example, the system metric for menu height was changed.
 
         When using a pen, also show contextual windows so that they aren't covered by the user's hand.
 
--   **Developers:** You can distinguish between mouse events and pen events using the [GetMessageExtraInfo](https://msdn2.microsoft.com/library/ms703320.aspx) API. You can determine the user's [handedness](https://msdn2.microsoft.com/library/ms819495.aspx) using the [SystemParametersInfo](https://msdn2.microsoft.com/library/ms724947.aspx) API with SPI\_GETMENUDROPALIGNMENT.
+-   **Developers:** You can distinguish between mouse events and pen events using the [GetMessageExtraInfo](../tablet/system-events-and-mouse-messages.md) API. You can determine the user's [handedness](/previous-versions/ms819495(v=msdn.10)) using the [SystemParametersInfo](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa) API with SPI\_GETMENUDROPALIGNMENT.
 
 ### Forgiveness
 
@@ -240,10 +243,4 @@ When referring to pen input:
 -   Use tap (and double-tap) instead of click when documenting procedures specific to using a pen. Tap means to press the screen and then lift before a hold time. It may or may not be used to generate a mouse click. For interactions that don't involve the pen, continue to use click.
 
  
-
- 
-
-
-
-
 

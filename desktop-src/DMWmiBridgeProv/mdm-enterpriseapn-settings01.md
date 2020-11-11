@@ -52,7 +52,7 @@ The **MDM\_EnterpriseAPN\_Settings01** class has these properties.
 
 <dl> <dt>
 
-[AllowUserControl](https://docs.microsoft.com/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-settings-allowusercontrol)
+[AllowUserControl](/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-settings-allowusercontrol)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -63,7 +63,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HideView](https://docs.microsoft.com/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-settings-hideview)
+[HideView](/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-settings-hideview)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -83,7 +83,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Node that contains APN global settings.
@@ -99,7 +99,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/EnterpriseAPN/Settings"
@@ -121,10 +121,4 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 
  
-
- 
-
-
-
-
 

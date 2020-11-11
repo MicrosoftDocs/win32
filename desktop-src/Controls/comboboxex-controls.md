@@ -26,7 +26,7 @@ Effectively, a ComboBoxEx control creates a child combo box and performs owner d
 
 A ComboBoxEx control must be initialized by calling the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function, specifying ICC\_USEREX\_CLASSES in the accompanying [**INITCOMMONCONTROLSEX**](/windows/win32/api/commctrl/ns-commctrl-initcommoncontrolsex) structure.
 
-You can create a ComboBoxEx control by using the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function and specifying [**WC\_COMBOBOXEX**](common-control-window-classes.md) as the window class. The class is registered when the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function is called as explained above.
+You can create a ComboBoxEx control by using the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function and specifying [**WC\_COMBOBOXEX**](common-control-window-classes.md) as the window class. The class is registered when the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function is called as explained above.
 
 ComboBoxEx controls are created without a default image list. To use item images, you must create an image list for the ComboBoxEx control and assign it to the control using the [**CBEM\_SETIMAGELIST**](cbem-setimagelist.md) message. If you do not assign an image list to the ComboBoxEx control, the control displays item text only.
 
@@ -87,7 +87,7 @@ The [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-commctrl-comboboxexitema
 
 ## About ComboBoxEx Control Notification Messages
 
-A ComboBoxEx control sends notification messages to report changes within itself or to request callback item information. The parent of the control receives all [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) messages from the combo box contained within the ComboBoxEx control. The ComboBoxEx control sends its own notifications using [**WM\_NOTIFY**](wm-notify.md) messages. As a result, the control's owner must be prepared to process both forms of notification messages.
+A ComboBoxEx control sends notification messages to report changes within itself or to request callback item information. The parent of the control receives all [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) messages from the combo box contained within the ComboBoxEx control. The ComboBoxEx control sends its own notifications using [**WM\_NOTIFY**](wm-notify.md) messages. As a result, the control's owner must be prepared to process both forms of notification messages.
 
 Following are the ComboBoxEx-specific notification codes that are sent through [**WM\_NOTIFY**](wm-notify.md) messages.
 
@@ -131,13 +131,9 @@ The following are the standard combo box messages that a ComboBoxEx control forw
 
 Following are the windows messages that a ComboBoxEx control forwards to its parent window:
 
--   [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) (This includes all of the CBN\_ notifications.)
+-   [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) (This includes all of the CBN\_ notifications.)
 -   [**WM\_NOTIFY**](wm-notify.md)
 
  
 
  
-
-
-
-

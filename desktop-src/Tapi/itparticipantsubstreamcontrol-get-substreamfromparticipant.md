@@ -83,13 +83,8 @@ This method can return one of these values.
 [**ITParticipant**](itparticipant.md)
 </dt> <dt>
 
-[**ITSubStream**](https://msdn.microsoft.com/library/ms732440(v=VS.85).aspx)
+[**ITSubStream**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream)
 </dt> </dl>
 
  
-
- 
-
-
-
 

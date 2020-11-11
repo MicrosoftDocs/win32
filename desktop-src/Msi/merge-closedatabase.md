@@ -52,7 +52,7 @@ Closing a database clears all dependency information but does not affect any err
 
 ### C++
 
-See [**CloseDatabase**](https://msdn.microsoft.com/library/Aa369265(v=VS.85).aspx) function.
+See [**CloseDatabase**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-closedatabase) function.
 
 ## Requirements
 
@@ -69,7 +69,3 @@ See [**CloseDatabase**](https://msdn.microsoft.com/library/Aa369265(v=VS.85).asp
  
 
  
-
-
-
-

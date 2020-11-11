@@ -62,7 +62,7 @@ The **MDM\_Policy\_Config01\_Connectivity02** class has these properties.
 
 <dl> <dt>
 
-[AllowBluetooth](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-connectivity#connectivity-allowbluetooth)
+[AllowBluetooth](/windows/client-management/mdm/policy-csp-connectivity#connectivity-allowbluetooth)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -73,7 +73,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowCellularData](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-connectivity#connectivity-allowcellulardata)
+[AllowCellularData](/windows/client-management/mdm/policy-csp-connectivity#connectivity-allowcellulardata)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -84,7 +84,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowCellularDataRoaming](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-connectivity#connectivity-allowcellulardataroaming)
+[AllowCellularDataRoaming](/windows/client-management/mdm/policy-csp-connectivity#connectivity-allowcellulardataroaming)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -95,7 +95,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowConnectedDevices](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-connectivity#connectivity-allowconnecteddevices)
+[AllowConnectedDevices](/windows/client-management/mdm/policy-csp-connectivity#connectivity-allowconnecteddevices)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -106,7 +106,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowVPNOverCellular](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-connectivity#connectivity-allowvpnovercellular)
+[AllowVPNOverCellular](/windows/client-management/mdm/policy-csp-connectivity#connectivity-allowvpnovercellular)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -117,7 +117,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowVPNRoamingOverCellular](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-connectivity#connectivity-allowvpnroamingovercellular)
+[AllowVPNRoamingOverCellular](/windows/client-management/mdm/policy-csp-connectivity#connectivity-allowvpnroamingovercellular)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -128,7 +128,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DiablePrintingOverHTTP](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-connectivity#connectivity-diableprintingoverhttp)
+[DiablePrintingOverHTTP](/windows/client-management/mdm/policy-csp-connectivity#connectivity-diableprintingoverhttp)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -139,7 +139,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableDownloadingOfPrintDriversOverHTTP](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-connectivity#connectivity-disabledownloadingofprintdriversoverhttp)
+[DisableDownloadingOfPrintDriversOverHTTP](/windows/client-management/mdm/policy-csp-connectivity#connectivity-disabledownloadingofprintdriversoverhttp)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -150,7 +150,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableInternetDownloadForWebPublishingAndOnlineOrderingWizards](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-connectivity#connectivity-disableinternetdownloadforwebpublishingandonlineorderingwizards)
+[DisableInternetDownloadForWebPublishingAndOnlineOrderingWizards](/windows/client-management/mdm/policy-csp-connectivity#connectivity-disableinternetdownloadforwebpublishingandonlineorderingwizards)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -161,7 +161,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisallowNetworkConnectivityActiveTests](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-connectivity#connectivity-disallownetworkconnectivityactivetests)
+[DisallowNetworkConnectivityActiveTests](/windows/client-management/mdm/policy-csp-connectivity#connectivity-disallownetworkconnectivityactivetests)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -172,7 +172,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HardenedUNCPaths](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-connectivity#connectivity-hardeneduncpaths)
+[HardenedUNCPaths](/windows/client-management/mdm/policy-csp-connectivity#connectivity-hardeneduncpaths)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -192,7 +192,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "Connectivity".
@@ -208,14 +208,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/Policy/Config"
 
 </dd> <dt>
 
-[ProhibitInstallationAndConfigurationOfNetworkBridge](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-connectivity#connectivity-prohibitinstallationandconfigurationofnetworkbridge)
+[ProhibitInstallationAndConfigurationOfNetworkBridge](/windows/client-management/mdm/policy-csp-connectivity#connectivity-prohibitinstallationandconfigurationofnetworkbridge)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -244,14 +244,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

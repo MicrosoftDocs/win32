@@ -23,14 +23,10 @@ A *property sheet extension* is a COM in-proc server that implements certain int
 
 **To create an Active Directory property sheet extension**
 
-1.  Create the property sheet extension DLL. A property sheet extension is a COM in-proc server that, at a minimum, implements the [**IShellExtInit**](https://msdn.microsoft.com/library/Bb775096(v=VS.85).aspx) and [**IShellPropSheetExt**](https://msdn.microsoft.com/library/Bb774880(v=VS.85).aspx) interfaces. For more information, see [Implementing the Property Page COM Object](implementing-the-property-page-com-object.md).
+1.  Create the property sheet extension DLL. A property sheet extension is a COM in-proc server that, at a minimum, implements the [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) and [**IShellPropSheetExt**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext) interfaces. For more information, see [Implementing the Property Page COM Object](implementing-the-property-page-com-object.md).
 2.  Install the property sheet extension on the computers where the property sheet extension is to be used. To do this, create a Microsoft Windows Installer package for the property sheet extension DLL and deploy the package appropriately using the group policy. For more information, see [Distributing User Interface Components](distributing-user-interface-components.md).
 3.  Register the property sheet extension in the Windows registry and with Active Directory Domain Services. For more information, see [Registering the Property Page COM Object in a Display Specifier](registering-the-property-page-com-object-in-a-display-specifier.md).
 
  
 
  
-
-
-
-

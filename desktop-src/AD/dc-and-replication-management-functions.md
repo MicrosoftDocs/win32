@@ -62,7 +62,7 @@ The domain controller (DC) and replication management functions provide tools fo
 -   [**DsUnBind**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsunbinda)
 -   [**DsUnquoteRdnValue**](/windows/desktop/api/Dsparse/nf-dsparse-dsunquoterdnvaluea)
 -   [**DsWriteAccountSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dswriteaccountspna)
--   [**SyncUpdateProc**](https://msdn.microsoft.com/library/ms677968(v=VS.85).aspx)
+-   [**SyncUpdateProc**](/previous-versions/windows/desktop/legacy/ms677968(v=vs.85))
 
 Most of these functions require a handle bound to the directory service. The [**DsBind**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsbinda) and [**DsBindWithCred**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsbindwithcreda) functions start an RPC session with a particular domain controller, then they bind a handle to the directory service and return the handle. When the handle is no longer required, use the [**DsUnBind**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsunbinda) function to end the RPC session and unbind the handle.
 
@@ -73,7 +73,3 @@ Actual replication is performed by the [**DsReplicaSync**](/windows/desktop/api/
  
 
  
-
-
-
-

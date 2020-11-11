@@ -40,11 +40,11 @@ Not used; must be zero.
 
 ## Return value
 
-The return value specifies the current locale of the list box. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) contains the country/region code and the [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the language identifier.
+The return value specifies the current locale of the list box. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) contains the country/region code and the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the language identifier.
 
 ## Remarks
 
-The language identifier consists of a sublanguage identifier and a primary language identifier. Use the [**PRIMARYLANGID**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-primarylangid) macro to extract the primary language identifier from the [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) of the return value, and the [**SUBLANGID**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-sublangid) macro to extract the sublanguage identifier.
+The language identifier consists of a sublanguage identifier and a primary language identifier. Use the [**PRIMARYLANGID**](/windows/desktop/api/winnt/nf-winnt-primarylangid) macro to extract the primary language identifier from the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) of the return value, and the [**SUBLANGID**](/windows/desktop/api/winnt/nf-winnt-sublangid) macro to extract the sublanguage identifier.
 
 ## Requirements
 
@@ -74,17 +74,11 @@ The language identifier consists of a sublanguage identifier and a primary langu
 **Other Resources**
 </dt> <dt>
 
-[**PRIMARYLANGID**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-primarylangid)
+[**PRIMARYLANGID**](/windows/desktop/api/winnt/nf-winnt-primarylangid)
 </dt> <dt>
 
-[**SUBLANGID**](https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-sublangid)
+[**SUBLANGID**](/windows/desktop/api/winnt/nf-winnt-sublangid)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

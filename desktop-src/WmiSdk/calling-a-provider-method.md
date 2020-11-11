@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Calling a Provider Method
 
-A provider method is a method that is implemented by a Windows Management Instrumentation (WMI) provider. The method is found in a class defined by a provider to represent data from software or hardware. For example, the [**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service) class has methods to start, stop, resume, pause, and change services.
+A provider method is a method that is implemented by a Windows Management Instrumentation (WMI) provider. The method is found in a class defined by a provider to represent data from software or hardware. For example, the [**Win32\_Service**](/windows/desktop/CIMWin32Prov/win32-service) class has methods to start, stop, resume, pause, and change services.
 
 Provider methods should not be confused with the following types of methods:
 
@@ -19,7 +19,7 @@ Provider methods should not be confused with the following types of methods:
 
 ## Calling a Provider Method Using Scripting
 
-Any automation language, such as VBScript, PowerShell, or Perl, can call a WMI method. Some languages can use [direct access](https://docs.microsoft.com/windows), but others must use [**SWbemServices.ExecMethod**](swbemservices-execmethod.md) to execute the provider method indirectly.
+Any automation language, such as VBScript, PowerShell, or Perl, can call a WMI method. Some languages can use [direct access](/windows), but others must use [**SWbemServices.ExecMethod**](swbemservices-execmethod.md) to execute the provider method indirectly.
 
 <span id="direct_access"></span><span id="DIRECT_ACCESS"></span>
 
@@ -34,7 +34,7 @@ The following procedure describes how to call a provider method using the Script
 
 3.  Determine if the method you want to execute is a [*static method*](gloss-s.md) or a nonstatic method.
 
-    Static methods apply only to WMI classes and not to specific instances of a class. For example, the [**Create**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) method of the [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) class is a static method because use it to create a new process without an instance of this class. Nonstatic methods apply only to instances of a class. For example, the [**Terminate**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/terminate-method-in-class-win32-process) method of the **Win32\_Process** class is a nonstatic method because it only makes sense to terminate a process if an instance of that process exists. You can determine if a method is static by checking if the [**Static**](standard-wmi-qualifiers.md) qualifier is associated with the method.
+    Static methods apply only to WMI classes and not to specific instances of a class. For example, the [**Create**](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) method of the [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process) class is a static method because use it to create a new process without an instance of this class. Nonstatic methods apply only to instances of a class. For example, the [**Terminate**](/windows/desktop/CIMWin32Prov/terminate-method-in-class-win32-process) method of the **Win32\_Process** class is a nonstatic method because it only makes sense to terminate a process if an instance of that process exists. You can determine if a method is static by checking if the [**Static**](standard-wmi-qualifiers.md) qualifier is associated with the method.
 
 4.  Retrieve the class or instance that contains the method you want to execute.
 
@@ -42,7 +42,7 @@ The following procedure describes how to call a provider method using the Script
 
 5.  Set up any security settings that the method may require.
 
-    You can often determine the privileges that a method requires by examining the values in the [**Privileges**](swbemsecurity-privileges.md) qualifier of the method. For example, the [**Win32\_OperatingSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-operatingsystem) class [**Shutdown**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/shutdown-method-in-class-win32-operatingsystem) method requires you to set the "SeShutdownPrivilege" privilege. For more information, see [Executing Privileged Operations](executing-privileged-operations.md).
+    You can often determine the privileges that a method requires by examining the values in the [**Privileges**](swbemsecurity-privileges.md) qualifier of the method. For example, the [**Win32\_OperatingSystem**](/windows/desktop/CIMWin32Prov/win32-operatingsystem) class [**Shutdown**](/windows/desktop/CIMWin32Prov/shutdown-method-in-class-win32-operatingsystem) method requires you to set the "SeShutdownPrivilege" privilege. For more information, see [Executing Privileged Operations](executing-privileged-operations.md).
 
 6.  Call the method and examine the return value to determine if the method was successful.
 
@@ -133,7 +133,6 @@ End If
 
 
 
-## 
 
 The following procedure describes how to call a provider method using C++.
 
@@ -311,6 +310,3 @@ int main(int iArgCnt, char ** argv)
  
 
  
-
-
-

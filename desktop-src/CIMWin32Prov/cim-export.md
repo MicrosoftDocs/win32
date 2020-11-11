@@ -89,7 +89,7 @@ Data type: **CIM\_LocalFileSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 Reference to the local file system.
@@ -117,9 +117,4 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
  
-
- 
-
-
-
 

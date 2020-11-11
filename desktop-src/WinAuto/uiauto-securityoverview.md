@@ -23,21 +23,27 @@ ms.date: 05/31/2018
 
 # Security Considerations for Assistive Technologies
 
-Assistive technologies are applications that run on the Windows desktop and help accessibility users to interact with the operating system and other applications running on the computer, including applications in the new Windows UI. Assistive technology applications work by retrieving information from the operating system and other applications, and then presenting the information in a way that is accessible to the user. An assistive technology application can also programmatically "drive" the operating system and other applications based on input from the user.
+Assistive technologies are applications that run on the Windows desktop and help accessibility users interact with the operating system and other applications running on the computer, including applications in the new Windows UI. Assistive technology applications work by retrieving information from the operating system and other applications, and then presenting the information in a way that is accessible to the user. An assistive technology application can also programmatically "drive" the operating system and other applications based on input from the user.
 
 The nature of assistive technology applications requires that they cross process boundaries, and that they have access to processes that run at a higher integrity level (IL) than themselves. (An assistive technology application runs at medium IL.) For example, when the user attempts to perform a task that requires administrative privileges, Windows presents a dialog box asking the user for consent to continue. This dialog box runs at a higher IL to protect it from cross-process communication, so that malicious software cannot simulate user input. Similarly, the desktop logon screen runs at a higher IL to prevent it from being accessed by other processes.
 
 Assistive technology applications typically need access to the protected system UI elements, or to other processes that might be running at a higher privilege level. Therefore, assistive technology applications must be trusted by the system, and must run with special privileges.
 
-To get access to higher IL processes, an assistive technology application must set the UIAccess flag in the application's manifest.
+To get access to higher IL processes, an assistive technology application must set the UIAccess flag in the application's manifest and be launched by a user with administrator privileges.
 
-In addition to having access to higher IL processes, an assistive technology application with UIAccess can run as the topmost application in the z-order at any time, meaning that an assistive technology application can be visible and available whenever the user needs it.
+> [!NOTE]
+> Access privileges are constrained as follows:
+>
+> - An application that doesn't have UIAccess in the manifest starts with medium IL and cannot access elevated ("medium+" IL) process UI.
+> - An application that has UIAccess in the manifest and is launched by a user who is not in the administrators group, starts as "medium+" IL and cannot access elevated UI (nothing running as "high" IL, such as apps launched through a **Right click -> Run as administrator**).
+> - An application has UI Access and is launched by an admin user starts as "high" IL and can access elevated UI because it has the same IL.
+>
+> UIAccess is not enough for a process to move up through the IL boundary.
 
-This topic provides guidelines for using UIAccess. It includes the following sections.
+In addition to having access to higher IL processes, an assistive technology application with these privileges can run as the topmost application in the z-order at any time, meaning that an assistive technology application can be visible and available whenever the user needs it.
 
--   [UIAccess Requirements for Assistive Technology Applications](#uiaccess-requirements-for-assistive-technology-applications)
--   [Setting UIAccess in the Application Manifest File](#setting-uiaccess-in-the-application-manifest-file)
--   [Related topics](#related-topics)
+> [!Important]
+> None of the previously listed scenarios provide access to UI running under the system IL. This is only possible if the process is launched in the user account control (UAC) desktop under SYSTEM (and system IL). In this case, setting UIAccess has no effect.
 
 ## UIAccess Requirements for Assistive Technology Applications
 
@@ -87,7 +93,7 @@ The value of the **level** attribute in this code is an example only.
 
 **UIAccess** is "false" by default. If the attribute is omitted, or if there is no manifest, the application cannot gain access to the protected UI.
 
-For more information on Windows security, on signing applications, and on creating manifests, see [The Windows Vista and Windows Server 2008 Developer Story: Windows Vista Application Development Requirements for User Account Control (UAC)](https://msdn.microsoft.com/library/aa905330.aspx) on MSDN.
+For more information on Windows security, on signing applications, and on creating manifests, see [The Windows Vista and Windows Server 2008 Developer Story: Windows Vista Application Development Requirements for User Account Control (UAC)](/previous-versions/aa905330(v=msdn.10)) on MSDN.
 
 ## Related topics
 
@@ -99,7 +105,3 @@ For more information on Windows security, on signing applications, and on creati
  
 
  
-
-
-
-

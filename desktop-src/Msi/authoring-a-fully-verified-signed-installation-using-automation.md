@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following sample demonstrates how to populate the [MsiDigitalCertificate table](msidigitalcertificate-table.md) and [MsiDigitalSignature table](msidigitalsignature-table.md) by using a Visual Basic for Applications (VBA) subroutine. For more information about securing Windows Installer packages see [Guidelines for Authoring Secure Installations](guidelines-for-authoring-secure-installations.md).
 
-The [**FileSignatureInfo method**](installer-filesignatureinfo.md) returns a SAFEARRAY of bytes. For more information, see the [**SAFEARRAY Data Type**](https://msdn.microsoft.com/library/ms221482(v=VS.71).aspx). The data from this array must be converted to Unicode because Visual Basic does not have a way to write bytes straight into a file. The [**SetStream method**](record-setstream.md) can then use the file of converted data to write stream data into a specified record field of a [**Record object**](record-object.md). Note that conversion of the byte data to Unicode can potentially change the data and that the converted data must match the original data for correct signature verification. The package author must ensure that the original and converted data match.
+The [**FileSignatureInfo method**](installer-filesignatureinfo.md) returns a SAFEARRAY of bytes. For more information, see the [**SAFEARRAY Data Type**](/windows/win32/api/oaidl/ns-oaidl-safearray). The data from this array must be converted to Unicode because Visual Basic does not have a way to write bytes straight into a file. The [**SetStream method**](record-setstream.md) can then use the file of converted data to write stream data into a specified record field of a [**Record object**](record-object.md). Note that conversion of the byte data to Unicode can potentially change the data and that the converted data must match the original data for correct signature verification. The package author must ensure that the original and converted data match.
 
 
 ```VB
@@ -64,6 +64,3 @@ End Sub
  
 
  
-
-
-

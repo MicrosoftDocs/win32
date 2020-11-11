@@ -41,7 +41,7 @@ typedef enum {
 } ETW_PROVIDER_TRAIT_TYPE;
 ```
 
-TraceLogging providers automatically set the Provider Traits when the [**TraceLoggingRegister**](https://msdn.microsoft.com/library/Dn904610(v=VS.85).aspx) function is called. The TraceLogging provider's name will always be included in its traits. A group can be set on a TraceLogging provider using the [**TraceLoggingOptionGroup**](https://msdn.microsoft.com/library/Dn904607(v=VS.85).aspx) macro in the provider definition.
+TraceLogging providers automatically set the Provider Traits when the [**TraceLoggingRegister**](/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-traceloggingregister) function is called. The TraceLogging provider's name will always be included in its traits. A group can be set on a TraceLogging provider using the [**TraceLoggingOptionGroup**](/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-traceloggingoptiongroup) macro in the provider definition.
 
 ## Custom Traits
 
@@ -56,7 +56,7 @@ A provider group is a GUID-defined controllable entity much like a provider itse
 
 Group membership may be restricted by permissions. If the caller of [**EventSetInformation**](/windows/desktop/api/Evntprov/nf-evntprov-eventsetinformation) doesn't have permissions to join the specified group, then membership will be denied.
 
-In some cases the trace session controller may want to exclude a few providers from its enable of a group. This can be done by setting a disallow list. A disallow list is a list of provider GUIDs that will not be enabled based on the group settings for a single logging session. Disallow lists can be changed dynamically with [**TraceSetInformation**](tracesetinformation.md) and the TraceSetDisallowList information class.
+In some cases the trace session controller may want to exclude a few providers from its enable of a group. This can be done by setting a disallow list. A disallow list is a list of provider GUIDs that will not be enabled based on the group settings for a single logging session. Disallow lists can be changed dynamically with [**TraceSetInformation**](/windows/win32/api/evntrace/nf-evntrace-tracesetinformation) and the TraceSetDisallowList information class.
 
 While most enable actions can be done for Provider Groups in a similar manner to individual providers, there are some exceptions. Exceptions include:
 
@@ -66,6 +66,3 @@ While most enable actions can be done for Provider Groups in a similar manner to
  
 
  
-
-
-

@@ -73,7 +73,7 @@ public static bool operator !=(
 
 #### Return value
 
-Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
+Type: [System.Boolean](/dotnet/api/system.boolean)  
 True if lhs comes is not equal to rhs.  
 
 ## See also
@@ -85,4 +85,3 @@ True if lhs comes is not equal to rhs.
 [JET_COMMIT_ID members](dn335451\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-

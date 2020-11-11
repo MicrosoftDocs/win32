@@ -92,7 +92,7 @@ Returns Success on success, otherwise returns a WMI error code. Refer to [Remote
 
 ## Remarks
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK). They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://docs.microsoft.com/windows/desktop/WmiSdk/managed-object-format--mof-).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK). They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## Requirements
 
@@ -116,10 +116,4 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

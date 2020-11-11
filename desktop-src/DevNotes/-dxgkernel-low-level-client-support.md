@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Graphics Low-Level Client Support
 
-\[These functions are subject to change with each operating system revision. Instead, use the Microsoft DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers. For more information, see [Introduction to Display](https://docs.microsoft.com/windows-hardware/drivers/display/introduction-to-display--windows-2000-model-).\]
+\[These functions are subject to change with each operating system revision. Instead, use the Microsoft DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers. For more information, see [Introduction to Display](/windows-hardware/drivers/display/introduction-to-display--windows-2000-model-).\]
 
 DirectDraw and Direct3D use some kernel-mode routines to communicate with the operating system and the display driver.
 
@@ -74,7 +74,7 @@ This table lists functions that represent kernel-mode entry points, and the user
 | Topic                                                                                     | Contents                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**DdAttachSurface**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddattachsurface)                                     | The [**DdAttachSurface**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddattachsurface) function attaches two kernel-mode surface representations. <br/>                                                                                                                                                                                                                                                                                                            |
-| [**DdCreateDIBSection**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddcreatedibsection)                               | Creates a [DIBSECTION](https://msdn.microsoft.com/library/ms532277(VS.85).aspx) structure that shares its color table with the device. <br/> GdiEntry9 is \#defined as an alias for this function. <br/>                                                                                                                                                                                                                   |
+| [**DdCreateDIBSection**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddcreatedibsection)                               | Creates a [DIBSECTION](/previous-versions//ms532277(v=vs.85)) structure that shares its color table with the device. <br/> GdiEntry9 is \#defined as an alias for this function. <br/>                                                                                                                                                                                                                   |
 | [**DdCreateDirectDrawObject**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddcreatedirectdrawobject)                   | Wrapper for the [**NtGdiDdCreateDirectDrawObject**](-dxgkernel-ntgdiddcreatedirectdrawobject.md) function and creates a kernel-side representation of the DirectDraw object. A handle to this representation will be stored in *pDirectDrawGlobal*->hDD. <br/> **GdiEntry1** is defined as an alias for this function. <br/>                                                                                                |
 | [**DdCreateSurfaceObject**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddcreatesurfaceobject)                         | Wrapper for the [**NtGdiDdCreateSurfaceObject**](-dxgkernel-ntgdiddcreatesurfaceobject.md) function and creates a kernel-mode surface object. <br/> **GdiEntry4** is defined as an alias for this function. <br/>                                                                                                                                                                                                              |
 | [**DdDeleteDirectDrawObject**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-dddeletedirectdrawobject)                   | Wrapper for the [**NtGdiDdDeleteDirectDrawObject**](-dxgkernel-ntgdidddeletedirectdrawobject.md) function and deletes a kernel-mode DirectDraw object that was previously created using [**DdCreateDirectDrawObject**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddcreatedirectdrawobject). <br/> **GdiEntry3** is defined as an alias for this function. <br/>                                                                                           |
@@ -154,16 +154,12 @@ This table lists functions that represent kernel-mode entry points, and the user
 
 <dl> <dt>
 
-[Command and Vertex Buffer Allocation](https://msdn.microsoft.com/library/Ff539490(v=VS.85).aspx)
+[Command and Vertex Buffer Allocation](/windows-hardware/drivers/display/command-and-vertex-buffer-allocation)
 </dt> <dt>
 
-[Introduction to Display](https://docs.microsoft.com/windows-hardware/drivers/display/introduction-to-display--windows-2000-model-)
+[Introduction to Display](/windows-hardware/drivers/display/introduction-to-display--windows-2000-model-)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -99,7 +99,7 @@ The following structures were added:<br/>
 <td>Terminal Services Session Broker Plug-in Reference<br/></td>
 <td>The Terminal Services Session Broker (TS Session Broker) plug-in is used to extend the capabilities of TS Session Broker.<br/>
 <ul>
-<li><a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-virtualization-api-reference">Terminal Services Session Broker Plug-in Reference</a></li>
+<li><a href="/windows/desktop/TermServ/terminal-services-virtualization-api-reference">Terminal Services Session Broker Plug-in Reference</a></li>
 </ul></td>
 </tr>
 </tbody>
@@ -110,10 +110,4 @@ The following structures were added:<br/>
  
 
  
-
- 
-
-
-
-
 

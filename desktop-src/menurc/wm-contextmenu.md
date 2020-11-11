@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # WM\_CONTEXTMENU message
 
-Notifies a window that the user clicked the right mouse button (right-clicked) in the window.
+Notifies a window that the user desires a context menu to appear.  The user may have clicked the right mouse button (right-clicked) in the window, pressed Shift+F10 or pressed the applications key (context menu key) available on some keyboards.
 
 
 ```C++
@@ -63,9 +63,9 @@ yPos = GET_Y_LPARAM(lParam);
 
 
 
-If a window does not display a shortcut menu it should pass this message to the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function. If a window is a child window, **DefWindowProc** sends the message to the parent. Otherwise, **DefWindowProc** displays a default shortcut menu if the specified position is in the window's caption.
+If a window does not display a shortcut menu it should pass this message to the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function. If a window is a child window, **DefWindowProc** sends the message to the parent. Otherwise, **DefWindowProc** displays a default shortcut menu if the specified position is in the window's caption.
 
-[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) generates the **WM\_CONTEXTMENU** message when it processes the [**WM\_RBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-rbuttonup) or [**WM\_NCRBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-ncrbuttonup) message or when the user types SHIFT+F10. The **WM\_CONTEXTMENU** message is also generated when the user presses and releases the [**VK\_APPS**](https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes) key.
+[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) generates the **WM\_CONTEXTMENU** message when it processes the [**WM\_RBUTTONUP**](/windows/desktop/inputdev/wm-rbuttonup) or [**WM\_NCRBUTTONUP**](/windows/desktop/inputdev/wm-ncrbuttonup) message or when the user types SHIFT+F10. The **WM\_CONTEXTMENU** message is also generated when the user presses and releases the [**VK\_APPS**](/windows/desktop/inputdev/virtual-key-codes) key.
 
 If the context menu is generated from the keyboard for example, if the user types SHIFT+F10 then the x- and y-coordinates are -1 and the application should display the context menu at the location of the current selection rather than at (xPos, yPos).
 
@@ -88,13 +88,13 @@ If the context menu is generated from the keyboard for example, if the user type
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**GET\_X\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam)
+[**GET\_X\_LPARAM**](/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam)
 </dt> <dt>
 
-[**GET\_Y\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam)
+[**GET\_Y\_LPARAM**](/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam)
 </dt> <dt>
 
 [**TrackPopupMenu**](/windows/desktop/api/Winuser/nf-winuser-trackpopupmenu)
@@ -103,10 +103,10 @@ If the context menu is generated from the keyboard for example, if the user type
 [**TrackPopupMenuEx**](/windows/desktop/api/Winuser/nf-winuser-trackpopupmenuex)
 </dt> <dt>
 
-[**WM\_NCRBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-ncrbuttonup)
+[**WM\_NCRBUTTONUP**](/windows/desktop/inputdev/wm-ncrbuttonup)
 </dt> <dt>
 
-[**WM\_RBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-rbuttonup)
+[**WM\_RBUTTONUP**](/windows/desktop/inputdev/wm-rbuttonup)
 </dt> <dt>
 
 **Conceptual**
@@ -116,10 +116,4 @@ If the context menu is generated from the keyboard for example, if the user type
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

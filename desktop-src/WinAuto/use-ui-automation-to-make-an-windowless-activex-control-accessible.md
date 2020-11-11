@@ -16,7 +16,7 @@ Describes how to use the Microsoft UI Automation API to ensure that your windowl
 
 ### Technologies
 
--   [ActiveX Controls](https://docs.microsoft.com/windows/desktop/com/activex-controls)
+-   [ActiveX Controls](/windows/desktop/com/activex-controls)
 -   [UI Automation](entry-uiauto-win32.md)
 
 ### Prerequisites
@@ -63,7 +63,7 @@ STDMETHODIMP CMyAccessibleUIAControl::QueryService(REFGUID guidService,
 
 ### Step 3: Implement the IRawElementProviderFragment::Navigate method.
 
-When your windowless control’s [**IRawElementProviderFragment::Navigate**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementproviderfragment-navigate) method is called to navigate to the parent or a sibling of the windowless control's root provider, your **Navigate** method should delegate to the [**IRawElementProviderWindowlessSite::GetAdjacentFragment**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderwindowlesssite-getadjacentfragment) method of the control container.
+When your windowless control’s [**IRawElementProviderFragment::Navigate**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementproviderfragment-navigate) method is called to navigate to the parent or a sibling of the windowless control's root provider, your **Navigate** method should delegate to the [**IRawElementProviderWindowlessSite::GetAdjacentFragment**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderwindowlesssite-getadjacentfragment) method of the control container.
 
 The following example shows how to implement the [**Navigate**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementproviderfragment-navigate) method.
 
@@ -115,11 +115,11 @@ STDMETHODIMP CMyAccessibleUIAControl::Navigate(NavigateDirection direction,
 
 When your windowless control receives a call to its [**IRawElementProviderFragment::GetRuntimeId**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementproviderfragment-getruntimeid) method, the control must do the following:
 
-1.  Retrieve a runtime ID prefix by calling the control site's [**IRawElementProviderWindowlessSite::GetRuntimeIdPrefix**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderwindowlesssite-getruntimeidprefix) method.
+1.  Retrieve a runtime ID prefix by calling the control site's [**IRawElementProviderWindowlessSite::GetRuntimeIdPrefix**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderwindowlesssite-getruntimeidprefix) method.
 2.  Create a unique runtime ID for the control by appending an integer to the runtime ID prefix.
 3.  Return the runtime ID to the caller.
 
-The following example shows how to implement the [**GetRuntimeId**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderwindowlesssite-getruntimeidprefix) method.
+The following example shows how to implement the [**GetRuntimeId**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderwindowlesssite-getruntimeidprefix) method.
 
 
 ```C++
@@ -183,7 +183,3 @@ STDMETHODIMP CMyAccessibleUIAControl::GetRuntimeId(SAFEARRAY **ppRetVal)
  
 
  
-
-
-
-

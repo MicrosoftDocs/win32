@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # EN\_IMECHANGE notification code
 
-Notifies a rich edit control's parent that the IME conversion status has changed. This notification code is available *only* for Asian-language versions of the operating system. A rich edit control sends this notification code in the form of a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message.
+Notifies a rich edit control's parent that the IME conversion status has changed. This notification code is available *only* for Asian-language versions of the operating system. A rich edit control sends this notification code in the form of a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message.
 
 
 ```C++
@@ -37,7 +37,7 @@ EN_IMECHANGE
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the identifier of the rich edit control. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
+The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the identifier of the rich edit control. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
 
 </dd> <dt>
 
@@ -80,20 +80,14 @@ To receive EN\_IMECHANGE notification codes, specify [**ENM\_IMECHANGE**](rich-e
 **Other Resources**
 </dt> <dt>
 
-[**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
 </dt> <dt>
 
-[**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
+[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
 </dt> <dt>
 
-[**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command)
+[**WM\_COMMAND**](/windows/desktop/menurc/wm-command)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

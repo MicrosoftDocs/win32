@@ -27,7 +27,7 @@ Devices are now only lost under two circumstances; when the hardware is reset be
 
 After a driver is stopped, the IDirect9Ex object must be recreated to resume rendering.
 
-When the presentation area is obscured by another window in windowed mode, or when a fullscreen application is minimized, [**PresentEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) will return S\_D3DPRESENTATIONOCCLUDED. Full screen applications can resume rendering when they receive a [**WM\_ACTIVATEAPP**](https://msdn.microsoft.com/library/ms632614(v=VS.85).aspx) callback message.
+When the presentation area is obscured by another window in windowed mode, or when a fullscreen application is minimized, [**PresentEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) will return S\_D3DPRESENTATIONOCCLUDED. Full screen applications can resume rendering when they receive a [**WM\_ACTIVATEAPP**](../winmsg/wm-activateapp.md) callback message.
 
 In previous versions of DirectX, when an application experienced a mode change, the only way to recover was to reset the device and re-create all video memory resources and swap chains. Now with DirectX for Windows Vista, calling Reset after a mode change does not cause texture memory surfaces, textures and state information to be lost and these resources do not need to be recreated.
 
@@ -85,11 +85,11 @@ To enable shared resources, the resource creation APIs have an additional handle
 -   To create a shared resource, call any resource creation API (see below) with an uninitialized handle (the pointer itself is not **NULL** (pSharedHandle != **NULL**), but the pointer points to a **NULL** value (\*pSharedHandle == **NULL**)). The API will generate a shared resource and return a valid handle.
 -   To open and access a previously created shared resource by using a nonNULL shared resource handle, set pSharedHandle to the address of that handle. After you open the previously created shared resource in this manner, you can use the returned interface in the Direct3D 9 or Direct3D 9Ex API as if the interface were a typical resource of that type.
 
-Resource creation APIs include - [**CreateTexture**](/windows/desktop/api), [**CreateVolumeTexture**](/windows/desktop/api), [**CreateCubeTexture**](/windows/desktop/api), [**CreateRenderTarget**](https://msdn.microsoft.com/library/Bb174361(v=VS.85).aspx), [**CreateVertexBuffer**](/windows/desktop/api), [**CreateIndexBuffer**](/windows/desktop/api), [**CreateDepthStencilSurface**](/windows/desktop/api), [**CreateOffscreenPlainSurface**](/windows/desktop/api), [**CreateDepthStencilSurfaceEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-createdepthstencilsurfaceex), [**CreateOffscreenPlainSurfaceEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-createoffscreenplainsurfaceex), and [**CreateRenderTargetEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-createrendertargetex).
+Resource creation APIs include - [**CreateTexture**](/windows/desktop/api), [**CreateVolumeTexture**](/windows/desktop/api), [**CreateCubeTexture**](/windows/desktop/api), [**CreateRenderTarget**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createrendertarget), [**CreateVertexBuffer**](/windows/desktop/api), [**CreateIndexBuffer**](/windows/desktop/api), [**CreateDepthStencilSurface**](/windows/desktop/api), [**CreateOffscreenPlainSurface**](/windows/desktop/api), [**CreateDepthStencilSurfaceEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-createdepthstencilsurfaceex), [**CreateOffscreenPlainSurfaceEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-createoffscreenplainsurfaceex), and [**CreateRenderTargetEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-createrendertargetex).
 
 There are some restrictions for using shared resources. These include:
 
--   The API that you use to open a shared resource must match the API that you used to create the shared resource. For example, if you used [**CreateTexture**](/windows/desktop/api) to create a shared resource, you must use **CreateTexture** to open that shared resource; if you used [**CreateRenderTarget**](https://msdn.microsoft.com/library/Bb174361(v=VS.85).aspx) to create a shared resource, you must use **CreateRenderTarget** to open that shared resource;and so on.
+-   The API that you use to open a shared resource must match the API that you used to create the shared resource. For example, if you used [**CreateTexture**](/windows/desktop/api) to create a shared resource, you must use **CreateTexture** to open that shared resource; if you used [**CreateRenderTarget**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createrendertarget) to create a shared resource, you must use **CreateRenderTarget** to open that shared resource;and so on.
 -   When you open a shared resource, you must specify D3DPOOL\_DEFAULT.
 -   Lockable resources (textures with D3DUSAGE\_DYNAMIC, vertex buffers and index buffers, for instance) can experience poor performance when shared. Lockable rendertargets will fail to be shared on some hardware.
 -   References to a cross-process shared resource must have the same dimensions as the original resource. When passing a handle across process, include the dimension information so that the reference can be created identically.
@@ -147,6 +147,3 @@ A system-memory texture has the following restrictions:
  
 
  
-
-
-
