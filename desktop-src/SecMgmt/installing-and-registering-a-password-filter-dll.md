@@ -25,11 +25,11 @@ Perform the following steps to install your password filter. You can perform the
                 Lsa
     ```
 
-    If the **Notification Packages** subkey exists, add the name of your DLL to the existing value data. Do not overwrite the existing values, and do not include the .dll extension.
+    If the **Notification Packages** value of type *REG_MULTI_SZ* exists, add the name of your DLL to the existing value data. Do not overwrite the existing values, and do not include the .dll extension.
 
-    If the **Notification Packages** subkey does not exist, add it, and then specify the name of the DLL for the value data. Do not include the .dll extension.
+    If the **Notification Packages** value does not exist, create it, give it the *REG_MULTI_SZ* type and then specify the name of the DLL for the value data. Do not include the .dll extension.
 
-    The **Notification Packages** subkey can add multiple packages.
+    The **Notification Packages** value can add multiple packages.
 
 3.  Find the password complexity setting.
 
