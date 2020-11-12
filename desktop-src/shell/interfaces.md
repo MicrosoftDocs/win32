@@ -1,5 +1,5 @@
 ---
-Description: This section describes the Windows Shell interfaces.
+description: This section describes the Windows Shell interfaces.
 title: Shell Interfaces
 ms.topic: article
 ms.date: 05/31/2018
@@ -1114,6 +1114,10 @@ This interface is the current, renamed version of <a href="/previous-versions//b
 <td>Exposes a method that unpins an application shortcut from the <strong>Start</strong> menu or the taskbar.<br/></td>
 </tr>
 <tr class="odd">
+<td><a href="nn-shobjidl-istorageprovidercopyhook.md"><strong>IStorageProviderCopyHook</strong></a><br/></td>
+<td>Exposes a method that determines whether the Shell will be allowed to move, copy, delete, or rename a folder in a cloud provider's sync root.<br/></td>
+</tr>
+<tr class="odd">
 <td><a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderhandler"><strong>IStorageProviderHandler</strong></a><br/></td>
 <td>Retrieves the <a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler"><strong>IStorageProviderPropertyHandler</strong></a> associated with a specific file or folder.<br/></td>
 </tr>
@@ -1131,7 +1135,6 @@ This interface is the current, renamed version of <a href="/previous-versions//b
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isuspensiondependencymanager"><strong>ISuspensionDependencyManager</strong></a><br/></td>
-
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflict"><strong>ISyncMgrConflict</strong></a><br/></td>
