@@ -26,6 +26,8 @@
         items: 
         - name: "Configuring and Starting the NT Kernel Logger Session"
           href: configuring-and-starting-the-nt-kernel-logger-session.md
+        - name: "System Providers"
+          href: system-providers.md
       - name: "Configuring and Starting an AutoLogger Session"
         href: configuring-and-starting-an-autologger-session.md
         items: 
