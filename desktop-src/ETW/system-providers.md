@@ -49,13 +49,13 @@ GUID: SystemConfigProviderGuid {fef3a8b6-318d-4b67-a96a-3b0f6b8f18fe}
 
 | Keyword | Corresponding Legacy Flags and Groups |
 | ------- | ------------------------------------- |
-| SYSTEM_CONFIG_KW_SYSTEM | PERF_SYSCFG_SYSTEM
-| SYSTEM_CONFIG_KW_GRAPHICS | PERF_SYSCFG_GRAPHICS
-| SYSTEM_CONFIG_KW_STORAGE | PERF_SYSCFG_STORAGE
-| SYSTEM_CONFIG_KW_NETWORK | PERF_SYSCFG_NETWORK
-| SYSTEM_CONFIG_KW_SERVICES | PERF_SYSCFG_SERVICES
-| SYSTEM_CONFIG_KW_PNP | PERF_SYSCFG_PNP
-| SYSTEM_CONFIG_KW_OPTICAL | PERF_SYSCFG_OPTICAL
+| SYSTEM_CONFIG_KW_SYSTEM | PERF_SYSCFG_SYSTEM |
+| SYSTEM_CONFIG_KW_GRAPHICS | PERF_SYSCFG_GRAPHICS |
+| SYSTEM_CONFIG_KW_STORAGE | PERF_SYSCFG_STORAGE |
+| SYSTEM_CONFIG_KW_NETWORK | PERF_SYSCFG_NETWORK |
+| SYSTEM_CONFIG_KW_SERVICES | PERF_SYSCFG_SERVICES |
+| SYSTEM_CONFIG_KW_PNP | PERF_SYSCFG_PNP |
+| SYSTEM_CONFIG_KW_OPTICAL | PERF_SYSCFG_OPTICAL |
  
 ### System CPU Provider 
 
@@ -65,9 +65,9 @@ GUID: SystemCpuProviderGuid {c6c5265f-eae8-4650-aae4-9d48603d8510}
 
 | Keyword | Corresponding Legacy Flags and Groups |
 | ------- | ------------------------------------- |
-| SYSTEM_CPU_KW_CONFIG | PERF_CPU_CONFIG
-| SYSTEM_CPU_KW_CACHE_FLUSH | PERF_CACHE_FLUSH
-| SYSTEM_CPU_KW_SPEC_CONTROL | PERF_SPEC_CONTROL
+| SYSTEM_CPU_KW_CONFIG | PERF_CPU_CONFIG |
+| SYSTEM_CPU_KW_CACHE_FLUSH | PERF_CACHE_FLUSH |
+| SYSTEM_CPU_KW_SPEC_CONTROL | PERF_SPEC_CONTROL |
  
 ### System Hypervisor Provider 
 
@@ -77,9 +77,9 @@ GUID: SystemHypervisorProviderGuid {bafa072a-918a-4bed-b622-bc152097098f}
 
 | Keyword | Corresponding Legacy Flags and Groups |
 | ------- | ------------------------------------- |
-| SYSTEM_HYPERVISOR_KW_PROFILE | PERF_HV_PROFILE
-| SYSTEM_HYPERVISOR_KW_CALLOUTS | PERF_HV_CALLOUTS
-| SYSTEM_HYPERVISOR_KW_VTL_CHANGE | PERF_VTL_CHANGE
+| SYSTEM_HYPERVISOR_KW_PROFILE | PERF_HV_PROFILE |
+| SYSTEM_HYPERVISOR_KW_CALLOUTS | PERF_HV_CALLOUTS |
+| SYSTEM_HYPERVISOR_KW_VTL_CHANGE | PERF_VTL_CHANGE |
  
 ### System Interrupt Provider 
 
@@ -89,13 +89,13 @@ GUID: SystemInterruptProviderGuid {d4bbee17-b545-4888-858b-744169015b25}
 
 | Keyword | Corresponding Legacy Flags and Groups |
 | ------- | ------------------------------------- |
-| SYSTEM_INTERRUPT_KW_GENERAL | PERF_INTERRUPT, EVENT_TRACE_FLAG_INTERRUPT
-| SYSTEM_INTERRUPT_KW_CLOCK_INTERRUPT | PERF_CLOCK_INTERRUPT
-| SYSTEM_INTERRUPT_KW_DPC | PERF_DPC, EVENT_TRACE_FLAG_DPC
-| SYSTEM_INTERRUPT_KW_DPC_QUEUE | PERF_DPC_QUEUE
-| SYSTEM_INTERRUPT_KW_WDF_DPC | PERF_WDF_DPC
-| SYSTEM_INTERRUPT_KW_WDF_INTERRUPT | PERF_WDF_INTERRUPT
-| SYSTEM_INTERRUPT_KW_IPI | PERF_IPI
+| SYSTEM_INTERRUPT_KW_GENERAL | PERF_INTERRUPT, EVENT_TRACE_FLAG_INTERRUPT |
+| SYSTEM_INTERRUPT_KW_CLOCK_INTERRUPT | PERF_CLOCK_INTERRUPT |
+| SYSTEM_INTERRUPT_KW_DPC | PERF_DPC, EVENT_TRACE_FLAG_DPC |
+| SYSTEM_INTERRUPT_KW_DPC_QUEUE | PERF_DPC_QUEUE |
+| SYSTEM_INTERRUPT_KW_WDF_DPC | PERF_WDF_DPC |
+| SYSTEM_INTERRUPT_KW_WDF_INTERRUPT | PERF_WDF_INTERRUPT |
+| SYSTEM_INTERRUPT_KW_IPI | PERF_IPI |
  
  
 ### System IO Provider 
@@ -106,16 +106,17 @@ GUID: SystemIoProviderGuid {3d5c43e3-0f1c-4202-b817-174c0070dc79}
 
 | Keyword | Corresponding Legacy Flags and Groups |
 | ------- | ------------------------------------- |
-| SYSTEM_IO_KW_DISK | EVENT_TRACE_FLAG_DISK_IO
-| SYSTEM_IO_KW_DISK_INIT | PERF_DISK_IO_INIT, EVENT_TRACE_FLAG_DISK_IO_INIT
-| SYSTEM_IO_KW_FILENAME | PERF_FILENAME, EVENT_TRACE_FLAG_DISK_FILE_IO
-| SYSTEM_IO_KW_SPLIT | PERF_SPLIT_IO, EVENT_TRACE_FLAG_SPLIT_IO
-| SYSTEM_IO_KW_FILE | PERF_FILE_IO, EVENT_TRACE_FLAG_FILE_IO
-| SYSTEM_IO_KW_OPTICAL | PERF_OPTICAL_IO, EVENT_TRACE_FLAG_FILE_IO_INIT
-| SYSTEM_IO_KW_OPTICAL_INIT | PERF_OPTICAL_IO_INIT
-| SYSTEM_IO_KW_DRIVERS | PERF_DRIVERS, EVENT_TRACE_FLAG_DRIVER
-| SYSTEM_IO_KW_CC | PERF_CC
-| SYSTEM_IO_KW_NETWORK | PERF_NETWORK, EVENT_TRACE_FLAG_NETWORK_TCPIP
+| SYSTEM_IO_KW_DISK | EVENT_TRACE_FLAG_DISK_IO |
+| SYSTEM_IO_KW_DISK_INIT | PERF_DISK_IO_INIT, EVENT_TRACE_FLAG_DISK_IO_INIT |
+| SYSTEM_IO_KW_FILENAME | PERF_FILENAME, EVENT_TRACE_FLAG_DISK_FILE_IO |
+| SYSTEM_IO_KW_SPLIT | PERF_SPLIT_IO, EVENT_TRACE_FLAG_SPLIT_IO |
+| SYSTEM_IO_KW_FILE | PERF_FILE_IO, EVENT_TRACE_FLAG_FILE_IO |
+| SYSTEM_IO_KW_OPTICAL | PERF_OPTICAL_IO, EVENT_TRACE_FLAG_FILE_IO_INIT |
+| SYSTEM_IO_KW_OPTICAL_INIT | PERF_OPTICAL_IO_INIT |
+| SYSTEM_IO_KW_DRIVERS | PERF_DRIVERS, EVENT_TRACE_FLAG_DRIVER |
+| SYSTEM_IO_KW_CC | PERF_CC |
+| SYSTEM_IO_KW_NETWORK | PERF_NETWORK, EVENT_TRACE_FLAG_NETWORK_TCPIP |
+
 Note: Enabling the SYSTEM_IO_KW_DRIVERS keyword will automatically enable 
 SYSTEM_IO_KW_FILENAME as well.  The SYSTEM_IO_KW_FILENAME is also automatically turned on when the System Memory Provider is enabled with the SYSTEM_MEMORY_KW_MEMORY keyword.
  
@@ -127,10 +128,10 @@ GUID: SystemIoFilterProviderGuid {fbd09363-9e22-4661-b8bf-e7a34b535b8c}
 
 | Keyword | Corresponding Legacy Flags and Groups |
 | ------- | ------------------------------------- |
-| SYSTEM_IOFILTER_KW_GENERAL | PERF_FLT_IO
-| SYSTEM_IOFILTER_KW_INIT | PERF_FLT_IO_INIT
-| SYSTEM_IOFILTER_KW_FASTIO | PERF_FLT_FASTIO
-| SYSTEM_IOFILTER_KW_FAILURE | PERF_FLT_IO_FAILURE
+| SYSTEM_IOFILTER_KW_GENERAL | PERF_FLT_IO |
+| SYSTEM_IOFILTER_KW_INIT | PERF_FLT_IO_INIT |
+| SYSTEM_IOFILTER_KW_FASTIO | PERF_FLT_FASTIO |
+| SYSTEM_IOFILTER_KW_FAILURE | PERF_FLT_IO_FAILURE |
  
 ### System Lock Provider 
 
@@ -140,9 +141,9 @@ GUID: SystemLockProviderGuid {721ddfd3-dacc-4e1e-b26a-a2cb31d4705a}
 
 | Keyword | Corresponding Legacy Flags and Groups |
 | ------- | ------------------------------------- |
-| SYSTEM_LOCK_KW_SPINLOCK | PERF_SPINLOCK
-| SYSTEM_LOCK_KW_SPINLOCK_COUNTERS | PERF_SPINLOCK_CNTRS
-| SYSTEM_LOCK_KW_SYNC_OBJECTS | PERF_SYNC_OBJECTS
+| SYSTEM_LOCK_KW_SPINLOCK | PERF_SPINLOCK |
+| SYSTEM_LOCK_KW_SPINLOCK_COUNTERS | PERF_SPINLOCK_CNTRS |
+| SYSTEM_LOCK_KW_SYNC_OBJECTS | PERF_SYNC_OBJECTS |
  
 ### System Memory Provider 
 
@@ -170,7 +171,7 @@ GUID: SystemMemoryProviderGuid {82958ca9-b6cd-47f8-a3a8-03ae85a4bc24}
 
 Notes: 
 * Enabling the SYSTEM_MEMORY_KW_MEMORY keyword will automatically enable SYSTEM_IO_KW_FILENAME on the System IO Provider as well.
-* The events enabled by the SYSTEM_MEMORY_KW_POOL support a Pool Tag Filter, to selectively write events only for certain pool tags.  This is configured as a Schematized Filter(LINK) on the System Memory Provider.  The PoolTag filter is constructed as follows:
+* The events enabled by the SYSTEM_MEMORY_KW_POOL support a Pool Tag Filter, to selectively write events only for certain pool tags.  This is configured as a [Schematized Filter](/windows/win32/api/evntprov/ns-evntprov-event_filter_descriptor) on the System Memory Provider.  The PoolTag filter is constructed as follows:
 
     ```cpp
     {
@@ -179,9 +180,9 @@ Notes:
     }
     ```
 
-The EVENT_FILTER_HEADER should be initialized with Id set to SYSTEM_MEMORY_POOL_FILTER_ID and the size field set to the size of Header plus the used portion of the PoolTags array.  
+* The [EVENT_FILTER_HEADER](/windows/win32/api/evntprov/ns-evntprov-event_filter_header) should be initialized with Id set to SYSTEM_MEMORY_POOL_FILTER_ID and the size field set to the size of Header plus the used portion of the PoolTags array.  
 
-Each Pool Tag is a 4 character string that is stored as a ULONG in the filter.  
+* Each Pool Tag is a 4 character string that is stored as a ULONG in the filter.  
  
  
 ### System Object Provider 

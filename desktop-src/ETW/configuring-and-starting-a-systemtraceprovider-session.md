@@ -14,7 +14,7 @@ On Windows 8, Windows Server 2012, and later, the SystemTraceProvider can be m
 
 For more information on using the NT Kernel Logger session as a trace provider, see [Configuring and Starting the NT Kernel Logger Session](configuring-and-starting-the-nt-kernel-logger-session.md).
 
-For a full list of system providers, keywords, and corresponding legacy flags and groups, see [System Providers](system-providers.md)
+On Window ____ and later, the SystemTraceProvider can be configured via separate System Providers, which can be controlled with [EnableTraceEx2](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) like standard Event Tracing for Windows event providers. For a full list of system providers, keywords, and corresponding legacy flags and groups, see [System Providers](system-providers.md)
 
 ## Enable a SystemTraceProvider session
 
