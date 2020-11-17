@@ -1886,7 +1886,7 @@
         href: direct3d-directml-structures.md
         items: 
         - name: "DML_ACTIVATION_CELU_OPERATOR_DESC"
-          href: /windows/win32/api/directml/ns-directml-dml_activation_celu_operator_desc
+          href: /windows/win32/direct3d12/directml/ns-directml-dml_activation_celu_operator_desc
         - name: "DML_ACTIVATION_ELU_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_activation_elu_operator_desc
         - name: "DML_ACTIVATION_HARDMAX_OPERATOR_DESC"
@@ -1906,7 +1906,7 @@
         - name: "DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_activation_parametric_softplus_operator_desc
         - name: "DML_ACTIVATION_RELU_GRAD_OPERATOR_DESC"
-          href: /windows/win32/api/directml/ns-directml-dml_activation_relu_grad_operator_desc
+          href: /windows/win32/direct3d12/directml/ns-directml-dml_activation_relu_grad_operator_desc
         - name: "DML_ACTIVATION_RELU_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_activation_relu_operator_desc
         - name: "DML_ACTIVATION_SCALED_ELU_OPERATOR_DESC"
@@ -1928,15 +1928,15 @@
         - name: "DML_ACTIVATION_THRESHOLDED_RELU_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_activation_thresholded_relu_operator_desc
         - name: "DML_ADAM_OPTIMIZER_OPERATOR_DESC"
-          href: /windows/win32/api/directml/ns-directml-dml_adam_optimizer_operator_desc
+          href: /windows/win32/direct3d12/directml/ns-directml-dml_adam_optimizer_operator_desc
         - name: "DML_AVERAGE_POOLING_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc
         - name: "DML_ARGMAX_OPERATOR_DESC"
-          href: /windows/win32/api/directml/ns-directml-dml_argmax_operator_desc
+          href: /windows/win32/direct3d12/directml/ns-directml-dml_argmax_operator_desc
         - name: "DML_ARGMIN_OPERATOR_DESC"
-          href: /windows/win32/api/directml/ns-directml-dml_argmin_operator_desc
+          href: /windows/win32/direct3d12/directml/ns-directml-dml_argmin_operator_desc
         - name: "DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC"
-          href: /windows/win32/api/directml/ns-directml-dml_average_pooling_grad_operator_desc
+          href: /windows/win32/direct3d12/directml/ns-directml-dml_average_pooling_grad_operator_desc
         - name: "DML_BATCH_NORMALIZATION_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_batch_normalization_operator_desc
         - name: "DML_BINDING_DESC"
@@ -1984,19 +1984,19 @@
         - name: "DML_ELEMENT_WISE_ATANH_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_atanh_operator_desc
         - name: "DML_ELEMENT_WISE_BIT_AND_OPERATOR_DESC"
-          href: /windows/win32/api/directml/ns-directml-dml_element_wise_bit_and_operator_desc
+          href: /windows/win32/direct3d12/directml/ns-directml-dml_element_wise_bit_and_operator_desc
         - name: "DML_ELEMENT_WISE_BIT_COUNT_OPERATOR_DESC"
-          href: /windows/win32/api/directml/ns-directml-dml_element_wise_bit_count_operator_desc
+          href: /windows/win32/direct3d12/directml/ns-directml-dml_element_wise_bit_count_operator_desc
         - name: "DML_ELEMENT_WISE_BIT_NOT_OPERATOR_DESC"
-          href: /windows/win32/api/directml/ns-directml-dml_element_wise_bit_not_operator_desc
+          href: /windows/win32/direct3d12/directml/ns-directml-dml_element_wise_bit_not_operator_desc
         - name: "DML_ELEMENT_WISE_BIT_OR_OPERATOR_DESC"
-          href: /windows/win32/api/directml/ns-directml-dml_element_wise_bit_or_operator_desc
+          href: /windows/win32/direct3d12/directml/ns-directml-dml_element_wise_bit_or_operator_desc
         - name: "DML_ELEMENT_WISE_BIT_SHIFT_LEFT_OPERATOR_DESC"
           href: /windows/win32/direct3d12/directml/ns-directml-dml_element_wise_bit_shift_left_operator_desc
         - name: "DML_ELEMENT_WISE_BIT_RIGHT_LEFT_OPERATOR_DESC"
           href: /windows/win32/direct3d12/directml/ns-directml-dml_element_wise_bit_shift_right_operator_desc
         - name: "DML_ELEMENT_WISE_BIT_XOR_OPERATOR_DESC"
-          href: /windows/win32/api/directml/ns-directml-dml_element_wise_bit_xor_operator_desc
+          href: /windows/win32/direct3d12/directml/ns-directml-dml_element_wise_bit_xor_operator_desc
         - name: "DML_ELEMENT_WISE_CEIL_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_ceil_operator_desc
         - name: "DML_ELEMENT_WISE_CLIP_OPERATOR_DESC"
@@ -2032,11 +2032,11 @@
         - name: "DML_ELEMENT_WISE_LOGICAL_GREATER_THAN_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_logical_greater_than_operator_desc
         - name: "DML_ELEMENT_WISE_LOGICAL_GREATER_THAN_OR_EQUAL_OPERATOR_DESC"
-          href: /windows/win32/api/directml/ns-directml-dml_element_wise_logical_greater_than_or_equal_operator_desc
+          href: /windows/win32/direct3d12/directml/ns-directml-dml_element_wise_logical_greater_than_or_equal_operator_desc
         - name: "DML_ELEMENT_WISE_LOGICAL_LESS_THAN_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_logical_less_than_operator_desc
         - name: "DML_ELEMENT_WISE_LOGICAL_LESS_THAN_OR_EQUAL_OPERATOR_DESC"
-          href: /windows/win32/api/directml/ns-directml-dml_element_wise_logical_less_than_or_equal_operator_desc
+          href: /windows/win32/direct3d12/directml/ns-directml-dml_element_wise_logical_less_than_or_equal_operator_desc
         - name: "DML_ELEMENT_WISE_LOGICAL_NOT_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_logical_not_operator_desc
         - name: "DML_ELEMENT_WISE_LOGICAL_OR_OPERATOR_DESC"
@@ -2124,7 +2124,7 @@
         - name: "DML_MATRIX_MULTIPLY_INTEGER_OPERATOR_DESC"
           href: /windows/win32/direct3d12/directml/ns-directml-dml_matrix_multiply_integer_operator_desc
         - name: "DML_MAX_POOLING_GRAD_OPERATOR_DESC"
-          href: /windows/win32/api/directml/ns-directml-dml_max_pooling_grad_operator_desc
+          href: /windows/win32/direct3d12/directml/ns-directml-dml_max_pooling_grad_operator_desc
         - name: "DML_MAX_POOLING_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_max_pooling_operator_desc
         - name: "DML_MAX_POOLING1_OPERATOR_DESC"
@@ -2138,7 +2138,7 @@
         - name: "DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC"
           href: /windows/win32/direct3d12/directml/ns-directml-dml_mean_variance_normalization1_operator_desc
         - name: "DML_NONZERO_COORDINATES_OPERATOR_DESC"
-          href: /windows/win32/api/directml/ns-directml-dml_nonzero_coordinates_operator_desc
+          href: /windows/win32/direct3d12/directml/ns-directml-dml_nonzero_coordinates_operator_desc
         - name: "DML_ONE_HOT_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_one_hot_operator_desc
         - name: "DML_OPERATOR_DESC"
@@ -2154,11 +2154,11 @@
         - name: "DML_QUANTIZED_LINEAR_MATRIX_MULTIPLY_OPERATOR_DESC"
           href: /windows/win32/direct3d12/directml/ns-directml-dml_quantized_linear_matrix_multiply_operator_desc
         - name: "DML_RANDOM_GENERATOR_OPERATOR_DESC"
-          href: /windows/win32/api/directml/ns-directml-dml_random_generator_operator_desc
+          href: /windows/win32/direct3d12/directml/ns-directml-dml_random_generator_operator_desc
         - name: "DML_REDUCE_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_reduce_operator_desc
         - name: "DML_RESAMPLE_GRAD_OPERATOR_DESC"
-          href: /windows/win32/api/directml/ns-directml-dml_resample_grad_operator_desc
+          href: /windows/win32/direct3d12/directml/ns-directml-dml_resample_grad_operator_desc
         - name: "DML_RESAMPLE_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_resample_operator_desc
         - name: "DML_RESAMPLE1_OPERATOR_DESC"
@@ -2168,7 +2168,7 @@
         - name: "DML_RNN_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_rnn_operator_desc
         - name: "DML_ROI_ALIGN_OPERATOR_DESC"
-          href: /windows/win32/api/directml/ns-directml-dml_roi_align_operator_desc
+          href: /windows/win32/direct3d12/directml/ns-directml-dml_roi_align_operator_desc
         - name: "DML_ROI_POOLING_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_roi_pooling_operator_desc
         - name: "DML_SCALAR_UNION"
@@ -2182,7 +2182,7 @@
         - name: "DML_SIZE_2D"
           href: /windows/win32/api/directml/ns-directml-dml_size_2d
         - name: "DML_SLICE_GRAD_OPERATOR_DESC"
-          href: /windows/win32/api/directml/ns-directml-dml_slice_grad_operator_desc
+          href: /windows/win32/direct3d12/directml/ns-directml-dml_slice_grad_operator_desc
         - name: "DML_SLICE_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_slice_operator_desc
         - name: "DML_SLICE1_OPERATOR_DESC"
