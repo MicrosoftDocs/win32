@@ -75,7 +75,7 @@ struct DML_ACTIVATION_CELU_OPERATOR_DESC
 
 `InputTensor`
 
-Type: const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
 The input tensor to read from.
 
@@ -91,18 +91,17 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The alpha coefficient. A typical default for this value is 1.0.
 
-## Availability`
+## Availability
 This operator was introduced in `DML_FEATURE_LEVEL_3_0`.
 
-## Tensor constraints`
+## Tensor constraints
 *InputTensor* and *OutputTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
 
-## Tensor support`
+## Tensor support
 | Tensor | Kind | Supported Dimension Counts | Supported Data Types |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16 |
 | OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16 |
-
 
 ## Requirements
 | &nbsp; | &nbsp; |
