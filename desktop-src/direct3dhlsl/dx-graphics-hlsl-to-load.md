@@ -96,7 +96,7 @@ For example, to access a 2D texture, supply UV coordinates for the first two com
 <span id="Offset"></span><span id="offset"></span><span id="OFFSET"></span>*Offset*
 </dt> <dd>
 
-\[in\] An optional offset applied to the texture coordinates before sampling. The offset type is dependent on the texture-object type and needs to be static.
+\[in\] An optional offset applied to the texture coordinates before sampling. The offset type is dependent on the texture-object type, and needs to be static.
 
 
 
