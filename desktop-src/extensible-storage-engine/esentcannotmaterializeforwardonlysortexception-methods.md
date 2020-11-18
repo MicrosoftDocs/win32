@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentCannotMaterializeForwardOnlySortException](dn274102\(v=exchg.10\).md) type exposes the following members.
+The [EsentCannotMaterializeForwardOnlySortException](./esentcannotmaterializeforwardonlysortexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentCannotMaterializeForwardOnlySortException class](dn274102\(v=exchg.10\).md)
+[EsentCannotMaterializeForwardOnlySortException class](./esentcannotmaterializeforwardonlysortexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

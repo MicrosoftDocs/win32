@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVOwnerMapPageNotFoundException](dn350722\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVOwnerMapPageNotFoundException](./esentslvownermappagenotfoundexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -160,6 +160,6 @@ Top
 
 #### Reference
 
-[EsentSLVOwnerMapPageNotFoundException class](dn350722\(v=exchg.10\).md)
+[EsentSLVOwnerMapPageNotFoundException class](./esentslvownermappagenotfoundexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

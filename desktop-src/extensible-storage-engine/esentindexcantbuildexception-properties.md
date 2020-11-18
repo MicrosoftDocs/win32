@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentIndexCantBuildException](dn350436\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexCantBuildException](./esentindexcantbuildexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentIndexCantBuildException class](dn350436\(v=exchg.10\).md)
+[EsentIndexCantBuildException class](./esentindexcantbuildexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

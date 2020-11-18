@@ -15,9 +15,9 @@ Include inherited members
 
 **NOTE: This API is now obsolete.**
 
-Conversion options for [JetCompact(JET_SESID, String, String, JET_PFNSTATUS, JET_CONVERT, CompactGrbit)](dn292112\(v=exchg.10\).md). This feature was discontinued in Windows Server 2003.
+Conversion options for [JetCompact(JET_SESID, String, String, JET_PFNSTATUS, JET_CONVERT, CompactGrbit)](./api.jetcompact-method.md). This feature was discontinued in Windows Server 2003.
 
-The [JET_CONVERT](dn335061\(v=exchg.10\).md) type exposes the following members.
+The [JET_CONVERT](./jet-convert-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -92,6 +92,6 @@ Top
 
 #### Reference
 
-[JET_CONVERT class](dn335061\(v=exchg.10\).md)
+[JET_CONVERT class](./jet-convert-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

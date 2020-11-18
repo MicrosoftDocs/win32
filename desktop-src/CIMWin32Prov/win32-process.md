@@ -68,7 +68,7 @@ The **Win32\_Process** [WMI class](../wmisdk/retrieving-a-class.md) represents a
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
 > [!NOTE]
-> For a general discussion on Processes and Threads within Windows, please see the topic [Processes and Threads](/windows/win32/procthread/processes-and-threads).
+> For a general discussion on Processes and Threads within Windows, please see the topic [Processes and Threads](../procthread/processes-and-threads.md).
 
 ## Syntax
 

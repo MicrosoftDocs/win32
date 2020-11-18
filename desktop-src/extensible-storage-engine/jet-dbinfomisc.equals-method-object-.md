@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 Determines whether the specified [Object](/dotnet/api/system.object) is equal to the current [Object](/dotnet/api/system.object).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -66,10 +66,10 @@ True if the specified [Object](/dotnet/api/system.object) is equal to the curren
 
 #### Reference
 
-[JET_DBINFOMISC class](hh538867\(v=exchg.10\).md)
+[JET_DBINFOMISC class](./jet-dbinfomisc-class.md)
 
-[JET_DBINFOMISC members](hh566148\(v=exchg.10\).md)
+[JET_DBINFOMISC members](./jet-dbinfomisc-members.md)
 
-[Equals overload](hh577631\(v=exchg.10\).md)
+[Equals overload](./jet-dbinfomisc.equals-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

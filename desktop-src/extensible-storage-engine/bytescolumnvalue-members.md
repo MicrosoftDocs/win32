@@ -15,7 +15,7 @@ Include inherited members
 
 A byte array column value.
 
-The [BytesColumnValue](dn334170\(v=exchg.10\).md) type exposes the following members.
+The [BytesColumnValue](./bytescolumnvalue-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -157,6 +157,6 @@ Top
 
 #### Reference
 
-[BytesColumnValue class](dn334170\(v=exchg.10\).md)
+[BytesColumnValue class](./bytescolumnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

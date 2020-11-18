@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVInvalidPathException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +49,8 @@ public EsentSLVInvalidPathException()
 
 #### Reference
 
-[EsentSLVInvalidPathException class](dn334798\(v=exchg.10\).md)
+[EsentSLVInvalidPathException class](./esentslvinvalidpathexception-class.md)
 
-[EsentSLVInvalidPathException members](dn350711\(v=exchg.10\).md)
+[EsentSLVInvalidPathException members](./esentslvinvalidpathexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

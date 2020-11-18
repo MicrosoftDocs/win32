@@ -28,9 +28,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_ENUMCOLUMNVALUE.ToString method
 
-Returns a [String](/dotnet/api/system.string) that represents the current [JET_ENUMCOLUMNVALUE](dn335142\(v=exchg.10\).md).
+Returns a [String](/dotnet/api/system.string) that represents the current [JET_ENUMCOLUMNVALUE](./jet-enumcolumnvalue-class.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,14 +52,14 @@ public override string ToString()
 #### Return value
 
 Type: [System.String](/dotnet/api/system.string)  
-A [String](/dotnet/api/system.string) that represents the current [JET_ENUMCOLUMNVALUE](dn335142\(v=exchg.10\).md).  
+A [String](/dotnet/api/system.string) that represents the current [JET_ENUMCOLUMNVALUE](./jet-enumcolumnvalue-class.md).  
 
 ## See also
 
 #### Reference
 
-[JET_ENUMCOLUMNVALUE class](dn335142\(v=exchg.10\).md)
+[JET_ENUMCOLUMNVALUE class](./jet-enumcolumnvalue-class.md)
 
-[JET_ENUMCOLUMNVALUE members](dn335094\(v=exchg.10\).md)
+[JET_ENUMCOLUMNVALUE members](./jet-enumcolumnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

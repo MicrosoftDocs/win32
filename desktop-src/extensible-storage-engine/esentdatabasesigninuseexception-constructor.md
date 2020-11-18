@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDatabaseSignInUseException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentDatabaseSignInUseException()
 
 #### Reference
 
-[EsentDatabaseSignInUseException class](dn334488\(v=exchg.10\).md)
+[EsentDatabaseSignInUseException class](./esentdatabasesigninuseexception-class.md)
 
-[EsentDatabaseSignInUseException members](dn334375\(v=exchg.10\).md)
+[EsentDatabaseSignInUseException members](./esentdatabasesigninuseexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

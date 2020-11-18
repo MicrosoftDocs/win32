@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.DDLNotInheritable exceptions.
 
-The [EsentDDLNotInheritableException](dn334413\(v=exchg.10\).md) type exposes the following members.
+The [EsentDDLNotInheritableException](./esentddlnotinheritableexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentDDLNotInheritableException class](dn334413\(v=exchg.10\).md)
+[EsentDDLNotInheritableException class](./esentddlnotinheritableexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

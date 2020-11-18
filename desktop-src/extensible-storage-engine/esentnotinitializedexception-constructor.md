@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentNotInitializedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentNotInitializedException()
 
 #### Reference
 
-[EsentNotInitializedException class](dn334741\(v=exchg.10\).md)
+[EsentNotInitializedException class](./esentnotinitializedexception-class.md)
 
-[EsentNotInitializedException members](dn319683\(v=exchg.10\).md)
+[EsentNotInitializedException members](./esentnotinitializedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

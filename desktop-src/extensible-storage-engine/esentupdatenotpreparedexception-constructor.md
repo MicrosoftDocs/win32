@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentUpdateNotPreparedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentUpdateNotPreparedException()
 
 #### Reference
 
-[EsentUpdateNotPreparedException class](dn350844\(v=exchg.10\).md)
+[EsentUpdateNotPreparedException class](./esentupdatenotpreparedexception-class.md)
 
-[EsentUpdateNotPreparedException members](dn350846\(v=exchg.10\).md)
+[EsentUpdateNotPreparedException members](./esentupdatenotpreparedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

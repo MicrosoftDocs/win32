@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.CannotLogDuringRecoveryRedo exceptions.
 
-The [EsentCannotLogDuringRecoveryRedoException](dn274165\(v=exchg.10\).md) type exposes the following members.
+The [EsentCannotLogDuringRecoveryRedoException](./esentcannotlogduringrecoveryredoexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentCannotLogDuringRecoveryRedoException class](dn274165\(v=exchg.10\).md)
+[EsentCannotLogDuringRecoveryRedoException class](./esentcannotlogduringrecoveryredoexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

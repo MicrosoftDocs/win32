@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentLogFileSizeMismatchException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentLogFileSizeMismatchException()
 
 #### Reference
 
-[EsentLogFileSizeMismatchException class](dn334627\(v=exchg.10\).md)
+[EsentLogFileSizeMismatchException class](./esentlogfilesizemismatchexception-class.md)
 
-[EsentLogFileSizeMismatchException members](dn334558\(v=exchg.10\).md)
+[EsentLogFileSizeMismatchException members](./esentlogfilesizemismatchexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

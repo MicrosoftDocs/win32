@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentLogCorruptDuringHardRecoveryException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentLogCorruptDuringHardRecoveryException()
 
 #### Reference
 
-[EsentLogCorruptDuringHardRecoveryException class](dn319628\(v=exchg.10\).md)
+[EsentLogCorruptDuringHardRecoveryException class](./esentlogcorruptduringhardrecoveryexception-class.md)
 
-[EsentLogCorruptDuringHardRecoveryException members](dn334579\(v=exchg.10\).md)
+[EsentLogCorruptDuringHardRecoveryException members](./esentlogcorruptduringhardrecoveryexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

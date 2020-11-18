@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentIndexTuplesVarSegMacNotAllowedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentIndexTuplesVarSegMacNotAllowedException()
 
 #### Reference
 
-[EsentIndexTuplesVarSegMacNotAllowedException class](dn319430\(v=exchg.10\).md)
+[EsentIndexTuplesVarSegMacNotAllowedException class](./esentindextuplesvarsegmacnotallowedexception-class.md)
 
-[EsentIndexTuplesVarSegMacNotAllowedException members](dn350499\(v=exchg.10\).md)
+[EsentIndexTuplesVarSegMacNotAllowedException members](./esentindextuplesvarsegmacnotallowedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

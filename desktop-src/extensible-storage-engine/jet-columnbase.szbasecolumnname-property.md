@@ -32,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the name of the column in the template table.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,8 +61,8 @@ Type: [System.String](/dotnet/api/system.string)
 
 #### Reference
 
-[JET_COLUMNBASE class](dn335045\(v=exchg.10\).md)
+[JET_COLUMNBASE class](./jet-columnbase-class.md)
 
-[JET_COLUMNBASE members](dn335046\(v=exchg.10\).md)
+[JET_COLUMNBASE members](./jet-columnbase-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

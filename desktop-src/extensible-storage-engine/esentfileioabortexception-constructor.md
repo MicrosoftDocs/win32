@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentFileIOAbortException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentFileIOAbortException()
 
 #### Reference
 
-[EsentFileIOAbortException class](dn274355\(v=exchg.10\).md)
+[EsentFileIOAbortException class](./esentfileioabortexception-class.md)
 
-[EsentFileIOAbortException members](dn274350\(v=exchg.10\).md)
+[EsentFileIOAbortException members](./esentfileioabortexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

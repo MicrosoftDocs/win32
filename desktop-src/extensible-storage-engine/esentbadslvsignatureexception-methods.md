@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentBadSLVSignatureException](dn274107\(v=exchg.10\).md) type exposes the following members.
+The [EsentBadSLVSignatureException](./esentbadslvsignatureexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentBadSLVSignatureException class](dn274107\(v=exchg.10\).md)
+[EsentBadSLVSignatureException class](./esentbadslvsignatureexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

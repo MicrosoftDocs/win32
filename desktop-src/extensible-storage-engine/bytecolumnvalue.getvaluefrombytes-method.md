@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Given data retrieved from ESENT, decode the data and set the value in the ColumnValue object.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -94,8 +94,8 @@ protected override void GetValueFromBytes(
 
 #### Reference
 
-[ByteColumnValue class](dn334109\(v=exchg.10\).md)
+[ByteColumnValue class](./bytecolumnvalue-class.md)
 
-[ByteColumnValue members](dn334162\(v=exchg.10\).md)
+[ByteColumnValue members](./bytecolumnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

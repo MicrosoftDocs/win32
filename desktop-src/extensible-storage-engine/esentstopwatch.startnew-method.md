@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new EsentStopwatch instance and starts measuring elapsed time.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -50,16 +50,15 @@ public static EsentStopwatch StartNew()
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.EsentStopwatch](dn334867\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.EsentStopwatch](./esentstopwatch-class.md)  
 A new, running EsentStopwatch.  
 
 ## See also
 
 #### Reference
 
-[EsentStopwatch class](dn334867\(v=exchg.10\).md)
+[EsentStopwatch class](./esentstopwatch-class.md)
 
-[EsentStopwatch members](dn334924\(v=exchg.10\).md)
+[EsentStopwatch members](./esentstopwatch-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

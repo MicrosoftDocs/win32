@@ -24,7 +24,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_SNT
 
-The [JET_SNT](gg269294\(v=exchg.10\).md) group of constants describe the points of the progress of an operation about which information is requested in a call to the [JET_PFNSTATUS](gg269326\(v=exchg.10\).md) callback function.
+The [JET_SNT]() group of constants describe the points of the progress of an operation about which information is requested in a call to the [JET_PFNSTATUS](./jet-pfnstatus-callback-function.md) callback function.
 
 <table>
 <colgroup>
@@ -106,7 +106,6 @@ The [JET_SNT](gg269294\(v=exchg.10\).md) group of constants describe the points 
 
 ### See Also
 
-[JET_PFNSTATUS](gg269326\(v=exchg.10\).md)  
-[JET_SNP](gg269311\(v=exchg.10\).md)  
-[JET_SNPROG](gg269328\(v=exchg.10\).md)
-
+[JET_PFNSTATUS](./jet-pfnstatus-callback-function.md)  
+[JET_SNP](./jet-snp.md)  
+[JET_SNPROG](./jet-snprog-structure.md)

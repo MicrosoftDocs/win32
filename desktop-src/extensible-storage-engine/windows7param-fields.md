@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [Windows7Param](dn335429\(v=exchg.10\).md) type exposes the following members.
+The [Windows7Param](./windows7param-class.md) type exposes the following members.
 
 ## Fields
 
@@ -86,7 +86,6 @@ Top
 
 #### Reference
 
-[Windows7Param class](dn335429\(v=exchg.10\).md)
+[Windows7Param class](./windows7param-class.md)
 
-[Microsoft.Isam.Esent.Interop.Windows7 namespace](hh577573\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows7 namespace](./microsoft.isam.esent.interop.windows7-namespace.md)

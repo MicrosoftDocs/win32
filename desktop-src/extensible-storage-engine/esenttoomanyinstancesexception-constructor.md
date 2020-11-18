@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentTooManyInstancesException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentTooManyInstancesException()
 
 #### Reference
 
-[EsentTooManyInstancesException class](dn335021\(v=exchg.10\).md)
+[EsentTooManyInstancesException class](./esenttoomanyinstancesexception-class.md)
 
-[EsentTooManyInstancesException members](dn350763\(v=exchg.10\).md)
+[EsentTooManyInstancesException members](./esenttoomanyinstancesexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentRunningInOneInstanceModeException](dn350604\(v=exchg.10\).md) type exposes the following members.
+The [EsentRunningInOneInstanceModeException](./esentrunninginoneinstancemodeexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentRunningInOneInstanceModeException class](dn350604\(v=exchg.10\).md)
+[EsentRunningInOneInstanceModeException class](./esentrunninginoneinstancemodeexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

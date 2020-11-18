@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentMustCommitDistributedTransactionToLevel0Exception class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentMustCommitDistributedTransactionToLevel0Exception()
 
 #### Reference
 
-[EsentMustCommitDistributedTransactionToLevel0Exception class](dn319638\(v=exchg.10\).md)
+[EsentMustCommitDistributedTransactionToLevel0Exception class](./esentmustcommitdistributedtransactiontolevel0exception-class.md)
 
-[EsentMustCommitDistributedTransactionToLevel0Exception members](dn334712\(v=exchg.10\).md)
+[EsentMustCommitDistributedTransactionToLevel0Exception members](./esentmustcommitdistributedtransactiontolevel0exception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

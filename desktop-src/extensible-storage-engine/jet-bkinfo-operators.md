@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_BKINFO](hh577892\(v=exchg.10\).md) type exposes the following members.
+The [JET_BKINFO](./jet-bkinfo-structure2.md) type exposes the following members.
 
 ## Operators
 
@@ -46,7 +46,6 @@ Top
 
 #### Reference
 
-[JET_BKINFO structure](hh577892\(v=exchg.10\).md)
+[JET_BKINFO structure](./jet-bkinfo-structure2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

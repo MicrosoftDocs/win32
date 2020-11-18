@@ -15,7 +15,7 @@ Include inherited members
 
 This is the base class for all esent resource objects. Subclasses of this class can allocate and release unmanaged resources.
 
-The [EsentResource](dn319890\(v=exchg.10\).md) type exposes the following members.
+The [EsentResource](./esentresource-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -142,6 +142,6 @@ Top
 
 #### Reference
 
-[EsentResource class](dn319890\(v=exchg.10\).md)
+[EsentResource class](./esentresource-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

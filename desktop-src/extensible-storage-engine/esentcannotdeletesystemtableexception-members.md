@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.CannotDeleteSystemTable exceptions.
 
-The [EsentCannotDeleteSystemTableException](dn274139\(v=exchg.10\).md) type exposes the following members.
+The [EsentCannotDeleteSystemTableException](./esentcannotdeletesystemtableexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentCannotDeleteSystemTableException class](dn274139\(v=exchg.10\).md)
+[EsentCannotDeleteSystemTableException class](./esentcannotdeletesystemtableexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

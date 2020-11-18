@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInconsistentException](dn350488\(v=exchg.10\).md) type exposes the following members.
+The [EsentInconsistentException](./esentinconsistentexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentInconsistentException class](dn350488\(v=exchg.10\).md)
+[EsentInconsistentException class](./esentinconsistentexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

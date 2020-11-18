@@ -15,7 +15,7 @@ Include inherited members
 
 Wraps the callback dealing with durable commits.
 
-The [DurableCommitCallback](dn335323\(v=exchg.10\).md) type exposes the following members.
+The [DurableCommitCallback](./durablecommitcallback-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -147,6 +147,6 @@ Top
 
 #### Reference
 
-[DurableCommitCallback class](dn335323\(v=exchg.10\).md)
+[DurableCommitCallback class](./durablecommitcallback-class.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 Generate a string representation of the structure.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -54,10 +54,10 @@ The structure as a string.
 
 #### Reference
 
-[JET_DBID structure](hh596176\(v=exchg.10\).md)
+[JET_DBID structure](./jet-dbid-structure.md)
 
-[JET_DBID members](hh566162\(v=exchg.10\).md)
+[JET_DBID members](./jet-dbid-members.md)
 
-[ToString overload](hh557402\(v=exchg.10\).md)
+[ToString overload](./jet-dbid.tostring-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

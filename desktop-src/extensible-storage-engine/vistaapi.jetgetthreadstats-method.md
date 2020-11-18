@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Retrieves performance information from the database engine for the current thread. Multiple calls can be used to collect statistics that reflect the activity of the database engine on this thread between those calls.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -53,7 +53,7 @@ public static void JetGetThreadStats(
 #### Parameters
 
   - threadstats  
-    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS](hh578565\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS](./jet-threadstats-structure2.md)  
     
     Returns the thread statistics data.
 
@@ -61,9 +61,8 @@ public static void JetGetThreadStats(
 
 #### Reference
 
-[VistaApi class](dn335321\(v=exchg.10\).md)
+[VistaApi class](./vistaapi-class.md)
 
-[VistaApi members](dn335317\(v=exchg.10\).md)
+[VistaApi members](./vistaapi-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

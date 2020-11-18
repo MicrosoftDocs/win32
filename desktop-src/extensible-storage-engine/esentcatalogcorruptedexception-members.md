@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.CatalogCorrupted exceptions.
 
-The [EsentCatalogCorruptedException](dn274191\(v=exchg.10\).md) type exposes the following members.
+The [EsentCatalogCorruptedException](./esentcatalogcorruptedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentCatalogCorruptedException class](dn274191\(v=exchg.10\).md)
+[EsentCatalogCorruptedException class](./esentcatalogcorruptedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentLogDisabledDueToRecoveryFailureException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentLogDisabledDueToRecoveryFailureException()
 
 #### Reference
 
-[EsentLogDisabledDueToRecoveryFailureException class](dn334591\(v=exchg.10\).md)
+[EsentLogDisabledDueToRecoveryFailureException class](./esentlogdisabledduetorecoveryfailureexception-class.md)
 
-[EsentLogDisabledDueToRecoveryFailureException members](dn334525\(v=exchg.10\).md)
+[EsentLogDisabledDueToRecoveryFailureException members](./esentlogdisabledduetorecoveryfailureexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

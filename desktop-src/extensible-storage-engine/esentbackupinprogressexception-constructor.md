@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentBackupInProgressException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentBackupInProgressException()
 
 #### Reference
 
-[EsentBackupInProgressException class](dn274026\(v=exchg.10\).md)
+[EsentBackupInProgressException class](./esentbackupinprogressexception-class.md)
 
-[EsentBackupInProgressException members](dn273975\(v=exchg.10\).md)
+[EsentBackupInProgressException members](./esentbackupinprogressexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.ReadVerifyFailure exceptions.
 
-The [EsentReadVerifyFailureException](dn319876\(v=exchg.10\).md) type exposes the following members.
+The [EsentReadVerifyFailureException](./esentreadverifyfailureexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentReadVerifyFailureException class](dn319876\(v=exchg.10\).md)
+[EsentReadVerifyFailureException class](./esentreadverifyfailureexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -48,7 +48,7 @@ Set *tableid* to JET_tableidNil to release memory.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -72,9 +72,9 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 #### Remarks
 
-This function must be called on all tables opened with [JetOpenTable](gg294118\(v=exchg.10\).md).
+This function must be called on all tables opened with [JetOpenTable](./jetopentable-function.md).
 
-The exception to this rule happens when [JetOpenTable](gg294118\(v=exchg.10\).md) is called in a transaction and the transaction is rolled back (with [JetRollback](gg269273\(v=exchg.10\).md)). When rolling back a transaction, the table is automatically closed. In this case, it is an error to close the table with **JetCloseTable**.
+The exception to this rule happens when [JetOpenTable](./jetopentable-function.md) is called in a transaction and the transaction is rolled back (with [JetRollback](./jetrollback-function.md)). When rolling back a transaction, the table is automatically closed. In this case, it is an error to close the table with **JetCloseTable**.
 
 #### Requirements
 
@@ -110,10 +110,9 @@ The exception to this rule happens when [JetOpenTable](gg294118\(v=exchg.10\).md
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetOpenTable](gg294118\(v=exchg.10\).md)  
-[JetRollback](gg269273\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetOpenTable](./jetopentable-function.md)  
+[JetRollback](./jetrollback-function.md)

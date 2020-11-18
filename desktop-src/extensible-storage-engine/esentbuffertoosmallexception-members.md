@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.BufferTooSmall exceptions.
 
-The [EsentBufferTooSmallException](dn274053\(v=exchg.10\).md) type exposes the following members.
+The [EsentBufferTooSmallException](./esentbuffertoosmallexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentBufferTooSmallException class](dn274053\(v=exchg.10\).md)
+[EsentBufferTooSmallException class](./esentbuffertoosmallexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

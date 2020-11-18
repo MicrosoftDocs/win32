@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentCheckpointDepthTooDeepException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentCheckpointDepthTooDeepException()
 
 #### Reference
 
-[EsentCheckpointDepthTooDeepException class](dn274195\(v=exchg.10\).md)
+[EsentCheckpointDepthTooDeepException class](./esentcheckpointdepthtoodeepexception-class.md)
 
-[EsentCheckpointDepthTooDeepException members](dn274137\(v=exchg.10\).md)
+[EsentCheckpointDepthTooDeepException members](./esentcheckpointdepthtoodeepexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

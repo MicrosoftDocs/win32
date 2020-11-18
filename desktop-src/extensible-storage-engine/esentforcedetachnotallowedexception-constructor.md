@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentForceDetachNotAllowedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentForceDetachNotAllowedException()
 
 #### Reference
 
-[EsentForceDetachNotAllowedException class](dn350463\(v=exchg.10\).md)
+[EsentForceDetachNotAllowedException class](./esentforcedetachnotallowedexception-class.md)
 
-[EsentForceDetachNotAllowedException members](dn350417\(v=exchg.10\).md)
+[EsentForceDetachNotAllowedException members](./esentforcedetachnotallowedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

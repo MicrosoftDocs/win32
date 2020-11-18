@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentPageSizeMismatchException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentPageSizeMismatchException()
 
 #### Reference
 
-[EsentPageSizeMismatchException class](dn319780\(v=exchg.10\).md)
+[EsentPageSizeMismatchException class](./esentpagesizemismatchexception-class.md)
 
-[EsentPageSizeMismatchException members](dn319832\(v=exchg.10\).md)
+[EsentPageSizeMismatchException members](./esentpagesizemismatchexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

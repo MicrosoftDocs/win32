@@ -51,9 +51,8 @@ Top
 
 #### Reference
 
-[DurableCommitCallback class](dn335323\(v=exchg.10\).md)
+[DurableCommitCallback class](./durablecommitcallback-class.md)
 
-[DurableCommitCallback members](dn335441\(v=exchg.10\).md)
+[DurableCommitCallback members](./durablecommitcallback-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

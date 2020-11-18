@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_RSTMAP](dn351048\(v=exchg.10\).md) type exposes the following members.
+The [JET_RSTMAP](./jet-rstmap-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[JET_RSTMAP class](dn351048\(v=exchg.10\).md)
+[JET_RSTMAP class](./jet-rstmap-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

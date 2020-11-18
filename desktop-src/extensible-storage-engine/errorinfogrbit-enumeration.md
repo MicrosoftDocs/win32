@@ -30,9 +30,9 @@ ROBOTS: INDEX,FOLLOW
 
 # ErrorInfoGrbit enumeration
 
-Options for [JetGetErrorInfo(JET_err, JET_ERRINFOBASIC)](dn335493\(v=exchg.10\).md).
+Options for [JetGetErrorInfo(JET_err, JET_ERRINFOBASIC)](./windows8api.jetgeterrorinfo-method.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -72,5 +72,4 @@ public enum ErrorInfoGrbit
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

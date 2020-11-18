@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.InvalidFilename exceptions.
 
-The [EsentInvalidFilenameException](dn319520\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidFilenameException](./esentinvalidfilenameexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentInvalidFilenameException class](dn319520\(v=exchg.10\).md)
+[EsentInvalidFilenameException class](./esentinvalidfilenameexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVBufferTooSmallException](dn350651\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVBufferTooSmallException](./esentslvbuffertoosmallexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentSLVBufferTooSmallException class](dn350651\(v=exchg.10\).md)
+[EsentSLVBufferTooSmallException class](./esentslvbuffertoosmallexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

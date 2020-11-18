@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [IndexInfo](dn350919\(v=exchg.10\).md) type exposes the following members.
+The [IndexInfo](./indexinfo-class.md) type exposes the following members.
 
 ## Properties
 
@@ -76,7 +76,6 @@ Top
 
 #### Reference
 
-[IndexInfo class](dn350919\(v=exchg.10\).md)
+[IndexInfo class](./indexinfo-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

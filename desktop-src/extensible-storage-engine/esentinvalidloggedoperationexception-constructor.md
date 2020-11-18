@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidLoggedOperationException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentInvalidLoggedOperationException()
 
 #### Reference
 
-[EsentInvalidLoggedOperationException class](dn319545\(v=exchg.10\).md)
+[EsentInvalidLoggedOperationException class](./esentinvalidloggedoperationexception-class.md)
 
-[EsentInvalidLoggedOperationException members](dn319551\(v=exchg.10\).md)
+[EsentInvalidLoggedOperationException members](./esentinvalidloggedoperationexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

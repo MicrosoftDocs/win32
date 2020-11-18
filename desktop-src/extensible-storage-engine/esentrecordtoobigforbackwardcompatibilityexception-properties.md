@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentRecordTooBigForBackwardCompatibilityException](dn350529\(v=exchg.10\).md) type exposes the following members.
+The [EsentRecordTooBigForBackwardCompatibilityException](./esentrecordtoobigforbackwardcompatibilityexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentRecordTooBigForBackwardCompatibilityException class](dn350529\(v=exchg.10\).md)
+[EsentRecordTooBigForBackwardCompatibilityException class](./esentrecordtoobigforbackwardcompatibilityexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

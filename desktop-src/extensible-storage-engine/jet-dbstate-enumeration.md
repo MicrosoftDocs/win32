@@ -38,9 +38,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_dbstate enumeration
 
-Database states (used in [JET_DBINFOMISC](hh538867\(v=exchg.10\).md)).
+Database states (used in [JET_DBINFOMISC](./jet-dbinfomisc-class.md)).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -100,5 +100,4 @@ public enum JET_dbstate
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

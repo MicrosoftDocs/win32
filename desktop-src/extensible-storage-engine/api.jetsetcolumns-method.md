@@ -28,9 +28,9 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetSetColumns method
 
-Allows an application to set multiple column values in a single operation. An array of [JET_SETCOLUMN](dn335260\(v=exchg.10\).md) structures is used to describe the set of column values to be set, and to describe input buffers for each column value to be set.
+Allows an application to set multiple column values in a single operation. An array of [JET_SETCOLUMN](./jet-setcolumn-class.md) structures is used to describe the set of column values to be set, and to describe input buffers for each column value to be set.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -68,14 +68,14 @@ public static JET_wrn JetSetColumns(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
     
     The cursor to set the columns on.
 
@@ -84,7 +84,7 @@ public static JET_wrn JetSetColumns(
   - setcolumns  
     Type: \[\]  
     
-    An array of [JET_SETCOLUMN](dn335260\(v=exchg.10\).md) structures describing the data to set.
+    An array of [JET_SETCOLUMN](./jet-setcolumn-class.md) structures describing the data to set.
 
 <!-- end list -->
 
@@ -95,15 +95,15 @@ public static JET_wrn JetSetColumns(
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_wrn](hh557250\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_wrn](./jet-wrn-enumeration.md)  
 A warning. If the last column set has a warning, then this warning will be returned from JetSetColumns itself.  
 
 ## See also
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

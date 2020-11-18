@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVFileAccessDeniedException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +49,8 @@ public EsentSLVFileAccessDeniedException()
 
 #### Reference
 
-[EsentSLVFileAccessDeniedException class](dn350725\(v=exchg.10\).md)
+[EsentSLVFileAccessDeniedException class](./esentslvfileaccessdeniedexception-class.md)
 
-[EsentSLVFileAccessDeniedException members](dn350726\(v=exchg.10\).md)
+[EsentSLVFileAccessDeniedException members](./esentslvfileaccessdeniedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

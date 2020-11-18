@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDiskException class. This constructor is used to deserialize a serialized exception.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -69,10 +69,10 @@ protected EsentDiskException(
 
 #### Reference
 
-[EsentDiskException class](dn334464\(v=exchg.10\).md)
+[EsentDiskException class](./esentdiskexception-class.md)
 
-[EsentDiskException members](dn274279\(v=exchg.10\).md)
+[EsentDiskException members](./esentdiskexception-members.md)
 
-[EsentDiskException overload](dn334462\(v=exchg.10\).md)
+[EsentDiskException overload](./esentdiskexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

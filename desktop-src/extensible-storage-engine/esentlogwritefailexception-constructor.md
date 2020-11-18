@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentLogWriteFailException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentLogWriteFailException()
 
 #### Reference
 
-[EsentLogWriteFailException class](dn334607\(v=exchg.10\).md)
+[EsentLogWriteFailException class](./esentlogwritefailexception-class.md)
 
-[EsentLogWriteFailException members](dn334665\(v=exchg.10\).md)
+[EsentLogWriteFailException members](./esentlogwritefailexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

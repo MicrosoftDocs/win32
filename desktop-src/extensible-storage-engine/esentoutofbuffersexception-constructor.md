@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentOutOfBuffersException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentOutOfBuffersException()
 
 #### Reference
 
-[EsentOutOfBuffersException class](dn319715\(v=exchg.10\).md)
+[EsentOutOfBuffersException class](./esentoutofbuffersexception-class.md)
 
-[EsentOutOfBuffersException members](dn319758\(v=exchg.10\).md)
+[EsentOutOfBuffersException members](./esentoutofbuffersexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

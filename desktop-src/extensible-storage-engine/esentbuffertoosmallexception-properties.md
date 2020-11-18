@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentBufferTooSmallException](dn274053\(v=exchg.10\).md) type exposes the following members.
+The [EsentBufferTooSmallException](./esentbuffertoosmallexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentBufferTooSmallException class](dn274053\(v=exchg.10\).md)
+[EsentBufferTooSmallException class](./esentbuffertoosmallexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

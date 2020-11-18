@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.AlreadyPrepared exceptions.
 
-The [EsentAlreadyPreparedException](dn334228\(v=exchg.10\).md) type exposes the following members.
+The [EsentAlreadyPreparedException](./esentalreadypreparedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentAlreadyPreparedException class](dn334228\(v=exchg.10\).md)
+[EsentAlreadyPreparedException class](./esentalreadypreparedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

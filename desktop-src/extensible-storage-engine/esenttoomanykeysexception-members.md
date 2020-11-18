@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.TooManyKeys exceptions.
 
-The [EsentTooManyKeysException](dn334998\(v=exchg.10\).md) type exposes the following members.
+The [EsentTooManyKeysException](./esenttoomanykeysexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentTooManyKeysException class](dn334998\(v=exchg.10\).md)
+[EsentTooManyKeysException class](./esenttoomanykeysexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

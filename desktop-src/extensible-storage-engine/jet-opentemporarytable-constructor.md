@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_OPENTEMPORARYTABLE constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +49,8 @@ public JET_OPENTEMPORARYTABLE()
 
 #### Reference
 
-[JET_OPENTEMPORARYTABLE class](dn351217\(v=exchg.10\).md)
+[JET_OPENTEMPORARYTABLE class](./jet-opentemporarytable-class.md)
 
-[JET_OPENTEMPORARYTABLE members](dn335285\(v=exchg.10\).md)
+[JET_OPENTEMPORARYTABLE members](./jet-opentemporarytable-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

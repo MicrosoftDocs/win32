@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDatabaseIncompleteUpgradeException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentDatabaseIncompleteUpgradeException()
 
 #### Reference
 
-[EsentDatabaseIncompleteUpgradeException class](dn334320\(v=exchg.10\).md)
+[EsentDatabaseIncompleteUpgradeException class](./esentdatabaseincompleteupgradeexception-class.md)
 
-[EsentDatabaseIncompleteUpgradeException members](dn334425\(v=exchg.10\).md)
+[EsentDatabaseIncompleteUpgradeException members](./esentdatabaseincompleteupgradeexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

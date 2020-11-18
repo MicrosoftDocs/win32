@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.SPAvailExtCorrupted exceptions.
 
-The [EsentSPAvailExtCorruptedException](dn334914\(v=exchg.10\).md) type exposes the following members.
+The [EsentSPAvailExtCorruptedException](./esentspavailextcorruptedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentSPAvailExtCorruptedException class](dn334914\(v=exchg.10\).md)
+[EsentSPAvailExtCorruptedException class](./esentspavailextcorruptedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

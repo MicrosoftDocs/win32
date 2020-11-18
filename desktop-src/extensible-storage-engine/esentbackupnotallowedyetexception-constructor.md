@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentBackupNotAllowedYetException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentBackupNotAllowedYetException()
 
 #### Reference
 
-[EsentBackupNotAllowedYetException class](dn274032\(v=exchg.10\).md)
+[EsentBackupNotAllowedYetException class](./esentbackupnotallowedyetexception-class.md)
 
-[EsentBackupNotAllowedYetException members](dn273982\(v=exchg.10\).md)
+[EsentBackupNotAllowedYetException members](./esentbackupnotallowedyetexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentColumnTooBigException](dn334298\(v=exchg.10\).md) type exposes the following members.
+The [EsentColumnTooBigException](./esentcolumntoobigexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentColumnTooBigException class](dn334298\(v=exchg.10\).md)
+[EsentColumnTooBigException class](./esentcolumntoobigexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

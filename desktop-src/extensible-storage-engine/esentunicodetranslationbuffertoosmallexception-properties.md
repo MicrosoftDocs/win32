@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentUnicodeTranslationBufferTooSmallException](dn350843\(v=exchg.10\).md) type exposes the following members.
+The [EsentUnicodeTranslationBufferTooSmallException](./esentunicodetranslationbuffertoosmallexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentUnicodeTranslationBufferTooSmallException class](dn350843\(v=exchg.10\).md)
+[EsentUnicodeTranslationBufferTooSmallException class](./esentunicodetranslationbuffertoosmallexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentTableDuplicateException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentTableDuplicateException()
 
 #### Reference
 
-[EsentTableDuplicateException class](dn334948\(v=exchg.10\).md)
+[EsentTableDuplicateException class](./esenttableduplicateexception-class.md)
 
-[EsentTableDuplicateException members](dn334902\(v=exchg.10\).md)
+[EsentTableDuplicateException members](./esenttableduplicateexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

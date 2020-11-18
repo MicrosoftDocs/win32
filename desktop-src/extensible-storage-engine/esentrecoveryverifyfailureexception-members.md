@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.RecoveryVerifyFailure exceptions.
 
-The [EsentRecoveryVerifyFailureException](dn319891\(v=exchg.10\).md) type exposes the following members.
+The [EsentRecoveryVerifyFailureException](./esentrecoveryverifyfailureexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentRecoveryVerifyFailureException class](dn319891\(v=exchg.10\).md)
+[EsentRecoveryVerifyFailureException class](./esentrecoveryverifyfailureexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

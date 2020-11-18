@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.OutOfLongValueIDs exceptions.
 
-The [EsentOutOfLongValueIDsException](dn319790\(v=exchg.10\).md) type exposes the following members.
+The [EsentOutOfLongValueIDsException](./esentoutoflongvalueidsexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentOutOfLongValueIDsException class](dn319790\(v=exchg.10\).md)
+[EsentOutOfLongValueIDsException class](./esentoutoflongvalueidsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVRootStillOpenException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +49,8 @@ public EsentSLVRootStillOpenException()
 
 #### Reference
 
-[EsentSLVRootStillOpenException class](dn350749\(v=exchg.10\).md)
+[EsentSLVRootStillOpenException class](./esentslvrootstillopenexception-class.md)
 
-[EsentSLVRootStillOpenException members](dn334841\(v=exchg.10\).md)
+[EsentSLVRootStillOpenException members](./esentslvrootstillopenexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

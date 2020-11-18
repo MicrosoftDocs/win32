@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVStreamingFileNotCreatedException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +49,8 @@ public EsentSLVStreamingFileNotCreatedException()
 
 #### Reference
 
-[EsentSLVStreamingFileNotCreatedException class](dn334768\(v=exchg.10\).md)
+[EsentSLVStreamingFileNotCreatedException class](./esentslvstreamingfilenotcreatedexception-class.md)
 
-[EsentSLVStreamingFileNotCreatedException members](dn334775\(v=exchg.10\).md)
+[EsentSLVStreamingFileNotCreatedException members](./esentslvstreamingfilenotcreatedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

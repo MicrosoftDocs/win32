@@ -15,7 +15,7 @@ Include inherited members
 
 Contains information about the progress of a long-running operation.
 
-The [JET_SNPROG](dn351044\(v=exchg.10\).md) type exposes the following members.
+The [JET_SNPROG](./jet-snprog-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -122,6 +122,6 @@ Top
 
 #### Reference
 
-[JET_SNPROG class](dn351044\(v=exchg.10\).md)
+[JET_SNPROG class](./jet-snprog-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Generate a string representation of the instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,8 +58,8 @@ The structure as a string.
 
 #### Reference
 
-[JET_RECPOS class](dn335256\(v=exchg.10\).md)
+[JET_RECPOS class](./jet-recpos-class.md)
 
-[JET_RECPOS members](dn335257\(v=exchg.10\).md)
+[JET_RECPOS members](./jet-recpos-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -15,7 +15,7 @@ Include inherited members
 
 Provide methods to convert data and flags between Win32 and the .NET Framework.
 
-The [Conversions](dn334230\(v=exchg.10\).md) type exposes the following members.
+The [Conversions](./conversions-class.md) type exposes the following members.
 
 ## Methods
 
@@ -53,7 +53,6 @@ Top
 
 #### Reference
 
-[Conversions class](dn334230\(v=exchg.10\).md)
+[Conversions class](./conversions-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

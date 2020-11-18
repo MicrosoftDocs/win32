@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLogTornWriteDuringHardRestoreException](dn334605\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogTornWriteDuringHardRestoreException](./esentlogtornwriteduringhardrestoreexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentLogTornWriteDuringHardRestoreException class](dn334605\(v=exchg.10\).md)
+[EsentLogTornWriteDuringHardRestoreException class](./esentlogtornwriteduringhardrestoreexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

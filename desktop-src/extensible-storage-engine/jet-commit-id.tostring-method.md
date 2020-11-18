@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Generate a string representation of the structure.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,8 +58,8 @@ The structure as a string.
 
 #### Reference
 
-[JET_COMMIT_ID class](dn335448\(v=exchg.10\).md)
+[JET_COMMIT_ID class](./jet-commit-id-class.md)
 
-[JET_COMMIT_ID members](dn335451\(v=exchg.10\).md)
+[JET_COMMIT_ID members](./jet-commit-id-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

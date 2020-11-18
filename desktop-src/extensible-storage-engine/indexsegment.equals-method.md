@@ -51,8 +51,8 @@ Top
 
 #### Reference
 
-[IndexSegment class](dn350912\(v=exchg.10\).md)
+[IndexSegment class](./indexsegment-class.md)
 
-[IndexSegment members](dn350930\(v=exchg.10\).md)
+[IndexSegment members](./indexsegment-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

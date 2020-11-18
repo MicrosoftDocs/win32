@@ -32,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the indexrange option.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,15 +57,14 @@ public IndexRangeGrbit grbit { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.IndexRangeGrbit](hh558064\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.IndexRangeGrbit](./indexrangegrbit-enumeration.md)  
 
 ## See also
 
 #### Reference
 
-[JET_INDEXRANGE class](dn335175\(v=exchg.10\).md)
+[JET_INDEXRANGE class](./jet-indexrange-class.md)
 
-[JET_INDEXRANGE members](dn335176\(v=exchg.10\).md)
+[JET_INDEXRANGE members](./jet-indexrange-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

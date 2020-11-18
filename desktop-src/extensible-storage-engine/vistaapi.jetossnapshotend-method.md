@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Notifies the engine that the snapshot session finished.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,14 +57,14 @@ public static void JetOSSnapshotEnd(
 #### Parameters
 
   - snapshot  
-    Type: [Microsoft.Isam.Esent.Interop.JET_OSSNAPID](hh558483\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_OSSNAPID](./jet-ossnapid-structure.md)  
     
     The identifier of the snapshot session.
 
 <!-- end list -->
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.Vista.SnapshotEndGrbit](hh564489\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Vista.SnapshotEndGrbit](./snapshotendgrbit-enumeration.md)  
     
     Snapshot end options.
 
@@ -72,9 +72,8 @@ public static void JetOSSnapshotEnd(
 
 #### Reference
 
-[VistaApi class](dn335321\(v=exchg.10\).md)
+[VistaApi class](./vistaapi-class.md)
 
-[VistaApi members](dn335317\(v=exchg.10\).md)
+[VistaApi members](./vistaapi-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

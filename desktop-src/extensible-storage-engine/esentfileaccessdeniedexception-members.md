@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.FileAccessDenied exceptions.
 
-The [EsentFileAccessDeniedException](dn274324\(v=exchg.10\).md) type exposes the following members.
+The [EsentFileAccessDeniedException](./esentfileaccessdeniedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentFileAccessDeniedException class](dn274324\(v=exchg.10\).md)
+[EsentFileAccessDeniedException class](./esentfileaccessdeniedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

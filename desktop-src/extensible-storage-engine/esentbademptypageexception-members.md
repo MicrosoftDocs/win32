@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.BadEmptyPage exceptions.
 
-The [EsentBadEmptyPageException](dn274059\(v=exchg.10\).md) type exposes the following members.
+The [EsentBadEmptyPageException](./esentbademptypageexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentBadEmptyPageException class](dn274059\(v=exchg.10\).md)
+[EsentBadEmptyPageException class](./esentbademptypageexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

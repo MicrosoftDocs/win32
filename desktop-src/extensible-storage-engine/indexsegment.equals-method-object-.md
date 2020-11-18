@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 Returns a value indicating whether this instance is equal to another instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -66,10 +66,10 @@ True if the two instances are equal.
 
 #### Reference
 
-[IndexSegment class](dn350912\(v=exchg.10\).md)
+[IndexSegment class](./indexsegment-class.md)
 
-[IndexSegment members](dn350930\(v=exchg.10\).md)
+[IndexSegment members](./indexsegment-members.md)
 
-[Equals overload](dn350933\(v=exchg.10\).md)
+[Equals overload](./indexsegment.equals-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

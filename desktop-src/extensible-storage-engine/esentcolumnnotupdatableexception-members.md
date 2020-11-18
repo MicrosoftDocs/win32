@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.ColumnNotUpdatable exceptions.
 
-The [EsentColumnNotUpdatableException](dn334291\(v=exchg.10\).md) type exposes the following members.
+The [EsentColumnNotUpdatableException](./esentcolumnnotupdatableexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentColumnNotUpdatableException class](dn334291\(v=exchg.10\).md)
+[EsentColumnNotUpdatableException class](./esentcolumnnotupdatableexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

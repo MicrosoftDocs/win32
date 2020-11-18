@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.DatabaseInvalidIncrementalReseed exceptions.
 
-The [EsentDatabaseInvalidIncrementalReseedException](dn334430\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseInvalidIncrementalReseedException](./esentdatabaseinvalidincrementalreseedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseInvalidIncrementalReseedException class](dn334430\(v=exchg.10\).md)
+[EsentDatabaseInvalidIncrementalReseedException class](./esentdatabaseinvalidincrementalreseedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

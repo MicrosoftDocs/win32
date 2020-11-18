@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.BackupNotAllowedYet exceptions.
 
-The [EsentBackupNotAllowedYetException](dn274032\(v=exchg.10\).md) type exposes the following members.
+The [EsentBackupNotAllowedYetException](./esentbackupnotallowedyetexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentBackupNotAllowedYetException class](dn274032\(v=exchg.10\).md)
+[EsentBackupNotAllowedYetException class](./esentbackupnotallowedyetexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

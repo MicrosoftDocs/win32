@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentPreviousVersionException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentPreviousVersionException()
 
 #### Reference
 
-[EsentPreviousVersionException class](dn319852\(v=exchg.10\).md)
+[EsentPreviousVersionException class](./esentpreviousversionexception-class.md)
 
-[EsentPreviousVersionException members](dn319854\(v=exchg.10\).md)
+[EsentPreviousVersionException members](./esentpreviousversionexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

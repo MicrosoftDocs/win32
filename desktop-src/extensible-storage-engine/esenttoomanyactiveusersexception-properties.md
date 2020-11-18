@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentTooManyActiveUsersException](dn334984\(v=exchg.10\).md) type exposes the following members.
+The [EsentTooManyActiveUsersException](./esenttoomanyactiveusersexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentTooManyActiveUsersException class](dn334984\(v=exchg.10\).md)
+[EsentTooManyActiveUsersException class](./esenttoomanyactiveusersexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

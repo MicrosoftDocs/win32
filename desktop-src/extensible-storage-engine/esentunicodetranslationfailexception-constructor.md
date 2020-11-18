@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentUnicodeTranslationFailException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentUnicodeTranslationFailException()
 
 #### Reference
 
-[EsentUnicodeTranslationFailException class](dn350826\(v=exchg.10\).md)
+[EsentUnicodeTranslationFailException class](./esentunicodetranslationfailexception-class.md)
 
-[EsentUnicodeTranslationFailException members](dn350829\(v=exchg.10\).md)
+[EsentUnicodeTranslationFailException members](./esentunicodetranslationfailexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Retrieves the list of instances and databases that are part of the snapshot session at any given moment.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,7 +63,7 @@ public static void JetOSSnapshotGetFreezeInfo(
 #### Parameters
 
   - snapshot  
-    Type: [Microsoft.Isam.Esent.Interop.JET_OSSNAPID](hh558483\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_OSSNAPID](./jet-ossnapid-structure.md)  
     
     The identifier of the snapshot session.
 
@@ -84,7 +84,7 @@ public static void JetOSSnapshotGetFreezeInfo(
 <!-- end list -->
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.Vista.SnapshotGetFreezeInfoGrbit](hh565195\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Vista.SnapshotGetFreezeInfoGrbit](./snapshotgetfreezeinfogrbit-enumeration.md)  
     
     Options for this call.
 
@@ -92,8 +92,8 @@ public static void JetOSSnapshotGetFreezeInfo(
 
 #### Reference
 
-[VistaApi class](dn335321\(v=exchg.10\).md)
+[VistaApi class](./vistaapi-class.md)
 
-[VistaApi members](dn335317\(v=exchg.10\).md)
+[VistaApi members](./vistaapi-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

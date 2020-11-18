@@ -32,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the column values for the start of the index.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,9 +63,8 @@ Type: \[\]
 
 #### Reference
 
-[JET_INDEX_RANGE class](dn335481\(v=exchg.10\).md)
+[JET_INDEX_RANGE class](./jet-index-range-class.md)
 
-[JET_INDEX_RANGE members](dn335359\(v=exchg.10\).md)
+[JET_INDEX_RANGE members](./jet-index-range-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

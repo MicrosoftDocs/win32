@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseCorruptedNoRepairException](dn334384\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseCorruptedNoRepairException](./esentdatabasecorruptednorepairexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseCorruptedNoRepairException class](dn334384\(v=exchg.10\).md)
+[EsentDatabaseCorruptedNoRepairException class](./esentdatabasecorruptednorepairexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentSystemParamsAlreadySetException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentSystemParamsAlreadySetException()
 
 #### Reference
 
-[EsentSystemParamsAlreadySetException class](dn334938\(v=exchg.10\).md)
+[EsentSystemParamsAlreadySetException class](./esentsystemparamsalreadysetexception-class.md)
 
-[EsentSystemParamsAlreadySetException members](dn334889\(v=exchg.10\).md)
+[EsentSystemParamsAlreadySetException members](./esentsystemparamsalreadysetexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

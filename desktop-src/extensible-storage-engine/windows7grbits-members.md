@@ -15,7 +15,7 @@ Include inherited members
 
 Grbits that have been added to the Windows 7 version of ESENT.
 
-The [Windows7Grbits](dn335303\(v=exchg.10\).md) type exposes the following members.
+The [Windows7Grbits](./windows7grbits-class.md) type exposes the following members.
 
 ## Fields
 
@@ -103,7 +103,6 @@ Top
 
 #### Reference
 
-[Windows7Grbits class](dn335303\(v=exchg.10\).md)
+[Windows7Grbits class](./windows7grbits-class.md)
 
-[Microsoft.Isam.Esent.Interop.Windows7 namespace](hh577573\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows7 namespace](./microsoft.isam.esent.interop.windows7-namespace.md)

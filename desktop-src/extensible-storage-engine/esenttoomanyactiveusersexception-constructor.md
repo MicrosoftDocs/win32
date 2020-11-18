@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentTooManyActiveUsersException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentTooManyActiveUsersException()
 
 #### Reference
 
-[EsentTooManyActiveUsersException class](dn334984\(v=exchg.10\).md)
+[EsentTooManyActiveUsersException class](./esenttoomanyactiveusersexception-class.md)
 
-[EsentTooManyActiveUsersException members](dn335008\(v=exchg.10\).md)
+[EsentTooManyActiveUsersException members](./esenttoomanyactiveusersexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

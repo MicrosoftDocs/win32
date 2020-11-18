@@ -39,11 +39,11 @@ The following attribute types could be exported by EAP methods.
 -   **eatQuarantineSoH**
 -   **eatMethodId**
 
-The following attribute type is exported by EAP [Transport Level Security (TLS)](https://go.microsoft.com/fwlink/p/?linkid=83935) (EAP-TLS) methods.
+The following attribute type is exported by EAP [Transport Level Security (TLS)](/previous-versions/windows/embedded/ms885336(v=msdn.10)) (EAP-TLS) methods.
 
 -   **eatCertificateOID**
 
-The following attribute types are exported by [Microsoft Challenge Handshake Authentication Protocol version 2.0](https://go.microsoft.com/fwlink/p/?linkid=83939) (MS-CHAPv2) methods.
+The following attribute types are exported by [Microsoft Challenge Handshake Authentication Protocol version 2.0](/previous-versions/windows/embedded/ms899190(v=msdn.10)) (MS-CHAPv2) methods.
 
 -   **eatUserName**
 -   **eatCredentialsChanged**
@@ -52,7 +52,7 @@ The following attribute type is consumed by Network Policy Server (NPS).
 
 -   **eatCertificateOID**
 
-The following attribute types are exported by [Protected Extensible Authentication Protocol (PEAP)](https://go.microsoft.com/fwlink/p/?linkid=83939) methods.
+The following attribute types are exported by [Protected Extensible Authentication Protocol (PEAP)](/previous-versions/windows/embedded/ms899190(v=msdn.10)) methods.
 
 -   **eatUserName**
 -   **eatPEAPEmbeddedEAPTypeId**
@@ -72,7 +72,3 @@ The following attribute types are exported by [Protected Extensible Authenticati
  
 
  
-
-
-
-

@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_THREADSTATS](hh578565\(v=exchg.10\).md) type exposes the following members.
+The [JET_THREADSTATS](./jet-threadstats-structure2.md) type exposes the following members.
 
 ## Operators
 
@@ -56,7 +56,6 @@ Top
 
 #### Reference
 
-[JET_THREADSTATS structure](hh578565\(v=exchg.10\).md)
+[JET_THREADSTATS structure](./jet-threadstats-structure2.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

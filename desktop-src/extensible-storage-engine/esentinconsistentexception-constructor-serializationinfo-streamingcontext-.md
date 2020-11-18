@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInconsistentException class. This constructor is used to deserialize a serialized exception.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -69,10 +69,10 @@ protected EsentInconsistentException(
 
 #### Reference
 
-[EsentInconsistentException class](dn350488\(v=exchg.10\).md)
+[EsentInconsistentException class](./esentinconsistentexception-class.md)
 
-[EsentInconsistentException members](dn350428\(v=exchg.10\).md)
+[EsentInconsistentException members](./esentinconsistentexception-members.md)
 
-[EsentInconsistentException overload](dn350489\(v=exchg.10\).md)
+[EsentInconsistentException overload](./esentinconsistentexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVOwnerMapCorruptedException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +49,8 @@ public EsentSLVOwnerMapCorruptedException()
 
 #### Reference
 
-[EsentSLVOwnerMapCorruptedException class](dn350716\(v=exchg.10\).md)
+[EsentSLVOwnerMapCorruptedException class](./esentslvownermapcorruptedexception-class.md)
 
-[EsentSLVOwnerMapCorruptedException members](dn334810\(v=exchg.10\).md)
+[EsentSLVOwnerMapCorruptedException members](./esentslvownermapcorruptedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

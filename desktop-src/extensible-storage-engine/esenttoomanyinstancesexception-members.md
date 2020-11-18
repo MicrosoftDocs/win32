@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.TooManyInstances exceptions.
 
-The [EsentTooManyInstancesException](dn335021\(v=exchg.10\).md) type exposes the following members.
+The [EsentTooManyInstancesException](./esenttoomanyinstancesexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentTooManyInstancesException class](dn335021\(v=exchg.10\).md)
+[EsentTooManyInstancesException class](./esenttoomanyinstancesexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

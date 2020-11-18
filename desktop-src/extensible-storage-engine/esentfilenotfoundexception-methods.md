@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentFileNotFoundException](dn274377\(v=exchg.10\).md) type exposes the following members.
+The [EsentFileNotFoundException](./esentfilenotfoundexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentFileNotFoundException class](dn274377\(v=exchg.10\).md)
+[EsentFileNotFoundException class](./esentfilenotfoundexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

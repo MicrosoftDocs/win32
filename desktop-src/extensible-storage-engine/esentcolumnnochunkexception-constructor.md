@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentColumnNoChunkException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentColumnNoChunkException()
 
 #### Reference
 
-[EsentColumnNoChunkException class](dn274190\(v=exchg.10\).md)
+[EsentColumnNoChunkException class](./esentcolumnnochunkexception-class.md)
 
-[EsentColumnNoChunkException members](dn274193\(v=exchg.10\).md)
+[EsentColumnNoChunkException members](./esentcolumnnochunkexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

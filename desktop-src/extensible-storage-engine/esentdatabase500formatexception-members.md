@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.Database500Format exceptions.
 
-The [EsentDatabase500FormatException](dn334350\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabase500FormatException](./esentdatabase500formatexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentDatabase500FormatException class](dn334350\(v=exchg.10\).md)
+[EsentDatabase500FormatException class](./esentdatabase500formatexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

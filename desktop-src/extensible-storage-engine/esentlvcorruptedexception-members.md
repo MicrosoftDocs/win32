@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.LVCorrupted exceptions.
 
-The [EsentLVCorruptedException](dn334680\(v=exchg.10\).md) type exposes the following members.
+The [EsentLVCorruptedException](./esentlvcorruptedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentLVCorruptedException class](dn334680\(v=exchg.10\).md)
+[EsentLVCorruptedException class](./esentlvcorruptedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

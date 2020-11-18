@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 Generate a string representation of the structure.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -54,10 +54,10 @@ The structure as a string.
 
 #### Reference
 
-[JET_INSTANCE structure](hh564593\(v=exchg.10\).md)
+[JET_INSTANCE structure](./jet-instance-structure.md)
 
-[JET_INSTANCE members](hh565454\(v=exchg.10\).md)
+[JET_INSTANCE members](./jet-instance-members.md)
 
-[ToString overload](hh596743\(v=exchg.10\).md)
+[ToString overload](./jet-instance.tostring-method2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

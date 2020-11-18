@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentMustDisableLoggingForDbUpgradeException](dn319640\(v=exchg.10\).md) type exposes the following members.
+The [EsentMustDisableLoggingForDbUpgradeException](./esentmustdisableloggingfordbupgradeexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentMustDisableLoggingForDbUpgradeException class](dn319640\(v=exchg.10\).md)
+[EsentMustDisableLoggingForDbUpgradeException class](./esentmustdisableloggingfordbupgradeexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

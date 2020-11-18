@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.IndexTuplesTooManyColumns exceptions.
 
-The [EsentIndexTuplesTooManyColumnsException](dn319427\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexTuplesTooManyColumnsException](./esentindextuplestoomanycolumnsexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentIndexTuplesTooManyColumnsException class](dn319427\(v=exchg.10\).md)
+[EsentIndexTuplesTooManyColumnsException class](./esentindextuplestoomanycolumnsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

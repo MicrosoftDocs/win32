@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabase200FormatException](dn334342\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabase200FormatException](./esentdatabase200formatexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentDatabase200FormatException class](dn334342\(v=exchg.10\).md)
+[EsentDatabase200FormatException class](./esentdatabase200formatexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

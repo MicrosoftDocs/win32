@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.InvalidGrbit exceptions.
 
-The [EsentInvalidGrbitException](dn319518\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidGrbitException](./esentinvalidgrbitexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentInvalidGrbitException class](dn319518\(v=exchg.10\).md)
+[EsentInvalidGrbitException class](./esentinvalidgrbitexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

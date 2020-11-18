@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentOutOfAutoincrementValuesException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentOutOfAutoincrementValuesException()
 
 #### Reference
 
-[EsentOutOfAutoincrementValuesException class](dn319752\(v=exchg.10\).md)
+[EsentOutOfAutoincrementValuesException class](./esentoutofautoincrementvaluesexception-class.md)
 
-[EsentOutOfAutoincrementValuesException members](dn319754\(v=exchg.10\).md)
+[EsentOutOfAutoincrementValuesException members](./esentoutofautoincrementvaluesexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

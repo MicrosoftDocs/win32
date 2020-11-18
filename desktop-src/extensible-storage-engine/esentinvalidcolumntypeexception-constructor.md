@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidColumnTypeException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentInvalidColumnTypeException()
 
 #### Reference
 
-[EsentInvalidColumnTypeException class](dn319454\(v=exchg.10\).md)
+[EsentInvalidColumnTypeException class](./esentinvalidcolumntypeexception-class.md)
 
-[EsentInvalidColumnTypeException members](dn319496\(v=exchg.10\).md)
+[EsentInvalidColumnTypeException members](./esentinvalidcolumntypeexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

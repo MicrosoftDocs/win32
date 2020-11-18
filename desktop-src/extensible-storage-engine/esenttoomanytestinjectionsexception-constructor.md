@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentTooManyTestInjectionsException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentTooManyTestInjectionsException()
 
 #### Reference
 
-[EsentTooManyTestInjectionsException class](dn350799\(v=exchg.10\).md)
+[EsentTooManyTestInjectionsException class](./esenttoomanytestinjectionsexception-class.md)
 
-[EsentTooManyTestInjectionsException members](dn350803\(v=exchg.10\).md)
+[EsentTooManyTestInjectionsException members](./esenttoomanytestinjectionsexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

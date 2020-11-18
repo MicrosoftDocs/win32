@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentSessionWriteConflictException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentSessionWriteConflictException()
 
 #### Reference
 
-[EsentSessionWriteConflictException class](dn350646\(v=exchg.10\).md)
+[EsentSessionWriteConflictException class](./esentsessionwriteconflictexception-class.md)
 
-[EsentSessionWriteConflictException members](dn350647\(v=exchg.10\).md)
+[EsentSessionWriteConflictException members](./esentsessionwriteconflictexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

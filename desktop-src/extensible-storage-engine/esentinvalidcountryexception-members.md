@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.InvalidCountry exceptions.
 
-The [EsentInvalidCountryException](dn319498\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidCountryException](./esentinvalidcountryexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentInvalidCountryException class](dn319498\(v=exchg.10\).md)
+[EsentInvalidCountryException class](./esentinvalidcountryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

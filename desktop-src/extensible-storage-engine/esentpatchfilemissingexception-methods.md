@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentPatchFileMissingException](dn319782\(v=exchg.10\).md) type exposes the following members.
+The [EsentPatchFileMissingException](./esentpatchfilemissingexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentPatchFileMissingException class](dn319782\(v=exchg.10\).md)
+[EsentPatchFileMissingException class](./esentpatchfilemissingexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

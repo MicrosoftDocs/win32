@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentVersionStoreOutOfMemoryAndCleanupTimedOutException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentVersionStoreOutOfMemoryAndCleanupTimedOutException()
 
 #### Reference
 
-[EsentVersionStoreOutOfMemoryAndCleanupTimedOutException class](dn350869\(v=exchg.10\).md)
+[EsentVersionStoreOutOfMemoryAndCleanupTimedOutException class](./esentversionstoreoutofmemoryandcleanuptimedoutexception-class.md)
 
-[EsentVersionStoreOutOfMemoryAndCleanupTimedOutException members](dn350865\(v=exchg.10\).md)
+[EsentVersionStoreOutOfMemoryAndCleanupTimedOutException members](./esentversionstoreoutofmemoryandcleanuptimedoutexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.TableNotEmpty exceptions.
 
-The [EsentTableNotEmptyException](dn334941\(v=exchg.10\).md) type exposes the following members.
+The [EsentTableNotEmptyException](./esenttablenotemptyexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentTableNotEmptyException class](dn334941\(v=exchg.10\).md)
+[EsentTableNotEmptyException class](./esenttablenotemptyexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

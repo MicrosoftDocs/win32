@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_LS](hh557499\(v=exchg.10\).md) type exposes the following members.
+The [JET_LS](./jet-ls-structure.md) type exposes the following members.
 
 ## Operators
 
@@ -46,7 +46,6 @@ Top
 
 #### Reference
 
-[JET_LS structure](hh557499\(v=exchg.10\).md)
+[JET_LS structure](./jet-ls-structure.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

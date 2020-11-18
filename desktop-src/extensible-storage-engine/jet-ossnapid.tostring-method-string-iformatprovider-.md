@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 Formats the value of the current instance using the specified format.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -81,10 +81,10 @@ A [String](/dotnet/api/system.string) containing the value of the current instan
 
 #### Reference
 
-[JET_OSSNAPID structure](hh558483\(v=exchg.10\).md)
+[JET_OSSNAPID structure](./jet-ossnapid-structure.md)
 
-[JET_OSSNAPID members](hh596352\(v=exchg.10\).md)
+[JET_OSSNAPID members](./jet-ossnapid-members.md)
 
-[ToString overload](hh564473\(v=exchg.10\).md)
+[ToString overload](./jet-ossnapid.tostring-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

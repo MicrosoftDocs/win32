@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentLVCorruptedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentLVCorruptedException()
 
 #### Reference
 
-[EsentLVCorruptedException class](dn334680\(v=exchg.10\).md)
+[EsentLVCorruptedException class](./esentlvcorruptedexception-class.md)
 
-[EsentLVCorruptedException members](dn334631\(v=exchg.10\).md)
+[EsentLVCorruptedException members](./esentlvcorruptedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVColumnDefaultValueNotAllowedException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +49,8 @@ public EsentSLVColumnDefaultValueNotAllowedException()
 
 #### Reference
 
-[EsentSLVColumnDefaultValueNotAllowedException class](dn350661\(v=exchg.10\).md)
+[EsentSLVColumnDefaultValueNotAllowedException class](./esentslvcolumndefaultvaluenotallowedexception-class.md)
 
-[EsentSLVColumnDefaultValueNotAllowedException members](dn350670\(v=exchg.10\).md)
+[EsentSLVColumnDefaultValueNotAllowedException members](./esentslvcolumndefaultvaluenotallowedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

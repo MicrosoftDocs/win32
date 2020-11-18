@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentLogBufferTooSmallException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentLogBufferTooSmallException()
 
 #### Reference
 
-[EsentLogBufferTooSmallException class](dn334573\(v=exchg.10\).md)
+[EsentLogBufferTooSmallException class](./esentlogbuffertoosmallexception-class.md)
 
-[EsentLogBufferTooSmallException members](dn319630\(v=exchg.10\).md)
+[EsentLogBufferTooSmallException members](./esentlogbuffertoosmallexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

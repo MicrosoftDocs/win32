@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentIndexTuplesSecondaryIndexOnlyException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentIndexTuplesSecondaryIndexOnlyException()
 
 #### Reference
 
-[EsentIndexTuplesSecondaryIndexOnlyException class](dn350485\(v=exchg.10\).md)
+[EsentIndexTuplesSecondaryIndexOnlyException class](./esentindextuplessecondaryindexonlyexception-class.md)
 
-[EsentIndexTuplesSecondaryIndexOnlyException members](dn319426\(v=exchg.10\).md)
+[EsentIndexTuplesSecondaryIndexOnlyException members](./esentindextuplessecondaryindexonlyexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

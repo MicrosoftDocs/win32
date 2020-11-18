@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDatabaseDuplicateException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentDatabaseDuplicateException()
 
 #### Reference
 
-[EsentDatabaseDuplicateException class](dn334296\(v=exchg.10\).md)
+[EsentDatabaseDuplicateException class](./esentdatabaseduplicateexception-class.md)
 
-[EsentDatabaseDuplicateException members](dn334399\(v=exchg.10\).md)
+[EsentDatabaseDuplicateException members](./esentdatabaseduplicateexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.IndexDuplicate exceptions.
 
-The [EsentIndexDuplicateException](dn350438\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexDuplicateException](./esentindexduplicateexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentIndexDuplicateException class](dn350438\(v=exchg.10\).md)
+[EsentIndexDuplicateException class](./esentindexduplicateexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

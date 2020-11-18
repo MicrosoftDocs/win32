@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 **NOTE: This API is now obsolete.**
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -53,9 +53,8 @@ protected JET_CONVERT()
 
 #### Reference
 
-[JET_CONVERT class](dn335061\(v=exchg.10\).md)
+[JET_CONVERT class](./jet-convert-class.md)
 
-[JET_CONVERT members](dn335114\(v=exchg.10\).md)
+[JET_CONVERT members](./jet-convert-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

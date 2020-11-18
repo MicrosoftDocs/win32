@@ -478,7 +478,7 @@ Associate the specified [**QOS**](/windows/win32/api/winsock2/ns-winsock2-qos) s
 
 Controls the initial (SYN / SYN+ACK) retransmission characteristics of a TCP socket by configuring initial retransmission timeout (RTO) parameters. The configuration parameters are specified in a [**TCP\_INITIAL\_RTO\_PARAMETERS**](/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers) structure.
 
-For more detailed information, see the [**SIO_TCP_INITIAL_RTO**](/windows/win32/winsock/sio-tcp-initial-rto) reference. [**SIO_TCP_INITIAL_RTO**](/windows/win32/winsock/sio-tcp-initial-rto) is supported on Windows 8, Windows Server 2012, and later.
+For more detailed information, see the [**SIO_TCP_INITIAL_RTO**](./sio-tcp-initial-rto.md) reference. [**SIO_TCP_INITIAL_RTO**](./sio-tcp-initial-rto.md) is supported on Windows 8, Windows Server 2012, and later.
 
 ### SIO\_TRANSLATE\_HANDLE (opcode setting: I, O, T==1)
 

@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentExistingLogFileIsNotContiguousException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentExistingLogFileIsNotContiguousException()
 
 #### Reference
 
-[EsentExistingLogFileIsNotContiguousException class](dn274260\(v=exchg.10\).md)
+[EsentExistingLogFileIsNotContiguousException class](./esentexistinglogfileisnotcontiguousexception-class.md)
 
-[EsentExistingLogFileIsNotContiguousException members](dn274320\(v=exchg.10\).md)
+[EsentExistingLogFileIsNotContiguousException members](./esentexistinglogfileisnotcontiguousexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

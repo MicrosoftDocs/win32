@@ -24,7 +24,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_RECSIZE Structure
 
-The **JET_RECSIZE** structure is used by [JetGetRecordSize](gg294045\(v=exchg.10\).md) to return information about a record's usage requirements in user data space, number of set columns, number of values, and ESE record structure overhead space.
+The **JET_RECSIZE** structure is used by [JetGetRecordSize](./jetgetrecordsize-function.md) to return information about a record's usage requirements in user data space, number of set columns, number of values, and ESE record structure overhead space.
 
 **Windows Vista:** The **JET_RECSIZE** structure is introduced in Windows Vista.
 
@@ -113,5 +113,4 @@ The total number of values in the record would be **cMultiValues** + **cNonTagge
 
 ### See Also
 
-[JetGetRecordSize](gg294045\(v=exchg.10\).md)
-
+[JetGetRecordSize](./jetgetrecordsize-function.md)
