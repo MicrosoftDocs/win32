@@ -40,7 +40,7 @@ DWORD InitFilterConditions(
       port = INETADDR_PORT(localAddr);
       if (port != 0)
       {
-         if (numConds &= numCondsIn)
+         if (numConds >= numCondsIn)
          {
             result = ERROR_INSUFFICIENT_BUFFER;
             goto CLEANUP;
@@ -88,7 +88,7 @@ DWORD InitFilterConditions(
 
    if (ipProtocol != 0)
    {
-      if (numConds &= numCondsIn)
+      if (numConds >= numCondsIn)
       {
          result = ERROR_INSUFFICIENT_BUFFER;
          goto CLEANUP;
@@ -103,7 +103,7 @@ DWORD InitFilterConditions(
 
    if (appPath != NULL)
    {
-      if (numConds &= numCondsIn)
+      if (numConds >= numCondsIn)
       {
          result = ERROR_INSUFFICIENT_BUFFER;
          goto CLEANUP;
