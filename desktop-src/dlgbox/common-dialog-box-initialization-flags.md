@@ -17,7 +17,7 @@ For example, you can set the **CF\_EFFECTS** value in the **Flags** member of th
 
 The initialization flag values are unique to each common dialog box and are described in detail by the **Flags** members of the following structures that correspond to them:
 
--   [**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora~r1)
+-   [**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora-r1)
 -   [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
 -   [**FINDREPLACE**](/windows/win32/api/commdlg/ns-commdlg-findreplacea)
 -   [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)

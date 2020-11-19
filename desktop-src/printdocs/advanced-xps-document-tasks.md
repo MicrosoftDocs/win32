@@ -25,7 +25,7 @@ The topics in this section demonstrate how to perform more advanced tasks with t
 [XPS OM Digital Signatures](using-the-xps-digital-signatures.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> </dl>
 
  

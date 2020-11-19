@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora~r1)
+-   [**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora-r1)
 -   [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
 -   [**DEVNAMES**](/windows/win32/api/commdlg/ns-commdlg-devnames)
 -   [**FINDREPLACE**](/windows/win32/api/commdlg/ns-commdlg-findreplacea)
