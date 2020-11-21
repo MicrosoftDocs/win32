@@ -56,7 +56,7 @@ LRESULT APIENTRY WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
             { 
                 case SIZE_MINIMIZED: 
  
-                    / Stop the timer if the window is minimized. 
+                    // Stop the timer if the window is minimized. 
  
                     KillTimer(hwnd, 1); 
                     idTimer = -1; 
