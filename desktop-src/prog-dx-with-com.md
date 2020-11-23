@@ -53,7 +53,7 @@ For convenience, the DirectX documentation normally refers to components and int
 
 So, the only unambiguous way to refer to a particular object or interface is by its GUID.
 
-Although a GUID is a structure, a GUID is often expressed in equivalent string form. The general format of the string form of a GUID is 32 hexadecimal digits, in the format 8-4-4-4-12. That is, {xxxxxxxx-xxxx-xxxx-xxxxxxxxxxxxxxxx}, where each x corresponds to a hexadecimal digit. For example, the string form of the IID for the **ID3D12Device** interface is {189819F1-1DB6-4B57-BE54-1821339B85F7}.
+Although a GUID is a structure, a GUID is often expressed in equivalent string form. The general format of the string form of a GUID is 32 hexadecimal digits, in the format 8-4-4-4-12. That is, {xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}, where each x corresponds to a hexadecimal digit. For example, the string form of the IID for the **ID3D12Device** interface is {189819F1-1DB6-4B57-BE54-1821339B85F7}.
 
 Because the actual GUID is somewhat clumsy to use and easy to mistype, an equivalent name is usually provided as well. In your code, you can use this name instead of the actual structure when you call functions, for example when you pass an argument for the `riid` parameter to [**D3D12CreateDevice**](/windows/desktop/api/d3d12/nf-d3d12-d3d12createdevice). The customary naming convention is to prepend either IID_ or CLSID_ to the descriptive name of the interface or object, respectively. For example, the name of the **ID3D12Device** interface's IID is IID_ID3D12Device.
 
