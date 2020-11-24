@@ -1,6 +1,6 @@
 ---
 title: IUniversalOrchestrator::HasMoratoriumPassed
-Description: Queries Universal Orchestrator to determine if post-OOBE period has been surpassed.
+description: Queries Universal Orchestrator to determine if post-OOBE period has been surpassed.
 ms.topic: method
 ms.date: 03/20/2020
 

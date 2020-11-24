@@ -1,11 +1,13 @@
 ---
 title: IUpdateOrchestratorUpdate::get_IsSecurity method
-ms.date: 03/20/2020
+description: Gets whether or not the update is a security update.
+ms.date: 12/01/2020
 ms.topic: method
 ---
 
 # IUpdateOrchestratorUpdate::get_IsSecurity method
-Is this update a security update.
+
+Gets whether or not the update is a security update.
 
 ## Syntax
 ```cpp

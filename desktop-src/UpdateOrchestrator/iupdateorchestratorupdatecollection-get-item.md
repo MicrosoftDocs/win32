@@ -1,10 +1,12 @@
 ---
 title: IUpdateOrchestratorUpdateCollection::get_Item method
-ms.date: 03/20/2020
+description: Gets the update with the given index.
+ms.date: 12/01/2020
 ms.topic: method
 ---
 
 # IUpdateOrchestratorUpdateCollection::get_Item method
+
 Gets the update with the given index.
 
 ## Syntax

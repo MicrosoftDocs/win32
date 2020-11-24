@@ -1,6 +1,7 @@
 ---
 title: IUpdateOrchestratorUpdateProvider::Deserialize method
-ms.date: 03/20/2020
+description: Deserializes the bytes into an update.
+ms.date: 12/01/2020
 ms.topic: method
 ---
 

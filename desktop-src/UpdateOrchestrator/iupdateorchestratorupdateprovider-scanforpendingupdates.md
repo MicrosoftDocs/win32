@@ -1,6 +1,7 @@
 ---
 title: IUpdateOrchestratorUpdateProvider::ScanForPendingUpdates method
-ms.date: 03/20/2020
+description: Scans for pending updates.
+ms.date: 12/01/2020
 ms.topic: method
 ---
 

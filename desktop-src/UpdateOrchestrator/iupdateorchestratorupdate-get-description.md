@@ -1,11 +1,13 @@
 ---
 title: IUpdateOrchestratorUpdate::get_Description method
-ms.date: 03/20/2020
+description: Gets the update description to display.
+ms.date: 12/01/2020
 ms.topic: method
 ---
 
 # IUpdateOrchestratorUpdate::get_Description method
-Get the update description to display.
+
+Gets the update description to display.
 
 ## Syntax
 ```cpp

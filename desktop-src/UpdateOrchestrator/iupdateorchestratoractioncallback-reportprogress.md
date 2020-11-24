@@ -1,10 +1,12 @@
 ---
 title: IUpdateOrchestratorActionCallback::ReportProgress method
-ms.date: 03/20/2020
+description: Called to report progress.
+ms.date: 12/01/2020
 ms.topic: method
 ---
 
 # IUpdateOrchestratorActionCallback::ReportProgress method
+
 Called to report progress.
 
 ## Syntax

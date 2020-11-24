@@ -1,10 +1,12 @@
 ---
 title: IUpdateOrchestratorAction::get_ActionKind method
-ms.date: 03/20/2020
+description: Returns the action kind.
+ms.date: 12/01/2020
 ms.topic: method
 ---
 
 # IUpdateOrchestratorAction::get_ActionKind method
+
 Returns the action kind.
 
 ## Syntax

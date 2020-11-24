@@ -1,6 +1,6 @@
 ---
 title: IUniversalOrchestrator::ScheduleWork
-Description: Calls Universal Orchestrator to schedule work
+description: Calls Universal Orchestrator to schedule work
 ms.topic: method
 ms.date: 03/20/2020
 ---

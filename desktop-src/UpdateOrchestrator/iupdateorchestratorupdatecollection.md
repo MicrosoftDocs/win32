@@ -1,6 +1,7 @@
 ---
 title: IUpdateOrchestratorUpdateCollection interface
-ms.date: 03/20/2020
+description: A collection of IUpdateOrchestratorUpdate updates returned by the provider when a Scan is done.
+ms.date: 12/01/2020
 ms.topic: interface
 ---
 

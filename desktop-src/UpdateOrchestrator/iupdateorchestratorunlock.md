@@ -1,6 +1,7 @@
 ---
 title: IUpdateOrchestratorUnlock interface
-ms.date: 03/20/2020
+description: Unlocks the instance for permission to access the IUpdateOrchestrator methods.
+ms.date: 12/01/2020
 ms.topic: interface
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: UPDATE_ORCHESTRATOR_ACTION_KIND Enumeration
-Description: Displays the status of an update in the Windows Update settings page.
+description: Displays the status of an update in the Windows Update settings page.
 ms.topic: enum
-ms.date: 03/20/2020
+ms.date: 12/01/2020
 ---
 
 # UPDATE_ORCHESTRATOR_ACTION_KIND enumeration

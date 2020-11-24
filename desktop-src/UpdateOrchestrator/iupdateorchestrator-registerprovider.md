@@ -1,10 +1,12 @@
 ---
 title: IUpdateOrchestrator::RegisterProvider method
-ms.date: 03/20/2020
+description: Registers the update provider with the given CLSID.
+ms.date: 12/01/2020
 ms.topic: method
 ---
 
 # IUpdateOrchestrator::RegisterProvider method
+
 Registers the update provider with the given CLSID.
 
 ## Syntax
@@ -14,6 +16,7 @@ HRESULT RegisterProvider(
     [in] LPCWSTR providerId);
 ```
 
+test 
 ## Parameters
 
 `classId`

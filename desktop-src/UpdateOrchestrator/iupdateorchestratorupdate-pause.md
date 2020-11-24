@@ -1,13 +1,13 @@
 ---
 title: IUpdateOrchestratorUpdate::Pause method
-ms.date: 03/20/2020
+description: Called to pause the current action.
+ms.date: 12/01/2020
 ms.topic: method
 ---
 
 # IUpdateOrchestratorUpdate::Pause method
+
 Called to pause the current action.
-
-
 
 ## Syntax
 ```cpp

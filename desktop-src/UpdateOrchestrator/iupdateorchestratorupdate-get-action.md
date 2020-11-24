@@ -1,11 +1,13 @@
 ---
 title: IUpdateOrchestratorUpdate::get_Action method
-ms.date: 03/20/2020
+description: Gets the action that needs to be performed.
+ms.date: 12/01/2020
 ms.topic: method
 ---
 
 # IUpdateOrchestratorUpdate::get_Action method
-Get the action that needs to be performed.
+
+Gets the action that needs to be performed.
 
 ## Syntax
 ```cpp

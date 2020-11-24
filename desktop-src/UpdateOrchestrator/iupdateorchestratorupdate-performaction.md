@@ -1,12 +1,13 @@
 ---
 title: IUpdateOrchestratorUpdate::PerformAction method
-ms.date: 03/20/2020
+description: Perform the given action.
+ms.date: 12/01/2020
 ms.topic: method
 ---
 
 # IUpdateOrchestratorUpdate::PerformAction method
-Perform the given action.
 
+Performs the given action.
 
 ## Syntax
 ```cpp

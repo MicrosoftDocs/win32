@@ -1,13 +1,13 @@
 ---
 title: IUpdateOrchestratorUpdateProvider interface
-ms.date: 03/20/2020
+description: This interface is implemented by the caller and is created using the CLSID provided to IUpdateOrchestrator::Register.
+ms.date: 12/01/2020
 ms.topic: interface
 ---
 
 # IUpdateOrchestratorUpdateProvider interface
 
-This interface is implemented by the caller and is created
-using the CLSID provided to IUpdateOrchestrator::Register. 
+This interface is implemented by the caller and is created using the CLSID provided to IUpdateOrchestrator::Register. 
 
 ## Methods
 

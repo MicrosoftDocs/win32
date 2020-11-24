@@ -1,10 +1,12 @@
 ---
 title: IUpdateOrchestrator::UnregisterProvider method
-ms.date: 03/20/2020
+description: Unregisters the given update provider. 
+ms.date: 12/01/2020
 ms.topic: method
 ---
 
 # IUpdateOrchestrator::UnregisterProvider method
+
 Unregisters the given update provider. 
 
 ## Syntax

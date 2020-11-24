@@ -1,11 +1,13 @@
 ---
 title: IUpdateOrchestratorUpdate::get_Deadline method
-ms.date: 03/20/2020
+description: Gets the deadline for an update.
+ms.date: 12/01/2020
 ms.topic: method
 ---
 
 # IUpdateOrchestratorUpdate::get_Deadline method
-What is the deadline for this update.
+
+Gets the deadline for an update.
 
 ## Syntax
 ```cpp

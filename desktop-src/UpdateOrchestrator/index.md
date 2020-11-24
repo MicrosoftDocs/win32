@@ -1,5 +1,6 @@
 ---
 title: Update Orchestrator API
+description: UpdateOrchestrator schedules your background software updates with user impact in mind. 
 ms.date: 12/01/2020
 ms.topic: overview
 ---
