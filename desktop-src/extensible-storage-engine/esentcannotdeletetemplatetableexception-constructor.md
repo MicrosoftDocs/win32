@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentCannotDeleteTemplateTableException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentCannotDeleteTemplateTableException()
 
 #### Reference
 
-[EsentCannotDeleteTemplateTableException class](dn274084\(v=exchg.10\).md)
+[EsentCannotDeleteTemplateTableException class](./esentcannotdeletetemplatetableexception-class.md)
 
-[EsentCannotDeleteTemplateTableException members](dn274086\(v=exchg.10\).md)
+[EsentCannotDeleteTemplateTableException members](./esentcannotdeletetemplatetableexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

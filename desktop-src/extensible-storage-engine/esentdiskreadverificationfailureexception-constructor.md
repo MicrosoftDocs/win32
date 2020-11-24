@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDiskReadVerificationFailureException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentDiskReadVerificationFailureException()
 
 #### Reference
 
-[EsentDiskReadVerificationFailureException class](dn274287\(v=exchg.10\).md)
+[EsentDiskReadVerificationFailureException class](./esentdiskreadverificationfailureexception-class.md)
 
-[EsentDiskReadVerificationFailureException members](dn334487\(v=exchg.10\).md)
+[EsentDiskReadVerificationFailureException members](./esentdiskreadverificationfailureexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.LogBufferTooSmall exceptions.
 
-The [EsentLogBufferTooSmallException](dn334573\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogBufferTooSmallException](./esentlogbuffertoosmallexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentLogBufferTooSmallException class](dn334573\(v=exchg.10\).md)
+[EsentLogBufferTooSmallException class](./esentlogbuffertoosmallexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

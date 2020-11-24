@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentTermInProgressException](dn334979\(v=exchg.10\).md) type exposes the following members.
+The [EsentTermInProgressException](./esentterminprogressexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentTermInProgressException class](dn334979\(v=exchg.10\).md)
+[EsentTermInProgressException class](./esentterminprogressexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

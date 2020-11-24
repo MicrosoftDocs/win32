@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentCallbackFailedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentCallbackFailedException()
 
 #### Reference
 
-[EsentCallbackFailedException class](dn274120\(v=exchg.10\).md)
+[EsentCallbackFailedException class](./esentcallbackfailedexception-class.md)
 
-[EsentCallbackFailedException members](dn274058\(v=exchg.10\).md)
+[EsentCallbackFailedException members](./esentcallbackfailedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

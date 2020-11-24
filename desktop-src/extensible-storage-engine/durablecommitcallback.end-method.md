@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Terminates the durable commit session.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,9 +52,8 @@ public void End()
 
 #### Reference
 
-[DurableCommitCallback class](dn335323\(v=exchg.10\).md)
+[DurableCommitCallback class](./durablecommitcallback-class.md)
 
-[DurableCommitCallback members](dn335441\(v=exchg.10\).md)
+[DurableCommitCallback members](./durablecommitcallback-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDistributedTransactionNotYetPreparedToCommitException](dn274293\(v=exchg.10\).md) type exposes the following members.
+The [EsentDistributedTransactionNotYetPreparedToCommitException](./esentdistributedtransactionnotyetpreparedtocommitexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentDistributedTransactionNotYetPreparedToCommitException class](dn274293\(v=exchg.10\).md)
+[EsentDistributedTransactionNotYetPreparedToCommitException class](./esentdistributedtransactionnotyetpreparedtocommitexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

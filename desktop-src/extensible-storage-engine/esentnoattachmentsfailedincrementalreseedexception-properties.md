@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentNoAttachmentsFailedIncrementalReseedException](dn334719\(v=exchg.10\).md) type exposes the following members.
+The [EsentNoAttachmentsFailedIncrementalReseedException](./esentnoattachmentsfailedincrementalreseedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentNoAttachmentsFailedIncrementalReseedException class](dn334719\(v=exchg.10\).md)
+[EsentNoAttachmentsFailedIncrementalReseedException class](./esentnoattachmentsfailedincrementalreseedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

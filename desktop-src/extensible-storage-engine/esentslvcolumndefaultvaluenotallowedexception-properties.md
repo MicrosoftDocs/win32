@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVColumnDefaultValueNotAllowedException](dn350661\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVColumnDefaultValueNotAllowedException](./esentslvcolumndefaultvaluenotallowedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentSLVColumnDefaultValueNotAllowedException class](dn350661\(v=exchg.10\).md)
+[EsentSLVColumnDefaultValueNotAllowedException class](./esentslvcolumndefaultvaluenotallowedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

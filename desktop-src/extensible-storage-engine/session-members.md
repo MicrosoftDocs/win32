@@ -15,7 +15,7 @@ Include inherited members
 
 A class that encapsulates a JET_SESID in a disposable object.
 
-The [Session](dn351164\(v=exchg.10\).md) type exposes the following members.
+The [Session](./session-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -174,6 +174,6 @@ Top
 
 #### Reference
 
-[Session class](dn351164\(v=exchg.10\).md)
+[Session class](./session-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

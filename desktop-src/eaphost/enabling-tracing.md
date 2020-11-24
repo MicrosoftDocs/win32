@@ -71,7 +71,7 @@ To disable RRAS tracing:
 1.  Open an elevated command prompt window.
 2.  Run the following command: **netsh** **ras** **set** **tr** **\*** **dis**
 
-For more information, see [Netsh Commands](https://go.microsoft.com/fwlink/p/?linkid=84004).
+For more information, see [Netsh Commands](/previous-versions/windows/it-pro/windows-server-2003/cc779693(v=ws.10)).
 
 ## Related topics
 

@@ -51,9 +51,8 @@ Top
 
 #### Reference
 
-[EsentResourceException class](dn350557\(v=exchg.10\).md)
+[EsentResourceException class](./esentresourceexception-class.md)
 
-[EsentResourceException members](dn350580\(v=exchg.10\).md)
+[EsentResourceException members](./esentresourceexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

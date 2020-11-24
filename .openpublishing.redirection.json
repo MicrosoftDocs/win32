@@ -42479,6 +42479,16 @@
       "source_path": "desktop-src/apiindex/umbrella-lib-onecoreuap-alpha.md",
       "redirect_url": "/windows/win32/apiindex/windows-umbrella-libraries",
       "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/search/indexing--querying-and-notifications--windows-search-.md",
+      "redirect_url": "/windows/win32/search/-search-3x-wds-overview",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/search/-search-new-for-win7.md",
+      "redirect_url": "/windows/win32/search/-search-3x-wds-overview",
+      "redirect_document_id": false
 }
   ]
 }

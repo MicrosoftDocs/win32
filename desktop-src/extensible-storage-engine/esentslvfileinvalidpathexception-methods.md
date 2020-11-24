@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVFileInvalidPathException](dn350694\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVFileInvalidPathException](./esentslvfileinvalidpathexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentSLVFileInvalidPathException class](dn350694\(v=exchg.10\).md)
+[EsentSLVFileInvalidPathException class](./esentslvfileinvalidpathexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

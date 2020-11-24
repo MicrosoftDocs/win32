@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentCannotDeleteTempTableException](dn274088\(v=exchg.10\).md) type exposes the following members.
+The [EsentCannotDeleteTempTableException](./esentcannotdeletetemptableexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentCannotDeleteTempTableException class](dn274088\(v=exchg.10\).md)
+[EsentCannotDeleteTempTableException class](./esentcannotdeletetemptableexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

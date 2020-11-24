@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDatabaseIncompleteIncrementalReseedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentDatabaseIncompleteIncrementalReseedException()
 
 #### Reference
 
-[EsentDatabaseIncompleteIncrementalReseedException class](dn334412\(v=exchg.10\).md)
+[EsentDatabaseIncompleteIncrementalReseedException class](./esentdatabaseincompleteincrementalreseedexception-class.md)
 
-[EsentDatabaseIncompleteIncrementalReseedException members](dn334319\(v=exchg.10\).md)
+[EsentDatabaseIncompleteIncrementalReseedException members](./esentdatabaseincompleteincrementalreseedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

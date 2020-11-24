@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVEAListZeroAllocationException](dn350689\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVEAListZeroAllocationException](./esentslvealistzeroallocationexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -160,6 +160,6 @@ Top
 
 #### Reference
 
-[EsentSLVEAListZeroAllocationException class](dn350689\(v=exchg.10\).md)
+[EsentSLVEAListZeroAllocationException class](./esentslvealistzeroallocationexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentIndexHasPrimaryException](dn350439\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexHasPrimaryException](./esentindexhasprimaryexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentIndexHasPrimaryException class](dn350439\(v=exchg.10\).md)
+[EsentIndexHasPrimaryException class](./esentindexhasprimaryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -30,7 +30,7 @@ For additional information, see the following subsections:
 -   [Related topics](#related-topics)
 
 
-To learn about configuring Windows 10 to support long file paths, see [Maximum Path Length Limitation](/windows/win32/fileio/maximum-file-path-limitation).
+To learn about configuring Windows 10 to support long file paths, see [Maximum Path Length Limitation](./maximum-file-path-limitation.md).
 
 
 ## File and Directory Names
@@ -129,7 +129,7 @@ Relative paths can combine both example types, for example "C:..\\tmp.txt". This
 ### Maximum Path Length Limitation
 
 
-In editions of Windows before Windows 10 version 1607, the maximum length for a path is **MAX\_PATH**, which is defined as 260 characters. In later versions of Windows, changing a registry key or using the Group Policy tool is required to remove the limit. See [Maximum Path Length Limitation](/windows/win32/fileio/maximum-file-path-limitation) for full details.
+In editions of Windows before Windows 10 version 1607, the maximum length for a path is **MAX\_PATH**, which is defined as 260 characters. In later versions of Windows, changing a registry key or using the Group Policy tool is required to remove the limit. See [Maximum Path Length Limitation](./maximum-file-path-limitation.md) for full details.
 
 
 ## Namespaces

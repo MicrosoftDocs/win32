@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentFixedDDLException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentFixedDDLException()
 
 #### Reference
 
-[EsentFixedDDLException class](dn350411\(v=exchg.10\).md)
+[EsentFixedDDLException class](./esentfixedddlexception-class.md)
 
-[EsentFixedDDLException members](dn350453\(v=exchg.10\).md)
+[EsentFixedDDLException members](./esentfixedddlexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

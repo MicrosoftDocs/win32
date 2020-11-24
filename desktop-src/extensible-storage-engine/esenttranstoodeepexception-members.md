@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.TransTooDeep exceptions.
 
-The [EsentTransTooDeepException](dn350808\(v=exchg.10\).md) type exposes the following members.
+The [EsentTransTooDeepException](./esenttranstoodeepexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentTransTooDeepException class](dn350808\(v=exchg.10\).md)
+[EsentTransTooDeepException class](./esenttranstoodeepexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

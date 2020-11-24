@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentBadItagSequenceException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentBadItagSequenceException()
 
 #### Reference
 
-[EsentBadItagSequenceException class](dn274018\(v=exchg.10\).md)
+[EsentBadItagSequenceException class](./esentbaditagsequenceexception-class.md)
 
-[EsentBadItagSequenceException members](dn274017\(v=exchg.10\).md)
+[EsentBadItagSequenceException members](./esentbaditagsequenceexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

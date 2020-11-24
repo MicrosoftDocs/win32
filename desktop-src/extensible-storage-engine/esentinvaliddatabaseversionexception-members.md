@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.InvalidDatabaseVersion exceptions.
 
-The [EsentInvalidDatabaseVersionException](dn319486\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidDatabaseVersionException](./esentinvaliddatabaseversionexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentInvalidDatabaseVersionException class](dn319486\(v=exchg.10\).md)
+[EsentInvalidDatabaseVersionException class](./esentinvaliddatabaseversionexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

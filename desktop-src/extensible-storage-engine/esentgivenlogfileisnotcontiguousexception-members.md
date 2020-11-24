@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.GivenLogFileIsNotContiguous exceptions.
 
-The [EsentGivenLogFileIsNotContiguousException](dn350479\(v=exchg.10\).md) type exposes the following members.
+The [EsentGivenLogFileIsNotContiguousException](./esentgivenlogfileisnotcontiguousexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentGivenLogFileIsNotContiguousException class](dn350479\(v=exchg.10\).md)
+[EsentGivenLogFileIsNotContiguousException class](./esentgivenlogfileisnotcontiguousexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

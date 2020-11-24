@@ -15,7 +15,7 @@ Include inherited members
 
 Interface for objects that can have their contents compared against each other. This should be used for equality comparisons on mutable reference objects where overriding Equals() and GetHashCode() isn't a good idea.
 
-The [IContentEquatable\<T\>](hh578046\(v=exchg.10\).md) type exposes the following members.
+The [IContentEquatable\<T\>](./icontentequatable-t-interface.md) type exposes the following members.
 
 ## Methods
 
@@ -43,7 +43,6 @@ Top
 
 #### Reference
 
-[IContentEquatable\<T\> interface](hh578046\(v=exchg.10\).md)
+[IContentEquatable\<T\> interface](./icontentequatable-t-interface.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

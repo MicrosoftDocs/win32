@@ -30,11 +30,11 @@ ROBOTS: INDEX,FOLLOW
 
 # RenameColumnGrbit enumeration
 
-Options for [JetRenameColumn(JET_SESID, JET_TABLEID, String, String, RenameColumnGrbit)](dn332990\(v=exchg.10\).md).
+Options for [JetRenameColumn(JET_SESID, JET_TABLEID, String, String, RenameColumnGrbit)](./api.jetrenamecolumn-method.md).
 
 This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -76,4 +76,4 @@ public enum RenameColumnGrbit
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

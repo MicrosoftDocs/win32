@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentKeyDuplicateException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentKeyDuplicateException()
 
 #### Reference
 
-[EsentKeyDuplicateException class](dn319603\(v=exchg.10\).md)
+[EsentKeyDuplicateException class](./esentkeyduplicateexception-class.md)
 
-[EsentKeyDuplicateException members](dn334547\(v=exchg.10\).md)
+[EsentKeyDuplicateException members](./esentkeyduplicateexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

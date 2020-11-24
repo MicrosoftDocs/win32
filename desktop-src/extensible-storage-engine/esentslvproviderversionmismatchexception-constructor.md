@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVProviderVersionMismatchException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +49,8 @@ public EsentSLVProviderVersionMismatchException()
 
 #### Reference
 
-[EsentSLVProviderVersionMismatchException class](dn350740\(v=exchg.10\).md)
+[EsentSLVProviderVersionMismatchException class](./esentslvproviderversionmismatchexception-class.md)
 
-[EsentSLVProviderVersionMismatchException members](dn334830\(v=exchg.10\).md)
+[EsentSLVProviderVersionMismatchException members](./esentslvproviderversionmismatchexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

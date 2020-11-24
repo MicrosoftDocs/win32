@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVFileNotFoundException](dn334780\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVFileNotFoundException](./esentslvfilenotfoundexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentSLVFileNotFoundException class](dn334780\(v=exchg.10\).md)
+[EsentSLVFileNotFoundException class](./esentslvfilenotfoundexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

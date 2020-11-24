@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentStartingRestoreLogTooHighException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentStartingRestoreLogTooHighException()
 
 #### Reference
 
-[EsentStartingRestoreLogTooHighException class](dn334858\(v=exchg.10\).md)
+[EsentStartingRestoreLogTooHighException class](./esentstartingrestorelogtoohighexception-class.md)
 
-[EsentStartingRestoreLogTooHighException members](dn334923\(v=exchg.10\).md)
+[EsentStartingRestoreLogTooHighException members](./esentstartingrestorelogtoohighexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

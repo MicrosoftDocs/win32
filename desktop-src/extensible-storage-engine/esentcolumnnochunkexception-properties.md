@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentColumnNoChunkException](dn274190\(v=exchg.10\).md) type exposes the following members.
+The [EsentColumnNoChunkException](./esentcolumnnochunkexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentColumnNoChunkException class](dn274190\(v=exchg.10\).md)
+[EsentColumnNoChunkException class](./esentcolumnnochunkexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

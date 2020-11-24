@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentColumnTooBigException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentColumnTooBigException()
 
 #### Reference
 
-[EsentColumnTooBigException class](dn334298\(v=exchg.10\).md)
+[EsentColumnTooBigException class](./esentcolumntoobigexception-class.md)
 
-[EsentColumnTooBigException members](dn274204\(v=exchg.10\).md)
+[EsentColumnTooBigException members](./esentcolumntoobigexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

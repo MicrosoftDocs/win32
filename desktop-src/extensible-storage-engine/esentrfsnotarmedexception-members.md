@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.RfsNotArmed exceptions.
 
-The [EsentRfsNotArmedException](dn350589\(v=exchg.10\).md) type exposes the following members.
+The [EsentRfsNotArmedException](./esentrfsnotarmedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentRfsNotArmedException class](dn350589\(v=exchg.10\).md)
+[EsentRfsNotArmedException class](./esentrfsnotarmedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

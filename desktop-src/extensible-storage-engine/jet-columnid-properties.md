@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_COLUMNID](hh564510\(v=exchg.10\).md) type exposes the following members.
+The [JET_COLUMNID](./jet-columnid-structure.md) type exposes the following members.
 
 ## Properties
 
@@ -41,7 +41,6 @@ Top
 
 #### Reference
 
-[JET_COLUMNID structure](hh564510\(v=exchg.10\).md)
+[JET_COLUMNID structure](./jet-columnid-structure.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

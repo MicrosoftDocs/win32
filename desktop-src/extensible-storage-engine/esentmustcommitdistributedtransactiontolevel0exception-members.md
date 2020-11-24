@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.MustCommitDistributedTransactionToLevel0 exceptions.
 
-The [EsentMustCommitDistributedTransactionToLevel0Exception](dn319638\(v=exchg.10\).md) type exposes the following members.
+The [EsentMustCommitDistributedTransactionToLevel0Exception](./esentmustcommitdistributedtransactiontolevel0exception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentMustCommitDistributedTransactionToLevel0Exception class](dn319638\(v=exchg.10\).md)
+[EsentMustCommitDistributedTransactionToLevel0Exception class](./esentmustcommitdistributedtransactiontolevel0exception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

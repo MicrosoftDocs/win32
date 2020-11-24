@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentOutOfMemoryException](dn319786\(v=exchg.10\).md) type exposes the following members.
+The [EsentOutOfMemoryException](./esentoutofmemoryexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentOutOfMemoryException class](dn319786\(v=exchg.10\).md)
+[EsentOutOfMemoryException class](./esentoutofmemoryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

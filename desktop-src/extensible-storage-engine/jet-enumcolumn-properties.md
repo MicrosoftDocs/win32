@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_ENUMCOLUMN](dn335081\(v=exchg.10\).md) type exposes the following members.
+The [JET_ENUMCOLUMN](./jet-enumcolumn-class.md) type exposes the following members.
 
 ## Properties
 
@@ -66,7 +66,6 @@ Top
 
 #### Reference
 
-[JET_ENUMCOLUMN class](dn335081\(v=exchg.10\).md)
+[JET_ENUMCOLUMN class](./jet-enumcolumn-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.OutOfDbtimeValues exceptions.
 
-The [EsentOutOfDbtimeValuesException](dn319775\(v=exchg.10\).md) type exposes the following members.
+The [EsentOutOfDbtimeValuesException](./esentoutofdbtimevaluesexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentOutOfDbtimeValuesException class](dn319775\(v=exchg.10\).md)
+[EsentOutOfDbtimeValuesException class](./esentoutofdbtimevaluesexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

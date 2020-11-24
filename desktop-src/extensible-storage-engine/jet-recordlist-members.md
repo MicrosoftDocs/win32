@@ -15,7 +15,7 @@ Include inherited members
 
 Information about a temporary table containing information about all indexes for a given table.
 
-The [JET_RECORDLIST](dn335223\(v=exchg.10\).md) type exposes the following members.
+The [JET_RECORDLIST](./jet-recordlist-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -122,6 +122,6 @@ Top
 
 #### Reference
 
-[JET_RECORDLIST class](dn335223\(v=exchg.10\).md)
+[JET_RECORDLIST class](./jet-recordlist-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

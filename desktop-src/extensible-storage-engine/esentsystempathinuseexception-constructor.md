@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentSystemPathInUseException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentSystemPathInUseException()
 
 #### Reference
 
-[EsentSystemPathInUseException class](dn334943\(v=exchg.10\).md)
+[EsentSystemPathInUseException class](./esentsystempathinuseexception-class.md)
 
-[EsentSystemPathInUseException members](dn334895\(v=exchg.10\).md)
+[EsentSystemPathInUseException members](./esentsystempathinuseexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

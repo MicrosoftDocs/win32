@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentCommittedLogFileCorruptException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentCommittedLogFileCorruptException()
 
 #### Reference
 
-[EsentCommittedLogFileCorruptException class](dn274206\(v=exchg.10\).md)
+[EsentCommittedLogFileCorruptException class](./esentcommittedlogfilecorruptexception-class.md)
 
-[EsentCommittedLogFileCorruptException members](dn334307\(v=exchg.10\).md)
+[EsentCommittedLogFileCorruptException members](./esentcommittedlogfilecorruptexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.SessionInUse exceptions.
 
-The [EsentSessionInUseException](dn350638\(v=exchg.10\).md) type exposes the following members.
+The [EsentSessionInUseException](./esentsessioninuseexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentSessionInUseException class](dn350638\(v=exchg.10\).md)
+[EsentSessionInUseException class](./esentsessioninuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

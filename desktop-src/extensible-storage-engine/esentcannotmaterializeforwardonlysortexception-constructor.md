@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentCannotMaterializeForwardOnlySortException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentCannotMaterializeForwardOnlySortException()
 
 #### Reference
 
-[EsentCannotMaterializeForwardOnlySortException class](dn274102\(v=exchg.10\).md)
+[EsentCannotMaterializeForwardOnlySortException class](./esentcannotmaterializeforwardonlysortexception-class.md)
 
-[EsentCannotMaterializeForwardOnlySortException members](dn274171\(v=exchg.10\).md)
+[EsentCannotMaterializeForwardOnlySortException members](./esentcannotmaterializeforwardonlysortexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

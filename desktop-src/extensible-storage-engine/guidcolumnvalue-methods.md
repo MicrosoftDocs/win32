@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [GuidColumnValue](dn350902\(v=exchg.10\).md) type exposes the following members.
+The [GuidColumnValue](./guidcolumnvalue-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[GuidColumnValue class](dn350902\(v=exchg.10\).md)
+[GuidColumnValue class](./guidcolumnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

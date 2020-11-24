@@ -15,7 +15,7 @@ Include inherited members
 
 System parameters that have been added to the Windows Server 2003 version of ESENT.
 
-The [Server2003Param](dn335279\(v=exchg.10\).md) type exposes the following members.
+The [Server2003Param](./server2003param-class.md) type exposes the following members.
 
 ## Fields
 
@@ -43,7 +43,6 @@ Top
 
 #### Reference
 
-[Server2003Param class](dn335279\(v=exchg.10\).md)
+[Server2003Param class](./server2003param-class.md)
 
-[Microsoft.Isam.Esent.Interop.Server2003 namespace](hh557147\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Server2003 namespace](./microsoft.isam.esent.interop.server2003-namespace.md)

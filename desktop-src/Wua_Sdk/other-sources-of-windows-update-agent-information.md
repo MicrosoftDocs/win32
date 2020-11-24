@@ -18,7 +18,7 @@ The following resources describe how to deploy and administer Windows Server Upd
 
     You can download the Windows Server Update Services SDK and review other documents that describe how to install, deploy, and maintain Windows Update Services.
 
--   [MSDN Download and Code Center](https://go.microsoft.com/fwlink/p/?linkid=84301)
+-   [MSDN Download and Code Center](/powerapps/developer/common-data-service/org-service/subscribe-sdk-assembly-updates-using-nuget)
 
     You can download updates to the WUA SDK samples, headers, and libraries. Downloads in the MSDN Download and Code Center are organized by topic. You can also find downloads on MSDN, the Microsoft Developer Network, by using the [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?linkid=83468) search tool.
 
@@ -61,6 +61,3 @@ You can search the Microsoft Knowledge Base for articles about WUA:
  
 
  
-
-
-

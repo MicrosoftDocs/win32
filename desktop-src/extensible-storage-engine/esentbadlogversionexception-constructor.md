@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentBadLogVersionException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentBadLogVersionException()
 
 #### Reference
 
-[EsentBadLogVersionException class](dn274023\(v=exchg.10\).md)
+[EsentBadLogVersionException class](./esentbadlogversionexception-class.md)
 
-[EsentBadLogVersionException members](dn274080\(v=exchg.10\).md)
+[EsentBadLogVersionException members](./esentbadlogversionexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVStreamingFileInUseException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +49,8 @@ public EsentSLVStreamingFileInUseException()
 
 #### Reference
 
-[EsentSLVStreamingFileInUseException class](dn334857\(v=exchg.10\).md)
+[EsentSLVStreamingFileInUseException class](./esentslvstreamingfileinuseexception-class.md)
 
-[EsentSLVStreamingFileInUseException members](dn334864\(v=exchg.10\).md)
+[EsentSLVStreamingFileInUseException members](./esentslvstreamingfileinuseexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

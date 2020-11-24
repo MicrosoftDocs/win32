@@ -90,7 +90,7 @@ This function is similar to [Sample](dx-graphics-hlsl-to-sample.md) except that 
 </tr>
 <tr class="odd">
 <td><p><span id="Offset"></span><span id="offset"></span><span id="OFFSET"></span><em>Offset</em></p></td>
-<td><p>[in] An optional texture coordinate offset, which can be used for any texture-object types. The offset is applied to the location before sampling. Use an offset only at an integer miplevel; otherwise, you may get results that do not translate well to hardware. The argument type is dependent on the texture-object type. For more info, see <a href="dx-graphics-hlsl-to-sample.md">Applying Integer Offsets</a>.</p>
+<td><p>[in] An optional texture coordinate offset, which can be used for any texture-object type; the offset is applied to the location before sampling. The texture offsets need to be static. The argument type is dependent on the texture-object type. For more info, see <a href="/windows/win32/direct3dhlsl/dx-graphics-hlsl-to-sample#applying-texture-coordinate-offsets">Applying texture coordinate offsets</a>.</p>
 
 <table>
 <thead>

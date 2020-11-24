@@ -32,7 +32,7 @@ The **JET_GRBIT** data type is a group of bits that contain constants that are s
 
 JET_GRBIT
 
-In general, the constants that are used as values for this data type reflect the name of the API element in which they are used. For example, all constants passed to [JetRetrieveColumn](gg269198\(v=exchg.10\).md) begin with "JET_bitRetrieve". Similarly, all constants passed to [JetSetColumn](gg294137\(v=exchg.10\).md) begin with "JET_bitSet".
+In general, the constants that are used as values for this data type reflect the name of the API element in which they are used. For example, all constants passed to [JetRetrieveColumn](./jetretrievecolumn-function.md) begin with "JET_bitRetrieve". Similarly, all constants passed to [JetSetColumn](./jetsetcolumn-function.md) begin with "JET_bitSet".
 
 A value of zero causes the parameter to be ignored.
 
@@ -66,6 +66,5 @@ For more information, see the specific function or structure. The options are us
 
 ### See Also
 
-[JetRetrieveColumn](gg269198\(v=exchg.10\).md)  
-[JetSetColumn](gg294137\(v=exchg.10\).md)
-
+[JetRetrieveColumn](./jetretrievecolumn-function.md)  
+[JetSetColumn](./jetsetcolumn-function.md)

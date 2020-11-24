@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.DbTimeTooOld exceptions.
 
-The [EsentDbTimeTooOldException](dn274245\(v=exchg.10\).md) type exposes the following members.
+The [EsentDbTimeTooOldException](./esentdbtimetoooldexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentDbTimeTooOldException class](dn274245\(v=exchg.10\).md)
+[EsentDbTimeTooOldException class](./esentdbtimetoooldexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

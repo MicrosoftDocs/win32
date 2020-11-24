@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDbTimeTooNewException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentDbTimeTooNewException()
 
 #### Reference
 
-[EsentDbTimeTooNewException class](dn334407\(v=exchg.10\).md)
+[EsentDbTimeTooNewException class](./esentdbtimetoonewexception-class.md)
 
-[EsentDbTimeTooNewException members](dn274244\(v=exchg.10\).md)
+[EsentDbTimeTooNewException members](./esentdbtimetoonewexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

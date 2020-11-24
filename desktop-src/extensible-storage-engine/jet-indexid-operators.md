@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_INDEXID](hh557060\(v=exchg.10\).md) type exposes the following members.
+The [JET_INDEXID](./jet-indexid-structure2.md) type exposes the following members.
 
 ## Operators
 
@@ -46,7 +46,6 @@ Top
 
 #### Reference
 
-[JET_INDEXID structure](hh557060\(v=exchg.10\).md)
+[JET_INDEXID structure](./jet-indexid-structure2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

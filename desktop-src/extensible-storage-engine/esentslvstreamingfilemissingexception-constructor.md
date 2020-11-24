@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVStreamingFileMissingException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +49,8 @@ public EsentSLVStreamingFileMissingException()
 
 #### Reference
 
-[EsentSLVStreamingFileMissingException class](dn334870\(v=exchg.10\).md)
+[EsentSLVStreamingFileMissingException class](./esentslvstreamingfilemissingexception-class.md)
 
-[EsentSLVStreamingFileMissingException members](dn334767\(v=exchg.10\).md)
+[EsentSLVStreamingFileMissingException members](./esentslvstreamingfilemissingexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

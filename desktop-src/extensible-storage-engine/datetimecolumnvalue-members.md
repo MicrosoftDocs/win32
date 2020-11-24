@@ -15,7 +15,7 @@ Include inherited members
 
 A [Guid](/dotnet/api/system.guid) column value.
 
-The [DateTimeColumnValue](dn334238\(v=exchg.10\).md) type exposes the following members.
+The [DateTimeColumnValue](./datetimecolumnvalue-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[DateTimeColumnValue class](dn334238\(v=exchg.10\).md)
+[DateTimeColumnValue class](./datetimecolumnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentStartingRestoreLogTooHighException](dn334858\(v=exchg.10\).md) type exposes the following members.
+The [EsentStartingRestoreLogTooHighException](./esentstartingrestorelogtoohighexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentStartingRestoreLogTooHighException class](dn334858\(v=exchg.10\).md)
+[EsentStartingRestoreLogTooHighException class](./esentstartingrestorelogtoohighexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentOutOfSequentialIndexValuesException](dn319807\(v=exchg.10\).md) type exposes the following members.
+The [EsentOutOfSequentialIndexValuesException](./esentoutofsequentialindexvaluesexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentOutOfSequentialIndexValuesException class](dn319807\(v=exchg.10\).md)
+[EsentOutOfSequentialIndexValuesException class](./esentoutofsequentialindexvaluesexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

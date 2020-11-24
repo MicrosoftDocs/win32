@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.SystemPathInUse exceptions.
 
-The [EsentSystemPathInUseException](dn334943\(v=exchg.10\).md) type exposes the following members.
+The [EsentSystemPathInUseException](./esentsystempathinuseexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentSystemPathInUseException class](dn334943\(v=exchg.10\).md)
+[EsentSystemPathInUseException class](./esentsystempathinuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentRollbackErrorException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentRollbackErrorException()
 
 #### Reference
 
-[EsentRollbackErrorException class](dn350592\(v=exchg.10\).md)
+[EsentRollbackErrorException class](./esentrollbackerrorexception-class.md)
 
-[EsentRollbackErrorException members](dn350570\(v=exchg.10\).md)
+[EsentRollbackErrorException members](./esentrollbackerrorexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

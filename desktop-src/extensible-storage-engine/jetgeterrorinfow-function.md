@@ -83,7 +83,7 @@ Reserved.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg269297\(v=exchg.10\).md) data type with one of the return codes listed in the following table. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./extensible-storage-engine-error-codes.md) data type with one of the return codes listed in the following table. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -125,7 +125,7 @@ On failure, the state of the output buffers will be undefined.
 
 ### Remarks
 
-The [JET_ERRINFOBASIC_W](hh475861\(v=exchg.10\).md) function and [JET_ERRCAT](hh475860\(v=exchg.10\).md) group of constants contain documentation about the extended error information that is returned for *InfoLevel* = JET_ErrorInfoSpecificErr.
+The [JET_ERRINFOBASIC_W](./jet-errinfobasic-w-structure.md) function and [JET_ERRCAT](./jet-errcat.md) group of constants contain documentation about the extended error information that is returned for *InfoLevel* = JET_ErrorInfoSpecificErr.
 
 ### Requirements
 
@@ -161,4 +161,3 @@ The [JET_ERRINFOBASIC_W](hh475861\(v=exchg.10\).md) function and [JET_ERRCAT](hh
 </tr>
 </tbody>
 </table>
-

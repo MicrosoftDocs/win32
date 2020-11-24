@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentRecordNotFoundException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentRecordNotFoundException()
 
 #### Reference
 
-[EsentRecordNotFoundException class](dn319846\(v=exchg.10\).md)
+[EsentRecordNotFoundException class](./esentrecordnotfoundexception-class.md)
 
-[EsentRecordNotFoundException members](dn350523\(v=exchg.10\).md)
+[EsentRecordNotFoundException members](./esentrecordnotfoundexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

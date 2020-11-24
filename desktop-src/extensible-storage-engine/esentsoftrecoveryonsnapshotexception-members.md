@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.SoftRecoveryOnSnapshot exceptions.
 
-The [EsentSoftRecoveryOnSnapshotException](dn334794\(v=exchg.10\).md) type exposes the following members.
+The [EsentSoftRecoveryOnSnapshotException](./esentsoftrecoveryonsnapshotexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentSoftRecoveryOnSnapshotException class](dn334794\(v=exchg.10\).md)
+[EsentSoftRecoveryOnSnapshotException class](./esentsoftrecoveryonsnapshotexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

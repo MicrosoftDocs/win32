@@ -28,9 +28,9 @@ ROBOTS: INDEX,FOLLOW
 
 # IndexInfo.ToString method
 
-Returns a [String](/dotnet/api/system.string) that represents the current [IndexInfo](dn350919\(v=exchg.10\).md).
+Returns a [String](/dotnet/api/system.string) that represents the current [IndexInfo](./indexinfo-class.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,14 +52,14 @@ public override string ToString()
 #### Return value
 
 Type: [System.String](/dotnet/api/system.string)  
-A [String](/dotnet/api/system.string) that represents the current [IndexInfo](dn350919\(v=exchg.10\).md).  
+A [String](/dotnet/api/system.string) that represents the current [IndexInfo](./indexinfo-class.md).  
 
 ## See also
 
 #### Reference
 
-[IndexInfo class](dn350919\(v=exchg.10\).md)
+[IndexInfo class](./indexinfo-class.md)
 
-[IndexInfo members](dn350916\(v=exchg.10\).md)
+[IndexInfo members](./indexinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

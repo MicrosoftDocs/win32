@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentException class.
 
-**Namespace:**  [Microsoft.Isam.Esent](dn292085\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent](./microsoft.isam.esent-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -47,11 +47,10 @@ protected EsentException()
 
 #### Reference
 
-[EsentException class](dn292088\(v=exchg.10\).md)
+[EsentException class](./esentexception-class.md)
 
-[EsentException members](dn292086\(v=exchg.10\).md)
+[EsentException members](./esentexception-members.md)
 
-[EsentException overload](dn292116\(v=exchg.10\).md)
+[EsentException overload](./esentexception-constructor.md)
 
-[Microsoft.Isam.Esent namespace](dn292085\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent namespace](./microsoft.isam.esent-namespace.md)

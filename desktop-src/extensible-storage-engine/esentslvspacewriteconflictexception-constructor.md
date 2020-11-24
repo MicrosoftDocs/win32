@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVSpaceWriteConflictException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +49,8 @@ public EsentSLVSpaceWriteConflictException()
 
 #### Reference
 
-[EsentSLVSpaceWriteConflictException class](dn350752\(v=exchg.10\).md)
+[EsentSLVSpaceWriteConflictException class](./esentslvspacewriteconflictexception-class.md)
 
-[EsentSLVSpaceWriteConflictException members](dn350756\(v=exchg.10\).md)
+[EsentSLVSpaceWriteConflictException members](./esentslvspacewriteconflictexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

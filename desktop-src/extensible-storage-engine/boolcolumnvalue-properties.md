@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [BoolColumnValue](dn334148\(v=exchg.10\).md) type exposes the following members.
+The [BoolColumnValue](./boolcolumnvalue-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,7 +81,6 @@ Top
 
 #### Reference
 
-[BoolColumnValue class](dn334148\(v=exchg.10\).md)
+[BoolColumnValue class](./boolcolumnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

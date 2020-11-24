@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 Update the tableid.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -85,10 +85,10 @@ Save is the final step in performing an insert or an update. The update is begun
 
 #### Reference
 
-[Update class](dn351191\(v=exchg.10\).md)
+[Update class](./update-class.md)
 
-[Update members](dn351259\(v=exchg.10\).md)
+[Update members](./update-members.md)
 
-[Save overload](dn351198\(v=exchg.10\).md)
+[Save overload](./update.save-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.DatabaseSignInUse exceptions.
 
-The [EsentDatabaseSignInUseException](dn334488\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseSignInUseException](./esentdatabasesigninuseexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseSignInUseException class](dn334488\(v=exchg.10\).md)
+[EsentDatabaseSignInUseException class](./esentdatabasesigninuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

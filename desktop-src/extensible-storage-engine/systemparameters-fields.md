@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [SystemParameters](dn351139\(v=exchg.10\).md) type exposes the following members.
+The [SystemParameters](./systemparameters-class.md) type exposes the following members.
 
 ## Fields
 
@@ -81,7 +81,6 @@ Top
 
 #### Reference
 
-[SystemParameters class](dn351139\(v=exchg.10\).md)
+[SystemParameters class](./systemparameters-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

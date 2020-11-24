@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Int64ColumnValue constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +49,8 @@ public Int64ColumnValue()
 
 #### Reference
 
-[Int64ColumnValue class](dn351016\(v=exchg.10\).md)
+[Int64ColumnValue class](./int64columnvalue-class.md)
 
-[Int64ColumnValue members](dn351003\(v=exchg.10\).md)
+[Int64ColumnValue members](./int64columnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

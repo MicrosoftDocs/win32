@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidCreateIndexException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentInvalidCreateIndexException()
 
 #### Reference
 
-[EsentInvalidCreateIndexException class](dn319507\(v=exchg.10\).md)
+[EsentInvalidCreateIndexException class](./esentinvalidcreateindexexception-class.md)
 
-[EsentInvalidCreateIndexException members](dn319470\(v=exchg.10\).md)
+[EsentInvalidCreateIndexException members](./esentinvalidcreateindexexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

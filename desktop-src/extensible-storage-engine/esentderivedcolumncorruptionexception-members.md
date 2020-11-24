@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.DerivedColumnCorruption exceptions.
 
-The [EsentDerivedColumnCorruptionException](dn274270\(v=exchg.10\).md) type exposes the following members.
+The [EsentDerivedColumnCorruptionException](./esentderivedcolumncorruptionexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentDerivedColumnCorruptionException class](dn274270\(v=exchg.10\).md)
+[EsentDerivedColumnCorruptionException class](./esentderivedcolumncorruptionexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

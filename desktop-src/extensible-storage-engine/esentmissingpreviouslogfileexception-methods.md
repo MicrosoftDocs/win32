@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentMissingPreviousLogFileException](dn334685\(v=exchg.10\).md) type exposes the following members.
+The [EsentMissingPreviousLogFileException](./esentmissingpreviouslogfileexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentMissingPreviousLogFileException class](dn334685\(v=exchg.10\).md)
+[EsentMissingPreviousLogFileException class](./esentmissingpreviouslogfileexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

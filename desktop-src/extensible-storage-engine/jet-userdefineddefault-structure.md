@@ -103,6 +103,6 @@ This member should always be set to NULL.
 
 ### See Also
 
-[JET_CBTYP](gg294071\(v=exchg.10\).md)  
-[JET_COLUMNCREATE](gg269252\(v=exchg.10\).md)  
-[JET_COLUMNDEF](gg294130\(v=exchg.10\).md)
+[JET_CBTYP](./jet-cbtyp.md)  
+[JET_COLUMNCREATE](./jet-columncreate-structure.md)  
+[JET_COLUMNDEF](./jet-columndef-structure.md)

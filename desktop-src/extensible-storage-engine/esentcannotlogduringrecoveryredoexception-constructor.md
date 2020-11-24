@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentCannotLogDuringRecoveryRedoException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentCannotLogDuringRecoveryRedoException()
 
 #### Reference
 
-[EsentCannotLogDuringRecoveryRedoException class](dn274165\(v=exchg.10\).md)
+[EsentCannotLogDuringRecoveryRedoException class](./esentcannotlogduringrecoveryredoexception-class.md)
 
-[EsentCannotLogDuringRecoveryRedoException members](dn274105\(v=exchg.10\).md)
+[EsentCannotLogDuringRecoveryRedoException members](./esentcannotlogduringrecoveryredoexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

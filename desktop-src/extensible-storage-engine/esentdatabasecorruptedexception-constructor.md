@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDatabaseCorruptedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentDatabaseCorruptedException()
 
 #### Reference
 
-[EsentDatabaseCorruptedException class](dn334279\(v=exchg.10\).md)
+[EsentDatabaseCorruptedException class](./esentdatabasecorruptedexception-class.md)
 
-[EsentDatabaseCorruptedException members](dn334379\(v=exchg.10\).md)
+[EsentDatabaseCorruptedException members](./esentdatabasecorruptedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

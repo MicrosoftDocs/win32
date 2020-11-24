@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.TaskDropped exceptions.
 
-The [EsentTaskDroppedException](dn334958\(v=exchg.10\).md) type exposes the following members.
+The [EsentTaskDroppedException](./esenttaskdroppedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentTaskDroppedException class](dn334958\(v=exchg.10\).md)
+[EsentTaskDroppedException class](./esenttaskdroppedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

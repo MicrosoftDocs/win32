@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentBadDbSignatureException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentBadDbSignatureException()
 
 #### Reference
 
-[EsentBadDbSignatureException class](dn274009\(v=exchg.10\).md)
+[EsentBadDbSignatureException class](./esentbaddbsignatureexception-class.md)
 
-[EsentBadDbSignatureException members](dn274012\(v=exchg.10\).md)
+[EsentBadDbSignatureException members](./esentbaddbsignatureexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -95,5 +95,4 @@ A status function for reporting status of recovery.
 
 ### See Also
 
-[JetInit3](gg269296\(v=exchg.10\).md)
-
+[JetInit3](./jetinit3-function.md)

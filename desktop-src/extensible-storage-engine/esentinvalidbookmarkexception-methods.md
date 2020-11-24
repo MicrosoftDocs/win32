@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidBookmarkException](dn319464\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidBookmarkException](./esentinvalidbookmarkexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentInvalidBookmarkException class](dn319464\(v=exchg.10\).md)
+[EsentInvalidBookmarkException class](./esentinvalidbookmarkexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

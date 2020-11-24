@@ -104,6 +104,5 @@ A conditional index contains an index entry for only those rows that match the s
 
 ### See Also
 
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_INDEXCREATE](gg269186\(v=exchg.10\).md)
-
+[JET_GRBIT](./jet-grbit.md)  
+[JET_INDEXCREATE](./jet-indexcreate-structure.md)

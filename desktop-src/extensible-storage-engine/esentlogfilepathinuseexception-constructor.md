@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentLogFilePathInUseException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentLogFilePathInUseException()
 
 #### Reference
 
-[EsentLogFilePathInUseException class](dn334545\(v=exchg.10\).md)
+[EsentLogFilePathInUseException class](./esentlogfilepathinuseexception-class.md)
 
-[EsentLogFilePathInUseException members](dn334621\(v=exchg.10\).md)
+[EsentLogFilePathInUseException members](./esentlogfilepathinuseexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

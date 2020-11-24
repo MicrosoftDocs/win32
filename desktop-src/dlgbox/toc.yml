@@ -275,7 +275,7 @@
         href: common-dialog-box-structures.md
         items: 
         - name: "CHOOSECOLOR"
-          href: /windows/win32/api/Commdlg/ns-commdlg-choosecolora~r1
+          href: /windows/win32/api/Commdlg/ns-commdlg-choosecolora-r1
         - name: "CHOOSEFONT"
           href: /windows/win32/api/Commdlg/ns-commdlg-choosefonta
         - name: "DEVNAMES"

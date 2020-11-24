@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidCodePageException](dn319443\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidCodePageException](./esentinvalidcodepageexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentInvalidCodePageException class](dn319443\(v=exchg.10\).md)
+[EsentInvalidCodePageException class](./esentinvalidcodepageexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

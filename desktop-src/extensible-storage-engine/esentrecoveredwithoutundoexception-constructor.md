@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentRecoveredWithoutUndoException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentRecoveredWithoutUndoException()
 
 #### Reference
 
-[EsentRecoveredWithoutUndoException class](dn350537\(v=exchg.10\).md)
+[EsentRecoveredWithoutUndoException class](./esentrecoveredwithoutundoexception-class.md)
 
-[EsentRecoveredWithoutUndoException members](dn319887\(v=exchg.10\).md)
+[EsentRecoveredWithoutUndoException members](./esentrecoveredwithoutundoexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

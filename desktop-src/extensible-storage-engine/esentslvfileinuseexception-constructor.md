@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVFileInUseException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +49,8 @@ public EsentSLVFileInUseException()
 
 #### Reference
 
-[EsentSLVFileInUseException class](dn350728\(v=exchg.10\).md)
+[EsentSLVFileInUseException class](./esentslvfileinuseexception-class.md)
 
-[EsentSLVFileInUseException members](dn334766\(v=exchg.10\).md)
+[EsentSLVFileInUseException members](./esentslvfileinuseexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

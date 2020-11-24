@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentSPAvailExtCacheOutOfMemoryException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentSPAvailExtCacheOutOfMemoryException()
 
 #### Reference
 
-[EsentSPAvailExtCacheOutOfMemoryException class](dn334906\(v=exchg.10\).md)
+[EsentSPAvailExtCacheOutOfMemoryException class](./esentspavailextcacheoutofmemoryexception-class.md)
 
-[EsentSPAvailExtCacheOutOfMemoryException members](dn334805\(v=exchg.10\).md)
+[EsentSPAvailExtCacheOutOfMemoryException members](./esentspavailextcacheoutofmemoryexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseIdInUseException](dn334396\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseIdInUseException](./esentdatabaseidinuseexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseIdInUseException class](dn334396\(v=exchg.10\).md)
+[EsentDatabaseIdInUseException class](./esentdatabaseidinuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

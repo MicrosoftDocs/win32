@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLogFileCorruptException](dn334601\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogFileCorruptException](./esentlogfilecorruptexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentLogFileCorruptException class](dn334601\(v=exchg.10\).md)
+[EsentLogFileCorruptException class](./esentlogfilecorruptexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

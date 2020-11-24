@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLogFileSizeMismatchDatabasesConsistentException](dn334552\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogFileSizeMismatchDatabasesConsistentException](./esentlogfilesizemismatchdatabasesconsistentexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentLogFileSizeMismatchDatabasesConsistentException class](dn334552\(v=exchg.10\).md)
+[EsentLogFileSizeMismatchDatabasesConsistentException class](./esentlogfilesizemismatchdatabasesconsistentexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentRfsFailureException](dn350565\(v=exchg.10\).md) type exposes the following members.
+The [EsentRfsFailureException](./esentrfsfailureexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentRfsFailureException class](dn350565\(v=exchg.10\).md)
+[EsentRfsFailureException class](./esentrfsfailureexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentOutOfObjectIDsException](dn319746\(v=exchg.10\).md) type exposes the following members.
+The [EsentOutOfObjectIDsException](./esentoutofobjectidsexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentOutOfObjectIDsException class](dn319746\(v=exchg.10\).md)
+[EsentOutOfObjectIDsException class](./esentoutofobjectidsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

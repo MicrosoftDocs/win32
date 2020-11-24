@@ -15,7 +15,7 @@ Include inherited members
 
 A JET_OSSNAPID contains a handle to a snapshot of a database.
 
-The [JET_OSSNAPID](hh558483\(v=exchg.10\).md) type exposes the following members.
+The [JET_OSSNAPID](./jet-ossnapid-structure.md) type exposes the following members.
 
 ## Properties
 
@@ -127,6 +127,6 @@ Top
 
 #### Reference
 
-[JET_OSSNAPID structure](hh558483\(v=exchg.10\).md)
+[JET_OSSNAPID structure](./jet-ossnapid-structure.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

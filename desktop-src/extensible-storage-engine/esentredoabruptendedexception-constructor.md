@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentRedoAbruptEndedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentRedoAbruptEndedException()
 
 #### Reference
 
-[EsentRedoAbruptEndedException class](dn319858\(v=exchg.10\).md)
+[EsentRedoAbruptEndedException class](./esentredoabruptendedexception-class.md)
 
-[EsentRedoAbruptEndedException members](dn350547\(v=exchg.10\).md)
+[EsentRedoAbruptEndedException members](./esentredoabruptendedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

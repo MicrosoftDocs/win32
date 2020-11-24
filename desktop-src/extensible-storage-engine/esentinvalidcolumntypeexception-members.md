@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.InvalidColumnType exceptions.
 
-The [EsentInvalidColumnTypeException](dn319454\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidColumnTypeException](./esentinvalidcolumntypeexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentInvalidColumnTypeException class](dn319454\(v=exchg.10\).md)
+[EsentInvalidColumnTypeException class](./esentinvalidcolumntypeexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

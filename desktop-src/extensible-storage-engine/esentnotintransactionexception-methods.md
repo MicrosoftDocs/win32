@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentNotInTransactionException](dn334745\(v=exchg.10\).md) type exposes the following members.
+The [EsentNotInTransactionException](./esentnotintransactionexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentNotInTransactionException class](dn334745\(v=exchg.10\).md)
+[EsentNotInTransactionException class](./esentnotintransactionexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentAlreadyInitializedException](dn273989\(v=exchg.10\).md) type exposes the following members.
+The [EsentAlreadyInitializedException](./esentalreadyinitializedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentAlreadyInitializedException class](dn273989\(v=exchg.10\).md)
+[EsentAlreadyInitializedException class](./esentalreadyinitializedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

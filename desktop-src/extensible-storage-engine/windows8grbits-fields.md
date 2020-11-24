@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [Windows8Grbits](dn335391\(v=exchg.10\).md) type exposes the following members.
+The [Windows8Grbits](./windows8grbits-class.md) type exposes the following members.
 
 ## Fields
 
@@ -56,7 +56,6 @@ Top
 
 #### Reference
 
-[Windows8Grbits class](dn335391\(v=exchg.10\).md)
+[Windows8Grbits class](./windows8grbits-class.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

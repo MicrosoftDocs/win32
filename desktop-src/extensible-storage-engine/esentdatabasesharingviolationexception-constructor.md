@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDatabaseSharingViolationException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentDatabaseSharingViolationException()
 
 #### Reference
 
-[EsentDatabaseSharingViolationException class](dn334374\(v=exchg.10\).md)
+[EsentDatabaseSharingViolationException class](./esentdatabasesharingviolationexception-class.md)
 
-[EsentDatabaseSharingViolationException members](dn334482\(v=exchg.10\).md)
+[EsentDatabaseSharingViolationException members](./esentdatabasesharingviolationexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

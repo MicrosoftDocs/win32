@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.InvalidPreread exceptions.
 
-The [EsentInvalidPrereadException](dn334516\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidPrereadException](./esentinvalidprereadexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentInvalidPrereadException class](dn334516\(v=exchg.10\).md)
+[EsentInvalidPrereadException class](./esentinvalidprereadexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

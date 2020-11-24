@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVSpaceWriteConflictException](dn350752\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVSpaceWriteConflictException](./esentslvspacewriteconflictexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -160,6 +160,6 @@ Top
 
 #### Reference
 
-[EsentSLVSpaceWriteConflictException class](dn350752\(v=exchg.10\).md)
+[EsentSLVSpaceWriteConflictException class](./esentslvspacewriteconflictexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

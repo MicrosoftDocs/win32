@@ -55,7 +55,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 ## Remarks
 
-This function is a helper for creating a WIC factory for explicit DLL linking, which was needed for Windows XP. In normal usage, you would use [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) instead (see [WIC API class factories](/windows/win32/wic/-wic-api#class-factories)), since that's always included in all newer versions of Windows.
+This function is a helper for creating a WIC factory for explicit DLL linking, which was needed for Windows XP. In normal usage, you would use [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) instead (see [WIC API class factories](./-wic-api.md#class-factories)), since that's always included in all newer versions of Windows.
 
 ## Requirements
 
@@ -70,9 +70,4 @@ This function is a helper for creating a WIC factory for explicit DLL linking, w
 
 
  
-
- 
-
-
-
 

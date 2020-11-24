@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [VistaColtyp](dn351274\(v=exchg.10\).md) type exposes the following members.
+The [VistaColtyp](./vistacoltyp-class.md) type exposes the following members.
 
 ## Fields
 
@@ -56,7 +56,6 @@ Top
 
 #### Reference
 
-[VistaColtyp class](dn351274\(v=exchg.10\).md)
+[VistaColtyp class](./vistacoltyp-class.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

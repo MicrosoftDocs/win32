@@ -51,9 +51,8 @@ Top
 
 #### Reference
 
-[EsentInconsistentException class](dn350488\(v=exchg.10\).md)
+[EsentInconsistentException class](./esentinconsistentexception-class.md)
 
-[EsentInconsistentException members](dn350428\(v=exchg.10\).md)
+[EsentInconsistentException members](./esentinconsistentexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

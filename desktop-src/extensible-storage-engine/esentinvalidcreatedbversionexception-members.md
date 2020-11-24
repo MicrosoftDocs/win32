@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.InvalidCreateDbVersion exceptions.
 
-The [EsentInvalidCreateDbVersionException](dn319468\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidCreateDbVersionException](./esentinvalidcreatedbversionexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentInvalidCreateDbVersionException class](dn319468\(v=exchg.10\).md)
+[EsentInvalidCreateDbVersionException class](./esentinvalidcreatedbversionexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

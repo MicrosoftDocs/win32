@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.KeyIsMade exceptions.
 
-The [EsentKeyIsMadeException](dn334548\(v=exchg.10\).md) type exposes the following members.
+The [EsentKeyIsMadeException](./esentkeyismadeexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentKeyIsMadeException class](dn334548\(v=exchg.10\).md)
+[EsentKeyIsMadeException class](./esentkeyismadeexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

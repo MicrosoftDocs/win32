@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLinkNotSupportedException](dn334571\(v=exchg.10\).md) type exposes the following members.
+The [EsentLinkNotSupportedException](./esentlinknotsupportedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentLinkNotSupportedException class](dn334571\(v=exchg.10\).md)
+[EsentLinkNotSupportedException class](./esentlinknotsupportedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

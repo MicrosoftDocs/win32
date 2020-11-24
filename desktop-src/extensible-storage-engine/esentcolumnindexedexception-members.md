@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.ColumnIndexed exceptions.
 
-The [EsentColumnIndexedException](dn274164\(v=exchg.10\).md) type exposes the following members.
+The [EsentColumnIndexedException](./esentcolumnindexedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentColumnIndexedException class](dn274164\(v=exchg.10\).md)
+[EsentColumnIndexedException class](./esentcolumnindexedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

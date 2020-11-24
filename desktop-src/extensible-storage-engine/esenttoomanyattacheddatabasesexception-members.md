@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.TooManyAttachedDatabases exceptions.
 
-The [EsentTooManyAttachedDatabasesException](dn335011\(v=exchg.10\).md) type exposes the following members.
+The [EsentTooManyAttachedDatabasesException](./esenttoomanyattacheddatabasesexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentTooManyAttachedDatabasesException class](dn335011\(v=exchg.10\).md)
+[EsentTooManyAttachedDatabasesException class](./esenttoomanyattacheddatabasesexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_OPENTEMPORARYTABLE](dn351217\(v=exchg.10\).md) type exposes the following members.
+The [JET_OPENTEMPORARYTABLE](./jet-opentemporarytable-class.md) type exposes the following members.
 
 ## Methods
 
@@ -66,6 +66,6 @@ Top
 
 #### Reference
 
-[JET_OPENTEMPORARYTABLE class](dn351217\(v=exchg.10\).md)
+[JET_OPENTEMPORARYTABLE class](./jet-opentemporarytable-class.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

@@ -32,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the number of records in the temporary table.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,8 +61,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[JET_RECORDLIST class](dn335223\(v=exchg.10\).md)
+[JET_RECORDLIST class](./jet-recordlist-class.md)
 
-[JET_RECORDLIST members](dn335227\(v=exchg.10\).md)
+[JET_RECORDLIST members](./jet-recordlist-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

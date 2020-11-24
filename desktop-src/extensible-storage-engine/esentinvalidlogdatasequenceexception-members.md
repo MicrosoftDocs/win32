@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.InvalidLogDataSequence exceptions.
 
-The [EsentInvalidLogDataSequenceException](dn319536\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidLogDataSequenceException](./esentinvalidlogdatasequenceexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentInvalidLogDataSequenceException class](dn319536\(v=exchg.10\).md)
+[EsentInvalidLogDataSequenceException class](./esentinvalidlogdatasequenceexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for objects that represent a column value to be set.
 
-The [ColumnValue](dn334206\(v=exchg.10\).md) type exposes the following members.
+The [ColumnValue](./columnvalue-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -152,6 +152,6 @@ Top
 
 #### Reference
 
-[ColumnValue class](dn334206\(v=exchg.10\).md)
+[ColumnValue class](./columnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

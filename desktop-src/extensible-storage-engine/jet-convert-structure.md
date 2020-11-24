@@ -26,7 +26,7 @@ _**Applies to:** Windows | Windows Server_
 
 The **JET_CONVERT** structure contains the name of an earlier ESE version DLL that is used for reading a databases that are created with that earlier version. In addition, other flags are provided to control the nature of the conversion.
 
-**Windows Server 2003:** The feature in [JetCompact](gg269284\(v=exchg.10\).md) that performed a conversion was removed from the product in Windows Server 2003. It is only supported in Windows 2000 and Windows XP.
+**Windows Server 2003:** The feature in [JetCompact](./jetcompact-function.md) that performed a conversion was removed from the product in Windows Server 2003. It is only supported in Windows 2000 and Windows XP.
 
 ```cpp
     typedef struct tagCONVERT {
@@ -84,5 +84,4 @@ Reserved for system use.
 
 ### See Also
 
-[JetCompact](gg269284\(v=exchg.10\).md)
-
+[JetCompact](./jetcompact-function.md)

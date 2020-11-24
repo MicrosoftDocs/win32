@@ -15,7 +15,7 @@ Include inherited members
 
 Settings for JetSetColumn.
 
-The [JET_SETINFO](dn351059\(v=exchg.10\).md) type exposes the following members.
+The [JET_SETINFO](./jet-setinfo-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -127,6 +127,6 @@ Top
 
 #### Reference
 
-[JET_SETINFO class](dn351059\(v=exchg.10\).md)
+[JET_SETINFO class](./jet-setinfo-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

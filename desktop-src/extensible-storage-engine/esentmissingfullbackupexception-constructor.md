@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentMissingFullBackupException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentMissingFullBackupException()
 
 #### Reference
 
-[EsentMissingFullBackupException class](dn334670\(v=exchg.10\).md)
+[EsentMissingFullBackupException class](./esentmissingfullbackupexception-class.md)
 
-[EsentMissingFullBackupException members](dn334735\(v=exchg.10\).md)
+[EsentMissingFullBackupException members](./esentmissingfullbackupexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

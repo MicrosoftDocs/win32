@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.FixedDDL exceptions.
 
-The [EsentFixedDDLException](dn350411\(v=exchg.10\).md) type exposes the following members.
+The [EsentFixedDDLException](./esentfixedddlexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentFixedDDLException class](dn350411\(v=exchg.10\).md)
+[EsentFixedDDLException class](./esentfixedddlexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

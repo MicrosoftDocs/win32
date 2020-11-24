@@ -15,7 +15,7 @@ Include inherited members
 
 Holds miscellaneous information about a database. This is the information that is contained in the database header.
 
-The [JET_DBINFOMISC](hh538867\(v=exchg.10\).md) type exposes the following members.
+The [JET_DBINFOMISC](./jet-dbinfomisc-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -307,6 +307,6 @@ Top
 
 #### Reference
 
-[JET_DBINFOMISC class](hh538867\(v=exchg.10\).md)
+[JET_DBINFOMISC class](./jet-dbinfomisc-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

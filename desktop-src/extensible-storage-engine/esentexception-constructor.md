@@ -56,9 +56,8 @@ Top
 
 #### Reference
 
-[EsentException class](dn292088\(v=exchg.10\).md)
+[EsentException class](./esentexception-class.md)
 
-[EsentException members](dn292086\(v=exchg.10\).md)
+[EsentException members](./esentexception-members.md)
 
-[Microsoft.Isam.Esent namespace](dn292085\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent namespace](./microsoft.isam.esent-namespace.md)

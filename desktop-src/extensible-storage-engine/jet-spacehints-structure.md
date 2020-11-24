@@ -159,6 +159,5 @@ The maximum value for growth in bytes. This caps ulGrowth.
 
 ### See Also
 
-[JET_TABLECREATE2](gg269203\(v=exchg.10\).md)  
-[JET_TABLECREATE3](gg269264\(v=exchg.10\).md)
-
+[JET_TABLECREATE2](./jet-tablecreate2-structure.md)  
+[JET_TABLECREATE3](./jet-tablecreate3-structure.md)

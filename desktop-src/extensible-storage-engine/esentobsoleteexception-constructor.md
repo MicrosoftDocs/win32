@@ -51,9 +51,8 @@ Top
 
 #### Reference
 
-[EsentObsoleteException class](dn319668\(v=exchg.10\).md)
+[EsentObsoleteException class](./esentobsoleteexception-class.md)
 
-[EsentObsoleteException members](dn319669\(v=exchg.10\).md)
+[EsentObsoleteException members](./esentobsoleteexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDisabledFunctionalityException](dn274277\(v=exchg.10\).md) type exposes the following members.
+The [EsentDisabledFunctionalityException](./esentdisabledfunctionalityexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +76,6 @@ Top
 
 #### Reference
 
-[EsentDisabledFunctionalityException class](dn274277\(v=exchg.10\).md)
+[EsentDisabledFunctionalityException class](./esentdisabledfunctionalityexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

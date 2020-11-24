@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSystemParamsAlreadySetException](dn334938\(v=exchg.10\).md) type exposes the following members.
+The [EsentSystemParamsAlreadySetException](./esentsystemparamsalreadysetexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +81,6 @@ Top
 
 #### Reference
 
-[EsentSystemParamsAlreadySetException class](dn334938\(v=exchg.10\).md)
+[EsentSystemParamsAlreadySetException class](./esentsystemparamsalreadysetexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

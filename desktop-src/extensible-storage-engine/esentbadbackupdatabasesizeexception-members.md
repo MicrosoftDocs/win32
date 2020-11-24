@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.BadBackupDatabaseSize exceptions.
 
-The [EsentBadBackupDatabaseSizeException](dn273987\(v=exchg.10\).md) type exposes the following members.
+The [EsentBadBackupDatabaseSizeException](./esentbadbackupdatabasesizeexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentBadBackupDatabaseSizeException class](dn273987\(v=exchg.10\).md)
+[EsentBadBackupDatabaseSizeException class](./esentbadbackupdatabasesizeexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

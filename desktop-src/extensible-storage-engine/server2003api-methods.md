@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [Server2003Api](dn351277\(v=exchg.10\).md) type exposes the following members.
+The [Server2003Api](./server2003api-class.md) type exposes the following members.
 
 ## Methods
 
@@ -46,7 +46,6 @@ Top
 
 #### Reference
 
-[Server2003Api class](dn351277\(v=exchg.10\).md)
+[Server2003Api class](./server2003api-class.md)
 
-[Microsoft.Isam.Esent.Interop.Server2003 namespace](hh557147\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Server2003 namespace](./microsoft.isam.esent.interop.server2003-namespace.md)

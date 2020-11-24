@@ -32,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the options for the conditional index.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,15 +57,14 @@ public ConditionalColumnGrbit grbit { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.ConditionalColumnGrbit](hh578990\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.ConditionalColumnGrbit](./conditionalcolumngrbit-enumeration.md)  
 
 ## See also
 
 #### Reference
 
-[JET_CONDITIONALCOLUMN class](dn335053\(v=exchg.10\).md)
+[JET_CONDITIONALCOLUMN class](./jet-conditionalcolumn-class.md)
 
-[JET_CONDITIONALCOLUMN members](dn335054\(v=exchg.10\).md)
+[JET_CONDITIONALCOLUMN members](./jet-conditionalcolumn-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -26,7 +26,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentCorruptionException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,7 +62,7 @@ protected EsentCorruptionException(
 <!-- end list -->
 
   - err  
-    Type: [Microsoft.Isam.Esent.Interop.JET_err](hh564840\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_err](./jet-err-enumeration.md)  
     
     The error code of the exception.
 
@@ -70,10 +70,10 @@ protected EsentCorruptionException(
 
 #### Reference
 
-[EsentCorruptionException class](dn274225\(v=exchg.10\).md)
+[EsentCorruptionException class](./esentcorruptionexception-class.md)
 
-[EsentCorruptionException members](dn334328\(v=exchg.10\).md)
+[EsentCorruptionException members](./esentcorruptionexception-members.md)
 
-[EsentCorruptionException overload](dn274226\(v=exchg.10\).md)
+[EsentCorruptionException overload](./esentcorruptionexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

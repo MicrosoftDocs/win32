@@ -32,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets tableid of the temporary table. This should be closed when the table is no longer needed.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -55,15 +55,14 @@ public JET_TABLEID tableid { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
 
 ## See also
 
 #### Reference
 
-[JET_OBJECTLIST class](dn335206\(v=exchg.10\).md)
+[JET_OBJECTLIST class](./jet-objectlist-class.md)
 
-[JET_OBJECTLIST members](dn335204\(v=exchg.10\).md)
+[JET_OBJECTLIST members](./jet-objectlist-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

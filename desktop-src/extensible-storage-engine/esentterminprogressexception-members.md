@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.TermInProgress exceptions.
 
-The [EsentTermInProgressException](dn334979\(v=exchg.10\).md) type exposes the following members.
+The [EsentTermInProgressException](./esentterminprogressexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentTermInProgressException class](dn334979\(v=exchg.10\).md)
+[EsentTermInProgressException class](./esentterminprogressexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

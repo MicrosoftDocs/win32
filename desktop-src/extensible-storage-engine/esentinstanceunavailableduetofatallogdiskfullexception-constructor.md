@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInstanceUnavailableDueToFatalLogDiskFullException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentInstanceUnavailableDueToFatalLogDiskFullException()
 
 #### Reference
 
-[EsentInstanceUnavailableDueToFatalLogDiskFullException class](dn319387\(v=exchg.10\).md)
+[EsentInstanceUnavailableDueToFatalLogDiskFullException class](./esentinstanceunavailableduetofatallogdiskfullexception-class.md)
 
-[EsentInstanceUnavailableDueToFatalLogDiskFullException members](dn319438\(v=exchg.10\).md)
+[EsentInstanceUnavailableDueToFatalLogDiskFullException members](./esentinstanceunavailableduetofatallogdiskfullexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

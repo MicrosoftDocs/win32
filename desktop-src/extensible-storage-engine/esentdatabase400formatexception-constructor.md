@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDatabase400FormatException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentDatabase400FormatException()
 
 #### Reference
 
-[EsentDatabase400FormatException class](dn334253\(v=exchg.10\).md)
+[EsentDatabase400FormatException class](./esentdatabase400formatexception-class.md)
 
-[EsentDatabase400FormatException members](dn334346\(v=exchg.10\).md)
+[EsentDatabase400FormatException members](./esentdatabase400formatexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

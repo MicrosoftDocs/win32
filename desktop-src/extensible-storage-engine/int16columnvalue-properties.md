@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [Int16ColumnValue](dn351017\(v=exchg.10\).md) type exposes the following members.
+The [Int16ColumnValue](./int16columnvalue-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,7 +81,6 @@ Top
 
 #### Reference
 
-[Int16ColumnValue class](dn351017\(v=exchg.10\).md)
+[Int16ColumnValue class](./int16columnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

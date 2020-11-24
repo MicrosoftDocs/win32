@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentBadRestoreTargetInstanceException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentBadRestoreTargetInstanceException()
 
 #### Reference
 
-[EsentBadRestoreTargetInstanceException class](dn274044\(v=exchg.10\).md)
+[EsentBadRestoreTargetInstanceException class](./esentbadrestoretargetinstanceexception-class.md)
 
-[EsentBadRestoreTargetInstanceException members](dn274100\(v=exchg.10\).md)
+[EsentBadRestoreTargetInstanceException members](./esentbadrestoretargetinstanceexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

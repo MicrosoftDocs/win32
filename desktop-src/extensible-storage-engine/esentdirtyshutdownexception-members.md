@@ -15,7 +15,7 @@ Include inherited members
 
 Base class for JET_err.DirtyShutdown exceptions.
 
-The [EsentDirtyShutdownException](dn334452\(v=exchg.10\).md) type exposes the following members.
+The [EsentDirtyShutdownException](./esentdirtyshutdownexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +162,6 @@ Top
 
 #### Reference
 
-[EsentDirtyShutdownException class](dn334452\(v=exchg.10\).md)
+[EsentDirtyShutdownException class](./esentdirtyshutdownexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

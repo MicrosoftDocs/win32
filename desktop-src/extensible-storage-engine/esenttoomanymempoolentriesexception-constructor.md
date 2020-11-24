@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentTooManyMempoolEntriesException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +51,8 @@ public EsentTooManyMempoolEntriesException()
 
 #### Reference
 
-[EsentTooManyMempoolEntriesException class](dn350776\(v=exchg.10\).md)
+[EsentTooManyMempoolEntriesException class](./esenttoomanymempoolentriesexception-class.md)
 
-[EsentTooManyMempoolEntriesException members](dn350774\(v=exchg.10\).md)
+[EsentTooManyMempoolEntriesException members](./esenttoomanymempoolentriesexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

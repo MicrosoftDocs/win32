@@ -3408,6 +3408,11 @@
         items: 
         - name: "RemoveFromList"
           href: /windows/desktop/api/Shobjidl/nf-shobjidl-istartmenupinnedlist-removefromlist
+      - name: "IStorageProviderCopyHook"
+        href: nn-shobjidl-istorageprovidercopyhook.md
+        items: 
+        - name: "CopyCallback method"
+          href: nf-shobjidl-istorageprovidercopyhook-copycallback.md
       - name: "IStorageProviderHandler"
         href: /windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderhandler
         items: 
