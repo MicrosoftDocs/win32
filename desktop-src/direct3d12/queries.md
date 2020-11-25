@@ -61,16 +61,16 @@ The core runtime will validate the following:
 
     
 
-    | Query Type                                  | Query Heap type                                      |
-    |---------------------------------------------|------------------------------------------------------|
-    | D3D12\_QUERY\_TYPE\_OCCLUSION               | D3D12\_QUERY\_TYPE\_HEAP\_TYPE\_OCCLUSION            |
-    | D3D12\_QUERY\_TYPE\_BINARY\_OCCLUSION       | D3D12\_QUERY\_TYPE\_HEAP\_TYPE\_OCCLUSION            |
-    | D3D12\_QUERY\_TYPE\_TIMESTAMP               | D3D12\_QUERY\_TYPE\_HEAP\_TYPE\_TIMESTAMP            |
-    | D3D12\_QUERY\_TYPE\_PIPELINE\_STATISTICS    | D3D12\_QUERY\_TYPE\_HEAP\_TYPE\_PIPELINE\_STATISTICS |
-    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM0 | D3D12\_QUERY\_TYPE\_HEAP\_TYPE\_SO\_STATISTICS       |
-    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM1 | D3D12\_QUERY\_TYPE\_HEAP\_TYPE\_SO\_STATISTICS       |
-    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM2 | D3D12\_QUERY\_TYPE\_HEAP\_TYPE\_SO\_STATISTICS       |
-    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM3 | D3D12\_QUERY\_TYPE\_HEAP\_TYPE\_SO\_STATISTICS       |
+    | Query Type                                  | Query Heap type                                |
+    |---------------------------------------------|------------------------------------------------|
+    | D3D12\_QUERY\_TYPE\_OCCLUSION               | D3D12\_QUERY\_HEAP\_TYPE\_OCCLUSION            |
+    | D3D12\_QUERY\_TYPE\_BINARY\_OCCLUSION       | D3D12\_QUERY\_HEAP\_TYPE\_OCCLUSION            |
+    | D3D12\_QUERY\_TYPE\_TIMESTAMP               | D3D12\_QUERY\_HEAP\_TYPE\_TIMESTAMP            |
+    | D3D12\_QUERY\_TYPE\_PIPELINE\_STATISTICS    | D3D12\_QUERY\_HEAP\_TYPE\_PIPELINE\_STATISTICS |
+    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM0 | D3D12\_QUERY\_HEAP\_TYPE\_SO\_STATISTICS       |
+    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM1 | D3D12\_QUERY\_HEAP\_TYPE\_SO\_STATISTICS       |
+    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM2 | D3D12\_QUERY\_HEAP\_TYPE\_SO\_STATISTICS       |
+    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM3 | D3D12\_QUERY\_HEAP\_TYPE\_SO\_STATISTICS       |
 
     
 
