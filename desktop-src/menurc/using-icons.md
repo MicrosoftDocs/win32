@@ -187,9 +187,9 @@ HWND hwnd;                  // main window handle
  
 // Change the icon for hwnd's window class. 
  
-SetClassLong(hwnd,          // window handle 
-    GCL_HICON,              // changes icon 
-    (LONG) LoadIcon(hinst, MAKEINTRESOURCE(480))
+SetClassLongPtr(hwnd,          // window handle 
+    GCLP_HICON,              // changes icon 
+    (LONG_PTR) LoadIcon(hinst, MAKEINTRESOURCE(480))
    ); 
 ```
 
