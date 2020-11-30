@@ -343,7 +343,7 @@ bool MyDecryptFile(
             goto Exit_MyDecryptFile;
         }
 
-        if(dwCount <= dwBlockLen)
+        if(dwCount < dwBlockLen)
         {
             fEOF = TRUE;
         }
