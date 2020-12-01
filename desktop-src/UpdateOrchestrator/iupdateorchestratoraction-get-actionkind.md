@@ -22,6 +22,7 @@ HRESULT IUpdateOrchestratorAction::get_ActionKind(
 Displays the status of an update. For a list of possible values, see the [UPDATE_ORCHESTRATOR_ACTION_KIND](updateorchestratoractionkind.md) enumeration.
 
 ## Returns
+If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
 ## See Also
 

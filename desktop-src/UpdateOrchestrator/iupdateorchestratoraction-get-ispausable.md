@@ -22,6 +22,7 @@ HRESULT IUpdateOrchestratorAction::get_IsPausable(
 Set to true if the action can be paused.
 
 ## Returns
+If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
 ## See Also
 

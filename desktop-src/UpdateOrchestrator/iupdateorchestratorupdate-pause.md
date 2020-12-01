@@ -15,7 +15,7 @@ HRESULT Pause();
 ```
 
 ## Returns
-Returns **Returns **S_OK**** if the action could be paused and a failure if not.
+Returns **S_OK** if the action could be paused and a failure if not.
 
 ## Remarks
 

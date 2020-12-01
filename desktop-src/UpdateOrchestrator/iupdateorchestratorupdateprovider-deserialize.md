@@ -31,7 +31,7 @@ the number of bytes pass in
 output pointer for the deserialized update
 
 ## Returns
-Returns **S_OK** if successful, a failure otherwise.
+If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
 ## Remarks
 

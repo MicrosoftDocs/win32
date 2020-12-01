@@ -21,7 +21,7 @@ HRESULT ScanForPendingUpdates(
 an out parameter with the collection of found updates
 
 ## Returns
-Returns **S_OK** if successful, a failure otherwise.
+If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
 ## Remarks
 

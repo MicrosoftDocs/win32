@@ -28,6 +28,7 @@ out pointer to a buffer. Caller needs to free the memory using CoTaskMemFree
 out pointer to the number of bytes in the buffer.
 
 ## Returns
+If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
 ## Remarks
 

@@ -14,10 +14,8 @@ Called when the action is complete and has not failed.
 HRESULT ReportCompleted();
 ```
 
-## Parameters
-
-
 ## Returns
+If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
 ## See Also
 
