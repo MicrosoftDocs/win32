@@ -11,7 +11,7 @@ Gets the default Scan SLA. This value is how often the provider wishes to have a
 
 ## Syntax
 ```cpp
-IUpdateOrchestratorUpdateProvider::get_ScanSlaInMinutes(
+HRESULT IUpdateOrchestratorUpdateProvider::get_ScanSlaInMinutes(
     [out, retval] DWORD* slaInMinutes);
 ```
 ## Parameters

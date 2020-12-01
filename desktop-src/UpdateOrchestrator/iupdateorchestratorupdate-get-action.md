@@ -11,7 +11,7 @@ Gets the action that needs to be performed.
 
 ## Syntax
 ```cpp
-IUpdateOrchestratorUpdate::get_Action(
+HRESULT IUpdateOrchestratorUpdate::get_Action(
     [out, retval] IUpdateOrchestratorAction** action);
 ```
 

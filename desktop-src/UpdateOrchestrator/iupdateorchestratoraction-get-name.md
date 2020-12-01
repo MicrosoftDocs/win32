@@ -11,7 +11,7 @@ Returns the action name string.
 
 ## Syntax
 ```cpp
-IUpdateOrchestratorAction::get_Name(
+HRESULT IUpdateOrchestratorAction::get_Name(
     [out, retval] BSTR* name);
 ```
 

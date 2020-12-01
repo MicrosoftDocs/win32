@@ -11,7 +11,7 @@ Get the scan attempt frequency.
 
 ## Syntax
 ```cpp
-IUpdateOrchestratorUpdateProvider::get_ScanAttempFrequencyInMinutes(
+HRESULT IUpdateOrchestratorUpdateProvider::get_ScanAttempFrequencyInMinutes(
     [out, retval] DWORD* frequencyInMinutes);
 ```
 ## Parameters

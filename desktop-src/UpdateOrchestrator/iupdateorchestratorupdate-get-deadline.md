@@ -11,7 +11,7 @@ Gets the deadline for an update.
 
 ## Syntax
 ```cpp
-IUpdateOrchestratorUpdate::get_Deadline(
+HRESULT IUpdateOrchestratorUpdate::get_Deadline(
     [out, retval] FILETIME* deadline);
 ```
 

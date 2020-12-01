@@ -11,7 +11,7 @@ Gets the update title to display.
 
 ## Syntax
 ```cpp
-IUpdateOrchestratorUpdate::get_Title(
+HRESULT IUpdateOrchestratorUpdate::get_Title(
     [out, retval] BSTR* title);
 ```
 

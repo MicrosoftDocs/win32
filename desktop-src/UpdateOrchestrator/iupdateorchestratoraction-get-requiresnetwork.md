@@ -11,7 +11,7 @@ Determines if an action needs a network connection.
 
 ## Syntax
 ```cpp
-IUpdateOrchestratorAction::get_RequiresNetwork(
+HRESULT IUpdateOrchestratorAction::get_RequiresNetwork(
     [out, retval] BOOL* requiresNetwork);
 ```
 

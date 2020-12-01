@@ -11,7 +11,7 @@ Returns the action kind.
 
 ## Syntax
 ```cpp
-IUpdateOrchestratorAction::get_ActionKind(
+HRESULT IUpdateOrchestratorAction::get_ActionKind(
     [out, retval] UPDATE_ORCHESTRATOR_ACTION_KIND* actionKind);
 ```
 

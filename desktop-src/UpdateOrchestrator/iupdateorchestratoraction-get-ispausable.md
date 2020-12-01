@@ -11,7 +11,7 @@ Determines if an action can be paused.
 
 ## Syntax
 ```cpp
-IUpdateOrchestratorAction::get_IsPausable(
+HRESULT IUpdateOrchestratorAction::get_IsPausable(
     [out, retval] BOOL* isPausable);
 ```
 

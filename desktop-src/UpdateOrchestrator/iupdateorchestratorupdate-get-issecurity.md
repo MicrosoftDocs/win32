@@ -11,7 +11,7 @@ Gets whether or not the update is a security update.
 
 ## Syntax
 ```cpp
-IUpdateOrchestratorUpdate::get_IsSecurity(
+HRESULT IUpdateOrchestratorUpdate::get_IsSecurity(
     [out, retval] BOOL* isSecurity);
 ```
 

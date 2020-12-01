@@ -11,7 +11,7 @@ Gets the update with the given index.
 
 ## Syntax
 ```cpp
-IUpdateOrchestratorUpdateCollection::get_Item(
+HRESULT IUpdateOrchestratorUpdateCollection::get_Item(
         [in] ULONG ulIndex,
         [out, retval] IUpdateOrchestratorUpdate** update);
 

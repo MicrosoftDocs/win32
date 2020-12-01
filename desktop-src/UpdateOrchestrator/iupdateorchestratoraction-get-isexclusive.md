@@ -11,7 +11,7 @@ Determines if no two actions of its kind can be performed at the same time.
 
 ## Syntax
 ```cpp
-IUpdateOrchestratorAction::get_IsExclusive(
+HRESULT IUpdateOrchestratorAction::get_IsExclusive(
     [out, retval] BOOL* isExclusive);
 ```
 

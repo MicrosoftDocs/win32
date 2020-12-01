@@ -11,7 +11,7 @@ Gets the update description to display.
 
 ## Syntax
 ```cpp
-IUpdateOrchestratorUpdate::get_Description(
+HRESULT IUpdateOrchestratorUpdate::get_Description(
     [out, retval] BSTR* description);
 ```
 

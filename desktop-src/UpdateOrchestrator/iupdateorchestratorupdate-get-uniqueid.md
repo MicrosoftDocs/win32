@@ -11,7 +11,7 @@ Gets the update's unique Id.
 
 ## Syntax
 ```cpp
-IUpdateOrchestratorUpdate::get_UniqueId(
+HRESULT IUpdateOrchestratorUpdate::get_UniqueId(
     [out, retval] BSTR* uniqueId);
 ```
 

@@ -11,7 +11,7 @@ Gets the number of updates contained in the collection.
 
 ## Syntax
 ```cpp
-IUpdateOrchestratorUpdateCollection::get_Count(
+HRESULT IUpdateOrchestratorUpdateCollection::get_Count(
     [out, retval] ULONG* pcCount);
 ```
 
