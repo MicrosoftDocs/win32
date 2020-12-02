@@ -24,6 +24,8 @@ The failure code.
 ## Returns
 If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
+If the [IUpdateOrchestratorUpdate::PerformAction ](iupdateorchestratorupdate-performaction.md) returns S_OK, it will wait until either [IUpdateOrchestratorActionCallback::ReportCompleted](iupdateorchestratoractioncallback-reportcompleted.md) or IUpdateOrchestratorActionCallback::ReportFailed is called.
+
 ## See Also
 
 [IUpdateOrchestratorActionCallback](iupdateorchestratoractioncallback.md)
