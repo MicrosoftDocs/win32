@@ -81,7 +81,31 @@ Not supported.
 2
 </dt> <dd>
 
-Windows Server 2008
+Windows Server 2008 / 2008 R2
+
+</dd>
+ <dt>
+
+4
+</dt> <dd>
+
+Windows Server 2012 / 2012 R2
+
+</dd>
+ <dt>
+
+5
+</dt> <dd>
+
+Windows Server 2016
+
+</dd>
+ <dt>
+
+6
+</dt> <dd>
+
+Windows Server 2019
 
 </dd> </dl> </dd> <dt>
 

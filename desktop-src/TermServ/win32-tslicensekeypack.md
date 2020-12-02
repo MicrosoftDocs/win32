@@ -330,10 +330,24 @@ Product version identifier for the Remote Desktop Services license key pack.
 
 <dt>
 
+6
+</dt> <dd>
+
+Windows Server 2019
+
+</dd> <dt>
+
+5
+</dt> <dd>
+
+Windows Server 2016
+
+</dd> <dt>
+
 4
 </dt> <dd>
 
-Windows Server 2012
+Windows Server 2012 / 2012 R2
 
 </dd> <dt>
 
