@@ -17,7 +17,7 @@ HRESULT ReportCompleted();
 ## Returns
 If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code. 
 
-If the [IUpdateOrchestratorUpdate::PerformAction ](iupdateorchestratorupdate-performaction.md) returns S_OK, it will wait until either IUpdateOrchestratorActionCallback::ReportCompleted or [IUpdateOrchestratorActionCallback::ReportFailed](iupdateorchestratoractioncallback-reportfailed.md) is called.
+If [IUpdateOrchestratorUpdate::PerformAction](iupdateorchestratorupdate-performaction.md) returns S_OK, it will wait until either IUpdateOrchestratorActionCallback::ReportCompleted or [IUpdateOrchestratorActionCallback::ReportFailed](iupdateorchestratoractioncallback-reportfailed.md) is called.
 
 ## See Also
 
