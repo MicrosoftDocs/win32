@@ -202,7 +202,7 @@ The following PowerShell example retrieves the serial number of multiple monitor
 
 
 ```PowerShell
-gwmi WmiMonitorID -Namespace root\wmi | ForEach-Object {($_.UserFriendlyName -notmatch 0 | foreach {[char]$_}) -join ""; ($_.SerialNumberID -notmatch 0 | foreach {[char]$_}) -join ""}
+gwmi WmiMonitorID -Namespace root\wmi | ForEach-Object {($_.UserFriendlyName -ne 0 | foreach {[char]$_}) -join ""; ($_.SerialNumberID -ne 0 | foreach {[char]$_}) -join ""}
 ```
 
 
