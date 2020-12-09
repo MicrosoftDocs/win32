@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Error Codes
+# Error Codes (WIA)
 
 Windows Image Acquisition (WIA) functions and methods can return error codes from the following list: 
 

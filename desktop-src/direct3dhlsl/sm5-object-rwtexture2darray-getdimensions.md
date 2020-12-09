@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GetDimensions function
+# RWTexture2DArray::GetDimensions function
 
 Returns the dimensions of the resource.
 

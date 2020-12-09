@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# What's New
+# What's New (Telephony API)
 
 TAPI 3.1 adds detailed phone device controls and a number of specialized terminal interfaces. The following table lists the new interfaces.
 

@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXColorAdjustSaturation function
+# D3DXColorAdjustSaturation function (D3dx9math.h)
 
 Adjusts the saturation value of a color.
 

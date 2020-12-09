@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Signed and Unsigned Types
+# Signed and Unsigned Types (RPC)
 
 Compilers that use different defaults for signed and unsigned types can cause software errors in your distributed application. You can avoid these problems by explicitly declaring your character types as **signed** or **unsigned**.
 

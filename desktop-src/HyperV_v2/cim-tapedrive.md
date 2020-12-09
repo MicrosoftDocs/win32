@@ -19,7 +19,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_TapeDrive class
+# CIM_TapeDrive class (Hyper-V management)
 
 Represents the capabilities and management of a tape drive.
 

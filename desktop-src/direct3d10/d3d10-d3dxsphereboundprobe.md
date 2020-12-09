@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXSphereBoundProbe function
+# D3DXSphereBoundProbe function (D3DX10math.h)
 
 Determines if a ray intersects the volume of a sphere's bounding box.
 

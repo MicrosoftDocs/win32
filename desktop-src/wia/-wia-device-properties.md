@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Device Properties
+# Device Properties (WIA)
 
 Device Properties are properties that control the function of the entire device. These properties can only be accessed through the root item of the tree that represents a device. There are three types of device properties: common, scanner, and camera.
 

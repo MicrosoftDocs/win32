@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Fonts and Text
+# Fonts and Text (Windows GDI)
 
 Fonts are used to draw text on video displays and other output devices. The font and text functions enable you to install, select, and query different fonts.
 

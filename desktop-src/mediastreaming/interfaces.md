@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Interfaces
+# Media Streaming Interfaces
 
 The [Media Streaming API](media-streaming-api-portal.md) provides the following interfaces.
 

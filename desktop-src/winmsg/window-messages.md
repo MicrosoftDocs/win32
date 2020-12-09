@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Window Messages
+# Window Messages (Windows and Messages)
 
 ## In This Section
 

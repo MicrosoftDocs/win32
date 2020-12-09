@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXMatrixTranslation function
+# D3DXMatrixTranslation function (D3dx9math.h)
 
 Builds a matrix using the specified offsets.
 

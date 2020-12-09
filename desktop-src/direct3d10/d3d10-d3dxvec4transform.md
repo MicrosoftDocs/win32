@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVec4Transform function
+# D3DXVec4Transform function (D3DX10Math.h)
 
 Transforms a 4D vector by a given matrix.
 

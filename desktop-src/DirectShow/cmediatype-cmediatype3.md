@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CMediaType.CMediaType constructor
+# CMediaType.CMediaType constructor (Mtype.h)
 
 Constructor method.
 

@@ -19,7 +19,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_DesktopMonitor class
+# CIM_DesktopMonitor class (Hyper-V management)
 
 Represents a CRT desktop monitor.
 

@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# GetDescriptor method of the CIM\_USBDevice class
+# GetDescriptor method of the CIM_USBDevice class (Wmcodecdsp.h)
 
 The **GetDescriptor** method returns the USB device descriptor as specified by the input parameters.
 

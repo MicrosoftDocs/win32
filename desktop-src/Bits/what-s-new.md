@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 7/12/2019
 ---
 
-# What's New
+# What's New (BITS)
 
 Since its first release as part of Windows XP, the Background Intelligent Transfer Service (BITS) has been constantly improved, adding more powerful controls for the developer and admin to control and manage downloads. A rich set of PowerShell cmdlets has been added; it can connect to more types of HTTP servers; it's more careful of the user's network bandwidth and costs than ever before. 
 

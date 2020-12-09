@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# R
+# R (Text Services Framework)
 
 <dl> <dt>
 

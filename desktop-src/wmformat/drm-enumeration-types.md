@@ -12,7 +12,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumeration Types
+# Microsoft Windows Media DRM Client Enumeration Types
 
 The following table describes the enumerations that are supported by the Microsoft Windows Media DRM Client Extended APIs.
 

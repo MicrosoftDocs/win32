@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Configuring Video Encoding
+# Configuring Video Encoding (Microsoft Media Foundation)
 
 To configure the video encoder, perform the following steps:
 

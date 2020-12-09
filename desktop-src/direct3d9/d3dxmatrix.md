@@ -15,7 +15,7 @@ api_location:
 - d3dx9math.h
 ---
 
-# D3DXMATRIX structure
+# D3DXMATRIX structure (D3dx9math.h)
 
 A 4x4 matrix that contains methods and operator overloads.
 

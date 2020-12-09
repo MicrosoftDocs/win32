@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixTransformation function
+# D3DXMatrixTransformation function (D3DX10Math.h)
 
 Builds a transformation matrix. **NULL** arguments are treated as identity transformations.
 

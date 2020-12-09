@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Transforms
+# Transforms (Direct2D)
 
 The topics in this section describe Direct2D transforms.
 

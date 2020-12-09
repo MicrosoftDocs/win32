@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXPlaneTransform function
+# D3DXPlaneTransform function (D3dx9math.h)
 
 Transforms a plane by a matrix. The input matrix is the inverse transpose of the actual transformation.
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Registry Entries
+# Registry Entries (Telephony API)
 
 The pluggable terminals are classified into Terminal Superclasses. Each Terminal Superclass has an entry in the registry under the following key:
 

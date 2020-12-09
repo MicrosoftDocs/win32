@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Resource Structures
+# Resource Structures (Menus and Other Resources)
 
 ## In This Section
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Video Capture
+# Video Capture (DirectShow)
 
 This section describes how to use Microsoft DirectShow to write video capture applications.
 

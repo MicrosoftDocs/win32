@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVec3TransformNormalArray function
+# D3DXVec3TransformNormalArray function (D3DX10Math.h)
 
 Transforms an array (x, y, z, 0) by a given matrix.
 

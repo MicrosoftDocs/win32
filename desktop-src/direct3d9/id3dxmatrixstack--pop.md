@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# ID3DXMATRIXStack::Pop method
+# ID3DXMATRIXStack::Pop method (D3dx9math.h)
 
 Removes the current matrix from the top of the stack.
 

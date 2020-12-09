@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# IBackgroundCopyJob Methods
+# IBackgroundCopyJob Methods (DO)
 
 The [**IBackgroundCopyJob**](https://www.bing.com/search?q=**IBackgroundCopyJob**) interface exposes the following methods.
 

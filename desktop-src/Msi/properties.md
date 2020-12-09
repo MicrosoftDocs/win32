@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Properties
+# Properties (Windows Installer)
 
 Properties are global variables that Windows Installer uses during an installation. The following sections describe the properties used by the installer:
 

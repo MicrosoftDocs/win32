@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXSHEvalHemisphereLight function
+# D3DXSHEvalHemisphereLight function (D3dx9math.h)
 
 Evaluates a light that is a linear interpolation between two colors over the sphere.
 

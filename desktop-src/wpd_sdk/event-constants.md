@@ -23,7 +23,7 @@ api_location:
 - PortableDevice.h
 ---
 
-# Event Constants
+# Event Constants (PortableDevice.h)
 
 Windows Portable Devices defines the following event values.
 

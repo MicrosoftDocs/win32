@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Attributes
+# Attributes (Windows Media Format 11 SDK)
 
 An attribute is an individual item of metadata. Most of the attributes can be set by your application and are written to the header of an ASF file.
 

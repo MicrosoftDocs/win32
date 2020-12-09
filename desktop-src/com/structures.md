@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Structures
+# Structures (COM)
 
 The following structures are provided by COM:
 

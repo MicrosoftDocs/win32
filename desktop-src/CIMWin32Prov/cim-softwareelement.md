@@ -32,7 +32,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_SoftwareElement class
+# CIM_SoftwareElement class (CIMWin32 WMI Providers)
 
 The **CIM\_SoftwareElement** class decomposes a [**CIM\_SoftwareFeature**](cim-softwarefeature.md) object into a set of individually manageable or deployable parts for a particular platform. A software element's platform is uniquely identified by its underlying hardware architecture and operating system.
 

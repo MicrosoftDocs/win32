@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Glossary
+# Glossary (UPnP APIs)
 
 Contains definitions of UPnP-related terms
 

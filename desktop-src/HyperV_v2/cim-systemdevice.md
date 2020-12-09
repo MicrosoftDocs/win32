@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_SystemDevice class
+# CIM_SystemDevice class (Hyper-V management)
 
 Associates a system with a logical device that is a component of the system.
 

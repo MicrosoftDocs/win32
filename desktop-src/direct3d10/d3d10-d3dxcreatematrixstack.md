@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXCreateMatrixStack function
+# D3DXCreateMatrixStack function (D3DX10Math.h)
 
 Create a matrix stack.
 

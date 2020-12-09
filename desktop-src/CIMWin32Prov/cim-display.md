@@ -36,7 +36,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_Display class
+# CIM_Display class (CIMWin32 WMI Providers)
 
 The **CIM\_Display** class is a parent class for grouping miscellaneous display devices.
 

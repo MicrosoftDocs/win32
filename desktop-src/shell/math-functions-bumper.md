@@ -12,7 +12,7 @@ topic_type:
 
 ---
 
-# Math Functions
+# Math Functions (The Windows Shell)
 
 -   [**DWordPtrAdd**](/windows/desktop/api/Intsafe/nf-intsafe-dwordptradd)
 -   [**DWordPtrMult**](/windows/desktop/api/Intsafe/nf-intsafe-dwordptrmult)

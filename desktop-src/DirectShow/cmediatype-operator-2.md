@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CMediaType.CMediaType::operator= method
+# CMediaType.CMediaType::operator= method (Mtype.h)
 
 This operator overloads the assignment operator to copy a media type.
 

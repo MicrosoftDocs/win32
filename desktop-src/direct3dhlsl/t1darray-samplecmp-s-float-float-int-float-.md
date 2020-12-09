@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# SampleCmp(S,float,float,int,float) function
+# SampleCmp::SampleCmp(S,float,float,int,float) function
 
 Samples a texture, using a comparison value to reject samples, with an optional value to clamp sample level-of-detail (LOD) values to.
 

@@ -6,7 +6,7 @@ ms.date: 01/17/2020
 ms.topic: article
 ---
 
-# Structures
+# ProjFS structures
 
 The following structures are declared in projectedfslib.h.
 

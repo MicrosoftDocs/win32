@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Appendixes
+# Appendixes (UI Automation)
 
 This section provides supplemental information about Microsoft UI Automation.
 

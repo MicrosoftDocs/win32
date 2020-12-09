@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# HexInt32Type Simple Type
+# HexInt32Type Simple Type (Performance Counters)
 
 Defines a 4-byte hexadecimal type.
 

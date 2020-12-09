@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# HTTP Status Codes
+# HTTP Status Codes (Winhttp.h)
 
 These constants and corresponding values indicate HTTP status codes returned by servers on the Internet.
 

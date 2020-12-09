@@ -21,7 +21,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# GetSecurityDescriptor method of the Win32\_Service class
+# GetSecurityDescriptor method of the Win32_Service class (Remote Desktop Services)
 
 The **GetSecurityDescriptor** method returns the security descriptor that controls access to the service. The descriptor is returned as an instance of [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor).
 

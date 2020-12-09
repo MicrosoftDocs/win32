@@ -31,7 +31,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_Memory class
+# CIM_Memory class (Hyper-V management)
 
 Represents the capabilities and management of memory-related logical devices.
 

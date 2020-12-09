@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixMultiplyTranspose function
+# D3DXMatrixMultiplyTranspose function (D3DX10Math.h)
 
 Calculates the transposed product of two matrices.
 

@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixShadow function
+# D3DXMatrixShadow function (D3DX10Math.h)
 
 Builds a matrix that flattens geometry into a plane.
 

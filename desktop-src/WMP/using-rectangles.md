@@ -12,7 +12,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Using Rectangles
+# Using Rectangles (Windows Media Player SDK)
 
 Rectangles are used to specify rectangular areas in Microsoft Windows. You can create many rectangles in your window, but Windows Media Player supplies the values of one rectangle through the [IWMPEffects::Render](/previous-versions/windows/desktop/api/effects/nf-effects-iwmpeffects-render) function. If your plug-in renders using a window, the rectangle is the client area of the window. This is called the prc rectangle, and it defines the rectangle that Windows Media Player will display your visualization through. Use this frequently to be sure you do not draw beyond the extents of the rectangle supplied by Windows Media Player.
 

@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# PauseService method of the Win32\_Service class
+# PauseService method of the Win32_Service class (CIMWin32 WMI Providers)
 
 The **PauseService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method attempts to place the service in the paused state.
 

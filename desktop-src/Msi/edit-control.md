@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Edit Control
+# Edit Control (Windows Installer)
 
 The Edit control is an edit field that is associated with a string or integer value property. Enter the property's name into the Property column of the [Control table](control-table.md).
 

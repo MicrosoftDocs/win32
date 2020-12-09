@@ -18,7 +18,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_ElementSetting class
+# CIM_ElementSetting class (CIMWin32 WMI Providers)
 
 The **CIM\_ElementSetting** class represents the association between managed system elements and the setting class defined for them.
 

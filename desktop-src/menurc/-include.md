@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# \#include
+# ' include'
 
 The **\#include** directive causes the resource compiler to process the file specified in the *filename* parameter. This file should be a header file that defines the constants used in the resource-definition file. The file can use single-byte, double-byte, or Unicode characters.
 

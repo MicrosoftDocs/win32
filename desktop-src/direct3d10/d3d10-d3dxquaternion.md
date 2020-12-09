@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DXQUATERNION structure
+# D3DXQUATERNION structure (D3DX10Math.h)
 
 Describes a quaternion.
 

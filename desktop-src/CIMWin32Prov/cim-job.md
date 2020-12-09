@@ -29,7 +29,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_Job class
+# CIM_Job class (CIMWin32 WMI Providers)
 
 The **CIM\_Job** class represents a unit of work for a system, such as a print job. A job is distinct from a process because a job can be scheduled.
 

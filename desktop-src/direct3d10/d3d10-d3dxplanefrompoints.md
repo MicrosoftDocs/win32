@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXPlaneFromPoints function
+# D3DXPlaneFromPoints function (D3DX10Math.h)
 
 Constructs a plane from three points.
 

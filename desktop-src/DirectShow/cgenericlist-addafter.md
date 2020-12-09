@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CGenericList.AddAfter method
+# CGenericList.AddAfter method (Wxlist.h)
 
 The `AddAfter` method inserts an item after the specified position.
 

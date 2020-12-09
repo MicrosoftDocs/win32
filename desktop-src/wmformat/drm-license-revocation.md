@@ -19,7 +19,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# License Revocation
+# License Revocation (Microsoft Windows Media DRM Client)
 
 License revocation refers to the removal of licenses from a local license store. A common scenario for license revocation occurs when a service provider, such as a music subscription service, must deactivate the service on a user's computer.
 

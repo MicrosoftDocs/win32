@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# GUIDType Simple Type
+# GUIDType Simple Type (Performance Counters)
 
 Defines a globally unique identifier type, in Registry format.
 

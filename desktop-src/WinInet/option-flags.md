@@ -101,7 +101,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Option Flags
+# Option Flags (Wininet.h)
 
 The following option flags are used with the [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona) and [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona) functions. All valid option flags have a value greater than or equal to **INTERNET\_FIRST\_OPTION** and less than or equal to **INTERNET\_LAST\_OPTION**.
 

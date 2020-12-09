@@ -36,7 +36,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_UserDevice class
+# CIM_UserDevice class (CIMWin32 WMI Providers)
 
 The **CIM\_UserDevice** class is a parent class from which other classes, such as [**CIM\_Keyboard**](cim-keyboard.md) or [**CIM\_DesktopMonitor**](cim-desktopmonitor.md), descend. User devices are logical devices that allow a computer system's user to input, view, or hear data.
 

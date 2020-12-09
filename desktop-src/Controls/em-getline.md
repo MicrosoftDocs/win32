@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# EM\_GETLINE message
+# EM_GETLINE message (Winuser.h)
 
 Copies a line of text from an edit control and places it in a specified buffer. You can send this message to either an edit control or a rich edit control.
 

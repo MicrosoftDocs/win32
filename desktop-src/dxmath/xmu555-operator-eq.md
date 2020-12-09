@@ -13,7 +13,7 @@ api_type:
 api_location: 
 ---
 
-# operator = operators
+# XMU555 operator = operators
 
 Assigns vector component data to the current instance of `XMU555`.
 

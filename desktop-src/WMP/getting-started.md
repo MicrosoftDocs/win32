@@ -14,7 +14,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Getting Started
+# Getting Started with the Windows Media Player SDK
 
 To create your plug-in, you first need to install Microsoft eMbedded Visual C++ 4.0 and Visual Studio 2003. You must also install the Pocket PC 2003 SDK or the Smartphone 2003 SDK, which are separate downloads. To compile and run the project, a Pocket PC or Smartphone device running the Windows Mobile 2003 Second Edition operating system must be synchronized with the development computer by using Microsoft ActiveSync® 3.7.1 or later.
 

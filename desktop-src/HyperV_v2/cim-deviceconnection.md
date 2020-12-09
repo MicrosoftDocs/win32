@@ -19,7 +19,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_DeviceConnection class
+# CIM_DeviceConnection class (Hyper-V management)
 
 A relationship that indicates that two or more devices are connected together.
 

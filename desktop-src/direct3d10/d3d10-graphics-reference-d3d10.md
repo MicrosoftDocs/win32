@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Direct3D Reference
+# Direct3D Reference (Direct3D 10 Graphics)
 
 This section contains the following sections:
 

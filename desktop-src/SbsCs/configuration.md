@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Configuration
+# Configuration (Isolated Applications and Side-by-side Assemblies)
 
 [Publisher Configuration Files](publisher-configuration-files.md) and [Application Configuration Files](application-configuration-files.md) enable assembly publishers, application publishers, and administrators to change side-by-side assembly dependencies after deployment.
 

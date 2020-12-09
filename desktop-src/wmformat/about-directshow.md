@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# About DirectShow
+# About DirectShow (Windows Media Format 11 SDK)
 
 DirectShow is a high-level, modular, extensible, data-streaming architecture for the Windows platform. It provides the underlying software components and application programming interfaces (APIs) for a wide variety of digital audio and video applications on the market today. DirectShow is available as part of the Microsoft DirectX Software Development Kit. To learn more about DirectShow, see the Microsoft Platform SDK.
 

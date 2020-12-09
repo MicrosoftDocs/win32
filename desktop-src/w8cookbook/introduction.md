@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Introduction
+# Introduction (Compatibility cookbook for Windows)
 
 Windows 10, Windows 8, Windows 8.1, and Windows Server 2012 R2 introduce the latest operating system technology and software development platforms for use by app developers and enterprises worldwide. As part of further enhancing the security, reliability, performance, and user experience of Windows, Microsoft has introduced many new features, improved existing features, and removed others.
 

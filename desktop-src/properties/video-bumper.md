@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Video
+# Video (Windows Property System)
 
 ## In this section
 

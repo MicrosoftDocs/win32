@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Common Functions
+# Common Functions (Windows Internet)
 
 The different Internet protocols (such as ftp and http) use several of the same WinINet functions to handle information on the Internet. These common functions handle their tasks in a consistent manner, regardless of the particular protocol to which they are being applied. Applications can use these functions to create general-purpose functions that handle tasks across the different protocols (such as reading files for ftp and http).
 

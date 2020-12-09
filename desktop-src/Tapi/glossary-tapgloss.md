@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Glossary
+# Glossary (Telephony API)
 
 This glossary contains definitions for terms used in the documentation of the Telephony Application Programming Interface (TAPI).
 

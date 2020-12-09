@@ -15,7 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_LogicalElement class
+# CIM_LogicalElement class (Hyper-V management)
 
 **CIM\_LogicalElement** is a base class for all components of a System that represent abstract system components, such as files, processes, and logical devices.
 

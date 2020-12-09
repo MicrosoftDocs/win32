@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumerating Audio Types for Specific Encoding Modes
+# Enumerating Audio Types for Specific Encoding Modes (Microsoft Media Foundation)
 
 The input and output media types accepted by the audio encoder are very structured. You must obtain supported output types by calling **IMediaObject::GetOutputType** method or **IMFTransform::GetOutputType**. After you get an output type, you must not alter it.
 

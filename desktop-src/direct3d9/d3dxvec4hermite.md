@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXVec4Hermite function
+# D3DXVec4Hermite function (D3dx9math.h)
 
 Performs a Hermite spline interpolation, using the specified 4D vectors.
 

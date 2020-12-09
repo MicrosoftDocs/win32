@@ -26,7 +26,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_System class
+# CIM_System class (CIMWin32 WMI Providers)
 
 The **CIM\_System** class aggregates an enumerable set of managed system elements. The aggregation operates as a functional whole. Within any particular subclass of the system, there is a well-defined list of managed system element classes whose instances must be aggregated.
 

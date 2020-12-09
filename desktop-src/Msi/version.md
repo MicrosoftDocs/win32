@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Version
+# Version (Windows Installer)
 
 The Version data type is a text string containing a valid version string. A version string has the format
 

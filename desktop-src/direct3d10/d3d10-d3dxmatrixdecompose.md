@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixDecompose function
+# D3DXMatrixDecompose function (D3DX10Math.h)
 
 Breaks down a general 3D transformation matrix into its scalar, rotational, and translational components.
 

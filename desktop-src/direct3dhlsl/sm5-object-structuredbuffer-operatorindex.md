@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Operator\[\] function
+# StructuredBuffer::Operator  function
 
 Returns a read-only resource variable of a [**StructuredBuffer**](sm5-object-structuredbuffer.md).
 

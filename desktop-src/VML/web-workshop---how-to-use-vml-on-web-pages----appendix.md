@@ -18,7 +18,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Appendix
+# Appendix (VML)
 
 This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
 

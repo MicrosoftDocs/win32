@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Message Functions
+# Message Functions (Network Management)
 
 \[The message functions are not supported as of Windows Vista because the alerter and messenger services are not supported.\]
 

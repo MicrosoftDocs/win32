@@ -23,7 +23,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# CIM\_ManagedSystemElement class
+# CIM_ManagedSystemElement class (Remote Desktop Services)
 
 The base class for the system element hierarchy.
 

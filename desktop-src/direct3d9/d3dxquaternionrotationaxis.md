@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXQuaternionRotationAxis function
+# D3DXQuaternionRotationAxis function (D3dx9math.h)
 
 Rotates a quaternion about an arbitrary axis.
 

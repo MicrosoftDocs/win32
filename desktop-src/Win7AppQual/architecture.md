@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Architecture
+# Architecture (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 
 *Loosely-coupled Internet Explorer* (LCIE) improves the browser’s reliability by separating its components and loosening their interdependence.
 

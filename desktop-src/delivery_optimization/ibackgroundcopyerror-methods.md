@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# IBackgroundCopyError Methods
+# IBackgroundCopyError Methods (DO)
 
 The [**IBackgroundCopyError**](ibackgroundcopyerror.md) interface exposes the following methods.
 

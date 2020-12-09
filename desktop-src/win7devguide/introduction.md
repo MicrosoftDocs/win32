@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Introduction
+# Introduction (Windows 7 Developer Guide)
 
 Developing software has never been more exciting. The world has never been more connected, interactive and mobile. User experiences and content have never had higher fidelity. Advances in connectivity, mobility, natural interfaces, graphics and media are enabling new scenarios and opportunities for developers. At the same time, expectations have never been higher for performance, flexibility and interoperability. A world-class developer platform must provide a flexible and complete foundation for developers and their solutions, empowering them to build applications that set them apart from the competition while maximizing their investments.
 

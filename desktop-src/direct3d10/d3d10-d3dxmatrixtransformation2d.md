@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixTransformation2D function
+# D3DXMatrixTransformation2D function (D3DX10Math.h)
 
 Builds a 2D transformation matrix that represents transformations in the xy plane. **NULL** arguments are treated as identity transformations.
 

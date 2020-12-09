@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GUIDType Simple Type
+# GUIDType Simple Type (EventManifest Schema)
 
 Defines a globally unique identifier type, in Registry format.
 

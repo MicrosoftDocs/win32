@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Button
+# Button (Windows Ribbon Framework)
 
 The Button is a control the user can click to provide input to an application.
 

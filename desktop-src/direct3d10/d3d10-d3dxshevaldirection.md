@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXSHEvalDirection function
+# D3DXSHEvalDirection function (D3DX10.h)
 
 Evaluates the spherical harmonic (SH) basis functions from an input direction vector.
 

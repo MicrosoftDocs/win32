@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Encoding Methods
+# Encoding Methods (Microsoft Media Foundation)
 
 Most of the Windows Media Audio and Video codecs support multiple encoding methods. Knowing how and when to use each method can help you create high-quality compressed content.
 

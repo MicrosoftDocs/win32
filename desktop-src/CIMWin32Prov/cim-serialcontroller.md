@@ -41,7 +41,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_SerialController class
+# CIM_SerialController class (CIMWin32 WMI Providers)
 
 The **CIM\_SerialController** class represents the capabilities and management of the serial port logical device.
 

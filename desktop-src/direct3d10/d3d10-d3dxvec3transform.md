@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVec3Transform function
+# D3DXVec3Transform function (D3DX10Math.h)
 
 Transforms vector (x, y, z, 1) by a given matrix.
 

@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_Component class
+# CIM_Component class (Hyper-V management)
 
 Represents a generic association between a parent managed element and a child managed element where the child represents a component or part of the parent.
 

@@ -26,7 +26,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_Service class
+# CIM_Service class (CIMWin32 WMI Providers)
 
 The **CIM\_Service** class represents a logical element that contains information to represent and manage the functionality provided by a device or software feature. A service is a general-purpose object to configure and manage the implementation of functionality; it is not the functionality itself.
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# <version-independent ProgID> Key
+# version-independent ProgID Key
 
 Associates a ProgID with a CLSID. This key is used to determine the latest version of an object application.
 

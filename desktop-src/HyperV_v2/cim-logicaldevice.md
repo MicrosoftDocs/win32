@@ -32,7 +32,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_LogicalDevice class
+# CIM_LogicalDevice class (Hyper-V management)
 
 An abstraction or emulation of a hardware entity that may or may not be based on physical hardware.
 

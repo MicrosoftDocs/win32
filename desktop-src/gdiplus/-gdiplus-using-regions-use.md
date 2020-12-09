@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Using Regions
+# Using Regions (GDI+)
 
 The Windows GDI+ [**Region**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region) class allows you to define a custom shape. The shape can be made up of lines, polygons, and curves.
 

@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXPlaneNormalize function
+# D3DXPlaneNormalize function (D3dx9math.h)
 
 Normalizes the plane coefficients so that the plane normal has unit length.
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# How to Load a Bitmap from a Resource
+# How to Load a Bitmap from a Resource (Windows Imaging Component)
 
 This topic demonstrates how to load an [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) from an application resource.
 

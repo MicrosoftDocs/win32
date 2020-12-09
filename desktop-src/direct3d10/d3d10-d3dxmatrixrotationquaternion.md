@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixRotationQuaternion function
+# D3DXMatrixRotationQuaternion function (D3DX10Math.h)
 
 Builds a rotation matrix from a quaternion.
 

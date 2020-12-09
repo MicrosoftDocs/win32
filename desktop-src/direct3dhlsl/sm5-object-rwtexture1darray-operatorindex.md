@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Operator\[\] function
+# RWTexture1DArray::Operator  function
 
 Returns a resource variable.
 

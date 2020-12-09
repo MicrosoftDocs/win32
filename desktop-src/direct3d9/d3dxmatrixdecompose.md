@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXMatrixDecompose function
+# D3DXMatrixDecompose function (D3dx9math.h)
 
 Breaks down a general 3D transformation matrix into its scalar, rotational, and translational components.
 

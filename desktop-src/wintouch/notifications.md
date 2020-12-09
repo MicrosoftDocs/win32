@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Notifications
+# Notifications (Touch Input)
 
 This section contains notifications for Windows Touch gestures.
 

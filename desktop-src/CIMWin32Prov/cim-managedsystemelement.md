@@ -21,7 +21,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_ManagedSystemElement class
+# CIM_ManagedSystemElement class (CIMWin32 WMI Providers)
 
 The **CIM\_ManagedSystemElement** class is the base class for the system element hierarchy. Any distinguishable system component is a candidate for inclusion in this class. Examples include software components, such as files; devices, such as disk drives and controllers; and physical components, such as chips and cards.
 

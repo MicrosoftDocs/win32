@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# D3DX Interfaces
+# D3DX Interfaces (Direct3D 11 Graphics)
 
 This section contains reference information for the component object model (COM) interfaces provided by the D3DX utility library.
 

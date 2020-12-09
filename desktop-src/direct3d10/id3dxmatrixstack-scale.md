@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# ID3DXMATRIXStack::Scale method
+# ID3DXMATRIXStack::Scale method (D3DX10.h)
 
 Scale the current matrix about the world coordinate origin.
 

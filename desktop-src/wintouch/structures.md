@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Structures
+# Structures (Windows Touch Input)
 
 This section contains structures for Windows Touch input.
 

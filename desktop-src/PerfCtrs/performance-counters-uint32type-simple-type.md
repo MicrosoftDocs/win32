@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# UInt32Type Simple Type
+# UInt32Type Simple Type (Performance Counters)
 
 Defines an unsigned integer type.
 

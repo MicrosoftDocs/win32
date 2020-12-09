@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# ID3DXMATRIXStack::RotateYawPitchRoll method
+# ID3DXMATRIXStack::RotateYawPitchRoll method (D3DX10.h)
 
 Rotates (relative to world coordinate space) around an arbitrary axis.
 

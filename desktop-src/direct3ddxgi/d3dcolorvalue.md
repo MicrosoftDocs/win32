@@ -15,7 +15,7 @@ api_location:
 - dxgitype.h
 ---
 
-# D3DCOLORVALUE structure
+# D3DCOLORVALUE structure (Dxgitype.h)
 
 Represents a color value with alpha, which is used for transparency.
 

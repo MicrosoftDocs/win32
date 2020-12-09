@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixPerspectiveFovLH function
+# D3DXMatrixPerspectiveFovLH function (D3DX10Math.h)
 
 Builds a left-handed perspective projection matrix based on a field of view.
 

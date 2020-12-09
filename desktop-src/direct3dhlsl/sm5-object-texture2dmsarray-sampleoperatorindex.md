@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# sample.Operator\[\]\[\] function
+# Texture2DMSArray::sample.Operator    function
 
 Returns a read-only resource variable.
 

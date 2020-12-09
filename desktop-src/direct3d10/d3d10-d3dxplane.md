@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DXPLANE structure
+# D3DXPLANE structure (D3DX10Math.h)
 
 Describes a plane.
 

@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# ID3DXMATRIXStack::GetTop method
+# ID3DXMATRIXStack::GetTop method (D3dx9math.h)
 
 Retrieves the current matrix at the top of the stack.
 

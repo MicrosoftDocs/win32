@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# ID3DXMATRIXStack::LoadIdentity method
+# ID3DXMATRIXStack::LoadIdentity method (D3dx9math.h)
 
 Loads identity in the current matrix.
 

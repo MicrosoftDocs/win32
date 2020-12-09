@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Control Events
+# Control Events (Windows Installer)
 
 A ControlEvent specifies an action to be taken by the installer or a change in the attributes of one or more controls in a dialog box. For more information about ControlEvents, see [ControlEvent Overview](controlevent-overview.md).
 

@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXQuaternionInverse function
+# D3DXQuaternionInverse function (D3DX10Math.h)
 
 Conjugates and renormalizes a quaternion.
 

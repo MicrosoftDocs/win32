@@ -15,7 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_Display class
+# CIM_Display class (Hyper-V management)
 
 A superclass for classes that represent display devices.
 

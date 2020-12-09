@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Clipping
+# Clipping (Windows GDI)
 
 *Clipping* is the process of limiting output to a region or path within the client area of an application window. The following sections discuss clipping.
 

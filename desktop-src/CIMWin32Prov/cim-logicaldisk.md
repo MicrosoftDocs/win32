@@ -42,7 +42,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_LogicalDisk class
+# CIM_LogicalDisk class (CIMWin32 WMI Providers)
 
 The **CIM\_LogicalDisk** class represents a contiguous range of logical blocks that is identifiable by a file system through the disk's **DeviceID** (key) field. For example, in a Windows environment, the **DeviceID** field contains a drive letter; in a UNIX environment, it contains the access path; and in a NetWare environment, it contains the volume name.
 

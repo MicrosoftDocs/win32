@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Event Logging
+# Event Logging (Windows Installer)
 
 [Windows Events](../events/windows-events.md) provides a standard, centralized way for applications (and the operating system) to record important software and hardware events. The event-logging service stores events from various sources in a single collection called an *event log*. Prior to Windows Vista, you would use either [Event Tracing for Windows](../etw/event-tracing-portal.md) (ETW) or [Event Logging](../eventlog/event-logging.md) to log events. Windows Vista introduced a new eventing model that unifies both ETW and the [Windows Event Log](../wes/windows-event-log.md) API.
 

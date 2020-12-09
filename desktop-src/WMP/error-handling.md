@@ -16,7 +16,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Error Handling
+# Error Handling (Windows Media Player SDK)
 
 The Windows Media Player 6.4 ActiveX control provides default error handling by displaying error messages in dialog boxes and on the status bar. You can also provide custom error handling by processing errors in your script. Error handling is event driven, which means you receive a notification for each error, and must decide how to deal with each error event when it occurs. For more information about handling errors using the version 6.4 object model, see the Error Handling section of the Version 6.4 Player Object Model Guide, which is part of the Windows Media Player SDK.
 

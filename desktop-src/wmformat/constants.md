@@ -12,7 +12,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Constants
+# Windows Media Format SDK Constants
 
 This section describes constants used by the objects of the Windows Media DRM Client Extended APIs. It includes the topics listed in the following table.
 

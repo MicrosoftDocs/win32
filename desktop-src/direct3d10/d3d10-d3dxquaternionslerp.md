@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXQuaternionSlerp function
+# D3DXQuaternionSlerp function (D3DX10Math.h)
 
 Interpolates between two quaternions, using spherical linear interpolation.
 

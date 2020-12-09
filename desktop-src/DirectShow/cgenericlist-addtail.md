@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CGenericList.AddTail method
+# CGenericList.AddTail method (Wxlist.h)
 
 The `AddTail` method appends an item to the end of the list.
 

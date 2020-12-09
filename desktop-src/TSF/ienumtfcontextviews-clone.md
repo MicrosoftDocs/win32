@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# IEnumTfContextViews:: method
+# IEnumTfContextViews method
 
 ## Syntax
 

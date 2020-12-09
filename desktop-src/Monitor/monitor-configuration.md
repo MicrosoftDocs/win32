@@ -18,7 +18,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Monitor Configuration
+# Monitor Configuration (Monitor Configuration)
 
 You can use the monitor configuration functions to get information from a monitor and to change a monitor's settings. You can use these functions to :
 

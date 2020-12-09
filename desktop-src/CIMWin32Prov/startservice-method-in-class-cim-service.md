@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# StartService method of the CIM\_Service class
+# StartService method of the CIM_Service class (CIMWin32 WMI Providers)
 
 The **StartService** method puts the service in a started state.
 

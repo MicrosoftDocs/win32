@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Error Handling in COM
+# Error Handling in COM (COM)
 
 Almost all COM functions and interface methods return a value of the type **HRESULT**. The **HRESULT** (for *result handle*) is a way of returning success, warning, and error values. **HRESULT**s are really not handles to anything; they are only values with several fields encoded in the value. As per the COM specification, a result of zero indicates success and a nonzero result indicates failure.
 

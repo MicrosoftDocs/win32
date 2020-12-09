@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Encoding
+# Encoding (Windows Imaging Component)
 
 The encoder author must do the following:
 

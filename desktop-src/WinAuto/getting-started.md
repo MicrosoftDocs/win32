@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Getting Started
+# Getting Started (Microsoft Active Accessibility)
 
 Microsoft Active Accessibility is a set of Component Object Model (COM) interfaces and API elements that provide a reliable way to expose and collect information about Microsoft Windows-based UI elements and web content. Using this information, assistive technology vendors can represent the UI in alternative formats, such as speech or Braille, and voice command and control applications can remotely manipulate the interface. Microsoft Active Accessibility relies on Windows technology and can be used in conjunction only with Windows-based controls and other Windows applications.
 

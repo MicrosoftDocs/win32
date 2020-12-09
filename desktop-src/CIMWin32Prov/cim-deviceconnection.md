@@ -20,7 +20,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_DeviceConnection class
+# CIM_DeviceConnection class (CIMWin32 WMI Providers)
 
 The **CIM\_DeviceConnection** association class represents two or more connected devices.
 

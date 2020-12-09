@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# WM\_INDIVIDUALIZE\_STATUS structure
+# WM_INDIVIDUALIZE_STATUS structure (Wmdrmsdk.h)
 
 The **WM\_INDIVIDUALIZE\_STATUS** structure holds information about a pending individualization process.
 

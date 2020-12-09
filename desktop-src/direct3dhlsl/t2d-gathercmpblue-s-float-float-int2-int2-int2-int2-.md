@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherCmpBlue(S,float,float,int2,int2,int2,int2) function
+# Texture2D::GatherCmpBlue(S,float,float,int2,int2,int2,int2) function
 
 Samples a texture, tests the samples against a compare value, and returns the blue component.
 

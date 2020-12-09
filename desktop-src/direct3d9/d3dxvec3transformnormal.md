@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXVec3TransformNormal function
+# D3DXVec3TransformNormal function (D3dx9math.h)
 
 Transforms the 3D vector normal by the given matrix.
 

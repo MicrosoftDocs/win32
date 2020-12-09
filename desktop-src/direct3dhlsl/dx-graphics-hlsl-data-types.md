@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# Data Types
+# Data Types (HLSL)
 
 HLSL supports many different intrinsic data types. This table shows which types to use to define shader variables.
 

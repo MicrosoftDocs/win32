@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Numbers
+# Numbers (WMI)
 
 In MOF, numbers are digits that describe numerical values. MOF provides a variety of data types that translate into Automation, and also allows those numbers to be in different formats. The following table lists the numeric values that MOF supports.
 

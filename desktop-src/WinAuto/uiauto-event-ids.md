@@ -50,7 +50,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Event Identifiers
+# Event Identifiers (UIAutomationClient.h)
 
 This topic describes the named constants used to identify Microsoft UI Automation events.
 

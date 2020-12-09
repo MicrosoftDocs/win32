@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# D3DX Enumerations
+# D3DX Enumerations (Direct3D 11 Graphics)
 
 This section contains information about D3DX 11 enumerations.
 

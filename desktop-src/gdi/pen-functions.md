@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Pen Functions
+# Pen Functions (Windows GDI)
 
 The following functions are used with pens.
 

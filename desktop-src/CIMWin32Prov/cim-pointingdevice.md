@@ -40,7 +40,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_PointingDevice class
+# CIM_PointingDevice class (CIMWin32 WMI Providers)
 
 The **CIM\_PointingDevice** class represents a device that points to regions on the display. Any device that manipulates a pointer, or points to regions on a visual display, is a member of this class. For example, a mouse, stylus, touch pad, or tablet.
 

@@ -5,7 +5,7 @@ ms.topic: article
 ms.date: 10/12/2018
 ---
 
-# Diagnostics
+# Diagnostics (Developer Notes)
 
 ## In this section
 

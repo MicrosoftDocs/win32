@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixAffineTransformation function
+# D3DXMatrixAffineTransformation function (D3DX10Math.h)
 
 Builds a 3D affine transformation matrix. **NULL** arguments are treated as identity transformations.
 

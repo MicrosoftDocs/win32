@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXColorAdjustSaturation function
+# D3DXColorAdjustSaturation function (D3DX10Math.h)
 
 Adjusts the saturation value of a color.
 

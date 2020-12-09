@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Choosing a Video Codec
+# Choosing a Video Codec (Microsoft Media Foundation)
 
 The Windows Media Video 9 Encoder supports three categories of encoded output: Main Profile, Advanced Profile, and Image. The Main Profile category provides general video compression for complex video content, such as movies or music videos. The features of the Main Profile provide for a wide range of encoding settings. You can use the Main Profile to create video with very low bit rates for delivery on handheld devices or, at the other end of the spectrum, you can use it to create high-definition video for digital cinema.
 

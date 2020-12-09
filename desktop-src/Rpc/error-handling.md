@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Error Handling
+# Error Handling (RPC)
 
 In synchronous RPC, a client makes a remote call that returns with either a success or failure code. Asynchronous RPC provides more opportunities for a call to fail, and these failures are handled differently, depending on where and when they occur. The following table describes the ways in which a call can fail, and how it is handled.
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Effect Reference
+# Effect Reference (Direct3D 10 Graphics)
 
 The Direct3D API defines several API elements to help you create and manage the effect system.
 

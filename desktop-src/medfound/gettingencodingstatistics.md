@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Getting Encoding Statistics
+# Getting Encoding Statistics (Microsoft Media Foundation)
 
 Information about what is happening in an encoding session is generally immediately available in the form of error codes returned when processing samples. However, there are some statistics that you can retrieve from the codec about various encoding aspects.
 

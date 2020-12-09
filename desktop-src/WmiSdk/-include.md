@@ -12,7 +12,9 @@ api_type:
 api_location: 
 ---
 
-# \#include
+# '#include'
+/*   Title: MyMof.Mof                           */
+/*   Title: MyMof2.Mof                               */
 
 The \#include preprocessor command includes the contents of one MOF file into another MOF file. The following code example describes the syntax for the \#include command.
 

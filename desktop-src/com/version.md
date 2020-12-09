@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Version
+# Version (COM)
 
 Specifies the version number of the control.
 

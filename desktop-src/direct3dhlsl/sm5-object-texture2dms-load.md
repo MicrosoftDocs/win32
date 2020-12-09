@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int,int) function
+# Texture2DMS::Load(int,int) function
 
 Gets one value.
 

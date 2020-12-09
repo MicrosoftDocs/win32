@@ -15,7 +15,7 @@ api_location:
 - D3D9Types.h
 ---
 
-# D3DVECTOR structure
+# D3DVECTOR structure (D3D9Types.h)
 
 Defines a vector.
 

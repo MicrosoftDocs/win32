@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXIntersectTri function
+# D3DXIntersectTri function (D3DX9Mesh.h)
 
 Computes the intersection of a ray and a triangle.
 

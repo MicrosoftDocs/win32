@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Sample Applications
+# Windows Media Format SDK Sample Applications
 
 The sample code supplied with this SDK is in the form of projects for Microsoft Visual Studio 2005. Most of the samples are in C++, but ManagedWMFSDKWrapper and ManagedMetadataEdit require C#.
 

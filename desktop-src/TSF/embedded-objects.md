@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Embedded Objects
+# Embedded Objects (Text Services Framework)
 
 Text Services Framework enables a text service to embed objects in an application text stream. Embedded objects are inserted into the text stream using the value [TS\_CHAR\_EMBEDDED](ts-char--constants.md). This value resolves to the Unicode object replacement character U+fffc, using hexadecimal notation. For example, the following illustration shows the rendering of an embedded object that represents the Japanese ideograph *hi*, in combination with the sequence of Unicode characters that represent the English translation of "Sun."
 

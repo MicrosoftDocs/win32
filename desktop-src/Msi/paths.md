@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Paths
+# Paths (Windows Installer)
 
 The Paths data type is a text string containing a list of [Path](path.md) data types, separated by semicolons (;).
 

@@ -23,7 +23,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# Win32\_PrivilegesStatus class
+# Win32_PrivilegesStatus class (CIMWin32 WMI Providers)
 
 The **Win32\_PrivilegesStatus** [WMI class](../wmisdk/retrieving-a-class.md) reports information about privileges required to complete an operation. It may be returned when an operation failed or when a partially populated instance has been returned.
 

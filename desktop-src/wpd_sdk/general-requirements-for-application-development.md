@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# General Requirements for Application Development
+# General Requirements for Application Development (WPD API)
 
 To create a Windows Portable Devices application, you must have the [Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads) installed on your computer. The required headers and libraries appear in the following list.
 

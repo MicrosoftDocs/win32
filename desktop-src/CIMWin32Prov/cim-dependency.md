@@ -18,7 +18,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_Dependency class
+# CIM_Dependency class (CIMWin32 WMI Providers)
 
 The **CIM\_Dependency** class represents an association that establishes dependency relationships between objects.
 

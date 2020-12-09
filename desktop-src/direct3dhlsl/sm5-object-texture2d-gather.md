@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Gather(S,float,int) function
+# Texture2D::Gather(S,float,int) function
 
 Samples a texture and returns all four components.
 

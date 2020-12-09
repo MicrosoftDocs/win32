@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXQuaternionToAxisAngle function
+# D3DXQuaternionToAxisAngle function (D3DX10Math.h)
 
 Computes a quaternion's axis and angle of rotation.
 

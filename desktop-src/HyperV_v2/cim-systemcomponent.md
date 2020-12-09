@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_SystemComponent class
+# CIM_SystemComponent class (Hyper-V management)
 
 Represents an association between a system and one of the elements that compose it.
 

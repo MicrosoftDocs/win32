@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Brush Functions
+# Brush Functions (Windows GDI)
 
 The following functions are used with brushes.
 

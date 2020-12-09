@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Application Verifier
+# Application Verifier (Developer Notes)
 
 ## In this section
 

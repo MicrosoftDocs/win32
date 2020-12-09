@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXVec4Cross function
+# D3DXVec4Cross function (D3dx9math.h)
 
 Determines the cross-product in four dimensions.
 

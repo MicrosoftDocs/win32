@@ -23,7 +23,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# CIM\_ElementSetting class
+# CIM_ElementSetting class (Remote Desktop Services)
 
 Represents the association between managed system elements and the setting class defined for them.
 

@@ -19,7 +19,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_PointingDevice class
+# CIM_PointingDevice class (Hyper-V management)
 
 Represents a device used to point to regions of a display.
 

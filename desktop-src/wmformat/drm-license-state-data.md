@@ -17,7 +17,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# DRM\_LICENSE\_STATE\_DATA structure
+# DRM_LICENSE_STATE_DATA structure (Drmexternals.h)
 
 The **DRM\_LICENSE\_STATE\_DATA** structure contains [*license*](wmformat-glossary.md) information about a specified [*DRM*](wmformat-glossary.md) right.
 

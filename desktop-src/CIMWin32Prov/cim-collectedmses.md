@@ -18,7 +18,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_CollectedMSEs class
+# CIM_CollectedMSEs class (CIMWin32 WMI Providers)
 
 The **CIM\_CollectedMSEs** association class represents the members of the grouping object, a [**CollectionOfMSEs**](cim-collectionofmses.md) class.
 

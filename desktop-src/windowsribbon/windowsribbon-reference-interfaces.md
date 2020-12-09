@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Interfaces
+# Interfaces (Ribbon Framework)
 
 Reference documentation for the Windows Ribbon framework interfaces.
 

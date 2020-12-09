@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXPlaneIntersectLine function
+# D3DXPlaneIntersectLine function (D3DX10Math.h)
 
 Finds the intersection between a plane and a line.
 

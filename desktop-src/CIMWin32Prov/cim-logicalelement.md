@@ -21,7 +21,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_LogicalElement class
+# CIM_LogicalElement class (CIMWin32 WMI Providers)
 
 The **CIM\_LogicalElement** class is the base class for all system components that represent abstract system components, such as profiles, processes, or system capabilities, in the form of logical devices.
 

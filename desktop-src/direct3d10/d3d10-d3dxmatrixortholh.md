@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixOrthoLH function
+# D3DXMatrixOrthoLH function (D3DX10Math.h)
 
 Builds a left-handed orthographic projection matrix.
 

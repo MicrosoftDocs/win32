@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# References
+# References (Tablet PC)
 
 For information about enabling speech recognition in your application, refer to the Microsoft Speech SDK, which can be found at [Microsoft Speech SDK](https://www.microsoft.com/speech/download/sdk51/). This site also contains an overview of the Microsoft Speech API and application design guidelines.
 

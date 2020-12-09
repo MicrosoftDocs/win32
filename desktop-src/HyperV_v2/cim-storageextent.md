@@ -35,7 +35,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_StorageExtent class
+# CIM_StorageExtent class (Hyper-V management)
 
 Describes the capabilities and management of media that stores data and allows retrieval of the data. This super class is used to represent software and hardware RAID components, or a raw logical extent of physical media.
 

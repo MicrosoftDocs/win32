@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Installation
+# Installation (Telephony API)
 
 The primary sources for installation procedures are the Resource Kit for the target operating system, application documentation, and service provider instructions. For Microsoft service providers, the appropriate resource kit contains instructions.
 

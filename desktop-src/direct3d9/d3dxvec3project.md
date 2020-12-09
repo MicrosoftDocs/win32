@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXVec3Project function
+# D3DXVec3Project function (D3dx9math.h)
 
 Projects a 3D vector from object space into screen space.
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Frame
+# Frame (Direct3D 9 Graphics)
 
 Defines a coordinate frame, or "frame of reference." The Frame template is open and can contain any object. The D3DX mesh-loading functions recognize [**Mesh**](mesh.md), [**FrameTransformMatrix**](frametransformmatrix.md), and **Frame** template instances as child objects when loading a **Frame** instance.
 

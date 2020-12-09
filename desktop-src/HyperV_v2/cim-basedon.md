@@ -20,7 +20,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_BasedOn class
+# CIM_BasedOn class (Hyper-V management)
 
 Represents an association between a higher level **CIM\_StorageExtent** object and a lower level **CIM\_StorageExtent** object. For example a [**CIM\_ProtectedSpaceExtent**](/windows/desktop/CIMWin32Prov/cim-protectedspaceextent) object is a part of a [**CIM\_PhysicalExtent**](/windows/desktop/CIMWin32Prov/cim-physicalextent) object.
 

@@ -23,7 +23,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Getting Started
+# Getting Started with Microsoft Windows Media DRM Client
 
 This part of the programming guide describes how to set up a project using the Windows Media DRM Client Extended APIs, and provides basic information about using the APIs. It contains the following topics.
 

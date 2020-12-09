@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CMediaType.Set method
+# CMediaType.Set method (Mtype.h)
 
 The `Set` method sets the media type from another media type.
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Using Regions
+# Using Regions (Windows GDI)
 
 This topic has code examples for the following tasks.
 

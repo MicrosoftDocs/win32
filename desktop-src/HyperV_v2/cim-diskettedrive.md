@@ -15,7 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_DisketteDrive class
+# CIM_DisketteDrive class (Hyper-V management)
 
 Represents a diskette drive.
 

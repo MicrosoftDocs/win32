@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Common Functions
+# Common Functions (Peer-to-Peer)
 
 The Peer Infrastructure uses the following common functions.
 

@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Animation
+# Animation (Direct3D 9 Graphics)
 
 Contains animations referencing a previous frame. It should contain one reference to a frame and at least one set of [**AnimationKey**](animationkey.md) templates. It also can contain an [**AnimationOptions**](animationoptions.md) data object.
 

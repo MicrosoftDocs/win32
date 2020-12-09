@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Video Encoding with Temporal Compression
+# Video Encoding with Temporal Compression (Microsoft Media Foundation)
 
 To achieve the highest compression ratios possible, the Windows Media Video codecs use *temporal compression*. Temporal compression is a technique of reducing compressed video size by not encoding each frame as a complete image. The frames that are encoded completely (like a static image) are called *key frames*. All other frames in the video are represented by data specifying the change since the last frame. These frames are called *delta frames*.
 

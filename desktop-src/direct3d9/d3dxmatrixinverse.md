@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXMatrixInverse function
+# D3DXMatrixInverse function (D3dx9math.h)
 
 Calculates the inverse of a matrix.
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Dynamic-Link Libraries
+# Dynamic-Link Libraries (Dynamic-Link Libraries)
 
 A *dynamic-link library* (DLL) is a module that contains functions and data that can be used by another module (application or DLL).
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Shader Enumerations
+# Shader Enumerations (Direct3D 11 Graphics)
 
 Enumerations are used to specify information about shaders.
 

@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumerations
+# Enumerations (Inertia and Manipulation)
 
 This section contains enumerations for manipulation.
 

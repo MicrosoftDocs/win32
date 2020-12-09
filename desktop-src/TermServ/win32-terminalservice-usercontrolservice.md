@@ -19,7 +19,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# UserControlService method of the Win32\_Service class
+# UserControlService method of the Win32_Service class (Remote Desktop Services)
 
 The **UserControlService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method attempts to send a user-defined control code to the referenced service.
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Reading ASF Files in DirectShow
+# Reading ASF Files in DirectShow (DirectShow)
 
 This topic contains the following sections.
 

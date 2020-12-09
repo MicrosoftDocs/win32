@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Bitmaps
+# Bitmaps (Windows Media Player SDK)
 
 You must use one or more images in your skin, and each image must be defined in the skin definition file. If you do not define an image in this section, your skin will not be able to use it.
 

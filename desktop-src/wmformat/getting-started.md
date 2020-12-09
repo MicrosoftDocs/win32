@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Getting Started
+# Getting Started with Windows Media Format SDK
 
 The following sections list the settings and issues that should be taken into account before developing applications with this SDK.
 

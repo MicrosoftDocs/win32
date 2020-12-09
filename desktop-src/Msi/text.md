@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Text
+# Text (Windows Installer)
 
 The Text data type is a text string. It is not validated.
 

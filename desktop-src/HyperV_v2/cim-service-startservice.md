@@ -15,7 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# StartService method of the CIM\_Service class
+# StartService method of the CIM_Service class (Hyper-V management)
 
 Places the service in the started state.
 
