@@ -47,7 +47,7 @@ The polarity of the pin or channel as a [**PWM\_POLARITY**](/windows/desktop/api
 
 
 
-|                                     |                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                      |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                             |

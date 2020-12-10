@@ -140,7 +140,7 @@ This class provides properties that are inherited by the [**Win32\_Trustee**](/p
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

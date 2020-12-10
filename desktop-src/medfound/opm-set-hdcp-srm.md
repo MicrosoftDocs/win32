@@ -12,7 +12,7 @@ Updates the system renewability message (SRM) for High-Bandwidth Digital Content
 
 
 
-|              |                                                                                     |
+| Requirement | Value |
 |--------------|-------------------------------------------------------------------------------------|
 | Command GUID | OPM\_SET\_HDCP\_SRM                                                                 |
 | Input data   | An [**OPM\_SET\_HDCP\_SRM\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-opm_set_hdcp_srm_parameters) structure |
@@ -48,7 +48,7 @@ This command is not supported when the **IOPMVideoOutput** interface emulates Ce
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

@@ -12,7 +12,7 @@ Specifies information about the video signal, other than the protection level.
 
 
 
-|              |                                                                                                                     |
+| Requirement | Value |
 |--------------|---------------------------------------------------------------------------------------------------------------------|
 | Command GUID | OPM\_SET\_ACP\_AND\_CGMSA\_SIGNALING                                                                                |
 | Input data   | An [**OPM\_SET\_ACP\_AND\_CGMSA\_SIGNALING\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-opm_set_acp_and_cgmsa_signaling_parameters) structure |
@@ -31,7 +31,7 @@ For CGMS-A, certain protection standards require that the television signal cont
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

@@ -21,7 +21,7 @@ Returns one of the encryption types that can be used to encrypt content before i
 
 
 
-|             |                                                                                                                                    |
+| Requirement | Value |
 |-------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Query GUID  | **D3DAUTHENTICATEDQUERY\_ENCRYPTIONWHENACCESSIBLEGUID**                                                                            |
 | Input data  | [**D3DAUTHENTICATEDCHANNEL\_QUERYEVICTIONENCRYPTIONGUID\_INPUT**](d3dauthenticatedchannel-queryevictionencryptionguid-input.md)   |
@@ -42,7 +42,7 @@ The following channel types support this query:
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

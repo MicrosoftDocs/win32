@@ -21,7 +21,7 @@ Returns the number of output identifiers associated with a specified cryptograph
 
 
 
-|             |                                                                                                                  |
+| Requirement | Value |
 |-------------|------------------------------------------------------------------------------------------------------------------|
 | Query GUID  | **D3DAUTHENTICATEDQUERY\_OUTPUTIDCOUNT**                                                                         |
 | Input data  | [**D3DAUTHENTICATEDCHANNEL\_QUERYOUTPUTIDCOUNT\_INPUT**](d3dauthenticatedchannel-queryoutputidcount-input.md)   |
@@ -42,7 +42,7 @@ The following channel types support this query:
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

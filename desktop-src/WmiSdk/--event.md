@@ -83,7 +83,7 @@ The **\_\_Event** class is derived from [**\_\_IndicationRelated**](--indication
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

@@ -40,7 +40,7 @@ Do not call the [**Exit**](/previous-versions//hh438368(v=vs.85)) method from wi
 
 
 
-|                                     |                                                                                                              |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                         |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                               |

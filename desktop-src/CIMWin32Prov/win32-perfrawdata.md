@@ -237,7 +237,7 @@ All classes derived from [**Win32\_Perf**](win32-perf.md) are designed to be use
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                             |

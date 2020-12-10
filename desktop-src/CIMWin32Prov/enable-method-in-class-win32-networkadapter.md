@@ -74,7 +74,7 @@ WScript.Echo "NetEnabled= " & colAdapters.ItemIndex(0).NetEnabled
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

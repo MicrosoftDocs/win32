@@ -22,7 +22,7 @@ This is the a device reference time stamp of media samples in 100ns resolution. 
 
 
 
-|                                     |                                                                                                |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                   |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                        |

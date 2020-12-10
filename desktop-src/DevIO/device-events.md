@@ -336,7 +336,7 @@ The **dbch\_hdevnotify** member of the [**DEV\_BROADCAST\_HANDLE**](/windows/des
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                       |

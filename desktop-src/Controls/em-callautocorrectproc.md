@@ -53,7 +53,7 @@ The return value is zero if the message succeeds, or nonzero if an error occurs.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |

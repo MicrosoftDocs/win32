@@ -131,7 +131,7 @@ In each definition, the %d section is replaced with the process ID, and the %u s
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | None supported<br/>                                                              |

@@ -105,7 +105,7 @@ Specifies that the BaseClass value should be ignored.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 2000 Professional, Windows XP \[desktop apps only\]               |
 | Minimum supported server | Windows 2000 Server \[desktop apps only\]                                 |

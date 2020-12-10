@@ -103,7 +103,7 @@ If the function fails, the return value is a **ULONG** that indicates the error.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

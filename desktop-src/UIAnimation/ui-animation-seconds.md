@@ -23,7 +23,7 @@ typedef DOUBLE UI_ANIMATION_SECONDS;
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7, Windows Vista and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                              |

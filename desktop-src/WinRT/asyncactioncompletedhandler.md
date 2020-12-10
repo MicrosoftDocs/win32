@@ -47,7 +47,7 @@ Assign an **AsyncActionCompletedHandler** to an [**IAsyncAction**](/windows/win3
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                              |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |

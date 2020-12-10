@@ -225,7 +225,7 @@ Number of tracks in each cylinder on the physical disk drive. Note: the value fo
 
 
 
-|                                     |                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                   |

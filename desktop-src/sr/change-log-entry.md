@@ -177,7 +177,7 @@ The variable-length data records consist of a [**RECORD\_HEADER**](record-header
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                            |

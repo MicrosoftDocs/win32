@@ -1601,7 +1601,7 @@ The [List UPS Information](https://Gallery.TechNet.Microsoft.Com/7196121e-97de-4
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -128,7 +128,7 @@ When the **CopyCallback** method is called, the Shell initializes the [IStorageP
 
 ## Requirements
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 10 Insider Preview Build 19624                                |
 | Header                   | shobjidl.h   |

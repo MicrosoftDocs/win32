@@ -85,7 +85,7 @@ This API is intended for implementing a graphics driver or runtime. An applicati
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Minimum supported client | Windows 7 \[desktop apps only\] |
 | Minimum supported server | None supported |

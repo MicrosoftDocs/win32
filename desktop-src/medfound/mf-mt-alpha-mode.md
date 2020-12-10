@@ -24,7 +24,7 @@ This value can be cast to a [**DXGI\_ALPHA\_MODE**](/windows/win32/api/dxgi1_2/n
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                      |

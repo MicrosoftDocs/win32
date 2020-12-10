@@ -94,7 +94,7 @@ If the **WZCEapolGetInterfaceParams** returns ERROR\_SUCCESS, the caller should 
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

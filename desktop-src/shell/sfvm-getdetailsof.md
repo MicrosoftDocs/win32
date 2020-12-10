@@ -44,7 +44,7 @@ A pointer to a [**DETAILSINFO**](/windows/desktop/api/shlobj_core/ns-shlobj_core
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |

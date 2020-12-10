@@ -52,7 +52,7 @@ A pointer to a [**NMSEARCHWEB**](/windows/desktop/api/Commctrl/ns-commctrl-nmsea
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, 1809 \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2019 \[desktop apps only\]<br/>                                                     |

@@ -37,7 +37,7 @@ The **IStorageProviderCopyHook** interface has these methods.
 
 ## Requirements
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 10 Insider Preview Build 19624                                                |
 | Header<br/>                   | shobjidl.h   |

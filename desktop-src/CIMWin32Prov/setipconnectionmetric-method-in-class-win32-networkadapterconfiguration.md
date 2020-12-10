@@ -407,7 +407,7 @@ The [Modify the IP Connection Metric for a Network Adapter](https://Gallery.Tech
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows Vista<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2008, Windows Server 2008<br/>                                     |

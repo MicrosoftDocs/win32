@@ -70,7 +70,7 @@ Use this method to duplicate an [**SWbemNamedValueSet**](swbemnamedvalueset.md) 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

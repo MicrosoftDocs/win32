@@ -12,7 +12,7 @@ Returns a description of the video signal that is being transmitted over the con
 
 
 
-|              |                                                                              |
+| Requirement | Value |
 |--------------|------------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_ACTUAL\_OUTPUT\_FORMAT                                             |
 | Input data   | None                                                                         |
@@ -32,7 +32,7 @@ This query is equivalent to the DXVA\_COPPQueryDisplayData query used in Certifi
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

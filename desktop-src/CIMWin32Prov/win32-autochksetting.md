@@ -124,7 +124,7 @@ The **Win32\_AutochkSetting** class is derived from [**CIM\_Setting**](cim-setti
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -128,7 +128,7 @@ Alternatively, you can define this control code as follows:
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP1 \[desktop apps only\]<br/>                   |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

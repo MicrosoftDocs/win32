@@ -105,7 +105,7 @@ This interface has been extended by the following interfaces, with each new inte
 
 
 
-|                                     |                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                         |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |

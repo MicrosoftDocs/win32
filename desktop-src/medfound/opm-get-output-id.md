@@ -12,7 +12,7 @@ Returns the unique identifier of the monitor associated with this video output.
 
 
 
-|              |                                                                  |
+| Requirement | Value |
 |--------------|------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_OUTPUT\_ID                                             |
 | Input data   | None                                                             |
@@ -30,7 +30,7 @@ The video driver assigns a unique identifier to each monitor. This query returns
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

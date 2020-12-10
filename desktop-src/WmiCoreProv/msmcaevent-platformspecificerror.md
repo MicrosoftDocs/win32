@@ -350,7 +350,7 @@ The **MSMCAEvent\_PlatformSpecificError** class is derived from [**WMIEvent**](w
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                         |

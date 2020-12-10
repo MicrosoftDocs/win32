@@ -45,7 +45,7 @@ Loosing events depends on the frequency with which the events are logged and how
 
 
 
-|                                     |                                                |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                      |

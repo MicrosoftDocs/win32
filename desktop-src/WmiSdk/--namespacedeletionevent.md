@@ -97,7 +97,7 @@ The **\_\_NamespaceDeletionEvent** class is derived from [**\_\_NamespaceOperati
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

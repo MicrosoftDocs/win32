@@ -41,7 +41,7 @@ The following table lists the GUIDs that identify Direct3D 12 video decoding pro
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                               |

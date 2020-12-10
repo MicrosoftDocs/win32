@@ -61,7 +61,7 @@ The **IP\_NEXT\_HOP\_ADDRESS** structure is a typedef of the [**IP\_NETWORK**](i
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                        |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |

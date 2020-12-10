@@ -66,7 +66,7 @@ The MAC address of the virtual NIC. It should have the form "*XX*-*XX*-*XX*-*XX*
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |

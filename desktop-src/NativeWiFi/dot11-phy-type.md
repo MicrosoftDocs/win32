@@ -139,7 +139,7 @@ An IHV can assign a value for its proprietary PHY types from **dot11\_phy\_type\
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/>                   |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |

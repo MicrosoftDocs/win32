@@ -120,7 +120,7 @@ For optimal performance, the *pMessage* structures should be allocated from cont
 
 ## Requirements
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client | Windows XP \[desktop apps only\]                                                            |
 | Minimum supported server | Windows Server 2003 \[desktop apps only\]                                                   |

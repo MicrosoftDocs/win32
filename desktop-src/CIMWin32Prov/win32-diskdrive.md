@@ -1988,7 +1988,7 @@ The [Map Drive to Drive Letter Using the Win32\_DiskDrive Interface Type Propert
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

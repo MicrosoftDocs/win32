@@ -55,7 +55,7 @@ The properties for the contrast effect are defined by the [**D2D1\_CONTRAST\_PRO
 
 ## Requirements
 
-|                          |                                                   |
+| Requirement | Value |
 |--------------------------|---------------------------------------------------|
 | Minimum supported client | Windows 10 \[desktop apps \| Windows Store apps\] |
 | Minimum supported server | Windows 10 \[desktop apps \| Windows Store apps\] |

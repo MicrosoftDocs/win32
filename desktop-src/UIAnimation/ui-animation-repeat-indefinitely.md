@@ -30,7 +30,7 @@ Indicates that the interval between two keyframes in a storyboard should repeat 
 
 
 
-|                                     |                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7, Windows Vista and Platform Update for Windows Vista \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                       |

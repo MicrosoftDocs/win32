@@ -49,7 +49,7 @@ This method returns **S\_OK** if successful or a failure code otherwise.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                |

@@ -21,7 +21,7 @@ Returns information about a process that is allowed to open shared resources wit
 
 
 
-|             |                                                                                                                                                      |
+| Requirement | Value |
 |-------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Query GUID  | **D3DAUTHENTICATEDQUERY\_RESTRICTEDSHAREDRESOURCEPROCESS**                                                                                           |
 | Input data  | [**D3DAUTHENTICATEDCHANNEL\_QUERYRESTRICTEDSHAREDRESOURCEPROCESS\_INPUT**](d3dauthenticatedchannel-queryrestrictedsharedresourceprocess-input.md)   |
@@ -42,7 +42,7 @@ The following channel types support this query:
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

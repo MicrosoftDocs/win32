@@ -57,7 +57,7 @@ If you implement the [**IWiaUIExtension**](-wia-iwiauiextension.md) interface an
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |

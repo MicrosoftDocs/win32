@@ -22,7 +22,7 @@ The metadata blob with the specified format is written using the [**ISpatialAudi
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                          |

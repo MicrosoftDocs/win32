@@ -219,7 +219,7 @@ The filter supports the following properties through [**ICodecAPI**](/windows/de
 
 
 
-|                                     |                                                                                                |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Home Premium, Windows Vista Ultimate, Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                      |

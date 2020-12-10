@@ -96,7 +96,7 @@ The practical limit of the number of providers that you can define in a manifest
 
 ## Requirements
 
-|                          |                                           |
+| Requirement | Value |
 |--------------------------|-------------------------------------------|
 | Minimum supported client | Windows Vista \[desktop apps only\]       |
 | Minimum supported server | Windows Server 2008 \[desktop apps only\] |

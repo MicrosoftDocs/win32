@@ -163,7 +163,7 @@ This method is called immediately after the ActiveX control attempts to launch t
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |

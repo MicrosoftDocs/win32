@@ -22,7 +22,7 @@ This value of this attribute should be a bitmask of one or more values from the 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1607 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                               |

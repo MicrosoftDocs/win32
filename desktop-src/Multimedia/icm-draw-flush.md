@@ -41,7 +41,7 @@ This message is used only by hardware that performs its own asynchronous decompr
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |

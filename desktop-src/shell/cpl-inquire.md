@@ -56,7 +56,7 @@ The only applications that should use [**CPL\_NEWINQUIRE**](cpl-newinquire.md) a
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |

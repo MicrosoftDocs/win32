@@ -24,7 +24,7 @@ In cases where the Source is MP4-based, the value is set based off the values of
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                          |

@@ -22,7 +22,7 @@ A value of 0 indicates that the sample is not hardware protected. A non-zero val
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                               |

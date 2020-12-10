@@ -1334,7 +1334,7 @@ The **Win32\_Bus** class is derived from [**CIM\_LogicalDevice**](cim-logicaldev
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

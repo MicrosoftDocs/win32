@@ -47,7 +47,7 @@ The pin current signal generation state. A value of true means that the pin is s
 
 
 
-|                                     |                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                      |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                             |

@@ -112,7 +112,7 @@ The **MSMCAInfo\_RawMCAData** class is derived from [**MSMCAInfo**](msmcainfo.md
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                         |

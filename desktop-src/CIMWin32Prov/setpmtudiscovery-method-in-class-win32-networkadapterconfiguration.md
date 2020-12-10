@@ -411,7 +411,7 @@ The [Enable PMTU Discovery on all Network Adapters](https://Gallery.TechNet.Micr
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

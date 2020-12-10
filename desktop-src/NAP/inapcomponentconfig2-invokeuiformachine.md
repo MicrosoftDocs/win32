@@ -65,7 +65,7 @@ Returns S\_OK if successful, or one of the standard Windows error codes.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

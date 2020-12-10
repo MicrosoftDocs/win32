@@ -28,7 +28,7 @@ This attribute is optional. The default value is **FALSE**. Set the attribute wh
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                     |

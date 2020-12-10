@@ -411,7 +411,7 @@ The [Modify the Maximum Allowed TCP Connection Retransmissions](https://Gallery.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows Vista<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2008, Windows Server 2008<br/>                                     |

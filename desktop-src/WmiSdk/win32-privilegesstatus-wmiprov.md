@@ -168,7 +168,7 @@ The **Win32\_PrivilegesStatus** class is derived from [**\_\_ExtendedStatus**](-
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                     |

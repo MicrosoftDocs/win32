@@ -54,7 +54,7 @@ If you want to set the time format to frames or milliseconds, you can also use t
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |

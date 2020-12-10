@@ -28,7 +28,7 @@ The frame rate is expressed as a ratio. The upper 32 bits of the attribute value
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                  |

@@ -23,7 +23,7 @@ The **PerfDetail** qualifier in [**Win32\_PerfRawData**](/windows/desktop/CIMWin
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

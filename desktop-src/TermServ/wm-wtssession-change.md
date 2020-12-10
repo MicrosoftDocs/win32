@@ -202,7 +202,7 @@ Examples of how applications can respond to this message include releasing or ac
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                                 |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                           |

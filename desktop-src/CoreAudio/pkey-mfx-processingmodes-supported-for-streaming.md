@@ -22,7 +22,7 @@ This list does not include any signal processing modes supported by the APO for 
 
 
 
-|                                     |                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                         |

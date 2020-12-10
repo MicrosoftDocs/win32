@@ -173,7 +173,7 @@ For H.264, the decoder supports the following formats:
 
 
 
-|                    |                                                                                                                                                                                                                                                                           |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Profiles/Levels    | Baseline, Main, and High profiles, up to level 5.1. (See ITU-T H.264 specification for details.)                                                                                                                                                                          |
 | Chroma Formats     | 4:2:0 chroma or monochrome                                                                                                                                                                                                                                                |
@@ -233,7 +233,7 @@ The filter supports the following properties through [**ICodecAPI**](/windows/de
 
 
 
-|                                     |                                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Home Premium, Windows Vista Ultimate, Windows 7 Home Premium, Windows 7 Professional, Windows 7 Enterprise, Windows 7 Ultimate \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                                                                                                     |

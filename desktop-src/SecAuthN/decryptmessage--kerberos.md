@@ -72,7 +72,7 @@ For information about interoperating with GSSAPI, see [SSPI/Kerberos Interoperab
 
 ## Requirements
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client | Windows XP \[desktop apps only\]          |
 | Minimum supported server | Windows Server 2003 \[desktop apps only\] |

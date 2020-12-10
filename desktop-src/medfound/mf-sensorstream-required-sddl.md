@@ -18,7 +18,7 @@ This attribute is used to specify a Security Descriptor Definition Language (SDD
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                          |

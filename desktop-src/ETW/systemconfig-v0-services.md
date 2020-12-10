@@ -117,7 +117,7 @@ Unique identifier of the service. The identifier provides an indication of the f
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

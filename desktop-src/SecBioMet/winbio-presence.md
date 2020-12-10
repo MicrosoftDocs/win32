@@ -184,7 +184,7 @@ When an individual that the engine adapter associates with a particular tracking
 
 
 
-|                                     |                                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |

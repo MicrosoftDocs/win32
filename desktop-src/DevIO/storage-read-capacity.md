@@ -81,7 +81,7 @@ The header file Ntddstor.h is available in the Windows Driver Kit (WDK).
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2008, Windows Server 2003 with SP1<br/>                          |

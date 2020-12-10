@@ -43,7 +43,7 @@ The capture operation must yield to use this message. Use the [**WM\_CAP\_ABORT*
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |

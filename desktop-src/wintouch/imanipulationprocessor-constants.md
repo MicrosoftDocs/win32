@@ -65,7 +65,7 @@ Indicates the value for manipulations where the return value is not a number.
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                   |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                      |

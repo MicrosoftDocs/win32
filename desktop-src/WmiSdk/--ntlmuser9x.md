@@ -155,7 +155,7 @@ The **\_\_NTLMUser9X** class is used as an input parameter for the [**\_\_System
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

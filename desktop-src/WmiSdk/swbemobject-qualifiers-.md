@@ -51,7 +51,7 @@ The [Get-WritableWMIProperties.ps1](https://Gallery.TechNet.Microsoft.Com/816fb8
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -64,7 +64,7 @@ If *wParam* is IGP\_PROPERTY, it returns one or more of the following values.
 
 
 
-|                                     |                                                                                                                                                                                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | IME\_PROP\_AT\_CARET                | If set, conversion window is at the caret position. If clear, the window is near caret position.                                                                                                                                                                  |
 | IME\_PROP\_SPECIAL\_UI              | If set, IME has a nonstandard user interface. The application should not draw in the IME window.                                                                                                                                                                  |
@@ -81,7 +81,7 @@ If *wParam* is IGP\_UI, it returns one or more of the following values.
 
 
 
-|                 |                                                                                                       |
+| Requirement | Value |
 |-----------------|-------------------------------------------------------------------------------------------------------|
 | UI\_CAP\_2700   | Supports text escapement values of 0 or 2700. For more information, see **lfEscapement**.             |
 | UI\_CAP\_ROT90  | Supports text escapement values of 0, 900, 1800, or 2700. For more information, see **lfEscapement**. |
@@ -95,7 +95,7 @@ If *wParam* is IGP\_SETCOMPSTR, it returns one or more of the following values.
 
 
 
-|                              |                                                                                                                                                                                                        |
+| Requirement | Value |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | SCS\_CAP\_COMPSTR            | Can create the composition string by calling the [**ImmSetCompositionString**](/windows/desktop/api/imm/nf-imm-immsetcompositionstringa) function with the SCS\_SETSTR value.                                                      |
 | SCS\_CAP\_MAKEREAD           | Can create the reading string from corresponding composition string when using the [**ImmSetCompositionString**](/windows/desktop/api/imm/nf-imm-immsetcompositionstringa) function with SCS\_SETSTR and without setting *lpRead*. |
@@ -109,7 +109,7 @@ If *wParam* is IGP\_SELECT, it returns one or more of the following values.
 
 
 
-|                       |                                                      |
+| Requirement | Value |
 |-----------------------|------------------------------------------------------|
 | SELECT\_CAP\_CONVMODE | Inherits conversion mode when a new IME is selected. |
 | SELECT\_CAP\_SENTENCE | Inherits sentence mode when a new IME is selected.   |
@@ -122,7 +122,7 @@ If *wParam* is IGP\_GETIMEVERSION, it returns one or more of the following value
 
 
 
-|              |                                             |
+| Requirement | Value |
 |--------------|---------------------------------------------|
 | IMEVER\_0310 | The IME was created for Windows 3.1.        |
 | IMEVER\_0400 | The IME was created for Windows 95 or later |
@@ -137,7 +137,7 @@ This message is similar to [**ImmGetProperty**](/windows/desktop/api/imm/nf-imm-
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

@@ -56,7 +56,7 @@ Event provider indicates that WMI checks the **SECURITY\_DESCRIPTOR** property i
 
 
 
-|                                     |                                                                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                         |

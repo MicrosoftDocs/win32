@@ -34,7 +34,7 @@ Apps should not create this property when calling [IMFContentDecryptionModuleAcc
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 April 2020 Update<br/>                                     |
 | Header<br/>                   | <dl> <dt>mfcontentdecryptionmodule.h</dt> </dl> |

@@ -47,7 +47,7 @@ returns a pointer to the number of filters in the collection.
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |

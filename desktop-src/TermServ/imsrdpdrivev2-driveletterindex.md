@@ -45,7 +45,7 @@ The index of the letter for the drive. 0 = "A", 1 = "B", and so on.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 with SP1<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
