@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# AppID
+# AppID (CLSID Key)
 
 Associates an AppID with a CLSID.
 

@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CRefTime.CRefTime constructor
+# CRefTime.CRefTime constructor (Reftime.h)
 
 Constructor method.
 

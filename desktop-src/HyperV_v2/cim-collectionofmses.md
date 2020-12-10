@@ -16,7 +16,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_CollectionOfMSEs class
+# CIM_CollectionOfMSEs class (Hyper-V management)
 
 An abstract class for subclasses that represent a collection of [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md) objects. These collections allow managed system elements to be grouped for identification purposes and to simplify the association of settings and configurations.
 

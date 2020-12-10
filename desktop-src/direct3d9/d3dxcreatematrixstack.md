@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXCreateMatrixStack function
+# D3DXCreateMatrixStack function (D3dx9math.h)
 
 Creates an instance of the [**ID3DXMATRIXStack**](id3dxmatrixstack.md) interface.
 

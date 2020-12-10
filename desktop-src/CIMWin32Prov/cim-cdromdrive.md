@@ -45,7 +45,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_CDROMDrive class
+# CIM_CDROMDrive class (CIMWin32 WMI Providers)
 
 The **CIM\_CDROMDrive** class represents a CD-ROM drive on the computer.
 

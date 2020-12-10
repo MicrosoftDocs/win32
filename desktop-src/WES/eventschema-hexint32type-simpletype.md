@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# HexInt32Type Simple Type
+# HexInt32Type Simple Type (Event Schema)
 
 Defines a 4-byte hexadecimal type.
 

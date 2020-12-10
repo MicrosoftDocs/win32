@@ -17,7 +17,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# What's New
+# What's New (Windows Media Format 11 SDK)
 
 The Windows Media Format 11 SDK introduces new digital rights management (DRM) features. The following changes have been made to the SDK since the 9.5 release.
 

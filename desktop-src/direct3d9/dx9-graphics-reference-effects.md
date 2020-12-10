@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Effect Reference
+# Effect Reference (Direct3D 9 Graphics)
 
 Effects are a higher level abstraction that take advantage of vertex and pixel shaders to encapsulate rendering effects. Effects can be written with the high-level language or with the shader assembly language.
 

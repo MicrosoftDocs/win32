@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXSHScale function
+# D3DXSHScale function (D3DX10.h)
 
 Scales a spherical harmonic (SH) vector; in other words, pOut\[i\] = pA\[i\]\*Scale.
 

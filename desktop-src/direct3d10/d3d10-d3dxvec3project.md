@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVec3Project function
+# D3DXVec3Project function (D3DX10Math.h)
 
 Projects a 3D vector from object space into screen space.
 

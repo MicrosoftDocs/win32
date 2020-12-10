@@ -19,7 +19,7 @@ api_location:
 - d3dx9math.h
 ---
 
-# D3DXSHMultiply2 function
+# D3DXSHMultiply2 function (D3dx9math.h)
 
 Computes the product of two functions represented using SH (f and g).
 

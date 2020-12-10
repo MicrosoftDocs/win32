@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Client Logging
+# Client Logging (Microsoft Media Foundation)
 
 The network source supports client logging, which provides a way for the media server to track the activity of the clients that connect to it. Client logs enable a server to record connection, rendering, and streaming statistics. These logs can be used by content providers in various scenarios, such as, to trace media server usage and generate billing, or to deliver suitable-quality content depending on the speed of the client's network.
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Monitor Configuration
+# Monitor Configuration (Network Monitor)
 
 Monitors can be configured using the Network Monitor UI. End-users can pass configuration criteria to your monitor using an HTML form stored as an HTM file in the following sub folder of your installed Network Monitor SDK.
 

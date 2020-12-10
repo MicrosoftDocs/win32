@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# FOURCCMap::FOURCCMap constructor
+# FOURCCMap::FOURCCMap constructor (Fourcc.h)
 
 Constructor method. The constuctor provides the mapping between old-style multimedia format **DWORD** types and **GUID** subtypes.
 

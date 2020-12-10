@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 10/31/2019
 ---
 
-# Error Codes
+# System Error Codes
 
 This section is intended for developers who are debugging system errors. If you reached this page while searching for other errors, here are some links that might help:
 

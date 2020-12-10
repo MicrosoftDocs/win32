@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixMultiply function
+# D3DXMatrixMultiply function (D3DX10Math.h)
 
 Determines the product of two matrices.
 

@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherCmpBlue(S,float,float,uint) function
+# TextureCube::GatherCmpBlue(S,float,float,uint) function
 
 Samples a texture, tests the samples against a compare value, and returns the blue component along with status about the operation.
 

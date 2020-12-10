@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXVec2Normalize function
+# D3DXVec2Normalize function (D3dx9math.h)
 
 Returns the normalized version of a 2D vector.
 

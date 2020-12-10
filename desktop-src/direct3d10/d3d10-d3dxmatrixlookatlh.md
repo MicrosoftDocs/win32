@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixLookAtLH function
+# D3DXMatrixLookAtLH function (D3DX10Math.h)
 
 Builds a left-handed, look-at matrix.
 

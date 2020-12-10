@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Storing Compressed Media in AVI Files
+# Storing Compressed Media in AVI Files (Microsoft Media Foundation)
 
 Any of the content that you compress using the Windows Media Audio and Video codecs must be put in some container format. One of the most popular formats is Audio Video Interleave, or AVI. You can use Microsoft Video for Windows (VfW) or Microsoft DirectShow to create AVI files. For more information about using Video for Windows or DirectShow, refer to the product documentation on MSDN.
 

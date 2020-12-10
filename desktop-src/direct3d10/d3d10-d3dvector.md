@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DVECTOR structure
+# D3DVECTOR structure (D3DX10Math.h)
 
 A 3D vector.
 

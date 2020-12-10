@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DXMATRIX structure
+# D3DXMATRIX structure (D3DX10Math.h)
 
 A 4x4 matrix that contains methods and operator overloads.
 

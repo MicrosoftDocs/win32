@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Property
+# Property (Windows Installer)
 
 The Property data type is a valid [Identifier](identifier.md) with the additional syntax "%*identifier*", which represents an environment variable.
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Structures
+# Structures (OLE and Data Transfer)
 
 The following structures are used to implement compound documents and perform data transfer between applications.
 

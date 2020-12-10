@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Image Element
+# Image Element (WMP SDK)
 
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.

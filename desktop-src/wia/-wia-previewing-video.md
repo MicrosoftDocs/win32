@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Previewing Video
+# Previewing Video (WIA)
 
 The [**IWiaVideo**](/windows/desktop/api/Wiavideo/nn-wiavideo-iwiavideo) interface enables an application to view video and capture still images from it. Perform the following steps to select the streaming video device and display a video stream in a window.
 

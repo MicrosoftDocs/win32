@@ -14,7 +14,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# WM/WMShadowFileSourceDRMType
+# WM/WMShadowFileSourceDRMType (Windows Media Player SDK)
 
 The **WM/WMShadowFileSourceDRMType** is the digital rights management system used to protect the file contained in the shadow file.
 

@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXMatrixScaling function
+# D3DXMatrixScaling function (D3dx9math.h)
 
 Builds a matrix that scales along the x-axis, the y-axis, and the z-axis.
 

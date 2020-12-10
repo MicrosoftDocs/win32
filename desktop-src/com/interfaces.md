@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Interfaces
+# Interfaces (COM)
 
 The following interfaces are provided by COM.
 

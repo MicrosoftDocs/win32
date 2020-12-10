@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXVec2TransformNormal function
+# D3DXVec2TransformNormal function (D3DX10Math.h)
 
 Transforms the 2D vector normal by the given matrix.
 

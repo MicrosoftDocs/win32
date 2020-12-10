@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DXFLOAT16 structure
+# D3DXFLOAT16 structure (D3DX10Math.h)
 
 Describes a 16-bit floating point vector.
 

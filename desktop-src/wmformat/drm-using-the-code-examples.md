@@ -14,7 +14,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Using the Code Examples
+# Using the Microsoft Windows Media DRM Client Code Examples
 
 Code examples are included in this documentation to illustrate the use of components. The examples are written to be as clear and concise as possible. When reading the examples, you should be aware of the following conventions.
 

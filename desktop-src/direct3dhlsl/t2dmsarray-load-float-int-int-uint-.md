@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int,int,int,uint) function
+# Texture2DMSArray::Load(int,int,int,uint) function
 
 Reads texture data and returns status of the operation.
 

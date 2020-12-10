@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixTranslation function
+# D3DXMatrixTranslation function (D3DX10Math.h)
 
 Create a translation matrix.
 

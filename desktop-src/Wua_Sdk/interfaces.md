@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Interfaces
+# Interfaces (Windows Update Agent)
 
 The following table identifies the interfaces that are used to access Windows Update Agent (WUA).
 

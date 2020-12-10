@@ -15,7 +15,7 @@ api_location:
 - D3D9Types.h
 ---
 
-# D3DCOLORVALUE structure
+# D3DCOLORVALUE structure (D3D9Types.h)
 
 Describes color values.
 

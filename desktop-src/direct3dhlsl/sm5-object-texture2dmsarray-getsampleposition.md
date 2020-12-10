@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GetSamplePosition function
+# Texture2DMSArray::GetSamplePosition function
 
 Samples a texture and returns all four components.
 

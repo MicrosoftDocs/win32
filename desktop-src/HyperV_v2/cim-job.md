@@ -36,7 +36,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_Job class
+# CIM_Job class (Hyper-V management)
 
 A logical element that represents a unit of work to execute, such as a script or a print job. A job is distinct from a process because a job can be scheduled or queued, and its execution is not limited to a single system.
 

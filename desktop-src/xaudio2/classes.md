@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Classes
+# Classes (XAudio2 APIs)
 
 This section contains information about classes provided by the Microsoft XAudio2 API.
 

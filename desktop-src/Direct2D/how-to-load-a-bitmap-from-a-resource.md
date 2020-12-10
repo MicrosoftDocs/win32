@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 03/09/2019
 ---
 
-# How to Load a Bitmap from a Resource
+# How to Load a Bitmap from a Resource (Direct2D)
 
 As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap-from-a-file.md), Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bitmap from a resource, use WIC objects to load the image and to convert it to a Direct2D-compatible format; then, use the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap).
 

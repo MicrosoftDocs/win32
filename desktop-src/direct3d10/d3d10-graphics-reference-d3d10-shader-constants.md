@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Shader Constants
+# Shader Constants (Direct3D 10 Graphics)
 
 This section contains information about the following shader constants:
 

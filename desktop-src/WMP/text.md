@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Text
+# Text (Windows Media Player SDK)
 
 You may want to use one or more text display boxes in your skin. Each text display box you use must be defined in the skin definition file. If you do not define a text display box in this section, your skin will not be able to use it.
 

@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXVec3Transform function
+# D3DXVec3Transform function (D3dx9math.h)
 
 Transforms vector (x, y, z, 1) by a given matrix.
 

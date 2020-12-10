@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Macros
+# Macros (COM)
 
 The following macros are provided by COM:
 

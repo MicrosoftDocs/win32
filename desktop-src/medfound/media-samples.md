@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Media Samples
+# Media Samples (Microsoft Media Foundation)
 
 A media sample is an object that contains an ordered list of zero or more buffers. Media samples expose the [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample) interface. The amount of data contained in one sample depends on the component that creates the sample and on the type of data in the buffers. For uncompressed video, a sample usually holds a single video frame. For uncompressed audio, the amount of data can vary, but usually an audio frame does not span two samples. For compressed data, these guidelines might not apply.
 

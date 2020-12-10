@@ -14,7 +14,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# WM/WMShadowFileSourceFileType
+# WM/WMShadowFileSourceFileType (Windows Media Player SDK)
 
 The **WM/WMShadowFileSourceFileType** is the file type of the file contained in the shadow file.
 

@@ -23,7 +23,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# CIM\_LogicalElement class
+# CIM_LogicalElement class (Remote Desktop Services)
 
 The base class for all system components that represent abstract system components, such as profiles, processes, or system capabilities, in the form of logical devices.
 

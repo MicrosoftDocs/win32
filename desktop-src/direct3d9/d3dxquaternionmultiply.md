@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXQuaternionMultiply function
+# D3DXQuaternionMultiply function (D3dx9math.h)
 
 Multiplies two quaternions.
 

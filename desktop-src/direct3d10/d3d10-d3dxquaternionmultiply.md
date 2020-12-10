@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXQuaternionMultiply function
+# D3DXQuaternionMultiply function (D3DX10Math.h)
 
 Multiplies two quaternions.
 

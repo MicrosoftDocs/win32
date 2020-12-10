@@ -48,7 +48,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_TapeDrive class
+# CIM_TapeDrive class (CIMWin32 WMI Providers)
 
 The **CIM\_TapeDrive** class represents a tape drive on the system. Tape drives are primarily distinguished in that they can only be accessed sequentially.
 

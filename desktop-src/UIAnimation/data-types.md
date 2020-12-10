@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Data Types
+# Data Types (Windows Animation Manager)
 
 Reference documentation for data types defined by the Windows Animation Manager.
 

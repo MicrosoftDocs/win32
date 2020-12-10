@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Event Constants
+# Event Constants (Sensors.h)
 
 The Windows Sensor and Location platform defines constants for driver events. Sensor manfuactureres can also define their own constants.
 

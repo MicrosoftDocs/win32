@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Video Capture
+# Video Capture (Microsoft Media Foundation)
 
 This section describes how to use Microsoft Media Foundation to perform video capture.
 

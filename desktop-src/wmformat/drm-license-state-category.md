@@ -17,7 +17,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# DRM\_LICENSE\_STATE\_CATEGORY enumeration
+# DRM_LICENSE_STATE_CATEGORY enumeration (Drmexternals.h)
 
 The **DRM\_LICENSE\_STATE\_CATEGORY** enumeration type defines the categories for DRM [*license*](wmformat-glossary.md) strings that are displayed to the user.
 

@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load4(uint) function
+# ByteAddressBuffer::Load4(uint) function
 
 Gets four values.
 

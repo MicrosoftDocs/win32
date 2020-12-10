@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXMatrixTransformation function
+# D3DXMatrixTransformation function (D3dx9math.h)
 
 Builds a transformation matrix. **NULL** arguments are treated as identity transformations.
 

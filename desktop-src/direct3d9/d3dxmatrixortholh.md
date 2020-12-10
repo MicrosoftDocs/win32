@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXMatrixOrthoLH function
+# D3DXMatrixOrthoLH function (D3dx9math.h)
 
 Builds a left-handed orthographic projection matrix.
 

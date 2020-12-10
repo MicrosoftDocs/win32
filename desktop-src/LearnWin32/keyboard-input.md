@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Keyboard Input
+# Keyboard Input (Get Started with Win32 and C++)
 
 The keyboard is used for several distinct types of input, including:
 

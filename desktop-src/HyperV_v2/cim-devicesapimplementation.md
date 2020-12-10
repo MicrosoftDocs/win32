@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_DeviceSAPImplementation class
+# CIM_DeviceSAPImplementation class (Hyper-V management)
 
 Represents an association between a service access point (SAP) and a logical device that implements it.
 

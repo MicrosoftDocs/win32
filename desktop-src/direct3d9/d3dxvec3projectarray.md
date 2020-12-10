@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXVec3ProjectArray function
+# D3DXVec3ProjectArray function (D3dx9math.h)
 
 Projects an array (x, y, z, 0) from object space into screen space.
 

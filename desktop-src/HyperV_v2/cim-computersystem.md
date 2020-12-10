@@ -20,7 +20,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_ComputerSystem class
+# CIM_ComputerSystem class (Hyper-V management)
 
 Represents a collection that provides computing capabilities and consists of [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md) objects.
 

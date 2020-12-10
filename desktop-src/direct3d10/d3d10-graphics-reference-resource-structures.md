@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Resource Structures
+# Resource Structures (Direct3D 10 Graphics)
 
 Structures used to create and use [resources](d3d10-graphics-programming-guide-resources-types.md).
 

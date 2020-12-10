@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXVec2TransformCoordArray function
+# D3DXVec2TransformCoordArray function (D3DX10Math.h)
 
 Transforms an array (x, y, 0, 1) by a given matrix, and projects the result back into w = 1.
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Configuring Audio Encoding
+# Configuring Audio Encoding (Microsoft Media Foundation)
 
 The Windows Media Audio encoder enumerates all of its supported output types in their complete form. Retrieve the type that you want by calling **IMediaObject::GetOutputType** or **IMFTransform::GetAvailableOutputType**, and then set the retrieved type, unaltered, as the output type by calling **IMediaObject::SetOutputType** or **IMFTransform::SetOutputType**.
 

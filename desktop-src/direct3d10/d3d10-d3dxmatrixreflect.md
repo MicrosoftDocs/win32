@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixReflect function
+# D3DXMatrixReflect function (D3DX10Math.h)
 
 Builds a matrix that reflects the coordinate system about a plane.
 

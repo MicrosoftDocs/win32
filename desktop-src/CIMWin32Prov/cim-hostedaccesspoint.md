@@ -18,7 +18,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_HostedAccessPoint class
+# CIM_HostedAccessPoint class (CIMWin32 WMI Providers)
 
 The **CIM\_HostedAccessPoint** class represents an association between a service access point (SAP) and the system on which it is provided. Each system may host many SAPs.
 

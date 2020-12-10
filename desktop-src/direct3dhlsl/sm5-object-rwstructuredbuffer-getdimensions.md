@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GetDimensions function
+# RWStructuredBuffer::GetDimensions function
 
 Gets the resource dimensions.
 

@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# WM\_INDIVIDUALIZE\_STATUS structure
+# WM_INDIVIDUALIZE_STATUS structure (Drmexternals.h)
 
 The **WM\_INDIVIDUALIZE\_STATUS** structure records the status of the [*individualization*](wmformat-glossary.md) process.
 

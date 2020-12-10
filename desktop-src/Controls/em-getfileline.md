@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 10/19/2018
 ---
 
-# EM\_GETLINE message
+# EM_GETFILELINE message (CommCtrl.h)
 
 Copies a line of text from an edit control, independently of how lines are displayed on the screen, and places it in a specified buffer.
 

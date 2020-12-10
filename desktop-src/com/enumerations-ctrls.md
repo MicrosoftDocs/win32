@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumerations
+# Enumerations (Structured Storage)
 
 The following enumerations are used to create standard COM objects and property pages.
 

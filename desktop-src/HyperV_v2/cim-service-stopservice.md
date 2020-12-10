@@ -15,7 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# StopService method of the CIM\_Service class
+# StopService method of the CIM_Service class (Hyper-V management)
 
 Paces the service in the stopped state.
 

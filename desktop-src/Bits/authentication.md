@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 10/09/2018
 ---
 
-# Authentication
+# Authentication (BITS)
 
 BITS supports Basic authentication, Passport authentication, and several challenge/response authentication schemes. If the server or proxy requires user authentication, use the [**IBackgroundCopyJob2::SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) function to specify the user's credentials. BITS uses the [CryptoAPI](/windows/desktop/SecCrypto/cryptography-portal) to protect the credentials.
 

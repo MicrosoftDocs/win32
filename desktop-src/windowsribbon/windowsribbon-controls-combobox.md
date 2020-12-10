@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Combo Box
+# Combo Box (Windows Ribbon Framework)
 
 The Combo Box consists of a single-column list box that contains a collection of mutually exclusive items or Commands combined with a static or edit control and a drop-down arrow. The list box portion of the control is displayed when the user clicks the drop-down arrow.
 

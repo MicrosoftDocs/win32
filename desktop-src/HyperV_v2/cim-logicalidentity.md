@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_LogicalIdentity class
+# CIM_LogicalIdentity class (Hyper-V management)
 
 Represents a generic association between two managed elements that represent different aspects of the same underlying entity.
 

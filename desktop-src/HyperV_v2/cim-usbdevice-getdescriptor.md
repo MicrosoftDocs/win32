@@ -15,7 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# GetDescriptor method of the CIM\_USBDevice class
+# GetDescriptor method of the CIM_USBDevice class (Hyper-V management)
 
 Returns the USBDevice descriptor as specified by the input parameters.
 

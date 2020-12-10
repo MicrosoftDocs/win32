@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Constants
+# Constants (Structured Storage)
 
 Constants, in Structured Storage, are a sequence of named values. Constants allow objects to be described in natural language.
 

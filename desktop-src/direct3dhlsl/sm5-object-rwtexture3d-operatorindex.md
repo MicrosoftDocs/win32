@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Operator\[\] function
+# RWTexture3D::Operator  function
 
 Returns a resource variable of a [**RWTexture3D**](sm5-object-rwtexture3d.md).
 

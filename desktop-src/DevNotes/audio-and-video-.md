@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Audio and Video
+# Audio and Video (Developer Notes)
 
 This section contains information on audio and video APIs.
 

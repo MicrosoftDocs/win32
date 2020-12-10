@@ -102,7 +102,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Query Info Flags
+# Query Info Flags (Wininet.h)
 
 The following lists contain the attributes and modifiers used by [**HttpQueryInfo**](/windows/desktop/api/Wininet/nf-wininet-httpqueryinfoa) and [**QueryInfo**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms774972(v=vs.85)).
 

@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# SetSecurityDescriptor method of the Win32\_Service class
+# SetSecurityDescriptor method of the Win32_Service class (CIMWin32 WMI Providers)
 
 The **SetSecurityDescriptor** method writes an updated version of the security descriptor that controls access to the service.
 

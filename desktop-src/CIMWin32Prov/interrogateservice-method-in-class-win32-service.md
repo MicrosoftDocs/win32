@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# InterrogateService method of the Win32\_Service class
+# InterrogateService method of the Win32_Service class (CIMWin32 WMI Providers)
 
 The **InterrogateService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method requests that the referenced service update its state to the service manager.
 

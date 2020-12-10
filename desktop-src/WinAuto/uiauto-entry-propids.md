@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Property Identifiers
+# Property Identifiers (Windows Accessibility features)
 
 This section contains information about Microsoft UI Automation property identifiers.
 

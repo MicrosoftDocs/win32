@@ -24,7 +24,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_ControlledBy class
+# CIM_ControlledBy class (Hyper-V management)
 
 Represents a relationship between a controller and a logical device that is managed by the controller.
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Alpha Blending
+# Alpha Blending (DirectShow)
 
 \[This API is not supported and may be altered or unavailable in the future.\]
 

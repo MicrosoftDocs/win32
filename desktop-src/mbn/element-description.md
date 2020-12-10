@@ -19,7 +19,7 @@ topic_type:
 
 ---
 
-# <span id="WWAN_profile_v4.element_Description"></span>Description
+# Description (Mobile Broadband)
 
 A description of the profile.
 

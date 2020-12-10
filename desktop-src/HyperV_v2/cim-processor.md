@@ -28,7 +28,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_Processor class
+# CIM_Processor class (Hyper-V management)
 
 Represents the capabilities and management of a processor.
 

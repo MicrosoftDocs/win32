@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Programming Guide
+# Core Audio Programming Guide
 
 This guide section explains the concepts and features of the core audio APIs of Windows Vista, and describes how to use them in application programming.
 

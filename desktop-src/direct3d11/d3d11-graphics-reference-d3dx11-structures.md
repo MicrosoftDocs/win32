@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# D3DX Structures
+# D3DX Structures (Direct3D 11 Graphics)
 
 This section contains information about the D3DX 11 structures.
 

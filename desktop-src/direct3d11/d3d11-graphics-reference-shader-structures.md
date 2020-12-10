@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Shader Structures
+# Shader Structures (Direct3D 11 Graphics)
 
 Structures are used to create and use shaders.
 

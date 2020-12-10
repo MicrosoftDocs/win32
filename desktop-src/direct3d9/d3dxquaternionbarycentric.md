@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXQuaternionBaryCentric function
+# D3DXQuaternionBaryCentric function (D3dx9math.h)
 
 Returns a quaternion in barycentric coordinates.
 

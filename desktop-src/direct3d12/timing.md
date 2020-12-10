@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Timing
+# Timing (Direct3D 12 Graphics)
 
 This section covers querying timestamps, and calibrating the GPU and CPU timestamp counters.
 

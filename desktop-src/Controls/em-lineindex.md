@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# EM\_LINEINDEX message
+# EM_LINEINDEX message (Winuser.h)
 
 Gets the character index of the first character of a specified line in a multiline edit control. A character index is the zero-based index of the character from the beginning of the edit control. You can send this message to either an edit control or a rich edit control.
 

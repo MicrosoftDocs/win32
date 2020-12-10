@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 10/19/2018
 ---
 
-# EM\_GETLINECOUNT message
+# EM_GETFILELINECOUNT message (CommCtrl.h)
 
 Gets the number of lines in a multiline edit control, independently of how lines are displayed on the screen.
 

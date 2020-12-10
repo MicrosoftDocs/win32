@@ -54,7 +54,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_Memory class
+# CIM_Memory class (CIMWin32 WMI Providers)
 
 The **CIM\_Memory** class represents the capabilities and management of memory-related logical devices.
 

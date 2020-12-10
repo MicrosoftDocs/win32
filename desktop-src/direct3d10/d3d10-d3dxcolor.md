@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DXCOLOR structure
+# D3DXCOLOR structure (D3DX10Math.h)
 
 Describes color values.
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Architecture
+# Architecture (Telephony API)
 
 The following illustration shows the general architecture of telephony service providers and their associated user interface dynamic-link libraries (UI DLLs).
 

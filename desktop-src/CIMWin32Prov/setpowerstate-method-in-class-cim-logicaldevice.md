@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# SetPowerState method of the CIM\_LogicalDevice class
+# SetPowerState method of the CIM_LogicalDevice class (CIMWin32 WMI Providers)
 
 The **SetPowerState** method of the CIM\_LogicalDevice class sets the desired power state for a logical device and when a device should be put into that state.
 

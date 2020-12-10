@@ -18,7 +18,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_DeviceSAPImplementation class
+# CIM_DeviceSAPImplementation class (CIMWin32 WMI Providers)
 
 The **CIM\_DeviceSAPImplementation** class represents an association between a service access point (SAP) and how it is implemented. When many logical devices are associated with one SAP, the elements operate in conjunction to provide the access point. If different implementations of a SAP exist, each implementation results in individual instantiations of the SAP object.
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Security
+# Security (Windows 7 Developer Guide)
 
 Windows 7 includes new and improved security features that make it easier for developers to improve, use, and manage the security of their applications. It comes with a variety of new security features that not only help protect against threats but also limit the damage that attackers can do if they gain access to a computer.
 

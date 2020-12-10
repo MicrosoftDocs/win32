@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# TVM\_GETEXTENDEDSTYLE message
+# TVM_GETEXTENDEDSTYLE message (Commctrl.h)
 
 Retrieves the extended style for a tree-view control. Send this message explicitly or by using the [**TreeView\_GetExtendedStyle**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_getextendedstyle) macro.
 

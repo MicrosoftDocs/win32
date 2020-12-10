@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixTranspose function
+# D3DXMatrixTranspose function (D3DX10Math.h)
 
 Returns the matrix transpose of a matrix.
 

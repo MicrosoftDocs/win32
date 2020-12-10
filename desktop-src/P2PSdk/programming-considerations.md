@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Programming Considerations
+# Programming Considerations (Peer-to-Peer)
 
 This topic discusses specific programming considerations when using the Peer Infrastructure.
 

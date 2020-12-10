@@ -13,7 +13,7 @@ api_type:
 api_location: 
 ---
 
-# operator = operators
+# XMXDECN4 operator = operators
 
 Assigns vector component data to the current instance of `XMXDECN4`.
 

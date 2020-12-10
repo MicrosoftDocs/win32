@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# COM Interfaces
+# COM Interfaces (Sensor API)
 
 The Sensor API exposes the following COM interfaces.
 

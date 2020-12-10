@@ -15,7 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_CDROMDrive class
+# CIM_CDROMDrive class (Hyper-V management)
 
 Represents the capabilities and management of a CD ROM drive.
 

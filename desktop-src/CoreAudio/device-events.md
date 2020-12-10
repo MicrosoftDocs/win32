@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Device Events
+# Device Events (Core Audio APIs)
 
 A device event notifies clients of a change in the status of an [audio endpoint device](audio-endpoint-devices.md) in the system. The following are examples of device events:
 

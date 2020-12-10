@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# HexInt64Type Simple Type
+# HexInt64Type Simple Type (Event Schema)
 
 Defines an 8-byte hexadecimal type.
 

@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# IBackgroundCopyError Methods
+# IBackgroundCopyError Methods (BITS)
 
 The [**IBackgroundCopyError**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyerror) interface exposes the following methods.
 

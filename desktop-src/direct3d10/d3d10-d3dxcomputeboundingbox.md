@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXComputeBoundingBox function
+# D3DXComputeBoundingBox function (D3DX10math.h)
 
 Computes a coordinate-axis oriented bounding box.
 

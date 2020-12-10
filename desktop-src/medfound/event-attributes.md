@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Event Attributes
+# Event Attributes (Microsoft Media Foundation)
 
 The following attributes apply to events.
 

@@ -45,7 +45,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_MediaAccessDevice class
+# CIM_MediaAccessDevice class (CIMWin32 WMI Providers)
 
 The **CIM\_MediaAccessDevice** class represents the ability to access one or more media, and then use the media to store and retrieve data.
 

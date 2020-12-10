@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_SAPSAPDependency class
+# CIM_SAPSAPDependency class (Hyper-V management)
 
 Represents an association between two service access points (SAP), in which one SAP is dependant on the other to utilize or connect with a service. For example, to print on a network printer, local print access points must utilize underlying network-related SAPs to send the print request.
 

@@ -12,7 +12,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Functions
+# Microsoft Windows Media DRM Client Functions
 
 The following functions are implemented as part of the Microsoft Windows Media DRM Client Extended APIs.
 

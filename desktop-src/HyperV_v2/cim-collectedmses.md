@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_CollectedMSEs class
+# CIM_CollectedMSEs class (Hyper-V management)
 
 Represents a generic association between a collection of managed system elements and the members of the collection.
 

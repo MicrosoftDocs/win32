@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXQuaternionNormalize function
+# D3DXQuaternionNormalize function (D3DX10Math.h)
 
 Computes a unit length quaternion.
 

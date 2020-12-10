@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# What's New
+# What's New (Windows Event Log)
 
 This page summarizes the new features that were added to the Windows Event Log API for each release.
 

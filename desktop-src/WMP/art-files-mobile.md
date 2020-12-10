@@ -12,7 +12,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Art Files
+# Art Files (Mobile)
 
 You will need to create art files for your skin. There are several types of art files you can create, and they must be in a specific art file format.
 

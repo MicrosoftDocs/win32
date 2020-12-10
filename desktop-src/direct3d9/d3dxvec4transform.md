@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXVec4Transform function
+# D3DXVec4Transform function (D3dx9math.h)
 
 Transforms a 4D vector by a given matrix.
 

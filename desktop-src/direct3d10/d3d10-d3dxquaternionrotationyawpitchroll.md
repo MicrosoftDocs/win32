@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXQuaternionRotationYawPitchRoll function
+# D3DXQuaternionRotationYawPitchRoll function (D3DX10Math.h)
 
 Builds a quaternion with the given yaw, pitch, and roll.
 

@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int) function
+# RWByteAddressBuffer::Load(int) function
 
 Gets one value.
 

@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXPlaneTransformArray function
+# D3DXPlaneTransformArray function (D3DX10Math.h)
 
 Transforms an array of planes by a matrix. The vectors that describe each plane must be normalized.
 

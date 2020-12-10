@@ -52,7 +52,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# HTTP Status Codes
+# HTTP Status Codes (Wininet.h)
 
 The following table contains the constants and corresponding values for the HTTP status codes returned by servers on the Internet.
 

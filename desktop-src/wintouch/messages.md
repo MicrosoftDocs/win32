@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Messages
+# Messages (Touch Input)
 
 This section contains messages for multitouch input.
 

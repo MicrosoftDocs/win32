@@ -19,7 +19,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_SerialController class
+# CIM_SerialController class (Hyper-V management)
 
 Describes the capabilities and management of a serial controller.
 

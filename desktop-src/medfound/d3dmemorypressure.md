@@ -15,7 +15,7 @@ api_location:
 - d3d9types.h
 ---
 
-# D3DMEMORYPRESSURE structure
+# D3DMEMORYPRESSURE structure (D3d9types.h)
 
 Contains data for memory pressure reporting.
 

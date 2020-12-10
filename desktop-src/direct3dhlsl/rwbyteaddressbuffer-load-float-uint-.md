@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int,uint) function
+# RWByteAddressBuffer::Load(int,uint) function
 
 Gets one value and returns status of the operation.
 

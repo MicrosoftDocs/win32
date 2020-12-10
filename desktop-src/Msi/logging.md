@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Logging
+# Logging (Windows Installer)
 
 This per-machine [system policy](system-policy.md) is used only if logging has not been enabled by the "/L" command line option or by [**MsiEnableLog**](/windows/desktop/api/Msi/nf-msi-msienableloga). If the policy is set in this case, the installer creates a log file in %temp% with the random name: MSI\*.LOG. Specify the logging mode by setting the policy value to a string of characters. Use the same characters to specify logging mode policy as used by the "/L" [command line option](command-line-options.md). Note that you cannot use "+" and "\*" for the policy.
 

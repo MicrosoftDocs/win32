@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# Reset method of the CIM\_LogicalDevice class
+# Reset method of the CIM_LogicalDevice class (CIMWin32 WMI Providers)
 
 The **Reset** method of the CIM\_LogicalDevice class requests a reset of the logical device. This method is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 

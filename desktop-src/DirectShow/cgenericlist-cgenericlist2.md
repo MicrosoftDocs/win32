@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CGenericList.CGenericList constructor
+# CGenericList.CGenericList constructor (Wxlist.h)
 
 Constructor method.
 

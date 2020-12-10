@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# CSymbolType Simple Type
+# CSymbolType Simple Type (Performance Counters)
 
 Defines a valid C/C++ symbol name.
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# What's New
+# Whats New (Peer-to-Peer)
 
 ## Windows Server 2008 and Windows Vista
 

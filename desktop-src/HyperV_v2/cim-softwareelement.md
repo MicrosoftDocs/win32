@@ -27,7 +27,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_SoftwareElement class
+# CIM_SoftwareElement class (Hyper-V management)
 
 Represents an individually manageable or deployable part of a **CIM\_SoftwareFeature**.
 

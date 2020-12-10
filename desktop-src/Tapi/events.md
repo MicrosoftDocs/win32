@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Events
+# Events (Telephony API)
 
 Events are a crucial part of call handling under TAPI 3. Event handling includes four stages.
 

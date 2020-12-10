@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherCmpRed(S,float,float,uint) function
+# TextureCubeArray::GatherCmpRed(S,float,float,uint) function
 
 Samples a texture, tests the samples against a compare value, and returns the red component along with status about the operation.
 

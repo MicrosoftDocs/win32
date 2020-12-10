@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVec4Hermite function
+# D3DXVec4Hermite function (D3DX10Math.h)
 
 Performs a Hermite spline interpolation, using the specified 4D vectors.
 

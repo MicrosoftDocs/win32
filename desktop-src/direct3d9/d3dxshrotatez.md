@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXSHRotateZ function
+# D3DXSHRotateZ function (D3dx9math.h)
 
 Rotates the spherical harmonic (SH) vector in the z-axis by the given angle.
 

@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXFloat32To16Array function
+# D3DXFloat32To16Array function (D3dx9math.h)
 
 Converts an array of 32-bit floats to 16-bit floats.
 

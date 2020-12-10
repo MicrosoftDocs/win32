@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXComputeBoundingSphere function
+# D3DXComputeBoundingSphere function (D3DX9Mesh.h)
 
 Computes a bounding sphere for the mesh.
 

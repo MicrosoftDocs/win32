@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Exception Handling
+# Exception Handling (RPC)
 
 RPC uses the same approach to exception handling as the Windows API.
 

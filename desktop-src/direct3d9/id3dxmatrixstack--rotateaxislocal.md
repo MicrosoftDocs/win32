@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# ID3DXMATRIXStack::RotateAxisLocal method
+# ID3DXMATRIXStack::RotateAxisLocal method (D3dx9math.h)
 
 Rotates (relative to the object's local coordinate space) around an arbitrary axis.
 

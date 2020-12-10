@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Font and Text Functions
+# Font and Text Functions (Windows GDI)
 
 The following functions are used with fonts and text.
 

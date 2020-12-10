@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherCmpBlue(S,float,float,int) function
+# Texture2DArray::GatherCmpBlue(S,float,float,int) function
 
 Samples a texture, tests the samples against a compare value, and returns the blue component.
 

@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# R
+# R (UPnP APIs)
 
 Contains UPnP-related terms that begin with the letter R.
 

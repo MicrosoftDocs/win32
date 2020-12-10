@@ -110,7 +110,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Error Messages
+# Error Messages (Wininet.h)
 
 The WinINet functions return error codes where appropriate. The following errors are specific to the WinINet functions.
 

@@ -17,7 +17,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# DRM\_INDIVIDUALIZATION\_STATUS enumeration
+# DRM_INDIVIDUALIZATION_STATUS enumeration (Wmdrmsdk.h)
 
 The **DRM\_INDIVIDUALIZATION\_STATUS** enumeration type defines the valid states for DRM individualization.
 

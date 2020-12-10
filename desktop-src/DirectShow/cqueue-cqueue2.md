@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CQueue.CQueue constructor
+# CQueue.CQueue constructor (Wxutil.h)
 
 Constructor method.
 

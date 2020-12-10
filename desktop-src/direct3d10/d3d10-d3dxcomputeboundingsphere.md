@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXComputeBoundingSphere function
+# D3DXComputeBoundingSphere function (D3DX10math.h)
 
 Computes a bounding sphere for the mesh.
 

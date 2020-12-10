@@ -18,7 +18,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_LogicalIdentity class
+# CIM_LogicalIdentity class (CIMWin32 WMI Providers)
 
 The **CIM\_LogicalIdentity** class is an abstract and generic association that indicates that two logical elements represent different aspects of the same underlying entity. The association conveys what can be defined with multiple inheritance and is restricted to the logical aspects of a managed system element. In most scenarios, the identity relationship is determined by the equivalence of keys, or some other identifying properties of the related elements.
 

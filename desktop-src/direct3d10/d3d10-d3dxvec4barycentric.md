@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVec4BaryCentric function
+# D3DXVec4BaryCentric function (D3DX10Math.h)
 
 Returns a point in Barycentric coordinates, using the specified 4D vectors.
 

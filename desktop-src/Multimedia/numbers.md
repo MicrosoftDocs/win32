@@ -18,7 +18,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Numbers
+# Numbers (Windows Multimedia)
 
 The number controls allow the user to enter numerical data associated with a line. The numerical data is expressed as signed integers, unsigned integers, or integer decibel values. These controls use the [**MIXERCONTROLDETAILS\_SIGNED**](/previous-versions//dd757297(v=vs.85)) and [**MIXERCONTROLDETAILS\_UNSIGNED**](/previous-versions//dd757298(v=vs.85)) structures to retrieve and set control properties. The following table describes the types of number controls.
 

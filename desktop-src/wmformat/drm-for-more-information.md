@@ -16,7 +16,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# For More Information
+# For More Information (Microsoft Windows Media DRM Client)
 
 -   For general information about developing applications that use Windows Media technologies, see the [Windows Media Developer Center](https://msdn.microsoft.com/windowsmedia/).
 -   For more information about Windows Media DRM, see the latest [Windows Media Rights Manager SDK documentation](https://msdn.microsoft.com/library/?url=/library/wmrm10/htm/windowsmediarightsmanagersdk.asp?frame=true).

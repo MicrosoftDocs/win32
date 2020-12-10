@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# SampleLevel(S,float,float,uint) function
+# SampleLevel::SampleLevel(S,float,float,uint) function
 
 Samples a texture on the specified mipmap level and returns status about the operation.
 

@@ -12,7 +12,7 @@ topic_type:
 
 ---
 
-# Perceived Types
+# Perceived Types (The Windows Shell)
 
 A perceived type is a category of file types that lets you identify your file type to Windows (and applications) as being an image, audio, document, or other type. Perceived types are used for several purposes, including the determination of the folder type, which is then used to set the default view settings. For example, a folder full of files that are of the perceived type image is assigned a default view mode of thumbnails.
 

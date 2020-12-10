@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Control Events
+# Control Events (COM)
 
 In addition to providing properties and methods, a control also provides outgoing interfaces to notify its client of events. The client must support handling of these events. See [Events in COM and Connectable Objects](events-in-com-and-connectable-objects.md) for more information on how connectable objects work.
 

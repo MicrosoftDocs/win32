@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXSHEvalDirectionalLight function
+# D3DXSHEvalDirectionalLight function (D3DX10.h)
 
 Evaluates a directional light and returns spectral spherical harmonic (SH) data.
 

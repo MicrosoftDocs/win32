@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumerated Types
+# Enumerated Types (DirectShow)
 
 > [!Note]  
 > \[Deprecated. This API may be removed from future releases of Windows.\]

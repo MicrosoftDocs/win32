@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Window Classes
+# Window Classes (Windows and Messages)
 
 This topic describes the types of window classes, how the system locates them, and the elements that define the default behavior of windows that belong to them.
 

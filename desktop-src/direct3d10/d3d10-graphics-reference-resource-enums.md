@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Resource Enumerations
+# Resource Enumerations (Direct3D 10 Graphics)
 
 The following enumerations are used to specify information about how resources are created and accessed during rendering.
 

@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXIntersectTri function
+# D3DXIntersectTri function (D3DX10math.h)
 
 Computes the intersection of a ray and a triangle.
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Choosing an Audio Codec
+# Choosing an Audio Codec (Microsoft Media Foundation)
 
 The [**Windows Media Audio Encoder**](windowsmediaaudioencoder.md) provides three categories of audio encoding as shown in the following table.
 

@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXMatrixPerspectiveRH function
+# D3DXMatrixPerspectiveRH function (D3dx9math.h)
 
 Builds a right-handed perspective projection matrix.
 

@@ -12,7 +12,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Structures
+# Microsoft Windows Media DRM Client Structures
 
 The following structures are supported by the Windows Media DRM Client Extended APIs.
 

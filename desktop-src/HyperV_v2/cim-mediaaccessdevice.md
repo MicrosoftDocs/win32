@@ -38,7 +38,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_MediaAccessDevice class
+# CIM_MediaAccessDevice class (Hyper-V management)
 
 Represents a device that can use media to store and retrieve data.
 

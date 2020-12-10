@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# CSymbolType Simple Type
+# CSymbolType Simple Type (Windows Event Log)
 
 Defines a valid C/C++ symbol name.
 

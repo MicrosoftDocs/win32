@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXVec2Hermite function
+# D3DXVec2Hermite function (D3DX10Math.h)
 
 Performs a Hermite spline interpolation, using the specified 2D vectors.
 

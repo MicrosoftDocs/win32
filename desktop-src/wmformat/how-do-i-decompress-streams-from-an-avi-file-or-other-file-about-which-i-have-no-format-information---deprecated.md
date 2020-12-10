@@ -14,7 +14,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# How do I decompress streams from an AVI file or other file about which I have no format information?
+# How do I decompress streams from an AVI file or other file about which I have no format information
 
 For current documentation on Windows Media codecs and digital signal processors, see [Windows Media Audio and Video Codec and DSP APIs.](/previous-versions//dd464626(v=vs.85))
 

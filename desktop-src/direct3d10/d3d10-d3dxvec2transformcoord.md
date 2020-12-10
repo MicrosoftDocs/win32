@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXVec2TransformCoord function
+# D3DXVec2TransformCoord function (D3DX10Math.h)
 
 Transforms a 2D vector by a given matrix, projecting the result back into w = 1.
 

@@ -14,7 +14,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# /o switch
+# /o switch (MDMERGE)
 
 The **/o** switch specifies the output directory for composed metadata files.
 

@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# ID3DXMATRIXStack::ScaleLocal method
+# ID3DXMATRIXStack::ScaleLocal method (D3DX10.h)
 
 Scale the current matrix about the object origin.
 

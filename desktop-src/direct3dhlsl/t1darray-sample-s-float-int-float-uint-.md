@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Sample(S,float,int,float,uint) function
+# Texture1DArray::Sample(S,float,int,float,uint) function
 
 Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to, and returns status of the operation.
 

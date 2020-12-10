@@ -18,7 +18,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_Component class
+# CIM_Component class (CIMWin32 WMI Providers)
 
 The **CIM\_Component** association represents the parts of a relationship between MSEs.
 

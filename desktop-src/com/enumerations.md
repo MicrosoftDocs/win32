@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumerations
+# Enumerations (COM)
 
 The following enumerations are provided by COM:
 

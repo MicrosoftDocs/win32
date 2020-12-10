@@ -46,7 +46,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_Processor class
+# CIM_Processor class (CIMWin32 WMI Providers)
 
 The **CIM\_Processor** class represents the capabilities and management of the processor logical device.
 

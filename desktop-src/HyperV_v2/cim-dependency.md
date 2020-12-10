@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_Dependency class
+# CIM_Dependency class (Hyper-V management)
 
 Represents a generic association used to establish dependency relationships between managed elements.
 

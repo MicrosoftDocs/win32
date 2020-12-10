@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Signed and Unsigned Types
+# Signed and Unsigned Types (MIDL)
 
 Compilers that use different defaults for signed and unsigned types can cause software errors in your distributed application. You can avoid these problems by explicitly declaring your character types as signed or unsigned. Note that DCE IDL compilers do not recognize the keyword [**signed**](signed.md). Therefore, this feature is not available when you use the MIDL compiler /**osf** switch.
 

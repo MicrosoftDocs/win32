@@ -42,7 +42,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_USBDevice class
+# CIM_USBDevice class (CIMWin32 WMI Providers)
 
 The **CIM\_USBDevice** class represents the management characteristics of a USB device.
 

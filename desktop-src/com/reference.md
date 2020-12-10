@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Reference
+# Reference (COM)
 
 The following programming elements are provided by COM:
 

@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# IBackgroundCopyManager Methods
+# IBackgroundCopyManager Methods (DO)
 
 The [**IBackgroundCopyManager**](ibackgroundcopymanager.md) interface exposes the following methods.
 

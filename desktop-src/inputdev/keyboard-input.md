@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Keyboard Input
+# Keyboard Input (Keyboard and Mouse Input)
 
 This section describes how the system generates keyboard input and how an application receives and processes that input.
 

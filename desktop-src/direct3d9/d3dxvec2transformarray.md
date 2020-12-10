@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXVec2TransformArray function
+# D3DXVec2TransformArray function (D3dx9math.h)
 
 Transforms an array (x, y, 0, 1) by a given matrix.
 

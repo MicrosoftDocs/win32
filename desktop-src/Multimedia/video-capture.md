@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Video Capture
+# Video Capture (Windows Multimedia)
 
 You can easily incorporate video capture capabilities into your application by using the AVICap window class. AVICap provides applications with a simple, message-based interface to access video and waveform-audio acquisition hardware and to control the process of streaming video capture to disk.
 

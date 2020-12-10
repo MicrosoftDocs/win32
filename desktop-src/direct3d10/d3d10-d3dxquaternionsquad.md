@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXQuaternionSquad function
+# D3DXQuaternionSquad function (D3DX10Math.h)
 
 Interpolates between quaternions, using spherical quadrangle interpolation.
 

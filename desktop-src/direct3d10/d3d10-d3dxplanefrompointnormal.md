@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXPlaneFromPointNormal function
+# D3DXPlaneFromPointNormal function (D3DX10Math.h)
 
 Constructs a plane from a point and a normal.
 

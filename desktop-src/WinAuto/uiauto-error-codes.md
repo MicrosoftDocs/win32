@@ -20,7 +20,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Error Codes
+# Error Codes (UIAutomationCoreApi.h)
 
 This topic describes the error codes exposed by Microsoft UI Automation. The list is sorted alphabetically by name.
 

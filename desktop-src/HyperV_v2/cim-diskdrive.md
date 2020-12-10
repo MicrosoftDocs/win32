@@ -15,7 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_DiskDrive class
+# CIM_DiskDrive class (Hyper-V management)
 
 Represents a disk drive.
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Callbacks
+# Callbacks (RPC)
 
 Often the programming model necessitates a server callback to a client through a remote procedure call (RPC), or client calls into an untrusted server. This introduces many potential pitfalls.
 

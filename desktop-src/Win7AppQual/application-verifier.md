@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Application Verifier
+# Application Verifier (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 
 ## Affected Platforms
 

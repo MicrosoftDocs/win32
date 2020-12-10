@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int) function
+# RWTexture2DArray::Load(int) function
 
 Reads texture data.
 

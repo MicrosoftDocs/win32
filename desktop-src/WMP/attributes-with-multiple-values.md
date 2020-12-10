@@ -18,7 +18,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Attributes with Multiple Values
+# Attributes with Multiple Values (Windows Media Player SDK)
 
 Some media item attributes can have multiple values. For example, the **Author**, **WM/Composer**, and **WM/Genre** attributes can each have more than one value. The data type of such attributes is **multi-valued string**.
 

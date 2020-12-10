@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# General Requirements for Application Development
+# General Requirements for Application Development (Sensor API)
 
 This topic describes what you must do to start to create programs that use the Sensor API.
 

@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherAlpha(S,float,uint) function
+# TextureCube::GatherAlpha(S,float,uint) function
 
 Samples a texture and returns the alpha component along with status about the operation.
 

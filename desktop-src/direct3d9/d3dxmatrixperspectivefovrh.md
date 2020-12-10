@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXMatrixPerspectiveFovRH function
+# D3DXMatrixPerspectiveFovRH function (D3dx9math.h)
 
 Builds a right-handed perspective projection matrix based on a field of view.
 

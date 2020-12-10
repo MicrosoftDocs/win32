@@ -16,7 +16,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_UserDevice class
+# CIM_UserDevice class (Hyper-V management)
 
 Represents a logical device that allows a user to input, view or hear data on the computer system.
 

@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Video
+# Video (Windows Media Player SDK)
 
 A video display allows the user to view digital video files. The video display area is only visible when video is playing or paused. When you design your skin, you will want to reserve space in the Background image to contain the video display. If you don't, the video display may superimpose itself over any visible art, such as the Background file, buttons, and trackbars, which will keep the user from operating the controls on your skin.
 

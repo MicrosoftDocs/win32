@@ -31,7 +31,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_USBDevice class
+# CIM_USBDevice class (Hyper-V management)
 
 The management characteristics of a USB device.
 

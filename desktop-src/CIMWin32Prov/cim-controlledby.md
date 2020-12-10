@@ -23,7 +23,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_ControlledBy class
+# CIM_ControlledBy class (CIMWin32 WMI Providers)
 
 The **CIM\_ControlledBy** relationship indicates which devices are commanded by, or accessed through, the controller logical device.
 

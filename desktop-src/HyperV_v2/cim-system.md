@@ -23,7 +23,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_System class
+# CIM_System class (Hyper-V management)
 
 Represents a set of components that function as a single high-level entity.
 

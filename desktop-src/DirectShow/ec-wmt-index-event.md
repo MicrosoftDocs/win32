@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# EC\_WMT\_INDEX\_EVENT
+# EC_WMT_INDEX_EVENT (Dshow.h)
 
 Sent when an application uses the [WM ASF Writer](wm-asf-writer-filter.md) filter to index Windows Media Video files.
 

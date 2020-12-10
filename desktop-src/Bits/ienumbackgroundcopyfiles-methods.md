@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# IEnumBackgroundCopyFiles Methods
+# IEnumBackgroundCopyFiles Methods (BITS)
 
 The [**IEnumBackgroundCopyFiles**](/windows/desktop/api/Bits/nn-bits-ienumbackgroundcopyfiles) interface exposes the following methods.
 

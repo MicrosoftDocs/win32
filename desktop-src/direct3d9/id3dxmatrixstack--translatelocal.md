@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# ID3DXMATRIXStack::TranslateLocal method
+# ID3DXMATRIXStack::TranslateLocal method (D3dx9math.h)
 
 Determines the product of the computed translation matrix determined by the given factors (x, y, and z) and the current matrix.
 

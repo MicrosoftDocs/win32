@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Gather(S,float,uint) function
+# TextureCubeArray::Gather(S,float,uint) function
 
 Samples a texture and returns all four components along with status about the operation.
 

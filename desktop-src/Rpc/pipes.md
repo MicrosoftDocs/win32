@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Pipes
+# Pipes (RPC)
 
 The pipe type constructor is a highly efficient mechanism for passing large amounts of data, or any quantity of data that is not all available in memory at one time. By using a pipe, RPC run time handles the actual data transfer, eliminating the overhead associated with repeated remote procedure calls.
 

@@ -13,7 +13,7 @@ api_type:
 api_location: 
 ---
 
-# operator () operators
+# XMFLOAT3X3 operator () operators
 
 Accesses specific matrix elements referenced by row and column from the current instance of `XMFLOAT3X3`.
 

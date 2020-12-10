@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# COARefTime.COARefTime constructor
+# COARefTime.COARefTime constructor (Ctlutil.h)
 
 Constructor method.
 

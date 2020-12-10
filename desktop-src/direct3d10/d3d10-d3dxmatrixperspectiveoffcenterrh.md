@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixPerspectiveOffCenterRH function
+# D3DXMatrixPerspectiveOffCenterRH function (D3DX10Math.h)
 
 Builds a customized, right-handed perspective projection matrix.
 

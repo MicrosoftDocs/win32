@@ -40,7 +40,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_DesktopMonitor class
+# CIM_DesktopMonitor class (CIMWin32 WMI Providers)
 
 The **CIM\_DesktopMonitor** class represents the capabilities and management of the desktop monitor (CRT) logical device.
 

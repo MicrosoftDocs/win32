@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Structures
+# Structures (Structured Storage)
 
 Structures are primarily collections of data elements or members that facilitate an organizational scheme for interpreting data or performing operations on it. The Structured Storage structures are described in the following sections:
 

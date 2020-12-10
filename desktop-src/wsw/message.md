@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Message
+# Message (Windows Web Services)
 
 A message is an object that encapsulates data that is transmitted or received. The structure of a message is defined by SOAP and includes a set of headers and a body. The headers are always buffered in memory, but the body is read and written with a streaming API.
 

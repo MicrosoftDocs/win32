@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Getting Started
+# Getting Started (Sensor API)
 
 This section provides information you will need to start using the Sensor API.
 
