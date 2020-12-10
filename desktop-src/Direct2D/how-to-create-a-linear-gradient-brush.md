@@ -9,7 +9,7 @@ ms.custom: "seodec18"
 
 # How to Create a Linear Gradient Brush
 
-To create a linear gradient brush, use the [**CreateLinearGradientBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createlineargradientbrush(constd2d1_linear_gradient_brush_properties__id2d1gradientstopcollection_id2d1lineargradientbrush)) method and specify the linear gradient brush properties and the gradient stop collection. Some overloads enable you to specify the brush properties. The following code shows how to create a linear gradient brush to fill a circle, and a solid black brush to draw the outline of the circle.
+To create a linear gradient brush, use the [**CreateLinearGradientBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createlineargradientbrush(constd2d1_linear_gradient_brush_properties__id2d1gradientstopcollection_id2d1lineargradientbrush)) method and specify the linear gradient brush properties and the gradient stop collection. Some overloads enable you to specify the brush properties. The following code shows how to create a linear gradient brush to fill a square, and a solid black brush to draw the outline of the square.
 
 The code produces the output shown in the following illustration.
 
