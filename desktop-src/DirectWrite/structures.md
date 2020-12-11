@@ -16,6 +16,7 @@ DirectWrite defines the following structures.
 
 | Topic | Description |
 |-|-|
+| [**DWRITE_BITMAP_DATA_BGRA32**](/windows/win32/directwrite/dwrite_3/ns-dwrite_3-dwrite_bitmap_data_bgra32) | Represents bitmap data in BGRA32 format. |
 | [**DWRITE\_CARET\_METRICS**](/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_caret_metrics) | The [**DWRITE\_CARET\_METRICS**](/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_caret_metrics) structure specifies the metrics for caret placement in a font. |
 | [**DWRITE\_CLUSTER\_METRICS**](/windows/win32/api/dwrite/ns-dwrite-dwrite_cluster_metrics) | Contains information about a glyph cluster. |
 | [**DWRITE\_COLOR\_F**](dwrite-color-f.md) | Describes the red, green, blue, and alpha components of a color. |

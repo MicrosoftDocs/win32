@@ -10,6 +10,10 @@ ms.date: 09/23/2019
 
 This topic describes what's new in [DirectWrite](direct-write-portal.md) for various releases of Windows 10.
 
+## Project Reunion 0.1 Prerelease
+
+[Project Reunion](/windows/apps/project-reunion/) introduces a new version of DirectWrite, called DWriteCore, that runs on versions of Windows down to Windows 8 and opens the door for you to use it cross-platform. For more details, see [DWriteCore overview](dwritecore-overview.md).
+
 ## Windows 10 May 2019 Update
 
 No features nor APIs were added nor updated for Windows 10, version 1903 (10.0; Build 18362)&mdash;also known as Windows 10 May 2019 Update.
