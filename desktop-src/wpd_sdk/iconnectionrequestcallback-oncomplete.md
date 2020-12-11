@@ -66,7 +66,7 @@ Windows Portable Devices (WPD) calls this method to notify an application that a
 
 
 
-|                                     |                                                                                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                                                                             |
 | Minimum supported server<br/> | None supported<br/>                                                                                                                                              |

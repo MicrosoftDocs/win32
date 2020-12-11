@@ -66,7 +66,7 @@ The singleton instance of **\_\_thisNAMESPACE** is read-only. To change the sett
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

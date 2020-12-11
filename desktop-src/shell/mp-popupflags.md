@@ -62,7 +62,7 @@ These constants are defined in the Shobjidl.h file beginning in Windows XP Serv
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                    |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

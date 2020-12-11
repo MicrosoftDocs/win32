@@ -30,7 +30,7 @@ This sample is not available for download.
 
 
 
-|                       |             |
+| Requirement | Value |
 |-----------------------|-------------|
 | Programming languages | C++         |
 | Programming models    | Windows/C++ |
@@ -41,7 +41,7 @@ This sample is not available for download.
 
 
 
-|                          |                        |
+| Requirement | Value |
 |--------------------------|------------------------|
 | Minimum supported client | Windows 8.1            |
 | Minimum supported server | Windows Server 2012 R2 |

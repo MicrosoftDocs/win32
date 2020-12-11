@@ -46,7 +46,7 @@ Calling the **GetResults** method has no effect if the current implementation ha
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                              |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |

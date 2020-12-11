@@ -32,7 +32,7 @@ The [**H.264 Video Encoder**](h-264-video-encoder.md) sets this attribute on the
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | None supported<br/>                                                          |

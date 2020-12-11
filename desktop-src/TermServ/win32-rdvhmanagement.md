@@ -63,7 +63,7 @@ The **Win32\_RdvhManagement** class has these methods.
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                             |

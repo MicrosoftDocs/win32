@@ -82,7 +82,7 @@ The **\_\_ExtrinsicEvent** class is derived from [**\_\_Event**](--event.md).
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

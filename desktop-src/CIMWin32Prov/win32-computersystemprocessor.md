@@ -87,7 +87,7 @@ The **Win32\_ComputerSystemProcessor** class is derived from [**Win32\_SystemDev
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

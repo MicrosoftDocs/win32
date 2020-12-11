@@ -52,7 +52,7 @@ To receive EN\_CHANGE notification codes, specify [**ENM\_CHANGE**](rich-edit-co
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |

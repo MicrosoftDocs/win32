@@ -35,7 +35,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 April 2020 Update   <br/>                                        |
 | Header<br/>                   | <dl> <dt>Mftransform.h</dt> </dl> |

@@ -58,7 +58,7 @@ Returns one of these values:
 
 
 
-|                 |                                                                                                    |
+| Requirement | Value |
 |-----------------|----------------------------------------------------------------------------------------------------|
 | DRVCNF\_OK      | The configuration is successful; no further action is required.                                    |
 | DRVCNF\_CANCEL  | The user canceled the dialog box; no further action is required.                                   |
@@ -78,7 +78,7 @@ The DRV\_CANCEL, DRV\_OK, and DRV\_RESTART return values are obsolete; they have
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

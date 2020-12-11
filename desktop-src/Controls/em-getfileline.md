@@ -50,7 +50,7 @@ The copied line does not contain a terminating null character.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, 1809 \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2019 \[desktop apps only\]<br/>                                                     |

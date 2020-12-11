@@ -45,7 +45,7 @@ A pointer to a Boolean value that indicates whether the current webpage is in a 
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7<br/>                                                                          |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                             |

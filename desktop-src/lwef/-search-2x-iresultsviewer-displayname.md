@@ -47,7 +47,7 @@ Pointer to a value that receives the localized display name for the type.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                 |
 | Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                        |

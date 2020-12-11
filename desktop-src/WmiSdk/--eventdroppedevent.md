@@ -112,7 +112,7 @@ The **\_\_EventDroppedEvent** class is derived from [**\_\_SystemEvent**](--syst
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

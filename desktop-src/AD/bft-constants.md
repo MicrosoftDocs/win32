@@ -150,7 +150,7 @@ The file cannot be recognized. The file does not coincide with the known file na
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                        |

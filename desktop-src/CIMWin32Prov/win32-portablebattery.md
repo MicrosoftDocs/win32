@@ -1658,7 +1658,7 @@ The **Win32\_PortableBattery** class is derived from [**CIM\_Battery**](cim-batt
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

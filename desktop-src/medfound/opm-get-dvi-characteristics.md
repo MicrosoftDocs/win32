@@ -12,7 +12,7 @@ Queries whether a digital video interface (DVI) connector supports DVI version 1
 
 
 
-|              |                                                                             |
+| Requirement | Value |
 |--------------|-----------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_DVI\_CHARACTERISTICS                                              |
 | Input data   | None                                                                        |
@@ -43,7 +43,7 @@ This query is supported only when the physical connector type is OPM\_CONNECTOR\
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

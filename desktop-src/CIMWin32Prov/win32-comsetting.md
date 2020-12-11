@@ -108,7 +108,7 @@ The **Win32\_COMSetting** class is derived from [**CIM\_Setting**](cim-setting.m
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

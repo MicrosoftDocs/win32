@@ -118,7 +118,7 @@ Whenever WMI initializes the provider, the provider compares the timestamp with 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                     |

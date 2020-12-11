@@ -37,7 +37,7 @@ The value of the level that will be used in the activity s start and stop events
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                                   |

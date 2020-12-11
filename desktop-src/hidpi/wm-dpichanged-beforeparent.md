@@ -59,7 +59,7 @@ This message is only sent when the top-level window has a DPI awareness context 
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                            |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                 |

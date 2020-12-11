@@ -14,7 +14,7 @@ Gets information about a High-Bandwidth Digital Content Protection (HDCP) device
 
 
 
-|              |                                                                                                         |
+| Requirement | Value |
 |--------------|---------------------------------------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_CONNECTED\_HDCP\_DEVICE\_INFORMATION                                                          |
 | Input data   | None                                                                                                    |
@@ -38,7 +38,7 @@ This query is equivalent to the DXVA\_COPPQueryHDCPKeyData query used in Certifi
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

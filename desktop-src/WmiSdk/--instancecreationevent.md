@@ -115,7 +115,7 @@ The [Monitor process creation event](https://Gallery.TechNet.Microsoft.Com/6f137
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

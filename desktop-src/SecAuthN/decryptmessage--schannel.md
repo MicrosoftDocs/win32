@@ -88,7 +88,7 @@ The **DecryptMessage (Schannel)** function returns SEC\_I\_RENEGOTIATE when the 
 
 ## Requirements
 
-|                          |                                           |
+| Requirement | Value |
 |--------------------------|-------------------------------------------|
 | Minimum supported client | Windows XP \[desktop apps only\]          |
 | Minimum supported server | Windows Server 2003 \[desktop apps only\] |

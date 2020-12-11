@@ -53,7 +53,7 @@ Sink implementations should process the event notification within 100 MSEC becau
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                            |

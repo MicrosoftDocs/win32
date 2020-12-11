@@ -28,7 +28,7 @@ The [**WSAQUERYSET**](winsock-nsp-reference-links.md) structure is used extensiv
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |

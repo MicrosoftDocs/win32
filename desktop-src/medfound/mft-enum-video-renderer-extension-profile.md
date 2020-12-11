@@ -16,7 +16,7 @@ Contains a list of all **VideoRendererExtensionProfile** entries in the **VideoR
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                               |

@@ -404,7 +404,7 @@ The [Renew the DHCP Lease for a Network Adapter](https://Gallery.TechNet.Microso
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

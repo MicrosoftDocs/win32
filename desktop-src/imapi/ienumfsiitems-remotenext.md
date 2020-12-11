@@ -82,7 +82,7 @@ Other success codes may be returned as a result of implementation. The following
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP2 \[desktop apps only\]<br/>                     |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

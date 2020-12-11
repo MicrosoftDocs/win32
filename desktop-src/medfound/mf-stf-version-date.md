@@ -18,7 +18,7 @@ This attribute stores a [FILETIME](/windows/desktop/api/minwinbase/ns-minwinbase
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                          |

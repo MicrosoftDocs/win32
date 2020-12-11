@@ -116,7 +116,7 @@ WMI generates the absolute timer event by creating an instance of the [**\_\_Tim
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

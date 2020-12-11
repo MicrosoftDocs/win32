@@ -77,7 +77,7 @@ The **WINSOCK\_WS2HELP\_LSP\_REMOVE** event is traced for an LSP removal operati
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

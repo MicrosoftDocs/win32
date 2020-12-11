@@ -74,7 +74,7 @@ Before you restart the domain controller, call this function to provide the stat
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | None supported<br/>                                                               |

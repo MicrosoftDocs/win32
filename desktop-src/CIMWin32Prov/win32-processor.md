@@ -1207,7 +1207,7 @@ End If
 
 ## Requirements
 
-|                          |                                  |
+| Requirement | Value |
 |--------------------------|----------------------------------|
 | Minimum supported client | Windows Vista                    |
 | Minimum supported server | Windows Server 2008              |

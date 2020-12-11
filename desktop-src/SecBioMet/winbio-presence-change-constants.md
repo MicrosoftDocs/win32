@@ -40,7 +40,7 @@ Describes the types of changes that can occur when the Windows Biometric Framewo
 
 
 
-|                                     |                                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |

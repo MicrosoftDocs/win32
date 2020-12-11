@@ -64,7 +64,7 @@ Raw input is available only when the application calls [**RegisterRawInputDevice
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |--------------------------|-------------------------------------------|
 | Minimum supported client | Windows XP \[desktop apps only\] |
 | Minimum supported server | Windows Server 2003 \[desktop apps only\] |

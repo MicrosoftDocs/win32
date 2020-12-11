@@ -41,7 +41,7 @@ The OPM\_BUG\_TYPE\_Xxxx flags and the **OPM\_COPP\_COMPATIBLE\_BUS\_TYPE\_INTEG
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

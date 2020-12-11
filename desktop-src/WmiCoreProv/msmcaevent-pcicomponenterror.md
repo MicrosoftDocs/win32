@@ -399,7 +399,7 @@ The **MSMCAEvent\_PCIComponentError** class is derived from [**WMIEvent**](wmiev
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                         |

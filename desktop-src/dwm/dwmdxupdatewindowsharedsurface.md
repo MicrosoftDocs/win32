@@ -65,7 +65,7 @@ This method should only ever be called after [**DwmDxGetWindowSharedSurface**](d
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Minimum supported client | Windows 7 \[desktop apps only\] |
 | Minimum supported server | None supported |

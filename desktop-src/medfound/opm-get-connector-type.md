@@ -12,7 +12,7 @@ Returns the physical connector type of the video output.
 
 
 
-|              |                                                                             |
+| Requirement | Value |
 |--------------|-----------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_CONNECTOR\_TYPE                                                   |
 | Input data   | None                                                                        |
@@ -38,7 +38,7 @@ This query is equivalent to the DXVA\_COPPQueryConnectorType query used in Certi
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

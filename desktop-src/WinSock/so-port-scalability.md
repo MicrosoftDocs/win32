@@ -50,7 +50,7 @@ To have any effect, the **SO\_PORT\_SCALABILITY** option must be set before the 
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

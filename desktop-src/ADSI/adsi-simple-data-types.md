@@ -127,7 +127,7 @@ When ADSI reads an attribute that has been defined as an **INTEGER** in the LDAP
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                    |

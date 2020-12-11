@@ -41,7 +41,7 @@ Drop-down list box being initialized and a verify or add operation.
 
 
 
-|                                 |                                                                                                                                                                                                                                          |
+| Requirement | Value |
 |---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | FILTERCHOOSE\_CUSTOM\_VERIFY    | The *lParam* parameter is a pointer to a [**WAVEFILTER**](/windows/desktop/api/Mmreg/ns-mmreg-wavefilter) structure to be added to the custom Name drop-down list box.                                                                                                   |
 | FILTERCHOOSE\_FILTER\_ADD       | The *lParam* parameter is a pointer to a buffer that will accept a [**WAVEFILTER**](/windows/desktop/api/Mmreg/ns-mmreg-wavefilter) structure to be added to the Filter drop-down list box. The application must copy the filter structure to be added into this buffer. |
@@ -76,7 +76,7 @@ If the application processes a verify operation, the application must precede th
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

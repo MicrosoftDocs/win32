@@ -45,7 +45,7 @@ A pointer to a **BSTR** variable that receives the name of the target on which t
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                       |

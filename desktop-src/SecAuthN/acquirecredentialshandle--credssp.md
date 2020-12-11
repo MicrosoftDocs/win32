@@ -107,7 +107,7 @@ When you have finished using the returned credentials, free the memory used by t
 
 ## Requirements
 
-|                          |                                                                                  |
+| Requirement | Value |
 |--------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client | Windows Vista \[desktop apps only\]                                              |
 | Minimum supported server | Windows Server 2008 \[desktop apps only\]                                        |

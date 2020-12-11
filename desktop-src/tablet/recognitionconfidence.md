@@ -73,7 +73,7 @@ The [**IInkAnalyzer**](iinkanalyzer.md) uses one or more [**IInkAnalysisRecogniz
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

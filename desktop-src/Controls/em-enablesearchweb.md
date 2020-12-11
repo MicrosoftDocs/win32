@@ -50,7 +50,7 @@ If you disable "Search the web" using this message, the [**EM\_SEARCHWEB**](em-s
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, 1809 \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2019 \[desktop apps only\]<br/>                                                     |

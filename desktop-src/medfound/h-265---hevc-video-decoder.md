@@ -87,7 +87,7 @@ The decoder supports the following formats:
 
 
 
-|                    |                                                                                                                                                                                                                                                                      |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Profiles/Levels    | Main, Main Still Picture, and Main10 profiles                                                                                                                                                                                                                        |
 | Chroma Formats     | 4:2:0 chroma                                                                                                                                                                                                                                                         |
@@ -105,7 +105,7 @@ Input data must conform to Annex B of ITU-T H.265 \| ISO/IEC 23008-2. The data m
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | None supported<br/>                                                                |

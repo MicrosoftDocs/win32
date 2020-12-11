@@ -112,7 +112,7 @@ The MPEG-1 and MPEG-2 standard defines 252 layer 3 audio formats. The MP3 encode
 
 
 
-|                                  |                                                               |
+| Requirement | Value |
 |----------------------------------|---------------------------------------------------------------|
 | Channels                         | mono or stereo                                                |
 | MPEG-1 sample rates in kHz       | 44.1, 48, 32                                                  |
@@ -161,7 +161,7 @@ The MP3 encoder does not support the following formats defined by the standard.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>           |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/> |

@@ -43,7 +43,7 @@ The **\_\_IndicationRelated** class is derived from [**\_\_SystemClass**](--syst
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

@@ -44,7 +44,7 @@ The MF\_RESOLUTION\_KEEP\_BYTE\_STREAM\_ALIVE\_ON\_FAIL flag is defined for the 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

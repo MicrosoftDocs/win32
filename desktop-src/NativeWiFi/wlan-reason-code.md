@@ -300,7 +300,7 @@ The 802.1x error codes supported on Windows XP with SP3 and on the Wireless LAN
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/>                  |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |

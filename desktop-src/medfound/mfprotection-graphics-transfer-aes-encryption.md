@@ -18,7 +18,7 @@ Specifies AES DXVA encryption for DXVA decoders.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[UWP apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2012 \[UWP apps only\]<br/>                                   |

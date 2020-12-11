@@ -50,7 +50,7 @@ A value of the [**TSSESSION\_STATE**](/windows/desktop/api/SessDirPublicTypes/ne
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                       |

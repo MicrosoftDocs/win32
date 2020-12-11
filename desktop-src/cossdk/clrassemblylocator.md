@@ -23,7 +23,7 @@ This class is implemented by COM+.
 
 
 
-|            |                                                       |
+| Requirement | Value |
 |------------|-------------------------------------------------------|
 | CLSID      | GUID\_AssemblyLocator                                 |
 | ProgID     | L"System.EnterpriseServices.Internal.AssemblyLocator" |
@@ -47,7 +47,7 @@ To use this class from Microsoft Visual Basic, add a reference to the COM+ Servi
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                 |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |

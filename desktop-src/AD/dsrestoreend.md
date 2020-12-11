@@ -66,7 +66,7 @@ The **DsRestoreEnd** function closes outstanding binding handles and performs a 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | None supported<br/>                                                               |

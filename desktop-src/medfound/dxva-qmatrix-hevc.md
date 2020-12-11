@@ -85,7 +85,7 @@ Contains the DC value of the scaling list for 32x32 size with sizeID equal to 3,
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                           |

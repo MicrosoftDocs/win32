@@ -69,7 +69,7 @@ You should not rely upon only the 0x00000001 flag to determine whether Small Bus
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                 |

@@ -77,7 +77,7 @@ Access permissions for the file are unknown.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows XP \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2003, Windows Server 2003 \[desktop apps only\]<br/>            |

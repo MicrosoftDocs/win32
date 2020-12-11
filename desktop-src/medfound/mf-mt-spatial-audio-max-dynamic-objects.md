@@ -22,7 +22,7 @@ An [**IMFSpatialAudioSample**](/windows/desktop/api/mfspatialaudio/nn-mfspatiala
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                          |

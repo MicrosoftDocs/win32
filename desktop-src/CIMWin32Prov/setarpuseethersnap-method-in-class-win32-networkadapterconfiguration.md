@@ -411,7 +411,7 @@ The [Modify ARP Queries to Use EtherSNAP](https://Gallery.TechNet.Microsoft.Com/
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

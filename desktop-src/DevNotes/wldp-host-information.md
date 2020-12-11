@@ -69,7 +69,7 @@ In addition to the name, the caller can specify a handle to the file used for va
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                              |

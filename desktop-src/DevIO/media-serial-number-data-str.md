@@ -72,7 +72,7 @@ No header file is available for the **MEDIA\_SERIAL\_NUMBER\_DATA** structure. I
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>          |
 | Minimum supported server<br/> | Windows Server 2003<br/> |

@@ -25,7 +25,7 @@ The following illustration shows a default thumbnail transformed into a customiz
 
 ## Requirements
 
-|                          |                                                                                                                     |
+| Requirement | Value |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 7 or Windows Vista with Service Pack 2 (SP2) and Platform Update for Windows Vista                          |
 | Minimum supported server | Windows Server 2008 R2 or Windows Server 2008 with Service Pack 2 (SP2) and Platform Update for Windows Server 2008 |
