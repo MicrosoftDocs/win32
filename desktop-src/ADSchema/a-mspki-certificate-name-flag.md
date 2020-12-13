@@ -22,7 +22,7 @@ Contains the flags related to constructing the subject name in an issued certifi
 
 
 
-|                   |                                                                                                   |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------------------------------------------|
 | CN                | ms-PKI-Certificate-Name-Flag                                                                      |
 | Ldap-Display-Name | msPKI-Certificate-Name-Flag                                                                       |
@@ -47,7 +47,7 @@ Contains the flags related to constructing the subject name in an issued certifi
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -68,7 +68,7 @@ Contains the flags related to constructing the subject name in an issued certifi
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -89,7 +89,7 @@ Contains the flags related to constructing the subject name in an issued certifi
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -110,7 +110,7 @@ Contains the flags related to constructing the subject name in an issued certifi
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -131,7 +131,7 @@ Contains the flags related to constructing the subject name in an issued certifi
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |

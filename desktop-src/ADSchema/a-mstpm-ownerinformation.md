@@ -22,7 +22,7 @@ Contains the owner information of a particular TPM.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-TPM-OwnerInformation                     |
 | Ldap-Display-Name | msTPM-OwnerInformation                      |
@@ -45,7 +45,7 @@ Contains the owner information of a particular TPM.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -66,7 +66,7 @@ Contains the owner information of a particular TPM.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -87,7 +87,7 @@ Contains the owner information of a particular TPM.
 
 
 
-|                        |                                                                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                  |

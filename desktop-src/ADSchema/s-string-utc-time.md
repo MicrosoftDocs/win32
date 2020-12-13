@@ -21,7 +21,7 @@ A time string format defined by ASN.1 standards. For more information, see ISO 8
 
 
 
-|              |                                                                            |
+| Entry | Value |
 |--------------|----------------------------------------------------------------------------|
 | Name         | String(UTC-Time)                                                           |
 | Syntax ID    | 2.5.5.11                                                                   |

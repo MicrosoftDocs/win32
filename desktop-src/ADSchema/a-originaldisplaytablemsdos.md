@@ -22,7 +22,7 @@ The MAPI (original) display table for an MSDOS address entry.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Original-Display-Table-MSDOS                          |
 | Ldap-Display-Name | originalDisplayTableMSDOS                             |
@@ -48,7 +48,7 @@ The MAPI (original) display table for an MSDOS address entry.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8104                                                   |
@@ -69,7 +69,7 @@ The MAPI (original) display table for an MSDOS address entry.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8104                                                   |
@@ -90,7 +90,7 @@ The MAPI (original) display table for an MSDOS address entry.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8104                                                   |
@@ -111,7 +111,7 @@ The MAPI (original) display table for an MSDOS address entry.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8104                                                   |
@@ -132,7 +132,7 @@ The MAPI (original) display table for an MSDOS address entry.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8104                                                   |
@@ -153,7 +153,7 @@ The MAPI (original) display table for an MSDOS address entry.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8104                                                   |

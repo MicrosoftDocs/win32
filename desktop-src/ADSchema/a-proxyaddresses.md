@@ -22,7 +22,7 @@ A proxy address is the address by which a Microsoft Exchange Server recipient ob
 
 
 
-|                   |                                                                                                      |
+| Entry | Value |
 |-------------------|------------------------------------------------------------------------------------------------------|
 | CN                | Proxy-Addresses                                                                                      |
 | Ldap-Display-Name | proxyAddresses                                                                                       |
@@ -49,7 +49,7 @@ A proxy address is the address by which a Microsoft Exchange Server recipient ob
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x800F                          |
@@ -70,7 +70,7 @@ A proxy address is the address by which a Microsoft Exchange Server recipient ob
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x800F                          |
@@ -91,7 +91,7 @@ A proxy address is the address by which a Microsoft Exchange Server recipient ob
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x800F                          |
@@ -112,7 +112,7 @@ A proxy address is the address by which a Microsoft Exchange Server recipient ob
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x800F                          |
@@ -133,7 +133,7 @@ A proxy address is the address by which a Microsoft Exchange Server recipient ob
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x800F                          |
@@ -154,7 +154,7 @@ A proxy address is the address by which a Microsoft Exchange Server recipient ob
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x800F                          |
@@ -175,7 +175,7 @@ A proxy address is the address by which a Microsoft Exchange Server recipient ob
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x800F                          |

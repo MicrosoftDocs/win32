@@ -50,7 +50,7 @@ This attribute can be zero or a combination of one or more of the following valu
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Package-Flags                        |
 | Ldap-Display-Name | packageFlags                         |
@@ -76,7 +76,7 @@ This attribute can be zero or a combination of one or more of the following valu
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -97,7 +97,7 @@ This attribute can be zero or a combination of one or more of the following valu
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -118,7 +118,7 @@ This attribute can be zero or a combination of one or more of the following valu
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -139,7 +139,7 @@ This attribute can be zero or a combination of one or more of the following valu
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -160,7 +160,7 @@ This attribute can be zero or a combination of one or more of the following valu
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -181,7 +181,7 @@ This attribute can be zero or a combination of one or more of the following valu
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |

@@ -22,7 +22,7 @@ The total number of failed interactive logons since this feature was turned on.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Failed-Interactive-Logon-Count |
 | Ldap-Display-Name | msDS-FailedInteractiveLogonCount     |
@@ -45,7 +45,7 @@ The total number of failed interactive logons since this feature was turned on.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ The total number of failed interactive logons since this feature was turned on.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ The total number of failed interactive logons since this feature was turned on.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

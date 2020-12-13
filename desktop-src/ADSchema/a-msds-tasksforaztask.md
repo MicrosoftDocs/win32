@@ -22,7 +22,7 @@ List of tasks linked to Az-Task.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Tasks-For-Az-Task                 |
 | Ldap-Display-Name | msDS-TasksForAzTask                     |
@@ -47,7 +47,7 @@ List of tasks linked to Az-Task.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | 2020                                              |
 | MAPI-Id                | \-                                                |
@@ -68,7 +68,7 @@ List of tasks linked to Az-Task.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | 2020                                              |
 | MAPI-Id                | \-                                                |
@@ -89,7 +89,7 @@ List of tasks linked to Az-Task.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | 2020                                              |
 | MAPI-Id                | \-                                                |
@@ -110,7 +110,7 @@ List of tasks linked to Az-Task.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | 2020                                              |
 | MAPI-Id                | \-                                                |
@@ -131,7 +131,7 @@ List of tasks linked to Az-Task.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | 2020                                              |
 | MAPI-Id                | \-                                                |

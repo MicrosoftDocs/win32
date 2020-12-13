@@ -22,7 +22,7 @@ Used to map a device (for example, a printer, computer, and so on) to a physical
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Physical-Location-Object                |
 | Ldap-Display-Name | physicalLocationObject                  |
@@ -48,7 +48,7 @@ Used to map a device (for example, a printer, computer, and so on) to a physical
 
 
 
-|                        |                                                                                                                                |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                             |
 | MAPI-Id                | \-                                                                                                                             |
@@ -69,7 +69,7 @@ Used to map a device (for example, a printer, computer, and so on) to a physical
 
 
 
-|                        |                                                                                                                                |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                             |
 | MAPI-Id                | \-                                                                                                                             |
@@ -90,7 +90,7 @@ Used to map a device (for example, a printer, computer, and so on) to a physical
 
 
 
-|                        |                                                                                                                                |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                             |
 | MAPI-Id                | \-                                                                                                                             |
@@ -111,7 +111,7 @@ Used to map a device (for example, a printer, computer, and so on) to a physical
 
 
 
-|                        |                                                                                                                                |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                             |
 | MAPI-Id                | \-                                                                                                                             |
@@ -132,7 +132,7 @@ Used to map a device (for example, a printer, computer, and so on) to a physical
 
 
 
-|                        |                                                                                                                                |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                             |
 | MAPI-Id                | \-                                                                                                                             |
@@ -153,7 +153,7 @@ Used to map a device (for example, a printer, computer, and so on) to a physical
 
 
 
-|                        |                                                                                                                                |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                             |
 | MAPI-Id                | \-                                                                                                                             |

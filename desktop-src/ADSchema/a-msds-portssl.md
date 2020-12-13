@@ -22,7 +22,7 @@ Specifies which port is used by the directory service for SSL requests.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Port-SSL                       |
 | Ldap-Display-Name | msDS-PortSSL                         |
@@ -43,7 +43,7 @@ Specifies which port is used by the directory service for SSL requests.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

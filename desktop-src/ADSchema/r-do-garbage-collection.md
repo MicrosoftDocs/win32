@@ -21,7 +21,7 @@ Extended right to force the Directory Service to do garbage collection. Control 
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Do-Garbage-Collection                |
 | Display-Name | Do Garbage Collection                |
@@ -43,7 +43,7 @@ Extended right to force the Directory Service to do garbage collection. Control 
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 31                                       |
@@ -54,7 +54,7 @@ Extended right to force the Directory Service to do garbage collection. Control 
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 31                                       |
@@ -65,7 +65,7 @@ Extended right to force the Directory Service to do garbage collection. Control 
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 31                                       |
@@ -76,7 +76,7 @@ Extended right to force the Directory Service to do garbage collection. Control 
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 31                                       |
@@ -87,7 +87,7 @@ Extended right to force the Directory Service to do garbage collection. Control 
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 31                                       |
@@ -98,7 +98,7 @@ Extended right to force the Directory Service to do garbage collection. Control 
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 31                                       |
@@ -109,7 +109,7 @@ Extended right to force the Directory Service to do garbage collection. Control 
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 31                                       |

@@ -21,7 +21,7 @@ The documentLocation attribute type specifies the location of the document origi
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | documentLocation                            |
 | Ldap-Display-Name | documentLocation                            |
@@ -46,7 +46,7 @@ The documentLocation attribute type specifies the location of the document origi
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -67,7 +67,7 @@ The documentLocation attribute type specifies the location of the document origi
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -88,7 +88,7 @@ The documentLocation attribute type specifies the location of the document origi
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -109,7 +109,7 @@ The documentLocation attribute type specifies the location of the document origi
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -130,7 +130,7 @@ The documentLocation attribute type specifies the location of the document origi
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |

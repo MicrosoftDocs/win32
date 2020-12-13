@@ -22,7 +22,7 @@ Used to enforce a combined users quota on the total number of Trusted-Domain obj
 
 
 
-|                   |                                           |
+| Entry | Value |
 |-------------------|-------------------------------------------|
 | CN                | MS-DS-All-Users-Trust-Quota               |
 | Ldap-Display-Name | msDS-AllUsersTrustQuota                   |
@@ -47,7 +47,7 @@ Used to enforce a combined users quota on the total number of Trusted-Domain obj
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -68,7 +68,7 @@ Used to enforce a combined users quota on the total number of Trusted-Domain obj
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -89,7 +89,7 @@ Used to enforce a combined users quota on the total number of Trusted-Domain obj
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -110,7 +110,7 @@ Used to enforce a combined users quota on the total number of Trusted-Domain obj
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -131,7 +131,7 @@ Used to enforce a combined users quota on the total number of Trusted-Domain obj
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |

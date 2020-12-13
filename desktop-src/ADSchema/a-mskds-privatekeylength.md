@@ -22,7 +22,7 @@ The length of the secret agreement private key.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-Kds-PrivateKey-Length             |
 | Ldap-Display-Name | msKds-PrivateKeyLength               |
@@ -43,7 +43,7 @@ The length of the secret agreement private key.
 
 
 
-|                        |                                                                                                                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                                  |

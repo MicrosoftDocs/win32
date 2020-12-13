@@ -22,7 +22,7 @@ Contains information about an initial incoming authentication request by a clien
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Initial-Auth-Incoming                       |
 | Ldap-Display-Name | initialAuthIncoming                         |
@@ -48,7 +48,7 @@ Contains information about an initial incoming authentication request by a clien
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -69,7 +69,7 @@ Contains information about an initial incoming authentication request by a clien
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -90,7 +90,7 @@ Contains information about an initial incoming authentication request by a clien
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -111,7 +111,7 @@ Contains information about an initial incoming authentication request by a clien
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -132,7 +132,7 @@ Contains information about an initial incoming authentication request by a clien
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -153,7 +153,7 @@ Contains information about an initial incoming authentication request by a clien
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |

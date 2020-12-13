@@ -21,7 +21,7 @@ A digitally signed or certified identity and set of attributes. Used to bind aut
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | attributeCertificateAttribute                         |
 | Ldap-Display-Name | attributeCertificateAttribute                         |
@@ -46,7 +46,7 @@ A digitally signed or certified identity and set of attributes. Used to bind aut
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -67,7 +67,7 @@ A digitally signed or certified identity and set of attributes. Used to bind aut
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -88,7 +88,7 @@ A digitally signed or certified identity and set of attributes. Used to bind aut
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -109,7 +109,7 @@ A digitally signed or certified identity and set of attributes. Used to bind aut
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -130,7 +130,7 @@ A digitally signed or certified identity and set of attributes. Used to bind aut
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |

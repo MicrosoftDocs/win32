@@ -22,7 +22,7 @@ There is one of these per Domain Controller. It holds the RID pools that were al
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | RID-Set                              |
 | Ldap-Display-Name | rIDSet                               |
@@ -47,7 +47,7 @@ There is one of these per Domain Controller. It holds the RID pools that were al
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                         |
 | Object-Category             | 1                                                                                            |
@@ -158,7 +158,7 @@ This class contains the following attributes for Windows 2000 Server:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                         |
 | Object-Category             | 1                                                                                            |
@@ -287,7 +287,7 @@ This class contains the following attributes for Windows Server 2003:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                         |
 | Object-Category             | 1                                                                                            |
@@ -419,7 +419,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                         |
 | Object-Category             | 1                                                                                            |
@@ -562,7 +562,7 @@ This class contains the following attributes for Windows Server 2008:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                         |
 | Object-Category             | 1                                                                                            |
@@ -712,7 +712,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                         |
 | Object-Category             | 1                                                                                            |

@@ -22,7 +22,7 @@ Forward link for [**ms-DS-AuthenticatedTo-Accountlist**](a-msds-authenticatedtoa
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-AuthenticatedAt-DC                |
 | Ldap-Display-Name | msDS-AuthenticatedAtDC                  |
@@ -45,7 +45,7 @@ Forward link for [**ms-DS-AuthenticatedTo-Accountlist**](a-msds-authenticatedtoa
 
 
 
-|                        |                                                                             |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------|
 | Link-Id                | 2112                                                                        |
 | MAPI-Id                | \-                                                                          |
@@ -66,7 +66,7 @@ Forward link for [**ms-DS-AuthenticatedTo-Accountlist**](a-msds-authenticatedtoa
 
 
 
-|                        |                                                                             |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------|
 | Link-Id                | 2112                                                                        |
 | MAPI-Id                | \-                                                                          |
@@ -87,7 +87,7 @@ Forward link for [**ms-DS-AuthenticatedTo-Accountlist**](a-msds-authenticatedtoa
 
 
 
-|                        |                                                                             |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------|
 | Link-Id                | 2112                                                                        |
 | MAPI-Id                | \-                                                                          |

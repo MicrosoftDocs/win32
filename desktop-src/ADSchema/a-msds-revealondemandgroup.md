@@ -22,7 +22,7 @@ Used with RODCs to define which users, computers, and groups are allowed to have
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Reveal-OnDemand-Group             |
 | Ldap-Display-Name | msDS-RevealOnDemandGroup                |
@@ -45,7 +45,7 @@ Used with RODCs to define which users, computers, and groups are allowed to have
 
 
 
-|                        |                                                                                    |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------|
 | Link-Id                | 2110                                                                               |
 | MAPI-Id                | \-                                                                                 |
@@ -66,7 +66,7 @@ Used with RODCs to define which users, computers, and groups are allowed to have
 
 
 
-|                        |                                                                                    |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------|
 | Link-Id                | 2110                                                                               |
 | MAPI-Id                | \-                                                                                 |
@@ -87,7 +87,7 @@ Used with RODCs to define which users, computers, and groups are allowed to have
 
 
 
-|                        |                                                                                    |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------|
 | Link-Id                | 2110                                                                               |
 | MAPI-Id                | \-                                                                                 |

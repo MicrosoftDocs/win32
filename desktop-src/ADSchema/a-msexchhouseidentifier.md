@@ -22,7 +22,7 @@ This attribute contains an address for a contact in an Exchange server address b
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-Exch-House-Identifier                    |
 | Ldap-Display-Name | msExchHouseIdentifier                       |
@@ -47,7 +47,7 @@ This attribute contains an address for a contact in an Exchange server address b
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x924                                                              |
@@ -68,7 +68,7 @@ This attribute contains an address for a contact in an Exchange server address b
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x924                                                              |
@@ -89,7 +89,7 @@ This attribute contains an address for a contact in an Exchange server address b
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x924                                                              |
@@ -110,7 +110,7 @@ This attribute contains an address for a contact in an Exchange server address b
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x924                                                              |
@@ -131,7 +131,7 @@ This attribute contains an address for a contact in an Exchange server address b
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x924                                                              |

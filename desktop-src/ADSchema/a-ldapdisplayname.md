@@ -22,7 +22,7 @@ The name used by LDAP clients, such as the ADSI LDAP provider, to read and write
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | LDAP-Display-Name                           |
 | Ldap-Display-Name | lDAPDisplayName                             |
@@ -49,7 +49,7 @@ The name used by LDAP clients, such as the ADSI LDAP provider, to read and write
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | 0x8171                                                                                                    |
@@ -70,7 +70,7 @@ The name used by LDAP clients, such as the ADSI LDAP provider, to read and write
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | 0x8171                                                                                                    |
@@ -91,7 +91,7 @@ The name used by LDAP clients, such as the ADSI LDAP provider, to read and write
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | 0x8171                                                                                                    |
@@ -112,7 +112,7 @@ The name used by LDAP clients, such as the ADSI LDAP provider, to read and write
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | 0x8171                                                                                                    |
@@ -133,7 +133,7 @@ The name used by LDAP clients, such as the ADSI LDAP provider, to read and write
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | 0x8171                                                                                                    |
@@ -154,7 +154,7 @@ The name used by LDAP clients, such as the ADSI LDAP provider, to read and write
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | 0x8171                                                                                                    |
@@ -175,7 +175,7 @@ The name used by LDAP clients, such as the ADSI LDAP provider, to read and write
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | 0x8171                                                                                                    |

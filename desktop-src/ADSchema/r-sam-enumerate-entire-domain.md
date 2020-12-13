@@ -21,7 +21,7 @@ This control access right can be used to restrict who can be allowed to use a do
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | SAM-Enumerate-Entire-Domain          |
 | Display-Name | Enumerate Entire SAM Domain          |
@@ -41,7 +41,7 @@ This control access right can be used to restrict who can be allowed to use a do
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Sam-Server**](c-samserver.md)<br/> |
 | Localization-Display-ID | 57                                           |
@@ -52,7 +52,7 @@ This control access right can be used to restrict who can be allowed to use a do
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Sam-Server**](c-samserver.md)<br/> |
 | Localization-Display-ID | 57                                           |
@@ -63,7 +63,7 @@ This control access right can be used to restrict who can be allowed to use a do
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Sam-Server**](c-samserver.md)<br/> |
 | Localization-Display-ID | 57                                           |
@@ -74,7 +74,7 @@ This control access right can be used to restrict who can be allowed to use a do
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Sam-Server**](c-samserver.md)<br/> |
 | Localization-Display-ID | 57                                           |
@@ -85,7 +85,7 @@ This control access right can be used to restrict who can be allowed to use a do
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Sam-Server**](c-samserver.md)<br/> |
 | Localization-Display-ID | 57                                           |

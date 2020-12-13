@@ -22,7 +22,7 @@ The name of the secret agreement algorithm to be used with public keys.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-Kds-SecretAgreement-AlgorithmID          |
 | Ldap-Display-Name | msKds-SecretAgreementAlgorithmID            |
@@ -43,7 +43,7 @@ The name of the secret agreement algorithm to be used with public keys.
 
 
 
-|                        |                                                                                                                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                                  |

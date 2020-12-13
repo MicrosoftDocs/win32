@@ -22,7 +22,7 @@ The description displayed on admin screens.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Admin-Description                           |
 | Ldap-Display-Name | adminDescription                            |
@@ -49,7 +49,7 @@ The description displayed on admin screens.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x804A                          |
@@ -70,7 +70,7 @@ The description displayed on admin screens.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x804A                          |
@@ -91,7 +91,7 @@ The description displayed on admin screens.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x804A                          |
@@ -112,7 +112,7 @@ The description displayed on admin screens.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x804A                          |
@@ -133,7 +133,7 @@ The description displayed on admin screens.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x804A                          |
@@ -154,7 +154,7 @@ The description displayed on admin screens.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x804A                          |
@@ -175,7 +175,7 @@ The description displayed on admin screens.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x804A                          |

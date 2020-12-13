@@ -22,7 +22,7 @@ ms-DS-SCP-container attribute.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-SCP-Container                         |
 | Ldap-Display-Name | msDS-SCPContainer                           |
@@ -43,7 +43,7 @@ ms-DS-SCP-container attribute.
 
 
 
-|                        |                                                                                                                          |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                       |
 | MAPI-Id                | \-                                                                                                                       |

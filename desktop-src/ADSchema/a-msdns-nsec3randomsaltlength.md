@@ -22,7 +22,7 @@ An attribute that defines the length in bytes of the random salt used when signi
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DNS-NSEC3-Random-Salt-Length      |
 | Ldap-Display-Name | msDNS-NSEC3RandomSaltLength          |
@@ -43,7 +43,7 @@ An attribute that defines the length in bytes of the random salt used when signi
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

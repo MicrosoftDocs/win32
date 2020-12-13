@@ -22,7 +22,7 @@ Targets that correspond to the DFS root or link.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-DFS-Target-List-v2                                 |
 | Ldap-Display-Name | msDFS-TargetListv2                                    |
@@ -45,7 +45,7 @@ Targets that correspond to the DFS root or link.
 
 
 
-|                        |                                                                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |
@@ -66,7 +66,7 @@ Targets that correspond to the DFS root or link.
 
 
 
-|                        |                                                                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |
@@ -87,7 +87,7 @@ Targets that correspond to the DFS root or link.
 
 
 
-|                        |                                                                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |

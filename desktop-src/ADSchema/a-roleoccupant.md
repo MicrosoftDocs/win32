@@ -22,7 +22,7 @@ The distinguished name of an object that fulfills an organizational role.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Role-Occupant                           |
 | Ldap-Display-Name | roleOccupant                            |
@@ -48,7 +48,7 @@ The distinguished name of an object that fulfills an organizational role.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | 0x8125                                                         |
@@ -69,7 +69,7 @@ The distinguished name of an object that fulfills an organizational role.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | 0x8125                                                         |
@@ -90,7 +90,7 @@ The distinguished name of an object that fulfills an organizational role.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | 0x8125                                                         |
@@ -111,7 +111,7 @@ The distinguished name of an object that fulfills an organizational role.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | 0x8125                                                         |
@@ -132,7 +132,7 @@ The distinguished name of an object that fulfills an organizational role.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | 0x8125                                                         |
@@ -153,7 +153,7 @@ The distinguished name of an object that fulfills an organizational role.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | 0x8125                                                         |

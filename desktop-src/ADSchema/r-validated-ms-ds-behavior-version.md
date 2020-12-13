@@ -21,7 +21,7 @@ Validated write to MS DS behavior version.
 
 
 
-|              |                                           |
+| Entry | Value |
 |--------------|-------------------------------------------|
 | CN           | Validated-MS-DS-Behavior-Version          |
 | Display-Name | Validated write to MS DS behavior version |
@@ -37,7 +37,7 @@ Validated write to MS DS behavior version.
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 81                                       |

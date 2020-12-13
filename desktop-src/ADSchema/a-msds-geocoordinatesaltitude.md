@@ -22,7 +22,7 @@ Geo-coordinates for location services, specifically altitude (in millimeters) of
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-GeoCoordinates-Altitude        |
 | Ldap-Display-Name | msDS-GeoCoordinatesAltitude          |
@@ -43,7 +43,7 @@ Geo-coordinates for location services, specifically altitude (in millimeters) of
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |

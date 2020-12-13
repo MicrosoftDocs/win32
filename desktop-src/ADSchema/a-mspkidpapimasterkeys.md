@@ -22,7 +22,7 @@ Storage of encrypted DPAPI Master Keys for user.
 
 
 
-|                   |                                                 |
+| Entry | Value |
 |-------------------|-------------------------------------------------|
 | CN                | ms-PKI-DPAPIMasterKeys                          |
 | Ldap-Display-Name | msPKIDPAPIMasterKeys                            |
@@ -45,7 +45,7 @@ Storage of encrypted DPAPI Master Keys for user.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | 2046                              |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Storage of encrypted DPAPI Master Keys for user.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | 2046                              |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Storage of encrypted DPAPI Master Keys for user.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | 2046                              |
 | MAPI-Id                | \-                                |

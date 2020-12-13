@@ -22,7 +22,7 @@ For a central access rule, this attribute defines the permission that was last a
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-Authz-Last-Effective-Security-Policy     |
 | Ldap-Display-Name | msAuthz-LastEffectiveSecurityPolicy         |
@@ -43,7 +43,7 @@ For a central access rule, this attribute defines the permission that was last a
 
 
 
-|                        |                                                                                |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                             |
 | MAPI-Id                | \-                                                                             |

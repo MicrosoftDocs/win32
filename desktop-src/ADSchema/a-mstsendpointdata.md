@@ -22,7 +22,7 @@ This attribute represents the VM Name for a computer in a TSV deployment.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-TS-Endpoint-Data                         |
 | Ldap-Display-Name | msTSEndpointData                            |
@@ -44,7 +44,7 @@ This attribute represents the VM Name for a computer in a TSV deployment.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -65,7 +65,7 @@ This attribute represents the VM Name for a computer in a TSV deployment.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |

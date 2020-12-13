@@ -22,7 +22,7 @@ The minimum amount of time, in 100-nanosecond intervals, that a password is vali
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Min-Pwd-Age                          |
 | Ldap-Display-Name | minPwdAge                            |
@@ -48,7 +48,7 @@ The minimum amount of time, in 100-nanosecond intervals, that a password is vali
 
 
 
-|                        |                                                                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
@@ -69,7 +69,7 @@ The minimum amount of time, in 100-nanosecond intervals, that a password is vali
 
 
 
-|                        |                                                                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
@@ -90,7 +90,7 @@ The minimum amount of time, in 100-nanosecond intervals, that a password is vali
 
 
 
-|                        |                                                                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
@@ -111,7 +111,7 @@ The minimum amount of time, in 100-nanosecond intervals, that a password is vali
 
 
 
-|                        |                                                                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
@@ -132,7 +132,7 @@ The minimum amount of time, in 100-nanosecond intervals, that a password is vali
 
 
 
-|                        |                                                                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
@@ -153,7 +153,7 @@ The minimum amount of time, in 100-nanosecond intervals, that a password is vali
 
 
 
-|                        |                                                                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |

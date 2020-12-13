@@ -21,7 +21,7 @@ The documentPublisher attribute is the person or organization that published a d
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | documentPublisher                           |
 | Ldap-Display-Name | documentPublisher                           |
@@ -46,7 +46,7 @@ The documentPublisher attribute is the person or organization that published a d
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -67,7 +67,7 @@ The documentPublisher attribute is the person or organization that published a d
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -88,7 +88,7 @@ The documentPublisher attribute is the person or organization that published a d
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -109,7 +109,7 @@ The documentPublisher attribute is the person or organization that published a d
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -130,7 +130,7 @@ The documentPublisher attribute is the person or organization that published a d
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |

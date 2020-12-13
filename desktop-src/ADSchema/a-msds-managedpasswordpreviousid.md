@@ -22,7 +22,7 @@ This constructed attribute contains the key identifier for the previous managed 
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-DS-ManagedPasswordPreviousId                       |
 | Ldap-Display-Name | msDS-ManagedPasswordPreviousId                        |
@@ -43,7 +43,7 @@ This constructed attribute contains the key identifier for the previous managed 
 
 
 
-|                        |                                                                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                          |
 | MAPI-Id                | \-                                                                                          |

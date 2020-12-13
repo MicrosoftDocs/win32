@@ -22,7 +22,7 @@ Links to objects that this password settings object applies to.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-PSO-Applies-To                    |
 | Ldap-Display-Name | msDS-PSOAppliesTo                       |
@@ -45,7 +45,7 @@ Links to objects that this password settings object applies to.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | 2118                                                                  |
 | MAPI-Id                | \-                                                                    |
@@ -66,7 +66,7 @@ Links to objects that this password settings object applies to.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | 2118                                                                  |
 | MAPI-Id                | \-                                                                    |
@@ -87,7 +87,7 @@ Links to objects that this password settings object applies to.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | 2118                                                                  |
 | MAPI-Id                | \-                                                                    |

@@ -22,7 +22,7 @@ The time after which this root key may be used.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-Kds-UseStartTime                  |
 | Ldap-Display-Name | msKds-UseStartTime                   |
@@ -43,7 +43,7 @@ The time after which this root key may be used.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |

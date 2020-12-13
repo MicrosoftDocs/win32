@@ -22,7 +22,7 @@ This is a system attribute that is used for referrals generation.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Superior-DNS-Root                           |
 | Ldap-Display-Name | superiorDNSRoot                             |
@@ -49,7 +49,7 @@ This is a system attribute that is used for referrals generation.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | \-                                         |
@@ -70,7 +70,7 @@ This is a system attribute that is used for referrals generation.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | \-                                         |
@@ -91,7 +91,7 @@ This is a system attribute that is used for referrals generation.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | \-                                         |
@@ -112,7 +112,7 @@ This is a system attribute that is used for referrals generation.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | \-                                         |
@@ -133,7 +133,7 @@ This is a system attribute that is used for referrals generation.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | \-                                         |
@@ -154,7 +154,7 @@ This is a system attribute that is used for referrals generation.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | \-                                         |
@@ -175,7 +175,7 @@ This is a system attribute that is used for referrals generation.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | \-                                         |

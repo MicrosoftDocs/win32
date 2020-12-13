@@ -22,7 +22,7 @@ Provides routing information to be configured for the user on the NAS.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-RADIUS-FramedIpv6Route            |
 | Ldap-Display-Name | msRADIUS-FramedIpv6Route             |
@@ -45,7 +45,7 @@ Provides routing information to be configured for the user on the NAS.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Provides routing information to be configured for the user on the NAS.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Provides routing information to be configured for the user on the NAS.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

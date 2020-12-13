@@ -24,7 +24,7 @@ The [**member**](a-member.md) attribute is used to contain the members of a grou
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | NT-Group-Members                                      |
 | Ldap-Display-Name | nTGroupMembers                                        |
@@ -50,7 +50,7 @@ The [**member**](a-member.md) attribute is used to contain the members of a grou
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -71,7 +71,7 @@ The [**member**](a-member.md) attribute is used to contain the members of a grou
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -92,7 +92,7 @@ The [**member**](a-member.md) attribute is used to contain the members of a grou
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -113,7 +113,7 @@ The [**member**](a-member.md) attribute is used to contain the members of a grou
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -134,7 +134,7 @@ The [**member**](a-member.md) attribute is used to contain the members of a grou
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -155,7 +155,7 @@ The [**member**](a-member.md) attribute is used to contain the members of a grou
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |

@@ -22,7 +22,7 @@ The default quota that will apply to a security principal that creates an object
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Default-Quota                  |
 | Ldap-Display-Name | msDS-DefaultQuota                    |
@@ -48,7 +48,7 @@ The default quota that will apply to a security principal that creates an object
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -69,7 +69,7 @@ The default quota that will apply to a security principal that creates an object
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -90,7 +90,7 @@ The default quota that will apply to a security principal that creates an object
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -111,7 +111,7 @@ The default quota that will apply to a security principal that creates an object
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -132,7 +132,7 @@ The default quota that will apply to a security principal that creates an object
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -153,7 +153,7 @@ The default quota that will apply to a security principal that creates an object
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |

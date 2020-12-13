@@ -22,7 +22,7 @@ Attributes that contain information on the sync objects.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Sync-Attributes                      |
 | Ldap-Display-Name | syncAttributes                       |
@@ -48,7 +48,7 @@ Attributes that contain information on the sync objects.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -69,7 +69,7 @@ Attributes that contain information on the sync objects.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -90,7 +90,7 @@ Attributes that contain information on the sync objects.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -111,7 +111,7 @@ Attributes that contain information on the sync objects.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -132,7 +132,7 @@ Attributes that contain information on the sync objects.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -153,7 +153,7 @@ Attributes that contain information on the sync objects.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

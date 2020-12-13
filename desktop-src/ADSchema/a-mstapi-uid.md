@@ -22,7 +22,7 @@ Provides the name of a TAPI multicast conference. It is the naming attribute of 
 
 
 
-|                   |                                                                       |
+| Entry | Value |
 |-------------------|-----------------------------------------------------------------------|
 | CN                | ms-TAPI-Unique-Identifier                                             |
 | Ldap-Display-Name | msTAPI-uid                                                            |
@@ -47,7 +47,7 @@ Provides the name of a TAPI multicast conference. It is the naming attribute of 
 
 
 
-|                        |                                                                                                                             |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                          |
 | MAPI-Id                | \-                                                                                                                          |
@@ -68,7 +68,7 @@ Provides the name of a TAPI multicast conference. It is the naming attribute of 
 
 
 
-|                        |                                                                                                                             |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                          |
 | MAPI-Id                | \-                                                                                                                          |
@@ -89,7 +89,7 @@ Provides the name of a TAPI multicast conference. It is the naming attribute of 
 
 
 
-|                        |                                                                                                                             |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                          |
 | MAPI-Id                | \-                                                                                                                          |
@@ -110,7 +110,7 @@ Provides the name of a TAPI multicast conference. It is the naming attribute of 
 
 
 
-|                        |                                                                                                                             |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                          |
 | MAPI-Id                | \-                                                                                                                          |
@@ -131,7 +131,7 @@ Provides the name of a TAPI multicast conference. It is the naming attribute of 
 
 
 
-|                        |                                                                                                                             |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                          |
 | MAPI-Id                | \-                                                                                                                          |

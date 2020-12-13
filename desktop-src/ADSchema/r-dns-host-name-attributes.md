@@ -21,7 +21,7 @@ Contains the DNS-Host-Name and ms-DS-Additional-Dns-Host-Name attributes.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | DNS-Host-Name-Attributes             |
 | Display-Name | DNS Host Name Attributes             |
@@ -41,7 +41,7 @@ Contains the DNS-Host-Name and ms-DS-Additional-Dns-Host-Name attributes.
 
 
 
-|                         |                                                                                                                                     |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/>                                                                                           |
 | Localization-Display-ID | 60                                                                                                                                  |
@@ -53,7 +53,7 @@ Contains the DNS-Host-Name and ms-DS-Additional-Dns-Host-Name attributes.
 
 
 
-|                         |                                                                                                                                     |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/>                                                                                           |
 | Localization-Display-ID | 60                                                                                                                                  |
@@ -65,7 +65,7 @@ Contains the DNS-Host-Name and ms-DS-Additional-Dns-Host-Name attributes.
 
 
 
-|                         |                                                                                                                                     |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/>                                                                                           |
 | Localization-Display-ID | 60                                                                                                                                  |
@@ -77,7 +77,7 @@ Contains the DNS-Host-Name and ms-DS-Additional-Dns-Host-Name attributes.
 
 
 
-|                         |                                                                                                                                     |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> [**ms-DS-Managed-Service-Account**](c-msds-managedserviceaccount.md)<br/>          |
 | Localization-Display-ID | 60                                                                                                                                  |
@@ -89,7 +89,7 @@ Contains the DNS-Host-Name and ms-DS-Additional-Dns-Host-Name attributes.
 
 
 
-|                         |                                                                                                                                     |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> [**ms-DS-Managed-Service-Account**](c-msds-managedserviceaccount.md)<br/>          |
 | Localization-Display-ID | 60                                                                                                                                  |

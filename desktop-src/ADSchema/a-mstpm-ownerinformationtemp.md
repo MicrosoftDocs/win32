@@ -22,7 +22,7 @@ This attribute contains temporary owner information for a particular TPM.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-TPM-Owner-Information-Temp               |
 | Ldap-Display-Name | msTPM-OwnerInformationTemp                  |
@@ -43,7 +43,7 @@ This attribute contains temporary owner information for a particular TPM.
 
 
 
-|                        |                                                                           |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------|
 | Link-Id                | \-                                                                        |
 | MAPI-Id                | \-                                                                        |

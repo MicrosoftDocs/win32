@@ -22,7 +22,7 @@ Deletion time of the object in the local DIT.
 
 
 
-|                   |                                                               |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------|
 | CN                | ms-DS-local-Effective-Deletion-Time                           |
 | Ldap-Display-Name | msDS-LocalEffectiveDeletionTime                               |
@@ -44,7 +44,7 @@ Deletion time of the object in the local DIT.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -65,7 +65,7 @@ Deletion time of the object in the local DIT.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

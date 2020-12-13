@@ -22,7 +22,7 @@ If **TRUE**, this attribute can only store one value.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Is-Single-Valued                     |
 | Ldap-Display-Name | isSingleValued                       |
@@ -49,7 +49,7 @@ If **TRUE**, this attribute can only store one value.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80C1                                                   |
@@ -70,7 +70,7 @@ If **TRUE**, this attribute can only store one value.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80C1                                                   |
@@ -91,7 +91,7 @@ If **TRUE**, this attribute can only store one value.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80C1                                                   |
@@ -112,7 +112,7 @@ If **TRUE**, this attribute can only store one value.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80C1                                                   |
@@ -133,7 +133,7 @@ If **TRUE**, this attribute can only store one value.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80C1                                                   |
@@ -154,7 +154,7 @@ If **TRUE**, this attribute can only store one value.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80C1                                                   |
@@ -175,7 +175,7 @@ If **TRUE**, this attribute can only store one value.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80C1                                                   |

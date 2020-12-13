@@ -22,7 +22,7 @@ The next free Relative Identifier in the current pool.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | RID-Next-RID                         |
 | Ldap-Display-Name | rIDNextRID                           |
@@ -48,7 +48,7 @@ The next free Relative Identifier in the current pool.
 
 
 
-|                        |                                        |
+| Entry | Value |
 |------------------------|----------------------------------------|
 | Link-Id                | \-                                     |
 | MAPI-Id                | \-                                     |
@@ -69,7 +69,7 @@ The next free Relative Identifier in the current pool.
 
 
 
-|                        |                                        |
+| Entry | Value |
 |------------------------|----------------------------------------|
 | Link-Id                | \-                                     |
 | MAPI-Id                | \-                                     |
@@ -90,7 +90,7 @@ The next free Relative Identifier in the current pool.
 
 
 
-|                        |                                        |
+| Entry | Value |
 |------------------------|----------------------------------------|
 | Link-Id                | \-                                     |
 | MAPI-Id                | \-                                     |
@@ -111,7 +111,7 @@ The next free Relative Identifier in the current pool.
 
 
 
-|                        |                                        |
+| Entry | Value |
 |------------------------|----------------------------------------|
 | Link-Id                | \-                                     |
 | MAPI-Id                | \-                                     |
@@ -132,7 +132,7 @@ The next free Relative Identifier in the current pool.
 
 
 
-|                        |                                        |
+| Entry | Value |
 |------------------------|----------------------------------------|
 | Link-Id                | \-                                     |
 | MAPI-Id                | \-                                     |
@@ -153,7 +153,7 @@ The next free Relative Identifier in the current pool.
 
 
 
-|                        |                                        |
+| Entry | Value |
 |------------------------|----------------------------------------|
 | Link-Id                | \-                                     |
 | MAPI-Id                | \-                                     |

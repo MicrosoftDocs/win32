@@ -22,7 +22,7 @@ Sibling to Has-Master-NCs. Has-Partial-Replica-NCs reflects the distinguished na
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Has-Partial-Replica-NCs                 |
 | Ldap-Display-Name | hasPartialReplicaNCs                    |
@@ -49,7 +49,7 @@ Sibling to Has-Master-NCs. Has-Partial-Replica-NCs reflects the distinguished na
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 74                                       |
 | MAPI-Id                | 0x80B5                                   |
@@ -70,7 +70,7 @@ Sibling to Has-Master-NCs. Has-Partial-Replica-NCs reflects the distinguished na
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 74                                       |
 | MAPI-Id                | 0x80B5                                   |
@@ -91,7 +91,7 @@ Sibling to Has-Master-NCs. Has-Partial-Replica-NCs reflects the distinguished na
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 74                                       |
 | MAPI-Id                | 0x80B5                                   |
@@ -112,7 +112,7 @@ Sibling to Has-Master-NCs. Has-Partial-Replica-NCs reflects the distinguished na
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 74                                       |
 | MAPI-Id                | 0x80B5                                   |
@@ -133,7 +133,7 @@ Sibling to Has-Master-NCs. Has-Partial-Replica-NCs reflects the distinguished na
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 74                                       |
 | MAPI-Id                | 0x80B5                                   |
@@ -154,7 +154,7 @@ Sibling to Has-Master-NCs. Has-Partial-Replica-NCs reflects the distinguished na
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 74                                       |
 | MAPI-Id                | 0x80B5                                   |
@@ -175,7 +175,7 @@ Sibling to Has-Master-NCs. Has-Partial-Replica-NCs reflects the distinguished na
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 74                                       |
 | MAPI-Id                | 0x80B5                                   |

@@ -22,7 +22,7 @@ Contains forest trust information (a binary BLOB) that is used by the system for
 
 
 
-|                   |                                                                                                                    |
+| Entry | Value |
 |-------------------|--------------------------------------------------------------------------------------------------------------------|
 | CN                | ms-DS-Trust-Forest-Trust-Info                                                                                      |
 | Ldap-Display-Name | msDS-TrustForestTrustInfo                                                                                          |
@@ -47,7 +47,7 @@ Contains forest trust information (a binary BLOB) that is used by the system for
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -68,7 +68,7 @@ Contains forest trust information (a binary BLOB) that is used by the system for
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -89,7 +89,7 @@ Contains forest trust information (a binary BLOB) that is used by the system for
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -110,7 +110,7 @@ Contains forest trust information (a binary BLOB) that is used by the system for
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -131,7 +131,7 @@ Contains forest trust information (a binary BLOB) that is used by the system for
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |

@@ -22,7 +22,7 @@ Warning/Error level pair for file data creation (megabytes per second).
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | FRS-Control-Data-Creation                   |
 | Ldap-Display-Name | fRSControlDataCreation                      |
@@ -48,7 +48,7 @@ Warning/Error level pair for file data creation (megabytes per second).
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -69,7 +69,7 @@ Warning/Error level pair for file data creation (megabytes per second).
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -90,7 +90,7 @@ Warning/Error level pair for file data creation (megabytes per second).
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -111,7 +111,7 @@ Warning/Error level pair for file data creation (megabytes per second).
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -132,7 +132,7 @@ Warning/Error level pair for file data creation (megabytes per second).
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -153,7 +153,7 @@ Warning/Error level pair for file data creation (megabytes per second).
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |

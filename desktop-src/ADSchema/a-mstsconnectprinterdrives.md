@@ -22,7 +22,7 @@ Terminal Services session Connect Printer Drives specifies whether to reconnect 
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-TS-Connect-Printer-Drives         |
 | Ldap-Display-Name | msTSConnectPrinterDrives             |
@@ -45,7 +45,7 @@ Terminal Services session Connect Printer Drives specifies whether to reconnect 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Terminal Services session Connect Printer Drives specifies whether to reconnect 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Terminal Services session Connect Printer Drives specifies whether to reconnect 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

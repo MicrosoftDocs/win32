@@ -22,7 +22,7 @@ Terminal Services session Broken Connection Action specifies the action to take 
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-TS-Broken-Connection-Action       |
 | Ldap-Display-Name | msTSBrokenConnectionAction           |
@@ -45,7 +45,7 @@ Terminal Services session Broken Connection Action specifies the action to take 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Terminal Services session Broken Connection Action specifies the action to take 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Terminal Services session Broken Connection Action specifies the action to take 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

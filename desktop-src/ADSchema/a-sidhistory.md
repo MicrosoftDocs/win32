@@ -22,7 +22,7 @@ Contains previous SIDs used for the object if the object was moved from another 
 
 
 
-|                   |                                                |
+| Entry | Value |
 |-------------------|------------------------------------------------|
 | CN                | SID-History                                    |
 | Ldap-Display-Name | sIDHistory                                     |
@@ -48,7 +48,7 @@ Contains previous SIDs used for the object if the object was moved from another 
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -69,7 +69,7 @@ Contains previous SIDs used for the object if the object was moved from another 
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -90,7 +90,7 @@ Contains previous SIDs used for the object if the object was moved from another 
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -111,7 +111,7 @@ Contains previous SIDs used for the object if the object was moved from another 
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -132,7 +132,7 @@ Contains previous SIDs used for the object if the object was moved from another 
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -153,7 +153,7 @@ Contains previous SIDs used for the object if the object was moved from another 
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |

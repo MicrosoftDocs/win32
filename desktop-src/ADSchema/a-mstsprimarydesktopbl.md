@@ -22,7 +22,7 @@ This attribute represents the backward link to a user.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-TS-Primary-Desktop-BL                |
 | Ldap-Display-Name | msTSPrimaryDesktopBL                    |
@@ -44,7 +44,7 @@ This attribute represents the backward link to a user.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | 2171                                      |
 | MAPI-Id                | \-                                        |
@@ -65,7 +65,7 @@ This attribute represents the backward link to a user.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | 2171                                      |
 | MAPI-Id                | \-                                        |

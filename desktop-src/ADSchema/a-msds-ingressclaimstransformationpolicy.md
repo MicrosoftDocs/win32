@@ -22,7 +22,7 @@ This is a link to a Claims Transformation Policy Object for the ingress claims (
 
 
 
-|                   |                                            |
+| Entry | Value |
 |-------------------|--------------------------------------------|
 | CN                | ms-DS-Ingress-Claims-Transformation-Policy |
 | Ldap-Display-Name | msDS-IngressClaimsTransformationPolicy     |
@@ -43,7 +43,7 @@ This is a link to a Claims Transformation Policy Object for the ingress claims (
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | 2190                                                 |
 | MAPI-Id                | \-                                                   |

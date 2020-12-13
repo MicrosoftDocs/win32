@@ -22,7 +22,7 @@ The number of computer accounts that a user is allowed to create in a domain.
 
 
 
-|                   |                                                  |
+| Entry | Value |
 |-------------------|--------------------------------------------------|
 | CN                | MS-DS-Machine-Account-Quota                      |
 | Ldap-Display-Name | ms-DS-MachineAccountQuota                        |
@@ -48,7 +48,7 @@ The number of computer accounts that a user is allowed to create in a domain.
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -69,7 +69,7 @@ The number of computer accounts that a user is allowed to create in a domain.
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -90,7 +90,7 @@ The number of computer accounts that a user is allowed to create in a domain.
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -111,7 +111,7 @@ The number of computer accounts that a user is allowed to create in a domain.
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -132,7 +132,7 @@ The number of computer accounts that a user is allowed to create in a domain.
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -153,7 +153,7 @@ The number of computer accounts that a user is allowed to create in a domain.
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |

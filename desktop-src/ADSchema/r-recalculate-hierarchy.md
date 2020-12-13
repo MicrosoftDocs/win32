@@ -21,7 +21,7 @@ Extended right to force the DS to recalculate the hierarchy.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Recalculate-Hierarchy                |
 | Display-Name | Recalculate Hierarchy                |
@@ -42,7 +42,7 @@ Extended right to force the DS to recalculate the hierarchy.
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 32                                       |
@@ -53,7 +53,7 @@ Extended right to force the DS to recalculate the hierarchy.
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 32                                       |
@@ -64,7 +64,7 @@ Extended right to force the DS to recalculate the hierarchy.
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 32                                       |
@@ -75,7 +75,7 @@ Extended right to force the DS to recalculate the hierarchy.
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 32                                       |
@@ -86,7 +86,7 @@ Extended right to force the DS to recalculate the hierarchy.
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 32                                       |
@@ -97,7 +97,7 @@ Extended right to force the DS to recalculate the hierarchy.
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 32                                       |

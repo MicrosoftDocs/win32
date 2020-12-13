@@ -21,7 +21,7 @@ The friendlyCountry object class is used to define country/region entries in the
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | friendlyCountry                      |
 | Ldap-Display-Name | friendlyCountry                      |
@@ -45,7 +45,7 @@ The friendlyCountry object class is used to define country/region entries in the
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |
@@ -173,7 +173,7 @@ This class contains the following attributes for Windows Server 2003:
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |
@@ -304,7 +304,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |
@@ -446,7 +446,7 @@ This class contains the following attributes for Windows Server 2008:
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |
@@ -595,7 +595,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |

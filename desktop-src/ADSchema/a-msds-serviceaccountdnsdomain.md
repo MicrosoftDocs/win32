@@ -22,7 +22,7 @@ ADAM: The domain which the ADAM service account is a member of.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Service-Account-DNS-Domain            |
 | Ldap-Display-Name | msDS-ServiceAccountDNSDomain                |
@@ -43,7 +43,7 @@ ADAM: The domain which the ADAM service account is a member of.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

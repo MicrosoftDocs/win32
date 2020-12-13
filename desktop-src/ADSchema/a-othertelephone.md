@@ -22,7 +22,7 @@ A list of alternate office phone numbers.
 
 
 
-|                   |                                                                                 |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------------------------|
 | CN                | Phone-Office-Other                                                              |
 | Ldap-Display-Name | otherTelephone                                                                  |
@@ -48,7 +48,7 @@ A list of alternate office phone numbers.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x3A1B                                                             |
@@ -69,7 +69,7 @@ A list of alternate office phone numbers.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x3A1B                                                             |
@@ -90,7 +90,7 @@ A list of alternate office phone numbers.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x3A1B                                                             |
@@ -111,7 +111,7 @@ A list of alternate office phone numbers.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x3A1B                                                             |
@@ -132,7 +132,7 @@ A list of alternate office phone numbers.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x3A1B                                                             |
@@ -153,7 +153,7 @@ A list of alternate office phone numbers.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x3A1B                                                             |

@@ -21,7 +21,7 @@ Extended right to force a schema cache update.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Update-Schema-Cache                  |
 | Display-Name | Update Schema Cache                  |
@@ -43,7 +43,7 @@ Extended right to force a schema cache update.
 
 
 
-|                         |                                 |
+| Entry | Value |
 |-------------------------|---------------------------------|
 | Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 51                              |
@@ -54,7 +54,7 @@ Extended right to force a schema cache update.
 
 
 
-|                         |                                 |
+| Entry | Value |
 |-------------------------|---------------------------------|
 | Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 51                              |
@@ -65,7 +65,7 @@ Extended right to force a schema cache update.
 
 
 
-|                         |                                 |
+| Entry | Value |
 |-------------------------|---------------------------------|
 | Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 51                              |
@@ -76,7 +76,7 @@ Extended right to force a schema cache update.
 
 
 
-|                         |                                 |
+| Entry | Value |
 |-------------------------|---------------------------------|
 | Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 51                              |
@@ -87,7 +87,7 @@ Extended right to force a schema cache update.
 
 
 
-|                         |                                 |
+| Entry | Value |
 |-------------------------|---------------------------------|
 | Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 51                              |
@@ -98,7 +98,7 @@ Extended right to force a schema cache update.
 
 
 
-|                         |                                 |
+| Entry | Value |
 |-------------------------|---------------------------------|
 | Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 51                              |
@@ -109,7 +109,7 @@ Extended right to force a schema cache update.
 
 
 
-|                         |                                 |
+| Entry | Value |
 |-------------------------|---------------------------------|
 | Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 51                              |

@@ -21,7 +21,7 @@ The documentIdentifier attribute type specifies a unique identifier for a docume
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | documentIdentifier                          |
 | Ldap-Display-Name | documentIdentifier                          |
@@ -46,7 +46,7 @@ The documentIdentifier attribute type specifies a unique identifier for a docume
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -67,7 +67,7 @@ The documentIdentifier attribute type specifies a unique identifier for a docume
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -88,7 +88,7 @@ The documentIdentifier attribute type specifies a unique identifier for a docume
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -109,7 +109,7 @@ The documentIdentifier attribute type specifies a unique identifier for a docume
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -130,7 +130,7 @@ The documentIdentifier attribute type specifies a unique identifier for a docume
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |

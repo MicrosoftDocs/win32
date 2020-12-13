@@ -22,7 +22,7 @@ An integer that indicates that the attribute is a linked attribute. An even inte
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Link-ID                              |
 | Ldap-Display-Name | linkID                               |
@@ -49,7 +49,7 @@ An integer that indicates that the attribute is a linked attribute. An even inte
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80C5                                                   |
@@ -70,7 +70,7 @@ An integer that indicates that the attribute is a linked attribute. An even inte
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80C5                                                   |
@@ -91,7 +91,7 @@ An integer that indicates that the attribute is a linked attribute. An even inte
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80C5                                                   |
@@ -112,7 +112,7 @@ An integer that indicates that the attribute is a linked attribute. An even inte
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80C5                                                   |
@@ -133,7 +133,7 @@ An integer that indicates that the attribute is a linked attribute. An even inte
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80C5                                                   |
@@ -154,7 +154,7 @@ An integer that indicates that the attribute is a linked attribute. An even inte
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80C5                                                   |
@@ -175,7 +175,7 @@ An integer that indicates that the attribute is a linked attribute. An even inte
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80C5                                                   |

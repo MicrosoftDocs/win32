@@ -22,7 +22,7 @@ Holds a class definition to be enstated in some WMI namespace.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-WMI-ClassDefinition                      |
 | Ldap-Display-Name | msWMI-ClassDefinition                       |
@@ -47,7 +47,7 @@ Holds a class definition to be enstated in some WMI namespace.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -68,7 +68,7 @@ Holds a class definition to be enstated in some WMI namespace.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -89,7 +89,7 @@ Holds a class definition to be enstated in some WMI namespace.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -110,7 +110,7 @@ Holds a class definition to be enstated in some WMI namespace.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -131,7 +131,7 @@ Holds a class definition to be enstated in some WMI namespace.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

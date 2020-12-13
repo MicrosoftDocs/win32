@@ -22,7 +22,7 @@ Contains the phonetic company name where the person works.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Phonetic-Company-Name                 |
 | Ldap-Display-Name | msDS-PhoneticCompanyName                    |
@@ -45,7 +45,7 @@ Contains the phonetic company name where the person works.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C91                                                             |
@@ -66,7 +66,7 @@ Contains the phonetic company name where the person works.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C91                                                             |
@@ -87,7 +87,7 @@ Contains the phonetic company name where the person works.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C91                                                             |

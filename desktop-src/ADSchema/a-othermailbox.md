@@ -22,7 +22,7 @@ Contains other additional mail addresses in a form such as CCMAIL: BruceKeever.
 
 
 
-|                   |                                                          |
+| Entry | Value |
 |-------------------|----------------------------------------------------------|
 | CN                | Other-Mailbox                                            |
 | Ldap-Display-Name | otherMailbox                                             |
@@ -48,7 +48,7 @@ Contains other additional mail addresses in a form such as CCMAIL: BruceKeever.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -69,7 +69,7 @@ Contains other additional mail addresses in a form such as CCMAIL: BruceKeever.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -90,7 +90,7 @@ Contains other additional mail addresses in a form such as CCMAIL: BruceKeever.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -111,7 +111,7 @@ Contains other additional mail addresses in a form such as CCMAIL: BruceKeever.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -132,7 +132,7 @@ Contains other additional mail addresses in a form such as CCMAIL: BruceKeever.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -153,7 +153,7 @@ Contains other additional mail addresses in a form such as CCMAIL: BruceKeever.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |

@@ -22,7 +22,7 @@ Defines a single fault-tolerant Distributed File System configuration.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | FT-Dfs                               |
 | Ldap-Display-Name | fTDfs                                |
@@ -47,7 +47,7 @@ Defines a single fault-tolerant Distributed File System configuration.
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                            |
 | Object-Category             | 1                                                                                                                                |
@@ -157,7 +157,7 @@ This class contains the following attributes for Windows 2000 Server:
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                            |
 | Object-Category             | 1                                                                                                                                |
@@ -288,7 +288,7 @@ This class contains the following attributes for Windows Server 2003:
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                            |
 | Object-Category             | 1                                                                                                                                |
@@ -422,7 +422,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                            |
 | Object-Category             | 1                                                                                                                                |
@@ -567,7 +567,7 @@ This class contains the following attributes for Windows Server 2008:
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                            |
 | Object-Category             | 1                                                                                                                                |
@@ -719,7 +719,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                            |
 | Object-Category             | 1                                                                                                                                |

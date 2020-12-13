@@ -22,7 +22,7 @@ Contains the user's job title. This property is commonly used to indicate the fo
 
 
 
-|                   |                                                                           |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------------------|
 | CN                | Title                                                                     |
 | Ldap-Display-Name | title                                                                     |
@@ -48,7 +48,7 @@ Contains the user's job title. This property is commonly used to indicate the fo
 
 
 
-|                        |                                                                                                                                 |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                              |
 | MAPI-Id                | 0x3A17                                                                                                                          |
@@ -69,7 +69,7 @@ Contains the user's job title. This property is commonly used to indicate the fo
 
 
 
-|                        |                                                                                                                                 |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                              |
 | MAPI-Id                | 0x3A17                                                                                                                          |
@@ -90,7 +90,7 @@ Contains the user's job title. This property is commonly used to indicate the fo
 
 
 
-|                        |                                                                                                                                 |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                              |
 | MAPI-Id                | 0x3A17                                                                                                                          |
@@ -111,7 +111,7 @@ Contains the user's job title. This property is commonly used to indicate the fo
 
 
 
-|                        |                                                                                                                                 |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                              |
 | MAPI-Id                | 0x3A17                                                                                                                          |
@@ -132,7 +132,7 @@ Contains the user's job title. This property is commonly used to indicate the fo
 
 
 
-|                        |                                                                                                                                 |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                              |
 | MAPI-Id                | 0x3A17                                                                                                                          |
@@ -153,7 +153,7 @@ Contains the user's job title. This property is commonly used to indicate the fo
 
 
 
-|                        |                                                                                                                                 |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                              |
 | MAPI-Id                | 0x3A17                                                                                                                          |

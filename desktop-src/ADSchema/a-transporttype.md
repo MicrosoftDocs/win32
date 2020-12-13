@@ -22,7 +22,7 @@ The distinguished name for a type of transport being used to connect sites toget
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Transport-Type                          |
 | Ldap-Display-Name | transportType                           |
@@ -49,7 +49,7 @@ The distinguished name for a type of transport being used to connect sites toget
 
 
 
-|                        |                                                        |
+| Entry | Value |
 |------------------------|--------------------------------------------------------|
 | Link-Id                | \-                                                     |
 | MAPI-Id                | \-                                                     |
@@ -70,7 +70,7 @@ The distinguished name for a type of transport being used to connect sites toget
 
 
 
-|                        |                                                        |
+| Entry | Value |
 |------------------------|--------------------------------------------------------|
 | Link-Id                | \-                                                     |
 | MAPI-Id                | \-                                                     |
@@ -91,7 +91,7 @@ The distinguished name for a type of transport being used to connect sites toget
 
 
 
-|                        |                                                        |
+| Entry | Value |
 |------------------------|--------------------------------------------------------|
 | Link-Id                | \-                                                     |
 | MAPI-Id                | \-                                                     |
@@ -112,7 +112,7 @@ The distinguished name for a type of transport being used to connect sites toget
 
 
 
-|                        |                                                        |
+| Entry | Value |
 |------------------------|--------------------------------------------------------|
 | Link-Id                | \-                                                     |
 | MAPI-Id                | \-                                                     |
@@ -133,7 +133,7 @@ The distinguished name for a type of transport being used to connect sites toget
 
 
 
-|                        |                                                        |
+| Entry | Value |
 |------------------------|--------------------------------------------------------|
 | Link-Id                | \-                                                     |
 | MAPI-Id                | \-                                                     |
@@ -154,7 +154,7 @@ The distinguished name for a type of transport being used to connect sites toget
 
 
 
-|                        |                                                        |
+| Entry | Value |
 |------------------------|--------------------------------------------------------|
 | Link-Id                | \-                                                     |
 | MAPI-Id                | \-                                                     |
@@ -175,7 +175,7 @@ The distinguished name for a type of transport being used to connect sites toget
 
 
 
-|                        |                                                        |
+| Entry | Value |
 |------------------------|--------------------------------------------------------|
 | Link-Id                | \-                                                     |
 | MAPI-Id                | \-                                                     |

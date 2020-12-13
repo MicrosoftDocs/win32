@@ -22,7 +22,7 @@ A Boolean field that indicates whether runtime audits need to be turned on (incl
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Az-Generate-Audits                |
 | Ldap-Display-Name | msDS-AzGenerateAudits                   |
@@ -47,7 +47,7 @@ A Boolean field that indicates whether runtime audits need to be turned on (incl
 
 
 
-|                        |                                                                                                                                    |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                 |
 | MAPI-Id                | \-                                                                                                                                 |
@@ -68,7 +68,7 @@ A Boolean field that indicates whether runtime audits need to be turned on (incl
 
 
 
-|                        |                                                                                                                                    |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                 |
 | MAPI-Id                | \-                                                                                                                                 |
@@ -89,7 +89,7 @@ A Boolean field that indicates whether runtime audits need to be turned on (incl
 
 
 
-|                        |                                                                                                                                    |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                 |
 | MAPI-Id                | \-                                                                                                                                 |
@@ -110,7 +110,7 @@ A Boolean field that indicates whether runtime audits need to be turned on (incl
 
 
 
-|                        |                                                                                                                                    |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                 |
 | MAPI-Id                | \-                                                                                                                                 |
@@ -131,7 +131,7 @@ A Boolean field that indicates whether runtime audits need to be turned on (incl
 
 
 
-|                        |                                                                                                                                    |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                 |
 | MAPI-Id                | \-                                                                                                                                 |

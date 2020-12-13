@@ -22,7 +22,7 @@ Contains the update sequence number (USN) for the last non-system object that wa
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | USN-Last-Obj-Rem                     |
 | Ldap-Display-Name | uSNLastObjRem                        |
@@ -49,7 +49,7 @@ Contains the update sequence number (USN) for the last non-system object that wa
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8156                          |
@@ -70,7 +70,7 @@ Contains the update sequence number (USN) for the last non-system object that wa
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8156                          |
@@ -91,7 +91,7 @@ Contains the update sequence number (USN) for the last non-system object that wa
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8156                          |
@@ -112,7 +112,7 @@ Contains the update sequence number (USN) for the last non-system object that wa
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8156                          |
@@ -133,7 +133,7 @@ Contains the update sequence number (USN) for the last non-system object that wa
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8156                          |
@@ -154,7 +154,7 @@ Contains the update sequence number (USN) for the last non-system object that wa
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8156                          |
@@ -175,7 +175,7 @@ Contains the update sequence number (USN) for the last non-system object that wa
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8156                          |

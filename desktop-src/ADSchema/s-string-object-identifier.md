@@ -21,7 +21,7 @@ An OID string, which is a string that contains digits (0-9) and decimal points (
 
 
 
-|              |                                                                        |
+| Entry | Value |
 |--------------|------------------------------------------------------------------------|
 | Name         | String(Object-Identifier)                                              |
 | Syntax ID    | 2.5.5.2                                                                |

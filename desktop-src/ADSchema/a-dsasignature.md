@@ -22,7 +22,7 @@ The DSA-Signature of an object is the Invocation-ID of the last directory to mod
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | DSA-Signature                                         |
 | Ldap-Display-Name | dSASignature                                          |
@@ -49,7 +49,7 @@ The DSA-Signature of an object is the Invocation-ID of the last directory to mod
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8077                          |
@@ -70,7 +70,7 @@ The DSA-Signature of an object is the Invocation-ID of the last directory to mod
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8077                          |
@@ -91,7 +91,7 @@ The DSA-Signature of an object is the Invocation-ID of the last directory to mod
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8077                          |
@@ -112,7 +112,7 @@ The DSA-Signature of an object is the Invocation-ID of the last directory to mod
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8077                          |
@@ -133,7 +133,7 @@ The DSA-Signature of an object is the Invocation-ID of the last directory to mod
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8077                          |
@@ -154,7 +154,7 @@ The DSA-Signature of an object is the Invocation-ID of the last directory to mod
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8077                          |
@@ -175,7 +175,7 @@ The DSA-Signature of an object is the Invocation-ID of the last directory to mod
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8077                          |

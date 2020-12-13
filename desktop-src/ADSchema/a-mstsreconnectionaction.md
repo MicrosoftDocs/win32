@@ -22,7 +22,7 @@ Terminal Services session Reconnection Action specifies whether to allow reconne
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-TS-Reconnection-Action            |
 | Ldap-Display-Name | msTSReconnectionAction               |
@@ -45,7 +45,7 @@ Terminal Services session Reconnection Action specifies whether to allow reconne
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Terminal Services session Reconnection Action specifies whether to allow reconne
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Terminal Services session Reconnection Action specifies whether to allow reconne
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

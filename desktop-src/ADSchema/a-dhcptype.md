@@ -27,7 +27,7 @@ The type of DHCP server. This attribute is set on all objects of objectClass [**
 
 
 
-|                   |                                                        |
+| Entry | Value |
 |-------------------|--------------------------------------------------------|
 | CN                | dhcp-Type                                              |
 | Ldap-Display-Name | dhcpType                                               |
@@ -53,7 +53,7 @@ The type of DHCP server. This attribute is set on all objects of objectClass [**
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -74,7 +74,7 @@ The type of DHCP server. This attribute is set on all objects of objectClass [**
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -95,7 +95,7 @@ The type of DHCP server. This attribute is set on all objects of objectClass [**
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -116,7 +116,7 @@ The type of DHCP server. This attribute is set on all objects of objectClass [**
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -137,7 +137,7 @@ The type of DHCP server. This attribute is set on all objects of objectClass [**
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -158,7 +158,7 @@ The type of DHCP server. This attribute is set on all objects of objectClass [**
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |

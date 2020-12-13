@@ -24,7 +24,7 @@ For information about the format this value, see [Security Descriptor String For
 
 
 
-|                   |                                                     |
+| Entry | Value |
 |-------------------|-----------------------------------------------------|
 | CN                | NT-Security-Descriptor                              |
 | Ldap-Display-Name | nTSecurityDescriptor                                |
@@ -51,7 +51,7 @@ For information about the format this value, see [Security Descriptor String For
 
 
 
-|                        |                                                                                                                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                 |
 | MAPI-Id                | 0x8013                                                                                                                                             |
@@ -72,7 +72,7 @@ For information about the format this value, see [Security Descriptor String For
 
 
 
-|                        |                                                                                                                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                 |
 | MAPI-Id                | 0x8013                                                                                                                                             |
@@ -93,7 +93,7 @@ For information about the format this value, see [Security Descriptor String For
 
 
 
-|                        |                                                                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                           |
 | MAPI-Id                | 0x8013                                                                                       |
@@ -114,7 +114,7 @@ For information about the format this value, see [Security Descriptor String For
 
 
 
-|                        |                                                                                                                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                 |
 | MAPI-Id                | 0x8013                                                                                                                                             |
@@ -135,7 +135,7 @@ For information about the format this value, see [Security Descriptor String For
 
 
 
-|                        |                                                                                                                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                 |
 | MAPI-Id                | 0x8013                                                                                                                                             |
@@ -156,7 +156,7 @@ For information about the format this value, see [Security Descriptor String For
 
 
 
-|                        |                                                                                                                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                 |
 | MAPI-Id                | 0x8013                                                                                                                                             |
@@ -177,7 +177,7 @@ For information about the format this value, see [Security Descriptor String For
 
 
 
-|                        |                                                                                                                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                 |
 | MAPI-Id                | 0x8013                                                                                                                                             |

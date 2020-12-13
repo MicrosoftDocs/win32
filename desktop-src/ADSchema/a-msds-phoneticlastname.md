@@ -22,7 +22,7 @@ Contains the phonetic last name of the person.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Phonetic-Last-Name                    |
 | Ldap-Display-Name | msDS-PhoneticLastName                       |
@@ -45,7 +45,7 @@ Contains the phonetic last name of the person.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C8F                                                             |
@@ -66,7 +66,7 @@ Contains the phonetic last name of the person.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C8F                                                             |
@@ -87,7 +87,7 @@ Contains the phonetic last name of the person.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C8F                                                             |

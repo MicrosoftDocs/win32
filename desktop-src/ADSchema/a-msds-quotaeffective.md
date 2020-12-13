@@ -22,7 +22,7 @@ The effective quota for a security principal computed from the assigned quotas f
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Quota-Effective                |
 | Ldap-Display-Name | msDS-QuotaEffective                  |
@@ -48,7 +48,7 @@ The effective quota for a security principal computed from the assigned quotas f
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -69,7 +69,7 @@ The effective quota for a security principal computed from the assigned quotas f
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -90,7 +90,7 @@ The effective quota for a security principal computed from the assigned quotas f
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -111,7 +111,7 @@ The effective quota for a security principal computed from the assigned quotas f
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -132,7 +132,7 @@ The effective quota for a security principal computed from the assigned quotas f
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -153,7 +153,7 @@ The effective quota for a security principal computed from the assigned quotas f
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |

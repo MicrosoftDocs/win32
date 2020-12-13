@@ -22,7 +22,7 @@ The update sequence number (USN) assigned at object creation. See also, [**USN-C
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | USN-Created                          |
 | Ldap-Display-Name | uSNCreated                           |
@@ -49,7 +49,7 @@ The update sequence number (USN) assigned at object creation. See also, [**USN-C
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8154                          |
@@ -70,7 +70,7 @@ The update sequence number (USN) assigned at object creation. See also, [**USN-C
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8154                          |
@@ -91,7 +91,7 @@ The update sequence number (USN) assigned at object creation. See also, [**USN-C
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8154                          |
@@ -112,7 +112,7 @@ The update sequence number (USN) assigned at object creation. See also, [**USN-C
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8154                          |
@@ -133,7 +133,7 @@ The update sequence number (USN) assigned at object creation. See also, [**USN-C
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8154                          |
@@ -154,7 +154,7 @@ The update sequence number (USN) assigned at object creation. See also, [**USN-C
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8154                          |
@@ -175,7 +175,7 @@ The update sequence number (USN) assigned at object creation. See also, [**USN-C
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8154                          |

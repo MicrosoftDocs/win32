@@ -22,7 +22,7 @@ List of bridge head servers used by KCC in the previous run.
 
 
 
-|                   |                                                 |
+| Entry | Value |
 |-------------------|-------------------------------------------------|
 | CN                | ms-DS-BridgeHead-Servers-Used                   |
 | Ldap-Display-Name | msDS-BridgeHeadServersUsed                      |
@@ -45,7 +45,7 @@ List of bridge head servers used by KCC in the previous run.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | 2160                              |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ List of bridge head servers used by KCC in the previous run.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | 2160                              |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ List of bridge head servers used by KCC in the previous run.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | 2160                              |
 | MAPI-Id                | \-                                |

@@ -22,7 +22,7 @@ Identifies the partitions held as full replicas.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Has-Full-Replica-NCs              |
 | Ldap-Display-Name | msDS-hasFullReplicaNCs                  |
@@ -45,7 +45,7 @@ Identifies the partitions held as full replicas.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2104                                     |
 | MAPI-Id                | \-                                       |
@@ -66,7 +66,7 @@ Identifies the partitions held as full replicas.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2104                                     |
 | MAPI-Id                | \-                                       |
@@ -87,7 +87,7 @@ Identifies the partitions held as full replicas.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2104                                     |
 | MAPI-Id                | \-                                       |

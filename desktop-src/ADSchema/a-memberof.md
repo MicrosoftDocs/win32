@@ -22,7 +22,7 @@ The distinguished name of the groups to which this object belongs.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Is-Member-Of-DL                         |
 | Ldap-Display-Name | memberOf                                |
@@ -49,7 +49,7 @@ The distinguished name of the groups to which this object belongs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 3                               |
 | MAPI-Id                | 0x8008                          |
@@ -70,7 +70,7 @@ The distinguished name of the groups to which this object belongs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 3                               |
 | MAPI-Id                | 0x8008                          |
@@ -91,7 +91,7 @@ The distinguished name of the groups to which this object belongs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 3                               |
 | MAPI-Id                | 0x8008                          |
@@ -112,7 +112,7 @@ The distinguished name of the groups to which this object belongs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 3                               |
 | MAPI-Id                | 0x8008                          |
@@ -133,7 +133,7 @@ The distinguished name of the groups to which this object belongs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 3                               |
 | MAPI-Id                | 0x8008                          |
@@ -154,7 +154,7 @@ The distinguished name of the groups to which this object belongs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 3                               |
 | MAPI-Id                | 0x8008                          |
@@ -175,7 +175,7 @@ The distinguished name of the groups to which this object belongs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 3                               |
 | MAPI-Id                | 0x8008                          |

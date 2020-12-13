@@ -22,7 +22,7 @@ Terminal Services session Maximum Connection Time is the maximum amount of time,
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-TS-Max-Connection-Time            |
 | Ldap-Display-Name | msTSMaxConnectionTime                |
@@ -45,7 +45,7 @@ Terminal Services session Maximum Connection Time is the maximum amount of time,
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Terminal Services session Maximum Connection Time is the maximum amount of time,
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Terminal Services session Maximum Connection Time is the maximum amount of time,
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

@@ -22,7 +22,7 @@ Contains the full path of the associated Distributed File System (DFS) link for 
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DFSR-DfsPath                             |
 | Ldap-Display-Name | msDFSR-DfsPath                              |
@@ -46,7 +46,7 @@ Contains the full path of the associated Distributed File System (DFS) link for 
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -67,7 +67,7 @@ Contains the full path of the associated Distributed File System (DFS) link for 
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -88,7 +88,7 @@ Contains the full path of the associated Distributed File System (DFS) link for 
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -109,7 +109,7 @@ Contains the full path of the associated Distributed File System (DFS) link for 
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |

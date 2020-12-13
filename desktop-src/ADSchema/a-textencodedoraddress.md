@@ -22,7 +22,7 @@ This attribute is used to support X.400 addresses in a text format.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Text-Encoded-OR-Address                     |
 | Ldap-Display-Name | textEncodedORAddress                        |
@@ -48,7 +48,7 @@ This attribute is used to support X.400 addresses in a text format.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x8C81                                               |
@@ -69,7 +69,7 @@ This attribute is used to support X.400 addresses in a text format.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x8C81                                               |
@@ -90,7 +90,7 @@ This attribute is used to support X.400 addresses in a text format.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x8C81                                               |
@@ -111,7 +111,7 @@ This attribute is used to support X.400 addresses in a text format.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x8C81                                               |
@@ -132,7 +132,7 @@ This attribute is used to support X.400 addresses in a text format.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x8C81                                               |
@@ -153,7 +153,7 @@ This attribute is used to support X.400 addresses in a text format.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x8C81                                               |

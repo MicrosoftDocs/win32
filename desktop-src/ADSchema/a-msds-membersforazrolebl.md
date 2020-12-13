@@ -22,7 +22,7 @@ Backward link from member application group or user to Az-Role objects linking t
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Members-For-Az-Role-BL            |
 | Ldap-Display-Name | msDS-MembersForAzRoleBL                 |
@@ -47,7 +47,7 @@ Backward link from member application group or user to Az-Role objects linking t
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2017                            |
 | MAPI-Id                | \-                              |
@@ -68,7 +68,7 @@ Backward link from member application group or user to Az-Role objects linking t
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2017                            |
 | MAPI-Id                | \-                              |
@@ -89,7 +89,7 @@ Backward link from member application group or user to Az-Role objects linking t
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2017                            |
 | MAPI-Id                | \-                              |
@@ -110,7 +110,7 @@ Backward link from member application group or user to Az-Role objects linking t
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2017                            |
 | MAPI-Id                | \-                              |
@@ -131,7 +131,7 @@ Backward link from member application group or user to Az-Role objects linking t
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2017                            |
 | MAPI-Id                | \-                              |

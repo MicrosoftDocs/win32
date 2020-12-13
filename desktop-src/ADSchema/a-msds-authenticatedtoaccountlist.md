@@ -22,7 +22,7 @@ Backward link for [**ms-DS-AuthenticatedAt-DC**](a-msds-authenticatedatdc.md). I
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-AuthenticatedTo-Accountlist       |
 | Ldap-Display-Name | msDS-AuthenticatedToAccountlist         |
@@ -45,7 +45,7 @@ Backward link for [**ms-DS-AuthenticatedAt-DC**](a-msds-authenticatedatdc.md). I
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2113                            |
 | MAPI-Id                | \-                              |
@@ -66,7 +66,7 @@ Backward link for [**ms-DS-AuthenticatedAt-DC**](a-msds-authenticatedatdc.md). I
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2113                            |
 | MAPI-Id                | \-                              |
@@ -87,7 +87,7 @@ Backward link for [**ms-DS-AuthenticatedAt-DC**](a-msds-authenticatedatdc.md). I
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2113                            |
 | MAPI-Id                | \-                              |

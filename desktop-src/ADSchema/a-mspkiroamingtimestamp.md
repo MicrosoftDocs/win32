@@ -22,7 +22,7 @@ Time stamp for last change to roaming tokens.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-PKI-RoamingTimeStamp                               |
 | Ldap-Display-Name | msPKIRoamingTimeStamp                                 |
@@ -45,7 +45,7 @@ Time stamp for last change to roaming tokens.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Time stamp for last change to roaming tokens.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Time stamp for last change to roaming tokens.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

@@ -22,7 +22,7 @@ Reference to the default Query-Policy in force for this server.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Query-Policy-Object                     |
 | Ldap-Display-Name | queryPolicyObject                       |
@@ -49,7 +49,7 @@ Reference to the default Query-Policy in force for this server.
 
 
 
-|                        |                                                                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------|
 | Link-Id                | 68                                                                                                   |
 | MAPI-Id                | \-                                                                                                   |
@@ -70,7 +70,7 @@ Reference to the default Query-Policy in force for this server.
 
 
 
-|                        |                                                                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------|
 | Link-Id                | 68                                                                                                   |
 | MAPI-Id                | \-                                                                                                   |
@@ -91,7 +91,7 @@ Reference to the default Query-Policy in force for this server.
 
 
 
-|                        |                                                                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------|
 | Link-Id                | 68                                                                                                   |
 | MAPI-Id                | \-                                                                                                   |
@@ -112,7 +112,7 @@ Reference to the default Query-Policy in force for this server.
 
 
 
-|                        |                                                                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------|
 | Link-Id                | 68                                                                                                   |
 | MAPI-Id                | \-                                                                                                   |
@@ -133,7 +133,7 @@ Reference to the default Query-Policy in force for this server.
 
 
 
-|                        |                                                                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------|
 | Link-Id                | 68                                                                                                   |
 | MAPI-Id                | \-                                                                                                   |
@@ -154,7 +154,7 @@ Reference to the default Query-Policy in force for this server.
 
 
 
-|                        |                                                                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------|
 | Link-Id                | 68                                                                                                   |
 | MAPI-Id                | \-                                                                                                   |
@@ -175,7 +175,7 @@ Reference to the default Query-Policy in force for this server.
 
 
 
-|                        |                                                                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------|
 | Link-Id                | 68                                                                                                   |
 | MAPI-Id                | \-                                                                                                   |

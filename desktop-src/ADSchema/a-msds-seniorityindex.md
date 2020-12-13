@@ -22,7 +22,7 @@ Contains the seniority index as applied by the organization where the person wor
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Seniority-Index                |
 | Ldap-Display-Name | msDS-SeniorityIndex                  |
@@ -43,7 +43,7 @@ Contains the seniority index as applied by the organization where the person wor
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C9C                                                             |

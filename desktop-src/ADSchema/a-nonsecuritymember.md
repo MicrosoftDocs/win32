@@ -22,7 +22,7 @@ Nonsecurity members of a group. Used for Exchange distribution lists.
 
 
 
-|                   |                                                  |
+| Entry | Value |
 |-------------------|--------------------------------------------------|
 | CN                | Non-Security-Member                              |
 | Ldap-Display-Name | nonSecurityMember                                |
@@ -48,7 +48,7 @@ Nonsecurity members of a group. Used for Exchange distribution lists.
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | 50                                  |
 | MAPI-Id                | \-                                  |
@@ -69,7 +69,7 @@ Nonsecurity members of a group. Used for Exchange distribution lists.
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | 50                                  |
 | MAPI-Id                | \-                                  |
@@ -90,7 +90,7 @@ Nonsecurity members of a group. Used for Exchange distribution lists.
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | 50                                  |
 | MAPI-Id                | \-                                  |
@@ -111,7 +111,7 @@ Nonsecurity members of a group. Used for Exchange distribution lists.
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | 50                                  |
 | MAPI-Id                | \-                                  |
@@ -132,7 +132,7 @@ Nonsecurity members of a group. Used for Exchange distribution lists.
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | 50                                  |
 | MAPI-Id                | \-                                  |
@@ -153,7 +153,7 @@ Nonsecurity members of a group. Used for Exchange distribution lists.
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | 50                                  |
 | MAPI-Id                | \-                                  |

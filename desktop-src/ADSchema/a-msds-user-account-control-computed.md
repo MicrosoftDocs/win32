@@ -37,7 +37,7 @@ The full list of bits that [**User-Account-Control**](a-useraccountcontrol.md) a
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-User-Account-Control-Computed  |
 | Ldap-Display-Name | msDS-User-Account-Control-Computed   |
@@ -63,7 +63,7 @@ The full list of bits that [**User-Account-Control**](a-useraccountcontrol.md) a
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -84,7 +84,7 @@ The full list of bits that [**User-Account-Control**](a-useraccountcontrol.md) a
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -105,7 +105,7 @@ The full list of bits that [**User-Account-Control**](a-useraccountcontrol.md) a
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -126,7 +126,7 @@ The full list of bits that [**User-Account-Control**](a-useraccountcontrol.md) a
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -147,7 +147,7 @@ The full list of bits that [**User-Account-Control**](a-useraccountcontrol.md) a
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -168,7 +168,7 @@ The full list of bits that [**User-Account-Control**](a-useraccountcontrol.md) a
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

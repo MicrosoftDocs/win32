@@ -22,7 +22,7 @@ Contains the name of the hash algorithm used to create the Thumbprint Hash for t
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-Imaging-Hash-Algorithm                   |
 | Ldap-Display-Name | msImaging-HashAlgorithm                     |
@@ -43,7 +43,7 @@ Contains the name of the hash algorithm used to create the Thumbprint Hash for t
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |

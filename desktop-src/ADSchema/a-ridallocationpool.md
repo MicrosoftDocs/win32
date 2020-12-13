@@ -22,7 +22,7 @@ A pool that was prefetched for use by the RID manager when the RID-Previous-Allo
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | RID-Allocation-Pool                  |
 | Ldap-Display-Name | rIDAllocationPool                    |
@@ -48,7 +48,7 @@ A pool that was prefetched for use by the RID manager when the RID-Previous-Allo
 
 
 
-|                        |                                        |
+| Entry | Value |
 |------------------------|----------------------------------------|
 | Link-Id                | \-                                     |
 | MAPI-Id                | \-                                     |
@@ -69,7 +69,7 @@ A pool that was prefetched for use by the RID manager when the RID-Previous-Allo
 
 
 
-|                        |                                        |
+| Entry | Value |
 |------------------------|----------------------------------------|
 | Link-Id                | \-                                     |
 | MAPI-Id                | \-                                     |
@@ -90,7 +90,7 @@ A pool that was prefetched for use by the RID manager when the RID-Previous-Allo
 
 
 
-|                        |                                        |
+| Entry | Value |
 |------------------------|----------------------------------------|
 | Link-Id                | \-                                     |
 | MAPI-Id                | \-                                     |
@@ -111,7 +111,7 @@ A pool that was prefetched for use by the RID manager when the RID-Previous-Allo
 
 
 
-|                        |                                        |
+| Entry | Value |
 |------------------------|----------------------------------------|
 | Link-Id                | \-                                     |
 | MAPI-Id                | \-                                     |
@@ -132,7 +132,7 @@ A pool that was prefetched for use by the RID manager when the RID-Previous-Allo
 
 
 
-|                        |                                        |
+| Entry | Value |
 |------------------------|----------------------------------------|
 | Link-Id                | \-                                     |
 | MAPI-Id                | \-                                     |
@@ -153,7 +153,7 @@ A pool that was prefetched for use by the RID manager when the RID-Previous-Allo
 
 
 
-|                        |                                        |
+| Entry | Value |
 |------------------------|----------------------------------------|
 | Link-Id                | \-                                     |
 | MAPI-Id                | \-                                     |

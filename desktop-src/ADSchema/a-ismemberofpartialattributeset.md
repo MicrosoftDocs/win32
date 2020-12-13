@@ -22,7 +22,7 @@ If **TRUE**, this attribute is replicated to the global catalog.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Is-Member-Of-Partial-Attribute-Set   |
 | Ldap-Display-Name | isMemberOfPartialAttributeSet        |
@@ -49,7 +49,7 @@ If **TRUE**, this attribute is replicated to the global catalog.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | \-                                                       |
@@ -70,7 +70,7 @@ If **TRUE**, this attribute is replicated to the global catalog.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | \-                                                       |
@@ -91,7 +91,7 @@ If **TRUE**, this attribute is replicated to the global catalog.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | \-                                                       |
@@ -112,7 +112,7 @@ If **TRUE**, this attribute is replicated to the global catalog.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | \-                                                       |
@@ -133,7 +133,7 @@ If **TRUE**, this attribute is replicated to the global catalog.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | \-                                                       |
@@ -154,7 +154,7 @@ If **TRUE**, this attribute is replicated to the global catalog.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | \-                                                       |
@@ -175,7 +175,7 @@ If **TRUE**, this attribute is replicated to the global catalog.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | \-                                                       |
