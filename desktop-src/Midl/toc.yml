@@ -226,6 +226,8 @@
       href: -cpp-cmd.md
     - name: "/cpp_opt"
       href: -cpp-opt.md
+    - name: "/cstruct_out"
+      href: -cstruct-out.md
     - name: "/cstub"
       href: -cstub.md
     - name: "/D"
