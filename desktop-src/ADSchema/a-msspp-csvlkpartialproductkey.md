@@ -22,7 +22,7 @@ Last 5 characters of CSVLK product-key used to create the Activation Object
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-SPP-CSVLK-Partial-Product-Key            |
 | Ldap-Display-Name | msSPP-CSVLKPartialProductKey                |
@@ -43,7 +43,7 @@ Last 5 characters of CSVLK product-key used to create the Activation Object
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |

@@ -22,7 +22,7 @@ The **ms-DS-Preferred-GC-Site** attribute is used by the Security Accounts Manag
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Preferred-GC-Site                 |
 | Ldap-Display-Name | msDS-Preferred-GC-Site                  |
@@ -48,7 +48,7 @@ The **ms-DS-Preferred-GC-Site** attribute is used by the Security Accounts Manag
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -69,7 +69,7 @@ The **ms-DS-Preferred-GC-Site** attribute is used by the Security Accounts Manag
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -90,7 +90,7 @@ The **ms-DS-Preferred-GC-Site** attribute is used by the Security Accounts Manag
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -111,7 +111,7 @@ The **ms-DS-Preferred-GC-Site** attribute is used by the Security Accounts Manag
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -132,7 +132,7 @@ The **ms-DS-Preferred-GC-Site** attribute is used by the Security Accounts Manag
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -153,7 +153,7 @@ The **ms-DS-Preferred-GC-Site** attribute is used by the Security Accounts Manag
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |

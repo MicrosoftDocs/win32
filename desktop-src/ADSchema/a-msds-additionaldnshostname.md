@@ -22,7 +22,7 @@ The attribute is used to store the additional DNS host name of a computer object
 
 
 
-|                   |                                                                             |
+| Entry | Value |
 |-------------------|-----------------------------------------------------------------------------|
 | CN                | ms-DS-Additional-Dns-Host-Name                                              |
 | Ldap-Display-Name | msDS-AdditionalDnsHostName                                                  |
@@ -47,7 +47,7 @@ The attribute is used to store the additional DNS host name of a computer object
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -68,7 +68,7 @@ The attribute is used to store the additional DNS host name of a computer object
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -89,7 +89,7 @@ The attribute is used to store the additional DNS host name of a computer object
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -110,7 +110,7 @@ The attribute is used to store the additional DNS host name of a computer object
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -131,7 +131,7 @@ The attribute is used to store the additional DNS host name of a computer object
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |

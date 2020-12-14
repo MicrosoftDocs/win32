@@ -22,7 +22,7 @@ Contains the private key related flags.
 
 
 
-|                   |                                                                                                   |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------------------------------------------|
 | CN                | ms-PKI-Private-Key-Flag                                                                           |
 | Ldap-Display-Name | msPKI-Private-Key-Flag                                                                            |
@@ -47,7 +47,7 @@ Contains the private key related flags.
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -68,7 +68,7 @@ Contains the private key related flags.
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -89,7 +89,7 @@ Contains the private key related flags.
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -110,7 +110,7 @@ Contains the private key related flags.
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -131,7 +131,7 @@ Contains the private key related flags.
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |

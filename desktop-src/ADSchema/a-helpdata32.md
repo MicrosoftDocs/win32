@@ -22,7 +22,7 @@ This attribute was used for the Win32 help file format for Exchange 4.0. It is n
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Help-Data32                                           |
 | Ldap-Display-Name | helpData32                                            |
@@ -48,7 +48,7 @@ This attribute was used for the Win32 help file format for Exchange 4.0. It is n
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8010                                                   |
@@ -69,7 +69,7 @@ This attribute was used for the Win32 help file format for Exchange 4.0. It is n
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8010                                                   |
@@ -90,7 +90,7 @@ This attribute was used for the Win32 help file format for Exchange 4.0. It is n
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8010                                                   |
@@ -111,7 +111,7 @@ This attribute was used for the Win32 help file format for Exchange 4.0. It is n
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8010                                                   |
@@ -132,7 +132,7 @@ This attribute was used for the Win32 help file format for Exchange 4.0. It is n
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8010                                                   |
@@ -153,7 +153,7 @@ This attribute was used for the Win32 help file format for Exchange 4.0. It is n
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8010                                                   |

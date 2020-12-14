@@ -22,7 +22,7 @@ Issuer name of the second terminal server per user CAL.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | MS-TS-ManagingLS2                           |
 | Ldap-Display-Name | msTSManagingLS2                             |
@@ -45,7 +45,7 @@ Issuer name of the second terminal server per user CAL.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -66,7 +66,7 @@ Issuer name of the second terminal server per user CAL.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -87,7 +87,7 @@ Issuer name of the second terminal server per user CAL.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

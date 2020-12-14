@@ -22,7 +22,7 @@ Warning/Error level pair for outbound backlog (number of files).
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | FRS-Control-Outbound-Backlog                |
 | Ldap-Display-Name | fRSControlOutboundBacklog                   |
@@ -48,7 +48,7 @@ Warning/Error level pair for outbound backlog (number of files).
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -69,7 +69,7 @@ Warning/Error level pair for outbound backlog (number of files).
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -90,7 +90,7 @@ Warning/Error level pair for outbound backlog (number of files).
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -111,7 +111,7 @@ Warning/Error level pair for outbound backlog (number of files).
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -132,7 +132,7 @@ Warning/Error level pair for outbound backlog (number of files).
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -153,7 +153,7 @@ Warning/Error level pair for outbound backlog (number of files).
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |

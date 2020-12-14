@@ -21,7 +21,7 @@ Enumeration(delivery-mechanism) syntax.
 
 
 
-|              |                                                                           |
+| Entry | Value |
 |--------------|---------------------------------------------------------------------------|
 | Name         | Enumeration(Delivery-Mechanism)                                           |
 | Syntax ID    | 2.5.5.9                                                                   |

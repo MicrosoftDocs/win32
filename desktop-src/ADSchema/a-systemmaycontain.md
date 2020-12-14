@@ -22,7 +22,7 @@ The list of optional attributes for a class. The list of attributes can only be 
 
 
 
-|                   |                                                                              |
+| Entry | Value |
 |-------------------|------------------------------------------------------------------------------|
 | CN                | System-May-Contain                                                           |
 | Ldap-Display-Name | systemMayContain                                                             |
@@ -49,7 +49,7 @@ The list of optional attributes for a class. The list of attributes can only be 
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -70,7 +70,7 @@ The list of optional attributes for a class. The list of attributes can only be 
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -91,7 +91,7 @@ The list of optional attributes for a class. The list of attributes can only be 
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -112,7 +112,7 @@ The list of optional attributes for a class. The list of attributes can only be 
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -133,7 +133,7 @@ The list of optional attributes for a class. The list of attributes can only be 
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -154,7 +154,7 @@ The list of optional attributes for a class. The list of attributes can only be 
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -175,7 +175,7 @@ The list of optional attributes for a class. The list of attributes can only be 
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |

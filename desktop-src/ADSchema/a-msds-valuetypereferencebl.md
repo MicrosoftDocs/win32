@@ -22,7 +22,7 @@ This is the back link for ms-DS-Value-Type-Reference. It links a value type obje
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Value-Type-Reference-BL           |
 | Ldap-Display-Name | msDS-ValueTypeReferenceBL               |
@@ -43,7 +43,7 @@ This is the back link for ms-DS-Value-Type-Reference. It links a value type obje
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2189                            |
 | MAPI-Id                | \-                              |

@@ -22,7 +22,7 @@ For a central access policy, this attribute identifies the central access rules 
 
 
 
-|                   |                                                |
+| Entry | Value |
 |-------------------|------------------------------------------------|
 | CN                | ms-Authz-Member-Rules-In-Central-Access-Policy |
 | Ldap-Display-Name | msAuthz-MemberRulesInCentralAccessPolicy       |
@@ -43,7 +43,7 @@ For a central access policy, this attribute identifies the central access rules 
 
 
 
-|                        |                                                                                    |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------|
 | Link-Id                | 2184                                                                               |
 | MAPI-Id                | \-                                                                                 |

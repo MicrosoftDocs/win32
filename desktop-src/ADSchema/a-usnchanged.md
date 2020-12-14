@@ -22,7 +22,7 @@ The update sequence number (USN) assigned by the local directory for the latest 
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | USN-Changed                          |
 | Ldap-Display-Name | uSNChanged                           |
@@ -49,7 +49,7 @@ The update sequence number (USN) assigned by the local directory for the latest 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8029                          |
@@ -70,7 +70,7 @@ The update sequence number (USN) assigned by the local directory for the latest 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8029                          |
@@ -91,7 +91,7 @@ The update sequence number (USN) assigned by the local directory for the latest 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8029                          |
@@ -112,7 +112,7 @@ The update sequence number (USN) assigned by the local directory for the latest 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8029                          |
@@ -133,7 +133,7 @@ The update sequence number (USN) assigned by the local directory for the latest 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8029                          |
@@ -154,7 +154,7 @@ The update sequence number (USN) assigned by the local directory for the latest 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8029                          |
@@ -175,7 +175,7 @@ The update sequence number (USN) assigned by the local directory for the latest 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8029                          |

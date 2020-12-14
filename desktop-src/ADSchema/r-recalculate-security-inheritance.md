@@ -21,7 +21,7 @@ Extended right needed to force DS to recompute ACL inheritance on a Naming Conte
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Recalculate-Security-Inheritance     |
 | Display-Name | Recalculate Security Inheritance     |
@@ -43,7 +43,7 @@ Extended right needed to force DS to recompute ACL inheritance on a Naming Conte
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 52                                       |
@@ -54,7 +54,7 @@ Extended right needed to force DS to recompute ACL inheritance on a Naming Conte
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 52                                       |
@@ -65,7 +65,7 @@ Extended right needed to force DS to recompute ACL inheritance on a Naming Conte
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 52                                       |
@@ -76,7 +76,7 @@ Extended right needed to force DS to recompute ACL inheritance on a Naming Conte
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 52                                       |
@@ -87,7 +87,7 @@ Extended right needed to force DS to recompute ACL inheritance on a Naming Conte
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 52                                       |
@@ -98,7 +98,7 @@ Extended right needed to force DS to recompute ACL inheritance on a Naming Conte
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 52                                       |
@@ -109,7 +109,7 @@ Extended right needed to force DS to recompute ACL inheritance on a Naming Conte
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 52                                       |

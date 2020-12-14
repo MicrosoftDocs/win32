@@ -22,7 +22,7 @@ The TCP/IP address for a network segment. Also called the subnet address.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Network-Address                             |
 | Ldap-Display-Name | networkAddress                              |
@@ -49,7 +49,7 @@ The TCP/IP address for a network segment. Also called the subnet address.
 
 
 
-|                        |                                                                                                                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                |
 | MAPI-Id                | 0x8170                                                                                                                                                            |
@@ -70,7 +70,7 @@ The TCP/IP address for a network segment. Also called the subnet address.
 
 
 
-|                        |                                                                                                                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                |
 | MAPI-Id                | 0x8170                                                                                                                                                            |
@@ -91,7 +91,7 @@ The TCP/IP address for a network segment. Also called the subnet address.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | 0x8170                                   |
@@ -112,7 +112,7 @@ The TCP/IP address for a network segment. Also called the subnet address.
 
 
 
-|                        |                                                                                                                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                |
 | MAPI-Id                | 0x8170                                                                                                                                                            |
@@ -133,7 +133,7 @@ The TCP/IP address for a network segment. Also called the subnet address.
 
 
 
-|                        |                                                                                                                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                |
 | MAPI-Id                | 0x8170                                                                                                                                                            |
@@ -154,7 +154,7 @@ The TCP/IP address for a network segment. Also called the subnet address.
 
 
 
-|                        |                                                                                                                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                |
 | MAPI-Id                | 0x8170                                                                                                                                                            |
@@ -175,7 +175,7 @@ The TCP/IP address for a network segment. Also called the subnet address.
 
 
 
-|                        |                                                                                                                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                |
 | MAPI-Id                | 0x8170                                                                                                                                                            |

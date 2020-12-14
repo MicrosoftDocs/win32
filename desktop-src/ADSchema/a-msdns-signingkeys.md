@@ -22,7 +22,7 @@ An attribute that contains the set of encrypted DNSSEC signing keys used by the 
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-DNS-Signing-Keys                                   |
 | Ldap-Display-Name | msDNS-SigningKeys                                     |
@@ -43,7 +43,7 @@ An attribute that contains the set of encrypted DNSSEC signing keys used by the 
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

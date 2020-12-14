@@ -22,7 +22,7 @@ Indicates whether the account that this attribute references has been locked out
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-User-Account-Auto-Locked       |
 | Ldap-Display-Name | ms-DS-UserAccountAutoLocked          |
@@ -43,7 +43,7 @@ Indicates whether the account that this attribute references has been locked out
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |

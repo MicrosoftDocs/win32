@@ -22,7 +22,7 @@ The enhanced key usage OIDs for the certificate template.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | PKI-Extended-Key-Usage                      |
 | Ldap-Display-Name | pKIExtendedKeyUsage                         |
@@ -48,7 +48,7 @@ The enhanced key usage OIDs for the certificate template.
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -69,7 +69,7 @@ The enhanced key usage OIDs for the certificate template.
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -90,7 +90,7 @@ The enhanced key usage OIDs for the certificate template.
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -111,7 +111,7 @@ The enhanced key usage OIDs for the certificate template.
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -132,7 +132,7 @@ The enhanced key usage OIDs for the certificate template.
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -153,7 +153,7 @@ The enhanced key usage OIDs for the certificate template.
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |

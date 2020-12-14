@@ -22,7 +22,7 @@ This constructed attribute returns a blob that contains the clear-text previous 
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-DS-ManagedPassword                                 |
 | Ldap-Display-Name | msDS-ManagedPassword                                  |
@@ -43,7 +43,7 @@ This constructed attribute returns a blob that contains the clear-text previous 
 
 
 
-|                        |                                                                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                          |
 | MAPI-Id                | \-                                                                                          |

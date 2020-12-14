@@ -22,7 +22,7 @@ This attribute is used to link a resource property object to its value type.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Value-Type-Reference              |
 | Ldap-Display-Name | msDS-ValueTypeReference                 |
@@ -43,7 +43,7 @@ This attribute is used to link a resource property object to its value type.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | 2188                                                                  |
 | MAPI-Id                | \-                                                                    |

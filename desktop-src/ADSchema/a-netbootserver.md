@@ -22,7 +22,7 @@ The distinguished name of a NetBoot server.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | netboot-Server                          |
 | Ldap-Display-Name | netbootServer                           |
@@ -48,7 +48,7 @@ The distinguished name of a NetBoot server.
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | 100                                                        |
 | MAPI-Id                | \-                                                         |
@@ -69,7 +69,7 @@ The distinguished name of a NetBoot server.
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | 100                                                        |
 | MAPI-Id                | \-                                                         |
@@ -90,7 +90,7 @@ The distinguished name of a NetBoot server.
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | 100                                                        |
 | MAPI-Id                | \-                                                         |
@@ -111,7 +111,7 @@ The distinguished name of a NetBoot server.
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | 100                                                        |
 | MAPI-Id                | \-                                                         |
@@ -132,7 +132,7 @@ The distinguished name of a NetBoot server.
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | 100                                                        |
 | MAPI-Id                | \-                                                         |
@@ -153,7 +153,7 @@ The distinguished name of a NetBoot server.
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | 100                                                        |
 | MAPI-Id                | \-                                                         |

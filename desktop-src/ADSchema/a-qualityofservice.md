@@ -22,7 +22,7 @@ Local or domain quality of service bits on policy objects.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Quality-Of-Service                   |
 | Ldap-Display-Name | qualityOfService                     |
@@ -48,7 +48,7 @@ Local or domain quality of service bits on policy objects.
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |
@@ -69,7 +69,7 @@ Local or domain quality of service bits on policy objects.
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |
@@ -90,7 +90,7 @@ Local or domain quality of service bits on policy objects.
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |
@@ -111,7 +111,7 @@ Local or domain quality of service bits on policy objects.
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |
@@ -132,7 +132,7 @@ Local or domain quality of service bits on policy objects.
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |
@@ -153,7 +153,7 @@ Local or domain quality of service bits on policy objects.
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |

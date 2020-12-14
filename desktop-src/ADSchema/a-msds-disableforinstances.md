@@ -22,7 +22,7 @@ The set of DSA objects, which represent ADAM instances, for which Service Connec
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Disable-For-Instances             |
 | Ldap-Display-Name | msDS-DisableForInstances                |
@@ -43,7 +43,7 @@ The set of DSA objects, which represent ADAM instances, for which Service Connec
 
 
 
-|                        |                                                                                                                          |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | 2042                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                       |

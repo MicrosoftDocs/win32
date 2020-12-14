@@ -22,7 +22,7 @@ Root of Authorization Policy store instance. Note that there can be many store i
 
 
 
-|                   |                                                 |
+| Entry | Value |
 |-------------------|-------------------------------------------------|
 | CN                | ms-DS-Az-Admin-Manager                          |
 | Ldap-Display-Name | msDS-AzAdminManager                             |
@@ -46,7 +46,7 @@ Root of Authorization Policy store instance. Note that there can be many store i
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                            |
 | Object-Category             | 1                                                                                                                                |
@@ -178,7 +178,7 @@ This class contains the following attributes for Windows Server 2003:
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                            |
 | Object-Category             | 1                                                                                                                                |
@@ -313,7 +313,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                            |
 | Object-Category             | 1                                                                                                                                |
@@ -461,7 +461,7 @@ This class contains the following attributes for Windows Server 2008:
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                            |
 | Object-Category             | 1                                                                                                                                |
@@ -616,7 +616,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                            |
 | Object-Category             | 1                                                                                                                                |

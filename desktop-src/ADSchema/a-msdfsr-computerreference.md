@@ -22,7 +22,7 @@ Contains a forward link to a [**Computer**](c-computer.md) object.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DFSR-ComputerReference               |
 | Ldap-Display-Name | msDFSR-ComputerReference                |
@@ -46,7 +46,7 @@ Contains a forward link to a [**Computer**](c-computer.md) object.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | 2050                                                 |
 | MAPI-Id                | \-                                                   |
@@ -67,7 +67,7 @@ Contains a forward link to a [**Computer**](c-computer.md) object.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | 2050                                                 |
 | MAPI-Id                | \-                                                   |
@@ -88,7 +88,7 @@ Contains a forward link to a [**Computer**](c-computer.md) object.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | 2050                                                 |
 | MAPI-Id                | \-                                                   |
@@ -109,7 +109,7 @@ Contains a forward link to a [**Computer**](c-computer.md) object.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | 2050                                                 |
 | MAPI-Id                | \-                                                   |

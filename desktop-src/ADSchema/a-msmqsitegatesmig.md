@@ -22,7 +22,7 @@ In MSMQ mixed-mode, the previous value of mSMQSiteGates.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | MSMQ-Site-Gates-Mig                     |
 | Ldap-Display-Name | mSMQSiteGatesMig                        |
@@ -48,7 +48,7 @@ In MSMQ mixed-mode, the previous value of mSMQSiteGates.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -69,7 +69,7 @@ In MSMQ mixed-mode, the previous value of mSMQSiteGates.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -90,7 +90,7 @@ In MSMQ mixed-mode, the previous value of mSMQSiteGates.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -111,7 +111,7 @@ In MSMQ mixed-mode, the previous value of mSMQSiteGates.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -132,7 +132,7 @@ In MSMQ mixed-mode, the previous value of mSMQSiteGates.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -153,7 +153,7 @@ In MSMQ mixed-mode, the previous value of mSMQSiteGates.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |

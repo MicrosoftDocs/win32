@@ -22,7 +22,7 @@ List of operations linked to Az-Role.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Operations-For-Az-Role            |
 | Ldap-Display-Name | msDS-OperationsForAzRole                |
@@ -47,7 +47,7 @@ List of operations linked to Az-Role.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | 2022                                              |
 | MAPI-Id                | \-                                                |
@@ -68,7 +68,7 @@ List of operations linked to Az-Role.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | 2022                                              |
 | MAPI-Id                | \-                                                |
@@ -89,7 +89,7 @@ List of operations linked to Az-Role.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | 2022                                              |
 | MAPI-Id                | \-                                                |
@@ -110,7 +110,7 @@ List of operations linked to Az-Role.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | 2022                                              |
 | MAPI-Id                | \-                                                |
@@ -131,7 +131,7 @@ List of operations linked to Az-Role.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | 2022                                              |
 | MAPI-Id                | \-                                                |

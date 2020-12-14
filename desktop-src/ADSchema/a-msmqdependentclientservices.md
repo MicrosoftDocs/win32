@@ -22,7 +22,7 @@ Indicates whether the MSMQ installed on this computer provides MSMQ dependent cl
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | MSMQ-Dependent-Client-Services       |
 | Ldap-Display-Name | mSMQDependentClientServices          |
@@ -48,7 +48,7 @@ Indicates whether the MSMQ installed on this computer provides MSMQ dependent cl
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -69,7 +69,7 @@ Indicates whether the MSMQ installed on this computer provides MSMQ dependent cl
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -90,7 +90,7 @@ Indicates whether the MSMQ installed on this computer provides MSMQ dependent cl
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -111,7 +111,7 @@ Indicates whether the MSMQ installed on this computer provides MSMQ dependent cl
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -132,7 +132,7 @@ Indicates whether the MSMQ installed on this computer provides MSMQ dependent cl
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -153,7 +153,7 @@ Indicates whether the MSMQ installed on this computer provides MSMQ dependent cl
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |

@@ -21,7 +21,7 @@ A string that contains Open Systems Interconnection (OSI) presentation addresses
 
 
 
-|              |                                                                        |
+| Entry | Value |
 |--------------|------------------------------------------------------------------------|
 | Name         | Object(Presentation-Address)                                           |
 | Syntax ID    | 2.5.5.13                                                               |

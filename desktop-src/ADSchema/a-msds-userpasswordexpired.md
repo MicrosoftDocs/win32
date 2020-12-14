@@ -22,7 +22,7 @@ Indicates whether the password for the account that this attribute references ha
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-User-Password-Expired          |
 | Ldap-Display-Name | msDS-UserPasswordExpired             |
@@ -43,7 +43,7 @@ Indicates whether the password for the account that this attribute references ha
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |

@@ -21,7 +21,7 @@ Extended right needed to request rid pool.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Allocate-Rids                        |
 | Display-Name | Allocate Rids                        |
@@ -42,7 +42,7 @@ Extended right needed to request rid pool.
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 33                                       |
@@ -53,7 +53,7 @@ Extended right needed to request rid pool.
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 33                                       |
@@ -64,7 +64,7 @@ Extended right needed to request rid pool.
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 33                                       |
@@ -75,7 +75,7 @@ Extended right needed to request rid pool.
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 33                                       |
@@ -86,7 +86,7 @@ Extended right needed to request rid pool.
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 33                                       |
@@ -97,7 +97,7 @@ Extended right needed to request rid pool.
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 33                                       |

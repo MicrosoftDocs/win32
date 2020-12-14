@@ -22,7 +22,7 @@ An attribute that defines the current NSEC3 salt string being used to sign the D
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DNS-NSEC3-Current-Salt                   |
 | Ldap-Display-Name | msDNS-NSEC3CurrentSalt                      |
@@ -43,7 +43,7 @@ An attribute that defines the current NSEC3 salt string being used to sign the D
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

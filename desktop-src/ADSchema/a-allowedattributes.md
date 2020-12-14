@@ -22,7 +22,7 @@ Attributes that will be permitted to be assigned to a class.
 
 
 
-|                   |                                                                 |
+| Entry | Value |
 |-------------------|-----------------------------------------------------------------|
 | CN                | Allowed-Attributes                                              |
 | Ldap-Display-Name | allowedAttributes                                               |
@@ -49,7 +49,7 @@ Attributes that will be permitted to be assigned to a class.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -70,7 +70,7 @@ Attributes that will be permitted to be assigned to a class.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -91,7 +91,7 @@ Attributes that will be permitted to be assigned to a class.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -112,7 +112,7 @@ Attributes that will be permitted to be assigned to a class.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -133,7 +133,7 @@ Attributes that will be permitted to be assigned to a class.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -154,7 +154,7 @@ Attributes that will be permitted to be assigned to a class.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -175,7 +175,7 @@ Attributes that will be permitted to be assigned to a class.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |

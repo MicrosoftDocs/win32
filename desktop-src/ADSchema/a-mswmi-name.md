@@ -22,7 +22,7 @@ The display name for top-level policy objects. Used in the Global Catalog.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-WMI-Name                                 |
 | Ldap-Display-Name | msWMI-Name                                  |
@@ -47,7 +47,7 @@ The display name for top-level policy objects. Used in the Global Catalog.
 
 
 
-|                        |                                                                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                              |
 | MAPI-Id                | \-                                                                                                              |
@@ -68,7 +68,7 @@ The display name for top-level policy objects. Used in the Global Catalog.
 
 
 
-|                        |                                                                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                              |
 | MAPI-Id                | \-                                                                                                              |
@@ -89,7 +89,7 @@ The display name for top-level policy objects. Used in the Global Catalog.
 
 
 
-|                        |                                                                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                              |
 | MAPI-Id                | \-                                                                                                              |
@@ -110,7 +110,7 @@ The display name for top-level policy objects. Used in the Global Catalog.
 
 
 
-|                        |                                                                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                              |
 | MAPI-Id                | \-                                                                                                              |
@@ -131,7 +131,7 @@ The display name for top-level policy objects. Used in the Global Catalog.
 
 
 
-|                        |                                                                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                              |
 | MAPI-Id                | \-                                                                                                              |

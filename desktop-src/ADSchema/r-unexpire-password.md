@@ -21,7 +21,7 @@ Extended control access right that allows a user to restore an expired password 
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Unexpire-Password                    |
 | Display-Name | Unexpire Password                    |
@@ -41,7 +41,7 @@ Extended control access right that allows a user to restore an expired password 
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 69                                           |
@@ -52,7 +52,7 @@ Extended control access right that allows a user to restore an expired password 
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 69                                           |
@@ -63,7 +63,7 @@ Extended control access right that allows a user to restore an expired password 
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 69                                           |
@@ -74,7 +74,7 @@ Extended control access right that allows a user to restore an expired password 
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 69                                           |
@@ -85,7 +85,7 @@ Extended control access right that allows a user to restore an expired password 
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 69                                           |

@@ -22,7 +22,7 @@ Used by Exchange. Exchange configures trees of address book containers to show u
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Address-Book-Roots2                     |
 | Ldap-Display-Name | addressBookRoots2                       |
@@ -45,7 +45,7 @@ Used by Exchange. Exchange configures trees of address book containers to show u
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | 2122                                                                                 |
 | MAPI-Id                | \-                                                                                   |
@@ -66,7 +66,7 @@ Used by Exchange. Exchange configures trees of address book containers to show u
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | 2122                                                                                 |
 | MAPI-Id                | \-                                                                                   |
@@ -87,7 +87,7 @@ Used by Exchange. Exchange configures trees of address book containers to show u
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | 2122                                                                                 |
 | MAPI-Id                | \-                                                                                   |

@@ -22,7 +22,7 @@ The last imported business rule path.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Az-Last-Imported-Biz-Rule-Path        |
 | Ldap-Display-Name | msDS-AzLastImportedBizRulePath              |
@@ -47,7 +47,7 @@ The last imported business rule path.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | \-                                                |
 | MAPI-Id                | \-                                                |
@@ -68,7 +68,7 @@ The last imported business rule path.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | \-                                                |
 | MAPI-Id                | \-                                                |
@@ -89,7 +89,7 @@ The last imported business rule path.
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -110,7 +110,7 @@ The last imported business rule path.
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -131,7 +131,7 @@ The last imported business rule path.
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |

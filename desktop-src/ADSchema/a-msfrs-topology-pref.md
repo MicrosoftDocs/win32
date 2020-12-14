@@ -35,7 +35,7 @@ Valid values for this attribute are as follows.
 
 
 
-|                   |                                                                    |
+| Entry | Value |
 |-------------------|--------------------------------------------------------------------|
 | CN                | ms-FRS-Topology-Pref                                               |
 | Ldap-Display-Name | msFRS-Topology-Pref                                                |
@@ -60,7 +60,7 @@ Valid values for this attribute are as follows.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -81,7 +81,7 @@ Valid values for this attribute are as follows.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -102,7 +102,7 @@ Valid values for this attribute are as follows.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -123,7 +123,7 @@ Valid values for this attribute are as follows.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -144,7 +144,7 @@ Valid values for this attribute are as follows.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |

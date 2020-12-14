@@ -22,7 +22,7 @@ An attribute that contains the set of DNSSEC Signing Key Descriptors (SKDs) used
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-DNS-Signing-Key-Descriptors                        |
 | Ldap-Display-Name | msDNS-SigningKeyDescriptors                           |
@@ -43,7 +43,7 @@ An attribute that contains the set of DNSSEC Signing Key Descriptors (SKDs) used
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

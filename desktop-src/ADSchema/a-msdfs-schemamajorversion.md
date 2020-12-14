@@ -22,7 +22,7 @@ Contains the major version of the schema of DFS metadata.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DFS-Schema-Major-Version          |
 | Ldap-Display-Name | msDFS-SchemaMajorVersion             |
@@ -45,7 +45,7 @@ Contains the major version of the schema of DFS metadata.
 
 
 
-|                        |                                                                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                  |
@@ -66,7 +66,7 @@ Contains the major version of the schema of DFS metadata.
 
 
 
-|                        |                                                                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                  |
@@ -87,7 +87,7 @@ Contains the major version of the schema of DFS metadata.
 
 
 
-|                        |                                                                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                  |

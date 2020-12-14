@@ -22,7 +22,7 @@ Backward link for [**ms-DS-Has-Domain-NCs**](a-msds-hasdomainncs.md). Identifies
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Is-Domain-For                     |
 | Ldap-Display-Name | msDS-IsDomainFor                        |
@@ -45,7 +45,7 @@ Backward link for [**ms-DS-Has-Domain-NCs**](a-msds-hasdomainncs.md). Identifies
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2027                            |
 | MAPI-Id                | \-                              |
@@ -66,7 +66,7 @@ Backward link for [**ms-DS-Has-Domain-NCs**](a-msds-hasdomainncs.md). Identifies
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2027                            |
 | MAPI-Id                | \-                              |
@@ -87,7 +87,7 @@ Backward link for [**ms-DS-Has-Domain-NCs**](a-msds-hasdomainncs.md). Identifies
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2027                            |
 | MAPI-Id                | \-                              |

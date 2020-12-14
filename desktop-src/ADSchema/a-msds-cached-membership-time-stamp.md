@@ -22,7 +22,7 @@ The **ms-DS-Cached-Membership-Time-Stamp** attribute is used by the Security Acc
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Cached-Membership-Time-Stamp   |
 | Ldap-Display-Name | msDS-Cached-Membership-Time-Stamp    |
@@ -47,7 +47,7 @@ The **ms-DS-Cached-Membership-Time-Stamp** attribute is used by the Security Acc
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -68,7 +68,7 @@ The **ms-DS-Cached-Membership-Time-Stamp** attribute is used by the Security Acc
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -89,7 +89,7 @@ The **ms-DS-Cached-Membership-Time-Stamp** attribute is used by the Security Acc
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -110,7 +110,7 @@ The **ms-DS-Cached-Membership-Time-Stamp** attribute is used by the Security Acc
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -131,7 +131,7 @@ The **ms-DS-Cached-Membership-Time-Stamp** attribute is used by the Security Acc
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

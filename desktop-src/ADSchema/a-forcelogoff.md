@@ -22,7 +22,7 @@ Used in computing the kick off time in SamIGetAccountRestrictions. Logoff time m
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Force-Logoff                         |
 | Ldap-Display-Name | forceLogoff                          |
@@ -48,7 +48,7 @@ Used in computing the kick off time in SamIGetAccountRestrictions. Logoff time m
 
 
 
-|                        |                                                                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                       |
 | MAPI-Id                | \-                                                                                                       |
@@ -69,7 +69,7 @@ Used in computing the kick off time in SamIGetAccountRestrictions. Logoff time m
 
 
 
-|                        |                                                                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                       |
 | MAPI-Id                | \-                                                                                                       |
@@ -90,7 +90,7 @@ Used in computing the kick off time in SamIGetAccountRestrictions. Logoff time m
 
 
 
-|                        |                                                                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                       |
 | MAPI-Id                | \-                                                                                                       |
@@ -111,7 +111,7 @@ Used in computing the kick off time in SamIGetAccountRestrictions. Logoff time m
 
 
 
-|                        |                                                                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                       |
 | MAPI-Id                | \-                                                                                                       |
@@ -132,7 +132,7 @@ Used in computing the kick off time in SamIGetAccountRestrictions. Logoff time m
 
 
 
-|                        |                                                                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                       |
 | MAPI-Id                | \-                                                                                                       |
@@ -153,7 +153,7 @@ Used in computing the kick off time in SamIGetAccountRestrictions. Logoff time m
 
 
 
-|                        |                                                                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                       |
 | MAPI-Id                | \-                                                                                                       |

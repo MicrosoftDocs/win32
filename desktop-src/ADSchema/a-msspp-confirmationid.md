@@ -22,7 +22,7 @@ Confirmation ID (CID) used for phone activation of the Active Directory forest
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-SPP-Confirmation-Id                      |
 | Ldap-Display-Name | msSPP-ConfirmationId                        |
@@ -43,7 +43,7 @@ Confirmation ID (CID) used for phone activation of the Active Directory forest
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |

@@ -22,7 +22,7 @@ Distinguished name of the Domain Controller which generated this root key.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-Kds-DomainID                         |
 | Ldap-Display-Name | msKds-DomainID                          |
@@ -43,7 +43,7 @@ Distinguished name of the Domain Controller which generated this root key.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |

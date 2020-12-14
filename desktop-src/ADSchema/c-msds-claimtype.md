@@ -22,7 +22,7 @@ An instance of this class holds the definition of a claim type that can be defin
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Claim-Type                     |
 | Ldap-Display-Name | msDS-ClaimType                       |
@@ -42,7 +42,7 @@ An instance of this class holds the definition of a claim type that can be defin
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |

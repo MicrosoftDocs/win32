@@ -22,7 +22,7 @@ Indicates the IPv6 interface identifier to be configured for the user.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-RADIUS-FramedInterfaceId          |
 | Ldap-Display-Name | msRADIUS-FramedInterfaceId           |
@@ -45,7 +45,7 @@ Indicates the IPv6 interface identifier to be configured for the user.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Indicates the IPv6 interface identifier to be configured for the user.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Indicates the IPv6 interface identifier to be configured for the user.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

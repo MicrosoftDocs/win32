@@ -22,7 +22,7 @@ Used by Exchange. Exchange configures trees of address book containers to show u
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Address-Book-Roots                      |
 | Ldap-Display-Name | addressBookRoots                        |
@@ -48,7 +48,7 @@ Used by Exchange. Exchange configures trees of address book containers to show u
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                   |
 | MAPI-Id                | \-                                                                                   |
@@ -69,7 +69,7 @@ Used by Exchange. Exchange configures trees of address book containers to show u
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                   |
 | MAPI-Id                | \-                                                                                   |
@@ -90,7 +90,7 @@ Used by Exchange. Exchange configures trees of address book containers to show u
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                   |
 | MAPI-Id                | \-                                                                                   |
@@ -111,7 +111,7 @@ Used by Exchange. Exchange configures trees of address book containers to show u
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                   |
 | MAPI-Id                | \-                                                                                   |
@@ -132,7 +132,7 @@ Used by Exchange. Exchange configures trees of address book containers to show u
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                   |
 | MAPI-Id                | \-                                                                                   |
@@ -153,7 +153,7 @@ Used by Exchange. Exchange configures trees of address book containers to show u
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                   |
 | MAPI-Id                | \-                                                                                   |

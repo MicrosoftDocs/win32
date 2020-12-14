@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | MS-TS-GatewayAccess                  |
 | Display-Name | MS-TS-GatewayAccess                  |
@@ -37,7 +37,7 @@ ms.date: 05/31/2018
 
 
 
-|                         |                                           |
+| Entry | Value |
 |-------------------------|-------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> |
 | Localization-Display-ID | 74                                        |
@@ -49,7 +49,7 @@ ms.date: 05/31/2018
 
 
 
-|                         |                                                                                                                            |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> [**ms-DS-Managed-Service-Account**](c-msds-managedserviceaccount.md)<br/> |
 | Localization-Display-ID | 74                                                                                                                         |
@@ -61,7 +61,7 @@ ms.date: 05/31/2018
 
 
 
-|                         |                                                                                                                            |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> [**ms-DS-Managed-Service-Account**](c-msds-managedserviceaccount.md)<br/> |
 | Localization-Display-ID | 74                                                                                                                         |

@@ -22,7 +22,7 @@ The user notice for the enterprise issuer policy OID.
 
 
 
-|                   |                                                                                            |
+| Entry | Value |
 |-------------------|--------------------------------------------------------------------------------------------|
 | CN                | ms-PKI-OID-User-Notice                                                                     |
 | Ldap-Display-Name | msPKI-OID-User-Notice                                                                      |
@@ -47,7 +47,7 @@ The user notice for the enterprise issuer policy OID.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -68,7 +68,7 @@ The user notice for the enterprise issuer policy OID.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -89,7 +89,7 @@ The user notice for the enterprise issuer policy OID.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -110,7 +110,7 @@ The user notice for the enterprise issuer policy OID.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -131,7 +131,7 @@ The user notice for the enterprise issuer policy OID.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |

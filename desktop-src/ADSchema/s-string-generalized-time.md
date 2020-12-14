@@ -27,7 +27,7 @@ For more information, see ISO 8601 and X680.
 
 
 
-|              |                                                                            |
+| Entry | Value |
 |--------------|----------------------------------------------------------------------------|
 | Name         | String(Generalized-Time)                                                   |
 | Syntax ID    | 2.5.5.11                                                                   |

@@ -21,7 +21,7 @@ Contains the login names of the members of a group.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | memberUid                            |
 | Ldap-Display-Name | memberUid                            |
@@ -45,7 +45,7 @@ Contains the login names of the members of a group.
 
 
 
-|                        |                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------|
 | Link-Id                | \-                                            |
 | MAPI-Id                | \-                                            |
@@ -66,7 +66,7 @@ Contains the login names of the members of a group.
 
 
 
-|                        |                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------|
 | Link-Id                | \-                                            |
 | MAPI-Id                | \-                                            |
@@ -87,7 +87,7 @@ Contains the login names of the members of a group.
 
 
 
-|                        |                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------|
 | Link-Id                | \-                                            |
 | MAPI-Id                | \-                                            |
@@ -108,7 +108,7 @@ Contains the login names of the members of a group.
 
 
 
-|                        |                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------|
 | Link-Id                | \-                                            |
 | MAPI-Id                | \-                                            |

@@ -22,7 +22,7 @@ This attribute indicates the TAPI conference type. This attribute is used to det
 
 
 
-|                   |                                                            |
+| Entry | Value |
 |-------------------|------------------------------------------------------------|
 | CN                | ms-TAPI-Protocol-Id                                        |
 | Ldap-Display-Name | msTAPI-ProtocolId                                          |
@@ -47,7 +47,7 @@ This attribute indicates the TAPI conference type. This attribute is used to det
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -68,7 +68,7 @@ This attribute indicates the TAPI conference type. This attribute is used to det
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -89,7 +89,7 @@ This attribute indicates the TAPI conference type. This attribute is used to det
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -110,7 +110,7 @@ This attribute indicates the TAPI conference type. This attribute is used to det
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -131,7 +131,7 @@ This attribute indicates the TAPI conference type. This attribute is used to det
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |

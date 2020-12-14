@@ -22,7 +22,7 @@ A computed attribute that contains the list of SIDs due to a transitive group me
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Token-Groups                         |
 | Ldap-Display-Name | tokenGroups                          |
@@ -49,7 +49,7 @@ A computed attribute that contains the list of SIDs due to a transitive group me
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -70,7 +70,7 @@ A computed attribute that contains the list of SIDs due to a transitive group me
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -91,7 +91,7 @@ A computed attribute that contains the list of SIDs due to a transitive group me
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -112,7 +112,7 @@ A computed attribute that contains the list of SIDs due to a transitive group me
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -133,7 +133,7 @@ A computed attribute that contains the list of SIDs due to a transitive group me
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -154,7 +154,7 @@ A computed attribute that contains the list of SIDs due to a transitive group me
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -175,7 +175,7 @@ A computed attribute that contains the list of SIDs due to a transitive group me
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |

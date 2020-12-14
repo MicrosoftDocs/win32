@@ -22,7 +22,7 @@ List of members contained in a SAM builtin group for synchronization.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Sync-Membership                         |
 | Ldap-Display-Name | syncMembership                          |
@@ -48,7 +48,7 @@ List of members contained in a SAM builtin group for synchronization.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | 78           |
 | MAPI-Id                | \-           |
@@ -69,7 +69,7 @@ List of members contained in a SAM builtin group for synchronization.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | 78           |
 | MAPI-Id                | \-           |
@@ -90,7 +90,7 @@ List of members contained in a SAM builtin group for synchronization.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | 78           |
 | MAPI-Id                | \-           |
@@ -111,7 +111,7 @@ List of members contained in a SAM builtin group for synchronization.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | 78           |
 | MAPI-Id                | \-           |
@@ -132,7 +132,7 @@ List of members contained in a SAM builtin group for synchronization.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | 78           |
 | MAPI-Id                | \-           |
@@ -153,7 +153,7 @@ List of members contained in a SAM builtin group for synchronization.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | 78           |
 | MAPI-Id                | \-           |

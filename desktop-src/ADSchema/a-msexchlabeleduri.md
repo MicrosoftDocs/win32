@@ -22,7 +22,7 @@ An Exchange URI followed by a label. The label is used to describe the resource 
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-Exch-LabeledURI                          |
 | Ldap-Display-Name | msExchLabeledURI                            |
@@ -47,7 +47,7 @@ An Exchange URI followed by a label. The label is used to describe the resource 
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x921                                                |
@@ -68,7 +68,7 @@ An Exchange URI followed by a label. The label is used to describe the resource 
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x921                                                |
@@ -89,7 +89,7 @@ An Exchange URI followed by a label. The label is used to describe the resource 
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x921                                                |
@@ -110,7 +110,7 @@ An Exchange URI followed by a label. The label is used to describe the resource 
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x921                                                |
@@ -131,7 +131,7 @@ An Exchange URI followed by a label. The label is used to describe the resource 
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x921                                                |

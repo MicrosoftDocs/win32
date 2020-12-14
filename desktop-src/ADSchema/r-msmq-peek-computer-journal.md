@@ -21,7 +21,7 @@ Allows peeking at messages in the Computer Journal queue.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | msmq-Peek-computer-Journal           |
 | Display-Name | Peek Computer Journal                |
@@ -42,7 +42,7 @@ Allows peeking at messages in the Computer Journal queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 41                                                           |
@@ -53,7 +53,7 @@ Allows peeking at messages in the Computer Journal queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 41                                                           |
@@ -64,7 +64,7 @@ Allows peeking at messages in the Computer Journal queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 41                                                           |
@@ -75,7 +75,7 @@ Allows peeking at messages in the Computer Journal queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 41                                                           |
@@ -86,7 +86,7 @@ Allows peeking at messages in the Computer Journal queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 41                                                           |
@@ -97,7 +97,7 @@ Allows peeking at messages in the Computer Journal queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 41                                                           |

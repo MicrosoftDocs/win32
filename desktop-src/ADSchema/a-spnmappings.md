@@ -22,7 +22,7 @@ This multiple-valued attribute contains a list of service principal names (SPN) 
 
 
 
-|                   |                                                                                                                    |
+| Entry | Value |
 |-------------------|--------------------------------------------------------------------------------------------------------------------|
 | CN                | SPN-Mappings                                                                                                       |
 | Ldap-Display-Name | sPNMappings                                                                                                        |
@@ -48,7 +48,7 @@ This multiple-valued attribute contains a list of service principal names (SPN) 
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -69,7 +69,7 @@ This multiple-valued attribute contains a list of service principal names (SPN) 
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -90,7 +90,7 @@ This multiple-valued attribute contains a list of service principal names (SPN) 
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -111,7 +111,7 @@ This multiple-valued attribute contains a list of service principal names (SPN) 
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -132,7 +132,7 @@ This multiple-valued attribute contains a list of service principal names (SPN) 
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -153,7 +153,7 @@ This multiple-valued attribute contains a list of service principal names (SPN) 
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |

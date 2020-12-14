@@ -22,7 +22,7 @@ Limit depth of directory tree to replicate for file replication.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | FRS-Level-Limit                      |
 | Ldap-Display-Name | fRSLevelLimit                        |
@@ -48,7 +48,7 @@ Limit depth of directory tree to replicate for file replication.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -69,7 +69,7 @@ Limit depth of directory tree to replicate for file replication.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -90,7 +90,7 @@ Limit depth of directory tree to replicate for file replication.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -111,7 +111,7 @@ Limit depth of directory tree to replicate for file replication.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -132,7 +132,7 @@ Limit depth of directory tree to replicate for file replication.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -153,7 +153,7 @@ Limit depth of directory tree to replicate for file replication.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |

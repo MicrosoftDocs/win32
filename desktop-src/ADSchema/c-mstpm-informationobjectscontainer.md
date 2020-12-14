@@ -22,7 +22,7 @@ Container for TPM objects.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-TPM-Information-Objects-Container |
 | Ldap-Display-Name | msTPM-InformationObjectsContainer    |
@@ -42,7 +42,7 @@ Container for TPM objects.
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |

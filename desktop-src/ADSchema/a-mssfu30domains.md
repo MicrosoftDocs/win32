@@ -22,7 +22,7 @@ Contains the list of UNIX NIS domains that have all been migrated to the same AD
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | msSFU-30-Domains                     |
 | Ldap-Display-Name | msSFU30Domains                       |
@@ -46,7 +46,7 @@ Contains the list of UNIX NIS domains that have all been migrated to the same AD
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -67,7 +67,7 @@ Contains the list of UNIX NIS domains that have all been migrated to the same AD
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -88,7 +88,7 @@ Contains the list of UNIX NIS domains that have all been migrated to the same AD
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -109,7 +109,7 @@ Contains the list of UNIX NIS domains that have all been migrated to the same AD
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |

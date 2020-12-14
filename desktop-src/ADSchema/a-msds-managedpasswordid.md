@@ -22,7 +22,7 @@ This constructed attribute contains the key identifier for the current managed p
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-DS-ManagedPasswordId                               |
 | Ldap-Display-Name | msDS-ManagedPasswordId                                |
@@ -43,7 +43,7 @@ This constructed attribute contains the key identifier for the current managed p
 
 
 
-|                        |                                                                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                          |
 | MAPI-Id                | \-                                                                                          |

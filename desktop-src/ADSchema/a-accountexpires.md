@@ -22,7 +22,7 @@ The date when the account expires. This value represents the number of 100-nanos
 
 
 
-|                   |                                                                        |
+| Entry | Value |
 |-------------------|------------------------------------------------------------------------|
 | CN                | Account-Expires                                                        |
 | Ldap-Display-Name | accountExpires                                                         |
@@ -49,7 +49,7 @@ The date when the account expires. This value represents the number of 100-nanos
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -70,7 +70,7 @@ The date when the account expires. This value represents the number of 100-nanos
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -91,7 +91,7 @@ The date when the account expires. This value represents the number of 100-nanos
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -112,7 +112,7 @@ The date when the account expires. This value represents the number of 100-nanos
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -133,7 +133,7 @@ The date when the account expires. This value represents the number of 100-nanos
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -154,7 +154,7 @@ The date when the account expires. This value represents the number of 100-nanos
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -175,7 +175,7 @@ The date when the account expires. This value represents the number of 100-nanos
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

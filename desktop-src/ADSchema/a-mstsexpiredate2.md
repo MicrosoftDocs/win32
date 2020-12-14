@@ -22,7 +22,7 @@ Expiration date of the second TS per user CAL.
 
 
 
-|                   |                                                               |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------|
 | CN                | MS-TS-ExpireDate2                                             |
 | Ldap-Display-Name | msTSExpireDate2                                               |
@@ -45,7 +45,7 @@ Expiration date of the second TS per user CAL.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -66,7 +66,7 @@ Expiration date of the second TS per user CAL.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -87,7 +87,7 @@ Expiration date of the second TS per user CAL.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

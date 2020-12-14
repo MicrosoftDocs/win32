@@ -22,7 +22,7 @@ Storage of encrypted user credential token BLOBs for roaming.
 
 
 
-|                   |                                                 |
+| Entry | Value |
 |-------------------|-------------------------------------------------|
 | CN                | ms-PKI-Credential-Roaming-Tokens                |
 | Ldap-Display-Name | msPKI-CredentialRoamingTokens                   |
@@ -44,7 +44,7 @@ Storage of encrypted user credential token BLOBs for roaming.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | 2162                              |
 | MAPI-Id                | \-                                |
@@ -65,7 +65,7 @@ Storage of encrypted user credential token BLOBs for roaming.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | 2162                              |
 | MAPI-Id                | \-                                |

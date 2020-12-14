@@ -22,7 +22,7 @@ The list of auxiliary classes to be associated with this class.
 
 
 
-|                   |                                                                 |
+| Entry | Value |
 |-------------------|-----------------------------------------------------------------|
 | CN                | Auxiliary-Class                                                 |
 | Ldap-Display-Name | auxiliaryClass                                                  |
@@ -49,7 +49,7 @@ The list of auxiliary classes to be associated with this class.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -70,7 +70,7 @@ The list of auxiliary classes to be associated with this class.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -91,7 +91,7 @@ The list of auxiliary classes to be associated with this class.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -112,7 +112,7 @@ The list of auxiliary classes to be associated with this class.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -133,7 +133,7 @@ The list of auxiliary classes to be associated with this class.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -154,7 +154,7 @@ The list of auxiliary classes to be associated with this class.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -175,7 +175,7 @@ The list of auxiliary classes to be associated with this class.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |

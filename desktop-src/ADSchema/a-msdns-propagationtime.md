@@ -22,7 +22,7 @@ An attribute used to define in seconds the expected time required to propagate z
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DNS-Propagation-Time              |
 | Ldap-Display-Name | msDNS-PropagationTime                |
@@ -43,7 +43,7 @@ An attribute used to define in seconds the expected time required to propagate z
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

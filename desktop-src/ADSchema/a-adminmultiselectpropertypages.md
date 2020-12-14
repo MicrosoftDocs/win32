@@ -22,7 +22,7 @@ This is a multivalued attribute whose values are a number that represents the or
 
 
 
-|                   |                                                                                                                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | CN                | Admin-Multiselect-Property-Pages                                                                                                            |
 | Ldap-Display-Name | adminMultiselectPropertyPages                                                                                                               |
@@ -47,7 +47,7 @@ This is a multivalued attribute whose values are a number that represents the or
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -68,7 +68,7 @@ This is a multivalued attribute whose values are a number that represents the or
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -89,7 +89,7 @@ This is a multivalued attribute whose values are a number that represents the or
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -110,7 +110,7 @@ This is a multivalued attribute whose values are a number that represents the or
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -131,7 +131,7 @@ This is a multivalued attribute whose values are a number that represents the or
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |

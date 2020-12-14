@@ -21,7 +21,7 @@ Contains a GUID that identifies a specific 802.3 Group Policy object on the doma
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-net-ieee-8023-GP-PolicyGUID              |
 | Ldap-Display-Name | ms-net-ieee-8023-GP-PolicyGUID              |
@@ -44,7 +44,7 @@ Contains a GUID that identifies a specific 802.3 Group Policy object on the doma
 
 
 
-|                        |                                                                                   |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                |
 | MAPI-Id                | \-                                                                                |
@@ -65,7 +65,7 @@ Contains a GUID that identifies a specific 802.3 Group Policy object on the doma
 
 
 
-|                        |                                                                                   |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                |
 | MAPI-Id                | \-                                                                                |
@@ -86,7 +86,7 @@ Contains a GUID that identifies a specific 802.3 Group Policy object on the doma
 
 
 
-|                        |                                                                                   |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                |
 | MAPI-Id                | \-                                                                                |

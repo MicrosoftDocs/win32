@@ -22,7 +22,7 @@ The phonetic display name of an object. In the absence of a phonetic display nam
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Phonetic-Display-Name                 |
 | Ldap-Display-Name | msDS-PhoneticDisplayName                    |
@@ -45,7 +45,7 @@ The phonetic display name of an object. In the absence of a phonetic display nam
 
 
 
-|                        |                                                                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                      |
 | MAPI-Id                | 0x8C92                                                                                                                  |
@@ -66,7 +66,7 @@ The phonetic display name of an object. In the absence of a phonetic display nam
 
 
 
-|                        |                                                                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                      |
 | MAPI-Id                | 0x8C92                                                                                                                  |
@@ -87,7 +87,7 @@ The phonetic display name of an object. In the absence of a phonetic display nam
 
 
 
-|                        |                                                                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                      |
 | MAPI-Id                | 0x8C92                                                                                                                  |

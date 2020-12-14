@@ -22,7 +22,7 @@ Account name for the security principal (constructed).
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Principal-Name                        |
 | Ldap-Display-Name | msDS-PrincipalName                          |
@@ -46,7 +46,7 @@ Account name for the security principal (constructed).
 
 
 
-|                        |                                                         |
+| Entry | Value |
 |------------------------|---------------------------------------------------------|
 | Link-Id                | \-                                                      |
 | MAPI-Id                | \-                                                      |
@@ -67,7 +67,7 @@ Account name for the security principal (constructed).
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -88,7 +88,7 @@ Account name for the security principal (constructed).
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -109,7 +109,7 @@ Account name for the security principal (constructed).
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |

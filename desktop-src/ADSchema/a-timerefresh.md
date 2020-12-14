@@ -22,7 +22,7 @@ This attribute has the interval during which a resource record that is contained
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Time-Refresh                         |
 | Ldap-Display-Name | timeRefresh                          |
@@ -48,7 +48,7 @@ This attribute has the interval during which a resource record that is contained
 
 
 
-|                        |                                                                                                                               |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                            |
@@ -69,7 +69,7 @@ This attribute has the interval during which a resource record that is contained
 
 
 
-|                        |                                                                                                                               |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                            |
@@ -90,7 +90,7 @@ This attribute has the interval during which a resource record that is contained
 
 
 
-|                        |                                                                                                                               |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                            |
@@ -111,7 +111,7 @@ This attribute has the interval during which a resource record that is contained
 
 
 
-|                        |                                                                                                                               |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                            |
@@ -132,7 +132,7 @@ This attribute has the interval during which a resource record that is contained
 
 
 
-|                        |                                                                                                                               |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                            |
@@ -153,7 +153,7 @@ This attribute has the interval during which a resource record that is contained
 
 
 
-|                        |                                                                                                                               |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                            |

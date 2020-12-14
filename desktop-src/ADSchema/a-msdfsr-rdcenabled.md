@@ -22,7 +22,7 @@ Contains the value that specifies if RDC is enabled or disabled.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DFSR-RdcEnabled                   |
 | Ldap-Display-Name | msDFSR-RdcEnabled                    |
@@ -46,7 +46,7 @@ Contains the value that specifies if RDC is enabled or disabled.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -67,7 +67,7 @@ Contains the value that specifies if RDC is enabled or disabled.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -88,7 +88,7 @@ Contains the value that specifies if RDC is enabled or disabled.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -109,7 +109,7 @@ Contains the value that specifies if RDC is enabled or disabled.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |

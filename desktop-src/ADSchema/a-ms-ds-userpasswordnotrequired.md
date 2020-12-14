@@ -22,7 +22,7 @@ Indicates whether a password is required for the account that this attribute ref
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-User-Password-Not-Required     |
 | Ldap-Display-Name | ms-DS-UserPasswordNotRequired        |
@@ -43,7 +43,7 @@ Indicates whether a password is required for the account that this attribute ref
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |

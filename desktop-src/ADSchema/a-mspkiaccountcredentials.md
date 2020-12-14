@@ -22,7 +22,7 @@ Storage of encrypted user credential token BLOBs for roaming.
 
 
 
-|                   |                                                 |
+| Entry | Value |
 |-------------------|-------------------------------------------------|
 | CN                | ms-PKI-AccountCredentials                       |
 | Ldap-Display-Name | msPKIAccountCredentials                         |
@@ -45,7 +45,7 @@ Storage of encrypted user credential token BLOBs for roaming.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | 2048                              |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Storage of encrypted user credential token BLOBs for roaming.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | 2048                              |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Storage of encrypted user credential token BLOBs for roaming.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | 2048                              |
 | MAPI-Id                | \-                                |

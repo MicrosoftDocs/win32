@@ -21,7 +21,7 @@ An octet string that contains a string value and a DN.
 
 
 
-|              |                                                                                    |
+| Entry | Value |
 |--------------|------------------------------------------------------------------------------------|
 | Name         | Object(DN-String)                                                                  |
 | Syntax ID    | 2.5.5.14                                                                           |
