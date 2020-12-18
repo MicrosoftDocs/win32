@@ -14,21 +14,26 @@ The following table displays the Microsoft Schannel Provider support of TLS prot
 
 
 
-| Windows OS                                            | TLS 1.0 Client | TLS 1.0 Server | TLS 1.1 Client | TLS 1.1 Server | TLS 1.2 Client | TLS 1.2 Server |
-|-------------------------------------------------------|----------------|----------------|----------------|----------------|----------------|----------------|
-| Windows Vista/Windows Server 2008                     | Enabled        | Enabled        | Not supported  | Not supported  | Not supported  | Not supported  |
-| Windows Server 2008 with Service Pack 2 (SP2)         | Enabled        | Enabled        | Disabled       | Disabled       | Disabled       | Disabled       |
-| Windows 7/Windows Server 2008 R2                      | Enabled        | Enabled        | Disabled       | Disabled       | Disabled       | Disabled       |
-| Windows 8/Windows Server 2012                         | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        |
-| Windows 8.1/Windows Server 2012 R2                    | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        |
-| Windows 10, version 1507                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        |
-| Windows 10, version 1511                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        |
-| Windows 10, version 1607/Windows Server 2016 Standard | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        |
-| Windows 10, version 1703                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        |
+| Windows OS                                            | TLS 1.0 Client | TLS 1.0 Server | TLS 1.1 Client | TLS 1.1 Server | TLS 1.2 Client | TLS 1.2 Server | TLS 1.3 Client | TLS 1.3 Server |
+|-------------------------------------------------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|
+| Windows Vista/Windows Server 2008                     | Enabled        | Enabled        | Not supported  | Not supported  | Not supported  | Not supported  | Not supported  | Not supported  |
+| Windows Server 2008 with Service Pack 2 (SP2)         | Enabled        | Enabled        | Disabled       | Disabled       | Disabled       | Disabled       | Not supported  | Not supported  |
+| Windows 7/Windows Server 2008 R2                      | Enabled        | Enabled        | Disabled       | Disabled       | Disabled       | Disabled       | Not supported  | Not supported  |
+| Windows 8/Windows Server 2012                         | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
+| Windows 8.1/Windows Server 2012 R2                    | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
+| Windows 10, version 1507                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
+| Windows 10, version 1511                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
+| Windows 10, version 1607/Windows Server 2016 Standard | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
+| Windows 10, version 1703                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
+| Windows 10, version 1803                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
+| Windows 10, version 1809                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
+| Windows 10, version 1903                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
+| Windows 10, version 1909                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  | 
+| Windows 10, version 2004                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
+| Windows 10, version 20H2                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
+| Windows 10, version 21H1                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        |
 
 
-
- 
 
 The following lists the Microsoft Schannel Provider support of DTLS protocol versions:
 
@@ -45,8 +50,13 @@ The following lists the Microsoft Schannel Provider support of DTLS protocol ver
 | Windows 10, version 1511                              | Enabled         | Enabled         | Not supported   | Not supported   |
 | Windows 10, version 1607/Windows Server 2016 Standard | Enabled         | Enabled         | Enabled         | Enabled         |
 | Windows 10, version 1703                              | Enabled         | Enabled         | Enabled         | Enabled         |
-
-
+| Windows 10, version 1803                              | Enabled         | Enabled         | Enabled         | Enabled         |
+| Windows 10, version 1809                              | Enabled         | Enabled         | Enabled         | Enabled         |
+| Windows 10, version 1903                              | Enabled         | Enabled         | Enabled         | Enabled         |
+| Windows 10, version 1909                              | Enabled         | Enabled         | Enabled         | Enabled         |
+| Windows 10, version 2004                              | Enabled         | Enabled         | Enabled         | Enabled         |
+| Windows 10, version 20H2                              | Enabled         | Enabled         | Enabled         | Enabled         |
+| Windows 10, version 21H1                              | Enabled         | Enabled         | Enabled         | Enabled         |
 
  
 
@@ -65,6 +75,13 @@ The following lists the Microsoft Schannel Provider support of pre-TLS standard 
 | Windows 10, version 1511                              | Not supported | Disabled      | Disabled      | Enabled     | Enabled     |
 | Windows 10, version 1607/Windows Server 2016 Standard | Not supported | Not supported | Not supported | Disabled    | Disabled    |
 | Windows 10, version 1703                              | Not supported | Not supported | Not supported | Disabled    | Disabled    |
+| Windows 10, version 1803                              | Not supported | Not supported | Not supported | Disabled    | Disabled    |
+| Windows 10, version 1809                              | Not supported | Not supported | Not supported | Disabled    | Disabled    |
+| Windows 10, version 1903                              | Not supported | Not supported | Not supported | Disabled    | Disabled    |
+| Windows 10, version 1909                              | Not supported | Not supported | Not supported | Disabled    | Disabled    |
+| Windows 10, version 2004                              | Not supported | Not supported | Not supported | Disabled    | Disabled    |
+| Windows 10, version 20H2                              | Not supported | Not supported | Not supported | Disabled    | Disabled    |
+| Windows 10, version 20H1                              | Not supported | Not supported | Not supported | Disabled    | Disabled    |
 
 
 
