@@ -25,8 +25,8 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 [IUpdateOrchestratorUpdateProvider::Deserialize](iupdateorchestratorupdateprovider-deserialize.md)
 
-[IUpdateOrchestratorUpdateProvider::ScanAttemptFrequencyInMinutes](iupdateorchestratorupdateprovider-scanattemptfrequencyinminutes.md)
+[IUpdateOrchestratorUpdateProvider::get_ScanAttempFrequencyInMinutes](iupdateorchestratorupdateprovider-scanattemptfrequencyinminutes.md)
 
 [IUpdateOrchestratorUpdateProvider::ScanForPendingUpdates](iupdateorchestratorupdateprovider-scanforpendingupdates.md) 
 
-[IUpdateOrchestratorUpdateProvider::ScanSlaInMinutes](iupdateorchestratorupdateprovider-scanslainminutes.md)
+[IUpdateOrchestratorUpdateProvider::get_ScanSlaInMinutes](iupdateorchestratorupdateprovider-scanslainminutes.md)

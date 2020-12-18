@@ -35,4 +35,4 @@ Gets the Default Scan Attempt Frequency which is the minimum amount of time we s
 
 [IUpdateOrchestratorUpdateProvider::ScanForPendingUpdates](iupdateorchestratorupdateprovider-scanforpendingupdates.md) 
 
-[IUpdateOrchestratorUpdateProvider::ScanSlaInMinutes](iupdateorchestratorupdateprovider-scanslainminutes.md)
+[IUpdateOrchestratorUpdateProvider::get_ScanSlaInMinutes](iupdateorchestratorupdateprovider-scanslainminutes.md)
