@@ -25,6 +25,46 @@
       - name: "Remote Desktop ActiveX control interfaces"
         href: remote-desktop-web-connection-reference.md
         items: 
+        - name: "IMsRdpCameraRedirConfig"
+          href: imsrdpcameraredirconfig.md
+          items: 
+          - name: "DeviceExists property"
+            href: imsrdpcameraredirconfig-deviceexists.md
+          - name: "FriendlyName property"
+            href: imsrdpcameraredirconfig-friendlyname.md
+          - name: "InstanceId property"
+            href: imsrdpcameraredirconfig-instanceid.md
+          - name: "ParentInstanceId property"
+            href: imsrdpcameraredirconfig-parentinstanceid.md
+          - name: "Redirected property"
+            href: imsrdpcameraredirconfig-redirected.md
+          - name: "SymbolicLink property"
+            href: imsrdpcameraredirconfig-symboliclink.md
+        - name: "IMsRdpCameraRedirConfigCollection"
+          href: imsrdpcameraredirconfigcollection.md
+          items: 
+          - name: "IMsRdpCameraRedirConfigCollection Methods"
+            items: 
+            - name: "AddConfig method"
+              href: imsrdpcameraredirconfigcollection-addconfig.md
+            - name: "Rescan method"
+              href: imsrdpcameraredirconfigcollection-rescan.md
+          - name: "IMsRdpCameraRedirConfigCollection Properties"
+            items:
+            - name: "ByIndex property"
+              href: imsrdpcameraredirconfigcollection-byindex.md
+            - name: "ByInstanceId property"
+              href: imsrdpcameraredirconfigcollection-byinstanceid.md
+            - name: "BySymbolicLink property"
+              href: imsrdpcameraredirconfigcollection-bysymboliclink.md
+            - name: "Count property"
+              href: imsrdpcameraredirconfigcollection-count.md
+            - name: "EncodeVideo property"
+              href: imsrdpcameraredirconfigcollection-encodevideo.md
+            - name: "EncodingQuality property"
+              href: imsrdpcameraredirconfigcollection-encodingquality.md
+            - name: "RedirectByDefault property"
+              href: imsrdpcameraredirconfigcollection-redirectbydefault.md
         - name: "IMsRdpClient"
           href: imsrdpclient-interface.md
           items: 
@@ -468,6 +508,28 @@
               href: imsrdpclientnonscriptable5-usemultimon.md
             - name: "WarnAboutDirectXRedirection property"
               href: imsrdpclientnonscriptable5-warnaboutdirectxredirection.md
+        - name: "IMsRdpClientNonScriptable6"
+          href: imsrdpclientnonscriptable6.md
+          items: 
+          - name: "IMsRdpClientNonScriptable6 Methods"
+            items: 
+            - name: "SendLocation2D method"
+              href: imsrdpclientnonscriptable6-sendlocation2d.md
+            - name: "SendLocation3D method"
+              href: imsrdpclientnonscriptable6-sendlocation3d.md
+        - name: "IMsRdpClientNonScriptable7"
+          href: imsrdpclientnonscriptable7.md
+          items: 
+          - name: "IMsRdpClientNonScriptable7 Methods"
+            items: 
+            - name: "DisableDpiCursorScalingForProcess method"
+              href: imsrdpclientnonscriptable7-disabledpicursorscalingforprocess.md
+          - name: "IMsRdpClientNonScriptable7 Properties"
+            items: 
+            - name: "CameraRedirConfigCollection property"
+              href: imsrdpclientnonscriptable7-cameraredirconfigcollection.md
+            - name: "Clipboard property"
+              href: imsrdpclientnonscriptable7-clipboard.md
         - name: "IMsRdpClientSecuredSettings"
           href: imsrdpclientsecuredsettings-interface.md
           items: 
@@ -574,6 +636,17 @@
           items: 
           - name: "GatewayBrokeringType property"
             href: imsrdpclienttransportsettings4-gatewaybrokeringtype.md
+        - name: "IMsRdpClipboard"
+          href: imsrdpclipboard.md
+          items: 
+          - name: "CanSyncLocalClipboardToRemoteSession method"
+            href: imsrdpclipboard-cansynclocalclipboardtoremotesession.md
+          - name: "CanSyncRemoteClipboardToLocalSession method"
+            href: imsrdpclipboard-cansyncremoteclipboardtolocalsession.md
+          - name: "SyncLocalClipboardToRemoteSession method"
+            href: imsrdpclipboard-synclocalclipboardtoremotesession.md
+          - name: "SyncRemoteClipboardToLocalSession method"
+            href: imsrdpclipboard-syncremoteclipboardtolocalsession.md
         - name: "IMsRdpDevice"
           href: imsrdpdevice.md
           items: 
