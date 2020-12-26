@@ -12,7 +12,7 @@ XAudio2 is initialized for audio playback by creating an instance of the XAudio2
 
 **To initialize XAudio2**
 
-1.  Make sure you have initialized COM. For a Windows Store app, this is done as part of initialzing the Windows Runtime. Otherwise, use [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex).
+1.  Make sure you have initialized COM. For a Windows Store app, this is done as part of initializing the Windows Runtime. Otherwise, use [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex).
 
     ```
     HRESULT hr;
