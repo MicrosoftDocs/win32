@@ -28,7 +28,7 @@ Reads texel data without any filtering or sampling.
 </tbody>
 </table>
 
-typeX denotes that there are four possible types: int, int2, int3 or int4.
+typeX denotes that there are four possible types: **int**, **int2**, **int3** or **int4**.
 
  
 
