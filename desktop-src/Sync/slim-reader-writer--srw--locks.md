@@ -16,7 +16,7 @@ SRW locks provide two modes in which threads can access a shared resource:
 
 -   **Shared mode**, which grants shared read-only access to multiple reader threads, which enables them to read data from the shared resource concurrently. If read operations exceed write operations, this concurrency increases performance and throughput compared to critical sections.
     > [!NOTE]
-    > Shared mode SRW locks should not be acquired recursively as this can lead to deadlock for attempts to use it in exclusive mode.
+    > Shared mode SRW locks should not be acquired recursively as this can lead to deadlocks when combined with exclusive acquisition.
 
 -   **Exclusive mode**, which grants read/write access to one writer thread at a time. When the lock has been acquired in exclusive mode, no other thread can access the shared resource until the writer releases the lock.
     > [!NOTE]
