@@ -1,13 +1,13 @@
 ---
 title: IUpdateOrchestratorUpdate::get_Description method
-description: Gets the update description to display.
+description: Gets the update’s description for telemetry and diagnostic purposes.
 ms.date: 12/01/2020
 ms.topic: method
 ---
 
 # IUpdateOrchestratorUpdate::get_Description method
 
-Gets the update description to display.
+Gets the update’s description for telemetry and diagnostic purposes.
 
 ## Syntax
 ```cpp
@@ -21,6 +21,10 @@ HRESULT IUpdateOrchestratorUpdate::get_Description(
 
 ## Returns
 If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
+
+## Remarks
+
+This is only going to be used for telemetry.
 
 ## See Also
 

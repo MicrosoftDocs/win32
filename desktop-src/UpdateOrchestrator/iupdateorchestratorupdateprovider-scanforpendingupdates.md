@@ -35,6 +35,6 @@ The provider should return the collection of updates that it still needs to comp
 
 [IUpdateOrchestratorUpdateProvider::Deserialize](iupdateorchestratorupdateprovider-deserialize.md)
 
-[IUpdateOrchestratorUpdateProvider::get_ScanAttempFrequencyInMinutes](iupdateorchestratorupdateprovider-scanattemptfrequencyinminutes.md)
+[IUpdateOrchestratorUpdateProvider::get_ScanAttemptFrequencyInMinutes](iupdateorchestratorupdateprovider-scanattemptfrequencyinminutes.md)
 
 [IUpdateOrchestratorUpdateProvider::get_ScanSlaInMinutes](iupdateorchestratorupdateprovider-scanslainminutes.md)

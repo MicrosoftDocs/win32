@@ -73,7 +73,7 @@
         href: iupdateorchestratorupdateprovider-cancelscan.md
       - name: "::Deserialize"
         href: iupdateorchestratorupdateprovider-deserialize.md
-      - name: "::get_ScanAttempFrequencyInMinutes"
+      - name: "::get_ScanAttemptFrequencyInMinutes"
         href: iupdateorchestratorupdateprovider-scanattemptfrequencyinminutes.md
       - name: "::ScanForPendingUpdates"
         href: iupdateorchestratorupdateprovider-scanforpendingupdates.md

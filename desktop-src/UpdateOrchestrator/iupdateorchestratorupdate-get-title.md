@@ -1,13 +1,13 @@
 ---
 title: IUpdateOrchestratorUpdate::get_Title method
-description: Gets the update title to display.
+description: Gets the update's title for telemetry and diagnostic purposes.
 ms.date: 12/01/2020
 ms.topic: method
 ---
 
 # IUpdateOrchestratorUpdate::get_Title method
 
-Gets the update title to display.
+Gets the update's title for telemetry and diagnostic purposes.
 
 ## Syntax
 ```cpp
@@ -25,7 +25,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 ## Remarks
 
- This is only going to be used for telemetry.
+This is only going to be used for telemetry.
 
 ## See Also
 

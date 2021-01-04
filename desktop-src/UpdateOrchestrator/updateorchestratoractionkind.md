@@ -1,6 +1,6 @@
 ---
 title: UPDATE_ORCHESTRATOR_ACTION_KIND Enumeration
-description: Displays the status of an update in the Windows Update settings page.
+description: Enumeration that indicates the action to be performed in the scheduled update.
 ms.topic: enum
 ms.date: 12/01/2020
 ---
@@ -9,7 +9,7 @@ ms.date: 12/01/2020
 
 
 ## -description
-Displays the status of an update in the Windows Update settings page.
+Enumeration that indicates the action to be performed in the scheduled update.
         
 ## Syntax
 
@@ -42,3 +42,7 @@ typedef enum tagUPDATE_ORCHESTRATOR_ACTION_KIND
 
 
 ### UPDATE_ORCHESTRATOR_ACTION_KIND_COMPLETE
+
+## Remarks
+
+This is only going to be used for telemetry.

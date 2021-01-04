@@ -15,7 +15,7 @@ This interface is implemented by the caller and is created using the CLSID provi
 |---|---|
 |[::CancelScan](iupdateorchestratorupdateprovider-cancelscan.md) | Cancel a scan that is in progress.  |
 |[::Deserialize](iupdateorchestratorupdateprovider-deserialize.md) | Deserialize the bytes into an update.  |
-|[::get_ScanAttempFrequencyInMinutes](iupdateorchestratorupdateprovider-scanattemptfrequencyinminutes.md) | Get the scan attempt frequency.  |
+|[::get_ScanAttemptFrequencyInMinutes](iupdateorchestratorupdateprovider-scanattemptfrequencyinminutes.md) | Get the scan attempt frequency.  |
 |[::ScanForPendingUpdates](iupdateorchestratorupdateprovider-scanforpendingupdates.md) | Scan for pending updates.  ||[::get_ScanSlaInMinutes](iupdateorchestratorupdateprovider-scanslainminutes.md) | Gets the Default Scan Sla.  |
 
 

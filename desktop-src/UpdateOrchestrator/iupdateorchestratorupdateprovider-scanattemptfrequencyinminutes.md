@@ -1,17 +1,17 @@
 ---
-title: IUpdateOrchestratorUpdateProvider::get_ScanAttempFrequencyInMinutes method
+title: IUpdateOrchestratorUpdateProvider::get_ScanAttemptFrequencyInMinutes method
 description: Get the scan attempt frequency.
 ms.date: 12/01/2020
 ms.topic: method
 ---
 
-# IUpdateOrchestratorUpdateProvider::get_ScanAttempFrequencyInMinutes method
+# IUpdateOrchestratorUpdateProvider::get_ScanAttemptFrequencyInMinutes method
 
-Get the scan attempt frequency.
+Gets the scan attempt frequency.
 
 ## Syntax
 ```cpp
-HRESULT IUpdateOrchestratorUpdateProvider::get_ScanAttempFrequencyInMinutes(
+HRESULT IUpdateOrchestratorUpdateProvider::get_ScanAttemptFrequencyInMinutes(
     [out, retval] DWORD* frequencyInMinutes);
 ```
 ## Parameters
