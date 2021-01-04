@@ -1,5 +1,5 @@
 ---
-Description: Slim reader/writer (SRW) locks enable the threads of a single process to access shared resources; they are optimized for speed and occupy very little memory.
+description: Slim reader/writer (SRW) locks enable the threads of a single process to access shared resources; they are optimized for speed and occupy very little memory.
 ms.assetid: 2d439b21-291f-4ff0-910a-c1c27e800019
 title: Slim Reader/Writer (SRW) Locks
 ms.topic: article
@@ -28,7 +28,7 @@ An SRW lock is the size of a pointer. The advantage is that it is fast to update
 
 The caller must allocate an SRWLOCK structure and initialize it by either calling [**InitializeSRWLock**](/windows/win32/api/synchapi/nf-synchapi-initializesrwlock) (to initialize the structure dynamically) or assign the constant **SRWLOCK\_INIT** to the structure variable (to initialize the structure statically).
 
-[Application Verifier](https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/application-verifier) can be used to find recusrive (reentrant) use of SRW locks.
+You can use [Application Verifier](/windows-hardware/drivers/devtest/application-verifier) to find recusrive (reentrant) use of SRW locks.
 
 The following are the SRW lock functions.
 
