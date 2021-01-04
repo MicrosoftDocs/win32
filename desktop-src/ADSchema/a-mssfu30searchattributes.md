@@ -22,7 +22,7 @@ Contains the names of the attributes the NIS server needs while searching a map.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | msSFU-30-Search-Attributes                  |
 | Ldap-Display-Name | msSFU30SearchAttributes                     |
@@ -46,7 +46,7 @@ Contains the names of the attributes the NIS server needs while searching a map.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -67,7 +67,7 @@ Contains the names of the attributes the NIS server needs while searching a map.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -88,7 +88,7 @@ Contains the names of the attributes the NIS server needs while searching a map.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -109,7 +109,7 @@ Contains the names of the attributes the NIS server needs while searching a map.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |

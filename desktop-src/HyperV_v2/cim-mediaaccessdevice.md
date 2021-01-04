@@ -38,7 +38,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_MediaAccessDevice class
+# CIM_MediaAccessDevice class (Hyper-V management)
 
 Represents a device that can use media to store and retrieve data.
 
@@ -604,7 +604,7 @@ The time it takes, in milliseconds, for the device to transition from reading or
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

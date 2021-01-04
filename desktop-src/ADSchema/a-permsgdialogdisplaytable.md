@@ -22,7 +22,7 @@ The Per Message options MAPI display table.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Per-Msg-Dialog-Display-Table                          |
 | Ldap-Display-Name | perMsgDialogDisplayTable                              |
@@ -48,7 +48,7 @@ The Per Message options MAPI display table.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8108                                                   |
@@ -69,7 +69,7 @@ The Per Message options MAPI display table.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8108                                                   |
@@ -90,7 +90,7 @@ The Per Message options MAPI display table.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8108                                                   |
@@ -111,7 +111,7 @@ The Per Message options MAPI display table.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8108                                                   |
@@ -132,7 +132,7 @@ The Per Message options MAPI display table.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8108                                                   |
@@ -153,7 +153,7 @@ The Per Message options MAPI display table.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8108                                                   |

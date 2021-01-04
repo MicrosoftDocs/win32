@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXSHMultiply2 function
+# D3DXSHMultiply2 function (D3DX10Math.h)
 
 Computes the product of two spherical harmonics functions (*f* and *g*). Both functions are of order N = 2.
 

@@ -84,7 +84,7 @@ The **Win32\_DriverForDevice** class is derived from [**CIM\_Dependency**](cim-d
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

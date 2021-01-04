@@ -86,7 +86,7 @@ The data parameter must be allocated by the callee (component implementor) using
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

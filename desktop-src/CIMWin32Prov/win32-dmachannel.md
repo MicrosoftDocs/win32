@@ -800,7 +800,7 @@ The **Win32\_DMAChannel** class is derived from [**CIM\_DMA**](cim-dma.md).
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

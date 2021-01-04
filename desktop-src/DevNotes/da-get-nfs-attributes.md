@@ -336,7 +336,7 @@ Specifies whether the connection on which the handle to the NFS share was create
 
 
 
-|                                     |                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------|
 | Minimum supported client<br/> | None supported<br/>         |
 | Minimum supported server<br/> | Windows Server 2008<br/>    |

@@ -19,7 +19,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_DeviceConnection class
+# CIM_DeviceConnection class (Hyper-V management)
 
 A relationship that indicates that two or more devices are connected together.
 
@@ -116,7 +116,7 @@ When several bus and connection speeds are possible, this property defines the s
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

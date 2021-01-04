@@ -315,7 +315,7 @@ smi2smir /m 3 /v1 /gc /pra.mib > pra.mof
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

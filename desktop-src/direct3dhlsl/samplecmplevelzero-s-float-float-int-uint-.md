@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# SampleCmpLevelZero(S,float,float,int,uint) function
+# SampleCmpLevelZero::SampleCmpLevelZero(S,float,float,int,uint) function
 
 Samples a [**Texture2D**](sm5-object-texture2d.md) on mipmap level 0 only and compares the result to a comparison value. Returns status about the operation.
 

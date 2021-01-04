@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Event Identifiers
+# Event Identifiers (Event Logging)
 
 Event identifiers uniquely identify a particular event. Each [event source](event-sources.md) can define its own numbered events and the description strings to which they are mapped in its message file. Event viewers can present these strings to the user. They should help the user understand what went wrong and suggest what actions to take. Direct the description at users solving their own problems, not at administrators or support technicians. For more information, see [Error Message Guidelines](/windows/desktop/Debug/error-message-guidelines).
 

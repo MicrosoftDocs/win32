@@ -67,7 +67,7 @@ This structure, including the buffer containing the session key, must be encrypt
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                      |

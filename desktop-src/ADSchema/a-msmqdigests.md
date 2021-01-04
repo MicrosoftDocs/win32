@@ -22,7 +22,7 @@ An array of digests of the corresponding certificates in attribute mSMQ-Sign-Cer
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | MSMQ-Digests                                          |
 | Ldap-Display-Name | mSMQDigests                                           |
@@ -48,7 +48,7 @@ An array of digests of the corresponding certificates in attribute mSMQ-Sign-Cer
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
@@ -69,7 +69,7 @@ An array of digests of the corresponding certificates in attribute mSMQ-Sign-Cer
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
@@ -90,7 +90,7 @@ An array of digests of the corresponding certificates in attribute mSMQ-Sign-Cer
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
@@ -111,7 +111,7 @@ An array of digests of the corresponding certificates in attribute mSMQ-Sign-Cer
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
@@ -132,7 +132,7 @@ An array of digests of the corresponding certificates in attribute mSMQ-Sign-Cer
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
@@ -153,7 +153,7 @@ An array of digests of the corresponding certificates in attribute mSMQ-Sign-Cer
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |

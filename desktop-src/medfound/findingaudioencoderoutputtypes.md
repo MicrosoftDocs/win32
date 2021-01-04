@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Finding Audio Encoder Output Types
+# Finding Audio Encoder Output Types (Microsoft Media Foundation)
 
 Because you must use an audio encoder output format that is enumerated by the audio encoder, you need to have a way of finding the format that is most suited to your needs. The number of channels, bits per sample, and sample rate of the output that you choose must match the values for the content that you compress. However, the encoder may support several types within these constraints.
 

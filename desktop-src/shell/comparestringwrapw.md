@@ -199,7 +199,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 If the function succeeds, the return value is one of the following values. 
 
-|                     |                                                                                                                                      |
+| Requirement | Value |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | CSTR\_LESS\_THAN    | The string pointed to by the *lpString1* parameter is less in lexical value than the string pointed to by the *lpString2* parameter. |
 | CSTR\_EQUAL         | The string pointed to by *lpString1* is equal in lexical value to the string pointed to by *lpString2*.                              |
@@ -221,7 +221,7 @@ The preferred method is to use [**CompareStringW**](/windows/win32/api/stringapi
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

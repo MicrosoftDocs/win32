@@ -74,7 +74,7 @@ If this entry point succeeds, it returns **S\_OK**. Otherwise, it returns an **H
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

@@ -21,7 +21,7 @@ A case-sensitive string that contains characters from the printable character se
 
 
 
-|              |                                                                        |
+| Entry | Value |
 |--------------|------------------------------------------------------------------------|
 | Name         | String(Printable)                                                      |
 | Syntax ID    | 2.5.5.5                                                                |

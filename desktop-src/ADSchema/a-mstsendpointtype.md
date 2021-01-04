@@ -22,7 +22,7 @@ This attribute defines whether the computer is a physical computer or a virtual 
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-TS-Endpoint-Type                  |
 | Ldap-Display-Name | msTSEndpointType                     |
@@ -44,7 +44,7 @@ This attribute defines whether the computer is a physical computer or a virtual 
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -65,7 +65,7 @@ This attribute defines whether the computer is a physical computer or a virtual 
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |

@@ -26,7 +26,7 @@ The levels of hardware from Tier 1 to Tier 3 have increasing resources available
 | Maximum number of Constant Buffer Views in all descriptor tables per shader stage                                                                | 14                                                                       | 14            | **full heap** |
 | Maximum number of Shader Resource Views in all descriptor tables per shader stage                                                                | 128                                                                      | **full heap** | full heap     |
 | Maximum number of Unordered Access Views in all descriptor tables across all stages                                                              | 64 for feature levels 11.1+<br/> 8 for feature level 11<br/> | 64            | **full heap** |
-| Maximum number of Samplers in all descriptor tables per shader stage                                                                             | 16                                                                       | **full heap** | full heap     |
+| Maximum number of Samplers in all descriptor tables per shader stage                                                                             | 16                                                                       | **2048** | 2048     |
 
 
 

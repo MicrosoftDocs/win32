@@ -15,7 +15,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Using Two-Pass Encoding
+# Using Two-Pass Encoding (Windows Media Format 11 SDK)
 
 Some codecs support two-pass encoding for certain formats. In some cases, a codec requires that a specified format be encoded using two passes. When two-pass encoding is used, you send the samples for the stream to the codec before the encoding pass. The codec analyzes the samples and configures the encoding pass based on the analysis. This results in a more efficiently encoded file.
 

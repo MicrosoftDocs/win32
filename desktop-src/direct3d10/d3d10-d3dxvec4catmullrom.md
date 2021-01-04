@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVec4CatmullRom function
+# D3DXVec4CatmullRom function (D3DX10Math.h)
 
 Performs a Catmull-Rom interpolation, using the specified 4D vectors.
 

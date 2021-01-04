@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Property Identifiers
+# Property Identifiers (Windows Controls)
 
 This topic contains information about defined values that are used to retrieve properties of visual styles. The definitions are found in Vssym32.h.
 

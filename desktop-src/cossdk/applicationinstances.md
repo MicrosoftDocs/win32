@@ -52,7 +52,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                     |
+| Entry | Value |
 |----------------|-------------------------------------|
 | Description    | The ID for the running application. |
 | Access         | ReadOnly                            |
@@ -68,7 +68,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                               |
+| Entry | Value |
 |----------------|---------------------------------------------------------------|
 | Description    | Indicates whether the application instance has been recycled. |
 | Access         | ReadOnly                                                      |
@@ -84,7 +84,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                     |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The globally unique identifier for the application instance. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) or [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                                                                                            |
@@ -100,7 +100,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                 |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------|
 | Description    | Indicates whether the application instance is currently paused. |
 | Access         | ReadOnly                                                        |
@@ -116,7 +116,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                 |
+| Entry | Value |
 |----------------|-------------------------------------------------|
 | Description    | The partition ID that the application is using. |
 | Access         | ReadOnly                                        |
@@ -132,7 +132,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                             |
+| Entry | Value |
 |----------------|---------------------------------------------|
 | Description    | The process ID of the application instance. |
 | Access         | ReadOnly                                    |

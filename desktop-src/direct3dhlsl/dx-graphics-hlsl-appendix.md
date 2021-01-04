@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# Appendix
+# Appendix (HLSL)
 
 The HLSL appendix lists additional information such as the words that are recognized as keywords by the language, and the grammar used for creating HLSL statements. It is published here for completeness.
 

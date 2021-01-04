@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Constants
+# Constants (Manipulations.h)
 
 Describes the constants that relate to the [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) interface.
 
@@ -65,7 +65,7 @@ Indicates the value for manipulations where the return value is not a number.
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                   |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                      |

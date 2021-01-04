@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Getting Started
+# Getting Started (Tablet PC)
 
 The Tablet PC is a fully functional personal computer powered by Microsoft Windows and designed for ink-enabled, pen-enabled, and speech-enabled applications. The combination of software and hardware in a Tablet PC enables these methods of user interaction creating a rich, interactive, and productive computing experience for users.
 

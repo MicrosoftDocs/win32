@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Constants
+# Constants (Active Accessibility User Interface Services)
 
 This section contains information about the constants used with Microsoft Active Accessibility.
 

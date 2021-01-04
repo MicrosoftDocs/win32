@@ -87,7 +87,7 @@ The **Win32\_WMIElementSetting** class is derived from [**CIM\_ElementSetting**]
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

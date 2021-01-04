@@ -22,7 +22,7 @@ Service Accounts configured to run on this computer.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Host-Service-Account              |
 | Ldap-Display-Name | msDS-HostServiceAccount                 |
@@ -44,7 +44,7 @@ Service Accounts configured to run on this computer.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | 2166                                      |
 | MAPI-Id                | \-                                        |
@@ -65,7 +65,7 @@ Service Accounts configured to run on this computer.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | 2166                                      |
 | MAPI-Id                | \-                                        |

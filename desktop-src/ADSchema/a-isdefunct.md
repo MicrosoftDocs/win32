@@ -22,7 +22,7 @@ If **TRUE**, the class or attribute is no longer usable. Old versions of this ob
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Is-Defunct                           |
 | Ldap-Display-Name | isDefunct                            |
@@ -49,7 +49,7 @@ If **TRUE**, the class or attribute is no longer usable. Old versions of this ob
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | \-                                                                                                        |
@@ -70,7 +70,7 @@ If **TRUE**, the class or attribute is no longer usable. Old versions of this ob
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | \-                                                                                                        |
@@ -91,7 +91,7 @@ If **TRUE**, the class or attribute is no longer usable. Old versions of this ob
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | \-                                                                                                        |
@@ -112,7 +112,7 @@ If **TRUE**, the class or attribute is no longer usable. Old versions of this ob
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | \-                                                                                                        |
@@ -133,7 +133,7 @@ If **TRUE**, the class or attribute is no longer usable. Old versions of this ob
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | \-                                                                                                        |
@@ -154,7 +154,7 @@ If **TRUE**, the class or attribute is no longer usable. Old versions of this ob
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | \-                                                                                                        |
@@ -175,7 +175,7 @@ If **TRUE**, the class or attribute is no longer usable. Old versions of this ob
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | \-                                                                                                        |

@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_SystemDevice class
+# CIM_SystemDevice class (Hyper-V management)
 
 Associates a system with a logical device that is a component of the system.
 
@@ -80,7 +80,7 @@ A [**CIM\_LogicalDevice**](cim-logicaldevice.md) reference to the logical device
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

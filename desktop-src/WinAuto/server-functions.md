@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Server Functions
+# Server Functions (Windows Accessibility features)
 
 This section contains information about the server functions used with Microsoft Active Accessibility.
 

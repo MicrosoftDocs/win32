@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXVec2TransformArray function
+# D3DXVec2TransformArray function (D3DX10Math.h)
 
 Transforms an array (x, y, 0, 1) by a given matrix.
 

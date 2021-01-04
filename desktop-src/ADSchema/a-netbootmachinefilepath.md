@@ -22,7 +22,7 @@ This attribute specifies the server that answers the client. Beginning with the 
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Netboot-Machine-File-Path                   |
 | Ldap-Display-Name | netbootMachineFilePath                      |
@@ -48,7 +48,7 @@ This attribute specifies the server that answers the client. Beginning with the 
 
 
 
-|                        |                                                                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                   |
 | MAPI-Id                | \-                                                                                                   |
@@ -69,7 +69,7 @@ This attribute specifies the server that answers the client. Beginning with the 
 
 
 
-|                        |                                                                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                   |
 | MAPI-Id                | \-                                                                                                   |
@@ -90,7 +90,7 @@ This attribute specifies the server that answers the client. Beginning with the 
 
 
 
-|                        |                                                                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                   |
 | MAPI-Id                | \-                                                                                                   |
@@ -111,7 +111,7 @@ This attribute specifies the server that answers the client. Beginning with the 
 
 
 
-|                        |                                                                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                   |
 | MAPI-Id                | \-                                                                                                   |
@@ -132,7 +132,7 @@ This attribute specifies the server that answers the client. Beginning with the 
 
 
 
-|                        |                                                                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                   |
 | MAPI-Id                | \-                                                                                                   |
@@ -153,7 +153,7 @@ This attribute specifies the server that answers the client. Beginning with the 
 
 
 
-|                        |                                                                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                   |
 | MAPI-Id                | \-                                                                                                   |

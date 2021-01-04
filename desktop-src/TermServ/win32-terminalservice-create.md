@@ -19,7 +19,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Create method of the Win32\_Service class
+# Create method of the Win32_Service class (Remote Desktop Services)
 
 The **Create** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method creates a new system service.
 
@@ -450,7 +450,7 @@ The *LoadOrderGroup* parameter represents a grouping of system services defining
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

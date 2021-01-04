@@ -26,7 +26,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_ComputerSystem class
+# CIM_ComputerSystem class (CIMWin32 WMI Providers)
 
 A **CIM\_ComputerSystem** class represents a special collection of [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md) instances. This collection provides computer capabilities and serves as an aggregation point to associate one or more of the following elements: file system, operating system, processor and memory (volatile and non-volatile storage). This class is derived from [**CIM\_System**](cim-system.md).
 
@@ -444,7 +444,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

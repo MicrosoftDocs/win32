@@ -22,7 +22,7 @@ Backlink for ms-Authz-Member-Rules-In-Central-Access-Policy. For a central acces
 
 
 
-|                   |                                                   |
+| Entry | Value |
 |-------------------|---------------------------------------------------|
 | CN                | ms-Authz-Member-Rules-In-Central-Access-Policy-BL |
 | Ldap-Display-Name | msAuthz-MemberRulesInCentralAccessPolicyBL        |
@@ -43,7 +43,7 @@ Backlink for ms-Authz-Member-Rules-In-Central-Access-Policy. For a central acces
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | 2185         |
 | MAPI-Id                | \-           |

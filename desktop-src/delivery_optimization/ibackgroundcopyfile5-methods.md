@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# IBackgroundCopyFile5 Methods
+# IBackgroundCopyFile5 Methods (DO)
 
 The [**IBackgroundCopyFile5**](ibackgroundcopyfile5.md) interface exposes the following methods.
 

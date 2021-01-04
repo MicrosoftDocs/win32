@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CMediaPosition.CMediaPosition constructor
+# CMediaPosition.CMediaPosition constructor (Ctlutil.h)
 
 Constructor method.
 

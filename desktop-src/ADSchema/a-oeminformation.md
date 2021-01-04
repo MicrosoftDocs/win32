@@ -22,7 +22,7 @@ For holding OEM information. No longer used. Here for backward compatibility.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | OEM-Information                             |
 | Ldap-Display-Name | oEMInformation                              |
@@ -48,7 +48,7 @@ For holding OEM information. No longer used. Here for backward compatibility.
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -69,7 +69,7 @@ For holding OEM information. No longer used. Here for backward compatibility.
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -90,7 +90,7 @@ For holding OEM information. No longer used. Here for backward compatibility.
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -111,7 +111,7 @@ For holding OEM information. No longer used. Here for backward compatibility.
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -132,7 +132,7 @@ For holding OEM information. No longer used. Here for backward compatibility.
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -153,7 +153,7 @@ For holding OEM information. No longer used. Here for backward compatibility.
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |

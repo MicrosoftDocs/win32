@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Preprocessor Directives
+# Preprocessor Directives (Menus and Other Resources)
 
 You can use the directives described in the following table as needed in your resource script. They instruct RC to perform actions or to assign values to names.
 

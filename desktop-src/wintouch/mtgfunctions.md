@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Functions
+# Functions (Windows Touch Gestures)
 
 This section contains functions for Windows Touch gestures.
 

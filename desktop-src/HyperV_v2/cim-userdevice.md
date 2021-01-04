@@ -16,7 +16,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_UserDevice class
+# CIM_UserDevice class (Hyper-V management)
 
 Represents a logical device that allows a user to input, view or hear data on the computer system.
 
@@ -59,7 +59,7 @@ Access type: Read-only
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

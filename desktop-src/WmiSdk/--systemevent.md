@@ -87,7 +87,7 @@ The **\_\_SystemEvent** class is derived from the [**\_\_ExtrinsicEvent**](--ext
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

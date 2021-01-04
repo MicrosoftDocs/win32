@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Network Terminology
+# Network Terminology (Windows Sockets 2)
 
 Metrics are used to measure aspects of network and protocol performance. The values for such metrics in various scenarios indicate the level of performance of a network application. This section defines terms and metrics used industry-wide for measuring network application performance. These terms are used throughout the rest of this guide.
 

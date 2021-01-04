@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Network Terminology
+# Network Terminology (WinHTTP)
 
 When developing an application that uses Microsoft Windows HTTP Services (WinHTTP), it is important to understand the following concepts and terminology that relate to networking in general and the HTTP protocol in particular.
 

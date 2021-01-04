@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# ChangeStartMode method of the Win32\_Service class
+# ChangeStartMode method of the Win32_Service class (CIMWin32 WMI Providers)
 
 The **ChangeStartMode** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method modifies the start mode of a [**Win32\_Service**](win32-service.md).
 
@@ -358,7 +358,7 @@ ELSE
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

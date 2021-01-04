@@ -21,7 +21,7 @@ Returns one of the output identifiers that is associated with a specified crypto
 
 
 
-|             |                                                                                                        |
+| Requirement | Value |
 |-------------|--------------------------------------------------------------------------------------------------------|
 | Query GUID  | **D3DAUTHENTICATEDQUERY\_OUTPUTID**                                                                    |
 | Input data  | [**D3DAUTHENTICATEDCHANNEL\_QUERYOUTPUTID\_INPUT**](d3dauthenticatedchannel-queryoutputid-input.md)   |
@@ -42,7 +42,7 @@ The following channel types support this query:
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

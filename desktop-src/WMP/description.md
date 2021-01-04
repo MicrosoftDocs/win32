@@ -12,7 +12,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Description
+# Description (Windows Media Player SDK)
 
 When you create a skin for Windows Media Player 9 Series for Windows Mobile 2003 or later, you must include a Description section. The Description section enables you to specify the width and height of the display, the display resolution, and the display orientation for which the skin was designed. The Description section must appear in the skin definition file before any other section, and just after the initial version declaration.
 

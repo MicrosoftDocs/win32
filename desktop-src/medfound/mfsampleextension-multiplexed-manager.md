@@ -22,7 +22,7 @@ Pass this value into [**IMFAttributes::GetUnknown**](/windows/desktop/api/mfobje
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                          |

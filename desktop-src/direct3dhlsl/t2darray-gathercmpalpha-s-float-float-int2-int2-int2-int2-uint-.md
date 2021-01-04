@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherCmpAlpha(S,float,float,int2,int2,int2,int2,uint) function
+# Texture2DArray::GatherCmpAlpha(S,float,float,int2,int2,int2,int2,uint) function
 
 Samples a texture, tests the samples against a compare value, and returns the alpha component along with status about the operation.
 

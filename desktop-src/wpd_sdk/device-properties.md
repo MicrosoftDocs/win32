@@ -15,7 +15,7 @@ api_location:
 - PortableDevice.h
 ---
 
-# Device Properties
+# Device Properties (PortableDevice.h)
 
 Windows Portable Devices supports the following device properties.
 

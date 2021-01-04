@@ -216,7 +216,7 @@ The **MSMCAEvent\_InvalidError** class is derived from [**WMIEvent**](wmievent.m
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                         |

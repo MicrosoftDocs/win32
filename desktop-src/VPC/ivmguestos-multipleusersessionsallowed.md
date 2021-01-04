@@ -67,7 +67,7 @@ For Windows client operating systems, **MultipleUserSessionsAllowed** is **VARIA
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | None supported<br/>                                                                 |

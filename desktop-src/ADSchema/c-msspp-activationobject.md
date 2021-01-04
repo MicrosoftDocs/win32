@@ -22,7 +22,7 @@ Activation Object used in Active Directory based activation
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-SPP-Activation-Object             |
 | Ldap-Display-Name | msSPP-ActivationObject               |
@@ -42,7 +42,7 @@ Activation Object used in Active Directory based activation
 
 
 
-|                             |                                                                                   |
+| Entry | Value |
 |-----------------------------|-----------------------------------------------------------------------------------|
 | System-Only                 | False                                                                             |
 | Object-Category             | 1                                                                                 |

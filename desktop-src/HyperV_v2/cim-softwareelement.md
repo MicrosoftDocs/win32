@@ -27,7 +27,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_SoftwareElement class
+# CIM_SoftwareElement class (Hyper-V management)
 
 Represents an individually manageable or deployable part of a **CIM\_SoftwareFeature**.
 
@@ -1077,7 +1077,7 @@ The software version in the format *<Major>*.*<Minor>*.*<Revision>* or *<Major>*
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

@@ -21,7 +21,7 @@ The associatedName attribute type specifies an entry in the organizational DIT t
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | associatedName                          |
 | Ldap-Display-Name | associatedName                          |
@@ -46,7 +46,7 @@ The associatedName attribute type specifies an entry in the organizational DIT t
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -67,7 +67,7 @@ The associatedName attribute type specifies an entry in the organizational DIT t
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -88,7 +88,7 @@ The associatedName attribute type specifies an entry in the organizational DIT t
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -109,7 +109,7 @@ The associatedName attribute type specifies an entry in the organizational DIT t
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -130,7 +130,7 @@ The associatedName attribute type specifies an entry in the organizational DIT t
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

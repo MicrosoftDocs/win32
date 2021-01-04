@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_HostedAccessPoint class
+# CIM_HostedAccessPoint class (Hyper-V management)
 
 Represents an association between a service access point (SAP) and the system that hosts it. A system can host multiple access points. If the implementation of the SAP is modeled, it must be implemented by a device or software feature that is part of the system that hosts the SAP.
 
@@ -80,7 +80,7 @@ The SAPs that are hosted on the system.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

@@ -22,7 +22,7 @@ Contains the GUID associated with a BitLocker-supported disk volume.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-FVE-VolumeGuid                                     |
 | Ldap-Display-Name | msFVE-VolumeGuid                                      |
@@ -45,7 +45,7 @@ Contains the GUID associated with a BitLocker-supported disk volume.
 
 
 
-|                        |                                                                              |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
@@ -66,7 +66,7 @@ Contains the GUID associated with a BitLocker-supported disk volume.
 
 
 
-|                        |                                                                              |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
@@ -87,7 +87,7 @@ Contains the GUID associated with a BitLocker-supported disk volume.
 
 
 
-|                        |                                                                              |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |

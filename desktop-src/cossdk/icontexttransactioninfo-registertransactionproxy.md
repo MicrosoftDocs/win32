@@ -72,7 +72,7 @@ The **RegisterTransactionProxy** method can only be called if the current contex
 
 
 
-|                                     |                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/> |

@@ -37,7 +37,7 @@ This attribute can be zero or a combination of one or more of the following valu
 
 
 
-|                   |                                                |
+| Entry | Value |
 |-------------------|------------------------------------------------|
 | CN                | Instance-Type                                  |
 | Ldap-Display-Name | instanceType                                   |
@@ -64,7 +64,7 @@ This attribute can be zero or a combination of one or more of the following valu
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80BD                          |
@@ -85,7 +85,7 @@ This attribute can be zero or a combination of one or more of the following valu
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80BD                          |
@@ -106,7 +106,7 @@ This attribute can be zero or a combination of one or more of the following valu
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80BD                          |
@@ -127,7 +127,7 @@ This attribute can be zero or a combination of one or more of the following valu
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80BD                          |
@@ -148,7 +148,7 @@ This attribute can be zero or a combination of one or more of the following valu
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80BD                          |
@@ -169,7 +169,7 @@ This attribute can be zero or a combination of one or more of the following valu
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80BD                          |
@@ -190,7 +190,7 @@ This attribute can be zero or a combination of one or more of the following valu
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80BD                          |

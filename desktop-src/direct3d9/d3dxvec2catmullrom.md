@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXVec2CatmullRom function
+# D3DXVec2CatmullRom function (D3dx9math.h)
 
 Performs a Catmull-Rom interpolation, using the specified 2D vectors.
 

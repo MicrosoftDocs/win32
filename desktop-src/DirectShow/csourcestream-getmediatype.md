@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CSourceStream.GetMediaType method
+# CSourceStream.GetMediaType method (Source.h)
 
 The **GetMediaType** method retrieves a preferred media type.
 

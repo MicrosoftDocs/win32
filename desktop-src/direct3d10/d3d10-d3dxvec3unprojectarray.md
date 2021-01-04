@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVec3UnprojectArray function
+# D3DXVec3UnprojectArray function (D3DX10Math.h)
 
 Projects an array (x, y, z, 0) from screen space into object space.
 

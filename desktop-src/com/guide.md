@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Guide
+# Guide (COM)
 
 This guide introduces the Microsoft Component Object Model (COM).
 

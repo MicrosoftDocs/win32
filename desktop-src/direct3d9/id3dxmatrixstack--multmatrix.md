@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# ID3DXMATRIXStack::MultMatrix method
+# ID3DXMATRIXStack::MultMatrix method (D3dx9math.h)
 
 Determines the product of the current matrix and the given matrix.
 

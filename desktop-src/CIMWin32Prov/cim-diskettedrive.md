@@ -45,7 +45,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_DisketteDrive class
+# CIM_DisketteDrive class (CIMWin32 WMI Providers)
 
 The **CIM\_DisketteDrive** class represents the capabilities and management of a diskette drive.
 
@@ -1552,7 +1552,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

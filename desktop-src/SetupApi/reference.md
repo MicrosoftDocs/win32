@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Reference
+# Reference (Setup API)
 
 The following sections describe in detail the data types, structures, functions, and notifications of the Setup API.
 

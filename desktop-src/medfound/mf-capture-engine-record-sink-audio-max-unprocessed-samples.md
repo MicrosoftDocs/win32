@@ -26,7 +26,7 @@ Once the record has buffered the maximum number of unprocessed samples, specifie
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                   |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                         |

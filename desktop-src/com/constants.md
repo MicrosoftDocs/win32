@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Constants
+# Constants (COM)
 
 The following constants are provided by COM:
 

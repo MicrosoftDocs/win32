@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Clipping
+# Clipping (OpenGL)
 
 Clipping occurs in two steps:
 

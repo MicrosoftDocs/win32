@@ -12,7 +12,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Skin Definition File
+# Skin Definition File (Mobile)
 
 The skin definition file is where you put all the pieces together. You define the images to use, specify the user interface elements you want the user to see, and type in the functions, coordinates, file names, and so on.
 

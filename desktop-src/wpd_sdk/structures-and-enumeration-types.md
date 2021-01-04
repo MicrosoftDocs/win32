@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Structures and Enumeration Types
+# Structures and Enumeration Types (WPD API)
 
 Windows Portable Devices defines the following structures and enumeration types.
 

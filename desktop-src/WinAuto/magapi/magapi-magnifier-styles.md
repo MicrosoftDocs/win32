@@ -20,7 +20,7 @@ ms.date: 02/07/2020
 
 This topic describes the styles used with the magnifier control. To create a magnifier control, use the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function and specify the WC_MAGNIFIER window class, along with a combination of the following magnifier styles.
 
-|   |   |
+| Requirement | Value |
 |:---|:---|
 | MS_CLIPAROUNDCURSOR 0x0002L | Clips the area of the magnifier window that surrounds the system cursor. This style enables the user to see screen content that is behind the magnifier window. |
 | MS_INVERTCOLORS 0x0004L | Displays the magnified screen content using inverted colors. |
@@ -28,7 +28,7 @@ This topic describes the styles used with the magnifier control. To create a mag
 
 ## Requirements
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |

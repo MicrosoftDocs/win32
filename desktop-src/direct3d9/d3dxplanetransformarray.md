@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXPlaneTransformArray function
+# D3DXPlaneTransformArray function (D3dx9math.h)
 
 Transforms an array of planes by a matrix. The vectors that describe each plane must be normalized.
 

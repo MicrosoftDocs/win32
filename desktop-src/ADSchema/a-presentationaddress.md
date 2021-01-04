@@ -22,7 +22,7 @@ Specifies a presentation address associated with an object that represents an OS
 
 
 
-|                   |                                                                       |
+| Entry | Value |
 |-------------------|-----------------------------------------------------------------------|
 | CN                | Presentation-Address                                                  |
 | Ldap-Display-Name | presentationAddress                                                   |
@@ -48,7 +48,7 @@ Specifies a presentation address associated with an object that represents an OS
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -69,7 +69,7 @@ Specifies a presentation address associated with an object that represents an OS
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -90,7 +90,7 @@ Specifies a presentation address associated with an object that represents an OS
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -111,7 +111,7 @@ Specifies a presentation address associated with an object that represents an OS
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -132,7 +132,7 @@ Specifies a presentation address associated with an object that represents an OS
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -153,7 +153,7 @@ Specifies a presentation address associated with an object that represents an OS
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |

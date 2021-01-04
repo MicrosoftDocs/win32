@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Objects
+# Objects (Windows Media Format 11 SDK)
 
 The Windows Media Format SDK uses several objects to read, write, edit, and index ASF files, and to create and edit profiles. Each object supports a number of interfaces. Some interfaces are supported in multiple objects. In these cases, any differences in implementation are discussed in the reference section for the interface.
 

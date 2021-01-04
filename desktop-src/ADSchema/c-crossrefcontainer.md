@@ -22,7 +22,7 @@ Holds cross-refs objects for all Naming Contexts.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Cross-Ref-Container                  |
 | Ldap-Display-Name | crossRefContainer                    |
@@ -49,7 +49,7 @@ Holds cross-refs objects for all Naming Contexts.
 
 
 
-|                             |                                          |
+| Entry | Value |
 |-----------------------------|------------------------------------------|
 | System-Only                 | True                                     |
 | Object-Category             | 1                                        |
@@ -170,7 +170,7 @@ This class contains the following extended rights for Windows 2000 Server:
 
 
 
-|                             |                                          |
+| Entry | Value |
 |-----------------------------|------------------------------------------|
 | System-Only                 | True                                     |
 | Object-Category             | 1                                        |
@@ -314,7 +314,7 @@ This class contains the following extended rights for Windows Server 2003:
 
 
 
-|                             |                                          |
+| Entry | Value |
 |-----------------------------|------------------------------------------|
 | System-Only                 | True                                     |
 | Object-Category             | 1                                        |
@@ -440,7 +440,7 @@ This class contains the following extended rights for ADAM:
 
 
 
-|                             |                                          |
+| Entry | Value |
 |-----------------------------|------------------------------------------|
 | System-Only                 | True                                     |
 | Object-Category             | 1                                        |
@@ -587,7 +587,7 @@ This class contains the following extended rights for Windows Server 2003 R2:
 
 
 
-|                             |                                          |
+| Entry | Value |
 |-----------------------------|------------------------------------------|
 | System-Only                 | True                                     |
 | Object-Category             | 1                                        |
@@ -745,7 +745,7 @@ This class contains the following extended rights for Windows Server 2008:
 
 
 
-|                             |                                          |
+| Entry | Value |
 |-----------------------------|------------------------------------------|
 | System-Only                 | True                                     |
 | Object-Category             | 1                                        |
@@ -912,7 +912,7 @@ This class contains the following extended rights for Windows Server 2008 R2:
 
 
 
-|                             |                                          |
+| Entry | Value |
 |-----------------------------|------------------------------------------|
 | System-Only                 | True                                     |
 | Object-Category             | 1                                        |

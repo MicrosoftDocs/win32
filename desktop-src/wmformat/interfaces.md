@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Interfaces
+# Windows Media Format SDK Interfaces
 
 The following two tables describe the interfaces supported by this SDK and show their relationship to objects and other interfaces.
 

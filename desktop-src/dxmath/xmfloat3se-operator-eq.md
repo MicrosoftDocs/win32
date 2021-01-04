@@ -13,7 +13,7 @@ api_type:
 api_location: 
 ---
 
-# operator = operators
+# XMFLOAT3SE operator = operators
 
 Assigns vector component data to the current instance of `XMFLOAT3SE`.
 

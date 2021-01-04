@@ -18,7 +18,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_HostedService class
+# CIM_HostedService class (CIMWin32 WMI Providers)
 
 The **CIM\_HostedService** class represents an association between a service and the system on which the functionality resides. A system may host many services, which defer to the hosting system. The model does not represent services hosted across multiple systems.
 
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

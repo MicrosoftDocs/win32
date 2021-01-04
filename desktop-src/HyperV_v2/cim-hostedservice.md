@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_HostedService class
+# CIM_HostedService class (Hyper-V management)
 
 Represents an association between a service and the system that hosts the service. A System can host many services, however this class does not represent services hosted across multiple systems.
 
@@ -80,7 +80,7 @@ The Service hosted on the System.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

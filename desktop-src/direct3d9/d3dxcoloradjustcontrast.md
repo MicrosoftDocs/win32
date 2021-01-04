@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXColorAdjustContrast function
+# D3DXColorAdjustContrast function (D3dx9math.h)
 
 Adjusts the contrast value of a color.
 

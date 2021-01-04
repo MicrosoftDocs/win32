@@ -22,7 +22,7 @@ Distinguished name of the object being synchronized for the SAM builtin group/lo
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Sync-With-Object                        |
 | Ldap-Display-Name | syncWithObject                          |
@@ -48,7 +48,7 @@ Distinguished name of the object being synchronized for the SAM builtin group/lo
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -69,7 +69,7 @@ Distinguished name of the object being synchronized for the SAM builtin group/lo
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -90,7 +90,7 @@ Distinguished name of the object being synchronized for the SAM builtin group/lo
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -111,7 +111,7 @@ Distinguished name of the object being synchronized for the SAM builtin group/lo
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -132,7 +132,7 @@ Distinguished name of the object being synchronized for the SAM builtin group/lo
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -153,7 +153,7 @@ Distinguished name of the object being synchronized for the SAM builtin group/lo
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

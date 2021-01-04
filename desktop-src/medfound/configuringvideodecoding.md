@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Configuring Video Decoding
+# Configuring Video Decoding (Microsoft Media Foundation)
 
 Decoding is essentially the opposite of encoding in terms of configuration. The decoder supports very few properties, and none of them is required. Set the input type to the type used for the decoder output (including the codec private data). Then set the output to the desired uncompressed format, set the [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) structure to reflect the proper frame size, and start processing samples.
 

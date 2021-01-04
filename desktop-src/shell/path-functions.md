@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Path Functions
+# Path Functions (The Windows Shell)
 
 ## In this section
 

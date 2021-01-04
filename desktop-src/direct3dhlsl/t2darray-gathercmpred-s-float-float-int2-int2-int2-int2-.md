@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherCmpRed(S,float,float,int2,int2,int2,int2) function
+# Texture2DArray::GatherCmpRed(S,float,float,int2,int2,int2,int2) function
 
 Samples a texture, tests the samples against a compare value, and returns the red component.
 

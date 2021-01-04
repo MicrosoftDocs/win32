@@ -22,7 +22,7 @@ A list of service connection points that reference this NetBoot server.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | netboot-SCP-BL                          |
 | Ldap-Display-Name | netbootSCPBL                            |
@@ -48,7 +48,7 @@ A list of service connection points that reference this NetBoot server.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 101                             |
 | MAPI-Id                | \-                              |
@@ -69,7 +69,7 @@ A list of service connection points that reference this NetBoot server.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 101                             |
 | MAPI-Id                | \-                              |
@@ -90,7 +90,7 @@ A list of service connection points that reference this NetBoot server.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 101                             |
 | MAPI-Id                | \-                              |
@@ -111,7 +111,7 @@ A list of service connection points that reference this NetBoot server.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 101                             |
 | MAPI-Id                | \-                              |
@@ -132,7 +132,7 @@ A list of service connection points that reference this NetBoot server.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 101                             |
 | MAPI-Id                | \-                              |
@@ -153,7 +153,7 @@ A list of service connection points that reference this NetBoot server.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 101                             |
 | MAPI-Id                | \-                              |

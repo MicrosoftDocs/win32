@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Event Constants
+# Event Constants (Sensors.h)
 
 The Windows Sensor and Location platform defines constants for driver events. Sensor manfuactureres can also define their own constants.
 
@@ -56,7 +56,7 @@ The sensor platform reserves this GUID for future use.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | None supported<br/>                                                            |

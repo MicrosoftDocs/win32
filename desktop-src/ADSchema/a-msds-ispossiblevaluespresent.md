@@ -22,7 +22,7 @@ This attribute identifies if ms-DS-Claim-Possible-Values on linked resource prop
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Is-Possible-Values-Present     |
 | Ldap-Display-Name | msDS-IsPossibleValuesPresent         |
@@ -43,7 +43,7 @@ This attribute identifies if ms-DS-Claim-Possible-Values on linked resource prop
 
 
 
-|                        |                                                         |
+| Entry | Value |
 |------------------------|---------------------------------------------------------|
 | Link-Id                | \-                                                      |
 | MAPI-Id                | \-                                                      |

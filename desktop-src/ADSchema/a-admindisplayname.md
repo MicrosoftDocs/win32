@@ -22,7 +22,7 @@ The name to be displayed on admin screens.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Admin-Display-Name                          |
 | Ldap-Display-Name | adminDisplayName                            |
@@ -49,7 +49,7 @@ The name to be displayed on admin screens.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x804B                          |
@@ -70,7 +70,7 @@ The name to be displayed on admin screens.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x804B                          |
@@ -91,7 +91,7 @@ The name to be displayed on admin screens.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x804B                          |
@@ -112,7 +112,7 @@ The name to be displayed on admin screens.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x804B                          |
@@ -133,7 +133,7 @@ The name to be displayed on admin screens.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x804B                          |
@@ -154,7 +154,7 @@ The name to be displayed on admin screens.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x804B                          |
@@ -175,7 +175,7 @@ The name to be displayed on admin screens.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x804B                          |

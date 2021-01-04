@@ -32,7 +32,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_LogicalDevice class
+# CIM_LogicalDevice class (Hyper-V management)
 
 An abstraction or emulation of a hardware entity that may or may not be based on physical hardware.
 
@@ -778,7 +778,7 @@ The total number of hours the logical device has been powered.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

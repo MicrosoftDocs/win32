@@ -19,7 +19,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_Controller class
+# CIM_Controller class (Hyper-V management)
 
 A superclass for miscellaneous control-related devices that provide a classic bus master interface. The controller class is an abstraction for devices with a single protocol stack, and exist to control communications (data, control, and reset) to downstream devices.
 
@@ -451,7 +451,7 @@ The last time when the controller was reset.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

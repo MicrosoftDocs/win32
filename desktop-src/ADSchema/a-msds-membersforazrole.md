@@ -22,7 +22,7 @@ List of member application groups or users linked to Az-Role.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Members-For-Az-Role               |
 | Ldap-Display-Name | msDS-MembersForAzRole                   |
@@ -47,7 +47,7 @@ List of member application groups or users linked to Az-Role.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | 2016                                              |
 | MAPI-Id                | \-                                                |
@@ -68,7 +68,7 @@ List of member application groups or users linked to Az-Role.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | 2016                                              |
 | MAPI-Id                | \-                                                |
@@ -89,7 +89,7 @@ List of member application groups or users linked to Az-Role.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | 2016                                              |
 | MAPI-Id                | \-                                                |
@@ -110,7 +110,7 @@ List of member application groups or users linked to Az-Role.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | 2016                                              |
 | MAPI-Id                | \-                                                |
@@ -131,7 +131,7 @@ List of member application groups or users linked to Az-Role.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | 2016                                              |
 | MAPI-Id                | \-                                                |

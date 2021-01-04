@@ -21,7 +21,7 @@ The documentVersion attribute type specifies the version number of a document.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | documentVersion                             |
 | Ldap-Display-Name | documentVersion                             |
@@ -46,7 +46,7 @@ The documentVersion attribute type specifies the version number of a document.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -67,7 +67,7 @@ The documentVersion attribute type specifies the version number of a document.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -88,7 +88,7 @@ The documentVersion attribute type specifies the version number of a document.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -109,7 +109,7 @@ The documentVersion attribute type specifies the version number of a document.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -130,7 +130,7 @@ The documentVersion attribute type specifies the version number of a document.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |

@@ -22,7 +22,7 @@ Certificate distribution object or tagged certificates.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | User-SMIME-Certificate                                |
 | Ldap-Display-Name | userSMIMECertificate                                  |
@@ -48,7 +48,7 @@ Certificate distribution object or tagged certificates.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x3A70                                               |
@@ -69,7 +69,7 @@ Certificate distribution object or tagged certificates.
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | 0x3A70                                                                                                                                     |
@@ -90,7 +90,7 @@ Certificate distribution object or tagged certificates.
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | 0x3A70                                                                                                                                     |
@@ -111,7 +111,7 @@ Certificate distribution object or tagged certificates.
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | 0x3A70                                                                                                                                     |
@@ -132,7 +132,7 @@ Certificate distribution object or tagged certificates.
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | 0x3A70                                                                                                                                     |
@@ -153,7 +153,7 @@ Certificate distribution object or tagged certificates.
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | 0x3A70                                                                                                                                     |

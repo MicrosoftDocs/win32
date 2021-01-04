@@ -22,7 +22,7 @@ The **MSMQ-Nt4-Flags** attribute contains MSMQ mixed-mode information.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | MSMQ-Nt4-Flags                       |
 | Ldap-Display-Name | mSMQNt4Flags                         |
@@ -48,7 +48,7 @@ The **MSMQ-Nt4-Flags** attribute contains MSMQ mixed-mode information.
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |
@@ -69,7 +69,7 @@ The **MSMQ-Nt4-Flags** attribute contains MSMQ mixed-mode information.
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |
@@ -90,7 +90,7 @@ The **MSMQ-Nt4-Flags** attribute contains MSMQ mixed-mode information.
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |
@@ -111,7 +111,7 @@ The **MSMQ-Nt4-Flags** attribute contains MSMQ mixed-mode information.
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |
@@ -132,7 +132,7 @@ The **MSMQ-Nt4-Flags** attribute contains MSMQ mixed-mode information.
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |
@@ -153,7 +153,7 @@ The **MSMQ-Nt4-Flags** attribute contains MSMQ mixed-mode information.
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |

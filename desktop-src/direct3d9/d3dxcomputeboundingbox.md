@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXComputeBoundingBox function
+# D3DXComputeBoundingBox function (D3DX9Mesh.h)
 
 Computes a coordinate-axis oriented bounding box.
 

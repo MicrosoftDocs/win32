@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXVec3Unproject function
+# D3DXVec3Unproject function (D3dx9math.h)
 
 Projects a vector from screen space into object space.
 

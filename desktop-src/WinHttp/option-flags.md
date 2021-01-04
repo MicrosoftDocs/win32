@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 02/25/2020
 ---
 
-# Option Flags
+# Option Flags (Winhttp.h)
 
 The following option flags are supported by [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) and [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption).
 
@@ -1075,7 +1075,7 @@ Attempting to set or query an option flag on a Windows version where it is not s
 
 ## Requirements
 
-|                          |                                                                                 |
+| Requirement | Value |
 |--------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]            |
 | Minimum supported server | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]         |

@@ -22,7 +22,7 @@ This attribute contains the thumbprint of the SrkPub corresponding to a particul
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-TPM-Srk-Pub-Thumbprint                             |
 | Ldap-Display-Name | msTPM-SrkPubThumbprint                                |
@@ -43,7 +43,7 @@ This attribute contains the thumbprint of the SrkPub corresponding to a particul
 
 
 
-|                        |                                                                           |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------|
 | Link-Id                | \-                                                                        |
 | MAPI-Id                | \-                                                                        |

@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherCmp(S,float,float,int,uint) function
+# Texture2DArray::GatherCmp(S,float,float,int,uint) function
 
 Samples a texture, tests the samples against a compare value, and returns all four components along with status about the operation.
 

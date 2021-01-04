@@ -22,7 +22,7 @@ Reference to certificate revocation list object associated with a certification 
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | CRL-Object                              |
 | Ldap-Display-Name | cRLObject                               |
@@ -48,7 +48,7 @@ Reference to certificate revocation list object associated with a certification 
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |
@@ -69,7 +69,7 @@ Reference to certificate revocation list object associated with a certification 
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |
@@ -90,7 +90,7 @@ Reference to certificate revocation list object associated with a certification 
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |
@@ -111,7 +111,7 @@ Reference to certificate revocation list object associated with a certification 
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |
@@ -132,7 +132,7 @@ Reference to certificate revocation list object associated with a certification 
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |
@@ -153,7 +153,7 @@ Reference to certificate revocation list object associated with a certification 
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |

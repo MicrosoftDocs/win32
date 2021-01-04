@@ -22,7 +22,7 @@ License used during online activation of the Active Directory forest
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-SPP-Phone-License                                  |
 | Ldap-Display-Name | msSPP-PhoneLicense                                    |
@@ -43,7 +43,7 @@ License used during online activation of the Active Directory forest
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |

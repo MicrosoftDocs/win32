@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVec4TransformArray function
+# D3DXVec4TransformArray function (D3DX10Math.h)
 
 Transforms an array (x, y, z, w) by a given matrix.
 

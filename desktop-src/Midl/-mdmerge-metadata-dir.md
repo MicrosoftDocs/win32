@@ -14,7 +14,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# /metadata\_dir switch
+# /metadata_dir switch (MDMERGE)
 
 The **/metadata\_dir** switch specifies the directory that contains platform metadata files.
 

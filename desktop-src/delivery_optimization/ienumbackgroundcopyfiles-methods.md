@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# IEnumBackgroundCopyFiles Methods
+# IEnumBackgroundCopyFiles Methods (DO)
 
 The [**IEnumBackgroundCopyFiles**](ienumbackgroundcopyfiles-.md) interface exposes the following methods.
 

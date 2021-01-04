@@ -22,7 +22,7 @@ For a resource property list object, this multi-valued link attribute points to 
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Members-Of-Resource-Property-List |
 | Ldap-Display-Name | msDS-MembersOfResourcePropertyList      |
@@ -43,7 +43,7 @@ For a resource property list object, this multi-valued link attribute points to 
 
 
 
-|                        |                                                                                |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------|
 | Link-Id                | 2180                                                                           |
 | MAPI-Id                | \-                                                                             |

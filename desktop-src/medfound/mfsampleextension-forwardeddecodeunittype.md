@@ -22,7 +22,7 @@ The value of this attribute is a value from the [**MF\_CUSTOM\_DECODE\_UNIT\_TYP
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                               |

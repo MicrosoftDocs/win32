@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# UserControlService method of the Win32\_Service class
+# UserControlService method of the Win32_Service class (CIMWin32 WMI Providers)
 
 The **UserControlService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method attempts to send a user-defined control code to the referenced service.
 
@@ -229,7 +229,7 @@ The service is currently paused in the system.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

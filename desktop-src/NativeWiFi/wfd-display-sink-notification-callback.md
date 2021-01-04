@@ -61,7 +61,7 @@ A pointer to a struct containing data that your app can optionally set to indica
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                              |

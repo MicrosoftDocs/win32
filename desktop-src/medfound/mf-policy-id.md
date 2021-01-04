@@ -23,7 +23,7 @@ The value can be recieved from the [MEPolicySet](./mepolicyset.md) media event. 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 April 2020 Update   <br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

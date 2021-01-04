@@ -21,7 +21,7 @@ Associates a cryptographic session with a DirectX Video Acceleration 2 (DXVA-2) 
 
 
 
-|              |                                                                                                           |
+| Requirement | Value |
 |--------------|-----------------------------------------------------------------------------------------------------------|
 | Command GUID | **D3DAUTHENTICATEDCONFIGURE\_CRYPTOSESSION**                                                              |
 | Input data   | [**D3DAUTHENTICATEDCHANNEL\_CONFIGURECRYPTOSESSION**](d3dauthenticatedchannel-configurecryptosession.md) |
@@ -43,7 +43,7 @@ The following channel types support this command:
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

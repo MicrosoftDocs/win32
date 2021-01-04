@@ -22,7 +22,7 @@ List of nonsecurity-members for an Exchange distribution list.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Non-Security-Member-BL                  |
 | Ldap-Display-Name | nonSecurityMemberBL                     |
@@ -48,7 +48,7 @@ List of nonsecurity-members for an Exchange distribution list.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 51                              |
 | MAPI-Id                | \-                              |
@@ -69,7 +69,7 @@ List of nonsecurity-members for an Exchange distribution list.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 51                              |
 | MAPI-Id                | \-                              |
@@ -90,7 +90,7 @@ List of nonsecurity-members for an Exchange distribution list.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 51                              |
 | MAPI-Id                | \-                              |
@@ -111,7 +111,7 @@ List of nonsecurity-members for an Exchange distribution list.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 51                              |
 | MAPI-Id                | \-                              |
@@ -132,7 +132,7 @@ List of nonsecurity-members for an Exchange distribution list.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 51                              |
 | MAPI-Id                | \-                              |
@@ -153,7 +153,7 @@ List of nonsecurity-members for an Exchange distribution list.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 51                              |
 | MAPI-Id                | \-                              |

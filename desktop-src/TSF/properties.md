@@ -22,7 +22,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Properties
+# Properties (Common Elements)
 
 Text Services Framework (TSF) provides properties that associate metadata with a range of text. These properties include, but are not limited to, display attributes such as bold text, the language identifier of the text, and raw data provided by a text service such as the audio data associated with text from the speech text service.
 

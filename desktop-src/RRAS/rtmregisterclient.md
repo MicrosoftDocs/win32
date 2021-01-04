@@ -103,7 +103,7 @@ A **NULL** handle indicates that the routing table manager was unable to registe
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

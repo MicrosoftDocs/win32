@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Interlaced Video Encoding
+# Interlaced Video Encoding (Microsoft Media Foundation)
 
 Video data intended for use with computers is typically *progressive*, meaning that each frame is encoded as a single image. Some devices, like televisions, do not display a frame all at once, but as two images. One of the images, or fields, contains all of the even numbered rows. The other field contains the data for all of the odd numbered rows. Video encoded with more than one field per frame is called interlaced, because it is rendered by switching between the even field and the odd field.
 

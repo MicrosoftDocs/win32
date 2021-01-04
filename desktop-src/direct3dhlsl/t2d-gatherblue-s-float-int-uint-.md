@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherBlue(S,float,int,uint) function
+# Texture2D::GatherBlue(S,float,int,uint) function
 
 Samples a texture and returns the blue component along with status about the operation.
 

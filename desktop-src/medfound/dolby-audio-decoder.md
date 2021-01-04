@@ -315,7 +315,7 @@ The decoder MFT is registered with the flag **MFT\_ENUM\_FLAG\_FIELDOFUSE**, whi
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                          |
 | Minimum supported server<br/> | None supported<br/>                                                                  |

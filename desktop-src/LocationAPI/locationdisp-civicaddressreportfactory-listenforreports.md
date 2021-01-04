@@ -55,7 +55,7 @@ For an example of how to use this method, see [Listening for Civic Address Repor
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | None supported<br/>                                                                |

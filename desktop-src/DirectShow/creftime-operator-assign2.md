@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CRefTime.operator= method
+# CRefTime.operator= method (Reftime.h)
 
 The = operator assigns a new reference time.
 

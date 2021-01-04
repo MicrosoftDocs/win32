@@ -22,7 +22,7 @@ Identifies the protocol identification number associated with the secondary doma
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Secondary-KrbTgt-Number        |
 | Ldap-Display-Name | msDS-SecondaryKrbTgtNumber           |
@@ -45,7 +45,7 @@ Identifies the protocol identification number associated with the secondary doma
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Identifies the protocol identification number associated with the secondary doma
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Identifies the protocol identification number associated with the secondary doma
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

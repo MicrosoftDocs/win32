@@ -74,7 +74,7 @@ For an example, see [Detecting Media Insertion or Removal](detecting-media-inser
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                   |

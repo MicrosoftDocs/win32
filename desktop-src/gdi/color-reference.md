@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Color Reference
+# Color Reference (Windows GDI)
 
 The following elements are associated with color.
 

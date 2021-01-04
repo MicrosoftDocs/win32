@@ -35,7 +35,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_LogicalDevice class
+# CIM_LogicalDevice class (CIMWin32 WMI Providers)
 
 The **CIM\_LogicalDevice** class represents a hardware entity that may or may not be realized in physical hardware.
 
@@ -1043,7 +1043,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

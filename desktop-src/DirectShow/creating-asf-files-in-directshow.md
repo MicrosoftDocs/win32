@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Creating ASF Files in DirectShow
+# Creating ASF Files in DirectShow (DirectShow)
 
 This section describes how to use the DirectShow [WM ASF Writer](wm-asf-writer-filter.md) filter to create files in Advanced Systems Format (ASF). ASF is a container format that can contain any type of compressed or uncompressed data. Windows Media Format files are ASF files that use certain codecs as specified in the Windows Media Format Software Development Kit (SDK). These files use the extensions ".wma" for Windows Media Audio files and ".wmv" for Windows Media Video files.
 

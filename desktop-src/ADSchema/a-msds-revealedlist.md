@@ -22,7 +22,7 @@ Identifies security principals whose current computer account passwords have bee
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-DS-Revealed-List                                   |
 | Ldap-Display-Name | msDS-RevealedList                                     |
@@ -45,7 +45,7 @@ Identifies security principals whose current computer account passwords have bee
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -66,7 +66,7 @@ Identifies security principals whose current computer account passwords have bee
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -87,7 +87,7 @@ Identifies security principals whose current computer account passwords have bee
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |

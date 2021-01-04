@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# IBackgroundCopyFile5 Methods
+# IBackgroundCopyFile5 Methods (BITS)
 
 The [**IBackgroundCopyFile5**](/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyfile5) interface exposes the following methods.
 

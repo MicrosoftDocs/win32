@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# The Leaky Bucket Buffer Model
+# The Leaky Bucket Buffer Model (Microsoft Media Foundation)
 
 When you stream media over a network, the decoder receives encoded data at a theoretically constant rate (the transmission rate). The decoder consumes this data to produce decoded output. In the general case, however, the decoder consumes the data at a *variable* rate, because then encoder can use a variable encoding rate.
 

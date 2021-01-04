@@ -22,7 +22,7 @@ Reference to a domain that is associated with a certification authority.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Domain-ID                               |
 | Ldap-Display-Name | domainID                                |
@@ -48,7 +48,7 @@ Reference to a domain that is associated with a certification authority.
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |
@@ -69,7 +69,7 @@ Reference to a domain that is associated with a certification authority.
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |
@@ -90,7 +90,7 @@ Reference to a domain that is associated with a certification authority.
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |
@@ -111,7 +111,7 @@ Reference to a domain that is associated with a certification authority.
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |
@@ -132,7 +132,7 @@ Reference to a domain that is associated with a certification authority.
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |
@@ -153,7 +153,7 @@ Reference to a domain that is associated with a certification authority.
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |

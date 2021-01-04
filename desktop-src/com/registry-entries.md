@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Registry Entries
+# Registry Entries (COM)
 
 Registry values in the following registry keys control aspects of the functionality of COM:
 

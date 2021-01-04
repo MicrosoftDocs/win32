@@ -21,7 +21,7 @@ Enables or disables protection for the device.
 
 
 
-|              |                                                                                                     |
+| Requirement | Value |
 |--------------|-----------------------------------------------------------------------------------------------------|
 | Command GUID | **D3DAUTHENTICATEDCONFIGURE\_PROTECTION**                                                           |
 | Input data   | [**D3DAUTHENTICATEDCHANNEL\_CONFIGUREPROTECTION**](d3dauthenticatedchannel-configureprotection.md) |
@@ -38,7 +38,7 @@ This command is valid for all channel types.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# General Purpose Functions
+# General Purpose Functions (Direct3D 9 Graphics)
 
 D3DX supplies the following general purpose functions:
 

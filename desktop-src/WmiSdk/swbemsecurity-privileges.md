@@ -74,7 +74,7 @@ Note that for calls to [**SwbemPrivilegeSet.AddAsString**](swbemprivilegeset-add
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

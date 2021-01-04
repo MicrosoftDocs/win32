@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXVec2BaryCentric function
+# D3DXVec2BaryCentric function (D3DX10Math.h)
 
 Returns a point in Barycentric coordinates, using the specified 2D vectors.
 

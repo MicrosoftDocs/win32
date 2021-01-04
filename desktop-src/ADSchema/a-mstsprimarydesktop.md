@@ -22,7 +22,7 @@ This attribute represents the forward link to a user's primary desktop.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-TS-Primary-Desktop                   |
 | Ldap-Display-Name | msTSPrimaryDesktop                      |
@@ -44,7 +44,7 @@ This attribute represents the forward link to a user's primary desktop.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | 2170                              |
 | MAPI-Id                | \-                                |
@@ -65,7 +65,7 @@ This attribute represents the forward link to a user's primary desktop.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | 2170                              |
 | MAPI-Id                | \-                                |

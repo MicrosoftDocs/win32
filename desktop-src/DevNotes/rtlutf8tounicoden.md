@@ -107,7 +107,7 @@ Callers of **RtlUTF8ToUnicodeN** must be running at IRQL < DISPATCH\_LEVEL.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                              |

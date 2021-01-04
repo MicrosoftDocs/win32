@@ -22,7 +22,7 @@ Indicates an IPv6 prefix (and corresponding route) to be configured for the user
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-RADIUS-SavedFramedIpv6Prefix      |
 | Ldap-Display-Name | msRADIUS-SavedFramedIpv6Prefix       |
@@ -45,7 +45,7 @@ Indicates an IPv6 prefix (and corresponding route) to be configured for the user
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Indicates an IPv6 prefix (and corresponding route) to be configured for the user
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Indicates an IPv6 prefix (and corresponding route) to be configured for the user
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

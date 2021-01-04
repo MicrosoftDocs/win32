@@ -15,7 +15,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Implementing Render
+# Implementing Render Sample
 
 The following code is used to implement the **Render** function:
 

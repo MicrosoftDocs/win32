@@ -22,7 +22,7 @@ Lifetime of a deleted object.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Deleted-Object-Lifetime        |
 | Ldap-Display-Name | msDS-DeletedObjectLifetime           |
@@ -44,7 +44,7 @@ Lifetime of a deleted object.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -65,7 +65,7 @@ Lifetime of a deleted object.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |

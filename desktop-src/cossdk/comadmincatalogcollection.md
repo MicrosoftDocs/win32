@@ -25,7 +25,7 @@ This class is implemented by COM+.
 
 
 
-|            |                                                  |
+| Requirement | Value |
 |------------|--------------------------------------------------|
 | Interfaces | [**ICatalogCollection**](/windows/desktop/api/ComAdmin/nn-comadmin-icatalogcollection) |
 
@@ -77,7 +77,7 @@ Set objTopCollection = objCatalog.GetCollection("TopCollection")
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

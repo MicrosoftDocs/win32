@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# ID3DXMATRIXStack::LoadMatrix method
+# ID3DXMATRIXStack::LoadMatrix method (D3DX10.h)
 
 Loads the given matrix into the current matrix.
 

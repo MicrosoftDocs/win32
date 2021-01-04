@@ -23,7 +23,7 @@ api_location:
 - Root\WMI
 ---
 
-# Win32\_PrivilegesStatus class
+# Win32_PrivilegesStatus class (WMI)
 
 The **Win32\_PrivilegesStatus**   [WMI class](retrieving-a-class.md) reports information about privileges required to complete an operation. It may be returned when an operation failed or when a partially populated instance has been returned.
 
@@ -168,7 +168,7 @@ The **Win32\_PrivilegesStatus** class is derived from [**\_\_ExtendedStatus**](-
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                     |

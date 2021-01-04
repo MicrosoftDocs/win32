@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# StopService method of the CIM\_Service class
+# StopService method of the CIM_Service class (Sdoias.h)
 
 The **StopService** method stops the service represented by the object derived from [**CIM\_Service**](cim-service.md).
 
@@ -54,7 +54,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

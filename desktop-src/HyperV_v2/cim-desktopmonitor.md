@@ -19,7 +19,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_DesktopMonitor class
+# CIM_DesktopMonitor class (Hyper-V management)
 
 Represents a CRT desktop monitor.
 
@@ -151,7 +151,7 @@ The logical width of the display, in screen coordinates.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

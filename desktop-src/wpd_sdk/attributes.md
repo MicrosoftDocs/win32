@@ -15,7 +15,7 @@ api_location:
 - PortableDevice.h
 ---
 
-# Property Attributes
+# Property Attributes (PortableDevice.h)
 
 Windows Portable Devices supports the following property attributes. These attributes are returned by the following methods:
 

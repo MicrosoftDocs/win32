@@ -22,7 +22,7 @@ Backward link for [**ms-DS-Has-Domain-NCs**](a-msds-hasdomainncs.md). Identifies
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Is-Full-Replica-For               |
 | Ldap-Display-Name | msDS-IsFullReplicaFor                   |
@@ -45,7 +45,7 @@ Backward link for [**ms-DS-Has-Domain-NCs**](a-msds-hasdomainncs.md). Identifies
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2105                            |
 | MAPI-Id                | \-                              |
@@ -66,7 +66,7 @@ Backward link for [**ms-DS-Has-Domain-NCs**](a-msds-hasdomainncs.md). Identifies
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2105                            |
 | MAPI-Id                | \-                              |
@@ -87,7 +87,7 @@ Backward link for [**ms-DS-Has-Domain-NCs**](a-msds-hasdomainncs.md). Identifies
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2105                            |
 | MAPI-Id                | \-                              |

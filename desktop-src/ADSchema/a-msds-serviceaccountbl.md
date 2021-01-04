@@ -22,7 +22,7 @@ Backward link reference to the AD/AM DSA object that uses this service account.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Service-Account-BL                |
 | Ldap-Display-Name | msDS-ServiceAccountBL                   |
@@ -43,7 +43,7 @@ Backward link reference to the AD/AM DSA object that uses this service account.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2041                            |
 | MAPI-Id                | \-                              |

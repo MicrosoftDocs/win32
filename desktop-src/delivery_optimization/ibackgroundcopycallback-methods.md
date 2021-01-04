@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# IBackgroundCopyCallback Methods
+# IBackgroundCopyCallback Methods (DO)
 
 The [**IBackgroundCopyCallback**](ibackgroundcopycallback.md) interface exposes the following methods.
 

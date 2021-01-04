@@ -36,7 +36,7 @@ The **CFSTR\_DSPROPERTYPAGEINFO** clipboard format provides an **HGLOBAL** that 
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                        |

@@ -21,7 +21,7 @@ Initializes the authenticated channel.
 
 
 
-|              |                                                                                                     |
+| Requirement | Value |
 |--------------|-----------------------------------------------------------------------------------------------------|
 | Command GUID | **D3DAUTHENTICATEDCONFIGURE\_INITIALIZE**                                                           |
 | Input data   | [**D3DAUTHENTICATEDCHANNEL\_CONFIGUREINITIALIZE**](d3dauthenticatedchannel-configureinitialize.md) |
@@ -43,7 +43,7 @@ The following channel types support this command:
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

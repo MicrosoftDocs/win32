@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXMatrixTranspose function
+# D3DXMatrixTranspose function (D3dx9math.h)
 
 Returns the matrix transpose of a matrix.
 

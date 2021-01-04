@@ -22,7 +22,7 @@ Contains the field position that is used to extract the key from a nonstandard m
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | msSFU-30-NSMAP-Field-Position        |
 | Ldap-Display-Name | msSFU30NSMAPFieldPosition            |
@@ -46,7 +46,7 @@ Contains the field position that is used to extract the key from a nonstandard m
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -67,7 +67,7 @@ Contains the field position that is used to extract the key from a nonstandard m
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -88,7 +88,7 @@ Contains the field position that is used to extract the key from a nonstandard m
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -109,7 +109,7 @@ Contains the field position that is used to extract the key from a nonstandard m
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |

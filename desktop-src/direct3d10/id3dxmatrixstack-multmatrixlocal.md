@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# ID3DXMATRIXStack::MultMatrixLocal method
+# ID3DXMATRIXStack::MultMatrixLocal method (D3DX10.h)
 
 Determines the product of the given matrix and the current matrix.
 

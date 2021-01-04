@@ -21,7 +21,7 @@ An octet string that contains a binary value and a distinguished name (DN).
 
 
 
-|              |                                                                                    |
+| Entry | Value |
 |--------------|------------------------------------------------------------------------------------|
 | Name         | Object(DN-Binary)                                                                  |
 | Syntax ID    | 2.5.5.7                                                                            |

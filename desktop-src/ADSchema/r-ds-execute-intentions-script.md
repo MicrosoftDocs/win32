@@ -21,7 +21,7 @@ Control access right, which should be granted to the partitions container, that 
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | DS-Execute-Intentions-Script         |
 | Display-Name | Execute Forest Update Script         |
@@ -42,7 +42,7 @@ Control access right, which should be granted to the partitions container, that 
 
 
 
-|                         |                                                               |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------|
 | Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
 | Localization-Display-ID | 66                                                            |
@@ -53,7 +53,7 @@ Control access right, which should be granted to the partitions container, that 
 
 
 
-|                         |                                                               |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------|
 | Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
 | Localization-Display-ID | 66                                                            |
@@ -64,7 +64,7 @@ Control access right, which should be granted to the partitions container, that 
 
 
 
-|                         |                                                               |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------|
 | Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
 | Localization-Display-ID | 66                                                            |
@@ -75,7 +75,7 @@ Control access right, which should be granted to the partitions container, that 
 
 
 
-|                         |                                                               |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------|
 | Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
 | Localization-Display-ID | 66                                                            |
@@ -86,7 +86,7 @@ Control access right, which should be granted to the partitions container, that 
 
 
 
-|                         |                                                               |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------|
 | Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
 | Localization-Display-ID | 66                                                            |
@@ -97,7 +97,7 @@ Control access right, which should be granted to the partitions container, that 
 
 
 
-|                         |                                                               |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------|
 | Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
 | Localization-Display-ID | 66                                                            |

@@ -57,7 +57,7 @@ If you specify the current page, it will immediately be repainted to display the
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

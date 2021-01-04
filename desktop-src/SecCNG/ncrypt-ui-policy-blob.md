@@ -92,7 +92,7 @@ This structure is included in the Ncrypt\_provider.h header. To use the structur
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                          |

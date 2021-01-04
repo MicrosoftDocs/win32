@@ -20,7 +20,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_DeviceConnection class
+# CIM_DeviceConnection class (CIMWin32 WMI Providers)
 
 The **CIM\_DeviceConnection** association class represents two or more connected devices.
 
@@ -134,7 +134,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

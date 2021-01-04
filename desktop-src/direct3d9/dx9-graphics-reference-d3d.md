@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Direct3D Reference
+# Direct3D Reference (Direct3D 9 Graphics)
 
 This section contains reference information for the API elements provided by Direct3D. Reference material is divided into the following categories.
 

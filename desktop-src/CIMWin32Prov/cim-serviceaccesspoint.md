@@ -25,7 +25,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_ServiceAccessPoint class
+# CIM_ServiceAccessPoint class (CIMWin32 WMI Providers)
 
 The **CIM\_ServiceAccessPoint** class represents the ability to use or invoke a service. Access points represent services that are available for use by other entities.
 
@@ -357,7 +357,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -22,7 +22,7 @@ A Unicode string that an admin can set to pass a command to every replica set me
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | FRS-Service-Command                         |
 | Ldap-Display-Name | fRSServiceCommand                           |
@@ -48,7 +48,7 @@ A Unicode string that an admin can set to pass a command to every replica set me
 
 
 
-|                        |                                                                                                                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                                                  |
@@ -69,7 +69,7 @@ A Unicode string that an admin can set to pass a command to every replica set me
 
 
 
-|                        |                                                                                                                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                                                  |
@@ -90,7 +90,7 @@ A Unicode string that an admin can set to pass a command to every replica set me
 
 
 
-|                        |                                                                                                                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                                                  |
@@ -111,7 +111,7 @@ A Unicode string that an admin can set to pass a command to every replica set me
 
 
 
-|                        |                                                                                                                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                                                  |
@@ -132,7 +132,7 @@ A Unicode string that an admin can set to pass a command to every replica set me
 
 
 
-|                        |                                                                                                                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                                                  |
@@ -153,7 +153,7 @@ A Unicode string that an admin can set to pass a command to every replica set me
 
 
 
-|                        |                                                                                                                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                                                  |

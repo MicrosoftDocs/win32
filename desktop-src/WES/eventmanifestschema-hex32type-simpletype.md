@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# HexInt32Type Simple Type
+# HexInt32Type Simple Type (EventManifest Schema)
 
 Defines a 4-byte hexadecimal type.
 
@@ -43,7 +43,7 @@ The **HexInt32Type** simple type is a **string** that is restricted by the follo
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

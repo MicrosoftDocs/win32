@@ -22,7 +22,7 @@ A linked attribute on a cross reference object for a partition. Lists the DC tha
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-NC-RO-Replica-Locations           |
 | Ldap-Display-Name | msDS-NC-RO-Replica-Locations            |
@@ -45,7 +45,7 @@ A linked attribute on a cross reference object for a partition. Lists the DC tha
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 2114                                       |
 | MAPI-Id                | \-                                         |
@@ -66,7 +66,7 @@ A linked attribute on a cross reference object for a partition. Lists the DC tha
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 2114                                       |
 | MAPI-Id                | \-                                         |
@@ -87,7 +87,7 @@ A linked attribute on a cross reference object for a partition. Lists the DC tha
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 2114                                       |
 | MAPI-Id                | \-                                         |

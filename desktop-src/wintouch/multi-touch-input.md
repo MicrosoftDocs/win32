@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Windows Touch Input
+# Windows Touch Input (Windows Touch Programming)
 
 This section contains programming references for Windows Touch input.
 

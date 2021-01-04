@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CGenericList.AddHead method
+# CGenericList.AddHead method (Wxlist.h)
 
 The `AddHead` method adds an item to the front of the list.
 

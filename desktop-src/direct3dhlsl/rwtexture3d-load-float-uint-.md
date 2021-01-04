@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int,uint) function
+# RWTexture3D::Load(int,uint) function
 
 Reads texture data and returns status about the operation.
 

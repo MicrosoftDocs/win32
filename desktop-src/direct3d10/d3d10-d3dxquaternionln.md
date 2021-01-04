@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXQuaternionLn function
+# D3DXQuaternionLn function (D3DX10Math.h)
 
 Calculates the natural logarithm.
 

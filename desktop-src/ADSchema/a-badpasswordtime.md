@@ -22,7 +22,7 @@ The last time and date that an attempt to log on to this account was made with a
 
 
 
-|                   |                                           |
+| Entry | Value |
 |-------------------|-------------------------------------------|
 | CN                | Bad-Password-Time                         |
 | Ldap-Display-Name | badPasswordTime                           |
@@ -49,7 +49,7 @@ The last time and date that an attempt to log on to this account was made with a
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -70,7 +70,7 @@ The last time and date that an attempt to log on to this account was made with a
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -91,7 +91,7 @@ The last time and date that an attempt to log on to this account was made with a
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -112,7 +112,7 @@ The last time and date that an attempt to log on to this account was made with a
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -133,7 +133,7 @@ The last time and date that an attempt to log on to this account was made with a
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -154,7 +154,7 @@ The last time and date that an attempt to log on to this account was made with a
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -175,7 +175,7 @@ The last time and date that an attempt to log on to this account was made with a
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

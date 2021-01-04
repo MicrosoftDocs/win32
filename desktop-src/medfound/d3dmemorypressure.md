@@ -15,7 +15,7 @@ api_location:
 - d3d9types.h
 ---
 
-# D3DMEMORYPRESSURE structure
+# D3DMEMORYPRESSURE structure (D3d9types.h)
 
 Contains data for memory pressure reporting.
 
@@ -61,7 +61,7 @@ The overall efficiency of the memory allocations that were placed in nonoptimal 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                 |

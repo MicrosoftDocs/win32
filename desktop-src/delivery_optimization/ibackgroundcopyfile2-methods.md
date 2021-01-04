@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# IBackgroundCopyFile2 Methods
+# IBackgroundCopyFile2 Methods (DO)
 
 The [**IBackgroundCopyFile2**](ibackgroundcopyfile2.md) interface exposes the following methods.
 

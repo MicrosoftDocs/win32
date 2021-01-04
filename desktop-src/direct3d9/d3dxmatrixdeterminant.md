@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXMatrixDeterminant function
+# D3DXMatrixDeterminant function (D3dx9math.h)
 
 Returns the determinant of a matrix.
 

@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVec3Unproject function
+# D3DXVec3Unproject function (D3DX10Math.h)
 
 Projects a vector from screen space into object space.
 

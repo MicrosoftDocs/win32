@@ -87,7 +87,7 @@ The **Win32\_ClassicCOMApplicationClasses** class is derived from [**Win32\_COMA
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

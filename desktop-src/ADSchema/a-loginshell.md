@@ -21,7 +21,7 @@ Contains the path to the login shell.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | loginShell                           |
 | Ldap-Display-Name | loginShell                           |
@@ -45,7 +45,7 @@ Contains the path to the login shell.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | \-                                                |
 | MAPI-Id                | \-                                                |
@@ -66,7 +66,7 @@ Contains the path to the login shell.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | \-                                                |
 | MAPI-Id                | \-                                                |
@@ -87,7 +87,7 @@ Contains the path to the login shell.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | \-                                                |
 | MAPI-Id                | \-                                                |
@@ -108,7 +108,7 @@ Contains the path to the login shell.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | \-                                                |
 | MAPI-Id                | \-                                                |

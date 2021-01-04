@@ -28,7 +28,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Architecture
+# Architecture (Text Services Framework)
 
 Text Services Framework includes three primary components:
 

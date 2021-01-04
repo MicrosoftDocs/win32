@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int) function
+# RWStructuredBuffer::Load(int) function
 
 Reads buffer data.
 

@@ -22,7 +22,7 @@ The time that an incorrect password was presented during a Ctrl+Alt+Delete logon
 
 
 
-|                   |                                          |
+| Entry | Value |
 |-------------------|------------------------------------------|
 | CN                | ms-DS-Last-Failed-Interactive-Logon-Time |
 | Ldap-Display-Name | msDS-LastFailedInteractiveLogonTime      |
@@ -45,7 +45,7 @@ The time that an incorrect password was presented during a Ctrl+Alt+Delete logon
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ The time that an incorrect password was presented during a Ctrl+Alt+Delete logon
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ The time that an incorrect password was presented during a Ctrl+Alt+Delete logon
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

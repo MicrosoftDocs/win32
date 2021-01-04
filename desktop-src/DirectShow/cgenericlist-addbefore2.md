@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CGenericList.AddBefore method
+# CGenericList.AddBefore method (Wxlist.h)
 
 The `AddBefore` method inserts a list before the specified position.
 

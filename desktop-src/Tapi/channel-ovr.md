@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Channel
+# Channel (Telephony API)
 
 Each line has one or more channels. The service providers normally handle how channels are exposed as addresses to an application, and the end user or server does not require specific knowledge of channels.
 

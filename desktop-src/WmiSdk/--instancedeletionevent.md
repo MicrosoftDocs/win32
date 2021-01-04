@@ -109,7 +109,7 @@ The [Monitor process deletion event](https://Gallery.TechNet.Microsoft.Com/060a9
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

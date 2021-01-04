@@ -58,7 +58,7 @@ The **RPC\_C\_OPT\_DONT\_LINGER** option can be set only on binding handles that
 
 
 
-|                                     |                                                                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                 |

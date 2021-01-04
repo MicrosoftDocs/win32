@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# D3DX Functions
+# D3DX Functions (Direct3D 9 Graphics)
 
 This section contains reference information for the functions that you need to implement when you work with the D3DX utility library. The following functions are implemented.
 

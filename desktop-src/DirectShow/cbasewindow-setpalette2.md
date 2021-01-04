@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CBaseWindow.SetPalette method
+# CBaseWindow.SetPalette method (Winutil.h)
 
 The `SetPalette` method installs a palette for the window.
 

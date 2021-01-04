@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXSHEvalDirectionalLight function
+# D3DXSHEvalDirectionalLight function (D3dx9math.h)
 
 Evaluates a [directional light](light-types.md) and returns spectral spherical harmonic (SH) data.
 

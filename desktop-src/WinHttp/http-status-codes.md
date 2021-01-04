@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# HTTP Status Codes
+# HTTP Status Codes (Winhttp.h)
 
 These constants and corresponding values indicate HTTP status codes returned by servers on the Internet.
 
@@ -536,7 +536,7 @@ The server does not support the HTTP protocol version that was used in the reque
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>      |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>   |

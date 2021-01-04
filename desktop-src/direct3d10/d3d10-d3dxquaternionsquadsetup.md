@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXQuaternionSquadSetup function
+# D3DXQuaternionSquadSetup function (D3DX10Math.h)
 
 Sets up control points for spherical quadrangle interpolation.
 

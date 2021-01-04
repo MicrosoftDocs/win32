@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixRotationZ function
+# D3DXMatrixRotationZ function (D3DX10Math.h)
 
 Builds a matrix that rotates around the z-axis.
 

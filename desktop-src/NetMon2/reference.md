@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Reference
+# Reference (Network Monitor)
 
 This section provides complete reference information for the following COM interfaces, functions, and structures used to develop expert, parser, and NPP applications.
 

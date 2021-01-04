@@ -15,7 +15,7 @@ api_location:
 - PortableDevice.h
 ---
 
-# Event Attributes
+# Event Attributes (PortableDevice.h)
 
 For Windows 7, Windows Portable Devices supports the following attributes for events of a device service. These attributes are returned by the [**IPortableDeviceServiceCapabilities::GetEventAttributes**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-geteventattributes) method.
 

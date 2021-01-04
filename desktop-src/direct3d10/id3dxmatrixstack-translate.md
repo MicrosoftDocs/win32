@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# ID3DXMATRIXStack::Translate method
+# ID3DXMATRIXStack::Translate method (D3DX10.h)
 
 Determines the product of the current matrix and the computed translation matrix determined by the given factors (x, y, and z).
 

@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# COARefTime.operator= method
+# COARefTime.operator= method (Ctlutil.h)
 
 This operator assigns a new reference time.
 

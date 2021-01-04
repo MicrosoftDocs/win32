@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumerated Types
+# Enumerated Types (Windows Controls)
 
 -   [**PROPERTYORIGIN**](/windows/desktop/api/Uxtheme/ne-uxtheme-propertyorigin)
 -   [**THEMESIZE**](/windows/desktop/api/Uxtheme/ne-uxtheme-themesize)

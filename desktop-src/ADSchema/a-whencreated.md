@@ -22,7 +22,7 @@ The date when this object was created. This value is replicated and is in the gl
 
 
 
-|                   |                                                               |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------|
 | CN                | When-Created                                                  |
 | Ldap-Display-Name | whenCreated                                                   |
@@ -49,7 +49,7 @@ The date when this object was created. This value is replicated and is in the gl
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x3007                          |
@@ -70,7 +70,7 @@ The date when this object was created. This value is replicated and is in the gl
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x3007                          |
@@ -91,7 +91,7 @@ The date when this object was created. This value is replicated and is in the gl
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x3007                          |
@@ -112,7 +112,7 @@ The date when this object was created. This value is replicated and is in the gl
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x3007                          |
@@ -133,7 +133,7 @@ The date when this object was created. This value is replicated and is in the gl
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x3007                          |
@@ -154,7 +154,7 @@ The date when this object was created. This value is replicated and is in the gl
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x3007                          |
@@ -175,7 +175,7 @@ The date when this object was created. This value is replicated and is in the gl
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x3007                          |

@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherAlpha(S,float,int2,int2,int2,int2,uint) function
+# Texture2DArray::GatherAlpha(S,float,int2,int2,int2,int2,uint) function
 
 Samples a texture and returns the alpha component along with status about the operation.
 

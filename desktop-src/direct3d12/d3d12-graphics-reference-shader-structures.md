@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Shader Structures
+# Shader Structures (Direct3D 12 Graphics)
 
 d3d12shader.h declares the following structures, which are used to create and use shaders.
 

@@ -413,7 +413,7 @@ The [Modify PMTUBH Detection on All Network Adapters](https://Gallery.TechNet.Mi
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

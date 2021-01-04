@@ -17,7 +17,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# DRM\_LICENSE\_STATE\_DATA structure
+# DRM_LICENSE_STATE_DATA structure (Drmexternals.h)
 
 The **DRM\_LICENSE\_STATE\_DATA** structure contains [*license*](wmformat-glossary.md) information about a specified [*DRM*](wmformat-glossary.md) right.
 
@@ -125,7 +125,7 @@ In some cases, users may have been issued more than one license for a file. For 
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                      |

@@ -22,7 +22,7 @@ Reference to the primary member of a replica set.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | FRS-Primary-Member                      |
 | Ldap-Display-Name | fRSPrimaryMember                        |
@@ -48,7 +48,7 @@ Reference to the primary member of a replica set.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | 106                                                       |
 | MAPI-Id                | \-                                                        |
@@ -69,7 +69,7 @@ Reference to the primary member of a replica set.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | 106                                                       |
 | MAPI-Id                | \-                                                        |
@@ -90,7 +90,7 @@ Reference to the primary member of a replica set.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | 106                                                       |
 | MAPI-Id                | \-                                                        |
@@ -111,7 +111,7 @@ Reference to the primary member of a replica set.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | 106                                                       |
 | MAPI-Id                | \-                                                        |
@@ -132,7 +132,7 @@ Reference to the primary member of a replica set.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | 106                                                       |
 | MAPI-Id                | \-                                                        |
@@ -153,7 +153,7 @@ Reference to the primary member of a replica set.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | 106                                                       |
 | MAPI-Id                | \-                                                        |

@@ -427,7 +427,7 @@ The [Enable IPSec on a Network Adapter](https://Gallery.TechNet.Microsoft.Com/ff
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

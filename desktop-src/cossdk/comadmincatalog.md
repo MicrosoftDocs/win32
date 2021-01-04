@@ -25,7 +25,7 @@ This class is implemented by COM+.
 
 
 
-|            |                                                                                                                   |
+| Requirement | Value |
 |------------|-------------------------------------------------------------------------------------------------------------------|
 | CLSID      | CLSID\_COMAdminCatalog                                                                                            |
 | ProgID     | L"COMAdmin.COMAdminCatalog"                                                                                       |
@@ -59,7 +59,7 @@ In COM+ 1.5, released with Windows XP, the **COMAdminCatalog** class implements 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

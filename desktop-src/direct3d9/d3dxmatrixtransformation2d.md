@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXMatrixTransformation2D function
+# D3DXMatrixTransformation2D function (D3dx9math.h)
 
 Builds a 2D transformation matrix that represents transformations in the xy plane. **NULL** arguments are treated as identity transformations.
 

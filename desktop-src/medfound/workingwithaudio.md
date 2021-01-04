@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Working with Audio
+# Working with Audio (Microsoft Media Foundation)
 
 This section describes how to encode and decode audio with the Windows Media Audio codecs, and addresses the particular features of each. This section contains the following topics.
 

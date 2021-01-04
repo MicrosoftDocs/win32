@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Interfaces
+# Interfaces (Windows Property System)
 
 This section describes the Windows Property System interfaces.
 

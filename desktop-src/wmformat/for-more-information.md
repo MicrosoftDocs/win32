@@ -13,7 +13,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# For More Information
+# For More Information (Windows Media Format SDK)
 
 -   For the latest information about known issues with the Windows Media Format SDK, see the release notes posted on the [MSDN Library Web site](https://msdn.microsoft.com/library/?url=/library/dnwmt/html/wmfsdk11_b2_release_notes_rzxb.asp?frame=true).
 -   For features, articles, and answers to frequently asked questions about streaming media in general and the Windows Media SDKs in particular, see the Windows Media Developer Center at the [Microsoft Web site](https://msdn.microsoft.com/windowsmedia/default.aspx).

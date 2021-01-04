@@ -31,7 +31,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_Memory class
+# CIM_Memory class (Hyper-V management)
 
 Represents the capabilities and management of memory-related logical devices.
 
@@ -493,7 +493,7 @@ Access type: Read-only
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# ID3DXMATRIXStack::RotateYawPitchRollLocal method
+# ID3DXMATRIXStack::RotateYawPitchRollLocal method (D3dx9math.h)
 
 Rotates (relative to the object's local coordinate space) around an arbitrary axis.
 

@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# Create method of the Win32\_Service class
+# Create method of the Win32_Service class (CIMWin32 WMI Providers)
 
 The **Create** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method creates a new system service.
 
@@ -466,7 +466,7 @@ errReturn = objService.Create ("DbService", "Personnel Database", _
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

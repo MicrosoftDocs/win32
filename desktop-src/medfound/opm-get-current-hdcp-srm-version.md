@@ -12,7 +12,7 @@ Returns the version number of the system renewability message (SRM) currently us
 
 
 
-|              |                                                                             |
+| Requirement | Value |
 |--------------|-----------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_CURRENT\_HDCP\_SRM\_VERSION                                       |
 | Input data   | None                                                                        |
@@ -45,7 +45,7 @@ This query can cause the [**IOPMVideoOutput::GetInformation**](/windows/desktop/
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

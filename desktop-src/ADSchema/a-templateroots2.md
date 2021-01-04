@@ -22,7 +22,7 @@ This attribute is used on the Exchange config container to indicate where the te
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Template-Roots2                         |
 | Ldap-Display-Name | templateRoots2                          |
@@ -45,7 +45,7 @@ This attribute is used on the Exchange config container to indicate where the te
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | 2126                                                                                 |
 | MAPI-Id                | \-                                                                                   |
@@ -66,7 +66,7 @@ This attribute is used on the Exchange config container to indicate where the te
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | 2126                                                                                 |
 | MAPI-Id                | \-                                                                                   |
@@ -87,7 +87,7 @@ This attribute is used on the Exchange config container to indicate where the te
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | 2126                                                                                 |
 | MAPI-Id                | \-                                                                                   |

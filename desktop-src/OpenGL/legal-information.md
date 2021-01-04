@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Legal Information
+# Legal Information (OpenGL)
 
 **OpenGL Programmer's Reference**
 

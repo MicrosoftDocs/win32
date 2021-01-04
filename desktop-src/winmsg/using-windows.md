@@ -43,7 +43,7 @@ hwndMain = CreateWindowEx(
     CW_USEDEFAULT,          // default height               
     (HWND) NULL,            // no parent or owner window    
     (HMENU) NULL,           // class menu used              
-    hinstance,              // instance handle              
+    hinst,                  // instance handle              
     NULL);                  // no window creation data      
  
 if (!hwndMain) 

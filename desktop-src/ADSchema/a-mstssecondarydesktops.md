@@ -22,7 +22,7 @@ This attribute represents the array of forward links to a user's secondary deskt
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-TS-Secondary-Desktops                |
 | Ldap-Display-Name | msTSSecondaryDesktops                   |
@@ -44,7 +44,7 @@ This attribute represents the array of forward links to a user's secondary deskt
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | 2172                              |
 | MAPI-Id                | \-                                |
@@ -65,7 +65,7 @@ This attribute represents the array of forward links to a user's secondary deskt
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | 2172                              |
 | MAPI-Id                | \-                                |

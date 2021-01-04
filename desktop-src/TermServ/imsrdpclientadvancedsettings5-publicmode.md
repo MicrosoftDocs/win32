@@ -65,7 +65,7 @@ Sets the public mode setting to **VARIANT\_TRUE** or **VARIANT\_FALSE**. If set 
 
 
 
-|                                     |                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                         |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |

@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXMatrixAffineTransformation2D function
+# D3DXMatrixAffineTransformation2D function (D3dx9math.h)
 
 Builds a 2D affine transformation matrix in the xy plane. **NULL** arguments are treated as identity transformations.
 

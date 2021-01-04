@@ -12,7 +12,7 @@ Gets the merit value of a hardware codec.
 
 
 
-|              |                                                                                           |
+| Requirement | Value |
 |--------------|-------------------------------------------------------------------------------------------|
 | Request GUID | **OPM\_GET\_CODEC\_INFO**                                                                 |
 | Input data   | An [**OPM\_GET\_CODEC\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_codec_info_parameters) structure   |
@@ -32,7 +32,7 @@ Generally, you should not use this command directly. To get the merit value for 
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                             |

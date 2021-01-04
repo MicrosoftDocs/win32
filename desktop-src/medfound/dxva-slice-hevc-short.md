@@ -57,7 +57,7 @@ If off-host bitstream parsing is used, this value indicates the bad slice choppi
 
 
 
-|       |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Value | Description                                                                                                                                                                                                                                             |
 | 0     | All bits for the slice are located within the corresponding bitstream data buffer.                                                                                                                                                                      |
@@ -79,7 +79,7 @@ If off-host bitstream parsing is used, this value indicates the bad slice choppi
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                           |

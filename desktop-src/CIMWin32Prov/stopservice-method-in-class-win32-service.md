@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# StopService method of the Win32\_Service class
+# StopService method of the Win32_Service class (Sdoias.h)
 
 The **StopService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method places the service, represented by the [**Win32\_Service**](win32-service.md) object, in the stopped state.
 
@@ -335,7 +335,7 @@ WScript.Echo "Return value: " & Return
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

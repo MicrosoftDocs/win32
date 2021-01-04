@@ -112,7 +112,7 @@ The **MSMCAInfo\_RawCMCEvent** class is derived from [**WMIEvent**](wmievent.md)
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                         |

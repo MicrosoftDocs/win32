@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# ResumeService method of the Win32\_Service class
+# ResumeService method of the Win32_Service class (CIMWin32 WMI Providers)
 
 The **ResumeService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method attempts to place the referenced service in the resumed state.
 
@@ -319,7 +319,7 @@ else
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

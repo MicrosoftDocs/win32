@@ -15,7 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_DiskDrive class
+# CIM_DiskDrive class (Hyper-V management)
 
 Represents a disk drive.
 
@@ -36,7 +36,7 @@ The **CIM\_DiskDrive** class does not define any members.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

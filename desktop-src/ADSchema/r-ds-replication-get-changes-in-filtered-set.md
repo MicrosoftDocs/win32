@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 
 
-|              |                                               |
+| Entry | Value |
 |--------------|-----------------------------------------------|
 | CN           | DS-Replication-Get-Changes-In-Filtered-Set    |
 | Display-Name | Replicating Directory Changes In Filtered Set |
@@ -37,7 +37,7 @@ ms.date: 05/31/2018
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 77                                                                                                                               |
@@ -48,7 +48,7 @@ ms.date: 05/31/2018
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 77                                                                                                                               |
@@ -59,7 +59,7 @@ ms.date: 05/31/2018
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 77                                                                                                                               |

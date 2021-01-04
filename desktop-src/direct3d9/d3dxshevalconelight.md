@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXSHEvalConeLight function
+# D3DXSHEvalConeLight function (D3dx9math.h)
 
 Evaluates a light that is a cone of constant intensity and returns spectral spherical harmonic (SH) data.
 

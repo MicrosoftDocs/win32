@@ -62,7 +62,7 @@ This function is not defined in a header file. You should implement and export t
 
 
 
-|                                     |                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------|
 | Minimum supported client<br/> | None supported<br/>         |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/> |

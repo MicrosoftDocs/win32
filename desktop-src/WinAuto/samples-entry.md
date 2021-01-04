@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Samples
+# Samples (UI Automation)
 
 The following sample applications demonstrate how to use the unmanaged Microsoft UI Automation provider and client APIs. 
 

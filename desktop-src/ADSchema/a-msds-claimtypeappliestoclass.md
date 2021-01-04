@@ -22,7 +22,7 @@ For a claim type object, this linked attribute points to the AD security princip
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Claim-Type-Applies-To-Class       |
 | Ldap-Display-Name | msDS-ClaimTypeAppliesToClass            |
@@ -43,7 +43,7 @@ For a claim type object, this linked attribute points to the AD security princip
 
 
 
-|                        |                                                         |
+| Entry | Value |
 |------------------------|---------------------------------------------------------|
 | Link-Id                | 2176                                                    |
 | MAPI-Id                | \-                                                      |

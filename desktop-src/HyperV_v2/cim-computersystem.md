@@ -20,7 +20,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_ComputerSystem class
+# CIM_ComputerSystem class (Hyper-V management)
 
 Represents a collection that provides computing capabilities and consists of [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md) objects.
 
@@ -691,7 +691,7 @@ Indicates whether the system supports the hardware reset operation.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

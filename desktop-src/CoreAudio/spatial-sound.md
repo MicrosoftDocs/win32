@@ -2,7 +2,7 @@
 description: Microsoft Spatial Sound is Microsoft’s platform-level solution for spatial sound support on Xbox, Windows and HoloLens 2, enabling both surround and elevation (above or below the listener) audio cues.
 ms.assetid: 4F962F1A-CA4A-4018-BA97-516EA3519650
 title: Spatial Sound for Developers
-ms.custom: contperfq1
+ms.custom: contperf-fy21q1
 ms.topic: article
 ms.date: 09/18/2020
 ---

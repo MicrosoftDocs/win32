@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# SetSecurityDescriptor method of the Win32\_Service class
+# SetSecurityDescriptor method of the Win32_Service class (CIMWin32 WMI Providers)
 
 The **SetSecurityDescriptor** method writes an updated version of the security descriptor that controls access to the service.
 
@@ -266,7 +266,7 @@ When a new SACL is **NULL** in a call this method, then the security descriptor 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

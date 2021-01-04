@@ -90,7 +90,7 @@ The **Win32\_PrinterDriverDll** class is derived from [**CIM\_Dependency**](cim-
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

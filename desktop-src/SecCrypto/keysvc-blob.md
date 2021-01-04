@@ -53,7 +53,7 @@ A pointer to a **BYTE** that contains the BLOB, in [*PKCS \#12*](../secgloss/p-g
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

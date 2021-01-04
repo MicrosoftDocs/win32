@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixRotationAxis function
+# D3DXMatrixRotationAxis function (D3DX10Math.h)
 
 Builds a matrix that rotates around an arbitrary axis.
 

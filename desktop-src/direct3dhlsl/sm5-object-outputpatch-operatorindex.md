@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Operator\[\] function
+# OutputPatch::Operator  function
 
 Returns the *n*<sup>th</sup> control point in the patch.
 

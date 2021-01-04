@@ -34,7 +34,7 @@ Set this property when you create a CDM by calling [IMFContentDecryptionModuleAc
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 April 2020 Update<br/>                                     |
 | Header<br/>                   | <dl> <dt>mfcontentdecryptionmodule.h</dt> </dl> |

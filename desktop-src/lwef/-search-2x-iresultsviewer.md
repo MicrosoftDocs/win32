@@ -83,7 +83,7 @@ These methods and properties are used to manipulate the information viewed.
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |

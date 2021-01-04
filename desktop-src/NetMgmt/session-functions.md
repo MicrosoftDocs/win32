@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Session Functions
+# Session Functions (Network Management)
 
 The network management session functions control network sessions established between workstations and servers. The functions require that the server service be started on the server.
 

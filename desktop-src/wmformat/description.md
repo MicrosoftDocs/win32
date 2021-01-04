@@ -14,7 +14,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Description
+# Description (Windows Media Format 11 SDK)
 
 The **Description** attribute contains a description of the content of the file.
 

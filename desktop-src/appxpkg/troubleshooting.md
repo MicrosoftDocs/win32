@@ -8,6 +8,7 @@ manager: dcscontentpm
 ms.custom: 
 - CI 111497
 - CSSTroubleshooting
+- contperf-fy21q2
 ---
 
 # Troubleshooting packaging, deployment, and query of Windows apps
@@ -50,7 +51,7 @@ Get-Appxlog | Out-GridView
 
 ## Common error codes
 
-This table lists the most common error codes.
+This table lists some of the most common error codes. If you need further help with one of these errors, or if you're encountering an error code not in this list, see [additional help options](#get-additional-help).
 
 <table>
 <colgroup>
@@ -556,7 +557,7 @@ If the package contains \AppxMetadata\CodeIntegrity.cat, it must also contain \A
 </tbody>
 </table>
 
-## Applications don't start and their names are dimmed in Windows 10
+## Applications don't start and their names are dimmed
 
 On a Windows 10-based computer, you cannot start some applications, and the application names appear dimmed.
 
@@ -591,19 +592,21 @@ This issue occurs because the registry entry for the status value of application
 To fix this issue:
 
 1. Start Registry Editor, and then locate the **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModel\StateChange\PackageList** subkey.
-
-1. To back up the subkey data, right-click **PackageList**, select **Export**, and then save the data as a registry file.
-1. For each of the applications that are listed in the Event ID 5960 log entries, follow these steps:  
+2. To back up the subkey data, right-click **PackageList**, select **Export**, and then save the data as a registry file.
+3. For each of the applications that are listed in the Event ID 5960 log entries, follow these steps:  
    1. Locate the **PackageStatus** entry.
-
-   1. Set the value of **PackageStatus** to zero (**0**).
+   2. Set the value of **PackageStatus** to zero (**0**).
    > [!NOTE]  
-   >- If there are no entries for the application under **PackageList**, then the issue has some other cause.
-   >- In the case of the example event in this article, the full subkey is as follows:
-   >    ```
-   >    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModel\StateChange\PackageList\Microsoft.BingNews_8wekyb3d8bbwe!AppexNews\PackageStatus
-   >    ```
-1. Restart the computer.
+   > If there are no entries for the application under **PackageList**, then the issue has some other cause. In the case of the example event in this article, the full subkey is **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModel\StateChange\PackageList\Microsoft.BingNews_8wekyb3d8bbwe!AppexNews\PackageStatus**
+4. Restart the computer.
+
+## Get additional help
+
+If you need further help with resolving a problem you are experience when packaging, deploying, or querying a Windows app package (.msix/.appx) as a developer, refer to these additional developer support resources.
+
+- [Microsoft Q&A](https://docs.microsoft.com/answers/topics/uwp.html?sort=active&filter=all) offers relevant and timely answers to your technical problems from a community of experts and Microsoft engineers.
+- For community assistance with development questions, there are our [forums](https://social.msdn.microsoft.com/Forums/newthread?category=windowsapps&forum=wpdevelop&prof=required), and [StackOverflow](https://stackoverflow.com/questions).
+- The [Windows developer support](https://developer.microsoft.com/windows/support) site explains other support options.
 
 ## Related topics
 

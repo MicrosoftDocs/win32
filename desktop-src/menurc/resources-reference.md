@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Resource Reference
+# Resource Reference (Menus and Other Resources)
 
 ## In This Section
 

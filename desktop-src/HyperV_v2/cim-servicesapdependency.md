@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_ServiceSAPDependency class
+# CIM_ServiceSAPDependency class (Hyper-V management)
 
 Represents an association between a service and a service access point (SAP) that provides the service with functionality.
 
@@ -80,7 +80,7 @@ The service that is dependent on the SAP.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

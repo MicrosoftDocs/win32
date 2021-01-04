@@ -61,7 +61,7 @@ The status of a service has changed. The *hService* parameter of the [**Subscrib
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                       |

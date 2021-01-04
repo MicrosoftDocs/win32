@@ -22,7 +22,7 @@ Terminal Services Default To Main Printer specifies whether to print automatical
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-TS-Default-To-Main-Printer        |
 | Ldap-Display-Name | msTSDefaultToMainPrinter             |
@@ -45,7 +45,7 @@ Terminal Services Default To Main Printer specifies whether to print automatical
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Terminal Services Default To Main Printer specifies whether to print automatical
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Terminal Services Default To Main Printer specifies whether to print automatical
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

@@ -32,7 +32,7 @@ If you wish to take advantage of driver optimizations for root signature descrip
 
 The enum [**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_type) defines the types of descriptors that can be referenced as part of a descriptor table layout definition.
 
-It is a range so that, for example if part of a descriptor table a descriptor table has 100 SRVs, that range can be declared in one entry rather than 100. So a descriptor table definition is a collection of ranges.
+It is a range so that, for example if part of a descriptor table has 100 SRVs, that range can be declared in one entry rather than 100. So a descriptor table definition is a collection of ranges.
 
 ``` syntax
 typedef enum D3D12_DESCRIPTOR_RANGE_TYPE
@@ -48,7 +48,7 @@ typedef enum D3D12_DESCRIPTOR_RANGE_TYPE
 
 The [**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range) structure defines a range of descriptors of a given type (such as SRVs) within a descriptor table.
 
-The `D3D12_DESCRIPTOR_RANGE_OFFSET_APPEND` \#define can typically be used for the `OffsetInDescriptorsFromTableStart` parameter of [**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range). This means append the descriptor range being defined after the previous one in the descriptor table. If the application wants to alias descriptors or for some reason wants to skip slots, it can set `OffsetInDescriptorsFromTableStart` to whatever offset is desired. Defining overlapping ranges of different types is invalid.
+The `D3D12_DESCRIPTOR_RANGE_OFFSET_APPEND` macro can typically be used for the `OffsetInDescriptorsFromTableStart` parameter of [**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range). This means append the descriptor range being defined after the previous one in the descriptor table. If the application wants to alias descriptors or for some reason wants to skip slots, it can set `OffsetInDescriptorsFromTableStart` to whatever offset is desired. Defining overlapping ranges of different types is invalid.
 
 The set of shader registers specified by the combination of `RangeType`, `NumDescriptors`, `BaseShaderRegister`, and `RegisterSpace` cannot conflict or overlap across any declarations in a root signature that have common [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility) (refer to the shader visibility section below).
 

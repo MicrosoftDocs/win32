@@ -22,7 +22,7 @@ Parameters for the key derivation algorithm.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-Kds-KDF-Param                                      |
 | Ldap-Display-Name | msKds-KDFParam                                        |
@@ -43,7 +43,7 @@ Parameters for the key derivation algorithm.
 
 
 
-|                        |                                                                                                                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                                  |

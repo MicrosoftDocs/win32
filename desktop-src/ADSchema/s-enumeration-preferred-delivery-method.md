@@ -21,7 +21,7 @@ Enumeration(preferred-delivery-method) syntax.
 
 
 
-|              |                                                                           |
+| Entry | Value |
 |--------------|---------------------------------------------------------------------------|
 | Name         | Enumeration(Preferred-Delivery-Method)                                    |
 | Syntax ID    | 2.5.5.9                                                                   |

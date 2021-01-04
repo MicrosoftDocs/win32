@@ -53,7 +53,7 @@ Flags describing the operation to be performed on the address. If **CFG\_CALL\_T
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                 |

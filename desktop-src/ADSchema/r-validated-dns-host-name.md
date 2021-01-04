@@ -21,7 +21,7 @@ Validated write permission to enable setting of a DNS host name attribute that i
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Validated-DNS-Host-Name              |
 | Display-Name | Validated write to DNS host name     |
@@ -42,7 +42,7 @@ Validated write permission to enable setting of a DNS host name attribute that i
 
 
 
-|                         |                                           |
+| Entry | Value |
 |-------------------------|-------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> |
 | Localization-Display-ID | 13                                        |
@@ -53,7 +53,7 @@ Validated write permission to enable setting of a DNS host name attribute that i
 
 
 
-|                         |                                           |
+| Entry | Value |
 |-------------------------|-------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> |
 | Localization-Display-ID | 13                                        |
@@ -64,7 +64,7 @@ Validated write permission to enable setting of a DNS host name attribute that i
 
 
 
-|                         |                                           |
+| Entry | Value |
 |-------------------------|-------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> |
 | Localization-Display-ID | 13                                        |
@@ -75,7 +75,7 @@ Validated write permission to enable setting of a DNS host name attribute that i
 
 
 
-|                         |                                           |
+| Entry | Value |
 |-------------------------|-------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> |
 | Localization-Display-ID | 13                                        |
@@ -86,7 +86,7 @@ Validated write permission to enable setting of a DNS host name attribute that i
 
 
 
-|                         |                                                                                                                            |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> [**ms-DS-Managed-Service-Account**](c-msds-managedserviceaccount.md)<br/> |
 | Localization-Display-ID | 13                                                                                                                         |
@@ -97,7 +97,7 @@ Validated write permission to enable setting of a DNS host name attribute that i
 
 
 
-|                         |                                                                                                                            |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> [**ms-DS-Managed-Service-Account**](c-msds-managedserviceaccount.md)<br/> |
 | Localization-Display-ID | 13                                                                                                                         |

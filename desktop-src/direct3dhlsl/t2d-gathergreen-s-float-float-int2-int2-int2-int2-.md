@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherGreen(S,float,int2,int2,int2,int2) function
+# Texture2D::GatherGreen(S,float,int2,int2,int2,int2) function
 
 Samples a texture and returns the green component.
 

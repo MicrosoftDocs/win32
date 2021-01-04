@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Interface
+# Interface (COM)
 
 An optional entry that specifies all interface IDs (IIDs) supported by the associated class.
 

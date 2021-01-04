@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Shader Functions
+# Shader Functions (Direct3D 9 Graphics)
 
 D3DX supplies the following shader functions.
 

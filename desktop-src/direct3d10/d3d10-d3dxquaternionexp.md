@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXQuaternionExp function
+# D3DXQuaternionExp function (D3DX10Math.h)
 
 Calculates the exponential.
 

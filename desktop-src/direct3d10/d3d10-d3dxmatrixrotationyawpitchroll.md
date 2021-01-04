@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixRotationYawPitchRoll function
+# D3DXMatrixRotationYawPitchRoll function (D3DX10Math.h)
 
 Builds a matrix with a specified yaw, pitch, and roll.
 

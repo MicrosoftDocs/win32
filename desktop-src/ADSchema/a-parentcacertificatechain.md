@@ -22,7 +22,7 @@ DER-encoded X.509v3 certificate for the parent certification authority.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Parent-CA-Certificate-Chain                           |
 | Ldap-Display-Name | parentCACertificateChain                              |
@@ -48,7 +48,7 @@ DER-encoded X.509v3 certificate for the parent certification authority.
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |
@@ -69,7 +69,7 @@ DER-encoded X.509v3 certificate for the parent certification authority.
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |
@@ -90,7 +90,7 @@ DER-encoded X.509v3 certificate for the parent certification authority.
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |
@@ -111,7 +111,7 @@ DER-encoded X.509v3 certificate for the parent certification authority.
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |
@@ -132,7 +132,7 @@ DER-encoded X.509v3 certificate for the parent certification authority.
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |
@@ -153,7 +153,7 @@ DER-encoded X.509v3 certificate for the parent certification authority.
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |

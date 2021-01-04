@@ -19,7 +19,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# StartService method of the Win32\_Service class
+# StartService method of the Win32_Service class (Remote Desktop Services)
 
 The **StartService** method attempts to place the referenced service into its startup state.
 
@@ -234,7 +234,7 @@ If you start a stopped service that depends on another service, then both servic
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

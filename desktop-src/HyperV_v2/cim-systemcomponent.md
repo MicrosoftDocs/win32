@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_SystemComponent class
+# CIM_SystemComponent class (Hyper-V management)
 
 Represents an association between a system and one of the elements that compose it.
 
@@ -80,7 +80,7 @@ The child [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md) that is a
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

@@ -14,7 +14,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Creating ASF Files in DirectShow
+# Creating ASF Files in DirectShow (Windows Media Format 11 SDK)
 
 You can use DirectShow to create ASF files directly from capture sources such as DV camcorders or to transcode other files into Windows Media Format. In either scenario, applications create filter graphs that include the [WM ASF Writer](wm-asf-writer-filter.md) filter as the renderer.
 

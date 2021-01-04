@@ -26,7 +26,7 @@ This sample has the following requirements:
 
 
 
-|                          |                                                                                                         |
+| Requirement | Value |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 7                                                                                               |
 | Windows SDK              | [Windows Software Development Kit (SDK)](https://msdn.microsoft.com/windowsvista/bb980924.aspx) for Windows 7 |

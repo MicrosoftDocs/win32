@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# mips.Operator\[\]\[\] function
+# Texture1D::mips.Operator    function
 
 Returns a read-only resource variable or a [**Texture1D**](sm5-object-texture1d.md).
 

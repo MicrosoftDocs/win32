@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Message Functions
+# Message Functions (Windows and Messages)
 
 -   [**BroadcastSystemMessage**](/windows/win32/api/winuser/nf-winuser-broadcastsystemmessage)
 -   [**BroadcastSystemMessageEx**](/windows/win32/api/winuser/nf-winuser-broadcastsystemmessageexa)

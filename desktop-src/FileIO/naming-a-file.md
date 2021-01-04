@@ -2,7 +2,7 @@
 description: All file systems supported by Windows use the concept of files and directories to access data stored on a disk or device.
 ms.assetid: 121cd5b2-e6fd-4eb4-99b4-b652d27b53e8
 title: Naming Files, Paths, and Namespaces
-ms.custom: contperfq1
+ms.custom: contperf-fy21q1
 ms.topic: article
 ms.date: 09/15/2020
 ---

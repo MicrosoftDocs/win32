@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Description Property
+# Description Property (Windows Accessibility features)
 
 > [!Note]  
 > The **Description** property is often used incorrectly and is not supported by Microsoft UI Automation. Microsoft Active Accessibility server developers should not use this property. If more information is needed for accessibility and automation scenarios, use the properties supported by UI Automation elements and control patterns.

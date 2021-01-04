@@ -22,7 +22,7 @@ The password history of the user in LAN Manager (LM) one-way format (OWF). The L
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Lm-Pwd-History                                        |
 | Ldap-Display-Name | lmPwdHistory                                          |
@@ -48,7 +48,7 @@ The password history of the user in LAN Manager (LM) one-way format (OWF). The L
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -69,7 +69,7 @@ The password history of the user in LAN Manager (LM) one-way format (OWF). The L
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -90,7 +90,7 @@ The password history of the user in LAN Manager (LM) one-way format (OWF). The L
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -111,7 +111,7 @@ The password history of the user in LAN Manager (LM) one-way format (OWF). The L
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -132,7 +132,7 @@ The password history of the user in LAN Manager (LM) one-way format (OWF). The L
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -153,7 +153,7 @@ The password history of the user in LAN Manager (LM) one-way format (OWF). The L
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

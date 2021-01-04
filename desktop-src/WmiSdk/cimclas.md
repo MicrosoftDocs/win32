@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# CIM Classes
+# CIM Classes (WMI)
 
 The Distributed Management Task Force (DMTF) Common Information Model (CIM) classes are the parent classes upon which WMI classes are built. The following table lists the categories of CIM classes.
 

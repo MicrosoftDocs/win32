@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# IBackgroundCopyFile Methods
+# IBackgroundCopyFile Methods (BITS)
 
 The [**IBackgroundCopyFile**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyfile) interface exposes the following methods.
 

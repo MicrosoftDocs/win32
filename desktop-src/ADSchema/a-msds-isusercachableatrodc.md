@@ -22,7 +22,7 @@ For a Read-Only Domain Controller (RODC), identifies whether the specified user'
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Is-User-Cachable-At-Rodc       |
 | Ldap-Display-Name | msDS-IsUserCachableAtRodc            |
@@ -45,7 +45,7 @@ For a Read-Only Domain Controller (RODC), identifies whether the specified user'
 
 
 
-|                        |                                                                                                                          |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                       |
 | MAPI-Id                | \-                                                                                                                       |
@@ -66,7 +66,7 @@ For a Read-Only Domain Controller (RODC), identifies whether the specified user'
 
 
 
-|                        |                                                                                                                          |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                       |
 | MAPI-Id                | \-                                                                                                                       |
@@ -87,7 +87,7 @@ For a Read-Only Domain Controller (RODC), identifies whether the specified user'
 
 
 
-|                        |                                                                                                                          |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                       |
 | MAPI-Id                | \-                                                                                                                       |

@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumerations
+# Enumerations (Windows Update Agent)
 
 Enumerations in Structured Storage are data types that consist of a sequence of named values in a given order. An enumerated data type allows a member of a class of objects to be described in natural language. Enumerations are most useful in the context where all possible values of a variable are known and the expression of that variable in the programming language can therefore be expressed in natural-language words.
 

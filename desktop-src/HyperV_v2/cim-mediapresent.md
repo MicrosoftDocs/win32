@@ -18,7 +18,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_MediaPresent class
+# CIM_MediaPresent class (Hyper-V management)
 
 Represents a relationship in which a storage extent must be accessed through a media access device.
 
@@ -95,7 +95,7 @@ Access type: Read-only
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

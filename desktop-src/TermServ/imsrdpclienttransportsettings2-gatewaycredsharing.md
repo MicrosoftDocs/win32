@@ -58,7 +58,7 @@ This property is used by the ActiveX control to implement a single prompt for cr
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                    |

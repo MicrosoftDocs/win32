@@ -12,7 +12,7 @@ Returns the type of I/O bus used by the video output.
 
 
 
-|              |                                                                             |
+| Requirement | Value |
 |--------------|-----------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_ADAPTER\_BUS\_TYPE                                                |
 | Input data   | None                                                                        |
@@ -32,7 +32,7 @@ This query is equivalent to the DXVA\_COPPQueryBusData query used in Certified O
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

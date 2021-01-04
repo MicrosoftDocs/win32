@@ -21,7 +21,7 @@ Extended right checked when opening address book object for address book views.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Open-Address-Book                    |
 | Display-Name | Open Address List                    |
@@ -42,7 +42,7 @@ Extended right checked when opening address book object for address book views.
 
 
 
-|                         |                                                                     |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------|
 | Applies-To              | [**Address-Book-Container**](c-addressbookcontainer.md)<br/> |
 | Localization-Display-ID | 21                                                                  |
@@ -53,7 +53,7 @@ Extended right checked when opening address book object for address book views.
 
 
 
-|                         |                                                                     |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------|
 | Applies-To              | [**Address-Book-Container**](c-addressbookcontainer.md)<br/> |
 | Localization-Display-ID | 21                                                                  |
@@ -64,7 +64,7 @@ Extended right checked when opening address book object for address book views.
 
 
 
-|                         |                                                                     |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------|
 | Applies-To              | [**Address-Book-Container**](c-addressbookcontainer.md)<br/> |
 | Localization-Display-ID | 21                                                                  |
@@ -75,7 +75,7 @@ Extended right checked when opening address book object for address book views.
 
 
 
-|                         |                                                                     |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------|
 | Applies-To              | [**Address-Book-Container**](c-addressbookcontainer.md)<br/> |
 | Localization-Display-ID | 21                                                                  |
@@ -86,7 +86,7 @@ Extended right checked when opening address book object for address book views.
 
 
 
-|                         |                                                                     |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------|
 | Applies-To              | [**Address-Book-Container**](c-addressbookcontainer.md)<br/> |
 | Localization-Display-ID | 21                                                                  |
@@ -97,7 +97,7 @@ Extended right checked when opening address book object for address book views.
 
 
 
-|                         |                                                                     |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------|
 | Applies-To              | [**Address-Book-Container**](c-addressbookcontainer.md)<br/> |
 | Localization-Display-ID | 21                                                                  |

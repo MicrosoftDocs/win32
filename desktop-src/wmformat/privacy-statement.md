@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Privacy Statement
+# Privacy Statement (Windows Media Format 11 SDK)
 
 Developers who build applications on this software should clearly communicate to their end users how an end users' privacy could be affected. 
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Interfaces
+# Interfaces (Active Accessibility User Interface Services)
 
 This section contains information about interfaces used with Microsoft Active Accessibility.
 

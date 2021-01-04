@@ -19,7 +19,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_CollectionOfMSEs class
+# CIM_CollectionOfMSEs class (CIMWin32 WMI Providers)
 
 The **CIM\_CollectionOfMSEs** object allows the grouping of [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md) objects for the purpose of associating settings and configurations. It is abstract to require further definition and semantic refinement in subclasses.
 
@@ -104,7 +104,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

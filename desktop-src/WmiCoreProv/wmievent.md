@@ -82,7 +82,7 @@ The **WMIEvent** class is derived from [**\_\_ExtrinsicEvent**](/windows/desktop
 
 
 
-|                                     |                                                                                                                                                       |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                                                                              |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                                                                                        |

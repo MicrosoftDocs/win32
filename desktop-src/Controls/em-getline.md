@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# EM\_GETLINE message
+# EM_GETLINE message (Winuser.h)
 
 Copies a line of text from an edit control and places it in a specified buffer. You can send this message to either an edit control or a rich edit control.
 
@@ -52,7 +52,7 @@ The return value is the number of **TCHAR**s copied. The return value is zero if
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

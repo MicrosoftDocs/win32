@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Functions
+# Functions (Visual Styles Reference)
 
 -   [**BeginBufferedAnimation**](/windows/desktop/api/Uxtheme/nf-uxtheme-beginbufferedanimation)
 -   [**BeginBufferedPaint**](/windows/desktop/api/Uxtheme/nf-uxtheme-beginbufferedpaint)

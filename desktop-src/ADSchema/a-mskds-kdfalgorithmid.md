@@ -22,7 +22,7 @@ The algorithm name of the key derivation function used to compute keys.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-Kds-KDF-AlgorithmID                      |
 | Ldap-Display-Name | msKds-KDFAlgorithmID                        |
@@ -43,7 +43,7 @@ The algorithm name of the key derivation function used to compute keys.
 
 
 
-|                        |                                                                                                                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                                  |

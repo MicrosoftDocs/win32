@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Window Messages
+# Window Messages (Get Started with Win32 and C++)
 
 A GUI application must respond to events from the user and from the operating system.
 

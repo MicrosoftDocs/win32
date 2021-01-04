@@ -22,7 +22,7 @@ This attribute contains a number of certificates. A user can generate a certific
 
 
 
-|                   |                                                                                        |
+| Entry | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | CN                | MSMQ-Sign-Certificates                                                                 |
 | Ldap-Display-Name | mSMQSignCertificates                                                                   |
@@ -48,7 +48,7 @@ This attribute contains a number of certificates. A user can generate a certific
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
@@ -69,7 +69,7 @@ This attribute contains a number of certificates. A user can generate a certific
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
@@ -90,7 +90,7 @@ This attribute contains a number of certificates. A user can generate a certific
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
@@ -111,7 +111,7 @@ This attribute contains a number of certificates. A user can generate a certific
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
@@ -132,7 +132,7 @@ This attribute contains a number of certificates. A user can generate a certific
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
@@ -153,7 +153,7 @@ This attribute contains a number of certificates. A user can generate a certific
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |

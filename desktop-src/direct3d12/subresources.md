@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Subresources
+# Subresources (Direct3D 12 Graphics)
 
 Describes how a resource is divided into subresources, and how to reference a single, multiple or slice of subresources.
 

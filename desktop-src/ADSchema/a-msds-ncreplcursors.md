@@ -22,7 +22,7 @@ A list of past and present replication partners, and how current we are with eac
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-NC-Repl-Cursors                       |
 | Ldap-Display-Name | msDS-NCReplCursors                          |
@@ -48,7 +48,7 @@ A list of past and present replication partners, and how current we are with eac
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -69,7 +69,7 @@ A list of past and present replication partners, and how current we are with eac
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -90,7 +90,7 @@ A list of past and present replication partners, and how current we are with eac
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -111,7 +111,7 @@ A list of past and present replication partners, and how current we are with eac
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -132,7 +132,7 @@ A list of past and present replication partners, and how current we are with eac
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -153,7 +153,7 @@ A list of past and present replication partners, and how current we are with eac
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |

@@ -22,7 +22,7 @@ This class is used for objects that contain organizational information about a u
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Organizational-Person                |
 | Ldap-Display-Name | organizationalPerson                 |
@@ -47,7 +47,7 @@ This class is used for objects that contain organizational information about a u
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 2                                                                                            |
@@ -210,7 +210,7 @@ This class contains the following attributes for Windows 2000 Server:
 
 
 
-|                             |                                                                                                                           |
+| Entry | Value |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                     |
 | Object-Category             | 0                                                                                                                         |
@@ -396,7 +396,7 @@ This class contains the following attributes for Windows Server 2003:
 
 
 
-|                             |                                                                                                                           |
+| Entry | Value |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                     |
 | Object-Category             | 0                                                                                                                         |
@@ -585,7 +585,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 
 
-|                             |                                                                                                                           |
+| Entry | Value |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                     |
 | Object-Category             | 0                                                                                                                         |
@@ -791,7 +791,7 @@ This class contains the following attributes for Windows Server 2008:
 
 
 
-|                             |                                                                                                                           |
+| Entry | Value |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                     |
 | Object-Category             | 0                                                                                                                         |
@@ -1004,7 +1004,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                                                           |
+| Entry | Value |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                     |
 | Object-Category             | 0                                                                                                                         |

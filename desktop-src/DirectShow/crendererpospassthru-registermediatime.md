@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CRendererPosPassThru.RegisterMediaTime method
+# CRendererPosPassThru.RegisterMediaTime method (Ctlutil.h)
 
 The **RegisterMediaTime** method caches the time stamps from the current sample.
 

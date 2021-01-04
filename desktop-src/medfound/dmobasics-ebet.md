@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# DMO Basics
+# DMO Basics (Microsoft Media Foundation)
 
 This topic provides a brief overview of DMOs as they relate to Windows Media Codecs. For more information about DMOs, see [DirectX Media Objects](../directshow/directx-media-objects.md).
 

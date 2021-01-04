@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# ID3DXMATRIXStack::Push method
+# ID3DXMATRIXStack::Push method (D3DX10.h)
 
 Adds a matrix to the stack.
 

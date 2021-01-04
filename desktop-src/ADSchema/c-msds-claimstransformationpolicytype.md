@@ -22,7 +22,7 @@ An object of this class holds the one set of Claims Transformation Policy for Cr
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Claims-Transformation-Policy-Type |
 | Ldap-Display-Name | msDS-ClaimsTransformationPolicyType     |
@@ -42,7 +42,7 @@ An object of this class holds the one set of Claims Transformation Policy for Cr
 
 
 
-|                             |                                                                                     |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                               |
 | Object-Category             | 1                                                                                   |

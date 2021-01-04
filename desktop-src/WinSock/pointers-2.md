@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Pointers
+# Pointers (Windows Sockets 2)
 
 All pointers used by applications with Windows Sockets should be FAR, although this is only relevant to 16-bit applications and meaningless in a 32-bit. To facilitate this, data type definitions such as **LPHOSTENT** are provided.
 

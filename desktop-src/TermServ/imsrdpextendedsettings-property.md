@@ -48,103 +48,21 @@ HRESULT get_Property(
 
 The named property value.
 
-<dl> <dt>
-
-<span id="ConnectToChildSession"></span><span id="connecttochildsession"></span><span id="CONNECTTOCHILDSESSION"></span>ConnectToChildSession
-</dt> <dd> <dl> <dt>
-
-**Data type**: **VT\_BOOL**
-</dt> <dt>
-
-**Access**: Read/Write
-</dt> <dt>
-
-**Can be changed after connection started**: Yes
-</dt> <dt>
-
-**Description**: Setting this property to **True** causes the client control to connect to the child session on the local machine instead of a remote server. If this property is set to **true**, you cannot connect to a remote server because all connections are redirected to localhost. For more information about child sessions, see [Child Sessions](child-sessions.md).
-</dt> </dl> </dd> <dt>
-
-<span id="DisableCredentialsDelegation"></span><span id="disablecredentialsdelegation"></span><span id="DISABLECREDENTIALSDELEGATION"></span>DisableCredentialsDelegation
-</dt> <dd> <dl> <dt>
-
-**Data type**: **VT\_BOOL**
-</dt> <dt>
-
-**Access**: Read/Write
-</dt> <dt>
-
-**Can be changed after connection started**: No
-</dt> <dt>
-
-**Description**: If **True**, credentials are not sent to the remote server.
-</dt> </dl> </dd> <dt>
-
-<span id="EnableFrameBufferRedirection"></span><span id="enableframebufferredirection"></span><span id="ENABLEFRAMEBUFFERREDIRECTION"></span>EnableFrameBufferRedirection
-</dt> <dd> <dl> <dt>
-
-**Data type**: **VT\_BOOL**
-</dt> <dt>
-
-**Access**: Read/Write
-</dt> <dt>
-
-**Can be changed after connection started**: No
-</dt> <dt>
-
-**Description**: If **True**, frame buffer redirection is attempted. For a loopback connection (the same computer is both client and server) frame buffer redirection allows the memory for the frame buffer to be shared between the sessions.
-</dt> </dl> </dd> <dt>
-
-<span id="EnableHardwareMode"></span><span id="enablehardwaremode"></span><span id="ENABLEHARDWAREMODE"></span>EnableHardwareMode
-</dt> <dd> <dl> <dt>
-
-**Data type**: **VT\_BOOL**
-</dt> <dt>
-
-**Access**: Write Only
-</dt> <dt>
-
-**Can be changed after connection started**: No
-</dt> <dt>
-
-**Description**: If **True**, hardware assist with graphics decoding is attempted.
-</dt> </dl> </dd> <dt>
-
-<span id="IgnoreCursors"></span><span id="ignorecursors"></span><span id="IGNORECURSORS"></span>IgnoreCursors
-</dt> <dd> <dl> <dt>
-
-**Data type**: **VT\_BOOL**
-</dt> <dt>
-
-**Access**: Write Only
-</dt> <dt>
-
-**Can be changed after connection started**: No
-</dt> <dt>
-
-**Description**: If **True**, cursors sent by the remote server are ignored.
-</dt> </dl> </dd> <dt>
-
-<span id="ZoomLevel"></span><span id="zoomlevel"></span><span id="ZOOMLEVEL"></span>ZoomLevel
-</dt> <dd> <dl> <dt>
-
-**Data type**: **VT\_UI4**
-</dt> <dt>
-
-**Access**: Read/Write
-</dt> <dt>
-
-**Can be changed after connection started**: Yes
-</dt> <dt>
-
-**Description**: Implements the Zoom feature by using the RDP ActiveX control. The Zoom feature is available from the **System** menu of RDP. The **ZoomLevel** property has no effect in RemoteApp mode and full-screen mode. [**IMsRdpClientAdvancedSettings::SmartSizing**](imsrdpclientadvancedsettings-smartsizing.md) and **ZoomLevel** are mutually exclusive. 
-</dt> </dl> </dd> </dl>
+| Property name | Data type | Access | Can be changed after connection started | Description |
+|----------|-----------|--------|-----------------------------------------|-------------|
+| ConnectToChildSession | **VT\_BOOL** | Read/Write | Yes | Setting this property to **True** causes the client control to connect to the child session on the local machine instead of a remote server. If this property is set to **true**, you cannot connect to a remote server because all connections are redirected to localhost. For more information about child sessions, see [Child Sessions](child-sessions.md). |
+| DisableCredentialsDelegation | **VT\_BOOL** | Read/Write | No | If **True**, credentials are not sent to the remote server. |
+| EnableFrameBufferRedirection | **VT\_BOOL** | Read/Write | No | If **True**, frame buffer redirection is attempted. For a loopback connection (the same computer is both client and server) frame buffer redirection allows the memory for the frame buffer to be shared between the sessions. |
+| EnableHardwareMode | **VT\_BOOL**  | Write Only | No | If **True**, hardware assist with graphics decoding is attempted. |
+| IgnoreCursors | **VT\_BOOL** | Write Only | No | If **True**, cursors sent by the remote server are ignored. |
+| ManualClipboardSyncEnabled | **VT\_BOOL** | Read/Write | Yes | Setting this property to **True** means that the local and remote clipboards will not be automatically kept in sync. Instead the [**IMsRdpClipboard**](imsrdpclipboard.md) interface must be used to sync clipboard formats from the local clipboard to the remote clipboard and the remote clipboard to the local clipboard. |
+| ZoomLevel | ***VT\_UI4** | Read/Write | Yes | Implements the Zoom feature by using the RDP ActiveX control. The Zoom feature is available from the **System** menu of RDP. The **ZoomLevel** property has no effect in RemoteApp mode and full-screen mode. [**IMsRdpClientAdvancedSettings::SmartSizing**](imsrdpclientadvancedsettings-smartsizing.md) and **ZoomLevel** are mutually exclusive. |
 
 ## Requirements
 
 
 
-|                                     |                                                                                                                                                                                                                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                                                                                                                                                                                                                           |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                                                                                                                                                                                                                                 |

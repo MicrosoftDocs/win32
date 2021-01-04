@@ -2727,7 +2727,7 @@ The **Win32\_POTSModem** class is derived from [**CIM\_PotsModem**](cim-potsmode
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

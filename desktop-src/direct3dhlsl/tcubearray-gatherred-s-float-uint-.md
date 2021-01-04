@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherRed(S,float,uint) function
+# TextureCubeArray::GatherRed(S,float,uint) function
 
 Samples a texture and returns the red component along with status about the operation.
 

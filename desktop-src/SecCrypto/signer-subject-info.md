@@ -94,7 +94,7 @@ A pointer to a [**SIGNER\_BLOB\_INFO**](signer-blob-info.md) structure that spec
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

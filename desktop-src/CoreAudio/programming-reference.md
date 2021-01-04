@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Programming Reference
+# Core Audio Programming Reference
 
 This programming reference for the core audio APIs in Windows SDK contains the following sections:
 

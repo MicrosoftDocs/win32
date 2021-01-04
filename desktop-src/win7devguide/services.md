@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Services
+# Services (Windows 7 Developer Guide)
 
 Windows 7 provides a powerful, highly extensible, and manageable platform for building and integrating the web services and applications of the future.
 

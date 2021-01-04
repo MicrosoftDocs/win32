@@ -22,7 +22,7 @@ The maximum value or length of an attribute.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Range-Upper                          |
 | Ldap-Display-Name | rangeUpper                           |
@@ -49,7 +49,7 @@ The maximum value or length of an attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8114                                                   |
@@ -70,7 +70,7 @@ The maximum value or length of an attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8114                                                   |
@@ -91,7 +91,7 @@ The maximum value or length of an attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8114                                                   |
@@ -112,7 +112,7 @@ The maximum value or length of an attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8114                                                   |
@@ -133,7 +133,7 @@ The maximum value or length of an attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8114                                                   |
@@ -154,7 +154,7 @@ The maximum value or length of an attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8114                                                   |
@@ -175,7 +175,7 @@ The maximum value or length of an attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8114                                                   |

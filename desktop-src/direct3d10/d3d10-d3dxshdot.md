@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXSHDot function
+# D3DXSHDot function (D3DX10.h)
 
 Computes the dot product of two spherical harmonic (SH) vectors.
 

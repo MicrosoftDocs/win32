@@ -15,7 +15,7 @@ api_location:
 - d3dx9math.h
 ---
 
-# D3DXVECTOR3 structure
+# D3DXVECTOR3 structure (D3dx9math.h)
 
 Describes a three-component vector including operator overloads and type casts.
 

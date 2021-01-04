@@ -33,7 +33,7 @@ The following table shows areas where extra care needs to be taken when using an
 
 |                       | Concurrency  | WAN          | Deployment   | Complexity   |
 |-----------------------|--------------|--------------|--------------|--------------|
-| Parameters<br/> | X<br/> |              |              | X<br/> |
+| Entry | Value |
 | Recordsets<br/> |              | X<br/> | X<br/> | X<br/> |
 | XML<br/>        | X<br/> |              | X<br/> | X<br/> |
 | Arrays<br/>     | X<br/> |              | X<br/> | X<br/> |

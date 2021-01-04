@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Path Functions
+# Path Functions (Windows GDI)
 
 The following functions are used to create, alter, or draw paths.
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Caching
+# Caching (Windows Internet)
 
 The WinINet functions have simple, yet flexible, built-in caching support. Any data retrieved from the network is cached on the hard disk and retrieved for subsequent requests. The application can control the caching on each request. For http requests from the server, most headers received are also cached. When an http request is satisfied from the cache, the cached headers are also returned to the caller. This makes data download seamless, whether the data is coming from the cache or from the network.
 
