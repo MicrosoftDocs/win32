@@ -9,7 +9,7 @@ ms.topic: overview
 
 **UpdateOrchestrator** schedules your automatic software updates with user impact in mind. This API allows you to [specify actions](updateorchestratoractionkind.md), such as downloading or installing, along with their requirements in order to run updates at an optimal time that minimizes user-present impact. These features particularly benefit lower performance systems with limited or slower computing resources.
 
-Windows 20H1 includes a first-generation solution for automatic software update use cases that were adopted by OS updates and Store App updates and exposes an initial ‘Limited Access’ version of this API for a select set of 3rd party updaters of 'user-mode' apps as described below.
+Windows 20H1 includes a first-generation solution for automatic software update use cases that were adopted by OS updates and Store App updates and exposes an initial ‘Limited Access’ version of this API for a select set of updaters of 'user-mode' apps as described below.
 
 ## Features
 
