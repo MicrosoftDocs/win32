@@ -1,5 +1,5 @@
 ---
-Description: Stores and retrieves information about event subscriptions. This interface extends the IEventSubscription interface.
+description: Stores and retrieves information about event subscriptions. This interface extends the IEventSubscription interface.
 ms.assetid: f153afb7-c897-40f8-81ed-50308844cac5
 title: IEventSubscription2 interface
 ms.topic: reference

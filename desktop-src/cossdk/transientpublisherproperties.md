@@ -1,5 +1,5 @@
 ---
-Description: Contains an object for each transient publisher property for the parent TransientSubscriptions collection. Transient subscriptions can be created on the fly for running object instances, and they vanish when the object is destroyed.
+description: Contains an object for each transient publisher property for the parent TransientSubscriptions collection. Transient subscriptions can be created on the fly for running object instances, and they vanish when the object is destroyed.
 ms.assetid: 63921caa-5c22-4203-b1a3-f143928f4742
 title: TransientPublisherProperties collection
 ms.topic: reference

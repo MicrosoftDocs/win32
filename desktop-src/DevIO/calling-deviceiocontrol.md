@@ -1,5 +1,5 @@
 ---
-Description: Calling DeviceIoControl
+description: Calling DeviceIoControl
 ms.assetid: b4dbda89-effb-43f7-b3cc-774db57862a9
 title: Calling DeviceIoControl
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Contains extended module information.
+description: Contains extended module information.
 ms.assetid: 705769de-0aeb-4a28-b174-8620efa74baf
 title: AUX_MODULE_EXTENDED_INFO structure (Aux\_klib.h)
 ms.topic: reference

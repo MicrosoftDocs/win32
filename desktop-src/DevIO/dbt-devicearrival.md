@@ -1,5 +1,5 @@
 ---
-Description: The system broadcasts the DBT\_DEVICEARRIVAL device event when a device or piece of media has been inserted and becomes available.
+description: The system broadcasts the DBT\_DEVICEARRIVAL device event when a device or piece of media has been inserted and becomes available.
 ms.assetid: 8e44cb02-cf79-4b19-807e-20cea07362af
 title: DBT_DEVICEARRIVAL event (Dbt.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The DirectSoundFullDuplexCreate function is documented under a different name. For complete documentation of this function, see DirectSoundFullDuplexCreate8.
+description: The DirectSoundFullDuplexCreate function is documented under a different name. For complete documentation of this function, see DirectSoundFullDuplexCreate8.
 ms.assetid: 321d6dd5-b9bd-4cb9-93cb-8db7b7792579
 title: DirectSoundFullDuplexCreate function (Dsound.h)
 ms.topic: reference

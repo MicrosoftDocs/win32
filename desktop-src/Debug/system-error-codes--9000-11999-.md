@@ -1,5 +1,5 @@
 ---
-Description: Describes error codes 9000-11999 defined in the WinError.h header file and is intended for developers.
+description: Describes error codes 9000-11999 defined in the WinError.h header file and is intended for developers.
 ms.assetid: 27fe3fee-4ae3-43f1-a1f2-91c935e9851b
 title: System Error Codes (9000-11999) (WinError.h)
 ms.topic: reference

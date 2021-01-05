@@ -1,6 +1,6 @@
 ---
 title: IDeliveryOptimizationJob2 interface
-description: 
+description: "Learn more about: IDeliveryOptimizationJob2 interface"
 keywords:
 - IDeliveryOptimizationJob2 interface
 topic_type:

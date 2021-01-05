@@ -1,5 +1,5 @@
 ---
-Description: Aux Library
+description: Aux Library
 ms.assetid: 38EE42D8-9487-4297-BE8F-F42EBD5D5D73
 title: Aux Library
 ms.topic: article

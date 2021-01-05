@@ -1,5 +1,5 @@
 ---
-Description: Application recycling significantly increases the overall stability of your applications.
+description: Application recycling significantly increases the overall stability of your applications.
 ms.assetid: b0ae1b52-b0c5-4f1c-94c6-628d39ef40e3
 title: COM+ Application Recycling
 ms.topic: article

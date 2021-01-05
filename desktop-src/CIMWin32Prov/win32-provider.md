@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft&\#160;Win32 provider retrieves and updates data relevant to Windows systems&\#8212;data such as the current settings of environment variables and the attributes of a logical disk.
+description: The Microsoft&\#160;Win32 provider retrieves and updates data relevant to Windows systems&\#8212;data such as the current settings of environment variables and the attributes of a logical disk.
 ms.assetid: 71c13736-0504-4d50-b8a4-5d68d4ba9a90
 ms.tgt_platform: multiple
 title: Win32 Provider

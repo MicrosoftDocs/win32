@@ -1,5 +1,5 @@
 ---
-Description: Contains an object for each COM+ application installed on the local computer. The properties exposed by these objects hold all settings made at the application level.
+description: Contains an object for each COM+ application installed on the local computer. The properties exposed by these objects hold all settings made at the application level.
 ms.assetid: c0c46592-5282-412d-8f54-67637be8218a
 title: Applications collection
 ms.topic: reference

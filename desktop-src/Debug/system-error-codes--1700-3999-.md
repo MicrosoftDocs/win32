@@ -1,5 +1,5 @@
 ---
-Description: Describes error codes 1700-3999 defined in the WinError.h header file and is intended for developers.
+description: Describes error codes 1700-3999 defined in the WinError.h header file and is intended for developers.
 ms.assetid: 7e57c087-53e4-443d-9227-21d9eb3cc71f
 title: System Error Codes (1700-3999) (WinError.h)
 ms.topic: reference

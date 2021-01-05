@@ -1,5 +1,5 @@
 ---
-Description: The application GUID of the subscriber.
+description: The application GUID of the subscriber.
 ms.assetid: 46c91cae-ca31-4eac-baa8-d36910917f0f
 title: IEventSubscription3::SubscriberApplicationID property
 ms.topic: reference

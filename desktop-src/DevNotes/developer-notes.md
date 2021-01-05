@@ -1,5 +1,5 @@
 ---
-Description: This documentation set describes items that may be of interest to developers.
+description: This documentation set describes items that may be of interest to developers.
 ms.assetid: e320733e-a9ec-4ead-9601-c736e6288c7a
 title: Developer Notes
 ms.topic: article

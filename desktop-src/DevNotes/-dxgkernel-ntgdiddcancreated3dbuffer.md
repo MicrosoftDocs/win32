@@ -1,5 +1,5 @@
 ---
-Description: Determines whether the driver can create a driver-level command or vertex buffer of the specified description.
+description: Determines whether the driver can create a driver-level command or vertex buffer of the specified description.
 ms.assetid: c67492d9-c4ba-4206-8beb-3d67235192f9
 title: NtGdiDdCanCreateD3DBuffer function (Ntgdi.h)
 ms.topic: reference

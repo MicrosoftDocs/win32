@@ -1,5 +1,5 @@
 ---
-Description: This sample application uses the Core Audio APIs to capture audio data from an input device specified by the user and writes it to a uniquely named .wav file in the current directory. This sample demonstrates timer-driven buffering.
+description: This sample application uses the Core Audio APIs to capture audio data from an input device specified by the user and writes it to a uniquely named .wav file in the current directory. This sample demonstrates timer-driven buffering.
 ms.assetid: 06124b99-89b3-4dfa-b989-a54746ecd697
 title: CaptureSharedTimerDriven
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: COM+ attempts to prevent situations in which these error paths have to be executed on a server.
+description: COM+ attempts to prevent situations in which these error paths have to be executed on a server.
 ms.assetid: 0de125a2-2e91-49b9-a903-6c2e173e22a2
 title: COM+ Low-Memory Activation Gates Concepts
 ms.topic: article

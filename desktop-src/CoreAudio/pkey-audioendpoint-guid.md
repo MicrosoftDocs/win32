@@ -1,5 +1,5 @@
 ---
-Description: The PKEY\_AudioEndpoint\_GUID property supplies the DirectSound device identifier that corresponds to the audio endpoint device.
+description: The PKEY\_AudioEndpoint\_GUID property supplies the DirectSound device identifier that corresponds to the audio endpoint device.
 ms.assetid: d3119504-9b6a-47b8-b3c6-15cb329929cb
 title: PKEY_AudioEndpoint_GUID (Mmdeviceapi.h)
 ms.topic: reference

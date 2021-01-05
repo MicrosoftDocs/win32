@@ -1,5 +1,5 @@
 ---
-Description: COM+ Transactions Concepts
+description: COM+ Transactions Concepts
 ms.assetid: e2198514-c403-4b31-8c8c-0b1c83c4f936
 title: COM+ Transactions Concepts
 ms.topic: article

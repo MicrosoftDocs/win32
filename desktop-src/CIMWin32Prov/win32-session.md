@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_Session class defines state information about the interaction between a user and a resource, such as a computer system or a terminal session.
+description: The Win32\_Session class defines state information about the interaction between a user and a resource, such as a computer system or a terminal session.
 ms.assetid: 0649001a-914f-403f-9aee-0e9096392fe9
 ms.tgt_platform: multiple
 title: Win32_Session class

@@ -1,5 +1,5 @@
 ---
-Description: Contains the current duty cycle percentage for a pin or channel in a Pulse Width Modulation (PWM) controller.
+description: Contains the current duty cycle percentage for a pin or channel in a Pulse Width Modulation (PWM) controller.
 ms.assetid: 09C0232A-DF5C-4A1C-8138-D3D65E45731B
 title: PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE_OUTPUT structure (Pwm.h)
 ms.topic: reference

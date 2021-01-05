@@ -1,5 +1,5 @@
 ---
-Description: Application recycling can significantly increase the overall stability of your COM+ applications by offering a quick fix for known problems and helping to protect against unexpected ones.
+description: Application recycling can significantly increase the overall stability of your COM+ applications by offering a quick fix for known problems and helping to protect against unexpected ones.
 ms.assetid: bf98318b-4d87-44cc-85a1-68faf5547e06
 title: COM+ Application Recycling Concepts
 ms.topic: article

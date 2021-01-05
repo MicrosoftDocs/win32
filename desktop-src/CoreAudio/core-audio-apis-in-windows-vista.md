@@ -1,5 +1,5 @@
 ---
-Description: Core Audio APIs
+description: Core Audio APIs
 ms.assetid: 87ca9a31-1bc8-47ea-be00-40159d30e189
 title: Core Audio APIs
 ms.topic: article

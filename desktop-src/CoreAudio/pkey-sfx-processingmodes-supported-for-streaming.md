@@ -1,5 +1,5 @@
 ---
-Description: Lists the signal processing modes supported by the stream effect APO.
+description: Lists the signal processing modes supported by the stream effect APO.
 ms.assetid: 52A04E91-CE12-40BB-B2EC-DBE069306C4B
 title: PKEY_SFX_ProcessingModes_Supported_For_Streaming property (Audioenginebaseapo.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: COM+ CRM Operating Process
+description: COM+ CRM Operating Process
 ms.assetid: be50912e-b9fd-4ef7-b81a-e37617a96955
 title: COM+ CRM Operating Process
 ms.topic: article

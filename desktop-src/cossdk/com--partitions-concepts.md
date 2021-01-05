@@ -1,5 +1,5 @@
 ---
-Description: COM+ Partitions Concepts
+description: COM+ Partitions Concepts
 ms.assetid: 9fc35bef-ecc1-4764-bf69-ec89560daff4
 title: COM+ Partitions Concepts
 ms.topic: article

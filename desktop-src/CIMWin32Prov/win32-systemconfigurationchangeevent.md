@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SystemConfigurationChangeEvent&\#8194;WMI class indicates that the device list on the system has been refreshed (a device has been added or removed, or the configuration changed).
+description: The Win32\_SystemConfigurationChangeEvent&\#8194;WMI class indicates that the device list on the system has been refreshed (a device has been added or removed, or the configuration changed).
 ms.assetid: dce1e866-e739-4f90-9016-48b20ccfb75b
 ms.tgt_platform: multiple
 title: Win32_SystemConfigurationChangeEvent class

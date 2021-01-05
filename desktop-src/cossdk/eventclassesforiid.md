@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information regarding event classes.
+description: Retrieves information regarding event classes.
 ms.assetid: 33a87692-cacf-4a1c-974e-8d0e20295333
 title: EventClassesForIID collection
 ms.topic: reference

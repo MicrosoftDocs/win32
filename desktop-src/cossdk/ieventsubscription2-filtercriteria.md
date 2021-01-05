@@ -1,5 +1,5 @@
 ---
-Description: The filter criteria governing the subscription.
+description: The filter criteria governing the subscription.
 ms.assetid: cfc3ba9e-0566-45fd-917f-34842b8ff377
 title: IEventSubscription2::FilterCriteria property
 ms.topic: reference

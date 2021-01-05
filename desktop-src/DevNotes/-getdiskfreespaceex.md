@@ -1,5 +1,5 @@
 ---
-Description: Gets the free disk space.
+description: Gets the free disk space.
 ms.assetid: 4b7f4938-9918-4625-b28d-faf22de56976
 title: '_GetDiskFreeSpaceEx function'
 ms.topic: reference

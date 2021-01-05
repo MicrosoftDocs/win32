@@ -1,5 +1,5 @@
 ---
-Description: Speeding Transactions by Notifying the Root Object
+description: Speeding Transactions by Notifying the Root Object
 ms.assetid: 5737324a-65e5-4a39-b325-762768e171a1
 title: Speeding Transactions by Notifying the Root Object
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: A media application that wants to provide a customised ducking experience must listen for the event notifications when a communication stream is opened or closed in the system.
+description: A media application that wants to provide a customised ducking experience must listen for the event notifications when a communication stream is opened or closed in the system.
 ms.assetid: 709ad912-6b03-4ad3-bc47-ad8b6bd6de45
 title: Getting Ducking Events
 ms.topic: article

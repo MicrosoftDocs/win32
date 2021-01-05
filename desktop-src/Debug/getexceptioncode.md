@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a code that identifies the type of exception that occurs. The function can be called only from within the filter expression or exception-handler block of an exception handler.
+description: Retrieves a code that identifies the type of exception that occurs. The function can be called only from within the filter expression or exception-handler block of an exception handler.
 ms.assetid: f3c4a9f3-c9ae-4d20-85a7-787cb32278d1
 title: GetExceptionCode macro
 ms.topic: reference

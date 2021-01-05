@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_VideoConfiguration class is not active. It will not return any instances as there is no provider backing it.
+description: The Win32\_VideoConfiguration class is not active. It will not return any instances as there is no provider backing it.
 ms.assetid: 8dd15e8a-ff9b-4e75-bae9-8c80548301ab
 ms.tgt_platform: multiple
 title: Win32_VideoConfiguration class

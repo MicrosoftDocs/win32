@@ -1,5 +1,5 @@
 ---
-Description: You can access and use any XML web service, even if that XML web service was not created using COM+ or even Microsoft Windows, as long as the XML Web Service publishes a WSDL description of its syntax.
+description: You can access and use any XML web service, even if that XML web service was not created using COM+ or even Microsoft Windows, as long as the XML Web Service publishes a WSDL description of its syntax.
 ms.assetid: 5b21ff0c-f3a5-464b-b927-a7872ac54fe2
 title: Accessing XML Web Services in WKO Mode
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: 'The following examples demonstrate how to use structured exception handling in your code:'
+description: 'The following examples demonstrate how to use structured exception handling in your code:'
 ms.assetid: 1e4f9cd8-11c6-4dc2-883c-7de02375d7ed
 title: Using Structured Exception Handling
 ms.topic: article

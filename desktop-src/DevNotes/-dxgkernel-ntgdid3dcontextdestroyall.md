@@ -1,5 +1,5 @@
 ---
-Description: Queries the amount of free memory in the driver-managed memory heap.
+description: Queries the amount of free memory in the driver-managed memory heap.
 ms.assetid: d7f8792b-a515-4e70-9474-6a3474b6612b
 title: NtGdiD3DContextDestroyAll function (Ntgdi.h)
 ms.topic: reference

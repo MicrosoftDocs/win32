@@ -1,5 +1,5 @@
 ---
-Description: To free all the memory used by the symbol handler for a process, use the SymCleanup function.
+description: To free all the memory used by the symbol handler for a process, use the SymCleanup function.
 ms.assetid: d442b2f2-9225-43fd-bd25-274322857834
 title: Symbol Handler Cleanup
 ms.topic: article

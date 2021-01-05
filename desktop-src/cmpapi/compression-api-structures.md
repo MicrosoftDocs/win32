@@ -1,5 +1,5 @@
 ---
-Description: The native Compression API contains the following structure.
+description: The native Compression API contains the following structure.
 ms.assetid: 01D70311-DFE8-4E21-9315-2A8736E1F7B2
 title: Compression API Structures
 ms.topic: article

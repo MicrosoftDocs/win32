@@ -1,5 +1,5 @@
 ---
-Description: Renders primitives and returns the updated render state.
+description: Renders primitives and returns the updated render state.
 ms.assetid: ef28ee62-a7ad-406c-a892-ffee14123d16
 title: NtGdiD3DDrawPrimitives2 function (Ntgdi.h)
 ms.topic: reference

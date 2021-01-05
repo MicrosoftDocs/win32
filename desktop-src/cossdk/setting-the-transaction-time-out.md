@@ -1,5 +1,5 @@
 ---
-Description: You can manually set the time-out for transactions by using the Component Services administrative tool, or you can programmatically configure the time-out by using the COM+ administration interfaces.
+description: You can manually set the time-out for transactions by using the Component Services administrative tool, or you can programmatically configure the time-out by using the COM+ administration interfaces.
 ms.assetid: f7a35bdf-ea6d-40ea-b3c0-c2a3ae2276c4
 title: Setting the Transaction Time-Out
 ms.topic: article

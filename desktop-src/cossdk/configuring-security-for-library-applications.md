@@ -1,5 +1,5 @@
 ---
-Description: There are special considerations in configuring role-based security and authentication for library applications.
+description: There are special considerations in configuring role-based security and authentication for library applications.
 ms.assetid: 1117ac64-653d-4640-97cd-f37b0949dc57
 title: Configuring Security for Library Applications
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: COM+ Object Pooling
+description: COM+ Object Pooling
 ms.assetid: 954cf9ee-e76c-4faf-99aa-3648a7bb8a59
 title: COM+ Object Pooling
 ms.topic: article

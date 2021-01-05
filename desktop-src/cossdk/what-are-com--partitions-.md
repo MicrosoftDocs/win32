@@ -1,5 +1,5 @@
 ---
-Description: A COM+ partition is a logical container that allows applications to run independently of other configurations of those applications.
+description: A COM+ partition is a logical container that allows applications to run independently of other configurations of those applications.
 ms.assetid: c1290d10-968f-44f0-8099-d69c9e706c9e
 title: What Are COM+ Partitions?
 ms.topic: article

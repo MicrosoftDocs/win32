@@ -1,5 +1,5 @@
 ---
-Description: Causes the surface memory associated with the target and current surfaces to be interchanged.
+description: Causes the surface memory associated with the target and current surfaces to be interchanged.
 ms.assetid: 2c557393-079e-48e5-b3a6-1157265d88e3
 title: NtGdiDdFlip function (Ntgdi.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The following syntax illustrates the creation of a cabinet.
+description: The following syntax illustrates the creation of a cabinet.
 ms.assetid: d9d0e14a-f68c-4b3d-b91d-a3fa824031ea
 title: Extracting Files from a Cabinet
 ms.topic: article

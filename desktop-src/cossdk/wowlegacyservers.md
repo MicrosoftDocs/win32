@@ -1,5 +1,5 @@
 ---
-Description: Exposed properties for the WOWLegacyServers collection are intended to be identical to the LegacyServers collection except that the WOWLegacyServers collection is drawn from the 32-bit registry on 64-bit computers.
+description: Exposed properties for the WOWLegacyServers collection are intended to be identical to the LegacyServers collection except that the WOWLegacyServers collection is drawn from the 32-bit registry on 64-bit computers.
 ms.assetid: 72380276-214c-4f12-b575-deb975d846d3
 title: WOWLegacyServers collection
 ms.topic: reference

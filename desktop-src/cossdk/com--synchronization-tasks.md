@@ -1,5 +1,5 @@
 ---
-Description: COM+ Synchronization Tasks
+description: COM+ Synchronization Tasks
 ms.assetid: e653e00c-313e-4ae1-ba72-d37e0d4fd6d9
 title: COM+ Synchronization Tasks
 ms.topic: article

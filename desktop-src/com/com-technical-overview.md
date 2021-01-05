@@ -1,7 +1,7 @@
 ---
 title: COM Technical Overview
 ms.assetid: 519c87cc-b442-4187-af2a-124a1e4e8b49
-description: 
+description: "Learn more about: COM Technical Overview"
 keywords:
 - COM Technical Overview COM
 ms.topic: article

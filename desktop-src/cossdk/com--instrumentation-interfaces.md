@@ -1,5 +1,5 @@
 ---
-Description: The COM+ Instrumentation metrics are published to a client by using COM+ Events, a loosely coupled events (LCE) system that stores event information from different publishers in an event store in the COM+ catalog.
+description: The COM+ Instrumentation metrics are published to a client by using COM+ Events, a loosely coupled events (LCE) system that stores event information from different publishers in an event store in the COM+ catalog.
 ms.assetid: 009aa503-3fcd-4046-9a74-23a1a9c23e6a
 title: COM+ Instrumentation Interfaces
 ms.topic: article

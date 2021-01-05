@@ -1,5 +1,5 @@
 ---
-Description: Capturing a Stream
+description: Capturing a Stream
 ms.assetid: 1d9072dc-4f9b-4111-a747-5eb33ad3ae5b
 title: Capturing a Stream
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: By default, the system has all FP exceptions turned off.
+description: By default, the system has all FP exceptions turned off.
 ms.assetid: efbea036-de9c-4f92-865a-494161da375e
 title: Floating-Point Exceptions
 ms.topic: article

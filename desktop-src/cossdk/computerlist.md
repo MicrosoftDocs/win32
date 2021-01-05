@@ -1,5 +1,5 @@
 ---
-Description: Contains a list of the computers in the Computers folder of the Component Services administration tool. It contains an object for each computer.
+description: Contains a list of the computers in the Computers folder of the Component Services administration tool. It contains an object for each computer.
 ms.assetid: 56e32b47-a9f5-4888-b727-71ad0499da00
 title: ComputerList collection
 ms.topic: reference

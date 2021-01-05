@@ -1,5 +1,5 @@
 ---
-Description: The following terms are used when describing debugging.
+description: The following terms are used when describing debugging.
 ms.assetid: 580f2787-d944-4350-a2c2-c00816b3f515
 title: Debugging Terminology
 ms.topic: article

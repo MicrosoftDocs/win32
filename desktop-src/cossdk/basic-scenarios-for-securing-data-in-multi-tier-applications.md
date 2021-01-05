@@ -1,5 +1,5 @@
 ---
-Description: This topic presents a few building-block scenarios, illustrating the criteria discussed in Deciding Where to Enforce Security.
+description: This topic presents a few building-block scenarios, illustrating the criteria discussed in Deciding Where to Enforce Security.
 ms.assetid: e9820e53-8891-4bff-a333-00ad2dbb03a4
 title: Basic Scenarios for Securing Data in Multi-Tier Applications
 ms.topic: article

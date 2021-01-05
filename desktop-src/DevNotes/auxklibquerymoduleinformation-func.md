@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information about the currently loaded set of modules for the system.
+description: Retrieves information about the currently loaded set of modules for the system.
 ms.assetid: d3dc57e3-2c42-46cb-9af0-5f06bff60ad9
 title: AuxKlibQueryModuleInformation function (Aux\_klib.h)
 ms.topic: reference

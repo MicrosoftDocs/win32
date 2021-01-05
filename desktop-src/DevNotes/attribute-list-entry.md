@@ -1,5 +1,5 @@
 ---
-Description: Represents an entry in the attribute list.
+description: Represents an entry in the attribute list.
 ms.assetid: daa0c97d-2ebe-4e14-b1f8-e4be3075b13e
 title: ATTRIBUTE_LIST_ENTRY structure
 ms.topic: reference

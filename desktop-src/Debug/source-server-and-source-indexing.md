@@ -1,5 +1,5 @@
 ---
-Description: Source server enables a client to retrieve the exact version of the source files that were used to build an application.
+description: Source server enables a client to retrieve the exact version of the source files that were used to build an application.
 ms.assetid: c7bf51ce-7fb4-49aa-ad33-e551b2c8362b
 title: Source Server
 ms.topic: article
