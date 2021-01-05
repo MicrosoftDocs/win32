@@ -520,10 +520,12 @@ void D3D12HelloTriangle::LoadAssets()
         // recommended. Every time the GPU needs it, the upload heap will be marshalled 
         // over. Please read up on Default Heap usage. An upload heap is used here for 
         // code simplicity and because there are very few verts to actually transfer.
+        CD3DX12_HEAP_PROPERTIES heapProps(D3D12_HEAP_TYPE_UPLOAD);
+        auto desc = CD3DX12_RESOURCE_DESC::Buffer(vertexBufferSize);
         ThrowIfFailed(m_device->CreateCommittedResource(
-            &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_UPLOAD),
+            &heapProps,
             D3D12_HEAP_FLAG_NONE,
-            &CD3DX12_RESOURCE_DESC::Buffer(vertexBufferSize),
+            &desc,
             D3D12_RESOURCE_STATE_GENERIC_READ,
             nullptr,
             IID_PPV_ARGS(&m_vertexBuffer)));
@@ -663,7 +665,8 @@ void D3D12HelloTriangle::PopulateCommandList()
     m_commandList->RSSetScissorRects(1, &m_scissorRect);
 
     // Indicate that the back buffer will be used as a render target.
-    m_commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_PRESENT, D3D12_RESOURCE_STATE_RENDER_TARGET));
+    auto barrier = CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_PRESENT, D3D12_RESOURCE_STATE_RENDER_TARGET);
+    m_commandList->ResourceBarrier(1, &barrier);
 
     CD3DX12_CPU_DESCRIPTOR_HANDLE rtvHandle(m_rtvHeap->GetCPUDescriptorHandleForHeapStart(), m_frameIndex, m_rtvDescriptorSize);
     m_commandList->OMSetRenderTargets(1, &rtvHandle, FALSE, nullptr);
@@ -676,7 +679,8 @@ void D3D12HelloTriangle::PopulateCommandList()
     m_commandList->DrawInstanced(3, 1, 0, 0);
 
     // Indicate that the back buffer will now be used to present.
-    m_commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_RENDER_TARGET, D3D12_RESOURCE_STATE_PRESENT));
+    barrier = CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_RENDER_TARGET, D3D12_RESOURCE_STATE_PRESENT);
+    m_commandList->ResourceBarrier(1, &barrier);
 
     ThrowIfFailed(m_commandList->Close());
 }
