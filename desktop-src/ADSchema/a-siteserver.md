@@ -1,6 +1,6 @@
 ---
 title: Site-Server attribute
-description: Licensing master server for a given Site.
+description: Licensing main server for a given Site.
 ms.assetid: bcae8c63-a953-4721-b2d1-96d0376592c6
 ms.tgt_platform: multiple
 keywords:
