@@ -63,7 +63,7 @@ The feature level (for example, `DML_FEATURE_LEVEL_1_0`, or `DML_FEATURE_LEVEL_2
 
 For example, an application building against a newer SDK, but running on an older version of Windows, might (at runtime) see a lower supported feature level, even if it's compiled against the latest SDK.
 
-## -see-also
+## See also
 
 [DirectML feature level history](/windows/win32/direct3d12/dml-feature-level-history)
 [DML_FEATURE_LEVEL enumeration](/windows/win32/api/directml/ne-directml-dml_feature_level)

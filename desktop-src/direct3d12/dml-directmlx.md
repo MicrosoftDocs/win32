@@ -164,7 +164,7 @@ scope.SetTensorPolicy(dml::TensorPolicy::InterleavedChannel());
 auto result = dml::Convolution(/* ... */);
 ```
 
-## -see-also
+## See also
 
 * [DirectML GitHub](https://github.com/microsoft/DirectML/tree/master/Libraries)
 * [DirectMLX yolov4 sample](https://github.com/microsoft/DirectML/tree/master/Samples/yolov4)

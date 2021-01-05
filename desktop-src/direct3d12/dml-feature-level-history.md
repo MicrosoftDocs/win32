@@ -177,7 +177,7 @@ Added the following enhancements.
 
 The feature level in which DirectML was introduced.
 
-## -see-also
+## See also
 
 [DirectML version history](/windows/win32/direct3d12/dml-version-history)
 [DML_FEATURE_LEVEL enumeration](/windows/win32/api/directml/ne-directml-dml_feature_level)
