@@ -20,15 +20,15 @@ Reads texel data without any filtering or sampling.
 <table>
 <tbody>
 <tr class="odd">
-<td>ret Object.Load(<dl> int Location,<br />
-[int SampleIndex, ]<br />
-[int Offset ]<br />
+<td>ret Object.Load(<dl> typeX Location,<br />
+[typeX SampleIndex, ]<br />
+[typeX Offset ]<br />
 </dl>);</td>
 </tr>
 </tbody>
 </table>
 
-
+typeX denotes that there are four possible types: **int**, **int2**, **int3** or **int4**.
 
  
 
