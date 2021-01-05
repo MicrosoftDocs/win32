@@ -1,5 +1,5 @@
 ---
-Description: Signal Format
+description: Signal Format
 ms.assetid: 8684972c-3233-49bf-8c34-ca644aca432a
 title: Signal Format
 ms.topic: article

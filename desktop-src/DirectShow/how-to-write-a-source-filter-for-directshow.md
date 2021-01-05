@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to write a custom source filter for DirectShow.
+description: This topic describes how to write a custom source filter for DirectShow.
 ms.assetid: 032f7624-2237-41cd-844a-18ed4a2e420d
 title: How to Write a Source Filter for DirectShow
 ms.topic: article

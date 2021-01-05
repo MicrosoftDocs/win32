@@ -1,5 +1,5 @@
 ---
-Description: EZRGB24 Filter Sample
+description: EZRGB24 Filter Sample
 ms.assetid: c702eb37-b55f-4707-ae0a-8aba11997ef3
 title: EZRGB24 Filter Sample
 ms.topic: article

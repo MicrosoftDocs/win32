@@ -1,5 +1,5 @@
 ---
-Description: External Device Interfaces for DV Camcorders
+description: External Device Interfaces for DV Camcorders
 ms.assetid: 001321c5-70c7-4baa-ba5a-1e424ca0d647
 title: External Device Interfaces for DV Camcorders
 ms.topic: article

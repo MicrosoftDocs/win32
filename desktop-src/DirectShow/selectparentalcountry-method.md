@@ -1,5 +1,5 @@
 ---
-Description: The SelectParentalCountry method sets the specified parental country/region for subsequent playback.
+description: The SelectParentalCountry method sets the specified parental country/region for subsequent playback.
 ms.assetid: 70368351-c7b9-4640-a4f7-7d972b8e4628
 title: SelectParentalCountry Method
 ms.topic: reference

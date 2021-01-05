@@ -1,5 +1,5 @@
 ---
-Description: Layout of the Registry Keys
+description: Layout of the Registry Keys
 ms.assetid: c041d094-8165-446f-bf77-0d53b728fe7a
 title: Layout of the Registry Keys
 ms.topic: article

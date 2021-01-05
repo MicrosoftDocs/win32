@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to find an unconnected pin on a filter. Finding an unconnected pin is useful when you are connecting filters.
+description: This topic describes how to find an unconnected pin on a filter. Finding an unconnected pin is useful when you are connecting filters.
 ms.assetid: d0a906a8-bae4-43b3-8b02-ee5b97c9323d
 title: Find an Unconnected Pin on a Filter
 ms.topic: article

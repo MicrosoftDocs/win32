@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the frequency tables used for analog TV tuning for Singapore.
+description: This topic lists the frequency tables used for analog TV tuning for Singapore.
 ms.assetid: 77d4f4fc-76ec-4996-8f25-05ad8840d49f
 title: Singapore Channel Assignments
 ms.topic: article

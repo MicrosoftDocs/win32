@@ -1,5 +1,5 @@
 ---
-Description: The native video size has changed.
+description: The native video size has changed.
 ms.assetid: 276f37b3-f981-4a01-bb37-1ee77248668f
 title: EC_VIDEO_SIZE_CHANGED (Dshow.h)
 ms.topic: reference

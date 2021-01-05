@@ -1,5 +1,5 @@
 ---
-Description: The GetBitmapPalette function returns the first palette entry in a VIDEOINFOHEADER structure.
+description: The GetBitmapPalette function returns the first palette entry in a VIDEOINFOHEADER structure.
 ms.assetid: 7c620f81-31d9-408f-954d-aeff39f93956
 title: GetBitmapPalette function (Wxutil.h)
 ms.topic: reference

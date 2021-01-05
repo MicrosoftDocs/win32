@@ -1,5 +1,5 @@
 ---
-Description: Reference Clocks
+description: Reference Clocks
 ms.assetid: 43f1a4d6-dbed-4940-a301-d863ddd34bce
 title: Reference Clocks
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Previewing Video
+description: Previewing Video
 ms.assetid: 9b401de1-910a-41f7-bf80-dda73ee4a204
 title: Previewing Video (DirectShow)
 ms.topic: article

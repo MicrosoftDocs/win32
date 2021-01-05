@@ -1,5 +1,5 @@
 ---
-Description: The TransitionsEnabled method determines whether transitions are enabled.
+description: The TransitionsEnabled method determines whether transitions are enabled.
 ms.assetid: c961d8d7-4509-444b-a49f-6ab79fc31f7e
 title: IAMTimeline::TransitionsEnabled method (Qedit.h)
 ms.topic: reference

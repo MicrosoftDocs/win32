@@ -1,5 +1,5 @@
 ---
-Description: The SetOutputBuffering method specifies the number of frames rendered in advance during preview.
+description: The SetOutputBuffering method specifies the number of frames rendered in advance during preview.
 ms.assetid: 6e69b196-a6ce-4ce0-8c48-58b1738fb197
 title: IAMTimelineGroup::SetOutputBuffering method (Qedit.h)
 ms.topic: reference

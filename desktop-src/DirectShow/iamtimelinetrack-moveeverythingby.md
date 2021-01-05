@@ -1,5 +1,5 @@
 ---
-Description: This method is not supported.
+description: This method is not supported.
 ms.assetid: f263116b-e492-4468-9829-124a096c9d74
 title: IAMTimelineTrack::MoveEverythingBy method (Qedit.h)
 ms.topic: reference

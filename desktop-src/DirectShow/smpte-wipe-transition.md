@@ -1,5 +1,5 @@
 ---
-Description: SMPTE Wipe Transition
+description: SMPTE Wipe Transition
 ms.assetid: 9271bd4b-57b1-4b1b-bfee-d6ae5f49a154
 title: SMPTE Wipe Transition
 ms.topic: article

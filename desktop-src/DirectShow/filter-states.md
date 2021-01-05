@@ -1,5 +1,5 @@
 ---
-Description: Filter States
+description: Filter States
 ms.assetid: 97418307-eb50-4c8e-b03b-a2cd08139bdc
 title: Filter States
 ms.topic: article

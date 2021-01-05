@@ -1,5 +1,5 @@
 ---
-Description: The GetStretchMode method retrieves the stretch mode. The stretch mode determines how a video source is rendered if its size does not match the output dimensions.
+description: The GetStretchMode method retrieves the stretch mode. The stretch mode determines how a video source is rendered if its size does not match the output dimensions.
 ms.assetid: d9a3d283-edb5-40be-b877-69cb23462afa
 title: IAMTimelineSrc::GetStretchMode method (Qedit.h)
 ms.topic: reference

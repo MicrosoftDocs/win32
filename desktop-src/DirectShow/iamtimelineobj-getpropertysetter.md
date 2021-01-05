@@ -1,5 +1,5 @@
 ---
-Description: The GetPropertySetter method retrieves the object's property setter. When the object is rendered, the property information contained in the property setter is applied to the object.
+description: The GetPropertySetter method retrieves the object's property setter. When the object is rendered, the property information contained in the property setter is applied to the object.
 ms.assetid: 7a9c5ee4-2df6-4eaa-a583-5efea0cf7bde
 title: IAMTimelineObj::GetPropertySetter method (Qedit.h)
 ms.topic: reference

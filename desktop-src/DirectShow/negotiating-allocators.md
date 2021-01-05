@@ -1,5 +1,5 @@
 ---
-Description: Negotiating Allocators
+description: Negotiating Allocators
 ms.assetid: fe13477c-1a7b-4098-9d0f-c54783102bc9
 title: Negotiating Allocators
 ms.topic: article

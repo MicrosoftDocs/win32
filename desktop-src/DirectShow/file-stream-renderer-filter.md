@@ -1,5 +1,5 @@
 ---
-Description: File Stream Renderer Filter
+description: File Stream Renderer Filter
 ms.assetid: e26462bb-e67f-4522-bec2-88378c4ff442
 title: File Stream Renderer Filter
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Source and Target Rectangles in Video Renderers
+description: Source and Target Rectangles in Video Renderers
 ms.assetid: fdddbffb-c44f-4364-9e2e-b721ba39c74f
 title: Source and Target Rectangles in Video Renderers
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: DVD Subpicture properties control the color, contrast, and output of the subpicture display.
+description: DVD Subpicture properties control the color, contrast, and output of the subpicture display.
 ms.assetid: ddbfb65c-7630-4e9f-8013-c5d65c62c628
 title: DVD Subpicture Property Set (Dvdmedia.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The IsEqualObject function checks if two interfaces are on the same object.
+description: The IsEqualObject function checks if two interfaces are on the same object.
 ms.assetid: 51325e05-5a7f-4a80-a12e-2e7dedc028e2
 title: IsEqualObject function (Wxutil.h)
 ms.topic: reference

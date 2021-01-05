@@ -1,5 +1,5 @@
 ---
-Description: Dynamic Reconnection
+description: Dynamic Reconnection
 ms.assetid: 5b777f64-6b62-48dd-8eae-6603582a452a
 title: Dynamic Reconnection
 ms.topic: article

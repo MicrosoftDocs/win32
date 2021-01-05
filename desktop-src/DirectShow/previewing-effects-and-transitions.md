@@ -1,5 +1,5 @@
 ---
-Description: Previewing Effects and Transitions
+description: Previewing Effects and Transitions
 ms.assetid: aa13bd57-69c1-462c-86e3-64026a03bfc4
 title: Previewing Effects and Transitions
 ms.topic: article

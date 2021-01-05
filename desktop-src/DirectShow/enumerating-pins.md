@@ -1,5 +1,5 @@
 ---
-Description: Enumerating Pins
+description: Enumerating Pins
 ms.assetid: 231f10c1-46b4-4b66-b0ce-06a191237dfb
 title: Enumerating Pins
 ms.topic: article

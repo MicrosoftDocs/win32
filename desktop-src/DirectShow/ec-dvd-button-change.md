@@ -1,5 +1,5 @@
 ---
-Description: Signals that the number of DVD menu buttons has changed, or that the button selection has changed.
+description: Signals that the number of DVD menu buttons has changed, or that the button selection has changed.
 ms.assetid: af6c841d-ca06-4535-b418-14409fa78c81
 title: EC_DVD_BUTTON_CHANGE (Dvdevcode.h)
 ms.topic: reference

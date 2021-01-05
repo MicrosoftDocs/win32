@@ -1,5 +1,5 @@
 ---
-Description: The NotifyParentalLevelChange method enables or disables the event handling for temporary parental management level commands.
+description: The NotifyParentalLevelChange method enables or disables the event handling for temporary parental management level commands.
 ms.assetid: c8252cc6-a83f-4cce-ba3e-7db669eeb465
 title: NotifyParentalLevelChange Method (Segment.h)
 ms.topic: reference

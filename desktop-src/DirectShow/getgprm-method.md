@@ -1,5 +1,5 @@
 ---
-Description: The GetGPRM method retrieves the specified general parameter register.
+description: The GetGPRM method retrieves the specified general parameter register.
 ms.assetid: 66afd2a5-6aa1-4280-93cf-dd3cfed2499d
 title: GetGPRM Method
 ms.topic: reference

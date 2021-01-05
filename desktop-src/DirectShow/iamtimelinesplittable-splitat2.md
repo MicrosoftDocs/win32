@@ -1,5 +1,5 @@
 ---
-Description: The SplitAt2 method splits the object at the specified time. This method is equivalent to IAMTimelineSplittable::SplitAt, but takes a REFTIME value.
+description: The SplitAt2 method splits the object at the specified time. This method is equivalent to IAMTimelineSplittable::SplitAt, but takes a REFTIME value.
 ms.assetid: 33d240db-4ef8-455a-81a6-633ee12837c2
 title: IAMTimelineSplittable::SplitAt2 method (Qedit.h)
 ms.topic: reference

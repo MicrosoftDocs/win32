@@ -1,5 +1,5 @@
 ---
-Description: The GetAudioLanguage method retrieves a string indicating which language is available on the specified audio stream.
+description: The GetAudioLanguage method retrieves a string indicating which language is available on the specified audio stream.
 ms.assetid: 5ff12058-eb00-4a2c-8d39-88282f68f001
 title: GetAudioLanguage Method
 ms.topic: reference

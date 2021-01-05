@@ -1,5 +1,5 @@
 ---
-Description: Sent when a set of DVD navigation commands are starting.
+description: Sent when a set of DVD navigation commands are starting.
 ms.assetid: 9cdcb211-a9e3-4a15-81bd-7ada2b9d823a
 title: EC_DVD_BeginNavigationCommands (Dvdevcode.h)
 ms.topic: reference

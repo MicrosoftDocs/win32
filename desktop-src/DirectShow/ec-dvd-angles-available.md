@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether an angle block is being played and angle changes can be performed.
+description: Indicates whether an angle block is being played and angle changes can be performed.
 ms.assetid: 15593841-3162-4598-86bc-1debca22b284
 title: EC_DVD_ANGLES_AVAILABLE (Dvdevcode.h)
 ms.topic: reference

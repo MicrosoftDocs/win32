@@ -1,5 +1,5 @@
 ---
-Description: Importing the Drivers Public Key
+description: Importing the Drivers Public Key
 ms.assetid: 9bab0e43-6e9f-4cdb-bfd0-cdafcc12d526
 title: Importing the Drivers Public Key
 ms.topic: article

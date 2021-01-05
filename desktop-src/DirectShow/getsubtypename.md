@@ -1,5 +1,5 @@
 ---
-Description: The GetSubtypeName function retrieves the human-readable name of a video subtype.
+description: The GetSubtypeName function retrieves the human-readable name of a video subtype.
 ms.assetid: 493b434e-2d36-4897-a5b2-7be0eb0a560f
 title: GetSubtypeName function (Wxutil.h)
 ms.topic: reference

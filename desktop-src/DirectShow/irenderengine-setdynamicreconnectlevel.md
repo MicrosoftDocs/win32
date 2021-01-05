@@ -1,5 +1,5 @@
 ---
-Description: The SetDynamicReconnectLevel method sets the level of dynamic reconnection during rendering.
+description: The SetDynamicReconnectLevel method sets the level of dynamic reconnection during rendering.
 ms.assetid: 092f3464-84a2-48b0-9647-66fe27e9706d
 title: IRenderEngine::SetDynamicReconnectLevel method (Qedit.h)
 ms.topic: reference

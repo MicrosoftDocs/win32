@@ -1,5 +1,5 @@
 ---
-Description: DirectShow System Overview
+description: DirectShow System Overview
 ms.assetid: aea1ab83-4c48-4b61-8a20-0ee6ad62ebe3
 title: DirectShow System Overview
 ms.topic: article

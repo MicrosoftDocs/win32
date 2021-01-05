@@ -1,5 +1,5 @@
 ---
-Description: DVApp Sample
+description: DVApp Sample
 ms.assetid: 80375170-d0d6-4371-abe3-078703e158b1
 title: DVApp Sample
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The IAMSetErrorLog interface sets or retrieves an error log in DirectShow Editing Services (DES).
+description: The IAMSetErrorLog interface sets or retrieves an error log in DirectShow Editing Services (DES).
 ms.assetid: ce658533-eacf-4b5d-9910-dca918de09e7
 title: IAMSetErrorLog interface (Qedit.h)
 ms.topic: reference

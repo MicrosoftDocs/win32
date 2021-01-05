@@ -1,6 +1,6 @@
 ---
 title: Position and move video rectangles in composition space
-Description: Positioning and Moving Video Rectangles in Composition Space
+description: Positioning and Moving Video Rectangles in Composition Space
 ms.assetid: 97e7bb24-79f6-4638-a9c4-ac09dbd29be9
 ms.topic: article
 ms.date: 05/31/2018

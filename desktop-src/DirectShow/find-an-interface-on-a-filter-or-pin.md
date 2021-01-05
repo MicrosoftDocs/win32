@@ -1,5 +1,5 @@
 ---
-Description: Find an Interface on a Filter or Pin
+description: Find an Interface on a Filter or Pin
 ms.assetid: 546f5b7d-3bcd-4e97-a012-daca6ae7bca1
 title: Find an Interface on a Filter or Pin
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The GetNextVTrack method retrieves the next virtual track after a specified virtual track.
+description: The GetNextVTrack method retrieves the next virtual track after a specified virtual track.
 ms.assetid: c43e6b16-a3e4-4407-b48d-b04c4bb66688
 title: IAMTimelineComp::GetNextVTrack method (Qedit.h)
 ms.topic: reference

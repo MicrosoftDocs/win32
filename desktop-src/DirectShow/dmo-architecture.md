@@ -1,5 +1,5 @@
 ---
-Description: DMO Architecture
+description: DMO Architecture
 ms.assetid: f74b2d0f-b40c-4598-97a4-9c1dc71bbb1a
 title: DMO Architecture
 ms.topic: article

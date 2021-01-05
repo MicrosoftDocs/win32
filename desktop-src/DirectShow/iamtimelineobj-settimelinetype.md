@@ -1,5 +1,5 @@
 ---
-Description: Not supported. Call the IAMTimeline::CreateEmptyNode method to create a new timeline object. Once an object is created, you cannot change its type.
+description: Not supported. Call the IAMTimeline::CreateEmptyNode method to create a new timeline object. Once an object is created, you cannot change its type.
 ms.assetid: 127b7435-84b0-46c4-b072-bb8eb54b6a4f
 title: IAMTimelineObj::SetTimelineType method (Qedit.h)
 ms.topic: reference
