@@ -1,5 +1,5 @@
 ---
-Description: Ends the write operations for the specified list.
+description: Ends the write operations for the specified list.
 ms.assetid: 318aa5dc-b562-47f8-8cd6-daa97f28c0f0
 title: SdbEndWriteListTag function
 ms.topic: reference

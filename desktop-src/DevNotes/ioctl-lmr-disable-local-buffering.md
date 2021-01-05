@@ -1,5 +1,5 @@
 ---
-Description: The IOCTL\_LMR\_DISABLE\_LOCAL\_BUFFERING control code disables local client-side in-memory caching of data when reading data from or writing data to a remote file. This is an internally-defined control code not available in a public header.
+description: The IOCTL\_LMR\_DISABLE\_LOCAL\_BUFFERING control code disables local client-side in-memory caching of data when reading data from or writing data to a remote file. This is an internally-defined control code not available in a public header.
 ms.assetid: a464671b-253c-4f35-84a2-2619cb15b009
 title: IOCTL_LMR_DISABLE_LOCAL_BUFFERING control code
 ms.topic: reference

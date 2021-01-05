@@ -1,5 +1,5 @@
 ---
-Description: Contains red, green, and blue ramp data.
+description: Contains red, green, and blue ramp data.
 ms.assetid: c596f47a-6c09-4b97-ab2f-b1da3d851aa4
 title: D3DGAMMARAMP structure (D3D9Types.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Creates, displays, and operates a message box.
+description: Creates, displays, and operates a message box.
 ms.assetid: ec444595-da2a-4c73-a472-3820983f7303
 title: '_MessageBox function'
 ms.topic: reference

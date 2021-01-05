@@ -1,5 +1,5 @@
 ---
-Description: Create a matrix stack.
+description: Create a matrix stack.
 ms.assetid: df0f3564-0226-44b8-b22b-4dd27905c44c
 title: D3DXCreateMatrixStack function (D3DX10Math.h)
 ms.topic: reference

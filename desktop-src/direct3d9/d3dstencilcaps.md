@@ -1,5 +1,5 @@
 ---
-Description: Driver stencil capability flags.
+description: Driver stencil capability flags.
 ms.assetid: 187c758c-5e7f-48ee-97cb-b1f30b709723
 title: D3DSTENCILCAPS
 ms.topic: article

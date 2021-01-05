@@ -1,5 +1,5 @@
 ---
-Description: Gets version information about the currently running operating system.
+description: Gets version information about the currently running operating system.
 ms.assetid: F04F0981-A07D-4B38-9DE4-B8461EAFC19F
 title: RtlGetVersion function (Ntddk.h)
 ms.topic: reference

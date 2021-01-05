@@ -1,5 +1,5 @@
 ---
-Description: Creates a cube texture from a resource specified by a string. This is a more advanced function than D3DXCreateCubeTextureFromResource.
+description: Creates a cube texture from a resource specified by a string. This is a more advanced function than D3DXCreateCubeTextureFromResource.
 ms.assetid: 4d263386-8270-4967-8ef5-e9ac69e502a5
 title: D3DXCreateCubeTextureFromResourceEx function (D3dx9tex.h)
 ms.topic: reference

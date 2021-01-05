@@ -1,5 +1,5 @@
 ---
-Description: Set vertex data into one of the mesh's vertex buffers.
+description: Set vertex data into one of the mesh's vertex buffers.
 ms.assetid: 930cbc49-4202-431f-ac72-386c31acd87e
 title: ID3DX10Mesh::SetVertexData method (D3DX10.h)
 ms.topic: reference

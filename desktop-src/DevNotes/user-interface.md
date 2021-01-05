@@ -1,5 +1,5 @@
 ---
-Description: User Interface
+description: User Interface
 ms.assetid: 2770E065-A15E-46CA-9D4E-610A2FE62E64
 title: User Interface (Developer Notes)
 ms.topic: article

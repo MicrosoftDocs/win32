@@ -1,5 +1,5 @@
 ---
-Description: Removes an exception package.
+description: Removes an exception package.
 ms.assetid: d590d0f8-c9b2-4973-999b-99bbf94d4928
 title: UninstallComponent function
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Opens an existing directory object.
+description: Opens an existing directory object.
 ms.assetid: 7313fb32-976b-4c73-b9ba-09fb8ad7faf1
 title: NtOpenDirectoryObject function
 ms.topic: reference

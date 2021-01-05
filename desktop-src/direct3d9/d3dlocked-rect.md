@@ -1,5 +1,5 @@
 ---
-Description: Describes a locked rectangular region.
+description: Describes a locked rectangular region.
 ms.assetid: ee5d2ea6-bf98-4b09-bc67-b808ffcb23c6
 title: D3DLOCKED_RECT structure (D3D9Types.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: By default, when depth-testing is performed on a rendering surface, the Direct3D system updates the render-target surface if the corresponding depth value (z or w) for each point is less than the value in the depth buffer.
+description: By default, when depth-testing is performed on a rendering surface, the Direct3D system updates the render-target surface if the corresponding depth value (z or w) for each point is less than the value in the depth buffer.
 ms.assetid: e9243c05-e943-4a42-ab73-e684900fc81d
 title: Changing Depth Buffer Comparison Functions (D3D9)
 ms.topic: article

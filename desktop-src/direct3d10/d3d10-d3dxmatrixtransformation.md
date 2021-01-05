@@ -1,5 +1,5 @@
 ---
-Description: Builds a transformation matrix. NULL arguments are treated as identity transformations.
+description: Builds a transformation matrix. NULL arguments are treated as identity transformations.
 ms.assetid: 99c75ce9-3683-4753-b635-760eb8aaf46e
 title: D3DXMatrixTransformation function (D3DX10Math.h)
 ms.topic: reference

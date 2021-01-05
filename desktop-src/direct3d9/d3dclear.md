@@ -1,5 +1,5 @@
 ---
-Description: These flags identify a surface to reset when calling Clear.
+description: These flags identify a surface to reset when calling Clear.
 ms.assetid: 5d76e9a3-7afc-4db7-bffe-64bc7b9f83ac
 title: D3DCLEAR
 ms.topic: article

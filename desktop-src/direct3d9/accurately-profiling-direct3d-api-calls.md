@@ -1,5 +1,5 @@
 ---
-Description: Once you have a functional Microsoft Direct3D application and you want to improve its performance, you generally use an off-the-shelf profiling tool or some custom measurement technique to measure the time it takes to execute one or more application programming interface (API) calls. If you have done this but are getting timing results that vary from one render sequence to the next, or you are making hypotheses that do not hold up to actual experiment results, the following information may help you to understand why.
+description: Once you have a functional Microsoft Direct3D application and you want to improve its performance, you generally use an off-the-shelf profiling tool or some custom measurement technique to measure the time it takes to execute one or more application programming interface (API) calls. If you have done this but are getting timing results that vary from one render sequence to the next, or you are making hypotheses that do not hold up to actual experiment results, the following information may help you to understand why.
 ms.assetid: f969be42-d541-4e8d-aec4-eb9508bcc7cf
 title: Accurately Profiling Direct3D API Calls (Direct3D 9)
 ms.topic: article

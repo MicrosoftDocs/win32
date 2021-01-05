@@ -1,5 +1,5 @@
 ---
-Description: Note  Instead of using this legacy function, we recommend that you use the D3DPreprocess API. Create a shader from a file without compiling it.
+description: Note  Instead of using this legacy function, we recommend that you use the D3DPreprocess API. Create a shader from a file without compiling it.
 ms.assetid: 9f609aa5-5ee7-45fb-9693-69de130b6cc0
 title: D3DX10PreprocessShaderFromFile function (D3DX10Async.h)
 ms.topic: reference

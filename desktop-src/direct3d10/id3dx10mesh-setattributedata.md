@@ -1,5 +1,5 @@
 ---
-Description: Set the mesh's attribute data.
+description: Set the mesh's attribute data.
 ms.assetid: bcf7b1b3-b923-400a-8d12-5094f3844d8f
 title: ID3DX10Mesh::SetAttributeData method (D3DX10.h)
 ms.topic: reference

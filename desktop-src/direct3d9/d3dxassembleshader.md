@@ -1,5 +1,5 @@
 ---
-Description: Assemble a shader.
+description: Assemble a shader.
 ms.assetid: 24c3dcae-9397-4856-b072-0ae340157bf9
 title: D3DXAssembleShader function (D3DX9Shader.h)
 ms.topic: reference

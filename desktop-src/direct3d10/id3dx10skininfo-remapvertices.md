@@ -1,5 +1,5 @@
 ---
-Description: Change which vertices are influenced by which bones.
+description: Change which vertices are influenced by which bones.
 ms.assetid: b0d71f3e-9a2d-469d-808b-2fa768cf14b0
 title: ID3DX10SkinInfo::RemapVertices method (D3DX10.h)
 ms.topic: reference

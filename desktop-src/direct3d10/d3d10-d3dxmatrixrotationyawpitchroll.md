@@ -1,5 +1,5 @@
 ---
-Description: Builds a matrix with a specified yaw, pitch, and roll.
+description: Builds a matrix with a specified yaw, pitch, and roll.
 ms.assetid: a3ef2b57-275f-484a-88fc-aaa5e470717c
 title: D3DXMatrixRotationYawPitchRoll function (D3DX10Math.h)
 ms.topic: reference

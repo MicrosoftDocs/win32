@@ -1,5 +1,5 @@
 ---
-Description: Computes the product of two spherical harmonics functions (f and g). Both functions are of order N = 2.
+description: Computes the product of two spherical harmonics functions (f and g). Both functions are of order N = 2.
 ms.assetid: 9e0942ce-e39d-4147-9472-cda8a97fd390
 title: D3DXSHMultiply2 function (D3DX10Math.h)
 ms.topic: reference

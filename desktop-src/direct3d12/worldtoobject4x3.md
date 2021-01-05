@@ -1,5 +1,5 @@
 ---
-Description: A matrix for transforming from world-space to object-space.
+description: A matrix for transforming from world-space to object-space.
 ms.assetid: 
 title: WorldToObject4x3
 ms.localizationpriority: low

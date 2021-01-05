@@ -1,5 +1,5 @@
 ---
-Description: Cloning and Sharing (Direct3D 9)
+description: Cloning and Sharing (Direct3D 9)
 ms.assetid: 1dabe611-bf3b-49bf-99ab-dbdfd343f885
 title: Cloning and Sharing (Direct3D 9)
 ms.topic: article

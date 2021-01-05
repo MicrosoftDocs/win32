@@ -1,5 +1,5 @@
 ---
-Description: Defines the location at which a color or color component must be accessed for lighting calculations.
+description: Defines the location at which a color or color component must be accessed for lighting calculations.
 ms.assetid: 76061d47-a31c-4008-aa8d-a0464dd3423f
 title: D3DMATERIALCOLORSOURCE enumeration (D3D9Types.h)
 ms.topic: reference

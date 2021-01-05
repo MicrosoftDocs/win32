@@ -1,5 +1,5 @@
 ---
-Description: Creates a compressed precomputed radiance transfer (PRT) buffer from an uncompressed ID3DXPRTBuffer object. This function should be used with per-vertex or volume buffers.
+description: Creates a compressed precomputed radiance transfer (PRT) buffer from an uncompressed ID3DXPRTBuffer object. This function should be used with per-vertex or volume buffers.
 ms.assetid: 1464d2dd-05db-4d9a-84ac-39d57b6fff4f
 title: D3DXCreatePRTCompBuffer function (D3DX9Mesh.h)
 ms.topic: reference

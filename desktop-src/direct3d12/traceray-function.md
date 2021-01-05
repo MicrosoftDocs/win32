@@ -1,5 +1,5 @@
 ---
-Description: Sends a ray into a search for hits in an acceleration structure.
+description: Sends a ray into a search for hits in an acceleration structure.
 ms.assetid: 
 title: TraceRay function
 ms.localizationpriority: low

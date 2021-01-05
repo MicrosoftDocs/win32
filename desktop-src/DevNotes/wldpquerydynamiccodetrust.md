@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a value that determines if the specified in-memory or on-disk .NET CRL dynamic code is trusted by Device Guard policy.
+description: Retrieves a value that determines if the specified in-memory or on-disk .NET CRL dynamic code is trusted by Device Guard policy.
 ms.assetid: 9C12894D-98AF-4408-A11A-865E4DA1DA68
 title: WldpQueryDynamicCodeTrust function (Wldp.h)
 ms.topic: reference

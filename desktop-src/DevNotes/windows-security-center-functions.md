@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used with Windows Security Center.
+description: The following functions are used with Windows Security Center.
 ms.assetid: FC28ACD2-A3C6-42A9-AE59-61892A139FB7
 title: Windows Security Center Functions
 ms.topic: article

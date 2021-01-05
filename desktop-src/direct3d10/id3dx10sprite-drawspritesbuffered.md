@@ -1,5 +1,5 @@
 ---
-Description: Add an array of sprites to the batch of sprites to be rendered.
+description: Add an array of sprites to the batch of sprites to be rendered.
 ms.assetid: e6a9f806-7244-4139-b47e-c46dfab38a31
 title: ID3DX10Sprite::DrawSpritesBuffered method (D3DX10.h)
 ms.topic: reference

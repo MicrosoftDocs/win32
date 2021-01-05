@@ -1,5 +1,5 @@
 ---
-Description: Opens the shim database.
+description: Opens the shim database.
 ms.assetid: ece1bd39-20a1-42e6-8e2b-1d38f7223d42
 title: SdbInitDatabase function
 ms.topic: reference

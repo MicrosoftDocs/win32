@@ -1,5 +1,5 @@
 ---
-Description: Closes the specified database.
+description: Closes the specified database.
 ms.assetid: 69546f03-9912-401a-9c1a-b7fdbe16dbf8
 title: SdbCloseDatabaseWrite function
 ms.topic: reference

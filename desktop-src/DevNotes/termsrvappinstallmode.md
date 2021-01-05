@@ -1,5 +1,5 @@
 ---
-Description: Determines whether the Terminal Server is in the INSTALL mode.
+description: Determines whether the Terminal Server is in the INSTALL mode.
 ms.assetid: edf362e6-c1a4-49fe-8e07-1188c66616be
 title: TermsrvAppInstallMode function
 ms.topic: reference

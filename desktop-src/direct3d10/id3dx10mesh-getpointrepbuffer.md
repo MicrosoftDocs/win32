@@ -1,5 +1,5 @@
 ---
-Description: Get the mesh's point rep buffer.
+description: Get the mesh's point rep buffer.
 ms.assetid: 4be7bee5-15ea-496f-83c2-a3a9bafd97c6
 title: ID3DX10Mesh::GetPointRepBuffer method (D3DX10.h)
 ms.topic: reference

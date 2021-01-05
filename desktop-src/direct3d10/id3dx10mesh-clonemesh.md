@@ -1,5 +1,5 @@
 ---
-Description: Creates a new mesh and fills it with the data of a previously loaded mesh.
+description: Creates a new mesh and fills it with the data of a previously loaded mesh.
 ms.assetid: 2ce39982-abc0-444b-bc6f-24508f76fe31
 title: ID3DX10Mesh::CloneMesh method (D3DX10.h)
 ms.topic: reference

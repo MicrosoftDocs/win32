@@ -1,5 +1,5 @@
 ---
-Description: Describes a ray-triangle intersection.
+description: Describes a ray-triangle intersection.
 ms.assetid: 21658b74-6f1d-4a16-a8b3-0c7bb6edf899
 title: D3DX10_INTERSECT_INFO structure (D3DX10.h)
 ms.topic: reference

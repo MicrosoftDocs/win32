@@ -1,5 +1,5 @@
 ---
-Description: Opens the specified registry key in an offline registry hive.
+description: Opens the specified registry key in an offline registry hive.
 ms.assetid: 4a4afbef-5107-4006-bd67-aecb5d3b5112
 title: OROpenKey function (Offreg.h)
 ms.topic: reference

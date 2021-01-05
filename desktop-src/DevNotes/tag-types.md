@@ -1,5 +1,5 @@
 ---
-Description: Describes the data type of the value associated with a TAG.
+description: Describes the data type of the value associated with a TAG.
 ms.assetid: 009ad522-35da-4053-a7f6-61d7d240b98c
 title: TAG Types
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the rectangle used to enclose glyphs on a monochrome surface.
+description: Specifies the rectangle used to enclose glyphs on a monochrome surface.
 ms.assetid: ce5d492f-38d1-4e7b-a9c2-68c791c84d0c
 title: D3DCOMPOSERECTDESC structure (D3d9types.h)
 ms.topic: reference

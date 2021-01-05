@@ -1,5 +1,5 @@
 ---
-Description: Create an asynchronous-data processor for an effect.
+description: Create an asynchronous-data processor for an effect.
 ms.assetid: 90a0dcd1-e495-4068-9f28-e2645370b984
 title: D3DX10CreateAsyncEffectCompilerProcessor function (D3DX10Async.h)
 ms.topic: reference

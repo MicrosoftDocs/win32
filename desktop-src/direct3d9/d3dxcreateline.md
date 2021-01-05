@@ -1,5 +1,5 @@
 ---
-Description: Uses a left-handed coordinate system to create a line.
+description: Uses a left-handed coordinate system to create a line.
 ms.assetid: 0d2ef331-9edf-4b0a-ace4-ecb8bb2f7352
 title: D3DXCreateLine function (D3dx9core.h)
 ms.topic: reference

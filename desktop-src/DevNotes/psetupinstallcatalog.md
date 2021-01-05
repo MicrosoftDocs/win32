@@ -1,5 +1,5 @@
 ---
-Description: Installs a catalog file.
+description: Installs a catalog file.
 ms.assetid: bea74e91-1a87-4785-b983-5fec87e03499
 title: pSetupInstallCatalog function
 ms.topic: reference

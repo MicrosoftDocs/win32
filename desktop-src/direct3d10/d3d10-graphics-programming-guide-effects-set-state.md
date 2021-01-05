@@ -1,5 +1,5 @@
 ---
-Description: Some effect constants only need to be initialized.
+description: Some effect constants only need to be initialized.
 ms.assetid: 743261a8-fdd8-492e-be8a-4faeb9b6f986
 title: Set Effect State (Direct3D 10)
 ms.topic: article

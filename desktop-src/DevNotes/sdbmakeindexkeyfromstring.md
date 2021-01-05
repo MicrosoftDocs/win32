@@ -1,5 +1,5 @@
 ---
-Description: Creates a key from a string.
+description: Creates a key from a string.
 ms.assetid: 107138b9-96f0-4144-a4bc-7115b6deab60
 title: SdbMakeIndexKeyFromString function
 ms.topic: reference

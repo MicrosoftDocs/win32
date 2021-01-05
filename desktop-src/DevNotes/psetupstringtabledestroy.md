@@ -1,5 +1,5 @@
 ---
-Description: Deletes a string table.
+description: Deletes a string table.
 ms.assetid: a3ac1672-f898-44a0-bb7b-64ac24bdb9bf
 title: pSetupStringTableDestroy function
 ms.topic: reference

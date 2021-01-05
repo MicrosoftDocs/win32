@@ -1,5 +1,5 @@
 ---
-Description: Get the number of vertices in ID3DX10SkinInfo.
+description: Get the number of vertices in ID3DX10SkinInfo.
 ms.assetid: c4e6542b-807f-41df-9940-6899ad8f8eb9
 title: ID3DX10SkinInfo::GetNumVertices method (D3DX10.h)
 ms.topic: reference

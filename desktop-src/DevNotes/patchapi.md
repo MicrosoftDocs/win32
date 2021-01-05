@@ -1,5 +1,5 @@
 ---
-Description: Offline Files
+description: Offline Files
 title: PatchAPI
 ms.topic: article
 ms.date: 04/17/2020

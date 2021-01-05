@@ -1,5 +1,5 @@
 ---
-Description: Frees a memory block that was allocated from a heap by RtlAllocateHeap.
+description: Frees a memory block that was allocated from a heap by RtlAllocateHeap.
 ms.assetid: 0A08FB6B-23A3-450B-8745-AEB927CEB7BB
 title: RtlFreeHeap function (Ntifs.h)
 ms.topic: reference

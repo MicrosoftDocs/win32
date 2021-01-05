@@ -1,5 +1,5 @@
 ---
-Description: Specifies the source glyph and location in a monochrome surface to copy glyphs into.
+description: Specifies the source glyph and location in a monochrome surface to copy glyphs into.
 ms.assetid: eda6fc82-6a06-4a59-a3ab-9f7e5c5bb5a1
 title: D3DCOMPOSERECTDESTINATION structure (D3d9types.h)
 ms.topic: reference

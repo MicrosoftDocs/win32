@@ -1,5 +1,5 @@
 ---
-Description: Describes a matrix.
+description: Describes a matrix.
 ms.assetid: d6b98a32-e745-4724-b8ce-a81a3f5416f3
 title: D3DMATRIX (D3D9Types.h)
 ms.topic: reference

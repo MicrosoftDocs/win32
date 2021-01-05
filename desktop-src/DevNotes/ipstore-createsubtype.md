@@ -1,5 +1,5 @@
 ---
-Description: Creates the specified subtype within the specified type.
+description: Creates the specified subtype within the specified type.
 ms.assetid: afd5c0c6-5779-4a78-83aa-cae36f5de564
 title: IPStore::CreateSubtype method (Pstore.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Commits newly created indexes to the specified database.
+description: Commits newly created indexes to the specified database.
 ms.assetid: 92f05e5f-599a-4870-8175-61b83c943514
 title: SdbCommitIndexes function
 ms.topic: reference

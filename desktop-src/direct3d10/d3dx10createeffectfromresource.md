@@ -1,5 +1,5 @@
 ---
-Description: Create an effect from a resource.
+description: Create an effect from a resource.
 ms.assetid: 239a3b14-9eea-4a0f-96b5-3959b7be3e19
 title: D3DX10CreateEffectFromResource function (D3DX10Async.h)
 ms.topic: reference

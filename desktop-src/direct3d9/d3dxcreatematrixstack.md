@@ -1,5 +1,5 @@
 ---
-Description: Creates an instance of the ID3DXMATRIXStack interface.
+description: Creates an instance of the ID3DXMATRIXStack interface.
 ms.assetid: bb067b38-efc6-4ed8-9eef-14b3cc70660f
 title: D3DXCreateMatrixStack function (D3dx9math.h)
 ms.topic: reference

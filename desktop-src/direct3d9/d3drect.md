@@ -1,5 +1,5 @@
 ---
-Description: Defines a rectangle.
+description: Defines a rectangle.
 ms.assetid: a8590411-fd34-4048-a41f-b4155d955573
 title: D3DRECT structure (D3D9Types.h)
 ms.topic: reference
