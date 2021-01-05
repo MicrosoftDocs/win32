@@ -90,7 +90,7 @@ The following list describes new and updated feature areas for Windows Server 2
 
     Windows PowerShell is a task-based command-line shell and scripting language designed especially for system administration. New in Windows Server 2012, Windows PowerShell v3 supports Windows PowerShell Workflow, which leverages the benefits of Windows Workflow Foundation to allow the automation of long-running tasks.
 
--   [Management OData](/powershell/scripting/developer/webservices/creating-a-management-odata-web-service?view=powershell-7)
+-   [Management OData](/powershell/scripting/developer/webservices/creating-a-management-odata-web-service?view=powershell-7&preserve-view=true)
 
     **New!** Also known as Windows PowerShell Web Services, Management OData, new in Windows PowerShell v3, allows the creation of an ASP.NET web service end point that exposes management data, acessed through Windows PowerShell commands, as OData web service entities.
 
