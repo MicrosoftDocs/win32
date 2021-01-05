@@ -203,7 +203,7 @@ Access type: Read-only
 Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32\_API\|Windows Sockets Structures\|PROTOCOL\_INFO\|iMaxSockAddr"), [**units**](../wmisdk/standard-qualifiers.md) ("characters")
 </dt> </dl>
 
-Maximum length of a socket address supported by the protocol. Socket addresses may be items such as a URL (www.microsoft.com) or an IP address (130.215.24.1).
+Maximum length of a socket address supported by the protocol. Socket addresses may be items such as a URL (`www.microsoft.com`) or an IP address (`130.215.24.1`).
 
 </dd> <dt>
 
