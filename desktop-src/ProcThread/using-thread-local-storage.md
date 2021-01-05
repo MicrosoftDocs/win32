@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 #define THREADCOUNT 4 
 DWORD dwTlsIndex; 
  
-VOID ErrorExit(LPSTR); 
+VOID ErrorExit (LPCSTR message);
  
 VOID CommonFunc(VOID) 
 { 
@@ -96,9 +96,9 @@ int main(VOID)
    return 0; 
 } 
  
-VOID ErrorExit (LPSTR lpszMessage) 
+VOID ErrorExit (LPCSTR message)
 { 
-   fprintf(stderr, "%s\n", lpszMessage); 
+   fprintf(stderr, "%s\n", message); 
    ExitProcess(0); 
 }
 ```
