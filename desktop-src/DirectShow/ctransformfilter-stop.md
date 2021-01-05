@@ -1,5 +1,5 @@
 ---
-Description: Stops the filter. This method implements the IMediaFilter::Stop method.
+description: Stops the filter. This method implements the IMediaFilter::Stop method.
 ms.assetid: e95537d6-b3ec-49a4-aa28-333d69eff3bb
 title: CTransformFilter.Stop method (Transfrm.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The EndRun method switches to the stopped or paused mode.
+description: The EndRun method switches to the stopped or paused mode.
 ms.assetid: 2c41262c-a809-4f3b-898c-02c0891dc6f8
 title: CCmdQueue.EndRun method (Winutil.h)
 ms.topic: reference

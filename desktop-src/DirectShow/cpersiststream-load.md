@@ -1,5 +1,5 @@
 ---
-Description: Loads the filter's data from a given stream.
+description: Loads the filter's data from a given stream.
 ms.assetid: c2bfd379-2916-4698-bc41-653161723706
 title: CPersistStream.Load method (Pstream.h)
 ms.topic: reference

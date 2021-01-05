@@ -1,5 +1,5 @@
 ---
-Description: The ReceiveMultiple method receives an array of samples. This method implements the IMemInputPin::ReceiveMultiple method.
+description: The ReceiveMultiple method receives an array of samples. This method implements the IMemInputPin::ReceiveMultiple method.
 ms.assetid: 21e757c7-f623-4ccb-8e37-512ee4dd7aa7
 title: CBaseInputPin.ReceiveMultiple method (Amfilter.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The CTransformInputPin class implements an input pin that is used by the CTransformFilter class.
+description: The CTransformInputPin class implements an input pin that is used by the CTransformFilter class.
 ms.assetid: 032da1bb-448d-48ea-ab3d-f721d790637f
 title: CTransformInputPin class (Transfrm.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The m\_pBaseWindow member variable is a pointer to the CBaseWindow object that manages the window.
+description: The m\_pBaseWindow member variable is a pointer to the CBaseWindow object that manages the window.
 ms.assetid: 972cc986-a01b-4f7f-801e-829a1653fed7
 title: CImagePalette::m_pBaseWindow member (Winutil.h)
 ms.topic: reference

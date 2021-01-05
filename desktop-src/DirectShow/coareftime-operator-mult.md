@@ -1,5 +1,5 @@
 ---
-Description: This operator multiplies a reference time by a value.
+description: This operator multiplies a reference time by a value.
 ms.assetid: f575fd41-1d3e-43a6-abf8-8e64093e408e
 title: COARefTime.operator* method (Ctlutil.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The GetPinCount method retrieves the number of pins.
+description: The GetPinCount method retrieves the number of pins.
 ms.assetid: 518de15d-2ecf-425e-b4cd-14aaaf938417
 title: CBaseRenderer.GetPinCount method (Renbase.h)
 ms.topic: reference

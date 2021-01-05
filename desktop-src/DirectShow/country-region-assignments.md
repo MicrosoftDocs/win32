@@ -1,5 +1,5 @@
 ---
-Description: Country/Region Assignments
+description: Country/Region Assignments
 ms.assetid: a71784eb-e6b4-4dab-91fc-103c39dd1591
 title: Country/Region Assignments
 ms.topic: article

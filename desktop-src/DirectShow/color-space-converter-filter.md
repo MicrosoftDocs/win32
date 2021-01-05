@@ -1,5 +1,5 @@
 ---
-Description: Color Space Converter Filter
+description: Color Space Converter Filter
 ms.assetid: a6765184-43ce-47b8-9eb1-e15af7e11c93
 title: Color Space Converter Filter
 ms.topic: article

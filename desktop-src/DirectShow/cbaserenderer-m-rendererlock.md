@@ -1,5 +1,5 @@
 ---
-Description: Streaming lock.
+description: Streaming lock.
 ms.assetid: e5794dcd-f793-4b23-80ab-083b7192c67e
 title: CBaseRenderer::m_RendererLock member (Renbase.h)
 ms.topic: reference

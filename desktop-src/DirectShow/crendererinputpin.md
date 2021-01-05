@@ -1,5 +1,5 @@
 ---
-Description: The CBaseRendererInputPin class implements an input pin for the CBaseRenderer class. Except where noted, the methods in this class delegate to corresponding methods on the CBaseRenderer class.
+description: The CBaseRendererInputPin class implements an input pin for the CBaseRenderer class. Except where noted, the methods in this class delegate to corresponding methods on the CBaseRenderer class.
 ms.assetid: da3e6aba-c2cc-4fd4-b382-fc4bc7fef774
 title: CRendererInputPin class (Renbase.h)
 ms.topic: reference

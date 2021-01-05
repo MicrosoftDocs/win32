@@ -1,5 +1,5 @@
 ---
-Description: The OnReceiveMessage method handles window messages.
+description: The OnReceiveMessage method handles window messages.
 ms.assetid: 0f074f9b-00e5-42ff-a491-020d441acad1
 title: CBaseWindow.OnReceiveMessage method (Winutil.h)
 ms.topic: reference

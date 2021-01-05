@@ -1,5 +1,5 @@
 ---
-Description: This operator retrieves the reference time as a REFERENCE\_TIME value.
+description: This operator retrieves the reference time as a REFERENCE\_TIME value.
 ms.assetid: ac77ca0d-f3d1-4258-bf2e-d7e8a33eb68e
 title: COARefTime.operator REFERENCE_TIME method (Ctlutil.h)
 ms.topic: reference

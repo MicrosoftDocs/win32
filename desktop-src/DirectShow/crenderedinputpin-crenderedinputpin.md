@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: Constructor method.
 ms.assetid: bf335750-b776-47bc-978d-e84e8b5259f7
 title: CRenderedInputPin.CRenderedInputPin constructor (Amextra.h)
 ms.topic: reference

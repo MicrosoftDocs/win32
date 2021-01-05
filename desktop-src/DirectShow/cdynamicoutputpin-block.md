@@ -1,5 +1,5 @@
 ---
-Description: The Block method blocks or unblocks the flow of data from the pin. This method implements the IPinFlowControl::Block method.
+description: The Block method blocks or unblocks the flow of data from the pin. This method implements the IPinFlowControl::Block method.
 ms.assetid: 8281cd8c-7543-42b5-9a4a-11bdfcb659e3
 title: CDynamicOutputPin.Block method (Amfilter.h)
 ms.topic: reference

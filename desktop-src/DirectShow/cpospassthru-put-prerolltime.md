@@ -1,5 +1,5 @@
 ---
-Description: The put\_PrerollTime method sets the amount of data that will be queued before the start position. This method implements the IMediaPosition::put\_PrerollTime method.
+description: The put\_PrerollTime method sets the amount of data that will be queued before the start position. This method implements the IMediaPosition::put\_PrerollTime method.
 ms.assetid: 5c35fb1d-2296-493f-8104-601127d7dd9f
 title: CPosPassThru.put_PrerollTime method (Ctlutil.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The ScaleSourceRect method scales a rectangle, if there is a difference between the native video size and the media type format.
+description: The ScaleSourceRect method scales a rectangle, if there is a difference between the native video size and the media type format.
 ms.assetid: 7bd4d555-5782-4ce5-9f0d-928b199ef897
 title: CDrawImage.ScaleSourceRect method (Winutil.h)
 ms.topic: reference

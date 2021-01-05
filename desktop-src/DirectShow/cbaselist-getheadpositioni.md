@@ -1,5 +1,5 @@
 ---
-Description: The GetHeadPositionI method retrieves the position of the first item in the list.
+description: The GetHeadPositionI method retrieves the position of the first item in the list.
 ms.assetid: a18c01dc-6bff-4250-9970-fe378decadf7
 title: CBaseList.GetHeadPositionI method (Wxlist.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Constants and GUIDs
+description: Constants and GUIDs
 ms.assetid: 2468107e-826c-4185-8562-c1001413b08e
 title: Constants and GUIDs
 ms.topic: article

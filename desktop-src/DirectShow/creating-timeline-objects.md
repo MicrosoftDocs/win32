@@ -1,5 +1,5 @@
 ---
-Description: Creating Timeline Objects
+description: Creating Timeline Objects
 ms.assetid: fb369b32-a54b-4d8a-8358-5f05aa48f853
 title: Creating Timeline Objects
 ms.topic: article

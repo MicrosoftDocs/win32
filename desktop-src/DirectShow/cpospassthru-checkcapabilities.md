@@ -1,5 +1,5 @@
 ---
-Description: The CheckCapabilities method queries whether a stream has specified seeking capabilities. This method implements the IMediaSeeking::CheckCapabilities method.
+description: The CheckCapabilities method queries whether a stream has specified seeking capabilities. This method implements the IMediaSeeking::CheckCapabilities method.
 ms.assetid: 48096af6-bbce-4a1f-be9a-fd150ed4536e
 title: CPosPassThru.CheckCapabilities method (Ctlutil.h)
 ms.topic: reference

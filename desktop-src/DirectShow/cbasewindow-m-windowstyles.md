@@ -1,5 +1,5 @@
 ---
-Description: Window styles for the window.
+description: Window styles for the window.
 ms.assetid: 1f8f94aa-94de-4dc9-ac1b-b34442243c3e
 title: CBaseWindow::m_WindowStyles member (Winutil.h)
 ms.topic: reference

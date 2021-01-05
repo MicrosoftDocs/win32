@@ -1,5 +1,5 @@
 ---
-Description: The CBaseInputPin class is an abstract base class for implementing input pins. This class adds support for the IMemInputPin interface, in addition to the IPin interface support provided by CBasePin.
+description: The CBaseInputPin class is an abstract base class for implementing input pins. This class adds support for the IMemInputPin interface, in addition to the IPin interface support provided by CBasePin.
 ms.assetid: 5a2b7f09-8c8b-45da-a4b7-afeb8d5548c1
 title: CBaseInputPin class (Amfilter.h)
 ms.topic: reference

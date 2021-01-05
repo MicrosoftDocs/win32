@@ -1,5 +1,5 @@
 ---
-Description: Uses the Microsoft Win32 SetThreadPriority function to set the priority of the thread to a new value.
+description: Uses the Microsoft Win32 SetThreadPriority function to set the priority of the thread to a new value.
 ms.assetid: 5b8ad024-e651-47e5-b32a-c44d56c086cd
 title: CMsgThread.SetThreadPriority method (Msgthrd.h)
 ms.topic: reference

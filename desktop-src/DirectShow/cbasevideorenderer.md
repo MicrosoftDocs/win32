@@ -1,5 +1,5 @@
 ---
-Description: The CBaseVideoRenderer base class is used for building video renderer filters.
+description: The CBaseVideoRenderer base class is used for building video renderer filters.
 ms.assetid: 659ce3d4-8702-4daf-9242-787d67758d90
 title: CBaseVideoRenderer class
 ms.topic: reference

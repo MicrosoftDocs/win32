@@ -1,5 +1,5 @@
 ---
-Description: Flag that indicates whether a run-time error has occurred.
+description: Flag that indicates whether a run-time error has occurred.
 ms.assetid: 917bcb21-a11e-4ac5-af96-565f61c155cd
 title: CBasePin::m_bRunTimeError member (Amfilter.h)
 ms.topic: reference

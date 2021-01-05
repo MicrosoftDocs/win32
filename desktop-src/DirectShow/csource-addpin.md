@@ -1,5 +1,5 @@
 ---
-Description: The AddPin method adds a new output pin to the filter.
+description: The AddPin method adds a new output pin to the filter.
 ms.assetid: 48850a1f-ecb7-460c-9bfc-ce1d1103a00b
 title: CSource.AddPin method (Source.h)
 ms.topic: reference

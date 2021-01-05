@@ -1,5 +1,5 @@
 ---
-Description: The = operator assigns a new reference time.
+description: The = operator assigns a new reference time.
 ms.assetid: 556c2e8a-4726-42ab-949d-9a028ebb1b95
 title: CRefTime.operator= method (Reftime.h)
 ms.topic: reference

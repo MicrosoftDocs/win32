@@ -1,5 +1,5 @@
 ---
-Description: The Receive method receives a media sample, processes it, and delivers it to the downstream filter.
+description: The Receive method receives a media sample, processes it, and delivers it to the downstream filter.
 ms.assetid: 87126353-b73a-45f5-a8e7-b719efdf9d76
 title: CTransInPlaceFilter.Receive method (Transip.h)
 ms.topic: reference

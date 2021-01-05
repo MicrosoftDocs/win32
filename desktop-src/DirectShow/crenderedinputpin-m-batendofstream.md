@@ -1,5 +1,5 @@
 ---
-Description: The m\_bAtEndOfStream member variable is a Boolean flag indicating whether the end of the stream was reached.
+description: The m\_bAtEndOfStream member variable is a Boolean flag indicating whether the end of the stream was reached.
 ms.assetid: 96cad18e-6a3e-409a-9949-5e050683e384
 title: CRenderedInputPin::m_bAtEndOfStream member (Amextra.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: Constructor method.
 ms.assetid: f696e433-b051-4de0-80e5-f9cd31fd0f23
 title: CEnumPins.CEnumPins constructor (Amfilter.h)
 ms.topic: reference

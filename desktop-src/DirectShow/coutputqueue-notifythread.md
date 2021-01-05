@@ -1,5 +1,5 @@
 ---
-Description: The NotifyThread method notifies the thread that the queue contains data.
+description: The NotifyThread method notifies the thread that the queue contains data.
 ms.assetid: d91cde3f-2876-4fb4-a124-f1460bba2cc9
 title: COutputQueue.NotifyThread method (Outputq.h)
 ms.topic: reference

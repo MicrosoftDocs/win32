@@ -1,5 +1,5 @@
 ---
-Description: The DecideAllocator method negotiates an allocator with the output pin.
+description: The DecideAllocator method negotiates an allocator with the output pin.
 ms.assetid: 5c04f440-b177-4caa-989f-3aa783c4b348
 title: CPullPin.DecideAllocator method (Pullpin.h)
 ms.topic: reference

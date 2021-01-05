@@ -1,5 +1,5 @@
 ---
-Description: The CurrentStartTime method retrieves the segment start time, set by the CBasePin::NewSegment method.
+description: The CurrentStartTime method retrieves the segment start time, set by the CBasePin::NewSegment method.
 ms.assetid: 6bf7407e-0b23-47cf-925e-3fed183c76fa
 title: CBasePin.CurrentStartTime method (Amfilter.h)
 ms.topic: reference

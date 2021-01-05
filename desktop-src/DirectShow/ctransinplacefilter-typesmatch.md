@@ -1,5 +1,5 @@
 ---
-Description: The TypesMatch method determines whether the input media type matches the output media type.
+description: The TypesMatch method determines whether the input media type matches the output media type.
 ms.assetid: e814d532-70ce-4f9b-9ce3-172daea0dad5
 title: CTransInPlaceFilter.TypesMatch method (Transip.h)
 ms.topic: reference

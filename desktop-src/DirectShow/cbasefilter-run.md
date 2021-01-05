@@ -1,5 +1,5 @@
 ---
-Description: The Run method runs the filter. This method implements the IMediaFilter::Run method.
+description: The Run method runs the filter. This method implements the IMediaFilter::Run method.
 ms.assetid: fab2cef7-cad1-4933-92a4-5f41cd947c2f
 title: CBaseFilter.Run method (Amfilter.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Direction of the pin.
+description: Direction of the pin.
 ms.assetid: 57c7e435-9db3-45ef-be83-52d65ff1f7a5
 title: CBasePin::m_dir member (Amfilter.h)
 ms.topic: reference

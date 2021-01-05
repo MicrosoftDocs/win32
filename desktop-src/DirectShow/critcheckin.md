@@ -1,5 +1,5 @@
 ---
-Description: Returns TRUE if the current thread is the owner of the specified critical section.
+description: Returns TRUE if the current thread is the owner of the specified critical section.
 ms.assetid: 96158f08-07a0-42a9-b173-0a05456a5f3a
 title: CritCheckIn function (Wxutil.h)
 ms.topic: reference

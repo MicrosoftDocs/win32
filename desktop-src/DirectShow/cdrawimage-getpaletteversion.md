@@ -1,5 +1,5 @@
 ---
-Description: The GetPaletteVersion method retrieves the current palette version.
+description: The GetPaletteVersion method retrieves the current palette version.
 ms.assetid: 9f97a810-04a4-4ea3-8918-416e9cd8e5e4
 title: CDrawImage.GetPaletteVersion method (Winutil.h)
 ms.topic: reference

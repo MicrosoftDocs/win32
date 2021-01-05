@@ -1,5 +1,5 @@
 ---
-Description: The OnStartStreaming method resets all times that control streaming.
+description: The OnStartStreaming method resets all times that control streaming.
 ms.assetid: a2bb07f2-6880-4030-96c5-d146982dfe66
 title: CBaseVideoRenderer.OnStartStreaming method (Renbase.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Pointer to the last node in the list.
+description: Pointer to the last node in the list.
 ms.assetid: e72e4dab-da64-472a-b7bd-6af99883f703
 title: CBaseList::m_pLast member (Wxlist.h)
 ms.topic: reference

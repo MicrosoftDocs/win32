@@ -1,5 +1,5 @@
 ---
-Description: Pointer to the CLSID of the object.
+description: Pointer to the CLSID of the object.
 ms.assetid: 629675e9-4b8a-4c1d-a2be-9eb2764ff5a0
 title: CFactoryTemplate::m_ClsID member (Combase.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Saves the filter's data to the given stream.
+description: Saves the filter's data to the given stream.
 ms.assetid: f45c8c6e-f0bb-4358-805a-da2669706d34
 title: CPersistStream.Save method (Pstream.h)
 ms.topic: reference
