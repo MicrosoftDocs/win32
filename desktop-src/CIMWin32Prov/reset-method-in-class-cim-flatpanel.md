@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_FlatPanel class requests a reset of the logical device.
+description: The Reset method of the CIM\_FlatPanel class requests a reset of the logical device.
 ms.assetid: 098d6fe9-ae13-495d-a579-d1eb0157688e
 ms.tgt_platform: multiple
 title: Reset method of the CIM_FlatPanel class

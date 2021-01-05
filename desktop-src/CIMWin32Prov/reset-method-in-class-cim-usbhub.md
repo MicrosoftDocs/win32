@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_USBHub class requests a reset of the logical device.
+description: The Reset method of the CIM\_USBHub class requests a reset of the logical device.
 ms.assetid: ce23ac02-6f13-4b9e-bf73-51f61ced7efe
 ms.tgt_platform: multiple
 title: Reset method of the CIM_USBHub class

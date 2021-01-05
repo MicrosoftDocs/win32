@@ -1,5 +1,5 @@
 ---
-Description: Uncompresses the logical directory entry file (or directory) specified in the object path.
+description: Uncompresses the logical directory entry file (or directory) specified in the object path.
 ms.assetid: dd39aae3-7c88-48fc-93ed-5225d2f1491c
 ms.tgt_platform: multiple
 title: Uncompress method of the Win32_Directory class

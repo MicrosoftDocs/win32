@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_AssociatedProcessorMemory association WMI class relates a processor and its cache memory.
+description: The Win32\_AssociatedProcessorMemory association WMI class relates a processor and its cache memory.
 ms.assetid: 23da2a9d-772e-4258-9489-07d47801b2d8
 ms.tgt_platform: multiple
 title: Win32_AssociatedProcessorMemory class

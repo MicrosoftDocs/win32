@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_CardInSlot class associates an adapter card with the container into which it is inserted.
+description: The CIM\_CardInSlot class associates an adapter card with the container into which it is inserted.
 ms.assetid: 253fb444-2a9e-4099-a4d5-352b643d8e32
 ms.tgt_platform: multiple
 title: CIM_CardInSlot class

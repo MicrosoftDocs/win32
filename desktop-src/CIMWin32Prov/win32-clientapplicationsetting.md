@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_ClientApplicationSetting association WMI class relates an executable file and a Component Object Model (COM) application that contains the COM configuration options for the executable file.
+description: The Win32\_ClientApplicationSetting association WMI class relates an executable file and a Component Object Model (COM) application that contains the COM configuration options for the executable file.
 ms.assetid: c43d80ee-0f29-4452-b51f-f18543bc1d35
 ms.tgt_platform: multiple
 title: Win32_ClientApplicationSetting class

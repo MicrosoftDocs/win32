@@ -1,5 +1,5 @@
 ---
-Description: The Power Management provider allows WMI to model the Windows power management protocols.
+description: The Power Management provider allows WMI to model the Windows power management protocols.
 ms.assetid: 18ff116b-22a8-4ee3-b2fd-427eb8643e6b
 ms.tgt_platform: multiple
 title: Power Management Event Provider

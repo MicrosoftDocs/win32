@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_MemoryDeviceLocation association WMI class relates a memory device and the physical memory on which it exists.
+description: The Win32\_MemoryDeviceLocation association WMI class relates a memory device and the physical memory on which it exists.
 ms.assetid: 6fef916e-44e2-4b9f-94b7-c7204259004a
 ms.tgt_platform: multiple
 title: Win32_MemoryDeviceLocation class

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_MemoryCheck class specifies a condition for the minimum amount of memory that must be available on a system.
+description: The CIM\_MemoryCheck class specifies a condition for the minimum amount of memory that must be available on a system.
 ms.assetid: a7d22f31-a285-41c4-b069-47c54865ddf5
 ms.tgt_platform: multiple
 title: CIM_MemoryCheck class

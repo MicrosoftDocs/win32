@@ -1,5 +1,5 @@
 ---
-Description: Dumps the diagnostic information into the log.
+description: Dumps the diagnostic information into the log.
 ms.assetid: eca07cc3-ff34-458b-a0f0-a8829862044d
 ms.tgt_platform: multiple
 title: DumpDiagnostics method of the Control class

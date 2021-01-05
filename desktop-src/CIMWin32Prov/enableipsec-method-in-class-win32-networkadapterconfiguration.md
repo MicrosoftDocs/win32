@@ -1,5 +1,5 @@
 ---
-Description: The EnableIPSec&\#8194;WMI class method enables Internet Protocol security (IPsec) on a TCP/IP-enabled network adapter.
+description: The EnableIPSec&\#8194;WMI class method enables Internet Protocol security (IPsec) on a TCP/IP-enabled network adapter.
 ms.assetid: 0a45d864-606d-4adb-9b51-62d46a0d68b1
 ms.tgt_platform: multiple
 title: EnableIPSec method of the Win32_NetworkAdapterConfiguration class

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Check class exposes the following methods.
+description: The CIM\_Check class exposes the following methods.
 ms.assetid: B19559C0-7956-430F-8145-E6F3C9B62981
 ms.tgt_platform: multiple
 title: CIM_Check Methods

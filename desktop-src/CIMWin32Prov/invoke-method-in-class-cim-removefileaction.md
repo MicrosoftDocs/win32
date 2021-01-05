@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method of the CIM\_RemoveFileAction class takes a particular action. The details of how the method performs the action is implementation specific. This method is inherited from CIM\_Action.
+description: The Invoke method of the CIM\_RemoveFileAction class takes a particular action. The details of how the method performs the action is implementation specific. This method is inherited from CIM\_Action.
 ms.assetid: 7fc33654-a51b-41cf-a5b4-ef08fd6e40ac
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_RemoveFileAction class

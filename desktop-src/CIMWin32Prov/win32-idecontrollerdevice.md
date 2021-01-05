@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_IDEControllerDevice association WMI class relates an Integrated Drive Electronics (IDE) controller and the logical device connected to, for example, a disk drive.
+description: The Win32\_IDEControllerDevice association WMI class relates an Integrated Drive Electronics (IDE) controller and the logical device connected to, for example, a disk drive.
 ms.assetid: 1b0a551c-d836-4147-91ed-a0a7d97f4a5b
 ms.tgt_platform: multiple
 title: Win32_IDEControllerDevice class

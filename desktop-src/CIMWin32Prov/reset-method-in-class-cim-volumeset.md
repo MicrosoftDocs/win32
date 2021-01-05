@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_VolumeSet class requests a reset of the logical device.
+description: The Reset method of the CIM\_VolumeSet class requests a reset of the logical device.
 ms.assetid: be4563a2-b602-45fe-935f-3f7db5277150
 ms.tgt_platform: multiple
 title: Reset method of the CIM_VolumeSet class

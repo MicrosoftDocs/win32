@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SettingContext class associates configuration objects with setting objects.
+description: The CIM\_SettingContext class associates configuration objects with setting objects.
 ms.assetid: 8ed7e150-b4e6-4fd4-809b-32e870b559c4
 ms.tgt_platform: multiple
 title: CIM_SettingContext class

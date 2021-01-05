@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_WORMDrive class represents the capabilities and management of a WORM drive, a subtype of the media access device.
+description: The CIM\_WORMDrive class represents the capabilities and management of a WORM drive, a subtype of the media access device.
 ms.assetid: df77084a-01f2-4cca-b395-d74ee64ef526
 ms.tgt_platform: multiple
 title: CIM_WORMDrive class

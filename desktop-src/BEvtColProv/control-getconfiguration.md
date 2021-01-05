@@ -1,5 +1,5 @@
 ---
-Description: Read the active configuration of the collector.
+description: Read the active configuration of the collector.
 ms.assetid: ea26142d-5dcd-466d-b9df-5349f58a190f
 ms.tgt_platform: multiple
 title: GetConfiguration method of the Control class

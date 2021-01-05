@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ParallelController association relates to the capabilities and management of the parallel port logical device.
+description: The CIM\_ParallelController association relates to the capabilities and management of the parallel port logical device.
 ms.assetid: c05e79b6-f3a6-48cc-a831-b67e216f43eb
 ms.tgt_platform: multiple
 title: CIM_ParallelController class

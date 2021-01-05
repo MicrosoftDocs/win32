@@ -1,5 +1,5 @@
 ---
-Description: The Delete&\#8194;WMI class method deletes an existing service.
+description: The Delete&\#8194;WMI class method deletes an existing service.
 ms.assetid: aa4e7630-3b19-47dd-acd1-4d1735acb819
 ms.tgt_platform: multiple
 title: Delete method of the Win32_Service class (CIMWin32 WMI Providers)

@@ -1,5 +1,5 @@
 ---
-Description: An abstract base class for the preinstalled, calculated data classes.
+description: An abstract base class for the preinstalled, calculated data classes.
 ms.assetid: 4eb6ad42-0f68-44f4-be19-095c51b4b1b6
 ms.tgt_platform: multiple
 title: Win32_PerfFormattedData class

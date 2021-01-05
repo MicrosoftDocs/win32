@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_ClusterShare class represents a shared resource on a cluster.
+description: The Win32\_ClusterShare class represents a shared resource on a cluster.
 ms.assetid: 6c8b40e3-431f-4728-a389-affbc04b8415
 ms.tgt_platform: multiple
 title: Win32_ClusterShare class

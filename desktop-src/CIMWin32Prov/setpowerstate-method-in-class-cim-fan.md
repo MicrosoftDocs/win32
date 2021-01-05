@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method of the CIM\_Fan class sets the desired power state for a logical device and when a device should be put into that state.
+description: The SetPowerState method of the CIM\_Fan class sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: 6d997a9a-4d80-4fef-b814-8319f9538c2f
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_Fan class

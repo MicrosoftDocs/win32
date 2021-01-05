@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_HostedAccessPoint class represents an association between a service access point (SAP) and the system on which it is provided. Each system may host many SAPs.
+description: The CIM\_HostedAccessPoint class represents an association between a service access point (SAP) and the system on which it is provided. Each system may host many SAPs.
 ms.assetid: 7da9b781-a5cb-42f5-b03c-4fc818c94e88
 ms.tgt_platform: multiple
 title: CIM_HostedAccessPoint class (CIMWin32 WMI Providers)

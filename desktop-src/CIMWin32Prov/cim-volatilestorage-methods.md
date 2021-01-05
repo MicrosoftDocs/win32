@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_VolatileStorage class exposes the following methods.
+description: The CIM\_VolatileStorage class exposes the following methods.
 ms.assetid: 7D33F96D-F896-4B51-BCBB-EAB4FC93E5FE
 ms.tgt_platform: multiple
 title: CIM_VolatileStorage Methods

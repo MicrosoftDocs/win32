@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_FlatPanel class represents the capabilities and management of the flat panel logical device.
+description: The CIM\_FlatPanel class represents the capabilities and management of the flat panel logical device.
 ms.assetid: 0c515621-4ff9-42af-a281-ac49af6d96ba
 ms.tgt_platform: multiple
 title: CIM_FlatPanel class

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_NonVolatileStorage class exposes the following methods.
+description: The CIM\_NonVolatileStorage class exposes the following methods.
 ms.assetid: 563CD79E-6E80-4EBC-A24C-9E72F7FBB272
 ms.tgt_platform: multiple
 title: CIM_NonVolatileStorage Methods

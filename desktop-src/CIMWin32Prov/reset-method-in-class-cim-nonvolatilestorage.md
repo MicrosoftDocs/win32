@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_NonVolatileStorage class requests a reset of the logical device.
+description: The Reset method of the CIM\_NonVolatileStorage class requests a reset of the logical device.
 ms.assetid: 5fa02e46-4823-4ffa-b4e9-0930fed6fb03
 ms.tgt_platform: multiple
 title: Reset method of the CIM_NonVolatileStorage class

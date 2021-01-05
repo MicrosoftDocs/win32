@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_DeviceMemoryAddress WMI class represents a device memory address on a computer system running Windows.
+description: The Win32\_DeviceMemoryAddress WMI class represents a device memory address on a computer system running Windows.
 ms.assetid: f0a70724-5ced-47fe-b17e-e153e65b80df
 ms.tgt_platform: multiple
 title: Win32_DeviceMemoryAddress class

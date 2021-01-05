@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DiskDrive class exposes the following methods.
+description: The CIM\_DiskDrive class exposes the following methods.
 ms.assetid: 16D47A79-EBB4-445E-BA28-7303CE7B5112
 ms.tgt_platform: multiple
 title: CIM_DiskDrive Methods

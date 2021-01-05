@@ -1,5 +1,5 @@
 ---
-Description: The GetDescriptor method returns the USB hub descriptor as specified by the input parameters.
+description: The GetDescriptor method returns the USB hub descriptor as specified by the input parameters.
 ms.assetid: 0090da35-0de1-4ea5-b983-bd9bf9997009
 ms.tgt_platform: multiple
 title: GetDescriptor method of the CIM_USBHub class (Wmcodecdsp.h)

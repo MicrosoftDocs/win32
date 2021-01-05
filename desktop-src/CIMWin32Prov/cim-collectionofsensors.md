@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_CollectionOfSensors association represents the binary sensors that make up the multistate sensor.
+description: The CIM\_CollectionOfSensors association represents the binary sensors that make up the multistate sensor.
 ms.assetid: d9494716-bb4e-4aa2-9e3b-e865360c740f
 ms.tgt_platform: multiple
 title: CIM_CollectionOfSensors class

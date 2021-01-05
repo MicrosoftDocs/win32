@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_HeatPipe class represents the capabilities and management of a heat pipe cooling device.
+description: The CIM\_HeatPipe class represents the capabilities and management of a heat pipe cooling device.
 ms.assetid: 55cbf645-12d8-4f17-a894-43195d42de0e
 ms.tgt_platform: multiple
 title: CIM_HeatPipe class

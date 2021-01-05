@@ -1,5 +1,5 @@
 ---
-Description: The base type for classes representing a property returned by the Win32\_PnPEntity::GetDeviceProperties Method.
+description: The base type for classes representing a property returned by the Win32\_PnPEntity::GetDeviceProperties Method.
 ms.assetid: f636c106-6ca6-407f-804a-0ec554ed565c
 ms.tgt_platform: multiple
 title: Win32_PnPDeviceProperty class

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_USBControllerHasHub class defines the hubs that are downstream of the USB controller.
+description: The CIM\_USBControllerHasHub class defines the hubs that are downstream of the USB controller.
 ms.assetid: 38bc0342-3ff0-42c8-9c1e-ea5a5822e1d3
 ms.tgt_platform: multiple
 title: CIM_USBControllerHasHub class

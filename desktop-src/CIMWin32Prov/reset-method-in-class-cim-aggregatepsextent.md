@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_AggregatePSExtent class requests a reset of the logical device.
+description: The Reset method of the CIM\_AggregatePSExtent class requests a reset of the logical device.
 ms.assetid: 6669126f-ceab-4e34-81e5-5cfe1abf5b98
 ms.tgt_platform: multiple
 title: Reset method of the CIM_AggregatePSExtent class

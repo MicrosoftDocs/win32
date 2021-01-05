@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_TemperatureSensor class exposes the following methods.
+description: The CIM\_TemperatureSensor class exposes the following methods.
 ms.assetid: FBEBF43D-444C-45E0-B04A-D3A086AFBDC0
 ms.tgt_platform: multiple
 title: CIM_TemperatureSensor Methods

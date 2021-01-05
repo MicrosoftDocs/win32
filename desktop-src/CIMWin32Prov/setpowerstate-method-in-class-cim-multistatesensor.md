@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method sets the desired power state for a logical device and when a device should be put into that state.
+description: The SetPowerState method sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: 192a39fd-8626-4ad8-a869-388c4808a923
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_MultiStateSensor class

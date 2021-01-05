@@ -1,5 +1,5 @@
 ---
-Description: Represents a PnP device property of type Uint16.
+description: Represents a PnP device property of type Uint16.
 ms.assetid: 9A46EABD-7F72-425C-B627-63102FE0849B
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyUint16 class

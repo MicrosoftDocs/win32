@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ControlledBy relationship indicates which devices are commanded by, or accessed through, the controller logical device.
+description: The CIM\_ControlledBy relationship indicates which devices are commanded by, or accessed through, the controller logical device.
 ms.assetid: 6aa4e088-32a0-4c88-bb82-341b6ab53b4c
 ms.tgt_platform: multiple
 title: CIM_ControlledBy class (CIMWin32 WMI Providers)

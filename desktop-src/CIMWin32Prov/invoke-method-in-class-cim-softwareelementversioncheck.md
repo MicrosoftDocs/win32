@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method of the CIM\_SoftwareElementVersionCheck class evaluates a particular check.
+description: The Invoke method of the CIM\_SoftwareElementVersionCheck class evaluates a particular check.
 ms.assetid: 5b477945-7ad4-49e2-b9c8-4a700a45f2b6
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_SoftwareElementVersionCheck class

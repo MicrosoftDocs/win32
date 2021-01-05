@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DataFile class represents a named collection of data or executable code. Only instances of files on local fixed disks will be returned.
+description: The CIM\_DataFile class represents a named collection of data or executable code. Only instances of files on local fixed disks will be returned.
 ms.assetid: e90e1216-e943-4f3a-9f6c-8a0b4568a11f
 ms.tgt_platform: multiple
 title: CIM_DataFile class

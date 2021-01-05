@@ -1,5 +1,5 @@
 ---
-Description: Changes the security permissions for the logical directory entry file specified in the object path.
+description: Changes the security permissions for the logical directory entry file specified in the object path.
 ms.assetid: de2b3269-61e0-484c-8bea-00578422491f
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissions method of the Win32_Directory class

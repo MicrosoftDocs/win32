@@ -1,5 +1,5 @@
 ---
-Description: Represents the attributes of the computer system's basic input/output services (BIOS) that are installed on a computer.
+description: Represents the attributes of the computer system's basic input/output services (BIOS) that are installed on a computer.
 ms.assetid: e4a5aaf0-0432-4517-97b7-ac05ffd10b5b
 ms.tgt_platform: multiple
 title: Win32_BIOS class

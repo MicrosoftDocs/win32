@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method of the CIM\_DiskSpaceCheck class evaluates a particular check. The details of how the method evaluates a particular check in a CIM context is described by the non-abstract CIM\_Check subclass.
+description: The Invoke method of the CIM\_DiskSpaceCheck class evaluates a particular check. The details of how the method evaluates a particular check in a CIM context is described by the non-abstract CIM\_Check subclass.
 ms.assetid: 1f06b0c4-3f39-4a6f-9205-2aa309fb06bb
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_DiskSpaceCheck class

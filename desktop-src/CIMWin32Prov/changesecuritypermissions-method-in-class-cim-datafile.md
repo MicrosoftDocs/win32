@@ -1,5 +1,5 @@
 ---
-Description: Changes the security permissions for the logical data file specified in the object path.
+description: Changes the security permissions for the logical data file specified in the object path.
 ms.assetid: b0a66411-f973-42ce-a3fe-25c31234a964
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissions method of the CIM_DataFile class

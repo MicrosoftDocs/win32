@@ -1,5 +1,5 @@
 ---
-Description: Represents a PnP device property consisting of an array of Win32\_SecurityDescriptor elements.
+description: Represents a PnP device property consisting of an array of Win32\_SecurityDescriptor elements.
 ms.assetid: EDE24CDA-50C9-49C0-842E-C68891426AD6
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertySecurityDescriptorArray class

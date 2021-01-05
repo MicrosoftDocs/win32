@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_NumericSensor class represents a numeric sensor that returns numeric readings and optionally supports thresholds settings.
+description: The CIM\_NumericSensor class represents a numeric sensor that returns numeric readings and optionally supports thresholds settings.
 ms.assetid: 9be9ee28-24ee-49d1-871f-73b504c77518
 ms.tgt_platform: multiple
 title: CIM_NumericSensor class

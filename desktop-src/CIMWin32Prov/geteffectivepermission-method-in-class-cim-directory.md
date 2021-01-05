@@ -1,5 +1,5 @@
 ---
-Description: Determines whether the caller has the aggregated permissions on the CIM\_Directory object, and the share on which the file or directory resides, as specified by the Permission argument. This method is inherited from CIM\_LogicalFile.
+description: Determines whether the caller has the aggregated permissions on the CIM\_Directory object, and the share on which the file or directory resides, as specified by the Permission argument. This method is inherited from CIM\_LogicalFile.
 ms.assetid: b3dc1e3c-5c99-46ba-93c4-15fbf18e98e8
 ms.tgt_platform: multiple
 title: GetEffectivePermission method of the CIM_Directory class (Aclui.h)

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_VideoControllerResolution class represents the various video modes that a video controller can support.
+description: The CIM\_VideoControllerResolution class represents the various video modes that a video controller can support.
 ms.assetid: 954ac3fe-9777-460c-8929-853f19379256
 ms.tgt_platform: multiple
 title: CIM_VideoControllerResolution class

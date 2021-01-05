@@ -1,5 +1,5 @@
 ---
-Description: Renames the device file (or directory) specified in the object path.
+description: Renames the device file (or directory) specified in the object path.
 ms.assetid: 48c2eab3-c76d-4e4b-927e-dbb17584cccd
 ms.tgt_platform: multiple
 title: Rename method of the CIM_DeviceFile class

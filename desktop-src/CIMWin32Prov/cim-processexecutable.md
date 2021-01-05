@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ProcessExecutable class represents a link between a process and data file, and indicates that the file participates in the execution of the process.
+description: The CIM\_ProcessExecutable class represents a link between a process and data file, and indicates that the file participates in the execution of the process.
 ms.assetid: 6db69bf3-b28e-4d0b-8878-558e12052767
 ms.tgt_platform: multiple
 title: CIM_ProcessExecutable class

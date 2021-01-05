@@ -1,5 +1,5 @@
 ---
-Description: Gets the security descriptor that controls who can access a DCOM application.
+description: Gets the security descriptor that controls who can access a DCOM application.
 ms.assetid: 5ddd563b-f731-47ac-8a13-20940adfa86d
 ms.tgt_platform: multiple
 title: GetAccessSecurityDescriptor method of the Win32_DCOMApplicationSetting class

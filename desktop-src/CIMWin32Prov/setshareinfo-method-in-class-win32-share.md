@@ -1,5 +1,5 @@
 ---
-Description: The SetShareInfo&\#8194;WMI class method sets the parameters of a shared resource.
+description: The SetShareInfo&\#8194;WMI class method sets the parameters of a shared resource.
 ms.assetid: f6379261-9325-4b7f-92df-438c5029569f
 ms.tgt_platform: multiple
 title: SetShareInfo method of the Win32_Share class

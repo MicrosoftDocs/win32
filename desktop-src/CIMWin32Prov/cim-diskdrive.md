@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DiskDrive class represents a physical disk drive as seen by the operating system.
+description: The CIM\_DiskDrive class represents a physical disk drive as seen by the operating system.
 ms.assetid: 3a63506e-455e-4108-b0c7-03b2af249d61
 ms.tgt_platform: multiple
 title: CIM_DiskDrive class (CIMWin32 WMI Providers)

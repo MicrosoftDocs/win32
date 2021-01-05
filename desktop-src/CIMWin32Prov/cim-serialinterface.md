@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SerialInterface class represents a CIM\_ControlledBy relationship that indicates which devices are accessed through the serial controller and the characteristics of the access.
+description: The CIM\_SerialInterface class represents a CIM\_ControlledBy relationship that indicates which devices are accessed through the serial controller and the characteristics of the access.
 ms.assetid: bebc304a-c2b7-41c7-b24a-8f450ee3c4bb
 ms.tgt_platform: multiple
 title: CIM_SerialInterface class

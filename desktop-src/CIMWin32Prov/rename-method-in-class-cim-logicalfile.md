@@ -1,5 +1,5 @@
 ---
-Description: The Rename method renames the logical file (or directory) specified in the object path. Renaming is not supported if the destination is on another drive, or overwriting an existing logical file is required.
+description: The Rename method renames the logical file (or directory) specified in the object path. Renaming is not supported if the destination is on another drive, or overwriting an existing logical file is required.
 ms.assetid: 5a62ff64-d1d2-43a2-997c-0ad46896b31f
 ms.tgt_platform: multiple
 title: Rename method of the CIM_LogicalFile class

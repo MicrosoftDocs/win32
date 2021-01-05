@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_FileSpecification class exposes the following methods.
+description: The CIM\_FileSpecification class exposes the following methods.
 ms.assetid: 9C1722D8-3FEA-4F20-AFDE-E1D26D1CEB76
 ms.tgt_platform: multiple
 title: CIM_FileSpecification Methods

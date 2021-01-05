@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PCVideoController class exposes the following methods.
+description: The CIM\_PCVideoController class exposes the following methods.
 ms.assetid: 6BEABBE0-AA99-405C-8A7C-89534C9E386D
 ms.tgt_platform: multiple
 title: CIM_PCVideoController Methods

@@ -1,5 +1,5 @@
 ---
-Description: The SetWINSServer WMI class method sets the primary and secondary Windows Internet Naming Service (WINS) servers on this TCP/IP-bound network adapter. This method is applied independently of the network adapter.
+description: The SetWINSServer WMI class method sets the primary and secondary Windows Internet Naming Service (WINS) servers on this TCP/IP-bound network adapter. This method is applied independently of the network adapter.
 ms.assetid: fa8ce436-b67e-4975-a5c5-1a7d6aab4c8e
 ms.tgt_platform: multiple
 title: SetWINSServer method of the Win32_NetworkAdapterConfiguration class

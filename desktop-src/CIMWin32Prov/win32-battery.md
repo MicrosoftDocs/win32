@@ -1,5 +1,5 @@
 ---
-Description: Represents a battery connected to the computer system.
+description: Represents a battery connected to the computer system.
 ms.assetid: b07ccb1d-008e-4bf1-8299-33706cbcbaee
 ms.tgt_platform: multiple
 title: Win32_Battery class

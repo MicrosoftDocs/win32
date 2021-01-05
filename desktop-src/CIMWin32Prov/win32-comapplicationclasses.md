@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_COMApplicationClasses abstract association WMI class relates a Component Object Model (COM) component and the COM application where it resides.
+description: The Win32\_COMApplicationClasses abstract association WMI class relates a Component Object Model (COM) component and the COM application where it resides.
 ms.assetid: 7c188199-86fb-45ba-b318-9d9529b831b8
 ms.tgt_platform: multiple
 title: Win32_COMApplicationClasses class

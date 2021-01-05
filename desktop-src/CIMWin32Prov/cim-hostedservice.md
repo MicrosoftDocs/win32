@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_HostedService class represents an association between a service and the system on which the functionality resides.
+description: The CIM\_HostedService class represents an association between a service and the system on which the functionality resides.
 ms.assetid: 23bb385d-dd22-4126-aea9-d2f22527223e
 ms.tgt_platform: multiple
 title: CIM_HostedService class (CIMWin32 WMI Providers)

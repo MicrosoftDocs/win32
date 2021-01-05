@@ -1,5 +1,5 @@
 ---
-Description: Renames a user account name.
+description: Renames a user account name.
 ms.assetid: 90258256-7470-4ec8-afce-bea0f64b90fb
 ms.tgt_platform: multiple
 title: Rename method of the Win32_UserAccount class

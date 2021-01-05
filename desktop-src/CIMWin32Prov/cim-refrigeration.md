@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Refrigeration class represents the capabilities and management of a refrigeration cooling device.
+description: The CIM\_Refrigeration class represents the capabilities and management of a refrigeration cooling device.
 ms.assetid: 3ea557d8-6af3-4851-b667-a9afc1219cc7
 ms.tgt_platform: multiple
 title: CIM_Refrigeration class

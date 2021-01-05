@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_MotherboardDevice WMI class represents a device that contains the central components of the Windows computer system.
+description: The Win32\_MotherboardDevice WMI class represents a device that contains the central components of the Windows computer system.
 ms.assetid: 2aed5fff-e994-4ce1-8a2e-aadb01adf28d
 ms.tgt_platform: multiple
 title: Win32_MotherboardDevice class

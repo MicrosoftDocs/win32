@@ -1,5 +1,5 @@
 ---
-Description: Uncompressed the logical device file (or directory) specified in the object path. This method is inherited from CIM\_LogicalFile.
+description: Uncompressed the logical device file (or directory) specified in the object path. This method is inherited from CIM\_LogicalFile.
 ms.assetid: a9b5e9bc-1c31-4518-ade4-8e9a0106608e
 ms.tgt_platform: multiple
 title: Uncompress method of the CIM_DeviceFile class

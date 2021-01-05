@@ -1,5 +1,5 @@
 ---
-Description: Represents a PnP device property of type real32.
+description: Represents a PnP device property of type real32.
 ms.assetid: 06DFAFDA-6C6E-40BA-819D-50D2E1C1B524
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyReal32 class

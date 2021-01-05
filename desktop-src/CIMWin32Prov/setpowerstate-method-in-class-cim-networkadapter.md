@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method of the CIM\_NetworkAdapter class sets the desired power state for a logical device and when a device should be put into that state.
+description: The SetPowerState method of the CIM\_NetworkAdapter class sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: b384bd64-c4a3-4a35-b18a-a4f23cd3d131
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_NetworkAdapter class

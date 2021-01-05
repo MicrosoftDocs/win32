@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method of the CIM\_MagnetoOpticalDrive class sets the desired power state for a logical device and when a device should be put into that state.
+description: The SetPowerState method of the CIM\_MagnetoOpticalDrive class sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: 78f89dd5-79ce-43cc-b878-9d943386eb74
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_MagnetoOpticalDrive class

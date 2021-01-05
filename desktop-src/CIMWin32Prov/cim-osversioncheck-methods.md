@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_OSVersionCheck class exposes the following methods.
+description: The CIM\_OSVersionCheck class exposes the following methods.
 ms.assetid: F1CA0689-D6CD-4900-ACEA-AE4AD9E294E5
 ms.tgt_platform: multiple
 title: CIM_OSVersionCheck Methods

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Realizes class represents the association that defines the mapping between a logical device and the physical component that implements the device.
+description: The CIM\_Realizes class represents the association that defines the mapping between a logical device and the physical component that implements the device.
 ms.assetid: 3bddb0c8-dca5-4877-9e30-322516a8d388
 ms.tgt_platform: multiple
 title: CIM_Realizes class

@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_ClusterShare class exposes the following methods.
+description: The Win32\_ClusterShare class exposes the following methods.
 ms.assetid: E045BB66-2B5D-4FA0-B696-2A02FD7205F8
 ms.tgt_platform: multiple
 title: Win32_ClusterShare Methods

@@ -1,5 +1,5 @@
 ---
-Description: Represents a data source that resolves to an actual local storage device on a computer system running Windows.
+description: Represents a data source that resolves to an actual local storage device on a computer system running Windows.
 ms.assetid: 134a90cc-b2c3-4ade-a317-b96c4aabe63d
 ms.tgt_platform: multiple
 title: Win32_LogicalDisk class

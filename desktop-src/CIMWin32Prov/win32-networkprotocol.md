@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_NetworkProtocol&\#8194;WMI class represents a protocol and its network characteristics on a Win32 computer system.
+description: The Win32\_NetworkProtocol&\#8194;WMI class represents a protocol and its network characteristics on a Win32 computer system.
 ms.assetid: c864a694-d507-4629-91c5-bd26ccf397f7
 ms.tgt_platform: multiple
 title: Win32_NetworkProtocol class

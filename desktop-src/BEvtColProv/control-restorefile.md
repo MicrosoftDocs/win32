@@ -1,5 +1,5 @@
 ---
-Description: Restore the active configuration of the collector from a backup file.
+description: Restore the active configuration of the collector from a backup file.
 ms.assetid: b59b04a5-d2b3-4299-8347-5026b982dc02
 ms.tgt_platform: multiple
 title: RestoreFile method of the Control class

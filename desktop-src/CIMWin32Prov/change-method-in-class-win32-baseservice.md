@@ -1,5 +1,5 @@
 ---
-Description: Modifies a service object derived from Win32\_BaseService.
+description: Modifies a service object derived from Win32\_BaseService.
 ms.assetid: d5f4f472-e7d9-4664-9430-9c77034a5978
 ms.tgt_platform: multiple
 title: Change method of the Win32_BaseService class (Mbnapi.h)

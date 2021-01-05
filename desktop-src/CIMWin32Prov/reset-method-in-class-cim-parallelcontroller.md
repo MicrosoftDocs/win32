@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_ParallelController class requests a reset of the logical device.
+description: The Reset method of the CIM\_ParallelController class requests a reset of the logical device.
 ms.assetid: 7cdd46b5-b054-4322-bb05-dd9fd6d54f13
 ms.tgt_platform: multiple
 title: Reset method of the CIM_ParallelController class

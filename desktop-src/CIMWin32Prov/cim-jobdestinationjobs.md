@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_JobDestinationJobs association describes where a job is submitted for processing (that is, to which job destination).
+description: The CIM\_JobDestinationJobs association describes where a job is submitted for processing (that is, to which job destination).
 ms.assetid: 6f732d34-2284-4909-a966-6b4066780cb0
 ms.tgt_platform: multiple
 title: CIM_JobDestinationJobs class

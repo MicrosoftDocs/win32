@@ -1,5 +1,5 @@
 ---
-Description: The CompressEx method compresses the logical file (or directory) specified in the object path. This method is an extended version of the Compress method and is inherited from CIM\_LogicalFile.
+description: The CompressEx method compresses the logical file (or directory) specified in the object path. This method is an extended version of the Compress method and is inherited from CIM\_LogicalFile.
 ms.assetid: 82a28a3b-b2e4-4834-b4a5-02ffe94f3fc7
 ms.tgt_platform: multiple
 title: CompressEx method of the CIM_Directory class

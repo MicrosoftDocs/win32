@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Rack class exposes the following methods.
+description: The CIM\_Rack class exposes the following methods.
 ms.assetid: 0828BF9E-D374-4FF4-B6D9-C1492CE108E3
 ms.tgt_platform: multiple
 title: CIM_Rack Methods
