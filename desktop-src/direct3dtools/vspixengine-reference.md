@@ -1,5 +1,5 @@
 ---
-Description: This section covers APIs for the Direct3D graphics diagnostics capture interface.
+description: This section covers APIs for the Direct3D graphics diagnostics capture interface.
 MS-HAID: vspixengine.vspixengine\_reference
 MSHAttr:
 - PreferredSiteName:MSDN

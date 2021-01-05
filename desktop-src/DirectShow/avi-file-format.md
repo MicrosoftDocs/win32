@@ -1,5 +1,5 @@
 ---
-Description: AVI File Format
+description: AVI File Format
 ms.assetid: 986de213-4d25-4768-a6bc-37891cd38353
 title: AVI File Format
 ms.topic: article

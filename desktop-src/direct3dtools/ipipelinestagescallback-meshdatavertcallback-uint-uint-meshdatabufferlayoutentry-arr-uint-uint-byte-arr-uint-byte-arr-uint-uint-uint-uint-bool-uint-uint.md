@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host of pipeline stages mesh information returned by the assocaited request.
+description: A callback that notifies the host of pipeline stages mesh information returned by the assocaited request.
 MS-HAID: vspixengine.IPipeLineStagesCallback\_MeshDataVertCallback\_UINT\_UINT\_MeshDataBufferLayoutEntry\_arr\_UINT\_UINT\_BYTE\_arr\_UINT\_BYTE\_arr\_UINT\_UINT\_UINT\_UINT\_BOOL\_UINT\_UINT
 MSHAttr:
 - PreferredSiteName:MSDN

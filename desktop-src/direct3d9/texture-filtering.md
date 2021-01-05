@@ -1,5 +1,5 @@
 ---
-Description: When Direct3D renders a primitive, it maps the 3D primitive onto a 2D screen.
+description: When Direct3D renders a primitive, it maps the 3D primitive onto a 2D screen.
 ms.assetid: 'vs|directx_sdk|~\texture_filtering.htm'
 title: Texture Filtering (Direct3D 9)
 ms.topic: article

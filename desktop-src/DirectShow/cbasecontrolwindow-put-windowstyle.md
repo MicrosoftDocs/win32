@@ -1,5 +1,5 @@
 ---
-Description: The put\_WindowStyle method sets the standard window styles.
+description: The put\_WindowStyle method sets the standard window styles.
 ms.assetid: 3b3aa035-6aa1-4f11-80d8-03268fcf98e1
 title: CBaseControlWindow.put_WindowStyle method (Ctlutil.h)
 ms.topic: reference

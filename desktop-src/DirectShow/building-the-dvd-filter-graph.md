@@ -1,5 +1,5 @@
 ---
-Description: Building the DVD Filter Graph
+description: Building the DVD Filter Graph
 ms.assetid: 1d2f8284-2deb-4207-b067-24a54d6b286c
 title: Building the DVD Filter Graph
 ms.topic: article

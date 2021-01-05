@@ -1,5 +1,5 @@
 ---
-Description: Specifies the frame rate on the encoder's output stream, in frames per second.
+description: Specifies the frame rate on the encoder's output stream, in frames per second.
 ms.assetid: 72e16c7d-977e-4269-9576-afc789e31826
 title: AVEncVideoOutputFrameRate property (Codecapi.h)
 ms.topic: reference

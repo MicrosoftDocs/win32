@@ -1,5 +1,5 @@
 ---
-Description: An enum used to indicate properties of data returned from an object table request. For more information, see IObjectTableRequest.
+description: An enum used to indicate properties of data returned from an object table request. For more information, see IObjectTableRequest.
 MS-HAID: vspixengine.OBJECTTABLECOLUMNID
 MSHAttr:
 - PreferredSiteName:MSDN

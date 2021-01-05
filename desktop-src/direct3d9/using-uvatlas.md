@@ -1,5 +1,5 @@
 ---
-Description: Many rendering and content generation techniques require a unique, non-overlapping map of a 2D signal (such as a texture) onto a mesh.
+description: Many rendering and content generation techniques require a unique, non-overlapping map of a 2D signal (such as a texture) onto a mesh.
 ms.assetid: 0ec19e8c-2a14-4392-93de-7ab832784085
 title: Using UVAtlas (Direct3D 9)
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host that ThreadData is unavailable for a particular pipeline stage and event.
+description: A callback that notifies the host that ThreadData is unavailable for a particular pipeline stage and event.
 MS-HAID: vspixengine.IPipeLineStagesCallback2\_ThreadDataNotAvailableCallback\_PipeLineStageError\_EventID
 MSHAttr:
 - PreferredSiteName:MSDN

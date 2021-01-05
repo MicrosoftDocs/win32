@@ -1,5 +1,5 @@
 ---
-Description: The following structures are declared in vspixengine.h.
+description: The following structures are declared in vspixengine.h.
 MS-HAID: vspixengine.vspixengine\_structures
 MSHAttr:
 - PreferredSiteName:MSDN

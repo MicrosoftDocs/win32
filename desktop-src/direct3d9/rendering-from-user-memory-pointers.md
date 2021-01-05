@@ -1,5 +1,5 @@
 ---
-Description: A secondary set of rendering interfaces supports passing vertex and index data directly from user memory pointers. These interfaces support a single stream of vertex data only. For more information, see the following reference topics.
+description: A secondary set of rendering interfaces supports passing vertex and index data directly from user memory pointers. These interfaces support a single stream of vertex data only. For more information, see the following reference topics.
 ms.assetid: 6f64cc17-cffc-4d18-acf2-73e400fa26f9
 title: Rendering from User Memory Pointers (Direct3D 9)
 ms.topic: article

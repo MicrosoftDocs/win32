@@ -1,5 +1,5 @@
 ---
-Description: Base of any request that can be canceled. Canceled requests can only be canceled if they are still in the queue, so a cancelation may be ignored.
+description: Base of any request that can be canceled. Canceled requests can only be canceled if they are still in the queue, so a cancelation may be ignored.
 MS-HAID: vspixengine.IPixCancelableRequest
 MSHAttr:
 - PreferredSiteName:MSDN

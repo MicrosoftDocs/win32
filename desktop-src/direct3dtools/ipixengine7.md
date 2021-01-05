@@ -1,5 +1,5 @@
 ---
-Description: Extensions to the IPixEngine6 interface containing additions around versioning.
+description: Extensions to the IPixEngine6 interface containing additions around versioning.
 MS-HAID: vspixengine.IPixEngine7
 MSHAttr:
 - PreferredSiteName:MSDN

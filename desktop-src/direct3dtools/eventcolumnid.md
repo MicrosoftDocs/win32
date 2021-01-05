@@ -1,5 +1,5 @@
 ---
-Description: An enum used to indicate well-known column IDs; these are column IDs that all implementations should support.
+description: An enum used to indicate well-known column IDs; these are column IDs that all implementations should support.
 MS-HAID: vspixengine.EVENTCOLUMNID
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: Passes resources to the engine, such as strings for error messages.
+description: Passes resources to the engine, such as strings for error messages.
 MS-HAID: vspixengine.IPixEngine3\_SetupResources\_ResourcePair\_arr\_UINT
 MSHAttr:
 - PreferredSiteName:MSDN

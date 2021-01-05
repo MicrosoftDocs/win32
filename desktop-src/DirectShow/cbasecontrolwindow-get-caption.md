@@ -1,5 +1,5 @@
 ---
-Description: The get\_Caption method retrieves the current window caption.
+description: The get\_Caption method retrieves the current window caption.
 ms.assetid: 51ce9cf8-0b2a-4459-b005-02dc45444fd8
 title: CBaseControlWindow.get_Caption method (Ctlutil.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Requests a list of pixel history results in the specified pixel, render tartget /UAV, and frame.
+description: Requests a list of pixel history results in the specified pixel, render tartget /UAV, and frame.
 MS-HAID: vspixengine.IPixelHistoryRequest\_RequestAsync\_DWORD\_Point2D\_DWORD\_IPixelHistoryCallback\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

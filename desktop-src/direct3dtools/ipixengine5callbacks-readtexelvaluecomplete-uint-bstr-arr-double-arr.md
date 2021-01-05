@@ -1,5 +1,5 @@
 ---
-Description: A callback function used to notify the host when a texel value read has been completed.
+description: A callback function used to notify the host when a texel value read has been completed.
 MS-HAID: vspixengine.IPixEngine5Callbacks\_ReadTexelValueComplete\_UINT\_BSTR\_arr\_double\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

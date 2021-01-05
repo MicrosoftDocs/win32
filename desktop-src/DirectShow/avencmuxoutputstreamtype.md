@@ -1,5 +1,5 @@
 ---
-Description: Specifies the type of output stream produced by a multiplexer.
+description: Specifies the type of output stream produced by a multiplexer.
 ms.assetid: c3ee20b9-cae9-4a84-b173-3a4919202b3d
 title: AVEncMuxOutputStreamType property (Codecapi.h)
 ms.topic: reference

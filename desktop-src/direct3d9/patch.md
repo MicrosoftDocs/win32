@@ -1,5 +1,5 @@
 ---
-Description: Defines a B&\#233;zier control patch. The array defines the control points for the patch.
+description: Defines a B&\#233;zier control patch. The array defines the control points for the patch.
 ms.assetid: 'vs|directx_sdk|~\patch.htm'
 title: Patch
 ms.topic: article

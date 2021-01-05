@@ -1,5 +1,5 @@
 ---
-Description: Specifies the time interval over which the average bit rate applies. This property is used in conjunction with the AVEncCommonMeanBitRate property.
+description: Specifies the time interval over which the average bit rate applies. This property is used in conjunction with the AVEncCommonMeanBitRate property.
 ms.assetid: 3cf26f46-e8ac-448a-a031-800915cad1ef
 title: AVEncCommonMeanBitRateInterval property (Codecapi.h)
 ms.topic: reference

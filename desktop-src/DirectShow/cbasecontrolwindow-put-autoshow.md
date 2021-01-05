@@ -1,5 +1,5 @@
 ---
-Description: The put\_AutoShow method sets the AutoShow state flag.
+description: The put\_AutoShow method sets the AutoShow state flag.
 ms.assetid: 857472b8-845b-46d3-8593-3fba9a9c8cdc
 title: CBaseControlWindow.put_AutoShow method (Ctlutil.h)
 ms.topic: reference

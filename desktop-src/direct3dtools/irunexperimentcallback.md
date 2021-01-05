@@ -1,5 +1,5 @@
 ---
-Description: Callback to return errors from the engine during capture.
+description: Callback to return errors from the engine during capture.
 MS-HAID: vspixengine.IRunExperimentCallback
 MSHAttr:
 - PreferredSiteName:MSDN

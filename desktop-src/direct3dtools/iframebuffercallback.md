@@ -1,5 +1,5 @@
 ---
-Description: Callback to return a render target. The format of the returned render target is R8G8B8A8\_UNORM regardless of the format of the in-engine rendertarget.
+description: Callback to return a render target. The format of the returned render target is R8G8B8A8\_UNORM regardless of the format of the in-engine rendertarget.
 MS-HAID: vspixengine.IFrameBufferCallback
 MSHAttr:
 - PreferredSiteName:MSDN

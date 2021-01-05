@@ -1,5 +1,5 @@
 ---
-Description: Direct3D uses a form of linear texture filtering called bilinear filtering.
+description: Direct3D uses a form of linear texture filtering called bilinear filtering.
 ms.assetid: 'vs|directx_sdk|~\linear_texture_filtering.htm'
 title: Linear Texture Filtering (Direct3D 9)
 ms.topic: article

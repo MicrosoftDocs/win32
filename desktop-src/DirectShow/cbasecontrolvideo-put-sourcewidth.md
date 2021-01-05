@@ -1,5 +1,5 @@
 ---
-Description: The put\_SourceWidth method sets the width of the source rectangle.
+description: The put\_SourceWidth method sets the width of the source rectangle.
 ms.assetid: 0becea4f-e47e-4f64-ab95-0ee333ad48f3
 title: CBaseControlVideo.put_SourceWidth method (Ctlutil.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: .
+description: .
 MS-HAID: vspixengine.EXPERIMENTTYPE
 MSHAttr:
 - PreferredSiteName:MSDN

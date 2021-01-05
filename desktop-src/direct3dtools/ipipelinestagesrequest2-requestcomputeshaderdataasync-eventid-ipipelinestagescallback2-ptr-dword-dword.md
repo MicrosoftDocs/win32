@@ -1,5 +1,5 @@
 ---
-Description: An asynchronous request to get compute shader data for the specified dispatch.
+description: An asynchronous request to get compute shader data for the specified dispatch.
 MS-HAID: vspixengine.IPipeLineStagesRequest2\_RequestComputeShaderDataAsync\_EventID\_IPipeLineStagesCallback2\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

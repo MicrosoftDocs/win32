@@ -1,5 +1,5 @@
 ---
-Description: Apps can wait on an event when rendering to the screen is unnecessary (that is, while they are occluded).
+description: Apps can wait on an event when rendering to the screen is unnecessary (that is, while they are occluded).
 ms.assetid: B9EC23C9-A311-4BD9-BBE8-908A1334A541
 title: Waiting on an event when rendering is unnecessary
 ms.topic: article

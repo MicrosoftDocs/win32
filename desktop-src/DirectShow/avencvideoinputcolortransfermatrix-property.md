@@ -1,5 +1,5 @@
 ---
-Description: Specifies the conversion matrix from the Y'Cb'Cr' color space to the R'G'B' color space, for the input video.
+description: Specifies the conversion matrix from the Y'Cb'Cr' color space to the R'G'B' color space, for the input video.
 ms.assetid: de03f3e6-12c8-4a7c-a424-ef974d223e70
 title: AVEncVideoInputColorTransferMatrix property (Codecapi.h)
 ms.topic: reference

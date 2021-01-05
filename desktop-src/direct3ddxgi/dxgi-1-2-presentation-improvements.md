@@ -1,6 +1,6 @@
 ---
 title: Flip model, dirty rectangles, scrolled areas
-Description: DXGI 1.2 supports a new flip-model swap chain, dirty rectangles, and scrolled areas. We explain the benefits of using the new flip-model swap chain and of optimizing presentation by specifying dirty rectangles and scrolled areas.
+description: DXGI 1.2 supports a new flip-model swap chain, dirty rectangles, and scrolled areas. We explain the benefits of using the new flip-model swap chain and of optimizing presentation by specifying dirty rectangles and scrolled areas.
 ms.assetid: 22236FBD-E881-49B5-8AE9-96FB526DFEF8
 ms.topic: article
 ms.date: 05/31/2018

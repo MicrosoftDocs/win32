@@ -1,5 +1,5 @@
 ---
-Description: Sets a non-transposed matrix.
+description: Sets a non-transposed matrix.
 ms.assetid: 891441ea-09d5-43b6-a080-578d7f8e4586
 title: ID3DXTextureShader::SetMatrix method (D3DX9Shader.h)
 ms.topic: reference

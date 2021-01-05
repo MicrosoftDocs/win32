@@ -1,5 +1,5 @@
 ---
-Description: Request for a texture to be written as a DDS file.
+description: Request for a texture to be written as a DDS file.
 MS-HAID: vspixengine.ITextureRequest
 MSHAttr:
 - PreferredSiteName:MSDN

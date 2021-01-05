@@ -1,5 +1,5 @@
 ---
-Description: The GetEvent method retrieves an event handle, which is used to signal a change in the next advise time.
+description: The GetEvent method retrieves an event handle, which is used to signal a change in the next advise time.
 ms.assetid: 2548a321-df65-4a5b-9e6a-8bbc031254c7
 title: CAMSchedule.GetEvent method (Dsschedule.h)
 ms.topic: reference

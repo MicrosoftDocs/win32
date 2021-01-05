@@ -1,5 +1,5 @@
 ---
-Description: Enables or disables loudness equalization in an audio decoder or digital signal processor (DSP).
+description: Enables or disables loudness equalization in an audio decoder or digital signal processor (DSP).
 ms.assetid: f02b187f-1bcb-47b3-8ac2-018ed30491c6
 title: AVDSPLoudnessEqualization property (Codecapi.h)
 ms.topic: reference

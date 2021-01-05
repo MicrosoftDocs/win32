@@ -1,5 +1,5 @@
 ---
-Description: Not used.
+description: Not used.
 MS-HAID: vspixengine.IMeshCallback\_ResultCallback\_DWORD\_BYTE\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

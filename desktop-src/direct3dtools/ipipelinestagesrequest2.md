@@ -1,5 +1,5 @@
 ---
-Description: Not used. Formerly a request for pipeline stages data.
+description: Not used. Formerly a request for pipeline stages data.
 MS-HAID: vspixengine.IPipeLineStagesRequest2
 MSHAttr:
 - PreferredSiteName:MSDN

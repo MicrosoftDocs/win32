@@ -1,5 +1,5 @@
 ---
-Description: Use the following procedure in legacy applications to load a .x file.
+description: Use the following procedure in legacy applications to load a .x file.
 ms.assetid: 2b975873-2e5d-4c64-a022-d2098c3d95b8
 title: Loading an X File (Legacy) (Direct3D 9)
 ms.topic: article

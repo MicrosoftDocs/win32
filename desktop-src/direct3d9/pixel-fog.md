@@ -1,5 +1,5 @@
 ---
-Description: Pixel fog gets its name from the fact that it is calculated on a per-pixel basis in the device driver.
+description: Pixel fog gets its name from the fact that it is calculated on a per-pixel basis in the device driver.
 ms.assetid: 6fcfb9fa-cacc-4dbc-bfc6-85d533dbfbf8
 title: Pixel Fog (Direct3D 9)
 ms.topic: article

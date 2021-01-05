@@ -1,5 +1,5 @@
 ---
-Description: Gets the current mean bit rate of the decoder.
+description: Gets the current mean bit rate of the decoder.
 ms.assetid: 11f6b5cb-10c6-470b-870d-b89983dba74e
 title: AVDecCommonMeanBitRate property (Codecapi.h)
 ms.topic: reference

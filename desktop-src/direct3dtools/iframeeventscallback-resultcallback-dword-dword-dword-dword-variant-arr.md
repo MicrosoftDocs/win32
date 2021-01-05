@@ -1,5 +1,5 @@
 ---
-Description: A callback function used to notify the host of information about events in the event list.
+description: A callback function used to notify the host of information about events in the event list.
 MS-HAID: vspixengine.IFrameEventsCallback\_ResultCallback\_DWORD\_DWORD\_DWORD\_DWORD\_VARIANT\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

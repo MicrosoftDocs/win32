@@ -1,5 +1,5 @@
 ---
-Description: An asynchronous request to get preview images for the graphics pipeline stages window.
+description: An asynchronous request to get preview images for the graphics pipeline stages window.
 MS-HAID: vspixengine.IPipeLineStagesRequest\_RequestAsync\_EventID\_DWORD\_PipeLineStagesID\_arr\_DWORD\_DWORD\_IPipeLineStagesCallback\_ptr\_BOOL\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: Creates an enumerator object. Deprecated.
+description: Creates an enumerator object. Deprecated.
 ms.assetid: 9e72bb2f-143e-4690-baef-ccded21572ec
 title: IDirectXFile::CreateEnumObject method (DXFile.h)
 ms.topic: reference

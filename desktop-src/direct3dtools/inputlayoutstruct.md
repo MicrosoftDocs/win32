@@ -1,5 +1,5 @@
 ---
-Description: Represents the input layout fields of a vertex buffer, one per field in the vertex buffer.
+description: Represents the input layout fields of a vertex buffer, one per field in the vertex buffer.
 MS-HAID: vspixengine.InputLayoutStruct
 MSHAttr:
 - PreferredSiteName:MSDN

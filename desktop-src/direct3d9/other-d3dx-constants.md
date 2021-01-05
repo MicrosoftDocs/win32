@@ -1,5 +1,5 @@
 ---
-Description: 'Other D3DX constants include the following:'
+description: 'Other D3DX constants include the following:'
 ms.assetid: 4f868a80-ad86-4598-9de3-a026e03aab93
 title: Other D3DX Constants
 ms.topic: article

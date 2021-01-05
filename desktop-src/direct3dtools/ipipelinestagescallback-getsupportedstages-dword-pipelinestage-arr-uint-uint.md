@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host of which pipeline stages are used by the draw call of the assocaited request.
+description: A callback that notifies the host of which pipeline stages are used by the draw call of the assocaited request.
 MS-HAID: vspixengine.IPipeLineStagesCallback\_GetSupportedStages\_DWORD\_PipeLineStage\_arr\_UINT\_UINT
 MSHAttr:
 - PreferredSiteName:MSDN

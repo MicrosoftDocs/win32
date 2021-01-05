@@ -1,5 +1,5 @@
 ---
-Description: Specifies the conversion function from RGB to R'G'B' for encoded video.
+description: Specifies the conversion function from RGB to R'G'B' for encoded video.
 ms.assetid: 89efb1c7-cf77-465c-b6b3-5f89773c524b
 title: AVEncVideoOutputColorTransferFunction property (Codecapi.h)
 ms.topic: reference

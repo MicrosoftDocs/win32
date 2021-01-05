@@ -1,5 +1,5 @@
 ---
-Description: Extensions to the IPixEngine4 interface containing additions for viewing textures.
+description: Extensions to the IPixEngine4 interface containing additions for viewing textures.
 MS-HAID: vspixengine.IPixEngine5
 MSHAttr:
 - PreferredSiteName:MSDN

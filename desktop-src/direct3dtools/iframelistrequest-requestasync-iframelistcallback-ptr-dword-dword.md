@@ -1,5 +1,5 @@
 ---
-Description: An asynchronous request to get the list frames captured in the graphics log.
+description: An asynchronous request to get the list frames captured in the graphics log.
 MS-HAID: vspixengine.IFrameListRequest\_RequestAsync\_IFrameListCallback\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

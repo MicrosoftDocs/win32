@@ -1,5 +1,5 @@
 ---
-Description: Specifies the chroma resolution of the encoded video.
+description: Specifies the chroma resolution of the encoded video.
 ms.assetid: b0614cdb-1eef-486d-85c1-d5644853fa94
 title: AVEncVideoOutputChromaResolution property (Codecapi.h)
 ms.topic: reference

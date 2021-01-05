@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether digital de-emphasis is enabled in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
+description: Specifies whether digital de-emphasis is enabled in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 5d2d9f1d-fdc3-448f-8d9f-f75a73a63cd3
 title: AVEncDDDigitalDeemphasis property (Codecapi.h)
 ms.topic: reference

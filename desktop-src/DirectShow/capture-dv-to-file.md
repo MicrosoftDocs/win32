@@ -1,5 +1,5 @@
 ---
-Description: Capture DV to File
+description: Capture DV to File
 ms.assetid: f7a8bcbb-a744-43c4-a226-354ae2d94df8
 title: Capture DV to File
 ms.topic: article

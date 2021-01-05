@@ -1,5 +1,5 @@
 ---
-Description: The SetNotify method sets or removes a callback on the allocator. The allocator calls the callback method whenever the allocator's IMemAllocator::ReleaseBuffer method is called.
+description: The SetNotify method sets or removes a callback on the allocator. The allocator calls the callback method whenever the allocator's IMemAllocator::ReleaseBuffer method is called.
 ms.assetid: ef9a6c66-d392-4130-b4fc-9eb6aecb6cbf
 title: CBaseAllocator.SetNotify method (Amfilter.h)
 ms.topic: reference

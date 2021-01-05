@@ -1,5 +1,5 @@
 ---
-Description: Enables or disables hardware acceleration for VC-1 video decoding.
+description: Enables or disables hardware acceleration for VC-1 video decoding.
 ms.assetid: eee85330-098e-4f21-81b7-a493abbd599b
 title: AVDecVideoAcceleration_VC1 property (Codecapi.h)
 ms.topic: reference

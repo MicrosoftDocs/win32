@@ -1,5 +1,5 @@
 ---
-Description: The CoInitializeHelper method calls the CoInitializeEx function at the start of the thread.
+description: The CoInitializeHelper method calls the CoInitializeEx function at the start of the thread.
 ms.assetid: 1a981e1e-c059-4e51-81d8-33bcb39ee580
 title: CAMThread.CoInitializeHelper method (Wxutil.h)
 ms.topic: reference

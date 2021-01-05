@@ -1,5 +1,5 @@
 ---
-Description: An asynchronous request to get summary information about a graphics log.
+description: An asynchronous request to get summary information about a graphics log.
 MS-HAID: vspixengine.ISummaryRequest\_RequestAsync\_iSummaryCallback\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

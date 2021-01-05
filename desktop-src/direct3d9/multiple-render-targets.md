@@ -1,5 +1,5 @@
 ---
-Description: Multiple Render Targets (MRT) refers to the ability to render to multiple surfaces (see IDirect3D9Surface) with a single draw call.
+description: Multiple Render Targets (MRT) refers to the ability to render to multiple surfaces (see IDirect3D9Surface) with a single draw call.
 ms.assetid: ae48c5ce-b7f5-4189-8b04-880836be3fe0
 title: Multiple Render Targets (Direct3D 9)
 ms.topic: article

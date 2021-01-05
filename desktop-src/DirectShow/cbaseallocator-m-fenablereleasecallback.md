@@ -1,5 +1,5 @@
 ---
-Description: Flag indicating whether the release callback is enabled. This flag is set in the constructor method. If the value is FALSE, calling the CBaseAllocator::SetNotify method causes an assertion to fire (in debug builds).
+description: Flag indicating whether the release callback is enabled. This flag is set in the constructor method. If the value is FALSE, calling the CBaseAllocator::SetNotify method causes an assertion to fire (in debug builds).
 ms.assetid: cc9adc7c-ec44-41e7-875a-b3e553120804
 title: CBaseAllocator::m_fEnableReleaseCallback member (Amfilter.h)
 ms.topic: reference

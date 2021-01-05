@@ -1,5 +1,5 @@
 ---
-Description: Callback for pipeline stages data.
+description: Callback for pipeline stages data.
 MS-HAID: vspixengine.IPipeLineStagesCallback3
 MSHAttr:
 - PreferredSiteName:MSDN

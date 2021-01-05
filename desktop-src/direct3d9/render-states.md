@@ -1,5 +1,5 @@
 ---
-Description: Device render states affect the behavior of almost every part of the pipeline. Render states are set by calling IDirect3DDevice9::SetRenderState.
+description: Device render states affect the behavior of almost every part of the pipeline. Render states are set by calling IDirect3DDevice9::SetRenderState.
 ms.assetid: 8ed8a2c3-f88e-427a-9b92-dc244dd453c9
 title: Render States (Direct3D 9)
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Callback to return the list of frames with their event id and frame number.
+description: Callback to return the list of frames with their event id and frame number.
 MS-HAID: vspixengine.IFrameListCallback
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: Frees a texture and notifies the host asynchronously.
+description: Frees a texture and notifies the host asynchronously.
 MS-HAID: vspixengine.IPixEngine5\_FreeTextureAsync\_UINT\_IPixEngine5Callbacks\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

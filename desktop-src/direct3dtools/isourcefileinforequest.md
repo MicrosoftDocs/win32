@@ -1,5 +1,5 @@
 ---
-Description: Request for source file info from a callstack.
+description: Request for source file info from a callstack.
 MS-HAID: vspixengine.ISourceFileInfoRequest
 MSHAttr:
 - PreferredSiteName:MSDN

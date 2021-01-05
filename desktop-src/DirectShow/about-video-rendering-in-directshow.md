@@ -1,5 +1,5 @@
 ---
-Description: About Video Rendering in DirectShow
+description: About Video Rendering in DirectShow
 ms.assetid: 3b064758-2ae5-4441-801c-5400e4ef3790
 title: About Video Rendering in DirectShow
 ms.topic: article

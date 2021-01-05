@@ -1,5 +1,5 @@
 ---
-Description: Specifies the number of completed encoding passes. This property applies only to multi-pass encoding.
+description: Specifies the number of completed encoding passes. This property applies only to multi-pass encoding.
 ms.assetid: 19286f26-96f1-429c-9d6a-5e9b98597cd2
 title: AVEncStatCommonCompletedPasses property (Codecapi.h)
 ms.topic: reference

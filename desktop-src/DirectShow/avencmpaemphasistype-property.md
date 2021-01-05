@@ -1,5 +1,5 @@
 ---
-Description: Specifies the type of de-emphasis filter that should be used when decoding. This property applies to MPEG audio encoders.
+description: Specifies the type of de-emphasis filter that should be used when decoding. This property applies to MPEG audio encoders.
 ms.assetid: 1c1f7ac0-48a1-46d6-a131-fe281f2c86ba
 title: AVEncMPAEmphasisType property (Codecapi.h)
 ms.topic: reference

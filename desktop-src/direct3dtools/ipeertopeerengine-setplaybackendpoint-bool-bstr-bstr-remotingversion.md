@@ -1,5 +1,5 @@
 ---
-Description: Sets the endpoint address used to connect to a remote engine.
+description: Sets the endpoint address used to connect to a remote engine.
 MS-HAID: vspixengine.IPeerToPeerEngine\_SetPlaybackEndpoint\_BOOL\_BSTR\_BSTR\_RemotingVersion
 MSHAttr:
 - PreferredSiteName:MSDN

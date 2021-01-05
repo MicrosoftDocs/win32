@@ -1,5 +1,5 @@
 ---
-Description: Analog Video Crossbar Filter
+description: Analog Video Crossbar Filter
 ms.assetid: 668f6a8b-a4ed-4e4a-956c-a87f165225fa
 title: Analog Video Crossbar Filter
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: This topic contains the following sections.
+description: This topic contains the following sections.
 ms.assetid: 0522ccbf-e754-470a-8199-004fcbaa927d
 title: DXGI overview
 ms.topic: article

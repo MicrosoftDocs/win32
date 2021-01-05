@@ -1,5 +1,5 @@
 ---
-Description: Loads a texture from a file and notifies the host asynchronously when it completes.
+description: Loads a texture from a file and notifies the host asynchronously when it completes.
 MS-HAID: vspixengine.IPixEngine5\_LoadTextureFromFileAsync\_BSTR\_BSTR\_IPixEngine5Callbacks\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

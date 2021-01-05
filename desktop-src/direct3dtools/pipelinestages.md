@@ -1,5 +1,5 @@
 ---
-Description: An enum used to indicate a stage of the graphics pipeline.
+description: An enum used to indicate a stage of the graphics pipeline.
 MS-HAID: vspixengine.PIPELINESTAGES
 MSHAttr:
 - PreferredSiteName:MSDN

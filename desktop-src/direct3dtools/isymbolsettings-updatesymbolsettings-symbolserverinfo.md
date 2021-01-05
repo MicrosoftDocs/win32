@@ -1,5 +1,5 @@
 ---
-Description: A request to send debug symbol paths to the local (non-remote) engine.
+description: A request to send debug symbol paths to the local (non-remote) engine.
 MS-HAID: vspixengine.ISymbolSettings\_UpdateSymbolSettings\_SymbolServerInfo
 MSHAttr:
 - PreferredSiteName:MSDN

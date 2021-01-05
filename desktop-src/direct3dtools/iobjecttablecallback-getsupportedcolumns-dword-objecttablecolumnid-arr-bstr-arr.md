@@ -1,5 +1,5 @@
 ---
-Description: Gets information about which columns (types of object data) are supported by the object table.
+description: Gets information about which columns (types of object data) are supported by the object table.
 MS-HAID: vspixengine.IObjectTableCallback\_GetSupportedColumns\_DWORD\_ObjectTableColumnID\_arr\_BSTR\_arr
 MSHAttr:
 - PreferredSiteName:MSDN
