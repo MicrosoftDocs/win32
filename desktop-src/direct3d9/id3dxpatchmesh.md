@@ -1,5 +1,5 @@
 ---
-Description: This interface encapsulates patch mesh functionality.
+description: This interface encapsulates patch mesh functionality.
 ms.assetid: c70c0fe0-b695-4ad9-b0c6-7854cf8f7593
 title: ID3DXPatchMesh interface (D3DX9Mesh.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Loads a series of glyphs into video memory to improve the efficiency of rendering to the device.
+description: Loads a series of glyphs into video memory to improve the efficiency of rendering to the device.
 ms.assetid: df023359-bcb3-4c05-950b-19cdeba97c85
 title: ID3DXFont::PreloadGlyphs method (D3dx9core.h)
 ms.topic: reference

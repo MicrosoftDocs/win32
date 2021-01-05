@@ -1,5 +1,5 @@
 ---
-Description: Tessellates the given mesh using the N-patch tessellation scheme.
+description: Tessellates the given mesh using the N-patch tessellation scheme.
 ms.assetid: e804905d-ee0b-484f-a621-58b197bd370b
 title: D3DXTessellateNPatches function (D3DX9Mesh.h)
 ms.topic: reference

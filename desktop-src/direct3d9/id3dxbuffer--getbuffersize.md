@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the total size of the data in the buffer.
+description: Retrieves the total size of the data in the buffer.
 ms.assetid: f26792bc-381b-4ee1-b7d2-2007790fc046
 title: ID3DXBuffer::GetBufferSize method (D3DX9Mesh.h)
 ms.topic: reference

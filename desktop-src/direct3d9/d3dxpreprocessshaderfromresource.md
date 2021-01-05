@@ -1,5 +1,5 @@
 ---
-Description: Preprocesses a shader resource without performing compilation. This resolves all \#defines and \#includes, providing a self-contained shader for subsequent compilation.
+description: Preprocesses a shader resource without performing compilation. This resolves all \#defines and \#includes, providing a self-contained shader for subsequent compilation.
 ms.assetid: a00c2db9-d7ba-48ab-80e3-dc20774e1b1e
 title: D3DXPreprocessShaderFromResource function (D3DX9Shader.h)
 ms.topic: reference

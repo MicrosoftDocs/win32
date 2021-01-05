@@ -1,5 +1,5 @@
 ---
-Description: A callback function that must be implemented by a user to set the texture stage state.
+description: A callback function that must be implemented by a user to set the texture stage state.
 ms.assetid: cc86a483-ccf0-400d-b14d-ab55a3cf4b98
 title: ID3DXEffectStateManager::SetTextureStageState method (D3DX9Effect.h)
 ms.topic: reference

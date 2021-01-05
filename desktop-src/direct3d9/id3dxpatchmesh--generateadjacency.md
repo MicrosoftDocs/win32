@@ -1,5 +1,5 @@
 ---
-Description: Generate a list of mesh edges and the patches that share each edge.
+description: Generate a list of mesh edges and the patches that share each edge.
 ms.assetid: 024528c0-2c0d-4448-9b38-05cf8d6ffc63
 title: ID3DXPatchMesh::GenerateAdjacency method (D3DX9Mesh.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Gets a pointer to the pool of shared parameters.
+description: Gets a pointer to the pool of shared parameters.
 ms.assetid: 1e999fd5-76ef-43fa-8a77-ae6f2821f46d
 title: ID3DXEffect::GetPool method (D3DX9Effect.h)
 ms.topic: reference

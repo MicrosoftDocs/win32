@@ -1,5 +1,5 @@
 ---
-Description: Scales a 3D vector.
+description: Scales a 3D vector.
 ms.assetid: b2483d6e-56e4-4557-a603-d59c0767774d
 title: D3DXVec3Scale function (D3dx9math.h)
 ms.topic: reference

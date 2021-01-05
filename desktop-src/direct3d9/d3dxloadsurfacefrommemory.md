@@ -1,5 +1,5 @@
 ---
-Description: Loads a surface from memory.
+description: Loads a surface from memory.
 ms.assetid: 9a36e395-fd00-47fe-8df1-cda8c80182ef
 title: D3DXLoadSurfaceFromMemory function (D3dx9tex.h)
 ms.topic: reference

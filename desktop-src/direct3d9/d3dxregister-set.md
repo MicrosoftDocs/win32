@@ -1,5 +1,5 @@
 ---
-Description: Data type of the register.
+description: Data type of the register.
 ms.assetid: b54530d3-4267-4b41-9a16-59d400ef3e18
 title: D3DXREGISTER_SET enumeration (D3dx9shader.h)
 ms.topic: reference

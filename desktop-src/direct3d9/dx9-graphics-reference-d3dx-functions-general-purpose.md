@@ -1,5 +1,5 @@
 ---
-Description: 'D3DX supplies the following general purpose functions:'
+description: 'D3DX supplies the following general purpose functions:'
 ms.assetid: cb2c6b6d-6ac5-47e2-96c2-4a68e86af00f
 title: General Purpose Functions (Direct3D 9 Graphics)
 ms.topic: article

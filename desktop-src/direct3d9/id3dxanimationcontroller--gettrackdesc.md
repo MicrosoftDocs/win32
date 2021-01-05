@@ -1,5 +1,5 @@
 ---
-Description: Gets the track description.
+description: Gets the track description.
 ms.assetid: 7663a26f-5ad3-4a17-a502-c0dcfa730db2
 title: ID3DXAnimationController::GetTrackDesc method (D3dx9anim.h)
 ms.topic: reference

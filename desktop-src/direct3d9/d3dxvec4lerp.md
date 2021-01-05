@@ -1,5 +1,5 @@
 ---
-Description: Performs a linear interpolation between two 4D vectors.
+description: Performs a linear interpolation between two 4D vectors.
 ms.assetid: a068a626-17cd-4df9-8f41-9b417bfda1d1
 title: D3DXVec4Lerp function (D3dx9math.h)
 ms.topic: reference

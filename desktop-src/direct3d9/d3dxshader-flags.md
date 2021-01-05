@@ -1,5 +1,5 @@
 ---
-Description: The D3DXSHADER flags are used for parsing, compiling, or assembling shaders.
+description: The D3DXSHADER flags are used for parsing, compiling, or assembling shaders.
 ms.assetid: 8558d0e9-d09f-4c62-bc89-6080f4e44ff8
 title: D3DXSHADER Flags (D3dx9shader.h)
 ms.topic: reference

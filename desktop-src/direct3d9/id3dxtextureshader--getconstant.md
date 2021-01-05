@@ -1,5 +1,5 @@
 ---
-Description: Gets a constant by looking up its index.
+description: Gets a constant by looking up its index.
 ms.assetid: 7d3ab655-b50d-41ab-a4ca-c7b534e00e3f
 title: ID3DXTextureShader::GetConstant method (D3DX9Shader.h)
 ms.topic: reference

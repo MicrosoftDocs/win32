@@ -1,5 +1,5 @@
 ---
-Description: Locks the attribute buffer.
+description: Locks the attribute buffer.
 ms.assetid: 6e05e613-ca93-41b0-a3b3-a9564ada3b0c
 title: ID3DXPatchMesh::LockAttributeBuffer method (D3DX9Mesh.h)
 ms.topic: reference

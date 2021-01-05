@@ -1,5 +1,5 @@
 ---
-Description: Creates a volume texture from a resource specified by a string. This is a more advanced function than D3DXCreateVolumeTextureFromResource.
+description: Creates a volume texture from a resource specified by a string. This is a more advanced function than D3DXCreateVolumeTextureFromResource.
 ms.assetid: 02f2cb9e-4750-4854-aa74-202426427af5
 title: D3DXCreateVolumeTextureFromResourceEx function (D3dx9tex.h)
 ms.topic: reference

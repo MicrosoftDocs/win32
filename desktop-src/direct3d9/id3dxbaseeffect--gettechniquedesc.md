@@ -1,5 +1,5 @@
 ---
-Description: Gets a technique description.
+description: Gets a technique description.
 ms.assetid: 12122858-1e54-446c-8f12-20cc62499d74
 title: ID3DXBaseEffect::GetTechniqueDesc method (D3DX9Effect.h)
 ms.topic: reference

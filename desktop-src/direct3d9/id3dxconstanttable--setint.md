@@ -1,5 +1,5 @@
 ---
-Description: Sets an integer value.
+description: Sets an integer value.
 ms.assetid: b57d30b5-c2b5-469e-a267-24e6e712d645
 title: ID3DXConstantTable::SetInt method (D3DX9Shader.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Sets a texel class value that indicates texel class according to each texel's location.
+description: Sets a texel class value that indicates texel class according to each texel's location.
 ms.assetid: cb2e6afb-4b6a-4b01-aaa8-1fd2d1f2bfa1
 title: ID3DXTextureGutterHelper::SetGutterMap method (D3DX9Mesh.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Creates an ID3DXTextureGutterHelper object from an input mesh and texture data.
+description: Creates an ID3DXTextureGutterHelper object from an input mesh and texture data.
 ms.assetid: 1696fc3d-5b35-48cc-a79b-c0d4ed44e420
 title: D3DXCreateTextureGutterHelper function (D3DX9Mesh.h)
 ms.topic: reference

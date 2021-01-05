@@ -1,5 +1,5 @@
 ---
-Description: Gets the number of vertices in the mesh.
+description: Gets the number of vertices in the mesh.
 ms.assetid: 968aaa7f-fa5a-4640-b438-e542c229abdc
 title: ID3DXPatchMesh::GetNumVertices method (D3DX9Mesh.h)
 ms.topic: reference

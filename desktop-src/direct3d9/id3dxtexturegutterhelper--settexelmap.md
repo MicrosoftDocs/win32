@@ -1,5 +1,5 @@
 ---
-Description: Sets the (u, v) texture coordinates of each texel.
+description: Sets the (u, v) texture coordinates of each texel.
 ms.assetid: b1f8f5d6-568f-4868-87c9-9d6b1034d898
 title: ID3DXTextureGutterHelper::SetTexelMap method (D3DX9Mesh.h)
 ms.topic: reference

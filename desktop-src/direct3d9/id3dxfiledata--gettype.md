@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the template ID in this file data object.
+description: Retrieves the template ID in this file data object.
 ms.assetid: abc53dda-d3ed-461b-b3d8-a64845c44c81
 title: ID3DXFileData::GetType method (D3DX9Xof.h)
 ms.topic: reference

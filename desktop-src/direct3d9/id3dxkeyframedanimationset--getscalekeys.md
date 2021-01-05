@@ -1,5 +1,5 @@
 ---
-Description: Fills an array with scale key data used for key frame animation.
+description: Fills an array with scale key data used for key frame animation.
 ms.assetid: 0d595510-6d8c-4bc9-b5ca-0d6f73be3439
 title: ID3DXKeyframedAnimationSet::GetScaleKeys method (D3dx9anim.h)
 ms.topic: reference

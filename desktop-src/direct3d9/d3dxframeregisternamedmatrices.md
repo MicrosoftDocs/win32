@@ -1,5 +1,5 @@
 ---
-Description: Given a frame hierarchy, registers all the named matrices in the animation mixer.
+description: Given a frame hierarchy, registers all the named matrices in the animation mixer.
 ms.assetid: df0560c2-4417-4d54-94c8-031521b32189
 title: D3DXFrameRegisterNamedMatrices function (D3dx9anim.h)
 ms.topic: reference

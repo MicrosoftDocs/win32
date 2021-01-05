@@ -1,5 +1,5 @@
 ---
-Description: Performs a linear interpolation between two 3D vectors.
+description: Performs a linear interpolation between two 3D vectors.
 ms.assetid: f3f06f1b-8824-47f0-b2ed-c212fa4c3225
 title: D3DXVec3Lerp function (D3dx9math.h)
 ms.topic: reference

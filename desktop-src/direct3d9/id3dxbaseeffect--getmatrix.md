@@ -1,5 +1,5 @@
 ---
-Description: Gets a nontransposed matrix.
+description: Gets a nontransposed matrix.
 ms.assetid: d507c82c-b1a5-4e83-8921-5d45f52faba0
 title: ID3DXBaseEffect::GetMatrix method (D3DX9Shader.h)
 ms.topic: reference

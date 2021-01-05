@@ -1,5 +1,5 @@
 ---
-Description: D3DXSHPRTSPLITMESHVERTDATA structure
+description: D3DXSHPRTSPLITMESHVERTDATA structure
 ms.assetid: 8799a680-bf5f-42cc-91aa-1a6aed164ca5
 title: D3DXSHPRTSPLITMESHVERTDATA structure (D3dx9mesh.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Fills an array with rotational key data used for key frame animation.
+description: Fills an array with rotational key data used for key frame animation.
 ms.assetid: 9ae8bc28-d231-4d50-98f0-762b2d2c04e8
 title: ID3DXKeyframedAnimationSet::GetRotationKeys method (D3dx9anim.h)
 ms.topic: reference

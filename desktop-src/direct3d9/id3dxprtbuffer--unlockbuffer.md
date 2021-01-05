@@ -1,5 +1,5 @@
 ---
-Description: Ends the lifespan of the ppData pointer returned by ID3DXPRTBuffer::LockBuffer.
+description: Ends the lifespan of the ppData pointer returned by ID3DXPRTBuffer::LockBuffer.
 ms.assetid: 25464566-8a93-48a4-93fa-17828861f98c
 title: ID3DXPRTBuffer::UnlockBuffer method (D3DX9Mesh.h)
 ms.topic: reference

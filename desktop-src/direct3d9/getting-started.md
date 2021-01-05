@@ -1,5 +1,5 @@
 ---
-Description: This section provides a brief introduction to the Direct3D graphics functionality in the Direct3D API. Here you will find an overview of the graphics pipeline and tutorials to help you get basic Direct3D functionality up and running quickly.
+description: This section provides a brief introduction to the Direct3D graphics functionality in the Direct3D API. Here you will find an overview of the graphics pipeline and tutorials to help you get basic Direct3D functionality up and running quickly.
 ms.assetid: e0859675-9b8a-460e-8adb-818b9db6661b
 title: Getting Started (Direct3D 9)
 ms.topic: article

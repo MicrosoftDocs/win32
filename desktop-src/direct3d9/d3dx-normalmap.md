@@ -1,5 +1,5 @@
 ---
-Description: Normal maps generation constants.
+description: Normal maps generation constants.
 ms.assetid: edf4c3e4-1af4-43b4-80c7-6fab02575f7b
 title: D3DX_NORMALMAP
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Interpolates between quaternions, using spherical quadrangle interpolation.
+description: Interpolates between quaternions, using spherical quadrangle interpolation.
 ms.assetid: afce9afb-64cc-4059-90f5-7ed1aca9b3cb
 title: D3DXQuaternionSquad function (D3dx9math.h)
 ms.topic: reference

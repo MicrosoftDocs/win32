@@ -1,5 +1,5 @@
 ---
-Description: Setting the FVF parameter of the IDirect3DDevice9::CreateVertexBuffer method to a nonzero value, which must be a valid FVF code, indicates that the buffer content is to be characterized by an FVF code.
+description: Setting the FVF parameter of the IDirect3DDevice9::CreateVertexBuffer method to a nonzero value, which must be a valid FVF code, indicates that the buffer content is to be characterized by an FVF code.
 ms.assetid: 7cab559f-3e9d-46bd-b00f-439e0922aeeb
 title: FVF Vertex Buffers (Direct3D 9)
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Returns the size of a vertex from the vertex declaration.
+description: Returns the size of a vertex from the vertex declaration.
 ms.assetid: a2524f96-103e-43ab-bdcb-b99e7402fd89
 title: D3DXGetDeclVertexSize function (D3DX9Mesh.h)
 ms.topic: reference

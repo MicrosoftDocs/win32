@@ -1,5 +1,5 @@
 ---
-Description: Calculates the natural logarithm.
+description: Calculates the natural logarithm.
 ms.assetid: 73ca7d13-1e20-48fc-b0ed-0d3127d094a7
 title: D3DXQuaternionLn function (D3dx9math.h)
 ms.topic: reference

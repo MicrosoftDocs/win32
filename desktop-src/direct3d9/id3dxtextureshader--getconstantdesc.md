@@ -1,5 +1,5 @@
 ---
-Description: Gets a pointer to the array of constants in the constant table.
+description: Gets a pointer to the array of constants in the constant table.
 ms.assetid: 2476344b-8433-46bb-9242-dff84e3168e7
 title: ID3DXTextureShader::GetConstantDesc method (D3DX9Shader.h)
 ms.topic: reference

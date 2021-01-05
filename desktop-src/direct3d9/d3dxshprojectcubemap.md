@@ -1,5 +1,5 @@
 ---
-Description: Projects a function represented on a cube map into spherical harmonics (SH).
+description: Projects a function represented on a cube map into spherical harmonics (SH).
 ms.assetid: da5a3195-801e-4f1c-b52c-9eafc6e2e7b4
 title: D3DXSHProjectCubeMap function (D3dx9math.h)
 ms.topic: reference

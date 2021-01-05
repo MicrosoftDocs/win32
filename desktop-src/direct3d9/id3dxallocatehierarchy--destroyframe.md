@@ -1,5 +1,5 @@
 ---
-Description: Requests deallocation of a frame object.
+description: Requests deallocation of a frame object.
 ms.assetid: b2793744-1bba-4a2b-938c-44ed316358fd
 title: ID3DXAllocateHierarchy::DestroyFrame method (D3dx9anim.h)
 ms.topic: reference

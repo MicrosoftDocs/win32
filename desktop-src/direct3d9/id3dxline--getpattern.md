@@ -1,5 +1,5 @@
 ---
-Description: Gets the line stipple pattern.
+description: Gets the line stipple pattern.
 ms.assetid: 4f461cd8-e17f-4eda-b47d-256220f65a66
 title: ID3DXLine::GetPattern method (D3dx9core.h)
 ms.topic: reference

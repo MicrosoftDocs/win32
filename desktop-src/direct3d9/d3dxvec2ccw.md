@@ -1,5 +1,5 @@
 ---
-Description: Returns the z-component by taking the cross product of two 2D vectors.
+description: Returns the z-component by taking the cross product of two 2D vectors.
 ms.assetid: daec19f2-cd0f-4a68-affc-9a42bda8912c
 title: D3DXVec2CCW function (D3dx9math.h)
 ms.topic: reference

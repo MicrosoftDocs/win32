@@ -1,5 +1,5 @@
 ---
-Description: Add a top level object before the frame hierarchy.
+description: Add a top level object before the frame hierarchy.
 ms.assetid: ab4bfc3e-58eb-4de6-b080-8b3392b801bf
 title: ID3DXSaveUserData::AddTopLevelDataObjectsPre method (D3dx9anim.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Sets sampling properties used by the precomputed radiance transfer (PRT) simulator.
+description: Sets sampling properties used by the precomputed radiance transfer (PRT) simulator.
 ms.assetid: a33963a7-fbcb-4e1c-a4f3-fb20a99fcf9f
 title: ID3DXPRTEngine::SetSamplingInfo method (D3DX9Mesh.h)
 ms.topic: reference

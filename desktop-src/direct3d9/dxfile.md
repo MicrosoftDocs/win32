@@ -1,5 +1,5 @@
 ---
-Description: The following flags are used to specify which channels in a texture to operate on. Deprecated.
+description: The following flags are used to specify which channels in a texture to operate on. Deprecated.
 ms.assetid: 6e421a0a-7e82-4640-a96c-7ec648df970d
 title: DXFILE Constants
 ms.topic: article
