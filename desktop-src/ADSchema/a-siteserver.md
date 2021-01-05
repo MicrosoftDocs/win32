@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Site-Server attribute
 
-Licensing master server for a given Site.
+Licensing main server for a given Site.
 
 
 
