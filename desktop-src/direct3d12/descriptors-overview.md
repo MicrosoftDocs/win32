@@ -21,7 +21,7 @@ Descriptors are created by API calls and identify resources.
 
 A descriptor is a relatively small block of data that fully describes an object to the GPU, in a GPU-specific opaque format. There are several different types of descriptors&mdash;render target views (RTVs), depth stencil views (DSVs), shader resource views (SRVs), unordered access views (UAVs), constant buffer views (CBVs), and samplers.
 
-Descriptors vary in size, depending on the GPU hardware. You can query for the size of an SRV, UAV, or CBV by calling [**ID3D12Device::GetDescriptorHandleIncrementSize**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getdescriptorhandleincrementsize). Descriptots are shown in this documentation as indivisible units; here's an example.
+Descriptors vary in size, depending on the GPU hardware. You can query for the size of an SRV, UAV, or CBV by calling [**ID3D12Device::GetDescriptorHandleIncrementSize**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getdescriptorhandleincrementsize). Descriptors are shown in this documentation as indivisible units; here's an example.
 
 ![srv, cbv, uav, and sampler](images/single-descriptor.png)
 
