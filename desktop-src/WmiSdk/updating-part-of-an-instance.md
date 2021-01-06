@@ -29,7 +29,7 @@ The following procedure describes how to request a partial-instance update using
 
     
 
-2.  Set up a hash table listing the names of the properties to be updated, and use this hash table in a call to [Set-WmiInstance](/powershell/module/microsoft.powershell.management/set-wmiinstance?view=powershell-5.1).
+2.  Set up a hash table listing the names of the properties to be updated, and use this hash table in a call to [Set-WmiInstance](/powershell/module/microsoft.powershell.management/set-wmiinstance?view=powershell-5.1&preserve-view=true).
 
     ```PowerShell
     $newDriveName = @{VolumeName = "OSDisk"}
