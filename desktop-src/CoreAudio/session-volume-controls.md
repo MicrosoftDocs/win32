@@ -1,5 +1,5 @@
 ---
-Description: Session Volume Controls
+description: Session Volume Controls
 ms.assetid: e6d112f9-08c9-4d95-b37b-267beebd0d7f
 title: Session Volume Controls
 ms.topic: article

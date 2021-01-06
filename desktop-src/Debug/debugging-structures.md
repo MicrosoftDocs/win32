@@ -1,5 +1,5 @@
 ---
-Description: 'The following structures are used with debugging:'
+description: 'The following structures are used with debugging:'
 ms.assetid: bf1294cd-1836-49d3-9cc4-4532429a301f
 title: Debugging Structures
 ms.topic: article

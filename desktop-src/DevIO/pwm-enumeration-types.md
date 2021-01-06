@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: PWM Enumeration Types"
 ms.assetid: DB87CDA5-E536-4884-BF60-3E7DB8C67A19
 title: PWM Enumeration Types
 ms.topic: article

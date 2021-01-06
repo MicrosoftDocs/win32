@@ -1,5 +1,5 @@
 ---
-Description: The most problematic part of writing components is dealing with possible errors.
+description: The most problematic part of writing components is dealing with possible errors.
 ms.assetid: 12f41eef-9953-4125-8490-07ff64967f95
 title: Handling Errors in COM+
 ms.topic: article

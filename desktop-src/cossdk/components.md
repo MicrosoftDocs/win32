@@ -1,5 +1,5 @@
 ---
-Description: Contains an object for each component in the related application.
+description: Contains an object for each component in the related application.
 ms.assetid: f502ba60-b2b1-4556-8f91-22a474e60e0d
 title: Components collection
 ms.topic: reference

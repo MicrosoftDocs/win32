@@ -1,5 +1,5 @@
 ---
-Description: Passing Objects as Parameters
+description: Passing Objects as Parameters
 ms.assetid: 174847c8-4545-4f61-ae13-42bdec1405e7
 title: Passing Objects as Parameters
 ms.topic: article

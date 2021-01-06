@@ -1,5 +1,5 @@
 ---
-Description: The following examples demonstrate the use of an exception handler.
+description: The following examples demonstrate the use of an exception handler.
 ms.assetid: c3b4e696-9f45-4616-ac6b-07ba29750bb2
 title: Using an Exception Handler
 ms.topic: article

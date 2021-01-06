@@ -1,5 +1,5 @@
 ---
-Description: Debugging
+description: Debugging
 ms.assetid: 13C9C38D-2475-4E46-BE03-BE109C0802FB
 title: Debugging (Developer Notes)
 ms.topic: article

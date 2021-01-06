@@ -1,5 +1,5 @@
 ---
-Description: COM+ object constructor strings are initialization strings that are administratively specified for a component.
+description: COM+ object constructor strings are initialization strings that are administratively specified for a component.
 ms.assetid: b4915dae-c97c-4d36-95ee-bb10dcb40845
 title: COM+ Object Constructor Strings Concepts
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Developing Queued Components
+description: Developing Queued Components
 ms.assetid: 867b7512-82ad-4877-8675-aa2d7e62ff8a
 title: Developing Queued Components
 ms.topic: article

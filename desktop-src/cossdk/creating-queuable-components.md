@@ -1,5 +1,5 @@
 ---
-Description: A component with at least one queuable interface is a queuable component.
+description: A component with at least one queuable interface is a queuable component.
 ms.assetid: 8183f640-4bf3-4555-8837-90a26130c618
 title: Creating Queuable Components
 ms.topic: article

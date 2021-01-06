@@ -1,5 +1,5 @@
 ---
-Description: Creates a kernel-side representation of the Microsoft DirectDraw object.
+description: Creates a kernel-side representation of the Microsoft DirectDraw object.
 ms.assetid: e380f948-35a0-4cf0-9b69-ab2bd4f9a161
 title: NtGdiDdCreateDirectDrawObject function (Ntgdi.h)
 ms.topic: reference

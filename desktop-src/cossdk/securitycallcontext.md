@@ -1,5 +1,5 @@
 ---
-Description: 'Provides access to the current call's security context, which contains information about an object's callers.'
+description: 'Provides access to the current call's security context, which contains information about an object's callers.'
 ms.assetid: 'e8ac05fb-6665-4e57-b64e-82d9799d29d4'
 title: SecurityCallContext class (ComSvcs.h)
 ms.topic: reference

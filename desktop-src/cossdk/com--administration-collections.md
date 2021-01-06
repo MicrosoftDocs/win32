@@ -1,5 +1,5 @@
 ---
-Description: The COM+ administration collections serve to hold and organize configuration data stored in the COM+ catalog.
+description: The COM+ administration collections serve to hold and organize configuration data stored in the COM+ catalog.
 ms.assetid: eed8ca97-39ad-4188-afc6-8670b5073fad
 title: COM+ Administration Collections
 ms.topic: article

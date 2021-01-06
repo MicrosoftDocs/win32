@@ -1,5 +1,5 @@
 ---
-Description: 'The following examples demonstrate configuring and monitoring a communications resource:'
+description: 'The following examples demonstrate configuring and monitoring a communications resource:'
 ms.assetid: daaa017f-98e3-49d4-94ae-eb6d43f8019b
 title: Using Communications Resources
 ms.topic: article

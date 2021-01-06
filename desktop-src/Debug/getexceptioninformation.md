@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a computer-independent description of an exception, and information about the computer state that exists for the thread when the exception occurs. This function can be called only from within the filter expression of an exception handler.
+description: Retrieves a computer-independent description of an exception, and information about the computer state that exists for the thread when the exception occurs. This function can be called only from within the filter expression of an exception handler.
 ms.assetid: e982794a-d5f1-4fb4-a2b9-aa8da18cb8ae
 title: GetExceptionInformation macro
 ms.topic: reference

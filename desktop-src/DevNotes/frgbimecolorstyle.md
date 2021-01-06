@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the specified color is an RGB color.
+description: Specifies whether the specified color is an RGB color.
 ms.assetid: 16b48644-c2d5-4383-836a-122f44504638
 title: FRGBIMEColorStyle function
 ms.topic: reference

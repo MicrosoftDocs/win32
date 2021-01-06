@@ -1,5 +1,5 @@
 ---
-Description: Deletes the specified context.
+description: Deletes the specified context.
 ms.assetid: ac113178-bdb6-4601-940d-6b00b339904d
 title: NtGdiD3DContextDestroy function (Ntgdi.h)
 ms.topic: reference

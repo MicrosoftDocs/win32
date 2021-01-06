@@ -1,5 +1,5 @@
 ---
-Description: Endpoint Volume Controls
+description: Endpoint Volume Controls
 ms.assetid: 667c3659-69ae-469d-9ae0-e32a189cbc71
 title: Endpoint Volume Controls
 ms.topic: article

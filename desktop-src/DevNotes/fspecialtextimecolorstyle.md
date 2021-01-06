@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the specified color is a special text color.
+description: Specifies whether the specified color is a special text color.
 ms.assetid: 527806f5-5046-48b0-a8db-86a5b8c0db08
 title: FSpecialTextIMEColorStyle function
 ms.topic: reference

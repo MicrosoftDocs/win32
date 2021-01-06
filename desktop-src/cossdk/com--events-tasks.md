@@ -1,5 +1,5 @@
 ---
-Description: COM+ Events Tasks
+description: COM+ Events Tasks
 ms.assetid: 2eda6b4a-dc73-4999-9070-29cf78e13cde
 title: COM+ Events Tasks
 ms.topic: article

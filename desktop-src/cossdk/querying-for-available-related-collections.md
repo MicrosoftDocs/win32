@@ -1,5 +1,5 @@
 ---
-Description: Querying for Available Related Collections
+description: Querying for Available Related Collections
 ms.assetid: 9c7d2a01-5dc3-4d35-b938-f1d0525a8286
 title: Querying for Available Related Collections
 ms.topic: article

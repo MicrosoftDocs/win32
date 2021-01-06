@@ -1,5 +1,5 @@
 ---
-Description: This article describes how to update a WASAPI implementation to take advantage of automatic stream routing.
+description: This article describes how to update a WASAPI implementation to take advantage of automatic stream routing.
 ms.assetid: 718CBEB9-A7A0-4898-81B7-CBD76AFA3A06
 title: Automatic Stream Routing
 ms.topic: article

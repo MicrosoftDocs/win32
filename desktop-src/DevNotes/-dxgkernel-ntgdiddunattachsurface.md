@@ -1,5 +1,5 @@
 ---
-Description: Removes an attachment, created with NtGdiDdAttachSurface, between two kernel-mode surface objects.
+description: Removes an attachment, created with NtGdiDdAttachSurface, between two kernel-mode surface objects.
 ms.assetid: 28037b42-a00c-4063-93ee-5d71761a95d8
 title: NtGdiDdUnattachSurface function (Ntgdi.h)
 ms.topic: reference

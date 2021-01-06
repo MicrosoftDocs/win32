@@ -1,5 +1,5 @@
 ---
-Description: Audio Endpoint Properties
+description: Audio Endpoint Properties
 ms.assetid: db85ff3b-dbb1-4ed0-b663-21ca9eb66352
 title: Audio Endpoint Properties
 ms.topic: article

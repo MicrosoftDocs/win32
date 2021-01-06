@@ -1,5 +1,5 @@
 ---
-Description: Used to lock a specified area of buffer memory and to provide a valid pointer to a block of memory associated with the buffer.
+description: Used to lock a specified area of buffer memory and to provide a valid pointer to a block of memory associated with the buffer.
 ms.assetid: 6f2ecefa-376c-4f6c-a031-666dd992f96a
 title: NtGdiDdLockD3D function (Ntgdi.h)
 ms.topic: reference

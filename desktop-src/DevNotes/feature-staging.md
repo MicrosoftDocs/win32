@@ -1,5 +1,5 @@
 ---
-Description: Feature Staging
+description: Feature Staging
 ms.assetid: 9F16C420-BF94-4C92-BC7E-15DD516E5107
 title: Feature Staging
 ms.topic: article

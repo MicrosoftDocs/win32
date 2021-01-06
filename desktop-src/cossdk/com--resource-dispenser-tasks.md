@@ -1,5 +1,5 @@
 ---
-Description: COM+ Resource Dispenser Tasks
+description: COM+ Resource Dispenser Tasks
 ms.assetid: 6f46c4e1-50b8-4496-b755-646d3652255a
 title: COM+ Resource Dispenser Tasks
 ms.topic: article

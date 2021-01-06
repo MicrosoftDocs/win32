@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a non-color style has an underline style.
+description: Specifies whether a non-color style has an underline style.
 ms.assetid: 452dda6e-b12b-457c-9a01-c5363359c9f5
 title: FUlIMEStyle function
 ms.topic: reference

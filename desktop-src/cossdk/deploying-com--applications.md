@@ -1,5 +1,5 @@
 ---
-Description: Deploying COM+ Applications
+description: Deploying COM+ Applications
 ms.assetid: e6b2df9e-a536-4629-916e-4e12a0d13771
 title: Deploying COM+ Applications
 ms.topic: article

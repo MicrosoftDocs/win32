@@ -1,5 +1,5 @@
 ---
-Description: Overlapped operations enable a thread to perform a time-consuming I/O operation in the background, leaving the thread free to perform other tasks.
+description: Overlapped operations enable a thread to perform a time-consuming I/O operation in the background, leaving the thread free to perform other tasks.
 ms.assetid: 8c0eb20d-685a-4750-8253-a87089b68509
 title: Overlapped Operations
 ms.topic: article

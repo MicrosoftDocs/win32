@@ -1,5 +1,5 @@
 ---
-Description: Contains the current signal generation state of a pin.
+description: Contains the current signal generation state of a pin.
 ms.assetid: 07D76F8D-C5B5-4500-BFA2-452989868027
 title: PWM_PIN_IS_STARTED_OUTPUT structure (Pwm.h)
 ms.topic: reference

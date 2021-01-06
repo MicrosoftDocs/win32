@@ -1,5 +1,5 @@
 ---
-Description: When you use role-based security in the COM+ application that contains your component, you have access to programmatic security functionality from within your component.
+description: When you use role-based security in the COM+ application that contains your component, you have access to programmatic security functionality from within your component.
 ms.assetid: 6117970c-5dbd-485e-978e-3aa96e42b359
 title: Programmatic Component Security
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SystemSystemDriver association WMI class relates a computer system and a system driver running on that computer system.
+description: The Win32\_SystemSystemDriver association WMI class relates a computer system and a system driver running on that computer system.
 ms.assetid: 82638c29-6769-4410-90bc-b408b27adad4
 ms.tgt_platform: multiple
 title: Win32_SystemSystemDriver class

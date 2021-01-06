@@ -1,5 +1,5 @@
 ---
-Description: Creates shared property groups and to obtain access to existing shared property groups.
+description: Creates shared property groups and to obtain access to existing shared property groups.
 ms.assetid: '4ba05806-afda-4926-8ca4-abbf15ed8278'
 title: SharedPropertyGroupManager class (ComSvcs.h)
 ms.topic: reference

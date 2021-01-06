@@ -1,5 +1,5 @@
 ---
-Description: Resource enumeration provides a close and precise view of instrumentation activity that takes place when an application is running.
+description: Resource enumeration provides a close and precise view of instrumentation activity that takes place when an application is running.
 ms.assetid: 4a421006-32ff-4555-a3c8-69fffdb46845
 title: About Resource Enumeration
 ms.topic: article

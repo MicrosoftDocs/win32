@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_TapeDrive WMI class represents a tape drive on a computer system running Windows. Tape drives are primarily distinguished by the fact that they can only be accessed sequentially.
+description: The Win32\_TapeDrive WMI class represents a tape drive on a computer system running Windows. Tape drives are primarily distinguished by the fact that they can only be accessed sequentially.
 ms.assetid: ceefec7b-a904-4b2f-a6b6-b84917a33023
 ms.tgt_platform: multiple
 title: Win32_TapeDrive class

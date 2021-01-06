@@ -1,5 +1,5 @@
 ---
-Description: Returns the number of the current physical scan line.
+description: Returns the number of the current physical scan line.
 ms.assetid: 159d5ea0-25b8-4c2d-9cd4-cf4ee0ca0561
 title: NtGdiDdGetScanLine function (Ntgdi.h)
 ms.topic: reference

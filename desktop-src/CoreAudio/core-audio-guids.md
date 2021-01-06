@@ -1,5 +1,5 @@
 ---
-Description: This section describes the GUIDs that are used by the Core Audio APIs.
+description: This section describes the GUIDs that are used by the Core Audio APIs.
 ms.assetid: 617FB991-D73C-452F-9FBB-2480C1CEE2B5
 title: Core Audio GUIDs
 ms.topic: reference

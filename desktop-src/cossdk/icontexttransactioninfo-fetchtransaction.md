@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the transaction or transaction proxy that is associated with the current context, if any.
+description: Retrieves the transaction or transaction proxy that is associated with the current context, if any.
 ms.assetid: 2f85f395-3ec5-4c5a-a6db-c902cb8f8486
 title: IContextTransactionInfo::FetchTransaction method
 ms.topic: reference

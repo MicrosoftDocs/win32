@@ -1,5 +1,5 @@
 ---
-Description: About WASAPI
+description: About WASAPI
 ms.assetid: 452b9725-b0b9-4888-bbb5-a23e0067e840
 title: About WASAPI
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: This section describes Microsoft DirectX graphics technologies that are minimally supported. This information is provided to support existing applications. We do not recommend using these technologies in new applications.
+description: This section describes Microsoft DirectX graphics technologies that are minimally supported. This information is provided to support existing applications. We do not recommend using these technologies in new applications.
 ms.assetid: CD246474-3360-4588-86F7-21EB36B8B121
 title: Classic DirectX Graphics
 ms.topic: reference

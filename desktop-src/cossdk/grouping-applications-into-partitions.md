@@ -1,5 +1,5 @@
 ---
-Description: Grouping Applications into Partitions
+description: Grouping Applications into Partitions
 ms.assetid: bdfe2428-9769-4bcb-b74e-a141ba67a67e
 title: Grouping Applications into Partitions
 ms.topic: article

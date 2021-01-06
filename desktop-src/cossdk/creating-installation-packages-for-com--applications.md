@@ -1,5 +1,5 @@
 ---
-Description: Creating Installation Packages for COM+ Applications
+description: Creating Installation Packages for COM+ Applications
 ms.assetid: 3ef7b280-b521-4cd2-9906-013c9dfe16ab
 title: Creating Installation Packages for COM+ Applications
 ms.topic: article

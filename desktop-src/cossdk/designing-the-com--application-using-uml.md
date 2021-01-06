@@ -1,5 +1,5 @@
 ---
-Description: Developing a successful COM+ application requires up-front application architectural design.
+description: Developing a successful COM+ application requires up-front application architectural design.
 ms.assetid: 6a7cc610-e09a-4097-bc31-4e53db0ee152
 title: Designing the COM+ Application Using UML
 ms.topic: article

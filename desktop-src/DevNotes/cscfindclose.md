@@ -1,5 +1,5 @@
 ---
-Description: Closes a search handle.
+description: Closes a search handle.
 ms.assetid: 2e6a547f-26a7-401a-b1e4-3f085ce82729
 title: CSCFindClose function
 ms.topic: reference

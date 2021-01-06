@@ -1,5 +1,5 @@
 ---
-Description: Queries the amount of free memory in all video memory heaps.
+description: Queries the amount of free memory in all video memory heaps.
 ms.assetid: 6718e8da-0da0-42e3-a02b-6884b141fe24
 title: NtGdiDdGetAvailDriverMemory function (Ntgdi.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Creating a Publisher Filter
+description: Creating a Publisher Filter
 ms.assetid: d91efecc-f02a-41c6-acf7-37b74723e7e8
 title: Creating a Publisher Filter
 ms.topic: article

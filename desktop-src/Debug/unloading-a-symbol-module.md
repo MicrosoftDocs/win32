@@ -1,5 +1,5 @@
 ---
-Description: The following code unloads a symbol module referred to by the BaseOfDll module address using SymUnloadModule64.
+description: The following code unloads a symbol module referred to by the BaseOfDll module address using SymUnloadModule64.
 ms.assetid: f185ae64-1de9-4139-acd5-7c3a108e1eba
 title: Unloading a Symbol Module
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SystemBIOS association WMI class relates a computer system (including data such as startup properties, time zones, boot configurations, or administrative passwords), and a system BIOS (services, languages, and system management properties).
+description: The Win32\_SystemBIOS association WMI class relates a computer system (including data such as startup properties, time zones, boot configurations, or administrative passwords), and a system BIOS (services, languages, and system management properties).
 ms.assetid: 92747b1b-ef28-40ab-868a-6755aee8c723
 ms.tgt_platform: multiple
 title: Win32_SystemBIOS class

@@ -1,5 +1,5 @@
 ---
-Description: Continues a file search operation.
+description: Continues a file search operation.
 ms.assetid: 5b1a8f67-7fce-4ba5-918d-826bdaca1947
 title: CSCFindNextFileW function
 ms.topic: reference

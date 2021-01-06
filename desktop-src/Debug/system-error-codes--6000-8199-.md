@@ -1,5 +1,5 @@
 ---
-Description: Describes error codes 6000-8199 defined in the WinError.h header file and is intended for developers.
+description: Describes error codes 6000-8199 defined in the WinError.h header file and is intended for developers.
 ms.assetid: eaaf9f65-e8ff-4e54-90a9-04252cdd773a
 title: System Error Codes (6000-8199) (WinError.h)
 ms.topic: reference
