@@ -81,6 +81,9 @@ api_location:
 
 # Msvm\_SyntheticFcPort class
 
+> [!NOTE]
+> This article contains references to the term slave, a term that Microsoft no longer uses. When the term is removed from the software, we’ll remove it from this article.
+
 Represents a synthetic Fibre Channel port.
 
 The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.

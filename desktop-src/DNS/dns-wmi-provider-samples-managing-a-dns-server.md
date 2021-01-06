@@ -8,6 +8,9 @@ ms.date: 05/31/2018
 
 # DNS WMI Provider Samples—Managing a DNS Server
 
+> [!NOTE]
+> This article contains references to the term slave, a term that Microsoft no longer uses. When the term is removed from the software, we’ll remove it from this article.
+
 This section demonstrates scripting tasks associated with managing a DNS Server. The links below jump to subroutines in the script file:
 
 -   [List DNS Server properties](#list-dns-server-properties)
