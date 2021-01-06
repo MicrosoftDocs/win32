@@ -1,5 +1,5 @@
 ---
-Description: Create an effect pool asynchronously.
+description: Create an effect pool asynchronously.
 ms.assetid: 50c55751-26de-4002-9a89-8e5ab59dda79
 title: D3DX10CreateAsyncEffectCreateProcessor function (D3DX10Async.h)
 ms.topic: reference

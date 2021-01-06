@@ -1,5 +1,5 @@
 ---
-Description: The InetGetAutodial function returns the autodial settings from the registry.
+description: The InetGetAutodial function returns the autodial settings from the registry.
 ms.assetid: e36761da-c050-4844-ad94-efdc77702f6f
 title: InetGetAutodial function
 ms.topic: reference

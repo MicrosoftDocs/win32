@@ -1,5 +1,5 @@
 ---
-Description: Passed to the TraceRay function to define the origin, direction, and extents of the ray.
+description: Passed to the TraceRay function to define the origin, direction, and extents of the ray.
 ms.assetid: 
 title: RayDesc structure
 ms.localizationpriority: low

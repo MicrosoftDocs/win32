@@ -1,5 +1,5 @@
 ---
-Description: Opens an existing symbolic link.
+description: Opens an existing symbolic link.
 ms.assetid: 37684707-4f65-4904-8bfc-d0679ebbd924
 title: NtOpenSymbolicLinkObject function
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The following enumerations are used to specify information about how resources are created and accessed during rendering.
+description: The following enumerations are used to specify information about how resources are created and accessed during rendering.
 ms.assetid: c986b22c-2960-4571-98bc-028c9f41ec65
 title: Resource Enumerations (Direct3D 10 Graphics)
 ms.topic: article

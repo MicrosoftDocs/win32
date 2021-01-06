@@ -1,5 +1,5 @@
 ---
-Description: Create an effect from memory.
+description: Create an effect from memory.
 ms.assetid: 6903a695-bb87-45fe-9913-25beeaf17233
 title: D3DX10CreateEffectFromMemory function (D3DX10Async.h)
 ms.topic: reference

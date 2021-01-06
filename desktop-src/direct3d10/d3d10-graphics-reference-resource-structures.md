@@ -1,5 +1,5 @@
 ---
-Description: Structures used to create and use resources.
+description: Structures used to create and use resources.
 ms.assetid: d8fe2ebe-349a-456e-9a5a-16f2d3419800
 title: Resource Structures (Direct3D 10 Graphics)
 ms.topic: article

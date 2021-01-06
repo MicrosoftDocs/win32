@@ -1,5 +1,5 @@
 ---
-Description: The Direct3D API defines several core API elements.
+description: The Direct3D API defines several core API elements.
 ms.assetid: 0b217811-555e-4433-8cf8-8c43cd5edba6
 title: Direct3D 10 core reference
 ms.topic: article

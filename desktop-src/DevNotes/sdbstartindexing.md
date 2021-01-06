@@ -1,5 +1,5 @@
 ---
-Description: Enables index creation and modification for the specified database.
+description: Enables index creation and modification for the specified database.
 ms.assetid: f780034e-6963-423c-8ffa-9fbe98dca7e1
 title: SdbStartIndexing function
 ms.topic: reference

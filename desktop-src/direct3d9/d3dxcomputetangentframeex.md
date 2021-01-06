@@ -1,5 +1,5 @@
 ---
-Description: Performs tangent frame computations on a mesh. Tangent, binormal, and optionally normal vectors are generated. Singularities are handled as required by grouping edges and splitting vertices.
+description: Performs tangent frame computations on a mesh. Tangent, binormal, and optionally normal vectors are generated. Singularities are handled as required by grouping edges and splitting vertices.
 ms.assetid: 15cc46bc-6db6-4e1d-a95e-cd60d2666600
 title: D3DXComputeTangentFrameEx function (D3DX9Mesh.h)
 ms.topic: reference

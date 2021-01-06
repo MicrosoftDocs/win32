@@ -1,5 +1,5 @@
 ---
-Description: A shader that calls TraceRay to generate rays.  
+description: A shader that calls TraceRay to generate rays.
 ms.assetid: 
 title: Ray Generation Shader
 ms.localizationpriority: low

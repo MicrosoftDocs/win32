@@ -1,5 +1,5 @@
 ---
-Description: Driver capability flag.
+description: Driver capability flag.
 ms.assetid: 78ff4433-f0b5-4bbb-b2c0-bd389fbc31ce
 title: D3DENUM
 ms.topic: article

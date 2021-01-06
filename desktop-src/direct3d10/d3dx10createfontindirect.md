@@ -1,5 +1,5 @@
 ---
-Description: Creates a font object.Note  Instead of using this function, we recommend that you use DirectWrite and the DirectXTK library, SpriteFont class.
+description: Creates a font object.Note  Instead of using this function, we recommend that you use DirectWrite and the DirectXTK library, SpriteFont class.
 ms.assetid: 057ee033-37d8-4fc1-9f35-776393fff008
 title: D3DX10CreateFontIndirect function (D3DX10Core.h)
 ms.topic: reference

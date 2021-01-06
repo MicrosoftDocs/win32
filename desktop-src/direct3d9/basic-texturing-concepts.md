@@ -1,5 +1,5 @@
 ---
-Description: Early computer-generated 3D images, although generally advanced for their time, tended to have a shiny plastic look.
+description: Early computer-generated 3D images, although generally advanced for their time, tended to have a shiny plastic look.
 ms.assetid: 548ae140-c746-4fab-8000-421289d4f0a2
 title: Basic Texturing Concepts (Direct3D 9)
 ms.topic: article

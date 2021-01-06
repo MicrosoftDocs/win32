@@ -1,6 +1,6 @@
 ---
 title: Auto-generated texture coordinates (Direct3D 9)
-Description: The system can use the transformed camera-space position or the normal from a vertex as texture coordinates, or it can compute the three element vectors used to address a cubic environment map.
+description: The system can use the transformed camera-space position or the normal from a vertex as texture coordinates, or it can compute the three element vectors used to address a cubic environment map.
 title: Auto-generated texture coordinates (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018

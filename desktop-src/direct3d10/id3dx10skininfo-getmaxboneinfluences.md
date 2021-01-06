@@ -1,5 +1,5 @@
 ---
-Description: Get the number of vertices a bone can maximally influence.
+description: Get the number of vertices a bone can maximally influence.
 ms.assetid: 8da72346-348b-46e0-8244-abfb1dbe684f
 title: ID3DX10SkinInfo::GetMaxBoneInfluences method (D3DX10.h)
 ms.topic: reference

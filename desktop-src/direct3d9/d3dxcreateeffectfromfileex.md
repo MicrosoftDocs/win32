@@ -1,5 +1,5 @@
 ---
-Description: Create an effect from an ASCII or binary effect description. This function is an extended version of D3DXCreateEffectFromFile that allows an application to control which parameters are ignored by the effects system.
+description: Create an effect from an ASCII or binary effect description. This function is an extended version of D3DXCreateEffectFromFile that allows an application to control which parameters are ignored by the effects system.
 ms.assetid: 963caa1e-bc1a-4d4b-bdb1-50b17d8b4132
 title: D3DXCreateEffectFromFileEx function (D3DX9Effect.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Creates the negative color value of a color value.
+description: Creates the negative color value of a color value.
 ms.assetid: 74143126-93f8-49fa-abe3-fd730b644d87
 title: D3DXColorNegative function (D3dx9math.h)
 ms.topic: reference

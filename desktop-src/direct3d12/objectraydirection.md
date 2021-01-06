@@ -1,5 +1,5 @@
 ---
-Description: The object-space direction for the current ray.  
+description: The object-space direction for the current ray.
 ms.assetid: 
 title: ObjectRayDirection
 ms.localizationpriority: low

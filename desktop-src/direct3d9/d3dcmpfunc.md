@@ -1,5 +1,5 @@
 ---
-Description: Defines the supported compare functions.
+description: Defines the supported compare functions.
 ms.assetid: 999af3eb-a208-4312-acee-373192ea69e4
 title: D3DCMPFUNC enumeration (D3D9Types.h)
 ms.topic: reference

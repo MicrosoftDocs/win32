@@ -1,5 +1,5 @@
 ---
-Description: Deprecated. See D3DX10CompileFromResource.
+description: Deprecated. See D3DX10CompileFromResource.
 ms.assetid: 3e4011dc-e657-4da5-b977-f229bcf86eaf
 title: D3DX10CompileShaderFromResource
 ms.topic: article

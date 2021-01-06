@@ -1,5 +1,5 @@
 ---
-Description: A bump map is an IDirect3DTexture9 object that uses a specialized pixel format.
+description: A bump map is an IDirect3DTexture9 object that uses a specialized pixel format.
 ms.assetid: 7f405cb9-9512-44da-8a85-4b7d22017284
 title: Bump Map Pixel Formats (Direct3D 9)
 ms.topic: article

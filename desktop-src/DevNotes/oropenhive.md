@@ -1,5 +1,5 @@
 ---
-Description: Loads the specified registry hive file into memory and validates the hive.
+description: Loads the specified registry hive file into memory and validates the hive.
 ms.assetid: 5d8498b0-e1bb-4c3d-bf3d-7bfc3002eb1a
 title: OROpenHive function (Offreg.h)
 ms.topic: reference

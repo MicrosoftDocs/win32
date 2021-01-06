@@ -1,5 +1,5 @@
 ---
-Description: A combination of zero or more locking options that describe the type of lock to perform.
+description: A combination of zero or more locking options that describe the type of lock to perform.
 ms.assetid: 46a611bd-a1ec-4967-b68d-72661d1b5cad
 title: D3DLOCK
 ms.topic: article

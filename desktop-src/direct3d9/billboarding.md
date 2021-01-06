@@ -1,5 +1,5 @@
 ---
-Description: When creating 3D scenes, an application can sometimes gain performance advantages by rendering 2D objects in a way that makes them appear to be 3D objects. This is the basic idea behind the technique of billboarding.
+description: When creating 3D scenes, an application can sometimes gain performance advantages by rendering 2D objects in a way that makes them appear to be 3D objects. This is the basic idea behind the technique of billboarding.
 ms.assetid: 6637a9ce-6731-4f60-8b76-854e86b10bdd
 title: Billboarding (Direct3D 9)
 ms.topic: article

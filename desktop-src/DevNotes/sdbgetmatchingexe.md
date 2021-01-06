@@ -1,5 +1,5 @@
 ---
-Description: Searches for the specified executable.
+description: Searches for the specified executable.
 ms.assetid: 32c6b054-7e47-4427-bdfe-6b5066db4ac3
 title: SdbGetMatchingExe function
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Uses a left-handed coordinate system to create a mesh containing a cylinder.
+description: Uses a left-handed coordinate system to create a mesh containing a cylinder.
 ms.assetid: 54b8a59e-d13f-44cb-84c0-f63c7b1ffb1b
 title: D3DXCreateCylinder function (D3dx9shape.h)
 ms.topic: reference

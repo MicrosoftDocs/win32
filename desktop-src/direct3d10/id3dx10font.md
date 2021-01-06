@@ -1,5 +1,5 @@
 ---
-Description: The ID3DX10Font interface encapsulates the textures and resources needed to render a specific font on a specific device.
+description: The ID3DX10Font interface encapsulates the textures and resources needed to render a specific font on a specific device.
 ms.assetid: 81f4ffe3-f50d-47ce-ae85-15a2a19cacbd
 title: ID3DX10Font interface (D3DX10.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: These options identify query resource types.
+description: These options identify query resource types.
 ms.assetid: d2030002-bd44-443f-8235-978919ebbda6
 title: D3DUSAGE_QUERY
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Rotates (relative to the object's local coordinate space) around an arbitrary axis.
+description: Rotates (relative to the object's local coordinate space) around an arbitrary axis.
 ms.assetid: da023816-5176-460d-ab6b-909b89cc46cd
 title: ID3DXMATRIXStack::RotateYawPitchRollLocal method (D3DX10.h)
 ms.topic: reference

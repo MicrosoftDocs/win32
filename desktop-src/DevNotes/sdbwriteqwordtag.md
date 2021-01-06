@@ -1,5 +1,5 @@
 ---
-Description: Writes a QWORD value to the specified database.
+description: Writes a QWORD value to the specified database.
 ms.assetid: 8ce566ea-a941-45fa-b031-26c3144ca02c
 title: SdbWriteQWORDTag function
 ms.topic: reference

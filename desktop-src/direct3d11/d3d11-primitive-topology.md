@@ -1,5 +1,5 @@
 ---
-Description: How the pipeline interprets vertex data that is bound to the input-assembler stage. These primitive topology values determine how the vertex data is rendered on screen.
+description: How the pipeline interprets vertex data that is bound to the input-assembler stage. These primitive topology values determine how the vertex data is rendered on screen.
 ms.assetid: ca0547b2-d0f8-4edc-a62c-3c903e1b33ea
 title: D3D11\_PRIMITIVE\_TOPOLOGY enumeration
 ms.date: 06/26/2019

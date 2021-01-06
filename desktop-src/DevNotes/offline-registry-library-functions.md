@@ -1,5 +1,5 @@
 ---
-Description: The following are the offline registry library functions.
+description: The following are the offline registry library functions.
 ms.assetid: 378811d2-064c-4d81-979e-392097d55baa
 title: Offline Registry Library Functions
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Creates an offline registry hive that contains a single empty root key.
+description: Creates an offline registry hive that contains a single empty root key.
 ms.assetid: 985cfea4-6f15-4d63-8e41-df2a490296a3
 title: ORCreateHive function (Offreg.h)
 ms.topic: reference

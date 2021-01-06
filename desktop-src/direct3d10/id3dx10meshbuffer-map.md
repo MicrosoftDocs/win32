@@ -1,5 +1,5 @@
 ---
-Description: Get a pointer to the mesh buffer memory to modify its contents.
+description: Get a pointer to the mesh buffer memory to modify its contents.
 ms.assetid: d15ed47a-450e-404a-bcc2-a641abc2d02e
 title: ID3DX10MeshBuffer::Map method (D3DX10.h)
 ms.topic: reference

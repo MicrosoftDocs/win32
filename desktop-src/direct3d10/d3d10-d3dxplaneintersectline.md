@@ -1,5 +1,5 @@
 ---
-Description: Finds the intersection between a plane and a line.
+description: Finds the intersection between a plane and a line.
 ms.assetid: aea1c4e1-f8c0-46df-bb33-2b517396d69e
 title: D3DXPlaneIntersectLine function (D3DX10Math.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the primary display adapter.
+description: Specifies the primary display adapter.
 ms.assetid: 76f91917-394a-4588-9c83-c35bddb36b8e
 title: D3DADAPTER_DEFAULT
 ms.topic: article

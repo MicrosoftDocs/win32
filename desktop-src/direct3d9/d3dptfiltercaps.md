@@ -1,5 +1,5 @@
 ---
-Description: Texture filtering constants.
+description: Texture filtering constants.
 ms.assetid: 4434e456-670e-46a9-ba78-affdc195fe1c
 title: D3DPTFILTERCAPS
 ms.topic: article

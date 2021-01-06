@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum number of rectangles used in composing glyphs in ComposeRects.
+description: Specifies the maximum number of rectangles used in composing glyphs in ComposeRects.
 ms.assetid: baf38e21-96b9-496f-8bec-7d2e28c1676d
 title: D3DCOMPOSERECTS_MAXNUMRECTS
 ms.topic: article

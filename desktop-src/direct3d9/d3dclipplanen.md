@@ -1,5 +1,5 @@
 ---
-Description: Defines bit patterns that enable user-defined clipping planes. These macros are defined as a convenience when setting values for the D3DRS\_CLIPPLANEENABLE render state.
+description: Defines bit patterns that enable user-defined clipping planes. These macros are defined as a convenience when setting values for the D3DRS\_CLIPPLANEENABLE render state.
 ms.assetid: 5bca2401-a3fb-4b1c-bb59-621b15da10f1
 title: D3DCLIPPLANEn macro (D3D9Types.h)
 ms.topic: reference

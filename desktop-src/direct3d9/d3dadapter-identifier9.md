@@ -1,5 +1,5 @@
 ---
-Description: Contains information identifying the adapter.
+description: Contains information identifying the adapter.
 ms.assetid: d0d59df9-c512-4d69-b0a0-7d87d7a380f6
 title: D3DADAPTER_IDENTIFIER9 structure (D3D9Types.h)
 ms.topic: reference

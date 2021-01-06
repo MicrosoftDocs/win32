@@ -1,5 +1,5 @@
 ---
-Description: Create a shader-resource view from a resource.
+description: Create a shader-resource view from a resource.
 ms.assetid: 207cda5f-5b7e-420a-988f-135cd2a04eb0
 title: D3DX10CreateShaderResourceViewFromResource function (D3DX10Tex.h)
 ms.topic: reference

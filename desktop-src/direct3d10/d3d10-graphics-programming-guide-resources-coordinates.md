@@ -1,5 +1,5 @@
 ---
-Description: Coordinate systems for Direct3D 10 are defined for pixels and texels.
+description: Coordinate systems for Direct3D 10 are defined for pixels and texels.
 ms.assetid: c8c269e7-6e2a-4b5d-847c-6779e276b9af
 title: Coordinate Systems (Direct3D 10)
 ms.topic: article

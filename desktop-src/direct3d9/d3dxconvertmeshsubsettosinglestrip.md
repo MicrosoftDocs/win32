@@ -1,5 +1,5 @@
 ---
-Description: Converts the specified mesh subset into a single triangle strip.
+description: Converts the specified mesh subset into a single triangle strip.
 ms.assetid: 618c7bee-dd09-4379-bb8b-30505e809df9
 title: D3DXConvertMeshSubsetToSingleStrip function (D3DX9Mesh.h)
 ms.topic: reference

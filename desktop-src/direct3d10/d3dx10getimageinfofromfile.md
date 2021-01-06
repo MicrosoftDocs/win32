@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information about a given image file.
+description: Retrieves information about a given image file.
 ms.assetid: 59bdce45-82d9-42da-b847-a29ca71919b5
 title: D3DX10GetImageInfoFromFile function (D3DX10Tex.h)
 ms.topic: reference

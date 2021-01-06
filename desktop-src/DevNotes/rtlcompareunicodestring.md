@@ -1,5 +1,5 @@
 ---
-Description: Compares two Unicode strings.
+description: Compares two Unicode strings.
 ms.assetid: D2703180-946C-4762-AFBA-1E882B01B944
 title: RtlCompareUnicodeString function (Wdm.h)
 ms.topic: reference

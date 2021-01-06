@@ -1,5 +1,5 @@
 ---
-Description: Used in an any hit shader to commit the current hit and then stop searching for more hits for the ray.
+description: Used in an any hit shader to commit the current hit and then stop searching for more hits for the ray.
 ms.assetid: 
 title: AcceptHitAndEndSearch function
 ms.date: 05/31/2018

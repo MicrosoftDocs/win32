@@ -1,5 +1,5 @@
 ---
-Description: Create an asynchronous-file loader.
+description: Create an asynchronous-file loader.
 ms.assetid: 1b79fba5-e7f0-4160-9cec-ffea94f84fde
 title: D3DX10CreateAsyncFileLoader function (D3DX10Async.h)
 ms.topic: reference

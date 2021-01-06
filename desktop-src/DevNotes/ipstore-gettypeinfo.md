@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information associated with a type.
+description: Retrieves information associated with a type.
 ms.assetid: 27a283a5-8924-4a2f-8f58-e673a424e28a
 title: IPStore::GetTypeInfo method (Pstore.h)
 ms.topic: reference

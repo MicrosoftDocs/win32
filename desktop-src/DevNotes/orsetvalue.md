@@ -1,5 +1,5 @@
 ---
-Description: Sets the data for the value of a specified registry key in an offline registry hive.
+description: Sets the data for the value of a specified registry key in an offline registry hive.
 ms.assetid: 62fd3a3a-6ce3-4313-b0e7-37ceea0ce302
 title: ORSetValue function (Offreg.h)
 ms.topic: reference
