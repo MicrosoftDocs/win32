@@ -1,5 +1,5 @@
 ---
-Description: The CopyEx method copies the logical file (or directory) that is specified in the object path to the location specified by the FileName parameter.
+description: The CopyEx method copies the logical file (or directory) that is specified in the object path to the location specified by the FileName parameter.
 ms.assetid: e52c1a0f-e34c-4a61-9e54-ed172976cb61
 ms.tgt_platform: multiple
 title: CopyEx method of the CIM_DataFile class

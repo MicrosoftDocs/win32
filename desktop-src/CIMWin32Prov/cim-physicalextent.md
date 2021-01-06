@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PhysicalExtent class represents an SCC RAID implementation.
+description: The CIM\_PhysicalExtent class represents an SCC RAID implementation.
 ms.assetid: d1950464-e17a-4651-aa53-6385659994ff
 ms.tgt_platform: multiple
 title: CIM_PhysicalExtent class

@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_Printer class requests a reset of the logical device.
+description: The Reset method of the CIM\_Printer class requests a reset of the logical device.
 ms.assetid: 7d5c9e57-0f48-4a31-855d-d06197a9b5df
 ms.tgt_platform: multiple
 title: Reset method of the CIM_Printer class

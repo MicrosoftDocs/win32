@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_PageFileSetting&\#8194;WMI class represents the settings of a page file.
+description: The Win32\_PageFileSetting&\#8194;WMI class represents the settings of a page file.
 ms.assetid: 22190ede-1db6-4d69-ae74-63d10977cc78
 ms.tgt_platform: multiple
 title: Win32_PageFileSetting class

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ServiceSAPDependency class represents an association between a service and a service access point (SAP), which indicates that the referenced SAP is used by the service to provide its functionality.
+description: The CIM\_ServiceSAPDependency class represents an association between a service and a service access point (SAP), which indicates that the referenced SAP is used by the service to provide its functionality.
 ms.assetid: cf5a8b9b-a38e-4173-861c-e417fbea6016
 ms.tgt_platform: multiple
 title: CIM_ServiceSAPDependency class (CIMWin32 WMI Providers)

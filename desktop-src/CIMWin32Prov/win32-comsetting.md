@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_COMSetting abstract WMI class represents the settings associated with a Component Object Model (COM) component or COM application.
+description: The Win32\_COMSetting abstract WMI class represents the settings associated with a Component Object Model (COM) component or COM application.
 ms.assetid: e8cdbee8-41ab-4aff-b17b-707667138411
 ms.tgt_platform: multiple
 title: Win32_COMSetting class

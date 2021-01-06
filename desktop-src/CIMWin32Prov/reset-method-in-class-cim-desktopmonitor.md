@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_DesktopMonitor class requests a reset of the logical device.
+description: The Reset method of the CIM\_DesktopMonitor class requests a reset of the logical device.
 ms.assetid: 75fb6290-13b4-4831-9c61-81e950d53472
 ms.tgt_platform: multiple
 title: Reset method of the CIM_DesktopMonitor class

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ExtraCapacityGroup class is derived from a redundancy group that indicates the aggregated elements have more capacity or capability than is needed.
+description: The CIM\_ExtraCapacityGroup class is derived from a redundancy group that indicates the aggregated elements have more capacity or capability than is needed.
 ms.assetid: fbbbd6ed-4a67-4917-8b0e-3cba4cac3b45
 ms.tgt_platform: multiple
 title: CIM_ExtraCapacityGroup class

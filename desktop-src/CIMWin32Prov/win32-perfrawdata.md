@@ -1,5 +1,5 @@
 ---
-Description: The abstract base class for all concrete raw performance counter classes.
+description: The abstract base class for all concrete raw performance counter classes.
 ms.assetid: 3c457996-54d9-4425-8a57-15176d027e3a
 ms.tgt_platform: multiple
 title: Win32_PerfRawData class

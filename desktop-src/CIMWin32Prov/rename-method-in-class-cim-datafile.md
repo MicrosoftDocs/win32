@@ -1,5 +1,5 @@
 ---
-Description: The Rename method renames the logical file (or directory) that is specified in the object path.
+description: The Rename method renames the logical file (or directory) that is specified in the object path.
 ms.assetid: 3eaf9f4f-270e-41d0-86ae-c5edb1850ef5
 ms.tgt_platform: multiple
 title: Rename method of the CIM_DataFile class

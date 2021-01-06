@@ -1,5 +1,5 @@
 ---
-Description: Gets the specified properties of this Plug and Play device.
+description: Gets the specified properties of this Plug and Play device.
 ms.assetid: 63327a4f-7d4a-4041-b58d-7a852ba08d5b
 ms.tgt_platform: multiple
 title: GetDeviceProperties method of the Win32_PnPEntity class

@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_ComClassEmulator association WMI class relates two versions of a Component Object Model (COM) class.
+description: The Win32\_ComClassEmulator association WMI class relates two versions of a Component Object Model (COM) class.
 ms.assetid: 33899c1e-911d-49ad-be25-355dcdb8f0c7
 ms.tgt_platform: multiple
 title: Win32_ComClassEmulator class

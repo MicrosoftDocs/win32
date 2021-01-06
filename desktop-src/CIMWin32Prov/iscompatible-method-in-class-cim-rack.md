@@ -1,5 +1,5 @@
 ---
-Description: Verifies whether the referenced rack can be contained by, or inserted into, the physical package.
+description: Verifies whether the referenced rack can be contained by, or inserted into, the physical package.
 ms.assetid: 03276c6a-ca48-48bc-adbe-e53e02107abb
 ms.tgt_platform: multiple
 title: IsCompatible method of the CIM_Rack class

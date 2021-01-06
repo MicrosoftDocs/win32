@@ -1,5 +1,5 @@
 ---
-Description: Represents a binary PnP device property in the form of an Uint8 array.
+description: Represents a binary PnP device property in the form of an Uint8 array.
 ms.assetid: 7D78B8B1-F5CE-446A-ADDD-F43A61DE186E
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyBinary class

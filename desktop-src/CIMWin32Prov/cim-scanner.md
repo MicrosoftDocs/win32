@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Scanner represents the capabilities and management of the scanner logical device.
+description: The CIM\_Scanner represents the capabilities and management of the scanner logical device.
 ms.assetid: a881ba20-2922-45c0-b31c-a3fea221d410
 ms.tgt_platform: multiple
 title: CIM_Scanner class

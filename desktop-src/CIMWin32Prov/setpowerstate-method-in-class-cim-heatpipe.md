@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method of the CIM\_HeatPipe class sets the desired power state for a logical device and when a device should be put into that state.
+description: The SetPowerState method of the CIM\_HeatPipe class sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: 10932c75-1fbe-422e-9333-d805ad695147
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_HeatPipe class

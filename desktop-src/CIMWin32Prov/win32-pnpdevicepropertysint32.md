@@ -1,5 +1,5 @@
 ---
-Description: Represents a PnP device property of type Sint32.
+description: Represents a PnP device property of type Sint32.
 ms.assetid: ADD2AB86-C31C-4DD0-81C3-2B47B0DF7E1C
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertySint32 class

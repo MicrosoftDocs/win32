@@ -1,5 +1,5 @@
 ---
-Description: The Resume WMI class method continues a paused print job.
+description: The Resume WMI class method continues a paused print job.
 ms.assetid: acfbca2b-19af-4339-bbca-834db50c3d8d
 ms.tgt_platform: multiple
 title: Resume method of the Win32_PrintJob class

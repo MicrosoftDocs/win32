@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ServiceServiceDependency class represents an association between two services.
+description: The CIM\_ServiceServiceDependency class represents an association between two services.
 ms.assetid: 0fb43fb3-2c05-4762-b339-2dcc090ed38d
 ms.tgt_platform: multiple
 title: CIM_ServiceServiceDependency class

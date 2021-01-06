@@ -1,5 +1,5 @@
 ---
-Description: Copies the logical shortcut file or directory specified in the object path to the location specified by the input parameter.
+description: Copies the logical shortcut file or directory specified in the object path to the location specified by the input parameter.
 ms.assetid: 1c8e9eac-340b-4c37-a52e-6cfade47ccf6
 ms.tgt_platform: multiple
 title: Copy method of the Win32_ShortcutFile class

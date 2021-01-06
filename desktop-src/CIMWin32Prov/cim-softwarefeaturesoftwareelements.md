@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SoftwareFeatureSoftwareElements association identifies the software elements that make up a specific software feature.
+description: The CIM\_SoftwareFeatureSoftwareElements association identifies the software elements that make up a specific software feature.
 ms.assetid: 933586c5-b85e-4136-b557-5151a48abc32
 ms.tgt_platform: multiple
 title: CIM_SoftwareFeatureSoftwareElements class

@@ -1,5 +1,5 @@
 ---
-Description: The Create&\#8194;WMI class method creates a new process.
+description: The Create&\#8194;WMI class method creates a new process.
 ms.assetid: be80abec-fab4-4403-bc29-d0d4a38e3c87
 ms.tgt_platform: multiple
 title: Create method of the Win32_Process class

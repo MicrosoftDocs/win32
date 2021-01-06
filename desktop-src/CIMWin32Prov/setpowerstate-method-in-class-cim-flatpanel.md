@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method of the CIM\_FlatPanel class sets the desired power state for a logical device and when a device should be put into that state.
+description: The SetPowerState method of the CIM\_FlatPanel class sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: 75f5f588-f3d3-471c-bff4-a511abcee576
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_FlatPanel class

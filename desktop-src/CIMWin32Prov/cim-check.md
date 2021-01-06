@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Check class represents a condition or characteristic that is expected to be true in an environment defined or scoped by an instance of a CIM\_ComputerSystem class.
+description: The CIM\_Check class represents a condition or characteristic that is expected to be true in an environment defined or scoped by an instance of a CIM\_ComputerSystem class.
 ms.assetid: f7862fe5-4412-4d57-b5fa-03c939ddba02
 ms.tgt_platform: multiple
 title: CIM_Check class

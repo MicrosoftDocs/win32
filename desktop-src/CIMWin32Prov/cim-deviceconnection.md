@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DeviceConnection association class represents two or more connected devices.
+description: The CIM\_DeviceConnection association class represents two or more connected devices.
 ms.assetid: 82095cd6-1843-4db2-9fe8-3e225611bd3b
 ms.tgt_platform: multiple
 title: CIM_DeviceConnection class (CIMWin32 WMI Providers)

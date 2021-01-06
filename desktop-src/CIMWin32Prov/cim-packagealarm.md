@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PackageAlarm association represents the relationship in which an alarm device is installed as part of a package. The installation indicates issues with the package's environment&\#8212;its security state or its overall health.
+description: The CIM\_PackageAlarm association represents the relationship in which an alarm device is installed as part of a package. The installation indicates issues with the package's environment&\#8212;its security state or its overall health.
 ms.assetid: 4911502a-de9c-46b4-91f6-a042c69fd052
 ms.tgt_platform: multiple
 title: CIM_PackageAlarm class

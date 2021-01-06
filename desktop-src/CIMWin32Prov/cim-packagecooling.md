@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PackageCooling association represents the relationship in which a cooling device is installed in a package, such as a chassis or rack, to assist with the package's cooling.
+description: The CIM\_PackageCooling association represents the relationship in which a cooling device is installed in a package, such as a chassis or rack, to assist with the package's cooling.
 ms.assetid: 0aaae8e1-6e70-4b26-8e56-dac5657e58c1
 ms.tgt_platform: multiple
 title: CIM_PackageCooling class

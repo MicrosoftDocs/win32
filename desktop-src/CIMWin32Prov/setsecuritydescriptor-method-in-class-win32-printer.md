@@ -1,5 +1,5 @@
 ---
-Description: Writes an updated version of the security descriptor that controls access to the printer.
+description: Writes an updated version of the security descriptor that controls access to the printer.
 ms.assetid: 6a709043-473e-4b24-8b52-6c68b670ebcf
 ms.tgt_platform: multiple
 title: SetSecurityDescriptor method of the Win32_Printer class

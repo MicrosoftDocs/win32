@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method of the CIM\_PCVideoController class sets the desired power state for a logical device and when a device should be put into that state.
+description: The SetPowerState method of the CIM\_PCVideoController class sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: db219a22-0f03-432e-b1c9-071771059ed6
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_PCVideoController class

@@ -1,5 +1,5 @@
 ---
-Description: The DeleteEx WMI class method will delete the logical file (or directory) specified in the object path. DeleteEx is an extended version of the Delete method.
+description: The DeleteEx WMI class method will delete the logical file (or directory) specified in the object path. DeleteEx is an extended version of the Delete method.
 ms.assetid: 6e5447c1-4d71-4a51-a1e0-b5785c13dfd2
 ms.tgt_platform: multiple
 title: DeleteEx method of the Win32_Directory class

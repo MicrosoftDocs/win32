@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_LogicalDiskBasedOnVolumeSet association relates logical disks with the volume on which they are found. Logical disks can be based on a single volume (for example, exposed by a software volume manager) or a disk partition.
+description: The CIM\_LogicalDiskBasedOnVolumeSet association relates logical disks with the volume on which they are found. Logical disks can be based on a single volume (for example, exposed by a software volume manager) or a disk partition.
 ms.assetid: 15a588c9-a6b0-4393-927f-8e8818315542
 ms.tgt_platform: multiple
 title: CIM_LogicalDiskBasedOnVolumeSet class

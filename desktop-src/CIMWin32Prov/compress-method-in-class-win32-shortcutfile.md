@@ -1,5 +1,5 @@
 ---
-Description: Compresses the logical shortcut file (or directory) specified in the object path.
+description: Compresses the logical shortcut file (or directory) specified in the object path.
 ms.assetid: ade588a5-4e0c-486b-b187-805fcabbf326
 ms.tgt_platform: multiple
 title: Compress method of the Win32_ShortcutFile class

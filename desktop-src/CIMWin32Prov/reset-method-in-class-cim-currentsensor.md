@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_CurrentSensor class requests a reset of the logical device.
+description: The Reset method of the CIM\_CurrentSensor class requests a reset of the logical device.
 ms.assetid: 4c1f500b-bc8b-428f-8f4e-cbf5a18f9405
 ms.tgt_platform: multiple
 title: Reset method of the CIM_CurrentSensor class

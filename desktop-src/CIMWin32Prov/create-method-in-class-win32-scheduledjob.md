@@ -1,5 +1,5 @@
 ---
-Description: Submits a job to an operating system for execution at a specified time and date in the future.
+description: Submits a job to an operating system for execution at a specified time and date in the future.
 ms.assetid: 9d582fbb-24cb-401d-8b77-af7671a24e6d
 ms.tgt_platform: multiple
 title: Create method of the Win32_ScheduledJob class

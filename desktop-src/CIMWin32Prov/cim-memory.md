@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Memory class represents the capabilities and management of memory-related logical devices.
+description: The CIM\_Memory class represents the capabilities and management of memory-related logical devices.
 ms.assetid: ddc72aad-5687-4bc1-b402-e27b27eca9be
 ms.tgt_platform: multiple
 title: CIM_Memory class (CIMWin32 WMI Providers)

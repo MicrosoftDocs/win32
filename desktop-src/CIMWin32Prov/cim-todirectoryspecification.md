@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ToDirectorySpecification association identifies the target directory for the file action.
+description: The CIM\_ToDirectorySpecification association identifies the target directory for the file action.
 ms.assetid: ab31101f-1948-4b3d-baef-0d61d5898b21
 ms.tgt_platform: multiple
 title: CIM_ToDirectorySpecification class

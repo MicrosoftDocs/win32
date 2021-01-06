@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_StorageDefect aggregation collects the storage errors for a storage extent.
+description: The CIM\_StorageDefect aggregation collects the storage errors for a storage extent.
 ms.assetid: 7acd3d25-4691-43cb-badc-662684989345
 ms.tgt_platform: multiple
 title: CIM_StorageDefect class

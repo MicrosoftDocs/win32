@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_LogonSessionMappedDisk class represents an association between a logon session and the mapped logical disks defined within the session.
+description: The Win32\_LogonSessionMappedDisk class represents an association between a logon session and the mapped logical disks defined within the session.
 ms.assetid: 013ae55e-6dd1-42fb-bcba-74d6afa1b905
 ms.tgt_platform: multiple
 title: Win32_LogonSessionMappedDisk class

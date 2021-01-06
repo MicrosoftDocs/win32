@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SettingCheck class exposes the following methods.
+description: The CIM\_SettingCheck class exposes the following methods.
 ms.assetid: 6E6F170A-A5D1-49FA-B258-5D05EA3777C1
 ms.tgt_platform: multiple
 title: CIM_SettingCheck Methods

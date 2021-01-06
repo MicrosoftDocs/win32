@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Mount class represents an association between a file system and a directory to which it is attached.
+description: The CIM\_Mount class represents an association between a file system and a directory to which it is attached.
 ms.assetid: abf1833b-9b39-45c0-8400-2be2bf3a1c3c
 ms.tgt_platform: multiple
 title: CIM_Mount class

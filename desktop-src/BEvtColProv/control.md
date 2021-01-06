@@ -1,5 +1,5 @@
 ---
-Description: Control of the collector instance. Requires the Administrator (BA) privileges.
+description: Control of the collector instance. Requires the Administrator (BA) privileges.
 ms.assetid: 83b485b2-b03b-4882-a3ff-187eac299755
 ms.tgt_platform: multiple
 title: Control class

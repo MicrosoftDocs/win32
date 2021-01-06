@@ -1,5 +1,5 @@
 ---
-Description: The IsCompatible method verifies whether the referenced physical element may be contained by, or inserted into, the physical package.
+description: The IsCompatible method verifies whether the referenced physical element may be contained by, or inserted into, the physical package.
 ms.assetid: 809a1871-dfa2-499b-9adf-118dec71586b
 ms.tgt_platform: multiple
 title: IsCompatible method of the CIM_Card class

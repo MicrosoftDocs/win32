@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_System class aggregates an enumerable set of managed system elements.
+description: The CIM\_System class aggregates an enumerable set of managed system elements.
 ms.assetid: cbfa60d4-36ae-4e0c-a57f-aabf219851d0
 ms.tgt_platform: multiple
 title: CIM_System class (CIMWin32 WMI Providers)

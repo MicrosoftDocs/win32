@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method of the CIM\_FileAction class takes a particular action. Details of how the method performs the action are implementation specific. This method is inherited from CIM\_Action.
+description: The Invoke method of the CIM\_FileAction class takes a particular action. Details of how the method performs the action are implementation specific. This method is inherited from CIM\_Action.
 ms.assetid: f7514d67-4141-4d1a-bdfd-83aa062291aa
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_FileAction class

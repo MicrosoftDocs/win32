@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_BIOSLoadedInNV class associates a BIOS element and the non-volatile storage in which it is loaded.
+description: The CIM\_BIOSLoadedInNV class associates a BIOS element and the non-volatile storage in which it is loaded.
 ms.assetid: 11641616-e11d-49ff-bfe4-f95fe27f00b8
 ms.tgt_platform: multiple
 title: CIM_BIOSLoadedInNV class

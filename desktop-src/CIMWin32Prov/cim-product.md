@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Product class is a concrete class that represents a collection of physical elements, software features and, other products, acquired as a unit.
+description: The CIM\_Product class is a concrete class that represents a collection of physical elements, software features and, other products, acquired as a unit.
 ms.assetid: beb20f61-de39-4221-8d29-4727104518d5
 ms.tgt_platform: multiple
 title: CIM_Product class

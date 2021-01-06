@@ -1,5 +1,5 @@
 ---
-Description: Brings a new computer system into a cluster.
+description: Brings a new computer system into a cluster.
 ms.assetid: 26d9428e-99de-4dcb-96ed-d773f28e015a
 ms.tgt_platform: multiple
 title: AddNode method of the CIM_ClusteringService class

@@ -1,5 +1,5 @@
 ---
-Description: Attempts to place the service managed by the logical system driver in the paused state.
+description: Attempts to place the service managed by the logical system driver in the paused state.
 ms.assetid: f5e960c1-868b-4b7b-9ea5-0fb8a9cfbafa
 ms.tgt_platform: multiple
 title: PauseService method of the Win32_SystemDriver class

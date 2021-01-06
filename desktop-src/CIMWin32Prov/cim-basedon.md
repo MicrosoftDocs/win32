@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_BasedOn class represents an association that describes how storage extents can be assembled from lower-level extents.
+description: The CIM\_BasedOn class represents an association that describes how storage extents can be assembled from lower-level extents.
 ms.assetid: 82132012-5851-4be8-82db-edbdb50b70e5
 ms.tgt_platform: multiple
 title: CIM_BasedOn class (CIMWin32 WMI Providers)

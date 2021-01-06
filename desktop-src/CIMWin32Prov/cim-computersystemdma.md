@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ComputerSystemDMA class represents an association between a computer system and its available direct memory access (DMA) channels.
+description: The CIM\_ComputerSystemDMA class represents an association between a computer system and its available direct memory access (DMA) channels.
 ms.assetid: 7d5bce4b-973f-4452-b403-a2196bd4017a
 ms.tgt_platform: multiple
 title: CIM_ComputerSystemDMA class

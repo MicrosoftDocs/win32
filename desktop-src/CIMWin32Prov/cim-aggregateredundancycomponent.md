@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_AggregateRedundancyComponent class describes the aggregate physical extent in a storage redundancy group.
+description: The CIM\_AggregateRedundancyComponent class describes the aggregate physical extent in a storage redundancy group.
 ms.assetid: 3407e888-e17c-4f65-a33f-056002accbf7
 ms.tgt_platform: multiple
 title: CIM_AggregateRedundancyComponent class

@@ -1,5 +1,5 @@
 ---
-Description: Disables this Plug and Play device.
+description: Disables this Plug and Play device.
 ms.assetid: 88d60218-7282-4d0e-9a2c-0ad1a8c96650
 ms.tgt_platform: multiple
 title: Disable method of the Win32_PnPEntity class

@@ -1,5 +1,5 @@
 ---
-Description: Uncompresses the logical paging file (or directory) specified in the object path. This method is an extended version of the Uncompress method.
+description: Uncompresses the logical paging file (or directory) specified in the object path. This method is an extended version of the Uncompress method.
 ms.assetid: d4cfa42e-7f05-4d12-b629-14195fc04e77
 ms.tgt_platform: multiple
 title: UncompressEx method of the Win32_PageFile class

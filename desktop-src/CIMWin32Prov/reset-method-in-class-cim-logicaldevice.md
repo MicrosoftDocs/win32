@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_LogicalDevice class requests a reset of the logical device.
+description: The Reset method of the CIM\_LogicalDevice class requests a reset of the logical device.
 ms.assetid: 85691b10-5d72-478b-acdc-cf1f4e01bec0
 ms.tgt_platform: multiple
 title: Reset method of the CIM_LogicalDevice class (CIMWin32 WMI Providers)

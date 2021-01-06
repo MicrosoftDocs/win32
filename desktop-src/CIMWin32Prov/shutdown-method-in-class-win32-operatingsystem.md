@@ -1,5 +1,5 @@
 ---
-Description: The Shutdown&\#8194;WMI class method unloads programs and DLLs until it is safe to turn off the computer.
+description: The Shutdown&\#8194;WMI class method unloads programs and DLLs until it is safe to turn off the computer.
 ms.assetid: 3f069699-810c-49bc-b77e-3fe43acc3dd5
 ms.tgt_platform: multiple
 title: Shutdown method of the Win32_OperatingSystem class

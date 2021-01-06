@@ -1,5 +1,5 @@
 ---
-Description: The DeleteEx method deletes the logical file (or directory) specified in the object path. This method is an extended version of the Delete method.
+description: The DeleteEx method deletes the logical file (or directory) specified in the object path. This method is an extended version of the Delete method.
 ms.assetid: 53785f2e-8796-446c-8228-9abc2d9a0d68
 ms.tgt_platform: multiple
 title: DeleteEx method of the CIM_LogicalFile class

@@ -1,5 +1,5 @@
 ---
-Description: Disables the network adapter.
+description: Disables the network adapter.
 ms.assetid: 6b328d7c-a9ef-4c9b-bc32-13fa2e0f65eb
 ms.tgt_platform: multiple
 title: Disable method of the Win32_NetworkAdapter class

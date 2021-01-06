@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_Processor class requests a reset of the logical device.
+description: The Reset method of the CIM\_Processor class requests a reset of the logical device.
 ms.assetid: d501ebeb-bc7a-41d3-bcce-fe763f541aae
 ms.tgt_platform: multiple
 title: Reset method of the CIM_Processor class

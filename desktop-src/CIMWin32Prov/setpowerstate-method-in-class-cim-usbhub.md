@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method of the CIM\_USBHub class sets the desired power state for a logical device and when a device should be put into that state.
+description: The SetPowerState method of the CIM\_USBHub class sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: 000ea180-16c0-4c0b-89e5-620ee8112c8a
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_USBHub class

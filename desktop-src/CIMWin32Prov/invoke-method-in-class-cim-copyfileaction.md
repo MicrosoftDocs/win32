@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method of the CIM\_CopyFileAction class takes a particular action. Details about how the method performs the action are implementation-specific. This method is inherited from CIM\_Action.
+description: The Invoke method of the CIM\_CopyFileAction class takes a particular action. Details about how the method performs the action are implementation-specific. This method is inherited from CIM\_Action.
 ms.assetid: b948e9ed-332d-4ac5-be7f-88b7f46f5f1d
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_CopyFileAction class

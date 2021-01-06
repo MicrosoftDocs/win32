@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_Printer class exposes the following methods.
+description: The Win32\_Printer class exposes the following methods.
 ms.assetid: 900829D6-AF3D-45F2-AB8F-ABFB05BDF106
 ms.tgt_platform: multiple
 title: Win32_Printer Methods

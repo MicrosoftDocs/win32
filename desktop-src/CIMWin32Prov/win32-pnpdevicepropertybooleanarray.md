@@ -1,5 +1,5 @@
 ---
-Description: Represents a PnP device property consisting of an array of boolean elements.
+description: Represents a PnP device property consisting of an array of boolean elements.
 ms.assetid: 2C7C6439-5C8C-4BA4-BF93-133FB7486421
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyBooleanArray class

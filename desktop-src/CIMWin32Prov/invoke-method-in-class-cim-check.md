@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method of the CIM\_Check class evaluates a particular check.
+description: The Invoke method of the CIM\_Check class evaluates a particular check.
 ms.assetid: cf1adeb2-f8a2-4f84-978f-e801bce104ac
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_Check class

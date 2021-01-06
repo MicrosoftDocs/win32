@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_UnitaryComputerSystem class represents a desktop, mobile, network computer, server, or other type of single-node computer system.
+description: The CIM\_UnitaryComputerSystem class represents a desktop, mobile, network computer, server, or other type of single-node computer system.
 ms.assetid: c696050d-c921-4056-adc7-e4a2e9f4e119
 ms.tgt_platform: multiple
 title: CIM_UnitaryComputerSystem class

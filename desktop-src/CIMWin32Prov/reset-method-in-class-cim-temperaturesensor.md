@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_TemperatureSensor class requests a reset of the logical device.
+description: The Reset method of the CIM\_TemperatureSensor class requests a reset of the logical device.
 ms.assetid: c764da9a-561b-4a0b-9cdf-6b4af50f1df0
 ms.tgt_platform: multiple
 title: Reset method of the CIM_TemperatureSensor class

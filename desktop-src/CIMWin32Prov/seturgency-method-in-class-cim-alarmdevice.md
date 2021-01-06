@@ -1,5 +1,5 @@
 ---
-Description: The SetUrgency method sets the desired urgency level for an alarm.
+description: The SetUrgency method sets the desired urgency level for an alarm.
 ms.assetid: ac2e7fda-1317-440a-adbd-1ef0844d124c
 ms.tgt_platform: multiple
 title: SetUrgency method of the CIM_AlarmDevice class

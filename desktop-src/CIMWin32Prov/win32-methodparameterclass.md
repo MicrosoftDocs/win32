@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_MethodParameterClass abstract, base WMI class derives any class defined as a container of parameter values that will be passed to a method.
+description: The Win32\_MethodParameterClass abstract, base WMI class derives any class defined as a container of parameter values that will be passed to a method.
 ms.assetid: 293fa378-432d-4e97-a8ab-8dc4917d5476
 ms.tgt_platform: multiple
 title: Win32_MethodParameterClass class

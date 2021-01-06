@@ -1,5 +1,5 @@
 ---
-Description: Contains information about user accounts and group accounts known to the computer system running Windows.
+description: Contains information about user accounts and group accounts known to the computer system running Windows.
 ms.assetid: c0916f20-05be-4282-9642-28cec606bfd7
 ms.tgt_platform: multiple
 title: Win32_Account class

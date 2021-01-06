@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ClusteringService class exposes the following methods.
+description: The CIM\_ClusteringService class exposes the following methods.
 ms.assetid: 3980A393-23CF-4D59-92D1-E1B8FB361D33
 ms.tgt_platform: multiple
 title: CIM_ClusteringService Methods

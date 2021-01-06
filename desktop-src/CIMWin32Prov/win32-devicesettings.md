@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_DeviceSettings abstract, association WMI class relates a logical device and a setting that can be applied to it.
+description: The Win32\_DeviceSettings abstract, association WMI class relates a logical device and a setting that can be applied to it.
 ms.assetid: 4f6c4c26-8da9-4e2c-8b8c-cec658ac08d4
 ms.tgt_platform: multiple
 title: Win32_DeviceSettings class

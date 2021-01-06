@@ -1,5 +1,5 @@
 ---
-Description: Represents a PnP device property of type boolean.
+description: Represents a PnP device property of type boolean.
 ms.assetid: 19681413-712C-4A09-9BEF-8CFEC5D81801
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyBoolean class

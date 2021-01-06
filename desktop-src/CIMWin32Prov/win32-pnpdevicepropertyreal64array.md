@@ -1,5 +1,5 @@
 ---
-Description: Represents a PnP device property consisting of an array of real64 elements.
+description: Represents a PnP device property consisting of an array of real64 elements.
 ms.assetid: 0BE2743F-E821-472A-AF6B-3AD62A0C02A2
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyReal64Array class

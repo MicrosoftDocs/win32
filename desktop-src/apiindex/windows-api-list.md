@@ -1,5 +1,5 @@
 ---
-Description: A list of the reference content for the Windows API.
+description: A list of the reference content for the Windows API.
 ms.assetid: 9CA123F9-92F1-4761-9468-266DA422F70E
 title: Windows API index
 ms.topic: article

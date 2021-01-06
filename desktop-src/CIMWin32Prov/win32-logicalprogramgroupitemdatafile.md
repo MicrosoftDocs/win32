@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_LogicalProgramGroupItemDataFile association WMI class relates the program group items of the Start menu and the files in which they are stored.
+description: The Win32\_LogicalProgramGroupItemDataFile association WMI class relates the program group items of the Start menu and the files in which they are stored.
 ms.assetid: 9327c205-d0ad-4f2b-a65e-2a648e7c13e0
 ms.tgt_platform: multiple
 title: Win32_LogicalProgramGroupItemDataFile class

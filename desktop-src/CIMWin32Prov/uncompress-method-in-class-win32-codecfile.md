@@ -1,5 +1,5 @@
 ---
-Description: Uncompresses the logical codec file (or directory) specified in the object path.
+description: Uncompresses the logical codec file (or directory) specified in the object path.
 ms.assetid: abe74267-1274-4b20-82ac-51ca94d7af33
 ms.tgt_platform: multiple
 title: Uncompress method of the Win32_CodecFile class

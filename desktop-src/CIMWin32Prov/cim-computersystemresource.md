@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ComputerSystemResource class represents an association between a computer system and its available system resources.
+description: The CIM\_ComputerSystemResource class represents an association between a computer system and its available system resources.
 ms.assetid: 365a3cc2-89f9-4fbd-aa70-a89608fc3c1f
 ms.tgt_platform: multiple
 title: CIM_ComputerSystemResource class

@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method of the CIM\_PointingDevice class sets the desired power state for a logical device and when a device should be put into that state.
+description: The SetPowerState method of the CIM\_PointingDevice class sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: 5ecb3f3a-76b2-4170-8583-b9a53ee23cdf
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_PointingDevice class

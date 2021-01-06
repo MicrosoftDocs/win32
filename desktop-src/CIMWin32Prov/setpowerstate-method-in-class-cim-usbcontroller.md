@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method of the CIM\_USBController class sets the desired power state for a logical device and when a device should be put into that state.
+description: The SetPowerState method of the CIM\_USBController class sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: 53d45180-633b-431e-a1d4-5b15813484dc
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_USBController class

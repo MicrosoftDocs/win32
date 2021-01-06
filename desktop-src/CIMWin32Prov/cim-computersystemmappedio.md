@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ComputerSystemMappedIO class represents an association between a computer system and its available memory-mapped I/O ports.
+description: The CIM\_ComputerSystemMappedIO class represents an association between a computer system and its available memory-mapped I/O ports.
 ms.assetid: 5df9db36-67ad-4a94-a7db-150b58977af1
 ms.tgt_platform: multiple
 title: CIM_ComputerSystemMappedIO class

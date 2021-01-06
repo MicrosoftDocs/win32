@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_VersionCompatibilityCheck class specifies whether it is permissible to create the next state of a software element.
+description: The CIM\_VersionCompatibilityCheck class specifies whether it is permissible to create the next state of a software element.
 ms.assetid: 3a04c489-e44e-44c7-8945-d6047ba0d6df
 ms.tgt_platform: multiple
 title: CIM_VersionCompatibilityCheck class

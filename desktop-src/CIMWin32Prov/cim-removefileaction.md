@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_RemoveFileAction class uninstalls files.
+description: The CIM\_RemoveFileAction class uninstalls files.
 ms.assetid: 32d5e537-eee2-4f93-9b1f-ecee0d36c99a
 ms.tgt_platform: multiple
 title: CIM_RemoveFileAction class

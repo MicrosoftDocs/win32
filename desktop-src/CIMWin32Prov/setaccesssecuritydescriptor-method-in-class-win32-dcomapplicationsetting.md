@@ -1,5 +1,5 @@
 ---
-Description: Updates the access security descriptor of the DCOM application with a new security descriptor that is defined by an instance of a Win32\_SecurityDescriptor class.
+description: Updates the access security descriptor of the DCOM application with a new security descriptor that is defined by an instance of a Win32\_SecurityDescriptor class.
 ms.assetid: 71b708ba-5eb7-400e-bee2-37ca93966c3f
 ms.tgt_platform: multiple
 title: SetAccessSecurityDescriptor method of the Win32_DCOMApplicationSetting class
