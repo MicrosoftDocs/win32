@@ -1,5 +1,5 @@
 ---
-Description: Disassemble an effect.
+description: Disassemble an effect.
 ms.assetid: d95d6e97-2e79-4cd2-965e-483aa1a1ddbc
 title: D3DXDisassembleEffect function (D3DX9Effect.h)
 ms.topic: reference

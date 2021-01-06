@@ -1,5 +1,5 @@
 ---
-Description: Returns the length of a 2D vector.
+description: Returns the length of a 2D vector.
 ms.assetid: 376fd2ca-c89d-41e7-a15c-a79d7281d010
 title: D3DXVec2Length function (D3dx9math.h)
 ms.topic: reference

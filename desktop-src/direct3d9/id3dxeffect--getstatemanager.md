@@ -1,5 +1,5 @@
 ---
-Description: Get the effect state manager.
+description: Get the effect state manager.
 ms.assetid: 4a09eb2a-2393-40b0-81b9-3c27998c2b77
 title: ID3DXEffect::GetStateManager method (D3DX9Effect.h)
 ms.topic: reference

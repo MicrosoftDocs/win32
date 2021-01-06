@@ -1,5 +1,5 @@
 ---
-Description: Gets the handle of a pass.
+description: Gets the handle of a pass.
 ms.assetid: 71332f6a-18fe-4702-8620-6d16b835ba8f
 title: ID3DXBaseEffect::GetPass method (D3DX9Effect.h)
 ms.topic: reference

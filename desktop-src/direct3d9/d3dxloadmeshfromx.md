@@ -1,5 +1,5 @@
 ---
-Description: Loads a mesh from a DirectX .x file.
+description: Loads a mesh from a DirectX .x file.
 ms.assetid: cc43d2c4-3547-4431-b506-010cced26754
 title: D3DXLoadMeshFromX function (D3DX9Mesh.h)
 ms.topic: reference

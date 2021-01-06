@@ -1,5 +1,5 @@
 ---
-Description: Sets the bone offset matrix.
+description: Sets the bone offset matrix.
 ms.assetid: f8ac1117-510d-42af-a6bf-422cbaaf6b74
 title: ID3DXSkinInfo::SetBoneOffsetMatrix method (D3DX9Mesh.h)
 ms.topic: reference

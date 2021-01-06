@@ -1,5 +1,5 @@
 ---
-Description: The ID3DXEffectCompiler interface compiles an effect from a function or from a vertex shader.
+description: The ID3DXEffectCompiler interface compiles an effect from a function or from a vertex shader.
 ms.assetid: 2d1dbc63-1eb9-4736-a0b5-7f899c0638be
 title: ID3DXEffectCompiler interface (D3DX9Effect.h)
 ms.topic: reference

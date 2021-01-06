@@ -1,5 +1,5 @@
 ---
-Description: Describes a parameter used for an effect object.
+description: Describes a parameter used for an effect object.
 ms.assetid: 60d19b52-67ef-4903-bbde-922a8fac1ad8
 title: D3DXPARAMETER_DESC structure (D3dx9effect.h)
 ms.topic: reference

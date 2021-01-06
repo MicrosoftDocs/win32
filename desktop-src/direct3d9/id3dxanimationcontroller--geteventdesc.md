@@ -1,5 +1,5 @@
 ---
-Description: Gets a description of a specified animation event.
+description: Gets a description of a specified animation event.
 ms.assetid: 7fb3def5-8df2-458d-b68e-5d540fd0a738
 title: ID3DXAnimationController::GetEventDesc method (D3dx9anim.h)
 ms.topic: reference

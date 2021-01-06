@@ -1,5 +1,5 @@
 ---
-Description: Helper structure for managing a shader constant table. This can also be done using ID3DXConstantTable.
+description: Helper structure for managing a shader constant table. This can also be done using ID3DXConstantTable.
 ms.assetid: cc6d66e4-c600-420b-b7b5-1bd10ecb22f9
 title: D3DXSHADER_CONSTANTTABLE structure (D3dx9shader.h)
 ms.topic: reference

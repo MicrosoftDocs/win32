@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of faces in the mesh.
+description: Retrieves the number of faces in the mesh.
 ms.assetid: 3f7cffd4-97ae-4f1c-9f91-931b85f07734
 title: ID3DXBaseMesh::GetNumFaces method (D3DX9Mesh.h)
 ms.topic: reference

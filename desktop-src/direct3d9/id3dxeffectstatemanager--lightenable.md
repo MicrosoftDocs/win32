@@ -1,5 +1,5 @@
 ---
-Description: A callback function that must be implemented by a user to enable/disable a light.
+description: A callback function that must be implemented by a user to enable/disable a light.
 ms.assetid: 11522ca3-8a2f-4767-a6e6-4186cb4f3115
 title: ID3DXEffectStateManager::LightEnable method (D3DX9Effect.h)
 ms.topic: reference

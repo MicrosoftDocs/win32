@@ -1,5 +1,5 @@
 ---
-Description: Saves a texture to an image file.
+description: Saves a texture to an image file.
 ms.assetid: 8dcfd58a-ae1e-43c3-8ff1-94e3fa398b0f
 title: D3DXSaveTextureToFileInMemory function (D3dx9tex.h)
 ms.topic: reference

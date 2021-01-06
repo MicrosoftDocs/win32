@@ -1,5 +1,5 @@
 ---
-Description: Optimizes the patch mesh for efficient tessellation.
+description: Optimizes the patch mesh for efficient tessellation.
 ms.assetid: 0049e649-5fe5-45b4-9b09-14b7f99b4988
 title: ID3DXPatchMesh::Optimize method (D3DX9Mesh.h)
 ms.topic: reference

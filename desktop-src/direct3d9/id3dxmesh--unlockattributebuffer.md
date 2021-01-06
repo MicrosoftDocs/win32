@@ -1,5 +1,5 @@
 ---
-Description: Unlocks an attribute buffer.
+description: Unlocks an attribute buffer.
 ms.assetid: 47d59cf4-3497-4fee-b456-11c7fad84c66
 title: ID3DXMesh::UnlockAttributeBuffer method (D3DX9Mesh.h)
 ms.topic: reference

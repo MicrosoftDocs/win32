@@ -1,5 +1,5 @@
 ---
-Description: The type of object.
+description: The type of object.
 ms.assetid: ab405984-2ebc-4514-9400-bdb13676eda5
 title: D3DXPARAMETER_CLASS enumeration (D3dx9shader.h)
 ms.topic: reference

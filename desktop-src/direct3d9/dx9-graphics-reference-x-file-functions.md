@@ -1,5 +1,5 @@
 ---
-Description: This section contains reference information for the functions that you need to implement when you work with DirectX files. Deprecated.
+description: This section contains reference information for the functions that you need to implement when you work with DirectX files. Deprecated.
 ms.assetid: 7bf91269-a298-4444-bdd3-709d66039787
 title: X File Functions
 ms.topic: article

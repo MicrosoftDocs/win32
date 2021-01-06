@@ -1,5 +1,5 @@
 ---
-Description: Get the maximum number of animation outputs the animation controller can support.
+description: Get the maximum number of animation outputs the animation controller can support.
 ms.assetid: 32534c92-9f8d-4fab-9f56-fe83368c476a
 title: ID3DXAnimationController::GetMaxNumAnimationOutputs method (D3dx9anim.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Gets the handle of a technique.
+description: Gets the handle of a technique.
 ms.assetid: da139706-734b-4d5e-896d-52f045942218
 title: ID3DXBaseEffect::GetTechnique method (D3DX9Shader.h)
 ms.topic: reference

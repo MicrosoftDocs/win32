@@ -1,5 +1,5 @@
 ---
-Description: Ends an active technique.
+description: Ends an active technique.
 ms.assetid: 7297aa67-5cd4-4557-b5ef-faa6c27eaeb5
 title: ID3DXEffect::End method (D3DX9Effect.h)
 ms.topic: reference

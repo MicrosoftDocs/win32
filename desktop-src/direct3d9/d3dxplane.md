@@ -1,5 +1,5 @@
 ---
-Description: Describes a plane.
+description: Describes a plane.
 ms.assetid: ffca4650-9788-4559-8f6b-a4e5db29ce55
 title: D3DXPLANE structure (D3dx9math.h)
 ms.topic: reference

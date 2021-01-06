@@ -1,5 +1,5 @@
 ---
-Description: Unlock the vertex buffer.
+description: Unlock the vertex buffer.
 ms.assetid: 98b82fd1-56e8-45f3-bf26-a1e3b54c2979
 title: ID3DXPatchMesh::UnlockVertexBuffer method (D3DX9Mesh.h)
 ms.topic: reference

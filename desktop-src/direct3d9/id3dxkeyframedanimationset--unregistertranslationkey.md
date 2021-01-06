@@ -1,5 +1,5 @@
 ---
-Description: Removes the translation data at the specified key frame.
+description: Removes the translation data at the specified key frame.
 ms.assetid: 58cadf5d-f687-4644-83b0-e124ef2bcb5a
 title: ID3DXKeyframedAnimationSet::UnregisterTranslationKey method (D3dx9anim.h)
 ms.topic: reference

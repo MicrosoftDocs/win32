@@ -1,5 +1,5 @@
 ---
-Description: Turns on or off all D3DX debug output.
+description: Turns on or off all D3DX debug output.
 ms.assetid: e35cbfd2-401e-47ec-9f5b-e2ed63ea1fcd
 title: D3DXDebugMute function (D3dx9core.h)
 ms.topic: reference

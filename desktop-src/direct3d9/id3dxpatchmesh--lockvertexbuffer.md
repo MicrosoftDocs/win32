@@ -1,5 +1,5 @@
 ---
-Description: Lock the vertex buffer.
+description: Lock the vertex buffer.
 ms.assetid: f7e4f27d-1b40-4b0d-8173-48a0b15cfc95
 title: ID3DXPatchMesh::LockVertexBuffer method (D3DX9Mesh.h)
 ms.topic: reference

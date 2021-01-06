@@ -1,5 +1,5 @@
 ---
-Description: The methods used to work with DirectX .x files can return the following values in addition to the standard COM return values. Deprecated.
+description: The methods used to work with DirectX .x files can return the following values in addition to the standard COM return values. Deprecated.
 ms.assetid: a91168bc-966a-47b5-ba83-fc480593228d
 title: Return Values (DXFile.h)
 ms.topic: reference

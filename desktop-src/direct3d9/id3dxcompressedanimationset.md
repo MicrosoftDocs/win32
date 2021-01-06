@@ -1,5 +1,5 @@
 ---
-Description: An application uses the methods of this interface to implement a key frame animation set stored in a compressed data format.
+description: An application uses the methods of this interface to implement a key frame animation set stored in a compressed data format.
 ms.assetid: 858f09b7-c3b6-4e22-8017-ce2d6188ba80
 title: ID3DXCompressedAnimationSet interface (D3dx9anim.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Computes a projection of the direct lighting from the previous light bounce into spherical harmonic (SH) basis vectors that represent incident radiance at specified locations.
+description: Computes a projection of the direct lighting from the previous light bounce into spherical harmonic (SH) basis vectors that represent incident radiance at specified locations.
 ms.assetid: ccde7c59-cb82-4d61-822a-e1e9ecea0a28
 title: ID3DXPRTEngine::ComputeVolumeSamples method (D3DX9Mesh.h)
 ms.topic: reference

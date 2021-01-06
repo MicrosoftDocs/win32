@@ -1,5 +1,5 @@
 ---
-Description: Options for saving and creating effects.
+description: Options for saving and creating effects.
 ms.assetid: df24a132-665e-4eb7-992b-d7a6144257f5
 title: D3DXFX
 ms.topic: article

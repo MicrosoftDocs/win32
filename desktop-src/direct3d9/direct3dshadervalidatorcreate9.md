@@ -1,5 +1,5 @@
 ---
-Description: Direct3DShaderValidatorCreate9 function
+description: Direct3DShaderValidatorCreate9 function
 ms.assetid: 5b0ff1e1-8833-4cb0-9bd4-53bd7c11fed3
 title: Direct3DShaderValidatorCreate9 function
 ms.topic: reference

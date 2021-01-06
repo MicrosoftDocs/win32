@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a declaration describing the vertices in the mesh.
+description: Retrieves a declaration describing the vertices in the mesh.
 ms.assetid: e9028282-acf1-4ca4-8af0-7fb655dcb5d1
 title: ID3DXBaseMesh::GetDeclaration method (D3DX9Mesh.h)
 ms.topic: reference

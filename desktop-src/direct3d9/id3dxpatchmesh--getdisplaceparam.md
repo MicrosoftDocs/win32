@@ -1,5 +1,5 @@
 ---
-Description: Gets mesh geometry displacement parameters.
+description: Gets mesh geometry displacement parameters.
 ms.assetid: 155724ba-71be-4e9f-8c84-bb04f8eec578
 title: ID3DXPatchMesh::GetDisplaceParam method (D3DX9Mesh.h)
 ms.topic: reference

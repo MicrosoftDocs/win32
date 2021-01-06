@@ -1,5 +1,5 @@
 ---
-Description: This section contains reference information for the API elements used to work with DirectX .x files. These topics are new with the DirectX SDK Update (Summer 2004).
+description: This section contains reference information for the API elements used to work with DirectX .x files. These topics are new with the DirectX SDK Update (Summer 2004).
 ms.assetid: 726dffe9-682f-445b-92a7-2246ad4e3848
 title: X File Reference
 ms.topic: article

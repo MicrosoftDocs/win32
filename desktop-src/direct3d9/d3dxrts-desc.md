@@ -1,5 +1,5 @@
 ---
-Description: Describes a render surface.
+description: Describes a render surface.
 ms.assetid: cffa1555-1fa2-427d-8bcb-da0e61d82152
 title: D3DXRTS_DESC structure (D3dx9core.h)
 ms.topic: reference

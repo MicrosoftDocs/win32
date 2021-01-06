@@ -1,5 +1,5 @@
 ---
-Description: Destroys the subtree of frames under the root, including the root.
+description: Destroys the subtree of frames under the root, including the root.
 ms.assetid: 0bbb529f-01d8-430b-a72b-4af5f7a71253
 title: D3DXFrameDestroy function (D3dx9anim.h)
 ms.topic: reference

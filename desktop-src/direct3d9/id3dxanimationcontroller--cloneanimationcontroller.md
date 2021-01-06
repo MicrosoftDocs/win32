@@ -1,5 +1,5 @@
 ---
-Description: Clones, or copies, an animation controller.
+description: Clones, or copies, an animation controller.
 ms.assetid: 9836653c-9ea5-4fbc-89ac-0b46054a12d7
 title: ID3DXAnimationController::CloneAnimationController method (D3dx9anim.h)
 ms.topic: reference

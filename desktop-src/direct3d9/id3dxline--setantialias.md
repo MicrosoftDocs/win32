@@ -1,5 +1,5 @@
 ---
-Description: Toggles line antialiasing.
+description: Toggles line antialiasing.
 ms.assetid: 9c212823-2dc6-40dd-b1aa-9fc4a2c540f4
 title: ID3DXLine::SetAntialias method (D3dx9core.h)
 ms.topic: reference

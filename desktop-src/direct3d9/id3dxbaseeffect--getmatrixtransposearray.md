@@ -1,5 +1,5 @@
 ---
-Description: Gets an array of transposed matrices.
+description: Gets an array of transposed matrices.
 ms.assetid: fbfcb2e4-82ca-4f79-923e-35749c5b9586
 title: ID3DXBaseEffect::GetMatrixTransposeArray method (D3DX9Shader.h)
 ms.topic: reference

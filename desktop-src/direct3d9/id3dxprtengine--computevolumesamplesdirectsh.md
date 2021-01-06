@@ -1,5 +1,5 @@
 ---
-Description: Computes a projection of distant lighting into spherical harmonic (SH) basis vectors that represent incident radiance at specified locations.
+description: Computes a projection of distant lighting into spherical harmonic (SH) basis vectors that represent incident radiance at specified locations.
 ms.assetid: 4d07b288-aec1-48eb-8d27-f3d7d8cfb69e
 title: ID3DXPRTEngine::ComputeVolumeSamplesDirectSH method (D3DX9Mesh.h)
 ms.topic: reference

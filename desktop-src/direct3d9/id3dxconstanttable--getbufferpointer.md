@@ -1,5 +1,5 @@
 ---
-Description: Gets a pointer to the buffer that contains the constant table.
+description: Gets a pointer to the buffer that contains the constant table.
 ms.assetid: 71dda064-15f8-415c-aba7-60255886c6b4
 title: ID3DXConstantTable::GetBufferPointer method (D3DX9Shader.h)
 ms.topic: reference

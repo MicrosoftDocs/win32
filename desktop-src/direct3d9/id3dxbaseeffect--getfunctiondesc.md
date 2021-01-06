@@ -1,5 +1,5 @@
 ---
-Description: Gets a function description.
+description: Gets a function description.
 ms.assetid: a1a0ccf4-2428-4e60-9af0-07dc2132a367
 title: ID3DXBaseEffect::GetFunctionDesc method (D3DX9Effect.h)
 ms.topic: reference

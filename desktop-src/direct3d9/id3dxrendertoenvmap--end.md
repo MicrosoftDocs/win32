@@ -1,5 +1,5 @@
 ---
-Description: Restore all render targets and, if needed, compose all the rendered faces into the environment map surface.
+description: Restore all render targets and, if needed, compose all the rendered faces into the environment map surface.
 ms.assetid: 57c73787-36e7-4088-b5ff-78894e3a5d90
 title: ID3DXRenderToEnvMap::End method (D3dx9core.h)
 ms.topic: reference

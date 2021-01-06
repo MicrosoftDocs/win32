@@ -1,5 +1,5 @@
 ---
-Description: Prepares a device for drawing sprites.
+description: Prepares a device for drawing sprites.
 ms.assetid: ec9eb069-0a41-4dd5-bbd5-5a31133550b6
 title: ID3DXSprite::Begin method (D3dx9core.h)
 ms.topic: reference

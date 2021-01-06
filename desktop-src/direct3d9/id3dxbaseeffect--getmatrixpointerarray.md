@@ -1,5 +1,5 @@
 ---
-Description: Gets an array of pointers to nontransposed matrices.
+description: Gets an array of pointers to nontransposed matrices.
 ms.assetid: ee9f752d-a06a-43a3-b4ce-d1d585ba8c08
 title: ID3DXBaseEffect::GetMatrixPointerArray method (D3DX9Shader.h)
 ms.topic: reference

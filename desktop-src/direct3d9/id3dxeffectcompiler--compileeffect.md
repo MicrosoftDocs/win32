@@ -1,5 +1,5 @@
 ---
-Description: Compile an effect.
+description: Compile an effect.
 ms.assetid: be6f862a-5091-4a06-a27a-308e81360129
 title: ID3DXEffectCompiler::CompileEffect method (D3DX9Effect.h)
 ms.topic: reference

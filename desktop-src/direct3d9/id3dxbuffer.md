@@ -1,5 +1,5 @@
 ---
-Description: The ID3DXBuffer interface is used as a data buffer, storing vertex, adjacency, and material information during mesh optimization and loading operations.
+description: The ID3DXBuffer interface is used as a data buffer, storing vertex, adjacency, and material information during mesh optimization and loading operations.
 ms.assetid: 63ee3b2d-c0e6-4ad4-9274-2b1dfd77f89d
 title: ID3DXBuffer interface (D3DX9Mesh.h)
 ms.topic: reference

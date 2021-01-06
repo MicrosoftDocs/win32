@@ -1,5 +1,5 @@
 ---
-Description: Sets the track speed. The track speed is similar to a multiplier that is used to speed up or slow down the playback of the track.
+description: Sets the track speed. The track speed is similar to a multiplier that is used to speed up or slow down the playback of the track.
 ms.assetid: b3946b61-0676-4690-9844-639fabd8fd7c
 title: ID3DXAnimationController::SetTrackSpeed method (D3dx9anim.h)
 ms.topic: reference

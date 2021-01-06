@@ -1,5 +1,5 @@
 ---
-Description: Get translation information for a specific key frame in the animation set.
+description: Get translation information for a specific key frame in the animation set.
 ms.assetid: 757af408-8a9c-4294-9343-91f52d4cc1ab
 title: ID3DXKeyframedAnimationSet::GetTranslationKey method (D3dx9anim.h)
 ms.topic: reference

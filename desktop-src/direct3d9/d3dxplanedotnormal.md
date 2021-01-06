@@ -1,5 +1,5 @@
 ---
-Description: Computes the dot product of a plane and a 3D vector. The w parameter of the vector is assumed to be 0.
+description: Computes the dot product of a plane and a 3D vector. The w parameter of the vector is assumed to be 0.
 ms.assetid: 7aba1e94-6531-4c07-83b0-6100805e8bbd
 title: D3DXPlaneDotNormal function (D3dx9math.h)
 ms.topic: reference

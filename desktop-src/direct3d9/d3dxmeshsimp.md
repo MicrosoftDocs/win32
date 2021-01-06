@@ -1,5 +1,5 @@
 ---
-Description: Specifies simplification options for a mesh.
+description: Specifies simplification options for a mesh.
 ms.assetid: f03170bd-7d2a-4839-9aec-c29426b95437
 title: D3DXMESHSIMP enumeration (D3dx9mesh.h)
 ms.topic: reference

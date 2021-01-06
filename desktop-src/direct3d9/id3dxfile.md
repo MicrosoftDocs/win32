@@ -1,5 +1,5 @@
 ---
-Description: Applications use the methods of the ID3DXFile interface to create instances of the ID3DXFileEnumObject and ID3DXFileSaveObject interfaces, and to register templates.
+description: Applications use the methods of the ID3DXFile interface to create instances of the ID3DXFileEnumObject and ID3DXFileSaveObject interfaces, and to register templates.
 ms.assetid: 472d45b1-5c03-4417-a005-91f802667919
 title: ID3DXFile interface (D3DX9Xof.h)
 ms.topic: reference
