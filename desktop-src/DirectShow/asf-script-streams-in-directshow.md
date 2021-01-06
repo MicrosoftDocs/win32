@@ -1,5 +1,5 @@
 ---
-Description: ASF Script Streams in DirectShow
+description: ASF Script Streams in DirectShow
 ms.assetid: afef1b8b-4be2-48a1-b72a-b2e6342a5e84
 title: ASF Script Streams in DirectShow
 ms.topic: article

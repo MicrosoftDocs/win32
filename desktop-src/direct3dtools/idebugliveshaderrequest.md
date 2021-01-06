@@ -1,5 +1,5 @@
 ---
-Description: Reserved. Request to live debug a shader.
+description: Reserved. Request to live debug a shader.
 MS-HAID: vspixengine.IDebugLiveShaderRequest
 MSHAttr:
 - PreferredSiteName:MSDN

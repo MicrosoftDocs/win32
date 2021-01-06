@@ -1,5 +1,5 @@
 ---
-Description: The GetRequest method waits for the next request.
+description: The GetRequest method waits for the next request.
 ms.assetid: 9f275ee6-cb78-455a-b924-7337c8d2a6dd
 title: CAMThread.GetRequest method (Wxutil.h)
 ms.topic: reference

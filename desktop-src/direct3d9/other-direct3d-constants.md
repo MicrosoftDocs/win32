@@ -1,5 +1,5 @@
 ---
-Description: Other Direct3D Constants
+description: Other Direct3D Constants
 ms.assetid: 3e314f73-2653-481a-ac7d-1ce7db0591e2
 title: Other Direct3D Constants
 ms.topic: article

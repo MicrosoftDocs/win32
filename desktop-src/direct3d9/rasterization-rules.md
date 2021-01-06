@@ -1,5 +1,5 @@
 ---
-Description: Often, the points specified for vertices do not precisely match the pixels on the screen. When this happens, Direct3D applies triangle rasterization rules to decide which pixels apply to a given triangle.
+description: Often, the points specified for vertices do not precisely match the pixels on the screen. When this happens, Direct3D applies triangle rasterization rules to decide which pixels apply to a given triangle.
 ms.assetid: 919b36f1-d4de-4d5d-ba1a-0605bf59a6cd
 title: Rasterization Rules (Direct3D 9)
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: A request to update the initial state of an object; for example, a texture or shader.
+description: A request to update the initial state of an object; for example, a texture or shader.
 MS-HAID: vspixengine.IUpdateObject\_UpdateObject\_UINT\_DWORD\_BYTE\_arr\_IUpdateObjectCallback\_ptr
 MSHAttr:
 - PreferredSiteName:MSDN

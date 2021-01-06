@@ -1,5 +1,5 @@
 ---
-Description: Not used. Formerly a request for things like &\#0034;capture frame&\#0034; event.
+description: Not used. Formerly a request for things like &\#0034;capture frame&\#0034; event.
 MS-HAID: vspixengine.IRunActionRequest
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: The get\_Top method retrieves the top window coordinate.
+description: The get\_Top method retrieves the top window coordinate.
 ms.assetid: 1e7910bd-e38e-4586-9dd6-701f69c0f6e7
 title: CBaseControlWindow.get_Top method (Ctlutil.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Represents a pipeline stage, including details of the shader used.
+description: Represents a pipeline stage, including details of the shader used.
 MS-HAID: vspixengine.PipeLineStage
 MSHAttr:
 - PreferredSiteName:MSDN

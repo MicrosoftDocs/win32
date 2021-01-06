@@ -1,5 +1,5 @@
 ---
-Description: Destructor method. The destructor releases access to the pin.
+description: Destructor method. The destructor releases access to the pin.
 ms.assetid: 7d059a59-d319-4b4c-b77a-ec4f1c9d330c
 title: CAutoUsingOutputPin.~CAutoUsingOutputPin destructor (Amfilter.h)
 ms.topic: reference

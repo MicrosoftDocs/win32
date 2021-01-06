@@ -1,5 +1,5 @@
 ---
-Description: This section specifies the formats ([**DXGI_FORMAT_***](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) values) that are supported in Direct3D Feature 10Level9 9.1 hardware.
+description: This section specifies the formats ([**DXGI_FORMAT_***](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) values) that are supported in Direct3D Feature 10Level9 9.1 hardware.
 ms.assetid: 770A5396-C5D9-442B-99FE-3D220C54E8EB
 title: Format support for Direct3D Feature 10Level9 9.1 hardware
 ms.topic: article

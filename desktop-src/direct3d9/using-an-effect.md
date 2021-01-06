@@ -1,5 +1,5 @@
 ---
-Description: This page will show you how to generate and use an effect.
+description: This page will show you how to generate and use an effect.
 ms.assetid: d9fdafed-5958-4995-a1b5-8881feca1291
 title: Using an Effect (Direct3D 9)
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: If you do not light with a vertex shader or a pixel shader, you may choose to use the lighting engine in the runtime.
+description: If you do not light with a vertex shader or a pixel shader, you may choose to use the lighting engine in the runtime.
 ms.assetid: 'vs|directx_sdk|~\lighting_state.htm'
 title: Lighting State (Direct3D 9)
 ms.topic: article

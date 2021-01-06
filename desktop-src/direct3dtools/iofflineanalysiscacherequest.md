@@ -1,5 +1,5 @@
 ---
-Description: Requests for information on whether an offline request is cached or not.
+description: Requests for information on whether an offline request is cached or not.
 MS-HAID: vspixengine.IOfflineAnalysisCacheRequest
 MSHAttr:
 - PreferredSiteName:MSDN

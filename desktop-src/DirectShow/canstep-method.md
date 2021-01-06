@@ -1,5 +1,5 @@
 ---
-Description: The CanStep method determines whether the MPEG-2 decoder on the local system can perform frame stepping in a specified direction.
+description: The CanStep method determines whether the MPEG-2 decoder on the local system can perform frame stepping in a specified direction.
 ms.assetid: 21721722-0bf4-4cc7-a0e4-96b353888948
 title: CanStep Method
 ms.topic: reference

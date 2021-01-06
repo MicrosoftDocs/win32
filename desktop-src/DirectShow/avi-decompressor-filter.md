@@ -1,5 +1,5 @@
 ---
-Description: AVI Decompressor Filter
+description: AVI Decompressor Filter
 ms.assetid: 6a9914db-483a-429c-9b26-9451578951c9
 title: AVI Decompressor Filter
 ms.topic: article

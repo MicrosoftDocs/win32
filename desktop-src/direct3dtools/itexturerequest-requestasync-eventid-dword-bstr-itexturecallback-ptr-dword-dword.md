@@ -1,5 +1,5 @@
 ---
-Description: Requests to get the contents of a texture as a .DDS (DirectDraw Surface) file.
+description: Requests to get the contents of a texture as a .DDS (DirectDraw Surface) file.
 MS-HAID: vspixengine.ITextureRequest\_RequestAsync\_EventID\_DWORD\_BSTR\_ITextureCallback\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

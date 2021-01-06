@@ -1,5 +1,5 @@
 ---
-Description: Returns the average bits per second of the encoded audio.
+description: Returns the average bits per second of the encoded audio.
 ms.assetid: c90c9247-825f-4602-bb16-809969703a98
 title: AVEncStatAudioAverageBPS property (Codecapi.h)
 ms.topic: reference

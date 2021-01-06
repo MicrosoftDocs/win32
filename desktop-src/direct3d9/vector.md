@@ -1,5 +1,5 @@
 ---
-Description: Defines a vector.
+description: Defines a vector.
 ms.assetid: 'vs|directx_sdk|~\vector.htm'
 title: Vector (Frquery.h)
 ms.topic: article

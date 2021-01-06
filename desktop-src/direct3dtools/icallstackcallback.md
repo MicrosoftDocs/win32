@@ -1,5 +1,5 @@
 ---
-Description: Callback to return callstack data.
+description: Callback to return callstack data.
 MS-HAID: vspixengine.ICallStackCallback
 MSHAttr:
 - PreferredSiteName:MSDN

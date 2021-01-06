@@ -1,5 +1,5 @@
 ---
-Description: Callback to update the contents of an object.
+description: Callback to update the contents of an object.
 MS-HAID: vspixengine.IUpdateObjectCallback
 MSHAttr:
 - PreferredSiteName:MSDN

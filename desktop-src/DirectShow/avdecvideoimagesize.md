@@ -1,5 +1,5 @@
 ---
-Description: Gets the size of the decoded image, in pixels.
+description: Gets the size of the decoded image, in pixels.
 ms.assetid: 2F0DD10F-CF7A-4A6F-91A9-E3828DF2B947
 title: AVDecVideoImageSize property (Codecapi.h)
 ms.topic: reference

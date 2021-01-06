@@ -1,5 +1,5 @@
 ---
-Description: Apps can't render in stereo unless the operating system indicates that it enables stereoscopic 3D display behavior. Apps determine whether to render in stereoscopic 3D differently depending on whether they are windowed or full screen.
+description: Apps can't render in stereo unless the operating system indicates that it enables stereoscopic 3D display behavior. Apps determine whether to render in stereoscopic 3D differently depending on whether they are windowed or full screen.
 ms.assetid: FB8AC57E-38DD-47B5-8666-1F4B73488F8B
 title: Rendering in stereo and notifying about stereo status
 ms.topic: article

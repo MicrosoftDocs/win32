@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the original source of the input video was film or video.
+description: Specifies whether the original source of the input video was film or video.
 ms.assetid: 21b0449b-eed0-4879-a938-a7b01b349f22
 title: AVEncVideoSourceFilmContent property (Codecapi.h)
 ms.topic: reference

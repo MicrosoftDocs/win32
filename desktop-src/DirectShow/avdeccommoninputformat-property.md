@@ -1,5 +1,5 @@
 ---
-Description: Specifies the current input format for the decoder.
+description: Specifies the current input format for the decoder.
 ms.assetid: 8fddf8c3-268e-4706-9003-e4bfb03d5278
 title: AVDecCommonInputFormat property (Codecapi.h)
 ms.topic: reference

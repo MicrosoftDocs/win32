@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host that all requests have been cancelled.
+description: A callback that notifies the host that all requests have been cancelled.
 MS-HAID: vspixengine.INewFramesCallback\_CancelAll
 MSHAttr:
 - PreferredSiteName:MSDN

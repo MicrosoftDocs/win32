@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the size of the binary data. Deprecated.
+description: Retrieves the size of the binary data. Deprecated.
 ms.assetid: 99a74043-ce87-4545-961f-dade54e77735
 title: IDirectXFileBinary::GetSize method (DXFile.h)
 ms.topic: reference

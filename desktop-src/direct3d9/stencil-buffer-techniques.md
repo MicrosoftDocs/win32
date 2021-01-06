@@ -1,5 +1,5 @@
 ---
-Description: Applications use the stencil buffer to mask pixels in an image. The mask controls whether the pixel is drawn or not. Some of the more common effects are shown below.
+description: Applications use the stencil buffer to mask pixels in an image. The mask controls whether the pixel is drawn or not. Some of the more common effects are shown below.
 ms.assetid: 984f0a98-4a74-44c3-a9d0-f5d3f12f7e4e
 title: Stencil Buffer Techniques (Direct3D 9)
 ms.topic: article

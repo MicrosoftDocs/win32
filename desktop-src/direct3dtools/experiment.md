@@ -1,5 +1,5 @@
 ---
-Description: Represents information about an experiment (capture).
+description: Represents information about an experiment (capture).
 MS-HAID: vspixengine.Experiment
 MSHAttr:
 - PreferredSiteName:MSDN

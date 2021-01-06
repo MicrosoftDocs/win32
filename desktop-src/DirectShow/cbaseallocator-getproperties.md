@@ -1,5 +1,5 @@
 ---
-Description: The GetProperties method retrieves the number of buffers that the allocator will create, and the buffer properties. This method implements the IMemAllocator::GetProperties method.
+description: The GetProperties method retrieves the number of buffers that the allocator will create, and the buffer properties. This method implements the IMemAllocator::GetProperties method.
 ms.assetid: ccee4d69-52fc-4e3c-b6a4-787914708be4
 title: CBaseAllocator.GetProperties method (Amfilter.h)
 ms.topic: reference

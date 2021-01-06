@@ -1,5 +1,5 @@
 ---
-Description: Specifies the width and height of the encoded video, if the video is cropped.
+description: Specifies the width and height of the encoded video, if the video is cropped.
 ms.assetid: d6217250-63ff-4dff-a357-ff4aaa764695
 title: AVEncVideoEncodeDimension property (Codecapi.h)
 ms.topic: reference

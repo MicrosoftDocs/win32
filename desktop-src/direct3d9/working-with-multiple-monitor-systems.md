@@ -1,5 +1,5 @@
 ---
-Description: The concept of exclusive full-screen mode is retained in Direct3D 9, but it is kept entirely implicit in the IDirect3D9::CreateDevice and IDirect3DDevice9::Reset method calls.
+description: The concept of exclusive full-screen mode is retained in Direct3D 9, but it is kept entirely implicit in the IDirect3D9::CreateDevice and IDirect3DDevice9::Reset method calls.
 ms.assetid: c3503d62-d9f9-4eec-8af3-ebcbfe7064d4
 title: Working with Multiple Monitor Systems (Direct3D 9)
 ms.topic: article

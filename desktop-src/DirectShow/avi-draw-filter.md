@@ -1,5 +1,5 @@
 ---
-Description: AVI Draw Filter
+description: AVI Draw Filter
 ms.assetid: 86cd8e48-7cfa-46e4-b8f4-609b4d09fe80
 title: AVI Draw Filter
 ms.topic: article

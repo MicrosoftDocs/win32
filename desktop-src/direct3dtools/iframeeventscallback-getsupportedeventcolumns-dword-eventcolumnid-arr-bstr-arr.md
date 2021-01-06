@@ -1,5 +1,5 @@
 ---
-Description: Gets information about which columns (types of event data) are supported by the event list.
+description: Gets information about which columns (types of event data) are supported by the event list.
 MS-HAID: vspixengine.IFrameEventsCallback\_GetSupportedEventColumns\_DWORD\_EventColumnID\_arr\_BSTR\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

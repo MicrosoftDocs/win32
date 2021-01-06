@@ -1,5 +1,5 @@
 ---
-Description: Callback to return summary information (displayed in the properties window).
+description: Callback to return summary information (displayed in the properties window).
 MS-HAID: vspixengine.ISummaryCallback
 MSHAttr:
 - PreferredSiteName:MSDN

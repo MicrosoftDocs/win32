@@ -1,5 +1,5 @@
 ---
-Description: Pure virtual method that derived classes override.
+description: Pure virtual method that derived classes override.
 ms.assetid: 05c73f6b-27f4-4930-b4d5-1688b6bf1791
 title: CBaseControlVideo.GetStaticImage method (Ctlutil.h)
 ms.topic: reference

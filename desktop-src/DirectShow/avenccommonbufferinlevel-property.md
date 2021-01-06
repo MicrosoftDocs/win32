@@ -1,5 +1,5 @@
 ---
-Description: Specifies the initial level of the encoding buffer, in bits. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.
+description: Specifies the initial level of the encoding buffer, in bits. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.
 ms.assetid: 92ec9483-443e-4723-8795-9bf847c36131
 title: AVEncCommonBufferInLevel property (Codecapi.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Callback to returns offline analysis data.
+description: Callback to returns offline analysis data.
 MS-HAID: vspixengine.IOfflineAnalysisCallback
 MSHAttr:
 - PreferredSiteName:MSDN

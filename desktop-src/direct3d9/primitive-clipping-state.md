@@ -1,5 +1,5 @@
 ---
-Description: Primitives that lie partially inside (or completely outside) the view frustum can be clipped so that only the visible portion of the primitive will be rendered.
+description: Primitives that lie partially inside (or completely outside) the view frustum can be clipped so that only the visible portion of the primitive will be rendered.
 ms.assetid: 096683a4-2d8f-49d3-b1a0-832150907f11
 title: Primitive Clipping State (Direct3D 9)
 ms.topic: article

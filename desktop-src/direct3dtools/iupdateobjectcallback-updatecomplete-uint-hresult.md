@@ -1,5 +1,5 @@
 ---
-Description: A callback used to notify the host that an object was updated.
+description: A callback used to notify the host that an object was updated.
 MS-HAID: vspixengine.IUpdateObjectCallback\_UpdateComplete\_UINT\_HRESULT
 MSHAttr:
 - PreferredSiteName:MSDN

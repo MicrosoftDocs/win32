@@ -1,5 +1,5 @@
 ---
-Description: Not used.
+description: Not used.
 MS-HAID: vspixengine.IPixEngine\_SetParentProcess\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

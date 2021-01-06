@@ -1,5 +1,5 @@
 ---
-Description: This section contains info about the structures provided by DXGI.
+description: This section contains info about the structures provided by DXGI.
 ms.assetid: 22e98880-bcd1-448a-9223-604fff9173fe
 title: DXGI Structures
 ms.topic: article

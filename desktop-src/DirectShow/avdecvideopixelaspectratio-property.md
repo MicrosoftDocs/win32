@@ -1,5 +1,5 @@
 ---
-Description: Specifies the pixel aspect ratio of the decoded video stream.
+description: Specifies the pixel aspect ratio of the decoded video stream.
 ms.assetid: 07689d15-3e46-45f7-bdd5-ae51308ddbce
 title: AVDecVideoPixelAspectRatio property (Codecapi.h)
 ms.topic: reference

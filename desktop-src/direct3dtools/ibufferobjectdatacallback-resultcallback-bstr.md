@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host of buffer information written to a file by the assocaited request.
+description: A callback that notifies the host of buffer information written to a file by the assocaited request.
 MS-HAID: vspixengine.IBufferObjectDataCallback\_ResultCallback\_BSTR
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the chroma quantization matrix for intra macroblocks. This property applies to MPEG video encoders.
+description: Specifies the chroma quantization matrix for intra macroblocks. This property applies to MPEG video encoders.
 ms.assetid: 9da6130f-c064-4b6b-b0ab-ba99118fd249
 title: AVEncMPVQuantMatrixChromaIntra property (Codecapi.h)
 ms.topic: reference

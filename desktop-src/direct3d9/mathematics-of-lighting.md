@@ -1,5 +1,5 @@
 ---
-Description: The Direct3D Light Model covers ambient, diffuse, specular, and emissive lighting.
+description: The Direct3D Light Model covers ambient, diffuse, specular, and emissive lighting.
 ms.assetid: cf870c89-4be0-4b95-92aa-ec7bcdc6d9dd
 title: Mathematics of Lighting (Direct3D 9)
 ms.topic: article

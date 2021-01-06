@@ -1,5 +1,5 @@
 ---
-Description: You can enhance the perceived speed of an object in a 3D scene by blurring the object and leaving a blurred trail of object images behind the object. Direct3D applications accomplish this by rendering the object multiple times per frame.
+description: You can enhance the perceived speed of an object in a 3D scene by blurring the object and leaving a blurred trail of object images behind the object. Direct3D applications accomplish this by rendering the object multiple times per frame.
 ms.assetid: 8b1a1f0d-5857-4ab4-828c-8ca7c17a4890
 title: Motion Blur (Direct3D 9)
 ms.topic: article

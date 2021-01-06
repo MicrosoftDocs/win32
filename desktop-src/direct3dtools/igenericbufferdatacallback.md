@@ -1,5 +1,5 @@
 ---
-Description: Callback to return the contents of an object in XML form.
+description: Callback to return the contents of an object in XML form.
 MS-HAID: vspixengine.IGenericBufferDataCallback
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: Obsolete. Use AMovieSetupRegisterFilter2 instead.
+description: Obsolete. Use AMovieSetupRegisterFilter2 instead.
 ms.assetid: 42278829-d09e-46c7-8f1a-fa4572f7cc00
 title: AMovieSetupRegisterFilter function (Dllsetup.h)
 ms.topic: reference

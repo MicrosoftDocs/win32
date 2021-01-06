@@ -1,5 +1,5 @@
 ---
-Description: The SetTargetRect method sets the current target rectangle (pure virtual). This is an internal member function that gets called when the destination rectangle changes.
+description: The SetTargetRect method sets the current target rectangle (pure virtual). This is an internal member function that gets called when the destination rectangle changes.
 ms.assetid: 9e48989d-5995-4f9d-82b2-01229473c3e8
 title: CBaseControlVideo.SetTargetRect method (Ctlutil.h)
 ms.topic: reference

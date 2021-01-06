@@ -1,5 +1,5 @@
 ---
-Description: This section provides the reference specifications for Direct Manipulation constants.
+description: This section provides the reference specifications for Direct Manipulation constants.
 ms.assetid: 41A828F5-4AE3-4073-89EB-CC1279B9ECED
 title: Direct Manipulation Constants
 ms.topic: article

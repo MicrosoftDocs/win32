@@ -1,5 +1,5 @@
 ---
-Description: Gets the sample rate of the audio bit stream, in samples per seconds.
+description: Gets the sample rate of the audio bit stream, in samples per seconds.
 ms.assetid: 9819d6bb-751b-4b47-aa2d-23d7f86c1d3d
 title: AVAudioSampleRate property (Codecapi.h)
 ms.topic: reference

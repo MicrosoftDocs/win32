@@ -1,5 +1,5 @@
 ---
-Description: AmCap Sample
+description: AmCap Sample
 ms.assetid: 611b252f-1ae0-439e-ba02-8ad9bb8cec6d
 title: AmCap Sample
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Critical section that locks the thread from being accessed by other threads.
+description: Critical section that locks the thread from being accessed by other threads.
 ms.assetid: 9bc360be-52d6-4db1-b384-8bc9e25c0914
 title: CAMThread::m_AccessLock member (Wxutil.h)
 ms.topic: reference

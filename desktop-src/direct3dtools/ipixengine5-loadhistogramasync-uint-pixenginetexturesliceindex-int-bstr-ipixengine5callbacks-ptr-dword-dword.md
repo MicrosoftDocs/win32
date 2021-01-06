@@ -1,5 +1,5 @@
 ---
-Description: An asynchronous request to load histogram data.
+description: An asynchronous request to load histogram data.
 MS-HAID: vspixengine.IPixEngine5\_LoadHistogramAsync\_UINT\_PixEngineTextureSliceIndex\_int\_BSTR\_IPixEngine5Callbacks\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host of a canceled request.
+description: A callback that notifies the host of a canceled request.
 MS-HAID: vspixengine.INewFramesCallback\_CancelUsingCallback\_IUnknown\_ptr
 MSHAttr:
 - PreferredSiteName:MSDN

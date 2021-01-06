@@ -1,5 +1,5 @@
 ---
-Description: Represents information about a frame on the callstack.
+description: Represents information about a frame on the callstack.
 MS-HAID: vspixengine.CallStackFrame
 MSHAttr:
 - PreferredSiteName:MSDN

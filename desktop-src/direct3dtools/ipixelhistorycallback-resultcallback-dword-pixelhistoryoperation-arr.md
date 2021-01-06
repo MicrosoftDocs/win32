@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host of pixel history request results.
+description: A callback that notifies the host of pixel history request results.
 MS-HAID: vspixengine.IPixelHistoryCallback\_ResultCallback\_DWORD\_PixelHistoryOperation\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

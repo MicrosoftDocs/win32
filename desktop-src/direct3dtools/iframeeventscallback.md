@@ -1,5 +1,5 @@
 ---
-Description: Callback to return the list of events in a frame.
+description: Callback to return the list of events in a frame.
 MS-HAID: vspixengine.IFrameEventsCallback
 MSHAttr:
 - PreferredSiteName:MSDN

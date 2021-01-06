@@ -1,5 +1,5 @@
 ---
-Description: Used in a mesh object to specify which material applies to which faces. The nMaterials member specifies how many materials are present, and materials specify which material to apply.
+description: Used in a mesh object to specify which material applies to which faces. The nMaterials member specifies how many materials are present, and materials specify which material to apply.
 ms.assetid: b38fd445-1a31-41ed-abbe-084abfe1c221
 title: MeshMaterialList
 ms.topic: reference

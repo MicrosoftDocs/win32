@@ -1,5 +1,5 @@
 ---
-Description: Registers custom templates. Deprecated.
+description: Registers custom templates. Deprecated.
 ms.assetid: f9b24800-83a5-45bf-b19f-b247c88a2c2c
 title: IDirectXFile::RegisterTemplates method (DXFile.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Access to DirectDraw Surfaces
+description: Access to DirectDraw Surfaces
 ms.assetid: 21002c9f-8b8b-49f3-9ea3-3703780e3412
 title: Access to DirectDraw Surfaces
 ms.topic: article

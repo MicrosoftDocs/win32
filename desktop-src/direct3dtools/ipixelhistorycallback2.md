@@ -1,5 +1,5 @@
 ---
-Description: Callback to return pixel history intersections (draw call level) and primitives (triangle level) in two different results.
+description: Callback to return pixel history intersections (draw call level) and primitives (triangle level) in two different results.
 MS-HAID: vspixengine.IPixelHistoryCallback2
 MSHAttr:
 - PreferredSiteName:MSDN

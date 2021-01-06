@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host of Mesh information written by the associated request.
+description: A callback that notifies the host of Mesh information written by the associated request.
 MS-HAID: vspixengine.IPipeLineStagesCallback3\_MeshFileReadyCallback\_BSTR
 MSHAttr:
 - PreferredSiteName:MSDN

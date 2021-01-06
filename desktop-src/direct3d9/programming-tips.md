@@ -1,5 +1,5 @@
 ---
-Description: This section contains information to help you develop DirectX Graphics applications efficiently. The following topics are covered.
+description: This section contains information to help you develop DirectX Graphics applications efficiently. The following topics are covered.
 ms.assetid: c6d60ae3-50ed-4dd6-b766-c9b0c8a78533
 title: Programming Tips (Direct3D 9)
 ms.topic: article

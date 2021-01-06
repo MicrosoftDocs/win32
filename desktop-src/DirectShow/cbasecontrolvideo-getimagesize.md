@@ -1,5 +1,5 @@
 ---
-Description: The GetImageSize method retrieves video image size information.
+description: The GetImageSize method retrieves video image size information.
 ms.assetid: a6d7f949-c6a9-49e9-b10a-f6f5bd73dc00
 title: CBaseControlVideo.GetImageSize method (Ctlutil.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The GetWindowPosition method retrieves the current coordinates for the window.
+description: The GetWindowPosition method retrieves the current coordinates for the window.
 ms.assetid: a2f46a87-b2cd-450f-8d2b-0f8695432fda
 title: CBaseControlWindow.GetWindowPosition method (Ctlutil.h)
 ms.topic: reference

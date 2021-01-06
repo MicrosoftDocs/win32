@@ -1,5 +1,5 @@
 ---
-Description: The IsCursorHidden method retrieves the current state of the m\_bCursorHidden data member.
+description: The IsCursorHidden method retrieves the current state of the m\_bCursorHidden data member.
 ms.assetid: 4b97b89d-876a-470c-ac41-a88fecb52b2d
 title: CBaseControlWindow.IsCursorHidden method (Ctlutil.h)
 ms.topic: reference

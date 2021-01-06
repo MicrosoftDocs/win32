@@ -1,5 +1,5 @@
 ---
-Description: Request for a buffer containing the mesh of a pipeline stage.
+description: Request for a buffer containing the mesh of a pipeline stage.
 MS-HAID: vspixengine.IMeshRequest
 MSHAttr:
 - PreferredSiteName:MSDN

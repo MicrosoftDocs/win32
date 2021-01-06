@@ -1,5 +1,5 @@
 ---
-Description: This topic provides developer guidance on how to maximize performance and efficiency in the presentation stack on modern versions of Windows.
+description: This topic provides developer guidance on how to maximize performance and efficiency in the presentation stack on modern versions of Windows.
 ms.assetid: B6B92F4F-B1D0-40B9-987D-F0C0F2CC7AD1
 title: For best performance, use DXGI flip model
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host of framebuffer information returned by the associated request.
+description: A callback that notifies the host of framebuffer information returned by the associated request.
 MS-HAID: vspixengine.IFrameBufferCallback\_ResultCallback\_DWORD\_DWORD\_DWORD\_DWORD\_double\_DWORD\_BYTE\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

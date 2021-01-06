@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host of pixel history intersection information returned by the assocaited request.
+description: A callback that notifies the host of pixel history intersection information returned by the assocaited request.
 MS-HAID: vspixengine.IPixelHistoryCallback2\_IntersectionsCallback\_DWORD\_PixelHistoryIntersection\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

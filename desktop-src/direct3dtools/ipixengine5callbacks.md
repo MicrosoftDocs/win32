@@ -1,5 +1,5 @@
 ---
-Description: Callbacks used for viewing textures.
+description: Callbacks used for viewing textures.
 MS-HAID: vspixengine.IPixEngine5Callbacks
 MSHAttr:
 - PreferredSiteName:MSDN

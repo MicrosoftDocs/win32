@@ -1,5 +1,5 @@
 ---
-Description: Specifies the video system of the source content.
+description: Specifies the video system of the source content.
 ms.assetid: a4ad7ca2-bab0-42f7-a098-a5ff6853b109
 title: AVEncInputVideoSystem property (Codecapi.h)
 ms.topic: reference

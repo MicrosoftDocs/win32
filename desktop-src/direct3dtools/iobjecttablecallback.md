@@ -1,5 +1,5 @@
 ---
-Description: Callback to return object table data.
+description: Callback to return object table data.
 MS-HAID: vspixengine.IObjectTableCallback
 MSHAttr:
 - PreferredSiteName:MSDN

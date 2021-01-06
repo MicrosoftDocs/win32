@@ -1,5 +1,5 @@
 ---
-Description: Requests to return generic object data that describes an object in the .vsglog file for the specified event and in the specified format.
+description: Requests to return generic object data that describes an object in the .vsglog file for the specified event and in the specified format.
 MS-HAID: vspixengine.IGenericBufferDataRequest\_RequestAsync\_DumperType\_EventID\_DWORD\_IGenericBufferDataCallback\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

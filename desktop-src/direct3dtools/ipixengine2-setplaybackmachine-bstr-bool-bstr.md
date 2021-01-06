@@ -1,5 +1,5 @@
 ---
-Description: Sets the current playback machine for the specified graphics log.
+description: Sets the current playback machine for the specified graphics log.
 MS-HAID: vspixengine.IPixEngine2\_SetPlaybackMachine\_BSTR\_BOOL\_BSTR
 MSHAttr:
 - PreferredSiteName:MSDN

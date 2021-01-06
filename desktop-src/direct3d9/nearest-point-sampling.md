@@ -1,5 +1,5 @@
 ---
-Description: Applications are not required to use texture filtering.
+description: Applications are not required to use texture filtering.
 ms.assetid: bba0e485-ac5a-4e43-9eb7-25cd0c90d316
 title: Nearest-Point Sampling (Direct3D 9)
 ms.topic: article

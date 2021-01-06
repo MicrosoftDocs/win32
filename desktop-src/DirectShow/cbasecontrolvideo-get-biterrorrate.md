@@ -1,5 +1,5 @@
 ---
-Description: The get\_BitErrorRate method retrieves an approximate bit error rate for the video.
+description: The get\_BitErrorRate method retrieves an approximate bit error rate for the video.
 ms.assetid: 4078611c-6e09-47c8-8e1c-f33bc6ddca79
 title: CBaseControlVideo.get_BitErrorRate method (Ctlutil.h)
 ms.topic: reference

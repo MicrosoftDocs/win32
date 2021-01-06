@@ -1,5 +1,5 @@
 ---
-Description: Request for updating the contents of an object.
+description: Request for updating the contents of an object.
 MS-HAID: vspixengine.IUpdateObject
 MSHAttr:
 - PreferredSiteName:MSDN

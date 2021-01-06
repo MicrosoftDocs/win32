@@ -1,5 +1,5 @@
 ---
-Description: Specifies the rate control mode.
+description: Specifies the rate control mode.
 ms.assetid: 4a0d49b1-30da-4ebe-abff-3fceef6dd94a
 title: AVEncCommonRateControlMode property (Codecapi.h)
 ms.topic: reference

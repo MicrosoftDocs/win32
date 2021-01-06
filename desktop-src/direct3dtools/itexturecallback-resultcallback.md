@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host that the .DDS (DirectDraw Surface) file containing results from the associated request are ready.
+description: A callback that notifies the host that the .DDS (DirectDraw Surface) file containing results from the associated request are ready.
 MS-HAID: vspixengine.ITextureCallback\_ResultCallback
 MSHAttr:
 - PreferredSiteName:MSDN
