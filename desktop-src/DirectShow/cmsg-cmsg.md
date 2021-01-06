@@ -1,5 +1,5 @@
 ---
-Description: Constructs a CMsg object.
+description: Constructs a CMsg object.
 ms.assetid: b7ee0643-73e4-450d-bff4-ca5006fdcc14
 title: CMsg.CMsg constructor (Msgthrd.h)
 ms.topic: reference

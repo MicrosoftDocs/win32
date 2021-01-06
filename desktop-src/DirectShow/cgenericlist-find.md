@@ -1,5 +1,5 @@
 ---
-Description: The Find method retrieves the first position that holds the specified item.
+description: The Find method retrieves the first position that holds the specified item.
 ms.assetid: 8e2a3e5d-96e6-4f40-8e2a-4dc8c21088cd
 title: CGenericList.Find method (Wxlist.h)
 ms.topic: reference

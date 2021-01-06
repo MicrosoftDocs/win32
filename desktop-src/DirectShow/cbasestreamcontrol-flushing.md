@@ -1,5 +1,5 @@
 ---
-Description: The Flushing method notifies the base class that the pin has started or stopped flushing.
+description: The Flushing method notifies the base class that the pin has started or stopped flushing.
 ms.assetid: a3c000e1-18a1-48f7-9e2e-fe63cf13fc5c
 title: CBaseStreamControl.Flushing method (Strmctl.h)
 ms.topic: reference

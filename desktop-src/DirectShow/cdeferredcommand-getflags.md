@@ -1,5 +1,5 @@
 ---
-Description: The GetFlags method retrieves the context flags associated with the deferred command.
+description: The GetFlags method retrieves the context flags associated with the deferred command.
 ms.assetid: 3a96299a-b157-419b-a23e-86241e10566f
 title: CDeferredCommand.GetFlags method (Ctlutil.h)
 ms.topic: reference

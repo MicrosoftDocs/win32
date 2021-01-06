@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: Constructor method.
 ms.assetid: 35138496-9ffd-4286-8a81-aba187dc8afa
 title: CPullPin.CPullPin constructor (Pullpin.h)
 ms.topic: reference

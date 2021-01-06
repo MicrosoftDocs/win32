@@ -1,5 +1,5 @@
 ---
-Description: The CDrawImage method is a constructor method.
+description: The CDrawImage method is a constructor method.
 ms.assetid: 654e0b82-2e4f-42e9-8ab5-dcb438e67332
 title: CDrawImage.CDrawImage constructor (Winutil.h)
 ms.topic: reference

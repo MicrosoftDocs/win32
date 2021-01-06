@@ -1,5 +1,5 @@
 ---
-Description: This operator assigns a new reference time.
+description: This operator assigns a new reference time.
 ms.assetid: ae6a33ab-f4e0-4f1c-80a0-8a25ee1e9dc5
 title: COARefTime.operator= method (Ctlutil.h)
 ms.topic: reference

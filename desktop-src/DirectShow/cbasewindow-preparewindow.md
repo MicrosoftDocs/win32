@@ -1,5 +1,5 @@
 ---
-Description: The PrepareWindow method creates the window.
+description: The PrepareWindow method creates the window.
 ms.assetid: c4c0d177-6351-4ecc-b1eb-399b4a94c463
 title: CBaseWindow.PrepareWindow method (Winutil.h)
 ms.topic: reference

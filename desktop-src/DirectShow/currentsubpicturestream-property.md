@@ -1,5 +1,5 @@
 ---
-Description: The CurrentSubpictureStream property sets or retrieves the current subpicture stream.
+description: The CurrentSubpictureStream property sets or retrieves the current subpicture stream.
 ms.assetid: 66473c87-ddfe-4555-89ad-90e210a75694
 title: CurrentSubpictureStream Property
 ms.topic: reference

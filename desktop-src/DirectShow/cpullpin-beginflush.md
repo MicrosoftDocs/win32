@@ -1,5 +1,5 @@
 ---
-Description: The BeginFlush method informs the owning filter to flush the downstream filters. The derived class must implement this method.
+description: The BeginFlush method informs the owning filter to flush the downstream filters. The derived class must implement this method.
 ms.assetid: 612f230c-7f23-42cf-b565-344fae0b6f9a
 title: CPullPin.BeginFlush method (Pullpin.h)
 ms.topic: reference

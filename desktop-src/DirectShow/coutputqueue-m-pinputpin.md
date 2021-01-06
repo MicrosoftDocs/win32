@@ -1,5 +1,5 @@
 ---
-Description: Pointer to the input pin's IMemInputPin interface.
+description: Pointer to the input pin's IMemInputPin interface.
 ms.assetid: 59383b5d-cfd2-40ae-9075-c55aa20139ae
 title: COutputQueue::m_pInputPin member (Outputq.h)
 ms.topic: reference

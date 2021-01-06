@@ -1,5 +1,5 @@
 ---
-Description: The EndOfStream method notifies the filter that no additional data is expected from the input pin.
+description: The EndOfStream method notifies the filter that no additional data is expected from the input pin.
 ms.assetid: b8fc3976-e3d4-4f16-82b0-3900ad6a740c
 title: CTransformFilter.EndOfStream method (Transfrm.h)
 ms.topic: reference

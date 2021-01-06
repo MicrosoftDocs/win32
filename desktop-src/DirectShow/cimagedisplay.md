@@ -1,5 +1,5 @@
 ---
-Description: The CImageDisplay class is a helper class for GDI video renderers to manage the display format.
+description: The CImageDisplay class is a helper class for GDI video renderers to manage the display format.
 ms.assetid: c9221e5c-30c6-489a-89d7-132203314dc8
 title: CImageDisplay class (Winutil.h)
 ms.topic: reference

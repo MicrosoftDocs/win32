@@ -1,5 +1,5 @@
 ---
-Description: The GetPinCount method retrieves the number of pins on the filter. This method implements the pure virtual CBaseFilter::GetPinCount method.
+description: The GetPinCount method retrieves the number of pins on the filter. This method implements the pure virtual CBaseFilter::GetPinCount method.
 ms.assetid: 42000814-daee-4f7b-96d2-e09a21fde8cd
 title: CSource.GetPinCount method (Source.h)
 ms.topic: reference

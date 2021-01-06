@@ -1,5 +1,5 @@
 ---
-Description: Boolean value that specifies whether to trace this lock.
+description: Boolean value that specifies whether to trace this lock.
 ms.assetid: 23417410-cfdc-426e-a662-7d6580b43a28
 title: CCritSec::m_fTrace member (Wxutil.h)
 ms.topic: reference

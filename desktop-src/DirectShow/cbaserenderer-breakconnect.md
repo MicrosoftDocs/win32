@@ -1,5 +1,5 @@
 ---
-Description: The BreakConnect method releases the input pin from a connection.
+description: The BreakConnect method releases the input pin from a connection.
 ms.assetid: e295cec1-8c8f-471c-8832-075ac7708cb1
 title: CBaseRenderer.BreakConnect method (Renbase.h)
 ms.topic: reference

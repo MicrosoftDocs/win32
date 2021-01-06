@@ -1,5 +1,5 @@
 ---
-Description: The AddHeadI method adds an item to the front of the list.
+description: The AddHeadI method adds an item to the front of the list.
 ms.assetid: d83b3c5e-2c6d-4369-a74d-18bf19cfd34d
 title: CBaseList.AddHeadI method (Wxlist.h)
 ms.topic: reference

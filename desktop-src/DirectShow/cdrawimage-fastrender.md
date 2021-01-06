@@ -1,5 +1,5 @@
 ---
-Description: The FastRender method draws the video image using the BitBlt or StretchBlt functions.
+description: The FastRender method draws the video image using the BitBlt or StretchBlt functions.
 ms.assetid: 8bbc96ce-393f-46fb-bf90-61d3ce0ef0d6
 title: CDrawImage.FastRender method (Winutil.h)
 ms.topic: reference

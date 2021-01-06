@@ -1,5 +1,5 @@
 ---
-Description: The Stop method signals the streaming thread to stop.
+description: The Stop method signals the streaming thread to stop.
 ms.assetid: 79bc528a-cf53-43f3-aa17-c459063c99ab
 title: CSourceStream.Stop method (Source.h)
 ms.topic: reference

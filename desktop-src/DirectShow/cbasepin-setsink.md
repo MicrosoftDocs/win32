@@ -1,5 +1,5 @@
 ---
-Description: The SetSink method sets an external quality manager. This method implements the IQualityControl::SetSink method.
+description: The SetSink method sets an external quality manager. This method implements the IQualityControl::SetSink method.
 ms.assetid: 714e6839-954e-4231-824d-72a45f270f59
 title: CBasePin.SetSink method (Amfilter.h)
 ms.topic: reference

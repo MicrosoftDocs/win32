@@ -1,5 +1,5 @@
 ---
-Description: The Inactive method shuts down the worker thread that pulls data from the output pin. This method also decommits the allocator.
+description: The Inactive method shuts down the worker thread that pulls data from the output pin. This method also decommits the allocator.
 ms.assetid: 90b91686-b9a8-4196-b559-de924334f11c
 title: CPullPin.Inactive method (Pullpin.h)
 ms.topic: reference

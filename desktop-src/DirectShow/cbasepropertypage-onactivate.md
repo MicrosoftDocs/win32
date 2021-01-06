@@ -1,5 +1,5 @@
 ---
-Description: The OnActivate method is called when the property page is activated.
+description: The OnActivate method is called when the property page is activated.
 ms.assetid: aff843d4-cfb2-4255-a59c-0579f1cd24bd
 title: CBasePropertyPage.OnActivate method (Cprop.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The m\_hwnd member variable contains a handle to the dialog window. This member variable is initialized after the object creates the dialog window, when the CreateDialogParam function returns.
+description: The m\_hwnd member variable contains a handle to the dialog window. This member variable is initialized after the object creates the dialog window, when the CreateDialogParam function returns.
 ms.assetid: f985c06f-a1f9-458b-b9f3-cabe9f583313
 title: CBasePropertyPage::m_hwnd member (Cprop.h)
 ms.topic: reference

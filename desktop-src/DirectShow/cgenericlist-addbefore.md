@@ -1,5 +1,5 @@
 ---
-Description: The AddBefore method inserts an item before the specified position.
+description: The AddBefore method inserts an item before the specified position.
 ms.assetid: ec10fd08-6bb9-4357-830c-78b3d3a32e03
 title: CGenericList.AddBefore method (Wxlist.h)
 ms.topic: reference

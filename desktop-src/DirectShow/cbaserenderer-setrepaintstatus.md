@@ -1,5 +1,5 @@
 ---
-Description: The SetRepaintStatus method enables or disables repaint events.
+description: The SetRepaintStatus method enables or disables repaint events.
 ms.assetid: 94ae4935-459e-4009-9f64-c7c5b14504ae
 title: CBaseRenderer.SetRepaintStatus method (Renbase.h)
 ms.topic: reference

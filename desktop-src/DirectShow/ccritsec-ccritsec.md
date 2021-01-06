@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: Constructor method.
 ms.assetid: e8e9138a-6c39-41de-a7f8-d9e9c4fe5ab6
 title: CCritSec.CCritSec constructor (Wxutil.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The ReadOnly method indicates whether the input stream is read-only.
+description: The ReadOnly method indicates whether the input stream is read-only.
 ms.assetid: 25b8230d-be2b-4129-a1aa-f6b36e95199e
 title: CTransInPlaceInputPin.ReadOnly method (Transip.h)
 ms.topic: reference

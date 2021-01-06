@@ -1,5 +1,5 @@
 ---
-Description: The SetTimeDelta method adjusts the internal clock time.
+description: The SetTimeDelta method adjusts the internal clock time.
 ms.assetid: 51534c92-5573-4e2a-baeb-b1a82ccf88de
 title: CBaseReferenceClock.SetTimeDelta method (Refclock.h)
 ms.topic: reference

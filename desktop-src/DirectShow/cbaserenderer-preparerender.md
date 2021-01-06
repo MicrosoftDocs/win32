@@ -1,5 +1,5 @@
 ---
-Description: The PrepareRender method is called before the filter renders a sample.
+description: The PrepareRender method is called before the filter renders a sample.
 ms.assetid: 0b137da9-eac0-469f-b457-719a36569c82
 title: CBaseRenderer.PrepareRender method (Renbase.h)
 ms.topic: reference

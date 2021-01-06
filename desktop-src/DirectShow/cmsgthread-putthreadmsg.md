@@ -1,5 +1,5 @@
 ---
-Description: Queues a request for execution by the worker thread.
+description: Queues a request for execution by the worker thread.
 ms.assetid: a854f962-143d-4776-bf98-119d003867df
 title: CMsgThread.PutThreadMsg method (Msgthrd.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: Constructor method.
 ms.assetid: 672c0337-0c36-4f53-9125-d02fe8b36b1c
 title: COutputQueue.COutputQueue constructor (Outputq.h)
 ms.topic: reference

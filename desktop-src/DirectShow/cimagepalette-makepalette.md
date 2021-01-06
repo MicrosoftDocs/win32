@@ -1,5 +1,5 @@
 ---
-Description: The MakePalette method creates a logical palette from the color table in a video format.
+description: The MakePalette method creates a logical palette from the color table in a video format.
 ms.assetid: f158e529-d683-4210-818d-21a834fc7683
 title: CImagePalette.MakePalette method (Winutil.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The IncremementPinVersion method increments the version number on the set of pins.
+description: The IncremementPinVersion method increments the version number on the set of pins.
 ms.assetid: e1b3ec33-104d-4a12-9b11-f8bea09690a7
 title: CBaseFilter.IncrementPinVersion method (Amfilter.h)
 ms.topic: reference

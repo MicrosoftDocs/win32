@@ -1,5 +1,5 @@
 ---
-Description: The CheckStreamState method determines whether a media sample should be delivered or discarded.
+description: The CheckStreamState method determines whether a media sample should be delivered or discarded.
 ms.assetid: 1533f4b9-e13e-458b-9614-96d733cef4ed
 title: CBaseStreamControl.CheckStreamState method (Strmctl.h)
 ms.topic: reference

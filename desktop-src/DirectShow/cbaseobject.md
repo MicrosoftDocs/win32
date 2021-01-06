@@ -1,5 +1,5 @@
 ---
-Description: The CBaseObject class is an abstract class for implementing DirectShow objects. To implement Component Object Model (COM) objects, use the CUnknown class, which derives from CBaseObject.
+description: The CBaseObject class is an abstract class for implementing DirectShow objects. To implement Component Object Model (COM) objects, use the CUnknown class, which derives from CBaseObject.
 ms.assetid: 4b651d43-b177-4081-8c76-f6615ff2830c
 title: CBaseObject class (Combase.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The NotifyEndDraw method is not supported.
+description: The NotifyEndDraw method is not supported.
 ms.assetid: a71d0686-fee8-4adf-8a3b-da3854710ffd
 title: CDrawImage.NotifyEndDraw method (Winutil.h)
 ms.topic: reference

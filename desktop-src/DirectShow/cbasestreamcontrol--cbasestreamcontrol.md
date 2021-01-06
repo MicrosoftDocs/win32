@@ -1,5 +1,5 @@
 ---
-Description: Destructor method.
+description: Destructor method.
 ms.assetid: 292b4e33-02e2-4325-9784-bd41893e1ff4
 title: CBaseStreamControl.~CBaseStreamControl destructor (Strmctl.h)
 ms.topic: reference

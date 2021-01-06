@@ -1,5 +1,5 @@
 ---
-Description: The Notify method receives a notification that a quality change is requested.
+description: The Notify method receives a notification that a quality change is requested.
 ms.assetid: bb9aa1c3-caef-42fb-87d2-75cc3691f64f
 title: CBaseVideoRenderer.Notify method (Renbase.h)
 ms.topic: reference

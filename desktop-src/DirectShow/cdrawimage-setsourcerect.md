@@ -1,5 +1,5 @@
 ---
-Description: The SetSourceRect method sets the source rectangle.
+description: The SetSourceRect method sets the source rectangle.
 ms.assetid: 982636fe-73ea-4f13-9f2b-7ae8df839ab1
 title: CDrawImage.SetSourceRect method (Winutil.h)
 ms.topic: reference

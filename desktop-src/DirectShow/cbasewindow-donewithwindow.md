@@ -1,5 +1,5 @@
 ---
-Description: The DoneWithWindow method destroys the window.
+description: The DoneWithWindow method destroys the window.
 ms.assetid: 03c97884-7d91-4b59-b867-dda231d2a184
 title: CBaseWindow.DoneWithWindow method (Winutil.h)
 ms.topic: reference

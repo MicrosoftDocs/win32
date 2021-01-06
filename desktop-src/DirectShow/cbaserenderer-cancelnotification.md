@@ -1,5 +1,5 @@
 ---
-Description: The CancelNotification method cancels the timer event that schedules rendering.
+description: The CancelNotification method cancels the timer event that schedules rendering.
 ms.assetid: 56ddf692-a2e3-40f2-848f-2d592601ec00
 title: CBaseRenderer.CancelNotification method (Renbase.h)
 ms.topic: reference

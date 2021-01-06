@@ -1,5 +1,5 @@
 ---
-Description: The TimerCallback method is a callback method for the end-of-stream timer event.
+description: The TimerCallback method is a callback method for the end-of-stream timer event.
 ms.assetid: ed43d07a-1ece-43ab-8753-ab14fa388946
 title: CBaseRenderer.TimerCallback method (Renbase.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The SetStretchMode method calculates whether the video image must be stretched.
+description: The SetStretchMode method calculates whether the video image must be stretched.
 ms.assetid: ffdcaf9c-e157-4557-9193-8430c1c451bf
 title: CDrawImage.SetStretchMode method (Winutil.h)
 ms.topic: reference

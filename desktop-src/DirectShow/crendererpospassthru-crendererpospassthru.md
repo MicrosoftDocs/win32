@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: Constructor method.
 ms.assetid: 9d6f40ee-31bf-4334-bee5-4be834f1f269
 title: CRendererPosPassThru.CRendererPosPassThru constructor (Ctlutil.h)
 ms.topic: reference

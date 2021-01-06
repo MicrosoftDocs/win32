@@ -1,5 +1,5 @@
 ---
-Description: The AddBeforeI method inserts an item before the specified position.
+description: The AddBeforeI method inserts an item before the specified position.
 ms.assetid: d310e303-889a-43a6-bda5-2e7b805b25d1
 title: CBaseList.AddBeforeI method (Wxlist.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The CurrentAngle property sets or retrieves the current angle in an angle block.
+description: The CurrentAngle property sets or retrieves the current angle in an angle block.
 ms.assetid: 9b18ea65-4c17-4b52-b893-b668598aec0f
 title: CurrentAngle Property
 ms.topic: reference

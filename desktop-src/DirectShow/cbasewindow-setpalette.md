@@ -1,5 +1,5 @@
 ---
-Description: The SetPalette method installs a palette for the window.
+description: The SetPalette method installs a palette for the window.
 ms.assetid: 64fa0d3a-c2eb-4e58-8b8d-c8e5ec3bb479
 title: CBaseWindow.SetPalette method (Winutil.h)
 ms.topic: reference

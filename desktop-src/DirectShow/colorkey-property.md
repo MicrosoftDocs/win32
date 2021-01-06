@@ -1,5 +1,5 @@
 ---
-Description: The ColorKey property sets or retrieves the color key used in closed captioning.
+description: The ColorKey property sets or retrieves the color key used in closed captioning.
 ms.assetid: 4d4b38e6-bd29-4e16-8f82-a5da9312d272
 title: ColorKey Property
 ms.topic: reference

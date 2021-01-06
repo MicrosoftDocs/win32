@@ -1,5 +1,5 @@
 ---
-Description: The get\_FramesDroppedInRenderer method retrieves the number of frames dropped by the renderer.
+description: The get\_FramesDroppedInRenderer method retrieves the number of frames dropped by the renderer.
 ms.assetid: d890f285-b3bb-426c-80f6-e273cf0cccbb
 title: CBaseVideoRenderer.get_FramesDroppedInRenderer method (Renbase.h)
 ms.topic: reference
