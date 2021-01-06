@@ -1,5 +1,5 @@
 ---
-Description: The Rate Change property set enables MPEG-2 source/parser filters to change the playback rate. MPEG-2 decoders should support this property set. The DVD Navigator and the Stream Buffer Engine both use this property set to control playback rates.
+description: The Rate Change property set enables MPEG-2 source/parser filters to change the playback rate. MPEG-2 decoders should support this property set. The DVD Navigator and the Stream Buffer Engine both use this property set to control playback rates.
 ms.assetid: f88c64ce-af76-49fe-8ebd-029928506243
 title: Rate Change Property Set (Dvdmedia.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Deprecated Interfaces
+description: Deprecated Interfaces
 ms.assetid: 5b798477-9b36-4f59-b9cc-2938b5e4009f
 title: Deprecated Interfaces
 ms.topic: article

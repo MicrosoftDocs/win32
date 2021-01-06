@@ -1,5 +1,5 @@
 ---
-Description: Multi-File Parser Filter
+description: Multi-File Parser Filter
 ms.assetid: 8ef06f49-fda4-49e2-9b07-70453a2e897c
 title: Multi-File Parser Filter
 ms.topic: article

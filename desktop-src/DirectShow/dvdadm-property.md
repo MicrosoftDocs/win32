@@ -1,5 +1,5 @@
 ---
-Description: The DVDAdm property provides access to the MSDVDAdm object that contains methods and properties for saving application and user information.
+description: The DVDAdm property provides access to the MSDVDAdm object that contains methods and properties for saving application and user information.
 ms.assetid: eb73a851-7118-42f3-be99-1cf356d2e37a
 title: DVDAdm Property
 ms.topic: reference

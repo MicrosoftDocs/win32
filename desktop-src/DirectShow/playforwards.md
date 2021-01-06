@@ -1,5 +1,5 @@
 ---
-Description: The PlayForwards event is sent when the PlayForwards command has been enabled or disabled.
+description: The PlayForwards event is sent when the PlayForwards command has been enabled or disabled.
 ms.assetid: '3f6ad4c8-d610-4053-bbe8-fe4fa3f45b63'
 title: PlayForwards
 ms.topic: article

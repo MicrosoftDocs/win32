@@ -1,5 +1,5 @@
 ---
-Description: Getting Buffers
+description: Getting Buffers
 ms.assetid: be61aee9-41d5-42bc-b905-d0216d301faf
 title: Getting Buffers
 ms.topic: article

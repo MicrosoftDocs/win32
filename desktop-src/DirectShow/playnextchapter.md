@@ -1,5 +1,5 @@
 ---
-Description: The PlayNextChapter event is sent when the PlayNextChapter command has been enabled or disabled.
+description: The PlayNextChapter event is sent when the PlayNextChapter command has been enabled or disabled.
 ms.assetid: 'e209a8a9-d39c-4de9-bae4-bbf1b9cace47'
 title: PlayNextChapter
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Seeking the Filter Graph
+description: Seeking the Filter Graph
 ms.assetid: 525605c8-cffa-4b2c-bd2f-eb02d3ff3e95
 title: Seeking the Filter Graph
 ms.topic: article

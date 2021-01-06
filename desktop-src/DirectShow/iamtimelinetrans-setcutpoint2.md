@@ -1,5 +1,5 @@
 ---
-Description: The SetCutPoint2 method sets the time at which the transition cuts from one source to the next, if the transition is rendered as a cut. This method is equivalent to IAMTimelineTrans::SetCutPoint, but takes a REFTIME value.
+description: The SetCutPoint2 method sets the time at which the transition cuts from one source to the next, if the transition is rendered as a cut. This method is equivalent to IAMTimelineTrans::SetCutPoint, but takes a REFTIME value.
 ms.assetid: d06d3ee7-04a2-4266-9995-bfabea24aef9
 title: IAMTimelineTrans::SetCutPoint2 method (Qedit.h)
 ms.topic: reference

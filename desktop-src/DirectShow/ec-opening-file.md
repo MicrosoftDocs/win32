@@ -1,5 +1,5 @@
 ---
-Description: The graph is opening a file, or has finished opening a file.
+description: The graph is opening a file, or has finished opening a file.
 ms.assetid: 352867e1-025f-4adb-be32-f7941c0ec8cf
 title: EC_OPENING_FILE (Dshow.h)
 ms.topic: reference

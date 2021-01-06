@@ -1,5 +1,5 @@
 ---
-Description: The VTrackGetCount method retrieves the number of virtual tracks contained in the composition.
+description: The VTrackGetCount method retrieves the number of virtual tracks contained in the composition.
 ms.assetid: a8117b06-4f42-45da-9b93-f547cb70aa5d
 title: IAMTimelineComp::VTrackGetCount method (Qedit.h)
 ms.topic: reference

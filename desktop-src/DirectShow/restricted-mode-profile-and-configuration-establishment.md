@@ -1,5 +1,5 @@
 ---
-Description: Restricted Mode Profile and Configuration Establishment
+description: Restricted Mode Profile and Configuration Establishment
 ms.assetid: 550f5413-eaa4-4530-867e-fd9b1907cadf
 title: Restricted Mode Profile and Configuration Establishment
 ms.topic: article

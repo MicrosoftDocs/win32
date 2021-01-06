@@ -1,5 +1,5 @@
 ---
-Description: Exposing Capture and Compression Formats
+description: Exposing Capture and Compression Formats
 ms.assetid: f7466cfe-b13e-4ee9-82f9-0528ed97bf99
 title: Exposing Capture and Compression Formats
 ms.topic: article

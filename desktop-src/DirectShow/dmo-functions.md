@@ -1,5 +1,5 @@
 ---
-Description: DMO Functions
+description: DMO Functions
 ms.assetid: 0a380dc0-23f0-4ef0-898a-3b5afddf5eaa
 title: DMO Functions
 ms.topic: article

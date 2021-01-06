@@ -1,5 +1,5 @@
 ---
-Description: The GetKaraokeChannelAssignment method retrieves a value that indicates how the karaoke channels are assigned to the speakers.
+description: The GetKaraokeChannelAssignment method retrieves a value that indicates how the karaoke channels are assigned to the speakers.
 ms.assetid: 08e35fa6-fa1b-4f9f-8f56-d953c4422226
 title: GetKaraokeChannelAssignment Method
 ms.topic: reference

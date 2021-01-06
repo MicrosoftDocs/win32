@@ -1,5 +1,5 @@
 ---
-Description: Receiving and Delivering Samples
+description: Receiving and Delivering Samples
 ms.assetid: 92954b40-1424-4dee-997c-fc41089b7fa5
 title: Receiving and Delivering Samples
 ms.topic: article

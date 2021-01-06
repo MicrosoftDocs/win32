@@ -1,5 +1,5 @@
 ---
-Description: Sending COPP Status Requests
+description: Sending COPP Status Requests
 ms.assetid: 9f9950ff-469f-4cea-924e-3f9471eb4838
 title: Sending COPP Status Requests
 ms.topic: article

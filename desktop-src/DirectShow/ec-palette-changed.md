@@ -1,5 +1,5 @@
 ---
-Description: The video palette has changed.
+description: The video palette has changed.
 ms.assetid: 39f36efa-fe61-4310-b7ec-1ad6ef3f29fb
 title: EC_PALETTE_CHANGED (Dshow.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The get\_OffsetX method retrieves the horizontal offset of the wipe origin.
+description: The get\_OffsetX method retrieves the horizontal offset of the wipe origin.
 ms.assetid: 0ca97bb9-9359-4098-9e80-1847da4154ec
 title: IDxtJpeg::get_OffsetX method (Qedit.h)
 ms.topic: reference

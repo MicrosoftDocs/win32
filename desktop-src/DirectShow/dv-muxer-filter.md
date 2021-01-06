@@ -1,5 +1,5 @@
 ---
-Description: DV Muxer Filter
+description: DV Muxer Filter
 ms.assetid: 4dd57202-f4de-40d9-b720-efaba8a60a7c
 title: DV Muxer Filter
 ms.topic: article

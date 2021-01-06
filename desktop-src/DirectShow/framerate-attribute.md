@@ -1,5 +1,5 @@
 ---
-Description: The framerate attribute specifies a framerate, in frames per second.
+description: The framerate attribute specifies a framerate, in frames per second.
 ms.assetid: 541a86e3-7736-4de4-b509-f8d61ef9bc58
 title: framerate Attribute (DirectShow)
 ms.topic: reference

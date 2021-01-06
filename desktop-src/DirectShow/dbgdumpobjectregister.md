@@ -1,5 +1,5 @@
 ---
-Description: The DbgDumpObjectRegister function displays information about active objects. Ignored in retail builds.
+description: The DbgDumpObjectRegister function displays information about active objects. Ignored in retail builds.
 ms.assetid: 362d9912-662c-4a72-95b4-01f3d808e299
 title: DbgDumpObjectRegister function (Wxdebug.h)
 ms.topic: reference

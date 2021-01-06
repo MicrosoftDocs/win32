@@ -1,5 +1,5 @@
 ---
-Description: The SetOutputFPS method sets the uncompressed output frame rate for this group.
+description: The SetOutputFPS method sets the uncompressed output frame rate for this group.
 ms.assetid: 335ea106-d5db-43a1-b771-b027e25164a6
 title: IAMTimelineGroup::SetOutputFPS method (Qedit.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The SetDefaultEffect method sets the default effect. If the render engine cannot render an effect, it substitutes the default effect.
+description: The SetDefaultEffect method sets the default effect. If the render engine cannot render an effect, it substitutes the default effect.
 ms.assetid: 6ee94d86-c27f-4378-9a10-f3993a3ae657
 title: IAMTimeline::SetDefaultEffect method (Qedit.h)
 ms.topic: reference

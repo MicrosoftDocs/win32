@@ -1,5 +1,5 @@
 ---
-Description: Not implemented.
+description: Not implemented.
 ms.assetid: b803ba33-d698-449f-a540-3981c4f0826a
 title: IAMTimeline::SetInterestRange method (Qedit.h)
 ms.topic: reference

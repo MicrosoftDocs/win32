@@ -1,5 +1,5 @@
 ---
-Description: The PauseOn event is sent when the PauseOn command has been enabled or disabled.
+description: The PauseOn event is sent when the PauseOn command has been enabled or disabled.
 ms.assetid: '1220f17d-86f6-40c8-9efa-fbd4ba81c474'
 title: PauseOn
 ms.topic: article

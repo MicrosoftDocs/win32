@@ -1,5 +1,5 @@
 ---
-Description: The video renderer was destroyed or removed from the graph.
+description: The video renderer was destroyed or removed from the graph.
 ms.assetid: facf35c2-d6a2-4373-bce5-171fd9325116
 title: EC_WINDOW_DESTROYED (Dshow.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Note  This interface has been deprecated.
+description: Note  This interface has been deprecated.
 ms.assetid: d9800850-b0ee-44f7-bcb4-f2bac8d17693
 title: IAMFilterData interface (Fil\_data.h)
 ms.topic: reference

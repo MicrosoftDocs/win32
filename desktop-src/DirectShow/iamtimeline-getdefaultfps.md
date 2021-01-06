@@ -1,5 +1,5 @@
 ---
-Description: The GetDefaultFPS method retrieves the default output frame rate, in frames per second (FPS). Groups use this value as their default frame rate. To set a group's frame rate, call the IAMTimelineGroup::SetOutputFPS method on the group.
+description: The GetDefaultFPS method retrieves the default output frame rate, in frames per second (FPS). Groups use this value as their default frame rate. To set a group's frame rate, call the IAMTimelineGroup::SetOutputFPS method on the group.
 ms.assetid: 91c83512-4295-440e-b3b2-09fe3629f827
 title: IAMTimeline::GetDefaultFPS method (Qedit.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The get\_Alpha method retrieves the alpha value for the entire image.
+description: The get\_Alpha method retrieves the alpha value for the entire image.
 ms.assetid: ce891149-e964-4239-aeef-c9f4a8354563
 title: IDxtAlphaSetter::get_Alpha method (Qedit.h)
 ms.topic: reference

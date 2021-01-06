@@ -1,5 +1,5 @@
 ---
-Description: Signals that the DVD player started playback of a new program in the DVD\_DOMAIN\_Title domain.
+description: Signals that the DVD player started playback of a new program in the DVD\_DOMAIN\_Title domain.
 ms.assetid: c0745615-d527-4d93-9118-30419c6c811e
 title: EC_DVD_CHAPTER_START (Dvdevcode.h)
 ms.topic: reference

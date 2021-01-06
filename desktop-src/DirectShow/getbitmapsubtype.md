@@ -1,5 +1,5 @@
 ---
-Description: The GetBitmapSubtype function returns the media subtype GUID for the specified bitmap.
+description: The GetBitmapSubtype function returns the media subtype GUID for the specified bitmap.
 ms.assetid: 0af8a64b-8d3c-4308-9fd6-174864a1ca26
 title: GetBitmapSubtype function (Wxutil.h)
 ms.topic: reference

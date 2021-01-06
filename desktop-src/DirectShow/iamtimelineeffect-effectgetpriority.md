@@ -1,5 +1,5 @@
 ---
-Description: The EffectGetPriority method retrieves the effect's priority level. For a given object, the render engine applies effects in order of priority, starting with priority level zero.
+description: The EffectGetPriority method retrieves the effect's priority level. For a given object, the render engine applies effects in order of priority, starting with priority level zero.
 ms.assetid: 2504fa0c-f052-4d99-98c3-803b0c0d49e5
 title: IAMTimelineEffect::EffectGetPriority method (Qedit.h)
 ms.topic: reference

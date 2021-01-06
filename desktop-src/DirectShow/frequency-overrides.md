@@ -1,5 +1,5 @@
 ---
-Description: Frequency Overrides
+description: Frequency Overrides
 ms.assetid: 0e45d0a6-3c3e-462c-a8dc-c4f25b614b85
 title: Frequency Overrides
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Signals a DVD error condition.
+description: Signals a DVD error condition.
 ms.assetid: 2cd3e0c4-e2b7-4aa1-9f3c-9003eabfb08a
 title: EC_DVD_ERROR (Dvdevcode.h)
 ms.topic: reference

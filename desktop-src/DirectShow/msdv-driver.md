@@ -1,5 +1,5 @@
 ---
-Description: MSDV Driver
+description: MSDV Driver
 ms.assetid: '146ca753-fe41-49d3-8b1c-077e10a28192'
 title: MSDV Driver
 ms.topic: article

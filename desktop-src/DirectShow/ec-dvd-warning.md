@@ -1,5 +1,5 @@
 ---
-Description: Signals a DVD warning condition.
+description: Signals a DVD warning condition.
 ms.assetid: d7221e8a-089f-4eaf-a193-548709c14336
 title: EC_DVD_WARNING (Dvdevcode.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Overview of Data Flow in DirectShow
+description: Overview of Data Flow in DirectShow
 ms.assetid: a1b30592-5106-44f5-8ee0-577573670167
 title: Overview of Data Flow in DirectShow
 ms.topic: article

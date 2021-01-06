@@ -1,5 +1,5 @@
 ---
-Description: Find a Filters Peer
+description: Find a Filters Peer
 ms.assetid: 74d9fe65-f7f4-4971-9550-27884ac4146b
 title: Find a Filters Peer
 ms.topic: article

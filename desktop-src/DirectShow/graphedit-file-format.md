@@ -1,5 +1,5 @@
 ---
-Description: GraphEdit File Format
+description: GraphEdit File Format
 ms.assetid: 84c2de05-6c8f-45f1-b789-04a24cfa3ea1
 title: GraphEdit File Format
 ms.topic: article

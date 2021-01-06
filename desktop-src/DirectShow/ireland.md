@@ -1,5 +1,5 @@
 ---
-Description: For an explanation of the following tables, see Tables and Assignments.
+description: For an explanation of the following tables, see Tables and Assignments.
 ms.assetid: be60ca37-9f3a-44cd-8646-28fcbda5e79e
 title: Ireland
 ms.topic: article

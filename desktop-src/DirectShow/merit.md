@@ -1,5 +1,5 @@
 ---
-Description: Merit values define the order in which the Filter Graph Manager tries to add filters during graph building.
+description: Merit values define the order in which the Filter Graph Manager tries to add filters during graph building.
 ms.assetid: 9e026675-e0a9-4c82-9b57-ab0e7d9592ea
 title: Merit (Dshow.h)
 ms.topic: reference

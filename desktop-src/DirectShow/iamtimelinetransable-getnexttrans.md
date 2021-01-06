@@ -1,5 +1,5 @@
 ---
-Description: The GetNextTrans method retrieves the first transition that appears at the specified time or later.
+description: The GetNextTrans method retrieves the first transition that appears at the specified time or later.
 ms.assetid: 40598d8d-ce74-4a6f-83d0-ea409b0a858c
 title: IAMTimelineTransable::GetNextTrans method (Qedit.h)
 ms.topic: reference

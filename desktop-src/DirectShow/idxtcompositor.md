@@ -1,5 +1,5 @@
 ---
-Description: The IDxtCompositor interface sets properties on the Compositor transition.This interface is used internally by DirectShow Editing Services (DES) when it renders the Compositor transition.
+description: The IDxtCompositor interface sets properties on the Compositor transition.This interface is used internally by DirectShow Editing Services (DES) when it renders the Compositor transition.
 ms.assetid: 519f1e00-4b67-4014-906b-043f2478baa7
 title: IDxtCompositor interface (Qedit.h)
 ms.topic: reference

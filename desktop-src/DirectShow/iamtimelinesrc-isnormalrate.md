@@ -1,5 +1,5 @@
 ---
-Description: The IsNormalRate method indicates whether the clip will play at the normal playback rate; that is, the playback rate of the original file.
+description: The IsNormalRate method indicates whether the clip will play at the normal playback rate; that is, the playback rate of the original file.
 ms.assetid: 4a8fe415-f9eb-450d-9a75-e528577050d9
 title: IAMTimelineSrc::IsNormalRate method (Qedit.h)
 ms.topic: reference

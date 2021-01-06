@@ -1,5 +1,5 @@
 ---
-Description: Not supported. Call the IAMTimeline::AddGroup method instead.
+description: Not supported. Call the IAMTimeline::AddGroup method instead.
 ms.assetid: dd671fa5-ed5a-46e2-b4bd-a37f0e7458ca
 title: IAMTimelineGroup::SetTimeline method (Qedit.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Device Removal Notification
+description: Device Removal Notification
 ms.assetid: 0b96231a-f990-4c1c-8d00-cafeb3985ab3
 title: Device Removal Notification
 ms.topic: article

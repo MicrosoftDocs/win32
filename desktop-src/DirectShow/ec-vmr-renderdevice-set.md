@@ -1,5 +1,5 @@
 ---
-Description: Sent when the VMR has selected its rendering mechanism.
+description: Sent when the VMR has selected its rendering mechanism.
 ms.assetid: 815d1254-c6e3-4a6c-ba4a-bf3da7d35d1f
 title: EC_VMR_RENDERDEVICE_SET (Dshow.h)
 ms.topic: reference

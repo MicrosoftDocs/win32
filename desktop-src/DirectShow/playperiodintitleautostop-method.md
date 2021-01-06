@@ -1,5 +1,5 @@
 ---
-Description: The PlayPeriodInTitleAutoStop method starts playback at the specified time in the specified title until the specified stop time.
+description: The PlayPeriodInTitleAutoStop method starts playback at the specified time in the specified title until the specified stop time.
 ms.assetid: 0c4df76d-3991-4a6c-a8e5-5fd713eeffc2
 title: PlayPeriodInTitleAutoStop Method
 ms.topic: reference

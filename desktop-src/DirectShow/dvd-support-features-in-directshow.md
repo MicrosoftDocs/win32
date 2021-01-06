@@ -1,5 +1,5 @@
 ---
-Description: DVD Support Features in DirectShow
+description: DVD Support Features in DirectShow
 ms.assetid: 20dc1067-696e-4f53-9c77-0f2da237c5af
 title: DVD Support Features in DirectShow
 ms.topic: article

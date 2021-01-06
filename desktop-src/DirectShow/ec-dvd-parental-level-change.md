@@ -1,5 +1,5 @@
 ---
-Description: Signals that the parental level of the authored DVD content is about to change.
+description: Signals that the parental level of the authored DVD content is about to change.
 ms.assetid: c6817e1a-f860-4ba2-9e0f-e195624230c5
 title: EC_DVD_PARENTAL_LEVEL_CHANGE (Dvdevcode.h)
 ms.topic: reference

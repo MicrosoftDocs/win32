@@ -1,5 +1,5 @@
 ---
-Description: DMO Constants
+description: DMO Constants
 ms.assetid: 1018ab27-f1e9-483f-963e-c5bc844f4127
 title: DMO Constants
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Not implemented.
+description: Not implemented.
 ms.assetid: ed0aecfa-348c-4cf9-87c2-b701a552eec8
 title: ISmartRenderEngine::SetFindCompressorCB method
 ms.topic: reference

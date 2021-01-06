@@ -1,5 +1,5 @@
 ---
-Description: The REMIND macro generates a reminder at compile time. This macro generates a string that includes the parameter string, the name of the source file, and the line number.
+description: The REMIND macro generates a reminder at compile time. This macro generates a string that includes the parameter string, the name of the source file, and the line number.
 ms.assetid: 12043df5-ed68-4980-91aa-7598d8ab1951
 title: REMIND (Wxdebug.h)
 ms.topic: reference

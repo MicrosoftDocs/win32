@@ -1,5 +1,5 @@
 ---
-Description: Note  This interface has been deprecated.
+description: Note  This interface has been deprecated.
 ms.assetid: ab6972ef-7c28-4cd1-b007-eb70f9aeb2cb
 title: IAMFilterData::CreateFilterData method (Fil\_data.h)
 ms.topic: reference

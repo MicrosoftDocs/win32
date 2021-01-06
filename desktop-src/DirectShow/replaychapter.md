@@ -1,5 +1,5 @@
 ---
-Description: The ReplayChapter event is sent when the ReplayChapter command has been enabled or disabled.
+description: The ReplayChapter event is sent when the ReplayChapter command has been enabled or disabled.
 ms.assetid: '557c6076-a57e-4424-b90c-9299387b413f'
 title: ReplayChapter
 ms.topic: article

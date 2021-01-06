@@ -1,5 +1,5 @@
 ---
-Description: File Writer Filter
+description: File Writer Filter
 ms.assetid: 2bfbea8a-679f-4656-9ff3-fdf34aa0eb26
 title: File Writer Filter
 ms.topic: article

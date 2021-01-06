@@ -1,5 +1,5 @@
 ---
-Description: The get\_ReplicateX method retrieves the number of times the wipe pattern is replicated horizontally.
+description: The get\_ReplicateX method retrieves the number of times the wipe pattern is replicated horizontally.
 ms.assetid: 669a3bde-af8b-4d31-b914-41b71c95de1c
 title: IDxtJpeg::get_ReplicateX method (Qedit.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: General Graph-Building Techniques
+description: General Graph-Building Techniques
 ms.assetid: 66d93305-175c-4549-b825-2f3d7fd6bf09
 title: General Graph-Building Techniques
 ms.topic: article

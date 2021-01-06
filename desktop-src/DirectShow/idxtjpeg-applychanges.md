@@ -1,5 +1,5 @@
 ---
-Description: The ApplyChanges method applies any properties that have changed.
+description: The ApplyChanges method applies any properties that have changed.
 ms.assetid: dece1e61-7fe1-40f1-8d1d-89b5a334d04e
 title: IDxtJpeg::ApplyChanges method (Qedit.h)
 ms.topic: reference

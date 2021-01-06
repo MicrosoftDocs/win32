@@ -1,5 +1,5 @@
 ---
-Description: Boolean value that indicates whether the filter has dropped frames. This member variable controls when the filter sends EC\_QUALITY\_CHANGE events.
+description: Boolean value that indicates whether the filter has dropped frames. This member variable controls when the filter sends EC\_QUALITY\_CHANGE events.
 ms.assetid: fc85c6a8-b849-4acd-bcd7-49274c8ceb58
 title: CVideoTransformFilter::m_bQualityChanged member (Vtrans.h)
 ms.topic: reference

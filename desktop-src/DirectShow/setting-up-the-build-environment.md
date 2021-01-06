@@ -1,5 +1,5 @@
 ---
-Description: Building DirectShow Applications
+description: Building DirectShow Applications
 ms.assetid: 2fbdbe49-0d4d-4dce-afc3-7049c793ace0
 title: Building DirectShow Applications
 ms.topic: article

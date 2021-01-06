@@ -1,5 +1,5 @@
 ---
-Description: DVD Navigator Filter
+description: DVD Navigator Filter
 ms.assetid: 3b2c01a2-d52c-4497-8fc9-d1113e8507e8
 title: DVD Navigator Filter
 ms.topic: article

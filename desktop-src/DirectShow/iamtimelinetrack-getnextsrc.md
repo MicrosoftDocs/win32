@@ -1,5 +1,5 @@
 ---
-Description: The GetNextSrc method searches the track for the next source that appears at the specified time or later.
+description: The GetNextSrc method searches the track for the next source that appears at the specified time or later.
 ms.assetid: e87d8978-7b45-41a3-a74d-b5dd231d1d85
 title: IAMTimelineTrack::GetNextSrc method (Qedit.h)
 ms.topic: reference

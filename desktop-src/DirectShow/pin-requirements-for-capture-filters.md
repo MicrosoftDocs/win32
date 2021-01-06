@@ -1,5 +1,5 @@
 ---
-Description: This topic describes the requirements for implementing an output pin on a DirectShow capture filter.
+description: This topic describes the requirements for implementing an output pin on a DirectShow capture filter.
 ms.assetid: cb9cda1c-efa2-4abb-934b-21ba8cb80f30
 title: Pin Requirements for Capture Filters
 ms.topic: article

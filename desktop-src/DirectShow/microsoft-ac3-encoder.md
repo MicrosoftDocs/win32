@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft AC-3 Encoder filter encodes stereo PCM audio to a Dolby Digital bitstream.
+description: The Microsoft AC-3 Encoder filter encodes stereo PCM audio to a Dolby Digital bitstream.
 ms.assetid: 59d46ee2-d45f-4492-938d-39c55a7368e1
 title: Microsoft AC-3 Encoder (Wmcodecdsp.h)
 ms.topic: reference

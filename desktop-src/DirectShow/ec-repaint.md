@@ -1,5 +1,5 @@
 ---
-Description: A video renderer requires a repaint.
+description: A video renderer requires a repaint.
 ms.assetid: 2e756dea-366c-4024-8fc8-6feabaef1954
 title: EC_REPAINT (Dshow.h)
 ms.topic: reference

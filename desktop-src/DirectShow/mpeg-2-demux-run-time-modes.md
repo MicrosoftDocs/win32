@@ -1,5 +1,5 @@
 ---
-Description: MPEG-2 Demux Run-Time Modes
+description: MPEG-2 Demux Run-Time Modes
 ms.assetid: b0d0c725-9220-43a5-af1c-d3c5c72e1ef3
 title: MPEG-2 Demux Run-Time Modes
 ms.topic: article

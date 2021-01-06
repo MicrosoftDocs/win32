@@ -1,5 +1,5 @@
 ---
-Description: The GetNextSrcEx method retrieves the next source after the specified source.
+description: The GetNextSrcEx method retrieves the next source after the specified source.
 ms.assetid: cda3d079-eeb5-42a9-8854-5c90ae0e2c07
 title: IAMTimelineTrack::GetNextSrcEx method (Qedit.h)
 ms.topic: reference

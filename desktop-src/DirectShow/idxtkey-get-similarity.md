@@ -1,5 +1,5 @@
 ---
-Description: The get\_Similarity method retrieves the range of color data that becomes transparent. At higher values, a wider range of similar colors is transparent. This property applies only when the key type is DXTKEY\_RGB or DXTKEY\_NONRED.
+description: The get\_Similarity method retrieves the range of color data that becomes transparent. At higher values, a wider range of similar colors is transparent. This property applies only when the key type is DXTKEY\_RGB or DXTKEY\_NONRED.
 ms.assetid: ddf82759-fe71-4e06-b73c-c450b7cce43d
 title: IDxtKey::get_Similarity method (Qedit.h)
 ms.topic: reference

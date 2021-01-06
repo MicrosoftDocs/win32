@@ -1,5 +1,5 @@
 ---
-Description: The graph is dropping samples, for quality control.
+description: The graph is dropping samples, for quality control.
 ms.assetid: a21fe766-58a5-4851-a282-883374287e18
 title: EC_QUALITY_CHANGE (Dshow.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: File Encoding and Decoding Interfaces
+description: File Encoding and Decoding Interfaces
 ms.assetid: 5456392d-2557-43b6-93b7-b2ebde218d12
 title: File Encoding and Decoding Interfaces
 ms.topic: article
