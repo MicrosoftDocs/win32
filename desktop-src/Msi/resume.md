@@ -1,5 +1,5 @@
 ---
-Description: The RESUME property is set when resuming a suspended installation.
+description: The RESUME property is set when resuming a suspended installation.
 ms.assetid: 79eeadfd-6079-401b-a360-1ce09786e647
 title: RESUME property
 ms.topic: reference

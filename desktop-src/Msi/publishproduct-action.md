@@ -1,5 +1,5 @@
 ---
-Description: The PublishProduct action manages the advertisement of the product information with the system. This action publishes the product if the product is in advertise mode or if any feature is being installed or reinstalled.
+description: The PublishProduct action manages the advertisement of the product information with the system. This action publishes the product if the product is in advertise mode or if any feature is being installed or reinstalled.
 ms.assetid: aba1baf2-d282-4f76-87aa-67188b779535
 title: PublishProduct Action
 ms.topic: article

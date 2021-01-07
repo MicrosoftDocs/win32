@@ -1,5 +1,5 @@
 ---
-Description: This attribute specifies whether or not the rollback backup files are included in the costs displayed by the VolumeCostList control.
+description: This attribute specifies whether or not the rollback backup files are included in the costs displayed by the VolumeCostList control.
 ms.assetid: a3ed4d8a-170b-4708-afc2-03d2a5b665a3
 title: ControlShowRollbackCost Control Attribute
 ms.topic: article

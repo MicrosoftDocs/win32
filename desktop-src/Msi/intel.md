@@ -1,5 +1,5 @@
 ---
-Description: The Intel property is set by the Windows Installer to the numeric processor level when running on an Intel processor.
+description: The Intel property is set by the Windows Installer to the numeric processor level when running on an Intel processor.
 ms.assetid: c1190df2-0440-4dd1-bce5-61d899f71437
 title: Intel property
 ms.topic: reference

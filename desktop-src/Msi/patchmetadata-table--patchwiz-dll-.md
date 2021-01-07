@@ -1,5 +1,5 @@
 ---
-Description: The PatchMetadata Table contains information about a Windows Installer patch that is required to remove a patch and that is used by Add/Remove Programs.
+description: The PatchMetadata Table contains information about a Windows Installer patch that is required to remove a patch and that is used by Add/Remove Programs.
 ms.assetid: 09a06de4-0713-4e92-ab29-f34f6c94b677
 title: PatchMetadata Table (PATCHWIZ.DLL)
 ms.topic: article

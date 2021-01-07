@@ -1,5 +1,5 @@
 ---
-Description: To install a file, font, or registry key so that it is not removed when the product is uninstalled, the entire component containing the file, font, or registry key must be made permanent.
+description: To install a file, font, or registry key so that it is not removed when the product is uninstalled, the entire component containing the file, font, or registry key must be made permanent.
 ms.assetid: 99db6485-2e85-47c3-a449-ef85b7efc865
 title: Installing Permanent Components, Files, Fonts, Registry Keys
 ms.topic: article

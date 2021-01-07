@@ -1,5 +1,5 @@
 ---
-Description: The value of the ProductVersion property is the version of the product in string format.
+description: The value of the ProductVersion property is the version of the product in string format.
 ms.assetid: 551fca7e-a827-482d-bc56-ff2fe5a17025
 title: ProductVersion property
 ms.topic: reference

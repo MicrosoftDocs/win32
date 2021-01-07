@@ -1,5 +1,5 @@
 ---
-Description: Setting the DISABLEADVTSHORTCUTS property disables the generation of shortcuts supporting installation-on-demand and advertisement. Setting this property specifies that these shortcuts should instead be replaced by regular shortcuts.
+description: Setting the DISABLEADVTSHORTCUTS property disables the generation of shortcuts supporting installation-on-demand and advertisement. Setting this property specifies that these shortcuts should instead be replaced by regular shortcuts.
 ms.assetid: 1b55ecbe-932f-4f08-98b1-8c5e7a57d2e8
 title: DISABLEADVTSHORTCUTS property
 ms.topic: reference

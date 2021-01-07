@@ -1,5 +1,5 @@
 ---
-Description: The PATCHNEWPACKAGECODE property updates the Revision Number Summary property of an administrative image during patching.
+description: The PATCHNEWPACKAGECODE property updates the Revision Number Summary property of an administrative image during patching.
 ms.assetid: 5ca0058a-b4eb-48df-89eb-fbc7da7224e8
 title: PATCHNEWPACKAGECODE property
 ms.topic: reference

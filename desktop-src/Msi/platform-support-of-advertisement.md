@@ -1,5 +1,5 @@
 ---
-Description: The Windows Installer supports advertisement of applications and features.
+description: The Windows Installer supports advertisement of applications and features.
 ms.assetid: 9e5158bc-4877-49d1-9bb9-4dd17abb444d
 title: Platform Support of Advertisement
 ms.topic: article

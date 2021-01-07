@@ -1,5 +1,5 @@
 ---
-Description: The ConfigureFeature method of the Installer object configures the installed state of a product feature.
+description: The ConfigureFeature method of the Installer object configures the installed state of a product feature.
 ms.assetid: cc950951-3b43-4d86-9ff1-80aa2ccd11d5
 title: Installer.ConfigureFeature method
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The RemovePatches method removes one or more patches to products eligible to receive the patch. The RemovePatches method calls MsiRemovePatches.
+description: The RemovePatches method removes one or more patches to products eligible to receive the patch. The RemovePatches method calls MsiRemovePatches.
 ms.assetid: 09c6ad3a-9f5e-4f9a-82c8-be7e411efd60
 title: Installer.RemovePatches method
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: ICE28 is commonly used to validate that the ForceReboot action is placed before or after, and never within, a specific group of actions in the action sequence tables. See the ForceReboot action topic to determine the actions that comprise this group.
+description: ICE28 is commonly used to validate that the ForceReboot action is placed before or after, and never within, a specific group of actions in the action sequence tables. See the ForceReboot action topic to determine the actions that comprise this group.
 ms.assetid: 746d907a-33e1-479a-bcb0-93e7fd5dd975
 title: ICE28
 ms.topic: article

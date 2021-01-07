@@ -1,5 +1,5 @@
 ---
-Description: Returns a RecordList object that lists products that use a specified installed component.
+description: Returns a RecordList object that lists products that use a specified installed component.
 ms.assetid: c9756526-68d7-4d04-97e2-56a5eaf816be
 title: Installer.ClientsEx property
 ms.topic: reference

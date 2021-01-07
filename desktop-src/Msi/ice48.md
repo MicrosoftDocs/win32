@@ -1,5 +1,5 @@
 ---
-Description: ICE48 checks for directories that are hard-coded to local paths in the Property table.
+description: ICE48 checks for directories that are hard-coded to local paths in the Property table.
 ms.assetid: 9dcc2475-23a3-4f77-8828-4d0a036670d4
 title: ICE48
 ms.topic: article

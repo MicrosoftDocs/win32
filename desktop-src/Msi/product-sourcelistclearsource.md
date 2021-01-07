@@ -1,5 +1,5 @@
 ---
-Description: The SourceListClearSource method removes a network or URL source. Accepts Type, the source type, and SourcePath, the source path, as parameters to be removed. This method calls the MsiSourceListClearSource.
+description: The SourceListClearSource method removes a network or URL source. Accepts Type, the source type, and SourcePath, the source path, as parameters to be removed. This method calls the MsiSourceListClearSource.
 ms.assetid: a55676d4-795d-4ffe-8621-ef47c16a936c
 title: Product.SourceListClearSource method
 ms.topic: reference

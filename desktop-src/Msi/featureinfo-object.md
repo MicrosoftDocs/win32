@@ -1,5 +1,5 @@
 ---
-Description: The FeatureInfo object contains information regarding the targeted feature and is created from the Session object using the FeatureInfo Method.
+description: The FeatureInfo object contains information regarding the targeted feature and is created from the Session object using the FeatureInfo Method.
 ms.assetid: c9c96799-22c7-4e74-947b-3b8d31ebc1f1
 title: FeatureInfo object
 ms.topic: reference

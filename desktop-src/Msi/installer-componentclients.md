@@ -1,5 +1,5 @@
 ---
-Description: The read-only ComponentClients property returns a StringList object enumerating the set of clients of a specified component.
+description: The read-only ComponentClients property returns a StringList object enumerating the set of clients of a specified component.
 ms.assetid: 47553360-298f-4be8-819d-18f4df96667c
 title: Installer.ComponentClients property
 ms.topic: reference

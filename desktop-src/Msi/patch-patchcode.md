@@ -1,5 +1,5 @@
 ---
-Description: The PatchCode property returns the patch code GUID of the patch.
+description: The PatchCode property returns the patch code GUID of the patch.
 ms.assetid: fc2e453b-d37d-41dc-9854-800c2aab368b
 title: Patch.PatchCode property
 ms.topic: reference

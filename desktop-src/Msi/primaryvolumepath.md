@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the value of the PrimaryVolumePath property to the path of the volume designated by the PRIMARYFOLDER property. For example, if the folder referenced by PRIMARYFOLDER resolves to &\#0034;D:\\ProgramFiles&\#0034;, PrimaryVolumePath is set to &\#0034;D:&\#0034;.
+description: The installer sets the value of the PrimaryVolumePath property to the path of the volume designated by the PRIMARYFOLDER property. For example, if the folder referenced by PRIMARYFOLDER resolves to &\#0034;D:\\ProgramFiles&\#0034;, PrimaryVolumePath is set to &\#0034;D:&\#0034;.
 ms.assetid: 6de21e4e-13cd-4a3f-a068-3b38672ae79c
 title: PrimaryVolumePath property
 ms.topic: reference

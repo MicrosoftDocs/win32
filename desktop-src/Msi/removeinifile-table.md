@@ -1,5 +1,5 @@
 ---
-Description: The RemoveIniFile table contains the information an application needs to delete from a .ini file.
+description: The RemoveIniFile table contains the information an application needs to delete from a .ini file.
 ms.assetid: 702cf86e-02f4-4ea7-8573-b500ac550aae
 title: RemoveIniFile Table
 ms.topic: article

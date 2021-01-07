@@ -1,5 +1,5 @@
 ---
-Description: If the value of this per-machine system policy is set to &\#0034;2&\#0034; the installer is always disabled for all applications. If this policy value is set to &\#0034;1&\#0034;, the installer is disabled for unmanaged applications but is still enabled for managed applications.
+description: If the value of this per-machine system policy is set to &\#0034;2&\#0034; the installer is always disabled for all applications. If this policy value is set to &\#0034;1&\#0034;, the installer is disabled for unmanaged applications but is still enabled for managed applications.
 ms.assetid: 7f941559-54c3-4802-b827-5954bd4669f8
 title: DisableMSI
 ms.topic: article

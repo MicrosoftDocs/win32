@@ -1,5 +1,5 @@
 ---
-Description: ICE38 validates that every component being installed under the current user's profile also specifies a registry key under the HKEY\_CURRENT\_USER root in the KeyPath column of the Component table.
+description: ICE38 validates that every component being installed under the current user's profile also specifies a registry key under the HKEY\_CURRENT\_USER root in the KeyPath column of the Component table.
 ms.assetid: f1548b04-78c2-461a-a729-9a8c4856d0d8
 title: ICE38
 ms.topic: article

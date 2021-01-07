@@ -1,5 +1,5 @@
 ---
-Description: The Directory Type of semantic type is one of the Key Format Types, which consists of a foreign key into the Directory table provided by the user.
+description: The Directory Type of semantic type is one of the Key Format Types, which consists of a foreign key into the Directory table provided by the user.
 ms.assetid: b5a0ed38-1dda-4c33-9429-0cbe87e13aef
 title: Directory Type
 ms.topic: article

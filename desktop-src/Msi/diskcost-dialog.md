@@ -1,5 +1,5 @@
 ---
-Description: A DiskCost dialog box commonly appears when the OutOfDiskSpace property is set. This indicates that there is not enough disk space for the selected installation.
+description: A DiskCost dialog box commonly appears when the OutOfDiskSpace property is set. This indicates that there is not enough disk space for the selected installation.
 ms.assetid: fdf9bdf5-b847-426e-949a-63af76358cea
 title: DiskCost Dialog
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The ProductInfo property is a read-only property that returns the value of the specified attribute for an installed or published product.
+description: The ProductInfo property is a read-only property that returns the value of the specified attribute for an installed or published product.
 ms.assetid: 144cbba7-ec2b-44cd-acc8-868c210ccebd
 title: Installer.ProductInfo property (Oemupgex.h)
 ms.topic: reference

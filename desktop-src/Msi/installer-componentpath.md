@@ -1,5 +1,5 @@
 ---
-Description: The ComponentPath property is a read-only property that returns the full path to an installed component. If the key path for the component is a registry key then the registry key is returned.
+description: The ComponentPath property is a read-only property that returns the full path to an installed component. If the key path for the component is a registry key then the registry key is returned.
 ms.assetid: 6e53419d-f28a-45cd-abc8-0f451177f3fc
 title: Installer.ComponentPath property
 ms.topic: reference

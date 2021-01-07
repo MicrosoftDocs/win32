@@ -1,5 +1,5 @@
 ---
-Description: The AddSource method of the Installer object adds a source to the list of valid network sources in the sourcelist.
+description: The AddSource method of the Installer object adds a source to the list of valid network sources in the sourcelist.
 ms.assetid: e24c8484-fe84-4f97-9c06-c063bb7c6810
 title: Installer.AddSource method
 ms.topic: reference

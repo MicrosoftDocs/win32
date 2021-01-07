@@ -1,5 +1,5 @@
 ---
-Description: The installer records errors and events in its own error log.
+description: The installer records errors and events in its own error log.
 ms.assetid: 244e9afa-2052-469e-aa57-424e03ce5673
 title: Normal Logging
 ms.topic: article

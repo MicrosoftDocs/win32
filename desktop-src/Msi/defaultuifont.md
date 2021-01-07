@@ -1,5 +1,5 @@
 ---
-Description: The DefaultUIFont property sets the default font style used for controls. To specify the default, set DefaultUIFont to one of the predefined styles in the TextStyle table in the Property table.
+description: The DefaultUIFont property sets the default font style used for controls. To specify the default, set DefaultUIFont to one of the predefined styles in the TextStyle table in the Property table.
 ms.assetid: 594183ce-ef13-47f6-a4ae-37ba09c06cbd
 title: DefaultUIFont property
 ms.topic: reference

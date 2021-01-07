@@ -1,5 +1,5 @@
 ---
-Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ms.assetid: 868cb5b7-d5ab-41c7-a6d4-d7964a8ff6de
 title: R (Windows Installer)
 ms.topic: article

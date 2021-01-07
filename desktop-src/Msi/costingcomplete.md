@@ -1,5 +1,5 @@
 ---
-Description: The CostingComplete property indicates whether the installer has completed disk space costing.
+description: The CostingComplete property indicates whether the installer has completed disk space costing.
 ms.assetid: 23688f1e-3ae8-4cd9-824c-36077cc7838f
 title: CostingComplete property
 ms.topic: reference

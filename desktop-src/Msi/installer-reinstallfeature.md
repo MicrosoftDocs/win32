@@ -1,5 +1,5 @@
 ---
-Description: The ReinstallFeature method of the Installer object reinstalls features or corrects problems with installed features.
+description: The ReinstallFeature method of the Installer object reinstalls features or corrects problems with installed features.
 ms.assetid: cfe2aef4-7742-49cd-b7a3-7d484e1f85e3
 title: Installer.ReinstallFeature method
 ms.topic: reference

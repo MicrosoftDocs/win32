@@ -1,5 +1,5 @@
 ---
-Description: ModuleFiles property of the GetFiles object returns all the primary keys of the File table for the currently open module.
+description: ModuleFiles property of the GetFiles object returns all the primary keys of the File table for the currently open module.
 ms.assetid: e1c8049c-b271-4def-abde-89ea99393574
 title: GetFiles.ModuleFiles property (Mergemod.h)
 ms.topic: reference

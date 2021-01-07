@@ -1,5 +1,5 @@
 ---
-Description: A Cyclic Redundancy Check (CRC) of files is available with Windows Installer.
+description: A Cyclic Redundancy Check (CRC) of files is available with Windows Installer.
 ms.assetid: c895488b-6e60-4175-8865-4ba4b0cb2d9a
 title: CRC Checking During an Installation
 ms.topic: article

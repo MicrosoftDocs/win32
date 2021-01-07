@@ -1,5 +1,5 @@
 ---
-Description: The value of the REMOVE property is a list of features delimited by commas that are to be removed.
+description: The value of the REMOVE property is a list of features delimited by commas that are to be removed.
 ms.assetid: '39f4609a-7bf8-42b3-b23e-0d6a40b69fd3'
 title: REMOVE property
 ms.topic: article

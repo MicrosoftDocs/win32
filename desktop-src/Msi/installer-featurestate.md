@@ -1,5 +1,5 @@
 ---
-Description: The read-only FeatureState property returns the installed state of a feature.
+description: The read-only FeatureState property returns the installed state of a feature.
 ms.assetid: a3d30296-191e-4446-b5b1-a92f8991926a
 title: Installer.FeatureState property
 ms.topic: reference

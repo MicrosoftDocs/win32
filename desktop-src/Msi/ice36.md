@@ -1,5 +1,5 @@
 ---
-Description: ICE36 validates that every icon in the Icon table is listed at least once in the ARPPRODUCTICON property or the Class, ProgId, or Shortcut tables.
+description: ICE36 validates that every icon in the Icon table is listed at least once in the ARPPRODUCTICON property or the Class, ProgId, or Shortcut tables.
 ms.assetid: d502c0a9-17e5-467a-8b02-8b254e77b96b
 title: ICE36
 ms.topic: article

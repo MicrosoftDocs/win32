@@ -1,5 +1,5 @@
 ---
-Description: The CreateTransformSummaryInfo method of the Database object creates and populates the summary information stream of an existing transform file. This method fills in the properties with the base and reference ProductCode and ProductVersion.
+description: The CreateTransformSummaryInfo method of the Database object creates and populates the summary information stream of an existing transform file. This method fills in the properties with the base and reference ProductCode and ProductVersion.
 ms.assetid: 67df9b9c-0e7c-49a6-a35e-5196327d6aff
 title: Database.CreateTransformSummaryInfo method
 ms.topic: reference

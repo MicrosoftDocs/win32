@@ -1,5 +1,5 @@
 ---
-Description: The following are the Mergemod interfaces.
+description: The following are the Mergemod interfaces.
 ms.assetid: 5bf62763-bee7-4459-a75c-65ff7730e0a5
 title: Mergemod Interfaces
 ms.topic: article

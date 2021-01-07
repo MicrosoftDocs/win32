@@ -1,5 +1,5 @@
 ---
-Description: A custom action source can exist in several different forms. The following table lists the types of custom actions that can have each form of source. See the topic for the basic custom action type for more information.
+description: A custom action source can exist in several different forms. The following table lists the types of custom actions that can have each form of source. See the topic for the basic custom action type for more information.
 ms.assetid: 33fc7918-0828-4640-baed-bd9f61a3bba8
 title: Custom Action Sources
 ms.topic: article

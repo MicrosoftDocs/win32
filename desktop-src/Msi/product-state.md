@@ -1,5 +1,5 @@
 ---
-Description: The State property returns the installation state of this instance of the product.
+description: The State property returns the installation state of this instance of the product.
 ms.assetid: ae4c7a43-d4af-4e06-a3f8-d7c2d0715d84
 title: Product.State property
 ms.topic: reference

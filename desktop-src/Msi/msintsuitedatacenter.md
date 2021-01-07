@@ -1,5 +1,5 @@
 ---
-Description: On Windows 2000 and later operating systems, the installer sets the MsiNTSuiteDataCenter property to 1 if Windows 2000 Datacenter Server is installed.
+description: On Windows 2000 and later operating systems, the installer sets the MsiNTSuiteDataCenter property to 1 if Windows 2000 Datacenter Server is installed.
 ms.assetid: a777e62a-a360-4d8c-b7a6-00d45c17db66
 title: MsiNTSuiteDataCenter property
 ms.topic: reference

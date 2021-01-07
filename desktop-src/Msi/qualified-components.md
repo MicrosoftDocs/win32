@@ -1,5 +1,5 @@
 ---
-Description: A qualified component is a method of single-level indirection, similar to a pointer.
+description: A qualified component is a method of single-level indirection, similar to a pointer.
 ms.assetid: b483fa7d-d31d-4855-89e5-f733541cd92d
 title: Qualified Components
 ms.topic: article

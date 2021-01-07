@@ -1,5 +1,5 @@
 ---
-Description: The read-only DatabaseKeys property of the Error object returns a string collection that contains the primary keys of the database row causing the error. There is one key per entry in the collection.
+description: The read-only DatabaseKeys property of the Error object returns a string collection that contains the primary keys of the database row causing the error. There is one key per entry in the collection.
 ms.assetid: 416a6cef-4c70-4c06-a8d2-801c9440e25a
 title: Error.DatabaseKeys property (Mergemod.h)
 ms.topic: reference

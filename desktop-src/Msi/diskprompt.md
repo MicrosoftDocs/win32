@@ -1,5 +1,5 @@
 ---
-Description: The DiskPrompt property value holds a string displayed by a dialog box prompting for a disk. This string should include the name of the product and a placeholder for the text printed on the CD-ROM surface.
+description: The DiskPrompt property value holds a string displayed by a dialog box prompting for a disk. This string should include the name of the product and a placeholder for the text printed on the CD-ROM surface.
 ms.assetid: a66a1305-2bf5-4694-a8a7-4095c6a5c8a4
 title: DiskPrompt property
 ms.topic: reference

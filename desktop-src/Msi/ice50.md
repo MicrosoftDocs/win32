@@ -1,5 +1,5 @@
 ---
-Description: ICE50 checks that shortcut icons are specified to display correctly and match their target file's extension.
+description: ICE50 checks that shortcut icons are specified to display correctly and match their target file's extension.
 ms.assetid: 19288c87-fddb-46c9-8145-59e1b870a261
 title: ICE50
 ms.topic: article

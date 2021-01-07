@@ -1,5 +1,5 @@
 ---
-Description: The ODBCAttribute table contains information about the attributes of Open Database Connectivity (ODBC) drivers and translators.
+description: The ODBCAttribute table contains information about the attributes of Open Database Connectivity (ODBC) drivers and translators.
 ms.assetid: 82fd83d4-22dd-4641-807b-d2b263918e4c
 title: ODBCAttribute Table
 ms.topic: article

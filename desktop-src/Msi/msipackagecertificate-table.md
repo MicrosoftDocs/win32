@@ -1,5 +1,5 @@
 ---
-Description: The MsiPackageCertificate Table lists digital signature certificates used to verify the identity of the installation packages that make this Multiple-Package Installation.
+description: The MsiPackageCertificate Table lists digital signature certificates used to verify the identity of the installation packages that make this Multiple-Package Installation.
 ms.assetid: d3a97325-2136-4745-8a7d-57e4d6b9d27e
 title: MsiPackageCertificate Table
 ms.topic: article

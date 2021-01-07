@@ -1,5 +1,5 @@
 ---
-Description: An installer function may display an error message dialog box returning any of the following errors. An error box is displayed only if the user interface level is at the full, reduced, or basic level. For more information, see User Interface Levels.
+description: An installer function may display an error message dialog box returning any of the following errors. An error box is displayed only if the user interface level is at the full, reduced, or basic level. For more information, see User Interface Levels.
 ms.assetid: 0153a21f-9b26-4088-b12b-96c9e6918cc3
 title: Displayed Error Messages
 ms.topic: article

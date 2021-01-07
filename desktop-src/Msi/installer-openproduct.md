@@ -1,5 +1,5 @@
 ---
-Description: The OpenProduct method of the Installer object opens an installer package for an installed product using the product code and returns a Session object.
+description: The OpenProduct method of the Installer object opens an installer package for an installed product using the product code and returns a Session object.
 ms.assetid: f09c4795-19e1-4474-b7ca-68ef650b69d5
 title: Installer.OpenProduct method
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Obtain a blank merge module database. You can use the file Schema.msm provided with the Windows Installer SDK as a starting database for your merge module. For more information, see Windows SDK Components for Windows Installer Developers.
+description: Obtain a blank merge module database. You can use the file Schema.msm provided with the Windows Installer SDK as a starting database for your merge module. For more information, see Windows SDK Components for Windows Installer Developers.
 ms.assetid: 8408e892-adc6-4ef5-ad36-4d04c021c899
 title: Obtaining Blank Merge Module Databases
 ms.topic: article
