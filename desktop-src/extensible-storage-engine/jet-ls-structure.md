@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LS structure"
 title: JET_LS structure
 TOCTitle: JET_LS structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_LS

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE.tableid property"
 title: JET_TABLECREATE.tableid property 
 TOCTitle: 'tableid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.tableid

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_InstanceMiscInfo enumeration"
 title: JET_InstanceMiscInfo enumeration (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_InstanceMiscInfo enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.JET_InstanceMiscInfo

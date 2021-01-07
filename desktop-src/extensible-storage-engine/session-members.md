@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Session members"
 title: Session members
 TOCTitle: Session members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Session

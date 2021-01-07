@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetPrepareUpdate Function"
 title: JetPrepareUpdate Function
 TOCTitle: JetPrepareUpdate Function
 ms:assetid: 90cbaa83-47f2-4a65-b561-3bdecb7fd95a

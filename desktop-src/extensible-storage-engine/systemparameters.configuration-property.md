@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.Configuration property"
 title: SystemParameters.Configuration property 
 TOCTitle: 'Configuration property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.Configuration

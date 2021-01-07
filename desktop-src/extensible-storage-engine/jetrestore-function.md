@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetRestore Function"
 title: JetRestore Function
 TOCTitle: JetRestore Function
 ms:assetid: cdfb8823-6260-46f2-adfc-77e2512a68fd

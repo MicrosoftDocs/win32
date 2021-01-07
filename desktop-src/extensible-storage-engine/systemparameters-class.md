@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters class"
 title: SystemParameters class
 TOCTitle: SystemParameters class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.SystemParameters

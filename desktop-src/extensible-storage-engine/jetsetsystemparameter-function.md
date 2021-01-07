@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetSetSystemParameter Function"
 title: JetSetSystemParameter Function
 TOCTitle: JetSetSystemParameter Function
 ms:assetid: a244b5c9-6f6e-49d1-a6f7-9248feb9b92d

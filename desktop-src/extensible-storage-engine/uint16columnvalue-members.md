@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: UInt16ColumnValue members"
 title: UInt16ColumnValue members
 TOCTitle: UInt16ColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.UInt16ColumnValue

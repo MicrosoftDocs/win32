@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS members"
 title: JET_THREADSTATS members (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_THREADSTATS members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS

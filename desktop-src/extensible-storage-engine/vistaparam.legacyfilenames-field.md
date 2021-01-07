@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaParam.LegacyFileNames field"
 title: VistaParam.LegacyFileNames field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: LegacyFileNames field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaParam.LegacyFileNames

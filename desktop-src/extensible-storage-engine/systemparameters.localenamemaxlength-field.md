@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.LocaleNameMaxLength field"
 title: SystemParameters.LocaleNameMaxLength field
 TOCTitle: LocaleNameMaxLength field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.SystemParameters.LocaleNameMaxLength

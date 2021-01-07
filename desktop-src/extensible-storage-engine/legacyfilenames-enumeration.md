@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LegacyFileNames enumeration"
 title: LegacyFileNames enumeration (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: LegacyFileNames enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.LegacyFileNames

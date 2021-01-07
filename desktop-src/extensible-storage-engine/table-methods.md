@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Table methods"
 title: Table methods
 TOCTitle: Table methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Table

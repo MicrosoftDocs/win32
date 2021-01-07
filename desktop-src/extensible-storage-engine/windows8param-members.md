@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Windows8Param members"
 title: Windows8Param members (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: Windows8Param members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Windows8.Windows8Param

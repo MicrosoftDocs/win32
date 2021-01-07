@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECPOS constructor"
 title: JET_RECPOS constructor 
 TOCTitle: 'JET_RECPOS constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RECPOS.#ctor

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS.cLogRecord property"
 title: JET_THREADSTATS.cLogRecord property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cLogRecord property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.cLogRecord

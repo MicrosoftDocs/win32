@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_UNICODEINDEX.GetEffectiveLocaleName method"
 title: JET_UNICODEINDEX.GetEffectiveLocaleName method 
 TOCTitle: 'GetEffectiveLocaleName method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX.GetEffectiveLocaleName

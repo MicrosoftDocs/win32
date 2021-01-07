@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetRenameTable Function"
 title: JetRenameTable Function
 TOCTitle: JetRenameTable Function
 ms:assetid: face9341-58e3-450b-980d-08eb1dc3e9d2

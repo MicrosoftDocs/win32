@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: VistaApi methods"
 title: VistaApi methods (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaApi methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Vista.VistaApi

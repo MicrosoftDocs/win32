@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTLIST.tableid property"
 title: JET_OBJECTLIST.tableid property 
 TOCTitle: 'tableid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_OBJECTLIST.tableid

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SetCurrentIndexGrbit enumeration"
 title: SetCurrentIndexGrbit enumeration
 TOCTitle: SetCurrentIndexGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.SetCurrentIndexGrbit

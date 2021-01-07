@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Param class"
 title: Windows8Param class (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: Windows8Param class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.Windows8Param

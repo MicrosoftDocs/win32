@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaApi.JetOSSnapshotGetFreezeInfo method"
 title: VistaApi.JetOSSnapshotGetFreezeInfo method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'JetOSSnapshotGetFreezeInfo method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.VistaApi.JetOSSnapshotGetFreezeInfo(Microsoft.Isam.Esent.Interop.JET_OSSNAPID,System.Int32@,Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO[]@,Microsoft.Isam.Esent.Interop.Vista.SnapshotGetFreezeInfoGrbit)

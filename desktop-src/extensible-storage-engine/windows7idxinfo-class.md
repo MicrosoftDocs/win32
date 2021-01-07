@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7IdxInfo class"
 title: Windows7IdxInfo class (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: Windows7IdxInfo class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows7.Windows7IdxInfo

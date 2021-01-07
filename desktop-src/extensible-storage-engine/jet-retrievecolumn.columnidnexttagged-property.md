@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETRIEVECOLUMN.columnidNextTagged property"
 title: JET_RETRIEVECOLUMN.columnidNextTagged property 
 TOCTitle: 'columnidNextTagged property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN.columnidNextTagged

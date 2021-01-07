@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetPrereadKeys Function"
 title: JetPrereadKeys Function
 TOCTitle: JetPrereadKeys Function
 ms:assetid: fc2f46bc-1f81-4af2-aa63-9757e819efc2

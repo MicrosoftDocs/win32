@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOpenDatabase Function"
 title: JetOpenDatabase Function
 TOCTitle: JetOpenDatabase Function
 ms:assetid: 7764f0c2-6795-4b93-be3d-f6830cdce369

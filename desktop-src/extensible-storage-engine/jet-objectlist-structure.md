@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTLIST Structure"
 title: JET_OBJECTLIST Structure
 TOCTitle: JET_OBJECTLIST Structure
 ms:assetid: 95f12f2a-13da-48d4-a254-fc0cb718b17d

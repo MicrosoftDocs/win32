@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction.Commit method (CommitTransactionGrbit)"
 title: Transaction.Commit method (CommitTransactionGrbit)
 TOCTitle: Commit method (CommitTransactionGrbit)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Transaction.Commit(Microsoft.Isam.Esent.Interop.CommitTransactionGrbit)

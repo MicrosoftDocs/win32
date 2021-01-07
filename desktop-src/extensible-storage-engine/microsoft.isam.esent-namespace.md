@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Microsoft.Isam.Esent namespace"
 title: Microsoft.Isam.Esent namespace ()
 TOCTitle: '@NoTitle'
 ms:assetid: N:Microsoft.Isam.Esent

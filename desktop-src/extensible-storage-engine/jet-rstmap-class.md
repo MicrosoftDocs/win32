@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTMAP class"
 title: JET_RSTMAP class
 TOCTitle: JET_RSTMAP class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_RSTMAP

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Grbits.ReplayIgnoreLostLogs field"
 title: Windows7Grbits.ReplayIgnoreLostLogs field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: ReplayIgnoreLostLogs field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits.ReplayIgnoreLostLogs

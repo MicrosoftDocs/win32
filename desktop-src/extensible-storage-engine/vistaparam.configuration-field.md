@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaParam.Configuration field"
 title: VistaParam.Configuration field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: Configuration field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaParam.Configuration

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.LegacyFileNames property"
 title: SystemParameters.LegacyFileNames property 
 TOCTitle: 'LegacyFileNames property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.LegacyFileNames

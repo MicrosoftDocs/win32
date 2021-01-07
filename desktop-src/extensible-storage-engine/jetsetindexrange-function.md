@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetSetIndexRange Function"
 title: JetSetIndexRange Function
 TOCTitle: JetSetIndexRange Function
 ms:assetid: dac99576-707d-4713-9825-ddad1980723e

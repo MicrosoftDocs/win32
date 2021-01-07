@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE"
 title: JET_INSTANCE
 TOCTitle: JET_INSTANCE
 ms:assetid: a4136bec-95b3-42d7-b21b-1df09197bb11

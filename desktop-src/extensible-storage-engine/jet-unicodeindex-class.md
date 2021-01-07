@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_UNICODEINDEX class"
 title: JET_UNICODEINDEX class
 TOCTitle: JET_UNICODEINDEX class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX

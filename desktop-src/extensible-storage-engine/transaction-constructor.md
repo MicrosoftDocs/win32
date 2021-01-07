@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction constructor"
 title: Transaction constructor 
 TOCTitle: 'Transaction constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Transaction.#ctor(Microsoft.Isam.Esent.Interop.JET_SESID)

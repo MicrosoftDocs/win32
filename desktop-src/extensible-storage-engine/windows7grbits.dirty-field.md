@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Grbits.Dirty field"
 title: Windows7Grbits.Dirty field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: Dirty field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits.Dirty

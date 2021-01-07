@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Session.ReleaseResource method"
 title: Session.ReleaseResource method 
 TOCTitle: 'ReleaseResource method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Session.ReleaseResource

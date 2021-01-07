@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE methods"
 title: JET_RECSIZE methods (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_RECSIZE methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE

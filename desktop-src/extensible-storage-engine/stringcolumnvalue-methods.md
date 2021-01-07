@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: StringColumnValue methods"
 title: StringColumnValue methods
 TOCTitle: StringColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.StringColumnValue

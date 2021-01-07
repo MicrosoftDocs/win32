@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: VistaParam fields"
 title: VistaParam fields (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaParam fields
 ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.Vista.VistaParam

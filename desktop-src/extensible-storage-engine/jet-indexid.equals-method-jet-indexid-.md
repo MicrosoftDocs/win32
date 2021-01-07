@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXID.Equals method (JET_INDEXID)"
 title: JET_INDEXID.Equals method (JET_INDEXID)
 TOCTitle: Equals method (JET_INDEXID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXID.Equals(Microsoft.Isam.Esent.Interop.JET_INDEXID)

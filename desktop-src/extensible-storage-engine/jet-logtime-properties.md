@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_LOGTIME properties"
 title: JET_LOGTIME properties
 TOCTitle: JET_LOGTIME properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_LOGTIME

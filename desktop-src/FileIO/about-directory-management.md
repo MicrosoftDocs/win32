@@ -1,5 +1,5 @@
 ---
-Description: A directory that contains one or more directories is the parent of the contained directory or directories, and each contained directory is a child of the parent directory. The hierarchical structure of directories is referred to as a directory tree.
+description: A directory that contains one or more directories is the parent of the contained directory or directories, and each contained directory is a child of the parent directory. The hierarchical structure of directories is referred to as a directory tree.
 ms.assetid: e8a7bf82-0f3c-4ad9-9d10-25c4d69733dc
 title: About Directory Management
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TUPLELIMITS Structure"
 title: JET_TUPLELIMITS Structure
 TOCTitle: JET_TUPLELIMITS Structure
 ms:assetid: 2610e2e5-5883-4aec-bc66-e6160b76c264

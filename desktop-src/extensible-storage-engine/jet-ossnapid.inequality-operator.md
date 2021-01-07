@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OSSNAPID.Inequality operator"
 title: JET_OSSNAPID.Inequality operator 
 TOCTitle: 'Inequality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_OSSNAPID.op_Inequality(Microsoft.Isam.Esent.Interop.JET_OSSNAPID,Microsoft.Isam.Esent.Interop.JET_OSSNAPID)

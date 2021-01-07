@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SNPROG class"
 title: JET_SNPROG class
 TOCTitle: JET_SNPROG class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_SNPROG

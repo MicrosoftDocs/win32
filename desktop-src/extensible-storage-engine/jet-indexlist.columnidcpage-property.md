@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXLIST.columnidcPage property"
 title: JET_INDEXLIST.columnidcPage property 
 TOCTitle: 'columnidcPage property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXLIST.columnidcPage

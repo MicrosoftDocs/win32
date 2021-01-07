@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetSetCurrentIndex4 Function"
 title: JetSetCurrentIndex4 Function
 TOCTitle: JetSetCurrentIndex4 Function
 ms:assetid: 6076d02c-5701-4021-ba0a-da36bff166d1

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SnapshotAbortGrbit enumeration"
 title: SnapshotAbortGrbit enumeration (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: SnapshotAbortGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Server2003.SnapshotAbortGrbit

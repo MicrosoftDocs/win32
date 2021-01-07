@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECORDLIST methods"
 title: JET_RECORDLIST methods
 TOCTitle: JET_RECORDLIST methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_RECORDLIST

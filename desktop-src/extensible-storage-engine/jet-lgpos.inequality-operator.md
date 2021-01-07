@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS.Inequality operator"
 title: JET_LGPOS.Inequality operator 
 TOCTitle: 'Inequality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LGPOS.op_Inequality(Microsoft.Isam.Esent.Interop.JET_LGPOS,Microsoft.Isam.Esent.Interop.JET_LGPOS)

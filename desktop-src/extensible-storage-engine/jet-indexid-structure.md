@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXID Structure"
 title: JET_INDEXID Structure
 TOCTitle: JET_INDEXID Structure
 ms:assetid: 8b1d90f0-bc93-4b30-90d1-b9e93ad26654

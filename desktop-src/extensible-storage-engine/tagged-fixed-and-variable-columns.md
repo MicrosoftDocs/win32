@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Tagged, Fixed and Variable Columns"
 title: Tagged, Fixed and Variable Columns
 TOCTitle: Tagged, Fixed and Variable Columns
 ms:assetid: 78a905b8-71a9-4b2e-b9f2-c81bfe3aef8e

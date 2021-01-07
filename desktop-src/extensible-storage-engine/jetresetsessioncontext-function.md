@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetResetSessionContext Function"
 title: JetResetSessionContext Function
 TOCTitle: JetResetSessionContext Function
 ms:assetid: 537a4753-b804-457a-9a13-53e8d1056eab

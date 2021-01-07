@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS.Create method"
 title: JET_THREADSTATS.Create method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'Create method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.Create(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)

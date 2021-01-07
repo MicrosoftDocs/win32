@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXLIST.columnidLangid property"
 title: JET_INDEXLIST.columnidLangid property 
 TOCTitle: 'columnidLangid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXLIST.columnidLangid

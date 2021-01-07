@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_LS fields"
 title: JET_LS fields
 TOCTitle: JET_LS fields
 ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.JET_LS

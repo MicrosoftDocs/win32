@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_RETINFO properties"
 title: JET_RETINFO properties
 TOCTitle: JET_RETINFO properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_RETINFO

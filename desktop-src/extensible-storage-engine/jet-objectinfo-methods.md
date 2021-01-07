@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTINFO methods"
 title: JET_OBJECTINFO methods
 TOCTitle: JET_OBJECTINFO methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_OBJECTINFO

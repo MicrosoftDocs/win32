@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETINFO Structure"
 title: JET_SETINFO Structure
 TOCTitle: JET_SETINFO Structure
 ms:assetid: cbc41175-e48f-46b0-aeb1-1120fa2cd981

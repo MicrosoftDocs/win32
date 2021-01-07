@@ -1,5 +1,5 @@
 ---
-Description: Creates an input/output (I/O) completion port and associates it with a specified file handle, or creates an I/O completion port that is not yet associated with a file handle, allowing association at a later time.
+description: Creates an input/output (I/O) completion port and associates it with a specified file handle, or creates an I/O completion port that is not yet associated with a file handle, allowing association at a later time.
 ms.assetid: 40cb47fc-7b15-47f6-bee2-2611d4686053
 title: CreateIoCompletionPort function (IoAPI.h)
 ms.topic: reference

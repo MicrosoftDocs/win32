@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Resource Parameters"
 title: Resource Parameters
 TOCTitle: Resource Parameters
 ms:assetid: 1f61845a-ffa5-4894-9fe0-a58737b3b54e

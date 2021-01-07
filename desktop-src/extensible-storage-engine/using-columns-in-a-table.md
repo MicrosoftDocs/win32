@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Using Columns in a Table"
 title: Using Columns in a Table
 TOCTitle: Using Columns in a Table
 ms:assetid: 064ac59e-d306-4335-a623-754a003f5ebc

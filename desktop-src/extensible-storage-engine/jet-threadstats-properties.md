@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_THREADSTATS properties"
 title: JET_THREADSTATS properties (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_THREADSTATS properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS

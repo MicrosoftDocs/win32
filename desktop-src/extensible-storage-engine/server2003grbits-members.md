@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Server2003Grbits members"
 title: Server2003Grbits members (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: Server2003Grbits members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Server2003.Server2003Grbits

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE class"
 title: JET_TABLECREATE class
 TOCTitle: JET_TABLECREATE class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_TABLECREATE

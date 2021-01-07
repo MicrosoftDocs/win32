@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Param.EnableDbScanInRecovery field"
 title: Windows7Param.EnableDbScanInRecovery field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: EnableDbScanInRecovery field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Param.EnableDbScanInRecovery

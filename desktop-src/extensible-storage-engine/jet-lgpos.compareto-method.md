@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS.CompareTo method"
 title: JET_LGPOS.CompareTo method 
 TOCTitle: 'CompareTo method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LGPOS.CompareTo(Microsoft.Isam.Esent.Interop.JET_LGPOS)

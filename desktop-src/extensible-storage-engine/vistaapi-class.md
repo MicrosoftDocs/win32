@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaApi class"
 title: VistaApi class (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaApi class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.VistaApi

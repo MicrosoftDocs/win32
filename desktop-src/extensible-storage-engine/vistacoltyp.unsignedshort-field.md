@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaColtyp.UnsignedShort field"
 title: VistaColtyp.UnsignedShort field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: UnsignedShort field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaColtyp.UnsignedShort

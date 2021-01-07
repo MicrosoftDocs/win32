@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Obsolete Constants"
 title: Obsolete Constants
 TOCTitle: Obsolete Constants
 ms:assetid: 792aee52-0db3-4d6c-aba5-91fce2e3f481

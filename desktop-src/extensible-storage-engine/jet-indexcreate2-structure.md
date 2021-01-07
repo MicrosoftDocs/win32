@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE2 Structure"
 title: JET_INDEXCREATE2 Structure
 TOCTitle: JET_INDEXCREATE2 Structure
 ms:assetid: c574500e-8695-4f29-8e9d-6dff987af2a2

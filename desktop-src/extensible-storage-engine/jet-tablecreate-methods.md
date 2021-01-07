@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE methods"
 title: JET_TABLECREATE methods
 TOCTitle: JET_TABLECREATE methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_TABLECREATE

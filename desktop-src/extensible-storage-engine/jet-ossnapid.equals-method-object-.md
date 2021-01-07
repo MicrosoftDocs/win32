@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OSSNAPID.Equals method (Object)"
 title: JET_OSSNAPID.Equals method (Object)
 TOCTitle: Equals method (Object)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_OSSNAPID.Equals(System.Object)

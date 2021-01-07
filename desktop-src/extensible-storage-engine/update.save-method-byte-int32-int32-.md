@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Update.Save method (Byte , Int32, Int32)"
 title: Update.Save method (Byte , Int32, Int32)
 TOCTitle: Save method (Byte , Int32, Int32)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Update.Save(System.Byte[],System.Int32,System.Int32@)

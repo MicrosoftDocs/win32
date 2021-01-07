@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaApi.JetGetInstanceMiscInfo method"
 title: VistaApi.JetGetInstanceMiscInfo method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'JetGetInstanceMiscInfo method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.VistaApi.JetGetInstanceMiscInfo(Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.JET_SIGNATURE@,Microsoft.Isam.Esent.Interop.Vista.JET_InstanceMiscInfo)

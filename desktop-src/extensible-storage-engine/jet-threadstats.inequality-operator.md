@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS.Inequality operator"
 title: JET_THREADSTATS.Inequality operator  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'Inequality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.op_Inequality(Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS,Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS)

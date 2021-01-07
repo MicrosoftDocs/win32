@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OPENTEMPORARYTABLE.ccolumn property"
 title: JET_OPENTEMPORARYTABLE.ccolumn property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'ccolumn property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE.ccolumn

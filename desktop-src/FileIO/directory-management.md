@@ -1,5 +1,5 @@
 ---
-Description: A directory is a hierarchical collection of directories and files. The only constraint on the number of files that can be contained in a single directory is the physical size of the disk on which the directory is located.
+description: A directory is a hierarchical collection of directories and files. The only constraint on the number of files that can be contained in a single directory is the physical size of the disk on which the directory is located.
 ms.assetid: '7ac6c6ac-0813-4160-99b0-4ee1a967c1e1'
 title: Directory Management
 ms.topic: article

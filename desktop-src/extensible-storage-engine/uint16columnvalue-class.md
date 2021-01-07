@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: UInt16ColumnValue class"
 title: UInt16ColumnValue class
 TOCTitle: UInt16ColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.UInt16ColumnValue

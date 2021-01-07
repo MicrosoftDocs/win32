@@ -1,5 +1,5 @@
 ---
-Description: Marks any outstanding I/O operations for the specified file handle. The function only cancels I/O operations in the current process, regardless of which thread created the I/O operation.
+description: Marks any outstanding I/O operations for the specified file handle. The function only cancels I/O operations in the current process, regardless of which thread created the I/O operation.
 ms.assetid: a2ce13b8-7da6-4848-848d-901d9667c2e3
 title: CancelIoEx function (IoAPI.h)
 ms.topic: reference

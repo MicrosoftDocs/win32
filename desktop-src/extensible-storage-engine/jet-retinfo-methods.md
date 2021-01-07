@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETINFO methods"
 title: JET_RETINFO methods
 TOCTitle: JET_RETINFO methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_RETINFO

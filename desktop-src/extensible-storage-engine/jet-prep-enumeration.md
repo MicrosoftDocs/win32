@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_prep enumeration"
 title: JET_prep enumeration
 TOCTitle: JET_prep enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_prep

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE.cbLongValueData property"
 title: JET_RECSIZE.cbLongValueData property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cbLongValueData property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.cbLongValueData

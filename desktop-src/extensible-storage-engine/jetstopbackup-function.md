@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetStopBackup Function"
 title: JetStopBackup Function
 TOCTitle: JetStopBackup Function
 ms:assetid: b7545284-2fdb-4470-8466-fc2109ad63c5

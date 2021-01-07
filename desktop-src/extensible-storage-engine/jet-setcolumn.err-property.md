@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETCOLUMN.err property"
 title: JET_SETCOLUMN.err property 
 TOCTitle: 'err property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN.err

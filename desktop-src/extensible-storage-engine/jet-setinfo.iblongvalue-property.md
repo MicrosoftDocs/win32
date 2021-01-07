@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETINFO.ibLongValue property"
 title: JET_SETINFO.ibLongValue property 
 TOCTitle: 'ibLongValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SETINFO.ibLongValue

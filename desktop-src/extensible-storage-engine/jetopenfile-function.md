@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOpenFile Function"
 title: JetOpenFile Function
 TOCTitle: JetOpenFile Function
 ms:assetid: 52f69050-ca1c-4a6b-a188-22bd7cb96bf5

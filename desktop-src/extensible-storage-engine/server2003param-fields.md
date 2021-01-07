@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Server2003Param fields"
 title: Server2003Param fields (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: Server2003Param fields
 ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.Server2003.Server2003Param

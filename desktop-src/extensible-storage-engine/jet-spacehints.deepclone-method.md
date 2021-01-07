@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SPACEHINTS.DeepClone method"
 title: JET_SPACEHINTS.DeepClone method 
 TOCTitle: 'DeepClone method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS.DeepClone

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE.cMultiValues property"
 title: JET_RECSIZE.cMultiValues property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cMultiValues property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.cMultiValues

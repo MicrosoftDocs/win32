@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_PFNSTATUS Callback Function"
 title: JET_PFNSTATUS Callback Function
 TOCTitle: JET_PFNSTATUS Callback Function
 ms:assetid: 8b0cf5bf-a4ee-4d8f-8dd7-556c35cd269d

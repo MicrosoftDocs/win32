@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_PFNREALLOC delegate"
 title: JET_PFNREALLOC delegate
 TOCTitle: JET_PFNREALLOC delegate
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_PFNREALLOC

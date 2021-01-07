@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SystemParameters fields"
 title: SystemParameters fields
 TOCTitle: SystemParameters fields
 ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.SystemParameters

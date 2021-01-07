@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.HungIOThreshold property"
 title: SystemParameters.HungIOThreshold property 
 TOCTitle: 'HungIOThreshold property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.HungIOThreshold

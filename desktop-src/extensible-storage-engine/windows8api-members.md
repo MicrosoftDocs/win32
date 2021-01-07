@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Windows8Api members"
 title: Windows8Api members (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: Windows8Api members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api

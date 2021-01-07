@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLEID"
 title: JET_TABLEID
 TOCTitle: JET_TABLEID
 ms:assetid: 09705c32-97d8-460c-8b58-921497e29c13

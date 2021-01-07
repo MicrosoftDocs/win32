@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaParam.CachedClosedTables field"
 title: VistaParam.CachedClosedTables field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: CachedClosedTables field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaParam.CachedClosedTables

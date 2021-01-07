@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEX_RANGE.endColumns property"
 title: JET_INDEX_RANGE.endColumns property  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'endColumns property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_RANGE.endColumns

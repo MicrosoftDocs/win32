@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_LGPOS properties"
 title: JET_LGPOS properties
 TOCTitle: JET_LGPOS properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_LGPOS

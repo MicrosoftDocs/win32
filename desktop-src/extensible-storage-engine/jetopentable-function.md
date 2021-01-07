@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOpenTable Function"
 title: JetOpenTable Function
 TOCTitle: JetOpenTable Function
 ms:assetid: ded6348c-a82a-49bc-8a5d-e40ed5d6315c

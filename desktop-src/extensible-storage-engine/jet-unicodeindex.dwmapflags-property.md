@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_UNICODEINDEX.dwMapFlags property"
 title: JET_UNICODEINDEX.dwMapFlags property 
 TOCTitle: 'dwMapFlags property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX.dwMapFlags

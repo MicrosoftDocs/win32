@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Api class"
 title: Windows8Api class (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: Windows8Api class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api

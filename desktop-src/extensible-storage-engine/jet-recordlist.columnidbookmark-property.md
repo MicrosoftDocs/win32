@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECORDLIST.columnidBookmark property"
 title: JET_RECORDLIST.columnidBookmark property 
 TOCTitle: 'columnidBookmark property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RECORDLIST.columnidBookmark

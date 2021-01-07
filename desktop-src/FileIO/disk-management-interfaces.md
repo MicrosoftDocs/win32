@@ -1,5 +1,5 @@
 ---
-Description: Interfaces used in disk management.
+description: Interfaces used in disk management.
 ms.assetid: c1f79e2e-834b-41dc-a15f-6dd1034d021b
 title: Disk Management Interfaces
 ms.topic: article
