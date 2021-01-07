@@ -1,5 +1,5 @@
 ---
-Description: A WS-Discovery message used by a client to search for services on the network by name.
+description: A WS-Discovery message used by a client to search for services on the network by name.
 ms.assetid: b963bd2a-47cb-4f8d-8272-a586e6d6a047
 title: Resolve Message
 ms.topic: article

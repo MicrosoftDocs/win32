@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an object, that is either a class definition or an instance, based on the object path.
+description: Retrieves an object, that is either a class definition or an instance, based on the object path.
 ms.assetid: 3071aeb2-adab-47aa-a10c-9796766bb630
 ms.tgt_platform: multiple
 title: SWbemServices.Get method (Wbemdisp.h)

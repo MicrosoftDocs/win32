@@ -1,5 +1,5 @@
 ---
-Description: A property provider retrieves and modifies individual property values for instances of a given class that is stored in the WMI repository.
+description: A property provider retrieves and modifies individual property values for instances of a given class that is stored in the WMI repository.
 ms.assetid: fe150157-cf9d-47da-8f94-b18eb0502bd8
 ms.tgt_platform: multiple
 title: Writing a Property Provider

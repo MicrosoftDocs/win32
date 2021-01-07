@@ -1,5 +1,5 @@
 ---
-Description: All CIM-compliant implementations must handle a standard set of qualifiers.
+description: All CIM-compliant implementations must handle a standard set of qualifiers.
 ms.assetid: 671ea769-f68d-4788-96f5-c4f86ab3b00e
 ms.tgt_platform: multiple
 title: Standard Qualifiers

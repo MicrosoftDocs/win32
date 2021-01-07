@@ -1,5 +1,5 @@
 ---
-Description: Windows Portable Devices supports the following video properties.
+description: Windows Portable Devices supports the following video properties.
 ms.assetid: e6df5b2d-ceb8-4de0-b60b-9102c77143fe
 title: Video Properties (PortableDevice.h)
 ms.topic: reference

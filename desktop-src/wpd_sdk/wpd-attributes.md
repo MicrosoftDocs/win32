@@ -1,5 +1,5 @@
 ---
-Description: For Windows 7, Windows Portable Devices supports the following parameter attributes for methods and events of a device service.
+description: For Windows 7, Windows Portable Devices supports the following parameter attributes for methods and events of a device service.
 ms.assetid: a7708c60-758a-4fb6-8ef9-074ecdc9cf60
 title: Parameter Attributes (PortableDevice.h)
 ms.topic: reference

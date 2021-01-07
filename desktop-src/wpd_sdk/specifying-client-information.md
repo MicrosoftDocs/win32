@@ -1,5 +1,5 @@
 ---
-Description: Specifying Client Information
+description: Specifying Client Information
 ms.assetid: 275fda71-61ef-4b50-96fe-bdc0c0266646
 title: Specifying Client Information
 ms.topic: article

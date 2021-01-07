@@ -1,5 +1,5 @@
 ---
-Description: An instance provider supplies instances of one or more given classes.
+description: An instance provider supplies instances of one or more given classes.
 ms.assetid: d53c3399-cba8-4b5d-8da0-b5a23f94c0ae
 ms.tgt_platform: multiple
 title: Writing an Instance Provider

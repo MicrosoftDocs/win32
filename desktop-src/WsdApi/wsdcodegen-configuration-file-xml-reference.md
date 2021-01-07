@@ -1,5 +1,5 @@
 ---
-Description: WsdCodeGen configuration files use the following XML elements.
+description: WsdCodeGen configuration files use the following XML elements.
 ms.assetid: 25c730ff-4b01-4b40-ab50-3b8df3dad4c8
 title: WsdCodeGen Configuration File XML Reference
 ms.topic: reference

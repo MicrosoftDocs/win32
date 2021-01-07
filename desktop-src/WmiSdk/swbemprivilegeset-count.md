@@ -1,5 +1,5 @@
 ---
-Description: The Count property of the SWbemPrivilege object contains the number of items in an SWbemPrivilegeSet collection. This property is read-only.
+description: The Count property of the SWbemPrivilege object contains the number of items in an SWbemPrivilegeSet collection. This property is read-only.
 ms.assetid: a8ec2055-540d-4150-a0bf-9caa17cd5fcd
 ms.tgt_platform: multiple
 title: SWbemPrivilegeSet.Count property (Wbemdisp.h)

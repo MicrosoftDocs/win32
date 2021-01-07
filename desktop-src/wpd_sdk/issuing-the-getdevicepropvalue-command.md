@@ -1,5 +1,5 @@
 ---
-Description: Issuing the GetDevicePropValue Command
+description: Issuing the GetDevicePropValue Command
 ms.assetid: 60294ac6-06e0-4546-bbe9-da48d250e31e
 title: Issuing the GetDevicePropValue Command
 ms.topic: article

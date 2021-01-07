@@ -1,5 +1,5 @@
 ---
-Description: Commands
+description: Commands
 ms.assetid: f579745a-5327-4c8b-bfa7-fe81d9657a3b
 title: Commands (WPD API)
 ms.topic: article

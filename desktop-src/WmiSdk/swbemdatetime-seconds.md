@@ -1,5 +1,5 @@
 ---
-Description: Gets or sets a value that represents the seconds component of the datetime value.
+description: Gets or sets a value that represents the seconds component of the datetime value.
 ms.assetid: 194d4309-6abf-4c5f-99f8-60d2c835af6c
 ms.tgt_platform: multiple
 title: SWbemDateTime.Seconds property (Wbemdisp.h)

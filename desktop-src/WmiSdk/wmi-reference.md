@@ -1,5 +1,5 @@
 ---
-Description: The WMI Reference contains the following topics that discuss the core features of WMI.
+description: The WMI Reference contains the following topics that discuss the core features of WMI.
 ms.assetid: ebc2e4aa-a77d-44a3-b649-3b3748bb267e
 ms.tgt_platform: multiple
 title: WMI Reference

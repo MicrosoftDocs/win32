@@ -1,5 +1,5 @@
 ---
-Description: The IUpdateSearcher2 interface defines the following property.
+description: The IUpdateSearcher2 interface defines the following property.
 ms.assetid: 39f06905-8a5b-4607-b2b9-af0a49cf41a2
 title: IUpdateSearcher2 Properties
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Enumerations (Controls and Property Pages)
+description: Enumerations (Controls and Property Pages)
 ms.assetid: 2ac80d0f-94c2-4d70-a48a-1b0060f91902
 title: Enumerations
 ms.topic: article

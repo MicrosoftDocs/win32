@@ -1,5 +1,5 @@
 ---
-Description: The Qualifiers\_ property of the SWbemProperty object returns an SWbemQualifierSet object that is a collection of qualifiers for this WMI property. This property is read-only.
+description: The Qualifiers\_ property of the SWbemProperty object returns an SWbemQualifierSet object that is a collection of qualifiers for this WMI property. This property is read-only.
 ms.assetid: 4954872a-1f62-4065-99cc-2fdf989adbe4
 ms.tgt_platform: multiple
 title: SWbemProperty.Qualifiers_ property (Wbemdisp.h)

@@ -1,5 +1,5 @@
 ---
-Description: The SetSignedLargeIntegerValue method adds a new LONGLONG value (type VT\_I8) or overwrites an existing one.
+description: The SetSignedLargeIntegerValue method adds a new LONGLONG value (type VT\_I8) or overwrites an existing one.
 ms.assetid: 604b48ed-3e3f-4a06-91dd-7ece9f146824
 title: IPortableDeviceValues::SetSignedLargeIntegerValue method (PortableDeviceTypes.h)
 ms.topic: reference

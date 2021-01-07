@@ -1,5 +1,5 @@
 ---
-Description: The Privileges property is an SWbemPrivilegeSet object. This property is used to enable or disable specific Windows privileges. You may need to set one of these privileges to perform specific tasks using the Windows Management Instrumentation (WMI) API.
+description: The Privileges property is an SWbemPrivilegeSet object. This property is used to enable or disable specific Windows privileges. You may need to set one of these privileges to perform specific tasks using the Windows Management Instrumentation (WMI) API.
 ms.assetid: 6e4cae22-23d6-4981-b38c-d298654e59ab
 ms.tgt_platform: multiple
 title: SWbemSecurity.Privileges property (Wbemdisp.h)

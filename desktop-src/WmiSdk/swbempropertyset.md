@@ -1,5 +1,5 @@
 ---
-Description: An SWbemPropertySet object is a collection of SWbemProperty objects.
+description: An SWbemPropertySet object is a collection of SWbemProperty objects.
 ms.assetid: 0edad17b-facc-4885-9ce4-561ca6f57a66
 ms.tgt_platform: multiple
 title: SWbemPropertySet object (Wbemdisp.h)

@@ -1,5 +1,5 @@
 ---
-Description: The IInstallationResult interface defines the following method.
+description: The IInstallationResult interface defines the following method.
 ms.assetid: f3f854c2-385e-4b3f-ba73-2ca68e3c3437
 title: IInstallationResult Methods
 ms.topic: reference

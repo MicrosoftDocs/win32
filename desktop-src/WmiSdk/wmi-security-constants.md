@@ -1,5 +1,5 @@
 ---
-Description: WMI checks access rights for applications and scripts.
+description: WMI checks access rights for applications and scripts.
 ms.assetid: f6808f50-a1fd-434f-8a42-efa3afbe7871
 ms.tgt_platform: multiple
 title: WMI Security Constants

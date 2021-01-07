@@ -1,5 +1,5 @@
 ---
-Description: The SWbemEventSource object retrieves events from an event query in conjunction with SWbemServices.ExecNotificationQuery.
+description: The SWbemEventSource object retrieves events from an event query in conjunction with SWbemServices.ExecNotificationQuery.
 ms.assetid: 7efd5e6a-4311-4d20-8b05-e9208eec098a
 ms.tgt_platform: multiple
 title: SWbemEventSource object (Wbemdisp.h)

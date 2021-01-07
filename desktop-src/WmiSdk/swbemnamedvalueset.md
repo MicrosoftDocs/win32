@@ -1,5 +1,5 @@
 ---
-Description: An SWbemNamedValueSet object is a collection of SWbemNamedValue objects.
+description: An SWbemNamedValueSet object is a collection of SWbemNamedValue objects.
 ms.assetid: 7d1c3a28-d0d3-4108-9628-74ad483e328e
 ms.tgt_platform: multiple
 title: SWbemNamedValueSet object (Wbemdisp.h)

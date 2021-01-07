@@ -1,5 +1,5 @@
 ---
-Description: WMI has several types of class and property qualifiers. Qualifiers can also have modifying flavors.
+description: WMI has several types of class and property qualifiers. Qualifiers can also have modifying flavors.
 ms.assetid: b889df69-327b-40d0-bbd7-a33d7924f3e1
 ms.tgt_platform: multiple
 title: WMI Qualifiers

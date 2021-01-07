@@ -1,5 +1,5 @@
 ---
-Description: Represents a security descriptor.
+description: Represents a security descriptor.
 ms.assetid: 1ade1751-52a2-4ada-8255-323321111663
 ms.tgt_platform: multiple
 title: '__SecurityDescriptor class'

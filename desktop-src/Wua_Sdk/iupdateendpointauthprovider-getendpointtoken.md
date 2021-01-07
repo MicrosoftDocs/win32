@@ -1,5 +1,5 @@
 ---
-Description: Request a token for the endpoint of the service using the specified credentials.
+description: Request a token for the endpoint of the service using the specified credentials.
 ms.assetid: 2CA0F826-9A05-4385-AF1A-A8C05B3DAFE2
 title: IUpdateEndpointAuthProvider::GetEndpointToken method (UpdateEndpointAuth.h)
 ms.topic: reference

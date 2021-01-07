@@ -1,5 +1,5 @@
 ---
-Description: WMI providers also may maintain logs. Which log files appear on a system depends on which providers are installed.
+description: WMI providers also may maintain logs. Which log files appear on a system depends on which providers are installed.
 ms.assetid: 04f041e5-4f2c-4c94-9aba-b040d941b46d
 ms.tgt_platform: multiple
 title: WMI Provider Log Files

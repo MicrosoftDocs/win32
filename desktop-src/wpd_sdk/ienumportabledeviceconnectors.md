@@ -1,5 +1,5 @@
 ---
-Description: Supports the enumeration of IPortableDeviceConnector interfaces, representing MTP/Bluetooth devices that were paired with the PC.
+description: Supports the enumeration of IPortableDeviceConnector interfaces, representing MTP/Bluetooth devices that were paired with the PC.
 ms.assetid: 99aa1e89-5e20-4f6e-82b5-acf63305eba0
 title: IEnumPortableDeviceConnectors interface (Devpkey.h)
 ms.topic: reference

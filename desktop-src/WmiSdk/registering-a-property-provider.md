@@ -1,5 +1,5 @@
 ---
-Description: To create a WMI property provider you must register the \_\_Win32Provider instance that represents your provider using an instance of \_\_PropertyProviderRegistration.
+description: To create a WMI property provider you must register the \_\_Win32Provider instance that represents your provider using an instance of \_\_PropertyProviderRegistration.
 ms.assetid: e7e30acc-ea41-41e2-9bb3-cd931e8d799e
 ms.tgt_platform: multiple
 title: Registering a Property Provider

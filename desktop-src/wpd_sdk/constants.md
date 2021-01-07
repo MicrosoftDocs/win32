@@ -1,6 +1,6 @@
 ---
 title: WPD constants
-Description: Constants
+description: Constants
 ms.assetid: 523d88ac-7a8c-4de3-b973-60ec87334a67
 ms.topic: article
 ms.date: 05/31/2018

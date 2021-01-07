@@ -1,6 +1,6 @@
 ---
 title: Supporting WPD device-side content (ContextMenu)
-Description: Supporting Device-Side Content
+description: Supporting Device-Side Content
 ms.assetid: 47fb7f49-9026-43c1-be46-8a520c048862
 ms.topic: article
 ms.date: 05/31/2018

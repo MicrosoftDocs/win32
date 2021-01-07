@@ -1,5 +1,5 @@
 ---
-Description: WPD\_FUNCTIONAL\_CATEGORY\_SMS
+description: WPD\_FUNCTIONAL\_CATEGORY\_SMS
 ms.assetid: dbb536a6-9c12-459d-8098-ebe4fc4c8f2f
 title: WPD_FUNCTIONAL_CATEGORY_SMS
 ms.topic: article

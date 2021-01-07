@@ -1,5 +1,5 @@
 ---
-Description: Creates a copy of the current IEnumPortableDeviceConnectors interface.
+description: Creates a copy of the current IEnumPortableDeviceConnectors interface.
 ms.assetid: 64274cb0-1f57-481d-914f-41238cbe2f1b
 title: IEnumPortableDeviceConnectors::Clone method (Devpkey.h)
 ms.topic: reference

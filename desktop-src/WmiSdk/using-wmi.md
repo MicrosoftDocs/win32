@@ -1,5 +1,5 @@
 ---
-Description: Roadmap to using WMI to obtain data for client scripts and applications or to provide data to WMI from an application.
+description: Roadmap to using WMI to obtain data for client scripts and applications or to provide data to WMI from an application.
 ms.assetid: d9a3741c-313f-4b63-8588-696a10d370f5
 ms.tgt_platform: multiple
 title: Using WMI

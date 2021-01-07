@@ -1,5 +1,5 @@
 ---
-Description: Device Service Tasks
+description: Device Service Tasks
 ms.assetid: ca97c55e-90d1-410c-b41d-c49673c10388
 title: Device Service Tasks
 ms.topic: article

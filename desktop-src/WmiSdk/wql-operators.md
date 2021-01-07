@@ -1,5 +1,5 @@
 ---
-Description: Describes WQL operators used in the WHERE clause or the SELECT statement.
+description: Describes WQL operators used in the WHERE clause or the SELECT statement.
 ms.assetid: a62de66d-d5ba-49a1-8262-bfa10ac2db75
 ms.tgt_platform: multiple
 title: WQL Operators

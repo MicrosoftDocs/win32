@@ -1,5 +1,5 @@
 ---
-Description: Retrieving the Functional Object Identifiers for a Device
+description: Retrieving the Functional Object Identifiers for a Device
 ms.assetid: 9a13071a-95a1-4330-92d5-11fa72a8f211
 title: Retrieving the Functional Object Identifiers for a Device
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Defines the prefix to be used in the generated code for names of macros in the namespace.
+description: Defines the prefix to be used in the generated code for names of macros in the namespace.
 ms.assetid: ead82070-5546-4036-bff2-8da2714d4264
 title: macroPrefix element
 ms.topic: reference

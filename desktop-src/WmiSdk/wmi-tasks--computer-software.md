@@ -1,5 +1,5 @@
 ---
-Description: WMI tasks for computer software obtain information such as which software is installed by the Microsoft Windows Installer (MSI) and software versions. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
+description: WMI tasks for computer software obtain information such as which software is installed by the Microsoft Windows Installer (MSI) and software versions. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
 ms.assetid: 65a61be3-7870-4178-9e96-78b82898271f
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Computer Software'

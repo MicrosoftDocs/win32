@@ -1,5 +1,5 @@
 ---
-Description: The Path\_ property of the SWbemLastError object returns an SWbemObjectPath object that represents the object path of the current class or instance. This property can be passed as a parameter to methods that require an object path.
+description: The Path\_ property of the SWbemLastError object returns an SWbemObjectPath object that represents the object path of the current class or instance. This property can be passed as a parameter to methods that require an object path.
 ms.assetid: 5472e463-54cb-4ba2-8c00-08b70013e38d
 ms.tgt_platform: multiple
 title: SWbemLastError.Path_ property (Wbemdisp.h)

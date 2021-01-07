@@ -1,5 +1,5 @@
 ---
-Description: A WS-Discovery message used by a client to search for services on the network by service type.
+description: A WS-Discovery message used by a client to search for services on the network by service type.
 ms.assetid: a0ede1d9-2e13-4d5e-8ccd-9e0c0217cac7
 title: Probe Message
 ms.topic: article

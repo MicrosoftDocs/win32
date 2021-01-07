@@ -1,5 +1,5 @@
 ---
-Description: Describes a namespace.
+description: Describes a namespace.
 ms.assetid: 8e31526a-639f-481b-91f1-fcd376818cbf
 title: nameSpace element
 ms.topic: reference

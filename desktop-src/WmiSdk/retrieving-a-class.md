@@ -1,5 +1,5 @@
 ---
-Description: The first type of object you can retrieve is a WMI class.
+description: The first type of object you can retrieve is a WMI class.
 ms.assetid: cfe4bcca-692e-45cd-a840-93ebfe4ae267
 ms.tgt_platform: multiple
 title: Retrieving a WMI Class

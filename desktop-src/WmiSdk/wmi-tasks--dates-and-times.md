@@ -1,5 +1,5 @@
 ---
-Description: There are several WMI classes and a scripting object to parse or convert the CIM datetime format. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
+description: There are several WMI classes and a scripting object to parse or convert the CIM datetime format. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
 ms.assetid: dd01a732-5c88-4c24-a551-4d5452e712cc
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Dates and Times'

@@ -1,5 +1,5 @@
 ---
-Description: The CompareTo\_ method of the SWbemLastError object compares two SWbemObject objects. This comparison is subject to certain constraints based on the values specified in the iFlags parameter.
+description: The CompareTo\_ method of the SWbemLastError object compares two SWbemObject objects. This comparison is subject to certain constraints based on the values specified in the iFlags parameter.
 ms.assetid: 541510e4-ef8d-4436-966f-19c5df422281
 ms.tgt_platform: multiple
 title: SWbemLastError.CompareTo_ method (Wbemdisp.h)

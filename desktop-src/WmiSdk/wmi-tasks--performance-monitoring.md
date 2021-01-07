@@ -1,5 +1,5 @@
 ---
-Description: Use the WMI classes that obtain data from performance counters to access and refresh data about computer performance.
+description: Use the WMI classes that obtain data from performance counters to access and refresh data about computer performance.
 ms.assetid: 4c88de96-992e-4d34-ba93-35d2b6e73c1d
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Performance Monitoring'

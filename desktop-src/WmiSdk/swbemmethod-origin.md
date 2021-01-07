@@ -1,5 +1,5 @@
 ---
-Description: The Origin property of the SWbemMethod object returns the name of the class in which this method was introduced.
+description: The Origin property of the SWbemMethod object returns the name of the class in which this method was introduced.
 ms.assetid: da98393b-af95-47ad-b589-663063f65afb
 ms.tgt_platform: multiple
 title: SWbemMethod.Origin property (Wbemdisp.h)

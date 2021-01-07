@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the properties supported by an object.
+description: Retrieves the properties supported by an object.
 ms.assetid: 842bd4d6-0824-4597-bb5d-9ef8769055fb
 title: WPD_COMMAND_OBJECT_PROPERTIES_GET_SUPPORTED Command (PortableDevice.h)
 ms.topic: reference

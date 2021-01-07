@@ -1,5 +1,5 @@
 ---
-Description: You supply the Lightweight Directory Access Protocol (LDAP) namespace and Active Directory Services Interface (ADSI) paths when calling the Active Directory Provider through WMI.
+description: You supply the Lightweight Directory Access Protocol (LDAP) namespace and Active Directory Services Interface (ADSI) paths when calling the Active Directory Provider through WMI.
 ms.assetid: 55733fba-2170-4400-a516-896f6bf9525a
 ms.tgt_platform: multiple
 title: Using the Proper Active Directory Syntax

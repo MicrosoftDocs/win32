@@ -1,5 +1,5 @@
 ---
-Description: The ISystemInformation interface defines the following properties.
+description: The ISystemInformation interface defines the following properties.
 ms.assetid: 924ae169-b65e-4cd7-84a4-d206222233c8
 title: ISystemInformation Properties
 ms.topic: article

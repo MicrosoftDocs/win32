@@ -1,5 +1,5 @@
 ---
-Description: The Qualifiers\_ property of the SWbemMethod object returns an SWbemQualifierSet object that is the collection of qualifiers for this method. This property is read-only.
+description: The Qualifiers\_ property of the SWbemMethod object returns an SWbemQualifierSet object that is the collection of qualifiers for this method. This property is read-only.
 ms.assetid: 8cbbec60-3b8a-4390-97b6-1cb616e5b944
 ms.tgt_platform: multiple
 title: SWbemMethod.Qualifiers_ property (Wbemdisp.h)

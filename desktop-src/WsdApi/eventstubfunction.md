@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether stub function references should be included in the operation structures in the port type definitions for notification operations.
+description: Specifies whether stub function references should be included in the operation structures in the port type definitions for notification operations.
 ms.assetid: 8a2fd7b2-e37b-465a-ba83-a68877a2e0c3
 title: eventStubFunction element
 ms.topic: reference

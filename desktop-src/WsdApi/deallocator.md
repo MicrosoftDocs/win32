@@ -1,5 +1,5 @@
 ---
-Description: Specifies the type of deallocator to be used by a stub function.
+description: Specifies the type of deallocator to be used by a stub function.
 ms.assetid: 58228dfd-1d4b-41e5-b423-a54525021c22
 title: deallocator element
 ms.topic: reference

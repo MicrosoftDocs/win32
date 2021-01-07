@@ -1,5 +1,5 @@
 ---
-Description: The SNMP provider supports writing to log files and to the debugger.
+description: The SNMP provider supports writing to log files and to the debugger.
 ms.assetid: 66627927-2eee-4d56-a74b-f86147ad7711
 ms.tgt_platform: multiple
 title: SNMP Events

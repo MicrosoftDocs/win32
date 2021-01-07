@@ -1,5 +1,5 @@
 ---
-Description: Saves an object asynchronously to a namespace. When successful, this method sends an OnCompleted event to the SWbemSink object that is specified as an input parameter.
+description: Saves an object asynchronously to a namespace. When successful, this method sends an OnCompleted event to the SWbemSink object that is specified as an input parameter.
 ms.assetid: 27da0c60-6dae-482d-a9bf-1aab016d3ae8
 ms.tgt_platform: multiple
 title: SWbemServicesEx.PutAsync method (Wbemdisp.h)

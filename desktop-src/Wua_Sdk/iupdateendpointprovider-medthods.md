@@ -1,5 +1,5 @@
 ---
-Description: The IUpdateEndpointProvider interface defines the following method.
+description: The IUpdateEndpointProvider interface defines the following method.
 ms.assetid: DB0CE63E-E71A-459C-A4D1-5FCBA557659A
 title: IUpdateEndpointProvider methods
 ms.topic: reference

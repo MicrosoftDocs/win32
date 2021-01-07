@@ -1,5 +1,5 @@
 ---
-Description: Starting with Windows Vista, WMI contains many new features based upon requests by WMI users.
+description: Starting with Windows Vista, WMI contains many new features based upon requests by WMI users.
 ms.assetid: 604a86d2-9a8e-4266-93b8-13676f768b29
 ms.tgt_platform: multiple
 title: Whats New in Windows Vista
@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Whats New in Windows�Vista
+# Whats New in Windows�Vista
 
 Starting with Windows Vista, WMI contains many new features based upon requests by WMI users.
 

@@ -1,5 +1,5 @@
 ---
-Description: The Count property of the SWbemMethodSet object defines the number of items in the collection. This property is read-only.
+description: The Count property of the SWbemMethodSet object defines the number of items in the collection. This property is read-only.
 ms.assetid: 492dabef-f417-4b1e-bc3a-8d39d8f7ee35
 ms.tgt_platform: multiple
 title: SWbemMethodSet.Count property (Wbemdisp.h)

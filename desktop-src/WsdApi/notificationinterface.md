@@ -1,5 +1,5 @@
 ---
-Description: Specifies the name of the notification interface used with event subscriptions.
+description: Specifies the name of the notification interface used with event subscriptions.
 ms.assetid: 79c46e8f-f7e6-42ff-b3e8-d69c822acf74
 title: notificationInterface element
 ms.topic: reference

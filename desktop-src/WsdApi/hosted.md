@@ -1,5 +1,5 @@
 ---
-Description: Defines the ServiceID, Types,PnPXHardwareId, and PnPXCompatibleId elements for the services defined by the service host.
+description: Defines the ServiceID, Types,PnPXHardwareId, and PnPXCompatibleId elements for the services defined by the service host.
 ms.assetid: f901a88f-7e01-4e7f-a0f2-59f2a01b03cd
 title: hosted element
 ms.topic: reference

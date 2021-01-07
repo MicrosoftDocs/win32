@@ -1,5 +1,5 @@
 ---
-Description: Provides the methods that WUA can use to gather information about the endpoint token.
+description: Provides the methods that WUA can use to gather information about the endpoint token.
 ms.assetid: 52D22909-B926-426F-98C7-643C4469D021
 title: IUpdateEndpointAuthToken interface (UpdateEndpointAuth.h)
 ms.topic: reference

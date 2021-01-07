@@ -1,5 +1,5 @@
 ---
-Description: The SWbemProperty object represents a single WMI property of a managed object. This object cannot be created by the VBScript CreateObject call.
+description: The SWbemProperty object represents a single WMI property of a managed object. This object cannot be created by the VBScript CreateObject call.
 ms.assetid: 2ddcfffa-a7b4-4fd6-926d-411de27f6212
 ms.tgt_platform: multiple
 title: SWbemProperty object (Wbemdisp.h)

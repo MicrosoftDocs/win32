@@ -1,5 +1,5 @@
 ---
-Description: WMI tasks for networking manage and obtain information about connections and IP or MAC addresses. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
+description: WMI tasks for networking manage and obtain information about connections and IP or MAC addresses. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
 ms.assetid: 25da32c3-34bf-4c88-9b09-ff371f2cf8db
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Networking'
