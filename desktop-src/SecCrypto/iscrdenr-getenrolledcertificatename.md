@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the name of the certificate resulting from an earlier successful call to ISCrdEnr::enroll.
+description: Retrieves the name of the certificate resulting from an earlier successful call to ISCrdEnr::enroll.
 ms.assetid: e33b217a-b717-49bd-b0f3-3ba9229a0696
 title: ISCrdEnr::getEnrolledCertificateName method
 ms.topic: reference

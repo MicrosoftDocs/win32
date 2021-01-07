@@ -1,5 +1,5 @@
 ---
-Description: Defines which certificates in a chain are saved.
+description: Defines which certificates in a chain are saved.
 ms.assetid: 6f9e28e6-b01f-4803-8259-8ab73abeecf8
 title: CAPICOM_CERTIFICATE_INCLUDE_OPTION enumeration (Capicom.h)
 ms.topic: reference

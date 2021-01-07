@@ -1,5 +1,5 @@
 ---
-Description: Certificates are granted according to policies that define criteria that requesters must meet to receive a certificate.
+description: Certificates are granted according to policies that define criteria that requesters must meet to receive a certificate.
 ms.assetid: ad79dc0d-6457-4459-80e6-ab340436ecac
 title: Policy Independence
 ms.topic: article

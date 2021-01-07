@@ -1,5 +1,5 @@
 ---
-Description: The IX509AttributeArchiveKeyHash interface exposes the following properties.
+description: The IX509AttributeArchiveKeyHash interface exposes the following properties.
 ms.assetid: FE44AA0E-1655-41A5-B716-895860AE4160
 title: IX509AttributeArchiveKeyHash Properties
 ms.topic: reference

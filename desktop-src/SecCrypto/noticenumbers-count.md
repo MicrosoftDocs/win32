@@ -1,5 +1,5 @@
 ---
-Description: The Count property retrieves the number of Extension objects in the collection.
+description: The Count property retrieves the number of Extension objects in the collection.
 ms.assetid: fc185f7b-813b-4115-8c5f-01900f9f8b6c
 title: NoticeNumbers.Count property
 ms.topic: reference

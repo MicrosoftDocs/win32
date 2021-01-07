@@ -1,5 +1,5 @@
 ---
-Description: The Version property retrieves the version number of the certificate.
+description: The Version property retrieves the version number of the certificate.
 ms.assetid: 7f135a1a-ca77-4ff1-9437-532e468c6b41
 title: Certificate.Version property
 ms.topic: reference

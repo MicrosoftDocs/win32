@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the hashed data after successful calls to the Hash method.
+description: Retrieves the hashed data after successful calls to the Hash method.
 ms.assetid: 02ba92d2-38eb-4c01-99b9-11676e7d49ff
 title: HashedData.Value property
 ms.topic: reference

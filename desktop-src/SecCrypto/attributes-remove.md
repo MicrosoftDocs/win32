@@ -1,5 +1,5 @@
 ---
-Description: Removes an indexed Attribute object from the collection.
+description: Removes an indexed Attribute object from the collection.
 ms.assetid: 6d9423e3-ab24-4973-b0aa-32e38abd607a
 title: Attributes.Remove method
 ms.topic: reference

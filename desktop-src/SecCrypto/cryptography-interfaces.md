@@ -1,5 +1,5 @@
 ---
-Description: Lists the interfaces provided by CryptoAPI.
+description: Lists the interfaces provided by CryptoAPI.
 ms.assetid: f94f0264-78b8-4a28-9d3a-dda55db29897
 title: Cryptography Interfaces
 ms.topic: article

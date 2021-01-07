@@ -1,5 +1,5 @@
 ---
-Description: The following structures are used by cryptography functions.
+description: The following structures are used by cryptography functions.
 ms.assetid: de40287f-d4a7-4b6b-a30b-bd0acad2df26
 title: Cryptography Structures
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Indicates the encoding type used.
+description: Indicates the encoding type used.
 ms.assetid: 13e78a5e-3a31-44de-b249-28e360e1e087
 title: CAPICOM_ENCODING_TYPE enumeration (Capicom.h)
 ms.topic: reference

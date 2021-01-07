@@ -1,5 +1,5 @@
 ---
-Description: The \_NewEnum property of OIDs retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
+description: The \_NewEnum property of OIDs retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
 ms.assetid: 7c09fd11-064b-451e-bd6b-e6c13ab228a0
 title: OIDs._NewEnum property
 ms.topic: reference

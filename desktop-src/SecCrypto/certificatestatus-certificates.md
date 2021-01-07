@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the collection of certificates that can be used to build the certificate chain.
+description: Sets or retrieves the collection of certificates that can be used to build the certificate chain.
 ms.assetid: cdf378f9-0d71-4dd9-93cc-85f09a51c5fc
 title: CertificateStatus.Certificates property
 ms.topic: reference

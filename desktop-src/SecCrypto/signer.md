@@ -1,5 +1,5 @@
 ---
-Description: Establishes the signer of a SignedData or SignedCode object.
+description: Establishes the signer of a SignedData or SignedCode object.
 ms.assetid: 'fca6489c-56cf-472f-ac0f-73ba531fa212'
 title: Signer object
 ms.topic: reference

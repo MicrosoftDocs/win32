@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the certificate is for a certification authority (CA).
+description: Retrieves a Boolean value that indicates whether the certificate is for a certification authority (CA).
 ms.assetid: 3ca43475-fe97-4eb4-875d-dbc15a0b953c
 title: BasicConstraints.IsCertificateAuthority property
 ms.topic: reference

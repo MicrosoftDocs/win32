@@ -1,5 +1,5 @@
 ---
-Description: Imports a previously encoded certificate from a string into the Certificate object.
+description: Imports a previously encoded certificate from a string into the Certificate object.
 ms.assetid: 8515e034-08aa-4575-9b96-34cdee3ccba8
 title: ICertificate2::Import method
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the value of the public key.
+description: Retrieves the value of the public key.
 ms.assetid: d9846ebe-44df-4ee0-8f15-cc96883d9d53
 title: PublicKey.EncodedKey property
 ms.topic: reference

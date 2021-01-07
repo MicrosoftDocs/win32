@@ -1,5 +1,5 @@
 ---
-Description: Lists the functions provided by CryptoAPI.
+description: Lists the functions provided by CryptoAPI.
 ms.assetid: 9a65f73d-6f8c-4271-a2d0-d91ad952f9c6
 title: Cryptography Functions
 ms.topic: article

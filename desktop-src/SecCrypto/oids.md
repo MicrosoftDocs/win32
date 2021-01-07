@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of OID objects.
+description: Represents a collection of OID objects.
 ms.assetid: 2c4ff87a-58e1-46aa-9680-29062b05308c
 title: OIDs object
 ms.topic: reference

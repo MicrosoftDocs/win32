@@ -1,5 +1,5 @@
 ---
-Description: Adds an Attribute object to the collection.
+description: Adds an Attribute object to the collection.
 ms.assetid: dc2fe542-7168-4ffa-a10d-b2c051c4d42c
 title: Attributes.Add method
 ms.topic: reference

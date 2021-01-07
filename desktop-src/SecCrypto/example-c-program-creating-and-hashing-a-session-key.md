@@ -1,5 +1,5 @@
 ---
-Description: Creates and hashes a session key that can be used to encrypt a message, text, or file.
+description: Creates and hashes a session key that can be used to encrypt a message, text, or file.
 ms.assetid: 15d4a05d-5888-4532-91fd-6cd94afe0b99
 title: 'Example C Program: Creating and Hashing a Session Key'
 ms.topic: article

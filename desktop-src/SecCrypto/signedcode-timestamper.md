@@ -1,5 +1,5 @@
 ---
-Description: The TimeStamper property retrieves the time stamper of the signed executable file.
+description: The TimeStamper property retrieves the time stamper of the signed executable file.
 ms.assetid: f630b94f-015a-4387-938f-1b8c6b7895e9
 title: SignedCode.TimeStamper property
 ms.topic: reference

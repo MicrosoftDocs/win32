@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of Attribute objects in the collection.
+description: Retrieves the number of Attribute objects in the collection.
 ms.assetid: d5f9db7d-52a2-4feb-8d35-902caf536510
 title: Attributes.Count property
 ms.topic: reference

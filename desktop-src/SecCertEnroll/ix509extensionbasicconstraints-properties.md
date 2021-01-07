@@ -1,5 +1,5 @@
 ---
-Description: The IX509ExtensionBasicConstraints interface exposes the following properties.
+description: The IX509ExtensionBasicConstraints interface exposes the following properties.
 ms.assetid: 4AD07F8A-B770-47D0-9C67-D44396B4CADA
 title: IX509ExtensionBasicConstraints Properties
 ms.topic: reference

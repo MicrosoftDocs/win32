@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Certificate object that represents the indexed certificate of the collection. This is the default property.
+description: Retrieves a Certificate object that represents the indexed certificate of the collection. This is the default property.
 ms.assetid: 733f2b93-c059-4041-b7cd-8c20218f1462
 title: Certificates.Item property
 ms.topic: reference

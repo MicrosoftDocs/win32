@@ -1,5 +1,5 @@
 ---
-Description: Removes a Certificate object from a Recipients collection.
+description: Removes a Certificate object from a Recipients collection.
 ms.assetid: bb75f6d0-4bab-40dd-9d0c-f0431da9c5f3
 title: Recipients.Remove method
 ms.topic: reference

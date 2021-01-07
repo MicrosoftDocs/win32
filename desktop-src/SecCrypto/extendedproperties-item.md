@@ -1,5 +1,5 @@
 ---
-Description: The Item property retrieves an ExtendedProperty object from the collection. This is the default property.
+description: The Item property retrieves an ExtendedProperty object from the collection. This is the default property.
 ms.assetid: add819e1-6330-483a-8a76-3b7fb8d3f110
 title: ExtendedProperties.Item property
 ms.topic: reference

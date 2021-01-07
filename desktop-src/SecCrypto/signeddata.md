@@ -1,5 +1,5 @@
 ---
-Description: Provides properties and methods to establish the content to be signed with a digital signature, to sign or cosign data digitally, and to verify the digital signature of signed data. The signed message is in PKCS \#7 format.
+description: Provides properties and methods to establish the content to be signed with a digital signature, to sign or cosign data digitally, and to verify the digital signature of signed data. The signed message is in PKCS \#7 format.
 ms.assetid: 500437e8-a637-4e89-9ac9-aa3ea20d437f
 title: SignedData object
 ms.topic: reference

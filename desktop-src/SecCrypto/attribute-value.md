@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the value of the attribute.
+description: Sets or retrieves the value of the attribute.
 ms.assetid: aaf0c07c-756f-48c8-b4cd-def40f7cb1a3
 title: Attribute.Value property
 ms.topic: reference

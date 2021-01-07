@@ -1,5 +1,5 @@
 ---
-Description: Represents a Microsoft-extended property.
+description: Represents a Microsoft-extended property.
 ms.assetid: 91375fd5-b3af-4ed4-961d-5cc1db1a14e3
 title: ExtendedProperty object
 ms.topic: reference

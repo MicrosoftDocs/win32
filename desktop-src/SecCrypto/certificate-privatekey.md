@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the private key associated with the certificate.
+description: Sets or retrieves the private key associated with the certificate.
 ms.assetid: 976d81b4-5cbe-4824-9087-9a908b0e60e5
 title: Certificate.PrivateKey property
 ms.topic: reference

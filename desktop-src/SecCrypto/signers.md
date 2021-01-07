@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of Signer objects.
+description: Represents a collection of Signer objects.
 ms.assetid: '72e86acd-eb87-4eff-bd4e-327630ebbfc4'
 title: Signers object
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The ICertServerPolicy interface exposes the following methods.
+description: The ICertServerPolicy interface exposes the following methods.
 ms.assetid: F8544D29-1DC6-438D-A8CF-0A67D4D6C2BC
 title: ICertServerPolicy Methods
 ms.topic: reference

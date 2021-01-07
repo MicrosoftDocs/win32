@@ -1,5 +1,5 @@
 ---
-Description: Depicts the tasks that must be accomplished to create a signed message.
+description: Depicts the tasks that must be accomplished to create a signed message.
 ms.assetid: 61896022-28c2-4f70-977a-c990b4b23c55
 title: Creating a Signed Message
 ms.topic: article

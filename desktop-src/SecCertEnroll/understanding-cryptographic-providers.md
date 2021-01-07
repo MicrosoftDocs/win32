@@ -1,5 +1,5 @@
 ---
-Description: Providers implement cryptographic algorithms, generate keys, provide key storage, and authenticate users. Providers can be implemented in hardware, software, or both.
+description: Providers implement cryptographic algorithms, generate keys, provide key storage, and authenticate users. Providers can be implemented in hardware, software, or both.
 ms.assetid: 42f76d22-1f0e-4e20-a19e-e5e926ab27f9
 title: Understanding Cryptographic Providers
 ms.topic: article

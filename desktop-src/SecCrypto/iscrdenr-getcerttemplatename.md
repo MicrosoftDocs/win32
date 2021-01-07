@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the name of the certificate template.
+description: Retrieves the name of the certificate template.
 ms.assetid: 26fd758a-b348-4efb-841b-c8f2ab88efea
 title: ISCrdEnr::getCertTemplateName method
 ms.topic: reference

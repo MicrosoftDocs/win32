@@ -1,5 +1,5 @@
 ---
-Description: Describes the format of an exported Diffie-Hellman version 3 private key BLOB.
+description: Describes the format of an exported Diffie-Hellman version 3 private key BLOB.
 ms.assetid: c759e6e1-f7af-4cd6-a67e-ff0da1e91eb1
 title: Diffie-Hellman Version 3 Private Key BLOBs
 ms.topic: article

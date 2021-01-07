@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the Certificates collection that is associated with the SignedData object. After being retrieved, the individual Certificate objects in the collection can be enumerated.
+description: Retrieves the Certificates collection that is associated with the SignedData object. After being retrieved, the individual Certificate objects in the collection can be enumerated.
 ms.assetid: 94741fee-2462-4a18-bc14-c52e9cac374b
 title: SignedData.Certificates property
 ms.topic: reference

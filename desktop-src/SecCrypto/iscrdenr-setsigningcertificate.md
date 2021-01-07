@@ -1,5 +1,5 @@
 ---
-Description: Specifies a signing certificate (also known as the enrollment agent certificate).
+description: Specifies a signing certificate (also known as the enrollment agent certificate).
 ms.assetid: db2437a9-46f6-48c3-9630-82ec556df645
 title: ISCrdEnr::setSigningCertificate method
 ms.topic: reference

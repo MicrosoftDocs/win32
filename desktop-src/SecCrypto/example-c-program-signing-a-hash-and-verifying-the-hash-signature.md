@@ -1,5 +1,5 @@
 ---
-Description: The following example hashes some data and signs that hash. In a second phase, the hash and its signature are verified. The hash is signed with the user's private key, and the signer's public key is exported so that the signature can be verified.
+description: The following example hashes some data and signs that hash. In a second phase, the hash and its signature are verified. The hash is signed with the user's private key, and the signer's public key is exported so that the signature can be verified.
 ms.assetid: 72f5d30a-efd5-4bf5-8057-cb73e5aa0514
 title: 'Example C Program: Signing a Hash and Verifying the Hash Signature'
 ms.topic: article

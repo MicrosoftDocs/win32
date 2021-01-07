@@ -1,5 +1,5 @@
 ---
-Description: The IOCSPCAConfiguration interface exposes the following properties.
+description: The IOCSPCAConfiguration interface exposes the following properties.
 ms.assetid: 55F0245D-FC56-449E-A4D8-0DB9F1930393
 title: IOCSPCAConfiguration Properties
 ms.topic: reference

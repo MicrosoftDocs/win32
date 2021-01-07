@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates how to request a key archival certificate.
+description: Demonstrates how to request a key archival certificate.
 ms.assetid: a09f55c1-fb27-41e7-9a2f-617d2360c02f
 title: Requesting a Key Archival Certificate
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The data in a certificate, certificate revocation list (CRL), or certificate trust list (CTL) context, including any extensions, is read-only and cannot be changed.
+description: The data in a certificate, certificate revocation list (CRL), or certificate trust list (CTL) context, including any extensions, is read-only and cannot be changed.
 ms.assetid: a9958c59-dc89-4d59-8ad3-6651ea4a1e56
 title: Certificate Extended Properties
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the signer's certificate option.
+description: Sets or retrieves the signer's certificate option.
 ms.assetid: 2362b9d4-d4d8-46fb-8791-7e856827fb31
 title: Signer.Options property
 ms.topic: reference

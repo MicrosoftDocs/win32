@@ -1,5 +1,5 @@
 ---
-Description: Attributes are included in a PKCS \#10 certificate request by adding them to the CertificationRequestInfo structure shown in the following ASN.1 syntax example.
+description: Attributes are included in a PKCS \#10 certificate request by adding them to the CertificationRequestInfo structure shown in the following ASN.1 syntax example.
 ms.assetid: 5f00f638-9edb-474b-a7e4-f6f7b62c89a4
 title: PKCS \#10 Attributes
 ms.topic: article

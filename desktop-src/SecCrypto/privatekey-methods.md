@@ -1,5 +1,5 @@
 ---
-Description: The PrivateKey object exposes the following methods.
+description: The PrivateKey object exposes the following methods.
 ms.assetid: 7C8CF645-FF24-4E06-88CD-8CA3FA5C95A9
 title: PrivateKey Methods
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The IX509CertificateTemplates interface exposes the following methods.
+description: The IX509CertificateTemplates interface exposes the following methods.
 ms.assetid: 29982EC4-3E60-43DC-A314-625A07CBEC67
 title: IX509CertificateTemplates Methods
 ms.topic: reference

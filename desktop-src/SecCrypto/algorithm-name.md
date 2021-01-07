@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the algorithm used for signing, enveloping, and encrypting operations. This is the default property.
+description: Sets or retrieves the algorithm used for signing, enveloping, and encrypting operations. This is the default property.
 ms.assetid: e1144a9c-a352-4f73-a91c-ea66f3d61608
 title: Algorithm.Name property
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: CNG has the following features.
+description: CNG has the following features.
 ms.assetid: 400a2b6e-6bbe-4ba4-abde-a2f625007517
 title: CNG Features
 ms.topic: article

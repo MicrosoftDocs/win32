@@ -1,5 +1,5 @@
 ---
-Description: The IX509Attribute interface exposes the following methods.
+description: The IX509Attribute interface exposes the following methods.
 ms.assetid: 8F6CD249-A6DD-42AF-915D-98B300198E84
 title: IX509Attribute Methods
 ms.topic: reference

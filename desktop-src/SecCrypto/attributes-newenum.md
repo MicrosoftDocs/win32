@@ -1,5 +1,5 @@
 ---
-Description: The \_NewEnum property of Attributes retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
+description: The \_NewEnum property of Attributes retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
 ms.assetid: a90ef28b-3926-4542-bcd2-27f0eda4e339
 title: Attributes._NewEnum property
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an object from the Recipients collection.
+description: Retrieves an object from the Recipients collection.
 ms.assetid: 03600d4a-5fd4-45c7-ae91-efdc26c084ee
 title: Recipients.Item property
 ms.topic: reference

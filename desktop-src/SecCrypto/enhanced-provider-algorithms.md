@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Enhanced Cryptographic Provider supports the following algorithms.
+description: The Microsoft Enhanced Cryptographic Provider supports the following algorithms.
 ms.assetid: d58bcd99-c54b-4fda-9fe1-e10a66707d81
 title: Enhanced Provider Algorithms
 ms.topic: article

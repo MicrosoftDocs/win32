@@ -1,5 +1,5 @@
 ---
-Description: Represents the private key associated with a certificate.
+description: Represents the private key associated with a certificate.
 ms.assetid: '26ad1d1c-17c5-4191-ac97-b911e62b4119'
 title: PrivateKey object
 ms.topic: reference

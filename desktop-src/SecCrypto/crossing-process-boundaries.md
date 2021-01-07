@@ -1,5 +1,5 @@
 ---
-Description: The Schannel protocol engine performs the handshaking and authentication in a secure process and the bulk encryption/message passing in the application process.
+description: The Schannel protocol engine performs the handshaking and authentication in a secure process and the bulk encryption/message passing in the application process.
 ms.assetid: bcd49aaf-b0e3-4c31-be95-986b8ad843a8
 title: Crossing Process Boundaries
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The IX509AttributeOSVersion interface exposes the following properties.
+description: The IX509AttributeOSVersion interface exposes the following properties.
 ms.assetid: 78584313-A150-4CA0-B025-2A44A9774320
 title: IX509AttributeOSVersion Properties
 ms.topic: reference
