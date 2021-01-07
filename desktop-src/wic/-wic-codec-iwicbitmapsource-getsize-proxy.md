@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetSize method.
+description: Proxy function for the GetSize method.
 ms.assetid: a9b7d01c-78d9-47b8-a373-a7c49f7bccfd
 title: IWICBitmapSource_GetSize_Proxy function
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateBitmapFromHICON method.
+description: Proxy function for the CreateBitmapFromHICON method.
 ms.assetid: 5df3d9d9-1b23-4f38-b97e-0b77d6db99d8
 title: IWICImagingFactory_CreateBitmapFromHICON_Proxy function
 ms.topic: reference

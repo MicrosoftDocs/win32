@@ -1,5 +1,5 @@
 ---
-Description: You can use the Logman tool to collect tracing information for VSS applications that use Automated System Recovery (ASR).
+description: You can use the Logman tool to collect tracing information for VSS applications that use Automated System Recovery (ASR).
 ms.assetid: 872609c8-a123-40a8-96ca-58f34d37f3d8
 title: Using Tracing Tools with ASR Applications
 ms.topic: article

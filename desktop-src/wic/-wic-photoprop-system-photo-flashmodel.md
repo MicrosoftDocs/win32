@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.FlashModel property.
+description: The photo metadata policy for the System.Photo.FlashModel property.
 ms.assetid: ef322823-1b87-40ea-a5e3-e7551f14e44d
 title: System.Photo.FlashModel Photo Metadata Policy
 ms.topic: article

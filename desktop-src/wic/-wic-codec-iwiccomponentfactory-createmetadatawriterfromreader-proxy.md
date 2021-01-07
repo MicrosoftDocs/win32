@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateMetadataWriterFromReader method.
+description: Proxy function for the CreateMetadataWriterFromReader method.
 ms.assetid: da9e80d3-3265-428d-987e-8b344472527a
 title: IWICComponentFactory_CreateMetadataWriterFromReader_Proxy function
 ms.topic: reference

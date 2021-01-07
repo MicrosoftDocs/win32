@@ -1,5 +1,5 @@
 ---
-Description: Checks whether a specified extension is available on the machine and can be used by the IWiaItem2::GetExtension method.
+description: Checks whether a specified extension is available on the machine and can be used by the IWiaItem2::GetExtension method.
 ms.assetid: 672f6418-4ce3-4570-a412-fe639c9f5eb8
 title: IWiaItem2::CheckExtension method (Wia.h)
 ms.topic: reference

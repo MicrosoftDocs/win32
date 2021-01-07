@@ -1,5 +1,5 @@
 ---
-Description: Sorts a list of IP addresses.
+description: Sorts a list of IP addresses.
 ms.assetid: 1266d6f3-e9f5-4e6b-9431-7329df156f0a
 title: sortIpAddressList function
 ms.topic: reference

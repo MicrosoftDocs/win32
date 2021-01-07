@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetColorContexts method.
+description: Proxy function for the GetColorContexts method.
 ms.assetid: 1925a64e-558d-4931-a3c3-b35d2b92a292
 title: IWICBitmapFrameDecode_GetColorContexts_Proxy function
 ms.topic: reference

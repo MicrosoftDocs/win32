@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetFrame method.
+description: Proxy function for the GetFrame method.
 ms.assetid: 31612afa-5017-4ddb-bdf8-25555db35da5
 title: IWICBitmapDecoder_GetFrame_Proxy function
 ms.topic: reference

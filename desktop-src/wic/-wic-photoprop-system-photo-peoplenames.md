@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.PeopleNames property.
+description: The photo metadata policy for the System.Photo.PeopleNames property.
 ms.assetid: 567d5542-fc7b-4d19-bc3c-b9d6e26e3387
 title: System.Photo.PeopleNames Photo Metadata Policy
 ms.topic: article

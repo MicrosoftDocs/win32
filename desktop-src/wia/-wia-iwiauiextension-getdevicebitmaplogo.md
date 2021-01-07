@@ -1,5 +1,5 @@
 ---
-Description: Gets a custom bitmap logo for the device.
+description: Gets a custom bitmap logo for the device.
 ms.assetid: 56b3c7c9-64f4-4853-9eb7-d876d02a851f
 title: IWiaUIExtension::GetDeviceBitmapLogo method (Wiadevd.h)
 ms.topic: reference

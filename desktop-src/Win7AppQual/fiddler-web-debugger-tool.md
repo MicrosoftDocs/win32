@@ -1,5 +1,5 @@
 ---
-Description: .
+description: .
 ms.assetid: AC23504B-ADFD-4204-954C-79167EBFB31A
 title: Fiddler Web Debugger Tool
 ms.topic: article

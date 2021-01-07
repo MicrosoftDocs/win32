@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the Initialize method.
+description: Proxy function for the Initialize method.
 ms.assetid: 60925f5c-aca4-4f49-96d2-9b58d8310e3c
 title: IWICBitmapClipper_Initialize_Proxy function
 ms.topic: reference

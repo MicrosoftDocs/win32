@@ -1,7 +1,7 @@
 ---
 title: WDS Transport Management Enumerations
 ms.assetid: dad1b0a0-2db8-4af8-a149-04c9e7788487
-description: 
+description: "Learn more about: WDS Transport Management Enumerations"
 ms.topic: article
 ms.date: 05/31/2018
 ---

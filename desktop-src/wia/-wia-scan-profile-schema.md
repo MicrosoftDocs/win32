@@ -1,5 +1,5 @@
 ---
-Description: The Scan Profile Schema defines an XML format that can be used to store the properties of Windows Image Acquisition (WIA) items, such as scanners and cameras.
+description: The Scan Profile Schema defines an XML format that can be used to store the properties of Windows Image Acquisition (WIA) items, such as scanners and cameras.
 ms.assetid: e0848db3-652a-45be-a18b-99b82420c586
 title: Scan Profile Schema
 ms.topic: article

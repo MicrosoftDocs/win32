@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the SetResolution method.
+description: Proxy function for the SetResolution method.
 ms.assetid: c4e3927c-6f9d-401d-acd7-711674cdbb53
 title: IWICBitmap_SetResolution_Proxy function
 ms.topic: reference

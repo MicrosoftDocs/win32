@@ -1,5 +1,5 @@
 ---
-Description: After performing the actions described in Overview of Restore Initialization and Overview of Preparing for Restore, the requester has sufficient information to begin restoring files.
+description: After performing the actions described in Overview of Restore Initialization and Overview of Preparing for Restore, the requester has sufficient information to begin restoring files.
 ms.assetid: 15df39fa-1eb1-4e96-9e26-14470f391de4
 title: Overview of Actual File Restoration
 ms.topic: article

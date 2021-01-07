@@ -1,5 +1,5 @@
 ---
-Description: These attributes and modifiers are used by WinHttpQueryHeaders.
+description: These attributes and modifiers are used by WinHttpQueryHeaders.
 ms.assetid: c26dac1d-9a75-440a-a0ef-a2029f138f3b
 title: Query Info Flags (Winhttp.h)
 ms.topic: reference

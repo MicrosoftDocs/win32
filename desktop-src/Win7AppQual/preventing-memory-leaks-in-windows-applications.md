@@ -1,5 +1,5 @@
 ---
-Description: .
+description: .
 ms.assetid: c5dedcab-3e6f-433f-95de-d741321c683e
 title: Preventing Memory Leaks in Windows Applications
 ms.topic: article

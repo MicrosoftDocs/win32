@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Subject property.
+description: The photo metadata policy for the System.Subject property.
 ms.assetid: 5ab7c74b-8a5e-4329-8a49-291470d406cc
 title: System.Subject Photo Metadata Policy
 ms.topic: article

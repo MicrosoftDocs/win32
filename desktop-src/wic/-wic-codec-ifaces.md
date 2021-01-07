@@ -1,5 +1,5 @@
 ---
-Description: This section contains information about the Windows Imaging Component (WIC) interfaces.
+description: This section contains information about the Windows Imaging Component (WIC) interfaces.
 ms.assetid: 542a6194-38fd-4592-bc25-5a41f5cd9cb7
 title: Interfaces
 ms.topic: article

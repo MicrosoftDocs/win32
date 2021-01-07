@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for creating an IWICColorContext.
+description: Proxy function for creating an IWICColorContext.
 ms.assetid: 66348ef2-3056-4ec7-84ad-6e022e320a33
 title: WICCreateColorContext_Proxy function
 ms.topic: reference

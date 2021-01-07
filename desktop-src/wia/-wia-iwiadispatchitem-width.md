@@ -1,5 +1,5 @@
 ---
-Description: The width, in pixels, of the item. Read only.
+description: The width, in pixels, of the item. Read only.
 ms.assetid: 4e636b76-af16-4fc1-8b88-2e0a2a24f841
 title: Item.Width property
 ms.topic: reference

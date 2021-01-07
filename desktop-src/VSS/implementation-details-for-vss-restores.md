@@ -1,5 +1,5 @@
 ---
-Description: 'The following topics describe implementation details for VSS restores: Generating a Restore SetRestoring Incremental and Differential BackupsWorking with Mounted Folders and Reparse PointsWorking with Alternate Locations during RestoreWorking with New Targets during Restore'
+description: 'The following topics describe implementation details for VSS restores: Generating a Restore SetRestoring Incremental and Differential BackupsWorking with Mounted Folders and Reparse PointsWorking with Alternate Locations during RestoreWorking with New Targets during Restore'
 ms.assetid: 425754fe-5957-4d6b-a55d-eb271fb370bb
 title: Implementation Details for VSS Restores
 ms.topic: article

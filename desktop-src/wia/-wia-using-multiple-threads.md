@@ -1,5 +1,5 @@
 ---
-Description: When using a Windows Image Acquisition (WIA) interface in more than one thread within a single process, an application must provide marshalling for that interface.
+description: When using a Windows Image Acquisition (WIA) interface in more than one thread within a single process, an application must provide marshalling for that interface.
 ms.assetid: b125b36e-1428-4aa6-b367-eac78291c88e
 title: Using Multiple Threads in a WIA Application
 ms.topic: article

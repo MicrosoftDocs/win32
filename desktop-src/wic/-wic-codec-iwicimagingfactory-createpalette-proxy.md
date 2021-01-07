@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreatePalette method.
+description: Proxy function for the CreatePalette method.
 ms.assetid: c83b4239-ce6b-4a4c-ab70-df31dfcdd26c
 title: IWICImagingFactory_CreatePalette_Proxy function
 ms.topic: reference

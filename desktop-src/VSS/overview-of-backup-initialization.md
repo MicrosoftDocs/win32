@@ -1,5 +1,5 @@
 ---
-Description: This stage of the backup initializes both the writer and the requester, filling in their internal data structures, specifying the backup and establishes writer/requester communication through the required call to IVssBackupComponents::GatherWriterMetadata. For more information, see Overview of Processing a Backup Under VSS.
+description: This stage of the backup initializes both the writer and the requester, filling in their internal data structures, specifying the backup and establishes writer/requester communication through the required call to IVssBackupComponents::GatherWriterMetadata. For more information, see Overview of Processing a Backup Under VSS.
 ms.assetid: 1fc46062-c4a0-4aa2-ae05-3d7cded18584
 title: Overview of Backup Initialization
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The height, in pixels, of the item. Read only.
+description: The height, in pixels, of the item. Read only.
 ms.assetid: 0df73d33-c1ae-43e1-b906-00540e04dfd9
 title: Item.Height property
 ms.topic: reference

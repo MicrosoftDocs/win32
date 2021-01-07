@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateBitmapFromSource method.
+description: Proxy function for the CreateBitmapFromSource method.
 ms.assetid: 7d000377-1855-4971-b782-4c0bf7968c5f
 title: IWICImagingFactory_CreateBitmapFromSource_Proxy function
 ms.topic: reference

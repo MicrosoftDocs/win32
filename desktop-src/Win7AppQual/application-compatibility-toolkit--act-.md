@@ -1,5 +1,5 @@
 ---
-Description: Application Compatibility Toolkit (ACT)
+description: Application Compatibility Toolkit (ACT)
 ms.assetid: 9e288a0e-3978-4fd6-b3a7-b36c1bb2b18b
 title: Application Compatibility Toolkit (ACT)
 ms.topic: article

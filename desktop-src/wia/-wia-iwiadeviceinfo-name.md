@@ -1,5 +1,5 @@
 ---
-Description: The name of the Windows Image Acquisition (WIA) hardware device as it appears in the UI.
+description: The name of the Windows Image Acquisition (WIA) hardware device as it appears in the UI.
 ms.assetid: 0d53dcd1-2ae5-476c-9fdf-cdea61e0711b
 title: DeviceInfo.Name property
 ms.topic: reference

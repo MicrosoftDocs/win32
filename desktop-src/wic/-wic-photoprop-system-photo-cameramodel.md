@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.CameraModel property.
+description: The photo metadata policy for the System.Photo.CameraModel property.
 ms.assetid: ff85e6ee-dc75-45bc-a406-2290b012c22d
 title: System.Photo.CameraModel Photo Metadata Policy
 ms.topic: article

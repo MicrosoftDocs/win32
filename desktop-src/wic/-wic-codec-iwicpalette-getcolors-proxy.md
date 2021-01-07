@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetColors method.
+description: Proxy function for the GetColors method.
 ms.assetid: 31590de3-f35c-4253-9a80-2f59c795bf3f
 title: IWICPalette_GetColors_Proxy function
 ms.topic: reference

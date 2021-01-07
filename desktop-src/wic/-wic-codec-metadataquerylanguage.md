@@ -1,5 +1,5 @@
 ---
-Description: This topic introduces the metadata query language for Windows Imaging Component (WIC).
+description: This topic introduces the metadata query language for Windows Imaging Component (WIC).
 ms.assetid: 5ffa0a69-b53d-4be3-b802-deaaa743e6bd
 title: Metadata Query Language Overview
 ms.topic: article

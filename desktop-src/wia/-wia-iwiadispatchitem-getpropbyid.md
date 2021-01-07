@@ -1,5 +1,5 @@
 ---
-Description: The GetPropById method of the Item object uses the ID of an item property to return its value.
+description: The GetPropById method of the Item object uses the ID of an item property to return its value.
 ms.assetid: 00f7a91c-fd55-4016-a932-f710045a14b8
 title: Item.GetPropById method
 ms.topic: reference

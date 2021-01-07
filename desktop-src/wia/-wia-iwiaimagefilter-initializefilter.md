@@ -1,5 +1,5 @@
 ---
-Description: Initializes the filter. Called by Windows Image Acquisition (WIA) 2.0 before each image download.
+description: Initializes the filter. Called by Windows Image Acquisition (WIA) 2.0 before each image download.
 ms.assetid: 0487900d-2103-4314-b18d-58ff97d6f524
 title: IWiaImageFilter::InitializeFilter method (Wia.h)
 ms.topic: reference

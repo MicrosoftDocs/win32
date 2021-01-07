@@ -1,5 +1,5 @@
 ---
-Description: The following are hints for interoperating correctly with various file system and security features that were introduced in Windows Vista and Windows Server 2008.
+description: The following are hints for interoperating correctly with various file system and security features that were introduced in Windows Vista and Windows Server 2008.
 ms.assetid: 3e8a1fd2-59e5-4f18-aafc-0ce5ac1e1cfa
 title: Working with File System and Security Features
 ms.topic: article

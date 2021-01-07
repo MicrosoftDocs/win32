@@ -1,5 +1,5 @@
 ---
-Description: WIA event identifiers are globally unique identifiers (GUID) defined by the Windows Image Acquisition (WIA) system.
+description: WIA event identifiers are globally unique identifiers (GUID) defined by the Windows Image Acquisition (WIA) system.
 ms.assetid: b94221b3-7cab-40d7-850a-fcc4ec8174b5
 title: WIA Event Identifiers
 ms.topic: article

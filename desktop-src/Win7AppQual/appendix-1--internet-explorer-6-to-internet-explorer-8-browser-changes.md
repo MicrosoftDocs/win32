@@ -1,5 +1,5 @@
 ---
-Description: The following table describes changes between Microsoft Internet Explorer 6 and Windows Internet Explorer 8.
+description: The following table describes changes between Microsoft Internet Explorer 6 and Windows Internet Explorer 8.
 ms.assetid: 5A7DDFC4-69A4-4B5A-9C0A-6172E2142494
 title: IE 8 browser changes
 ms.topic: article

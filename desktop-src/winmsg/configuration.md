@@ -1,5 +1,5 @@
 ---
-Description: Configuration
+description: Configuration
 ms.assetid: aba21473-07cc-4de9-a310-ad9b43c133eb
 title: Configuration (Windows and Messages)
 ms.topic: article

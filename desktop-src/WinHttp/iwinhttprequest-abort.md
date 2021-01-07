@@ -1,5 +1,5 @@
 ---
-Description: The Abort method aborts a WinHTTP Send method.
+description: The Abort method aborts a WinHTTP Send method.
 ms.assetid: 8326feef-8611-4441-b52d-74855e6acfff
 title: IWinHttpRequest::Abort method
 ms.topic: reference

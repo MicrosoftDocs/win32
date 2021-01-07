@@ -1,5 +1,5 @@
 ---
-Description: Windows Imaging Component (WIC) has been updated with new releases of Windows. This topic provides a quick introduction to these new features.
+description: Windows Imaging Component (WIC) has been updated with new releases of Windows. This topic provides a quick introduction to these new features.
 ms.assetid: 710B71CE-6FCC-46DA-A65C-6E4FC6A04275
 title: What's New in WIC
 ms.topic: article

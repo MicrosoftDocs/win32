@@ -1,5 +1,5 @@
 ---
-Description: .
+description: .
 ms.assetid: 8b93bf4f-c9da-4edf-8bd8-cf9f39a0b79a
 title: Window Macros
 ms.topic: article

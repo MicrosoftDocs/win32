@@ -1,5 +1,5 @@
 ---
-Description: Opens an HTTP connection to an HTTP resource.
+description: Opens an HTTP connection to an HTTP resource.
 ms.assetid: 5207e873-44c0-4eeb-9db8-d8b69432070c
 title: IWinHttpRequest::Open method
 ms.topic: reference

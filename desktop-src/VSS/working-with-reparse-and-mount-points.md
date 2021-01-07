@@ -1,5 +1,5 @@
 ---
-Description: Processing one of a component's file sets may require a requester to traverse a directory tree recursively, which can require the requester to handle mounted folders and reparse points (such as links) that point to data that is not on the current volume.
+description: Processing one of a component's file sets may require a requester to traverse a directory tree recursively, which can require the requester to handle mounted folders and reparse points (such as links) that point to data that is not on the current volume.
 ms.assetid: d0e08598-a8a2-489b-9cb2-e989bed1ce53
 title: Working with Mounted Folders and Reparse Points
 ms.topic: article

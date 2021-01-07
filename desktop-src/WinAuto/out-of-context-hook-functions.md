@@ -1,7 +1,7 @@
 ---
 title: Out-of-Context Hook Functions
 ms.assetid: 'c0156485-db1e-42d3-bbbd-c51835a597ed'
-description: 
+description: "Learn more about: Out-of-Context Hook Functions"
 ms.topic: article
 ms.date: 05/31/2018
 ---

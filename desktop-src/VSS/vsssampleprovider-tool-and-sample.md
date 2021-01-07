@@ -1,5 +1,5 @@
 ---
-Description: Shows how to use the VSS interfaces to create a VSS hardware provider.
+description: Shows how to use the VSS interfaces to create a VSS hardware provider.
 ms.assetid: 4d3c3f3c-22d2-4246-afef-aee2a0bd52d6
 title: VssSampleProvider Tool and Sample
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Creates an additional instance of the IEnumWiaItem2 interface and sends back a pointer to it.
+description: Creates an additional instance of the IEnumWiaItem2 interface and sends back a pointer to it.
 ms.assetid: 0d36d555-d0d9-4a1c-ac54-de611850449c
 title: IEnumWiaItem2::Clone method (Wia.h)
 ms.topic: reference

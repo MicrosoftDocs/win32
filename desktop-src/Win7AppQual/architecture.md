@@ -1,5 +1,5 @@
 ---
-Description: Loosely-coupled Internet Explorer (LCIE) improves the browser’s reliability by separating its components and loosening their interdependence.
+description: Loosely-coupled Internet Explorer (LCIE) improves the browser’s reliability by separating its components and loosening their interdependence.
 ms.assetid: 7609090E-7E2B-4B1F-80FF-192B30A40244
 title: Architecture (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 ms.topic: article

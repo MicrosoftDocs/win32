@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateDecoderFromFilename method.
+description: Proxy function for the CreateDecoderFromFilename method.
 ms.assetid: 12c60899-0fe0-47d0-9026-48c74df328ef
 title: IWICImagingFactory_CreateDecoderFromFilename_Proxy function
 ms.topic: reference

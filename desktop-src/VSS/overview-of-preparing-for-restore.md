@@ -1,5 +1,5 @@
 ---
-Description: In preparing for a restore, a requester uses the stored Writer Metadata Documents in conjunction with its own retrieved Backup Components Document to determine what is to be restored and how.
+description: In preparing for a restore, a requester uses the stored Writer Metadata Documents in conjunction with its own retrieved Backup Components Document to determine what is to be restored and how.
 ms.assetid: 36cf188f-fce6-467c-a200-cbd9dc8f31a6
 title: Overview of Preparing for Restore
 ms.topic: article
