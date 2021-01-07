@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ERR"
 title: JET_ERR
 TOCTitle: JET_ERR
 ms:assetid: cd9cb876-251c-458d-a015-8e9045e77fc9

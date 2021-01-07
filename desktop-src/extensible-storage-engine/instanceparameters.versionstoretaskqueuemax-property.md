@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.VersionStoreTaskQueueMax property"
 title: InstanceParameters.VersionStoreTaskQueueMax property 
 TOCTitle: 'VersionStoreTaskQueueMax property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.VersionStoreTaskQueueMax

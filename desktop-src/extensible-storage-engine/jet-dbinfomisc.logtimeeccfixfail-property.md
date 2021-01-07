@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.logtimeECCFixFail property"
 title: JET_DBINFOMISC.logtimeECCFixFail property 
 TOCTitle: 'logtimeECCFixFail property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.logtimeECCFixFail

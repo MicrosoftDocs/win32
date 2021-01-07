@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetDeleteColumn Function"
 title: JetDeleteColumn Function
 TOCTitle: JetDeleteColumn Function
 ms:assetid: b2f4be8c-7ea9-4f66-925b-4e9c14d9d475

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Extensible Storage Engine Errors"
 title: Extensible Storage Engine Errors
 TOCTitle: Extensible Storage Engine Errors
 ms:assetid: 0c071ed6-0ea2-448b-9f9f-e606c5abf3db

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVRootPathInvalidException methods"
 title: EsentSLVRootPathInvalidException methods
 TOCTitle: EsentSLVRootPathInvalidException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVRootPathInvalidException

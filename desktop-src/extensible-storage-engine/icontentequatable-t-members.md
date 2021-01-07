@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IContentEquatable<T> members"
 title: IContentEquatable(T) members
 TOCTitle: IContentEquatable(T) members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.IContentEquatable`1

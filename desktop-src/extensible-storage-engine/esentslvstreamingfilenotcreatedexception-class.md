@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileNotCreatedException class"
 title: EsentSLVStreamingFileNotCreatedException class
 TOCTitle: EsentSLVStreamingFileNotCreatedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileNotCreatedException

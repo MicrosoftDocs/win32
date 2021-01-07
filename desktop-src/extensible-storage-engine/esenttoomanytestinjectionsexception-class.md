@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyTestInjectionsException class"
 title: EsentTooManyTestInjectionsException class
 TOCTitle: EsentTooManyTestInjectionsException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTooManyTestInjectionsException

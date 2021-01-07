@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStopwatch.Reset method"
 title: EsentStopwatch.Reset method 
 TOCTitle: 'Reset method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentStopwatch.Reset

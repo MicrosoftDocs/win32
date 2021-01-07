@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetDetachDatabase Function"
 title: JetDetachDatabase Function
 TOCTitle: JetDetachDatabase Function
 ms:assetid: 629f19e5-99f3-425a-b6ba-de18daec7efe

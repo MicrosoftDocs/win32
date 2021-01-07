@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyAttachedDatabasesException methods"
 title: EsentTooManyAttachedDatabasesException methods
 TOCTitle: EsentTooManyAttachedDatabasesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManyAttachedDatabasesException

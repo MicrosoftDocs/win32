@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexInfo.CultureInfo property"
 title: IndexInfo.CultureInfo property 
 TOCTitle: 'CultureInfo property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexInfo.CultureInfo

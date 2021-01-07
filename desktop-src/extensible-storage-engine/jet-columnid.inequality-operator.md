@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNID.Inequality operator"
 title: JET_COLUMNID.Inequality operator 
 TOCTitle: 'Inequality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNID.op_Inequality(Microsoft.Isam.Esent.Interop.JET_COLUMNID,Microsoft.Isam.Esent.Interop.JET_COLUMNID)

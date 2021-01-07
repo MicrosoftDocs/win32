@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.Equals method"
 title: JET_DBINFOMISC.Equals method 
 TOCTitle: 'Equals method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.Equals

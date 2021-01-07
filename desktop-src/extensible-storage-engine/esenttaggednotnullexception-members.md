@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTaggedNotNULLException members"
 title: EsentTaggedNotNULLException members
 TOCTitle: EsentTaggedNotNULLException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTaggedNotNULLException

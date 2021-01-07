@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVSpaceCorruptedException constructor"
 title: EsentSLVSpaceCorruptedException constructor 
 TOCTitle: 'EsentSLVSpaceCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVSpaceCorruptedException.#ctor

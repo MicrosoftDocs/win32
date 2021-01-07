@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMN methods"
 title: JET_ENUMCOLUMN methods
 TOCTitle: JET_ENUMCOLUMN methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMN

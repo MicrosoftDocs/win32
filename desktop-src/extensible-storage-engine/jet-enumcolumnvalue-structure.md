@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMNVALUE Structure"
 title: JET_ENUMCOLUMNVALUE Structure
 TOCTitle: JET_ENUMCOLUMNVALUE Structure
 ms:assetid: a9882d7b-0c53-4a5d-bc98-0979e6e68c88

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetSessionParameter Function"
 title: JetGetSessionParameter Function
 TOCTitle: JetGetSessionParameter Function
 ms:assetid: 36fbcc06-a72d-4bfb-976b-1b705487732a

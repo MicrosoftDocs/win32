@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKINFO Structure"
 title: JET_BKINFO Structure
 TOCTitle: JET_BKINFO Structure
 ms:assetid: dfaf1d72-1d5f-4777-91c1-6affb735b092

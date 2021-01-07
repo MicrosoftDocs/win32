@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_BKLOGTIME properties"
 title: JET_BKLOGTIME properties
 TOCTitle: JET_BKLOGTIME properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME

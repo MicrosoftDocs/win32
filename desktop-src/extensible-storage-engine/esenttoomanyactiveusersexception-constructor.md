@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyActiveUsersException constructor"
 title: EsentTooManyActiveUsersException constructor 
 TOCTitle: 'EsentTooManyActiveUsersException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyActiveUsersException.#ctor

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FloatColumnValue.Size property"
 title: FloatColumnValue.Size property 
 TOCTitle: 'Size property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.FloatColumnValue.Size

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexRangeGrbit enumeration"
 title: IndexRangeGrbit enumeration
 TOCTitle: IndexRangeGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.IndexRangeGrbit

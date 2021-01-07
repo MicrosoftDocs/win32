@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileFullException members"
 title: EsentSLVStreamingFileFullException members
 TOCTitle: EsentSLVStreamingFileFullException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileFullException

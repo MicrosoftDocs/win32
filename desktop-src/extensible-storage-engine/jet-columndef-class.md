@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNDEF class"
 title: JET_COLUMNDEF class
 TOCTitle: JET_COLUMNDEF class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_COLUMNDEF

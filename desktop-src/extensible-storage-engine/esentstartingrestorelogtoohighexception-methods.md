@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStartingRestoreLogTooHighException methods"
 title: EsentStartingRestoreLogTooHighException methods
 TOCTitle: EsentStartingRestoreLogTooHighException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentStartingRestoreLogTooHighException

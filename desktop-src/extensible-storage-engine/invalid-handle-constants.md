@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invalid Handle Constants"
 title: Invalid Handle Constants
 TOCTitle: Invalid Handle Constants
 ms:assetid: 594d7804-725f-4f72-b5f0-56f099c1c17b

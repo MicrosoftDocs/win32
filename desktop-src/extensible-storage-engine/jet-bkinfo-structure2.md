@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKINFO structure"
 title: JET_BKINFO structure
 TOCTitle: JET_BKINFO structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_BKINFO

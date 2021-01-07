@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentVersion properties"
 title: EsentVersion properties
 TOCTitle: EsentVersion properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentVersion

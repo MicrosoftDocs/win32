@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetLock Function"
 title: JetGetLock Function
 TOCTitle: JetGetLock Function
 ms:assetid: cebf0789-3d31-4ae8-9b23-dcf5e34e98fc

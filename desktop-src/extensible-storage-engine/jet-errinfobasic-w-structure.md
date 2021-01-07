@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_ERRINFOBASIC_W Structure"
 title: JET_ERRINFOBASIC_W Structure
 TOCTitle: JET_ERRINFOBASIC_W Structure
 ms:assetid: fcc55cb7-718d-419a-a473-15e030c23abd

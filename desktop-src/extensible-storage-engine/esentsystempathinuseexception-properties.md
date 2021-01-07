@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSystemPathInUseException properties"
 title: EsentSystemPathInUseException properties
 TOCTitle: EsentSystemPathInUseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSystemPathInUseException

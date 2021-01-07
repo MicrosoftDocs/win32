@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCreateTable Function"
 title: JetCreateTable Function
 TOCTitle: JetCreateTable Function
 ms:assetid: 28455b8b-0000-4bd5-a3ca-e1ef0446ee07

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUsageException properties"
 title: EsentUsageException properties
 TOCTitle: EsentUsageException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentUsageException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexInfo.ToString method"
 title: IndexInfo.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.IndexInfo.ToString

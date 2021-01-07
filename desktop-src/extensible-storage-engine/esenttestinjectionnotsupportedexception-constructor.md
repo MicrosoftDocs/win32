@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTestInjectionNotSupportedException constructor"
 title: EsentTestInjectionNotSupportedException constructor 
 TOCTitle: 'EsentTestInjectionNotSupportedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTestInjectionNotSupportedException.#ctor

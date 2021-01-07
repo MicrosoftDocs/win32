@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTableInUseException methods"
 title: EsentTableInUseException methods
 TOCTitle: EsentTableInUseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTableInUseException

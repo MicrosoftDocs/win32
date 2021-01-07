@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStopwatch methods"
 title: EsentStopwatch methods
 TOCTitle: EsentStopwatch methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentStopwatch

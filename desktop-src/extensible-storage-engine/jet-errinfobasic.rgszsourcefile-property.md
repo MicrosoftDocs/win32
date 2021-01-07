@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ERRINFOBASIC.rgszSourceFile property"
 title: JET_ERRINFOBASIC.rgszSourceFile property  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'rgszSourceFile property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC.rgszSourceFile

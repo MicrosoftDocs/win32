@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE.cbKeyMost property"
 title: JET_INDEXCREATE.cbKeyMost property 
 TOCTitle: 'cbKeyMost property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.cbKeyMost

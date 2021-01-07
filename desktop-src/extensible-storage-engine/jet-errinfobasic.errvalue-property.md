@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ERRINFOBASIC.errValue property"
 title: JET_ERRINFOBASIC.errValue property  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'errValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC.errValue

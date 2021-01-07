@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyOpenDatabasesException methods"
 title: EsentTooManyOpenDatabasesException methods
 TOCTitle: EsentTooManyOpenDatabasesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenDatabasesException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.bkinfoCopyPrev property"
 title: JET_DBINFOMISC.bkinfoCopyPrev property 
 TOCTitle: 'bkinfoCopyPrev property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.bkinfoCopyPrev

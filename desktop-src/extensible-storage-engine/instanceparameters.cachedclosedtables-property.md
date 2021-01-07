@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.CachedClosedTables property"
 title: InstanceParameters.CachedClosedTables property 
 TOCTitle: 'CachedClosedTables property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.CachedClosedTables

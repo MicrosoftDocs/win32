@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNDEF constructor"
 title: JET_COLUMNDEF constructor 
 TOCTitle: 'JET_COLUMNDEF constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNDEF.#ctor

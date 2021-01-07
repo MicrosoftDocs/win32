@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSpaceHintsInvalidException methods"
 title: EsentSpaceHintsInvalidException methods
 TOCTitle: EsentSpaceHintsInvalidException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSpaceHintsInvalidException

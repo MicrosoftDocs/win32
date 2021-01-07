@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.bkinfoDiffPrev property"
 title: JET_DBINFOMISC.bkinfoDiffPrev property 
 TOCTitle: 'bkinfoDiffPrev property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.bkinfoDiffPrev

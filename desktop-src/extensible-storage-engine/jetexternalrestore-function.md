@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetExternalRestore Function"
 title: JetExternalRestore Function
 TOCTitle: JetExternalRestore Function
 ms:assetid: c930689a-3ea6-4c5a-9318-76f519f23343

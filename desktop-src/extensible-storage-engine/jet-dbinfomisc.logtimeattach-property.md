@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.logtimeAttach property"
 title: JET_DBINFOMISC.logtimeAttach property 
 TOCTitle: 'logtimeAttach property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.logtimeAttach

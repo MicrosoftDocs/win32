@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersion.SupportsLargeKeys property"
 title: EsentVersion.SupportsLargeKeys property 
 TOCTitle: 'SupportsLargeKeys property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentVersion.SupportsLargeKeys

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetBeginExternalBackup Function"
 title: JetBeginExternalBackup Function
 TOCTitle: JetBeginExternalBackup Function
 ms:assetid: 702e6cbf-4648-40f2-b2eb-6194759d4cde

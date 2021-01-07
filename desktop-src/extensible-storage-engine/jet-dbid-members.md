@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBID members"
 title: JET_DBID members
 TOCTitle: JET_DBID members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_DBID

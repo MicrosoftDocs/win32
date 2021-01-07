@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVProviderVersionMismatchException constructor"
 title: EsentSLVProviderVersionMismatchException constructor 
 TOCTitle: 'EsentSLVProviderVersionMismatchException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVProviderVersionMismatchException.#ctor

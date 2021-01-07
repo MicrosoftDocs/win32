@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNLIST.columnidcbMax property"
 title: JET_COLUMNLIST.columnidcbMax property 
 TOCTitle: 'columnidcbMax property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNLIST.columnidcbMax

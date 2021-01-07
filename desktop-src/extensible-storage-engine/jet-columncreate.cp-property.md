@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNCREATE.cp property"
 title: JET_COLUMNCREATE.cp property 
 TOCTitle: 'cp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE.cp

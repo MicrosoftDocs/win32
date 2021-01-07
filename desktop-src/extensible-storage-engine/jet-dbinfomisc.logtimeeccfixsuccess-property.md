@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.logtimeECCFixSuccess property"
 title: JET_DBINFOMISC.logtimeECCFixSuccess property 
 TOCTitle: 'logtimeECCFixSuccess property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.logtimeECCFixSuccess

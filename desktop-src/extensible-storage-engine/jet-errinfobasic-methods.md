@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ERRINFOBASIC methods"
 title: JET_ERRINFOBASIC methods (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_ERRINFOBASIC methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC

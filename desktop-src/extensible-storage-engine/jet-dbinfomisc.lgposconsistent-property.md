@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.lgposConsistent property"
 title: JET_DBINFOMISC.lgposConsistent property 
 TOCTitle: 'lgposConsistent property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.lgposConsistent

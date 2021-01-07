@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyKeysException constructor"
 title: EsentTooManyKeysException constructor 
 TOCTitle: 'EsentTooManyKeysException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyKeysException.#ctor

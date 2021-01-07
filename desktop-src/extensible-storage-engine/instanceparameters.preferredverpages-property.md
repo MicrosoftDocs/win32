@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.PreferredVerPages property"
 title: InstanceParameters.PreferredVerPages property 
 TOCTitle: 'PreferredVerPages property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.PreferredVerPages

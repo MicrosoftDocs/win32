@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters constructor"
 title: InstanceParameters constructor 
 TOCTitle: 'InstanceParameters constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.InstanceParameters.#ctor(Microsoft.Isam.Esent.Interop.JET_INSTANCE)

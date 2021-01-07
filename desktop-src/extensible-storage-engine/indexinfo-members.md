@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexInfo members"
 title: IndexInfo members
 TOCTitle: IndexInfo members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.IndexInfo

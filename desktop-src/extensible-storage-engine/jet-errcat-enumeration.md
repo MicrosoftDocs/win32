@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ERRCAT enumeration"
 title: JET_ERRCAT enumeration (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_ERRCAT enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.JET_ERRCAT

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IDeepCloneable<T> interface"
 title: IDeepCloneable(T) interface
 TOCTitle: IDeepCloneable(T) interface
 ms:assetid: T:Microsoft.Isam.Esent.Interop.IDeepCloneable`1

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.logtimeDetach property"
 title: JET_DBINFOMISC.logtimeDetach property 
 TOCTitle: 'logtimeDetach property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.logtimeDetach

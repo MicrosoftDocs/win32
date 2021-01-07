@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_BKLOGTIME operators"
 title: JET_BKLOGTIME operators
 TOCTitle: JET_BKLOGTIME operators
 ms:assetid: 633be928-2fde-b1cf-2761-b64764fd01b4

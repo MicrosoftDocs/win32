@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersionStoreEntryTooBigException properties"
 title: EsentVersionStoreEntryTooBigException properties
 TOCTitle: EsentVersionStoreEntryTooBigException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentVersionStoreEntryTooBigException

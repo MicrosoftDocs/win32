@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_HANDLE members"
 title: JET_HANDLE members
 TOCTitle: JET_HANDLE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_HANDLE

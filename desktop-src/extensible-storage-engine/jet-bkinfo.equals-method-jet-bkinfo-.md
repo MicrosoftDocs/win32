@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKINFO.Equals method (JET_BKINFO)"
 title: JET_BKINFO.Equals method (JET_BKINFO)
 TOCTitle: Equals method (JET_BKINFO)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_BKINFO.Equals(Microsoft.Isam.Esent.Interop.JET_BKINFO)

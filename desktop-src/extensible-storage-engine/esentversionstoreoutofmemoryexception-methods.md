@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersionStoreOutOfMemoryException methods"
 title: EsentVersionStoreOutOfMemoryException methods
 TOCTitle: EsentVersionStoreOutOfMemoryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentVersionStoreOutOfMemoryException

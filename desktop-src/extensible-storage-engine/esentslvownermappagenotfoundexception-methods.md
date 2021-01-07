@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVOwnerMapPageNotFoundException methods"
 title: EsentSLVOwnerMapPageNotFoundException methods
 TOCTitle: EsentSLVOwnerMapPageNotFoundException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVOwnerMapPageNotFoundException

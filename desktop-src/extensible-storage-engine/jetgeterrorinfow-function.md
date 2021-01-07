@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetErrorInfoW Function"
 title: JetGetErrorInfoW Function
 TOCTitle: JetGetErrorInfoW Function
 ms:assetid: 7a84f937-7a16-434e-896d-789f316ee833

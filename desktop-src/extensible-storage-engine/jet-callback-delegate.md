@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CALLBACK delegate"
 title: JET_CALLBACK delegate
 TOCTitle: JET_CALLBACK delegate
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_CALLBACK

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStopwatch constructor"
 title: EsentStopwatch constructor 
 TOCTitle: 'EsentStopwatch constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentStopwatch.#ctor

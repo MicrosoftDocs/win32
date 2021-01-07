@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGotoPosition Function"
 title: JetGotoPosition Function
 TOCTitle: JetGotoPosition Function
 ms:assetid: 77b099f1-4a21-4ddb-b269-83ca74219b4d

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNBASE.GetHashCode method"
 title: JET_COLUMNBASE.GetHashCode method 
 TOCTitle: 'GetHashCode method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNBASE.GetHashCode

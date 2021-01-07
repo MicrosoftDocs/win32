@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNID.GreaterThan operator"
 title: JET_COLUMNID.GreaterThan operator 
 TOCTitle: 'GreaterThan operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNID.op_GreaterThan(Microsoft.Isam.Esent.Interop.JET_COLUMNID,Microsoft.Isam.Esent.Interop.JET_COLUMNID)

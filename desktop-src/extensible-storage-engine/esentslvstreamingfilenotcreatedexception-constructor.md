@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileNotCreatedException constructor"
 title: EsentSLVStreamingFileNotCreatedException constructor 
 TOCTitle: 'EsentSLVStreamingFileNotCreatedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileNotCreatedException.#ctor

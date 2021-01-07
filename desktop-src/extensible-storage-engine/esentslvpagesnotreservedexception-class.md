@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVPagesNotReservedException class"
 title: EsentSLVPagesNotReservedException class
 TOCTitle: EsentSLVPagesNotReservedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotReservedException

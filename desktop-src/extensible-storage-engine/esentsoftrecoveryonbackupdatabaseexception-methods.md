@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSoftRecoveryOnBackupDatabaseException methods"
 title: EsentSoftRecoveryOnBackupDatabaseException methods
 TOCTitle: EsentSoftRecoveryOnBackupDatabaseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSoftRecoveryOnBackupDatabaseException

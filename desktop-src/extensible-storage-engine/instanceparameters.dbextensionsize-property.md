@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.DbExtensionSize property"
 title: InstanceParameters.DbExtensionSize property 
 TOCTitle: 'DbExtensionSize property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.DbExtensionSize

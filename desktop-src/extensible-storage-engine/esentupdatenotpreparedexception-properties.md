@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUpdateNotPreparedException properties"
 title: EsentUpdateNotPreparedException properties
 TOCTitle: EsentUpdateNotPreparedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentUpdateNotPreparedException

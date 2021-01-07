@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyIOException properties"
 title: EsentTooManyIOException properties
 TOCTitle: EsentTooManyIOException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManyIOException

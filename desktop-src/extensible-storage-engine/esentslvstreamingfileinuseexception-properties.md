@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileInUseException properties"
 title: EsentSLVStreamingFileInUseException properties
 TOCTitle: EsentSLVStreamingFileInUseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileInUseException

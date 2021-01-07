@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMNID.rgtagSequence property"
 title: JET_ENUMCOLUMNID.rgtagSequence property 
 TOCTitle: 'rgtagSequence property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNID.rgtagSequence

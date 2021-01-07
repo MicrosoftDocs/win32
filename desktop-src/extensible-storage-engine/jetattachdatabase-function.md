@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetAttachDatabase Function"
 title: JetAttachDatabase Function
 TOCTitle: JetAttachDatabase Function
 ms:assetid: bc4c9a76-203c-424a-ac17-f096e3a6e04e

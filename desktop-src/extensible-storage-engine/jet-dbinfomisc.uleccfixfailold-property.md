@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.ulECCFixFailOld property"
 title: JET_DBINFOMISC.ulECCFixFailOld property 
 TOCTitle: 'ulECCFixFailOld property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.ulECCFixFailOld

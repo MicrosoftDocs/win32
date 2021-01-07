@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNCREATE Structure"
 title: JET_COLUMNCREATE Structure
 TOCTitle: JET_COLUMNCREATE Structure
 ms:assetid: 553263a9-7d2c-4bd7-ad77-1dfb6d21ef2c

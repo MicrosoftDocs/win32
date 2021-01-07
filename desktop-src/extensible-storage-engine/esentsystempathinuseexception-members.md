@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSystemPathInUseException members"
 title: EsentSystemPathInUseException members
 TOCTitle: EsentSystemPathInUseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSystemPathInUseException

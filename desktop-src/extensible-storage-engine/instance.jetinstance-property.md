@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance.JetInstance property"
 title: Instance.JetInstance property 
 TOCTitle: 'JetInstance property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Instance.JetInstance

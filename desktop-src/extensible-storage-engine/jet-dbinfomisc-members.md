@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC members"
 title: JET_DBINFOMISC members
 TOCTitle: JET_DBINFOMISC members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC

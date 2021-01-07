@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyIOException constructor"
 title: EsentTooManyIOException constructor 
 TOCTitle: 'EsentTooManyIOException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyIOException.#ctor

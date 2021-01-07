@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNID.Equality operator"
 title: JET_COLUMNID.Equality operator 
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNID.op_Equality(Microsoft.Isam.Esent.Interop.JET_COLUMNID,Microsoft.Isam.Esent.Interop.JET_COLUMNID)

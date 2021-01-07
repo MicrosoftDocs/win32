@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_DBID operators"
 title: JET_DBID operators
 TOCTitle: JET_DBID operators
 ms:assetid: 3ea69a68-c166-c943-97ba-19a80faa9b4f

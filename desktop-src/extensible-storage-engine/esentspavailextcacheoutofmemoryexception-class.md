@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSPAvailExtCacheOutOfMemoryException class"
 title: EsentSPAvailExtCacheOutOfMemoryException class
 TOCTitle: EsentSPAvailExtCacheOutOfMemoryException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCacheOutOfMemoryException

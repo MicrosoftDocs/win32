@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMN.cEnumColumnValue property"
 title: JET_ENUMCOLUMN.cEnumColumnValue property 
 TOCTitle: 'cEnumColumnValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMN.cEnumColumnValue

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.PrereadIOMax property"
 title: InstanceParameters.PrereadIOMax property 
 TOCTitle: 'PrereadIOMax property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.PrereadIOMax

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNBASE Structure"
 title: JET_COLUMNBASE Structure
 TOCTitle: JET_COLUMNBASE Structure
 ms:assetid: 171275c3-966d-409d-ad20-a8f240f7500d

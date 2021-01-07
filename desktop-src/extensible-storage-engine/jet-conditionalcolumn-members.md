@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CONDITIONALCOLUMN members"
 title: JET_CONDITIONALCOLUMN members
 TOCTitle: JET_CONDITIONALCOLUMN members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_CONDITIONALCOLUMN

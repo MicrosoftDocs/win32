@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetEndExternalBackupInstance Function"
 title: JetEndExternalBackupInstance Function
 TOCTitle: JetEndExternalBackupInstance Function
 ms:assetid: 2256f63e-91f5-44ad-b67e-506dd71ffa94

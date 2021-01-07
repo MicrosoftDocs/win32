@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMN members"
 title: JET_ENUMCOLUMN members
 TOCTitle: JET_ENUMCOLUMN members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMN

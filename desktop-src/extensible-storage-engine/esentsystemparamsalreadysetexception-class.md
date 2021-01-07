@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSystemParamsAlreadySetException class"
 title: EsentSystemParamsAlreadySetException class
 TOCTitle: EsentSystemParamsAlreadySetException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSystemParamsAlreadySetException

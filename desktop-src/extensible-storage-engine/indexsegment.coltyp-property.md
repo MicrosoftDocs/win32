@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexSegment.Coltyp property"
 title: IndexSegment.Coltyp property 
 TOCTitle: 'Coltyp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexSegment.Coltyp

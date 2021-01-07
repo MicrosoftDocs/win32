@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOUPGRADE Structure"
 title: JET_DBINFOUPGRADE Structure
 TOCTitle: JET_DBINFOUPGRADE Structure
 ms:assetid: dd8a881a-33b5-4314-8cfb-b1d75ad37b21

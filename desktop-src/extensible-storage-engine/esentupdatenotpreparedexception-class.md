@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUpdateNotPreparedException class"
 title: EsentUpdateNotPreparedException class
 TOCTitle: EsentUpdateNotPreparedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentUpdateNotPreparedException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.SystemDirectory property"
 title: InstanceParameters.SystemDirectory property 
 TOCTitle: 'SystemDirectory property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.SystemDirectory

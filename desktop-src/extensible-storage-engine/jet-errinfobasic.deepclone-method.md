@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ERRINFOBASIC.DeepClone method"
 title: JET_ERRINFOBASIC.DeepClone method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'DeepClone method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC.DeepClone

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IJET_LOGTIME members"
 title: IJET_LOGTIME members
 TOCTitle: IJET_LOGTIME members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.IJET_LOGTIME

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Int64ColumnValue constructor"
 title: Int64ColumnValue constructor 
 TOCTitle: 'Int64ColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Int64ColumnValue.#ctor
