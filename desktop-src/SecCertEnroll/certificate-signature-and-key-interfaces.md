@@ -1,5 +1,5 @@
 ---
-Description: The following interfaces can be used to manage certificate signatures, and public and private keys.
+description: The following interfaces can be used to manage certificate signatures, and public and private keys.
 ms.assetid: 628d6629-3ec3-447e-8b60-a2db5b23e780
 title: Certificate Signature and Key Interfaces
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Creates an ISCardFileAccess interface.
+description: Creates an ISCardFileAccess interface.
 ms.assetid: 06a5948f-c7bd-49bf-9032-f40f3d0d330c
 title: ISCardManage::CreateFileAccess method
 ms.topic: reference

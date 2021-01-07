@@ -1,5 +1,5 @@
 ---
-Description: You can narrow your search results by clicking the options available in the Refine search column under By Source or By Topic.
+description: You can narrow your search results by clicking the options available in the Refine search column under By Source or By Topic.
 ms.assetid: e4b3135a-98f4-48fe-be5b-9c77595f27b4
 title: How to Optimize Your MSDN Library Search
 ms.topic: article

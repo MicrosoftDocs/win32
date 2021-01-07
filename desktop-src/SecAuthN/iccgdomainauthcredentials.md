@@ -1,5 +1,5 @@
 ---
-Description: A client-implemented interface that allows developers to supply their own credentials dynamically at run time to authenticate non-domain joined containers with Active Directory. 
+description: A client-implemented interface that allows developers to supply their own credentials dynamically at run time to authenticate non-domain joined containers with Active Directory.
 title: ICcgDomainAuthCredentials interface (ccgplugins.h)
 ms.topic: reference
 ms.date: 10/20/2020

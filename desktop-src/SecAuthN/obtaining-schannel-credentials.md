@@ -1,5 +1,5 @@
 ---
-Description: Credentials are required by the Schannel authentication process; both client and server must obtain valid credentials to establish a security context for message exchange. For an example that demonstrates this procedure, see Getting credentials.
+description: Credentials are required by the Schannel authentication process; both client and server must obtain valid credentials to establish a security context for message exchange. For an example that demonstrates this procedure, see Getting credentials.
 ms.assetid: ee4a9908-7ba8-4701-84a4-c50b6b989e82
 title: Obtaining Schannel Credentials
 ms.topic: article

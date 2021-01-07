@@ -1,5 +1,5 @@
 ---
-Description: The following topics provide information about Security Support Provider Interface (SSPI) tasks, procedures, and samples.
+description: The following topics provide information about Security Support Provider Interface (SSPI) tasks, procedures, and samples.
 ms.assetid: 099baaa2-f5e4-4a3f-864f-e7d80bd2d358
 title: Using SSPI
 ms.topic: article

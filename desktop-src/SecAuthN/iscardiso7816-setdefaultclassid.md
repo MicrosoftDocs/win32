@@ -1,5 +1,5 @@
 ---
-Description: The SetDefaultClassId method assigns a standard class identifier byte that will be used in all operations when constructing an ISO 7816-4 command application protocol data unit (APDU). By default, the standard class identifier byte is 0x00.
+description: The SetDefaultClassId method assigns a standard class identifier byte that will be used in all operations when constructing an ISO 7816-4 command application protocol data unit (APDU). By default, the standard class identifier byte is 0x00.
 ms.assetid: 5a53d5f1-7986-4c4c-9512-f592cd398d1c
 title: ISCardISO7816::SetDefaultClassId method (Scardssp.h)
 ms.topic: reference

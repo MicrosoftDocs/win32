@@ -1,5 +1,5 @@
 ---
-Description: The IAzNameResolver interface exposes the following methods.
+description: The IAzNameResolver interface exposes the following methods.
 ms.assetid: 2B0135CD-B965-4625-98FA-98ECB22C3101
 title: IAzNameResolver Methods
 ms.topic: reference

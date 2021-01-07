@@ -1,5 +1,5 @@
 ---
-Description: The optional Boolean <isIndexed> element specifies whether the location described by the search connector is indexed (either locally or remotely using Windows Search 4 or higher).
+description: The optional Boolean <isIndexed> element specifies whether the location described by the search connector is indexed (either locally or remotely using Windows Search 4 or higher).
 ms.assetid: e72b5614-454c-481f-bc31-897d2dea8042
 title: isIndexed Element (Search Connector Schema)
 ms.topic: article

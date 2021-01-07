@@ -1,5 +1,5 @@
 ---
-Description: A smart card interface consists of a predefined set of services available within a smart card, the protocols necessary to invoke the services, and any assumptions regarding the context of the services.
+description: A smart card interface consists of a predefined set of services available within a smart card, the protocols necessary to invoke the services, and any assumptions regarding the context of the services.
 ms.assetid: 4f9c13da-8fe3-43e7-875f-04850495edf3
 title: Smart Card Interfaces
 ms.topic: article

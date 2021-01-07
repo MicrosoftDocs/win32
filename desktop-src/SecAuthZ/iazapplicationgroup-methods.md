@@ -1,5 +1,5 @@
 ---
-Description: The IAzApplicationGroup interface exposes the following methods.
+description: The IAzApplicationGroup interface exposes the following methods.
 ms.assetid: 0D5524C0-0F8E-44E4-A5E3-F3652DF324F3
 title: IAzApplicationGroup Methods
 ms.topic: reference

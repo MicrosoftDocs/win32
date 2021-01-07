@@ -1,5 +1,5 @@
 ---
-Description: The WSSQL code sample demonstrates how to communicate between Microsoft OLE DB and Windows Search through Structured Query Language (SQL).
+description: The WSSQL code sample demonstrates how to communicate between Microsoft OLE DB and Windows Search through Structured Query Language (SQL).
 ms.assetid: 28663608-66b3-4404-9426-5a4b5f52a408
 title: WSSQL
 ms.topic: article

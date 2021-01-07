@@ -1,5 +1,5 @@
 ---
-Description: This example demonstrates how to initialize an array of security buffers.
+description: This example demonstrates how to initialize an array of security buffers.
 ms.assetid: f8196a9c-786a-49a3-85a4-1bd5f414a653
 title: SecBuffer and SecBufferDesc Example Code
 ms.topic: article

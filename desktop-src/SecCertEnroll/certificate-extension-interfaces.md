@@ -1,5 +1,5 @@
 ---
-Description: The following interfaces can be used to create certificate extensions.
+description: The following interfaces can be used to create certificate extensions.
 ms.assetid: 52750a0a-0cd9-40cc-8c23-839e4e20fd77
 title: Certificate Extension Interfaces
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Installs an ActiveX object.
+description: Installs an ActiveX object.
 ms.assetid: 0eb725a9-ceb8-40e5-808d-ac2b286a48b6
 title: IeAxiSystemInstaller interface
 ms.topic: reference

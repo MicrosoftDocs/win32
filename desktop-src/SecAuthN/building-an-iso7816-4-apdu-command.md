@@ -1,5 +1,5 @@
 ---
-Description: The following procedure gives a brief overview of the build process.
+description: The following procedure gives a brief overview of the build process.
 ms.assetid: a369d4d7-bd4b-4b4d-846e-ad85251e9ffb
 title: Building an ISO7816-4 APDU Command
 ms.topic: article

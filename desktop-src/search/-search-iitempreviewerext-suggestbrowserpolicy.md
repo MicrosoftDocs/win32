@@ -1,5 +1,5 @@
 ---
-Description: Suggests the security policy to be applied to the browser.
+description: Suggests the security policy to be applied to the browser.
 ms.assetid: 73541611-2024-4c33-ab03-e3204244c46c
 title: IItemPreviewerExt::SuggestBrowserPolicy method
 ms.topic: reference

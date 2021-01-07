@@ -1,5 +1,5 @@
 ---
-Description: Sets the second parameter (P2) byte in the application protocol data unit (APDU).
+description: Sets the second parameter (P2) byte in the application protocol data unit (APDU).
 ms.assetid: 8d11b967-33cd-4bfa-b294-cc0c422cf6cf
 title: ISCardCmd::put_P2 method (Scarddat.h)
 ms.topic: reference

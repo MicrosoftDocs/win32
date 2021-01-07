@@ -1,5 +1,5 @@
 ---
-Description: The client and server use the same sequence of operations to initialize SSPI and select a security package.
+description: The client and server use the same sequence of operations to initialize SSPI and select a security package.
 ms.assetid: 21227b11-a089-49fe-83c7-69e5b2ceed34
 title: Initializing SSPI
 ms.topic: article

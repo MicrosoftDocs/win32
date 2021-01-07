@@ -1,5 +1,5 @@
 ---
-Description: Restricts access to a specified range of bytes in the buffer object.
+description: Restricts access to a specified range of bytes in the buffer object.
 ms.assetid: 7bcb3c1e-5739-41f7-a3aa-2943542943ed
 title: IByteBuffer::LockRegion method (Scardssp.h)
 ms.topic: reference

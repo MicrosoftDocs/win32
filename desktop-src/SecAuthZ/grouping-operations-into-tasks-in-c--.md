@@ -1,5 +1,5 @@
 ---
-Description: In Authorization Manager, a task is a high-level action that users of an application need to complete. Tasks are made up of operations, which are low-level functions and methods of the application.
+description: In Authorization Manager, a task is a high-level action that users of an application need to complete. Tasks are made up of operations, which are low-level functions and methods of the application.
 ms.assetid: a9a0202e-44c9-4192-8ff8-e22bddf26cfe
 title: Grouping Operations into Tasks in C++
 ms.topic: article

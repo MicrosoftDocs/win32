@@ -1,5 +1,5 @@
 ---
-Description: The Seek method selects the object from which (read/write) access will be done.
+description: The Seek method selects the object from which (read/write) access will be done.
 ms.assetid: 9e06df70-6415-46dd-b34f-59614d1cbee7
 title: ISCardFileAccess::Seek method
 ms.topic: reference

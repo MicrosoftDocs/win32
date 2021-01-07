@@ -1,5 +1,5 @@
 ---
-Description: Explains the security descriptor definition language (SDDL).
+description: Explains the security descriptor definition language (SDDL).
 ms.assetid: 2b15325e-34ed-497b-ae6d-3ec3ac168232
 title: Security Descriptor Definition Language
 ms.topic: article

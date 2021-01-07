@@ -1,5 +1,5 @@
 ---
-Description: Explains how to create a custom security package.
+description: Explains how to create a custom security package.
 ms.assetid: af8b9796-77e7-43c1-8f8e-acee01a62bf9
 title: Creating Custom Security Packages
 ms.topic: article

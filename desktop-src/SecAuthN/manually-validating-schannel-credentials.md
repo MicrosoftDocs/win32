@@ -1,5 +1,5 @@
 ---
-Description: Explains how to validate Schannel credentials manually.
+description: Explains how to validate Schannel credentials manually.
 ms.assetid: 0229486a-5812-4a7e-98ad-446292997ee3
 title: Manually Validating Schannel Credentials
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Initializes a system service object to install an ActiveX object when the current user does not have permission to install the object.
+description: Initializes a system service object to install an ActiveX object when the current user does not have permission to install the object.
 ms.assetid: 42f7cf83-789b-42ea-bb1a-4b79137188ea
 title: IeAxiService interface
 ms.topic: reference

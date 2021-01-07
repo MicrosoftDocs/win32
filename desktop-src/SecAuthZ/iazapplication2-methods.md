@@ -1,5 +1,5 @@
 ---
-Description: The IAzApplication2 interface exposes the following methods.
+description: The IAzApplication2 interface exposes the following methods.
 ms.assetid: AF5BDF93-B36E-4074-B707-A8111D383554
 title: IAzApplication2 Methods
 ms.topic: reference

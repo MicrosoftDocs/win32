@@ -1,5 +1,5 @@
 ---
-Description: To determine whether a security descriptor is self-relative or absolute, call the GetSecurityDescriptorControl function and check the SE\_SELF\_RELATIVE flag of the SECURITY\_DESCRIPTOR\_CONTROL parameter.
+description: To determine whether a security descriptor is self-relative or absolute, call the GetSecurityDescriptorControl function and check the SE\_SELF\_RELATIVE flag of the SECURITY\_DESCRIPTOR\_CONTROL parameter.
 ms.assetid: dab2844b-7df9-446c-aacf-380a0a805cbc
 title: Absolute and Self-Relative Security Descriptors
 ms.topic: article

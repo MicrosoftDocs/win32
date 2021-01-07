@@ -1,5 +1,5 @@
 ---
-Description: The enrollCommon folder contains the following helper functions and macros used by the samples provided with the Certificate Enrollment SDK.
+description: The enrollCommon folder contains the following helper functions and macros used by the samples provided with the Certificate Enrollment SDK.
 ms.assetid: a9b3532d-9640-4373-a6c6-7828cb6f55c7
 title: enrollCommon
 ms.topic: article

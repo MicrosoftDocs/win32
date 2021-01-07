@@ -1,5 +1,5 @@
 ---
-Description: All Schannel protocols require the server to provide a certificate from a trusted certification authority (CA) as proof of its identity.
+description: All Schannel protocols require the server to provide a certificate from a trusted certification authority (CA) as proof of its identity.
 ms.assetid: 060981e0-b52a-4cc2-bfd2-4cf24f921f16
 title: Performing Authentication Using Schannel
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: A Message Authentication Code (MAC) is used to detect message tampering and forgery.
+description: A Message Authentication Code (MAC) is used to detect message tampering and forgery.
 ms.assetid: 44f50407-8f55-49c4-9e42-2f1666c9da7c
 title: Message Authentication Codes in Schannel
 ms.topic: article

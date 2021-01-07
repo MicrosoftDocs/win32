@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the reply APDU, placing it in a specific byte buffer.
+description: Retrieves the reply APDU, placing it in a specific byte buffer.
 ms.assetid: ab349e7a-350f-4e72-98b4-4c6431b6e380
 title: ISCardCmd::get_ApduReply method (Scarddat.h)
 ms.topic: reference

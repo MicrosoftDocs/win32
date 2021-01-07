@@ -1,5 +1,5 @@
 ---
-Description: Provides a brief introduction to a few types of buffer overrun situations and offers some ideas and resources to help you avoid creating new risks and mitigate existing ones.
+description: Provides a brief introduction to a few types of buffer overrun situations and offers some ideas and resources to help you avoid creating new risks and mitigate existing ones.
 ms.assetid: 713fd6de-16af-49d2-8940-763c4a6e414b
 title: Avoiding Buffer Overruns
 ms.topic: article
