@@ -1,5 +1,5 @@
 ---
-Description: Retrieves all of the leaf nodes.
+description: Retrieves all of the leaf nodes.
 ms.assetid: 5534053c-c5b9-4576-857f-c8af39e821a7
 title: IInkAnalyzer::FindLeafNodes method (IACom.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Navigating the Shell Namespace
+description: Navigating the Shell Namespace
 title: Navigating the Shell Namespace
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the mouse wheel moves while the InkPicture control has focus.
+description: Occurs when the mouse wheel moves while the InkPicture control has focus.
 ms.assetid: f56a8af9-7618-4fa3-8dd5-aa81a7f817e4
 title: InkPicture.MouseWheel event (Msinkaut.h)
 ms.topic: reference

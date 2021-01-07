@@ -1,5 +1,5 @@
 ---
-Description: Windows provides APIs that you can use to acquire high-resolution time stamps or measure time intervals.
+description: Windows provides APIs that you can use to acquire high-resolution time stamps or measure time intervals.
 ms.assetid: D66E0FC2-3AF2-489B-B4B5-78648905B77B
 title: Acquiring high-resolution time stamps
 ms.topic: article

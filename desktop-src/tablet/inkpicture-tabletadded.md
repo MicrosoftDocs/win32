@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a IInkTablet is added to the system.
+description: Occurs when a IInkTablet is added to the system.
 ms.assetid: 5df10efd-7055-43fa-881f-67eb5fd6adcf
 title: InkPicture.TabletAdded event (Msinkaut.h)
 ms.topic: reference

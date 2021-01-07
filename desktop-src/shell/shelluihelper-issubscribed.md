@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether a specified URL is subscribed to.
+description: Indicates whether a specified URL is subscribed to.
 title: ShellUIHelper.IsSubscribed method (Exdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018

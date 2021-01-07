@@ -1,5 +1,5 @@
 ---
-Description: This sample program demonstrates how to zoom and scroll ink.
+description: This sample program demonstrates how to zoom and scroll ink.
 ms.assetid: d3b5668a-29bf-4846-8ab0-1bda7b6160f9
 title: Ink Zoom Sample
 ms.topic: article

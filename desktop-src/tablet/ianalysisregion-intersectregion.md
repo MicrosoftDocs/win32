@@ -1,5 +1,5 @@
 ---
-Description: Restricts the area of the IAnalysisRegion to the area created by its intersection with the specified IAnalysisRegion.
+description: Restricts the area of the IAnalysisRegion to the area created by its intersection with the specified IAnalysisRegion.
 ms.assetid: 02b3049f-ada9-4de3-a7a2-f9ff8313fbab
 title: IAnalysisRegion::IntersectRegion method (IACom.h)
 ms.topic: reference

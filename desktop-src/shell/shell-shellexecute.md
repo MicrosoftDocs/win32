@@ -1,5 +1,5 @@
 ---
-Description: Performs a specified operation on a specified file.
+description: Performs a specified operation on a specified file.
 ms.assetid: 62E59A1C-51BD-4864-AF09-35FFD49FAB9D
 title: Shell.ShellExecute method (Shldisp.h)
 ms.topic: reference

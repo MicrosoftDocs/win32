@@ -1,5 +1,5 @@
 ---
-Description: This section contains the ink analysis reference for the Tablet PC COM Library Reference. The ink analysis classes and interfaces are not Automation-compliant.
+description: This section contains the ink analysis reference for the Tablet PC COM Library Reference. The ink analysis classes and interfaces are not Automation-compliant.
 ms.assetid: c53fc913-66e4-4b50-8f61-7d4e57093d4f
 title: Ink Analysis Reference
 ms.topic: article

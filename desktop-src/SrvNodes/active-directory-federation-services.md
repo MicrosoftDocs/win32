@@ -1,5 +1,5 @@
 ---
-Description: Active Directory Federation Service (AD FS) is an authentication and authorization service that runs on Windows Server. AD FS provides users with single sign-on access between enterprise environments and web applications.
+description: Active Directory Federation Service (AD FS) is an authentication and authorization service that runs on Windows Server. AD FS provides users with single sign-on access between enterprise environments and web applications.
 ms.assetid: bc8dd039-31d4-42d5-ac3a-91e72c05b6a9
 title: Active Directory Federation Services
 ms.topic: reference

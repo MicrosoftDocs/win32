@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a value indicating whether the IAnalysisRegion represents an infinite region.
+description: Retrieves a value indicating whether the IAnalysisRegion represents an infinite region.
 ms.assetid: b84ec9ec-42d0-4d03-b78b-433e55d04897
 title: IAnalysisRegion::IsInfinite method (IACom.h)
 ms.topic: reference

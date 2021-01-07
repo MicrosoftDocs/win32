@@ -1,5 +1,5 @@
 ---
-Description: Takes a stream to a Journal Note file and returns an XML stream representing the contents of the document.
+description: Takes a stream to a Journal Note file and returns an XML stream representing the contents of the document.
 ms.assetid: 5a169dfe-b102-4aef-9efe-5db2cd2fb96f
 title: IJournalReader::ReadFromStream method (Journal.h)
 ms.topic: reference

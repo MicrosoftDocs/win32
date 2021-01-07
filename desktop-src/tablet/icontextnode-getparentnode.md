@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the parent node of this IContextNode in the context node tree.
+description: Retrieves the parent node of this IContextNode in the context node tree.
 ms.assetid: 782fd973-f8f3-4902-b8e0-cc5e70a66d28
 title: IContextNode::GetParentNode method (IACom.h)
 ms.topic: reference

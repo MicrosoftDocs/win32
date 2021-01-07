@@ -1,5 +1,5 @@
 ---
-Description: Creates an array of handles to icons extracted from a specified file.
+description: Creates an array of handles to icons extracted from a specified file.
 title: SHExtractIconsW function
 ms.topic: reference
 ms.date: 05/31/2018

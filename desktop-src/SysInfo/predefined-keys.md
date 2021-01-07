@@ -1,5 +1,5 @@
 ---
-Description: An application must open a key before it can add data to the registry.
+description: An application must open a key before it can add data to the registry.
 ms.assetid: db747656-b414-4594-ad39-6b476799060c
 title: Predefined Keys
 ms.topic: article

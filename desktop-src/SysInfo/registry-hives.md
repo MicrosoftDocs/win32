@@ -1,5 +1,5 @@
 ---
-Description: A hive is a logical group of keys, subkeys, and values in the registry that has a set of supporting files containing backups of its data.
+description: A hive is a logical group of keys, subkeys, and values in the registry that has a set of supporting files containing backups of its data.
 ms.assetid: fe517d88-7b03-4dc3-b3db-6a92665bca8e
 title: Registry Hives
 ms.topic: article

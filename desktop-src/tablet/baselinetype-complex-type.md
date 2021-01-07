@@ -1,5 +1,5 @@
 ---
-Description: Defines the type that contains information about the baseline of a paragraph.
+description: Defines the type that contains information about the baseline of a paragraph.
 ms.assetid: 63480c94-e710-4bb9-9d90-4e8072b6eac5
 title: BaselineType Complex Type
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a key is pressed and in the down position while the InkPicture control has focus.
+description: Occurs when a key is pressed and in the down position while the InkPicture control has focus.
 ms.assetid: d83823ea-d863-4eb7-8f6b-fa7a3396e64b
 title: InkPicture.KeyDown event (Msinkaut.h)
 ms.topic: reference

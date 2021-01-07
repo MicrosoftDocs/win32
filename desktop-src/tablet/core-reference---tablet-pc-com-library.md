@@ -1,5 +1,5 @@
 ---
-Description: This section contains the core reference for the Tablet PC COM Library.
+description: This section contains the core reference for the Tablet PC COM Library.
 ms.assetid: d6d820fc-01f3-4b27-9c1b-6d8c99198d46
 title: Core Tablet PC Reference
 ms.topic: article

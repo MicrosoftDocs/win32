@@ -1,5 +1,5 @@
 ---
-Description: The HKEY\_CLASSES\_ROOT (HKCR) key contains file name extension associations and COM class registration information such as ProgIDs, CLSIDs, and IIDs. It is primarily intended for compatibility with the registry in 16-bit Windows.
+description: The HKEY\_CLASSES\_ROOT (HKCR) key contains file name extension associations and COM class registration information such as ProgIDs, CLSIDs, and IIDs. It is primarily intended for compatibility with the registry in 16-bit Windows.
 ms.assetid: b404875f-11e1-48f2-98d2-0378a0646ed3
 title: HKEY_CLASSES_ROOT Key
 ms.topic: article

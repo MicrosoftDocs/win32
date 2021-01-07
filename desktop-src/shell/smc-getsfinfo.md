@@ -1,5 +1,5 @@
 ---
-Description: Requests information about a Shell folder menu item.
+description: Requests information about a Shell folder menu item.
 title: SMC_GETSFINFO message (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018

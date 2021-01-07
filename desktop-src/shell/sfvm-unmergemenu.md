@@ -1,5 +1,5 @@
 ---
-Description: Notifies the callback object that a menu is being removed. Used by IShellFolderViewCB::MessageSFVCB.
+description: Notifies the callback object that a menu is being removed. Used by IShellFolderViewCB::MessageSFVCB.
 title: SFVM_UNMERGEMENU message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018

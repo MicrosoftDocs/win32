@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the mouse pointer is moved over the InkCollector or InkOverlay object.
+description: Occurs when the mouse pointer is moved over the InkCollector or InkOverlay object.
 ms.assetid: b25aeead-9fb1-4221-82fa-ce2d81f5fed8
 title: InkOverlay.MouseMove event (Msinkaut.h)
 ms.topic: reference

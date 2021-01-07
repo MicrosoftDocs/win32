@@ -1,5 +1,5 @@
 ---
-Description: Represent network address types. Use one or more (as a bitwise combination) of the following constants to create a network address mask to use with the macro NetAddr\_SetAllowType.
+description: Represent network address types. Use one or more (as a bitwise combination) of the following constants to create a network address mask to use with the macro NetAddr\_SetAllowType.
 title: NET_STRING (Iphlpapi.h)
 ms.topic: reference
 ms.date: 05/31/2018

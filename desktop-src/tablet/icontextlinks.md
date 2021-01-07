@@ -1,5 +1,5 @@
 ---
-Description: Contains a collection of objects that implement the IContextLink interface.
+description: Contains a collection of objects that implement the IContextLink interface.
 ms.assetid: 34d1bbbb-85c0-4209-97ca-c22f22a1b625
 title: IContextLinks interface (IACom.h)
 ms.topic: reference

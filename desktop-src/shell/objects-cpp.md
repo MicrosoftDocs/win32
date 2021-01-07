@@ -1,5 +1,5 @@
 ---
-Description: This section describes the C++ Windows objects implemented by the Shell.
+description: This section describes the C++ Windows objects implemented by the Shell.
 title: Shell Objects for C++
 ms.topic: article
 ms.date: 05/31/2018

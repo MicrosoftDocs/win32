@@ -1,5 +1,5 @@
 ---
-Description: The following globally unique identifiers (GUIDs) are used by Windows Journal to identify custom properties on strokes or drawing attributes.
+description: The following globally unique identifiers (GUIDs) are used by Windows Journal to identify custom properties on strokes or drawing attributes.
 ms.assetid: a7488c26-b61f-47d8-a19b-d630a8c00875
 title: Custom Property GUIDs
 ms.topic: article

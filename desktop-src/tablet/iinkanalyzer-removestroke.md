@@ -1,5 +1,5 @@
 ---
-Description: Removes the specified stroke from the IInkAnalyzer.
+description: Removes the specified stroke from the IInkAnalyzer.
 ms.assetid: e182ae35-854e-401d-8e26-aee645c05430
 title: IInkAnalyzer::RemoveStroke method (IACom.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Description of conflicts between application gestures.
+description: Description of conflicts between application gestures.
 ms.assetid: 9d331961-5fb4-4bcb-93bc-9b53c7f83ff1
 title: Conflicts Between Application Gestures
 ms.topic: article

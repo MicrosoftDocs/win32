@@ -1,5 +1,5 @@
 ---
-Description: Western languages are defined as English (United Kingdom), English (United States), French, German, and Spanish.
+description: Western languages are defined as English (United Kingdom), English (United States), French, German, and Spanish.
 ms.assetid: d4728506-7484-4c4c-a5ae-e98d699f7e76
 title: Factoids for Western Languages
 ms.topic: article

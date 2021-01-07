@@ -1,5 +1,5 @@
 ---
-Description: Gets or sets the initial display state (sized, minimized, or maximized) of the link's command.
+description: Gets or sets the initial display state (sized, minimized, or maximized) of the link's command.
 ms.assetid: 139c6924-f554-4fde-9ed0-bc117bafbb16
 title: ShellLinkObject.ShowCommand property (Shldisp.h)
 ms.topic: reference

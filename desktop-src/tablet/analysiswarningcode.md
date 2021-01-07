@@ -1,5 +1,5 @@
 ---
-Description: Specifies the set of available warnings that can occur during ink analysis.
+description: Specifies the set of available warnings that can occur during ink analysis.
 ms.assetid: 52676f1d-8d67-4bdb-9d4f-3e409ffa8332
 title: AnalysisWarningCode enumeration (IACom.h)
 ms.topic: reference

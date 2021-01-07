@@ -1,5 +1,5 @@
 ---
-Description: Defines an attribute group that is used by a variety of elements in a Journal XML file. It contains attributes used to define the bounds (left, top, height, and width) of an element in the document.
+description: Defines an attribute group that is used by a variety of elements in a Journal XML file. It contains attributes used to define the bounds (left, top, height, and width) of an element in the document.
 ms.assetid: 7841aa65-fb35-4909-a34e-3c883555f764
 title: BoundsType Attribute Group
 ms.topic: reference

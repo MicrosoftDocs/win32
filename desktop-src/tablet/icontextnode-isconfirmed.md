@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a value that indicates whether the ConfirmationType passed in to this method has been set on this IContextNode.
+description: Retrieves a value that indicates whether the ConfirmationType passed in to this method has been set on this IContextNode.
 ms.assetid: 4a96bc46-b627-4784-ad1d-1079f49592e5
 title: IContextNode::IsConfirmed method (IACom.h)
 ms.topic: reference

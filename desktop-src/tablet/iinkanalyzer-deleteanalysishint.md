@@ -1,5 +1,5 @@
 ---
-Description: Removes an analysis hint from the IInkAnalyzer.
+description: Removes an analysis hint from the IInkAnalyzer.
 ms.assetid: ba5498d4-d31c-4b3f-9004-0448e18d4835
 title: IInkAnalyzer::DeleteAnalysisHint method (IACom.h)
 ms.topic: reference

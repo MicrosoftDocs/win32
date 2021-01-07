@@ -1,5 +1,5 @@
 ---
-Description: SFVM\_GETPANE may be altered or unavailable.
+description: SFVM\_GETPANE may be altered or unavailable.
 ms.assetid: 9621b921-e97f-4219-953a-7c961a81c379
 title: SFVM_GETPANE message (Shlobj.h)
 ms.topic: reference

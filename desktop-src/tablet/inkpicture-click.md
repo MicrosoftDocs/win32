@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a user clicks the InkPicture control.
+description: Occurs when a user clicks the InkPicture control.
 ms.assetid: 326bac37-2d5d-434b-916c-8a675bab5052
 title: InkPicture.Click event (Msinkaut.h)
 ms.topic: reference

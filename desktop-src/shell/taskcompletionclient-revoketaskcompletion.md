@@ -1,5 +1,5 @@
 ---
-Description: Ends the task completion.
+description: Ends the task completion.
 ms.assetid: C64C57E3-593C-47AE-A005-F468E7C588EF
 title: TaskCompletionClient::RevokeTaskCompletion method
 ms.topic: reference

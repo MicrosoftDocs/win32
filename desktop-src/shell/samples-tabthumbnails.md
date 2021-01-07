@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates how an application can expose multiple switch targets (as for tabs) on a taskband and how to provide their thumbnails.
+description: Demonstrates how an application can expose multiple switch targets (as for tabs) on a taskband and how to provide their thumbnails.
 title: TabThumbnails Sample
 ms.topic: article
 ms.date: 05/31/2018

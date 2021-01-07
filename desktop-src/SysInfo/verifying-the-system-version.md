@@ -1,5 +1,5 @@
 ---
-Description: This contains examples that use the VerifyVersionInfo function to determine whether the application is running on a specific operating system.
+description: This contains examples that use the VerifyVersionInfo function to determine whether the application is running on a specific operating system.
 ms.assetid: f39c35ae-9be5-4a03-9079-6fcc63387f6b
 title: Verifying the System Version
 ms.topic: article

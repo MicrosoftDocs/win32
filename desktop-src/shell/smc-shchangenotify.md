@@ -1,5 +1,5 @@
 ---
-Description: Notifies you that a change has taken place.
+description: Notifies you that a change has taken place.
 title: SMC_SHCHANGENOTIFY message (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018

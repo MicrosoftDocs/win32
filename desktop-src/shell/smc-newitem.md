@@ -1,5 +1,5 @@
 ---
-Description: Notifies you of a new item, as specified by the accompanying SMDATA structure.
+description: Notifies you of a new item, as specified by the accompanying SMDATA structure.
 title: SMC_NEWITEM message (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: The Windows security model enables you to control access to event, mutex, semaphore, and waitable timer objects. Timer queues, interlocked variables, and critical section objects are not securable. For more information, see Access-Control Model.
+description: The Windows security model enables you to control access to event, mutex, semaphore, and waitable timer objects. Timer queues, interlocked variables, and critical section objects are not securable. For more information, see Access-Control Model.
 ms.assetid: 92478298-617c-4672-a1cc-9a8e9af40327
 title: Synchronization Object Security and Access Rights
 ms.topic: article

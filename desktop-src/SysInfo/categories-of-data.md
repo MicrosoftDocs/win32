@@ -1,5 +1,5 @@
 ---
-Description: 'Before putting data into the registry, an application should divide the data into two categories: computer-specific data and user-specific data.'
+description: 'Before putting data into the registry, an application should divide the data into two categories: computer-specific data and user-specific data.'
 ms.assetid: 470d00c1-5975-4a58-9a78-fbed7326a60c
 title: Categories of Data
 ms.topic: article

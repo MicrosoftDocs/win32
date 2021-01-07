@@ -1,5 +1,5 @@
 ---
-Description: 'The following elements are used with system shutdown:'
+description: 'The following elements are used with system shutdown:'
 ms.assetid: 6337acad-a55b-4524-acda-2edf6eca9e3b
 title: System Shutdown Reference
 ms.topic: article

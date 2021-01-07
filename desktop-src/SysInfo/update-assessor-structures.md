@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used by the Update Accessor provider.
+description: The following functions are used by the Update Accessor provider.
 ms.assetid: 0E284AB7-1016-4ADA-9D59-24EA5CC43A67
 title: Update Assessor Structures
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Adds stroke data for multiple strokes to the IInkAnalyzer and assigns the specified culture identifier to the strokes.
+description: Adds stroke data for multiple strokes to the IInkAnalyzer and assigns the specified culture identifier to the strokes.
 ms.assetid: 1274b24f-204b-4a84-a7c0-0205b6068ae8
 title: IInkAnalyzer::AddStrokesForLanguage method (IACom.h)
 ms.topic: reference

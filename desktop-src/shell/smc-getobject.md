@@ -1,5 +1,5 @@
 ---
-Description: Requests a pointer to a specified object.
+description: Requests a pointer to a specified object.
 title: SMC_GETOBJECT message (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018

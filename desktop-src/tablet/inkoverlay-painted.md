@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the InkOverlay object or InkPicture control has completed redrawing itself.
+description: Occurs when the InkOverlay object or InkPicture control has completed redrawing itself.
 ms.assetid: de3c69de-4a33-46e4-96e5-462805681bda
 title: InkOverlay.Painted event (Msinkaut.h)
 ms.topic: reference

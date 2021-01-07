@@ -1,5 +1,5 @@
 ---
-Description: Occurs before the IInkAnalyzer moves an IContextNode object by changing its parent node.
+description: Occurs before the IInkAnalyzer moves an IContextNode object by changing its parent node.
 ms.assetid: 91261270-aa7c-4f0a-a790-1b2bf322a3ad
 title: '_IAnalysisProxyEvents::ContextNodeReparenting event' (IACom.h)
 ms.topic: reference

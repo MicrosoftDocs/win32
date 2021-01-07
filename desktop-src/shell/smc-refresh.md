@@ -1,5 +1,5 @@
 ---
-Description: Sends notification that the menus have completely refreshed and you can reset your state.
+description: Sends notification that the menus have completely refreshed and you can reset your state.
 title: SMC_REFRESH message (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018

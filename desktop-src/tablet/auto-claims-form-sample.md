@@ -1,5 +1,5 @@
 ---
-Description: The Auto Claims sample addresses a hypothetical scenario for an insurance assessor.
+description: The Auto Claims sample addresses a hypothetical scenario for an insurance assessor.
 ms.assetid: bec4333a-62ca-4254-a39b-04bc2c556992
 title: Auto Claims Form Sample
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Windows interface includes a special application desktop toolbar called the taskbar. You can use the taskbar for such tasks as switching between open windows and starting new applications.
+description: The Windows interface includes a special application desktop toolbar called the taskbar. You can use the taskbar for such tasks as switching between open windows and starting new applications.
 ms.assetid: 14d520e7-7c15-441d-9662-24b972d208ac
 title: The Taskbar
 ms.topic: article

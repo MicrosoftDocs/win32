@@ -1,5 +1,5 @@
 ---
-Description: Associates the specified strokes with this IContextNode.
+description: Associates the specified strokes with this IContextNode.
 ms.assetid: 5ce8893a-da59-4cec-a349-d5ffc4f43905
 title: IContextNode::SetStrokes method (IACom.h)
 ms.topic: reference

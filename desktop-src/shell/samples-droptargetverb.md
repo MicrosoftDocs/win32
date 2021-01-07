@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates how to implement a Shell verb using the DropTarget method.
+description: Demonstrates how to implement a Shell verb using the DropTarget method.
 title: DropTarget Verb Sample
 ms.topic: article
 ms.date: 05/31/2018

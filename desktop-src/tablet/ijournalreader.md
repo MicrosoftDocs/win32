@@ -1,5 +1,5 @@
 ---
-Description: Provides read access to a Windows Journal file, returning a stream containing an XML version of the file's contents.
+description: Provides read access to a Windows Journal file, returning a stream containing an XML version of the file's contents.
 ms.assetid: e4e19f69-6377-4f06-856d-7f9b453e7656
 title: IJournalReader interface (Journal.h)
 ms.topic: reference

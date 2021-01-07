@@ -1,5 +1,5 @@
 ---
-Description: Allows the callback object to specify the buttons to be added to the toolbar. Used by IShellFolderViewCB::MessageSFVCB.
+description: Allows the callback object to specify the buttons to be added to the toolbar. Used by IShellFolderViewCB::MessageSFVCB.
 ms.assetid: 0c0dbf61-9da9-4bcc-bad9-92c3f78db78f
 title: SFVM_GETBUTTONS message (Shlobj.h)
 ms.topic: reference

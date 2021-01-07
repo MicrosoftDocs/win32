@@ -1,5 +1,5 @@
 ---
-Description: The RealTimeStylus, GestureRecognizer, and DynamicRenderer classes are implemented as COM wrappers and are available only in managed code.
+description: The RealTimeStylus, GestureRecognizer, and DynamicRenderer classes are implemented as COM wrappers and are available only in managed code.
 ms.assetid: db8f0f25-3650-4843-92e4-af5460841e7e
 title: Implementation Notes for the StylusInput APIs
 ms.topic: article

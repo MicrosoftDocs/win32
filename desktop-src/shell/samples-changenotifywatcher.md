@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates how to listen to Shell change notifications on a folder or item in the Windows Explorer namespace.
+description: Demonstrates how to listen to Shell change notifications on a folder or item in the Windows Explorer namespace.
 title: Change Notify Watcher Sample
 ms.topic: article
 ms.date: 05/31/2018

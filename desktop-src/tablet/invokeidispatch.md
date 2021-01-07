@@ -1,5 +1,5 @@
 ---
-Description: Invokes helper functionality for the IDispatch interface.
+description: Invokes helper functionality for the IDispatch interface.
 ms.assetid: ccef47af-d9dd-48c3-93d3-ee997dacf7a8
 title: InvokeIDispatch function
 ms.topic: reference

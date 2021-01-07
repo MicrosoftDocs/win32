@@ -1,5 +1,5 @@
 ---
-Description: Deletes an InkDivider object and releases associated resources.
+description: Deletes an InkDivider object and releases associated resources.
 ms.assetid: adf772e0-2829-4410-83c4-45a24bf3a848
 title: DeleteInkDivider function
 ms.topic: reference

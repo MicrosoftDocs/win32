@@ -1,5 +1,5 @@
 ---
-Description: Defines the type that holds information about the background image used by the Journal note, if any.
+description: Defines the type that holds information about the background image used by the Journal note, if any.
 ms.assetid: c43715d5-eab4-4ccc-b5be-086bacc4c9da
 title: BackgroundImageType Complex Type
 ms.topic: reference

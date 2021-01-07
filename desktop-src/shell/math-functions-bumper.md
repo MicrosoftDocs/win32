@@ -1,5 +1,5 @@
 ---
-Description: Math Functions
+description: Math Functions
 title: Math Functions (The Windows Shell)
 ms.topic: article
 ms.date: 05/31/2018
