@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCorruptionException members"
 title: EsentCorruptionException members
 TOCTitle: EsentCorruptionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCorruptionException

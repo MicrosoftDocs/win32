@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream.ToString method"
 title: ColumnStream.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnStream.ToString

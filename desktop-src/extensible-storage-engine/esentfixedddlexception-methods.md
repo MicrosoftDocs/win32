@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFixedDDLException methods"
 title: EsentFixedDDLException methods
 TOCTitle: EsentFixedDDLException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFixedDDLException

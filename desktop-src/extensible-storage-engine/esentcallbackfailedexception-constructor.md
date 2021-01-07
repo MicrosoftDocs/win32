@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCallbackFailedException constructor"
 title: EsentCallbackFailedException constructor 
 TOCTitle: 'EsentCallbackFailedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCallbackFailedException.#ctor

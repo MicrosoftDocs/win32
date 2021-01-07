@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDerivedColumnCorruptionException members"
 title: EsentDerivedColumnCorruptionException members
 TOCTitle: EsentDerivedColumnCorruptionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDerivedColumnCorruptionException

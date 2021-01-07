@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCallbackNotResolvedException members"
 title: EsentCallbackNotResolvedException members
 TOCTitle: EsentCallbackNotResolvedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCallbackNotResolvedException

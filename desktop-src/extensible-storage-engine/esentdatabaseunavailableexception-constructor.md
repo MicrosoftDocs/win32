@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseUnavailableException constructor"
 title: EsentDatabaseUnavailableException constructor 
 TOCTitle: 'EsentDatabaseUnavailableException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseUnavailableException.#ctor

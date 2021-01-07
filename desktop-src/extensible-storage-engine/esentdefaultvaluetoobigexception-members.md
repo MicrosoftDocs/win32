@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDefaultValueTooBigException members"
 title: EsentDefaultValueTooBigException members
 TOCTitle: EsentDefaultValueTooBigException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDefaultValueTooBigException

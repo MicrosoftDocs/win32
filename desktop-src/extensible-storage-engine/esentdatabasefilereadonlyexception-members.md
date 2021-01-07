@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseFileReadOnlyException members"
 title: EsentDatabaseFileReadOnlyException members
 TOCTitle: EsentDatabaseFileReadOnlyException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseFileReadOnlyException

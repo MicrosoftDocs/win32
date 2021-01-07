@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnNotFoundException members"
 title: EsentColumnNotFoundException members
 TOCTitle: EsentColumnNotFoundException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnNotFoundException

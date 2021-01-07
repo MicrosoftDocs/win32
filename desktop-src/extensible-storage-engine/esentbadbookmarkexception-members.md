@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadBookmarkException members"
 title: EsentBadBookmarkException members
 TOCTitle: EsentBadBookmarkException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBadBookmarkException

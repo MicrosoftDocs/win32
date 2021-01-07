@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadPatchPageException constructor"
 title: EsentBadPatchPageException constructor 
 TOCTitle: 'EsentBadPatchPageException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadPatchPageException.#ctor

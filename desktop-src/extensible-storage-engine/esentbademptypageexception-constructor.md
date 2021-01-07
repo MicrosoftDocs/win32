@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadEmptyPageException constructor"
 title: EsentBadEmptyPageException constructor 
 TOCTitle: 'EsentBadEmptyPageException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadEmptyPageException.#ctor

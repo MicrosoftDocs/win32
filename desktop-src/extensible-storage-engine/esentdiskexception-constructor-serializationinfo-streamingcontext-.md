@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDiskException constructor (SerializationInfo, StreamingContext)"
 title: EsentDiskException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentDiskException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDiskException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)

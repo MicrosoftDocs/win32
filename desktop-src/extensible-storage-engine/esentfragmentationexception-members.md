@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFragmentationException members"
 title: EsentFragmentationException members
 TOCTitle: EsentFragmentationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFragmentationException

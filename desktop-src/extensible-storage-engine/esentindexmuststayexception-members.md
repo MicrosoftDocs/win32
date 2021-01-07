@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexMustStayException members"
 title: EsentIndexMustStayException members
 TOCTitle: EsentIndexMustStayException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexMustStayException

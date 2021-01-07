@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Conversions methods"
 title: Conversions methods
 TOCTitle: Conversions methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Conversions

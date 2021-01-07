@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexHasPrimaryException members"
 title: EsentIndexHasPrimaryException members
 TOCTitle: EsentIndexHasPrimaryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexHasPrimaryException

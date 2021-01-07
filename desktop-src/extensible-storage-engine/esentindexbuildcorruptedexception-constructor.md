@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexBuildCorruptedException constructor"
 title: EsentIndexBuildCorruptedException constructor 
 TOCTitle: 'EsentIndexBuildCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexBuildCorruptedException.#ctor

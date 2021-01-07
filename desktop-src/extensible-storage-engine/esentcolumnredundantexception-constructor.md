@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnRedundantException constructor"
 title: EsentColumnRedundantException constructor 
 TOCTitle: 'EsentColumnRedundantException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnRedundantException.#ctor

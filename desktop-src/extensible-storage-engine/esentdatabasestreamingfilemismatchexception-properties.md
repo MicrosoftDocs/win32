@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseStreamingFileMismatchException properties"
 title: EsentDatabaseStreamingFileMismatchException properties
 TOCTitle: EsentDatabaseStreamingFileMismatchException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseStreamingFileMismatchException

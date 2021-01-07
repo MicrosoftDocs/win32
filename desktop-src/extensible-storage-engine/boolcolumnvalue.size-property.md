@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BoolColumnValue.Size property"
 title: BoolColumnValue.Size property 
 TOCTitle: 'Size property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.BoolColumnValue.Size

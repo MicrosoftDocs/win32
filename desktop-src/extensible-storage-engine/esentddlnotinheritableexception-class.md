@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDDLNotInheritableException class"
 title: EsentDDLNotInheritableException class
 TOCTitle: EsentDDLNotInheritableException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDDLNotInheritableException

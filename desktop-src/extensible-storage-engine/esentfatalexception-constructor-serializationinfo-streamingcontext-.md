@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFatalException constructor (SerializationInfo, StreamingContext)"
 title: EsentFatalException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentFatalException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFatalException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)

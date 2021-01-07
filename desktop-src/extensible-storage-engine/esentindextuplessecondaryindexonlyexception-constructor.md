@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesSecondaryIndexOnlyException constructor"
 title: EsentIndexTuplesSecondaryIndexOnlyException constructor 
 TOCTitle: 'EsentIndexTuplesSecondaryIndexOnlyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexTuplesSecondaryIndexOnlyException.#ctor

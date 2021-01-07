@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabasesNotFromSameSnapshotException class"
 title: EsentDatabasesNotFromSameSnapshotException class
 TOCTitle: EsentDatabasesNotFromSameSnapshotException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabasesNotFromSameSnapshotException

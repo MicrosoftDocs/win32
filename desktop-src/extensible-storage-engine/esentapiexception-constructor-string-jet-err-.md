@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentApiException constructor (String, JET_err)"
 title: EsentApiException constructor (String, JET_err)
 TOCTitle: EsentApiException constructor (String, JET_err)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentApiException.#ctor(System.String,Microsoft.Isam.Esent.Interop.JET_err)

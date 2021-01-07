@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: DoubleColumnValue properties"
 title: DoubleColumnValue properties
 TOCTitle: DoubleColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.DoubleColumnValue

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentExistingLogFileIsNotContiguousException class"
 title: EsentExistingLogFileIsNotContiguousException class
 TOCTitle: EsentExistingLogFileIsNotContiguousException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentExistingLogFileIsNotContiguousException

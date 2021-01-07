@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDiskFullException constructor"
 title: EsentDiskFullException constructor 
 TOCTitle: 'EsentDiskFullException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDiskFullException.#ctor

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseInvalidPathException class"
 title: EsentDatabaseInvalidPathException class
 TOCTitle: EsentDatabaseInvalidPathException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidPathException

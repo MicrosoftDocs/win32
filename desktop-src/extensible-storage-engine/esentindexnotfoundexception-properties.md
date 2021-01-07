@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexNotFoundException properties"
 title: EsentIndexNotFoundException properties
 TOCTitle: EsentIndexNotFoundException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexNotFoundException

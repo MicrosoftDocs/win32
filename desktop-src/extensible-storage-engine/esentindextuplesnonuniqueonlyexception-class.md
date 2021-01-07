@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesNonUniqueOnlyException class"
 title: EsentIndexTuplesNonUniqueOnlyException class
 TOCTitle: EsentIndexTuplesNonUniqueOnlyException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesNonUniqueOnlyException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCatalogCorruptedException constructor"
 title: EsentCatalogCorruptedException constructor 
 TOCTitle: 'EsentCatalogCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCatalogCorruptedException.#ctor

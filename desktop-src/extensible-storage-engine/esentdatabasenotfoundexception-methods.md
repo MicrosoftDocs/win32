@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseNotFoundException methods"
 title: EsentDatabaseNotFoundException methods
 TOCTitle: EsentDatabaseNotFoundException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseNotFoundException

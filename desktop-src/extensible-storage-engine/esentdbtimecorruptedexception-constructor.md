@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDbTimeCorruptedException constructor"
 title: EsentDbTimeCorruptedException constructor 
 TOCTitle: 'EsentDbTimeCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDbTimeCorruptedException.#ctor

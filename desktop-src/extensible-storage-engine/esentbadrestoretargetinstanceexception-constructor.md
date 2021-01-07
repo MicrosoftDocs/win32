@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadRestoreTargetInstanceException constructor"
 title: EsentBadRestoreTargetInstanceException constructor 
 TOCTitle: 'EsentBadRestoreTargetInstanceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadRestoreTargetInstanceException.#ctor

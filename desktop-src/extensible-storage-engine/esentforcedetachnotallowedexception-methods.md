@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentForceDetachNotAllowedException methods"
 title: EsentForceDetachNotAllowedException methods
 TOCTitle: EsentForceDetachNotAllowedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentForceDetachNotAllowedException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnInfo.DefaultValue property"
 title: ColumnInfo.DefaultValue property 
 TOCTitle: 'DefaultValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnInfo.DefaultValue

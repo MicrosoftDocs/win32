@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseLockedException methods"
 title: EsentDatabaseLockedException methods
 TOCTitle: EsentDatabaseLockedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseLockedException

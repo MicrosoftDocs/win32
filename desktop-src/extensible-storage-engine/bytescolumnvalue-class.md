@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BytesColumnValue class"
 title: BytesColumnValue class
 TOCTitle: BytesColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.BytesColumnValue

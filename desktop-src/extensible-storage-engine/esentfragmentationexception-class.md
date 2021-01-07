@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFragmentationException class"
 title: EsentFragmentationException class
 TOCTitle: EsentFragmentationException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFragmentationException

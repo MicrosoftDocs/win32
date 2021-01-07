@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOSparseException class"
 title: EsentFileIOSparseException class
 TOCTitle: EsentFileIOSparseException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFileIOSparseException

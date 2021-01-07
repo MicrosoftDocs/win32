@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentAfterInitializationException constructor"
 title: EsentAfterInitializationException constructor 
 TOCTitle: 'EsentAfterInitializationException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentAfterInitializationException.#ctor

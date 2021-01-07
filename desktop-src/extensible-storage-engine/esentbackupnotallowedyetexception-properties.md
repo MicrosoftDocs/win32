@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBackupNotAllowedYetException properties"
 title: EsentBackupNotAllowedYetException properties
 TOCTitle: EsentBackupNotAllowedYetException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBackupNotAllowedYetException

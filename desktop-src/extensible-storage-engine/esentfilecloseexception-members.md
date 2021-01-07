@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileCloseException members"
 title: EsentFileCloseException members
 TOCTitle: EsentFileCloseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFileCloseException

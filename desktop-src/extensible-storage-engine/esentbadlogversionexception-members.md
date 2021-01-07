@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadLogVersionException members"
 title: EsentBadLogVersionException members
 TOCTitle: EsentBadLogVersionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBadLogVersionException

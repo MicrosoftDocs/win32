@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileCompressedException members"
 title: EsentFileCompressedException members
 TOCTitle: EsentFileCompressedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFileCompressedException

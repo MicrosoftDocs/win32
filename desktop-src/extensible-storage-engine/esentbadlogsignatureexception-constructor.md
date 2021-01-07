@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadLogSignatureException constructor"
 title: EsentBadLogSignatureException constructor 
 TOCTitle: 'EsentBadLogSignatureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadLogSignatureException.#ctor

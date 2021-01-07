@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DupCursorGrbit enumeration"
 title: DupCursorGrbit enumeration
 TOCTitle: DupCursorGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.DupCursorGrbit

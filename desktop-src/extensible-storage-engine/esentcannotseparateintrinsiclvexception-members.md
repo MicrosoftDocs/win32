@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotSeparateIntrinsicLVException members"
 title: EsentCannotSeparateIntrinsicLVException members
 TOCTitle: EsentCannotSeparateIntrinsicLVException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotSeparateIntrinsicLVException

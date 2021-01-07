@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesCannotRetrieveFromIndexException properties"
 title: EsentIndexTuplesCannotRetrieveFromIndexException properties
 TOCTitle: EsentIndexTuplesCannotRetrieveFromIndexException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesCannotRetrieveFromIndexException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ByteColumnValue members"
 title: ByteColumnValue members
 TOCTitle: ByteColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.ByteColumnValue

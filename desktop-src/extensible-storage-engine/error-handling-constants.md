@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error Handling Constants"
 title: Error Handling Constants
 TOCTitle: Error Handling Constants
 ms:assetid: 5a1f9438-2d36-483e-9820-d0de30ee5e01

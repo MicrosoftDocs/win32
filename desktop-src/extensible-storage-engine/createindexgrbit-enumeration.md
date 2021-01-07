@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CreateIndexGrbit enumeration"
 title: CreateIndexGrbit enumeration
 TOCTitle: CreateIndexGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.CreateIndexGrbit

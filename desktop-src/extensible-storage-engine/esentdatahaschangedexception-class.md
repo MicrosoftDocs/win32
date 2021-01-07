@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDataHasChangedException class"
 title: EsentDataHasChangedException class
 TOCTitle: EsentDataHasChangedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDataHasChangedException

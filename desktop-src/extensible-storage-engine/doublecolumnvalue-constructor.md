@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DoubleColumnValue constructor"
 title: DoubleColumnValue constructor 
 TOCTitle: 'DoubleColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.DoubleColumnValue.#ctor

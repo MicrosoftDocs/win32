@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFilteredMoveNotSupportedException class"
 title: EsentFilteredMoveNotSupportedException class
 TOCTitle: EsentFilteredMoveNotSupportedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFilteredMoveNotSupportedException

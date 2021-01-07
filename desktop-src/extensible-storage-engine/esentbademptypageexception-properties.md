@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadEmptyPageException properties"
 title: EsentBadEmptyPageException properties
 TOCTitle: EsentBadEmptyPageException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBadEmptyPageException

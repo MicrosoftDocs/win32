@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexBuildCorruptedException methods"
 title: EsentIndexBuildCorruptedException methods
 TOCTitle: EsentIndexBuildCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentIndexBuildCorruptedException

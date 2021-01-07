@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadSLVSignatureException constructor"
 title: EsentBadSLVSignatureException constructor 
 TOCTitle: 'EsentBadSLVSignatureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadSLVSignatureException.#ctor

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabasePatchFileMismatchException methods"
 title: EsentDatabasePatchFileMismatchException methods
 TOCTitle: EsentDatabasePatchFileMismatchException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabasePatchFileMismatchException

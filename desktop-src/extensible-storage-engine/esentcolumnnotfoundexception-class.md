@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnNotFoundException class"
 title: EsentColumnNotFoundException class
 TOCTitle: EsentColumnNotFoundException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentColumnNotFoundException

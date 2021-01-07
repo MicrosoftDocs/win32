@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDensityInvalidException constructor"
 title: EsentDensityInvalidException constructor 
 TOCTitle: 'EsentDensityInvalidException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDensityInvalidException.#ctor

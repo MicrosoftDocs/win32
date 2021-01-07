@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentGivenLogFileIsNotContiguousException constructor"
 title: EsentGivenLogFileIsNotContiguousException constructor 
 TOCTitle: 'EsentGivenLogFileIsNotContiguousException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentGivenLogFileIsNotContiguousException.#ctor

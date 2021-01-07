@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream.CanWrite property"
 title: ColumnStream.CanWrite property 
 TOCTitle: 'CanWrite property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnStream.CanWrite

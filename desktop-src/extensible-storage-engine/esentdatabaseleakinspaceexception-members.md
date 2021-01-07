@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseLeakInSpaceException members"
 title: EsentDatabaseLeakInSpaceException members
 TOCTitle: EsentDatabaseLeakInSpaceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseLeakInSpaceException

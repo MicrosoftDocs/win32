@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadRestoreTargetInstanceException members"
 title: EsentBadRestoreTargetInstanceException members
 TOCTitle: EsentBadRestoreTargetInstanceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBadRestoreTargetInstanceException

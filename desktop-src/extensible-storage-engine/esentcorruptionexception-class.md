@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCorruptionException class"
 title: EsentCorruptionException class
 TOCTitle: EsentCorruptionException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCorruptionException

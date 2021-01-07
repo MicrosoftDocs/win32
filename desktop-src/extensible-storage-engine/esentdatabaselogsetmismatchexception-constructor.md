@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseLogSetMismatchException constructor"
 title: EsentDatabaseLogSetMismatchException constructor 
 TOCTitle: 'EsentDatabaseLogSetMismatchException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseLogSetMismatchException.#ctor

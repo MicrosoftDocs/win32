@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexInUseException properties"
 title: EsentIndexInUseException properties
 TOCTitle: EsentIndexInUseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexInUseException

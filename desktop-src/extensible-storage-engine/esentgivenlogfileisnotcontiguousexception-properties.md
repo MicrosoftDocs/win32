@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentGivenLogFileIsNotContiguousException properties"
 title: EsentGivenLogFileIsNotContiguousException properties
 TOCTitle: EsentGivenLogFileIsNotContiguousException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentGivenLogFileIsNotContiguousException

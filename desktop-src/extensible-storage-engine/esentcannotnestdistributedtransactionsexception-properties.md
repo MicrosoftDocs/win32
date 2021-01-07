@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotNestDistributedTransactionsException properties"
 title: EsentCannotNestDistributedTransactionsException properties
 TOCTitle: EsentCannotNestDistributedTransactionsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCannotNestDistributedTransactionsException

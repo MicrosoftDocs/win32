@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseIncompleteIncrementalReseedException properties"
 title: EsentDatabaseIncompleteIncrementalReseedException properties
 TOCTitle: EsentDatabaseIncompleteIncrementalReseedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseIncompleteIncrementalReseedException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDecompressionFailedException class"
 title: EsentDecompressionFailedException class
 TOCTitle: EsentDecompressionFailedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDecompressionFailedException

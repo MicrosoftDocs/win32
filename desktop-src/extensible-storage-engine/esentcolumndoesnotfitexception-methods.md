@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnDoesNotFitException methods"
 title: EsentColumnDoesNotFitException methods
 TOCTitle: EsentColumnDoesNotFitException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentColumnDoesNotFitException

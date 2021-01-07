@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFixedInheritedDDLException properties"
 title: EsentFixedInheritedDDLException properties
 TOCTitle: EsentFixedInheritedDDLException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFixedInheritedDDLException

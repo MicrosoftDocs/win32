@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.TryMoveFirst method"
 title: Api.TryMoveFirst method 
 TOCTitle: 'TryMoveFirst method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.TryMoveFirst(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)

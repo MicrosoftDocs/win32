@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadCheckpointSignatureException class"
 title: EsentBadCheckpointSignatureException class
 TOCTitle: EsentBadCheckpointSignatureException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadCheckpointSignatureException

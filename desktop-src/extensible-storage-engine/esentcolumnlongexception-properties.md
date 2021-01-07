@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnLongException properties"
 title: EsentColumnLongException properties
 TOCTitle: EsentColumnLongException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentColumnLongException

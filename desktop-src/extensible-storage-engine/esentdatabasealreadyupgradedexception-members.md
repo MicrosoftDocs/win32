@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseAlreadyUpgradedException members"
 title: EsentDatabaseAlreadyUpgradedException members
 TOCTitle: EsentDatabaseAlreadyUpgradedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseAlreadyUpgradedException

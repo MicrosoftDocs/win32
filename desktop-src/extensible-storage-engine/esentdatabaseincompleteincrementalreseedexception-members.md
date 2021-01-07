@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseIncompleteIncrementalReseedException members"
 title: EsentDatabaseIncompleteIncrementalReseedException members
 TOCTitle: EsentDatabaseIncompleteIncrementalReseedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseIncompleteIncrementalReseedException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadDbSignatureException methods"
 title: EsentBadDbSignatureException methods
 TOCTitle: EsentBadDbSignatureException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadDbSignatureException

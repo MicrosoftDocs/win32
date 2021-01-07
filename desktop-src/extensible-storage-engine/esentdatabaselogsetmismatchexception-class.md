@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseLogSetMismatchException class"
 title: EsentDatabaseLogSetMismatchException class
 TOCTitle: EsentDatabaseLogSetMismatchException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabaseLogSetMismatchException

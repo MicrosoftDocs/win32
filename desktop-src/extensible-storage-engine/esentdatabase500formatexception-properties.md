@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabase500FormatException properties"
 title: EsentDatabase500FormatException properties
 TOCTitle: EsentDatabase500FormatException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabase500FormatException

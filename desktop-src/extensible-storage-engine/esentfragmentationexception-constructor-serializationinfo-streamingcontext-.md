@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFragmentationException constructor (SerializationInfo, StreamingContext)"
 title: EsentFragmentationException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentFragmentationException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFragmentationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)

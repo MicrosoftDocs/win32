@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabase200FormatException class"
 title: EsentDatabase200FormatException class
 TOCTitle: EsentDatabase200FormatException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabase200FormatException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadBackupDatabaseSizeException methods"
 title: EsentBadBackupDatabaseSizeException methods
 TOCTitle: EsentBadBackupDatabaseSizeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadBackupDatabaseSizeException

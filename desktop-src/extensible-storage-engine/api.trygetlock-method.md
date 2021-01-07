@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.TryGetLock method"
 title: Api.TryGetLock method 
 TOCTitle: 'TryGetLock method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.TryGetLock(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.GetLockGrbit)

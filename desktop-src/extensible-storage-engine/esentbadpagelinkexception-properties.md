@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadPageLinkException properties"
 title: EsentBadPageLinkException properties
 TOCTitle: EsentBadPageLinkException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBadPageLinkException
