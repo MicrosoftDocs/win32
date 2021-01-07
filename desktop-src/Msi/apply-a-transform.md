@@ -1,5 +1,5 @@
 ---
-Description: The VBScript file WiUseXfm.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample shows how script can be used to apply a transform to a Windows Installer database.
+description: The VBScript file WiUseXfm.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample shows how script can be used to apply a transform to a Windows Installer database.
 ms.assetid: e647388e-5211-463d-9e3e-b502af01fc0c
 title: Apply a Transform
 ms.topic: article

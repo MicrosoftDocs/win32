@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether to repeat the first field in an interlaced frame. This attribute applies to media samples.
+description: Specifies whether to repeat the first field in an interlaced frame. This attribute applies to media samples.
 ms.assetid: c469f418-fa23-443f-8012-0d548ee98c17
 title: MFSampleExtension_RepeatFirstField attribute (Mfapi.h)
 ms.topic: reference

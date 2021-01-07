@@ -1,5 +1,5 @@
 ---
-Description: Adjusts the saturation.
+description: Adjusts the saturation.
 ms.assetid: bd71f542-36d9-4dfc-b402-35ee8e574731
 title: MFPKEY_COLOR_SATURATION Property (Wmcodecdsp.h)
 ms.topic: reference

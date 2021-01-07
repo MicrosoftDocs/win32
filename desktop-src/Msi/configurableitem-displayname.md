@@ -1,5 +1,5 @@
 ---
-Description: The DisplayName property of the ConfigurableItem object returns the value from the DisplayName column of the ModuleConfiguration table.
+description: The DisplayName property of the ConfigurableItem object returns the value from the DisplayName column of the ModuleConfiguration table.
 ms.assetid: f2025bab-73b0-46d2-a276-0ad17fdd9783
 title: ConfigurableItem.DisplayName property (Mergemod.h)
 ms.topic: reference

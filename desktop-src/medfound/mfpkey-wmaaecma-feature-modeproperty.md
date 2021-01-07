@@ -1,5 +1,5 @@
 ---
-Description: Enables the application to override the default settings on various properties of the Voice Capture DSP.
+description: Enables the application to override the default settings on various properties of the Voice Capture DSP.
 ms.assetid: 1c11e817-36bd-4a5d-9c2b-6a91e86f623f
 title: MFPKEY_WMAAECMA_FEATURE_MODE Property (Wmcodecdsp.h)
 ms.topic: reference

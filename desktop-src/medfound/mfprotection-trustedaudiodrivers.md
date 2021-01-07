@@ -1,5 +1,5 @@
 ---
-Description: Specifies trusted audio drivers.
+description: Specifies trusted audio drivers.
 ms.assetid: 6728D066-2954-4CE7-936B-CCAADC04CE30
 title: MFPROTECTION_TRUSTEDAUDIODRIVERS attribute (Mfidl.h)
 ms.topic: reference

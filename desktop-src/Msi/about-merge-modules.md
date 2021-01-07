@@ -1,5 +1,5 @@
 ---
-Description: Merge modules are essentially simplified .msi files, which is the file name extension for a Windows Installer installation package. A standard merge module has an .msm file name extension.
+description: Merge modules are essentially simplified .msi files, which is the file name extension for a Windows Installer installation package. A standard merge module has an .msm file name extension.
 ms.assetid: 580fe58a-4636-4f9a-a68d-4fd0e281e949
 title: About Merge Modules
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum time, in milliseconds, between key frames in the codec output.
+description: Specifies the maximum time, in milliseconds, between key frames in the codec output.
 ms.assetid: 2a52e6a5-10a0-46dd-aa31-cb55094903b5
 title: MFPKEY_KEYDIST Property (Wmcodecdsp.h)
 ms.topic: reference

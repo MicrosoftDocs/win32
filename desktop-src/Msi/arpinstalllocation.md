@@ -1,5 +1,5 @@
 ---
-Description: The ARPINSTALLLOCATION property is the full path to the application's primary folder.
+description: The ARPINSTALLLOCATION property is the full path to the application's primary folder.
 ms.assetid: f4635241-ac18-4bc5-b043-c6e42c0b456e
 title: ARPINSTALLLOCATION property
 ms.topic: reference

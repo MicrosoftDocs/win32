@@ -1,5 +1,5 @@
 ---
-Description: Indicates to the video sample allocator to create textures as shareable using the legacy mechanism.
+description: Indicates to the video sample allocator to create textures as shareable using the legacy mechanism.
 ms.assetid: A9F4D4AF-BB47-48E2-B40A-D0245FD61FAF
 title: MF_SA_D3D11_SHARED_WITHOUT_MUTEX attribute (Mftransform.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Contains the CLSID of a quality manager for the Media Session.
+description: Contains the CLSID of a quality manager for the Media Session.
 ms.assetid: 24b4a5e3-84f1-44d0-a8ac-75c127ec8a8a
 title: MF_SESSION_QUALITY_MANAGER attribute (Mfidl.h)
 ms.topic: reference

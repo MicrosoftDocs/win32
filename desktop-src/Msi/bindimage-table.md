@@ -1,5 +1,5 @@
 ---
-Description: The BindImage table contains information about each executable or DLL that needs to be bound to the DLLs imported by it.
+description: The BindImage table contains information about each executable or DLL that needs to be bound to the DLLs imported by it.
 ms.assetid: 68bf064c-dd85-4796-8e08-6af307f94ad8
 title: BindImage Table
 ms.topic: article

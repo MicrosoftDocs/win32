@@ -1,5 +1,5 @@
 ---
-Description: The ARPSIZE property is the estimated size of the application in kilobytes.
+description: The ARPSIZE property is the estimated size of the application in kilobytes.
 ms.assetid: f8327f5e-4b79-4707-8dd2-78dcfeaa0301
 title: ARPSIZE property
 ms.topic: reference

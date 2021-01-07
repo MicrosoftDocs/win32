@@ -1,5 +1,5 @@
 ---
-Description: Enables two instances of the Media Session to share the same Protected Media Path (PMP) process.
+description: Enables two instances of the Media Session to share the same Protected Media Path (PMP) process.
 ms.assetid: a922c79b-d6c1-447d-b6fa-993970169a3f
 title: MF_SESSION_SERVER_CONTEXT attribute (Mfidl.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The state of the component.
+description: The state of the component.
 ms.assetid: 37890d43-012a-4344-81d9-aed54de0c75b
 title: ComponentInfo.State property
 ms.topic: reference

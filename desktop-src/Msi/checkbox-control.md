@@ -1,5 +1,5 @@
 ---
-Description: This CheckBox\_control is a two-state check box.
+description: This CheckBox\_control is a two-state check box.
 ms.assetid: 939cc08f-7efd-4ff4-a846-6419e512a18f
 title: CheckBox Control (Windows Installer)
 ms.topic: article

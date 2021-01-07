@@ -1,5 +1,5 @@
 ---
-Description: The MP3 file source parses MP3 files.
+description: The MP3 file source parses MP3 files.
 ms.assetid: 37362642-1b8a-4fb3-950d-ed1afe3696e5
 title: MP3 File Source
 ms.topic: reference

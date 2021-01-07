@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the sample-grabber sink uses the presentation clock to schedule samples.
+description: Specifies whether the sample-grabber sink uses the presentation clock to schedule samples.
 ms.assetid: 780ec4a6-8e14-4b81-9d50-82b2850c70ae
 title: MF_SAMPLEGRABBERSINK_IGNORE_CLOCK attribute (Mfidl.h)
 ms.topic: reference

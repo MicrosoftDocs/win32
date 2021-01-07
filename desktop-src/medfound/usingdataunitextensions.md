@@ -1,5 +1,5 @@
 ---
-Description: Describes how to add data-unit extensions when using Windows Media encoders.
+description: Describes how to add data-unit extensions when using Windows Media encoders.
 ms.assetid: fdadcb85-c564-4d05-a4d7-af53a0107455
 title: Using Data Unit Extensions (Microsoft Media Foundation)
 ms.topic: article

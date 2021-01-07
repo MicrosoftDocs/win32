@@ -1,5 +1,5 @@
 ---
-Description: The ACTION property can be set to the following values.
+description: The ACTION property can be set to the following values.
 ms.assetid: 'f2c436b6-ebd9-4ac4-8609-f54129023ca7'
 title: ACTION property
 ms.topic: article

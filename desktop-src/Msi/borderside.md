@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the BorderSide property to the width of the window borders in pixels.
+description: The installer sets the BorderSide property to the width of the window borders in pixels.
 ms.assetid: 2f2f93d1-dd83-4075-a436-7ae4105af9fe
 title: BorderSide property
 ms.topic: reference

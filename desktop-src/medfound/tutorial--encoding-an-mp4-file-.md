@@ -1,5 +1,5 @@
 ---
-Description: This tutorial shows how to use the Transcode API to encode an MP4 file, using H.264 for the video stream and AAC for the audio stream.
+description: This tutorial shows how to use the Transcode API to encode an MP4 file, using H.264 for the video stream and AAC for the audio stream.
 ms.assetid: 60873aa6-46ec-4a73-94b9-0d8ac602f850
 title: 'Tutorial: Encoding an MP4 File'
 ms.topic: article

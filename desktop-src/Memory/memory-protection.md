@@ -1,5 +1,5 @@
 ---
-Description: Memory that belongs to a process is implicitly protected by its private virtual address space.
+description: Memory that belongs to a process is implicitly protected by its private virtual address space.
 ms.assetid: 70ded07a-7be6-4189-a1ae-281917f42a1e
 title: Memory Protection
 ms.topic: article

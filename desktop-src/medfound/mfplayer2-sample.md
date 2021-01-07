@@ -1,5 +1,5 @@
 ---
-Description: Important  Deprecated.
+description: Important  Deprecated.
 ms.assetid: bb71e792-d09c-4338-9cf4-4854e14042f9
 title: MFPlayer2 Sample
 ms.topic: article

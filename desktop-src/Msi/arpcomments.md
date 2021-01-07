@@ -1,5 +1,5 @@
 ---
-Description: The ARPCOMMENTS property provides the Add or Remove Programs Control Panel Comments that are written under the Uninstall Registry Key. This property can be set by the command line or a transform.
+description: The ARPCOMMENTS property provides the Add or Remove Programs Control Panel Comments that are written under the Uninstall Registry Key. This property can be set by the command line or a transform.
 ms.assetid: 68c25703-a217-42cc-833e-0568216813a9
 title: ARPCOMMENTS property
 ms.topic: reference

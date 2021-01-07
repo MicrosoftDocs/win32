@@ -1,5 +1,5 @@
 ---
-Description: If an application must be registered, author the installation package as described in the section Adding and Removing Registry Keys on the Installation or Removal of Components.
+description: If an application must be registered, author the installation package as described in the section Adding and Removing Registry Keys on the Installation or Removal of Components.
 ms.assetid: d2c6afde-cede-4ed1-ac1a-8ddb1bc73ec2
 title: Adding and Removing an Application and Leaving No Trace in the Registry
 ms.topic: article

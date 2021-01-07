@@ -1,5 +1,5 @@
 ---
-Description: Sets the stream configuration for the WTV media source.
+description: Sets the stream configuration for the WTV media source.
 ms.assetid: 2181723A-C6E8-42BD-979C-5C26FE3986C4
 title: MFPKEY_SBESourceMode property (Mfidl.h)
 ms.topic: reference

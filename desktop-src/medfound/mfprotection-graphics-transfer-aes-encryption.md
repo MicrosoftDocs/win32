@@ -1,5 +1,5 @@
 ---
-Description: Specifies AES DXVA encryption for DXVA decoders.
+description: Specifies AES DXVA encryption for DXVA decoders.
 ms.assetid: 8E270C97-E073-40D3-8D33-7BBFE1833940
 title: MFPROTECTION_GRAPHICS_TRANSFER_AES_ENCRYPTION attribute (Mfidl.h)
 ms.topic: reference

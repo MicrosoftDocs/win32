@@ -1,5 +1,5 @@
 ---
-Description: Contains the CLSID for a Media Foundation transform (MFT).
+description: Contains the CLSID for a Media Foundation transform (MFT).
 ms.assetid: adb10fe8-760b-4aff-a582-254e11bb76af
 title: MFPKEY_CLSID property (Mftransform.h)
 ms.topic: reference

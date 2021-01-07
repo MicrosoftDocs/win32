@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum instantaneous bit rate, in bits per second, for an Advanced Systems Format (ASF) file.
+description: Specifies the maximum instantaneous bit rate, in bits per second, for an Advanced Systems Format (ASF) file.
 ms.assetid: 07e94448-13a9-4ea5-9ac7-a1e35668e0a0
 title: MF_PD_ASF_FILEPROPERTIES_MAX_BITRATE attribute (Wmcontainer.h)
 ms.topic: reference

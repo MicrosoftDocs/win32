@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how the Sequencer Source handles presentation times during playback.
+description: This topic describes how the Sequencer Source handles presentation times during playback.
 ms.assetid: 0d095e25-5ccf-4319-8767-07b417ed7ee8
 title: Sequence Presentation Times
 ms.topic: article

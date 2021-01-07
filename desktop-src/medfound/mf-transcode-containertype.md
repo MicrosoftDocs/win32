@@ -1,5 +1,5 @@
 ---
-Description: Specifies the container type of an encoded file.
+description: Specifies the container type of an encoded file.
 ms.assetid: 97fd968a-6843-4695-aece-02f9acd618fd
 title: MF_TRANSCODE_CONTAINERTYPE attribute (Mfidl.h)
 ms.topic: reference

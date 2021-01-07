@@ -1,5 +1,5 @@
 ---
-Description: The constants in the following table specify television standards and formats for Output Protection Manager (OPM).
+description: The constants in the following table specify television standards and formats for Output Protection Manager (OPM).
 ms.assetid: 8f26aa92-ed40-483e-ac78-c071619f0e12
 title: TV Protection Standard Flags (Opmapi.h)
 ms.topic: reference

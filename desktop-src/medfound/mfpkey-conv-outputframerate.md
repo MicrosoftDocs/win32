@@ -1,5 +1,5 @@
 ---
-Description: Specifies the output frame rate as a ratio.
+description: Specifies the output frame rate as a ratio.
 ms.assetid: a825f3a5-f9b5-49c3-853c-87d1dcb3c4ca
 title: MFPKEY_CONV_OUTPUTFRAMERATE Property (Wmcodecdsp.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: In Microsoft Media Foundation, a work queue is an efficient way to perform asynchronous operations on another thread.
+description: In Microsoft Media Foundation, a work queue is an efficient way to perform asynchronous operations on another thread.
 ms.assetid: 'f886d096-b1f5-42e4-8888-501b58bffd50'
 title: Work Queues
 ms.topic: article

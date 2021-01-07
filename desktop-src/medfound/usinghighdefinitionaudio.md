@@ -1,5 +1,5 @@
 ---
-Description: Using High-Definition Audio
+description: Using High-Definition Audio
 ms.assetid: 5e21943f-363c-4831-bc09-aadf6f4a0ad5
 title: Using High-Definition Audio (Microsoft Media Foundation)
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Contains the display name for a hardware-based Media Foundation transform (MFT).
+description: Contains the display name for a hardware-based Media Foundation transform (MFT).
 ms.assetid: 8f2634e8-6bdd-463a-893a-6dc616c8333d
 title: MFT_FRIENDLY_NAME_Attribute attribute (Mftransform.h)
 ms.topic: reference

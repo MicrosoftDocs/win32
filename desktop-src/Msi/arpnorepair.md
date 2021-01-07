@@ -1,5 +1,5 @@
 ---
-Description: Set the ARPNOREPAIR property to disable the Repair button in the Programs Wizard. For more information, see Getting and Setting Properties.
+description: Set the ARPNOREPAIR property to disable the Repair button in the Programs Wizard. For more information, see Getting and Setting Properties.
 ms.assetid: 3fcaad7e-f868-4209-b494-a0b570a104c0
 title: ARPNOREPAIR property
 ms.topic: reference

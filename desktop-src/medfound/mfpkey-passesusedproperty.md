@@ -1,5 +1,5 @@
 ---
-Description: Specifies the number of passes that the encoder will use to encode the content.
+description: Specifies the number of passes that the encoder will use to encode the content.
 ms.assetid: 71a21976-ed92-4cd6-946c-fa6268895531
 title: MFPKEY_PASSESUSED Property (Wmcodecdsp.h)
 ms.topic: reference

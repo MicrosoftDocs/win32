@@ -1,5 +1,5 @@
 ---
-Description: A 64-bit package consists partially or entirely of 64-bit Windows Installer components.
+description: A 64-bit package consists partially or entirely of 64-bit Windows Installer components.
 ms.assetid: 615a5534-7c9e-4240-9a23-35f224122d0e
 title: 64-bit Windows Installer Packages
 ms.topic: article

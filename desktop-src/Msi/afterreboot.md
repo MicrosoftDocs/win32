@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the AFTERREBOOT property to 1 after a reboot invoked by the ForceReboot action. The installer adds AFTERREBOOT=1 to the command line run immediately after the reboot.
+description: The installer sets the AFTERREBOOT property to 1 after a reboot invoked by the ForceReboot action. The installer adds AFTERREBOOT=1 to the command line run immediately after the reboot.
 ms.assetid: d8a71d9a-64bf-4a38-9c3b-073c216de7fa
 title: AFTERREBOOT property
 ms.topic: reference

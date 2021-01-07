@@ -1,5 +1,5 @@
 ---
-Description: Memory management tracing event for a heap allocation operation.
+description: Memory management tracing event for a heap allocation operation.
 ms.assetid: 572DEC3B-F909-45E5-849F-707AA62F2F5E
 title: ETW_HEAP_EVENT_ALLOC event (Ntwmi.h)
 ms.topic: reference

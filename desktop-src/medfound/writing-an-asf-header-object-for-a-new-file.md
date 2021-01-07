@@ -1,5 +1,5 @@
 ---
-Description: Writing an ASF Header Object for a New File
+description: Writing an ASF Header Object for a New File
 ms.assetid: f2a76471-3d93-427b-a316-d0967cd20e77
 title: Writing an ASF Header Object for a New File
 ms.topic: article

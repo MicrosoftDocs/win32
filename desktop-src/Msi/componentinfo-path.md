@@ -1,5 +1,5 @@
 ---
-Description: The path of the component.
+description: The path of the component.
 ms.assetid: f10253f4-d948-4853-9056-2a5c674a6506
 title: ComponentInfo.Path property
 ms.topic: reference

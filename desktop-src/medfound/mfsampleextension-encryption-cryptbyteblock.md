@@ -1,5 +1,5 @@
 ---
-Description: Specifies the encrypted byte block size for sample-based pattern encryption.
+description: Specifies the encrypted byte block size for sample-based pattern encryption.
 ms.assetid: 1F370DEC-20B5-456D-BB68-C94E183410F3
 title: MFSampleExtension_Encryption_CryptByteBlock attribute (Mfidl.h)
 ms.topic: reference

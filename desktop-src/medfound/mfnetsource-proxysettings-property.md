@@ -1,5 +1,5 @@
 ---
-Description: Specifies the configuration setting for the default proxy locator.
+description: Specifies the configuration setting for the default proxy locator.
 ms.assetid: 85f2bd02-8a2f-46b5-b765-1a0bc5b6ccc3
 title: MFNETSOURCE_PROXYSETTINGS property (Mfidl.h)
 ms.topic: reference

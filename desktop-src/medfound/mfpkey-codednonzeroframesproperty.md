@@ -1,5 +1,5 @@
 ---
-Description: Specifies the number of video frames encoded by the codec that actually contain data.
+description: Specifies the number of video frames encoded by the codec that actually contain data.
 ms.assetid: f96fd0b2-8c81-4318-b44c-4b794b3945a3
 title: MFPKEY_CODEDNONZEROFRAMES Property (Wmcodecdsp.h)
 ms.topic: reference
