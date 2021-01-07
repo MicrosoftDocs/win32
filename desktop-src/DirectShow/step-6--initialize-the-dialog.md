@@ -1,5 +1,5 @@
 ---
-Description: Step 6.
+description: Step 6.
 ms.assetid: 8462958d-3958-453b-8034-3cfc2fb5ae2e
 title: Step 6. Initialize the Dialog
 ms.topic: article

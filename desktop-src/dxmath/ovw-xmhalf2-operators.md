@@ -1,5 +1,5 @@
 ---
-Description: The XMHALF2 structure exposes the following operators.
+description: The XMHALF2 structure exposes the following operators.
 ms.assetid: d5f2936e-a795-44e2-9568-ca7f365d9b34
 title: XMHALF2 Operators
 ms.topic: reference

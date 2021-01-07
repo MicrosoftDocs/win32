@@ -1,5 +1,5 @@
 ---
-Description: Time Stamps
+description: Time Stamps
 ms.assetid: 445fe6b9-9d5b-45fd-9c9e-8c632c5228ae
 title: Time Stamps
 ms.topic: article

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Adding Tables to the Database"
 title: Adding Tables to the Database
 TOCTitle: Adding Tables to the Database
 ms:assetid: 176d4fea-c856-441b-bd58-165b37c35095

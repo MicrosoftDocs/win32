@@ -1,5 +1,5 @@
 ---
-Description: The XMFLOAT2 structure exposes the following operators.
+description: The XMFLOAT2 structure exposes the following operators.
 ms.assetid: 91b6d6e3-7953-461c-8b64-c50f394caa63
 title: XMFLOAT2 operators
 ms.topic: reference

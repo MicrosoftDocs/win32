@@ -1,5 +1,5 @@
 ---
-Description: Lists the vector arithmetic functions.
+description: Lists the vector arithmetic functions.
 ms.assetid: d7ed4516-74a6-81ec-79a2-2e39cf112d11
 title: Vector arithmetic functions
 ms.topic: reference

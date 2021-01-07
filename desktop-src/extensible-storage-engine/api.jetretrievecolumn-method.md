@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.JetRetrieveColumn method"
 title: Api.JetRetrieveColumn method 
 TOCTitle: 'JetRetrieveColumn method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.JetRetrieveColumn

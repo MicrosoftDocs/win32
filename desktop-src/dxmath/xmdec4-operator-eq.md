@@ -1,5 +1,5 @@
 ---
-Description: Assigns vector component data to the current instance of XMDEC4.
+description: Assigns vector component data to the current instance of XMDEC4.
 ms.assetid: 'overload:microsoft.directx_sdk.reference.xmdec4.operator = '
 title: XMDEC4 operator = operators
 ms.topic: reference

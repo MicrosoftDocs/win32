@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetResetTableSequential method"
 title: Api.JetResetTableSequential method 
 TOCTitle: 'JetResetTableSequential method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetResetTableSequential(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.ResetTableSequentialGrbit)

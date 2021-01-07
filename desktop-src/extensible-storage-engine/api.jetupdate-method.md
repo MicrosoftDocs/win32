@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.JetUpdate method"
 title: Api.JetUpdate method 
 TOCTitle: 'JetUpdate method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.JetUpdate

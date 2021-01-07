@@ -1,5 +1,5 @@
 ---
-Description: Lists the set of functions for loading values obtained from hardware registers provided as part of the DirectXMath Library.
+description: Lists the set of functions for loading values obtained from hardware registers provided as part of the DirectXMath Library.
 ms.assetid: 3434ea7d-edc3-a8eb-3481-9e76ba724800
 title: DirectXMath Library vector load functions
 ms.topic: reference

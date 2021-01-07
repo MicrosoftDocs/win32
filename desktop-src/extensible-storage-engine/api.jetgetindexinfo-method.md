@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.JetGetIndexInfo method"
 title: Api.JetGetIndexInfo method 
 TOCTitle: 'JetGetIndexInfo method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.JetGetIndexInfo

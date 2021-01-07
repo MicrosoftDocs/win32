@@ -1,5 +1,5 @@
 ---
-Description: Video Port Pins
+description: Video Port Pins
 ms.assetid: a6be24e5-7937-48f1-abeb-3f29c3deeafd
 title: Video Port Pins
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: System Device Enumerator
+description: System Device Enumerator
 ms.assetid: ea98be7f-580d-4986-bd6b-d254a2c075e8
 title: System Device Enumerator
 ms.topic: article

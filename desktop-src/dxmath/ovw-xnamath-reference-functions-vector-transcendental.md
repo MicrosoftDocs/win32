@@ -1,5 +1,5 @@
 ---
-Description: Lists the transcendental vector functions.
+description: Lists the transcendental vector functions.
 ms.assetid: aae12d4a-7758-83df-5376-99d5d94a28c4
 title: Transcendental vector functions
 ms.topic: reference

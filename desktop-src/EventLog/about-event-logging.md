@@ -1,5 +1,5 @@
 ---
-Description: When an error occurs, the system administrator or support representative must determine what caused the error, attempt to recover any lost data, and prevent the error from recurring.
+description: When an error occurs, the system administrator or support representative must determine what caused the error, attempt to recover any lost data, and prevent the error from recurring.
 ms.assetid: 2a625c8a-afa2-484a-a0e3-df3ef774abe4
 title: About Event Logging
 ms.topic: article

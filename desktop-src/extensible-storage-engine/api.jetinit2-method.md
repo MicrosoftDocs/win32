@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetInit2 method"
 title: Api.JetInit2 method 
 TOCTitle: 'JetInit2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetInit2(Microsoft.Isam.Esent.Interop.JET_INSTANCE@,Microsoft.Isam.Esent.Interop.InitGrbit)

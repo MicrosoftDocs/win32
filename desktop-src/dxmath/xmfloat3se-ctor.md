@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMFLOAT3SE.
+description: Constructors exposed by XMFLOAT3SE.
 ms.assetid: 7a3dd943-9f9d-4172-9e1f-d27911dd17f4
 title: XMFLOAT3SE constructors
 ms.topic: reference

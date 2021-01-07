@@ -1,5 +1,5 @@
 ---
-Description: VMR with Multiple Streams (Mixing Mode)
+description: VMR with Multiple Streams (Mixing Mode)
 ms.assetid: 053edb70-8631-4fe4-a137-2fe54e02ab9e
 title: VMR with Multiple Streams (Mixing Mode)
 ms.topic: article

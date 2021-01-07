@@ -1,5 +1,5 @@
 ---
-Description: Before you can write events to a trace session, you must register your provider.
+description: Before you can write events to a trace session, you must register your provider.
 ms.assetid: 21f62b5d-0a2d-468c-af88-2fab1512f0ec
 title: Writing MOF (Classic) Events
 ms.topic: article

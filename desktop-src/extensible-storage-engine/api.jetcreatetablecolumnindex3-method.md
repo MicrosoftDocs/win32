@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetCreateTableColumnIndex3 method"
 title: Api.JetCreateTableColumnIndex3 method 
 TOCTitle: 'JetCreateTableColumnIndex3 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetCreateTableColumnIndex3(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,Microsoft.Isam.Esent.Interop.JET_TABLECREATE)

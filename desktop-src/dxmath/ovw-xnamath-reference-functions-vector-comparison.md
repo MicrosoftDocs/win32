@@ -1,5 +1,5 @@
 ---
-Description: Lists the vector comparison functions.
+description: Lists the vector comparison functions.
 ms.assetid: 8caad40f-ab8e-db2f-da11-18f3d3ccf6ef
 title: Vector comparison functions
 ms.topic: reference

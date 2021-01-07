@@ -1,5 +1,5 @@
 ---
-Description: The swapinputs attribute specifies whether to swap transition inputs. If the value is TRUE, the inputs are swapped. The default value is FALSE.
+description: The swapinputs attribute specifies whether to swap transition inputs. If the value is TRUE, the inputs are swapped. The default value is FALSE.
 ms.assetid: 2b8d95ec-2c6c-4bd8-83e9-7f72770449b5
 title: swapinputs Attribute
 ms.topic: reference

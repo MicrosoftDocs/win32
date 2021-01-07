@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetSetDatabaseSize method"
 title: Api.JetSetDatabaseSize method 
 TOCTitle: 'JetSetDatabaseSize method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetSetDatabaseSize(Microsoft.Isam.Esent.Interop.JET_SESID,System.String,System.Int32,System.Int32@)

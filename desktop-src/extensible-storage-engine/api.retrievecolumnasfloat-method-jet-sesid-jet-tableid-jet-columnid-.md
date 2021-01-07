@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.RetrieveColumnAsFloat method (JET_SESID, JET_TABLEID, JET_COLUMNID)"
 title: Api.RetrieveColumnAsFloat method (JET_SESID, JET_TABLEID, JET_COLUMNID)
 TOCTitle: RetrieveColumnAsFloat method (JET_SESID, JET_TABLEID, JET_COLUMNID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsFloat(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_COLUMNID)

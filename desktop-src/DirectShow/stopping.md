@@ -1,5 +1,5 @@
 ---
-Description: Stopping
+description: Stopping
 ms.assetid: e2796b69-05e5-4ced-b238-257952d81211
 title: Stopping
 ms.topic: article

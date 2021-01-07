@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for network events. The following syntax is simplified from MOF code.
+description: This class is the event type class for network events. The following syntax is simplified from MOF code.
 ms.assetid: afa994ef-dd1c-4909-a6cd-7021be4fff40
 title: SystemConfig_Network class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: VMR Windowless Mode
+description: VMR Windowless Mode
 ms.assetid: 0dc871d2-79c4-4bf8-96ef-13c4d1ab4497
 title: VMR Windowless Mode
 ms.topic: article

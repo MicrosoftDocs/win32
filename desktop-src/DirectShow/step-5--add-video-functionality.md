@@ -1,5 +1,5 @@
 ---
-Description: This topic is step 5 of the tutorial Audio/Video Playback in DirectShow.
+description: This topic is step 5 of the tutorial Audio/Video Playback in DirectShow.
 ms.assetid: 9d7a40e0-4327-4ca3-b430-2be02f80c16f
 title: 'Step 5: Add Video Functionality'
 ms.topic: article

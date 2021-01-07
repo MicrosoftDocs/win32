@@ -1,5 +1,5 @@
 ---
-Description: Compares two numeric data type instances, or two instances of an object which supports an overload of <, and returns the larger one of the two instances. The data type of the arguments and the return value is the same.
+description: Compares two numeric data type instances, or two instances of an object which supports an overload of <, and returns the larger one of the two instances. The data type of the arguments and the return value is the same.
 ms.assetid: 'm:microsoft.directx_sdk.reference.xmmax(t,t)'
 title: XMMax template (DirectXMath.h)
 ms.topic: reference

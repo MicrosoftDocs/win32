@@ -1,5 +1,5 @@
 ---
-Description: Video Mixing Renderer Filter 7
+description: Video Mixing Renderer Filter 7
 ms.assetid: c83e6c50-76f2-4aeb-944b-5b244c6bf776
 title: Video Mixing Renderer Filter 7
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetCreateDatabase method"
 title: Api.JetCreateDatabase method 
 TOCTitle: 'JetCreateDatabase method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetCreateDatabase(Microsoft.Isam.Esent.Interop.JET_SESID,System.String,System.String,Microsoft.Isam.Esent.Interop.JET_DBID@,Microsoft.Isam.Esent.Interop.CreateDatabaseGrbit)

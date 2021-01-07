@@ -1,5 +1,5 @@
 ---
-Description: Lists macros provided by DirectXMath.
+description: Lists macros provided by DirectXMath.
 ms.assetid: a31ba325-d405-74b9-0c13-d912816334dc
 title: DirectXMath Library macros
 ms.topic: reference

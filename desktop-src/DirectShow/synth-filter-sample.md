@@ -1,5 +1,5 @@
 ---
-Description: Synth Filter Sample
+description: Synth Filter Sample
 ms.assetid: 2d087967-3734-463f-bc5e-9552290ddc0b
 title: Synth Filter Sample
 ms.topic: article

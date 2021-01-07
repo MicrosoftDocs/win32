@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for UDP/IP events. The following syntax is simplified from MOF code.
+description: This class is the event type class for UDP/IP events. The following syntax is simplified from MOF code.
 ms.assetid: c0ef6679-3852-4992-9fc2-114620eae14e
 title: UdpIp_V1_TypeGroup1 class
 ms.topic: reference

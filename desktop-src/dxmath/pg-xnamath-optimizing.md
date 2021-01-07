@@ -1,5 +1,5 @@
 ---
-Description: This topic describes optimization considerations and strategies with the DirectXMath Library.
+description: This topic describes optimization considerations and strategies with the DirectXMath Library.
 ms.assetid: bcbf8ae1-ed49-fdf7-812d-b2089537ab28
 title: Code Optimization with the DirectXMath Library
 ms.topic: article

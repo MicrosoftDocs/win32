@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.GetTableColumns method"
 title: Api.GetTableColumns method 
 TOCTitle: 'GetTableColumns method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.GetTableColumns

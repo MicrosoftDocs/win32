@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetBeginExternalBackupInstance method"
 title: Api.JetBeginExternalBackupInstance method 
 TOCTitle: 'JetBeginExternalBackupInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetBeginExternalBackupInstance(Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.BeginExternalBackupGrbit)

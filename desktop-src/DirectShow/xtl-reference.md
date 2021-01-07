@@ -1,5 +1,5 @@
 ---
-Description: XTL Reference
+description: XTL Reference
 ms.assetid: a6fa5201-aec6-467b-a9a4-ca153f35b4af
 title: XTL Reference
 ms.topic: article

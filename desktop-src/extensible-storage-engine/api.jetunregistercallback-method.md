@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetUnregisterCallback method"
 title: Api.JetUnregisterCallback method 
 TOCTitle: 'JetUnregisterCallback method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetUnregisterCallback(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_cbtyp,Microsoft.Isam.Esent.Interop.JET_HANDLE)

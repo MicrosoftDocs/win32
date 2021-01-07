@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetSetCurrentIndex3 method"
 title: Api.JetSetCurrentIndex3 method 
 TOCTitle: 'JetSetCurrentIndex3 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetSetCurrentIndex3(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.String,Microsoft.Isam.Esent.Interop.SetCurrentIndexGrbit,System.Int32)

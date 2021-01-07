@@ -1,5 +1,5 @@
 ---
-Description: Represents the event type class for handle duplication events.
+description: Represents the event type class for handle duplication events.
 ms.assetid: a933ffaa-8c99-4b87-ad00-4c40fa4d8d26
 title: ObHandleDuplicateEvent class
 ms.topic: reference

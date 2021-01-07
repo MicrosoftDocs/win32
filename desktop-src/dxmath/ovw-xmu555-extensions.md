@@ -1,5 +1,5 @@
 ---
-Description: XMU555 describes a 4D vector with x-,y-, and z- components represented as 5 bit unsigned integer values, and the w-component as a 1 bit integer value.
+description: XMU555 describes a 4D vector with x-,y-, and z- components represented as 5 bit unsigned integer values, and the w-component as a 1 bit integer value.
 ms.assetid: 89ca4ee3-ab6a-403a-9cd9-18de02d285ac
 title: XMU555 Extensions
 ms.topic: reference

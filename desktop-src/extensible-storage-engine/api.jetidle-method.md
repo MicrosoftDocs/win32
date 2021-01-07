@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetIdle method"
 title: Api.JetIdle method 
 TOCTitle: 'JetIdle method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetIdle(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.IdleGrbit)

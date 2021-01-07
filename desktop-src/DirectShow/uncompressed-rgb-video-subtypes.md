@@ -1,5 +1,5 @@
 ---
-Description: The following subtypes define uncompressed RGB formats with no alpha channel.
+description: The following subtypes define uncompressed RGB formats with no alpha channel.
 ms.assetid: 49c91c8c-6889-48c6-8fa5-84929c03d951
 title: Uncompressed RGB Video Subtypes (Dshow.h)
 ms.topic: reference

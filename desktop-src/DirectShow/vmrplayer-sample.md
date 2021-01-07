@@ -1,5 +1,5 @@
 ---
-Description: VMRPlayer Sample
+description: VMRPlayer Sample
 ms.assetid: 7fc893a6-afa5-4ada-9295-29122b43b21e
 title: VMRPlayer Sample
 ms.topic: article

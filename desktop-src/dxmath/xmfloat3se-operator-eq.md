@@ -1,5 +1,5 @@
 ---
-Description: Assigns vector component data to the current instance of XMFLOAT3SE.
+description: Assigns vector component data to the current instance of XMFLOAT3SE.
 ms.assetid: 'overload:microsoft.directx_sdk.reference.xmfloat3se.operator = '
 title: XMFLOAT3SE operator = operators
 ms.topic: reference

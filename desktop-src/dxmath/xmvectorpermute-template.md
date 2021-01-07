@@ -1,5 +1,5 @@
 ---
-Description: Permutes the components of two vectors to create a new vector.
+description: Permutes the components of two vectors to create a new vector.
 ms.assetid: 'm:microsoft.directx_sdk.template.xmvectorpermute(xmvector,xmvector)'
 title: XMVectorPermute template (DirectXMath.h)
 ms.topic: reference

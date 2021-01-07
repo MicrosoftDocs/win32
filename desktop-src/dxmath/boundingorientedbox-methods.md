@@ -1,5 +1,5 @@
 ---
-Description: BoundingOrientedBox Methods
+description: BoundingOrientedBox Methods
 ms.assetid: 98aa4c21-2dac-4e7a-95ef-ca87fb5e5082
 title: BoundingOrientedBox Methods
 ms.topic: reference

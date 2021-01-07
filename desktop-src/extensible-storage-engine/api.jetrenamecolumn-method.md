@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetRenameColumn method"
 title: Api.JetRenameColumn method 
 TOCTitle: 'JetRenameColumn method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetRenameColumn(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.String,System.String,Microsoft.Isam.Esent.Interop.RenameColumnGrbit)
