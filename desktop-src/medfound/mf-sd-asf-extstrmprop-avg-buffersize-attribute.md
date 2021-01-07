@@ -1,5 +1,5 @@
 ---
-Description: Specifies the average buffer size, in bytes, needed for a stream in an Advanced Systems Format (ASF) file.
+description: Specifies the average buffer size, in bytes, needed for a stream in an Advanced Systems Format (ASF) file.
 ms.assetid: 9e9259a2-6fb7-4a24-8d14-841f2cc8c3ef
 title: MF_SD_ASF_EXTSTRMPROP_AVG_BUFFERSIZE attribute (Wmcontainer.h)
 ms.topic: reference

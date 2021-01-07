@@ -1,5 +1,5 @@
 ---
-Description: Specifies the minimum packet size, in bytes, for an Advanced Systems Format (ASF) file.
+description: Specifies the minimum packet size, in bytes, for an Advanced Systems Format (ASF) file.
 ms.assetid: 8c62db36-1332-4565-9fc0-885b9fc148e1
 title: MF_PD_ASF_FILEPROPERTIES_MIN_PACKET_SIZE attribute (Wmcontainer.h)
 ms.topic: reference

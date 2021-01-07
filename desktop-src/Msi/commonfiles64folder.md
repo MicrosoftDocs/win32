@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the CommonFiles64Folder property to the full path of the predefined 64-bit Common Files folder. The existing CommonFilesFolder property is set to the corresponding 32-bit folder.
+description: The installer sets the CommonFiles64Folder property to the full path of the predefined 64-bit Common Files folder. The existing CommonFilesFolder property is set to the corresponding 32-bit folder.
 ms.assetid: 6730170a-0f73-4a84-b3fb-bd15c72917c7
 title: CommonFiles64Folder property
 ms.topic: reference

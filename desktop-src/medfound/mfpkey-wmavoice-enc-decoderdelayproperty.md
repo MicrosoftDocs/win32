@@ -1,5 +1,5 @@
 ---
-Description: Specifies encoder latency in packet units.
+description: Specifies encoder latency in packet units.
 ms.assetid: 7c08793b-78e8-4b80-a2e3-208d49e6f111
 title: MFPKEY_WMAVOICE_ENC_DecoderDelay Property (Wmcodecdsp.h)
 ms.topic: reference

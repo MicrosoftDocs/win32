@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether to use an algorithm that produces higher-quality video, or a faster algorithm.
+description: Specifies whether to use an algorithm that produces higher-quality video, or a faster algorithm.
 ms.assetid: a6760e7e-7c99-4412-bde5-05958fad89a1
 title: MFPKEY_RESIZE_QUALITY Property (Wmcodecdsp.h)
 ms.topic: reference

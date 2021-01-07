@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to use the Sequencer Source.
+description: This topic describes how to use the Sequencer Source.
 ms.assetid: 7ce8dc67-02b1-4fd4-9e4d-6614fdb40620
 title: Using the Sequencer Source
 ms.topic: article

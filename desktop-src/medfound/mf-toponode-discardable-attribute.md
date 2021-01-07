@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the pipeline can drop samples from a topology node.
+description: Specifies whether the pipeline can drop samples from a topology node.
 ms.assetid: 8be20446-4876-4d6f-b0db-2eb1ffaef9aa
 title: MF_TOPONODE_DISCARDABLE attribute (Mfidl.h)
 ms.topic: reference

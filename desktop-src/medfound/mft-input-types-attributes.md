@@ -1,5 +1,5 @@
 ---
-Description: Contains the registered input types for a Media Foundation transform (MFT).
+description: Contains the registered input types for a Media Foundation transform (MFT).
 ms.assetid: 0fb1d9f2-2b57-41bc-8365-0b88bd5a2f3d
 title: MFT_INPUT_TYPES_Attributes attribute (Mftransform.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Stream Descriptor Attributes
+description: Stream Descriptor Attributes
 ms.assetid: 1364d7c5-67e8-49b6-8038-d6d4ea03fb7d
 title: Stream Descriptor Attributes
 ms.topic: article

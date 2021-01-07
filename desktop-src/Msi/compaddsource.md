@@ -1,5 +1,5 @@
 ---
-Description: The value of the COMPADDSOURCE property is a list of component GUIDs from the ComponentId column of the Component table, delimited by commas, that are to be installed to run from the source media.
+description: The value of the COMPADDSOURCE property is a list of component GUIDs from the ComponentId column of the Component table, delimited by commas, that are to be installed to run from the source media.
 ms.assetid: ee1e0650-674d-4189-8ef7-3d2ece89cc28
 title: COMPADDSOURCE property
 ms.topic: reference

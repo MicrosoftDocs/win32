@@ -1,5 +1,5 @@
 ---
-Description: The virtual memory functions manipulate pages of memory. The functions use the size of a page on the current computer to round off specified sizes and addresses.
+description: The virtual memory functions manipulate pages of memory. The functions use the size of a page on the current computer to round off specified sizes and addresses.
 ms.assetid: 509cd529-ff79-4b07-9e09-3c5ae65f6cba
 title: Allocating Virtual Memory
 ms.topic: article

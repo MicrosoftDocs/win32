@@ -1,5 +1,5 @@
 ---
-Description: The value of the ADDLOCAL property is a list of features that are delimited by commas, and are to be installed locally.
+description: The value of the ADDLOCAL property is a list of features that are delimited by commas, and are to be installed locally.
 ms.assetid: d408986d-7889-4fd9-8202-1d2e59673a2f
 title: ADDLOCAL property
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Resolving a Topology with TopoEdit
+description: Resolving a Topology with TopoEdit
 ms.assetid: da3e2bbc-7c9f-4a15-8842-c1bb00662cd2
 title: Resolving a Topology with TopoEdit
 ms.topic: article

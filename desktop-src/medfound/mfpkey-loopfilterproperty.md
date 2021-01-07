@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the codec should use the in-loop deblocking filter during encoding.
+description: Specifies whether the codec should use the in-loop deblocking filter during encoding.
 ms.assetid: 395a356a-5f58-46b4-b2ff-47f98106f487
 title: MFPKEY_LOOPFILTER Property (Wmcodecdsp.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: A text archive file for a Windows Installer database carries an .idt file name extension.
+description: A text archive file for a Windows Installer database carries an .idt file name extension.
 ms.assetid: 91d81fb2-3a41-477a-85c2-e68bfe482b9c
 title: Archive File Format
 ms.topic: article

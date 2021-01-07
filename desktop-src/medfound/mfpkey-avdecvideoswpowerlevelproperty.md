@@ -1,5 +1,5 @@
 ---
-Description: Specifies the power level for the decoder.
+description: Specifies the power level for the decoder.
 ms.assetid: c4ede790-e7ef-4ed0-bdbe-a635350d92f3
 title: MFPKEY_AVDecVideoSWPowerLevel Property (Wmcodecdsp.h)
 ms.topic: reference

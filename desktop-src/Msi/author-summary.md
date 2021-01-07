@@ -1,5 +1,5 @@
 ---
-Description: The Author Summary property conveys the manufacturer of the installation package, transform, or patch package.Set the Author Summary property in an installation package to the same value as the Manufacturer property.Set the Author Summary property in a transform to the name of the manufacturer of the transform.Set the Author Summary property in a patch package to the name of the manufacturer of the patch package.
+description: The Author Summary property conveys the manufacturer of the installation package, transform, or patch package.Set the Author Summary property in an installation package to the same value as the Manufacturer property.Set the Author Summary property in a transform to the name of the manufacturer of the transform.Set the Author Summary property in a patch package to the name of the manufacturer of the patch package.
 ms.assetid: 9b480750-602e-421e-8dfd-0b7049ed8b8a
 title: Author Summary property
 ms.topic: reference

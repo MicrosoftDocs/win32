@@ -1,5 +1,5 @@
 ---
-Description: Merge modules must be merged into an installation package using a merge tool.
+description: Merge modules must be merged into an installation package using a merge tool.
 ms.assetid: 2c14dfcc-6447-4c08-8e59-f3eaeb621de1
 title: Applying Merge Modules
 ms.topic: article

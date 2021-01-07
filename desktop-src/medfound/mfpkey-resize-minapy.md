@@ -1,5 +1,5 @@
 ---
-Description: Specifies the y-coordinate of the upper-left corner of the minimum display aperture.
+description: Specifies the y-coordinate of the upper-left corner of the minimum display aperture.
 ms.assetid: 51a7a157-6808-42c6-8567-a15af9324b79
 title: MFPKEY_RESIZE_MINAPY Property (Wmcodecdsp.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The CheckBox table lists the values for the check boxes.
+description: The CheckBox table lists the values for the check boxes.
 ms.assetid: 6881f358-74af-4160-ac69-36e848865ac0
 title: CheckBox Table
 ms.topic: article

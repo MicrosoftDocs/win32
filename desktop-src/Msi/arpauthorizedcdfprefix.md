@@ -1,5 +1,5 @@
 ---
-Description: The ARPAUTHORIZEDCDFPREFIX property is set to the URL of the update channel for the application.
+description: The ARPAUTHORIZEDCDFPREFIX property is set to the URL of the update channel for the application.
 ms.assetid: cefaf96a-046c-4c72-9781-111aa2edd8a2
 title: ARPAUTHORIZEDCDFPREFIX property
 ms.topic: reference

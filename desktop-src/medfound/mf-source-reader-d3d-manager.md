@@ -1,5 +1,5 @@
 ---
-Description: Contains a pointer to the Microsoft Direct3D Device Manager for the Source Reader.
+description: Contains a pointer to the Microsoft Direct3D Device Manager for the Source Reader.
 ms.assetid: 507d350e-da0c-42d0-8a8d-77618ee5a1dd
 title: MF_SOURCE_READER_D3D_MANAGER attribute (Mfreadwrite.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The Client object represents a relationship between a component and client product.
+description: The Client object represents a relationship between a component and client product.
 ms.assetid: ac1fbd74-fbc4-4f76-8e14-af48443a8528
 title: Client object
 ms.topic: reference

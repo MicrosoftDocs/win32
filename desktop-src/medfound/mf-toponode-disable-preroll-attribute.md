@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the Media Session uses preroll on the media sink represented by this topology node.
+description: Specifies whether the Media Session uses preroll on the media sink represented by this topology node.
 ms.assetid: 1781f3a0-6baa-4e06-b2eb-9a8f572aa040
 title: MF_TOPONODE_DISABLE_PREROLL attribute (Mfidl.h)
 ms.topic: reference

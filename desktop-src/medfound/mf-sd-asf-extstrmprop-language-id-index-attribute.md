@@ -1,5 +1,5 @@
 ---
-Description: Specifies the language used by a stream in an Advanced Systems Format (ASF) file.
+description: Specifies the language used by a stream in an Advanced Systems Format (ASF) file.
 ms.assetid: 834cac0a-0c84-49aa-baf2-32bae26e215b
 title: MF_SD_ASF_EXTSTRMPROP_LANGUAGE_ID_INDEX attribute (Wmcontainer.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Sets the processing mode of the Video Stabilization MFT.
+description: Sets the processing mode of the Video Stabilization MFT.
 ms.assetid: 0D49892A-8628-4F2B-B41B-51160A19DC9B
 title: MF_VIDEODSP_MODE attribute (Wmcodecdsp.h)
 ms.topic: reference

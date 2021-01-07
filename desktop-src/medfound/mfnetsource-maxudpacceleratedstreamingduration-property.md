@@ -1,5 +1,5 @@
 ---
-Description: Maximum duration of accelerated streaming, in milliseconds, when the network source uses UDP transport.
+description: Maximum duration of accelerated streaming, in milliseconds, when the network source uses UDP transport.
 ms.assetid: d5f3064a-b222-4f72-b889-cd88c14a239c
 title: MFNETSOURCE_MAXUDPACCELERATEDSTREAMINGDURATION property (Mfidl.h)
 ms.topic: reference

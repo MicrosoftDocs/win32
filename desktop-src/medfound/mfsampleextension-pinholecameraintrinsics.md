@@ -1,5 +1,5 @@
 ---
-Description: Contains the pinhole camera intrinsics for the sample.
+description: Contains the pinhole camera intrinsics for the sample.
 ms.assetid: AF7EA6A0-90C5-49A8-AD68-776BF770A448
 title: MFSampleExtension_PinholeCameraIntrinsics attribute (Mfapi.h)
 ms.topic: reference

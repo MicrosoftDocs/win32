@@ -1,5 +1,5 @@
 ---
-Description: The WMContainer objects provide low-level control over parsing and writing an Advanced Systems Format (ASF) file.
+description: The WMContainer objects provide low-level control over parsing and writing an Advanced Systems Format (ASF) file.
 ms.assetid: 258ea139-581f-4b94-9655-43ecf1e77f10
 title: WMContainer ASF Components
 ms.topic: article

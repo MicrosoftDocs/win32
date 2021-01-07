@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a hardware device source uses the system time for time stamps.
+description: Specifies whether a hardware device source uses the system time for time stamps.
 ms.assetid: 54cdfa13-955a-4e92-b337-f645d526a1b8
 title: MFT_HW_TIMESTAMP_WITH_QPC_Attribute attribute (Mftransform.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The &\#0034;leaky bucket&\#0034; model is a way to model the buffering requirements for smooth playback.
+description: The &\#0034;leaky bucket&\#0034; model is a way to model the buffering requirements for smooth playback.
 ms.assetid: 2f7f80d6-3abb-462f-a571-b223a1d59da6
 title: The Leaky Bucket Buffer Model (Microsoft Media Foundation)
 ms.topic: article

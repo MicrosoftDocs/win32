@@ -1,5 +1,5 @@
 ---
-Description: These flags define video processor (ProcAmp) settings.
+description: These flags define video processor (ProcAmp) settings.
 ms.assetid: 60d97b9e-d77c-4e53-94ea-ebd59c2601df
 title: ProcAmp Settings (Dxva2api.h)
 ms.topic: reference

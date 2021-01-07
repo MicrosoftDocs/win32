@@ -1,5 +1,5 @@
 ---
-Description: Video Quality Management
+description: Video Quality Management
 ms.assetid: 3617adf2-ed7b-4788-abce-58bc22a14511
 title: Video Quality Management
 ms.topic: article

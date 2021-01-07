@@ -1,5 +1,5 @@
 ---
-Description: Windows Installer runs as a service on computers using 32-bit or 64-bit Windows.
+description: Windows Installer runs as a service on computers using 32-bit or 64-bit Windows.
 ms.assetid: c02fc401-0c9c-49f6-adcc-ed36bdb18fca
 title: About Windows Installer on 64-Bit Operating Systems
 ms.topic: article

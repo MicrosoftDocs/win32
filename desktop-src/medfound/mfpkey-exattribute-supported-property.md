@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a Media Foundation transform (MFT) copies attributes from input samples to output samples.
+description: Specifies whether a Media Foundation transform (MFT) copies attributes from input samples to output samples.
 ms.assetid: 039ecb35-9aa9-4e8a-bbbc-042b9c4c874c
 title: MFPKEY_EXATTRIBUTE_SUPPORTED property (Mftransform.h)
 ms.topic: reference

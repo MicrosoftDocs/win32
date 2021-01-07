@@ -1,5 +1,5 @@
 ---
-Description: The BBControl table lists the controls to be displayed on each billboard.
+description: The BBControl table lists the controls to be displayed on each billboard.
 ms.assetid: 2ab31a32-6d33-46b7-a295-199560efa7fb
 title: BBControl Table
 ms.topic: article

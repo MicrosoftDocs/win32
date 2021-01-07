@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to use MFPlay to preview video from a video camera.
+description: This topic describes how to use MFPlay to preview video from a video camera.
 ms.assetid: ecf6113f-1d8e-4680-87ab-bfd45a9663e4
 title: Video Preview
 ms.topic: article

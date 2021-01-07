@@ -1,5 +1,5 @@
 ---
-Description: Sets the signing key and two sequence numbers on a protected output object.
+description: Sets the signing key and two sequence numbers on a protected output object.
 ms.assetid: 278a80f5-198d-4311-aa43-10b6dc33b3a4
 title: SetOPMSigningKeyAndSequenceNumbers function
 ms.topic: reference

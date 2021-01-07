@@ -1,5 +1,5 @@
 ---
-Description: The MFTrace tool can read an XML configuration file that specifies one or more trace providers.
+description: The MFTrace tool can read an XML configuration file that specifies one or more trace providers.
 ms.assetid: 70d11a55-041e-4eb5-96a9-238e7ecdd906
 title: MFTrace Configuration File
 ms.topic: article

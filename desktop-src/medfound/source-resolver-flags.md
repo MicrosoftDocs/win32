@@ -1,5 +1,5 @@
 ---
-Description: Defines the behavior of the source resolver. These flags are also used by scheme handlers and byte stream handlers.
+description: Defines the behavior of the source resolver. These flags are also used by scheme handlers and byte stream handlers.
 ms.assetid: fe0b9090-5d2a-41a4-a806-57c874d3b3a2
 title: Source Resolver Flags (Mfidl.h)
 ms.topic: reference

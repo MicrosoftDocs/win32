@@ -1,5 +1,5 @@
 ---
-Description: Enables video processing by the Source Reader.
+description: Enables video processing by the Source Reader.
 ms.assetid: b1ec1c0e-8042-4486-822f-eb106577c0b1
 title: MF_SOURCE_READER_ENABLE_VIDEO_PROCESSING attribute (Mfreadwrite.h)
 ms.topic: reference

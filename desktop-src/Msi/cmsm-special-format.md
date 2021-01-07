@@ -1,5 +1,5 @@
 ---
-Description: Certain values used with configurable merge modules require special text handling.
+description: Certain values used with configurable merge modules require special text handling.
 ms.assetid: b9d41400-f3b5-4f85-8728-56f9b90a50ca
 title: CMSM Special Format
 ms.topic: article

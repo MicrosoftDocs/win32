@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the Voice Capture DSP performs noise filling.
+description: Specifies whether the Voice Capture DSP performs noise filling.
 ms.assetid: 8bb64686-8f02-4e0d-a664-aeee1744fc8e
 title: MFPKEY_WMAAECMA_FEATR_NOISE_FILL Property (Wmcodecdsp.h)
 ms.topic: reference

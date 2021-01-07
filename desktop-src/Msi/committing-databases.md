@@ -1,5 +1,5 @@
 ---
-Description: Changes made to the installation database are not written to the database until you call MsiDatabaseCommit.
+description: Changes made to the installation database are not written to the database until you call MsiDatabaseCommit.
 ms.assetid: 65271631-457c-4d3e-9384-126d2c9d63d7
 title: Committing Databases
 ms.topic: article

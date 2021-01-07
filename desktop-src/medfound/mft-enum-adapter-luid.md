@@ -1,5 +1,5 @@
 ---
-Description: Specifies the unique identifier for a video adapter. Use this attribute when calling MFTEnum2 to enumerate MFTs associated with a specific adapter.
+description: Specifies the unique identifier for a video adapter. Use this attribute when calling MFTEnum2 to enumerate MFTs associated with a specific adapter.
 ms.assetid: 00E87398-2584-48B0-9618-87B057A12D0C
 title: MFT_ENUM_ADAPTER_LUID attribute (Mftransform.h)
 ms.topic: reference

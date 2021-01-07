@@ -1,5 +1,5 @@
 ---
-Description: The value of the COMPADDDEFAULT property is a list of component GUIDs from the ComponentId column of the Component table, delimited by commas, that are installed in their default configuration.
+description: The value of the COMPADDDEFAULT property is a list of component GUIDs from the ComponentId column of the Component table, delimited by commas, that are installed in their default configuration.
 ms.assetid: 1bf05680-fcba-4fbb-8f8c-4203a90346ce
 title: COMPADDDEFAULT property
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The Context property returns the value from the Context column of the ModuleConfiguration table.
+description: The Context property returns the value from the Context column of the ModuleConfiguration table.
 ms.assetid: 27b94142-81cb-4ea7-aa73-c359cb50ce71
 title: ConfigurableItem.Context property (Mergemod.h)
 ms.topic: reference

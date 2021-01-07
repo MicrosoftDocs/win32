@@ -1,5 +1,5 @@
 ---
-Description: Remotable version of the IMFMediaStream::RequestSample method.
+description: Remotable version of the IMFMediaStream::RequestSample method.
 ms.assetid: 05ed4de0-fe5c-4183-8f1d-55d5a27e436a
 title: RemoteRequestSample (Mfobjects.h)
 ms.topic: reference

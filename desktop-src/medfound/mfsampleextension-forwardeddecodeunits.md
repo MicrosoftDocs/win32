@@ -1,5 +1,5 @@
 ---
-Description: Gets an object of type IMFCollection containing IMFSample objects which contain network abstraction layer units (NALUs) and Supplemental Enhancement Information (SEI) units forwarded by a decoder.
+description: Gets an object of type IMFCollection containing IMFSample objects which contain network abstraction layer units (NALUs) and Supplemental Enhancement Information (SEI) units forwarded by a decoder.
 ms.assetid: F9FD7959-A78A-4C72-8326-EE8FF9066E6C
 title: MFSampleExtension_ForwardedDecodeUnits attribute (Mfapi.h)
 ms.topic: reference

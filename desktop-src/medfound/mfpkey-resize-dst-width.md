@@ -1,5 +1,5 @@
 ---
-Description: Specifies the width of the destination rectangle, in pixels.
+description: Specifies the width of the destination rectangle, in pixels.
 ms.assetid: 8f0066ca-c464-480d-b38f-3c1134fc51b7
 title: MFPKEY_RESIZE_DST_WIDTH Property (Wmcodecdsp.h)
 ms.topic: reference

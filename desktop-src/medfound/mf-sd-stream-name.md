@@ -1,5 +1,5 @@
 ---
-Description: Contains the name of a stream.
+description: Contains the name of a stream.
 ms.assetid: 80235820-761f-4deb-9bf6-82ef402b3ee4
 title: MF_SD_STREAM_NAME attribute (Mfidl.h)
 ms.topic: reference

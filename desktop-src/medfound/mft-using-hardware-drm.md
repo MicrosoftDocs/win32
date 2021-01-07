@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the IMFTransform is using hardware DRM.
+description: Specifies whether the IMFTransform is using hardware DRM.
 title: MFT_USING_HARDWARE_DRM (Mftransform.h)
 ms.topic: reference
 ms.date: 05/31/2018

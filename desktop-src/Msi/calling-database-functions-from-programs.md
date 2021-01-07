@@ -1,5 +1,5 @@
 ---
-Description: Before calling any of the following Database Functions from a program, such as a custom action or an automation process, the installer must first run the CostInitialize action, FileCost action, and CostFinalize action.
+description: Before calling any of the following Database Functions from a program, such as a custom action or an automation process, the installer must first run the CostInitialize action, FileCost action, and CostFinalize action.
 ms.assetid: b9795825-41fa-474b-a0c5-06770aa99bc1
 title: Calling Database Functions from Programs
 ms.topic: article

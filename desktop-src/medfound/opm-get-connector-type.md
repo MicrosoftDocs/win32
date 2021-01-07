@@ -1,5 +1,5 @@
 ---
-Description: Returns the physical connector type of the video output.
+description: Returns the physical connector type of the video output.
 ms.assetid: c5862758-0125-4dbe-af72-5ed4a85bd702
 title: OPM_GET_CONNECTOR_TYPE (Opmapi.h)
 ms.topic: reference
