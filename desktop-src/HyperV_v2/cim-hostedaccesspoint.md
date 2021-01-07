@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a service access point (SAP) and the system that hosts it.
+description: Represents an association between a service access point (SAP) and the system that hosts it.
 ms.assetid: 82db71d6-6d14-408e-87e0-fe869e454d4d
 title: CIM_HostedAccessPoint class (Hyper-V management)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: An endpoint on a switch or end station that is assigned to a VLAN, or accepts traffic from one or more VLANs.
+description: An endpoint on a switch or end station that is assigned to a VLAN, or accepts traffic from one or more VLANs.
 ms.assetid: 20943be3-35c3-4bf5-8f1a-d4095fa6897e
 title: CIM_VLANEndpoint class
 ms.topic: reference

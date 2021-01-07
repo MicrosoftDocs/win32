@@ -1,5 +1,5 @@
 ---
-Description: Sets the power state of the computer. The use of this method has been deprecated. Instead, use the SetPowerState method in the associated PowerManagementService class.
+description: Sets the power state of the computer. The use of this method has been deprecated. Instead, use the SetPowerState method in the associated PowerManagementService class.
 ms.assetid: c2196f35-f687-4d82-a068-f8499f77473a
 title: SetPowerState method of the CIM_ComputerSystem class
 ms.topic: reference

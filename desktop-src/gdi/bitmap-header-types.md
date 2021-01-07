@@ -1,5 +1,5 @@
 ---
-Description: Bitmap Header Types
+description: Bitmap Header Types
 ms.assetid: 6df4655a-f707-4893-b6e6-f7e4d7f67b4e
 title: Bitmap Header Types
 ms.topic: article

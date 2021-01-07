@@ -1,5 +1,5 @@
 ---
-Description: 'The following messages are used with color:'
+description: 'The following messages are used with color:'
 ms.assetid: e052c37a-d8bc-490a-ace1-634cdf5c2af6
 title: Color Messages
 ms.topic: article

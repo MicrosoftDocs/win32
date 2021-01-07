@@ -1,5 +1,5 @@
 ---
-Description: Represents an association in which a managed element conforms to the standard of a registered profile.
+description: Represents an association in which a managed element conforms to the standard of a registered profile.
 ms.assetid: 9d5704b6-c764-4f68-bce3-384d5a244e28
 title: CIM_ElementConformsToProfile class
 ms.topic: reference

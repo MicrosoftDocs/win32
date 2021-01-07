@@ -1,5 +1,5 @@
 ---
-Description: A superclass for classes that represent display devices.
+description: A superclass for classes that represent display devices.
 ms.assetid: 6e3b4b40-dacb-4b89-b636-0c1b18872a51
 title: CIM_Display class (Hyper-V management)
 ms.topic: reference

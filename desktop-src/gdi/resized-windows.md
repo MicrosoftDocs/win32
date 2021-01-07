@@ -1,5 +1,5 @@
 ---
-Description: The system changes the size of a window when the user chooses window menu commands, such as Size and Maximize, or when the application calls functions, such as the SetWindowPos function.
+description: The system changes the size of a window when the user chooses window menu commands, such as Size and Maximize, or when the application calls functions, such as the SetWindowPos function.
 ms.assetid: 6f997cba-e4c9-4e27-8309-42b9892ec620
 title: Resized Windows
 ms.topic: article

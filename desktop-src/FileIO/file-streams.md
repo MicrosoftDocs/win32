@@ -1,5 +1,5 @@
 ---
-Description: In the NTFS file system, streams contain the data that is written to a file, and that gives more information about a file than attributes and properties.
+description: In the NTFS file system, streams contain the data that is written to a file, and that gives more information about a file than attributes and properties.
 ms.assetid: 41dda6f1-a6d1-4e76-94f3-a72f9e491bee
 title: File Streams (Local File Systems)
 ms.topic: article

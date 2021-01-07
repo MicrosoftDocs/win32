@@ -1,5 +1,5 @@
 ---
-Description: Defines the settings for virtual system migration that is managed by an instance of the CIM\_VirtualSystemMigrationService class.
+description: Defines the settings for virtual system migration that is managed by an instance of the CIM\_VirtualSystemMigrationService class.
 ms.assetid: c28ed48b-bacc-49c8-9131-2543c0edb3fd
 title: CIM_VirtualSystemMigrationSettingData class
 ms.topic: reference

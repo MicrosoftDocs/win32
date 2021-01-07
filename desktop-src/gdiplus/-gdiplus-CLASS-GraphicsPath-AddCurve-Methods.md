@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the AddCurve methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
+description: This topic lists the AddCurve methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 ms.assetid: 81f43f7e-a383-44f7-a3bd-2969d541b616
 title: GraphicsPath.AddCurve methods (Gdipluspath.h)
 ms.date: 07/02/2019

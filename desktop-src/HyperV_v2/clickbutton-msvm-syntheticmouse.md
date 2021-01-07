@@ -1,5 +1,5 @@
 ---
-Description: Simulates a button click of the specified device button.
+description: Simulates a button click of the specified device button.
 ms.assetid: 1153BF91-F1F6-4E0A-8100-7625A3C73BB3
 title: ClickButton method of the Msvm_SyntheticMouse class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Font Package Function Error Messages
+description: Font Package Function Error Messages
 ms.assetid: 3cf7a8a1-66b2-45ca-b53d-29c80f95ff70
 title: Font Package Function Error Messages
 ms.topic: article

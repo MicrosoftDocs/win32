@@ -1,5 +1,5 @@
 ---
-Description: Adds DH-CHAP (Diffie Hellman - Challenge Handshake Authentication Protocol) parameters to a synthetic Fibre Channel port on a virtual machine.
+description: Adds DH-CHAP (Diffie Hellman - Challenge Handshake Authentication Protocol) parameters to a synthetic Fibre Channel port on a virtual machine.
 ms.assetid: b9799ea4-f948-4b5c-bd18-1faa90213bb3
 title: AddFibreChannelChap method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference

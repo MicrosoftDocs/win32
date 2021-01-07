@@ -1,5 +1,5 @@
 ---
-Description: 'The following elements are used with rectangles:'
+description: 'The following elements are used with rectangles:'
 ms.assetid: 874e76de-b6e0-4493-8b2d-fd2cf12222f3
 title: Rectangle Reference
 ms.topic: article

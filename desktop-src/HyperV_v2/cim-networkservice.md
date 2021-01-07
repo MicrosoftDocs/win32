@@ -1,5 +1,5 @@
 ---
-Description: This class is deprecated. Instead, we recommend deriving from the CIM\_Service class.
+description: This class is deprecated. Instead, we recommend deriving from the CIM\_Service class.
 ms.assetid: 67b3a96e-4549-41e0-8097-f8d145df0c49
 title: CIM_NetworkService class
 ms.topic: reference

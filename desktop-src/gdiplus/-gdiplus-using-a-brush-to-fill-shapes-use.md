@@ -1,5 +1,5 @@
 ---
-Description: 'A Windows GDI+Brush object is used to fill the interior of a closed shape. GDI+ defines several fill styles: solid color, hatch pattern, image texture, and color gradient.'
+description: 'A Windows GDI+Brush object is used to fill the interior of a closed shape. GDI+ defines several fill styles: solid color, hatch pattern, image texture, and color gradient.'
 ms.assetid: 8ccf2c4a-6f99-465f-8adf-0f7fcd002f79
 title: Using a Brush to Fill Shapes
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Windows GDI+ provides the Image class and the Bitmap class for storing images in memory and manipulating images in memory.
+description: Windows GDI+ provides the Image class and the Bitmap class for storing images in memory and manipulating images in memory.
 ms.assetid: f9a5b4b1-4e25-42c8-a96b-a3104841e5f3
 title: Using Image Encoders and Decoders
 ms.topic: article

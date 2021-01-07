@@ -1,5 +1,5 @@
 ---
-Description: Represents a switch port that sends and receives data frames.
+description: Represents a switch port that sends and receives data frames.
 ms.assetid: 015eed2a-1393-40ef-a190-832ab48766f9
 title: CIM_SwitchPort class
 ms.topic: reference

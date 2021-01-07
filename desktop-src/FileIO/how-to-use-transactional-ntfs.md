@@ -1,5 +1,5 @@
 ---
-Description: Managing transacted file handles in Transactional NTFS.
+description: Managing transacted file handles in Transactional NTFS.
 ms.assetid: 29879a3f-14b4-462c-a001-46c3c3eb74d1
 title: How to Use Transactional NTFS
 ms.topic: article

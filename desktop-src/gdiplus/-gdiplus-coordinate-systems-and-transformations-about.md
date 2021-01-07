@@ -1,5 +1,5 @@
 ---
-Description: Windows GDI+ provides a world transformation and a page transformation so that you can transform (rotate, scale, translate, and so on) the items you draw. The two transformations also allow you to work in a variety of coordinate systems.
+description: Windows GDI+ provides a world transformation and a page transformation so that you can transform (rotate, scale, translate, and so on) the items you draw. The two transformations also allow you to work in a variety of coordinate systems.
 ms.assetid: 735a9b62-d913-4d06-83bf-86ae093a0dc1
 title: Coordinate Systems and Transformations
 ms.topic: article

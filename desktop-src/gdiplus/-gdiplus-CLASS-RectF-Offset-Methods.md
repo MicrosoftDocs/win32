@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the Offset methods of the RectF class. For a complete list of methods for the RectF class, see Rect Methods.
+description: This topic lists the Offset methods of the RectF class. For a complete list of methods for the RectF class, see Rect Methods.
 ms.assetid: 0dcd8bc5-c38b-40ce-bc66-110d49cb96d5
 title: RectF.Offset methods
 ms.date: 07/02/2019

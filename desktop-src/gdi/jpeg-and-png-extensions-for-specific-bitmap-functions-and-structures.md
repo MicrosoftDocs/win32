@@ -1,5 +1,5 @@
 ---
-Description: On certain versions of Microsoft Windows, the StretchDIBits and SetDIBitsToDevice functions allow JPEG and PNG images to be passed as the source image to printer devices.
+description: On certain versions of Microsoft Windows, the StretchDIBits and SetDIBitsToDevice functions allow JPEG and PNG images to be passed as the source image to printer devices.
 ms.assetid: a38a807d-44df-40a2-8af7-0ce5e532cba2
 title: JPEG and PNG Extensions for Specific Bitmap Functions and Structures
 ms.topic: article

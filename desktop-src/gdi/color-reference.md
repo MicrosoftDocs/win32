@@ -1,5 +1,5 @@
 ---
-Description: The following elements are associated with color.
+description: The following elements are associated with color.
 ms.assetid: 4e876e40-e216-40e3-934d-bba1d7c50782
 title: Color Reference (Windows GDI)
 ms.topic: article

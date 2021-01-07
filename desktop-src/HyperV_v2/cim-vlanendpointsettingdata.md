@@ -1,5 +1,5 @@
 ---
-Description: Represents configuration data for a VLAN endpoint.
+description: Represents configuration data for a VLAN endpoint.
 ms.assetid: 5ef3cc55-cf27-40b4-9e94-2e2b42ca41c5
 title: CIM_VLANEndpointSettingData class
 ms.topic: reference

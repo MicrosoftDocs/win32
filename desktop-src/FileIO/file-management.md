@@ -1,5 +1,5 @@
 ---
-Description: A file object provides a representation of a resource (either a physical device or a resource located on a physical device) that can be managed by the I/O system.
+description: A file object provides a representation of a resource (either a physical device or a resource located on a physical device) that can be managed by the I/O system.
 ms.assetid: '37ef2ae5-af02-441a-a4be-11dd6c8d4a0c'
 title: File Management (Local File Systems)
 ms.topic: article

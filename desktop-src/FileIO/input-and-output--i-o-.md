@@ -1,5 +1,5 @@
 ---
-Description: Windows provides the ability to perform input and output (I/O) operations on storage components located on local and remote computers.
+description: Windows provides the ability to perform input and output (I/O) operations on storage components located on local and remote computers.
 ms.assetid: 338869fa-d246-4c94-8ee8-afde6470acaf
 title: Input and Output (I/O)
 ms.topic: article

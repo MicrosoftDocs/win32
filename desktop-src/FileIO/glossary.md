@@ -1,5 +1,5 @@
 ---
-Description: Terminology used to describe Transactional NTFS (TxF).
+description: Terminology used to describe Transactional NTFS (TxF).
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 44cb060c-e6a6-48d6-bbcf-d8dc1ae8ceb2
 title: TxF Glossary

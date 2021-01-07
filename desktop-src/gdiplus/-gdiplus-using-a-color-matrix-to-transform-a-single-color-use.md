@@ -1,5 +1,5 @@
 ---
-Description: Windows GDI+ provides the Image and Bitmap classes for storing and manipulating images.
+description: Windows GDI+ provides the Image and Bitmap classes for storing and manipulating images.
 ms.assetid: fcd7f3d9-8bad-44f8-8c9c-c2f5df4a7241
 title: Using a Color Matrix to Transform a Single Color
 ms.topic: article

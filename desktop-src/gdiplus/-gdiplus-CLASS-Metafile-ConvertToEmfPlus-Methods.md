@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the ConvertToEmfPlus methods of the Metafile class. For a complete list of methods for the Metafile class, see Metafile Methods.
+description: This topic lists the ConvertToEmfPlus methods of the Metafile class. For a complete list of methods for the Metafile class, see Metafile Methods.
 ms.assetid: eee2b7a0-923b-4acd-affc-59063209bcf0
 title: Metafile.ConvertToEmfPlus methods
 ms.date: 07/02/2019

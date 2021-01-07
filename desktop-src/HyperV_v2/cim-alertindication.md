@@ -1,5 +1,5 @@
 ---
-Description: A concrete superclass for CIM alert notifications.
+description: A concrete superclass for CIM alert notifications.
 ms.assetid: ec4cf41d-decd-4f21-b805-90db4a61376d
 title: CIM_AlertIndication class
 ms.topic: reference

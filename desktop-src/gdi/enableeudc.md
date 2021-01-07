@@ -1,5 +1,5 @@
 ---
-Description: This function enables or disables support for end-user-defined characters (EUDC).
+description: This function enables or disables support for end-user-defined characters (EUDC).
 ms.assetid: 9e531d8c-6008-4189-ae25-cda707be5e2c
 title: EnableEUDC function
 ms.topic: reference

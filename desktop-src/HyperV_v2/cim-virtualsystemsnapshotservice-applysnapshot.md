@@ -1,5 +1,5 @@
 ---
-Description: Applies a virtual system snapshot to the virtual system that it was created from.
+description: Applies a virtual system snapshot to the virtual system that it was created from.
 ms.assetid: acd90ce0-7f82-48d9-9d23-903ba6815779
 title: ApplySnapshot method of the CIM_VirtualSystemSnapshotService class
 ms.topic: reference

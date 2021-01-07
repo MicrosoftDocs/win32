@@ -1,5 +1,5 @@
 ---
-Description: Not every output device supports the entire set of graphics functions.
+description: Not every output device supports the entire set of graphics functions.
 ms.assetid: 7989d393-7be4-47fc-af8d-26dd549c48be
 title: Retrieving the Capabilities of a Printer
 ms.topic: article

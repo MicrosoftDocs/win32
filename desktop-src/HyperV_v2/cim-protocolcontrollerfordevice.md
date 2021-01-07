@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a logical device and a protocol controller that is connected to the device.
+description: Represents an association between a logical device and a protocol controller that is connected to the device.
 ms.assetid: 1a1efc60-6108-4376-9f73-d2dd41443645
 title: CIM_ProtocolControllerForDevice class
 ms.topic: reference

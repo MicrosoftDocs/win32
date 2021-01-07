@@ -1,5 +1,5 @@
 ---
-Description: Alpha blending is used to display an alpha bitmap, which is a bitmap that has transparent or semi-transparent pixels.
+description: Alpha blending is used to display an alpha bitmap, which is a bitmap that has transparent or semi-transparent pixels.
 ms.assetid: 52a044cc-a471-4951-adbe-32319b8e3129
 title: Alpha Blending (Windows GDI)
 ms.topic: article

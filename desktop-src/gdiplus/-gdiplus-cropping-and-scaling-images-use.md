@@ -1,6 +1,6 @@
 ---
 title: Cropping and scaling GDI+ images
-Description: The Graphics class provides several DrawImage methods, some of which have source and destination rectangle parameters that you can use to crop and scale images.
+description: The Graphics class provides several DrawImage methods, some of which have source and destination rectangle parameters that you can use to crop and scale images.
 ms.assetid: cad64615-d8e6-4c03-a6c7-c98267a8f159
 ms.topic: article
 ms.date: 05/31/2018

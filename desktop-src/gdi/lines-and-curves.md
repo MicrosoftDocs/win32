@@ -1,5 +1,5 @@
 ---
-Description: Lines and curves are used to draw graphics output on raster devices.
+description: Lines and curves are used to draw graphics output on raster devices.
 ms.assetid: '8c65c185-8346-459e-bdf7-1cf3f7419736'
 title: Lines and Curves
 ms.topic: article
