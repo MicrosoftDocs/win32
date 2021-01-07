@@ -1,5 +1,5 @@
 ---
-Description: The UpdateEndpointProxySettings structure defines the proxy settings used when requesting a token.
+description: The UpdateEndpointProxySettings structure defines the proxy settings used when requesting a token.
 ms.assetid: 24AA8843-D4EE-4F17-8B96-63ED25B365D2
 title: UpdateEndpointProxySettings structure (UpdateEndpointAuth.h)
 ms.topic: reference

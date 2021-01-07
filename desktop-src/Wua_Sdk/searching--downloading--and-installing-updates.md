@@ -1,5 +1,5 @@
 ---
-Description: The scripting sample in this topic shows you how to use Windows Update Agent (WUA) to scan, download, and install updates.
+description: The scripting sample in this topic shows you how to use Windows Update Agent (WUA) to scan, download, and install updates.
 ms.assetid: 4b2b1898-64f1-4908-98b7-ea87a6fcb71d
 title: Searching, Downloading, and Installing Updates
 ms.topic: article

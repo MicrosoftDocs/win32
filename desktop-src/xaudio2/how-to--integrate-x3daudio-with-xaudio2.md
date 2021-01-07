@@ -1,5 +1,5 @@
 ---
-Description: This topic shows how to integrate X3DAudio with XAudio2.
+description: This topic shows how to integrate X3DAudio with XAudio2.
 ms.assetid: a8f41f0d-b284-aefa-923b-471b13b4a3ec
 title: 'How to: Integrate X3DAudio with XAudio2'
 ms.topic: article

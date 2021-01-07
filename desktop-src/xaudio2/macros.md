@@ -1,6 +1,6 @@
 ---
 title: XAudio2 macros
-Description: This section contains information about macros provided by the Microsoft XAudio2 API.
+description: This section contains information about macros provided by the Microsoft XAudio2 API.
 ms.assetid: C39FBD61-16A1-4043-A5C2-0872F734F5FD
 ms.topic: article
 ms.date: 05/31/2018

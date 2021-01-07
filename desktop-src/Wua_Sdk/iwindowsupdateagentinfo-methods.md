@@ -1,5 +1,5 @@
 ---
-Description: The IWindowsUpdateAgentInfo interface defines the following method.
+description: The IWindowsUpdateAgentInfo interface defines the following method.
 ms.assetid: c3b49f70-6cdf-42b7-a6a4-27cdf5e663d5
 title: IWindowsUpdateAgentInfo Methods
 ms.topic: reference
