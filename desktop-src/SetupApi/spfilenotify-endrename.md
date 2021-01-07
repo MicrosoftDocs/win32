@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_ENDRENAME notification is sent to the callback routine when the queue completes a rename operation. This notification is sent even if the user cancels or if an error occurs.
+description: The SPFILENOTIFY\_ENDRENAME notification is sent to the callback routine when the queue completes a rename operation. This notification is sent even if the user cancels or if an error occurs.
 ms.assetid: 8d5a8d17-de4f-4100-aa72-dfefeb8d4db9
 title: SPFILENOTIFY_ENDRENAME message (Setupapi.h)
 ms.topic: reference

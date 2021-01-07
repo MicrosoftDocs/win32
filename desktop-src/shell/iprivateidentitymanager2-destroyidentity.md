@@ -1,5 +1,5 @@
 ---
-Description: IPrivateIdentityManager2::DestroyIdentity method
+description: IPrivateIdentityManager2::DestroyIdentity method
 title: IPrivateIdentityManager2::DestroyIdentity method
 ms.topic: reference
 ms.date: 05/31/2018

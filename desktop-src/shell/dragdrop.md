@@ -1,5 +1,5 @@
 ---
-Description: Many applications allow users to transfer data to another application by dragging and dropping the data with the mouse, or by using the Clipboard.
+description: Many applications allow users to transfer data to another application by dragging and dropping the data with the mouse, or by using the Clipboard.
 title: Transferring Shell Objects with Drag-and-Drop and the Clipboard
 ms.topic: article
 ms.date: 05/31/2018

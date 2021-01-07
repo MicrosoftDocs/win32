@@ -1,5 +1,5 @@
 ---
-Description: Sent to the CPlApplet function of a Control Panel application when the user double-clicks the icon of a dialog box supported by the application.
+description: Sent to the CPlApplet function of a Control Panel application when the user double-clicks the icon of a dialog box supported by the application.
 title: CPL_DBLCLK message (Cpl.h)
 ms.topic: reference
 ms.date: 05/31/2018

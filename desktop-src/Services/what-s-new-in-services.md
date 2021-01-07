@@ -1,5 +1,5 @@
 ---
-Description: Windows 7 and Windows Server 2008 R2 include the following new and updated programming elements for services.
+description: Windows 7 and Windows Server 2008 R2 include the following new and updated programming elements for services.
 ms.assetid: 4be7e244-ad4c-440d-b04e-23afb4c7ddf2
 title: Whats New in Services for Windows 7
 ms.topic: article

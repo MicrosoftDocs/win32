@@ -1,5 +1,5 @@
 ---
-Description: Services are generally written as console applications.
+description: Services are generally written as console applications.
 ms.assetid: ed6945fc-ac08-4776-8d75-d33e8df3882a
 title: Service Entry Point
 ms.topic: article

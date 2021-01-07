@@ -1,5 +1,5 @@
 ---
-Description: Returns the results from a TPM physical presence operation that was performed.
+description: Returns the results from a TPM physical presence operation that was performed.
 ms.assetid: 28d76149-3905-45db-a41e-32fac1603582
 title: GetPhysicalPresenceResponse method of the Win32_Tpm class
 ms.topic: reference

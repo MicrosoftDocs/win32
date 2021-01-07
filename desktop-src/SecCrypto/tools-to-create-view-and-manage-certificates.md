@@ -1,5 +1,5 @@
 ---
-Description: CryptoAPI Tools are tools to perform common certificate management tasks.
+description: CryptoAPI Tools are tools to perform common certificate management tasks.
 ms.assetid: 29146de8-adae-444b-bc75-fa43a19ab8f9
 title: Tools to Create, View, and Manage Certificates
 ms.topic: article

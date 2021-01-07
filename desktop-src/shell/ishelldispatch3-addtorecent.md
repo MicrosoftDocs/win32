@@ -1,5 +1,5 @@
 ---
-Description: Adds a file to the most recently used (MRU) list.
+description: Adds a file to the most recently used (MRU) list.
 ms.assetid: aa5aef31-7f3f-4cc4-949d-1484de243ef3
 title: IShellDispatch3.AddToRecent method (Shldisp.h)
 ms.topic: reference

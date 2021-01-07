@@ -1,5 +1,5 @@
 ---
-Description: Executes a verb on the FolderItem associated with the verb.
+description: Executes a verb on the FolderItem associated with the verb.
 ms.assetid: 92400fe9-e4d1-4bc9-b4ee-d2adaf38154f
 title: FolderItemVerb.DoIt method (Shldisp.h)
 ms.topic: reference

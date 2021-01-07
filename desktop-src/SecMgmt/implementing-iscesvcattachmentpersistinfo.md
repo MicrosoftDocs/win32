@@ -1,5 +1,5 @@
 ---
-Description: Attachment snap-in extensions must implement the ISceSvcAttachmentPersistInfo interface.
+description: Attachment snap-in extensions must implement the ISceSvcAttachmentPersistInfo interface.
 ms.assetid: fadd2e06-d27c-4938-ad0e-ae7beab25931
 title: Implementing ISceSvcAttachmentPersistInfo
 ms.topic: article

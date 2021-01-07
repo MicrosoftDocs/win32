@@ -1,5 +1,5 @@
 ---
-Description: Extends the IShellDispatch3 object.
+description: Extends the IShellDispatch3 object.
 title: IShellDispatch4 object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018

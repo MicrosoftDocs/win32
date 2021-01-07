@@ -1,5 +1,5 @@
 ---
-Description: This document presents common Shell data transfer scenarios and discusses how to implement each one in your application.
+description: This document presents common Shell data transfer scenarios and discusses how to implement each one in your application.
 ms.assetid: 7fce555c-a93d-4414-9119-7ae9acdd4d89
 title: Handling Shell Data Transfer Scenarios
 ms.topic: article

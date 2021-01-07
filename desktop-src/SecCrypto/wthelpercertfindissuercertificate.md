@@ -1,5 +1,5 @@
 ---
-Description: Finds an issuer certificate from the specified certificate stores that matches the specified subject certificate.
+description: Finds an issuer certificate from the specified certificate stores that matches the specified subject certificate.
 ms.assetid: c724f602-fc73-4857-941f-0f22a9e472d1
 title: WTHelperCertFindIssuerCertificate function
 ms.topic: reference

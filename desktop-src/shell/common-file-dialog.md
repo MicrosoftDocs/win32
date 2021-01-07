@@ -1,5 +1,5 @@
 ---
-Description: Starting with Windows Vista, the Common Item Dialog supersedes the older Common File Dialog when used to open or save a file.
+description: Starting with Windows Vista, the Common Item Dialog supersedes the older Common File Dialog when used to open or save a file.
 title: Common Item Dialog
 ms.topic: article
 ms.date: 05/31/2018

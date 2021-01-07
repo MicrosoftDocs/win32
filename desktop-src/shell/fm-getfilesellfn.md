@@ -1,5 +1,5 @@
 ---
-Description: Sent by a File Manager extension to retrieve information about a selected file from the active File Manager window (either the directory window or the Search Results window). The selected file can have a long file name.
+description: Sent by a File Manager extension to retrieve information about a selected file from the active File Manager window (either the directory window or the Search Results window). The selected file can have a long file name.
 title: FM_GETFILESELLFN message (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018

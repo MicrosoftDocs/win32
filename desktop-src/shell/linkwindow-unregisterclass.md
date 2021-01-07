@@ -1,5 +1,5 @@
 ---
-Description: Unregisters a window class registered by LinkWindow\_RegisterClass.
+description: Unregisters a window class registered by LinkWindow\_RegisterClass.
 ms.assetid: 9e5c4326-efd1-43ca-a087-a436fe3f9bbd
 title: LinkWindow_UnregisterClass function
 ms.topic: reference

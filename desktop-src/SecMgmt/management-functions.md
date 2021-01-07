@@ -1,5 +1,5 @@
 ---
-Description: Lists support functions provided by the Security Configuration tool set.
+description: Lists support functions provided by the Security Configuration tool set.
 ms.assetid: 5a771014-1706-490f-8540-ec516652cb83
 title: Security Management Functions
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: 'The following tasks are performed by service configuration programs:'
+description: 'The following tasks are performed by service configuration programs:'
 ms.assetid: f5205814-0897-4a59-b6d3-49d5b8115d29
 title: Service Configuration Program Tasks
 ms.topic: article

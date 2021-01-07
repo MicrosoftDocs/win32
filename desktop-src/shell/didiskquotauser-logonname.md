@@ -1,5 +1,5 @@
 ---
-Description: Gets the user's logon account name.
+description: Gets the user's logon account name.
 title: DIDiskQuotaUser.LogonName property
 ms.topic: reference
 ms.date: 05/31/2018

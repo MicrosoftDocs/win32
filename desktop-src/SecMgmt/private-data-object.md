@@ -1,5 +1,5 @@
 ---
-Description: A limited number of private data objects are available on each system for the purpose of storing information in a protected, encrypted, fashion.
+description: A limited number of private data objects are available on each system for the purpose of storing information in a protected, encrypted, fashion.
 ms.assetid: 927473d7-b5bc-4b6f-b303-8a0f8680731d
 title: Private Data Object
 ms.topic: article

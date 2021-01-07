@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_ENDDELETE notification is returned to the callback routine when a queue completes a delete operation. This notification is sent even if the user cancels or if an error occurs.
+description: The SPFILENOTIFY\_ENDDELETE notification is returned to the callback routine when a queue completes a delete operation. This notification is sent even if the user cancels or if an error occurs.
 ms.assetid: 78859854-8411-4c51-9c3c-628315cf1c41
 title: SPFILENOTIFY_ENDDELETE message (Setupapi.h)
 ms.topic: reference

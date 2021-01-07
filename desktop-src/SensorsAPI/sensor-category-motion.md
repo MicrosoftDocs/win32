@@ -1,5 +1,5 @@
 ---
-Description: The SENSOR\_CATEGORY\_MOTION category contains sensors that provide information that is related to physical movement.
+description: The SENSOR\_CATEGORY\_MOTION category contains sensors that provide information that is related to physical movement.
 ms.assetid: be025c86-46b5-4f50-a3af-0408bb3c9b5b
 title: SENSOR_CATEGORY_MOTION (Sensors.h)
 ms.topic: reference

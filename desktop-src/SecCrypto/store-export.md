@@ -1,5 +1,5 @@
 ---
-Description: Copies the contents of an open certificate store to an encoded string.
+description: Copies the contents of an open certificate store to an encoded string.
 ms.assetid: 00697579-f929-42ed-8e8e-5c970fe4465b
 title: Store.Export method
 ms.topic: reference

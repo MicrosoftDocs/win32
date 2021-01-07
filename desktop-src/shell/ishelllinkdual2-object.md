@@ -1,5 +1,5 @@
 ---
-Description: Extends the ShellLinkObject object and supports one additional property.
+description: Extends the ShellLinkObject object and supports one additional property.
 title: IShellLinkDual2 object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018

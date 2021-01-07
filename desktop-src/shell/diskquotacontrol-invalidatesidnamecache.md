@@ -1,5 +1,5 @@
 ---
-Description: Invalidates the security ID user name cache.
+description: Invalidates the security ID user name cache.
 ms.assetid: 52f4a051-0caf-43c1-b190-c83c20e9fcf8
 title: DiskQuotaControl.InvalidateSidNameCache method (Dskquota.h)
 ms.topic: reference

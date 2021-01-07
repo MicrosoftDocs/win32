@@ -1,5 +1,5 @@
 ---
-Description: A service control program can stop a service by using the ControlService function to send a SERVICE\_CONTROL\_STOP request.
+description: A service control program can stop a service by using the ControlService function to send a SERVICE\_CONTROL\_STOP request.
 ms.assetid: fe16d2a8-3e66-49cc-b9c7-fffbc206e8d3
 title: Stopping a Service
 ms.topic: article

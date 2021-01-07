@@ -1,5 +1,5 @@
 ---
-Description: An association array is an ordered list of registry locations used to store information about an item type, including handlers, verbs, and other attributes like the icon and display name of the type.
+description: An association array is an ordered list of registry locations used to store information about an item type, including handlers, verbs, and other attributes like the icon and display name of the type.
 title: Association Arrays
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: Allows the callback to add items to the bottom of the extended menu.
+description: Allows the callback to add items to the bottom of the extended menu.
 title: DFM_MERGECONTEXTMENU_BOTTOM message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018

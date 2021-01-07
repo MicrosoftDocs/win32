@@ -1,5 +1,5 @@
 ---
-Description: A service program contains executable code for one or more services.
+description: A service program contains executable code for one or more services.
 ms.assetid: 697db543-6149-46ac-add3-c8c6ca3aadbe
 title: Service Programs
 ms.topic: article

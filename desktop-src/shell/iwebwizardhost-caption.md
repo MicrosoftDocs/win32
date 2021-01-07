@@ -1,5 +1,5 @@
 ---
-Description: WebWizardHost.Caption property
+description: WebWizardHost.Caption property
 title: WebWizardHost.Caption property
 ms.topic: reference
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: Contains the folder's FolderItem object.
+description: Contains the folder's FolderItem object.
 ms.assetid: 0964505d-4138-4444-91d4-46c707c45688
 title: Folder2.Self property (Shldisp.h)
 ms.topic: reference

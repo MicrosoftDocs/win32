@@ -1,5 +1,5 @@
 ---
-Description: Illustrates which registry key must be set to prevent AutoPlay.
+description: Illustrates which registry key must be set to prevent AutoPlay.
 ms.assetid: E0A25DC2-0991-45D6-9185-019DB4C040AD
 title: How to Prevent AutoPlay for a Component
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Verifies the signature of a signed file and obtains the hash value and algorithm identifier for the file.
+description: Verifies the signature of a signed file and obtains the hash value and algorithm identifier for the file.
 ms.assetid: 130b3c3e-cc67-44ec-acc7-daa87b714299
 title: WTHelperGetFileHash function
 ms.topic: reference

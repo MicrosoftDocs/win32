@@ -1,5 +1,5 @@
 ---
-Description: Folder2.HaveToShowWebViewBarricade property
+description: Folder2.HaveToShowWebViewBarricade property
 title: Folder2.HaveToShowWebViewBarricade property
 ms.topic: reference
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: You can write policy modules in the C, C++, or Visual Basic programming language.
+description: You can write policy modules in the C, C++, or Visual Basic programming language.
 ms.assetid: 37a93c67-02f2-4c4e-a000-2bb98e0ca948
 title: Writing Custom Modules
 ms.topic: article

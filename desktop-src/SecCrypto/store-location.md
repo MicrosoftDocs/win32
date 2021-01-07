@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the location of the certificate store that this object represents.
+description: Retrieves the location of the certificate store that this object represents.
 ms.assetid: '756ee7cb-5f9f-4fb2-bf10-79b543895189'
 title: Store.Location property
 ms.topic: reference

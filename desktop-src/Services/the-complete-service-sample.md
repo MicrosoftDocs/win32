@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The Complete Service Sample"
 ms.assetid: a3aeea9b-09c0-4834-892a-c378b67402f4
 title: The Complete Service Sample
 ms.topic: article

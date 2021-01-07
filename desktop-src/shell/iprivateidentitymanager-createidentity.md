@@ -1,5 +1,5 @@
 ---
-Description: IPrivateIdentityManager::CreateIdentity method
+description: IPrivateIdentityManager::CreateIdentity method
 title: IPrivateIdentityManager::CreateIdentity method
 ms.topic: reference
 ms.date: 05/31/2018

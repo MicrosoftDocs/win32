@@ -1,5 +1,5 @@
 ---
-Description: IUserIdentity2 is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+description: IUserIdentity2 is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: 85238574-f6bf-43d7-a41b-3ea086c45e07
 title: IUserIdentity2 interface (Msident.h)
 ms.topic: reference

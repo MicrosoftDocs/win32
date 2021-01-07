@@ -1,5 +1,5 @@
 ---
-Description: The Remove method removes a certificate from an open certificate store. This method can only be used with a store that has been opened with read/write permission.
+description: The Remove method removes a certificate from an open certificate store. This method can only be used with a store that has been opened with read/write permission.
 ms.assetid: 02bb8ff1-2240-4ec7-b8af-9a7812a12ba9
 title: Store.Remove method
 ms.topic: reference

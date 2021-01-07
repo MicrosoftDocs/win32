@@ -1,5 +1,5 @@
 ---
-Description: Indicates that a search has finished.
+description: Indicates that a search has finished.
 title: IShellFolderSearchableCallback::RunEnd method
 ms.topic: reference
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: Gets the name of the default view. Call GetDisplayNameOf to retrieve the names of the other views.
+description: Gets the name of the default view. Call GetDisplayNameOf to retrieve the names of the other views.
 title: IShellFolderViewType::GetDefaultViewName method
 ms.topic: reference
 ms.date: 05/31/2018

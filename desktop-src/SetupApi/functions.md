@@ -1,5 +1,5 @@
 ---
-Description: 'The following functions are part of the Setup API:'
+description: 'The following functions are part of the Setup API:'
 ms.assetid: '0a9518b7-f231-48f2-ba50-5b802f8ccaed'
 title: Functions (Setup API)
 ms.topic: article

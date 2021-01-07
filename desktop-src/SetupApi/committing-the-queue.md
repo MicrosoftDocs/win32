@@ -1,5 +1,5 @@
 ---
-Description: If the default callback function is going to be called during the queue commitment, the context for it must be initialized using the SetupInitDefaultQueueCallback or SetupInitDefaultQueueCallbackEx functions.
+description: If the default callback function is going to be called during the queue commitment, the context for it must be initialized using the SetupInitDefaultQueueCallback or SetupInitDefaultQueueCallbackEx functions.
 ms.assetid: e87f8a66-33e5-4065-98ce-2e904c115b38
 title: Committing the Queue
 ms.topic: article

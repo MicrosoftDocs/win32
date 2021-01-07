@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an object that represents the parent of the current object.
+description: Retrieves an object that represents the parent of the current object.
 ms.assetid: 2FDEF8D3-3F5B-43ae-9812-83B4249D9CBB
 title: IShellDispatch.Parent property (Shldisp.h)
 ms.topic: reference

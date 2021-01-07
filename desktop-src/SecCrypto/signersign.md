@@ -1,5 +1,5 @@
 ---
-Description: Signs the specified file.
+description: Signs the specified file.
 ms.assetid: 5a59e663-057b-4380-aa14-536030e4051d
 title: SignerSign function
 ms.topic: reference

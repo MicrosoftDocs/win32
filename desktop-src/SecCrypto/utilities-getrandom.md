@@ -1,5 +1,5 @@
 ---
-Description: Generates a secure random number using the default cryptographic service provider (CSP).
+description: Generates a secure random number using the default cryptographic service provider (CSP).
 ms.assetid: 52c49f73-58b8-455f-9368-54f38de55776
 title: Utilities.GetRandom method
 ms.topic: reference

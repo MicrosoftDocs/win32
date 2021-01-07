@@ -1,5 +1,5 @@
 ---
-Description: Gets the user's current disk usage, in bytes.
+description: Gets the user's current disk usage, in bytes.
 title: DIDiskQuotaUser.QuotaUsed property
 ms.topic: reference
 ms.date: 05/31/2018

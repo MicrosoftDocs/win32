@@ -1,5 +1,5 @@
 ---
-Description: GetCookie is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+description: GetCookie is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: 4a743d64-9af3-43cf-9a9f-d808676ab337
 title: IUserIdentity::GetCookie method (Msident.h)
 ms.topic: reference

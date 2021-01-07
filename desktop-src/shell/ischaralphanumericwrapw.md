@@ -1,5 +1,5 @@
 ---
-Description: Determines whether a character is either an alphabetical or a numeric character.
+description: Determines whether a character is either an alphabetical or a numeric character.
 ms.assetid: d4b01ba5-e42a-4040-a763-ecef0c73977f
 title: IsCharAlphaNumericWrapW function
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: A service is responsible for reporting changes in its state to the service control manager (SCM).
+description: A service is responsible for reporting changes in its state to the service control manager (SCM).
 ms.assetid: 74a85730-6667-46fe-ae12-26561ccedb73
 title: Service State Transitions
 ms.topic: article

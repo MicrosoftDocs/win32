@@ -1,5 +1,5 @@
 ---
-Description: The Windows Sensor and Location platform defines constants for driver events. Sensor manfuactureres can also define their own constants.
+description: The Windows Sensor and Location platform defines constants for driver events. Sensor manfuactureres can also define their own constants.
 ms.assetid: ca61c912-bce5-4e41-ab48-40615d5b93ba
 title: Event Constants (Sensors.h)
 ms.topic: reference
