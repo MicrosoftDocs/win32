@@ -1,5 +1,5 @@
 ---
-Description: The IUpdateDownloadResult interface defines the following properties.
+description: The IUpdateDownloadResult interface defines the following properties.
 ms.assetid: 8770678b-3063-4444-88c8-02d1ac20df8e
 title: IUpdateDownloadResult Properties
 ms.topic: article

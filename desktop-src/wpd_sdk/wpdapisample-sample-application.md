@@ -1,5 +1,5 @@
 ---
-Description: WpdApiSample Application
+description: WpdApiSample Application
 ms.assetid: 854a6304-5d62-4f00-9366-8c2244568250
 title: WpdApiSample Application
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether stub function references should be included in the operation structures in the port type definitions for one-way and two-way operations.
+description: Specifies whether stub function references should be included in the operation structures in the port type definitions for one-way and two-way operations.
 ms.assetid: '2547f71d-8a30-4df8-ba38-6707c415708e'
 title: stubFunction element
 ms.topic: article

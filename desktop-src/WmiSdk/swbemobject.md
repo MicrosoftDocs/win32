@@ -1,5 +1,5 @@
 ---
-Description: You can use the methods and properties of the SWbemObject object to represent one Windows Management Instrumentation (WMI) class definition or object instance.
+description: You can use the methods and properties of the SWbemObject object to represent one Windows Management Instrumentation (WMI) class definition or object instance.
 ms.assetid: d303ec1a-5e0c-4a5e-8ed3-ed353a138755
 ms.tgt_platform: multiple
 title: SWbemObject object (Wbemdisp.h)

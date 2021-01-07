@@ -1,5 +1,5 @@
 ---
-Description: The Value property of the SWbemProperty object defines the variant value of the WMI property. This is the default automation property of this object.
+description: The Value property of the SWbemProperty object defines the variant value of the WMI property. This is the default automation property of this object.
 ms.assetid: 547ec691-ff1c-4a6d-bee8-54e73d21cc93
 ms.tgt_platform: multiple
 title: SWbemProperty.Value property (Wbemdisp.h)

@@ -1,5 +1,5 @@
 ---
-Description: The WSDAPI development tools included in the Windows SDK (WSD CodeGen, WSD Debug Host, and WSD Debug Client) enable developers to create and debug WSDAPI-based clients and devices.
+description: The WSDAPI development tools included in the Windows SDK (WSD CodeGen, WSD Debug Host, and WSD Debug Client) enable developers to create and debug WSDAPI-based clients and devices.
 ms.assetid: 8bf6424e-1eed-4b0a-9d56-7aaf03a47992
 title: WSDAPI Development Tools
 ms.topic: article

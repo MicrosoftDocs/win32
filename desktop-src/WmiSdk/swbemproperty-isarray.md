@@ -1,5 +1,5 @@
 ---
-Description: The IsArray property of the SWbemProperty object is a Boolean value that can be used to determine if this property has an array type. This property is read-only.
+description: The IsArray property of the SWbemProperty object is a Boolean value that can be used to determine if this property has an array type. This property is read-only.
 ms.assetid: 24018444-d21c-49d6-8394-57304b439050
 ms.tgt_platform: multiple
 title: SWbemProperty.IsArray property (Wbemdisp.h)

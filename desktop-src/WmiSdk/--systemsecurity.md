@@ -1,5 +1,5 @@
 ---
-Description: Contains methods that let you access and modify the security settings for a namespace.
+description: Contains methods that let you access and modify the security settings for a namespace.
 ms.assetid: a54fdd85-feb8-4727-9f26-fe4f213cab6b
 ms.tgt_platform: multiple
 title: __SystemSecurity class

@@ -1,5 +1,5 @@
 ---
-Description: Determine the version of Windows Update Agent (WUA) before you use it.
+description: Determine the version of Windows Update Agent (WUA) before you use it.
 ms.assetid: fc915535-f87d-43fb-8755-fa6c80fedea5
 title: Determining the Current Version of WUA
 ms.topic: article

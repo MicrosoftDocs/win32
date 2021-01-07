@@ -1,5 +1,5 @@
 ---
-Description: If you are using the Scripting API for WMI to retrieve or store localized class information, specify the locale as part of a moniker.
+description: If you are using the Scripting API for WMI to retrieve or store localized class information, specify the locale as part of a moniker.
 ms.assetid: 3c64047d-ce3a-4180-8f71-0e66c2e61627
 ms.tgt_platform: multiple
 title: Retrieving Amended Classes Using the Scripting API for WMI

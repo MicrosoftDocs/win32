@@ -1,5 +1,5 @@
 ---
-Description: Retrieving Properties for Multiple Objects by Object Format
+description: Retrieving Properties for Multiple Objects by Object Format
 ms.assetid: c3f5edfd-8a6a-4bbd-9787-a4268c38f18f
 title: Retrieving Properties for Multiple Objects by Object Format
 ms.topic: article

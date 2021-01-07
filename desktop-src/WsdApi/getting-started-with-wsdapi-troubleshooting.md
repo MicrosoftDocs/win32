@@ -1,5 +1,5 @@
 ---
-Description: There are two ways to determine the diagnostic procedure to use.
+description: There are two ways to determine the diagnostic procedure to use.
 ms.assetid: d6877063-6cf9-48dc-8208-0f3fc85b6d6b
 title: Getting Started with WSDAPI Troubleshooting
 ms.topic: article

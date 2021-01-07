@@ -1,5 +1,5 @@
 ---
-Description: Generates C constants for XML schema tables for known types.
+description: Generates C constants for XML schema tables for known types.
 ms.assetid: caba3776-fdc2-4a08-8e4c-d8e3b583d7ba
 title: typeTableDefinitions element
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Generates a C constant definition for the hosting metadata specified in the hostMetadata element.
+description: Generates a C constant definition for the hosting metadata specified in the hostMetadata element.
 ms.assetid: c15f77a2-060b-4bc3-8759-d921ea57e5b5
 title: relationshipMetadataDefinition element
 ms.topic: reference

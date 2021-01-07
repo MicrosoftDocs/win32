@@ -1,5 +1,5 @@
 ---
-Description: The Security\_ property of the SWbemEventSource object gets or sets the security settings of an SWbemEventSource object. This property is an SWbemSecurity object.
+description: The Security\_ property of the SWbemEventSource object gets or sets the security settings of an SWbemEventSource object. This property is an SWbemSecurity object.
 ms.assetid: 9c906b80-ae54-4bc1-a587-43580d6b26e7
 ms.tgt_platform: multiple
 title: SWbemEventSource.Security_ property (Wbemdisp.h)

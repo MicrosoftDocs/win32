@@ -1,5 +1,5 @@
 ---
-Description: The ExecMethod\_ method of the SWbemObject object executes a method exported by a method provider.
+description: The ExecMethod\_ method of the SWbemObject object executes a method exported by a method provider.
 ms.assetid: 39a8a6e7-b499-410a-8c27-d4a05d1a61b9
 ms.tgt_platform: multiple
 title: SWbemObject.ExecMethod_ method (Wbemdisp.h)

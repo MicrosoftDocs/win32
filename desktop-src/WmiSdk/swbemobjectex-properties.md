@@ -1,5 +1,5 @@
 ---
-Description: The SWbemObjectEx object exposes the following properties.
+description: The SWbemObjectEx object exposes the following properties.
 ms.assetid: 55E68C6F-DC92-404E-B0A7-7CBC571F6EE3
 ms.tgt_platform: multiple
 title: SWbemObjectEx Properties

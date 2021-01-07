@@ -1,5 +1,5 @@
 ---
-Description: The References\_ method of the SWbemObject object returns a collection of all association classes or instances that refer to the current object.
+description: The References\_ method of the SWbemObject object returns a collection of all association classes or instances that refer to the current object.
 ms.assetid: ba02da47-0bb2-40e1-af50-1c42b4be2abd
 ms.tgt_platform: multiple
 title: SWbemObject.References_ method (Wbemdisp.h)

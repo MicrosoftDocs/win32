@@ -1,5 +1,5 @@
 ---
-Description: Generates implementations for stub functions for port-type operations.
+description: Generates implementations for stub functions for port-type operations.
 ms.assetid: 69899302-db54-493b-90de-596750be566f
 title: stubDefinitions element
 ms.topic: reference

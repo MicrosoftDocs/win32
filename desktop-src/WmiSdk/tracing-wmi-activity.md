@@ -1,5 +1,5 @@
 ---
-Description: Starting with Windows Vista, the WMI service does not use the WMI Log Files. Instead, it uses Event Tracing for Windows (ETW) and events are available through Event Viewer or the Wevtutil command-line tool.
+description: Starting with Windows Vista, the WMI service does not use the WMI Log Files. Instead, it uses Event Tracing for Windows (ETW) and events are available through Event Viewer or the Wevtutil command-line tool.
 ms.assetid: bb6401e8-caf7-4f39-ab64-b7532723ce9a
 ms.tgt_platform: multiple
 title: Tracing WMI Activity

@@ -1,5 +1,5 @@
 ---
-Description: Describe the SELECT statement for a data query.
+description: Describe the SELECT statement for a data query.
 ms.assetid: 9c1a164e-4728-4fbe-8a49-b571005a46ec
 ms.tgt_platform: multiple
 title: SELECT Statement for Data Queries

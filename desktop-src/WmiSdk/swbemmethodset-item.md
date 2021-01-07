@@ -1,5 +1,5 @@
 ---
-Description: The Item method of the SWbemMethodSet object returns a named SWbemMethod object from the collection.
+description: The Item method of the SWbemMethodSet object returns a named SWbemMethod object from the collection.
 ms.assetid: 4c1bbecc-b38b-4869-9c8c-b9321536b23e
 ms.tgt_platform: multiple
 title: SWbemMethodSet.Item method (Wbemdisp.h)

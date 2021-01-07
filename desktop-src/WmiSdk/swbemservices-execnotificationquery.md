@@ -1,5 +1,5 @@
 ---
-Description: Executes a query to receive events. The call returns immediately.
+description: Executes a query to receive events. The call returns immediately.
 ms.assetid: 3e1bb428-5395-4e90-9713-6d96242fef4e
 ms.tgt_platform: multiple
 title: SWbemServices.ExecNotificationQuery method (Wbemdisp.h)

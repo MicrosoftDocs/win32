@@ -1,5 +1,5 @@
 ---
-Description: Generates implementation declarations for proxy functions for port type operations.
+description: Generates implementation declarations for proxy functions for port type operations.
 ms.assetid: 6ba7dbb6-6598-4569-97e1-d703e4b896c7
 title: functionDeclarations element
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Generates C definitions for namespace tables.
+description: Generates C definitions for namespace tables.
 ms.assetid: 0de06ee1-1291-4f18-9514-cca443a3e300
 title: namespaceDefinitions element
 ms.topic: reference

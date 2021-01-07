@@ -1,5 +1,5 @@
 ---
-Description: The IWebProxy interface defines the following properties.
+description: The IWebProxy interface defines the following properties.
 ms.assetid: 449b19ec-dc95-40f7-87af-84fb7dacb328
 title: IWebProxy Properties
 ms.topic: article

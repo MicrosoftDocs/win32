@@ -1,5 +1,5 @@
 ---
-Description: Boolean value that indicates whether any field in a CIM datetime value should be interpreted as an interval.
+description: Boolean value that indicates whether any field in a CIM datetime value should be interpreted as an interval.
 ms.assetid: ba5fcf17-7c26-4960-9da9-e380d90e5f3e
 ms.tgt_platform: multiple
 title: SWbemDateTime.IsInterval property (Wbemdisp.h)

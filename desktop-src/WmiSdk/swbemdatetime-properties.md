@@ -1,5 +1,5 @@
 ---
-Description: The SWbemDateTime object exposes the following properties.
+description: The SWbemDateTime object exposes the following properties.
 ms.assetid: CE495B0E-5B2F-4F35-9DA3-052E79C8090E
 ms.tgt_platform: multiple
 title: SWbemDateTime Properties

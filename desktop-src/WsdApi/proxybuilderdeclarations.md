@@ -1,5 +1,5 @@
 ---
-Description: Generates declarations for functions that create typed proxies.
+description: Generates declarations for functions that create typed proxies.
 ms.assetid: 50182e77-a768-439f-bdbb-4f0d48aa4447
 title: proxyBuilderDeclarations element
 ms.topic: reference

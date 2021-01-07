@@ -1,5 +1,5 @@
 ---
-Description: Specifies instructions on how timer events should be generated for consumers.
+description: Specifies instructions on how timer events should be generated for consumers.
 ms.assetid: b08edb25-bedf-4014-a835-4050f5749479
 ms.tgt_platform: multiple
 title: '__TimerInstruction class'

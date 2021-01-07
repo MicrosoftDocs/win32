@@ -1,5 +1,5 @@
 ---
-Description: The Put\_ method of SWbemObject creates or updates an instance or a class object to Windows Management Instrumentation (WMI). You can use this method after you modify any properties or methods in an SWbemObject, and your changes are written to WMI.
+description: The Put\_ method of SWbemObject creates or updates an instance or a class object to Windows Management Instrumentation (WMI). You can use this method after you modify any properties or methods in an SWbemObject, and your changes are written to WMI.
 ms.assetid: c636ff95-9f3e-4ba9-adf3-30b981be02a4
 ms.tgt_platform: multiple
 title: SWbemObject.Put_ method (Wbemdisp.h)

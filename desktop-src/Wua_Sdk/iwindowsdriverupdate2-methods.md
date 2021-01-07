@@ -1,5 +1,5 @@
 ---
-Description: The IWindowsDriverUpdate2 interface defines the following method.
+description: The IWindowsDriverUpdate2 interface defines the following method.
 ms.assetid: 1484d611-c6e4-4565-95c0-755c53ea0d8b
 title: IWindowsDriverUpdate2 Methods
 ms.topic: reference

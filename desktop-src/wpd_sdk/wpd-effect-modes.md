@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_EFFECT\_MODES enumeration type describes various visual effects that can be applied to an image.
+description: The WPD\_EFFECT\_MODES enumeration type describes various visual effects that can be applied to an image.
 ms.assetid: 7624fccb-e416-4db4-978e-410c4c236328
 title: WPD_EFFECT_MODES enumeration (PortableDevice.h)
 ms.topic: reference

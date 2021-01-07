@@ -1,5 +1,5 @@
 ---
-Description: The RemoveValue method removes an item from the collection.
+description: The RemoveValue method removes an item from the collection.
 ms.assetid: 864c23ee-5a4e-4e06-add0-f6aef5562430
 title: IPortableDeviceValues::RemoveValue method (PortableDeviceTypes.h)
 ms.topic: reference

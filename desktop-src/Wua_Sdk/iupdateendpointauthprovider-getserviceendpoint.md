@@ -1,5 +1,5 @@
 ---
-Description: Requests an endpoint that is used to connect to a service.
+description: Requests an endpoint that is used to connect to a service.
 ms.assetid: 4C02EA78-AD77-42CD-B94F-C8C3ED26CB4C
 title: IUpdateEndpointProvider::GetServiceEndpoint method (UpdateEndpointAuth.h)
 ms.topic: reference

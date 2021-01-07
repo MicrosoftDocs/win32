@@ -1,5 +1,5 @@
 ---
-Description: Generates implementations for the QueryInterface, AddRef and Release functions.
+description: Generates implementations for the QueryInterface, AddRef and Release functions.
 ms.assetid: 4b6abd0b-7570-4ae0-a727-cdb6cec58daf
 title: IUnknownDefinitions element
 ms.topic: reference

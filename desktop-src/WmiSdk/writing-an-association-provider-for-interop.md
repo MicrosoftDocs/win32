@@ -1,5 +1,5 @@
 ---
-Description: An association provider provides a mechanism to register profiles and associate them with profiles that are implemented in different namespaces.
+description: An association provider provides a mechanism to register profiles and associate them with profiles that are implemented in different namespaces.
 ms.assetid: e6aab944-4ed8-4678-ad35-426f7b4f9a35
 ms.tgt_platform: multiple
 title: Writing an Association Provider for Interop

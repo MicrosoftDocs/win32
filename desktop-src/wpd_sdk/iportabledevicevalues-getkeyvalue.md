@@ -1,5 +1,5 @@
 ---
-Description: The GetKeyValue method retrieves a PROPERTYKEY value specified by a key.
+description: The GetKeyValue method retrieves a PROPERTYKEY value specified by a key.
 ms.assetid: 2c92b1c0-3ea6-4a14-8b63-d57752b649b8
 title: IPortableDeviceValues::GetKeyValue method (PortableDeviceTypes.h)
 ms.topic: reference

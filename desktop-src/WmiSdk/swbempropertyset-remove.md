@@ -1,5 +1,5 @@
 ---
-Description: The Remove method of the SWbemPropertySet object deletes a property from the SWbemPropertySet collection.
+description: The Remove method of the SWbemPropertySet object deletes a property from the SWbemPropertySet collection.
 ms.assetid: 2a1005db-033c-48f9-8ea0-0bd43b8c989f
 ms.tgt_platform: multiple
 title: SWbemPropertySet.Remove method (Wbemdisp.h)

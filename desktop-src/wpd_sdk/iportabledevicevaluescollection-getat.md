@@ -1,5 +1,5 @@
 ---
-Description: The GetAt method retrieves an item from the collection by a zero-based index.
+description: The GetAt method retrieves an item from the collection by a zero-based index.
 ms.assetid: b219b052-a74b-466a-a2ee-d2e9c466f393
 title: IPortableDeviceValuesCollection::GetAt method (PortableDeviceTypes.h)
 ms.topic: reference

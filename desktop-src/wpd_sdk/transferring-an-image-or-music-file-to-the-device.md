@@ -1,5 +1,5 @@
 ---
-Description: Transferring an Image or Music File to the Device
+description: Transferring an Image or Music File to the Device
 ms.assetid: bace274c-512a-46da-80a7-84734ee880b7
 title: Transferring an Image or Music File to the Device
 ms.topic: article

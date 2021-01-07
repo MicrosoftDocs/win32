@@ -1,5 +1,5 @@
 ---
-Description: The \_\_Trustee abstract system class represents a trustee. Either a name or an SID (byte array) can be used.
+description: The \_\_Trustee abstract system class represents a trustee. Either a name or an SID (byte array) can be used.
 ms.assetid: 92d17c7c-ebca-4dd0-80d8-6edd999ca394
 ms.tgt_platform: multiple
 title: '__Trustee class'

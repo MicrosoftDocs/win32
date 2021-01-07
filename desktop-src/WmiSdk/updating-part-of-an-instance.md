@@ -1,5 +1,5 @@
 ---
-Description: Occasionally, you may want to update only part of an instance.
+description: Occasionally, you may want to update only part of an instance.
 ms.assetid: c92bf8f9-9cac-4cf0-a45d-f60aee5a9ec2
 ms.tgt_platform: multiple
 title: Updating Part of an Instance

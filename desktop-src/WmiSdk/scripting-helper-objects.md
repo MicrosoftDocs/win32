@@ -1,5 +1,5 @@
 ---
-Description: WMI has several scripting helper objects that supply the conversions required by scripts.
+description: WMI has several scripting helper objects that supply the conversions required by scripts.
 ms.assetid: 832660b7-2992-4d1f-af16-7b8f0477b187
 ms.tgt_platform: multiple
 title: Scripting Helper Objects

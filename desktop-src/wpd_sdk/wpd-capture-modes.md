@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_CAPTURE\_MODES enumeration type describes the capture timing mode of a still image capture.
+description: The WPD\_CAPTURE\_MODES enumeration type describes the capture timing mode of a still image capture.
 ms.assetid: bfe96176-d018-4b39-a938-035757111784
 title: WPD_CAPTURE_MODES enumeration (PortableDevice.h)
 ms.topic: reference

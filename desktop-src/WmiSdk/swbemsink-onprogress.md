@@ -1,5 +1,5 @@
 ---
-Description: The OnProgress event of SWbemSink is triggered when an asynchronous call returns the status of a call that is in progress.
+description: The OnProgress event of SWbemSink is triggered when an asynchronous call returns the status of a call that is in progress.
 ms.assetid: abb43916-f952-41fe-a5ba-0428864c0685
 ms.tgt_platform: multiple
 title: ISWbemSinkEvents::OnProgress event (Wbemdisp.h)

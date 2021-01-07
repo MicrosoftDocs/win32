@@ -1,5 +1,5 @@
 ---
-Description: If an error occurs, WMI returns an error code as an HRESULT value. These codes may be returned by scripts, C++ applications, or Wmic.
+description: If an error occurs, WMI returns an error code as an HRESULT value. These codes may be returned by scripts, C++ applications, or Wmic.
 ms.assetid: b560f37c-da22-4745-8d1f-b27afdf572ec
 ms.tgt_platform: multiple
 title: WMI Error Constants (WbemCli.h)

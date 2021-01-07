@@ -1,5 +1,5 @@
 ---
-Description: The SNMP compiler runs as a single executable file in the command-line mode.
+description: The SNMP compiler runs as a single executable file in the command-line mode.
 ms.assetid: 0e85fe84-dacb-4720-8242-ffa0046780f3
 ms.tgt_platform: multiple
 title: smi2smir

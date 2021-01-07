@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether related events are included in the generated functions.
+description: Specifies whether related events are included in the generated functions.
 ms.assetid: 23ca463c-b305-496b-a1e3-58dbb793f17e
 title: events element
 ms.topic: reference

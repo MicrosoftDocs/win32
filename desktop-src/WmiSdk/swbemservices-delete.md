@@ -1,5 +1,5 @@
 ---
-Description: Deletes the class or instance that is specified in the object path. You can only delete objects in the current namespace.
+description: Deletes the class or instance that is specified in the object path. You can only delete objects in the current namespace.
 ms.assetid: 7dabab12-e8ee-4d44-932f-f3239b6f066e
 ms.tgt_platform: multiple
 title: SWbemServices.Delete method (Wbemdisp.h)

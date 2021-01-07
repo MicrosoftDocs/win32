@@ -1,5 +1,5 @@
 ---
-Description: The LogFileEventConsumer class can write predefined text to a log file when a specified event occurs. This class is a standard event consumer that WMI provides.
+description: The LogFileEventConsumer class can write predefined text to a log file when a specified event occurs. This class is a standard event consumer that WMI provides.
 ms.assetid: c337e9f7-f40c-4d7d-a180-c053e24c882b
 ms.tgt_platform: multiple
 title: Writing to a Log File Based on an Event

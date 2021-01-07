@@ -1,5 +1,5 @@
 ---
-Description: The SetIPortableDeviceValuesCollectionValue method adds a new IPortableDeviceValuesCollection value (type VT\_UNKNOWN) or overwrites an existing one.
+description: The SetIPortableDeviceValuesCollectionValue method adds a new IPortableDeviceValuesCollection value (type VT\_UNKNOWN) or overwrites an existing one.
 ms.assetid: 29bdecaa-4820-4b1d-be59-ae82f7715a53
 title: IPortableDeviceValues::SetIPortableDeviceValuesCollectionValue method (PortableDeviceTypes.h)
 ms.topic: reference

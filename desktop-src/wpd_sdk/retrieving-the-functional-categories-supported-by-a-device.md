@@ -1,5 +1,5 @@
 ---
-Description: Retrieving the Functional Categories Supported by a Device
+description: Retrieving the Functional Categories Supported by a Device
 ms.assetid: 7748e111-9987-4685-8fc8-10c5d4631080
 title: Retrieving the Functional Categories Supported by a Device
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Windows Portable Devices methods can return a variety of HRESULT error codes.
+description: Windows Portable Devices methods can return a variety of HRESULT error codes.
 ms.assetid: 496aa709-53c8-4593-8cb8-28ace1e90759
 title: Error Constants (PortableDevice.h)
 ms.topic: reference
