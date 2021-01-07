@@ -1,5 +1,5 @@
 ---
-Description: The following list describes new and updated feature areas for Windows Server 2012 and Windows Server 2012 R2. For more information on new Windows 8 and Windows 8.1 technologies, see Windows 8 and Windows 8.1 Technologies.
+description: The following list describes new and updated feature areas for Windows Server 2012 and Windows Server 2012 R2. For more information on new Windows 8 and Windows 8.1 technologies, see Windows 8 and Windows 8.1 Technologies.
 ms.assetid: bd8b4dd8-e0b7-4340-a6bd-1baa42d9a1dd
 title: "What's New: Windows Server 2012 R2 & Windows Server 2012"
 ms.topic: article

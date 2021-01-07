@@ -1,5 +1,5 @@
 ---
-Description: 'Displays the Find: All Files dialog box. This is the same as clicking the Start menu and then selecting Search (or its equivalent under systems earlier than Windows XP.'
+description: 'Displays the Find: All Files dialog box. This is the same as clicking the Start menu and then selecting Search (or its equivalent under systems earlier than Windows XP.'
 ms.assetid: cccdd3ea-b52a-4fbe-b4c5-1efc1dd6d770
 title: Shell.FindFiles method (Shldisp.h)
 ms.topic: reference

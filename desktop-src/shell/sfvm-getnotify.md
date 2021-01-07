@@ -1,5 +1,5 @@
 ---
-Description: Notification sent to the view callback object to specify the locations and events that should be registered for change notification events.
+description: Notification sent to the view callback object to specify the locations and events that should be registered for change notification events.
 title: SFVM_GETNOTIFY message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018

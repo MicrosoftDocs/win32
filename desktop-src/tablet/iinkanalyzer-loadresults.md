@@ -1,5 +1,5 @@
 ---
-Description: Loads saved analysis results into the IInkAnalyzer.
+description: Loads saved analysis results into the IInkAnalyzer.
 ms.assetid: 7634dbe2-1857-497c-81b5-76b92fed862d
 title: IInkAnalyzer::LoadResults method (IACom.h)
 ms.topic: reference

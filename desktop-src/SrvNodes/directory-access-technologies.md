@@ -1,5 +1,5 @@
 ---
-Description: Directory Access Technologies
+description: Directory Access Technologies
 ms.assetid: 9880a969-b72a-4fb3-b1db-0c16425affa9
 title: Directory Access Technologies
 ms.topic: reference

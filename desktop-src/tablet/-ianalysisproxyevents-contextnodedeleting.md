@@ -1,5 +1,5 @@
 ---
-Description: Occurs before the IInkAnalyzer deletes an IContextNode object.
+description: Occurs before the IInkAnalyzer deletes an IContextNode object.
 ms.assetid: 9c89198e-cc64-4041-b7a3-457f94c4aeaf
 title: '_IAnalysisProxyEvents::ContextNodeDeleting event' (IACom.h)
 ms.topic: reference

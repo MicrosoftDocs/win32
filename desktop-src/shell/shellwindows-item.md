@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an InternetExplorer object that represents the Shell window.
+description: Retrieves an InternetExplorer object that represents the Shell window.
 ms.assetid: '32390f35-f83a-45d9-a240-282da7cb2b13'
 title: ShellWindows.Item method (Exdisp.h)
 ms.topic: reference

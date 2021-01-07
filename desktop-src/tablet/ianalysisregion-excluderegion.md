@@ -1,5 +1,5 @@
 ---
-Description: Restricts the area of the IAnalysisRegion to the portion of its area that does not intersect the specified IAnalysisRegion.
+description: Restricts the area of the IAnalysisRegion to the portion of its area that does not intersect the specified IAnalysisRegion.
 ms.assetid: 7a11d2a8-c2ca-4088-b932-8a6c3e789b7f
 title: IAnalysisRegion::ExcludeRegion method (IACom.h)
 ms.topic: reference

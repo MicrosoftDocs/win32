@@ -1,5 +1,5 @@
 ---
-Description: Adds an item to the Microsoft Active Desktop.
+description: Adds an item to the Microsoft Active Desktop.
 title: ShellUIHelper.AddDesktopComponent method (Exdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018

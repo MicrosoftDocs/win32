@@ -1,5 +1,5 @@
 ---
-Description: Contains the confidence rating returned by the Journal ink analyzer for the InkWord.
+description: Contains the confidence rating returned by the Journal ink analyzer for the InkWord.
 ms.assetid: cb0ed0d0-5e2f-44a3-b72b-61cbfd22bae8
 title: Confidence Element
 ms.topic: reference

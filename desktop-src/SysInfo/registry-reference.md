@@ -1,5 +1,5 @@
 ---
-Description: The following elements are used with the registry.
+description: The following elements are used with the registry.
 ms.assetid: 5f9651bf-0f47-48b8-ad57-6dcab9702725
 title: Registry Reference
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Adds an object to the Shell view. Used by SHShellFolderView\_Message.
+description: Adds an object to the Shell view. Used by SHShellFolderView\_Message.
 title: SFVM_ADDOBJECT message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018

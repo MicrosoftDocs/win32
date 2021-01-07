@@ -1,5 +1,5 @@
 ---
-Description: A set of string keys that are used with the IBindCtx::RegisterObjectParam method to specify a bind context.
+description: A set of string keys that are used with the IBindCtx::RegisterObjectParam method to specify a bind context.
 title: Bind Context String Keys (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018

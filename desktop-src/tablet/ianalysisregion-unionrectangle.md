@@ -1,5 +1,5 @@
 ---
-Description: Expands the area of this IAnalysisRegion to the area created by its union with the specified rectangle.
+description: Expands the area of this IAnalysisRegion to the area created by its union with the specified rectangle.
 ms.assetid: 9b12f509-4f6a-43b0-9639-bef060fd6d50
 title: IAnalysisRegion::UnionRectangle method (IACom.h)
 ms.topic: reference

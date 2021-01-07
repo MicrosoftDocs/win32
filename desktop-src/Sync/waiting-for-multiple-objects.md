@@ -1,5 +1,5 @@
 ---
-Description: The following example uses the CreateEvent function to create two event objects and the CreateThread function to create a thread.
+description: The following example uses the CreateEvent function to create two event objects and the CreateThread function to create a thread.
 ms.assetid: 0132ac94-b45b-438a-b96a-e77cfe522702
 title: Waiting for Multiple Objects
 ms.topic: article

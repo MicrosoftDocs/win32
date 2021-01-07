@@ -1,5 +1,5 @@
 ---
-Description: The following example uses the GetFileTime function to retrieve the last-write time for a file. It converts the time to local time based on the current time-zone settings, and creates a date and time string that can be shown to the user.
+description: The following example uses the GetFileTime function to retrieve the last-write time for a file. It converts the time to local time based on the current time-zone settings, and creates a date and time string that can be shown to the user.
 ms.assetid: 54509a35-fa6a-4ee6-90f8-36c9ef55e1bc
 title: Retrieving the Last-Write Time
 ms.topic: article

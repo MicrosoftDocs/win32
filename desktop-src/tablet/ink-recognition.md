@@ -1,5 +1,5 @@
 ---
-Description: Not all applications require the use of recognition, but because most applications were designed with text as their primary data type, the ability to convert ink into text is very valuable.
+description: Not all applications require the use of recognition, but because most applications were designed with text as their primary data type, the ability to convert ink into text is very valuable.
 ms.assetid: 70d25839-6ddd-40db-8891-92da074d17b0
 title: Ink Recognition
 ms.topic: article

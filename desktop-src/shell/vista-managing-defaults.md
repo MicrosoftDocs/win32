@@ -1,5 +1,5 @@
 ---
-Description: This topic provides independent software vendors (ISVs) with a quick guide to the steps necessary to register and manage application defaults in Windows Vista and later. Links are provided to more in-depth articles about each section's topic.
+description: This topic provides independent software vendors (ISVs) with a quick guide to the steps necessary to register and manage application defaults in Windows Vista and later. Links are provided to more in-depth articles about each section's topic.
 ms.assetid: 649eb20d-07d3-4209-abff-45fc50f05631
 title: Managing Default Applications
 ms.topic: article

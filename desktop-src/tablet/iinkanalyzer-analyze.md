@@ -1,5 +1,5 @@
 ---
-Description: Performs synchronous ink analysis.
+description: Performs synchronous ink analysis.
 ms.assetid: 957845f3-96b4-4184-aaec-e266cbe47e46
 title: IInkAnalyzer::Analyze method (IACom.h)
 ms.topic: reference

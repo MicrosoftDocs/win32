@@ -1,5 +1,5 @@
 ---
-Description: Allows the callback object to provide a page to add to the Properties property sheet of the selected object. Used by IShellFolderViewCB::MessageSFVCB.
+description: Allows the callback object to provide a page to add to the Properties property sheet of the selected object. Used by IShellFolderViewCB::MessageSFVCB.
 title: SFVM_ADDPROPERTYPAGES message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018

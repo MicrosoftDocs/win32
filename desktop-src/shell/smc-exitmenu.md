@@ -1,5 +1,5 @@
 ---
-Description: Notifies you that the menu is collapsing.
+description: Notifies you that the menu is collapsing.
 title: SMC_EXITMENU message (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018

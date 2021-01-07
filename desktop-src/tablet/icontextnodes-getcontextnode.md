@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the IContextNode object at the specified index within this collection.
+description: Retrieves the IContextNode object at the specified index within this collection.
 ms.assetid: 4b266512-9e58-43d2-8430-68310230fc27
 title: IContextNodes::GetContextNode method (IACom.h)
 ms.topic: reference

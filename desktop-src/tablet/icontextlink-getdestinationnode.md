@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the IContextNode object that is the destination for this IContextLink.
+description: Retrieves the IContextNode object that is the destination for this IContextLink.
 ms.assetid: 7e185e69-821b-409b-bc58-d89a4aefeb23
 title: IContextLink::GetDestinationNode method (IACom.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Contains the set of Alternate elements that hold the alternates returned by the recognizer for the parent InkWord element. The alternates are ordered by the recognizer's confidence in the alternate, with highest first.
+description: Contains the set of Alternate elements that hold the alternates returned by the recognizer for the parent InkWord element. The alternates are ordered by the recognizer's confidence in the alternate, with highest first.
 ms.assetid: 76c9b923-bad8-4c08-9b31-199d4f7aaeff
 title: AlternateList Element
 ms.topic: reference

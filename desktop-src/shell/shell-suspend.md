@@ -1,5 +1,5 @@
 ---
-Description: Shell.Suspend method
+description: Shell.Suspend method
 title: Shell.Suspend method
 ms.topic: reference
 ms.date: 05/31/2018

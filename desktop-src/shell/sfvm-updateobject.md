@@ -1,5 +1,5 @@
 ---
-Description: Updates an object by passing a pointer to an array of two pointers to item identifier lists (PIDLs). Used by SHShellFolderView\_Message.
+description: Updates an object by passing a pointer to an array of two pointers to item identifier lists (PIDLs). Used by SHShellFolderView\_Message.
 title: SFVM_UPDATEOBJECT message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018

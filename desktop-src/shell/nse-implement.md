@@ -1,5 +1,5 @@
 ---
-Description: The procedure for implementing a namespace extension is similar to that for any other in-process Component Object Model (COM) object.
+description: The procedure for implementing a namespace extension is similar to that for any other in-process Component Object Model (COM) object.
 title: Implementing the Basic Folder Object Interfaces
 ms.topic: article
 ms.date: 05/31/2018

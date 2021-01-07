@@ -1,5 +1,5 @@
 ---
-Description: The following are the registry functions.
+description: The following are the registry functions.
 ms.assetid: a490b748-42e8-462b-9a7f-a8b21438ea79
 title: Registry Functions
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: An application can use the RegSetValueEx function to associate a value and its data with a key. For a list of the value types supported by RegSetValueEx, see Registry Value Types.
+description: An application can use the RegSetValueEx function to associate a value and its data with a key. For a list of the value types supported by RegSetValueEx, see Registry Value Types.
 ms.assetid: 75ac826a-f169-400c-b6d6-3e3ec9ebf996
 title: Writing and Deleting Registry Data
 ms.topic: article

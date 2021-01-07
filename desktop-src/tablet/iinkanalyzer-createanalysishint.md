@@ -1,5 +1,5 @@
 ---
-Description: Adds a new analysis hint node with an infinite area to the IInkAnalyzer.
+description: Adds a new analysis hint node with an infinite area to the IInkAnalyzer.
 ms.assetid: 4cc592c4-456f-4aa5-9a87-d9427de487f3
 title: IInkAnalyzer::CreateAnalysisHint method (IACom.h)
 ms.topic: reference

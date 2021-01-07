@@ -1,5 +1,5 @@
 ---
-Description: Represents the tablet context.
+description: Represents the tablet context.
 ms.assetid: d518c42d-c2f6-4776-bea5-fecdfe48e260
 title: ITabletContextP interface
 ms.topic: reference

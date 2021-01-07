@@ -1,5 +1,5 @@
 ---
-Description: Removes a child IContextNode.
+description: Removes a child IContextNode.
 ms.assetid: ed1d7b35-f6ba-4eff-888d-5cc492f02832
 title: IContextNode::DeleteSubNode method (IACom.h)
 ms.topic: reference

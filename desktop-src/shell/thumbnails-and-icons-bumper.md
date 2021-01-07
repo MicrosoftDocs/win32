@@ -1,5 +1,5 @@
 ---
-Description: Thumbnails and Icons
+description: Thumbnails and Icons
 title: Thumbnails and Icons
 ms.topic: article
 ms.date: 05/31/2018

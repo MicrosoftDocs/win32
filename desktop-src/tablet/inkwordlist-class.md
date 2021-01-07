@@ -1,5 +1,5 @@
 ---
-Description: Represents a list of words that can be used to improve the recognition result.
+description: Represents a list of words that can be used to improve the recognition result.
 ms.assetid: d189fd13-ec69-45dc-8be4-fea48f337636
 title: InkWordList class (Msinkaut.h)
 ms.topic: reference

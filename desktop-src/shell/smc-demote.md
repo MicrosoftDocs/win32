@@ -1,5 +1,5 @@
 ---
-Description: Demote the item specified by the accompanying SMDATA structure.
+description: Demote the item specified by the accompanying SMDATA structure.
 title: SMC_DEMOTE message (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018

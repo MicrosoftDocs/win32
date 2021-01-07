@@ -1,5 +1,5 @@
 ---
-Description: Occurs before the ink analyzer adds an IContextLink object between two IContextNode objects.
+description: Occurs before the ink analyzer adds an IContextLink object between two IContextNode objects.
 ms.assetid: ec56cb8e-5154-45ee-911d-e2a240d19dc3
 title: '_IAnalysisProxyEvents::ContextNodeLinkAdding event' (IACom.h)
 ms.topic: reference

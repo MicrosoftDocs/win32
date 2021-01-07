@@ -1,5 +1,5 @@
 ---
-Description: MS-DOS date and MS-DOS time are packed 16-bit values that specify the month, day, year, and time of day an MS-DOS file was last written to.
+description: MS-DOS date and MS-DOS time are packed 16-bit values that specify the month, day, year, and time of day an MS-DOS file was last written to.
 ms.assetid: 948e6d77-dd01-4c90-9ef0-af143972c3fa
 title: MS-DOS Date and Time
 ms.topic: article

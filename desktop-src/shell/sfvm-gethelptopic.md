@@ -1,5 +1,5 @@
 ---
-Description: Allows the callback object to specify an HTML Help file and a topic within it. Used by IShellFolderViewCB::MessageSFVCB.
+description: Allows the callback object to specify an HTML Help file and a topic within it. Used by IShellFolderViewCB::MessageSFVCB.
 title: SFVM_GETHELPTOPIC message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018

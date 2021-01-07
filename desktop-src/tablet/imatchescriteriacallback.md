@@ -1,5 +1,5 @@
 ---
-Description: Exposes a method to evaluate whether an IContextNode object meets or fails a specified criteria.
+description: Exposes a method to evaluate whether an IContextNode object meets or fails a specified criteria.
 ms.assetid: 8b094882-e739-4088-87de-6ef4719b0b5b
 title: IMatchesCriteriaCallBack interface (IACom.h)
 ms.topic: reference

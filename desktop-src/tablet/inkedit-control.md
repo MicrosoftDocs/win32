@@ -1,5 +1,5 @@
 ---
-Description: The InkEdit control provides an easy way to capture, recognize, and display ink.
+description: The InkEdit control provides an easy way to capture, recognize, and display ink.
 ms.assetid: a1dfa254-cade-44c5-8fdd-74bb40849063
 title: InkEdit Control
 ms.topic: article

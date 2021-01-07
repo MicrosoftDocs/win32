@@ -1,5 +1,5 @@
 ---
-Description: Notifies the callback object that background enumeration is complete. Used by IShellFolderViewCB::MessageSFVCB.
+description: Notifies the callback object that background enumeration is complete. Used by IShellFolderViewCB::MessageSFVCB.
 title: SFVM_BACKGROUNDENUMDONE message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018

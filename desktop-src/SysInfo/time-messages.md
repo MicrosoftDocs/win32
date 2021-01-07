@@ -1,5 +1,5 @@
 ---
-Description: The following message is used with time.
+description: The following message is used with time.
 ms.assetid: 8aced280-0af9-4e9e-ba6a-d02d41602466
 title: Time Messages
 ms.topic: article

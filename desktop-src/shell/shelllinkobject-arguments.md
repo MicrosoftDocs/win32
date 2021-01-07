@@ -1,5 +1,5 @@
 ---
-Description: Contains a link's arguments.
+description: Contains a link's arguments.
 ms.assetid: 938db958-4b59-4dd6-ac56-f21db05ec989
 title: ShellLinkObject.Arguments property (Shldisp.h)
 ms.topic: reference

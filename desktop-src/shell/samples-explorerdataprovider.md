@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates how to implement a Shell namespace extension, including context menu behavior and custom tasks in the browser.
+description: Demonstrates how to implement a Shell namespace extension, including context menu behavior and custom tasks in the browser.
 title: Explorer Data Provider Sample
 ms.topic: article
 ms.date: 05/31/2018

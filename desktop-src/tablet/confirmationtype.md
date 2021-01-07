@@ -1,5 +1,5 @@
 ---
-Description: Specifies the type of confirmation that can occur on an IContextNode object.
+description: Specifies the type of confirmation that can occur on an IContextNode object.
 ms.assetid: 5c906548-dbf5-4448-b248-070bd43b054e
 title: ConfirmationType enumeration (IACom.h)
 ms.topic: reference

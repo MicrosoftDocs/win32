@@ -1,5 +1,5 @@
 ---
-Description: Manages Shell links. This object makes much of the functionality of the IShellLink interface available to scripting applications.
+description: Manages Shell links. This object makes much of the functionality of the IShellLink interface available to scripting applications.
 title: ShellLinkObject object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018

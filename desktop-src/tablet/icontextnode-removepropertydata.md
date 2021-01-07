@@ -1,5 +1,5 @@
 ---
-Description: Removes a piece of application-specific data.
+description: Removes a piece of application-specific data.
 ms.assetid: 41077c2f-39e3-4069-ac05-97f1785e37b7
 title: IContextNode::RemovePropertyData method (IACom.h)
 ms.topic: reference

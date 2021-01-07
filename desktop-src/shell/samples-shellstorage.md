@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates how to create files and folders in Shell containers. Also shows how to save to the Shell item that is returned from the file dialog.
+description: Demonstrates how to create files and folders in Shell containers. Also shows how to save to the Shell item that is returned from the file dialog.
 title: Shell Storage Sample
 ms.topic: article
 ms.date: 05/31/2018

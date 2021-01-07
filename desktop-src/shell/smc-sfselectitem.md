@@ -1,5 +1,5 @@
 ---
-Description: The user has selected the item specified by the accompanying SMDATA structure.
+description: The user has selected the item specified by the accompanying SMDATA structure.
 title: SMC_SFSELECTITEM message (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018

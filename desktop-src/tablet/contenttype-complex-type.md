@@ -1,5 +1,5 @@
 ---
-Description: Defines the type that contains some form of content within a Journal XML file.
+description: Defines the type that contains some form of content within a Journal XML file.
 ms.assetid: 1b75287d-3cd5-496d-8c64-c5523d72b3db
 title: ContentType Complex Type
 ms.topic: reference

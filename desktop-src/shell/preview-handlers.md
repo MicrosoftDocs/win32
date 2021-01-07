@@ -1,5 +1,5 @@
 ---
-Description: Preview handlers are called when an item is selected to show a lightweight, rich, read-only preview of the file's contents in the view's reading pane. This is done without launching the file's associated application.
+description: Preview handlers are called when an item is selected to show a lightweight, rich, read-only preview of the file's contents in the view's reading pane. This is done without launching the file's associated application.
 ms.assetid: '166a4001-d237-44a4-a457-e320e995639c'
 title: Preview Handlers and Shell Preview Host
 ms.topic: article

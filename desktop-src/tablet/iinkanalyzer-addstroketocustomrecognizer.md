@@ -1,5 +1,5 @@
 ---
-Description: Adds stroke data for a single stroke to a custom recognizer node.
+description: Adds stroke data for a single stroke to a custom recognizer node.
 ms.assetid: ab43c9f8-15fe-49db-b9d1-57d34b95d99f
 title: IInkAnalyzer::AddStrokeToCustomRecognizer method (IACom.h)
 ms.topic: reference

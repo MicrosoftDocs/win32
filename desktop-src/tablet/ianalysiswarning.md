@@ -1,5 +1,5 @@
 ---
-Description: Represents a warning or error that occurs during an ink analysis operation.
+description: Represents a warning or error that occurs during an ink analysis operation.
 ms.assetid: a9b0564b-8a49-44bc-9dbc-60a2fd5b60f2
 title: IAnalysisWarning interface (IACom.h)
 ms.topic: reference

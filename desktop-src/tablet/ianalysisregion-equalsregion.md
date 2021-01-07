@@ -1,5 +1,5 @@
 ---
-Description: Determines whether the specified IAnalysisRegion contains the same value as the current IAnalysisRegion object.
+description: Determines whether the specified IAnalysisRegion contains the same value as the current IAnalysisRegion object.
 ms.assetid: 44c09cfe-65fc-4175-ad05-01c605218c58
 title: IAnalysisRegion::EqualsRegion method (IACom.h)
 ms.topic: reference

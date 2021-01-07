@@ -1,5 +1,5 @@
 ---
-Description: Modifies the value that indicates whether this IContextNode is partially or fully populated.
+description: Modifies the value that indicates whether this IContextNode is partially or fully populated.
 ms.assetid: 4d8e1ec0-757d-4346-a77e-263bd612972b
 title: IContextNode::SetPartiallyPopulated method (IACom.h)
 ms.topic: reference
