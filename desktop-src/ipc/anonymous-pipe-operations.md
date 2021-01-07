@@ -14,8 +14,6 @@ A pipe server can send either the read handle or the write handle to the pipe cl
 
 To write to the pipe, use the pipe's write handle in a call to the [**WriteFile**](/windows/desktop/api/fileapi/nf-fileapi-writefile) function. The **WriteFile** call does not return until it has written the specified number of bytes to the pipe or an error occurs. If the pipe buffer is full and there are more bytes to be written, **WriteFile** does not return until another process reads from the pipe, making more buffer space available. The pipe server specifies the buffer size for the pipe when it calls [**CreatePipe**](/windows/win32/api/namedpipeapi/nf-namedpipeapi-createpipe).
 
-Asynchronous (overlapped) read and write operations are not supported by anonymous pipes. This means that you cannot use the [**ReadFileEx**](/windows/desktop/api/fileapi/nf-fileapi-readfileex) and [**WriteFileEx**](/windows/desktop/api/fileapi/nf-fileapi-writefileex) functions with anonymous pipes. In addition, the *lpOverlapped* parameter of [**ReadFile**](/windows/desktop/api/fileapi/nf-fileapi-readfile) and [**WriteFile**](/windows/desktop/api/fileapi/nf-fileapi-writefile) is ignored when these functions are used with anonymous pipes.
-
 An anonymous pipe exists until all pipe handles, both read and write, have been closed. A process can close its pipe handles by using the [**CloseHandle**](/windows/desktop/api/handleapi/nf-handleapi-closehandle) function. All pipe handles are also closed when the process terminates.
 
 Anonymous pipes are implemented using a named pipe with a unique name. Therefore, you can often pass a handle to an anonymous pipe to a function that requires a handle to a named pipe.
