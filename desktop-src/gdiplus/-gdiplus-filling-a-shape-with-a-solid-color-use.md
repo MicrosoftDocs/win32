@@ -1,5 +1,5 @@
 ---
-Description: To fill a shape with a solid color, create a SolidBrush object, and then pass the address of that SolidBrush object as an argument to one of the fill methods of the Graphics class.
+description: To fill a shape with a solid color, create a SolidBrush object, and then pass the address of that SolidBrush object as an argument to one of the fill methods of the Graphics class.
 ms.assetid: cedef138-5047-4a72-8b89-5a95062a351c
 title: Filling a Shape with a Solid Color
 ms.topic: article

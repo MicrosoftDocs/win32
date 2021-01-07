@@ -1,5 +1,5 @@
 ---
-Description: In Windows GDI+, a color is a 32-bit value with 8 bits each for alpha, red, green, and blue.
+description: In Windows GDI+, a color is a 32-bit value with 8 bits each for alpha, red, green, and blue.
 ms.assetid: f8c22d1a-b96b-4d16-928e-20adbae4c4a7
 title: Alpha Blending Lines and Fills
 ms.topic: article

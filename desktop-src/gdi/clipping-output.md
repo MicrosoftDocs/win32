@@ -1,5 +1,5 @@
 ---
-Description: After the user clicks Clip from the menu, the application uses the coordinates of the rectangle the user created to define a clipping region.
+description: After the user clicks Clip from the menu, the application uses the coordinates of the rectangle the user created to define a clipping region.
 ms.assetid: 5ae60181-c72e-4a28-99eb-e23d35c46685
 title: Clipping Output
 ms.topic: article

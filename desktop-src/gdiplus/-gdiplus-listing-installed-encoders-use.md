@@ -1,5 +1,5 @@
 ---
-Description: GDI+ provides the GetImageEncoders function so that you can determine which image encoders are available on your computer.
+description: GDI+ provides the GetImageEncoders function so that you can determine which image encoders are available on your computer.
 ms.assetid: a261cf61-b853-4208-984b-0d5040eb1667
 title: Listing Installed Encoders
 ms.topic: article

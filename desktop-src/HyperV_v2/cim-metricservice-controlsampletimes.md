@@ -1,5 +1,5 @@
 ---
-Description: Allows specification of the point in time metric gathering is to be started and to specify the preferred sample interval time for periodic data gathering.
+description: Allows specification of the point in time metric gathering is to be started and to specify the preferred sample interval time for periodic data gathering.
 ms.assetid: 3dd6dc16-a618-49ff-bbaf-cfa25c249cf1
 title: ControlSampleTimes method of the CIM_MetricService class
 ms.topic: reference

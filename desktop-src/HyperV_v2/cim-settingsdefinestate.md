@@ -1,5 +1,5 @@
 ---
-Description: Associates settings data with a managed element.
+description: Associates settings data with a managed element.
 ms.assetid: 3fdf111b-3ec1-4559-94ce-27d6a8cd0080
 title: CIM_SettingsDefineState class
 ms.topic: reference

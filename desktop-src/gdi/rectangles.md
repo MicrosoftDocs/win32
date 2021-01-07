@@ -1,5 +1,5 @@
 ---
-Description: Applications use rectangles to specify rectangular areas on the screen or in a window.
+description: Applications use rectangles to specify rectangular areas on the screen or in a window.
 ms.assetid: '23c251d1-b8c5-425f-b2b3-44954cf653e9'
 title: Rectangles
 ms.topic: article

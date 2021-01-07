@@ -1,5 +1,5 @@
 ---
-Description: Represents the instance value of a metric defined by an instance of CIM\_AggregationMetricDefinition.
+description: Represents the instance value of a metric defined by an instance of CIM\_AggregationMetricDefinition.
 ms.assetid: 663ef18a-0238-416f-9682-8809b271b4fc
 title: CIM_AggregationMetricValue class
 ms.topic: reference

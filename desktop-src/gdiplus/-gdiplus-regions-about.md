@@ -1,5 +1,5 @@
 ---
-Description: A region is a portion of the display surface.
+description: A region is a portion of the display surface.
 ms.assetid: eb78d7a0-6293-487f-88c5-88ba455b965f
 title: Regions (GDI+)
 ms.topic: article

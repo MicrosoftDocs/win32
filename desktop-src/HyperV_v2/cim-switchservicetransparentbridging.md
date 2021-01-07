@@ -1,5 +1,5 @@
 ---
-Description: Represents an association in which a bridge service is a component of a switch service.
+description: Represents an association in which a bridge service is a component of a switch service.
 ms.assetid: 737d5ba1-0759-40cf-bc46-a059d19902c8
 title: CIM_SwitchServiceTransparentBridging class
 ms.topic: reference

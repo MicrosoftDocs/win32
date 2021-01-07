@@ -1,5 +1,5 @@
 ---
-Description: Adds resources to a virtual system configuration.
+description: Adds resources to a virtual system configuration.
 ms.assetid: c2541571-74f0-48f8-997c-56c152980eea
 title: AddResourceSettings method of the CIM_VirtualSystemManagementService class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: A symbolic link is a file-system object that points to another file system object. The object being pointed to is called the target.
+description: A symbolic link is a file-system object that points to another file system object. The object being pointed to is called the target.
 ms.assetid: 'd6bf5df7-bc12-4dec-b116-95d9109f5eb4'
 title: Symbolic Links
 ms.topic: article

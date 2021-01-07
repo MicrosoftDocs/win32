@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the constructors of the Rect class. For a complete class listing, see Rect Class.
+description: This topic lists the constructors of the Rect class. For a complete class listing, see Rect Class.
 ms.assetid: dc690522-efab-4a56-995d-b4eb96d5e295
 title: Rect.Rect constructors
 ms.topic: reference

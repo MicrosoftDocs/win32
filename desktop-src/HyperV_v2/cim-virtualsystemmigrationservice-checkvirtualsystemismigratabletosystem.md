@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CheckVirtualSystemIsMigratableToSystem method of the CIM_VirtualSystemMigrationService class"
 ms.assetid: d3f7c926-804f-4c7c-8964-a8e464155417
 title: CheckVirtualSystemIsMigratableToSystem method of the CIM_VirtualSystemMigrationService class
 ms.topic: reference

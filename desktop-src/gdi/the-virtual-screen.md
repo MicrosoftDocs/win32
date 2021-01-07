@@ -1,5 +1,5 @@
 ---
-Description: The bounding rectangle of all the monitors is the virtual screen. The desktop covers the virtual screen instead of a single monitor. The following illustration shows a possible arrangement of three monitors.
+description: The bounding rectangle of all the monitors is the virtual screen. The desktop covers the virtual screen instead of a single monitor. The following illustration shows a possible arrangement of three monitors.
 ms.assetid: 3f84027d-f316-4454-92ad-2d36d10b2ec8
 title: The Virtual Screen
 ms.topic: article

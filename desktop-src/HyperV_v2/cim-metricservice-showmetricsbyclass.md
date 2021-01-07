@@ -1,5 +1,5 @@
 ---
-Description: 'Reports the following: the metrics available to be collected for all instances of a CIM class, The CIM classes for which a metric defined by an instance of CIM\_BaseMetricDefinition is available to be collected, and whether or not a particular metric is currently being collected for a managed element.'
+description: 'Reports the following: the metrics available to be collected for all instances of a CIM class, The CIM classes for which a metric defined by an instance of CIM\_BaseMetricDefinition is available to be collected, and whether or not a particular metric is currently being collected for a managed element.'
 ms.assetid: 0115a5b5-2824-4c43-a8dc-757524c5d3dd
 title: ShowMetricsByClass method of the CIM_MetricService class
 ms.topic: reference

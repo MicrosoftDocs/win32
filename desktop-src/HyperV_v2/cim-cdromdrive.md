@@ -1,5 +1,5 @@
 ---
-Description: Represents the capabilities and management of a CD ROM drive.
+description: Represents the capabilities and management of a CD ROM drive.
 ms.assetid: 937be389-11f8-4298-92c8-4bf67a36fb16
 title: CIM_CDROMDrive class (Hyper-V management)
 ms.topic: reference

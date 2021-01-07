@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the DrawRectangle methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+description: This topic lists the DrawRectangle methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 ms.assetid: 9ebd7158-26bd-447e-8351-4245e1098361
 title: Graphics.DrawRectangle methods
 ms.date: 07/02/2019

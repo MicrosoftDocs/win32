@@ -1,5 +1,5 @@
 ---
-Description: You can draw your own minimized windows rather than having the system draw them for you.
+description: You can draw your own minimized windows rather than having the system draw them for you.
 ms.assetid: 607d987a-5bdc-46bc-bde7-6dc52745ac79
 title: Drawing a Minimized Window
 ms.topic: article

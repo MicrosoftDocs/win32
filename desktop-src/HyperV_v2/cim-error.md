@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Error class contains information about the failure of a CIM operation.
+description: The CIM\_Error class contains information about the failure of a CIM operation.
 ms.assetid: 35acecbd-b972-45b4-9616-2047bba8fd41
 title: CIM_Error class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Represents an association where a managed element is hosted by another.
+description: Represents an association where a managed element is hosted by another.
 ms.assetid: ae8476f7-38a4-4d08-a7dc-21e120d3cbe1
 title: CIM_HostedDependency class
 ms.topic: reference

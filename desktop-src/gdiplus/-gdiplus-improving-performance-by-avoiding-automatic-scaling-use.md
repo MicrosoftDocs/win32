@@ -1,5 +1,5 @@
 ---
-Description: If you pass only the upper-left corner of an image to the DrawImage method, Windows GDI+ might scale the image, which would decrease performance.
+description: If you pass only the upper-left corner of an image to the DrawImage method, Windows GDI+ might scale the image, which would decrease performance.
 ms.assetid: da571970-a4fc-4d4a-9264-0085d9807d66
 title: Improving Performance by Avoiding Automatic Scaling
 ms.topic: article

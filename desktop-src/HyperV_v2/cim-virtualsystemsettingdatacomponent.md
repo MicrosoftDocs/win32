@@ -1,5 +1,5 @@
 ---
-Description: Represents a portion of a relationship between a CIM\_VirtualSystemSettingData instance and a set of CIM\_ResourceAllocationSettingData instances.
+description: Represents a portion of a relationship between a CIM\_VirtualSystemSettingData instance and a set of CIM\_ResourceAllocationSettingData instances.
 ms.assetid: 4f167517-079e-4b5f-885a-741ac1d1dc71
 title: CIM_VirtualSystemSettingDataComponent class
 ms.topic: reference

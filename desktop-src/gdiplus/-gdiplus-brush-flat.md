@@ -1,5 +1,5 @@
 ---
-Description: Windows GDI+ exposes a flat API that consists of about 600 functions, which are implemented in Gdiplus.dll and declared in Gdiplusflat.h.
+description: Windows GDI+ exposes a flat API that consists of about 600 functions, which are implemented in Gdiplus.dll and declared in Gdiplusflat.h.
 ms.assetid: def64d31-9a4b-4365-a618-b87735ce38f1
 title: Brush Functions (GDI+)
 ms.topic: article

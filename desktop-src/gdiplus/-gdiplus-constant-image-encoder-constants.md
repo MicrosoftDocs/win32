@@ -1,5 +1,5 @@
 ---
-Description: The Image::Save Methods and Image::SaveAdd Methods methods of the Image class receive an EncoderParameters object that contains an array of EncoderParameter objects.
+description: The Image::Save Methods and Image::SaveAdd Methods methods of the Image class receive an EncoderParameters object that contains an array of EncoderParameter objects.
 ms.assetid: babc89f0-aea5-4341-8cf9-40d11e73fb10
 title: Image Encoder Constants
 ms.topic: article

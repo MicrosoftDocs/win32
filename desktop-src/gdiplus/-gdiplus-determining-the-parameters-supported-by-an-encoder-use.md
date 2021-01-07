@@ -1,5 +1,5 @@
 ---
-Description: The Image class provides the Image::GetEncoderParameterList method so that you can determine the parameters that are supported by a given image encoder.
+description: The Image class provides the Image::GetEncoderParameterList method so that you can determine the parameters that are supported by a given image encoder.
 ms.assetid: 2e1a5279-dd9d-46de-822c-d356a344f340
 title: Determining the Parameters Supported by an Encoder
 ms.topic: article

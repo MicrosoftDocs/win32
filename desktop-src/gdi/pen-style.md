@@ -1,5 +1,5 @@
 ---
-Description: The style attribute specifies the line pattern that appears when a particular cosmetic or geometric pen is used. There are eight predefined pen styles. The following illustration shows the seven of these styles that are defined by the system.
+description: The style attribute specifies the line pattern that appears when a particular cosmetic or geometric pen is used. There are eight predefined pen styles. The following illustration shows the seven of these styles that are defined by the system.
 ms.assetid: a9aaa999-529c-46e1-9a3f-b6fdcbeb5b51
 title: Pen Style
 ms.topic: article

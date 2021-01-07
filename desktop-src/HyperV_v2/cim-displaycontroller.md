@@ -1,5 +1,5 @@
 ---
-Description: Represents a display controller.
+description: Represents a display controller.
 ms.assetid: 14598ae6-58e2-46ca-8653-b57e5833a224
 title: CIM_DisplayController class
 ms.topic: reference

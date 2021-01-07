@@ -1,5 +1,5 @@
 ---
-Description: I/O completion ports provide an efficient threading model for processing multiple asynchronous I/O requests on a multiprocessor system.
+description: I/O completion ports provide an efficient threading model for processing multiple asynchronous I/O requests on a multiprocessor system.
 ms.assetid: 213c48e8-bb21-43ed-9c00-2a5cf8ac25f0
 title: I/O Completion Ports
 ms.topic: article

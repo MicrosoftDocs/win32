@@ -1,5 +1,5 @@
 ---
-Description: The system handles colors in bitmaps differently than colors in pens, brushes, and text.
+description: The system handles colors in bitmaps differently than colors in pens, brushes, and text.
 ms.assetid: c315dd6e-87ee-4905-b193-186ea580ac0a
 title: Color in Bitmaps
 ms.topic: article

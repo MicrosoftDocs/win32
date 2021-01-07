@@ -1,5 +1,5 @@
 ---
-Description: Represents the capabilities of a CIM\_VirtualSystemManagementService object.
+description: Represents the capabilities of a CIM\_VirtualSystemManagementService object.
 ms.assetid: 484b0378-b354-49c4-b98b-a960a7b07b92
 title: CIM_VirtualSystemManagementCapabilities class
 ms.topic: reference

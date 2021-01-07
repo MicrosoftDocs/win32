@@ -1,5 +1,5 @@
 ---
-Description: You can have your application redraw the entire contents of the client area whenever the window changes size by setting the CS\_HREDRAW and CS\_VREDRAW styles for the window class.
+description: You can have your application redraw the entire contents of the client area whenever the window changes size by setting the CS\_HREDRAW and CS\_VREDRAW styles for the window class.
 ms.assetid: ed68b85e-8382-4450-b07d-0422b44dc2e3
 title: Redrawing the Entire Client Area
 ms.topic: article

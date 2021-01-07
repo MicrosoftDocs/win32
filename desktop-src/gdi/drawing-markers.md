@@ -1,5 +1,5 @@
 ---
-Description: You can use the line functions to draw markers.
+description: You can use the line functions to draw markers.
 ms.assetid: 69114875-f3e0-45e9-8e87-1f4e9de08db1
 title: Drawing Markers
 ms.topic: article

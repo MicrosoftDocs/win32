@@ -1,5 +1,5 @@
 ---
-Description: Represents a contiguous range of logical blocks that is identifiable by a file system through the disks DeviceID (key) field.
+description: Represents a contiguous range of logical blocks that is identifiable by a file system through the disks DeviceID (key) field.
 ms.assetid: a70b4bee-7f5d-43b1-a7cc-7f0593bc8a11
 title: CIM_LogicalDisk class (Hyper-V management)
 ms.topic: reference

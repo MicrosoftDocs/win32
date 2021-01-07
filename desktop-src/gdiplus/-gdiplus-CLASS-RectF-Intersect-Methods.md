@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the Intersect methods of the RectF class. For a complete list of methods for the RectF class, see RectF Methods.
+description: This topic lists the Intersect methods of the RectF class. For a complete list of methods for the RectF class, see RectF Methods.
 ms.assetid: 4b57bc29-cec2-4a66-9227-6a31d8f1d4de
 title: RectF.Intersect methods
 ms.date: 07/02/2019

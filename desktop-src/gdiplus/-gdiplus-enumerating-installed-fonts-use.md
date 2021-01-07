@@ -1,5 +1,5 @@
 ---
-Description: The InstalledFontCollection class inherits from the FontCollection abstract base class.
+description: The InstalledFontCollection class inherits from the FontCollection abstract base class.
 ms.assetid: 59598f66-4241-4766-a2f0-5de736de959e
 title: Enumerating Installed Fonts
 ms.topic: article

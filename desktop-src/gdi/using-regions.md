@@ -1,5 +1,5 @@
 ---
-Description: This topic has code examples for the following tasks.
+description: This topic has code examples for the following tasks.
 ms.assetid: df8c4ace-349c-45f2-9f47-60e6be1edf85
 title: Using Regions (Windows GDI)
 ms.topic: article

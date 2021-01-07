@@ -1,5 +1,5 @@
 ---
-Description: The following list gives descriptions of the property items supported by Windows GDI+.
+description: The following list gives descriptions of the property items supported by Windows GDI+.
 ms.assetid: fc95aa3f-8381-430d-8cbf-6d23816a738d
 title: Property Item Descriptions
 ms.topic: article

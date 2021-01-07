@@ -1,5 +1,5 @@
 ---
-Description: If an application requests opportunistic locks, all files for which it requests locks must be opened for overlapped (asynchronous) input and output by using the CreateFile function with the FILE\_FLAG\_OVERLAPPED flag.
+description: If an application requests opportunistic locks, all files for which it requests locks must be opened for overlapped (asynchronous) input and output by using the CreateFile function with the FILE\_FLAG\_OVERLAPPED flag.
 ms.assetid: 1595c03e-9f6d-456c-8164-fafba06bbd79
 title: Opportunistic Lock Operations
 ms.topic: article
