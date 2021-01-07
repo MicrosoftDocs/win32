@@ -1,5 +1,5 @@
 ---
-Description: The IPolicyQualifiers interface exposes the following properties.
+description: The IPolicyQualifiers interface exposes the following properties.
 ms.assetid: F7F79AFF-FC0E-4A78-84A2-46209090630A
 title: IPolicyQualifiers Properties
 ms.topic: reference

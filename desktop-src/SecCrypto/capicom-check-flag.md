@@ -1,5 +1,5 @@
 ---
-Description: Defines the conditions for which a certificate chain is to be checked.
+description: Defines the conditions for which a certificate chain is to be checked.
 ms.assetid: 87df623c-5661-4325-8dd6-393ce2e44066
 title: CAPICOM_CHECK_FLAG enumeration (Capicom.h)
 ms.topic: reference

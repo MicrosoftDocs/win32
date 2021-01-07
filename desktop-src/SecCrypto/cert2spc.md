@@ -1,5 +1,5 @@
 ---
-Description: Cert2SPC
+description: Cert2SPC
 ms.assetid: d05df388-c19d-47a5-9ede-11cf06c29fc8
 title: Cert2SPC
 ms.topic: article

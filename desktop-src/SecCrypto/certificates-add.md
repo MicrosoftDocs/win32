@@ -1,5 +1,5 @@
 ---
-Description: Adds a Certificate object to the collection.
+description: Adds a Certificate object to the collection.
 ms.assetid: 0973018d-1e83-41b4-a250-7dd5be2fb664
 title: ICertificates2::Add method
 ms.topic: reference

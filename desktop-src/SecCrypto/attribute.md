@@ -1,5 +1,5 @@
 ---
-Description: Represents a single authenticated attribute.
+description: Represents a single authenticated attribute.
 ms.assetid: 71c4543b-683f-4ffa-8301-c40c46c490b3
 title: Attribute object
 ms.topic: reference

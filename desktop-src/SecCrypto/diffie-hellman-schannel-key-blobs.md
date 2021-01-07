@@ -1,5 +1,5 @@
 ---
-Description: BLOBs are used with the Diffie-Hellman/Schannel provider to export keys from, and import keys into, the cryptographic service provider (CSP).
+description: BLOBs are used with the Diffie-Hellman/Schannel provider to export keys from, and import keys into, the cryptographic service provider (CSP).
 ms.assetid: ebb85b7c-204d-4b1c-86dc-5a03c8eda47b
 title: Diffie-Hellman/Schannel Key BLOBs
 ms.topic: article

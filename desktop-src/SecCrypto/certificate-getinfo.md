@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information from the certificate.
+description: Retrieves information from the certificate.
 ms.assetid: 57f1c6f9-f06d-4ac7-9070-2a2e6afe93d2
 title: ICertificate2::GetInfo method
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Support for registering the new functionality in a system registry must be provided in the new DLL along with the new function.
+description: Support for registering the new functionality in a system registry must be provided in the new DLL along with the new function.
 ms.assetid: 7a6af325-4891-40db-8d33-c9782bd438e5
 title: Registering the New Functionality
 ms.topic: article

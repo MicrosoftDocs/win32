@@ -1,5 +1,5 @@
 ---
-Description: Returns a Boolean value that indicates whether the private key is stored in a hardware device.
+description: Returns a Boolean value that indicates whether the private key is stored in a hardware device.
 ms.assetid: 9a06f598-55cd-441b-a85f-8bec299f8245
 title: PrivateKey.IsHardwareDevice method
 ms.topic: reference

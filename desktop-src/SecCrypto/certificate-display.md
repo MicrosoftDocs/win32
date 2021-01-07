@@ -1,5 +1,5 @@
 ---
-Description: Displays the certificate.
+description: Displays the certificate.
 ms.assetid: bd9a0abc-c8ab-4d87-81e3-aab02d992c39
 title: ICertificate2::Display method
 ms.topic: reference

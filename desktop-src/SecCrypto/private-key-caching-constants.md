@@ -1,5 +1,5 @@
 ---
-Description: Used to represent registry entries that control private key caching by Microsoft software-based CSPs.
+description: Used to represent registry entries that control private key caching by Microsoft software-based CSPs.
 ms.assetid: 67909072-72fe-4777-ae52-a7b9047c9dd5
 title: Private Key Caching Constants (Wincrypt.h)
 ms.topic: reference

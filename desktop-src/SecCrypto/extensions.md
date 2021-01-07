@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of Extension objects.
+description: Represents a collection of Extension objects.
 ms.assetid: 'f2a6854d-1831-489f-adf6-31a0b26511e3'
 title: Extensions object
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Adds a Certificate object to a Recipients collection.
+description: Adds a Certificate object to a Recipients collection.
 ms.assetid: 2a1b9e0f-ccbf-4042-871b-397de6b6fc35
 title: Recipients.Add method
 ms.topic: reference

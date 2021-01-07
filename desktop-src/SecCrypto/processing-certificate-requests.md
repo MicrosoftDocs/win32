@@ -1,5 +1,5 @@
 ---
-Description: Explains how Certificate Services processes certificate requests.
+description: Explains how Certificate Services processes certificate requests.
 ms.assetid: 40641167-12de-4008-80e4-2fb758146421
 title: Processing Certificate Requests
 ms.topic: article

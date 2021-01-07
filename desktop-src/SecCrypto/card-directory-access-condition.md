@@ -1,5 +1,5 @@
 ---
-Description: Specifies access control permissions for a directory on a smart card.
+description: Specifies access control permissions for a directory on a smart card.
 ms.assetid: 361d9fa0-286e-4d2c-8452-3b5f48e77779
 title: CARD_DIRECTORY_ACCESS_CONDITION enumeration (Cardmod.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the content to be encrypted or decrypted.
+description: Sets or retrieves the content to be encrypted or decrypted.
 ms.assetid: fdab0f19-c69e-443b-b4b3-079d23028921
 title: EncryptedData.Content property
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The IX509CertificateRequestCertificate2 interface exposes the following methods.
+description: The IX509CertificateRequestCertificate2 interface exposes the following methods.
 ms.assetid: A8223933-37C2-439B-9A09-92DFAAE23B6D
 title: IX509CertificateRequestCertificate2 Methods
 ms.topic: reference

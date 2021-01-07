@@ -1,5 +1,5 @@
 ---
-Description: The following topics provide information about using the Certificate Services programming elements.
+description: The following topics provide information about using the Certificate Services programming elements.
 ms.assetid: e1e6871c-fb51-4be1-a7f6-a0f1c2567c1c
 title: Programming Certificate Services
 ms.topic: article

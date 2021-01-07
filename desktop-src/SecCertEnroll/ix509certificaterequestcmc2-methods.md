@@ -1,5 +1,5 @@
 ---
-Description: The IX509CertificateRequestCmc2 interface exposes the following methods.
+description: The IX509CertificateRequestCmc2 interface exposes the following methods.
 ms.assetid: ADBAEBA1-571C-44CF-9C98-B21FC7529D3C
 title: IX509CertificateRequestCmc2 Methods
 ms.topic: reference

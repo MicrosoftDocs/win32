@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an OID object from the collection. This is the default property.
+description: Retrieves an OID object from the collection. This is the default property.
 ms.assetid: af0de567-e520-411d-850d-fbdbcb2ace69
 title: OIDs.Item property
 ms.topic: reference

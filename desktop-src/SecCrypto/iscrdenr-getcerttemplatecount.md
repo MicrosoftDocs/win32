@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of certificate templates.
+description: Retrieves the number of certificate templates.
 ms.assetid: f56e6e72-1562-4c53-b0da-b4bc69511559
 title: ISCrdEnr::getCertTemplateCount method
 ms.topic: reference

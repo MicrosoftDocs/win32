@@ -1,5 +1,5 @@
 ---
-Description: Removes the specified OID object from the collection.
+description: Removes the specified OID object from the collection.
 ms.assetid: c5eb6831-b195-4dc1-a6bd-d4245f9b0213
 title: OIDs.Remove method
 ms.topic: reference

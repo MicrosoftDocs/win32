@@ -1,5 +1,5 @@
 ---
-Description: The following example implements the procedure described in Procedure for Signing Data.
+description: The following example implements the procedure described in Procedure for Signing Data.
 ms.assetid: beaf3d67-de2b-4b30-812f-1659386a1bfc
 title: 'Example C Program: Signing a Message and Verifying a Message Signature'
 ms.topic: article

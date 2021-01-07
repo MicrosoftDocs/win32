@@ -1,5 +1,5 @@
 ---
-Description: Certificate Services supports hardware-related cryptography, such as issuing certificates stored on smart cards.
+description: Certificate Services supports hardware-related cryptography, such as issuing certificates stored on smart cards.
 ms.assetid: 2efdb1c0-79bf-4efe-9e5b-da39ea886be8
 title: Hardware Cryptography
 ms.topic: article

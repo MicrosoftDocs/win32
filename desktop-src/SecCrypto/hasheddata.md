@@ -1,5 +1,5 @@
 ---
-Description: Provides functionality for hashing a string.
+description: Provides functionality for hashing a string.
 ms.assetid: 893639c2-57b9-48f6-bf60-a21c3368ffeb
 title: HashedData object
 ms.topic: reference

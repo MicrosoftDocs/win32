@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the encryption algorithm and key length.
+description: Retrieves the encryption algorithm and key length.
 ms.assetid: 13b2a3db-f04b-4436-b64f-f194fc9ddac2
 title: EnvelopedData.Algorithm property
 ms.topic: reference

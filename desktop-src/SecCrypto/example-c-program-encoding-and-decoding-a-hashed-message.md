@@ -1,5 +1,5 @@
 ---
-Description: hashes and encodes a text message, and then decodes and verifies the message.
+description: hashes and encodes a text message, and then decodes and verifies the message.
 ms.assetid: effe4080-63c1-4f35-a5e3-e7e60754b28f
 title: 'Example C Program: Encoding and Decoding a Hashed Message'
 ms.topic: article

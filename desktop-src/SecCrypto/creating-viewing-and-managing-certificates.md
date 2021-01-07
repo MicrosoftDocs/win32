@@ -1,5 +1,5 @@
 ---
-Description: Certificates have associated properties, such as a display name, description, and allowed uses, that can be viewed and edited.
+description: Certificates have associated properties, such as a display name, description, and allowed uses, that can be viewed and edited.
 ms.assetid: 23faaa03-af3e-4497-8607-4e34f8889368
 title: Creating, Viewing, and Managing Certificates
 ms.topic: article

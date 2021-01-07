@@ -1,5 +1,5 @@
 ---
-Description: The ICertEncodeCRLDistInfo interface exposes the following methods.
+description: The ICertEncodeCRLDistInfo interface exposes the following methods.
 ms.assetid: 862643FD-1A04-4E9E-9872-DB188D053AD6
 title: ICertEncodeCRLDistInfo Methods
 ms.topic: reference

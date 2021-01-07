@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the extension is marked critical.
+description: Retrieves a Boolean value that indicates whether the extension is marked critical.
 ms.assetid: 71f55d63-a51c-472c-81fc-59212c97bb34
 title: Extension.IsCritical property
 ms.topic: reference

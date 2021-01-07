@@ -1,5 +1,5 @@
 ---
-Description: Computes the hash sent in the finished message of the Secure Sockets Layer protocol (SSL) handshake.
+description: Computes the hash sent in the finished message of the Secure Sockets Layer protocol (SSL) handshake.
 ms.assetid: 82dfeb1d-c141-40c9-b692-daad78ab6d55
 title: SslComputeFinishedHash function (Sslprovider.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: An enveloped message is a message that is encrypted for a recipient or set of recipients.
+description: An enveloped message is a message that is encrypted for a recipient or set of recipients.
 ms.assetid: caf86ec8-48b6-4017-95ad-7a21fcaed4cf
 title: Creating and Receiving Enveloped Data Messages
 ms.topic: article

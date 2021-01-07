@@ -1,5 +1,5 @@
 ---
-Description: Signs a hash by using the specified private key.
+description: Signs a hash by using the specified private key.
 ms.assetid: 25e8ebc5-278d-4d1f-977a-c2fab07b790a
 title: SslSignHash function (Sslprovider.h)
 ms.topic: reference

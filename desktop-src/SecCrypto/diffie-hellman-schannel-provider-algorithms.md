@@ -1,5 +1,5 @@
 ---
-Description: The purpose of the Diffie-Hellman algorithm is to make it possible for two or more hosts to create and share an identical, secret encryption key, by simply sharing information over a network that is not secure.
+description: The purpose of the Diffie-Hellman algorithm is to make it possible for two or more hosts to create and share an identical, secret encryption key, by simply sharing information over a network that is not secure.
 ms.assetid: f89a1268-e364-41ec-a6a8-1f6331dbb787
 title: Diffie-Hellman/Schannel Provider Algorithms
 ms.topic: article

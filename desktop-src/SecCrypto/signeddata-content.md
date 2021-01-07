@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the data to be signed. This is the default property.
+description: Sets or retrieves the data to be signed. This is the default property.
 ms.assetid: 554ca500-403d-4c2a-868e-9e635d0b358e
 title: SignedData.Content property
 ms.topic: reference

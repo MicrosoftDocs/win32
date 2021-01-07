@@ -1,5 +1,5 @@
 ---
-Description: In C++, the return value is typically of type HRESULT.
+description: In C++, the return value is typically of type HRESULT.
 ms.assetid: 7abf1b3e-b94b-4846-a813-5eab5b34324c
 title: Return Values in C++
 ms.topic: article

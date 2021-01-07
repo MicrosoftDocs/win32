@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the collection of authenticated attributes.
+description: Retrieves the collection of authenticated attributes.
 ms.assetid: d4b3efab-d71e-4fef-9691-0c0bbcb27281
 title: Signer.AuthenticatedAttributes property
 ms.topic: reference

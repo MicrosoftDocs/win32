@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the encoded data.
+description: Retrieves the encoded data.
 ms.assetid: 8e07ac14-6859-410f-ab30-84b8d60a94ad
 title: EncodedData.Value property
 ms.topic: reference

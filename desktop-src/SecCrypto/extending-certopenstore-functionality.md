@@ -1,5 +1,5 @@
 ---
-Description: The certificate store is central to all certificate management operations.
+description: The certificate store is central to all certificate management operations.
 ms.assetid: e5c7c882-cbfc-4343-952c-b13c67326756
 title: Extending CertOpenStore Functionality
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Clears all Attribute objects from the collection.
+description: Clears all Attribute objects from the collection.
 ms.assetid: 98b022f8-15aa-44b4-aaff-de09081d80b6
 title: Attributes.Clear method
 ms.topic: reference

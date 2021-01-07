@@ -1,5 +1,5 @@
 ---
-Description: Saves the certificate to a file.
+description: Saves the certificate to a file.
 ms.assetid: 2012b39b-47fd-4071-9752-98bb10954fc0
 title: ICertificate2::Save method
 ms.topic: reference

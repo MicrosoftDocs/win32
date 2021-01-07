@@ -1,5 +1,5 @@
 ---
-Description: The CAPICOM\_KEY\_LOCATION enumeration defines key location types.
+description: The CAPICOM\_KEY\_LOCATION enumeration defines key location types.
 ms.assetid: d6261906-66aa-4c18-8305-b7998bbe53d5
 title: CAPICOM_KEY_LOCATION enumeration (Capicom.h)
 ms.topic: reference

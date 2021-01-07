@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of Certificate objects in the collection.
+description: Retrieves the number of Certificate objects in the collection.
 ms.assetid: 95931721-3b0c-4915-805f-039d1d5510fa
 title: Certificates.Count property
 ms.topic: reference

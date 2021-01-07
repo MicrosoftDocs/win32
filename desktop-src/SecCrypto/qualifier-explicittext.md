@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the content of the user notice.
+description: Retrieves the content of the user notice.
 ms.assetid: dcf73357-253d-4160-be4e-f826296f5eaa
 title: Qualifier.ExplicitText property
 ms.topic: reference

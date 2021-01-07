@@ -1,5 +1,5 @@
 ---
-Description: The KEYSVC\_UNICODE\_STRING structure defines a Unicode string and a maximum length for the string. This structure is used by the RKeyPFXInstall function.
+description: The KEYSVC\_UNICODE\_STRING structure defines a Unicode string and a maximum length for the string. This structure is used by the RKeyPFXInstall function.
 ms.assetid: 12142543-5c53-4638-9fd7-f523594142c8
 title: KEYSVC_UNICODE_STRING structure (Rkeysvcc.h)
 ms.topic: reference

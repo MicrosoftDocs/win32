@@ -1,5 +1,5 @@
 ---
-Description: The IEnumCERTVIEWCOLUMN interface exposes the following methods.
+description: The IEnumCERTVIEWCOLUMN interface exposes the following methods.
 ms.assetid: A7BA0AE0-D251-4813-B301-B5588615B6F5
 title: IEnumCERTVIEWCOLUMN Methods
 ms.topic: reference

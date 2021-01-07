@@ -1,5 +1,5 @@
 ---
-Description: Is used to replace the HCRYPTPROV data type where the HCRYPTPROV data type is no longer used. Function parameters and data structures that are of type HCRYPTPROV\_LEGACY should be set to NULL.
+description: Is used to replace the HCRYPTPROV data type where the HCRYPTPROV data type is no longer used. Function parameters and data structures that are of type HCRYPTPROV\_LEGACY should be set to NULL.
 ms.assetid: 36477775-c937-44df-a5e3-20b389f665db
 title: HCRYPTPROV_LEGACY (Wincrypt.h)
 ms.topic: reference

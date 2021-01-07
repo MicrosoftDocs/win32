@@ -1,5 +1,5 @@
 ---
-Description: Creates a hash of the specified string.
+description: Creates a hash of the specified string.
 ms.assetid: 8d3e16e7-7b93-410c-b771-7684d1bf2160
 title: HashedData.Hash method
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The following methods are defined by the IOCSPCAConfigurationCollection interface. The property access methods are not shown here. To see the properties for IOCSPCAConfigurationCollection, see Properties of IOCSPCAConfigurationCollection.
+description: The following methods are defined by the IOCSPCAConfigurationCollection interface. The property access methods are not shown here. To see the properties for IOCSPCAConfigurationCollection, see Properties of IOCSPCAConfigurationCollection.
 ms.assetid: 362737ac-9ae2-49d4-8eb9-b52930d4fe9f
 title: Methods of IOCSPCAConfigurationCollection
 ms.topic: article

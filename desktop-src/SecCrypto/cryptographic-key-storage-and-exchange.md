@@ -1,5 +1,5 @@
 ---
-Description: There are situations where keys must be exported from the secure environment of the cryptographic service provider (CSP) into an application's data space. Keys that have been exported are stored in encrypted key BLOB structures.
+description: There are situations where keys must be exported from the secure environment of the cryptographic service provider (CSP) into an application's data space. Keys that have been exported are stored in encrypted key BLOB structures.
 ms.assetid: 859b1bfe-6182-4728-a721-1f34cc98f66f
 title: Cryptographic Key Storage and Exchange
 ms.topic: article

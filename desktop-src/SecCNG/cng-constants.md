@@ -1,5 +1,5 @@
 ---
-Description: 'Cryptography API: Next Generation (CNG) defines the following constants.'
+description: 'Cryptography API: Next Generation (CNG) defines the following constants.'
 ms.assetid: 8bbd6c95-82ed-492e-86b7-4cd55252be94
 title: CNG Constants
 ms.topic: article

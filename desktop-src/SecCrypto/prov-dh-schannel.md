@@ -1,5 +1,5 @@
 ---
-Description: Supports both Diffie-Hellman and Schannel protocols.
+description: Supports both Diffie-Hellman and Schannel protocols.
 ms.assetid: 56291983-995f-4b77-82ce-b165cfff6939
 title: PROV_DH_SCHANNEL
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Creates a digital signature on previously signed content.
+description: Creates a digital signature on previously signed content.
 ms.assetid: c0a3de75-afba-45ba-b701-2729f4495eda
 title: SignedData.CoSign method
 ms.topic: reference

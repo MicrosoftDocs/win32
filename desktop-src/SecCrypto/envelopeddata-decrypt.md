@@ -1,5 +1,5 @@
 ---
-Description: Decrypts enveloped content.
+description: Decrypts enveloped content.
 ms.assetid: 717d0595-e8bb-4725-bd53-fc1281cbc8ee
 title: EnvelopedData.Decrypt method
 ms.topic: reference

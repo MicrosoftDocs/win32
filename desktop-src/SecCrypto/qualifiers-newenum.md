@@ -1,5 +1,5 @@
 ---
-Description: The \_NewEnum property of Qualifiers retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
+description: The \_NewEnum property of Qualifiers retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
 ms.assetid: e51f8ca1-ef1f-475b-8368-e8296fae0f04
 title: Qualifiers._NewEnum property
 ms.topic: reference

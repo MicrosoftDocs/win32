@@ -1,5 +1,5 @@
 ---
-Description: The following example creates a random session key, duplicates the key, sets some additional parameters on the original key, and destroys both the original and the duplicate keys.
+description: The following example creates a random session key, duplicates the key, sets some additional parameters on the original key, and destroys both the original and the duplicate keys.
 ms.assetid: e57274cf-42d3-445b-97f1-dd574010290f
 title: 'Example C Program: Duplicating a Session Key'
 ms.topic: article

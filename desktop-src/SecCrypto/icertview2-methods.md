@@ -1,5 +1,5 @@
 ---
-Description: The ICertView2 interface exposes the following methods.
+description: The ICertView2 interface exposes the following methods.
 ms.assetid: 22496D16-27F2-45F6-A746-897D18A7D6E7
 title: ICertView2 Methods
 ms.topic: reference

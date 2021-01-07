@@ -1,5 +1,5 @@
 ---
-Description: Performs a server-side Secure Sockets Layer protocol (SSL) key exchange operation.
+description: Performs a server-side Secure Sockets Layer protocol (SSL) key exchange operation.
 ms.assetid: 052e38ee-658c-47dc-8098-c9a1fd359e1c
 title: SslImportMasterKey function (Sslprovider.h)
 ms.topic: reference

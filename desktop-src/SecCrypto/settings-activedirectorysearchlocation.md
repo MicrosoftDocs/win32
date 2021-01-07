@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the Active Directory search location.
+description: Sets or retrieves the Active Directory search location.
 ms.assetid: 43320799-1c01-4e09-bed9-f3576baadcce
 title: Settings.ActiveDirectorySearchLocation property
 ms.topic: reference

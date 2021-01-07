@@ -1,5 +1,5 @@
 ---
-Description: Returns a string representation of the encoded data.
+description: Returns a string representation of the encoded data.
 ms.assetid: d1231e6d-57d7-4b5a-ab37-d4ee1b29cf25
 title: EncodedData.Format method
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The IX509Enrollment2 interface exposes the following methods.
+description: The IX509Enrollment2 interface exposes the following methods.
 ms.assetid: 5823B481-5D66-4138-9984-7086708FBA8A
 title: IX509Enrollment2 Methods
 ms.topic: reference

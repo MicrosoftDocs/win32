@@ -1,5 +1,5 @@
 ---
-Description: A finish message is sent immediately after a change cipher spec message to verify the success of key exchange and authentication processes.
+description: A finish message is sent immediately after a change cipher spec message to verify the success of key exchange and authentication processes.
 ms.assetid: 1ae92223-3729-48be-af42-146c9cbae6a5
 title: Finish Messages in the TLS 1.0 Protocol
 ms.topic: article

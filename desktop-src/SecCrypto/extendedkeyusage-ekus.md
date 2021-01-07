@@ -1,5 +1,5 @@
 ---
-Description: Returns the EKUs collection for the certificate.
+description: Returns the EKUs collection for the certificate.
 ms.assetid: 64211a00-7d4d-4381-a134-9cd570ed7dbb
 title: ExtendedKeyUsage.EKUs property
 ms.topic: reference

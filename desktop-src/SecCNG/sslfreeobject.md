@@ -1,5 +1,5 @@
 ---
-Description: Frees a key, hash, or provider object.
+description: Frees a key, hash, or provider object.
 ms.assetid: 73fa0a08-4654-4515-bdb2-9951936b689a
 title: SslFreeObject function (Sslprovider.h)
 ms.topic: reference

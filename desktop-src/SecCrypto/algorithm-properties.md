@@ -1,5 +1,5 @@
 ---
-Description: The Algorithm object exposes the following properties.
+description: The Algorithm object exposes the following properties.
 ms.assetid: 83A44BE2-C1CC-41A8-B234-0AEF892B694F
 title: Algorithm Properties
 ms.topic: reference

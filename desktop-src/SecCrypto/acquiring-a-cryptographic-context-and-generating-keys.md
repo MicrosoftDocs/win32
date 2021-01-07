@@ -1,5 +1,5 @@
 ---
-Description: Lists the sample programs for acquiring a cryptographic context and generating keys.
+description: Lists the sample programs for acquiring a cryptographic context and generating keys.
 ms.assetid: 637b1b2e-81e2-4ed2-bdf0-5da7aee403ab
 title: Acquiring a Cryptographic Context and Generating Keys
 ms.topic: article

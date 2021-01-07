@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the algorithm for the encrypted data.
+description: Retrieves the algorithm for the encrypted data.
 ms.assetid: 37bebe69-3c62-44c4-a5e5-c8cdbf087fa4
 title: EncryptedData.Algorithm property
 ms.topic: reference

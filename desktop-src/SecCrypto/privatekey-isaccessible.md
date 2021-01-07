@@ -1,5 +1,5 @@
 ---
-Description: Returns a Boolean value that indicates whether the private key is accessible.
+description: Returns a Boolean value that indicates whether the private key is accessible.
 ms.assetid: ee5e89af-745e-4a4d-9943-fecbaee5d3e3
 title: PrivateKey.IsAccessible method
 ms.topic: reference
