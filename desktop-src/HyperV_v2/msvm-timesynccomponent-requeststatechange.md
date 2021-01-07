@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: Requests a state change.
 ms.assetid: ca014a24-1d16-468d-bc9c-8043249dabe2
 title: RequestStateChange method of the Msvm_TimeSyncComponent class
 ms.topic: reference

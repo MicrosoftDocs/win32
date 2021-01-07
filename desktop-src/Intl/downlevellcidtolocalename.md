@@ -1,5 +1,5 @@
 ---
-Description: Converts a locale identifier to a locale name.
+description: Converts a locale identifier to a locale name.
 ms.assetid: 8e40d097-08a2-43e8-88e8-a4ecaddf449a
 title: DownlevelLCIDToLocaleName function (Nlsdl.h)
 ms.topic: reference

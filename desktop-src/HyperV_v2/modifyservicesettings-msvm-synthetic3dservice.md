@@ -1,5 +1,5 @@
 ---
-Description: Modifies the setting data for the synthetic 3-D service.
+description: Modifies the setting data for the synthetic 3-D service.
 ms.assetid: 951ba829-2821-4621-800f-4e1a967b41f5
 title: ModifyServiceSettings method of the Msvm_Synthetic3DService class
 ms.topic: reference

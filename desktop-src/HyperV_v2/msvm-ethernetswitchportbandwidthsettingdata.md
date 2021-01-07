@@ -1,5 +1,5 @@
 ---
-Description: Represents the port bandwidth settings.
+description: Represents the port bandwidth settings.
 ms.assetid: 62a42c4c-8ea1-47c6-8ae6-e9252f2ed0e4
 title: Msvm_EthernetSwitchPortBandwidthSettingData class
 ms.topic: reference

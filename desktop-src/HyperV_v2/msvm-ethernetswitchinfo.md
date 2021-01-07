@@ -1,5 +1,5 @@
 ---
-Description: Defines the association between an Ethernet switch and a switch resource.
+description: Defines the association between an Ethernet switch and a switch resource.
 ms.assetid: fb29f4cb-50c4-4865-b267-21ff99bb4a8b
 title: Msvm_EthernetSwitchInfo class
 ms.topic: reference

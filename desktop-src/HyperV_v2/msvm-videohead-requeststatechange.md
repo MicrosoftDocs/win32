@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: Requests a state change.
 ms.assetid: c780c162-3352-4f13-a84a-26eb99f9d380
 title: RequestStateChange method of the Msvm_VideoHead class
 ms.topic: reference

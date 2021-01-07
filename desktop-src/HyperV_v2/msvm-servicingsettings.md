@@ -1,5 +1,5 @@
 ---
-Description: Contains settings used during servicing operations.
+description: Contains settings used during servicing operations.
 ms.assetid: 17dc3c97-232c-4ac4-988c-84c3061b4133
 title: Msvm_ServicingSettings class
 ms.topic: reference

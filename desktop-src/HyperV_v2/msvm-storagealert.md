@@ -1,5 +1,5 @@
 ---
-Description: Represents an event that is raised each time the OperationalStatus property of the Msvm\_ResourcePool or Msvm\_LogicalDisk class changes.
+description: Represents an event that is raised each time the OperationalStatus property of the Msvm\_ResourcePool or Msvm\_LogicalDisk class changes.
 ms.assetid: 20E7C22A-A151-4EDC-90D8-4BCD53C42355
 title: Msvm_StorageAlert class
 ms.topic: reference

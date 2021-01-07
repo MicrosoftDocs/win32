@@ -1,5 +1,5 @@
 ---
-Description: Mounts the specified PCI device so that it can be used by the host computer system.
+description: Mounts the specified PCI device so that it can be used by the host computer system.
 ms.assetid: 2a07174e-c221-4c04-81b8-5968aa67e235
 title: MountAssignableDevice method of the Msvm_AssignableDeviceService class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Simulates a key press.
+description: Simulates a key press.
 ms.assetid: 42C11F92-6143-40D7-9C07-56A6514EB4D1
 title: PressKey method of the Msvm_Keyboard class
 ms.topic: reference

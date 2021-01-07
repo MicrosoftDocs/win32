@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: Requests a state change.
 ms.assetid: 0a236a99-6ddb-482f-af28-1af731b6b980
 title: RequestStateChange method of the Msvm_VirtualEthernetSwitchManagementService class
 ms.topic: reference

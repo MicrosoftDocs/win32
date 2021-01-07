@@ -1,5 +1,5 @@
 ---
-Description: Configures the network adapters within the guest operating system.
+description: Configures the network adapters within the guest operating system.
 ms.assetid: 698e0c17-f8bd-433f-b982-5481f9701ba6
 title: SetGuestNetworkAdapterConfiguration method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference

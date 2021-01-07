@@ -1,5 +1,5 @@
 ---
-Description: Manages the virtual media (.vhd, .vhdx, .iso, or .vfd files) for a virtual machine.
+description: Manages the virtual media (.vhd, .vhdx, .iso, or .vfd files) for a virtual machine.
 ms.assetid: '7caa720e-37cf-454e-8634-f2bd82bcf83d'
 title: Msvm_ImageManagementService class
 ms.topic: reference

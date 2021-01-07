@@ -1,5 +1,5 @@
 ---
-Description: Simulates a series of typed characters.
+description: Simulates a series of typed characters.
 ms.assetid: 5D4C9F27-84AA-4131-A9A3-2C72DB2E8909
 title: TypeText method of the Msvm_Keyboard class
 ms.topic: reference

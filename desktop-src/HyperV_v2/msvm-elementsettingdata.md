@@ -1,5 +1,5 @@
 ---
-Description: Associates a managed element with its configuration data.
+description: Associates a managed element with its configuration data.
 ms.assetid: 4DB78E43-E387-478E-999C-770B35925721
 title: Msvm_ElementSettingData class
 ms.topic: reference

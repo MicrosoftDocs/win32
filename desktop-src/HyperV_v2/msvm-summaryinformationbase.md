@@ -1,5 +1,5 @@
 ---
-Description: Used in the GetSummaryInformation method in the Msvm\_VirtualSystemManagementService class to quickly retrieve common information related to a virtual system or snapshot.
+description: Used in the GetSummaryInformation method in the Msvm\_VirtualSystemManagementService class to quickly retrieve common information related to a virtual system or snapshot.
 ms.assetid: f8daa387-d812-4f44-bf5f-e0a0c18c6db8
 title: Msvm_SummaryInformationBase class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Associates two managed elements that represent different aspects of the same underlying entity.
+description: Associates two managed elements that represent different aspects of the same underlying entity.
 ms.assetid: 107A2B15-09F2-490A-8AB2-F9FE5F6FEE60
 title: Msvm_LogicalIdentity class
 ms.topic: reference

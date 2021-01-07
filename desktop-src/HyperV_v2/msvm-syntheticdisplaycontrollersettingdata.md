@@ -1,5 +1,5 @@
 ---
-Description: Describes the setting data for a virtual synthetic display controller.
+description: Describes the setting data for a virtual synthetic display controller.
 ms.assetid: cea79b24-4175-49db-a8b4-a9efb1fd0b96
 title: Msvm_SyntheticDisplayControllerSettingData class
 ms.topic: reference

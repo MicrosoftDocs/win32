@@ -1,5 +1,5 @@
 ---
-Description: Provides a list of scripts for the specified locale.
+description: Provides a list of scripts for the specified locale.
 ms.assetid: 0cedcf6c-bab4-4e0f-ab8f-04aa8e51602f
 title: DownlevelGetLocaleScripts function (Idndl.h)
 ms.topic: reference

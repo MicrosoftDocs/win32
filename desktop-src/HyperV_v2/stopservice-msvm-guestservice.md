@@ -1,5 +1,5 @@
 ---
-Description: Stops the guest service.
+description: Stops the guest service.
 ms.assetid: 67FFA46C-0B61-4845-A617-BA10F4D42CBC
 title: Msvm_GuestService::StopService method
 ms.topic: reference

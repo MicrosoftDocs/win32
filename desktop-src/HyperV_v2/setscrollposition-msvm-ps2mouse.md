@@ -1,5 +1,5 @@
 ---
-Description: Adjusts the z-coordinate of the wheel control of the pointing device.
+description: Adjusts the z-coordinate of the wheel control of the pointing device.
 ms.assetid: FF1929EE-4A2D-4761-8919-488369FAEE1F
 title: SetScrollPosition method of the Msvm_Ps2Mouse class
 ms.topic: reference

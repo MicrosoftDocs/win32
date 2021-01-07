@@ -1,5 +1,5 @@
 ---
-Description: Defines the registered profiles to which the referenced system conforms.
+description: Defines the registered profiles to which the referenced system conforms.
 ms.assetid: F01E79BE-82D9-49E0-AB0C-FD1B48BC4A55
 title: Msvm_ElementConformsToProfile class
 ms.topic: reference

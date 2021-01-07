@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: Requests a state change.
 ms.assetid: 49b8ea85-ae2e-49cc-9a7d-962681391991
 title: RequestStateChange method of the Msvm_S3DisplayController class
 ms.topic: reference

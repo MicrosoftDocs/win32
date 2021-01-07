@@ -1,5 +1,5 @@
 ---
-Description: This section contains the reference for Hyper-V management.
+description: This section contains the reference for Hyper-V management.
 ms.assetid: 87588AE3-54DF-4415-BA24-1D6E8B46E758
 title: Hyper-V management reference
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Represents an internal Ethernet port (network adapter).
+description: Represents an internal Ethernet port (network adapter).
 ms.assetid: 43277FA7-E040-49F2-A086-AF19B29D4F75
 title: Msvm_InternalEthernetPort class
 ms.topic: reference

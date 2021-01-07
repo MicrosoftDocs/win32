@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_SYEARMONTH
+description: LOCALE\_SYEARMONTH
 ms.assetid: 57eae43a-72e1-410f-b003-c75f720e17fd
 title: LOCALE_SYEARMONTH
 ms.topic: article

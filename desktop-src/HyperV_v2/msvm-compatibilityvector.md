@@ -1,5 +1,5 @@
 ---
-Description: References the compatibility info for a virtual machine (VM) (when run on a VM computer system) or a host (when run on a host computer system).
+description: References the compatibility info for a virtual machine (VM) (when run on a VM computer system) or a host (when run on a host computer system).
 ms.assetid: A3DB75BF-91C8-444E-B273-25DF8A5BFA7B
 title: Msvm_CompatibilityVector class
 ms.topic: reference

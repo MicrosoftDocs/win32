@@ -1,5 +1,5 @@
 ---
-Description: Represents a key/value pair.
+description: Represents a key/value pair.
 ms.assetid: B13E9C5F-5B13-4EE5-AE5F-F51B61BDB9B7
 title: Msvm_KvpExchangeDataItem class
 ms.topic: reference

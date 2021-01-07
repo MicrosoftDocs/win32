@@ -1,5 +1,5 @@
 ---
-Description: Stops the service.
+description: Stops the service.
 ms.assetid: ff92e1ba-3093-4e78-8729-9f98a22a9f74
 title: StopService method of the Msvm_ReplicationService class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The topics in this section provide the reference specifications for Pointer Device Input Stack structures.
+description: The topics in this section provide the reference specifications for Pointer Device Input Stack structures.
 ms.assetid: 33DCB172-8D95-4205-AE2E-ADD7F3BF988A
 title: Structures
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Each locale has a unique identifier, a 32-bit value that consists of a language identifier and a sort order identifier.
+description: Each locale has a unique identifier, a 32-bit value that consists of a language identifier and a sort order identifier.
 ms.assetid: ea45b0e5-7df7-47fb-8dad-fccfbe53fec0
 title: Locale Identifiers
 ms.topic: article

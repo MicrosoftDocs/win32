@@ -1,5 +1,5 @@
 ---
-Description: Manages the collections on the Hyper-V host.
+description: Manages the collections on the Hyper-V host.
 ms.assetid: e895217e-352d-4d77-8f1d-7070012e6f60
 title: Msvm_CollectionManagementService class
 ms.topic: reference

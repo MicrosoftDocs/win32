@@ -1,5 +1,5 @@
 ---
-Description: Represents the configured state of the key/value pair exchange service.
+description: Represents the configured state of the key/value pair exchange service.
 ms.assetid: B7ED1091-E49A-4C38-9794-E074E6B9EF48
 title: Msvm_KvpExchangeComponentSettingData class
 ms.topic: reference

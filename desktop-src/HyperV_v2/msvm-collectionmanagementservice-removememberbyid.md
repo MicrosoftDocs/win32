@@ -1,5 +1,5 @@
 ---
-Description: Removes the specified managed element as a member of the CIM\_CollectionOfMSEs with the given identifier. This will succeed even if the object with that identifier is not present.
+description: Removes the specified managed element as a member of the CIM\_CollectionOfMSEs with the given identifier. This will succeed even if the object with that identifier is not present.
 ms.assetid: 641535f0-ce71-4f57-a4e1-4775b3bb2374
 title: RemoveMemberById method of the Msvm_CollectionManagementService class
 ms.topic: reference

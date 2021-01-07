@@ -1,5 +1,5 @@
 ---
-Description: Modifies virtual resource settings.
+description: Modifies virtual resource settings.
 ms.assetid: 3fb2a65f-9f40-4eb9-99e8-8fe1451427d9
 title: ModifyResourceSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference

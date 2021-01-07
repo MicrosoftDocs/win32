@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of virtual system snapshots.
+description: Represents a collection of virtual system snapshots.
 ms.assetid: c9b64421-232c-4f32-a088-6b98602ca3f4
 title: Msvm_SnapshotCollection class
 ms.topic: reference

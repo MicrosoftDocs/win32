@@ -1,5 +1,5 @@
 ---
-Description: Sets a VMs initial machine configuration data.
+description: Sets a VMs initial machine configuration data.
 ms.assetid: 0f174d29-ddb2-4a8c-b664-926245573778
 title: SetInitialMachineConfigurationData method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference

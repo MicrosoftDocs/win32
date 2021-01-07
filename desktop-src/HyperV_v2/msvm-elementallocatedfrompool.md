@@ -1,5 +1,5 @@
 ---
-Description: Associates an instance of an allocated resource with the resource pool from which it was allocated.
+description: Associates an instance of an allocated resource with the resource pool from which it was allocated.
 ms.assetid: BA3168C7-E4F1-414B-827B-1A811069F223
 title: Msvm_ElementAllocatedFromPool class
 ms.topic: reference

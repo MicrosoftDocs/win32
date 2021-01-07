@@ -1,5 +1,5 @@
 ---
-Description: Represents the association between managed elements and their capabilities.
+description: Represents the association between managed elements and their capabilities.
 ms.assetid: F083E6D2-CC74-4DAD-8FF7-3FE3CA4EEFFF
 title: Msvm_ElementCapabilities class
 ms.topic: reference

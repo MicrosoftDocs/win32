@@ -1,5 +1,5 @@
 ---
-Description: Registers a service that provides global resource pool-related objects.
+description: Registers a service that provides global resource pool-related objects.
 ms.assetid: B602F6E1-2889-43CF-AAF1-40F339231DB4
 title: Msvm_ResourcePoolRegistration class
 ms.topic: reference

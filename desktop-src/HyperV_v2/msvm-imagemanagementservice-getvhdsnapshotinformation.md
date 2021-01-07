@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information about a VHD Snapshot within a VHD Set file.
+description: Retrieves information about a VHD Snapshot within a VHD Set file.
 ms.assetid: 43745935-9bc3-4a87-8762-54693b2cdef6
 title: GetVHDSnapshotInformation method of the Msvm_ImageManagementService class
 ms.topic: reference

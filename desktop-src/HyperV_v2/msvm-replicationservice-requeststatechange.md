@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: Requests a state change.
 ms.assetid: ae799e76-5177-42a5-8591-ceaf15dd7eaf
 title: RequestStateChange method of the Msvm_ReplicationService class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_FONTSIGNATURE
+description: LOCALE\_FONTSIGNATURE
 ms.assetid: 95f3f0ef-07ca-4fbc-9c5f-6db15fc4c68a
 title: LOCALE_FONTSIGNATURE
 ms.topic: article

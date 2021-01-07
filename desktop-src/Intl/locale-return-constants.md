@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_RETURN\* Constants
+description: LOCALE\_RETURN\* Constants
 ms.assetid: c6aadf84-c597-4cbd-a715-b68325ce5117
 title: LOCALE_RETURN* Constants
 ms.topic: article

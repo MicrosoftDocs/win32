@@ -1,5 +1,5 @@
 ---
-Description: An association that connects a virtual switch service to a transparent bridging service.
+description: An association that connects a virtual switch service to a transparent bridging service.
 ms.assetid: 4DFD73CA-38F0-4C06-BEBE-C684590E50E8
 title: Msvm_HostedSwitchService class
 ms.topic: reference

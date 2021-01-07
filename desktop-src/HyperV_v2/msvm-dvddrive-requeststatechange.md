@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: Requests a state change.
 ms.assetid: b36d19ea-35fc-4989-9ee9-199b8166674e
 title: RequestStateChange method of the Msvm_DVDDrive class
 ms.topic: reference

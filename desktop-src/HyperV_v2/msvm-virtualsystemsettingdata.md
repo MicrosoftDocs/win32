@@ -1,5 +1,5 @@
 ---
-Description: Represents the virtualization-specific settings for a virtual machine.
+description: Represents the virtualization-specific settings for a virtual machine.
 ms.assetid: BE81405E-E773-41CE-9441-33D60B63550E
 title: Msvm_VirtualSystemSettingData class
 ms.topic: reference

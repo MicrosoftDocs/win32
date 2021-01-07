@@ -1,5 +1,5 @@
 ---
-Description: Stops the service.
+description: Stops the service.
 ms.assetid: f317ee91-3f87-4089-8156-5124dec0fe5c
 title: StopService method of the Msvm_MetricService class
 ms.topic: reference

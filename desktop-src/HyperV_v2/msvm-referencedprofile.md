@@ -1,5 +1,5 @@
 ---
-Description: Describes a profile that is referenced by another registered profile.
+description: Describes a profile that is referenced by another registered profile.
 ms.assetid: 36FC0161-C57F-488A-9B4A-C86C6EB481D7
 title: Msvm_ReferencedProfile class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Notifies an application when the open status of the input context is updated. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
+description: Notifies an application when the open status of the input context is updated. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
 ms.assetid: cc6fa7f4-b85a-486a-985d-53c071321bd1
 title: IMN_SETOPENSTATUS notification code (Imm.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Represents the capabilities and management of the serial controller.
+description: Represents the capabilities and management of the serial controller.
 ms.assetid: 0F4DCF98-8EE4-4005-ADD5-BA23CB4CBE82
 title: Msvm_SerialController class
 ms.topic: reference

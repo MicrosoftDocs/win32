@@ -1,5 +1,5 @@
 ---
-Description: Requests a reset.
+description: Requests a reset.
 ms.assetid: cdd14090-4ea1-4547-b8a5-fd40f7e494f5
 title: Reset method of the Msvm_ShutdownComponent class
 ms.topic: reference

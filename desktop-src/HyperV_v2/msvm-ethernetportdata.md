@@ -1,5 +1,5 @@
 ---
-Description: An abstract class that represents port runtime data collected by an Ethernet switch extension.
+description: An abstract class that represents port runtime data collected by an Ethernet switch extension.
 ms.assetid: bc41ad1d-e7ab-4d04-96a8-26eb68ea6601
 title: Msvm_EthernetPortData class
 ms.topic: reference

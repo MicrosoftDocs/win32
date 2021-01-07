@@ -1,5 +1,5 @@
 ---
-Description: Returns a formatted error message string for the specified array of embedded Msvm\_Error instances.
+description: Returns a formatted error message string for the specified array of embedded Msvm\_Error instances.
 ms.assetid: 477EF4AE-00A8-4F2D-A335-E41A2EF620BB
 title: FormatError method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference

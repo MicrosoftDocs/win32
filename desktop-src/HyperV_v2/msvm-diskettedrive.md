@@ -1,5 +1,5 @@
 ---
-Description: Represents a floppy drive inside the virtual machine.
+description: Represents a floppy drive inside the virtual machine.
 ms.assetid: 4624ABAF-3761-416F-9044-7A39EBF53D3D
 title: Msvm_DisketteDrive class
 ms.topic: reference
