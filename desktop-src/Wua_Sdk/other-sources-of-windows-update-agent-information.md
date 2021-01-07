@@ -1,5 +1,5 @@
 ---
-Description: The Windows Update Agent APISDK contains the most complete and current descriptions of the API. It is the primary source of developer reference material for WUA.
+description: The Windows Update Agent APISDK contains the most complete and current descriptions of the API. It is the primary source of developer reference material for WUA.
 ms.assetid: 49dd8a24-7f34-4036-8ff2-c3f3052ea066
 title: Other Sources of Windows Update Agent Information
 ms.topic: article

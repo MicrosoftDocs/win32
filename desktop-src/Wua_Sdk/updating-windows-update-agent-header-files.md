@@ -1,5 +1,5 @@
 ---
-Description: How to update for the Windows Update Agent (WUA) API header files.
+description: How to update for the Windows Update Agent (WUA) API header files.
 ms.assetid: 241052d0-d704-42e2-b6f3-03f3fa16b645
 title: Updating Windows Update Agent Header Files
 ms.topic: article

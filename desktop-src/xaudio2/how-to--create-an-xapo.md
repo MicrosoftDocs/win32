@@ -1,5 +1,5 @@
 ---
-Description: The XAPO API provides the IXAPO interface and the CXAPOBase class for building new XAPO types.
+description: The XAPO API provides the IXAPO interface and the CXAPOBase class for building new XAPO types.
 ms.assetid: 34f5c3d5-ee40-e304-7c97-d30c17621d26
 title: 'How to: Create an XAPO'
 ms.topic: article

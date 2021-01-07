@@ -1,6 +1,6 @@
 ---
 title: XAudio2 interfaces
-Description: This section contains information about interfaces provided by the Microsoft XAudio2 API.
+description: This section contains information about interfaces provided by the Microsoft XAudio2 API.
 ms.assetid: 96691e00-9ed0-b31c-fbe9-4daaba0daf98
 ms.topic: article
 ms.date: 05/31/2018

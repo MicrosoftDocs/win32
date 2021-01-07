@@ -1,5 +1,5 @@
 ---
-Description: The set of all voices, with their contained effects and their interconnections, is referred to as the audio processing graph.
+description: The set of all voices, with their contained effects and their interconnections, is referred to as the audio processing graph.
 ms.assetid: 4fa45dbf-3811-c91c-7561-3b896e9e1f03
 title: XAudio2 Audio Graph
 ms.topic: article

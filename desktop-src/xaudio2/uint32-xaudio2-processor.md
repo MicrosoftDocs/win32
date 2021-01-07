@@ -1,5 +1,5 @@
 ---
-Description: Defines values to use with XAudio2Create to specify available processors.
+description: Defines values to use with XAudio2Create to specify available processors.
 ms.assetid: 29E67C0A-36EB-47B2-8708-36EC733D0D37
 title: XAUDIO2_PROCESSOR (Xaudio2.h)
 ms.topic: reference
