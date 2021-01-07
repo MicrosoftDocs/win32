@@ -1,5 +1,5 @@
 ---
-Description: After developing a security support provider/authentication package dynamic-link library (SSP/AP DLL) containing one or more custom security packages, you must register it.
+description: After developing a security support provider/authentication package dynamic-link library (SSP/AP DLL) containing one or more custom security packages, you must register it.
 ms.assetid: db0d899e-dbd4-40d3-98d8-4d9668c01453
 title: Registering SSP/AP DLLs
 ms.topic: article

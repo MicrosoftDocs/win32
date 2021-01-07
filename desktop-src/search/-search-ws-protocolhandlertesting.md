@@ -1,5 +1,5 @@
 ---
-Description: Integral to testing and debugging your protocol handler implementations is understanding how protocol handlers are launched.
+description: Integral to testing and debugging your protocol handler implementations is understanding how protocol handlers are launched.
 ms.assetid: 33c99620-7381-4719-9fc6-4c8284481411
 title: Debugging Protocol Handlers
 ms.topic: article

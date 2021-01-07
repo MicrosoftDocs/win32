@@ -1,5 +1,5 @@
 ---
-Description: Let you track cards within readers. These routines typically use the SCARD\_READERSTATE structure within an array.
+description: Let you track cards within readers. These routines typically use the SCARD\_READERSTATE structure within an array.
 ms.assetid: b26b26bf-85ff-435f-a679-7529f19b1c1b
 title: Smart Card Tracking Functions
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The optional <propertyStore> element specifies the location of an XML-based IPropertyStore to store open metadata for this search connector. This element has no attributes and only one child element.
+description: The optional <propertyStore> element specifies the location of an XML-based IPropertyStore to store open metadata for this search connector. This element has no attributes and only one child element.
 ms.assetid: 5720c69f-af87-432b-857c-dbd66ba74e80
 title: propertyStore Element (Search Connector Schema)
 ms.topic: article

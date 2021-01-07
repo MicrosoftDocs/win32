@@ -1,5 +1,5 @@
 ---
-Description: Converts a typical C/C++ byte array into a universal buffer of bytes (IStream object).
+description: Converts a typical C/C++ byte array into a universal buffer of bytes (IStream object).
 ms.assetid: 512c561a-63f1-463e-9bae-9bec1ebdbe9b
 title: ISCardTypeConv::ConvertByteArrayToByteBuffer method (Scarddat.h)
 ms.topic: reference

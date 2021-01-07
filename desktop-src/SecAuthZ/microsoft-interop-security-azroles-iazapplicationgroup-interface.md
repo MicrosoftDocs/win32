@@ -1,5 +1,5 @@
 ---
-Description: Links to documentation for the IAzApplicationGroup interoperability wrapper methods and properties.
+description: Links to documentation for the IAzApplicationGroup interoperability wrapper methods and properties.
 ms.assetid: 84fb73b1-84e5-4835-b040-f558b92242ef
 title: Microsoft.Interop.Security.AzRoles.IAzApplicationGroup interface
 ms.topic: reference

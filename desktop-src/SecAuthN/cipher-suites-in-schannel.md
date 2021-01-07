@@ -1,5 +1,5 @@
 ---
-Description: A cipher suite is a set of cryptographic algorithms.
+description: A cipher suite is a set of cryptographic algorithms.
 ms.assetid: 513e5e73-12f8-4b64-86e4-179518c3582d
 title: Cipher Suites in TLS/SSL (Schannel SSP)
 ms.topic: article

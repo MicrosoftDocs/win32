@@ -1,5 +1,5 @@
 ---
-Description: The IFilterSample code sample demonstrates how to create an IFilter base class for implementing the IFilter interface.
+description: The IFilterSample code sample demonstrates how to create an IFilter base class for implementing the IFilter interface.
 ms.assetid: 4c0df747-627d-4937-a117-d43137d5d081
 title: IFilterSample
 ms.topic: article

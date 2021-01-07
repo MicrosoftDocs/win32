@@ -1,5 +1,5 @@
 ---
-Description: Enables a transport application to query the Schannel [*security package*](../secgloss/s-gly.md) for certain attributes of a [*security context*](../secgloss/s-gly.md).
+description: Enables a transport application to query the Schannel [*security package*](../secgloss/s-gly.md) for certain attributes of a [*security context*](../secgloss/s-gly.md).
 ms.assetid: 0329e525-a743-4e6c-aac4-9f74274dadd2
 title: QueryContextAttributes (Schannel) function (Sspi.h)
 ms.topic: reference

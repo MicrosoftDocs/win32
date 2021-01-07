@@ -1,5 +1,5 @@
 ---
-Description: Enables a transport application to query the Digest [*security package*](../secgloss/s-gly.md) for certain attributes of a [*security context*](../secgloss/s-gly.md).
+description: Enables a transport application to query the Digest [*security package*](../secgloss/s-gly.md) for certain attributes of a [*security context*](../secgloss/s-gly.md).
 ms.assetid: d4cd2cc4-77a2-42ba-9029-f4d92706c5c2
 title: QueryContextAttributes (Digest) function (Sspi.h)
 ms.topic: reference

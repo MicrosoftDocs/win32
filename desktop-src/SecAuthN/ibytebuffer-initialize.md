@@ -1,5 +1,5 @@
 ---
-Description: The Initialize method prepares the IByteBuffer object for use. This method must be called prior to calling any other methods in the IByteBuffer interface.
+description: The Initialize method prepares the IByteBuffer object for use. This method must be called prior to calling any other methods in the IByteBuffer interface.
 ms.assetid: 1b22e693-0add-4b80-a2c4-925ebd3ab3a6
 title: IByteBuffer::Initialize method (Scardssp.h)
 ms.topic: reference

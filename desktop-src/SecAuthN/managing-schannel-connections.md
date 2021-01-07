@@ -1,5 +1,5 @@
 ---
-Description: The following topics discuss the connection-related actions that may be taken by a client or server using Schannel.
+description: The following topics discuss the connection-related actions that may be taken by a client or server using Schannel.
 ms.assetid: 75524269-fb31-4980-a306-274493212246
 title: Managing Schannel Connections
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The UpdateRecord method constructs an application protocol data unit (APDU) command that updates a specific record with the bits given in the APDU command.
+description: The UpdateRecord method constructs an application protocol data unit (APDU) command that updates a specific record with the bits given in the APDU command.
 ms.assetid: 66039afd-5d73-41b3-b87b-b5d598c6f3db
 title: ISCardISO7816::UpdateRecord method (Scardssp.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Decrypts a message by using Negotiate.
+description: Decrypts a message by using Negotiate.
 ms.assetid: 188341ff-4e67-481e-af30-7f9913b1d24e
 title: DecryptMessage (Negotiate) function
 ms.topic: reference

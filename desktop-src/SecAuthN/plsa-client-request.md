@@ -1,5 +1,5 @@
 ---
-Description: An opaque data type.
+description: An opaque data type.
 ms.assetid: 384dd6e0-726f-4100-a036-1cca6a332a64
 title: PLSA_CLIENT_REQUEST (Ntsecpkg.h)
 ms.topic: reference

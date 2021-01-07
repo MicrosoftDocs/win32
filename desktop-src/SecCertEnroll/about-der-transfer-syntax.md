@@ -1,5 +1,5 @@
 ---
-Description: Applying an encoding rule to the data structures described by an abstract syntax provides a transfer syntax that governs how bytes in a stream are organized when sent between computers.
+description: Applying an encoding rule to the data structures described by an abstract syntax provides a transfer syntax that governs how bytes in a stream are organized when sent between computers.
 ms.assetid: 674e88f9-4b65-4b42-8c44-d24fc03ae2f3
 title: DER Transfer Syntax
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: When you create a securable object, you can assign a security descriptor to the new object.
+description: When you create a securable object, you can assign a security descriptor to the new object.
 ms.assetid: 5b276d27-31a4-4a83-83b0-c4044a427097
 title: Security Descriptors for New Objects
 ms.topic: article

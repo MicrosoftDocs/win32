@@ -1,5 +1,5 @@
 ---
-Description: Frees resources used by the IeAxiService interface.
+description: Frees resources used by the IeAxiService interface.
 ms.assetid: 11f5cfdc-dcdd-4b41-b02c-b19b9452509e
 title: IeAxiService::Cleanup method
 ms.topic: reference

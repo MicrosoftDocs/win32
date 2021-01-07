@@ -1,5 +1,5 @@
 ---
-Description: Called by the IeAxiSystemInstaller interface to verify that an ActiveX object can be installed.
+description: Called by the IeAxiSystemInstaller interface to verify that an ActiveX object can be installed.
 ms.assetid: d5cd6263-d07e-4261-9463-b9a06e883f16
 title: IeAxiServiceCallback interface
 ms.topic: reference

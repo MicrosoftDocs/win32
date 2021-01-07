@@ -1,5 +1,5 @@
 ---
-Description: Lists the structures used by authorization APIs.
+description: Lists the structures used by authorization APIs.
 ms.assetid: abf5c51d-c000-45f4-b341-ec4a027e89ec
 title: Authorization Structures
 ms.topic: article

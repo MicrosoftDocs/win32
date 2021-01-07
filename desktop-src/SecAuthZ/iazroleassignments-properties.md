@@ -1,5 +1,5 @@
 ---
-Description: The IAzRoleAssignments interface exposes the following properties.
+description: The IAzRoleAssignments interface exposes the following properties.
 ms.assetid: 775A0AD5-C4F9-4330-ABBE-BE43149FED7E
 title: IAzRoleAssignments Properties
 ms.topic: reference

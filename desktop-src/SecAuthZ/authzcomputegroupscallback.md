@@ -1,5 +1,5 @@
 ---
-Description: An application-defined function that creates a list of security identifiers (SIDs) that apply to a client. AuthzComputeGroupsCallback is a placeholder for the application-defined function name.
+description: An application-defined function that creates a list of security identifiers (SIDs) that apply to a client. AuthzComputeGroupsCallback is a placeholder for the application-defined function name.
 ms.assetid: c20a02a0-5303-4433-a484-5a89999b32b9
 title: AuthzComputeGroupsCallback callback function
 ms.topic: reference

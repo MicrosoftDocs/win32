@@ -1,5 +1,5 @@
 ---
-Description: The information in this topic applies to Windows Server 2003 and Windows XP.
+description: The information in this topic applies to Windows Server 2003 and Windows XP.
 ms.assetid: 45536902-af80-4dca-b3ce-207086844763
 title: Secure Sockets Layer Protocol
 ms.topic: article

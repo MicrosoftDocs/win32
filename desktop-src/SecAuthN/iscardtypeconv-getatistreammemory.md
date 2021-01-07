@@ -1,5 +1,5 @@
 ---
-Description: Acquires a byte pointer to the HGLOBAL memory block that is managed by the IStream COM interface.
+description: Acquires a byte pointer to the HGLOBAL memory block that is managed by the IStream COM interface.
 ms.assetid: ea25eb98-b841-4f5e-b428-3d9cb8176142
 title: ISCardTypeConv::GetAtIStreamMemory method (Scarddat.h)
 ms.topic: reference

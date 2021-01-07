@@ -1,5 +1,5 @@
 ---
-Description: Gets the ISearchItem object if the URL represents an actual Shell data source (also known as a Shell namespace extension).
+description: Gets the ISearchItem object if the URL represents an actual Shell data source (also known as a Shell namespace extension).
 ms.assetid: 7da6344d-b433-48c3-8f75-7bef0295b9ea
 title: ISearchItem::GetParentFolder method
 ms.topic: reference

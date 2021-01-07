@@ -1,5 +1,5 @@
 ---
-Description: To create a security descriptor, a protected server can use the same procedure that an application would use to create a security descriptor for a securable object.
+description: To create a security descriptor, a protected server can use the same procedure that an application would use to create a security descriptor for a securable object.
 ms.assetid: f40c4b62-a3f0-4e66-875e-2ef904d052e5
 title: Security Descriptors for Private Objects
 ms.topic: article

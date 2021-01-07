@@ -1,5 +1,5 @@
 ---
-Description: Define which clients have access to which resources by creating and modifying the ACLs associated with those resources and by enabling and disabling client privileges.
+description: Define which clients have access to which resources by creating and modifying the ACLs associated with those resources and by enabling and disabling client privileges.
 ms.assetid: dc1c510d-f0d4-4d04-ba79-3aac1aaaf5d4
 title: Defining Permissions with ACLs in C++
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Currently, user name and password credentials are the most common credentials used for authentication.
+description: Currently, user name and password credentials are the most common credentials used for authentication.
 ms.assetid: 1d810f71-9bf5-4c5c-a573-c35081f604cf
 title: Handling Passwords
 ms.topic: article

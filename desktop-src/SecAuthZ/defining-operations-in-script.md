@@ -1,5 +1,5 @@
 ---
-Description: In Authorization Manager an operation is a low-level function or method of an application.
+description: In Authorization Manager an operation is a low-level function or method of an application.
 ms.assetid: 6b35d25e-150c-4760-b358-fa517a00dd79
 title: Defining Operations in Script
 ms.topic: article

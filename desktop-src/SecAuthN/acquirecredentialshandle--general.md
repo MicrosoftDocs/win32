@@ -1,5 +1,5 @@
 ---
-Description: Acquires a handle to preexisting credentials of a security principal.
+description: Acquires a handle to preexisting credentials of a security principal.
 ms.assetid: acda4cf3-39a6-4bd2-91a0-db1f191b57b5
 title: AcquireCredentialsHandle (General) function (Sspi.h)
 ms.topic: reference

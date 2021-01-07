@@ -1,5 +1,5 @@
 ---
-Description: Microsoft Digest performs an initial authentication when the server receives the first challenge response from a client.
+description: Microsoft Digest performs an initial authentication when the server receives the first challenge response from a client.
 ms.assetid: c65bb134-d480-4a71-872c-30e2884237a6
 title: Microsoft Digest Authentication
 ms.topic: article

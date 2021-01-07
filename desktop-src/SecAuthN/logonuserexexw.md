@@ -1,5 +1,5 @@
 ---
-Description: The LogonUserExExW function attempts to log a user on to the local computer.
+description: The LogonUserExExW function attempts to log a user on to the local computer.
 ms.assetid: d90db4c6-a711-4519-8b91-5069cee07738
 title: LogonUserExExW function (Winbasep.h)
 ms.topic: reference

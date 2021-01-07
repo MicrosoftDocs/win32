@@ -1,5 +1,5 @@
 ---
-Description: Although words and linguistic rules differ dramatically, there are some considerations, such as numbers, dates, and times, that are handled consistently across all word breakers.
+description: Although words and linguistic rules differ dramatically, there are some considerations, such as numbers, dates, and times, that are handled consistently across all word breakers.
 ms.assetid: 62545566-f0ba-4876-93da-e6c2b9c23484
 title: Surface Form Normalization
 ms.topic: article

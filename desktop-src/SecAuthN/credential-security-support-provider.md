@@ -1,5 +1,5 @@
 ---
-Description: The Credential Security Support Provider protocol (CredSSP) is a Security Support Provider that is implemented by using the Security Support Provider Interface (SSPI).
+description: The Credential Security Support Provider protocol (CredSSP) is a Security Support Provider that is implemented by using the Security Support Provider Interface (SSPI).
 ms.assetid: b3006b89-d9fc-4444-a3c8-ad2698de501c
 title: Credential Security Support Provider
 ms.topic: article

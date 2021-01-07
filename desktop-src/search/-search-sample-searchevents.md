@@ -1,5 +1,5 @@
 ---
-Description: The SearchEvents code sample demonstrates how to prioritize indexing events.
+description: The SearchEvents code sample demonstrates how to prioritize indexing events.
 ms.assetid: a352c3e2-5860-4b9c-a3c7-a806f69b4f7d
 title: SearchEvents
 ms.topic: article

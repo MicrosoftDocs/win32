@@ -1,5 +1,5 @@
 ---
-Description: After you have created your network provider or credential manager, you must register it with the system.
+description: After you have created your network provider or credential manager, you must register it with the system.
 ms.assetid: 4c58671d-d11d-4f32-866b-e278fc8e6114
 title: Registering Network Providers and Credential Managers
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: A constructed Abstract Syntax Notation One (ASN.1) type is made up from basic types, string types, or other constructed types. For example, an X.509 certificate extension is composed from three basic ASN.1 types as shown by the following example.
+description: A constructed Abstract Syntax Notation One (ASN.1) type is made up from basic types, string types, or other constructed types. For example, an X.509 certificate extension is composed from three basic ASN.1 types as shown by the following example.
 ms.assetid: 90c52d71-5d5b-479c-8e29-06c9f0f6da4a
 title: Constructed Types
 ms.topic: article

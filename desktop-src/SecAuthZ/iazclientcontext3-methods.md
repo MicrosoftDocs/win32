@@ -1,5 +1,5 @@
 ---
-Description: The IAzClientContext3 interface exposes the following methods.
+description: The IAzClientContext3 interface exposes the following methods.
 ms.assetid: 37BF4FE2-0E4C-4913-B083-4F07D1A39F3F
 title: IAzClientContext3 Methods
 ms.topic: reference

@@ -1,6 +1,6 @@
 ---
 title: Asynchronous Contexts
-Description: Overview of asynchronous contexts and the asynchronous SSPI header.
+description: Overview of asynchronous contexts and the asynchronous SSPI header.
 ms.topic: article
 ms.keywords: 'SSPI, Asynchronous Contexts, async contexts, Async SSPI, SSPI Async, Asynchronous SSPI, sspi,SspiAcceptSecurityContextAsync, SspiAcquireCredentialsHandleAsync, SspiAsyncContextRequiresNotify, SspiAsyncNotifyCallback, SspiCreateAsyncContext,SspiDeleteSecurityContextAsync, SspiFreeAsyncContext, SspiFreeCredentialsHandleAsync, SspiGetAsyncCallStatus, SspiInitializeSecurityContextAsync, SspiReinitAsyncContext, SspiSetAsyncNotifyCallback'
 ms.date: 06/23/2020

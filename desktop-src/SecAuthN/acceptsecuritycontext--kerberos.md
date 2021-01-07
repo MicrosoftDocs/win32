@@ -1,5 +1,5 @@
 ---
-Description: Enables the server component of a transport application to establish a [*security context*](../secgloss/s-gly.md) between the server and a remote client that is using Kerberos.
+description: Enables the server component of a transport application to establish a [*security context*](../secgloss/s-gly.md) between the server and a remote client that is using Kerberos.
 ms.assetid: 838eaaa7-6fce-4ed1-bd69-6e76a804c67b
 title: AcceptSecurityContext (Kerberos) function (Sspi.h)
 ms.topic: reference

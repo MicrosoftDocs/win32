@@ -1,5 +1,5 @@
 ---
-Description: The NULL predicate indicates whether the document has a value for the indicated column.
+description: The NULL predicate indicates whether the document has a value for the indicated column.
 ms.assetid: 078ffd99-2020-4da2-8968-301dba8cc436
 title: NULL Predicate
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: C2-level security requirements specify that system administrators must be able to audit security-related events and that access to this audit data must be limited to authorized administrators.
+description: C2-level security requirements specify that system administrators must be able to audit security-related events and that access to this audit data must be limited to authorized administrators.
 ms.assetid: 411001b1-94cd-465f-8558-c8aa119e4303
 title: Audit Generation
 ms.topic: article

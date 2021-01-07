@@ -1,5 +1,5 @@
 ---
-Description: Enables a transport application to query the Negotiate [*security package*](../secgloss/s-gly.md) for certain attributes of a [*security context*](../secgloss/s-gly.md).
+description: Enables a transport application to query the Negotiate [*security package*](../secgloss/s-gly.md) for certain attributes of a [*security context*](../secgloss/s-gly.md).
 ms.assetid: 9e499161-d5fb-4a64-ac36-f82031a3a7c9
 title: QueryContextAttributes (Negotiate) function (Sspi.h)
 ms.topic: reference

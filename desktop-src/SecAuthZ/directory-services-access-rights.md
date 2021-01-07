@@ -1,5 +1,5 @@
 ---
-Description: Each Active Directory object has a security descriptor assigned to it.
+description: Each Active Directory object has a security descriptor assigned to it.
 ms.assetid: 2e4ed13f-f09e-43b4-9862-95a79c229f0c
 title: Directory Services Access Rights
 ms.topic: article

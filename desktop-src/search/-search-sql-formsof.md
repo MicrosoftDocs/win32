@@ -1,5 +1,5 @@
 ---
-Description: The FORMSOF term performs matches using other linguistic forms of the word.
+description: The FORMSOF term performs matches using other linguistic forms of the word.
 ms.assetid: b705b8bc-dc2c-4cee-8306-f494b0f96cbf
 title: FORMSOF Term
 ms.topic: article

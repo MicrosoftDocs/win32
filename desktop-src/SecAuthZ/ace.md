@@ -1,5 +1,5 @@
 ---
-Description: Lists the currently defined ACE types.
+description: Lists the currently defined ACE types.
 ms.assetid: '980b8242-2ba2-469f-b834-da7d3fb22e14'
 title: ACE (Winnt.h)
 ms.topic: article

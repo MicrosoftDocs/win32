@@ -1,5 +1,5 @@
 ---
-Description: The following general use interfaces are supported by the Certificate Enrollment API.
+description: The following general use interfaces are supported by the Certificate Enrollment API.
 ms.assetid: 6b9d9761-6131-4408-8177-5418abd5e406
 title: Helper Interfaces
 ms.topic: article

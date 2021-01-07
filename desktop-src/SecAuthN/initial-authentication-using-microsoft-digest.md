@@ -1,5 +1,5 @@
 ---
-Description: The initial authentication takes place when the server receives a challenge response from a client.
+description: The initial authentication takes place when the server receives a challenge response from a client.
 ms.assetid: 8a5cf26b-0b2a-4f19-807b-9ec4d533cdd4
 title: Initial Authentication Using Microsoft Digest
 ms.topic: article
