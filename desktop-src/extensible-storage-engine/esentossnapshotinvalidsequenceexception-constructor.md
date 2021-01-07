@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotInvalidSequenceException constructor"
 title: EsentOSSnapshotInvalidSequenceException constructor 
 TOCTitle: 'EsentOSSnapshotInvalidSequenceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOSSnapshotInvalidSequenceException.#ctor

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRunningInOneInstanceModeException methods"
 title: EsentRunningInOneInstanceModeException methods
 TOCTitle: EsentRunningInOneInstanceModeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRunningInOneInstanceModeException

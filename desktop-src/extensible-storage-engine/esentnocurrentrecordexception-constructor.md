@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoCurrentRecordException constructor"
 title: EsentNoCurrentRecordException constructor 
 TOCTitle: 'EsentNoCurrentRecordException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNoCurrentRecordException.#ctor

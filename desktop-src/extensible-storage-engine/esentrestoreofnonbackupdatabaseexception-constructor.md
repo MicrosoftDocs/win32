@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRestoreOfNonBackupDatabaseException constructor"
 title: EsentRestoreOfNonBackupDatabaseException constructor 
 TOCTitle: 'EsentRestoreOfNonBackupDatabaseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRestoreOfNonBackupDatabaseException.#ctor

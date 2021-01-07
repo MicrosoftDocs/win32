@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfAutoincrementValuesException members"
 title: EsentOutOfAutoincrementValuesException members
 TOCTitle: EsentOutOfAutoincrementValuesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfAutoincrementValuesException

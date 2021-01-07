@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRestoreInProgressException methods"
 title: EsentRestoreInProgressException methods
 TOCTitle: EsentRestoreInProgressException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRestoreInProgressException

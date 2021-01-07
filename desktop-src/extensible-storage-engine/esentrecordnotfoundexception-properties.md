@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordNotFoundException properties"
 title: EsentRecordNotFoundException properties
 TOCTitle: EsentRecordNotFoundException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRecordNotFoundException

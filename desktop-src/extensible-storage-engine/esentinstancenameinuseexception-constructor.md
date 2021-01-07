@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInstanceNameInUseException constructor"
 title: EsentInstanceNameInUseException constructor 
 TOCTitle: 'EsentInstanceNameInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInstanceNameInUseException.#ctor

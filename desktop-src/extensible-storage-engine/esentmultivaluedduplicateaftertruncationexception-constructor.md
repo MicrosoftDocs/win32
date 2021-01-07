@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMultiValuedDuplicateAfterTruncationException constructor"
 title: EsentMultiValuedDuplicateAfterTruncationException constructor 
 TOCTitle: 'EsentMultiValuedDuplicateAfterTruncationException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMultiValuedDuplicateAfterTruncationException.#ctor

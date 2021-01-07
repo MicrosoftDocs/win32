@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotNotAllowedException properties"
 title: EsentOSSnapshotNotAllowedException properties
 TOCTitle: EsentOSSnapshotNotAllowedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotNotAllowedException

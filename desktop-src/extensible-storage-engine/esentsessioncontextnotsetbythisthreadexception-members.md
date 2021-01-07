@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionContextNotSetByThisThreadException members"
 title: EsentSessionContextNotSetByThisThreadException members
 TOCTitle: EsentSessionContextNotSetByThisThreadException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSessionContextNotSetByThisThreadException

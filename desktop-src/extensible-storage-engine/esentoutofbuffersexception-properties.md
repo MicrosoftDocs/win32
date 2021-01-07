@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfBuffersException properties"
 title: EsentOutOfBuffersException properties
 TOCTitle: EsentOutOfBuffersException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOutOfBuffersException

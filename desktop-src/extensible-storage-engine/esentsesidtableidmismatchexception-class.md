@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSesidTableIdMismatchException class"
 title: EsentSesidTableIdMismatchException class
 TOCTitle: EsentSesidTableIdMismatchException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSesidTableIdMismatchException

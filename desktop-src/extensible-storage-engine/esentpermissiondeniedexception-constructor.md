@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPermissionDeniedException constructor"
 title: EsentPermissionDeniedException constructor 
 TOCTitle: 'EsentPermissionDeniedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentPermissionDeniedException.#ctor

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSesidTableIdMismatchException properties"
 title: EsentSesidTableIdMismatchException properties
 TOCTitle: EsentSesidTableIdMismatchException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSesidTableIdMismatchException

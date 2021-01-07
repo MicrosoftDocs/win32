@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentQuotaException members"
 title: EsentQuotaException members
 TOCTitle: EsentQuotaException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentQuotaException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInTransactionException properties"
 title: EsentInTransactionException properties
 TOCTitle: EsentInTransactionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInTransactionException

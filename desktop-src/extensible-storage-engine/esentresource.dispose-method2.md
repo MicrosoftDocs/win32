@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResource.Dispose method"
 title: EsentResource.Dispose method 
 TOCTitle: 'Dispose method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentResource.Dispose

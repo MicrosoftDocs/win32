@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidCreateIndexException methods"
 title: EsentInvalidCreateIndexException methods
 TOCTitle: EsentInvalidCreateIndexException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidCreateIndexException

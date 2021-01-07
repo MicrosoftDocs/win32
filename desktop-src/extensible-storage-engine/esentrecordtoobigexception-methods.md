@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordTooBigException methods"
 title: EsentRecordTooBigException methods
 TOCTitle: EsentRecordTooBigException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecordTooBigException

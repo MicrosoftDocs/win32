@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLSNotSetException members"
 title: EsentLSNotSetException members
 TOCTitle: EsentLSNotSetException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLSNotSetException

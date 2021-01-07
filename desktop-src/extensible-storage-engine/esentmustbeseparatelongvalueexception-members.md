@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMustBeSeparateLongValueException members"
 title: EsentMustBeSeparateLongValueException members
 TOCTitle: EsentMustBeSeparateLongValueException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMustBeSeparateLongValueException

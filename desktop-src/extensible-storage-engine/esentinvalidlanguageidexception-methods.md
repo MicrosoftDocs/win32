@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLanguageIdException methods"
 title: EsentInvalidLanguageIdException methods
 TOCTitle: EsentInvalidLanguageIdException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidLanguageIdException

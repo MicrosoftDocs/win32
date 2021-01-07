@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidTableIdException class"
 title: EsentInvalidTableIdException class
 TOCTitle: EsentInvalidTableIdException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidTableIdException

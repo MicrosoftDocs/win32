@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfBuffersException constructor"
 title: EsentOutOfBuffersException constructor 
 TOCTitle: 'EsentOutOfBuffersException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfBuffersException.#ctor

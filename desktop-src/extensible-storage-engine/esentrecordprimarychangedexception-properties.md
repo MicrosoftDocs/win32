@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordPrimaryChangedException properties"
 title: EsentRecordPrimaryChangedException properties
 TOCTitle: EsentRecordPrimaryChangedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRecordPrimaryChangedException

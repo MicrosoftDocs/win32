@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMustCommitDistributedTransactionToLevel0Exception properties"
 title: EsentMustCommitDistributedTransactionToLevel0Exception properties
 TOCTitle: EsentMustCommitDistributedTransactionToLevel0Exception properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentMustCommitDistributedTransactionToLevel0Exception

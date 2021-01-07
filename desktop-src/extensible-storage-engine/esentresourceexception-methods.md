@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResourceException methods"
 title: EsentResourceException methods
 TOCTitle: EsentResourceException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentResourceException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoCurrentIndexException properties"
 title: EsentNoCurrentIndexException properties
 TOCTitle: EsentNoCurrentIndexException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentNoCurrentIndexException

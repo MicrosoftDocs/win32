@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVColumnCannotDeleteException methods"
 title: EsentSLVColumnCannotDeleteException methods
 TOCTitle: EsentSLVColumnCannotDeleteException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVColumnCannotDeleteException

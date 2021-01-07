@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogBufferTooSmallException properties"
 title: EsentLogBufferTooSmallException properties
 TOCTitle: EsentLogBufferTooSmallException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogBufferTooSmallException

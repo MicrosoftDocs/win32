@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInstanceUnavailableDueToFatalLogDiskFullException constructor"
 title: EsentInstanceUnavailableDueToFatalLogDiskFullException constructor 
 TOCTitle: 'EsentInstanceUnavailableDueToFatalLogDiskFullException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInstanceUnavailableDueToFatalLogDiskFullException.#ctor

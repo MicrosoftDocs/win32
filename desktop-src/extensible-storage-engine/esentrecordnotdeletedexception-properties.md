@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordNotDeletedException properties"
 title: EsentRecordNotDeletedException properties
 TOCTitle: EsentRecordNotDeletedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRecordNotDeletedException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLCMapStringFlagsException constructor"
 title: EsentInvalidLCMapStringFlagsException constructor 
 TOCTitle: 'EsentInvalidLCMapStringFlagsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidLCMapStringFlagsException.#ctor

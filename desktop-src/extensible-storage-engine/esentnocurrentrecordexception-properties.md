@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoCurrentRecordException properties"
 title: EsentNoCurrentRecordException properties
 TOCTitle: EsentNoCurrentRecordException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentNoCurrentRecordException

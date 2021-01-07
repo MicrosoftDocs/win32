@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNullKeyDisallowedException methods"
 title: EsentNullKeyDisallowedException methods
 TOCTitle: EsentNullKeyDisallowedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNullKeyDisallowedException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordTooBigForBackwardCompatibilityException constructor"
 title: EsentRecordTooBigForBackwardCompatibilityException constructor 
 TOCTitle: 'EsentRecordTooBigForBackwardCompatibilityException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecordTooBigForBackwardCompatibilityException.#ctor

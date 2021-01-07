@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVHeaderCorruptedException methods"
 title: EsentSLVHeaderCorruptedException methods
 TOCTitle: EsentSLVHeaderCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVHeaderCorruptedException

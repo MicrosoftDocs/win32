@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogGenerationMismatchException members"
 title: EsentLogGenerationMismatchException members
 TOCTitle: EsentLogGenerationMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogGenerationMismatchException

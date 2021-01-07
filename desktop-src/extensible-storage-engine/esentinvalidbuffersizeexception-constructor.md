@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidBufferSizeException constructor"
 title: EsentInvalidBufferSizeException constructor 
 TOCTitle: 'EsentInvalidBufferSizeException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidBufferSizeException.#ctor

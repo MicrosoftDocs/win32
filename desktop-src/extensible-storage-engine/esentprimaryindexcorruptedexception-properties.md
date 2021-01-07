@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPrimaryIndexCorruptedException properties"
 title: EsentPrimaryIndexCorruptedException properties
 TOCTitle: EsentPrimaryIndexCorruptedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentPrimaryIndexCorruptedException

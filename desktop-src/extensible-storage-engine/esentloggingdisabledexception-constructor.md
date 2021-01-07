@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLoggingDisabledException constructor"
 title: EsentLoggingDisabledException constructor 
 TOCTitle: 'EsentLoggingDisabledException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLoggingDisabledException.#ctor

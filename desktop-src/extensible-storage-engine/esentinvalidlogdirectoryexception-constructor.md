@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLogDirectoryException constructor"
 title: EsentInvalidLogDirectoryException constructor 
 TOCTitle: 'EsentInvalidLogDirectoryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidLogDirectoryException.#ctor

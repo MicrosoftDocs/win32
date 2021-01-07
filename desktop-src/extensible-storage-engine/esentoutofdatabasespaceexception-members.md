@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfDatabaseSpaceException members"
 title: EsentOutOfDatabaseSpaceException members
 TOCTitle: EsentOutOfDatabaseSpaceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfDatabaseSpaceException

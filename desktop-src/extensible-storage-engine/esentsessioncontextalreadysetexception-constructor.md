@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionContextAlreadySetException constructor"
 title: EsentSessionContextAlreadySetException constructor 
 TOCTitle: 'EsentSessionContextAlreadySetException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSessionContextAlreadySetException.#ctor

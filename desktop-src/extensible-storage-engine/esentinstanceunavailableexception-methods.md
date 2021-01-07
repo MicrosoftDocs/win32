@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInstanceUnavailableException methods"
 title: EsentInstanceUnavailableException methods
 TOCTitle: EsentInstanceUnavailableException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInstanceUnavailableException

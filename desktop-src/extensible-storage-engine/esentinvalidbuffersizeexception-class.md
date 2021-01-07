@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidBufferSizeException class"
 title: EsentInvalidBufferSizeException class
 TOCTitle: EsentInvalidBufferSizeException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidBufferSizeException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogBufferTooSmallException class"
 title: EsentLogBufferTooSmallException class
 TOCTitle: EsentLogBufferTooSmallException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogBufferTooSmallException

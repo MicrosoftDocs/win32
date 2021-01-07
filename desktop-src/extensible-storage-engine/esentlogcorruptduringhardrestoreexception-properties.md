@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogCorruptDuringHardRestoreException properties"
 title: EsentLogCorruptDuringHardRestoreException properties
 TOCTitle: EsentLogCorruptDuringHardRestoreException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogCorruptDuringHardRestoreException

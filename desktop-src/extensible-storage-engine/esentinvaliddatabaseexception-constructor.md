@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidDatabaseException constructor"
 title: EsentInvalidDatabaseException constructor 
 TOCTitle: 'EsentInvalidDatabaseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidDatabaseException.#ctor

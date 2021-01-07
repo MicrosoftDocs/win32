@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFileCorruptException members"
 title: EsentLogFileCorruptException members
 TOCTitle: EsentLogFileCorruptException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogFileCorruptException

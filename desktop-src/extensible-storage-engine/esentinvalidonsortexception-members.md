@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidOnSortException members"
 title: EsentInvalidOnSortException members
 TOCTitle: EsentInvalidOnSortException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidOnSortException

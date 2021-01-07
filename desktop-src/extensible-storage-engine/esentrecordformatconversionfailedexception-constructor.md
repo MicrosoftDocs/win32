@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordFormatConversionFailedException constructor"
 title: EsentRecordFormatConversionFailedException constructor 
 TOCTitle: 'EsentRecordFormatConversionFailedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecordFormatConversionFailedException.#ctor

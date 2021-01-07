@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSequenceEndException methods"
 title: EsentLogSequenceEndException methods
 TOCTitle: EsentLogSequenceEndException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndException

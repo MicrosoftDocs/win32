@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidTableIdException members"
 title: EsentInvalidTableIdException members
 TOCTitle: EsentInvalidTableIdException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidTableIdException

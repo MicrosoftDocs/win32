@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidPrereadException constructor"
 title: EsentInvalidPrereadException constructor 
 TOCTitle: 'EsentInvalidPrereadException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidPrereadException.#ctor

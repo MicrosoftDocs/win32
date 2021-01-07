@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyTruncatedException methods"
 title: EsentKeyTruncatedException methods
 TOCTitle: EsentKeyTruncatedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentKeyTruncatedException

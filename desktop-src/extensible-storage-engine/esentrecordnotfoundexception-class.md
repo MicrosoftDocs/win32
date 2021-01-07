@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordNotFoundException class"
 title: EsentRecordNotFoundException class
 TOCTitle: EsentRecordNotFoundException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRecordNotFoundException

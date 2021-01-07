@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVDatabaseMissingException class"
 title: EsentSLVDatabaseMissingException class
 TOCTitle: EsentSLVDatabaseMissingException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVDatabaseMissingException

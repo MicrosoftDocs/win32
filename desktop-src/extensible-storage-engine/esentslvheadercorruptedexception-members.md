@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVHeaderCorruptedException members"
 title: EsentSLVHeaderCorruptedException members
 TOCTitle: EsentSLVHeaderCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVHeaderCorruptedException

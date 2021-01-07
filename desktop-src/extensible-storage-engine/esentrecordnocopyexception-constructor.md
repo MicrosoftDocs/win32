@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordNoCopyException constructor"
 title: EsentRecordNoCopyException constructor 
 TOCTitle: 'EsentRecordNoCopyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecordNoCopyException.#ctor

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidBookmarkException properties"
 title: EsentInvalidBookmarkException properties
 TOCTitle: EsentInvalidBookmarkException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidBookmarkException

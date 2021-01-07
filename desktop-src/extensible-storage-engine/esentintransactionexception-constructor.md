@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInTransactionException constructor"
 title: EsentInTransactionException constructor 
 TOCTitle: 'EsentInTransactionException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInTransactionException.#ctor

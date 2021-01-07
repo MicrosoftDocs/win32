@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPrimaryIndexCorruptedException members"
 title: EsentPrimaryIndexCorruptedException members
 TOCTitle: EsentPrimaryIndexCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentPrimaryIndexCorruptedException

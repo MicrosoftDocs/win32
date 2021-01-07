@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordFormatConversionFailedException members"
 title: EsentRecordFormatConversionFailedException members
 TOCTitle: EsentRecordFormatConversionFailedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecordFormatConversionFailedException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileAccessDeniedException methods"
 title: EsentSLVFileAccessDeniedException methods
 TOCTitle: EsentSLVFileAccessDeniedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVFileAccessDeniedException

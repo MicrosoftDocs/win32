@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPageNotInitializedException constructor"
 title: EsentPageNotInitializedException constructor 
 TOCTitle: 'EsentPageNotInitializedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentPageNotInitializedException.#ctor

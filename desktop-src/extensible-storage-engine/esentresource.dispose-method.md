@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentResource.Dispose method overload list"
 title: EsentResource.Dispose method 
 TOCTitle: 'Dispose method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentResource.Dispose

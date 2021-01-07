@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLVCorruptedException constructor"
 title: EsentLVCorruptedException constructor 
 TOCTitle: 'EsentLVCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLVCorruptedException.#ctor

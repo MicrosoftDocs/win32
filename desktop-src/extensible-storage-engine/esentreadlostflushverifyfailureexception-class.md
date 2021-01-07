@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentReadLostFlushVerifyFailureException class"
 title: EsentReadLostFlushVerifyFailureException class
 TOCTitle: EsentReadLostFlushVerifyFailureException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentReadLostFlushVerifyFailureException

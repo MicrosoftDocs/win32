@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLVCorruptedException properties"
 title: EsentLVCorruptedException properties
 TOCTitle: EsentLVCorruptedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLVCorruptedException

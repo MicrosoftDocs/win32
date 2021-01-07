@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidColumnTypeException properties"
 title: EsentInvalidColumnTypeException properties
 TOCTitle: EsentInvalidColumnTypeException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidColumnTypeException

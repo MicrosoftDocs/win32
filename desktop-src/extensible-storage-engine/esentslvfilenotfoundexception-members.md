@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileNotFoundException members"
 title: EsentSLVFileNotFoundException members
 TOCTitle: EsentSLVFileNotFoundException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVFileNotFoundException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVBufferTooSmallException constructor"
 title: EsentSLVBufferTooSmallException constructor 
 TOCTitle: 'EsentSLVBufferTooSmallException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVBufferTooSmallException.#ctor

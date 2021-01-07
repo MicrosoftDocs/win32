@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingPatchPageException properties"
 title: EsentMissingPatchPageException properties
 TOCTitle: EsentMissingPatchPageException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentMissingPatchPageException

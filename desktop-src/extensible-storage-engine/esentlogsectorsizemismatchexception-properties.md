@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSectorSizeMismatchException properties"
 title: EsentLogSectorSizeMismatchException properties
 TOCTitle: EsentLogSectorSizeMismatchException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogSectorSizeMismatchException

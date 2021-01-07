@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPageSizeMismatchException class"
 title: EsentPageSizeMismatchException class
 TOCTitle: EsentPageSizeMismatchException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentPageSizeMismatchException

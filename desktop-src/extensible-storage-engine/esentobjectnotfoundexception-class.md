@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentObjectNotFoundException class"
 title: EsentObjectNotFoundException class
 TOCTitle: EsentObjectNotFoundException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentObjectNotFoundException

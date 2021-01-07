@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMustRollbackException methods"
 title: EsentMustRollbackException methods
 TOCTitle: EsentMustRollbackException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentMustRollbackException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLogDataSequenceException methods"
 title: EsentInvalidLogDataSequenceException methods
 TOCTitle: EsentInvalidLogDataSequenceException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidLogDataSequenceException

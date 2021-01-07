@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionWriteConflictException members"
 title: EsentSessionWriteConflictException members
 TOCTitle: EsentSessionWriteConflictException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSessionWriteConflictException

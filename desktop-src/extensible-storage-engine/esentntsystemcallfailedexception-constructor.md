@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNTSystemCallFailedException constructor"
 title: EsentNTSystemCallFailedException constructor 
 TOCTitle: 'EsentNTSystemCallFailedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNTSystemCallFailedException.#ctor

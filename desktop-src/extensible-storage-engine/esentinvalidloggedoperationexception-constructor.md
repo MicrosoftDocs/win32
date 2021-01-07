@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLoggedOperationException constructor"
 title: EsentInvalidLoggedOperationException constructor 
 TOCTitle: 'EsentInvalidLoggedOperationException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidLoggedOperationException.#ctor

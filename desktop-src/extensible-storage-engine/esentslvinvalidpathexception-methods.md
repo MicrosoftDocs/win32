@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVInvalidPathException methods"
 title: EsentSLVInvalidPathException methods
 TOCTitle: EsentSLVInvalidPathException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVInvalidPathException

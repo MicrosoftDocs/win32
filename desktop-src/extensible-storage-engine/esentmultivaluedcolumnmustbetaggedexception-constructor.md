@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMultiValuedColumnMustBeTaggedException constructor"
 title: EsentMultiValuedColumnMustBeTaggedException constructor 
 TOCTitle: 'EsentMultiValuedColumnMustBeTaggedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMultiValuedColumnMustBeTaggedException.#ctor

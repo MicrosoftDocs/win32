@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResource class"
 title: EsentResource class
 TOCTitle: EsentResource class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentResource

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPageSizeMismatchException properties"
 title: EsentPageSizeMismatchException properties
 TOCTitle: EsentPageSizeMismatchException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentPageSizeMismatchException

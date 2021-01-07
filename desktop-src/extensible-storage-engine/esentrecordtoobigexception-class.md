@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordTooBigException class"
 title: EsentRecordTooBigException class
 TOCTitle: EsentRecordTooBigException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRecordTooBigException

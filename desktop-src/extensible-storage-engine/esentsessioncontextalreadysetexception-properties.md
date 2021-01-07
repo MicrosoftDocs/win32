@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionContextAlreadySetException properties"
 title: EsentSessionContextAlreadySetException properties
 TOCTitle: EsentSessionContextAlreadySetException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSessionContextAlreadySetException

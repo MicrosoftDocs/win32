@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesVarSegMacNotAllowedException methods"
 title: EsentIndexTuplesVarSegMacNotAllowedException methods
 TOCTitle: EsentIndexTuplesVarSegMacNotAllowedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesVarSegMacNotAllowedException

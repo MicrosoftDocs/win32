@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVDatabaseMissingException constructor"
 title: EsentSLVDatabaseMissingException constructor 
 TOCTitle: 'EsentSLVDatabaseMissingException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVDatabaseMissingException.#ctor

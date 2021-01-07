@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidParameterException constructor"
 title: EsentInvalidParameterException constructor 
 TOCTitle: 'EsentInvalidParameterException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidParameterException.#ctor

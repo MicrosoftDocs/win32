@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentObsoleteException class"
 title: EsentObsoleteException class
 TOCTitle: EsentObsoleteException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentObsoleteException

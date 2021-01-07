@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVColumnDefaultValueNotAllowedException members"
 title: EsentSLVColumnDefaultValueNotAllowedException members
 TOCTitle: EsentSLVColumnDefaultValueNotAllowedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVColumnDefaultValueNotAllowedException

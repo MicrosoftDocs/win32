@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMustCommitDistributedTransactionToLevel0Exception members"
 title: EsentMustCommitDistributedTransactionToLevel0Exception members
 TOCTitle: EsentMustCommitDistributedTransactionToLevel0Exception members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMustCommitDistributedTransactionToLevel0Exception

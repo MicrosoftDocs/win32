@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingCurrentLogFilesException properties"
 title: EsentMissingCurrentLogFilesException properties
 TOCTitle: EsentMissingCurrentLogFilesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentMissingCurrentLogFilesException

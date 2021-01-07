@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSequenceEndException members"
 title: EsentLogSequenceEndException members
 TOCTitle: EsentLogSequenceEndException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndException

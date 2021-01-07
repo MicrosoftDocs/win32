@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogDisabledDueToRecoveryFailureException members"
 title: EsentLogDisabledDueToRecoveryFailureException members
 TOCTitle: EsentLogDisabledDueToRecoveryFailureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogDisabledDueToRecoveryFailureException

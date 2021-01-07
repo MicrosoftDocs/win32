@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLanguageNotSupportedException methods"
 title: EsentLanguageNotSupportedException methods
 TOCTitle: EsentLanguageNotSupportedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLanguageNotSupportedException

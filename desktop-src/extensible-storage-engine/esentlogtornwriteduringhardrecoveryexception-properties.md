@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogTornWriteDuringHardRecoveryException properties"
 title: EsentLogTornWriteDuringHardRecoveryException properties
 TOCTitle: EsentLogTornWriteDuringHardRecoveryException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogTornWriteDuringHardRecoveryException

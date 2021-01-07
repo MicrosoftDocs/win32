@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMultiValuedDuplicateAfterTruncationException methods"
 title: EsentMultiValuedDuplicateAfterTruncationException methods
 TOCTitle: EsentMultiValuedDuplicateAfterTruncationException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentMultiValuedDuplicateAfterTruncationException

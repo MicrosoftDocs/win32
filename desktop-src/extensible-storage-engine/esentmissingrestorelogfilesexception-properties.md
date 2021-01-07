@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingRestoreLogFilesException properties"
 title: EsentMissingRestoreLogFilesException properties
 TOCTitle: EsentMissingRestoreLogFilesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentMissingRestoreLogFilesException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingRestoreLogFilesException members"
 title: EsentMissingRestoreLogFilesException members
 TOCTitle: EsentMissingRestoreLogFilesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMissingRestoreLogFilesException

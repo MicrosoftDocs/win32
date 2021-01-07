@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidCodePageException members"
 title: EsentInvalidCodePageException members
 TOCTitle: EsentInvalidCodePageException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidCodePageException

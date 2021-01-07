@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidOnSortException methods"
 title: EsentInvalidOnSortException methods
 TOCTitle: EsentInvalidOnSortException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidOnSortException
