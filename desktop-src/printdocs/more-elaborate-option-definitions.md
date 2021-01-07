@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: fafced09-97fd-44f6-a41b-e17757c85c38
 title: More Elaborate Option Definitions
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Used to assign enumerated text to discrete values.
+description: Used to assign enumerated text to discrete values.
 ms.assetid: c8cc040e-fcce-43a0-98c1-db2b2c616ac3
 title: enum
 ms.topic: article

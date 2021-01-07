@@ -1,5 +1,5 @@
 ---
-Description: Parental Controls Logging
+description: Parental Controls Logging
 ms.assetid: 85903d24-07d0-4b9a-afb2-5a30506e9b75
 title: Parental Controls Logging
 ms.topic: article

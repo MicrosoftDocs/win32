@@ -1,6 +1,6 @@
 ---
 title: PrintCapabilities Schemas and Documents
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: c4727c17-3122-456c-967d-d1d6ce6a5402
 ms.topic: article
 ms.date: 05/31/2018

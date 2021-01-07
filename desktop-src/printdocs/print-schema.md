@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 'd746bdd1-96c2-41f5-ad99-0b51c8ee8731'
 title: Legacy Print Schema Reference
 ms.topic: article

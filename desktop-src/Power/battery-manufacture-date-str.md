@@ -1,5 +1,5 @@
 ---
-Description: Contains the date of manufacture of a battery.
+description: Contains the date of manufacture of a battery.
 ms.assetid: 0cda66fc-bf4a-4a38-b43c-6eecde46c414
 title: BATTERY_MANUFACTURE_DATE structure (Poclass.h)
 ms.topic: reference

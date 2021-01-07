@@ -1,5 +1,5 @@
 ---
-Description: This topic describes the interfaces that provide access to the document-level components of an XPS OM.
+description: This topic describes the interfaces that provide access to the document-level components of an XPS OM.
 ms.assetid: 96b92480-cc28-4a57-a184-c52d3ddc9b05
 title: Working with IXpsOMDocument Interfaces
 ms.topic: article

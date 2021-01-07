@@ -1,5 +1,5 @@
 ---
-Description: Contains a list of counters that are logically related.
+description: Contains a list of counters that are logically related.
 ms.assetid: 0a0405c9-7487-43e0-afef-d6c6ba75c9bf
 title: counterSet (provider) Element
 ms.topic: reference

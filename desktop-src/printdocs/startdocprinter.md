@@ -1,5 +1,5 @@
 ---
-Description: The StartDocPrinter function notifies the print spooler that a document is to be spooled for printing.
+description: The StartDocPrinter function notifies the print spooler that a document is to be spooled for printing.
 ms.assetid: caa2bd80-4af3-4968-a5b9-d12f16cac6fc
 title: StartDocPrinter function (Winspool.h)
 ms.topic: reference

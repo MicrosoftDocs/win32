@@ -1,5 +1,5 @@
 ---
-Description: Contains information about a localizable print form.
+description: Contains information about a localizable print form.
 ms.assetid: 5cc11a77-2b9d-44a4-88de-6ed0b7460bc8
 title: FORM_INFO_2 structure (Winspool.h)
 ms.topic: reference

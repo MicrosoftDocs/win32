@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 2377763b-9b3b-49ec-ab6c-476b8009ddcb
 title: Responsibilities of Consumers of the PrintCapabilities Document
 ms.topic: article

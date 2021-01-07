@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: ed53d1a8-d302-4855-9858-0f37dfbbd1d3
 title: PrintTicket Construction Checklists
 ms.topic: article

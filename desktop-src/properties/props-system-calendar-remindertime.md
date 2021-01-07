@@ -1,5 +1,5 @@
 ---
-Description: Stores the time the user chooses to be reminded of the event.
+description: Stores the time the user chooses to be reminded of the event.
 ms.assetid: 62d6ee4c-959c-44a1-a340-b858d1c7a953
 title: System.Calendar.ReminderTime
 ms.topic: article

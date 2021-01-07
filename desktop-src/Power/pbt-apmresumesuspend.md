@@ -1,5 +1,5 @@
 ---
-Description: Notifies applications that the system has resumed operation after being suspended.
+description: Notifies applications that the system has resumed operation after being suspended.
 ms.assetid: 9058a2ff-9b8e-48e5-accb-4810c8598294
 title: PBT_APMRESUMESUSPEND event (WinUser.h)
 ms.topic: reference

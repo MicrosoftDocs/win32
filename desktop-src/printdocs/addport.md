@@ -1,5 +1,5 @@
 ---
-Description: The AddPort function adds the name of a port to the list of supported ports. The AddPort function is exported by the port monitor.
+description: The AddPort function adds the name of a port to the list of supported ports. The AddPort function is exported by the port monitor.
 ms.assetid: 9191d507-9167-4488-a4b4-286590a8a62a
 title: AddPort function (Winspool.h)
 ms.topic: reference

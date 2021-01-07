@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: d317d052-c207-412a-896e-09cb57b0dd5f
 title: Parameters in the PrintCapabilities Document
 ms.topic: article

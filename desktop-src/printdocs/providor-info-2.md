@@ -1,5 +1,5 @@
 ---
-Description: The PROVIDOR\_INFO\_2 structure appends a print provider to the print provider order list.
+description: The PROVIDOR\_INFO\_2 structure appends a print provider to the print provider order list.
 ms.assetid: 840523ca-22d0-460f-81fb-e0a9e2d4f5d6
 title: PROVIDOR_INFO_2 structure (Winspool.h)
 ms.topic: reference

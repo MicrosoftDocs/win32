@@ -1,5 +1,5 @@
 ---
-Description: With Version 2.0, Performance Counters changed the architecture to simplify the process for providing counter data to consumers.
+description: With Version 2.0, Performance Counters changed the architecture to simplify the process for providing counter data to consumers.
 ms.assetid: 37f75b15-3f52-4259-a6d9-5a1a14f88379
 title: Providing Counter Data Using Version 2.0
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 8169b74f-13e0-4f6b-81e2-1824d932ee50
 title: Important Property Instances
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 48b259e0-10ff-4964-a8de-a54ae3731c60
 title: Summary of Element Types
 ms.topic: article

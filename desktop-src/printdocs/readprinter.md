@@ -1,5 +1,5 @@
 ---
-Description: The ReadPrinter function retrieves data from the specified printer.
+description: The ReadPrinter function retrieves data from the specified printer.
 ms.assetid: d7c3f186-c53e-424b-89bf-6742babb998f
 title: ReadPrinter function (Winspool.h)
 ms.topic: reference

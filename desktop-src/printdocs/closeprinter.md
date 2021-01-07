@@ -1,5 +1,5 @@
 ---
-Description: The ClosePrinter function closes the specified printer object.
+description: The ClosePrinter function closes the specified printer object.
 ms.assetid: 95cc3eca-e65c-4fa6-8975-479e8e728dca
 title: ClosePrinter function (Winspool.h)
 ms.topic: reference

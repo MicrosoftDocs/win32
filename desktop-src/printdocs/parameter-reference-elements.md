@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 78df6acf-eb4e-46c1-bf1d-c0a99cf49bff
 title: ParameterRef Elements
 ms.topic: article

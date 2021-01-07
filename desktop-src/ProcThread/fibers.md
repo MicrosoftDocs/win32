@@ -1,5 +1,5 @@
 ---
-Description: A fiber is a unit of execution that must be manually scheduled by the application.
+description: A fiber is a unit of execution that must be manually scheduled by the application.
 ms.assetid: 6283f56b-23ae-4840-abd0-2478a50c670c
 title: Fibers
 ms.topic: article

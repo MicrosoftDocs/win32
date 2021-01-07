@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 3fe4940b-3605-483a-ade5-368d24b630aa
 title: Creating a Default PrintTicket
 ms.topic: article

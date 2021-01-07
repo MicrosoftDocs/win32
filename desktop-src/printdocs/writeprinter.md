@@ -1,5 +1,5 @@
 ---
-Description: The WritePrinter function notifies the print spooler that data should be written to the specified printer.
+description: The WritePrinter function notifies the print spooler that data should be written to the specified printer.
 ms.assetid: 9411b71f-d686-44ed-9051-d410e5ab228e
 title: WritePrinter function (Winspool.h)
 ms.topic: reference

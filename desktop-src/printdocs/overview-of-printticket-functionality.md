@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: c48b9821-9194-47d9-a3ec-b10dbbdf14cc
 title: Overview of PrintTicket Functionality
 ms.topic: article

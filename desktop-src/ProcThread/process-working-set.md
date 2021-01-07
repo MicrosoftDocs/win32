@@ -1,5 +1,5 @@
 ---
-Description: The working set of a program is a collection of those pages in its virtual address space that have been recently referenced.
+description: The working set of a program is a collection of those pages in its virtual address space that have been recently referenced.
 ms.assetid: 6017ef59-d2e9-4245-a406-8965024dbb35
 title: Process Working Set
 ms.topic: article

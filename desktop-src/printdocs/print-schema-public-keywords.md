@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: ff966475-626d-4a48-9349-e60454d47c57
 title: Print Schema Public Keywords
 ms.topic: article

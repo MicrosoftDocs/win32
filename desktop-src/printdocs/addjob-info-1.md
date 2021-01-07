@@ -1,5 +1,5 @@
 ---
-Description: The ADDJOB\_INFO\_1 structure identifies a print job as well as the directory and file in which an application can store that job.
+description: The ADDJOB\_INFO\_1 structure identifies a print job as well as the directory and file in which an application can store that job.
 ms.assetid: de915932-11a7-47e8-9be9-edab76d94189
 title: ADDJOB_INFO_1 structure (Winspool.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The EnumForms function enumerates the forms supported by the specified printer.
+description: The EnumForms function enumerates the forms supported by the specified printer.
 ms.assetid: b13b515a-c764-4a80-ab85-95fb4abb2a6b
 title: EnumForms function (Winspool.h)
 ms.topic: reference

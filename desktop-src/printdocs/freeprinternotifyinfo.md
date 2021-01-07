@@ -1,5 +1,5 @@
 ---
-Description: The FreePrinterNotifyInfo function frees a system-allocated buffer created by the FindNextPrinterChangeNotification function.
+description: The FreePrinterNotifyInfo function frees a system-allocated buffer created by the FindNextPrinterChangeNotification function.
 ms.assetid: e50d4718-3682-486b-9d07-ddddd0b284dc
 title: FreePrinterNotifyInfo function (Winspool.h)
 ms.topic: reference

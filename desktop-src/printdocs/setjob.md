@@ -1,5 +1,5 @@
 ---
-Description: The SetJob function pauses, resumes, cancels, or restarts a print job on a specified printer. You can also use the SetJob function to set print job parameters, such as the print job priority and the document name.
+description: The SetJob function pauses, resumes, cancels, or restarts a print job on a specified printer. You can also use the SetJob function to set print job parameters, such as the print job priority and the document name.
 ms.assetid: 21947c69-c517-4962-8eb7-b45ed4211d9a
 title: SetJob function (WinSpool.h)
 ms.topic: reference

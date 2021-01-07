@@ -1,5 +1,5 @@
 ---
-Description: In Windows Vista and later, metadata became central as a method of organizing items such as files, e-mail, or contacts.
+description: In Windows Vista and later, metadata became central as a method of organizing items such as files, e-mail, or contacts.
 ms.assetid: 9dacd399-2cf3-40dd-9501-f26f0281500d
 title: Implementing Property Handlers
 ms.topic: article

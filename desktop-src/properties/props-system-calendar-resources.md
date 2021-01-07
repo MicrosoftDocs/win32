@@ -1,5 +1,5 @@
 ---
-Description: Indicates the resources used for this event.
+description: Indicates the resources used for this event.
 ms.assetid: ee420775-6091-43e2-bb65-ba57c77ae2ad
 title: System.Calendar.Resources
 ms.topic: article

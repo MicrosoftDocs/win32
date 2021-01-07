@@ -1,5 +1,5 @@
 ---
-Description: The MXDC\_PRINTTICKET\_ESCAPE\_T structure is a MXDC\_ESCAPE\_HEADER\_T structure concatenated with a MXDC\_PRINTTICKET\_DATA\_T structure.
+description: The MXDC\_PRINTTICKET\_ESCAPE\_T structure is a MXDC\_ESCAPE\_HEADER\_T structure concatenated with a MXDC\_PRINTTICKET\_DATA\_T structure.
 ms.assetid: 79b4f830-3e3f-4c6f-9e61-98e8bf6e2824
 title: MXDC_PRINTTICKET_ESCAPE_T structure (Mxdc.h)
 ms.topic: reference

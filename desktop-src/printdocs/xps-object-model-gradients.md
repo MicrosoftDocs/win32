@@ -1,5 +1,5 @@
 ---
-Description: This topic provides an example of using gradients in an XPS OM.
+description: This topic provides an example of using gradients in an XPS OM.
 ms.assetid: c58c9e5a-c871-4b44-a1be-0aceafa2f805
 title: XPS OM Gradients
 ms.topic: article

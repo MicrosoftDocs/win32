@@ -1,5 +1,5 @@
 ---
-Description: Contains battery query information.
+description: Contains battery query information.
 ms.assetid: ef5466fe-7de8-48cd-ad48-5774d7a4bb46
 title: BATTERY_QUERY_INFORMATION structure (Poclass.h)
 ms.topic: reference

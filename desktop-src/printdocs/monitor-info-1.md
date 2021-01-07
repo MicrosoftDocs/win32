@@ -1,5 +1,5 @@
 ---
-Description: The MONITOR\_INFO\_1 structure identifies an installed monitor.
+description: The MONITOR\_INFO\_1 structure identifies an installed monitor.
 ms.assetid: 7a4660bd-5df8-49dd-92f6-9574f451f10d
 title: MONITOR_INFO_1 structure (Winspool.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The Print Spooler API contains the functions and data structures that applications use to manage the Windows print spooler and the printers and print jobs that it controls.
+description: The Print Spooler API contains the functions and data structures that applications use to manage the Windows print spooler and the printers and print jobs that it controls.
 ms.assetid: d859f84d-af0e-4b8b-b7fa-d7b1fc35ed39
 title: Print Spooler API Functions
 ms.topic: article

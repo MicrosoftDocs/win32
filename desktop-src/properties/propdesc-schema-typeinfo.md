@@ -1,5 +1,5 @@
 ---
-Description: Specifies a property's type information.
+description: Specifies a property's type information.
 ms.assetid: ae1f8835-ef6c-42bb-b44f-ad374337a012
 title: typeInfo
 ms.topic: article

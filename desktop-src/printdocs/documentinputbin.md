@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 334503d7-c044-41f7-b6aa-892b002b7a4e
 title: DocumentInputBin
 ms.topic: article

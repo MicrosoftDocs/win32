@@ -1,5 +1,5 @@
 ---
-Description: Defines a valid C/C++ symbol name.
+description: Defines a valid C/C++ symbol name.
 ms.assetid: 75f74a16-0be4-466b-a88d-247c8c94f4ce
 title: CSymbolType Simple Type (Performance Counters)
 ms.topic: reference

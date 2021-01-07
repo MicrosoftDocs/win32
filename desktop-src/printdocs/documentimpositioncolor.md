@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: e1cb7e46-3078-46bf-a8c8-e10f6b9dd222
 title: DocumentImpositionColor
 ms.topic: article

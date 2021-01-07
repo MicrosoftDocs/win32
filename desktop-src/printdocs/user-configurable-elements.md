@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 1aa38771-65c1-4441-8ea3-9bda4071879f
 title: User Configurable Elements
 ms.topic: article
