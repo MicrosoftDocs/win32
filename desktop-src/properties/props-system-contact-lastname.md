@@ -1,5 +1,5 @@
 ---
-Description: Last name of the contact.
+description: Last name of the contact.
 ms.assetid: a111c084-7736-4003-b326-72182ae57f76
 title: System.Contact.LastName
 ms.topic: article

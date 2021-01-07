@@ -1,5 +1,5 @@
 ---
-Description: The denominator of PKEY\_Photo\_ExposureTime.
+description: The denominator of PKEY\_Photo\_ExposureTime.
 ms.assetid: 144677e0-b6dc-405c-95a7-b5403a548477
 title: System.Photo.ExposureTimeDenominator
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Indicates the sample size in bits for the video stream. &\#0034;SampleSize&\#0034;.
+description: Indicates the sample size in bits for the video stream. &\#0034;SampleSize&\#0034;.
 ms.assetid: 60c31ee2-5c10-4930-8f5d-a973423ff5a7
 title: System.Video.SampleSize
 ms.topic: article

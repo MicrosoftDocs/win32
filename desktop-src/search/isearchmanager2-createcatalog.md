@@ -1,5 +1,5 @@
 ---
-Description: Creates a new custom catalog in the Windows Search indexer and returns a reference to it.
+description: Creates a new custom catalog in the Windows Search indexer and returns a reference to it.
 ms.assetid: 2ADC48B8-87A2-4527-9AA8-9B0BA3A12462
 title: ISearchManager2::CreateCatalog method
 ms.topic: reference

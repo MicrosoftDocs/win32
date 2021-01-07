@@ -1,5 +1,5 @@
 ---
-Description: Wi-Fi Direct Group Id.
+description: Wi-Fi Direct Group Id.
 ms.assetid: e832403c-1f4f-4b01-b97c-158f42e421c6
 title: System.Devices.WiFiDirect.GroupId
 ms.topic: article

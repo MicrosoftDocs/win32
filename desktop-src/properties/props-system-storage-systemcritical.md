@@ -1,5 +1,5 @@
 ---
-Description: Indicates if the storage media is system critical.
+description: Indicates if the storage media is system critical.
 ms.assetid: 596e4750-9fd6-4de5-b2af-40de39d6a602
 title: System.Storage.SystemCritical
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The list of properties to show in the infotip. Properties with empty values will not be displayed.
+description: The list of properties to show in the infotip. Properties with empty values will not be displayed.
 ms.assetid: 52947832-e634-4ecb-861e-c84a84a45fc0
 title: System.PropList.InfoTip
 ms.topic: article

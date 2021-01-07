@@ -1,5 +1,5 @@
 ---
-Description: If true, the device in question is the computer.
+description: If true, the device in question is the computer.
 ms.assetid: 6f90c4b5-e3f0-4a60-b942-fead336ab48a
 title: System.Devices.LocalMachine
 ms.topic: article

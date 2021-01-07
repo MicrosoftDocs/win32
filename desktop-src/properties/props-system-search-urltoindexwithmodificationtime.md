@@ -1,5 +1,5 @@
 ---
-Description: This property is the same as System.Search.UrlToIndex except that it includes the time that the URL was last modified.
+description: This property is the same as System.Search.UrlToIndex except that it includes the time that the URL was last modified.
 ms.assetid: 53ca765b-0795-49ab-9946-c3ef101ababd
 title: System.Search.UrlToIndexWithModificationTime
 ms.topic: article

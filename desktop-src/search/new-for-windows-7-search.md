@@ -1,5 +1,5 @@
 ---
-Description: This topic lists new documentation introduced for Windows 7. Some documentation that is not listed here also contains new Windows 7 content, such as conceptual topics, and new enumeration, constant, and flag values in revisions to existing topics.
+description: This topic lists new documentation introduced for Windows 7. Some documentation that is not listed here also contains new Windows 7 content, such as conceptual topics, and new enumeration, constant, and flag values in revisions to existing topics.
 ms.assetid: 1e6808b0-c00f-46ec-9743-5300117f7d47
 title: New for Windows 7 Search
 ms.topic: article

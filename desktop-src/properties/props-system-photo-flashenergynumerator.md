@@ -1,5 +1,5 @@
 ---
-Description: The numerator of PKEY\_Photo\_FlashEnergy.
+description: The numerator of PKEY\_Photo\_FlashEnergy.
 ms.assetid: 66d1f000-124a-4584-ae66-7d293333a7be
 title: System.Photo.FlashEnergyNumerator
 ms.topic: article

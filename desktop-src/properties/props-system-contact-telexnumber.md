@@ -1,5 +1,5 @@
 ---
-Description: Telex number of the contact.
+description: Telex number of the contact.
 ms.assetid: 0d508f21-c0dd-4efa-b426-6fe7e45c9b08
 title: System.Contact.TelexNumber
 ms.topic: article

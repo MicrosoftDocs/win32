@@ -1,5 +1,5 @@
 ---
-Description: The high confidence keywords for the item.
+description: The high confidence keywords for the item.
 ms.assetid: 37a07997-d073-4cd2-91e0-42125678bc11
 title: System.HighKeywords
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Wi-Fi Direct Services Service Address.
+description: Wi-Fi Direct Services Service Address.
 ms.assetid: 6b29c244-685f-4eb7-9c80-d6b4fc591efc
 title: System.Devices.WiFiDirectServices.ServiceAddress
 ms.topic: article

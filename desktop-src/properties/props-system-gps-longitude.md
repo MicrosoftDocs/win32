@@ -1,5 +1,5 @@
 ---
-Description: Indicates the longitude.
+description: Indicates the longitude.
 ms.assetid: ef28141f-1b63-4694-b6df-fcc11ce7e50b
 title: System.GPS.Longitude
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The white balance mode at the time the photo was shot, as taken from the Exchangeable Image File (EXIF) information.
+description: The white balance mode at the time the photo was shot, as taken from the Exchangeable Image File (EXIF) information.
 ms.assetid: efa1f1db-b99e-49c1-b9ff-3e9e0e98905c
 title: System.Photo.WhiteBalance
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Webpage of the contact.
+description: Webpage of the contact.
 ms.assetid: 6e9a5f61-a561-4f1a-b63f-ab9162e1107e
 title: System.Contact.WebPage
 ms.topic: article

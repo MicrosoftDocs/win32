@@ -1,5 +1,5 @@
 ---
-Description: Puts an alternative word and its position in the IWordSink object.
+description: Puts an alternative word and its position in the IWordSink object.
 ms.assetid: 5C8A9B30-F9B5-42E9-ADAC-A11230F0C2FA
 title: IWordSink::PutAltWord method (Search.h)
 ms.topic: reference

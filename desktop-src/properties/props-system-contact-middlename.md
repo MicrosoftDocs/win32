@@ -1,5 +1,5 @@
 ---
-Description: Middle name of the contact.
+description: Middle name of the contact.
 ms.assetid: ee408ca2-0d8b-454d-9f6b-009638caf25c
 title: System.Contact.MiddleName
 ms.topic: article

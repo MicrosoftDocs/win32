@@ -1,5 +1,5 @@
 ---
-Description: Class type of the item.
+description: Class type of the item.
 ms.assetid: 081c7b33-582f-457c-9918-f7d5bb8879ab
 title: System.ItemClassType
 ms.topic: article

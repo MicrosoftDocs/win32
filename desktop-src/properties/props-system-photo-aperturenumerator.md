@@ -1,5 +1,5 @@
 ---
-Description: The numerator of System.Photo.Aperture.
+description: The numerator of System.Photo.Aperture.
 ms.assetid: dad7787f-417d-409c-bc7d-c7d5298bdfb0
 title: System.Photo.ApertureNumerator
 ms.topic: article

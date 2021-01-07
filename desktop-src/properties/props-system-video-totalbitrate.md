@@ -1,5 +1,5 @@
 ---
-Description: Indicates the total data rate in &\#0034;bits per second&\#0034; for all video and audio streams.
+description: Indicates the total data rate in &\#0034;bits per second&\#0034; for all video and audio streams.
 ms.assetid: 7667da66-261c-4627-8322-2c939738659b
 title: System.Video.TotalBitrate
 ms.topic: article

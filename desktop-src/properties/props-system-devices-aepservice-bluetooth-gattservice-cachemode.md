@@ -1,5 +1,5 @@
 ---
-Description: Sets the Bluetooth Gatt cache mode for the query.
+description: Sets the Bluetooth Gatt cache mode for the query.
 ms.assetid: 4dedc16b-c08d-4a61-88c9-67a3e50b21c7
 title: System.Devices.AepService.Bluetooth.GattService.CacheMode
 ms.topic: article

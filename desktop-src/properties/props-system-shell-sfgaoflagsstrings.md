@@ -1,5 +1,5 @@
 ---
-Description: Expresses the SFGAO flags as string values, and is used as a query optimization.
+description: Expresses the SFGAO flags as string values, and is used as a query optimization.
 ms.assetid: b4ae5ec8-191b-4623-8968-1fbf69cc2eb3
 title: System.Shell.SFGAOFlagsStrings
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The focal length of the lens when the photo was taken, as converted to a 35mm film measurement.
+description: The focal length of the lens when the photo was taken, as converted to a 35mm film measurement.
 ms.assetid: d914f873-0e61-45b4-8deb-eaff854f18b7
 title: System.Photo.FocalLengthInFilm
 ms.topic: article

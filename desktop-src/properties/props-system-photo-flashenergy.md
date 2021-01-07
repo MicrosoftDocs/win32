@@ -1,5 +1,5 @@
 ---
-Description: Indicates the strobe energy at the time the image was captured, measured in Beam Candle Power Seconds. Calculated from PKEY\_Photo\_FlashEnergyNumerator and PKEY\_Photo\_FlashEnergyDenominator.
+description: Indicates the strobe energy at the time the image was captured, measured in Beam Candle Power Seconds. Calculated from PKEY\_Photo\_FlashEnergyNumerator and PKEY\_Photo\_FlashEnergyDenominator.
 ms.assetid: afdd1bc6-87c3-4c47-9d29-43422fd699b3
 title: System.Photo.FlashEnergy
 ms.topic: article

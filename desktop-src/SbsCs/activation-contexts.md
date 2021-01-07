@@ -1,5 +1,5 @@
 ---
-Description: Activation contexts are data structures in memory containing information that the system can use to redirect an application to load a particular DLL version, COM object instance, or custom window version.
+description: Activation contexts are data structures in memory containing information that the system can use to redirect an application to load a particular DLL version, COM object instance, or custom window version.
 ms.assetid: 5416f8c0-d99b-4a5d-a689-a47bd0cf1a88
 title: Activation Contexts
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Wi-Fi Interface Guid.
+description: Wi-Fi Interface Guid.
 ms.assetid: 21f3710e-5248-4e58-b8b8-6acfddb6a931
 title: System.Devices.WiFi.InterfaceGuid
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Printer information Printer Enumeration Flag.
+description: Printer information Printer Enumeration Flag.
 ms.assetid: 50a6df8e-1055-4964-a3d1-8e0ee8a74edc
 title: System.DeviceInterface.PrinterEnumerationFlag
 ms.topic: article

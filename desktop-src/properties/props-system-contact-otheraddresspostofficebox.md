@@ -1,5 +1,5 @@
 ---
-Description: Other address post office box number of the contact.
+description: Other address post office box number of the contact.
 ms.assetid: 213e0fa2-895e-4028-9b55-5bbc6e19439f
 title: System.Contact.OtherAddressPostOfficeBox
 ms.topic: article

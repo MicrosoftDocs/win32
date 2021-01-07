@@ -1,5 +1,5 @@
 ---
-Description: Indicates the direction of contrast processing applied by the camera when the image was taken. &\#0034;0&\#0034; indicates &\#0034;Normal&\#0034;; &\#0034;1&\#0034; indicates &\#0034;Soft&\#0034;; &\#0034;2&\#0034; indicates &\#0034;Hard&\#0034;.
+description: Indicates the direction of contrast processing applied by the camera when the image was taken. &\#0034;0&\#0034; indicates &\#0034;Normal&\#0034;; &\#0034;1&\#0034; indicates &\#0034;Soft&\#0034;; &\#0034;2&\#0034; indicates &\#0034;Hard&\#0034;.
 ms.assetid: 32f89149-b90d-4fe9-9d1a-b8bb966d62fe
 title: System.Photo.Contrast
 ms.topic: article
