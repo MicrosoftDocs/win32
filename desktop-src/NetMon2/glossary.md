@@ -1,5 +1,5 @@
 ---
-Description: The Network Monitor documentation in the Platform Software Development Kit (SDK) has its own nomenclature.
+description: The Network Monitor documentation in the Platform Software Development Kit (SDK) has its own nomenclature.
 ms.assetid: 56d82bd2-a7ee-435e-bcc9-b2cdad4f1d62
 title: Glossary (Network Monitor)
 ms.topic: article

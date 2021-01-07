@@ -1,5 +1,5 @@
 ---
-Description: You can use the Evalcom2.dll to implement validation operations for installation packages and merge modules.
+description: You can use the Evalcom2.dll to implement validation operations for installation packages and merge modules.
 ms.assetid: c587a689-0c7e-4862-8567-2cdbc803b92c
 title: Validation Automation
 ms.topic: article

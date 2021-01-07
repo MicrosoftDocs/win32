@@ -1,5 +1,5 @@
 ---
-Description: The Execute method of the View object uses the question mark token to represent parameters in an SQL statement. For more information, see SQL Syntax. The values of these parameters are passed in as the corresponding fields of a parameter record.
+description: The Execute method of the View object uses the question mark token to represent parameters in an SQL statement. For more information, see SQL Syntax. The values of these parameters are passed in as the corresponding fields of a parameter record.
 ms.assetid: 4f2b2cb8-8f59-4e4a-ba09-6cb092ef81d6
 title: View.Execute method
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Contain either the name or a description of a wireless LAN profile.
+description: Contain either the name or a description of a wireless LAN profile.
 ms.assetid: cb30d76f-051f-4b90-a0e0-24088a99ca9b
 title: nameType Simple Type (LAN_policy)
 ms.topic: reference

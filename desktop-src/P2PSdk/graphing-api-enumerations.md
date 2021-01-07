@@ -1,5 +1,5 @@
 ---
-Description: 'The Graphing API uses the following constants:'
+description: 'The Graphing API uses the following constants:'
 ms.assetid: 84345690-37f2-4072-be3e-b0a610133408
 title: Graphing API Constants
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Property property of the Session object is a read-write property that represents the string value of a named installer property, as maintained by the Session object.
+description: The Property property of the Session object is a read-write property that represents the string value of a named installer property, as maintained by the Session object.
 ms.assetid: 15ce8264-2573-428c-98d9-690cfaae5144
 title: Session.Property property
 ms.topic: reference

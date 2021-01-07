@@ -1,5 +1,5 @@
 ---
-Description: A capture filter is an element of an NPP application that instructs the Network Monitor driver (Nmnt.sys) which frames of network data to retain and which frames to ignore.
+description: A capture filter is an element of an NPP application that instructs the Network Monitor driver (Nmnt.sys) which frames of network data to retain and which frames to ignore.
 ms.assetid: 6ab17e18-bd97-42a8-b569-b205ac19ffd1
 title: About Capture Filters
 ms.topic: article

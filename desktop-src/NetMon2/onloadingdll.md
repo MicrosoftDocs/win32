@@ -1,5 +1,5 @@
 ---
-Description: Loads the monitor DLL.
+description: Loads the monitor DLL.
 ms.assetid: 6de2750f-3f12-4c0a-af8d-3ebd227fa123
 title: OnLoadingDLL function (Netmon.h)
 ms.topic: reference

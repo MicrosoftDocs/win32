@@ -1,5 +1,5 @@
 ---
-Description: If this style bit is set the text in the control is displayed in a right-to-left reading order.
+description: If this style bit is set the text in the control is displayed in a right-to-left reading order.
 ms.assetid: 68394498-98ca-4bcd-86c0-3f692a26a258
 title: RTLRO Control Attribute
 ms.topic: article

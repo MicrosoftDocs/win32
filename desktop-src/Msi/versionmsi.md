@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the VersionMsi property to the version of Windows Installer run during the installation.
+description: The installer sets the VersionMsi property to the version of Windows Installer run during the installation.
 ms.assetid: f4d00308-db97-4c9d-901b-3ff0feeedea0
 title: VersionMsi property
 ms.topic: reference

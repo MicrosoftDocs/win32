@@ -1,5 +1,5 @@
 ---
-Description: The PROPERTYINSTEX structure defines a freeform, extended property instance.
+description: The PROPERTYINSTEX structure defines a freeform, extended property instance.
 ms.assetid: a2316baf-07e2-4617-bb35-e20cfb11fbcb
 title: PROPERTYINSTEX structure (Netmon.h)
 ms.topic: reference

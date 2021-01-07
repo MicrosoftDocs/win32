@@ -1,5 +1,5 @@
 ---
-Description: The DestroyPropertyDatabase function releases the resources used to create the protocol property database.
+description: The DestroyPropertyDatabase function releases the resources used to create the protocol property database.
 ms.assetid: a0d1c416-8b08-47ca-a88e-e70588574376
 title: DestroyPropertyDatabase function (Netmon.h)
 ms.topic: reference

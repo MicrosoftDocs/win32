@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Peer Distribution service supports the following structures.
+description: The Microsoft Peer Distribution service supports the following structures.
 ms.assetid: 26badfe6-3a5a-4c2e-9ef1-534c2e8573d0
 title: Peer Distribution API Structures
 ms.topic: article

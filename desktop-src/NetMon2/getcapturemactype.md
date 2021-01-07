@@ -1,5 +1,5 @@
 ---
-Description: The GetCaptureMacType function returns the MAC type of a given capture.
+description: The GetCaptureMacType function returns the MAC type of a given capture.
 ms.assetid: de0dfb36-df3a-4f6e-b266-09c81dfdc88b
 title: GetCaptureMacType function (Netmon.h)
 ms.topic: reference

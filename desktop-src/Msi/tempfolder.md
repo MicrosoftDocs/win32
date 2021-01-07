@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the TempFolder property to the full path to the Temp folder.Authors should not need to set the TempFolder property.
+description: The installer sets the TempFolder property to the full path to the Temp folder.Authors should not need to set the TempFolder property.
 ms.assetid: 841dd1b3-249c-49e1-b462-82da65b4b023
 title: TempFolder property
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The TRANSFORMS property is a list of the transforms that the installer applies when installing the package.
+description: The TRANSFORMS property is a list of the transforms that the installer applies when installing the package.
 ms.assetid: 'da20f99e-3022-4382-97bb-8f1206072347'
 title: TRANSFORMS property
 ms.topic: article

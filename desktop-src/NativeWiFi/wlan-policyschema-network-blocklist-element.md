@@ -1,5 +1,5 @@
 ---
-Description: Defines a blocked network.
+description: Defines a blocked network.
 ms.assetid: ccf24d45-cae0-4eb7-951a-004a5f71e04a
 title: network (blockList) Element
 ms.topic: reference

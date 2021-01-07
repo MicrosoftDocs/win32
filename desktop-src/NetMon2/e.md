@@ -1,5 +1,5 @@
 ---
-Description: Glossary of Network Monitor terms that begin with the letter E.
+description: Glossary of Network Monitor terms that begin with the letter E.
 ROBOTS: NOINDEX, NOFOLLOW
 title: E (Network Monitor)
 ms.topic: article

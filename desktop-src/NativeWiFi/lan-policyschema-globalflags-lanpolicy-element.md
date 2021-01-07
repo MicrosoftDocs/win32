@@ -1,5 +1,5 @@
 ---
-Description: Contains the global settings for the automatic configuration of wired networks.
+description: Contains the global settings for the automatic configuration of wired networks.
 ms.assetid: 172cf15c-cd51-43d4-ae5d-f9460c2a40e2
 title: globalFlags (LANPolicy) Element
 ms.topic: reference

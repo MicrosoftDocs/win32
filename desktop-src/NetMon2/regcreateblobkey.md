@@ -1,5 +1,5 @@
 ---
-Description: The RegCreateBlobKey function stores a BLOB at the given registry key.
+description: The RegCreateBlobKey function stores a BLOB at the given registry key.
 ms.assetid: 14f3763e-aa04-4d51-b388-81ebf0d3952c
 title: RegCreateBlobKey function (Netmon.h)
 ms.topic: reference

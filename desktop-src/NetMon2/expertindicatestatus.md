@@ -1,5 +1,5 @@
 ---
-Description: The ExpertIndicateStatus function indicates the percentage of completion of the experts analysis of the capture file.
+description: The ExpertIndicateStatus function indicates the percentage of completion of the experts analysis of the capture file.
 ms.assetid: 6dbaa6d3-6068-4a28-9d9f-bcc7a25da407
 title: ExpertIndicateStatus function (Netmon.h)
 ms.topic: reference

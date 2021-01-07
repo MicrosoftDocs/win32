@@ -1,5 +1,5 @@
 ---
-Description: The Property property of the UIPreview object is a read-write property that represents the string value of a named installer property, or, if it is prefixed with a percent sign (%), the value of a system environment variable for the current process.
+description: The Property property of the UIPreview object is a read-write property that represents the string value of a named installer property, or, if it is prefixed with a percent sign (%), the value of a system environment variable for the current process.
 ms.assetid: 92900426-8fb5-4a94-a982-438267ad756e
 title: UIPreview.Property property
 ms.topic: reference

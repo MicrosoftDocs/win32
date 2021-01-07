@@ -1,5 +1,5 @@
 ---
-Description: This section describes how to plan, develop, and test event reference pages (ERPs) and how to deploy them in an expert or monitor. For information about ERPs and how to use them with Network Monitor, see Event Reference Page.
+description: This section describes how to plan, develop, and test event reference pages (ERPs) and how to deploy them in an expert or monitor. For information about ERPs and how to use them with Network Monitor, see Event Reference Page.
 ms.assetid: 78d6e8cf-785e-4d5f-a78d-9ef9da9bc3e0
 title: Creating Expert and Monitor Event Reference Pages
 ms.topic: article

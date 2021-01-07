@@ -1,5 +1,5 @@
 ---
-Description: These sections describe using Merge modules.
+description: These sections describe using Merge modules.
 ms.assetid: 0890565d-21bb-4b3f-852c-e148d0d0ff1d
 title: Using Merge Modules
 ms.topic: article

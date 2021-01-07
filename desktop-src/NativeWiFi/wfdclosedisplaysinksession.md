@@ -1,5 +1,5 @@
 ---
-Description: Cleans up the state for the session being opened, or the currently open session.
+description: Cleans up the state for the session being opened, or the currently open session.
 ms.assetid: 8247AFA9-F471-4CCD-972D-D0C827E86880
 title: WFDDisplaySinkCloseSession function (Wfdsink.h)
 ms.topic: reference

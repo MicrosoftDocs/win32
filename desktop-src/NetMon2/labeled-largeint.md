@@ -1,5 +1,5 @@
 ---
-Description: The LABELED\_LARGEINT structure defines a label that is displayed when a specific LARGEINT property value is detected.
+description: The LABELED\_LARGEINT structure defines a label that is displayed when a specific LARGEINT property value is detected.
 ms.assetid: ca565be0-96bb-4265-9422-793db0723563
 title: LABELED_LARGEINT structure (Netmon.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Defines a wired (LAN) policy profile.
+description: Defines a wired (LAN) policy profile.
 ms.assetid: 89331bd1-d447-482c-90de-e3a74c86bf4c
 title: LAN_policy Schema
 ms.topic: article

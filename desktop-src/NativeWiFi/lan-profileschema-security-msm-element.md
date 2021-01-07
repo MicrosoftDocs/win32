@@ -1,5 +1,5 @@
 ---
-Description: Contains security settings for wired networks.
+description: Contains security settings for wired networks.
 ms.assetid: 08470cf4-3722-4cb9-9877-13eca2f7d04e
 title: security (MSM) Element (LAN_policy)
 ms.topic: reference

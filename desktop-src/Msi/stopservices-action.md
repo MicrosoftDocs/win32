@@ -1,5 +1,5 @@
 ---
-Description: The StopServices action stops system services. This action queries the ServiceControl table.
+description: The StopServices action stops system services. This action queries the ServiceControl table.
 ms.assetid: 1ad01205-f8b6-400f-be1d-c00a5b71ccfd
 title: StopServices Action
 ms.topic: article

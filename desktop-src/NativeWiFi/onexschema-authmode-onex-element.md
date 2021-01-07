@@ -1,5 +1,5 @@
 ---
-Description: Specifies the type of credentials used for authentication.
+description: Specifies the type of credentials used for authentication.
 ms.assetid: a56ce888-ec07-4ce8-a540-6d1890cb338d
 title: authMode (OneX) Element
 ms.topic: reference

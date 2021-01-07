@@ -1,5 +1,5 @@
 ---
-Description: Use the following code to set the callback frequency.
+description: Use the following code to set the callback frequency.
 ms.assetid: fdcad3c2-7e36-4194-83c7-dccbd50762d5
 title: Setting the Callback Frequency
 ms.topic: article

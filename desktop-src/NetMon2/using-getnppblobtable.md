@@ -1,5 +1,5 @@
 ---
-Description: The following example shows how to use the GetNPPBlobTable function to retrieve a NPP BLOB table that represents the registered network interface cards on the local computer.
+description: The following example shows how to use the GetNPPBlobTable function to retrieve a NPP BLOB table that represents the registered network interface cards on the local computer.
 ms.assetid: 7267f658-103d-4290-8ebf-b78866bd1fe8
 title: Using GetNPPBlobTable
 ms.topic: article

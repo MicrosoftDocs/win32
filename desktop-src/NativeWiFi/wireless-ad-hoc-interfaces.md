@@ -1,5 +1,5 @@
 ---
-Description: The wireless ad hoc programming interface is composed of the following interfaces.
+description: The wireless ad hoc programming interface is composed of the following interfaces.
 ms.assetid: 8e975750-cfcc-4e36-a3d1-539b7c077459
 title: Wireless Ad Hoc Interfaces
 ms.topic: article

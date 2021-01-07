@@ -1,5 +1,5 @@
 ---
-Description: The ServiceInstall table is used to install a service and has the following columns.
+description: The ServiceInstall table is used to install a service and has the following columns.
 ms.assetid: 81688d31-e560-4dd0-8d84-efb50206c76e
 title: ServiceInstall Table
 ms.topic: article

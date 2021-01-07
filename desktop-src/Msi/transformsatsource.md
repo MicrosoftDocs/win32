@@ -1,5 +1,5 @@
 ---
-Description: Setting this property is like setting the TransformsAtSource policy policy except that the scope is different.
+description: Setting this property is like setting the TransformsAtSource policy policy except that the scope is different.
 ms.assetid: b78c3757-d969-4684-84b9-b2acfd9f5c82
 title: TRANSFORMSATSOURCE property
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The Native Wifi API contains functions, structures, and enumerations that support wireless network connectivity and wireless profile management.
+description: The Native Wifi API contains functions, structures, and enumerations that support wireless network connectivity and wireless profile management.
 ms.assetid: 686f9ccf-5040-44c5-8633-83f12dc46586
 title: About the Native Wifi API
 ms.topic: article

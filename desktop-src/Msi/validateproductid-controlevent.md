@@ -1,5 +1,5 @@
 ---
-Description: The ValidateProductID event sets the ProductID property to the full Product ID. If the validation is unsuccessful, then this event puts up an error message and modal dialog box for a user entry of the Product ID.
+description: The ValidateProductID event sets the ProductID property to the full Product ID. If the validation is unsuccessful, then this event puts up an error message and modal dialog box for a user entry of the Product ID.
 ms.assetid: 44002cae-154a-4938-a15c-456c293e94fb
 title: ValidateProductID ControlEvent
 ms.topic: article

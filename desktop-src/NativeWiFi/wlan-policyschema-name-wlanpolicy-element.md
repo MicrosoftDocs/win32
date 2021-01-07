@@ -1,5 +1,5 @@
 ---
-Description: Contains the name of a wireless LAN policy.
+description: Contains the name of a wireless LAN policy.
 ms.assetid: 8b63c11d-3ae4-47e4-9255-a10fa175c55b
 title: name (WLANPolicy) Element
 ms.topic: reference

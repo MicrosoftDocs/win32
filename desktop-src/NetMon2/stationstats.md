@@ -1,5 +1,5 @@
 ---
-Description: The STATIONSTATS structure provides statistics about a specific station described by the current capture.
+description: The STATIONSTATS structure provides statistics about a specific station described by the current capture.
 ms.assetid: f85d53d6-f496-4242-875f-e173c76b046a
 title: STATIONSTATS structure (Netmon.h)
 ms.topic: reference

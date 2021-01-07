@@ -1,5 +1,5 @@
 ---
-Description: Contains the SSID of an interface.
+description: Contains the SSID of an interface.
 ms.assetid: f2b15ef9-99ee-4505-8575-224112024d7a
 title: DOT11_SSID structure (Wlantypes.h)
 ms.topic: reference

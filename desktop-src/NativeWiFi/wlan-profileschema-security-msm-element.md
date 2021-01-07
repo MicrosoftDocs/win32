@@ -1,5 +1,5 @@
 ---
-Description: Contains various security settings.
+description: Contains various security settings.
 ms.assetid: 1d912fb1-8fb4-4761-8991-5a50ffb0399e
 title: security (MSM) Element (LAN_policy)
 ms.topic: reference

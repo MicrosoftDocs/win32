@@ -1,5 +1,5 @@
 ---
-Description: Specifies, in seconds, the maximum delay before the single sign on connection attempt fails.
+description: Specifies, in seconds, the maximum delay before the single sign on connection attempt fails.
 ms.assetid: ba8c137e-dd05-4ebc-9a83-cd612f65d4dc
 title: maxDelay (singleSignOn) Element
 ms.topic: reference

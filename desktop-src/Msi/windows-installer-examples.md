@@ -1,5 +1,5 @@
 ---
-Description: The following sections present an example of authoring installation package for an application.
+description: The following sections present an example of authoring installation package for an application.
 ms.assetid: 1d442f57-7153-4c90-81bd-bc6eb802b47b
 title: Windows Installer Examples
 ms.topic: article

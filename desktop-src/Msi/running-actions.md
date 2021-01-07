@@ -1,5 +1,5 @@
 ---
-Description: The installer functions can be used to run specific actions or action sequences.
+description: The installer functions can be used to run specific actions or action sequences.
 ms.assetid: ceb4f70b-1179-416a-9030-3d87341cb956
 title: Running Actions
 ms.topic: article

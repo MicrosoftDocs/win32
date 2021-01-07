@@ -1,5 +1,5 @@
 ---
-Description: The LookupWordSetString function returns the string corresponding to the requested value from a labeled set.
+description: The LookupWordSetString function returns the string corresponding to the requested value from a labeled set.
 ms.assetid: e8d158a1-8544-4c10-b8e8-46888c1097e4
 title: LookupWordSetString function (Netmon.h)
 ms.topic: reference

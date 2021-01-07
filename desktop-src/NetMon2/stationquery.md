@@ -1,5 +1,5 @@
 ---
-Description: The STATIONQUERY structure provides information about a specific computer using Network Monitor.
+description: The STATIONQUERY structure provides information about a specific computer using Network Monitor.
 ms.assetid: b7202c6b-e2b9-4a6f-8b87-3d11879f1d69
 title: STATIONQUERY structure (Netmon.h)
 ms.topic: reference

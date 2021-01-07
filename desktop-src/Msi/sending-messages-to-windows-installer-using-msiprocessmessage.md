@@ -1,5 +1,5 @@
 ---
-Description: The messages sent using MsiProcessMessage are the same messages that are received by the INSTALLUI\_HANDLER callback function if MsiSetExternalUI was called.
+description: The messages sent using MsiProcessMessage are the same messages that are received by the INSTALLUI\_HANDLER callback function if MsiSetExternalUI was called.
 ms.assetid: ca73bd0a-6f4e-453c-9e38-14cfd602d42c
 title: Send Messages to Windows Installer Using MsiProcessMessage
 ms.topic: article

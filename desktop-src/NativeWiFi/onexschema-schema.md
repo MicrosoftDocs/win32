@@ -1,5 +1,5 @@
 ---
-Description: Defines 802.1X configuration elements.
+description: Defines 802.1X configuration elements.
 ms.assetid: 4755356e-cb4b-4eed-a494-ca0d17f5184f
 title: OneX Schema
 ms.topic: article

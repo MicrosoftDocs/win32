@@ -1,5 +1,5 @@
 ---
-Description: Selects a register NIC.
+description: Selects a register NIC.
 ms.assetid: 27814a40-6933-498b-a0d2-535698b1e402
 title: GetNPPBlobFromUI function (Netmon.h)
 ms.topic: reference

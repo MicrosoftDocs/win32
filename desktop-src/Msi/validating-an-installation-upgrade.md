@@ -1,5 +1,5 @@
 ---
-Description: Whenever making any changes to the package, authors of upgrade packages should always run validation on their packages before attempting to install the package for the first time and rerun validation.
+description: Whenever making any changes to the package, authors of upgrade packages should always run validation on their packages before attempting to install the package for the first time and rerun validation.
 ms.assetid: c578c020-18be-47ea-8f59-c1bbd45f1260
 title: Validating an Installation Upgrade
 ms.topic: article

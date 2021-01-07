@@ -1,5 +1,5 @@
 ---
-Description: The ParserAutoInstallInfo export function identifies the parser, or parsers that are located in a DLL. ParserAutoInstallInfo should be implemented in all parser DLLs.
+description: The ParserAutoInstallInfo export function identifies the parser, or parsers that are located in a DLL. ParserAutoInstallInfo should be implemented in all parser DLLs.
 ms.assetid: '7af3bf3c-d415-4af9-8f5c-c9a76535bd1a'
 title: ParserAutoInstallInfo callback function (Netmon.h)
 ms.topic: reference

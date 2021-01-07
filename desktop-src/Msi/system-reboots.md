@@ -1,5 +1,5 @@
 ---
-Description: The Windows Installer can determine when a reboot of the system is necessary and automatically prompt the user to reboot at the end of the installation.
+description: The Windows Installer can determine when a reboot of the system is necessary and automatically prompt the user to reboot at the end of the installation.
 ms.assetid: 10117d2c-c2c8-456f-9fce-a89c2d69d3c1
 title: System Reboots
 ms.topic: article

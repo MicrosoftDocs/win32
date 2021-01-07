@@ -1,5 +1,5 @@
 ---
-Description: The GetTotalStatistics method retrieves the total statistics for the current capture.
+description: The GetTotalStatistics method retrieves the total statistics for the current capture.
 ms.assetid: 904c7496-5603-41b9-8481-06fa31f6f112
 title: IDelaydC::GetTotalStatistics method (Netmon.h)
 ms.topic: reference

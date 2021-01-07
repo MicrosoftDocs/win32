@@ -1,5 +1,5 @@
 ---
-Description: Sets a string at a given location within a BLOB.
+description: Sets a string at a given location within a BLOB.
 ms.assetid: 645e6b8b-aaaf-429f-ad2f-bf4364ef4e80
 title: SetStringInBlob function (Netmon.h)
 ms.topic: reference

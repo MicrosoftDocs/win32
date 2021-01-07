@@ -1,5 +1,5 @@
 ---
-Description: The ExpertGetStartupInfo function retrieves the startup configuration information for the expert.
+description: The ExpertGetStartupInfo function retrieves the startup configuration information for the expert.
 ms.assetid: 15f080ed-50b7-40c6-b283-dbe416a2b0e9
 title: ExpertGetStartupInfo function (Netmon.h)
 ms.topic: reference

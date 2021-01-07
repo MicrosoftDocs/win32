@@ -1,5 +1,5 @@
 ---
-Description: The SESSIONSTATS structure provides statistics about a session.
+description: The SESSIONSTATS structure provides statistics about a session.
 ms.assetid: 51a6a601-634e-4d97-8c85-d3961400a2d1
 title: SESSIONSTATS structure (Netmon.h)
 ms.topic: reference

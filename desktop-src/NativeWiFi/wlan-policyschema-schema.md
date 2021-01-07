@@ -1,5 +1,5 @@
 ---
-Description: Defines a WLAN policy profile used by the Native Wifi AutoConfig service.
+description: Defines a WLAN policy profile used by the Native Wifi AutoConfig service.
 ms.assetid: b983df2e-95cf-41ce-929e-2bc560854f21
 title: WLAN_policy Schema
 ms.topic: article

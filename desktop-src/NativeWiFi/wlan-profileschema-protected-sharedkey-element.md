@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether a shared key is encrypted.
+description: Indicates whether a shared key is encrypted.
 ms.assetid: 9206ef74-cd3e-4374-bea9-0c10505d10bf
 title: protected (sharedKey) Element
 ms.topic: reference
