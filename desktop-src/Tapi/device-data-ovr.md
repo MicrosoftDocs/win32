@@ -1,5 +1,5 @@
 ---
-Description: The following material covers the device-related information that a service provider can expose and that a TAPI application can use in operations such as resource inventory and session control.
+description: The following material covers the device-related information that a service provider can expose and that a TAPI application can use in operations such as resource inventory and session control.
 ms.assetid: 00a6a198-8413-43bd-aeb9-7cf027148e98
 title: Device Data
 ms.topic: article

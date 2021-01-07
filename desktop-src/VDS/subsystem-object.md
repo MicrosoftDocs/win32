@@ -1,5 +1,5 @@
 ---
-Description: Subsystem Object
+description: Subsystem Object
 ms.assetid: f605a5de-9256-4b43-8e12-3d78fd6cd9f1
 title: Subsystem Object
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Remote TSP (Remotesp.tsp) provides access to communications resources not local to the current computer, such as a PBX.
+description: The Remote TSP (Remotesp.tsp) provides access to communications resources not local to the current computer, such as a PBX.
 ms.assetid: edf095e2-7b1c-4284-9a3b-4231ed83a5c9
 title: Remote TSP
 ms.topic: article

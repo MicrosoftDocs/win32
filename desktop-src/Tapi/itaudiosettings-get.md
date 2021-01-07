@@ -1,5 +1,5 @@
 ---
-Description: The Get method retrieves the value of a given audio setting property.
+description: The Get method retrieves the value of a given audio setting property.
 ms.assetid: 5ad9a4e8-c5b0-43e9-bf75-6460fd23501a
 title: ITAudioSettings::Get method (Ipmsp.h)
 ms.topic: reference

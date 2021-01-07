@@ -1,5 +1,5 @@
 ---
-Description: The following tables are a quick-reference alphabetical listing of TAPI functions and structures, together with the TAPI versions associated with each element.
+description: The following tables are a quick-reference alphabetical listing of TAPI functions and structures, together with the TAPI versions associated with each element.
 ms.assetid: 38fb3b72-4648-4c44-ad58-af81a5de5623
 title: TAPI Elements By Version
 ms.topic: article

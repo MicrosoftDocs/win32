@@ -1,5 +1,5 @@
 ---
-Description: 'VDS provides two helper objects: the enumeration object and the async object. This topic describes each of these objects and provides links to examples of how callers work with each.'
+description: 'VDS provides two helper objects: the enumeration object and the async object. This topic describes each of these objects and provides links to examples of how callers work with each.'
 ms.assetid: 0f809c71-a3bd-4c62-8086-9651ea1a3400
 title: Helper Objects
 ms.topic: article

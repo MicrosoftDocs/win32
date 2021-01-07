@@ -1,5 +1,5 @@
 ---
-Description: Sent when a user performs a pen flick. A window receives this message through its WindowProc function.
+description: Sent when a user performs a pen flick. A window receives this message through its WindowProc function.
 ms.assetid: 9433aadf-3440-4249-8f2c-3e22ebc949fb
 title: WM_TABLET_FLICK message (Tpcshrd.h)
 ms.topic: reference

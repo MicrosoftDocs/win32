@@ -1,5 +1,5 @@
 ---
-Description: The get\_Status method returns a VARIANT\_BOOL indicating participant status.
+description: The get\_Status method returns a VARIANT\_BOOL indicating participant status.
 ms.assetid: 03ad763b-5223-41b5-b0cf-1f13c761f5c2
 title: ITParticipant::get_Status method (Ipmsp.h)
 ms.topic: reference

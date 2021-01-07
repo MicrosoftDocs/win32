@@ -1,5 +1,5 @@
 ---
-Description: The PHONEHOOKSWITCHMODE\_ bit-flag constants describe the microphone and speaker components of a hookswitch device.
+description: The PHONEHOOKSWITCHMODE\_ bit-flag constants describe the microphone and speaker components of a hookswitch device.
 ms.assetid: 532bf089-d5ca-4a04-847d-69e48990ff5c
 title: PHONEHOOKSWITCHMODE_ Constants (Tapi.h)
 ms.topic: reference

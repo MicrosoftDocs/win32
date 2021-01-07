@@ -1,5 +1,5 @@
 ---
-Description: The TSPI LINE\_SENDMSPDATA message is sent when the telephony service provider (TSP) wants to pass information to the media service provider (MSP).
+description: The TSPI LINE\_SENDMSPDATA message is sent when the telephony service provider (TSP) wants to pass information to the media service provider (MSP).
 ms.assetid: 982f40b3-7758-493c-9d04-6480e3c9e86d
 title: LINE_SENDMSPDATA message (Tspi.h)
 ms.topic: reference

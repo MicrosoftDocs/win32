@@ -1,5 +1,5 @@
 ---
-Description: TSPI includes a number of operations that start the lifetime of a call handle.
+description: TSPI includes a number of operations that start the lifetime of a call handle.
 ms.assetid: 28e171a3-db47-40fd-9c5a-d7b76d834a99
 title: Async Replies versus Events on New Call Handles
 ms.topic: article

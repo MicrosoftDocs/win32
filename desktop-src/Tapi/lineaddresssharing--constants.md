@@ -1,5 +1,5 @@
 ---
-Description: The LINEADDRESSSHARING\_ bit-flag constants describe various ways an address can be shared between lines.
+description: The LINEADDRESSSHARING\_ bit-flag constants describe various ways an address can be shared between lines.
 ms.assetid: f37ba549-c8dc-4a7c-bfe6-8e5f733d9750
 title: LINEADDRESSSHARING_ Constants (Tapi.h)
 ms.topic: reference

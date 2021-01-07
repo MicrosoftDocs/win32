@@ -1,5 +1,5 @@
 ---
-Description: Using owner-drawn menus to support speech functionality for the Tablet PC.
+description: Using owner-drawn menus to support speech functionality for the Tablet PC.
 ms.assetid: fbe2d420-f667-416b-bff3-0fee9ae22203
 title: Using Owner-Drawn Menus
 ms.topic: article

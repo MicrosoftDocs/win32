@@ -1,5 +1,5 @@
 ---
-Description: For extensible bit-flag data constants, a service-provider vendor can define new values for specified bits.
+description: For extensible bit-flag data constants, a service-provider vendor can define new values for specified bits.
 ms.assetid: bf3ca2b0-a9fb-4e63-87de-6d5cbe5cd746
 title: Bit-Flag Data Constants
 ms.topic: article

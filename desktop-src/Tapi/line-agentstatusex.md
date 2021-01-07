@@ -1,5 +1,5 @@
 ---
-Description: The LINE\_AGENTSTATUSEX message is sent when the status of an ACD agent changes on an agent handler for which the application currently has an open line. This message is generated using lineProxyMessage function.
+description: The LINE\_AGENTSTATUSEX message is sent when the status of an ACD agent changes on an agent handler for which the application currently has an open line. This message is generated using lineProxyMessage function.
 ms.assetid: a0709367-9105-43af-9772-0161d94c098a
 title: LINE_AGENTSTATUSEX message (Tapi.h)
 ms.topic: reference

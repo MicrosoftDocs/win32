@@ -1,5 +1,5 @@
 ---
-Description: The rate or bandwidth of a call specifies the speed of data transmission. Three data points identify rate the current rate the maximum rate for a specified bearer mode and the minimum rate for the bearer mode.
+description: The rate or bandwidth of a call specifies the speed of data transmission. Three data points identify rate the current rate the maximum rate for a specified bearer mode and the minimum rate for the bearer mode.
 ms.assetid: bc373ac5-a986-483f-a136-60cdc2e2c6b0
 title: Rate
 ms.topic: article

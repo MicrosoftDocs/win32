@@ -1,5 +1,5 @@
 ---
-Description: The following tables list formats that are available for each factoid used in Japanese.
+description: The following tables list formats that are available for each factoid used in Japanese.
 ms.assetid: 008bd1a8-d396-4f18-83cd-c68d57a7e8a7
 title: Japanese Factoids
 ms.topic: article

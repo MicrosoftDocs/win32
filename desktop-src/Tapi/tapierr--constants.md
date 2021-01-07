@@ -1,5 +1,5 @@
 ---
-Description: The TAPIERR\_ constants provide information concerning function execution failures.
+description: The TAPIERR\_ constants provide information concerning function execution failures.
 ms.assetid: 6d1cf18b-efeb-4703-9b8e-fce59b61b63f
 title: TAPIERR_ Constants (Tapi.h)
 ms.topic: reference

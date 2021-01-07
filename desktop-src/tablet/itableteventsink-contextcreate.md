@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a new tablet context is created.
+description: Occurs when a new tablet context is created.
 ms.assetid: 64e1f778-90c1-417d-a80b-37aeecffd411
 title: ITabletEventSink::ContextCreate method
 ms.topic: reference

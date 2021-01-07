@@ -1,5 +1,5 @@
 ---
-Description: The following code example demonstrates handling of new call notifications, such as finding or creating appropriate terminals to render the media.
+description: The following code example demonstrates handling of new call notifications, such as finding or creating appropriate terminals to render the media.
 ms.assetid: 77f6e1b5-b60e-4e8d-b747-7eceae8b0611
 title: Receive a Call
 ms.topic: article

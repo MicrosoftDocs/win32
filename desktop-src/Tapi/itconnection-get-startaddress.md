@@ -1,5 +1,5 @@
 ---
-Description: The get\_StartAddress method gets the first address to be used for the session.
+description: The get\_StartAddress method gets the first address to be used for the session.
 ms.assetid: 3c4fec19-1b7d-4052-afd8-7aaf095907d0
 title: ITConnection::get_StartAddress method (Sdpblb.h)
 ms.topic: reference

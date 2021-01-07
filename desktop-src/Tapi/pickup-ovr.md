@@ -1,5 +1,5 @@
 ---
-Description: The pickup operation allows an application to answer a session that is alerting at another address. The application identifies the target of the pickup and is returned a session identifier for the picked-up call.
+description: The pickup operation allows an application to answer a session that is alerting at another address. The application identifies the target of the pickup and is returned a session identifier for the picked-up call.
 ms.assetid: 3dfbb5c0-b533-403f-ad6c-b9e1b52ab47a
 title: Pickup
 ms.topic: article

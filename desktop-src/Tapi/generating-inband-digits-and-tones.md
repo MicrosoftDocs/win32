@@ -1,5 +1,5 @@
 ---
-Description: After a call is in the connected state, information can be transmitted over it.
+description: After a call is in the connected state, information can be transmitted over it.
 ms.assetid: a2afa7e9-c625-48ec-920b-0ae8c3e1b395
 title: Generating Inband Digits and Tones
 ms.topic: article

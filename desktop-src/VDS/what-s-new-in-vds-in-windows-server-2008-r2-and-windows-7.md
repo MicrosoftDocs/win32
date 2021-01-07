@@ -1,5 +1,5 @@
 ---
-Description: Windows Server 2008 R2.
+description: Windows Server 2008 R2.
 ms.assetid: 4ab37529-8d56-47a3-ad3d-0197cabd4f87
 title: "What's New in VDS in Windows Server 2008 R2 and Windows 7"
 ms.topic: article

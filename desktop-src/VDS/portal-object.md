@@ -1,5 +1,5 @@
 ---
-Description: Portal Object
+description: Portal Object
 ms.assetid: 6655bbae-07d3-416b-9e45-ddcbe3433f40
 title: Portal Object
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The following code example demonstrates a call transfer.
+description: The following code example demonstrates a call transfer.
 ms.assetid: 05862605-2600-4cdf-8390-e24e4e8586f3
 title: Transfer a Call
 ms.topic: article

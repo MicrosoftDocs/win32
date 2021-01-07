@@ -1,5 +1,5 @@
 ---
-Description: The RealTimeStylus object is designed to provide real-time access to the data stream from the tablet pen.
+description: The RealTimeStylus object is designed to provide real-time access to the data stream from the tablet pen.
 ms.assetid: 7217e2d5-ca62-4d65-bf22-9511b367c798
 title: Plug-ins and the RealTimeStylus Class
 ms.topic: article

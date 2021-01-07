@@ -1,5 +1,5 @@
 ---
-Description: The ReleaseFormat method releases the structure associated with the format.
+description: The ReleaseFormat method releases the structure associated with the format.
 ms.assetid: 67181773-5a04-4e20-9814-b004d3b549f5
 title: ITFormatControl::ReleaseFormat method (Ipmsp.h)
 ms.topic: reference

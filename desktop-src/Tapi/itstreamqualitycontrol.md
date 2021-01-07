@@ -1,5 +1,5 @@
 ---
-Description: The ITStreamQualityControl exposes methods that allow an application to get and set parameters for stream quality control.
+description: The ITStreamQualityControl exposes methods that allow an application to get and set parameters for stream quality control.
 ms.assetid: b9ecf24a-c87e-44a6-9e20-aa7bf7619314
 title: ITStreamQualityControl interface (Ipmsp.h)
 ms.topic: reference

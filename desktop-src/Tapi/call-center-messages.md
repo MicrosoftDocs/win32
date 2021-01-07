@@ -1,5 +1,5 @@
 ---
-Description: Messages are used to notify the application of asynchronous events.
+description: Messages are used to notify the application of asynchronous events.
 ms.assetid: 52169acc-4096-4418-93b6-a43a1de866ad
 title: Call Center Messages
 ms.topic: article

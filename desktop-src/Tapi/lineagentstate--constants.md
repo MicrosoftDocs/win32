@@ -1,5 +1,5 @@
 ---
-Description: The LINEAGENTSTATE\_ constants describe the state of an agent on an address.
+description: The LINEAGENTSTATE\_ constants describe the state of an agent on an address.
 ms.assetid: 1dbc33e7-05cc-4cb9-8904-f495b884b8db
 title: LINEAGENTSTATE_ Constants (Tapi.h)
 ms.topic: reference

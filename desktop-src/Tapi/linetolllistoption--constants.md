@@ -1,5 +1,5 @@
 ---
-Description: The LINETOLLLISTOPTION\_ bit-flag constants describe options for manipulating a toll list.
+description: The LINETOLLLISTOPTION\_ bit-flag constants describe options for manipulating a toll list.
 ms.assetid: 22878045-c1d1-45b6-a864-d979514e4b7d
 title: LINETOLLLISTOPTION_ Constants (Tapi.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The following constants may be returned as errors.
+description: The following constants may be returned as errors.
 ms.assetid: 185bd906-c276-4075-9c23-eb112da2a7ca
 title: RND_ Constants (Rnderr.h)
 ms.topic: reference

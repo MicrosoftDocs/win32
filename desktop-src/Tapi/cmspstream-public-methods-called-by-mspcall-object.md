@@ -1,5 +1,5 @@
 ---
-Description: The following list contains the CMSPStream methods called by the MSPCall object.
+description: The following list contains the CMSPStream methods called by the MSPCall object.
 ms.assetid: 7a59ca78-b5e8-45e9-8fdb-89402ffef916
 title: CMSPStream Methods Called by MSPCall Object
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Use standard Windows controls whenever possible, because they are fully compatible with Microsoft Active Accessibility guidelines. This includes controls provided by Windows (User32.dll) and the Windows common controls library (Comctl32.dll).
+description: Use standard Windows controls whenever possible, because they are fully compatible with Microsoft Active Accessibility guidelines. This includes controls provided by Windows (User32.dll) and the Windows common controls library (Comctl32.dll).
 ms.assetid: 2d0b255f-52be-423b-a495-64bf21041858
 title: Using Standard Windows Controls
 ms.topic: article

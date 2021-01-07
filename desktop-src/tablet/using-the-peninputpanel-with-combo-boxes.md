@@ -1,5 +1,5 @@
 ---
-Description: Describes using the PenInputPanel object with combo boxes.
+description: Describes using the PenInputPanel object with combo boxes.
 ms.assetid: 19902bfa-504e-40cd-882a-4fac4bb7daf6
 title: Using the PenInputPanel with Combo Boxes
 ms.topic: article

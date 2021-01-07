@@ -1,5 +1,5 @@
 ---
-Description: Implements the IRealTimeStylus COM interface.
+description: Implements the IRealTimeStylus COM interface.
 ms.assetid: 'fd686a78-b0a8-41d2-a37b-90544f531270'
 title: RealTimeStylus class (RTSCom.h)
 ms.topic: reference

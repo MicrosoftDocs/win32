@@ -1,5 +1,5 @@
 ---
-Description: Assume that the service provider must display a dialog box (like the Unimodem or ATSP Talk/Hangup dialog box) during the processing of lineMakeCall or lineDial.
+description: Assume that the service provider must display a dialog box (like the Unimodem or ATSP Talk/Hangup dialog box) during the processing of lineMakeCall or lineDial.
 ms.assetid: 46f87947-bfcd-48ad-8c33-7ea4d9caa34c
 title: Functions Not Designed to Generate UI
 ms.topic: article

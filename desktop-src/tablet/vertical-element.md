@@ -1,5 +1,5 @@
 ---
-Description: Contains the information that describes the vertical component of the lines in the stationery used by the Journal note. Used, for example, when the note has grid lines.
+description: Contains the information that describes the vertical component of the lines in the stationery used by the Journal note. Used, for example, when the note has grid lines.
 ms.assetid: af6f485e-13df-41bb-b57a-10d8393b83e7
 title: Vertical Element
 ms.topic: reference

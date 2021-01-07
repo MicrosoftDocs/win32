@@ -1,5 +1,5 @@
 ---
-Description: The TAPI LINE\_PROXYREQUEST message delivers a request to a registered proxy function handler.
+description: The TAPI LINE\_PROXYREQUEST message delivers a request to a registered proxy function handler.
 ms.assetid: 7f33de55-2482-4558-bd86-ee2ac1e31269
 title: LINE_PROXYREQUEST message (Tapi.h)
 ms.topic: reference

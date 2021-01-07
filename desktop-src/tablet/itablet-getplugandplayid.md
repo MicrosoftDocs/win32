@@ -1,5 +1,5 @@
 ---
-Description: Returns a string containing the Plug and Play ID for the tablet device.
+description: Returns a string containing the Plug and Play ID for the tablet device.
 ms.assetid: a0b6619b-f80c-470b-aa3f-f0b30a9dbda8
 title: ITablet::GetPlugAndPlayId method
 ms.topic: reference

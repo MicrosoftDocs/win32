@@ -1,5 +1,5 @@
 ---
-Description: Currently, all timing of calls is left up to applications.
+description: Currently, all timing of calls is left up to applications.
 ms.assetid: 9eb98b48-4bee-4f6d-b818-2f81b36591da
 title: Call State Timer
 ms.topic: article

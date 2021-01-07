@@ -1,5 +1,5 @@
 ---
-Description: The Create method creates a new ITTime component.
+description: The Create method creates a new ITTime component.
 ms.assetid: dee50454-8358-4898-b098-2de51505b658
 title: ITTimeCollection::Create method (Sdpblb.h)
 ms.topic: reference

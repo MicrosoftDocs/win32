@@ -1,5 +1,5 @@
 ---
-Description: A handwriting recognition engine, or recognizer, is software that processes ink and converts that ink into text.
+description: A handwriting recognition engine, or recognizer, is software that processes ink and converts that ink into text.
 ms.assetid: b64f6856-453c-4080-84e0-0a9e69e79de7
 title: Using Context to Improve Accuracy
 ms.topic: article

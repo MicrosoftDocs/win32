@@ -1,5 +1,5 @@
 ---
-Description: Volume Plex Object
+description: Volume Plex Object
 ms.assetid: 9e770bfc-2bcb-45f0-a7fc-ba526349839e
 title: Volume Plex Object
 ms.topic: article

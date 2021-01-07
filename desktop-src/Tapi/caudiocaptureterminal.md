@@ -1,5 +1,5 @@
 ---
-Description: The CAudioCaptureTerminal terminal is derived from CSingleFilterTerminal and implements a static audio capture terminal for wave devices using the DirectShow wavein filter. Most MSPs will not need to override the implementation of this terminal.
+description: The CAudioCaptureTerminal terminal is derived from CSingleFilterTerminal and implements a static audio capture terminal for wave devices using the DirectShow wavein filter. Most MSPs will not need to override the implementation of this terminal.
 ms.assetid: 2860bf22-46ae-484a-a47b-0d7057b900a1
 title: CAudioCaptureTerminal
 ms.topic: article

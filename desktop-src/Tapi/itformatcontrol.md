@@ -1,5 +1,5 @@
 ---
-Description: The ITFormatControl interface exposes methods that allow an application to retrieve information concerning the format of a receive or transmit stream for a call.
+description: The ITFormatControl interface exposes methods that allow an application to retrieve information concerning the format of a receive or transmit stream for a call.
 ms.assetid: a3d15561-229e-4eb6-a0ac-2d69f170bced
 title: ITFormatControl interface (Ipmsp.h)
 ms.topic: reference

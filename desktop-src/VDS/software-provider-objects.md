@@ -1,5 +1,5 @@
 ---
-Description: Software Provider Objects
+description: Software Provider Objects
 ms.assetid: 0d415238-7558-4d90-a122-e65ae7760344
 title: Software Provider Objects
 ms.topic: article

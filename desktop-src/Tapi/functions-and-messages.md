@@ -1,5 +1,5 @@
 ---
-Description: The phoneDevSpecific function and its associated PHONE\_DEVSPECIFIC message enable an application to access device-specific phone features that are unavailable through the common telephony services for phones.
+description: The phoneDevSpecific function and its associated PHONE\_DEVSPECIFIC message enable an application to access device-specific phone features that are unavailable through the common telephony services for phones.
 ms.assetid: b4c8d721-26e4-4895-9f09-0f67fe4d346b
 title: Functions and Messages
 ms.topic: article

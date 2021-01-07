@@ -1,5 +1,5 @@
 ---
-Description: The .NET Framework has a security model that treats applications differently depending on their origin.
+description: The .NET Framework has a security model that treats applications differently depending on their origin.
 ms.assetid: 37fa870a-6f38-44ae-943e-27697f6b9fba
 title: Security and Trust
 ms.topic: article

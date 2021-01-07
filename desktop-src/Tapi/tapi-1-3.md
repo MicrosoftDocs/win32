@@ -1,5 +1,5 @@
 ---
-Description: TAPI 1.3 (sometimes referred to as TAPI 1.03) was the first released version of the TAPI specification.
+description: TAPI 1.3 (sometimes referred to as TAPI 1.03) was the first released version of the TAPI specification.
 ms.assetid: 529bcf91-5903-4b0b-9ac8-33aa37f203fd
 title: TAPI 1.3
 ms.topic: article

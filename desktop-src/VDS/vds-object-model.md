@@ -1,5 +1,5 @@
 ---
-Description: VDS Object Model
+description: VDS Object Model
 ms.assetid: e5fcc19a-e170-4918-85eb-c1457776795a
 title: VDS Object Model
 ms.topic: article

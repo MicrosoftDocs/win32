@@ -1,5 +1,5 @@
 ---
-Description: The ITLocalParticipant interface is exposed on the stream object when the IPConf MSP supports the call.
+description: The ITLocalParticipant interface is exposed on the stream object when the IPConf MSP supports the call.
 ms.assetid: 64965ae2-e30b-4353-a502-f96018da71a5
 title: ITLocalParticipant interface (Confpriv.h)
 ms.topic: reference
