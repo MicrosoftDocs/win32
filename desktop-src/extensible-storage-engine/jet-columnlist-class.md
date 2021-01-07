@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNLIST class"
 title: JET_COLUMNLIST class
 TOCTitle: JET_COLUMNLIST class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_COLUMNLIST

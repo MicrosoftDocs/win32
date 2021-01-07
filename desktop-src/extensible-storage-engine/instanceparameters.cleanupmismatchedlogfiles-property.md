@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.CleanupMismatchedLogFiles property"
 title: InstanceParameters.CleanupMismatchedLogFiles property 
 TOCTitle: 'CleanupMismatchedLogFiles property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.CleanupMismatchedLogFiles

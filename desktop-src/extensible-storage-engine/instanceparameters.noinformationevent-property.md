@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.NoInformationEvent property"
 title: InstanceParameters.NoInformationEvent property 
 TOCTitle: 'NoInformationEvent property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.NoInformationEvent

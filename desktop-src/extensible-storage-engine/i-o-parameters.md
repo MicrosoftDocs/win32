@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: I/O Parameters"
 title: I/O Parameters
 TOCTitle: I/O Parameters
 ms:assetid: 5df3c106-52ac-4ca0-9a6a-d5d62576bb23

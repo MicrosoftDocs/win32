@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentStateException constructor"
 title: EsentStateException constructor 
 TOCTitle: 'EsentStateException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentStateException.#ctor

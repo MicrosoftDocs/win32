@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.EventSourceKey property"
 title: InstanceParameters.EventSourceKey property 
 TOCTitle: 'EventSourceKey property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.EventSourceKey

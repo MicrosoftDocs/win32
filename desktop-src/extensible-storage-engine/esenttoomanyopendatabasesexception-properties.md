@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyOpenDatabasesException properties"
 title: EsentTooManyOpenDatabasesException properties
 TOCTitle: EsentTooManyOpenDatabasesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenDatabasesException

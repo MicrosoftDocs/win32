@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKLOGTIME structure"
 title: JET_BKLOGTIME structure
 TOCTitle: JET_BKLOGTIME structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME

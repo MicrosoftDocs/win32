@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetEnableMultiInstance Function"
 title: JetEnableMultiInstance Function
 TOCTitle: JetEnableMultiInstance Function
 ms:assetid: d88a7b2a-c0d1-47de-9239-3631150d92da

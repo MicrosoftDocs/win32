@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMN.err property"
 title: JET_ENUMCOLUMN.err property 
 TOCTitle: 'err property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMN.err

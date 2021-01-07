@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.ulUpdate property"
 title: JET_DBINFOMISC.ulUpdate property 
 TOCTitle: 'ulUpdate property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.ulUpdate

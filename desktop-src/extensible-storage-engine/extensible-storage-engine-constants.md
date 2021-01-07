@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extensible Storage Engine Constants"
 title: Extensible Storage Engine Constants
 TOCTitle: Extensible Storage Engine Constants
 ms:assetid: 9a361b83-491d-442d-971d-6696f88ad42e

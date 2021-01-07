@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.WaypointLatency property"
 title: InstanceParameters.WaypointLatency property 
 TOCTitle: 'WaypointLatency property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.WaypointLatency

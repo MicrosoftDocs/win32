@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetDupSession Function"
 title: JetDupSession Function
 TOCTitle: JetDupSession Function
 ms:assetid: fa8fbaca-fe48-401e-9700-1303f4842ad9

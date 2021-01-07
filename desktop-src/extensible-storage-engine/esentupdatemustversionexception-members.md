@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUpdateMustVersionException members"
 title: EsentUpdateMustVersionException members
 TOCTitle: EsentUpdateMustVersionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentUpdateMustVersionException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetLS Function"
 title: JetGetLS Function
 TOCTitle: JetGetLS Function
 ms:assetid: 411baf34-d167-4633-81af-be4886f4a646

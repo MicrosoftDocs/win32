@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVRootStillOpenException methods"
 title: EsentSLVRootStillOpenException methods
 TOCTitle: EsentSLVRootStillOpenException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVRootStillOpenException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetColumnInfo Function"
 title: JetGetColumnInfo Function
 TOCTitle: JetGetColumnInfo Function
 ms:assetid: 2db024e9-2784-4fb2-84b2-fef7ae518938

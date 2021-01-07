@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IDeepCloneable<T>.DeepClone method"
 title: IDeepCloneable(T).DeepClone method 
 TOCTitle: 'DeepClone method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.IDeepCloneable`1.DeepClone

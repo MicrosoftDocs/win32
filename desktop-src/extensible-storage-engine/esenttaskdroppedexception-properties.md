@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTaskDroppedException properties"
 title: EsentTaskDroppedException properties
 TOCTitle: EsentTaskDroppedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTaskDroppedException

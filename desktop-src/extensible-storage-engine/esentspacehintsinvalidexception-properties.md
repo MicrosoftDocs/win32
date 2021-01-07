@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSpaceHintsInvalidException properties"
 title: EsentSpaceHintsInvalidException properties
 TOCTitle: EsentSpaceHintsInvalidException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSpaceHintsInvalidException

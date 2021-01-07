@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeTranslationFailException methods"
 title: EsentUnicodeTranslationFailException methods
 TOCTitle: EsentUnicodeTranslationFailException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentUnicodeTranslationFailException

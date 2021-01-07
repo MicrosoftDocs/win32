@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNDEF.cbMax property"
 title: JET_COLUMNDEF.cbMax property 
 TOCTitle: 'cbMax property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNDEF.cbMax

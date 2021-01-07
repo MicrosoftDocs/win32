@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStopwatch.IsRunning property"
 title: EsentStopwatch.IsRunning property 
 TOCTitle: 'IsRunning property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentStopwatch.IsRunning

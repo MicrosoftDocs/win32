@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyOpenTablesAndCleanupTimedOutException methods"
 title: EsentTooManyOpenTablesAndCleanupTimedOutException methods
 TOCTitle: EsentTooManyOpenTablesAndCleanupTimedOutException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenTablesAndCleanupTimedOutException

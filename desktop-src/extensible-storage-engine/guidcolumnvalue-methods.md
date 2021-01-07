@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GuidColumnValue methods"
 title: GuidColumnValue methods
 TOCTitle: GuidColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.GuidColumnValue

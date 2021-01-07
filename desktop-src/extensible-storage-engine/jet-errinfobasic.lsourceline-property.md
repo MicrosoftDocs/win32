@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ERRINFOBASIC.lSourceLine property"
 title: JET_ERRINFOBASIC.lSourceLine property  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'lSourceLine property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC.lSourceLine

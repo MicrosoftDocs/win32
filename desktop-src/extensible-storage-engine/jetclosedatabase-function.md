@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCloseDatabase Function"
 title: JetCloseDatabase Function
 TOCTitle: JetCloseDatabase Function
 ms:assetid: e17a05dd-c30b-4e8f-8538-91a65e8052d2

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTransReadOnlyException constructor"
 title: EsentTransReadOnlyException constructor 
 TOCTitle: 'EsentTransReadOnlyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTransReadOnlyException.#ctor

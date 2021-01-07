@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Int32ColumnValue class"
 title: Int32ColumnValue class
 TOCTitle: Int32ColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Int32ColumnValue

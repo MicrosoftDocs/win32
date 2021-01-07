@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTableLockedException constructor"
 title: EsentTableLockedException constructor 
 TOCTitle: 'EsentTableLockedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTableLockedException.#ctor

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_HANDLE.ToString method"
 title: JET_HANDLE.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_HANDLE.ToString

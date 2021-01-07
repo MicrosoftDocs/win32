@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSoftRecoveryOnSnapshotException class"
 title: EsentSoftRecoveryOnSnapshotException class
 TOCTitle: EsentSoftRecoveryOnSnapshotException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSoftRecoveryOnSnapshotException

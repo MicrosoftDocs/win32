@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMNID constructor"
 title: JET_ENUMCOLUMNID constructor 
 TOCTitle: 'JET_ENUMCOLUMNID constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNID.#ctor

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentWriteConflictPrimaryIndexException properties"
 title: EsentWriteConflictPrimaryIndexException properties
 TOCTitle: EsentWriteConflictPrimaryIndexException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentWriteConflictPrimaryIndexException

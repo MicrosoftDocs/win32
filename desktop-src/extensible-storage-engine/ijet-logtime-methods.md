@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IJET_LOGTIME methods"
 title: IJET_LOGTIME methods
 TOCTitle: IJET_LOGTIME methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.IJET_LOGTIME

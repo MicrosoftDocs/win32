@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Instance.Init method overload list"
 title: Instance.Init method 
 TOCTitle: 'Init method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Instance.Init

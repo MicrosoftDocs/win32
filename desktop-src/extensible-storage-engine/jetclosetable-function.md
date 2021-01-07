@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCloseTable Function"
 title: JetCloseTable Function
 TOCTitle: JetCloseTable Function
 ms:assetid: c8975145-e48a-4029-9522-1509263019ae

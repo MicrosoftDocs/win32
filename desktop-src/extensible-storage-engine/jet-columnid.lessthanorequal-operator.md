@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNID.LessThanOrEqual operator"
 title: JET_COLUMNID.LessThanOrEqual operator 
 TOCTitle: 'LessThanOrEqual operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNID.op_LessThanOrEqual(Microsoft.Isam.Esent.Interop.JET_COLUMNID,Microsoft.Isam.Esent.Interop.JET_COLUMNID)

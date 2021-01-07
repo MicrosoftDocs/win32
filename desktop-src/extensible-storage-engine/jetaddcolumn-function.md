@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetAddColumn Function"
 title: JetAddColumn Function
 TOCTitle: JetAddColumn Function
 ms:assetid: e146f784-2cbd-42c0-bf64-b37dc6f9ee43

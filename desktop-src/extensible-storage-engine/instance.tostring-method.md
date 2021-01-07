@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance.ToString method"
 title: Instance.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.ToString

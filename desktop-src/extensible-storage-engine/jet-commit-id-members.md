@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COMMIT_ID members"
 title: JET_COMMIT_ID members (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_COMMIT_ID members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID

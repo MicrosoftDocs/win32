@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.logtimeBadChecksum property"
 title: JET_DBINFOMISC.logtimeBadChecksum property 
 TOCTitle: 'logtimeBadChecksum property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.logtimeBadChecksum

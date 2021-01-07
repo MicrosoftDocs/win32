@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.bkinfoFullPrev property"
 title: JET_DBINFOMISC.bkinfoFullPrev property 
 TOCTitle: 'bkinfoFullPrev property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.bkinfoFullPrev

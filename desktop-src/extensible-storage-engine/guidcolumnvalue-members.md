@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GuidColumnValue members"
 title: GuidColumnValue members
 TOCTitle: GuidColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.GuidColumnValue

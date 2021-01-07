@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTaskDroppedException members"
 title: EsentTaskDroppedException members
 TOCTitle: EsentTaskDroppedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTaskDroppedException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMN class"
 title: JET_ENUMCOLUMN class
 TOCTitle: JET_ENUMCOLUMN class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMN

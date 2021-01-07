@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyInstancesException members"
 title: EsentTooManyInstancesException members
 TOCTitle: EsentTooManyInstancesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyInstancesException

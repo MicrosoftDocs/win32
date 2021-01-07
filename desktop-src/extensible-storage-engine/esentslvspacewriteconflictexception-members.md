@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVSpaceWriteConflictException members"
 title: EsentSLVSpaceWriteConflictException members
 TOCTitle: EsentSLVSpaceWriteConflictException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVSpaceWriteConflictException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSurrogateBackupInProgressException class"
 title: EsentSurrogateBackupInProgressException class
 TOCTitle: EsentSurrogateBackupInProgressException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSurrogateBackupInProgressException

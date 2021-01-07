@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_HANDLE"
 title: JET_HANDLE
 TOCTitle: JET_HANDLE
 ms:assetid: 30748d98-f119-47df-92dd-a8ae8c2761c7

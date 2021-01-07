@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexSegment.ToString method"
 title: IndexSegment.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.IndexSegment.ToString

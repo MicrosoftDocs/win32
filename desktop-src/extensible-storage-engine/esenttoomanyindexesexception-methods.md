@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyIndexesException methods"
 title: EsentTooManyIndexesException methods
 TOCTitle: EsentTooManyIndexesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManyIndexesException

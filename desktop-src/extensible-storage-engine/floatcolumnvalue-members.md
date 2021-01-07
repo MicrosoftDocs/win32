@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FloatColumnValue members"
 title: FloatColumnValue members
 TOCTitle: FloatColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.FloatColumnValue

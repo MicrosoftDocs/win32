@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetTruncateLogInfoInstance Function"
 title: JetGetTruncateLogInfoInstance Function
 TOCTitle: JetGetTruncateLogInfoInstance Function
 ms:assetid: 1ecb2f2f-2cad-4c55-9296-5e5893b57695

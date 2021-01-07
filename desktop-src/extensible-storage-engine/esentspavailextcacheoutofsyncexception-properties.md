@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSPAvailExtCacheOutOfSyncException properties"
 title: EsentSPAvailExtCacheOutOfSyncException properties
 TOCTitle: EsentSPAvailExtCacheOutOfSyncException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCacheOutOfSyncException

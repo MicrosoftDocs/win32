@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileMissingException constructor"
 title: EsentSLVStreamingFileMissingException constructor 
 TOCTitle: 'EsentSLVStreamingFileMissingException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileMissingException.#ctor

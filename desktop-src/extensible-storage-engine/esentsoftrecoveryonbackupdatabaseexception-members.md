@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSoftRecoveryOnBackupDatabaseException members"
 title: EsentSoftRecoveryOnBackupDatabaseException members
 TOCTitle: EsentSoftRecoveryOnBackupDatabaseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSoftRecoveryOnBackupDatabaseException

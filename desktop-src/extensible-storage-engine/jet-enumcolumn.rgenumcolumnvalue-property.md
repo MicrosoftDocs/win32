@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMN.rgEnumColumnValue property"
 title: JET_ENUMCOLUMN.rgEnumColumnValue property 
 TOCTitle: 'rgEnumColumnValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMN.rgEnumColumnValue

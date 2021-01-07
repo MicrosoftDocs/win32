@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Instance type conversions"
 title: Instance type conversions
 TOCTitle: Instance type conversions
 ms:assetid: 625e46fa-cb44-5d96-be16-b8d6543d2421

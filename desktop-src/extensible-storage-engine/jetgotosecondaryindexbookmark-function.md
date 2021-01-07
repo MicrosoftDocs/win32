@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGotoSecondaryIndexBookmark Function"
 title: JetGotoSecondaryIndexBookmark Function
 TOCTitle: JetGotoSecondaryIndexBookmark Function
 ms:assetid: 06983b1e-503a-469b-9be5-b37e7551de67

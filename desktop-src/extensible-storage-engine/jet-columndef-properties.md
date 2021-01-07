@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_COLUMNDEF properties"
 title: JET_COLUMNDEF properties
 TOCTitle: JET_COLUMNDEF properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_COLUMNDEF

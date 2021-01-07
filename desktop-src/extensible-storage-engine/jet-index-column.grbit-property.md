@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEX_COLUMN.grbit property"
 title: JET_INDEX_COLUMN.grbit property  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'grbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_COLUMN.grbit

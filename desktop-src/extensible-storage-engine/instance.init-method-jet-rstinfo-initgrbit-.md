@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance.Init method (JET_RSTINFO, InitGrbit)"
 title: Instance.Init method (JET_RSTINFO, InitGrbit)
 TOCTitle: Init method (JET_RSTINFO, InitGrbit)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.Init(Microsoft.Isam.Esent.Interop.JET_RSTINFO,Microsoft.Isam.Esent.Interop.InitGrbit)

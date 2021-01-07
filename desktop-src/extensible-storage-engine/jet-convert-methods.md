@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CONVERT methods"
 title: JET_CONVERT methods
 TOCTitle: JET_CONVERT methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_CONVERT

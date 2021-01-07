@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVProviderNotLoadedException members"
 title: EsentSLVProviderNotLoadedException members
 TOCTitle: EsentSLVProviderNotLoadedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVProviderNotLoadedException

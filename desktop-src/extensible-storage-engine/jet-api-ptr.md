@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_API_PTR"
 title: JET_API_PTR
 TOCTitle: JET_API_PTR
 ms:assetid: 27b1eeec-1707-4edb-a4b2-2619190c21e7

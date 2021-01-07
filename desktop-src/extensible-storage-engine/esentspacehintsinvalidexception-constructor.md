@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSpaceHintsInvalidException constructor"
 title: EsentSpaceHintsInvalidException constructor 
 TOCTitle: 'EsentSpaceHintsInvalidException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSpaceHintsInvalidException.#ctor

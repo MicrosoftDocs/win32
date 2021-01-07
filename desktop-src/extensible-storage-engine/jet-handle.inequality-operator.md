@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_HANDLE.Inequality operator"
 title: JET_HANDLE.Inequality operator 
 TOCTitle: 'Inequality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_HANDLE.op_Inequality(Microsoft.Isam.Esent.Interop.JET_HANDLE,Microsoft.Isam.Esent.Interop.JET_HANDLE)

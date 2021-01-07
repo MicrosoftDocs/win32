@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FloatColumnValue.GetValueFromBytes method"
 title: FloatColumnValue.GetValueFromBytes method 
 TOCTitle: 'GetValueFromBytes method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.FloatColumnValue.GetValueFromBytes(System.Byte[],System.Int32,System.Int32,System.Int32)

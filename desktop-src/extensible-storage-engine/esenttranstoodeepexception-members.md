@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTransTooDeepException members"
 title: EsentTransTooDeepException members
 TOCTitle: EsentTransTooDeepException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTransTooDeepException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IJET_LOGTIME interface"
 title: IJET_LOGTIME interface
 TOCTitle: IJET_LOGTIME interface
 ms:assetid: T:Microsoft.Isam.Esent.Interop.IJET_LOGTIME

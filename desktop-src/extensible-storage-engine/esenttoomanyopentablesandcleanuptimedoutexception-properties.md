@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyOpenTablesAndCleanupTimedOutException properties"
 title: EsentTooManyOpenTablesAndCleanupTimedOutException properties
 TOCTitle: EsentTooManyOpenTablesAndCleanupTimedOutException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenTablesAndCleanupTimedOutException

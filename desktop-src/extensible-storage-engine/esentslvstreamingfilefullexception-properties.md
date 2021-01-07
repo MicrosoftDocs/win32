@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileFullException properties"
 title: EsentSLVStreamingFileFullException properties
 TOCTitle: EsentSLVStreamingFileFullException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileFullException

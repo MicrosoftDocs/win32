@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.MaxOpenTables property"
 title: InstanceParameters.MaxOpenTables property 
 TOCTitle: 'MaxOpenTables property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.MaxOpenTables

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GetRecordSizeGrbit enumeration"
 title: GetRecordSizeGrbit enumeration
 TOCTitle: GetRecordSizeGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.GetRecordSizeGrbit

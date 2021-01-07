@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTempPathInUseException members"
 title: EsentTempPathInUseException members
 TOCTitle: EsentTempPathInUseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTempPathInUseException

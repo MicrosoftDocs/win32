@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileInUseException members"
 title: EsentSLVStreamingFileInUseException members
 TOCTitle: EsentSLVStreamingFileInUseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileInUseException

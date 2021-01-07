@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_COLUMNLIST properties"
 title: JET_COLUMNLIST properties
 TOCTitle: JET_COLUMNLIST properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_COLUMNLIST

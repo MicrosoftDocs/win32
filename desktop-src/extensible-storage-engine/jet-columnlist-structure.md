@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNLIST Structure"
 title: JET_COLUMNLIST Structure
 TOCTitle: JET_COLUMNLIST Structure
 ms:assetid: 3899676f-c96e-4f15-9089-4faea6808bc2

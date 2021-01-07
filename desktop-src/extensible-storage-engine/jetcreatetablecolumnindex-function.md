@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCreateTableColumnIndex Function"
 title: JetCreateTableColumnIndex Function
 TOCTitle: JetCreateTableColumnIndex Function
 ms:assetid: 9192614b-20a6-40fb-906a-51fc057e7483

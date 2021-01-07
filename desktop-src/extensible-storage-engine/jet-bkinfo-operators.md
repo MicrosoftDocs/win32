@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_BKINFO operators"
 title: JET_BKINFO operators
 TOCTitle: JET_BKINFO operators
 ms:assetid: cb271c1b-2cef-aa6f-1676-2fb33a236ba4

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance.ReleaseHandle method"
 title: Instance.ReleaseHandle method 
 TOCTitle: 'ReleaseHandle method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.ReleaseHandle

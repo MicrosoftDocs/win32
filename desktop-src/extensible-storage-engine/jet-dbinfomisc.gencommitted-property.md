@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.genCommitted property"
 title: JET_DBINFOMISC.genCommitted property 
 TOCTitle: 'genCommitted property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.genCommitted

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVProviderVersionMismatchException class"
 title: EsentSLVProviderVersionMismatchException class
 TOCTitle: EsentSLVProviderVersionMismatchException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVProviderVersionMismatchException

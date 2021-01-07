@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetIndexInfo Function"
 title: JetGetIndexInfo Function
 TOCTitle: JetGetIndexInfo Function
 ms:assetid: c6235281-e208-4966-bc66-ec1ab27333c0

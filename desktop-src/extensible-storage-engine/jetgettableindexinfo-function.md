@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetTableIndexInfo Function"
 title: JetGetTableIndexInfo Function
 TOCTitle: JetGetTableIndexInfo Function
 ms:assetid: d250d254-2b10-4fe7-bbb1-72bb967f22dd

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNCREATE constructor"
 title: JET_COLUMNCREATE constructor 
 TOCTitle: 'JET_COLUMNCREATE constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE.#ctor

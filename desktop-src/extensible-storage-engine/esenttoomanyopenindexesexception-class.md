@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyOpenIndexesException class"
 title: EsentTooManyOpenIndexesException class
 TOCTitle: EsentTooManyOpenIndexesException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenIndexesException

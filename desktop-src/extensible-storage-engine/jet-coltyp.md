@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLTYP"
 title: JET_COLTYP
 TOCTitle: JET_COLTYP
 ms:assetid: 2c30c025-629d-4b94-bcb9-9c8fc3d4e039

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKLOGTIME Structure"
 title: JET_BKLOGTIME Structure
 TOCTitle: JET_BKLOGTIME Structure
 ms:assetid: 31460079-7c5b-4145-837d-b112ba0117d6

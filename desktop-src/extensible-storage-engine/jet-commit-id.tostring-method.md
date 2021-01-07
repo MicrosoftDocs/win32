@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COMMIT_ID.ToString method"
 title: JET_COMMIT_ID.ToString method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID.ToString

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetAttachInfoInstance Function"
 title: JetGetAttachInfoInstance Function
 TOCTitle: JetGetAttachInfoInstance Function
 ms:assetid: 978e7817-0720-42fc-a5c1-46e4d44239f0

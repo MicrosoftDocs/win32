@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManySplitsException members"
 title: EsentTooManySplitsException members
 TOCTitle: EsentTooManySplitsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManySplitsException

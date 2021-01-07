@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters class"
 title: InstanceParameters class
 TOCTitle: InstanceParameters class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.InstanceParameters

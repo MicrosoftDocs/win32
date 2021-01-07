@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyOpenDatabasesException constructor"
 title: EsentTooManyOpenDatabasesException constructor 
 TOCTitle: 'EsentTooManyOpenDatabasesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyOpenDatabasesException.#ctor

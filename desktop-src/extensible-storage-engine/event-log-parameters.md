@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Event Log Parameters"
 title: Event Log Parameters
 TOCTitle: Event Log Parameters
 ms:assetid: c660f555-2627-4d25-8f1c-8c1dc8a3a381

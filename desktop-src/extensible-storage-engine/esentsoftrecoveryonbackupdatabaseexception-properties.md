@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSoftRecoveryOnBackupDatabaseException properties"
 title: EsentSoftRecoveryOnBackupDatabaseException properties
 TOCTitle: EsentSoftRecoveryOnBackupDatabaseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSoftRecoveryOnBackupDatabaseException
