@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_LOGTIME operators"
 title: JET_LOGTIME operators
 TOCTitle: JET_LOGTIME operators
 ms:assetid: a1323f48-4e9c-9fb8-c3a3-3d59154e7b2b

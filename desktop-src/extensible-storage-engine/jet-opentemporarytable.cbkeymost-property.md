@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OPENTEMPORARYTABLE.cbKeyMost property"
 title: JET_OPENTEMPORARYTABLE.cbKeyMost property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cbKeyMost property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE.cbKeyMost

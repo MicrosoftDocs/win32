@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_UNICODEINDEX.szLocaleName property"
 title: JET_UNICODEINDEX.szLocaleName property 
 TOCTitle: 'szLocaleName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX.szLocaleName

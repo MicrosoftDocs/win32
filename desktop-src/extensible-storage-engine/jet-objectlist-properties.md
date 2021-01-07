@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_OBJECTLIST properties"
 title: JET_OBJECTLIST properties
 TOCTitle: JET_OBJECTLIST properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_OBJECTLIST

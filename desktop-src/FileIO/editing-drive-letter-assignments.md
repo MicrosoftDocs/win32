@@ -1,5 +1,5 @@
 ---
-Description: How to add or remove persistent drive letter assignments. These drive letter assignments persist through system shutdown.
+description: How to add or remove persistent drive letter assignments. These drive letter assignments persist through system shutdown.
 ms.assetid: 17a6df9d-07df-42f7-89c9-72a1d02141f6
 title: Editing Drive Letter Assignments
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaGrbits.IndexNestedTable field"
 title: VistaGrbits.IndexNestedTable field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: IndexNestedTable field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits.IndexNestedTable

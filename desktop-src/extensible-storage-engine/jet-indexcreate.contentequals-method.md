@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE.ContentEquals method"
 title: JET_INDEXCREATE.ContentEquals method 
 TOCTitle: 'ContentEquals method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.ContentEquals(Microsoft.Isam.Esent.Interop.JET_INDEXCREATE)

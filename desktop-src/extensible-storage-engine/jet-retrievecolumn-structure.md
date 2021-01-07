@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETRIEVECOLUMN Structure"
 title: JET_RETRIEVECOLUMN Structure
 TOCTitle: JET_RETRIEVECOLUMN Structure
 ms:assetid: 8e23bed5-5279-4733-b787-a073a0e8d5a5

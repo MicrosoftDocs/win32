@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Api.JetGetErrorInfo method"
 title: Windows8Api.JetGetErrorInfo method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JetGetErrorInfo method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetGetErrorInfo(Microsoft.Isam.Esent.Interop.JET_err,Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC@)

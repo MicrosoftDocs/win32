@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE.rgindexcreate property"
 title: JET_TABLECREATE.rgindexcreate property 
 TOCTitle: 'rgindexcreate property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.rgindexcreate

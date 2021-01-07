@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OPENTEMPORARYTABLE constructor"
 title: JET_OPENTEMPORARYTABLE constructor  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'JET_OPENTEMPORARYTABLE constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE.#ctor

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE_INFO.hInstanceId property"
 title: JET_INSTANCE_INFO.hInstanceId property 
 TOCTitle: 'hInstanceId property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO.hInstanceId

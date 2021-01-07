@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Table.JetTableid property"
 title: Table.JetTableid property 
 TOCTitle: 'JetTableid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Table.JetTableid

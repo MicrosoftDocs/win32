@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTINFO constructor"
 title: JET_OBJECTINFO constructor 
 TOCTitle: 'JET_OBJECTINFO constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_OBJECTINFO.#ctor

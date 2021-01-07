@@ -1,5 +1,5 @@
 ---
-Description: Control codes and structures to use with the NTFS file system update sequence number (USN) change journal.
+description: Control codes and structures to use with the NTFS file system update sequence number (USN) change journal.
 ms.assetid: 2215f0d4-6ac8-42a5-87a5-9c76d1fae3ed
 title: Change Journal Operations
 ms.topic: article

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Windows7Param members"
 title: Windows7Param members (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: Windows7Param members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Windows7.Windows7Param

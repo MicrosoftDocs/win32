@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.HungIOActions property"
 title: SystemParameters.HungIOActions property 
 TOCTitle: 'HungIOActions property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.HungIOActions

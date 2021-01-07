@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OSSNAPID.ToString method overload list"
 title: JET_OSSNAPID.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_OSSNAPID.ToString

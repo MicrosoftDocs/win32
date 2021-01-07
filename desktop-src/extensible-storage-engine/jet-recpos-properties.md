@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_RECPOS properties"
 title: JET_RECPOS properties
 TOCTitle: JET_RECPOS properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_RECPOS

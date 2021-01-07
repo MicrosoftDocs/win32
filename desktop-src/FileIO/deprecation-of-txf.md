@@ -1,5 +1,5 @@
 ---
-Description: This topic discusses alternatives to using Transactional NTFS API (TxF) in common usage scenarios.
+description: This topic discusses alternatives to using Transactional NTFS API (TxF) in common usage scenarios.
 ms.assetid: 9ee26e7e-990e-4cd3-8180-f0fcaac2b752
 title: Alternatives to using Transactional NTFS
 ms.topic: article

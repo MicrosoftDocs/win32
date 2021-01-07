@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Param.MaxCoalesceReadSize field"
 title: Windows7Param.MaxCoalesceReadSize field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: MaxCoalesceReadSize field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Param.MaxCoalesceReadSize

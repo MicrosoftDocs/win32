@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: UInt16ColumnValue.GetValueFromBytes method"
 title: UInt16ColumnValue.GetValueFromBytes method 
 TOCTitle: 'GetValueFromBytes method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.UInt16ColumnValue.GetValueFromBytes(System.Byte[],System.Int32,System.Int32,System.Int32)

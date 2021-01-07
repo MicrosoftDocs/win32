@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Using Extensible Storage Engine"
 title: Using Extensible Storage Engine
 TOCTitle: Using Extensible Storage Engine
 ms:assetid: d0249519-4c7c-49c1-9c80-b3cae2537d61

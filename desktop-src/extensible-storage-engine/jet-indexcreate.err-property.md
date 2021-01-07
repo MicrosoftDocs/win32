@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE.err property"
 title: JET_INDEXCREATE.err property 
 TOCTitle: 'err property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.err

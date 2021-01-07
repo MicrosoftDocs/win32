@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Session.Dispose method"
 title: Session.Dispose method 
 TOCTitle: 'Dispose method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Session.Dispose

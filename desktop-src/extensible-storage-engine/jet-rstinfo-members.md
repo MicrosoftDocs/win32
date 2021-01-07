@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTINFO members"
 title: JET_RSTINFO members
 TOCTitle: JET_RSTINFO members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_RSTINFO

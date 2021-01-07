@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_LS properties"
 title: JET_LS properties
 TOCTitle: JET_LS properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_LS

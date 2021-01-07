@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.LVChunkSizeMost property"
 title: SystemParameters.LVChunkSizeMost property 
 TOCTitle: 'LVChunkSizeMost property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.LVChunkSizeMost

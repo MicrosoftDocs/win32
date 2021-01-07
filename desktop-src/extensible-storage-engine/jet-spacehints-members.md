@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SPACEHINTS members"
 title: JET_SPACEHINTS members
 TOCTitle: JET_SPACEHINTS members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS

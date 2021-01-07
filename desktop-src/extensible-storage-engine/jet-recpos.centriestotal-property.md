@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECPOS.centriesTotal property"
 title: JET_RECPOS.centriesTotal property 
 TOCTitle: 'centriesTotal property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RECPOS.centriesTotal

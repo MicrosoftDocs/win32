@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Api.JetSetCursorFilter method"
 title: Windows8Api.JetSetCursorFilter method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JetSetCursorFilter method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetSetCursorFilter(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_COLUMN[],Microsoft.Isam.Esent.Interop.Windows8.CursorFilterGrbit)

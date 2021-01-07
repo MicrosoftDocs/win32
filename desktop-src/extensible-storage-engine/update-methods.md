@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Update methods"
 title: Update methods
 TOCTitle: Update methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Update

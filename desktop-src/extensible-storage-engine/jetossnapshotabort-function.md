@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOSSnapshotAbort Function"
 title: JetOSSnapshotAbort Function
 TOCTitle: JetOSSnapshotAbort Function
 ms:assetid: 629455af-b526-4366-9b9a-112757f72c32

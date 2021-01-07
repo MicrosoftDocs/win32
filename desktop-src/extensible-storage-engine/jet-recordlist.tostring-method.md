@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECORDLIST.ToString method"
 title: JET_RECORDLIST.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RECORDLIST.ToString

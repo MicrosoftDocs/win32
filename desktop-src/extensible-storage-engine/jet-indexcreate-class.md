@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE class"
 title: JET_INDEXCREATE class
 TOCTitle: JET_INDEXCREATE class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLEID members"
 title: JET_TABLEID members
 TOCTitle: JET_TABLEID members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_TABLEID

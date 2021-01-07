@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Api.JetSetSessionParameter method"
 title: Windows8Api.JetSetSessionParameter method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JetSetSessionParameter method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetSetSessionParameter(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.Windows8.JET_sesparam,System.Byte[],System.Int32)

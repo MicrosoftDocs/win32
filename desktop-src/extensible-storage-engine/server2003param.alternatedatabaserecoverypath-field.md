@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server2003Param.AlternateDatabaseRecoveryPath field"
 title: Server2003Param.AlternateDatabaseRecoveryPath field (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: AlternateDatabaseRecoveryPath field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Server2003.Server2003Param.AlternateDatabaseRecoveryPath

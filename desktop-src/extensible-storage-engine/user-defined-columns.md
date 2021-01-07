@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: User Defined Columns"
 title: User Defined Columns
 TOCTitle: User Defined Columns
 ms:assetid: cccfc97c-acde-4328-a87f-ee7dcc54203c

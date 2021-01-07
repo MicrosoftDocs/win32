@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8IdxInfo class"
 title: Windows8IdxInfo class (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: Windows8IdxInfo class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.Windows8IdxInfo

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE.grbit property"
 title: JET_TABLECREATE.grbit property 
 TOCTitle: 'grbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.grbit

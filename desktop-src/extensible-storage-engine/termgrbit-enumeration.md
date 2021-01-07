@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TermGrbit enumeration"
 title: TermGrbit enumeration
 TOCTitle: TermGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.TermGrbit

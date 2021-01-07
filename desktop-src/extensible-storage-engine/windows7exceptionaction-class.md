@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7ExceptionAction class"
 title: Windows7ExceptionAction class (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: Windows7ExceptionAction class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows7.Windows7ExceptionAction

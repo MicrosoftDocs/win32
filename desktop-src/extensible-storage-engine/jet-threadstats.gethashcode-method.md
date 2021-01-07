@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS.GetHashCode method"
 title: JET_THREADSTATS.GetHashCode method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'GetHashCode method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.GetHashCode

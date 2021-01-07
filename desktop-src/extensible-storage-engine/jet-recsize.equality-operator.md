@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE.Equality operator"
 title: JET_RECSIZE.Equality operator  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.op_Equality(Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE,Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE)

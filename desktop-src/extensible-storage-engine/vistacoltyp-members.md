@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: VistaColtyp members"
 title: VistaColtyp members (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaColtyp members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Vista.VistaColtyp

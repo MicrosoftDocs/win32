@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEX_RANGE.startColumns property"
 title: JET_INDEX_RANGE.startColumns property  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'startColumns property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_RANGE.startColumns

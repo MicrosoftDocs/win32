@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetRegisterCallback Function"
 title: JetRegisterCallback Function
 TOCTitle: JetRegisterCallback Function
 ms:assetid: 04c82fac-ffa2-477f-b4dd-59bbf1dde3c8

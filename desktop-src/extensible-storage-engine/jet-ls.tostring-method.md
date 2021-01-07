@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LS.ToString method"
 title: JET_LS.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LS.ToString

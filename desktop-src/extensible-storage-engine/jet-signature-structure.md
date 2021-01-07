@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SIGNATURE Structure"
 title: JET_SIGNATURE Structure
 TOCTitle: JET_SIGNATURE Structure
 ms:assetid: 90d3fd56-be65-4126-b50c-b53e3c3f38f6

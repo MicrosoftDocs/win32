@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE_INFO class"
 title: JET_INSTANCE_INFO class
 TOCTitle: JET_INSTANCE_INFO class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO

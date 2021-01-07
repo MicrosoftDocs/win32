@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SNT enumeration"
 title: JET_SNT enumeration
 TOCTitle: JET_SNT enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_SNT

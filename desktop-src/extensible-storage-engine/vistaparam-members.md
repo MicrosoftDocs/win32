@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: VistaParam members"
 title: VistaParam members (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaParam members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Vista.VistaParam

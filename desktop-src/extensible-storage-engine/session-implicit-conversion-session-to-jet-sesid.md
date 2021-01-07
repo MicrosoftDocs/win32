@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Session Implicit conversion (Session to JET_SESID)"
 title: Session Implicit conversion (Session to JET_SESID)
 TOCTitle: Implicit conversion (Session to JET_SESID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Session.op_Implicit(Microsoft.Isam.Esent.Interop.Session)~Microsoft.Isam.Esent.Interop.JET_SESID

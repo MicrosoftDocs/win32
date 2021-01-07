@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Param.DurableCommitCallback field"
 title: Windows8Param.DurableCommitCallback field (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: DurableCommitCallback field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows8.Windows8Param.DurableCommitCallback

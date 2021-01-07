@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS structure"
 title: JET_LGPOS structure
 TOCTitle: JET_LGPOS structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_LGPOS

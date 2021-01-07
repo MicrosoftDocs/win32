@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTINFO.cPage property"
 title: JET_OBJECTINFO.cPage property 
 TOCTitle: 'cPage property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_OBJECTINFO.cPage

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXLIST.columnidLCMapFlags property"
 title: JET_INDEXLIST.columnidLCMapFlags property 
 TOCTitle: 'columnidLCMapFlags property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXLIST.columnidLCMapFlags

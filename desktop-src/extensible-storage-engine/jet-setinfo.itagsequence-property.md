@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETINFO.itagSequence property"
 title: JET_SETINFO.itagSequence property 
 TOCTitle: 'itagSequence property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SETINFO.itagSequence

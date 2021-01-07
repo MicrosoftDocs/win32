@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS.LessThanOrEqual operator"
 title: JET_LGPOS.LessThanOrEqual operator 
 TOCTitle: 'LessThanOrEqual operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LGPOS.op_LessThanOrEqual(Microsoft.Isam.Esent.Interop.JET_LGPOS,Microsoft.Isam.Esent.Interop.JET_LGPOS)

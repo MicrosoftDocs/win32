@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LOGINFO Structure"
 title: JET_LOGINFO Structure
 TOCTitle: JET_LOGINFO Structure
 ms:assetid: b34b3f24-5d19-4e11-a657-a0e59204d628

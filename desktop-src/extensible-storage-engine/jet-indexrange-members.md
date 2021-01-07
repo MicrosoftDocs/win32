@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXRANGE members"
 title: JET_INDEXRANGE members
 TOCTitle: JET_INDEXRANGE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_INDEXRANGE

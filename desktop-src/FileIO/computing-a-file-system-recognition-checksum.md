@@ -1,5 +1,5 @@
 ---
-Description: The FILE\_SYSTEM\_RECOGNITION\_STRUCTURE structure, defined internally by Windows and used by file system recognition (FRS), contains a checksum value that must be properly computed for FRS to work properly with a specified unrecognized file system.
+description: The FILE\_SYSTEM\_RECOGNITION\_STRUCTURE structure, defined internally by Windows and used by file system recognition (FRS), contains a checksum value that must be properly computed for FRS to work properly with a specified unrecognized file system.
 ms.assetid: 8f76784f-7d03-4874-ae7f-e8bdc42638c3
 title: Computing a File System Recognition Checksum
 ms.topic: article

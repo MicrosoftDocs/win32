@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE.Addition operator"
 title: JET_RECSIZE.Addition operator  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'Addition operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.op_Addition(Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE,Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE)

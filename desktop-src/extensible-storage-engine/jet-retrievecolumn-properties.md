@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_RETRIEVECOLUMN properties"
 title: JET_RETRIEVECOLUMN properties
 TOCTitle: JET_RETRIEVECOLUMN properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN

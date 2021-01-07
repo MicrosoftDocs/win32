@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SPACEHINTS methods"
 title: JET_SPACEHINTS methods
 TOCTitle: JET_SPACEHINTS methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS

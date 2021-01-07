@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Windows7Grbits members"
 title: Windows7Grbits members (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: Windows7Grbits members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits

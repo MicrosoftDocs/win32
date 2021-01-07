@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_INDEXRANGE properties"
 title: JET_INDEXRANGE properties
 TOCTitle: JET_INDEXRANGE properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_INDEXRANGE

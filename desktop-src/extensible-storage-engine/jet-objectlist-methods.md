@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTLIST methods"
 title: JET_OBJECTLIST methods
 TOCTitle: JET_OBJECTLIST methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_OBJECTLIST

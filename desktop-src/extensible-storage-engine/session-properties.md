@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Session properties"
 title: Session properties
 TOCTitle: Session properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Session

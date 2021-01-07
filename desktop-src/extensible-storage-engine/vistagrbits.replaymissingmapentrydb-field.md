@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaGrbits.ReplayMissingMapEntryDB field"
 title: VistaGrbits.ReplayMissingMapEntryDB field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: ReplayMissingMapEntryDB field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits.ReplayMissingMapEntryDB

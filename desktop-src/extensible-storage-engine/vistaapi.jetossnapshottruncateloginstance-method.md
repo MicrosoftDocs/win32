@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaApi.JetOSSnapshotTruncateLogInstance method"
 title: VistaApi.JetOSSnapshotTruncateLogInstance method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'JetOSSnapshotTruncateLogInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.VistaApi.JetOSSnapshotTruncateLogInstance(Microsoft.Isam.Esent.Interop.JET_OSSNAPID,Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.Vista.SnapshotTruncateLogGrbit)

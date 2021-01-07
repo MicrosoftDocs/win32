@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Table properties"
 title: Table properties
 TOCTitle: Table properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Table

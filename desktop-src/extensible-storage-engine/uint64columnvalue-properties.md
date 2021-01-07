@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: UInt64ColumnValue properties"
 title: UInt64ColumnValue properties
 TOCTitle: UInt64ColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.UInt64ColumnValue

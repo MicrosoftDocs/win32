@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Api.JetCommitTransaction2 method"
 title: Windows8Api.JetCommitTransaction2 method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JetCommitTransaction2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetCommitTransaction2(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.CommitTransactionGrbit,System.TimeSpan,Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID@)

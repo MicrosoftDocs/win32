@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTLIST constructor"
 title: JET_OBJECTLIST constructor 
 TOCTitle: 'JET_OBJECTLIST constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_OBJECTLIST.#ctor

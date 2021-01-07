@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.ColumnsKeyMost property"
 title: SystemParameters.ColumnsKeyMost property 
 TOCTitle: 'ColumnsKeyMost property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.ColumnsKeyMost

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_PSTR"
 title: JET_PSTR
 TOCTitle: JET_PSTR
 ms:assetid: acb1143f-a5ee-4088-9f05-cc2aeef23442

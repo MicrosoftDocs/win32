@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Table constructor"
 title: Table constructor 
 TOCTitle: 'Table constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Table.#ctor(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,System.String,Microsoft.Isam.Esent.Interop.OpenTableGrbit)

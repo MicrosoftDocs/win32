@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TempTableGrbit enumeration"
 title: TempTableGrbit enumeration
 TOCTitle: TempTableGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.TempTableGrbit

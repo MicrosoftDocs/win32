@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_param enumeration"
 title: JET_param enumeration
 TOCTitle: JET_param enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_param

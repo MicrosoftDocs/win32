@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OPENTEMPORARYTABLE Structure"
 title: JET_OPENTEMPORARYTABLE Structure
 TOCTitle: JET_OPENTEMPORARYTABLE Structure
 ms:assetid: 23f4fb0f-ca60-498b-9b8e-14de6188eb87

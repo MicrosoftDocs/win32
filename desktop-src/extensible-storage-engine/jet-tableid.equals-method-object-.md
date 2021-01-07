@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLEID.Equals method (Object)"
 title: JET_TABLEID.Equals method (Object)
 TOCTitle: Equals method (Object)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_TABLEID.Equals(System.Object)

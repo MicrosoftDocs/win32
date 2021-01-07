@@ -1,5 +1,5 @@
 ---
-Description: How to get a volume GUID path for each local volume associated with a drive letter that is currently in use on the computer.
+description: How to get a volume GUID path for each local volume associated with a drive letter that is currently in use on the computer.
 ms.assetid: f6590a46-2e09-472c-8231-bb24c9b0b5f6
 title: Enumerating Volume GUID Paths
 ms.topic: article

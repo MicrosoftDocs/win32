@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTMAP constructor"
 title: JET_RSTMAP constructor 
 TOCTitle: 'JET_RSTMAP constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RSTMAP.#ctor

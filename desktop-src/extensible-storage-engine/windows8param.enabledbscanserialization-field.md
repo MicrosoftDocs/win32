@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Param.EnableDBScanSerialization field"
 title: Windows8Param.EnableDBScanSerialization field (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: EnableDBScanSerialization field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows8.Windows8Param.EnableDBScanSerialization

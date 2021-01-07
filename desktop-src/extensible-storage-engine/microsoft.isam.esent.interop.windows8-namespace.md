@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Microsoft.Isam.Esent.Interop.Windows8 namespace"
 title: Microsoft.Isam.Esent.Interop.Windows8 namespace ()
 TOCTitle: '@NoTitle'
 ms:assetid: N:Microsoft.Isam.Esent.Interop.Windows8

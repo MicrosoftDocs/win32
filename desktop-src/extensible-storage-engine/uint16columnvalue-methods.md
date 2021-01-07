@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: UInt16ColumnValue methods"
 title: UInt16ColumnValue methods
 TOCTitle: UInt16ColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.UInt16ColumnValue

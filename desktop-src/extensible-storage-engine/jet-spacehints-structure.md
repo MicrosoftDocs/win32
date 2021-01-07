@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SPACEHINTS Structure"
 title: JET_SPACEHINTS Structure
 TOCTitle: JET_SPACEHINTS Structure
 ms:assetid: 23328993-93c9-4a23-892b-e6a9f434d1d6

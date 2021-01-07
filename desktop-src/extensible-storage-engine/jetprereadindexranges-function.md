@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetPrereadIndexRanges Function"
 title: JetPrereadIndexRanges Function
 TOCTitle: JetPrereadIndexRanges Function
 ms:assetid: ab49abcc-eaeb-438f-8e6d-b08bc94d7bc3

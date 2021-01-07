@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Grbits.TTDotNetGuid field"
 title: Windows8Grbits.TTDotNetGuid field (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: TTDotNetGuid field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows8.Windows8Grbits.TTDotNetGuid

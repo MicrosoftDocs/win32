@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SNPROG.cunitDone property"
 title: JET_SNPROG.cunitDone property 
 TOCTitle: 'cunitDone property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SNPROG.cunitDone

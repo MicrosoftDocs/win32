@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE.cLongValues property"
 title: JET_RECSIZE.cLongValues property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cLongValues property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.cLongValues

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LOGTIME.Inequality operator"
 title: JET_LOGTIME.Inequality operator 
 TOCTitle: 'Inequality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LOGTIME.op_Inequality(Microsoft.Isam.Esent.Interop.JET_LOGTIME,Microsoft.Isam.Esent.Interop.JET_LOGTIME)

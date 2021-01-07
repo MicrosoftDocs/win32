@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS.cPageRead property"
 title: JET_THREADSTATS.cPageRead property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cPageRead property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.cPageRead

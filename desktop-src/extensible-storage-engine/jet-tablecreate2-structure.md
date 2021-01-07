@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE2 Structure"
 title: JET_TABLECREATE2 Structure
 TOCTitle: JET_TABLECREATE2 Structure
 ms:assetid: 2029e684-0d10-44e7-8033-d9cdbdffd7a4

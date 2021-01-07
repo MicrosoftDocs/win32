@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetSeek Function"
 title: JetSeek Function
 TOCTitle: JetSeek Function
 ms:assetid: d3d5bfae-dd27-47ab-96c4-6bc9a01a501b

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OSSNAPID"
 title: JET_OSSNAPID
 TOCTitle: JET_OSSNAPID
 ms:assetid: 89b15492-674a-46e4-8aea-991df4f22a6f

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaApi.JetGetThreadStats method"
 title: VistaApi.JetGetThreadStats method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'JetGetThreadStats method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.VistaApi.JetGetThreadStats(Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS@)

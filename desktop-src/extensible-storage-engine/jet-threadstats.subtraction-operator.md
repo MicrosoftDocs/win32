@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS.Subtraction operator"
 title: JET_THREADSTATS.Subtraction operator  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'Subtraction operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.op_Subtraction(Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS,Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS)

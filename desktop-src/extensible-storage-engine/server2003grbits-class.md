@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server2003Grbits class"
 title: Server2003Grbits class (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: Server2003Grbits class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Server2003.Server2003Grbits

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE.Subtract method"
 title: JET_RECSIZE.Subtract method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'Subtract method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.Subtract(Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE,Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE)

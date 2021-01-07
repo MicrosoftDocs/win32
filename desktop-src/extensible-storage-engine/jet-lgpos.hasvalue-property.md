@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS.HasValue property"
 title: JET_LGPOS.HasValue property 
 TOCTitle: 'HasValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_LGPOS.HasValue

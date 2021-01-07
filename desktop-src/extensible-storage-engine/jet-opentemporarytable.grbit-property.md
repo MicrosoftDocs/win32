@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OPENTEMPORARYTABLE.grbit property"
 title: JET_OPENTEMPORARYTABLE.grbit property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'grbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE.grbit

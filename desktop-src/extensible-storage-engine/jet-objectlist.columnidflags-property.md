@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTLIST.columnidflags property"
 title: JET_OBJECTLIST.columnidflags property 
 TOCTitle: 'columnidflags property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_OBJECTLIST.columnidflags

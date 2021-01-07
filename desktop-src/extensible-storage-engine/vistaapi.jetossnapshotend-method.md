@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaApi.JetOSSnapshotEnd method"
 title: VistaApi.JetOSSnapshotEnd method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'JetOSSnapshotEnd method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.VistaApi.JetOSSnapshotEnd(Microsoft.Isam.Esent.Interop.JET_OSSNAPID,Microsoft.Isam.Esent.Interop.Vista.SnapshotEndGrbit)

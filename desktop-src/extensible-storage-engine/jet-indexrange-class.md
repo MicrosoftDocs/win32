@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXRANGE class"
 title: JET_INDEXRANGE class
 TOCTitle: JET_INDEXRANGE class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_INDEXRANGE

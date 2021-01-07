@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.EnableFileCache property"
 title: SystemParameters.EnableFileCache property 
 TOCTitle: 'EnableFileCache property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.EnableFileCache

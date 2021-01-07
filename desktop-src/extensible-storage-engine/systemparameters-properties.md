@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SystemParameters properties"
 title: SystemParameters properties
 TOCTitle: SystemParameters properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.SystemParameters

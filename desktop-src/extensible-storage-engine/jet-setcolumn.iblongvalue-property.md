@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETCOLUMN.ibLongValue property"
 title: JET_SETCOLUMN.ibLongValue property 
 TOCTitle: 'ibLongValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN.ibLongValue
