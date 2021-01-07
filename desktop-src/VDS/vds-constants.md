@@ -1,5 +1,5 @@
 ---
-Description: VDS Constants
+description: VDS Constants
 ms.assetid: a3a8b549-51bc-48eb-9215-04c7311e03a3
 title: VDS Constants
 ms.topic: article

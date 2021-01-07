@@ -1,5 +1,5 @@
 ---
-Description: The TAPI LINE\_AGENTSPECIFIC message is sent when the status of an ACD agent changes on a line the application currently has open. The application can invoke lineGetAgentStatus to determine the current status of the agent.
+description: The TAPI LINE\_AGENTSPECIFIC message is sent when the status of an ACD agent changes on a line the application currently has open. The application can invoke lineGetAgentStatus to determine the current status of the agent.
 ms.assetid: 67e1796c-02e5-4f81-8086-7c2ff3112ae0
 title: LINE_AGENTSPECIFIC message (Tapi.h)
 ms.topic: reference

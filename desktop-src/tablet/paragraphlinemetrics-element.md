@@ -1,5 +1,5 @@
 ---
-Description: Contains information about the lines of a paragraph.
+description: Contains information about the lines of a paragraph.
 ms.assetid: 6a36d7a1-c14a-42cd-81e1-1743673eca83
 title: ParagraphLineMetrics Element
 ms.topic: reference

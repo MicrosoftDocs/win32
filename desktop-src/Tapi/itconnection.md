@@ -1,5 +1,5 @@
 ---
-Description: The ITConnection interface functionality is shown below.
+description: The ITConnection interface functionality is shown below.
 ms.assetid: 44dc39cf-3222-41ed-b29c-df2d32615500
 title: ITConnection interface (Sdpblb.h)
 ms.topic: reference

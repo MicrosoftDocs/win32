@@ -1,5 +1,5 @@
 ---
-Description: This section contains the references for the TAPI phone device messages.
+description: This section contains the references for the TAPI phone device messages.
 ms.assetid: b84c77ae-5d0f-416c-83c5-f7874168d996
 title: Phone Device Messages
 ms.topic: article

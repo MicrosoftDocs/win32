@@ -1,5 +1,5 @@
 ---
-Description: Manipulates a textual conference description.
+description: Manipulates a textual conference description.
 ms.assetid: b9ce61d1-3fc5-4963-8d2f-586a4b6a159d
 title: ITConferenceBlob interface (Sdpblb.h)
 ms.topic: reference

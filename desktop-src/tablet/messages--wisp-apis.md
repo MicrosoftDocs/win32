@@ -1,5 +1,5 @@
 ---
-Description: These messages are used by the Windows Presentation Foundation to implement ink support.
+description: These messages are used by the Windows Presentation Foundation to implement ink support.
 ms.assetid: 2bb86bc3-deab-4821-8ce7-44a7a0157927
 title: Messages Used by WPF
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The StreamConfigCapsType enumeration type is used by the TAPI\_STREAM\_CONFIG\_CAPS structure as a switch to indicate whether audio or video streaming is involved.
+description: The StreamConfigCapsType enumeration type is used by the TAPI\_STREAM\_CONFIG\_CAPS structure as a switch to indicate whether audio or video streaming is involved.
 ms.assetid: c3eec6b2-ce3b-49b1-a0ba-f450d60a1477
 title: StreamConfigCapsType enumeration (Ipmsp.h)
 ms.topic: reference

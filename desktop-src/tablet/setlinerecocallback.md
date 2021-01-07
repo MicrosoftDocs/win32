@@ -1,5 +1,5 @@
 ---
-Description: Sets a callback function to be used during line recognition.
+description: Sets a callback function to be used during line recognition.
 ms.assetid: 0b07ec80-328a-471b-b554-fa66f56a2871
 title: SetLineRecoCallback function
 ms.topic: reference

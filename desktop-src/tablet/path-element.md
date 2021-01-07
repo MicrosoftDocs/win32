@@ -1,5 +1,5 @@
 ---
-Description: The path to the image used for the background of a Journal note.
+description: The path to the image used for the background of a Journal note.
 ms.assetid: bf7f39ec-8f1f-437c-b172-fd6f94af97bc
 title: Path Element
 ms.topic: reference

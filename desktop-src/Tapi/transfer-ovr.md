@@ -1,5 +1,5 @@
 ---
-Description: The transfer operation allows an application to send a currently connected communications session to a different address.
+description: The transfer operation allows an application to send a currently connected communications session to a different address.
 ms.assetid: b1027f09-74e1-4da8-b718-bb55a56dda1d
 title: Transfer
 ms.topic: article

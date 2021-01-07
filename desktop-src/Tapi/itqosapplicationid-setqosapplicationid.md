@@ -1,5 +1,5 @@
 ---
-Description: The SetQOSApplicationID method sets the QOS identifier for the application.
+description: The SetQOSApplicationID method sets the QOS identifier for the application.
 ms.assetid: e25cf749-6673-47eb-b843-4066f475b8f1
 title: ITQOSApplicationID::SetQOSApplicationID method (Ipmsp.h)
 ms.topic: reference

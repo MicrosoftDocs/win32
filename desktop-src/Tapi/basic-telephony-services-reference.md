@@ -1,5 +1,5 @@
 ---
-Description: The Basic Telephony functions are listed by category in the following tables.
+description: The Basic Telephony functions are listed by category in the following tables.
 ms.assetid: 09d10789-bc36-47c7-b77d-8698ae75541a
 title: Basic Telephony Services Reference
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Overview of partial trust issues and the StylusInput application programming interface (API).
+description: Overview of partial trust issues and the StylusInput application programming interface (API).
 ms.assetid: 32c26632-03f4-4f21-8c67-ebf38b67d251
 title: Partial Trust Considerations for the StylusInput API
 ms.topic: article

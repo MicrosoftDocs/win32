@@ -1,5 +1,5 @@
 ---
-Description: Defines the type that contains information about the line metrics of a paragraph, such as the baseline.
+description: Defines the type that contains information about the line metrics of a paragraph, such as the baseline.
 ms.assetid: 2c2aea52-ae03-428e-b576-187cbcf6eafd
 title: ParagraphLineMetricsType Complex Type
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The get\_Streams method creates a collection of streams associated with the current participant.
+description: The get\_Streams method creates a collection of streams associated with the current participant.
 ms.assetid: 9ab05b14-8ef8-4e7f-b598-05795011e35d
 title: ITParticipant::get_Streams method (Ipmsp.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Rendezvous methods use the following enums to set and report on events and states.
+description: Rendezvous methods use the following enums to set and report on events and states.
 ms.assetid: 3daada54-5007-4042-b5ba-94c7083f051f
 title: Rendezvous Enumerations
 ms.topic: article

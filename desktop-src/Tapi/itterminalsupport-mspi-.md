@@ -1,5 +1,5 @@
 ---
-Description: The ITTerminalSupport interface is exposed on an Address object if an MSP exists. The methods of this interface allow an application to discover available terminals and/or create one, and get pointers to required Terminal objects.
+description: The ITTerminalSupport interface is exposed on an Address object if an MSP exists. The methods of this interface allow an application to discover available terminals and/or create one, and get pointers to required Terminal objects.
 ms.assetid: 39cb9734-3e70-4e37-9358-c638c6618c11
 title: ITTerminalSupport (MSPI)
 ms.topic: article

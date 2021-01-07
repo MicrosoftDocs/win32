@@ -1,5 +1,5 @@
 ---
-Description: Reference topic for Tablet PC threading considerations.
+description: Reference topic for Tablet PC threading considerations.
 ms.assetid: 58a88d64-412a-4138-9bba-c901e05ef78a
 title: Tablet PC Threading Considerations
 ms.topic: article

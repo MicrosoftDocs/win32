@@ -1,5 +1,5 @@
 ---
-Description: The IEnumParticipant interface provides COM-standard enumeration methods for the ITParticipant interface. The ITParticipantControl::EnumerateParticipants method returns a pointer to IEnumParticipant.
+description: The IEnumParticipant interface provides COM-standard enumeration methods for the ITParticipant interface. The ITParticipantControl::EnumerateParticipants method returns a pointer to IEnumParticipant.
 ms.assetid: 8534d102-06ce-4e82-8f9c-9ab9f0d14df9
 title: IEnumParticipant interface (Confpriv.h)
 ms.topic: reference

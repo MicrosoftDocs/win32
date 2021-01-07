@@ -1,5 +1,5 @@
 ---
-Description: If you use multiple recognizers, you can use the Recognizers collection to list available recognizers and enable a user to select from among them.
+description: If you use multiple recognizers, you can use the Recognizers collection to list available recognizers and enable a user to select from among them.
 ms.assetid: 1b89def0-3491-42da-9138-5280002e447a
 title: Using the Recognizers Collection
 ms.topic: article

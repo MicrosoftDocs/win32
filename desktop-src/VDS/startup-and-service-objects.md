@@ -1,5 +1,5 @@
 ---
-Description: VDS provides objects for performing service-related activities. This topic describes each object.
+description: VDS provides objects for performing service-related activities. This topic describes each object.
 ms.assetid: ae4d18f2-4d50-480c-bc7a-4eec0334707d
 title: Startup and Service Objects
 ms.topic: article

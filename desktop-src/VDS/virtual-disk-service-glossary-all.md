@@ -1,5 +1,5 @@
 ---
-Description: This section provides a glossary of technical terms used in the Virtual Disk Service (VDS) documentation.
+description: This section provides a glossary of technical terms used in the Virtual Disk Service (VDS) documentation.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 1cf28cfb-ce96-4659-955d-0088bddcb9ce
 title: Virtual Disk Service Glossary

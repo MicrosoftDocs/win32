@@ -1,5 +1,5 @@
 ---
-Description: Call data is a variably sized buffer that can be used to accumulate information about a communications session. This information becomes available to all applications that own or monitor the session.
+description: Call data is a variably sized buffer that can be used to accumulate information about a communications session. This information becomes available to all applications that own or monitor the session.
 ms.assetid: 8b7a674f-ba78-4830-bb20-7fa74e202a1a
 title: Call Data
 ms.topic: article

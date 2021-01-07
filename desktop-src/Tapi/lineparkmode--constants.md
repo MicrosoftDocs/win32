@@ -1,5 +1,5 @@
 ---
-Description: The LINEPARKMODE\_ bit-flag constants describe different ways of parking calls.
+description: The LINEPARKMODE\_ bit-flag constants describe different ways of parking calls.
 ms.assetid: 4b182c16-9d58-4244-bc5a-05c393800948
 title: LINEPARKMODE_ Constants (Tapi.h)
 ms.topic: reference

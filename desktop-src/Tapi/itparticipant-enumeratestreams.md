@@ -1,5 +1,5 @@
 ---
-Description: The EnumerateStreams method enumerates streams currently with the participants. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get\_Streams method.
+description: The EnumerateStreams method enumerates streams currently with the participants. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get\_Streams method.
 ms.assetid: 69db198d-fb4c-482b-bf49-5c636ac2f86b
 title: ITParticipant::EnumerateStreams method (Ipmsp.h)
 ms.topic: reference

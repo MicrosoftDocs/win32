@@ -1,5 +1,5 @@
 ---
-Description: TAPI supports phone device functions to configure and initialize the phone device.
+description: TAPI supports phone device functions to configure and initialize the phone device.
 ms.assetid: 04914c9c-ec23-4a04-af6a-8e31bec20595
 title: Phone Device Functions
 ms.topic: article

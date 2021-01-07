@@ -1,5 +1,5 @@
 ---
-Description: The ITParticipantSubStreamControl interface is implemented by the IPConf MSP.
+description: The ITParticipantSubStreamControl interface is implemented by the IPConf MSP.
 ms.assetid: d5af0fb1-af18-4efb-9b68-1fa60c1272f6
 title: ITParticipantSubStreamControl interface (Confpriv.h)
 ms.topic: reference

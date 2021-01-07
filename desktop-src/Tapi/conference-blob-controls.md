@@ -1,5 +1,5 @@
 ---
-Description: The following diagram illustrates the main objects involved in TAPI 3 conference blob controls. Interfaces shown are hyperlinked into the relevant reference pages.
+description: The following diagram illustrates the main objects involved in TAPI 3 conference blob controls. Interfaces shown are hyperlinked into the relevant reference pages.
 ms.assetid: 535bbb33-01cb-4484-b216-4808e47e4db5
 title: Conference Blob Controls
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Disk Object
+description: Disk Object
 ms.assetid: 65e14273-8127-4667-b5c8-362ad54b4782
 title: Disk Object
 ms.topic: article

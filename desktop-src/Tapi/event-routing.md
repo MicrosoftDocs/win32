@@ -1,5 +1,5 @@
 ---
-Description: With the lineSetTerminal function, the application can control or suppress the routing of specified low-level events (exchanged between the switch and the station) to a device.
+description: With the lineSetTerminal function, the application can control or suppress the routing of specified low-level events (exchanged between the switch and the station) to a device.
 ms.assetid: 36658d83-0ea4-4f62-b2e5-c0f6d6569d0d
 title: Event Routing
 ms.topic: article

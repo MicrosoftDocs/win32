@@ -1,5 +1,5 @@
 ---
-Description: The terminal class GUIDs identify a particular terminal by capabilities.
+description: The terminal class GUIDs identify a particular terminal by capabilities.
 ms.assetid: 2a16d33c-2d87-4172-a5ff-33ff62e96615
 title: Terminal Class (Tapi3if.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: All application dictionaries are implemented by using the WordList object.
+description: All application dictionaries are implemented by using the WordList object.
 ms.assetid: 805788ec-1672-462a-b188-c680f56c2641
 title: Understanding Word Lists, Recognizer Context, and Factoids
 ms.topic: article

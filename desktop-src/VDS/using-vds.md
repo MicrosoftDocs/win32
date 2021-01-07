@@ -1,5 +1,5 @@
 ---
-Description: Using VDS
+description: Using VDS
 ms.assetid: aa4be499-625d-4dbd-828c-4a55ff2dba2c
 title: Using VDS
 ms.topic: article

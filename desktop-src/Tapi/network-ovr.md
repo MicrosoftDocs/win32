@@ -1,5 +1,5 @@
 ---
-Description: A network is viewed as the transport mechanism that conveys data from one point to another.
+description: A network is viewed as the transport mechanism that conveys data from one point to another.
 ms.assetid: 88374ac9-81c3-48c3-bf1a-5cfd734c257c
 title: Network
 ms.topic: article

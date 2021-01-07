@@ -1,5 +1,5 @@
 ---
-Description: Displays or hides the auto complete list.
+description: Displays or hides the auto complete list.
 ms.assetid: 756ffa3d-03ee-4753-a826-3bc22ab16f5f
 title: ITipAutocompleteProvider::Show method (TipAutoComplete.h)
 ms.topic: reference

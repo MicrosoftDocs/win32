@@ -1,5 +1,5 @@
 ---
-Description: TAPI 2.0 provides a small number of enhancements to the basic TAPI 1.4 functionality.
+description: TAPI 2.0 provides a small number of enhancements to the basic TAPI 1.4 functionality.
 ms.assetid: f3a319b4-5e82-4bf9-bd89-a027d58ad126
 title: TAPI 2.0
 ms.topic: article

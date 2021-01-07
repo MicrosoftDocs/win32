@@ -1,5 +1,5 @@
 ---
-Description: The get\_Participant method gets a pointer to an array of ITParticipant interfaces representing the participants involved in the event.
+description: The get\_Participant method gets a pointer to an array of ITParticipant interfaces representing the participants involved in the event.
 ms.assetid: 3c650715-b1c3-4f84-976a-2cb0f7f19f52
 title: ITParticipantEvent::get_Participant method (Confpriv.h)
 ms.topic: reference

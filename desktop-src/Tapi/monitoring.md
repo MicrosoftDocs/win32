@@ -1,5 +1,5 @@
 ---
-Description: Monitoring is a service-provider defined feature that detects signals that indicate other media.
+description: Monitoring is a service-provider defined feature that detects signals that indicate other media.
 ms.assetid: '77735a42-049a-4f16-a502-ff6d31ef3cd0'
 title: Monitoring
 ms.topic: article

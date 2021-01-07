@@ -1,5 +1,5 @@
 ---
-Description: The get\_MachineAddress method gets the machine address of the originating host.
+description: The get\_MachineAddress method gets the machine address of the originating host.
 ms.assetid: 8a67cc9f-f9fc-4ec3-86f9-ffe34d075830
 title: ITSdp::get_MachineAddress method (Sdpblb.h)
 ms.topic: reference

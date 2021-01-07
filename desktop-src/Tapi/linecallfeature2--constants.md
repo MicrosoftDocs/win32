@@ -1,5 +1,5 @@
 ---
-Description: The LINECALLFEATURE2\_ constants list the supplemental features available for conferencing, transferring, and parking calls.
+description: The LINECALLFEATURE2\_ constants list the supplemental features available for conferencing, transferring, and parking calls.
 ms.assetid: 67a3b587-dd5b-4ccf-ab69-2137604706b8
 title: LINECALLFEATURE2_ Constants (Tapi.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: TAPI assigns session identifiers that are unique for each session and application.
+description: TAPI assigns session identifiers that are unique for each session and application.
 ms.assetid: 711a9bc6-ffc6-499b-8653-ba230028c146
 title: Session Identifier
 ms.topic: article

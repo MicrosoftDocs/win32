@@ -1,5 +1,5 @@
 ---
-Description: The get\_Originator method gets the conference originator.
+description: The get\_Originator method gets the conference originator.
 ms.assetid: a324098d-ae22-42e9-901e-b277433af199
 title: ITSdp::get_Originator method (Sdpblb.h)
 ms.topic: reference

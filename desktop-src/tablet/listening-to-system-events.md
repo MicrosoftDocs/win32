@@ -1,5 +1,5 @@
 ---
-Description: Applications can listen to system events by using the InkCollector object and listening for the SystemGesture event on it.
+description: Applications can listen to system events by using the InkCollector object and listening for the SystemGesture event on it.
 ms.assetid: 141afdbe-b5a7-47dc-b505-46089a5eda75
 title: Listening to System Events
 ms.topic: article

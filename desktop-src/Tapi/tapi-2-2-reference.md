@@ -1,5 +1,5 @@
 ---
-Description: This section describes the TAPI elements necessary for writing a telephony application.
+description: This section describes the TAPI elements necessary for writing a telephony application.
 ms.assetid: d703b414-1389-416c-8e94-c1931979f0c9
 title: TAPI 2.2 Reference
 ms.topic: article

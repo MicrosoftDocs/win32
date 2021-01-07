@@ -1,5 +1,5 @@
 ---
-Description: The PHONELAMPMODE bit-flag constants describe various ways in which a phones lamp can be lit.
+description: The PHONELAMPMODE bit-flag constants describe various ways in which a phones lamp can be lit.
 ms.assetid: 4f6ed2fa-32c9-44b4-bfb5-2c1446ea84fe
 title: PHONELAMPMODE_ Constants (Tapi.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The TAPI PHONE\_REPLY message is sent to an application to report the results of function call that completed asynchronously.
+description: The TAPI PHONE\_REPLY message is sent to an application to report the results of function call that completed asynchronously.
 ms.assetid: 434f37d6-f385-4cc9-9658-2b683cab532c
 title: PHONE_REPLY message (Tapi.h)
 ms.topic: reference

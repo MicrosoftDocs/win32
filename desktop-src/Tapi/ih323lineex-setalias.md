@@ -1,5 +1,5 @@
 ---
-Description: The SetAlias method configures a default H.323 alias for the address. This alias will be used in the H.323 call setup exchange so that the other party knows the name of this party.
+description: The SetAlias method configures a default H.323 alias for the address. This alias will be used in the H.323 call setup exchange so that the other party knows the name of this party.
 ms.assetid: 09608214-7346-4ee8-bbfd-0877d3ad0766
 title: IH323LineEx::SetAlias method (H323priv.h)
 ms.topic: reference

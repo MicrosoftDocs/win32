@@ -1,5 +1,5 @@
 ---
-Description: The PHONESTATUSFLAGS\_ bit-flag constants describe a variety of phone device status information.
+description: The PHONESTATUSFLAGS\_ bit-flag constants describe a variety of phone device status information.
 ms.assetid: e94da591-49ab-4932-8621-0a62b8a55dd6
 title: PHONESTATUSFLAGS_ Constants (Tapi.h)
 ms.topic: reference

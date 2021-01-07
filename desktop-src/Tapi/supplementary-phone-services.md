@@ -1,5 +1,5 @@
 ---
-Description: Supplementary phone services are a set of advanced services beyond basic phone services, supported by phone devices.
+description: Supplementary phone services are a set of advanced services beyond basic phone services, supported by phone devices.
 ms.assetid: e8bcb5f4-a843-4fe1-828e-6a771f31af4e
 title: Supplementary Phone Services
 ms.topic: article

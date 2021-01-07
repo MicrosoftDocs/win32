@@ -1,5 +1,5 @@
 ---
-Description: TAPI applications reside in their own process space.
+description: TAPI applications reside in their own process space.
 ms.assetid: 57dedad1-7264-48fc-9ac2-c6c72f7fee27
 title: TAPI Service Provider Overview
 ms.topic: article

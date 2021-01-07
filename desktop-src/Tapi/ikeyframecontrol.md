@@ -1,5 +1,5 @@
 ---
-Description: The IKeyFrameControl interface is implemented by the H.323 MSP and is available only on H.323 stream objects.
+description: The IKeyFrameControl interface is implemented by the H.323 MSP and is available only on H.323 stream objects.
 ms.assetid: 68cb1df1-f7fa-447a-8ea5-80dc1e802760
 title: IKeyFrameControl interface (H323priv.h)
 ms.topic: reference

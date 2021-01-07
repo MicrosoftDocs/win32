@@ -1,5 +1,5 @@
 ---
-Description: The Add method adds the attribute at the specified index.
+description: The Add method adds the attribute at the specified index.
 ms.assetid: 5b74c177-bf5c-4547-bebb-034a9a10be13
 title: ITAttributeList::Add method (Sdpblb.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Applications must allocate memory for this data; TAPI and the service provider provide the data. If the operation is asynchronous, the data is not available until the asynchronous reply message indicates success.
+description: Applications must allocate memory for this data; TAPI and the service provider provide the data. If the operation is asynchronous, the data is not available until the asynchronous reply message indicates success.
 ms.assetid: 61313fe3-74a1-4195-b5af-37463dad02c1
 title: Memory Allocation
 ms.topic: article

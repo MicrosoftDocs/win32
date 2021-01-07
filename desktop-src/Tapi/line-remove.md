@@ -1,5 +1,5 @@
 ---
-Description: The TAPI LINE\_REMOVE message is sent to inform an application of the removal (deletion from the system) of a line device.
+description: The TAPI LINE\_REMOVE message is sent to inform an application of the removal (deletion from the system) of a line device.
 ms.assetid: 21b912d6-34aa-4ac0-b019-be3c851cc96d
 title: LINE_REMOVE message (Tapi.h)
 ms.topic: reference

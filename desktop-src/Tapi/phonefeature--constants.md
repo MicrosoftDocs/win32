@@ -1,5 +1,5 @@
 ---
-Description: The PHONEFEATURE\_ constants list the operations that can be invoked on a phone using this API. Each of the PHONEFEATURE\_ values (except PHONEFEATURE\_GENERICPHONE) corresponds to a TAPI function with an identical or similar name.
+description: The PHONEFEATURE\_ constants list the operations that can be invoked on a phone using this API. Each of the PHONEFEATURE\_ values (except PHONEFEATURE\_GENERICPHONE) corresponds to a TAPI function with an identical or similar name.
 ms.assetid: 361b3080-3650-48a2-a1b7-f05d72777f9a
 title: PHONEFEATURE_ Constants (Tapi.h)
 ms.topic: reference

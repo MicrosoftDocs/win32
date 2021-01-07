@@ -1,5 +1,5 @@
 ---
-Description: Defines the type that contains the stationery used by the Journal note.
+description: Defines the type that contains the stationery used by the Journal note.
 ms.assetid: acc0df57-9316-4c8b-8e64-929136dbefd7
 title: StationeryType Complex Type
 ms.topic: reference

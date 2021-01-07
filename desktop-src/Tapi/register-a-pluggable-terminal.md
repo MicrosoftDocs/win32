@@ -1,5 +1,5 @@
 ---
-Description: The registration of a pluggable terminal can be called into the DllRegisterServer function of the component that implements the terminal. The following code example can be put into the code for DllRegisterServer.
+description: The registration of a pluggable terminal can be called into the DllRegisterServer function of the component that implements the terminal. The following code example can be put into the code for DllRegisterServer.
 ms.assetid: d88a8d2c-4b05-4c31-928f-0baf1dbc218c
 title: Register a Pluggable Terminal
 ms.topic: article

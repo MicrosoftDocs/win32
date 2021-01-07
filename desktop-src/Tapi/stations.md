@@ -1,5 +1,5 @@
 ---
-Description: Station sets being monitored through a third-party link are modeled as a line device and possibly an associated phone device.
+description: Station sets being monitored through a third-party link are modeled as a line device and possibly an associated phone device.
 ms.assetid: 1d116734-cd8f-40f1-9069-2dad351a24bf
 title: Stations
 ms.topic: article
