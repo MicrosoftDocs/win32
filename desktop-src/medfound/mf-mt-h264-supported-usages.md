@@ -1,5 +1,5 @@
 ---
-Description: Specifies the supported usage modes for an H.264 video stream.
+description: Specifies the supported usage modes for an H.264 video stream.
 ms.assetid: EEAE0B57-9731-4032-80A3-6A1AD11214EC
 title: MF_MT_H264_SUPPORTED_USAGES attribute (Mfapi.h)
 ms.topic: reference

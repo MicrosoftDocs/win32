@@ -1,5 +1,5 @@
 ---
-Description: Sent by an audio capture source when the audio format changes.
+description: Sent by an audio capture source when the audio format changes.
 ms.assetid: 8197BBAD-8102-43C3-BA61-8DC3BC13B7D6
 title: MECaptureAudioSessionFormatChanged event (Mfobjects.h)
 ms.topic: reference

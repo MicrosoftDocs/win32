@@ -1,5 +1,5 @@
 ---
-Description: The following flags define DirectX Video Acceleration (DXVA) filter settings..
+description: The following flags define DirectX Video Acceleration (DXVA) filter settings..
 ms.assetid: 6514992e-8188-4d28-879c-547e9b340b28
 title: DXVA Image Filter Settings (Dxva2api.h)
 ms.topic: reference

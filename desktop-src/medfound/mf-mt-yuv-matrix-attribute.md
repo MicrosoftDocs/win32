@@ -1,5 +1,5 @@
 ---
-Description: For YUV media types, defines the conversion matrix from the YCbCr color space to the RGB color space.
+description: For YUV media types, defines the conversion matrix from the YCbCr color space to the RGB color space.
 ms.assetid: b268d16d-b4cc-4026-9ba7-805cc5409b95
 title: MF_MT_YUV_MATRIX attribute (Mfapi.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the current characteristics of the media source.
+description: Specifies the current characteristics of the media source.
 ms.assetid: af2a2b75-cd4e-453c-876e-3be2db695e4e
 title: MF_EVENT_SOURCE_CHARACTERISTICS attribute (Mfapi.h)
 ms.topic: reference

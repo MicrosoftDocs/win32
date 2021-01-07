@@ -1,5 +1,5 @@
 ---
-Description: Contains input data for a D3DAUTHENTICATEDCONFIGURE\_INITIALIZE command.
+description: Contains input data for a D3DAUTHENTICATEDCONFIGURE\_INITIALIZE command.
 ms.assetid: 08677cb3-6f08-49d5-a3b6-c48c88516273
 title: D3DAUTHENTICATEDCHANNEL_CONFIGUREINITIALIZE structure (D3d9types.h)
 ms.topic: reference

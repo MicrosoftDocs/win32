@@ -1,5 +1,5 @@
 ---
-Description: Implementing IMFNetCredentialManager
+description: Implementing IMFNetCredentialManager
 ms.assetid: 3eb2afec-195c-4d8d-8e08-7e6ec7c572f8
 title: Implementing IMFNetCredentialManager
 ms.topic: article

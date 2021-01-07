@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether all download protocols are enabled.
+description: Specifies whether all download protocols are enabled.
 ms.assetid: c178693f-44ea-481e-b7f2-2ec94eea1994
 title: MFNETSOURCE_ENABLE_DOWNLOAD property (Mfidl.h)
 ms.topic: reference

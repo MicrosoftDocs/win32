@@ -1,5 +1,5 @@
 ---
-Description: MBNProfileExt\/...\/IPType (v4)
+description: MBNProfileExt\/...\/IPType (v4)
 MS-HAID: WWAN\_profile\_v4.element\_IPType
 MSHAttr:
 - PreferredSiteName:MSDN

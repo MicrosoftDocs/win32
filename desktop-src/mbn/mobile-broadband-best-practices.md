@@ -1,5 +1,5 @@
 ---
-Description: When working with the Mobile Broadband API the following set of best practices should be used in order to achieve the best possible performance.
+description: When working with the Mobile Broadband API the following set of best practices should be used in order to achieve the best possible performance.
 ms.assetid: 523e3ea4-1d4e-45d1-bc24-93aa2fb14390
 title: Mobile Broadband API Best Practices
 ms.topic: article

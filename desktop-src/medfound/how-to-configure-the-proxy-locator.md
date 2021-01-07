@@ -1,5 +1,5 @@
 ---
-Description: How to Configure the Proxy Locator
+description: How to Configure the Proxy Locator
 ms.assetid: ddc28add-ebf5-4a68-bdf4-dc5f33ab74da
 title: How to Configure the Proxy Locator
 ms.topic: article

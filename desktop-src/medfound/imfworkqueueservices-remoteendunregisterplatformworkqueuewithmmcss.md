@@ -1,5 +1,5 @@
 ---
-Description: Remotable version of the IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS method.
+description: Remotable version of the IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS method.
 ms.assetid: 92eef511-0af0-4146-ac81-7dfa4a649016
 title: RemoteEndUnregisterPlatformWorkQueueWithMMCSS (Mfobjects.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Sent to an application when the IME ends composition. A window receives this message through its WindowProc function.
+description: Sent to an application when the IME ends composition. A window receives this message through its WindowProc function.
 ms.assetid: d0f05524-4dfc-45b2-9476-6f1244190de5
 title: WM_IME_ENDCOMPOSITION message (Winuser.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Converts a Microsoft MS-DOS path to a canonicalized URL.
+description: Converts a Microsoft MS-DOS path to a canonicalized URL.
 ms.assetid: 1186b970-9ae1-4020-b999-55157cff1741
 title: MFCreateURLFromPath function
 ms.topic: reference

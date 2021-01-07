@@ -1,5 +1,5 @@
 ---
-Description: About MFTs
+description: About MFTs
 ms.assetid: ca9cef70-b897-4fd5-9a13-8bf1c2b84b00
 title: About MFTs
 ms.topic: article

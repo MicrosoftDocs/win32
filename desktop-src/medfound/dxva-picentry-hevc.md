@@ -1,5 +1,5 @@
 ---
-Description: Specifies a reference to an uncompressed surface.
+description: Specifies a reference to an uncompressed surface.
 ms.assetid: 01F9C9F9-8EB4-49D5-91F0-89B4C40DDDC8
 title: DXVA_PicEntry_HEVC structure (Dxva.h)
 ms.topic: reference

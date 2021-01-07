@@ -1,5 +1,5 @@
 ---
-Description: Specifies the capabilities flags for an H.264 video stream.
+description: Specifies the capabilities flags for an H.264 video stream.
 ms.assetid: 59EF18D6-6063-4EF3-BBFB-51A966CFF09E
 title: MF_MT_H264_CAPABILITIES attribute (Mfapi.h)
 ms.topic: reference

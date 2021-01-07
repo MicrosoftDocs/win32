@@ -1,5 +1,5 @@
 ---
-Description: Sent by the IMFMediaSource that encapsulates the device to indicate that the device has been preempted.
+description: Sent by the IMFMediaSource that encapsulates the device to indicate that the device has been preempted.
 ms.assetid: 85EE663C-94B7-47EA-ABBA-A8371342EEB2
 title: MEVideoCaptureDevicePreempted event (Mfobjects.h)
 ms.topic: reference

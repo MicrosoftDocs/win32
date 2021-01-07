@@ -1,5 +1,5 @@
 ---
-Description: ModemDMConfigProfile\/SimIccID (v4)
+description: ModemDMConfigProfile\/SimIccID (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_SimIccID
 MSHAttr:
 - PreferredSiteName:MSDN

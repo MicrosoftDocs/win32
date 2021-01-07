@@ -1,5 +1,5 @@
 ---
-Description: ModemDMConfigProfile\/...\/IgnorePassword (v4)
+description: ModemDMConfigProfile\/...\/IgnorePassword (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_IgnorePassword
 MSHAttr:
 - PreferredSiteName:MSDN

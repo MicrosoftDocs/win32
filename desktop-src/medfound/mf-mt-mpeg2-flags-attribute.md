@@ -1,5 +1,5 @@
 ---
-Description: Contains miscellaneous flags for an MPEG-2 video media type.
+description: Contains miscellaneous flags for an MPEG-2 video media type.
 ms.assetid: 2e1bf3e3-c005-418b-b9fd-1d43c42dad6f
 title: MF_MT_MPEG2_FLAGS attribute (Mfapi.h)
 ms.topic: reference

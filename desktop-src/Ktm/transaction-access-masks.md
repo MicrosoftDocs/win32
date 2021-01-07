@@ -1,5 +1,5 @@
 ---
-Description: KTM defines the following transaction access masks to be used when opening a transaction.
+description: KTM defines the following transaction access masks to be used when opening a transaction.
 ms.assetid: 93ef3098-b3cc-4b24-ae82-1c10d937f14f
 title: Transaction Access Masks (WinNT.h)
 ms.topic: reference

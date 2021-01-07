@@ -1,5 +1,5 @@
 ---
-Description: Lists the different types of notifications that can be received by an enlistment.
+description: Lists the different types of notifications that can be received by an enlistment.
 ms.assetid: 65db8ba5-193c-439b-8e8c-6cb4a9bd4efd
 title: NOTIFICATION_MASK (KtmTypes.h)
 ms.topic: reference

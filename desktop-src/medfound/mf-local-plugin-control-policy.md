@@ -1,5 +1,5 @@
 ---
-Description: Specifies a local plugin control policy.
+description: Specifies a local plugin control policy.
 ms.assetid: 2936F3C9-3BCB-452A-8C03-35D73A200CE2
 title: MF_LOCAL_PLUGIN_CONTROL_POLICY attribute (Mfidl.h)
 ms.topic: reference

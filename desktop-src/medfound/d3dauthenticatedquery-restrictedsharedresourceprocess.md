@@ -1,5 +1,5 @@
 ---
-Description: Returns information about a process that is allowed to open shared resources with restricted access.
+description: Returns information about a process that is allowed to open shared resources with restricted access.
 ms.assetid: 669d9623-3a96-4661-9dae-3f283a990fe8
 title: D3DAUTHENTICATEDQUERY_RESTRICTEDSHAREDRESOURCEPROCESS (D3d9types.h)
 ms.topic: reference

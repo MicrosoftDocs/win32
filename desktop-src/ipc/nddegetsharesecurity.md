@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the security descriptor associated with the DDE share. This is done usually for editing.
+description: Retrieves the security descriptor associated with the DDE share. This is done usually for editing.
 ms.assetid: 7d3cc965-45ee-40ce-a462-568200592345
 title: NDdeGetShareSecurity function (Nddeapi.h)
 ms.topic: reference

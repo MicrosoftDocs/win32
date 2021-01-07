@@ -1,5 +1,5 @@
 ---
-Description: MBNProfileExt\/...\/Compression (v4)
+description: MBNProfileExt\/...\/Compression (v4)
 MS-HAID: WWAN\_profile\_v4.element\_Compression
 MSHAttr:
 - PreferredSiteName:MSDN

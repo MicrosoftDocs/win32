@@ -1,5 +1,5 @@
 ---
-Description: MBNProfileExt\/...\/UserLogonCred (v4)
+description: MBNProfileExt\/...\/UserLogonCred (v4)
 MS-HAID: WWAN\_profile\_v4.element\_UserLogonCred
 MSHAttr:
 - PreferredSiteName:MSDN

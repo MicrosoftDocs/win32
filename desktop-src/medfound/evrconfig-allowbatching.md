@@ -1,5 +1,5 @@
 ---
-Description: Allows the Enhanced Video Renderer (EVR) to batch calls to the Microsoft Direct3D IDirect3DDevice9::Present method.
+description: Allows the Enhanced Video Renderer (EVR) to batch calls to the Microsoft Direct3D IDirect3DDevice9::Present method.
 ms.assetid: 6dbb2839-97ea-4881-8f22-0f8e943a3071
 title: EVRConfig_AllowBatching attribute (Uuids.h)
 ms.topic: reference

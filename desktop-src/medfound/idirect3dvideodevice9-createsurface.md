@@ -1,5 +1,5 @@
 ---
-Description: Creates a compressed surface for DirectX Video Acceleration (DXVA) decoding.
+description: Creates a compressed surface for DirectX Video Acceleration (DXVA) decoding.
 ms.assetid: 2bb8c99d-1151-4f6d-869f-2c1a592e76af
 title: IDirect3DVideoDevice9::CreateSurface method (Dxva.h)
 ms.topic: reference

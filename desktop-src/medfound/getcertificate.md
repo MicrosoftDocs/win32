@@ -1,5 +1,5 @@
 ---
-Description: Gets a certificate for a display driver.
+description: Gets a certificate for a display driver.
 ms.assetid: eceaf151-1dae-4ff0-9139-7f1789f6c682
 title: GetCertificate function
 ms.topic: reference

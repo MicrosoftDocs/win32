@@ -1,5 +1,5 @@
 ---
-Description: ModemDMConfigProfile\/...\/AuthProtocol (v4)
+description: ModemDMConfigProfile\/...\/AuthProtocol (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_AuthProtocol
 MSHAttr:
 - PreferredSiteName:MSDN

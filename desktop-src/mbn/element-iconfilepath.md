@@ -1,5 +1,5 @@
 ---
-Description: ICONFilePath
+description: ICONFilePath
 MS-HAID: WWAN\_profile\_v4.element\_ICONFilePath
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the stereo downmix mode for a Dolby Digital audio decoder.
+description: Specifies the stereo downmix mode for a Dolby Digital audio decoder.
 ms.assetid: 270893C6-8B44-4A4D-AE2B-2E58E260F649
 title: CODECAPI_AVDecDDStereoDownMixMode property (Codecapi.h)
 ms.topic: reference

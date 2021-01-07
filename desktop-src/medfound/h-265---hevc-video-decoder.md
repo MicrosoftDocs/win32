@@ -1,5 +1,5 @@
 ---
-Description: The Media Foundation H.265 video decoder is a Media Foundation Transform that supports decoding H.265/HEVC content in Annex B format and can be used in playback of mp4 and m2ts files.
+description: The Media Foundation H.265 video decoder is a Media Foundation Transform that supports decoding H.265/HEVC content in Annex B format and can be used in playback of mp4 and m2ts files.
 ms.assetid: BBE754E4-2AAD-4CFD-B53F-2B66693502EE
 title: H.265 / HEVC Video Decoder
 ms.topic: reference

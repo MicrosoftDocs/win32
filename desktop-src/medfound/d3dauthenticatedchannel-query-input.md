@@ -1,5 +1,5 @@
 ---
-Description: Contains input data for the IDirect3DAuthenticatedChannel9::Query method.
+description: Contains input data for the IDirect3DAuthenticatedChannel9::Query method.
 ms.assetid: 6a484652-8da2-4074-96b2-6fe49f4d4200
 title: D3DAUTHENTICATEDCHANNEL_QUERY_INPUT structure (D3d9types.h)
 ms.topic: reference

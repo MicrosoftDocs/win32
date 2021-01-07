@@ -1,5 +1,5 @@
 ---
-Description: A value that defines the units for a depth value in a video frame.
+description: A value that defines the units for a depth value in a video frame.
 ms.assetid: 0D7238F3-C224-48BD-8654-B3182DFB244C
 title: MF_MT_DEPTH_VALUE_UNIT attribute (Mfapi.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the connenction context of a Mobile Broadband device.
+description: Specifies the connenction context of a Mobile Broadband device.
 ms.assetid: 513e744d-bd62-43e9-a636-6690867d8b9b
 title: contextType Complex Type
 ms.topic: reference

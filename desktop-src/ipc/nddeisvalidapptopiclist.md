@@ -1,5 +1,5 @@
 ---
-Description: Determines whether an application and topic string (&\#0034;AppName\|TopicName&\#0034;) uses the proper syntax.
+description: Determines whether an application and topic string (&\#0034;AppName\|TopicName&\#0034;) uses the proper syntax.
 ms.assetid: bcf5442b-452e-4b42-95e9-f09bf885be40
 title: NDdeIsValidAppTopicList function (Nddeapi.h)
 ms.topic: reference

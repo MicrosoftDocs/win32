@@ -1,5 +1,5 @@
 ---
-Description: Returns the encryption type that is applied before content becomes accessible to the CPU or bus.
+description: Returns the encryption type that is applied before content becomes accessible to the CPU or bus.
 ms.assetid: 89526bb2-1316-4730-b599-3690b1838c3e
 title: D3DAUTHENTICATEDQUERY_CURRENTENCRYPTIONWHENACCESSIBLE (D3d9types.h)
 ms.topic: reference

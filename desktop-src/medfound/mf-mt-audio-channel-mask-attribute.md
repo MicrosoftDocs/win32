@@ -1,5 +1,5 @@
 ---
-Description: In an audio media type, specifies the assignment of audio channels to speaker positions.
+description: In an audio media type, specifies the assignment of audio channels to speaker positions.
 ms.assetid: fa5f6baa-0a21-4162-8870-38e71763aba0
 title: MF_MT_AUDIO_CHANNEL_MASK attribute (Mfapi.h)
 ms.topic: reference

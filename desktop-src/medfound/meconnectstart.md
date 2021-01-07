@@ -1,5 +1,5 @@
 ---
-Description: Raised by the network source when it starts opening a URL.
+description: Raised by the network source when it starts opening a URL.
 ms.assetid: 0844ac10-cc5b-4e7f-92df-3a5901c72148
 title: MEConnectStart event (Mfobjects.h)
 ms.topic: reference

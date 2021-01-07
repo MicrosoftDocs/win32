@@ -1,5 +1,5 @@
 ---
-Description: Sent by the IMFMediaSource that encapsulates the device to indicate that the device has been removed.
+description: Sent by the IMFMediaSource that encapsulates the device to indicate that the device has been removed.
 ms.assetid: 107AFF19-B444-4B62-9217-46A99AC3632C
 title: MEVideoCaptureDeviceRemoved event (Mfobjects.h)
 ms.topic: reference

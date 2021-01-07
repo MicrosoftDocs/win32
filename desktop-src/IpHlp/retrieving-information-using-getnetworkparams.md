@@ -1,5 +1,5 @@
 ---
-Description: Fills a pointer to a FIXED\_INFO structure with data about the current network settings.
+description: Fills a pointer to a FIXED\_INFO structure with data about the current network settings.
 ms.assetid: d377951f-e7d4-4482-9182-2c3b153cb325
 title: Retrieving Information Using GetNetworkParams
 ms.topic: article

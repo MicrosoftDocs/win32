@@ -1,5 +1,5 @@
 ---
-Description: For a media type that describes an MPEG-2 program stream (PS) or transport stream (TS), specifies the standard that is used to multiplex the stream.
+description: For a media type that describes an MPEG-2 program stream (PS) or transport stream (TS), specifies the standard that is used to multiplex the stream.
 ms.assetid: 3D4C1A81-A9BA-427F-93DB-F522A0616EAB
 title: MF_MT_MPEG2_STANDARD attribute (Mfapi.h)
 ms.topic: reference

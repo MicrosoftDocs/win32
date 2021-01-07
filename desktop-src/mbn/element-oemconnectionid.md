@@ -1,5 +1,5 @@
 ---
-Description: OemConnectionId
+description: OemConnectionId
 MS-HAID: WWAN\_profile\_v4.element\_OemConnectionId
 MSHAttr:
 - PreferredSiteName:MSDN

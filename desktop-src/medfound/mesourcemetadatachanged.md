@@ -1,5 +1,5 @@
 ---
-Description: Raised by a media source when it updates its metadata.
+description: Raised by a media source when it updates its metadata.
 ms.assetid: 6818b0c9-9628-41e6-8dc6-dff26f4fcfd2
 title: MESourceMetadataChanged event (Mfobjects.h)
 ms.topic: reference

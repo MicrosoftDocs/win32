@@ -1,5 +1,5 @@
 ---
-Description: ModemDMConfigProfile\/Context (v4)
+description: ModemDMConfigProfile\/Context (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_Context
 MSHAttr:
 - PreferredSiteName:MSDN

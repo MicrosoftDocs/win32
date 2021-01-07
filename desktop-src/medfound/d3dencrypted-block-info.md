@@ -1,5 +1,5 @@
 ---
-Description: Specifies which bytes are encrypted in a protected video surface.
+description: Specifies which bytes are encrypted in a protected video surface.
 ms.assetid: 076f4f00-e86b-47e2-80dd-4d7434200138
 title: D3DENCRYPTED_BLOCK_INFO structure (D3d9types.h)
 ms.topic: reference

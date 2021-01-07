@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the network source caches content.
+description: Specifies whether the network source caches content.
 ms.assetid: f9a36315-083c-4ebb-9d36-d55fc1f21621
 title: MFNETSOURCE_CACHEENABLED property (Mfidl.h)
 ms.topic: reference

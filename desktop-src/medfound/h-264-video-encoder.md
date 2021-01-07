@@ -1,5 +1,5 @@
 ---
-Description: 'The Microsoft Media Foundation H.264 video encoder is a Media Foundation transform that supports the following H.264 profiles:'
+description: 'The Microsoft Media Foundation H.264 video encoder is a Media Foundation transform that supports the following H.264 profiles:'
 ms.assetid: 4d4c768f-b76a-40ca-8736-2f592a4f4cc4
 title: H.264 Video Encoder
 ms.topic: reference

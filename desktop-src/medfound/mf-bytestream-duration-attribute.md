@@ -1,5 +1,5 @@
 ---
-Description: Specifies the duration of a byte stream, in 100-nanosecond units.
+description: Specifies the duration of a byte stream, in 100-nanosecond units.
 ms.assetid: afa4930c-544b-4d66-94fe-9795bb526e0a
 title: MF_BYTESTREAM_DURATION attribute (Mfobjects.h)
 ms.topic: reference

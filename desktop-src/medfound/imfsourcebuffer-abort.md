@@ -1,5 +1,5 @@
 ---
-Description: Aborts the processing of the current media segment.
+description: Aborts the processing of the current media segment.
 ms.assetid: 31253d0d-c53f-47bd-823a-fc564cb63b78
 title: IMFSourceBuffer::Abort method
 ms.topic: reference

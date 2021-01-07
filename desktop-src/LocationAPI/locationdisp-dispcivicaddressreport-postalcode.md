@@ -1,5 +1,5 @@
 ---
-Description: The postal code.
+description: The postal code.
 ms.assetid: 91a137c0-70d8-4b3d-9872-035d633d1f7c
 title: LocationDisp.DispCivicAddressReport.PostalCode property
 ms.topic: reference

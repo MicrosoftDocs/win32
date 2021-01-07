@@ -1,5 +1,5 @@
 ---
-Description: Identifies the APN or dial string to be used to establish a data connection.
+description: Identifies the APN or dial string to be used to establish a data connection.
 ms.assetid: e791ffa1-b417-480c-adb8-b1dda7547d89
 title: AccessString (contextType) Element
 ms.topic: reference

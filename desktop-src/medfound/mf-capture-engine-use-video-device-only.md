@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the capture engine captures video but not audio.
+description: Specifies whether the capture engine captures video but not audio.
 ms.assetid: B0B7A7F2-02F9-46A6-954F-D6E9C3B73A29
 title: MF_CAPTURE_ENGINE_USE_VIDEO_DEVICE_ONLY attribute (Mfcaptureengine.h)
 ms.topic: reference

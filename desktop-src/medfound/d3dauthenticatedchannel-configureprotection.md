@@ -1,5 +1,5 @@
 ---
-Description: Contains input data for a D3DAUTHENTICATEDCONFIGURE\_PROTECTION command.
+description: Contains input data for a D3DAUTHENTICATEDCONFIGURE\_PROTECTION command.
 ms.assetid: 44f37e78-7218-42be-a07a-5ab911f2ba21
 title: D3DAUTHENTICATEDCHANNEL_CONFIGUREPROTECTION structure (D3d9types.h)
 ms.topic: reference

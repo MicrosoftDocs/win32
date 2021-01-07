@@ -1,5 +1,5 @@
 ---
-Description: Contains the response to a D3DAUTHENTICATEDQUERY\_PROTECTION query.
+description: Contains the response to a D3DAUTHENTICATEDQUERY\_PROTECTION query.
 ms.assetid: eb99089a-5e8e-4970-9c40-7f6a9662b5ec
 title: D3DAUTHENTICATEDCHANNEL_QUERYPROTECTION_OUTPUT structure (D3d9types.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Creates an instance of the capture engine.
+description: Creates an instance of the capture engine.
 ms.assetid: 4B0C9DD6-135D-4412-A585-7E98A84101B5
 title: MFCreateCaptureEngine function
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: User interaction features for Windows 7 and earlier.
+description: User interaction features for Windows 7 and earlier.
 ms.assetid: B1CA76FB-7BB6-4886-8BD6-EECCC2D06529
 title: Legacy User Interaction Features
 ms.topic: reference

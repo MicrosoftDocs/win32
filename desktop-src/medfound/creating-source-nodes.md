@@ -1,5 +1,5 @@
 ---
-Description: Creating Source Nodes
+description: Creating Source Nodes
 ms.assetid: 44c26bcd-04a9-48c3-b536-25c2b18c34c1
 title: Creating Source Nodes
 ms.topic: article

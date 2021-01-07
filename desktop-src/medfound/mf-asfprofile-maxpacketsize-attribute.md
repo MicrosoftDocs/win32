@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum packet size for an ASF file, in bytes.
+description: Specifies the maximum packet size for an ASF file, in bytes.
 ms.assetid: c43423c2-a5f2-411c-aa47-802a3c808ad8
 title: MF_ASFPROFILE_MAXPACKETSIZE attribute (Wmcontainer.h)
 ms.topic: reference

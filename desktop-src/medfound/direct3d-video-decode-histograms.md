@@ -1,5 +1,5 @@
 ---
-Description: This article contains guidance for generating histograms while decoding video using Direct3D 11 or 12 video APIs.
+description: This article contains guidance for generating histograms while decoding video using Direct3D 11 or 12 video APIs.
 ms.assetid: 
 title: Direct3D video decode histograms
 ms.topic: article

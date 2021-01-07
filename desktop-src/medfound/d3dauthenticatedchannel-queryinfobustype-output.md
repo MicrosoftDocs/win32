@@ -1,5 +1,5 @@
 ---
-Description: Contains the response to a D3DAUTHENTICATEDQUERY\_ACCESSIBILITYATTRIBUTES query.
+description: Contains the response to a D3DAUTHENTICATEDQUERY\_ACCESSIBILITYATTRIBUTES query.
 ms.assetid: 9f66a467-ba05-413b-b001-ea4c5ca4a37d
 title: D3DAUTHENTICATEDCHANNEL_QUERYINFOBUSTYPE_OUTPUT structure (D3d9types.h)
 ms.topic: reference

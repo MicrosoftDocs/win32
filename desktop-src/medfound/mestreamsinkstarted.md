@@ -1,5 +1,5 @@
 ---
-Description: Raised by a stream sink when it completes the transition to the running state.
+description: Raised by a stream sink when it completes the transition to the running state.
 ms.assetid: 95ac658b-bec0-442d-85ef-61966b40a2f2
 title: MEStreamSinkStarted event (Mfobjects.h)
 ms.topic: reference

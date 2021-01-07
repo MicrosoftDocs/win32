@@ -1,5 +1,5 @@
 ---
-Description: Sends an OPM status request to a protected output object.
+description: Sends an OPM status request to a protected output object.
 ms.assetid: 4b691b20-25de-4b9e-a725-674a57697b56
 title: GetOPMInformation function
 ms.topic: reference

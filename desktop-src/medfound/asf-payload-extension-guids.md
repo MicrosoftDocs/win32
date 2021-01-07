@@ -1,5 +1,5 @@
 ---
-Description: The following GUIDs define payload extensions for Advanced Systems Format (ASF) streams.
+description: The following GUIDs define payload extensions for Advanced Systems Format (ASF) streams.
 ms.assetid: db973b41-1e5c-4bc8-921d-5e9312eb21cb
 title: ASF Payload Extension GUIDs (Wmcontainer.h)
 ms.topic: reference

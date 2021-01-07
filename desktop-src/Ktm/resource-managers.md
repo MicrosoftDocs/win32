@@ -1,5 +1,5 @@
 ---
-Description: Resource Managers
+description: Resource Managers
 ms.assetid: c717b731-cf0b-45cb-bbff-695410fcf6ce
 title: Resource Managers
 ms.topic: article

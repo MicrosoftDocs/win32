@@ -1,5 +1,5 @@
 ---
-Description: Ends the processing to create a decoded picture.
+description: Ends the processing to create a decoded picture.
 ms.assetid: 4b47cd53-6ce0-47b0-83ed-84926e92430f
 title: IDirect3DDXVADevice9::EndFrame method (Dxva.h)
 ms.topic: reference

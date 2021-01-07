@@ -1,5 +1,5 @@
 ---
-Description: The current desired-accuracy value.
+description: The current desired-accuracy value.
 ms.assetid: dfad833b-bb0c-4c66-9942-da10abee5381
 title: LocationDisp.LatLongReportFactory.DesiredAccuracy property
 ms.topic: reference
