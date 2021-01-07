@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadColumnIdException properties"
 title: EsentBadColumnIdException properties
 TOCTitle: EsentBadColumnIdException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBadColumnIdException

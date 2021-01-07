@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCurrencyStackOutOfMemoryException members"
 title: EsentCurrencyStackOutOfMemoryException members
 TOCTitle: EsentCurrencyStackOutOfMemoryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCurrencyStackOutOfMemoryException

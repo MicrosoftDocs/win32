@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CloseDatabaseGrbit enumeration"
 title: CloseDatabaseGrbit enumeration
 TOCTitle: CloseDatabaseGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.CloseDatabaseGrbit

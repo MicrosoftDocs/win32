@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentAlreadyInitializedException methods"
 title: EsentAlreadyInitializedException methods
 TOCTitle: EsentAlreadyInitializedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentAlreadyInitializedException

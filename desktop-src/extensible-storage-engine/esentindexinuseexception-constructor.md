@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexInUseException constructor"
 title: EsentIndexInUseException constructor 
 TOCTitle: 'EsentIndexInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexInUseException.#ctor

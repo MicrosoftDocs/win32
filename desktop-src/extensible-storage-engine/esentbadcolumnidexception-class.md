@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadColumnIdException class"
 title: EsentBadColumnIdException class
 TOCTitle: EsentBadColumnIdException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadColumnIdException

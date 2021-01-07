@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentAttachedDatabaseMismatchException members"
 title: EsentAttachedDatabaseMismatchException members
 TOCTitle: EsentAttachedDatabaseMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentAttachedDatabaseMismatchException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIllegalOperationException constructor"
 title: EsentIllegalOperationException constructor 
 TOCTitle: 'EsentIllegalOperationException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIllegalOperationException.#ctor

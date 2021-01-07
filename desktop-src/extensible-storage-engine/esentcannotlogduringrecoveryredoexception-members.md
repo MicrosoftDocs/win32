@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotLogDuringRecoveryRedoException members"
 title: EsentCannotLogDuringRecoveryRedoException members
 TOCTitle: EsentCannotLogDuringRecoveryRedoException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotLogDuringRecoveryRedoException

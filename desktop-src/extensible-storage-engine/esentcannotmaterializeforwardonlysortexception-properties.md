@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotMaterializeForwardOnlySortException properties"
 title: EsentCannotMaterializeForwardOnlySortException properties
 TOCTitle: EsentCannotMaterializeForwardOnlySortException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCannotMaterializeForwardOnlySortException

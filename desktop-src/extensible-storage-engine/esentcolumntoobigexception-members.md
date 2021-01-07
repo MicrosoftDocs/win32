@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnTooBigException members"
 title: EsentColumnTooBigException members
 TOCTitle: EsentColumnTooBigException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnTooBigException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Database Parameters"
 title: Database Parameters
 TOCTitle: Database Parameters
 ms:assetid: 8fb68748-8718-4393-9fd6-0d9adaa34844

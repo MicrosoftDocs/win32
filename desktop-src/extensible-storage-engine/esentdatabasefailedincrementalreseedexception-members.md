@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseFailedIncrementalReseedException members"
 title: EsentDatabaseFailedIncrementalReseedException members
 TOCTitle: EsentDatabaseFailedIncrementalReseedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseFailedIncrementalReseedException

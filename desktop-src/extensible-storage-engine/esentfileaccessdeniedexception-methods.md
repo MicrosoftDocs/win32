@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileAccessDeniedException methods"
 title: EsentFileAccessDeniedException methods
 TOCTitle: EsentFileAccessDeniedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFileAccessDeniedException

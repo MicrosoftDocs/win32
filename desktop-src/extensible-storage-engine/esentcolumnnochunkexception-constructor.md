@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnNoChunkException constructor"
 title: EsentColumnNoChunkException constructor 
 TOCTitle: 'EsentColumnNoChunkException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnNoChunkException.#ctor

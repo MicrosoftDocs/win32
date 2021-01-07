@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexHasPrimaryException methods"
 title: EsentIndexHasPrimaryException methods
 TOCTitle: EsentIndexHasPrimaryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentIndexHasPrimaryException

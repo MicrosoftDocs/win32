@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnNotFoundException methods"
 title: EsentColumnNotFoundException methods
 TOCTitle: EsentColumnNotFoundException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentColumnNotFoundException

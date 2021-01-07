@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnIndexedException properties"
 title: EsentColumnIndexedException properties
 TOCTitle: EsentColumnIndexedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentColumnIndexedException

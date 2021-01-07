@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadCheckpointSignatureException members"
 title: EsentBadCheckpointSignatureException members
 TOCTitle: EsentBadCheckpointSignatureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBadCheckpointSignatureException

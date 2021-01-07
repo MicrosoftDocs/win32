@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotNestDistributedTransactionsException class"
 title: EsentCannotNestDistributedTransactionsException class
 TOCTitle: EsentCannotNestDistributedTransactionsException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCannotNestDistributedTransactionsException

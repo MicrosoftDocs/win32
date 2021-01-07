@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileInvalidTypeException members"
 title: EsentFileInvalidTypeException members
 TOCTitle: EsentFileInvalidTypeException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFileInvalidTypeException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDisabledFunctionalityException class"
 title: EsentDisabledFunctionalityException class
 TOCTitle: EsentDisabledFunctionalityException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDisabledFunctionalityException

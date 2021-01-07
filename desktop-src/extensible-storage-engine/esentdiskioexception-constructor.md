@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDiskIOException constructor"
 title: EsentDiskIOException constructor 
 TOCTitle: 'EsentDiskIOException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDiskIOException.#ctor

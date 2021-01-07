@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileInvalidTypeException methods"
 title: EsentFileInvalidTypeException methods
 TOCTitle: EsentFileInvalidTypeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFileInvalidTypeException

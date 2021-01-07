@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFeatureNotAvailableException properties"
 title: EsentFeatureNotAvailableException properties
 TOCTitle: EsentFeatureNotAvailableException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFeatureNotAvailableException

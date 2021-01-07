@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadSLVSignatureException methods"
 title: EsentBadSLVSignatureException methods
 TOCTitle: EsentBadSLVSignatureException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadSLVSignatureException

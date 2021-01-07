@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBackupDirectoryNotEmptyException methods"
 title: EsentBackupDirectoryNotEmptyException methods
 TOCTitle: EsentBackupDirectoryNotEmptyException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBackupDirectoryNotEmptyException

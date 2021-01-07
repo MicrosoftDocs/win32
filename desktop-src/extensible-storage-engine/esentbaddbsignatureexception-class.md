@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadDbSignatureException class"
 title: EsentBadDbSignatureException class
 TOCTitle: EsentBadDbSignatureException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadDbSignatureException

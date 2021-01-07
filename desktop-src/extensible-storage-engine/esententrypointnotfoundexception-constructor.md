@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentEntryPointNotFoundException constructor"
 title: EsentEntryPointNotFoundException constructor 
 TOCTitle: 'EsentEntryPointNotFoundException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentEntryPointNotFoundException.#ctor

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotDeleteSystemTableException constructor"
 title: EsentCannotDeleteSystemTableException constructor 
 TOCTitle: 'EsentCannotDeleteSystemTableException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotDeleteSystemTableException.#ctor

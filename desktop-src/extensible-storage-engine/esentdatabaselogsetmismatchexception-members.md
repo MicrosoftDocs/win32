@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseLogSetMismatchException members"
 title: EsentDatabaseLogSetMismatchException members
 TOCTitle: EsentDatabaseLogSetMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseLogSetMismatchException

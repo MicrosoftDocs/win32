@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadLogSignatureException methods"
 title: EsentBadLogSignatureException methods
 TOCTitle: EsentBadLogSignatureException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadLogSignatureException

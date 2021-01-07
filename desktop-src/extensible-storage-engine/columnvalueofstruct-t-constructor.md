@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValueOfStruct<T> constructor"
 title: ColumnValueOfStruct(T) constructor 
 TOCTitle: 'ColumnValueOfStruct(T) constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1.#ctor

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseIncompleteUpgradeException properties"
 title: EsentDatabaseIncompleteUpgradeException properties
 TOCTitle: EsentDatabaseIncompleteUpgradeException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseIncompleteUpgradeException

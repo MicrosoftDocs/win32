@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadLogVersionException constructor"
 title: EsentBadLogVersionException constructor 
 TOCTitle: 'EsentBadLogVersionException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadLogVersionException.#ctor

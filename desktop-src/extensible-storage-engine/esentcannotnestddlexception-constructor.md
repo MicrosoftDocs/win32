@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotNestDDLException constructor"
 title: EsentCannotNestDDLException constructor 
 TOCTitle: 'EsentCannotNestDDLException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotNestDDLException.#ctor

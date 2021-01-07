@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Database Overview"
 title: Database Overview
 TOCTitle: Database Overview
 ms:assetid: 6e4ebfab-8bd2-4fcf-9d91-2148a693596c

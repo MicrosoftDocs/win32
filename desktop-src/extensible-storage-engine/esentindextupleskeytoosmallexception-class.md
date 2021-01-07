@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesKeyTooSmallException class"
 title: EsentIndexTuplesKeyTooSmallException class
 TOCTitle: EsentIndexTuplesKeyTooSmallException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesKeyTooSmallException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnIndexedException constructor"
 title: EsentColumnIndexedException constructor 
 TOCTitle: 'EsentColumnIndexedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnIndexedException.#ctor

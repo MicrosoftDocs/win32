@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentGivenLogFileIsNotContiguousException members"
 title: EsentGivenLogFileIsNotContiguousException members
 TOCTitle: EsentGivenLogFileIsNotContiguousException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentGivenLogFileIsNotContiguousException

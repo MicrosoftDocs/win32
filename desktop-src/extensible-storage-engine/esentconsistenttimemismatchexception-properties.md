@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentConsistentTimeMismatchException properties"
 title: EsentConsistentTimeMismatchException properties
 TOCTitle: EsentConsistentTimeMismatchException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentConsistentTimeMismatchException

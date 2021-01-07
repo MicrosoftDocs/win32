@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileNotFoundException constructor"
 title: EsentFileNotFoundException constructor 
 TOCTitle: 'EsentFileNotFoundException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileNotFoundException.#ctor

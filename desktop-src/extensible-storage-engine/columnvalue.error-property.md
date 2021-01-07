@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValue.Error property"
 title: ColumnValue.Error property 
 TOCTitle: 'Error property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValue.Error

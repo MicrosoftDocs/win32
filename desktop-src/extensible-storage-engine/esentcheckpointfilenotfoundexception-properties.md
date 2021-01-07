@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCheckpointFileNotFoundException properties"
 title: EsentCheckpointFileNotFoundException properties
 TOCTitle: EsentCheckpointFileNotFoundException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCheckpointFileNotFoundException

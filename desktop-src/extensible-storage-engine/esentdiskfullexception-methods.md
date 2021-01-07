@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDiskFullException methods"
 title: EsentDiskFullException methods
 TOCTitle: EsentDiskFullException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDiskFullException

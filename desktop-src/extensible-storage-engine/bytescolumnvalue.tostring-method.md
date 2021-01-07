@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BytesColumnValue.ToString method"
 title: BytesColumnValue.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.BytesColumnValue.ToString

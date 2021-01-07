@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDerivedColumnCorruptionException properties"
 title: EsentDerivedColumnCorruptionException properties
 TOCTitle: EsentDerivedColumnCorruptionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDerivedColumnCorruptionException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInconsistentException constructor (SerializationInfo, StreamingContext)"
 title: EsentInconsistentException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentInconsistentException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInconsistentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)

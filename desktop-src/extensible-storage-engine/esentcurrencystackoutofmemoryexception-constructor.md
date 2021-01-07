@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCurrencyStackOutOfMemoryException constructor"
 title: EsentCurrencyStackOutOfMemoryException constructor 
 TOCTitle: 'EsentCurrencyStackOutOfMemoryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCurrencyStackOutOfMemoryException.#ctor

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ColumnValue properties"
 title: ColumnValue properties
 TOCTitle: ColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.ColumnValue

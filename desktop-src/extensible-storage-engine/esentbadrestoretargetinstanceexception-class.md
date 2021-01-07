@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadRestoreTargetInstanceException class"
 title: EsentBadRestoreTargetInstanceException class
 TOCTitle: EsentBadRestoreTargetInstanceException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadRestoreTargetInstanceException

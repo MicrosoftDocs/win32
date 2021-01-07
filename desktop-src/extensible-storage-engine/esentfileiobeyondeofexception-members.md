@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOBeyondEOFException members"
 title: EsentFileIOBeyondEOFException members
 TOCTitle: EsentFileIOBeyondEOFException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFileIOBeyondEOFException

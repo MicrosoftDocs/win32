@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnDuplicateException class"
 title: EsentColumnDuplicateException class
 TOCTitle: EsentColumnDuplicateException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentColumnDuplicateException

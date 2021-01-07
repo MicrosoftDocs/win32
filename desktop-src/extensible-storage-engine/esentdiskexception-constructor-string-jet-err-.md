@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDiskException constructor (String, JET_err)"
 title: EsentDiskException constructor (String, JET_err)
 TOCTitle: EsentDiskException constructor (String, JET_err)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDiskException.#ctor(System.String,Microsoft.Isam.Esent.Interop.JET_err)

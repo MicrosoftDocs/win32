@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DateTimeColumnValue members"
 title: DateTimeColumnValue members
 TOCTitle: DateTimeColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.DateTimeColumnValue

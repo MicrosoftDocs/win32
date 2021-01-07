@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileNotFoundException properties"
 title: EsentFileNotFoundException properties
 TOCTitle: EsentFileNotFoundException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFileNotFoundException

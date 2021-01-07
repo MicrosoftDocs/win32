@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DurableCommitCallback.ReleaseResource method"
 title: DurableCommitCallback.ReleaseResource method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'ReleaseResource method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.DurableCommitCallback.ReleaseResource

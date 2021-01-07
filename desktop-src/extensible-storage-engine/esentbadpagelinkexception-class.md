@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadPageLinkException class"
 title: EsentBadPageLinkException class
 TOCTitle: EsentBadPageLinkException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadPageLinkException

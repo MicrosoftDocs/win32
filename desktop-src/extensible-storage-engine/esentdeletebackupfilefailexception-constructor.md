@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDeleteBackupFileFailException constructor"
 title: EsentDeleteBackupFileFailException constructor 
 TOCTitle: 'EsentDeleteBackupFileFailException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDeleteBackupFileFailException.#ctor

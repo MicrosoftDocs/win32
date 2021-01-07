@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentAlreadyPreparedException members"
 title: EsentAlreadyPreparedException members
 TOCTitle: EsentAlreadyPreparedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentAlreadyPreparedException

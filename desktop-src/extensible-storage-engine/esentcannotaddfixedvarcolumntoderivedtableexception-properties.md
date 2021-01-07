@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotAddFixedVarColumnToDerivedTableException properties"
 title: EsentCannotAddFixedVarColumnToDerivedTableException properties
 TOCTitle: EsentCannotAddFixedVarColumnToDerivedTableException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCannotAddFixedVarColumnToDerivedTableException

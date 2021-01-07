@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotDisableVersioningException members"
 title: EsentCannotDisableVersioningException members
 TOCTitle: EsentCannotDisableVersioningException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotDisableVersioningException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDistributedTransactionAlreadyPreparedToCommitException members"
 title: EsentDistributedTransactionAlreadyPreparedToCommitException members
 TOCTitle: EsentDistributedTransactionAlreadyPreparedToCommitException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDistributedTransactionAlreadyPreparedToCommitException

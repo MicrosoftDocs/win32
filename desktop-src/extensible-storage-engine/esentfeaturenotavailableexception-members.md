@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFeatureNotAvailableException members"
 title: EsentFeatureNotAvailableException members
 TOCTitle: EsentFeatureNotAvailableException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFeatureNotAvailableException

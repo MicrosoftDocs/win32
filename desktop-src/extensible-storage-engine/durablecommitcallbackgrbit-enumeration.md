@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DurableCommitCallbackGrbit enumeration"
 title: DurableCommitCallbackGrbit enumeration (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: DurableCommitCallbackGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.DurableCommitCallbackGrbit

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CreateTableColumnIndexGrbit enumeration"
 title: CreateTableColumnIndexGrbit enumeration
 TOCTitle: CreateTableColumnIndexGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.CreateTableColumnIndexGrbit

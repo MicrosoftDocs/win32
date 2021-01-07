@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabase200FormatException members"
 title: EsentDatabase200FormatException members
 TOCTitle: EsentDatabase200FormatException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabase200FormatException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseUnavailableException class"
 title: EsentDatabaseUnavailableException class
 TOCTitle: EsentDatabaseUnavailableException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabaseUnavailableException

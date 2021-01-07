@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DetachDatabaseGrbit enumeration"
 title: DetachDatabaseGrbit enumeration
 TOCTitle: DetachDatabaseGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.DetachDatabaseGrbit

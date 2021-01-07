@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexHasPrimaryException properties"
 title: EsentIndexHasPrimaryException properties
 TOCTitle: EsentIndexHasPrimaryException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexHasPrimaryException

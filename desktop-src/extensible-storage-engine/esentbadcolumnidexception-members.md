@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadColumnIdException members"
 title: EsentBadColumnIdException members
 TOCTitle: EsentBadColumnIdException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBadColumnIdException

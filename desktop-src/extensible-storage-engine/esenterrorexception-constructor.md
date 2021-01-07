@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentErrorException constructor"
 title: EsentErrorException constructor 
 TOCTitle: 'EsentErrorException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentErrorException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseNotFoundException constructor"
 title: EsentDatabaseNotFoundException constructor 
 TOCTitle: 'EsentDatabaseNotFoundException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseNotFoundException.#ctor

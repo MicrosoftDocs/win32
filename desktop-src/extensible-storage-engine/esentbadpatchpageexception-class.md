@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadPatchPageException class"
 title: EsentBadPatchPageException class
 TOCTitle: EsentBadPatchPageException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadPatchPageException

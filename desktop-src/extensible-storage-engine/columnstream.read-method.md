@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream.Read method"
 title: ColumnStream.Read method 
 TOCTitle: 'Read method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnStream.Read(System.Byte[],System.Int32,System.Int32)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentEndingRestoreLogTooLowException constructor"
 title: EsentEndingRestoreLogTooLowException constructor 
 TOCTitle: 'EsentEndingRestoreLogTooLowException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentEndingRestoreLogTooLowException.#ctor

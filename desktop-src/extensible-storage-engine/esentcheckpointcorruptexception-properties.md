@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCheckpointCorruptException properties"
 title: EsentCheckpointCorruptException properties
 TOCTitle: EsentCheckpointCorruptException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCheckpointCorruptException

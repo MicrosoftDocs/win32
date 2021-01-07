@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadCheckpointSignatureException properties"
 title: EsentBadCheckpointSignatureException properties
 TOCTitle: EsentBadCheckpointSignatureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBadCheckpointSignatureException

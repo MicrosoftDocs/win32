@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBackupDirectoryNotEmptyException constructor"
 title: EsentBackupDirectoryNotEmptyException constructor 
 TOCTitle: 'EsentBackupDirectoryNotEmptyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBackupDirectoryNotEmptyException.#ctor

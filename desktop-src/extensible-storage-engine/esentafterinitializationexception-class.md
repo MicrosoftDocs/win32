@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentAfterInitializationException class"
 title: EsentAfterInitializationException class
 TOCTitle: EsentAfterInitializationException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentAfterInitializationException

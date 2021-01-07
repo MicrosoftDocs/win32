@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentInconsistentException constructor"
 title: EsentInconsistentException constructor 
 TOCTitle: 'EsentInconsistentException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentInconsistentException.#ctor
