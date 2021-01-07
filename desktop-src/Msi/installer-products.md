@@ -1,5 +1,5 @@
 ---
-Description: The Products property is a read-only property that returns a StringList object enumerating the set of all products installed or advertised for the current user and machine.
+description: The Products property is a read-only property that returns a StringList object enumerating the set of all products installed or advertised for the current user and machine.
 ms.assetid: 5c210827-a7cc-4358-bfe6-4d8e9767bd8c
 title: Installer.Products property
 ms.topic: reference

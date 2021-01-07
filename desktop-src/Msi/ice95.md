@@ -1,5 +1,5 @@
 ---
-Description: ICE95 checks the Control table and BBControl table to verify that the billboard controls fit onto all the billboards.
+description: ICE95 checks the Control table and BBControl table to verify that the billboard controls fit onto all the billboards.
 ms.assetid: 8ba73536-65a5-4658-846c-76356f16b81c
 title: ICE95
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the RemoteAdminTS property when the system is configured for Remote Administration using Windows Terminal Services. Note that in this case the installer does not set the TerminalServer property.
+description: The installer sets the RemoteAdminTS property when the system is configured for Remote Administration using Windows Terminal Services. Note that in this case the installer does not set the TerminalServer property.
 ms.assetid: 5e0222da-9527-4265-9b73-f58dbd1389a6
 title: RemoteAdminTS property
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the RedirectedDLLSupport property if the system platform performing the installation supports Isolated Components.
+description: The installer sets the RedirectedDLLSupport property if the system platform performing the installation supports Isolated Components.
 ms.assetid: 703489c4-cac4-442c-bd96-d3927491a864
 title: RedirectedDLLSupport property
 ms.topic: reference

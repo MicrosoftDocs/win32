@@ -1,5 +1,5 @@
 ---
-Description: The ProvideQualifiedComponent method of the Installer object returns the full component path and performs any necessary installation. If necessary, this method prompts for the source and increments the usage count for the feature.
+description: The ProvideQualifiedComponent method of the Installer object returns the full component path and performs any necessary installation. If necessary, this method prompts for the source and increments the usage count for the feature.
 ms.assetid: 4f9a5094-1556-4d86-8b51-c8c3ce1cbed4
 title: Installer.ProvideQualifiedComponent method
 ms.topic: reference

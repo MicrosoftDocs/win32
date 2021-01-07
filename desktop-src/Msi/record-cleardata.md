@@ -1,5 +1,5 @@
 ---
-Description: The ClearData method of the Record object clears the data in all fields, setting them to Null. Any objects stored in the fields are released.
+description: The ClearData method of the Record object clears the data in all fields, setting them to Null. Any objects stored in the fields are released.
 ms.assetid: 3157858d-6701-4eef-8946-fb1de0ba5c5d
 title: Record.ClearData method
 ms.topic: reference

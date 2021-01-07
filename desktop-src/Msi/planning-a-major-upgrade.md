@@ -1,5 +1,5 @@
 ---
-Description: If Windows Installer is used for the installation and setup of an application, later upgrades of that application can be handled by installing an upgrade package.
+description: If Windows Installer is used for the installation and setup of an application, later upgrades of that application can be handled by installing an upgrade package.
 ms.assetid: 69ad4928-e750-47c2-8668-c9e3deff8066
 title: Planning a Major Upgrade
 ms.topic: article

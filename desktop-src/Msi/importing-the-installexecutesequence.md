@@ -1,5 +1,5 @@
 ---
-Description: The InstallExecuteSequence table lists the actions that are executed when the installer executes the top-level INSTALL action. See Installation Procedure Tables Group, Using a Sequence Table, and the Sequence Table Detailed Example.
+description: The InstallExecuteSequence table lists the actions that are executed when the installer executes the top-level INSTALL action. See Installation Procedure Tables Group, Using a Sequence Table, and the Sequence Table Detailed Example.
 ms.assetid: cdd4f02a-cfe6-4a23-9fc2-f4cb810379aa
 title: Importing the InstallExecuteSequence
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Msitool.mak is a makefile that you can use to build tools and custom actions.
+description: Msitool.mak is a makefile that you can use to build tools and custom actions.
 ms.assetid: c05da933-7e0e-4fbb-a936-517902a363c4
 title: Msitool.mak
 ms.topic: article

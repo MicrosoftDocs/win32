@@ -1,5 +1,5 @@
 ---
-Description: 'ICE05 validates that certain tables contain required entries. This includes, but is not restricted to, checking the Property table for the required properties: ProductName, ProductLanguage, ProductVersion, ProductCode, and Manufacturer.'
+description: 'ICE05 validates that certain tables contain required entries. This includes, but is not restricted to, checking the Property table for the required properties: ProductName, ProductLanguage, ProductVersion, ProductCode, and Manufacturer.'
 ms.assetid: 90b35758-c9d9-4104-a352-f0b17b04b571
 title: ICE05
 ms.topic: article

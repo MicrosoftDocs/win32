@@ -1,5 +1,5 @@
 ---
-Description: You can use the Custom Action Patch Uninstall option to specify that the installer run the custom action only when a patch is uninstalled.
+description: You can use the Custom Action Patch Uninstall option to specify that the installer run the custom action only when a patch is uninstalled.
 ms.assetid: c741aa40-ba4c-459e-936a-19c002620c30
 title: Patch Uninstall Custom Actions
 ms.topic: article

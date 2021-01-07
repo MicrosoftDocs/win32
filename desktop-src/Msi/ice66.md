@@ -1,5 +1,5 @@
 ---
-Description: ICE66 uses the tables in the database to determine which schema your database should use.
+description: ICE66 uses the tables in the database to determine which schema your database should use.
 ms.assetid: 7cf929a0-2c4c-40ca-a902-dfd9dcd203b8
 title: ICE66
 ms.topic: article

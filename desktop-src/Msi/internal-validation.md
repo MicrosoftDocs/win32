@@ -1,5 +1,5 @@
 ---
-Description: When authoring an installation package, you can use the MsiViewModify function or the View.Modify method to ensure that the data you enter is syntactically correct.
+description: When authoring an installation package, you can use the MsiViewModify function or the View.Modify method to ensure that the data you enter is syntactically correct.
 ms.assetid: c960e9df-dcd6-44d2-8662-40a1dea81f45
 title: Internal Validation
 ms.topic: article

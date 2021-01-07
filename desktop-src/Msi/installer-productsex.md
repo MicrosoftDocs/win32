@@ -1,5 +1,5 @@
 ---
-Description: Returns a RecordList object that enumerates the list of products.
+description: Returns a RecordList object that enumerates the list of products.
 ms.assetid: 30735b9f-091b-4915-9b07-9688c9be2d26
 title: Installer.ProductsEx property
 ms.topic: reference

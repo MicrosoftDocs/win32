@@ -1,5 +1,5 @@
 ---
-Description: The read-only PatchInfo property of the Installer object returns information about a patch.
+description: The read-only PatchInfo property of the Installer object returns information about a patch.
 ms.assetid: a92e409e-b4a5-42cc-a87d-239c23655e5e
 title: Installer.PatchInfo property
 ms.topic: reference

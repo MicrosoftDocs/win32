@@ -1,5 +1,5 @@
 ---
-Description: The SummaryInformation property of the Installer object returns a SummaryInfo object that can be used to examine, update, and add properties to the summary information stream of a package or transform.
+description: The SummaryInformation property of the Installer object returns a SummaryInfo object that can be used to examine, update, and add properties to the summary information stream of a package or transform.
 ms.assetid: 6a1d81b9-d61f-4bff-92c3-35fc436a6a41
 title: Installer.SummaryInformation property
 ms.topic: reference

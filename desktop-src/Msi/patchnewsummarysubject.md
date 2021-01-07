@@ -1,5 +1,5 @@
 ---
-Description: The PATCHNEWSUMMARYSUBJECT property updates the Subject Summary property of an administrative image during patching.
+description: The PATCHNEWSUMMARYSUBJECT property updates the Subject Summary property of an administrative image during patching.
 ms.assetid: 8aee1905-59a4-4818-b073-4bc401a6963d
 title: PATCHNEWSUMMARYSUBJECT property
 ms.topic: reference

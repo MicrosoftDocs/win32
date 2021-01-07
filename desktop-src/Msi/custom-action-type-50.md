@@ -1,5 +1,5 @@
 ---
-Description: Developers of Windows Installer packages may choose to use a custom action type 50 when the standard actions are insufficient to execute the installation.
+description: Developers of Windows Installer packages may choose to use a custom action type 50 when the standard actions are insufficient to execute the installation.
 ms.assetid: fc8a875d-21e3-452a-8455-80835b52b256
 title: Custom Action Type 50
 ms.topic: article

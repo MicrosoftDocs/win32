@@ -1,5 +1,5 @@
 ---
-Description: ICE25 validates that a .msi file satisfies all of its internal merge module dependencies and exclusions.
+description: ICE25 validates that a .msi file satisfies all of its internal merge module dependencies and exclusions.
 ms.assetid: e6e3ea44-a1d4-451a-b326-e8fb7ed4adeb
 title: ICE25
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The FieldCount property of the Record object is a read-only property that returns the number of fields in the record. Read access to fields beyond this count returns Null values. Write access fails.
+description: The FieldCount property of the Record object is a read-only property that returns the number of fields in the record. Read access to fields beyond this count returns Null values. Write access fails.
 ms.assetid: 50be848a-2d38-4768-aeb4-25cbaedade01
 title: Record.FieldCount property
 ms.topic: reference

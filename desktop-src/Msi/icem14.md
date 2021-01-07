@@ -1,5 +1,5 @@
 ---
-Description: ICEM14 validates the Value Column of the ModuleSubstitution table.
+description: ICEM14 validates the Value Column of the ModuleSubstitution table.
 ms.assetid: e07ba63a-e748-4835-ae1b-9f7d30e46d39
 title: ICEM14
 ms.topic: article

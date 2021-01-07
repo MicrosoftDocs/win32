@@ -1,5 +1,5 @@
 ---
-Description: The Privileged property indicates whether the installation is performed in the context of elevated privileges.
+description: The Privileged property indicates whether the installation is performed in the context of elevated privileges.
 ms.assetid: 483ab73a-3ff7-4111-a6b5-eac990d85bd7
 title: Privileged property
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The ExtractFilesEx method of the Merge object extracts the embedded .cab file from a module and then writes those files to the destination directory.
+description: The ExtractFilesEx method of the Merge object extracts the embedded .cab file from a module and then writes those files to the destination directory.
 ms.assetid: 8b063052-4f92-466a-9c52-bda26ed13d5c
 title: Merge.ExtractFilesEx method (Mergemod.h)
 ms.topic: reference

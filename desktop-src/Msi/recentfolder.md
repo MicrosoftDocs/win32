@@ -1,5 +1,5 @@
 ---
-Description: The RecentFolder property is the full path to the Recent folder.
+description: The RecentFolder property is the full path to the Recent folder.
 ms.assetid: eee76d15-3085-4a26-b67c-14a46f8e32db
 title: RecentFolder property
 ms.topic: reference

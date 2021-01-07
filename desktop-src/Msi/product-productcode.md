@@ -1,5 +1,5 @@
 ---
-Description: The ProductCode property of the Product object returns the ProductCode GUID of the product.
+description: The ProductCode property of the Product object returns the ProductCode GUID of the product.
 ms.assetid: f8edbaf3-1694-4049-8cbd-ded03bd5c336
 title: Product.ProductCode property
 ms.topic: reference

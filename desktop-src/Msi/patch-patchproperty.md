@@ -1,5 +1,5 @@
 ---
-Description: The PatchProperty property gets information about a specific patch applied to a specific instance of the product. This property calls MsiGetPatchInfoEx.
+description: The PatchProperty property gets information about a specific patch applied to a specific instance of the product. This property calls MsiGetPatchInfoEx.
 ms.assetid: c58897de-c30b-4269-9926-040613052616
 title: Patch.PatchProperty method
 ms.topic: reference

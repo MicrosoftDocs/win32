@@ -1,5 +1,5 @@
 ---
-Description: The LastErrorRecord method of the Installer object returns a Record object that contains error parameters for the most recent error from the function that produced the error record.
+description: The LastErrorRecord method of the Installer object returns a Record object that contains error parameters for the most recent error from the function that produced the error record.
 ms.assetid: 48fe46bc-6c10-4bd5-89bc-013e650a44e6
 title: Installer.LastErrorRecord method
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The GetFiles object retrieves the files needed in a particular language of the module. Requires certain actions be performed through the Merge object before all parts of this interface returns valid results.
+description: The GetFiles object retrieves the files needed in a particular language of the module. Requires certain actions be performed through the Merge object before all parts of this interface returns valid results.
 ms.assetid: f3bf64ec-75f7-43a6-bbd8-a51508c57002
 title: GetFiles object (Mergemod.h)
 ms.topic: reference

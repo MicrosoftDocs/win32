@@ -1,5 +1,5 @@
 ---
-Description: Set the MSIENFORCEUPGRADECOMPONENTRULES property to 1 on the command line or in the Property table to apply the upgrade component rules during small updates and minor upgrades of a particular product.
+description: Set the MSIENFORCEUPGRADECOMPONENTRULES property to 1 on the command line or in the Property table to apply the upgrade component rules during small updates and minor upgrades of a particular product.
 ms.assetid: 0c8424c7-ab9b-4a09-aaa8-6a3f44c2789f
 title: MSIENFORCEUPGRADECOMPONENTRULES property
 ms.topic: reference

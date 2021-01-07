@@ -1,5 +1,5 @@
 ---
-Description: If this bit is set the text in the control is displayed on a single line. If the text extends beyond the control's margins it is truncated and an ellipsis (&\#0034;...&\#0034;) is inserted at the end to indicate the truncation. If this bit is not set, text wraps.
+description: If this bit is set the text in the control is displayed on a single line. If the text extends beyond the control's margins it is truncated and an ellipsis (&\#0034;...&\#0034;) is inserted at the end to indicate the truncation. If this bit is not set, text wraps.
 ms.assetid: 0dec3d25-0da7-4054-8d5c-55e81be16489
 title: NoWrap Control Attribute
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: You can install entire products with Windows Installer functions. The following steps describe how to install a product.
+description: You can install entire products with Windows Installer functions. The following steps describe how to install a product.
 ms.assetid: 03cc7abc-63bd-4a01-a05c-9f7928de8827
 title: Installing an Application
 ms.topic: article

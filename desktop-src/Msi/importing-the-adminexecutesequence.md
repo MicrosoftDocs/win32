@@ -1,5 +1,5 @@
 ---
-Description: The AdminExecuteSequence table lists actions that the installer executes when it calls the top-level ADMIN action. See Installation Procedure Tables Group, Using a Sequence Table, and the Sequence Table Detailed Example.
+description: The AdminExecuteSequence table lists actions that the installer executes when it calls the top-level ADMIN action. See Installation Procedure Tables Group, Using a Sequence Table, and the Sequence Table Detailed Example.
 ms.assetid: 8b1da4a3-0b82-4b71-8a32-59e90025cbfa
 title: Importing the AdminExecuteSequence
 ms.topic: article

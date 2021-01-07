@@ -1,5 +1,5 @@
 ---
-Description: The MsiEmbeddedUI table defines a user interface embedded in the Windows Installer package.
+description: The MsiEmbeddedUI table defines a user interface embedded in the Windows Installer package.
 ms.assetid: d4176f99-e819-4b5a-bd06-1a2965891f9a
 title: MsiEmbeddedUI Table
 ms.topic: article

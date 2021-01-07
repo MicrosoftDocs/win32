@@ -1,5 +1,5 @@
 ---
-Description: The FileSFPCatalog table associates specified files with the catalog files used by system file protection.
+description: The FileSFPCatalog table associates specified files with the catalog files used by system file protection.
 ms.assetid: 70c8b64a-cf15-411c-8388-4a7e3051f45c
 title: FileSFPCatalog Table
 ms.topic: article

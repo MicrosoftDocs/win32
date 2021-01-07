@@ -1,5 +1,5 @@
 ---
-Description: The ComponentState property is the installation state of the component for the instance of this product.This property calls MsiQueryComponentState, with the ProductCode, UserSid, and Context of the object.
+description: The ComponentState property is the installation state of the component for the instance of this product.This property calls MsiQueryComponentState, with the ProductCode, UserSid, and Context of the object.
 ms.assetid: 2939048a-42a5-4ffb-868c-251c0f15e5ed
 title: Product.ComponentState method
 ms.topic: reference

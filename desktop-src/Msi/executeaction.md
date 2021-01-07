@@ -1,5 +1,5 @@
 ---
-Description: The EXECUTEACTION property is set to determine which top-level action the ExecuteAction action initiates.
+description: The EXECUTEACTION property is set to determine which top-level action the ExecuteAction action initiates.
 ms.assetid: c0cd93d6-dd52-43c7-8f99-c04db96e3239
 title: EXECUTEACTION property
 ms.topic: reference

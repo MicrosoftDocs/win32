@@ -1,5 +1,5 @@
 ---
-Description: This is the IntegerData property of the Record object. This read-write property transfers 32-bit integer data in to or out of a specified field within the record. If a field value cannot be converted to an integer, msiDatabaseNullInteger is returned.
+description: This is the IntegerData property of the Record object. This read-write property transfers 32-bit integer data in to or out of a specified field within the record. If a field value cannot be converted to an integer, msiDatabaseNullInteger is returned.
 ms.assetid: abc291cd-31ba-409f-b010-8b3a71cbdc77
 title: Record.IntegerData property
 ms.topic: reference

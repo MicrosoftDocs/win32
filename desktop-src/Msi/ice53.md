@@ -1,5 +1,5 @@
 ---
-Description: ICE53 checks for entries in the Registry table that write private installer information or policy values to the system registry.
+description: ICE53 checks for entries in the Registry table that write private installer information or policy values to the system registry.
 ms.assetid: f5afca1f-bd36-4f95-a62a-f6b2e37238a6
 title: ICE53
 ms.topic: article

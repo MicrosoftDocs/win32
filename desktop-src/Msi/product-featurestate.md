@@ -1,5 +1,5 @@
 ---
-Description: The FeatureState property is the installation state of the feature for the instance of this product.This property calls MsiQueryFeatureStateEx, with the ProductCode, UserSid and Context of the object. The feature Id is provided as a parameter.
+description: The FeatureState property is the installation state of the feature for the instance of this product.This property calls MsiQueryFeatureStateEx, with the ProductCode, UserSid and Context of the object. The feature Id is provided as a parameter.
 ms.assetid: 6821be80-4065-465e-b4c9-4cf17856bc5f
 title: Product.FeatureState method
 ms.topic: reference

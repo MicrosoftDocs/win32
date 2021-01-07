@@ -1,5 +1,5 @@
 ---
-Description: The FindRelatedProducts action runs through each record of the Upgrade table in sequence and compares the upgrade code, product version, and language in each row to products installed on the system.
+description: The FindRelatedProducts action runs through each record of the Upgrade table in sequence and compares the upgrade code, product version, and language in each row to products installed on the system.
 ms.assetid: 7efcb767-9bdf-43a4-83b8-61b6fc84adf6
 title: FindRelatedProducts Action
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: ICE09 validates that the permanent bit is set for every component marked for installation into the SystemFolder.
+description: ICE09 validates that the permanent bit is set for every component marked for installation into the SystemFolder.
 ms.assetid: b4e11d75-4214-49de-ac12-6f360771ad73
 title: ICE09
 ms.topic: article

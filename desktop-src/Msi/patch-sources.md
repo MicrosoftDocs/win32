@@ -1,5 +1,5 @@
 ---
-Description: The Sources property enumerates all the sources for the patch instance. This property calls MsiSourceListEnumSources and returns an array of strings, and accepts the source type as argument.
+description: The Sources property enumerates all the sources for the patch instance. This property calls MsiSourceListEnumSources and returns an array of strings, and accepts the source type as argument.
 ms.assetid: 4a052518-4d76-4a95-be9e-7acae36db626
 title: Patch.Sources property
 ms.topic: reference

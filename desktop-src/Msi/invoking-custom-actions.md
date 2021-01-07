@@ -1,5 +1,5 @@
 ---
-Description: Custom actions are invoked in the same manner as standard actions, either by explicit invocation or during the execution of a sequence table.
+description: Custom actions are invoked in the same manner as standard actions, either by explicit invocation or during the execution of a sequence table.
 ms.assetid: 05f15bae-983a-4763-840d-f2590f4e2a7a
 title: Invoking Custom Actions
 ms.topic: article

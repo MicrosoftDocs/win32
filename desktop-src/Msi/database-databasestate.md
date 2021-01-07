@@ -1,5 +1,5 @@
 ---
-Description: The DatabaseState property of the Database object is a read-only property.
+description: The DatabaseState property of the Database object is a read-only property.
 ms.assetid: 0a466e53-4ff5-4b95-b754-1aac0af16805
 title: Database.DatabaseState property
 ms.topic: reference

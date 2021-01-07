@@ -1,5 +1,5 @@
 ---
-Description: If this per-machine system policy is set to 1, patches cannot be removed from the computer by a user or an administrator.
+description: If this per-machine system policy is set to 1, patches cannot be removed from the computer by a user or an administrator.
 ms.assetid: e964cb2b-ceaa-4122-bf54-cf1eeab4bc25
 title: DisablePatchUninstall
 ms.topic: article

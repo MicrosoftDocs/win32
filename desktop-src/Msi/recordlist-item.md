@@ -1,5 +1,5 @@
 ---
-Description: The Item property is a read-only property that returns a record in a RecordList Object collection.
+description: The Item property is a read-only property that returns a record in a RecordList Object collection.
 ms.assetid: 59646aa8-811c-4658-8b47-42f70abfdfdb
 title: RecordList.Item property
 ms.topic: reference

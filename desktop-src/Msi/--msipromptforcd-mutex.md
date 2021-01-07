@@ -1,5 +1,5 @@
 ---
-Description: The \_\_MsiPromptForCD Mutex exists when the installer prompts the user to insert a CD-ROM.
+description: The \_\_MsiPromptForCD Mutex exists when the installer prompts the user to insert a CD-ROM.
 ms.assetid: f6319cda-48ac-4351-8eb5-f326490e3aff
 title: '__MsiPromptForCD Mutex'
 ms.topic: article

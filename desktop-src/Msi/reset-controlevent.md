@@ -1,5 +1,5 @@
 ---
-Description: The dialog box is reset. In other words, all the controls on the dialog box are called to undo the property changes they have performed. This event resets all the property values to what they were when the dialog box was created.
+description: The dialog box is reset. In other words, all the controls on the dialog box are called to undo the property changes they have performed. This event resets all the property values to what they were when the dialog box was created.
 ms.assetid: 6449abb8-54cb-4400-9eb2-b7e7f1564747
 title: Reset ControlEvent
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The OpenLog method of the Merge object opens a log file that receives progress and error messages. If the log file already exists, the installer appends new messages. If the log file does not exist, the installer creates a log file.
+description: The OpenLog method of the Merge object opens a log file that receives progress and error messages. If the log file already exists, the installer appends new messages. If the log file does not exist, the installer creates a log file.
 ms.assetid: '97d01ea3-43b6-4529-9706-97b3b0132d9c'
 title: Merge.OpenLog method (Mergemod.h)
 ms.topic: reference

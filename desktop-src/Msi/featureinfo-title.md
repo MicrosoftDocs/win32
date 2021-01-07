@@ -1,5 +1,5 @@
 ---
-Description: The Title property is a read-only property that returns the title of the feature in the Title column of the Feature table.
+description: The Title property is a read-only property that returns the title of the feature in the Title column of the Feature table.
 ms.assetid: 8369b1bb-eaf6-4ba6-98b9-424e24efdf96
 title: FeatureInfo.Title property
 ms.topic: reference

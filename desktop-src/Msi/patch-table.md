@@ -1,5 +1,5 @@
 ---
-Description: The Patch table specifies the file that is to receive a particular patch and the physical location of the patch files on the media images.
+description: The Patch table specifies the file that is to receive a particular patch and the physical location of the patch files on the media images.
 ms.assetid: 1b624702-de25-4b1a-9dac-21f359ee97f7
 title: Patch Table
 ms.topic: article

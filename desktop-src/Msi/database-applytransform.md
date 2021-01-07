@@ -1,5 +1,5 @@
 ---
-Description: The ApplyTransform method of the Database object applies the transform to this database.
+description: The ApplyTransform method of the Database object applies the transform to this database.
 ms.assetid: bcf1ea78-54ad-49d9-8fba-7b88ced236eb
 title: Database.ApplyTransform method
 ms.topic: reference

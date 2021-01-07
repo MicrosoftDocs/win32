@@ -1,5 +1,5 @@
 ---
-Description: This topic provides guidelines for installing or reinstalling a multiple instance installation that uses instance transforms.
+description: This topic provides guidelines for installing or reinstalling a multiple instance installation that uses instance transforms.
 ms.assetid: cf9076b1-5674-4ba8-9890-e981221d7b03
 title: Installing Multiple Instances with Instance Transforms
 ms.topic: article

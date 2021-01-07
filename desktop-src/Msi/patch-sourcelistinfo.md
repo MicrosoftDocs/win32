@@ -1,5 +1,5 @@
 ---
-Description: The SourceListInfo property of the Patch object gets and sets the source information properties for a patch. This property call MsiSourceListGetInfo or MsiSourceListSetInfo. This is a read or write property.
+description: The SourceListInfo property of the Patch object gets and sets the source information properties for a patch. This property call MsiSourceListGetInfo or MsiSourceListSetInfo. This is a read or write property.
 ms.assetid: a07f2cc8-fee2-4703-89ea-769921713268
 title: Patch.SourceListInfo property
 ms.topic: reference
