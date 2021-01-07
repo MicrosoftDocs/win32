@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResource.CheckObjectIsNotDisposed method"
 title: EsentResource.CheckObjectIsNotDisposed method 
 TOCTitle: 'CheckObjectIsNotDisposed method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentResource.CheckObjectIsNotDisposed

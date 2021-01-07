@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingFileToBackupException constructor"
 title: EsentMissingFileToBackupException constructor 
 TOCTitle: 'EsentMissingFileToBackupException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMissingFileToBackupException.#ctor

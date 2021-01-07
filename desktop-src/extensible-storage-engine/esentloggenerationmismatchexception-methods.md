@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogGenerationMismatchException methods"
 title: EsentLogGenerationMismatchException methods
 TOCTitle: EsentLogGenerationMismatchException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogGenerationMismatchException

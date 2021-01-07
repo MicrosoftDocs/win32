@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordDeletedException methods"
 title: EsentRecordDeletedException methods
 TOCTitle: EsentRecordDeletedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecordDeletedException

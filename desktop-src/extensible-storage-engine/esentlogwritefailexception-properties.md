@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogWriteFailException properties"
 title: EsentLogWriteFailException properties
 TOCTitle: EsentLogWriteFailException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogWriteFailException

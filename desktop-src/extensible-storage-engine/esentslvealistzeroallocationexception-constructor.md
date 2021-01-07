@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVEAListZeroAllocationException constructor"
 title: EsentSLVEAListZeroAllocationException constructor 
 TOCTitle: 'EsentSLVEAListZeroAllocationException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVEAListZeroAllocationException.#ctor

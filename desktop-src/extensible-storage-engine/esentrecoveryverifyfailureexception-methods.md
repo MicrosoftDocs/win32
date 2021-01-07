@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveryVerifyFailureException methods"
 title: EsentRecoveryVerifyFailureException methods
 TOCTitle: EsentRecoveryVerifyFailureException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecoveryVerifyFailureException

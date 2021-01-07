@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfLongValueIDsException constructor"
 title: EsentOutOfLongValueIDsException constructor 
 TOCTitle: 'EsentOutOfLongValueIDsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfLongValueIDsException.#ctor

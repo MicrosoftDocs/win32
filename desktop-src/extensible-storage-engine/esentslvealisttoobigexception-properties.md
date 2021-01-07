@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVEAListTooBigException properties"
 title: EsentSLVEAListTooBigException properties
 TOCTitle: EsentSLVEAListTooBigException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVEAListTooBigException

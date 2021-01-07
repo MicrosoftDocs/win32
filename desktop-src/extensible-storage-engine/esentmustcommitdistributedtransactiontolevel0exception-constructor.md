@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMustCommitDistributedTransactionToLevel0Exception constructor"
 title: EsentMustCommitDistributedTransactionToLevel0Exception constructor 
 TOCTitle: 'EsentMustCommitDistributedTransactionToLevel0Exception constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMustCommitDistributedTransactionToLevel0Exception.#ctor

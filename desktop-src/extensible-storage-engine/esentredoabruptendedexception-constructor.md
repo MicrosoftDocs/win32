@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRedoAbruptEndedException constructor"
 title: EsentRedoAbruptEndedException constructor 
 TOCTitle: 'EsentRedoAbruptEndedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRedoAbruptEndedException.#ctor

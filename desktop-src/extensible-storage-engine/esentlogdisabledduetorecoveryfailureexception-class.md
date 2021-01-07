@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogDisabledDueToRecoveryFailureException class"
 title: EsentLogDisabledDueToRecoveryFailureException class
 TOCTitle: EsentLogDisabledDueToRecoveryFailureException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogDisabledDueToRecoveryFailureException

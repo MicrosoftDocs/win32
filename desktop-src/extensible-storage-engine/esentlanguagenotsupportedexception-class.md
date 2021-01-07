@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLanguageNotSupportedException class"
 title: EsentLanguageNotSupportedException class
 TOCTitle: EsentLanguageNotSupportedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLanguageNotSupportedException

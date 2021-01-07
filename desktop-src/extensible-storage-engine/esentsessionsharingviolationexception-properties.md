@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionSharingViolationException properties"
 title: EsentSessionSharingViolationException properties
 TOCTitle: EsentSessionSharingViolationException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSessionSharingViolationException

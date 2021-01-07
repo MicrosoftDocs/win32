@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentQuotaException constructor (String, JET_err)"
 title: EsentQuotaException constructor (String, JET_err)
 TOCTitle: EsentQuotaException constructor (String, JET_err)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentQuotaException.#ctor(System.String,Microsoft.Isam.Esent.Interop.JET_err)

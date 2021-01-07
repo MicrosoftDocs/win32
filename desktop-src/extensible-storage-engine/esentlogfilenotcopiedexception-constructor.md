@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFileNotCopiedException constructor"
 title: EsentLogFileNotCopiedException constructor 
 TOCTitle: 'EsentLogFileNotCopiedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogFileNotCopiedException.#ctor

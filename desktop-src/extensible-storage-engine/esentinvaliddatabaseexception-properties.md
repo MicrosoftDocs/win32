@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidDatabaseException properties"
 title: EsentInvalidDatabaseException properties
 TOCTitle: EsentInvalidDatabaseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidDatabaseException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInitInProgressException methods"
 title: EsentInitInProgressException methods
 TOCTitle: EsentInitInProgressException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInitInProgressException

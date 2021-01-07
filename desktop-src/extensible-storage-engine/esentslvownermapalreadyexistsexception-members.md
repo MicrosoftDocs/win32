@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVOwnerMapAlreadyExistsException members"
 title: EsentSLVOwnerMapAlreadyExistsException members
 TOCTitle: EsentSLVOwnerMapAlreadyExistsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVOwnerMapAlreadyExistsException

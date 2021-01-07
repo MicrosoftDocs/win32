@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveredWithoutUndoException class"
 title: EsentRecoveredWithoutUndoException class
 TOCTitle: EsentRecoveredWithoutUndoException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRecoveredWithoutUndoException

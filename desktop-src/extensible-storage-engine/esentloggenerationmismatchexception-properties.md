@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogGenerationMismatchException properties"
 title: EsentLogGenerationMismatchException properties
 TOCTitle: EsentLogGenerationMismatchException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogGenerationMismatchException

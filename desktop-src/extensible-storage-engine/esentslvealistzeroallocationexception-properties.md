@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVEAListZeroAllocationException properties"
 title: EsentSLVEAListZeroAllocationException properties
 TOCTitle: EsentSLVEAListZeroAllocationException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVEAListZeroAllocationException

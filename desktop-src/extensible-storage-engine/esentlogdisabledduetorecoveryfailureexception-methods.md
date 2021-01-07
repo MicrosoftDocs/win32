@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogDisabledDueToRecoveryFailureException methods"
 title: EsentLogDisabledDueToRecoveryFailureException methods
 TOCTitle: EsentLogDisabledDueToRecoveryFailureException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogDisabledDueToRecoveryFailureException

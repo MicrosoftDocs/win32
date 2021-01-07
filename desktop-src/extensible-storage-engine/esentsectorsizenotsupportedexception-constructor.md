@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSectorSizeNotSupportedException constructor"
 title: EsentSectorSizeNotSupportedException constructor 
 TOCTitle: 'EsentSectorSizeNotSupportedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSectorSizeNotSupportedException.#ctor

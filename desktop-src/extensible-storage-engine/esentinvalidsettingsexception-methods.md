@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidSettingsException methods"
 title: EsentInvalidSettingsException methods
 TOCTitle: EsentInvalidSettingsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidSettingsException

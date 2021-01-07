@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResource.ResourceWasReleased method"
 title: EsentResource.ResourceWasReleased method 
 TOCTitle: 'ResourceWasReleased method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentResource.ResourceWasReleased

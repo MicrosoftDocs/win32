@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidBufferSizeException members"
 title: EsentInvalidBufferSizeException members
 TOCTitle: EsentInvalidBufferSizeException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidBufferSizeException

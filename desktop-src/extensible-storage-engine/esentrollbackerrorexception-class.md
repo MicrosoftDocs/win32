@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRollbackErrorException class"
 title: EsentRollbackErrorException class
 TOCTitle: EsentRollbackErrorException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRollbackErrorException

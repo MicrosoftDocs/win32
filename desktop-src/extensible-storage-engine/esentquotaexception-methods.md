@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentQuotaException methods"
 title: EsentQuotaException methods
 TOCTitle: EsentQuotaException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentQuotaException

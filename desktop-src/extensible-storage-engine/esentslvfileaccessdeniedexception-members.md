@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileAccessDeniedException members"
 title: EsentSLVFileAccessDeniedException members
 TOCTitle: EsentSLVFileAccessDeniedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVFileAccessDeniedException

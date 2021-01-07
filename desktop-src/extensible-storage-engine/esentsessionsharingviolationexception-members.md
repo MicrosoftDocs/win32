@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionSharingViolationException members"
 title: EsentSessionSharingViolationException members
 TOCTitle: EsentSessionSharingViolationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSessionSharingViolationException

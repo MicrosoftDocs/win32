@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOneDatabasePerSessionException constructor"
 title: EsentOneDatabasePerSessionException constructor 
 TOCTitle: 'EsentOneDatabasePerSessionException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOneDatabasePerSessionException.#ctor

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfDbtimeValuesException members"
 title: EsentOutOfDbtimeValuesException members
 TOCTitle: EsentOutOfDbtimeValuesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfDbtimeValuesException

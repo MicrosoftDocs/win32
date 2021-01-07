@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVEAListTooBigException constructor"
 title: EsentSLVEAListTooBigException constructor 
 TOCTitle: 'EsentSLVEAListTooBigException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVEAListTooBigException.#ctor

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidBackupException methods"
 title: EsentInvalidBackupException methods
 TOCTitle: EsentInvalidBackupException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidBackupException

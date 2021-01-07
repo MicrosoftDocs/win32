@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidInstanceException properties"
 title: EsentInvalidInstanceException properties
 TOCTitle: EsentInvalidInstanceException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidInstanceException

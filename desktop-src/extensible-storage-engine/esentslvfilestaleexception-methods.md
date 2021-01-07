@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileStaleException methods"
 title: EsentSLVFileStaleException methods
 TOCTitle: EsentSLVFileStaleException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVFileStaleException

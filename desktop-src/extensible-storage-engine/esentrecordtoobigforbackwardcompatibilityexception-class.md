@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordTooBigForBackwardCompatibilityException class"
 title: EsentRecordTooBigForBackwardCompatibilityException class
 TOCTitle: EsentRecordTooBigForBackwardCompatibilityException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRecordTooBigForBackwardCompatibilityException

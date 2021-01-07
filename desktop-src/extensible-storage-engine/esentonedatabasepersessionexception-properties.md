@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOneDatabasePerSessionException properties"
 title: EsentOneDatabasePerSessionException properties
 TOCTitle: EsentOneDatabasePerSessionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOneDatabasePerSessionException

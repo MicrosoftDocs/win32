@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSesidTableIdMismatchException members"
 title: EsentSesidTableIdMismatchException members
 TOCTitle: EsentSesidTableIdMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSesidTableIdMismatchException

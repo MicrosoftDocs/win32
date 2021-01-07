@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidCreateDbVersionException methods"
 title: EsentInvalidCreateDbVersionException methods
 TOCTitle: EsentInvalidCreateDbVersionException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidCreateDbVersionException

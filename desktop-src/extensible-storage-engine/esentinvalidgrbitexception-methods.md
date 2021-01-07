@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidGrbitException methods"
 title: EsentInvalidGrbitException methods
 TOCTitle: EsentInvalidGrbitException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidGrbitException

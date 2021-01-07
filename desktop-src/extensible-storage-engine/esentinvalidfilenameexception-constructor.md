@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidFilenameException constructor"
 title: EsentInvalidFilenameException constructor 
 TOCTitle: 'EsentInvalidFilenameException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidFilenameException.#ctor

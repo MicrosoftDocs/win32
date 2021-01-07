@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNullKeyDisallowedException properties"
 title: EsentNullKeyDisallowedException properties
 TOCTitle: EsentNullKeyDisallowedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentNullKeyDisallowedException

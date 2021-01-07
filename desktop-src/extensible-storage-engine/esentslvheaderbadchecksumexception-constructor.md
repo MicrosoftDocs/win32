@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVHeaderBadChecksumException constructor"
 title: EsentSLVHeaderBadChecksumException constructor 
 TOCTitle: 'EsentSLVHeaderBadChecksumException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVHeaderBadChecksumException.#ctor

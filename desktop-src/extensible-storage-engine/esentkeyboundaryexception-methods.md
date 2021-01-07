@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyBoundaryException methods"
 title: EsentKeyBoundaryException methods
 TOCTitle: EsentKeyBoundaryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentKeyBoundaryException

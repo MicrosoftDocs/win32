@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFilePathInUseException methods"
 title: EsentLogFilePathInUseException methods
 TOCTitle: EsentLogFilePathInUseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogFilePathInUseException

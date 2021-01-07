@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidPrereadException methods"
 title: EsentInvalidPrereadException methods
 TOCTitle: EsentInvalidPrereadException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidPrereadException

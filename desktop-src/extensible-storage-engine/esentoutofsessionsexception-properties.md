@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfSessionsException properties"
 title: EsentOutOfSessionsException properties
 TOCTitle: EsentOutOfSessionsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOutOfSessionsException

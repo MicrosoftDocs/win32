@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileIOException members"
 title: EsentSLVFileIOException members
 TOCTitle: EsentSLVFileIOException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVFileIOException

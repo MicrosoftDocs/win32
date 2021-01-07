@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoAttachmentsFailedIncrementalReseedException members"
 title: EsentNoAttachmentsFailedIncrementalReseedException members
 TOCTitle: EsentNoAttachmentsFailedIncrementalReseedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentNoAttachmentsFailedIncrementalReseedException

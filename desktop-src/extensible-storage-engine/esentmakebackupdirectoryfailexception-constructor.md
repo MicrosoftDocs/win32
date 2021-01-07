@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMakeBackupDirectoryFailException constructor"
 title: EsentMakeBackupDirectoryFailException constructor 
 TOCTitle: 'EsentMakeBackupDirectoryFailException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMakeBackupDirectoryFailException.#ctor

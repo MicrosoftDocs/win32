@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidColumnException constructor"
 title: EsentInvalidColumnException constructor 
 TOCTitle: 'EsentInvalidColumnException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidColumnException.#ctor

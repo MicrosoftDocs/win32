@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentMemoryException constructor"
 title: EsentMemoryException constructor 
 TOCTitle: 'EsentMemoryException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentMemoryException.#ctor

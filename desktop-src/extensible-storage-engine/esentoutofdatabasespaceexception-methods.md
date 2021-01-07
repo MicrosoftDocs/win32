@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfDatabaseSpaceException methods"
 title: EsentOutOfDatabaseSpaceException methods
 TOCTitle: EsentOutOfDatabaseSpaceException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfDatabaseSpaceException

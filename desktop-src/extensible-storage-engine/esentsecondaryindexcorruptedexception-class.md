@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSecondaryIndexCorruptedException class"
 title: EsentSecondaryIndexCorruptedException class
 TOCTitle: EsentSecondaryIndexCorruptedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSecondaryIndexCorruptedException

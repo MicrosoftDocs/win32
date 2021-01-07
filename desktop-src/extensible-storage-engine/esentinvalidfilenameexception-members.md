@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidFilenameException members"
 title: EsentInvalidFilenameException members
 TOCTitle: EsentInvalidFilenameException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidFilenameException

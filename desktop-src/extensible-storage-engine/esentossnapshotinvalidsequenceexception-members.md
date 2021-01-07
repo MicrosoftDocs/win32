@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotInvalidSequenceException members"
 title: EsentOSSnapshotInvalidSequenceException members
 TOCTitle: EsentOSSnapshotInvalidSequenceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotInvalidSequenceException

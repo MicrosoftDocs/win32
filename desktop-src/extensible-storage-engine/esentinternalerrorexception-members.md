@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInternalErrorException members"
 title: EsentInternalErrorException members
 TOCTitle: EsentInternalErrorException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInternalErrorException

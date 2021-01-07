@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLSAlreadySetException class"
 title: EsentLSAlreadySetException class
 TOCTitle: EsentLSAlreadySetException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLSAlreadySetException

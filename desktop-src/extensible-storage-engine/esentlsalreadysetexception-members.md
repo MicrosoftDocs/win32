@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLSAlreadySetException members"
 title: EsentLSAlreadySetException members
 TOCTitle: EsentLSAlreadySetException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLSAlreadySetException

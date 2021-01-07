@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingFullBackupException properties"
 title: EsentMissingFullBackupException properties
 TOCTitle: EsentMissingFullBackupException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentMissingFullBackupException

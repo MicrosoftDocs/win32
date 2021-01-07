@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidSesidException methods"
 title: EsentInvalidSesidException methods
 TOCTitle: EsentInvalidSesidException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidSesidException

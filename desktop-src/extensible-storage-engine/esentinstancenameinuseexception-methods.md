@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInstanceNameInUseException methods"
 title: EsentInstanceNameInUseException methods
 TOCTitle: EsentInstanceNameInUseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInstanceNameInUseException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVBufferTooSmallException members"
 title: EsentSLVBufferTooSmallException members
 TOCTitle: EsentSLVBufferTooSmallException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVBufferTooSmallException

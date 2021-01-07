@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfObjectIDsException class"
 title: EsentOutOfObjectIDsException class
 TOCTitle: EsentOutOfObjectIDsException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOutOfObjectIDsException

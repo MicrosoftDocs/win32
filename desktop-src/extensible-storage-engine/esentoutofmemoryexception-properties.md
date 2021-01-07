@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfMemoryException properties"
 title: EsentOutOfMemoryException properties
 TOCTitle: EsentOutOfMemoryException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOutOfMemoryException

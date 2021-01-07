@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResource.Finalize method"
 title: EsentResource.Finalize method 
 TOCTitle: 'Finalize method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentResource.Finalize

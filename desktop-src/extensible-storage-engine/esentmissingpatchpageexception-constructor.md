@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingPatchPageException constructor"
 title: EsentMissingPatchPageException constructor 
 TOCTitle: 'EsentMissingPatchPageException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMissingPatchPageException.#ctor

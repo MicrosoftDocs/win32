@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyBoundaryException members"
 title: EsentKeyBoundaryException members
 TOCTitle: EsentKeyBoundaryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentKeyBoundaryException

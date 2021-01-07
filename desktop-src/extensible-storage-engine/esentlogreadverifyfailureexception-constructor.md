@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogReadVerifyFailureException constructor"
 title: EsentLogReadVerifyFailureException constructor 
 TOCTitle: 'EsentLogReadVerifyFailureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogReadVerifyFailureException.#ctor

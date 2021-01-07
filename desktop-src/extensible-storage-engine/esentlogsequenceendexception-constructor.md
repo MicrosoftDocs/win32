@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSequenceEndException constructor"
 title: EsentLogSequenceEndException constructor 
 TOCTitle: 'EsentLogSequenceEndException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndException.#ctor

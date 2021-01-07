@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResource.ResourceWasAllocated method"
 title: EsentResource.ResourceWasAllocated method 
 TOCTitle: 'ResourceWasAllocated method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentResource.ResourceWasAllocated

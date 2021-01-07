@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionContextAlreadySetException class"
 title: EsentSessionContextAlreadySetException class
 TOCTitle: EsentSessionContextAlreadySetException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSessionContextAlreadySetException

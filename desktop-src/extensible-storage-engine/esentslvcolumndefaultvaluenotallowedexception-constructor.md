@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVColumnDefaultValueNotAllowedException constructor"
 title: EsentSLVColumnDefaultValueNotAllowedException constructor 
 TOCTitle: 'EsentSLVColumnDefaultValueNotAllowedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVColumnDefaultValueNotAllowedException.#ctor

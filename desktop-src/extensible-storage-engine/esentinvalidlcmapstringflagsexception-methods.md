@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLCMapStringFlagsException methods"
 title: EsentInvalidLCMapStringFlagsException methods
 TOCTitle: EsentInvalidLCMapStringFlagsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidLCMapStringFlagsException

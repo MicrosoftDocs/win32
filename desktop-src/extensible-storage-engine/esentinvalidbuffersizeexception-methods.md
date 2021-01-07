@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidBufferSizeException methods"
 title: EsentInvalidBufferSizeException methods
 TOCTitle: EsentInvalidBufferSizeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidBufferSizeException

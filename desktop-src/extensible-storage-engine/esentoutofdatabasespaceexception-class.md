@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfDatabaseSpaceException class"
 title: EsentOutOfDatabaseSpaceException class
 TOCTitle: EsentOutOfDatabaseSpaceException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOutOfDatabaseSpaceException

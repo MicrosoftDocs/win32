@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentObsoleteException constructor (SerializationInfo, StreamingContext)"
 title: EsentObsoleteException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentObsoleteException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentObsoleteException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)

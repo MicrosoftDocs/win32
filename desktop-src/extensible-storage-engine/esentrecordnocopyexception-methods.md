@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordNoCopyException methods"
 title: EsentRecordNoCopyException methods
 TOCTitle: EsentRecordNoCopyException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecordNoCopyException
