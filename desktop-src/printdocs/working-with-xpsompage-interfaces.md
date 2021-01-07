@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to use the page-level interfaces that provide access to the contents of a page in an XPS OM.
+description: This topic describes how to use the page-level interfaces that provide access to the contents of a page in an XPS OM.
 ms.assetid: 7127ee28-eca9-4e0e-a27a-9051eb105b27
 title: Working with XPS OM Page Interfaces
 ms.topic: article

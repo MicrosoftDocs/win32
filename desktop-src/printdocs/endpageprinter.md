@@ -1,5 +1,5 @@
 ---
-Description: The EndPagePrinter function notifies the print spooler that the application is at the end of a page in a print job.
+description: The EndPagePrinter function notifies the print spooler that the application is at the end of a page in a print job.
 ms.assetid: aceb88b9-375b-4cd2-996a-c369f590154e
 title: EndPagePrinter function (Winspool.h)
 ms.topic: reference

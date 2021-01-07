@@ -1,5 +1,5 @@
 ---
-Description: Identifies the stream number of the audio file.
+description: Identifies the stream number of the audio file.
 ms.assetid: bb5e0d48-b7ea-487d-8063-daa9196fee7a
 title: System.Audio.StreamNumber
 ms.topic: article

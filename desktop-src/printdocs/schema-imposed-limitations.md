@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 420c5c84-abb8-495a-9b74-dc19a16034fb
 title: Schema-Imposed Limitations
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Represents the execution context when GetPrintExecutionData is called.
+description: Represents the execution context when GetPrintExecutionData is called.
 ms.assetid: b6c026b2-8519-45d3-9614-b502eec23cde
 title: PRINT_EXECUTION_CONTEXT enumeration (Winspool.h)
 ms.topic: reference

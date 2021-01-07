@@ -1,5 +1,5 @@
 ---
-Description: Identifies a structure that contains the values of the counters in the parent counter set.
+description: Identifies a structure that contains the values of the counters in the parent counter set.
 ms.assetid: f232e9bb-0c65-4197-929a-b1b67340ef85
 title: struct (structs) Element
 ms.topic: reference

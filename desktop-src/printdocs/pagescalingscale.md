@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 49a60a94-fb65-4439-bebf-3f77ea0861fe
 title: PageScalingScale
 ms.topic: article

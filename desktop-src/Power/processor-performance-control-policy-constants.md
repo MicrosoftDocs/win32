@@ -1,5 +1,5 @@
 ---
-Description: The processor performance control policy constants indicate the processor performance control algorithm applied to a power scheme.
+description: The processor performance control policy constants indicate the processor performance control algorithm applied to a power scheme.
 ms.assetid: 928ba485-f767-47df-8b57-7630c68068a7
 title: Processor Performance Control Policy Constants (WinNT.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: This is a stream containing the data necessary to render a contact's large account picture.
+description: This is a stream containing the data necessary to render a contact's large account picture.
 ms.assetid: 4e3af0ef-3bee-4640-b6d0-c36ca7b3bd08
 title: System.Contact.AccountPictureLarge
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: This section provides an overview of the XPS Digital Signature API.
+description: This section provides an overview of the XPS Digital Signature API.
 ms.assetid: 895974df-d5e8-4974-b057-ec7e5e59d805
 title: About XPS Digital Signature API
 ms.topic: article

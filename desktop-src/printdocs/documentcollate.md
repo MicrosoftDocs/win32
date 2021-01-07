@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 752cccf7-1f95-4597-b0e2-a96fd22ffeef
 title: DocumentCollate
 ms.topic: article

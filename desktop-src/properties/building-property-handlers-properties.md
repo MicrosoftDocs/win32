@@ -1,5 +1,5 @@
 ---
-Description: Properties are represented by IDs known as property identifiers (PIDs).
+description: Properties are represented by IDs known as property identifiers (PIDs).
 ms.assetid: a773c7b3-a1a2-4cce-ae5f-b54217ea06f4
 title: Understanding Property Handlers
 ms.topic: article

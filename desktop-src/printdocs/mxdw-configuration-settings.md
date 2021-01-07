@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft XPS Document Writer (MXDW) enables users to create XPS document files by printing from any Windows application.
+description: The Microsoft XPS Document Writer (MXDW) enables users to create XPS document files by printing from any Windows application.
 ms.assetid: 1fa50337-2df7-48d3-a179-0ca5ae3dfda3
 title: MXDW Configuration Settings
 ms.topic: article

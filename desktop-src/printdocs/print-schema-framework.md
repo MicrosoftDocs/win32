@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 05c7fd07-1c32-409d-8ca5-820038af3440
 title: Print Schema Framework
 ms.topic: article

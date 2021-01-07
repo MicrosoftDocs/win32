@@ -1,5 +1,5 @@
 ---
-Description: .
+description: .
 ms.assetid: a85fe46c-ce5f-4978-aa37-a3666560426b
 title: Peer-to-Peer
 ms.topic: article

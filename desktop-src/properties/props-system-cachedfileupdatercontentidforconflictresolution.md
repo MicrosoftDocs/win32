@@ -1,5 +1,5 @@
 ---
-Description: .
+description: .
 ms.assetid: ced9a614-7f00-47bc-a6e1-d0f8e4a60863
 title: System.CachedFileUpdaterContentIdForConflictResolution
 ms.topic: article

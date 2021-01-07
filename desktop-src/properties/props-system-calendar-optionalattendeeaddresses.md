@@ -1,5 +1,5 @@
 ---
-Description: Addresses of the all the optional attendees.
+description: Addresses of the all the optional attendees.
 ms.assetid: 799fdbb5-30c8-448a-840b-2a6b1541fbfe
 title: System.Calendar.OptionalAttendeeAddresses
 ms.topic: article

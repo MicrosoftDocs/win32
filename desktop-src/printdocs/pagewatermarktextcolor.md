@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: edbdd2c7-da04-49fb-a0f8-31a7df88f8ef
 title: PageWatermarkTextColor
 ms.topic: article

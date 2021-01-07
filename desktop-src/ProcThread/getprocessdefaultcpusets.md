@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the list of CPU Sets in the process default set that was set by SetProcessDefaultCpuSets. If no default CPU Sets are set for a given process, then the RequiredIdCount is set to 0 and the function succeeds.
+description: Retrieves the list of CPU Sets in the process default set that was set by SetProcessDefaultCpuSets. If no default CPU Sets are set for a given process, then the RequiredIdCount is set to 0 and the function succeeds.
 ms.assetid: 85DC5331-9EC0-4603-94FD-B49E725301B1
 title: GetProcessDefaultCpuSets function (Processthreadapi.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: This topic discusses methods for resolving a peer name using the PNRP Namespace Provider APIs.
+description: This topic discusses methods for resolving a peer name using the PNRP Namespace Provider APIs.
 ms.assetid: 7b21ec52-bc29-447e-9c46-34b9115574e0
 title: Resolving a Peer Name
 ms.topic: article

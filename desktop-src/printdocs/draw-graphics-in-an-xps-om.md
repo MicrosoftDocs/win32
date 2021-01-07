@@ -1,5 +1,5 @@
 ---
-Description: This page describes how to draw graphics in an XPS OM.
+description: This page describes how to draw graphics in an XPS OM.
 ms.assetid: 2384b522-208a-48db-ae0d-f82fa0214d09
 title: Draw Graphics in an XPS OM
 ms.topic: article

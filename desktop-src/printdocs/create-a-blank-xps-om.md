@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to create a blank XPS OM.
+description: This topic describes how to create a blank XPS OM.
 ms.assetid: 5b6f12ba-9a41-4252-96c4-391bb8d75cd4
 title: Create a Blank XPS OM
 ms.topic: article

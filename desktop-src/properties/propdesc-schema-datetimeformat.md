@@ -1,5 +1,5 @@
 ---
-Description: Specifies how IPropertyDescription::FormatForDisplay should format the property's value as a string. This is applicable only if <displayInfo displayType=&\#0034;DateTime&\#0034;>.
+description: Specifies how IPropertyDescription::FormatForDisplay should format the property's value as a string. This is applicable only if <displayInfo displayType=&\#0034;DateTime&\#0034;>.
 ms.assetid: c290fb2e-ef5b-4dea-ba42-7c9e273a89dc
 title: dateTimeFormat
 ms.topic: article

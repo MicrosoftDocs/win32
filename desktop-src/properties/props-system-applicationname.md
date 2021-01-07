@@ -1,5 +1,5 @@
 ---
-Description: The name of the application that created this file or item. Do not use version numbers to identify the application's specific version.
+description: The name of the application that created this file or item. Do not use version numbers to identify the application's specific version.
 ms.assetid: 872f1ccc-435a-4881-b283-ba4c8ddd3ac2
 title: System.ApplicationName
 ms.topic: article

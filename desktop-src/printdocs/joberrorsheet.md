@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: ad30df59-0051-4471-8c0e-3207bcc7bfbe
 title: JobErrorSheet
 ms.topic: article

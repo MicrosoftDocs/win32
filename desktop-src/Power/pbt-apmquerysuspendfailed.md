@@ -1,5 +1,5 @@
 ---
-Description: Notifies applications that permission to suspend the computer was denied.
+description: Notifies applications that permission to suspend the computer was denied.
 ms.assetid: 0f68628f-9d38-45ca-9487-95bf62075e00
 title: PBT_APMQUERYSUSPENDFAILED event (WinUser.h)
 ms.topic: reference

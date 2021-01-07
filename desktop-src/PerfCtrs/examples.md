@@ -1,5 +1,5 @@
 ---
-Description: The following examples demonstrate the use of the PDH API.
+description: The following examples demonstrate the use of the PDH API.
 ms.assetid: 6df682cf-5f7c-4add-80bf-0ea471607b76
 title: PDH Examples
 ms.topic: article

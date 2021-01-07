@@ -1,5 +1,5 @@
 ---
-Description: Core
+description: Core
 ms.assetid: f37e7c10-b2b9-4344-8bf3-0206582e26dd
 title: Core
 ms.topic: article

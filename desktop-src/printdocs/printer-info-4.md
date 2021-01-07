@@ -1,5 +1,5 @@
 ---
-Description: The PRINTER\_INFO\_4 structure specifies general printer information.The structure can be used to retrieve minimal printer information on a call to EnumPrinters.
+description: The PRINTER\_INFO\_4 structure specifies general printer information.The structure can be used to retrieve minimal printer information on a call to EnumPrinters.
 ms.assetid: 81bd0eab-dc1e-4cf1-8f63-3686f1711c1f
 title: PRINTER_INFO_4 structure (Winspool.h)
 ms.topic: reference

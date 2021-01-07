@@ -1,5 +1,5 @@
 ---
-Description: The PdhVbOpenQuery function creates and initializes a unique query structure that is used to manage the collection of performance data.
+description: The PdhVbOpenQuery function creates and initializes a unique query structure that is used to manage the collection of performance data.
 ms.assetid: 9cf535ef-76ad-4773-8414-8e289f3c52f6
 title: PdhVbOpenQuery function
 ms.topic: reference

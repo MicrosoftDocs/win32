@@ -1,5 +1,5 @@
 ---
-Description: This topic explains how to create and register property handlers to work with the Windows property system.
+description: This topic explains how to create and register property handlers to work with the Windows property system.
 ms.assetid: E6E81E04-9CC1-4df5-9A87-DE0CBD177356
 title: Registering and Distributing Property Handlers
 ms.topic: article

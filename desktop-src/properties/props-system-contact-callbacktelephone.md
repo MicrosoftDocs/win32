@@ -1,5 +1,5 @@
 ---
-Description: Call back number of the contact.
+description: Call back number of the contact.
 ms.assetid: bcfd0f2b-317b-41de-88ab-acfde822e6fb
 title: System.Contact.CallbackTelephone
 ms.topic: article

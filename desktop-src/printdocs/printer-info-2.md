@@ -1,5 +1,5 @@
 ---
-Description: The PRINTER\_INFO\_2 structure specifies detailed printer information.
+description: The PRINTER\_INFO\_2 structure specifies detailed printer information.
 ms.assetid: 944cbfcd-9edf-4b60-a45c-9bb1839f8141
 title: PRINTER_INFO_2 structure (Winspool.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: c8f9001e-9f92-405a-8f3a-bc59b47c9e35
 title: JobPrimaryBannerSheet
 ms.topic: article

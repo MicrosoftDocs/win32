@@ -1,5 +1,5 @@
 ---
-Description: Notifies applications of a change in the power status of the computer, such as a switch from battery power to A/C.
+description: Notifies applications of a change in the power status of the computer, such as a switch from battery power to A/C.
 ms.assetid: dc56fee3-e0df-4f8e-8a41-92460279280a
 title: PBT_APMPOWERSTATUSCHANGE event (WinUser.h)
 ms.topic: reference

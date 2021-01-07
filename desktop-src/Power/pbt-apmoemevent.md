@@ -1,5 +1,5 @@
 ---
-Description: Notifies applications that the APM BIOS has signaled an APM OEM event.
+description: Notifies applications that the APM BIOS has signaled an APM OEM event.
 ms.assetid: 3251ac00-41f1-44e9-a579-fa31e7c7d2ff
 title: PBT_APMOEMEVENT event (WinUser.h)
 ms.topic: reference

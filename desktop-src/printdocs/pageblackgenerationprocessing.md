@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 4edd1fdf-9601-440d-b967-82ffa6dceeb1
 title: PageBlackGenerationProcessing
 ms.topic: article

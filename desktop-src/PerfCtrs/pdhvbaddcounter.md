@@ -1,5 +1,5 @@
 ---
-Description: The PdhVbAddCounter function creates a counter entry in the specified query object, and returns a handle to that counter upon successful completion.
+description: The PdhVbAddCounter function creates a counter entry in the specified query object, and returns a handle to that counter upon successful completion.
 ms.assetid: 20a9e6cd-bf0d-497d-b660-88e786e2f004
 title: PdhVbAddCounter function
 ms.topic: reference

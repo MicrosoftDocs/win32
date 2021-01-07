@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 4b8fa1a4-6461-4722-861b-354f206b2a73
 title: PrintCapabilities Document Construction Checklist
 ms.topic: article

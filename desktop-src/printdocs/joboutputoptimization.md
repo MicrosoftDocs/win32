@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 40925dfe-494c-49b5-ae57-de369723ba76
 title: JobOutputOptimization
 ms.topic: article

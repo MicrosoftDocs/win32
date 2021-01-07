@@ -1,5 +1,5 @@
 ---
-Description: Most counters require two sample values in order to compute a displayable value.
+description: Most counters require two sample values in order to compute a displayable value.
 ms.assetid: 75e45baf-51c5-400c-a31f-92bdab4ee492
 title: Displaying Performance Data
 ms.topic: article

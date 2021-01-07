@@ -1,5 +1,5 @@
 ---
-Description: When you unregister a peer name, a registered name is removed from a Peer Name Resolution Protocol (PNRP) cloud.
+description: When you unregister a peer name, a registered name is removed from a Peer Name Resolution Protocol (PNRP) cloud.
 ms.assetid: a451988e-7026-4b3c-a7a3-366f9886aa02
 title: Unregistering a Peer Name
 ms.topic: article

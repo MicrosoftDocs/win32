@@ -1,5 +1,5 @@
 ---
-Description: The GetPrintProcessorDirectory function retrieves the path to the print processor directory on the specified server.
+description: The GetPrintProcessorDirectory function retrieves the path to the print processor directory on the specified server.
 ms.assetid: a2443cfd-e5ba-41c6-aaf4-45051a3d0e26
 title: GetPrintProcessorDirectory function (Winspool.h)
 ms.topic: reference

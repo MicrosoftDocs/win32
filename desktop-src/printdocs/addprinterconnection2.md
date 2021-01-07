@@ -1,5 +1,5 @@
 ---
-Description: Adds a connection to the specified printer for the current user and specifies connection details.
+description: Adds a connection to the specified printer for the current user and specifies connection details.
 ms.assetid: 5ae98157-5978-449e-beb1-4787110925fa
 title: AddPrinterConnection2 function (Winspool.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Defines a provider and the counters that it provides.
+description: Defines a provider and the counters that it provides.
 ms.assetid: 85299b01-5679-40f8-8aec-5c2ff8d7cfc8
 title: provider Complex Type
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 4bad85d7-a933-43fe-9d79-4835d92c82d6
 title: Scoping Prefix
 ms.topic: article

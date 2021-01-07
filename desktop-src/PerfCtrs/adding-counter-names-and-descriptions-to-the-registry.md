@@ -1,5 +1,5 @@
 ---
-Description: The names and descriptions of all performance objects and their counters are stored in the registry.
+description: The names and descriptions of all performance objects and their counters are stored in the registry.
 ms.assetid: 6fdaccb0-45bc-48f2-8f63-3df0bdf1dca4
 title: Adding Counter Names and Descriptions to the Registry
 ms.topic: article

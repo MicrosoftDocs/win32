@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 36a7c360-2d26-46b9-b829-0fb35b36c79c
 title: DocumentBinding
 ms.topic: article

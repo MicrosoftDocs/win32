@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information about the specified process.
+description: Retrieves information about the specified process.
 ms.assetid: c36c023f-7f9a-4ba5-a41f-f2f755a24eb6
 title: ZwQueryInformationProcess function
 ms.topic: reference

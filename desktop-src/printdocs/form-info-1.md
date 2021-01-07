@@ -1,5 +1,5 @@
 ---
-Description: The FORM_INFO_1 structure contains information about a print form. The information includes the print forms origin, its name, its dimensions, and the dimensions of its printable area.
+description: The FORM_INFO_1 structure contains information about a print form. The information includes the print forms origin, its name, its dimensions, and the dimensions of its printable area.
 ms.assetid: 1c42ea6c-82cf-463c-bc67-44a8d8c4a1e7
 title: FORM_INFO_1 structure (Winspool.h)
 ms.topic: reference

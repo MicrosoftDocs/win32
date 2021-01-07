@@ -1,5 +1,5 @@
 ---
-Description: Registers the provider and initializes the counter sets.
+description: Registers the provider and initializes the counter sets.
 ms.assetid: edcf8df3-0f6d-4849-b41d-270509499b8e
 title: CounterInitialize function
 ms.topic: reference

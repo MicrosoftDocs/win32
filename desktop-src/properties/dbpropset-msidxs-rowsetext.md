@@ -1,5 +1,5 @@
 ---
-Description: Extends properties defined for the Rowset APIs.
+description: Extends properties defined for the Rowset APIs.
 ms.assetid: C1A2DF19-C68D-42CC-9CB2-190F22CB4158
 title: DBPROPSET_MSIDXS_ROWSETEXT
 ms.topic: article

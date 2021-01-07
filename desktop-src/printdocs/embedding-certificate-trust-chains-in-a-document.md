@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to embed the certificates that make up a certificate chain into an XPS document.
+description: This topic describes how to embed the certificates that make up a certificate chain into an XPS document.
 ms.assetid: c6aae8ff-2e1e-43de-9105-171e4187d193
 title: Embed Certificate Chains in a Document
 ms.topic: article

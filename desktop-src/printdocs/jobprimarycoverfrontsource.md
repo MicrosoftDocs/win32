@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: f27c5e65-87b0-47a4-a5dc-27b52082f097
 title: JobPrimaryCoverFrontSource
 ms.topic: article

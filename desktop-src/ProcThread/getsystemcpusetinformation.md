@@ -1,5 +1,5 @@
 ---
-Description: Allows an application to query the available CPU Sets on the system, and their current state.
+description: Allows an application to query the available CPU Sets on the system, and their current state.
 ms.assetid: 168B00AB-1B11-44A0-B548-903CA3F4BBDE
 title: GetSystemCpuSetInformation function (Processthreadapi.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: dac287a9-77ca-44d8-8019-b05e4c61dc52
 title: Adding Property Instances
 ms.topic: article

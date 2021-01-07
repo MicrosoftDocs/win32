@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: fd16bd46-32e3-4896-ac5c-03c1bf6ad515
 title: JobAccountingSheet
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: .
+description: .
 ms.assetid: b11f82da-cb77-4229-b5ab-d560a9b0cce4
 title: System.Contact.HomeAddress3Locality
 ms.topic: article

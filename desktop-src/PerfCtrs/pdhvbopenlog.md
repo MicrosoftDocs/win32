@@ -1,5 +1,5 @@
 ---
-Description: The PdhVbOpenLog function opens the specified log file for reading and writing. This function calls PdhOpenLog.
+description: The PdhVbOpenLog function opens the specified log file for reading and writing. This function calls PdhOpenLog.
 ms.assetid: d9b8d98c-64f2-4319-8ab2-67b776143cf7
 title: PdhVbOpenLog function
 ms.topic: reference

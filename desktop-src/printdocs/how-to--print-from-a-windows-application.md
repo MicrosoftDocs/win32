@@ -1,5 +1,5 @@
 ---
-Description: This section describes how to print from a native Windows program.
+description: This section describes how to print from a native Windows program.
 ms.assetid: D0AE8FF8-D02D-43D3-80CA-E13EAA894F87
 title: 'How To: Print from a Windows Program'
 ms.topic: article

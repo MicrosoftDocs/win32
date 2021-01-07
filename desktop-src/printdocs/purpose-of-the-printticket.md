@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 8a7dd185-0324-44a0-8405-59a2fdc1efcb
 title: Purpose of the PrintTicket
 ms.topic: article

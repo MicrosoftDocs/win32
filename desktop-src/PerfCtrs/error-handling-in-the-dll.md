@@ -1,5 +1,5 @@
 ---
-Description: Use event logging to record errors that occur in the performance DLL.
+description: Use event logging to record errors that occur in the performance DLL.
 ms.assetid: 61bc4fa1-8185-4e07-a3b5-4bd357f0f75a
 title: Error Handling in the DLL
 ms.topic: article

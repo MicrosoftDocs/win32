@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 1afcf2e6-5d6d-4b87-a005-15d42a610f69
 title: PageOutputColor
 ms.topic: article
