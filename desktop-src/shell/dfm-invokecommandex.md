@@ -1,5 +1,5 @@
 ---
-Description: Sent by the default context menu implementation to request LPFNDFMCALLBACK to invoke an extended menu command.
+description: Sent by the default context menu implementation to request LPFNDFMCALLBACK to invoke an extended menu command.
 title: DFM_INVOKECOMMANDEX message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018

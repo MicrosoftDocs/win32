@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a group's restriction setting from the registry.
+description: Retrieves a group's restriction setting from the registry.
 ms.assetid: 04275c5f-c3ed-4962-882f-2cce0258a9f4
 title: IShellDispatch2.IsRestricted method (Shldisp.h)
 ms.topic: reference

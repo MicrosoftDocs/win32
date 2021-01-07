@@ -1,5 +1,5 @@
 ---
-Description: Opens a specified certificate store.
+description: Opens a specified certificate store.
 ms.assetid: d6f398b4-dba6-4d84-b5eb-3c7737d17a6e
 title: Store.Open method
 ms.topic: reference

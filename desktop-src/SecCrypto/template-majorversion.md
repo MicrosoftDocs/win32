@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the major version number of the template.
+description: Retrieves the major version number of the template.
 ms.assetid: efde3a7c-48e0-4bfe-9118-3098c7ef8771
 title: Template.MajorVersion property
 ms.topic: reference

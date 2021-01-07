@@ -1,5 +1,5 @@
 ---
-Description: Returns the identifier string available in the volume's metadata.
+description: Returns the identifier string available in the volume's metadata.
 ms.assetid: 0573cbcd-6fb1-4648-bb06-4433796f6bb5
 title: GetIdentificationField method of the Win32_EncryptableVolume class
 ms.topic: reference

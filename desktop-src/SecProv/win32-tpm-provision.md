@@ -1,5 +1,5 @@
 ---
-Description: Attempts to provision the TPM to a completely ready state and will take the ownership of TPM if it is not already owned.
+description: Attempts to provision the TPM to a completely ready state and will take the ownership of TPM if it is not already owned.
 ms.assetid: D0C09A48-00D0-4BF2-8F0A-451A61EA7810
 title: Win32_Tpm::Provision method
 ms.topic: reference

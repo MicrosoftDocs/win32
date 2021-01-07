@@ -1,5 +1,5 @@
 ---
-Description: Gets the user's display name.
+description: Gets the user's display name.
 title: DIDiskQuotaUser.DisplayName property
 ms.topic: reference
 ms.date: 05/31/2018

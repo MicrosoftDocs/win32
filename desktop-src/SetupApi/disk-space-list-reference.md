@@ -1,5 +1,5 @@
 ---
-Description: The following topics list the data types and functions that provide disk-space list functionality.
+description: The following topics list the data types and functions that provide disk-space list functionality.
 ms.assetid: 78264e63-c5ff-451e-bdc1-646b2e24aee5
 title: Disk-Space List Reference
 ms.topic: article

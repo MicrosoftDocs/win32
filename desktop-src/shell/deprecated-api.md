@@ -1,5 +1,5 @@
 ---
-Description: The following APIs are either deprecated or superseded by newer APIs.
+description: The following APIs are either deprecated or superseded by newer APIs.
 title: Deprecated Shell APIs
 ms.topic: article
 ms.date: 05/31/2018

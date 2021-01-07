@@ -1,5 +1,5 @@
 ---
-Description: Returns a property from the IPropertyStore within the IDList.
+description: Returns a property from the IPropertyStore within the IDList.
 ms.assetid: D0BE2A9A-5832-4C0E-BFB6-96EB467C3D9D
 title: CItemIDFactory::GetPropertyFromIDList methods (Shidfact.h)
 ms.date: 07/02/2019

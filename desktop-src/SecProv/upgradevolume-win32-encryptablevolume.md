@@ -1,5 +1,5 @@
 ---
-Description: Upgrades a volume from the Windows Vista format to the Windows 7 format.
+description: Upgrades a volume from the Windows Vista format to the Windows 7 format.
 ms.assetid: d6654e92-8176-471b-b8e5-815dd9512240
 title: UpgradeVolume method of the Win32_EncryptableVolume class
 ms.topic: reference

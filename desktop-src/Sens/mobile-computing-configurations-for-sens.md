@@ -1,5 +1,5 @@
 ---
-Description: Applications run on mobile and desktop computers can use the bandwidth and latency information provided by SENS to dynamically optimize for network availability.
+description: Applications run on mobile and desktop computers can use the bandwidth and latency information provided by SENS to dynamically optimize for network availability.
 ms.assetid: 83defdc5-79f5-4727-a9b2-fc7422767873
 title: Mobile Computing Configurations for SENS
 ms.topic: article

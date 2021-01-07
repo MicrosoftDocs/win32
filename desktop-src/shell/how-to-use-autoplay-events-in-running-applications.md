@@ -1,5 +1,5 @@
 ---
-Description: The IHWEventHandler interface can be registered in the running object table (ROT) so that running applications have access to AutoPlay events.
+description: The IHWEventHandler interface can be registered in the running object table (ROT) so that running applications have access to AutoPlay events.
 ms.assetid: 6FEFFB5D-DD8B-4FEA-B273-D32FC30CAFEA
 title: How to Use AutoPlay Events in Running Applications
 ms.topic: article

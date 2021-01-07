@@ -1,5 +1,5 @@
 ---
-Description: Indicates a type of service status change for monitoring and reporting.
+description: Indicates a type of service status change for monitoring and reporting.
 ms.assetid: 7508526c-02ce-4ac2-8616-491390a4afad
 title: SC_EVENT_TYPE enumeration (Winsvcp.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Indicates if confirmation from a physically present user is required for a given physical presence operation.
+description: Indicates if confirmation from a physically present user is required for a given physical presence operation.
 ms.assetid: 1CE558B7-EB6F-42CB-B52B-2A0101E90BD5
 title: Win32_Tpm::GetPhysicalPresenceConfirmationStatus method
 ms.topic: reference

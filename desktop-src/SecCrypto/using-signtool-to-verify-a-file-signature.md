@@ -1,5 +1,5 @@
 ---
-Description: Explains how to use SignTool to verify a file signature.
+description: Explains how to use SignTool to verify a file signature.
 ms.assetid: 9c40a397-19ea-4600-97ee-987dd10f4ef8
 title: Using SignTool to Verify a File Signature
 ms.topic: article

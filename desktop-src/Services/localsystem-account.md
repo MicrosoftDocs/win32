@@ -1,5 +1,5 @@
 ---
-Description: The LocalSystem account is a predefined local account used by the service control manager.
+description: The LocalSystem account is a predefined local account used by the service control manager.
 ms.assetid: 692bceb6-f5bd-4b83-ab3b-ef8099dc84e1
 title: LocalSystem Account
 ms.topic: article

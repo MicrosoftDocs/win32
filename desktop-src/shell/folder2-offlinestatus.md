@@ -1,5 +1,5 @@
 ---
-Description: Contains the offline status of the folder.
+description: Contains the offline status of the folder.
 ms.assetid: b50b130d-0675-49b5-b730-f67ea1c71d8c
 title: Folder2.OfflineStatus property (Shldisp.h)
 ms.topic: reference

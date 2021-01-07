@@ -1,5 +1,5 @@
 ---
-Description: Contains an object that represents an application.
+description: Contains an object that represents an application.
 ms.assetid: 61B85691-399D-41c1-9901-825345A38E5A
 title: IShellDispatch.Application property (Shldisp.h)
 ms.topic: reference

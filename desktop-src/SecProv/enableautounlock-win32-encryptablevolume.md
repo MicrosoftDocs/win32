@@ -1,5 +1,5 @@
 ---
-Description: Allows a data volume to be automatically unlocked when the volume is mounted.
+description: Allows a data volume to be automatically unlocked when the volume is mounted.
 ms.assetid: ec77b17f-545b-40a7-91b2-ff0b32b8370d
 title: EnableAutoUnlock method of the Win32_EncryptableVolume class
 ms.topic: reference

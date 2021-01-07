@@ -1,5 +1,5 @@
 ---
-Description: Enumerates the contents of the most recently used (MRU) list. Optionally retrieves an item from the enumeration.
+description: Enumerates the contents of the most recently used (MRU) list. Optionally retrieves an item from the enumeration.
 title: EnumMRUListW function
 ms.topic: reference
 ms.date: 05/31/2018

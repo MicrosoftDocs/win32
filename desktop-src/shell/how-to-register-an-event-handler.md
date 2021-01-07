@@ -1,5 +1,5 @@
 ---
-Description: A device can potentially generate many events, and each event has the option of being handled by one of a number of different handlers.
+description: A device can potentially generate many events, and each event has the option of being handled by one of a number of different handlers.
 ms.assetid: C203B5AB-917C-4543-98D6-EDE02E0B5E49
 title: How to Register an Event Handler
 ms.topic: article

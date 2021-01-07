@@ -1,5 +1,5 @@
 ---
-Description: Tiles all of the windows on the desktop horizontally. This method has the same effect as right-clicking the taskbar and selecting Show windows stacked.
+description: Tiles all of the windows on the desktop horizontally. This method has the same effect as right-clicking the taskbar and selecting Show windows stacked.
 ms.assetid: 85785510-6B75-450a-A9BB-6C3B4F6194E2
 title: IShellDispatch.TileHorizontally method (Shldisp.h)
 ms.topic: reference

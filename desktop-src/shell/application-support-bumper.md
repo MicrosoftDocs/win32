@@ -1,5 +1,5 @@
 ---
-Description: .
+description: .
 title: Supporting Shell Applications
 ms.topic: article
 ms.date: 05/31/2018

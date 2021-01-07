@@ -1,5 +1,5 @@
 ---
-Description: You can launch a rooted view of a junction point through a shortcut file to that junction point.
+description: You can launch a rooted view of a junction point through a shortcut file to that junction point.
 title: How to Open a Rooted View of a Junction Point Through a Shortcut File
 ms.topic: article
 ms.date: 05/31/2018

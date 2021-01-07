@@ -1,5 +1,5 @@
 ---
-Description: Changes which monitor is used for docked toolbars on a multiple monitor system.
+description: Changes which monitor is used for docked toolbars on a multiple monitor system.
 title: IMultiMonitorDockingSite::SetMonitor method
 ms.topic: reference
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: A service (or any process running in a different security context) that must access a remote resource should use the Universal Naming Convention (UNC) name to access the resource.
+description: A service (or any process running in a different security context) that must access a remote resource should use the Universal Naming Convention (UNC) name to access the resource.
 ms.assetid: 2582259d-077c-4089-9a87-1a377994f0bd
 title: Services and Redirected Drives
 ms.topic: article

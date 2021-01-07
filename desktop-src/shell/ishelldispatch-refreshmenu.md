@@ -1,5 +1,5 @@
 ---
-Description: Refreshes the contents of the Start menu. Used only with systems preceding Windows XP.
+description: Refreshes the contents of the Start menu. Used only with systems preceding Windows XP.
 ms.assetid: D36FA5A0-AF03-4627-86E0-869BF1440958
 title: IShellDispatch.RefreshMenu method (Shldisp.h)
 ms.topic: reference

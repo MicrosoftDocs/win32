@@ -1,5 +1,5 @@
 ---
-Description: Gets the current default monitor.
+description: Gets the current default monitor.
 title: IMultiMonitorDockingSite::GetMonitor method
 ms.topic: reference
 ms.date: 05/31/2018

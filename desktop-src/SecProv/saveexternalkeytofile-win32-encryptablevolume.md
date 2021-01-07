@@ -1,5 +1,5 @@
 ---
-Description: Writes the external key associated with the specified volume key protector to a system, hidden, read-only file in the specified folder.
+description: Writes the external key associated with the specified volume key protector to a system, hidden, read-only file in the specified folder.
 ms.assetid: 8d928f85-b392-4119-aebb-f16021eb5c6a
 title: SaveExternalKeyToFile method of the Win32_EncryptableVolume class
 ms.topic: reference

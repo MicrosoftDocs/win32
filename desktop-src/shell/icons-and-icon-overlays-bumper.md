@@ -1,5 +1,5 @@
 ---
-Description: Icons and Icon Overlays
+description: Icons and Icon Overlays
 title: Icons and Icon Overlays
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: Autocompletion expands strings that have been partially entered in an edit control into complete strings.
+description: Autocompletion expands strings that have been partially entered in an edit control into complete strings.
 title: Using Autocomplete
 ms.topic: article
 ms.date: 05/31/2018

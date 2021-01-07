@@ -1,5 +1,5 @@
 ---
-Description: Lists the data types used by the Security Configuration attachment DLLs and their supporting functions.
+description: Lists the data types used by the Security Configuration attachment DLLs and their supporting functions.
 ms.assetid: 1d3bdf0d-320c-4b25-9e9b-fda134876979
 title: Security Management Data Types
 ms.topic: article

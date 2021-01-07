@@ -1,5 +1,5 @@
 ---
-Description: Resets the TPM to its factory-default state.
+description: Resets the TPM to its factory-default state.
 ms.assetid: 55d6702f-bd57-43e3-b790-617940dd2e01
 title: Clear method of the Win32_Tpm class
 ms.topic: reference

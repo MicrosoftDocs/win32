@@ -1,5 +1,5 @@
 ---
-Description: 'Provides information to the IQueryAssociations interface methods.'
+description: 'Provides information to the IQueryAssociations interface methods.'
 ms.assetid: 'e67d0282-9090-43e6-aedf-bb1fc0443221'
 title: ASSOCF enumeration
 ---

@@ -1,5 +1,5 @@
 ---
-Description: Runs the specified Control Panel application.
+description: Runs the specified Control Panel application.
 title: IShellDispatch.ControlPanelItem method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018

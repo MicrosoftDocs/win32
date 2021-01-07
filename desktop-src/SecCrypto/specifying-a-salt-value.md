@@ -1,5 +1,5 @@
 ---
-Description: Both the Base Provider and the Extended Provider can specify the value and length of the salt value to be used. The Base Provider sets a salt value using the KP\_SALT parameter value. The Base Provider always sets eleven bytes of salt value.
+description: Both the Base Provider and the Extended Provider can specify the value and length of the salt value to be used. The Base Provider sets a salt value using the KP\_SALT parameter value. The Base Provider always sets eleven bytes of salt value.
 ms.assetid: ea56d064-b725-431f-b951-66167624e14b
 title: Specifying a Salt Value
 ms.topic: article

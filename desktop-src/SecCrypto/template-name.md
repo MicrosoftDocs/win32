@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the name of the template.
+description: Retrieves the name of the template.
 ms.assetid: f92346bc-89b6-4063-aa66-85e2fb88d67d
 title: Template.Name property
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The local security policy of a system is a set of information about the security of a local computer.
+description: The local security policy of a system is a set of information about the security of a local computer.
 ms.assetid: 9cef073f-a38f-4808-8dc9-3fabc3413eb2
 title: Local Security Policy
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Indicates that a search was started.
+description: Indicates that a search was started.
 title: IShellFolderSearchableCallback::RunBegin method
 ms.topic: reference
 ms.date: 05/31/2018

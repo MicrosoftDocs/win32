@@ -1,5 +1,5 @@
 ---
-Description: Intsafe.h Functions
+description: Intsafe.h Functions
 title: Intsafe.h Functions
 ms.topic: article
 ms.date: 05/31/2018

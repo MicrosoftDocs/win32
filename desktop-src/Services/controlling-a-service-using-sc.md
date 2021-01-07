@@ -1,5 +1,5 @@
 ---
-Description: The Windows SDK contains a command-line utility, Sc.exe, that can be used to control a service. Its commands correspond to the functions provided by the SCM. The syntax is as follows.
+description: The Windows SDK contains a command-line utility, Sc.exe, that can be used to control a service. Its commands correspond to the functions provided by the SCM. The syntax is as follows.
 ms.assetid: 7c3e5c39-ec0f-4174-9ecf-239927de3d39
 title: Controlling a Service Using SC
 ms.topic: article

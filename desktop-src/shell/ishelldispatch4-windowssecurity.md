@@ -1,5 +1,5 @@
 ---
-Description: Displays the Windows Security dialog box.
+description: Displays the Windows Security dialog box.
 title: IShellDispatch4.WindowsSecurity method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018

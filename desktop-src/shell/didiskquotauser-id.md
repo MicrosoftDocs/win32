@@ -1,5 +1,5 @@
 ---
-Description: Gets an ID that uniquely identifies the user.
+description: Gets an ID that uniquely identifies the user.
 title: DIDiskQuotaUser.ID property
 ms.topic: reference
 ms.date: 05/31/2018

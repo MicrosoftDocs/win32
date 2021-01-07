@@ -1,5 +1,5 @@
 ---
-Description: Allows the callback to modify the CFM\_XXX values passed to IContextMenu::QueryContextMenu.
+description: Allows the callback to modify the CFM\_XXX values passed to IContextMenu::QueryContextMenu.
 title: DFM_MODIFYQCMFLAGS message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018

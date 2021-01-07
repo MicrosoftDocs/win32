@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether any external keys or related information that may be used to automatically unlock data volumes exist in the currently running operating system volume.
+description: Indicates whether any external keys or related information that may be used to automatically unlock data volumes exist in the currently running operating system volume.
 ms.assetid: 37e7fe85-312d-49ff-aa6b-8c76c4fc4bba
 title: IsAutoUnlockKeyStored method of the Win32_EncryptableVolume class
 ms.topic: reference

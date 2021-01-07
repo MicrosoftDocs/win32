@@ -1,5 +1,5 @@
 ---
-Description: 'The following structures are used with services:'
+description: 'The following structures are used with services:'
 ms.assetid: 775ecbeb-3a2a-40dd-b262-b66dea04713d
 title: Service Structures
 ms.topic: article

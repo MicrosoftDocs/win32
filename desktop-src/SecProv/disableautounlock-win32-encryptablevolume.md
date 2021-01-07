@@ -1,5 +1,5 @@
 ---
-Description: Removes the external key saved onto the currently running operating system volume.
+description: Removes the external key saved onto the currently running operating system volume.
 ms.assetid: a8c4bb3b-6566-4173-b550-e89740f1cba6
 title: DisableAutoUnlock method of the Win32_EncryptableVolume class
 ms.topic: reference

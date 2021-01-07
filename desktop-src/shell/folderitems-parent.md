@@ -1,5 +1,5 @@
 ---
-Description: FolderItems.Parent property
+description: FolderItems.Parent property
 title: FolderItems.Parent property
 ms.topic: reference
 ms.date: 05/31/2018

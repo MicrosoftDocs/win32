@@ -1,5 +1,5 @@
 ---
-Description: An application desktop toolbar (also called an appbar) is a window that is similar to the Windows taskbar.
+description: An application desktop toolbar (also called an appbar) is a window that is similar to the Windows taskbar.
 ms.assetid: d9f63cb1-e2cc-4a3b-a3b8-de028e0f0123
 title: Using Application Desktop Toolbars
 ms.topic: article

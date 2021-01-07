@@ -1,5 +1,5 @@
 ---
-Description: The sensor object represents a particular sensor.
+description: The sensor object represents a particular sensor.
 ms.assetid: b969a153-d957-4323-bafe-6f8d62b0a627
 title: The Sensor Object
 ms.topic: article

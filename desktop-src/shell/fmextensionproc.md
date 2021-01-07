@@ -1,5 +1,5 @@
 ---
-Description: Specifies an application-defined callback function called by File Manager to communicate with a File Manager extension.
+description: Specifies an application-defined callback function called by File Manager to communicate with a File Manager extension.
 title: FMExtensionProc callback function (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018

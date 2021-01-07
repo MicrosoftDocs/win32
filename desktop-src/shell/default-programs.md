@@ -1,5 +1,5 @@
 ---
-Description: Use Default Programs to set the default user experience.
+description: Use Default Programs to set the default user experience.
 ms.assetid: 78cd05a4-df33-42b5-91b9-826ebce04a1d
 title: Default Programs
 ms.topic: article

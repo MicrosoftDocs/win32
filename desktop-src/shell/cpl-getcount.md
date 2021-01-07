@@ -1,5 +1,5 @@
 ---
-Description: Sent to the CPlApplet function of a Control Panel application to retrieve the number of dialog boxes supported by the application.
+description: Sent to the CPlApplet function of a Control Panel application to retrieve the number of dialog boxes supported by the application.
 title: CPL_GETCOUNT message (Cpl.h)
 ms.topic: reference
 ms.date: 05/31/2018

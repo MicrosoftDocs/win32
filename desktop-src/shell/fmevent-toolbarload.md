@@ -1,5 +1,5 @@
 ---
-Description: Sent to an extension DLL when File Manager is loading its toolbar. This message allows an extension DLL to add a button to the File Manager toolbar.
+description: Sent to an extension DLL when File Manager is loading its toolbar. This message allows an extension DLL to add a button to the File Manager toolbar.
 title: FMEVENT_TOOLBARLOAD message (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018

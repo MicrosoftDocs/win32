@@ -1,5 +1,5 @@
 ---
-Description: Translates a user-provided passphrase input into a 20-byte owner authorization that can be used to interact with the TPM. Methods such as TakeOwnership and ResetAuthLockOut require the resulting owner authorization value.
+description: Translates a user-provided passphrase input into a 20-byte owner authorization that can be used to interact with the TPM. Methods such as TakeOwnership and ResetAuthLockOut require the resulting owner authorization value.
 ms.assetid: 69eed934-1668-495a-b5b7-cd4a87df1ab3
 title: ConvertToOwnerAuth method of the Win32_Tpm class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Sent by a File Manager extension to retrieve information about a selected file from the active File Manager window (either the directory window or the Search Results window).
+description: Sent by a File Manager extension to retrieve information about a selected file from the active File Manager window (either the directory window or the Search Results window).
 title: FM_GETFILESEL message (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018

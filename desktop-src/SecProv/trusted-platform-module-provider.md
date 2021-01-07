@@ -1,5 +1,5 @@
 ---
-Description: The Trusted Platform Module provider is used to manage a Trusted Platform Module (TPM).
+description: The Trusted Platform Module provider is used to manage a Trusted Platform Module (TPM).
 ms.assetid: ed230fee-03d4-4430-bba8-454d5da050dd
 title: Trusted Platform Module Provider
 ms.topic: article

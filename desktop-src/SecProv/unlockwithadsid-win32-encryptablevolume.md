@@ -1,5 +1,5 @@
 ---
-Description: Uses the provided Active Directory security identifier (SID) string to obtain the derived key and unlock the encrypted volume.
+description: Uses the provided Active Directory security identifier (SID) string to obtain the derived key and unlock the encrypted volume.
 ms.assetid: 89FBC815-859D-415A-8F26-170FB2DB7387
 title: UnlockWithAdSid method of the Win32_EncryptableVolume class
 ms.topic: reference

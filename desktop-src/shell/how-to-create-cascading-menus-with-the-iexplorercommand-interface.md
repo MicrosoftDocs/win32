@@ -1,5 +1,5 @@
 ---
-Description: Another option for adding verbs to a cascading menu is through IExplorerCommand::EnumSubCommands.
+description: Another option for adding verbs to a cascading menu is through IExplorerCommand::EnumSubCommands.
 ms.assetid: 010157F3-B950-4A57-B0AA-248B4990DA34
 title: Create Cascading Menus with the IExplorerCommand Interface
 ms.topic: article

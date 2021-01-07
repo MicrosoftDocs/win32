@@ -1,5 +1,5 @@
 ---
-Description: This section describes the Windows Shell classes.
+description: This section describes the Windows Shell classes.
 ms.assetid: '3b9d876c-32a9-429f-9605-efcc4a1c1570'
 title: Shell Classes
 ms.topic: article

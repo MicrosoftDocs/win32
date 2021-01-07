@@ -1,5 +1,5 @@
 ---
-Description: Sets or gets the user's current quota limit.
+description: Sets or gets the user's current quota limit.
 title: DIDiskQuotaUser.QuotaLimit property
 ms.topic: reference
 ms.date: 05/31/2018

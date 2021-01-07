@@ -1,5 +1,5 @@
 ---
-Description: Sets or gets the default quota threshold.
+description: Sets or gets the default quota threshold.
 ms.assetid: d3f23e52-586f-4cb8-b91c-44a71f8f94b2
 title: DiskQuotaControl.DefaultQuotaThreshold property
 ms.topic: reference

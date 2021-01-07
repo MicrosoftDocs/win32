@@ -1,5 +1,5 @@
 ---
-Description: Adds a Certificate object to an open certificate store.
+description: Adds a Certificate object to an open certificate store.
 ms.assetid: 787b8a41-dcdb-4b5b-a1fd-f5424300361b
 title: Store.Add method
 ms.topic: reference

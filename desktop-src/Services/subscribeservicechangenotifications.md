@@ -1,5 +1,5 @@
 ---
-Description: Subscribes for service status change notifications using a callback function.
+description: Subscribes for service status change notifications using a callback function.
 ms.assetid: d67113eb-2141-444c-9f09-eaa772bcad8a
 title: SubscribeServiceChangeNotifications function (Winsvcp.h)
 ms.topic: reference

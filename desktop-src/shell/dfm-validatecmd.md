@@ -1,5 +1,5 @@
 ---
-Description: Sent to verify the existence of a menu command.
+description: Sent to verify the existence of a menu command.
 title: DFM_VALIDATECMD message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018

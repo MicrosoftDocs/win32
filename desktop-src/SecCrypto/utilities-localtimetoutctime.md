@@ -1,5 +1,5 @@
 ---
-Description: Converts the computer's local time to Coordinated Universal Time (Greenwich Mean Time).
+description: Converts the computer's local time to Coordinated Universal Time (Greenwich Mean Time).
 ms.assetid: ff5d40ba-7d94-4f11-9c18-e41752d1d7b9
 title: Utilities.LocalTimeToUTCTime method
 ms.topic: reference

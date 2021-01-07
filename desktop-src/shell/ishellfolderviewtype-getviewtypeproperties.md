@@ -1,5 +1,5 @@
 ---
-Description: Gets the properties of the view.
+description: Gets the properties of the view.
 title: IShellFolderViewType::GetViewTypeProperties method
 ms.topic: reference
 ms.date: 05/31/2018

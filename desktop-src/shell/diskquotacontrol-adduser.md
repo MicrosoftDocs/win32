@@ -1,5 +1,5 @@
 ---
-Description: Assigns a nondefault disk quota to a new user.
+description: Assigns a nondefault disk quota to a new user.
 title: DiskQuotaControl.AddUser method
 ms.topic: reference
 ms.date: 05/31/2018

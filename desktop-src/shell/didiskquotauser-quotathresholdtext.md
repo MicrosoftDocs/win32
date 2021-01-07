@@ -1,5 +1,5 @@
 ---
-Description: Gets the user's warning threshold as a text string.
+description: Gets the user's warning threshold as a text string.
 ms.assetid: 55b53ad0-e7cd-4417-9087-297ac96e245f
 title: DIDiskQuotaUser.QuotaThresholdText property
 ms.topic: reference
