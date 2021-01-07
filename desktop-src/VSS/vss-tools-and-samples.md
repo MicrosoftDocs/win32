@@ -1,5 +1,5 @@
 ---
-Description: The following topics provide information about VSS tools and sample applications:Using VSS DiagnosticsVssSampleProvider Tool and SampleVShadow Tool and SampleBETest ToolVSS Test Writer ToolUsing Tracing Tools with VSS
+description: The following topics provide information about VSS tools and sample applications:Using VSS DiagnosticsVssSampleProvider Tool and SampleVShadow Tool and SampleBETest ToolVSS Test Writer ToolUsing Tracing Tools with VSS
 ms.assetid: 2a08e109-3ecb-4a87-81da-e9ae6bd34f27
 title: VSS Tools and Samples
 ms.topic: article

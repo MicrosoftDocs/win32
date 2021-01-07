@@ -1,5 +1,5 @@
 ---
-Description: 'Device Properties are properties that control the function of the entire device. These properties can only be accessed through the root item of the tree that represents a device. There are three types of device properties: common, scanner, and camera.'
+description: 'Device Properties are properties that control the function of the entire device. These properties can only be accessed through the root item of the tree that represents a device. There are three types of device properties: common, scanner, and camera.'
 ms.assetid: 7853e580-ad25-4885-8478-bd0118e750ec
 title: Device Properties (WIA)
 ms.topic: article

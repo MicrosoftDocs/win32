@@ -1,5 +1,5 @@
 ---
-Description: WIA provides several interfaces for enumerating various capabilities, properties, and information.
+description: WIA provides several interfaces for enumerating various capabilities, properties, and information.
 ms.assetid: d46d4c18-79cc-4f3c-9745-522ab2635068
 title: Using WIA Enumerators
 ms.topic: article

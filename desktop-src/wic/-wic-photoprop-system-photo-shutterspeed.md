@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.ShutterSpeed property.
+description: The photo metadata policy for the System.Photo.ShutterSpeed property.
 ms.assetid: f320944c-978d-4a3c-9bf8-5c5652123e29
 title: System.Photo.ShutterSpeed Photo Metadata Policy
 ms.topic: article

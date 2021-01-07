@@ -1,5 +1,5 @@
 ---
-Description: Many new Windows Image Acquisition (WIA) API are included in Windows Image Acquisition (WIA) 2.0.
+description: Many new Windows Image Acquisition (WIA) API are included in Windows Image Acquisition (WIA) 2.0.
 ms.assetid: d8e85c34-d8ce-4512-af71-102a21393fdf
 title: What's New in Windows Image Acquisition (WIA) 2.0
 ms.topic: article

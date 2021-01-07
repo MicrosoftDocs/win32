@@ -1,5 +1,5 @@
 ---
-Description: Writers are applications or services that store persistent information in files on disk and that provide the names and locations of these files to requesters by using the shadow copy interface.
+description: Writers are applications or services that store persistent information in files on disk and that provide the names and locations of these files to requesters by using the shadow copy interface.
 ms.assetid: '24fc2d7c-f8d6-49ca-9bb5-0179bef68e78'
 title: Writers
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: 'The following topics describe the changes in each release of the VSS API:'
+description: 'The following topics describe the changes in each release of the VSS API:'
 ms.assetid: d411c117-e34f-4a4f-8ecf-f6c42978739e
 title: What's New in VSS
 ms.topic: article

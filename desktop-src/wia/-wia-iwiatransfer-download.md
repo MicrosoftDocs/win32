@@ -1,5 +1,5 @@
 ---
-Description: Initiates a data download to the caller.
+description: Initiates a data download to the caller.
 ms.assetid: e639fabb-2c13-4009-affa-1c2b06c0d4c8
 title: IWiaTransfer::Download method (Wia.h)
 ms.topic: reference

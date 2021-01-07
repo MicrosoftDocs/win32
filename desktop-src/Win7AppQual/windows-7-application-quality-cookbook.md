@@ -1,5 +1,5 @@
 ---
-Description: The Windows 7 and Windows Server 2008 R2 Application Quality Cookbook familiarizes application developers with how to verify the compatibility of their applications with the new operating system and provides an overview of the few known application compatibility issues in Windows 7 and Windows Server 2008 R2. It also points out differences in performance, reliability, and usability, and provides links to detailed white papers and other developer guidance.
+description: The Windows 7 and Windows Server 2008 R2 Application Quality Cookbook familiarizes application developers with how to verify the compatibility of their applications with the new operating system and provides an overview of the few known application compatibility issues in Windows 7 and Windows Server 2008 R2. It also points out differences in performance, reliability, and usability, and provides links to detailed white papers and other developer guidance.
 ms.assetid: 68fe0b82-b6b3-4766-9699-3f2892d3f8e5
 title: Windows 7 and Windows Server 2008 R2 Application Quality Cookbook
 ms.topic: article

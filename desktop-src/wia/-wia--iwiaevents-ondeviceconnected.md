@@ -1,5 +1,5 @@
 ---
-Description: Event that occurs when a new Windows Image Acquisition (WIA) hardware device is connected.
+description: Event that occurs when a new Windows Image Acquisition (WIA) hardware device is connected.
 ms.assetid: 327a29b8-581c-41b5-bea7-068bec95e653
 title: Wia.OnDeviceConnected event
 ms.topic: reference

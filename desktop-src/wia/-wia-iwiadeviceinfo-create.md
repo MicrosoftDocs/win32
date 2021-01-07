@@ -1,5 +1,5 @@
 ---
-Description: The Create method of the DeviceInfo object makes a connection to the Windows Image Acquisition (WIA) device specified by the DeviceInfo object, and returns an Item object that represents the device.
+description: The Create method of the DeviceInfo object makes a connection to the Windows Image Acquisition (WIA) device specified by the DeviceInfo object, and returns an Item object that represents the device.
 ms.assetid: 57f3698c-3f9f-4775-8b53-a65a5591aa3d
 title: DeviceInfo.Create method
 ms.topic: reference

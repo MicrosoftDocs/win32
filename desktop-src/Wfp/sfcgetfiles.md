@@ -1,5 +1,5 @@
 ---
-Description: Lists protected files.
+description: Lists protected files.
 ms.assetid: 46a1ff83-afed-4ce3-bb62-551446efdb78
 title: SfcGetFiles function (Sfcfiles.h)
 ms.topic: reference

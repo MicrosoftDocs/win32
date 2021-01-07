@@ -1,5 +1,5 @@
 ---
-Description: Microsoft Windows HTTP Services (WinHTTP) uses handles to keep track of settings and information required when using the HTTP protocol.
+description: Microsoft Windows HTTP Services (WinHTTP) uses handles to keep track of settings and information required when using the HTTP protocol.
 ms.assetid: 0bd82860-1347-40c8-ae77-c4d865c109be
 title: HINTERNET Handles in WinHTTP
 ms.topic: article

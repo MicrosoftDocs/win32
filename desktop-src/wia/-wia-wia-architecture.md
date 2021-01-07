@@ -1,5 +1,5 @@
 ---
-Description: WIA is implemented as a Component Object Model (COM) out-of-process server to ensure the robust operation of client applications.
+description: WIA is implemented as a Component Object Model (COM) out-of-process server to ensure the robust operation of client applications.
 ms.assetid: 9f3d1848-36ab-4e0f-a7f4-312bc85ecc00
 title: WIA Architecture
 ms.topic: article

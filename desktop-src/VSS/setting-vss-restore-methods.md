@@ -1,5 +1,5 @@
 ---
-Description: The configuration of restore operations actually begins during data backup, when writers specify, in their Writer Metadata Documents, how their data should be restored.
+description: The configuration of restore operations actually begins during data backup, when writers specify, in their Writer Metadata Documents, how their data should be restored.
 ms.assetid: b1f948cd-d3b0-4637-b76d-b54a74bb5948
 title: Setting VSS Restore Methods
 ms.topic: reference

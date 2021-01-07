@@ -1,5 +1,5 @@
 ---
-Description: 'The following list indicates additions and changes to the Volume Shadow Copy Service interface in Windows Server 2003 with Service Pack 1 (SP1):'
+description: 'The following list indicates additions and changes to the Volume Shadow Copy Service interface in Windows Server 2003 with Service Pack 1 (SP1):'
 ms.assetid: 9e0dba98-5d23-444d-bd2f-cb72de8fb2d2
 title: What's New in VSS in Windows Server 2003 SP1
 ms.topic: article

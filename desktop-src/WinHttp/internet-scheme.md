@@ -1,5 +1,5 @@
 ---
-Description: Internet schemes supported by WinHTTP.
+description: Internet schemes supported by WinHTTP.
 ms.assetid: 31e45879-807e-4dd5-9f99-94a46011e55e
 title: INTERNET_SCHEME (Winhttp.h)
 ms.topic: reference

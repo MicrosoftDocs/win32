@@ -1,5 +1,5 @@
 ---
-Description: This topic provides information about the native HD Photo codec available through the Windows Imaging Component (WIC).
+description: This topic provides information about the native HD Photo codec available through the Windows Imaging Component (WIC).
 ms.assetid: C73752AB-3D6E-4D92-9FDE-CB68B6A9743C
 title: HD Photo Format Overview
 ms.topic: article

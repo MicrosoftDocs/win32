@@ -1,5 +1,5 @@
 ---
-Description: Deletes all the scan profiles associated with the specified device.
+description: Deletes all the scan profiles associated with the specified device.
 ms.assetid: 5abf101b-0442-47fc-8159-95db63f0af78
 title: IScanProfileMgr::DeleteAllProfiles method (Scanprofilemgr.h)
 ms.topic: reference

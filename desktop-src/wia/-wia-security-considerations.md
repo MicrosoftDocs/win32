@@ -1,5 +1,5 @@
 ---
-Description: This document provides information about security considerations related to Windows Image Acquisition (WIA).
+description: This document provides information about security considerations related to Windows Image Acquisition (WIA).
 ms.assetid: 35455320-7d08-49de-938d-40dc0873917b
 title: 'Security Considerations: Windows Image Acquisition'
 ms.topic: article

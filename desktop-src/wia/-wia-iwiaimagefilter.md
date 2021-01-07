@@ -1,5 +1,5 @@
 ---
-Description: The IWiaImageFilter interface is an extension interface implemented by image processing filter developers and called by Windows Image Acquisition (WIA) 2.0.
+description: The IWiaImageFilter interface is an extension interface implemented by image processing filter developers and called by Windows Image Acquisition (WIA) 2.0.
 ms.assetid: 2abe913b-bb2b-486d-a3f4-d5932433fc82
 title: IWiaImageFilter interface (Wia.h)
 ms.topic: reference

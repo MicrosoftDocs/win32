@@ -1,5 +1,5 @@
 ---
-Description: The property proxy for the System.GPS.DestDistance photo metadata policy.
+description: The property proxy for the System.GPS.DestDistance photo metadata policy.
 ms.assetid: fcc970a9-fa42-4952-a8eb-5a89d8e733f7
 title: System.GPS.DestDistance Proxy
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Windows Image Acquisition (WIA)APIs return their completion status in an HRESULT return value.
+description: The Windows Image Acquisition (WIA)APIs return their completion status in an HRESULT return value.
 ms.assetid: 4f3b4292-7aad-4a0a-9cd7-ef8438e57ab3
 title: WIA Error Information
 ms.topic: article

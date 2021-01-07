@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.TranscodedForSync property.
+description: The photo metadata policy for the System.Photo.TranscodedForSync property.
 ms.assetid: 1869d845-6264-425a-ab3e-e0a9f942961a
 title: System.Photo.TranscodedForSync Photo Metadata Policy
 ms.topic: article

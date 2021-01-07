@@ -1,5 +1,5 @@
 ---
-Description: Retrieves all HTTP response headers.
+description: Retrieves all HTTP response headers.
 ms.assetid: 68b13d4c-5afd-486d-8b78-a7eef0f59a24
 title: IWinHttpRequest::GetAllResponseHeaders method
 ms.topic: reference

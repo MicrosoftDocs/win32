@@ -1,5 +1,5 @@
 ---
-Description: Gets the GUID of the category of the Windows Image Acquisition (WIA) 2.0 item that the profile is associated with.
+description: Gets the GUID of the category of the Windows Image Acquisition (WIA) 2.0 item that the profile is associated with.
 ms.assetid: 2c816789-ad66-4b06-9160-7a86289ff373
 title: IScanProfile::GetItem method (Scanprofile.h)
 ms.topic: reference

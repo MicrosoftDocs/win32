@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetDeviceManufacturer method.
+description: Proxy function for the GetDeviceManufacturer method.
 ms.assetid: f4dbf67a-eb67-4138-a77a-7386567b95e6
 title: IWICBitmapCodecInfo_GetDeviceManufacturer_Proxy function
 ms.topic: reference

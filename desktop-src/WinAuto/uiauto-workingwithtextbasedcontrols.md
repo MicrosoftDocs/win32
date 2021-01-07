@@ -1,7 +1,7 @@
 ---
 title: Working with Text-based Controls
 ms.assetid: e06e1f6e-8346-4656-b0cb-58e5b9fdaa33
-description: 
+description: "Learn more about: Working with Text-based Controls"
 keywords:
 - clients,working with text-based controls
 - clients,text-based controls

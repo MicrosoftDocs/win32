@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetThumbnail method.
+description: Proxy function for the GetThumbnail method.
 ms.assetid: 377f8aac-3cdc-44dc-8c60-9b6bce915486
 title: IWICBitmapFrameDecode_GetThumbnail_Proxy function
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.CameraSerialNumber property.
+description: The photo metadata policy for the System.Photo.CameraSerialNumber property.
 ms.assetid: 85f78f45-5e76-4d52-88a2-ac3c9e2b6a1e
 title: System.Photo.CameraSerialNumber Photo Metadata Policy
 ms.topic: article

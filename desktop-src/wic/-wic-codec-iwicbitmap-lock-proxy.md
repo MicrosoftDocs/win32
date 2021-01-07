@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the Lock method.
+description: Proxy function for the Lock method.
 ms.assetid: c9d67b35-092b-4f0b-a292-879576a046bf
 title: IWICBitmap_Lock_Proxy function
 ms.topic: reference

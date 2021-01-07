@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: <span id=vhd.vhd_functions></span>Virtual Disk Functions"
 MS-HAID: vhd.vhd\_functions
 MSHAttr:
 - PreferredSiteName:MSDN

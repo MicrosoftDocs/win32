@@ -1,5 +1,5 @@
 ---
-Description: Gets all the scan profiles available for the user in the system that your application is running under.
+description: Gets all the scan profiles available for the user in the system that your application is running under.
 ms.assetid: 9787079e-283c-4f6d-b97c-cfc1349ada30
 title: IScanProfileMgr::GetProfiles method (Scanprofilemgr.h)
 ms.topic: reference

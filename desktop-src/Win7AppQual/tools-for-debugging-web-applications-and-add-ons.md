@@ -1,5 +1,5 @@
 ---
-Description: .
+description: .
 ms.assetid: ECE4A9C6-8553-4718-AAFA-AC4D9924A786
 title: Tools for Debugging Web Applications and Add-Ons
 ms.topic: article

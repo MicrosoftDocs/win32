@@ -1,5 +1,5 @@
 ---
-Description: The type of this item. Read-only.
+description: The type of this item. Read-only.
 ms.assetid: 6c613a08-41aa-4242-80c0-75e1981a676f
 title: Item.ItemType property
 ms.topic: reference

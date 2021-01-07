@@ -1,5 +1,5 @@
 ---
-Description: Gets the parent item in the tree that represents a Windows Image Acquisition (WIA) 2.0 hardware device.
+description: Gets the parent item in the tree that represents a Windows Image Acquisition (WIA) 2.0 hardware device.
 ms.assetid: c6fdaf1d-9875-4852-893c-813894d89f6c
 title: IWiaItem2::GetParentItem method (Wia.h)
 ms.topic: reference

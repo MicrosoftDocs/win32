@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetType method.
+description: Proxy function for the GetType method.
 ms.assetid: 04e71352-4f07-4026-bc32-f6926a58c707
 title: IWICPalette_GetType_Proxy function
 ms.topic: reference

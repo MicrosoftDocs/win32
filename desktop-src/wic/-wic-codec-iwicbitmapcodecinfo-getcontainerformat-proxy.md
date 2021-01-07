@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetContainerFormat method.
+description: Proxy function for the GetContainerFormat method.
 ms.assetid: d8a2387a-fb75-4812-b046-51359071281d
 title: IWICBitmapCodecInfo_GetContainerFormat_Proxy function
 ms.topic: reference

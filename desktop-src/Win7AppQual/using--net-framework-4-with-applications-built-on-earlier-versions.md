@@ -1,5 +1,5 @@
 ---
-Description: Using .NET Framework 4 with Applications Built on Earlier Versions
+description: Using .NET Framework 4 with Applications Built on Earlier Versions
 ms.assetid: 287E25AD-A560-40DA-A4E6-C46A3123914E
 title: Using .NET Framework 4 with Applications Built on Earlier Versions
 ms.topic: article

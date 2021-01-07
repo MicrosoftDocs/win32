@@ -1,5 +1,5 @@
 ---
-Description: Encoder Interfaces
+description: Encoder Interfaces
 ms.assetid: 02365401-8648-4be1-a447-fabd2cb77355
 title: Encoder Interfaces
 ms.topic: article

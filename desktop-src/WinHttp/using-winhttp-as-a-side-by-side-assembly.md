@@ -1,5 +1,5 @@
 ---
-Description: On Windows Server 2003, WinHTTP is implemented as a side-by-side assembly, and must be linked to as such. Note that this does not apply to Windows Vista and later.
+description: On Windows Server 2003, WinHTTP is implemented as a side-by-side assembly, and must be linked to as such. Note that this does not apply to Windows Vista and later.
 ms.assetid: 524d926d-4d8a-4576-96fd-c533517ba28e
 title: Using WinHTTP as a Side-by-side Assembly
 ms.topic: article

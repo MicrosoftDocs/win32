@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateFastMetadataEncoderFromFrameDecode method.
+description: Proxy function for the CreateFastMetadataEncoderFromFrameDecode method.
 ms.assetid: 0edc3387-47e9-401c-9153-76c8c32b52de
 title: IWICImagingFactory_CreateFastMetadataEncoderFromFrameDecode_Proxy function
 ms.topic: reference

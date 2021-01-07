@@ -1,5 +1,5 @@
 ---
-Description: The Windows Imaging Component (WIC) provides an extensible framework for working with images and image metadata.
+description: The Windows Imaging Component (WIC) provides an extensible framework for working with images and image metadata.
 ms.assetid: a05b496a-bd4c-4065-8060-df0f8930cde7
 title: Windows Imaging Component Overview
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Implementing IWICMetadataBlockWriter
+description: Implementing IWICMetadataBlockWriter
 ms.assetid: 31824f21-04b1-45ca-adfa-15fd348e14a1
 title: Implementing IWICMetadataBlockWriter
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: This section contains topics specific to Windows Server 2008 R2.
+description: This section contains topics specific to Windows Server 2008 R2.
 ms.assetid: 1b6969b2-595e-40c5-8b4b-f305ccbfb058
 title: Windows Server 2008 R2 Compatibility
 ms.topic: article

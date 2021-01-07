@@ -1,5 +1,5 @@
 ---
-Description: Invokes the driver segmentation filter and passes the unfiltered image cached by the IWiaPreview::GetNewPreview method to the filter.
+description: Invokes the driver segmentation filter and passes the unfiltered image cached by the IWiaPreview::GetNewPreview method to the filter.
 ms.assetid: 4ae817b5-7091-432e-b004-0e53ae14fdb2
 title: IWiaPreview::DetectRegions method (Wia.h)
 ms.topic: reference

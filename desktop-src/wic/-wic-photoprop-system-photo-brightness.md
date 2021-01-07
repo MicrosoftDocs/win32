@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.Brightness property.
+description: The photo metadata policy for the System.Photo.Brightness property.
 ms.assetid: 3fd73845-f1d9-468c-abf8-081109880974
 title: System.Photo.Brightness Photo Metadata Policy
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the RemoveMetadataByName method.
+description: Proxy function for the RemoveMetadataByName method.
 ms.assetid: fb86766e-234d-4e39-9d4b-7814d50a3867
 title: IWICMetadataQueryWriter_RemoveMetadataByName_Proxy function
 ms.topic: reference
