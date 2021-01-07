@@ -1,5 +1,5 @@
 ---
-Description: Represents a virtual persistent memory controller.
+description: Represents a virtual persistent memory controller.
 ms.assetid: 581f545a-54f7-4c5a-9d74-cb986e9bf13c
 title: Msvm_PersistentMemoryController class
 ms.topic: reference

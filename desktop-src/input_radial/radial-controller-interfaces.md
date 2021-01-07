@@ -1,5 +1,5 @@
 ---
-Description: The topics contained in this section provide the reference specifications for Radial controller input interfaces.
+description: The topics contained in this section provide the reference specifications for Radial controller input interfaces.
 ms.assetid: 44FED16E-63FB-466B-9615-8B744F861AE9
 title: Radial controller interfaces
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Represents an authorization entry for a recovery server.
+description: Represents an authorization entry for a recovery server.
 ms.assetid: 8c057b39-7102-4fbf-b4be-f18627a88834
 title: Msvm_ReplicationAuthorizationSettingData class
 ms.topic: reference

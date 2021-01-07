@@ -1,5 +1,5 @@
 ---
-Description: Deprecated.
+description: Deprecated.
 ms.assetid: eb2622bc-a98d-42bd-ab59-7a849000d79d
 title: GetCalendarDateFormatEx function
 ms.topic: reference

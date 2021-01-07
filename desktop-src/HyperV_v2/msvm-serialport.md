@@ -1,5 +1,5 @@
 ---
-Description: Represents a serial port associated with the serial controller.
+description: Represents a serial port associated with the serial controller.
 ms.assetid: 856823A5-7481-453A-8476-1CDAB1D84123
 title: Msvm_SerialPort class
 ms.topic: reference

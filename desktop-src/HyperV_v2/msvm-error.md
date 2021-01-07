@@ -1,5 +1,5 @@
 ---
-Description: Contains information about the severity, cause, recommended actions, and other data related to the failure of a CIM Operation.
+description: Contains information about the severity, cause, recommended actions, and other data related to the failure of a CIM Operation.
 ms.assetid: 128B9ECE-D26C-4A7D-BFB7-69CD986B0DBA
 title: Msvm_Error class
 ms.topic: reference

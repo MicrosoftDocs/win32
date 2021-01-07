@@ -1,5 +1,5 @@
 ---
-Description: Windows Vista introduces a large number of functions that use locale names instead of locale identifiers.
+description: Windows Vista introduces a large number of functions that use locale names instead of locale identifiers.
 ms.assetid: e88c31b2-b1da-40ae-b512-67b8ad409b95
 title: Calling the "Locale Name" Functions
 ms.topic: article

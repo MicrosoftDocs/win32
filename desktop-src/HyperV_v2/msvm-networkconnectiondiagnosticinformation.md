@@ -1,5 +1,5 @@
 ---
-Description: Provides information about the network connectivity for a virtual machine.
+description: Provides information about the network connectivity for a virtual machine.
 ms.assetid: 59503c1b-203b-46ec-8a65-f21a746f170f
 title: Msvm_NetworkConnectionDiagnosticInformation class
 ms.topic: reference

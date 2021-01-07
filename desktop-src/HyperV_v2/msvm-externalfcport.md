@@ -1,5 +1,5 @@
 ---
-Description: Represents an external Fibre Channel port.
+description: Represents an external Fibre Channel port.
 ms.assetid: bab3a243-5ebd-43e0-948e-ea8112e09d0a
 title: Msvm_ExternalFcPort class
 ms.topic: reference

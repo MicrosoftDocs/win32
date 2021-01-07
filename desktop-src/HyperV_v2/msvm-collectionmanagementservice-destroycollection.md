@@ -1,5 +1,5 @@
 ---
-Description: Deletes the given CIM\_CollectionOfMSEs object.
+description: Deletes the given CIM\_CollectionOfMSEs object.
 ms.assetid: 2c79e281-44c3-4a91-98d5-fdf973d149c3
 title: DestroyCollection method of the Msvm_CollectionManagementService class
 ms.topic: reference

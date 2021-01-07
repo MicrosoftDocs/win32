@@ -1,5 +1,5 @@
 ---
-Description: The Hyper-V application health monitoring API defines the following programming elements.
+description: The Hyper-V application health monitoring API defines the following programming elements.
 ms.assetid: FE5C6D63-F571-4DF2-AF15-D417BA61482A
 title: Hyper-V application health monitoring API reference
 ms.topic: reference

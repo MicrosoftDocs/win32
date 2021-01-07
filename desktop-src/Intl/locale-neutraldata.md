@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_NEUTRALDATA
+description: LOCALE\_NEUTRALDATA
 ms.assetid: 2ca39b78-4cbd-4326-95e5-cb233941968f
 title: LOCALE_NEUTRALDATA
 ms.topic: article

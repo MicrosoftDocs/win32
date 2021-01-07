@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_SDATE
+description: LOCALE\_SDATE
 ms.assetid: 18b62bee-b167-4499-aae4-21e215cb6377
 title: LOCALE_SDATE
 ms.topic: article

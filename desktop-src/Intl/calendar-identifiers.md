@@ -1,5 +1,5 @@
 ---
-Description: This topic defines the calendar identifiers (data type CALID) that are used to specify different calendars.
+description: This topic defines the calendar identifiers (data type CALID) that are used to specify different calendars.
 ms.assetid: ba2e841e-e24e-476a-851e-a29b3af4f04d
 title: Calendar Identifiers
 ms.topic: article

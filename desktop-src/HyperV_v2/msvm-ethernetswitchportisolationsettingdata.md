@@ -1,5 +1,5 @@
 ---
-Description: Represents the Isolation setting data.
+description: Represents the Isolation setting data.
 ms.assetid: f6bf5fcf-61c4-4e69-8ba0-fff4c4873368
 title: Msvm_EthernetSwitchPortIsolationSettingData class
 ms.topic: reference

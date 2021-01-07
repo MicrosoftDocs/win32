@@ -1,5 +1,5 @@
 ---
-Description: Represents the state of the synthetic display controller that is present in each virtual machine configuration.
+description: Represents the state of the synthetic display controller that is present in each virtual machine configuration.
 ms.assetid: E496B887-9032-43D8-A7D2-67BB77342AFD
 title: Msvm_SyntheticDisplayController class
 ms.topic: reference

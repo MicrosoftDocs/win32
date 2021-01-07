@@ -1,5 +1,5 @@
 ---
-Description: Represents a port on the switch.
+description: Represents a port on the switch.
 ms.assetid: a2637e53-6b28-41ad-bef9-d3a14b6cf727
 title: Msvm_EthernetSwitchPort class
 ms.topic: reference

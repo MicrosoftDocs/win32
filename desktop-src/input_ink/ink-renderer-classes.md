@@ -1,5 +1,5 @@
 ---
-Description: The topics contained in this section provide the reference specifications for Ink renderer classes.
+description: The topics contained in this section provide the reference specifications for Ink renderer classes.
 ms.assetid: 5F093A11-C553-4779-B07D-374DA0FBC383
 title: Ink renderer classes
 ms.topic: article

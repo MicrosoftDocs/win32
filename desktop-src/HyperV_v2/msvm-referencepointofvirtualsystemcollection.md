@@ -1,5 +1,5 @@
 ---
-Description: Associates the Msvm\_ReferencePointCollection to the corresponding Msvm\_VirtualSystemCollection objects.
+description: Associates the Msvm\_ReferencePointCollection to the corresponding Msvm\_VirtualSystemCollection objects.
 ms.assetid: 847f1f46-364f-4c91-b9e8-4740d3da1947
 title: Msvm_ReferencePointOfVirtualSystemCollection class
 ms.topic: reference

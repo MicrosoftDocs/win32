@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_SINTLSYMBOL
+description: LOCALE\_SINTLSYMBOL
 ms.assetid: 731d56e9-1676-43c5-b218-25924d615a2b
 title: LOCALE_SINTLSYMBOL
 ms.topic: article

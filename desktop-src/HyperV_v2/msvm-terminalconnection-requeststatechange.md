@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: Requests a state change.
 ms.assetid: bbc0aa97-e38f-4ad8-b607-998dda57cfff
 title: RequestStateChange method of the Msvm_TerminalConnection class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: This section defines the constants that NLS uses to specify particular pieces of locale information.
+description: This section defines the constants that NLS uses to specify particular pieces of locale information.
 ms.assetid: 45798dd1-34bb-4e99-8f84-94f28e76711f
 title: Locale Information Constants
 ms.topic: article

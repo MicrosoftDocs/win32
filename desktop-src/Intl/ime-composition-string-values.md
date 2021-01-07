@@ -1,5 +1,5 @@
 ---
-Description: These values are used with ImmGetCompositionString and WM\_IME\_COMPOSITION.
+description: These values are used with ImmGetCompositionString and WM\_IME\_COMPOSITION.
 ms.assetid: 14087598-8041-4e02-a168-f5538a437be0
 title: IME Composition String Values
 ms.topic: article

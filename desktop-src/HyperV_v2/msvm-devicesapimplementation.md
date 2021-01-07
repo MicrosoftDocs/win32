@@ -1,5 +1,5 @@
 ---
-Description: An association between a service access point (SAP) and how it is implemented.
+description: An association between a service access point (SAP) and how it is implemented.
 ms.assetid: 36108521-A699-4498-A962-DC0801D9EE81
 title: Msvm_DeviceSAPImplementation class
 ms.topic: reference

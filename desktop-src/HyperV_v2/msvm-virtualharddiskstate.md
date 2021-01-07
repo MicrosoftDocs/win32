@@ -1,5 +1,5 @@
 ---
-Description: Provides state information for an existing virtual hard disk image.
+description: Provides state information for an existing virtual hard disk image.
 ms.assetid: b0177906-71dc-4be8-b351-97d7ef427acd
 title: Msvm_VirtualHardDiskState class
 ms.topic: reference

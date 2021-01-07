@@ -1,5 +1,5 @@
 ---
-Description: Represents an external Ethernet port (network adapter).
+description: Represents an external Ethernet port (network adapter).
 ms.assetid: 70901587-641D-46F5-8A35-FEA483D336DE
 title: Msvm_ExternalEthernetPort class
 ms.topic: reference

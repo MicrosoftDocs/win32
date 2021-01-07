@@ -1,5 +1,5 @@
 ---
-Description: The Resource Virtualization Profile provides the means by which a client can discover the virtual resources supported by the virtualization system.
+description: The Resource Virtualization Profile provides the means by which a client can discover the virtual resources supported by the virtualization system.
 ms.assetid: CEF58153-F634-4E32-9C1D-385F1C740314
 title: Resource management service
 ms.topic: article

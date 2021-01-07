@@ -1,5 +1,5 @@
 ---
-Description: Updates the element name for the specified CIM\_CollectionOfMSEs object.
+description: Updates the element name for the specified CIM\_CollectionOfMSEs object.
 ms.assetid: 03d3979b-f3d2-4192-8bba-bdf4a19aa47c
 title: RenameCollection method of the Msvm_CollectionManagementService class
 ms.topic: reference

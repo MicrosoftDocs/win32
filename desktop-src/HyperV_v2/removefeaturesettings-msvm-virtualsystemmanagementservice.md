@@ -1,5 +1,5 @@
 ---
-Description: Removes feature settings from a virtual machine Ethernet connection.
+description: Removes feature settings from a virtual machine Ethernet connection.
 ms.assetid: 457056d0-7e69-47e4-8744-0136a1816f4a
 title: RemoveFeatureSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The Unicode subset bitfields (USBs) are used in the FONTSIGNATURE and LOCALESIGNATURE structures.
+description: The Unicode subset bitfields (USBs) are used in the FONTSIGNATURE and LOCALESIGNATURE structures.
 ms.assetid: f897dfc7-3e78-48dc-8d3d-6929e2f4ec4d
 title: Unicode Subset Bitfields
 ms.topic: article

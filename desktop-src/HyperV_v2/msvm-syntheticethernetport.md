@@ -1,5 +1,5 @@
 ---
-Description: Represents a synthetic Ethernet adapter.
+description: Represents a synthetic Ethernet adapter.
 ms.assetid: B5CB86A9-015B-42E8-ADF4-2F61970D8437
 title: Msvm_SyntheticEthernetPort class
 ms.topic: reference

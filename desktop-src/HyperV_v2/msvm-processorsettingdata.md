@@ -1,5 +1,5 @@
 ---
-Description: Represents the virtual processor settings for a virtual machine.
+description: Represents the virtual processor settings for a virtual machine.
 ms.assetid: 2B299793-E1CD-49D4-898C-AE60B49F44F5
 title: Msvm_ProcessorSettingData class
 ms.topic: reference

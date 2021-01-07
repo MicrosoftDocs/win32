@@ -1,5 +1,5 @@
 ---
-Description: Deprecated. Specifies the date units for adjusting the CALDATETIME structure.
+description: Deprecated. Specifies the date units for adjusting the CALDATETIME structure.
 ms.assetid: 20d0cd7a-6e6b-4c82-9cfa-e4f4315d6362
 title: CALDATETIME_DATEUNIT enumeration
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Changes the state of the job.
+description: Changes the state of the job.
 ms.assetid: 3B11CE45-63E4-43D1-AAF6-02F83C9CBB85
 title: Msvm_CopyFileToGuestJob::RequestStateChange method
 ms.topic: reference

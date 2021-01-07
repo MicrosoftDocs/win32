@@ -1,5 +1,5 @@
 ---
-Description: Requests a reset.
+description: Requests a reset.
 ms.assetid: f09641e4-6bf6-4738-afab-0a50f15d3a68
 title: Reset method of the Msvm_EthernetSwitchPort class
 ms.topic: reference

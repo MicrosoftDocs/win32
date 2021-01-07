@@ -1,5 +1,5 @@
 ---
-Description: Conventionally, the user can select caret position (cp) by clicking either the trailing half of character &\#0034;cp-1&\#0034; or the leading half of character &\#0034;cp&\#0034;.
+description: Conventionally, the user can select caret position (cp) by clicking either the trailing half of character &\#0034;cp-1&\#0034; or the leading half of character &\#0034;cp&\#0034;.
 ms.assetid: 36b6ff00-7ea8-40e5-90f7-917cef117d4a
 title: Translating Mouse Hit X Offset to Caret Position
 ms.topic: article

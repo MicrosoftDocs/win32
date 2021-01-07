@@ -1,5 +1,5 @@
 ---
-Description: Represents a metric value defined by an instance of the Msvm\_BaseMetricDefinition class.
+description: Represents a metric value defined by an instance of the Msvm\_BaseMetricDefinition class.
 ms.assetid: bd872f21-ab71-4ab7-88d3-b26dd2fbdbe5
 title: Msvm_BaseMetricValue class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Adds guest service settings to a virtual system configuration.
+description: Adds guest service settings to a virtual system configuration.
 ms.assetid: 2c8c2f2b-332a-470e-af7f-80c82e3e2caf
 title: AddGuestServiceSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference

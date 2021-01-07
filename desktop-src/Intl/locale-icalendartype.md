@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_ICALENDARTYPE
+description: LOCALE\_ICALENDARTYPE
 ms.assetid: 1b7bc650-8edf-465c-a166-1bbe41131149
 title: LOCALE_ICALENDARTYPE
 ms.topic: article

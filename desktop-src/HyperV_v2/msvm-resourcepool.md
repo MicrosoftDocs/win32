@@ -1,5 +1,5 @@
 ---
-Description: Describes a type of virtual resource available for use in virtual machines.
+description: Describes a type of virtual resource available for use in virtual machines.
 ms.assetid: A93D990E-D921-4113-8D88-218D0F84EFA0
 title: Msvm_ResourcePool class
 ms.topic: reference

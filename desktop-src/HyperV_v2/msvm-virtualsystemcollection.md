@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of virtual systems.
+description: Represents a collection of virtual systems.
 ms.assetid: acf51beb-1103-43a4-8dc5-1a7f2a0482be
 title: Msvm_VirtualSystemCollection class
 ms.topic: reference

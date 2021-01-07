@@ -1,5 +1,5 @@
 ---
-Description: Represents a port on the virtual Fibre Channel switch.
+description: Represents a port on the virtual Fibre Channel switch.
 ms.assetid: 6b4553b7-2717-4285-9e1a-e2ad22a60997
 title: Msvm_FcSwitchPort class
 ms.topic: reference

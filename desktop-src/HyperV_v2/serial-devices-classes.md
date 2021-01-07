@@ -1,5 +1,5 @@
 ---
-Description: The serial devices in a virtual machine consist of serial controllers and serial ports. Each virtual machine has exactly one serial controller, and each serial controller has exactly two serial ports.
+description: The serial devices in a virtual machine consist of serial controllers and serial ports. Each virtual machine has exactly one serial controller, and each serial controller has exactly two serial ports.
 ms.assetid: BA24BD74-D80C-4C5C-891F-5F17CDED2EC6
 title: Serial devices classes
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Understanding Internationalization
+description: Understanding Internationalization
 ms.assetid: 9147cd20-eeae-4ad4-8d51-ac1d68a4b2c5
 title: Understanding Internationalization
 ms.topic: article

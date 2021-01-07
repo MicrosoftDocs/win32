@@ -1,5 +1,5 @@
 ---
-Description: Represents the current and recorded allocation states of a virtual resource.
+description: Represents the current and recorded allocation states of a virtual resource.
 ms.assetid: 5C180933-2013-4E16-A9BD-653D5426F468
 title: Msvm_ResourceAllocationSettingData class
 ms.topic: reference

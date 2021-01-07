@@ -1,5 +1,5 @@
 ---
-Description: Represents a physical computer system or virtual machine.
+description: Represents a physical computer system or virtual machine.
 ms.assetid: '1db9e169-1466-4898-ab95-e9d622fe43cb'
 title: Msvm_ComputerSystem class
 ms.topic: reference

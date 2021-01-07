@@ -1,5 +1,5 @@
 ---
-Description: The operating system sends IME window messages to the window procedure of an application when certain events occur that affect the IME windows.
+description: The operating system sends IME window messages to the window procedure of an application when certain events occur that affect the IME windows.
 ms.assetid: 7eac1ab7-d04b-4e1b-9e2c-fa9a778756cd
 title: IME Messages
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: Requests a state change.
 ms.assetid: 57d863bd-7fa2-4291-99bf-42ac4f813d59
 title: RequestStateChange method of the Msvm_ExternalEthernetPort class
 ms.topic: reference

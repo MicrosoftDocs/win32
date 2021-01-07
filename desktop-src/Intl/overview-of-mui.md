@@ -1,5 +1,5 @@
 ---
-Description: This topic provides a conceptual overview of the Multilingual User Interface (MUI) technology, the platform support it provides for enabling multilingual user experiences, and the benefits it offers to the Windows ecosystem.
+description: This topic provides a conceptual overview of the Multilingual User Interface (MUI) technology, the platform support it provides for enabling multilingual user experiences, and the benefits it offers to the Windows ecosystem.
 ms.assetid: ef828da8-61cd-43d9-a5fe-e09a1f8af5c7
 title: Overview of MUI
 ms.topic: article

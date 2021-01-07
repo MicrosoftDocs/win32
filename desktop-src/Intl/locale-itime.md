@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_ITIME
+description: LOCALE\_ITIME
 ms.assetid: 52f760c3-00df-44f1-857b-419d0dfdec19
 title: LOCALE_ITIME
 ms.topic: article

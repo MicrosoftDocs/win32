@@ -1,5 +1,5 @@
 ---
-Description: Stops the service.
+description: Stops the service.
 ms.assetid: 4f88b099-3a89-4d05-920e-265fc94599b1
 title: StopService method of the Msvm_VirtualEthernetSwitchManagementService class
 ms.topic: reference

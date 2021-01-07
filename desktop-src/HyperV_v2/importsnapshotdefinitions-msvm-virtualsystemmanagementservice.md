@@ -1,5 +1,5 @@
 ---
-Description: Searches the specified folder for any snapshot definition files associated with the specified planned computer system, and creates a new snapshot on the planned computer system for every associated definition file in this location.
+description: Searches the specified folder for any snapshot definition files associated with the specified planned computer system, and creates a new snapshot on the planned computer system for every associated definition file in this location.
 ms.assetid: d240c24b-f788-4ea9-b3bd-af1f75f4f460
 title: ImportSnapshotDefinitions method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference

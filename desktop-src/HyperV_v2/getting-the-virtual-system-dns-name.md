@@ -1,5 +1,5 @@
 ---
-Description: The following C# and Visual Basic Scripting Edition (VBScript) samples retrieve the DNS name of the virtual machine.
+description: The following C# and Visual Basic Scripting Edition (VBScript) samples retrieve the DNS name of the virtual machine.
 ms.assetid: 1E1F7E6F-5CF6-475F-8351-6A5F56B4FC8E
 title: Getting the virtual machine DNS name
 ms.topic: article

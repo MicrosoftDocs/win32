@@ -1,5 +1,5 @@
 ---
-Description: The topics in this section address the basic functionality of International Fonts.
+description: The topics in this section address the basic functionality of International Fonts.
 ms.assetid: a47303b5-f49b-4d6c-b061-9d6475530e83
 title: International Font Management
 ms.topic: article
