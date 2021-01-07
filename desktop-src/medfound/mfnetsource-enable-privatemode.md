@@ -1,5 +1,5 @@
 ---
-Description: Enables private download mode in the network source.
+description: Enables private download mode in the network source.
 ms.assetid: 679661A7-1D31-43F3-A64E-16ADCB5414B0
 title: MFNETSOURCE_ENABLE_PRIVATEMODE property (Mfidl.h)
 ms.topic: reference

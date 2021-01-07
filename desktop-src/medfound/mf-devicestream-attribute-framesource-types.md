@@ -1,5 +1,5 @@
 ---
-Description: Represents the frame source type.
+description: Represents the frame source type.
 ms.assetid: 4A2B427E-E654-48BA-8BF4-16F1B1F8D266
 title: MF_DEVICESTREAM_ATTRIBUTE_FRAMESOURCE_TYPES attribute (Mfapi.h)
 ms.topic: reference

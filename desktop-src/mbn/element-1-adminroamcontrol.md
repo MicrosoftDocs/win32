@@ -1,5 +1,5 @@
 ---
-Description: ModemDMConfigProfile\/AdminRoamControl (v4)
+description: ModemDMConfigProfile\/AdminRoamControl (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_AdminRoamControl
 MSHAttr:
 - PreferredSiteName:MSDN

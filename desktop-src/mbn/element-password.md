@@ -1,5 +1,5 @@
 ---
-Description: MBNProfileExt\/...\/Password (v4)
+description: MBNProfileExt\/...\/Password (v4)
 MS-HAID: WWAN\_profile\_v4.element\_Password
 MSHAttr:
 - PreferredSiteName:MSDN

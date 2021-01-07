@@ -1,5 +1,5 @@
 ---
-Description: Enables the capture engine to use an encoder that has field-of-use restrictions.
+description: Enables the capture engine to use an encoder that has field-of-use restrictions.
 ms.assetid: 28421875-9629-4F14-8159-2D86012F517F
 title: MF_CAPTURE_ENGINE_ENCODER_MFT_FIELDOFUSE_UNLOCK_Attribute attribute (Mfcaptureengine.h)
 ms.topic: reference

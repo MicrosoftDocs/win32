@@ -1,5 +1,5 @@
 ---
-Description: MBNProfileExt\/AdminRoamControl (v4)
+description: MBNProfileExt\/AdminRoamControl (v4)
 MS-HAID: WWAN\_profile\_v4.element\_AdminRoamControl
 MSHAttr:
 - PreferredSiteName:MSDN

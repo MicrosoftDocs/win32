@@ -1,5 +1,5 @@
 ---
-Description: ASF Attributes
+description: ASF Attributes
 ms.assetid: c1570669-6e9c-4614-af4d-2a148f12e36f
 title: ASF Attributes
 ms.topic: article

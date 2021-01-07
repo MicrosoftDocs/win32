@@ -1,5 +1,5 @@
 ---
-Description: Maximum amount of data the network source buffers, in milliseconds.
+description: Maximum amount of data the network source buffers, in milliseconds.
 ms.assetid: bd776dc2-341a-4d87-8a06-8063daf53ede
 title: MFNETSOURCE_MAXBUFFERTIMEMS property (Mfidl.h)
 ms.topic: reference

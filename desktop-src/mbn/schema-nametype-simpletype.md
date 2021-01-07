@@ -1,5 +1,5 @@
 ---
-Description: Defines a string type for the Mobile Broadband profile.
+description: Defines a string type for the Mobile Broadband profile.
 ms.assetid: a5c14c39-2731-44f0-9fd2-e78d900b66f0
 title: nameType simple type (Mobile Broadband)
 ms.topic: reference

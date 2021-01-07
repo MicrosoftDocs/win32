@@ -1,5 +1,5 @@
 ---
-Description: Contains logon credentials for a connection.
+description: Contains logon credentials for a connection.
 ms.assetid: 79c1d277-6284-4adb-a1bd-6c207b37e33e
 title: UserLogonCred (contextType) Element
 ms.topic: reference

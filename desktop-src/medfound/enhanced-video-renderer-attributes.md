@@ -1,5 +1,5 @@
 ---
-Description: EVR Attributes
+description: EVR Attributes
 ms.assetid: 33f9bb09-625f-4bbb-a884-70c6bba3700b
 title: EVR Attributes
 ms.topic: article

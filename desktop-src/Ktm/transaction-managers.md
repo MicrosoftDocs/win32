@@ -1,5 +1,5 @@
 ---
-Description: A transaction manager (TM) is an instance of a log. In KTM, the TM objects specify the log and some of the functionality of the TM. There are typically many TM objects on a particular node. Resource managers (RMs) must be associated with a specific TM.
+description: A transaction manager (TM) is an instance of a log. In KTM, the TM objects specify the log and some of the functionality of the TM. There are typically many TM objects on a particular node. Resource managers (RMs) must be associated with a specific TM.
 ms.assetid: 8d43977a-84cf-4109-b7db-f9c94a226c5d
 title: Transaction Managers
 ms.topic: article

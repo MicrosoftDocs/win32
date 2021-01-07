@@ -1,5 +1,5 @@
 ---
-Description: Handle to the video clipping window.
+description: Handle to the video clipping window.
 ms.assetid: 883bc7cf-f52f-4cb5-a942-b42b429b17a9
 title: MF_ACTIVATE_VIDEO_WINDOW attribute (Mfidl.h)
 ms.topic: reference

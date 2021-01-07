@@ -1,5 +1,5 @@
 ---
-Description: The following callback functions are for use with IP Helper.
+description: The following callback functions are for use with IP Helper.
 title: IP Helper callbacks
 ms.topic: article
 ms.date: 10/04/2019

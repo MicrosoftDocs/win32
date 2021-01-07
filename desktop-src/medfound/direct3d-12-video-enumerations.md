@@ -1,5 +1,5 @@
 ---
-Description: This section contains reference information for the Microsoft Direct3D 12 video API enumerations.
+description: This section contains reference information for the Microsoft Direct3D 12 video API enumerations.
 ms.assetid: 
 title: Direct3D 12 Video Enumerations
 ms.topic: article

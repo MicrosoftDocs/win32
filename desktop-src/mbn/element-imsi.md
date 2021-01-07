@@ -1,5 +1,5 @@
 ---
-Description: IMSI
+description: IMSI
 MS-HAID: WWAN\_profile\_v4.element\_IMSI
 MSHAttr:
 - PreferredSiteName:MSDN

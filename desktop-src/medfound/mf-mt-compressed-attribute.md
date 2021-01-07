@@ -1,5 +1,5 @@
 ---
-Description: Specifies for a media type whether the media data is compressed.
+description: Specifies for a media type whether the media data is compressed.
 ms.assetid: b44fb757-4390-4392-b1cb-37772b4ae3fb
 title: MF_MT_COMPRESSED attribute (Mfapi.h)
 ms.topic: reference

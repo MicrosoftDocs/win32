@@ -1,5 +1,5 @@
 ---
-Description: Requests latitude/longitude report events.
+description: Requests latitude/longitude report events.
 ms.assetid: c26a388b-e042-43da-a220-e3ecfcbd03a8
 title: LocationDisp.LatLongReportFactory.ListenForReports method (Locationapi.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Custom Asynchronous Result Objects
+description: Custom Asynchronous Result Objects
 ms.assetid: 78cef367-b007-46d5-bb7f-2b3f7eed9926
 title: Custom Asynchronous Result Objects
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Describes how the frames in a video media type are interlaced.
+description: Describes how the frames in a video media type are interlaced.
 ms.assetid: 19aa0147-ac49-4a2e-ac75-e967fec9ca68
 title: MF_MT_INTERLACE_MODE attribute (Mfapi.h)
 ms.topic: reference

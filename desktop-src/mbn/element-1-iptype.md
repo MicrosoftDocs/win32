@@ -1,5 +1,5 @@
 ---
-Description: ModemDMConfigProfile\/...\/IPType (v4)
+description: ModemDMConfigProfile\/...\/IPType (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_IPType
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: Extended Color Information
+description: Extended Color Information
 ms.assetid: 05ca73c6-d105-47bc-96bc-b784f669febe
 title: Extended Color Information
 ms.topic: article

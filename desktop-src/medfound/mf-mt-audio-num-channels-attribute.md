@@ -1,5 +1,5 @@
 ---
-Description: Number of audio channels in an audio media type.
+description: Number of audio channels in an audio media type.
 ms.assetid: 524283fb-d046-4f8c-a30f-4fe7ddb43174
 title: MF_MT_AUDIO_NUM_CHANNELS attribute (Mfapi.h)
 ms.topic: reference

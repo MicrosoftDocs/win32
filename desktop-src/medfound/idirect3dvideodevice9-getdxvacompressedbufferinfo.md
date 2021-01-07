@@ -1,5 +1,5 @@
 ---
-Description: Gets information about the compressed buffers needed for hardware-accelerated decoding.
+description: Gets information about the compressed buffers needed for hardware-accelerated decoding.
 ms.assetid: 5a9fb077-fd79-4faa-a0f8-b3ac987adf36
 title: IDirect3DVideoDevice9::GetDXVACompressedBufferInfo method (Dxva.h)
 ms.topic: reference

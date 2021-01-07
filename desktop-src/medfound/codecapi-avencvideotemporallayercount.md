@@ -1,5 +1,5 @@
 ---
-Description: Sets the video temporal layer count for a video encoder.
+description: Sets the video temporal layer count for a video encoder.
 ms.assetid: 36E1C86B-86D0-40CB-8F96-061FC653E9C3
 title: CODECAPI_AVEncVideoTemporalLayerCount property (Codecapi.h)
 ms.topic: reference

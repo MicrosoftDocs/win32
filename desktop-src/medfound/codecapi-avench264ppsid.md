@@ -1,5 +1,5 @@
 ---
-Description: Sets the Picture Parameter Set (PPS) identifier.
+description: Sets the Picture Parameter Set (PPS) identifier.
 ms.assetid: 624381A7-50F4-4481-8A02-3D377F0A713D
 title: CODECAPI_AVEncH264PPSID property (Codecapi.h)
 ms.topic: reference

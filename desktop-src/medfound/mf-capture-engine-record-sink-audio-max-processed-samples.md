@@ -1,5 +1,5 @@
 ---
-Description: Sets the maximum number of processed samples that can be buffered in the record sink audio path.
+description: Sets the maximum number of processed samples that can be buffered in the record sink audio path.
 ms.assetid: 216886DB-B206-4944-925A-C2106331F1CB
 title: MF_CAPTURE_ENGINE_RECORD_SINK_AUDIO_MAX_PROCESSED_SAMPLES attribute (Mfcaptureengine.h)
 ms.topic: reference

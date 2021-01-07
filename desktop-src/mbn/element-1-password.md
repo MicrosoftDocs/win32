@@ -1,5 +1,5 @@
 ---
-Description: ModemDMConfigProfile\/...\/Password (v4)
+description: ModemDMConfigProfile\/...\/Password (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_Password
 MSHAttr:
 - PreferredSiteName:MSDN

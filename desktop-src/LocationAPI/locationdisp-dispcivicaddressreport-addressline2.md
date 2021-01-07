@@ -1,5 +1,5 @@
 ---
-Description: The second line of a street address.
+description: The second line of a street address.
 ms.assetid: 9f53d16e-0b07-4dc9-9fc7-c656fa22e10c
 title: LocationDisp.DispCivicAddressReport.AddressLine2 property
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: DXVA video processing encapsulates the functions of the graphics hardware that are devoted to processing uncompressed video images. Video processing services include deinterlacing and video mixing.
+description: DXVA video processing encapsulates the functions of the graphics hardware that are devoted to processing uncompressed video images. Video processing services include deinterlacing and video mixing.
 ms.assetid: bd688f81-4b7c-4016-b0bd-e40782131f8e
 title: DXVA Video Processing
 ms.topic: article

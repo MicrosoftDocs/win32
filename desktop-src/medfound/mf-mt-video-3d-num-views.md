@@ -1,5 +1,5 @@
 ---
-Description: The number of views in a 3D video sequence.
+description: The number of views in a 3D video sequence.
 ms.assetid: 5D8224E3-94B1-4056-8424-9978D2B88B3A
 title: MF_MT_VIDEO_3D_NUM_VIEWS attribute (Mfapi.h)
 ms.topic: reference

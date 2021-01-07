@@ -1,5 +1,5 @@
 ---
-Description: Sent by a byte stream when the characteristics of the byte stream have changed.
+description: Sent by a byte stream when the characteristics of the byte stream have changed.
 ms.assetid: EC34A7A3-BF01-4F9E-BA79-131B76D4C58F
 title: MEByteStreamCharacteristicsChanged event (Mfobjects.h)
 ms.topic: reference

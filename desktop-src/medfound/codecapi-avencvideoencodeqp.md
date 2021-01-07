@@ -1,5 +1,5 @@
 ---
-Description: Specifies the quantization parameter (QP) for video encoding.
+description: Specifies the quantization parameter (QP) for video encoding.
 ms.assetid: 9E3B5E2D-3583-4C89-BC2A-4AC3C5545673
 title: CODECAPI_AVEncVideoEncodeQP property (Codecapi.h)
 ms.topic: reference

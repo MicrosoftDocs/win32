@@ -1,5 +1,5 @@
 ---
-Description: Raised by a media stream when the media type of the stream changes.
+description: Raised by a media stream when the media type of the stream changes.
 ms.assetid: 14786a9b-413e-4fb4-b267-bfd0ccd4631b
 title: MEStreamFormatChanged event (Mfobjects.h)
 ms.topic: reference

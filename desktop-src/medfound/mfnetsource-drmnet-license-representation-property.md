@@ -1,5 +1,5 @@
 ---
-Description: Stores an array of bytes that represents the DRM license associated with the byte stream.
+description: Stores an array of bytes that represents the DRM license associated with the byte stream.
 ms.assetid: 866a9706-0b0a-4675-af61-5f55a5a69014
 title: MFNETSOURCE_DRMNET_LICENSE_REPRESENTATION property (Mfidl.h)
 ms.topic: reference

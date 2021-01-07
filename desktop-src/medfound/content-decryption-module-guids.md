@@ -1,5 +1,5 @@
 ---
-Description: The following GUIDs support Content Decryption Module (CDM) implementations.
+description: The following GUIDs support Content Decryption Module (CDM) implementations.
 title: Content Decryption Module (CDM) GUIDs
 ms.topic: reference
 ms.date: 01/21/2018

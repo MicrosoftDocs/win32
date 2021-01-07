@@ -1,5 +1,5 @@
 ---
-Description: A non-fatal error occurred during streaming.
+description: A non-fatal error occurred during streaming.
 ms.assetid: 04afcca5-34d9-4c99-86bc-b37c19232ec1
 title: MENonFatalError event (Mfobjects.h)
 ms.topic: reference

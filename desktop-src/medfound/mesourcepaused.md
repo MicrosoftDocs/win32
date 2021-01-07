@@ -1,5 +1,5 @@
 ---
-Description: Raised by a media source when the IMFMediaSource::Pause method completes asynchronously.
+description: Raised by a media source when the IMFMediaSource::Pause method completes asynchronously.
 ms.assetid: cca03d60-47ae-4a11-b29d-81d749e24df9
 title: MESourcePaused event (Mfobjects.h)
 ms.topic: reference

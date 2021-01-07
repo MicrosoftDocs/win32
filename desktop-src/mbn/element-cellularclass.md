@@ -1,5 +1,5 @@
 ---
-Description: CellularClass
+description: CellularClass
 MS-HAID: WWAN\_profile\_v4.element\_CellularClass
 MSHAttr:
 - PreferredSiteName:MSDN

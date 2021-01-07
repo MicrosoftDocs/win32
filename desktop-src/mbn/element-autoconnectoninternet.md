@@ -1,5 +1,5 @@
 ---
-Description: AutoConnectOnInternet
+description: AutoConnectOnInternet
 MS-HAID: WWAN\_profile\_v4.element\_AutoConnectOnInternet
 MSHAttr:
 - PreferredSiteName:MSDN

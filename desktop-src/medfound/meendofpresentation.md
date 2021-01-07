@@ -1,5 +1,5 @@
 ---
-Description: Raised by a media source when a presentation ends. This event signals that all streams in the presentation are complete. The Media Session forwards this event to the application.
+description: Raised by a media source when a presentation ends. This event signals that all streams in the presentation are complete. The Media Session forwards this event to the application.
 ms.assetid: 259b00ae-a91b-461b-a12f-f7291ecc04ff
 title: MEEndOfPresentation event (Mfobjects.h)
 ms.topic: reference

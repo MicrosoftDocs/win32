@@ -1,5 +1,5 @@
 ---
-Description: KTM defines the following enlistment access masks to be used when opening a transaction manager (TM).
+description: KTM defines the following enlistment access masks to be used when opening a transaction manager (TM).
 ms.assetid: 8f9b9d3d-e7ea-4df2-82b1-2d4c3e0766c0
 title: Transaction Manager Access Masks (WinNT.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Configuring Codec MFTs
+description: Configuring Codec MFTs
 ms.assetid: 0de0cb2e-67bc-4db5-879a-95879f16b98d
 title: Configuring Codec MFTs
 ms.topic: article

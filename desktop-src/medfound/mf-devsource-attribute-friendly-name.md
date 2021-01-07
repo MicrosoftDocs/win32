@@ -1,5 +1,5 @@
 ---
-Description: Specifies the display name for a device.
+description: Specifies the display name for a device.
 ms.assetid: 3f6c7faf-2ecd-4510-adc2-252c3619d70f
 title: MF_DEVSOURCE_ATTRIBUTE_FRIENDLY_NAME attribute (Mfidl.h)
 ms.topic: reference

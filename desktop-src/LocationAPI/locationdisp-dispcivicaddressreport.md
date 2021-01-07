@@ -1,5 +1,5 @@
 ---
-Description: Represents a civic address report.
+description: Represents a civic address report.
 ms.assetid: 7c6e790f-0150-4ea8-9583-df633ebf035d
 title: LocationDisp.DispCivicAddressReport object
 ms.topic: reference

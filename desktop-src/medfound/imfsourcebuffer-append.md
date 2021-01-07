@@ -1,5 +1,5 @@
 ---
-Description: Appends the specified media segment to the IMFSourceBuffer.
+description: Appends the specified media segment to the IMFSourceBuffer.
 ms.assetid: 824fa23d-57d9-411a-af8a-fb65dca124b2
 title: IMFSourceBuffer::Append method
 ms.topic: reference

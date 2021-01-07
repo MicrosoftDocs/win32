@@ -1,5 +1,5 @@
 ---
-Description: Forces the encoder to code the next frame as a key frame.
+description: Forces the encoder to code the next frame as a key frame.
 ms.assetid: 1E252967-6C28-4DA3-9E64-BD276E475753
 title: CODECAPI_AVEncVideoForceKeyFrame property (Codecapi.h)
 ms.topic: reference

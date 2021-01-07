@@ -1,5 +1,5 @@
 ---
-Description: Encoding Methods
+description: Encoding Methods
 ms.assetid: 17ab5ecc-0173-4c5c-9d65-40e506ab7e07
 title: Encoding Methods (Microsoft Media Foundation)
 ms.topic: reference

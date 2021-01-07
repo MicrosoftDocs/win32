@@ -1,5 +1,5 @@
 ---
-Description: The following GUIDs define the types for the mutual exclusion object for Advanced Systems Format (ASF) streams.
+description: The following GUIDs define the types for the mutual exclusion object for Advanced Systems Format (ASF) streams.
 ms.assetid: 3db8eebd-2e26-4c77-8f66-7d08436c9e42
 title: ASF Mutual Exclusion Type GUIDs (Wmcontainer.h)
 ms.topic: reference

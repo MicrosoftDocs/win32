@@ -1,5 +1,5 @@
 ---
-Description: Specifies the SVC capabilities of an H.264 video stream.
+description: Specifies the SVC capabilities of an H.264 video stream.
 ms.assetid: B727D9D2-6126-41F8-A27A-743640FE3AE4
 title: MF_MT_H264_SVC_CAPABILITIES attribute (Mfapi.h)
 ms.topic: reference

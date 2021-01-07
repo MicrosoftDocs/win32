@@ -1,5 +1,5 @@
 ---
-Description: Manages civic address reports.
+description: Manages civic address reports.
 ms.assetid: 46c2d001-409a-4a0a-9006-1c2c9d327c13
 title: LocationDisp.CivicAddressReportFactory object
 ms.topic: reference

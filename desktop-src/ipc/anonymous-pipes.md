@@ -1,5 +1,5 @@
 ---
-Description: General information about anonymous pipes. An anonymous pipe is an unnamed, one-way pipe that typically transfers data between a parent process and a child process.
+description: General information about anonymous pipes. An anonymous pipe is an unnamed, one-way pipe that typically transfers data between a parent process and a child process.
 ms.assetid: 43c2a76e-7873-4d93-90a6-c956f06e2f3e
 title: Anonymous Pipes
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Raised by the Media Session when it has finished playing the last presentation in the playback queue.
+description: Raised by the Media Session when it has finished playing the last presentation in the playback queue.
 ms.assetid: e593e51f-c239-49e9-bba8-c6d8238eff24
 title: MESessionEnded event (Mfobjects.h)
 ms.topic: reference

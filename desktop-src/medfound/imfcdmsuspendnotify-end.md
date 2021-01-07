@@ -1,5 +1,5 @@
 ---
-Description: The actual suspend is about to occur and no more calls will be made into the Content Decryption Module (CDM).
+description: The actual suspend is about to occur and no more calls will be made into the Content Decryption Module (CDM).
 ms.assetid: 7a319fbb-9757-45da-8a8b-51dd48f08464
 title: IMFCdmSuspendNotify::End method
 ms.topic: reference

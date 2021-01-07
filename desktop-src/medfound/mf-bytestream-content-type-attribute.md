@@ -1,5 +1,5 @@
 ---
-Description: Specifies the MIME type of a byte stream.
+description: Specifies the MIME type of a byte stream.
 ms.assetid: bcf86ece-2673-4ed8-98fd-cd0e2154b4a8
 title: MF_BYTESTREAM_CONTENT_TYPE attribute (Mfobjects.h)
 ms.topic: reference

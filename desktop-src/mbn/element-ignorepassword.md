@@ -1,5 +1,5 @@
 ---
-Description: MBNProfileExt\/...\/IgnorePassword (v4)
+description: MBNProfileExt\/...\/IgnorePassword (v4)
 MS-HAID: WWAN\_profile\_v4.element\_IgnorePassword
 MSHAttr:
 - PreferredSiteName:MSDN

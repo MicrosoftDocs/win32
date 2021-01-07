@@ -1,5 +1,5 @@
 ---
-Description: List of URLs to which the network source will send logging information.
+description: List of URLs to which the network source will send logging information.
 ms.assetid: 772c5b57-273d-4289-9229-ef7a199c6473
 title: MFNETSOURCE_LOGURL property (Mfidl.h)
 ms.topic: reference

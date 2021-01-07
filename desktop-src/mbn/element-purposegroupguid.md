@@ -1,5 +1,5 @@
 ---
-Description: PurposeGroupGuid
+description: PurposeGroupGuid
 MS-HAID: WWAN\_profile\_v4.element\_PurposeGroupGuid
 MSHAttr:
 - PreferredSiteName:MSDN

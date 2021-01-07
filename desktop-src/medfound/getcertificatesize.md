@@ -1,5 +1,5 @@
 ---
-Description: Gets the size of a certificate for a display driver.
+description: Gets the size of a certificate for a display driver.
 ms.assetid: fd52e939-127a-4493-8406-31f7767921cd
 title: GetCertificateSize function
 ms.topic: reference

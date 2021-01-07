@@ -1,5 +1,5 @@
 ---
-Description: Raised by the Media Session when the IMFMediaSession::ClearTopologies method completes asynchronously.
+description: Raised by the Media Session when the IMFMediaSession::ClearTopologies method completes asynchronously.
 ms.assetid: 2017d13b-8dc2-48f9-a21e-7b826e174edf
 title: MESessionTopologiesCleared event (Mfobjects.h)
 ms.topic: reference

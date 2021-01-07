@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to detect device loss when using a video capture device.
+description: This topic describes how to detect device loss when using a video capture device.
 ms.assetid: 2bffe156-c507-437e-8f32-62aaebedd6f0
 title: Handling Video Device Loss
 ms.topic: article

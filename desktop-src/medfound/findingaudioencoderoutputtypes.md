@@ -1,5 +1,5 @@
 ---
-Description: Finding Audio Encoder Output Types
+description: Finding Audio Encoder Output Types
 ms.assetid: cd47d45b-ea47-4dec-867e-d51145d7f084
 title: Finding Audio Encoder Output Types (Microsoft Media Foundation)
 ms.topic: article

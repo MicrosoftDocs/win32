@@ -1,5 +1,5 @@
 ---
-Description: Removes the media segments defined by the specified time range from the IMFSourceBuffer.
+description: Removes the media segments defined by the specified time range from the IMFSourceBuffer.
 ms.assetid: 86536d73-18c0-4acc-81ec-72f1dfe400c5
 title: IMFSourceBuffer::Remove method
 ms.topic: reference

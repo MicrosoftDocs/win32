@@ -1,5 +1,5 @@
 ---
-Description: Sent by an asynchronous Media Foundation transform (MFT) in response to an MFT\_MESSAGE\_COMMAND\_MARKER message.
+description: Sent by an asynchronous Media Foundation transform (MFT) in response to an MFT\_MESSAGE\_COMMAND\_MARKER message.
 ms.assetid: d0c0d62d-9133-4d4b-8606-c2ae1d4c9f0a
 title: METransformMarker event (Mfobjects.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Contains flags that define the capabilities of the Media Session, based on the current presentation.
+description: Contains flags that define the capabilities of the Media Session, based on the current presentation.
 ms.assetid: a78a3f3f-4ba1-41f3-b808-43f1e4975bb9
 title: MF_EVENT_SESSIONCAPS attribute (Mfapi.h)
 ms.topic: reference

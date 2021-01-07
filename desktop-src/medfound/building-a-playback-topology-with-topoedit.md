@@ -1,5 +1,5 @@
 ---
-Description: Building a Playback Topology with TopoEdit
+description: Building a Playback Topology with TopoEdit
 ms.assetid: 4d4c4ff9-dad1-4c79-a44a-2ad20f1bbca0
 title: Building a Playback Topology with TopoEdit
 ms.topic: article

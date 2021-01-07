@@ -1,5 +1,5 @@
 ---
-Description: Is the root element that identifies a Mobile Broadband profile.
+description: Is the root element that identifies a Mobile Broadband profile.
 ms.assetid: 08302e7f-3024-439b-a2ad-a4ae9487b82b
 title: MBNProfile Element
 ms.topic: reference

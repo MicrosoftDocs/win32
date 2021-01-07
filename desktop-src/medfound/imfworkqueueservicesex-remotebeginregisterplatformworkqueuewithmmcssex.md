@@ -1,5 +1,5 @@
 ---
-Description: Remotable version of IMFWorkQueueServicesEX::BeginRegisterPlatformWorkQueueWithMMCSSEx.
+description: Remotable version of IMFWorkQueueServicesEX::BeginRegisterPlatformWorkQueueWithMMCSSEx.
 ms.assetid: 75af7ce6-9b74-4d61-b7f2-5d07538f91cf
 title: RemoteBeginRegisterPlatformWorkQueueWithMMCSSEx
 ms.topic: reference

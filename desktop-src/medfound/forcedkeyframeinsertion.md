@@ -1,5 +1,5 @@
 ---
-Description: Forced Key Frame Insertion
+description: Forced Key Frame Insertion
 ms.assetid: 844e5a01-96db-4a69-9704-f0fdbfee3957
 title: Forced Key Frame Insertion (Microsoft Media Foundation)
 ms.topic: article
