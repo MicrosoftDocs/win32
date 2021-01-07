@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CimMofDeserializer.SchemaValidationOption property"
 title: CimMofDeserializer.SchemaValidationOption property (Microsoft.Management.Infrastructure.Serialization)
 TOCTitle: CimMofDeserializer.SchemaValidationOption property (Microsoft.Management.Infrastructure.Serialization)
 ms:assetid: P:Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer.SchemaValidationOption

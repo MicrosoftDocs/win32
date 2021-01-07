@@ -1,5 +1,5 @@
 ---
-Description: Deletes an existing instance of a class from the repository.
+description: Deletes an existing instance of a class from the repository.
 ms.assetid: 4389f831-a60e-4198-a55a-79189d10a38a
 ms.tgt_platform: multiple
 title: pragma deleteinstance

@@ -1,5 +1,5 @@
 ---
-Description: Some of the socket options for Windows Sockets 2 are summarized in the following table.
+description: Some of the socket options for Windows Sockets 2 are summarized in the following table.
 ms.assetid: 6731d27c-fb7d-421a-badf-0cad6a4712ea
 title: Socket Options and IOCTLs
 ms.topic: article

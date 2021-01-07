@@ -1,5 +1,5 @@
 ---
-Description: Specifies a key to select a unique row in a scalar or table collection.
+description: Specifies a key to select a unique row in a scalar or table collection.
 ms.assetid: 3c4edae0-55be-4804-b5fe-07458b918365
 ms.tgt_platform: multiple
 title: INDEX Clause

@@ -1,5 +1,5 @@
 ---
-Description: The IWbemEventSink interface exposes the following methods.
+description: The IWbemEventSink interface exposes the following methods.
 ms.assetid: 994EEAD1-08B1-475F-AE2B-7655540420BC
 ms.tgt_platform: multiple
 title: IWbemEventSink Methods

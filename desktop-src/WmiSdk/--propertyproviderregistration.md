@@ -1,5 +1,5 @@
 ---
-Description: Registers property providers in WMI.
+description: Registers property providers in WMI.
 ms.assetid: 24792884-3fb9-4974-83d5-1c5fc1fa72a1
 ms.tgt_platform: multiple
 title: '__PropertyProviderRegistration class'

@@ -1,5 +1,5 @@
 ---
-Description: Windows Sockets 1.1 defined a number of routines that were used for IPv4 name resolution with TCP/IP networks. These are customarily called the GetXbyY functions and include the following.
+description: Windows Sockets 1.1 defined a number of routines that were used for IPv4 name resolution with TCP/IP networks. These are customarily called the GetXbyY functions and include the following.
 ms.assetid: 7a3ff7f3-d4b9-4900-8fd8-708a89c78c0a
 title: Compatible Name Resolution for TCP/IP in the Windows Sockets 1.1 SPI
 ms.topic: article

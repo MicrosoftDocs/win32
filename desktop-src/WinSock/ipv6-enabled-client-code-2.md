@@ -1,5 +1,5 @@
 ---
-Description: The following code is the IP agnostic Client.c file, which is an IPv6-enabled version of the Simplec.c file.
+description: The following code is the IP agnostic Client.c file, which is an IPv6-enabled version of the Simplec.c file.
 ms.assetid: a68439cd-0b27-447b-9766-e661c32eee09
 title: IPv6-Enabled Client Code
 ms.topic: article

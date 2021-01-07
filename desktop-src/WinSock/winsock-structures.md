@@ -1,5 +1,5 @@
 ---
-Description: The following list provides concise descriptions of each Winsock structure and typedef. For additional information on any structure or typedef, click the structure or typedef name.
+description: The following list provides concise descriptions of each Winsock structure and typedef. For additional information on any structure or typedef, click the structure or typedef name.
 ms.assetid: 96bacf00-d1ea-4ba7-adf4-9078568ac44b
 title: Winsock Structures
 ms.topic: article

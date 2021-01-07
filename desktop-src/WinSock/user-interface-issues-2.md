@@ -1,5 +1,5 @@
 ---
-Description: One of the most obvious changes from IPv4 to IPv6 is the size of the IP address. Many user interfaces provide dialog boxes that enable a user to enter an IP address, as exemplified in the following figure.
+description: One of the most obvious changes from IPv4 to IPv6 is the size of the IP address. Many user interfaces provide dialog boxes that enable a user to enter an IP address, as exemplified in the following figure.
 ms.assetid: e2d7fd41-297a-400b-ae59-5d67db2be6f6
 title: User Interface Issues for IPv6 Winsock Applications
 ms.topic: article

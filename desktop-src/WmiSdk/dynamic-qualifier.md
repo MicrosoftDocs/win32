@@ -1,5 +1,5 @@
 ---
-Description: The Dynamic qualifier indicates a class whose instances are created dynamically. The value of this qualifier must be set to TRUE.
+description: The Dynamic qualifier indicates a class whose instances are created dynamically. The value of this qualifier must be set to TRUE.
 ms.assetid: 63286687-abbf-49f0-8061-3b47fba75806
 ms.tgt_platform: multiple
 title: Dynamic Qualifier

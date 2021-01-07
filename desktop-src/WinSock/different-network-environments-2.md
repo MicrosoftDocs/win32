@@ -1,5 +1,5 @@
 ---
-Description: Several network environments affect the networked behavior of an application.
+description: Several network environments affect the networked behavior of an application.
 ms.assetid: 4a530a17-5e61-4730-95f5-233261b4ceb0
 title: Different Network Environments
 ms.topic: article

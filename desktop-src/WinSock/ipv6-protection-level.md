@@ -1,5 +1,5 @@
 ---
-Description: The IPV6\_PROTECTION\_LEVEL socket option enables developers to place access restrictions on IPv6 sockets.
+description: The IPV6\_PROTECTION\_LEVEL socket option enables developers to place access restrictions on IPv6 sockets.
 ms.assetid: bfb934b3-1e86-431f-a21c-880048d32d35
 title: IPV6_PROTECTION_LEVEL
 ms.topic: article

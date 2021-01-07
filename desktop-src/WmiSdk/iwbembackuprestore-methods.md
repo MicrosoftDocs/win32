@@ -1,5 +1,5 @@
 ---
-Description: The IWbemBackupRestore interface exposes the following methods.
+description: The IWbemBackupRestore interface exposes the following methods.
 ms.assetid: CE8AEA5F-B15A-4262-81BA-BA49E2BC9002
 ms.tgt_platform: multiple
 title: IWbemBackupRestore Methods

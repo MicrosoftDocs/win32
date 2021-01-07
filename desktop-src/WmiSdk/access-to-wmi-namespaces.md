@@ -1,5 +1,5 @@
 ---
-Description: WMI uses a standard Windows security descriptor to control access to WMI namespaces.
+description: WMI uses a standard Windows security descriptor to control access to WMI namespaces.
 ms.assetid: 5cf9886c-04fa-480e-889f-b64a6a70d053
 ms.tgt_platform: multiple
 title: Access to WMI Namespaces

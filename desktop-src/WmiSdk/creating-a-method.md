@@ -1,5 +1,5 @@
 ---
-Description: To create a WMI method, define the input and output parameters for the method.
+description: To create a WMI method, define the input and output parameters for the method.
 ms.assetid: 71cbecde-33c4-4bf1-9793-bef6d823dcac
 ms.tgt_platform: multiple
 title: Creating a WMI Method

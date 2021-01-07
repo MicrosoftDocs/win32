@@ -1,5 +1,5 @@
 ---
-Description: The SNMP Provider uses the following CIM property qualifiers when mapping MIB object definitions to CIM class definitions.
+description: The SNMP Provider uses the following CIM property qualifiers when mapping MIB object definitions to CIM class definitions.
 ms.assetid: 6e858e7e-5c46-4350-9696-c5efa1252c00
 ms.tgt_platform: multiple
 title: CIM Property Qualifiers for MIB Objects

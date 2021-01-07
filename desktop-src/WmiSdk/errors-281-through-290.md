@@ -1,5 +1,5 @@
 ---
-Description: Describes WMI SNMP provider errors 281 through 290.
+description: Describes WMI SNMP provider errors 281 through 290.
 ms.assetid: 08aef6da-9da7-43e1-b278-f5efd4307801
 ms.tgt_platform: multiple
 title: Errors 281 through 290

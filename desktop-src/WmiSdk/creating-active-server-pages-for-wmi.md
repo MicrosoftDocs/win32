@@ -1,5 +1,5 @@
 ---
-Description: Describes how to create Microsoft Active Server Pages (ASP) that display information about remote computers to computers that do not have WMI installed.
+description: Describes how to create Microsoft Active Server Pages (ASP) that display information about remote computers to computers that do not have WMI installed.
 ms.assetid: add08566-6408-43e4-9d0d-4c0851540602
 ms.tgt_platform: multiple
 title: Creating Active Server Pages for WMI

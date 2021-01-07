@@ -1,5 +1,5 @@
 ---
-Description: Describes how scripts, applications, and providers can establish connections to WMI on remote computers to obtain data or control hardware and software.
+description: Describes how scripts, applications, and providers can establish connections to WMI on remote computers to obtain data or control hardware and software.
 ms.assetid: 16b00ee3-f721-4912-9e8e-2fdbc897a813
 ms.tgt_platform: multiple
 title: Connecting to WMI on a Remote Computer

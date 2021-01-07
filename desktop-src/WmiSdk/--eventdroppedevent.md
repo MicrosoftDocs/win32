@@ -1,5 +1,5 @@
 ---
-Description: Represents the occurrence of an event that is dropped. A dropped event is an event that is not delivered to an event consumer.
+description: Represents the occurrence of an event that is dropped. A dropped event is an event that is not delivered to an event consumer.
 ms.assetid: fae267a9-e0ec-43fa-a3c3-d50345775a1d
 ms.tgt_platform: multiple
 title: '__EventDroppedEvent class'

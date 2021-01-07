@@ -1,5 +1,5 @@
 ---
-Description: A synchronous query is a query that maintains control over the process of your application for the duration of the query.
+description: A synchronous query is a query that maintains control over the process of your application for the duration of the query.
 ms.assetid: 628e9a31-7b0d-4099-bfa5-56330bb4eb6b
 ms.tgt_platform: multiple
 title: Invoking a Synchronous Query

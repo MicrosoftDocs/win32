@@ -1,5 +1,5 @@
 ---
-Description: The WSAIoctl function enables service providers to offer provider-specific feature extensions.
+description: The WSAIoctl function enables service providers to offer provider-specific feature extensions.
 ms.assetid: 8b0d86ad-2f8b-4f5e-a8a6-839cb8dba4d8
 title: Provider-Specific Extension Mechanism
 ms.topic: article

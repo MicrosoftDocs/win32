@@ -1,5 +1,5 @@
 ---
-Description: Indicates an Machine Check Architecture (MCA) PCI component error. This class is available only in 64-bit Windows systems.
+description: Indicates an Machine Check Architecture (MCA) PCI component error. This class is available only in 64-bit Windows systems.
 ms.assetid: 2b241333-2ea5-42cb-bdd3-27a10df51f3e
 title: MSMCAEvent_PCIComponentError class
 ms.topic: reference

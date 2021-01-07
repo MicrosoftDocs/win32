@@ -1,5 +1,5 @@
 ---
-Description: Serves as a parent class for all user-defined event types, also known as extrinsic events.
+description: Serves as a parent class for all user-defined event types, also known as extrinsic events.
 ms.assetid: 8fddbcd1-7393-4a3b-8a10-a8b620efc19f
 ms.tgt_platform: multiple
 title: '__ExtrinsicEvent class'

@@ -1,5 +1,5 @@
 ---
-Description: The following lists the qualifiers use to define View Provider classes.
+description: The following lists the qualifiers use to define View Provider classes.
 ms.assetid: 31a6af2d-33da-44f2-86d7-c467dd2f3e00
 ms.tgt_platform: multiple
 title: Qualifiers Specific to the View Provider

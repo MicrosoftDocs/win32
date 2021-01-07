@@ -1,5 +1,5 @@
 ---
-Description: Indicates a Machine Check Architecture (MCA) platform-specific error. This class is available only in 64-bit Windows systems.
+description: Indicates a Machine Check Architecture (MCA) platform-specific error. This class is available only in 64-bit Windows systems.
 ms.assetid: 409641d5-3451-4d26-88d1-bfd0e55db257
 title: MSMCAEvent_PlatformSpecificError class
 ms.topic: reference

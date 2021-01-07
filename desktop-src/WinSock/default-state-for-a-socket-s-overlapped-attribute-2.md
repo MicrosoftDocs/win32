@@ -1,5 +1,5 @@
 ---
-Description: The socket function created sockets with the overlapped attribute set by default in the first Wsock32.dll, the 32-bit version of Windows Sockets 1.1.
+description: The socket function created sockets with the overlapped attribute set by default in the first Wsock32.dll, the 32-bit version of Windows Sockets 1.1.
 ms.assetid: 2ebf71fd-fcb3-4f2f-bf52-14cd13af012f
 title: Default State for a Socket's Overlapped Attribute
 ms.topic: article

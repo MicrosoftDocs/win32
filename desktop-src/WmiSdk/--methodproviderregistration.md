@@ -1,5 +1,5 @@
 ---
-Description: Registers method providers with WMI.
+description: Registers method providers with WMI.
 ms.assetid: c5a8ccd3-487e-42a3-bb31-d27da9a711c4
 ms.tgt_platform: multiple
 title: '__MethodProviderRegistration class'

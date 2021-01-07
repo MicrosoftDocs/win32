@@ -1,5 +1,5 @@
 ---
-Description: Sent to a minimized (iconic) window.
+description: Sent to a minimized (iconic) window.
 ms.assetid: e4f0e638-f606-4745-888b-14a846c7fd37
 title: WM_QUERYDRAGICON message (Winuser.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The recommended way to create a new WMI base class for a WMI provider is in a Managed Object Format (MOF) file.
+description: The recommended way to create a new WMI base class for a WMI provider is in a Managed Object Format (MOF) file.
 ms.assetid: d46060aa-77c3-4f51-b4a7-2c3612f2bc5c
 ms.tgt_platform: multiple
 title: Creating a WMI Base Class

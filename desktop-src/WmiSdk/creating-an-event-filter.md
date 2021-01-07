@@ -1,5 +1,5 @@
 ---
-Description: An event filter is a WMI class that describes which events WMI delivers to a physical consumer.
+description: An event filter is a WMI class that describes which events WMI delivers to a physical consumer.
 ms.assetid: c0ce26a4-5ff2-44b4-8550-c7d8ad0ba0f0
 ms.tgt_platform: multiple
 title: Creating an Event Filter

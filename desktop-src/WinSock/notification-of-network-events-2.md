@@ -1,5 +1,5 @@
 ---
-Description: One of the most important responsibilities of a data transport service provider is that of providing indications to the client when certain network events have occurred.
+description: One of the most important responsibilities of a data transport service provider is that of providing indications to the client when certain network events have occurred.
 ms.assetid: 7b60a775-ed20-4048-bd0b-9d43d090f82c
 title: Notification of Network Events
 ms.topic: article

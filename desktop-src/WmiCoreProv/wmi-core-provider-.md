@@ -1,5 +1,5 @@
 ---
-Description: The WMI Core provider defines classes that compose the core functionality of WMI.
+description: The WMI Core provider defines classes that compose the core functionality of WMI.
 ms.assetid: 6EEA4284-CCFE-4206-9EAA-B4BCF988DE03
 title: WMI Core Provider
 ms.topic: article

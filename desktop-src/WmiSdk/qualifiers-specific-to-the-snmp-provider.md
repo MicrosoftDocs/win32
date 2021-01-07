@@ -1,5 +1,5 @@
 ---
-Description: Qualifiers contain implementation-specific context information and transport properties that define how the SNMP Provider accesses an SNMP agent. The following lists the qualifiers unique to the SNMP Provider.
+description: Qualifiers contain implementation-specific context information and transport properties that define how the SNMP Provider accesses an SNMP agent. The following lists the qualifiers unique to the SNMP Provider.
 ms.assetid: f2ac107c-e201-4670-96d1-883419787377
 ms.tgt_platform: multiple
 title: Qualifiers Specific to the SNMP Provider

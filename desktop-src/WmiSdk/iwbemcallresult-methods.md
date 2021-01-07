@@ -1,5 +1,5 @@
 ---
-Description: The IWbemCallResult interface exposes the following methods.
+description: The IWbemCallResult interface exposes the following methods.
 ms.assetid: B9AF4D80-4B0C-4DE6-B647-3E887DAF07F6
 ms.tgt_platform: multiple
 title: IWbemCallResult Methods

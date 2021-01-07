@@ -1,5 +1,5 @@
 ---
-Description: Notifies the system that the app has saved its data and is ready to be suspended.
+description: Notifies the system that the app has saved its data and is ready to be suspended.
 ms.assetid: 5C79AFBA-34E6-4C0B-95A0-731E10D8A17A
 title: ISuspendingDeferral::Complete method (Windows.ApplicationModel.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: You can view or manipulate any information made available through WMI using scripts.
+description: You can view or manipulate any information made available through WMI using scripts.
 ms.assetid: 90e71e17-c2e7-42ad-a72e-2b475e6163fe
 ms.tgt_platform: multiple
 title: Creating a WMI Script

@@ -1,5 +1,5 @@
 ---
-Description: This section provides an overview of the division of responsibility between the Ws2\_32.dll and transport service providers.
+description: This section provides an overview of the division of responsibility between the Ws2\_32.dll and transport service providers.
 ms.assetid: e1ea1e99-a2bc-4e76-91f6-e388c39dfbbb
 title: Transport Division of Responsibilities Between DLL and Service Providers
 ms.topic: article

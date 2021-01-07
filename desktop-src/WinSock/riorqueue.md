@@ -1,5 +1,5 @@
 ---
-Description: Specifies a socket descriptor used by send and receive requests with the Winsock registered I/O extensions.
+description: Specifies a socket descriptor used by send and receive requests with the Winsock registered I/O extensions.
 ms.assetid: 50E9516C-6078-4466-A593-3F29E4783740
 title: RIO_RQ (Mswsockdef.h)
 ms.topic: reference

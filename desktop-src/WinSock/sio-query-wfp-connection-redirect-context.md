@@ -1,5 +1,5 @@
 ---
-Description: Control code retrieves the redirect context for a redirect record used by a Windows Filtering Platform redirect service.
+description: Control code retrieves the redirect context for a redirect record used by a Windows Filtering Platform redirect service.
 ms.assetid: 87DB11BB-E08D-49DF-A211-133D813373E0
 title: SIO_QUERY_WFP_CONNECTION_REDIRECT_CONTEXT Control Code
 ms.topic: reference

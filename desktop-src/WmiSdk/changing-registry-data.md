@@ -1,5 +1,5 @@
 ---
-Description: 'The System Registry Provider class StdRegProv for WMI has methods that do the following:'
+description: 'The System Registry Provider class StdRegProv for WMI has methods that do the following:'
 ms.assetid: d42248b3-2f96-4771-aee9-a0db139b149e
 ms.tgt_platform: multiple
 title: Changing Registry Data

@@ -1,5 +1,5 @@
 ---
-Description: A provider is a Component Object Model (COM) object that acts as an intermediary between WMI and a managed object.
+description: A provider is a Component Object Model (COM) object that acts as an intermediary between WMI and a managed object.
 ms.assetid: a4f537ba-9081-43b4-acff-4d206de3d9d7
 ms.tgt_platform: multiple
 title: Developing a WMI Provider

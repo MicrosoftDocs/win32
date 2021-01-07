@@ -1,5 +1,5 @@
 ---
-Description: The IWbemHiPerfEnum interface exposes the following methods.
+description: The IWbemHiPerfEnum interface exposes the following methods.
 ms.assetid: 799FA7D5-A033-4667-A754-EF976303BBD9
 ms.tgt_platform: multiple
 title: IWbemHiPerfEnum Methods

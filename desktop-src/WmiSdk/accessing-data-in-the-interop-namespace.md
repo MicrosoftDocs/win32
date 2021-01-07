@@ -1,5 +1,5 @@
 ---
-Description: Association providers enable Windows Management Instrumentation (WMI) clients to traverse and retrieve profiles and associated class instances from different namespaces.
+description: Association providers enable Windows Management Instrumentation (WMI) clients to traverse and retrieve profiles and associated class instances from different namespaces.
 ms.assetid: 00c654d1-a5de-40c5-a190-99382949486a
 ms.tgt_platform: multiple
 title: Accessing Data in the Interop Namespace

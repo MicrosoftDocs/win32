@@ -1,5 +1,5 @@
 ---
-Description: This section lists the type definition for the calling party number.
+description: This section lists the type definition for the calling party number.
 ms.assetid: eb930123-28cf-4857-b7ad-f3c1786da7cc
 title: Calling Party Number
 ms.topic: article

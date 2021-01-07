@@ -1,5 +1,5 @@
 ---
-Description: Introducing overlapped I/O requires a mechanism for applications to unambiguously associate send and receive requests with their subsequent completion indications.
+description: Introducing overlapped I/O requires a mechanism for applications to unambiguously associate send and receive requests with their subsequent completion indications.
 ms.assetid: '944d87bd-388f-420d-ac7d-69c4a28f8a5c'
 title: Event Objects (Windows Sockets 2)
 ms.topic: article

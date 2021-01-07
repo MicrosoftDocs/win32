@@ -1,5 +1,5 @@
 ---
-Description: Managed Reference for WMI Windows PowerShell Command Classes
+description: Managed Reference for WMI Windows PowerShell Command Classes
 ms.assetid: 30e77956-8428-4259-9218-b93f143fd987
 ms.tgt_platform: multiple
 title: Managed Reference for WMI Windows PowerShell Command Classes

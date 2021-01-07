@@ -1,5 +1,5 @@
 ---
-Description: Serves as a parent class for classes that control the generation of events, such as timer events.
+description: Serves as a parent class for classes that control the generation of events, such as timer events.
 ms.assetid: 381b06e7-2857-4932-9f52-f1d62efa8b79
 ms.tgt_platform: multiple
 title: '__EventGenerator class'

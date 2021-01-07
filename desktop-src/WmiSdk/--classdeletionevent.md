@@ -1,5 +1,5 @@
 ---
-Description: Represents a class deletion event, which is a type of intrinsic event generated when a class is removed from the namespace.
+description: Represents a class deletion event, which is a type of intrinsic event generated when a class is removed from the namespace.
 ms.assetid: dd44c03e-4d0d-4750-942d-495893d21650
 ms.tgt_platform: multiple
 title: '__ClassDeletionEvent class'

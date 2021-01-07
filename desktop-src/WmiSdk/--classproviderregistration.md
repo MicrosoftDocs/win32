@@ -1,5 +1,5 @@
 ---
-Description: Registers class providers in WMI.
+description: Registers class providers in WMI.
 ms.assetid: 1af7d9ed-c5e4-47e4-839d-53d579ef7cea
 ms.tgt_platform: multiple
 title: '__ClassProviderRegistration class'

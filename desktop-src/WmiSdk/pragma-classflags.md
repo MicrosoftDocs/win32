@@ -1,5 +1,5 @@
 ---
-Description: Controls the way WMI creates or updates classes depending on the flags specified.
+description: Controls the way WMI creates or updates classes depending on the flags specified.
 ms.assetid: ec535662-be14-44dc-ba0f-f9d2cbf630ea
 ms.tgt_platform: multiple
 title: pragma classflags

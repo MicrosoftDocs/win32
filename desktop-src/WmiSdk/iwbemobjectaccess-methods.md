@@ -1,5 +1,5 @@
 ---
-Description: The IWbemObjectAccess interface exposes the following methods.
+description: The IWbemObjectAccess interface exposes the following methods.
 ms.assetid: F3DC2775-F704-41D8-93C5-11D80C4F31CA
 ms.tgt_platform: multiple
 title: IWbemObjectAccess Methods

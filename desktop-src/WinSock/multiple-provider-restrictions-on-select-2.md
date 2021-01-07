@@ -1,5 +1,5 @@
 ---
-Description: The select function is used to determine the status of one or more sockets in a set. For each socket, the caller can request information on read, write, or error status. A set of sockets is indicated by an FD\_SET structure.
+description: The select function is used to determine the status of one or more sockets in a set. For each socket, the caller can request information on read, write, or error status. A set of sockets is indicated by an FD\_SET structure.
 ms.assetid: 40354d8f-1e8b-48aa-888a-81a421568f23
 title: Multiple Provider Restrictions on Select
 ms.topic: article

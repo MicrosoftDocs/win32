@@ -1,5 +1,5 @@
 ---
-Description: Registers event consumer providers with WMI.
+description: Registers event consumer providers with WMI.
 ms.assetid: 31ff43dc-dc70-4ba0-866f-37445912f837
 ms.tgt_platform: multiple
 title: '__EventConsumerProviderRegistration class'
