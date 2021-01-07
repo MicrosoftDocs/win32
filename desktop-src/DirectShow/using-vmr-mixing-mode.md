@@ -1,5 +1,5 @@
 ---
-Description: Using VMR Mixing Mode
+description: Using VMR Mixing Mode
 ms.assetid: d1b238be-55a2-4db4-9bb6-c6164e2a6f05
 title: Using VMR Mixing Mode
 ms.topic: article

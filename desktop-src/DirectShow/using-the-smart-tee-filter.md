@@ -1,5 +1,5 @@
 ---
-Description: Using the Smart Tee Filter
+description: Using the Smart Tee Filter
 ms.assetid: d2828269-6841-41a8-8d45-f864c7e85857
 title: Using the Smart Tee Filter
 ms.topic: article

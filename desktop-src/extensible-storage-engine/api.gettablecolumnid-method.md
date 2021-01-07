@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.GetTableColumnid method"
 title: Api.GetTableColumnid method 
 TOCTitle: 'GetTableColumnid method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.GetTableColumnid(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.String)

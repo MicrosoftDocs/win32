@@ -1,5 +1,5 @@
 ---
-Description: Rotates the vector right by a given number of 32-bit elements.
+description: Rotates the vector right by a given number of 32-bit elements.
 ms.assetid: 7493c1fe-2c3d-4eb6-bec1-02c066a70b9f
 title: XMVectorRotateRight template (DirectXMath.h)
 ms.topic: reference

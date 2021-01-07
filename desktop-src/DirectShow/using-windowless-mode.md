@@ -1,5 +1,5 @@
 ---
-Description: Using Windowless Mode
+description: Using Windowless Mode
 ms.assetid: f53cecaa-dee7-4b02-a4ac-ffbd917f73aa
 title: Using Windowless Mode
 ms.topic: article

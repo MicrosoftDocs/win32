@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for ALPC wait for new message events. The following syntax is simplified from MOF code.
+description: This class is the event type class for ALPC wait for new message events. The following syntax is simplified from MOF code.
 ms.assetid: 7f7fa4b8-ed12-49a0-a84e-37f66af4f5f1
 title: ALPC_Wait_For_New_Message class
 ms.topic: reference

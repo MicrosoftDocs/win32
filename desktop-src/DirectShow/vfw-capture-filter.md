@@ -1,5 +1,5 @@
 ---
-Description: VFW Capture Filter
+description: VFW Capture Filter
 ms.assetid: 663b6b3b-2a50-4586-9506-600a59869abe
 title: VFW Capture Filter
 ms.topic: article

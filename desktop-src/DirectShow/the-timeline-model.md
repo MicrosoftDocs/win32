@@ -1,5 +1,5 @@
 ---
-Description: The Timeline Model
+description: The Timeline Model
 ms.assetid: 53e782a2-0fab-46b4-b029-20017d9905bd
 title: The Timeline Model
 ms.topic: article

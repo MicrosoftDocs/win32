@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetEscrowUpdate method"
 title: Api.JetEscrowUpdate method 
 TOCTitle: 'JetEscrowUpdate method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetEscrowUpdate(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_COLUMNID,System.Byte[],System.Int32,System.Byte[],System.Int32,System.Int32@,Microsoft.Isam.Esent.Interop.EscrowUpdateGrbit)

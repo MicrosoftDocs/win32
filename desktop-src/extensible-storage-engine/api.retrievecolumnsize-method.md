@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.RetrieveColumnSize method"
 title: Api.RetrieveColumnSize method 
 TOCTitle: 'RetrieveColumnSize method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnSize

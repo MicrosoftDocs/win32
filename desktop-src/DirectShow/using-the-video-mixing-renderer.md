@@ -1,5 +1,5 @@
 ---
-Description: Using the Video Mixing Renderer
+description: Using the Video Mixing Renderer
 ms.assetid: 3d0fdfac-ec7e-4e02-886b-2039c607dac7
 title: Using the Video Mixing Renderer
 ms.topic: article

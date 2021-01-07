@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetRestoreInstance method"
 title: Api.JetRestoreInstance method 
 TOCTitle: 'JetRestoreInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetRestoreInstance(Microsoft.Isam.Esent.Interop.JET_INSTANCE,System.String,System.String,Microsoft.Isam.Esent.Interop.JET_PFNSTATUS)

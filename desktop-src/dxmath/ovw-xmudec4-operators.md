@@ -1,5 +1,5 @@
 ---
-Description: The XMUDEC4 structure exposes the following operators.
+description: The XMUDEC4 structure exposes the following operators.
 ms.assetid: d199a583-cbff-4421-a330-ac4caf43d87d
 title: XMUDEC4 Operators
 ms.topic: reference

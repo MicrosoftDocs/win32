@@ -1,5 +1,5 @@
 ---
-Description: VideoInfo2 Format Type
+description: VideoInfo2 Format Type
 ms.assetid: edd2013a-f0c5-4176-ba3a-a3af719ce31d
 title: VideoInfo2 Format Type
 ms.topic: article

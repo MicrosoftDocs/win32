@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetGetObjectInfo method (JET_SESID, JET_DBID, JET_OBJECTLIST)"
 title: Api.JetGetObjectInfo method (JET_SESID, JET_DBID, JET_OBJECTLIST)
 TOCTitle: JetGetObjectInfo method (JET_SESID, JET_DBID, JET_OBJECTLIST)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetObjectInfo(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,Microsoft.Isam.Esent.Interop.JET_OBJECTLIST@)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetBeginSession method"
 title: Api.JetBeginSession method 
 TOCTitle: 'JetBeginSession method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetBeginSession(Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.JET_SESID@,System.String,System.String)

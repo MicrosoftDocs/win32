@@ -1,5 +1,5 @@
 ---
-Description: XMMATRIX describes a 4\*4 matrix aligned on a 16-byte boundary that maps to four hardware vector registers.
+description: XMMATRIX describes a 4\*4 matrix aligned on a 16-byte boundary that maps to four hardware vector registers.
 ms.assetid: 651d17f4-7af6-4f20-91ec-903c3602e4b2
 title: XMMATRIX Extensions
 ms.topic: reference

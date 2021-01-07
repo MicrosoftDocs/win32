@@ -1,5 +1,5 @@
 ---
-Description: The StringFromResource function loads a string from a resource file with the given resource identifier.
+description: The StringFromResource function loads a string from a resource file with the given resource identifier.
 ms.assetid: 26b40905-db16-46d1-8621-9aa8cb8e7232
 title: StringFromResource function (Wxutil.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: XMFLOAT4X3 describes a 4\*3 floating point matrix.
+description: XMFLOAT4X3 describes a 4\*3 floating point matrix.
 ms.assetid: 6745ae3e-a0b5-4b3d-99d3-b6b024e1bea4
 title: XMFLOAT4X3 Extensions
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: VMR System Requirements
+description: VMR System Requirements
 ms.assetid: fd50b312-73f0-4c68-a8b1-3497d958bc8f
 title: VMR System Requirements
 ms.topic: article

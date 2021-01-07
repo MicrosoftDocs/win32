@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for driver complete request return events. The following syntax is simplified from MOF code.
+description: This class is the event type class for driver complete request return events. The following syntax is simplified from MOF code.
 ms.assetid: 04505f8c-a11e-4bf7-91c0-fca1b5846d80
 title: DriverCompleteRequestReturn class
 ms.topic: reference

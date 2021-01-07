@@ -1,5 +1,5 @@
 ---
-Description: An abstract class from which all event trace classes are derived.
+description: An abstract class from which all event trace classes are derived.
 ms.assetid: 03eea902-5050-4ab2-8a72-9bff7777e234
 title: EventTrace class
 ms.topic: reference

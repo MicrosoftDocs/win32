@@ -1,5 +1,5 @@
 ---
-Description: The UpdateOverlay event is sent when the overlay surface has been moved or resized or its color key has changed.
+description: The UpdateOverlay event is sent when the overlay surface has been moved or resized or its color key has changed.
 ms.assetid: '692cbd26-b7b3-4fa3-9157-ca96a33e3a1e'
 title: UpdateOverlay (Ddraw.h)
 ms.topic: article

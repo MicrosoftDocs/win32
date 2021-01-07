@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMUINT2.
+description: Constructors exposed by XMUINT2.
 ms.assetid: 0336dddd-e87c-4511-8030-9258b8fc3ecd
 title: XMUINT2 constructors (Directxmath.h)
 ms.date: 07/02/2019

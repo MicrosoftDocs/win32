@@ -1,5 +1,5 @@
 ---
-Description: ETW defines the following convenience macros that you can use to access members of the EVENT\_DESCRIPTOR structure.
+description: ETW defines the following convenience macros that you can use to access members of the EVENT\_DESCRIPTOR structure.
 ms.assetid: ce5439cb-8bb7-4d71-8908-d4ccf6086811
 title: Event Tracing Macros
 ms.topic: article

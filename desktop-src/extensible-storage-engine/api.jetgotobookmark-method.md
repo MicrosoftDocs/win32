@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetGotoBookmark method"
 title: Api.JetGotoBookmark method 
 TOCTitle: 'JetGotoBookmark method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGotoBookmark(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.Byte[],System.Int32)

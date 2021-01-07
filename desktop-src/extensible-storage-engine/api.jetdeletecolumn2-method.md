@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetDeleteColumn2 method"
 title: Api.JetDeleteColumn2 method 
 TOCTitle: 'JetDeleteColumn2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetDeleteColumn2(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.String,Microsoft.Isam.Esent.Interop.DeleteColumnGrbit)

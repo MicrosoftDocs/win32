@@ -1,5 +1,5 @@
 ---
-Description: WM ASF Writer Filter
+description: WM ASF Writer Filter
 ms.assetid: 1b12f65f-8d77-4d38-aad9-92bb15cc0426
 title: WM ASF Writer Filter (DirectShow)
 ms.topic: article

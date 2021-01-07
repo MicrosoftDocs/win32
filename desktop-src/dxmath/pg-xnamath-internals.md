@@ -1,5 +1,5 @@
 ---
-Description: This topic describes the internal design of the DirectXMath library.
+description: This topic describes the internal design of the DirectXMath library.
 ms.assetid: 31512657-c413-9e6e-e343-1ea677a02b8c
 title: Library Internals
 ms.topic: article

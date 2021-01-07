@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetGetLock method"
 title: Api.JetGetLock method 
 TOCTitle: 'JetGetLock method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetLock(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.GetLockGrbit)

@@ -1,5 +1,5 @@
 ---
-Description: This overview describes the changes required to migrate existing code using the XNA Math library to the DirectXMath library.
+description: This overview describes the changes required to migrate existing code using the XNA Math library to the DirectXMath library.
 ms.assetid: ed8463f8-8a3d-e89e-89e2-8d72a7f45cd6
 title: Code Migration from the XNA Math Library
 ms.topic: article

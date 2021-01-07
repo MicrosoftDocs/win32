@@ -1,5 +1,5 @@
 ---
-Description: WM ASF Reader Filter
+description: WM ASF Reader Filter
 ms.assetid: '82b9f849-b9dc-439b-8ca7-9dcd992338ab'
 title: WM ASF Reader Filter (DirectShow)
 ms.topic: article

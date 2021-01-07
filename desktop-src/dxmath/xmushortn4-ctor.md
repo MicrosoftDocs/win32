@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMUSHORTN4.
+description: Constructors exposed by XMUSHORTN4.
 ms.assetid: b2babc18-b35f-428e-aeab-dc588e5c8b1d
 title: XMUSHORTN4 constructors
 ms.topic: reference

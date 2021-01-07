@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.GetTableColumns method (JET_SESID, JET_TABLEID)"
 title: Api.GetTableColumns method (JET_SESID, JET_TABLEID)
 TOCTitle: GetTableColumns method (JET_SESID, JET_TABLEID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.GetTableColumns(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)

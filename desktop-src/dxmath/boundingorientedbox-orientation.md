@@ -1,5 +1,5 @@
 ---
-Description: The orientation of the BoundingOrientedBox represented as a quaternion.
+description: The orientation of the BoundingOrientedBox represented as a quaternion.
 ms.assetid: 9f765328-4bce-470e-a591-52376b572543
 title: BoundingOrientedBox.Orientation (DirectXCollision.h)
 ms.topic: reference

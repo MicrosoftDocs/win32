@@ -1,5 +1,5 @@
 ---
-Description: The number of corners defining the BoundingFrustum.
+description: The number of corners defining the BoundingFrustum.
 ms.assetid: 0344b0ca-de22-454a-b140-33f5790fb1b9
 title: BoundingFrustum.CORNER_COUNT (DirectXCollision.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Video Port Manager
+description: Video Port Manager
 ms.assetid: d70558a5-9820-432a-b4f3-ccf7bb2a34d5
 title: Video Port Manager
 ms.topic: article

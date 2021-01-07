@@ -1,5 +1,5 @@
 ---
-Description: Windowless Sample
+description: Windowless Sample
 ms.assetid: 2141e465-996c-44e8-a081-38c3e1e0b01b
 title: Windowless Sample
 ms.topic: article

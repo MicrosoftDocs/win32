@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetDefragment method"
 title: Api.JetDefragment method 
 TOCTitle: 'JetDefragment method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetDefragment(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,System.String,System.Int32@,System.Int32@,Microsoft.Isam.Esent.Interop.DefragGrbit)

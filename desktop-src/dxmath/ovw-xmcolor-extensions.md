@@ -1,5 +1,5 @@
 ---
-Description: XMCOLOR describes a 32-bit Alpha Red Green Blue (ARGB) color vector, where each color channel is specified by 8 bits.
+description: XMCOLOR describes a 32-bit Alpha Red Green Blue (ARGB) color vector, where each color channel is specified by 8 bits.
 ms.assetid: c2bf32a8-deb8-4aec-a94e-98d437c315f6
 title: XMCOLOR extensions
 ms.topic: reference

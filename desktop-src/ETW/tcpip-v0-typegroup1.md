@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for TCP/IP events. The following syntax is simplified from MOF code.
+description: This class is the event type class for TCP/IP events. The following syntax is simplified from MOF code.
 ms.assetid: 007f0744-8b74-4c57-85bc-f6bdb20bffa7
 title: TcpIp_V0_TypeGroup1 class
 ms.topic: reference

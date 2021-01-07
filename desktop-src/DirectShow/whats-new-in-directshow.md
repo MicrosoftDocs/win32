@@ -1,5 +1,5 @@
 ---
-Description: What's New in DirectShow
+description: What's New in DirectShow
 ms.assetid: 675a34d4-7a33-4125-86af-cd4ed73ad430
 title: What's New in DirectShow
 ms.topic: article

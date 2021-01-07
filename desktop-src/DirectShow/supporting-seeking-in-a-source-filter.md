@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to implement seeking in a Microsoft DirectShow source filter. It uses the Ball Filter sample as the starting point and describes the additional code needed to support seeking in this filter.
+description: This topic describes how to implement seeking in a Microsoft DirectShow source filter. It uses the Ball Filter sample as the starting point and describes the additional code needed to support seeking in this filter.
 ms.assetid: a2b4be09-2fd6-4aac-8ad6-c3d62377c1f2
 title: Supporting Seeking in a Source Filter
 ms.topic: article

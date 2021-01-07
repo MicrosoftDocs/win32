@@ -1,5 +1,5 @@
 ---
-Description: XTL Elements
+description: XTL Elements
 ms.assetid: d7131299-ad4c-4f0a-8898-d6f53abee521
 title: XTL Elements
 ms.topic: article

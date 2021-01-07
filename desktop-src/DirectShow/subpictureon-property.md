@@ -1,5 +1,5 @@
 ---
-Description: The SubpictureOn property sets or retrieves the current subpicture state (on or off).
+description: The SubpictureOn property sets or retrieves the current subpicture state (on or off).
 ms.assetid: fa4500bc-48b4-41ed-8b88-0011a0e51c6f
 title: SubpictureOn Property
 ms.topic: reference

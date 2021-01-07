@@ -1,5 +1,5 @@
 ---
-Description: A 3D vector with X and Y components stored as 11 bit floating point number, and Z component stored as a 10 bit floating-point value.
+description: A 3D vector with X and Y components stored as 11 bit floating point number, and Z component stored as a 10 bit floating-point value.
 ms.assetid: cca32fd6-9f41-49c2-8e2a-247bbf78edca
 title: XMFLOAT3PK extensions
 ms.topic: reference

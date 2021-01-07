@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.RetrieveColumnAsString method"
 title: Api.RetrieveColumnAsString method 
 TOCTitle: 'RetrieveColumnAsString method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsString

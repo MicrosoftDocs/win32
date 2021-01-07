@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for context switch events. The following syntax is simplified from MOF code.
+description: This class is the event type class for context switch events. The following syntax is simplified from MOF code.
 ms.assetid: 3f9f84d0-18a9-493c-b104-8236b2bd8404
 title: CSwitch class
 ms.topic: reference

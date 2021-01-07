@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for system call exit events. The following syntax is simplified from MOF code.
+description: This class is the event type class for system call exit events. The following syntax is simplified from MOF code.
 ms.assetid: bb9a2770-f37b-4055-8811-59ba117adf82
 title: SysCallExit class
 ms.topic: reference

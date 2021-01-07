@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetEndExternalBackupInstance2 method"
 title: Api.JetEndExternalBackupInstance2 method 
 TOCTitle: 'JetEndExternalBackupInstance2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetEndExternalBackupInstance2(Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.EndExternalBackupGrbit)

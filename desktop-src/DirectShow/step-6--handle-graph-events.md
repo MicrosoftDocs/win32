@@ -1,5 +1,5 @@
 ---
-Description: This topic is step 6 of the tutorial Audio/Video Playback in DirectShow.
+description: This topic is step 6 of the tutorial Audio/Video Playback in DirectShow.
 ms.assetid: febfe7fa-e5f1-4b37-942a-ed9f8c7c60c1
 title: 'Step 6: Handle Graph Events'
 ms.topic: article

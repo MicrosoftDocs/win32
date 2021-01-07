@@ -1,5 +1,5 @@
 ---
-Description: Working with Effects and Transitions
+description: Working with Effects and Transitions
 ms.assetid: 00e97d02-ff43-4e1f-9806-abaeb9288058
 title: Working with Effects and Transitions
 ms.topic: article

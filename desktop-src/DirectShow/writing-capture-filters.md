@@ -1,5 +1,5 @@
 ---
-Description: Writing Capture Filters
+description: Writing Capture Filters
 ms.assetid: 7dfd1009-da09-49dc-a200-3d7a9f1c70c1
 title: Writing Capture Filters
 ms.topic: article

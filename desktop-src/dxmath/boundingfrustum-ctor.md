@@ -1,5 +1,5 @@
 ---
-Description: Creates an instance of BoundingFrustum.
+description: Creates an instance of BoundingFrustum.
 ms.assetid: 678a06c5-1d6d-422d-83e0-f6eec18fe50d
 title: BoundingFrustum constructors
 ms.topic: reference

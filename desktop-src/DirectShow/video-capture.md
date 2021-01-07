@@ -1,5 +1,5 @@
 ---
-Description: Video Capture
+description: Video Capture
 ms.assetid: '92051a84-5011-42ed-be68-e8841552ca1b'
 title: Video Capture (DirectShow)
 ms.topic: article

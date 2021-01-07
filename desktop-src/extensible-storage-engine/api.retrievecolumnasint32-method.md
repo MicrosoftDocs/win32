@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.RetrieveColumnAsInt32 method"
 title: Api.RetrieveColumnAsInt32 method 
 TOCTitle: 'RetrieveColumnAsInt32 method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsInt32

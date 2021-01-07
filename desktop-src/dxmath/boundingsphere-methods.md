@@ -1,5 +1,5 @@
 ---
-Description: BoundingSphere Methods
+description: BoundingSphere Methods
 ms.assetid: 902e69c1-4006-4d36-a14c-4b0b0cae8494
 title: BoundingSphere Methods
 ms.topic: reference

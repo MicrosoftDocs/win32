@@ -1,5 +1,5 @@
 ---
-Description: Use the following constants to identify the NT Kernel Logger session.
+description: Use the following constants to identify the NT Kernel Logger session.
 ms.assetid: f64f05c1-b904-4847-8502-4abb9cf4d37f
 title: NT Kernel Logger Constants
 ms.topic: article

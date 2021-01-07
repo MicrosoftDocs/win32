@@ -1,5 +1,5 @@
 ---
-Description: System Reference Clock
+description: System Reference Clock
 ms.assetid: 0247dcb9-64ee-4562-944a-44bcfae80f2d
 title: System Reference Clock
 ms.topic: article

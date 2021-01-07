@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.JetMove method"
 title: Api.JetMove method 
 TOCTitle: 'JetMove method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.JetMove

@@ -1,5 +1,5 @@
 ---
-Description: VMR vs.
+description: VMR vs.
 ms.assetid: 45b3f964-6ec7-48b8-a66e-3c9883e6d780
 title: VMR vs. Previous DirectShow Renderers
 ms.topic: article

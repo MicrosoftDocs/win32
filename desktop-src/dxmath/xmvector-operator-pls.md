@@ -1,5 +1,5 @@
 ---
-Description: Addition operators.
+description: Addition operators.
 ms.assetid: 60489ebb-2809-42ff-9bcc-9b802dd810f0
 title: operator + operators
 ms.topic: reference

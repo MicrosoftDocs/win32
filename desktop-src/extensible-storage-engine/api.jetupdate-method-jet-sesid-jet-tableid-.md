@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetUpdate method (JET_SESID, JET_TABLEID)"
 title: Api.JetUpdate method (JET_SESID, JET_TABLEID)
 TOCTitle: JetUpdate method (JET_SESID, JET_TABLEID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetUpdate(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)

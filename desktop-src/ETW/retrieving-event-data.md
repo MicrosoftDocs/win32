@@ -1,5 +1,5 @@
 ---
-Description: To consume event specific data, the consumer must know the format of the event data.
+description: To consume event specific data, the consumer must know the format of the event data.
 ms.assetid: d783ff64-73c5-4ace-a866-38a42db7c8b6
 title: Retrieving Event Data
 ms.topic: article
