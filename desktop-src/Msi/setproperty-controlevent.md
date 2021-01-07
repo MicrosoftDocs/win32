@@ -1,5 +1,5 @@
 ---
-Description: 'The syntax for the SetProperty event is different than for other ControlEvents In place of the name of the event one puts the property in square brackets: \[property\_name\].'
+description: 'The syntax for the SetProperty event is different than for other ControlEvents In place of the name of the event one puts the property in square brackets: \[property\_name\].'
 ms.assetid: a8e80d14-8d62-4398-9e53-9a0119a62d70
 title: SetProperty ControlEvent
 ms.topic: article

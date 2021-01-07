@@ -1,5 +1,5 @@
 ---
-Description: This control enables a user to change the selection state of features listed in the Feature table.
+description: This control enables a user to change the selection state of features listed in the Feature table.
 ms.assetid: 0daf5b44-ba07-47f1-95d9-28c59f7cf985
 title: SelectionTree Control
 ms.topic: article

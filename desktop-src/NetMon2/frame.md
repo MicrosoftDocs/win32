@@ -1,5 +1,5 @@
 ---
-Description: An actual frame from the driver.
+description: An actual frame from the driver.
 ms.assetid: '867082c1-196a-4580-ba24-187b0752f6f8'
 title: FRAME structure (Netmon.h)
 ms.topic: reference

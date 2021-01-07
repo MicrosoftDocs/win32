@@ -1,5 +1,5 @@
 ---
-Description: The CCHeapReAlloc function reallocates memory allocated by the CCHeapAlloc function.
+description: The CCHeapReAlloc function reallocates memory allocated by the CCHeapAlloc function.
 ms.assetid: 82365ce2-3980-44ff-be0f-062a65f676fc
 title: CCHeapReAlloc function (Netmon.h)
 ms.topic: reference

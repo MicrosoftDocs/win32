@@ -1,5 +1,5 @@
 ---
-Description: The RANGE structure defines a range of valid property values.
+description: The RANGE structure defines a range of valid property values.
 ms.assetid: 7bd14410-f5c1-487b-8776-405567991e5a
 title: RANGE structure (Netmon.h)
 ms.topic: reference

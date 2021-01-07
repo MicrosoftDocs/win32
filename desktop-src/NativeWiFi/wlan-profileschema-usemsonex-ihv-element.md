@@ -1,5 +1,5 @@
 ---
-Description: Specifies the origin of 802.1X security settings used by an IHV security component.
+description: Specifies the origin of 802.1X security settings used by an IHV security component.
 ms.assetid: 9c216319-d962-4c68-89a3-116eff3f4376
 title: useMSOneX (IHV) Element
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the method of transmission used for EAPOL-Start messages.
+description: Specifies the method of transmission used for EAPOL-Start messages.
 ms.assetid: 8d49d19a-8122-4191-bb46-92a2016bcfee
 title: supplicantMode (OneX) Element
 ms.topic: reference

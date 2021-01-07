@@ -1,5 +1,5 @@
 ---
-Description: Glossary of Network Monitor terms that begin with the letter S.
+description: Glossary of Network Monitor terms that begin with the letter S.
 ROBOTS: NOINDEX, NOFOLLOW
 title: S (Network Monitor)
 ms.topic: article

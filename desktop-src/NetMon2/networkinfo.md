@@ -1,5 +1,5 @@
 ---
-Description: The NETWORKINFO structure describes a NIC.
+description: The NETWORKINFO structure describes a NIC.
 ms.assetid: 40169409-7de5-44d1-8dff-dfa9f647edc9
 title: NETWORKINFO structure (Netmon.h)
 ms.topic: reference

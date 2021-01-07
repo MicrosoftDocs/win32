@@ -1,5 +1,5 @@
 ---
-Description: The UIText table contains the localized versions of some of the strings used in the user interface. These strings are not part of any other table. The UIText table is for strings that have no logical place in any other table.
+description: The UIText table contains the localized versions of some of the strings used in the user interface. These strings are not part of any other table. The UIText table is for strings that have no logical place in any other table.
 ms.assetid: 2965e3a8-2cbf-4445-963b-ec2040692106
 title: UIText Table
 ms.topic: article

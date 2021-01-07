@@ -1,5 +1,5 @@
 ---
-Description: Contains a network key or passphrase.
+description: Contains a network key or passphrase.
 ms.assetid: d2ed407e-5eaa-477b-8c4d-a47795048e0b
 title: keyMaterial (sharedKey) Element
 ms.topic: reference

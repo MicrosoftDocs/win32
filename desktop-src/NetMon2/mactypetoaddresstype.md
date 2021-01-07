@@ -1,5 +1,5 @@
 ---
-Description: The MacTypeToAddressType function converts a given MAC type to an address type.
+description: The MacTypeToAddressType function converts a given MAC type to an address type.
 ms.assetid: 7ede39a8-9a71-4c7a-8d2d-84a4ea2173bb
 title: MacTypeToAddressType function (Netmon.h)
 ms.topic: reference

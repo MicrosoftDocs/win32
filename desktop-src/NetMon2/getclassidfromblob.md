@@ -1,5 +1,5 @@
 ---
-Description: The GetClassIDFromBlob function retrieves a named class identifier value from a BLOB.
+description: The GetClassIDFromBlob function retrieves a named class identifier value from a BLOB.
 ms.assetid: fef29a42-ccd3-4655-958c-d150e5bcd0d7
 title: GetClassIDFromBlob function (Netmon.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The GetFrameNumber function returns the number of a frame.
+description: The GetFrameNumber function returns the number of a frame.
 ms.assetid: 97d343a3-2a1e-47d7-bfc2-b63f8d84b29d
 title: GetFrameNumber function (Netmon.h)
 ms.topic: reference

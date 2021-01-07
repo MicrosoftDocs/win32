@@ -1,5 +1,5 @@
 ---
-Description: A custom user interface can be embedded within the Windows Installer package.
+description: A custom user interface can be embedded within the Windows Installer package.
 ms.assetid: d037cd8d-9c88-4851-a9da-b2179f53cee6
 title: Using an Embedded UI
 ms.topic: article

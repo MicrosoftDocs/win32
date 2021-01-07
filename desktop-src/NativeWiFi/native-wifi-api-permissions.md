@@ -1,5 +1,5 @@
 ---
-Description: Native Wifi API Permissions
+description: Native Wifi API Permissions
 ms.assetid: cfea9f7d-a069-497b-8138-b3949002fa5d
 title: Native Wifi API Permissions
 ms.topic: article

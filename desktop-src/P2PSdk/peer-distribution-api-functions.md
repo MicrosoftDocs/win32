@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Peer Distribution service supports functions for both consumer role and publisher role scenarios.
+description: The Microsoft Peer Distribution service supports functions for both consumer role and publisher role scenarios.
 ms.assetid: 3f5af891-4f5d-4523-8fe6-47fc6ff13b35
 title: Peer Distribution API Functions
 ms.topic: article

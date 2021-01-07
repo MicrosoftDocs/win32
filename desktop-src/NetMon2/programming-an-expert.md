@@ -1,5 +1,5 @@
 ---
-Description: The Network Monitor SDK includes the functions and sample code you need to build experts. However, you can also use existing tools, including a dialog editor.
+description: The Network Monitor SDK includes the functions and sample code you need to build experts. However, you can also use existing tools, including a dialog editor.
 ms.assetid: 6a3834b7-753f-42cc-986f-3d7e8bf79fd9
 title: Programming an Expert
 ms.topic: article

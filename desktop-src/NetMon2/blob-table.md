@@ -1,5 +1,5 @@
 ---
-Description: Contains an array of BLOBs.
+description: Contains an array of BLOBs.
 ms.assetid: e87f493b-f160-4316-b369-75d20c735213
 title: BLOB_TABLE structure (Netmon.h)
 ms.topic: reference

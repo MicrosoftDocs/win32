@@ -1,5 +1,5 @@
 ---
-Description: This is the Mode property of the Session object. This property is a value representing the designated mode flag for the current install session. Most of the mode flags are read-only externally, but a few specified flags may be set as well.
+description: This is the Mode property of the Session object. This property is a value representing the designated mode flag for the current install session. Most of the mode flags are read-only externally, but a few specified flags may be set as well.
 ms.assetid: 9aca413d-d653-4ec1-a39b-af956f6c95e7
 title: Session.Mode property
 ms.topic: reference

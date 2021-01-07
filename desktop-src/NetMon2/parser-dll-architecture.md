@@ -1,5 +1,5 @@
 ---
-Description: The architecture of the parser DLL must provide the features shown in the following illustration.
+description: The architecture of the parser DLL must provide the features shown in the following illustration.
 ms.assetid: 2da5d4bc-a219-47b5-8522-1237f7bcac16
 title: Parser DLL Architecture
 ms.topic: article

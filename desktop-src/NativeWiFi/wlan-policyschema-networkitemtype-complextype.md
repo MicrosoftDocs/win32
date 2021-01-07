@@ -1,5 +1,5 @@
 ---
-Description: Specifies the name and type of a wireless network.
+description: Specifies the name and type of a wireless network.
 ms.assetid: 839afae0-b8e1-489f-8811-19a82c173627
 title: networkItemType Complex Type
 ms.topic: reference

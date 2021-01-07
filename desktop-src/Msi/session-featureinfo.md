@@ -1,5 +1,5 @@
 ---
-Description: The FeatureInfo method of the Session object returns a FeatureInfo object containing descriptive information for the specified feature.
+description: The FeatureInfo method of the Session object returns a FeatureInfo object containing descriptive information for the specified feature.
 ms.assetid: f5391fd4-984e-44cc-8b6c-fd97834e0674
 title: Session.FeatureInfo method
 ms.topic: reference

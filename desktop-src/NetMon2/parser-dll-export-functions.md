@@ -1,5 +1,5 @@
 ---
-Description: The functions, listed in the following table, are entry points for parser DLLs. The functions are the entry points for calls from the operating system and Network Monitor.
+description: The functions, listed in the following table, are entry points for parser DLLs. The functions are the entry points for calls from the operating system and Network Monitor.
 ms.assetid: 67811ddb-1961-4306-a62f-b9fd2d2d2b55
 title: Parser DLL Export Functions
 ms.topic: article

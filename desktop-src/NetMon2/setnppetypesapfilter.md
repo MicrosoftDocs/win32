@@ -1,5 +1,5 @@
 ---
-Description: Sets the BLOB Etype/Sap filter.
+description: Sets the BLOB Etype/Sap filter.
 ms.assetid: cd659c93-3415-4737-b848-936e80318544
 title: SetNPPEtypeSapFilter function (Netmon.h)
 ms.topic: reference

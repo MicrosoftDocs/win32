@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the NPP status.
+description: Retrieves the NPP status.
 ms.assetid: 48682997-f641-4ae5-b5ad-64fd84f07ae3
 title: IESP::QueryStatus method (Netmon.h)
 ms.topic: reference

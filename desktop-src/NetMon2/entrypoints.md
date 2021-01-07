@@ -1,5 +1,5 @@
 ---
-Description: The ENTRYPOINTS structure defines the entry points to the export functions that Network Monitor uses to operate the parser.
+description: The ENTRYPOINTS structure defines the entry points to the export functions that Network Monitor uses to operate the parser.
 ms.assetid: e2ac118d-e04b-489f-877f-84cc9888f8af
 title: ENTRYPOINTS structure (Netmon.h)
 ms.topic: reference

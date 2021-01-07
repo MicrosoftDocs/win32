@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the UILevel property to the level of the user interface.
+description: The installer sets the UILevel property to the level of the user interface.
 ms.assetid: '9fc58026-f140-4218-b44f-50fc6b0ef3e9'
 title: UILevel property
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether machines use the built-in automatic configuration service to manage connections to wired networks that require layer 2 authentication (such as 802.1X).
+description: Specifies whether machines use the built-in automatic configuration service to manage connections to wired networks that require layer 2 authentication (such as 802.1X).
 ms.assetid: c7a0f6bc-4d42-4d95-8483-2c480f4d8db9
 title: enableAutoConfig (globalFlags) Element (LAN_policy)
 ms.topic: reference

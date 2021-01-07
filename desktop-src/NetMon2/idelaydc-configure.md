@@ -1,5 +1,5 @@
 ---
-Description: The Configure method submits configuration information used for a capture.
+description: The Configure method submits configuration information used for a capture.
 ms.assetid: 6418c465-c339-44b6-84eb-36c7b89231f8
 title: IDelaydCConfigure method (Netmon.h)
 ms.topic: reference

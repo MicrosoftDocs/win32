@@ -1,5 +1,5 @@
 ---
-Description: The Native Wifi interface defines and uses the following structures.
+description: The Native Wifi interface defines and uses the following structures.
 ms.assetid: b94ff899-2350-4f8b-b096-9d1c73e2b492
 title: Native Wifi structures
 ms.topic: article

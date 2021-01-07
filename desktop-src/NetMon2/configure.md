@@ -1,5 +1,5 @@
 ---
-Description: Configures the expert within the expert DLL.
+description: Configures the expert within the expert DLL.
 ms.assetid: 3906569d-9ad4-4c03-9637-f4a57697b227
 title: Configure callback function (Netmon.h)
 ms.topic: reference

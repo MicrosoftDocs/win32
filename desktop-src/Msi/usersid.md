@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the value of the UserSID property to the string representation of the security identifier (SID) of the user running the installation. For more information, see Authorization Structures.
+description: The installer sets the value of the UserSID property to the string representation of the security identifier (SID) of the user running the installation. For more information, see Authorization Structures.
 ms.assetid: '94524636-c7f2-4de2-b35e-644c0c171193'
 title: UserSID property
 ms.topic: article

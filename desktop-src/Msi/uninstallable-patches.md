@@ -1,5 +1,5 @@
 ---
-Description: Whether a patch can be uninstalled depends upon how the patch was authored, the version of Windows Installer used to install the patch, and the changes made by the patch to the application.
+description: Whether a patch can be uninstalled depends upon how the patch was authored, the version of Windows Installer used to install the patch, and the changes made by the patch to the application.
 ms.assetid: 95a5365c-e2ae-4e35-9aeb-67d04e67c7df
 title: Uninstallable Patches
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Finds the next frame in the current capture context that matches the filter.
+description: Finds the next frame in the current capture context that matches the filter.
 ms.assetid: cc99b4a0-b6b0-43b4-8121-0e402d024009
 title: FindNextFrame function (Netmon.h)
 ms.topic: reference

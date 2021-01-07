@@ -1,5 +1,5 @@
 ---
-Description: Contains a wired LAN policy.
+description: Contains a wired LAN policy.
 ms.assetid: c06bdbc4-4199-4eec-a22f-684745912970
 title: LANPolicy Element
 ms.topic: reference

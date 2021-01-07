@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Distributed Routing Table Return Values"
 ms.assetid: 7f5f925a-b3ce-4829-b9a4-cfc68ec6b50e
 title: Distributed Routing Table Return Values (Drt.h)
 ms.topic: reference

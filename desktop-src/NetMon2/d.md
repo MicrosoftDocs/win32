@@ -1,5 +1,5 @@
 ---
-Description: Glossary of Network Monitor terms that begin with the letter D.
+description: Glossary of Network Monitor terms that begin with the letter D.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 04cc5c5d-7049-43ca-ad06-4080f5fe68cd
 title: D (Network Monitor)

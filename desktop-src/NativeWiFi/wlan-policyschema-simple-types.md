@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WLAN_policy Schema Simple Types"
 ms.assetid: d964a84c-a2a1-4584-8f49-05bb271466a6
 title: WLAN_policy Schema Simple Types
 ms.topic: article

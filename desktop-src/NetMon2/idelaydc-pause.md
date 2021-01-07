@@ -1,5 +1,5 @@
 ---
-Description: The Pause method pauses the current capture.
+description: The Pause method pauses the current capture.
 ms.assetid: 9d5e11d1-8c45-4cf5-9fea-10c9e7a6fe86
 title: IDelaydC::Pause method (Netmon.h)
 ms.topic: reference

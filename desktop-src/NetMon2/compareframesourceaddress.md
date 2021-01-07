@@ -1,5 +1,5 @@
 ---
-Description: The CompareFrameSourceAddress function compares an address to the source address of a frame.
+description: The CompareFrameSourceAddress function compares an address to the source address of a frame.
 ms.assetid: 7221c0cc-d6c1-4ec9-bf11-3ba1fefb35da
 title: CompareFrameSourceAddress function (Netmon.h)
 ms.topic: reference

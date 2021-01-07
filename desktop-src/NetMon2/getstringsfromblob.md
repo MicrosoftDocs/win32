@@ -1,5 +1,5 @@
 ---
-Description: Uses sequential calls to retrieve all of the strings within specified ranges.
+description: Uses sequential calls to retrieve all of the strings within specified ranges.
 ms.assetid: 4e819975-84a5-4b73-9a19-792d3607da9c
 title: GetStringsFromBlob function (Netmon.h)
 ms.topic: reference

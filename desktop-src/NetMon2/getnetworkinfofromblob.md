@@ -1,5 +1,5 @@
 ---
-Description: The GetNetworkInfoFromBlob function retrieves network information from a given BLOB.
+description: The GetNetworkInfoFromBlob function retrieves network information from a given BLOB.
 ms.assetid: 217c33f4-e548-4072-9edd-ded61e6cd743
 title: GetNetworkInfoFromBlob function (Netmon.h)
 ms.topic: reference

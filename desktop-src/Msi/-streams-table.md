@@ -1,5 +1,5 @@
 ---
-Description: The \_Streams table lists embedded OLE data streams. This is a temporary table, created only when referenced by a SQL statement.
+description: The \_Streams table lists embedded OLE data streams. This is a temporary table, created only when referenced by a SQL statement.
 ms.assetid: 1e30472d-6ba5-410a-a81b-07ed225dcb69
 title: '_Streams Table'
 ms.topic: article

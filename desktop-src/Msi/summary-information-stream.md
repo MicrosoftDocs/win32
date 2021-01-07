@@ -1,5 +1,5 @@
 ---
-Description: The material in this section is intended for developers who are writing their own setup programs who want to learn more about Windows Installer database tables. For general information, see About Windows Installer.
+description: The material in this section is intended for developers who are writing their own setup programs who want to learn more about Windows Installer database tables. For general information, see About Windows Installer.
 ms.assetid: 'c4bedc0e-cd1a-4cdc-8dd1-4a774aaf533e'
 title: Summary Information Stream
 ms.topic: article

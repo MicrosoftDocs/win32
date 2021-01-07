@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Peer Distribution service supports the following enumerations.
+description: The Microsoft Peer Distribution service supports the following enumerations.
 ms.assetid: 6d63d1d9-18e9-457a-a1b5-930d85cd26e3
 title: Peer Distribution API Enumerations
 ms.topic: article

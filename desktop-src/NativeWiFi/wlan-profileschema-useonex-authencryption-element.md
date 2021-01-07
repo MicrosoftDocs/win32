@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether 802.1X authentication is used.
+description: Indicates whether 802.1X authentication is used.
 ms.assetid: dbddaf5a-7574-4282-ab4d-f6f697ed94ab
 title: useOneX (authEncryption) Element
 ms.topic: reference

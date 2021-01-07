@@ -1,5 +1,5 @@
 ---
-Description: The following examples use the SetStringInBlob function to create special BLOB entries.
+description: The following examples use the SetStringInBlob function to create special BLOB entries.
 ms.assetid: 4a921b0d-9934-48e2-8837-be0bd7b7fa7a
 title: Special BLOB Entries
 ms.topic: article

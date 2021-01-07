@@ -1,5 +1,5 @@
 ---
-Description: Network Monitor 2.1 is available as a separate install on the Microsoft Windows Systems Management Server (SMS) 2003 or the Windows Server 2003 media.Note  Currently, Network Monitor 2.1 is not available as part of the Windows SDK; nor is it available in Windows Vista. .
+description: Network Monitor 2.1 is available as a separate install on the Microsoft Windows Systems Management Server (SMS) 2003 or the Windows Server 2003 media.Note  Currently, Network Monitor 2.1 is not available as part of the Windows SDK; nor is it available in Windows Vista. .
 ms.assetid: c349fa6d-74f1-475d-b8c7-3ec574478afc
 title: Obtaining Network Monitor 2.1
 ms.topic: article

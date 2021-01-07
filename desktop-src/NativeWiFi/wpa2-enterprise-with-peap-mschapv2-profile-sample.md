@@ -1,5 +1,5 @@
 ---
-Description: Uses Protected Extensible Authentication Protocol with Microsoft Challenge Handshake Authentication Protocol version 2 (PEAP-MSCHAPv2) with UserName/Password to authenticate to the network.
+description: Uses Protected Extensible Authentication Protocol with Microsoft Challenge Handshake Authentication Protocol version 2 (PEAP-MSCHAPv2) with UserName/Password to authenticate to the network.
 ms.assetid: fcbc74a6-1990-45a0-af2e-1c343a84497a
 title: WPA2-Enterprise with PEAP-MSCHAPv2 Profile Sample
 ms.topic: article

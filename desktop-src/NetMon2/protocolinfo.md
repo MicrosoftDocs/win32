@@ -1,5 +1,5 @@
 ---
-Description: The PROTOCOLINFO structure describes a protocol.
+description: The PROTOCOLINFO structure describes a protocol.
 ms.assetid: '7f936c93-a942-4591-9abc-59872df0964e'
 title: PROTOCOLINFO structure (Netmon.h)
 ms.topic: reference

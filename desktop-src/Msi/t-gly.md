@@ -1,5 +1,5 @@
 ---
-Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ms.assetid: 06fd0284-5af9-409a-8748-c0b40e0fa317
 title: T (Windows Installer)
 ms.topic: article

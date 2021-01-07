@@ -1,5 +1,5 @@
 ---
-Description: 'The Grouping API uses the following enumerations:'
+description: 'The Grouping API uses the following enumerations:'
 ms.assetid: 7f7e926c-e8dc-48c0-b5b9-0dc98686a174
 title: Grouping API Enumerations
 ms.topic: article

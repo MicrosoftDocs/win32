@@ -1,5 +1,5 @@
 ---
-Description: The PF\_FOLLOWSET structure defines the protocols that may precede or follow a protocol.
+description: The PF\_FOLLOWSET structure defines the protocols that may precede or follow a protocol.
 ms.assetid: ef444af9-edae-4547-9548-8a682c279f08
 title: PF_FOLLOWSET structure (Netmon.h)
 ms.topic: reference

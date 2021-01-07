@@ -1,5 +1,5 @@
 ---
-Description: The IStats interface provides the methods you use to connect an NPP to the network, capture network traffic, retrieve statistics, and disconnect the NPP from the network. This interface generates statistics without frames.
+description: The IStats interface provides the methods you use to connect an NPP to the network, capture network traffic, retrieve statistics, and disconnect the NPP from the network. This interface generates statistics without frames.
 ms.assetid: 57cfcdd6-f16c-4a1c-b2ba-ce98f0576862
 title: IStats interface (Netmon.h)
 ms.topic: reference

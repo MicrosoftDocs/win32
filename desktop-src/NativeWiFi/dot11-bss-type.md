@@ -1,5 +1,5 @@
 ---
-Description: Defines a basic service set (BSS) network type.
+description: Defines a basic service set (BSS) network type.
 ms.assetid: 13d57339-655e-4978-974e-e7b12a83d18a
 title: DOT11_BSS_TYPE enumeration (Wlantypes.h)
 ms.topic: reference

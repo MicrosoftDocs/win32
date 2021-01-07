@@ -1,5 +1,5 @@
 ---
-Description: The Resume method restarts a paused capture.
+description: The Resume method restarts a paused capture.
 ms.assetid: 047ea5f8-de3d-40db-ada3-fc0ef4deccef
 title: IESP::Resume method (Netmon.h)
 ms.topic: reference

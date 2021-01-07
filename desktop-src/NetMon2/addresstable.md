@@ -1,5 +1,5 @@
 ---
-Description: The ADDRESSTABLE structure contains a table of address pairs.
+description: The ADDRESSTABLE structure contains a table of address pairs.
 ms.assetid: 84577b6c-9d43-4e53-9f8d-33685329b11d
 title: ADDRESSTABLE structure (Netmon.h)
 ms.topic: reference

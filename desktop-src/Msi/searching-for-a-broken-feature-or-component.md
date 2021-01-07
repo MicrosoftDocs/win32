@@ -1,5 +1,5 @@
 ---
-Description: The installer can increase application resiliency by automatically reinstalling damaged components.
+description: The installer can increase application resiliency by automatically reinstalling damaged components.
 ms.assetid: aa565e34-f89d-4d26-945d-67b439586523
 title: Searching for a Broken Feature or Component
 ms.topic: article

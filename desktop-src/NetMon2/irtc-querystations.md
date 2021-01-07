@@ -1,5 +1,5 @@
 ---
-Description: Provides a list of all computers currently using Network Monitor to capture network data.
+description: Provides a list of all computers currently using Network Monitor to capture network data.
 ms.assetid: 57e7b8e1-99b8-4194-b6dc-401235be4ef4
 title: IRTC::QueryStations method (Netmon.h)
 ms.topic: reference

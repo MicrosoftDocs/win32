@@ -1,5 +1,5 @@
 ---
-Description: The lists and tables in this section show the output of the generic formatter. Be aware that the generic formatter uses the DataType and DataQualifier members of the PROPERTYINFO structure to determine how to format the displayed data.
+description: The lists and tables in this section show the output of the generic formatter. Be aware that the generic formatter uses the DataType and DataQualifier members of the PROPERTYINFO structure to determine how to format the displayed data.
 ms.assetid: cf3dc6cd-7b24-464a-9d2b-5e35c4e8825e
 title: Generic Formatter Output
 ms.topic: article

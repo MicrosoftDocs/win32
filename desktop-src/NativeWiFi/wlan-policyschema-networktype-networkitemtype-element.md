@@ -1,5 +1,5 @@
 ---
-Description: Specifies a network type.
+description: Specifies a network type.
 ms.assetid: fe3044ab-6e93-48f8-b8cb-fdf984987232
 title: networkType (networkItemType) Element
 ms.topic: reference

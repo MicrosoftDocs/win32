@@ -1,5 +1,5 @@
 ---
-Description: The MCSVC method calls the OnStatus method to notify the monitor that an NPP status event exists. This method must be implemented by the monitor.
+description: The MCSVC method calls the OnStatus method to notify the monitor that an NPP status event exists. This method must be implemented by the monitor.
 ms.assetid: 771852b1-77d8-4d7d-b3fb-03eb3ea593b8
 title: IMonitor::OnStatus method (Netmon.h)
 ms.topic: reference

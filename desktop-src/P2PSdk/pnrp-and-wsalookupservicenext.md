@@ -1,5 +1,5 @@
 ---
-Description: PNRP uses the WSALookupServiceNext function to match queries specified in a previous call to WSALookupServiceBegin.
+description: PNRP uses the WSALookupServiceNext function to match queries specified in a previous call to WSALookupServiceBegin.
 ms.assetid: b3e1abf4-ff59-481d-b96e-f8916a47cd52
 title: PNRP and WSALookupServiceNext
 ms.topic: article

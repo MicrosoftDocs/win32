@@ -1,5 +1,5 @@
 ---
-Description: The FRAMETABLE structure, a circular buffer of frame pointers, is handed back to applications attached to the ITRC interface of the NPP.
+description: The FRAMETABLE structure, a circular buffer of frame pointers, is handed back to applications attached to the ITRC interface of the NPP.
 ms.assetid: 6e2d4f8d-46f2-4d53-bc28-7b0706663490
 title: FRAMETABLE structure (Netmon.h)
 ms.topic: reference

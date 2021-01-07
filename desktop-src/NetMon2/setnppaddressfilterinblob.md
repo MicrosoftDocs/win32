@@ -1,5 +1,5 @@
 ---
-Description: The SetNPPAddressFilterInBlob function sets the given address filter in the BLOB.
+description: The SetNPPAddressFilterInBlob function sets the given address filter in the BLOB.
 ms.assetid: bdd1482d-8be0-4999-9a7a-16b0400412fb
 title: SetNPPAddressFilterInBlob function (Netmon.h)
 ms.topic: reference

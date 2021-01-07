@@ -1,5 +1,5 @@
 ---
-Description: Configures, connects to, and disconnects from wireless networks.
+description: Configures, connects to, and disconnects from wireless networks.
 ms.assetid: f257bd46-6077-4295-bb90-fbc0a63133f6
 title: Native Wifi
 ms.topic: article
