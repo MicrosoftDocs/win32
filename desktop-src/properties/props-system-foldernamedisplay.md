@@ -1,5 +1,5 @@
 ---
-Description: This property is similar to System.ItemNameDisplay except it is only set for folders, for files it will be empty.
+description: This property is similar to System.ItemNameDisplay except it is only set for folders, for files it will be empty.
 ms.assetid: 4517a4bf-3cc1-4835-b21b-03de5b33db0c
 title: System.FolderNameDisplay
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The denominator of PKEY\_GPS\_Latitude.
+description: The denominator of PKEY\_GPS\_Latitude.
 ms.assetid: 68bab91f-959a-4374-bd0e-035d25745147
 title: System.GPS.LatitudeDenominator
 ms.topic: article

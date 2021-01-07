@@ -1,5 +1,5 @@
 ---
-Description: .
+description: .
 ms.assetid: 054cef58-bba4-44be-86e9-68419089612d
 title: System.ContentStatus
 ms.topic: article

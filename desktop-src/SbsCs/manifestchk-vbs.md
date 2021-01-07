@@ -1,5 +1,5 @@
 ---
-Description: The VBScript file Manifestchk.vbs is a validation tool provided in the Microsoft Windows Software Development Kit (SDK) that validates application and assembly manifest files.
+description: The VBScript file Manifestchk.vbs is a validation tool provided in the Microsoft Windows Software Development Kit (SDK) that validates application and assembly manifest files.
 ms.assetid: 8269cb92-bd3f-411f-8395-fe06ed550cc5
 title: Manifestchk.vbs
 ms.topic: article

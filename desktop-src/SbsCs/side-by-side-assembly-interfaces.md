@@ -1,5 +1,5 @@
 ---
-Description: The side-by-side assembly API uses the following interfaces.
+description: The side-by-side assembly API uses the following interfaces.
 ms.assetid: e807da7e-ba7d-4c54-957a-7cff7b9f399b
 title: Side-by-Side Assembly Interfaces
 ms.topic: article

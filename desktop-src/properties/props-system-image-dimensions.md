@@ -1,5 +1,5 @@
 ---
-Description: The image dimensions in string format as horizontal pixels x vertical pixels. For example, 3080x2100.
+description: The image dimensions in string format as horizontal pixels x vertical pixels. For example, 3080x2100.
 ms.assetid: 739d1d41-a374-4dc5-a6a2-da4e05ecb96d
 title: System.Image.Dimensions
 ms.topic: article

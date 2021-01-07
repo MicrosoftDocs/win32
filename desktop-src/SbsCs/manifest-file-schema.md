@@ -1,5 +1,5 @@
 ---
-Description: The following is the complete listing of the manifest file schema.
+description: The following is the complete listing of the manifest file schema.
 ms.assetid: 5a4040a4-66ed-44ea-a07f-6410f88d1446
 title: Manifest File Schema
 ms.topic: article

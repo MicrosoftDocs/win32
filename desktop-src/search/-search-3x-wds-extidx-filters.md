@@ -1,5 +1,5 @@
 ---
-Description: Microsoft Windows Search uses filters to extract the content of items for inclusion in a full-text index.
+description: Microsoft Windows Search uses filters to extract the content of items for inclusion in a full-text index.
 ms.assetid: 7b86a1b4-c8a9-400d-a9f1-a3b821c0269d
 title: Best Practices for Filter Handlers in Windows Search
 ms.topic: article

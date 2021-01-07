@@ -1,5 +1,5 @@
 ---
-Description: This section describes the Windows Property System structures.
+description: This section describes the Windows Property System structures.
 ms.assetid: 95630aa7-39d3-4875-9614-1490904543b1
 title: Structures (Windows Property System)
 ms.topic: article

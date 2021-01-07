@@ -1,5 +1,5 @@
 ---
-Description: Name of the device's network.
+description: Name of the device's network.
 ms.assetid: c5b6f196-d84b-4ccb-a18a-6f78aae4035a
 title: System.Devices.NetworkName
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Indicates the number of pixels per resolution unit in the image height.
+description: Indicates the number of pixels per resolution unit in the image height.
 ms.assetid: 51d71fa6-8057-46b6-8427-187a5e69f1f4
 title: System.Image.VerticalResolution
 ms.topic: article

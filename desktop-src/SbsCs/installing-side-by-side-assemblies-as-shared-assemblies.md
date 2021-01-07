@@ -1,5 +1,5 @@
 ---
-Description: The following procedure describes how to install side-by-side assemblies as shared assemblies.
+description: The following procedure describes how to install side-by-side assemblies as shared assemblies.
 ms.assetid: 272ad1b8-9ea2-4af8-ba0d-c59f4db027e6
 title: Installing Side-by-side Assemblies as Shared Assemblies
 ms.topic: article

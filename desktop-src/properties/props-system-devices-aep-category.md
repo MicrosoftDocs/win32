@@ -1,5 +1,5 @@
 ---
-Description: Categories the device is part of. e.g. Printer, Camera, etc.
+description: Categories the device is part of. e.g. Printer, Camera, etc.
 ms.assetid: 40fde8e1-7c09-4486-89d2-f86f6d48b4bf
 title: System.Devices.Aep.Category
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Device storage-full notification.
+description: Device storage-full notification.
 ms.assetid: 6b8d0801-14e6-4aff-8815-81d884955488
 title: System.Devices.Notifications.StorageFull
 ms.topic: article

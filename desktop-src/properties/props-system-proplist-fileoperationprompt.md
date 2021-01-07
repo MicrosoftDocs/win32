@@ -1,5 +1,5 @@
 ---
-Description: The list of properties to show in the file operation confirmation dialog.
+description: The list of properties to show in the file operation confirmation dialog.
 ms.assetid: 0280d798-c76a-4de6-9b83-ce5c0fe98fdb
 title: System.PropList.FileOperationPrompt
 ms.topic: article

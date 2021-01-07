@@ -1,5 +1,5 @@
 ---
-Description: The unique file ID, also known as the File Reference Number.
+description: The unique file ID, also known as the File Reference Number.
 ms.assetid: 65189671-1b55-4933-9dee-a120b38caa98
 title: System.FileFRN
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The denominator of PKEY\_Photo\_FocalPlaneXResolution.
+description: The denominator of PKEY\_Photo\_FocalPlaneXResolution.
 ms.assetid: 54aaf800-6685-4945-976f-a9f1c25aa523
 title: System.Photo.FocalPlaneXResolutionDenominator
 ms.topic: article

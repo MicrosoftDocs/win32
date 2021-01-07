@@ -1,5 +1,5 @@
 ---
-Description: HID device Usage Page.
+description: HID device Usage Page.
 ms.assetid: 16f3197f-afc1-4082-bfee-1b1fc5f6bdad
 title: System.DeviceInterface.Hid.UsagePage
 ms.topic: article

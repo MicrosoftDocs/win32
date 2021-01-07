@@ -1,5 +1,5 @@
 ---
-Description: The numerator of PKEY\_Photo\_FocalPlaneXResolution.
+description: The numerator of PKEY\_Photo\_FocalPlaneXResolution.
 ms.assetid: 386f434a-22c3-4f72-8981-f99e1c9b2722
 title: System.Photo.FocalPlaneXResolutionNumerator
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: SFGAO values as used in IShellFolder::GetAttributesOf.
+description: SFGAO values as used in IShellFolder::GetAttributesOf.
 ms.assetid: 0a63e019-a03c-43c2-b2dc-20ef7c37e0d3
 title: System.SFGAOFlags
 ms.topic: article

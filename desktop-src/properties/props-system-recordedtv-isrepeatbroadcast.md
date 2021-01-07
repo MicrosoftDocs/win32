@@ -1,5 +1,5 @@
 ---
-Description: .
+description: .
 ms.assetid: b6e1b229-e86f-4417-9db2-b3fb3eab419f
 title: System.RecordedTV.IsRepeatBroadcast
 ms.topic: article

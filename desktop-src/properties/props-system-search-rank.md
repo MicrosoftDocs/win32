@@ -1,5 +1,5 @@
 ---
-Description: Relevance rank of row, with a range from 0-1000.
+description: Relevance rank of row, with a range from 0-1000.
 ms.assetid: e0c03f6f-4539-4a6b-b58d-161bd985ee0f
 title: System.Search.Rank
 ms.topic: article

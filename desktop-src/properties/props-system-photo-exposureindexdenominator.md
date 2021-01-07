@@ -1,5 +1,5 @@
 ---
-Description: The denominator of PKEY\_Photo\_ExposureIndex.
+description: The denominator of PKEY\_Photo\_ExposureIndex.
 ms.assetid: a9df1ca1-2cd9-4176-8a02-a044f4953ba2
 title: System.Photo.ExposureIndexDenominator
 ms.topic: article

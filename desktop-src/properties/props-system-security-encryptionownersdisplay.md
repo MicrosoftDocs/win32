@@ -1,5 +1,5 @@
 ---
-Description: File ownership.
+description: File ownership.
 ms.assetid: fa47b242-0a5c-437e-9d25-3472bc70ca69
 title: System.Security.EncryptionOwnersDisplay
 ms.topic: article

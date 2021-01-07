@@ -1,5 +1,5 @@
 ---
-Description: Signal to noise ratio information in Db for a microphone device.
+description: Signal to noise ratio information in Db for a microphone device.
 ms.assetid: 337e9785-fa38-460d-9ff2-e834901b1986
 title: System.Devices.AudioDevice.Microphone.SignalToNoiseRatioInDb
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: HID device Product Id.
+description: HID device Product Id.
 ms.assetid: 84f4753d-5c77-4dbe-ba08-cab51b4f0569
 title: System.DeviceInterface.Hid.ProductId
 ms.topic: article
