@@ -1,5 +1,5 @@
 ---
-Description: Defines the input and output parameters for methods.
+description: Defines the input and output parameters for methods.
 ms.assetid: d973feb5-27c4-4d8e-bf1b-0a455afa4375
 ms.tgt_platform: multiple
 title: '__PARAMETERS class'

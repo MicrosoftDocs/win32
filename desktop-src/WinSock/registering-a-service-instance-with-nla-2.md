@@ -1,5 +1,5 @@
 ---
-Description: NLA clients can record network configuration information on a system-wide basis, enabling future queries to return the specified configuration information regardless of whether the network is active.
+description: NLA clients can record network configuration information on a system-wide basis, enabling future queries to return the specified configuration information regardless of whether the network is active.
 ms.assetid: 7e92dd8f-d3a1-4e53-885c-ebc9626fd5dc
 title: Registering a Service Instance with NLA
 ms.topic: article

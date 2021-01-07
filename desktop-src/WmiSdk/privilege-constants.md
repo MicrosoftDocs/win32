@@ -1,5 +1,5 @@
 ---
-Description: The strPrivilege parameter of the SWbemPrivilegeSet.AddAsString method and the iPrivilege parameter for SWbemPrivilegeSet.Add require privilege strings from WbemPrivilegeEnum.
+description: The strPrivilege parameter of the SWbemPrivilegeSet.AddAsString method and the iPrivilege parameter for SWbemPrivilegeSet.Add require privilege strings from WbemPrivilegeEnum.
 ms.assetid: f9400597-81bb-44a8-80dc-aba0160aea26
 ms.tgt_platform: multiple
 title: Privilege Constants (Wbemdisp.h)

@@ -1,5 +1,5 @@
 ---
-Description: Quality of Service (QoS) is implemented in Windows through various QoS components supported on Windows Server 2003, Windows XP, and Windows 2000.
+description: Quality of Service (QoS) is implemented in Windows through various QoS components supported on Windows Server 2003, Windows XP, and Windows 2000.
 ms.assetid: e55b085f-6f72-4aa4-a8b0-b7609b9010dc
 title: Quality of Service in the Windows Sockets 2 SPI
 ms.topic: article

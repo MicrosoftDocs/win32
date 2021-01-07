@@ -1,5 +1,5 @@
 ---
-Description: You can access all Common Information Model (CIM) dates and times in WMI by using one of two fixed-length formats specific to WMI and CIM. In scripting, use the SWbemDateTime object to convert these to regular dates and times.
+description: You can access all Common Information Model (CIM) dates and times in WMI by using one of two fixed-length formats specific to WMI and CIM. In scripting, use the SWbemDateTime object to convert these to regular dates and times.
 ms.assetid: 15126802-82f9-4ab4-98d8-0a15184302e9
 ms.tgt_platform: multiple
 title: CIM_DATETIME

@@ -1,5 +1,5 @@
 ---
-Description: You can filter the instances of a join view class by assigning a WQL query to the PostJoinFilter qualifier.
+description: You can filter the instances of a join view class by assigning a WQL query to the PostJoinFilter qualifier.
 ms.assetid: 926a7262-ea6b-4a5a-8aa7-6ec0ae389031
 ms.tgt_platform: multiple
 title: PostJoinFilter Qualifier

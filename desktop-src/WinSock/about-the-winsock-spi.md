@@ -1,5 +1,5 @@
 ---
-Description: Winsock provides a Service Provider Interface for creating Winsock services, commonly referred to as the Winsock SPI.
+description: Winsock provides a Service Provider Interface for creating Winsock services, commonly referred to as the Winsock SPI.
 ms.assetid: e3d21dd8-2b58-4108-857d-a075b8be68b0
 title: About the Winsock SPI
 ms.topic: article

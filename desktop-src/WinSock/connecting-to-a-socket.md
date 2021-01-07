@@ -1,5 +1,5 @@
 ---
-Description: For a client to communicate on a network, it must connect to a server.
+description: For a client to communicate on a network, it must connect to a server.
 ms.assetid: fb52d2b7-70fa-497a-bbb4-42b25ea9d136
 title: Connecting to a Socket
 ms.topic: article

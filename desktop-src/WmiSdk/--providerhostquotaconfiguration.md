@@ -1,5 +1,5 @@
 ---
-Description: Allows limits to be set on host process usage of system resources.
+description: Allows limits to be set on host process usage of system resources.
 ms.assetid: 5f5ed1c6-bd1a-406d-a682-7a52059d9450
 ms.tgt_platform: multiple
 title: '__ProviderHostQuotaConfiguration class'

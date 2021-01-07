@@ -1,5 +1,5 @@
 ---
-Description: The IWbemQuery interface exposes the following methods.
+description: The IWbemQuery interface exposes the following methods.
 ms.assetid: 26F27CD0-8A6D-4E81-B874-8CFB729BA5F4
 ms.tgt_platform: multiple
 title: IWbemQuery Methods

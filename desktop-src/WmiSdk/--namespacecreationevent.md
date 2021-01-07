@@ -1,5 +1,5 @@
 ---
-Description: Reports a namespace creation event, which is a type of intrinsic event generated when a new namespace is added to the current namespace.
+description: Reports a namespace creation event, which is a type of intrinsic event generated when a new namespace is added to the current namespace.
 ms.assetid: 50b9860a-d6e8-4dab-a7d0-09da9dd37b6b
 ms.tgt_platform: multiple
 title: '__NamespaceCreationEvent class'

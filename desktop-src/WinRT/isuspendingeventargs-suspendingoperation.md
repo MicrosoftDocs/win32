@@ -1,5 +1,5 @@
 ---
-Description: Gets the app suspending operation.
+description: Gets the app suspending operation.
 ms.assetid: 33FCAED5-7568-4483-A643-A536B53F7003
 title: ISuspendingEventArgs::SuspendingOperation property (Windows.ApplicationModel.h)
 ms.topic: reference

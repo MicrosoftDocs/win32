@@ -1,5 +1,5 @@
 ---
-Description: Describes WMI SNMP provider errors 211 through 220.
+description: Describes WMI SNMP provider errors 211 through 220.
 ms.assetid: beaa644d-51b3-4a57-8853-0b37f69f615a
 ms.tgt_platform: multiple
 title: Errors 211 through 220

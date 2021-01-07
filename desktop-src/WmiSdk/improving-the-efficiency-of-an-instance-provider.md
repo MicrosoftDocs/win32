@@ -1,5 +1,5 @@
 ---
-Description: A WMI high-performance provider greatly increases the speed at which a WMI client can obtain information from a WMI instance provider.
+description: A WMI high-performance provider greatly increases the speed at which a WMI client can obtain information from a WMI instance provider.
 ms.assetid: 767a16bb-44b6-4c56-b79b-23241fcc216e
 ms.tgt_platform: multiple
 title: Improving the Efficiency of an Instance Provider

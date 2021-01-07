@@ -1,5 +1,5 @@
 ---
-Description: The original include file for use with Windows Sockets 1.1 was the Winsock.h header file.
+description: The original include file for use with Windows Sockets 1.1 was the Winsock.h header file.
 ms.assetid: 0536abcc-4277-4bd8-927c-3bf429bc65bb
 title: Include Files
 ms.topic: article

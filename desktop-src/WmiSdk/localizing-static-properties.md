@@ -1,5 +1,5 @@
 ---
-Description: You can localize static properties by using partial value maps.
+description: You can localize static properties by using partial value maps.
 ms.assetid: 67e91454-c065-4ab2-a373-245c9392c71c
 ms.tgt_platform: multiple
 title: Localizing Static Properties

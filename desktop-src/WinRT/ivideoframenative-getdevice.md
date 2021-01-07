@@ -1,5 +1,5 @@
 ---
-Description: This method returns a device associated with the video data.
+description: This method returns a device associated with the video data.
 ms.assetid: 9A61159B-C383-4770-AD8F-9F69F720E3E2
 title: IVideoFrameNative::GetDevice method
 ms.topic: reference

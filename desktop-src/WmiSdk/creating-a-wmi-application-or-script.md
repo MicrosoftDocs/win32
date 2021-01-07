@@ -1,5 +1,5 @@
 ---
-Description: Any scripting language, such as VBScript, that works with ActiveX objects can access WMI data. Applications can access WMI in C++, using the COM API for WMI or in Visual Basic, using the Wbemdisp.tlb type library and the Scripting API for WMI. .
+description: Any scripting language, such as VBScript, that works with ActiveX objects can access WMI data. Applications can access WMI in C++, using the COM API for WMI or in Visual Basic, using the Wbemdisp.tlb type library and the Scripting API for WMI. .
 ms.assetid: c0d18827-6b36-4817-8cd9-06cd0f267b28
 ms.tgt_platform: multiple
 title: Creating a WMI Application or Script

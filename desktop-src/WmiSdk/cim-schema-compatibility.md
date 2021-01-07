@@ -1,5 +1,5 @@
 ---
-Description: CIM Schema Compatibility
+description: CIM Schema Compatibility
 ms.assetid: 3738914d-dd33-4999-b37f-b4bb94689cd4
 ms.tgt_platform: multiple
 title: CIM Schema Compatibility

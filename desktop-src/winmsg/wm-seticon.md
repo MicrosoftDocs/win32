@@ -1,5 +1,5 @@
 ---
-Description: Associates a new large or small icon with a window. The system displays the large icon in the ALT+TAB dialog box, and the small icon in the window caption.
+description: Associates a new large or small icon with a window. The system displays the large icon in the ALT+TAB dialog box, and the small icon in the window caption.
 ms.assetid: c86620f2-893b-46f8-8254-1d7c4c142f37
 title: WM_SETICON message (Winuser.h)
 ms.topic: reference

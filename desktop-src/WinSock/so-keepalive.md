@@ -1,5 +1,5 @@
 ---
-Description: Is designed to allow an application to enable keep-alive packets for a socket connection.
+description: Is designed to allow an application to enable keep-alive packets for a socket connection.
 ms.assetid: d6da7761-7a09-4c91-9737-550590a773b3
 title: SO_KEEPALIVE socket option (Ws2def.h)
 ms.topic: reference

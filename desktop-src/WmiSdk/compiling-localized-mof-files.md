@@ -1,5 +1,5 @@
 ---
-Description: You must compile your master MOF file to create the language-neutral and language-specific MOF files.
+description: You must compile your master MOF file to create the language-neutral and language-specific MOF files.
 ms.assetid: ae2fa320-8294-4991-be30-403088c34b7a
 ms.tgt_platform: multiple
 title: Compiling Localized MOF Files

@@ -1,5 +1,5 @@
 ---
-Description: The LogFileEventConsumer class writes customized strings to a text log file when events are delivered to it.
+description: The LogFileEventConsumer class writes customized strings to a text log file when events are delivered to it.
 ms.assetid: 8934b60e-3763-4b85-89fd-58fe6136dff6
 ms.tgt_platform: multiple
 title: LogFileEventConsumer class

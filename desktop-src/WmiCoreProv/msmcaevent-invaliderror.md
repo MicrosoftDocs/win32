@@ -1,5 +1,5 @@
 ---
-Description: Indicates a Machine Check Architecture (MCA) invalid error. An invalid MCA error identifies an error format that does not conform to Windows specifications. This class is available only in 64-bit Windows systems.
+description: Indicates a Machine Check Architecture (MCA) invalid error. An invalid MCA error identifies an error format that does not conform to Windows specifications. This class is available only in 64-bit Windows systems.
 ms.assetid: 476ea558-2e0e-480f-b4ba-8d73fdef3308
 title: MSMCAEvent_InvalidError class
 ms.topic: reference

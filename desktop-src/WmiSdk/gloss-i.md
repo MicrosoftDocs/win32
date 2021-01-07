@@ -1,5 +1,5 @@
 ---
-Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 55d423e3-e41d-414b-a47b-5651f3c9e7df
 ms.tgt_platform: multiple

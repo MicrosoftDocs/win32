@@ -1,5 +1,5 @@
 ---
-Description: After you create or locate an instance of a class, you probably want to modify the instance.
+description: After you create or locate an instance of a class, you probably want to modify the instance.
 ms.assetid: c0041274-5fcd-4108-961f-aeda6cb5fce8
 ms.tgt_platform: multiple
 title: Modifying an Instance Property

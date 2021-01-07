@@ -1,5 +1,5 @@
 ---
-Description: You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on the local computer, calls a provider method, and then cleans up.
+description: You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on the local computer, calls a provider method, and then cleans up.
 ms.assetid: ee8faa14-74ec-49a2-88d6-187627c40071
 ms.tgt_platform: multiple
 title: 'Example: Calling a Provider Method'

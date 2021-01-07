@@ -1,5 +1,5 @@
 ---
-Description: Registers instance providers in WMI.
+description: Registers instance providers in WMI.
 ms.assetid: 6eba9bff-a5b9-4741-94ef-7d65b33d9aff
 ms.tgt_platform: multiple
 title: '__InstanceProviderRegistration class'

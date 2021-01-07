@@ -1,5 +1,5 @@
 ---
-Description: The following list provides concise descriptions of each Winsock ATM structure. For additional information on any structure, click the structure name.
+description: The following list provides concise descriptions of each Winsock ATM structure. For additional information on any structure, click the structure name.
 ms.assetid: ce80ef1f-9a76-4a6f-a7ce-f166bc46ca08
 title: Winsock ATM Structures
 ms.topic: article

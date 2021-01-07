@@ -1,5 +1,5 @@
 ---
-Description: The MSFT\_Providers class and the WMI troubleshooting classes are a group of the MSFT event classes coupled to WMI provider events.
+description: The MSFT\_Providers class and the WMI troubleshooting classes are a group of the MSFT event classes coupled to WMI provider events.
 ms.assetid: 5eaf7026-87bf-416b-9a6d-7f92f85b0882
 ms.tgt_platform: multiple
 title: Provider Configuration and Troubleshooting Classes

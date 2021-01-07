@@ -1,5 +1,5 @@
 ---
-Description: You can use the standard model of intrinsic events and event filters in combination with the Win32\_LocalTime or Win32\_UTCTime classes to receive a timed notification.
+description: You can use the standard model of intrinsic events and event filters in combination with the Win32\_LocalTime or Win32\_UTCTime classes to receive a timed notification.
 ms.assetid: 89ba41e2-c9b5-4914-b8cb-13d21ff03402
 ms.tgt_platform: multiple
 title: Creating a Timer Event with Win32_LocalTime or Win32_UTCTime

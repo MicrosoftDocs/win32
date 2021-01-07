@@ -1,5 +1,5 @@
 ---
-Description: In the following, a multipoint socket is frequently described by defining its role in one of the two planes (control or data).
+description: In the following, a multipoint socket is frequently described by defining its role in one of the two planes (control or data).
 ms.assetid: 34f639e2-9363-4f3f-a8de-b7c5d12618c9
 title: Semantics for Joining Multipoint Leaves
 ms.topic: article

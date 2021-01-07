@@ -1,5 +1,5 @@
 ---
-Description: The following sections describe the remaining steps for creating a Winsock server application. What follows is the general model for creating a streaming TCP/IP server.
+description: The following sections describe the remaining steps for creating a Winsock server application. What follows is the general model for creating a streaming TCP/IP server.
 ms.assetid: f7b0a941-0d6f-497c-bf88-fbf8ee151885
 title: Winsock Server Application
 ms.topic: article

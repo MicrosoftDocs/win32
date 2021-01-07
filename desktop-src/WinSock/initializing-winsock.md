@@ -1,5 +1,5 @@
 ---
-Description: All processes (applications or DLLs) that call Winsock functions must initialize the use of the Windows Sockets DLL before making other Winsock functions calls. This also makes certain that Winsock is supported on the system.
+description: All processes (applications or DLLs) that call Winsock functions must initialize the use of the Windows Sockets DLL before making other Winsock functions calls. This also makes certain that Winsock is supported on the system.
 ms.assetid: 300858d8-bed3-4a3c-abb5-2cecd100e5d7
 title: Initializing Winsock
 ms.topic: article

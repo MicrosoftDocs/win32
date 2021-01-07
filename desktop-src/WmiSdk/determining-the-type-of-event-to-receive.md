@@ -1,5 +1,5 @@
 ---
-Description: 'Before you register to receive an event, you must determine the types of events to receive: intrinsic or extrinsic.'
+description: 'Before you register to receive an event, you must determine the types of events to receive: intrinsic or extrinsic.'
 ms.assetid: 46cdfcfa-42c6-4169-bc4d-725867224889
 ms.tgt_platform: multiple
 title: Determining the Type of Event to Receive

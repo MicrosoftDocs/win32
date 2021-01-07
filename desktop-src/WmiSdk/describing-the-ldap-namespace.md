@@ -1,5 +1,5 @@
 ---
-Description: When connecting remotely to an Active Directory server other than the one in your current domain, you must specify the name of a computer that is already a member of the domain belonging to the Active Directory you want.
+description: When connecting remotely to an Active Directory server other than the one in your current domain, you must specify the name of a computer that is already a member of the domain belonging to the Active Directory you want.
 ms.assetid: f1478b9d-4a92-4340-8721-1f443eb6ace2
 ms.tgt_platform: multiple
 title: Describing the LDAP Namespace

@@ -1,5 +1,5 @@
 ---
-Description: Enumeration is the act of moving through a set of objects and possibly modifying each object as you do so.
+description: Enumeration is the act of moving through a set of objects and possibly modifying each object as you do so.
 ms.assetid: fe7e3259-9a7c-4f73-af30-192bbbace1b3
 ms.tgt_platform: multiple
 title: Enumerating WMI

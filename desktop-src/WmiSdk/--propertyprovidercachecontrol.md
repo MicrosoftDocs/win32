@@ -1,5 +1,5 @@
 ---
-Description: Controls the cache when a property provider is unloaded.
+description: Controls the cache when a property provider is unloaded.
 ms.assetid: 8fc7de7a-889c-4d53-97ea-a676879de1d3
 ms.tgt_platform: multiple
 title: '__PropertyProviderCacheControl class'

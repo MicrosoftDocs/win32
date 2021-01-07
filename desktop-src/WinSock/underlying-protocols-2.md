@@ -1,5 +1,5 @@
 ---
-Description: Some protocols that your application depends on for certain services, such as Remote Procedure Call (RPC), may have IP-version dependent functions and structures that require you to modify your application in terms of their usage.
+description: Some protocols that your application depends on for certain services, such as Remote Procedure Call (RPC), may have IP-version dependent functions and structures that require you to modify your application in terms of their usage.
 ms.assetid: b1eac461-10c9-4077-b531-28b7c65a2e31
 title: Underlying Protocols for IPv6 Winsock Applications
 ms.topic: article

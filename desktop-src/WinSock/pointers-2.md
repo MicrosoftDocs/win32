@@ -1,5 +1,5 @@
 ---
-Description: All pointers used by applications with Windows Sockets should be FAR, although this is only relevant to 16-bit applications and meaningless in a 32-bit. To facilitate this, data type definitions such as LPHOSTENT are provided.
+description: All pointers used by applications with Windows Sockets should be FAR, although this is only relevant to 16-bit applications and meaningless in a 32-bit. To facilitate this, data type definitions such as LPHOSTENT are provided.
 ms.assetid: 49111309-1a2f-462c-b9f5-e6839e439ada
 title: Pointers (Windows Sockets 2)
 ms.topic: article

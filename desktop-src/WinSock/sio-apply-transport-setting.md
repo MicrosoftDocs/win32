@@ -1,5 +1,5 @@
 ---
-Description: Control code applies one or more transport settings to a socket.
+description: Control code applies one or more transport settings to a socket.
 ms.assetid: FA0657EE-B65E-4EFA-AF1E-CA0EA7B27715
 title: SIO_APPLY_TRANSPORT_SETTING Control Code
 ms.topic: reference

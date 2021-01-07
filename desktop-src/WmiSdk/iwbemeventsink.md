@@ -1,5 +1,5 @@
 ---
-Description: Initiates communication with an event provider using a restricted set of queries.
+description: Initiates communication with an event provider using a restricted set of queries.
 ms.assetid: dd076dd0-ed39-47a2-86fb-a595baf3f464
 ms.tgt_platform: multiple
 title: IWbemEventSink interface (Wbemprov.h)

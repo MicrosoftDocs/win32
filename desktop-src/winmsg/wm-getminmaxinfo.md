@@ -1,5 +1,5 @@
 ---
-Description: Sent to a window when the size or position of the window is about to change. An application can use this message to override the window's default maximized size and position, or its default minimum or maximum tracking size.
+description: Sent to a window when the size or position of the window is about to change. An application can use this message to override the window's default maximized size and position, or its default minimum or maximum tracking size.
 ms.assetid: af2295e0-2d0b-4ac0-b689-16138022f4b7
 title: WM_GETMINMAXINFO message (Winuser.h)
 ms.topic: reference

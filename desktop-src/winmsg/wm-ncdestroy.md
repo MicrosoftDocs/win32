@@ -1,5 +1,5 @@
 ---
-Description: Notifies a window that its nonclient area is being destroyed. The DestroyWindow function sends the WM\_NCDESTROY message to the window following the WM\_DESTROY message.
+description: Notifies a window that its nonclient area is being destroyed. The DestroyWindow function sends the WM\_NCDESTROY message to the window following the WM\_DESTROY message.
 ms.assetid: 64ab268d-0e90-4401-81d3-a4da64196001
 title: WM_NCDESTROY message (Winuser.h)
 ms.topic: reference

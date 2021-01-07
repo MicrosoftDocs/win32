@@ -1,5 +1,5 @@
 ---
-Description: The HAVING clause is used to filter the events that are received during the grouping interval specified in the WITHIN clause.
+description: The HAVING clause is used to filter the events that are received during the grouping interval specified in the WITHIN clause.
 ms.assetid: 787e31df-df6a-4fb0-a1c0-18bd60867e2f
 ms.tgt_platform: multiple
 title: HAVING Clause

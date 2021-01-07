@@ -1,5 +1,5 @@
 ---
-Description: Windows Sockets event objects are simple constructs that can be created and closed, set and cleared, waited upon and polled.
+description: Windows Sockets event objects are simple constructs that can be created and closed, set and cleared, waited upon and polled.
 ms.assetid: '65a7627e-150e-4ca3-bc17-d2b380ee02d1'
 title: Using Event Objects (Windows Sockets 2)
 ms.topic: article

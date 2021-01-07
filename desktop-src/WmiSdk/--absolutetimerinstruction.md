@@ -1,5 +1,5 @@
 ---
-Description: Causes an event to be generated on a specific date at a specific time.
+description: Causes an event to be generated on a specific date at a specific time.
 ms.assetid: bcb64c81-3b40-4665-a880-a100629656e0
 ms.tgt_platform: multiple
 title: '__AbsoluteTimerInstruction class'

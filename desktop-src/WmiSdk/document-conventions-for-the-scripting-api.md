@@ -1,5 +1,5 @@
 ---
-Description: Describes document conventions for reading WMI Scripting API topics.
+description: Describes document conventions for reading WMI Scripting API topics.
 ms.assetid: 889e6322-96f6-4a24-a084-e3b7bfa94a40
 ms.tgt_platform: multiple
 title: Document Conventions for the Scripting API

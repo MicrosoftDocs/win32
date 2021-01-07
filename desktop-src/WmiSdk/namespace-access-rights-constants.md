@@ -1,5 +1,5 @@
 ---
-Description: WMI has security constants used for namespace access checking by \_\_SystemSecurity::GetCallerAccessRights.
+description: WMI has security constants used for namespace access checking by \_\_SystemSecurity::GetCallerAccessRights.
 ms.assetid: 2e905078-d510-4417-8acb-a6ff535d9d0b
 ms.tgt_platform: multiple
 title: Namespace Access Rights Constants (Wbemcli.h)

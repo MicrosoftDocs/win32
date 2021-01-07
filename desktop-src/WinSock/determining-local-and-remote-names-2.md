@@ -1,5 +1,5 @@
 ---
-Description: WSPGetSockName is used to retrieve the local address for bound sockets.
+description: WSPGetSockName is used to retrieve the local address for bound sockets.
 ms.assetid: 5f3c9aa8-97fe-48a1-a3f5-156c9bddb1b2
 title: Determining Local and Remote Names
 ms.topic: article

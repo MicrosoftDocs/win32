@@ -1,5 +1,5 @@
 ---
-Description: Scripts and applications written for 32-bit operating systems should continue to run properly.
+description: Scripts and applications written for 32-bit operating systems should continue to run properly.
 ms.assetid: b437b9ed-b9e4-4fc5-9b86-0eb77bb41b8e
 ms.tgt_platform: multiple
 title: Providing WMI Data on a 64-bit Platform

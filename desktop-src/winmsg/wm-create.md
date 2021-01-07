@@ -1,5 +1,5 @@
 ---
-Description: Sent when an application requests that a window be created by calling the CreateWindowEx or CreateWindow function.
+description: Sent when an application requests that a window be created by calling the CreateWindowEx or CreateWindow function.
 ms.assetid: d484d0fc-bad0-4fcb-bf4b-37cbc50846ee
 title: WM_CREATE message (Winuser.h)
 ms.topic: reference

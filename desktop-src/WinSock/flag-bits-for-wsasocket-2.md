@@ -1,5 +1,5 @@
 ---
-Description: In some instances sockets joined to a multipoint session may have some differences in behavior from point-to-point sockets.
+description: In some instances sockets joined to a multipoint session may have some differences in behavior from point-to-point sockets.
 ms.assetid: e59b701f-f85f-4fd6-8d6d-e46199250c22
 title: Flag Bits for WSASocket
 ms.topic: article

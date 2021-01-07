@@ -1,5 +1,5 @@
 ---
-Description: Invokes the method that is called when the specified asynchronous action completes.
+description: Invokes the method that is called when the specified asynchronous action completes.
 ms.assetid: 97199C1A-7CE3-4BBD-86A3-2CA9B27CC05E
 title: AsyncActionCompletedHandler::Invoke method
 ms.topic: reference

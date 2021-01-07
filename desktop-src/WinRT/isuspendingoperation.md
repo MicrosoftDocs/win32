@@ -1,5 +1,5 @@
 ---
-Description: Provides information about an app suspending operation.
+description: Provides information about an app suspending operation.
 ms.assetid: B380AEA2-6486-46CC-AD0A-CF25C144DC01
 title: ISuspendingOperation interface (Windows.ApplicationModel.h)
 ms.topic: reference

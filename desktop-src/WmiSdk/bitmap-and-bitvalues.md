@@ -1,5 +1,5 @@
 ---
-Description: Is an integer linked to a property with the BitMap and BitValue qualifiers.
+description: Is an integer linked to a property with the BitMap and BitValue qualifiers.
 ms.assetid: 14c34909-2419-41a1-a1ed-3b647a3c5e75
 ms.tgt_platform: multiple
 title: BitMap and BitValue Qualifiers

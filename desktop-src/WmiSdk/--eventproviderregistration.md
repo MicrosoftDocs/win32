@@ -1,5 +1,5 @@
 ---
-Description: Used to register event providers with Windows Management Instrumentation (WMI).
+description: Used to register event providers with Windows Management Instrumentation (WMI).
 ms.assetid: d87f61a8-5549-4f33-ba67-31b5d72b5282
 ms.tgt_platform: multiple
 title: '__EventProviderRegistration class'

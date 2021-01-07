@@ -1,5 +1,5 @@
 ---
-Description: Control code retrieves the Transmission Control Protocol (TCP) statistics for a specified socket.
+description: Control code retrieves the Transmission Control Protocol (TCP) statistics for a specified socket.
 ms.assetid: AB5F25B6-D2D2-42D7-8189-06CAC4842C66
 title: SIO_TCP_INFO Control Code
 ms.topic: reference

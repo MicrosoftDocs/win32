@@ -1,5 +1,5 @@
 ---
-Description: This guide provides the information you need to enable your Microsoft Windows application to use the next generation of Internet Protocol, version 6 (IPv6).
+description: This guide provides the information you need to enable your Microsoft Windows application to use the next generation of Internet Protocol, version 6 (IPv6).
 ms.assetid: 8e862eb0-2ba9-40b0-ac73-fcb0e625965e
 title: IPv6 Guide for Windows Sockets Applications
 ms.topic: article

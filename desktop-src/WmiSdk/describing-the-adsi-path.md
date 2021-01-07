@@ -1,5 +1,5 @@
 ---
-Description: The Lightweight Directory Access Protocol (LDAP) requires that you escape some characters with a backslash (\) character when you use them in an LDAP Active Directory Service Interfaces (ADSI) path.
+description: The Lightweight Directory Access Protocol (LDAP) requires that you escape some characters with a backslash (\) character when you use them in an LDAP Active Directory Service Interfaces (ADSI) path.
 ms.assetid: bc04359c-4eda-4574-a9c2-f005a1d92dea
 ms.tgt_platform: multiple
 title: Describing the ADSI Path

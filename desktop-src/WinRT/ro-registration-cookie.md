@@ -1,5 +1,5 @@
 ---
-Description: Represents activation factories that are registered by calling the RoRegisterActivationFactories function.
+description: Represents activation factories that are registered by calling the RoRegisterActivationFactories function.
 ms.assetid: D74E5886-45DB-40DE-9740-D14341E78713
 title: RO_REGISTRATION_COOKIE (Roapi.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Controls when a class or instance provider is unloaded.
+description: Controls when a class or instance provider is unloaded.
 ms.assetid: 4cbeb820-8a65-4fab-97f1-2a973b2a4310
 ms.tgt_platform: multiple
 title: '__ObjectProviderCacheControl class'

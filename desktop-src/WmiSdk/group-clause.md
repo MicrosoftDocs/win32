@@ -1,5 +1,5 @@
 ---
-Description: The GROUP clause causes WMI to generate a single notification to represent a group of events.
+description: The GROUP clause causes WMI to generate a single notification to represent a group of events.
 ms.assetid: 811e72f8-2e50-4696-ad58-50bb5e211afb
 ms.tgt_platform: multiple
 title: GROUP Clause

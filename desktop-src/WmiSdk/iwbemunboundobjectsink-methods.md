@@ -1,5 +1,5 @@
 ---
-Description: The IWbemUnboundObjectSink interface exposes the following methods.
+description: The IWbemUnboundObjectSink interface exposes the following methods.
 ms.assetid: 7C6050D4-E204-4984-BFE6-E47973366317
 ms.tgt_platform: multiple
 title: IWbemUnboundObjectSink Methods

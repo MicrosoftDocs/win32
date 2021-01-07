@@ -1,5 +1,5 @@
 ---
-Description: Optional qualifiers address recurring situations not common to all CIM-compliant implementations, which are not required to interpret these qualifiers.
+description: Optional qualifiers address recurring situations not common to all CIM-compliant implementations, which are not required to interpret these qualifiers.
 ms.assetid: f31162d1-25e6-494a-bc7d-f66955b514a6
 ms.tgt_platform: multiple
 title: Optional Qualifiers

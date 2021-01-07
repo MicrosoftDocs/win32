@@ -1,5 +1,5 @@
 ---
-Description: Contains a Corrected Machine Check (CMC) event. This class is available only in 64-bit Windows systems.
+description: Contains a Corrected Machine Check (CMC) event. This class is available only in 64-bit Windows systems.
 ms.assetid: e12efbf7-7d53-415a-bc48-90d33e4ce16d
 title: MSMCAInfo_RawCMCEvent class
 ms.topic: reference

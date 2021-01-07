@@ -1,5 +1,5 @@
 ---
-Description: Developing a secure high-level network infrastructure is a priority for most network application developers. However, socket security is often overlooked despite being very critical when considering a fully secure solution.
+description: Developing a secure high-level network infrastructure is a priority for most network application developers. However, socket security is often overlooked despite being very critical when considering a fully secure solution.
 ms.assetid: b37a3e33-65ee-43b1-bc8b-3280db7ebee4
 title: Using SO_REUSEADDR and SO_EXCLUSIVEADDRUSE
 ms.topic: article

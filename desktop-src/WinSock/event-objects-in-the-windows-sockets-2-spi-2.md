@@ -1,5 +1,5 @@
 ---
-Description: Event objects are introduced in Windows Sockets 2 as a general synchronization mechanism between Winsock service providers and applications.
+description: Event objects are introduced in Windows Sockets 2 as a general synchronization mechanism between Winsock service providers and applications.
 ms.assetid: 0ec8fe77-8465-4530-834c-c90ff8e4fe8c
 title: Event Objects in the Windows Sockets 2 SPI
 ms.topic: article

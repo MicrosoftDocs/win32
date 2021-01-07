@@ -1,5 +1,5 @@
 ---
-Description: Gets the type of change that occurred in the vector.
+description: Gets the type of change that occurred in the vector.
 ms.assetid: 213f4794-b972-44e3-a400-8a24b1583ddd
 title: IVectorChangedEventArgs::get_CollectionChange method (IVectorChangedEventArgs.h)
 ms.topic: reference

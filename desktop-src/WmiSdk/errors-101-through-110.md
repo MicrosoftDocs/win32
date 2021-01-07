@@ -1,5 +1,5 @@
 ---
-Description: Describes WMI SNMP provider errors 101 through 110.
+description: Describes WMI SNMP provider errors 101 through 110.
 ms.assetid: baa64233-eb19-4f52-836b-5bdf4a23ae4f
 ms.tgt_platform: multiple
 title: Errors 101 through 110

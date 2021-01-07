@@ -1,5 +1,5 @@
 ---
-Description: Describes the local installation of WMI.
+description: Describes the local installation of WMI.
 ms.assetid: 907b65b2-a853-40f4-8b36-5a05a2b1cf85
 ms.tgt_platform: multiple
 title: '__CIMOMIdentification class'

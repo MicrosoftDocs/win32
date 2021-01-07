@@ -1,5 +1,5 @@
 ---
-Description: AAL parameters.
+description: AAL parameters.
 ms.assetid: 0afc6713-2e91-4914-8039-1ecaed104826
 title: AAL Parameters
 ms.topic: article
