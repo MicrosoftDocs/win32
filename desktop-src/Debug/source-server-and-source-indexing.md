@@ -51,7 +51,7 @@ The DbgHelp API provides access to source server functionality through the [**Sy
 
 To use the source server with WinDbg, KD, NTSD, or CDB, ensure that you have installed a recent version of the Debugging Tools for Windows package (version 6.3 or later). Then, include srv\* in the .srcpath command as follows:
 
-**\.srcpath srv\\\*;**_c:\\mysource_
+**\.srcpath srv\*;**_c:\\mysource_
 
 Note that this example also includes a traditional source path. If the debugger cannot retrieve the file from the source server, it will search the specified path.
 
