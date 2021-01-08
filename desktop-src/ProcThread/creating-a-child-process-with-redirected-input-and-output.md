@@ -56,8 +56,7 @@ int _tmain(int argc, TCHAR *argv[])
 
 // Ensure the read handle to the pipe for STDOUT is not inherited.
 
-   if ( ! SetHandleInformation(g_hChildStd_OUT_Rd, HANDLE_FLAG_INHERIT,
-                               HANDLE_FLAG_INHERIT) )
+   if ( ! SetHandleInformation(g_hChildStd_OUT_Rd, HANDLE_FLAG_INHERIT, 0) )
       ErrorExit(TEXT("Stdout SetHandleInformation")); 
 
 // Create a pipe for the child process's STDIN. 
@@ -67,8 +66,7 @@ int _tmain(int argc, TCHAR *argv[])
 
 // Ensure the write handle to the pipe for STDIN is not inherited. 
  
-   if ( ! SetHandleInformation(g_hChildStd_IN_Wr, HANDLE_FLAG_INHERIT,
-                               HANDLE_FLAG_INHERIT) )
+   if ( ! SetHandleInformation(g_hChildStd_IN_Wr, HANDLE_FLAG_INHERIT, 0) )
       ErrorExit(TEXT("Stdin SetHandleInformation")); 
  
 // Create the child process. 
