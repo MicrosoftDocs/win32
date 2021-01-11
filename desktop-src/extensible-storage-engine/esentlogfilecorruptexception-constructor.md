@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFileCorruptException constructor"
 title: EsentLogFileCorruptException constructor 
 TOCTitle: 'EsentLogFileCorruptException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogFileCorruptException.#ctor

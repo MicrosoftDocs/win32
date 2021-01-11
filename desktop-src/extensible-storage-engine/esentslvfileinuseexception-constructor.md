@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileInUseException constructor"
 title: EsentSLVFileInUseException constructor 
 TOCTitle: 'EsentSLVFileInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVFileInUseException.#ctor

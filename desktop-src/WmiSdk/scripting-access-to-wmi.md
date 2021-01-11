@@ -1,5 +1,5 @@
 ---
-Description: Scripts can access all WMI classes for hardware and software objects.
+description: Scripts can access all WMI classes for hardware and software objects.
 ms.assetid: dbb29bc8-a675-4538-99f4-00613c83eeaa
 ms.tgt_platform: multiple
 title: Scripting Access to WMI
@@ -19,7 +19,7 @@ You cannot write a [*WMI provider*](gloss-p.md) in script. For more information,
 
 WMI scripts can be written in any scripting language that can interact with ActiveX objects.
 
-Windows PowerShell provides a simple environment for WMI administration and scripting. For more information about PowerShell, see [Getting Started with Windows PowerShell](/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7).
+Windows PowerShell provides a simple environment for WMI administration and scripting. For more information about PowerShell, see [Getting Started with Windows PowerShell](/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7&preserve-view=true).
 
 Active Directory Service Interfaces (ADSI) scripts provides access to Active Directory Domain Services (AD DS) objects. Both WSH and ADSI scripts access objects and allow procedures not available through batch files.
 

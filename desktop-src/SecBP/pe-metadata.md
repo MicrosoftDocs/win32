@@ -1,5 +1,5 @@
 ---
-Description: This article provides additional details for Control Flow Guard metadata in PE images.
+description: This article provides additional details for Control Flow Guard metadata in PE images.
 title: PE metadata
 ms.topic: article
 ms.date: 05/31/2018

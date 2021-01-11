@@ -1,5 +1,5 @@
 ---
-Description: Used to set the ambient light sensor brightness value.
+description: Used to set the ambient light sensor brightness value.
 ms.assetid: 8b3ec692-4043-42b3-8dd6-7a147620e382
 title: WmiSetALSBrightness method of the WmiMonitorBrightnessMethods class
 ms.topic: reference

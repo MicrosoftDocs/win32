@@ -1,5 +1,5 @@
 ---
-Description: A method provider should implement IWbemServices as the primary interface. However, a pure method provider requires only that you implement the IWbemServices::ExecMethodAsync method.
+description: A method provider should implement IWbemServices as the primary interface. However, a pure method provider requires only that you implement the IWbemServices::ExecMethodAsync method.
 ms.assetid: 39466513-48f3-4bf6-a3ab-e9d2c387480c
 ms.tgt_platform: multiple
 title: Implementing the Primary Interface for a Method Provider

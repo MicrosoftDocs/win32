@@ -1,5 +1,5 @@
 ---
-Description: Returns the identifiers of any relevant context nodes that are associated with this warning.
+description: Returns the identifiers of any relevant context nodes that are associated with this warning.
 ms.assetid: 8c418f48-3903-47c1-82e2-085de39574d4
 title: IAnalysisWarning::GetNodeIds method (IACom.h)
 ms.topic: reference

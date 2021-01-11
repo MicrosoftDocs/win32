@@ -1,5 +1,5 @@
 ---
-Description: Sets the maximum picture height that a video decoder will accept as an input type.
+description: Sets the maximum picture height that a video decoder will accept as an input type.
 ms.assetid: 4122B150-3415-4288-8273-AB600901808A
 title: CODECAPI_AVDecVideoMaxCodedHeight property (Codecapi.h)
 ms.topic: reference

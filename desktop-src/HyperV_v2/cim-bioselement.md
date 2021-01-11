@@ -1,5 +1,5 @@
 ---
-Description: Represents the low-level software that is loaded into non-volatile storage and used to start up and configure a computer system (CIM\_ComputerSystem).
+description: Represents the low-level software that is loaded into non-volatile storage and used to start up and configure a computer system (CIM\_ComputerSystem).
 ms.assetid: e34c9b00-2723-4858-805e-5e3e51a5dfd2
 title: CIM_BIOSElement class (Hyper-V management)
 ms.topic: reference

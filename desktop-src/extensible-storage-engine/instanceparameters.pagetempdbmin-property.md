@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.PageTempDBMin property"
 title: InstanceParameters.PageTempDBMin property 
 TOCTitle: 'PageTempDBMin property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.PageTempDBMin

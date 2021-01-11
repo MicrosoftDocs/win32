@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadParentPageLinkException constructor"
 title: EsentBadParentPageLinkException constructor 
 TOCTitle: 'EsentBadParentPageLinkException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadParentPageLinkException.#ctor

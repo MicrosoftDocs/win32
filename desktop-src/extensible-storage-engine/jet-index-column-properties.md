@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_INDEX_COLUMN properties"
 title: JET_INDEX_COLUMN properties (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_INDEX_COLUMN properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_COLUMN

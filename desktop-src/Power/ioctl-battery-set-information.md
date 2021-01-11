@@ -1,5 +1,5 @@
 ---
-Description: Sets various battery information.
+description: Sets various battery information.
 ms.assetid: b827983d-5fb8-43f2-b732-541d16b3eb7b
 title: IOCTL_BATTERY_SET_INFORMATION control code (Poclass.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Generates C declarations for values of all enumerated types.
+description: Generates C declarations for values of all enumerated types.
 ms.assetid: 2808edf6-662d-41ee-8e76-f0ee13fe720b
 title: enumerationValueDeclarations element
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBackupInProgressException methods"
 title: EsentBackupInProgressException methods
 TOCTitle: EsentBackupInProgressException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBackupInProgressException

@@ -1,5 +1,5 @@
 ---
-Description: The Effect class has several descendants that can be used to apply a color effect or adjustment to a bitmap.
+description: The Effect class has several descendants that can be used to apply a color effect or adjustment to a bitmap.
 ms.assetid: 36bf8203-aee1-4086-b23d-31f41222c86d
 title: Image Effect Constants
 ms.topic: article

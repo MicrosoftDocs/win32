@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for file information event. The following syntax is simplified from MOF code.
+description: This class is the event type class for file information event. The following syntax is simplified from MOF code.
 ms.assetid: 41ae1f8a-a90f-43d0-a848-a2c095f046d4
 title: FileIo_Info class
 ms.topic: reference

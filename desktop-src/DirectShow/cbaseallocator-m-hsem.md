@@ -1,5 +1,5 @@
 ---
-Description: Semaphore that is signaled when a sample becomes available.
+description: Semaphore that is signaled when a sample becomes available.
 ms.assetid: 1861bc3a-b071-4876-a69c-84bf249260bd
 title: CBaseAllocator::m_hSem member (Amfilter.h)
 ms.topic: reference

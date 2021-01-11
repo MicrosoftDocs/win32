@@ -1,5 +1,5 @@
 ---
-Description: Represents a color value with alpha, which is used for transparency.
+description: Represents a color value with alpha, which is used for transparency.
 ms.assetid: 27A86A10-FC0E-421E-BEA7-2DEB539849BB
 title: D3DCOLORVALUE structure (Dxgitype.h)
 ms.topic: reference

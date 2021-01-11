@@ -1,5 +1,5 @@
 ---
-Description: The IAzApplicationGroup2 interface exposes the following properties.
+description: The IAzApplicationGroup2 interface exposes the following properties.
 ms.assetid: 40237114-E265-4457-AB66-5AA75D9E336C
 title: IAzApplicationGroup2 Properties
 ms.topic: reference

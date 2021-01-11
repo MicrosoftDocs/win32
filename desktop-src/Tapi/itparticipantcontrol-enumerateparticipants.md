@@ -1,5 +1,5 @@
 ---
-Description: The EnumerateParticipants method enumerates participants associated with the current conference.
+description: The EnumerateParticipants method enumerates participants associated with the current conference.
 ms.assetid: 90a2b5f1-8749-42cd-92d4-f5ee4e680eae
 title: ITParticipantControl::EnumerateParticipants method (Confpriv.h)
 ms.topic: reference

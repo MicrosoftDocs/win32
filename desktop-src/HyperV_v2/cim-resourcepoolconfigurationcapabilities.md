@@ -1,5 +1,5 @@
 ---
-Description: Manages the capabilities of the CIM\_ResourcePoolConfigurationService instance for a CIM\_ResourcePool object.
+description: Manages the capabilities of the CIM\_ResourcePoolConfigurationService instance for a CIM\_ResourcePool object.
 ms.assetid: bd2eb4da-8ecd-4adb-b657-837c8da4dcdc
 title: CIM_ResourcePoolConfigurationCapabilities class
 ms.topic: reference

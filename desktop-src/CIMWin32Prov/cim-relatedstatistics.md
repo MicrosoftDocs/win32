@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_RelatedStatistics association represents hierarchies and dependencies of related CIM\_StatisticalInformation classes.
+description: The CIM\_RelatedStatistics association represents hierarchies and dependencies of related CIM\_StatisticalInformation classes.
 ms.assetid: f5cea01d-7854-4ad4-a89e-db0ce9f4a83f
 ms.tgt_platform: multiple
 title: CIM_RelatedStatistics class

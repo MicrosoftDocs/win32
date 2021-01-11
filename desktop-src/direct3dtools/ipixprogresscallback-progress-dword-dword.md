@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host of the progress of an associated request.
+description: A callback that notifies the host of the progress of an associated request.
 MS-HAID: vspixengine.IPixProgressCallback\_Progress\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

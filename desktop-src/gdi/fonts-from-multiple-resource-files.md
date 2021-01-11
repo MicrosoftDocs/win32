@@ -1,5 +1,5 @@
 ---
-Description: Fonts from Multiple Resource Files
+description: Fonts from Multiple Resource Files
 ms.assetid: 4625fe62-d55d-4828-9174-975a731a8f62
 title: Fonts from Multiple Resource Files
 ms.topic: article

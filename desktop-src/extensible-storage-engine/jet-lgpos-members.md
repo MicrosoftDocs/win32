@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS members"
 title: JET_LGPOS members
 TOCTitle: JET_LGPOS members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_LGPOS

@@ -1,5 +1,5 @@
 ---
-Description: The GetNextAdviseTime method retrieves the time of the next advise request.
+description: The GetNextAdviseTime method retrieves the time of the next advise request.
 ms.assetid: 2a376250-fb39-46d7-a5a8-e3a3143cd209
 title: CAMSchedule.GetNextAdviseTime method (Dsschedule.h)
 ms.topic: reference

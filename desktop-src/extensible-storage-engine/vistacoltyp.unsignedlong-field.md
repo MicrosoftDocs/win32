@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaColtyp.UnsignedLong field"
 title: VistaColtyp.UnsignedLong field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: UnsignedLong field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaColtyp.UnsignedLong

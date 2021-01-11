@@ -1,5 +1,5 @@
 ---
-Description: Requests to run offline analysis with the specified source, manifest, parameters and of the specified frame.
+description: Requests to run offline analysis with the specified source, manifest, parameters and of the specified frame.
 MS-HAID: vspixengine.IOfflineAnalysisRequest\_RequestOfflineAnalysisAsync\_enumOFFLINEANALYSISSOURCE\_BSTR\_BSTR\_DWORD\_BSTR\_DWORD\_BSTR\_IOfflineAnalysisCallback\_ptr
 MSHAttr:
 - PreferredSiteName:MSDN

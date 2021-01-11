@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_PCIController class requests a reset of the logical device.
+description: The Reset method of the CIM\_PCIController class requests a reset of the logical device.
 ms.assetid: 0c51b95b-1e48-432d-bc1e-baedc44a6977
 ms.tgt_platform: multiple
 title: Reset method of the CIM_PCIController class

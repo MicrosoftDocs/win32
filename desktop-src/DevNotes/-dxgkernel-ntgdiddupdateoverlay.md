@@ -1,5 +1,5 @@
 ---
-Description: Repositions or modifies the visual attributes of an overlay surface.
+description: Repositions or modifies the visual attributes of an overlay surface.
 ms.assetid: 6d39166c-0efc-450d-adf4-9f4dfdf7c57f
 title: NtGdiDdUpdateOverlay function (Ntgdi.h)
 ms.topic: reference

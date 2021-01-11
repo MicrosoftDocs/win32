@@ -1,5 +1,5 @@
 ---
-Description: A callback function used to notify the host when saving a texture has been completed.
+description: A callback function used to notify the host when saving a texture has been completed.
 MS-HAID: vspixengine.IPixEngine5Callbacks\_SaveTextureComplete
 MSHAttr:
 - PreferredSiteName:MSDN

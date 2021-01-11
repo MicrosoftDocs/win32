@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTINFO.rgrstmap property"
 title: JET_RSTINFO.rgrstmap property 
 TOCTitle: 'rgrstmap property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RSTINFO.rgrstmap

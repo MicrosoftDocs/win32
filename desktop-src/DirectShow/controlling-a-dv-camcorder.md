@@ -1,5 +1,5 @@
 ---
-Description: Controlling a DV Camcorder
+description: Controlling a DV Camcorder
 ms.assetid: 3b17b28a-cac8-4753-8c4e-3e57f372d8e5
 title: Controlling a DV Camcorder
 ms.topic: article

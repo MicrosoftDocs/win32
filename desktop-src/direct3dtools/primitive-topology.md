@@ -1,5 +1,5 @@
 ---
-Description: An enum used to indicate the topology of a mesh. See MeshDataVertCallback.
+description: An enum used to indicate the topology of a mesh. See MeshDataVertCallback.
 MS-HAID: vspixengine.PRIMITIVE\_TOPOLOGY
 MSHAttr:
 - PreferredSiteName:MSDN

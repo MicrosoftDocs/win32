@@ -1,5 +1,5 @@
 ---
-Description: Gets a new stream for the specified item.
+description: Gets a new stream for the specified item.
 ms.assetid: fe25843c-2051-42fe-8737-eea39f6aeab9
 title: IWiaTransferCallback::GetNextStream method (Wia.h)
 ms.topic: reference

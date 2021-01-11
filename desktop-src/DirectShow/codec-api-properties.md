@@ -1,5 +1,5 @@
 ---
-Description: Codec API Properties
+description: Codec API Properties
 ms.assetid: 5d527af7-07cf-42e2-99bb-d56c856cc1bc
 title: Codec API Properties
 ms.topic: article

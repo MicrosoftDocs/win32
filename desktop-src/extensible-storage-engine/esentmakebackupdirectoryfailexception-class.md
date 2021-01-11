@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMakeBackupDirectoryFailException class"
 title: EsentMakeBackupDirectoryFailException class
 TOCTitle: EsentMakeBackupDirectoryFailException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentMakeBackupDirectoryFailException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SPACEHINTS.ulInitialDensity property"
 title: JET_SPACEHINTS.ulInitialDensity property 
 TOCTitle: 'ulInitialDensity property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS.ulInitialDensity

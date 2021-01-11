@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CrashDumpGrbit enumeration"
 title: CrashDumpGrbit enumeration (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: CrashDumpGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows7.CrashDumpGrbit

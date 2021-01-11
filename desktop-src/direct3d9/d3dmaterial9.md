@@ -1,5 +1,5 @@
 ---
-Description: Specifies material properties.
+description: Specifies material properties.
 ms.assetid: 943e6f6d-8091-462f-8c44-e0c27686934a
 title: D3DMATERIAL9 structure (D3D9Types.h)
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Functions with Unicode (W) Versions"
 ms.assetid: 3457cfb6-3891-4e15-a4e0-53ad43adcc2d
 title: Functions with Unicode (W) Versions
 ms.topic: article

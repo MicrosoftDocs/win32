@@ -1,5 +1,5 @@
 ---
-Description: Specifies how the decoded video stream is interlaced.
+description: Specifies how the decoded video stream is interlaced.
 ms.assetid: a2b95b90-1c58-47f3-b6a8-0f3f6f1a416c
 title: AVDecVideoInputScanType property (Codecapi.h)
 ms.topic: reference

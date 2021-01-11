@@ -1,5 +1,5 @@
 ---
-Description: The put\_Width method specifies the width of the target rectangle.
+description: The put\_Width method specifies the width of the target rectangle.
 ms.assetid: 16a2d860-6f5d-4f36-ba54-1be2d3fef705
 title: IDxtCompositor::put_Width method (Qedit.h)
 ms.topic: reference

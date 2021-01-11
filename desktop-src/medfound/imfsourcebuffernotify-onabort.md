@@ -1,5 +1,5 @@
 ---
-Description: Used to indicate that the source buffer has been aborted.
+description: Used to indicate that the source buffer has been aborted.
 ms.assetid: 65d8bbb3-e683-4a9d-acb2-023932d3e44d
 title: IMFSourceBufferNotify::OnAbort method
 ms.topic: reference

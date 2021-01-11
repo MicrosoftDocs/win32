@@ -1,5 +1,5 @@
 ---
-Description: The COM+ partitions feature includes a partition cache. This cache stores user-to-partition mappings and is designed to avoid repetitive Active Directory access.
+description: The COM+ partitions feature includes a partition cache. This cache stores user-to-partition mappings and is designed to avoid repetitive Active Directory access.
 ms.assetid: 8c3a269d-1933-4df6-aefb-f1f5587f1f42
 title: Configuring the Partition Cache
 ms.topic: article

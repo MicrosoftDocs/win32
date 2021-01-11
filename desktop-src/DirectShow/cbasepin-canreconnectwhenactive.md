@@ -1,5 +1,5 @@
 ---
-Description: The CanReconnectWhenActive method queries whether the pin supports dynamic reconnections.
+description: The CanReconnectWhenActive method queries whether the pin supports dynamic reconnections.
 ms.assetid: a2679987-7897-4b18-b06b-9ab8f2f3b9f5
 title: CBasePin.CanReconnectWhenActive method (Amfilter.h)
 ms.topic: reference

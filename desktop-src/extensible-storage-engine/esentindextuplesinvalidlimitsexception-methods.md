@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesInvalidLimitsException methods"
 title: EsentIndexTuplesInvalidLimitsException methods
 TOCTitle: EsentIndexTuplesInvalidLimitsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesInvalidLimitsException

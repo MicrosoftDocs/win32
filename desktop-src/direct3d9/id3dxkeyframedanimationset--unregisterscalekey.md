@@ -1,5 +1,5 @@
 ---
-Description: Removes the scale data at the specified key frame.
+description: Removes the scale data at the specified key frame.
 ms.assetid: b0bf5665-ccfb-4b87-8e88-9a717ef57955
 title: ID3DXKeyframedAnimationSet::UnregisterScaleKey method (D3dx9anim.h)
 ms.topic: reference

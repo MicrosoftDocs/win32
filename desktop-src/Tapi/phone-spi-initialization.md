@@ -1,5 +1,5 @@
 ---
-Description: As part of the phone device abstraction defined by TSPI, TAPI and the service provider must first undergo basic initialization.
+description: As part of the phone device abstraction defined by TSPI, TAPI and the service provider must first undergo basic initialization.
 ms.assetid: cd8bb328-fbd0-409c-8471-34ad4c2c8d93
 title: Phone SPI Initialization
 ms.topic: article

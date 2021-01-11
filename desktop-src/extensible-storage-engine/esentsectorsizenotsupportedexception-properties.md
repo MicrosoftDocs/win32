@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSectorSizeNotSupportedException properties"
 title: EsentSectorSizeNotSupportedException properties
 TOCTitle: EsentSectorSizeNotSupportedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSectorSizeNotSupportedException

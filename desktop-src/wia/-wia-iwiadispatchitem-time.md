@@ -1,5 +1,5 @@
 ---
-Description: The current time. Applies only to devices. Read-only.
+description: The current time. Applies only to devices. Read-only.
 ms.assetid: 090045c2-0f09-4929-8623-9f299f721de8
 title: Item.Time property
 ms.topic: reference

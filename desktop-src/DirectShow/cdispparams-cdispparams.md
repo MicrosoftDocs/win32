@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: Constructor method.
 ms.assetid: da67a5e4-b4a1-4a38-93fe-0965695e93f5
 title: CDispParams.CDispParams constructor (Ctlutil.h)
 ms.topic: reference

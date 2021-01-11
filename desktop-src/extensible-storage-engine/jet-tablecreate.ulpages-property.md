@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE.ulPages property"
 title: JET_TABLECREATE.ulPages property 
 TOCTitle: 'ulPages property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.ulPages

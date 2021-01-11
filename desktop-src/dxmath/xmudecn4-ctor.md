@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMUDECN4.
+description: Constructors exposed by XMUDECN4.
 ms.assetid: ed72a9be-23ef-4ebf-8690-48948d3f9c7f
 title: XMUDECN4 constructors
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexInfo class"
 title: IndexInfo class
 TOCTitle: IndexInfo class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.IndexInfo

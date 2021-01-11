@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 'e81068db-ab8e-420c-a0be-93bc92f3df6f'
 title: Option Definitions
 ms.topic: article

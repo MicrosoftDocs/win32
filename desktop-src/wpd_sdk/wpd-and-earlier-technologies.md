@@ -1,5 +1,5 @@
 ---
-Description: WPD and Earlier Technologies
+description: WPD and Earlier Technologies
 ms.assetid: 89ba8012-17d9-4b8e-9ffb-d40f66082034
 title: WPD and Earlier Technologies
 ms.topic: article

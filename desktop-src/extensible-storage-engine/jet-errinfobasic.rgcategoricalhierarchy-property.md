@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ERRINFOBASIC.rgCategoricalHierarchy property"
 title: JET_ERRINFOBASIC.rgCategoricalHierarchy property  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'rgCategoricalHierarchy property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC.rgCategoricalHierarchy

@@ -1,5 +1,5 @@
 ---
-Description: You can extend Windows Search to index the contents and properties of new file formats, and data stores using data add-in interfaces.
+description: You can extend Windows Search to index the contents and properties of new file formats, and data stores using data add-in interfaces.
 ms.assetid: 69edf316-77a8-4cc5-9af8-fb89f440c9ea
 title: Extending the Index (Windows Search)
 ms.topic: article

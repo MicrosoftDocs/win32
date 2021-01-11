@@ -1,5 +1,5 @@
 ---
-Description: The following attributes can be used to configure the Capture Engine.
+description: The following attributes can be used to configure the Capture Engine.
 ms.assetid: C153F0AD-4E8B-41DA-B7FB-8D10AC20D22E
 title: Capture Engine Attributes
 ms.topic: article

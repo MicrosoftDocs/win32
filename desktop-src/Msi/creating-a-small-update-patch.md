@@ -1,5 +1,5 @@
 ---
-Description: Adhere to the following guidelines when creating a patch for a Windows Installer small update.
+description: Adhere to the following guidelines when creating a patch for a Windows Installer small update.
 ms.assetid: 0e57c2aa-e86a-4161-9749-c7963182a6d5
 title: Creating a Small Update Patch
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_ICURRENCY
+description: LOCALE\_ICURRENCY
 ms.assetid: af98a851-f401-4a5a-b85f-ec9d97d7ede0
 title: LOCALE_ICURRENCY
 ms.topic: article

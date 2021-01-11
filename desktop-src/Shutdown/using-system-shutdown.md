@@ -1,5 +1,5 @@
 ---
-Description: Navigation page for how to use system shutdown.
+description: Navigation page for how to use system shutdown.
 ms.assetid: 4fe44688-a44e-4725-a744-e0eb6c3e29c0
 title: Using System Shutdown
 ms.topic: article

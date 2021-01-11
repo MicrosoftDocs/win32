@@ -1,5 +1,5 @@
 ---
-Description: 'The FontFamily class provides the following methods that retrieve various metrics for a particular family/style combination:'
+description: 'The FontFamily class provides the following methods that retrieve various metrics for a particular family/style combination:'
 ms.assetid: 3be485d0-9e0d-43e0-813e-668102ebc010
 title: Obtaining Font Metrics
 ms.topic: article

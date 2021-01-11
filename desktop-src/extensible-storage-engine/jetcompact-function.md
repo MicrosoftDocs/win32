@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCompact Function"
 title: JetCompact Function
 TOCTitle: JetCompact Function
 ms:assetid: 6944bd61-893d-4269-869b-56590e22580a

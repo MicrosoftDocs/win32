@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SPACEHINTS.cbMinExtent property"
 title: JET_SPACEHINTS.cbMinExtent property 
 TOCTitle: 'cbMinExtent property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS.cbMinExtent

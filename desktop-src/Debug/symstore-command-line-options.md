@@ -1,5 +1,5 @@
 ---
-Description: The following syntax forms are supported for SymStore transactions. The first parameter must always be add or del. The order of the other parameters does not matter.
+description: The following syntax forms are supported for SymStore transactions. The first parameter must always be add or del. The order of the other parameters does not matter.
 ms.assetid: d6d10adb-cb17-4ce3-b0e5-493b313ebdba
 title: SymStore Command-Line Options
 ms.topic: article

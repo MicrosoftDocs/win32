@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the GetBounds methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
+description: This topic lists the GetBounds methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 ms.assetid: 2fb7e568-fce1-4d00-9d24-2f677e280a67
 title: GraphicsPath.GetBounds methods
 ms.date: 07/02/2019

@@ -1,5 +1,5 @@
 ---
-Description: Table of Contents Parser Functions
+description: Table of Contents Parser Functions
 ms.assetid: 507aaf9c-c4ab-47e0-8cfa-2f249bcb3b7b
 title: Table of Contents Parser Functions
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: When you run a script on a local system that obtains data from a remote system, WMI supplies your credentials to the provider of the data on the remote system.
+description: When you run a script on a local system that obtains data from a remote system, WMI supplies your credentials to the provider of the data on the remote system.
 ms.assetid: e27ff207-b067-47df-9706-e8af51646d28
 ms.tgt_platform: multiple
 title: Delegating with WMI

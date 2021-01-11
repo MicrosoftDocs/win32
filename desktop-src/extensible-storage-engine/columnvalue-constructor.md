@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValue constructor"
 title: ColumnValue constructor 
 TOCTitle: 'ColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnValue.#ctor

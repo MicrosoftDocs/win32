@@ -1,5 +1,5 @@
 ---
-Description: A model that describes the loudness of oriented sound.
+description: A model that describes the loudness of oriented sound.
 ms.assetid: 15252358-d932-22f4-f13a-8e4b8487dd86
 title: Sound Cones
 ms.topic: article

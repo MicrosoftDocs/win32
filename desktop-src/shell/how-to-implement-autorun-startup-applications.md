@@ -1,5 +1,5 @@
 ---
-Description: There are essentially no constraints on how to write an AutoRun startup application.
+description: There are essentially no constraints on how to write an AutoRun startup application.
 ms.assetid: 6D95E5F0-8D93-47A8-9D8C-49CBDCA150A7
 title: How to Implement AutoRun Startup Applications
 ms.topic: article

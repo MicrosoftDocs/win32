@@ -1,5 +1,5 @@
 ---
-Description: Creating Topologies
+description: Creating Topologies
 ms.assetid: afd1e646-9bb6-4265-a225-6aaaf1a7bb2a
 title: Creating Topologies
 ms.topic: article

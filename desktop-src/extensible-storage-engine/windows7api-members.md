@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Windows7Api members"
 title: Windows7Api members (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: Windows7Api members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Windows7.Windows7Api

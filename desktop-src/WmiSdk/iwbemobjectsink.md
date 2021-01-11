@@ -1,5 +1,5 @@
 ---
-Description: The IWbemObjectSink interface creates a sink interface that can receive all types of notifications within the WMI programming model.
+description: The IWbemObjectSink interface creates a sink interface that can receive all types of notifications within the WMI programming model.
 ms.assetid: 987aea1d-912a-4691-987f-181c1ef1a8a9
 ms.tgt_platform: multiple
 title: IWbemObjectSink interface (Wbemcli.h)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetInstanceInfo Function"
 title: JetGetInstanceInfo Function
 TOCTitle: JetGetInstanceInfo Function
 ms:assetid: ffccdac0-3631-4753-876a-90ddfdd0252f

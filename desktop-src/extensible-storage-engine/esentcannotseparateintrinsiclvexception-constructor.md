@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotSeparateIntrinsicLVException constructor"
 title: EsentCannotSeparateIntrinsicLVException constructor 
 TOCTitle: 'EsentCannotSeparateIntrinsicLVException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotSeparateIntrinsicLVException.#ctor

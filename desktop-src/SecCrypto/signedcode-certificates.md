@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the collection of certificates in the signed executable file.
+description: Retrieves the collection of certificates in the signed executable file.
 ms.assetid: ecc05117-8b98-4e49-9671-71829df24597
 title: SignedCode.Certificates property
 ms.topic: reference

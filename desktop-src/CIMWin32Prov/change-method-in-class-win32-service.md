@@ -1,5 +1,5 @@
 ---
-Description: Modifies a Win32\_Service.
+description: Modifies a Win32\_Service.
 ms.assetid: b32753c5-8fcf-44ee-a95f-e4f6076e0f28
 ms.tgt_platform: multiple
 title: Change method of the Win32_Service class (Mbnapi.h)

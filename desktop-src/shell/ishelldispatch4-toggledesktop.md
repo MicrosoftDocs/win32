@@ -1,5 +1,5 @@
 ---
-Description: Displays or hides the desktop.
+description: Displays or hides the desktop.
 title: IShellDispatch4.ToggleDesktop method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018

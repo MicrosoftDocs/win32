@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Api.JetResizeDatabase method"
 title: Windows8Api.JetResizeDatabase method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JetResizeDatabase method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetResizeDatabase(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,System.Int32,System.Int32@,Microsoft.Isam.Esent.Interop.Windows8.ResizeDatabaseGrbit)

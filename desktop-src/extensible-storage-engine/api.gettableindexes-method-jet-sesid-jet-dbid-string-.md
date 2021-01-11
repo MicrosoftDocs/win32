@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.GetTableIndexes method (JET_SESID, JET_DBID, String)"
 title: Api.GetTableIndexes method (JET_SESID, JET_DBID, String)
 TOCTitle: GetTableIndexes method (JET_SESID, JET_DBID, String)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.GetTableIndexes(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,System.String)

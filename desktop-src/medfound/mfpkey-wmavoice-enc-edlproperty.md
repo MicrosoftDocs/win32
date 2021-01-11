@@ -1,5 +1,5 @@
 ---
-Description: Specifies the portions of content to be encoded as music by the voice codec.
+description: Specifies the portions of content to be encoded as music by the voice codec.
 ms.assetid: c63034ce-33d7-4f2f-9498-fc16e25b6d4d
 title: MFPKEY_WMAVOICE_ENC_EDL Property (Wmcodecdsp.h)
 ms.topic: reference

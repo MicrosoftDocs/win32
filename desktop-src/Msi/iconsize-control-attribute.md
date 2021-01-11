@@ -1,5 +1,5 @@
 ---
-Description: An icon file can hold several different sizes of the same icon image.
+description: An icon file can hold several different sizes of the same icon image.
 ms.assetid: 2d4d3689-a45a-4088-b466-e2b3bf4c8fb5
 title: IconSize Control Attribute
 ms.topic: article

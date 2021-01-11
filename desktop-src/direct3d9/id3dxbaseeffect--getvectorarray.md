@@ -1,5 +1,5 @@
 ---
-Description: Gets an array of vectors.
+description: Gets an array of vectors.
 ms.assetid: 75fe454c-75f7-4f03-acd2-dd9cbf94fb96
 title: ID3DXBaseEffect::GetVectorArray method (D3DX9Shader.h)
 ms.topic: reference

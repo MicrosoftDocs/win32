@@ -1,5 +1,5 @@
 ---
-Description: Contains information about the conditions under which the battery status is to be retrieved.
+description: Contains information about the conditions under which the battery status is to be retrieved.
 ms.assetid: 1750fe0f-ba3d-4118-938c-789c6d62c3f7
 title: BATTERY_WAIT_STATUS structure (Poclass.h)
 ms.topic: reference

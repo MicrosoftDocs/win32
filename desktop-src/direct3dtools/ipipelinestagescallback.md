@@ -1,5 +1,5 @@
 ---
-Description: Not used. Formerly a callback for pipeline stages data.
+description: Not used. Formerly a callback for pipeline stages data.
 MS-HAID: vspixengine.IPipeLineStagesCallback
 MSHAttr:
 - PreferredSiteName:MSDN

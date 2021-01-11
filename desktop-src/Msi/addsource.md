@@ -1,5 +1,5 @@
 ---
-Description: The value of the ADDSOURCE property is a list of features that are delimited by commas, and are to be installed to run from the source.
+description: The value of the ADDSOURCE property is a list of features that are delimited by commas, and are to be installed to run from the source.
 ms.assetid: 7bc38b49-72d8-4b0c-bd71-284a638e7860
 title: ADDSOURCE property
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Indicates the kind of secret used to derive a key to be used for encryption/decryption of data.
+description: Indicates the kind of secret used to derive a key to be used for encryption/decryption of data.
 ms.assetid: 2d3b9de3-0519-4ebe-900d-48baddf2c61a
 title: CAPICOM_SECRET_TYPE enumeration (Capicom.h)
 ms.topic: reference

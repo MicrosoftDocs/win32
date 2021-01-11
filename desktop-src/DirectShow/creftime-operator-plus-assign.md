@@ -1,5 +1,5 @@
 ---
-Description: The += operator adds two reference times.
+description: The += operator adds two reference times.
 ms.assetid: 016d3dac-4d7c-490a-83aa-1d88a2080748
 title: CRefTime.operator+= method (Reftime.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a string that contains the name of the certificate subject.
+description: Retrieves a string that contains the name of the certificate subject.
 ms.assetid: 95dc7e8b-6670-4dfc-9fe1-d37635fb92d6
 title: Certificate.SubjectName property
 ms.topic: reference

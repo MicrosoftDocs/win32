@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SystemDriver class exposes the following methods.
+description: The Win32\_SystemDriver class exposes the following methods.
 ms.assetid: 0DCAFE45-3FB0-47E8-BC11-26963075832F
 ms.tgt_platform: multiple
 title: Win32_SystemDriver Methods

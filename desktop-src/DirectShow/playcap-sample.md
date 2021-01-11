@@ -1,5 +1,5 @@
 ---
-Description: PlayCap Sample
+description: PlayCap Sample
 ms.assetid: 3faba514-23b7-4107-aca6-5b113a0ca164
 title: PlayCap Sample
 ms.topic: article

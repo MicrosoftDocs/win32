@@ -1,5 +1,5 @@
 ---
-Description: Certain programming techniques run into performance issues that are linked to the implementation of TCP/IP.
+description: Certain programming techniques run into performance issues that are linked to the implementation of TCP/IP.
 ms.assetid: 2a63e85e-06fd-4b6f-8351-9866099b9d54
 title: TCP/IP-specific Issues
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OPENTEMPORARYTABLE.pidxunicode property"
 title: JET_OPENTEMPORARYTABLE.pidxunicode property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'pidxunicode property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE.pidxunicode

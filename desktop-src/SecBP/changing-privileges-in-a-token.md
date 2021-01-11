@@ -1,5 +1,5 @@
 ---
-Description: Explains how to change privileges in a token by using the AdjustTokenPrivileges and CreateRestrictedToken functions.
+description: Explains how to change privileges in a token by using the AdjustTokenPrivileges and CreateRestrictedToken functions.
 ms.assetid: b8e47d04-07c1-4d57-8209-6b0c397476e5
 title: Changing Privileges in a Token
 ms.topic: article

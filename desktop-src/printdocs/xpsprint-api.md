@@ -1,5 +1,5 @@
 ---
-Description: Prints XPS documents from Windows-based applications.
+description: Prints XPS documents from Windows-based applications.
 ms.assetid: '456d7fd1-8d67-480c-b953-59d0268f9656'
 title: XPS Print API Reference
 ms.topic: article

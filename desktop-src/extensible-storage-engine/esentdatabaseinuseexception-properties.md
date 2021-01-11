@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseInUseException properties"
 title: EsentDatabaseInUseException properties
 TOCTitle: EsentDatabaseInUseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInUseException

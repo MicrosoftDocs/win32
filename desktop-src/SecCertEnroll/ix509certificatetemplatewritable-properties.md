@@ -1,5 +1,5 @@
 ---
-Description: The IX509CertificateTemplateWritable interface exposes the following properties.
+description: The IX509CertificateTemplateWritable interface exposes the following properties.
 ms.assetid: E4922FC4-0767-41A6-8F3C-199E307E3876
 title: IX509CertificateTemplateWritable Properties
 ms.topic: reference

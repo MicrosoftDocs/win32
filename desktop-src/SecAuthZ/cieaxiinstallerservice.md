@@ -1,5 +1,5 @@
 ---
-Description: Implements the IAxiService and IeAxiServiceCallback interfaces.
+description: Implements the IAxiService and IeAxiServiceCallback interfaces.
 ms.assetid: 39f2ee3a-d4fd-4091-acd6-3d6b715bea75
 title: CIeAxiInstallerService object
 ms.topic: reference

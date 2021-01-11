@@ -1,5 +1,5 @@
 ---
-Description: To enable the transfer of application files, COMREPL automatically manages sets of file system folders on the source and target. These COMREPL folders are all rooted in %systemdir%\\com\\replication.
+description: To enable the transfer of application files, COMREPL automatically manages sets of file system folders on the source and target. These COMREPL folders are all rooted in %systemdir%\\com\\replication.
 ms.assetid: 8c59577b-34ea-4675-aaea-a2732fd5ce14
 title: File Management (Component Services)
 ms.topic: article

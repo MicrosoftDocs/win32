@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_MonitorSetting class associates the monitor resolution with the desktop monitor to which it applies.
+description: The CIM\_MonitorSetting class associates the monitor resolution with the desktop monitor to which it applies.
 ms.assetid: 4bf0b2d5-b901-4294-a33b-9c8a87785af0
 ms.tgt_platform: multiple
 title: CIM_MonitorSetting class

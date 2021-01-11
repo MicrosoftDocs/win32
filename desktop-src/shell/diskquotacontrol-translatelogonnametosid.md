@@ -1,5 +1,5 @@
 ---
-Description: Translates a logon name to the corresponding user security ID in string format.
+description: Translates a logon name to the corresponding user security ID in string format.
 title: DiskQuotaControl.TranslateLogonNameToSID method
 ms.topic: reference
 ms.date: 05/31/2018

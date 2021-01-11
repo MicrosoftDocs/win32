@@ -1,5 +1,5 @@
 ---
-Description: Associates a service with its hosting computer system.
+description: Associates a service with its hosting computer system.
 ms.assetid: 888ABA71-6D67-4933-89E6-40F731AA7153
 title: Msvm_HostedService class
 ms.topic: reference

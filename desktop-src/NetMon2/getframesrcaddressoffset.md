@@ -1,5 +1,5 @@
 ---
-Description: The GetFrameSrcAddressOffset function returns the offset of the frames source address.
+description: The GetFrameSrcAddressOffset function returns the offset of the frames source address.
 ms.assetid: 1c5408d7-cf66-4887-93ee-134c0b8c5eff
 title: GetFrameSrcAddressOffset function (Netmon.h)
 ms.topic: reference

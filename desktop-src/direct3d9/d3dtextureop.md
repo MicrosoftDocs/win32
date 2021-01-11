@@ -1,5 +1,5 @@
 ---
-Description: Defines per-stage texture-blending operations.
+description: Defines per-stage texture-blending operations.
 ms.assetid: 7bfdcb15-c3c3-4e7e-b924-6ecfa350e2f3
 title: D3DTEXTUREOP enumeration (D3D9Types.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Contains the decode time stamp (DTS) for the sample.
+description: Contains the decode time stamp (DTS) for the sample.
 ms.assetid: 4E0B8266-FF48-49A1-AB7B-A47C4F96AECD
 title: MFSampleExtension_DecodeTimestamp attribute (Mfapi.h)
 ms.topic: reference

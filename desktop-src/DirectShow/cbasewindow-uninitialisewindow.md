@@ -1,5 +1,5 @@
 ---
-Description: The UninitialiseWindow method releases the window's resources.
+description: The UninitialiseWindow method releases the window's resources.
 ms.assetid: 8c5bb0c1-1d92-4025-bbbd-1e57ddde4456
 title: CBaseWindow.UninitialiseWindow method (Winutil.h)
 ms.topic: reference

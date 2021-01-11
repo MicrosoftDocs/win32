@@ -1,5 +1,5 @@
 ---
-Description: Developer guide for redistributable version of XAudio 2.9
+description: Developer guide for redistributable version of XAudio 2.9
 ms.assetid: 
 title: Developer guide for redistributable version of XAudio 2.9
 ms.topic: article

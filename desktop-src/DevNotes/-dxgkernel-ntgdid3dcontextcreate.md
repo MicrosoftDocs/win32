@@ -1,5 +1,5 @@
 ---
-Description: Creates a context.
+description: Creates a context.
 ms.assetid: f972ab40-c9e9-4d2a-88f6-4c7817d5533f
 title: NtGdiD3DContextCreate function (Ntgdi.h)
 ms.topic: reference

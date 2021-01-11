@@ -1,5 +1,5 @@
 ---
-Description: Request for returning the list of events in a frame.
+description: Request for returning the list of events in a frame.
 MS-HAID: vspixengine.IFrameEventsRequest
 MSHAttr:
 - PreferredSiteName:MSDN

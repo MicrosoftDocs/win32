@@ -1,5 +1,5 @@
 ---
-Description: After you understand the Search Result mode, the Browse mode, and the layout patterns, you can register a custom property list for your file type.To register a custom property list and layout pattern for your file type, follow these steps.
+description: After you understand the Search Result mode, the Browse mode, and the layout patterns, you can register a custom property list for your file type.To register a custom property list and layout pattern for your file type, follow these steps.
 ms.assetid: 29B863B3-E5FD-4E0A-B76B-4AFE5A6A76E3
 title: How to Register Custom Properties and Layout for Your File Type
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: OPM Commands
+description: OPM Commands
 ms.assetid: 52165e1b-a178-4483-bf76-4197281f856d
 title: OPM Commands
 ms.topic: article

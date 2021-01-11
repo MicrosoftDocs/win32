@@ -1,5 +1,5 @@
 ---
-Description: Clears the object's cached user information.
+description: Clears the object's cached user information.
 title: DIDiskQuotaUser.Invalidate method
 ms.topic: reference
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: Gets or sets a value that represents the year component of the DATETIME value.
+description: Gets or sets a value that represents the year component of the DATETIME value.
 ms.assetid: eab3738a-c92a-4602-b1ee-e2547da88308
 ms.tgt_platform: multiple
 title: SWbemDateTime.Year property (Wbemdisp.h)

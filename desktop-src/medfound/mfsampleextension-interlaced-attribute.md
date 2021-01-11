@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether a video frame is interlaced or progressive.
+description: Indicates whether a video frame is interlaced or progressive.
 ms.assetid: 3cb80e75-e803-493b-a22d-e485e77b5177
 title: MFSampleExtension_Interlaced attribute (Mfapi.h)
 ms.topic: reference

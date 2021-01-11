@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInstanceNameInUseException class"
 title: EsentInstanceNameInUseException class
 TOCTitle: EsentInstanceNameInUseException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInstanceNameInUseException

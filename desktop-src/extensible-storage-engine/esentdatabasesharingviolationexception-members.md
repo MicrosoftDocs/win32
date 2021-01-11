@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseSharingViolationException members"
 title: EsentDatabaseSharingViolationException members
 TOCTitle: EsentDatabaseSharingViolationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseSharingViolationException

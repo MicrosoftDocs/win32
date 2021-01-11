@@ -1,5 +1,5 @@
 ---
-Description: The components of the Windows Installer Software Development Kit are included in the Microsoft Windows Software Development Kit (SDK).
+description: The components of the Windows Installer Software Development Kit are included in the Microsoft Windows Software Development Kit (SDK).
 ms.assetid: d2947c01-8a2b-42b1-b94e-06a100f70f4f
 title: Windows SDK Components for Windows Installer Developers
 ms.topic: article

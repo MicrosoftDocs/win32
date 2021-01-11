@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Media Foundation.
+description: The Microsoft Media Foundation.
 ms.assetid: 4C397139-6553-4707-B737-7C31C5D423BA
 title: MP3 Audio Encoder
 ms.topic: reference

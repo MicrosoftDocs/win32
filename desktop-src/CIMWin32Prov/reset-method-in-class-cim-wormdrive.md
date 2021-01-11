@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_WORMDrive class requests a reset of the logical device.
+description: The Reset method of the CIM\_WORMDrive class requests a reset of the logical device.
 ms.assetid: ece4a618-6748-45a7-90fe-34eccf0f59d7
 ms.tgt_platform: multiple
 title: Reset method of the CIM_WORMDrive class

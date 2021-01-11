@@ -1,5 +1,5 @@
 ---
-Description: In addition to certificates and certificate revocation lists (CRL), the CryptoAPI certificate store supports the certificate trust list (CTL).
+description: In addition to certificates and certificate revocation lists (CRL), the CryptoAPI certificate store supports the certificate trust list (CTL).
 ms.assetid: b0f7e7ce-f981-4f3f-83a0-7792224ce0e3
 title: Certificate Trust List Overview
 ms.topic: article

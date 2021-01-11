@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SNPROG methods"
 title: JET_SNPROG methods
 TOCTitle: JET_SNPROG methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_SNPROG

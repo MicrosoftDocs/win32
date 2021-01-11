@@ -1,5 +1,5 @@
 ---
-Description: If this bit is set on an Edit control, the installer creates a multiple line edit control with a vertical scroll bar.
+description: If this bit is set on an Edit control, the installer creates a multiple line edit control with a vertical scroll bar.
 ms.assetid: cbdbe088-9cf1-4af8-a5f7-072faee7f34e
 title: MultiLine Control Attribute
 ms.topic: article

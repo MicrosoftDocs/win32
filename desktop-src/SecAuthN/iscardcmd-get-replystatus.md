@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the reply APDU's message status word.
+description: Retrieves the reply APDU's message status word.
 ms.assetid: c8a4b713-4ae9-49f2-a623-6ee305123638
 title: ISCardCmd::get_ReplyStatus method (Scarddat.h)
 ms.topic: reference

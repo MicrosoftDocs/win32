@@ -1,5 +1,5 @@
 ---
-Description: How to create a basic IP Helper application.
+description: How to create a basic IP Helper application.
 ms.assetid: b53f1cf5-3659-407e-8279-5c94333f3017
 title: Creating a Basic IP Helper Application
 ms.topic: article

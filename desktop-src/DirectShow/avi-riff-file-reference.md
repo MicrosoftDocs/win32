@@ -1,5 +1,5 @@
 ---
-Description: AVI RIFF File Reference
+description: AVI RIFF File Reference
 ms.assetid: 2d8cf5be-1252-4b58-89b1-f5c53ea17d0e
 title: AVI RIFF File Reference
 ms.topic: article

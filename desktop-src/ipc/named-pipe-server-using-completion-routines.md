@@ -1,5 +1,5 @@
 ---
-Description: Code example is a single-threaded pipe server that creates a message-type pipe and uses overlapped operations.
+description: Code example is a single-threaded pipe server that creates a message-type pipe and uses overlapped operations.
 ms.assetid: 8b73485c-c6f7-44df-9e53-308df2c752e7
 title: Named Pipe Server Using Completion Routines
 ms.topic: article

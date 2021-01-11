@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_LogicalProgramGroup&\#8194;WMI class represents a program group in a computer system running Windows. For example, Accessories or Startup.
+description: The Win32\_LogicalProgramGroup&\#8194;WMI class represents a program group in a computer system running Windows. For example, Accessories or Startup.
 ms.assetid: e05b512d-92ab-4864-b8df-f4a8b66761c9
 ms.tgt_platform: multiple
 title: Win32_LogicalProgramGroup class

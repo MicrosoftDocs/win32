@@ -1,5 +1,5 @@
 ---
-Description: There are several ways to use Windows Search to query the index. This topic outlines Advanced Query Syntax (AQS) and Structured Query Language (SQL) based approaches.
+description: There are several ways to use Windows Search to query the index. This topic outlines Advanced Query Syntax (AQS) and Structured Query Language (SQL) based approaches.
 ms.assetid: 544f03b3-cdf8-4550-a6da-e4a3bfc44744
 title: Using SQL and AQS Approaches to Query the Index
 ms.topic: article

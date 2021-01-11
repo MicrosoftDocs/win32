@@ -1,5 +1,5 @@
 ---
-Description: The information in this topic identifies the additions and changes that are available in Windows Installer&\#160;5.0.
+description: The information in this topic identifies the additions and changes that are available in Windows Installer&\#160;5.0.
 ms.assetid: c088c15b-0eef-4a92-bb65-e7fe871afbfe
 title: What's New in Windows Installer 5.0
 ms.topic: article

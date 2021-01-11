@@ -1,5 +1,5 @@
 ---
-Description: The get\_PrerollTime method retrieves the amount of data that will be queued before the start position. This method implements the IMediaPosition::get\_PrerollTime method.
+description: The get\_PrerollTime method retrieves the amount of data that will be queued before the start position. This method implements the IMediaPosition::get\_PrerollTime method.
 ms.assetid: 37c12798-eb0d-4859-8b2e-52d6ae147863
 title: CPosPassThru.get_PrerollTime method (Ctlutil.h)
 ms.topic: reference

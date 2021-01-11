@@ -1,5 +1,5 @@
 ---
-Description: Creates a ID3DXCompressedAnimationSet key framed animation set interface that stores key frame data in a compressed format.
+description: Creates a ID3DXCompressedAnimationSet key framed animation set interface that stores key frame data in a compressed format.
 ms.assetid: c3f97d35-5654-4d85-a337-d77819ce3874
 title: D3DXCreateCompressedAnimationSet function (D3dx9anim.h)
 ms.topic: reference

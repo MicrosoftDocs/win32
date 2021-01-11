@@ -1,5 +1,5 @@
 ---
-Description: The extents of the BoundingOrientedBox.
+description: The extents of the BoundingOrientedBox.
 ms.assetid: ee7d7b7f-9c9c-4da9-8a88-b69dc7e8a004
 title: BoundingOrientedBox.Extents (DirectXCollision.h)
 ms.topic: reference

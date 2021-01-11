@@ -1,5 +1,5 @@
 ---
-Description: Each user and group security identifier (SID) in an access token has a set of attributes that control how the system uses the SID in an access check. The following table lists the attributes that control access checking.
+description: Each user and group security identifier (SID) in an access token has a set of attributes that control how the system uses the SID in an access check. The following table lists the attributes that control access checking.
 ms.assetid: c902f876-f05e-4b0c-ab65-a0c6cebca933
 title: SID Attributes in an Access Token
 ms.topic: article

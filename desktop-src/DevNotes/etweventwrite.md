@@ -1,5 +1,5 @@
 ---
-Description: 
+description: "Learn more about: EtwEventWrite function"
 title: EtwEventWrite
 ms.topic: reference
 ms.date: 05/31/2018

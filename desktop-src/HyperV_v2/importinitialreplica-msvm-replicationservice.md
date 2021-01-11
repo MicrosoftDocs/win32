@@ -1,5 +1,5 @@
 ---
-Description: Imports the initial replication for a virtual machine.
+description: Imports the initial replication for a virtual machine.
 ms.assetid: 151211fe-e58e-4fd4-87cd-cdb2ad55c0b1
 title: ImportInitialReplica method of the Msvm_ReplicationService class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: 'This section lists the properties defined by Windows Installer:'
+description: 'This section lists the properties defined by Windows Installer:'
 ms.assetid: c91119b9-59d5-4a33-91cd-d3ba63659d12
 title: Property Reference
 ms.topic: article

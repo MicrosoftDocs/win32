@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the Voice Capture DSP performs noise suppression.
+description: Specifies whether the Voice Capture DSP performs noise suppression.
 ms.assetid: d63e9ac1-9584-4f74-8404-c95d17eb8c2d
 title: MFPKEY_WMAAECMA_FEATR_NS Property (Wmcodecdsp.h)
 ms.topic: reference

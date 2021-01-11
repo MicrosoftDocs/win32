@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DiskPartition class represents a contiguous range of logical blocks that is identifiable by the operating system by way of the partition's type and subtype fields.
+description: The CIM\_DiskPartition class represents a contiguous range of logical blocks that is identifiable by the operating system by way of the partition's type and subtype fields.
 ms.assetid: 22a0e5be-c66b-40a2-9a7a-047d2edc0278
 ms.tgt_platform: multiple
 title: CIM_DiskPartition class

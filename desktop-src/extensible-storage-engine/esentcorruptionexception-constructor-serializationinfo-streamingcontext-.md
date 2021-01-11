@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCorruptionException constructor (SerializationInfo, StreamingContext)"
 title: EsentCorruptionException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentCorruptionException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCorruptionException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)

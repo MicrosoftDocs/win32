@@ -1,5 +1,5 @@
 ---
-Description: The HRECOALT handle is obsolete.
+description: The HRECOALT handle is obsolete.
 ms.assetid: de3242f4-bce3-4139-9cb4-85eb33f375b1
 title: HRECOALT Handle (Recapis.h)
 ms.topic: reference

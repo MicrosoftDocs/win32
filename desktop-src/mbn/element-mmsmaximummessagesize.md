@@ -1,5 +1,5 @@
 ---
-Description: MmsMaximumMessageSize
+description: MmsMaximumMessageSize
 MS-HAID: WWAN\_profile\_v4.element\_MmsMaximumMessageSize
 MSHAttr:
 - PreferredSiteName:MSDN

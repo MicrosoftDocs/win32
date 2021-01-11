@@ -1,5 +1,5 @@
 ---
-Description: This topic describes what's new in Microsoft DirectX Graphics Infrastructure (DXGI) 1.6 for various releases of Windows 10.
+description: This topic describes what's new in Microsoft DirectX Graphics Infrastructure (DXGI) 1.6 for various releases of Windows 10.
 ms.assetid: C68EC437-7600-43A8-8DEA-5A6AEE75D5AA
 title: DXGI 1.6 improvements
 ms.topic: article

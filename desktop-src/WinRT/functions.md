@@ -1,5 +1,5 @@
 ---
-Description: Functions (Windows Runtime C++ reference)
+description: Functions (Windows Runtime C++ reference)
 ms.assetid: 3D60C81F-B1CC-4485-B7C3-B1C6E903865B
 title: Functions
 ms.topic: article

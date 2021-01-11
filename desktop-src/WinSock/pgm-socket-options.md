@@ -1,5 +1,5 @@
 ---
-Description: PGM uses socket options to set state, provide multicast parameters, and otherwise implement its multicast capabilities.
+description: PGM uses socket options to set state, provide multicast parameters, and otherwise implement its multicast capabilities.
 ms.assetid: 91f5b051-cc42-46ba-88d9-680bd0367aff
 title: PGM Socket Options
 ms.topic: article

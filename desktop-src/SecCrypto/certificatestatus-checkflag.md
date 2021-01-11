@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the validity check flags for a certificate.
+description: Sets or retrieves the validity check flags for a certificate.
 ms.assetid: c80c95a0-8a9b-441d-b243-7ee0552731e4
 title: CertificateStatus.CheckFlag property
 ms.topic: reference

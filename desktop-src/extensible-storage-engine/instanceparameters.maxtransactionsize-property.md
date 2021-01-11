@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.MaxTransactionSize property"
 title: InstanceParameters.MaxTransactionSize property 
 TOCTitle: 'MaxTransactionSize property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.MaxTransactionSize

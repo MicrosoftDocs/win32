@@ -1,5 +1,5 @@
 ---
-Description: The Preselected property indicates that features have already been selected and that the selection dialog need not be shown.Conditional expressions which depend on whether features are already installed use this value.
+description: The Preselected property indicates that features have already been selected and that the selection dialog need not be shown.Conditional expressions which depend on whether features are already installed use this value.
 ms.assetid: 2bbab8b9-084a-4515-904c-d556d183d06e
 title: Preselected property
 ms.topic: reference

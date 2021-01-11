@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTransTooDeepException constructor"
 title: EsentTransTooDeepException constructor 
 TOCTitle: 'EsentTransTooDeepException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTransTooDeepException.#ctor

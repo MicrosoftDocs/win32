@@ -1,5 +1,5 @@
 ---
-Description: Install a Windows Installer package with elevated (system) privileges.
+description: Install a Windows Installer package with elevated (system) privileges.
 ms.assetid: 0bbec06a-0a2b-430a-a361-317a319da615
 title: AlwaysInstallElevated
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_MappedLogicalDisk &\#32; WMI class represents network storage devices that are mapped as logical disks on the computer system.
+description: The Win32\_MappedLogicalDisk &\#32; WMI class represents network storage devices that are mapped as logical disks on the computer system.
 ms.assetid: 5dd4b0eb-7872-4f2d-9c8b-ea03f7e2c16d
 ms.tgt_platform: multiple
 title: Win32_MappedLogicalDisk class

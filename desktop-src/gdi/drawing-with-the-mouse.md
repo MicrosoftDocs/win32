@@ -1,5 +1,5 @@
 ---
-Description: You can permit the user to draw lines with the mouse by having your window procedure draw while processing the WM\_MOUSEMOVE message.
+description: You can permit the user to draw lines with the mouse by having your window procedure draw while processing the WM\_MOUSEMOVE message.
 ms.assetid: 5e8a54b6-05cc-4446-b82e-2b3e550d780a
 title: Drawing with the Mouse
 ms.topic: article

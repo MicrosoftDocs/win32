@@ -1,5 +1,5 @@
 ---
-Description: Contains information that defines a new most recently used (MRU) list. Used by CreateMRUListW.
+description: Contains information that defines a new most recently used (MRU) list. Used by CreateMRUListW.
 title: MRUINFO structure
 ms.topic: reference
 ms.date: 05/31/2018

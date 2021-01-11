@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetRenameTable method"
 title: Api.JetRenameTable method 
 TOCTitle: 'JetRenameTable method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetRenameTable(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,System.String,System.String)

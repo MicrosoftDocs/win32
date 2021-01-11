@@ -1,5 +1,5 @@
 ---
-Description: Contains the identifier of the playlist element in the presentation.
+description: Contains the identifier of the playlist element in the presentation.
 ms.assetid: 355818cf-1e00-46ad-9ce1-ab3a178164f9
 title: MF_PD_PLAYBACK_ELEMENT_ID attribute (Mfidl.h)
 ms.topic: reference

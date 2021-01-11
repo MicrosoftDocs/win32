@@ -1,5 +1,5 @@
 ---
-Description: Source Reader Attributes
+description: Source Reader Attributes
 ms.assetid: 312a588a-848b-4563-893a-fac49a4ca465
 title: Source Reader Attributes
 ms.topic: article

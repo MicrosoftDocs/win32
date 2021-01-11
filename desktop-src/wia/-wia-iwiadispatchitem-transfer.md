@@ -1,5 +1,5 @@
 ---
-Description: The Transfer method of the Item object transfers data from a device to a file. This method applies only to device type items.
+description: The Transfer method of the Item object transfers data from a device to a file. This method applies only to device type items.
 ms.assetid: ed9696da-bd94-4063-80c2-311a7a441b10
 title: Item.Transfer method
 ms.topic: reference

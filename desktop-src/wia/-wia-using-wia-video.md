@@ -1,5 +1,5 @@
 ---
-Description: WIA provides the IWiaVideo interface to enable applications to display streaming video in a window, capture still images from the video stream, and save those images as JPEG files.
+description: WIA provides the IWiaVideo interface to enable applications to display streaming video in a window, capture still images from the video stream, and save those images as JPEG files.
 ms.assetid: b0785f3e-78b1-4044-99f4-0617ce18e095
 title: Using WIA Video
 ms.topic: article

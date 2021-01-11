@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyOpenTablesException properties"
 title: EsentTooManyOpenTablesException properties
 TOCTitle: EsentTooManyOpenTablesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenTablesException

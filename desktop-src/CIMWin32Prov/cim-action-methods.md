@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Action class exposes the following methods.
+description: The CIM\_Action class exposes the following methods.
 ms.assetid: 0226DAC5-CE97-4D04-8761-E17ABD6A4BD1
 ms.tgt_platform: multiple
 title: CIM_Action Methods

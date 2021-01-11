@@ -1,5 +1,5 @@
 ---
-Description: 'This section contains information about the following effect functions:'
+description: 'This section contains information about the following effect functions:'
 ms.assetid: b76643f0-387f-49c6-80e5-4d7b406b4db7
 title: Effect Functions (Direct3D 10)
 ms.topic: article

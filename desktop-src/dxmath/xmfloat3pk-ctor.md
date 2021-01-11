@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMFLOAT3PK.
+description: Constructors exposed by XMFLOAT3PK.
 ms.assetid: da9f468c-6545-4535-a77c-96ae897c16de
 title: XMFLOAT3PK constructors
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: A generic base class for setting data classes representing components of a virtual system.
+description: A generic base class for setting data classes representing components of a virtual system.
 ms.assetid: a0c8f5e4-08e2-40c3-92c3-12d51f161871
 title: Msvm_SystemComponentSettingData class
 ms.topic: reference

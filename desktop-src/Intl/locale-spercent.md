@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_SPERCENT
+description: LOCALE\_SPERCENT
 ms.assetid: 5ff6acb3-895e-4a2f-a3da-523f3e616e7c
 title: LOCALE_SPERCENT
 ms.topic: article

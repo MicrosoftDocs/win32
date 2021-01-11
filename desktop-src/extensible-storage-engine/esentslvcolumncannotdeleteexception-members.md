@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVColumnCannotDeleteException members"
 title: EsentSLVColumnCannotDeleteException members
 TOCTitle: EsentSLVColumnCannotDeleteException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVColumnCannotDeleteException

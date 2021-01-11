@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPageNotInitializedException members"
 title: EsentPageNotInitializedException members
 TOCTitle: EsentPageNotInitializedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentPageNotInitializedException

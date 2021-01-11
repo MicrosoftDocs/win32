@@ -1,5 +1,5 @@
 ---
-Description: Called when the certificate returned by the CertStoreProvFindCert callback was not used, and thus released, in a subsequent call to CertStoreProvFindCert.
+description: Called when the certificate returned by the CertStoreProvFindCert callback was not used, and thus released, in a subsequent call to CertStoreProvFindCert.
 ms.assetid: be882b56-027c-4540-9426-27d3c2b262e9
 title: CertStoreProvFreeFindCert callback function
 ms.topic: reference

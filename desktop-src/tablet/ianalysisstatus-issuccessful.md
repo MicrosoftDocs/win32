@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean summary of the results of the analysis operation.
+description: Retrieves a Boolean summary of the results of the analysis operation.
 ms.assetid: 9bc690f4-fb5f-449e-bde0-bd2277c4573b
 title: IAnalysisStatus::IsSuccessful method (IACom.h)
 ms.topic: reference

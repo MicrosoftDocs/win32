@@ -1,5 +1,5 @@
 ---
-Description: The following are the window class styles.
+description: The following are the window class styles.
 ms.assetid: BE908D51-25DD-45d0-B6AA-28B4C627715B
 title: Window Class Styles (Winuser.h)
 ms.topic: reference

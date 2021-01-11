@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVProviderNotLoadedException constructor"
 title: EsentSLVProviderNotLoadedException constructor 
 TOCTitle: 'EsentSLVProviderNotLoadedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVProviderNotLoadedException.#ctor

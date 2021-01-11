@@ -1,5 +1,5 @@
 ---
-Description: Expressions are mathematical or logical statements that are used on the right hand side of an equals sign. There are many types of expressions.
+description: Expressions are mathematical or logical statements that are used on the right hand side of an equals sign. There are many types of expressions.
 ms.assetid: 642aa188-5dd7-49fc-b6cc-845f8fc22530
 title: Expressions (Direct3D 9)
 ms.topic: article

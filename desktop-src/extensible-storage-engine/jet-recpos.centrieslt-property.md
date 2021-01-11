@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECPOS.centriesLT property"
 title: JET_RECPOS.centriesLT property 
 TOCTitle: 'centriesLT property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RECPOS.centriesLT

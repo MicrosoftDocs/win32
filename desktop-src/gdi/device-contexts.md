@@ -1,5 +1,5 @@
 ---
-Description: A device context is a structure that defines a set of graphic objects and their associated attributes, as well as the graphic modes that affect output.
+description: A device context is a structure that defines a set of graphic objects and their associated attributes, as well as the graphic modes that affect output.
 ms.assetid: '1fa97368-8931-4687-b37f-ed4db949a150'
 title: Device Contexts
 ms.topic: article

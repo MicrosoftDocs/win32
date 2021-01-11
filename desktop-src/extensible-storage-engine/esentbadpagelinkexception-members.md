@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadPageLinkException members"
 title: EsentBadPageLinkException members
 TOCTitle: EsentBadPageLinkException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBadPageLinkException

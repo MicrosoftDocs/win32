@@ -1,5 +1,5 @@
 ---
-Description: Locating Partitions During Activation
+description: Locating Partitions During Activation
 ms.assetid: a5452ed6-ab0f-4d38-bc16-1de6cbf57486
 title: Locating Partitions During Activation
 ms.topic: article

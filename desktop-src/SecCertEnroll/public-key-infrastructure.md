@@ -1,5 +1,5 @@
 ---
-Description: Public-key cryptography (also called asymmetric-key cryptography) uses a key pair to encrypt and decrypt content.
+description: Public-key cryptography (also called asymmetric-key cryptography) uses a key pair to encrypt and decrypt content.
 ms.assetid: 93f65367-ca4b-4b44-9833-0653cfd3f3d3
 title: Public Key Infrastructure
 ms.topic: article

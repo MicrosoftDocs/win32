@@ -1,5 +1,5 @@
 ---
-Description: Generally considered more network friendly than an all-routes broadcast, a directed broadcast limits itself to the local network that you specify.
+description: Generally considered more network friendly than an all-routes broadcast, a directed broadcast limits itself to the local network that you specify.
 ms.assetid: e2358580-5a65-434d-ba4c-a6b0615bccc3
 title: Directed Broadcast
 ms.topic: article

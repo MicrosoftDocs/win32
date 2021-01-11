@@ -1,5 +1,5 @@
 ---
-Description: Used to define private messages for use by private window classes, usually of the form WM\_USER+x, where x is an integer value.
+description: Used to define private messages for use by private window classes, usually of the form WM\_USER+x, where x is an integer value.
 ms.assetid: 4115c587-fcb4-4170-9948-fe33bcb8742a
 title: WM_USER (Winuser.h)
 ms.topic: reference

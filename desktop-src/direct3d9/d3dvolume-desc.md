@@ -1,5 +1,5 @@
 ---
-Description: Describes a volume.
+description: Describes a volume.
 ms.assetid: c0224f4e-3d32-4bdd-b56c-4e8aa291bb27
 title: D3DVOLUME_DESC structure (D3D9Types.h)
 ms.topic: reference

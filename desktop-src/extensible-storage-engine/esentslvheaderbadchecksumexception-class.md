@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVHeaderBadChecksumException class"
 title: EsentSLVHeaderBadChecksumException class
 TOCTitle: EsentSLVHeaderBadChecksumException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVHeaderBadChecksumException

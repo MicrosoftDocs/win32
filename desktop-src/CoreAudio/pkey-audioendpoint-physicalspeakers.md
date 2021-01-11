@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: PKEY_AudioEndpoint_PhysicalSpeakers"
 ms.assetid: 20049071-0a14-421e-8bc5-04af9c7117b0
 title: PKEY_AudioEndpoint_PhysicalSpeakers (Mmdeviceapi.h)
 ms.topic: reference

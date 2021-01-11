@@ -1,5 +1,5 @@
 ---
-Description: Opens a graphics log.
+description: Opens a graphics log.
 MS-HAID: vspixengine.IPixEngine\_OpenFile\_BSTR\_BSTR\_INewFramesCallback\_ptr\_IFileIOCallback\_ptr\_LCID
 MSHAttr:
 - PreferredSiteName:MSDN

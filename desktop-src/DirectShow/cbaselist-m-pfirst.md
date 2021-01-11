@@ -1,5 +1,5 @@
 ---
-Description: Pointer to the first node in the list.
+description: Pointer to the first node in the list.
 ms.assetid: 00a9e7c8-e536-46e2-96a0-e26eb6c34e54
 title: CBaseList::m_pFirst member (Wxlist.h)
 ms.topic: reference

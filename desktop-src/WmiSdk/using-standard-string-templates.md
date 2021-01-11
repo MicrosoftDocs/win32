@@ -1,5 +1,5 @@
 ---
-Description: Several consumers, such as the Active Script Event Consumer or the Command Line Event Consumer, have string properties with the Template qualifier.
+description: Several consumers, such as the Active Script Event Consumer or the Command Line Event Consumer, have string properties with the Template qualifier.
 ms.assetid: d734c226-e160-4834-a5e8-62390905dfde
 ms.tgt_platform: multiple
 title: Using Standard String Templates

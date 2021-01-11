@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the identifier for the IContextNode object.
+description: Retrieves the identifier for the IContextNode object.
 ms.assetid: 7578bcc1-7c69-45fc-b3c2-7350ce4df99c
 title: IContextNode::GetId method (IACom.h)
 ms.topic: reference

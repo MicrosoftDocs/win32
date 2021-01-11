@@ -1,5 +1,5 @@
 ---
-Description: 'The Writer Metadata Document contains three sets of data: writer identification and classification information, writer-level specifications, and component data.'
+description: 'The Writer Metadata Document contains three sets of data: writer identification and classification information, writer-level specifications, and component data.'
 ms.assetid: 1a84790a-8f46-4e1b-8e45-5036830e8fee
 title: Writer Metadata Document Contents
 ms.topic: article

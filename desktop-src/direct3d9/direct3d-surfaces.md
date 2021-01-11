@@ -1,5 +1,5 @@
 ---
-Description: A surface represents a linear area of display memory and usually resides in the display memory of the display card, although surfaces can exist in system memory. Surfaces are managed by the IDirect3DSurface9 interface.
+description: A surface represents a linear area of display memory and usually resides in the display memory of the display card, although surfaces can exist in system memory. Surfaces are managed by the IDirect3DSurface9 interface.
 ms.assetid: 17add726-3d95-46bc-8e15-3be0e570c49c
 title: Direct3D Surfaces (Direct3D 9)
 ms.topic: article

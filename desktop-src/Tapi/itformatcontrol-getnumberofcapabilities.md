@@ -1,5 +1,5 @@
 ---
-Description: The GetNumberOfCapabilities method retrieves the number of capabilities associated with the current format.
+description: The GetNumberOfCapabilities method retrieves the number of capabilities associated with the current format.
 ms.assetid: 26e51c0d-c1cb-410f-ab19-eb884afa8431
 title: ITFormatControl::GetNumberOfCapabilities method (Ipmsp.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The FileVersion method of the Installer object returns the version string or language string of the path specified in Path using the format in which the installer expects to find them in the database.
+description: The FileVersion method of the Installer object returns the version string or language string of the path specified in Path using the format in which the installer expects to find them in the database.
 ms.assetid: 387cf269-5a7a-476b-811e-d576da1c752f
 title: Installer.FileVersion method
 ms.topic: reference

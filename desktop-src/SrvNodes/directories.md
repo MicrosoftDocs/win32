@@ -1,5 +1,5 @@
 ---
-Description: Directories
+description: Directories
 ms.assetid: 012e8f51-755c-4f5a-a3a9-45c6d77e0a09
 title: Directories
 ms.topic: reference

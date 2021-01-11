@@ -1,5 +1,5 @@
 ---
-Description: Developers create a patch package by generating a patch creation file and using Msimsp.exe to call the UiCreatePatchPackageEx function in Patchwiz.dll.
+description: Developers create a patch package by generating a patch creation file and using Msimsp.exe to call the UiCreatePatchPackageEx function in Patchwiz.dll.
 ms.assetid: 8a163653-6ba1-46ea-9832-f998749d29ae
 title: Creating a Patch Package
 ms.topic: article

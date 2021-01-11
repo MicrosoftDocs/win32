@@ -1,7 +1,7 @@
 ---
 title: Client-side Service Operations
 ms.assetid: 9d6e2441-91de-4108-b1c4-282fbca5fe7c
-description: 
+description: "Learn more about: Client-side Service Operations"
 keywords:
 - Client Side Service Operations Web Services for Windows
 - WWSAPI

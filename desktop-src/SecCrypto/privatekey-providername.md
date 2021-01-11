@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the name of the cryptographic service provider (CSP).
+description: Retrieves the name of the cryptographic service provider (CSP).
 ms.assetid: b06d2839-0eaa-4f3f-99f7-d77e001fe4ea
 title: PrivateKey.ProviderName property
 ms.topic: reference

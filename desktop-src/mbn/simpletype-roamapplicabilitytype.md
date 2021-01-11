@@ -1,5 +1,5 @@
 ---
-Description: The roamApplicabilityType describes the roaming conditions for which a roaming profile applies.
+description: The roamApplicabilityType describes the roaming conditions for which a roaming profile applies.
 MS-HAID: WWAN\_profile\_v4.simpleType\_roamApplicabilityType
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the methods of the HueSaturationLightness class. For a complete class listing, see HueSaturationLightness.
+description: This topic lists the methods of the HueSaturationLightness class. For a complete class listing, see HueSaturationLightness.
 ms.assetid: 09e7329a-9088-458e-9d83-0ffe73a908c4
 title: HueSaturationLightness Methods
 ms.topic: reference

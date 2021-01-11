@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotDeleteTempTableException methods"
 title: EsentCannotDeleteTempTableException methods
 TOCTitle: EsentCannotDeleteTempTableException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCannotDeleteTempTableException

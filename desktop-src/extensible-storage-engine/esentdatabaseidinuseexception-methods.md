@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseIdInUseException methods"
 title: EsentDatabaseIdInUseException methods
 TOCTitle: EsentDatabaseIdInUseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseIdInUseException

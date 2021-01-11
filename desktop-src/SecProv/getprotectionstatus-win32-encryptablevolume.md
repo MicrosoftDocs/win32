@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the volume and its encryption key are secured.
+description: Indicates whether the volume and its encryption key are secured.
 ms.assetid: bcd8fce5-da39-4aa8-93ff-0768deb900ec
 title: GetProtectionStatus method of the Win32_EncryptableVolume class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Sent when current program chain (PGC) changes.
+description: Sent when current program chain (PGC) changes.
 ms.assetid: 80fcd059-6ab4-4116-ac3a-012c451237b3
 title: EC_DVD_PROGRAM_CHAIN_CHANGE (Dvdevcode.h)
 ms.topic: reference

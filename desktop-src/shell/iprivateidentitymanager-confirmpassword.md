@@ -1,5 +1,5 @@
 ---
-Description: IPrivateIdentityManager::ConfirmPassword method
+description: IPrivateIdentityManager::ConfirmPassword method
 title: IPrivateIdentityManager::ConfirmPassword method
 ms.topic: reference
 ms.date: 05/31/2018

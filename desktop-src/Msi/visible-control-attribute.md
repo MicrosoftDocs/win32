@@ -1,5 +1,5 @@
 ---
-Description: If the Visible Control bit is set, the control is visible on the dialog box. If this bit is not set, the control is hidden on the dialog box. The visible or hidden state of the Visible control attribute can be later changed by a Control Event.
+description: If the Visible Control bit is set, the control is visible on the dialog box. If this bit is not set, the control is hidden on the dialog box. The visible or hidden state of the Visible control attribute can be later changed by a Control Event.
 ms.assetid: 77d3164c-ea8a-4dcf-afd5-02bb2c2568c6
 title: Visible Control Attribute
 ms.topic: article

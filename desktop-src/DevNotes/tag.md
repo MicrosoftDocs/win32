@@ -1,5 +1,5 @@
 ---
-Description: Identifies an entry in the shim database.
+description: Identifies an entry in the shim database.
 ms.assetid: 'c092592d-a4f4-4b2f-9b03-c07951ed214a'
 title: TAG (Exposeenums2managed.h)
 ms.topic: article

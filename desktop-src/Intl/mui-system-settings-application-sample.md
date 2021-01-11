@@ -1,5 +1,5 @@
 ---
-Description: 'MUI: System Settings Application Sample'
+description: 'MUI: System Settings Application Sample'
 ms.assetid: 34cfd3a8-20b2-4a57-bc43-8da410cf9ae9
 title: 'MUI: System Settings Application Sample'
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Encoder and Decoder Development
+description: Encoder and Decoder Development
 ms.assetid: 075aaf0f-63c6-4286-966e-fdc72d0acb6e
 title: Encoder and Decoder Development
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Allocator method retrieves a pointer to the memory allocator.
+description: The Allocator method retrieves a pointer to the memory allocator.
 ms.assetid: ac262502-eadc-482c-bc58-1e942889f0a7
 title: CRendererInputPin.Allocator method (Renbase.h)
 ms.topic: reference

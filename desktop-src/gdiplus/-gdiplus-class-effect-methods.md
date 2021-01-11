@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the methods of the Effect class. For a complete class listing, see Effect.
+description: This topic lists the methods of the Effect class. For a complete class listing, see Effect.
 ms.assetid: e9ae4589-700d-4277-81b4-73f6b7023852
 title: Effect Methods
 ms.topic: reference

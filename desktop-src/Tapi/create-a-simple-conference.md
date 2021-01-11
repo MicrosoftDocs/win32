@@ -1,5 +1,5 @@
 ---
-Description: The following code example demonstrates the creation of a simple conference call. For information on IP multicast multimedia video conferencing, see About Rendezvous IP Telephony Conferencing.
+description: The following code example demonstrates the creation of a simple conference call. For information on IP multicast multimedia video conferencing, see About Rendezvous IP Telephony Conferencing.
 ms.assetid: fb55853d-b882-41c8-99e6-bfa897b2dabf
 title: Create a Simple Conference
 ms.topic: article

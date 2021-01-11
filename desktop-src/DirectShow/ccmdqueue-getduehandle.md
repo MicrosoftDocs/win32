@@ -1,5 +1,5 @@
 ---
-Description: The GetDueHandle method retrieves the event handle to be signaled.
+description: The GetDueHandle method retrieves the event handle to be signaled.
 ms.assetid: 495ea76d-8b94-48a9-8025-06ab18b66693
 title: CCmdQueue.GetDueHandle method (Winutil.h)
 ms.topic: reference

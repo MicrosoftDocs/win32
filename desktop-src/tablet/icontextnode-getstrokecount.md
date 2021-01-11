@@ -1,5 +1,5 @@
 ---
-Description: Gets the number of strokes associated with the IContextNode object.
+description: Gets the number of strokes associated with the IContextNode object.
 ms.assetid: bb3c1cb3-dcf6-4465-b1bc-5c613e9747da
 title: IContextNode::GetStrokeCount method (IACom.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the InitializeFromBitmap method.
+description: Proxy function for the InitializeFromBitmap method.
 ms.assetid: 9559a56d-7201-4b39-a3cd-9c0e4eac611a
 title: IWICPalette_InitializeFromBitmap_Proxy function
 ms.topic: reference

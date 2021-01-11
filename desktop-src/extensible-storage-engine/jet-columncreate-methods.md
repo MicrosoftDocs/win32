@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNCREATE methods"
 title: JET_COLUMNCREATE methods
 TOCTitle: JET_COLUMNCREATE methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE

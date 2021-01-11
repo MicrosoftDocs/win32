@@ -1,5 +1,5 @@
 ---
-Description: Lists the diagnostic procedures to use when troubleshooting the Network Explorer.
+description: Lists the diagnostic procedures to use when troubleshooting the Network Explorer.
 ms.assetid: 56052a82-d3a6-4749-9010-6796558dcb17
 title: Troubleshooting the Network Explorer
 ms.topic: article

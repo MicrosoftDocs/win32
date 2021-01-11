@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_AlarmDevice class requests a logical device reset. This method is inherited from CIM\_LogicalDevice.
+description: The Reset method of the CIM\_AlarmDevice class requests a logical device reset. This method is inherited from CIM\_LogicalDevice.
 ms.assetid: e70718c5-2c80-4084-b233-b3e4d083e7b4
 ms.tgt_platform: multiple
 title: Reset method of the CIM_AlarmDevice class

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentReadLostFlushVerifyFailureException constructor"
 title: EsentReadLostFlushVerifyFailureException constructor 
 TOCTitle: 'EsentReadLostFlushVerifyFailureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentReadLostFlushVerifyFailureException.#ctor

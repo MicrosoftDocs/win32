@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE methods"
 title: JET_INDEXCREATE methods
 TOCTitle: JET_INDEXCREATE methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE

@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the SetMetadataByName method.
+description: Proxy function for the SetMetadataByName method.
 ms.assetid: 467d7735-152a-4e7c-93b1-fd031cc57c19
 title: IWICMetadataQueryWriter_SetMetadataByName_Proxy function
 ms.topic: reference

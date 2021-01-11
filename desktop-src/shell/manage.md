@@ -1,5 +1,5 @@
 ---
-Description: The Shell provides a number of ways to manage file systems.
+description: The Shell provides a number of ways to manage file systems.
 ms.assetid: d9ffda6f-adc0-44a3-b410-e23bf5f4f165
 title: Managing the File System
 ms.topic: article

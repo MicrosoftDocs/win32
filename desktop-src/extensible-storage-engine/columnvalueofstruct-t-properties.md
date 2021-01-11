@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ColumnValueOfStruct<T> properties"
 title: ColumnValueOfStruct(T) properties
 TOCTitle: ColumnValueOfStruct(T) properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1

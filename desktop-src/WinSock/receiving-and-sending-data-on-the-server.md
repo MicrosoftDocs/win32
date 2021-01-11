@@ -1,5 +1,5 @@
 ---
-Description: The following code demonstrates the recv and send functions used by the server.
+description: The following code demonstrates the recv and send functions used by the server.
 ms.assetid: 26990b06-196a-4fb1-92d8-c5fa096d2b09
 title: Receiving and Sending Data on the Server
 ms.topic: article

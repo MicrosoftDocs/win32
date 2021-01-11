@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_SETINFO properties"
 title: JET_SETINFO properties
 TOCTitle: JET_SETINFO properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_SETINFO

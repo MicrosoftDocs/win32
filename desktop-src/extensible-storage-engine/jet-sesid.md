@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SESID"
 title: JET_SESID
 TOCTitle: JET_SESID
 ms:assetid: 56b53532-e0a8-4255-8442-bb90184d91da

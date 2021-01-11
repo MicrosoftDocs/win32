@@ -1,5 +1,5 @@
 ---
-Description: The get\_Duration method retrieves the duration of the stream. This method implements the IMediaPosition::get\_Duration method.
+description: The get\_Duration method retrieves the duration of the stream. This method implements the IMediaPosition::get\_Duration method.
 ms.assetid: 326a8cd3-d05f-49d0-941d-08f9778e9a06
 title: CPosPassThru.get_Duration method (Ctlutil.h)
 ms.topic: reference

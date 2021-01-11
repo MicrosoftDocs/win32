@@ -1,5 +1,5 @@
 ---
-Description: A VSS backup-and-recovery application that performs disaster recovery (also called bare-metal recovery) can use the Automated System Recovery (ASR) writer together with Windows Preinstallation Environment (Windows PE) to back up and restore critical volumes and other components of the bootable system state. The backup application is implemented as a VSS requester.
+description: A VSS backup-and-recovery application that performs disaster recovery (also called bare-metal recovery) can use the Automated System Recovery (ASR) writer together with Windows Preinstallation Environment (Windows PE) to back up and restore critical volumes and other components of the bootable system state. The backup application is implemented as a VSS requester.
 ms.assetid: 13adfd79-f26a-4385-9b59-129d06fa72eb
 title: Using VSS Automated System Recovery for Disaster Recovery
 ms.topic: article

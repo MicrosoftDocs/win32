@@ -1,5 +1,5 @@
 ---
-Description: ModemDMConfigProfile\/Name (v4)
+description: ModemDMConfigProfile\/Name (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_Name
 MSHAttr:
 - PreferredSiteName:MSDN

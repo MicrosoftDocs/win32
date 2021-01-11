@@ -1,5 +1,5 @@
 ---
-Description: Renames a printer.
+description: Renames a printer.
 ms.assetid: afbef871-5153-4b9e-9ad3-4d271a497c37
 ms.tgt_platform: multiple
 title: RenamePrinter method of the Win32_Printer class

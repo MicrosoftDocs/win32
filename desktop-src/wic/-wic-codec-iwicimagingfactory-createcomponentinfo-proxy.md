@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateComponentInfo method.
+description: Proxy function for the CreateComponentInfo method.
 ms.assetid: 7d3b791a-d65e-4b90-8050-373a949e6d9c
 title: IWICImagingFactory_CreateComponentInfo_Proxy function
 ms.topic: reference

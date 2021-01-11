@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDbTimeCorruptedException members"
 title: EsentDbTimeCorruptedException members
 TOCTitle: EsentDbTimeCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDbTimeCorruptedException

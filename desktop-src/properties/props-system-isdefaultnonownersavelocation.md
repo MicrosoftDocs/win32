@@ -1,5 +1,5 @@
 ---
-Description: Identifies the default save location for a library for non-owners of the library.
+description: Identifies the default save location for a library for non-owners of the library.
 ms.assetid: e6fe96de-4895-477e-a442-746fd34a7433
 title: System.IsDefaultNonOwnerSaveLocation
 ms.topic: article

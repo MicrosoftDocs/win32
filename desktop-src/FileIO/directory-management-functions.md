@@ -1,5 +1,5 @@
 ---
-Description: Functions used in directory management.
+description: Functions used in directory management.
 ms.assetid: 5517b0e7-2264-4173-8e10-ff7626458bfa
 title: Directory Management Functions
 ms.topic: article

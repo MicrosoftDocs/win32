@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexSegment.Equals method (IndexSegment)"
 title: IndexSegment.Equals method (IndexSegment)
 TOCTitle: Equals method (IndexSegment)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.IndexSegment.Equals(Microsoft.Isam.Esent.Interop.IndexSegment)

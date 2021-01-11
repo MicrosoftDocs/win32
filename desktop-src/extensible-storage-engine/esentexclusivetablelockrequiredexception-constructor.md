@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentExclusiveTableLockRequiredException constructor"
 title: EsentExclusiveTableLockRequiredException constructor 
 TOCTitle: 'EsentExclusiveTableLockRequiredException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentExclusiveTableLockRequiredException.#ctor

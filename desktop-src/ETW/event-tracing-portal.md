@@ -1,5 +1,5 @@
 ---
-Description: This documentation is for user-mode applications that want to use ETW. For information about instrumenting device drivers that run in kernel mode, see WPP Software Tracing and Adding Event Tracing to Kernel-Mode Drivers in the Windows Driver Kit (WDK).
+description: This documentation is for user-mode applications that want to use ETW. For information about instrumenting device drivers that run in kernel mode, see WPP Software Tracing and Adding Event Tracing to Kernel-Mode Drivers in the Windows Driver Kit (WDK).
 ms.assetid: 3de69436-671b-46a2-8d92-4eb3af2a4233
 title: Event Tracing
 ms.topic: article

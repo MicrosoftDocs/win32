@@ -1,5 +1,5 @@
 ---
-Description: When a thread tries to access a securable object, the system either grants or denies access.
+description: When a thread tries to access a securable object, the system either grants or denies access.
 ms.assetid: dc98b23e-ce42-4d4a-a285-c0b7b5e2a478
 title: How AccessCheck Works
 ms.topic: article

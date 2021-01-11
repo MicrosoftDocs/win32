@@ -1,5 +1,5 @@
 ---
-Description: Extracts coefficient data from a single-channel buffer and adds the data to an ID3DXMesh object.
+description: Extracts coefficient data from a single-channel buffer and adds the data to an ID3DXMesh object.
 ms.assetid: 4fada987-ddd7-4c02-a177-dd81f3790588
 title: ID3DXPRTBuffer::ExtractToMesh method (D3DX9Mesh.h)
 ms.topic: reference

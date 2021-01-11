@@ -1,5 +1,5 @@
 ---
-Description: Lists the constants used in authorization APIs.
+description: Lists the constants used in authorization APIs.
 ms.assetid: be5637e3-0932-49b6-a5af-a542060545e0
 title: Authorization Constants (Authorization)
 ms.topic: article

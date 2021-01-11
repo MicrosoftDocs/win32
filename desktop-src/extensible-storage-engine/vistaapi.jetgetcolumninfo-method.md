@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaApi.JetGetColumnInfo method"
 title: VistaApi.JetGetColumnInfo method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'JetGetColumnInfo method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.VistaApi.JetGetColumnInfo(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,System.String,Microsoft.Isam.Esent.Interop.JET_COLUMNID,Microsoft.Isam.Esent.Interop.JET_COLUMNBASE@)

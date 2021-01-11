@@ -1,5 +1,5 @@
 ---
-Description: The CreateBlob function creates an empty BLOB.
+description: The CreateBlob function creates an empty BLOB.
 ms.assetid: fa31855b-af85-4ab5-b434-e54111731d8f
 title: CreateBlob function (Netmon.h)
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOSSnapshotFreeze Function"
 title: JetOSSnapshotFreeze Function
 TOCTitle: JetOSSnapshotFreeze Function
 ms:assetid: 8dfbff20-199e-4d89-a33c-ae8e39b11ec1

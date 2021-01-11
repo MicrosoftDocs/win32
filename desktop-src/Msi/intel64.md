@@ -1,5 +1,5 @@
 ---
-Description: The Intel64 property is defined only when it is running on an Itanium processor.
+description: The Intel64 property is defined only when it is running on an Itanium processor.
 ms.assetid: 827036dd-3b42-40dc-9fa5-8b3a72a2e5b1
 title: Intel64 property
 ms.topic: reference

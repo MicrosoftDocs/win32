@@ -1,5 +1,5 @@
 ---
-Description: Windows Update Agent (WUA) automatically updates itself when it is connected to a Windows Server Update Services (WSUS) server or to Windows Update.
+description: Windows Update Agent (WUA) automatically updates itself when it is connected to a Windows Server Update Services (WSUS) server or to Windows Update.
 ms.assetid: 829112ab-b240-4cc4-8053-18b484934886
 title: Updating Windows Update Agent
 ms.topic: article

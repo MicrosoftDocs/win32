@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of virtual system reference points.
+description: Represents a collection of virtual system reference points.
 ms.assetid: dc293f94-a683-468f-af05-ba99824d773e
 title: Msvm_ReferencePointCollection class
 ms.topic: reference

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_INDEXID operators"
 title: JET_INDEXID operators
 TOCTitle: JET_INDEXID operators
 ms:assetid: 31ee2372-66e2-b304-fe3f-027bb4b9ea1e

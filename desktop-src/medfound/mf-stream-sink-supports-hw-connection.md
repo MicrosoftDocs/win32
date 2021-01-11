@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether a media sink supports hardware data flow.
+description: Indicates whether a media sink supports hardware data flow.
 ms.assetid: 15838467-D253-4ECE-B9E7-AFD3A21B3AF2
 title: MF_STREAM_SINK_SUPPORTS_HW_CONNECTION attribute (Mfidl.h)
 ms.topic: reference

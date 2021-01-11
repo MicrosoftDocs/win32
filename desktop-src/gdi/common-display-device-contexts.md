@@ -1,5 +1,5 @@
 ---
-Description: A common device context is used for drawing in the client area of the window.
+description: A common device context is used for drawing in the client area of the window.
 ms.assetid: 63c4f775-b1a3-4f7c-808b-81c596f26353
 title: Common Display Device Contexts
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Memory Allocator
+description: Memory Allocator
 ms.assetid: 2dc055a2-b77a-443d-b602-d9636cbe4db3
 title: Memory Allocator
 ms.topic: article

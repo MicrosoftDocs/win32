@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateStream method.
+description: Proxy function for the CreateStream method.
 ms.assetid: c827e1aa-13ae-459e-a1dc-5ff8c31a54bc
 title: IWICImagingFactory_CreateStream_Proxy function
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: When accessing WMI local or remote data in an application or script, you may encounter errors ranging from missing classes to access denied. Providers also have debugging options and troubleshooting classes available.
+description: When accessing WMI local or remote data in an application or script, you may encounter errors ranging from missing classes to access denied. Providers also have debugging options and troubleshooting classes available.
 ms.assetid: b0aecdf6-ec30-49be-af4e-7eac5d124057
 ms.tgt_platform: multiple
 title: WMI Troubleshooting

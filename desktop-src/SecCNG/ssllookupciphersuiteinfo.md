@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the cipher suite information for a specified protocol, cipher suite, and key type set.
+description: Retrieves the cipher suite information for a specified protocol, cipher suite, and key type set.
 ms.assetid: ab995d9a-48fa-491a-95b1-d15c5b92f1da
 title: SslLookupCipherSuiteInfo function (Sslprovider.h)
 ms.topic: reference

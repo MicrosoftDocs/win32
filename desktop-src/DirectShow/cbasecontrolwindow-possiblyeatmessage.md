@@ -1,5 +1,5 @@
 ---
-Description: The PossiblyEatMessage method forwards keyboard and mouse messages to the message-drain window.
+description: The PossiblyEatMessage method forwards keyboard and mouse messages to the message-drain window.
 ms.assetid: 8e344c5d-2f94-454f-89b7-45c539b6e833
 title: CBaseControlWindow.PossiblyEatMessage method (Ctlutil.h)
 ms.topic: reference

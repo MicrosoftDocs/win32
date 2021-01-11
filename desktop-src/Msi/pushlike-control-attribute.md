@@ -1,5 +1,5 @@
 ---
-Description: If this bit is set on a check box or a radio button group, the button is drawn with the appearance of a push button, but its logic stays the same. If the bit is not set, the controls are drawn in their usual style.
+description: If this bit is set on a check box or a radio button group, the button is drawn with the appearance of a push button, but its logic stays the same. If the bit is not set, the controls are drawn in their usual style.
 ms.assetid: c30b383a-7fae-413a-a6e6-8e958009f10c
 title: PushLike Control Attribute
 ms.topic: article

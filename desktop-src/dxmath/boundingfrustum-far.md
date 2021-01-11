@@ -1,5 +1,5 @@
 ---
-Description: The distance of the far plane from the origin of the BoundingFrustum.
+description: The distance of the far plane from the origin of the BoundingFrustum.
 ms.assetid: 2ea59565-d5be-4f9e-bf67-47e7d1335bae
 title: BoundingFrustum.Far (DirectXCollision.h)
 ms.topic: reference

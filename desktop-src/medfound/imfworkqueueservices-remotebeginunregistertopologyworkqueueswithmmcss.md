@@ -1,5 +1,5 @@
 ---
-Description: Remotable version of the IMFWorkQueueServices::BeginUnregisterTopologyWorkQueuesWithMMCSS method.
+description: Remotable version of the IMFWorkQueueServices::BeginUnregisterTopologyWorkQueuesWithMMCSS method.
 ms.assetid: 1a168462-400d-46c9-a489-7b861770469f
 title: RemoteBeginUnregisterTopologyWorkQueuesWithMMCSS (Mfobjects.h)
 ms.topic: reference

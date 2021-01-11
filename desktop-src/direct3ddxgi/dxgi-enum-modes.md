@@ -1,5 +1,5 @@
 ---
-Description: Options for enumerating display modes.
+description: Options for enumerating display modes.
 ms.assetid: 7e0f5629-f8e2-478b-b8eb-00780a3dcf1f
 title: DXGI_ENUM_MODES (DXGI.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Working with Video
+description: Working with Video
 ms.assetid: ef361c85-8f3b-4719-80f2-853c84ae7277
 title: Working with Video (Microsoft Media Foundation)
 ms.topic: article

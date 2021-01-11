@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingFullBackupException constructor"
 title: EsentMissingFullBackupException constructor 
 TOCTitle: 'EsentMissingFullBackupException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMissingFullBackupException.#ctor

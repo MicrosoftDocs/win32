@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the value of the MsiSystemRebootPending property to 1 if there is an operation pending to rename a file.
+description: The installer sets the value of the MsiSystemRebootPending property to 1 if there is an operation pending to rename a file.
 ms.assetid: 8bbbf42e-fb55-4e5d-a574-2c3aaa87a73a
 title: MsiSystemRebootPending property
 ms.topic: reference

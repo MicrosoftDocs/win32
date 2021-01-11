@@ -1,5 +1,5 @@
 ---
-Description: Indicates the type of tablet device such as a pen, mouse or touch sensitive digitizer.
+description: Indicates the type of tablet device such as a pen, mouse or touch sensitive digitizer.
 ms.assetid: 4cca1e09-99c0-4357-a6ef-159bc8d17d57
 title: TABLET_DEVICE_KIND enumeration
 ms.topic: reference

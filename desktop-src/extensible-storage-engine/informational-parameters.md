@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Informational Parameters"
 title: Informational Parameters
 TOCTitle: Informational Parameters
 ms:assetid: 48500fc9-6d89-45b8-92ad-afb997b729f3

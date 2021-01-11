@@ -1,5 +1,5 @@
 ---
-Description: WMI scripts can condense many of the steps required in a C++ program.
+description: WMI scripts can condense many of the steps required in a C++ program.
 ms.assetid: 77168079-7253-4DB1-8252-7016F5A58DBA
 ms.tgt_platform: multiple
 title: Connecting to WMI with VBScript

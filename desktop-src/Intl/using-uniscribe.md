@@ -1,5 +1,5 @@
 ---
-Description: Uniscribe provides APIs to support typography and to support the display and editing of international text, including the complex rules of Middle Eastern and Asian scripts.
+description: Uniscribe provides APIs to support typography and to support the display and editing of international text, including the complex rules of Middle Eastern and Asian scripts.
 ms.assetid: d27e82df-ee97-4f55-bfab-0d1e10eaa1b7
 title: Using Uniscribe
 ms.topic: article

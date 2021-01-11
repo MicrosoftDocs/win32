@@ -1,5 +1,5 @@
 ---
-Description: The UiCreatePatchPackage function takes a package creation file (.pcp file) and generates a Windows Installer patch package (.msp package).
+description: The UiCreatePatchPackage function takes a package creation file (.pcp file) and generates a Windows Installer patch package (.msp package).
 ms.assetid: 77fedb80-b664-417d-879b-846e74cc4c23
 title: UiCreatePatchPackage (Patchwiz.dll)
 ms.topic: article

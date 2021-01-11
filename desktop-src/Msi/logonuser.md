@@ -1,5 +1,5 @@
 ---
-Description: The LogonUser property is the user name for the currently logged on user. Set by the installer by a system call to GetUserName.
+description: The LogonUser property is the user name for the currently logged on user. Set by the installer by a system call to GetUserName.
 ms.assetid: a7e33d01-5baf-4843-937b-ebed723edbbd
 title: LogonUser property
 ms.topic: reference

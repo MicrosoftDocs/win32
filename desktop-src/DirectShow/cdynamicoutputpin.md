@@ -1,5 +1,5 @@
 ---
-Description: The CDynamicOutputPin class implements an output pin that supports dynamic reconnections and format changes.
+description: The CDynamicOutputPin class implements an output pin that supports dynamic reconnections and format changes.
 ms.assetid: d2488fba-a653-4b6e-b786-ce95f9e20daa
 title: CDynamicOutputPin class (Amfilter.h)
 ms.topic: reference

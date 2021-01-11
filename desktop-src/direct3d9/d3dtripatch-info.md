@@ -1,5 +1,5 @@
 ---
-Description: Describes a triangular high-order patch.
+description: Describes a triangular high-order patch.
 ms.assetid: 3f97120b-3b32-4f95-8614-7b263ff330db
 title: D3DTRIPATCH_INFO structure (D3D9Types.h)
 ms.topic: reference

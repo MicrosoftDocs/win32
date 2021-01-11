@@ -1,5 +1,5 @@
 ---
-Description: Enumerates the certificate template names.
+description: Enumerates the certificate template names.
 ms.assetid: 4741eb0d-b8e0-468c-8a00-9ccacb52a9a7
 title: ISCrdEnr::enumCertTemplateName method
 ms.topic: reference

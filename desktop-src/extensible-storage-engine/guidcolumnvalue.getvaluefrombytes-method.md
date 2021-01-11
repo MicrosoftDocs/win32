@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GuidColumnValue.GetValueFromBytes method"
 title: GuidColumnValue.GetValueFromBytes method 
 TOCTitle: 'GetValueFromBytes method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.GuidColumnValue.GetValueFromBytes(System.Byte[],System.Int32,System.Int32,System.Int32)

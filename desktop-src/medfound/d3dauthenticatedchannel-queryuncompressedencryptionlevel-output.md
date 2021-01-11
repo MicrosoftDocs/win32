@@ -1,5 +1,5 @@
 ---
-Description: Contains the response to a D3DAUTHENTICATEDQUERY\_CURRENTENCRYPTIONWHENACCESSIBLE query.
+description: Contains the response to a D3DAUTHENTICATEDQUERY\_CURRENTENCRYPTIONWHENACCESSIBLE query.
 ms.assetid: 66735ce3-c16b-4eca-9283-5d3bc37d73d3
 title: D3DAUTHENTICATEDCHANNEL_QUERYUNCOMPRESSEDENCRYPTIONLEVEL_OUTPUT structure (D3d9types.h)
 ms.topic: reference

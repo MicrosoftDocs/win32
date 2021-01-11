@@ -1,5 +1,5 @@
 ---
-Description: Registering a DMO
+description: Registering a DMO
 ms.assetid: 9f74fc1c-b903-4725-b667-3c56a2726dbc
 title: Registering a DMO
 ms.topic: article

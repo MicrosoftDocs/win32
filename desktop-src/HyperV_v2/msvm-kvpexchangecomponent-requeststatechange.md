@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: Requests a state change.
 ms.assetid: 12f46f41-4c35-4aa8-a71f-6f2fa72a7314
 title: RequestStateChange method of the Msvm_KvpExchangeComponent class
 ms.topic: reference

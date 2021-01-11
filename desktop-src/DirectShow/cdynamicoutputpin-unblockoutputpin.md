@@ -1,5 +1,5 @@
 ---
-Description: The UnblockOutputPin method unblocks the pin. When the pin is unblocked, it can deliver samples, change its output format, and reconnect itself.
+description: The UnblockOutputPin method unblocks the pin. When the pin is unblocked, it can deliver samples, change its output format, and reconnect itself.
 ms.assetid: ea6e6312-8c7f-44db-ac7f-165dc45dec23
 title: CDynamicOutputPin.UnblockOutputPin method (Amfilter.h)
 ms.topic: reference

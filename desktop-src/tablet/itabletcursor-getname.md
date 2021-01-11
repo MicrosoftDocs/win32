@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the name of the tablet stylus.
+description: Retrieves the name of the tablet stylus.
 ms.assetid: 94955c04-f699-428b-b4bf-53919b61b1ab
 title: ITabletCursor::GetName method
 ms.topic: reference

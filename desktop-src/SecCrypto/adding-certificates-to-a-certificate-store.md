@@ -1,5 +1,5 @@
 ---
-Description: Certificates can be added to or removed from certificate stores if the store is opened with read/write permission.
+description: Certificates can be added to or removed from certificate stores if the store is opened with read/write permission.
 ms.assetid: a1cb6e1e-0702-4f73-827e-3f9e9237b4b6
 title: Adding Certificates to a Certificate Store
 ms.topic: article

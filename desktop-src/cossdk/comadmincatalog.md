@@ -1,5 +1,5 @@
 ---
-Description: Accesses the data that is stored in the COM+ catalog.
+description: Accesses the data that is stored in the COM+ catalog.
 ms.assetid: d77123f6-9821-4c80-860c-5f1feaca7987
 title: COMAdminCatalog class (ComAdmin.h)
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentExclusiveTableLockRequiredException methods"
 title: EsentExclusiveTableLockRequiredException methods
 TOCTitle: EsentExclusiveTableLockRequiredException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentExclusiveTableLockRequiredException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE.ToString method"
 title: JET_INDEXCREATE.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.ToString

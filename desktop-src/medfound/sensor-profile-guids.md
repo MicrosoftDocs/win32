@@ -1,5 +1,5 @@
 ---
-Description: The following GUIDS define the different types of sensor profiles.
+description: The following GUIDS define the different types of sensor profiles.
 ms.assetid: 9CA55255-484F-44C9-B3B7-3C152392FDF5
 title: Sensor Profile GUIDs (Mfapi.h)
 ms.topic: reference

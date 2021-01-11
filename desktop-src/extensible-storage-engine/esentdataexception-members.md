@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDataException members"
 title: EsentDataException members
 TOCTitle: EsentDataException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDataException

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_CacheMemory class defines the capabilities and management of cache memory.
+description: The CIM\_CacheMemory class defines the capabilities and management of cache memory.
 ms.assetid: cdf35122-2057-45fa-818b-ce542d8e82b0
 ms.tgt_platform: multiple
 title: CIM_CacheMemory class

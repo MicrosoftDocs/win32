@@ -1,5 +1,5 @@
 ---
-Description: The Terminal Object interfaces give an application access to manipulate devices used to create or receive media streams.
+description: The Terminal Object interfaces give an application access to manipulate devices used to create or receive media streams.
 ms.assetid: 08320d1c-1400-4746-b526-74b0789c5fc0
 title: Terminal Object Interfaces
 ms.topic: article

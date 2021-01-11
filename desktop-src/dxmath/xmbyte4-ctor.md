@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMBYTE4.
+description: Constructors exposed by XMBYTE4.
 ms.assetid: c3374ac6-1550-437f-9ffc-fcad46181ed7
 title: XMBYTE4 constructors
 ms.topic: reference

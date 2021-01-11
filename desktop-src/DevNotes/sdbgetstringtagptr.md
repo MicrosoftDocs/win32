@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the string data for the specified TAGID.
+description: Retrieves the string data for the specified TAGID.
 ms.assetid: c558e0bb-7e35-4298-93fb-400db00a2972
 title: SdbGetStringTagPtr function
 ms.topic: reference

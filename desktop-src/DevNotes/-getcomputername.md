@@ -1,5 +1,5 @@
 ---
-Description: Gets the computer name.
+description: Gets the computer name.
 ms.assetid: 8b6fd61a-dd5a-46b8-920e-cc8a848732b6
 title: '_GetComputerName function'
 ms.topic: reference

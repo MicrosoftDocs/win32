@@ -1,5 +1,5 @@
 ---
-Description: Notifies the IShellView to rearrange its items. Used by SHShellFolderView\_Message.
+description: Notifies the IShellView to rearrange its items. Used by SHShellFolderView\_Message.
 title: SFVM_REARRANGE message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018

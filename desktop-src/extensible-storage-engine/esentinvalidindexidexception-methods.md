@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidIndexIdException methods"
 title: EsentInvalidIndexIdException methods
 TOCTitle: EsentInvalidIndexIdException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidIndexIdException

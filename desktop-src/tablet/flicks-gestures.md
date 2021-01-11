@@ -1,5 +1,5 @@
 ---
-Description: Windows Vista includes a set of eight basic flick gestures. Flicks are quick, linear pen movements associated with scrolling actions and commands.
+description: Windows Vista includes a set of eight basic flick gestures. Flicks are quick, linear pen movements associated with scrolling actions and commands.
 ms.assetid: 004c7d76-90a9-4506-a70b-dbf8f9e1c616
 title: Flicks Gestures
 ms.topic: article

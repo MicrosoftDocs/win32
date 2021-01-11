@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileUnknownException constructor"
 title: EsentSLVFileUnknownException constructor 
 TOCTitle: 'EsentSLVFileUnknownException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVFileUnknownException.#ctor

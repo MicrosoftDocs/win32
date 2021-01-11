@@ -1,5 +1,5 @@
 ---
-Description: 'When creating an instance with embedded objects, perform the following tasks:'
+description: 'When creating an instance with embedded objects, perform the following tasks:'
 ms.assetid: 2abf6197-8b95-4c04-b154-508aa85fe12f
 ms.tgt_platform: multiple
 title: Creating Embedded Objects

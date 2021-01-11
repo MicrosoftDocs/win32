@@ -1,5 +1,5 @@
 ---
-Description: The OnRenderEnd method performs smoothing for cases where the rendering time varies due to interruptions.
+description: The OnRenderEnd method performs smoothing for cases where the rendering time varies due to interruptions.
 ms.assetid: 561b3306-0c41-4f04-b73a-78e7b4038e86
 title: CBaseVideoRenderer.OnRenderEnd method (Renbase.h)
 ms.topic: reference

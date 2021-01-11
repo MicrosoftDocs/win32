@@ -1,5 +1,5 @@
 ---
-Description: The DeletePrinterDataEx function deletes a specified value from the configuration data for a printer.
+description: The DeletePrinterDataEx function deletes a specified value from the configuration data for a printer.
 ms.assetid: bcc9cdb3-0fbf-40b6-9de2-1479c3c0ff55
 title: DeletePrinterDataEx function (Winspool.h)
 ms.topic: reference

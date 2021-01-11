@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a Windows Store app is activated.
+description: Occurs when a Windows Store app is activated.
 ms.assetid: CA0DB2D4-3417-48F5-8455-D87D0F323A1E
 title: ICoreApplicationView::Activated event (Windows.ApplicationModel.Core.h)
 ms.topic: reference

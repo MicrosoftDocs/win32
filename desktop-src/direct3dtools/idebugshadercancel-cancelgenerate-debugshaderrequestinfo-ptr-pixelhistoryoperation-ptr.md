@@ -1,5 +1,5 @@
 ---
-Description: Requests to cancel generation of shader trace instructions in a debug request.
+description: Requests to cancel generation of shader trace instructions in a debug request.
 MS-HAID: vspixengine.IDebugShaderCancel\_CancelGenerate\_DebugShaderRequestInfo\_ptr\_PixelHistoryOperation\_ptr
 MSHAttr:
 - PreferredSiteName:MSDN

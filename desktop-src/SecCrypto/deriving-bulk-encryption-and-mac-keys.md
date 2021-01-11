@@ -1,5 +1,5 @@
 ---
-Description: Bulk encryption and MAC keys are derived from a master key but can include other sources depending on the protocol and cipher suite used.
+description: Bulk encryption and MAC keys are derived from a master key but can include other sources depending on the protocol and cipher suite used.
 ms.assetid: f78acb54-c32a-46a8-b465-855251069a57
 title: Deriving Bulk Encryption and MAC Keys
 ms.topic: article

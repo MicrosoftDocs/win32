@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStartingRestoreLogTooHighException constructor"
 title: EsentStartingRestoreLogTooHighException constructor 
 TOCTitle: 'EsentStartingRestoreLogTooHighException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentStartingRestoreLogTooHighException.#ctor

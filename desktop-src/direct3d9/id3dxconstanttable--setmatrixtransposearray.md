@@ -1,5 +1,5 @@
 ---
-Description: Sets an array of transposed matrices.
+description: Sets an array of transposed matrices.
 ms.assetid: a67afc21-f43d-4dc5-b145-f3d66dd86dbb
 title: ID3DXConstantTable::SetMatrixTransposeArray method (D3DX9Shader.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Contains definitions of security terms that begin with the letter P.
+description: Contains definitions of security terms that begin with the letter P.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a
 title: P (Security Glossary)

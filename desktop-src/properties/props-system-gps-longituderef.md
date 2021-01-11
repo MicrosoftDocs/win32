@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether longitude is east or west.
+description: Indicates whether longitude is east or west.
 ms.assetid: 011b8830-60a4-4c37-a7a7-4948f87bffcc
 title: System.GPS.LongitudeRef
 ms.topic: article

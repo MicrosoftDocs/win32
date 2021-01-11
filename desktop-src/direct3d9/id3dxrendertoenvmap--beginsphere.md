@@ -1,5 +1,5 @@
 ---
-Description: Initiate the rendering of a spherical environment map.
+description: Initiate the rendering of a spherical environment map.
 ms.assetid: b0634120-f5ad-48b3-979a-30b0a53d22a2
 title: ID3DXRenderToEnvMap::BeginSphere method (D3dx9core.h)
 ms.topic: reference

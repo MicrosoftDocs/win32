@@ -1,5 +1,5 @@
 ---
-Description: Overview of how to use UI Automation and other tools to test your apps.
+description: Overview of how to use UI Automation and other tools to test your apps.
 title: Testing for accessibility
 ms.topic: article
 ms.date: 04/18/2019

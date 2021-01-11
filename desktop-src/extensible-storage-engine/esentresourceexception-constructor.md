@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentResourceException constructor"
 title: EsentResourceException constructor 
 TOCTitle: 'EsentResourceException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentResourceException.#ctor

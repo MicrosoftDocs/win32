@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SoftwareElementChecks association class relates a software element with condition or location information that a feature may require.
+description: The CIM\_SoftwareElementChecks association class relates a software element with condition or location information that a feature may require.
 ms.assetid: ff130fe9-ddb2-4e4f-86d3-53f1d8ed14aa
 ms.tgt_platform: multiple
 title: CIM_SoftwareElementChecks class

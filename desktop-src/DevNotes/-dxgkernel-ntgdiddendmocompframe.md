@@ -1,5 +1,5 @@
 ---
-Description: Completes a decoded frame.
+description: Completes a decoded frame.
 ms.assetid: 476f8bcc-2a93-430e-bda5-33102e36a35a
 title: NtGdiDdEndMoCompFrame function (Ntgdi.h)
 ms.topic: reference

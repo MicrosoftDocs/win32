@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the CommonFilesFolder property to the full path of the Common Files folder for the current user.
+description: The installer sets the CommonFilesFolder property to the full path of the Common Files folder for the current user.
 ms.assetid: b5695525-52f8-46b6-bd67-9bd2fdc71e52
 title: CommonFilesFolder property
 ms.topic: reference

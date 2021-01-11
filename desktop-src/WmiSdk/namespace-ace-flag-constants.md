@@ -1,5 +1,5 @@
 ---
-Description: The following list lists the possible values of the Flags field in a WMI Access Control Entry (ACE).
+description: The following list lists the possible values of the Flags field in a WMI Access Control Entry (ACE).
 ms.assetid: bd09691d-e285-40e0-8686-edd5a132a06e
 ms.tgt_platform: multiple
 title: Namespace ACE Flag Constants (Winnt.h)

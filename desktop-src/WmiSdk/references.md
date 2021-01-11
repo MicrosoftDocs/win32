@@ -1,5 +1,5 @@
 ---
-Description: The MOF ref key word describes an object path and maps to a VT\_BSTR Automation type.
+description: The MOF ref key word describes an object path and maps to a VT\_BSTR Automation type.
 ms.assetid: 9da25435-4ccc-4251-a4be-37239156e320
 ms.tgt_platform: multiple
 title: References (WMI)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SESID structure"
 title: JET_SESID structure
 TOCTitle: JET_SESID structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_SESID

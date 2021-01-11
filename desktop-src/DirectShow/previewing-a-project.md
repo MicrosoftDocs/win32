@@ -1,5 +1,5 @@
 ---
-Description: Previewing a Project
+description: Previewing a Project
 ms.assetid: '2efa3f25-a93f-4362-b461-b67475e5d78c'
 title: Previewing a Project
 ms.topic: article

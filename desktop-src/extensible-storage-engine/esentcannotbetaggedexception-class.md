@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotBeTaggedException class"
 title: EsentCannotBeTaggedException class
 TOCTitle: EsentCannotBeTaggedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCannotBeTaggedException

@@ -1,5 +1,5 @@
 ---
-Description: The denominator of PKEY\_Photo\_DigitalZoom.
+description: The denominator of PKEY\_Photo\_DigitalZoom.
 ms.assetid: 3da855f9-70d6-4b46-95eb-3c5e03a91647
 title: System.Photo.DigitalZoomDenominator
 ms.topic: article

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_CONDITIONALCOLUMN properties"
 title: JET_CONDITIONALCOLUMN properties
 TOCTitle: JET_CONDITIONALCOLUMN properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_CONDITIONALCOLUMN

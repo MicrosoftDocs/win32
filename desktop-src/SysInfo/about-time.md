@@ -1,5 +1,5 @@
 ---
-Description: Time-related functions return time in one of several formats. You can use the time functions to convert between some time formats for ease of comparison and display. The following table summarizes the time formats.
+description: Time-related functions return time in one of several formats. You can use the time functions to convert between some time formats for ease of comparison and display. The following table summarizes the time formats.
 ms.assetid: 74feb158-ba45-4660-970b-3eb577b1ebf8
 title: About Time
 ms.topic: article

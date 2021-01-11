@@ -1,5 +1,5 @@
 ---
-Description: Gets an array of floating point values.
+description: Gets an array of floating point values.
 ms.assetid: ba839129-c332-4ce8-b7c1-ea0ef4697ade
 title: ID3DXBaseEffect::GetFloatArray method (D3DX9Shader.h)
 ms.topic: reference

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: VistaApi members"
 title: VistaApi members (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaApi members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Vista.VistaApi

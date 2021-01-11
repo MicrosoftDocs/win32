@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BytesColumnValue.ValueAsObject property"
 title: BytesColumnValue.ValueAsObject property 
 TOCTitle: 'ValueAsObject property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.BytesColumnValue.ValueAsObject

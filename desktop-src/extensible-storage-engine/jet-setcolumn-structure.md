@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETCOLUMN Structure"
 title: JET_SETCOLUMN Structure
 TOCTitle: JET_SETCOLUMN Structure
 ms:assetid: 3fdb8ec0-3c40-44f3-9859-72e22a504b90

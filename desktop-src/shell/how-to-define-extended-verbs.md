@@ -1,5 +1,5 @@
 ---
-Description: You can use the registry to define one or more extended verbs. The associated commands will be displayed only when the user right-clicks an object while pressing the SHIFT key.
+description: You can use the registry to define one or more extended verbs. The associated commands will be displayed only when the user right-clicks an object while pressing the SHIFT key.
 ms.assetid: C6E51716-1D4F-454F-9AF4-8D0E486CB885
 title: How to Define Extended Verbs
 ms.topic: article

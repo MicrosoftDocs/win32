@@ -1,5 +1,5 @@
 ---
-Description: Represents the parameters for copying a file from the host into the guest.
+description: Represents the parameters for copying a file from the host into the guest.
 ms.assetid: 255F4132-C212-4A3B-A9B8-3F531E7D1CF9
 title: Msvm_CopyFileToGuestSettingData class
 ms.topic: reference

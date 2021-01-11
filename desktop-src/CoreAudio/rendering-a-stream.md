@@ -1,5 +1,5 @@
 ---
-Description: Rendering a Stream
+description: Rendering a Stream
 ms.assetid: 00bfcfd1-6592-43e3-90ad-730c92aa4cd3
 title: Rendering a Stream
 ms.topic: article

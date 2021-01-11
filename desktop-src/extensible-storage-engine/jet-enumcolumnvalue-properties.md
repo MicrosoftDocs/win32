@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_ENUMCOLUMNVALUE properties"
 title: JET_ENUMCOLUMNVALUE properties
 TOCTitle: JET_ENUMCOLUMNVALUE properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNVALUE

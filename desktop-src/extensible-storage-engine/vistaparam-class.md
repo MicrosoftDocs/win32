@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaParam class"
 title: VistaParam class (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaParam class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.VistaParam

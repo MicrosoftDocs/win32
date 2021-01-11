@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOSSnapshotThaw Function"
 title: JetOSSnapshotThaw Function
 TOCTitle: JetOSSnapshotThaw Function
 ms:assetid: 3b001113-6299-4082-ab15-461f2e33e996

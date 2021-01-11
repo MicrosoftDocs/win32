@@ -1,5 +1,5 @@
 ---
-Description: Adds a string to the top of the most recently used (MRU) list.
+description: Adds a string to the top of the most recently used (MRU) list.
 title: AddMRUStringW function
 ms.topic: reference
 ms.date: 05/31/2018

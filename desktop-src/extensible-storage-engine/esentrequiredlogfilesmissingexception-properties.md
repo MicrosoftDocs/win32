@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRequiredLogFilesMissingException properties"
 title: EsentRequiredLogFilesMissingException properties
 TOCTitle: EsentRequiredLogFilesMissingException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRequiredLogFilesMissingException

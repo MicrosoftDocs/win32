@@ -1,5 +1,5 @@
 ---
-Description: Specifies how the decoder reproduces dual mono audio.
+description: Specifies how the decoder reproduces dual mono audio.
 ms.assetid: 3ef1f52c-13b2-4d9f-99fe-3317846be8a0
 title: AVDecAudioDualMonoReproMode property (Codecapi.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The state or province name.
+description: The state or province name.
 ms.assetid: 5b517d27-33c9-473e-b9b8-79e845b8a79b
 title: LocationDisp.DispCivicAddressReport.StateProvince property
 ms.topic: reference

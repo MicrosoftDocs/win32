@@ -1,5 +1,5 @@
 ---
-Description: The following globally unique identifiers (GUIDs) define different time formats.
+description: The following globally unique identifiers (GUIDs) define different time formats.
 ms.assetid: '510c7146-ff3c-4812-a7ad-b4051aa82ef3'
 title: Time Format GUIDs (Uuids.h)
 ms.topic: article

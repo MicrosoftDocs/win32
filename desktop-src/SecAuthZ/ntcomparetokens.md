@@ -1,5 +1,5 @@
 ---
-Description: Compares two access tokens and determines whether they are equivalent with respect to a call to the AccessCheck function.
+description: Compares two access tokens and determines whether they are equivalent with respect to a call to the AccessCheck function.
 ms.assetid: 3a07ddc6-9748-4f96-a597-2af6b4282e56
 title: NtCompareTokens function (Ntseapi.h)
 ms.topic: reference

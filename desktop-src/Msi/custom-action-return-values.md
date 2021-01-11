@@ -1,5 +1,5 @@
 ---
-Description: If the msidbCustomActionTypeContinue return processing option is not set, the custom action must return an integer status code as shown in the following table.
+description: If the msidbCustomActionTypeContinue return processing option is not set, the custom action must return an integer status code as shown in the following table.
 ms.assetid: 56c2d639-eef8-47cd-9d47-9a4781b9be36
 title: Custom Action Return Values
 ms.topic: article

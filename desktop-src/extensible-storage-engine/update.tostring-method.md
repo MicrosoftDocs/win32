@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Update.ToString method"
 title: Update.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Update.ToString

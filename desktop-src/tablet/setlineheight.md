@@ -1,5 +1,5 @@
 ---
-Description: Sets the LineHeight property on the InkDivider object.
+description: Sets the LineHeight property on the InkDivider object.
 ms.assetid: ce5e40c5-faa1-4d66-94f4-d5bd1a11ee4c
 title: SetLineHeight function
 ms.topic: reference

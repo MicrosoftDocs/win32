@@ -1,5 +1,5 @@
 ---
-Description: The CSeekingPassThru class is a helper object that creates CPosPassThru and CRendererPosPassThru objects.
+description: The CSeekingPassThru class is a helper object that creates CPosPassThru and CRendererPosPassThru objects.
 ms.assetid: a748ea5c-d93f-4f80-9d2f-bef5a5c1c2fb
 title: CSeekingPassThru class (Seekpt.h)
 ms.topic: reference

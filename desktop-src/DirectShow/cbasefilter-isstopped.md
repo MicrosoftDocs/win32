@@ -1,5 +1,5 @@
 ---
-Description: The IsStopped method determines whether the filter is currently stopped.
+description: The IsStopped method determines whether the filter is currently stopped.
 ms.assetid: 89358523-d8e2-4c79-9ab8-6cc2f77a277f
 title: CBaseFilter.IsStopped method (Amfilter.h)
 ms.topic: reference

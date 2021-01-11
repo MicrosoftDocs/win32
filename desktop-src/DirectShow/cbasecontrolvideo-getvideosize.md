@@ -1,5 +1,5 @@
 ---
-Description: The GetVideoSize method retrieves the native video's width and height.
+description: The GetVideoSize method retrieves the native video's width and height.
 ms.assetid: b3461a56-705b-465a-9cfc-e86fd52a07c5
 title: CBaseControlVideo.GetVideoSize method (Ctlutil.h)
 ms.topic: reference

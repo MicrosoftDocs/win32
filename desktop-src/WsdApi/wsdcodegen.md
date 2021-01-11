@@ -1,5 +1,5 @@
 ---
-Description: Is the root element of an WSDAPI code generator XML script file.
+description: Is the root element of an WSDAPI code generator XML script file.
 ms.assetid: '3d40172b-6ba1-4e42-9a1a-519c8e88c2b1'
 title: wsdCodeGen element
 ms.topic: article

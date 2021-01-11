@@ -1,5 +1,5 @@
 ---
-Description: TCP/IP has characteristics that enable the protocol to operate as its standardized implementation requirements dictate.
+description: TCP/IP has characteristics that enable the protocol to operate as its standardized implementation requirements dictate.
 ms.assetid: 6e9b3878-85f0-4572-9c00-a2e7647286ff
 title: TCP/IP Characteristics
 ms.topic: article

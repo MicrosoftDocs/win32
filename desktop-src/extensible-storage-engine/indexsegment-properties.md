@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IndexSegment properties"
 title: IndexSegment properties
 TOCTitle: IndexSegment properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.IndexSegment

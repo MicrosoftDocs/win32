@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.GPS.Altitude property.
+description: The photo metadata policy for the System.GPS.Altitude property.
 ms.assetid: 63d59aa3-52a6-4b6f-b6ec-a1c4abcee83f
 title: System.GPS.Altitude Photo Metadata Policy
 ms.topic: article

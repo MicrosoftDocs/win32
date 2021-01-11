@@ -1,5 +1,5 @@
 ---
-Description: The IScanProfileMgr interface provides methods for creating, opening, deleting, and managing scan profiles.
+description: The IScanProfileMgr interface provides methods for creating, opening, deleting, and managing scan profiles.
 ms.assetid: f57a71b7-750c-42a8-be73-229f0145d9d5
 title: IScanProfileMgr interface (Scanprofilemgr.h)
 ms.topic: reference

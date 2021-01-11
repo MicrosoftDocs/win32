@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentObsoleteException constructor (String, JET_err)"
 title: EsentObsoleteException constructor (String, JET_err)
 TOCTitle: EsentObsoleteException constructor (String, JET_err)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentObsoleteException.#ctor(System.String,Microsoft.Isam.Esent.Interop.JET_err)

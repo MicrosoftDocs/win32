@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 116f59e9-da65-430d-b5de-e7cd9686bd19
 title: PrintTicket Public Keywords
 ms.topic: article

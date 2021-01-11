@@ -1,5 +1,5 @@
 ---
-Description: Sent to a window when the window is about to be hidden or shown.
+description: Sent to a window when the window is about to be hidden or shown.
 ms.assetid: dea7c9aa-eba7-4b93-a4c5-9b2d36999780
 title: WM_SHOWWINDOW message (Winuser.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the device is roaming.
+description: Indicates whether the device is roaming.
 ms.assetid: d2382e96-7ca4-42e4-8e5b-89f1da736904
 title: System.Devices.Roaming
 ms.topic: article

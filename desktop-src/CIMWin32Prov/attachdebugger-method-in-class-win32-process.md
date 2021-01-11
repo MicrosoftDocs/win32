@@ -1,5 +1,5 @@
 ---
-Description: Starts the debugger that is currently registered for this process.
+description: Starts the debugger that is currently registered for this process.
 ms.assetid: 63c30db8-6117-4353-9132-4f39c72a6637
 ms.tgt_platform: multiple
 title: AttachDebugger method of the Win32_Process class

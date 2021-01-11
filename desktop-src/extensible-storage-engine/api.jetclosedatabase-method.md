@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetCloseDatabase method"
 title: Api.JetCloseDatabase method 
 TOCTitle: 'JetCloseDatabase method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetCloseDatabase(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,Microsoft.Isam.Esent.Interop.CloseDatabaseGrbit)

@@ -1,5 +1,5 @@
 ---
-Description: Flushes the application compatibility cache.
+description: Flushes the application compatibility cache.
 ms.assetid: 03f47813-87f6-4b71-b453-77a2facab019
 title: BaseFlushAppcompatCache function
 ms.topic: reference

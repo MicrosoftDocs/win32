@@ -1,5 +1,5 @@
 ---
-Description: Defines the type of mesh data present in D3DXMESHDATA.
+description: Defines the type of mesh data present in D3DXMESHDATA.
 ms.assetid: e5324f85-17cc-46a7-886a-c8f3464baade
 title: D3DXMESHDATATYPE enumeration (D3dx9anim.h)
 ms.topic: reference

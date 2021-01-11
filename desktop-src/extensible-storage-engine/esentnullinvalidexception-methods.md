@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNullInvalidException methods"
 title: EsentNullInvalidException methods
 TOCTitle: EsentNullInvalidException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNullInvalidException

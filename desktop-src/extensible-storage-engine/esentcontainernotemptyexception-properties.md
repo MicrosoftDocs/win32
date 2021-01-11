@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentContainerNotEmptyException properties"
 title: EsentContainerNotEmptyException properties
 TOCTitle: EsentContainerNotEmptyException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentContainerNotEmptyException

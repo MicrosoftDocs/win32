@@ -1,5 +1,5 @@
 ---
-Description: Well-written applications include error-handling code that allows them to recover gracefully from unexpected errors.
+description: Well-written applications include error-handling code that allows them to recover gracefully from unexpected errors.
 ms.assetid: 'b8d84980-6ba9-4784-8ab0-d5e9c5c95bae'
 title: Error Handling (Error Handling)
 ms.topic: article

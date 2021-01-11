@@ -1,5 +1,5 @@
 ---
-Description: This section of the documentation contains information about the Peer Infrastructure.
+description: This section of the documentation contains information about the Peer Infrastructure.
 ms.assetid: 7a641d26-af87-4a96-b718-5b7598c87da7
 title: About Peer Networking
 ms.topic: article

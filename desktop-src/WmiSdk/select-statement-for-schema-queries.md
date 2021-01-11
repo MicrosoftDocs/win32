@@ -1,5 +1,5 @@
 ---
-Description: Schema data queries use the SELECT statement with a syntax similar to that for data queries.
+description: Schema data queries use the SELECT statement with a syntax similar to that for data queries.
 ms.assetid: e7150aaa-5829-4d64-a13b-39f83adc5b98
 ms.tgt_platform: multiple
 title: SELECT Statement for Schema Queries

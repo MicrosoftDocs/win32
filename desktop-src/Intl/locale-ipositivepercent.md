@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_IPOSITIVEPERCENT
+description: LOCALE\_IPOSITIVEPERCENT
 ms.assetid: 76bee1f3-da87-435b-9796-3c82b3da2396
 title: LOCALE_IPOSITIVEPERCENT
 ms.topic: article

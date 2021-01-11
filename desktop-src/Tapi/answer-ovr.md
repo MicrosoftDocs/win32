@@ -1,5 +1,5 @@
 ---
-Description: The answer operation is an applications typical response to an offered communications session. If successful, this operation causes a session to transition into the connected state.
+description: The answer operation is an applications typical response to an offered communications session. If successful, this operation causes a session to transition into the connected state.
 ms.assetid: '34ac0b34-1d1b-4657-a737-27a4ed9326af'
 title: Answer
 ms.topic: article

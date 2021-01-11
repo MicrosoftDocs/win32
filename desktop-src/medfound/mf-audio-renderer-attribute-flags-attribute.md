@@ -1,5 +1,5 @@
 ---
-Description: Contains flags to configure the audio renderer.
+description: Contains flags to configure the audio renderer.
 ms.assetid: 07433904-1bf6-4e8d-9571-8d663bf4fd13
 title: MF_AUDIO_RENDERER_ATTRIBUTE_FLAGS attribute (Mfidl.h)
 ms.topic: reference

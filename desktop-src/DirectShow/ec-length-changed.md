@@ -1,5 +1,5 @@
 ---
-Description: The length of a source has changed.
+description: The length of a source has changed.
 ms.assetid: f2b89578-22f5-4b3b-bc43-7cf4f7eb5f0e
 title: EC_LENGTH_CHANGED (Dshow.h)
 ms.topic: reference

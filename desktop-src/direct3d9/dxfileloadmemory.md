@@ -1,5 +1,5 @@
 ---
-Description: Identifies memory data. Deprecated.
+description: Identifies memory data. Deprecated.
 ms.assetid: fe791e13-d5de-425f-b68f-80db8b332cc6
 title: DXFILELOADMEMORY structure (DXFile.h)
 ms.topic: reference

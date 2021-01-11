@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidOperationException members"
 title: EsentInvalidOperationException members
 TOCTitle: EsentInvalidOperationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidOperationException

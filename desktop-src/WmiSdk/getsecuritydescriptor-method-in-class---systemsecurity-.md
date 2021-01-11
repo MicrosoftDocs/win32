@@ -1,5 +1,5 @@
 ---
-Description: Gets the security descriptor that controls access to the WMI namespace to which you are connected. The security descriptor is returned as an instance of\_\_SecurityDescriptor.
+description: Gets the security descriptor that controls access to the WMI namespace to which you are connected. The security descriptor is returned as an instance of\_\_SecurityDescriptor.
 ms.assetid: b031af45-9237-434d-91db-69222306c615
 ms.tgt_platform: multiple
 title: GetSecurityDescriptor method of the __SystemSecurity class

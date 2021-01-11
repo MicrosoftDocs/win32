@@ -1,5 +1,5 @@
 ---
-Description: Loads a patch mesh from an ID3DXFileData object.
+description: Loads a patch mesh from an ID3DXFileData object.
 ms.assetid: 8054e33e-6bf8-4a56-9f66-30600732c84f
 title: D3DXLoadPatchMeshFromXof function (D3DX9Mesh.h)
 ms.topic: reference

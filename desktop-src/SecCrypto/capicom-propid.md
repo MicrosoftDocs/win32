@@ -1,5 +1,5 @@
 ---
-Description: Defines the CAPICOM property identifiers.
+description: Defines the CAPICOM property identifiers.
 ms.assetid: faf10018-3ed8-4de6-9838-c553626f6dd7
 title: CAPICOM_PROPID enumeration (Capicom.h)
 ms.topic: reference

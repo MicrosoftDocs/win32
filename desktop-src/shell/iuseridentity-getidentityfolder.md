@@ -1,5 +1,5 @@
 ---
-Description: GetIdentityFolder is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+description: GetIdentityFolder is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: cd3370a2-b393-4cb9-ad9c-a46086987aaa
 title: IUserIdentity::GetIdentityFolder method (Msident.h)
 ms.topic: reference

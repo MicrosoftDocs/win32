@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLEID.Inequality operator"
 title: JET_TABLEID.Inequality operator 
 TOCTitle: 'Inequality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_TABLEID.op_Inequality(Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_TABLEID)

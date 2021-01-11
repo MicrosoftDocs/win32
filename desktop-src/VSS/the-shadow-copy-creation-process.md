@@ -1,5 +1,5 @@
 ---
-Description: The Shadow Copy Creation Process
+description: The Shadow Copy Creation Process
 ms.assetid: ca484eec-31c6-4790-9232-3ed67263f6fb
 title: The Shadow Copy Creation Process
 ms.topic: article

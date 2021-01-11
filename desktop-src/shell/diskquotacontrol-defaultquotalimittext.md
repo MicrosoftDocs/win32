@@ -1,5 +1,5 @@
 ---
-Description: Gets the default quota limit as a text string.
+description: Gets the default quota limit as a text string.
 title: DiskQuotaControl.DefaultQuotaLimitText property
 ms.topic: reference
 ms.date: 05/31/2018

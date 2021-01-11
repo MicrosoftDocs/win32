@@ -1,5 +1,5 @@
 ---
-Description: Returns the EKU object used to build the Chain object.
+description: Returns the EKU object used to build the Chain object.
 ms.assetid: d02f1614-6a4f-4c60-b406-ce174a99e9a5
 title: CertificateStatus.EKU method
 ms.topic: reference

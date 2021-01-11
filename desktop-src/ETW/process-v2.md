@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for process events. The following syntax is simplified from MOF code.
+description: This class is the parent class for process events. The following syntax is simplified from MOF code.
 ms.assetid: 75596278-43cc-4040-a43d-6958d0935b68
 title: Process_V2 class
 ms.topic: reference

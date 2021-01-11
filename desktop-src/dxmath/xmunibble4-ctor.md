@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMUNIBBLE4.
+description: Constructors exposed by XMUNIBBLE4.
 ms.assetid: 56b8ad7d-4dd5-4d73-95e0-1bb7a12f9989
 title: XMUNIBBLE4 constructors
 ms.topic: reference

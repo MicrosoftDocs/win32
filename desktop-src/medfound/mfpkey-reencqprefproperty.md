@@ -1,5 +1,5 @@
 ---
-Description: For segment re-encoding, specifies the quantizer of the frame prior to the starting segment.
+description: For segment re-encoding, specifies the quantizer of the frame prior to the starting segment.
 ms.assetid: 00b72389-1f0e-469d-af07-db515071e0fb
 title: MFPKEY_REENCQPREF Property (Wmcodecdsp.h)
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetGetVersion method"
 title: Api.JetGetVersion method 
 TOCTitle: 'JetGetVersion method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetVersion(Microsoft.Isam.Esent.Interop.JET_SESID,System.UInt32@)

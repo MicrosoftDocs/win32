@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileNotFoundException class"
 title: EsentFileNotFoundException class
 TOCTitle: EsentFileNotFoundException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFileNotFoundException

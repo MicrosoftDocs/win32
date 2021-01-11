@@ -1,5 +1,5 @@
 ---
-Description: IsPurchaseProfile
+description: IsPurchaseProfile
 MS-HAID: WWAN\_profile\_v2.element\_IsPurchaseProfile
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: Performs asynchronous ink analysis.
+description: Performs asynchronous ink analysis.
 ms.assetid: 36427b80-5e3b-4c9a-bb49-e6b7f9301cbd
 title: IInkAnalyzer::BackgroundAnalyze method (IACom.h)
 ms.topic: reference

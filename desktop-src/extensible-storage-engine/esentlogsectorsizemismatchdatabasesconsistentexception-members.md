@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSectorSizeMismatchDatabasesConsistentException members"
 title: EsentLogSectorSizeMismatchDatabasesConsistentException members
 TOCTitle: EsentLogSectorSizeMismatchDatabasesConsistentException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogSectorSizeMismatchDatabasesConsistentException

@@ -1,5 +1,5 @@
 ---
-Description: Full Screen Renderer Filter
+description: Full Screen Renderer Filter
 ms.assetid: 59332096-bdfe-4208-b99a-1f434652f287
 title: Full Screen Renderer Filter
 ms.topic: article

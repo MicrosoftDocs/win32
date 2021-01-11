@@ -1,5 +1,5 @@
 ---
-Description: Contains flags that indicate which capabilities have changed in the Media Session, based on the current presentation.
+description: Contains flags that indicate which capabilities have changed in the Media Session, based on the current presentation.
 ms.assetid: aa01d17f-f2ac-4504-b278-3edd90ab8a23
 title: MF_EVENT_SESSIONCAPS_DELTA attribute (Mfapi.h)
 ms.topic: reference

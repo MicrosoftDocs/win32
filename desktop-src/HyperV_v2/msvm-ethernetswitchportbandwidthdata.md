@@ -1,5 +1,5 @@
 ---
-Description: Represents the port bandwidth feature status data.
+description: Represents the port bandwidth feature status data.
 ms.assetid: 1f7be0dd-3d2f-49ef-aff0-cb162389194a
 title: Msvm_EthernetSwitchPortBandwidthData class
 ms.topic: reference

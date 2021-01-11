@@ -1,5 +1,5 @@
 ---
-Description: The Windows Peer Networking Infrastructure is a developer platform to create peer applications for computers running Windows XP with Service Pack 1 (SP1) with Advanced Networking Pack, Windows XP with Service Pack 2 (SP2), Windows Vista, and Windows Server 2008.
+description: The Windows Peer Networking Infrastructure is a developer platform to create peer applications for computers running Windows XP with Service Pack 1 (SP1) with Advanced Networking Pack, Windows XP with Service Pack 2 (SP2), Windows Vista, and Windows Server 2008.
 ms.assetid: 32402d21-3e00-4095-93b9-b0357f534342
 title: Installing the Peer Infrastructure
 ms.topic: article

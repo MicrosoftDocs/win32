@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidCountryException class"
 title: EsentInvalidCountryException class
 TOCTitle: EsentInvalidCountryException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidCountryException

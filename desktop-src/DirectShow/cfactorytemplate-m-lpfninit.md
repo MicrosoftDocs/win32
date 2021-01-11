@@ -1,5 +1,5 @@
 ---
-Description: Pointer to a function that gets called from the DLL entry point. Can be NULL.
+description: Pointer to a function that gets called from the DLL entry point. Can be NULL.
 ms.assetid: 0769f55b-6f0d-4a89-9d3f-64f211426342
 title: CFactoryTemplate::m_lpfnInit member (Combase.h)
 ms.topic: reference

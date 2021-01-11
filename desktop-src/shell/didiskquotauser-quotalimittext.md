@@ -1,5 +1,5 @@
 ---
-Description: Gets the user's current quota limit as a text string.
+description: Gets the user's current quota limit as a text string.
 title: DIDiskQuotaUser.QuotaLimitText property
 ms.topic: reference
 ms.date: 05/31/2018

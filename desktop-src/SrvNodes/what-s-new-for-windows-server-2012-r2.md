@@ -1,5 +1,5 @@
 ---
-Description: The following list describes new and updated feature areas for Windows Server 2012 and Windows Server 2012 R2. For more information on new Windows 8 and Windows 8.1 technologies, see Windows 8 and Windows 8.1 Technologies.
+description: The following list describes new and updated feature areas for Windows Server 2012 and Windows Server 2012 R2. For more information on new Windows 8 and Windows 8.1 technologies, see Windows 8 and Windows 8.1 Technologies.
 ms.assetid: bd8b4dd8-e0b7-4340-a6bd-1baa42d9a1dd
 title: "What's New: Windows Server 2012 R2 & Windows Server 2012"
 ms.topic: article
@@ -90,7 +90,7 @@ The following list describes new and updated feature areas for Windows Server 2
 
     Windows PowerShell is a task-based command-line shell and scripting language designed especially for system administration. New in Windows Server 2012, Windows PowerShell v3 supports Windows PowerShell Workflow, which leverages the benefits of Windows Workflow Foundation to allow the automation of long-running tasks.
 
--   [Management OData](/powershell/scripting/developer/webservices/creating-a-management-odata-web-service?view=powershell-7)
+-   [Management OData](/powershell/scripting/developer/webservices/creating-a-management-odata-web-service?view=powershell-7&preserve-view=true)
 
     **New!** Also known as Windows PowerShell Web Services, Management OData, new in Windows PowerShell v3, allows the creation of an ASP.NET web service end point that exposes management data, acessed through Windows PowerShell commands, as OData web service entities.
 

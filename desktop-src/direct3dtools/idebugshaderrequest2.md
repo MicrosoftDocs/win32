@@ -1,5 +1,5 @@
 ---
-Description: 'Request to start debugging a shader. This request contains two parts: generate a trace, and debug a trace.'
+description: 'Request to start debugging a shader. This request contains two parts: generate a trace, and debug a trace.'
 MS-HAID: vspixengine.IDebugShaderRequest2
 MSHAttr:
 - PreferredSiteName:MSDN

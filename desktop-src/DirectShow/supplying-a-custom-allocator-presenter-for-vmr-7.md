@@ -1,5 +1,5 @@
 ---
-Description: Supplying a Custom Allocator-Presenter for VMR-7
+description: Supplying a Custom Allocator-Presenter for VMR-7
 ms.assetid: 19b43c9b-2578-418f-b03b-af7c7a3a46e4
 title: Supplying a Custom Allocator-Presenter for VMR-7
 ms.topic: article

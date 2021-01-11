@@ -1,5 +1,5 @@
 ---
-Description: Measure the cache hit rate performance for textures and indexed vertices.
+description: Measure the cache hit rate performance for textures and indexed vertices.
 ms.assetid: 70bc4e93-0a34-485b-bdcc-028c24b52f62
 title: D3DDEVINFO_D3D9CACHEUTILIZATION structure (D3D9Types.h)
 ms.topic: reference

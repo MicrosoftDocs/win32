@@ -1,5 +1,5 @@
 ---
-Description: An application can use the MsiOpenDatabase function to open a new or existing installation database (.msi file) or patch package (.msp file.) The application checks the return value of MsiOpenDatabase before using the database handle.
+description: An application can use the MsiOpenDatabase function to open a new or existing installation database (.msi file) or patch package (.msp file.) The application checks the return value of MsiOpenDatabase before using the database handle.
 ms.assetid: 54a8d571-ebc3-42d5-bc34-8f29b245b4d8
 title: A Database and Patch Example
 ms.topic: article

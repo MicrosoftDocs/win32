@@ -1,5 +1,5 @@
 ---
-Description: When the client has finished communicating with any server or has finished using the additional credentials passed to the AcquireCredentialsHandle function, the client must call the FreeCredentialsHandle function.
+description: When the client has finished communicating with any server or has finished using the additional credentials passed to the AcquireCredentialsHandle function, the client must call the FreeCredentialsHandle function.
 ms.assetid: fa943e9b-d379-441f-8c6e-f0a0f5f7f1a3
 title: Ending an SSPI Session
 ms.topic: article

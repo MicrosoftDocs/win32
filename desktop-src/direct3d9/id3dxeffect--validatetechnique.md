@@ -1,5 +1,5 @@
 ---
-Description: Validate a technique.
+description: Validate a technique.
 ms.assetid: d69eaafa-da4d-4599-86fb-83d72e1664cc
 title: ID3DXEffect::ValidateTechnique method (D3DX9Effect.h)
 ms.topic: reference

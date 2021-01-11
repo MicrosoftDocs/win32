@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SnapshotGetFreezeInfoGrbit enumeration"
 title: SnapshotGetFreezeInfoGrbit enumeration (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: SnapshotGetFreezeInfoGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.SnapshotGetFreezeInfoGrbit

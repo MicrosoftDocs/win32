@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_UninterruptiblePowerSupply class exposes the following methods.
+description: The CIM\_UninterruptiblePowerSupply class exposes the following methods.
 ms.assetid: 75B2A996-83D7-4611-BF90-ECC28D29A571
 ms.tgt_platform: multiple
 title: CIM_UninterruptiblePowerSupply Methods

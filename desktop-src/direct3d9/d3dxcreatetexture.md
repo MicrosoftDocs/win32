@@ -1,5 +1,5 @@
 ---
-Description: Creates an empty texture, adjusting the calling parameters as needed.
+description: Creates an empty texture, adjusting the calling parameters as needed.
 ms.assetid: ea028aa9-4f37-4625-9e07-9072ec1a61d0
 title: D3DXCreateTexture function (D3dx9tex.h)
 ms.topic: reference

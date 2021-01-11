@@ -1,5 +1,5 @@
 ---
-Description: Information about each event is stored in the event log in an event log record. The event log record includes time, type, and category information. For more information, see the EVENTLOGRECORD structure.
+description: Information about each event is stored in the event log in an event log record. The event log record includes time, type, and category information. For more information, see the EVENTLOGRECORD structure.
 ms.assetid: 73731505-97f5-4985-8d00-c6ce8604902d
 title: Event Log Records
 ms.topic: article

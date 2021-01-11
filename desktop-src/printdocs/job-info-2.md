@@ -1,5 +1,5 @@
 ---
-Description: The JOB\_INFO\_2 structure describes a full set of values associated with a job.
+description: The JOB\_INFO\_2 structure describes a full set of values associated with a job.
 ms.assetid: 0cc61e35-4ac9-47bd-bb0d-ff43854bdee5
 title: JOB_INFO_2 structure (Winspool.h)
 ms.topic: reference

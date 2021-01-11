@@ -1,5 +1,5 @@
 ---
-Description: Callback from engine to handle errors.
+description: Callback from engine to handle errors.
 MS-HAID: vspixengine.IPixErrorCallback
 MSHAttr:
 - PreferredSiteName:MSDN

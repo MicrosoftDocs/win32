@@ -1,5 +1,5 @@
 ---
-Description: When the Shell detects the insertion of new media or the attachment of a hot-plug device, the contents of the device or media are determined. AutoPlay, depending on its current settings, does one of the following.
+description: When the Shell detects the insertion of new media or the attachment of a hot-plug device, the contents of the device or media are determined. AutoPlay, depending on its current settings, does one of the following.
 title: Using and Configuring AutoPlay
 ms.topic: article
 ms.date: 05/31/2018

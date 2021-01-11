@@ -1,5 +1,5 @@
 ---
-Description: The put\_Size method sets the output size and stretch mode.
+description: The put\_Size method sets the output size and stretch mode.
 ms.assetid: 1186eee4-b5c1-4216-abb3-86ea03b2da40
 title: IResize::put_Size method (Qedit.h)
 ms.topic: reference

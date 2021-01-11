@@ -1,5 +1,5 @@
 ---
-Description: The SetUnsignedIntegerValue method adds a new ULONG value (type VT\_UI4) or overwrites an existing one.
+description: The SetUnsignedIntegerValue method adds a new ULONG value (type VT\_UI4) or overwrites an existing one.
 ms.assetid: 9b5d1b8c-7863-4807-a34b-56d30a47bd5c
 title: IPortableDeviceValues::SetUnsignedIntegerValue method (PortableDeviceTypes.h)
 ms.topic: reference

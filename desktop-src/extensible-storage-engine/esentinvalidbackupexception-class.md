@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidBackupException class"
 title: EsentInvalidBackupException class
 TOCTitle: EsentInvalidBackupException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidBackupException

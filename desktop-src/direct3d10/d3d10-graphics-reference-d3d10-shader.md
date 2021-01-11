@@ -1,5 +1,5 @@
 ---
-Description: The Direct3D API defines several API elements to help you create and manage programmable shaders.
+description: The Direct3D API defines several API elements to help you create and manage programmable shaders.
 ms.assetid: b493a9e9-6fd6-4383-aa0b-3b3ac287116d
 title: Shader Reference (Direct3D 10 Graphics)
 ms.topic: article

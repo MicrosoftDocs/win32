@@ -1,5 +1,5 @@
 ---
-Description: The parental rating stored in a format typically determined by the organization named in System.ParentalRatingsOrganization.
+description: The parental rating stored in a format typically determined by the organization named in System.ParentalRatingsOrganization.
 ms.assetid: db5fb8a2-719f-4bef-9ab1-0856945ed240
 title: System.ParentalRating
 ms.topic: article

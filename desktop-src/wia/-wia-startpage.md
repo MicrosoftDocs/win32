@@ -1,5 +1,5 @@
 ---
-Description: Windows Image Acquisition (WIA) is the still image acquisition platform in the Windows family of operating systems starting with Windows Millennium Edition (Windows Me) and Windows XP.
+description: Windows Image Acquisition (WIA) is the still image acquisition platform in the Windows family of operating systems starting with Windows Millennium Edition (Windows Me) and Windows XP.
 ms.assetid: 8f32422e-25ec-48bc-9d79-57dbb3b53e93
 title: Windows Image Acquisition (WIA)
 ms.topic: article

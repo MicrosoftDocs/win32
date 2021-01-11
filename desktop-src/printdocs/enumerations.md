@@ -1,5 +1,5 @@
 ---
-Description: This section contains an alphabetical listing of the enumerations that are used by the Print Spooler API.
+description: This section contains an alphabetical listing of the enumerations that are used by the Print Spooler API.
 ms.assetid: '0a0f7fa8-99bf-482e-a26c-9fc208b4c687'
 title: Print Spooler API Enumerations
 ms.topic: article

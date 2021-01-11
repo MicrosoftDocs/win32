@@ -1,5 +1,5 @@
 ---
-Description: The following table summarizes the differences between shutdown on Windows Vista and Windows XP.
+description: The following table summarizes the differences between shutdown on Windows Vista and Windows XP.
 ms.assetid: da7985d2-85c8-47e1-a172-c9e92f450e24
 title: Shutdown Changes for Windows Vista
 ms.topic: article

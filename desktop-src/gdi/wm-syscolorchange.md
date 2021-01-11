@@ -1,5 +1,5 @@
 ---
-Description: The WM\_SYSCOLORCHANGE message is sent to all top-level windows when a change is made to a system color setting.
+description: The WM\_SYSCOLORCHANGE message is sent to all top-level windows when a change is made to a system color setting.
 ms.assetid: ffe61768-86d6-4ea8-ae2d-1095a9afa925
 title: WM_SYSCOLORCHANGE message (Winuser.h)
 ms.topic: reference

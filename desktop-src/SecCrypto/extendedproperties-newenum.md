@@ -1,5 +1,5 @@
 ---
-Description: The \_NewEnum property of ExtendedProperties retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
+description: The \_NewEnum property of ExtendedProperties retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
 ms.assetid: 2692f607-3bec-4674-9d8d-3c872d523ace
 title: ExtendedProperties._NewEnum property
 ms.topic: reference

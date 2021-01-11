@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.NameMost field"
 title: SystemParameters.NameMost field
 TOCTitle: NameMost field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.SystemParameters.NameMost

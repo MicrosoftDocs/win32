@@ -1,5 +1,5 @@
 ---
-Description: Sets the FOURCC portion of the FOURCCMap object.
+description: Sets the FOURCC portion of the FOURCCMap object.
 ms.assetid: cc821e39-e565-4255-a289-2c9507d43433
 title: FOURCCMap::SetFOURCC method (Fourcc.h)
 ms.topic: reference

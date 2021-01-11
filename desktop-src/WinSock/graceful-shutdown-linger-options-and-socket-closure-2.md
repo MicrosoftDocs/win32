@@ -1,5 +1,5 @@
 ---
-Description: The following material is provided as clarification for the subject of shutting down socket connections closing the sockets. It is important to distinguish the difference between shutting down a socket connection and closing a socket.
+description: The following material is provided as clarification for the subject of shutting down socket connections closing the sockets. It is important to distinguish the difference between shutting down a socket connection and closing a socket.
 ms.assetid: 383747c3-dd3d-4a18-b4e8-2815d5e5c0c7
 title: Graceful Shutdown, Linger Options, and Socket Closure
 ms.topic: article

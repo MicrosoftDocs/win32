@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.JetSetColumn method"
 title: Api.JetSetColumn method 
 TOCTitle: 'JetSetColumn method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.JetSetColumn

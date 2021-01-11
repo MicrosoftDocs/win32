@@ -1,5 +1,5 @@
 ---
-Description: Configuring Audio Encoding
+description: Configuring Audio Encoding
 ms.assetid: 40004f07-0b8c-49cd-9e17-1f6ad7604fbb
 title: Configuring Audio Encoding (Microsoft Media Foundation)
 ms.topic: article

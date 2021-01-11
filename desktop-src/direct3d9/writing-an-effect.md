@@ -1,5 +1,5 @@
 ---
-Description: Writing an effect requires that you understand effect syntax, and generate the required state information. You can add shader state, texture and sampler state, and all of the pipeline state that your application requires in an effect.
+description: Writing an effect requires that you understand effect syntax, and generate the required state information. You can add shader state, texture and sampler state, and all of the pipeline state that your application requires in an effect.
 ms.assetid: 361dd260-526a-4484-8dc9-3857874e5023
 title: Writing an Effect (Direct3D 9)
 ms.topic: article

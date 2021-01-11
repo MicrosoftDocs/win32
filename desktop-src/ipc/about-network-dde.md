@@ -1,5 +1,5 @@
 ---
-Description: Network DDE is used to initiate and maintain the network connections needed for DDE conversations between applications running on different computers in a network.
+description: Network DDE is used to initiate and maintain the network connections needed for DDE conversations between applications running on different computers in a network.
 ms.assetid: f9eee391-2b4a-4c17-bea5-72cda5124e1c
 title: About Network DDE
 ms.topic: article

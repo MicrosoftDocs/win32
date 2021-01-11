@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStreamingDataNotLoggedException members"
 title: EsentStreamingDataNotLoggedException members
 TOCTitle: EsentStreamingDataNotLoggedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentStreamingDataNotLoggedException

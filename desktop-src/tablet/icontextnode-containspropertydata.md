@@ -1,5 +1,5 @@
 ---
-Description: Determines whether the IContextNode object contains data stored under the specified identifier.
+description: Determines whether the IContextNode object contains data stored under the specified identifier.
 ms.assetid: ac3a85a2-abf8-4ac4-8779-d9fda89497d4
 title: IContextNode::ContainsPropertyData method (IACom.h)
 ms.topic: reference

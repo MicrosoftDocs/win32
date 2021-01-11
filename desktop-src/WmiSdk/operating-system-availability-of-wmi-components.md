@@ -1,5 +1,5 @@
 ---
-Description: Describes the availability of WMI and certain WMI components.
+description: Describes the availability of WMI and certain WMI components.
 ms.assetid: f92bdea1-4226-4b80-b723-fba984570aa7
 ms.tgt_platform: multiple
 title: Operating System Availability of WMI Components

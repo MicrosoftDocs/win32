@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSPAvailExtCacheOutOfSyncException constructor"
 title: EsentSPAvailExtCacheOutOfSyncException constructor 
 TOCTitle: 'EsentSPAvailExtCacheOutOfSyncException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCacheOutOfSyncException.#ctor

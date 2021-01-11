@@ -1,5 +1,5 @@
 ---
-Description: The ITAttributeList interface supplies methods for getting and setting of uninterpreted attributes.
+description: The ITAttributeList interface supplies methods for getting and setting of uninterpreted attributes.
 ms.assetid: 12806c2e-615c-4d78-a4bb-5cc35ea21175
 title: ITAttributeList interface (Sdpblb.h)
 ms.topic: reference

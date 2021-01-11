@@ -1,5 +1,5 @@
 ---
-Description: Verifies whether the referenced physical frame can be contained by, or inserted into, the physical package.
+description: Verifies whether the referenced physical frame can be contained by, or inserted into, the physical package.
 ms.assetid: 8102569d-a956-445a-ae42-23eb206ba224
 ms.tgt_platform: multiple
 title: IsCompatible method of the CIM_PhysicalFrame class

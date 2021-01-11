@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.RetrieveColumnAsFloat method"
 title: Api.RetrieveColumnAsFloat method 
 TOCTitle: 'RetrieveColumnAsFloat method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsFloat

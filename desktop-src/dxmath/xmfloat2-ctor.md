@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMFLOAT2.
+description: Constructors exposed by XMFLOAT2.
 ms.assetid: 2b679681-f50c-4028-8a0d-28d283e0e9e7
 title: XMFLOAT2 constructors (Directxmath.h)
 ms.date: 07/02/2019

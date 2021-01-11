@@ -1,5 +1,5 @@
 ---
-Description: IUserIdentity::GetName is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+description: IUserIdentity::GetName is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: 4db24dd2-d2b8-4a58-9c16-0e721bc195da
 title: IUserIdentity::GetName method (Msident.h)
 ms.topic: reference

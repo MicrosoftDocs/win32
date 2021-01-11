@@ -1,5 +1,5 @@
 ---
-Description: Represents the guest VSS service. It is used for querying guest cluster information from the Hyper-V host.
+description: Represents the guest VSS service. It is used for querying guest cluster information from the Hyper-V host.
 ms.assetid: 82321456-a24e-4f67-9346-f0844e2913dc
 title: Msvm_VssService class
 ms.topic: reference

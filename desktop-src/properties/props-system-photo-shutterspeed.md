@@ -1,5 +1,5 @@
 ---
-Description: The shutter speed of the camera when the photo was taken. This is given in APEX units.
+description: The shutter speed of the camera when the photo was taken. This is given in APEX units.
 ms.assetid: 7f51b3b9-d701-4e7a-80bd-87c1a60e56f7
 title: System.Photo.ShutterSpeed
 ms.topic: article

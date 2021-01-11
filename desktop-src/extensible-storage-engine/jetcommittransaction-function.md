@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCommitTransaction Function"
 title: JetCommitTransaction Function
 TOCTitle: JetCommitTransaction Function
 ms:assetid: 140ca76a-b3a7-4ae8-bc7e-73941fbfc759

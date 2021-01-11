@@ -1,5 +1,5 @@
 ---
-Description: Contains an information summary about the specified virtual computer system.
+description: Contains an information summary about the specified virtual computer system.
 ms.assetid: ab31d5db-a8d3-47bc-a024-0f4c4b93a34b
 title: Msvm_ComputerSystemSummaryInformation class
 ms.topic: reference

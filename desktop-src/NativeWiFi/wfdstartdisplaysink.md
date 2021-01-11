@@ -1,5 +1,5 @@
 ---
-Description: Performs the necessary initialization to allow the calling app to become a Miracast display sink.
+description: Performs the necessary initialization to allow the calling app to become a Miracast display sink.
 ms.assetid: D87B427B-0B7F-44BB-BC34-726FDF87CCCC
 title: WFDDisplaySinkStart function (Wfdsink.h)
 ms.topic: reference

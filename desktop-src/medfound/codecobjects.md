@@ -1,5 +1,5 @@
 ---
-Description: Codec Objects
+description: Codec Objects
 ms.assetid: c944e5df-c375-4bad-92dc-bb3d8c09b1b3
 title: Codec Objects
 ms.topic: article

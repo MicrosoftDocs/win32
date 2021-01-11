@@ -1,5 +1,5 @@
 ---
-Description: Windows Image Acquisition (WIA) hardware devices have property values that are stored in the Windows registry. For more information, see Common Device Property Constants.
+description: Windows Image Acquisition (WIA) hardware devices have property values that are stored in the Windows registry. For more information, see Common Device Property Constants.
 ms.assetid: 7893137b-194c-4ea1-b15c-59d2f41f972a
 title: Camera Device Property Constants (Wiadef.h)
 ms.topic: reference

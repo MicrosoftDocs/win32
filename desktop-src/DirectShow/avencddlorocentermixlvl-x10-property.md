@@ -1,5 +1,5 @@
 ---
-Description: Specifies the level shift that is applied to the center channel for Lo/Ro downmixing. This property applies to Dolby Digital audio encoders.
+description: Specifies the level shift that is applied to the center channel for Lo/Ro downmixing. This property applies to Dolby Digital audio encoders.
 ms.assetid: 45eba02e-3cbf-446f-861d-2bf195b4d66d
 title: AVEncDDLoRoCenterMixLvl_x10 property (Codecapi.h)
 ms.topic: reference

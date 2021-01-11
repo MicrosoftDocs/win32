@@ -1,5 +1,5 @@
 ---
-Description: In order for a transport protocol to be accessible through Windows Sockets it must be properly installed on the system and registered with Windows Sockets.
+description: In order for a transport protocol to be accessible through Windows Sockets it must be properly installed on the system and registered with Windows Sockets.
 ms.assetid: 0f0b22e4-81b7-43a7-bc2f-7124fa32d925
 title: Transport Configuration and Installation
 ms.topic: article

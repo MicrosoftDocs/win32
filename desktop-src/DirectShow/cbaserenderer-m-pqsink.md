@@ -1,5 +1,5 @@
 ---
-Description: Pointer to the object that receives quality-control messages.
+description: Pointer to the object that receives quality-control messages.
 ms.assetid: bf4fd84c-9522-4686-9fb1-17a2ce3e5a16
 title: CBaseRenderer::m_pQSink member (Renbase.h)
 ms.topic: reference

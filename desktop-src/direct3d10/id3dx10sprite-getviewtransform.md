@@ -1,5 +1,5 @@
 ---
-Description: Get the view transform that applies to all sprites.
+description: Get the view transform that applies to all sprites.
 ms.assetid: eba45c08-64cc-4119-83d4-50351fe21bea
 title: ID3DX10Sprite::GetViewTransform method (D3DX10.h)
 ms.topic: reference

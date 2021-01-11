@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the object ID of the qualifier.
+description: Retrieves the object ID of the qualifier.
 ms.assetid: 58ec2af7-f085-43bc-8ea8-926cb840abe9
 title: Qualifier.OID property
 ms.topic: reference

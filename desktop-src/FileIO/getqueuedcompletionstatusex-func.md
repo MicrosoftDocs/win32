@@ -1,5 +1,5 @@
 ---
-Description: Retrieves multiple completion port entries simultaneously.
+description: Retrieves multiple completion port entries simultaneously.
 ms.assetid: 3996c02c-562c-4697-a091-e241ad54b239
 title: GetQueuedCompletionStatusEx function (IoAPI.h)
 ms.topic: reference

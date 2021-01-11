@@ -1,5 +1,5 @@
 ---
-Description: You can import and export symmetric keys and asymmetric keys with CNG. And you can use key export and import functionality to move keys between machines.
+description: You can import and export symmetric keys and asymmetric keys with CNG. And you can use key export and import functionality to move keys between machines.
 ms.assetid: 37bda1e0-5dd2-455c-9627-4e7e1b0e04d3
 title: Key Import and Export
 ms.topic: article

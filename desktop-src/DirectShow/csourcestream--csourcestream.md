@@ -1,5 +1,5 @@
 ---
-Description: Destructor method.
+description: Destructor method.
 ms.assetid: 678085c2-5999-4e62-8749-99b783787cc6
 title: CSourceStream.~CSourceStream destructor (Source.h)
 ms.topic: reference

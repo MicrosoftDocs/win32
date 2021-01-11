@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.RetrieveColumnAsDouble method"
 title: Api.RetrieveColumnAsDouble method 
 TOCTitle: 'RetrieveColumnAsDouble method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsDouble

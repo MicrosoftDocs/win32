@@ -1,5 +1,5 @@
 ---
-Description: Gets a pixel shader.
+description: Gets a pixel shader.
 ms.assetid: 173a20a5-dda0-493f-a161-2dc2881e71f2
 title: ID3DXBaseEffect::GetPixelShader method (D3DX9Shader.h)
 ms.topic: reference

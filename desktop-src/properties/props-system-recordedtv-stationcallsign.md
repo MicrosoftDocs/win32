@@ -1,5 +1,5 @@
 ---
-Description: Any recorded station call signs. For example, &\#0034;TOONP&\#0034;.
+description: Any recorded station call signs. For example, &\#0034;TOONP&\#0034;.
 ms.assetid: ccbad270-356e-4e17-8770-98414430b3d7
 title: System.RecordedTV.StationCallSign
 ms.topic: article

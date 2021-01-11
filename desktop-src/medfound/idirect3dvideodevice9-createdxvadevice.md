@@ -1,5 +1,5 @@
 ---
-Description: Creates a DirectX Video Acceleration (DXVA) decoder device.
+description: Creates a DirectX Video Acceleration (DXVA) decoder device.
 ms.assetid: aeebf65f-1bde-4a33-87cd-25c62dcc0248
 title: IDirect3DVideoDevice9::CreateDXVADevice method (Dxva.h)
 ms.topic: reference

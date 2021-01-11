@@ -1,5 +1,5 @@
 ---
-Description: Represents an access control entry (ACE).
+description: Represents an access control entry (ACE).
 ms.assetid: 47daffd0-b9db-4367-b0b8-654a2da30fed
 ms.tgt_platform: multiple
 title: '__ACE class'

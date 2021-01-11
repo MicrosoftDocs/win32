@@ -1,7 +1,7 @@
 ---
 title: Introduction (Windows 7 Developer Guide)
 ms.assetid: ce331fe5-b28a-49b7-9854-4312dc18bba4
-description: 
+description: "Learn more about: Introduction (Windows 7 Developer Guide)"
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInternalErrorException constructor"
 title: EsentInternalErrorException constructor 
 TOCTitle: 'EsentInternalErrorException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInternalErrorException.#ctor

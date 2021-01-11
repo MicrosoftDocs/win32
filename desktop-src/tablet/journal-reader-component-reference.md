@@ -1,5 +1,5 @@
 ---
-Description: This section contains reference documentation of the public classes in the COM implementation of the Journal Reader component.
+description: This section contains reference documentation of the public classes in the COM implementation of the Journal Reader component.
 ms.assetid: 8d8e633e-3294-4594-b1b6-ec0daf2c418d
 title: Journal Reader Component Reference
 ms.topic: article

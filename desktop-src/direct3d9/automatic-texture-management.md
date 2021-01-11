@@ -1,5 +1,5 @@
 ---
-Description: Texture management is the process of determining which textures are needed for rendering at a given time and ensuring that those textures are loaded into video memory.
+description: Texture management is the process of determining which textures are needed for rendering at a given time and ensuring that those textures are loaded into video memory.
 ms.assetid: ea6d64ee-f570-49eb-b5fd-67fcde3f8ddc
 title: Automatic Texture Management (Direct3D 9)
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCreateIndex4W Function"
 title: JetCreateIndex4W Function
 TOCTitle: JetCreateIndex4W Function
 ms:assetid: 968745a2-66ce-4c7f-ab5b-43282adc5313

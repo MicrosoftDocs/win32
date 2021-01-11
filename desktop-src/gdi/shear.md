@@ -1,5 +1,5 @@
 ---
-Description: Some applications provide features that shear objects drawn in the client area.
+description: Some applications provide features that shear objects drawn in the client area.
 ms.assetid: e5b82013-f6b9-460d-9f53-1b50dee2064f
 title: Shear
 ms.topic: article

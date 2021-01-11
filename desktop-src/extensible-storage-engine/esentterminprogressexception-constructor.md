@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTermInProgressException constructor"
 title: EsentTermInProgressException constructor 
 TOCTitle: 'EsentTermInProgressException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTermInProgressException.#ctor

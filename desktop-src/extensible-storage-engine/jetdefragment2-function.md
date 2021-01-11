@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetDefragment2 Function"
 title: JetDefragment2 Function
 TOCTitle: JetDefragment2 Function
 ms:assetid: cfb190cf-8bd3-4479-a6a1-7c0c9e8c74ca

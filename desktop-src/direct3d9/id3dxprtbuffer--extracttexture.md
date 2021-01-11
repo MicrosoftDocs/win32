@@ -1,5 +1,5 @@
 ---
-Description: Extracts coefficient data from a color channel of the buffer for a specified range of coefficients, and adds the data to an IDirect3DTexture9 object.
+description: Extracts coefficient data from a color channel of the buffer for a specified range of coefficients, and adds the data to an IDirect3DTexture9 object.
 ms.assetid: 75854676-706a-4675-857e-4f2f8fc8365b
 title: ID3DXPRTBuffer::ExtractTexture method (D3DX9Mesh.h)
 ms.topic: reference

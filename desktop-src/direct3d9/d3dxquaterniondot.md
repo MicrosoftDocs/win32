@@ -1,5 +1,5 @@
 ---
-Description: Returns the dot product of two quaternions.
+description: Returns the dot product of two quaternions.
 ms.assetid: 2ed9aca9-0526-4b92-bd66-b09dcf4f474a
 title: D3DXQuaternionDot function (D3dx9math.h)
 ms.topic: reference

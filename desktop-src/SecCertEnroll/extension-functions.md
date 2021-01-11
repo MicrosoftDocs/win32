@@ -1,5 +1,5 @@
 ---
-Description: The X.509 version 3 certificate format identifies multiple extensions that can be added to a certificate to provide enhanced information about key usage, certificate policies and constraints, alternative name forms, and more.
+description: The X.509 version 3 certificate format identifies multiple extensions that can be added to a certificate to provide enhanced information about key usage, certificate policies and constraints, alternative name forms, and more.
 ms.assetid: d53107b7-a153-41cf-9876-1d28aaf99816
 title: Extension Functions
 ms.topic: article

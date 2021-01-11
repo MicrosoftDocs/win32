@@ -1,5 +1,5 @@
 ---
-Description: The COM+ events service is used to manage the delivery of events from publishers to subscribers.
+description: The COM+ events service is used to manage the delivery of events from publishers to subscribers.
 ms.assetid: 0945163b-1276-47f6-ae7f-9d932a1b586d
 title: Using COM+ Events with COM+ Queued Components
 ms.topic: article

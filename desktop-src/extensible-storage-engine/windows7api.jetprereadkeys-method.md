@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Windows7Api.JetPrereadKeys method"
 title: Windows7Api.JetPrereadKeys method  (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: 'JetPrereadKeys method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Windows7.Windows7Api.JetPrereadKeys

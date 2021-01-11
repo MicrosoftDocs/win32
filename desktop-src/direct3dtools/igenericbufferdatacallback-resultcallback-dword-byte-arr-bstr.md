@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host of generic buffer information returned by the assocaited request.
+description: A callback that notifies the host of generic buffer information returned by the assocaited request.
 MS-HAID: vspixengine.IGenericBufferDataCallback\_ResultCallback\_DWORD\_BYTE\_arr\_BSTR
 MSHAttr:
 - PreferredSiteName:MSDN

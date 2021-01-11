@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SPACEHINTS.cbInitial property"
 title: JET_SPACEHINTS.cbInitial property 
 TOCTitle: 'cbInitial property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS.cbInitial

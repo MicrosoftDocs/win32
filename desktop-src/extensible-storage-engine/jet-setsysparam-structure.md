@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETSYSPARAM Structure"
 title: JET_SETSYSPARAM Structure
 TOCTitle: JET_SETSYSPARAM Structure
 ms:assetid: 3c0fdd28-99bd-4026-b64b-6859ef9dc91b

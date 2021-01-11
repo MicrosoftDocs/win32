@@ -1,5 +1,5 @@
 ---
-Description: Calling Outside An Assembly
+description: Calling Outside An Assembly
 ms.assetid: 7a59f707-fb89-4899-891f-4cd556b62b26
 title: Calling Outside An Assembly
 ms.topic: article

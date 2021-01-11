@@ -1,5 +1,5 @@
 ---
-Description: The Media Foundation H.265 video encoder is a Media Foundation Transform that supports encoding content into the H.265/HEVC format.
+description: The Media Foundation H.265 video encoder is a Media Foundation Transform that supports encoding content into the H.265/HEVC format.
 ms.assetid: 790CFB39-6FC0-432D-A434-5262C30EABF4
 title: H.265 / HEVC Video Encoder
 ms.topic: reference

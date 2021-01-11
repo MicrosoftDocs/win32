@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method of the CIM\_FileSpecification class evaluates a particular check. Details of how the method evaluates a particular check in a CIM context are described by the non-abstract CIM\_Check subclasses. This method is inherited from CIM\_Check.
+description: The Invoke method of the CIM\_FileSpecification class evaluates a particular check. Details of how the method evaluates a particular check in a CIM context are described by the non-abstract CIM\_Check subclasses. This method is inherited from CIM\_Check.
 ms.assetid: cefb64b5-c06f-4775-a903-4e8a8b99a6ae
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_FileSpecification class

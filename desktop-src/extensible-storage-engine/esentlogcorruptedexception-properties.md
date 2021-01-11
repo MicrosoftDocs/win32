@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogCorruptedException properties"
 title: EsentLogCorruptedException properties
 TOCTitle: EsentLogCorruptedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogCorruptedException

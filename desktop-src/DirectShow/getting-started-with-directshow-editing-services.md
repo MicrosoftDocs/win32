@@ -1,5 +1,5 @@
 ---
-Description: Getting Started with DirectShow Editing Services
+description: Getting Started with DirectShow Editing Services
 ms.assetid: 63148895-5233-41f3-865a-5e8f83077437
 title: Getting Started with DirectShow Editing Services
 ms.topic: article

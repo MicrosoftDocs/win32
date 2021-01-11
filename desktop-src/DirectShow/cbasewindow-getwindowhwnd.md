@@ -1,5 +1,5 @@
 ---
-Description: The GetWindowHWND method retrieves a handle to the window.
+description: The GetWindowHWND method retrieves a handle to the window.
 ms.assetid: f7fcca87-b823-4d2e-9ba8-6a3ed90ec8a9
 title: CBaseWindow.GetWindowHWND method (Winutil.h)
 ms.topic: reference

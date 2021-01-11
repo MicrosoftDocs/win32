@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfSequentialIndexValuesException members"
 title: EsentOutOfSequentialIndexValuesException members
 TOCTitle: EsentOutOfSequentialIndexValuesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfSequentialIndexValuesException

@@ -1,5 +1,5 @@
 ---
-Description: The WaitDispatchingMessages function waits for an object to be signaled, while dispatching window messages.
+description: The WaitDispatchingMessages function waits for an object to be signaled, while dispatching window messages.
 ms.assetid: d15f6736-d141-47a3-b767-fbf774982fb4
 title: WaitDispatchingMessages function (Wxutil.h)
 ms.topic: reference

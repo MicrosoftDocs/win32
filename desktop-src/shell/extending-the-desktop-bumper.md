@@ -1,5 +1,5 @@
 ---
-Description: Extending the Desktop
+description: Extending the Desktop
 title: Extending the Desktop
 ms.topic: article
 ms.date: 05/31/2018

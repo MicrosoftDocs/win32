@@ -1,5 +1,5 @@
 ---
-Description: The Known Folder system provides a way to interact with certain high-profile folders that are present by default in Windows.
+description: The Known Folder system provides a way to interact with certain high-profile folders that are present by default in Windows.
 ms.assetid: 8b6163b5-e152-47c2-99f1-43e80cf0713e
 title: Working with Known Folders in Applications
 ms.topic: article

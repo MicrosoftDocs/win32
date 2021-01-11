@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the GetMetafileHeader methods of the Metafile class. For a complete list of methods for the Metafile class, see Metafile Methods.
+description: This topic lists the GetMetafileHeader methods of the Metafile class. For a complete list of methods for the Metafile class, see Metafile Methods.
 ms.assetid: 8ad423a9-5557-41e6-b634-9d9dfe604b09
 title: Metafile.GetMetafileHeader methods
 ms.date: 07/02/2019

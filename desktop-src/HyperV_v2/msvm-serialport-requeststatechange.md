@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: Requests a state change.
 ms.assetid: 8047c12d-f420-4406-885a-25342789dbb9
 title: RequestStateChange method of the Msvm_SerialPort class
 ms.topic: reference

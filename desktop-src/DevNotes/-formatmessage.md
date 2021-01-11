@@ -1,5 +1,5 @@
 ---
-Description: Formats a message string.
+description: Formats a message string.
 ms.assetid: e5513b0d-5f93-4bcd-a011-eb4a6fab91e1
 title: '_FormatMessage function'
 ms.topic: reference

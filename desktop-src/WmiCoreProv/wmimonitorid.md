@@ -1,5 +1,5 @@
 ---
-Description: Represents the identifying information about a video monitor, such as manufacturer name, year of manufacture, or serial number.
+description: Represents the identifying information about a video monitor, such as manufacturer name, year of manufacture, or serial number.
 ms.assetid: 85c8c4b1-20e2-4c0b-9209-a3724509a2f0
 title: WmiMonitorID class
 ms.topic: reference

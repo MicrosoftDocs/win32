@@ -1,5 +1,5 @@
 ---
-Description: Represents the supported display features of the monitor.
+description: Represents the supported display features of the monitor.
 ms.assetid: 28eeead3-8fb9-4720-8d93-1c6757dfb31b
 title: SupportedDisplayFeaturesDescriptor class
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTableInUseException constructor"
 title: EsentTableInUseException constructor 
 TOCTitle: 'EsentTableInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTableInUseException.#ctor

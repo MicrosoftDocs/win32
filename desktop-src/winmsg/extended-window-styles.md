@@ -1,5 +1,5 @@
 ---
-Description: The following are the extended window styles.
+description: The following are the extended window styles.
 ms.assetid: 5830B16E-CD52-4a1a-A1BD-3AFE66BA5FDD
 title: Extended Window Styles (Winuser.h)
 ms.topic: reference

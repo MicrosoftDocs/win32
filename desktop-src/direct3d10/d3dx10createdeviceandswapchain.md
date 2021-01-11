@@ -1,5 +1,5 @@
 ---
-Description: Create the best Direct3D device and a swap chain.
+description: Create the best Direct3D device and a swap chain.
 ms.assetid: c320a6c4-fa68-47fc-b2cb-0dc53c2767e7
 title: D3DX10CreateDeviceAndSwapChain function (D3DX10Core.h)
 ms.topic: reference

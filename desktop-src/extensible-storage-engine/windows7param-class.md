@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Param class"
 title: Windows7Param class (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: Windows7Param class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows7.Windows7Param

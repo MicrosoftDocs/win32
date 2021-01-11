@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SNPROG constructor"
 title: JET_SNPROG constructor 
 TOCTitle: 'JET_SNPROG constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SNPROG.#ctor

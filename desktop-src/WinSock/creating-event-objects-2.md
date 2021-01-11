@@ -1,5 +1,5 @@
 ---
-Description: The Ws2\_32.dll provides facilities for event object creation to both applications and service providers, although in most instances event objects will be created by applications.
+description: The Ws2\_32.dll provides facilities for event object creation to both applications and service providers, although in most instances event objects will be created by applications.
 ms.assetid: 86da30ad-80bc-4982-9306-bbe29b1bab19
 title: Creating Event Objects
 ms.topic: article

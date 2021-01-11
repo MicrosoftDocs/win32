@@ -1,5 +1,5 @@
 ---
-Description: The put\_BorderColor method changes the border color.
+description: The put\_BorderColor method changes the border color.
 ms.assetid: bb19d338-7fd1-448c-be94-1c71d4a9a330
 title: CBaseControlWindow.put_BorderColor method (Ctlutil.h)
 ms.topic: reference

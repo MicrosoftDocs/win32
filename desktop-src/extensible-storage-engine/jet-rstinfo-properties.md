@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_RSTINFO properties"
 title: JET_RSTINFO properties
 TOCTitle: JET_RSTINFO properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_RSTINFO

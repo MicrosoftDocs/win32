@@ -1,5 +1,5 @@
 ---
-Description: The DRIVER\_INFO\_6 structure contains printer driver information.
+description: The DRIVER\_INFO\_6 structure contains printer driver information.
 ms.assetid: 9771cbb5-caaa-4b7d-9a96-d24234440bac
 title: DRIVER_INFO_6 structure (Winspool.h)
 ms.topic: reference

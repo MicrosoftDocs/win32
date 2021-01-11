@@ -1,5 +1,5 @@
 ---
-Description: After a queue is committed by calling SetupCommitFileQueue, it will begin to process the queued operations. At each step, the queue sends a notification to the callback routine specified in the call to SetupCommitFileQueue.
+description: After a queue is committed by calling SetupCommitFileQueue, it will begin to process the queued operations. At each step, the queue sends a notification to the callback routine specified in the call to SetupCommitFileQueue.
 ms.assetid: '866e1066-b6e0-43d3-8af4-bd37fbc024e2'
 title: Queue Notifications
 ms.topic: article

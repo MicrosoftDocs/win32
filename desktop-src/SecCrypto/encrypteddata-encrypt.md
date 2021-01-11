@@ -1,5 +1,5 @@
 ---
-Description: Derives a session key from the secret and encrypts the Content property value using that key. It returns the encrypted content as an encoded string.
+description: Derives a session key from the secret and encrypts the Content property value using that key. It returns the encrypted content as an encoded string.
 ms.assetid: aa6f6e6a-208b-4e9c-b530-08673ab9d794
 title: EncryptedData.Encrypt method (Infocard.h)
 ms.topic: reference

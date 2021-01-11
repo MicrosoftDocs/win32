@@ -1,5 +1,5 @@
 ---
-Description: ICE61 validates the Upgrade table of a Windows Installer database.
+description: ICE61 validates the Upgrade table of a Windows Installer database.
 ms.assetid: 9f6834c6-74eb-4219-8111-7b722ea41a3a
 title: ICE61
 ms.topic: article

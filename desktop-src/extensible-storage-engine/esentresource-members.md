@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResource members"
 title: EsentResource members
 TOCTitle: EsentResource members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentResource

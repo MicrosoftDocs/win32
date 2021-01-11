@@ -1,5 +1,5 @@
 ---
-Description: Defines a 4-byte array that contains four 8-bit ASCII values of space, A-Z, or a-z to identify OpenType script, language, and font feature tags.
+description: Defines a 4-byte array that contains four 8-bit ASCII values of space, A-Z, or a-z to identify OpenType script, language, and font feature tags.
 ms.assetid: 188ad9a1-e0eb-411f-b6df-8c394d122d6f
 title: OPENTYPE_TAG (Usp10.h)
 ms.topic: reference

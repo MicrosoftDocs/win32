@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a virtual system and the most current snapshot of the system. This association can only exist if the virtual system was create using a snapshot or if a snapshot was created from the virtual system.
+description: Represents an association between a virtual system and the most current snapshot of the system. This association can only exist if the virtual system was create using a snapshot or if a snapshot was created from the virtual system.
 ms.assetid: e6040818-84cf-4cec-ab7b-a733fe5d01d2
 title: CIM_MostCurrentSnapshotInBranch class
 ms.topic: reference

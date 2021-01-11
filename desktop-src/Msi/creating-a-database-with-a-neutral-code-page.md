@@ -1,5 +1,5 @@
 ---
-Description: The recommended approach for handling code pages is to author a neutral base database that only contains characters that can be translated into any code page.
+description: The recommended approach for handling code pages is to author a neutral base database that only contains characters that can be translated into any code page.
 ms.assetid: 8ded41a6-6e5b-4a39-b783-e2b9f83eaed4
 title: Creating a Database with a Neutral Code Page
 ms.topic: article

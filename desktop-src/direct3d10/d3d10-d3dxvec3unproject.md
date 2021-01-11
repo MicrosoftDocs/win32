@@ -1,5 +1,5 @@
 ---
-Description: Projects a vector from screen space into object space.
+description: Projects a vector from screen space into object space.
 ms.assetid: c96d732d-0594-42b4-bc54-458a313f153e
 title: D3DXVec3Unproject function (D3DX10Math.h)
 ms.topic: reference

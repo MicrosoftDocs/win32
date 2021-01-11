@@ -1,5 +1,5 @@
 ---
-Description: If you are using the Scripting API for WMI to retrieve or store localized class information, specify the locale as part of a moniker.
+description: If you are using the Scripting API for WMI to retrieve or store localized class information, specify the locale as part of a moniker.
 ms.assetid: 3c64047d-ce3a-4180-8f71-0e66c2e61627
 ms.tgt_platform: multiple
 title: Retrieving Amended Classes Using the Scripting API for WMI
@@ -14,7 +14,7 @@ api_location:
 
 # Retrieving Amended Classes Using the Scripting API for WMI
 
-If you are using the Scripting API for WMI to retrieve or store localized class information, specify the locale as part of a moniker. Or, you can supply the locale name in the *strLocale* parameter to the [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md) method. When reading or writing amended classes, indicate that you want to use localized class definitions by specifying [wbemFlagUseAmendedQualifiers](/windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemflagenum) as a flag for the *iFlags* parameter of the method you call. For PowerShell, you can use the *-locale* parameter on [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1) to specify the locale.
+If you are using the Scripting API for WMI to retrieve or store localized class information, specify the locale as part of a moniker. Or, you can supply the locale name in the *strLocale* parameter to the [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md) method. When reading or writing amended classes, indicate that you want to use localized class definitions by specifying [wbemFlagUseAmendedQualifiers](/windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemflagenum) as a flag for the *iFlags* parameter of the method you call. For PowerShell, you can use the *-locale* parameter on [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1&preserve-view=true) to specify the locale.
 
 The following code example shows how to retrieve a localized class by using a WMI scripting moniker or the -locale parameter.
 

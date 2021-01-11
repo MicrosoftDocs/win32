@@ -1,5 +1,5 @@
 ---
-Description: A callback function used to notify the host of object table information.
+description: A callback function used to notify the host of object table information.
 MS-HAID: vspixengine.IObjectTableCallback\_ResultCallback\_DWORD\_DWORD\_DWORD\_VARIANT\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

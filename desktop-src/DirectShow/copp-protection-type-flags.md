@@ -1,5 +1,5 @@
 ---
-Description: The follow constants are used with Certified Output Protection Protocol (COPP) to specific output protection mechanisms.
+description: The follow constants are used with Certified Output Protection Protocol (COPP) to specific output protection mechanisms.
 ms.assetid: a3cd63d8-22a5-473c-83c2-3499f3d32671
 title: COPP Protection Type Flags (Dxva.h)
 ms.topic: reference

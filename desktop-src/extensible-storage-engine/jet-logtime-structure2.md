@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LOGTIME structure"
 title: JET_LOGTIME structure
 TOCTitle: JET_LOGTIME structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_LOGTIME

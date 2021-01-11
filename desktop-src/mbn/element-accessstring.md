@@ -1,5 +1,5 @@
 ---
-Description: MBNProfileExt\/...\/AccessString (v4)
+description: MBNProfileExt\/...\/AccessString (v4)
 MS-HAID: WWAN\_profile\_v4.element\_AccessString
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: Used to configure CAPICOM components.
+description: Used to configure CAPICOM components.
 title: Settings object
 ms.topic: reference
 ms.date: 05/31/2018

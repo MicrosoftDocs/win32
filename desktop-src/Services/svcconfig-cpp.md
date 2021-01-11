@@ -1,5 +1,5 @@
 ---
-Description: The following is a sample service configuration program.
+description: The following is a sample service configuration program.
 ms.assetid: effb469a-020e-4c70-aad6-12a91bd36f68
 title: SvcConfig.cpp
 ms.topic: article

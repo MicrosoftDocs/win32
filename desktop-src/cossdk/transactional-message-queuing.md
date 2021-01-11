@@ -1,5 +1,5 @@
 ---
-Description: A transaction is a series of modifications of a data store (such as a database or a file system) guaranteed either to be all successfully executed or not to be executed at all.
+description: A transaction is a series of modifications of a data store (such as a database or a file system) guaranteed either to be all successfully executed or not to be executed at all.
 ms.assetid: 1567d9d3-7839-42f0-9507-7bbf61d8eaf2
 title: Transactional Message Queuing
 ms.topic: article

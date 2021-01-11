@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream.Write method"
 title: ColumnStream.Write method 
 TOCTitle: 'Write method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnStream.Write(System.Byte[],System.Int32,System.Int32)

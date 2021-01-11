@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host of instructrion information returned by the associated request.
+description: A callback that notifies the host of instructrion information returned by the associated request.
 MS-HAID: vspixengine.IDebugShaderCallback\_ResultInstructions\_DWORD\_BYTE\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_LGPOS operators"
 title: JET_LGPOS operators
 TOCTitle: JET_LGPOS operators
 ms:assetid: 78bf06f8-31d9-ea15-d979-02535d91ebda

@@ -1,5 +1,5 @@
 ---
-Description: Terminates the trace.
+description: Terminates the trace.
 ms.assetid: e823ed82-1966-4e44-b062-0c8ab0fb5f6e
 title: TermAsyncTrace function
 ms.topic: reference

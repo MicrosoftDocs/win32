@@ -1,5 +1,5 @@
 ---
-Description: Prefix of each buffer, in bytes.
+description: Prefix of each buffer, in bytes.
 ms.assetid: 471b73bf-f959-41aa-84ba-324a2738dd0e
 title: CBaseAllocator::m_lPrefix member (Amfilter.h)
 ms.topic: reference

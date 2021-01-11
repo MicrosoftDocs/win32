@@ -1,5 +1,5 @@
 ---
-Description: Merge modules only operate with components and not with features. However, some tables in merge modules, such as the PublishComponent table, contain fields that refer to features.
+description: Merge modules only operate with components and not with features. However, some tables in merge modules, such as the PublishComponent table, contain fields that refer to features.
 ms.assetid: f2891457-efef-4319-bd09-5de7fcf32d21
 title: Referencing Features in Merge Modules
 ms.topic: article

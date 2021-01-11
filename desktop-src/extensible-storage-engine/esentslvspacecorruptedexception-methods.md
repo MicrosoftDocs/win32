@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVSpaceCorruptedException methods"
 title: EsentSLVSpaceCorruptedException methods
 TOCTitle: EsentSLVSpaceCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVSpaceCorruptedException

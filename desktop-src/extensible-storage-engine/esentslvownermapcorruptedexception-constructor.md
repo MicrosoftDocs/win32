@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVOwnerMapCorruptedException constructor"
 title: EsentSLVOwnerMapCorruptedException constructor 
 TOCTitle: 'EsentSLVOwnerMapCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVOwnerMapCorruptedException.#ctor

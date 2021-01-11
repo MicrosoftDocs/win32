@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveryVerifyFailureException members"
 title: EsentRecoveryVerifyFailureException members
 TOCTitle: EsentRecoveryVerifyFailureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecoveryVerifyFailureException

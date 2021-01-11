@@ -1,5 +1,5 @@
 ---
-Description: Represents the certificate extension template of the certificate.
+description: Represents the certificate extension template of the certificate.
 ms.assetid: '1ae9220a-f6b3-47c5-bd08-a36ffd84e1f9'
 title: Template object
 ms.topic: reference

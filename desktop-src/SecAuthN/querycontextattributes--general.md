@@ -1,5 +1,5 @@
 ---
-Description: Enables a transport application to query a [*security package*](../secgloss/s-gly.md) for certain attributes of a [*security context*](../secgloss/s-gly.md).
+description: Enables a transport application to query a [*security package*](../secgloss/s-gly.md) for certain attributes of a [*security context*](../secgloss/s-gly.md).
 ms.assetid: 67bc087f-7519-4c8a-9b34-b3ecd306a334
 title: QueryContextAttributes (General) function (Sspi.h)
 ms.topic: reference

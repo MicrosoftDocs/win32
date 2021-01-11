@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the MAC type from the NetworkInfo category of the NPP section of the BLOB and converts the type data into a MAC type number.
+description: Retrieves the MAC type from the NetworkInfo category of the NPP section of the BLOB and converts the type data into a MAC type number.
 ms.assetid: 53aa538c-69ee-4b34-93fb-9e61c6baadea
 title: GetNPPMacTypeAsNumber function (Netmon.h)
 ms.topic: reference

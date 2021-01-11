@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotNotAllowedException methods"
 title: EsentOSSnapshotNotAllowedException methods
 TOCTitle: EsentOSSnapshotNotAllowedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotNotAllowedException

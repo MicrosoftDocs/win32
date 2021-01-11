@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEX_COLUMN.pvData property"
 title: JET_INDEX_COLUMN.pvData property  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'pvData property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_COLUMN.pvData

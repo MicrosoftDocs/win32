@@ -1,5 +1,5 @@
 ---
-Description: Verifies that the calling process has read access to a string. If not, the macro calls the DbgBreak macro.
+description: Verifies that the calling process has read access to a string. If not, the macro calls the DbgBreak macro.
 ms.assetid: 749a8c22-7a4a-49c2-a214-fc64dc5a0202
 title: ValidateStringPtr macro (Wxdebug.h)
 ms.topic: reference

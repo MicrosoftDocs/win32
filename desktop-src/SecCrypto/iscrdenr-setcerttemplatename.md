@@ -1,5 +1,5 @@
 ---
-Description: Specifies the name of the certificate template.
+description: Specifies the name of the certificate template.
 ms.assetid: 15d22130-e614-4505-94e8-83c2efbf6d87
 title: ISCrdEnr::setCertTemplateName method
 ms.topic: reference

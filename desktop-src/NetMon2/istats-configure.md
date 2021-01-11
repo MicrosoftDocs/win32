@@ -1,5 +1,5 @@
 ---
-Description: The Configure method submits capture configuration information.
+description: The Configure method submits capture configuration information.
 ms.assetid: 739ed1df-1a84-4c48-a1ac-2dba7a614cdd
 title: IStats::Configure method (Netmon.h)
 ms.topic: reference

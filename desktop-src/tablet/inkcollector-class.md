@@ -1,5 +1,5 @@
 ---
-Description: Represents the object that is used to capture ink from available tablet devices.
+description: Represents the object that is used to capture ink from available tablet devices.
 ms.assetid: 189f430e-9d00-4e29-bb8c-8ac195896793
 title: InkCollector class (Msinkaut.h)
 ms.topic: reference

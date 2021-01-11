@@ -1,5 +1,5 @@
 ---
-Description: BoundingBox Methods
+description: BoundingBox Methods
 ms.assetid: 68db5936-f0f8-4dbd-a183-b6c3089af0f0
 title: BoundingBox Methods
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The Windows Installer organizes an installation around the concepts of components and features.
+description: The Windows Installer organizes an installation around the concepts of components and features.
 ms.assetid: c560441e-89c5-4f82-837b-988c3f404d37
 title: Components and Features
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether a sample is a random access point.
+description: Indicates whether a sample is a random access point.
 ms.assetid: 03d4bfd8-1148-4551-8e71-05cfba2e15fa
 title: MFSampleExtension_CleanPoint attribute (Mfapi.h)
 ms.topic: reference

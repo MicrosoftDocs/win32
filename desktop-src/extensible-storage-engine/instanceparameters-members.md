@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters members"
 title: InstanceParameters members
 TOCTitle: InstanceParameters members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.InstanceParameters

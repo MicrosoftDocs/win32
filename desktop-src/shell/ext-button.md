@@ -1,5 +1,5 @@
 ---
-Description: Contains information about a button that a File Manager extension DLL is adding to the toolbar of File Manager.
+description: Contains information about a button that a File Manager extension DLL is adding to the toolbar of File Manager.
 title: EXT_BUTTON structure (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018

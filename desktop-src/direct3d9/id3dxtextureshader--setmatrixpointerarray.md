@@ -1,5 +1,5 @@
 ---
-Description: Sets an array of pointers to non-transposed matrices.
+description: Sets an array of pointers to non-transposed matrices.
 ms.assetid: 5ad83abd-1895-4838-85b5-c437c23a3d91
 title: ID3DXTextureShader::SetMatrixPointerArray method (D3DX9Shader.h)
 ms.topic: reference

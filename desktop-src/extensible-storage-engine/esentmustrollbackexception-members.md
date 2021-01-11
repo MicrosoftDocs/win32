@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMustRollbackException members"
 title: EsentMustRollbackException members
 TOCTitle: EsentMustRollbackException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMustRollbackException

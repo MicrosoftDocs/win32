@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVPagesNotCommittedException members"
 title: EsentSLVPagesNotCommittedException members
 TOCTitle: EsentSLVPagesNotCommittedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotCommittedException

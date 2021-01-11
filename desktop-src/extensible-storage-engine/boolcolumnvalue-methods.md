@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BoolColumnValue methods"
 title: BoolColumnValue methods
 TOCTitle: BoolColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.BoolColumnValue

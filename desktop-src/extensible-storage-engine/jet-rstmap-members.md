@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTMAP members"
 title: JET_RSTMAP members
 TOCTitle: JET_RSTMAP members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_RSTMAP

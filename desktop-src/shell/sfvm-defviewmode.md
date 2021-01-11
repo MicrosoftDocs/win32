@@ -1,5 +1,5 @@
 ---
-Description: Allows the callback object to specify the view mode. Used by IShellFolderViewCB::MessageSFVCB.
+description: Allows the callback object to specify the view mode. Used by IShellFolderViewCB::MessageSFVCB.
 title: SFVM_DEFVIEWMODE message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018

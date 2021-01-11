@@ -1,5 +1,5 @@
 ---
-Description: The LINETRANSFERMODE\_ bit-flag constants describe different ways of resolving call transfer requests.
+description: The LINETRANSFERMODE\_ bit-flag constants describe different ways of resolving call transfer requests.
 ms.assetid: 0a01131f-b63c-45ef-a0a9-17d69a0dacf9
 title: LINETRANSFERMODE_ Constants (Tapi.h)
 ms.topic: reference

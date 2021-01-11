@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.LogFileSize property"
 title: InstanceParameters.LogFileSize property 
 TOCTitle: 'LogFileSize property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.LogFileSize

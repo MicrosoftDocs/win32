@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_Refrigeration class requests a reset of the logical device.
+description: The Reset method of the CIM\_Refrigeration class requests a reset of the logical device.
 ms.assetid: ae2be95a-7fba-4050-a9a9-f01eeed9c453
 ms.tgt_platform: multiple
 title: Reset method of the CIM_Refrigeration class

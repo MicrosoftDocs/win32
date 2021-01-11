@@ -1,5 +1,5 @@
 ---
-Description: This article describes how to write a custom presenter for the enhanced video renderer (EVR).
+description: This article describes how to write a custom presenter for the enhanced video renderer (EVR).
 ms.assetid: 1135b309-b158-4b70-9f76-5c93d0ad3250
 title: How to Write an EVR Presenter
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Includes the contents of one MOF file into another MOF file.
+description: Includes the contents of one MOF file into another MOF file.
 ms.assetid: 06765956-e4ee-467b-9b3b-d5da17b9cd82
 ms.tgt_platform: multiple
 title: '#include'

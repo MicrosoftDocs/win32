@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.MinDataForXpress property"
 title: SystemParameters.MinDataForXpress property 
 TOCTitle: 'MinDataForXpress property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.MinDataForXpress

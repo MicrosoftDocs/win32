@@ -1,5 +1,5 @@
 ---
-Description: Specifying Schannel Ciphers and Cipher Strengths
+description: Specifying Schannel Ciphers and Cipher Strengths
 ms.assetid: b87d3e72-df7b-4a00-854e-c3706565ed7d
 title: Specifying Schannel Ciphers and Cipher Strengths
 ms.topic: article

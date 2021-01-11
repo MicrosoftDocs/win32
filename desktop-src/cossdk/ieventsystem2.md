@@ -1,5 +1,5 @@
 ---
-Description: Used by the Microsoft Internet Explorer System Event Notification Service (SENS) to access the event data store. This interface extends the IEventSystem interface.
+description: Used by the Microsoft Internet Explorer System Event Notification Service (SENS) to access the event data store. This interface extends the IEventSystem interface.
 ms.assetid: ad3c38a6-fa2d-4fcd-8782-1fac7595e829
 title: IEventSystem2 interface
 ms.topic: reference

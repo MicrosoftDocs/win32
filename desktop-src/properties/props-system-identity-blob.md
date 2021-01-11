@@ -1,5 +1,5 @@
 ---
-Description: Blob used to import and export identities.
+description: Blob used to import and export identities.
 ms.assetid: 84dc2336-3df9-4264-95d7-ae18d31b607c
 title: System.Identity.Blob
 ms.topic: article

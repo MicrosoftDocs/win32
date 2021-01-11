@@ -1,5 +1,5 @@
 ---
-Description: Removes all jobs, including the one currently printing from the queue.
+description: Removes all jobs, including the one currently printing from the queue.
 ms.assetid: d7466513-b123-43af-ab17-b3213ba80284
 ms.tgt_platform: multiple
 title: CancelAllJobs method of the Win32_Printer class

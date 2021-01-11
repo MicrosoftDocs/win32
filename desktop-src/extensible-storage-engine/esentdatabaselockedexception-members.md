@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseLockedException members"
 title: EsentDatabaseLockedException members
 TOCTitle: EsentDatabaseLockedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseLockedException

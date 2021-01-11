@@ -1,5 +1,5 @@
 ---
-Description: Using the Filter Mapper
+description: Using the Filter Mapper
 ms.assetid: 3f774350-4508-437f-98d1-cca91220f339
 title: Using the Filter Mapper
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Serves as the parent class for provider-defined error classes.
+description: Serves as the parent class for provider-defined error classes.
 ms.assetid: fc2747f5-cfbc-4d61-894d-4585a03dda3f
 ms.tgt_platform: multiple
 title: '__NotifyStatus class'

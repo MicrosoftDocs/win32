@@ -1,5 +1,5 @@
 ---
-Description: Acquires a handle to preexisting credentials of a security principal that is using Schannel.
+description: Acquires a handle to preexisting credentials of a security principal that is using Schannel.
 ms.assetid: 0f006670-a1e5-47ed-baf5-ed55bd42b468
 title: AcquireCredentialsHandle (Schannel) function (Sspi.h)
 ms.topic: reference

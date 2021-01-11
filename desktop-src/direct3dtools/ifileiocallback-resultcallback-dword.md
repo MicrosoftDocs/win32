@@ -1,5 +1,5 @@
 ---
-Description: A callback function used to notify the host of errors while during capture or playback.
+description: A callback function used to notify the host of errors while during capture or playback.
 MS-HAID: vspixengine.IFileIOCallback\_ResultCallback\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

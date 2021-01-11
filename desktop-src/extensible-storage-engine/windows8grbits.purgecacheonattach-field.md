@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Grbits.PurgeCacheOnAttach field"
 title: Windows8Grbits.PurgeCacheOnAttach field (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: PurgeCacheOnAttach field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows8.Windows8Grbits.PurgeCacheOnAttach

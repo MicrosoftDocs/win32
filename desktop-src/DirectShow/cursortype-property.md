@@ -1,5 +1,5 @@
 ---
-Description: The CursorType property sets or retrieves the current cursor type.
+description: The CursorType property sets or retrieves the current cursor type.
 ms.assetid: f362e790-a7c7-4fb6-86f3-7cd25f78fe0e
 title: CursorType Property
 ms.topic: reference

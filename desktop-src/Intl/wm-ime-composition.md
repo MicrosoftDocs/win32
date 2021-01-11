@@ -1,5 +1,5 @@
 ---
-Description: Sent to an application when the IME changes composition status as a result of a keystroke. A window receives this message through its WindowProc function.
+description: Sent to an application when the IME changes composition status as a result of a keystroke. A window receives this message through its WindowProc function.
 ms.assetid: 6de1c4c2-d910-487c-8b82-408cb6e02c44
 title: WM_IME_COMPOSITION message (Winuser.h)
 ms.topic: reference

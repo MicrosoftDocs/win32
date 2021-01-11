@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the data for one of the object's members or the data for all members. Deprecated.
+description: Retrieves the data for one of the object's members or the data for all members. Deprecated.
 ms.assetid: 2a227705-371e-41f1-af5d-20e652cd07f6
 title: IDirectXFileData::GetData method (DXFile.h)
 ms.topic: reference

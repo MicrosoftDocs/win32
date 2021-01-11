@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentContainerNotEmptyException constructor"
 title: EsentContainerNotEmptyException constructor 
 TOCTitle: 'EsentContainerNotEmptyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentContainerNotEmptyException.#ctor

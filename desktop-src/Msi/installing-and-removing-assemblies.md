@@ -1,5 +1,5 @@
 ---
-Description: When installing an assembly to an isolated location for a specific application, the application must be specified in the File\_Application column of the MsiAssembly table.
+description: When installing an assembly to an isolated location for a specific application, the application must be specified in the File\_Application column of the MsiAssembly table.
 ms.assetid: 8d7fc09c-1017-4a30-be00-b7b0e5f2a057
 title: Installing and Removing Assemblies
 ms.topic: article

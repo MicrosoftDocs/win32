@@ -1,5 +1,5 @@
 ---
-Description: The following enumerations support the Distributed Routing Table (DRT) API.
+description: The following enumerations support the Distributed Routing Table (DRT) API.
 ms.assetid: 38ce95a0-1603-42c2-8a5e-4370f52c8fc9
 title: Distributed Routing Table Enumerations
 ms.topic: article

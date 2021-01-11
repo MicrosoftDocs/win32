@@ -1,5 +1,5 @@
 ---
-Description: Creates an empty cube texture, adjusting the calling parameters as needed.
+description: Creates an empty cube texture, adjusting the calling parameters as needed.
 ms.assetid: 96cf3fc1-9efc-4b97-a082-2956386145c7
 title: D3DXCreateCubeTexture function (D3dx9tex.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Gets an array of nontransposed matrices.
+description: Gets an array of nontransposed matrices.
 ms.assetid: 37b08f55-22f1-4b60-8cd4-566a77e7dbd6
 title: ID3DXBaseEffect::GetMatrixArray method (D3DX9Shader.h)
 ms.topic: reference

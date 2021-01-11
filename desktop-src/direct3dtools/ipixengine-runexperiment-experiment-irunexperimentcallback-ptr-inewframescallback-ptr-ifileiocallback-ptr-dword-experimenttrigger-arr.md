@@ -1,5 +1,5 @@
 ---
-Description: Runs an experiment.
+description: Runs an experiment.
 MS-HAID: vspixengine.IPixEngine\_RunExperiment\_Experiment\_IRunExperimentCallback\_ptr\_INewFramesCallback\_ptr\_IFileIOCallback\_ptr\_DWORD\_ExperimentTrigger\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

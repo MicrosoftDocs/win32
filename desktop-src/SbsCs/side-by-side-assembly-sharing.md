@@ -1,5 +1,5 @@
 ---
-Description: The following figure illustrates how two applications might share an assembly using the traditional method of assembly sharing.
+description: The following figure illustrates how two applications might share an assembly using the traditional method of assembly sharing.
 ms.assetid: 2b9c6511-ae79-498f-a20c-ccb32a623d42
 title: Side-by-side Assembly Sharing
 ms.topic: article

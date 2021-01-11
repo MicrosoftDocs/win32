@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentObsoleteException methods"
 title: EsentObsoleteException methods
 TOCTitle: EsentObsoleteException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentObsoleteException

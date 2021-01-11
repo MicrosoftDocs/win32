@@ -1,5 +1,5 @@
 ---
-Description: Specifies the method to use for motion matching.
+description: Specifies the method to use for motion matching.
 ms.assetid: 75bbc189-3092-4813-9f45-54e8e48b05cd
 title: MFPKEY_MOTIONMATCHMETHOD Property (Wmcodecdsp.h)
 ms.topic: reference

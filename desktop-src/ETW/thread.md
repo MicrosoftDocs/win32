@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for thread events. The following syntax is simplified from MOF code.
+description: This class is the parent class for thread events. The following syntax is simplified from MOF code.
 ms.assetid: '0bf14240-3b8d-4eb5-b751-7b2e23b55762'
 title: Thread class
 ms.topic: reference

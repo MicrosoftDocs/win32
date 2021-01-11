@@ -1,5 +1,5 @@
 ---
-Description: This section contains the reference for MSHTML.
+description: This section contains the reference for MSHTML.
 ms.assetid: DB4D58C3-C66A-4C0A-8A22-FC35F3FE3AFF
 title: MSHTML
 ms.topic: article

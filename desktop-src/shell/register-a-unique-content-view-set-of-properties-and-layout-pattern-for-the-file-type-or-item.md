@@ -1,5 +1,5 @@
 ---
-Description: You can register a unique Content view property list and layout pattern for the file type or item.
+description: You can register a unique Content view property list and layout pattern for the file type or item.
 ms.assetid: EA5A3ADA-4DFD-4F85-A176-93577D822815
 title: Register a Content View Set of Properties and Layout Pattern for a File Type or Item
 ms.topic: article

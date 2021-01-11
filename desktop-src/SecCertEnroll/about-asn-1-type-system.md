@@ -1,5 +1,5 @@
 ---
-Description: The concept of a data type is fundamental to the Abstract Syntax Notation One (ASN.1) standard.
+description: The concept of a data type is fundamental to the Abstract Syntax Notation One (ASN.1) standard.
 ms.assetid: 85e88e0b-057b-42c7-a3c8-017a30195d1e
 title: ASN.1 Type System
 ms.topic: article

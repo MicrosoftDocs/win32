@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Strong Cryptographic Provider is used as the default RSA Full cryptographic service provider (CSP).
+description: The Microsoft Strong Cryptographic Provider is used as the default RSA Full cryptographic service provider (CSP).
 ms.assetid: 13f85e08-db21-411f-842c-8a2ba6cb8b4e
 title: Microsoft Strong Cryptographic Provider
 ms.topic: article

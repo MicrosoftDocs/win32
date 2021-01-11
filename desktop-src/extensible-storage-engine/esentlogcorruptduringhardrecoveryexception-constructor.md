@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogCorruptDuringHardRecoveryException constructor"
 title: EsentLogCorruptDuringHardRecoveryException constructor 
 TOCTitle: 'EsentLogCorruptDuringHardRecoveryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogCorruptDuringHardRecoveryException.#ctor

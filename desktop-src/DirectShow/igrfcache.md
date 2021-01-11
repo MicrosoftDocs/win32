@@ -1,5 +1,5 @@
 ---
-Description: The IGrfCache interface is not supported.
+description: The IGrfCache interface is not supported.
 ms.assetid: 9b450110-8b4d-451d-b19b-2784d4c6b905
 title: IGrfCache interface
 ms.topic: reference

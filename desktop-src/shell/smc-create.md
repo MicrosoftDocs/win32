@@ -1,5 +1,5 @@
 ---
-Description: Notifies you that a menu band has been created.
+description: Notifies you that a menu band has been created.
 title: SMC_CREATE message (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018

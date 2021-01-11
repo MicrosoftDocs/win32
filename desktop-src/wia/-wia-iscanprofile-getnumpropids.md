@@ -1,5 +1,5 @@
 ---
-Description: Gets the number of property IDs in a profile.
+description: Gets the number of property IDs in a profile.
 ms.assetid: fa587c8a-8d09-4dfc-938a-5ec8cc9265f5
 title: IScanProfile::GetNumPropIDS method (Scanprofile.h)
 ms.topic: reference

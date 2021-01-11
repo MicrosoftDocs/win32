@@ -1,5 +1,5 @@
 ---
-Description: Callback to return information on whether an offline request is cached or not.
+description: Callback to return information on whether an offline request is cached or not.
 MS-HAID: vspixengine.IOfflineAnalysisCacheCallback
 MSHAttr:
 - PreferredSiteName:MSDN

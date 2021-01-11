@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: Constructor method.
 ms.assetid: 4dad635f-4637-4f40-9f02-a91b59d05278
 title: CVideoTransformFilter.CVideoTransformFilter constructor (Vtrans.h)
 ms.topic: reference

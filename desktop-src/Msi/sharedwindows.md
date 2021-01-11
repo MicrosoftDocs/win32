@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the SharedWindows property when the system is operating as Shared Windows.
+description: The installer sets the SharedWindows property when the system is operating as Shared Windows.
 ms.assetid: 22dd5ee9-25d3-4bc6-9181-13095497a1d3
 title: SharedWindows property
 ms.topic: reference

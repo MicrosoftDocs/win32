@@ -1,5 +1,5 @@
 ---
-Description: Define the set of actions for the IOCTL\_STORAGE\_MANAGE\_DATA\_SET\_ATTRIBUTES control code.
+description: Define the set of actions for the IOCTL\_STORAGE\_MANAGE\_DATA\_SET\_ATTRIBUTES control code.
 ms.assetid: ff688c9a-8669-4699-aab9-1e2e3a5c7fca
 title: DEVICE_DATA_MANAGEMENT_SET_ACTION (WinIoCtl.h)
 ms.topic: reference

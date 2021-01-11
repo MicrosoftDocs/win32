@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OSSNAPID.Equality operator"
 title: JET_OSSNAPID.Equality operator 
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_OSSNAPID.op_Equality(Microsoft.Isam.Esent.Interop.JET_OSSNAPID,Microsoft.Isam.Esent.Interop.JET_OSSNAPID)

@@ -1,5 +1,5 @@
 ---
-Description: The NotifyEvent method sends an event notification to the filter graph manager.
+description: The NotifyEvent method sends an event notification to the filter graph manager.
 ms.assetid: 79587b72-4152-4443-9fde-c2746bf06191
 title: CBaseFilter.NotifyEvent method (Amfilter.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The Reset method resets the enumeration sequence to the beginning. This method implements the IEnumPins::Reset method.
+description: The Reset method resets the enumeration sequence to the beginning. This method implements the IEnumPins::Reset method.
 ms.assetid: b2e86304-bb14-495b-a922-8868b3898d85
 title: CEnumPins.Reset method (Amfilter.h)
 ms.topic: reference

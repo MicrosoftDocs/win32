@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSQLLinkNotSupportedException constructor"
 title: EsentSQLLinkNotSupportedException constructor 
 TOCTitle: 'EsentSQLLinkNotSupportedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSQLLinkNotSupportedException.#ctor

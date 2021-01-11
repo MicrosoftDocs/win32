@@ -1,5 +1,5 @@
 ---
-Description: Defines the levels of full-scene multisampling that the device can apply.
+description: Defines the levels of full-scene multisampling that the device can apply.
 ms.assetid: 1a3c1efe-f5b1-47a1-a5f5-ac49d318f3b8
 title: D3DMULTISAMPLE_TYPE enumeration (D3D9Types.h)
 ms.topic: reference

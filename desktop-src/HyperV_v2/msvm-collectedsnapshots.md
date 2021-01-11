@@ -1,5 +1,5 @@
 ---
-Description: Associates the Msvm\_SnapshotCollection to the contained Msvm\_VirtualSystemSettingData objects.
+description: Associates the Msvm\_SnapshotCollection to the contained Msvm\_VirtualSystemSettingData objects.
 ms.assetid: 21005e8a-0bc6-4ea7-8f6f-d79803b43bc0
 title: Msvm_CollectedSnapshots class
 ms.topic: reference

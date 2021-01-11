@@ -1,5 +1,5 @@
 ---
-Description: Creates an instance of the BoundingBox class.
+description: Creates an instance of the BoundingBox class.
 ms.assetid: 9d8c25de-ed8b-4705-a29d-3a1638b0533f
 title: BoundingBox constructors
 ms.topic: reference

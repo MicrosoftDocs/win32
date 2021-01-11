@@ -1,5 +1,5 @@
 ---
-Description: Not used. Formerly a callback to respond to &\#0034;capture frame&\#0034; event.
+description: Not used. Formerly a callback to respond to &\#0034;capture frame&\#0034; event.
 MS-HAID: vspixengine.IRunActionCallback
 MSHAttr:
 - PreferredSiteName:MSDN

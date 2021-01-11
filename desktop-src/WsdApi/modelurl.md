@@ -1,5 +1,5 @@
 ---
-Description: Specifies the URL address for the device model.
+description: Specifies the URL address for the device model.
 ms.assetid: 817a291c-34de-4780-b8b5-0f428864fa7d
 title: modelURL element
 ms.topic: reference

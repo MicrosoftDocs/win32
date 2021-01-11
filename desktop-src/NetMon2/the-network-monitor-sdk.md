@@ -1,5 +1,5 @@
 ---
-Description: The Network Monitor portion of the Platform Software Development Kit (SDK) extends the functionality of Network Monitor by helping you to create custom experts, protocol parsers, and network packet providers (NPPs).
+description: The Network Monitor portion of the Platform Software Development Kit (SDK) extends the functionality of Network Monitor by helping you to create custom experts, protocol parsers, and network packet providers (NPPs).
 ms.assetid: d9a61ad7-aa85-4b18-90df-7a8051ff80bc
 title: Network Monitor Introduction
 ms.topic: article

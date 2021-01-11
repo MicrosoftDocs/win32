@@ -1,5 +1,5 @@
 ---
-Description: The alpha value of a color controls its transparency. Enabling alpha blending allows colors, materials, and textures on a surface to be blended with transparency onto another surface.
+description: The alpha value of a color controls its transparency. Enabling alpha blending allows colors, materials, and textures on a surface to be blended with transparency onto another surface.
 ms.assetid: e8e925d5-262d-45c0-be9f-21c9a103d7b7
 title: Alpha Blending State (Direct3D 9)
 ms.topic: article

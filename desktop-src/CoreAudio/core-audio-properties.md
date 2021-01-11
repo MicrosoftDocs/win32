@@ -1,5 +1,5 @@
 ---
-Description: This programming reference for the Core Audio SDK includes the following properties.
+description: This programming reference for the Core Audio SDK includes the following properties.
 ms.assetid: db7d68c3-5642-4238-a212-88d3479ce73d
 title: Core Audio Properties
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the template ID of this file data node.
+description: Retrieves the template ID of this file data node.
 ms.assetid: ff0662da-b4f8-4ed2-81d4-6771e91da262
 title: ID3DXFileSaveData::GetType method (D3DX9Xof.h)
 ms.topic: reference

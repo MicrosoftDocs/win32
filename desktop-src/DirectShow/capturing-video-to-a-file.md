@@ -1,5 +1,5 @@
 ---
-Description: Capturing Video to a File
+description: Capturing Video to a File
 ms.assetid: 4ec642ab-1559-4674-a934-a91353c657f9
 title: Capturing Video to a File
 ms.topic: article

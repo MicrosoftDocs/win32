@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PCVideoController represents the capabilities and management of a personal computer video controller, a subtype of a video controller.
+description: The CIM\_PCVideoController represents the capabilities and management of a personal computer video controller, a subtype of a video controller.
 ms.assetid: bf937727-a332-445b-9397-7d87d58c4a5b
 ms.tgt_platform: multiple
 title: CIM_PCVideoController class

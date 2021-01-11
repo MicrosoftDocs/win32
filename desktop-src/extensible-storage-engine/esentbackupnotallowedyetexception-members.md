@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBackupNotAllowedYetException members"
 title: EsentBackupNotAllowedYetException members
 TOCTitle: EsentBackupNotAllowedYetException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBackupNotAllowedYetException

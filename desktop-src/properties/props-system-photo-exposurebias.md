@@ -1,5 +1,5 @@
 ---
-Description: The amount of exposure bias used in the photo, as read from the camera.
+description: The amount of exposure bias used in the photo, as read from the camera.
 ms.assetid: 0b819984-c048-4512-962a-e2320e1585b2
 title: System.Photo.ExposureBias
 ms.topic: article

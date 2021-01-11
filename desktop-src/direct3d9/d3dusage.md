@@ -1,5 +1,5 @@
 ---
-Description: Usage options that identify how resources are to be used.
+description: Usage options that identify how resources are to be used.
 ms.assetid: c8823c39-8f17-441c-a42b-de3d7ec02f75
 title: D3DUSAGE (D3d9types.h)
 ms.topic: reference

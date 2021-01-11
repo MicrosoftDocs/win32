@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoBackupException members"
 title: EsentNoBackupException members
 TOCTitle: EsentNoBackupException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentNoBackupException

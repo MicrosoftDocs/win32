@@ -1,5 +1,5 @@
 ---
-Description: ModemDMConfigProfile\/...\/Compression (v4)
+description: ModemDMConfigProfile\/...\/Compression (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_Compression
 MSHAttr:
 - PreferredSiteName:MSDN

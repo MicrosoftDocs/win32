@@ -1,5 +1,5 @@
 ---
-Description: Identifies whether the item is an attachment.
+description: Identifies whether the item is an attachment.
 ms.assetid: f2f227b1-1490-41b0-a361-b36d7bcd3069
 title: System.IsAttachment
 ms.topic: article

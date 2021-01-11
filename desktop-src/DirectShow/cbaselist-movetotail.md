@@ -1,5 +1,5 @@
 ---
-Description: The MoveToTail method splits the list and appends the head portion to the tail of another list.
+description: The MoveToTail method splits the list and appends the head portion to the tail of another list.
 ms.assetid: f5cefe7c-075c-433b-9ece-aa10217344fa
 title: CBaseList.MoveToTail method (Wxlist.h)
 ms.topic: reference

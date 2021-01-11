@@ -1,5 +1,5 @@
 ---
-Description: Creates a binary object and adds it as a child object. Deprecated.
+description: Creates a binary object and adds it as a child object. Deprecated.
 ms.assetid: 6164951d-dd87-4318-ac08-b97c22f58d45
 title: IDirectXFileData::AddBinaryObject method (DXFile.h)
 ms.topic: reference

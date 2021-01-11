@@ -1,5 +1,5 @@
 ---
-Description: This section describes the Windows Property System functions.
+description: This section describes the Windows Property System functions.
 ms.assetid: ce8336cd-d9aa-4b93-ab47-30edd7518dab
 title: Functions (Windows Property System)
 ms.topic: article

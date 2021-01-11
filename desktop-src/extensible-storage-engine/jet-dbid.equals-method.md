@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBID.Equals method"
 title: JET_DBID.Equals method 
 TOCTitle: 'Equals method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_DBID.Equals

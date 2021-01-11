@@ -1,5 +1,5 @@
 ---
-Description: Resource preparation for a MUI application supports both Win32 PE and non-Win32 PE models.
+description: Resource preparation for a MUI application supports both Win32 PE and non-Win32 PE models.
 ms.assetid: e528dac7-c157-42d7-808d-709a4ae84f1e
 title: Preparing Resources
 ms.topic: article

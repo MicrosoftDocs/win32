@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the application requires Microsoft Direct3D support in the Source Reader or Sink Writer.
+description: Specifies whether the application requires Microsoft Direct3D support in the Source Reader or Sink Writer.
 ms.assetid: 3844ED7B-E1E5-4CD7-B080-FE7EC7B28AC5
 title: MF_READWRITE_D3D_OPTIONAL attribute (Mfreadwrite.h)
 ms.topic: reference

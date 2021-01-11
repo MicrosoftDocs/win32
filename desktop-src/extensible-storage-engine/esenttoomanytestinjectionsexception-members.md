@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyTestInjectionsException members"
 title: EsentTooManyTestInjectionsException members
 TOCTitle: EsentTooManyTestInjectionsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyTestInjectionsException

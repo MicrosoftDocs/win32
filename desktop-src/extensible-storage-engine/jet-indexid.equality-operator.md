@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXID.Equality operator"
 title: JET_INDEXID.Equality operator 
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXID.op_Equality(Microsoft.Isam.Esent.Interop.JET_INDEXID,Microsoft.Isam.Esent.Interop.JET_INDEXID)

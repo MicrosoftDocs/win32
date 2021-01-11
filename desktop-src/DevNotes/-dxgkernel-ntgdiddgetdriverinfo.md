@@ -1,5 +1,5 @@
 ---
-Description: Queries the driver for additional Microsoft DirectDraw and Microsoft Direct3D functionality that the driver supports.
+description: Queries the driver for additional Microsoft DirectDraw and Microsoft Direct3D functionality that the driver supports.
 ms.assetid: 7169b672-5c61-4fca-860b-5ef426a7f925
 title: NtGdiDdGetDriverInfo function (Ntgdi.h)
 ms.topic: reference

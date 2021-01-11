@@ -1,5 +1,5 @@
 ---
-Description: ModemDMConfigProfile\/RoamApplicability (v4)
+description: ModemDMConfigProfile\/RoamApplicability (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_RoamApplicability
 MSHAttr:
 - PreferredSiteName:MSDN

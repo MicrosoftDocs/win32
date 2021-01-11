@@ -1,5 +1,5 @@
 ---
-Description: Algorithms might be supported by the Microsoft RSA/Schannel Cryptographic Provider.
+description: Algorithms might be supported by the Microsoft RSA/Schannel Cryptographic Provider.
 ms.assetid: 8793f0e8-a368-42be-8351-c60d99c34fb9
 title: RSA/Schannel Provider Algorithms
 ms.topic: article

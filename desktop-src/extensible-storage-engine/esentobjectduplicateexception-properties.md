@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentObjectDuplicateException properties"
 title: EsentObjectDuplicateException properties
 TOCTitle: EsentObjectDuplicateException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentObjectDuplicateException

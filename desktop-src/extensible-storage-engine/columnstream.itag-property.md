@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream.Itag property"
 title: ColumnStream.Itag property 
 TOCTitle: 'Itag property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnStream.Itag

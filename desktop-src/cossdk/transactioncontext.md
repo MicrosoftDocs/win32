@@ -1,5 +1,5 @@
 ---
-Description: Creates a generic transactional object that begins a transaction.
+description: Creates a generic transactional object that begins a transaction.
 ms.assetid: 'efaf1468-4973-472f-af91-85957a52b7df'
 title: TransactionContext class (ComSvcs.h)
 ms.topic: reference

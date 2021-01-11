@@ -1,5 +1,5 @@
 ---
-Description: 'This filter decodes the following audio formats:'
+description: 'This filter decodes the following audio formats:'
 ms.assetid: 2fd14296-9eed-4e25-b140-6281c707fdb7
 title: Microsoft MPEG-1/DD/AAC Audio Decoder (Wmcodecdsp.h)
 ms.topic: reference

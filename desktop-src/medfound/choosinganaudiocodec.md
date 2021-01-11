@@ -1,5 +1,5 @@
 ---
-Description: Choosing an Audio Codec
+description: Choosing an Audio Codec
 ms.assetid: 37f3582c-c718-42ae-b887-d7d31ee853e9
 title: Choosing an Audio Codec (Microsoft Media Foundation)
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Flags that restrict the data to be set or returned.
+description: Flags that restrict the data to be set or returned.
 title: SRRF (Shlwapi.h)
 ms.topic: reference
 ms.date: 05/31/2018

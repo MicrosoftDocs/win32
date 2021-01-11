@@ -1,5 +1,5 @@
 ---
-Description: Contains a global revocation list (GRL) signature.
+description: Contains a global revocation list (GRL) signature.
 ms.assetid: 388a901c-6202-41cf-9c3d-f29d8ccca76b
 title: MF_SIGNATURE structure
 ms.topic: reference

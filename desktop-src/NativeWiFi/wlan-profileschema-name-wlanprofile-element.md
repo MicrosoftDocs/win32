@@ -1,5 +1,5 @@
 ---
-Description: Contains the name of a wireless LAN profile.
+description: Contains the name of a wireless LAN profile.
 ms.assetid: b8977183-7b5d-4c79-9065-ade85ed45716
 title: name (WLANProfile) Element
 ms.topic: reference

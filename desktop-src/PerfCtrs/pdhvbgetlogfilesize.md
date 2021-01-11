@@ -1,5 +1,5 @@
 ---
-Description: The PdhVbGetLogFileSize function returns the size of the specified log file. This function calls PdhGetLogFileSize.
+description: The PdhVbGetLogFileSize function returns the size of the specified log file. This function calls PdhGetLogFileSize.
 ms.assetid: 8f4fbb68-b0f5-4163-ae6e-5b7139a35adf
 title: PdhVbGetLogFileSize function
 ms.topic: reference

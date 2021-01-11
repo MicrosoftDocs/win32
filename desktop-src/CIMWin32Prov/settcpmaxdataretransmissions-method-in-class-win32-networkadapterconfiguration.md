@@ -1,5 +1,5 @@
 ---
-Description: The SetTcpMaxDataRetransmissions WMI class static method is used to set the number of times TCP retransmits an individual data segment before aborting the connection.
+description: The SetTcpMaxDataRetransmissions WMI class static method is used to set the number of times TCP retransmits an individual data segment before aborting the connection.
 ms.assetid: 1b5407ee-8e2b-4aed-a17a-58d960f976f2
 ms.tgt_platform: multiple
 title: SetTcpMaxDataRetransmissions method of the Win32_NetworkAdapterConfiguration class

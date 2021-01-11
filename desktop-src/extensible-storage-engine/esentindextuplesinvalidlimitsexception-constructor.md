@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesInvalidLimitsException constructor"
 title: EsentIndexTuplesInvalidLimitsException constructor 
 TOCTitle: 'EsentIndexTuplesInvalidLimitsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexTuplesInvalidLimitsException.#ctor

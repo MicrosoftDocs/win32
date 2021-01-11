@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_RSTMAP properties"
 title: JET_RSTMAP properties
 TOCTitle: JET_RSTMAP properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_RSTMAP

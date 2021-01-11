@@ -1,5 +1,5 @@
 ---
-Description: The comm/datamodem device class consists of datamodem devices.
+description: The comm/datamodem device class consists of datamodem devices.
 ms.assetid: 6bc314c6-30ec-4318-856a-3ab2fa6aadfb
 title: comm/datamodem
 ms.topic: article

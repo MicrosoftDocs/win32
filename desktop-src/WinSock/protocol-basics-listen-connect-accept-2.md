@@ -1,5 +1,5 @@
 ---
-Description: Protocol basics of WSPListen, WSPAccept, and WSPConnect for establishing a socket connection with Windows Sockets (Winsock).
+description: Protocol basics of WSPListen, WSPAccept, and WSPConnect for establishing a socket connection with Windows Sockets (Winsock).
 ms.assetid: b1b4d6b9-36db-4000-9c6b-662765b6d091
 title: 'Protocol Basics: Listen, Connect, Accept'
 ms.topic: article

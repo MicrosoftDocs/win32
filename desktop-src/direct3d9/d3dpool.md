@@ -1,5 +1,5 @@
 ---
-Description: Defines the memory class that holds the buffers for a resource.
+description: Defines the memory class that holds the buffers for a resource.
 ms.assetid: 29720b5f-16d7-4bd9-a7bd-e4dbfb00070b
 title: D3DPOOL enumeration (D3D9Types.h)
 ms.topic: reference

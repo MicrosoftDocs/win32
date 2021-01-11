@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoAttachmentsFailedIncrementalReseedException properties"
 title: EsentNoAttachmentsFailedIncrementalReseedException properties
 TOCTitle: EsentNoAttachmentsFailedIncrementalReseedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentNoAttachmentsFailedIncrementalReseedException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidCountryException members"
 title: EsentInvalidCountryException members
 TOCTitle: EsentInvalidCountryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidCountryException

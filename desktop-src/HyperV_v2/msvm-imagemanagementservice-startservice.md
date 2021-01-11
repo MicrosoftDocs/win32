@@ -1,5 +1,5 @@
 ---
-Description: Starts the service.
+description: Starts the service.
 ms.assetid: d1e11947-4f48-404f-a359-627a3b7716fd
 title: StartService method of the Msvm_ImageManagementService class
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingLogFileException methods"
 title: EsentMissingLogFileException methods
 TOCTitle: EsentMissingLogFileException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentMissingLogFileException

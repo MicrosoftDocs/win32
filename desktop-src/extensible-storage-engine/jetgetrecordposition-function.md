@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetRecordPosition Function"
 title: JetGetRecordPosition Function
 TOCTitle: JetGetRecordPosition Function
 ms:assetid: 811d9e68-0594-4f70-b854-c3ec966b2705

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_HANDLE properties"
 title: JET_HANDLE properties
 TOCTitle: JET_HANDLE properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_HANDLE

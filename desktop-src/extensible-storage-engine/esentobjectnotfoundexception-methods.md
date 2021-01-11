@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentObjectNotFoundException methods"
 title: EsentObjectNotFoundException methods
 TOCTitle: EsentObjectNotFoundException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentObjectNotFoundException

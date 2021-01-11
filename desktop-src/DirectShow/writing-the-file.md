@@ -1,5 +1,5 @@
 ---
-Description: Writing the File
+description: Writing the File
 ms.assetid: d3dbe6ab-810c-4798-a769-c3f00c52a93a
 title: Writing the File
 ms.topic: article

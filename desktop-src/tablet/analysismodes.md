@@ -1,5 +1,5 @@
 ---
-Description: Specifies how the IInkAnalyzer performs ink analysis.
+description: Specifies how the IInkAnalyzer performs ink analysis.
 ms.assetid: bc526445-0c9c-4c53-8b02-32cf758266e6
 title: AnalysisModes enumeration (IACom.h)
 ms.topic: reference

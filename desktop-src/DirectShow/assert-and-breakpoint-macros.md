@@ -1,5 +1,5 @@
 ---
-Description: Assert and Breakpoint Macros
+description: Assert and Breakpoint Macros
 ms.assetid: c34db182-1f65-4a2f-9534-268638c2502d
 title: Assert and Breakpoint Macros
 ms.topic: article

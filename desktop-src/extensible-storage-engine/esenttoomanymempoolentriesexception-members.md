@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyMempoolEntriesException members"
 title: EsentTooManyMempoolEntriesException members
 TOCTitle: EsentTooManyMempoolEntriesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyMempoolEntriesException

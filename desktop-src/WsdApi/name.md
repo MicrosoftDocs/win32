@@ -1,5 +1,5 @@
 ---
-Description: Specifies a qualified name in the namespace.
+description: Specifies a qualified name in the namespace.
 ms.assetid: 'cba708cc-1a4a-4e46-9376-065d3c879c38'
 title: name element
 ms.topic: article

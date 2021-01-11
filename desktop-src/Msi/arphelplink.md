@@ -1,5 +1,5 @@
 ---
-Description: The ARPHELPLINK property is the Internet address for technical support. Product maintenance applets display this value.
+description: The ARPHELPLINK property is the Internet address for technical support. Product maintenance applets display this value.
 ms.assetid: 1f657f62-9e7d-466e-8f3e-084093c0e675
 title: ARPHELPLINK property
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The Certificate Enrollment API uses Abstract Syntax Notation One (ASN.1) to define, encode, and decode the certificate requests and certificates that it transfers between client computers and certification authorities.
+description: The Certificate Enrollment API uses Abstract Syntax Notation One (ASN.1) to define, encode, and decode the certificate requests and certificates that it transfers between client computers and certification authorities.
 ms.assetid: 970a246f-a4c3-489b-b6a4-7d3103f388cf
 title: Introduction to ASN.1 Syntax and Encoding
 ms.topic: article

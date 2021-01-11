@@ -1,5 +1,5 @@
 ---
-Description: The DoRenderSample method renders a sample.
+description: The DoRenderSample method renders a sample.
 ms.assetid: cf06192c-44c0-4d88-a20e-6501ea48cbfd
 title: CBaseRenderer.DoRenderSample method (Renbase.h)
 ms.topic: reference

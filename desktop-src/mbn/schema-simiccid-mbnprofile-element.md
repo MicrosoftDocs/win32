@@ -1,5 +1,5 @@
 ---
-Description: Identifies the SIM Identification number for GSM devices.
+description: Identifies the SIM Identification number for GSM devices.
 ms.assetid: 980afba4-fc31-4da0-ba01-6eb8e3db0ac8
 title: SimIccID (MBNProfile) Element
 ms.topic: reference

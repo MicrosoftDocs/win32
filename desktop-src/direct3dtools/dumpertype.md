@@ -1,5 +1,5 @@
 ---
-Description: An enum used to indicate what type of buffer IGenericBufferDataRequest returns.
+description: An enum used to indicate what type of buffer IGenericBufferDataRequest returns.
 MS-HAID: vspixengine.DUMPERTYPE
 MSHAttr:
 - PreferredSiteName:MSDN

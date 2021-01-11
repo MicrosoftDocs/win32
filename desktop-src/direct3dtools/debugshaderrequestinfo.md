@@ -1,5 +1,5 @@
 ---
-Description: Represents information about a shader debugger request.
+description: Represents information about a shader debugger request.
 MS-HAID: vspixengine.DebugShaderRequestInfo
 MSHAttr:
 - PreferredSiteName:MSDN

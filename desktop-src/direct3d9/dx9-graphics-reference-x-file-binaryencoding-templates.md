@@ -1,5 +1,5 @@
 ---
-Description: A template has the following syntax definition.
+description: A template has the following syntax definition.
 ms.assetid: 77eb739d-8da3-4481-8dd1-f9f2f0eda136
 title: Templates (X file format)
 ms.topic: article

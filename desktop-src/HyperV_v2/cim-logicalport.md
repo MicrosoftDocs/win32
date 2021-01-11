@@ -1,5 +1,5 @@
 ---
-Description: The abstraction of a port or connection point of a device.
+description: The abstraction of a port or connection point of a device.
 ms.assetid: ee725c64-587b-4e5f-9b1c-7a58902b0631
 title: CIM_LogicalPort class
 ms.topic: reference

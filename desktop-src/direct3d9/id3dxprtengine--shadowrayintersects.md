@@ -1,5 +1,5 @@
 ---
-Description: Uses efficient ray-tracing in precomputed radiance transfer (PRT) simulations to determine whether a ray intersects a mesh. Typically used to determine whether a given point is in shadow.
+description: Uses efficient ray-tracing in precomputed radiance transfer (PRT) simulations to determine whether a ray intersects a mesh. Typically used to determine whether a given point is in shadow.
 ms.assetid: fcd53a0f-80e8-4013-8efd-125e38f4ccd0
 title: ID3DXPRTEngine::ShadowRayIntersects method (D3DX9Mesh.h)
 ms.topic: reference

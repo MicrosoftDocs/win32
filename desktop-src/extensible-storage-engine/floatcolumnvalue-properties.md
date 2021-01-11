@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: FloatColumnValue properties"
 title: FloatColumnValue properties
 TOCTitle: FloatColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.FloatColumnValue

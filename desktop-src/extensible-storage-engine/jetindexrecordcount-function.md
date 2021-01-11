@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetIndexRecordCount Function"
 title: JetIndexRecordCount Function
 TOCTitle: JetIndexRecordCount Function
 ms:assetid: 62d39738-cd91-4cfb-9483-f4a2dd845d9a

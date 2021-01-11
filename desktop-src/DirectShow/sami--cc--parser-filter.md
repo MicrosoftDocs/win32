@@ -1,5 +1,5 @@
 ---
-Description: SAMI (CC) Parser Filter
+description: SAMI (CC) Parser Filter
 ms.assetid: 9b09dd86-3c22-4565-82a0-106d5ca2e42d
 title: SAMI (CC) Parser Filter
 ms.topic: article

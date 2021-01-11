@@ -1,5 +1,5 @@
 ---
-Description: Deprecated. Gets the supported date range for a specified calendar.
+description: Deprecated. Gets the supported date range for a specified calendar.
 ms.assetid: fe036ac5-77c0-4e83-8d70-db3fa0f7c803
 title: GetCalendarSupportedDateRange function
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMCOLOR.
+description: Constructors exposed by XMCOLOR.
 ms.assetid: 9b9f0c85-453b-416d-9e70-6ffcf2286df7
 title: XMCOLOR constructors
 ms.topic: reference

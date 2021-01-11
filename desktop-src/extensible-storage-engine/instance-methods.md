@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance methods"
 title: Instance methods
 TOCTitle: Instance methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Instance

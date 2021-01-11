@@ -1,5 +1,5 @@
 ---
-Description: Indicates the level of confidence that the IInkAnalyzer has in the accuracy of the recognition result.
+description: Indicates the level of confidence that the IInkAnalyzer has in the accuracy of the recognition result.
 ms.assetid: 'fd4fc350-b4db-4f9a-a5ae-00065e33606c'
 title: RecognitionConfidence enumeration (IACom.h)
 ms.topic: reference

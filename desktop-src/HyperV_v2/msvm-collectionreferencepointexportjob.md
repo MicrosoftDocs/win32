@@ -1,5 +1,5 @@
 ---
-Description: This class represents a collection reference point export operation job.
+description: This class represents a collection reference point export operation job.
 ms.assetid: c752ff1d-163c-4aa9-b29e-76478a18a08c
 title: Msvm_CollectionReferencePointExportJob class
 ms.topic: reference

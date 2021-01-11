@@ -1,5 +1,5 @@
 ---
-Description: Provides replication statistics for a virtual machine.
+description: Provides replication statistics for a virtual machine.
 ms.assetid: 52d944a7-9309-4b56-97b7-e050a9501c57
 title: Msvm_ReplicationStatistics class
 ms.topic: reference

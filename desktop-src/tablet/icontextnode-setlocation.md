@@ -1,5 +1,5 @@
 ---
-Description: Updates the area of this IContextNode.
+description: Updates the area of this IContextNode.
 ms.assetid: e7001411-17e4-4f33-af04-dd3220275895
 title: IContextNode::SetLocation method (IACom.h)
 ms.topic: reference

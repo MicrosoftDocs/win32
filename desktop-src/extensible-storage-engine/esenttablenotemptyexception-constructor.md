@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTableNotEmptyException constructor"
 title: EsentTableNotEmptyException constructor 
 TOCTitle: 'EsentTableNotEmptyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTableNotEmptyException.#ctor

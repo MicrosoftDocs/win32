@@ -1,5 +1,5 @@
 ---
-Description: Retrieves forwarding data from a target computer.
+description: Retrieves forwarding data from a target computer.
 ms.assetid: e9ed210d-09ad-4689-b6a0-f84c5cce86f5
 ms.tgt_platform: multiple
 title: TargetForwarding class

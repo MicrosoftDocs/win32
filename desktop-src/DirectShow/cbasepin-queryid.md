@@ -1,5 +1,5 @@
 ---
-Description: The QueryId method retrieves the pin identifier. This method implements the IPin::QueryId method.
+description: The QueryId method retrieves the pin identifier. This method implements the IPin::QueryId method.
 ms.assetid: b365a574-61b4-454c-b062-8826cbe10f03
 title: CBasePin.QueryId method (Amfilter.h)
 ms.topic: reference

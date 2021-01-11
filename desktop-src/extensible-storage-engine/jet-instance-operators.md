@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_INSTANCE operators"
 title: JET_INSTANCE operators
 TOCTitle: JET_INSTANCE operators
 ms:assetid: 45e2b5a4-498a-9de3-014f-2c3104658669

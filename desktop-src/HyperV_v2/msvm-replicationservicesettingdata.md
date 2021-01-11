@@ -1,5 +1,5 @@
 ---
-Description: Represents the settings for the replication service on a recovery host. The properties for this class cannot be modified directly. The client must call the Msvm\_ReplicationService.ModifyServiceSettings method to modify any of these properties.
+description: Represents the settings for the replication service on a recovery host. The properties for this class cannot be modified directly. The client must call the Msvm\_ReplicationService.ModifyServiceSettings method to modify any of these properties.
 ms.assetid: a0c0b45a-3578-412a-910e-cd4b3ff0e262
 title: Msvm_ReplicationServiceSettingData class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_InstalledSoftwareElement class associates a computer system with an installed software element.
+description: The CIM\_InstalledSoftwareElement class associates a computer system with an installed software element.
 ms.assetid: b9a570ed-b4e0-4f73-82e3-6d2bd1708e16
 ms.tgt_platform: multiple
 title: CIM_InstalledSoftwareElement class

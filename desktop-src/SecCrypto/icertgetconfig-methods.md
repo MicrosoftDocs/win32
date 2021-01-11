@@ -1,5 +1,5 @@
 ---
-Description: The ICertGetConfig interface exposes the following methods.
+description: The ICertGetConfig interface exposes the following methods.
 ms.assetid: 1DC5A894-9092-469D-893F-29E9716C15F9
 title: ICertGetConfig Methods
 ms.topic: reference

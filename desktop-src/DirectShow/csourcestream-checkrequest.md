@@ -1,5 +1,5 @@
 ---
-Description: The CheckRequest method checks if there is a thread request, without blocking.
+description: The CheckRequest method checks if there is a thread request, without blocking.
 ms.assetid: b4691dde-abec-4671-bea6-0f22cc4e7c61
 title: CSourceStream.CheckRequest method (Source.h)
 ms.topic: reference

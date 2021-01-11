@@ -1,5 +1,5 @@
 ---
-Description: After you retrieve installation information from an INF file, there are several file-handling functions that you can use to install the files listed in an INF section.
+description: After you retrieve installation information from an INF file, there are several file-handling functions that you can use to install the files listed in an INF section.
 ms.assetid: 4e6042a0-36a9-4f74-b6cc-554e7f7aa2d9
 title: Installing From an INF File
 ms.topic: article

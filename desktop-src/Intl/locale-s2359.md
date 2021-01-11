@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_S2359 and LOCALE\_SPM
+description: LOCALE\_S2359 and LOCALE\_SPM
 ms.assetid: 8a97073e-84f6-47d9-98fb-65760e8a6cd8
 title: LOCALE_S2359 and LOCALE_SPM
 ms.topic: article

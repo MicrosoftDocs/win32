@@ -1,5 +1,5 @@
 ---
-Description: Boolean value that indicates whether the year component in the CIM datetime value contains an interval or a wildcard value.
+description: Boolean value that indicates whether the year component in the CIM datetime value contains an interval or a wildcard value.
 ms.assetid: afac0a08-7bd0-42f1-b5a7-8664f9db8615
 ms.tgt_platform: multiple
 title: SWbemDateTime.YearSpecified property (Wbemdisp.h)

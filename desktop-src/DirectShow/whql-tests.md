@@ -1,5 +1,5 @@
 ---
-Description: WHQL tests
+description: WHQL tests
 ms.assetid: ca24fe89-d2fe-4aa9-8643-319ed16ba1a3
 title: WHQL tests
 ms.topic: article

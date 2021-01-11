@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCatalogCorruptedException properties"
 title: EsentCatalogCorruptedException properties
 TOCTitle: EsentCatalogCorruptedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCatalogCorruptedException

@@ -1,5 +1,5 @@
 ---
-Description: The SWbemEventSource object exposes the following properties.
+description: The SWbemEventSource object exposes the following properties.
 ms.assetid: AD1583F2-7CFD-4596-AE3B-D75F8BA2AFF9
 ms.tgt_platform: multiple
 title: SWbemEventSource Properties

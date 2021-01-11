@@ -1,5 +1,5 @@
 ---
-Description: The NETWORKSTATUS structure describes the current status of the NPP.
+description: The NETWORKSTATUS structure describes the current status of the NPP.
 ms.assetid: e5e07480-cfc3-408f-9ca2-48a697e4b875
 title: NETWORKSTATUS structure (Netmon.h)
 ms.topic: reference

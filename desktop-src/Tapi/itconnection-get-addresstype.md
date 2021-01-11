@@ -1,5 +1,5 @@
 ---
-Description: The get\_AddressType method gets the address type.
+description: The get\_AddressType method gets the address type.
 ms.assetid: b2ff6303-6beb-429c-ad1a-2f729749e5db
 title: ITConnection::get_AddressType method (Sdpblb.h)
 ms.topic: reference

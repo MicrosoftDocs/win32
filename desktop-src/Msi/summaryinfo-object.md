@@ -1,5 +1,5 @@
 ---
-Description: The SummaryInfo object is used to read, create, and update document properties from the summary information stream of a storage object.
+description: The SummaryInfo object is used to read, create, and update document properties from the summary information stream of a storage object.
 ms.assetid: 296e90d2-84b8-4c9e-8716-be90f94294ee
 title: SummaryInfo object
 ms.topic: reference

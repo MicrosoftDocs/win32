@@ -1,5 +1,5 @@
 ---
-Description: Private message that brings the window to the foreground.
+description: Private message that brings the window to the foreground.
 ms.assetid: 88b28888-d729-4cf3-8b9d-618dbe150926
 title: CBaseWindow::m_ShowStageMessage member (Winutil.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Changes the security permissions for the logical device file specified in the object path.
+description: Changes the security permissions for the logical device file specified in the object path.
 ms.assetid: 4b3e1a0e-3c9e-45bb-8c7b-cbbc8f9d1265
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissions method of the CIM_DeviceFile class

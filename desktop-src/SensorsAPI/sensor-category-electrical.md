@@ -1,5 +1,5 @@
 ---
-Description: The SENSOR\_CATEGORY\_ELECTRICAL category contains sensors that provide information about electrical systems.
+description: The SENSOR\_CATEGORY\_ELECTRICAL category contains sensors that provide information about electrical systems.
 ms.assetid: c4efa821-fb9f-4606-898a-5be103581f39
 title: SENSOR_CATEGORY_ELECTRICAL (Sensors.h)
 ms.topic: reference

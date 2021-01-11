@@ -1,5 +1,5 @@
 ---
-Description: Developers of installation packages can author a user interface containing the controls discussed in this topic.
+description: Developers of installation packages can author a user interface containing the controls discussed in this topic.
 ms.assetid: ed9fa158-9dad-4d2d-8153-78122b19a34e
 title: Controls (Windows Installer)
 ms.topic: article

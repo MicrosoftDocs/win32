@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetRollback method"
 title: Api.JetRollback method 
 TOCTitle: 'JetRollback method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetRollback(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.RollbackTransactionGrbit)

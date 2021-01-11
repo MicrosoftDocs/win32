@@ -1,5 +1,5 @@
 ---
-Description: Contains data that describes an expert when it starts.
+description: Contains data that describes an expert when it starts.
 ms.assetid: 9ecd5395-d10c-411b-a6bd-fbac724d8603
 title: EXPERTSTARTUPINFO structure (Netmon.h)
 ms.topic: reference

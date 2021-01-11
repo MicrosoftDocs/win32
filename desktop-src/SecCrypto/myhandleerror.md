@@ -1,5 +1,5 @@
 ---
-Description: The MyHandleError function is an example of a tool function used to print an error message and exit the calling program.
+description: The MyHandleError function is an example of a tool function used to print an error message and exit the calling program.
 ms.assetid: 7b28509f-a77f-4b60-90d4-18edaa6d1a2d
 title: MyHandleError
 ms.topic: article

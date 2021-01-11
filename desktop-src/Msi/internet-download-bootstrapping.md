@@ -1,5 +1,5 @@
 ---
-Description: With Windows Installer, a configurable bootstrap executable (Setup.exe) and configuration tool (Msistuff.exe) is included in the Windows SDK Components for Windows Installer Developers.
+description: With Windows Installer, a configurable bootstrap executable (Setup.exe) and configuration tool (Msistuff.exe) is included in the Windows SDK Components for Windows Installer Developers.
 ms.assetid: 478340b4-5ee8-4ae6-b2d4-f53afbf098d9
 title: Internet Download Bootstrapping
 ms.topic: article

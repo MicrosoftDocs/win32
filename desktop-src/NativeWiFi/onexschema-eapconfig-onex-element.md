@@ -1,5 +1,5 @@
 ---
-Description: specifies the EAPHost configuration.
+description: specifies the EAPHost configuration.
 ms.assetid: 71ec3ed6-3670-46fc-a24b-580d15297437
 title: EAPConfig (OneX) Element
 ms.topic: reference

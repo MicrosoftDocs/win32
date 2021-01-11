@@ -1,5 +1,5 @@
 ---
-Description: The GetFreeCount method retrieves the number of media samples that are not in use.
+description: The GetFreeCount method retrieves the number of media samples that are not in use.
 ms.assetid: f4ce4cca-0168-42db-9fe7-858862f033a8
 title: CBaseAllocator.GetFreeCount method (Amfilter.h)
 ms.topic: reference

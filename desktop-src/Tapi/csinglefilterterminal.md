@@ -1,5 +1,5 @@
 ---
-Description: CSingleFilterTerminal is an additional terminal base class applicable to both static and dynamic terminals.
+description: CSingleFilterTerminal is an additional terminal base class applicable to both static and dynamic terminals.
 ms.assetid: d423438f-1324-4df3-beaa-fdef325fac2e
 title: CSingleFilterTerminal
 ms.topic: article

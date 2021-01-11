@@ -1,5 +1,5 @@
 ---
-Description: Gets the vertex declaration.
+description: Gets the vertex declaration.
 ms.assetid: 53ff2fb5-68b6-4edd-b48f-e06df306ee3f
 title: ID3DXPatchMesh::GetDeclaration method (D3DX9Mesh.h)
 ms.topic: reference

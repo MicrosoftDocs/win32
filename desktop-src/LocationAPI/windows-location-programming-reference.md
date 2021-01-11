@@ -1,5 +1,5 @@
 ---
-Description: This section documents COM interfaces and other C++ constructs for location programming.
+description: This section documents COM interfaces and other C++ constructs for location programming.
 ms.assetid: 98b89224-fa5f-4d7a-952a-fa63ca36493d
 title: Location API C++ Programming Reference
 ms.topic: article

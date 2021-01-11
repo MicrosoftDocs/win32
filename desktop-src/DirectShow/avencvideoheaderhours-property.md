@@ -1,5 +1,5 @@
 ---
-Description: Specifies the starting hour number in the group of pictures (GOP) header.
+description: Specifies the starting hour number in the group of pictures (GOP) header.
 ms.assetid: 94830520-910a-4254-933c-6d95a3f0b6a4
 title: AVEncVideoHeaderHours property (Codecapi.h)
 ms.topic: reference

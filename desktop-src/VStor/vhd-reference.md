@@ -1,5 +1,5 @@
 ---
-Description: 'The following elements are used in Virtual Hard Disk (VHD):'
+description: 'The following elements are used in Virtual Hard Disk (VHD):'
 MS-HAID: vhd.vhd\_reference
 MSHAttr:
 - PreferredSiteName:MSDN

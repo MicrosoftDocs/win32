@@ -1,5 +1,5 @@
 ---
-Description: Reloads an IME configuration from the HKCU registry, in Japanese IME only.
+description: Reloads an IME configuration from the HKCU registry, in Japanese IME only.
 ms.assetid: 171c31ad-c925-4e18-b458-d9abf52dae9a
 title: reload_config function
 ms.topic: reference

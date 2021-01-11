@@ -1,5 +1,5 @@
 ---
-Description: Represents the port offload feature setting data.
+description: Represents the port offload feature setting data.
 ms.assetid: 7b8d8bee-86f3-4c55-bb32-987bf840d995
 title: Msvm_EthernetSwitchPortOffloadSettingData class
 ms.topic: reference

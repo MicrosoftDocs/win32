@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotDisableVersioningException properties"
 title: EsentCannotDisableVersioningException properties
 TOCTitle: EsentCannotDisableVersioningException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCannotDisableVersioningException

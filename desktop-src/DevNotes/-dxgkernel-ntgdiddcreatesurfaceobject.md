@@ -1,5 +1,5 @@
 ---
-Description: Creates a kernel-mode surface object that represents the user-mode surface object referenced by puSurfaceLocal.
+description: Creates a kernel-mode surface object that represents the user-mode surface object referenced by puSurfaceLocal.
 ms.assetid: 1b2886a8-279b-4bec-9fb8-b88a68ded25b
 title: NtGdiDdCreateSurfaceObject function (Ntgdi.h)
 ms.topic: reference

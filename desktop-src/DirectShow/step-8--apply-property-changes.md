@@ -1,5 +1,5 @@
 ---
-Description: Step 8.
+description: Step 8.
 ms.assetid: c54745ef-beeb-40b6-9db6-6e3b5da860f8
 title: Step 8. Apply Property Changes
 ms.topic: article

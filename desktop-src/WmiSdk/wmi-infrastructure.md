@@ -1,5 +1,5 @@
 ---
-Description: In the WMI infrastructure, the WMI service (Winmgmt) is the operating system component that acts as the mediator between management applications and WMI data providers. The WMI repository is a storage area for WMI-related static data.
+description: In the WMI infrastructure, the WMI service (Winmgmt) is the operating system component that acts as the mediator between management applications and WMI data providers. The WMI repository is a storage area for WMI-related static data.
 ms.assetid: 6ef157be-fb75-4453-bc20-4568a3dc18c0
 ms.tgt_platform: multiple
 title: WMI Infrastructure

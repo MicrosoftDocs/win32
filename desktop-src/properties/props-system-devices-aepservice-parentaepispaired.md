@@ -1,5 +1,5 @@
 ---
-Description: Whether the parent Device Association Endpoint is paired with the system or not.
+description: Whether the parent Device Association Endpoint is paired with the system or not.
 ms.assetid: 9ece1167-4fe1-4982-ad20-fbba90abe200
 title: System.Devices.AepService.ParentAepIsPaired
 ms.topic: article

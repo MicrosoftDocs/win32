@@ -1,5 +1,5 @@
 ---
-Description: Directs the MOF compiler to separate a MOF file into language-neutral and language-specific versions.
+description: Directs the MOF compiler to separate a MOF file into language-neutral and language-specific versions.
 ms.assetid: c1aec33c-b936-4cca-8fcd-7bd088af7116
 ms.tgt_platform: multiple
 title: pragma amendment

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ComputerSystemPackage class represents an association that explicitly defines the relationship between unitary computer systems and one or more physical packages.
+description: The CIM\_ComputerSystemPackage class represents an association that explicitly defines the relationship between unitary computer systems and one or more physical packages.
 ms.assetid: a91bf09d-0768-4d2a-a0e5-16237b2e6ddc
 ms.tgt_platform: multiple
 title: CIM_ComputerSystemPackage class

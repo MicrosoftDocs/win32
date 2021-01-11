@@ -1,5 +1,5 @@
 ---
-Description: The get\_InputSize method returns the resizer filter's current input size.
+description: The get\_InputSize method returns the resizer filter's current input size.
 ms.assetid: 7066a044-52ea-4851-83f2-f1fb323c2251
 title: IResize::get_InputSize method (Qedit.h)
 ms.topic: reference

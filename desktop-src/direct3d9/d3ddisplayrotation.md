@@ -1,5 +1,5 @@
 ---
-Description: Specifies how the monitor being used to display a full-screen application is rotated.
+description: Specifies how the monitor being used to display a full-screen application is rotated.
 ms.assetid: 190aa10e-4bf0-45ec-9c07-2582c5536074
 title: D3DDISPLAYROTATION enumeration (D3d9types.h)
 ms.topic: reference

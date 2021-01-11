@@ -1,5 +1,5 @@
 ---
-Description: MSWebDVD Events
+description: MSWebDVD Events
 ms.assetid: e43ea4ad-8ebe-4096-a9f3-a8f618b46877
 title: MSWebDVD Events
 ms.topic: article

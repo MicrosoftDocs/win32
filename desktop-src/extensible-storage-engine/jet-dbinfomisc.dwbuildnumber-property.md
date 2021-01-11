@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.dwBuildNumber property"
 title: JET_DBINFOMISC.dwBuildNumber property 
 TOCTitle: 'dwBuildNumber property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.dwBuildNumber

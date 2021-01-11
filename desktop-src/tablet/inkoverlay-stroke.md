@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the user draws a new stroke on any tablet.
+description: Occurs when the user draws a new stroke on any tablet.
 ms.assetid: 315155ec-0de1-4052-ae7c-51bc3127fbbf
 title: InkOverlay.Stroke event (Msinkaut.h)
 ms.topic: reference

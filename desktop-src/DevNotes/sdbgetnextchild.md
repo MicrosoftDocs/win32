@@ -1,5 +1,5 @@
 ---
-Description: Searches for the next child TAG within the specified parent and returns the TAGID of the next child.
+description: Searches for the next child TAG within the specified parent and returns the TAGID of the next child.
 ms.assetid: c7311f20-15ca-4b2d-a08d-8bb992a3a0cd
 title: SdbGetNextChild function
 ms.topic: reference

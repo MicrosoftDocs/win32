@@ -1,5 +1,5 @@
 ---
-Description: Represents the parameters to set the boot source of a virtual machine.
+description: Represents the parameters to set the boot source of a virtual machine.
 ms.assetid: 21CD4B71-3D05-469E-89BB-DC2C65F5AB10
 title: Msvm_BootSourceSettingData class
 ms.topic: reference

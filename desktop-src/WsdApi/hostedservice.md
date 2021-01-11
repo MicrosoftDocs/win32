@@ -1,5 +1,5 @@
 ---
-Description: Defines a service to be hosted in a host builder function.
+description: Defines a service to be hosted in a host builder function.
 ms.assetid: 87ff447a-ced0-4079-b46d-239f0db37250
 title: hostedService element
 ms.topic: reference

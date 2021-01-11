@@ -1,5 +1,5 @@
 ---
-Description: Specifies types of display modes to filter out.
+description: Specifies types of display modes to filter out.
 ms.assetid: 4a03d0f0-dec5-4209-8c99-b58cc13064f5
 title: D3DDISPLAYMODEFILTER structure (D3d9types.h)
 ms.topic: reference

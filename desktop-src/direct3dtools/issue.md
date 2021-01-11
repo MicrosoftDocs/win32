@@ -1,5 +1,5 @@
 ---
-Description: Represents information about an issue.
+description: Represents information about an issue.
 MS-HAID: vspixengine.Issue
 MSHAttr:
 - PreferredSiteName:MSDN

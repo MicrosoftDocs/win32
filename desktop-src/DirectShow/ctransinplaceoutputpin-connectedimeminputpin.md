@@ -1,5 +1,5 @@
 ---
-Description: The ConnectedIMemInputPin method retrieves a pointer to the downstream input pin. This method returns the CBaseOutputPin::m\_pInputPin member variable.
+description: The ConnectedIMemInputPin method retrieves a pointer to the downstream input pin. This method returns the CBaseOutputPin::m\_pInputPin member variable.
 ms.assetid: 39a12603-7768-43c3-9558-7caaa8f55108
 title: CTransInPlaceOutputPin.ConnectedIMemInputPin method (Transip.h)
 ms.topic: reference

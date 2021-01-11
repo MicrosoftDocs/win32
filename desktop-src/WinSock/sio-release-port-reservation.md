@@ -1,5 +1,5 @@
 ---
-Description: Control code releases a runtime reservation for a block of TCP or UDP ports.
+description: Control code releases a runtime reservation for a block of TCP or UDP ports.
 ms.assetid: 24D67A40-8CE9-4AF1-90BF-599D19C87B89
 title: SIO_RELEASE_PORT_RESERVATION Control Code
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Releases exclusive use of the connected smart card.
+description: Releases exclusive use of the connected smart card.
 ms.assetid: a236743a-1d12-44db-853d-f757f43a7e8f
 title: ISCardManage::SCardUnlock method
 ms.topic: reference

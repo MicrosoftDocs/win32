@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidObjectException methods"
 title: EsentInvalidObjectException methods
 TOCTitle: EsentInvalidObjectException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidObjectException

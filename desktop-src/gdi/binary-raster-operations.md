@@ -1,5 +1,5 @@
 ---
-Description: This section lists the binary raster-operation codes used by the GetROP2 and SetROP2 functions. Raster-operation codes define how GDI combines the bits from the selected pen with the bits in the destination bitmap.
+description: This section lists the binary raster-operation codes used by the GetROP2 and SetROP2 functions. Raster-operation codes define how GDI combines the bits from the selected pen with the bits in the destination bitmap.
 ms.assetid: 9a3a5b5d-b41f-4859-8830-98272983a635
 title: Binary Raster Operations
 ms.topic: article

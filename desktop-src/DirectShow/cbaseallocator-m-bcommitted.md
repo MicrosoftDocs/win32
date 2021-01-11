@@ -1,5 +1,5 @@
 ---
-Description: Flag indicating whether the allocator has been committed.
+description: Flag indicating whether the allocator has been committed.
 ms.assetid: 56cef548-c659-4faa-b45c-de2f8dc2b3ca
 title: CBaseAllocator::m_bCommitted member (Amfilter.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Serves as a parent class for all event-related classes.
+description: Serves as a parent class for all event-related classes.
 ms.assetid: 61ed7984-3036-4b19-a27e-5eb079c5b230
 ms.tgt_platform: multiple
 title: '__IndicationRelated class'

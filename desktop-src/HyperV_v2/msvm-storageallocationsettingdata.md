@@ -1,5 +1,5 @@
 ---
-Description: Represents settings specifically related to the allocation of virtual storage.
+description: Represents settings specifically related to the allocation of virtual storage.
 ms.assetid: de6787c0-9998-4f1d-9715-f0dfa0ff70c6
 title: Msvm_StorageAllocationSettingData class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The IIdentityStore interface exposes the following methods.
+description: The IIdentityStore interface exposes the following methods.
 ms.assetid: A79F8147-E23B-4A3D-ACB7-84D72EE2AF4E
 title: IIdentityStore Methods
 ms.topic: reference

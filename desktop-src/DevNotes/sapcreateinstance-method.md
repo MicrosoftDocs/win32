@@ -1,5 +1,5 @@
 ---
-Description: Creates a communication channel with the secure audio path driver.
+description: Creates a communication channel with the secure audio path driver.
 ms.assetid: D75F2C7F-AFE6-42AF-A8A2-ED7959B14123
 title: SapCreateInstance Method
 ms.topic: reference

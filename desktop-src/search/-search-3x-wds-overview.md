@@ -1,5 +1,5 @@
 ---
-Description: Windows Search is a desktop search platform that has instant search capabilities for most common file types and data types, and third-party developers can extend these capabilities to new file types and data types.
+description: Windows Search is a desktop search platform that has instant search capabilities for most common file types and data types, and third-party developers can extend these capabilities to new file types and data types.
 ms.assetid: 6da601c6-3742-40ad-99f2-8817f7f642b3
 title: Windows Search Overview
 ms.topic: article
@@ -148,7 +148,7 @@ Systems running these operating systems must have Windows Search installed in or
 
 -   For information about creating a Shell data source, see [Implementing the Basic Folder Object Interfaces](/previous-versions//bb776815(v=vs.85)).
 -   For more information about [ISearchFolderItemFactory](/windows/win32/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory) and the DB folder data source, see the description of the STR\_PARSE\_WITH\_PROPERTIES constant in [Bind Context String Keys](../shell/str-constants.md). See also [Association Arrays](/previous-versions/windows/desktop/legacy/ee872122(v=vs.85)) and [IPropertySystem::GetPropertyDescriptionListFromString](/windows/win32/api/propsys/nf-propsys-ipropertysystem-getpropertydescriptionlistfromstring).
--   For information on OLE DB, see [OLE DB Programming Overview](/cpp/data/oledb/ole-db-programming-overview?view=vs-2019). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](/dotnet/api/system.data.oledb?view=dotnet-plat-ext-3.1) documentation.
+-   For information on OLE DB, see [OLE DB Programming Overview](/cpp/data/oledb/ole-db-programming-overview?view=vs-2019). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](/dotnet/api/system.data.oledb?view=dotnet-plat-ext-3.1&preserve-view=true) documentation.
 -   For an overview of file type handlers (also known as Shell extension handlers and Search handlers), see [Windows Search as a Development Platform](-search-3x-wds-development-ovr.md).
 -   For community-supported message boards about Search technologies, see [MSDN Forum: Windows Desktop Search Development](https://social.msdn.microsoft.com/Forums/windowsdesktopsearchdevelopment/threads).
 -   For related code samples, see [Windows Search Code Samples](-search-samples-ovw.md).

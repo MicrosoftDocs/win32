@@ -1,5 +1,5 @@
 ---
-Description: Audio Capture
+description: Audio Capture
 ms.assetid: 2b7fbdcb-7b59-407e-8e82-e66bd5606507
 title: Audio Capture
 ms.topic: article

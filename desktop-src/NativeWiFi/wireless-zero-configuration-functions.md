@@ -1,5 +1,5 @@
 ---
-Description: The following functions enable software developers to use the functionality provided by the Wireless Zero Configuration module.
+description: The following functions enable software developers to use the functionality provided by the Wireless Zero Configuration module.
 ms.assetid: 6e0a2d0f-556a-413d-a607-2e63aec5c790
 title: Wireless Zero Configuration Functions
 ms.topic: article

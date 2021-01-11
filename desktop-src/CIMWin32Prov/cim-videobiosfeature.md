@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_VideoBIOSFeature class represents the capabilities of the low-level software used to configure and access a computer system's video controller and display.
+description: The CIM\_VideoBIOSFeature class represents the capabilities of the low-level software used to configure and access a computer system's video controller and display.
 ms.assetid: a12ca387-5b12-487f-84fd-381afe266338
 ms.tgt_platform: multiple
 title: CIM_VideoBIOSFeature class

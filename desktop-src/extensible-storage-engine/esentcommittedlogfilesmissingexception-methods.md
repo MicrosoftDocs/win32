@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCommittedLogFilesMissingException methods"
 title: EsentCommittedLogFilesMissingException methods
 TOCTitle: EsentCommittedLogFilesMissingException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCommittedLogFilesMissingException

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the highest momentary bit rate in a variable bit rate (VBR) Advanced Systems Format (ASF) file.
+description: Specifies the highest momentary bit rate in a variable bit rate (VBR) Advanced Systems Format (ASF) file.
 ms.assetid: a31f447d-b718-4f8d-b0d5-643497339557
 title: MF_PD_ASF_METADATA_V8_VBRPEAK attribute (Wmcontainer.h)
 ms.topic: reference

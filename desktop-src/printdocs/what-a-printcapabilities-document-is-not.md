@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 87a897cd-d3aa-488a-b129-9837d3500d0d
 title: What a PrintCapabilities Document Is Not
 ms.topic: article

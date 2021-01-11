@@ -1,5 +1,5 @@
 ---
-Description: Over time, different versions may exist for TAPI, applications, and service providers for a line or phone.
+description: Over time, different versions may exist for TAPI, applications, and service providers for a line or phone.
 ms.assetid: 36a17ae8-31db-4db9-a401-097d47aa26ad
 title: TAPI Version Negotiation
 ms.topic: article

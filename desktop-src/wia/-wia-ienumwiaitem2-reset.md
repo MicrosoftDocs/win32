@@ -1,5 +1,5 @@
 ---
-Description: Resets the enumeration reference to the first IWiaItem2 object.
+description: Resets the enumeration reference to the first IWiaItem2 object.
 ms.assetid: 392e3471-f7fc-456f-a1cc-ab4eb6d3fe18
 title: IEnumWiaItem2::Reset method (Wia.h)
 ms.topic: reference

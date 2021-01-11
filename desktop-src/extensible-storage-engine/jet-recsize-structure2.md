@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE structure"
 title: JET_RECSIZE structure (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_RECSIZE structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE

@@ -1,5 +1,5 @@
 ---
-Description: The Extensions object exposes the following properties.
+description: The Extensions object exposes the following properties.
 ms.assetid: 063A4308-834D-4FB9-BC2A-41CCCC3F7351
 title: Extensions Properties
 ms.topic: reference

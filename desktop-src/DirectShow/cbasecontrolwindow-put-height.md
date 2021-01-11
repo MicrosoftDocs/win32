@@ -1,5 +1,5 @@
 ---
-Description: The put\_Height method sets the window height.
+description: The put\_Height method sets the window height.
 ms.assetid: 11026ee5-e83a-4d82-9069-a302d55a2d46
 title: CBaseControlWindow.put_Height method (Ctlutil.h)
 ms.topic: reference

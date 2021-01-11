@@ -1,5 +1,5 @@
 ---
-Description: You can use the properties of the SWbemQualifier object to represent a single qualifier of a WMI class, instance, property, or method parameter. This object cannot be created by the VBScript CreateObject call.
+description: You can use the properties of the SWbemQualifier object to represent a single qualifier of a WMI class, instance, property, or method parameter. This object cannot be created by the VBScript CreateObject call.
 ms.assetid: b5dbe98a-e1d8-4679-a563-c88760d08b79
 ms.tgt_platform: multiple
 title: SWbemQualifier object (Wbemdisp.h)

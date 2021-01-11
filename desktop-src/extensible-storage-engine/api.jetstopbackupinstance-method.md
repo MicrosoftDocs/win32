@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetStopBackupInstance method"
 title: Api.JetStopBackupInstance method 
 TOCTitle: 'JetStopBackupInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetStopBackupInstance(Microsoft.Isam.Esent.Interop.JET_INSTANCE)

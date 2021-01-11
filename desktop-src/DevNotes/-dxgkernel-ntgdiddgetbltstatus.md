@@ -1,5 +1,5 @@
 ---
-Description: Queries the blit status of the specified surface.
+description: Queries the blit status of the specified surface.
 ms.assetid: 0221bdc6-2146-4f4d-afb5-d1f701446d5e
 title: NtGdiDdGetBltStatus function (Ntgdi.h)
 ms.topic: reference

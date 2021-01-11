@@ -1,5 +1,5 @@
 ---
-Description: Sets the video usage for a video encoder.
+description: Sets the video usage for a video encoder.
 ms.assetid: 2A6941A3-CCA0-467C-AC8A-DADC2CD1D405
 title: CODECAPI_AVEncVideoUsage property (Codecapi.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_VideoBIOSFeatureVideoBIOSElements class associates a video BIOS feature and its aggregated video BIOS elements.
+description: The CIM\_VideoBIOSFeatureVideoBIOSElements class associates a video BIOS feature and its aggregated video BIOS elements.
 ms.assetid: f1419505-213f-450e-8c96-45f547dd71da
 ms.tgt_platform: multiple
 title: CIM_VideoBIOSFeatureVideoBIOSElements class

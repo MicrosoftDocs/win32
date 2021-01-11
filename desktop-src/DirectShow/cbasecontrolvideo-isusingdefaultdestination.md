@@ -1,5 +1,5 @@
 ---
-Description: The IsUsingDefaultDestination method determines if the renderer is using the default destination window.
+description: The IsUsingDefaultDestination method determines if the renderer is using the default destination window.
 ms.assetid: 0b956575-4cf0-4f1f-9223-bb1ec3ae8b10
 title: CBaseControlVideo.IsUsingDefaultDestination method (Ctlutil.h)
 ms.topic: reference

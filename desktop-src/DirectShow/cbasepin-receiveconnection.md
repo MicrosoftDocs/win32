@@ -1,5 +1,5 @@
 ---
-Description: The ReceiveConnection method accepts a connection from another pin. This method implements the IPin::ReceiveConnection method.
+description: The ReceiveConnection method accepts a connection from another pin. This method implements the IPin::ReceiveConnection method.
 ms.assetid: f17e7d93-ac45-4b8a-98c6-0c76ec7117c9
 title: CBasePin.ReceiveConnection method (Amfilter.h)
 ms.topic: reference

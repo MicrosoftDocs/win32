@@ -1,5 +1,5 @@
 ---
-Description: The CheckHeaderValidity method validates a BITMAPINFOHEADER structure. This method is useful only for uncompressed RGB types, not for compressed types or YUV types.
+description: The CheckHeaderValidity method validates a BITMAPINFOHEADER structure. This method is useful only for uncompressed RGB types, not for compressed types or YUV types.
 ms.assetid: 24b547b6-b730-48b2-9a1b-6e77f9cb1ce1
 title: CImageDisplay.CheckHeaderValidity method (Winutil.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Keeps track of child requests that are generated from a parent request.
+description: Keeps track of child requests that are generated from a parent request.
 ms.assetid: e1d98eae-6fc1-489b-aa8b-2e86bac5c65a
 ms.tgt_platform: multiple
 title: IWbemCausalityAccess interface (Wbemint.h)

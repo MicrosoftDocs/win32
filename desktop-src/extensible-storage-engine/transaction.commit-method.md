@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Transaction.Commit method"
 title: Transaction.Commit method 
 TOCTitle: 'Commit method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Transaction.Commit

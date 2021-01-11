@@ -1,5 +1,5 @@
 ---
-Description: For an explanation of the following tables, see Tables and Assignments.
+description: For an explanation of the following tables, see Tables and Assignments.
 ms.assetid: 955fb828-4290-4e60-a5db-d3f243b86d8d
 title: Italy
 ms.topic: article

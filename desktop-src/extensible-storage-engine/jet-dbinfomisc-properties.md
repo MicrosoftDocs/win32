@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_DBINFOMISC properties"
 title: JET_DBINFOMISC properties
 TOCTitle: JET_DBINFOMISC properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Instance constructor"
 title: Instance constructor 
 TOCTitle: 'Instance constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Instance.#ctor

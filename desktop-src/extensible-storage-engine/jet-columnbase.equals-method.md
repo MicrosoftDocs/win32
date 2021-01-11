@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNBASE.Equals method"
 title: JET_COLUMNBASE.Equals method 
 TOCTitle: 'Equals method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_COLUMNBASE.Equals

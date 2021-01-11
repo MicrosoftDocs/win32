@@ -1,5 +1,5 @@
 ---
-Description: To distribute an ink-enabled application to computers that are not running either Windows Vista or Windows XP Tablet PC Edition 2005 (that is, computers running Windows XP, Windows Server 2003, or Windows 2000), you must include the necessary merge modules in your setup.
+description: To distribute an ink-enabled application to computers that are not running either Windows Vista or Windows XP Tablet PC Edition 2005 (that is, computers running Windows XP, Windows Server 2003, or Windows 2000), you must include the necessary merge modules in your setup.
 ms.assetid: 97515703-0bf4-4230-ae35-181b48b70c40
 title: Creating a Redistributable Setup
 ms.topic: article

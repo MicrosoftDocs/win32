@@ -1,5 +1,5 @@
 ---
-Description: Rate Control
+description: Rate Control
 ms.assetid: '6529859f-cfb6-4983-a489-bcc2f04e721f'
 title: Rate Control
 ms.topic: article

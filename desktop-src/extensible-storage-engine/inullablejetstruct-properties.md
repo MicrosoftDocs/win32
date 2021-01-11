@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: INullableJetStruct properties"
 title: INullableJetStruct properties
 TOCTitle: INullableJetStruct properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.INullableJetStruct

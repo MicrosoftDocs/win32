@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used in creating and maintaining placeholder files and directories.
+description: The following functions are used in creating and maintaining placeholder files and directories.
 ms.assetid: 68B667E2-E8C6-41F9-A0E2-C8CDF60D6472
 title: Cloud Filter Functions
 ms.topic: article

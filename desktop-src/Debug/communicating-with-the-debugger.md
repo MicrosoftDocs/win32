@@ -1,5 +1,5 @@
 ---
-Description: The OutputDebugString function sends a string from the process being debugged to the debugger by generating an OUTPUT\_DEBUG\_STRING\_EVENT debugging event. A process can detect whether it is being debugged by calling the IsDebuggerPresent function.
+description: The OutputDebugString function sends a string from the process being debugged to the debugger by generating an OUTPUT\_DEBUG\_STRING\_EVENT debugging event. A process can detect whether it is being debugged by calling the IsDebuggerPresent function.
 ms.assetid: d9e1d565-fb76-4d91-8aa7-4ff0ff31f71f
 title: Communicating with the Debugger
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: 'This section contains the following sections:'
+description: 'This section contains the following sections:'
 ms.assetid: 27bd0b8a-fece-4db1-a954-ff91c2a919e6
 title: D3DX Reference (Direct3D 10 Graphics)
 ms.topic: article

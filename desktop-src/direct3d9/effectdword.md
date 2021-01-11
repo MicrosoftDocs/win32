@@ -1,5 +1,5 @@
 ---
-Description: Defines a legacy effect DWORD. This template has been replaced by the EffectParamDWord template.
+description: Defines a legacy effect DWORD. This template has been replaced by the EffectParamDWord template.
 ms.assetid: ef174f2d-0dc3-4c40-a3ae-6d1b2cc03f64
 title: EffectDWord
 ms.topic: reference

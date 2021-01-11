@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC methods"
 title: JET_DBINFOMISC methods
 TOCTitle: JET_DBINFOMISC methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC

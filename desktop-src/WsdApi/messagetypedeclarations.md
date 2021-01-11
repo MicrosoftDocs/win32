@@ -1,5 +1,5 @@
 ---
-Description: Generates C constant declarations for XML schema tables for message types.
+description: Generates C constant declarations for XML schema tables for message types.
 ms.assetid: 17556708-9350-444f-84a3-d982270b31d1
 title: messageTypeDeclarations element
 ms.topic: reference

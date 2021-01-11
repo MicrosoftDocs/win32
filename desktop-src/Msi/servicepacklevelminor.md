@@ -1,5 +1,5 @@
 ---
-Description: The ServicePackLevelMinor property is used in conjunction with the ServicePackLevel property. It holds the minor revision number of the service pack installed on the machine.
+description: The ServicePackLevelMinor property is used in conjunction with the ServicePackLevel property. It holds the minor revision number of the service pack installed on the machine.
 ms.assetid: 74ce5eea-5430-48d3-9640-f23c8bbdc937
 title: ServicePackLevelMinor property
 ms.topic: reference

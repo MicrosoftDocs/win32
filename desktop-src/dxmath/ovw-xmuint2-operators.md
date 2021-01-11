@@ -1,5 +1,5 @@
 ---
-Description: The XMUINT2 structure exposes the following operators.
+description: The XMUINT2 structure exposes the following operators.
 ms.assetid: 2d3596f0-9c01-4b81-b1b1-95c43f0749e1
 title: XMUINT2 Operators
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of vertices (or texels) sampled.
+description: Retrieves the number of vertices (or texels) sampled.
 ms.assetid: fdcb9f09-29fb-409d-b2c0-78ebf311f48b
 title: ID3DXPRTBuffer::GetNumSamples method (D3DX9Mesh.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The SetDeadGWDetect WMI class static method is used to enable dead gateway detection.
+description: The SetDeadGWDetect WMI class static method is used to enable dead gateway detection.
 ms.assetid: c813aaef-7215-4759-b68f-7808fd203d9c
 ms.tgt_platform: multiple
 title: SetDeadGWDetect method of the Win32_NetworkAdapterConfiguration class

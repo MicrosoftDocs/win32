@@ -1,5 +1,5 @@
 ---
-Description: DVD Drive Spin Down Timeout
+description: DVD Drive Spin Down Timeout
 ms.assetid: 2295253d-0199-41b4-95a8-cda049ca93c7
 title: DVD Drive Spin Down Timeout
 ms.topic: article

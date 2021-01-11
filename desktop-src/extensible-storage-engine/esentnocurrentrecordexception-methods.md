@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoCurrentRecordException methods"
 title: EsentNoCurrentRecordException methods
 TOCTitle: EsentNoCurrentRecordException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNoCurrentRecordException

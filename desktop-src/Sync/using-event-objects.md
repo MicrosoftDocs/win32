@@ -1,5 +1,5 @@
 ---
-Description: Applications can use event objects in a number of situations to notify a waiting thread of the occurrence of an event.
+description: Applications can use event objects in a number of situations to notify a waiting thread of the occurrence of an event.
 ms.assetid: f3f455bb-7563-4920-a728-f75fa5854dc9
 title: Using Event Objects (Synchronization)
 ms.topic: article

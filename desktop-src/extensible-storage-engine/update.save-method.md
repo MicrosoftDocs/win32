@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Update.Save method overload list"
 title: Update.Save method 
 TOCTitle: 'Save method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Update.Save

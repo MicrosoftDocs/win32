@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexSegment.ColumnName property"
 title: IndexSegment.ColumnName property 
 TOCTitle: 'ColumnName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexSegment.ColumnName

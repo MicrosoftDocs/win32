@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBackupAbortByServerException methods"
 title: EsentBackupAbortByServerException methods
 TOCTitle: EsentBackupAbortByServerException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBackupAbortByServerException

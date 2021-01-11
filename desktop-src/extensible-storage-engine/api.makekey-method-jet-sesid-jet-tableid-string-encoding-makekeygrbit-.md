@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.MakeKey method (JET_SESID, JET_TABLEID, String, Encoding, MakeKeyGrbit)"
 title: Api.MakeKey method (JET_SESID, JET_TABLEID, String, Encoding, MakeKeyGrbit)
 TOCTitle: MakeKey method (JET_SESID, JET_TABLEID, String, Encoding, MakeKeyGrbit)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.MakeKey(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.String,System.Text.Encoding,Microsoft.Isam.Esent.Interop.MakeKeyGrbit)

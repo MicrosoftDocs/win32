@@ -1,5 +1,5 @@
 ---
-Description: Returns the number of video frames that the encoder received.
+description: Returns the number of video frames that the encoder received.
 ms.assetid: 3de49105-3c74-4a52-9cac-465b4abfcbf5
 title: AVEncStatVideoTotalFrames property (Codecapi.h)
 ms.topic: reference

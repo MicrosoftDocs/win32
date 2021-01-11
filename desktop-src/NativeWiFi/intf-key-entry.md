@@ -1,5 +1,5 @@
 ---
-Description: Stores the key information about a wireless LAN interface managed by the Wireless Configuration Service.
+description: Stores the key information about a wireless LAN interface managed by the Wireless Configuration Service.
 ms.assetid: 5e689fd0-27d9-48eb-8983-96d7918be1cd
 title: INTF_KEY_ENTRY structure (Wzcsapi.h)
 ms.topic: reference

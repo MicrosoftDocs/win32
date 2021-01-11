@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DurableCommitCallback class"
 title: DurableCommitCallback class (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: DurableCommitCallback class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.DurableCommitCallback

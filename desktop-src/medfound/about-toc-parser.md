@@ -1,5 +1,5 @@
 ---
-Description: About Table of Contents Parser
+description: About Table of Contents Parser
 ms.assetid: 128e8532-abae-4db0-877a-01be7a02c20c
 title: About Table of Contents Parser
 ms.topic: article

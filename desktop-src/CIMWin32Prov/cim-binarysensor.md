@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_BinarySensor class provides a Boolean output.
+description: The CIM\_BinarySensor class provides a Boolean output.
 ms.assetid: 51396a51-78ea-4c49-8dcc-7fb815f334ae
 ms.tgt_platform: multiple
 title: CIM_BinarySensor class

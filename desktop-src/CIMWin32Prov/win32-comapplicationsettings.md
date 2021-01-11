@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_COMApplicationSettings association WMI class relates a DCOM application and its configuration settings.
+description: The Win32\_COMApplicationSettings association WMI class relates a DCOM application and its configuration settings.
 ms.assetid: b08eaff1-b42a-42f3-abf7-3664b6195acd
 ms.tgt_platform: multiple
 title: Win32_COMApplicationSettings class

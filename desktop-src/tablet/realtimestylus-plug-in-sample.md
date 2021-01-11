@@ -1,5 +1,5 @@
 ---
-Description: This application demonstrates working with the RealTimeStylus class.
+description: This application demonstrates working with the RealTimeStylus class.
 ms.assetid: 0ba753d1-d81a-4f7a-942c-2967c46febec
 title: RealTimeStylus Plug-in Sample
 ms.topic: article
@@ -99,7 +99,7 @@ private void ModifyPacketData(StylusDataBase data)
 
 The `CustomDynamicRenderer` class also implements the [**IStylusSyncPlugin**](/windows/win32/api/rtscom/nn-rtscom-istylussyncplugin) class to receive pen-input notifications. It then handles the `Packets` notification to draw a small circle around each new packet point.
 
-The class contains a [Graphics](/dotnet/api/system.drawing.graphics?view=dotnet-plat-ext-3.1) variable that holds a reference to the graphics object passed into the class constructor. This is the graphics object used for dynamic rendering.
+The class contains a [Graphics](/dotnet/api/system.drawing.graphics?view=dotnet-plat-ext-3.1&preserve-view=true) variable that holds a reference to the graphics object passed into the class constructor. This is the graphics object used for dynamic rendering.
 
 
 ```C++

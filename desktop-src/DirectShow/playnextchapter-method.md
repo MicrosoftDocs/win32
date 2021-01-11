@@ -1,5 +1,5 @@
 ---
-Description: The PlayNextChapter method starts playback from the next chapter in the current title.
+description: The PlayNextChapter method starts playback from the next chapter in the current title.
 ms.assetid: 982da223-c0f5-4064-b646-5da89df6404f
 title: PlayNextChapter Method
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: NSPGetServiceClassInfo
+description: NSPGetServiceClassInfo
 ms.assetid: 6fbe9c0c-ac1f-4f2b-a542-eae2195b1335
 title: Helper Functions in the SPI
 ms.topic: article

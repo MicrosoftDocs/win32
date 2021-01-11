@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNLIST.columnidgrbit property"
 title: JET_COLUMNLIST.columnidgrbit property 
 TOCTitle: 'columnidgrbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNLIST.columnidgrbit

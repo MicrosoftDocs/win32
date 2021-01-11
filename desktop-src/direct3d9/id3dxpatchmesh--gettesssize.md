@@ -1,5 +1,5 @@
 ---
-Description: Gets the size of the tessellated mesh, given a tessellation level.
+description: Gets the size of the tessellated mesh, given a tessellation level.
 ms.assetid: 86d1d1a0-1934-40e9-bff9-6c435d1e5183
 title: ID3DXPatchMesh::GetTessSize method (D3DX9Mesh.h)
 ms.topic: reference

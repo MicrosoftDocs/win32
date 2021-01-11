@@ -1,5 +1,5 @@
 ---
-Description: The SWbemLocator object exposes the following methods.
+description: The SWbemLocator object exposes the following methods.
 ms.assetid: DA940EDC-5E30-4B59-BBF4-5FA806AD9579
 ms.tgt_platform: multiple
 title: SWbemLocator Methods

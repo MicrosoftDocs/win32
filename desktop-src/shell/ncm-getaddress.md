@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether a network address conforms to a specified type and format.
+description: Indicates whether a network address conforms to a specified type and format.
 title: NCM_GETADDRESS message (Shellapi.h)
 ms.topic: reference
 ms.date: 05/31/2018

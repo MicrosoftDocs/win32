@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLanguageIdException members"
 title: EsentInvalidLanguageIdException members
 TOCTitle: EsentInvalidLanguageIdException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidLanguageIdException

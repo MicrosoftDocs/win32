@@ -1,5 +1,5 @@
 ---
-Description: Because image data transfer is stream-based in Windows Image Acquisition (WIA) 2.0, you do not need to specify a destination type (e.g.
+description: Because image data transfer is stream-based in Windows Image Acquisition (WIA) 2.0, you do not need to specify a destination type (e.g.
 ms.assetid: ebb9fce5-9450-4ffe-b480-b21670b60f90
 title: Transferring Image Data in WIA 2.0
 ms.topic: article

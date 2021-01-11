@@ -1,5 +1,5 @@
 ---
-Description: The GetPrintExecutionData retrieves the current print context.
+description: The GetPrintExecutionData retrieves the current print context.
 ms.assetid: bb9506aa-a0da-46bc-a86a-84a79587cd50
 title: GetPrintExecutionData function (Winspool.h)
 ms.topic: reference

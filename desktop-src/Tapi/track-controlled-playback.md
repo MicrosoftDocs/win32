@@ -1,5 +1,5 @@
 ---
-Description: The following steps are performed for track-controlled playback.
+description: The following steps are performed for track-controlled playback.
 ms.assetid: 9069fb32-3978-491b-bb22-f6e736af23d7
 title: Track-Controlled Playback
 ms.topic: article

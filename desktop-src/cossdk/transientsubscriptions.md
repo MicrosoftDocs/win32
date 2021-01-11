@@ -1,5 +1,5 @@
 ---
-Description: Contains an object for each transient subscription. Transient subscriptions can be created on the fly for running object instances, and they vanish when the object is destroyed.
+description: Contains an object for each transient subscription. Transient subscriptions can be created on the fly for running object instances, and they vanish when the object is destroyed.
 ms.assetid: beee291c-e03f-4ee0-b1f2-99dcf113c46e
 title: TransientSubscriptions collection
 ms.topic: reference

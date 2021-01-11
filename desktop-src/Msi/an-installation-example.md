@@ -1,5 +1,5 @@
 ---
-Description: This example illustrates how to create a simple Windows Installer package that installs an application.
+description: This example illustrates how to create a simple Windows Installer package that installs an application.
 ms.assetid: eee1e3e6-74e9-41d0-b732-1f792a4df423
 title: An Installation Example
 ms.topic: article

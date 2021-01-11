@@ -1,5 +1,5 @@
 ---
-Description: 'The following enumerations are used with memory management:'
+description: 'The following enumerations are used with memory management:'
 ms.assetid: B8CCF4CB-9407-4A96-BDDB-29290AE731F0
 title: Memory Management Enumerations
 ms.topic: article

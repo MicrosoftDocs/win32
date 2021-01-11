@@ -1,5 +1,5 @@
 ---
-Description: The PRINTER\_DEFAULTS structure specifies the default data type, environment, initialization data, and access rights for a printer.
+description: The PRINTER\_DEFAULTS structure specifies the default data type, environment, initialization data, and access rights for a printer.
 ms.assetid: df29c3a6-b1d1-4d40-887d-5ffc032a5871
 title: PRINTER_DEFAULTS structure (Winspool.h)
 ms.topic: reference

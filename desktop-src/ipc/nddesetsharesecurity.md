@@ -1,5 +1,5 @@
 ---
-Description: Sets the security descriptor associated with the DDE share.
+description: Sets the security descriptor associated with the DDE share.
 ms.assetid: 8bb8c466-3dd7-49a6-8ba5-632001b8a47f
 title: NDdeSetShareSecurity function (Nddeapi.h)
 ms.topic: reference

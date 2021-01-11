@@ -1,5 +1,5 @@
 ---
-Description: Not used.
+description: Not used.
 MS-HAID: vspixengine.ISingleEventRequest\_RequestSupportedColumnsAsync\_IFrameEventsCallback\_ptr\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

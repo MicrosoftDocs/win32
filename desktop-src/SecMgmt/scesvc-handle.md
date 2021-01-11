@@ -1,5 +1,5 @@
 ---
-Description: The SCESVC\_HANDLE data type is an opaque handle provided by the Security Configuration tool set.
+description: The SCESVC\_HANDLE data type is an opaque handle provided by the Security Configuration tool set.
 ms.assetid: 478d7d4b-7983-4247-b8be-2e2cd3327533
 title: SCESVC_HANDLE (Scesvc.h)
 ms.topic: reference

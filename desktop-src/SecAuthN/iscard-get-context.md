@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the current resource manager context handle. This method returns (\*pContext) == NULL if no context has been established.
+description: Retrieves the current resource manager context handle. This method returns (\*pContext) == NULL if no context has been established.
 ms.assetid: c031f53d-4670-4d48-934c-a1550f21c23a
 title: ISCard::get_Context method (Scardmgr.h)
 ms.topic: reference

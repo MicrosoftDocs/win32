@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: VistaGrbits members"
 title: VistaGrbits members (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaGrbits members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits

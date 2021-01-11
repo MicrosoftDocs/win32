@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a stylus comes within the digitizer's range of detection.
+description: Occurs when a stylus comes within the digitizer's range of detection.
 ms.assetid: 22be233a-fc33-4a8f-91b6-28b2f2910b69
 title: ITabletEventSink::CursorInRange method
 ms.topic: reference

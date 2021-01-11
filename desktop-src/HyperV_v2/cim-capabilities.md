@@ -1,5 +1,5 @@
 ---
-Description: An abstract class for subclasses that describes the abilities of an associated managed element, and the potential of the abilities.
+description: An abstract class for subclasses that describes the abilities of an associated managed element, and the potential of the abilities.
 ms.assetid: f0ffddf5-99d4-49be-ac0a-c2cfd4a92d96
 title: CIM_Capabilities class
 ms.topic: reference

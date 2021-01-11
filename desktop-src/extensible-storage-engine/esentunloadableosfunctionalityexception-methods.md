@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnloadableOSFunctionalityException methods"
 title: EsentUnloadableOSFunctionalityException methods
 TOCTitle: EsentUnloadableOSFunctionalityException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentUnloadableOSFunctionalityException

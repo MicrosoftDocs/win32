@@ -1,5 +1,5 @@
 ---
-Description: User system policies used with the Windows Installer.
+description: User system policies used with the Windows Installer.
 ms.assetid: 74e940a1-dc7c-4ea3-ab62-d118204dac3e
 title: User Policies
 ms.topic: article

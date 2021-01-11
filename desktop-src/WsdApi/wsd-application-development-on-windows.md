@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Web Services on Devices API (WSDAPI) supports the implementation of client-controlled devices and services, and device hosts conforming to the Devices Profile for Web Services (DPWS).
+description: The Microsoft Web Services on Devices API (WSDAPI) supports the implementation of client-controlled devices and services, and device hosts conforming to the Devices Profile for Web Services (DPWS).
 ms.assetid: 88de8dea-56d5-4bfc-8837-03da81b7d0f9
 title: WSD Application Development on Windows
 ms.topic: article

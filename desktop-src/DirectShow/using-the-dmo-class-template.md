@@ -1,5 +1,5 @@
 ---
-Description: Using the DMO Class Template
+description: Using the DMO Class Template
 ms.assetid: 5193ad08-aaee-47e3-93eb-a126a66d8f23
 title: Using the DMO Class Template
 ms.topic: article

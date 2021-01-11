@@ -1,5 +1,5 @@
 ---
-Description: Specifies which audio channel is mapped to channel N in the encoded audio stream.
+description: Specifies which audio channel is mapped to channel N in the encoded audio stream.
 ms.assetid: 996c97d6-e4c6-4189-89cb-912d28327453
 title: AVEncAudioMapDestChannelN property (Codecapi.h)
 ms.topic: reference

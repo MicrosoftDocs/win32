@@ -1,5 +1,5 @@
 ---
-Description: Loads a skin mesh from a DirectX .x file data object.
+description: Loads a skin mesh from a DirectX .x file data object.
 ms.assetid: db284061-2996-4a5f-972d-24577dd1a6d7
 title: D3DXLoadSkinMeshFromXof function (D3DX9Mesh.h)
 ms.topic: reference

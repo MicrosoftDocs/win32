@@ -1,5 +1,5 @@
 ---
-Description: Removes generic component settings from a virtual system configuration.
+description: Removes generic component settings from a virtual system configuration.
 ms.assetid: 54ddb960-65b7-409d-ad80-f3685562a1a1
 title: RemoveSystemComponentSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference

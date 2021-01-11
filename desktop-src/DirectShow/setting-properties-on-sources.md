@@ -1,5 +1,5 @@
 ---
-Description: Setting Properties on Sources
+description: Setting Properties on Sources
 ms.assetid: fa1c7c40-915b-4577-aa33-6bd06707d93a
 title: Setting Properties on Sources
 ms.topic: article

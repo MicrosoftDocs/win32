@@ -1,5 +1,5 @@
 ---
-Description: Requests to get the raw contents of an object (buffer, texture, render target view, etc.).
+description: Requests to get the raw contents of an object (buffer, texture, render target view, etc.).
 MS-HAID: vspixengine.IBufferObjectDataRequest\_RequestAsync\_EventID\_DWORD\_BSTR\_BSTR\_IBufferObjectDataCallback\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

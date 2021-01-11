@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host of errors returned by the associated request.
+description: A callback that notifies the host of errors returned by the associated request.
 MS-HAID: vspixengine.IPixErrorCallback\_ErrorListCallback\_DWORD\_Issue\_arr\_DWORD\_Issue\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

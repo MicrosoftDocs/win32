@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVEAListZeroAllocationException members"
 title: EsentSLVEAListZeroAllocationException members
 TOCTitle: EsentSLVEAListZeroAllocationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVEAListZeroAllocationException

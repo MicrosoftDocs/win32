@@ -1,5 +1,5 @@
 ---
-Description: The traditional model for multiprocessor support is symmetric multiprocessor (SMP). In this model, each processor has equal access to memory and I/O. As more processors are added, the processor bus becomes a limitation for system performance.
+description: The traditional model for multiprocessor support is symmetric multiprocessor (SMP). In this model, each processor has equal access to memory and I/O. As more processors are added, the processor bus becomes a limitation for system performance.
 ms.assetid: a1263968-2b26-45cc-bdd7-6aa354821a5a
 title: NUMA Support
 ms.topic: article

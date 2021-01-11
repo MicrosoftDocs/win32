@@ -1,5 +1,5 @@
 ---
-Description: Represents an association in which a CIM\_ResourceAllocationSettingData instance is allocated from a resource pool.
+description: Represents an association in which a CIM\_ResourceAllocationSettingData instance is allocated from a resource pool.
 ms.assetid: ca9060e5-4434-4302-a840-a7d9cf5db714
 title: CIM_ResourceAllocationFromPool class
 ms.topic: reference

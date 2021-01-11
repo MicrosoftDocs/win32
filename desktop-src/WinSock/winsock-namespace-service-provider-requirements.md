@@ -1,5 +1,5 @@
 ---
-Description: Navigation page for Windows Sockets (Winsock) namespace service provider requirements.
+description: Navigation page for Windows Sockets (Winsock) namespace service provider requirements.
 ms.assetid: 0a9ed385-0717-4002-8800-fdd44e6f74e1
 title: Winsock Namespace Service Provider Requirements
 ms.topic: article

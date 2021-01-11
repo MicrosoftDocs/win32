@@ -1,5 +1,5 @@
 ---
-Description: The LaunchCondition table is used by the LaunchConditions action. It contains a list of conditions that all must be satisfied for the installation to begin.
+description: The LaunchCondition table is used by the LaunchConditions action. It contains a list of conditions that all must be satisfied for the installation to begin.
 ms.assetid: 6e550cc7-c479-417e-ab89-882d8fece4e1
 title: LaunchCondition Table
 ms.topic: article

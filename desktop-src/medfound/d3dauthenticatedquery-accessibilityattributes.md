@@ -1,5 +1,5 @@
 ---
-Description: Returns the type of I/O bus used to send data to the GPU.
+description: Returns the type of I/O bus used to send data to the GPU.
 ms.assetid: 5a180a5c-6798-40ba-9e2c-ce1f755fcc08
 title: D3DAUTHENTICATEDQUERY_ACCESSIBILITYATTRIBUTES (D3d9types.h)
 ms.topic: reference

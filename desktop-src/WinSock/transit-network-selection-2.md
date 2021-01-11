@@ -1,5 +1,5 @@
 ---
-Description: This section lists values used for the transit network selection.
+description: This section lists values used for the transit network selection.
 ms.assetid: cafb47c0-73ff-47e4-8968-c065c821e646
 title: Transit Network Selection
 ms.topic: article

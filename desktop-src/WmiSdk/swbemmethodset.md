@@ -1,5 +1,5 @@
 ---
-Description: An SWbemMethodSet object is a collection of SWbemMethod objects. Items are retrieved using the Item method. For more information, see Accessing a Collection. This object cannot be created by the VBScript CreateObject call.
+description: An SWbemMethodSet object is a collection of SWbemMethod objects. Items are retrieved using the Item method. For more information, see Accessing a Collection. This object cannot be created by the VBScript CreateObject call.
 ms.assetid: 0ca2601f-ed40-472e-b4f2-eee750c8c8d1
 ms.tgt_platform: multiple
 title: SWbemMethodSet object (Wbemdisp.h)

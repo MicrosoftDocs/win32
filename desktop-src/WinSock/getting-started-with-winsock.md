@@ -1,5 +1,5 @@
 ---
-Description: The following is a step-by-step guide to getting started with Windows Sockets programming.
+description: The following is a step-by-step guide to getting started with Windows Sockets programming.
 ms.assetid: 905cd5bc-44af-4d3f-841a-9e9a2700a785
 title: Getting Started with Winsock
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The GetCutPoint method retrieves the cut point.
+description: The GetCutPoint method retrieves the cut point.
 ms.assetid: f54ef17e-3407-4164-911d-3dc7fad656ed
 title: IAMTimelineTrans::GetCutPoint method (Qedit.h)
 ms.topic: reference

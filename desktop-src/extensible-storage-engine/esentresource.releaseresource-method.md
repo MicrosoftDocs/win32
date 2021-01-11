@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResource.ReleaseResource method"
 title: EsentResource.ReleaseResource method 
 TOCTitle: 'ReleaseResource method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentResource.ReleaseResource

@@ -1,5 +1,5 @@
 ---
-Description: The SetSwapInputs method specifies whether the transition inputs are swapped.
+description: The SetSwapInputs method specifies whether the transition inputs are swapped.
 ms.assetid: c7303302-dbc4-41b6-8049-5c4496ee9264
 title: IAMTimelineTrans::SetSwapInputs method (Qedit.h)
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRedoAbruptEndedException members"
 title: EsentRedoAbruptEndedException members
 TOCTitle: EsentRedoAbruptEndedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRedoAbruptEndedException

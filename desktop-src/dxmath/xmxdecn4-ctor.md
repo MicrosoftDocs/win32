@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMXDECN4.
+description: Constructors exposed by XMXDECN4.
 ms.assetid: 6b8a319d-1ffb-4a19-a27c-a692109a71e2
 title: XMXDECN4 constructors
 ms.topic: reference

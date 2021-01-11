@@ -1,5 +1,5 @@
 ---
-Description: The IUpdate interface defines the following properties.
+description: The IUpdate interface defines the following properties.
 ms.assetid: d87544f1-a107-440f-8ce0-77d9f2d90578
 title: IUpdate Properties
 ms.topic: article

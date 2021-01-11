@@ -1,5 +1,5 @@
 ---
-Description: The FeatureParent property specifies the parent feature of a feature. An empty string for this property indicates the feature has no parent and is a root item.
+description: The FeatureParent property specifies the parent feature of a feature. An empty string for this property indicates the feature has no parent and is a root item.
 ms.assetid: 909341c9-bebf-493a-9d71-cde1399077db
 title: Installer.FeatureParent property
 ms.topic: reference

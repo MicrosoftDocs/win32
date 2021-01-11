@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DoubleColumnValue members"
 title: DoubleColumnValue members
 TOCTitle: DoubleColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.DoubleColumnValue

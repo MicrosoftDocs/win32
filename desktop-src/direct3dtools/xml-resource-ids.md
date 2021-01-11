@@ -1,5 +1,5 @@
 ---
-Description: Resource string ids set by caller to be returned in xml data for visualizing objects.
+description: Resource string ids set by caller to be returned in xml data for visualizing objects.
 MS-HAID: vspixengine.Xml\_Resource\_Ids
 MSHAttr:
 - PreferredSiteName:MSDN

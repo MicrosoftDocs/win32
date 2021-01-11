@@ -1,5 +1,5 @@
 ---
-Description: Sent by a File Manager extension to retrieve drive information from the active File Manager window.
+description: Sent by a File Manager extension to retrieve drive information from the active File Manager window.
 title: FM_GETDRIVEINFO message (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018

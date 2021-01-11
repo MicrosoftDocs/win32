@@ -1,5 +1,5 @@
 ---
-Description: The Stop method stops the current capture.
+description: The Stop method stops the current capture.
 ms.assetid: 3aeeb29e-e174-46a2-82bb-44c466b8db98
 title: IStats::Stop method (Netmon.h)
 ms.topic: reference

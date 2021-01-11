@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PhysicalMemory class represents low-level memory devices, such as SIMMS, DIMMs, raw memory chips, and so on.
+description: The CIM\_PhysicalMemory class represents low-level memory devices, such as SIMMS, DIMMs, raw memory chips, and so on.
 ms.assetid: a25c5f00-cd85-42e6-9b26-8e9380b3c73b
 ms.tgt_platform: multiple
 title: CIM_PhysicalMemory class

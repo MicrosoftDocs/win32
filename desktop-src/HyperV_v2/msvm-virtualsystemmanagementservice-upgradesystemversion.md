@@ -1,5 +1,5 @@
 ---
-Description: Upgrades the virtual system.
+description: Upgrades the virtual system.
 ms.assetid: 4b24aac9-b7b9-460f-9227-fd3c1e960191
 title: UpgradeSystemVersion method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference

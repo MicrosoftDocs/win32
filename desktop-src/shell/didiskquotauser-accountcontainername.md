@@ -1,5 +1,5 @@
 ---
-Description: Gets the name of the user's account container.
+description: Gets the name of the user's account container.
 title: DIDiskQuotaUser.AccountContainerName property
 ms.topic: reference
 ms.date: 05/31/2018

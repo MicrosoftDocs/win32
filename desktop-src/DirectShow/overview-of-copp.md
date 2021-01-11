@@ -1,5 +1,5 @@
 ---
-Description: Overview of COPP
+description: Overview of COPP
 ms.assetid: 4421ab65-e44a-4d1f-8d9b-b187227429c6
 title: Overview of COPP
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: DVD Basics
+description: DVD Basics
 ms.assetid: 08357ff5-4606-4bfc-8dd6-907aca4b5f07
 title: DVD Basics
 ms.topic: article

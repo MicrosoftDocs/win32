@@ -1,5 +1,5 @@
 ---
-Description: Represents a device connected to a computer running on a Microsoft Windows operating system that can produce a printed image or text on paper or other medium.
+description: Represents a device connected to a computer running on a Microsoft Windows operating system that can produce a printed image or text on paper or other medium.
 ms.assetid: 58090e6a-8f13-4859-adb8-a7c6299d3efd
 ms.tgt_platform: multiple
 title: Win32_Printer class

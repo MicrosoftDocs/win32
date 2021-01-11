@@ -1,5 +1,5 @@
 ---
-Description: This topic identifies the constants that WinHTTP uses.
+description: This topic identifies the constants that WinHTTP uses.
 ms.assetid: 460f1463-57a8-47eb-9957-17976757bd7f
 title: WinHTTP Constants
 ms.topic: article

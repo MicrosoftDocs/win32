@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseInvalidNameException class"
 title: EsentDatabaseInvalidNameException class
 TOCTitle: EsentDatabaseInvalidNameException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidNameException

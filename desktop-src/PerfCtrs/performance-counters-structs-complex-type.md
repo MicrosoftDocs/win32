@@ -1,5 +1,5 @@
 ---
-Description: Defines a list of structures that contain counter values.
+description: Defines a list of structures that contain counter values.
 ms.assetid: 6f6b33ed-6440-456c-8379-61a37798c95f
 title: structs Complex Type
 ms.topic: reference

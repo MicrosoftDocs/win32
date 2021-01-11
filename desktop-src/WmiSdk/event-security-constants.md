@@ -1,5 +1,5 @@
 ---
-Description: The following shows the WMI security constants used for events. They are used to set access control entries (ACEs) in security descriptors used for events or sinks.
+description: The following shows the WMI security constants used for events. They are used to set access control entries (ACEs) in security descriptors used for events or sinks.
 ms.assetid: 18318262-d948-4329-8d48-23664798fc58
 ms.tgt_platform: multiple
 title: Event Security Constants (Wbemcli.h)

@@ -1,5 +1,5 @@
 ---
-Description: Specifies access control permissions for a file on a smart card.
+description: Specifies access control permissions for a file on a smart card.
 ms.assetid: 995d959f-30dc-4e5c-be2d-6b447499415a
 title: CARD_FILE_ACCESS_CONDITION enumeration (Cardmod.h)
 ms.topic: reference

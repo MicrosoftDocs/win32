@@ -1,5 +1,5 @@
 ---
-Description: Viewing World Standard Teletext
+description: Viewing World Standard Teletext
 ms.assetid: 99b3395b-8775-4fe8-b173-187fa359978f
 title: Viewing World Standard Teletext
 ms.topic: article

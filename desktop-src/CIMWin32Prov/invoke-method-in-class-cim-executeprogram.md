@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method of the CIM\_ExecuteProgram class takes a particular action. The details of how the method performs the action are implementation specific. This method is inherited from CIM\_Action.
+description: The Invoke method of the CIM\_ExecuteProgram class takes a particular action. The details of how the method performs the action are implementation specific. This method is inherited from CIM\_Action.
 ms.assetid: 14a12fae-14a6-412a-a778-8dd34a5843d1
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_ExecuteProgram class

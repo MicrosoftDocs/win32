@@ -1,5 +1,5 @@
 ---
-Description: The Delete method deletes the attribute at the specified index.
+description: The Delete method deletes the attribute at the specified index.
 ms.assetid: 6bc6f3d2-d630-4a00-9d74-fb5fa7626e3f
 title: ITAttributeList::Delete method (Sdpblb.h)
 ms.topic: reference

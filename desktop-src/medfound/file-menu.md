@@ -1,5 +1,5 @@
 ---
-Description: File Menu
+description: File Menu
 ms.assetid: 1edf2119-facb-4c19-9855-0e3666378abb
 title: File Menu
 ms.topic: article

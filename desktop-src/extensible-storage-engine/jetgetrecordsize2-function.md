@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetRecordSize2 Function"
 title: JetGetRecordSize2 Function
 TOCTitle: JetGetRecordSize2 Function
 ms:assetid: 803cfb4e-44f3-447a-b642-018e6f2f713f

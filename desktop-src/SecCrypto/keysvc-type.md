@@ -1,5 +1,5 @@
 ---
-Description: The KEYSVC\_TYPE enumeration defines whether a key applies to a computer or a service.
+description: The KEYSVC\_TYPE enumeration defines whether a key applies to a computer or a service.
 ms.assetid: 573a412a-1e9d-47ac-bd09-2319d4b9712b
 title: KEYSVC_TYPE enumeration (Rkeysvcc.h)
 ms.topic: reference

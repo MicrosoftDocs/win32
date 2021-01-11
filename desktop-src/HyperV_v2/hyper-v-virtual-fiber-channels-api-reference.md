@@ -1,5 +1,5 @@
 ---
-Description: The Hyper-V virtual Fibre Channel API defines the following programming elements.
+description: The Hyper-V virtual Fibre Channel API defines the following programming elements.
 ms.assetid: B63F0660-4731-405B-9828-C57106E685F8
 title: Hyper-V virtual Fibre Channel API reference
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Searches for the next TAG match within the specified parent and returns the TAGID of the match.
+description: Searches for the next TAG match within the specified parent and returns the TAGID of the match.
 ms.assetid: c96aa1c1-b0e6-49f5-9f74-7d0e050bee3b
 title: SdbFindNextTag function
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The FillBuffer method fills a media sample with data.
+description: The FillBuffer method fills a media sample with data.
 ms.assetid: dddad8c7-44f1-4ba3-8fb1-7e7e88e40941
 title: CSourceStream.FillBuffer method (Source.h)
 ms.topic: reference

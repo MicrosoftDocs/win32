@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCreateInstance2 Function"
 title: JetCreateInstance2 Function
 TOCTitle: JetCreateInstance2 Function
 ms:assetid: 1f894b19-fa15-4d89-a3d1-ee13b346f545

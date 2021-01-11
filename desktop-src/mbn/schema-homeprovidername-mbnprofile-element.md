@@ -1,5 +1,5 @@
 ---
-Description: Identifies the name of Home provider for the given SIM/Device.
+description: Identifies the name of Home provider for the given SIM/Device.
 ms.assetid: 05d65091-5a1d-427a-8f51-1e1b9d189571
 title: HomeProviderName (MBNProfile) Element
 ms.topic: reference

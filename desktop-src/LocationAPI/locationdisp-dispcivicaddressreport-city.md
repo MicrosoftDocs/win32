@@ -1,5 +1,5 @@
 ---
-Description: The city name.
+description: The city name.
 ms.assetid: f072d5a5-4403-4a6f-9fa3-2e3549656972
 title: LocationDisp.DispCivicAddressReport.City property
 ms.topic: reference

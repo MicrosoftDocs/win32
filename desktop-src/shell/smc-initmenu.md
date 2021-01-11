@@ -1,5 +1,5 @@
 ---
-Description: Notifies you to initialize the menu band.
+description: Notifies you to initialize the menu band.
 title: SMC_INITMENU message (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018

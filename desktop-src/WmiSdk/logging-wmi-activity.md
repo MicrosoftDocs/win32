@@ -1,5 +1,5 @@
 ---
-Description: The WMI log files are no longer supported.
+description: The WMI log files are no longer supported.
 ms.assetid: 4ba80063-7aa6-42df-a620-1b366b795034
 ms.tgt_platform: multiple
 title: Logging WMI Activity

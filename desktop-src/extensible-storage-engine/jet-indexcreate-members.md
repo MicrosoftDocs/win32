@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE members"
 title: JET_INDEXCREATE members
 TOCTitle: JET_INDEXCREATE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE

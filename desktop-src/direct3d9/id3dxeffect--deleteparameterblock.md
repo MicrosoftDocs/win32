@@ -1,5 +1,5 @@
 ---
-Description: Delete a parameter block.
+description: Delete a parameter block.
 ms.assetid: 5502dabc-1703-481b-a69d-f6bd8fd01d20
 title: ID3DXEffect::DeleteParameterBlock method (D3DX9Effect.h)
 ms.topic: reference

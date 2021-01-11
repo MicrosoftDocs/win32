@@ -1,5 +1,5 @@
 ---
-Description: Sent to an extension DLL when File Manager is unloading the DLL.
+description: Sent to an extension DLL when File Manager is unloading the DLL.
 title: FMEVENT_UNLOAD message (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018

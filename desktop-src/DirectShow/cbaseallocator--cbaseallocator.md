@@ -1,5 +1,5 @@
 ---
-Description: Destructor method.
+description: Destructor method.
 ms.assetid: b1e5653f-d72f-4cde-a8c9-d25763434374
 title: CBaseAllocator.~CBaseAllocator destructor (Amfilter.h)
 ms.topic: reference

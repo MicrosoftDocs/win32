@@ -1,5 +1,5 @@
 ---
-Description: Represents a job created with the AT command.
+description: Represents a job created with the AT command.
 ms.assetid: 2fa69e3f-9a6c-4aa9-8a6c-ea28eb4342ca
 ms.tgt_platform: multiple
 title: Win32_ScheduledJob class

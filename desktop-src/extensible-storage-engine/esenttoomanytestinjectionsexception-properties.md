@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyTestInjectionsException properties"
 title: EsentTooManyTestInjectionsException properties
 TOCTitle: EsentTooManyTestInjectionsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManyTestInjectionsException

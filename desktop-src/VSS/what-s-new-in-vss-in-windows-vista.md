@@ -1,5 +1,5 @@
 ---
-Description: Windows Vista.
+description: Windows Vista.
 ms.assetid: 3b16744d-b9c2-4462-a409-de94d9103c39
 title: What's New in VSS in Windows Vista
 ms.topic: article

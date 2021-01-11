@@ -1,5 +1,5 @@
 ---
-Description: Begins the process of canceling a pending asynchronous search.
+description: Begins the process of canceling a pending asynchronous search.
 title: IShellFolderSearchable::CancelAsyncSearch method
 ms.topic: reference
 ms.date: 05/31/2018

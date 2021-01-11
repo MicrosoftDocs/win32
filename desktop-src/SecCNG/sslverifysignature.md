@@ -1,5 +1,5 @@
 ---
-Description: Verifies the specified signature by using the supplied hash and the public key.
+description: Verifies the specified signature by using the supplied hash and the public key.
 ms.assetid: fa274851-15f2-4be0-9e2f-4cdced36daff
 title: SslVerifySignature function (Sslprovider.h)
 ms.topic: reference

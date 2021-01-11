@@ -1,5 +1,5 @@
 ---
-Description: 'Error messages returned by protocol handlers:'
+description: 'Error messages returned by protocol handlers:'
 ms.assetid: b5e99ad1-1698-483c-8173-796af33085c4
 title: Search Protocol Handler Error Messages (Searchapi.h)
 ms.topic: reference

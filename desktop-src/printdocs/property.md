@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 14631336-adfc-4edf-81ef-63e426d41c87
 title: Property (Documents and Printing)
 ms.topic: article

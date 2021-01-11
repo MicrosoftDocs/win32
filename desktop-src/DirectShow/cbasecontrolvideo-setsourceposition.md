@@ -1,5 +1,5 @@
 ---
-Description: The SetSourcePosition method sets a new source position for the video.
+description: The SetSourcePosition method sets a new source position for the video.
 ms.assetid: e3c9ce31-9c24-4ef5-9526-ef6b890f5109
 title: CBaseControlVideo.SetSourcePosition method (Ctlutil.h)
 ms.topic: reference

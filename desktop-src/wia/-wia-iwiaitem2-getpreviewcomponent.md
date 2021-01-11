@@ -1,5 +1,5 @@
 ---
-Description: Gets the Windows Image Acquisition (WIA) 2.0 preview component.
+description: Gets the Windows Image Acquisition (WIA) 2.0 preview component.
 ms.assetid: 0b773c4c-f080-41fa-8902-4243a80fc67c
 title: IWiaItem2::GetPreviewComponent method (Wia.h)
 ms.topic: reference

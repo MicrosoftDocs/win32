@@ -1,5 +1,5 @@
 ---
-Description: Event identifiers uniquely identify a particular event.
+description: Event identifiers uniquely identify a particular event.
 ms.assetid: 83a84db4-572b-48bd-bc0f-071b2089a5ca
 title: Event Identifiers (Event Logging)
 ms.topic: article

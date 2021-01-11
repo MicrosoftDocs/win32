@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCheckpointCorruptException members"
 title: EsentCheckpointCorruptException members
 TOCTitle: EsentCheckpointCorruptException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCheckpointCorruptException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFatalException members"
 title: EsentFatalException members
 TOCTitle: EsentFatalException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFatalException

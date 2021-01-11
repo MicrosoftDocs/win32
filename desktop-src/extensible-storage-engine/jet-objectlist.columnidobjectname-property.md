@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTLIST.columnidobjectname property"
 title: JET_OBJECTLIST.columnidobjectname property 
 TOCTitle: 'columnidobjectname property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_OBJECTLIST.columnidobjectname

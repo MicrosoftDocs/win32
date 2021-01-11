@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_ProtocolBinding association WMI class relates a system-level driver, network protocol, and network adapter.
+description: The Win32\_ProtocolBinding association WMI class relates a system-level driver, network protocol, and network adapter.
 ms.assetid: 09b84bb2-9999-4e80-a330-88ed6b2bd5e9
 ms.tgt_platform: multiple
 title: Win32_ProtocolBinding class

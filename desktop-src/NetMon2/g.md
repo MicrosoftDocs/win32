@@ -1,5 +1,5 @@
 ---
-Description: Glossary of Network Monitor terms that begin with the letter G.
+description: Glossary of Network Monitor terms that begin with the letter G.
 ROBOTS: NOINDEX, NOFOLLOW
 title: G (Network Monitor)
 ms.topic: article

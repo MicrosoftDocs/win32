@@ -1,5 +1,5 @@
 ---
-Description: Retrieves DDE share information. This is usually done for editing.
+description: Retrieves DDE share information. This is usually done for editing.
 ms.assetid: a2e48a4d-2b72-40a3-b827-474da1db0910
 title: NDdeShareGetInfo function (Nddeapi.h)
 ms.topic: reference

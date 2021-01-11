@@ -1,5 +1,5 @@
 ---
-Description: Decrypts a message by using NTLM.
+description: Decrypts a message by using NTLM.
 ms.assetid: 44c63152-507d-4769-9c0c-d275d2b0deac
 title: DecryptMessage (NTLM) function
 ms.topic: reference

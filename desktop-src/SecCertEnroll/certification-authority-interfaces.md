@@ -1,5 +1,5 @@
 ---
-Description: The following interfaces can be used to retrieve property values from a certification authority.
+description: The following interfaces can be used to retrieve property values from a certification authority.
 ms.assetid: f2c3252c-e445-4c05-a8b1-800d656a740f
 title: Certification Authority Interfaces
 ms.topic: article

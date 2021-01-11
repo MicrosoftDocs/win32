@@ -1,5 +1,5 @@
 ---
-Description: TAPI 3 supports integration of service provider-specific interfaces into the standard objects, allowing applications to take advantage of provider-specific functionality.
+description: TAPI 3 supports integration of service provider-specific interfaces into the standard objects, allowing applications to take advantage of provider-specific functionality.
 ms.assetid: 8077c9a7-3235-41a7-97dc-ca5f3c291ee6
 title: Provider-Specific Interfaces
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The following list contains the CMSPCallMultiGraph MSPI methods.
+description: The following list contains the CMSPCallMultiGraph MSPI methods.
 ms.assetid: 340b3d46-8a60-4d55-81a6-bd47431fae59
 title: CMSPCallMultiGraph MSPI Methods Implemented
 ms.topic: article

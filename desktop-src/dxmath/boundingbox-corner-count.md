@@ -1,5 +1,5 @@
 ---
-Description: The number of points defining the BoundingBox.
+description: The number of points defining the BoundingBox.
 ms.assetid: a73c44f8-14f9-47aa-b02b-31dcd34cd6c5
 title: BoundingBox.CORNER_COUNT (DirectXCollision.h)
 ms.topic: reference

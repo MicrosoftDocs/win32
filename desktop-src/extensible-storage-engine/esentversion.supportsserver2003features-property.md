@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersion.SupportsServer2003Features property"
 title: EsentVersion.SupportsServer2003Features property 
 TOCTitle: 'SupportsServer2003Features property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentVersion.SupportsServer2003Features

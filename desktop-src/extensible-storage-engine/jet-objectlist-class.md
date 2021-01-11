@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTLIST class"
 title: JET_OBJECTLIST class
 TOCTitle: JET_OBJECTLIST class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_OBJECTLIST

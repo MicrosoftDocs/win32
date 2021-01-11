@@ -1,5 +1,5 @@
 ---
-Description: Returns the maximum rate at which a decoder can process data. The value of this property is the decoder's maximum playback speed x 10000. For example, if the maximum forward speed is 2.0, the value of this property is 20000.
+description: Returns the maximum rate at which a decoder can process data. The value of this property is the decoder's maximum playback speed x 10000. For example, if the maximum forward speed is 2.0, the value of this property is 20000.
 ms.assetid: 66e6885b-7ad7-4912-85e4-ea36855bfde6
 title: AM_RATE_MaxFullDataRate Property (Dvdmedia.h)
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Table members"
 title: Table members
 TOCTitle: Table members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Table

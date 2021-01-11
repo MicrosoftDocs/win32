@@ -1,5 +1,5 @@
 ---
-Description: There are several ways to use Windows Search to query the index.
+description: There are several ways to use Windows Search to query the index.
 ms.assetid: 2c161b7f-4e28-4e8a-add6-3c1cda00a622
 title: Querying the Index Programmatically
 ms.topic: article

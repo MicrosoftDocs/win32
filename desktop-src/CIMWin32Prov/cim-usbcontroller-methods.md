@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_USBController class exposes the following methods.
+description: The CIM\_USBController class exposes the following methods.
 ms.assetid: CDB201A8-7521-4E4B-9B99-59277310ADC6
 ms.tgt_platform: multiple
 title: CIM_USBController Methods

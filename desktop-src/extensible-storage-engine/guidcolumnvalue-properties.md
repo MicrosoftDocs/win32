@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: GuidColumnValue properties"
 title: GuidColumnValue properties
 TOCTitle: GuidColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.GuidColumnValue

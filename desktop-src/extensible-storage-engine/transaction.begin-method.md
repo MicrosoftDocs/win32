@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction.Begin method"
 title: Transaction.Begin method 
 TOCTitle: 'Begin method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Transaction.Begin

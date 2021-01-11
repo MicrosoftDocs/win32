@@ -1,5 +1,5 @@
 ---
-Description: Deletes the logical shortcut file (or directory) specified in the object path.
+description: Deletes the logical shortcut file (or directory) specified in the object path.
 ms.assetid: 278cd856-bb8d-4494-b43c-f0858366e136
 ms.tgt_platform: multiple
 title: DeleteEx method of the Win32_ShortcutFile class

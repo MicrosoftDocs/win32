@@ -1,5 +1,5 @@
 ---
-Description: Updates the initial state of an object; for example, a texture or shader.
+description: Updates the initial state of an object; for example, a texture or shader.
 MS-HAID: vspixengine.IPixEngine4\_UpdateObject\_UINT\_DWORD\_BYTE\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

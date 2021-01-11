@@ -1,5 +1,5 @@
 ---
-Description: Called by the compiler to implement structured exception handling extensions.
+description: Called by the compiler to implement structured exception handling extensions.
 ms.assetid: 6EAE0B4E-35E1-48EB-A8A9-0C1DC5387B03
 title: '__C_specific_handler function' (Wdm.h)
 ms.topic: reference

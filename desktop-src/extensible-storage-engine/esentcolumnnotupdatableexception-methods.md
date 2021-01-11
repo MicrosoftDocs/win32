@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnNotUpdatableException methods"
 title: EsentColumnNotUpdatableException methods
 TOCTitle: EsentColumnNotUpdatableException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentColumnNotUpdatableException

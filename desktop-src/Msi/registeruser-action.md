@@ -1,5 +1,5 @@
 ---
-Description: The RegisterUser action registers the user information with the installer to identify the user of a product.
+description: The RegisterUser action registers the user information with the installer to identify the user of a product.
 ms.assetid: da615cb4-d36d-4180-8f97-c9f83c0df1c6
 title: RegisterUser Action
 ms.topic: article

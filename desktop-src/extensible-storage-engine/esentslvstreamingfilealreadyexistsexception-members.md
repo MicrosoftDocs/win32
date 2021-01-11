@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileAlreadyExistsException members"
 title: EsentSLVStreamingFileAlreadyExistsException members
 TOCTitle: EsentSLVStreamingFileAlreadyExistsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileAlreadyExistsException

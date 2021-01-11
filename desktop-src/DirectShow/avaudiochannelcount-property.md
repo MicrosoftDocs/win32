@@ -1,5 +1,5 @@
 ---
-Description: Gets the number of channels in the audio bit stream.
+description: Gets the number of channels in the audio bit stream.
 ms.assetid: e395ce9c-3f11-41e9-8c8c-48c17b217ebc
 title: AVAudioChannelCount property (Codecapi.h)
 ms.topic: reference

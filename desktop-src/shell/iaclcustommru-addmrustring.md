@@ -1,5 +1,5 @@
 ---
-Description: Adds an entry to the most recently used (MRU) list.
+description: Adds an entry to the most recently used (MRU) list.
 title: IACLCustomMRU::AddMRUString method
 ms.topic: reference
 ms.date: 05/31/2018

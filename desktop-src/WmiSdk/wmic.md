@@ -1,5 +1,5 @@
 ---
-Description: The WMI command-line (WMIC) utility provides a command-line interface for WMI.
+description: The WMI command-line (WMIC) utility provides a command-line interface for WMI.
 ms.assetid: a0f5c1e2-9a4d-4c2b-b324-58ec01e67b6e
 ms.tgt_platform: multiple
 title: wmic

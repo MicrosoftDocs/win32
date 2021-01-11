@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE members"
 title: JET_RECSIZE members (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_RECSIZE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE

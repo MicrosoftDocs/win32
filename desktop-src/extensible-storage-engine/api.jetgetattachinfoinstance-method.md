@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetGetAttachInfoInstance method"
 title: Api.JetGetAttachInfoInstance method 
 TOCTitle: 'JetGetAttachInfoInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetAttachInfoInstance(Microsoft.Isam.Esent.Interop.JET_INSTANCE,System.String@,System.Int32,System.Int32@)

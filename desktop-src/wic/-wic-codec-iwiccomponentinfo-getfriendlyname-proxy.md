@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetFriendlyName method.
+description: Proxy function for the GetFriendlyName method.
 ms.assetid: 8ac8f954-c2b9-47a2-88fe-b56710b5630c
 title: IWICComponentInfo_GetFriendlyName_Proxy function
 ms.topic: reference

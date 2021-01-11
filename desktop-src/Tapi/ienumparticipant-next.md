@@ -1,5 +1,5 @@
 ---
-Description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
+description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 ms.assetid: bd94f592-ac6f-48b7-8190-352a5e18f224
 title: IEnumParticipant::Next method (Confpriv.h)
 ms.topic: reference

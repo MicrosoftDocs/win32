@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Extensible Storage Engine Files"
 title: Extensible Storage Engine Files
 TOCTitle: Extensible Storage Engine Files
 ms:assetid: b89a8f78-f2c4-4cbf-a000-a95c34589033

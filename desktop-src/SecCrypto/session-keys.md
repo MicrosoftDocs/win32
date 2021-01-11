@@ -1,5 +1,5 @@
 ---
-Description: Session keys are keys that are generated to be used in a single communication session.
+description: Session keys are keys that are generated to be used in a single communication session.
 ms.assetid: 18bf2023-084d-400d-b60d-1ba51ce6a2bc
 title: Session Keys
 ms.topic: article

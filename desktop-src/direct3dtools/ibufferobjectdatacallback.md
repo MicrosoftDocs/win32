@@ -1,5 +1,5 @@
 ---
-Description: Callback to return the contents of an object in buffer form for those that support it (buffers, textures).
+description: Callback to return the contents of an object in buffer form for those that support it (buffers, textures).
 MS-HAID: vspixengine.IBufferObjectDataCallback
 MSHAttr:
 - PreferredSiteName:MSDN

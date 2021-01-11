@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidTableIdException constructor"
 title: EsentInvalidTableIdException constructor 
 TOCTitle: 'EsentInvalidTableIdException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidTableIdException.#ctor

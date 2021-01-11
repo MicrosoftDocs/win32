@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the user presses a key while the InkEdit control has focus.
+description: Occurs when the user presses a key while the InkEdit control has focus.
 ms.assetid: 14b05b72-ae5d-416a-8ea5-9d9716c0967f
 title: InkEdit.KeyDown event (Inked.h)
 ms.topic: reference

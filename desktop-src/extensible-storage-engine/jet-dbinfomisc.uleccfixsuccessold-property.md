@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.ulECCFixSuccessOld property"
 title: JET_DBINFOMISC.ulECCFixSuccessOld property 
 TOCTitle: 'ulECCFixSuccessOld property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.ulECCFixSuccessOld

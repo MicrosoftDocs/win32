@@ -1,5 +1,5 @@
 ---
-Description: Specifies the length of time, in seconds, in which a client will not re-attempt authentication after a failed authentication attempt.
+description: Specifies the length of time, in seconds, in which a client will not re-attempt authentication after a failed authentication attempt.
 ms.assetid: a6b32e88-da36-4aea-a01d-f5f7bc37d171
 title: heldPeriod (OneX) Element
 ms.topic: reference

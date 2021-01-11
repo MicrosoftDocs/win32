@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersionStoreOutOfMemoryAndCleanupTimedOutException methods"
 title: EsentVersionStoreOutOfMemoryAndCleanupTimedOutException methods
 TOCTitle: EsentVersionStoreOutOfMemoryAndCleanupTimedOutException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentVersionStoreOutOfMemoryAndCleanupTimedOutException

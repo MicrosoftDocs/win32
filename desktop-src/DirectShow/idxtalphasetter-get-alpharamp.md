@@ -1,5 +1,5 @@
 ---
-Description: The get\_AlphaRamp method retrieves the alpha ramp property. The alpha ramp is the percentage by which the alpha values in the original image are adjusted. For example, if the alpha ramp is 0.5, the alpha values in the image are reduced 50%.
+description: The get\_AlphaRamp method retrieves the alpha ramp property. The alpha ramp is the percentage by which the alpha values in the original image are adjusted. For example, if the alpha ramp is 0.5, the alpha values in the image are reduced 50%.
 ms.assetid: e142a562-2e78-4418-94e9-b41320d4af57
 title: IDxtAlphaSetter::get_AlphaRamp method (Qedit.h)
 ms.topic: reference

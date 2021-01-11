@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Reading Data from the Database"
 title: Reading Data from the Database
 TOCTitle: Reading Data from the Database
 ms:assetid: c3c48918-ccd6-4c34-849c-93bd7533ce92

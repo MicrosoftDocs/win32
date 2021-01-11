@@ -1,5 +1,5 @@
 ---
-Description: The GetGuidValue method retrieves a GUID value (type VT\_CLSID) specified by a key.
+description: The GetGuidValue method retrieves a GUID value (type VT\_CLSID) specified by a key.
 ms.assetid: 1cfa75e8-2c3b-4893-954e-dae25a6b8220
 title: IPortableDeviceValues::GetGuidValue method (PortableDeviceTypes.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: About VDS
+description: About VDS
 ms.assetid: b2f7628c-b567-40a9-9ad7-6c47077af5fb
 title: About VDS
 ms.topic: article

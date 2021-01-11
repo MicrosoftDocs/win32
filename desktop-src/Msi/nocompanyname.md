@@ -1,5 +1,5 @@
 ---
-Description: Set the NOCOMPANYNAME property to 1 to suppress the automatic setting of the COMPANYNAME property by the installer. This property is used by applications that need to collect the company name at the first-run.
+description: Set the NOCOMPANYNAME property to 1 to suppress the automatic setting of the COMPANYNAME property by the installer. This property is used by applications that need to collect the company name at the first-run.
 ms.assetid: 257d5082-6a40-4f32-abcb-23269c49091c
 title: NOCOMPANYNAME property
 ms.topic: reference

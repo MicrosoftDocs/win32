@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDiskReadVerificationFailureException properties"
 title: EsentDiskReadVerificationFailureException properties
 TOCTitle: EsentDiskReadVerificationFailureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDiskReadVerificationFailureException

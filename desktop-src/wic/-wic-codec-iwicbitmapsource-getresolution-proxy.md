@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetResolution method.
+description: Proxy function for the GetResolution method.
 ms.assetid: 5e261c2b-534a-4875-a84f-7251d54f15c6
 title: IWICBitmapSource_GetResolution_Proxy function
 ms.topic: reference

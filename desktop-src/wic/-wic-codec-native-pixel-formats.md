@@ -1,5 +1,5 @@
 ---
-Description: This topic introduces the pixel formats provided by the Windows Imaging Component (WIC).
+description: This topic introduces the pixel formats provided by the Windows Imaging Component (WIC).
 ms.assetid: 348b6d15-e339-4dce-99f3-4d639ee9bf7d
 title: Native Pixel Formats Overview
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Querying for Seeking Capabilities
+description: Querying for Seeking Capabilities
 ms.assetid: d1d8c708-75f2-4dc7-a33a-8dd2cea0ee00
 title: Querying for Seeking Capabilities
 ms.topic: article

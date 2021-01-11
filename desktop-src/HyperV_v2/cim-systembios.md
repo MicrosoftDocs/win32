@@ -1,5 +1,5 @@
 ---
-Description: Associates a BIOS with a computer system.
+description: Associates a BIOS with a computer system.
 ms.assetid: a06af789-75c8-4d58-8a25-572dcf1091e2
 title: CIM_SystemBIOS class
 ms.topic: reference

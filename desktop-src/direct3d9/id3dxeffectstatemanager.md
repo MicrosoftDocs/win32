@@ -1,5 +1,5 @@
 ---
-Description: This is a user-implemented interface that allows a user to set the device state from an effect.
+description: This is a user-implemented interface that allows a user to set the device state from an effect.
 ms.assetid: ccd3e456-e27b-4128-b20b-99ff8dafcbe1
 title: ID3DXEffectStateManager interface (D3DX9Effect.h)
 ms.topic: reference

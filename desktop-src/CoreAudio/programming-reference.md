@@ -1,5 +1,5 @@
 ---
-Description: Programming Reference
+description: Programming Reference
 ms.assetid: 80a0df34-5f67-4f61-b9c7-a586d1870765
 title: Core Audio Programming Reference
 ms.topic: article

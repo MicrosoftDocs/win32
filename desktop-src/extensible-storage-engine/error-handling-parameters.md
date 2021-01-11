@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error Handling Parameters"
 title: Error Handling Parameters
 TOCTitle: Error Handling Parameters
 ms:assetid: 014996a1-5674-40c7-9538-54cae1681fec

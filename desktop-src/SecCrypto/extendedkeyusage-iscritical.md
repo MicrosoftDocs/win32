@@ -1,5 +1,5 @@
 ---
-Description: Returns a Boolean value that indicates whether the EKU extension is marked critical.
+description: Returns a Boolean value that indicates whether the EKU extension is marked critical.
 ms.assetid: f6d2a2e0-512b-44f2-a7d9-9ad661398aa8
 title: ExtendedKeyUsage.IsCritical property
 ms.topic: reference

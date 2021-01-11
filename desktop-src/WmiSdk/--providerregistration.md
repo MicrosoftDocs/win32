@@ -1,5 +1,5 @@
 ---
-Description: Serves as the parent class for registration classes for various types of providers.
+description: Serves as the parent class for registration classes for various types of providers.
 ms.assetid: 1e5d95cb-0961-4be8-b80a-37b598c9ccfe
 ms.tgt_platform: multiple
 title: '__ProviderRegistration class'

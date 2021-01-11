@@ -1,5 +1,5 @@
 ---
-Description: Home address postal code of the contact.
+description: Home address postal code of the contact.
 ms.assetid: 2ef7dc36-8058-4ec3-99ef-8d732fe73858
 title: System.Contact.HomeAddressPostalCode
 ms.topic: article

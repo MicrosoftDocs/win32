@@ -1,5 +1,5 @@
 ---
-Description: Defines a string type for either the name or the description of a wireless LAN policy profile.
+description: Defines a string type for either the name or the description of a wireless LAN policy profile.
 ms.assetid: a01e8789-3401-4e58-b733-2ec95fc895b6
 title: nameType Simple Type (LAN_policy)
 ms.topic: reference

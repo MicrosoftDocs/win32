@@ -1,5 +1,5 @@
 ---
-Description: An opportunistic lock (also called an oplock) is a lock placed by a client on a file residing on a server.
+description: An opportunistic lock (also called an oplock) is a lock placed by a client on a file residing on a server.
 ms.assetid: 'b4c2f5f0-a29b-4598-a49b-da99e93d2991'
 title: Opportunistic Locks
 ms.topic: article

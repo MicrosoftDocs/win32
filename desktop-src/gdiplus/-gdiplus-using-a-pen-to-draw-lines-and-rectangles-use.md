@@ -1,5 +1,5 @@
 ---
-Description: To draw lines and rectangles, you need a Graphics object and a Pen object. The Graphics object provides the DrawLine method, and the Pen object stores features of the line, such as color and width.
+description: To draw lines and rectangles, you need a Graphics object and a Pen object. The Graphics object provides the DrawLine method, and the Pen object stores features of the line, such as color and width.
 ms.assetid: f2e4144f-f2f1-49db-bfdf-ffce3023b4cb
 title: Using a Pen to Draw Lines and Rectangles
 ms.topic: article

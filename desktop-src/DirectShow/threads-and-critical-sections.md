@@ -1,5 +1,5 @@
 ---
-Description: Threads and Critical Sections
+description: Threads and Critical Sections
 ms.assetid: e55acb06-03f4-4191-bffe-3196f41ef2c7
 title: Threads and Critical Sections
 ms.topic: article

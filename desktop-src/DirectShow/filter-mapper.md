@@ -1,5 +1,5 @@
 ---
-Description: Filter Mapper
+description: Filter Mapper
 ms.assetid: cb8f25b3-a0f0-48fa-843f-88a5a5d17019
 title: Filter Mapper
 ms.topic: article

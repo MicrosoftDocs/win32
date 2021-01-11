@@ -1,5 +1,5 @@
 ---
-Description: Control code associates a socket with a persistent or runtime reservation for a block of TCP or UDP identified by the port reservation token.
+description: Control code associates a socket with a persistent or runtime reservation for a block of TCP or UDP identified by the port reservation token.
 ms.assetid: 4CBFB5F8-1FA1-44BA-9932-6F0329A465CB
 title: SIO_ASSOCIATE_PORT_RESERVATION Control Code
 ms.topic: reference

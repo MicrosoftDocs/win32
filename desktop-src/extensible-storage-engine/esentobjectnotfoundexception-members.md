@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentObjectNotFoundException members"
 title: EsentObjectNotFoundException members
 TOCTitle: EsentObjectNotFoundException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentObjectNotFoundException

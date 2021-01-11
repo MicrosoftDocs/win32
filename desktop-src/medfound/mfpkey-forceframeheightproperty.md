@@ -1,5 +1,5 @@
 ---
-Description: Specifies an intermediate frame height for encoded video.
+description: Specifies an intermediate frame height for encoded video.
 ms.assetid: 7382ec31-6d59-4e8c-94eb-804786074038
 title: MFPKEY_FORCEFRAMEHEIGHT Property (Wmcodecdsp.h)
 ms.topic: reference

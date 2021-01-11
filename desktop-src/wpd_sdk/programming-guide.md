@@ -1,6 +1,6 @@
 ---
 title: WPD programming guide
-Description: Programming Guide
+description: Programming Guide
 ms.assetid: 87777b0b-a7a0-4032-99bb-92b717d3c452
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: Describes the basic syntax of a SELECT statement for event queries.
+description: Describes the basic syntax of a SELECT statement for event queries.
 ms.assetid: 8882fdcb-3768-41e3-82ab-3006d903f3a0
 ms.tgt_platform: multiple
 title: SELECT Statement for Event Queries

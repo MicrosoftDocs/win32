@@ -1,5 +1,5 @@
 ---
-Description: The CAudioRenderTerminal terminal is derived from CSingleFilterTerminal and implements a static audio render terminal for wave devices using the DirectShow waveout filter. Most MSPs will not need to override the implementation of this terminal.
+description: The CAudioRenderTerminal terminal is derived from CSingleFilterTerminal and implements a static audio render terminal for wave devices using the DirectShow waveout filter. Most MSPs will not need to override the implementation of this terminal.
 ms.assetid: 58cd0765-9430-4333-ae96-4d8ca73727b5
 title: CAudioRenderTerminal
 ms.topic: article

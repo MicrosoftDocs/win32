@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the endoder is allowed to drop frames.
+description: Specifies whether the endoder is allowed to drop frames.
 ms.assetid: ceb0cf92-2d5a-4f21-bf02-8999efd6d35a
 title: MFPKEY_FULLFRAMERATE Property (Wmcodecdsp.h)
 ms.topic: reference

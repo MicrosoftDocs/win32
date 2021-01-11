@@ -1,5 +1,5 @@
 ---
-Description: Asynchronously sets the endpoint address used to connect to a remote engine.
+description: Asynchronously sets the endpoint address used to connect to a remote engine.
 MS-HAID: vspixengine.IPixEngine7\_SetPlaybackEndpointAsync\_BOOL\_BSTR\_BSTR\_RemotingVersion\_IVersionCallback\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

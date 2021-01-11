@@ -1,5 +1,5 @@
 ---
-Description: Puts a break after the preceding word.
+description: Puts a break after the preceding word.
 ms.assetid: C8622067-D8CE-4099-8B9F-941720F4706B
 title: IWordSink::PutBreak method (Search.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Specifying the Authentication Protocol
+description: Specifying the Authentication Protocol
 ms.assetid: 2f469332-6b3e-475a-9ec6-782e1e445672
 title: Specifying the Authentication Protocol
 ms.topic: article

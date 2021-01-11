@@ -1,5 +1,5 @@
 ---
-Description: A callback function used to notify the host about which frames have offline analysis reports available.
+description: A callback function used to notify the host about which frames have offline analysis reports available.
 MS-HAID: vspixengine.IOfflineAnalysisCacheCallback\_OfflineAnalaysisReportAvailabilityCallback\_DWORD\_DWORD\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

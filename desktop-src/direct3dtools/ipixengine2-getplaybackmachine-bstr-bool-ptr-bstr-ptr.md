@@ -1,5 +1,5 @@
 ---
-Description: Gets information about the current playback machine.
+description: Gets information about the current playback machine.
 MS-HAID: vspixengine.IPixEngine2\_GetPlaybackMachine\_BSTR\_BOOL\_ptr\_BSTR\_ptr
 MSHAttr:
 - PreferredSiteName:MSDN

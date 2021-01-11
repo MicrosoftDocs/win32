@@ -1,5 +1,5 @@
 ---
-Description: Volume and LUN Binding
+description: Volume and LUN Binding
 ms.assetid: ae32b354-799e-4f9b-8989-02bd95968210
 title: Volume and LUN Binding
 ms.topic: article

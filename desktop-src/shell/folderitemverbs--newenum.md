@@ -1,5 +1,5 @@
 ---
-Description: Creates and returns a new FolderItemVerbs object that is a copy of this FolderItemVerbs object.
+description: Creates and returns a new FolderItemVerbs object that is a copy of this FolderItemVerbs object.
 title: FolderItemVerbs._NewEnum method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018

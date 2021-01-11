@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: Requests a state change.
 ms.assetid: a61c17a8-f89d-47aa-8c4f-46ccf478103e
 title: RequestStateChange method of the Msvm_Ps2Mouse class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Checks volume-texture-creation parameters.
+description: Checks volume-texture-creation parameters.
 ms.assetid: 1a02cb99-2582-4d8f-aacf-67ed75f6deb8
 title: D3DXCheckVolumeTextureRequirements function (D3dx9tex.h)
 ms.topic: reference

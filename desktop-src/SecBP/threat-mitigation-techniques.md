@@ -1,5 +1,5 @@
 ---
-Description: There are a number of threat-mitigation techniques available that you can use to better secure passwords.
+description: There are a number of threat-mitigation techniques available that you can use to better secure passwords.
 ms.assetid: b2442579-e559-4053-869f-9d96e4db202e
 title: Threat Mitigation Techniques
 ms.topic: article

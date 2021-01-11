@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVEAListTooBigException class"
 title: EsentSLVEAListTooBigException class
 TOCTitle: EsentSLVEAListTooBigException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVEAListTooBigException

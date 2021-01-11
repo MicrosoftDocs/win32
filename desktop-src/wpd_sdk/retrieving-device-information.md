@@ -1,5 +1,5 @@
 ---
-Description: Retrieving Device Information
+description: Retrieving Device Information
 ms.assetid: 5c35da1c-f55c-4b92-8ac6-8c71466707f1
 title: Retrieving Device Information
 ms.topic: article

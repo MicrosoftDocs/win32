@@ -1,5 +1,5 @@
 ---
-Description: Represents the security service. It is used for configuring virtual system security settings.
+description: Represents the security service. It is used for configuring virtual system security settings.
 ms.assetid: 00097d81-9fea-4b84-b5dd-e45af46d6e0a
 title: Msvm_SecurityService class
 ms.topic: reference

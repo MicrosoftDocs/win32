@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to navigate an XPS OM and to access different parts of the in-memory document.
+description: This topic describes how to navigate an XPS OM and to access different parts of the in-memory document.
 ms.assetid: 90b726aa-29da-4cfb-9c69-f471c2acb678
 title: Navigate the XPS OM
 ms.topic: article

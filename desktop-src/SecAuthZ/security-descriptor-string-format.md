@@ -1,5 +1,5 @@
 ---
-Description: The Security Descriptor String Format is a text format for storing or transporting information in a security descriptor.
+description: The Security Descriptor String Format is a text format for storing or transporting information in a security descriptor.
 ms.assetid: 0a226629-084c-40c5-bdd4-ad7355c807cf
 title: Security Descriptor String Format
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDensityInvalidException members"
 title: EsentDensityInvalidException members
 TOCTitle: EsentDensityInvalidException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDensityInvalidException

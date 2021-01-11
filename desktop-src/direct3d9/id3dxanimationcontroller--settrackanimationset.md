@@ -1,5 +1,5 @@
 ---
-Description: Applies the animation set to the specified track.
+description: Applies the animation set to the specified track.
 ms.assetid: f48bb0f1-3ccd-4db9-8a30-58c79ae0939e
 title: ID3DXAnimationController::SetTrackAnimationSet method (D3dx9anim.h)
 ms.topic: reference

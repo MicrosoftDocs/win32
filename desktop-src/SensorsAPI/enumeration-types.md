@@ -1,5 +1,5 @@
 ---
-Description: The Sensor API defines the following enumeration types.
+description: The Sensor API defines the following enumeration types.
 ms.assetid: b684c9a6-87b1-4129-bdef-f859d9463fdf
 title: Enumeration Types
 ms.topic: article

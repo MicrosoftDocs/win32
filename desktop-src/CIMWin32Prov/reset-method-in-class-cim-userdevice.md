@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_UserDevice class requests a reset of the logical device.
+description: The Reset method of the CIM\_UserDevice class requests a reset of the logical device.
 ms.assetid: c0f4d732-698b-4d4c-b09d-a551e023453c
 ms.tgt_platform: multiple
 title: Reset method of the CIM_UserDevice class

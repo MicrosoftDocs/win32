@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the default context settings for the tablet.
+description: Retrieves the default context settings for the tablet.
 ms.assetid: 59d1bab0-a8b8-4e23-9311-2921f9035dc4
 title: ITablet::GetDefaultContextSettings method
 ms.topic: reference

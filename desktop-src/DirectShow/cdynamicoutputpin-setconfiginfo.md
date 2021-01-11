@@ -1,5 +1,5 @@
 ---
-Description: The SetConfigInfo method specifies the IGraphConfig pointer and the stop event.
+description: The SetConfigInfo method specifies the IGraphConfig pointer and the stop event.
 ms.assetid: 938fe8be-5622-4954-9ba3-31fc68fbfa31
 title: CDynamicOutputPin.SetConfigInfo method (Amfilter.h)
 ms.topic: reference

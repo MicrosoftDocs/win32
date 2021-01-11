@@ -1,5 +1,5 @@
 ---
-Description: The Cloud Filter API provides functionality at the boundary between the user mode and the file system.
+description: The Cloud Filter API provides functionality at the boundary between the user mode and the file system.
 ms.assetid: 72bc3e80-babd-4a39-842c-38afe4773a5e
 title: Cloud Sync Engines
 ms.topic: article

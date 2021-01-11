@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersionStoreOutOfMemoryAndCleanupTimedOutException members"
 title: EsentVersionStoreOutOfMemoryAndCleanupTimedOutException members
 TOCTitle: EsentVersionStoreOutOfMemoryAndCleanupTimedOutException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentVersionStoreOutOfMemoryAndCleanupTimedOutException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidParameterException members"
 title: EsentInvalidParameterException members
 TOCTitle: EsentInvalidParameterException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidParameterException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance.Parameters property"
 title: Instance.Parameters property 
 TOCTitle: 'Parameters property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Instance.Parameters

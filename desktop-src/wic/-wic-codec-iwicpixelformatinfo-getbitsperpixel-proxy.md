@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetBitsPerPixel method.
+description: Proxy function for the GetBitsPerPixel method.
 ms.assetid: bb98daeb-3886-473b-9c8e-5c606602249a
 title: IWICPixelFormatInfo_GetBitsPerPixel_Proxy function
 ms.topic: reference

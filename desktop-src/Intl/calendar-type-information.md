@@ -1,5 +1,5 @@
 ---
-Description: This topic describes the calendar type information (CALTYPE data type) used in the EnumCalendarInfo, EnumCalendarInfoEx, EnumCalendarInfoExEx, GetCalendarInfo, and GetCalendarInfoEx functions.
+description: This topic describes the calendar type information (CALTYPE data type) used in the EnumCalendarInfo, EnumCalendarInfoEx, EnumCalendarInfoExEx, GetCalendarInfo, and GetCalendarInfoEx functions.
 ms.assetid: 33361a97-0f27-477a-a0ee-3d4d3aaeaacf
 title: Calendar Type Information
 ms.topic: article

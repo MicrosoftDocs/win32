@@ -1,5 +1,5 @@
 ---
-Description: Export setting data to be passed in to the ExportReferencePoint method of the Msvm\_CollectionReferencePointService class.
+description: Export setting data to be passed in to the ExportReferencePoint method of the Msvm\_CollectionReferencePointService class.
 ms.assetid: 38299050-a53a-496c-8792-9199c394591d
 title: Msvm_CollectionReferencePointExportSettingData class
 ms.topic: reference

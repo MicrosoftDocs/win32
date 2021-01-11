@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GetSecondaryIndexBookmarkGrbit enumeration"
 title: GetSecondaryIndexBookmarkGrbit enumeration
 TOCTitle: GetSecondaryIndexBookmarkGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.GetSecondaryIndexBookmarkGrbit

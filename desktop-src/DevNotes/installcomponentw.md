@@ -1,5 +1,5 @@
 ---
-Description: Installs an exception package.
+description: Installs an exception package.
 ms.assetid: c4c3c01c-9aaf-42cd-a690-13e2113b15b3
 title: InstallComponentW function
 ms.topic: reference

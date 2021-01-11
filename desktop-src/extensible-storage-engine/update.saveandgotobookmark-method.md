@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Update.SaveAndGotoBookmark method"
 title: Update.SaveAndGotoBookmark method 
 TOCTitle: 'SaveAndGotoBookmark method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Update.SaveAndGotoBookmark

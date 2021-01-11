@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Event Logging Constants"
 title: Event Logging Constants
 TOCTitle: Event Logging Constants
 ms:assetid: d24603a9-a9be-4700-bc20-4e3f0661e741

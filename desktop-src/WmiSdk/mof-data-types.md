@@ -1,5 +1,5 @@
 ---
-Description: The Managed Object Format (MOF) language supports many data types that use to assign values to properties, qualifiers, and method parameters.
+description: The Managed Object Format (MOF) language supports many data types that use to assign values to properties, qualifiers, and method parameters.
 ms.assetid: c09209ea-5283-4779-9481-71a24b03002f
 ms.tgt_platform: multiple
 title: MOF Data Types

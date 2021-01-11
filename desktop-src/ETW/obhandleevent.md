@@ -1,5 +1,5 @@
 ---
-Description: Represents the event type class for handle creation or closure events.
+description: Represents the event type class for handle creation or closure events.
 ms.assetid: 39d27cdf-fa51-4fb1-8998-7150ca627eff
 title: ObHandleEvent class
 ms.topic: reference

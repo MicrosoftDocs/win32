@@ -1,5 +1,5 @@
 ---
-Description: Encodes a string as base64.
+description: Encodes a string as base64.
 ms.assetid: 73a279e3-40b0-4db8-89d3-95627f0878dd
 title: Utilities.Base64Encode method
 ms.topic: reference

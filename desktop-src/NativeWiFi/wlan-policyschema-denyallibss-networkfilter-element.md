@@ -1,5 +1,5 @@
 ---
-Description: Specifies if access to all ad-hoc networks is blocked.
+description: Specifies if access to all ad-hoc networks is blocked.
 ms.assetid: 9001ccbb-c158-44d7-8d31-38c91881886e
 title: denyAllIBSS (networkFilter) Element
 ms.topic: reference

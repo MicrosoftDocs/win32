@@ -1,5 +1,5 @@
 ---
-Description: DataRoamingPartners
+description: DataRoamingPartners
 MS-HAID: WWAN\_profile\_v4.element\_DataRoamingPartners
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: Number of streaming threads using this pin.
+description: Number of streaming threads using this pin.
 ms.assetid: f8650a17-edab-4d69-91da-78107c3c60b9
 title: CDynamicOutputPin::m_dwNumOutstandingOutputPinUsers member (Amfilter.h)
 ms.topic: reference

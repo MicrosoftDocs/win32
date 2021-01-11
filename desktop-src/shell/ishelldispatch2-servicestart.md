@@ -1,5 +1,5 @@
 ---
-Description: Starts a named service.
+description: Starts a named service.
 ms.assetid: 3af57cdc-f449-433d-a9e1-119038045e4c
 title: IShellDispatch2.ServiceStart method (Shldisp.h)
 ms.topic: reference

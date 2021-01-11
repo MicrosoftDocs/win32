@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIllegalOperationException class"
 title: EsentIllegalOperationException class
 TOCTitle: EsentIllegalOperationException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentIllegalOperationException

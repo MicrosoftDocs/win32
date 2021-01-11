@@ -1,5 +1,5 @@
 ---
-Description: Add child data to the mesh.
+description: Add child data to the mesh.
 ms.assetid: cf3e2015-c4b0-4d98-8346-c74fbdd37310
 title: ID3DXSaveUserData::AddMeshChildData method (D3dx9anim.h)
 ms.topic: reference

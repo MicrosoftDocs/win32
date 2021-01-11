@@ -1,5 +1,5 @@
 ---
-Description: For an explanation of the following tables, see Tables and Assignments.
+description: For an explanation of the following tables, see Tables and Assignments.
 ms.assetid: 852ead0e-3539-483d-943d-1779f7358ba5
 title: France
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETRIEVECOLUMN class"
 title: JET_RETRIEVECOLUMN class
 TOCTitle: JET_RETRIEVECOLUMN class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN

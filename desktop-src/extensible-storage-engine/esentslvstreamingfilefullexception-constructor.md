@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileFullException constructor"
 title: EsentSLVStreamingFileFullException constructor 
 TOCTitle: 'EsentSLVStreamingFileFullException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileFullException.#ctor

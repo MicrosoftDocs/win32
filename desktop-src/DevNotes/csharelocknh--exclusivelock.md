@@ -1,5 +1,5 @@
 ---
-Description: Acquires a reader/writer lock.
+description: Acquires a reader/writer lock.
 ms.assetid: fd212dd9-034b-4e0c-9111-e3460ea6f133
 title: CShareLockNH::ExclusiveLock method
 ms.topic: reference

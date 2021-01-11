@@ -1,5 +1,5 @@
 ---
-Description: Sets proxy server information.
+description: Sets proxy server information.
 ms.assetid: 279d0557-2718-4c50-b84c-cc7c8def57a6
 title: IWinHttpRequest::SetProxy method
 ms.topic: reference

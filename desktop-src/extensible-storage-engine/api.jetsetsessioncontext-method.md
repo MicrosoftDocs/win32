@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetSetSessionContext method"
 title: Api.JetSetSessionContext method 
 TOCTitle: 'JetSetSessionContext method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetSetSessionContext(Microsoft.Isam.Esent.Interop.JET_SESID,System.IntPtr)

@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a topology nodes underlying object is a decoder.
+description: Specifies whether a topology nodes underlying object is a decoder.
 ms.assetid: b6d576dc-b12f-49bf-b938-db2c629df400
 title: MF_TOPONODE_DECODER attribute (Mfidl.h)
 ms.topic: reference

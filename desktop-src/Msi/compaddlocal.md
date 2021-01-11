@@ -1,5 +1,5 @@
 ---
-Description: The value of the COMPADDLOCAL property is a list of component GUIDs from the ComponentId column of the Component table, delimited by commas, that are to be installed locally.
+description: The value of the COMPADDLOCAL property is a list of component GUIDs from the ComponentId column of the Component table, delimited by commas, that are to be installed locally.
 ms.assetid: 10c178c5-1eae-4191-b79c-9285810efb6a
 title: COMPADDLOCAL property
 ms.topic: reference

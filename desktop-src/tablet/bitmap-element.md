@@ -1,5 +1,5 @@
 ---
-Description: Contains the Base64 encoded data for a bitmap contained in the Journal file as a background image.
+description: Contains the Base64 encoded data for a bitmap contained in the Journal file as a background image.
 ms.assetid: 27578a45-e6b4-4e87-9541-0e83bc67dfc5
 title: Bitmap Element
 ms.topic: reference

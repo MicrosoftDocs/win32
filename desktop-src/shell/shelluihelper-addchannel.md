@@ -1,5 +1,5 @@
 ---
-Description: Adds a new channel to the list of channels in the Windows Internet Explorer Favorites menu and to the Channel bar on the desktop.
+description: Adds a new channel to the list of channels in the Windows Internet Explorer Favorites menu and to the Channel bar on the desktop.
 title: ShellUIHelper.AddChannel method (Exdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018

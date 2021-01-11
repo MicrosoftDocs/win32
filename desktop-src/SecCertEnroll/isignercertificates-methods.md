@@ -1,5 +1,5 @@
 ---
-Description: The ISignerCertificates interface exposes the following methods.
+description: The ISignerCertificates interface exposes the following methods.
 ms.assetid: 1B0E3E12-092B-4FB7-B0BC-1239428D5F80
 title: ISignerCertificates Methods
 ms.topic: reference

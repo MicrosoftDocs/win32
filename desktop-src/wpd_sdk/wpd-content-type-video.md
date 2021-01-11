@@ -1,5 +1,5 @@
 ---
-Description: WPD\_CONTENT\_TYPE\_VIDEO
+description: WPD\_CONTENT\_TYPE\_VIDEO
 ms.assetid: d4a6bd98-c28e-487b-95cc-2c73cd44e3b5
 title: WPD_CONTENT_TYPE_VIDEO
 ms.topic: article

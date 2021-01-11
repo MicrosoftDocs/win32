@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseLeakInSpaceException constructor"
 title: EsentDatabaseLeakInSpaceException constructor 
 TOCTitle: 'EsentDatabaseLeakInSpaceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseLeakInSpaceException.#ctor

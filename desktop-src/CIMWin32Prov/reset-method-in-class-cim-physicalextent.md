@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_PhysicalExtent class requests a reset of the logical device.
+description: The Reset method of the CIM\_PhysicalExtent class requests a reset of the logical device.
 ms.assetid: ee96cdc8-f695-430c-9d51-94c12f8fe1d4
 ms.tgt_platform: multiple
 title: Reset method of the CIM_PhysicalExtent class

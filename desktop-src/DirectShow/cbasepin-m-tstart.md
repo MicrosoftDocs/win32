@@ -1,5 +1,5 @@
 ---
-Description: Segment start time.
+description: Segment start time.
 ms.assetid: f1d094ff-15e0-4bd1-a939-4e3f65155037
 title: CBasePin::m_tStart member (Amfilter.h)
 ms.topic: reference

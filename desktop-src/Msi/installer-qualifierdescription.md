@@ -1,5 +1,5 @@
 ---
-Description: The read-only QualifierDescription property returns a text string describing the qualified component.
+description: The read-only QualifierDescription property returns a text string describing the qualified component.
 ms.assetid: 43615bd9-824b-4b84-a8f2-eef30cc7619a
 title: Installer.QualifierDescription property
 ms.topic: reference

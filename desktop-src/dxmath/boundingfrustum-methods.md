@@ -1,5 +1,5 @@
 ---
-Description: BoundingFrustum Methods
+description: BoundingFrustum Methods
 ms.assetid: f77aac4a-7fbf-4149-a1c4-ee4c58d37222
 title: BoundingFrustum Methods
 ms.topic: reference

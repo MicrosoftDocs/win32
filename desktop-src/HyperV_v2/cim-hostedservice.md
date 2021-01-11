@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a service and the system that hosts the service. A System can host many services, however this class does not represent services hosted across multiple systems.
+description: Represents an association between a service and the system that hosts the service. A System can host many services, however this class does not represent services hosted across multiple systems.
 ms.assetid: ede67a81-cf1b-41aa-b907-5b635cf80423
 title: CIM_HostedService class (Hyper-V management)
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnRedundantException properties"
 title: EsentColumnRedundantException properties
 TOCTitle: EsentColumnRedundantException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentColumnRedundantException

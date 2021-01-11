@@ -1,5 +1,5 @@
 ---
-Description: Stops the service.
+description: Stops the service.
 ms.assetid: cf0dde8d-b6cf-4a52-905f-c686ac41e314
 title: StopService method of the Msvm_VirtualSystemMigrationService class
 ms.topic: reference

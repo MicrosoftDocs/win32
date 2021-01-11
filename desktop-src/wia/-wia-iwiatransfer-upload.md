@@ -1,5 +1,5 @@
 ---
-Description: Initiates a data upload of a single item from the caller.
+description: Initiates a data upload of a single item from the caller.
 ms.assetid: 301ac5d9-b864-4c3c-bd4b-143cc4032dcb
 title: IWiaTransfer::Upload method (Wia.h)
 ms.topic: reference

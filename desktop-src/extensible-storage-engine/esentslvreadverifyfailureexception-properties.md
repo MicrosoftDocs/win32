@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVReadVerifyFailureException properties"
 title: EsentSLVReadVerifyFailureException properties
 TOCTitle: EsentSLVReadVerifyFailureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVReadVerifyFailureException

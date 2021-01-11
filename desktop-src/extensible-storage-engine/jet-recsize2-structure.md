@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE2 Structure"
 title: JET_RECSIZE2 Structure
 TOCTitle: JET_RECSIZE2 Structure
 ms:assetid: 02a13b5b-d904-49b2-baaa-c60328d70290

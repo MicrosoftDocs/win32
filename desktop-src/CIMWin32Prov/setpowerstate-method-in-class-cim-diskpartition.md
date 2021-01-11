@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method of the CIM\_DiskPartition class sets the desired power state for a logical device and when a device should be put into that state.
+description: The SetPowerState method of the CIM\_DiskPartition class sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: cfc68ad3-819c-438f-baca-bed6e2592369
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_DiskPartition class

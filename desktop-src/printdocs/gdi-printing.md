@@ -1,5 +1,5 @@
 ---
-Description: The GDI Print API provides applications with a device-independent printing interface.
+description: The GDI Print API provides applications with a device-independent printing interface.
 ms.assetid: 3115c9e0-05c9-462d-8238-fc035ea32d4e
 title: GDI Print API
 ms.topic: article

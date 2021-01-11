@@ -1,5 +1,5 @@
 ---
-Description: Use setup functions to prompt the user for a new source disk or to create error dialog boxes.
+description: Use setup functions to prompt the user for a new source disk or to create error dialog boxes.
 ms.assetid: '84851b84-39a7-42fc-a471-9cf52b985f9d'
 title: Disk Prompting and Error Handling
 ms.topic: article

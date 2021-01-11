@@ -1,5 +1,5 @@
 ---
-Description: Instructs a drop image window to update using new DROPDESCRIPTION information.
+description: Instructs a drop image window to update using new DROPDESCRIPTION information.
 title: DDWM_UPDATEWINDOW message
 ms.topic: reference
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: Contains an object for each method on the interface to which the collection is related.
+description: Contains an object for each method on the interface to which the collection is related.
 ms.assetid: e64b007f-e44d-4b6b-97b2-1e017c5a7dbe
 title: MethodsForInterface collection
 ms.topic: reference

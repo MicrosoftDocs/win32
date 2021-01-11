@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFatalException class"
 title: EsentFatalException class
 TOCTitle: EsentFatalException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFatalException

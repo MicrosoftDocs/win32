@@ -1,5 +1,5 @@
 ---
-Description: An objects ACL can contain ACEs that it inherited from its parent container.
+description: An objects ACL can contain ACEs that it inherited from its parent container.
 ms.assetid: a9e5ad4d-61c6-43ed-a162-460683bcdb16
 title: ACE Inheritance
 ms.topic: article

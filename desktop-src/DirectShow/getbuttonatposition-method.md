@@ -1,5 +1,5 @@
 ---
-Description: The GetButtonAtPosition method retrieves the number of the button at the specified coordinates without selecting or activating it.
+description: The GetButtonAtPosition method retrieves the number of the button at the specified coordinates without selecting or activating it.
 ms.assetid: ac933d0d-db2e-488f-b661-2fdc9f5acb39
 title: GetButtonAtPosition Method
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CONDITIONALCOLUMN class"
 title: JET_CONDITIONALCOLUMN class
 TOCTitle: JET_CONDITIONALCOLUMN class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_CONDITIONALCOLUMN

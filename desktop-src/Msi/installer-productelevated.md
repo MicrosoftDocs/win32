@@ -1,5 +1,5 @@
 ---
-Description: The ProductElevated property of the Installer object returns True if the product is managed or False if the product is not managed.
+description: The ProductElevated property of the Installer object returns True if the product is managed or False if the product is not managed.
 ms.assetid: 8126f5a0-751f-46c3-9014-208e9c2db34c
 title: Installer::ProductElevated property
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Indicates the number of library locations.
+description: Indicates the number of library locations.
 ms.assetid: 35D49432-E734-4EE7-AE17-1FE92764D19F
 title: System.LibraryLocationsCount
 ms.topic: article

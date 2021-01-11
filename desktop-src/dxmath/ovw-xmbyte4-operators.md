@@ -1,5 +1,5 @@
 ---
-Description: The XMBYTE4 structure exposes the following operators.
+description: The XMBYTE4 structure exposes the following operators.
 ms.assetid: da748493-93e8-43a4-a567-d47eaa4aecbe
 title: XMBYTE4 operators
 ms.topic: reference

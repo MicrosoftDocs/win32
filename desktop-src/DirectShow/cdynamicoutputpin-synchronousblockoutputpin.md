@@ -1,5 +1,5 @@
 ---
-Description: The SynchronousBlockOutputPin method blocks the pin; does not return until the pin is blocked.
+description: The SynchronousBlockOutputPin method blocks the pin; does not return until the pin is blocked.
 ms.assetid: 10fdb788-bc72-4eda-b60b-af83f954d689
 title: CDynamicOutputPin.SynchronousBlockOutputPin method (Amfilter.h)
 ms.topic: reference

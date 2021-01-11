@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIllegalOperationException members"
 title: EsentIllegalOperationException members
 TOCTitle: EsentIllegalOperationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIllegalOperationException

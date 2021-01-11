@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Multi-Valued Sparse Columns"
 title: Multi-Valued Sparse Columns
 TOCTitle: Multi-Valued Sparse Columns
 ms:assetid: 36e82a73-aad4-4e0d-a743-a2182c41fe9c

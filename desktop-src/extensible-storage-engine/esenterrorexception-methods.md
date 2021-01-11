@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentErrorException methods"
 title: EsentErrorException methods
 TOCTitle: EsentErrorException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentErrorException

@@ -1,5 +1,5 @@
 ---
-Description: The SCESTATUS data type is used by the Security Configuration tool set API to return information about the results of a function call. For more information about the defined status code values, see Attachment Return Values.
+description: The SCESTATUS data type is used by the Security Configuration tool set API to return information about the results of a function call. For more information about the defined status code values, see Attachment Return Values.
 ms.assetid: b3facb0f-384c-41c7-90fc-56fca2f1c9ab
 title: SCESTATUS (Scesvc.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Returns the size of the shader byte code, in bytes.
+description: Returns the size of the shader byte code, in bytes.
 ms.assetid: 7dd091f7-fda9-49e1-982d-2eb57d9ecb23
 title: D3DXGetShaderSize function (D3DX9Shader.h)
 ms.topic: reference

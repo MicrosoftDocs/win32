@@ -1,5 +1,5 @@
 ---
-Description: The put\_OffsetY method specifies the vertical offset of the wipe origin.
+description: The put\_OffsetY method specifies the vertical offset of the wipe origin.
 ms.assetid: 1dfd18cf-06ae-46eb-80d7-078efc243bb1
 title: IDxtJpeg::put_OffsetY method (Qedit.h)
 ms.topic: reference

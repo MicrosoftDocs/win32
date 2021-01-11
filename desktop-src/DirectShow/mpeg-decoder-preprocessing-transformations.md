@@ -1,5 +1,5 @@
 ---
-Description: MPEG Decoder Preprocessing Transformations
+description: MPEG Decoder Preprocessing Transformations
 ms.assetid: c7ae0137-0d02-46da-9532-738d805e327d
 title: MPEG Decoder Preprocessing Transformations
 ms.topic: article

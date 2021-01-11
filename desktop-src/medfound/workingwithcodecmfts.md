@@ -1,5 +1,5 @@
 ---
-Description: Working with Codec MFTs
+description: Working with Codec MFTs
 ms.assetid: 61567043-e76e-4166-9344-c57661e5752a
 title: Working with Codec MFTs
 ms.topic: article

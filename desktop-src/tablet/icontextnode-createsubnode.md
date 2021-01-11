@@ -1,5 +1,5 @@
 ---
-Description: Creates a new child IContextNode object.
+description: Creates a new child IContextNode object.
 ms.assetid: 35d2b641-fada-418b-9374-0303c7d318e5
 title: IContextNode::CreateSubNode method (IACom.h)
 ms.topic: reference

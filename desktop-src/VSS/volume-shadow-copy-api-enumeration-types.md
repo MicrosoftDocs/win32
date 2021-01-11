@@ -1,5 +1,5 @@
 ---
-Description: The following enumerations are defined in the Volume Shadow Copy API.
+description: The following enumerations are defined in the Volume Shadow Copy API.
 ms.assetid: f2f09791-b17e-4f54-9d29-83a4189bffc1
 title: Volume Shadow Copy API Enumerations
 ms.topic: article

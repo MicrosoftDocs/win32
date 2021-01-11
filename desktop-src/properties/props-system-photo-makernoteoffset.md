@@ -1,5 +1,5 @@
 ---
-Description: The offset for the maker note specified in System.Photo.MakerNote.
+description: The offset for the maker note specified in System.Photo.MakerNote.
 ms.assetid: 473ee0c7-af11-4492-ac54-4723a103a389
 title: System.Photo.MakerNoteOffset
 ms.topic: article

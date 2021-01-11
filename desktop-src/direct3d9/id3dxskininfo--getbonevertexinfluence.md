@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the blend factor and vertex affected by a specified bone influence.
+description: Retrieves the blend factor and vertex affected by a specified bone influence.
 ms.assetid: bbed4766-e571-4a9e-b7e3-047052470cbe
 title: ID3DXSkinInfo::GetBoneVertexInfluence method (D3DX9Mesh.h)
 ms.topic: reference

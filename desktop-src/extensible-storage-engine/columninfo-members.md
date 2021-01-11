@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnInfo members"
 title: ColumnInfo members
 TOCTitle: ColumnInfo members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.ColumnInfo

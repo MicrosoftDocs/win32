@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OSSNAPID structure"
 title: JET_OSSNAPID structure
 TOCTitle: JET_OSSNAPID structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_OSSNAPID

@@ -1,5 +1,5 @@
 ---
-Description: The singleton ScriptingStandardConsumerSetting class provides registration data that is common to all instances of the ActiveScriptEventConsumer standard consumer class.
+description: The singleton ScriptingStandardConsumerSetting class provides registration data that is common to all instances of the ActiveScriptEventConsumer standard consumer class.
 ms.assetid: d217e058-3529-4173-b896-ebff3d7b05c6
 ms.tgt_platform: multiple
 title: ScriptingStandardConsumerSetting class

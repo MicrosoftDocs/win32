@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVRootPathInvalidException members"
 title: EsentSLVRootPathInvalidException members
 TOCTitle: EsentSLVRootPathInvalidException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVRootPathInvalidException

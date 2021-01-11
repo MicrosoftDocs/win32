@@ -1,5 +1,5 @@
 ---
-Description: The Pause method temporarily stops the current capture.
+description: The Pause method temporarily stops the current capture.
 ms.assetid: 43176e9e-1502-484c-a8af-4e7bbf5f6474
 title: IStats::Pause method (Netmon.h)
 ms.topic: reference

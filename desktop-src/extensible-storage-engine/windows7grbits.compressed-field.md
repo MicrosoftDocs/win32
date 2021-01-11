@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Grbits.Compressed field"
 title: Windows7Grbits.Compressed field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: Compressed field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits.Compressed

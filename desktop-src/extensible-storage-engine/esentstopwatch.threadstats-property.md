@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStopwatch.ThreadStats property"
 title: EsentStopwatch.ThreadStats property 
 TOCTitle: 'ThreadStats property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentStopwatch.ThreadStats

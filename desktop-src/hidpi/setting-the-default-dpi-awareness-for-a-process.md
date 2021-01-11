@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Setting the default DPI awareness for a process"
 title: Setting the default DPI awareness for a process (Windows)
 TOCTitle: Setting the default DPI awareness for a process
 ms:assetid: C9488338-D863-45DF-B5CB-7ED9B869A5E2

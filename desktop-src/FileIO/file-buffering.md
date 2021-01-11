@@ -1,5 +1,5 @@
 ---
-Description: Describes considerations for application control of file buffering, also known as unbuffered file input/output (I/O).
+description: Describes considerations for application control of file buffering, also known as unbuffered file input/output (I/O).
 ms.assetid: ae1e5d0f-9b55-4aae-8402-b9c8e33d9363
 title: File Buffering
 ms.topic: article

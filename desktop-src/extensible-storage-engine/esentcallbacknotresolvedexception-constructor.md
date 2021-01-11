@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCallbackNotResolvedException constructor"
 title: EsentCallbackNotResolvedException constructor 
 TOCTitle: 'EsentCallbackNotResolvedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCallbackNotResolvedException.#ctor

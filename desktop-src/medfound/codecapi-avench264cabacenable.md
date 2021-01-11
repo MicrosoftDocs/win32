@@ -1,5 +1,5 @@
 ---
-Description: Enables or disables CABAC (context-adaptive binary arithmetic coding) for H.264 entropy coding.
+description: Enables or disables CABAC (context-adaptive binary arithmetic coding) for H.264 entropy coding.
 ms.assetid: E09DD142-A685-425E-94CD-A8E2EA73E869
 title: CODECAPI_AVEncH264CABACEnable property (Codecapi.h)
 ms.topic: reference

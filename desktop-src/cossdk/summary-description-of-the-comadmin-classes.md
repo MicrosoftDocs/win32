@@ -1,5 +1,5 @@
 ---
-Description: There are three classes provided by the COMAdmin library (comadmin.dll), each of which implements a COM dual interface.
+description: There are three classes provided by the COMAdmin library (comadmin.dll), each of which implements a COM dual interface.
 ms.assetid: 5a20199f-9d46-4dbe-8e30-2c7ddbde8795
 title: Summary Description of the COMAdmin Classes
 ms.topic: article

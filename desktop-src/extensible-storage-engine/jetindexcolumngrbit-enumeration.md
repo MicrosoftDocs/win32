@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetIndexColumnGrbit enumeration"
 title: JetIndexColumnGrbit enumeration (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JetIndexColumnGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.JetIndexColumnGrbit

@@ -1,5 +1,5 @@
 ---
-Description: Bluetooth service GUID.
+description: Bluetooth service GUID.
 ms.assetid: a6df61fa-5e6d-45cb-9012-e550fb1d08d4
 title: System.DeviceInterface.Bluetooth.ServiceGuid
 ms.topic: article

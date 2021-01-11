@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogCorruptDuringHardRecoveryException members"
 title: EsentLogCorruptDuringHardRecoveryException members
 TOCTitle: EsentLogCorruptDuringHardRecoveryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogCorruptDuringHardRecoveryException

@@ -1,5 +1,5 @@
 ---
-Description: Must retrieve information from the security database and then use that information to configure the service.
+description: Must retrieve information from the security database and then use that information to configure the service.
 ms.assetid: c0c1c1e4-de5b-405d-abe8-33a985ce98e5
 title: Implementing SceSvcAttachmentConfig
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The NotifyFilterState method notifies the pin when the filter's state changes.
+description: The NotifyFilterState method notifies the pin when the filter's state changes.
 ms.assetid: 0eb3b0e5-9c44-464e-b4ca-bcded731e813
 title: CBaseStreamControl.NotifyFilterState method (Strmctl.h)
 ms.topic: reference

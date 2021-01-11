@@ -1,5 +1,5 @@
 ---
-Description: A follow set specifies the protocols that follow a protocol. Network Monitor uses a follow set when the parser cannot identify the next protocol from the data in a protocol instance.
+description: A follow set specifies the protocols that follow a protocol. Network Monitor uses a follow set when the parser cannot identify the next protocol from the data in a protocol instance.
 ms.assetid: 9e73c724-a540-42f8-b273-4f02c39d81c4
 title: Specifying a Follow Set
 ms.topic: article

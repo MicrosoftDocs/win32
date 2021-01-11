@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SystemParameters members"
 title: SystemParameters members
 TOCTitle: SystemParameters members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.SystemParameters

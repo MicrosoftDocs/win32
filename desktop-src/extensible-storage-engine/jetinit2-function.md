@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetInit2 Function"
 title: JetInit2 Function
 TOCTitle: JetInit2 Function
 ms:assetid: b5541429-6ce6-457b-88cf-673d267f6209

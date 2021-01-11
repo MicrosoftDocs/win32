@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDecompressionFailedException constructor"
 title: EsentDecompressionFailedException constructor 
 TOCTitle: 'EsentDecompressionFailedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDecompressionFailedException.#ctor

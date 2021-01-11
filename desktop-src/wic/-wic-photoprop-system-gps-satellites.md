@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.GPS.Satellites property.
+description: The photo metadata policy for the System.GPS.Satellites property.
 ms.assetid: 5dbbbeaf-e67d-45f6-95b2-de3287202d41
 title: System.GPS.Satellites Photo Metadata Policy
 ms.topic: article

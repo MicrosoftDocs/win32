@@ -1,5 +1,5 @@
 ---
-Description: The Extended Telephony functions are listed by category in the following tables.
+description: The Extended Telephony functions are listed by category in the following tables.
 ms.assetid: f16aabf1-c034-4f91-87b2-c98cdf6d67ea
 title: Extended Telephony Services Reference
 ms.topic: article

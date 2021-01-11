@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IContentEquatable<T> methods"
 title: IContentEquatable(T) methods
 TOCTitle: IContentEquatable(T) methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.IContentEquatable`1

@@ -1,5 +1,5 @@
 ---
-Description: Application gestures are gestures that you choose to have your application support.
+description: Application gestures are gestures that you choose to have your application support.
 ms.assetid: 5752ea0e-f4c0-4952-bc82-a3396e1b9e1a
 title: Application Gestures
 ms.topic: article

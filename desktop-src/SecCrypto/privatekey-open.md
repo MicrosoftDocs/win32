@@ -1,5 +1,5 @@
 ---
-Description: Accesses an existing key container. This method associates the key container to the certificate that corresponds to the private key by adding the CERT\_KEY\_PROV\_INFO\_PROP\_ID property using the specified information.
+description: Accesses an existing key container. This method associates the key container to the certificate that corresponds to the private key by adding the CERT\_KEY\_PROV\_INFO\_PROP\_ID property using the specified information.
 ms.assetid: e5e19452-bfdc-4427-ac1d-cf8aa349bb89
 title: PrivateKey.Open method
 ms.topic: reference

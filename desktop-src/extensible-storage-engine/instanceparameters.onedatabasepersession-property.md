@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.OneDatabasePerSession property"
 title: InstanceParameters.OneDatabasePerSession property 
 TOCTitle: 'OneDatabasePerSession property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.OneDatabasePerSession

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Update.Save method"
 title: Update.Save method 
 TOCTitle: 'Save method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Update.Save

@@ -1,5 +1,5 @@
 ---
-Description: The Int64x32Div32 function implements the formula ((a\*b)+rnd)/c where a is a 64-bit value and b, c, and rnd are 32-bit values.
+description: The Int64x32Div32 function implements the formula ((a\*b)+rnd)/c where a is a 64-bit value and b, c, and rnd are 32-bit values.
 ms.assetid: 566ac194-5b15-43b7-aa7c-0c18c6f69691
 title: Int64x32Div32 function (Wxutil.h)
 ms.topic: reference

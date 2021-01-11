@@ -1,5 +1,5 @@
 ---
-Description: A CIM\_Action class is an operation that is part of a process to either create a software element in its next state or to eliminate the software element in the current state.
+description: A CIM\_Action class is an operation that is part of a process to either create a software element in its next state or to eliminate the software element in the current state.
 ms.assetid: d1f72aaf-7e26-414f-99e7-ff8f14d66360
 ms.tgt_platform: multiple
 title: CIM_Action class

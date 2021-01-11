@@ -1,5 +1,5 @@
 ---
-Description: TAPI responds to device changes such as a phone that has started ringing or a modem that has been removed by firing device events.
+description: TAPI responds to device changes such as a phone that has started ringing or a modem that has been removed by firing device events.
 ms.assetid: afa504ca-6e70-4076-a179-31002d3b38e2
 title: Device Events (Telephony API)
 ms.topic: article

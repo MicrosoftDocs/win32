@@ -1,5 +1,5 @@
 ---
-Description: MUI allows your applications to manage user interface languages in two ways.
+description: MUI allows your applications to manage user interface languages in two ways.
 ms.assetid: ae8ab98f-dc3b-414d-85c9-6bf204c2f776
 title: User Interface Language Management
 ms.topic: article

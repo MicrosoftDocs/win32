@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETRIEVECOLUMN methods"
 title: JET_RETRIEVECOLUMN methods
 TOCTitle: JET_RETRIEVECOLUMN methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN

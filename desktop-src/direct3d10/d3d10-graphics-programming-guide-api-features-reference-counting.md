@@ -1,5 +1,5 @@
 ---
-Description: Direct3D 10 set functions do not hold a reference to a device-child object.
+description: Direct3D 10 set functions do not hold a reference to a device-child object.
 ms.assetid: 4f4e1af8-5830-4b2d-ba2e-dc2ec4e74a19
 title: Reference Counting (Direct3D 10)
 ms.topic: article

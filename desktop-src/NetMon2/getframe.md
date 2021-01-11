@@ -1,5 +1,5 @@
 ---
-Description: The GetFrame function returns a handle to a given frame within a capture.
+description: The GetFrame function returns a handle to a given frame within a capture.
 ms.assetid: 'd40bc364-0028-4006-a6c2-6ee100366ba3'
 title: GetFrame function (Netmon.h)
 ms.topic: reference

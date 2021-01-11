@@ -1,5 +1,5 @@
 ---
-Description: When an application calls a drawing function to paint a shape, the system positions a brush at the start of the paint operation and maps a pixel in the brush bitmap to the client area at the window origin, which is the upper-left corner of the window.
+description: When an application calls a drawing function to paint a shape, the system positions a brush at the start of the paint operation and maps a pixel in the brush bitmap to the client area at the window origin, which is the upper-left corner of the window.
 ms.assetid: b951fd9a-1e87-4b17-9be8-263896c73922
 title: Brush Origin
 ms.topic: article

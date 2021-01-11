@@ -1,5 +1,5 @@
 ---
-Description: The Kerberos authentication service specifies the server principal name to ensure the identity of the computer to which it is connecting.
+description: The Kerberos authentication service specifies the server principal name to ensure the identity of the computer to which it is connecting.
 ms.assetid: 3d58db28-2e69-4e27-9f27-61529abbf750
 ms.tgt_platform: multiple
 title: Specifying the Server Principal Name

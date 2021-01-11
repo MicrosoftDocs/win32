@@ -1,5 +1,5 @@
 ---
-Description: Flag that indicates whether the pin is currently flushing. If TRUE, the pin is flushing.
+description: Flag that indicates whether the pin is currently flushing. If TRUE, the pin is flushing.
 ms.assetid: 5f5433e4-6c10-4e85-bcc7-68edea90db6b
 title: CBaseInputPin::m_bFlushing member (Amfilter.h)
 ms.topic: reference

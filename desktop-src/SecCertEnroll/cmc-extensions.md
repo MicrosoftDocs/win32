@@ -1,5 +1,5 @@
 ---
-Description: Extensions are included in a CMC request by adding them to the TaggedAttributes structure shown in the following ASN.1 syntax example. For more information, see the Attributes topic.
+description: Extensions are included in a CMC request by adding them to the TaggedAttributes structure shown in the following ASN.1 syntax example. For more information, see the Attributes topic.
 ms.assetid: 3aa9175b-f889-4d5d-8eb2-a8a42f9fe750
 title: CMC Extensions
 ms.topic: article

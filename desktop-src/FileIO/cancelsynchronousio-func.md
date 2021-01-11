@@ -1,5 +1,5 @@
 ---
-Description: Marks pending synchronous I/O operations that are issued by the specified thread as canceled.
+description: Marks pending synchronous I/O operations that are issued by the specified thread as canceled.
 ms.assetid: f362c8b2-2193-443e-bb69-78f8b4147117
 title: CancelSynchronousIo function (IoAPI.h)
 ms.topic: reference

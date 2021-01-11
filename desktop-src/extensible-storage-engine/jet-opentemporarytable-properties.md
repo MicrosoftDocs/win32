@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_OPENTEMPORARYTABLE properties"
 title: JET_OPENTEMPORARYTABLE properties (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_OPENTEMPORARYTABLE properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE

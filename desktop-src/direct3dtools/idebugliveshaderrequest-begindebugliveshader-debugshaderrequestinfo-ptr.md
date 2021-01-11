@@ -1,5 +1,5 @@
 ---
-Description: Requests to debug a shader on the GPU (live debugging) vs CPU (trace-based debugging).
+description: Requests to debug a shader on the GPU (live debugging) vs CPU (trace-based debugging).
 MS-HAID: vspixengine.IDebugLiveShaderRequest\_BeginDebugLiveShader\_DebugShaderRequestInfo\_ptr
 MSHAttr:
 - PreferredSiteName:MSDN

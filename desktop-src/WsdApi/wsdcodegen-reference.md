@@ -1,5 +1,5 @@
 ---
-Description: WsdCodeGen Reference
+description: WsdCodeGen Reference
 ms.assetid: 7cf6fc14-4d41-4983-979c-6f14d1c9cdd2
 title: WsdCodeGen Reference
 ms.topic: article

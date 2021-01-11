@@ -1,5 +1,5 @@
 ---
-Description: Modifies a Win32\_SystemDriver service.
+description: Modifies a Win32\_SystemDriver service.
 ms.assetid: 61ee3297-2a66-466e-bdba-74d683f3ea70
 ms.tgt_platform: multiple
 title: Change method of the Win32_SystemDriver class (Mbnapi.h)

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PhysicalComponent class represents a low-level or basic component within a package. A physical element that is not a link, connector, or package is a descendant (or member) of this class.
+description: The CIM\_PhysicalComponent class represents a low-level or basic component within a package. A physical element that is not a link, connector, or package is a descendant (or member) of this class.
 ms.assetid: 079874cd-5717-4662-a192-0ced16270bbd
 ms.tgt_platform: multiple
 title: CIM_PhysicalComponent class

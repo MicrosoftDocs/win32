@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnInfo.MaxLength property"
 title: ColumnInfo.MaxLength property 
 TOCTitle: 'MaxLength property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnInfo.MaxLength

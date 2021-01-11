@@ -1,5 +1,5 @@
 ---
-Description: Gets a parameter or annotation description.
+description: Gets a parameter or annotation description.
 ms.assetid: fd54eb08-a7e4-4106-b0ed-49a4da7fcadc
 title: ID3DXBaseEffect::GetParameterDesc method (D3DX9Effect.h)
 ms.topic: reference

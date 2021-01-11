@@ -1,5 +1,5 @@
 ---
-Description: The IWiaItem2 interface provides applications with the same functionality as the IWiaItem interface (the ability to query devices to discover their capabilities, to access data transfer interfaces and item properties, and to control the device).
+description: The IWiaItem2 interface provides applications with the same functionality as the IWiaItem interface (the ability to query devices to discover their capabilities, to access data transfer interfaces and item properties, and to control the device).
 ms.assetid: 4e29ea54-1ee7-4150-b26c-f8c7f41a3f08
 title: IWiaItem2 interface (Wia.h)
 ms.topic: reference

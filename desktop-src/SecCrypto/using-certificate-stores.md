@@ -1,5 +1,5 @@
 ---
-Description: CAPICOM uses digital certificates to create signatures, encrypt session encryption keys when creating enveloped messages, and decrypt encrypted session keys when an enveloped message is received.
+description: CAPICOM uses digital certificates to create signatures, encrypt session encryption keys when creating enveloped messages, and decrypt encrypted session keys when an enveloped message is received.
 ms.assetid: 018fc41a-19fd-4e4c-bfed-e0215afb5150
 title: Using Certificate Stores
 ms.topic: article

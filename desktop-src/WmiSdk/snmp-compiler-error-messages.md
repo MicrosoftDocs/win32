@@ -1,5 +1,5 @@
 ---
-Description: This section describes the various error conditions that can result when the Simple Network Management Protocol (SNMP) information module compiler parses a Management Information Base (MIB) module.
+description: This section describes the various error conditions that can result when the Simple Network Management Protocol (SNMP) information module compiler parses a Management Information Base (MIB) module.
 ms.assetid: 587a13ee-8547-435f-84bb-07f2491f85cc
 ms.tgt_platform: multiple
 title: SNMP Compiler Error Messages

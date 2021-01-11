@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseInvalidNameException methods"
 title: EsentDatabaseInvalidNameException methods
 TOCTitle: EsentDatabaseInvalidNameException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidNameException

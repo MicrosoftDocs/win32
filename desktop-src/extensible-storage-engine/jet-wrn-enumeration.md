@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_wrn enumeration"
 title: JET_wrn enumeration
 TOCTitle: JET_wrn enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_wrn

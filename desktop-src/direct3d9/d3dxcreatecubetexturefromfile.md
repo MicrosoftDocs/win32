@@ -1,5 +1,5 @@
 ---
-Description: Creates a cube texture from a file.
+description: Creates a cube texture from a file.
 ms.assetid: 7ff3b051-568c-4c77-b8a6-b626ba156eb1
 title: D3DXCreateCubeTextureFromFile function (D3dx9tex.h)
 ms.topic: reference

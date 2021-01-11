@@ -1,5 +1,5 @@
 ---
-Description: Represents a physical disk drive as seen by a computer running the Windows operating system.
+description: Represents a physical disk drive as seen by a computer running the Windows operating system.
 ms.assetid: c1fc6a1e-e725-484b-aacf-279f777e9b19
 ms.tgt_platform: multiple
 title: Win32_DiskDrive class

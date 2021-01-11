@@ -1,5 +1,5 @@
 ---
-Description: Sets the security of an open registry key in an offline registry hive.
+description: Sets the security of an open registry key in an offline registry hive.
 ms.assetid: 002866bb-1532-41ad-a4db-a32d6e1c0a6a
 title: ORSetKeySecurity function (Offreg.h)
 ms.topic: reference

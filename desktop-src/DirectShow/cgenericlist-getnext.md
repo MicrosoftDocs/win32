@@ -1,5 +1,5 @@
 ---
-Description: The GetNext method retrieves the item at the specified position, and advances the position.
+description: The GetNext method retrieves the item at the specified position, and advances the position.
 ms.assetid: d24d3388-1af9-4a62-bdb6-d3d3f5b0b97a
 title: CGenericList.GetNext method (Wxlist.h)
 ms.topic: reference

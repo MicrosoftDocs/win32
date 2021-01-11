@@ -1,5 +1,5 @@
 ---
-Description: Defines algorithms for the video processor which is use by MF\_VIDEO\_PROCESSOR\_ALGORITHM.
+description: Defines algorithms for the video processor which is use by MF\_VIDEO\_PROCESSOR\_ALGORITHM.
 ms.assetid: 3BB0836E-39E6-40FA-9BA0-C986EB587CF1
 title: MF_VIDEO_PROCESSOR_ALGORITHM_TYPE enumeration
 ms.topic: reference

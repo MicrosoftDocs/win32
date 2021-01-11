@@ -1,5 +1,5 @@
 ---
-Description: This section covers how to check on Format Support for Direct3D Feature Level Hardware using API calls.
+description: This section covers how to check on Format Support for Direct3D Feature Level Hardware using API calls.
 ms.assetid: 0C40C73E-06F3-41FA-AA27-2C0B730B357B
 title: Checking Hardware Feature Support
 ms.topic: article

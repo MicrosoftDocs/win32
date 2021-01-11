@@ -1,5 +1,5 @@
 ---
-Description: Use the WHERE clause to narrow the scope of a data, event, or schema query.
+description: Use the WHERE clause to narrow the scope of a data, event, or schema query.
 ms.assetid: b275f8e0-773d-422c-be21-b427e7a1fb6b
 ms.tgt_platform: multiple
 title: WHERE Clause (WMI)

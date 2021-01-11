@@ -1,5 +1,5 @@
 ---
-Description: Request for pipeline stages data.
+description: Request for pipeline stages data.
 MS-HAID: vspixengine.IPipeLineStagesRequest3
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotDeleteTemplateTableException members"
 title: EsentCannotDeleteTemplateTableException members
 TOCTitle: EsentCannotDeleteTemplateTableException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotDeleteTemplateTableException

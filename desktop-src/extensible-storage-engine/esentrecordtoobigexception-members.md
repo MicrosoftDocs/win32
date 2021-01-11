@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordTooBigException members"
 title: EsentRecordTooBigException members
 TOCTitle: EsentRecordTooBigException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecordTooBigException

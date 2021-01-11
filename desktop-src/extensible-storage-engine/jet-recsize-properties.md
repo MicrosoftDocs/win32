@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_RECSIZE properties"
 title: JET_RECSIZE properties (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_RECSIZE properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE

@@ -1,5 +1,5 @@
 ---
-Description: The GetBoolValue method retrieves a Boolean value (type VT\_BOOL) specified by a key.
+description: The GetBoolValue method retrieves a Boolean value (type VT\_BOOL) specified by a key.
 ms.assetid: cb5fed7a-50b5-4af1-806a-c6582409d265
 title: IPortableDeviceValues::GetBoolValue method (PortableDeviceTypes.h)
 ms.topic: reference

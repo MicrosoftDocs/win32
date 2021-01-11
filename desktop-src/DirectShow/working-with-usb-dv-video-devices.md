@@ -1,5 +1,5 @@
 ---
-Description: Working with USB DV Video Devices
+description: Working with USB DV Video Devices
 ms.assetid: 6244f006-db9f-42b2-81cd-26eba583613e
 title: Working with USB DV Video Devices
 ms.topic: article

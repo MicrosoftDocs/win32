@@ -1,5 +1,5 @@
 ---
-Description: Control code retrieves the ideal send backlog value for the underlying connection.
+description: Control code retrieves the ideal send backlog value for the underlying connection.
 ms.assetid: 03fe964b-26f7-4af7-83bf-62cc877d01a8
 title: SIO_IDEAL_SEND_BACKLOG_QUERY Control Code
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Internal.
+description: Internal.
 MS-HAID: vspixengine.OBJECTSTATETYPE
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: About Video Capture Devices
+description: About Video Capture Devices
 ms.assetid: 1bf6e64f-c3cf-45a4-9f87-1b8cf503d98b
 title: About Video Capture Devices
 ms.topic: article

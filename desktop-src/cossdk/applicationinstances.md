@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information regarding running applications.
+description: Retrieves information regarding running applications.
 ms.assetid: 148e42aa-e99e-4fa2-8b74-a7ebf82b99d0
 title: ApplicationInstances collection
 ms.topic: reference

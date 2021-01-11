@@ -1,5 +1,5 @@
 ---
-Description: Represents the configured state of a GPU partition device.
+description: Represents the configured state of a GPU partition device.
 ms.assetid: 33ec4ea2-4e79-4c84-8abe-da8308ad6702
 title: Msvm_GpuPartitionSettingData class
 ms.topic: reference

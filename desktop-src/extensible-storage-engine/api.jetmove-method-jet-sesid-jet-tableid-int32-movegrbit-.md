@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetMove method (JET_SESID, JET_TABLEID, Int32, MoveGrbit)"
 title: Api.JetMove method (JET_SESID, JET_TABLEID, Int32, MoveGrbit)
 TOCTitle: JetMove method (JET_SESID, JET_TABLEID, Int32, MoveGrbit)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetMove(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.Int32,Microsoft.Isam.Esent.Interop.MoveGrbit)

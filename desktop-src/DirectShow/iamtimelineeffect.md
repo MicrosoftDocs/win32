@@ -1,5 +1,5 @@
 ---
-Description: The IAMTimelineEffect interface provides methods for manipulating audio and video effects in DirectShow Editing Services (DES).
+description: The IAMTimelineEffect interface provides methods for manipulating audio and video effects in DirectShow Editing Services (DES).
 ms.assetid: 3cc8a5f8-3f57-4e2b-82dd-827e04c771f7
 title: IAMTimelineEffect interface (Qedit.h)
 ms.topic: reference

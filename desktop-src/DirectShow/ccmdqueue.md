@@ -1,5 +1,5 @@
 ---
-Description: The CCmdQueue class is a base class that provides a queue of CDeferredCommand objects and member functions to add, remove, check status, and invoke the queued commands.
+description: The CCmdQueue class is a base class that provides a queue of CDeferredCommand objects and member functions to add, remove, check status, and invoke the queued commands.
 ms.assetid: 6bd0f0f3-3c56-47d2-9fd8-e2863a2afa33
 title: CCmdQueue class
 ms.topic: reference

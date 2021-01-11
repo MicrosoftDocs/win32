@@ -1,5 +1,5 @@
 ---
-Description: Specifies if the take photo trigger is encapsulated into the device source.
+description: Specifies if the take photo trigger is encapsulated into the device source.
 ms.assetid: E20AB303-A8C6-4CD1-B3DC-3FE5C5D95678
 title: MF_DEVICESTREAM_TAKEPHOTO_TRIGGER attribute (Mfidl.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: A data type used for specifying the security access attributes in the registry.
+description: A data type used for specifying the security access attributes in the registry.
 title: REGSAM (Winnt.h)
 ms.topic: reference
 ms.date: 05/31/2018

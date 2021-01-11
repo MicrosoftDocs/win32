@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the value of the PrimaryVolumeSpaceRequired property to a string representing the total number of bytes required by all selected features on the volume referenced by the PrimaryVolumePath property.
+description: The installer sets the value of the PrimaryVolumeSpaceRequired property to a string representing the total number of bytes required by all selected features on the volume referenced by the PrimaryVolumePath property.
 ms.assetid: 44c89bd8-774a-4b4f-9608-9a1926ef3b7d
 title: PrimaryVolumeSpaceRequired property
 ms.topic: reference

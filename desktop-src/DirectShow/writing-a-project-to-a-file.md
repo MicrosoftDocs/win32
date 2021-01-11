@@ -1,5 +1,5 @@
 ---
-Description: Writing a Project to a File
+description: Writing a Project to a File
 ms.assetid: 84499e4f-4f45-4aa6-aa89-d95c3b6b47d0
 title: Writing a Project to a File
 ms.topic: article

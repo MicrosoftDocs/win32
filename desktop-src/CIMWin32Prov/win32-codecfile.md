@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_CodecFile&\#32;WMI class represents the audio or video codec installed on the computer system.
+description: The Win32\_CodecFile&\#32;WMI class represents the audio or video codec installed on the computer system.
 ms.assetid: 48ea3b92-0ea1-4aba-b067-bce0ec356cd2
 ms.tgt_platform: multiple
 title: Win32_CodecFile class

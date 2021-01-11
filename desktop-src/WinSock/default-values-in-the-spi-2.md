@@ -1,5 +1,5 @@
 ---
-Description: Quality of Service (QoS) implementation details.
+description: Quality of Service (QoS) implementation details.
 ms.assetid: b5e2bac6-1c93-4dc0-a15d-ff07dfebac5d
 title: Default Values in the SPI
 ms.topic: article

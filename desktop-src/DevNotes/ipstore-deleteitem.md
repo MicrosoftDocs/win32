@@ -1,5 +1,5 @@
 ---
-Description: Deletes the specified item from the protected storage.
+description: Deletes the specified item from the protected storage.
 ms.assetid: 1d071245-a563-4fba-9300-c47ca9a9d625
 title: IPStore::DeleteItem method (Pstore.h)
 ms.topic: reference

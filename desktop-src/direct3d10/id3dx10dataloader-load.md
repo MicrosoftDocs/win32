@@ -1,5 +1,5 @@
 ---
-Description: Used by a ID3DX10ThreadPump Interface to load data from a disk.
+description: Used by a ID3DX10ThreadPump Interface to load data from a disk.
 ms.assetid: e2d38ff0-9593-4da4-b179-11938d1e48d6
 title: ID3DX10DataLoader::Load method (D3DX10.h)
 ms.topic: reference

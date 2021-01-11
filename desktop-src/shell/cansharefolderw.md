@@ -1,5 +1,5 @@
 ---
-Description: Used to determine whether to show the Share this folder option in web view.
+description: Used to determine whether to show the Share this folder option in web view.
 title: CanShareFolderW function
 ms.topic: reference
 ms.date: 05/31/2018

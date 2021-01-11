@@ -1,5 +1,5 @@
 ---
-Description: Window Constants
+description: Window Constants
 ms.assetid: '8fde7460-bbe0-4064-ba36-ada7f5c5e37f'
 title: Window Constants
 ms.topic: article

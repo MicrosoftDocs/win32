@@ -1,5 +1,5 @@
 ---
-Description: Notifies the callback object that the folder view has been resized. Used by IShellFolderViewCB::MessageSFVCB.
+description: Notifies the callback object that the folder view has been resized. Used by IShellFolderViewCB::MessageSFVCB.
 title: SFVM_SIZE message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018

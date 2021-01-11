@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseNotFoundException properties"
 title: EsentDatabaseNotFoundException properties
 TOCTitle: EsentDatabaseNotFoundException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseNotFoundException

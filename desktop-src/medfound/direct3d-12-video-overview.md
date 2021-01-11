@@ -1,5 +1,5 @@
 ---
-Description: This article contains general guidance for using the Direct3D 12 video APIs.
+description: This article contains general guidance for using the Direct3D 12 video APIs.
 ms.assetid: 
 title: Direct3D 12 Video Overview
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Defines the pan/scan aperture, which is the 4&\#215;3 region of video that should be displayed in pan/scan mode.
+description: Defines the pan/scan aperture, which is the 4&\#215;3 region of video that should be displayed in pan/scan mode.
 ms.assetid: faa577fd-6572-46b9-9c6c-f91c47832cb5
 title: MF_MT_PAN_SCAN_APERTURE attribute (Mfapi.h)
 ms.topic: reference

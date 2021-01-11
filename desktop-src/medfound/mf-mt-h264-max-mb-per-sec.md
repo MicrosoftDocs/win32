@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum macroblock processing rate for an H.264 video stream.
+description: Specifies the maximum macroblock processing rate for an H.264 video stream.
 ms.assetid: 882F54D1-A963-4016-BEC7-F9C1AC5885FD
 title: MF_MT_H264_MAX_MB_PER_SEC attribute (Mfapi.h)
 ms.topic: reference

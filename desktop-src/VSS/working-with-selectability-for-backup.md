@@ -1,5 +1,5 @@
 ---
-Description: The following table describes the four types of components that can be involved with a backup operation.
+description: The following table describes the four types of components that can be involved with a backup operation.
 ms.assetid: d94e015b-6735-4a88-9d24-b73f0b5f6542
 title: Working with Selectability for Backup
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Represents an association in which a CIM\_LogicalElement object represents a resource allocated from a CIM\_ResourcePool object.
+description: Represents an association in which a CIM\_LogicalElement object represents a resource allocated from a CIM\_ResourcePool object.
 ms.assetid: 5e3c95c5-1cbb-40de-b285-0bf9b34a5ca8
 title: CIM_ElementAllocatedFromPool class
 ms.topic: reference

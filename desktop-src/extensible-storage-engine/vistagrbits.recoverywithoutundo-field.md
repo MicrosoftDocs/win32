@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaGrbits.RecoveryWithoutUndo field"
 title: VistaGrbits.RecoveryWithoutUndo field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: RecoveryWithoutUndo field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits.RecoveryWithoutUndo

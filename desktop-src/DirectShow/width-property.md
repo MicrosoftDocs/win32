@@ -1,5 +1,5 @@
 ---
-Description: The Width property sets or retrieves the width of the rectangle.
+description: The Width property sets or retrieves the width of the rectangle.
 ms.assetid: '5aca3f45-7db7-44a7-af3e-99c5bb570ceb'
 title: Width property (DirectShow)
 ms.topic: article

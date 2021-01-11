@@ -1,5 +1,5 @@
 ---
-Description: Decrypts a message by using Kerberos.
+description: Decrypts a message by using Kerberos.
 ms.assetid: 9e699f7c-f738-4702-bdef-fb2c276c38fc
 title: DecryptMessage (Kerberos) function
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTaggedNotNULLException methods"
 title: EsentTaggedNotNULLException methods
 TOCTitle: EsentTaggedNotNULLException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTaggedNotNULLException

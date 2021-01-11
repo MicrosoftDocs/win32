@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_USBHub class exposes the following methods.
+description: The CIM\_USBHub class exposes the following methods.
 ms.assetid: 702134A1-6D69-447F-9C76-16090024671C
 ms.tgt_platform: multiple
 title: CIM_USBHub Methods

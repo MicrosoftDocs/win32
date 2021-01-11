@@ -1,5 +1,5 @@
 ---
-Description: Enables advanced video processing by the Source Reader, including color space conversion, deinterlacing, video resizing, and frame-rate conversion.
+description: Enables advanced video processing by the Source Reader, including color space conversion, deinterlacing, video resizing, and frame-rate conversion.
 ms.assetid: 1055CD55-4B25-4EEC-AF1B-C84C52287F8F
 title: MF_SOURCE_READER_ENABLE_ADVANCED_VIDEO_PROCESSING attribute (Mfreadwrite.h)
 ms.topic: reference

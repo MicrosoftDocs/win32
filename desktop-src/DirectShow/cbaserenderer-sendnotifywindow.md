@@ -1,5 +1,5 @@
 ---
-Description: The SendNotifyWindow method notifies the upstream filter of the video window handle.
+description: The SendNotifyWindow method notifies the upstream filter of the video window handle.
 ms.assetid: f46390b1-d03a-4520-8c1d-b3f870d3bb0b
 title: CBaseRenderer.SendNotifyWindow method (Renbase.h)
 ms.topic: reference

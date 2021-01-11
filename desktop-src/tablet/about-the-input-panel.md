@@ -1,5 +1,5 @@
 ---
-Description: Starting with the Microsoft Windows XP Tablet PC Edition Software Development Kit (SDK) version 1.0, the system-level Tablet PC Input Panel provides a universal mechanism to accomplish text input across the Windows platform, although it does not provide programmatic access. The Tablet PC SDK version 1.5 PenInputPanel object integrates text input tools into applications.
+description: Starting with the Microsoft Windows XP Tablet PC Edition Software Development Kit (SDK) version 1.0, the system-level Tablet PC Input Panel provides a universal mechanism to accomplish text input across the Windows platform, although it does not provide programmatic access. The Tablet PC SDK version 1.5 PenInputPanel object integrates text input tools into applications.
 ms.assetid: 14fe4963-ab9b-4c78-9f17-791c68378ef0
 title: About the Input Panel
 ms.topic: article

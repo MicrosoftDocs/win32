@@ -1,5 +1,5 @@
 ---
-Description: You can use the registry functions to collect performance data.
+description: You can use the registry functions to collect performance data.
 ms.assetid: feac7b8d-1dee-462c-89dc-bec1ba045da2
 title: Using the Registry Functions to Consume Counter Data
 ms.topic: article

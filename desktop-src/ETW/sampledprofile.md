@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for sampled profile events. The following syntax is simplified from MOF code.
+description: This class is the event type class for sampled profile events. The following syntax is simplified from MOF code.
 ms.assetid: 75ea1e5e-2554-40bb-aa9d-c6d4942c5801
 title: SampledProfile class
 ms.topic: reference

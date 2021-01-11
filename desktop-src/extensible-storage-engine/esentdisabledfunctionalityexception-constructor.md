@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDisabledFunctionalityException constructor"
 title: EsentDisabledFunctionalityException constructor 
 TOCTitle: 'EsentDisabledFunctionalityException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDisabledFunctionalityException.#ctor

@@ -1,5 +1,5 @@
 ---
-Description: The PublicKey object represents a public key in a Certificate object.
+description: The PublicKey object represents a public key in a Certificate object.
 title: PublicKey object
 ms.topic: reference
 ms.date: 05/31/2018

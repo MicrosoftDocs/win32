@@ -1,5 +1,5 @@
 ---
-Description: Gets the position in the vector where the change occurred.
+description: Gets the position in the vector where the change occurred.
 ms.assetid: 00756d77-aae0-45f0-8bd4-cf68af9bdc7c
 title: IVectorChangedEventArgs::get_Index method (IVectorChangedEventArgs.h)
 ms.topic: reference

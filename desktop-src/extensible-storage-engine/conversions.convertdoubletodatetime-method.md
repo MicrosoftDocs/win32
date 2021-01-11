@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Conversions.ConvertDoubleToDateTime method"
 title: Conversions.ConvertDoubleToDateTime method 
 TOCTitle: 'ConvertDoubleToDateTime method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Conversions.ConvertDoubleToDateTime(System.Double)

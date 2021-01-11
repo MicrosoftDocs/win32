@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LOGTIME Structure"
 title: JET_LOGTIME Structure
 TOCTitle: JET_LOGTIME Structure
 ms:assetid: cb7c0b74-db7a-4e48-80b8-37b3fdf6d088

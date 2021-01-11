@@ -1,5 +1,5 @@
 ---
-Description: You can use the COM+ partitions service to install different versions of a COM+ application on a computer and run them simultaneously.
+description: You can use the COM+ partitions service to install different versions of a COM+ application on a computer and run them simultaneously.
 ms.assetid: fd22a64c-f2d8-48af-86e1-985e21b0f8fa
 title: COM+ Partitions
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the y-coordinate of the upper-left corner of the pan/scan region.
+description: Specifies the y-coordinate of the upper-left corner of the pan/scan region.
 ms.assetid: 9286d9eb-b390-4e7b-b0e8-3cd35dfab60c
 title: MFPKEY_RESIZE_PANSCANAPY Property (Wmcodecdsp.h)
 ms.topic: reference

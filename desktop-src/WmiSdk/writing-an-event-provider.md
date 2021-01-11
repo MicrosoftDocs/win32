@@ -1,5 +1,5 @@
 ---
-Description: An event provider is a COM object that supplies WMI with notifications of intrinsic and extrinsic events.
+description: An event provider is a COM object that supplies WMI with notifications of intrinsic and extrinsic events.
 ms.assetid: 075bdc65-4ea3-4f91-9823-1d2d0dc13423
 ms.tgt_platform: multiple
 title: Writing an Event Provider

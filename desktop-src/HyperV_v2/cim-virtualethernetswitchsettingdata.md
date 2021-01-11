@@ -1,5 +1,5 @@
 ---
-Description: Describes settings data for a virtual ethernet switch.
+description: Describes settings data for a virtual ethernet switch.
 ms.assetid: 462cff06-5ba6-410a-b091-5c6abab13f03
 title: CIM_VirtualEthernetSwitchSettingData class
 ms.topic: reference

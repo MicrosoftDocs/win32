@@ -1,5 +1,5 @@
 ---
-Description: Contains the verb's name.
+description: Contains the verb's name.
 ms.assetid: d18fddac-eb51-4031-a572-1bfef2f757a9
 title: FolderItemVerb.Name property (Shldisp.h)
 ms.topic: reference

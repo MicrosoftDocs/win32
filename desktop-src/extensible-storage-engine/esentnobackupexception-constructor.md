@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoBackupException constructor"
 title: EsentNoBackupException constructor 
 TOCTitle: 'EsentNoBackupException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNoBackupException.#ctor

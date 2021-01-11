@@ -1,5 +1,5 @@
 ---
-Description: Some applications translate (or shift) objects drawn in the client area.
+description: Some applications translate (or shift) objects drawn in the client area.
 ms.assetid: e319a5c6-a045-42b1-a83e-3a978172b52c
 title: Translation
 ms.topic: article

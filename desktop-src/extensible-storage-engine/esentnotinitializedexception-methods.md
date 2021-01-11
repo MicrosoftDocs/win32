@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNotInitializedException methods"
 title: EsentNotInitializedException methods
 TOCTitle: EsentNotInitializedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNotInitializedException

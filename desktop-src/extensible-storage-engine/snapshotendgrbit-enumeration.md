@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SnapshotEndGrbit enumeration"
 title: SnapshotEndGrbit enumeration (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: SnapshotEndGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.SnapshotEndGrbit

@@ -1,5 +1,5 @@
 ---
-Description: Represents a protocol controller that manages a SCSI interface.
+description: Represents a protocol controller that manages a SCSI interface.
 ms.assetid: 01ef85fc-2f05-4453-b524-7d63b647f6fb
 title: CIM_SCSIProtocolController class
 ms.topic: reference

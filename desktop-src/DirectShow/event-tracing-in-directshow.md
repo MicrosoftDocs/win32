@@ -1,5 +1,5 @@
 ---
-Description: Event Tracing in DirectShow
+description: Event Tracing in DirectShow
 ms.assetid: e78c4514-25f4-441d-bfd0-6dac4f7567fd
 title: Event Tracing in DirectShow
 ms.topic: article

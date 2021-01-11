@@ -1,5 +1,5 @@
 ---
-Description: The Peer Distribution API defines the following data types.
+description: The Peer Distribution API defines the following data types.
 ms.assetid: 5a378965-696c-4205-b9de-bdf93f00018f
 title: Peer Distribution API Data Types (Peerdist.h)
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE.cIndexes property"
 title: JET_TABLECREATE.cIndexes property 
 TOCTitle: 'cIndexes property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.cIndexes

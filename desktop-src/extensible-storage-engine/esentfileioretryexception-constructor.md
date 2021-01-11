@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIORetryException constructor"
 title: EsentFileIORetryException constructor 
 TOCTitle: 'EsentFileIORetryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileIORetryException.#ctor

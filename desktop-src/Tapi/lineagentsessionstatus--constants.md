@@ -1,5 +1,5 @@
 ---
-Description: The LINEAGENTSESSIONSTATUS\_ constants describe various agent session states.
+description: The LINEAGENTSESSIONSTATUS\_ constants describe various agent session states.
 ms.assetid: a9101c51-2288-4055-9381-4c68564361f8
 title: LINEAGENTSESSIONSTATUS_ Constants (Tapi.h)
 ms.topic: reference

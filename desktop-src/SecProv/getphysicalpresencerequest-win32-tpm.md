@@ -1,5 +1,5 @@
 ---
-Description: Returns the pending TPM physical presence operation. Use the SetPhysicalPresenceRequest method to request an operation.
+description: Returns the pending TPM physical presence operation. Use the SetPhysicalPresenceRequest method to request an operation.
 ms.assetid: c50378ae-b465-4c82-beb9-8ecb7939dae2
 title: GetPhysicalPresenceRequest method of the Win32_Tpm class
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentAttachedDatabaseMismatchException properties"
 title: EsentAttachedDatabaseMismatchException properties
 TOCTitle: EsentAttachedDatabaseMismatchException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentAttachedDatabaseMismatchException

@@ -1,5 +1,5 @@
 ---
-Description: The expert must implement the Run function. Network Monitor calls the Run function to start the expert within the expert DLL.
+description: The expert must implement the Run function. Network Monitor calls the Run function to start the expert within the expert DLL.
 ms.assetid: 9ef3941b-d9e9-4acb-97ed-5f39573f2946
 title: Run callback function (Netmon.h)
 ms.topic: reference

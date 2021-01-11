@@ -1,5 +1,5 @@
 ---
-Description: Seeking in ASF Files
+description: Seeking in ASF Files
 ms.assetid: da0d687b-f571-4623-9705-e697ba8bc04e
 title: Seeking in ASF Files (DirectShow)
 ms.topic: article

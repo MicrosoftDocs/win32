@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTableDuplicateException class"
 title: EsentTableDuplicateException class
 TOCTitle: EsentTableDuplicateException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTableDuplicateException

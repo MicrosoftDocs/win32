@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordPrimaryChangedException constructor"
 title: EsentRecordPrimaryChangedException constructor 
 TOCTitle: 'EsentRecordPrimaryChangedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecordPrimaryChangedException.#ctor

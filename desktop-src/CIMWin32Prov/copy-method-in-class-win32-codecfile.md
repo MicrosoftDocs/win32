@@ -1,5 +1,5 @@
 ---
-Description: Copies the logical codec file or directory specified in the object path to the location specified by the input parameter.
+description: Copies the logical codec file or directory specified in the object path to the location specified by the input parameter.
 ms.assetid: 77e67b01-561b-4233-899d-fa4bbf75ecf8
 ms.tgt_platform: multiple
 title: Copy method of the Win32_CodecFile class

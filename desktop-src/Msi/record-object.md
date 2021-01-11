@@ -1,5 +1,5 @@
 ---
-Description: The Record object is a container for holding and transferring a variable number of values.
+description: The Record object is a container for holding and transferring a variable number of values.
 ms.assetid: e832c19f-61a6-4e42-a10a-b7bb1705af59
 title: Record object
 ms.topic: reference

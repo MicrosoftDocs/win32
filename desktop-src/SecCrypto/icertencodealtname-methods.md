@@ -1,5 +1,5 @@
 ---
-Description: The ICertEncodeAltName interface exposes the following methods.
+description: The ICertEncodeAltName interface exposes the following methods.
 ms.assetid: 98E643E3-8ECB-42DD-BA4B-51A2D0FCB313
 title: ICertEncodeAltName Methods
 ms.topic: reference

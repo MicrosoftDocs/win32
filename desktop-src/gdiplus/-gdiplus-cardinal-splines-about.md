@@ -1,5 +1,5 @@
 ---
-Description: A cardinal spline is a sequence of individual curves joined to form a larger curve.
+description: A cardinal spline is a sequence of individual curves joined to form a larger curve.
 ms.assetid: 4fc62f00-7006-4ade-bfcc-091a3a97d889
 title: Cardinal Splines
 ms.topic: article

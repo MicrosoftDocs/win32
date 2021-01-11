@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingFileToBackupException members"
 title: EsentMissingFileToBackupException members
 TOCTitle: EsentMissingFileToBackupException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMissingFileToBackupException

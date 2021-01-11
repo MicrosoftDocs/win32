@@ -1,5 +1,5 @@
 ---
-Description: Indicates if the Device Association Endpoint Container Supports Image Casting.
+description: Indicates if the Device Association Endpoint Container Supports Image Casting.
 ms.assetid: f809b403-d25a-48fc-98c2-0880948fa671
 title: System.Devices.AepContainer.SupportsImages
 ms.topic: article

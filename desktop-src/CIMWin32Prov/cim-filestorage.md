@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_FileStorage association links the file system and the logical files addressed through the file system.
+description: The CIM\_FileStorage association links the file system and the logical files addressed through the file system.
 ms.assetid: 1d0b698b-4c57-4a1c-8b00-0a6079be8dcc
 ms.tgt_platform: multiple
 title: CIM_FileStorage class

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStartingRestoreLogTooHighException properties"
 title: EsentStartingRestoreLogTooHighException properties
 TOCTitle: EsentStartingRestoreLogTooHighException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentStartingRestoreLogTooHighException

@@ -1,5 +1,5 @@
 ---
-Description: The user SID for the component.
+description: The user SID for the component.
 ms.assetid: ac06a696-53c6-45b1-9ad1-1aa35564ce77
 title: Client.UserSID property
 ms.topic: reference

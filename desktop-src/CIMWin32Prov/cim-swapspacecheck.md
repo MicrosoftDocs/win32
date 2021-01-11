@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SwapSpaceCheck class specifies the amount of swap space that must be available on the system.
+description: The CIM\_SwapSpaceCheck class specifies the amount of swap space that must be available on the system.
 ms.assetid: c5e5ec68-bc62-4bdf-93b7-ce868e738dee
 ms.tgt_platform: multiple
 title: CIM_SwapSpaceCheck class

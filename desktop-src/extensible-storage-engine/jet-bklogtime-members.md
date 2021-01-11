@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKLOGTIME members"
 title: JET_BKLOGTIME members
 TOCTitle: JET_BKLOGTIME members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME

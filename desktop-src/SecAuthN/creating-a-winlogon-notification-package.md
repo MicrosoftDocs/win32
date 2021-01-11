@@ -1,5 +1,5 @@
 ---
-Description: A Winlogon notification package is a DLL that exports functions that handle Winlogon events. For example, when a user logs onto the system, Winlogon calls each notification package's logon event handler function to provide information about the event.
+description: A Winlogon notification package is a DLL that exports functions that handle Winlogon events. For example, when a user logs onto the system, Winlogon calls each notification package's logon event handler function to provide information about the event.
 ms.assetid: a2a26bac-93b6-4d94-94fc-42c9821935a0
 title: Creating a Winlogon Notification Package
 ms.topic: article

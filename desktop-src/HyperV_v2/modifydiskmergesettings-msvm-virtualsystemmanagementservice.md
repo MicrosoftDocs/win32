@@ -1,5 +1,5 @@
 ---
-Description: Modifies the disk merge setting data.
+description: Modifies the disk merge setting data.
 ms.assetid: 91775dc5-105a-4e38-a334-fb34dd4e59f8
 title: ModifyDiskMergeSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference

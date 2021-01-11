@@ -1,5 +1,5 @@
 ---
-Description: Destructor method.
+description: Destructor method.
 ms.assetid: 48951e4e-b7fa-4e9d-9eec-3781fb72bae4
 title: CTransformOutputPin.~CTransformOutputPin destructor (Transfrm.h)
 ms.topic: reference

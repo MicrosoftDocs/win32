@@ -1,5 +1,5 @@
 ---
-Description: The COM+ queued components service enhances the COM programming model by providing an environment in which a component can be invoked either synchronously (real-time) or asynchronously (queued).
+description: The COM+ queued components service enhances the COM programming model by providing an environment in which a component can be invoked either synchronously (real-time) or asynchronously (queued).
 ms.assetid: fd455679-b2b3-487f-8494-9ea296ce2c89
 title: Queued Components Architecture
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Represents the configured state of the security settings for.
+description: Represents the configured state of the security settings for.
 ms.assetid: c57ab966-591e-4dd9-87be-0d2b81611d5d
 title: Msvm_SecuritySettingData class
 ms.topic: reference

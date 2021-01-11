@@ -1,5 +1,5 @@
 ---
-Description: Called when a window is registered as a Shell window.
+description: Called when a window is registered as a Shell window.
 title: DShellWindowsEvents.WindowRegistered method
 ms.topic: reference
 ms.date: 05/31/2018

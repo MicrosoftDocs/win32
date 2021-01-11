@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidSettingsException properties"
 title: EsentInvalidSettingsException properties
 TOCTitle: EsentInvalidSettingsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidSettingsException

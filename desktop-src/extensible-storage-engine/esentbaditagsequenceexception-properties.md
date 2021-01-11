@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadItagSequenceException properties"
 title: EsentBadItagSequenceException properties
 TOCTitle: EsentBadItagSequenceException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBadItagSequenceException

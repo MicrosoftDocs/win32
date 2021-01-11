@@ -1,5 +1,5 @@
 ---
-Description: Specifies the mixing level, in decibels (dB), in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
+description: Specifies the mixing level, in decibels (dB), in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: fcb16d02-af4f-4626-99ee-2831172e5280
 title: AVEncDDProductionMixLevel property (Codecapi.h)
 ms.topic: reference

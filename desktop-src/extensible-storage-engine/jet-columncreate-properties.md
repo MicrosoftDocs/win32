@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_COLUMNCREATE properties"
 title: JET_COLUMNCREATE properties
 TOCTitle: JET_COLUMNCREATE properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE

@@ -1,5 +1,5 @@
 ---
-Description: These flags specify how a video source is rendered if its size does not match the output dimensions.
+description: These flags specify how a video source is rendered if its size does not match the output dimensions.
 ms.assetid: f740b732-ba05-4fda-aafb-ed04bc3efd33
 title: Resize Flags (Qedit.h)
 ms.topic: reference

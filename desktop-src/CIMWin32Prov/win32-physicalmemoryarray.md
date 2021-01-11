@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_PhysicalMemoryArray&\#160;WMI class represents details about the computer system physical memory. This includes the number of memory devices, memory capacity available, and memory type&\#8212;for example, system or video memory.
+description: The Win32\_PhysicalMemoryArray&\#160;WMI class represents details about the computer system physical memory. This includes the number of memory devices, memory capacity available, and memory type&\#8212;for example, system or video memory.
 ms.assetid: 6b553230-e1fc-46e6-b13a-02fbbd34034d
 ms.tgt_platform: multiple
 title: Win32_PhysicalMemoryArray class

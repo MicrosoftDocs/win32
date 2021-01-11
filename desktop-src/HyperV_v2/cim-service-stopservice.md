@@ -1,5 +1,5 @@
 ---
-Description: Paces the service in the stopped state.
+description: Paces the service in the stopped state.
 ms.assetid: d7469643-bccc-4f55-b2fc-d2bc2e392d84
 title: StopService method of the CIM_Service class (Hyper-V management)
 ms.topic: reference

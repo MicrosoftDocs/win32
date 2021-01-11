@@ -1,5 +1,5 @@
 ---
-Description: The flags listed in the following table specify the type of I/O bus used by the graphics adapter.
+description: The flags listed in the following table specify the type of I/O bus used by the graphics adapter.
 ms.assetid: 6c8ec020-5f12-453b-bbeb-3baabb1ca213
 title: OPM Bus Type Flags (Opmapi.h)
 ms.topic: reference

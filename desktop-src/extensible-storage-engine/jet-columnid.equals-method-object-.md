@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNID.Equals method (Object)"
 title: JET_COLUMNID.Equals method (Object)
 TOCTitle: Equals method (Object)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNID.Equals(System.Object)

@@ -1,5 +1,5 @@
 ---
-Description: Changes a shared lock to a partial lock.
+description: Changes a shared lock to a partial lock.
 ms.assetid: 82122671-b0bd-47ad-9a25-ee8ebd3779be
 title: CShareLockNH::SharedToPartial method
 ms.topic: reference

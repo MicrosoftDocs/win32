@@ -1,5 +1,5 @@
 ---
-Description: Lists the functions available in authorization APIs.
+description: Lists the functions available in authorization APIs.
 ms.assetid: c236f335-b5de-4e8b-851d-45e008791271
 title: Authorization Functions (Authorization)
 ms.topic: article

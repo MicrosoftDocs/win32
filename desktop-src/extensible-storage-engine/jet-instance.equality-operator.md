@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE.Equality operator"
 title: JET_INSTANCE.Equality operator 
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INSTANCE.op_Equality(Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.JET_INSTANCE)

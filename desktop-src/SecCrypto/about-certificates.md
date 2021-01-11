@@ -1,5 +1,5 @@
 ---
-Description: Lists topics that provide an overview of creating and publishing certificates.
+description: Lists topics that provide an overview of creating and publishing certificates.
 ms.assetid: 16d434fb-54df-4e67-8e69-ff635640f1b2
 title: About Certificates
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The MSIDEPLOYMENTCOMPLIANT property can be set to indicate to the installer that the package has been authored and tested to comply with User Account Control (UAC) in Windows Vista.
+description: The MSIDEPLOYMENTCOMPLIANT property can be set to indicate to the installer that the package has been authored and tested to comply with User Account Control (UAC) in Windows Vista.
 ms.assetid: 7ee0dc56-bb9d-4a6e-aa3e-ae4c83f583d7
 title: MSIDEPLOYMENTCOMPLIANT property
 ms.topic: reference

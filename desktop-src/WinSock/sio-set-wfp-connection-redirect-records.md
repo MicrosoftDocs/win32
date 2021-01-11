@@ -1,5 +1,5 @@
 ---
-Description: Control code sets the redirect record to the new TCP socket used for connecting redirect service.
+description: Control code sets the redirect record to the new TCP socket used for connecting redirect service.
 ms.assetid: 0AC78ED4-A6EC-4D62-919C-1EF7CDE8EE80
 title: SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS Control Code
 ms.topic: reference

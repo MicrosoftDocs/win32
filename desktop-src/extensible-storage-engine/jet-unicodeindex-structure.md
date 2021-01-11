@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_UNICODEINDEX Structure"
 title: JET_UNICODEINDEX Structure
 TOCTitle: JET_UNICODEINDEX Structure
 ms:assetid: d0b8ef74-850e-4e21-9f71-b56ec472aa0f

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetSeek method"
 title: Api.JetSeek method 
 TOCTitle: 'JetSeek method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetSeek(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.SeekGrbit)

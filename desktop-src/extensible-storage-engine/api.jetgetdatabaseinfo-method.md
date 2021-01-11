@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.JetGetDatabaseInfo method"
 title: Api.JetGetDatabaseInfo method 
 TOCTitle: 'JetGetDatabaseInfo method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.JetGetDatabaseInfo

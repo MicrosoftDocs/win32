@@ -1,5 +1,5 @@
 ---
-Description: Compacts a virtual hard disk file.
+description: Compacts a virtual hard disk file.
 ms.assetid: 1E64BD91-6FE6-4658-9EBF-615FC705B920
 title: CompactVirtualHardDisk method of the Msvm_ImageManagementService class
 ms.topic: reference

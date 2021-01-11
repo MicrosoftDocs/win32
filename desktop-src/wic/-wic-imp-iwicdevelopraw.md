@@ -1,5 +1,5 @@
 ---
-Description: Implementing IWICDevelopRaw
+description: Implementing IWICDevelopRaw
 ms.assetid: 08371790-b23b-4d2e-9aea-b2c95c854401
 title: Implementing IWICDevelopRaw
 ms.topic: article

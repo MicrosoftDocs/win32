@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an interface pointer to a storage provider.
+description: Retrieves an interface pointer to a storage provider.
 ms.assetid: 22b5b003-82fa-48f1-96db-a8d6dd70d6d1
 title: PStoreCreateInstance function (Pstore.h)
 ms.topic: reference

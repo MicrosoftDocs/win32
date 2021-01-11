@@ -1,5 +1,5 @@
 ---
-Description: Ends monitoring of inactivity.
+description: Ends monitoring of inactivity.
 ms.assetid: 26e52341-77cd-46cd-8b32-e786dfac870e
 title: EndIdleDetection function
 ms.topic: reference

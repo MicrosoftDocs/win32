@@ -1,5 +1,5 @@
 ---
-Description: A valuable feature of telephony is the small set of functions called Assisted Telephony.
+description: A valuable feature of telephony is the small set of functions called Assisted Telephony.
 ms.assetid: 1c41f52b-f8bf-410e-a966-9323a690a4d5
 title: Assisted Telephony Overview
 ms.topic: article

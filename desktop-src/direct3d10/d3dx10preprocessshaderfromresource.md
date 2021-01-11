@@ -1,5 +1,5 @@
 ---
-Description: Note  Instead of using this legacy function, we recommend that you use the D3DPreprocess API. Create a shader from a resource without compiling it.
+description: Note  Instead of using this legacy function, we recommend that you use the D3DPreprocess API. Create a shader from a resource without compiling it.
 ms.assetid: ca93e208-7627-4bf5-ab83-d4e906e149eb
 title: D3DX10PreprocessShaderFromResource function (D3DX10.h)
 ms.topic: reference

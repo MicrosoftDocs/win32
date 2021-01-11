@@ -1,5 +1,5 @@
 ---
-Description: The TAPI object represents all telephony resources to which the local computer has access, allowing an application to enumerate all local and remote addresses. A TAPI 3 application must create an instance of the TAPI object and then initialize it.
+description: The TAPI object represents all telephony resources to which the local computer has access, allowing an application to enumerate all local and remote addresses. A TAPI 3 application must create an instance of the TAPI object and then initialize it.
 ms.assetid: c4cf358f-2dc8-432a-92ed-68282ddc8a97
 title: TAPI Object
 ms.topic: article

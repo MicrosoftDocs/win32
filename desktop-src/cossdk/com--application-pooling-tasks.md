@@ -1,5 +1,5 @@
 ---
-Description: COM+ Application Pooling Tasks
+description: COM+ Application Pooling Tasks
 ms.assetid: c6884cd3-a98a-431b-9bae-37880fa4cfa6
 title: COM+ Application Pooling Tasks
 ms.topic: article

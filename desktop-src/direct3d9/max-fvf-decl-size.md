@@ -1,5 +1,5 @@
 ---
-Description: This constant is the maximum number of vertex declarators for a mesh.
+description: This constant is the maximum number of vertex declarators for a mesh.
 ms.assetid: 234e99a2-1907-4065-b03b-fb9e8d6812ab
 title: MAX_FVF_DECL_SIZE enumeration (D3dx9mesh.h)
 ms.topic: reference

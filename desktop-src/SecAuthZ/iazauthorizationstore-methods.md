@@ -1,5 +1,5 @@
 ---
-Description: The IAzAuthorizationStore interface exposes the following methods.
+description: The IAzAuthorizationStore interface exposes the following methods.
 ms.assetid: ECBCD34B-4AF0-4FED-8E1D-BFD544390804
 title: IAzAuthorizationStore Methods
 ms.topic: reference

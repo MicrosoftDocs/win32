@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVPagesNotFreeException constructor"
 title: EsentSLVPagesNotFreeException constructor 
 TOCTitle: 'EsentSLVPagesNotFreeException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotFreeException.#ctor

@@ -1,5 +1,5 @@
 ---
-Description: Wait for shutdown of the specified engine (Blocking call).
+description: Wait for shutdown of the specified engine (Blocking call).
 MS-HAID: vspixengine.IServerConnectionCallback\_WaitForShutdown\_IPixEngine\_ptr
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: Description of using the PenInputPanel object to program the system-level Tablet PC Input Panel.
+description: Description of using the PenInputPanel object to program the system-level Tablet PC Input Panel.
 ms.assetid: f83c7709-86dc-4c64-ad17-2ad660eb57b7
 title: Programming the Input Panel Using the PenInputPanel Class
 ms.topic: article

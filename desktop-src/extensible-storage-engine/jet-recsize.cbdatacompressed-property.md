@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE.cbDataCompressed property"
 title: JET_RECSIZE.cbDataCompressed property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cbDataCompressed property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.cbDataCompressed

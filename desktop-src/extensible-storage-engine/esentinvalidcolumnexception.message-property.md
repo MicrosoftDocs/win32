@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidColumnException.Message property"
 title: EsentInvalidColumnException.Message property 
 TOCTitle: 'Message property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentInvalidColumnException.Message

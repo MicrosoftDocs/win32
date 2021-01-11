@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for page fault events. The following syntax is simplified from MOF code.
+description: This class is the parent class for page fault events. The following syntax is simplified from MOF code.
 ms.assetid: cc349e75-fe81-427e-8cf9-15c76e8e4dad
 title: PageFault_V2 class
 ms.topic: reference

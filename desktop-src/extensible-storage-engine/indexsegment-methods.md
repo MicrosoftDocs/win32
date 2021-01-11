@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexSegment methods"
 title: IndexSegment methods
 TOCTitle: IndexSegment methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.IndexSegment

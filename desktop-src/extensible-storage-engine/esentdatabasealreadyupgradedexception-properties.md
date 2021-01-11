@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseAlreadyUpgradedException properties"
 title: EsentDatabaseAlreadyUpgradedException properties
 TOCTitle: EsentDatabaseAlreadyUpgradedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseAlreadyUpgradedException

@@ -1,5 +1,5 @@
 ---
-Description: The Delete&\#8194;WMI class method deletes a scheduled job.
+description: The Delete&\#8194;WMI class method deletes a scheduled job.
 ms.assetid: 064ff3f8-6d41-4f8d-a511-6c051bb48a5b
 ms.tgt_platform: multiple
 title: Delete method of the Win32_ScheduledJob class

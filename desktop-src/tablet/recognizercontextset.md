@@ -1,5 +1,5 @@
 ---
-Description: Tests whether the InkDivider object can use the InkRecognizerContext class to analyze words.
+description: Tests whether the InkDivider object can use the InkRecognizerContext class to analyze words.
 ms.assetid: fd848fcc-5258-401f-8b51-b9d57da173da
 title: RecognizerContextSet function
 ms.topic: reference

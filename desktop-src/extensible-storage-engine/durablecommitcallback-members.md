@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DurableCommitCallback members"
 title: DurableCommitCallback members (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: DurableCommitCallback members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Windows8.DurableCommitCallback

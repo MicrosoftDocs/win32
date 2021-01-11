@@ -1,5 +1,5 @@
 ---
-Description: This example creates a custom thread pool, creates a work item and a thread pool timer, and associates them with a cleanup group. The pool consists of one persistent thread.
+description: This example creates a custom thread pool, creates a work item and a thread pool timer, and associates them with a cleanup group. The pool consists of one persistent thread.
 ms.assetid: 3d349c83-8b1a-4a5b-9625-be905d613b92
 title: Using the Thread Pool Functions
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidBackupException members"
 title: EsentInvalidBackupException members
 TOCTitle: EsentInvalidBackupException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidBackupException

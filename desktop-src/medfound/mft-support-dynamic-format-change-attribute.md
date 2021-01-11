@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a Media Foundation transform (MFT) supports dynamic format changes.
+description: Specifies whether a Media Foundation transform (MFT) supports dynamic format changes.
 ms.assetid: 64d32c78-8bee-4d3c-a770-5a097cb71b13
 title: MFT_SUPPORT_DYNAMIC_FORMAT_CHANGE attribute (Mfapi.h)
 ms.topic: reference

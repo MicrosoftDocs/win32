@@ -1,5 +1,5 @@
 ---
-Description: Compresses the logical codec file (or directory) specified in the object path.
+description: Compresses the logical codec file (or directory) specified in the object path.
 ms.assetid: c53754cc-a220-428e-aaca-b7c27661f044
 ms.tgt_platform: multiple
 title: Compress method of the Win32_CodecFile class

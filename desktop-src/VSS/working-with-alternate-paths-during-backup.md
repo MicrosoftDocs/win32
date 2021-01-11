@@ -1,5 +1,5 @@
 ---
-Description: There are certain circumstances where the files to be backed up are not the default location for those files.
+description: There are certain circumstances where the files to be backed up are not the default location for those files.
 ms.assetid: b9e96827-a678-45ca-8ede-4508a406f071
 title: Working with Alternate Paths during Backup
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Serves as a parent class for all types of security classes.
+description: Serves as a parent class for all types of security classes.
 ms.assetid: 00e726b6-970a-4aa9-addb-1c52ad977728
 ms.tgt_platform: multiple
 title: '__SecurityRelatedClass class'

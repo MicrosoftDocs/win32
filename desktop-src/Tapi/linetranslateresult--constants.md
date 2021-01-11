@@ -1,5 +1,5 @@
 ---
-Description: The LINETRANSLATERESULT\_ bit-flag constants describe various results of an address translation.
+description: The LINETRANSLATERESULT\_ bit-flag constants describe various results of an address translation.
 ms.assetid: 7b834c57-d862-4fe6-828c-9e8fa20f3ec7
 title: LINETRANSLATERESULT_ Constants (Tapi.h)
 ms.topic: reference

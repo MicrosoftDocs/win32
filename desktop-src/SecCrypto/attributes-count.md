@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of Attribute objects in the collection.
+description: Retrieves the number of Attribute objects in the collection.
 ms.assetid: d5f9db7d-52a2-4feb-8d35-902caf536510
 title: Attributes.Count property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Attributes.Count property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**CryptographicAttributeObjectCollection Class**](/dotnet/api/system.security.cryptography.cryptographicattributeobjectcollection?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography**](/previous-versions/windows/) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**CryptographicAttributeObjectCollection Class**](/dotnet/api/system.security.cryptography.cryptographicattributeobjectcollection?view=dotnet-plat-ext-3.1&preserve-view=true) in the [**System.Security.Cryptography**](/previous-versions/windows/) namespace.\]
 
 The **Count** property retrieves the number of [**Attribute**](attribute.md) objects in the collection.
 

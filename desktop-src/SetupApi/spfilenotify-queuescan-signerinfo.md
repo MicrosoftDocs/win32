@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_QUEUESCAN\_SIGNERINFO notification is sent to a callback routine by SetupScanFileQueue for each node in the copy subqueue of the file queue.
+description: The SPFILENOTIFY\_QUEUESCAN\_SIGNERINFO notification is sent to a callback routine by SetupScanFileQueue for each node in the copy subqueue of the file queue.
 ms.assetid: 5b22e8ba-9a18-461b-bad7-b2d76f83d7f3
 title: SPFILENOTIFY_QUEUESCAN_SIGNERINFO message (Setupapi.h)
 ms.topic: reference

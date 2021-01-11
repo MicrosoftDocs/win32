@@ -1,5 +1,5 @@
 ---
-Description: Using the Overlay Mixer in Video Capture
+description: Using the Overlay Mixer in Video Capture
 ms.assetid: 43468fa2-6dea-439d-9e24-f47a053ad561
 title: Using the Overlay Mixer in Video Capture
 ms.topic: article

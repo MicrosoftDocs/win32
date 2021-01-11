@@ -1,5 +1,5 @@
 ---
-Description: To provide text justification, an application can use one of two methods.
+description: To provide text justification, an application can use one of two methods.
 ms.assetid: 1190baed-5959-4f7a-8946-ac3b3da85821
 title: Processing Complex Scripts
 ms.topic: article

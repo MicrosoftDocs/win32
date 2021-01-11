@@ -1,5 +1,5 @@
 ---
-Description: The CIMType qualifier contains text describing the type of a property.
+description: The CIMType qualifier contains text describing the type of a property.
 ms.assetid: ae65d4c7-2150-489b-a368-fb38c0d1b3be
 ms.tgt_platform: multiple
 title: CIMType Qualifier

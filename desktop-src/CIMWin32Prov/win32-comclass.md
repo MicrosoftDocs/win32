@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_COMClass abstract WMI class represents the properties of a Component Object Model (COM) component.
+description: The Win32\_COMClass abstract WMI class represents the properties of a Component Object Model (COM) component.
 ms.assetid: 0e1d3930-1499-423a-96b0-89b2f05a1191
 ms.tgt_platform: multiple
 title: Win32_COMClass class

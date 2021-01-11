@@ -1,5 +1,5 @@
 ---
-Description: This section of the Peer Infrastructure documentation describes the Peer Grouping APIs.
+description: This section of the Peer Infrastructure documentation describes the Peer Grouping APIs.
 ms.assetid: 'cad66729-1e4c-4f96-98ef-51f544ad1c2e'
 title: Grouping API
 ms.topic: article

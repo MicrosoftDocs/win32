@@ -1,5 +1,5 @@
 ---
-Description: Any scripting language, such as VBScript, that works with ActiveX objects can access WMI data. Applications can access WMI in C++, using the COM API for WMI or in Visual Basic, using the Wbemdisp.tlb type library and the Scripting API for WMI. .
+description: Any scripting language, such as VBScript, that works with ActiveX objects can access WMI data. Applications can access WMI in C++, using the COM API for WMI or in Visual Basic, using the Wbemdisp.tlb type library and the Scripting API for WMI. .
 ms.assetid: c0d18827-6b36-4817-8cd9-06cd0f267b28
 ms.tgt_platform: multiple
 title: Creating a WMI Application or Script
@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Creating a WMI Application or Script
 
-Any scripting language, such as VBScript, that works with ActiveX objects can access WMI data. Applications can access WMI in C++, using the [COM API for WMI](com-api-for-wmi.md) or in Visual Basic, using the Wbemdisp.tlb [type library](using-the-wmi-scripting-type-library.md) and the [Scripting API for WMI](scripting-api-for-wmi.md). . You can obtain data through WMI by writing a script, an Active Server Page (ASP), or an HTML application (HTA). You can also use Windows PowerShell to obtain data or write scripts. For more information, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script) and [Getting Started with Windows PowerShell](/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7). The TechNet ScriptCenter at [https://www.microsoft.com/technet](https://technet.microsoft.com/default.aspx) contains hundreds of scripting examples. For more information about print and online resources, see [Further Information](further-information.md).
+Any scripting language, such as VBScript, that works with ActiveX objects can access WMI data. Applications can access WMI in C++, using the [COM API for WMI](com-api-for-wmi.md) or in Visual Basic, using the Wbemdisp.tlb [type library](using-the-wmi-scripting-type-library.md) and the [Scripting API for WMI](scripting-api-for-wmi.md). . You can obtain data through WMI by writing a script, an Active Server Page (ASP), or an HTML application (HTA). You can also use Windows PowerShell to obtain data or write scripts. For more information, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script) and [Getting Started with Windows PowerShell](/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7&preserve-view=true). The TechNet ScriptCenter at [https://www.microsoft.com/technet](https://technet.microsoft.com/default.aspx) contains hundreds of scripting examples. For more information about print and online resources, see [Further Information](further-information.md).
 
 The following procedure describes how to connect to the WMI service and data store.
 

@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_ITIMEMARKPOSN
+description: LOCALE\_ITIMEMARKPOSN
 ms.assetid: 4aef2631-c05b-41e8-8f4d-f40da4143ab4
 title: LOCALE_ITIMEMARKPOSN
 ms.topic: article

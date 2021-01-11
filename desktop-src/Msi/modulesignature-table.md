@@ -1,5 +1,5 @@
 ---
-Description: The ModuleSignature Table is a required table.
+description: The ModuleSignature Table is a required table.
 ms.assetid: 09802282-72ad-43f1-8cce-4cdc68b01e87
 title: ModuleSignature Table
 ms.topic: article

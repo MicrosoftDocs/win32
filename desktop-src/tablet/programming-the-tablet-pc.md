@@ -1,5 +1,5 @@
 ---
-Description: This section provides an overview of the programming concepts unique to development for Tablet PCs, including developing for the Tablet PC, Ultra-Mobile PC, and laptop computers.
+description: This section provides an overview of the programming concepts unique to development for Tablet PCs, including developing for the Tablet PC, Ultra-Mobile PC, and laptop computers.
 ms.assetid: 5c54adf8-336d-4e49-8b5e-90c6a05438ba
 title: Programming the Tablet PC
 ms.topic: article

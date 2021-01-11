@@ -1,5 +1,5 @@
 ---
-Description: When the application is dealing with whole words, valid positions for the caret are marked by the value of the fWordStop member of the SCRIPT\_LOGATTR structure. This value is retrieved by making a call to ScriptBreak.
+description: When the application is dealing with whole words, valid positions for the caret are marked by the value of the fWordStop member of the SCRIPT\_LOGATTR structure. This value is retrieved by making a call to ScriptBreak.
 ms.assetid: c9bbfb51-727a-45ff-8450-774bc106f9f7
 title: Using Word Break Points
 ms.topic: article

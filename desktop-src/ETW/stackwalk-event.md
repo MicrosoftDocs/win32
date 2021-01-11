@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for stack tracing events.
+description: This class is the event type class for stack tracing events.
 ms.assetid: 05117bd6-a39c-42f3-8aed-c6f758f946c6
 title: StackWalk_Event class
 ms.topic: reference

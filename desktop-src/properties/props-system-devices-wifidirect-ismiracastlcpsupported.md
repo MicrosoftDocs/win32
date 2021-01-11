@@ -1,5 +1,5 @@
 ---
-Description: Indicates if link content protection is supported by the Wi-Fi Direct Device if it is Miracast capable.
+description: Indicates if link content protection is supported by the Wi-Fi Direct Device if it is Miracast capable.
 ms.assetid: 7d5e86aa-f190-4e0a-9fd8-9081d7f2ac27
 title: System.Devices.WiFiDirect.IsMiracastLcpSupported
 ms.topic: article

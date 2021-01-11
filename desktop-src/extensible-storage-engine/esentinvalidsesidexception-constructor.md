@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidSesidException constructor"
 title: EsentInvalidSesidException constructor 
 TOCTitle: 'EsentInvalidSesidException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidSesidException.#ctor

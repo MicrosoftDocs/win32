@@ -1,5 +1,5 @@
 ---
-Description: Implements the IInkAnalyzer interface.
+description: Implements the IInkAnalyzer interface.
 ms.assetid: 'f17de375-a0fe-4024-bf2a-60f8de8b0345'
 title: InkAnalyzer class (IACom.h)
 ms.topic: reference

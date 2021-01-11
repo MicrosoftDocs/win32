@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentConsistentTimeMismatchException class"
 title: EsentConsistentTimeMismatchException class
 TOCTitle: EsentConsistentTimeMismatchException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentConsistentTimeMismatchException

@@ -1,5 +1,5 @@
 ---
-Description: Designing for Security
+description: Designing for Security
 ms.assetid: 436f9d86-fbfa-4d5a-8580-fa1d4065c0aa
 title: Designing for Security
 ms.topic: article

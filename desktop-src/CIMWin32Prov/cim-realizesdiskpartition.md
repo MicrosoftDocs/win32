@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_RealizesDiskPartition class represents a disk partition on a physical media that models the creation of partitions on a raw SCSI or IDE drive.
+description: The CIM\_RealizesDiskPartition class represents a disk partition on a physical media that models the creation of partitions on a raw SCSI or IDE drive.
 ms.assetid: cc317f7d-06cd-4126-8123-6a3eb32f792e
 ms.tgt_platform: multiple
 title: CIM_RealizesDiskPartition class

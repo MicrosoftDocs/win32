@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates how to call the ShellExecute function from the Windows Explorer process.
+description: Demonstrates how to call the ShellExecute function from the Windows Explorer process.
 title: Execute In Explorer Sample
 ms.topic: article
 ms.date: 05/31/2018

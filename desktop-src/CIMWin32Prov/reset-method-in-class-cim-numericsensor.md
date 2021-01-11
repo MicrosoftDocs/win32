@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_NumericSensor class requests a reset of the logical device.
+description: The Reset method of the CIM\_NumericSensor class requests a reset of the logical device.
 ms.assetid: 58cd847f-6954-449b-8457-13870195be28
 ms.tgt_platform: multiple
 title: Reset method of the CIM_NumericSensor class

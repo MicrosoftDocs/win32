@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseInvalidIncrementalReseedException constructor"
 title: EsentDatabaseInvalidIncrementalReseedException constructor 
 TOCTitle: 'EsentDatabaseInvalidIncrementalReseedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidIncrementalReseedException.#ctor

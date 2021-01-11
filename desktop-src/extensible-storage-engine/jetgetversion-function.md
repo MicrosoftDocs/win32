@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetVersion Function"
 title: JetGetVersion Function
 TOCTitle: JetGetVersion Function
 ms:assetid: f25c3639-ae2b-4357-9947-563ef3df72c6

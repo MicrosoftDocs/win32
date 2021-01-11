@@ -1,5 +1,5 @@
 ---
-Description: The mouse cursor methods enable the application to specify a color cursor by providing a surface that contains an image.
+description: The mouse cursor methods enable the application to specify a color cursor by providing a surface that contains an image.
 ms.assetid: 300a8a6f-abcd-49c9-889b-14b12ff5c821
 title: Working with Mouse Cursors (Direct3D 9)
 ms.topic: article

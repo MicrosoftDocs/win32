@@ -1,5 +1,5 @@
 ---
-Description: Handling Disc Ejections
+description: Handling Disc Ejections
 ms.assetid: c43dd795-749b-4ca7-8510-71d62e0076b3
 title: Handling Disc Ejections
 ms.topic: article

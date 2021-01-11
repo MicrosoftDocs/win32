@@ -1,5 +1,5 @@
 ---
-Description: Modifies resource settings for a virtual switch.
+description: Modifies resource settings for a virtual switch.
 ms.assetid: 1ae2456f-921c-4ea6-b3fb-7065110063fb
 title: ModifyResourceSettings method of the Msvm_VirtualEthernetSwitchManagementService class
 ms.topic: reference

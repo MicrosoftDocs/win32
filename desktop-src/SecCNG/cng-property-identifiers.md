@@ -1,5 +1,5 @@
 ---
-Description: Used with the BCryptGetProperty and BCryptSetProperty functions to identify a property.
+description: Used with the BCryptGetProperty and BCryptSetProperty functions to identify a property.
 ms.assetid: ebcc8202-94b4-47ad-9918-e5bc843a258f
 title: Cryptography Primitive Property Identifiers (Bcrypt.h)
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPermissionDeniedException properties"
 title: EsentPermissionDeniedException properties
 TOCTitle: EsentPermissionDeniedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentPermissionDeniedException

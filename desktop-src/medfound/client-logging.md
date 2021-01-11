@@ -1,5 +1,5 @@
 ---
-Description: Client Logging
+description: Client Logging
 ms.assetid: f91b48ae-3989-4c1d-929c-8ab28d7c8177
 title: Client Logging (Microsoft Media Foundation)
 ms.topic: article

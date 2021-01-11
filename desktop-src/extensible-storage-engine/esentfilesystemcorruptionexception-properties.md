@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileSystemCorruptionException properties"
 title: EsentFileSystemCorruptionException properties
 TOCTitle: EsentFileSystemCorruptionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFileSystemCorruptionException

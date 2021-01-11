@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNDEF.ContentEquals method"
 title: JET_COLUMNDEF.ContentEquals method 
 TOCTitle: 'ContentEquals method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNDEF.ContentEquals(Microsoft.Isam.Esent.Interop.JET_COLUMNDEF)

@@ -1,5 +1,5 @@
 ---
-Description: A list of the features available in Direct3D 10 is here. This page lists the Direct3D 9 features that are no longer supported in Direct3D 10.
+description: A list of the features available in Direct3D 10 is here. This page lists the Direct3D 9 features that are no longer supported in Direct3D 10.
 ms.assetid: ad3eff8e-a225-47c0-a53f-b1a3c94bcaac
 title: Deprecated Features (Direct3D 10)
 ms.topic: article

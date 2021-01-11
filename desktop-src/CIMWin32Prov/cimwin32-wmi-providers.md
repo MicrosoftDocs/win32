@@ -1,5 +1,5 @@
 ---
-Description: The CIMWin32 WMI providers support the classes implemented in CimWin32.dll, and consist of the core CIM WMI classes, the Win32 implementation of those classes, and power management events.
+description: The CIMWin32 WMI providers support the classes implemented in CimWin32.dll, and consist of the core CIM WMI classes, the Win32 implementation of those classes, and power management events.
 ms.assetid: 6259ADE5-B564-46D6-88D3-2C0DA5EFAEA5
 ms.tgt_platform: multiple
 title: CIMWin32 WMI Providers

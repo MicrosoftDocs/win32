@@ -1,5 +1,5 @@
 ---
-Description: Constructs an APDU command that initiates one of the listed operations.
+description: Constructs an APDU command that initiates one of the listed operations.
 ms.assetid: 2ce313b9-ccd7-4be0-a91f-d0747e35fab8
 title: ISCardISO7816::WriteRecord method (Scardssp.h)
 ms.topic: reference

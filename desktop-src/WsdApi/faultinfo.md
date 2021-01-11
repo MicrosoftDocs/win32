@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether parameters used to pass fault information are included in generated functions.
+description: Specifies whether parameters used to pass fault information are included in generated functions.
 ms.assetid: aba78d50-f884-416a-b022-bb03416aad11
 title: faultInfo element
 ms.topic: reference

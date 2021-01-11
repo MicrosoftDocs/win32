@@ -1,5 +1,5 @@
 ---
-Description: Stops a named service.
+description: Stops a named service.
 ms.assetid: AC22C91E-BBC6-4a2e-8D39-F9D7C0AC0947
 title: Shell.ServiceStop method (Shldisp.h)
 ms.topic: reference

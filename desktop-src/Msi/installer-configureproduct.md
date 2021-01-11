@@ -1,5 +1,5 @@
 ---
-Description: The ConfigureProduct method of the Installer object installs or uninstalls a product.
+description: The ConfigureProduct method of the Installer object installs or uninstalls a product.
 ms.assetid: 1215a03f-6c96-4416-881f-0071c1b3c5df
 title: Installer.ConfigureProduct method
 ms.topic: reference

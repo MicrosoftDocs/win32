@@ -1,5 +1,5 @@
 ---
-Description: Contains a wired network profile.
+description: Contains a wired network profile.
 ms.assetid: f5f9fcdc-febf-4730-8be4-5e1885d9ab08
 title: LANProfile Element
 ms.topic: reference

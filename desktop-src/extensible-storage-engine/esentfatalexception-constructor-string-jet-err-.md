@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFatalException constructor (String, JET_err)"
 title: EsentFatalException constructor (String, JET_err)
 TOCTitle: EsentFatalException constructor (String, JET_err)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFatalException.#ctor(System.String,Microsoft.Isam.Esent.Interop.JET_err)

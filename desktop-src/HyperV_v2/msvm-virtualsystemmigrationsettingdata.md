@@ -1,5 +1,5 @@
 ---
-Description: Represents the migration settings for migrating a virtual system and the storage attached to a virtual system.
+description: Represents the migration settings for migrating a virtual system and the storage attached to a virtual system.
 ms.assetid: 2d632fe2-31ee-4e4d-b2a6-c1d1f3b4d624
 title: Msvm_VirtualSystemMigrationSettingData class
 ms.topic: reference

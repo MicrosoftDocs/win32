@@ -1,5 +1,5 @@
 ---
-Description: Data error rate, in bit errors per second, for a video media type.
+description: Data error rate, in bit errors per second, for a video media type.
 ms.assetid: 90433ff4-a563-4751-86d9-caac0cc58194
 title: MF_MT_AVG_BIT_ERROR_RATE attribute (Mfapi.h)
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNDEF.coltyp property"
 title: JET_COLUMNDEF.coltyp property 
 TOCTitle: 'coltyp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNDEF.coltyp

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCheckpointDepthTooDeepException members"
 title: EsentCheckpointDepthTooDeepException members
 TOCTitle: EsentCheckpointDepthTooDeepException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCheckpointDepthTooDeepException

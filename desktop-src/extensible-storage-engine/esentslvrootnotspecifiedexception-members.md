@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVRootNotSpecifiedException members"
 title: EsentSLVRootNotSpecifiedException members
 TOCTitle: EsentSLVRootNotSpecifiedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVRootNotSpecifiedException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnNoChunkException methods"
 title: EsentColumnNoChunkException methods
 TOCTitle: EsentColumnNoChunkException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentColumnNoChunkException

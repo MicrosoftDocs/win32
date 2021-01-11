@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotIndexException methods"
 title: EsentCannotIndexException methods
 TOCTitle: EsentCannotIndexException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCannotIndexException

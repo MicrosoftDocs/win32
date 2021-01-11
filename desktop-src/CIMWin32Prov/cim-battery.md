@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Battery class represents the capabilities and management of the battery logical device. This class applies to batteries in laptop systems and other internal and external batteries.
+description: The CIM\_Battery class represents the capabilities and management of the battery logical device. This class applies to batteries in laptop systems and other internal and external batteries.
 ms.assetid: af127b7a-021b-4cd8-af1b-176aff760858
 ms.tgt_platform: multiple
 title: CIM_Battery class

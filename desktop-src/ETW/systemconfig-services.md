@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for service configuration events.
+description: This class is the event type class for service configuration events.
 ms.assetid: 7cba9992-d154-44b8-87d8-b46a8438f607
 title: SystemConfig_Services class
 ms.topic: reference

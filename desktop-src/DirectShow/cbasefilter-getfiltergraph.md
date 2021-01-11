@@ -1,5 +1,5 @@
 ---
-Description: The GetFilterGraph method retrieves a pointer to the filter graph manager.
+description: The GetFilterGraph method retrieves a pointer to the filter graph manager.
 ms.assetid: 80b41272-2ca1-40db-8624-0d99d66f3c34
 title: CBaseFilter.GetFilterGraph method (Amfilter.h)
 ms.topic: reference

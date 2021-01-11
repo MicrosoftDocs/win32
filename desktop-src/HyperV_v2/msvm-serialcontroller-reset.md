@@ -1,5 +1,5 @@
 ---
-Description: Resets the device.
+description: Resets the device.
 ms.assetid: 4ac8ee27-0629-45aa-80ee-f308c044d7fc
 title: Reset method of the Msvm_SerialController class
 ms.topic: reference

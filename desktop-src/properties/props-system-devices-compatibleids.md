@@ -1,5 +1,5 @@
 ---
-Description: Compatible Ids.
+description: Compatible Ids.
 ms.assetid: 9777a229-3e40-4a3d-9965-61a1e3ec3aef
 title: System.Devices.CompatibleIds
 ms.topic: article

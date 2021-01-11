@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: StringColumnValue.Length property"
 title: StringColumnValue.Length property 
 TOCTitle: 'Length property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.StringColumnValue.Length

@@ -1,5 +1,5 @@
 ---
-Description: Stop the collector quickly, discarding all the queued data.
+description: Stop the collector quickly, discarding all the queued data.
 ms.assetid: 9d96a94b-21ae-40bd-9c7f-b466ca38dce3
 ms.tgt_platform: multiple
 title: FastShutdown method of the Control class

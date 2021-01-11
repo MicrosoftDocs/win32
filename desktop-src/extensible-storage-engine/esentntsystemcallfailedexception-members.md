@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNTSystemCallFailedException members"
 title: EsentNTSystemCallFailedException members
 TOCTitle: EsentNTSystemCallFailedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentNTSystemCallFailedException

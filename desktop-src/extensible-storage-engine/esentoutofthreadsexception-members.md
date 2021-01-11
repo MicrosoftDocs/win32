@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfThreadsException members"
 title: EsentOutOfThreadsException members
 TOCTitle: EsentOutOfThreadsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfThreadsException

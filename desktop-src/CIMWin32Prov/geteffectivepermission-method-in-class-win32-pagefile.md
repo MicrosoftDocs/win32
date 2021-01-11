@@ -1,5 +1,5 @@
 ---
-Description: Determines whether the user has all of the required permissions specified in the Permissions parameter identified for the Win32\_PageFile object, directory, and share where the paging file is located, if the file or directory are on a share.
+description: Determines whether the user has all of the required permissions specified in the Permissions parameter identified for the Win32\_PageFile object, directory, and share where the paging file is located, if the file or directory are on a share.
 ms.assetid: 1c417ac2-6968-4faf-b596-8df9308f8647
 ms.tgt_platform: multiple
 title: GetEffectivePermission method of the Win32_PageFile class (Aclui.h)

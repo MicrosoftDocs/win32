@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OPENTEMPORARYTABLE.ToString method"
 title: JET_OPENTEMPORARYTABLE.ToString method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE.ToString

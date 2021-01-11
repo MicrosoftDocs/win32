@@ -1,5 +1,5 @@
 ---
-Description: To enable installer functionality, an application must call a number of functions when it is initializing.
+description: To enable installer functionality, an application must call a number of functions when it is initializing.
 ms.assetid: cfeaf9b9-f772-49f9-8b6f-e7fd0c93cc9f
 title: Initializing an Application
 ms.topic: article

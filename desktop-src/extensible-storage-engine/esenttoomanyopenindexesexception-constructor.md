@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyOpenIndexesException constructor"
 title: EsentTooManyOpenIndexesException constructor 
 TOCTitle: 'EsentTooManyOpenIndexesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyOpenIndexesException.#ctor

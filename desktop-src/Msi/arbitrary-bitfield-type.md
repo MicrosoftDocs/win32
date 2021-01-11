@@ -1,5 +1,5 @@
 ---
-Description: The &\#0034;Bitfield&\#0034; type with no context requests that the user provide an integer whose value is used to set one or more bits in a bitfield. This text may be in any language compatible with the code page of the database.
+description: The &\#0034;Bitfield&\#0034; type with no context requests that the user provide an integer whose value is used to set one or more bits in a bitfield. This text may be in any language compatible with the code page of the database.
 ms.assetid: 28e1bdb9-a42d-46ce-ad24-71bc22e2d92a
 title: Arbitrary Bitfield Type
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server2003Api.JetOSSnapshotAbort method"
 title: Server2003Api.JetOSSnapshotAbort method  (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: 'JetOSSnapshotAbort method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Server2003.Server2003Api.JetOSSnapshotAbort(Microsoft.Isam.Esent.Interop.JET_OSSNAPID,Microsoft.Isam.Esent.Interop.Server2003.SnapshotAbortGrbit)

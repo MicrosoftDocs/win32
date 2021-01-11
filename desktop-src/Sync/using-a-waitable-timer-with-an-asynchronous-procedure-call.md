@@ -1,5 +1,5 @@
 ---
-Description: The following example associates an asynchronous procedure call (APC) function, also known as a completion routine, with a waitable timer when the timer is set.
+description: The following example associates an asynchronous procedure call (APC) function, also known as a completion routine, with a waitable timer when the timer is set.
 ms.assetid: aea3c080-caf2-4c16-adc5-51357a0340b8
 title: Using Waitable Timers with an Asynchronous Procedure Call
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS.cPageDirtied property"
 title: JET_THREADSTATS.cPageDirtied property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cPageDirtied property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.cPageDirtied

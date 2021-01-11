@@ -1,5 +1,5 @@
 ---
-Description: The SourceListInfo property of the Product object gets and sets the source information properties for a product. This property calls MsiSourceListGetInfo or MsiSourceListSetInfo. This is a read or write property.
+description: The SourceListInfo property of the Product object gets and sets the source information properties for a product. This property calls MsiSourceListGetInfo or MsiSourceListSetInfo. This is a read or write property.
 ms.assetid: 3a2c4af5-592f-4acd-b7d8-df163e00b1e2
 title: Product.SourceListInfo property
 ms.topic: reference

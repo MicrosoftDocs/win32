@@ -1,5 +1,5 @@
 ---
-Description: Used to verify that a message has not been changed during transit.
+description: Used to verify that a message has not been changed during transit.
 ms.assetid: a4bb67fb-8217-4e76-b1bf-461ccd39f58a
 title: 'Example C Program: Creating an HMAC'
 ms.topic: article

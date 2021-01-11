@@ -1,5 +1,5 @@
 ---
-Description: Defines the type that defines valid values for the Type attribute of the Content element \[Journal Reader\].
+description: Defines the type that defines valid values for the Type attribute of the Content element \[Journal Reader\].
 ms.assetid: f38f7a7e-a517-4156-9c60-e1b6d35baa07
 title: ContentTypeType Simple Type
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDiskReadVerificationFailureException class"
 title: EsentDiskReadVerificationFailureException class
 TOCTitle: EsentDiskReadVerificationFailureException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDiskReadVerificationFailureException

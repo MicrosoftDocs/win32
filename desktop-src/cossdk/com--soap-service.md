@@ -1,5 +1,5 @@
 ---
-Description: COM+ SOAP Service
+description: COM+ SOAP Service
 ms.assetid: b6287cbe-9870-464e-82de-090cd16c108e
 title: COM+ SOAP Service
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: CSIDL (constant special item ID list) values provide a unique system-independent way to identify special folders used frequently by applications, but which may not have the same name or location on any given system.
+description: CSIDL (constant special item ID list) values provide a unique system-independent way to identify special folders used frequently by applications, but which may not have the same name or location on any given system.
 title: CSIDL (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018

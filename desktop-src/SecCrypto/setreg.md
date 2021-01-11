@@ -1,5 +1,5 @@
 ---
-Description: The SetReg tool sets the value of the registry keys that control the behavior of the Authenticode certificate verification process.
+description: The SetReg tool sets the value of the registry keys that control the behavior of the Authenticode certificate verification process.
 ms.assetid: 6c456a59-ee6c-420d-b075-7de8bd2fd8ff
 title: SetReg
 ms.topic: article

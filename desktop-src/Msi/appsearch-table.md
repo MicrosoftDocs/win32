@@ -1,5 +1,5 @@
 ---
-Description: The AppSearch table contains properties needed to search for a file having a particular file signature. The AppSearch table can also be used to set a property to the existing value of a registry or .ini file entry.
+description: The AppSearch table contains properties needed to search for a file having a particular file signature. The AppSearch table can also be used to set a property to the existing value of a registry or .ini file entry.
 ms.assetid: d560096f-6baa-4fea-8786-f4e3d5ee6bf4
 title: AppSearch Table
 ms.topic: article

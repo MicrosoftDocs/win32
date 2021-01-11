@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for creating the IWICImagingFactory.
+description: Proxy function for creating the IWICImagingFactory.
 ms.assetid: e4f575b0-878f-461e-92e7-9494e505ea6f
 title: WICCreateImagingFactory_Proxy function
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Not used. Use D3DXPATCHMESHTYPE instead to specify mesh patch types.
+description: Not used. Use D3DXPATCHMESHTYPE instead to specify mesh patch types.
 ms.assetid: 1e7f4e8c-ffc5-49e7-9423-98404ddde109
 title: D3DXPATCHMESH enumeration (D3dx9mesh.h)
 ms.topic: reference

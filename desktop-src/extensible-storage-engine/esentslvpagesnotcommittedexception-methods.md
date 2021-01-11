@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVPagesNotCommittedException methods"
 title: EsentSLVPagesNotCommittedException methods
 TOCTitle: EsentSLVPagesNotCommittedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotCommittedException

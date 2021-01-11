@@ -1,5 +1,5 @@
 ---
-Description: Demux Clock Behavior
+description: Demux Clock Behavior
 ms.assetid: c8a067f7-4e4c-4f25-b26c-f6bb048060b0
 title: Demux Clock Behavior
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: DirectShow functions
+description: DirectShow functions
 ms.assetid: '5bf62e2a-7d5f-4feb-872a-54d102759824'
 title: Functions
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Navigation topic for Windows Sockets (Winsock) socket IOCTLs.
+description: Navigation topic for Windows Sockets (Winsock) socket IOCTLs.
 ms.assetid: 6a63c2c9-4e09-4a62-b39f-3ccb26287da8
 title: Winsock IOCTLs (Winsock2.h)
 ms.topic: reference

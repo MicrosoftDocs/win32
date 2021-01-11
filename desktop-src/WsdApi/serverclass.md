@@ -1,5 +1,5 @@
 ---
-Description: Specifies the name of the host-side server class.
+description: Specifies the name of the host-side server class.
 ms.assetid: b0d9a126-0f69-4d07-ae18-07aa49ee2666
 title: serverClass element
 ms.topic: reference

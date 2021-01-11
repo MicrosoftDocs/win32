@@ -1,5 +1,5 @@
 ---
-Description: The ODBCDriver table lists the ODBC drivers belonging to the installation.
+description: The ODBCDriver table lists the ODBC drivers belonging to the installation.
 ms.assetid: 3518b370-0652-4b54-8057-9871365d5e8c
 title: ODBCDriver Table
 ms.topic: article

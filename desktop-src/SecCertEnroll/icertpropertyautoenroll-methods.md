@@ -1,5 +1,5 @@
 ---
-Description: The ICertPropertyAutoEnroll interface exposes the following methods.
+description: The ICertPropertyAutoEnroll interface exposes the following methods.
 ms.assetid: D74C6A40-987F-4A01-97B7-509B79A3002A
 title: ICertPropertyAutoEnroll Methods
 ms.topic: reference

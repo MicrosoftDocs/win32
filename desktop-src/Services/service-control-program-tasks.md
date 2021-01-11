@@ -1,5 +1,5 @@
 ---
-Description: 'The following tasks are performed by service control programs:'
+description: 'The following tasks are performed by service control programs:'
 ms.assetid: 4c4067b5-98a5-4d25-9d2d-9e0fe48d9373
 title: Service Control Program Tasks
 ms.topic: article

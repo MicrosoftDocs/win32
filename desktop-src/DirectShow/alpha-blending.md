@@ -1,5 +1,5 @@
 ---
-Description: Alpha Blending
+description: Alpha Blending
 ms.assetid: 56618e74-32cc-48f8-83b6-4fc31ab6fc36
 title: Alpha Blending (DirectShow)
 ms.topic: article

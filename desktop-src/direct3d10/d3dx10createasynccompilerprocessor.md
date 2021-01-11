@@ -1,5 +1,5 @@
 ---
-Description: Create an asynchronous-data processor for a shader.
+description: Create an asynchronous-data processor for a shader.
 ms.assetid: e23290fa-ccd7-4703-ae6b-4fffe352875e
 title: D3DX10CreateAsyncCompilerProcessor function (D3DX10Async.h)
 ms.topic: reference

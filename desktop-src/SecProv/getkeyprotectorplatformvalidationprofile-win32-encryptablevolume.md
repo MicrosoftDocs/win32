@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the platform validation profile for a given key protector of the appropriate type.
+description: Retrieves the platform validation profile for a given key protector of the appropriate type.
 ms.assetid: 45fa6ba7-169c-4753-8586-0029a7650acc
 title: GetKeyProtectorPlatformValidationProfile method of the Win32_EncryptableVolume class
 ms.topic: reference

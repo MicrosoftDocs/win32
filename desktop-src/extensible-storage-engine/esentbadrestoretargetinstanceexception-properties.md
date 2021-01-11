@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadRestoreTargetInstanceException properties"
 title: EsentBadRestoreTargetInstanceException properties
 TOCTitle: EsentBadRestoreTargetInstanceException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBadRestoreTargetInstanceException

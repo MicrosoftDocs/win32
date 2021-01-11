@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnNotUpdatableException members"
 title: EsentColumnNotUpdatableException members
 TOCTitle: EsentColumnNotUpdatableException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnNotUpdatableException

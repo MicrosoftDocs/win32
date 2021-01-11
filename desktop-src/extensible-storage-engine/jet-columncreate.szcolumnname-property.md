@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNCREATE.szColumnName property"
 title: JET_COLUMNCREATE.szColumnName property 
 TOCTitle: 'szColumnName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE.szColumnName

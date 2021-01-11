@@ -1,5 +1,5 @@
 ---
-Description: Internal.
+description: Internal.
 MS-HAID: vspixengine.REGISTER\_FORMAT
 MSHAttr:
 - PreferredSiteName:MSDN

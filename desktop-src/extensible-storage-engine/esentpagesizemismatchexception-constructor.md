@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPageSizeMismatchException constructor"
 title: EsentPageSizeMismatchException constructor 
 TOCTitle: 'EsentPageSizeMismatchException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentPageSizeMismatchException.#ctor

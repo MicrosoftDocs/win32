@@ -1,5 +1,5 @@
 ---
-Description: Associates a cryptographic session with a DirectX Video Acceleration 2 (DXVA-2) decoder device and a Direct3D device.
+description: Associates a cryptographic session with a DirectX Video Acceleration 2 (DXVA-2) decoder device and a Direct3D device.
 ms.assetid: d40fead7-8a86-426e-933e-13df21cdf50b
 title: D3DAUTHENTICATEDCONFIGURE_CRYPTOSESSION (D3d9types.h)
 ms.topic: reference

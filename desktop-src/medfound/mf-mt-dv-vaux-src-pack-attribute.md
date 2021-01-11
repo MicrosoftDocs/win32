@@ -1,5 +1,5 @@
 ---
-Description: Video auxiliary (VAUX) source pack in a digital video (DV) media type.
+description: Video auxiliary (VAUX) source pack in a digital video (DV) media type.
 ms.assetid: 4263032f-9093-4c7a-9ca0-14f8dc0d1aef
 title: MF_MT_DV_VAUX_SRC_PACK attribute (Mfapi.h)
 ms.topic: reference

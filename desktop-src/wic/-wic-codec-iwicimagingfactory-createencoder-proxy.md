@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateEncoder method.
+description: Proxy function for the CreateEncoder method.
 ms.assetid: e3ffad7f-eb0e-481d-81ee-caf18e14ba59
 title: IWICImagingFactory_CreateEncoder_Proxy function
 ms.topic: reference

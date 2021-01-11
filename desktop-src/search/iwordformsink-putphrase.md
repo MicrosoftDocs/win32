@@ -1,5 +1,5 @@
 ---
-Description: Puts an alternative form of a word in the IWordFormSink object.
+description: Puts an alternative form of a word in the IWordFormSink object.
 ms.assetid: 4F6A3E88-A17C-4CA3-849D-FF0DC06D5DC3
 title: IWordFormSink::PutAltWord method (Search.h)
 ms.topic: reference

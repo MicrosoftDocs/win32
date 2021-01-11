@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LsGrbit enumeration"
 title: LsGrbit enumeration
 TOCTitle: LsGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.LsGrbit

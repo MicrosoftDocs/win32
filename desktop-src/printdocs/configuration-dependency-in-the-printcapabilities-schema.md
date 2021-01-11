@@ -1,6 +1,6 @@
 ---
 title: PrintCapabilities Configuration Dependency 
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 9b1f3f49-2a4a-4413-9708-a430011314e6
 ms.topic: article
 ms.date: 05/31/2018

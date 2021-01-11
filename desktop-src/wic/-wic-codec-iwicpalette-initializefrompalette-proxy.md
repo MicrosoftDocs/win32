@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the InitializeFromPalette method.
+description: Proxy function for the InitializeFromPalette method.
 ms.assetid: e7156cae-8d59-4dbd-8845-0e892e10107b
 title: IWICPalette_InitializeFromPalette_Proxy function
 ms.topic: reference

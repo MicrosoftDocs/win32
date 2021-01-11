@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE.Add method"
 title: JET_RECSIZE.Add method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'Add method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.Add(Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE,Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE)

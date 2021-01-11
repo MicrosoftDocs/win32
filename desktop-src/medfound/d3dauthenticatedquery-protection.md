@@ -1,5 +1,5 @@
 ---
-Description: Returns the current protection level for the device.
+description: Returns the current protection level for the device.
 ms.assetid: 335d21e8-2a98-4824-a60d-1969a40e8d24
 title: D3DAUTHENTICATEDQUERY_PROTECTION (D3d9types.h)
 ms.topic: reference

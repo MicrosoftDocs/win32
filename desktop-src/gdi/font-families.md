@@ -1,5 +1,5 @@
 ---
-Description: A font family is a set of fonts having common stroke width and serif characteristics. There are five font families. A sixth family allows an application to use the default font. The following table describes the font-families.
+description: A font family is a set of fonts having common stroke width and serif characteristics. There are five font families. A sixth family allows an application to use the default font. The following table describes the font-families.
 ms.assetid: 3c462000-4f65-43d0-8937-059081a8c417
 title: Font Families
 ms.topic: article

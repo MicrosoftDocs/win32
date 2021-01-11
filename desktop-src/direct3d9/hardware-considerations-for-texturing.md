@@ -1,5 +1,5 @@
 ---
-Description: Current hardware does not necessarily implement all the functionality that the Direct3D interface enables. Your application must test user hardware and adjust its rendering strategies accordingly.
+description: Current hardware does not necessarily implement all the functionality that the Direct3D interface enables. Your application must test user hardware and adjust its rendering strategies accordingly.
 ms.assetid: 7b5f586c-616c-4351-b6b9-5c0179db5d8b
 title: Hardware Considerations for Texturing (Direct3D 9)
 ms.topic: article

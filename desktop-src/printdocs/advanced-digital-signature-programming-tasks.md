@@ -1,5 +1,5 @@
 ---
-Description: This section describes the tasks that support programming with XPS Digital Signature API.
+description: This section describes the tasks that support programming with XPS Digital Signature API.
 ms.assetid: e083f3bd-b2c5-429c-b18c-d7c443ec9abb
 title: Additional Digital Signature Programming Tasks
 ms.topic: article

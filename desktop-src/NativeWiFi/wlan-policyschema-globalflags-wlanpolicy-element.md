@@ -1,5 +1,5 @@
 ---
-Description: Contains the global settings for the Auto Configuration Module (ACM).
+description: Contains the global settings for the Auto Configuration Module (ACM).
 ms.assetid: fb2b96d0-38cc-44fe-a82a-97e73b6a8f2a
 title: globalFlags (WLANPolicy) Element
 ms.topic: reference

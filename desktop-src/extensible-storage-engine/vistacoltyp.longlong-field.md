@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaColtyp.LongLong field"
 title: VistaColtyp.LongLong field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: LongLong field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaColtyp.LongLong

@@ -1,5 +1,5 @@
 ---
-Description: Callback to return the instructions generated from creating a shader trace.
+description: Callback to return the instructions generated from creating a shader trace.
 MS-HAID: vspixengine.IDebugShaderCallback
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: Windows GDI+ provides the GetImageDecoders function so that you can determine which image decoders are available on your computer.
+description: Windows GDI+ provides the GetImageDecoders function so that you can determine which image decoders are available on your computer.
 ms.assetid: 793e23de-d959-4feb-8bf6-647a455c85ae
 title: Listing Installed Decoders
 ms.topic: article

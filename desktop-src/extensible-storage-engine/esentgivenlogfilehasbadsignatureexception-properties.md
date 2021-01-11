@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentGivenLogFileHasBadSignatureException properties"
 title: EsentGivenLogFileHasBadSignatureException properties
 TOCTitle: EsentGivenLogFileHasBadSignatureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentGivenLogFileHasBadSignatureException

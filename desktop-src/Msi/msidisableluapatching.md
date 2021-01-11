@@ -1,5 +1,5 @@
 ---
-Description: Set the MSIDISABLELUAPATCHING property to 1 on the command line or in the Property table to prevent least-privilege patching of an application.
+description: Set the MSIDISABLELUAPATCHING property to 1 on the command line or in the Property table to prevent least-privilege patching of an application.
 ms.assetid: bf6b8794-332e-4069-8d6f-6d8dc9b01866
 title: MSIDISABLELUAPATCHING property
 ms.topic: reference

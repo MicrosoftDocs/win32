@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the subject name from the signing certificate.
+description: Retrieves the subject name from the signing certificate.
 ms.assetid: e50b1e12-ec89-4d58-aa57-dc24aa2409ef
 title: ISCrdEnr::getSigningCertificateName method
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Callback from engine to return progress.
+description: Callback from engine to return progress.
 MS-HAID: vspixengine.IPixProgressCallback
 MSHAttr:
 - PreferredSiteName:MSDN

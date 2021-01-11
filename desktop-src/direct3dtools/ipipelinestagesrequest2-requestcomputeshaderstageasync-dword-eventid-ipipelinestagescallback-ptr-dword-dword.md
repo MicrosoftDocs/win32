@@ -1,5 +1,5 @@
 ---
-Description: An asynchronous request to get whether the compute shader stage was used for the specified frame and event.
+description: An asynchronous request to get whether the compute shader stage was used for the specified frame and event.
 MS-HAID: vspixengine.IPipeLineStagesRequest2\_RequestComputeShaderStageAsync\_DWORD\_EventID\_IPipeLineStagesCallback\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

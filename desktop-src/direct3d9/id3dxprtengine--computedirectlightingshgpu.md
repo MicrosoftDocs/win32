@@ -1,5 +1,5 @@
 ---
-Description: Uses the GPU to compute the direct lighting contribution to 3D objects where the source radiance is represented by a spherical harmonic (SH) approximation. Computing the lighting on the GPU will generally be much faster than on the CPU.
+description: Uses the GPU to compute the direct lighting contribution to 3D objects where the source radiance is represented by a spherical harmonic (SH) approximation. Computing the lighting on the GPU will generally be much faster than on the CPU.
 ms.assetid: ccea5a5e-23f1-4fdf-bce8-9bfc35d45257
 title: ID3DXPRTEngine::ComputeDirectLightingSHGPU method (D3DX9Mesh.h)
 ms.topic: reference

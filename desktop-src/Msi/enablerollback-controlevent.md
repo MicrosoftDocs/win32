@@ -1,5 +1,5 @@
 ---
-Description: This ControlEvent can be used to turn on or turn off the installer's rollback capabilities.
+description: This ControlEvent can be used to turn on or turn off the installer's rollback capabilities.
 ms.assetid: 5279151c-a7cd-4f66-8d1b-d688b3b1cf82
 title: EnableRollback ControlEvent
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Pause method pauses the filter.
+description: The Pause method pauses the filter.
 ms.assetid: 9dfd23d1-bf07-424b-9952-13719358d0a5
 title: CBaseRenderer.Pause method (Renbase.h)
 ms.topic: reference

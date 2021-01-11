@@ -1,5 +1,5 @@
 ---
-Description: Get the allocated size or the total size for a file by using either the GetCompressedFileSize or the GetFileSize function.
+description: Get the allocated size or the total size for a file by using either the GetCompressedFileSize or the GetFileSize function.
 ms.assetid: 1894ea01-49ff-41e3-9912-1cd75966bd3f
 title: Obtaining the Size of a Sparse File
 ms.topic: article

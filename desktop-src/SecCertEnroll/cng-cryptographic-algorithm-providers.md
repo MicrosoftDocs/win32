@@ -1,5 +1,5 @@
 ---
-Description: 'Unlike Cryptography API (CryptoAPI), Cryptography API: Next Generation (CNG) separates cryptographic providers from key storage providers.'
+description: 'Unlike Cryptography API (CryptoAPI), Cryptography API: Next Generation (CNG) separates cryptographic providers from key storage providers.'
 ms.assetid: ce29bc97-049e-4c82-979f-4c805a318ba0
 title: CNG Cryptographic Algorithm Providers
 ms.topic: article

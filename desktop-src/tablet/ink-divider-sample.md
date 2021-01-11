@@ -1,5 +1,5 @@
 ---
-Description: This sample is based on the Ink Collection Sample. It shows how to use the Divider object to analyze ink input.
+description: This sample is based on the Ink Collection Sample. It shows how to use the Divider object to analyze ink input.
 ms.assetid: 3350b643-11b3-4474-8dd0-bc3eb1b7121e
 title: Ink Divider Sample
 ms.topic: article

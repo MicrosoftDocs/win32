@@ -1,5 +1,5 @@
 ---
-Description: Represents the collection of verbs for an item in a Shell folder. This object contains properties and methods that allow you to retrieve information about the collection.
+description: Represents the collection of verbs for an item in a Shell folder. This object contains properties and methods that allow you to retrieve information about the collection.
 title: FolderItemVerbs object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018

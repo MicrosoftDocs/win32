@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOperationException class"
 title: EsentOperationException class
 TOCTitle: EsentOperationException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOperationException

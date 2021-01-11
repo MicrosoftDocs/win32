@@ -1,5 +1,5 @@
 ---
-Description: Specifies a WSDL file to process for contract information.
+description: Specifies a WSDL file to process for contract information.
 ms.assetid: d8f630cd-0541-431b-86a8-792846a85ea0
 title: wsdl element
 ms.topic: reference

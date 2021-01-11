@@ -1,5 +1,5 @@
 ---
-Description: Represents a storage operation job created by the Microsoft Hyper-V Image Management Service.
+description: Represents a storage operation job created by the Microsoft Hyper-V Image Management Service.
 ms.assetid: 'a1517c1f-7fb6-4203-a5ec-2ecdfcbc4e8c'
 title: Msvm_StorageJob class
 ms.topic: reference

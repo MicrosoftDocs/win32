@@ -1,5 +1,5 @@
 ---
-Description: Notifies you to save the passed object.
+description: Notifies you to save the passed object.
 title: SMC_SETSFOBJECT message (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018

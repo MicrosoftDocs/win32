@@ -1,5 +1,5 @@
 ---
-Description: Specifies single sign-on (SSO) network configuration information.
+description: Specifies single sign-on (SSO) network configuration information.
 ms.assetid: c0a26f15-77fd-43e9-a6af-54e9b46f03fa
 title: singleSignOn (OneX) Element
 ms.topic: reference

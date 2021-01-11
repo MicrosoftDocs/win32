@@ -1,5 +1,5 @@
 ---
-Description: The IX509AttributeClientId interface exposes the following properties.
+description: The IX509AttributeClientId interface exposes the following properties.
 ms.assetid: CBEC6831-78C7-47CD-B1A5-2035CADFE45A
 title: IX509AttributeClientId Properties
 ms.topic: reference

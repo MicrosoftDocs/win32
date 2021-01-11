@@ -1,5 +1,5 @@
 ---
-Description: Requesters control a shadow copy's features by setting its context. This context indicates whether the shadow copy will survive the current operation, and the degree of writer/provider coordination.
+description: Requesters control a shadow copy's features by setting its context. This context indicates whether the shadow copy will survive the current operation, and the degree of writer/provider coordination.
 ms.assetid: adf79bc8-e893-444a-b750-d7ffd09de7c9
 title: Shadow Copy Context Configurations
 ms.topic: article

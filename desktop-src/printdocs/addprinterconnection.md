@@ -1,5 +1,5 @@
 ---
-Description: The AddPrinterConnection function adds a connection to the specified printer for the current user.
+description: The AddPrinterConnection function adds a connection to the specified printer for the current user.
 ms.assetid: 6decf89a-1411-4e7e-aa20-60e7068658c2
 title: AddPrinterConnection function (Winspool.h)
 ms.topic: reference

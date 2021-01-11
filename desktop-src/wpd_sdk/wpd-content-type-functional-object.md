@@ -1,5 +1,5 @@
 ---
-Description: WPD\_CONTENT\_TYPE\_FUNCTIONAL\_OBJECT
+description: WPD\_CONTENT\_TYPE\_FUNCTIONAL\_OBJECT
 ms.assetid: 112de70b-afcc-4fba-b74f-c33bd759d517
 title: WPD_CONTENT_TYPE_FUNCTIONAL_OBJECT
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The File Type of semantic type is one of the Key Format Types. This type consists of a foreign key into the File table provided by the user.
+description: The File Type of semantic type is one of the Key Format Types. This type consists of a foreign key into the File table provided by the user.
 ms.assetid: cbcaa016-879e-48c2-93c6-b0e91e1eb9ed
 title: File Type
 ms.topic: article

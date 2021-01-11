@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOAbortException class"
 title: EsentFileIOAbortException class
 TOCTitle: EsentFileIOAbortException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFileIOAbortException

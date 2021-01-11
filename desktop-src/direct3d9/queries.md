@@ -1,5 +1,5 @@
 ---
-Description: There are several types of queries which are designed to query the status of resources.
+description: There are several types of queries which are designed to query the status of resources.
 ms.assetid: 2c65d199-141d-43a7-b513-4cb4459d7c27
 title: Queries (Direct3D 9)
 ms.topic: article

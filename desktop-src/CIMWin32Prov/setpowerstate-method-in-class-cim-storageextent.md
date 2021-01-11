@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method of the CIM\_StorageExtent class sets the desired power state for a logical device and when a device should be put into that state.
+description: The SetPowerState method of the CIM\_StorageExtent class sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: a344575f-c8b5-4fa5-a055-bd9c02332e2b
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_StorageExtent class

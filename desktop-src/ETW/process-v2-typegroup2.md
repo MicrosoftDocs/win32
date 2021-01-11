@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for process counter events. The following syntax is simplified from MOF code.
+description: This class is the event type class for process counter events. The following syntax is simplified from MOF code.
 ms.assetid: 7f1fa1c4-a2ff-4a1c-ac9d-e922a13c99a1
 title: Process_V2_TypeGroup2 class
 ms.topic: reference

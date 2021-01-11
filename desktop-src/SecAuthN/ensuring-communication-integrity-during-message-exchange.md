@@ -1,5 +1,5 @@
 ---
-Description: After a security context is established, the application can use the message support functions to transmit tamper-resistant messages.
+description: After a security context is established, the application can use the message support functions to transmit tamper-resistant messages.
 ms.assetid: 43d7b940-1816-429f-be6e-40978efed278
 title: Ensuring Communication Integrity During Message Exchange
 ms.topic: article

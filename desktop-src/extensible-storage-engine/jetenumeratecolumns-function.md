@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetEnumerateColumns Function"
 title: JetEnumerateColumns Function
 TOCTitle: JetEnumerateColumns Function
 ms:assetid: 8413d056-cdb1-420e-9dd3-7280ad510165

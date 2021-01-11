@@ -1,5 +1,5 @@
 ---
-Description: Defines the vertex declaration method which is a predefined operation performed by the tessellator (or any procedural geometry routine on the vertex data during tessellation).
+description: Defines the vertex declaration method which is a predefined operation performed by the tessellator (or any procedural geometry routine on the vertex data during tessellation).
 ms.assetid: 030e04a6-4e2d-4756-80ef-e4a6a0103fd1
 title: D3DDECLMETHOD enumeration (D3D9Types.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The EndOfStream method notifies the pin that no additional data is expected. This method overrides the CBasePin::EndOfStream method.
+description: The EndOfStream method notifies the pin that no additional data is expected. This method overrides the CBasePin::EndOfStream method.
 ms.assetid: fb5fd8bb-47be-4df6-b837-2c5ff4347478
 title: CRendererInputPin.EndOfStream method (Renbase.h)
 ms.topic: reference

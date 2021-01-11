@@ -1,5 +1,5 @@
 ---
-Description: The Utilities object exposes the following methods.
+description: The Utilities object exposes the following methods.
 ms.assetid: E5D08A97-9C74-4B97-98AB-D48D2D68044B
 title: Utilities Methods
 ms.topic: reference

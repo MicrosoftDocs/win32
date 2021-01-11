@@ -1,5 +1,5 @@
 ---
-Description: The FindPropertyInstance function finds the first instance of the property specified by the hProperty parameter.
+description: The FindPropertyInstance function finds the first instance of the property specified by the hProperty parameter.
 ms.assetid: e994503d-2f32-4fa2-bba9-ff66c9d558dc
 title: FindPropertyInstance function (Netmon.h)
 ms.topic: reference

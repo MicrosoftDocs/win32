@@ -1,5 +1,5 @@
 ---
-Description: The IsConnected method determines whether the pin is connected to another pin.
+description: The IsConnected method determines whether the pin is connected to another pin.
 ms.assetid: d8b9b43b-6f8d-4d75-9688-f0cee3794a78
 title: CBasePin.IsConnected method (Amfilter.h)
 ms.topic: reference

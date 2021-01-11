@@ -1,5 +1,5 @@
 ---
-Description: Defines the type that contains the details about any margins in the Journal note, such as style, color, and position.
+description: Defines the type that contains the details about any margins in the Journal note, such as style, color, and position.
 ms.assetid: 35ae4720-4012-452e-abdc-f04b38622337
 title: MarginType Complex Type
 ms.topic: reference

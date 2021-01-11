@@ -1,5 +1,5 @@
 ---
-Description: CRM components can be installed into either a COM+ server application or a COM+ library application.
+description: CRM components can be installed into either a COM+ server application or a COM+ library application.
 ms.assetid: d1ce3a0c-1278-498c-b5dc-4e14b26b4fc2
 title: Configuring COM+ CRM Components
 ms.topic: article

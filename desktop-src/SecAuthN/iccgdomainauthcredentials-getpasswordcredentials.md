@@ -1,5 +1,5 @@
 ---
-Description: Returns credentials to authenticate a non-domain joined container with Active Directory.
+description: Returns credentials to authenticate a non-domain joined container with Active Directory.
 title: ICcgDomainAuthCredentials::GetPasswordCredentials method (ccgplugins.h)
 ms.topic: reference
 ms.date: 10/21/2020

@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_SSHORTTIME
+description: LOCALE\_SSHORTTIME
 ms.assetid: d7e32d00-2e2d-4ab5-aa62-708d45f5b431
 title: LOCALE_SSHORTTIME
 ms.topic: article

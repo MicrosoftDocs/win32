@@ -1,5 +1,5 @@
 ---
-Description: Represents the state of the PCI Express port.
+description: Represents the state of the PCI Express port.
 ms.assetid: 15d670ee-940a-4737-b2cd-e89dd8a63a5c
 title: Msvm_PciExpress class
 ms.topic: reference

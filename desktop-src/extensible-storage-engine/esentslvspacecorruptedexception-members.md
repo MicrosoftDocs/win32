@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVSpaceCorruptedException members"
 title: EsentSLVSpaceCorruptedException members
 TOCTitle: EsentSLVSpaceCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVSpaceCorruptedException

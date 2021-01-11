@@ -1,5 +1,5 @@
 ---
-Description: Implements the IAnalysisRegion interface.
+description: Implements the IAnalysisRegion interface.
 ms.assetid: b881c15d-be2b-4b6a-a50e-bdd42a7cd9bb
 title: AnalysisRegion class (IACom.h)
 ms.topic: reference

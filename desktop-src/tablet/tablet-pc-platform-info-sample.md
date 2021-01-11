@@ -1,5 +1,5 @@
 ---
-Description: This program checks the presence and configuration of the MicrosoftTablet PC and Touch Technology core components.
+description: This program checks the presence and configuration of the MicrosoftTablet PC and Touch Technology core components.
 ms.assetid: 0b379dc9-a86f-40c0-9403-d9c9091ca8c3
 title: Tablet PC Platform Info Sample
 ms.topic: article

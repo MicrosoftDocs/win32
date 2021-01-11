@@ -1,5 +1,5 @@
 ---
-Description: Identifies the intended use of vertex data.
+description: Identifies the intended use of vertex data.
 ms.assetid: ee9b46c2-b779-480c-9b5c-6d189d2af014
 title: D3DDECLUSAGE enumeration (D3D9Types.h)
 ms.topic: reference

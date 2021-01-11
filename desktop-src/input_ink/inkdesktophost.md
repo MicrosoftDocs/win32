@@ -1,5 +1,5 @@
 ---
-Description: Implements the IInkDesktopHost interface.
+description: Implements the IInkDesktopHost interface.
 ms.assetid: 7a577536-405b-400d-89bc-c3b3894b448d
 title: InkDesktopHost class
 ms.topic: interface

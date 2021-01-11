@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used with painting and drawing.
+description: The following functions are used with painting and drawing.
 ms.assetid: ec18323e-c13b-4328-83bf-9e4ed4a712b8
 title: Painting and Drawing Functions
 ms.topic: article

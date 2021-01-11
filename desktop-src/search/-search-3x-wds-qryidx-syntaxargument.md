@@ -1,5 +1,5 @@
 ---
-Description: The syntax argument enables you to identify the syntax of your query. Allowed values are either Natural Query Syntax (NQS) or Advanced Query Syntax (AQS). AQS is the default and is always assumed parsed and supported.
+description: The syntax argument enables you to identify the syntax of your query. Allowed values are either Natural Query Syntax (NQS) or Advanced Query Syntax (AQS). AQS is the default and is always assumed parsed and supported.
 ms.assetid: d3b5ed70-022f-4c50-814e-1511662e04e5
 title: SYNTAX Argument (Windows Search)
 ms.topic: article

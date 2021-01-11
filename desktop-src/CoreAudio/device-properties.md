@@ -1,5 +1,5 @@
 ---
-Description: Device Properties
+description: Device Properties
 ms.assetid: ad8753ba-ad20-4122-b0f2-eb165f98db67
 title: Device Properties (Core Audio APIs)
 ms.topic: article

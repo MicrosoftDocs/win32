@@ -1,5 +1,5 @@
 ---
-Description: The Stop event is sent when the Stop command has been enabled or disabled.
+description: The Stop event is sent when the Stop command has been enabled or disabled.
 ms.assetid: 'b631dcb6-1117-4ba2-84e3-f4a60b94a4bc'
 title: Stop
 ms.topic: article

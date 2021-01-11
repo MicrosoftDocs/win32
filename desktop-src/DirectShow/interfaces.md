@@ -1,5 +1,5 @@
 ---
-Description: DirectShow interfaces
+description: DirectShow interfaces
 ms.assetid: '5efd174f-2eb1-44e6-97e3-b73c7c52fef1'
 title: Interfaces
 ms.topic: article

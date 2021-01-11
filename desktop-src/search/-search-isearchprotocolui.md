@@ -1,5 +1,5 @@
 ---
-Description: Provides a method for invoking ISearchItem objects.
+description: Provides a method for invoking ISearchItem objects.
 ms.assetid: b52fd64b-b03a-4d02-a64f-201f6b7d5045
 title: ISearchProtocolUI interface
 ms.topic: reference

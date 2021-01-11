@@ -1,5 +1,5 @@
 ---
-Description: Primary address postal code of the contact.
+description: Primary address postal code of the contact.
 ms.assetid: 156bda03-d31f-45d8-9457-5687370e4c09
 title: System.Contact.PrimaryAddressPostalCode
 ms.topic: article

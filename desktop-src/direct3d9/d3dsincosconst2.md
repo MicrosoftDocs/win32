@@ -1,5 +1,5 @@
 ---
-Description: Creates the second constant (in register src3) for the sincos - ps pixel shader instruction.
+description: Creates the second constant (in register src3) for the sincos - ps pixel shader instruction.
 ms.assetid: 267afcb4-660f-4ef8-b77f-d9cbb91e81e3
 title: D3DSINCOSCONST2 (D3dx9types.h)
 ms.topic: reference

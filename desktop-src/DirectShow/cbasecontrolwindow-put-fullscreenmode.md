@@ -1,5 +1,5 @@
 ---
-Description: The put\_FullScreenMode method sets the full-screen mode of the renderer.
+description: The put\_FullScreenMode method sets the full-screen mode of the renderer.
 ms.assetid: 25e2a12e-a327-4aab-b4ab-54db0dfc950a
 title: CBaseControlWindow.put_FullScreenMode method (Ctlutil.h)
 ms.topic: reference

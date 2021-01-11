@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFatalException methods"
 title: EsentFatalException methods
 TOCTitle: EsentFatalException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFatalException

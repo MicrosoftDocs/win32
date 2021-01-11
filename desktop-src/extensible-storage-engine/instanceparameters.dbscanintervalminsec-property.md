@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.DbScanIntervalMinSec property"
 title: InstanceParameters.DbScanIntervalMinSec property 
 TOCTitle: 'DbScanIntervalMinSec property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.DbScanIntervalMinSec

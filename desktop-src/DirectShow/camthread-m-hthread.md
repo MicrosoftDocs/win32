@@ -1,5 +1,5 @@
 ---
-Description: Handle to the thread.
+description: Handle to the thread.
 ms.assetid: 93d1182a-58f0-4570-8568-fe0fded762cb
 title: CAMThread::m_hThread member (Wxutil.h)
 ms.topic: reference

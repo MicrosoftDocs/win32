@@ -1,5 +1,5 @@
 ---
-Description: On Windows 2000 and later operating systems, the installer sets the MsiNTSuiteEnterprise property to 1 if Windows 2000 Advanced Server is installed.
+description: On Windows 2000 and later operating systems, the installer sets the MsiNTSuiteEnterprise property to 1 if Windows 2000 Advanced Server is installed.
 ms.assetid: f5384467-3791-4b0b-a70e-b5343c70db46
 title: MsiNTSuiteEnterprise property
 ms.topic: reference

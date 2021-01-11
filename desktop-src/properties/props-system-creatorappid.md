@@ -1,5 +1,5 @@
 ---
-Description: The AppId of the application that created this file.
+description: The AppId of the application that created this file.
 ms.assetid: 8486576b-e879-4313-b3ab-4be0c4768f8b
 title: System.CreatorAppId
 ms.topic: article

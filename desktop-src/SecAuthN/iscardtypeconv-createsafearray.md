@@ -1,5 +1,5 @@
 ---
-Description: Creates an Automation SAFEARRAY of unsigned characters (bytes).
+description: Creates an Automation SAFEARRAY of unsigned characters (bytes).
 ms.assetid: 67cc8cd1-95be-4498-ac25-6c418089af27
 title: ISCardTypeConv::CreateSafeArray method (Scarddat.h)
 ms.topic: reference

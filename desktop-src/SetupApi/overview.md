@@ -1,5 +1,5 @@
 ---
-Description: The Setup application programming interface (API) provides a set of functions that your setup application can call to perform installation operations. These setup functions work with Windows INF files to provide the following setup functionality.
+description: The Setup application programming interface (API) provides a set of functions that your setup application can call to perform installation operations. These setup functions work with Windows INF files to provide the following setup functionality.
 ms.assetid: 58201596-cb8c-480a-abef-896c1f9ef098
 title: Overview
 ms.topic: article

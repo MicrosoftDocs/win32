@@ -1,5 +1,5 @@
 ---
-Description: A callback function used to notify the host when a texture has been freed.
+description: A callback function used to notify the host when a texture has been freed.
 MS-HAID: vspixengine.IPixEngine5Callbacks\_FreeTextureComplete
 MSHAttr:
 - PreferredSiteName:MSDN

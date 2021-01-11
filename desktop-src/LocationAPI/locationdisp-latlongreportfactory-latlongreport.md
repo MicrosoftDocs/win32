@@ -1,5 +1,5 @@
 ---
-Description: The current latitude/longitude report.
+description: The current latitude/longitude report.
 ms.assetid: d2bb305f-911e-46f7-abde-56e9fba9182b
 title: LocationDisp.LatLongReportFactory.LatLongReport property (Locationapi.h)
 ms.topic: reference

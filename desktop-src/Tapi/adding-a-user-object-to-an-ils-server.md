@@ -1,5 +1,5 @@
 ---
-Description: The following code fragment illustrates publishing a user object in an ILS server. After a user object is published, remote parties can use the user object to make calls to the specified user.
+description: The following code fragment illustrates publishing a user object in an ILS server. After a user object is published, remote parties can use the user object to make calls to the specified user.
 ms.assetid: 8b68886c-0df5-4005-bcd5-1a18336f5192
 title: Adding a User Object to an ILS Server
 ms.topic: article

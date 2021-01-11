@@ -1,5 +1,5 @@
 ---
-Description: The timeline element defines the timeline. This element is the root node in the XML file.
+description: The timeline element defines the timeline. This element is the root node in the XML file.
 ms.assetid: db1da09f-d9b2-43fa-8dec-e3dc11cbfafa
 title: timeline Element (Windows.ui.xaml.media.animation.h)
 ms.topic: reference

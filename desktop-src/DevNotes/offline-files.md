@@ -1,5 +1,5 @@
 ---
-Description: Offline Files
+description: Offline Files
 ms.assetid: 92BE6EE8-BC98-4CCC-99AB-1D5310CC0D81
 title: Offline Files
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The PF\_PARSERINFO structure defines one parser at a time. In the PF\_PARSERINFO structure, a parser is defined by the information about the protocol that the parser detects.
+description: The PF\_PARSERINFO structure defines one parser at a time. In the PF\_PARSERINFO structure, a parser is defined by the information about the protocol that the parser detects.
 ms.assetid: e1180952-9560-4386-9320-919dfb8171b3
 title: PF_PARSERINFO structure (Netmon.h)
 ms.topic: reference

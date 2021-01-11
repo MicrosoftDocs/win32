@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECPOS Structure"
 title: JET_RECPOS Structure
 TOCTitle: JET_RECPOS Structure
 ms:assetid: 7c335120-4b84-4095-8f13-e5315d4996b1

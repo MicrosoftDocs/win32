@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OSSNAPID methods"
 title: JET_OSSNAPID methods
 TOCTitle: JET_OSSNAPID methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_OSSNAPID

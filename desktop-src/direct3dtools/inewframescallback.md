@@ -1,5 +1,5 @@
 ---
-Description: Callback from engine indicating that it is done parsing any new frames added to the log.
+description: Callback from engine indicating that it is done parsing any new frames added to the log.
 MS-HAID: vspixengine.INewFramesCallback
 MSHAttr:
 - PreferredSiteName:MSDN

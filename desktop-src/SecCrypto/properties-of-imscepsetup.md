@@ -1,5 +1,5 @@
 ---
-Description: Properties defined by the IMSCEPSetup interface.
+description: Properties defined by the IMSCEPSetup interface.
 ms.assetid: 09d9273b-08c0-4ea6-bd32-fb2b2747900f
 title: Properties of IMSCEPSetup
 ms.topic: article

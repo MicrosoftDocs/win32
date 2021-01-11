@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXRANGE constructor"
 title: JET_INDEXRANGE constructor 
 TOCTitle: 'JET_INDEXRANGE constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXRANGE.#ctor

@@ -1,5 +1,5 @@
 ---
-Description: The DEXTERF\_TRACK\_SEARCH\_FLAGS enumeration specifies the boundary conditions on a search for an object in the timeline.
+description: The DEXTERF\_TRACK\_SEARCH\_FLAGS enumeration specifies the boundary conditions on a search for an object in the timeline.
 ms.assetid: 9a66ea17-5c2c-41fd-8a7b-c9918b10c8c9
 title: DEXTERF_TRACK_SEARCH_FLAGS enumeration (Qedit.h)
 ms.topic: reference

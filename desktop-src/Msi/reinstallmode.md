@@ -1,5 +1,5 @@
 ---
-Description: The REINSTALLMODE property is a string that contains letters specifying the type of reinstall to perform.
+description: The REINSTALLMODE property is a string that contains letters specifying the type of reinstall to perform.
 ms.assetid: 756d2899-2cfe-473a-bebf-a7f7bbe7d229
 title: REINSTALLMODE property
 ms.topic: reference

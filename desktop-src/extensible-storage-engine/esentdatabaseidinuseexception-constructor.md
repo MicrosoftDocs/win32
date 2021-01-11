@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseIdInUseException constructor"
 title: EsentDatabaseIdInUseException constructor 
 TOCTitle: 'EsentDatabaseIdInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseIdInUseException.#ctor

@@ -1,5 +1,5 @@
 ---
-Description: A provider method is a method that is implemented by a Windows Management Instrumentation (WMI) provider.
+description: A provider method is a method that is implemented by a Windows Management Instrumentation (WMI) provider.
 ms.assetid: 9c692bc7-246b-4619-a371-cc9e0e2d5a6e
 ms.tgt_platform: multiple
 title: Calling a Provider Method

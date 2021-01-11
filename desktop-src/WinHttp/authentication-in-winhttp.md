@@ -1,5 +1,5 @@
 ---
-Description: Some HTTP servers and proxies require authentication before allowing access to resources on the Internet. The Microsoft Windows HTTP Services (WinHTTP) functions support server and proxy authentication for HTTP sessions.
+description: Some HTTP servers and proxies require authentication before allowing access to resources on the Internet. The Microsoft Windows HTTP Services (WinHTTP) functions support server and proxy authentication for HTTP sessions.
 ms.assetid: 077d6275-8600-4091-b78e-419a41a2101a
 title: Authentication in WinHTTP
 ms.topic: article

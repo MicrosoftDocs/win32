@@ -1,5 +1,5 @@
 ---
-Description: The RemoveEnvironmentStrings action modifies the values of environment variables.
+description: The RemoveEnvironmentStrings action modifies the values of environment variables.
 ms.assetid: 024a734a-2e40-45b6-9dec-73def89a417f
 title: RemoveEnvironmentStrings Action
 ms.topic: article

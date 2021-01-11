@@ -1,5 +1,5 @@
 ---
-Description: Locating a Component for Activation
+description: Locating a Component for Activation
 ms.assetid: 2ba9484a-c646-4a35-8b32-268fe7a9520f
 title: Locating a Component for Activation
 ms.topic: article

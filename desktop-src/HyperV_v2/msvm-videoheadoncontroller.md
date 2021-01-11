@@ -1,5 +1,5 @@
 ---
-Description: Associates a video head with the video controller that includes it.
+description: Associates a video head with the video controller that includes it.
 ms.assetid: D072DF7C-D55B-4203-9FE5-B395D1EC1632
 title: Msvm_VideoHeadOnController class
 ms.topic: reference

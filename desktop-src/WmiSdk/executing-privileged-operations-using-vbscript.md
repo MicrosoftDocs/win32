@@ -1,5 +1,5 @@
 ---
-Description: If you use the scripting API for WMI, you can set specific security privileges.
+description: If you use the scripting API for WMI, you can set specific security privileges.
 ms.assetid: 65b923d5-5244-498d-9644-d4978fb84f85
 ms.tgt_platform: multiple
 title: Executing Privileged Operations Using VBScript

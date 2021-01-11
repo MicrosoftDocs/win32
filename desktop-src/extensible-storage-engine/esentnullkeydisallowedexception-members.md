@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNullKeyDisallowedException members"
 title: EsentNullKeyDisallowedException members
 TOCTitle: EsentNullKeyDisallowedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentNullKeyDisallowedException

@@ -1,6 +1,6 @@
 ---
 title: Considerations for PrintTicket Providers
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: b6ffcd54-b50c-477c-8bb7-de5b7ffa1c73
 ms.topic: article
 ms.date: 05/31/2018

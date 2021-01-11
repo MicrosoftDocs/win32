@@ -1,5 +1,5 @@
 ---
-Description: Describes how input scopes are used for recognition.
+description: Describes how input scopes are used for recognition.
 ms.assetid: 9faf6d22-b80d-4020-ac74-ee40b31ae9d4
 title: Input Scopes and Factoids
 ms.topic: article

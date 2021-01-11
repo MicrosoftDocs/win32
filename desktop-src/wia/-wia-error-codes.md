@@ -1,5 +1,5 @@
 ---
-Description: 'Windows Image Acquisition (WIA) functions and methods can return error codes from the following list: Error CodeMeaningCodeWIA\_ERROR\_BUSYThe device is busy.'
+description: 'Windows Image Acquisition (WIA) functions and methods can return error codes from the following list: Error CodeMeaningCodeWIA\_ERROR\_BUSYThe device is busy.'
 ms.assetid: 3abbe92b-32b7-4820-b208-45c847243078
 title: Error Codes (WIA)
 ms.topic: article

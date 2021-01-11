@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ServiceAccessBySAP association class represents the access points for a service. For example, a printer can be accessed by NetWare, Macintosh, or Windows service access points (SAPs), which are potentially hosted on different systems.
+description: The CIM\_ServiceAccessBySAP association class represents the access points for a service. For example, a printer can be accessed by NetWare, Macintosh, or Windows service access points (SAPs), which are potentially hosted on different systems.
 ms.assetid: 68311a56-b034-4a30-a885-74a745a738d8
 ms.tgt_platform: multiple
 title: CIM_ServiceAccessBySAP class

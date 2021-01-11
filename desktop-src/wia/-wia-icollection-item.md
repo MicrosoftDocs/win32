@@ -1,5 +1,5 @@
 ---
-Description: Returns the specified item in the collection
+description: Returns the specified item in the collection
 ms.assetid: c013508f-ce77-4fb2-9bf4-21fcba1284f3
 title: Collection.Item property
 ms.topic: reference

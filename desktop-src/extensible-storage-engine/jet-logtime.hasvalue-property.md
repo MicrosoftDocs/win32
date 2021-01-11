@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LOGTIME.HasValue property"
 title: JET_LOGTIME.HasValue property 
 TOCTitle: 'HasValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_LOGTIME.HasValue

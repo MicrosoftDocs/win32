@@ -1,5 +1,5 @@
 ---
-Description: This topic provides information about the native DNG codec available through Windows Imaging Component (WIC).
+description: This topic provides information about the native DNG codec available through Windows Imaging Component (WIC).
 ms.assetid: 6F87A47D-E54A-42D9-92DC-2411803278AA
 title: DNG Format Overview
 ms.topic: article

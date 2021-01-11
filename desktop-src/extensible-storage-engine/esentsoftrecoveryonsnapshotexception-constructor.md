@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSoftRecoveryOnSnapshotException constructor"
 title: EsentSoftRecoveryOnSnapshotException constructor 
 TOCTitle: 'EsentSoftRecoveryOnSnapshotException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSoftRecoveryOnSnapshotException.#ctor

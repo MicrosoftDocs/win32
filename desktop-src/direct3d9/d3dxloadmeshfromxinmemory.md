@@ -1,5 +1,5 @@
 ---
-Description: Loads a mesh from memory.
+description: Loads a mesh from memory.
 ms.assetid: bbaecc00-97ab-433c-b0c7-ac7837bfc3be
 title: D3DXLoadMeshFromXInMemory function (D3DX9Mesh.h)
 ms.topic: reference

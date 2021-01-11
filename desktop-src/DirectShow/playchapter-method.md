@@ -1,5 +1,5 @@
 ---
-Description: The PlayChapter method starts playback from the specified chapter within the current title.
+description: The PlayChapter method starts playback from the specified chapter within the current title.
 ms.assetid: d0318a0d-4ff4-42f2-b009-996b7ff0f632
 title: PlayChapter Method
 ms.topic: reference

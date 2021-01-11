@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidBackupException constructor"
 title: EsentInvalidBackupException constructor 
 TOCTitle: 'EsentInvalidBackupException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidBackupException.#ctor

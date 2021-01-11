@@ -1,5 +1,5 @@
 ---
-Description: Contact's personal title.
+description: Contact's personal title.
 ms.assetid: 75c0d045-2145-41ac-a2bc-9bf785325e15
 title: System.Contact.PersonalTitle
 ms.topic: article

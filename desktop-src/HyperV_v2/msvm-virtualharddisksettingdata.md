@@ -1,5 +1,5 @@
 ---
-Description: Provides setting data for a virtual hard disk.
+description: Provides setting data for a virtual hard disk.
 ms.assetid: 492a0b81-86b2-4d7d-a118-6ec14e3971ed
 title: Msvm_VirtualHardDiskSettingData class
 ms.topic: reference

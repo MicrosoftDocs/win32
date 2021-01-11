@@ -1,5 +1,5 @@
 ---
-Description: The following procedure demonstrates how to debug a monitor.
+description: The following procedure demonstrates how to debug a monitor.
 ms.assetid: 499f409c-e25a-4ab3-b0aa-e6b308fc7169
 title: Debugging a Monitor
 ms.topic: article

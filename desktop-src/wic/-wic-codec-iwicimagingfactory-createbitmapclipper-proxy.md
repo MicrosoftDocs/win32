@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateBitmapClipper method.
+description: Proxy function for the CreateBitmapClipper method.
 ms.assetid: 163a8d7b-f22b-4ab5-9dba-00b0cdaab440
 title: IWICImagingFactory_CreateBitmapClipper_Proxy function
 ms.topic: reference

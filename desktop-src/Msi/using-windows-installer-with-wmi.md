@@ -1,5 +1,5 @@
 ---
-Description: The Windows Installer provider allows Windows Management Instrumentation (WMI) to access information collected from Windows Installer applications.
+description: The Windows Installer provider allows Windows Management Instrumentation (WMI) to access information collected from Windows Installer applications.
 ms.assetid: ffe7b6eb-b6f5-4070-9f83-91a1e76764c6
 title: Using Windows Installer with WMI
 ms.topic: article

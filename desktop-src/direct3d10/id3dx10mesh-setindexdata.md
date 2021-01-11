@@ -1,5 +1,5 @@
 ---
-Description: Set the mesh's index data.
+description: Set the mesh's index data.
 ms.assetid: f3e7e166-94b5-45f6-9d43-8d7e32b7b523
 title: ID3DX10Mesh::SetIndexData method (D3DX10.h)
 ms.topic: reference

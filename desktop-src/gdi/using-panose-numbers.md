@@ -1,5 +1,5 @@
 ---
-Description: TrueType font files include PANOSE numbers, which applications can use to choose a font that closely matches their specifications.
+description: TrueType font files include PANOSE numbers, which applications can use to choose a font that closely matches their specifications.
 ms.assetid: 39fd56da-c744-432d-9623-92fc7d9bf5f5
 title: Using PANOSE Numbers
 ms.topic: article

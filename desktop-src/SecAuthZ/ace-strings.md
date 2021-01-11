@@ -1,5 +1,5 @@
 ---
-Description: Explains the strings used in an access control entry.
+description: Explains the strings used in an access control entry.
 ms.assetid: 82c99170-784b-4724-a25b-2f2e8a2e0225
 title: ACE Strings
 ms.topic: article

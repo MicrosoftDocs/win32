@@ -1,5 +1,5 @@
 ---
-Description: The IWiaUIExtension interface provides methods that replace the default system user interface, provide a custom device bitmap logo, and provide a custom device icon.
+description: The IWiaUIExtension interface provides methods that replace the default system user interface, provide a custom device bitmap logo, and provide a custom device icon.
 ms.assetid: e3c69019-0e07-44ad-b48b-ea7e3daed2b7
 title: IWiaUIExtension interface (Wiadevd.h)
 ms.topic: reference

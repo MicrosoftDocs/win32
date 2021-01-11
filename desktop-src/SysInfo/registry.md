@@ -1,5 +1,5 @@
 ---
-Description: The registry is a system-defined database in which applications and system components store and retrieve configuration data.
+description: The registry is a system-defined database in which applications and system components store and retrieve configuration data.
 ms.assetid: 'ffb06903-593e-47ce-adb2-baed5d379110'
 title: Registry
 ms.topic: article

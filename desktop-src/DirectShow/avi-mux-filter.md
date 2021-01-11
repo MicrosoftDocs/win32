@@ -1,5 +1,5 @@
 ---
-Description: AVI Mux Filter
+description: AVI Mux Filter
 ms.assetid: 31d30c91-fc6a-45ec-a2e0-34e6a1e902a4
 title: AVI Mux Filter
 ms.topic: article

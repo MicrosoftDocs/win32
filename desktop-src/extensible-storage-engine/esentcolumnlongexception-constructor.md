@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnLongException constructor"
 title: EsentColumnLongException constructor 
 TOCTitle: 'EsentColumnLongException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnLongException.#ctor

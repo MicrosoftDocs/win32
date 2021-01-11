@@ -1,5 +1,5 @@
 ---
-Description: The CCPSearch table contains the list of file signatures used for the Compliance Checking Program (CCP). At least one of these files needs to be present on a user's computer for the user to be in compliance with the program.
+description: The CCPSearch table contains the list of file signatures used for the Compliance Checking Program (CCP). At least one of these files needs to be present on a user's computer for the user to be in compliance with the program.
 ms.assetid: 98d21e24-1633-44b7-bfdb-5a40bab8d319
 title: CCPSearch Table
 ms.topic: article

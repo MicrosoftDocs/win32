@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVColumnCannotDeleteException properties"
 title: EsentSLVColumnCannotDeleteException properties
 TOCTitle: EsentSLVColumnCannotDeleteException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVColumnCannotDeleteException

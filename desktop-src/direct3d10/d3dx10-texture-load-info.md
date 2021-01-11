@@ -1,5 +1,5 @@
 ---
-Description: Describes parameters used to load a texture from another texture.
+description: Describes parameters used to load a texture from another texture.
 ms.assetid: dee693ce-afa7-479b-a76a-00816e30d5cf
 title: D3DX10_TEXTURE_LOAD_INFO structure (D3DX10Tex.h)
 ms.topic: reference

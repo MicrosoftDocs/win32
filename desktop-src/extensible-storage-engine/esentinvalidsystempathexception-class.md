@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidSystemPathException class"
 title: EsentInvalidSystemPathException class
 TOCTitle: EsentInvalidSystemPathException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidSystemPathException

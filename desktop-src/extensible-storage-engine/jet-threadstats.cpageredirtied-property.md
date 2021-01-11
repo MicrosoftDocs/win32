@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS.cPageRedirtied property"
 title: JET_THREADSTATS.cPageRedirtied property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cPageRedirtied property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.cPageRedirtied

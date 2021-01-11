@@ -1,5 +1,5 @@
 ---
-Description: Each new thread or fiber receives its own stack space consisting of both reserved and initially committed memory.
+description: Each new thread or fiber receives its own stack space consisting of both reserved and initially committed memory.
 ms.assetid: abb2d5c1-040b-4c36-aae5-3517b6a8c540
 title: Thread Stack Size
 ms.topic: article

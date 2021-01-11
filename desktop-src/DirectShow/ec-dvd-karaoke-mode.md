@@ -1,5 +1,5 @@
 ---
-Description: Indicates that the DVD Navigator has either begun playing or finished playing karaoke data.
+description: Indicates that the DVD Navigator has either begun playing or finished playing karaoke data.
 ms.assetid: 910bf809-a56a-4d02-9c7e-429769a4ec2b
 title: EC_DVD_KARAOKE_MODE (Dvdevcode.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: You cannot access an installer session from a custom action that is not the current installation session.
+description: You cannot access an installer session from a custom action that is not the current installation session.
 ms.assetid: 8aa0ac17-1341-4399-987e-d26175150874
 title: Accessing a Database or Session from Inside a Custom Action
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Based on the taxonomy defined for Windows Sockets 2 protocol-independent multipoint/multicast schemes, ATM falls into the category of rooted data and rooted control planes.
+description: Based on the taxonomy defined for Windows Sockets 2 protocol-independent multipoint/multicast schemes, ATM falls into the category of rooted data and rooted control planes.
 ms.assetid: 309afa65-2cc4-4b7b-9968-4c4efb2d10a3
 title: Winsock ATM Function Details
 ms.topic: article

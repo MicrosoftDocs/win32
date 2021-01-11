@@ -1,5 +1,5 @@
 ---
-Description: Saves all analysis results for an IInkAnalyzer.
+description: Saves all analysis results for an IInkAnalyzer.
 ms.assetid: 538eb781-d831-475b-ba09-271d71f6a6bf
 title: IInkAnalyzer::SaveResults method (IACom.h)
 ms.topic: reference

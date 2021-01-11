@@ -1,5 +1,5 @@
 ---
-Description: The ICertEncodeStringArray interface exposes the following methods.
+description: The ICertEncodeStringArray interface exposes the following methods.
 ms.assetid: 2EE35DD4-53A7-4721-BA87-657D31FDB522
 title: ICertEncodeStringArray Methods
 ms.topic: reference

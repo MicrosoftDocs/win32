@@ -1,5 +1,5 @@
 ---
-Description: An automated search system summary of the full text contents of a document, displayed in the search results view in Search Explorer. Use this property only when consuming the values in an application, not when providing values to a property handler.
+description: An automated search system summary of the full text contents of a document, displayed in the search results view in Search Explorer. Use this property only when consuming the values in an application, not when providing values to a property handler.
 ms.assetid: 66a70388-f975-45c5-9c34-d56b903b5a06
 title: System.Search.AutoSummary
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the next one or more IPortableDeviceConnector objects in the enumeration sequence.
+description: Retrieves the next one or more IPortableDeviceConnector objects in the enumeration sequence.
 ms.assetid: 5aed563a-5ecc-49c0-8a0c-622405453896
 title: IEnumPortableDeviceConnectors::Next method (Devpkey.h)
 ms.topic: reference

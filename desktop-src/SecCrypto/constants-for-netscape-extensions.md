@@ -1,5 +1,5 @@
 ---
-Description: Used with encode and decode operations.
+description: Used with encode and decode operations.
 ms.assetid: 713c95ae-e5d0-416c-ba0c-4b5399aa8a33
 title: Constants for Netscape Extensions
 ms.topic: article

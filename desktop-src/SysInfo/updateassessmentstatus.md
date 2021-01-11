@@ -1,5 +1,5 @@
 ---
-Description: Describes how up-to-date the OS on a device is.
+description: Describes how up-to-date the OS on a device is.
 ms.assetid: 157E241E-E8D8-41F8-9565-5C9298DCD1BE
 title: UpdateAssessmentStatus enumeration
 ms.topic: reference

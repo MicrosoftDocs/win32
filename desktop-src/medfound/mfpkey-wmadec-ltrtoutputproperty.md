@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the decoder should perform Lt-Rt fold down.
+description: Specifies whether the decoder should perform Lt-Rt fold down.
 ms.assetid: ce1dc4ea-4326-40ab-bb30-ff1a34f06d79
 title: MFPKEY_WMADEC_LTRTOUTPUT Property (Wmcodecdsp.h)
 ms.topic: reference

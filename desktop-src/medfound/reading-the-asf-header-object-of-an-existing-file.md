@@ -1,5 +1,5 @@
 ---
-Description: Reading the ASF Header Object of an Existing File
+description: Reading the ASF Header Object of an Existing File
 ms.assetid: 0e37f0d3-a37b-4f36-a133-7b1922e9944b
 title: Reading the ASF Header Object of an Existing File
 ms.topic: article

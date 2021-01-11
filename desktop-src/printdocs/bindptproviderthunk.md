@@ -1,5 +1,5 @@
 ---
-Description: Opens an instance of a print ticket provider.
+description: Opens an instance of a print ticket provider.
 ms.assetid: 815cc360-8dcd-4c58-a64d-5d77436a8623
 title: BindPTProviderThunk function
 ms.topic: reference

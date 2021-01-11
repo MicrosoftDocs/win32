@@ -1,5 +1,5 @@
 ---
-Description: Represents the analog video input parameters of a computer monitor.
+description: Represents the analog video input parameters of a computer monitor.
 ms.assetid: 87d4260d-06c7-4a76-a3a1-8f6e51e23d92
 title: WmiMonitorAnalogVideoInputParams class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Searches an item's tree of subitems using the name as the search key.
+description: Searches an item's tree of subitems using the name as the search key.
 ms.assetid: e4ce0bfb-9793-4928-b454-66ae1455b7b5
 title: IWiaItem2::FindItemByName method (Wia.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The composition string is the current text in the composition window.
+description: The composition string is the current text in the composition window.
 ms.assetid: ab226567-f68d-4fa4-9ead-e9bfabde927e
 title: Composition String
 ms.topic: article

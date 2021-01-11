@@ -1,5 +1,5 @@
 ---
-Description: Provides the ability to manage metrics.
+description: Provides the ability to manage metrics.
 ms.assetid: '39dee432-995d-472a-84c3-eede95dccb43'
 title: Msvm_MetricService class
 ms.topic: reference

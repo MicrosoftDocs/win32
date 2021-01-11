@@ -1,5 +1,5 @@
 ---
-Description: The Exchangeable Image File (EXIF) version.
+description: The Exchangeable Image File (EXIF) version.
 ms.assetid: 5a45acfa-fceb-4fc9-b758-f9a14965ef80
 title: System.Photo.EXIFVersion
 ms.topic: article

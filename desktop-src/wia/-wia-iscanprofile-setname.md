@@ -1,5 +1,5 @@
 ---
-Description: Sets the friendly name of the profile.
+description: Sets the friendly name of the profile.
 ms.assetid: a0a2de8b-ab7b-49a8-b513-32af0052975f
 title: IScanProfile::SetName method (Scanprofile.h)
 ms.topic: reference

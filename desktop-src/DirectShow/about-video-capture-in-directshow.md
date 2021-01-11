@@ -1,5 +1,5 @@
 ---
-Description: About Video Capture in DirectShow
+description: About Video Capture in DirectShow
 ms.assetid: 84d722aa-f178-4a1e-8102-c7fc3cb2efb0
 title: About Video Capture in DirectShow
 ms.topic: article

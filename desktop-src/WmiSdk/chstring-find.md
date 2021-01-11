@@ -1,5 +1,5 @@
 ---
-Description: The Find method searches a string for the first match of a substring.
+description: The Find method searches a string for the first match of a substring.
 audience: developer
 ms.assetid: 98a7c5ad-5bc7-4918-b978-45d2b439f250
 ms.tgt_platform: multiple

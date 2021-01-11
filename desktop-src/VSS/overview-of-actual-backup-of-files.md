@@ -1,5 +1,5 @@
 ---
-Description: VSS enables a requester to access the shadow copy of volumes containing data for backup and to copy data to backup media.
+description: VSS enables a requester to access the shadow copy of volumes containing data for backup and to copy data to backup media.
 ms.assetid: 187f26f2-f191-4703-9bde-3357f1ceef0c
 title: Overview of Actual Backup Of Files
 ms.topic: article

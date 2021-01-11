@@ -1,5 +1,5 @@
 ---
-Description: Exclusive-Mode Streams
+description: Exclusive-Mode Streams
 ms.assetid: 196cc6fe-91bf-46fa-acc9-38a7a4005875
 title: Exclusive-Mode Streams
 ms.topic: article

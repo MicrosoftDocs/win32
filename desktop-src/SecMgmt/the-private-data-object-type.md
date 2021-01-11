@@ -1,5 +1,5 @@
 ---
-Description: You can use Private Data objects to store data strings in an encrypted form.
+description: You can use Private Data objects to store data strings in an encrypted form.
 ms.assetid: e26eee57-2a2f-40a3-a946-cacda61e0542
 title: The Private Data Object Type
 ms.topic: article

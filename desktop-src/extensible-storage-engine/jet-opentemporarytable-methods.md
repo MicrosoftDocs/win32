@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OPENTEMPORARYTABLE methods"
 title: JET_OPENTEMPORARYTABLE methods (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_OPENTEMPORARYTABLE methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE

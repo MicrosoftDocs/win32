@@ -1,5 +1,5 @@
 ---
-Description: The owner of the file, as known by the file system.
+description: The owner of the file, as known by the file system.
 ms.assetid: 3d07eba9-7d80-4b37-9836-6637da57a724
 title: System.FileOwner
 ms.topic: article

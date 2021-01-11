@@ -1,5 +1,5 @@
 ---
-Description: The SetStretchMode method sets the stretch mode. The stretch mode determines how a video source is rendered if its size does not match the output dimensions.
+description: The SetStretchMode method sets the stretch mode. The stretch mode determines how a video source is rendered if its size does not match the output dimensions.
 ms.assetid: 4f720975-5035-4539-895f-3eb3c3b31719
 title: IAMTimelineSrc::SetStretchMode method (Qedit.h)
 ms.topic: reference

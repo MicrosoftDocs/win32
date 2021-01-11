@@ -1,5 +1,5 @@
 ---
-Description: The ViewDialog method of the UIPreview object displays an authored user interface dialog box stored in the current database.
+description: The ViewDialog method of the UIPreview object displays an authored user interface dialog box stored in the current database.
 ms.assetid: 5bc935ac-38ca-4a51-a1dc-6879dee97b05
 title: UIPreview.ViewDialog method
 ms.topic: reference

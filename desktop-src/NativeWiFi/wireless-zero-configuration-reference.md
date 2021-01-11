@@ -1,5 +1,5 @@
 ---
-Description: Contains information on the programming interface for the Wireless Zero Configuration service on Windows XP and Windows Server 2003.
+description: Contains information on the programming interface for the Wireless Zero Configuration service on Windows XP and Windows Server 2003.
 ms.assetid: cd9e8fc0-0a65-4654-95aa-201751183521
 title: Wireless Zero Configuration Reference
 ms.topic: article

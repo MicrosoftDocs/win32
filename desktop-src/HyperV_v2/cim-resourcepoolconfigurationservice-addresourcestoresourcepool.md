@@ -1,5 +1,5 @@
 ---
-Description: Starts a job to add resources to a resource pool.
+description: Starts a job to add resources to a resource pool.
 ms.assetid: b163619a-19bd-43d7-ba35-ec4bd8192100
 title: AddResourcesToResourcePool method of the CIM_ResourcePoolConfigurationService class
 ms.topic: reference

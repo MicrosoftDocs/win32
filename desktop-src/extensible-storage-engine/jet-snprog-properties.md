@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_SNPROG properties"
 title: JET_SNPROG properties
 TOCTitle: JET_SNPROG properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_SNPROG

@@ -1,5 +1,5 @@
 ---
-Description: Describes the data contained by the enumeration.
+description: Describes the data contained by the enumeration.
 ms.assetid: 6d494fe6-fcd5-4e71-939c-257978b41499
 title: D3DXPARAMETER_TYPE enumeration (D3dx9shader.h)
 ms.topic: reference

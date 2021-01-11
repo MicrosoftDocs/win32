@@ -1,5 +1,5 @@
 ---
-Description: In WMI, you can define statistical performance data based on data in formatted performance classes derived from Win32\_PerfFormattedData. The available statistics are average, minimum, maximum, range, and variance, as defined in Statistical Counter Types.
+description: In WMI, you can define statistical performance data based on data in formatted performance classes derived from Win32\_PerfFormattedData. The available statistics are average, minimum, maximum, range, and variance, as defined in Statistical Counter Types.
 ms.assetid: 5552d5fc-df8c-4353-8593-c106ee19dc84
 ms.tgt_platform: multiple
 title: Obtaining Statistical Performance Data

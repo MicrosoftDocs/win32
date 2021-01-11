@@ -1,5 +1,5 @@
 ---
-Description: When merging a module into an installation database, there are two important languages.
+description: When merging a module into an installation database, there are two important languages.
 ms.assetid: e815854f-a379-497a-ae37-b13de39dd516
 title: Opening a Multiple-Language Merge Module in a Specific Language
 ms.topic: article

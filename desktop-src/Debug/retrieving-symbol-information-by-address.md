@@ -1,5 +1,5 @@
 ---
-Description: The following code demonstrates how to call the SymFromAddr function.
+description: The following code demonstrates how to call the SymFromAddr function.
 ms.assetid: 63dfadea-b0c4-4050-add8-d1f3aef7a495
 title: Retrieving Symbol Information by Address
 ms.topic: article

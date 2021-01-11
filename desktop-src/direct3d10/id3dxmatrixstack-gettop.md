@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the current matrix at the top of the stack.
+description: Retrieves the current matrix at the top of the stack.
 ms.assetid: cf379742-3e7d-4309-a7af-b97348428682
 title: ID3DXMATRIXStack::GetTop method (D3DX10.h)
 ms.topic: reference

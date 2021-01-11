@@ -1,5 +1,5 @@
 ---
-Description: The CHString assignment (=) operator reinitializes an existing CHString object with new data.
+description: The CHString assignment (=) operator reinitializes an existing CHString object with new data.
 ms.assetid: 6864aacf-ac18-4b5a-be3e-3a0d8bb31e74
 ms.tgt_platform: multiple
 title: CHString::operator= (ChString.h)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Param.DbScanIntervalMinSec field"
 title: Windows7Param.DbScanIntervalMinSec field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: DbScanIntervalMinSec field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Param.DbScanIntervalMinSec

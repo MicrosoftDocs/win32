@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentExistingLogFileIsNotContiguousException constructor"
 title: EsentExistingLogFileIsNotContiguousException constructor 
 TOCTitle: 'EsentExistingLogFileIsNotContiguousException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentExistingLogFileIsNotContiguousException.#ctor

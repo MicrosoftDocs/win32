@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE.cbOverhead property"
 title: JET_RECSIZE.cbOverhead property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cbOverhead property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.cbOverhead

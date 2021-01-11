@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ErrorInfoGrbit enumeration"
 title: ErrorInfoGrbit enumeration (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: ErrorInfoGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.ErrorInfoGrbit

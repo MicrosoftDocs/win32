@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ColumnInfo properties"
 title: ColumnInfo properties
 TOCTitle: ColumnInfo properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.ColumnInfo

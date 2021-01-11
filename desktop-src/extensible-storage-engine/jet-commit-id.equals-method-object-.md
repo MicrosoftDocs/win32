@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COMMIT_ID.Equals method (Object)"
 title: JET_COMMIT_ID.Equals method (Object) (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: Equals method (Object)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID.Equals(System.Object)

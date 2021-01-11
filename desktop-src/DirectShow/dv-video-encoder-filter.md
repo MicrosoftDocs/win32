@@ -1,5 +1,5 @@
 ---
-Description: DV Video Encoder Filter
+description: DV Video Encoder Filter
 ms.assetid: ac57bd11-de16-4a58-9f4b-da270a57ad08
 title: DV Video Encoder Filter
 ms.topic: article

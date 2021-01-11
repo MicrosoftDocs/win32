@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyIndexesException members"
 title: EsentTooManyIndexesException members
 TOCTitle: EsentTooManyIndexesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyIndexesException

@@ -1,5 +1,5 @@
 ---
-Description: Fills an array of pointers to IWiaItem2 interfaces.
+description: Fills an array of pointers to IWiaItem2 interfaces.
 ms.assetid: 35fd5bdf-7e6c-431f-a9c6-62a86ee05f95
 title: IEnumWiaItem2::Next method (Wia.h)
 ms.topic: reference

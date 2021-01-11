@@ -1,5 +1,5 @@
 ---
-Description: Removes an IContextNode object from this collection.
+description: Removes an IContextNode object from this collection.
 ms.assetid: ddda506d-4e39-486d-ac7d-211dc7869a73
 title: IContextNodes::RemoveContextNode method (IACom.h)
 ms.topic: reference

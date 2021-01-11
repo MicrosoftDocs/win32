@@ -1,5 +1,5 @@
 ---
-Description: The following example shows how to use the VerifierEnumerateResource function and related programming elements to abstract and categorize process-specific resource information.
+description: The following example shows how to use the VerifierEnumerateResource function and related programming elements to abstract and categorize process-specific resource information.
 ms.assetid: e0c2c795-2960-44f9-8b63-2329f5b42e15
 title: Using Resource Enumeration
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The StringToAddress function converts a string to an address.
+description: The StringToAddress function converts a string to an address.
 ms.assetid: b1ada88d-04bb-4869-87c6-99f5046356c5
 title: StringToAddress function (Netmon.h)
 ms.topic: reference

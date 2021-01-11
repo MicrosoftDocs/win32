@@ -1,5 +1,5 @@
 ---
-Description: Overview of the Windows accessibility features you can incorporate into your UI framework.
+description: Overview of the Windows accessibility features you can incorporate into your UI framework.
 title: Developing accessible UI frameworks for Windows
 ms.topic: article
 ms.date: 04/18/2019

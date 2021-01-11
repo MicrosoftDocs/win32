@@ -1,5 +1,5 @@
 ---
-Description: Generates a mesh with reordered faces and vertices to optimize drawing performance. This method reorders the existing mesh.
+description: Generates a mesh with reordered faces and vertices to optimize drawing performance. This method reorders the existing mesh.
 ms.assetid: 2cdaf627-d1d3-44f0-a5ae-9023d4b0de45
 title: ID3DXMesh::OptimizeInplace method (D3DX9Mesh.h)
 ms.topic: reference

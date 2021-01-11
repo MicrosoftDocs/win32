@@ -1,5 +1,5 @@
 ---
-Description: The Graphics class is at the heart of Windows GDI+. To draw anything, you create a Graphics object, set its properties, and call its methods ( DrawLine, DrawImage, DrawString, and the like).
+description: The Graphics class is at the heart of Windows GDI+. To draw anything, you create a Graphics object, set its properties, and call its methods ( DrawLine, DrawImage, DrawString, and the like).
 ms.assetid: 7d70f9fe-c0b2-4d65-815d-483d06df96ad
 title: The State of a Graphics Object
 ms.topic: article

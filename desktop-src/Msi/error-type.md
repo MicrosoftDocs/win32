@@ -1,5 +1,5 @@
 ---
-Description: The read-only Type property returns one of the values of msmErrorType, indicating the type of error represented by this object.
+description: The read-only Type property returns one of the values of msmErrorType, indicating the type of error represented by this object.
 ms.assetid: 5567ba71-c815-4434-962c-aa46cd171712
 title: Error.Type property (Mergemod.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: If VARIANT\_TRUE, the device is not working properly.
+description: If VARIANT\_TRUE, the device is not working properly.
 ms.assetid: 9a87ed78-902c-4c6b-a1e6-88fce53ce42f
 title: System.Devices.NotWorkingProperly
 ms.topic: article

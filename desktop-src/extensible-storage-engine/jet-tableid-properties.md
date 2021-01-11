@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_TABLEID properties"
 title: JET_TABLEID properties
 TOCTitle: JET_TABLEID properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_TABLEID

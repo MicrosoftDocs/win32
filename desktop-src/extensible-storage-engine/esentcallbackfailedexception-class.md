@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCallbackFailedException class"
 title: EsentCallbackFailedException class
 TOCTitle: EsentCallbackFailedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCallbackFailedException

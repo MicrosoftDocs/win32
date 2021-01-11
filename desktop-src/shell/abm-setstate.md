@@ -1,5 +1,5 @@
 ---
-Description: Sets the autohide and always-on-top states of the Windows taskbar.
+description: Sets the autohide and always-on-top states of the Windows taskbar.
 title: ABM_SETSTATE message (Shellapi.h)
 ms.topic: reference
 ms.date: 05/31/2018

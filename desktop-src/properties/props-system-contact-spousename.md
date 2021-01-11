@@ -1,5 +1,5 @@
 ---
-Description: Name eof the contact's spouse.
+description: Name eof the contact's spouse.
 ms.assetid: 382d4e90-11f9-4b03-9486-49627ec8e32d
 title: System.Contact.SpouseName
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Saves all changes to the link.
+description: Saves all changes to the link.
 ms.assetid: 4c776c82-8eca-4c9b-9487-4a835affd2d8
 title: ShellLinkObject.Save method (Shldisp.h)
 ms.topic: reference

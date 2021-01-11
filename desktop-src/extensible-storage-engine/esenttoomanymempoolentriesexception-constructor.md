@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyMempoolEntriesException constructor"
 title: EsentTooManyMempoolEntriesException constructor 
 TOCTitle: 'EsentTooManyMempoolEntriesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyMempoolEntriesException.#ctor

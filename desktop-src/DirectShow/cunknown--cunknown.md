@@ -1,5 +1,5 @@
 ---
-Description: Destructor method.
+description: Destructor method.
 ms.assetid: 5d4ea970-2145-4119-b3dc-77fba1c2207a
 title: CUnknown.~CUnknown destructor (Combase.h)
 ms.topic: reference

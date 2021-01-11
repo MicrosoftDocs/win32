@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the error objects for the migration job, if any exist.
+description: Retrieves the error objects for the migration job, if any exist.
 ms.assetid: 8526e28c-bfc8-42b3-850c-0a875a52a42c
 title: GetErrorEx method of the Msvm_MigrationJob class
 ms.topic: reference

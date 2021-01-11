@@ -1,5 +1,5 @@
 ---
-Description: The system power status indicates whether the source of power for a computer is a system battery or AC power. For computers that use batteries, the system power status also indicates how much battery life remains and whether the battery is charging.
+description: The system power status indicates whether the source of power for a computer is a system battery or AC power. For computers that use batteries, the system power status also indicates how much battery life remains and whether the battery is charging.
 ms.assetid: b9a5e7de-a603-4bd9-b854-1e58572c3b2b
 title: System Power Status
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXRANGE.tableid property"
 title: JET_INDEXRANGE.tableid property 
 TOCTitle: 'tableid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXRANGE.tableid

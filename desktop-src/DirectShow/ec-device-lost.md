@@ -1,5 +1,5 @@
 ---
-Description: A Plug and Play device was removed or became available again.
+description: A Plug and Play device was removed or became available again.
 ms.assetid: 0640ba96-22a5-4b82-bd9f-117b67dee311
 title: EC_DEVICE_LOST (Dshow.h)
 ms.topic: reference

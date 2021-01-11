@@ -1,5 +1,5 @@
 ---
-Description: You can use the methods of the SWbemLocator object to obtain an SWbemServices object that represents a connection to a namespace on either a local computer or a remote host computer.
+description: You can use the methods of the SWbemLocator object to obtain an SWbemServices object that represents a connection to a namespace on either a local computer or a remote host computer.
 ms.assetid: 51ea2c01-04e8-4b1c-bc82-ac96ba8b6eee
 ms.tgt_platform: multiple
 title: SWbemLocator object (Wbemdisp.h)

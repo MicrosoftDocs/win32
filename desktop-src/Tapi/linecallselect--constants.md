@@ -1,5 +1,5 @@
 ---
-Description: The LINECALLSELECT\_ bit-flag constants describe which calls are to be selected.
+description: The LINECALLSELECT\_ bit-flag constants describe which calls are to be selected.
 ms.assetid: f19a41bc-403a-4d4b-ab85-240a73514ebb
 title: LINECALLSELECT_ Constants (Tapi.h)
 ms.topic: reference

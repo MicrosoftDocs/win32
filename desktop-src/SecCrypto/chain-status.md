@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the validity status of the chain or a specific certificate in the chain.
+description: Retrieves the validity status of the chain or a specific certificate in the chain.
 title: IChain2::Status property
 ms.topic: reference
 ms.date: 05/31/2018

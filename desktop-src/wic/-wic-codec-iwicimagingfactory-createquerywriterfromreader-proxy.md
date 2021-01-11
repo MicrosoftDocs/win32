@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateQueryWriterFromReader method.
+description: Proxy function for the CreateQueryWriterFromReader method.
 ms.assetid: 7784c5e9-38e0-43de-83db-4de3361fa20e
 title: IWICImagingFactory_CreateQueryWriterFromReader_Proxy function
 ms.topic: reference

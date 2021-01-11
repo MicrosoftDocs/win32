@@ -1,5 +1,5 @@
 ---
-Description: Gets the length of time, in minutes, since the user's last activity.
+description: Gets the length of time, in minutes, since the user's last activity.
 ms.assetid: 2d1e68ad-6f65-4e64-afbf-505b2c9d3423
 title: GetIdleMinutes function
 ms.topic: reference

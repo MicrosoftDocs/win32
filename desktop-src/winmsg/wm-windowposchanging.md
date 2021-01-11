@@ -1,5 +1,5 @@
 ---
-Description: Sent to a window whose size, position, or place in the Z order is about to change as a result of a call to the SetWindowPos function or another window-management function.
+description: Sent to a window whose size, position, or place in the Z order is about to change as a result of a call to the SetWindowPos function or another window-management function.
 ms.assetid: 45ecd966-5222-4738-9e99-8a6edbdd435a
 title: WM_WINDOWPOSCHANGING message (Winuser.h)
 ms.topic: reference

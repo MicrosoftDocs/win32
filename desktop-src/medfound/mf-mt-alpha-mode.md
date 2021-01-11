@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the alpha mode for color media video types is premultiplied or straight.
+description: Specifies whether the alpha mode for color media video types is premultiplied or straight.
 ms.assetid: A263C3F7-357B-426D-B38C-533F9F6A1262
 title: MF_MT_ALPHA_MODE attribute (Mfapi.h)
 ms.topic: reference

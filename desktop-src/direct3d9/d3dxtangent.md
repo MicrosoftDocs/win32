@@ -1,5 +1,5 @@
 ---
-Description: Defines settings used for mesh tangent frame computations.
+description: Defines settings used for mesh tangent frame computations.
 ms.assetid: b525b4cc-9a2d-4569-bae8-7cc7f7832cbc
 title: D3DXTANGENT enumeration (D3dx9mesh.h)
 ms.topic: reference

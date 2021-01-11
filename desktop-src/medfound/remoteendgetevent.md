@@ -1,5 +1,5 @@
 ---
-Description: Remotable version of the IMFMediaEventGenerator::EndGetEvent method.
+description: Remotable version of the IMFMediaEventGenerator::EndGetEvent method.
 ms.assetid: 5b793760-546c-43d4-8251-d89d8d7152ad
 title: RemoteEndGetEvent (Mfobjects.h)
 ms.topic: reference

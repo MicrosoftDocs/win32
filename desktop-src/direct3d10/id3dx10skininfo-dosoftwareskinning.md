@@ -1,5 +1,5 @@
 ---
-Description: Do software skinning on an array of vertices.
+description: Do software skinning on an array of vertices.
 ms.assetid: 6c1a713f-4ae7-4ee2-afa6-079dd8354fe7
 title: ID3DX10SkinInfo::DoSoftwareSkinning method (D3DX10.h)
 ms.topic: reference

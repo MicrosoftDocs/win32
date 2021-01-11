@@ -1,5 +1,5 @@
 ---
-Description: Queued Components Errors
+description: Queued Components Errors
 ms.assetid: 29a1bf52-7252-4f8a-bdb7-61b152fb907e
 title: Queued Components Errors
 ms.topic: article

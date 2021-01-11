@@ -1,5 +1,5 @@
 ---
-Description: Enables a physical GPU for virtualization.
+description: Enables a physical GPU for virtualization.
 ms.assetid: 700cb46b-97f1-40cf-88d2-64242f4bd2c6
 title: EnableGPUForVirtualization method of the Msvm_Synthetic3DService class
 ms.topic: reference

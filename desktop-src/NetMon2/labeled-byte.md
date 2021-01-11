@@ -1,5 +1,5 @@
 ---
-Description: The LABELED\_BYTE structure defines a labeled BIT pair. The Label of the labeled BIT pair is displayed when a specific byte property value is detected.
+description: The LABELED\_BYTE structure defines a labeled BIT pair. The Label of the labeled BIT pair is displayed when a specific byte property value is detected.
 ms.assetid: 6dc6a773-da75-4ffe-878f-b30ceef2acb1
 title: LABELED_BYTE structure (Netmon.h)
 ms.topic: reference

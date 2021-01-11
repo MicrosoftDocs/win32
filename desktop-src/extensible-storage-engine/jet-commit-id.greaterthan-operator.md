@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COMMIT_ID.GreaterThan operator"
 title: JET_COMMIT_ID.GreaterThan operator  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'GreaterThan operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID.op_GreaterThan(Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID,Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID)

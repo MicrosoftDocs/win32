@@ -1,5 +1,5 @@
 ---
-Description: The IX509EnrollmentStatus interface exposes the following methods.
+description: The IX509EnrollmentStatus interface exposes the following methods.
 ms.assetid: 2D060297-4CAE-4558-A294-4C8BD5750AE4
 title: IX509EnrollmentStatus Methods
 ms.topic: reference

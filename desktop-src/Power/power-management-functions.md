@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used with power management.
+description: The following functions are used with power management.
 ms.assetid: eae96a9e-ced2-4e13-b250-33c5acbbae48
 title: Power Management Functions
 ms.topic: article

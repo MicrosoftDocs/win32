@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOSparseException constructor"
 title: EsentFileIOSparseException constructor 
 TOCTitle: 'EsentFileIOSparseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileIOSparseException.#ctor

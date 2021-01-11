@@ -1,5 +1,5 @@
 ---
-Description: A shader that is invoked when ray intersections are not opaque.    
+description: A shader that is invoked when ray intersections are not opaque.
 ms.assetid: 
 title: Any Hit Shader
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: Describes the synthetic 3-D GPU service.
+description: Describes the synthetic 3-D GPU service.
 ms.assetid: 'fe3d6105-3def-453a-ad81-97cd0bb4613f'
 title: Msvm_Synthetic3DService class
 ms.topic: reference

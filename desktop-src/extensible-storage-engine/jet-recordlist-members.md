@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECORDLIST members"
 title: JET_RECORDLIST members
 TOCTitle: JET_RECORDLIST members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_RECORDLIST

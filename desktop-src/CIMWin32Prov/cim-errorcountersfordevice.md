@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ErrorCountersForDevice class associates the CIM\_DeviceErrorCounts class to the logical device to which it applies.
+description: The CIM\_ErrorCountersForDevice class associates the CIM\_DeviceErrorCounts class to the logical device to which it applies.
 ms.assetid: 200971ab-df85-4a45-beb3-4ffe11ce92dc
 ms.tgt_platform: multiple
 title: CIM_ErrorCountersForDevice class

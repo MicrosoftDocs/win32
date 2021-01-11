@@ -1,5 +1,5 @@
 ---
-Description: The EffectsEnabled method determines whether effects are enabled. If effects are disabled, they remain in the timeline but are not rendered.
+description: The EffectsEnabled method determines whether effects are enabled. If effects are disabled, they remain in the timeline but are not rendered.
 ms.assetid: fd8bb2aa-9c10-4a85-9e9d-1b342fbce03b
 title: IAMTimeline::EffectsEnabled method (Qedit.h)
 ms.topic: reference

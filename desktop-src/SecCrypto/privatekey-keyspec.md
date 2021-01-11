@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the key specification.
+description: Retrieves the key specification.
 ms.assetid: 93c909cb-b1d1-4c2b-a66c-9d3f6dd9b340
 title: PrivateKey.KeySpec property
 ms.topic: reference

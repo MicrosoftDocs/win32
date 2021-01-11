@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTableNotEmptyException members"
 title: EsentTableNotEmptyException members
 TOCTitle: EsentTableNotEmptyException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTableNotEmptyException

@@ -1,5 +1,5 @@
 ---
-Description: Begins the task completion.
+description: Begins the task completion.
 ms.assetid: 75C84DD9-D815-45C2-A28E-EAE437EAFF89
 title: TaskCompletionClient::ApplyTaskCompletion method
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Resets the health state for all applications in a virtual machine.
+description: Resets the health state for all applications in a virtual machine.
 ms.assetid: DB0B2FB3-87EB-44B2-9C4E-849BCE594E89
 title: IVmApplicationHealthMonitor::ResetAllApplicationState method
 ms.topic: reference

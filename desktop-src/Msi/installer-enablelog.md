@@ -1,5 +1,5 @@
 ---
-Description: The EnableLog method of the Installer object enables logging of the selected message type for all subsequent installation sessions in the current process space.
+description: The EnableLog method of the Installer object enables logging of the selected message type for all subsequent installation sessions in the current process space.
 ms.assetid: eb384587-0870-4812-866c-b483c1dfa841
 title: Installer.EnableLog method
 ms.topic: reference

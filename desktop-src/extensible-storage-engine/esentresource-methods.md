@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResource methods"
 title: EsentResource methods
 TOCTitle: EsentResource methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentResource

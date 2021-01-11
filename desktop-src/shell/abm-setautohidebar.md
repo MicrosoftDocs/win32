@@ -1,5 +1,5 @@
 ---
-Description: Registers or unregisters an autohide appbar for a given edge of the screen. If the system has multiple monitors, the monitor that contains the primary taskbar is used.
+description: Registers or unregisters an autohide appbar for a given edge of the screen. If the system has multiple monitors, the monitor that contains the primary taskbar is used.
 title: ABM_SETAUTOHIDEBAR message (Shellapi.h)
 ms.topic: reference
 ms.date: 05/31/2018

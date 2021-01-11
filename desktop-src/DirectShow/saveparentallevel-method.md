@@ -1,5 +1,5 @@
 ---
-Description: The DVDAdm.SaveParentalLevel method saves a new default parental level to the registry.
+description: The DVDAdm.SaveParentalLevel method saves a new default parental level to the registry.
 ms.assetid: 8ad22098-acbd-41fd-9224-829b3cc5f8ae
 title: SaveParentalLevel Method (Segment.h)
 ms.topic: reference

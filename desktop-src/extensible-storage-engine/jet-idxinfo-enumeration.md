@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_IdxInfo enumeration"
 title: JET_IdxInfo enumeration
 TOCTitle: JET_IdxInfo enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_IdxInfo

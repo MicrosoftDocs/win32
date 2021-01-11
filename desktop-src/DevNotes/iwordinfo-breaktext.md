@@ -1,5 +1,5 @@
 ---
-Description: Parses text to identify words and provides the results to the WordSink object.
+description: Parses text to identify words and provides the results to the WordSink object.
 ms.assetid: 42bfc961-c095-4380-9b55-b58a0d9f2c00
 title: IWordInfo::BreakText method
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The SWbemPropertySet object exposes the following methods.
+description: The SWbemPropertySet object exposes the following methods.
 ms.assetid: 6BA94432-69AD-4F2C-B4A2-8E4101B93D21
 ms.tgt_platform: multiple
 title: SWbemPropertySet Methods

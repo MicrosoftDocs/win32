@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyTruncatedException properties"
 title: EsentKeyTruncatedException properties
 TOCTitle: EsentKeyTruncatedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentKeyTruncatedException

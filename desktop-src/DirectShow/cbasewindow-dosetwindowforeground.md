@@ -1,5 +1,5 @@
 ---
-Description: The DoSetWindowForeground method brings the window to the foreground.
+description: The DoSetWindowForeground method brings the window to the foreground.
 ms.assetid: 5aace88b-14c0-41ce-95a3-0e255ca56ae6
 title: CBaseWindow.DoSetWindowForeground method (Winutil.h)
 ms.topic: reference

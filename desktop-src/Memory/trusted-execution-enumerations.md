@@ -1,5 +1,5 @@
 ---
-Description: 'The following enumerations are used when working with enclaves that are used to create trusted execution environments:'
+description: 'The following enumerations are used when working with enclaves that are used to create trusted execution environments:'
 ms.assetid: 7B122E1F-AAF8-4834-B262-CD641D16DA4E
 title: Trusted Execution Enumerations
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The most common means of updating a WMI class instance is to update the entire instance at once.
+description: The most common means of updating a WMI class instance is to update the entire instance at once.
 ms.assetid: fca5f102-0823-4900-b147-9b29ca036607
 ms.tgt_platform: multiple
 title: Updating an Entire Instance

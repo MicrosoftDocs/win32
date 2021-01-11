@@ -1,5 +1,5 @@
 ---
-Description: Monitors receive captured network frames in real-time mode. The frames are captured by a network packet provider (NPP) using the providers IRTC COM interface, and passed on to the monitor in one of the monitors two execution threads.
+description: Monitors receive captured network frames in real-time mode. The frames are captured by a network packet provider (NPP) using the providers IRTC COM interface, and passed on to the monitor in one of the monitors two execution threads.
 ms.assetid: 50aa9da2-3a8a-4514-9b1b-9c8364d074d0
 title: Real-Time Captures
 ms.topic: article

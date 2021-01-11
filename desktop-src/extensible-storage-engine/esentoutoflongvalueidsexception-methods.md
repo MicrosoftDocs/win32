@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfLongValueIDsException methods"
 title: EsentOutOfLongValueIDsException methods
 TOCTitle: EsentOutOfLongValueIDsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfLongValueIDsException

@@ -1,5 +1,5 @@
 ---
-Description: Codec implementation.
+description: Codec implementation.
 ms.assetid: 5ec23f95-cc7d-4c16-979a-f1d2cc485bb0
 title: Codec implementation
 ms.topic: article

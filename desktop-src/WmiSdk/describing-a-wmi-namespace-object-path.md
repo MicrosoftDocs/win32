@@ -1,5 +1,5 @@
 ---
-Description: A namespace object path describes the location of a particular namespace on a server. A namespace object path contains server and namespace elements, and is formatted using either forward or backward slashes.
+description: A namespace object path describes the location of a particular namespace on a server. A namespace object path contains server and namespace elements, and is formatted using either forward or backward slashes.
 ms.assetid: 6d8da19e-0914-4267-870e-c203176b895e
 ms.tgt_platform: multiple
 title: Describing a WMI Namespace Object Path

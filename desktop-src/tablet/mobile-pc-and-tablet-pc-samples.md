@@ -1,5 +1,5 @@
 ---
-Description: Overview of application programming interface (API) code samples for the Tablet PC and Windows Touch sections of the Windows SDK.
+description: Overview of application programming interface (API) code samples for the Tablet PC and Windows Touch sections of the Windows SDK.
 ms.assetid: 4ede7d0e-e826-4b3a-8a46-0f3162c19cb0
 title: Tablet and Touch Samples
 ms.topic: article

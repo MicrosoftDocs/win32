@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPartiallyAttachedDBException methods"
 title: EsentPartiallyAttachedDBException methods
 TOCTitle: EsentPartiallyAttachedDBException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentPartiallyAttachedDBException

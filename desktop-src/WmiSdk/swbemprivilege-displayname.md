@@ -1,5 +1,5 @@
 ---
-Description: The DisplayName property of an SWbemPrivilege object is a string that displays a description of an SWbemPrivilege object.
+description: The DisplayName property of an SWbemPrivilege object is a string that displays a description of an SWbemPrivilege object.
 ms.assetid: 9ed91a6a-e513-4a72-b8a9-3180e42b811f
 ms.tgt_platform: multiple
 title: SWbemPrivilege.DisplayName property (Wbemdisp.h)

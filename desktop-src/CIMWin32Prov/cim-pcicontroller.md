@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PCIController class represents the properties and management of a PCI controller. The properties in this class and its subclasses are defined in the various PCI specifications published by the PCI SIG.
+description: The CIM\_PCIController class represents the properties and management of a PCI controller. The properties in this class and its subclasses are defined in the various PCI specifications published by the PCI SIG.
 ms.assetid: 0f2aec01-362d-49d7-95ea-23487214188c
 ms.tgt_platform: multiple
 title: CIM_PCIController class

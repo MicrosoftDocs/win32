@@ -1,5 +1,5 @@
 ---
-Description: Step 3 Implement the Frame-Grabbing Function
+description: Step 3 Implement the Frame-Grabbing Function
 ms.assetid: 4ec2e4a4-3ab0-45f1-b29a-313599fe9e7d
 title: Step 3 Implement the Frame-Grabbing Function
 ms.topic: article

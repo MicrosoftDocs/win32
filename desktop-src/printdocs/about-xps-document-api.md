@@ -1,5 +1,5 @@
 ---
-Description: The XPS Document API implements the XPS object model and enables developers to create an XPS OM, manipulate XPS document content in native Windows \\\\ programs, and save the XPS OM to a file or stream as an XPS document.
+description: The XPS Document API implements the XPS object model and enables developers to create an XPS OM, manipulate XPS document content in native Windows \\\\ programs, and save the XPS OM to a file or stream as an XPS document.
 ms.assetid: dbb48dae-1ee6-4a8b-9184-8b796755087e
 title: About XPS Document API
 ms.topic: article

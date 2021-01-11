@@ -1,5 +1,5 @@
 ---
-Description: Applications that use directed discovery send Probe messages over HTTP or HTTPS to discover devices.
+description: Applications that use directed discovery send Probe messages over HTTP or HTTPS to discover devices.
 ms.assetid: 599f5962-da91-4688-b333-a784f06581ed
 title: Troubleshooting WSDAPI Applications Using Directed Discovery
 ms.topic: article

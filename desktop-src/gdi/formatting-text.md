@@ -1,5 +1,5 @@
 ---
-Description: 'The formatting functions can be divided into three categories: those that retrieve or set the text-formatting attributes for a device context, those that retrieve character widths, and those that retrieve string widths and heights.'
+description: 'The formatting functions can be divided into three categories: those that retrieve or set the text-formatting attributes for a device context, those that retrieve character widths, and those that retrieve string widths and heights.'
 ms.assetid: 760ffd71-9bdc-48cd-99f2-9400ef3aafbf
 title: Formatting Text (Windows GDI)
 ms.topic: article

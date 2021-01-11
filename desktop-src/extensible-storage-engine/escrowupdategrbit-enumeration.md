@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EscrowUpdateGrbit enumeration"
 title: EscrowUpdateGrbit enumeration
 TOCTitle: EscrowUpdateGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EscrowUpdateGrbit

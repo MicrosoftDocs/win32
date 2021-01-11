@@ -1,5 +1,5 @@
 ---
-Description: The PERFINFO\_DSHOW\_STREAMTRACE structure contains data for a DirectShow trace event of type GUID\_STREAMTRACE.
+description: The PERFINFO\_DSHOW\_STREAMTRACE structure contains data for a DirectShow trace event of type GUID\_STREAMTRACE.
 ms.assetid: 41fbf95c-e86c-4c64-898f-01fbf5f8839c
 title: PERFINFO_DSHOW_STREAMTRACE structure (Perfstruct.h)
 ms.topic: reference

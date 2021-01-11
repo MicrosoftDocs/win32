@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStartingRestoreLogTooHighException members"
 title: EsentStartingRestoreLogTooHighException members
 TOCTitle: EsentStartingRestoreLogTooHighException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentStartingRestoreLogTooHighException

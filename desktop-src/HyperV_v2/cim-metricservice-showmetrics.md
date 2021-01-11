@@ -1,5 +1,5 @@
 ---
-Description: 'Reports the following: the metrics available to be collected for a managed element, the managed elements for which a metric defined by an instance of CIM\_BaseMetricDefinition is available to be collected, and whether or not a particular metric is currently being collected for a managed element.'
+description: 'Reports the following: the metrics available to be collected for a managed element, the managed elements for which a metric defined by an instance of CIM\_BaseMetricDefinition is available to be collected, and whether or not a particular metric is currently being collected for a managed element.'
 ms.assetid: 5af430d2-9ab3-4bee-ad51-d9045b51172a
 title: ShowMetrics method of the CIM_MetricService class
 ms.topic: reference

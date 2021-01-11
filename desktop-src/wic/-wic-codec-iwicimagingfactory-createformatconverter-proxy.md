@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateFormatConverter method.
+description: Proxy function for the CreateFormatConverter method.
 ms.assetid: 1013720a-d00e-4381-af5d-747806546692
 title: IWICImagingFactory_CreateFormatConverter_Proxy function
 ms.topic: reference

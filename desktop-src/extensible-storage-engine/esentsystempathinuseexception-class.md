@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSystemPathInUseException class"
 title: EsentSystemPathInUseException class
 TOCTitle: EsentSystemPathInUseException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSystemPathInUseException

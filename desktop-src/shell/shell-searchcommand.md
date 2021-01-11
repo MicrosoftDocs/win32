@@ -1,5 +1,5 @@
 ---
-Description: Displays the Apps Search pane.
+description: Displays the Apps Search pane.
 title: Shell.SearchCommand method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018

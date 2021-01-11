@@ -1,5 +1,5 @@
 ---
-Description: Adds an authorization entry to a recovery server.
+description: Adds an authorization entry to a recovery server.
 ms.assetid: edc11c5b-b1a1-45e0-a920-2f1f1b0b8779
 title: AddAuthorizationEntry method of the Msvm_ReplicationService class
 ms.topic: reference

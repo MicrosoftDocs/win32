@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for IDE channel events. The following syntax is simplified from MOF code.
+description: This class is the event type class for IDE channel events. The following syntax is simplified from MOF code.
 ms.assetid: 2265a4a6-4377-4aa9-926a-def6e8eda998
 title: SystemConfig_IDEChannel class
 ms.topic: reference

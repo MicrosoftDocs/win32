@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKINFO.bklogtimeMark property"
 title: JET_BKINFO.bklogtimeMark property 
 TOCTitle: 'bklogtimeMark property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_BKINFO.bklogtimeMark

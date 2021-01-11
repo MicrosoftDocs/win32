@@ -1,5 +1,5 @@
 ---
-Description: The GetUnits method retrieves the reference time in 100-nanosecond units.
+description: The GetUnits method retrieves the reference time in 100-nanosecond units.
 ms.assetid: f27dada1-67a6-424a-8bf5-979ad375736f
 title: CRefTime.GetUnits method (Reftime.h)
 ms.topic: reference

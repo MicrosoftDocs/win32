@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETCOLUMN.pvData property"
 title: JET_SETCOLUMN.pvData property 
 TOCTitle: 'pvData property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN.pvData

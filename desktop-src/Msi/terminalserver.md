@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the TerminalServer property when the system is a server with Terminal Services.
+description: The installer sets the TerminalServer property when the system is a server with Terminal Services.
 ms.assetid: 65bc1f73-8b52-4ebb-b408-96123db2176d
 title: TerminalServer property
 ms.topic: reference

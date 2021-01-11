@@ -1,5 +1,5 @@
 ---
-Description: WMI uses Event Tracing (ETW) and events can be obtained through the Event Viewer user interface or the Wevtutil command line tool. For more information, see Tracing WMI Activity.
+description: WMI uses Event Tracing (ETW) and events can be obtained through the Event Viewer user interface or the Wevtutil command line tool. For more information, see Tracing WMI Activity.
 ms.assetid: 315b8355-03b9-40f9-a6c1-29a49f5a2cd8
 ms.tgt_platform: multiple
 title: WMI Log Files

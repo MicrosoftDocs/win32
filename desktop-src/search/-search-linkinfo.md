@@ -1,5 +1,5 @@
 ---
-Description: Stores information about link types, and is used by the IItemPreviewerExt interface.
+description: Stores information about link types, and is used by the IItemPreviewerExt interface.
 ms.assetid: c1d525ea-ee80-49fb-9447-20465b8f8654
 title: LINKINFO structure
 ms.topic: reference

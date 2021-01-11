@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetDupSession method"
 title: Api.JetDupSession method 
 TOCTitle: 'JetDupSession method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetDupSession(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_SESID@)

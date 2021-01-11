@@ -1,5 +1,5 @@
 ---
-Description: The IWiaTransfer interface provides stream-based transfer of data.
+description: The IWiaTransfer interface provides stream-based transfer of data.
 ms.assetid: 7bc6d3b8-9bf0-4b77-aa2b-b7c64c5730c0
 title: IWiaTransfer interface (Wia.h)
 ms.topic: reference

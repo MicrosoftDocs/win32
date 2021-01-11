@@ -1,5 +1,5 @@
 ---
-Description: Updates the packet data for the specified strokes.
+description: Updates the packet data for the specified strokes.
 ms.assetid: 7fca4c39-eef2-4019-86a0-27cd0e4e7510
 title: IInkAnalyzer::UpdateStrokesData method (IACom.h)
 ms.topic: reference

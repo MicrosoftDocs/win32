@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extensible Storage Engine Reference"
 title: Extensible Storage Engine Reference
 TOCTitle: Extensible Storage Engine Reference
 ms:assetid: 5033f53b-72f1-4a28-926e-242461863071

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotNestDDLException properties"
 title: EsentCannotNestDDLException properties
 TOCTitle: EsentCannotNestDDLException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCannotNestDDLException

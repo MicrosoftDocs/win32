@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Windows8Api methods"
 title: Windows8Api methods (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: Windows8Api methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IContentEquatable<T> interface"
 title: IContentEquatable(T) interface
 TOCTitle: IContentEquatable(T) interface
 ms:assetid: T:Microsoft.Isam.Esent.Interop.IContentEquatable`1

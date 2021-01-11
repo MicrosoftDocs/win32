@@ -1,5 +1,5 @@
 ---
-Description: Used to control the collection of metrics for a managed element or elements.
+description: Used to control the collection of metrics for a managed element or elements.
 ms.assetid: 3DC043ED-A790-4322-BF80-55961E9946C2
 title: ControlMetrics method of the Msvm_MetricService class
 ms.topic: reference

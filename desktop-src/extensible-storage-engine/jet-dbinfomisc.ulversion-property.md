@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.ulVersion property"
 title: JET_DBINFOMISC.ulVersion property 
 TOCTitle: 'ulVersion property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.ulVersion

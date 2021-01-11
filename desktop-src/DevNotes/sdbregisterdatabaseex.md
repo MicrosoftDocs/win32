@@ -1,5 +1,5 @@
 ---
-Description: Registers the specified database.
+description: Registers the specified database.
 ms.assetid: 65eceb1a-9ce1-4b97-98d7-731932797794
 title: SdbRegisterDatabaseEx function
 ms.topic: reference

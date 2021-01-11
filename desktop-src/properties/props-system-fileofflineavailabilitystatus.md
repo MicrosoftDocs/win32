@@ -1,5 +1,5 @@
 ---
-Description: Null indicates the normal case (file is available offline). The partial case is only for folders where some content may be available offline and some may not.
+description: Null indicates the normal case (file is available offline). The partial case is only for folders where some content may be available offline and some may not.
 ms.assetid: 46b03632-702e-46df-8204-33ada85adbee
 title: System.FileOfflineAvailabilityStatus
 ms.topic: article

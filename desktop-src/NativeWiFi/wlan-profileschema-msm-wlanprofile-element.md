@@ -1,5 +1,5 @@
 ---
-Description: Contains various media-specific module (MSM) settings.
+description: Contains various media-specific module (MSM) settings.
 ms.assetid: 31f98af8-a577-4f6a-9a0a-b182b5a89cc3
 title: MSM (WLANProfile) Element
 ms.topic: reference

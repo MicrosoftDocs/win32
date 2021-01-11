@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManySplitsException class"
 title: EsentTooManySplitsException class
 TOCTitle: EsentTooManySplitsException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTooManySplitsException

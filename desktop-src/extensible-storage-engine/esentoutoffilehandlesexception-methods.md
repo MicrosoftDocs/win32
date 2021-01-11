@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfFileHandlesException methods"
 title: EsentOutOfFileHandlesException methods
 TOCTitle: EsentOutOfFileHandlesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfFileHandlesException

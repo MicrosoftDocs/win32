@@ -1,5 +1,5 @@
 ---
-Description: Returns virtual machine summary information for the specified virtual machine definition files.
+description: Returns virtual machine summary information for the specified virtual machine definition files.
 ms.assetid: 5a3d7f2c-3b89-4dd6-909d-4452afc3705f
 title: GetDefinitionFileSummaryInformation method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference

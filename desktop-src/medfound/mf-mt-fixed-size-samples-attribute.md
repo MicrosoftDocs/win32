@@ -1,5 +1,5 @@
 ---
-Description: Specifies for a media type whether the samples have a fixed size.
+description: Specifies for a media type whether the samples have a fixed size.
 ms.assetid: 2d67864a-fd2f-400d-8a1e-e71dc1920593
 title: MF_MT_FIXED_SIZE_SAMPLES attribute (Mfapi.h)
 ms.topic: reference

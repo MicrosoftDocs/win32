@@ -1,5 +1,5 @@
 ---
-Description: Creates a new shim database.
+description: Creates a new shim database.
 ms.assetid: 91fb180d-1a21-4011-821d-ea0fc999dc76
 title: SdbCreateDatabase function
 ms.topic: reference

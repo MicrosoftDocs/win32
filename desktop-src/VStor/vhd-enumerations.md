@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: <span id=vhd.vhd_enumerations></span>VHD Enumerations"
 MS-HAID: vhd.vhd\_enumerations
 MSHAttr:
 - PreferredSiteName:MSDN

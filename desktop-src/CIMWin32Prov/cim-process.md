@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Process class represents a single instance of a running program. A user typically sees a process as an application or task.
+description: The CIM\_Process class represents a single instance of a running program. A user typically sees a process as an application or task.
 ms.assetid: 8b00ef6e-5c7f-410c-9e48-1205ea6e5a4c
 ms.tgt_platform: multiple
 title: CIM_Process class

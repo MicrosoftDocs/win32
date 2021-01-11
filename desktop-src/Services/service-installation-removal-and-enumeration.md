@@ -1,5 +1,5 @@
 ---
-Description: A configuration program uses the CreateService function to install a new service in the SCM database.
+description: A configuration program uses the CreateService function to install a new service in the SCM database.
 ms.assetid: 554b9983-4e49-4b11-b420-a4754123d854
 title: Service Installation, Removal, and Enumeration
 ms.topic: article

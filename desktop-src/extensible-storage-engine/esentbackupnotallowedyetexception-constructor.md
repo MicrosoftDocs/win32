@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBackupNotAllowedYetException constructor"
 title: EsentBackupNotAllowedYetException constructor 
 TOCTitle: 'EsentBackupNotAllowedYetException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBackupNotAllowedYetException.#ctor

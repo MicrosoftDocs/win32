@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBID"
 title: JET_DBID
 TOCTitle: JET_DBID
 ms:assetid: 516acb79-aa75-4609-81b6-3b2e4e0c95af

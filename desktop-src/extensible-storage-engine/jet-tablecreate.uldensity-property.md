@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE.ulDensity property"
 title: JET_TABLECREATE.ulDensity property 
 TOCTitle: 'ulDensity property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.ulDensity

@@ -1,5 +1,5 @@
 ---
-Description: The View object represents a result set obtained when processing a query using the OpenView method of the Database object.
+description: The View object represents a result set obtained when processing a query using the OpenView method of the Database object.
 ms.assetid: 'd9d6583a-1cf3-4c33-a851-83e862e2338e'
 title: View object
 ms.topic: reference

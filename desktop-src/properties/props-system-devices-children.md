@@ -1,5 +1,5 @@
 ---
-Description: Device instance ids of children of this device.
+description: Device instance ids of children of this device.
 ms.assetid: 172f23db-d298-42a6-8061-c8482b85120c
 title: System.Devices.Children
 ms.topic: article

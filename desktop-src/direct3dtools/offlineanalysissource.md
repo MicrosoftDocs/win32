@@ -1,5 +1,5 @@
 ---
-Description: An enum used to indicate the source of graphics information for frame analysis.
+description: An enum used to indicate the source of graphics information for frame analysis.
 MS-HAID: vspixengine.OFFLINEANALYSISSOURCE
 MSHAttr:
 - PreferredSiteName:MSDN

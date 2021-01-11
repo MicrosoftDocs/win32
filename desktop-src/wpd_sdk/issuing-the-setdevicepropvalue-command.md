@@ -1,5 +1,5 @@
 ---
-Description: Issuing the SetDevicePropValue Command
+description: Issuing the SetDevicePropValue Command
 ms.assetid: d5917421-fbd4-477c-b29b-9f983c93cfdb
 title: Issuing the SetDevicePropValue Command
 ms.topic: article

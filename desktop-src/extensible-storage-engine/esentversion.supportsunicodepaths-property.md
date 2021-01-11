@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersion.SupportsUnicodePaths property"
 title: EsentVersion.SupportsUnicodePaths property 
 TOCTitle: 'SupportsUnicodePaths property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentVersion.SupportsUnicodePaths

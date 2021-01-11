@@ -1,5 +1,5 @@
 ---
-Description: The EnumPrintProcessorDatatypes function enumerates the data types that a specified print processor supports.
+description: The EnumPrintProcessorDatatypes function enumerates the data types that a specified print processor supports.
 ms.assetid: 27b6e074-d303-446b-9e5f-6cfa55c30d26
 title: EnumPrintProcessorDatatypes function (Winspool.h)
 ms.topic: reference

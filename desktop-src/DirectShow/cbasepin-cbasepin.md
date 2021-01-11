@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: Constructor method.
 ms.assetid: e8cb5f1d-171f-4bf8-8ab6-6e547c4678d2
 title: CBasePin.CBasePin constructor (Amfilter.h)
 ms.topic: reference

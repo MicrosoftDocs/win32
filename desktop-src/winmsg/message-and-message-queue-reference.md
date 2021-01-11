@@ -1,5 +1,5 @@
 ---
-Description: .
+description: .
 ms.assetid: e6e5326c-d143-44ad-a8fa-7d2cb3ef0058
 title: Message Reference
 ms.topic: article

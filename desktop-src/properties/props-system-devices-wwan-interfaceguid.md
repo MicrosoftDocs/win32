@@ -1,5 +1,5 @@
 ---
-Description: WWAN Interface Guid.
+description: WWAN Interface Guid.
 ms.assetid: 4c67d652-3c6c-46ca-a1d6-cf35afd23440
 title: System.Devices.Wwan.InterfaceGuid
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of the open windows that belong to the Shell. Methods associated with this objects can control and execute commands within the Shell, and obtain other Shell-related objects.
+description: Represents a collection of the open windows that belong to the Shell. Methods associated with this objects can control and execute commands within the Shell, and obtain other Shell-related objects.
 ms.assetid: 'cad1f961-7fb4-4ba1-be48-b664d3de2c60'
 title: ShellWindows object (Exdisp.h)
 ms.topic: reference

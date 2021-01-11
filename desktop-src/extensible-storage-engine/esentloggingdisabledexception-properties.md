@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLoggingDisabledException properties"
 title: EsentLoggingDisabledException properties
 TOCTitle: EsentLoggingDisabledException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLoggingDisabledException

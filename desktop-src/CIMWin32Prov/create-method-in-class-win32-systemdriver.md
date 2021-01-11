@@ -1,5 +1,5 @@
 ---
-Description: Creates a new service managed by the system driver.
+description: Creates a new service managed by the system driver.
 ms.assetid: 212c88eb-f26d-4b07-b8fe-8508050c97fc
 ms.tgt_platform: multiple
 title: Create method of the Win32_SystemDriver class

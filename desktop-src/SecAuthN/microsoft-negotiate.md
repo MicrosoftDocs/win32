@@ -1,5 +1,5 @@
 ---
-Description: Microsoft Negotiate is a security support provider that acts as an application layer between Security Support Provider Interface and the other SSPs.
+description: Microsoft Negotiate is a security support provider that acts as an application layer between Security Support Provider Interface and the other SSPs.
 ms.assetid: 3aa7e979-8b55-416d-bed1-28296055d38e
 title: Microsoft Negotiate
 ms.topic: article

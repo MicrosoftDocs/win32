@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: UInt16ColumnValue.Size property"
 title: UInt16ColumnValue.Size property 
 TOCTitle: 'Size property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.UInt16ColumnValue.Size

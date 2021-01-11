@@ -1,5 +1,5 @@
 ---
-Description: MTP Extension Properties
+description: MTP Extension Properties
 ms.assetid: 58fc8741-261a-4e63-9fd3-8f0ca05866ad
 title: MTP Extension Properties
 ms.topic: article

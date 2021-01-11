@@ -1,5 +1,5 @@
 ---
-Description: The SWbemPrivilege object represents a single privilege. This object cannot be created by the VBScript CreateObject call.
+description: The SWbemPrivilege object represents a single privilege. This object cannot be created by the VBScript CreateObject call.
 ms.assetid: 18ee4587-6347-4075-b5e9-c5fb02f3cbf7
 ms.tgt_platform: multiple
 title: SWbemPrivilege object (Wbemdisp.h)

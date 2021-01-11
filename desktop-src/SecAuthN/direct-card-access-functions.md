@@ -1,5 +1,5 @@
 ---
-Description: By using the smart card subsystem, you can communicate with cards that may not conform to the ISO 7816 specifications.
+description: By using the smart card subsystem, you can communicate with cards that may not conform to the ISO 7816 specifications.
 ms.assetid: ea6cfa5a-2abf-4b7f-b3f4-99655266f030
 title: Direct Card Access Functions
 ms.topic: article

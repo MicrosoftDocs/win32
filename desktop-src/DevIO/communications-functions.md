@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used with communications resources.
+description: The following functions are used with communications resources.
 ms.assetid: ba7d1a9e-6906-4923-a8eb-db58050ba699
 title: Communications Functions
 ms.topic: article

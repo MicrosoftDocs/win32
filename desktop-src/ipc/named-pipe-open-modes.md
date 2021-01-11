@@ -1,5 +1,5 @@
 ---
-Description: The pipe server specifies the pipe access, overlap, and write-through modes in the dwOpenMode parameter of the CreateNamedPipe function. The pipe clients can specify these open modes for their pipe handles using the CreateFile function.
+description: The pipe server specifies the pipe access, overlap, and write-through modes in the dwOpenMode parameter of the CreateNamedPipe function. The pipe clients can specify these open modes for their pipe handles using the CreateFile function.
 ms.assetid: 88824566-93c7-4941-a4fc-3a7ae9a332a4
 title: Named Pipe Open Modes
 ms.topic: article

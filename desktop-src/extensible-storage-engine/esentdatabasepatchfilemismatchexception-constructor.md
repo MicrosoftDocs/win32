@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabasePatchFileMismatchException constructor"
 title: EsentDatabasePatchFileMismatchException constructor 
 TOCTitle: 'EsentDatabasePatchFileMismatchException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabasePatchFileMismatchException.#ctor

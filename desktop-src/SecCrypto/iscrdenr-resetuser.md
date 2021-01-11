@@ -1,5 +1,5 @@
 ---
-Description: Clears the user name from the smart card control.
+description: Clears the user name from the smart card control.
 ms.assetid: fff50db5-0610-4985-94c6-96d7ce990219
 title: ISCrdEnr::resetUser method
 ms.topic: reference

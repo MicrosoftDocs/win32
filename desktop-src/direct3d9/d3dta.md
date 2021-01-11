@@ -1,5 +1,5 @@
 ---
-Description: 'Texture argument constants are used as values for the following members of the D3DTEXTURESTAGESTATETYPE enumerated type:'
+description: 'Texture argument constants are used as values for the following members of the D3DTEXTURESTAGESTATETYPE enumerated type:'
 ms.assetid: 36b2b715-5ced-4246-840e-8ea343521ef4
 title: D3DTA
 ms.topic: article

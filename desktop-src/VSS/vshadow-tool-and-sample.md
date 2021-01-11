@@ -1,5 +1,5 @@
 ---
-Description: VShadow is a command-line tool that you can use to create and manage volume shadow copies.
+description: VShadow is a command-line tool that you can use to create and manage volume shadow copies.
 ms.assetid: 19109f92-b9da-4df7-8628-374e37a3f624
 title: VShadow Tool and Sample
 ms.topic: article

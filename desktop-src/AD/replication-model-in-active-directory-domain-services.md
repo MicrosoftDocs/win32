@@ -2,7 +2,7 @@
 title: Replication Model in Active Directory Domain Services
 ms.assetid: ca32986e-9cf3-4bea-bd94-9a16a1bd1e61
 ms.tgt_platform: multiple
-description: 
+description: "Learn more about: Replication Model in Active Directory Domain Services"
 keywords:
 - Active Directory Domain Services,using,replication and data recovery,replication model
 - replication Active Directory

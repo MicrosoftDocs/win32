@@ -1,5 +1,5 @@
 ---
-Description: Applications use the methods of the ID3DXSkinInfo interface to manipulate bone matrices, which are used to skin vertex data for animation. This interface is no longer strictly tied to ID3DXMesh and can be used to skin any set of vertex data.
+description: Applications use the methods of the ID3DXSkinInfo interface to manipulate bone matrices, which are used to skin vertex data for animation. This interface is no longer strictly tied to ID3DXMesh and can be used to skin any set of vertex data.
 ms.assetid: 4ccf88b0-2cc7-4e91-a0f2-fb8eea66a3ce
 title: ID3DXSkinInfo interface (D3DX9Mesh.h)
 ms.topic: reference

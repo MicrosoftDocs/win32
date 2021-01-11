@@ -1,5 +1,5 @@
 ---
-Description: The BackColor property sets or retrieves the color of the bars that appear around the edges of the video rectangle when the aspect ratio of the native video is not the same as that of the object's display area.
+description: The BackColor property sets or retrieves the color of the bars that appear around the edges of the video rectangle when the aspect ratio of the native video is not the same as that of the object's display area.
 ms.assetid: 51576836-c648-4268-8475-0312dbd60963
 title: BackColor Property (DirectShow)
 ms.topic: reference

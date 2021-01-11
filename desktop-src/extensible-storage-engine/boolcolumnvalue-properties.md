@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BoolColumnValue properties"
 title: BoolColumnValue properties
 TOCTitle: BoolColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.BoolColumnValue

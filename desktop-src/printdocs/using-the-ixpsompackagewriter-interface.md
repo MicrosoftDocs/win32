@@ -1,5 +1,5 @@
 ---
-Description: The IXpsOMPackageWriter interface creates an XPS document file into which applications can write the contents of the IXpsOMPage interfaces of an XPS OM.
+description: The IXpsOMPackageWriter interface creates an XPS document file into which applications can write the contents of the IXpsOMPage interfaces of an XPS OM.
 ms.assetid: eff1ab1e-2205-4f5c-9e32-199e073f5dbf
 title: Using the IXpsOMPackageWriter Interface
 ms.topic: article

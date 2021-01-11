@@ -1,5 +1,5 @@
 ---
-Description: Encrypts a single Secure Sockets Layer protocol (SSL) packet.
+description: Encrypts a single Secure Sockets Layer protocol (SSL) packet.
 ms.assetid: 1002158b-1a4f-4461-978f-b221ef6332e0
 title: SslEncryptPacket function (Sslprovider.h)
 ms.topic: reference

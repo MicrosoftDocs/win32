@@ -1,5 +1,5 @@
 ---
-Description: Requests information about a regular menu item.
+description: Requests information about a regular menu item.
 title: SMC_GETINFO message (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018

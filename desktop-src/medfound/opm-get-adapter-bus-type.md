@@ -1,5 +1,5 @@
 ---
-Description: Returns the type of I/O bus used by the video output.
+description: Returns the type of I/O bus used by the video output.
 ms.assetid: 1aff4c81-ffa0-4116-b7ea-60b1b83042df
 title: OPM_GET_ADAPTER_BUS_TYPE (Opmapi.h)
 ms.topic: reference

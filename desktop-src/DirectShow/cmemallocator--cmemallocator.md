@@ -1,5 +1,5 @@
 ---
-Description: Destructor method.
+description: Destructor method.
 ms.assetid: e0a04d93-fb77-4dc1-9bc8-7d3965bc6803
 title: CMemAllocator.~CMemAllocator destructor (Amfilter.h)
 ms.topic: reference

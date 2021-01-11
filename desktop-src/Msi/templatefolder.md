@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the TemplateFolder property to the full path to the Template folder for the current user.
+description: The installer sets the TemplateFolder property to the full path to the Template folder for the current user.
 ms.assetid: b9a3c919-87a2-4913-bf21-b08bb7d4e98c
 title: TemplateFolder property
 ms.topic: reference

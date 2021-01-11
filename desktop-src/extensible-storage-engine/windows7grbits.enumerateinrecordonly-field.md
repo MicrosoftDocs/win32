@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Grbits.EnumerateInRecordOnly field"
 title: Windows7Grbits.EnumerateInRecordOnly field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: EnumerateInRecordOnly field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits.EnumerateInRecordOnly

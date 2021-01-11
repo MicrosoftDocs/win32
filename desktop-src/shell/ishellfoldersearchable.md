@@ -1,5 +1,5 @@
 ---
-Description: Exposes methods that allow a Shell extension to provide a searchable namespace.
+description: Exposes methods that allow a Shell extension to provide a searchable namespace.
 title: IShellFolderSearchable interface
 ms.topic: reference
 ms.date: 05/31/2018

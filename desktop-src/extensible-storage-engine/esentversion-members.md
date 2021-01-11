@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentVersion members"
 title: EsentVersion members
 TOCTitle: EsentVersion members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentVersion

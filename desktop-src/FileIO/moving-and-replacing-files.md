@@ -1,5 +1,5 @@
 ---
-Description: Considerations for moving and replacing files by using the CopyFileEx, CreateFile, Replacefile, and MoveFileEx functions.
+description: Considerations for moving and replacing files by using the CopyFileEx, CreateFile, Replacefile, and MoveFileEx functions.
 ms.assetid: 4872af0d-42e8-4576-9aa9-4b8671375f2e
 title: Moving and Replacing Files
 ms.topic: article

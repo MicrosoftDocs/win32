@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance constructor (String, String, TermGrbit)"
 title: Instance constructor (String, String, TermGrbit)
 TOCTitle: Instance constructor (String, String, TermGrbit)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.#ctor(System.String,System.String,Microsoft.Isam.Esent.Interop.TermGrbit)

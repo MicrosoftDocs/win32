@@ -1,5 +1,5 @@
 ---
-Description: Returns the number of processes that are allowed to open shared resources with restricted access.
+description: Returns the number of processes that are allowed to open shared resources with restricted access.
 ms.assetid: e1b9ef18-fd08-4639-9ba9-4bccd33f5d16
 title: D3DAUTHENTICATEDQUERY_RESTRICTEDSHAREDRESOURCEPROCESSCOUNT (D3d9types.h)
 ms.topic: reference

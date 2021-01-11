@@ -1,5 +1,5 @@
 ---
-Description: Windows Image Acquisition (WIA) Device Type Specifiers are constants that indicate the type of device attached to a user's computer.
+description: Windows Image Acquisition (WIA) Device Type Specifiers are constants that indicate the type of device attached to a user's computer.
 ms.assetid: 569b99ab-628b-4a43-a6e5-0ae81524fcc0
 title: WIA Device Type Specifiers
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Sets a transposed matrix.
+description: Sets a transposed matrix.
 ms.assetid: d340b058-6ba5-43ec-b398-111064965730
 title: ID3DXBaseEffect::SetMatrixTranspose method (D3DX9Shader.h)
 ms.topic: reference

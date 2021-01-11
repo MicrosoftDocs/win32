@@ -1,5 +1,5 @@
 ---
-Description: Not supported.
+description: Not supported.
 ms.assetid: be7721e4-ba43-47c1-b955-e97afc5caac4
 title: IAMTimelineObj::GetTimelineNoRef method (Qedit.h)
 ms.topic: reference

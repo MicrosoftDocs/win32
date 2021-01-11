@@ -1,5 +1,5 @@
 ---
-Description: Unlike deleting a dynamic instance, deleting a class is a simple procedure.
+description: Unlike deleting a dynamic instance, deleting a class is a simple procedure.
 ms.assetid: bc0ee1e8-7515-4f35-ace3-6344c2ef0ab8
 ms.tgt_platform: multiple
 title: Deleting a Class

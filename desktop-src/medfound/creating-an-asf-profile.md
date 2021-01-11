@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to create as ASF profile in Microsoft Media Foundation.
+description: This topic describes how to create as ASF profile in Microsoft Media Foundation.
 ms.assetid: 9633bc88-12bd-404a-b779-878eb1ee5699
 title: Creating an ASF Profile
 ms.topic: article

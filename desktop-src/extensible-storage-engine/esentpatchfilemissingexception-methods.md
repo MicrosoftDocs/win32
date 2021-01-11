@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPatchFileMissingException methods"
 title: EsentPatchFileMissingException methods
 TOCTitle: EsentPatchFileMissingException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentPatchFileMissingException

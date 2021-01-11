@@ -1,5 +1,5 @@
 ---
-Description: The IUpdateEndpointAuthToken interface defines the following methods.
+description: The IUpdateEndpointAuthToken interface defines the following methods.
 ms.assetid: 955ED696-50C0-4E32-A5B7-C9E4E75836E3
 title: IUpdateEndpointAuthToken Methods
 ms.topic: reference

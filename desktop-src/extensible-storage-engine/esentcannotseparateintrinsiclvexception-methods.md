@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotSeparateIntrinsicLVException methods"
 title: EsentCannotSeparateIntrinsicLVException methods
 TOCTitle: EsentCannotSeparateIntrinsicLVException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCannotSeparateIntrinsicLVException

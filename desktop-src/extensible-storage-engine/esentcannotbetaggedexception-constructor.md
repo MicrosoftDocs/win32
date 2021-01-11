@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotBeTaggedException constructor"
 title: EsentCannotBeTaggedException constructor 
 TOCTitle: 'EsentCannotBeTaggedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotBeTaggedException.#ctor

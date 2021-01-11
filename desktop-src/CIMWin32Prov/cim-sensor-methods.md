@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Sensor class exposes the following methods.
+description: The CIM\_Sensor class exposes the following methods.
 ms.assetid: 64BB0FDC-7E03-4A7A-8962-D31B1FB4DAD5
 ms.tgt_platform: multiple
 title: CIM_Sensor Methods

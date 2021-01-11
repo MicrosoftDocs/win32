@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMustDisableLoggingForDbUpgradeException constructor"
 title: EsentMustDisableLoggingForDbUpgradeException constructor 
 TOCTitle: 'EsentMustDisableLoggingForDbUpgradeException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMustDisableLoggingForDbUpgradeException.#ctor

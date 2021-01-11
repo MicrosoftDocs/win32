@@ -1,5 +1,5 @@
 ---
-Description: The SelectParentalLevel method sets the specified parental level for subsequent playback.
+description: The SelectParentalLevel method sets the specified parental level for subsequent playback.
 ms.assetid: ffd1e204-6ed2-4190-8635-9f3866d38099
 title: SelectParentalLevel Method
 ms.topic: reference

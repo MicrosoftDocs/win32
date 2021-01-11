@@ -1,5 +1,5 @@
 ---
-Description: The following terms are useful in understanding the TAPI technology.
+description: The following terms are useful in understanding the TAPI technology.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: ebbcfeff-fa5a-44b6-80d2-831ff45e5c0e
 title: P (Telephony API)

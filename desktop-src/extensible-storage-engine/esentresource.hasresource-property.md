@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResource.HasResource property"
 title: EsentResource.HasResource property 
 TOCTitle: 'HasResource property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentResource.HasResource

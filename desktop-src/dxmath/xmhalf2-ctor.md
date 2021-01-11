@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMHALF2.
+description: Constructors exposed by XMHALF2.
 ms.assetid: 42a8fc31-2f0a-4a6b-82e7-1f0043fb69cc
 title: XMHALF2 constructors
 ms.topic: reference

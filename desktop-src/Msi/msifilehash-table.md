@@ -1,5 +1,5 @@
 ---
-Description: The MsiFileHash table is used to store a 128-bit hash of a source file provided by the Windows Installer package. The hash is split into four 32-bit values and stored in separate columns of the table.
+description: The MsiFileHash table is used to store a 128-bit hash of a source file provided by the Windows Installer package. The hash is split into four 32-bit values and stored in separate columns of the table.
 ms.assetid: 972a2784-418d-4cb3-b13c-df89b079e94c
 title: MsiFileHash Table
 ms.topic: article

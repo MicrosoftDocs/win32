@@ -1,5 +1,5 @@
 ---
-Description: Moves a tablet context to the front or back of the input queue.
+description: Moves a tablet context to the front or back of the input queue.
 ms.assetid: ef4521b5-776b-46dc-864a-625bc221054a
 title: ITabletContextP::Overlap method
 ms.topic: reference

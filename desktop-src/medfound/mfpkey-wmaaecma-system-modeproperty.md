@@ -1,5 +1,5 @@
 ---
-Description: Sets the processing mode for the Voice Capture DSP.
+description: Sets the processing mode for the Voice Capture DSP.
 ms.assetid: 479b3525-5beb-4c6b-b1ad-8fa72c0d0fd0
 title: MFPKEY_WMAAECMA_SYSTEM_MODE Property (Wmcodecdsp.h)
 ms.topic: reference

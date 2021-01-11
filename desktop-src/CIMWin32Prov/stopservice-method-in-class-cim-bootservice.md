@@ -1,5 +1,5 @@
 ---
-Description: Stops the service represented by the object derived from CIM\_BootService.
+description: Stops the service represented by the object derived from CIM\_BootService.
 ms.assetid: 443a2afa-ed46-4378-a06f-5f9f94af51c9
 ms.tgt_platform: multiple
 title: StopService method of the CIM_BootService class (Sdoias.h)

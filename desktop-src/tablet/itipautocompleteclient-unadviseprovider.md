@@ -1,5 +1,5 @@
 ---
-Description: Unregisters the associated provider.
+description: Unregisters the associated provider.
 ms.assetid: b5edc33d-dfd0-4350-b8cd-eaa30b726771
 title: ITipAutocompleteClient::UnadviseProvider method (TipAutoComplete.h)
 ms.topic: reference

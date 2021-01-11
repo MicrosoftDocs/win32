@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SESID.Equality operator"
 title: JET_SESID.Equality operator 
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SESID.op_Equality(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_SESID)

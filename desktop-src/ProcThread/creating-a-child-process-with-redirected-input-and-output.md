@@ -1,5 +1,5 @@
 ---
-Description: The example in this topic demonstrates how to create a child process using the CreateProcess function from a console process.
+description: The example in this topic demonstrates how to create a child process using the CreateProcess function from a console process.
 ms.assetid: a4e37069-2b3a-4b6d-9cfd-eb1700ab3bc6
 title: Creating a Child Process with Redirected Input and Output
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The expert structures use this enumeration.
+description: The expert structures use this enumeration.
 ms.assetid: 62a824d6-0f0d-465a-8b3a-e462104ec612
 title: Expert Enumerations
 ms.topic: article

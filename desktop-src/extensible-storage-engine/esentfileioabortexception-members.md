@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOAbortException members"
 title: EsentFileIOAbortException members
 TOCTitle: EsentFileIOAbortException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFileIOAbortException

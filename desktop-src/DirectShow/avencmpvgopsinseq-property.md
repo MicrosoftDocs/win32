@@ -1,5 +1,5 @@
 ---
-Description: Specifies the number of groups of pictures (GOPs) between sequence headers. This property applies to MPEG video encoders.
+description: Specifies the number of groups of pictures (GOPs) between sequence headers. This property applies to MPEG video encoders.
 ms.assetid: 439be951-0185-4578-8b79-a5dfce254a68
 title: AVEncMPVGOPSInSeq property (Codecapi.h)
 ms.topic: reference

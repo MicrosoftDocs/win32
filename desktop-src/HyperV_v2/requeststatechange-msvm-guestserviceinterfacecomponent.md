@@ -1,5 +1,5 @@
 ---
-Description: Requests that the state of the guest service interface component be changed to the specified value.
+description: Requests that the state of the guest service interface component be changed to the specified value.
 ms.assetid: D9F7CD03-0D86-4005-A600-5CC7082A5047
 title: Msvm_GuestServiceInterfaceComponent::RequestStateChange method
 ms.topic: reference

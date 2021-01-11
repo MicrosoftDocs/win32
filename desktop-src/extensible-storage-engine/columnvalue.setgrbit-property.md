@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValue.SetGrbit property"
 title: ColumnValue.SetGrbit property 
 TOCTitle: 'SetGrbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValue.SetGrbit

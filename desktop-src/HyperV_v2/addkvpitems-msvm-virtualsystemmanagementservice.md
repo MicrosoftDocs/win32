@@ -1,5 +1,5 @@
 ---
-Description: Adds key-value pairs to a virtual machine.
+description: Adds key-value pairs to a virtual machine.
 ms.assetid: D952EC3D-24EB-4A68-8527-5BF522957CB6
 title: AddKvpItems method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference

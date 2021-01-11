@@ -1,5 +1,5 @@
 ---
-Description: Copies the logical device file (or directory) specified in the object path to the location specified by the FileName parameter.
+description: Copies the logical device file (or directory) specified in the object path to the location specified by the FileName parameter.
 ms.assetid: 42cdb880-2431-4dcc-abdb-f271e2cd81a4
 ms.tgt_platform: multiple
 title: CopyEx method of the CIM_DeviceFile class

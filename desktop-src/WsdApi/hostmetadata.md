@@ -1,5 +1,5 @@
 ---
-Description: Defines the hosting metadata for the device to be implemented. This element is used for device implementations (hosts) only.
+description: Defines the hosting metadata for the device to be implemented. This element is used for device implementations (hosts) only.
 ms.assetid: ca7bc5ea-8ab2-4233-86d2-5b793021b8ee
 title: hostMetadata element
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The WriteGrfFile method writes a filter graph to a file in .grf format.
+description: The WriteGrfFile method writes a filter graph to a file in .grf format.
 ms.assetid: 2064d2d7-34ac-465c-ae09-d125c670d0e8
 title: IXml2Dex::WriteGrfFile method (Qedit.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: This section contains reference information for the Microsoft Direct3D 12 video API structures.
+description: This section contains reference information for the Microsoft Direct3D 12 video API structures.
 ms.assetid: 
 title: Direct3D 12 Video Structures
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The put\_Caption method sets the window title or caption.
+description: The put\_Caption method sets the window title or caption.
 ms.assetid: 6671805a-e1ef-40f1-bc3f-bf7954ff9851
 title: CBaseControlWindow.put_Caption method (Ctlutil.h)
 ms.topic: reference

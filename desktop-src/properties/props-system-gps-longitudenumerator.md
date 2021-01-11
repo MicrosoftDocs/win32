@@ -1,5 +1,5 @@
 ---
-Description: The numerator of PKEY\_GPS\_Longitude.
+description: The numerator of PKEY\_GPS\_Longitude.
 ms.assetid: bac101a0-389d-4d6a-ae92-ec20116971ee
 title: System.GPS.LongitudeNumerator
 ms.topic: article

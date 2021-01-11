@@ -1,5 +1,5 @@
 ---
-Description: Represents the state of the key/value pair exchange service, which provides a mechanism to exchange data between the virtual machine and the operating system running on the management operating system.
+description: Represents the state of the key/value pair exchange service, which provides a mechanism to exchange data between the virtual machine and the operating system running on the management operating system.
 ms.assetid: AA68BC74-A919-4029-B703-E08F00449F20
 title: Msvm_KvpExchangeComponent class
 ms.topic: reference

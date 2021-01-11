@@ -1,5 +1,5 @@
 ---
-Description: The RealTimeStylus object does not inherently collect ink. To use the RealTimeStylus to collect ink, create an ink-collector plug-in.
+description: The RealTimeStylus object does not inherently collect ink. To use the RealTimeStylus to collect ink, create an ink-collector plug-in.
 ms.assetid: 9a29525d-714a-431e-bb6f-4705d658537b
 title: Ink-Collection Plug-ins
 ms.topic: article

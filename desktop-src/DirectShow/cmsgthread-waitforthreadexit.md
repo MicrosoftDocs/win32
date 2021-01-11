@@ -1,5 +1,5 @@
 ---
-Description: Blocks until the thread exits.
+description: Blocks until the thread exits.
 ms.assetid: 1ee547b5-cd73-4ce8-8e66-c2062714d0f0
 title: CMsgThread.WaitForThreadExit method (Msgthrd.h)
 ms.topic: reference

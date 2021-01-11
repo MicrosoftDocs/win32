@@ -1,5 +1,5 @@
 ---
-Description: D3DX supplies the following texturing functions.
+description: D3DX supplies the following texturing functions.
 ms.assetid: 1280e360-2628-47ac-b0e3-8ef9216e2e92
 title: Texture Functions in D3DX 9
 ms.topic: article

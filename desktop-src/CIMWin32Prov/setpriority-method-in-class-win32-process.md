@@ -1,5 +1,5 @@
 ---
-Description: The SetPriority&\#32;WMI class method attempts to change the execution priority of the process.
+description: The SetPriority&\#32;WMI class method attempts to change the execution priority of the process.
 ms.assetid: ef012e9e-ff65-4881-835e-ddab23af9333
 ms.tgt_platform: multiple
 title: SetPriority method of the Win32_Process class

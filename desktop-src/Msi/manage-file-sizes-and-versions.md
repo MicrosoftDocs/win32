@@ -1,5 +1,5 @@
 ---
-Description: The VBScript file WiFilVer.vbs is provided in the Windows SDK Components for Windows Installer Developers. The sample shows you how you can use a script to report or update the file version, size, and language information.
+description: The VBScript file WiFilVer.vbs is provided in the Windows SDK Components for Windows Installer Developers. The sample shows you how you can use a script to report or update the file version, size, and language information.
 ms.assetid: 21550eea-c30b-4738-9201-ab500356fabf
 title: Manage File Sizes and Versions
 ms.topic: article

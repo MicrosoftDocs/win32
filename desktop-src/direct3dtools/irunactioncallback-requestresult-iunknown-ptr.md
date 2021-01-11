@@ -1,5 +1,5 @@
 ---
-Description: A callback function used to notify the host of results from an action (for example, capture a frame) that it requested.
+description: A callback function used to notify the host of results from an action (for example, capture a frame) that it requested.
 MS-HAID: vspixengine.IRunActionCallback\_RequestResult\_IUnknown\_ptr
 MSHAttr:
 - PreferredSiteName:MSDN

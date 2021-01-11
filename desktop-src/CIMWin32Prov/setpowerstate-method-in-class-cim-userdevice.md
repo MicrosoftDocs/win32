@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method of the CIM\_UserDevice class sets the desired power state for a logical device and when a device should be put into that state.
+description: The SetPowerState method of the CIM\_UserDevice class sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: ed56bcf0-da64-4802-a6d8-2a3d16706391
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_UserDevice class

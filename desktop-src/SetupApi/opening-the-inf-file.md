@@ -1,5 +1,5 @@
 ---
-Description: You must use the SetupOpenInfFile function to open the INF file before you can retrieve information from it, or append other INF files to it.
+description: You must use the SetupOpenInfFile function to open the INF file before you can retrieve information from it, or append other INF files to it.
 ms.assetid: ba4d511a-ad19-4619-a10a-cafef789821b
 title: Opening the INF File
 ms.topic: article

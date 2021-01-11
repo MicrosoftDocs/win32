@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extensible Storage Engine Error Codes"
 title: Extensible Storage Engine Error Codes
 TOCTitle: Extensible Storage Engine Error Codes
 ms:assetid: 7534370d-aed6-4980-b1ca-c3d063507e31

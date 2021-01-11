@@ -1,5 +1,5 @@
 ---
-Description: The icon index used on messages marked for followup.
+description: The icon index used on messages marked for followup.
 ms.assetid: cce643a4-0942-4f51-b4d8-ff9307b862d2
 title: System.Communication.FollowupIconIndex
 ms.topic: article

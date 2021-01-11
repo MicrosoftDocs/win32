@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotTimeOutException members"
 title: EsentOSSnapshotTimeOutException members
 TOCTitle: EsentOSSnapshotTimeOutException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotTimeOutException

@@ -1,5 +1,5 @@
 ---
-Description: The height, in pixels, of the thumbnail image. This property returns -1 if this item does not support thumbnails. Read-only.
+description: The height, in pixels, of the thumbnail image. This property returns -1 if this item does not support thumbnails. Read-only.
 ms.assetid: b9c4815e-42b8-49ab-b067-1fd79593cc5c
 title: Item.ThumbHeight property
 ms.topic: reference

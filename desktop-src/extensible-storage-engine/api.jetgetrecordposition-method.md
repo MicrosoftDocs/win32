@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetGetRecordPosition method"
 title: Api.JetGetRecordPosition method 
 TOCTitle: 'JetGetRecordPosition method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetRecordPosition(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_RECPOS@)

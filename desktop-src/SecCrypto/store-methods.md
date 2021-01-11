@@ -1,5 +1,5 @@
 ---
-Description: The Store object exposes the following methods.
+description: The Store object exposes the following methods.
 ms.assetid: 55fcec37-b527-4339-8612-1a89bd755fd3
 title: Store Methods
 ms.topic: reference

@@ -1,6 +1,6 @@
 ---
 title: GDI+ structures
-Description: 'Windows GDI+ defines the following structures:'
+description: 'Windows GDI+ defines the following structures:'
 ms.assetid: fc18b5a3-b9c8-4726-b331-dfc2b8b9ff3d
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: VirtualDesktopManager implements the IVirtualDesktopManager interface.
+description: VirtualDesktopManager implements the IVirtualDesktopManager interface.
 ms.assetid: '25e6c583-b91f-4eeb-90fb-34a7ebed7495'
 title: VirtualDesktopManager class (Shobjidl.h)
 ms.topic: reference

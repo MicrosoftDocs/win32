@@ -1,5 +1,5 @@
 ---
-Description: 'Direct3D applications can run in either of two modes: full-screen or windowed.'
+description: 'Direct3D applications can run in either of two modes: full-screen or windowed.'
 ms.assetid: 6ec30c6e-93d1-4b77-9638-86308bbf8f3c
 title: Windowed vs Full-Screen Mode (Direct3D 9)
 ms.topic: article

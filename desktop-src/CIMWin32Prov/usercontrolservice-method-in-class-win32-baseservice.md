@@ -1,5 +1,5 @@
 ---
-Description: Attempts to send a user-defined control code to a service.
+description: Attempts to send a user-defined control code to a service.
 ms.assetid: d181dbf8-e1ad-47b2-9e64-4aabc77e64bd
 ms.tgt_platform: multiple
 title: UserControlService method of the Win32_BaseService class

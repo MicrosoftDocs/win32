@@ -1,5 +1,5 @@
 ---
-Description: The OnStopStreaming method is called at the end of streaming to fix times for the property page report.
+description: The OnStopStreaming method is called at the end of streaming to fix times for the property page report.
 ms.assetid: 92174edb-2f6c-4bad-91c5-769aaebcc495
 title: CBaseVideoRenderer.OnStopStreaming method (Renbase.h)
 ms.topic: reference

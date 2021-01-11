@@ -1,5 +1,5 @@
 ---
-Description: Defines a type for the SimIccID element of the Mobile Broadband profile.
+description: Defines a type for the SimIccID element of the Mobile Broadband profile.
 ms.assetid: ce77180e-71e2-4cef-84e0-32397216385f
 title: simIccIDType Simple Type
 ms.topic: reference

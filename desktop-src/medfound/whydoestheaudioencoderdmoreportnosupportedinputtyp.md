@@ -1,5 +1,5 @@
 ---
-Description: Why does the audio encoder report no supported input types?
+description: Why does the audio encoder report no supported input types?
 ms.assetid: b3ff56bb-0ce3-422c-8b20-5c80ec710585
 title: Why does the audio encoder report no supported input types?
 ms.topic: article

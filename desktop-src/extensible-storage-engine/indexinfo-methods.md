@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexInfo methods"
 title: IndexInfo methods
 TOCTitle: IndexInfo methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.IndexInfo

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an error due to a failed job.
+description: Retrieves an error due to a failed job.
 ms.assetid: d499eb91-e1cc-4792-b32d-5a8875eebbb7
 title: GetError method of the CIM_ConcreteJob class
 ms.topic: reference

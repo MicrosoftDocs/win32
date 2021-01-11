@@ -1,5 +1,5 @@
 ---
-Description: Specifies the starting second number in the group of pictures (GOP) header.
+description: Specifies the starting second number in the group of pictures (GOP) header.
 ms.assetid: 599964bd-a7d8-4cdd-82ce-d229b4b7ac72
 title: AVEncVideoHeaderSeconds property (Codecapi.h)
 ms.topic: reference

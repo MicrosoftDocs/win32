@@ -1,5 +1,5 @@
 ---
-Description: Builds a right-handed perspective projection matrix.
+description: Builds a right-handed perspective projection matrix.
 ms.assetid: dd9b041b-922b-43df-a6e9-46c97204338a
 title: D3DXMatrixPerspectiveRH function (D3dx9math.h)
 ms.topic: reference

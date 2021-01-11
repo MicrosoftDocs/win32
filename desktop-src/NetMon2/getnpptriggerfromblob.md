@@ -1,5 +1,5 @@
 ---
-Description: The GetNPPTriggerFromBlob function retrieves the trigger from the given BLOB.
+description: The GetNPPTriggerFromBlob function retrieves the trigger from the given BLOB.
 ms.assetid: 48a27cf3-57b0-4241-a925-4209e0d384e2
 title: GetNPPTriggerFromBlob function (Netmon.h)
 ms.topic: reference

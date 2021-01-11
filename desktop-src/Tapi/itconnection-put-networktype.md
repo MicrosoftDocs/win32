@@ -1,5 +1,5 @@
 ---
-Description: The put\_NetworkType method sets the network type.
+description: The put\_NetworkType method sets the network type.
 ms.assetid: 747e3133-d103-44dc-b119-5a4cb4ed7f18
 title: ITConnection::put_NetworkType method (Sdpblb.h)
 ms.topic: reference

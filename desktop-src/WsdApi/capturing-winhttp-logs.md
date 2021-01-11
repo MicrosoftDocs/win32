@@ -1,5 +1,5 @@
 ---
-Description: WinHTTP logs can be used to help troubleshoot WSDAPI applications. This is helpful when metadata exchange fails or when SSL/TLS negotiation fails.
+description: WinHTTP logs can be used to help troubleshoot WSDAPI applications. This is helpful when metadata exchange fails or when SSL/TLS negotiation fails.
 ms.assetid: 75ba330d-afcd-4d8f-93c7-a1b9f80dd050
 title: Capturing WinHTTP Logs
 ms.topic: article

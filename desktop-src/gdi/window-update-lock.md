@@ -1,5 +1,5 @@
 ---
-Description: A window update lock is a temporary suspension of drawing in a window.
+description: A window update lock is a temporary suspension of drawing in a window.
 ms.assetid: 92b1ba04-ff79-4a37-9633-99412cdafe95
 title: Window Update Lock
 ms.topic: article

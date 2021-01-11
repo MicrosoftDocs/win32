@@ -1,5 +1,5 @@
 ---
-Description: In order to support both IPv4 and IPv6 on Windows XP with Service Pack 1 (SP1) and on Windows Server 2003, an application has to create two sockets, one socket for use with IPv4 and one socket for use with IPv6.
+description: In order to support both IPv4 and IPv6 on Windows XP with Service Pack 1 (SP1) and on Windows Server 2003, an application has to create two sockets, one socket for use with IPv4 and one socket for use with IPv6.
 ms.assetid: 7ae49081-ffb5-4eee-b488-2541398e7acc
 title: Dual-Stack Sockets for IPv6 Winsock Applications
 ms.topic: article

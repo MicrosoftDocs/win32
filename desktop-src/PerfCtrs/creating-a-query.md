@@ -1,5 +1,5 @@
 ---
-Description: To create a new query that collects performance data from a real-time source or log file, call the PdhOpenQuery function. The function returns a handle to the query that you use in subsequent PDH function calls.
+description: To create a new query that collects performance data from a real-time source or log file, call the PdhOpenQuery function. The function returns a handle to the query that you use in subsequent PDH function calls.
 ms.assetid: 6fd4716e-b163-47a3-b0cb-5f9599f8681f
 title: Creating a Query
 ms.topic: article

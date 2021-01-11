@@ -1,5 +1,5 @@
 ---
-Description: An application sends the WM\_MDIGETACTIVE message to a multiple-document interface (MDI) client window to retrieve the handle to the active MDI child window.
+description: An application sends the WM\_MDIGETACTIVE message to a multiple-document interface (MDI) client window to retrieve the handle to the active MDI child window.
 ms.assetid: 3ee445be-dd55-4825-8508-fa18a346ffcd
 title: WM_MDIGETACTIVE message (Winuser.h)
 ms.topic: reference

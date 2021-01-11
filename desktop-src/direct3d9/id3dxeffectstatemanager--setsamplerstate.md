@@ -1,5 +1,5 @@
 ---
-Description: A callback function that must be implemented by a user to set a sampler.
+description: A callback function that must be implemented by a user to set a sampler.
 ms.assetid: 1e19e8cd-341d-4372-9182-8b3c82155407
 title: ID3DXEffectStateManager::SetSamplerState method (D3DX9Effect.h)
 ms.topic: reference

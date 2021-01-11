@@ -1,5 +1,5 @@
 ---
-Description: Specifies the color primaries for the input video.
+description: Specifies the color primaries for the input video.
 ms.assetid: 2134fa6e-9e8e-4a83-9593-b5ae8c6d3e42
 title: AVEncVideoInputColorPrimaries property (Codecapi.h)
 ms.topic: reference

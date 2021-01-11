@@ -1,5 +1,5 @@
 ---
-Description: Changes the TPM owner authorization value.
+description: Changes the TPM owner authorization value.
 ms.assetid: ed280037-2360-4889-baba-cfa9e4fd473e
 title: ChangeOwnerAuth method of the Win32_Tpm class
 ms.topic: reference

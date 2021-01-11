@@ -1,5 +1,5 @@
 ---
-Description: The Delete\_ method of the SWbemObject object deletes either the current class or the current instance.
+description: The Delete\_ method of the SWbemObject object deletes either the current class or the current instance.
 ms.assetid: bf1db667-4bd5-4717-bc0b-5bffe9d0f4fb
 ms.tgt_platform: multiple
 title: SWbemObject.Delete_ method (Wbemdisp.h)

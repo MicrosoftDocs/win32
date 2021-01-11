@@ -1,5 +1,5 @@
 ---
-Description: Configuring Library Applications
+description: Configuring Library Applications
 ms.assetid: db375e0f-74ca-44df-918a-b0e48742a594
 title: Configuring Library Applications
 ms.topic: article

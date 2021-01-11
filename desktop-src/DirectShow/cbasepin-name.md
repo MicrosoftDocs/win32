@@ -1,5 +1,5 @@
 ---
-Description: The Name method retrieves the pin identifier.
+description: The Name method retrieves the pin identifier.
 ms.assetid: 1bc2498f-3f2d-42c7-96cb-9b91bbfb08f5
 title: CBasePin.Name method (Amfilter.h)
 ms.topic: reference

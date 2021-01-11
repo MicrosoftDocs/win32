@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.ExceptionAction property"
 title: SystemParameters.ExceptionAction property 
 TOCTitle: 'ExceptionAction property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.ExceptionAction

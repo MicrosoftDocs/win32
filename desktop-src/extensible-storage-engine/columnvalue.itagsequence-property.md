@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValue.ItagSequence property"
 title: ColumnValue.ItagSequence property 
 TOCTitle: 'ItagSequence property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValue.ItagSequence

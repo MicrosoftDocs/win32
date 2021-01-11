@@ -1,5 +1,5 @@
 ---
-Description: Represents the settings for the synthetic 3-D service present on a single host system.
+description: Represents the settings for the synthetic 3-D service present on a single host system.
 ms.assetid: ed5d9bba-faad-40a6-8f08-258a94272a11
 title: Msvm_Synthetic3DServiceSettingData class
 ms.topic: reference

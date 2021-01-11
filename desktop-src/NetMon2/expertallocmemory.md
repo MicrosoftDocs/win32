@@ -1,5 +1,5 @@
 ---
-Description: The ExpertAllocMemory function allocates memory for the expert.
+description: The ExpertAllocMemory function allocates memory for the expert.
 ms.assetid: 9ada5d3f-5f1d-4d3a-b79a-d51e021240f6
 title: ExpertAllocMemory function (Netmon.h)
 ms.topic: reference

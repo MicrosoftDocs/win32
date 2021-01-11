@@ -1,5 +1,5 @@
 ---
-Description: A superclass for classes that represent a collection of CIM\_ManagedElement objects and the subclasses of managed elements.
+description: A superclass for classes that represent a collection of CIM\_ManagedElement objects and the subclasses of managed elements.
 ms.assetid: be487f20-b277-47fd-b088-f9ebc349e0a3
 title: CIM_Collection class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SystemUsers association WMI class relates a computer system and a user account on that system.
+description: The Win32\_SystemUsers association WMI class relates a computer system and a user account on that system.
 ms.assetid: 0f6cba69-86f7-4795-a47d-6fb8ed0a00b8
 ms.tgt_platform: multiple
 title: Win32_SystemUsers class

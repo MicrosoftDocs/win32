@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidOnSortException constructor"
 title: EsentInvalidOnSortException constructor 
 TOCTitle: 'EsentInvalidOnSortException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidOnSortException.#ctor

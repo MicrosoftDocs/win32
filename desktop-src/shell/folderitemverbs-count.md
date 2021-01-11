@@ -1,5 +1,5 @@
 ---
-Description: Contains the number of items in the collection.
+description: Contains the number of items in the collection.
 ms.assetid: a676593b-ea78-433d-a622-221028245c3a
 title: FolderItemVerbs.Count property (Shldisp.h)
 ms.topic: reference

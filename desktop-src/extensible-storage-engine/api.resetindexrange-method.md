@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.ResetIndexRange method"
 title: Api.ResetIndexRange method 
 TOCTitle: 'ResetIndexRange method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.ResetIndexRange(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)

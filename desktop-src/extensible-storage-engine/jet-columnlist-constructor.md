@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNLIST constructor"
 title: JET_COLUMNLIST constructor 
 TOCTitle: 'JET_COLUMNLIST constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNLIST.#ctor

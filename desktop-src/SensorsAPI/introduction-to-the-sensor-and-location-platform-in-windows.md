@@ -1,5 +1,5 @@
 ---
-Description: The Windows 7 operating system provides built-in support for sensor devices.
+description: The Windows 7 operating system provides built-in support for sensor devices.
 ms.assetid: 751ba2fc-fbff-4418-82ac-eebc8a145b14
 title: Overview of the Windows sensor and location platform
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Most textures, like bitmaps, are a two-dimensional array of color values.
+description: Most textures, like bitmaps, are a two-dimensional array of color values.
 ms.assetid: 'vs|directx_sdk|~\texture_coordinates.htm'
 title: Texture Coordinates (Direct3D 9)
 ms.topic: article

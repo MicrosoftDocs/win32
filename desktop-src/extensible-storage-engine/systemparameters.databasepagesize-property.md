@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.DatabasePageSize property"
 title: SystemParameters.DatabasePageSize property 
 TOCTitle: 'DatabasePageSize property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.DatabasePageSize

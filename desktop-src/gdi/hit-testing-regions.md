@@ -1,5 +1,5 @@
 ---
-Description: An application performs hit testing on regions to determine the coordinates of the current cursor position.
+description: An application performs hit testing on regions to determine the coordinates of the current cursor position.
 ms.assetid: 861a2558-0967-43f6-be3f-580992da05ff
 title: Hit Testing Regions
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Close method of the View object terminates query execution and releases database resources.
+description: The Close method of the View object terminates query execution and releases database resources.
 ms.assetid: 677377be-38be-47c0-9a58-a0d08cc05770
 title: View.Close method
 ms.topic: reference

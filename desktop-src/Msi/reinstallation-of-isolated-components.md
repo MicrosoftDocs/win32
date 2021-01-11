@@ -1,5 +1,5 @@
 ---
-Description: Windows Installer performs the following actions during reinstallation of an application when the package contains isolated components. Typically, Component\_Shared is a DLL that is shared by Component\_Application and other client executables.
+description: Windows Installer performs the following actions during reinstallation of an application when the package contains isolated components. Typically, Component\_Shared is a DLL that is shared by Component\_Application and other client executables.
 ms.assetid: 65909b47-dc09-4e9a-920a-9cb3f55b2e67
 title: Reinstallation of Isolated Components
 ms.topic: article

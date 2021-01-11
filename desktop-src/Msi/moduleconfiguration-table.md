@@ -1,5 +1,5 @@
 ---
-Description: The ModuleConfiguration table identifies the configurable attributes of the module. This table is not merged into the database.
+description: The ModuleConfiguration table identifies the configurable attributes of the module. This table is not merged into the database.
 ms.assetid: 3b77cc23-c104-4adc-868c-3aa2b5794bc7
 title: ModuleConfiguration Table
 ms.topic: article

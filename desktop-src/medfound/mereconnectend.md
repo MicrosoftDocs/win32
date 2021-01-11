@@ -1,5 +1,5 @@
 ---
-Description: Signals that a media source has completed an attempt to reconnect to the server.
+description: Signals that a media source has completed an attempt to reconnect to the server.
 ms.assetid: 228e069a-a26b-472e-915e-ff9aec5ee9c1
 title: MEReconnectEnd event (Mfobjects.h)
 ms.topic: reference

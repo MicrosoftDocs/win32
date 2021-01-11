@@ -1,5 +1,5 @@
 ---
-Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ms.assetid: d6dd73e7-657f-4f71-8e9b-70369cb21972
 title: D (Windows Installer)
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Card class represents a type of physical container that can be plugged into another card or hosting board, or is itself a hosting board/motherboard in a chassis.
+description: The CIM\_Card class represents a type of physical container that can be plugged into another card or hosting board, or is itself a hosting board/motherboard in a chassis.
 ms.assetid: edbbfe43-c8e8-4cde-9507-e0a248c15ca7
 ms.tgt_platform: multiple
 title: CIM_Card class

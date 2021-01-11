@@ -1,5 +1,5 @@
 ---
-Description: Shows how to use DXVA Video Processing.
+description: Shows how to use DXVA Video Processing.
 ms.assetid: 1465bd41-94f9-4e19-8236-00e7a2d6f54a
 title: DXVA2_VideoProc Sample
 ms.topic: article

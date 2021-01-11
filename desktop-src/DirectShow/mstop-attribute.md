@@ -1,5 +1,5 @@
 ---
-Description: The mstop attribute specifies the stop time of a clip, relative to the original media file.
+description: The mstop attribute specifies the stop time of a clip, relative to the original media file.
 ms.assetid: 01559d29-9c7b-4842-a1f7-16552adbda43
 title: mstop Attribute
 ms.topic: reference

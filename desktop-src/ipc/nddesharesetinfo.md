@@ -1,5 +1,5 @@
 ---
-Description: Sets DDE share information. This is usually done after editing.
+description: Sets DDE share information. This is usually done after editing.
 ms.assetid: 002c73ce-7b35-4e8e-bb7e-0e1393b97ccc
 title: NDdeShareSetInfo function (Nddeapi.h)
 ms.topic: reference

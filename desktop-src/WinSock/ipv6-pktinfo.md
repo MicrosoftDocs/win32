@@ -1,5 +1,5 @@
 ---
-Description: Allows an application to enable or disable the return of packet information by the WSARecvMsg function on an IPv6 socket.
+description: Allows an application to enable or disable the return of packet information by the WSARecvMsg function on an IPv6 socket.
 ms.assetid: 7BF17538-BE92-44FE-BA3C-6B44F61D478A
 title: IPV6_PKTINFO socket option (Ws2ipdef.h)
 ms.topic: reference

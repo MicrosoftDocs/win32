@@ -1,5 +1,5 @@
 ---
-Description: Description
+description: Description
 MS-HAID: WWAN\_profile\_v4.element\_Description
 MSHAttr:
 - PreferredSiteName:MSDN

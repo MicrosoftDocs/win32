@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesTooManyColumnsException methods"
 title: EsentIndexTuplesTooManyColumnsException methods
 TOCTitle: EsentIndexTuplesTooManyColumnsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesTooManyColumnsException

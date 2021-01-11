@@ -1,5 +1,5 @@
 ---
-Description: The Copy method copies the logical file (or directory) specified in the object path to the location specified by the input parameter.
+description: The Copy method copies the logical file (or directory) specified in the object path to the location specified by the input parameter.
 ms.assetid: 6c1c6172-80a2-4779-903a-935f8c7091a5
 ms.tgt_platform: multiple
 title: Copy method of the CIM_DeviceFile class

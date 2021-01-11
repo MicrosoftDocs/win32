@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_RENDERING\_INFORMATION\_PROFILE\_ENTRY\_TYPES enumeration type indicates whether the rendering information profile entry corresponds to an Object or a Resource.
+description: The WPD\_RENDERING\_INFORMATION\_PROFILE\_ENTRY\_TYPES enumeration type indicates whether the rendering information profile entry corresponds to an Object or a Resource.
 ms.assetid: d019eef6-eed8-416c-bede-5b4eb00ed013
 title: WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES enumeration (PortableDevice.h)
 ms.topic: reference

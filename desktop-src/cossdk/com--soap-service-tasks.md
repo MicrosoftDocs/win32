@@ -1,5 +1,5 @@
 ---
-Description: COM+ SOAP Service Tasks
+description: COM+ SOAP Service Tasks
 ms.assetid: 12ed7cb5-19b0-4f64-81cd-601420bc9e5d
 title: COM+ SOAP Service Tasks
 ms.topic: article

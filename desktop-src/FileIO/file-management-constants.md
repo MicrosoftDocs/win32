@@ -1,5 +1,5 @@
 ---
-Description: Constants used in file management.
+description: Constants used in file management.
 ms.assetid: 9c8d8ff9-4027-4198-950b-54d985c55e1e
 title: File Management Constants
 ms.topic: article

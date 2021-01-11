@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyAttachedDatabasesException constructor"
 title: EsentTooManyAttachedDatabasesException constructor 
 TOCTitle: 'EsentTooManyAttachedDatabasesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyAttachedDatabasesException.#ctor

@@ -1,5 +1,5 @@
 ---
-Description: The Open method opens the specified file for further use.
+description: The Open method opens the specified file for further use.
 ms.assetid: a970daba-ed04-45f0-9b2d-3883807050df
 title: ISCardFileAccess::Open method
 ms.topic: reference

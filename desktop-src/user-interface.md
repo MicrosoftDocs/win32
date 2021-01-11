@@ -1,5 +1,5 @@
 ---
-Description: This section provides guidance for integrating and extending the desktop user-facing features of Windows.
+description: This section provides guidance for integrating and extending the desktop user-facing features of Windows.
 ms.assetid: 1ffeeb4f-b337-45b9-885f-307b81670557
 title: Desktop Environment
 ms.topic: reference

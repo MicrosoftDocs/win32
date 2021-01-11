@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetCurrentIndex Function"
 title: JetGetCurrentIndex Function
 TOCTitle: JetGetCurrentIndex Function
 ms:assetid: 9db3b875-0b95-4027-9742-c36d2d7e64cf

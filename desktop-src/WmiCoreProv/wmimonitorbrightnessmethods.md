@@ -1,5 +1,5 @@
 ---
-Description: Contains methods that manage monitor brightness.
+description: Contains methods that manage monitor brightness.
 ms.assetid: e7e4139e-b985-4163-9c95-03008a2cc8cb
 title: WmiMonitorBrightnessMethods class
 ms.topic: reference

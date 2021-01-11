@@ -1,5 +1,5 @@
 ---
-Description: This section contains reference information for the functions that you need to implement when you work with the D3DX utility library.
+description: This section contains reference information for the functions that you need to implement when you work with the D3DX utility library.
 ms.assetid: 9b813410-9c60-4043-b226-86de9c05926f
 title: D3DX Functions (Direct3D 10 Graphics)
 ms.topic: article

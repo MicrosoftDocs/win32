@@ -1,5 +1,5 @@
 ---
-Description: The cutpoint attribute specifies when a transition cuts from one source to the next, if the transition is rendered as a cut. The value is relative to the start of the transition.
+description: The cutpoint attribute specifies when a transition cuts from one source to the next, if the transition is rendered as a cut. The value is relative to the start of the transition.
 ms.assetid: bdb0b8cd-025f-4b56-9cd4-f71c58ee809a
 title: cutpoint Attribute
 ms.topic: reference

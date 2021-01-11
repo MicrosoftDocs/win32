@@ -1,5 +1,5 @@
 ---
-Description: The IProvidePropertyBuilder interface, when implemented, allows objects to specify property builder objects for properties.
+description: The IProvidePropertyBuilder interface, when implemented, allows objects to specify property builder objects for properties.
 ms.assetid: 26557622-4a97-4db0-85ed-3f77fcb769a0
 title: IProvidePropertyBuilder interface
 ms.topic: reference

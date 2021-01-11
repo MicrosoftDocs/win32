@@ -1,5 +1,5 @@
 ---
-Description: Specifies if this is the default profile for the device.
+description: Specifies if this is the default profile for the device.
 ms.assetid: 024ef936-ddf4-41f6-81c9-5c8a632690a0
 title: IsDefault (MBNProfile) Element
 ms.topic: reference

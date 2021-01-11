@@ -1,5 +1,5 @@
 ---
-Description: Windows power management makes computers instantly accessible to users at the touch of a button or key.
+description: Windows power management makes computers instantly accessible to users at the touch of a button or key.
 ms.assetid: 388dadb9-b722-43f8-ab2b-a9bbd96600a3
 title: Windows Power Management
 ms.topic: article

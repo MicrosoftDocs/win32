@@ -1,5 +1,5 @@
 ---
-Description: COM+ Just-in-Time Activation
+description: COM+ Just-in-Time Activation
 ms.assetid: 47b23cae-d5fc-4788-ab1c-93d6d8ee3f01
 title: COM+ Just-in-Time Activation
 ms.topic: article

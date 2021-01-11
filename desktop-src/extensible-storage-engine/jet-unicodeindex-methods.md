@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_UNICODEINDEX methods"
 title: JET_UNICODEINDEX methods
 TOCTitle: JET_UNICODEINDEX methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX

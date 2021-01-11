@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the display name of the specified TAG.
+description: Retrieves the display name of the specified TAG.
 ms.assetid: e382d443-aab2-476c-90dd-7ab38e737f52
 title: SdbTagToString function
 ms.topic: reference

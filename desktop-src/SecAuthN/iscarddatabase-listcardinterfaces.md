@@ -1,5 +1,5 @@
 ---
-Description: The ListCardInterfaces method retrieves the identifiers (GUIDs) of all the interfaces supported for the specified smart card.
+description: The ListCardInterfaces method retrieves the identifiers (GUIDs) of all the interfaces supported for the specified smart card.
 ms.assetid: c9dfd17e-f4a9-47d3-974e-66e78bc4b06a
 title: ISCardDatabase::ListCardInterfaces method (Scardmgr.h)
 ms.topic: reference

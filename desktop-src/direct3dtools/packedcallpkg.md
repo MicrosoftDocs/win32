@@ -1,5 +1,5 @@
 ---
-Description: Represents a package of four calls.
+description: Represents a package of four calls.
 MS-HAID: vspixengine.PackedCallPkg
 MSHAttr:
 - PreferredSiteName:MSDN

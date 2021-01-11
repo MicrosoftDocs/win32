@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStopwatch.Elapsed property"
 title: EsentStopwatch.Elapsed property 
 TOCTitle: 'Elapsed property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentStopwatch.Elapsed

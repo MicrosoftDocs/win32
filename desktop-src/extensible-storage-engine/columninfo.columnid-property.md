@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnInfo.Columnid property"
 title: ColumnInfo.Columnid property 
 TOCTitle: 'Columnid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnInfo.Columnid
