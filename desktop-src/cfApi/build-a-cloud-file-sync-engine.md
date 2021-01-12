@@ -67,7 +67,7 @@ The following image demonstrates how the placeholder, full, and pinned full file
     ![Screenshot of the automatic file downloads setting](images/allow-automatic-file-downloads-setting.png)
 * Hooking copy engine operations (supported in Windows 10 Insider Preview Build 19624 and later versions):
   * Cloud storage providers can register a shell copy hook for monitoring file operations within their sync root.
-  * The provider registers their copy hook by setting the **CopyHook** registry value under their sync root registry key to a the CLSID of their COM local server object. This local server object implements the [IStorageProviderCopyHook](/windows/win32/shell/nn-shobjidl-istorageprovidercopyhook) interface.
+  * The provider registers their copy hook by setting the **CopyHook** registry value under their sync root registry key to a the CLSID of their COM local server object. This local server object implements the [IStorageProviderCopyHook](../shell/nn-shobjidl-istorageprovidercopyhook.md) interface.
 
 ### Desktop Bridge
 

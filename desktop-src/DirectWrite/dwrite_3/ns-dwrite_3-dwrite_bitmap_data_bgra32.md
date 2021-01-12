@@ -63,21 +63,21 @@ struct DWRITE_BITMAP_DATA_BGRA32
 
 `width`
 
-Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
+Type: **[UINT32](../../winprog/windows-data-types.md)**
 
 The width, in pixels, of the bitmap.
 
 
 `height`
 
-Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
+Type: **[UINT32](../../winprog/windows-data-types.md)**
 
 The height, in pixels, of the bitmap.
 
 
 `pixels`
 
-Type: \_Field\_size\_(width * height)**[UINT32](/windows/win32/winprog/windows-data-types)\***
+Type: \_Field\_size\_(width * height)**[UINT32](../../winprog/windows-data-types.md)\***
 
 A pointer to the location of the bit values for the bitmap.
 

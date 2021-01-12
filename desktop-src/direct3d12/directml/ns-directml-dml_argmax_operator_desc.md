@@ -50,7 +50,7 @@ Outputs the indices of the maximum-valued elements within one or more dimensions
 Each output element is the result of applying an *argmax* reduction on a subset of the input tensor. The *argmax* function outputs the index of the maximum-valued element within a set of input elements. The input elements involved in each reduction are determined by the provided input axes. Similarly, each output index is with respect to the provided input axes. If all input axes are specified, then the operator applies a single *argmax* reduction, and produces a single output element.
 
 > [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](/windows/win32/direct3d12/dml-version-history).
+> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](../dml-version-history.md).
 
 ## Syntax
 ```cpp
