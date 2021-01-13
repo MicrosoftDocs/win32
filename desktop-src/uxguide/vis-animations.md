@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Animations and Transitions
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Strategic use of animations and transitions can make your program easier to understand, feel smoother, more natural, and of higher quality, and be more engaging. But the gratuitous use of animations and transitions can make your program distracting and even annoying.
 
@@ -647,6 +647,4 @@ Examples:
 -   You'll know that an item needs your attention when its icon starts bouncing.
 -   First, select the photos that you would like to print (note that the photos are enlarged upon selection).
 -   Use a cross-fade transition to change an object's state seamlessly.
-
- 
 

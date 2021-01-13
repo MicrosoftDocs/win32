@@ -136,7 +136,7 @@ See the following resources related to prioritization and rowsets:
 
 <dl> <dt>
 
-[Windows 7 Search](-search-new-for-win7.md)
+[Windows 7 Search](./-search-3x-wds-overview.md)
 </dt> <dt>
 
 [New for Windows 7 Search](new-for-windows-7-search.md)

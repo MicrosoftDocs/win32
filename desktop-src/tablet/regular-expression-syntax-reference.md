@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Regular Expression Syntax Reference
 
-You can define and assign custom input scopes using the handwriting regular expression syntax that is understood by some of the Microsoft handwriting recognizers. The syntax is a subset of the [Regular Expression Language Implementation](https://msdn.microsoft.com/library/default.asp?url=/library/cpgenref/html/cpconRegularExpressionsLanguageElements.asp?frame=true) in the .NET Framework.
+You can define and assign custom input scopes using the handwriting regular expression syntax that is understood by some of the Microsoft handwriting recognizers. The syntax is a subset of the [Regular Expression Language Implementation](/documentation/?url=%2flibrary%2fcpgenref%2fhtml%2fcpconRegularExpressionsLanguageElements.asp%3fframe%3dtrue) in the .NET Framework.
 
 There are some differences in the way that handwriting regular expressions are used and the way the other types of regular expressions are used. The handwriting syntax is used to specify an exact string that will be matched by the recognition engine and not a sub-string. For example, the regular expression s(\[a-z\]+)p would return matches for "soup", "stop", "instep", and "esophagus". Whereas, an equivalent handwriting regular expression such as s(!IS\_ONECHAR)+p would match "soup" and "stop", but not "instep" and "esophagus".
 

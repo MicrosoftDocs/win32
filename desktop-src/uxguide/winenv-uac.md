@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # User Account Control
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 A well designed User Account Control experience helps prevent unwanted system-wide changes in a way that is predictable and requires minimal effort.
 
@@ -254,6 +254,4 @@ In programming and other technical documentation:
 -   Refer to the act of giving consent to perform an administrative task as elevation.
 -   In the context of UAC, refer to administrators as Protected administrators when not elevated, and Elevated administrators after elevation.
 -   Refer to the dialog box used to enter passwords as the Credential UI. Refer to the dialog box used to give consent as the Consent UI. Refer to both generally as Elevation UI.
-
- 
 

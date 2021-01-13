@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Touch
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 All Microsoft Windows applications should have a great touch experience. And creating such an experience is easier than you think.
 
@@ -428,6 +428,4 @@ Forgiveness is the ability to reverse or correct an undesired action easily. You
     Routine confirmations are acceptable for interactions that users often do accidentally using touch.
 
     Developers: You can distinguish between mouse events and touch events using the [**INPUT\_MESSAGE\_SOURCE**](/windows/win32/api/winuser/ns-winuser-input_message_source) API.
-
- 
 

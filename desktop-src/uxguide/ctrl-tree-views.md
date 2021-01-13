@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Tree Views
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 With a tree view, users can view and interact with a hierarchically arranged collection of objects, using either single selection or multiple selection.
 
@@ -277,6 +277,4 @@ When referring to check boxes in a tree view:
 -   When possible, format the label using bold text. Otherwise, put the label in quotation marks only if required to prevent confusion.
 
 Example: In the **Items to back up** list, select the **My Documents** check box.
-
- 
 

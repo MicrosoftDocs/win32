@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Glossary (Design basics)
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 [A](#glossary) \| [B](#b) \| [C](#c) \| [D](#d) \| [E](#e) \| [F](#f) \| [G](#g) \| [H](#h) \| [I](#i) \| [J](#j) \| [K](#k) \| [L](#l) \| [M](#m) \|
 
@@ -888,7 +888,3 @@ The layered relationship of windows on the display.
  
 
  
-
-
-
-
