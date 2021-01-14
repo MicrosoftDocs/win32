@@ -21,6 +21,10 @@ Windows 19H1 introduced a first-generation solution for automatic software updat
 - Invokes registered software updaters during optimal times, such as during user absence, to update 'user mode apps'.
     - Includes the ability to 'keep awake' on AC power to further reduce user-away impact.
 
+- Operates on a Trust Model that only invokes trusted 3rd party registered software updaters
+    - There are substantial risks when exposing UpdateOrchestrator to any and all callers such as updating BIOS firmware or drivers when a user is not present.  UpdateOrchestrator includes a trust model to mitigate these risks.
+
+
 ## Developer Audience
 
 Use UpdateOrchestrator API if you already have background software updaters for Win32 'user mode' applications such as Adobe's updater for Acrobat Reader or Valve's Steam. This interface is not needed for UWP/Store applications as the Microsoft Store already takes advantage of this functionality for software updates.
@@ -30,7 +34,7 @@ To provide the best customer experience, this initial API release is scoped to a
 
 - Updates for 'user mode' applications only
 - Do not involve BIOS/Firmware/Device or Software Drivers
-    - Updating BIOS, firmware, or device/software drivers that have not passed a common quality criteria pose a substantial risk, particularly when a user is not present. 
+    - Updating any BIOS, firmware, or device/software drivers, particularly those that have not passed a common quality criteria, pose a substantial risk when a user is not present. 
 - Participating in the usage of this API entails being able to vouch for all content downloaded and installed by your background software updaters on users systems via audits. 
 
 This API may be modified significantly before public release.   While UpdateOrchestrator API is under development, this initial release as a [limited access feature](/uwp/api/windows.applicationmodel.limitedaccessfeatures) is only for updaters that meet the above criteria at this time. 
