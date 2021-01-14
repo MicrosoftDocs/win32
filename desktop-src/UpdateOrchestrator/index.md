@@ -7,6 +7,9 @@ ms.topic: overview
 
 # UpdateOrchestrator API
 
+> [!IMPORTANT]
+> The UpdateOrchestrator API is currently an “in development”  [limited access feature](/uwp/api/windows.applicationmodel.limitedaccessfeatures). This API will become publicly available in a future release.
+
 **UpdateOrchestrator** schedules your automatic software updates with user impact in mind. This API allows you to schedule automatic download and installs, along with their requirements, in order to run updates at an optimal time that minimizes user-present impact. These features particularly benefit lower performance systems with limited or slower computing resources.
 
 Windows 19H1 introduced a first-generation solution for automatic software update use cases that was adopted by OS updates and Store App updates and exposes an initial ‘Limited Access’ version of this API for a select set of  updaters of 'user-mode' apps as described below.
@@ -19,9 +22,6 @@ Windows 19H1 introduced a first-generation solution for automatic software updat
     - Includes the ability to 'keep awake' on AC power to further reduce user-away impact.
 
 ## Developer Audience
-
-> [!IMPORTANT]
-> The UpdateOrchestrator API is currently an “in development”  [limited access feature](/uwp/api/windows.applicationmodel.limitedaccessfeatures). This API will become publicly available in a future release.
 
 Use UpdateOrchestrator API if you already have background software updaters for Win32 'user mode' applications such as Adobe's updater for Acrobat Reader or Valve's Steam. This interface is not needed for UWP/Store applications as the Microsoft Store already takes advantage of this functionality for software updates.
 
