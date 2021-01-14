@@ -2,7 +2,7 @@
 title: IUniversalOrchestrator::ScheduleWork
 description: Calls Universal Orchestrator to schedule work
 ms.topic: method
-ms.date: 03/20/2020
+ms.date: 01/13/2020
 ---
 
 # IUniversalOrchestrator::ScheduleWork method
