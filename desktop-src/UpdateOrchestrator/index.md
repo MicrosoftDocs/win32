@@ -33,7 +33,7 @@ To provide the best customer experience, this initial API release is scoped to a
     - Updating BIOS, firmware, or device/software drivers that have not passed a common quality criteria pose a substantial risk, particularly when a user is not present. 
 - Participating in the usage of this API entails being able to vouch for all content downloaded and installed by your background software updaters on users systems via audits. 
 
-The initial release while UpdateOrchestrator API is under development as limited access feature is only for updaters that meet above criteria at this time.  This API may be modified significantly before public release.
+This API may be modified significantly before public release.   While UpdateOrchestrator API is under development, this initial release as a [limited access feature](/uwp/api/windows.applicationmodel.limitedaccessfeatures) is only for updaters that meet the above criteria at this time. 
 
 Our aim is to improve the functionality of this API and reduce impact from multiple automatic software updaters on Windows. If you are interested in using this API, we would first appreciate your input through this [**brief survey**](https://aka.ms/UOAPISurvey) to help us understand how UpdateOrchestrator API can better serve your developer needs.
 
