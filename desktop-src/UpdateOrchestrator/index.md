@@ -25,6 +25,7 @@ Windows 19H1 introduced a first-generation solution for automatic software updat
     - There are substantial risks when exposing UpdateOrchestrator to any and all callers such as updating BIOS firmware or drivers when a user is not present.  UpdateOrchestrator includes a trust model to mitigate these risks.
 
 
+
 ## Developer Audience
 
 Use UpdateOrchestrator API if you already have background software updaters for Win32 'user mode' applications such as Adobe's updater for Acrobat Reader or Valve's Steam. This interface is not needed for UWP/Store applications as the Microsoft Store already takes advantage of this functionality for software updates.

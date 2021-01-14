@@ -12,7 +12,7 @@ ms.date: 01/13/2020
 
 Allows clients to inform Universal Orchestrator that work is pending and provide a binary that will be called by Universal Orchestrator to perform the update work at a later time.
 
-The callback binary must be signed with a valid Microsoft certificate, and the caller must be invoking the ScheduleWork call from SYSTEM context.
+The callback binary must be signed with a valid Microsoft certificate, and the caller must be invoking the ScheduleWork call from SYSTEM context. ScheduleWork also limits the folder to a couple of known system protected locations: SystemFolder and ProgamFilesCommon.
 
 ## Syntax
 
