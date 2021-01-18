@@ -45,6 +45,8 @@ The function returns a **float4**, in the format TEXCOORDN.
 
 ## Remarks
 
+The coordinate returned by this function is in texel space. A shader should not take any dependencies on how this value is calculated. It should only use it to sample the pixel shader's input. See [Adding a pixel shader to a custom transform](https://docs.microsoft.com/en-us/windows/win32/direct2d/custom-effects#adding-a-pixel-shader-to-a-custom-transform) for more information.
+
 The following example shows the function used for a displacement map effect.
 
 ``` syntax
