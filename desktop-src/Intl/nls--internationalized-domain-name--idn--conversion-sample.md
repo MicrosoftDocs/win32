@@ -26,7 +26,7 @@ In the sample output, note that, "ExAmPlE.cOm" is converted to "русский.e
 // 
 // Copyright (c) Microsoft Corporation. All rights reserved. 
 // 
-// IdnMitigation.cpp 
+// IdnConversion.cpp 
 
 #include "stdafx.h"
 #include "windows.h"
