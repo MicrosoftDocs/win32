@@ -24,7 +24,7 @@ CPU caches can be partitioned into banks that can be accessed in parallel. This 
 
 Processors can support instructions for memory barriers with acquire, release, and fence semantics. These semantics describe the order in which results of an operation become available. With acquire semantics, the results of the operation are available before the results of any operation that appears after it in code. With release semantics, the results of the operation are available after the results of any operation that appears before it in code. Fence semantics combine acquire and release semantics. The results of an operation with fence semantics are available before those of any operation that appears after it in code and after those of any operation that appears before it.
 
-On x86 and x64 processors that support SSE2, the instructions are **mfence** (memory fence), **lfence** (load fence), and **sfence** (store fence). On ARM processors, the instrutions are **dmb**, **dsb**, and **isb** For more information, see the documentation for the processor.
+On x86 and x64 processors that support SSE2, the instructions are **mfence** (memory fence), **lfence** (load fence), and **sfence** (store fence). On ARM processors, the instrutions are **dmb** and **dsb**. For more information, see the documentation for the processor.
 
 The following synchronization functions use the appropriate barriers to ensure memory ordering:
 
