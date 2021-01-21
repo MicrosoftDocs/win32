@@ -2,7 +2,7 @@
 title: IUniversalOrchestrator::WorkCompleted
 description: Calls Universal Orchestrator to indicate work is complete
 ms.topic: method
-ms.date: 03/20/2020
+ms.date: 01/14/2021
 ---
 
 # IUniversalOrchestrator::WorkCompleted method
