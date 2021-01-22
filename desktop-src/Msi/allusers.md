@@ -1,8 +1,9 @@
 ---
-description: The ALLUSERS property configures the installation context of the package.
+Description: The ALLUSERS property configures the installation context of the package.
 ms.assetid: 942e7764-a80f-4880-9559-72174f1827f7
 title: ALLUSERS property
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 07/27/2020
 ---
 

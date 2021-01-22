@@ -1,12 +1,13 @@
 ---
-description: The following option flags are supported by WinHttpQueryOption and WinHttpSetOption.
+Description: The following option flags are supported by WinHttpQueryOption and WinHttpSetOption.
 ms.assetid: 2d0441f4-ddba-4f2a-8861-8803cad6f1ac
 title: Option Flags (Winhttp.h)
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 02/25/2020
 ---
 
-# Option Flags (Winhttp.h)
+# Option Flags
 
 The following option flags are supported by [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) and [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption).
 
@@ -151,7 +152,7 @@ Retrieves the source and destination IP address, and port of the request that ge
 
 
 
-Retrieves the [**TCP\_INFO\_v0**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v0) struct for the underlying connection used by the request. The returned struct may contain statistics from prior requests sent over the same connection.
+Retreives the [**TCP\_INFO\_v0**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v0) struct for the underlying connection used by the request. The returned struct may contain statistics from prior requests sent over the same connection.
 
 > [!Note]
 > This option has been superseded by **WINHTTP\_OPTION\_CONNECTION\_STATS\_V1**.
@@ -164,7 +165,7 @@ Retrieves the [**TCP\_INFO\_v0**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info
 
 
 
-Retrieves the [**TCP_INFO_v1**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v1) struct for the underlying connection used by the request. The returned struct may contain statistics from prior requests sent over the same connection.
+Retreives the [**TCP\_INFO\_v1**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v1) struct for the underlying connection used by the request. The returned struct may contain statistics from prior requests sent over the same connection.
 
 
 </dt> </dl> </dd> <dt>
@@ -657,7 +658,7 @@ This option has been deprecated; it has no effect.
 
 
 
-Retrieves statistics for the request.  For a list of the available statistics, see [**WINHTTP\_REQUEST\_STATS**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_stats).
+Retreives statistics for the request.  For a list of the available statistics, see [**WINHTTP\_REQUEST\_STATS**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_stats).
 
 
 </dt> </dl> </dd> <dt>
@@ -667,7 +668,7 @@ Retrieves statistics for the request.  For a list of the available statistics, s
 
 
 
-Retrieves timing information for the request. For a list of the available timings, see [**WINHTTP\_REQUEST\_TIMES**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_times).
+Retreives timing information for the request. For a list of the available timings, see [**WINHTTP\_REQUEST\_TIMES**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_times).
 
 
 </dt> </dl> </dd> <dt>
@@ -738,7 +739,7 @@ Sets or retrieves an unsigned long integer value that contains the security flag
 
 
 
-Retrieves the SChannel connection and cipher information for a request.
+Retreives the SChannel connection and cipher information for a request.
 
 
 </dt> </dl> </dd> <dt>
@@ -1075,7 +1076,7 @@ Attempting to set or query an option flag on a Windows version where it is not s
 
 ## Requirements
 
-| Requirement | Value |
+|                          |                                                                                 |
 |--------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]            |
 | Minimum supported server | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]         |

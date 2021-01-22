@@ -11,6 +11,7 @@ api_name:
 api_type:
 - NA
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 07/29/2020
 ---
 
