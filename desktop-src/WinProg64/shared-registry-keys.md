@@ -31,7 +31,7 @@ The following table lists registry keys that are redirected, shared by both 32-b
 
 
 
-| Key | Windows Server 2008 R2 and Windows 7 | Windows Server 2008, Windows Vista, Windows Server 2003, and Windows XP |
+| Key | Windows Server 2008 R2, Windows 7, and Newer | Windows Server 2008, Windows Vista, Windows Server 2003, and Windows XP |
 |-|-|-|
 | **HKEY\_LOCAL\_MACHINE** | Shared | Shared |
 | **HKEY\_LOCAL\_MACHINE\SOFTWARE** | Redirected | Redirected |
