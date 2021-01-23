@@ -101,9 +101,9 @@ For WOW applications on affected Windows installations, the following table list
 | **HKEY\_CURRENT\_USER**\\**SOFTWARE**\\**Classes**\\**Media Type** | Redirected | Redirected and reflected |
 | **HKEY\_CURRENT\_USER**\\**SOFTWARE**\\**Classes**\\**MediaFoundation** | Redirected | Redirected and reflected |
 
-**HKEY\_CURRENT\_USER** is a symbolic link to **HKEY\_USERS\\\[SID\]** where \[SID\] indicates a match for the current user's security ID (SID). **HKEY\_USERS\\\[SID\]\\SOFTWARE\\Classes** is a symbolic link to **HKEY\_USERS\\\[SID\]\_Classes**.
+**HKEY\_CURRENT\_USER** is a symbolic link to **HKEY\_USERS**\\**\[SID\]** where \[SID\] indicates a match for the current user's security ID (SID). **HKEY\_USERS**\\**\[SID\]**\\**SOFTWARE**\\**Classes** is a symbolic link to **HKEY\_USERS**\\**\[SID\]\_Classes**.
 
-**HKEY\_CLASSES\_ROOT** is a merged view of **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes** and **HKEY\_CURRENT\_USER\\SOFTWARE\\Classes**. Redirected keys in these registry paths are effectively redirected for **HKEY\_CLASSES\_ROOT** also. This is also true for reflected keys on systems that support them.
+**HKEY\_CLASSES\_ROOT** is a merged view of **HKEY\_LOCAL\_MACHINE**\\**SOFTWARE**\\**Classes** and **HKEY\_CURRENT\_USER**\\**SOFTWARE**\\**Classes**. Redirected keys in these registry paths are effectively redirected for **HKEY\_CLASSES\_ROOT** also. This is also true for reflected keys on systems that support them.
 
 ## Windows on Windows 64 (WOW64) Symbolic Links
 
