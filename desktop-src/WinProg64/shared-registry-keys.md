@@ -20,7 +20,7 @@ On affected Windows installations, when a process with a processor architecture 
 
 Other registry keys are *shared* by applications of differing processor architectures on affected Windows installations. WOW application registry calls to shared keys are not redirected. Instead, one physical copy of the key is mapped into each logical view of the registry.
 
-**Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** A subset of redirected registry keys are also reflected to keep the keys and their values synchronized between 32-bit and 64-bit views of the registry. Registry reflection was removed starting with Windows 7 and Windows Server 2008 R2. For more information, see [Registry Reflection](registry-reflection.md).
+**Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** A subset of redirected registry keys are also *reflected* to keep the keys and their values synchronized between 32-bit and 64-bit views of the registry. Registry reflection was removed starting with Windows 7 and Windows Server 2008 R2. For more information, see [Registry Reflection](registry-reflection.md).
 
 This topic lists registry keys that are redirected, shared, or redirected and reflected under WOW. It also lists symbolic links that provide compatibility for existing applications that may use hardcoded registry key paths containing **Wow6432Node**, the redirected registry location for x86 processes running on AMD64 Windows installations. For more information, see the following:
 
