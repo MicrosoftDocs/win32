@@ -24,14 +24,12 @@ Other registry keys are *shared* by applications of differing processor architec
 
 This topic lists registry keys that are redirected, shared, or redirected and reflected under WOW. It also lists symbolic links that provide compatibility for existing applications that may use hardcoded registry key paths containing **Wow6432Node**, the redirected registry location for x86 processes running on AMD64 Windows installations. For more information, see the following:
 
--   [Redirected, Shared, and Reflected Keys Under WOW](#redirected-shared-and-reflected-keys-under-wow)
--   [Windows on Windows 64 (WOW64) Symbolic Links](#windows-on-windows-64-wow64-symbolic-links)
+- [Redirected, Shared, and Reflected Keys Under WOW](#redirected-shared-and-reflected-keys-under-wow)
+- [Windows on Windows 64 (WOW64) Symbolic Links](#windows-on-windows-64-wow64-symbolic-links)
 
 ## Redirected, Shared, and Reflected Keys Under WOW
 
 For WOW applications on affected Windows installations, the following table lists registry keys that are redirected, shared, or redirected and reflected. Subkeys of the keys in this table inherit the parent key's behavior unless otherwise specified. If a key has no parent listed in this table, the key is shared.
-
-
 
 | Key | Windows Server 2008 R2, Windows 7, and Newer | Windows Server 2008, Windows Vista, Windows Server 2003, and Windows XP |
 |-|-|-|
@@ -103,10 +101,6 @@ For WOW applications on affected Windows installations, the following table list
 | **HKEY\_CURRENT\_USER**\\**SOFTWARE**\\**Classes**\\**Media Type** | Redirected | Redirected and reflected |
 | **HKEY\_CURRENT\_USER**\\**SOFTWARE**\\**Classes**\\**MediaFoundation** | Redirected | Redirected and reflected |
 
-
-
- 
-
 **HKEY\_CURRENT\_USER** is a symbolic link to **HKEY\_USERS\\\*** where \* indicates a match for all user security IDs (SIDs). **HKEY\_USERS\\\*\\SOFTWARE\\Classes** is a symbolic link to **HKEY\_USERS\\\*\_Classes**.
 
 **HKEY\_CLASSES\_ROOT** is a merged view of **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes** and **HKEY\_CURRENT\_USER\\SOFTWARE\\Classes**. Redirected keys in these registry paths are effectively redirected for **HKEY\_CLASSES\_ROOT** also. This is also true for reflected keys on systems that support them.
@@ -115,12 +109,9 @@ For WOW applications on affected Windows installations, the following table list
 
 WOW64 defines the following symbolic links only for compatibility with existing applications that may use hardcoded registry key paths containing Wow6432Node. New applications should avoid using Wow6432Node in registry key paths.
 
--   **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Wow6432Node\\Classes** is linked to **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\Wow6432Node**
--   **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\AppId** is linked to **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\AppId**
--   **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\PROTOCOLS** is linked to **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\PROTOCOLS**
--   **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\Typelib** is linked to **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\Typelib**
+- **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Wow6432Node\\Classes** is linked to **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\Wow6432Node**
+- **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\AppId** is linked to **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\AppId**
+- **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\PROTOCOLS** is linked to **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\PROTOCOLS**
+- **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\Typelib** is linked to **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\Typelib**
 
 **Windows Server 2008, Windows Vista, Windows Server 2003, and Windows XP:  HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Wow6432Node\\Classes** is linked to **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\Wow6432Node**. Other symbolic links were added in Windows 7 and Windows Server 2008 R2.
-
- 
-
