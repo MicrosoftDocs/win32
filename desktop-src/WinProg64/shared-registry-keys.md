@@ -12,22 +12,24 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Registry Keys Affected by WOW64
+# Registry Keys Affected by Windows Installations That Include Windows on Windows (WOW) Support For Multiple Processor Architectures
 
-Under WOW64, certain registry keys are *redirected*. When a 32-bit or 64-bit application makes a registry call for a redirected key, the registry redirector intercepts the call and maps it to the key's corresponding physical registry location. For more information, see [Registry Redirector](registry-redirector.md).
+In 64-bit Windows installations beginning with Windows XP and Windows Server 2003, and in 32-bit ARM processor architecture Windows installations beginning with Windows RT (Windows 8) (hereafter referenced as **affected Windows installations**), certain registry keys are *redirected*.
 
-Other registry keys are *shared* by both 32-bit and 64-bit applications on 64-bit Windows. 32-bit registry calls to shared keys are not redirected. Instead, one physical copy of the key is mapped into each logical view of the registry.
+On affected Windows installations, when a process with a processor architecture different from the operating system's processor architecture (referred to hereafter as a **WOW application**) makes a registry call for a redirected key, the registry redirector intercepts the call and maps it to the key's corresponding physical registry location. For example, a 32-bit Intel IA-32 \[**x86**\] application running on an **AMD64** / Intel x86-x64 Windows installation would be affected by a redirected registry key; when this x86 application calls a redirected key, the registry redirector intercepts the application's call and redirects it to the key's corresponding physical registry location. For more information, see [Registry Redirector](registry-redirector.md).
+
+Other registry keys are *shared* by applications of differing processor architectures on affected Windows installations. WOW application registry calls to shared keys are not redirected. Instead, one physical copy of the key is mapped into each logical view of the registry.
 
 **Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** A subset of redirected registry keys are also reflected to keep the keys and their values synchronized between 32-bit and 64-bit views of the registry. Registry reflection was removed starting with Windows 7 and Windows Server 2008 R2. For more information, see [Registry Reflection](registry-reflection.md).
 
-This topic lists registry keys that are redirected, shared, or redirected and reflected under WOW64. It also lists symbolic links that provide compatibility for existing applications that may use hardcoded registry key paths containing **Wow6432Node**. For more information, see the following:
+This topic lists registry keys that are redirected, shared, or redirected and reflected under WOW. It also lists symbolic links that provide compatibility for existing applications that may use hardcoded registry key paths containing **Wow6432Node**, the redirected registry location for x86 processes running on AMD64 Windows installations. For more information, see the following:
 
--   [Redirected, Shared, and Reflected Keys Under WOW64](#redirected-shared-and-reflected-keys-under-wow64)
--   [WOW64 Symbolic Links](#wow64-symbolic-links)
+-   [Redirected, Shared, and Reflected Keys Under WOW](#redirected-shared-and-reflected-keys-under-wow)
+-   [Windows on Windows 64 (WOW64) Symbolic Links](#windows-on-windows-64-wow64-symbolic-links)
 
-## Redirected, Shared, and Reflected Keys Under WOW64
+## Redirected, Shared, and Reflected Keys Under WOW
 
-The following table lists registry keys that are redirected, shared by both 32-bit and 64-bit applications, or redirected and reflected on 64-bit Windows. Subkeys of the keys in this table inherit the parent key's behavior unless otherwise specified. If a key has no parent listed in this table, the key is shared.
+For WOW applications on affected Windows installations, the following table lists registry keys that are redirected, shared, or redirected and reflected. Subkeys of the keys in this table inherit the parent key's behavior unless otherwise specified. If a key has no parent listed in this table, the key is shared.
 
 
 
@@ -109,7 +111,7 @@ The following table lists registry keys that are redirected, shared by both 32-b
 
 **HKEY\_CLASSES\_ROOT** is a merged view of **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes** and **HKEY\_CURRENT\_USER\\SOFTWARE\\Classes**. Redirected keys in these registry paths are effectively redirected for **HKEY\_CLASSES\_ROOT** also. This is also true for reflected keys on systems that support them.
 
-## WOW64 Symbolic Links
+## Windows on Windows 64 (WOW64) Symbolic Links
 
 WOW64 defines the following symbolic links only for compatibility with existing applications that may use hardcoded registry key paths containing Wow6432Node. New applications should avoid using Wow6432Node in registry key paths.
 
