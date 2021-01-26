@@ -343,6 +343,8 @@
           href: ./wic/-wic-lh.md
         - name: "Windows Mixed Reality"
           href: ./mixedreality/mixed-reality-portal.md
+        - name: "Windows Color System"
+          href: ./wcs/windows-color-system.md
       - name: "Networking and Internet"
         items: 
         - name: "Overview"

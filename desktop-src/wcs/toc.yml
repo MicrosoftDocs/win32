@@ -1,0 +1,466 @@
+- name: "Windows Color System"
+  href: windows-color-system.md
+  items: 
+  - name: "Security Considerations: Windows Color System"
+    href: security-considerations--windows-color-system.md
+  - name: "Basic Color Management Concepts"
+    href: basic-color-management-concepts.md
+    items: 
+    - name: "Color In Imaging"
+      href: color-in-imaging.md
+      items: 
+      - name: "Human Color Perception"
+        href: human-color-perception.md
+      - name: "Additive Primary Colors"
+        href: additive-primary-colors.md
+      - name: "Subtractive Primary Colors"
+        href: subtractive-primary-colors.md
+      - name: "Describing Color"
+        href: describing-color.md
+    - name: "Color Spaces"
+      href: color-spaces.md
+      items: 
+      - name: "RGB Color Spaces"
+        href: rgb-color-spaces.md
+      - name: "HSV Color Spaces"
+        href: hsv-color-spaces.md
+      - name: "HLS Color Spaces"
+        href: hls-color-spaces.md
+      - name: "CMY and CMYK Color Spaces"
+        href: cmy-and-cmyk-color-spaces.md
+      - name: "Device-Dependent Color Spaces"
+        href: device-dependent-color-spaces.md
+      - name: "Device-Independent Color Spaces"
+        href: device-independent-color-spaces.md
+    - name: "Color Conversion and Color Matching"
+      href: color-conversion-and-color-matching.md
+    - name: "Further Information"
+      href: further-information.md
+  - name: "Windows Color System Schemas and Algorithms"
+    href: windows-color-system-schemas-and-algorithms.md
+    items: 
+    - name: "WCS Common Profile Types schema, Versioning and Localization Strategies"
+      href: windows-color-system-common-profile-types-schema--versioning-and-localization-strategies.md
+    - name: "WCS Color Appearance Model Profile Schema and Algorithms"
+      href: wcs-color-appearance-model-profile-schema-and-algorithm.md
+    - name: "WCS Calibration Schema"
+      href: wcs-calibration-schema.md
+    - name: "WCS Color Device Model Profile Schema and Algorithms"
+      href: wcs-color-device-model-profile-schema-and-algorithms.md
+    - name: "WCS Gamut Map Model Profile Schema and Algorithms"
+      href: wcs-gamut-map-model-profile-schema-and-algorithms.md
+    - name: "WCS Transform Creation Algorithms"
+      href: wcs-transform-creation-algorithms.md
+  - name: "About Windows Color System Version 1.0"
+    href: about-windows-color-system-version-1-0.md
+    items: 
+    - name: "What's New in WCS for Windows Vista"
+      href: what-s-new-in-windows-vista.md
+    - name: "What's New in Version 1.0 of WCS"
+      href: what-s-new-in-version-1-0-of-wcs.md
+    - name: "WCS 1.0 Availability"
+      href: wcs-1-0-availability.md
+  - name: "Using WCS 1.0"
+    href: using-wcs-1-0.md
+    items: 
+    - name: "Using Device Profiles with WCS"
+      href: using-device-profiles-with-wcs.md
+    - name: "Using Color Management Modules (CMM)"
+      href: using-color-management-modules--cmm.md
+    - name: "Rendering Intents"
+      href: rendering-intents.md
+    - name: "Using The Color Mapping Process with WCS"
+      href: using-the-color-mapping-process-with-wcs.md
+    - name: "Using Structures in WCS 1.0"
+      href: using-structures-in-wcs-1-0.md
+    - name: "Using Color Management on the Internet"
+      href: using-color-management-on-the-internet.md
+      items: 
+      - name: "sRGB: A Standard Color Space"
+        href: srgb--a-standard-color-space.md
+    - name: "Using GDI Functions With WCS"
+      href: using-gdi-functions-with-wcs.md
+  - name: "Reference"
+    href: reference.md
+    items: 
+    - name: "Functions"
+      href: functions.md
+      items: 
+      - name: "Basic Functions for Use Within a Device Context"
+        href: basic-functions-for-use-within-a-device-context.md
+      - name: "Advanced Functions for Use Outside of a Device Context"
+        href: advanced-functions-for-use-outside-of-a-device-context.md
+      - name: "Device Calibration and Characterization Functions"
+        href: device-calibration-and-characterization-functions.md
+      - name: "Profile Management Functions"
+        href: profile-management-functions.md
+      - name: "WCS Functions for Color Management Modules (CMMs) to Implement"
+        href: wcs-functions-for-color-management-modules--cmms--to-implement.md
+      - name: "Alphabetical List of All WCS Functions"
+        href: alphabetical-list-of-all-wcs-functions.md
+        items: 
+        - name: "PCMSCALLBACK"
+          href: apply.md
+        - name: "AssociateColorProfileWithDevice"
+          href: associatecolorprofilewithdevice.md
+        - name: "CheckBitmapBits"
+          href: checkbitmapbits.md
+        - name: "CheckColors"
+          href: checkcolors.md
+        - name: "CheckColorsInGamut"
+          href: /windows/desktop/api/Wingdi/nf-wingdi-checkcolorsingamut
+        - name: "CloseColorProfile"
+          href: closecolorprofile.md
+        - name: "CMCheckColors"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMCheckColorsInGamut"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMCheckRGBs"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMConvertColorNameToIndex"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMConvertIndexToColorName"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMCreateDeviceLinkProfile"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMCreateMultiProfileTransform"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMCreateProfile"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMCreateProfileW"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMCreateTransform"
+          href: cmcreatetransform.md
+        - name: "CMCreateTransformExt"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMCreateTransformExtW"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMCreateTransformW"
+          href: cmcreatetransformw.md
+        - name: "CMDeleteTransform"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMGetInfo"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMGetNamedProfileInfo"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMGetPS2ColorRenderingDictionary"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMGetPS2ColorRenderingIntent"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMGetPS2ColorSpaceArray"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMIsProfileValid"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMTranslateColors"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMTranslateRGB"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMTranslateRGBs"
+          href: /windows/desktop/api/Wingdi/
+        - name: "CMTranslateRGBsExt"
+          href: /windows/desktop/api/Wingdi/
+        - name: "ColorCorrectPalette"
+          href: /windows/desktop/api/Wingdi/nf-wingdi-colorcorrectpalette
+        - name: "ColorMatchToTarget"
+          href: /windows/desktop/api/Wingdi/nf-wingdi-colormatchtotarget
+        - name: "ConvertColorNameToIndex"
+          href: convertcolornametoindex.md
+        - name: "ConvertIndexToColorName"
+          href: convertindextocolorname.md
+        - name: "CreateColorSpace"
+          href: /windows/desktop/api/Wingdi/nf-wingdi-createcolorspacea
+        - name: "CreateColorTransform"
+          href: createcolortransform.md
+        - name: "CreateDeviceLinkProfile"
+          href: createdevicelinkprofile.md
+        - name: "CreateMultiProfileTransform"
+          href: createmultiprofiletransform.md
+        - name: "CreateProfileFromLogColorSpace"
+          href: createprofilefromlogcolorspace.md
+        - name: "DeleteColorSpace"
+          href: /windows/desktop/api/Wingdi/nf-wingdi-deletecolorspace
+        - name: "DeleteColorTransform"
+          href: deletecolortransform.md
+        - name: "DisassociateColorProfileFromDevice"
+          href: disassociatecolorprofilefromdevice.md
+        - name: "EnumColorProfiles"
+          href: enumcolorprofiles.md
+        - name: "EnumICMProfiles"
+          href: /windows/desktop/api/Wingdi/nf-wingdi-enumicmprofilesa
+        - name: "ICMENUMPROC"
+          href: /windows/desktop/api/Wingdi/
+        - name: "GetCMMInfo"
+          href: getcmminfo.md
+        - name: "GetColorDirectory"
+          href: getcolordirectory.md
+        - name: "GetColorProfileElement"
+          href: getcolorprofileelement.md
+        - name: "GetColorProfileElementTag"
+          href: getcolorprofileelementtag.md
+        - name: "GetColorProfileFromHandle"
+          href: getcolorprofilefromhandle.md
+        - name: "GetColorProfileHeader"
+          href: getcolorprofileheader.md
+        - name: "GetColorSpace"
+          href: getcolorspace.md
+        - name: "GetCountColorProfileElements"
+          href: getcountcolorprofileelements.md
+        - name: "GetDeviceGammaRamp"
+          href: /windows/desktop/api/Wingdi/nf-wingdi-getdevicegammaramp
+        - name: "GetICMProfile"
+          href: /windows/desktop/api/Wingdi/nf-wingdi-geticmprofilea
+        - name: "GetLogColorSpace"
+          href: /windows/desktop/api/Wingdi/nf-wingdi-getlogcolorspacea
+        - name: "GetNamedProfileInfo"
+          href: getnamedprofileinfo.md
+        - name: "GetPS2ColorRenderingDictionary"
+          href: getps2colorrenderingdictionary.md
+        - name: "GetPS2ColorRenderingIntent"
+          href: getps2colorrenderingintent.md
+        - name: "GetPS2ColorSpaceArray"
+          href: getps2colorspacearray.md
+        - name: "GetStandardColorSpaceProfile"
+          href: getstandardcolorspaceprofile.md
+        - name: "ICMProgressProcCallback"
+          href: icmprogressproccallback.md
+        - name: "InstallColorProfile"
+          href: installcolorprofile.md
+        - name: "IsColorProfileTagPresent"
+          href: iscolorprofiletagpresent.md
+        - name: "IsColorProfileValid"
+          href: iscolorprofilevalid.md
+        - name: "OpenColorProfile"
+          href: opencolorprofile.md
+        - name: "RegisterCMM"
+          href: registercmm.md
+        - name: "SelectCMM"
+          href: selectcmm.md
+        - name: "SetColorProfileElement"
+          href: setcolorprofileelement.md
+        - name: "SetColorProfileElementReference"
+          href: setcolorprofileelementreference.md
+        - name: "SetColorProfileElementSize"
+          href: setcolorprofileelementsize.md
+        - name: "SetColorProfileHeader"
+          href: setcolorprofileheader.md
+        - name: "SetColorSpace"
+          href: /windows/desktop/api/Wingdi/nf-wingdi-setcolorspace
+        - name: "SetDeviceGammaRamp"
+          href: /windows/desktop/api/Wingdi/nf-wingdi-setdevicegammaramp
+        - name: "SetICMMode"
+          href: /windows/desktop/api/Wingdi/nf-wingdi-seticmmode
+        - name: "SetICMProfile"
+          href: /windows/desktop/api/Wingdi/nf-wingdi-seticmprofilea
+        - name: "SetStandardColorSpaceProfile"
+          href: setstandardcolorspaceprofile.md
+        - name: "SetupColorMatching"
+          href: setupcolormatching.md
+        - name: "TranslateBitmapBits"
+          href: translatebitmapbits.md
+        - name: "TranslateColors"
+          href: translatecolors.md
+        - name: "UninstallColorProfile"
+          href: uninstallcolorprofile.md
+        - name: "UnregisterCMM"
+          href: unregistercmm.md
+        - name: "WcsAssociateColorProfileWithDevice"
+          href: wcsassociatecolorprofilewithdevice.md
+        - name: "WcsCheckColors"
+          href: wcscheckcolors.md
+        - name: "WcsCreateIccProfile"
+          href: wcscreateiccprofile.md
+        - name: "WcsDisassociateColorProfileFromDevice"
+          href: wcsdisassociatecolorprofilefromdevice.md
+        - name: "WcsEnumColorProfiles"
+          href: wcsenumcolorprofiles.md
+        - name: "WcsEnumColorProfilesSize"
+          href: wcsenumcolorprofilessize.md
+        - name: "WcsGetDefaultColorProfile"
+          href: wcsgetdefaultcolorprofile.md
+        - name: "WcsSetDefaultColorProfile"
+          href: wcssetdefaultcolorprofile.md
+        - name: "WcsGetDefaultColorProfileSize"
+          href: wcsgetdefaultcolorprofilesize.md
+        - name: "WcsGetDefaultRenderingIntent"
+          href: wcsgetdefaultrenderingintent.md
+        - name: "WcsSetDefaultRenderingIntent"
+          href: wcssetdefaultrenderingintent.md
+        - name: "WcsGetUsePerUserProfiles"
+          href: wcsgetuseperuserprofiles.md
+        - name: "WcsSetUsePerUserProfiles"
+          href: wcssetuseperuserprofiles.md
+        - name: "WcsGetCalibrationManagementState"
+          href: wcsgetcalibrationmanagementstate.md
+        - name: "WcsSetCalibrationManagementState"
+          href: wcssetcalibrationmanagementstate.md
+        - name: "WcsOpenColorProfile"
+          href: wcsopencolorprofile.md
+        - name: "WcsTranslateColors"
+          href: wcstranslatecolors.md
+    - name: "Obsolete WCS Functions"
+      href: obsolete-wcs-functions.md
+      items: 
+      - name: "UpdateICMRegKey"
+        href: /windows/desktop/api/Wingdi/nf-wingdi-updateicmregkeya
+    - name: "Enumerations"
+      href: enumerations.md
+      items: 
+      - name: "BMFORMAT"
+        href: bmformat.md
+      - name: "COLORDATATYPE"
+        href: colordatatype.md
+      - name: "COLORPROFILESUBTYPE"
+        href: colorprofilesubtype.md
+      - name: "COLORPROFILETYPE"
+        href: colorprofiletype.md
+      - name: "COLORTYPE"
+        href: colortype.md
+      - name: "WCS_PROFILE_MANAGEMENT_SCOPE"
+        href: wcs-profile-management-scope.md
+    - name: "Interfaces"
+      href: interfaces.md
+      items: 
+      - name: "IDeviceModelPlugIn"
+        href: /previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin
+        items: 
+        - name: "ColorimetricToDeviceColors"
+          href: /previous-versions/windows/desktop/api/WcsPlugIn/nf-wcsplugin-idevicemodelplugin-colorimetrictodevicecolors
+        - name: "ColorimetricToDeviceColorsWithBlack"
+          href: /previous-versions/windows/desktop/api/WcsPlugIn/nf-wcsplugin-idevicemodelplugin-colorimetrictodevicecolorswithblack
+        - name: "DeviceToColorimetricColors"
+          href: /previous-versions/windows/desktop/api/WcsPlugIn/
+        - name: "GetGamutBoundaryMesh"
+          href: /previous-versions/windows/desktop/api/WcsPlugIn/nf-wcsplugin-idevicemodelplugin-getgamutboundarymesh
+        - name: "GetGamutBoundaryMeshSize"
+          href: /previous-versions/windows/desktop/api/WcsPlugIn/nf-wcsplugin-idevicemodelplugin-getgamutboundarymeshsize
+        - name: "GetNeutralAxis"
+          href: /previous-versions/windows/desktop/api/WcsPlugIn/nf-wcsplugin-idevicemodelplugin-getneutralaxis
+        - name: "GetNeutralAxisSize"
+          href: /previous-versions/windows/desktop/api/WcsPlugIn/nf-wcsplugin-idevicemodelplugin-getneutralaxissize
+        - name: "GetNumChannels"
+          href: /previous-versions/windows/desktop/api/WcsPlugIn/nf-wcsplugin-idevicemodelplugin-getnumchannels
+        - name: "GetPrimarySamples"
+          href: /previous-versions/windows/desktop/api/WcsPlugIn/nf-wcsplugin-idevicemodelplugin-getprimarysamples
+        - name: "Initialize"
+          href: /previous-versions/windows/desktop/api/WcsPlugIn/nf-wcsplugin-idevicemodelplugin-initialize
+        - name: "SetTransformDeviceModelInfo"
+          href: /previous-versions/windows/desktop/api/WcsPlugIn/nf-wcsplugin-idevicemodelplugin-settransformdevicemodelinfo
+      - name: "IGamutMapModelPlugIn"
+        href: /previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-igamutmapmodelplugin
+        items: 
+        - name: "Initialize"
+          href: /previous-versions/windows/desktop/api/WcsPlugIn/nf-wcsplugin-igamutmapmodelplugin-initialize
+        - name: "SourceToDestinationAppearanceColors"
+          href: /previous-versions/windows/desktop/api/WcsPlugIn/nf-wcsplugin-igamutmapmodelplugin-sourcetodestinationappearancecolors
+    - name: "Structures"
+      href: structures.md
+      items: 
+      - name: "BlackInformation"
+        href: /previous-versions/windows/desktop/api/WcsPlugIn/ns-wcsplugin-_blackinformation
+      - name: "CIEXYZ"
+        href: /windows/desktop/api/Wingdi/ns-wingdi-tagciexyz
+      - name: "CIEXYZTRIPLE"
+        href: /windows/desktop/api/Wingdi/ns-wingdi-tagicexyztriple
+      - name: "CMYKCOLOR"
+        href: cmykcolor.md
+      - name: "COLOR"
+        href: color.md
+      - name: "COLORMATCHSETUP"
+        href: colormatchsetup.md
+      - name: "ENUMTYPE"
+        href: enumtype.md
+      - name: "GamutBoundaryDescription"
+        href: /previous-versions/windows/desktop/api/WcsPlugIn/ns-wcsplugin-_gamutboundarydescription
+      - name: "GamutShell"
+        href: /previous-versions/windows/desktop/api/WcsPlugIn/ns-wcsplugin-_gamutshell
+      - name: "GamutShellTriangle"
+        href: /previous-versions/windows/desktop/api/WcsPlugIn/ns-wcsplugin-_gamutshelltriangle
+      - name: "GENERIC3CHANNEL"
+        href: generic3channel.md
+      - name: "GRAYCOLOR"
+        href: graycolor.md
+      - name: "HiFiCOLOR"
+        href: hificolor.md
+      - name: "JabColorF"
+        href: /previous-versions/windows/desktop/api/wcsplugin/ns-wcsplugin-_jabcolorf
+      - name: "JChColorF"
+        href: /previous-versions/windows/desktop/api/wcsplugin/ns-wcsplugin-_jchcolorf
+      - name: "L*a*bCOLOR"
+        href: l-a-bcolor.md
+      - name: "LOGCOLORSPACE"
+        href: /windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea
+      - name: "NAMEDCOLOR"
+        href: namedcolor.md
+      - name: "NAMED_PROFILE_INFO"
+        href: named-profile-info.md
+      - name: "PrimaryJabColors"
+        href: /previous-versions/windows/desktop/api/WcsPlugIn/ns-wcsplugin-_primaryjabcolors
+      - name: "PrimaryXYZColors"
+        href: /previous-versions/windows/desktop/api/WcsPlugIn/ns-wcsplugin-_primaryxyzcolors
+      - name: "PROFILE"
+        href: profile.md
+      - name: "PROFILEHEADER"
+        href: profileheader.md
+      - name: "RGBCOLOR"
+        href: rgbcolor.md
+      - name: "XYZCOLOR"
+        href: xyzcolor.md
+      - name: "XYZColorF"
+        href: /previous-versions/windows/desktop/api/wcsplugin/ns-wcsplugin-_xyzcolorf
+      - name: "YxyCOLOR"
+        href: yxycolor.md
+    - name: "Macros for CMYK Values and Colors"
+      href: macros-for-cmyk-values-and-colors.md
+      items: 
+      - name: "CMYK"
+        href: /windows/desktop/api/Wingdi/nf-wingdi-cmyk
+      - name: "GetCValue"
+        href: /windows/desktop/api/Wingdi/nf-wingdi-getcvalue
+      - name: "GetKValue"
+        href: /windows/desktop/api/Wingdi/nf-wingdi-getkvalue
+      - name: "GetMValue"
+        href: /windows/desktop/api/Wingdi/nf-wingdi-getmvalue
+      - name: "GetYValue"
+        href: /windows/desktop/api/Wingdi/nf-wingdi-getyvalue
+    - name: "WCS Constants"
+      href: wcs-constants.md
+      items: 
+      - name: "Color Space Constants"
+        href: color-space-constants.md
+      - name: "CMM Transform Creation Flags"
+        href: cmm-transform-creation-flags.md
+      - name: "Color Space Type Identifiers"
+        href: color-space-type-identifiers.md
+      - name: "Common Color Messages"
+        href: common-color-messages.md
+      - name: "Error Codes Specific To WCSCM"
+        href: error-codes-specific-to-wcs.md
+    - name: "WCS Registry Keys"
+      href: wcs-registry-keys.md
+  - name: "WCS 1.0 Glossary"
+    href: wcs-1-0-glossary.md
+    items: 
+    - name: "A"
+      href: a.md
+    - name: "B"
+      href: b.md
+    - name: "C"
+      href: c.md
+    - name: "D"
+      href: d.md
+    - name: "G"
+      href: g.md
+    - name: "H"
+      href: h.md
+    - name: "L"
+      href: l.md
+    - name: "P"
+      href: p.md
+    - name: "R"
+      href: r.md
+    - name: "S"
+      href: s.md
+    - name: "T"
+      href: t.md
+    - name: "W"
+      href: w.md
