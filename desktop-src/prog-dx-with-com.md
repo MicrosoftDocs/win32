@@ -227,7 +227,7 @@ An object's reference count is the number of times one of its interfaces has bee
 Properly handling reference counting is a crucial part of COM programming. Failure to do so can easily create a memory leak or a crash. One of the most common mistakes that COM programmers make is failing to release an interface. When this happens, the reference count never reaches zero, and the object remains in memory indefinitely.
 
 > [!NOTE]
-> Direct3D 10 or later has slightly modified lifetime rules for objects. In particular, objects that are derived from **ID3DxxDeviceChild** never outlive their parent device (i.e. if the owning **ID3DxxDevice** hits a 0 refcount, all child objects are immediately invalid as well). Also, when you use ``Set`` methods to bind objects to the render pipeline, these references do not increase the reference count (i.e. they are weak references). In practice, this is best handled by ensuring you release all device child objects fully before you release the device.
+> Direct3D 10 or later has slightly modified lifetime rules for objects. In particular, objects that are derived from **ID3DxxDeviceChild** never outlive their parent device (that is, if the owning **ID3DxxDevice** hits a 0 refcount, then all child objects are immediately invalid as well). Also, when you use **Set** methods to bind objects to the render pipeline, these references don't increase the reference count (that is, they are weak references). In practice, this is best handled by ensuring that you release all device child objects fully before you release the device.
 
 ## Incrementing and decrementing the reference count
 
