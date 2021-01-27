@@ -712,7 +712,22 @@
           "DNS/microsoftdns-zone-forcerefresh.md",
           "DNS/microsoftdns-zone.md"
           ]
-      }
+      },
+     "sensitive-language-sl": {
+       "exclude": [
+         "DNS/dns-wmi-provider-samples-managing-a-dns-server.md",
+         "DNS/microsoftdns-zone.md",
+         "HyperV_v2/msvm-fcswitchport.md",
+         "HyperV_v2/msvm-externalfcport.md",
+         "HyperV_v2/msvm-syntheticfcport.md",
+         "Multimedia/mci-status.md",
+         "Multimedia/set.md",
+         "Multimedia/changing-sequencer-synchronization.md",
+         "Multimedia/mci-set.md",
+         "Multimedia/status.md",
+         "HyperV_v2/cim-fcport.md"
+         ]
+     }
     }
   }
 }
