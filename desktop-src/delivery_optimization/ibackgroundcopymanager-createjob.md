@@ -65,7 +65,7 @@ Uniquely identifies your job in the queue. Use this identifier when you call the
 *ppJob* \[out\]
 </dt> <dd>
 
-An [**IBackgroundCopyJob**](https://www.bing.com/search?q=**IBackgroundCopyJob**) interface pointer that you use to modify the job's properties and specify the files to be transferred. To activate the job in the queue, call the [**IBackgroundCopyJob::Resume**](ibackgroundcopyjob-resume.md) method. Release *ppJob* when done.
+An [**IBackgroundCopyJob**](ibackgroundcopyjob-.md) interface pointer that you use to modify the job's properties and specify the files to be transferred. To activate the job in the queue, call the [**IBackgroundCopyJob::Resume**](ibackgroundcopyjob-resume.md) method. Release *ppJob* when done.
 
 </dd> </dl>
 
@@ -115,12 +115,3 @@ Only the user who creates the job or a user with administrator privileges can [a
 
 [**IBackgroundCopyJob::Resume**](ibackgroundcopyjob-resume.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-
-
