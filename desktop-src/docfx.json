@@ -705,6 +705,14 @@
     },
     "template": [],
     "dest": "desktop",
-    "markdownEngineName": "markdig"
+    "markdownEngineName": "markdig",
+    "rules": {
+      "sensitive-language-ma": {
+        "exclude": [
+          "DNS/microsoftdns-zone-forcerefresh.md",
+          "DNS/microsoftdns-zone.md"
+          ]
+      }
+    }
   }
 }
