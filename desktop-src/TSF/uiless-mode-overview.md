@@ -45,11 +45,11 @@ The TIP that supports the UIElement must be categorized by GUID\_TFCAT\_TIPCAP\_
 
 ## The flow chart of UILessMode
 
-![uilessmode flow chart](images/tsf-uilessmode-ovw1.gif)
+![Diagram that shows the U I LessMode flow chart.](images/tsf-uilessmode-ovw1.gif)
 
 After the TIP receives **TRUE** in \*pbShown by [**ITfUIElementMgr::BeginUIElement**](/windows/desktop/api/Msctf/nf-msctf-itfuielementmgr-beginuielement), the TIP does not have to call UpdateUIElement for the UIElement. But TIP needs to call EndUIElement() so the [**ITfUIElementMgr**](/windows/desktop/api/Msctf/nn-msctf-itfuielementmgr) and the application can track the status of UIElement. TIP must calls UpdateUIElement() after BeginUIElement() returns **FALSE** in \*pbShow. The application that wants to draw the UI does not check the contents in BeginUIElement(), it just returns the show status at BeginUIElement() and starts checking the contents at UpdateUIElement(). For example, the update flag of the candidate list UIElement has all bits at the first UpdateUIElement(). This means that the contents of UIElement does not have to be ready at BeginUIElement().
 
-![uilessmode flow chart](images/tsf-uilessmode-ovw2.gif)![uilessmode flow chart](images/tsf-uilessmode-ovw3.gif)![uilessmode flow chart](images/tsf-uilessmode-ovw4.gif)
+![Diagram that shows when the T I P calls 'ITUIElementMgr::BeginUIElement()' and 'BeginUIElement of Application's UIElementSink' is called.](images/tsf-uilessmode-ovw2.gif)![Diagram that shows the application returns FALSE in *pbShow.](images/tsf-uilessmode-ovw3.gif)![uilessmode flow chart](images/tsf-uilessmode-ovw4.gif)
 
 ## The candidate list UIElement
 

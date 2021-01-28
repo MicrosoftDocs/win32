@@ -211,7 +211,7 @@ Installers of Windows desktop apps require administrative privileges since they 
 
 In such cases, PCA detects that the installer failed to write its files. At the end if the failed install, PCA will provide a recommendation to apply compatibility settings. If the user chooses to click ‘Run Program,’ PCA will apply the RUNASADMIN compatibility mode, and re-run the installer. If the user chooses to close, then no setting will be applied. An example PCA dialog is shown below:
 
-![app installers that need to run with administrative privilege dialog](images/pcafigure15.png)
+![Screenshot that shows an example of a dialog for an app installer that needs to run with administrative privileges.](images/pcafigure15.png)
 
 Legacy Control Panel applets that need to run with administrative privilege Control panel applets generally change system settings and need the ability to run ad administrator. However, those written before Windows Vista either do not have an EXE manifest or do not have the TRUSTINFO section that declares the privilege level they require. When such applets are run, PCA detects them, and at the end of the first run, provides a recommendation to run with administrative settings. If the user chooses to click ‘Run Program,’ PCA applies the RUNASADMIN compatibility mode, and re-runs the installer. If the user chooses to close, then no settings will be applied. An example PCA dialog is shown below:
 
