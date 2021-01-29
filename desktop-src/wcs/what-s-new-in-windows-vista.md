@@ -43,25 +43,25 @@ Header
 
 Library
 
-[**COLORDATATYPE**](colordatatype.md)
+[**COLORDATATYPE**](/windows/win32/api/icm/ne-icm-colordatatype)
 
 icm.h
 
 mscms.lib
 
-[**COLORPROFILESUBTYPE**](colorprofilesubtype.md)
+[**COLORPROFILESUBTYPE**](/windows/win32/api/icm/ne-icm-colorprofilesubtype)
 
 icm.h
 
 mscms.lib
 
-[**COLORPROFILETYPE**](colorprofiletype.md)
+[**COLORPROFILETYPE**](/windows/win32/api/icm/ne-icm-colorprofiletype)
 
 icm.h
 
 mscms.lib
 
-[**WCS\_PROFILE\_MANAGEMENT\_SCOPE**](wcs-profile-management-scope.md)
+[**WCS\_PROFILE\_MANAGEMENT\_SCOPE**](/windows/win32/api/icm/ne-icm-wcs_profile_management_scope)
 
 icm.h
 

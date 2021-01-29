@@ -138,7 +138,7 @@ An HPROFILE with WCS profile information is derived from a DMP by acquiring the 
 
 Once the handle to the color profile is created, any information used to create that handle can be deleted.
 
-Use the [**CloseColorProfile**](closecolorprofile.md) function to close an object handle returned by **OpenColorProfile**.
+Use the [**CloseColorProfile**](/windows/win32/api/icm/nf-icm-closecolorprofile) function to close an object handle returned by **OpenColorProfile**.
 
 ## Requirements
 
@@ -165,7 +165,7 @@ Use the [**CloseColorProfile**](closecolorprofile.md) function to close an objec
 [Functions](functions.md)
 </dt> <dt>
 
-[**CloseColorProfile**](closecolorprofile.md)
+[**CloseColorProfile**](/windows/win32/api/icm/nf-icm-closecolorprofile)
 </dt> <dt>
 
 [**PROFILE**](profile.md)

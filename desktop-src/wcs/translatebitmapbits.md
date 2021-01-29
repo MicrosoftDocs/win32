@@ -66,10 +66,10 @@ Pointer to the bitmap to translate.
 *bmInput* 
 </dt> <dd>
 
-Specifies the format of the input bitmap. Must be set to one of the values of the [**BMFORMAT**](bmformat.md) enumerated type.
+Specifies the format of the input bitmap. Must be set to one of the values of the [**BMFORMAT**](/windows/win32/api/icm/ne-icm-bmformat) enumerated type.
 
 > [!Note]  
-> This function does not support [**BM\_XYZTRIPLETS**](bmformat.md) or **BM\_YxyTRIPLETS** as inputs.
+> This function does not support [**BM\_XYZTRIPLETS**](/windows/win32/api/icm/ne-icm-bmformat) or **BM\_YxyTRIPLETS** as inputs.
 
  
 
@@ -106,7 +106,7 @@ Pointer to the buffer in which to place the translated bitmap.
 *bmOutput* 
 </dt> <dd>
 
-Specifies the format of the output bitmap. Must be set to one of the values of the [**BMFORMAT**](bmformat.md) enumerated type.
+Specifies the format of the output bitmap. Must be set to one of the values of the [**BMFORMAT**](/windows/win32/api/icm/ne-icm-bmformat) enumerated type.
 
 </dd> <dt>
 
@@ -173,7 +173,7 @@ When either of the floating point BMFORMATs, BM\_32b\_scARGB or BM\_32b\_scRGB a
 [Windows Bitmap Header Structures](using-structures-in-wcs-1-0.md)
 </dt> <dt>
 
-[**BMFORMAT**](bmformat.md)
+[**BMFORMAT**](/windows/win32/api/icm/ne-icm-bmformat)
 </dt> </dl>
 
  

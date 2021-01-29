@@ -44,7 +44,7 @@ BOOL WINAPI WcsEnumColorProfilesSize(
 *profileManagementScope* \[in\]
 </dt> <dd>
 
-A [**WCS\_PROFILE\_MANAGEMENT\_SCOPE**](wcs-profile-management-scope.md) value that specifies the scope of the profile management operation that is performed by this function.
+A [**WCS\_PROFILE\_MANAGEMENT\_SCOPE**](/windows/win32/api/icm/ne-icm-wcs_profile_management_scope) value that specifies the scope of the profile management operation that is performed by this function.
 
 </dd> <dt>
 
@@ -102,7 +102,7 @@ This function is executable in Least-Privileged User Account (LUA) context.
 [**WcsEnumColorProfiles**](wcsenumcolorprofiles.md)
 </dt> <dt>
 
-[**WCS\_PROFILE\_MANAGEMENT\_SCOPE**](wcs-profile-management-scope.md)
+[**WCS\_PROFILE\_MANAGEMENT\_SCOPE**](/windows/win32/api/icm/ne-icm-wcs_profile_management_scope)
 </dt> </dl>
 
  

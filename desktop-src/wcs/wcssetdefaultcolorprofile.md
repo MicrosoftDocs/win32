@@ -47,7 +47,7 @@ BOOL WINAPI WcsSetDefaultColorProfile(
 *profileManagementScope* \[in\]
 </dt> <dd>
 
-A [**WCS\_PROFILE\_MANAGEMENT\_SCOPE**](wcs-profile-management-scope.md) value that specifies the scope of this profile management operation.
+A [**WCS\_PROFILE\_MANAGEMENT\_SCOPE**](/windows/win32/api/icm/ne-icm-wcs_profile_management_scope) value that specifies the scope of this profile management operation.
 
 </dd> <dt>
 
@@ -61,14 +61,14 @@ A pointer to the name of the device for which the default color profile is to be
 *cptColorProfileType* \[in\]
 </dt> <dd>
 
-A [**COLORPROFILETYPE**](colorprofiletype.md) value that specifies the color profile type.
+A [**COLORPROFILETYPE**](/windows/win32/api/icm/ne-icm-colorprofiletype) value that specifies the color profile type.
 
 </dd> <dt>
 
 *cpstColorProfileSubType* \[in\]
 </dt> <dd>
 
-A [**COLORPROFILESUBTYPE**](colorprofilesubtype.md) value that specifies the color profile subtype.
+A [**COLORPROFILESUBTYPE**](/windows/win32/api/icm/ne-icm-colorprofilesubtype) value that specifies the color profile subtype.
 
 </dd> <dt>
 
@@ -131,13 +131,13 @@ See notes on valid profile type/subtype combinations.
 [Functions](functions.md)
 </dt> <dt>
 
-[**COLORPROFILESUBTYPE**](colorprofilesubtype.md)
+[**COLORPROFILESUBTYPE**](/windows/win32/api/icm/ne-icm-colorprofilesubtype)
 </dt> <dt>
 
-[**COLORPROFILETYPE**](colorprofiletype.md)
+[**COLORPROFILETYPE**](/windows/win32/api/icm/ne-icm-colorprofiletype)
 </dt> <dt>
 
-[**WCS\_PROFILE\_MANAGEMENT\_SCOPE**](wcs-profile-management-scope.md)
+[**WCS\_PROFILE\_MANAGEMENT\_SCOPE**](/windows/win32/api/icm/ne-icm-wcs_profile_management_scope)
 </dt> <dt>
 
 [**WcsGetDefaultColorProfileSize**](wcsgetdefaultcolorprofilesize.md)

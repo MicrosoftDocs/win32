@@ -44,7 +44,7 @@ BOOL WINAPI WcsDisassociateColorProfileFromDevice(
 *profileManagementScope* \[in\]
 </dt> <dd>
 
-A [**WCS\_PROFILE\_MANAGEMENT\_SCOPE**](wcs-profile-management-scope.md) value that specifies the scope of this profile management operation, which could be system-wide or for the current user.
+A [**WCS\_PROFILE\_MANAGEMENT\_SCOPE**](/windows/win32/api/icm/ne-icm-wcs_profile_management_scope) value that specifies the scope of this profile management operation, which could be system-wide or for the current user.
 
 </dd> <dt>
 

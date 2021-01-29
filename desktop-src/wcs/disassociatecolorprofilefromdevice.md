@@ -103,7 +103,7 @@ If your application disassociates all profiles from a device, WCS uses the sRGB 
 [Functions](functions.md)
 </dt> <dt>
 
-[**AssociateColorProfileWithDevice**](associatecolorprofilewithdevice.md)
+[**AssociateColorProfileWithDeviceW**](/windows/win32/api/icm/nf-icm-associatecolorprofilewithdevicew)
 </dt> </dl>
 
  

@@ -72,7 +72,7 @@ The number of channels per element in the array to which *pInputData* points.
 *cdtInput* \[in\]
 </dt> <dd>
 
-The input [**COLORDATATYPE**](colordatatype.md) color data type.
+The input [**COLORDATATYPE**](/windows/win32/api/icm/ne-icm-colordatatype) color data type.
 
 </dd> <dt>
 
@@ -100,7 +100,7 @@ The number of channels per element in the array to which *pOutputData* points.
 *cdtOutput* \[in\]
 </dt> <dd>
 
-The [**COLORDATATYPE**](colordatatype.md) output that specified the color data type.
+The [**COLORDATATYPE**](/windows/win32/api/icm/ne-icm-colordatatype) output that specified the color data type.
 
 </dd> <dt>
 

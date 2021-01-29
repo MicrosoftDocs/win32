@@ -95,7 +95,7 @@ This member can be set using a combination of the following flags.
 | CMS\_MONITOROVERFLOW   | This flag is set on exit if color management is to be enabled and the buffer size given in **ccMonitorProfile** is insufficient for the selected profile name. **GetLastError** returns ERROR\_INSUFFICIENT\_BUFFER in such a case.                                                                                                                                                       |
 | CMS\_PRINTERROVERFLOW  | This flag is set on exit if color management is to be enabled and the buffer size given in **ccPrinterProfile** is insufficient for the selected profile name. **GetLastError** returns ERROR\_INSUFFICIENT\_BUFFER in such a case.                                                                                                                                                       |
 | CMS\_TARGETOVERFLOW    | This flag is set on exit if proofing is to be enabled and the buffer size given in **ccTargetProfile** is insufficient for the selected profile name. **GetLastError** returns ERROR\_INSUFFICIENT\_BUFFER in such a case.                                                                                                                                                                |
-| CMS\_USEAPPLYCALLBACK  | If set on entry, this flag indicates that the **SetupColorMatching** function should call the function [*ApplyCallbackFunction*](apply.md). The address of the callback function is contained in *lpfnApplyCallback*.                                                                                                                                                                    |
+| CMS\_USEAPPLYCALLBACK  | If set on entry, this flag indicates that the **SetupColorMatching** function should call the function [**PCMSCALLBACKW**](/windows/win32/api/icm/nc-icm-pcmscallbackw). The address of the callback function is contained in *lpfnApplyCallback*.                                                                                                                                                                    |
 | CMS\_USEDESCRIPTION    | If set on entry, this flag instructs the **SetupColorMatching** function to retrieve the profile description contained in the profile description tags (See ICC Profile Format Specification v3.4). It will insert them into the **Monitor Profile**, **Printer Profile**, **Emulated Device Profile** edit boxes in the **Color Management** common dialog box.                          |
 
 
@@ -239,7 +239,7 @@ If the CMS\_USEHOOK flag is set, this member is passed to the application-provid
 **lpfnApplyCallback**
 </dt> <dd>
 
-Contains a pointer to a callback function that is invoked when the **Apply** button of the Color Management dialog box is selected. If no callback function is provided, this member should be set to **NULL**. See [*ApplyCallbackFunction*](apply.md).
+Contains a pointer to a callback function that is invoked when the **Apply** button of the Color Management dialog box is selected. If no callback function is provided, this member should be set to **NULL**. See [**PCMSCALLBACKW**](/windows/win32/api/icm/nc-icm-pcmscallbackw).
 
 </dd> <dt>
 

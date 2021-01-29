@@ -167,7 +167,7 @@ Within the WCS path, the *dwCreationMode* flag OPEN\_ALWAYS will fail if the pro
 
 Once the handle to the color profile is created, any information used to create that handle can be deleted.
 
-Use the [**CloseColorProfile**](closecolorprofile.md) function to close an object handle that is returned by **WcsOpenColorProfile**.
+Use the [**CloseColorProfile**](/windows/win32/api/icm/nf-icm-closecolorprofile) function to close an object handle that is returned by **WcsOpenColorProfile**.
 
 ## Requirements
 
