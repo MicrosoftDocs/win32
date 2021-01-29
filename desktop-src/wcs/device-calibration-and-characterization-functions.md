@@ -40,10 +40,10 @@ The following functions are useful for writing device calibration and characteri
 
 
 
-| Function                                                                     | Description                                                                       |
-|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| Function | Description |
+|-|-|
 | [**CloseColorProfile**](/windows/win32/api/icm/nf-icm-closecolorprofile) | Closes an open profile handle. |
-| [**CreateDeviceLinkProfile**](createdevicelinkprofile.md)                   | Creates an ICC device-link profile.                                               |
+| [**CreateDeviceLinkProfile**](/windows/win32/api/icm/nf-icm-createdevicelinkprofile) | Creates an International Color Consortium (ICC) *device link profile* from a set of color profiles, using the specified intents. |
 | [**GetColorProfileElement**](getcolorprofileelement.md)                     | Retrieves data from a given profile element.                                      |
 | [**GetColorProfileElementTag**](getcolorprofileelementtag.md)               | Retrieves the tag name from a profile element.                                    |
 | [**GetColorProfileFromHandle**](getcolorprofilefromhandle.md)               | Retrieves the color profile contents given a handle to an open color profile.     |

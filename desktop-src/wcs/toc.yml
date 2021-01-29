@@ -126,39 +126,39 @@
         - name: "CMCreateMultiProfileTransform"
           href: /windows/win32/api/icm/nf-icm-cmcreatemultiprofiletransform
         - name: "CMCreateProfile"
-          href: /windows/win32/api/wingdi/
+          href: /windows/win32/api/icm/nf-icm-cmcreateprofile
         - name: "CMCreateProfileW"
-          href: /windows/win32/api/wingdi/
+          href: /windows/win32/api/icm/nf-icm-cmcreateprofilew
         - name: "CMCreateTransform"
-          href: cmcreatetransform.md
+          href: /windows/win32/api/icm/nf-icm-cmcreatetransform
         - name: "CMCreateTransformExt"
-          href: /windows/win32/api/wingdi/
+          href: /windows/win32/api/icm/nf-icm-cmcreatetransformext
         - name: "CMCreateTransformExtW"
-          href: /windows/win32/api/wingdi/
+          href: /windows/win32/api/icm/nf-icm-cmcreatetransformextw
         - name: "CMCreateTransformW"
-          href: cmcreatetransformw.md
+          href: /windows/win32/api/icm/nf-icm-cmcreatetransformw
         - name: "CMDeleteTransform"
-          href: /windows/win32/api/wingdi/
+          href: /windows/win32/api/icm/nf-icm-cmdeletetransform
         - name: "CMGetInfo"
-          href: /windows/win32/api/wingdi/
+          href: /windows/win32/api/icm/nf-icm-cmgetinfo
         - name: "CMGetNamedProfileInfo"
-          href: /windows/win32/api/wingdi/
+          href: /windows/win32/api/icm/nf-icm-cmgetnamedprofileinfo
         - name: "CMGetPS2ColorRenderingDictionary"
           href: /windows/win32/api/wingdi/
         - name: "CMGetPS2ColorRenderingIntent"
-          href: /windows/win32/api/wingdi/
+          href: /windows/win32/api/icm/nf-icm-cmgetps2colorrenderingintent
         - name: "CMGetPS2ColorSpaceArray"
           href: /windows/win32/api/wingdi/
         - name: "CMIsProfileValid"
-          href: /windows/win32/api/wingdi/
+          href: /windows/win32/api/icm/nf-icm-cmisprofilevalid
         - name: "CMTranslateColors"
-          href: /windows/win32/api/wingdi/
+          href: /windows/win32/api/icm/nf-icm-cmtranslatecolors
         - name: "CMTranslateRGB"
-          href: /windows/win32/api/wingdi/
+          href: /windows/win32/api/icm/nf-icm-cmtranslatergb
         - name: "CMTranslateRGBs"
-          href: /windows/win32/api/wingdi/
+          href: /windows/win32/api/icm/nf-icm-cmtranslatergbs
         - name: "CMTranslateRGBsExt"
-          href: /windows/win32/api/wingdi/
+          href: /windows/win32/api/icm/nf-icm-cmtranslatergbsext
         - name: "ColorCorrectPalette"
           href: /windows/win32/api/wingdi/nf-wingdi-colorcorrectpalette
         - name: "ColorMatchToTarget"

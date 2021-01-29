@@ -79,7 +79,7 @@ If this function fails, the return value is **FALSE**. For extended error inform
 [**The COLOR Structure**](color.md)
 </dt> <dt>
 
-[**CreateMultiProfileTransform**](createmultiprofiletransform.md)
+[**CreateMultiProfileTransform**](/windows/win32/api/icm/nf-icm-createmultiprofiletransform)
 </dt> </dl>
 
  

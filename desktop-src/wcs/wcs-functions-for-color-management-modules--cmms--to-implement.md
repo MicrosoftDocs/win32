@@ -41,23 +41,23 @@ The following functions are to be implemented by color management modules (CMMs)
 | [**CMConvertIndexToColorName**](/windows/win32/api/icm/nf-icm-cmconvertindextocolorname) | Transforms indices in a color space to an array of names in a named color space. |
 | [**CMCreateDeviceLinkProfile**](/windows/win32/api/icm/nf-icm-cmcreatedevicelinkprofile) | Creates a [device link profile](/windows/win32/wcs/d) in the format specified by the International Color Consortium in its ICC Profile Format Specification. |
 | [**CMCreateMultiProfileTransform**](/windows/win32/api/icm/nf-icm-cmcreatemultiprofiletransform) | Accepts an array of profiles or a single [device link profile](/windows/win32/wcs/d) and creates a color transform. This transform is a mapping from the color space specified by the first profile to that of the second profile and so on to the last one. |
-| [**CMCreateProfile**](/windows/desktop/api/Wingdi/)                                   | Creates an ICC profile from a [**LOGCOLORSPACE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea) structure (ANSI).    |
-| [**CMCreateProfileW**](/windows/desktop/api/Wingdi/)                                 | Creates an ICC profile from a [**LOGCOLORSPACE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea) structure (Unicode). |
-| [CMCreateTransform](cmcreatetransform.md)                                   | Creates a color transform (ANSI).                                                         |
-| [**CMCreateTransformExt**](/windows/desktop/api/Wingdi/)                         | Creates an extended color transform (ANSI).                                               |
-| [**CMCreateTransformExtW**](/windows/desktop/api/Wingdi/)                       | Creates an extended color transform (Unicode).                                            |
-| [CMCreateTransformW](cmcreatetransformw.md)                                 | Creates a color transform (Unicode).                                                      |
-| [**CMDeleteTransform**](/windows/desktop/api/Wingdi/)                               | Deletes a color transform.                                                                |
-| [**CMGetInfo**](/windows/desktop/api/Wingdi/)                                               | Returns information about a given CMM.                                                    |
-| [**CMGetNamedProfileInfo**](/windows/desktop/api/Wingdi/)                       | Retrieves information about a named color profile.                                        |
+| [**CMCreateProfile**](/windows/win32/api/icm/nf-icm-cmcreateprofile) | Creates a display color profile from a [**LOGCOLORSPACEA**](/windows/win32/api/wingdi/ns-wingdi-logcolorspacea) structure. |
+| [**CMCreateProfileW**](/windows/win32/api/icm/nf-icm-cmcreateprofilew) | Creates a display color profile from a [**LOGCOLORSPACEW**](/windows/win32/api/wingdi/ns-wingdi-logcolorspacew) structure. |
+| [**CMCreateTransform**](/windows/win32/api/icm/nf-icm-cmcreatetransform) | Deprecated. There is no replacement API because this one was no longer being used. Developers of alternate CMM modules are not required to implement it. |
+| [**CMCreateTransformExt**](/windows/win32/api/icm/nf-icm-cmcreatetransformext) | Creates a color transform that maps from an input [**LOGCOLORSPACEA**](/windows/win32/api/wingdi/ns-wingdi-logcolorspacea) to an optional target space and then to an output device, using a set of flags that define how the transform should be created. |
+| [**CMCreateTransformExtW**](/windows/win32/api/icm/nf-icm-cmcreatetransformextw) | Creates a color transform that maps from an input [**LOGCOLORSPACEW**](/windows/win32/api/wingdi/ns-wingdi-logcolorspacew) to an optional target space and then to an output device, using a set of flags that define how the transform should be created. |
+| [**CMCreateTransformW**](/windows/win32/api/icm/nf-icm-cmcreatetransformw) | Deprecated. There is no replacement API because this one was no longer being used. Developers of alternate CMM modules are not required to implement it. |
+| [**CMDeleteTransform**](/windows/win32/api/icm/nf-icm-cmdeletetransform) | Deletes a specified color transform, and frees any memory associated with it. |
+| [**CMGetInfo**](/windows/win32/api/icm/nf-icm-cmgetinfo) | Retrieves various information about the color management module (CMM). |
+| [**CMGetNamedProfileInfo**](/windows/win32/api/icm/nf-icm-cmgetnamedprofileinfo) | Retrieves information about the specified named color profile. |
 | [**CMGetPS2ColorRenderingDictionary**](/windows/desktop/api/Wingdi/) | Gets a PostScript color rendering dictionary.                                             |
-| [**CMGetPS2ColorRenderingIntent**](/windows/desktop/api/Wingdi/)         | Gets a PostScript color rendering intent.                                                 |
+| [**CMGetPS2ColorRenderingIntent**](/windows/win32/api/icm/nf-icm-cmgetps2colorrenderingintent) | Retrieves the PostScript Level 2 color [rendering intent](ms536500\(v=vs.85\).md) from a profile. |
 | [**CMGetPS2ColorSpaceArray**](/windows/desktop/api/Wingdi/)                   | Gets a PostScript color space array.                                                      |
-| [**CMIsProfileValid**](/windows/desktop/api/Wingdi/)                                 | Checks that a profile is a valid ICC profile.                                             |
-| [**CMTranslateColors**](/windows/desktop/api/Wingdi/)                               | Translates colors using a color transform.                                                |
-| [**CMTranslateRGB**](/windows/desktop/api/Wingdi/)                                     | Translates an RGB color using a color transform.                                          |
-| [**CMTranslateRGBs**](/windows/desktop/api/Wingdi/)                                   | Translates bitmap colors using a color transform.                                         |
-| [**CMTranslateRGBsExt**](/windows/desktop/api/Wingdi/)                             | Translates bitmap colors with callback progress reporting.                                |
+| [**CMIsProfileValid**](/windows/win32/api/icm/nf-icm-cmisprofilevalid) | Reports whether the given profile is a valid ICC profile that can be used for color management. |
+| [**CMTranslateColors**](/windows/win32/api/icm/nf-icm-cmtranslatecolors) | Translates an array of colors from a source [color space](ms536506\(v=vs.85\).md) to a destination color space using a color transform. |
+| [**CMTranslateRGB**](/windows/win32/api/icm/nf-icm-cmtranslatergb) | Translates an application-supplied RGBQuad into the device [color space](https://msdn.microsoft.com/en-us/library/dd371818\(v=vs.85\)). |
+| [**CMTranslateRGBs**](/windows/win32/api/icm/nf-icm-cmtranslatergbs) | Translates a bitmap from one [color space](https://msdn.microsoft.com/en-us/library/dd371818\(v=vs.85\)) to another using a color transform. |
+| [**CMTranslateRGBsExt**](/windows/win32/api/icm/nf-icm-cmtranslatergbsext) | Translates a bitmap from one defined format into a different defined format and calls a callback function periodically, if one is specified, to report progress and permit the calling application to terminate the translation. |
 
 
 
