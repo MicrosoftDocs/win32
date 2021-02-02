@@ -26,7 +26,7 @@ Color Management Modules (CMMs) are modules of WCS code that use the information
 
  
 
-When CMMs are installed, the installation program registers them in the Windows registry. Applications can enumerate the registered CMMs and select one using the [**SelectCMM**](selectcmm.md) function. The following sample application demonstrates how to enumerate all registered CMMs.
+When CMMs are installed, the installation program registers them in the Windows registry. Applications can enumerate the registered CMMs and select one using the [**SelectCMM**](/windows/win32/api/icm/nf-icm-selectcmm) function. The following sample application demonstrates how to enumerate all registered CMMs.
 
 
 ```C++

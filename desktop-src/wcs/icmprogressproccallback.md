@@ -86,7 +86,7 @@ The name of this callback function is supplied by the application. A number of W
 
 <dl> <dt>
 
-[Basic Color Management Concepts](basic-color-management-concepts.md)
+[Basic color management concepts](basic-color-management-concepts.md)
 </dt> <dt>
 
 [Functions](functions.md)

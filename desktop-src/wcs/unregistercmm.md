@@ -85,7 +85,7 @@ If the profile for creating a transform later specifies this ID, the Windows def
 
 <dl> <dt>
 
-[Basic Color Management Concepts](basic-color-management-concepts.md)
+[Basic color management concepts](basic-color-management-concepts.md)
 </dt> <dt>
 
 [Functions](functions.md)

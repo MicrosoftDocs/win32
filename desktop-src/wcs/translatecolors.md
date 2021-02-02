@@ -114,7 +114,7 @@ If the input and the output color types are not compatible with the color transf
 
 <dl> <dt>
 
-[Basic Color Management Concepts](basic-color-management-concepts.md)
+[Basic color management concepts](basic-color-management-concepts.md)
 </dt> <dt>
 
 [Functions](functions.md)

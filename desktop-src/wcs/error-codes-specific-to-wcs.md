@@ -96,7 +96,7 @@ A color profile element tag that is required for the function to succeed was not
 
 <dl> <dt>
 
-[Basic Color Management Concepts](basic-color-management-concepts.md)
+[Basic color management concepts](basic-color-management-concepts.md)
 </dt> <dt>
 
 [WCS Constants](wcs-constants.md)

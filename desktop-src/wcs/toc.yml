@@ -182,29 +182,29 @@
         - name: "DeleteColorTransform"
           href: deletecolortransform.md
         - name: "DisassociateColorProfileFromDevice"
-          href: disassociatecolorprofilefromdevice.md
-        - name: "EnumColorProfiles"
-          href: enumcolorprofiles.md
+          href: /windows/win32/api/icm/nf-icm-disassociatecolorprofilefromdevicew
+        - name: "EnumColorProfilesW"
+          href: /windows/win32/api/icm/nf-icm-enumcolorprofilesw
         - name: "EnumICMProfiles"
           href: /windows/win32/api/wingdi/nf-wingdi-enumicmprofilesa
         - name: "ICMENUMPROC"
           href: /windows/win32/api/wingdi/
         - name: "GetCMMInfo"
-          href: getcmminfo.md
+          href: /windows/win32/api/icm/nf-icm-getcmminfo
         - name: "GetColorDirectory"
-          href: getcolordirectory.md
+          href: /windows/win32/api/icm/nf-icm-getcolordirectoryw
         - name: "GetColorProfileElement"
-          href: getcolorprofileelement.md
+          href: /windows/win32/api/icm/nf-icm-getcolorprofileelement
         - name: "GetColorProfileElementTag"
-          href: getcolorprofileelementtag.md
+          href: /windows/win32/api/icm/nf-icm-getcolorprofileelementtag
         - name: "GetColorProfileFromHandle"
           href: getcolorprofilefromhandle.md
         - name: "GetColorProfileHeader"
-          href: getcolorprofileheader.md
+          href: /windows/win32/api/icm/nf-icm-getcolorprofileheader
         - name: "GetColorSpace"
-          href: getcolorspace.md
+          href: /windows/win32/api/wingdi/nf-wingdi-getcolorspace
         - name: "GetCountColorProfileElements"
-          href: getcountcolorprofileelements.md
+          href: /windows/win32/api/icm/nf-icm-getcountcolorprofileelements
         - name: "GetDeviceGammaRamp"
           href: /windows/win32/api/wingdi/nf-wingdi-getdevicegammaramp
         - name: "GetICMProfile"
@@ -212,37 +212,37 @@
         - name: "GetLogColorSpace"
           href: /windows/win32/api/wingdi/nf-wingdi-getlogcolorspacea
         - name: "GetNamedProfileInfo"
-          href: getnamedprofileinfo.md
+          href: /windows/win32/api/icm/nf-icm-getnamedprofileinfo
         - name: "GetPS2ColorRenderingDictionary"
-          href: getps2colorrenderingdictionary.md
+          href: /windows/win32/api/icm/nf-icm-getps2colorrenderingdictionary
         - name: "GetPS2ColorRenderingIntent"
-          href: getps2colorrenderingintent.md
+          href: /windows/win32/api/icm/nf-icm-getps2colorrenderingintent
         - name: "GetPS2ColorSpaceArray"
-          href: getps2colorspacearray.md
+          href: /windows/win32/api/icm/nf-icm-getps2colorspacearray
         - name: "GetStandardColorSpaceProfile"
-          href: getstandardcolorspaceprofile.md
+          href: Retrieves the color profile registered for the specified standard [color space](c.md).
         - name: "ICMProgressProcCallback"
           href: icmprogressproccallback.md
         - name: "InstallColorProfile"
-          href: installcolorprofile.md
+          href: /windows/win32/api/icm/nf-icm-installcolorprofilew
         - name: "IsColorProfileTagPresent"
-          href: iscolorprofiletagpresent.md
+          href: /windows/win32/api/icm/nf-icm-iscolorprofiletagpresent
         - name: "IsColorProfileValid"
-          href: iscolorprofilevalid.md
+          href: /windows/win32/api/icm/nf-icm-iscolorprofilevalid
         - name: "OpenColorProfile"
-          href: opencolorprofile.md
+          href: /windows/win32/api/icm/nf-icm-opencolorprofilew
         - name: "RegisterCMM"
-          href: registercmm.md
+          href: /windows/win32/api/icm/nf-icm-registercmmw
         - name: "SelectCMM"
-          href: selectcmm.md
+          href: /windows/win32/api/icm/nf-icm-selectcmm
         - name: "SetColorProfileElement"
-          href: setcolorprofileelement.md
+          href: /windows/win32/api/icm/nf-icm-setcolorprofileelement
         - name: "SetColorProfileElementReference"
-          href: setcolorprofileelementreference.md
+          href: /windows/win32/api/icm/nf-icm-setcolorprofileelementreference
         - name: "SetColorProfileElementSize"
-          href: setcolorprofileelementsize.md
+          href: /windows/win32/api/icm/nf-icm-setcolorprofileelementsize
         - name: "SetColorProfileHeader"
-          href: setcolorprofileheader.md
+          href: /windows/win32/api/icm/nf-icm-setcolorprofileheader
         - name: "SetColorSpace"
           href: /windows/win32/api/wingdi/nf-wingdi-setcolorspace
         - name: "SetDeviceGammaRamp"
@@ -252,7 +252,7 @@
         - name: "SetICMProfile"
           href: /windows/win32/api/wingdi/nf-wingdi-seticmprofilea
         - name: "SetStandardColorSpaceProfile"
-          href: setstandardcolorspaceprofile.md
+          href: /windows/win32/api/icm/nf-icm-setstandardcolorspaceprofilew
         - name: "SetupColorMatching"
           href: setupcolormatching.md
         - name: "TranslateBitmapBits"

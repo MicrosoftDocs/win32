@@ -93,7 +93,7 @@ The DMP, CAMP, and GMMP from the HPROFILE are embedded in a private tag within t
 
 The ICC profile created using this API will have its profile description tag constructed from the ProfileName elements of the WCS profiles according to the following pattern: "Created by Microsoft WCS from DMP:\[the DMP ProfileName\], CAMP:\[the CAMP ProfileName\], GMMP:\[the GMMP ProfileName\]"
 
-When WCS encounters this ICC profile (via [**OpenColorProfile**](opencolorprofile.md) or [**WcsOpenColorProfile**](wcsopencolorprofile.md) ) it extracts and uses the WCS profile(s) contained in the *WcsProfilesTag*.
+When WCS encounters this ICC profile (via [**OpenColorProfileW**](/windows/win32/api/icm/nf-icm-opencolorprofilew) or [**WcsOpenColorProfile**](wcsopencolorprofile.md) ) it extracts and uses the WCS profile(s) contained in the *WcsProfilesTag*.
 
 The out-of-gamut information in the gamut tags created in WCS uses the perceptual color distance in CIECAM02, which is the mean square root in CIECAM02 Jab space. The distance in legacy ICC profile gamut tags is the mean square root in CIELAB space. It is recommended that you use the CIECAM02 space when it is available, to provide more perceptually accurate distance metrics.
 
@@ -143,7 +143,7 @@ These are the WCS XML profiles that were used by **WcsCreateIccProfile** to crea
 
 <dl> <dt>
 
-[Basic Color Management Concepts](basic-color-management-concepts.md)
+[Basic color management concepts](basic-color-management-concepts.md)
 </dt> <dt>
 
 [Windows Color System Schemas and Algorithms](windows-color-system-schemas-and-algorithms.md)

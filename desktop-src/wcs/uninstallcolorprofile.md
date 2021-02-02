@@ -89,7 +89,7 @@ If this function fails, the return value is **FALSE**. For extended error inform
 
 <dl> <dt>
 
-[Basic Color Management Concepts](basic-color-management-concepts.md)
+[Basic color management concepts](basic-color-management-concepts.md)
 </dt> <dt>
 
 [Functions](functions.md)

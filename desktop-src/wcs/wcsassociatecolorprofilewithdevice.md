@@ -72,7 +72,7 @@ If this function fails, the return value is **FALSE**. For extended error inform
 
 ## Remarks
 
-The **WCSAssociateColorProfileWithDevice** function fails if the profile has not been installed on the computer using the [**InstallColorProfile**](installcolorprofile.md) function.
+The **WCSAssociateColorProfileWithDevice** function fails if the profile has not been installed on the computer using the [**InstallColorProfileW**](/windows/win32/api/icm/nf-icm-installcolorprofilew) function.
 
 If the *profileManagementScope* parameter is WCS\_PROFILE\_MANAGEMENT\_SCOPE\_SYSTEM\_WIDE, the profile association is system-wide and applies to all users. If *profileManagementScope* is WCS\_PROFILE\_MANAGEMENT\_SCOPE\_CURRENT\_USER, the association is only for the current user.
 
@@ -97,7 +97,7 @@ This function is executable in Least-Privileged User Account (LUA) context if *p
 
 <dl> <dt>
 
-[Basic Color Management Concepts](basic-color-management-concepts.md)
+[Basic color management concepts](basic-color-management-concepts.md)
 </dt> <dt>
 
 [Windows Color System Schemas and Algorithms](windows-color-system-schemas-and-algorithms.md)

@@ -32,7 +32,7 @@ Applications that use the ICM API require Windows 2000 or later. Applications th
 ## In this section
 
 -   [Security Considerations: Windows Color System](security-considerations--windows-color-system.md)
--   [Basic Color Management Concepts](basic-color-management-concepts.md)
+-   [Basic color management concepts](basic-color-management-concepts.md)
 -   [Windows Color System Schemas and Algorithms](windows-color-system-schemas-and-algorithms.md)
 -   [About Windows Color System Version 1.0](about-windows-color-system-version-1-0.md)
 -   [Using WCS 1.0](using-wcs-1-0.md)

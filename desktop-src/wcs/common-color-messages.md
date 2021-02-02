@@ -22,7 +22,7 @@ The following messages are used with color.
 
 <dl> <dt>
 
-[Basic Color Management Concepts](basic-color-management-concepts.md)
+[Basic color management concepts](basic-color-management-concepts.md)
 </dt> <dt>
 
 [ICM Constants](wcs-constants.md)
