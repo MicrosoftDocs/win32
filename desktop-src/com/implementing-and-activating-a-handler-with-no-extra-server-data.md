@@ -14,13 +14,13 @@ Next, both the server and handler implementations must call the [**CoGetStdMarsh
 
 The server calls [**CoGetStdMarshalEx**](/windows/desktop/api/combaseapi/nf-combaseapi-cogetstdmarshalex), passing in the flag SMEXF\_SERVER. This creates a server-side standard marshaler (stub manager). The server-side structure is shown in the following illustration:
 
-![](images/b47b3bc0-3e7d-4be4-9767-7ae436bd1b21.png)
+![Diagram that shows the server-side structure.](images/b47b3bc0-3e7d-4be4-9767-7ae436bd1b21.png)
 
 ## Server-Side Structure
 
 The handler calls [**CoGetStdMarshalEx**](/windows/desktop/api/combaseapi/nf-combaseapi-cogetstdmarshalex), passing in the flag SMEXF\_HANDLER. This creates a client-side standard marshaler (proxy manager) and aggregates it with the handler on the client side. The lifetime of both are managed by the controlling identity object (implementing [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown)) that the system implements when the handler calls **CoGetStdMarshalEx**. The client-side structure is shown in the following illustration.
 
-![](images/24ae70ef-dfa8-4784-90ac-dc6cfb043ee5.png)
+![DIagram that shows the client-side structure.](images/24ae70ef-dfa8-4784-90ac-dc6cfb043ee5.png)
 
 ## Client-Side Structure
 
