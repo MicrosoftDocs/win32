@@ -59,7 +59,7 @@ The following functions are useful for writing device calibration and characteri
 | [**SetColorProfileElementReference**](/windows/win32/api/icm/nf-icm-setcolorprofileelementreference) | Creates in a specified ICC color profile a new tag that references the same data as an existing tag. |
 | [**SetColorProfileElementSize**](/windows/win32/api/icm/nf-icm-setcolorprofileelementsize) | Sets the size of a tagged element in an ICC color profile. |
 | [**SetColorProfileHeader**](/windows/win32/api/icm/nf-icm-setcolorprofileheader) | Sets the header data in a specified ICC color profile. |
-| [**WcsGetCalibrationManagementState**](wcsgetcalibrationmanagementstate.md) | Determines whether system management of the display calibration state is enabled. |
+| [**WcsGetCalibrationManagementState**](/windows/win32/api/icm/nf-icm-wcsgetcalibrationmanagementstate) | Determines whether system management of the display calibration state is enabled. |
 | [**WcsSetCalibrationManagementState**](wcssetcalibrationmanagementstate.md) | Determines whether system management of the display calibration state is enabled. |
 
 

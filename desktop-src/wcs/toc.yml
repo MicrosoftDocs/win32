@@ -253,48 +253,48 @@
           href: /windows/win32/api/wingdi/nf-wingdi-seticmprofilea
         - name: "SetStandardColorSpaceProfile"
           href: /windows/win32/api/icm/nf-icm-setstandardcolorspaceprofilew
-        - name: "SetupColorMatching"
-          href: setupcolormatching.md
+        - name: "SetupColorMatchingW"
+          href: /windows/win32/api/icm/nf-icm-setupcolormatchingw
         - name: "TranslateBitmapBits"
-          href: translatebitmapbits.md
+          href: /windows/win32/api/icm/nf-icm-translatebitmapbits
         - name: "TranslateColors"
-          href: translatecolors.md
+          href: /windows/win32/api/icm/nf-icm-translatecolors
         - name: "UninstallColorProfile"
-          href: uninstallcolorprofile.md
-        - name: "UnregisterCMM"
-          href: unregistercmm.md
+          href: /windows/win32/api/icm/nf-icm-uninstallcolorprofilew
+        - name: "UnregisterCMMW"
+          href: /windows/win32/api/icm/nf-icm-unregistercmmw
         - name: "WcsAssociateColorProfileWithDevice"
-          href: wcsassociatecolorprofilewithdevice.md
+          href: /windows/win32/api/icm/nf-icm-wcsassociatecolorprofilewithdevice
         - name: "WcsCheckColors"
-          href: wcscheckcolors.md
+          href: /windows/win32/api/icm/nf-icm-wcsassociatecolorprofilewithdevice
         - name: "WcsCreateIccProfile"
-          href: wcscreateiccprofile.md
+          href: /windows/win32/api/icm/nf-icm-wcscreateiccprofile
         - name: "WcsDisassociateColorProfileFromDevice"
-          href: wcsdisassociatecolorprofilefromdevice.md
+          href: /windows/win32/api/icm/nf-icm-wcsdisassociatecolorprofilefromdevice
         - name: "WcsEnumColorProfiles"
-          href: wcsenumcolorprofiles.md
+          href: /windows/win32/api/icm/nf-icm-wcsenumcolorprofiles
         - name: "WcsEnumColorProfilesSize"
-          href: wcsenumcolorprofilessize.md
+          href: /windows/win32/api/icm/nf-icm-wcsenumcolorprofilessize
         - name: "WcsGetDefaultColorProfile"
           href: wcsgetdefaultcolorprofile.md
-        - name: "WcsSetDefaultColorProfile"
-          href: wcssetdefaultcolorprofile.md
         - name: "WcsGetDefaultColorProfileSize"
           href: wcsgetdefaultcolorprofilesize.md
         - name: "WcsGetDefaultRenderingIntent"
           href: wcsgetdefaultrenderingintent.md
-        - name: "WcsSetDefaultRenderingIntent"
-          href: wcssetdefaultrenderingintent.md
         - name: "WcsGetUsePerUserProfiles"
           href: wcsgetuseperuserprofiles.md
-        - name: "WcsSetUsePerUserProfiles"
-          href: wcssetuseperuserprofiles.md
         - name: "WcsGetCalibrationManagementState"
-          href: wcsgetcalibrationmanagementstate.md
-        - name: "WcsSetCalibrationManagementState"
-          href: wcssetcalibrationmanagementstate.md
+          href: /windows/win32/api/icm/nf-icm-wcsgetcalibrationmanagementstate
         - name: "WcsOpenColorProfile"
           href: wcsopencolorprofile.md
+        - name: "WcsSetDefaultColorProfile"
+          href: wcssetdefaultcolorprofile.md
+        - name: "WcsSetDefaultRenderingIntent"
+          href: wcssetdefaultrenderingintent.md
+        - name: "WcsSetUsePerUserProfiles"
+          href: wcssetuseperuserprofiles.md
+        - name: "WcsSetCalibrationManagementState"
+          href: wcssetcalibrationmanagementstate.md
         - name: "WcsTranslateColors"
           href: wcstranslatecolors.md
     - name: "Obsolete WCS Functions"

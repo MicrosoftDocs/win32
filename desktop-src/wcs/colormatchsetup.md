@@ -22,7 +22,7 @@ ROBOTS: INDEX,FOLLOW
 
 # COLORMATCHSETUP structure
 
-The **COLORMATCHSETUP** structure contains information that the [**SetupColorMatching**](setupcolormatching.md) function uses to initialize the **ColorManagement** dialog box. After the user closes the dialog box, **SetupColorMatching** returns information about the user's selection in this structure.
+The **COLORMATCHSETUP** structure contains information that the [**SetupColorMatchingW**](/windows/win32/api/icm/nf-icm-setupcolormatchingw) function uses to initialize the **ColorManagement** dialog box. After the user closes the dialog box, **SetupColorMatching** returns information about the user's selection in this structure.
 
 ## Syntax
 

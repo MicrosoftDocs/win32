@@ -68,7 +68,7 @@ This function returns **TRUE** to continue bitmap processing. The return value i
 
 ## Remarks
 
-The name of this callback function is supplied by the application. A number of WCS functions, including [**TranslateBitmapBits**](translatebitmapbits.md) and [**CheckBitmapBits**](/windows/win32/api/icm/nf-icm-checkbitmapbits), call this function periodically.
+The name of this callback function is supplied by the application. A number of WCS functions, including [**TranslateBitmapBits**](/windows/win32/api/icm/nf-icm-translatebitmapbits) and [**CheckBitmapBits**](/windows/win32/api/icm/nf-icm-checkbitmapbits), call this function periodically.
 
 ## Requirements
 
@@ -92,7 +92,7 @@ The name of this callback function is supplied by the application. A number of W
 [Functions](functions.md)
 </dt> <dt>
 
-[**TranslateBitmapBits**](translatebitmapbits.md)
+[**TranslateBitmapBits**](/windows/win32/api/icm/nf-icm-translatebitmapbits)
 </dt> <dt>
 
 [**CheckBitmapBits**](/windows/win32/api/icm/nf-icm-checkbitmapbits)

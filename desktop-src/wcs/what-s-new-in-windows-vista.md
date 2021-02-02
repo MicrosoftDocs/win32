@@ -81,37 +81,37 @@ Header
 
 Library
 
-[**WcsAssociateColorProfileWithDevice**](wcsassociatecolorprofilewithdevice.md)
+[**WcsAssociateColorProfileWithDevice**](/windows/win32/api/icm/nf-icm-wcsassociatecolorprofilewithdevice)
 
 icm.h
 
 mscms.lib
 
-[**WcsCheckColors**](wcscheckcolors.md)
+[**WcsCheckColors**](/windows/win32/api/icm/nf-icm-wcsassociatecolorprofilewithdevice)
 
 icm.h
 
 mscms.lib
 
-[**WcsCreateIccProfile**](wcscreateiccprofile.md)
+[**WcsCreateIccProfile**](/windows/win32/api/icm/nf-icm-wcscreateiccprofile)
 
 icm.h
 
 mscms.lib
 
-[**WcsDisassociateColorProfileFromDevice**](wcsdisassociatecolorprofilefromdevice.md)
+[**WcsDisassociateColorProfileFromDevice**](/windows/win32/api/icm/nf-icm-wcsdisassociatecolorprofilefromdevice)
 
 icm.h
 
 mscms.lib
 
-[**WcsEnumColorProfiles**](wcsenumcolorprofiles.md)
+[**WcsEnumColorProfiles**](/windows/win32/api/icm/nf-icm-wcsenumcolorprofiles)
 
 icm.h
 
 mscms.lib
 
-[**WcsEnumColorProfilesSize**](wcsenumcolorprofilessize.md)
+[**WcsEnumColorProfilesSize**](/windows/win32/api/icm/nf-icm-wcsenumcolorprofilessize)
 
 icm.h
 

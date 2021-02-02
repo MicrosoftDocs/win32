@@ -46,7 +46,7 @@ The following WCS functions deliver basic [color mapping](c.md) capabilities wit
 | [**SetColorSpace**](/windows/desktop/api/Wingdi/nf-wingdi-setcolorspace)                             | Sets a device context's input color space.                                                                                                          |
 | [**SetICMMode**](/windows/desktop/api/Wingdi/nf-wingdi-seticmmode)                                   | Turns color management on or off in a device context.                                                                                               |
 | [**SetICMProfile**](/windows/desktop/api/Wingdi/nf-wingdi-seticmprofilea)                             | Sets the output color profile for a given device context.                                                                                           |
-| [**WcsEnumColorProfiles**](wcsenumcolorprofiles.md)               | Enumerates all color profiles that satisfy the enumeration criteria in the specified profile management scope.                                      |
+| [**WcsEnumColorProfiles**](/windows/win32/api/icm/nf-icm-wcsenumcolorprofiles)               | Enumerates all color profiles that satisfy the enumeration criteria in the specified profile management scope.                                      |
 
 
 
