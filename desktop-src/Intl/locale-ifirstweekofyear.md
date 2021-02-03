@@ -16,7 +16,9 @@ The first week of the year.
 |-------|----------------------------------------------------------------------------------------------------------------------------------|
 | 0     | Week containing 1/1 is the first week of the year. Note that this can be a single day, if 1/1 falls on the last day of the week. |
 | 1     | First full week following 1/1 is the first week of the year.                                                                     |
-| 2     | First week containing at least four days is the first week of the year.                                                          |
+| 2     | First week containing at least four days is the first week of the year. ISO 8601 compatible.                                     |
+
+When LOCALE_IFIRSTWEEKOFYEAR is 2, LOCALE_IFIRSTDAYOFWEEK is 0 (Monday), and LOCALE_ICALENDARTYPE is Gregorian, then the first week follows the ISO 8601 definition of the first week being the week with the first Thursday of the year.
 
 
 
