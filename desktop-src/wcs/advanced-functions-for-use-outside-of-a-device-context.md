@@ -41,7 +41,7 @@ These functions provide advanced color management capabilities outside of device
 | [**TranslateBitmapBits**](/windows/win32/api/icm/nf-icm-translatebitmapbits)                 | Converts bitmap colors using a color transform.                                                                                                                          |
 | [**TranslateColors**](/windows/win32/api/icm/nf-icm-translatecolors) | Translates an array of colors from the source [color space](c.md) to the destination color space as defined by a color transform. |
 | [**WcsCheckColors**](/windows/win32/api/icm/nf-icm-wcsassociatecolorprofilewithdevice)                           | Determines whether the colors in an array are within the output gamut of a specified WCS color transform.                                                                |
-| [**WcsTranslateColors**](wcstranslatecolors.md)                   | Translates an array of colors from the source color space to the destination color space as defined by a color transform.                                                |
+| [**WcsTranslateColors**](/windows/win32/api/icm/nf-icm-wcstranslatecolors) | Translates an array of colors from the source color space to the destination color space as defined by a color transform.                                                |
 
 
 

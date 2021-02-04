@@ -117,55 +117,55 @@ icm.h
 
 mscms.lib
 
-[**WcsGetDefaultColorProfile**](wcsgetdefaultcolorprofile.md)
+[**WcsGetDefaultColorProfile**](/windows/win32/api/icm/nf-icm-wcsgetdefaultcolorprofile)
 
 icm.h
 
 mscms.lib
 
-[**WcsGetDefaultColorProfileSize**](wcsgetdefaultcolorprofilesize.md)
+[**WcsGetDefaultColorProfileSize**](/windows/win32/api/icm/nf-icm-wcsgetdefaultcolorprofilesize)
 
 icm.h
 
 mscms.lib
 
-[**WcsGetDefaultRenderingIntent**](wcsgetdefaultrenderingintent.md)
+[**WcsGetDefaultRenderingIntent**](/windows/win32/api/icm/nf-icm-wcsgetdefaultrenderingintent)
 
 icm.h
 
 mscms.lib
 
-[**WcsGetUsePerUserProfiles**](wcsgetuseperuserprofiles.md)
+[**WcsGetUsePerUserProfiles**](/windows/win32/api/icm/nf-icm-wcsgetdefaultrenderingintent)
 
 icm.h
 
 mscms.lib
 
-[**WcsOpenColorProfile**](wcsopencolorprofile.md)
+[**WcsOpenColorProfileW**](/windows/win32/api/icm/nf-icm-wcsopencolorprofilew)
 
 icm.h
 
 mscms.lib
 
-[**WcsSetDefaultColorProfile**](wcssetdefaultcolorprofile.md)
+[**WcsSetDefaultColorProfile**](/windows/win32/api/icm/nf-icm-wcssetdefaultcolorprofile)
 
 icm.h
 
 mscms.lib
 
-[**WcsSetDefaultRenderingIntent**](wcssetdefaultrenderingintent.md)
+[**WcsSetDefaultRenderingIntent**](/windows/win32/api/icm/nf-icm-wcssetdefaultrenderingintent)
 
 icm.h
 
 mscms.lib
 
-[**WcsSetUsePerUserProfiles**](wcssetuseperuserprofiles.md)
+[**WcsSetUsePerUserProfiles**](/windows/win32/api/icm/nf-icm-wcssetuseperuserprofiles)
 
 icm.h
 
 mscms.lib
 
-[**WcsTranslateColors**](wcstranslatecolors.md)
+[**WcsTranslateColors**](/windows/win32/api/icm/nf-icm-wcstranslatecolors)
 
 icm.h
 

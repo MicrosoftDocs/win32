@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 Most of the structures used by WCS 1.0 are very straightforward and require little explanation. They are documented in the WCS 1.0 Reference section entitled [Structures](structures.md).
 
-Exceptions are the [**COLORMATCHSETUP**](colormatchsetup.md) structure used by the [**SetupColorMatchingW**](/windows/win32/api/icm/nf-icm-setupcolormatchingw) function, and the following Windows structures defined in Wingdi.h:
+Exceptions are the [**COLORMATCHSETUPW**](/windows/win32/api/icm/ns-icm-colormatchsetupw) structure used by the [**SetupColorMatchingW**](/windows/win32/api/icm/nf-icm-setupcolormatchingw) function, and the following Windows structures defined in Wingdi.h:
 
 -   [BITMAPV5HEADER](#-color-windows-bitmap-header-structures)
 -   [**LOGCOLORSPACE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea)
