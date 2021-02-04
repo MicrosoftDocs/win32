@@ -154,7 +154,7 @@ POINTER_INFO pointerInfo;
 UINT32       pointerId = GET_POINTERID_WPARAM(wParam);
 
 // Retrieve common pointer information
-if (!GetPointerInfo(pointerId, &amp;pointerInfo))
+if (!GetPointerInfo(pointerId, &pointerInfo))
 {
     
 // failure, call GetLastError()
@@ -172,7 +172,7 @@ else
 The following code example shows how to handle different pointer types associated with this message.
 
 
-```
+```c++
 POINTER_TOUCH_INFO   touchInfo;
 POINTER_PEN_INFO     penInfo;
 POINTER_INFO pointerInfo;
@@ -182,7 +182,7 @@ POINTER_TYPE pointerType = PT_POINTER;
 // default to unhandled to enable call to DefWindowProc
 fHandled = FALSE;
 
-if (!GetPointerType(pointerId, &amp;pointerType))
+if (!GetPointerType(pointerId, &pointerType))
 {
     // failure, call GetLastError()
     // set PT_POINTER to fall to default case below
@@ -193,7 +193,7 @@ switch (pointerType)
 {
 case PT_TOUCH:
     // Retrieve touch information
-    if (!GetPointerTouchInfo(pointerId, &amp;touchInfo))
+    if (!GetPointerTouchInfo(pointerId, &touchInfo))
     {
         // failure, call GetLastError()
     }
@@ -206,7 +206,7 @@ case PT_TOUCH:
     break;
 case PT_PEN:
     // Retrieve pen information
-    if (!GetPointerPenInfo(pointerId, &amp;penInfo))
+    if (!GetPointerPenInfo(pointerId, &penInfo))
     {
         // failure, call GetLastError()
     }
@@ -218,14 +218,14 @@ case PT_PEN:
     }
     break;
 default:
-    if (!GetPointerInfo(pointerId, &amp;pointerInfo)) 
+    if (!GetPointerInfo(pointerId, &pointerInfo)) 
     {
         // failure.
     } 
     else 
     {
         // success, proceed with pointerInfo.
-        fHandled = HandleGenericPointerMessage(&amp;pointerInfo);
+        fHandled = HandleGenericPointerMessage(&pointerInfo);
     }
     break;
 }
@@ -288,6 +288,3 @@ default:
 
 [**IS_POINTER_FIFTHBUTTON_WPARAM**](/previous-versions/windows/desktop/api)
 </dt> </dl>
-
- 
-
