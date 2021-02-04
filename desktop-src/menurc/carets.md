@@ -18,7 +18,7 @@ A *caret* is a blinking line, block, or bitmap in the client area of a window. T
 
 The following illustration shows some common variations in the appearance of the caret.
 
-![](images/cscrt-01.png)
+![Shows 5 different ways a caret can appear.](images/cscrt-01.png)
 
 Applications can create a caret, change its blink time, and display, hide, or relocate the caret.
 
