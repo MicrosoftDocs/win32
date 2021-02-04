@@ -109,7 +109,7 @@ Graphic elements have several usage patterns:
 -   **Use vertical and horizontal lines for separators.** Be sure to have sufficient space between the separators and the content being separated.
 -   For separators between sizable content (splitters), display the resize pointer on hover.
 
-![screen shot of splitter with resize pointer ](images/vis-graphic-image17.png)
+![Screenshot that shows a splitter with resize pointer.](images/vis-graphic-image17.png)
 
 ![screen shot of splitter with resize pointer ](images/vis-graphic-image18.png)
 

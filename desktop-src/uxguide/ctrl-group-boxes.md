@@ -52,7 +52,7 @@ In this example, layout alone is used to show control relationships.
 -   **Can you effectively communicate the relationships using a separator?** If so, use a separator instead. A separator is a horizontal line that unifies the controls below it. Separators provide a simpler, cleaner look. However, unlike group boxes, they work best when they span the full width of the surface.
     -   **Developers:** You can implement a separator with an etched rectangle with a height of one.
 
-![screen shot of controls set apart by separators ](images/ctrl-group-boxes-image5.png)
+![Screenshot that shows e-mail controls set apart by etched rectangle separators.](images/ctrl-group-boxes-image5.png)
 
 In this example, labeled separators are used to show control relationships.
 

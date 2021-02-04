@@ -130,7 +130,7 @@ Drop-down lists and combo boxes have several usage patterns:
 -   **Place options that represent All or None at the beginning of the list, regardless of the sort order of the remaining items.**
 -   **Enclose meta-options in parentheses.**
 
-    ![screen shot of drop-down list with none selected ](images/ctrl-drop-image15.png)
+    ![Screenshot that shows a drop-down list with '(None)' selected.](images/ctrl-drop-image15.png)
 
     In this example, "(None)" is a meta-option because it is not a valid value for the choice rather it describes that the option itself isn't being used.
 

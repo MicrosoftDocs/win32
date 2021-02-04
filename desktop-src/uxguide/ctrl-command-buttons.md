@@ -178,7 +178,7 @@ Recommended sizing and spacing for command buttons.
 
     **Acceptable:**
 
-    ![screen shot of ok and cancel buttons ](images/ctrl-command-buttons-image26.png)
+    ![Screenshot that shows the 'OK' and 'Cancel' buttons.](images/ctrl-command-buttons-image26.png)
 
     In this example, OK and Cancel are acceptable but unspecific labels.
 

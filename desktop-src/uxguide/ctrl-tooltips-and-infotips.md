@@ -13,7 +13,7 @@ ms.date: 10/20/2020
 
 A tooltip is a small pop-up window that labels the unlabeled control being pointed to, such as unlabeled toolbar controls or command buttons.
 
-![screen shot of print button with tooltip ](images/ctrl-tooltips-and-infotips-image1.png)
+![Screenshot that shows print button with the tooltip 'Print (Ctrl+P)' displayed.](images/ctrl-tooltips-and-infotips-image1.png)
 
 A typical tooltip for a toolbar button.
 
