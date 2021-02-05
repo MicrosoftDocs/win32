@@ -27,7 +27,7 @@ The UpdateAuthorAddress component, the component to be created in this section, 
 
 Because UpdateAuthorAddress updates a data store, it is advisable to include the work in a transaction, as shown in the following illustration, so that when a client calls the component, COM+ automatically starts a transaction and enlists the database (resource manager) in that transaction. (For detailed information about transactions in COM+, see [COM+ Transactions](com--transactions.md).)
 
-![](images/d5a47e03-c07e-4db3-b328-111ca9e50bef.png)
+![Diagram that shows a COM+ transaction with UpdateAuthorAddress.](images/d5a47e03-c07e-4db3-b328-111ca9e50bef.png)
 
 To make UpdateAuthorAddress a transactional component, the following steps are required:
 
