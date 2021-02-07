@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Enumerating All Processes
 
-The following sample code uses the [**EnumProcesses**](/windows/desktop/api/Psapi/nf-psapi-enumprocesses) function to enumerate the current processes in the system.
+The following sample code uses the [**EnumProcesses**](/windows/desktop/api/Psapi/nf-psapi-enumprocesses) function to enumerate the current processes in the system. This will display "<unknown>" for 64bit processes. To show 64bit processes use `EnumProcessModulesEx` and make sure you run the program in `x64`.
 
 
 ```C++
