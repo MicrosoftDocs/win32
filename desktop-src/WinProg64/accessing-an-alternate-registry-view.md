@@ -18,7 +18,7 @@ By default, a 32-bit application running on WOW64 accesses the 32-bit registry v
 | Flag name         | Value  | Description                                                                                                                                                                                                                                       |
 |-------------------|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | KEY\_WOW64\_64KEY | 0x0100 | Access a 64-bit key from either a 32-bit or 64-bit application.                                                                                                                                                                                   |
-| KEY\_WOW64\_32KEY | 0x0200 | Access a 32-bit key from either a 32-bit or 64-bit application.**Windows 10 on ARM:** This refers to the 32-bit ARM registry view for 32-bit ARM processes and the 32-bit x86 registry view for 32-bit x86 and 64-bit ARM64 processes.<br/> |
+| KEY\_WOW64\_32KEY | 0x0200 | Access a 32-bit key from either a 32-bit or 64-bit application.<br/>**Windows 10 on ARM:** This refers to the 32-bit ARM registry view for 32-bit ARM processes and the 32-bit x86 registry view for 32-bit x86 and 64-bit ARM64 processes. |
 
 
 
