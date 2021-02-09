@@ -48,7 +48,7 @@ Selects the largest or smallest *K* elements from each sequence along an axis of
 The choice of whether to select the largest K elements or the smallest K elements can be controlled using *AxisDirection*.
 
 > [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](/windows/win32/direct3d12/dml-version-history).
+> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](../dml-version-history.md).
 
 ## Syntax
 ```cpp
@@ -79,7 +79,7 @@ Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tens
 
 The output tensor to write the values of the top *K* elements to. The top *K* elements are selected based on whether they are the largest or the smallest, depending on the value of *AxisDirection*. This tensor must have sizes equal to the *InputTensor*, *except* for the dimension specified by the *Axis* parameter, which must have a size equal to *K*.
 
-The *K* values selected from each input sequence are guaranteed to be sorted descending (largest to smallest) if *AxisDirection* is [DML_AXIS_DIRECTION_DECREASING](/windows/win32/direct3d12/directml/ne-directml-dml_axis_direction). Otherwise, the opposite is true and the values selected are guaranteed to be sorted ascending (smallest to largest).
+The *K* values selected from each input sequence are guaranteed to be sorted descending (largest to smallest) if *AxisDirection* is [DML_AXIS_DIRECTION_DECREASING](./ne-directml-dml_axis_direction.md). Otherwise, the opposite is true and the values selected are guaranteed to be sorted ascending (smallest to largest).
 
 
 `OutputIndexTensor`
@@ -109,9 +109,9 @@ The number of elements to select. *K* must be greater than 0, but less than the 
 
 `AxisDirection`
 
-Type: **[DML_AXIS_DIRECTION](/windows/win32/direct3d12/directml/ne-directml-dml_axis_direction)**
+Type: **[DML_AXIS_DIRECTION](./ne-directml-dml_axis_direction.md)**
 
-A value from the [DML_AXIS_DIRECTION](/windows/win32/direct3d12/directml/ne-directml-dml_axis_direction) enumeration. If set to **DML_AXIS_DIRECTION_INCREASING**, then this operator returns the *smallest* *K* elements in order of increasing value. Otherwise, it returns the *largest* *K* elements in decreasing order.
+A value from the [DML_AXIS_DIRECTION](./ne-directml-dml_axis_direction.md) enumeration. If set to **DML_AXIS_DIRECTION_INCREASING**, then this operator returns the *smallest* *K* elements in order of increasing value. Otherwise, it returns the *largest* *K* elements in decreasing order.
 
 ## Examples
 
@@ -207,7 +207,7 @@ OutputIndexTensor: (Sizes:{1,1,3,3}, DataType:UINT32)
 
 
 ## Remarks
-When *AxisDirection* is set to [DML_AXIS_DIRECTION_DECREASING](/windows/win32/direct3d12/directml/ne-directml-dml_axis_direction), this operator is equivalent to [DML_TOP_K_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_top_k_operator_desc).
+When *AxisDirection* is set to [DML_AXIS_DIRECTION_DECREASING](./ne-directml-dml_axis_direction.md), this operator is equivalent to [DML_TOP_K_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_top_k_operator_desc).
 
 ## Availability
 This operator was introduced in `DML_FEATURE_LEVEL_2_1`.

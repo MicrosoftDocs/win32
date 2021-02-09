@@ -16,7 +16,7 @@ This introductory topic describes what DWriteCore is, and shows how to install i
 
 ## The value proposition of DWriteCore
 
-[DirectWrite](./direct-write-portal.md) itself supports a rich array of features that makes it the font-rendering tool of choice on Windows for most apps&mdash;whether that's through direct calls, or via [Direct2D](/windows/win32/direct2d/direct2d-portal). DirectWrite includes a device-independent text layout system, high quality sub-pixel [Microsoft ClearType](/typography/cleartype/) text rendering, hardware-accelerated text, multi-format text, advanced [OpenType®](/typography/opentype/) typography features, wide language support, and [GDI](/windows/win32/gdi/windows-gdi)-compatible layout and rendering. DirectWrite has been available since Windows Vista SP2, and it has evolved over the years to include more advanced features such as variable fonts, which enables developers to apply styles, weights, and other attributes to a font with only one font resource.
+[DirectWrite](./direct-write-portal.md) itself supports a rich array of features that makes it the font-rendering tool of choice on Windows for most apps&mdash;whether that's through direct calls, or via [Direct2D](../direct2d/direct2d-portal.md). DirectWrite includes a device-independent text layout system, high quality sub-pixel [Microsoft ClearType](/typography/cleartype/) text rendering, hardware-accelerated text, multi-format text, advanced [OpenType®](/typography/opentype/) typography features, wide language support, and [GDI](../gdi/windows-gdi.md)-compatible layout and rendering. DirectWrite has been available since Windows Vista SP2, and it has evolved over the years to include more advanced features such as variable fonts, which enables developers to apply styles, weights, and other attributes to a font with only one font resource.
 
 Due to the long lifespan of DirectWrite, however, advances in development have tended to leave older versions of Windows behind. In addition, DirectWrite's status as the premier text rendering technology is limited only to Windows, leaving cross-platform applications to either write their own text-rendering stack, or to rely on 3rd-party solutions.
 
@@ -45,7 +45,7 @@ The version of DWriteCore currently available contains the basic tools that you,
 - Font enumeration.
 - Font API.
 - Shaping.
-- Low-level rendering APIs. This is partial at the current phase&mdash;DWriteCore doesn't interoperate with [Direct2D](/windows/win32/direct2d/direct2d-portal), but you can use [**IDWriteGlyphRunAnalysis**](/windows/win32/api/dwrite/nn-dwrite-idwriteglyphrunanalysis) and [**IDWriteBitmapRenderTarget**](/windows/win32/api/dwrite/nn-dwrite-idwritebitmaprendertarget).
+- Low-level rendering APIs. This is partial at the current phase&mdash;DWriteCore doesn't interoperate with [Direct2D](../direct2d/direct2d-portal.md), but you can use [**IDWriteGlyphRunAnalysis**](/windows/win32/api/dwrite/nn-dwrite-idwriteglyphrunanalysis) and [**IDWriteBitmapRenderTarget**](/windows/win32/api/dwrite/nn-dwrite-idwritebitmaprendertarget).
 - Basic text layout functionality.
 - Text-rendering APIs.
 - Bitmap render target.
@@ -82,7 +82,7 @@ The DWriteCore API surface is the largely the same as it is for [DirectWrite](/w
 
 #### Create a restricted factory object
 
-The [**DWRITE_FACTORY_TYPE**](/windows/win32/DirectWrite/dwrite/ne-dwrite-dwrite_factory_type) enumeration has a new constant&mdash;**DWRITE_FACTORY_TYPE_RESTRICTED**. A restricted factory is more locked-down than an isolated factory. It doesn't interact with a cross-process nor persistent font cache in any way. In addition, the system font collection returned from this factory includes only well-known fonts. Here's how you can use **DWRITE_FACTORY_TYPE_RESTRICTED** to create a restricted factory object when you call the [**DWriteCreateFactory**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) free function.
+The [**DWRITE_FACTORY_TYPE**](./dwrite/ne-dwrite-dwrite_factory_type.md) enumeration has a new constant&mdash;**DWRITE_FACTORY_TYPE_RESTRICTED**. A restricted factory is more locked-down than an isolated factory. It doesn't interact with a cross-process nor persistent font cache in any way. In addition, the system font collection returned from this factory includes only well-known fonts. Here's how you can use **DWRITE_FACTORY_TYPE_RESTRICTED** to create a restricted factory object when you call the [**DWriteCreateFactory**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) free function.
 
 ```cppwinrt
 // Create a factory that doesn't interact with any cross-process nor
@@ -103,7 +103,7 @@ If you pass **DWRITE_FACTORY_TYPE_RESTRICTED** to an older version of DirectWrit
 
 DirectWrite has a bitmap render target interface that supports rendering glyphs to a bitmap in system memory. However, currently the only way to get access to the underlying pixel data is to go through GDI, and so the API is not usable cross-platform. This is easily remedied by adding a method to retrieve the pixel data.
 
-And so DWriteCore introduces the [**IDWriteBitmapRenderTarget2**](/windows/win32/DirectWrite/dwrite_3/nn-dwrite_3-idwritebitmaprendertarget2) interface, and its method [**IDWriteBitmapRenderTarget2::GetBitmapData**](/windows/win32/DirectWrite/dwrite_3/nf-dwrite_3-idwritebitmaprendertarget2-getbitmapdata). That method takes a parameter of (pointer to) type [**DWRITE_BITMAP_DATA_BGRA32**](/windows/win32/DirectWrite/dwrite_3/ns-dwrite_3-dwrite_bitmap_data_bgra32), which is a new struct.
+And so DWriteCore introduces the [**IDWriteBitmapRenderTarget2**](./dwrite_3/nn-dwrite_3-idwritebitmaprendertarget2.md) interface, and its method [**IDWriteBitmapRenderTarget2::GetBitmapData**](./dwrite_3/nf-dwrite_3-idwritebitmaprendertarget2-getbitmapdata.md). That method takes a parameter of (pointer to) type [**DWRITE_BITMAP_DATA_BGRA32**](./dwrite_3/ns-dwrite_3-dwrite_bitmap_data_bgra32.md), which is a new struct.
 
 Your application creates a bitmap render target by calling [IDWriteGdiInterop::CreateBitmapRenderTarget](/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createbitmaprendertarget). On Windows, a bitmap render target encapsulates a GDI memory DC with a GDI device-independent bitmap (DIB) selected into it. [IDWriteBitmapRenderTarget::DrawGlyphRun](/windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun) renders glyphs to the DIB. DirectWrite renders the glyphs itself without going through GDI. Your application can then get the **HDC** from the bitmap render target, and use [BitBlt](/windows/win32/api/wingdi/nf-wingdi-bitblt) to copy the pixels to a window **HDC**.
 
@@ -167,6 +167,6 @@ int __stdcall wWinMain(HINSTANCE, HINSTANCE, LPWSTR, int)
 
 #### Other API differences between DWriteCore and DirectWrite
 
-There are a few APIs that are either stubs only, or they behave somewhat differently on non-Windows platforms. For example, [IDWriteGdiInterop::CreateFontFaceFromHdc](/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfacefromhdc) returns **E_NOTIMPL** on non-Windows platforms, since there's no such thing as an **HDC** without [GDI](/windows/win32/gdi/windows-gdi).
+There are a few APIs that are either stubs only, or they behave somewhat differently on non-Windows platforms. For example, [IDWriteGdiInterop::CreateFontFaceFromHdc](/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfacefromhdc) returns **E_NOTIMPL** on non-Windows platforms, since there's no such thing as an **HDC** without [GDI](../gdi/windows-gdi.md).
 
 And, finally, there are certain other Windows APIs that are typically used together with DirectWrite (Direct2D being a notable example). However, currently, Direct2D and DWriteCore don't interoperate. For example, if you create an [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) using DWriteCore, and pass it to [**D2D1RenderTarget::DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout), then that call will fail.

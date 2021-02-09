@@ -48,7 +48,7 @@ api_name:
 Sums the elements of a tensor along an axis, writing the running tally of the summation into the output tensor.
 
 > [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](/windows/win32/direct3d12/dml-version-history).
+> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](../dml-version-history.md).
 
 ## Syntax
 ```cpp
@@ -88,9 +88,9 @@ The index of the dimension to sum elements over. This value must be less than th
 
 `AxisDirection`
 
-Type: **[DML_AXIS_DIRECTION](/windows/win32/direct3d12/directml/ne-directml-dml_axis_direction)**
+Type: **[DML_AXIS_DIRECTION](./ne-directml-dml_axis_direction.md)**
 
-One of the values of the [DML_AXIS_DIRECTION](/windows/win32/direct3d12/directml/ne-directml-dml_axis_direction) enumeration. If set to **DML_AXIS_DIRECTION_INCREASING**, then the summation occurs by traversing the tensor along the specified axis by ascending element index. If set to **DML_AXIS_DIRECTION_DECREASING**, the reverse is true, and the summation occurs by traversing elements by descending index.
+One of the values of the [DML_AXIS_DIRECTION](./ne-directml-dml_axis_direction.md) enumeration. If set to **DML_AXIS_DIRECTION_INCREASING**, then the summation occurs by traversing the tensor along the specified axis by ascending element index. If set to **DML_AXIS_DIRECTION_DECREASING**, the reverse is true, and the summation occurs by traversing elements by descending index.
 
 
 `HasExclusiveSum`

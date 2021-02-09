@@ -48,7 +48,7 @@ api_name:
 Performs a convolution of the *FilterTensor* with the *InputTensor*. This operator performs forward convolution on integer data. Optional zero point tensors can also be used to subtract zero point values from the input and filter tensor.
 
 > [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](/windows/win32/direct3d12/dml-version-history).
+> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](../dml-version-history.md).
 
 ## Syntax
 ```cpp

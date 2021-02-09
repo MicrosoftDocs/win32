@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Icons (Design basics)
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Icons are pictorial representations of objects, important not only for aesthetic reasons as part of the visual identity of a program, but also for utilitarian reasons as shorthand for conveying meaning that users perceive almost instantaneously. Windows Vista introduces a new style of iconography that brings a higher level of detail and sophistication to Windows.
 
@@ -355,10 +355,4 @@ Try iterations in context.
 ![figure of two sets of folders in tree view ](images/vis-icons-image25.png)
 
  
-
- 
-
-
-
-
 

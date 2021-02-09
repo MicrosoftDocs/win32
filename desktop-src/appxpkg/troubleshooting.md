@@ -604,7 +604,7 @@ To fix this issue:
 
 If you need further help with resolving a problem you are experience when packaging, deploying, or querying a Windows app package (.msix/.appx) as a developer, refer to these additional developer support resources.
 
-- [Microsoft Q&A](https://docs.microsoft.com/answers/topics/uwp.html?sort=active&filter=all) offers relevant and timely answers to your technical problems from a community of experts and Microsoft engineers.
+- [Microsoft Q&A](/answers/topics/uwp.html?filter=all&sort=active) offers relevant and timely answers to your technical problems from a community of experts and Microsoft engineers.
 - For community assistance with development questions, there are our [forums](https://social.msdn.microsoft.com/Forums/newthread?category=windowsapps&forum=wpdevelop&prof=required), and [StackOverflow](https://stackoverflow.com/questions).
 - The [Windows developer support](https://developer.microsoft.com/windows/support) site explains other support options.
 

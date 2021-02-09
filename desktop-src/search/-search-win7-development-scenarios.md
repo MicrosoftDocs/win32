@@ -67,7 +67,7 @@ Library description files are XML files with the file name extension .library-ms
 
 ## Related topics
 
-[Windows 7 Search](-search-new-for-win7.md)
+[Windows 7 Search](./-search-3x-wds-overview.md)
 
 [New for Windows 7 Search](new-for-windows-7-search.md)
 

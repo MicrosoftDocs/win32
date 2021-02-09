@@ -213,7 +213,7 @@ There are Windows 7 conceptual overviews for the following areas.
 
 <dl> <dt>
 
-[Windows 7 Search](-search-new-for-win7.md)
+[Windows 7 Search](./-search-3x-wds-overview.md)
 </dt> <dt>
 
 [Indexing Prioritization and Rowset Events in Windows 7](indexing-prioritization-and-rowset-events.md)

@@ -119,7 +119,7 @@ DirectMLX supports compile-time #define's to customize various parts of the head
 
 For most operators, DirectMLX computes the properties of the operator's output tensors on your behalf. For example when performing a `dml::Reduce` across axes `{ 0, 2, 3 }` with an input tensor of sizes `{ 3, 4, 5, 6 }`, DirectMLX will automatically compute the properties of the output tensor including the correct shape of `{ 1, 4, 1, 1 }`.
 
-However, the other properties of an output tensor include the *Strides*, *TotalTensorSizeInBytes*, and *GuaranteedBaseOffsetAlignment*. By default, DirectMLX sets these properties such that the tensor has no striding, no guaranteed base offset alignment, and a total tensor size in bytes as computed by [DMLCalcBufferTensorSize](/windows/win32/direct3d12/dml-helper-functions#dmlcalcbuffertensorsize).
+However, the other properties of an output tensor include the *Strides*, *TotalTensorSizeInBytes*, and *GuaranteedBaseOffsetAlignment*. By default, DirectMLX sets these properties such that the tensor has no striding, no guaranteed base offset alignment, and a total tensor size in bytes as computed by [DMLCalcBufferTensorSize](./dml-helper-functions.md#dmlcalcbuffertensorsize).
 
 DirectMLX supports the ability to customize these output tensor properties, using objects known as *tensor policies*. A **TensorPolicy** is a customizable callback that is invoked by DirectMLX, and returns output tensor properties given a tensor's computed data type, flags, and sizes.
 
@@ -168,5 +168,5 @@ auto result = dml::Convolution(/* ... */);
 
 * [DirectML GitHub](https://github.com/microsoft/DirectML/tree/master/Libraries)
 * [DirectMLX yolov4 sample](https://github.com/microsoft/DirectML/tree/master/Samples/yolov4)
-* [Using strides to express padding and memory layout](/windows/win32/direct3d12/dml-strides)
-* [DML_GRAPH_DESC structure](/windows/win32/direct3d12/directml/ns-directml-dml_graph_desc)
+* [Using strides to express padding and memory layout](./dml-strides.md)
+* [DML_GRAPH_DESC structure](./directml/ns-directml-dml_graph_desc.md)

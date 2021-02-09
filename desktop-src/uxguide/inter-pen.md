@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Pen
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 All Microsoft Windows applications should be pen enabled. And doing so is easier than you think.
 
@@ -239,6 +239,4 @@ When referring to pen input:
 -   Refer to the button on the side of a pen as the pen button, not the barrel button.
 -   Refer generically to the keyboard, mouse, trackball, pen, or finger as an input device.
 -   Use tap (and double-tap) instead of click when documenting procedures specific to using a pen. Tap means to press the screen and then lift before a hold time. It may or may not be used to generate a mouse click. For interactions that don't involve the pen, continue to use click.
-
- 
 

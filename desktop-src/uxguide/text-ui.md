@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # User Interface Text
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 User interface text appears on UI surfaces. This text includes control labels and static text:
 
@@ -612,8 +612,6 @@ The following table shows the most common commit button labels and their usage.
 </table>
 
 
-
- 
 
  
 

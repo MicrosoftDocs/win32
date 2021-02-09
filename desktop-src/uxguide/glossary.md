@@ -9,9 +9,9 @@ ms.date: 10/20/2020
 # Glossary (Design basics)
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
-[A](#glossary) \| [B](#b) \| [C](#c) \| [D](#d) \| [E](#e) \| [F](#f) \| [G](#g) \| [H](#h) \| [I](#i) \| [J](#j) \| [K](#k) \| [L](#l) \| [M](#m) \|
+[A](#a) \| [B](#b) \| [C](#c) \| [D](#d) \| [E](#e) \| [F](#f) \| [G](#g) \| [H](#h) \| [I](#i) \| [J](#j) \| [K](#k) \| [L](#l) \| [M](#m) \|
 
 [N](#n) \| [O](#o) \| [P](#p) \| [Q](#q) \| [R](#r) \| [S](#s) \| [T](#t) \| [U](#u) \| [V](#v) \| [W](#w) \| [X](#x) \| [Y](#y) \| [Z](#z)
 
@@ -81,7 +81,7 @@ A common Windows control that informs users of a non-critical problem or special
 
 **breadcrumb bar**
 
-A navigational element, usually appearing at the top of a window, that displays, and allows users to change, their current location. "Breadcrumb" refers to breaking the current location into a series of links separated by arrows that users can interact with directly. Use address bar instead. See also: [address bar](#glossary).
+A navigational element, usually appearing at the top of a window, that displays, and allows users to change, their current location. "Breadcrumb" refers to breaking the current location into a series of links separated by arrows that users can interact with directly. Use address bar instead. See also: [address bar](#a).
 
 ## C
 
@@ -379,7 +379,7 @@ A program session. For example, Windows Internet Explorer allows users to run mu
 
 **keytip**
 
-In a ribbon, the mechanism used to display access keys. The access keys appear in the form of a small tip over each command or group, as opposed to the underlined letters typically used to display access keys. See also: [access key](#glossary).
+In a ribbon, the mechanism used to display access keys. The access keys appear in the form of a small tip over each command or group, as opposed to the underlined letters typically used to display access keys. See also: [access key](#a).
 
 ## L
 
@@ -888,7 +888,3 @@ The layered relationship of windows on the display.
  
 
  
-
-
-
-

@@ -58,7 +58,7 @@ The **IDWriteBitmapRenderTarget2** interface has these methods.
 
 | Method | Description |
 | ---- |:---- |
-| [IDWriteBitmapRenderTarget2::GetBitmapData](/windows/win32/DirectWrite/dwrite_3/nf-dwrite_3-idwritebitmaprendertarget2-getbitmapdata) | Retrieves the pixel data from a bitmap render target. |
+| [IDWriteBitmapRenderTarget2::GetBitmapData](./nf-dwrite_3-idwritebitmaprendertarget2-getbitmapdata.md) | Retrieves the pixel data from a bitmap render target. |
 
 ## Requirements
 | &nbsp; | &nbsp; |

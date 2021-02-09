@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # List Views
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 With a list view, users can view and interact with a collection of data objects, using either single selection or multiple selection.
 
@@ -351,10 +351,4 @@ When referring to check boxes in a list view:
 Example: Select the **Underline** check box.
 
  
-
- 
-
-
-
-
 

@@ -50,7 +50,7 @@ Output = FusedActivation(Scale * ((Input - Mean) / sqrt(Variance + Epsilon)) + B
 ```
 
 > [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](/windows/win32/direct3d12/dml-version-history).
+> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](../dml-version-history.md).
 
 ## Syntax
 ```cpp
@@ -160,4 +160,4 @@ This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 
 ## See also
 
-[Using fused operators for improved performance](/windows/win32/direct3d12/dml-fused-activations)
+[Using fused operators for improved performance](../dml-fused-activations.md)
