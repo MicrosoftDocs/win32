@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 COM+ threading models are designed around an object collection called an apartment. An apartment is a collection of contexts contained in a process, as shown in the following illustration.
 
-![](images/6b86fe3b-262a-483a-a418-67d60f9a5d68.png)
+![Diagram that shows a collection of contexts in an activity, within an apartment, within a process.](images/6b86fe3b-262a-483a-a418-67d60f9a5d68.png)
 
 Calls within an apartment are direct, while calls across apartments (out-of-process) are indirect and require proxy and stub code. Apartments allow for objects with different synchronization and reentrancy properties and have two categories: single-threaded and multithreaded. Objects in a single-threaded apartment (STA) execute on the particular thread in which they were created. STAs allow only one method to execute at a time. They are designed for user interfaces and rely on the Microsoft Windows message queue to process incoming calls.
 

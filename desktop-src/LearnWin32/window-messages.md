@@ -85,7 +85,7 @@ The [**PostQuitMessage**](/windows/desktop/api/winuser/nf-winuser-postquitmessag
 // Correct.
 
 MSG msg = { };
-while (GetMessage(&msg, NULL, 0, 0))
+while (GetMessage(&msg, NULL, 0, 0) > 0)
 {
     TranslateMessage(&msg);
     DispatchMessage(&msg);

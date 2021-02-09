@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 You can also load an existing Windows sound file (.wav) or linguistically enhanced sound file (.lwv) by choosing the **Open** command from the **File** menu or the toolbar. This displays the **Open** dialog box. Select a file and click **Open** to load the file into the editor.
 
-![](images/f2listdial.gif)
+![Screenshot that shows the 'Open' dialog when loading an existing file.](images/f2listdial.gif)
 
  
 

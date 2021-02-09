@@ -19,7 +19,7 @@ An object's properties are exposed to clients the same as methods through either
 
 These features are illustrated in the following diagram:
 
-![](images/7ea02938-c2fc-4ad0-a8b1-25222ca890ea.png)
+![Diagram that shows the property sheets and property pages features.](images/7ea02938-c2fc-4ad0-a8b1-25222ca890ea.png)
 
 These interfaces are defined as follows:
 

@@ -24,7 +24,7 @@ Developers specify these elements by using [**ALG\_ID**](/windows/desktop/SecCry
 
 In earlier versions of Windows, TLS cipher suites and elliptical curves were configured by using a single string:
 
-![](images/tls-cipher-suite.png)
+![Diagram that shows a single string for a Cipher Suite.](images/tls-cipher-suite.png)
 
 Different Windows versions support different TLS cipher suites and priority order. See the corresponding Windows version for the default order in which they are chosen by the Microsoft Schannel Provider.
 

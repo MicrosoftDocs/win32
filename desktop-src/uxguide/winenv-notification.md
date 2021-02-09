@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Notification Area
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 The notification area provides notifications and status. Well-designed programs use the notification area appropriately, without being annoying or distracting.
 
@@ -23,7 +23,7 @@ The notification area.
 
 To give users control of their desktop in Windows 7, not all notification area icons are displayed by default. Rather, icons are displayed in the notification area overflow unless promoted to the notification area by the user.
 
-![screen shot of notification area and overflow ](images/winenv-notification-image2.png)
+![Screenshot that shows a notification area and overflow.](images/winenv-notification-image2.png)
 
 The notification area overflow.
 
@@ -132,15 +132,15 @@ Notification area icons have several usage patterns:
 <tbody>
 <tr class="odd">
 <td><strong>System status and access</strong><br/> Displayed continuously to show important but not critical system status, and to provide access to relevant features and settings. <br/></td>
-<td>System features that need notification area icons have no persistent desktop presence. Can also be used as a notification source. <br/> <img src="images/winenv-notification-image8.png" alt="Screen shot of notification area and icons " /><br/> In this example, the battery, network, and volume icons are displayed continuously when applicable.<br/></td>
+<td>System features that need notification area icons have no persistent desktop presence. Can also be used as a notification source. <br/> <img src="images/winenv-notification-image8.png" alt="Screenshot that shows a notification area and icons for system status." /><br/> In this example, the battery, network, and volume icons are displayed continuously when applicable.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>Background task status and access</strong><br/> Displayed while a background task is running to show status and provide access to features and settings. <br/></td>
-<td>Background processes need notification area icons when they have no desktop presence. Can also be used as a notification source. <br/> <img src="images/winenv-notification-image9.png" alt="Screen shot of notification area and icon " /><br/> In this example, the Action Center icon allows users to check its status even when it has no desktop presence.<br/></td>
+<td>Background processes need notification area icons when they have no desktop presence. Can also be used as a notification source. <br/> <img src="images/winenv-notification-image9.png" alt="Screenshot that shows notification area and icon for background task status." /><br/> In this example, the Action Center icon allows users to check its status even when it has no desktop presence.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>Temporary event status</strong><br/> Programs with desktop presence can display icons temporarily to show important events or changes in status. <br/></td>
-<td><img src="images/winenv-notification-image10.png" alt="Screen shot of notification area and icons " /><br/> In this example, icons for printing and installing updates are displayed temporarily to show important events or changes in status.<br/></td>
+<td><img src="images/winenv-notification-image10.png" alt="Screenshot that shows notification area and icons for a temporary event status." /><br/> In this example, icons for printing and installing updates are displayed temporarily to show important events or changes in status.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>Temporary notification source</strong><br/> Displayed temporarily to show a notification. Removed after a timeout, or when the underlying problem is addressed or task performed. <br/></td>
@@ -180,14 +180,13 @@ If all these conditions apply, minimizing to an icon eliminates having two acces
 
 
 
-|                                      |                                          |
-|--------------------------------------|------------------------------------------|
-| **Pattern**<br/>               | **When to remove**<br/>            |
-| Action success<br/>            | When notification is removed.<br/> |
-| Action failure<br/>            | When problem is resolved.<br/>     |
-| Non-critical system event<br/> | When problem is resolved.<br/>     |
-| Optional user task<br/>        | When task is done.<br/>            |
-| FYI<br/>                       | When notification is removed.<br/> |
+    | Pattern                                     | When to remove                                         |
+    |--------------------------------------|------------------------------------------|
+    | Action success<br/>            | When notification is removed.<br/> |
+    | Action failure<br/>            | When problem is resolved.<br/>     |
+    | Non-critical system event<br/> | When problem is resolved.<br/>     |
+    | Optional user task<br/>        | When task is done.<br/>            |
+    | FYI<br/>                       | When notification is removed.<br/> |
 
 
 
@@ -209,9 +208,8 @@ Windows launched from notification area icons are displayed near the notificatio
 
 -   **Choose the icon based on its design pattern:**
 
-    |                                                  |                                    |
+    | Pattern                                                 | Icon type                                   |
     |--------------------------------------------------|------------------------------------|
-    | **Pattern**<br/>                           | **Icon type**<br/>           |
     | System status and access<br/>              | System feature icon<br/>     |
     | Background task status and access<br/>     | Program or feature icon<br/> |
     | Temporary notification source<br/>         | Program or feature icon<br/> |
@@ -229,9 +227,8 @@ Windows launched from notification area icons are displayed near the notificatio
 -   **Choose an easily recognizable icon design.** Prefer icons with unique outlines over square or rectangular shaped icons. Keep the designs simple prefer symbols over realistic images. Apply the other [Aero-style icon guidelines](vis-icons.md) as well.
 -   **Use icon variations or overlays to indicate status or status changes.** Use icon variations to show changes in quantities or strengths. For other types of status, use the following standard overlays. Use only a single overlay, and locate it bottom-right for consistency. 
 
-    |                                                                                                        |                                  |
+    | Overlay                                                                                                       | Status                                 |
     |--------------------------------------------------------------------------------------------------------|----------------------------------|
-    | **Overlay**<br/>                                                                                 | **Status**<br/>            |
     | ![screen shot of small warning icon ](images/winenv-notification-image16.png)<br/>               | Warning<br/>               |
     | ![screen shot of small error icon ](images/winenv-notification-image17.png)<br/>                 | Error<br/>                 |
     | ![screen shot of small disabled/disconnected icon ](images/winenv-notification-image18.png)<br/> | Disabled/Disconnected<br/> |
@@ -362,7 +359,7 @@ Opt in to notifications (check mark)
 -   **Remove rather than disable any context menu items that don't apply.**
 -   For Open, Run, and Suspend/Resume commands, **be specific about what is being opened, run, suspended, and resumed.**
 
-![screen shot of notification area and commands ](images/winenv-notification-image29.png)
+![Screenshot that shows a notification area and commands.](images/winenv-notification-image29.png)
 
 In this example, Windows Defender has specific Open and Run commands.
 
@@ -510,10 +507,4 @@ When referring to a notification area icon:
 **Example:** To check the network status quickly, click the **Network** icon in the notification area.
 
  
-
- 
-
-
-
-
 

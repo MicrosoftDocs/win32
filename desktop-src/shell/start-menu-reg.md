@@ -111,7 +111,8 @@ HKEY_LOCAL_MACHINE
             (Default) = LITVIEW.EXE
 ```
 
-> [!Note]In Windows Vista, the user-level default web browser should be set using the **Default Programs** tool, not [SPAD](cpl-setprogramaccess.md).
+> [!Note]
+> In Windows Vista, the user-level default web browser should be set using the **Default Programs** tool, not [SPAD](cpl-setprogramaccess.md).
 >
 > **The following information applies to Windows XP only.**
 >

@@ -60,7 +60,7 @@ HRESULT GetBitmapData(
 
 `bitmapData`
 
-Type: \_Out\_**[DWRITE_BITMAP_DATA_BGRA32](/windows/win32/DirectWrite/dwrite_3/ns-dwrite_3-dwrite_bitmap_data_bgra32)\***
+Type: \_Out\_**[DWRITE_BITMAP_DATA_BGRA32](./ns-dwrite_3-dwrite_bitmap_data_bgra32.md)\***
 
 A pointer to the pixel data.
 

@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Interaction
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Interaction is the variety of ways users interact with your app, including touch, keyboard, mouse, and so on. Use these guidelines to create intuitive and distinctive experiences that are optimized for touch but work consistently across input devices.
 
@@ -86,6 +86,4 @@ Timed interactions typically depend on invisible thresholds like time, distance,
 Interactions that directly affect objects and mimic real world interactions are more intuitive, discoverable, and memorable. They don't rely on obscure or abstract interactions.
 
 **Note:** An exception to this is where you use specific timed interactions to assist in learning and exploration (for example, press and hold). Using appropriate descriptions and visual cues has a great effect on the use of advanced interactions.
-
- 
 

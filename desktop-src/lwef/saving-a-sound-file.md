@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 When you are ready to save your sound file, choose the **Save** command on the **File** menu or on the editor's toolbar. The editor displays the **Save As** dialog box and proposes a name and default file type based on whether you generated linguistic information for the file. If you save the file as a sound file (.wav), the editor saves just the audio data. If you save the file information as a linguistically enhanced sound file (.lwv), the word and phoneme information are automatically included as part of a modified sound file. After you have confirmed or edited the name, location, file type, and format, choose the **Save** button.
 
-![](images/f7listsave.gif)
+![Screenshot that shows the 'Save As' dialog with a 'File name', 'Save as type', 'Format', and 'Attributes' selected.](images/f7listsave.gif)
 
 If you want to save a sound file with a new name, different location, or different format, choose the **Save As** command on the **File** menu. When the **Save As** dialog box appears, type in the new filename and click the **Save** button.
 

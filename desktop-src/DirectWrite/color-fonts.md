@@ -30,7 +30,7 @@ Most fonts for reading and writing the fonts you are probably most familiar with
 
 The following example shows a glyph from the Segoe UI Emoji color font. The glyph is rendered in monochrome on the left, and in color on the right.
 
-![](images/color-font-cat.png)
+![Shows side-by-side glyphs, the left glyph rendered in monochrome, the right in Segoe U I Emoji color font.](images/color-font-cat.png)
 
 Color fonts typically include fallback information for platforms that do not support color fonts or for scenarios in which color functionality has been disabled. On those platforms, color fonts are rendered as regular monochromatic fonts.
 

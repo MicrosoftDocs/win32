@@ -21,12 +21,12 @@ ms.date: 05/31/2018
 
 This section of the reference contains an alphabetical listing of the most important enumerations that are used by WCS 1.0:
 
--   [**BMFORMAT**](bmformat.md)
--   [**COLORDATATYPE**](colordatatype.md)
--   [COLORPROFILESUBTYPE](colorprofilesubtype.md)
--   [COLORPROFILETYPE](colorprofiletype.md)
--   [**COLORTYPE**](colortype.md)
--   [**WCS\_PROFILE\_MANAGEMENT\_SCOPE**](wcs-profile-management-scope.md)
+-   [**BMFORMAT**](/windows/win32/api/icm/ne-icm-bmformat)
+-   [**COLORDATATYPE**](/windows/win32/api/icm/ne-icm-colordatatype)
+-   [**COLORPROFILESUBTYPE**](/windows/win32/api/icm/ne-icm-colorprofilesubtype)
+-   [**COLORPROFILETYPE**](/windows/win32/api/icm/ne-icm-colorprofiletype)
+-   [**COLORTYPE**](/windows/win32/api/icm/ne-icm-colortype)
+-   [**WCS\_PROFILE\_MANAGEMENT\_SCOPE**](/windows/win32/api/icm/ne-icm-wcs_profile_management_scope)
 
  
 

@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Setup
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Users don't enjoy installing software, so modern setup experiences need to be simple, efficient, and problem-free.
 
@@ -17,7 +17,7 @@ Setup usually refers to the experience of installing and initially configuring a
 
 Most users regard setup as a necessary evil, to be performed as quickly as possible. The point of installing the program is to use it, not to make innumerable decisions about configuration and usage, or, worse yet, to spend a lot of time answering personal questions used for registration or marketing purposes.
 
-![screen shot of setup dialog box with four options ](images/exper-setup-image1.png)
+![Screenshot that shows a setup dialog box with four options.](images/exper-setup-image1.png)
 
 A streamlined setup experience.
 

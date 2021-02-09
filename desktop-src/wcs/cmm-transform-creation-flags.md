@@ -50,7 +50,7 @@ Moving from PROOF\_MODE to BEST\_MODE, output quality generally improves and tra
 
 <dl> <dt>
 
-[Basic Color Management Concepts](basic-color-management-concepts.md)
+[Basic color management concepts](basic-color-management-concepts.md)
 </dt> <dt>
 
 [ICM Constants](wcs-constants.md)

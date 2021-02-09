@@ -25,6 +25,7 @@ HLSL supports many different intrinsic data types. This table shows which types 
 | [Sampler](dx-graphics-hlsl-sampler.md), [Texture](dx-graphics-hlsl-texture.md) or [Buffer](dx-graphics-hlsl-buffer.md)   | Sampler, texture, or buffer object         |
 | [Struct](dx-graphics-hlsl-struct.md), [User Defined](dx-graphics-hlsl-user-defined.md)                                | Custom structure or typedef                |
 | Array                                                                                   | Literal scalar expressions declared containing most other types                       |
+| [State Object](dx-graphics-hlsl-state-object.md) | HLSL representations of state objects |
 
 
  
