@@ -706,31 +706,25 @@
     "template": [],
     "dest": "desktop",
 
+    "markdownEngineName": "markdig",
     "rules": {
-      "sensitive-language-sl": {
+      "sensitive-language": {
         "exclude": [
-          "DirectShow/alphabetical-list-of-directshow-interfaces.md",
-          "DirectShow/audio-capture-and-rendering-interfaces.md",
-          "DirectShow/audio-renderer--waveout--filter.md",
-          "DirectShow/directsound-renderer-filter.md",
-          "DirectShow/midi-renderer-filter.md",
-          "DNS/dns-wmi-provider-samples-managing-a-dns-server.md",
-          "DNS/microsoftdns-server.md",
-          "DNS/microsoftdns-zone.md",
-          "HyperV_v2/cim-fcport.md",
-          "HyperV_v2/msvm-externalfcport.md",
-          "HyperV_v2/msvm-fcswitchport.md",
-          "HyperV_v2/msvm-syntheticfcport.md",
-          "Multimedia/changing-sequencer-synchronization.md",
-          "Multimedia/mci-seq-set-parms.md",
-          "Multimedia/mci-set.md",
-          "Multimedia/mci-status.md",
-          "Multimedia/set.md",
-          "Multimedia/status.md"
+           "DNS/microsoftdns-zone-forcerefresh.md",
+           "DNS/dns-wmi-provider-samples-managing-a-dns-server.md",
+           "DNS/microsoftdns-zone.md",
+           "HyperV_v2/msvm-fcswitchport.md",
+           "HyperV_v2/msvm-externalfcport.md",
+           "HyperV_v2/msvm-syntheticfcport.md",
+           "Multimedia/mci-status.md",
+           "Multimedia/set.md",
+           "Multimedia/changing-sequencer-synchronization.md",
+           "Multimedia/mci-set.md",
+           "Multimedia/status.md",
+           "HyperV_v2/cim-fcport.md"
         ]
       }
-    },
+    }
 
-    "markdownEngineName": "markdig"
   }
 }
