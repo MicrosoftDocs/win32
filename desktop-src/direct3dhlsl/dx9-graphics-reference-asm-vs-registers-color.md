@@ -24,7 +24,7 @@ These vertex shader output registers contain a color value.
 
  
 
-The oD0 value is interpolated and is written to the pixel shader color register 0 (v0). The oD1 value is interpolated and written to the pixel shader color register 1 (v1). For more information about pixel shader color registers, see the pixel shader [Input Color Register](dx9-graphics-reference-asm-ps-registers-input-color.md) page.
+The oD0 value is interpolated and is written to the pixel shader color register 0 (v0). The oD1 value is interpolated and written to the pixel shader color register 1 (v1). For more information about pixel shader color registers, see the pixel shader [Input Color Register](dx9-graphics-reference-asm-ps-registers-input-color.md) topic.
 
 ## Remarks
 

@@ -137,7 +137,7 @@ As an example of opaque encoding, assume that the colors red and black are at th
 
 The bitmap then looks like the following diagram.
 
-![diagram of the expanded bitmap layout](images/colors2.png)
+![Diagram that shows the expanded bitmap layout.](images/colors2.png)
 
 This looks like the following illustrated series of colors.
 

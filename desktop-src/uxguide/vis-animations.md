@@ -21,7 +21,7 @@ Microsoft Windows uses a background flash animation to give feedback that the ob
 
 Transitions are animations used to keep users oriented during user interface (UI) state changes and object manipulations, and make those changes feel smooth instead of jarring. Good transitions feel natural, often giving the illusion that users are interacting with real-world objects.
 
-![screen shot of three sizes of weather gadgets ](images/vis-animations-image2.png)
+![Screenshot that shows three sizes of weather gadgets.](images/vis-animations-image2.png)
 
 Windows Desktop Gadgets use smooth transitions between their concise and details states.
 
@@ -516,13 +516,12 @@ Transitions have several usage patterns:
 
 
 
-|                           |                                      |
-|---------------------------|--------------------------------------|
-| **Transition**<br/> | **Meaning**<br/>               |
-| From left<br/>      | Move back in task flow<br/>    |
-| From right<br/>     | Move forward in task flow<br/> |
-| From top<br/>       | Move up task hierarchy<br/>    |
-| From bottom<br/>    | Move down task hierarchy<br/>  |
+    | Transition                          | Meaning                                     |
+    |---------------------------|--------------------------------------|
+    | From left<br/>      | Move back in task flow<br/>    |
+    | From right<br/>     | Move forward in task flow<br/> |
+    | From top<br/>       | Move up task hierarchy<br/>    |
+    | From bottom<br/>    | Move down task hierarchy<br/>  |
 
 
 

@@ -32,11 +32,11 @@ After you have determined your global animation settings, you can begin creating
 
 Every animation is composed of frames. To create a new frame for your animation, choose **New Frame** from either the **Edit** menu or the toolbar. This adds a new frame icon to the tree under your animation icon, and displays three tabbed pages. The **General** page includes controls that enable you to load and adjust an image for your frame. It also includes a display area for the frame's appearance.
 
-![](images/f2charflame.gif)
+![Screenshot that shows the Image pane with the filename, path, and position.](images/f2charflame.gif)
 
 A frame can contain one or more images. To define an image for a frame, click the **Add Image File** button just above the **Images** list box. The **Select Image Files** dialog box displays, which allows you to select a bitmap image file.
 
-![](images/f3chardialbox.gif)
+![Screenshot that shows an image file being selected in File Explorer.](images/f3chardialbox.gif)
 
 Select the file you want to load, choose **Open**, and the image appears in the frame display on the **General** page. The Editor accepts images stored as 1-bit (monochrome), 4-bit, or 8-bit Windows bitmap format, or as GIF format.
 
@@ -44,11 +44,11 @@ You can use the four arrow buttons beneath the image in the **Position** box to 
 
 You can also display a frame by choosing **Open Frame Window** from the **Edit** menu. This displays the current frame in a separate window without scaling the images loaded into the frame. This window's initial size is based on your frame's height and width settings. You can resize it smaller, but not larger. The Frame Window reflects the changes you make using the controls in the Editor and also allows you view the frame while viewing its other property pages.
 
-![](images/f4charposctrl.gif)
+![Screenshot that shows the Position pane.](images/f4charposctrl.gif)
 
 You can compose a frame from multiple images. Each time you select the **Add Image** button and choose another image, the image gets added to the list and to the image display area. You can also add multiple images by selecting more than one file. Press SHIFT or CTRL while you click in the **Select Image Files** dialog box, and then choose **Open**. The **Move Up** and **Move Down** buttons above the **Images** list box move a selected image in the display order (z-order) for the frame. You can also move images by dragging them within the list. Selecting an image in the list and clicking the **Delete** button removes an image. To change an image you have loaded to another image file, you can click the filename to edit it directly or use the **...** (ellipsis) button to bring up the **Select Image Files** dialog box and select a different file.
 
-![](images/f5charell.gif)
+![Screenshot that shows the ellipses button.](images/f5charell.gif)
 
 You can use the **Duration** text box to set the duration for the frame; that is, how long the frame will be displayed. If a frame has no image and zero duration, the frame will not be displayed when the animation plays.
 
@@ -64,7 +64,7 @@ You can also create an animation by copying an existing animation (select the an
 
 When you create a frame, you can also define which frame plays next. By default, the next frame played in the animation sequence is always the next frame in the z-order. However, by choosing the **Branching** page, you can set the probability for up to three other frames that the server may play. Enter the probability percentage and the target frame number in the appropriate fields. You can specify branching even for frames that don't have images and have their duration set to zero. This enables you to branch without first displaying a particular image.
 
-![](images/f6charbranch.gif)
+![Screenshot that shows the 'Branching' page.](images/f6charbranch.gif)
 
 You can use the branching feature to create animations that will loop indefinitely. However, note that when a looping animation plays, other animations in the character's queue will not play until an event—such as a user pressing the push-to-talk key or the client application calling the [**Stop**](stop-method.md) method—halts the looping animation. Therefore, carefully consider the context in which the animation will be used before creating a looping animation.
 
@@ -84,7 +84,7 @@ You can also preview your exit branching by choosing the **Preview Exit Branchin
 
 You can define a character so that it speaks during the last frame of its animation. On this frame, choose the **Overlay** page. This page enables you to load and assign mouth image files to the standard mouth positions supported by Microsoft Agent. Click the **Add Image** button and select the image from the dialog box. You can also select multiple images, and the Editor will load and assign the images starting with the mouth position you selected. Click the **Move Up** and **Move Down** buttons or drag an entry to change an image assignment in the list. Click the **Delete** button to remove an image. You can also edit the pathname of an assigned file by clicking its entry in the list and retyping its filename, or by choosing the **Ellipsis** button to display the **Select Image Files** dialog box.
 
-![](images/f7charover.gif)
+![Screenshot that shows the 'Overlays' page with a file selected.](images/f7charover.gif)
 
 Your mouth overlays must fit within the outline of the base frame over which they will appear. If they do not, they will be clipped to the base frame.
 
@@ -120,7 +120,7 @@ To print your character's definition, choose the **Print** command on the **File
 
 When you are done creating your animations, the character and images must be compiled into a special format that Microsoft Agent uses to load this data. To build a character, select the Build Character command on the **File** menu or from the toolbar. If you have unsaved edits in your character definition file, the Editor saves the definition file before displaying the **Build Character** dialog box.
 
-![](images/f8charbldg.gif)
+![Screenshot that shows the 'Build Character' window with a file selected.](images/f8charbldg.gif)
 
 The Agent Character Editor will automatically propose a filename based on your character definition filename. The Build Character dialog box also includes a drop-down list so you can choose between building the character as a single storage file (.ACS) or as multiple files. If you choose the latter, the Editor builds an .ACF file that includes character's data and an .ACA file for each animation you created. If you plan to install and access a character stored on the same computer as your client application, you would typically choose the single structured file format. This format provides easy and efficient installation and access to the character. However, if the character will be accessed from a web server using the HTTP protocol, build your character using the .ACF (individual) file format. This latter file structure allows a webpage script to load individual animation files, storing the data in the user's browser file cache. It provides more efficient access over the Web because animation data can be downloaded as needed rather than requiring the user to wait for the entire set of animations to download at one time. In addition, because the character's data is stored in the browser cache, the file space can be automatically reclaimed.
 

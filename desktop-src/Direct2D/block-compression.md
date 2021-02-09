@@ -38,7 +38,7 @@ Next, within a 4 by 4 block, two “reference” colors are selected and are enc
 
 In this figure, colors 0 and 3 are selected as “reference” colors for the block, while colors 1 and 2 are calculated using linear interpolation.
 
-![calculating 4 color values to represent the block.](images/dds2.png)
+![Diagram that shows the calculation of 4 color values to represent the block.](images/dds2.png)
 
 Finally, every pixel in the block is mapped to one of the four previously calculated colors, and each pixel is encoded using the two bit index value.
 

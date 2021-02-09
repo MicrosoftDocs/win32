@@ -12,7 +12,7 @@ The HTTP Server version 2.0 API provides the ability to build a safer, more reli
 
 Access to the request queue is granted when the controller process creates the request queue with a name and an Access Control List (ACL). Web applications that are included in the ACL can open an existing request queue by name. The creator process may also be a worker process on the request queue. For more information, see the [Named Request Queue](named-request-queue.md) topic. The following diagram shows the architecture of a typical HTTP application running with the worker process model:
 
-![](images/processisolation.png)
+![Diagram that shows the architecture of an H T T P application using the worker process model.](images/processisolation.png)
 
 Individual worker processes within the application are isolated from other worker processes, and the health of each the worker processes can be monitored by the controller process. The controller process is isolated from the worker processes. The components of the HTTP architecture are described below:
 

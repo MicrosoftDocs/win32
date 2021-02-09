@@ -17,7 +17,7 @@ There are two types of searches:
 
 -   **Instant search**, where the results are displayed immediately as the user types. No button needs to be clicked, so the magnifying glass search symbol is shown as a graphic, not a button.
 
-    ![screen shot of an instant search box ](images/ctrl-search-boxes-image1.png)
+    ![Screenshot that shows an instant search box with a 'Prompt' callout pointing at the Search box, and a 'Search symbol' callout pointing at the magnifying glass graphic.](images/ctrl-search-boxes-image1.png)
 
     A typical Search box using Instant search. Search is automatically executed on every keystroke.
 

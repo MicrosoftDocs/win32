@@ -51,7 +51,7 @@ You can request the **ACCESS\_SYSTEM\_SECURITY** access right to a job object if
 
 You must set security limitations individually for each process associated with a job object, rather than setting them for the job object itself. For information, see [Process Security and Access Rights](process-security-and-access-rights.md).
 
-**Windows Server 2003 and Windows XP:  ** You can use the [**SetInformationJobObject**](/windows/win32/api/jobapi2/nf-jobapi2-setinformationjobobject) function to set security limitations for the job object. This capability was removed in Windows Vista and Windows Server 2008.
+**Windows Server 2003 and Windows XP:** You can use the [**SetInformationJobObject**](/windows/win32/api/jobapi2/nf-jobapi2-setinformationjobobject) function to set security limitations for the job object. This capability was removed in Windows Vista and Windows Server 2008.
 
  
 

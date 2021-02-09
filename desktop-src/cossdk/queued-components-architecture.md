@@ -18,7 +18,7 @@ The COM+ queued components service consists of the following parts:
 -   Listener (for the server or receive side)
 -   Player (for the server or receive side)
 
-![](images/d732774b-1ca6-45ad-bce0-a95b0bfc3edb.png)
+![Diagram that shows the path from the client to the server: client, recorder, queue, listener, player, server.](images/d732774b-1ca6-45ad-bce0-a95b0bfc3edb.png)
 
 ## The Recorder
 

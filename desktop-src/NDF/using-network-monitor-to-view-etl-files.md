@@ -12,25 +12,25 @@ ms.date: 05/31/2018
 
 Correlated ETL files group the relevant events together. The illlustration below shows a correlated file opened in Network Monitor, with conversation enabled.
 
-![](images/ut-netmon1.png)
+![Screenshot that shows the Network Monitor, with correlated events highlighted in the left window and UTEvent highlighted from the drop-down.](images/ut-netmon1.png)
 
 Correlated events are grouped by activity in the left pane. You can select an event in the Frame Summary pane, then right-click to select the conversation at the network event level. This will display a related activity in the left pane.
 
 Selecting a particular activity from the left pane and expanding it will show the list of providers for the correlated events.
 
-![](images/ut-netmon2.png)
+![Screenshot that shows the Network Monitor with an activity selected from the left pane and events corresponding to that event in the right pane.](images/ut-netmon2.png)
 
 When you select a specific provider in the left pane, a list of events specific to that provider and activity will be displayed in the Frame Summary pane.
 
-![](images/ut-netmon3.png)
+![Screenshot that shows a specific provider selected in the left pane, and a list of events specific to the provider highlighted in the top-right pane.](images/ut-netmon3.png)
 
 Filters can be applied in Network Monitor to make it easier to view and find the right events or packet. For example, you can apply a filter to selected error events (for example, **UTEvent.Header.Descriptor.Level == 2**) to display them in a certain color.
 
-![](images/ut-netmon4.png)
+![Screenshot that shows the 'Edit Color Filter' dialog.](images/ut-netmon4.png)
 
 Filters can also be applied to mark different providers in different colors so that the results are easier to view.
 
-![](images/ut-netmon5.png)
+![Screenshot that shows an example of different providers marked in different colors.](images/ut-netmon5.png)
 
 To apply a filter, click **ColorFilters** on the **Filters** menu.
 

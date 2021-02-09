@@ -68,7 +68,7 @@ This section contains the following topics:
 
 ```
 HKEY_LOCAL_MACHINE
-   %APPLICATIONCAPABILITYPATH%
+   %ApplicationCapabilityPath%
       ApplicationDescription
       ApplicationName
       Hidden

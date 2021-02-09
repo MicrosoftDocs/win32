@@ -28,7 +28,7 @@ To decide, consider these questions:
 
 -   **Do users need to see the information in some but not all scenarios, or some but not all of the time?** If so, displaying the information using progressive disclosure simplifies the baseline experience, yet allows users to access the information easily.
 
-    ![screen shot of security center status display ](images/progressive-disclosure-controls-image2.png)
+    ![Screenshot that shows the security center status display.](images/progressive-disclosure-controls-image2.png)
 
     In this example, Security Center displays the important security status all the time, but uses progressive disclosure to display details on demand.
 
@@ -161,7 +161,7 @@ Plus and minus controls are used in the following ways:
 
 |                                                                                                |                                                                                                                                                                                                                                      |
 |------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Collapsible trees**<br/> a multi-level hierarchy to show container content.<br/> | ![screen shot of windows explorer folder tree ](images/progressive-disclosure-controls-image16.png)<br/> In this example, the plus and minus controls are positioned to the left of the associated container.<br/>       |
+| **Collapsible trees**<br/> a multi-level hierarchy to show container content.<br/> | ![Screenshot that shows a Windows Explorer folder tree with 'Behavior' selected.](images/progressive-disclosure-controls-image16.png)<br/> In this example, the plus and minus controls are positioned to the left of the associated container.<br/>       |
 | **Collapsible lists**<br/> a two-level hierarchy to show container content.<br/>   | ![screen shot of list expanded to show two levels ](images/progressive-disclosure-controls-image17.png)<br/> In this example, the plus and minus controls are positioned to the left of the associated list header.<br/> |
 
 

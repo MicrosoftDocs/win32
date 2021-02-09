@@ -25,7 +25,7 @@ In addition to disk objects, a pack can contain one or more LUN objects implemen
 
 The following illustration shows a pack with two members: a disk and a LUN. An application can add these objects to an online pack and create a volume from the underlying disk and drive extents represented by spindles.
 
-![](images/vdsdisksareluns.png)
+![Diagram that shows a 'Pack' with a disk and a LUN being added by an application to create a volume represented by a 'Drive' and 'Spindle'.](images/vdsdisksareluns.png)
 
 Use the [**IVdsSwProvider::CreatePack**](/windows/desktop/api/Vds/nf-vds-ivdsswprovider-createpack) method to create a new pack object. Callers can get a pointer to a specific pack by selecting the desired pack object from the enumeration that is returned by the [**IVdsSwProvider:: QueryPacks**](/windows/desktop/api/Vds/nf-vds-ivdsswprovider-querypacks) method. With a pack object, you can add, remove, or replace the members of a pack. When you add a disk object to a pack, VDS initializes a disk to unbind all existing volumes. In contrast, a LUN retains all binding details when it is added to a pack. If you remove the last disk from a pack, VDS deletes the pack object when the caller releases the last reference to the object.
 

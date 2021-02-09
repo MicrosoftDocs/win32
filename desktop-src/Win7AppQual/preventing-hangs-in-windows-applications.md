@@ -1,5 +1,5 @@
 ---
-description: .
+description: Learn how to prevent hangs in Windows applications for Windows 7 and Windows Server 2008 R2 platforms.
 ms.assetid: 698a046b-1934-49cd-a717-d61e7e1ec534
 title: Preventing Hangs in Windows Applications
 ms.topic: article
@@ -39,7 +39,7 @@ Detection is only the first step. At this point, the user still cannot even term
 
 The whole ghost experience looks like this:
 
-![](images/preventinghangs-ghostwindow.gif)
+![Screenshot that shows the 'Notepad is not responding' dialog.](images/preventinghangs-ghostwindow.gif)
 
 The Desktop Window Manager does one last thing; it integrates with Windows Error Reporting, allowing the user to not only close and optionally restart the application, but also send valuable debugging data back to Microsoft. You can get this hang data for your own applications by signing up at the Winqual website.
 
@@ -60,13 +60,13 @@ However, the user perceives this as a bug. The design should match the user's ex
 -   Make UI responsiveness a top-level requirement; the user should always feel in control of your application
 -   Ensure that users can cancel operations that take longer than one second to complete and/or that operations can complete in the background; provide appropriate progress UI if necessary
 
-![](images/preventinghangs-progressbar.gif)
+![Screenshot that shows the 'Copying items' dialog.](images/preventinghangs-progressbar.gif)
 
 -   Queue long-running or blocking operations as background tasks (this requires a well-thought out messaging mechanism to inform the UI thread when work has been completed)
 -   Keep the code for UI threads simple; remove as many blocking API calls as possible
 -   Show windows and dialogs only when they are ready and fully operational. If the dialog needs to display information that is too resource-intensive to calculate, show some generic information first and update it on the fly when more data becomes available. A good example is the folder properties dialog from Windows Explorer. It needs to display the folder's total size, information that is not readily available from the file system. The dialog shows up right away and the "size" field is updated from a worker thread:
 
-![](images/preventinghangs-updatingdialog.gif)
+![Screenshot that shows the 'General' page of Windows Properties with the 'Size', 'Size on disk', and 'Contains' text circled.](images/preventinghangs-updatingdialog.gif)
 
 Unfortunately, there is no simple way to design and write a responsive application. Windows does not provide a simple asynchronous framework that would allow for easy scheduling of blocking or long-running operations. The following sections introduce some of the best practices in preventing hangs and highlight some of the common pitfalls.
 

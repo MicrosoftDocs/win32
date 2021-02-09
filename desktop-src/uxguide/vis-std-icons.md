@@ -165,18 +165,17 @@ In the incorrect example, the standard warning icon doesn't match the main instr
 ### Icon size
 
 -   **Choose the standard icon size based on the context:**
--   
+  
 
 
 
-|                          |                                                                                         |
-|--------------------------|-----------------------------------------------------------------------------------------|
-| **Context**<br/>   | **When to use**<br/>                                                              |
-| Dialog boxes<br/>  | Use 32x32 pixel for content area icons; 16x16 pixel for footnote area icons.<br/> |
-| In-place<br/>      | Use 32x32 pixel for error pages; 16x16 pixel icons for all others.<br/>           |
-| Notifications<br/> | Use 16x16 pixel icons.<br/>                                                       |
-| Balloons<br/>      | Use 16x16 pixel icons.<br/>                                                       |
-| Banners<br/>       | Use 16x16 pixel icons.<br/>                                                       |
+    | Context                         | When to use                                                                                        |
+    |--------------------------|-----------------------------------------------------------------------------------------|
+    | Dialog boxes<br/>  | Use 32x32 pixel for content area icons; 16x16 pixel for footnote area icons.<br/> |
+    | In-place<br/>      | Use 32x32 pixel for error pages; 16x16 pixel icons for all others.<br/>           |
+    | Notifications<br/> | Use 16x16 pixel icons.<br/>                                                       |
+    | Balloons<br/>      | Use 16x16 pixel icons.<br/>                                                       |
+    | Banners<br/>       | Use 16x16 pixel icons.<br/>                                                       |
 
 
 
@@ -188,14 +187,13 @@ In the incorrect example, the standard warning icon doesn't match the main instr
 
 
 
-|                            |                                                                                                                                                                                                                                              |
-|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Context**<br/>     | **When to use**<br/>                                                                                                                                                                                                                   |
-| Dialog boxes<br/>    | Use for critical errors only. (don't use standard icons for non-critical errors.) <br/> ![screen shot of error icon used with error message ](images/vis-std-icons-image9.png)<br/>                                              |
-| In-place errors<br/> | Use for all errors. <br/> ![screen shot of error icon used with error message ](images/vis-std-icons-image10.png)<br/>                                                                                                           |
-| Notifications<br/>   | Use for critical errors only. (for [action failures](https://msdn.microsoft.com/library/windows/desktop/aa511497.aspx).) <br/> ![screen shot of error icon used with error message ](images/vis-std-icons-image11.png)<br/> |
-| Balloons<br/>        | Don't use. Balloons shouldn't be used for critical errors, and they don't need error icons for non-critical errors.<br/>                                                                                                               |
-| Banners<br/>         | Don't use. Banners shouldn't be used for errors.<br/>                                                                                                                                                                                  |
+    | Context                           | When to use                                                                                                                                                                                                                                             |
+    |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Dialog boxes<br/>    | Use for critical errors only. (don't use standard icons for non-critical errors.) <br/> ![Screenshot that shows the error icon used with error message ](images/vis-std-icons-image9.png)<br/>                                              |
+    | In-place errors<br/> | Use for all errors. <br/> ![screen shot of error icon used with an error message.](images/vis-std-icons-image10.png)<br/>                                                                                                           |
+    | Notifications<br/>   | Use for critical errors only. (for [action failures](https://msdn.microsoft.com/library/windows/desktop/aa511497.aspx).) <br/> ![Screenshot that shows an error icon used with a notification error message.](images/vis-std-icons-image11.png)<br/> |
+    | Balloons<br/>        | Don't use. Balloons shouldn't be used for critical errors, and they don't need error icons for non-critical errors.<br/>                                                                                                               |
+    | Banners<br/>         | Don't use. Banners shouldn't be used for errors.<br/>                                                                                                                                                                                  |
 
 
 
@@ -210,14 +208,13 @@ In the incorrect example, the standard warning icon doesn't match the main instr
 
 
 
-|                              |                                                                                                                                                                                        |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Context**<br/>       | **When to use**<br/>                                                                                                                                                             |
-| Dialog boxes<br/>      | Use for all warnings. <br/> ![screen shot warning of file-name extension change ](images/vis-std-icons-image12.png)<br/>                                                   |
-| In-place warnings<br/> | Use to identify the text as a warning. <br/> ![screen shot of warning of not enough free space ](images/vis-std-icons-image13.png)<br/>                                    |
-| Notifications<br/>     | Use for all warnings. (for [non-critical system events](glossary.md).) <br/> ![screen shot of low-battery warning notification ](images/vis-std-icons-image14.png)<br/> |
-| Balloons<br/>          | Use for [special conditions](ctrl-balloons.md). <br/> ![screen shot of balloon warning of caps lock on ](images/vis-std-icons-image15.png)<br/>                           |
-| Banners<br/>           | Use to draw attention to the banner. <br/> ![screen shot of banner with warning of missing tpm ](images/vis-std-icons-image16.png)<br/>                                    |
+    | Context                             |  When to use                                                                                                                                                                                      |
+    |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Dialog boxes<br/>      | Use for all warnings. <br/> ![screen shot warning of file-name extension change ](images/vis-std-icons-image12.png)<br/>                                                   |
+    | In-place warnings<br/> | Use to identify the text as a warning. <br/> ![screen shot of warning of not enough free space ](images/vis-std-icons-image13.png)<br/>                                    |
+    | Notifications<br/>     | Use for all warnings. (for [non-critical system events](glossary.md).) <br/> ![screen shot of low-battery warning notification ](images/vis-std-icons-image14.png)<br/> |
+    | Balloons<br/>          | Use for [special conditions](ctrl-balloons.md). <br/> ![screen shot of balloon warning of caps lock on ](images/vis-std-icons-image15.png)<br/>                           |
+    | Banners<br/>           | Use to draw attention to the banner. <br/> ![screen shot of banner with warning of missing tpm ](images/vis-std-icons-image16.png)<br/>                                    |
 
 
 
@@ -248,14 +245,13 @@ In this example, a yellow security shield is used in a footnote.
 
 
 
-|                          |                                                                                                                                                   |
-|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Context**<br/>   | **When to use**<br/>                                                                                                                        |
-| Dialog boxes<br/>  | Don't use.<br/>                                                                                                                             |
-| In-place<br/>      | Don't use. Use either plain static text or a banner instead.<br/>                                                                           |
-| Notifications<br/> | Don't use.<br/>                                                                                                                             |
-| Balloons<br/>      | Don't use.<br/>                                                                                                                             |
-| Banners<br/>       | use to draw attention to the banner. <br/> ![screen shot of banner with settings information ](images/vis-std-icons-image20.png)<br/> |
+    | Context                         | When to use                                                                                                                                                  |
+    |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Dialog boxes<br/>  | Don't use.<br/>                                                                                                                             |
+    | In-place<br/>      | Don't use. Use either plain static text or a banner instead.<br/>                                                                           |
+    | Notifications<br/> | Don't use.<br/>                                                                                                                             |
+    | Balloons<br/>      | Don't use.<br/>                                                                                                                             |
+    | Banners<br/>       | use to draw attention to the banner. <br/> ![screen shot of banner with settings information ](images/vis-std-icons-image20.png)<br/> |
 
 
 

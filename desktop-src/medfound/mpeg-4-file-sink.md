@@ -67,7 +67,7 @@ The MPEG-4 file sink has the following requirements for AVC bitstreams:
 
 -   The bitstream must conform to the H.264 Annex B format specification. In particular, NALUs must be delimited with either 3-byte or 4-byte start codes.
 -   Media samples must contain all slice and data NALUs that correspond to a single presentation time.
--   The MPEG-4 file sink does not support content that has B frames.
+-   When writing B-frames into an MP4 file, you must set both the presentation time stamp and the decode time stamp. If stream has a B frame and the decode timestamp is not set, the MP4 writer will see the frame time going backwards and will drop the frame. 
 
 ## AAC Audio
 

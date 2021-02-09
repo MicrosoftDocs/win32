@@ -62,7 +62,7 @@ Here are two of the most common ways to use this tool to sign the signable file.
     signtool sign /f MyCert.pfx /p MyCertPassword /v SignableFile.bin
     ```
 
-    ![command prompt window showing this command](images/signtool2.png)
+    ![Screenshot that shows a command prompt window showing the 'signtool sign /f MyCert.pfx /p MyCertPassword /v SignableFile.bin' command.](images/signtool2.png)
 
 -   If the code-signing certificate is available in your local certificate store:
 

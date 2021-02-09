@@ -87,7 +87,7 @@ If so, use the appropriate [common dialog](win-common-dlg.md) instead. Many of t
     -   Using a [split button](ctrl-command-buttons.md) to select variations of a command.
     -   Using a submenu for commands, check boxes, radio buttons and simple lists.
 
-![screen shot of a menu and submenu ](images/win-dialog-box-image4.png)
+![Screenshot that shows a menu and sub-menu.](images/win-dialog-box-image4.png)
 
 ![screen shot of a menu and submenu ](images/win-dialog-box-image5.png)
 
@@ -563,7 +563,7 @@ For more information and examples, see [Icons](vis-icons.md).
 
     **Incorrect:**
 
-    ![screen shot of message with ok for yes-no question ](images/win-dialog-box-image29.png)
+    ![Screenshot that shows a message with an 'OK' for a yes-no question.](images/win-dialog-box-image29.png)
 
     **Correct:**
 
