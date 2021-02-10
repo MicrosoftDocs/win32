@@ -4,7 +4,7 @@ description: A user-defined structure provided as an inout argument to a CallSha
 ms.assetid: 
 ms.date: 05/31/2018
 ms.localizationpriority: low
-ms.topic: structure
+ms.topic: language-reference
 ---
 
 # Call parameter structure

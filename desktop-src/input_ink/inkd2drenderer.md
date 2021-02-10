@@ -2,7 +2,7 @@
 description: Implements the IInkD2DRenderer interface.
 ms.assetid: d1bd910d-ce64-4424-a0e1-4f55110b0265
 title: InkD2DRenderer class
-ms.topic: interface
+ms.topic: language-reference
 ms.date: 02/03/2020
 topic_type: 
 - APIRef
