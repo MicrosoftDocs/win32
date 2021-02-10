@@ -42,6 +42,6 @@ This is covered under the low-precision feature bit (indicating that native half
 uint shadingRate : SV_ShadingRate
 ```
 
-An unsigned integer representing how many target pixels are written by each invocation of the pixel shader. Valid values belong to set of enumeration values [D3D12_SHADING_RATE](https://docs.microsoft.com/en-us/windows/win32/api/d3d12/ne-d3d12-d3d12_shading_rate).
+An unsigned integer representing how many target pixels are written by each invocation of the pixel shader. Valid values belong to set of enumeration values [D3D12_SHADING_RATE](/windows/win32/api/d3d12/ne-d3d12-d3d12_shading_rate).
 
-This system value is available on platforms which are [D3D12_VARIABLE_SHADING_RATE_TIER_2](https://docs.microsoft.com/en-us/windows/win32/api/d3d12/ne-d3d12-d3d12_variable_shading_rate_tier) or higher. It can be written from at most one of vertex or geometry shader stages. It can be read from the pixel shader stage. For more information, see the [Variable-rate Shading](https://docs.microsoft.com/en-us/windows/win32/direct3d12/vrs).
+This system value is available on platforms that are [D3D12_VARIABLE_SHADING_RATE_TIER_2](/windows/win32/api/d3d12/ne-d3d12-d3d12_variable_shading_rate_tier) or higher. It can be written from at most one of vertex or geometry shader stages. It can be read from the pixel shader stage. For more information, see the [Variable-rate Shading](/windows/win32/direct3d12/vrs).
