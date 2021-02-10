@@ -1,5 +1,5 @@
 ---
-Description: Deletes the specified reference point.
+description: Deletes the specified reference point.
 ms.assetid: cb5245b6-5984-40ec-a37e-e4a0a62e318a
 title: DestroyReferencePoint method of the Msvm_VirtualSystemReferencePointService class
 ms.topic: reference

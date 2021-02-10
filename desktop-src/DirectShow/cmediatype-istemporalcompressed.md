@@ -1,5 +1,5 @@
 ---
-Description: The IsTemporalCompressed method determines if the stream uses temporal compression.
+description: The IsTemporalCompressed method determines if the stream uses temporal compression.
 ms.assetid: 06a57655-a304-429d-a150-819072b91016
 title: CMediaType.IsTemporalCompressed method (Mtype.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The GetClassID method retrieves the class identifier. This method implements the IPersist::GetClassID method.
+description: The GetClassID method retrieves the class identifier. This method implements the IPersist::GetClassID method.
 ms.assetid: 95038b11-b56f-4ab9-aefa-4735651c3731
 title: CBaseMediaFilter.GetClassID method (Amfilter.h)
 ms.topic: reference

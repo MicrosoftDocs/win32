@@ -1,5 +1,5 @@
 ---
-Description: Filesystem path to the large thumbnail representation of the media item.
+description: Filesystem path to the large thumbnail representation of the media item.
 ms.assetid: 5a710c2d-ab79-4376-88be-26931346f116
 title: System.Media.ThumbnailLargePath
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: A 1 based monotonically incremented number that corresponds to the season that the show was first presented.
+description: A 1 based monotonically incremented number that corresponds to the season that the show was first presented.
 ms.assetid: 4c6a6f46-c1c3-4b33-94e7-d6b9a51fe6a9
 title: System.Media.SeasonNumber
 ms.topic: article

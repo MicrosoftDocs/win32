@@ -1,5 +1,5 @@
 ---
-Description: Decoder Settings for Windows Media Center Edition
+description: Decoder Settings for Windows Media Center Edition
 ms.assetid: 019b063f-f215-44d8-a916-3125bee6af93
 title: Decoder Settings for Windows Media Center Edition
 ms.topic: article

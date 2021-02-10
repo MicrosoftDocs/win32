@@ -1,5 +1,5 @@
 ---
-Description: The SetMediaTime method sets the media times for this sample. This method implements the IMediaSample::SetMediaTime method.
+description: The SetMediaTime method sets the media times for this sample. This method implements the IMediaSample::SetMediaTime method.
 ms.assetid: 768812f8-c044-4499-9149-7c334c51e539
 title: CMediaSample.SetMediaTime method (Amfilter.h)
 ms.topic: reference

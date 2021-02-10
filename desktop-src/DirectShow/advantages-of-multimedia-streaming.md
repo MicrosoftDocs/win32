@@ -1,5 +1,5 @@
 ---
-Description: Advantages of Multimedia Streaming
+description: Advantages of Multimedia Streaming
 ms.assetid: 01020ad5-430d-4b4d-8de3-bcc81270e132
 title: Advantages of Multimedia Streaming
 ms.topic: article

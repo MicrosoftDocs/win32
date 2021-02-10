@@ -1,5 +1,5 @@
 ---
-Description: Multimedia Streaming Data Types
+description: Multimedia Streaming Data Types
 ms.assetid: 750a7992-e2ef-4149-b1c8-c5201f6af035
 title: Multimedia Streaming Data Types
 ms.topic: article

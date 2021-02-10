@@ -1,5 +1,5 @@
 ---
-Description: Specifies if the stream contains an alpha channel.
+description: Specifies if the stream contains an alpha channel.
 ms.assetid: D2CD976F-1F07-4864-8CEC-1AA8E1D9ED45
 title: MF_MEDIA_ENGINE_STREAM_CONTAINS_ALPHA_CHANNEL attribute
 ms.topic: reference

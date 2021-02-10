@@ -1,5 +1,5 @@
 ---
-Description: Setting the Group Media Type
+description: Setting the Group Media Type
 ms.assetid: 05f0fdcb-74a4-441e-ac3c-d3d2c1dfee80
 title: Setting the Group Media Type
 ms.topic: article

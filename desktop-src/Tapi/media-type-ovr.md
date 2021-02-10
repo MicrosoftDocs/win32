@@ -1,5 +1,5 @@
 ---
-Description: The media type (or mode) of a device describes the type of information that can be exchanged, such as interactive voice. A given device might be able to handle only one media type, or it might be able to deal with a range of types.
+description: The media type (or mode) of a device describes the type of information that can be exchanged, such as interactive voice. A given device might be able to handle only one media type, or it might be able to deal with a range of types.
 ms.assetid: fccf85e9-3889-4ebc-b1bf-a60e27ab4586
 title: Media Type
 ms.topic: article

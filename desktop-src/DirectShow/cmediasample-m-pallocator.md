@@ -1,5 +1,5 @@
 ---
-Description: Pointer to the allocator that created this sample.
+description: Pointer to the allocator that created this sample.
 ms.assetid: b4faccec-9124-4ae6-8662-ac5eb017328a
 title: CMediaSample::m_pAllocator member (Amfilter.h)
 ms.topic: reference

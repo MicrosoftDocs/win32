@@ -1,5 +1,5 @@
 ---
-Description: Media Foundation Properties
+description: Media Foundation Properties
 ms.assetid: 98510fda-7e10-4b63-83d4-5a224aed67a3
 title: Media Foundation Properties
 ms.topic: article

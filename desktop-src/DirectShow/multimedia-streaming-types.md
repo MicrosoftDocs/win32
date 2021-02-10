@@ -1,5 +1,5 @@
 ---
-Description: Multimedia Streaming Types
+description: Multimedia Streaming Types
 ms.assetid: 0b2866cc-ff07-4cd9-b7df-6a05436251d3
 title: Multimedia Streaming Types
 ms.topic: article

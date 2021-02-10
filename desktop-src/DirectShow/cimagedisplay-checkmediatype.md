@@ -1,5 +1,5 @@
 ---
-Description: The CheckMediaType method determines whether a proposed media type is compatible with the display format.
+description: The CheckMediaType method determines whether a proposed media type is compatible with the display format.
 ms.assetid: 567663cf-c79f-4549-9fa9-b16da957d2b1
 title: CImageDisplay.CheckMediaType method (Winutil.h)
 ms.topic: reference

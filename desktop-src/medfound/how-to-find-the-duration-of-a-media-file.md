@@ -1,5 +1,5 @@
 ---
-Description: How to find the duration of a media file.
+description: How to find the duration of a media file.
 ms.assetid: 88ecde0c-328f-4ca7-9d26-836e4df06563
 title: How to Find the Duration of a Media File
 ms.topic: article
