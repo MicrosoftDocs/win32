@@ -20,11 +20,11 @@ Each of these three security features is described in more detail in following s
 
 RPC over HTTP can leverage the normal authentication mechanism of IIS. The virtual directory for RPC Proxy can be configured using the Rpc node under the Default Web Site in the IIS MMC snap-in:
 
-![](images/rpc-http-1.png)
+![Screenshot showing the the Rpc node under the Default Web Site in the IIS MMC snap-in.](images/rpc-http-1.png)
 
 IIS can be configured to disable anonymous access and require authentication to the virtual directory for the RPC Proxy. To do this, right click the Rpc node and select **Properties**. Select the **Directory Security** tab and click the **Edit** button in the **Authentication and Access Control** group, as illustrated here:
 
-![](images/rpc-http-2.png)
+![Screenshot showing the RPC Properties dialog box.](images/rpc-http-2.png)
 
 Although you can use RPC over HTTP even when the RPC Proxy virtual directory allows anonymous access, Microsoft strongly recommends disabling anonymous access to that virtual directory for security reasons. Rather, for RPC over HTTP enable Basic Authentication, Windows Integrated Authentication or both. Remember that only RPC over HTTP v2 is able to authenticate against RPC Proxy requiring Basic or Windows-integrated authentication; RPC over HTTP v1 will not be able to connect if **Disallow Anonymous Access** is disabled. Since RPC over HTTP v2 is the more secure and robust implementation, using a version of Windows that supports it will improve the security of your installations.
 
