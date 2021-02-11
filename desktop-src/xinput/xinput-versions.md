@@ -28,26 +28,18 @@ XInput 1.4 has these primary advantages over other versions of XInput:
 
 ### XInput 9.1.0
 
-Like XInput 1.4, XInput 9.1.0 ships today as a system component in Windows 8, Windows 7, and Windows Vista as XINPUT9\_1\_0.DLL. It is maintained primarily for backward compatibility with existing applications. It has a reduced function set so we recommend that you use XInput 1.4, if possible. But it is convenient to use for applications that must run on down-level versions of Windows but don't need the additional functionality provided by XInput 1.4 or XInput 1.3.
+Like XInput 1.4, XInput 9.1.0 ships today as a system component in Windows 10, Windows 8.x, Windows 7, and Windows Vista as XINPUT9\_1\_0.DLL. It is maintained primarily for backward compatibility with existing applications. It has a reduced function set so we recommend that you use XInput 1.4, if possible. But it is convenient to use for applications that must run on down-level versions of Windows but don't need the additional audio functionality provided by XInput 1.4 or XInput 1.3.
 
 The Windows SDK contains the header and import library for statically linking against XINPUT9\_1\_0.DLL.
 
-XInput 1.4 has these disadvantages over other versions of XInput:
+XInput 9.1.0 has these disadvantages over other versions of XInput:
 
--   For backward compatibility reasons, [**XInputGetCapabilities**](/windows/desktop/api/XInput/nf-xinput-xinputgetcapabilities) in this version of XInput returns fixed capability information. Regardless of Xbox common controller device attached, **XInputGetCapabilities** in XInput 1.4 will always report a device subtype of GAMEPAD. It will not return the XINPUT\_CAPS\_WIRELESS capability bit even if a wireless device is connected.
--   You can't determine the headset for a given user ID. The [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids) function is not available and [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids) function will return no results on Windows 8.
+-   For backward compatibility reasons, [**XInputGetCapabilities**](/windows/desktop/api/XInput/nf-xinput-xinputgetcapabilities) in this version of XInput returns fixed capability information. Regardless of Xbox common controller device attached, **XInputGetCapabilities** in XInput 9.1.0 will always report a device subtype of GAMEPAD. It will not return the XINPUT\_CAPS\_WIRELESS capability bit even if a wireless device is connected.
+-   You can't determine the headset for a given user ID. The [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids) function is not available and [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids) function will return no results on Windows 8.x or Windows 10.
 -   The [**XInputEnable**](/windows/desktop/api/XInput/nf-xinput-xinputenable), [**XInputGetBatteryInformation**](/windows/desktop/api/XInput/nf-xinput-xinputgetbatteryinformation), and [**XInputGetKeystroke**](/windows/desktop/api/XInput/nf-xinput-xinputgetkeystroke) functions are not available.
 
 ### XInput 1.3
 
-Some previous versions of XInput have been provided as redistributable DLLs in the DirectX SDK. The first redistributable version of XInput, XInput 1.1, shipped in the April 2006 release of the DirectX SDK. The last version to ship in the DirectX SDK was XInput 1.3, available in the June 2010 release of the DirectX SDK. For access to these versions of XInput, download previous versions of the DirectX SDK from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=6812). We shipped the last version of the DirectX SDK in June 2010.
+Some previous versions of XInput have been provided as redistributable DLLs in the DirectX SDK. The first redistributable version of XInput, XInput 1.1, shipped in the April 2006 release of the DirectX SDK. The last version to ship in the DirectX SDK was XInput 1.3, available in the June 2010 release of the legacy DirectX SDK. *The DirectX SDK is no longer available on Microsoft Downloads*.
 
 You can use XInput 1.3 for applications that support down-level versions of Windows and require functionality not provided by XInput 9.1.0 (that is, correct subtype reporting, audio support, explicit battery reporting support, and so on).
-
- 
-
- 
-
-
-
-
