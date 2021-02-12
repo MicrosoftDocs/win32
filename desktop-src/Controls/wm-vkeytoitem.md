@@ -50,7 +50,7 @@ Handle to the list box.
 
 ## Return value
 
-The return value specifies the action that the application performed in response to the message. A return value of  2 indicates that the application handled all aspects of selecting the item and requires no further action by the list box. (See Remarks.) A return value of  1 indicates that the list box should perform the default action in response to the keystroke. A return value of 0 or greater specifies the index of an item in the list box and indicates that the list box should perform the default action for the keystroke on the specified item.
+The return value specifies the action that the application performed in response to the message. A return value of -2 indicates that the application handled all aspects of selecting the item and requires no further action by the list box. (See Remarks.) A return value of -1 indicates that the list box should perform the default action in response to the keystroke. A return value of 0 or greater specifies the index of an item in the list box and indicates that the list box should perform the default action for the keystroke on the specified item.
 
 ## Remarks
 
