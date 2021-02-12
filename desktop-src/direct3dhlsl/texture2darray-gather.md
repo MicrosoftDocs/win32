@@ -18,6 +18,8 @@ api_location:
 
 Returns the four texel values of a [**Texture2DArray**](sm5-object-texture2darray.md) that would be used in a bi-linear filtering operation.
 
+See the documentation on [gather4](https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/gather4--sm5---asm-) for more information describing the underlying DXBC instruction.
+
 ### Overload list
 
 

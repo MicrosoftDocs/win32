@@ -18,6 +18,8 @@ api_location:
 
 Samples a [**Texture2D**](sm5-object-texture2d.md) and returns all four components.
 
+See the documentation on [gather4](https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/gather4--sm5---asm-) for more information describing the underlying DXBC instruction.
+
 ### Overload list
 
 
