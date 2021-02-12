@@ -16,7 +16,9 @@ api_location:
 
 # TextureCubeArray::GatherCmp methods
 
-Samples and compares a texture and returns all components.
+For four texel values of a [**TextureCubeArray**](texturecubearray.md) that would be used in a bi-linear filtering operation, returns their comparison against a compare value.
+
+See the documentation on [gather4_c](https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/gather4-c--sm5---asm-) for more information describing the underlying DXBC instruction.
 
 ### Overload list
 

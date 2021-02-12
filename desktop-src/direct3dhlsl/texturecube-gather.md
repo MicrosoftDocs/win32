@@ -1,6 +1,6 @@
 ---
 title: TextureCube::TextureCube Gather methods
-description: Samples a texture and returns all four components.
+description: Returns the four texel values that would be used in a bi-linear filtering operation.
 ms.assetid: 4891A62A-9D54-4F7E-92C2-9CDDF1453671
 keywords:
 - Gather methods HLSL
@@ -16,7 +16,9 @@ api_location:
 
 # TextureCube::Gather methods
 
-Samples a texture and returns all four components.
+Returns the four texel values that would be used in a bi-linear filtering operation.
+
+See the documentation on [gather4](https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/gather4--sm5---asm-) for more information describing the underlying DXBC instruction.
 
 ### Overload list
 
