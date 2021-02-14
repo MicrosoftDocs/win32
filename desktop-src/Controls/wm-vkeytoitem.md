@@ -60,7 +60,7 @@ To trap keys that generate a char message and do special processing, the applica
 
 The preceding remarks apply to regular list boxes that are created with the [**LBS\_WANTKEYBOARDINPUT**](list-box-styles.md) style. If the list box is owner-drawn, the application must process the [**WM\_CHARTOITEM**](wm-chartoitem.md) message.
 
-The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function returns  1.
+The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function returns -1.
 
 If a dialog box procedure handles this message, it should cast the desired return value to a **BOOL** and return the value directly. The DWL\_MSGRESULT value set by the [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function is ignored.
 
