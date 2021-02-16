@@ -94,6 +94,8 @@ Pointer to a [**D3DXMATRIX**](d3dxmatrix.md) structure that is a left-handed per
 
 The return value for this function is the same value returned in the *pOut* parameter. In this way, the **D3DXMatrixPerspectiveFovLH** function can be used as a parameter for another function.
 
+To change the aspect ratio axis, use the calculation formula: fovy = 2 * math.atan(math.tan(fovy * 0.5) / aspect).
+
 This function computes the returned matrix as shown:
 
 
