@@ -94,7 +94,7 @@ Pointer to a [**D3DXMATRIX**](d3dxmatrix.md) structure that is a right-handed pe
 
 The return value for this function is the same value returned in the *pOut* parameter. In this way, the **D3DXMatrixPerspectiveFovRH** function can be used as a parameter for another function.
 
-To change the aspect ratio axis, use the calculation formula: fovy = 2 * math.atan(math.tan(fovy * 0.5) / aspect). Alternatively, add X and Y aspect ratio sub-parameters to scale the vertical view space: fovy = 2 * math.atan(math.tan(fovy * 0.5) / aspectY), aspect = aspectX * aspect Y.
+To change the aspect ratio axis, use the calculation formula: fovy = 2 * math.atan(math.tan(fovy * 0.5) / aspect). Alternatively, add X and Y aspect ratio variables in the structure to scale the vertical view space: fovy = 2 * math.atan(math.tan(fovy * 0.5) / aspectY), aspect = aspectX * aspect Y.
 
 This function computes the returned matrix as shown.
 
