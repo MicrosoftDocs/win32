@@ -2,7 +2,7 @@
 description: Cipher suites can only be negotiated for TLS versions which support them. The highest supported TLS version is always preferred in the TLS handshake.
 title: TLS Cipher Suites in Windows Server 2022.
 ms.topic: article
-ms.date: 12/17/2020
+ms.date: 02/16/2021
 ---
 
 # TLS Cipher Suites in Windows Server 2022
@@ -49,7 +49,7 @@ For Windows Server 2022, the following cipher suites are enabled and in this pri
 | TLS\_RSA\_WITH\_AES\_128\_CBC\_SHA256<br/>                                                    | Yes<br/>                      | TLS 1.2<br/>                            |
 | TLS\_RSA\_WITH\_AES\_256\_CBC\_SHA<br/>                                                       | Yes<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
 | TLS\_RSA\_WITH\_AES\_128\_CBC\_SHA<br/>                                                       | Yes<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
-| TLS\_RSA\_WITH\_3DES\_EDE\_CBC\_SHA<br/>                                                      | Yes<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_RSA\_WITH\_3DES\_EDE\_CBC\_SHA<br/>                                                      | No<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
 | TLS\_RSA\_WITH\_NULL\_SHA256 <br/> Only used when application explicitly requests.<br/>       | No<br/>                       | TLS 1.2<br/>                            |
 | TLS\_RSA\_WITH\_NULL\_SHA <br/> Only used when application explicitly requests.<br/>          | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 
@@ -70,7 +70,7 @@ The following cipher suites are supported by the Microsoft Schannel Provider, bu
 | TLS\_DHE\_DSS\_WITH\_AES\_128\_CBC\_SHA256<br/>                                             | Yes<br/>                      | TLS 1.2<br/>                            |
 | TLS\_DHE\_DSS\_WITH\_AES\_256\_CBC\_SHA<br/>                                                | Yes<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
 | TLS\_DHE\_DSS\_WITH\_AES\_128\_CBC\_SHA<br/>                                                | Yes<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
-| TLS\_DHE\_DSS\_WITH\_3DES\_EDE\_CBC\_SHA<br/>                                               | Yes<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
+| TLS\_DHE\_DSS\_WITH\_3DES\_EDE\_CBC\_SHA<br/>                                               | No<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | TLS\_RSA\_WITH\_RC4\_128\_SHA<br/>                                                          | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | TLS\_RSA\_WITH\_RC4\_128\_MD5<br/>                                                          | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | TLS\_RSA\_WITH\_DES\_CBC\_SHA<br/>                                                          | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
