@@ -20,8 +20,6 @@ api_location:
 
 Builds a right-handed perspective projection matrix based on a field of view.
 
-To change the aspect ratio axis, use the calculation formula: fovy = 2 * math.atan(math.tan(fovy * 0.5) / aspect).
-
 ## Syntax
 
 
@@ -95,6 +93,8 @@ Pointer to a [**D3DXMATRIX**](d3dxmatrix.md) structure that is a right-handed pe
 ## Remarks
 
 The return value for this function is the same value returned in the *pOut* parameter. In this way, the **D3DXMatrixPerspectiveFovRH** function can be used as a parameter for another function.
+
+To change the aspect ratio axis, use the calculation formula: fovy = 2 * math.atan(math.tan(fovy * 0.5) / aspect).
 
 This function computes the returned matrix as shown.
 
