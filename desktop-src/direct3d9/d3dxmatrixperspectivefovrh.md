@@ -20,6 +20,8 @@ api_location:
 
 Builds a right-handed perspective projection matrix based on a field of view.
 
+To change the aspect ratio axis, use the calculation formula: fovy = 2 * math.atan(math.tan(fovy * 0.5) / aspect).
+
 ## Syntax
 
 
