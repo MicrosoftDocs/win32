@@ -49,7 +49,7 @@ For Windows 10, version 21H1, the following cipher suites are enabled and in thi
 | TLS\_RSA\_WITH\_AES\_128\_CBC\_SHA256<br/>                                                    | Yes<br/>                      | TLS 1.2<br/>                            |
 | TLS\_RSA\_WITH\_AES\_256\_CBC\_SHA<br/>                                                       | Yes<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
 | TLS\_RSA\_WITH\_AES\_128\_CBC\_SHA<br/>                                                       | Yes<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
-| TLS\_RSA\_WITH\_3DES\_EDE\_CBC\_SHA<br/>                                                      | Yes<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_RSA\_WITH\_3DES\_EDE\_CBC\_SHA<br/>                                                      | No<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
 | TLS\_RSA\_WITH\_NULL\_SHA256 <br/> Only used when application explicitly requests.<br/>       | No<br/>                       | TLS 1.2<br/>                            |
 | TLS\_RSA\_WITH\_NULL\_SHA <br/> Only used when application explicitly requests.<br/>          | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 
@@ -70,7 +70,7 @@ The following cipher suites are supported by the Microsoft Schannel Provider, bu
 | TLS\_DHE\_DSS\_WITH\_AES\_128\_CBC\_SHA256<br/>                                             | Yes<br/>                      | TLS 1.2<br/>                            |
 | TLS\_DHE\_DSS\_WITH\_AES\_256\_CBC\_SHA<br/>                                                | Yes<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
 | TLS\_DHE\_DSS\_WITH\_AES\_128\_CBC\_SHA<br/>                                                | Yes<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
-| TLS\_DHE\_DSS\_WITH\_3DES\_EDE\_CBC\_SHA<br/>                                               | Yes<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
+| TLS\_DHE\_DSS\_WITH\_3DES\_EDE\_CBC\_SHA<br/>                                               | No<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | TLS\_RSA\_WITH\_RC4\_128\_SHA<br/>                                                          | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | TLS\_RSA\_WITH\_RC4\_128\_MD5<br/>                                                          | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | TLS\_RSA\_WITH\_DES\_CBC\_SHA<br/>                                                          | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
