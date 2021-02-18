@@ -30,10 +30,10 @@ The International Color Consortium (ICC) has defined four different values calle
 
 | Intent                            | ICC Name              | Description                    |
 |-----------------------------------|-----------------------|--------------------------------|
-| [Picture](#-color-picture-intent) | Perceptual            | INTENT\_PERCEPTUAL             |
-| [Graphic](#-color-graphic-intent) | Saturation            | INTENT\_SATURATION             |
-| [Proof](#-color-proof-intent)     | Relative Colorimetric | INTENT\_RELATIVE\_COLORIMETRIC |
-| [Match](#-color-match-intent)     | Absolute Colorimetric | INTENT\_ABSOLUTE\_COLORIMETRIC |
+| Picture | Perceptual            | INTENT\_PERCEPTUAL             |
+| Graphic | Saturation            | INTENT\_SATURATION             |
+| Proof     | Relative Colorimetric | INTENT\_RELATIVE\_COLORIMETRIC |
+| Match     | Absolute Colorimetric | INTENT\_ABSOLUTE\_COLORIMETRIC |
 
 
 
