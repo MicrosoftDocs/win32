@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_MAX_POOLING_GRAD_OPERATOR_DESC
 title: DML_MAX_POOLING_GRAD_OPERATOR_DESC
-description: Computes backpropagation gradients for max pooling (see [DML_MAX_POOLING2_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_max_pooling2_operator_desc)).
+description: Computes backpropagation gradients for max pooling (see [DML_MAX_POOLING2_OPERATOR_DESC](./ns-directml-dml_max_pooling2_operator_desc.md)).
 helpviewer_keywords: ["DML_MAX_POOLING_GRAD_OPERATOR_DESC","DML_MAX_POOLING_GRAD_OPERATOR_DESC structure","direct3d12.dml_convolution_integer_operator_desc","directml/DML_MAX_POOLING_GRAD_OPERATOR_DESC"]
 ms.topic: reference
 tech.root: directml
@@ -45,7 +45,7 @@ api_name:
 
 # DML_MAX_POOLING_GRAD_OPERATOR_DESC structure (directml.h)
 
-Computes backpropagation gradients for max pooling (see [DML_MAX_POOLING2_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_max_pooling2_operator_desc)).
+Computes backpropagation gradients for max pooling (see [DML_MAX_POOLING2_OPERATOR_DESC](./ns-directml-dml_max_pooling2_operator_desc.md)).
 
 Consider a 2x2 **DML_MAX_POOLING2_OPERATOR_DESC** without padding nor dilations and a stride of 1, which performs the following.
 
@@ -95,19 +95,19 @@ struct DML_MAX_POOLING_GRAD_OPERATOR_DESC
 
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-The input feature tensor. This is typically the same tensor that was provided as the *InputTensor* to [DML_MAX_POOLING2_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_max_pooling2_operator_desc) in the forward pass.
+The input feature tensor. This is typically the same tensor that was provided as the *InputTensor* to [DML_MAX_POOLING2_OPERATOR_DESC](./ns-directml-dml_max_pooling2_operator_desc.md) in the forward pass.
 
 `InputGradientTensor`
 
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-The incoming gradient tensor. This is typically obtained from the output of backpropagation of a preceding layer. Typically this tensor would have the same sizes as the *output* of the corresponding [DML_MAX_POOLING2_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_max_pooling2_operator_desc) in the forward pass.
+The incoming gradient tensor. This is typically obtained from the output of backpropagation of a preceding layer. Typically this tensor would have the same sizes as the *output* of the corresponding [DML_MAX_POOLING2_OPERATOR_DESC](./ns-directml-dml_max_pooling2_operator_desc.md) in the forward pass.
 
 `OutputGradientTensor`
 
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-An output tensor containing the backpropagated gradients. Typically this tensor would have the same sizes as the *input* of the corresponding [DML_MAX_POOLING2_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_max_pooling2_operator_desc) in the forward pass.
+An output tensor containing the backpropagated gradients. Typically this tensor would have the same sizes as the *input* of the corresponding [DML_MAX_POOLING2_OPERATOR_DESC](./ns-directml-dml_max_pooling2_operator_desc.md) in the forward pass.
 
 `DimensionCount`
 
@@ -119,31 +119,31 @@ The number of elements in the *Strides*, *WindowSize*, *StartPadding*, *EndPaddi
 
 Type: \_Field\_size\_(DimensionCount) <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
 
-See *Strides* in [DML_MAX_POOLING2_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_max_pooling2_operator_desc).
+See *Strides* in [DML_MAX_POOLING2_OPERATOR_DESC](./ns-directml-dml_max_pooling2_operator_desc.md).
 
 `WindowSize`
 
 Type: \_Field\_size\_(DimensionCount) <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
 
-See *WindowSize* in [DML_MAX_POOLING2_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_max_pooling2_operator_desc).
+See *WindowSize* in [DML_MAX_POOLING2_OPERATOR_DESC](./ns-directml-dml_max_pooling2_operator_desc.md).
 
 `StartPadding`
 
 Type: \_Field\_size\_(DimensionCount) <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
 
-See *StartPadding* in [DML_MAX_POOLING2_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_max_pooling2_operator_desc).
+See *StartPadding* in [DML_MAX_POOLING2_OPERATOR_DESC](./ns-directml-dml_max_pooling2_operator_desc.md).
 
 `EndPadding`
 
 Type: \_Field\_size\_(DimensionCount) <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
 
-See *EndPadding* in [DML_MAX_POOLING2_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_max_pooling2_operator_desc).
+See *EndPadding* in [DML_MAX_POOLING2_OPERATOR_DESC](./ns-directml-dml_max_pooling2_operator_desc.md).
 
 `Dilations`
 
 Type: \_Field\_size\_(DimensionCount) <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
 
-See *Dilations* in [DML_MAX_POOLING2_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_max_pooling2_operator_desc).
+See *Dilations* in [DML_MAX_POOLING2_OPERATOR_DESC](./ns-directml-dml_max_pooling2_operator_desc.md).
 
 ## Availability
 This operator was introduced in `DML_FEATURE_LEVEL_3_0`.

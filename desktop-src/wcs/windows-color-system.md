@@ -43,13 +43,13 @@ Applications that use the ICM API require Windows 2000 or later. Applications th
 
 <dl> <dt>
 
-[OpenGL](/windows/win32/opengl/introduction-to-opengl)
+[OpenGL](../opengl/introduction-to-opengl.md)
 </dt> <dt>
 
-[Windows Multimedia](/windows/win32/multimedia/windows-multimedia-start-page)
+[Windows Multimedia](../multimedia/windows-multimedia-start-page.md)
 </dt> <dt>
 
-[Windows GDI](/windows/win32/gdi/windows-gdi)
+[Windows GDI](../gdi/windows-gdi.md)
 </dt> </dl>
 
  

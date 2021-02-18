@@ -31,13 +31,13 @@ The following is a complete alphabetical list of the WCS 1.0 API functions provi
 | [**CheckColors**](/windows/win32/api/icm/nf-icm-checkbitmapbits) | Determines whether the colors in an array lie within the output [gamut](g.md) of a specified transform. |
 | [**CheckColorsInGamut**](/windows/desktop/api/Wingdi/nf-wingdi-checkcolorsingamut)                                       | Checks if given colors are in a device's gamut.                                                                                                      |
 | [**CloseColorProfile**](/windows/win32/api/icm/nf-icm-closecolorprofile) | Closes an open profile handle. |
-| [**CMCheckColors**](/windows/win32/api/icm/nf-icm-cmcheckcolors) | Determines whether given colors lie within the output [gamut](/windows/win32/wcs/g) of a specified transform. |
-| [**CMCheckColorsInGamut**](/windows/win32/api/icm/nf-icm-cmcheckcolorsingamut) | Determines whether specified RGB triples lie in the output [gamut](/windows/win32/wcs/g) of a specified transform. |
+| [**CMCheckColors**](/windows/win32/api/icm/nf-icm-cmcheckcolors) | Determines whether given colors lie within the output [gamut](./g.md) of a specified transform. |
+| [**CMCheckColorsInGamut**](/windows/win32/api/icm/nf-icm-cmcheckcolorsingamut) | Determines whether specified RGB triples lie in the output [gamut](./g.md) of a specified transform. |
 | [**CMCheckRGBs**](/windows/desktop/api/Wingdi/)                                                     | Checks bitmap colors against an output gamut.                                                                                                        |
 | [**CMConvertColorNameToIndex**](/windows/win32/api/icm/nf-icm-cmconvertcolornametoindex) | Converts color names in a named color space to index numbers in a color profile |
 | [**CMConvertIndexToColorName**](/windows/win32/api/icm/nf-icm-cmconvertindextocolorname) | Transforms indices in a color space to an array of names in a named color space. |
-| [**CMCreateDeviceLinkProfile**](/windows/win32/api/icm/nf-icm-cmcreatedevicelinkprofile) | Creates a [device link profile](/windows/win32/wcs/d) in the format specified by the International Color Consortium in its ICC Profile Format Specification. |
-| [**CMCreateMultiProfileTransform**](/windows/win32/api/icm/nf-icm-cmcreatemultiprofiletransform) | Accepts an array of profiles or a single [device link profile](/windows/win32/wcs/d) and creates a color transform. This transform is a mapping from the color space specified by the first profile to that of the second profile and so on to the last one. |
+| [**CMCreateDeviceLinkProfile**](/windows/win32/api/icm/nf-icm-cmcreatedevicelinkprofile) | Creates a [device link profile](./d.md) in the format specified by the International Color Consortium in its ICC Profile Format Specification. |
+| [**CMCreateMultiProfileTransform**](/windows/win32/api/icm/nf-icm-cmcreatemultiprofiletransform) | Accepts an array of profiles or a single [device link profile](./d.md) and creates a color transform. This transform is a mapping from the color space specified by the first profile to that of the second profile and so on to the last one. |
 | [**CMCreateProfile**](/windows/win32/api/icm/nf-icm-cmcreateprofile) | Creates a display color profile from a [**LOGCOLORSPACEA**](/windows/win32/api/wingdi/ns-wingdi-logcolorspacea) structure. |
 | [**CMCreateProfileW**](/windows/win32/api/icm/nf-icm-cmcreateprofilew) | Creates a display color profile from a [**LOGCOLORSPACEW**](/windows/win32/api/wingdi/ns-wingdi-logcolorspacew) structure. |
 | [**CMCreateTransform**](/windows/win32/api/icm/nf-icm-cmcreatetransform) | Deprecated. There is no replacement API because this one was no longer being used. Developers of alternate CMM modules are not required to implement it. |
@@ -132,7 +132,3 @@ The following is a complete alphabetical list of the WCS 1.0 API functions provi
  
 
  
-
-
-
-

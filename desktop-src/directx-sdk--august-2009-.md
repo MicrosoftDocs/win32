@@ -52,7 +52,7 @@ The D3DCompiler API and redistributable DLL is available in the Windows SDK.
 </tr>
 <tr class="even">
 <td><span id="XAudio2_for_"></span><span id="xaudio2_for_"></span><span id="XAUDIO2_FOR_"></span><a href="/windows/desktop/xaudio2/xaudio2-apis-portal">XAudio2</a> for Windows<br/></td>
-<td>The <a href="/windows/desktop/xaudio2/xaudio2-apis-portal">XAudio2</a> API is now a system component in Windows 8.x and Windows 10. The headers and libraries for XAudio2 are available in the Windows SDK. For Windows 7 support, see <a href="https://aka.ms/XAudio2Redist">XAudio2Redist</a>.<br/></td>
+<td>The <a href="/windows/desktop/xaudio2/xaudio2-apis-portal">XAudio2</a> API is now a system component in Windows 8.x and Windows 10. The headers and libraries for XAudio2 are available in the Windows SDK. For Windows 7 support, see <a href="/windows/win32/xaudio2/xaudio2-redistributable">XAudio2Redist</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="XInput_for_"></span><span id="xinput_for_"></span><span id="XINPUT_FOR_"></span><a href="/windows/desktop/xinput/xinput-game-controller-apis-portal">XInput</a> for Windows<br/></td>

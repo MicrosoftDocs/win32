@@ -18,7 +18,7 @@ api_location:
 
 Returns the four texel values that would be used in a bi-linear filtering operation.
 
-See the documentation on [gather4](https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/gather4--sm5---asm-) for more information describing the underlying DXBC instruction.
+See the documentation on [gather4](./gather4--sm5---asm-.md) for more information describing the underlying DXBC instruction.
 
 ### Overload list
 
@@ -39,10 +39,4 @@ See the documentation on [gather4](https://docs.microsoft.com/en-us/windows/win3
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

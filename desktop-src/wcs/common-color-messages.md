@@ -13,10 +13,10 @@ ms.date: 05/31/2018
 
 The following messages are used with color.
 
--   [**WM\_PALETTECHANGED**](/windows/win32/gdi/wm-palettechanged)
--   [**WM\_PALETTEISCHANGING**](/windows/win32/gdi/wm-paletteischanging)
--   [**WM\_QUERYNEWPALETTE**](/windows/win32/gdi/wm-querynewpalette)
--   [**WM\_SYSCOLORCHANGE**](/windows/win32/gdi/wm-syscolorchange)
+-   [**WM\_PALETTECHANGED**](../gdi/wm-palettechanged.md)
+-   [**WM\_PALETTEISCHANGING**](../gdi/wm-paletteischanging.md)
+-   [**WM\_QUERYNEWPALETTE**](../gdi/wm-querynewpalette.md)
+-   [**WM\_SYSCOLORCHANGE**](../gdi/wm-syscolorchange.md)
 
 ## Related topics
 
