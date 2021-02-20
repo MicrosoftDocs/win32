@@ -21,7 +21,7 @@ As antimalware (AM) software has become better and better at detecting runtime m
 
 ## Manifestation
 
-The Measured Boot feature provides AM software with a trusted (resistant to spoofing and tampering) log of all boot components that started before AM software. AM software can use the log to determine whether components that ran before it are trustworthy or if they are infected with malware. The AM software on the local machine can send the log to a remote sever for evaluation. The remote server may initiate remediation actions either by interacting with software on the client or through out-of-band mechanisms, as appropriate.
+The Measured Boot feature provides AM software with a trusted (resistant to spoofing and tampering) log of all boot components that started before AM software. AM software can use the log to determine whether components that ran before it are trustworthy or if they are infected with malware. The AM software on the local machine can send the log to a remote server for evaluation. The remote server may initiate remediation actions either by interacting with software on the client or through out-of-band mechanisms, as appropriate.
 
 ## Mitigation
 
