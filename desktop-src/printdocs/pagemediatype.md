@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 29d7ae65-9dd3-4a29-8e5e-79708638a3bb
 title: PageMediaType
 ms.topic: article
@@ -93,7 +93,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the http://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the `http://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords` namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:PageMediaType">
@@ -783,11 +783,3 @@ The public Print Schema keywords are defined in the http://schemas.microsoft.com
 
 [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
-
- 
-
- 
-
-
-
-

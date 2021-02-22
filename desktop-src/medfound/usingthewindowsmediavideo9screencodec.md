@@ -1,5 +1,5 @@
 ---
-Description: Using the Windows Media Video 9 Screen Codec
+description: Using the Windows Media Video 9 Screen Codec
 ms.assetid: d88d5f5e-0935-4bbe-8abf-72cc536f9b40
 title: Using the Windows Media Video 9 Screen Codec (Microsoft Media Foundation)
 ms.topic: article

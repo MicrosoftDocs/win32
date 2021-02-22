@@ -1,5 +1,5 @@
 ---
-Description: The GetConnectedMediaType method retrieves the media type for the connection on the input pin of the Sample Grabber.
+description: The GetConnectedMediaType method retrieves the media type for the connection on the input pin of the Sample Grabber.
 ms.assetid: 65f5603a-1151-4ffd-a662-84e265663b04
 title: ISampleGrabber::GetConnectedMediaType method (Qedit.h)
 ms.topic: reference

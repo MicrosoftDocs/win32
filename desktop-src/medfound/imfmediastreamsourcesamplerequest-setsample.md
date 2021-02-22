@@ -1,5 +1,5 @@
 ---
-Description: Sets the sample for the media stream source.
+description: Sets the sample for the media stream source.
 ms.assetid: a35c5e18-f307-4e40-bc92-f91aa9eb80ba
 title: IMFMediaStreamSourceSampleRequest::SetSample method
 ms.topic: reference

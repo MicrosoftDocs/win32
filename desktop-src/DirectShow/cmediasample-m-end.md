@@ -1,5 +1,5 @@
 ---
-Description: Sample end time. This value is valid only if the CMediaSample::m\_dwFlags member variable contains the AM\_SAMPLE\_STOPVALID flag.
+description: Sample end time. This value is valid only if the CMediaSample::m\_dwFlags member variable contains the AM\_SAMPLE\_STOPVALID flag.
 ms.assetid: 01488984-579b-49e0-923e-bfbeba96b4d8
 title: CMediaSample::m_End member (Amfilter.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The IsActive method determines whether the object is active (running or paused).
+description: The IsActive method determines whether the object is active (running or paused).
 ms.assetid: 6531cf1f-e057-4094-9354-d5a32371c83c
 title: CBaseMediaFilter.IsActive method (Amfilter.h)
 ms.topic: reference

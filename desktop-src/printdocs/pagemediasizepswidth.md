@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: a1a684ce-5615-4ff7-a7aa-5c9f786f84ed
 title: PageMediaSizePSWidth
 ms.topic: article

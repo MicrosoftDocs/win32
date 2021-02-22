@@ -1,5 +1,5 @@
 ---
-Description: The GetMediaType method retrieves a preferred media type.
+description: The GetMediaType method retrieves a preferred media type.
 ms.assetid: c5c5f498-a9a3-4ce7-8cf5-941397aa649d
 title: CSourceStream.GetMediaType method (Source.h)
 ms.topic: reference

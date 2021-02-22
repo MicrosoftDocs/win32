@@ -1,5 +1,5 @@
 ---
-Description: The Delete method deletes the media corresponding to the specified index.
+description: The Delete method deletes the media corresponding to the specified index.
 ms.assetid: 5fcbd026-75a8-4db2-a701-e080dc222537
 title: ITMediaCollection::Delete method (Sdpblb.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: Constructor method.
 ms.assetid: 89356578-0509-46c1-abd4-421688017f1d
 title: CMediaType.CMediaType constructor (Mtype.h)
 ms.topic: reference

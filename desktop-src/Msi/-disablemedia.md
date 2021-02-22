@@ -1,5 +1,5 @@
 ---
-Description: Setting the DISABLEMEDIA property prevents the installer from registering any media source, such as a CD-ROM, as a valid source for the product. If browsing is enabled, however, a user may still browse to a media source.
+description: Setting the DISABLEMEDIA property prevents the installer from registering any media source, such as a CD-ROM, as a valid source for the product. If browsing is enabled, however, a user may still browse to a media source.
 ms.assetid: 83c4e7f6-fced-447f-bfa2-847dce660139
 title: DISABLEMEDIA property
 ms.topic: reference

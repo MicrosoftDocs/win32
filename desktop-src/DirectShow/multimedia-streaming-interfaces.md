@@ -1,5 +1,5 @@
 ---
-Description: Multimedia Streaming Interfaces
+description: Multimedia Streaming Interfaces
 ms.assetid: '53d639e2-8717-4552-b0d3-b8c500bd38a8'
 title: Multimedia Streaming Interfaces
 ms.topic: article

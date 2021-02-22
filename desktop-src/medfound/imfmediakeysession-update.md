@@ -1,5 +1,5 @@
 ---
-Description: Passes in a key value with any associated data required by the Content Decryption Module for the given key system.
+description: Passes in a key value with any associated data required by the Content Decryption Module for the given key system.
 ms.assetid: 29e66037-5f18-4724-b6f2-d85555e6af69
 title: IMFMediaKeySession::Update method
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The EnterBitmapGrabMode method switches the media detector to bitmap grab mode and seeks the filter graph to a specified time.
+description: The EnterBitmapGrabMode method switches the media detector to bitmap grab mode and seeks the filter graph to a specified time.
 ms.assetid: 9351ce73-766c-4863-88a5-f974ede79ee6
 title: IMediaDet::EnterBitmapGrabMode method (Qedit.h)
 ms.topic: reference

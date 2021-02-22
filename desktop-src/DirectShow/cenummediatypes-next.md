@@ -1,5 +1,5 @@
 ---
-Description: The Next method retrieves a specified number of media types. This method implements the IEnumMediaTypes::Next method.
+description: The Next method retrieves a specified number of media types. This method implements the IEnumMediaTypes::Next method.
 ms.assetid: d59dea48-e36c-4ee6-9935-5a47e8a12a9e
 title: CEnumMediaTypes.Next method (Amfilter.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The SetMediaTimes method sets the media stop and start times.
+description: The SetMediaTimes method sets the media stop and start times.
 ms.assetid: 9fa7938c-8128-4c26-a738-771d57b315b5
 title: IAMTimelineSrc::SetMediaTimes method (Qedit.h)
 ms.topic: reference
