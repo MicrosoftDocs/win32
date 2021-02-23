@@ -15,7 +15,7 @@ For the purposes of this topic, the term *volume* is used to refer to the concep
 In this topic:
 
 -   [Basic Disks](#basic-disks)
--   [Dynamic Disks](#basic-and-dynamic-disks)
+-   [Dynamic Disks](#dynamic-disks)
 -   [Partition Styles](#partition-styles)
     -   [Master Boot Record](#master-boot-record)
     -   [GUID Partition Table](#guid-partition-table)
