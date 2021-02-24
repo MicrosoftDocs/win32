@@ -22,9 +22,9 @@ Samples a texture and returns the green component.
 
 
 
-| Method                                                                    | Description                                                                                         |
-|:--------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|
-| [**GatherGreen(S,float,uint)**](tcubearray-gathergreen-s-float-uint-.md) | Samples a texture and returns the green component along with status about the operation.<br/> |
+| Method                                                                    | Description                                                                                                                                       |
+|:--------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**GatherGreen(S,float,uint)**](tcubearray-gathergreen-s-float-uint-.md)  | Returns the green components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.<br/> |
 
 
 

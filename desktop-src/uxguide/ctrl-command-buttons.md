@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Command Buttons
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 With a command button, users initiate an immediate action.
 
@@ -178,7 +178,7 @@ Recommended sizing and spacing for command buttons.
 
     **Acceptable:**
 
-    ![screen shot of ok and cancel buttons ](images/ctrl-command-buttons-image26.png)
+    ![Screenshot that shows the 'OK' and 'Cancel' buttons.](images/ctrl-command-buttons-image26.png)
 
     In this example, OK and Cancel are acceptable but unspecific labels.
 
@@ -336,10 +336,4 @@ When referring to command buttons:
 Example: Click **Print** to print the document.
 
  
-
- 
-
-
-
-
 

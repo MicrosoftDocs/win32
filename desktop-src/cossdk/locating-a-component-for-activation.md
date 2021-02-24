@@ -15,7 +15,7 @@ When COM+ has located the correct partition—through the user identity's defaul
 
  
 
-![](images/26c26a37-ec95-4f9f-aa59-4d84a7bb0fa3.png)
+![Diagram that shows a troubleshooting tree for locating a component for activation.](images/26c26a37-ec95-4f9f-aa59-4d84a7bb0fa3.png)
 
 The preceding illustration shows the following:
 

@@ -1,5 +1,5 @@
 ---
-Description: MPEG-2 Splitter Media Types
+description: MPEG-2 Splitter Media Types
 ms.assetid: d0ff2011-4ee3-4f5e-8bd0-af9f4c6346e8
 title: MPEG-2 Splitter Media Types
 ms.topic: article

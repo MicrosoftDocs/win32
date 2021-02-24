@@ -1,5 +1,5 @@
 ---
-Description: Media Detector (MediaDet)
+description: Media Detector (MediaDet)
 ms.assetid: 5cdbb6ca-d2c3-4123-b545-198863fed25f
 title: Media Detector (MediaDet)
 ms.topic: article

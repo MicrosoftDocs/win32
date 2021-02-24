@@ -1,5 +1,5 @@
 ---
-Description: Using the EVR Media Sink
+description: Using the EVR Media Sink
 ms.assetid: cd98266a-bc62-43da-b4d7-3561447d634f
 title: Using the EVR Media Sink
 ms.topic: article

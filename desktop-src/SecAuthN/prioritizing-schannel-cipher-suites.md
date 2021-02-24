@@ -10,7 +10,8 @@ ms.date: 05/31/2018
 
 [Cryptography API: Next Generation](../seccng/cng-portal.md) (CNG) provides functions that query, add, remove, and prioritize the cipher suites that a provider supports. Changes made by using these functions take effect immediately and do not require restarting an active server.
 
-> [!Note]You can also modify the list of cipher suites by configuring the **SSL Cipher Suite Order** group policy settings using the Group Policy Object snap-in in Microsoft Management Console.
+> [!Note]
+> You can also modify the list of cipher suites by configuring the **SSL Cipher Suite Order** group policy settings using the Group Policy Object snap-in in Microsoft Management Console.
 >
 > **To configure the **SSL Cipher Suite Order** group policy setting**
 >

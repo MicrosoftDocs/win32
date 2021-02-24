@@ -1,5 +1,5 @@
 ---
-Description: The following tables describe the media types used for BDA digital television filters.
+description: The following tables describe the media types used for BDA digital television filters.
 ms.assetid: 875df611-a6ae-4a73-b00b-799249a39ff3
 title: BDA Media Types
 ms.topic: article

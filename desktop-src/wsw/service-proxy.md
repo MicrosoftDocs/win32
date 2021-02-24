@@ -16,7 +16,7 @@ A service proxy is the client side proxy for a service. The service proxy enable
 
 Service proxies are created as needed, opened, used to call a service, and closed when no longer needed. Alternatively, an application may reuse a service proxy to connect repeatedly to the same service without the expenditure of time and resources required for initialising a service proxy more than once. The following diagram illustrates the flow of the possible states of the service proxy and the function calls or events that lead from one state to another.
 
-![](images/serviceproxystates.png)
+![Diagram showing the service proxy states and the function calls or events that lead from one state to another.](images/serviceproxystates.png)
 
 These service proxy states are enumerated in the [**WS\_SERVICE\_PROXY\_STATE**](/windows/desktop/api/WebServices/ne-webservices-ws_service_proxy_state) enumeration.
 

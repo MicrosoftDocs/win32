@@ -15,7 +15,7 @@ Processing requests includes four steps:
 -   Sending the response
 -   Canceling requests that cannot be processed
 
-![](images/processloop.png)
+![Diagram that shows the process request loop.](images/processloop.png)
 
 ## Receiving a Request
 

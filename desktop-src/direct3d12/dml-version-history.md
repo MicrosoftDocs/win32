@@ -16,7 +16,7 @@ DirectML follows the [semantic versioning](https://semver.org/) conventions. Tha
 
 ## Version table
 
-|DirectML version|Feature level supported (see [DirectML feature level history](/windows/win32/direct3d12/dml-feature-level-history))|DML_TARGET_VERSION|First available in|First available in (Redistributable)|
+|DirectML version|Feature level supported (see [DirectML feature level history](./dml-feature-level-history.md))|DML_TARGET_VERSION|First available in|First available in (Redistributable)|
 |-|-|-|-|-|-|
 |1.4.0<sup>1</sup>|DML_FEATURE_LEVEL_3_0|`0x3000`|N/A|[DirectML-1.4.0](https://www.nuget.org/packages/Microsoft.AI.DirectML/)|
 |1.1.0|DML_FEATURE_LEVEL_2_0|`0x2000`|Windows 10, version 2004 (10.0; Build 19041) (Windows 10 May 2020 Update). Aka "20H1".|N/A|
@@ -28,7 +28,7 @@ DirectML follows the [semantic versioning](https://semver.org/) conventions. Tha
 
 For convenience, certain features in the `DirectML.h` header file are declared conditionally based on the value of the `DML_TARGET_VERSION` macro. By setting the `DML_TARGET_VERSION` macro to certain values, you can exclude parts of `DirectML.h` from your application.
 
-That can be helpful if you're using a newer copy of `DirectML.h`, but you're targeting a lower version of the DirectML binary, because it ensures that any attempt to use features beyond the chosen target level won't compile. This mechanism is similar to the `NTDDI_VERSION` macro (see [Macros for conditional declarations](/windows/win32/winprog/using-the-windows-headers#macros-for-conditional-declarations)).
+That can be helpful if you're using a newer copy of `DirectML.h`, but you're targeting a lower version of the DirectML binary, because it ensures that any attempt to use features beyond the chosen target level won't compile. This mechanism is similar to the `NTDDI_VERSION` macro (see [Macros for conditional declarations](../winprog/using-the-windows-headers.md#macros-for-conditional-declarations)).
 
 Here are the valid values for the `DML_TARGET_VERSION` macro.
 
@@ -65,6 +65,6 @@ For example, an application building against a newer SDK, but running on an olde
 
 ## See also
 
-[DirectML feature level history](/windows/win32/direct3d12/dml-feature-level-history)
+[DirectML feature level history](./dml-feature-level-history.md)
 [DML_FEATURE_LEVEL enumeration](/windows/win32/api/directml/ne-directml-dml_feature_level)
 [Microsoft.AI.DirectML redistributable package](https://www.nuget.org/packages/Microsoft.AI.DirectML/)

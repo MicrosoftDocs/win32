@@ -1,5 +1,5 @@
 ---
-Description: Writing a Windows Media File in DES
+description: Writing a Windows Media File in DES
 ms.assetid: 741ebcbc-62fb-4c7f-845f-a361f5b63f8c
 title: Writing a Windows Media File in DES
 ms.topic: article

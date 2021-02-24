@@ -16,7 +16,7 @@ A hardware provider should create one COM object for each physical or virtual de
 
 The illustration that follows shows the relationship between the provider object and the set of hardware provider objects, as well as the relationship between the various hardware provider objects themselves.
 
-![](images/vdshwobjects.png)
+![Diagram that shows the relationship between the 'Provider' and 'Subsystem', 'Controller', 'LUN', 'LUN plex', 'Drive', and 'Spindle'. ](images/vdshwobjects.png)
 
 A provider object can contain any number of subsystems. All hardware providers are capable of managing multiple instances of the same subsystem model. Many hardware providers are also capable of managing multiple instances of different subsystem models. A single computer can host any number of hardware providers.
 

@@ -20,13 +20,13 @@ Devices may include zero or more *services*. For example, a video device may inc
 
 WSDAPI extends the local Plug and Play model by allowing a client to discover and access a remote device and its associated services across a network. It supports discovery, one-way and two-way control messaging, and eventing.
 
-![](images/overview01.png)
+![Diagram showing how WSDAPI allows a client to discover and access a remote device.](images/overview01.png)
 
 DPWS devices announce their presence and expose services (if any) using a unique address and a standardized set of XML messages. DPWS clients can use the discovery process to find the device, enumerate its services, and connect to those services to perform specific actions.
 
 A WSDAPI client first queries the device for complete descriptions of its services, including the service types (such as a printer service type or a scanner service type). The client then controls the device by calling commands defined by a service type (for example, by calling **CreatePrintJob** on a device with a printer service type). Optionally, the client can also monitor state changes in each service by subscribing to events that occur during command execution.
 
-![](images/netdevice01.png)
+![Diagram showing how a WSDAPI client queries and interacts with a device.](images/netdevice01.png)
 
 For more information about device messaging patterns, see [Discovery and Metadata Exchange Message Patterns](discovery-and-metadata-exchange-message-patterns.md).
 

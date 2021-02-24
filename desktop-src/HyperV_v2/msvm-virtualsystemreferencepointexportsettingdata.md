@@ -1,5 +1,5 @@
 ---
-Description: Provides additional information to be used with the ExportReferencePoint method of the Msvm\_VirtualSystemReferencePointService class.
+description: Provides additional information to be used with the ExportReferencePoint method of the Msvm\_VirtualSystemReferencePointService class.
 ms.assetid: 4897fad4-3a3f-47bc-837d-2e36434b3fab
 title: Msvm_VirtualSystemReferencePointExportSettingData class
 ms.topic: reference

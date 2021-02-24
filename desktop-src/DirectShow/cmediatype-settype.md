@@ -1,5 +1,5 @@
 ---
-Description: The SetType method specifies the major type.
+description: The SetType method specifies the major type.
 ms.assetid: 3fd93d5e-73ea-453e-8f08-652d5a81239f
 title: CMediaType.SetType method (Mtype.h)
 ms.topic: reference

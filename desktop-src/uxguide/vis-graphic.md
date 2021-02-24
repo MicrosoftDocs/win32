@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Graphic Elements
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 *Graphic elements* show relationships, hierarchy, and emphasis visually. They include backgrounds, banners, glass, aggregators, separators, shadows, and handles.
 
@@ -109,7 +109,7 @@ Graphic elements have several usage patterns:
 -   **Use vertical and horizontal lines for separators.** Be sure to have sufficient space between the separators and the content being separated.
 -   For separators between sizable content (splitters), display the resize pointer on hover.
 
-![screen shot of splitter with resize pointer ](images/vis-graphic-image17.png)
+![Screenshot that shows a splitter with resize pointer.](images/vis-graphic-image17.png)
 
 ![screen shot of splitter with resize pointer ](images/vis-graphic-image18.png)
 
@@ -135,10 +135,4 @@ In these examples, resize pointers are shown on hover.
 -   **For accessibility and localization, don't use any text in graphics.** Make exceptions only to represent [branding](exper-branding.md) and text as an abstract concept.
 
  
-
- 
-
-
-
-
 

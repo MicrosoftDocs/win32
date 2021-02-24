@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Common Dialogs
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 The Microsoft Windows common dialogs consist of the Open File, Save File, Open Folder, Find and Replace, Print, Page Setup, Font, and Color dialog boxes.
 
@@ -176,10 +176,4 @@ For Windows Vista, the Open File and Save File have a new extensible architectur
 -   Make the settings persist on a per-program, per-user basis.
 
  
-
- 
-
-
-
-
 

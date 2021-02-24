@@ -19,7 +19,7 @@ To copy the contents of an off-screen buffer to an on-screen buffer, call [**Swa
 
 The following illustration shows how the contents of the buffers are copied when calling **SwapBuffers**.
 
-![](images/opengl00.png)
+![Diagram showing the undefined results of consecutive calls to the SwapBuffers function.](images/opengl00.png)
 
 Several OpenGL core functions also manage buffers. The [**glDrawBuffer**](gldrawbuffer.md) function is the one most relevant to double buffering; it specifies the framebuffer or buffers that OpenGL draws into.
 

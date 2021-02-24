@@ -2,7 +2,7 @@
 description: Implements the IInkD2DRenderer interface.
 ms.assetid: d1bd910d-ce64-4424-a0e1-4f55110b0265
 title: InkD2DRenderer class
-ms.topic: interface
+ms.topic: language-reference
 ms.date: 02/03/2020
 topic_type: 
 - APIRef
@@ -43,7 +43,7 @@ Call [<strong>CoCreateInstance</strong>](/windows/win32/api/combaseapi/nf-combas
 CoCreateInstance(__uuidof(InkD2DRenderer),
   nullptr,
   CLSCTX_INPROC_SERVER,
-  IID_PPV_ARGS(&amp;_spInkD2DRenderer));
+  IID_PPV_ARGS(&_spInkD2DRenderer));
 ```
 
 ## Examples
@@ -66,7 +66,7 @@ void InkRenderer::Render(
     HRESULT hr = S_OK;
     if (_spInkD2DRenderer != nullptr)
     {
-        if (strokes != nullptr &amp;&amp; strokes->Size > 0)
+        if (strokes != nullptr && strokes->Size > 0)
         {
             // Cast the stroke collection into IUnknown to call Inkd2dRenderer
             ComPtr<IUnknown> spUnkStrokes = 

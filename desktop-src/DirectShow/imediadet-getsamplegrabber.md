@@ -1,5 +1,5 @@
 ---
-Description: The GetSampleGrabber method retrieves a pointer to the ISampleGrabber interface, which enables an application to retrieve individual samples from a media stream.
+description: The GetSampleGrabber method retrieves a pointer to the ISampleGrabber interface, which enables an application to retrieve individual samples from a media stream.
 ms.assetid: ecfa1909-f1ba-40ac-a0fc-8bfbeed8d148
 title: IMediaDet::GetSampleGrabber method (Qedit.h)
 ms.topic: reference

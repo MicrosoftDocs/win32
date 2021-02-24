@@ -1,5 +1,5 @@
 ---
-Description: Media Buffers
+description: Media Buffers
 ms.assetid: 3ee073ea-7bac-4971-9167-93a4e541ab77
 title: Media Buffers
 ms.topic: article

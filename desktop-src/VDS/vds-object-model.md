@@ -18,7 +18,7 @@ Applications call the methods that are exposed by these objects and VDS calls th
 
 As the following illustration shows, software provider programs implement objects that model host-based entities; hardware provider programs implement objects that model internal and external hardware RAID devices; the remaining common objects are either provider-independent, or are implemented by VDS. A spindle, which is not a VDS object, is a term for generic storage media that comprises of disk or drive extents.
 
-![](images/vdsobjectmodel.png)
+![Diagram that shows a classification of objects, defined as 'Common objects', 'Software provider objects', and 'Hardware provider objects'.](images/vdsobjectmodel.png)
 
 To learn more about the behavior of each object, select from the following topics:
 

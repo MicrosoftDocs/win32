@@ -1,5 +1,5 @@
 ---
-Description: The SetTemporalCompression method specifies whether samples are compressed using temporal (interframe) compression.
+description: The SetTemporalCompression method specifies whether samples are compressed using temporal (interframe) compression.
 ms.assetid: cdd181ee-d1e9-48b0-96f6-e76db9f3f933
 title: CMediaType.SetTemporalCompression method (Mtype.h)
 ms.topic: reference

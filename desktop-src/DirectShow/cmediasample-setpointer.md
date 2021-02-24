@@ -1,5 +1,5 @@
 ---
-Description: The SetPointer method sets the pointer to the memory buffer.
+description: The SetPointer method sets the pointer to the memory buffer.
 ms.assetid: 60627600-c982-462e-b540-327a58e57615
 title: CMediaSample.SetPointer method (Amfilter.h)
 ms.topic: reference

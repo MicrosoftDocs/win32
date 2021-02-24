@@ -1,5 +1,5 @@
 ---
-Description: Enumerating Media Types
+description: Enumerating Media Types
 ms.assetid: 7878885f-c285-4744-8eab-445678dcfd49
 title: Enumerating Media Types
 ms.topic: article

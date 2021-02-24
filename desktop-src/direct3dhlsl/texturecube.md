@@ -28,24 +28,24 @@ The **TextureCube** object has these methods.
 
 
 
-| Method                                                       | Description                                                                                           |
-|:-------------------------------------------------------------|:------------------------------------------------------------------------------------------------------|
-| [**Gather**](texturecube-gather.md)                         | Samples a texture and returns all components.<br/>                                              |
-| [**GatherAlpha**](texturecube-gatheralpha.md)               | Samples a texture and returns the alpha component.<br/>                                         |
-| [**GatherBlue**](texturecube-gatherblue.md)                 | Samples a texture and returns the blue component.<br/>                                          |
-| [**GatherCmp**](texturecube-gathercmp.md)                   | Samples and compares a texture and returns all components.<br/>                                 |
-| [**GatherCmpAlpha**](texturecube-gathercmpalpha.md)         | Samples and compares a texture and returns the alpha component.<br/>                            |
-| [**GatherCmpBlue**](texturecube-gathercmpblue.md)           | Samples and compares a texture and returns the blue component.<br/>                             |
-| [**GatherCmpGreen**](texturecube-gathercmpgreen.md)         | Samples and compares a texture and returns the green component.<br/>                            |
-| [**GatherCmpRed**](texturecube-gathercmpred.md)             | Samples and compares a texture and returns the red component.<br/>                              |
-| [**GatherGreen**](texturecube-gathergreen.md)               | Samples a texture and returns the green component.<br/>                                         |
-| [**GatherRed**](texturecube-gatherred.md)                   | Samples a texture and returns the red component.<br/>                                           |
-| [**Sample**](texturecube-sample.md)                         | Samples a texture.<br/>                                                                         |
-| [**SampleBias**](texturecube-samplebias.md)                 | Samples a texture, after applying the bias value to the mipmap level.<br/>                      |
-| [**SampleCmp**](texturecube-samplecmp.md)                   | Samples a texture, using a comparison value to reject samples.<br/>                             |
-| [**SampleCmpLevelZero**](texturecube-samplecmplevelzero.md) | Samples a texture (mipmap level 0 only), using a comparison value to reject samples.<br/>       |
-| [**SampleGrad**](texturecube-samplegrad.md)                 | Samples a texture using a gradient to influence the way the sample location is calculated.<br/> |
-| [**SampleLevel**](texturecube-samplelevel.md)               | Samples a texture on the specified mipmap level.<br/>                                           |
+| Method                                                      | Description                                                                                                                                             |
+|:------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**Gather**](texturecube-gather.md)                         | Returns the four texel values that would be used in a bi-linear filtering operation.<br/>                                                                |
+| [**GatherAlpha**](texturecube-gatheralpha.md)               | Returns the alpha components of the four texel values that would be used in a bi-linear filtering operation.<br/>                                        |
+| [**GatherBlue**](texturecube-gatherblue.md)                 | Returns the blue components of the four texel values that would be used in a bi-linear filtering operation.<br/>                                         |
+| [**GatherCmp**](texturecube-gathercmp.md)                   | For four texel values that would be used in a bi-linear filtering operation, returns their comparison against a compare value.<br/>                      |
+| [**GatherCmpAlpha**](texturecube-gathercmpalpha.md)         | For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their alpha component against a compare value.<br/> |
+| [**GatherCmpBlue**](texturecube-gathercmpblue.md)           | For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their blue component against a compare value.<br/>  |
+| [**GatherCmpGreen**](texturecube-gathercmpgreen.md)         | For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their green component against a compare value.<br/> |
+| [**GatherCmpRed**](texturecube-gathercmpred.md)             | For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value.<br/>   |
+| [**GatherGreen**](texturecube-gathergreen.md)               | Returns the green components of the four texel values that would be used in a bi-linear filtering operation.<br/>                                        |
+| [**GatherRed**](texturecube-gatherred.md)                   | Returns the red components of the four texel values that would be used in a bi-linear filtering operation.<br/>                                          |
+| [**Sample**](texturecube-sample.md)                         | Samples a texture.<br/>                                                                                                                                  |
+| [**SampleBias**](texturecube-samplebias.md)                 | Samples a texture, after applying the bias value to the mipmap level.<br/>                                                                               |
+| [**SampleCmp**](texturecube-samplecmp.md)                   | Samples a texture, using a comparison value to reject samples.<br/>                                                                                      |
+| [**SampleCmpLevelZero**](texturecube-samplecmplevelzero.md) | Samples a texture (mipmap level 0 only), using a comparison value to reject samples.<br/>                                                                |
+| [**SampleGrad**](texturecube-samplegrad.md)                 | Samples a texture using a gradient to influence the way the sample location is calculated.<br/>                                                          |
+| [**SampleLevel**](texturecube-samplelevel.md)               | Samples a texture on the specified mipmap level.<br/>                                                                                                    |
 
 
 

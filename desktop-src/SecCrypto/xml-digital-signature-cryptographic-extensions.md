@@ -98,7 +98,7 @@ Each key contains the following settings.
 <td>Expandable string<br/></td>
 <td>Required.<br/>The absolute path to the XML Cryptographic Provider DLL.
 <blockquote>
-<p>[!Note]We recommend that cryptographic extension DLLs be located in directories that can only be written to by applications with administrative privilege.</p>
+<p><b>Note: </b>We recommend that cryptographic extension DLLs be located in directories that can only be written to by applications with administrative privilege.</p>
 <p><a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya"><strong>LoadLibrary</strong></a> is used to load the cryptographic extension DLL.<br/></p>
 </blockquote>
 <br/></td>

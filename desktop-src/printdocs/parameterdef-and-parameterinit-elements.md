@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For current information, see the Print Schema Specification.
 ms.assetid: f1c73aed-fca4-47f6-bb98-bab40a6a9b2e
 title: ParameterDef and ParameterInit Elements
 ms.topic: article
@@ -14,7 +14,8 @@ A ParameterDef element differs from a ParameterInit element in that it describes
 
 ParameterDef elements can appear only in their allowed context. For the initial version of the Print Schema they may be located at the root level of the PrintCapabilities document. The name attribute of the ParameterDef element defines the parameter name. Each ParameterDef element in the PrintCapabilities document must be assigned a unique name attribute.
 
-> [!Note]to Print Capabilities Document Providers:
+> [!Note]
+> to Print Capabilities Document Providers:
 >
 > The meaning of a parameter name is universal; that is, if a ParameterDef element in one PrintCapabilities document has the same name attribute (the string formed from the namespace and the descriptive name of the ParameterDef element) as a ParameterDef element in another PrintCapabilities document, it is assumed that both of these elements represent the same concept and should be interpreted in the same manner. Thus a ParameterDef element defined in a PrintTicket for one PrintCapabilities document can be used to initialize the ParameterInit element of the same name defined in a different PrintCapabilities document.
 

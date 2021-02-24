@@ -1,5 +1,5 @@
 ---
-Description: Media packet size affects the ability of IPX protocols to transfer data across networks and can prove challenging to deal with in a transport-independent manner.
+description: Media packet size affects the ability of IPX protocols to transfer data across networks and can prove challenging to deal with in a transport-independent manner.
 ms.assetid: cce31a6a-c187-4ec4-976c-5f9984211ccb
 title: About Media Packet Size
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Provides an instance of IMFMuxStreamMediaTypeManager which can be used to get the media types of the substreams of a multiplexed media source as well as control the combination of substreams that are multiplexed by the source.
+description: Provides an instance of IMFMuxStreamMediaTypeManager which can be used to get the media types of the substreams of a multiplexed media source as well as control the combination of substreams that are multiplexed by the source.
 ms.assetid: 5C36956D-336A-4956-8793-D86DC792E906
 title: MF_MEDIATYPE_MULTIPLEXED_MANAGER attribute (Mfidl.h)
 ms.topic: reference

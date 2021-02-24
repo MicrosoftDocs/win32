@@ -1,5 +1,5 @@
 ---
-Description: This section lists the media types used for MPEG-1 data.
+description: This section lists the media types used for MPEG-1 data.
 ms.assetid: 4ea1cb84-0558-4c4a-9483-1b0f2a8f76f8
 title: MPEG-1 Media Types
 ms.topic: article

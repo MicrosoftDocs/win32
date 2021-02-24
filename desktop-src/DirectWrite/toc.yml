@@ -88,7 +88,7 @@
       - name: "DWRITE_FACTORY_TYPE"
         href: /windows/win32/api/dwrite/ne-dwrite-dwrite_factory_type
       - name: "DWRITE_FACTORY_TYPE (DWriteCore)"
-        href: /windows/win32/directwrite/dwrite/ne-dwrite-dwrite_factory_type
+        href: ./dwrite/ne-dwrite-dwrite_factory_type.md
       - name: "DWRITE_FLOW_DIRECTION"
         href: /windows/win32/api/dwrite/ne-dwrite-dwrite_flow_direction
       - name: "DWRITE_FONT_AXIS_ATTRIBUTES"
@@ -251,10 +251,10 @@
         - name: "SetTextAntialiasMode method"
           href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritebitmaprendertarget1-settextantialiasmode
       - name: "IDWriteBitmapRenderTarget2"
-        href: /windows/win32/directwrite/dwrite_3/nn-dwrite_3-idwritebitmaprendertarget2
+        href: ./dwrite_3/nn-dwrite_3-idwritebitmaprendertarget2.md
         items: 
         - name: "GetBitmapData method"
-          href: /windows/win32/directwrite/dwrite_3/nf-dwrite_3-idwritebitmaprendertarget2-getbitmapdata
+          href: ./dwrite_3/nf-dwrite_3-idwritebitmaprendertarget2-getbitmapdata.md
       - name: "IDWriteColorGlyphRunEnumerator"
         href: idwritecolorglyphrunenumerator.md
         items: 
@@ -1395,7 +1395,7 @@
       href: structures.md
       items: 
       - name: "DWRITE_BITMAP_DATA_BGRA32"
-        href: /windows/win32/directwrite/dwrite_3/ns-dwrite_3-dwrite_bitmap_data_bgra32
+        href: ./dwrite_3/ns-dwrite_3-dwrite_bitmap_data_bgra32.md
       - name: "DWRITE_CARET_METRICS"
         href: /windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_caret_metrics
       - name: "DWRITE_CLUSTER_METRICS"

@@ -1,5 +1,5 @@
 ---
-Description: 'This topic discusses three interrelated topics: protected environment, media interoperability gateway, and revocation and renewal.'
+description: 'This topic discusses three interrelated topics: protected environment, media interoperability gateway, and revocation and renewal.'
 ms.assetid: e88806ae-0041-4b4a-a8df-69718a651e82
 title: Protected Media Path
 ms.topic: article

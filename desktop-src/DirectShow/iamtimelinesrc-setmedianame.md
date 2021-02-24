@@ -1,5 +1,5 @@
 ---
-Description: The SetMediaName method specifies the name of the source file represented by this source object.
+description: The SetMediaName method specifies the name of the source file represented by this source object.
 ms.assetid: 60307c87-9dce-4e60-b14b-07d2c8604dd8
 title: IAMTimelineSrc::SetMediaName method (Qedit.h)
 ms.topic: reference

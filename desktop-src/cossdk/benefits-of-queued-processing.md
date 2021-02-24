@@ -32,7 +32,7 @@ If you have a component that can be run either connected or disconnected, messag
 
 The following illustration shows the flow of information in a disconnected scenario.
 
-![](images/b1818188-0294-4bd8-8bbe-9fe8eea9e09a.png)
+![Diagram that shows teh flow of information between the client and server.](images/b1818188-0294-4bd8-8bbe-9fe8eea9e09a.png)
 
 ## Message Reliability
 

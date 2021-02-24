@@ -16,7 +16,7 @@ When the threads are created, the system allocates an array of **LPVOID** values
 
 The following diagram illustrates how TLS works. For a code example illustrating the use of thread local storage, see [Using Thread Local Storage](using-thread-local-storage.md).
 
-![](images/tls.png)
+![Diagram that shows how the T L S process works.](images/tls.png)
 
 The process has two threads, Thread 1 and Thread 2. It allocates two indexes for use with TLS, gdwTlsIndex1 and gdwTlsIndex2. Each thread allocates two memory blocks (one for each index) in which to store the data, and stores the pointers to these memory blocks in the corresponding TLS slots. To access the data associated with an index, the thread retrieves the pointer to the memory block from the TLS slot and stores it in the lpvData local variable.
 

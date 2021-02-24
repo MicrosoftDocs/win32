@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Drop-down Lists & Combo Boxes
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 With a drop-down list or combo box, users make a choice among a list of mutually exclusive values. Users can choose one and only one option. With a standard drop-down list, users are limited to choices in the list, but with a combo box they can enter a choice that isn't in the list.
 
@@ -130,7 +130,7 @@ Drop-down lists and combo boxes have several usage patterns:
 -   **Place options that represent All or None at the beginning of the list, regardless of the sort order of the remaining items.**
 -   **Enclose meta-options in parentheses.**
 
-    ![screen shot of drop-down list with none selected ](images/ctrl-drop-image15.png)
+    ![Screenshot that shows a drop-down list with '(None)' selected.](images/ctrl-drop-image15.png)
 
     In this example, "(None)" is a meta-option because it is not a valid value for the choice rather it describes that the option itself isn't being used.
 
@@ -276,10 +276,4 @@ When referring to combo boxes:
 Example: In the **Font** box, enter the font you want to use.
 
  
-
- 
-
-
-
-
 

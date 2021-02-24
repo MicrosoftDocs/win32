@@ -41,7 +41,7 @@ HRESULT GetSoftKeyboardColors(
 *colorType* \[in\]
 </dt> <dd>
 
-A value specifying the color type to retrieve for the soft keyboard. Possible values are defined for the [**COLORTYPE**](colortype.md) enumeration.
+A value specifying the color type to retrieve for the soft keyboard. Possible values are defined for the [**COLORTYPE**](/windows/win32/api/icm/ne-icm-colortype) enumeration.
 
 </dd> <dt>
 
@@ -92,7 +92,7 @@ This method can return one of these values.
 [**ISoftKbd::SetSoftKeyboardColors**](/windows/desktop/TSF/isoftkbd-setsoftkeyboardcolors)
 </dt> <dt>
 
-[**COLORTYPE**](colortype.md)
+[**COLORTYPE**](/windows/win32/api/icm/ne-icm-colortype)
 </dt> <dt>
 
 [**COLORREF**](/windows/desktop/gdi/colorref)

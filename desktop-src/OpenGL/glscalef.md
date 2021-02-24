@@ -78,7 +78,7 @@ The following error code can be retrieved by the [**glGetError**](glgeterror.md)
 
 The **glScalef** function produces a general scaling along the *x*, *y*, and *z* axes. The three arguments indicate the desired scale factors along each of the three axes. The resulting matrix appears in the following image.
 
-![](images/scale01.png)
+![Diagram showing the matrix of scale factors along the x, y, and z axes.](images/scale01.png)
 
 The current matrix (see [**glMatrixMode**](glmatrixmode.md)) is multiplied by this scale matrix, with the product replacing the current matrix. That is, if M is the current matrix and S is the scale matrix, then M is replaced with M   S.
 

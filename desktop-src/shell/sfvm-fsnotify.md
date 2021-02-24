@@ -24,7 +24,7 @@ Notifies the callback object that an event has taken place that affects one of i
 ```C++
 SFVM_FSNOTIFY 
 
-    wParam = (WPARAM)(LPCITEMIDLIST) pidl;
+    wParam = (WPARAM)(LPCITEMIDLIST*) ppidl;
 
     lParam = (LPARAM)(DWORD) lEvent;
 
@@ -37,10 +37,10 @@ SFVM_FSNOTIFY
 
 <dl> <dt>
 
-*pidl* \[in\]
+*ppidl* \[in\]
 </dt> <dd>
 
-The PIDL of the affected item.
+The pointer of PIDL of the affected item.
 
 </dd> <dt>
 

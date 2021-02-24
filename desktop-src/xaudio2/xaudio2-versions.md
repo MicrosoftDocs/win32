@@ -41,9 +41,7 @@ XAudio2 2.8 has been updated with the following changes:
 
 All previous versions of XAudio2 for use in apps have been provided as redistributable DLLs in the DirectX SDK. The first version of XAudio2, XAudio2 2.0, shipped in the March 2008 release of the DirectX SDK. The last version to ship in the DirectX SDK was XAudio2 2.7, available in the last release of the DirectX SDK in June 2010.
 
-For access to historical versions of XAudio2, download the DirectX SDK from the Microsoft Download Center. The June 2010 release of the DirectX SDK is available at:
-
-<https://www.microsoft.com/download/en/details.aspx?id=6812>
+The legacy DirectX SDK is no longer available on Microsoft Downloads due to the retirement of all SHA-1 signed content. June 2010 was the end-of-life release.
 
 Previous versions of XAudio2 cannot be used to build Windows Store apps for Windows 8.
 

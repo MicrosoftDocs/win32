@@ -1,5 +1,5 @@
 ---
-Description: Media Sources
+description: Media Sources
 ms.assetid: 65132e7d-22f6-4209-bc58-f5ea86ebd514
 title: Media Sources
 ms.topic: article

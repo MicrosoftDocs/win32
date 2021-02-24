@@ -17,7 +17,7 @@ Many OpenGL functions are used specifically for drawing objects such as points, 
 
 The following diagram details the OpenGL processing pipeline. For most of the pipeline, you can see three vertical arrows between the major stages. These arrows represent vertices and the two primary types of data that can be associated with vertices: color values and texture coordinates. Also note that vertices are assembled into primitives, then into fragments, and finally into pixels in the framebuffer. This progression is discussed in more detail in [Vertices](vertices.md), [Primitives](primitives.md), [Fragments](fragments.md), and [Pixels](pixels.md).
 
-![](images/proc01.png)
+![Diagram showing the OpenGL processing pipeline.](images/proc01.png)
 
  
 

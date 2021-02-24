@@ -1,5 +1,5 @@
 ---
-Description: Enables the Media Engine to play protected content.
+description: Enables the Media Engine to play protected content.
 ms.assetid: F6F17EC7-6553-4127-B691-C20C945DD4D8
 title: MF_MEDIA_ENGINE_CONTENT_PROTECTION_MANAGER attribute (Mfmediaengine.h)
 ms.topic: reference

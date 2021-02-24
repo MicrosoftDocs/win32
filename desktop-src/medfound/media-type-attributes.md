@@ -1,5 +1,5 @@
 ---
-Description: Media Type Attributes
+description: Media Type Attributes
 ms.assetid: e84ba3f6-4857-4340-baca-5847650ea7b8
 title: Media Type Attributes
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Reference count.
+description: Reference count.
 ms.assetid: 57b8498d-2aa4-414f-9e0a-3ddcb748fb38
 title: CMediaSample::m_cRef member (Amfilter.h)
 ms.topic: reference

@@ -30,7 +30,7 @@ Start the File Type Verifier.
 
 Select the category for your file type, as shown in the following screen shot.
 
-![screen shot showing drag-and-drop function](images/file-assoc/filetypeverifier1.png)
+![Screenshot that shows the drag-and-drop function.](images/file-assoc/filetypeverifier1.png)
 
 The category selection determines the set of tests that will be run by the tool. If your type could fall under more than one category (for example, a TIF file might be a Picture or a Document depending on the content), run the tool again with each appropriate category.
 
