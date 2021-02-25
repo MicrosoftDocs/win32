@@ -1,7 +1,7 @@
 ---
 description: Occurs before the IInkAnalyzer moves an IContextNode object to a new position within its parent node's collection of subnodes.
 ms.assetid: c7a5956e-ffc4-4205-9de3-e8b7d672156d
-title: '_IAnalysisProxyEvents::ContextNodeMovingToPosition event' (IACom.h)
+title: '_IAnalysisProxyEvents::ContextNodeMovingToPosition event (IACom.h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

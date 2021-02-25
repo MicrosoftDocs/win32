@@ -1,7 +1,7 @@
 ---
 description: Occurs after the IInkAnalyzer updates one or more properties of an IContextNode object.
 ms.assetid: f626c263-31a4-45ee-ae04-3251eac0d652
-title: '_IAnalysisProxyEvents::ContextNodePropertiesUpdated event' (IACom.h)
+title: '_IAnalysisProxyEvents::ContextNodePropertiesUpdated event (IACom.h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

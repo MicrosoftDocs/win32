@@ -1,7 +1,7 @@
 ---
 description: Lists the constants used with the CryptEncodeObject and CryptDecodeObject functions.
 ms.assetid: f969f2a5-fcbb-4711-8523-ba22952ae952
-title: Constants for CryptEncodeObject and CryptDecodeObject (<span id="Field__HashAlgorithm.pszObjId"></span><span id="field__hashalgorithm.pszobjid"></span><span id="FIELD__HASHALGORITHM.PSZOBJID"></span>Field: HashAlgorithm.pszObjId</dt> <dd> Default: szOID_OIWSEC_sha1<br/> </dd> <dt><span id="Field__MaskGenAlgorithm.pszObjId"></span><span id="field__maskgenalgorithm.pszobjid"></span><span id="FIELD__MASKGENALGORITHM.PSZOBJID"></span>Field: MaskGenAlgorithm.pszObjId</dt> <dd> Default: szOID_RSA_MGF1<br/> </dd> <dt><span id="Field__MaskGenAlgorithm.H)
+title: Constants for CryptEncodeObject and CryptDecodeObject
 ms.topic: reference
 ms.date: 05/31/2018
 ---

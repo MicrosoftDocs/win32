@@ -1,7 +1,7 @@
 ---
 description: Occurs after the IInkAnalyzer creates an IContextNode object.
 ms.assetid: b4ba0d3b-da91-4cc7-b071-240155687b83
-title: '_IAnalysisProxyEvents::ContextNodeCreated event' (IACom.h)
+title: '_IAnalysisProxyEvents::ContextNodeCreated event (IACom.h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
