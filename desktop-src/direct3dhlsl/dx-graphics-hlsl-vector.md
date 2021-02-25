@@ -8,6 +8,8 @@ topic_type:
 - apiref
 api_name:
 - Vector Type
+api_type:
+- NA
 ms.topic: reference
 ms.date: 05/31/2018
 ---
