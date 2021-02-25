@@ -17,6 +17,8 @@ ROBOTS: INDEX,FOLLOW
 ---
 
 
+# IdentityPrivacy (PeapExtensionsType) Element
+
 The **IdentityPrivacy (PeapExtensionsType)** element indicates whether a user's true identity or an anonymous identity is sent.
 
 ``` syntax
