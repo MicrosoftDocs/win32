@@ -14,9 +14,9 @@ Just as a remote procedure must use a binding handle to make a remote call, a se
 
 > [!Note]
 > Microsoft RPC allows remote and serialization procedures to be mixed in one interface. However, use caution when doing so.
->
+> 
 > For remote procedures with implicit binding handles, the MIDL compiler generates a global handle variable of type [**handle\_t**](/windows/desktop/Midl/handle-t). Procedures and types with implicit serialization handles use this same global handle variable.
->
+> 
 > For implicit handles, the global implicit handle must be set to a valid binding handle before a remote call. The implicit handle must be set to a valid serialization handle before a serialization call. Therefore, a procedure cannot be both remote and serialized. It must be one or the other.
 
  

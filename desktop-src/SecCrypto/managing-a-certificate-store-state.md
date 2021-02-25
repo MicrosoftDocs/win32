@@ -24,7 +24,7 @@ Setting CERT\_CLOSE\_STORE\_FORCE\_FLAG with [**CertCloseStore**](/windows/deskt
 
 > [!Note]
 > A [*certificate context*](../secgloss/c-gly.md) is a structure of type [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context) that has, among other members, a pointer to the encoded [*certificate BLOB*](../secgloss/c-gly.md) and a pointer to a [**CERT\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_info) structure. The **CERT\_INFO** structure contains the most significant certificate data. For more information about [*certificate*](../secgloss/c-gly.md), [*certificate revocation list*](../secgloss/c-gly.md) (CRL), and [*certificate trust list*](../secgloss/c-gly.md) (CTL) context structures, see [Encoding and Decoding a Certificate Context](encoding-and-decoding-a-certificate-context.md).
->
+> 
 > Each certificate context also contains a [*reference count*](../secgloss/r-gly.md) indicating the number of copies of the context's address that have been assigned. Each time a certificate context is duplicated in any way, its reference count is incremented by one. Each time a pointer to a certificate context is freed, the reference count in the certificate context is decremented by one. When the reference count on a certificate context reaches zero, the memory holding the context is de-allocated. Memory allocated for a certificate context is also de-allocated when that context is in a store and the store is closed using CERT\_CLOSE\_STORE\_FORCE\_FLAG. If the memory for a context is de-allocated and pointers to that context are still in use, those pointers are no longer valid.
 
  

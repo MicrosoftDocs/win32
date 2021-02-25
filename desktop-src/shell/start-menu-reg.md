@@ -113,20 +113,20 @@ HKEY_LOCAL_MACHINE
 
 > [!Note]
 > In Windows Vista, the user-level default web browser should be set using the **Default Programs** tool, not [SPAD](cpl-setprogramaccess.md).
->
+> 
 > **The following information applies to Windows XP only.**
->
+> 
 > If the registration of the computer-level default web browser under HKEY\_LOCAL\_MACHINE as shown above is successful, the application should delete the Default entry under the following subkey:
->
+> 
 > ```
 > HKEY_CURRENT_USER
 >    SOFTWARE
 >       Clients
 >          StartMenuInternet
 > ```
->
+> 
 > If the registration of the computer-level default web browser under HKEY\_LOCAL\_MACHINE fails, the application should set the REG\_SZ data as shown in this example for the Lit View application:
->
+> 
 > ```
 > HKEY_CURRENT_USER
 >    SOFTWARE

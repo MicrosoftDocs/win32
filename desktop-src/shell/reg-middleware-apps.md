@@ -18,7 +18,7 @@ This topic explains how to register a program in the Windows registry as one of 
 
 > [!Note]  
 > This information applies to the following operating systems:
->
+> 
 > -   Windows 2000 Service Pack 3 (SP3)
 > -   Windows 2000 Service Pack 4 (SP4)
 > -   Windows XP Service Pack 1 (SP1)

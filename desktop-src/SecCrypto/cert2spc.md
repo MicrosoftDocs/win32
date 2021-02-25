@@ -14,8 +14,9 @@ Cert2SPC is available as part of the Windows SDK, which you can download from <h
 
 > [!Note]
 > This tool is for test purposes only. A valid SPC is obtained from a [*certification authority*](../secgloss/c-gly.md).
->
-> **Cert2SPC** *Cert1.cer Cert2.cer* … *Output.spc*
+
+
+**Cert2SPC** *Cert1.cer Cert2.cer* … *Output.spc*
 
  
 

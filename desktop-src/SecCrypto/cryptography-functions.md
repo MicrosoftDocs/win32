@@ -1261,7 +1261,7 @@ Certificate Services includes functions for backing up and restoring the Certifi
 
 > [!Note]
 > Backup and restore functions provided by Certadm.dll do not backup or restore the Certificate Service's [*private keys*](../secgloss/p-gly.md). For information about backing up the Certificate Services private keys, see [Backing Up and Restoring the Certificate Services Private Key](backing-up-and-restoring-the-certificate-services-private-key.md).
->
+> 
 > To call the backup and restore functions, you must have backup and restore [*privileges*](../secgloss/p-gly.md). For details, see [Setting the Backup and Restore Privileges](setting-the-backup-and-restore-privileges.md).
 
  
