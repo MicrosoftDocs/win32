@@ -21,9 +21,6 @@ ms.date: 05/31/2018
 
 This document provides information about security considerations related to image color management. This document doesn't provide all you need to know about security issues—instead, use it as a starting point and reference for this technology area.
 
--   [Non-Microsoft CMMs can run in system context](#item1)
--   [Related Topics](#related-topics)
-
 ## Non-Microsoft CMMs can run in system context
 
 Non-Microsoft Color Management Modules (CMMs) should be treated like non-Microsoft printer drivers because they have the potential to run in a system context for printing operations.

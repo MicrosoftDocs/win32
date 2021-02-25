@@ -18,7 +18,7 @@ A perceived type is a category of file types that lets you identify your file ty
 
 This topic is organized as follows:
 
--   [About Perceived Types](#perceived-types)
+-   [About Perceived Types](#about-perceived-types)
 -   [Additional Resources](#additional-resources)
 -   [Related topics](#related-topics)
 
