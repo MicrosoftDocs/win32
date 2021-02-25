@@ -77,9 +77,9 @@ Here's a collection of some of the important guidelines in UX Guide. You can use
     -   **Always present command links in a set of two or more.** Logically, there is no reason to ask a question that has only one answer.
     -   **Provide an explicit Cancel button.** Don't use a command link for this purpose. Quite often, users realize that they don't want to perform a task. Using a command link to cancel would require users to read all the command links carefully to determine which one means to cancel. Having an explicit Cancel button allows users to cancel a task efficiently.
     -   **If providing an explicit Cancel button leaves a single command link, provide both a command link to cancel and a Cancel button.** Doing so makes it clear that users have a choice. Phrase this command link in terms of how it differs from the first response, instead of just "Cancel" or some variation.
--   **"Don't show this <item> again" check boxes**
-    -   **Consider using a "Don't show this <item> again" option to allow users to suppress a recurring dialog box, only if there isn't a better alternative.** It is better always to show the dialog if users really need it, or simply eliminate it if they don't.
-    -   **Replace <item> with the specific item.** For example, Don't show this reminder again. When referring to a dialog box in general, use Don't show this message again.
+-   **"Don't show this \<item\> again" check boxes**
+    -   **Consider using a "Don't show this \<item\> again" option to allow users to suppress a recurring dialog box, only if there isn't a better alternative.** It is better always to show the dialog if users really need it, or simply eliminate it if they don't.
+    -   **Replace \<item\> with the specific item.** For example, Don't show this reminder again. When referring to a dialog box in general, use Don't show this message again.
     -   **Clearly indicate when user input will be used for future default values** by adding the following sentence under the option: Your selections will be used by default in the future.
     -   **Don't select the option by default. If the dialog box really should be displayed only once, do so without asking.** Don't use this option as an excuse to annoy users—make sure the default behavior isn't annoying.
     -   **If users select the option and click Cancel, this option does take effect.** This setting is a meta-option, so it doesn't follow the standard Cancel behavior of leaving no side effect. Note that if users don't want to see the dialog in the future, most likely they want to cancel it as well.
@@ -98,12 +98,12 @@ Here's a collection of some of the important guidelines in UX Guide. You can use
         -   **More/Fewer options.** Use for options or a mixture of options, commands, and details.
         -   **More/Fewer commands.** Use for commands only.
         -   **More/Fewer details.** Use for information only.
-        -   **More/Fewer <object name>.** Use for other object types, such as folders.
+        -   **More/Fewer \<object name\>.** Use for other object types, such as folders.
     -   Otherwise:
         -   **Show/Hide options.** Use for options or a mixture of options, commands, and details.
         -   **Show/Hide commands.** Use for commands only.
         -   **Show/Hide details.** Use for information only.
-        -   **Show/Hide <object name>.** Use for other object types, such as folders.
+        -   **Show/Hide \<object name\>.** Use for other object types, such as folders.
 -   **Progress bars**
     -   **Use determinate progress bars for operations that require a bounded amount of time,** even if that amount of time cannot be accurately predicted. Indeterminate progress bars show that progress is being made, but provide no other information. Don't choose an indeterminate progress bar based only on the possible lack of accuracy alone.
     -   **Provide a time remaining estimate if you can do so accurately.** Time remaining estimates that are accurate are useful, but estimates that are way off the mark or bounce around significantly aren't helpful. You may need to perform some processing before you can give accurate estimates. If so, don't display potentially inaccurate estimates during this initial period.
@@ -142,7 +142,7 @@ Here's a collection of some of the important guidelines in UX Guide. You can use
 where \[Do it\] and \[Don't do it\] are specific responses to the main instruction.
 
 -   **Don't confuse access keys with shortcut keys.** While both access keys and shortcut keys provide keyboard access to UI, they have different purposes and guidelines.
--   **Whenever possible, assign unique access keys to all interactive controls or their labels.**[Read-only text boxes](ctrl-text-boxes.md) are interactive controls (because users can scroll them and copy text), so they benefit from access keys. **Don't assign access keys to:**
+-   **Whenever possible, assign unique access keys to all interactive controls or their labels.** [Read-only text boxes](ctrl-text-boxes.md) are interactive controls (because users can scroll them and copy text), so they benefit from access keys. **Don't assign access keys to:**
     -   OK, Cancel, and Close buttons. Enter and Esc are used for their access keys. However, always assign an access key to a control that means OK or Cancel, but has a different label.
 -   **Assign shortcut keys to the most commonly used commands.** Infrequently used programs and features don't need shortcut keys because users can use access keys instead.
 -   **Don't make a shortcut key the only way to perform a task.** Users should also be able to use the mouse or the keyboard with Tab, arrow, and access keys.
@@ -265,6 +265,3 @@ If an issue combines different message types, focus on the most important aspect
 -   **Don't use ending punctuation or ellipses, except for question marks.**
 -   **If the Help content is online, make that clear in the link text.** Doing so helps make the result of the links predictable.
 
- 
-
- 
