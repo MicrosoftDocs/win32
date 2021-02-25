@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XML Attributes
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 There are a number of XML attributes that appear in several element types defined in the Print Schema Framework. XML attributes with the same name generally have the same meaning and obey the same rules regardless of the element type they reside in. Therefore, the XML attributes are listed here by name and not by their host element type. Privately-defined XML attributes are not permitted. Only the XML attributes defined here may be used in a PrintCapabilities document or a PrintTicket, and then only in the defined context.
 
@@ -106,7 +106,7 @@ When the PrintCapabilities provider reports values of the constrained attribute,
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

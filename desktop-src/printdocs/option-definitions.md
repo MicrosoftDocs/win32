@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Option Definitions
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 The key consideration when you define an Option is to do so in such a way that it can be meaningfully compared to other Option instances contained in the same Feature. The comparison must be meaningful because the Option instance is used to define the configuration not just of the device, but of the job, independent of the device or PrintCapabilities that were used to create the configuration. The other Option instances in the Feature can appear either in the same PrintCapabilities document, or in another PrintCapabilities document that represents a different device, a PrintCapabilities document that is defined by another party working independently. After a client selects the device configuration to be used to render a job or document, that configuration typically is saved, along with the job or document, in the form of a PrintTicket. The PrintTicket contains a set of Option instances, typically one for each Feature defined in the PrintCapabilities document. Option instances must be portable and must preserve printing intent, so that the intent can be communicated when this PrintTicket is given to a different device, even one that has a different PrintCapabilities document that was written by a different author. The primary benefit of this portability is that if a different device does not specifically support an Option contained in the PrintTicket, the device driver or subsystem is able to identify and select the Option that is the closest in functionality.
 
@@ -42,7 +42,7 @@ It should be noted that the Print Schema requires that the set of ScoredProperty
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

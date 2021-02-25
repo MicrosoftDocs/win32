@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Connecting PrintCapabilities with the Print Schema
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 The general PrintCapabilities Schema covers the structure, purpose, and use of the various element types. It specifies the name attribute that is used to define specific instances of each element type. It specifies that PrintCapabilities authors may use instances of elements defined by the Print Schema Keywords, or they may introduce their own privately-defined instances, as long as these privately-defined instances are defined in a namespace that is clearly identified as their own. (PrintCapabilities authors may also use instances previously defined in another private namespace.)
 
@@ -56,7 +56,7 @@ The Print Schema Keywords document designates some instances as mandatory. These
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

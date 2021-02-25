@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Print Schema
 
-The Print Schema and related technologies are available in Microsoft .NET Framework 3.0 and later versions of Microsoft .NET Framework, and in Windows Vista and later versions of Windows. XPS documents and the XPS Object Model can use the print ticket objects, which are described in the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx), to specify the printing preferences of a document to printers and viewing applications.
+The Print Schema and related technologies are available in Microsoft .NET Framework 3.0 and later versions of Microsoft .NET Framework, and in Windows Vista and later versions of Windows. XPS documents and the XPS Object Model can use the print ticket objects, which are described in the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip), to specify the printing preferences of a document to printers and viewing applications.
 
-The [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx) is a downloadable document that contains information about the Print Schema and how to use it in documents and printing. Additional information is provided online for your information only, at [Legacy Print Schema Reference](print-schema.md); however, it might not accurately reflect the current version of the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx). Refer to the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx) for the most current design information.
+The [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip) is a downloadable document that contains information about the Print Schema and how to use it in documents and printing. Additional information is provided online for your information only, at [Legacy Print Schema Reference](print-schema.md); however, it might not accurately reflect the current version of the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip). Refer to the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip) for the most current design information.
 
 ## Print Schema Overview
 
@@ -22,7 +22,7 @@ The Print Schema technologies, called *PrintCapabilities* and *PrintTicket*, are
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> <dt>
 
 [Legacy Print Schema Reference](print-schema.md)
