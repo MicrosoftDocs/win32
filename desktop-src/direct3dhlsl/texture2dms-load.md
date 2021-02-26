@@ -1,6 +1,6 @@
 ---
 title: Texture2DMS::Texture2DMS Load methods
-description: Retrieves a value from the resource at the location and sample index provided.
+description: Retrieves a value from the resource at the location and sample index provided. | Texture2DMS::Texture2DMS Load methods
 ms.assetid: 'd597fc42-0b21-4e89-bb33-0b8c12ae00ae'
 keywords:
 - Load methods HLSL

@@ -1,6 +1,6 @@
 ---
 title: glColor3bv function (Gl.h)
-description: Sets the current color from an already existing array of color values.
+description: Sets the current color from an already existing array of color values. | glColor3bv function (Gl.h)
 ms.assetid: 2a2151a7-1f62-4cef-b8d4-9efd9d4bcd1c
 keywords:
 - glColor3bv function OpenGL

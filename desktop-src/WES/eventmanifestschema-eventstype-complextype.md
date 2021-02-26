@@ -1,6 +1,6 @@
 ---
 title: EventsType Complex Type
-description: Contains a list of providers that are defined in the manifest.
+description: Contains a list of providers that are defined in the manifest. | EventsType Complex Type
 ms.assetid: 43f9f577-eae0-45c5-aaf0-5a6df28d3b79
 keywords:
 - EventsType complex type EventLog

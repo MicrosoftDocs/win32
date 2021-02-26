@@ -1,6 +1,6 @@
 ---
 title: DisableUserPromptForServerValidation (ServerValidationParameters)
-description: Learn about the DisableUserPromptForServerValidation (ServerValidationParameters) element. It indicates whether the user should be asked for server validation.
+description: Learn about the DisableUserPromptForServerValidation (ServerValidationParameters) element. It indicates whether the user should be asked for server validation. | DisableUserPromptForServerValidation (ServerValidationParameters)
 ms.assetid: d1c2f334-286b-4aac-b723-806b90fc7b1f
 keywords:
 - DisableUserPromptForServerValidation element EAPHost

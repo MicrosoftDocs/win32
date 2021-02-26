@@ -1,6 +1,6 @@
 ---
 title: GetDistinguishedName method of the MicrosoftDNS_Domain class
-description: The GetDistinguishedName method retrieves the DS distinguished name for the zone.
+description: The GetDistinguishedName method retrieves the DS distinguished name for the zone. | GetDistinguishedName method of the MicrosoftDNS_Domain class
 ms.assetid: f1ca2f31-704f-48d7-b3cb-115512f2a990
 keywords:
 - GetDistinguishedName method DNS

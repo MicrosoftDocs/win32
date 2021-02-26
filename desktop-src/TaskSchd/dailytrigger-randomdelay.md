@@ -1,6 +1,6 @@
 ---
 title: DailyTrigger.RandomDelay property
-description: For scripting, gets or sets a delay time that is randomly added to the start time of the trigger.
+description: For scripting, gets or sets a delay time that is randomly added to the start time of the trigger. | DailyTrigger.RandomDelay property
 ms.assetid: 0494a963-bdaf-4f3f-a2e3-9482409ecda4
 keywords:
 - RandomDelay property Task Scheduler

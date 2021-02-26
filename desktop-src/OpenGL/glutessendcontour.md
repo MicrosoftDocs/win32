@@ -1,6 +1,6 @@
 ---
 title: gluTessEndContour function (Glu.h)
-description: The gluTessBeginContour and gluTessEndContour functions delimit a contour description.
+description: The gluTessBeginContour and gluTessEndContour functions delimit a contour description. | gluTessEndContour function (Glu.h)
 ms.assetid: 115db079-cbcb-48e1-8bab-0eb4814afb82
 keywords:
 - gluTessEndContour function OpenGL

@@ -1,6 +1,6 @@
 ---
 title: ISearchResult VerbCount method
-description: Reserved.
+description: Reserved. | ISearchResult VerbCount method
 ms.assetid: 2d561bdb-a044-4313-aad2-2534097565e2
 keywords:
 - VerbCount method Legacy Windows Environment Features

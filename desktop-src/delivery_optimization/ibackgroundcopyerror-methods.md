@@ -1,6 +1,6 @@
 ---
 title: IBackgroundCopyError Methods (DO)
-description: The IBackgroundCopyError interface exposes the following methods.
+description: The IBackgroundCopyError interface exposes the following methods. | IBackgroundCopyError Methods (DO)
 ms.assetid: DCD65543-2A0B-4021-9574-29D3CBB259F3
 ms.topic: reference
 ms.date: 05/31/2018

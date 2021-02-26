@@ -1,6 +1,6 @@
 ---
 title: IVMDisplay _GenerateThumbnail method (VPCCOMInterfaces.h)
-description: Retrieves an array of pixels representing a thumbnail image of the virtual machine's screen.
+description: Retrieves an array of pixels representing a thumbnail image of the virtual machine's screen. | IVMDisplay _GenerateThumbnail method (VPCCOMInterfaces.h)
 ms.assetid: c97bb0ff-55cd-491f-a706-0ba15c9a6b54
 keywords:
 - _GenerateThumbnail method Virtual PC

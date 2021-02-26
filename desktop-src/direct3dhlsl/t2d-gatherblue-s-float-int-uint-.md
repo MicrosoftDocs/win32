@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GatherBlue(S,float,int,uint) function
-description: Returns the blue components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.
+description: Returns the blue components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status. | Texture2D::GatherBlue(S,float,int,uint) function
 ms.assetid: 9E2A57C3-4EC4-4414-B16A-64AF759F04E9
 keywords:
 - GatherBlue function HLSL

@@ -1,6 +1,6 @@
 ---
 title: ChannelLoggingType Complex Type
-description: Defines the properties of the log file that backs the channel, such as its capacity and whether it is sequential or circular.
+description: Defines the properties of the log file that backs the channel, such as its capacity and whether it is sequential or circular. | ChannelLoggingType Complex Type
 ms.assetid: 58da75dd-d303-4a57-8c9b-5fde575c3cbb
 keywords:
 - ChannelLoggingType complex type EventLog

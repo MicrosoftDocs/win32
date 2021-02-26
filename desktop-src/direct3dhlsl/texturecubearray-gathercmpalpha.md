@@ -1,6 +1,6 @@
 ---
 title: TextureCubeArray::TextureCubeArray GatherCmpAlpha methods
-description: Samples and compares a texture and returns the alpha component.
+description: Samples and compares a texture and returns the alpha component. | TextureCubeArray::TextureCubeArray GatherCmpAlpha methods
 ms.assetid: 777A1361-844F-4675-8B1A-E1171A53812B
 keywords:
 - GatherCmpAlpha methods HLSL

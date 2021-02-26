@@ -1,6 +1,6 @@
 ---
 title: glRasterPos4dv function (Gl.h)
-description: Specifies the raster position for pixel operations.
+description: Specifies the raster position for pixel operations. | glRasterPos4dv function (Gl.h)
 ms.assetid: d3f0ea80-6753-4c9d-a498-9166f6207692
 keywords:
 - glRasterPos4dv function OpenGL

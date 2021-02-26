@@ -1,6 +1,6 @@
 ---
 title: DURATIONTEXT
-description: This is a predefined TEXT element with the following default values.
+description: This is a predefined TEXT element with the following default values. | DURATIONTEXT
 ms.assetid: 32102065-e184-41f7-8975-e28b6b20b550
 keywords:
 - DURATIONTEXT Windows Media Player

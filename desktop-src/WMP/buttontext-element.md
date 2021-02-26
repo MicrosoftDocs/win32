@@ -1,6 +1,6 @@
 ---
 title: ButtonText Element
-description: Note This section describes functionality designed for use by online stores.
+description: Note This section describes functionality designed for use by online stores. | ButtonText Element
 ms.assetid: 1afe1626-769a-40c8-883a-968ebd995a93
 keywords:
 - ButtonText Element Windows Media Player

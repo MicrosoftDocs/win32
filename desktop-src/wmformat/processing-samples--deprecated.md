@@ -1,6 +1,6 @@
 ---
 title: Processing Samples
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | Processing Samples
 ms.assetid: e1a803dd-fbc8-4edb-8836-cc702ab7a8de
 keywords:
 - Processing Samples windows Media Format

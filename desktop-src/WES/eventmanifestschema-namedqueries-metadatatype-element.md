@@ -1,6 +1,6 @@
 ---
 title: namedQueries (MetadataType) Element
-description: Not used. Defines a list of named queries that query the event message string for a value and perform a specified action if found.
+description: Not used. Defines a list of named queries that query the event message string for a value and perform a specified action if found. | namedQueries (MetadataType) Element
 ms.assetid: c2d5a6be-2367-4c08-b5b5-501a5a5a0dbe
 keywords:
 - namedQueries element EventLog

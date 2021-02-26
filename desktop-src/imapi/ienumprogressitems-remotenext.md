@@ -1,6 +1,6 @@
 ---
 title: IEnumProgressItems RemoteNext method
-description: Supports a remote client that wants to retrieve a specified number of items in the enumeration sequence.
+description: Supports a remote client that wants to retrieve a specified number of items in the enumeration sequence. | IEnumProgressItems RemoteNext method
 ms.assetid: c5f85ca3-1bad-49fd-9e67-d41135cd837d
 keywords:
 - RemoteNext method IMAPI

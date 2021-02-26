@@ -1,6 +1,6 @@
 ---
 title: KeywordType Complex Type
-description: Defines a keyword that identifies a category of events.
+description: Defines a keyword that identifies a category of events. | KeywordType Complex Type
 ms.assetid: 6bd41d4a-1d55-4cce-a1f8-136f749fde2a
 keywords:
 - KeywordType complex type EventLog

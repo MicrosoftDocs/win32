@@ -1,6 +1,6 @@
 ---
 title: Player.AudioLanguageChange event
-description: The AudioLanguageChange event occurs when the current audio language changes.
+description: The AudioLanguageChange event occurs when the current audio language changes. | Player.AudioLanguageChange event
 ms.assetid: 29006a51-1b72-4fab-9906-8a0af3d92560
 keywords:
 - AudioLanguageChange event Windows Media Player

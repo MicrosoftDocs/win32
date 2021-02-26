@@ -1,6 +1,6 @@
 ---
 title: Player.OpenPlaylistSwitch event
-description: The OpenPlaylistSwitch event occurs when a title on a DVD begins playing.
+description: The OpenPlaylistSwitch event occurs when a title on a DVD begins playing. | Player.OpenPlaylistSwitch event
 ms.assetid: 97d69716-602f-4522-b743-83f2dbc852a2
 keywords:
 - OpenPlaylistSwitch event Windows Media Player

@@ -1,6 +1,6 @@
 ---
 title: events (InstrumentationType) Element
-description: Contains a list of providers that are defined in the manifest.
+description: Contains a list of providers that are defined in the manifest. | events (InstrumentationType) Element
 ms.assetid: 1dab7840-75c0-4cee-94ba-9816762ac345
 keywords:
 - events element EventLog

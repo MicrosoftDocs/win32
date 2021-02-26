@@ -1,6 +1,6 @@
 ---
 title: RWStructuredBuffer::GetDimensions function
-description: Gets the resource dimensions.
+description: Gets the resource dimensions. | RWStructuredBuffer::GetDimensions function
 ms.assetid: 842b3d21-2e2b-4906-93ee-0252b2e8cf85
 keywords:
 - GetDimensions function HLSL

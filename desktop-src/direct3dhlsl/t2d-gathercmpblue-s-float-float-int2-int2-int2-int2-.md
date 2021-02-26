@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GatherCmpBlue(S,float,float,int2,int2,int2,int2) function
-description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their blue component against a compare value.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their blue component against a compare value. | Texture2D::GatherCmpBlue(S,float,float,int2,int2,int2,int2) function
 ms.assetid: DAA41BF3-6037-404F-9B35-C5F1302367B9
 keywords:
 - GatherCmpBlue function HLSL

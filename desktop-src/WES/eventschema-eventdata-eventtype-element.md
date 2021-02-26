@@ -1,6 +1,6 @@
 ---
 title: EventData (EventType) Element
-description: Contains the event data.
+description: Contains the event data. | EventData (EventType) Element
 ms.assetid: eadc951e-52fd-4bbc-879e-66c7748a31ff
 keywords:
 - EventData element EventLog

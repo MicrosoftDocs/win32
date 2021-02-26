@@ -1,6 +1,6 @@
 ---
 title: TextureCubeArray::GatherCmpBlue(S,float,float,uint) function
-description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their blue component against a compare value along with tile-mapping status.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their blue component against a compare value along with tile-mapping status. | TextureCubeArray::GatherCmpBlue(S,float,float,uint) function
 ms.assetid: 81F82EB1-D662-4A18-856F-26AE5C1A41C6
 keywords:
 - GatherCmpBlue function HLSL

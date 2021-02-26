@@ -1,6 +1,6 @@
 ---
 title: AVIEncoderDShow
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | AVIEncoderDShow
 ms.assetid: 0e76b042-ee5f-40b0-9cde-735f0e79367e
 keywords:
 - AVIEncoderDShow windows Media Format

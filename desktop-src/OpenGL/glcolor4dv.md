@@ -1,6 +1,6 @@
 ---
 title: glColor4dv function (Gl.h)
-description: Sets the current color from an already existing array of color values.
+description: Sets the current color from an already existing array of color values. | glColor4dv function (Gl.h)
 ms.assetid: c97b5858-952c-4900-b1de-7bea36a71c13
 keywords:
 - glColor3dv function OpenGL

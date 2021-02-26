@@ -1,6 +1,6 @@
 ---
 title: msSFU-30-Domain-Info class
-description: Represents an internal data structure used by the server for NIS.
+description: Represents an internal data structure used by the server for NIS. | msSFU-30-Domain-Info class
 ms.assetid: 6ec69d6e-04f8-4cc5-919c-afea0fb3566b
 ms.tgt_platform: multiple
 keywords:

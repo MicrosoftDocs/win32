@@ -1,6 +1,6 @@
 ---
 title: IWMPControls playItem method
-description: The playItem method plays the specified media item.
+description: The playItem method plays the specified media item. | IWMPControls playItem method
 ms.assetid: ddd4e4f7-475c-4964-a623-9123ed66be8e
 keywords:
 - playItem method Windows Media Player

@@ -1,6 +1,6 @@
 ---
 title: TSMF_SUPPORT_DATA_OUT structure
-description: Contains information about media formats.
+description: Contains information about media formats. | TSMF_SUPPORT_DATA_OUT structure
 ms.assetid: 987ede31-ad15-489f-90e5-fb707c6b38a9
 ms.tgt_platform: multiple
 keywords:

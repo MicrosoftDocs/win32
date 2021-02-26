@@ -1,6 +1,6 @@
 ---
 title: TextureCubeArray::TextureCubeArray SampleLevel methods
-description: Samples a texture on the specified mipmap level.
+description: Samples a texture on the specified mipmap level. | TextureCubeArray::TextureCubeArray SampleLevel methods
 ms.assetid: FEE18D08-B05C-4F38-AFB1-CA8341759D01
 keywords:
 - SampleLevel methods HLSL

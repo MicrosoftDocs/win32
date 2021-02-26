@@ -1,6 +1,6 @@
 ---
 title: RWBuffer::GetDimensions function
-description: Gets the length of the buffer.
+description: Gets the length of the buffer. | RWBuffer::GetDimensions function
 ms.assetid: 600147cb-9513-4b74-a873-1ed22b31cdf7
 keywords:
 - GetDimensions function HLSL

@@ -1,6 +1,6 @@
 ---
 title: IResultsViewer GoForward method
-description: Reserved.
+description: Reserved. | IResultsViewer GoForward method
 ms.assetid: be302b2d-37f3-4c8c-b48f-106147a2970f
 keywords:
 - GoForward method Legacy Windows Environment Features

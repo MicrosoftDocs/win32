@@ -1,6 +1,6 @@
 ---
 title: ServerValidationParameters complex type (PEAP)
-description: Learn about the ServerValidationParameters complex type. This type contains information about how to perform server validation.
+description: Learn about the ServerValidationParameters complex type. This type contains information about how to perform server validation. | ServerValidationParameters complex type (PEAP)
 ms.assetid: 65b3199c-9462-447b-b560-0713348f9130
 keywords:
 - ServerValidationParameters complex type EAPHost

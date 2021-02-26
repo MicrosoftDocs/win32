@@ -1,6 +1,6 @@
 ---
 title: MonthlyDOWTrigger.RandomDelay property
-description: For scripting, gets or sets a delay time that is randomly added to the start time of the trigger.
+description: For scripting, gets or sets a delay time that is randomly added to the start time of the trigger. | MonthlyDOWTrigger.RandomDelay property
 ms.assetid: 'e5cb6c1d-8003-43f4-bf35-da490a6097f0'
 keywords:
 - RandomDelay property Task Scheduler

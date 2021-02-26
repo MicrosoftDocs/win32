@@ -1,6 +1,6 @@
 ---
 title: SetHurryup
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | SetHurryup
 ms.assetid: e34a7802-6c1c-4d38-983f-7d4b70d31f9d
 keywords:
 - SetHurryup windows Media Format

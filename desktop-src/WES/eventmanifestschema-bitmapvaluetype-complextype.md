@@ -1,6 +1,6 @@
 ---
 title: BitMapValueType Complex Type
-description: Defines the mapping between a bit value and a string value.
+description: Defines the mapping between a bit value and a string value. | BitMapValueType Complex Type
 ms.assetid: 2ef9ed89-83cf-4c47-9c6c-64459b6d7198
 keywords:
 - BitMapValueType complex type EventLog

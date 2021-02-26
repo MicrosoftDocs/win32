@@ -1,6 +1,6 @@
 ---
 title: ButtonTip Element
-description: Note This section describes functionality designed for use by online stores.
+description: Note This section describes functionality designed for use by online stores. | ButtonTip Element
 ms.assetid: 93e5d0c8-8d2d-45c1-9d47-bbd0b6eb8b88
 keywords:
 - ButtonTip Element Windows Media Player

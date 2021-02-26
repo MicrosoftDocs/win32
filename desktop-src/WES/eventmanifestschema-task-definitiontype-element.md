@@ -1,6 +1,6 @@
 ---
 title: task (DefinitionType) Element
-description: Defines a task-specific event that your provider can log.
+description: Defines a task-specific event that your provider can log. | task (DefinitionType) Element
 ms.assetid: 0e880720-1896-43cf-b702-cabca8ab1430
 keywords:
 - task element EventLog

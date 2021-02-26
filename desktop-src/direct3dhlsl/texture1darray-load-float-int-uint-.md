@@ -1,6 +1,6 @@
 ---
 title: Texture1DArray::Load(int,int,uint) function
-description: Reads texture data and returns status of the operation.
+description: Reads texture data and returns status of the operation. | Texture1DArray::Load(int,int,uint) function
 ms.assetid: D5877CED-BE73-4E37-B09D-4096726776EC
 keywords:
 - Load function HLSL

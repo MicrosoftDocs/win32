@@ -1,6 +1,6 @@
 ---
 title: S/PDIF DMO Properties
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | S/PDIF DMO Properties
 ms.assetid: cc9bbe33-2a4c-4662-b0db-36db3451343f
 keywords:
 - S/PDIF DMO Properties windows Media Format

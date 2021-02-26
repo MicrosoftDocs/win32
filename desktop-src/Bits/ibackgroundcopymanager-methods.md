@@ -1,6 +1,6 @@
 ---
 title: IBackgroundCopyManager Methods (BITS)
-description: The IBackgroundCopyManager interface exposes the following methods.
+description: The IBackgroundCopyManager interface exposes the following methods. | IBackgroundCopyManager Methods (BITS)
 ms.assetid: 2A91E7B0-BA4F-4EDF-8A75-CB95601E8083
 ms.topic: reference
 ms.date: 05/31/2018

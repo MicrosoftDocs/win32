@@ -1,6 +1,6 @@
 ---
 title: IGatherNotify Init (Deprecated) method
-description: This Windows Desktop Search interface topic is deprecated and is superseded by the Windows Search ISearchPersistentItemsChangedSink API in the Windows SDK.
+description: This Windows Desktop Search interface topic is deprecated and is superseded by the Windows Search ISearchPersistentItemsChangedSink API in the Windows SDK. | IGatherNotify Init (Deprecated) method
 ms.assetid: 6a5f89eb-10f4-4262-89bf-b47e345f12eb
 keywords:
 - Init (Deprecated) method Legacy Windows Environment Features

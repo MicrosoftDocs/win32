@@ -1,6 +1,6 @@
 ---
 title: MouseUp Event of the AxWindowsMediaPlayer Object
-description: The MouseUp event occurs when the user releases a mouse button.
+description: The MouseUp event occurs when the user releases a mouse button. | MouseUp Event of the AxWindowsMediaPlayer Object
 ms.assetid: 26bb6e82-d744-4770-b4de-07c9f52b76ec
 keywords:
 - MouseUp Event of the AxWindowsMediaPlayer Object Windows Media Player

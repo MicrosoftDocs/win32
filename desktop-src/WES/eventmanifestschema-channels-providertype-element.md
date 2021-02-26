@@ -1,6 +1,6 @@
 ---
 title: channels (ProviderType) Element
-description: Defines a list of channels to which providers can log events.
+description: Defines a list of channels to which providers can log events. | channels (ProviderType) Element
 ms.assetid: f30e9b0e-71f3-41a9-9457-403ca9a4fbab
 keywords:
 - channels element EventLog

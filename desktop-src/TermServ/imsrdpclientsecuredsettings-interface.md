@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientSecuredSettings interface
-description: Includes methods to retrieve and set properties of the Remote Desktop ActiveX control that are restricted to specific Internet Explorer URL security zones.
+description: Includes methods to retrieve and set properties of the Remote Desktop ActiveX control that are restricted to specific Internet Explorer URL security zones. | IMsRdpClientSecuredSettings interface
 ms.assetid: 56d3193d-a0fb-468a-9fb3-c080db5500b7
 ms.tgt_platform: multiple
 keywords:

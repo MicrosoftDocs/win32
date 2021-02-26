@@ -1,6 +1,6 @@
 ---
 title: Clipboard Functions
-description: .
+description: . | Clipboard Functions
 ms.assetid: 54addf54-921d-4246-b21e-ae993f8bcb02
 ms.topic: reference
 ms.date: 05/31/2018

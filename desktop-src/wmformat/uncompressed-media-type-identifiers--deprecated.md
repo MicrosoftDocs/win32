@@ -1,6 +1,6 @@
 ---
 title: Uncompressed Media Type Identifiers
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | Uncompressed Media Type Identifiers
 ms.assetid: 2ce10bf3-4829-40df-94c4-6cfd5c08208e
 keywords:
 - Uncompressed Media Type Identifiers windows Media Format

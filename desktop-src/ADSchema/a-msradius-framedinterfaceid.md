@@ -1,6 +1,6 @@
 ---
 title: ms-RADIUS-FramedInterfaceId attribute
-description: Indicates the IPv6 interface identifier to be configured for the user.
+description: Indicates the IPv6 interface identifier to be configured for the user. | ms-RADIUS-FramedInterfaceId attribute
 ms.assetid: a686f5d6-762b-4477-9fea-0b14288e8c6a
 ms.tgt_platform: multiple
 keywords:

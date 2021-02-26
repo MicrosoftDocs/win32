@@ -1,6 +1,6 @@
 ---
 title: External.appColorButtonHighlight
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.appColorButtonHighlight
 ms.assetid: 448480bf-e5e1-4f7a-ab50-a0395af6007f
 keywords:
 - External.appColorButtonHighlight Windows Media Player

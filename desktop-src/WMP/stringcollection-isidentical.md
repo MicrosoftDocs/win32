@@ -1,6 +1,6 @@
 ---
 title: StringCollection.isIdentical method
-description: The isIdentical method retrieves a value indicating whether the supplied object is the same as the current one.
+description: The isIdentical method retrieves a value indicating whether the supplied object is the same as the current one. | StringCollection.isIdentical method
 ms.assetid: 5f2aabbe-e6c7-4aa2-a30d-30178a4ba3db
 keywords:
 - isIdentical method Windows Media Player

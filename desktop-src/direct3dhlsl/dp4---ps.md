@@ -1,6 +1,6 @@
 ---
 title: dp4 - ps
-description: Computes the four-component dot product of the source registers.
+description: Computes the four-component dot product of the source registers. | dp4 - ps
 ms.assetid: 83ef6097-cacf-4498-842b-3eb03e57bd6f
 ms.topic: reference
 ms.date: 05/31/2018

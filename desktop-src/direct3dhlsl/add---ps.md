@@ -1,6 +1,6 @@
 ---
 title: add - ps
-description: Adds two vectors.
+description: Adds two vectors. | add - ps
 ms.assetid: f7d29a66-879b-4160-82fd-0a1b2076559a
 ms.topic: reference
 ms.date: 05/31/2018

@@ -1,6 +1,6 @@
 ---
 title: COM Error Codes (VOLMGR, BCD, VHD, SDIAG) (Winerror.h)
-description: The following table provides a list of error codes used by COM-based APIs.
+description: The following table provides a list of error codes used by COM-based APIs. | COM Error Codes (VOLMGR, BCD, VHD, SDIAG) (Winerror.h)
 ms.assetid: 039b1660-7df0-4d31-9e90-f7b71e5f9a7b
 topic_type:
 - apiref

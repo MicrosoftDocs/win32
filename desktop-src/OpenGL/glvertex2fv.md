@@ -1,6 +1,6 @@
 ---
 title: glVertex2fv function (Gl.h)
-description: Specifies a vertex.
+description: Specifies a vertex. | glVertex2fv function (Gl.h)
 ms.assetid: bae32d27-2a19-40d5-a3f7-0e7a41918034
 keywords:
 - glVertex2fv function OpenGL

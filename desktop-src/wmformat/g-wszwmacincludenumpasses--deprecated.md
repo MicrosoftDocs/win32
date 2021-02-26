@@ -1,6 +1,6 @@
 ---
 title: g_wszWMACIncludeNumPasses (Wmcodecdsp.h)
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | g_wszWMACIncludeNumPasses (Wmcodecdsp.h)
 ms.assetid: 616dcd0a-b442-430f-bdf7-698fe0ed34ee
 keywords:
 - g_wszWMACIncludeNumPasses windows Media Format

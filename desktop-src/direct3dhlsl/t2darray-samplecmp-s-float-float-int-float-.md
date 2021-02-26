@@ -1,6 +1,6 @@
 ---
 title: SampleCmp::SampleCmp(S,float,float,int,float) function
-description: Samples a texture, using a comparison value to reject samples, with an optional value to clamp sample level-of-detail (LOD) values to.
+description: Samples a texture, using a comparison value to reject samples, with an optional value to clamp sample level-of-detail (LOD) values to. | SampleCmp::SampleCmp(S,float,float,int,float) function
 ms.assetid: 6455BF80-2A22-43BB-80A2-61FBEC66C348
 keywords:
 - SampleCmp function HLSL

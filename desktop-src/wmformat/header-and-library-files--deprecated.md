@@ -1,6 +1,6 @@
 ---
 title: Header and Library Files
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | Header and Library Files
 ms.assetid: 7c50b894-9e1a-4e9f-ac56-d4e917a18a96
 keywords:
 - Header and Library Files windows Media Format

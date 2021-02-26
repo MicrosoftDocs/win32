@@ -1,6 +1,6 @@
 ---
 title: glLoadMatrixf function (Gl.h)
-description: The glLoadMatrixf function replaces the current matrix with an arbitrary matrix.
+description: The glLoadMatrixf function replaces the current matrix with an arbitrary matrix. | glLoadMatrixf function (Gl.h)
 ms.assetid: 6e1337b0-d1e7-4002-a561-d959d7f70942
 keywords:
 - glLoadMatrixf function OpenGL

@@ -1,6 +1,6 @@
 ---
 title: Player.MouseMove event
-description: The MouseMove event occurs when the mouse pointer is moved.
+description: The MouseMove event occurs when the mouse pointer is moved. | Player.MouseMove event
 ms.assetid: 026928a3-25a6-4e67-837a-df71c05e49ee
 keywords:
 - MouseMove event Windows Media Player

@@ -1,6 +1,6 @@
 ---
 title: MediaCollectionChange Event of the AxWindowsMediaPlayer Object
-description: The MediaCollectionChange event occurs when the media collection changes.
+description: The MediaCollectionChange event occurs when the media collection changes. | MediaCollectionChange Event of the AxWindowsMediaPlayer Object
 ms.assetid: 99a6d512-ed8e-4f1b-856a-22ca8092741d
 keywords:
 - MediaCollectionChange Event of the AxWindowsMediaPlayer Object Windows Media Player

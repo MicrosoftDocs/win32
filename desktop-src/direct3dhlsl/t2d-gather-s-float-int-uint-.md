@@ -1,6 +1,6 @@
 ---
 title: Texture2D::Gather(S,float,int,uint) function
-description: Returns the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.
+description: Returns the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status. | Texture2D::Gather(S,float,int,uint) function
 ms.assetid: 3B8733B0-BB80-4414-8BDD-033116D7EFE0
 keywords:
 - Gather function HLSL

@@ -1,6 +1,6 @@
 ---
 title: FriendlyName Element
-description: Note This section describes functionality designed for use by online stores.
+description: Note This section describes functionality designed for use by online stores. | FriendlyName Element
 ms.assetid: 9f5de0f9-609c-4b4d-8fda-4d65995aea79
 keywords:
 - FriendlyName Element Windows Media Player

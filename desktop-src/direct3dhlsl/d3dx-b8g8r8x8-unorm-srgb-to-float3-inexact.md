@@ -1,6 +1,6 @@
 ---
 title: D3DX_B8G8R8X8_UNORM_SRGB_to_FLOAT3_inexact function
-description: Unpacks DXGI\_FORMAT\_B8G8R8X8\_UNORM\_SRGB shader data to an XMFLOAT3.
+description: Unpacks DXGI\_FORMAT\_B8G8R8X8\_UNORM\_SRGB shader data to an XMFLOAT3. | D3DX_B8G8R8X8_UNORM_SRGB_to_FLOAT3_inexact function
 ms.assetid: caa64f89-7b9e-4bc0-82dc-31edfd31d495
 keywords:
 - D3DX_B8G8R8X8_UNORM_SRGB_to_FLOAT3_inexact function HLSL

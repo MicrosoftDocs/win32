@@ -1,6 +1,6 @@
 ---
 title: MUTEBUTTON
-description: This is a predefined BUTTON with the following default values.
+description: This is a predefined BUTTON with the following default values. | MUTEBUTTON
 ms.assetid: eee00161-c0c4-4e26-a7d2-6357034fcdfd
 keywords:
 - MUTEBUTTON Windows Media Player

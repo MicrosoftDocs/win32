@@ -1,6 +1,6 @@
 ---
 title: DDE Notifications
-description: .
+description: . | DDE Notifications
 ms.assetid: 8e8a007a-d8de-417f-81be-bc90a55663e5
 ms.topic: reference
 ms.date: 05/31/2018

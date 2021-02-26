@@ -1,6 +1,6 @@
 ---
 title: Address-Book-Roots attribute
-description: Used by Exchange. Exchange configures trees of address book containers to show up in the MAPI address book. This attribute on the Exchange Config object lists the roots of the address book container trees.
+description: Used by Exchange. Exchange configures trees of address book containers to show up in the MAPI address book. This attribute on the Exchange Config object lists the roots of the address book container trees. | Address-Book-Roots attribute
 ms.assetid: 7e6d2677-9818-4870-8429-50f73f9c8c1f
 ms.tgt_platform: multiple
 keywords:

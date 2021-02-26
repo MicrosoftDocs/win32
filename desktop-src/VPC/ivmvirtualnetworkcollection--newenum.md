@@ -1,6 +1,6 @@
 ---
 title: IVMVirtualNetworkCollection _NewEnum property (VPCCOMInterfaces.h)
-description: Retrieves an enumerator for the collection.
+description: Retrieves an enumerator for the collection. | IVMVirtualNetworkCollection _NewEnum property (VPCCOMInterfaces.h)
 ms.assetid: 3ea01a88-72ec-4dc0-901f-e48092cf9251
 keywords:
 - _NewEnum property Virtual PC

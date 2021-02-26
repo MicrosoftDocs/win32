@@ -1,6 +1,6 @@
 ---
 title: SEEKSLIDER
-description: This is a predefined SLIDER with the following default values.
+description: This is a predefined SLIDER with the following default values. | SEEKSLIDER
 ms.assetid: 9fdb0f70-e5ce-4dbc-aeba-44fa0e2c9b3c
 keywords:
 - SEEKSLIDER Windows Media Player

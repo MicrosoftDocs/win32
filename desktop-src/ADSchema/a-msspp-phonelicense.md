@@ -1,6 +1,6 @@
 ---
 title: ms-SPP-Phone-License attribute
-description: License used during online activation of the Active Directory forest
+description: License used during online activation of the Active Directory forest | ms-SPP-Phone-License attribute
 ms.assetid: 15ba6bde-8c22-4e87-8428-04c88633e9e6
 ms.tgt_platform: multiple
 keywords:

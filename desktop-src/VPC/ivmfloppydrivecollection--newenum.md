@@ -1,6 +1,6 @@
 ---
 title: IVMFloppyDriveCollection _NewEnum property (VPCCOMInterfaces.h)
-description: Retrieves an enumerator for the collection.
+description: Retrieves an enumerator for the collection. | IVMFloppyDriveCollection _NewEnum property (VPCCOMInterfaces.h)
 ms.assetid: 06de9560-cba9-4c64-907e-83e77781cafc
 keywords:
 - _NewEnum property Virtual PC

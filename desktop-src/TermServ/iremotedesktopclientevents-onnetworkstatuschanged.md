@@ -1,6 +1,6 @@
 ---
 title: IRemoteDesktopClientEvents OnNetworkStatusChanged method
-description: Called when the network status has changed.
+description: Called when the network status has changed. | IRemoteDesktopClientEvents OnNetworkStatusChanged method
 ms.assetid: B68D1AA0-6403-40CA-95C5-BBBF39CEFFD8
 ms.tgt_platform: multiple
 keywords:

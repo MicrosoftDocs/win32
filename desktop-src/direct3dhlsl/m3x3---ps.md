@@ -1,6 +1,6 @@
 ---
 title: m3x3 - ps
-description: Multiplies a 3-component vector by a 3x3 matrix.
+description: Multiplies a 3-component vector by a 3x3 matrix. | m3x3 - ps
 ms.assetid: 71342e05-69a6-41f4-bafb-643f0ceb0a59
 ms.topic: reference
 ms.date: 05/31/2018

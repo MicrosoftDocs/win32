@@ -1,6 +1,6 @@
 ---
 title: gather4 (sm4.1 - asm)
-description: Gathers the four texels that would be used in a bi-linear filtering operation and packs them into a single register.
+description: Gathers the four texels that would be used in a bi-linear filtering operation and packs them into a single register. | gather4 (sm4.1 - asm)
 ms.assetid: 219B25AE-CBF9-4B68-B2DB-6D8C3C5B4CEA
 ms.topic: reference
 ms.date: 05/31/2018

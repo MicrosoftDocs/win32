@@ -1,6 +1,6 @@
 ---
 title: TemplateItemType Complex Type
-description: A template that defines the data to include with an event.
+description: A template that defines the data to include with an event. | TemplateItemType Complex Type
 ms.assetid: 1681af7d-03ef-47bc-bc02-ce1a9903fb44
 keywords:
 - TemplateItemType complex type EventLog

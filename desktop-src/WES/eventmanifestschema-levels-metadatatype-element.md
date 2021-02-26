@@ -1,6 +1,6 @@
 ---
 title: levels (MetadataType) Element
-description: Defines a list of levels that specify the severity of an event.
+description: Defines a list of levels that specify the severity of an event. | levels (MetadataType) Element
 ms.assetid: 710a4c7e-d37e-4543-8fdf-44688085b996
 keywords:
 - levels element EventLog

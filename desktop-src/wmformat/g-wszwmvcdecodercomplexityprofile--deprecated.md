@@ -1,6 +1,6 @@
 ---
 title: g_wszWMVCDecoderComplexityProfile (Wmcodecdsp.h)
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | g_wszWMVCDecoderComplexityProfile (Wmcodecdsp.h)
 ms.assetid: d13868e3-6273-4fec-a887-e9076e524095
 keywords:
 - g_wszWMVCDecoderComplexityProfile windows Media Format

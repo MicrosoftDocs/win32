@@ -1,6 +1,6 @@
 ---
 title: glMultMatrixd function (Gl.h)
-description: The glMultMatrixd function multiplies the current matrix by an arbitrary matrix.
+description: The glMultMatrixd function multiplies the current matrix by an arbitrary matrix. | glMultMatrixd function (Gl.h)
 ms.assetid: 1f6cf4e4-e7bd-470c-b1f4-b9ccc1fb756e
 keywords:
 - glMultMatrixd function OpenGL

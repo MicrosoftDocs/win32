@@ -1,6 +1,6 @@
 ---
 title: Query.beginNextGroup method
-description: The beginNextGroup method begins a new condition group.
+description: The beginNextGroup method begins a new condition group. | Query.beginNextGroup method
 ms.assetid: 'e0c59bd0-0789-413e-ade8-8d53c6f3e19b'
 keywords:
 - beginNextGroup method Windows Media Player

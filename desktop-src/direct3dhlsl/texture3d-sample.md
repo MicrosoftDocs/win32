@@ -1,6 +1,6 @@
 ---
 title: Texture3D::Texture3D Sample methods
-description: Samples a texture.
+description: Samples a texture. | Texture3D::Texture3D Sample methods
 ms.assetid: 769AE904-5F0C-4427-862E-2BC5BC995546
 keywords:
 - Sample methods HLSL

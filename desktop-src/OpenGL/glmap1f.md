@@ -1,6 +1,6 @@
 ---
 title: glMap1f function (Gl.h)
-description: The glMap1f function defines a one-dimensional evaluator.
+description: The glMap1f function defines a one-dimensional evaluator. | glMap1f function (Gl.h)
 ms.assetid: c016ad80-b507-4e21-829f-f173d5c8dee6
 keywords:
 - glMap1f function OpenGL

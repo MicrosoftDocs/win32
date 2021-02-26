@@ -1,6 +1,6 @@
 ---
 title: ISearchResult DoVerb method
-description: Reserved.
+description: Reserved. | ISearchResult DoVerb method
 ms.assetid: 74a2d4a5-14df-48fa-84f1-8064d509ba2f
 keywords:
 - DoVerb method Legacy Windows Environment Features

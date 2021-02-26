@@ -1,6 +1,6 @@
 ---
 title: TextureCube::GatherRed(S,float,uint) function
-description: Returns the red components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.
+description: Returns the red components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status. | TextureCube::GatherRed(S,float,uint) function
 ms.assetid: 6B298DFD-B996-40F4-9304-AA8283FDEC31
 keywords:
 - GatherRed function HLSL

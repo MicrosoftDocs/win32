@@ -1,6 +1,6 @@
 ---
 title: RWByteAddressBuffer::Load4(uint) function
-description: Gets four values.
+description: Gets four values. | RWByteAddressBuffer::Load4(uint) function
 ms.assetid: b46cd119-75be-4c2d-82f9-5dcabd7e4400
 keywords:
 - Load4 function HLSL

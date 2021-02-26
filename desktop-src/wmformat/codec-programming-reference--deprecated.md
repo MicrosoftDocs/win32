@@ -1,6 +1,6 @@
 ---
 title: Codec Programming Reference
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | Codec Programming Reference
 ms.assetid: c64b9479-aecc-4669-bc4b-9ddcdae92c9a
 keywords:
 - Codec Programming Reference windows Media Format

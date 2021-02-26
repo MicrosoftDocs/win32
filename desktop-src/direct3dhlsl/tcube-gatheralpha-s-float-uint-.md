@@ -1,6 +1,6 @@
 ---
 title: TextureCube::GatherAlpha(S,float,uint) function
-description: Returns the alpha components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.
+description: Returns the alpha components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status. | TextureCube::GatherAlpha(S,float,uint) function
 ms.assetid: 19BD3024-D3E5-4AEA-8C8E-510A4EB527B5
 keywords:
 - GatherAlpha function HLSL

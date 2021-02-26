@@ -1,6 +1,6 @@
 ---
 title: TextureCube::TextureCube GatherBlue methods
-description: Returns the blue components of the four texel values that would be used in a bi-linear filtering operation.
+description: Returns the blue components of the four texel values that would be used in a bi-linear filtering operation. | TextureCube::TextureCube GatherBlue methods
 ms.assetid: 933B1358-DD7D-477B-AC12-488C94127C92
 keywords:
 - GatherBlue methods HLSL

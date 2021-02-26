@@ -1,6 +1,6 @@
 ---
 title: g_wszWMVCComplexityExMax
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | g_wszWMVCComplexityExMax
 ms.assetid: 465d31f7-f401-41c6-a060-17879e6196e8
 keywords:
 - g_wszWMVCComplexityExMax windows Media Format

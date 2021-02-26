@@ -1,6 +1,6 @@
 ---
 title: rsq - ps
-description: Computes the reciprocal square root (positive only) of the source scalar.
+description: Computes the reciprocal square root (positive only) of the source scalar. | rsq - ps
 ms.assetid: deb1bd12-6347-4b1e-b21b-f3ef48da4c13
 ms.topic: reference
 ms.date: 05/31/2018

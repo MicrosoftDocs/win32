@@ -1,6 +1,6 @@
 ---
 title: glColor3i function (Gl.h)
-description: Sets the current color.
+description: Sets the current color. | glColor3i function (Gl.h)
 ms.assetid: 9c68221b-1633-435b-9ae4-abc1c52601aa
 keywords:
 - glColor3i function OpenGL

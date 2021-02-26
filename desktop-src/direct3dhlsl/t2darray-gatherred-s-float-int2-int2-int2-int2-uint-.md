@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::GatherRed(S,float,int2,int2,int2,int2,uint) function
-description: Returns the red components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.
+description: Returns the red components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status. | Texture2DArray::GatherRed(S,float,int2,int2,int2,int2,uint) function
 ms.assetid: 9DD399A4-E6ED-499B-ACA3-28028C0AB271
 keywords:
 - GatherRed function HLSL

@@ -1,6 +1,6 @@
 ---
 title: RWTexture2D::Load(int) function
-description: Reads texture data.
+description: Reads texture data. | RWTexture2D::Load(int) function
 ms.assetid: AEBB9C78-BE4B-4121-93CC-EE03B9925CF0
 keywords:
 - Load function HLSL

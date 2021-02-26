@@ -1,6 +1,6 @@
 ---
 title: D3DX11_IMAGE_INFO structure (D3DX11tex.h)
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Optionally provide information to texture loader APIs to control how textures get loaded.
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Optionally provide information to texture loader APIs to control how textures get loaded. | D3DX11_IMAGE_INFO structure (D3DX11tex.h)
 ms.assetid: 981f4f1d-7609-416a-8f92-c7223d8b2773
 keywords:
 - D3DX11_IMAGE_INFO structure Direct3D 11

@@ -1,6 +1,6 @@
 ---
 title: External.viewParameters
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.viewParameters
 ms.assetid: 0afabe35-2857-413a-a662-1a76d3fb75fe
 keywords:
 - External.viewParameters Windows Media Player

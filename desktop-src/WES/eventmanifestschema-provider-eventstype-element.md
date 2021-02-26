@@ -1,6 +1,6 @@
 ---
 title: provider (EventsType) Element
-description: Defines a provider and the metadata that it uses to define its events.
+description: Defines a provider and the metadata that it uses to define its events. | provider (EventsType) Element
 ms.assetid: 607f077f-5ad4-4a32-b58a-23ba030bdbf7
 keywords:
 - provider element EventLog

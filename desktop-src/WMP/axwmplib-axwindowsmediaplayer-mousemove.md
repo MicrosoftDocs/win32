@@ -1,6 +1,6 @@
 ---
 title: MouseMove Event of the AxWindowsMediaPlayer Object
-description: The MouseMove event occurs when the mouse pointer is moved.
+description: The MouseMove event occurs when the mouse pointer is moved. | MouseMove Event of the AxWindowsMediaPlayer Object
 ms.assetid: abf20c86-3bae-4677-8901-0af030a53286
 keywords:
 - MouseMove Event of the AxWindowsMediaPlayer Object Windows Media Player

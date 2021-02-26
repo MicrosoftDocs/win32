@@ -1,6 +1,6 @@
 ---
 title: glVertex3sv function (Gl.h)
-description: Specifies a vertex.
+description: Specifies a vertex. | glVertex3sv function (Gl.h)
 ms.assetid: 8b819a95-f834-4c6e-b88a-a96ae9b36c71
 keywords:
 - glVertex3sv function OpenGL

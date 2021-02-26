@@ -1,6 +1,6 @@
 ---
 title: glPixelStoref function (Gl.h)
-description: Sets pixel storage modes.
+description: Sets pixel storage modes. | glPixelStoref function (Gl.h)
 ms.assetid: 8d5055d7-3ea4-40b7-9447-2a005129da58
 keywords:
 - glPixelStoref function OpenGL

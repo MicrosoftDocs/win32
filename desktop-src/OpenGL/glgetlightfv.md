@@ -1,6 +1,6 @@
 ---
 title: glGetLightfv function (Gl.h)
-description: The glGetLightfv and glGetLightiv functions return light source parameter values.
+description: The glGetLightfv and glGetLightiv functions return light source parameter values. | glGetLightfv function (Gl.h)
 ms.assetid: 81049726-426e-4f90-bb8e-e5d467870260
 keywords:
 - glGetLightfv function OpenGL

@@ -1,6 +1,6 @@
 ---
 title: MarkerHit Event of the AxWindowsMediaPlayer Object
-description: The MarkerHit event occurs when a marker is reached.
+description: The MarkerHit event occurs when a marker is reached. | MarkerHit Event of the AxWindowsMediaPlayer Object
 ms.assetid: 247fc22c-18c4-46b6-b42c-4882209a47f4
 keywords:
 - MarkerHit Event of the AxWindowsMediaPlayer Object Windows Media Player

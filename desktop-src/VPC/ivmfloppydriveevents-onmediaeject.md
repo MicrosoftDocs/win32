@@ -1,6 +1,6 @@
 ---
 title: IVMFloppyDriveEvents OnMediaEject method (VPCCOMInterfaces.h)
-description: Receives notification that media has been ejected from the drive.
+description: Receives notification that media has been ejected from the drive. | IVMFloppyDriveEvents OnMediaEject method (VPCCOMInterfaces.h)
 ms.assetid: 3e9c0b5d-8fec-4f34-93d2-c5975403798b
 keywords:
 - OnMediaEject method Virtual PC

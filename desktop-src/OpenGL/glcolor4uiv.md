@@ -1,6 +1,6 @@
 ---
 title: glColor4uiv function (Gl.h)
-description: Sets the current color from an already existing array of color values.
+description: Sets the current color from an already existing array of color values. | glColor4uiv function (Gl.h)
 ms.assetid: de21116b-50f6-4a80-8fa1-e8cf6e4978e9
 keywords:
 - glColor4uiv function OpenGL

@@ -1,6 +1,6 @@
 ---
 title: BALANCESLIDER
-description: This is a predefined SLIDER with the following default values.
+description: This is a predefined SLIDER with the following default values. | BALANCESLIDER
 ms.assetid: 89f027bf-1c31-4bd5-bb87-ebfd62b02def
 keywords:
 - BALANCESLIDER Windows Media Player

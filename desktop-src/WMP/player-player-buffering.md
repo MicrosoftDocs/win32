@@ -1,6 +1,6 @@
 ---
 title: Player.Buffering event
-description: The Buffering event occurs when the Windows Media Player control begins or ends buffering or downloading.
+description: The Buffering event occurs when the Windows Media Player control begins or ends buffering or downloading. | Player.Buffering event
 ms.assetid: a0a09bf7-19bc-4838-a403-924e8d83b48d
 keywords:
 - Buffering event Windows Media Player

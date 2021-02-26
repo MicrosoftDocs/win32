@@ -1,6 +1,6 @@
 ---
 title: String(Generalized-Time) syntax
-description: A time string format defined by ASN.1 standards.
+description: A time string format defined by ASN.1 standards. | String(Generalized-Time) syntax
 ms.assetid: c69ab29b-5877-47d4-b58d-4f103758dfac
 ms.tgt_platform: multiple
 keywords:

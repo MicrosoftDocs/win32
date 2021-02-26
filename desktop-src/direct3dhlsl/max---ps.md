@@ -1,6 +1,6 @@
 ---
 title: max - ps
-description: Calculates the maximum of the sources.
+description: Calculates the maximum of the sources. | max - ps
 ms.assetid: 3d3bef5b-0ff7-441b-8681-a3f4cde0ae4f
 ms.topic: reference
 ms.date: 05/31/2018

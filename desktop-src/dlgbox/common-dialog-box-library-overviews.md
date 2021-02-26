@@ -1,6 +1,6 @@
 ---
 title: Common Dialog Box Library Overviews
-description: .
+description: . | Common Dialog Box Library Overviews
 ms.assetid: 6e54e57d-7fc8-4a2f-9132-5d6785ca202c
 ms.topic: reference
 ms.date: 05/31/2018

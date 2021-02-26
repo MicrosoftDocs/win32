@@ -1,6 +1,6 @@
 ---
 title: localization (instrumentationManifest) Element
-description: Defines a group of localized resources that you reference in your manifest.
+description: Defines a group of localized resources that you reference in your manifest. | localization (instrumentationManifest) Element
 ms.assetid: 20c41456-cba2-4c8c-9c7e-2ffa0d1b37e5
 keywords:
 - localization element EventLog

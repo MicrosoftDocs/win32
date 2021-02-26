@@ -1,6 +1,6 @@
 ---
 title: Eap Element (connection properties)
-description: Learn about the Eap element. This element captures the method type selected and method-specific configuration.
+description: Learn about the Eap element. This element captures the method type selected and method-specific configuration. | Eap Element (connection properties)
 ms.assetid: 4e9f3869-257e-4b03-93f6-2eec94eaacee
 keywords:
 - Eap element EAPHost

@@ -1,6 +1,6 @@
 ---
 title: Ribbon.ApplicationMenu property
-description: Represents the Application Menu.
+description: Represents the Application Menu. | Ribbon.ApplicationMenu property
 ms.assetid: 6945e976-8ac8-40fa-8e71-31812871b496
 keywords:
 - Ribbon.ApplicationMenu property Windows Ribbon

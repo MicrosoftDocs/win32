@@ -1,6 +1,6 @@
 ---
 title: ms-PKI-Credential-Roaming-Tokens attribute
-description: Storage of encrypted user credential token BLOBs for roaming.
+description: Storage of encrypted user credential token BLOBs for roaming. | ms-PKI-Credential-Roaming-Tokens attribute
 ms.assetid: 35500e2b-7922-47c9-a9dd-e76ea6fd4313
 ms.tgt_platform: multiple
 keywords:

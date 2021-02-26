@@ -1,6 +1,6 @@
 ---
 title: glVertex4iv function (Gl.h)
-description: Specifies a vertex.
+description: Specifies a vertex. | glVertex4iv function (Gl.h)
 ms.assetid: 7b56777a-f904-4a9d-8d3d-84a38cbf0b45
 keywords:
 - glVertex4iv function OpenGL

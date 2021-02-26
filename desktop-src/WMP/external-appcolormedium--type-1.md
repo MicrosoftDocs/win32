@@ -1,6 +1,6 @@
 ---
 title: External.appColorMedium (Type 1)
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.appColorMedium (Type 1)
 ms.assetid: 03938128-a767-4988-8d64-6d6632e0ab16
 keywords:
 - External.appColorMedium (Type 1) Windows Media Player

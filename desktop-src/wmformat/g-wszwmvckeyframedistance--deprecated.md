@@ -1,6 +1,6 @@
 ---
 title: g_wszWMVCKeyframeDistance (Wmcodecdsp.h)
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | g_wszWMVCKeyframeDistance (Wmcodecdsp.h)
 ms.assetid: 4f835102-2409-418e-80d4-0f917d6d4736
 keywords:
 - g_wszWMVCKeyframeDistance windows Media Format

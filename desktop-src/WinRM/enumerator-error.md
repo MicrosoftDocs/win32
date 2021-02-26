@@ -1,6 +1,6 @@
 ---
 title: Enumerator.Error property (WSManDisp.h)
-description: Gets an XML representation of additional error information.
+description: Gets an XML representation of additional error information. | Enumerator.Error property (WSManDisp.h)
 ms.assetid: 08a6307b-3ed5-4d7f-aa22-a666d64371b5
 ms.tgt_platform: multiple
 keywords:

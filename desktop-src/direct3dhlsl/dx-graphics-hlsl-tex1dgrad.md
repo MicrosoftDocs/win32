@@ -1,6 +1,6 @@
 ---
 title: tex1Dgrad
-description: Samples a 1D texture using a gradient to select the mip level.
+description: Samples a 1D texture using a gradient to select the mip level. | tex1Dgrad
 ms.assetid: 30a28985-4808-4ce6-a3b1-40a9f93cbd8d
 keywords:
 - tex1Dgrad HLSL

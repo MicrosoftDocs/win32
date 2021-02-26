@@ -1,6 +1,6 @@
 ---
 title: CurrentMediaItemAvailable Event of the AxWindowsMediaPlayer Object
-description: The CurrentMediaItemAvailable event occurs when a graphic metadata item in the current media item becomes available.
+description: The CurrentMediaItemAvailable event occurs when a graphic metadata item in the current media item becomes available. | CurrentMediaItemAvailable Event of the AxWindowsMediaPlayer Object
 ms.assetid: 7db62e6a-5f20-441a-801f-147ac386c5f8
 keywords:
 - CurrentMediaItemAvailable Event of the AxWindowsMediaPlayer Object Windows Media Player

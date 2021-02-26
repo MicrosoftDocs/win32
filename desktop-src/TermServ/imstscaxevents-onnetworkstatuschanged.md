@@ -1,6 +1,6 @@
 ---
 title: IMsTscAxEvents OnNetworkStatusChanged method
-description: Called when the network status has changed.
+description: Called when the network status has changed. | IMsTscAxEvents OnNetworkStatusChanged method
 ms.assetid: 177A410E-2449-4FC7-8DE5-21F83A6DD028
 ms.tgt_platform: multiple
 keywords:

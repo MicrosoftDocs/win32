@@ -1,6 +1,6 @@
 ---
 title: round_ne (sm4 - asm)
-description: Floating-point round to integral float.
+description: Floating-point round to integral float. | round_ne (sm4 - asm)
 ms.assetid: 2D1A0786-F7DB-4D69-9F56-82ECD1EE7ABA
 ms.topic: reference
 ms.date: 05/31/2018

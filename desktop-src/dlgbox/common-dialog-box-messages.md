@@ -1,6 +1,6 @@
 ---
 title: Common Dialog Box Messages
-description: .
+description: . | Common Dialog Box Messages
 ms.assetid: f08c19f8-c18d-4094-b8b6-161b0ceea239
 ms.topic: reference
 ms.date: 05/31/2018

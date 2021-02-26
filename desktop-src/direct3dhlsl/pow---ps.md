@@ -1,6 +1,6 @@
 ---
 title: pow - ps
-description: Full precision abs(src0)src1.
+description: Full precision abs(src0)src1. | pow - ps
 ms.assetid: 39037c51-a524-459c-8422-bd7831e2aa3d
 ms.topic: reference
 ms.date: 05/31/2018

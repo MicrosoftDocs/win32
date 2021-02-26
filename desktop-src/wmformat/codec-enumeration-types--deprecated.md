@@ -1,6 +1,6 @@
 ---
 title: Codec Enumeration Types
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | Codec Enumeration Types
 ms.assetid: 7a6a0a56-7927-431f-a33c-626075b16de6
 keywords:
 - Codec Enumeration Types windows Media Format

@@ -1,6 +1,6 @@
 ---
 title: IWMPControls pause method
-description: The pause method pauses playback of the media item.
+description: The pause method pauses playback of the media item. | IWMPControls pause method
 ms.assetid: 1d9ebaf3-84b4-458d-a393-2b685cd0dbfb
 keywords:
 - pause method Windows Media Player

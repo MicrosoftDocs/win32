@@ -1,6 +1,6 @@
 ---
 title: ms-DS-Seniority-Index attribute
-description: Contains the seniority index as applied by the organization where the person works.
+description: Contains the seniority index as applied by the organization where the person works. | ms-DS-Seniority-Index attribute
 ms.assetid: d2fae29b-fab0-48b4-a4df-9259e99eb952
 ms.tgt_platform: multiple
 keywords:

@@ -1,6 +1,6 @@
 ---
 title: OpenPlaylistSwitch Event of the AxWindowsMediaPlayer Object
-description: The OpenPlaylistSwitch event occurs when a title on a DVD begins playing.
+description: The OpenPlaylistSwitch event occurs when a title on a DVD begins playing. | OpenPlaylistSwitch Event of the AxWindowsMediaPlayer Object
 ms.assetid: 0b9c37a3-1349-48bd-8e1a-aba286c82abf
 keywords:
 - OpenPlaylistSwitch Event of the AxWindowsMediaPlayer Object Windows Media Player

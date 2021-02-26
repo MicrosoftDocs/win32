@@ -1,6 +1,6 @@
 ---
 title: IRemoteDesktopClientEvents OnAutoReconnected method
-description: Called when the client control has automatically reconnected to a remote session.
+description: Called when the client control has automatically reconnected to a remote session. | IRemoteDesktopClientEvents OnAutoReconnected method
 ms.assetid: F77DBF91-30EB-4147-A49A-F8C840F266F2
 ms.tgt_platform: multiple
 keywords:

@@ -1,6 +1,6 @@
 ---
 title: dst function
-description: Calculates a distance vector.
+description: Calculates a distance vector. | dst function
 ms.assetid: 24d22743-5867-49db-8d0a-55cc3625c947
 keywords:
 - dst function HLSL

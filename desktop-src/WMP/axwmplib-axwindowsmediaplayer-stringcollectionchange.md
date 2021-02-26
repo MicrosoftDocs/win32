@@ -1,6 +1,6 @@
 ---
 title: StringCollectionChange Event of the AxWindowsMediaPlayer Object
-description: The StringCollectionChange event occurs when a string collection changes.
+description: The StringCollectionChange event occurs when a string collection changes. | StringCollectionChange Event of the AxWindowsMediaPlayer Object
 ms.assetid: 21b66882-bff9-4482-b56c-32c9df0bc02f
 keywords:
 - StringCollectionChange Event of the AxWindowsMediaPlayer Object Windows Media Player

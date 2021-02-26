@@ -1,6 +1,6 @@
 ---
 title: Controls.stop method
-description: The stop method stops playback of the media item.
+description: The stop method stops playback of the media item. | Controls.stop method
 ms.assetid: ace95fde-9c94-4737-88f2-94321cbc687c
 keywords:
 - stop method Windows Media Player

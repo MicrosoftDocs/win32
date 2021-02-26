@@ -1,6 +1,6 @@
 ---
 title: GetBaseVHDPath method of the Win32_RDMSDeploymentSettings class
-description: Retrieves the base path to the directory to which VHDs of the virtual desktop collection are deployed.
+description: Retrieves the base path to the directory to which VHDs of the virtual desktop collection are deployed. | GetBaseVHDPath method of the Win32_RDMSDeploymentSettings class
 ms.assetid: d3629a08-ef16-4aab-b74b-f837a8ba00d0
 ms.tgt_platform: multiple
 keywords:

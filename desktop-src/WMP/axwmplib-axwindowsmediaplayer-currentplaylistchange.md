@@ -1,6 +1,6 @@
 ---
 title: CurrentPlaylistChange Event of the AxWindowsMediaPlayer Object
-description: The CurrentPlaylistChange event occurs when something changes within the current playlist.
+description: The CurrentPlaylistChange event occurs when something changes within the current playlist. | CurrentPlaylistChange Event of the AxWindowsMediaPlayer Object
 ms.assetid: 1f9c99a4-7d10-48bf-b5ff-b1c1d6753b20
 keywords:
 - CurrentPlaylistChange Event of the AxWindowsMediaPlayer Object Windows Media Player

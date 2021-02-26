@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::GatherCmpAlpha(S,float,float,int2,int2,int2,int2) function
-description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their alpha component against a compare value.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their alpha component against a compare value. | Texture2DArray::GatherCmpAlpha(S,float,float,int2,int2,int2,int2) function
 ms.assetid: 0D6EC888-AB90-47C8-87D1-7B25E3EEB436
 keywords:
 - GatherCmpAlpha function HLSL

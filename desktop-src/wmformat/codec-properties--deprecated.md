@@ -1,6 +1,6 @@
 ---
 title: Codec Properties
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | Codec Properties
 ms.assetid: 3d5748a0-b19b-4148-baf5-724d320bfa72
 keywords:
 - Codec Properties windows Media Format

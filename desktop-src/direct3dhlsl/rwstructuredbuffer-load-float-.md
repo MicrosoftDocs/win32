@@ -1,6 +1,6 @@
 ---
 title: RWStructuredBuffer::Load(int) function
-description: Reads buffer data.
+description: Reads buffer data. | RWStructuredBuffer::Load(int) function
 ms.assetid: 9CB40579-6BF8-468C-81B8-936D9940458E
 keywords:
 - Load function HLSL

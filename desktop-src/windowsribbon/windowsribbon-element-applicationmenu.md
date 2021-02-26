@@ -1,6 +1,6 @@
 ---
 title: ApplicationMenu element
-description: Represents the Application Menu.
+description: Represents the Application Menu. | ApplicationMenu element
 ms.assetid: 815e0462-ea45-44b1-81bf-f5797b22e920
 keywords:
 - ApplicationMenu element Windows Ribbon

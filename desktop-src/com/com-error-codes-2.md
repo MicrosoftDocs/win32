@@ -1,6 +1,6 @@
 ---
 title: COM Error Codes (XACT, SCHED, OLE) (Winerror.h)
-description: The following table provides a list of error codes used by COM-based APIs.
+description: The following table provides a list of error codes used by COM-based APIs. | COM Error Codes (XACT, SCHED, OLE) (Winerror.h)
 ms.assetid: 99780491-2ab5-4164-a2f8-9e944b40b133
 topic_type:
 - apiref

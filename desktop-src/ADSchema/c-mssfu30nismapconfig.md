@@ -1,6 +1,6 @@
 ---
 title: msSFU-30-NIS-Map-Config class
-description: Represents an internal data structure used by the server for NIS.
+description: Represents an internal data structure used by the server for NIS. | msSFU-30-NIS-Map-Config class
 ms.assetid: 155e8aa0-8a24-40b6-90cc-fd8fb81856a4
 ms.tgt_platform: multiple
 keywords:

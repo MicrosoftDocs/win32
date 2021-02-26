@@ -1,6 +1,6 @@
 ---
 title: TextureCubeArray::TextureCubeArray GatherRed methods
-description: Returns the red components of the four texel values that would be used in a bi-linear filtering operation.
+description: Returns the red components of the four texel values that would be used in a bi-linear filtering operation. | TextureCubeArray::TextureCubeArray GatherRed methods
 ms.assetid: EF52E362-D65B-4D5C-A09F-5E67303502C5
 keywords:
 - GatherRed methods HLSL

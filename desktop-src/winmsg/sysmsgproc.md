@@ -1,7 +1,7 @@
 ---
 UID: 
 title: SysMsgProc callback function
-description: The system calls this function after an input event occurs in a dialog box, message box, menu, or scroll bar.
+description: The system calls this function after an input event occurs in a dialog box, message box, menu, or scroll bar. | SysMsgProc callback function
 old-location: 
 ms.assetid: na
 ms.date: 04/05/2019

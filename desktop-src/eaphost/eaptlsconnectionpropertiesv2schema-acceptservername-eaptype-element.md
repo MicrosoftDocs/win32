@@ -1,6 +1,6 @@
 ---
 title: AcceptServerName element
-description: Indicates whether the server name is validated against the name string specified in the ServerNames (ServerValidationParameters) element.
+description: Indicates whether the server name is validated against the name string specified in the ServerNames (ServerValidationParameters) element. | AcceptServerName element
 ms.assetid: 307b2d2a-1678-4aa9-82ed-46d401cf0e0f
 keywords:
 - AcceptServerName element EAPHost

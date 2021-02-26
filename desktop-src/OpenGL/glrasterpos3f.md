@@ -1,6 +1,6 @@
 ---
 title: glRasterPos3f function (Gl.h)
-description: Specifies the raster position for pixel operations.
+description: Specifies the raster position for pixel operations. | glRasterPos3f function (Gl.h)
 ms.assetid: edb3b114-fd65-40f6-8fba-5306b8b89c11
 keywords:
 - glRasterPos3f function OpenGL

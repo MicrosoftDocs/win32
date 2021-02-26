@@ -1,6 +1,6 @@
 ---
 title: Comparing the Windows Media Audio and Video Codec Interfaces and the Windows Media Format SDK
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | Comparing the Windows Media Audio and Video Codec Interfaces and the Windows Media Format SDK
 ms.assetid: 829c289e-f297-43bb-9628-0f6da397e80f
 keywords:
 - Comparing the Windows Media Audio and Video Codec Interfaces and the Windows Media Format SDK windows Media Format

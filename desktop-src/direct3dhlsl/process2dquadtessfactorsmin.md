@@ -1,6 +1,6 @@
 ---
 title: Process2DQuadTessFactorsMin function
-description: Generates the corrected tessellation factors for a quad patch.
+description: Generates the corrected tessellation factors for a quad patch. | Process2DQuadTessFactorsMin function
 ms.assetid: 45adf78a-9386-4460-97df-59d7739a1eee
 keywords:
 - Process2DQuadTessFactorsMin function HLSL

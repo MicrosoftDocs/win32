@@ -1,6 +1,6 @@
 ---
 title: TextureCube::TextureCube GatherAlpha methods
-description: Returns the alpha components of the four texel values that would be used in a bi-linear filtering operation.
+description: Returns the alpha components of the four texel values that would be used in a bi-linear filtering operation. | TextureCube::TextureCube GatherAlpha methods
 ms.assetid: 1384BB1D-9AE7-4014-AB99-3EE84B383653
 keywords:
 - GatherAlpha methods HLSL

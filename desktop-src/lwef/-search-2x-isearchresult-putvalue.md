@@ -1,6 +1,6 @@
 ---
 title: ISearchResult PutValue method
-description: Reserved.
+description: Reserved. | ISearchResult PutValue method
 ms.assetid: b070f1b4-46a9-466b-96ac-512f4459e55c
 keywords:
 - PutValue method Legacy Windows Environment Features

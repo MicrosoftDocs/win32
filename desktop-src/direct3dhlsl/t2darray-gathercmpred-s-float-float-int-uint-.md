@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::GatherCmpRed(S,float,float,int,uint) function
-description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value along with tile-mapping status.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value along with tile-mapping status. | Texture2DArray::GatherCmpRed(S,float,float,int,uint) function
 ms.assetid: 83974A85-26CB-4724-A60F-64F214800723
 keywords:
 - GatherCmpRed function HLSL

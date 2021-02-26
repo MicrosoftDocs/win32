@@ -1,6 +1,6 @@
 ---
 title: EapType Element
-description: Is a derived type of the EapType element from the BaseEapConnectionProperties schema.
+description: Is a derived type of the EapType element from the BaseEapConnectionProperties schema. | EapType Element
 ms.assetid: cf92d500-f815-48e2-a7d5-1364cb13a1f0
 keywords:
 - EapType element EAPHost

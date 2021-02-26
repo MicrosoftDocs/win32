@@ -1,6 +1,6 @@
 ---
 title: DIALOG resource
-description: Defines a dialog box.
+description: Defines a dialog box. | DIALOG resource
 ms.assetid: d166fb7d-0fe5-4e48-a545-19acc0ff80f1
 keywords:
 - DIALOG resource Menus and Other Resources

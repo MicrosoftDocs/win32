@@ -1,6 +1,6 @@
 ---
 title: sample_b (sm4 - asm)
-description: Samples data from the specified Element/texture using the specified address and the filtering mode identified by the given sampler.
+description: Samples data from the specified Element/texture using the specified address and the filtering mode identified by the given sampler. | sample_b (sm4 - asm)
 ms.assetid: FC0DF03E-9C21-4E88-96ED-EEFE86017E7C
 ms.topic: reference
 ms.date: 05/31/2018

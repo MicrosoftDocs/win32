@@ -1,6 +1,6 @@
 ---
 title: exp - vs
-description: Provides full precision exponential 2x.
+description: Provides full precision exponential 2x. | exp - vs
 ms.assetid: 3644046b-3257-4257-9880-146ca50f6b0b
 ms.topic: reference
 ms.date: 05/31/2018

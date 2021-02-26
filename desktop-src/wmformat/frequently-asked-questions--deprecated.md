@@ -1,6 +1,6 @@
 ---
 title: Frequently Asked Questions (Windows Media Format 11 SDK)
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | Frequently Asked Questions (Windows Media Format 11 SDK)
 ms.assetid: 5ba4de31-e94c-406b-98ae-83c221c8003a
 keywords:
 - Frequently Asked Questions windows Media Format

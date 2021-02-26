@@ -1,6 +1,6 @@
 ---
 title: ISearchResult GetIcon method
-description: Reserved.
+description: Reserved. | ISearchResult GetIcon method
 ms.assetid: 53cd18ef-c128-4739-984a-4bc78f9bcebe
 keywords:
 - GetIcon method Legacy Windows Environment Features

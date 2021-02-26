@@ -1,6 +1,6 @@
 ---
 title: ServerNames (ServerValidationParameters) element (TLS)
-description: Learn about the ServerNames (ServerValidationParameters) element. This element represents a list of semicolon delimited server names.
+description: Learn about the ServerNames (ServerValidationParameters) element. This element represents a list of semicolon delimited server names. | ServerNames (ServerValidationParameters) element (TLS)
 ms.assetid: c6cfcc67-4e6a-4bf0-87d9-37cc1d504598
 keywords:
 - ServerNames element EAPHost

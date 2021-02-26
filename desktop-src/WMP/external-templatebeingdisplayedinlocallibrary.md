@@ -1,6 +1,6 @@
 ---
 title: External.templateBeingDisplayedInLocalLibrary
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.templateBeingDisplayedInLocalLibrary
 ms.assetid: a1399c20-804b-4413-be9d-bcf160d75d29
 keywords:
 - External.templateBeingDisplayedInLocalLibrary Windows Media Player

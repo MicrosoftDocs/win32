@@ -1,6 +1,6 @@
 ---
 title: InfoCenter Element
-description: Note This section describes functionality designed for use by online stores.
+description: Note This section describes functionality designed for use by online stores. | InfoCenter Element
 ms.assetid: 1a9cc513-5dd1-46d8-9409-16413695b4c8
 keywords:
 - InfoCenter Element Windows Media Player

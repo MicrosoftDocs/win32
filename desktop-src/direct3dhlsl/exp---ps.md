@@ -1,6 +1,6 @@
 ---
 title: exp - ps
-description: Provides full precision exponential 2x.
+description: Provides full precision exponential 2x. | exp - ps
 ms.assetid: 09e4446f-4149-4ec8-b3e3-2045b55bd591
 ms.topic: reference
 ms.date: 05/31/2018

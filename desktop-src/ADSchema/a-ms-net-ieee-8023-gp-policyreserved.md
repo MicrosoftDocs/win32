@@ -1,6 +1,6 @@
 ---
 title: ms-net-ieee-8023-GP-PolicyReserved attribute
-description: Reserved for future use.
+description: Reserved for future use. | ms-net-ieee-8023-GP-PolicyReserved attribute
 ms.assetid: 387a43d4-8f7f-4540-9ead-838f890f40ef
 ms.tgt_platform: multiple
 keywords:

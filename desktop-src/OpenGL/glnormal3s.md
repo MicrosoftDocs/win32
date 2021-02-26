@@ -1,6 +1,6 @@
 ---
 title: glNormal3s function (Gl.h)
-description: Sets the current normal vector.
+description: Sets the current normal vector. | glNormal3s function (Gl.h)
 ms.assetid: 4fd98ad5-266d-4ef1-9c1f-2b5166ee65d7
 keywords:
 - glNormal3s function OpenGL

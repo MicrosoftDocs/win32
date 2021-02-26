@@ -1,6 +1,6 @@
 ---
 title: NT-Group-Members attribute
-description: This attribute is not used.
+description: This attribute is not used. | NT-Group-Members attribute
 ms.assetid: e7f7cf82-eff9-429f-ab3d-a35b9385362a
 ms.tgt_platform: multiple
 keywords:

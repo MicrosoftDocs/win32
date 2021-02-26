@@ -1,6 +1,6 @@
 ---
 title: m3x4 - vs
-description: Multiplies a 3-component vector by a 3x4 matrix.
+description: Multiplies a 3-component vector by a 3x4 matrix. | m3x4 - vs
 ms.assetid: 8bec1ac5-376b-4eae-ba82-b42a6c0e7c4e
 ms.topic: reference
 ms.date: 05/31/2018

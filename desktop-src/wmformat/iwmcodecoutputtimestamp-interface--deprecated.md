@@ -1,6 +1,6 @@
 ---
 title: IWMCodecOutputTimestamp Interface (Wmcodecdsp.h)
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | IWMCodecOutputTimestamp Interface (Wmcodecdsp.h)
 ms.assetid: aa480837-9145-4f56-a750-80fc4fdbf13b
 keywords:
 - IWMCodecOutputTimestamp Interface windows Media Format

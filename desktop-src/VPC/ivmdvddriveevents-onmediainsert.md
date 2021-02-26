@@ -1,6 +1,6 @@
 ---
 title: IVMDVDDriveEvents OnMediaInsert method (VPCCOMInterfaces.h)
-description: Receives notification that media has been inserted into the drive.
+description: Receives notification that media has been inserted into the drive. | IVMDVDDriveEvents OnMediaInsert method (VPCCOMInterfaces.h)
 ms.assetid: a246e2dd-638e-4d2f-9089-74771cd8bb2b
 keywords:
 - OnMediaInsert method Virtual PC

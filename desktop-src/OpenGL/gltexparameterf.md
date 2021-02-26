@@ -1,6 +1,6 @@
 ---
 title: glTexParameterf function (Gl.h)
-description: Sets texture parameters.
+description: Sets texture parameters. | glTexParameterf function (Gl.h)
 ms.assetid: 20b9f2d5-66e1-41cd-9571-8caa38ef033d
 keywords:
 - glTexParameterf function OpenGL

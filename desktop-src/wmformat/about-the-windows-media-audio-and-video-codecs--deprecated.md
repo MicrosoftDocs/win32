@@ -1,6 +1,6 @@
 ---
 title: About the Windows Media Audio and Video Codecs
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | About the Windows Media Audio and Video Codecs
 ms.assetid: 2f6aa80c-f592-479f-be94-d3878760aa86
 keywords:
 - About the Windows Media Audio and Video Codecs windows Media Format

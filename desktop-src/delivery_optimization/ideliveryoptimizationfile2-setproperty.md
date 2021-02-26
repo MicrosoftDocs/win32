@@ -1,6 +1,6 @@
 ---
 title: IDeliveryOptimizationFile2::SetProperty method
-description: This method returns a single property of the DO file.
+description: This method returns a single property of the DO file. | IDeliveryOptimizationFile2::SetProperty method
 keywords:
 - SetProperty method
 - SetProperty method, IDeliveryOptimizationFile2 interface

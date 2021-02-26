@@ -1,6 +1,6 @@
 ---
 title: KeyPress Event of the AxWindowsMediaPlayer Object
-description: The KeyPress event occurs when a key is pressed and released.
+description: The KeyPress event occurs when a key is pressed and released. | KeyPress Event of the AxWindowsMediaPlayer Object
 ms.assetid: 73ecd6f9-1b58-4e28-ad1b-2d930a235e1d
 keywords:
 - KeyPress Event of the AxWindowsMediaPlayer Object Windows Media Player

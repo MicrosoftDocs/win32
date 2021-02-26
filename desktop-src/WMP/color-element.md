@@ -1,6 +1,6 @@
 ---
 title: Color Element
-description: Note This section describes functionality designed for use by online stores.
+description: Note This section describes functionality designed for use by online stores. | Color Element
 ms.assetid: 36fafe16-b708-4dc1-9325-d4f39265069a
 keywords:
 - Color Element Windows Media Player

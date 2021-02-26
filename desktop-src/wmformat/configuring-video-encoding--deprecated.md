@@ -1,6 +1,6 @@
 ---
 title: Configuring Video Encoding (Windows Media Format 11 SDK)
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | Configuring Video Encoding (Windows Media Format 11 SDK)
 ms.assetid: b130ac43-718a-45b1-a750-a7f2b0de7cd7
 keywords:
 - Configuring Video Encoding windows Media Format

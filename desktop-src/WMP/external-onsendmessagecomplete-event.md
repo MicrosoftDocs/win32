@@ -1,6 +1,6 @@
 ---
 title: External.OnSendMessageComplete Event
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.OnSendMessageComplete Event
 ms.assetid: 9ae60aa5-4ecd-41dd-aeb0-afb1a3686982
 keywords:
 - External.OnSendMessageComplete Event Windows Media Player

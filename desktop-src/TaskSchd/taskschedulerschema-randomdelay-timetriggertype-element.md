@@ -1,6 +1,6 @@
 ---
 title: RandomDelay (timeTriggerType) Element
-description: Contains the delay time that is randomly added to the start time of the trigger.
+description: Contains the delay time that is randomly added to the start time of the trigger. | RandomDelay (timeTriggerType) Element
 ms.assetid: 84dffd18-651d-4e81-8c02-6cee9759a9b9
 keywords:
 - RandomDelay element Task Scheduler

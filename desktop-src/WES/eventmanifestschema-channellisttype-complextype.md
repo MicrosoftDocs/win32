@@ -1,6 +1,6 @@
 ---
 title: ChannelListType Complex Type
-description: Defines a list of channels to which providers can log events.
+description: Defines a list of channels to which providers can log events. | ChannelListType Complex Type
 ms.assetid: 01685955-7149-45ce-a47f-6344fcf07826
 keywords:
 - ChannelListType complex type EventLog

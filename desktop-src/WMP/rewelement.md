@@ -1,6 +1,6 @@
 ---
 title: REWELEMENT
-description: This is a predefined BUTTONELEMENT with the following default values.
+description: This is a predefined BUTTONELEMENT with the following default values. | REWELEMENT
 ms.assetid: 828c295b-3b01-4ddd-b0cd-59309ede5d84
 keywords:
 - REWELEMENT Windows Media Player

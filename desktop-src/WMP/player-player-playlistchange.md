@@ -1,6 +1,6 @@
 ---
 title: Player.PlaylistChange event
-description: The PlaylistChange event occurs when a playlist changes.
+description: The PlaylistChange event occurs when a playlist changes. | Player.PlaylistChange event
 ms.assetid: 09ab0560-e18d-4ee8-a649-2b2468b40c31
 keywords:
 - PlaylistChange event Windows Media Player

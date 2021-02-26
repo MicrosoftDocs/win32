@@ -1,6 +1,6 @@
 ---
 title: AVIEncoderVFW
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | AVIEncoderVFW
 ms.assetid: 941cc762-79c9-4ac3-a2bc-31e6ad4cf212
 keywords:
 - AVIEncoderVFW windows Media Format

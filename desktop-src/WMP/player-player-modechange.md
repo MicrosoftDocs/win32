@@ -1,6 +1,6 @@
 ---
 title: Player.ModeChange event
-description: The ModeChange event occurs when a mode of Windows Media Player is changed.
+description: The ModeChange event occurs when a mode of Windows Media Player is changed. | Player.ModeChange event
 ms.assetid: 45b57660-b186-4c0f-8735-61134058b8c9
 keywords:
 - ModeChange event Windows Media Player

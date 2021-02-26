@@ -1,6 +1,6 @@
 ---
 title: GUIDType simple type (Event Schema)
-description: Defines a globally unique identifier type, in Registry format.
+description: Defines a globally unique identifier type, in Registry format. | GUIDType simple type (Event Schema)
 ms.assetid: dbc305ef-6f07-4a70-9013-b89ccec889ea
 keywords:
 - GUIDType simple type EventLog

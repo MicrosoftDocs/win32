@@ -1,6 +1,6 @@
 ---
 title: PeapExtensionsV2 (PeapExtensionsType) element (v1 schema)
-description: Learn about the PeapExtensionsV2 (PeapExtensionsType) element. This element enables future enhancements to the schema.
+description: Learn about the PeapExtensionsV2 (PeapExtensionsType) element. This element enables future enhancements to the schema. | PeapExtensionsV2 (PeapExtensionsType) element (v1 schema)
 ms.assetid: eedd90c1-f3de-4c3b-9329-7ca0f39f9541
 keywords:
 - PeapExtensionsV2 element EAPHost

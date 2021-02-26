@@ -1,6 +1,6 @@
 ---
 title: IVMVirtualMachine HasSSE property (VPCCOMInterfaces.h)
-description: Determines whether the processor supports the SSE instruction set.
+description: Determines whether the processor supports the SSE instruction set. | IVMVirtualMachine HasSSE property (VPCCOMInterfaces.h)
 ms.assetid: 949dd93b-aa4e-4506-91ed-ed625a535d5f
 keywords:
 - HasSSE property Virtual PC

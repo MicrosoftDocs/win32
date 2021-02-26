@@ -1,6 +1,6 @@
 ---
 title: GetBufferSizes
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | GetBufferSizes
 ms.assetid: 84103fdd-5e30-4219-bb9b-4fa7e5999dbb
 keywords:
 - GetBufferSizes windows Media Format

@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GatherCmpAlpha(S,float,float,int,uint) function
-description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their alpha component against a compare value along with tile-mapping status.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their alpha component against a compare value along with tile-mapping status. | Texture2D::GatherCmpAlpha(S,float,float,int,uint) function
 ms.assetid: 4E281512-2E0A-49A5-B568-8CE793A854F9
 keywords:
 - GatherCmpAlpha function HLSL

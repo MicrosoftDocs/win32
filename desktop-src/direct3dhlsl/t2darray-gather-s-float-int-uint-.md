@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::Gather(S,float,int,uint) function
-description: Returns the four texel values that would be used in a bi-linear filtering operation.
+description: Returns the four texel values that would be used in a bi-linear filtering operation. | Texture2DArray::Gather(S,float,int,uint) function
 ms.assetid: 311A5042-19AA-41C7-8B22-2E34E4554250
 keywords:
 - Gather function HLSL

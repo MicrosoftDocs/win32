@@ -1,6 +1,6 @@
 ---
 title: IWMPMediaCollection add method
-description: The add method adds a new media item or playlist to the library.
+description: The add method adds a new media item or playlist to the library. | IWMPMediaCollection add method
 ms.assetid: a3539646-797b-4481-a31e-86771f3633a9
 keywords:
 - add method Windows Media Player

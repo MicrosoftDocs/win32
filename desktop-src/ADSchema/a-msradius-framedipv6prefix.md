@@ -1,6 +1,6 @@
 ---
 title: ms-RADIUS-FramedIpv6Prefix attribute
-description: Indicates an IPv6 prefix (and corresponding route) to be configured for the user.
+description: Indicates an IPv6 prefix (and corresponding route) to be configured for the user. | ms-RADIUS-FramedIpv6Prefix attribute
 ms.assetid: 89f66a6c-2088-41c7-ba1b-4559e08cca7c
 ms.tgt_platform: multiple
 keywords:

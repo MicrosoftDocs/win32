@@ -1,6 +1,6 @@
 ---
 title: gluBeginSurface function (Glu.h)
-description: The gluBeginSurface and gluEndSurface functions delimit a Non-Uniform Rational B-Spline (NURBS) surface definition.
+description: The gluBeginSurface and gluEndSurface functions delimit a Non-Uniform Rational B-Spline (NURBS) surface definition. | gluBeginSurface function (Glu.h)
 ms.assetid: 7189f05e-0c4d-4f82-8a82-a51fcc51b202
 keywords:
 - gluBeginSurface function OpenGL

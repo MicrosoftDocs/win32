@@ -1,6 +1,6 @@
 ---
 title: External.OnLoginChange Event
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.OnLoginChange Event
 ms.assetid: 096794d5-977a-414f-8a98-b7998674c268
 keywords:
 - External.OnLoginChange Event Windows Media Player

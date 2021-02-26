@@ -1,6 +1,6 @@
 ---
 title: callnz bool - ps
-description: Call if not zero. Performs a conditional call to the instruction marked by the label index.
+description: Call if not zero. Performs a conditional call to the instruction marked by the label index. | callnz bool - ps
 ms.assetid: 1b9ff276-c2b8-46cc-96ac-a5b5455c5cc0
 ms.topic: reference
 ms.date: 05/31/2018

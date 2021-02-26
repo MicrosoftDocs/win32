@@ -1,6 +1,6 @@
 ---
 title: External.OnChangeViewError Event
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.OnChangeViewError Event
 ms.assetid: d6370629-5f50-434d-8eb5-5b43d1b2f7fe
 keywords:
 - External.OnChangeViewError Event Windows Media Player

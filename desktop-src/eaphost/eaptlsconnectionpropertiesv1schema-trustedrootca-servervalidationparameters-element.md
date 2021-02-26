@@ -1,6 +1,6 @@
 ---
 title: TrustedRootCA (ServerValidationParameters) Element
-description: Captures the thumb print of root certificate authorities (CAs) that are trusted by the client.
+description: Captures the thumb print of root certificate authorities (CAs) that are trusted by the client. | TrustedRootCA (ServerValidationParameters) Element
 ms.assetid: 81e3b6ca-6360-42dc-bfd3-298e81e66c1a
 keywords:
 - TrustedRootCA element EAPHost

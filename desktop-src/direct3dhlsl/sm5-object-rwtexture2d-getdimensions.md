@@ -1,6 +1,6 @@
 ---
 title: RWTexture2D::GetDimensions function
-description: Returns the dimensions of the resource.
+description: Returns the dimensions of the resource. | RWTexture2D::GetDimensions function
 ms.assetid: bc55622d-fbff-4aeb-aceb-4eb2cfc7ac28
 keywords:
 - GetDimensions function HLSL

@@ -1,6 +1,6 @@
 ---
 title: PlaylistCollectionPlaylistRemoved Event of the AxWindowsMediaPlayer Object
-description: The PlaylistCollectionPlaylistRemoved event occurs when a playlist is removed from the playlist collection.
+description: The PlaylistCollectionPlaylistRemoved event occurs when a playlist is removed from the playlist collection. | PlaylistCollectionPlaylistRemoved Event of the AxWindowsMediaPlayer Object
 ms.assetid: 96935a9e-4c08-42e9-a63f-7b6cda41b243
 keywords:
 - PlaylistCollectionPlaylistRemoved Event of the AxWindowsMediaPlayer Object Windows Media Player

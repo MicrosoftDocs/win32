@@ -1,6 +1,6 @@
 ---
 title: INapEnforcementClientConnection2 interface (NapEnforcementClient.h)
-description: Allow for client connection management.
+description: Allow for client connection management. | INapEnforcementClientConnection2 interface (NapEnforcementClient.h)
 ms.assetid: f7b5d8cc-6a91-4e49-8957-cf67d1001089
 keywords:
 - INapEnforcementClientConnection2 interface NAP

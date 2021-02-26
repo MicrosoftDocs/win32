@@ -1,6 +1,6 @@
 ---
 title: TaskEventDefinitionType Complex Type
-description: Defines a task-specific event that your provider can log.
+description: Defines a task-specific event that your provider can log. | TaskEventDefinitionType Complex Type
 ms.assetid: f0329728-e7b5-4161-a30f-78b81a7b6812
 keywords:
 - TaskEventDefinitionType complex type EventLog

@@ -1,6 +1,6 @@
 ---
 title: ByteAddressBuffer::Load4(uint) function
-description: Gets four values.
+description: Gets four values. | ByteAddressBuffer::Load4(uint) function
 ms.assetid: bc74bf29-1c22-4e47-bafc-ecef194f54b8
 keywords:
 - Load4 function HLSL

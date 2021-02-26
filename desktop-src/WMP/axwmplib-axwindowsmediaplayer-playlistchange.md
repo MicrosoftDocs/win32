@@ -1,6 +1,6 @@
 ---
 title: PlaylistChange Event of the AxWindowsMediaPlayer Object
-description: The PlaylistChange event occurs when a playlist changes.
+description: The PlaylistChange event occurs when a playlist changes. | PlaylistChange Event of the AxWindowsMediaPlayer Object
 ms.assetid: e4166d81-a205-401a-94c4-a1619e764647
 keywords:
 - PlaylistChange Event of the AxWindowsMediaPlayer Object Windows Media Player

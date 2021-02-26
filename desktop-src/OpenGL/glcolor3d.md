@@ -1,6 +1,6 @@
 ---
 title: glColor3d function (Gl.h)
-description: Sets the current color.
+description: Sets the current color. | glColor3d function (Gl.h)
 ms.assetid: 55221cd6-a38c-4249-a6c1-31650fb93eb2
 keywords:
 - glColor3d function OpenGL

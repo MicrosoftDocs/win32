@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings maxEventCount property
-description: This property is not supported.
+description: This property is not supported. | IMsRdpClientAdvancedSettings maxEventCount property
 ms.assetid: d7b5951d-8cc3-48b4-af1b-1f547afbc6ae
 ms.tgt_platform: multiple
 keywords:

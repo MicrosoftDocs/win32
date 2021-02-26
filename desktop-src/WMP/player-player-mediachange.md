@@ -1,6 +1,6 @@
 ---
 title: Player.MediaChange event
-description: The MediaChange event occurs when a media item changes.
+description: The MediaChange event occurs when a media item changes. | Player.MediaChange event
 ms.assetid: c4bdd2ae-c51f-4577-b762-bc84aaf52f76
 keywords:
 - MediaChange event Windows Media Player

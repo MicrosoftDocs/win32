@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_GATHER_ND1_OPERATOR_DESC
 title: DML_GATHER_ND1_OPERATOR_DESC
-description: Gathers elements from the input tensor, using the indices tensor to remap indices to entire subblocks of the input.
+description: Gathers elements from the input tensor, using the indices tensor to remap indices to entire subblocks of the input. | DML_GATHER_ND1_OPERATOR_DESC
 helpviewer_keywords: ["DML_GATHER_ND1_OPERATOR_DESC","DML_GATHER_ND1_OPERATOR_DESC structure","direct3d12.dml_convolution_integer_operator_desc","directml/DML_GATHER_ND1_OPERATOR_DESC"]
 ms.topic: reference
 tech.root: directml

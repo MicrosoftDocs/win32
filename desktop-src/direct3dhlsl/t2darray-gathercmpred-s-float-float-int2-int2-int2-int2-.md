@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::GatherCmpRed(S,float,float,int2,int2,int2,int2) function
-description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value. | Texture2DArray::GatherCmpRed(S,float,float,int2,int2,int2,int2) function
 ms.assetid: B436FB9A-C55C-477F-B8BE-933B1EB04AE1
 keywords:
 - GatherCmpRed function HLSL

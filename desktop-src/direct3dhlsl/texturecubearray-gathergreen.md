@@ -1,6 +1,6 @@
 ---
 title: TextureCubeArray::TextureCubeArray GatherGreen methods
-description: Samples a texture and returns the green component.
+description: Samples a texture and returns the green component. | TextureCubeArray::TextureCubeArray GatherGreen methods
 ms.assetid: EB180EA9-D1AE-4ACA-A518-92F7E46571E8
 keywords:
 - GatherGreen methods HLSL

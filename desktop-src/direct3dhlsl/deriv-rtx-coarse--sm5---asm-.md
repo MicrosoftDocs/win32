@@ -1,6 +1,6 @@
 ---
 title: deriv_rtx_coarse (sm5 - asm)
-description: Computes the rate of change of components.
+description: Computes the rate of change of components. | deriv_rtx_coarse (sm5 - asm)
 ms.assetid: 57743BB2-251C-4EA7-BDA9-70B2ECEE3B3F
 ms.topic: reference
 ms.date: 05/31/2018

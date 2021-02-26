@@ -1,6 +1,6 @@
 ---
 title: InputType Complex Type
-description: Defines an input data type.
+description: Defines an input data type. | InputType Complex Type
 ms.assetid: 744db4b1-d97f-42b9-bdd9-f42e5da52981
 keywords:
 - InputType complex type EventLog

@@ -1,6 +1,6 @@
 ---
 title: Player.MediaCollectionChange event
-description: The MediaCollectionChange event occurs when the media collection changes.
+description: The MediaCollectionChange event occurs when the media collection changes. | Player.MediaCollectionChange event
 ms.assetid: 1cc8f26d-ccd5-49ba-a2b3-0adfe9b51b11
 keywords:
 - MediaCollectionChange event Windows Media Player

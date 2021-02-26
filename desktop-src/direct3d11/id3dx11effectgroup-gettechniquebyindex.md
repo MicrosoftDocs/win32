@@ -1,6 +1,6 @@
 ---
 title: ID3DX11EffectGroup GetTechniqueByIndex method (D3dx11effect.h)
-description: Get a technique by index.
+description: Get a technique by index. | ID3DX11EffectGroup GetTechniqueByIndex method (D3dx11effect.h)
 ms.assetid: b0962957-20d1-4ec6-9f8e-acc7a62c5f4e
 keywords:
 - GetTechniqueByIndex method Direct3D 11

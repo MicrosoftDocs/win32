@@ -1,6 +1,6 @@
 ---
 title: ServerValidation (EapType) element (PEAP)
-description: Learn about the ServerValidation (EapType) element. This element contains information about how to perform server validation.
+description: Learn about the ServerValidation (EapType) element. This element contains information about how to perform server validation. | ServerValidation (EapType) element (PEAP)
 ms.assetid: 5b213853-7161-456c-bbba-d3b1118f1786
 keywords:
 - ServerValidation element EAPHost

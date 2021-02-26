@@ -1,6 +1,6 @@
 ---
 title: TextureCube::GatherCmpAlpha(S,float,float,uint) function
-description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their alpha component against a compare value along with tile-mapping status.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their alpha component against a compare value along with tile-mapping status. | TextureCube::GatherCmpAlpha(S,float,float,uint) function
 ms.assetid: 8DC43B02-0B3C-49F0-AA94-80894A1A54BD
 keywords:
 - GatherCmpAlpha function HLSL

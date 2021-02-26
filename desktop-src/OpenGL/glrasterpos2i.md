@@ -1,6 +1,6 @@
 ---
 title: glRasterPos2i function (Gl.h)
-description: Specifies the raster position for pixel operations.
+description: Specifies the raster position for pixel operations. | glRasterPos2i function (Gl.h)
 ms.assetid: 2ab3b66a-e6e7-43ed-ab4b-c897c3d19561
 keywords:
 - glRasterPos2i function OpenGL

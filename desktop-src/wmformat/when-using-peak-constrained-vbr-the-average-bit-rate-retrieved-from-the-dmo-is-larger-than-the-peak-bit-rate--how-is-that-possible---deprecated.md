@@ -1,6 +1,6 @@
 ---
 title: When using peak-constrained VBR, the average bit rate retrieved from the DMO is larger than the peak bit rate. How is that possible
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | When using peak-constrained VBR, the average bit rate retrieved from the DMO is larger than the peak bit rate. How is that possible
 ms.assetid: 10754d0e-4bd0-4031-896e-e2045a383378
 keywords:
 - When using peak-constrained VBR, the average bit rate retrieved from the DMO is larger than the peak bit rate. How is that possible windows Media Format

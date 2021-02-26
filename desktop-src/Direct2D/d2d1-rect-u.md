@@ -1,6 +1,6 @@
 ---
 title: D2D1_RECT_U (D2DBaseTypes.h)
-description: Represents a rectangle defined by the coordinates of the upper-left corner (left, top) and the coordinates of the lower-right corner (right, bottom).
+description: Represents a rectangle defined by the coordinates of the upper-left corner (left, top) and the coordinates of the lower-right corner (right, bottom). | D2D1_RECT_U (D2DBaseTypes.h)
 ms.assetid: 8607d194-cb0b-431a-926a-e56b946e49ff
 keywords:
 - D2D1_RECT_U

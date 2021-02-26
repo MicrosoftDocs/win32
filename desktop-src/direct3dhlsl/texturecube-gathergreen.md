@@ -1,6 +1,6 @@
 ---
 title: TextureCube::TextureCube GatherGreen methods
-description: Returns the green components of the four texel values that would be used in a bi-linear filtering operation.
+description: Returns the green components of the four texel values that would be used in a bi-linear filtering operation. | TextureCube::TextureCube GatherGreen methods
 ms.assetid: F70AA57B-D54C-4F78-ABD1-7F8D3AD44997
 keywords:
 - GatherGreen methods HLSL

@@ -1,6 +1,6 @@
 ---
 title: ID3DX11EffectVariable GetAnnotationByName method (D3dx11effect.h)
-description: Get an annotation by name.
+description: Get an annotation by name. | ID3DX11EffectVariable GetAnnotationByName method (D3dx11effect.h)
 ms.assetid: 0ca3df07-c721-48c4-9422-f6af24acbaef
 keywords:
 - GetAnnotationByName method Direct3D 11

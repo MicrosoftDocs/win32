@@ -1,6 +1,6 @@
 ---
 title: glScaled function (Gl.h)
-description: The glScaled and glScalef functions multiply the current matrix by a general scaling matrix.
+description: The glScaled and glScalef functions multiply the current matrix by a general scaling matrix. | glScaled function (Gl.h)
 ms.assetid: 3846289f-5c7b-4bb6-95a8-90a58dd8b9d9
 keywords:
 - glScaled function OpenGL

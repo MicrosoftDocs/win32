@@ -1,6 +1,6 @@
 ---
 title: Texture1D::Sample(S,float,int,float,uint) function
-description: Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to, and returns status of the operation.
+description: Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to, and returns status of the operation. | Texture1D::Sample(S,float,int,float,uint) function
 ms.assetid: AF987A41-385D-4A77-B3FD-FE5523A6CC5C
 keywords:
 - Sample function HLSL

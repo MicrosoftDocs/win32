@@ -1,6 +1,6 @@
 ---
 title: glMap1d function (Gl.h)
-description: The glMap1d function defines a one-dimensional evaluator.
+description: The glMap1d function defines a one-dimensional evaluator. | glMap1d function (Gl.h)
 ms.assetid: 65f8b099-597c-4300-a7d1-3dabdd19e6cb
 keywords:
 - glMap1d function OpenGL
