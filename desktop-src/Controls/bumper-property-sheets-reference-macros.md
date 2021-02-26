@@ -1,6 +1,6 @@
 ---
 title: Property Sheet Macros
-description: .
+description: Property Sheet Macros
 ms.assetid: d1cb44ec-b130-413a-8763-5997a2362b21
 ms.topic: article
 ms.date: 05/31/2018

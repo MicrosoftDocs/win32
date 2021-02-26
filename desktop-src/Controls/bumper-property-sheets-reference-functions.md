@@ -1,6 +1,6 @@
 ---
 title: Property Sheet Functions
-description: .
+description: Property Sheet Functions
 ms.assetid: e7f63c55-a443-4c59-be75-8c214de98d97
 ms.topic: article
 ms.date: 05/31/2018

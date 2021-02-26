@@ -1,6 +1,6 @@
 ---
 title: Pager Control Reference
-description: .
+description: Pager Control Reference
 ms.assetid: 0da466c6-129e-4092-9d26-579b98f38795
 ms.topic: article
 ms.date: 05/31/2018

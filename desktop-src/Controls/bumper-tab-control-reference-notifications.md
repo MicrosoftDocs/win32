@@ -1,6 +1,6 @@
 ---
 title: Tab Control Notifications
-description: .
+description: Tab Control Notifications
 ms.assetid: 16a5549a-59e0-4d3d-ad3a-effd3a55e55b
 ms.topic: article
 ms.date: 05/31/2018

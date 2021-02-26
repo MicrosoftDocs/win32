@@ -1,6 +1,6 @@
 ---
 title: Tab Control Reference
-description: .
+description: Tab Control Reference
 ms.assetid: 3403acf7-54f6-45dd-ba5e-3b1eeccfb5b2
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,6 +1,6 @@
 ---
 title: Trackbar Control Constants
-description: .
+description: Trackbar Control Constants
 ms.assetid: a1dba5fc-efa4-4901-b639-309398a1725f
 ms.topic: article
 ms.date: 05/31/2018

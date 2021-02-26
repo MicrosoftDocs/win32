@@ -1,6 +1,6 @@
 ---
 title: Edit Control Notifications
-description: .
+description: Edit Control Notifications
 ms.assetid: 04ec89f4-a061-4c3f-99de-fdb42596ecca
 ms.topic: article
 ms.date: 05/31/2018

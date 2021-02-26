@@ -1,6 +1,6 @@
 ---
 title: Text Object Model Interfaces
-description: .
+description: Text Object Model Interfaces
 ms.assetid: 477b90fb-d544-4529-8495-87eb88fc2573
 ms.topic: article
 ms.date: 05/31/2018

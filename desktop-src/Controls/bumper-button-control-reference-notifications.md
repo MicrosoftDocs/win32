@@ -1,6 +1,6 @@
 ---
 title: Button Control Notifications
-description: .
+description: Button Control Notifications
 ms.assetid: 37d1bbaa-7187-47fb-a711-49a9b6175a29
 ms.topic: article
 ms.date: 05/31/2018

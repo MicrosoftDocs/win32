@@ -1,6 +1,6 @@
 ---
 title: Rebar Control Messages
-description: .
+description: Rebar Control Messages
 ms.assetid: 5fa1df55-0883-4b3b-bcde-7c40d574c792
 ms.topic: article
 ms.date: 05/31/2018

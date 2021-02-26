@@ -1,6 +1,6 @@
 ---
 title: Image List Interfaces
-description: .
+description: Image List Interfaces
 ms.assetid: 5044dd5f-beea-4061-a2cf-d4b345a769dc
 ms.topic: article
 ms.date: 05/31/2018

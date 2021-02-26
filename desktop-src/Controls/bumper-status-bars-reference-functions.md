@@ -1,6 +1,6 @@
 ---
 title: Status Bar Functions
-description: .
+description: Status Bar Functions
 ms.assetid: 1a826302-e938-4ef6-aaed-0a89108a1529
 ms.topic: article
 ms.date: 05/31/2018

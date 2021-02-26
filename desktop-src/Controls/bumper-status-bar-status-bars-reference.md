@@ -1,6 +1,6 @@
 ---
 title: Status Bar Reference
-description: .
+description: Status Bar Reference
 ms.assetid: dc07bcf2-cb43-440c-a163-71b77b7ee2c0
 ms.topic: article
 ms.date: 05/31/2018

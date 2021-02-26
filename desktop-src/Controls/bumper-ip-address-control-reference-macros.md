@@ -1,6 +1,6 @@
 ---
 title: IP Address Macros
-description: .
+description: IP Address Macros
 ms.assetid: 3990a86b-3446-4a1b-bece-8d9d76b802d6
 ms.topic: article
 ms.date: 05/31/2018

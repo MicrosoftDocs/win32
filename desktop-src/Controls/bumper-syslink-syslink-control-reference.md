@@ -1,6 +1,6 @@
 ---
 title: SysLink Control Reference
-description: .
+description: SysLink Control Reference
 ms.assetid: a0f7fc19-408c-4e94-a55f-91556ff34036
 ms.topic: article
 ms.date: 05/31/2018

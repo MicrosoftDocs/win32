@@ -1,6 +1,6 @@
 ---
 title: Static Control Messages
-description: .
+description: Static Control Messages
 ms.assetid: 1e840d1a-f311-44ed-9997-274921cb0bed
 ms.topic: article
 ms.date: 05/31/2018

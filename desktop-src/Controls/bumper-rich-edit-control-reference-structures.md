@@ -1,6 +1,6 @@
 ---
 title: Rich Edit Structures
-description: .
+description: Rich Edit Structures
 ms.assetid: f7679e81-0a50-408b-8f60-9a3da4650f2c
 ms.topic: article
 ms.date: 05/31/2018

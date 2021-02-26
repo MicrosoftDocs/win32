@@ -1,6 +1,6 @@
 ---
 title: Tab Control Structures
-description: .
+description: Tab Control Structures
 ms.assetid: 0fa81573-7819-4253-8705-b4406c5abff0
 ms.topic: article
 ms.date: 05/31/2018

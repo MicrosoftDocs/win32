@@ -1,6 +1,6 @@
 ---
 title: Status Bar Notifications
-description: .
+description: Status Bar Notifications
 ms.assetid: a7a8a116-5e93-42cf-b652-b36f8ad5a434
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,6 +1,6 @@
 ---
 title: ComboBoxEx Structures
-description: .
+description: ComboBoxEx Structures
 ms.assetid: 0b3e989b-16ad-464a-8383-82c2ee29d2a5
 ms.topic: article
 ms.date: 05/31/2018

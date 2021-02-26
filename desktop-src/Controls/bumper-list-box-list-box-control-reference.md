@@ -1,6 +1,6 @@
 ---
 title: List Box Control Reference
-description: .
+description: List Box Control Reference
 ms.assetid: 2d0810f9-ca3e-479a-8be0-a40b088ad989
 ms.topic: article
 ms.date: 05/31/2018

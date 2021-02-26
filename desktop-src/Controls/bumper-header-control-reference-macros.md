@@ -1,6 +1,6 @@
 ---
 title: Header Control Macros
-description: .
+description: Header Control Macros
 ms.assetid: 5ef52add-f796-48e5-83a8-e7d2c07e202d
 ms.topic: article
 ms.date: 05/31/2018

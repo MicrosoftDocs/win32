@@ -1,6 +1,6 @@
 ---
 title: WebViewFolderContents Properties
-description: .
+description: WebViewFolderContents Properties
 ms.assetid: 82f1cf74-4b25-4520-9cbd-6ab269bddc2a
 ms.topic: article
 ms.date: 05/31/2018
