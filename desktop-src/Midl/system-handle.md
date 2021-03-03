@@ -78,9 +78,7 @@ An array of `system_handle` can be passed either in or out with the syntax found
 
 ## Examples
 
-<!--
-An end-to-end sample with bidirectional system handle passing can be found on the [Windows Classic Samples GitHub repository](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/SystemHandlePassing).
--->
+The following examples several uses of `system_handle`. For a complete sample, see the [SystemHandlePassing](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/SystemHandlePassing) sample.
 
 ```c
 interface MyInterface : IUnknown                         
