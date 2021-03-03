@@ -567,18 +567,18 @@ HKEY_LOCAL_MACHINE
 ```
 
 > [!Note]**: The following information applies to Windows XP only.**
->
+> 
 > If the registration of the computer-level default under HKEY\_LOCAL\_MACHINE as shown above is successful, the application should delete the value assigned to the Default entry under the following subkey:
->
+> 
 > ```
 > HKEY_CURRENT_USER
 >    SOFTWARE
 >       Clients
 >          ClientTypeName
 > ```
->
+> 
 > If the registration of the computer-level default under HKEY\_LOCAL\_MACHINE as shown above fails, usually because the user does not have write permission to the subkey, the application should set the following value:
->
+> 
 > ```
 > HKEY_CURRENT_USER
 >    SOFTWARE
@@ -586,7 +586,7 @@ HKEY_LOCAL_MACHINE
 >          ClientTypeName
 >             (Default) = CanonicalName
 > ```
->
+> 
 > This registers the canonical name only for the current user, not for all users.
 
  

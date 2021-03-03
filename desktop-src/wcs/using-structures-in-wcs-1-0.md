@@ -30,7 +30,7 @@ The following topics are discussed at greater length:
 
 -   [Windows Bitmap Header Structures](#windows-bitmap-header-structures)
 -   [Differences Between V4 and V5 Headers](#differences-between-v4-and-v5-headers)
--   [Bitmap.exe: a Command-Line Utility for Converting Bitmap Headers](#bitmap-exe-a-command-line-utility-for-converting-bitmap-headers)
+-   [Bitmap.exe: a Command-Line Utility for Converting Bitmap Headers](#bitmapexe-a-command-line-utility-for-converting-bitmap-headers)
 
 ## Windows Bitmap Header Structures
 
