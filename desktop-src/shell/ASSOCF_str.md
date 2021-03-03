@@ -51,7 +51,7 @@ Identifies the value of the *pwszAssoc* parameter of [**IQueryAssociations::Init
 
  <span id="ASSOCF_OPEN_BYEXENAME"></span><span id="assocf_open_byexename"></span>**ASSOCF\_OPEN\_BYEXENAME** 
 
-Identical to [****ASSOCF\_INIT\_BYEXENAME****](ASSOCF_str.htm.md).
+Identical to **ASSOCF\_INIT\_BYEXENAME**.
 
  <span id="ASSOCF_INIT_DEFAULTTOSTAR"></span><span id="assocf_init_defaulttostar"></span>**ASSOCF\_INIT\_DEFAULTTOSTAR** 
 
