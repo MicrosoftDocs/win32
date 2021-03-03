@@ -33,7 +33,7 @@ The following technologies and tools, formerly part of the DirectX SDK, are now 
 <td>The headers and libraries for <a href="/windows/desktop/direct3d">Direct3D</a> and other Windows graphics APIs, like <a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a>, are available in the Windows SDK. <br/>
 <blockquote>
 [!Note]<br />
-The deprecated D3DX9/D3DX10/D3DX11 utility libraries are available via <a href="https://www.nuget.org/packages/Microsoft.DXSDK.D3DX">NuGet</a>, but there are also a number of <a href="https://aka.ms/Kfsdiu">open source alternatives</a>. The D3DCSX DirectCompute utility library and redistributable DLL is available in the Windows SDK. D3DX12 is available on <a href="https://github.com/microsoft/DirectX-Headers">GitHub</a>.
+The deprecated D3DX9/D3DX10/D3DX11 utility libraries are available via <a href="https://www.nuget.org/packages/Microsoft.DXSDK.D3DX">NuGet</a>, but there are also a number of <a href="https://walbourn.github.io/living-without-d3dx/">open source alternatives</a>. The D3DCSX DirectCompute utility library and redistributable DLL is available in the Windows SDK. D3DX12 is available on <a href="https://github.com/microsoft/DirectX-Headers">GitHub</a>.
 </blockquote>
 <br/></td>
 </tr>
@@ -52,7 +52,7 @@ The D3DCompiler API and redistributable DLL is available in the Windows SDK.
 </tr>
 <tr class="even">
 <td><span id="XAudio2_for_"></span><span id="xaudio2_for_"></span><span id="XAUDIO2_FOR_"></span><a href="/windows/desktop/xaudio2/xaudio2-apis-portal">XAudio2</a> for Windows<br/></td>
-<td>The <a href="/windows/desktop/xaudio2/xaudio2-apis-portal">XAudio2</a> API is now a system component in Windows 8.x and Windows 10. The headers and libraries for XAudio2 are available in the Windows SDK. For Windows 7 support, see <a href="https://aka.ms/XAudio2Redist">XAudio2Redist</a>.<br/></td>
+<td>The <a href="/windows/desktop/xaudio2/xaudio2-apis-portal">XAudio2</a> API is now a system component in Windows 8.x and Windows 10. The headers and libraries for XAudio2 are available in the Windows SDK. For Windows 7 support, see <a href="/windows/win32/xaudio2/xaudio2-redistributable">XAudio2Redist</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="XInput_for_"></span><span id="xinput_for_"></span><span id="XINPUT_FOR_"></span><a href="/windows/desktop/xinput/xinput-game-controller-apis-portal">XInput</a> for Windows<br/></td>
@@ -210,7 +210,3 @@ These steps also apply to your own projects that are dependent on the DirectX SD
 
 [Living without D3DX](https://walbourn.github.io/living-without-d3dx/)
 </dt> </dl>
-
- 
-
- 
