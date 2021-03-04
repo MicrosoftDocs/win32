@@ -566,7 +566,9 @@ HKEY_LOCAL_MACHINE
             (Default) = CanonicalName
 ```
 
-> [!Note]**: The following information applies to Windows XP only.**
+> [!Note]
+> 
+> **The following information applies to Windows XP only.**
 > 
 > If the registration of the computer-level default under HKEY\_LOCAL\_MACHINE as shown above is successful, the application should delete the value assigned to the Default entry under the following subkey:
 > 
