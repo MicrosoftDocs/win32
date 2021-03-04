@@ -1,5 +1,5 @@
 ---
-Description: This document outlines the interfaces that provide methods that allow an MSP to interact with the Microsoft Telephony environment and allow a TAPI 3 application to use an MSPs media controls.
+description: This document outlines the interfaces that provide methods that allow an MSP to interact with the Microsoft Telephony environment and allow a TAPI 3 application to use an MSPs media controls.
 ms.assetid: e67d4941-ce0f-48b9-8099-b62659ad33e0
 title: Media Service Provider Interface (MSPI) Reference
 ms.topic: article

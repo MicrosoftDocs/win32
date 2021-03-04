@@ -1,5 +1,5 @@
 ---
-Description: Media features are different with TAPI 2.2 (TAPI/C) as opposed to TAPI 3 (COM), largely because the COM API has access to media service providers (MSPs).
+description: Media features are different with TAPI 2.2 (TAPI/C) as opposed to TAPI 3 (COM), largely because the COM API has access to media service providers (MSPs).
 ms.assetid: 73042eb1-b2d6-4dcb-b40e-f8f3933dcdb0
 title: Media Access
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: This operator tests for equality between CMediaType objects.
+description: This operator tests for equality between CMediaType objects.
 ms.assetid: d50f3a72-c5e8-44a5-aa0e-b1c40a19fee3
 title: CMediaType.CMediaType::operator== method (Mtype.h)
 ms.topic: reference

@@ -99,9 +99,8 @@ These semantics have meaning when attached to a vertex-shader parameter. These s
 | POSITION\[n\] | Position of a vertex in homogenous space. Compute position in screen-space by dividing (x,y,z) by w. Every vertex shader must write out a parameter with this semantic. | float4 |
 | PSIZE | Point size | float |
 | TESSFACTOR\[n\] | Tessellation factor | float |
-| TEXCOORD\[n\] | Texture coordinates | float4 |
 
-`n` is an optional integer between 0 and the number of resources supported. For example, POSITION0, TEXCOOR1, etc.
+`n` is an optional integer between 0 and the number of resources supported. For example, POSITION0, TEXCOORD1, etc.
 
 ### Pixel Shader Semantics
 

@@ -1,5 +1,5 @@
 ---
-Description: The SetMediaType method sets the media type for the sample. This method implements the IMediaSample::SetMediaType method.
+description: The SetMediaType method sets the media type for the sample. This method implements the IMediaSample::SetMediaType method.
 ms.assetid: 4423cc1e-d6e1-49e7-9cc1-1a1d71a3497b
 title: CMediaSample.SetMediaType method (Amfilter.h)
 ms.topic: reference

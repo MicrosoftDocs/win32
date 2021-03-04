@@ -1,5 +1,5 @@
 ---
-Description: The FormatType method retrieves the format type.
+description: The FormatType method retrieves the format type.
 ms.assetid: 7a4c38be-0f6e-430c-aca4-012cf33f6e5b
 title: CMediaType.FormatType method (Mtype.h)
 ms.topic: reference

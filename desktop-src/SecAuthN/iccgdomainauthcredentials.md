@@ -32,7 +32,7 @@ The **ICcgDomainAuthCredentials** interface has these methods.
 
 | Method                                           | Description                                                                                               |
 |:-------------------------------------------------|:----------------------------------------------------------------------------------------------------------|
-| [**GetPasswordCredentials**](getpasswordcredentials.md)               | Returns credentials to authenticate a non-domain joined container with Active Directory.<br/>                                                              |
+| [**GetPasswordCredentials**](iccgdomainauthcredentials-getpasswordcredentials.md)               | Returns credentials to authenticate a non-domain joined container with Active Directory.<br/>                                                              |
 
 
 

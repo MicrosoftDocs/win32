@@ -1,5 +1,5 @@
 ---
-Description: When a call is in the connected state, data can be transported over the call. The call media type provides an indication of the type of data (for example, its datatype, or higher-level protocol) of this media stream.
+description: When a call is in the connected state, data can be transported over the call. The call media type provides an indication of the type of data (for example, its datatype, or higher-level protocol) of this media stream.
 ms.assetid: 3281387e-3f72-4fda-8199-b3ce6e45e910
 title: Media Monitoring
 ms.topic: article

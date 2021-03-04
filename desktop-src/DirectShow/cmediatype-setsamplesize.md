@@ -1,5 +1,5 @@
 ---
-Description: The SetSampleSize method specifies a fixed sample size, or specifies that samples have a variable size.
+description: The SetSampleSize method specifies a fixed sample size, or specifies that samples have a variable size.
 ms.assetid: b0f9dd7b-4ff9-4d11-9c13-b52d7b1549b5
 title: CMediaType.SetSampleSize method (Mtype.h)
 ms.topic: reference

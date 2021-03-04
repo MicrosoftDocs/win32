@@ -33,7 +33,7 @@ The following technologies and tools, formerly part of the DirectX SDK, are now 
 <td>The headers and libraries for <a href="/windows/desktop/direct3d">Direct3D</a> and other Windows graphics APIs, like <a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a>, are available in the Windows SDK. <br/>
 <blockquote>
 [!Note]<br />
-D3DX9/D3DX10/D3DX11 was only available in the legacy DirectX SDK. The D3DCSX DirectCompute utility library and redistributable DLL is available in the Windows SDK. D3DX12 is available on <a href="https://github.com/microsoft/DirectX-Headers">GitHub</a>.
+The deprecated D3DX9/D3DX10/D3DX11 utility libraries are available via <a href="https://www.nuget.org/packages/Microsoft.DXSDK.D3DX">NuGet</a>, but there are also a number of <a href="https://walbourn.github.io/living-without-d3dx/">open source alternatives</a>. The D3DCSX DirectCompute utility library and redistributable DLL is available in the Windows SDK. D3DX12 is available on <a href="https://github.com/microsoft/DirectX-Headers">GitHub</a>.
 </blockquote>
 <br/></td>
 </tr>
@@ -209,8 +209,4 @@ These steps also apply to your own projects that are dependent on the DirectX SD
 </dt> <dt>
 
 [Living without D3DX](https://walbourn.github.io/living-without-d3dx/)
-</dt> </dl>
-
- 
-
- 
+</dt> </dl> 

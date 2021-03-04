@@ -1,5 +1,5 @@
 ---
-Description: Multimedia Streaming Object and Interface Hierarchy
+description: Multimedia Streaming Object and Interface Hierarchy
 ms.assetid: dbb6dc3b-b55e-4f6c-918f-068308e2dba9
 title: Multimedia Streaming Object and Interface Hierarchy
 ms.topic: article

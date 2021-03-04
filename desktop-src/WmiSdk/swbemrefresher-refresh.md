@@ -1,5 +1,5 @@
 ---
-Description: The SWbemRefresher.Refresh method updates all the items that are contained in the SWbemRefresher object.SWbemRefresher object.
+description: The SWbemRefresher.Refresh method updates all the items that are contained in the SWbemRefresher object.SWbemRefresher object.
 ms.assetid: 85a4777a-4be7-44f2-b7a6-e18b5e57f7af
 ms.tgt_platform: multiple
 title: SWbemRefresher.Refresh method (Wbemdisp.h)

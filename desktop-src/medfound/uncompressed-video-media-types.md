@@ -1,5 +1,5 @@
 ---
-Description: Uncompressed Video Media Types
+description: Uncompressed Video Media Types
 ms.assetid: 50bf2947-27ee-4092-9d3a-a1c13ee80e95
 title: Uncompressed Video Media Types
 ms.topic: article

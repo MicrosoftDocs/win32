@@ -27,7 +27,7 @@ TemplateType GatherCmp(
   in  SamplerState S,
   in  float        Location,
   in  float        CompareValue,
-  in  int          Offset,
+  in  int2         Offset,
   out uint         Status
 );
 ```
@@ -68,9 +68,9 @@ A value to compare each against each sampled value.
 *Offset* \[in\]
 </dt> <dd>
 
-Type: **int**
+Type: **int2**
 
-The offset applied to the texture coordinates before sampling.
+The offset in texels applied to the texture coordinates before sampling. Must be a literal value.
 
 </dd> <dt>
 

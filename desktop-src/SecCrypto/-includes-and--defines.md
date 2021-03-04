@@ -1,5 +1,5 @@
 ---
-Description: All of the examples in the Cryptography SDK documentation are assumed to have the following \#include and \#define compiler directives.
+description: All of the examples in the Cryptography SDK documentation are assumed to have the following \#include and \#define compiler directives.
 ms.assetid: 98f85e7d-e557-4dde-b510-891b37daec87
 title: '#includes and #defines'
 ms.topic: article

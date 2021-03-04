@@ -1,5 +1,5 @@
 ---
-Description: The GetMediaTimes method retrieves the media start and stop times.
+description: The GetMediaTimes method retrieves the media start and stop times.
 ms.assetid: c6a7d992-ceb5-4378-aee2-f2d778b41516
 title: IAMTimelineSrc::GetMediaTimes method (Qedit.h)
 ms.topic: reference

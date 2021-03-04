@@ -1,5 +1,5 @@
 ---
-Description: MPEG-2 Media Types
+description: MPEG-2 Media Types
 ms.assetid: 20fb2dc3-76b5-421a-b8e1-d99fad2ce2dd
 title: MPEG-2 Media Types
 ms.topic: article

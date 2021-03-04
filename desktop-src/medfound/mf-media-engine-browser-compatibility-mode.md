@@ -1,5 +1,5 @@
 ---
-Description: Specifies the browser compatibility mode.
+description: Specifies the browser compatibility mode.
 ms.assetid: 9F850CDE-D862-4E72-8B55-5FAFDA43E399
 title: MF_MEDIA_ENGINE_BROWSER_COMPATIBILITY_MODE attribute
 ms.topic: reference
