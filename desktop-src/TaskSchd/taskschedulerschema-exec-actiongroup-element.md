@@ -55,7 +55,7 @@ The **Exec** element is defined by the [**actionGroup**](taskschedulerschema-act
 
 | Name | Type       | Description                                                    |
 |------|------------|----------------------------------------------------------------|
-| Id   | **string** | The identifier of the action performed by the task.<br/> |
+| id   | **string** | The identifier of the action performed by the task.<br/> |
 
 
 
