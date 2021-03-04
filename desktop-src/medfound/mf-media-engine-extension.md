@@ -1,5 +1,5 @@
 ---
-Description: Contains a pointer to the IMFMediaEngineExtension interface.
+description: Contains a pointer to the IMFMediaEngineExtension interface.
 ms.assetid: D2F3F41D-086A-4DEB-99D0-07574BC8F0D7
 title: MF_MEDIA_ENGINE_EXTENSION attribute (Mfmediaengine.h)
 ms.topic: reference

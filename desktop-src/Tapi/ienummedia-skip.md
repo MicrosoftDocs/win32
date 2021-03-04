@@ -1,5 +1,5 @@
 ---
-Description: The Skip method skips over the next specified number of elements in the enumeration sequence.
+description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 ms.assetid: 825972c9-5303-4c5a-9475-dc67c185af91
 title: IEnumMedia::Skip method (Sdpblb.h)
 ms.topic: reference

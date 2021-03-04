@@ -1,5 +1,5 @@
 ---
-Description: TAPI 3.x methods use the following enumerations to set and report on events and states.
+description: TAPI 3.x methods use the following enumerations to set and report on events and states.
 ms.assetid: 9ef4b21e-4eaf-4918-8044-3c26938a5ba5
 title: Call and Media Controls Enumerations
 ms.topic: article

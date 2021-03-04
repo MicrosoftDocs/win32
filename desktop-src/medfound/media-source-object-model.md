@@ -1,5 +1,5 @@
 ---
-Description: Media Source Object Model
+description: Media Source Object Model
 ms.assetid: 88373028-8a34-4bf1-8300-d1a7e4c7dd75
 title: Media Source Object Model
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The SetMediaType method sets the uncompressed media type for the group.
+description: The SetMediaType method sets the uncompressed media type for the group.
 ms.assetid: 51778563-f119-42e0-826b-966324a85024
 title: IAMTimelineGroup::SetMediaType method (Qedit.h)
 ms.topic: reference

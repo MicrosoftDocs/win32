@@ -1,5 +1,5 @@
 ---
-Description: The GetMediaTypeVersion method retrieves a version number for the set of preferred media types.
+description: The GetMediaTypeVersion method retrieves a version number for the set of preferred media types.
 ms.assetid: bd7b8070-eac5-458c-ada0-7fb0d789dd54
 title: CBasePin.GetMediaTypeVersion method (Amfilter.h)
 ms.topic: reference

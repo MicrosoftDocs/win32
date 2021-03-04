@@ -1,5 +1,5 @@
 ---
-Description: TAPI functions, methods, and structures may use the following constants.
+description: TAPI functions, methods, and structures may use the following constants.
 ms.assetid: 8eebf02c-fa45-460f-a0ef-4b9c16a5da4b
 title: Call and Media Controls Constants
 ms.topic: article

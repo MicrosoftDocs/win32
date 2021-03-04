@@ -1,5 +1,5 @@
 ---
-Description: The FindMediaFile method searches for a file and, if successful, retrieves the path to the file.
+description: The FindMediaFile method searches for a file and, if successful, retrieves the path to the file.
 ms.assetid: ddfa2c75-e51f-4aad-afe6-8a60c46e8d35
 title: IMediaLocator::FindMediaFile method (Qedit.h)
 ms.topic: reference

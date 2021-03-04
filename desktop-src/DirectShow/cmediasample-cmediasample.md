@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: Constructor method.
 ms.assetid: 3ee67cfd-a968-4b7c-9c7b-1c28ddb9c343
 title: CMediaSample.CMediaSample constructor (Amfilter.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Pointer to the current media sample.
+description: Pointer to the current media sample.
 ms.assetid: 08f7b19b-e8e9-4462-805e-b242da9da742
 title: CBaseRenderer::m_pMediaSample member (Renbase.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_FRUIncludesProduct class indicates that a field replaceable unit (FRU) may be composed of other products.
+description: The CIM\_FRUIncludesProduct class indicates that a field replaceable unit (FRU) may be composed of other products.
 ms.assetid: e57dc7f5-4c5b-4ec4-9300-e080053955cb
 ms.tgt_platform: multiple
 title: CIM_FRUIncludesProduct class
