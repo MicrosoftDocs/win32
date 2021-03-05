@@ -44,7 +44,7 @@ The following procedure describes how to create a child namespace using MOF code
     The following code example shows how to set a security descriptor on the namespace.
 
     ``` syntax
-#pragma namespace("\\\\.\\root\\MyNamespace")
+    #pragma namespace("\\\\.\\root\\MyNamespace")
 
     [NamespaceSecuritySDDL ("O:AUG:AUD:(A;CI;0x00060033;;;WD)")]
     Instance of __Namespace

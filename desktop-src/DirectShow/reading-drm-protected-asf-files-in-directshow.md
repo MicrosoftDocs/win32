@@ -190,8 +190,6 @@ HRESULT Player::LoadMediaFile(PCWSTR pwszFile)
             hr = m_pFileSource->Load(pwszFile, NULL);
 ```
 
-
-
 <span codelanguage="ManagedCPlusPlus"></span>
 
 <table>
@@ -209,7 +207,6 @@ HRESULT Player::LoadMediaFile(PCWSTR pwszFile)
             {
                 goto done;
             }
-
             hr = RenderOutputPins(pGraph, m_pReader);
     }
     else
