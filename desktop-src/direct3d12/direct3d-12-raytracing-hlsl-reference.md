@@ -21,7 +21,7 @@ This section provides information on the HLSL constructs that support the Direct
 | [Direct3D 12 raytracing HLSL shaders](direct3d-12-raytracing-hlsl-shaders.md) | Describes the HLSL shaders that support the Direct3D 12 raytracing pipeline. |
 | [Direct3D 12 raytracing HLSL structures](direct3d-12-raytracing-hlsl-structures.md) | Describes the HLSL structures that support the Direct3D 12 raytracing pipeline. |
 
-Additionally, see the topic [State objects](/windows/win32/direct3dhlsl/dx-graphics-hlsl-state-object) for information about the syntax used for defining Direct3D 12 raytracing state objects in HLSL.
+Additionally, see the topic [State objects](../direct3dhlsl/dx-graphics-hlsl-state-object.md) for information about the syntax used for defining Direct3D 12 raytracing state objects in HLSL.
 
 ## Related topics
 

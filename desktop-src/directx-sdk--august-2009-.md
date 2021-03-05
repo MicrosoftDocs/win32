@@ -209,4 +209,4 @@ These steps also apply to your own projects that are dependent on the DirectX SD
 </dt> <dt>
 
 [Living without D3DX](https://walbourn.github.io/living-without-d3dx/)
-</dt> </dl>
+</dt> </dl> 

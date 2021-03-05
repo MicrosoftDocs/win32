@@ -49,7 +49,7 @@ List of subobject types:
 
 ## StateObjectConfig
 
-The StateObjectConfig subobject type corresponds to a [D3D12_STATE_OBJECT_CONFIG](https://docs.microsoft.com/windows/win32/api/d3d12/ns-d3d12-d3d12_state_object_config) structure.
+The StateObjectConfig subobject type corresponds to a [D3D12_STATE_OBJECT_CONFIG](/windows/win32/api/d3d12/ns-d3d12-d3d12_state_object_config) structure.
 
 It has one field, a bitwise flag, which is one or both of
 
@@ -68,9 +68,9 @@ StateObjectConfig MyStateObjectConfig =
 ```
 
 ## GlobalRootSignature
-A GlobalRootSignature corresponds to a [D3D12_GLOBAL_ROOT_SIGNATURE](https://docs.microsoft.com/windows/win32/api/d3d12/ns-d3d12-d3d12_global_root_signature) structure.
+A GlobalRootSignature corresponds to a [D3D12_GLOBAL_ROOT_SIGNATURE](/windows/win32/api/d3d12/ns-d3d12-d3d12_global_root_signature) structure.
 
-The fields consist of some number of strings describing the parts of the root signature. For reference on this, see [Specifying Root Signatures in HLSL](https://docs.microsoft.com/windows/win32/direct3d12/specifying-root-signatures-in-hlsl).
+The fields consist of some number of strings describing the parts of the root signature. For reference on this, see [Specifying Root Signatures in HLSL](../direct3d12/specifying-root-signatures-in-hlsl.md).
 
 Example:
 ```
@@ -84,9 +84,9 @@ GlobalRootSignature MyGlobalRootSignature =
 ```
 
 ## LocalRootSignature
-A LocalRootSignature corresponds to a [D3D12_LOCAL_ROOT_SIGNATURE](https://docs.microsoft.com/windows/win32/api/d3d12/ns-d3d12-d3d12_local_root_signature) structure.
+A LocalRootSignature corresponds to a [D3D12_LOCAL_ROOT_SIGNATURE](/windows/win32/api/d3d12/ns-d3d12-d3d12_local_root_signature) structure.
 
-Just like the global root signature subobject, the fields consist of some number of strings describing the parts of the root signature. For reference on this, see [Specifying Root Signatures in HLSL](https://docs.microsoft.com/windows/win32/direct3d12/specifying-root-signatures-in-hlsl).
+Just like the global root signature subobject, the fields consist of some number of strings describing the parts of the root signature. For reference on this, see [Specifying Root Signatures in HLSL](../direct3d12/specifying-root-signatures-in-hlsl.md).
 
 Example:
 ```
@@ -99,7 +99,7 @@ LocalRootSignature MyLocalRootSignature =
 ## SubobjectToExportsAssocation
 By default, a subobject merely declared in the same library as an export is able to apply to that export. However, applications have the ability to override that and get specific about what subobject goes with which export. In HLSL, this "explicit association" is done using SubobjectToExportsAssocation.
 
-A SubobjectToExportsAssocation corresponds to a [D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION ](https://docs.microsoft.com/windows/win32/api/d3d12/ns-d3d12-d3d12_dxil_subobject_to_exports_association) structure.
+A SubobjectToExportsAssocation corresponds to a [D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION ](/windows/win32/api/d3d12/ns-d3d12-d3d12_dxil_subobject_to_exports_association) structure.
 
 This subobject is declared with the syntax
 
@@ -131,7 +131,7 @@ Note that both fields use *exported* names. An exported name may be different fr
 
 ## RaytracingShaderConfig
 
-A RaytracingShaderConfig corresponds to a [D3D12_RAYTRACING_SHADER_CONFIG](https://docs.microsoft.com/windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_shader_config) structure.
+A RaytracingShaderConfig corresponds to a [D3D12_RAYTRACING_SHADER_CONFIG](/windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_shader_config) structure.
 
 This subobject is declared with the syntax
 
@@ -147,7 +147,7 @@ RaytracingShaderConfig Name =
 |----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | <span id="Name"></span><span id="name"></span><span id="NAME"></span>**Name**<br/>     | An ASCII string that uniquely identifies the variable name.<br/>                 |
 | <span id="MaxPayloadSize"></span><span id="maxpayloadsize"></span><span id="MAXPAYLOADSIZE"></span>**MaxPayloadSize**<br/>     | Numerical value for the maximum storage for scalars (counted as 4 bytes each) in ray payloads for associated raytracing shaders.<br/> |
-| <span id="MaxAttributeSize"></span><span id="maxattributesize"></span><span id="MAXATTRIBUTESIZE"></span>**MaxAttributeSize**<br/> | Numerical value for the maximum number of scalars (counted as 4 bytes each) that can be used for attributes in associated raytracing shaders. The value cannot exceed [D3D12_RAYTRACING_MAX_ATTRIBUTE_SIZE_IN_BYTES](https://docs.microsoft.com/windows/win32/direct3d12/constants).<br/> |
+| <span id="MaxAttributeSize"></span><span id="maxattributesize"></span><span id="MAXATTRIBUTESIZE"></span>**MaxAttributeSize**<br/> | Numerical value for the maximum number of scalars (counted as 4 bytes each) that can be used for attributes in associated raytracing shaders. The value cannot exceed [D3D12_RAYTRACING_MAX_ATTRIBUTE_SIZE_IN_BYTES](../direct3d12/constants.md).<br/> |
 
 
 Example:
@@ -161,7 +161,7 @@ RaytracingShaderConfig MyShaderConfig =
 
 ## RaytracingPipelineConfig
 
-A RaytracingPipelineConfig corresponds to a [D3D12_RAYTRACING_PIPELINE_CONFIG](https://docs.microsoft.com/windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_pipeline_config) structure.
+A RaytracingPipelineConfig corresponds to a [D3D12_RAYTRACING_PIPELINE_CONFIG](/windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_pipeline_config) structure.
 
 This subobject is declared with the syntax
 
@@ -187,11 +187,11 @@ RaytracingPipelineConfig MyPipelineConfig =
 ```
 Since there is a performance cost to raytracing recursion, applications should use the lowest recursion depth needed for the desired results.
 
-If shader invocations haven't yet reached the maximum recursion depth, they can call [TraceRay](https://docs.microsoft.com/windows/win32/direct3d12/traceray-function) any number of times. But if they reach or exceed the maximum recursion depth, calling TraceRay puts the device into removed state. Therefore, raytracing shaders should take care to stop calling TraceRay if they've met or exceeded the maximum recursion depth.
+If shader invocations haven't yet reached the maximum recursion depth, they can call [TraceRay](../direct3d12/traceray-function.md) any number of times. But if they reach or exceed the maximum recursion depth, calling TraceRay puts the device into removed state. Therefore, raytracing shaders should take care to stop calling TraceRay if they've met or exceeded the maximum recursion depth.
 
 ## TriangleHitGroup
 
-A TriangleHitGroup corresponds to a [D3D12_HIT_GROUP_DESC](https://docs.microsoft.com/windows/win32/api/d3d12/ns-d3d12-d3d12_hit_group_desc) structure whose Type field is set to [D3D12_HIT_GROUP_TYPE_TRIANGLES](https://docs.microsoft.com/windows/win32/api/d3d12/ne-d3d12-d3d12_hit_group_type#constants).
+A TriangleHitGroup corresponds to a [D3D12_HIT_GROUP_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_hit_group_desc) structure whose Type field is set to [D3D12_HIT_GROUP_TYPE_TRIANGLES](/windows/win32/api/d3d12/ne-d3d12-d3d12_hit_group_type#constants).
 
 This subobject is declared with the syntax
 
@@ -223,7 +223,7 @@ Note that both fields use *exported* names. An exported name may be different fr
 
 ## ProceduralPrimitiveHitGroup
 
-A ProceduralPrimitiveHitGroup corresponds to a [D3D12_HIT_GROUP_DESC](https://docs.microsoft.com/windows/win32/api/d3d12/ns-d3d12-d3d12_hit_group_desc) structure whose Type field is set to [D3D12_HIT_GROUP_TYPE_PROCEDURAL_PRIMITIVE](https://docs.microsoft.com/windows/win32/api/d3d12/ne-d3d12-d3d12_hit_group_type#constants).
+A ProceduralPrimitiveHitGroup corresponds to a [D3D12_HIT_GROUP_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_hit_group_desc) structure whose Type field is set to [D3D12_HIT_GROUP_TYPE_PROCEDURAL_PRIMITIVE](/windows/win32/api/d3d12/ne-d3d12-d3d12_hit_group_type#constants).
 
 This subobject is declared with the syntax
 
@@ -274,5 +274,3 @@ When specifying subobjects through shader code, the choice of "which subobject g
 [Sample: D3D12RaytracingLibrarySubobjects](https://github.com/Microsoft/DirectX-Graphics-Samples/tree/develop/Samples/Desktop/D3D12Raytracing/src/D3D12RaytracingLibrarySubobjects)
 
 </dt> </dl>
-
-

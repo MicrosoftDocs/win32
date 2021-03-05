@@ -56,7 +56,7 @@ interface MyInterface : IUnknown
 [**system_handle**](system-handle.md)
 </dt> <dt>
 
-[Mutex Objects](/windows/win32/sync/mutex-objects)
+[Mutex Objects](../sync/mutex-objects.md)
 </dt> <dt>
 
 [Synchronization Object Security and Access Rights](../sync/synchronization-object-security-and-access-rights.md)
