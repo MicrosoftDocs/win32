@@ -24,10 +24,8 @@ The following advertisement capabilities are available on Windows Server 2008 
 
 > [!Note]
 > AppId and Typelib information is only written when an advertised component is installed.
->
+> 
 > To support file name extensions, the application must be published to Active Directory by an administrator using Group Policy.
-
- 
 
 ## Remarks
 

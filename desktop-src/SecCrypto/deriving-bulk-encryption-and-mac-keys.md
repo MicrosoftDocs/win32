@@ -18,7 +18,7 @@ The process of deriving bulk encryption and MAC keys is the same for both client
 
 > [!Note]
 > When performing SSL reconnects, a protocol engine can perform the above procedure several times using the same master key. This enables the client and server to have multiple, often simultaneous connections, each using different [*Bulk encryption*](../secgloss/b-gly.md) and MAC keys without additional RSA or Diffie-Hellman operations.
->
+> 
 > All CSPs must use good thread-safe practices. Thread counts of several dozen are not unusual.
 
  

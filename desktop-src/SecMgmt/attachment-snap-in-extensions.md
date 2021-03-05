@@ -22,7 +22,7 @@ When you create an attachment snap-in extension, you must install it and registe
 
 > [!Note]
 > An attachment snap-in extension can only extend Services nodes. The Services node is the MMC snap-in that contains tools to administer services installed on the system. The attachment snap-in extension declares itself as being a subordinate to a specific Services node type, and then for each occurrence of that Services node type, the MMC console automatically adds the related snap-in extensions.
->
+> 
 > Each attachment snap-in extension owns one scope pane node and the related result pane in MMC.
 
  

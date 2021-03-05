@@ -23,10 +23,8 @@ Beginning with Windows Installer 3.0, you can apply a patch to a per-user manage
 
 > [!Note]
 > A patch can be registered as having elevated privileges before the application is installed. When a patch has been registered, it remains registered until the last registered application for this patch is removed.
->
+> 
 > Patches that have been applied to a per-user managed application cannot be removed without removing the entire application. The patch registrations for a per-user managed application are removed on the removal of the application.
-
- 
 
 You can also use this method to enable a non-administrator to patch a per-machine application, or you can use least-privilege patching described in [User Account Control (UAC) Patching](user-account-control--uac--patching.md).
 
