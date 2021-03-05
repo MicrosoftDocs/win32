@@ -17,7 +17,7 @@ Notes: The default namespace does not apply to XML Attributes. They must be expl
                   xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" 
                   xmlns:xsd="https://www.w3.org/2001/XMLSchema" version="1" 
                   xmlns:ns0000="http://schemas.microsoft.com/windows/printing/oemdriverpt/ES_LNseries_PowerPrinter" 
-                  xmlns:psk="http://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords">
+                  xmlns:psk="https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords">
     <psf:ParameterDef name="ns0000:PageDevmodeSnapshot">
         <psf:Property name="psf:DataType">
             <psf:Value xsi:type="xsd:QName">xsd:string</psf:Value>
