@@ -1,7 +1,7 @@
 ---
 description: Occurs before the IInkAnalyzer performs analysis within the region of a partially populated IContextNode object.
 ms.assetid: c24e8adb-672f-444a-bccb-1e9e55bea432
-title: '_IAnalysisProxyEvents::PopulateContextNode event' (IACom.h)
+title: '_IAnalysisProxyEvents::PopulateContextNode event (IACom.h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -12,15 +12,15 @@ ms.date: 05/31/2018
 
 > [!Note]
 > You can also modify the list of cipher suites by configuring the **SSL Cipher Suite Order** group policy settings using the Group Policy Object snap-in in Microsoft Management Console.
->
+> 
 > **To configure the **SSL Cipher Suite Order** group policy setting**
->
+> 
 > 1.  At a command prompt, enter **gpedit.msc**. The **Group Policy Object Editor** appears.
 > 2.  Expand **Computer Configuration**, **Administrative Templates**, **Network**, and then click **SSL Configuration Settings**.
 > 3.  Under **SSL Configuration Settings**, click the **SSL Cipher Suite Order** setting.
 > 4.  In the **SSL Cipher Suite Order** pane, scroll to the bottom of the pane.
 > 5.  Follow the instructions labeled **How to modify this setting**.
->
+> 
 > It is necessary to restart the computer after modifying this setting for the changes to take effect.
 
  

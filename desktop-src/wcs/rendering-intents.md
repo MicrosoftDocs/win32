@@ -37,6 +37,7 @@ The International Color Consortium (ICC) has defined four different values calle
 
 
 
+
  
 
 The ICC Profile Format Specification Version 3.4, which describes these intents, can be downloaded from color.org.

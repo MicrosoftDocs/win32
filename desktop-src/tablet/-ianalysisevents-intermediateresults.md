@@ -1,7 +1,7 @@
 ---
 description: Occurs when the current intermediate analysis stage is finished.
 ms.assetid: 9ade61f4-bcfe-4c49-bda1-b60aaf780935
-title: "'_IAnalysisEvents::IntermediateResults event' (IACom.h)"
+title: '_IAnalysisEvents::IntermediateResults event (IACom.h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

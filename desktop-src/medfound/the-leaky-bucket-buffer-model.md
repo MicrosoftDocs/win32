@@ -14,7 +14,7 @@ The "leaky bucket" model is a way to model the buffering requirements for smooth
 
 This topic describes the "leaky bucket" model of buffers for encoding and decoding.
 
--   [The Leaky Bucket](#the-leaky-bucket-buffer-model)
+-   [The Leaky Bucket](#the-leaky-bucket)
 -   [The Bucket in Use](#the-bucket-in-use)
 -   [Setting Leaky Bucket Values for ASF Streams](#setting-leaky-bucket-values-for-asf-streams)
 -   [Leaky Bucket Values in the ASF Multiplexer](#leaky-bucket-values-in-the-asf-multiplexer)

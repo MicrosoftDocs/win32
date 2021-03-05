@@ -81,10 +81,8 @@ The input resources (t\#), samplers (s\#), constant buffers (cb\#) and immediate
 
 > [!Note]
 > The hull shader fork phase’s input control point register (vicp) declarations must be any subset, along the \[element\] axis, of the hull shader control point input (pre-control point phase). Similarly the declarations for inputting the output control points (vocp) must be any subset, along the \[element\] axis, of the hull shader output control points (post-control point phase).
->
+> 
 > Along the \[vertex\] axis, the number of control points to be read for each of the vicp and vocp must similarly be a subset of the hull shader input control point count and hull shader output control point count, respectively. For example, if the vertex axis of the vocp registers are declared with n vertices, that makes the control point phase’s output control points \[0..n-1\] available as read only input to the fork phase.
-
- 
 
 ### Output Registers
 
@@ -100,8 +98,6 @@ The input resources (t\#), samplers (s\#), constant buffers (cb\#) and immediate
 
 > [!Note]  
 > The hull shader fork and join phase outputs are a shared set of 4 4-vector registers. The outputs of each fork or join phase program cannot overlap with each other. System-interpreted values such as TessFactors come out of this space.
-
- 
 
 ## Join Phase
 
@@ -151,8 +147,6 @@ Along the \[vertex\] axis, the number of control points to be read for each of t
 
 > [!Note]  
 > The hull shader fork and join phase outputs are a shared set of 4 4-vector registers. The outputs of each fork or join phase program cannot overlap with each other. System-interpreted values such as TessFactors come out of this space.
-
- 
 
 ## Related topics
 

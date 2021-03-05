@@ -16,7 +16,7 @@ ParameterDef elements can appear only in their allowed context. For the initial 
 
 > [!Note]
 > to Print Capabilities Document Providers:
->
+> 
 > The meaning of a parameter name is universal; that is, if a ParameterDef element in one PrintCapabilities document has the same name attribute (the string formed from the namespace and the descriptive name of the ParameterDef element) as a ParameterDef element in another PrintCapabilities document, it is assumed that both of these elements represent the same concept and should be interpreted in the same manner. Thus a ParameterDef element defined in a PrintTicket for one PrintCapabilities document can be used to initialize the ParameterInit element of the same name defined in a different PrintCapabilities document.
 
  

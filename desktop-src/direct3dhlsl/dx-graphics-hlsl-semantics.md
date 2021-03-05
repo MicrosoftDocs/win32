@@ -253,7 +253,7 @@ A few of the Direct3D 10 and later semantics map directly to Direct3D 9 semantic
 
 The D3D10 semantic SV\_Position provides similar functionality to the Direct3D 9 shader model 3 VPOS semantic. For instance, in Direct3D 9 the following syntax is used for a pixel shader using screen space coordinates:
 
-```hlsl
+```HLSL
 float4 psMainD3D9( float4 screenSpace : VPOS ) : COLOR
 {
     // code here 
@@ -264,8 +264,7 @@ VPOS was added for shader model 3 support, to specify screen space coordinates, 
 
 In Direct3D 10 and later, the SV\_Position semantic (when used in the context of a pixel shader) specifies screen space coordinates (offset by 0.5). Therefore, the Direct3D 9 shader would be roughly equivalent (without accounting for the 0.5 offset) to the following:
 
-
-```hlsl
+```HLSL
 float4 psMainD3D10( float4 screenSpace : SV_Position ) : COLOR
 {
     // code here

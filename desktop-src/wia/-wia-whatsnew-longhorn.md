@@ -80,7 +80,7 @@ Many new Windows Image Acquisition (WIA) API are included in Windows Image Acqu
 
  
 
-## Feedback
+## Leave feedback
 
 E-mail **sdkfdbk@microsoft.com** to make error reports and feature requests directly to Microsoft.
 

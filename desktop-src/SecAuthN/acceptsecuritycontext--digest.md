@@ -1,7 +1,7 @@
 ---
 description: 'Enables the server component of a transport application to establish a security context between the server and a remote client that is using Digest.'
 ms.assetid: '017683e3-b21a-4e97-9232-582ac7dbd5b2'
-title: 'AcceptSecurityContext (Digest) function' (Sspi.h)
+title: 'AcceptSecurityContext (Digest) function (Sspi.h)'
 ms.topic: article
 ms.date: 07/25/2019
 ---
