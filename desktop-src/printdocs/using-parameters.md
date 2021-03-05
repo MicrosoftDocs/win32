@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using Parameters
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 In addition to properly scoring an Option that contains ParameterRef instances (see [Referencing Parameters](referencing-parameters.md)), PrintCapabilities or PrintTicket providers and clients must be prepared to handle the following situations involving parameters.
 
@@ -22,7 +22,7 @@ If there is any dependency of the PrintCapabilities on the parameters specified 
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

@@ -187,7 +187,7 @@ The [Graphics, multimedia,](/previous-versions//aa969176(v=vs.85)) [audio, and 
 -   [Printing](/windows-hardware/drivers/print/introduction-to-printing)
     -   [Print Spooler](../printdocs/printing-and-print-spooler-reference.md)
     -   [Print Document Package](../printdocs/tailored-app-printing-api.md)
-    -   [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+    -   [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
     -   [Print Ticket](../printdocs/print-ticket-api.md)
     -   [XPS Print](../printdocs/xpsprint-api.md)
 -   [Sensors](../sensorsapi/sensor-api-programming-reference.md)

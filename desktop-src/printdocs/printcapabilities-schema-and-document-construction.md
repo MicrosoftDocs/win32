@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PrintCapabilities Schema and Document Construction
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 The current Win32 DevCaps functions (such as GetDeviceCaps or DeviceCapabilities, both described in the Microsoft Platform Software Development Kit (SDK) documentation) severely limit the type of information non-driver components can obtain, with regard to the capabilities and properties of printing devices. There is no support for publishing the capabilities of print processors, nor is there a method to enumerate nonstandard features. Thus there is no way for a component other than a driver to construct a complete user interface. Furthermore, the client or application cannot completely determine the capabilities of devices or print queues beyond those provided by the Win32 DevCaps functions. The current functions are not extensible, so devices cannot publish new properties or features.
 
@@ -32,7 +32,7 @@ The PrintCapabilities and PrintTicket Schemas are both specialized parts of the 
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

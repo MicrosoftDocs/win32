@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PageWatermark
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 Describes the watermark setting of the output and the watermark characteristics. Watermarks apply to the logical page, not the physical page. For example, if DocumentDuplex is enabled, a watermark will appear on each NUp page on each sheet. If DocumentDuplex, PagesPerSheet=2, then each sheet will have 2 watermarks.
 
@@ -148,7 +148,7 @@ The public Print Schema keywords are defined in the http://schemas.microsoft.com
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  
