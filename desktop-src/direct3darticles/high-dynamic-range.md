@@ -464,7 +464,7 @@ D2D1_VECTOR_4F simpleReinhardTonemapper(
 
 ## Capturing HDR and WCG content
 
-New APIs that support specifying pixel formats, such as [Windows.Graphics.Capture](/uwp/api/windows.graphics.capture) and [IDXGIOutput5::DuplicateOutput1](/windows/win32/api/dxgi1_5/nf-dxgi1_5-idxgioutput5-duplicateoutput1) provide the capability to capture HDR and WCG content without losing pixel information. Note that after acquiring content frames, additional processing is required. For example, HDR-to-SDR tone mapping (e.g. SDR screenshot copy for Internet sharing) and content saving with proper format (e.g. JPEG XR).
+APIs that support specifying pixel formats, such as those in the [**Windows.Graphics.Capture**](/uwp/api/windows.graphics.capture) namespace, and the [**IDXGIOutput5::DuplicateOutput1**](/windows/win32/api/dxgi1_5/nf-dxgi1_5-idxgioutput5-duplicateoutput1) method, provide the capability to capture HDR and WCG content without losing pixel information. Note that after acquiring content frames, additional processing is required. For example, HDR-to-SDR tone mapping (for example, SDR screenshot copy for Internet sharing) and content saving with proper format (for example, JPEG XR).
 
 ## Additional resources
 
