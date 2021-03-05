@@ -18,7 +18,7 @@ ms.date: 07/03/2019
 
 # IDODownload::Start method
 
-Starts or resumes a download, passing optional ranges as a pointer to [**DO_DOWNLOAD_RANGES_INFO**](ns-do-do_download_range_info) structure.
+Starts or resumes a download, passing optional ranges as a pointer to [**DO_DOWNLOAD_RANGES_INFO**](ns-do-do_download_range_info.md) structure.
 
 ## Syntax
 
@@ -32,7 +32,7 @@ HRESULT Start(
 
 `ranges`
 
-Optional. A pointer to a [**DO_DOWNLOAD_RANGES_INFO**](ns-do-do_download_range_info) structure (to download only specific ranges of the file). Pass `nullptr` to download the entire file.
+Optional. A pointer to a [**DO_DOWNLOAD_RANGES_INFO**](ns-do-do_download_range_info.md) structure (to download only specific ranges of the file). Pass `nullptr` to download the entire file.
 
 ## Return Value
 

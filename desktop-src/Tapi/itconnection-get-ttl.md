@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[ Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API provides similar functionality.\]
 
-The **get\_Ttl** method gets the [*time to live*](../tapi2/t_tapgloss.md) (TTL) scope for transmissions on the addresses.
+The **get\_Ttl** method gets the [*time to live*](t-tapgloss.md) (TTL) scope for transmissions on the addresses.
 
 ## Syntax
 

@@ -53,9 +53,9 @@ The following features are not supported in Windows Installer 4.0 and earlier v
 
 Callback Function Prototypes
 
--   [*EmbeddedUIHandler*](embeddeduihandler.md)
--   [*InitializeEmbeddedUI*](initializeembeddedui.md)
--   [*ShutdownEmbeddedUI*](shutdownembeddedui.md)
+-   *EmbeddedUIHandler*
+-   *InitializeEmbeddedUI*
+-   *ShutdownEmbeddedUI*
 
 [Internal Consistency Evaluators - ICEs](internal-consistency-evaluators-ices.md)
 
