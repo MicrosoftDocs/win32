@@ -59,7 +59,7 @@ This method does not return a value.
 
 <dl> <dt>
 
-[**IFeedbackHubAppInfo**](winprog.ifeedbackhubappinfo.md)
+[**IFeedbackHubAppInfo**](ifeebackhubappinfo.md)
 </dt> </dl>
 
  

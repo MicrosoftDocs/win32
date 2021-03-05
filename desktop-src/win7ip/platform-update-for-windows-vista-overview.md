@@ -217,9 +217,9 @@ If the WDDM 1.1 driver is missing on Windows Vista, the performance of Direct2D
 
 The Platform Update for Windows Vista provides BGRA surface support for Direct3D10 and Direct3D10.1 code-paths. Direct3D10Level9 enables Direct3D10 functionality to work on Direct3D9 hardware. Direct3D WARP10 is a performant software rasterizer for Direct3D10 applications. Direct3D11, the latest version of Direct3D, provides new capabilities such as improved multithreading support, tessellation, DirectCompute functionality, and dynamic shader linkage.
 
-If you create applications that use Direct3D, the [DirectX SDK](/previous-versions/windows/apps/hh452744(v=win.10)) (http://msdn.microsoft.com/directx/aa937788.aspx) is required.
+If you create applications that use Direct3D, the [DirectX SDK](/previous-versions/windows/apps/hh452744(v=win.10)) (https://msdn.microsoft.com/directx/aa937788.aspx) is required.
 
-For more information about Direct3D, see [Direct3D](/previous-versions/windows/apps/hh452744(v=win.10)) (http://msdn.microsoft.com/directx/default.aspx).
+For more information about Direct3D, see [Direct3D](/previous-versions/windows/apps/hh452744(v=win.10)) (https://msdn.microsoft.com/directx/default.aspx).
 
 ### Supported Direct3D API Elements
 
@@ -422,7 +422,7 @@ The following table identifies the features that are supported for the Windows 
 
  
 
-For editions of Windows 7 and Windows Vista that do not have Microsoft Windows Media Player installed by default (the N and KN editions), you must install the [Windows Media Format 11 SDK]( ../audio-and-video.md) (http://msdn.microsoft.com/windows/bb190326.aspx) to enable WPD functionality. For more information, see the [Knowledge Base article](https://support.microsoft.com/kb/953693) (https://go.microsoft.com/fwlink/p/?linkid=158715), which was originally published as a resolution for Windows Vista.
+For editions of Windows 7 and Windows Vista that do not have Microsoft Windows Media Player installed by default (the N and KN editions), you must install the [Windows Media Format 11 SDK]( ../audio-and-video.md) (https://msdn.microsoft.com/windows/bb190326.aspx) to enable WPD functionality. For more information, see the [Knowledge Base article](https://support.microsoft.com/kb/953693) (https://go.microsoft.com/fwlink/p/?linkid=158715), which was originally published as a resolution for Windows Vista.
 
 ## Related topics
 

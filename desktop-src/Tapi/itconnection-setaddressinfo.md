@@ -46,7 +46,7 @@ Number of addresses to be used for the session.
 *Ttl* \[in\]
 </dt> <dd>
 
-[*time to live*](../tapi2/t_tapgloss.md) (TTL) scope for transmissions on the addresses.
+[*time to live*](t-tapgloss.md) (TTL) scope for transmissions on the addresses.
 
 </dd> </dl>
 

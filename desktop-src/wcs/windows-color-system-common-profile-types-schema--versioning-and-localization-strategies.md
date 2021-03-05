@@ -179,10 +179,10 @@ The following are versioning guidelines for profile consumers:
 
 In the v1.0 release, WCS recognizes elements and attributes from the following namespaces:
 
--   http://schemas.microsoft.com/windows/2005/02/color/ColorDeviceModel
--   http://schemas.microsoft.com/windows/2005/02/color/GamutMapModel
--   http://schemas.microsoft.com/windows/2005/02/color/ColorAppearanceModel
--   http://schemas.microsoft.com/winfx/2005/06/markup-compatibility
+-   https://schemas.microsoft.com/windows/2005/02/color/ColorDeviceModel
+-   https://schemas.microsoft.com/windows/2005/02/color/GamutMapModel
+-   https://schemas.microsoft.com/windows/2005/02/color/ColorAppearanceModel
+-   https://schemas.microsoft.com/winfx/2005/06/markup-compatibility
 
 The following demonstrates an example of markup compatibility.
 

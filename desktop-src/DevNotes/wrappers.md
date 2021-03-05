@@ -26,7 +26,6 @@ ms.date: 05/31/2018
 -   [**\_LoadCursor**](-loadcursor.md)
 -   [**\_LoadLibrary**](-loadlibrary.md)
 -   [**\_LoadString**](-loadstring.md)
--   [**\_MAKEINTRESOURCE**](-makeintresource.md)
 -   [**\_MessageBox**](-messagebox.md)
 -   [**\_MoveFile**](-movefile.md)
 -   [**\_PeekMessage**](-peekmessage.md)
