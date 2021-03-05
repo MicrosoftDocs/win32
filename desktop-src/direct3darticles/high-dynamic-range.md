@@ -16,7 +16,7 @@ Windows 10 supports HDR and other advanced color displays, which provide signifi
 
 Windows advanced color refers to several related technologies, first introduced with Windows 10 version 1703, that provide support for displays that exceed the color capabilities of traditional standard dynamic range (SDR) displays. The three major extended capabilities are described below. The most common type of advanced color display, HDR10, supports all three extended capabilities.
 
-### high dynamic range
+### High dynamic range
 
 Dynamic range refers to the difference between the maximum and minimum luminance in a scene; this is often measured in nits (candelas per square centimeter). Real world scenes, such as this sunset, often have dynamic ranges of 10 orders of magnitude of luminance; the human eye can discern an even greater range after adaptation.
 
@@ -461,6 +461,10 @@ D2D1_VECTOR_4F simpleReinhardTonemapper(
     return output;
 }
 ```
+
+## Capturing HDR and WCG content
+
+New APIs that support specifying pixel formats, such as [Windows.Graphics.Capture](/uwp/api/windows.graphics.capture) and [IDXGIOutput5::DuplicateOutput1](/windows/win32/api/dxgi1_5/nf-dxgi1_5-idxgioutput5-duplicateoutput1) provide the capability to capture HDR and WCG content without losing pixel information. Note that after acquiring content frames, additional processing is required. For example, HDR-to-SDR tone mapping (e.g. SDR screenshot copy for Internet sharing) and content saving with proper format (e.g. JPEG XR).
 
 ## Additional resources
 
