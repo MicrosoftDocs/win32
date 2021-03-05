@@ -1,5 +1,5 @@
-| Requirement | Value |
-Description: The CTRPP tool is a pre-processor that parses and validates your counters manifest.
+---
+description: The CTRPP tool is a pre-processor that parses and validates your counters manifest.
 ms.assetid: 3939f6a1-0a94-429d-a71e-b37f045fea13
 title: CTRPP
 ms.topic: reference

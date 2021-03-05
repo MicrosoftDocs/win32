@@ -1,7 +1,7 @@
 ---
-description: 'Provides access to a collection of security information representing a caller's identity. Using this class, you can find out about a particular caller in a chain of callers that is part of the security call context.'
+description: "Provides access to a collection of security information representing a caller's identity. Using this class, you can find out about a particular caller in a chain of callers that is part of the security call context."
 ms.assetid: 'c6b28695-1b08-490a-8d56-eb55d82f3e7a'
-title: SecurityIdentity class (ComSvcs.h)
+title: 'SecurityIdentity class (ComSvcs.h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
