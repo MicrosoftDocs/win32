@@ -44,6 +44,7 @@ The deprecated D3DX9/D3DX10/D3DX11 utility libraries are available via <a href="
 [!Note]<br />
 The D3DCompiler API and redistributable DLL is available in the Windows SDK.
 </blockquote>
+<br/><br/>For DirectX 12 development, use the DXCompiler in the Windows SDK and hosted on [GitHub](https://github.com/Microsoft/DirectXShaderCompiler).
 <br/></td>
 </tr>
 <tr class="odd">
@@ -82,7 +83,7 @@ Legacy XInput 9.1.0 is also available as part of Windows 7 or later.
 </tr>
 <tr class="even">
 <td><span id="Samples"></span><span id="samples"></span><span id="SAMPLES"></span>Samples<br/></td>
-<td>You can find sample applications that highlight DirectX technologies on Windows in the <a href="https://github.com/Microsoft/DirectX-Graphics-Samples">DirectX samples</a> repo, and in the <a href="https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample">Code Gallery archive</a>. Most samples for older versions of Direct3D are available only for download in previous versions of the DirectX SDK, although a number of them are online as well. For more info about these samples, see <a href="https://walbourn.github.io/directx-sdk-samples-catalog/">DirectX SDK Samples Catalog</a>.<br/></td>
+<td>You can find sample applications that highlight DirectX 12 technologies on Windows in the <a href="https://github.com/Microsoft/DirectX-Graphics-Samples">DirectX samples</a> repo. Most samples for older versions of Direct3D are also available online. For more info about these samples, see <a href="https://walbourn.github.io/directx-sdk-samples-catalog/">DirectX SDK Samples Catalog</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="Managed_DirectX_1.1"></span><span id="managed_directx_1.1"></span><span id="MANAGED_DIRECTX_1.1"></span>Managed DirectX 1.1<br/></td>
@@ -95,7 +96,7 @@ Legacy XInput 9.1.0 is also available as part of Windows 7 or later.
 
  
 
-The legacy DirectX SDK is no longer available for download from *Microsoft Download Center* per the retirement of all SHA-1 signed content.
+The legacy DirectX SDK is available for download from [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkId=226640) if required, but use for new projects is not recommended.
 
 > [!Note]  
 > The DirectX SDK fails to install if you have a certain version of the Visual C++ 2010 Redistributable Package already installed. For more info about and a solution to fix this issue, see ["S1023" error when you install the DirectX SDK (June 2010)](https://support.microsoft.com/kb/2728613).
