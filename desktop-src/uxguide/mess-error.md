@@ -483,15 +483,15 @@ In this example, an in-place error is used for an error found by clicking the co
 - **Use an error icon.** Exceptions:
   - If the error is a user input problem displayed using a modal dialog box or balloon, don't use an icon. Doing so is counter to the encouraging tone of Windows. However, in-place error messages should use a small error icon (16x16 pixel) to clearly identify them as error messages.
 
-      ![screen shot of message incorrect postal format ](images/mess-error-image38.png)
+     ![screen shot of message incorrect postal format](images/mess-error-image38.png)
 
-      ![screen shot of message computer name too long ](images/mess-error-image39.png)
+     ![screen shot of message computer name too long](images/mess-error-image39.png)
 
-      In these examples, user input problems don't need error icons.
+     In these examples, user input problems don't need error icons.
 
-      ![screen shot of message phone number wrong format ](images/mess-error-image40.png)
+     ![screen shot of message phone number wrong format](images/mess-error-image40.png)
 
-      In this example, an in-place error message needs a small error icon to clearly identify it as an error message.
+     In this example, an in-place error message needs a small error icon to clearly identify it as an error message.
 
 - If the problem is for a feature that has an icon (and not a user input problem), you can use the feature icon with an error overlay. If you do this, also use the feature name as the error's subject.
 
