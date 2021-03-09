@@ -1,6 +1,6 @@
 ---
 title: Controls.isAvailable
-description: The isAvailable property indicates whether a specified type of information is available or a specified action can be performed.
+description: The isAvailable property indicates whether a specified type of information is available or a specified action can be performed. | Controls.isAvailable
 ms.assetid: d2bfaa67-eac9-4fc4-9424-636ddb4b35d6
 keywords:
 - Controls.isAvailable Windows Media Player

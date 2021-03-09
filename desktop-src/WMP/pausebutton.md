@@ -1,6 +1,6 @@
 ---
 title: PAUSEBUTTON
-description: This is a predefined BUTTON with the following default values.
+description: This is a predefined BUTTON with the following default values. | PAUSEBUTTON
 ms.assetid: 73536341-c31f-4c7b-b56f-6260459e7471
 keywords:
 - PAUSEBUTTON Windows Media Player

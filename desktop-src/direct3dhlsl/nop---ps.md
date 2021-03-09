@@ -1,6 +1,6 @@
 ---
 title: nop - ps
-description: No operation is performed.
+description: No operation is performed. | nop - ps
 ms.assetid: db2a383e-9a4d-4409-8801-483622c124ae
 ms.topic: reference
 ms.date: 05/31/2018

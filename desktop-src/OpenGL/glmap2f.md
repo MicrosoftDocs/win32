@@ -1,6 +1,6 @@
 ---
 title: glMap2f function (Gl.h)
-description: The glMap2f function defines a two-dimensional evaluator.
+description: The glMap2f function defines a two-dimensional evaluator. | glMap2f function (Gl.h)
 ms.assetid: 804fbf65-98a8-41af-8c39-5b83f3d341b0
 keywords:
 - glMap2f function OpenGL

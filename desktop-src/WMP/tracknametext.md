@@ -1,6 +1,6 @@
 ---
 title: TRACKNAMETEXT
-description: This is a predefined TEXT element with the following default values.
+description: This is a predefined TEXT element with the following default values. | TRACKNAMETEXT
 ms.assetid: a0ef1d16-a5de-4b61-a307-dcadc077f124
 keywords:
 - TRACKNAMETEXT Windows Media Player

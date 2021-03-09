@@ -1,6 +1,6 @@
 ---
 title: glNormal3sv function (Gl.h)
-description: Sets the current normal vector.
+description: Sets the current normal vector. | glNormal3sv function (Gl.h)
 ms.assetid: 59cdebc9-594a-429f-ba5d-7c63a533cc11
 keywords:
 - glNormal3sv function OpenGL

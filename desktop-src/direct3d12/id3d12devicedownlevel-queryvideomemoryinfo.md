@@ -1,6 +1,6 @@
 ---
 title: ID3D12DeviceDownlevel::QueryVideoMemoryInfo method
-description: Copies contents from a Direct3D 12 Texture2D resource into a window.
+description: Copies contents from a Direct3D 12 Texture2D resource into a window. | ID3D12DeviceDownlevel::QueryVideoMemoryInfo method
 keywords:
 - QueryVideoMemoryInfo method
 - QueryVideoMemoryInfo method, ID3D12DeviceDownlevel interface

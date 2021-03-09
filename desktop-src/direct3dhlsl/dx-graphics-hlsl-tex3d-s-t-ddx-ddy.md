@@ -1,6 +1,6 @@
 ---
 title: tex3D (HLSL reference)
-description: Samples a 3D texture using a gradient to select the mip level.
+description: Samples a 3D texture using a gradient to select the mip level. | tex3D (HLSL reference)
 ms.assetid: b48a6791-61b7-4a13-9357-923910515164
 keywords:
 - tex3D HLSL

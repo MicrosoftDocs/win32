@@ -1,6 +1,6 @@
 ---
 title: data (TemplateItemType) Element
-description: Defines a data item that you want to include with the event.
+description: Defines a data item that you want to include with the event. | data (TemplateItemType) Element
 ms.assetid: 7e4a4f5d-d61a-4a42-ba7d-4549a294229a
 keywords:
 - data element EventLog

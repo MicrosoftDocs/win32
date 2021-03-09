@@ -1,6 +1,6 @@
 ---
 title: External.appColorDark (Type 1)
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.appColorDark (Type 1)
 ms.assetid: 08acf92b-7e80-463b-a5e9-9110c3a3fadb
 keywords:
 - External.appColorDark (Type 1) Windows Media Player

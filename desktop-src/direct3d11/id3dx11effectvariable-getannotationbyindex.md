@@ -1,6 +1,6 @@
 ---
 title: ID3DX11EffectVariable GetAnnotationByIndex method (D3dx11effect.h)
-description: Get an annotation by index.
+description: Get an annotation by index. | ID3DX11EffectVariable GetAnnotationByIndex method (D3dx11effect.h)
 ms.assetid: fc130098-0269-4c78-bc45-284aa0b77865
 keywords:
 - GetAnnotationByIndex method Direct3D 11

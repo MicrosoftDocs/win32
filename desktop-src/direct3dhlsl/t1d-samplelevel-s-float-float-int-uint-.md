@@ -1,6 +1,6 @@
 ---
 title: SampleLevel::SampleLevel(S,float,float,int,uint) function
-description: Samples a texture on the specified mipmap level and returns status about the operation.
+description: Samples a texture on the specified mipmap level and returns status about the operation. | SampleLevel::SampleLevel(S,float,float,int,uint) function
 ms.assetid: B797C7F9-7436-4DD5-9CAB-EFF81D410174
 keywords:
 - SampleLevel function HLSL

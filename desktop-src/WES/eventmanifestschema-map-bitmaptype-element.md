@@ -1,6 +1,6 @@
 ---
 title: map (BitMapType) Element
-description: Defines the mapping between a bit value and a string value.
+description: Defines the mapping between a bit value and a string value. | map (BitMapType) Element
 ms.assetid: 9673b736-9c1b-4b53-8c85-ed34f83084f1
 keywords:
 - map element EventLog

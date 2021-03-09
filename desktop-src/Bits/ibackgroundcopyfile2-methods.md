@@ -1,6 +1,6 @@
 ---
 title: IBackgroundCopyFile2 Methods (BITS)
-description: The IBackgroundCopyFile2 interface exposes the following methods.
+description: The IBackgroundCopyFile2 interface exposes the following methods. | IBackgroundCopyFile2 Methods (BITS)
 ms.assetid: DF0DA1AE-3C8E-4145-82BF-6A8E6819BADA
 ms.topic: reference
 ms.date: 05/31/2018

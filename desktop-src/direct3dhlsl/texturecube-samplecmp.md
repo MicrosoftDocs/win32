@@ -1,6 +1,6 @@
 ---
 title: TextureCube::TextureCube SampleCmp methods
-description: Samples a texture, using a comparison value to reject samples.
+description: Samples a texture, using a comparison value to reject samples. | TextureCube::TextureCube SampleCmp methods
 ms.assetid: 2238D282-5D4E-44E8-A8E1-AD53D25201A3
 keywords:
 - SampleCmp methods HLSL

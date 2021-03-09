@@ -1,6 +1,6 @@
 ---
 title: External.libraryLocationType
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.libraryLocationType
 ms.assetid: aaf20147-8331-40bd-a5cd-5ee9b8e2d022
 keywords:
 - External.libraryLocationType Windows Media Player

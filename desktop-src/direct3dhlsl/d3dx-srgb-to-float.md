@@ -1,6 +1,6 @@
 ---
 title: D3DX_SRGB_to_FLOAT function
-description: Converts an SRGB value to FLOAT.
+description: Converts an SRGB value to FLOAT. | D3DX_SRGB_to_FLOAT function
 ms.assetid: 03e2ea09-3dd7-48cb-81b3-e11f7a9cf0ee
 keywords:
 - D3DX_SRGB_to_FLOAT function HLSL

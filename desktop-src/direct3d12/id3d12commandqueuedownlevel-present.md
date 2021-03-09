@@ -1,6 +1,6 @@
 ---
 title: ID3D12CommandQueueDownlevel::Present method
-description: Copies contents from a Direct3D 12 Texture2D resource into a window.
+description: Copies contents from a Direct3D 12 Texture2D resource into a window. | ID3D12CommandQueueDownlevel::Present method
 keywords:
 - Present method
 - Present method, ID3D12CommandQueueDownlevel interface

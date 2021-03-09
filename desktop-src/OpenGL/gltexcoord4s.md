@@ -1,6 +1,6 @@
 ---
 title: glTexCoord4s function (Gl.h)
-description: Sets the current texture coordinates.
+description: Sets the current texture coordinates. | glTexCoord4s function (Gl.h)
 ms.assetid: 948c63f5-a94d-4e55-9aa4-a320452fc29f
 keywords:
 - glTexCoord4s function OpenGL

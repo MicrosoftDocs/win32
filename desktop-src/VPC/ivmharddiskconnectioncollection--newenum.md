@@ -1,6 +1,6 @@
 ---
 title: IVMHardDiskConnectionCollection _NewEnum property (VPCCOMInterfaces.h)
-description: Retrieves an enumerator for the collection.
+description: Retrieves an enumerator for the collection. | IVMHardDiskConnectionCollection _NewEnum property (VPCCOMInterfaces.h)
 ms.assetid: 9302f536-de25-4aac-88cf-9f4af6efcda7
 keywords:
 - _NewEnum property Virtual PC

@@ -1,6 +1,6 @@
 ---
 title: MediaCollectionAttributeStringAdded Event of the AxWindowsMediaPlayer Object
-description: The MediaCollectionAttributeStringAdded event occurs when an attribute value is added to the library.
+description: The MediaCollectionAttributeStringAdded event occurs when an attribute value is added to the library. | MediaCollectionAttributeStringAdded Event of the AxWindowsMediaPlayer Object
 ms.assetid: b14db0ce-bd78-4e28-a42c-1a231c29da2b
 keywords:
 - MediaCollectionAttributeStringAdded Event of the AxWindowsMediaPlayer Object Windows Media Player

@@ -1,6 +1,6 @@
 ---
 title: CD3DX12_PIPELINE_STATE_STREAM structure (D3dx12.h)
-description: A helper structure for creating and working with graphics and compute pipeline states through a combined interface. See D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC and D3D12\_COMPUTE\_PIPELINE\_STATE\_DESC.
+description: A helper structure for creating and working with graphics and compute pipeline states through a combined interface. See D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC and D3D12\_COMPUTE\_PIPELINE\_STATE\_DESC. | CD3DX12_PIPELINE_STATE_STREAM structure (D3dx12.h)
 ms.assetid: C0CEFC67-72B3-4A8D-9C88-381990FC9898
 keywords:
 - CD3DX12_PIPELINE_STATE_STREAM structure

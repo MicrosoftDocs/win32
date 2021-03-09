@@ -1,6 +1,6 @@
 ---
 title: External.libraryLocationID
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.libraryLocationID
 ms.assetid: 9a9bea89-c05c-4759-be22-86588bbeca2c
 keywords:
 - External.libraryLocationID Windows Media Player

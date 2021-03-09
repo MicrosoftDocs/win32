@@ -1,6 +1,6 @@
 ---
 title: TextureCube::GatherGreen(S,float,uint) function
-description: Returns the green components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.
+description: Returns the green components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status. | TextureCube::GatherGreen(S,float,uint) function
 ms.assetid: DB0A6386-70ED-4D8C-A4EE-C058496D2F12
 keywords:
 - GatherGreen function HLSL

@@ -1,6 +1,6 @@
 ---
 title: Using the Codec DMOs with DirectShow (Deprecated)
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | Using the Codec DMOs with DirectShow (Deprecated)
 ms.assetid: 88162ea9-652d-4167-bda7-e4a719e2ea95
 keywords:
 - Using the Codec DMOs with DirectShow windows Media Format

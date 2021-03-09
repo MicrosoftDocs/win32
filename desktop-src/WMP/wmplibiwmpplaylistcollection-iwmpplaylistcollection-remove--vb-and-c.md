@@ -1,6 +1,6 @@
 ---
 title: IWMPPlaylistCollection remove method
-description: The remove method removes a playlist from the library.
+description: The remove method removes a playlist from the library. | IWMPPlaylistCollection remove method
 ms.assetid: 40c8ee1d-13fa-40d9-9532-4dc8383c4eb3
 keywords:
 - remove method Windows Media Player

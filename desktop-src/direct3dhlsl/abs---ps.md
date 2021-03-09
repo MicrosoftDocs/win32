@@ -1,6 +1,6 @@
 ---
 title: abs - ps
-description: Computes absolute value.
+description: Computes absolute value. | abs - ps
 ms.assetid: e97db550-2a03-421a-86f4-a6fc5f8e0bca
 ms.topic: reference
 ms.date: 05/31/2018

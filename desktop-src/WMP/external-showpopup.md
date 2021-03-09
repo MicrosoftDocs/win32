@@ -1,6 +1,6 @@
 ---
 title: External.showPopup method
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.showPopup method
 ms.assetid: 17958543-dbed-45a5-9b02-4800a07cb820
 keywords:
 - showPopup method Windows Media Player

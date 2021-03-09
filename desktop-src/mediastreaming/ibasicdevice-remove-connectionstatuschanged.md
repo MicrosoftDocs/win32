@@ -1,6 +1,6 @@
 ---
 title: IBasicDevice remove_ConnectionStatusChanged method
-description: Unregisters an event handler for the ConnectionStatusChanged event.
+description: Unregisters an event handler for the ConnectionStatusChanged event. | IBasicDevice remove_ConnectionStatusChanged method
 ms.assetid: 577D9C50-486D-441A-A9FE-AF79D1FC2B52
 keywords:
 - remove_ConnectionStatusChanged method Media Streaming API

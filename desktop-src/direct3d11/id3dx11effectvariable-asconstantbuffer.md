@@ -1,6 +1,6 @@
 ---
 title: ID3DX11EffectVariable AsConstantBuffer method (D3dx11effect.h)
-description: Get a constant buffer.
+description: Get a constant buffer. | ID3DX11EffectVariable AsConstantBuffer method (D3dx11effect.h)
 ms.assetid: b8d8b43c-4626-43b6-8a49-8ffa7cb48427
 keywords:
 - AsConstantBuffer method Direct3D 11

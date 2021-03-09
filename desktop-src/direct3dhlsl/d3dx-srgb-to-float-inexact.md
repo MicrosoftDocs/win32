@@ -1,6 +1,6 @@
 ---
 title: D3DX_SRGB_to_FLOAT_inexact function
-description: Converts an SRGB value to FLOAT.
+description: Converts an SRGB value to FLOAT. | D3DX_SRGB_to_FLOAT_inexact function
 ms.assetid: 6eadda6d-ff99-4a8e-9e30-ae455732438e
 keywords:
 - D3DX_SRGB_to_FLOAT_inexact function HLSL

@@ -1,6 +1,6 @@
 ---
 title: SHUFFLEBUTTON
-description: This is a predefined BUTTON with the following default values.
+description: This is a predefined BUTTON with the following default values. | SHUFFLEBUTTON
 ms.assetid: 45b3c985-81fb-4af3-89a7-e68ee9724f09
 keywords:
 - SHUFFLEBUTTON Windows Media Player

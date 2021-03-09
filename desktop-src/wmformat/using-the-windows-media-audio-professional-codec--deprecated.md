@@ -1,6 +1,6 @@
 ---
 title: Using the Windows Media Audio Professional Codec
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | Using the Windows Media Audio Professional Codec
 ms.assetid: 9cbd814b-da48-4690-b854-e27461d8f952
 keywords:
 - Using the Windows Media Audio Professional Codec windows Media Format

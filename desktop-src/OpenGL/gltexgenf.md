@@ -1,6 +1,6 @@
 ---
 title: glTexGenf function (Gl.h)
-description: Controls the generation of texture coordinates.
+description: Controls the generation of texture coordinates. | glTexGenf function (Gl.h)
 ms.assetid: 43439d34-46df-49c6-8c19-09db9f005520
 keywords:
 - glTexGenf function OpenGL

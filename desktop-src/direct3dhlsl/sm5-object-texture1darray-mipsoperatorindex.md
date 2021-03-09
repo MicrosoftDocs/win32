@@ -1,6 +1,6 @@
 ---
 title: Texture1DArray::mips.Operator    function
-description: Returns a read-only resource variable.
+description: Returns a read-only resource variable. | Texture1DArray::mips.Operator    function
 ms.assetid: b8f2ef78-4b50-4051-a00f-5b81cd77d1e0
 keywords:
 - mips.Operator function HLSL

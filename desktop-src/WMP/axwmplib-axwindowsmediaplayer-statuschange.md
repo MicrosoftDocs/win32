@@ -1,6 +1,6 @@
 ---
 title: StatusChange Event of the AxWindowsMediaPlayer Object
-description: The StatusChange event occurs when the status property changes value.
+description: The StatusChange event occurs when the status property changes value. | StatusChange Event of the AxWindowsMediaPlayer Object
 ms.assetid: 5295fccb-7be0-46d3-85ba-b481e575d393
 keywords:
 - StatusChange Event of the AxWindowsMediaPlayer Object Windows Media Player

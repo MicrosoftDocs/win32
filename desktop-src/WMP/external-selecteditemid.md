@@ -1,6 +1,6 @@
 ---
 title: External.selectedItemID
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.selectedItemID
 ms.assetid: 150aaa38-d4fe-493e-bda1-e5b0a27fccf7
 keywords:
 - External.selectedItemID Windows Media Player

@@ -1,6 +1,6 @@
 ---
 title: IBackgroundCopyFile5 Methods (BITS)
-description: The IBackgroundCopyFile5 interface exposes the following methods.
+description: The IBackgroundCopyFile5 interface exposes the following methods. | IBackgroundCopyFile5 Methods (BITS)
 ms.assetid: fc407e4b-f039-4a70-94da-151b03c6ddbf
 ms.topic: reference
 ms.date: 05/31/2018

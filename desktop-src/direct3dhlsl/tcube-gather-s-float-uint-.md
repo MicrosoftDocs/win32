@@ -1,6 +1,6 @@
 ---
 title: TextureCube::Gather(S,float,uint) function
-description: Returns the four texel values that would be used in a bi-linear filtering operation.
+description: Returns the four texel values that would be used in a bi-linear filtering operation. | TextureCube::Gather(S,float,uint) function
 ms.assetid: 23FA8135-ECF0-4CAE-9A1C-B05DA3676453
 keywords:
 - Gather function HLSL

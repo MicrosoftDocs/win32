@@ -1,6 +1,6 @@
 ---
 title: MENUEX resource
-description: Defines the contents of a menu resource.
+description: Defines the contents of a menu resource. | MENUEX resource
 ms.assetid: a83e1e78-2af4-4257-906e-7eb6d98bcbc8
 keywords:
 - MENUEX resource Menus and Other Resources

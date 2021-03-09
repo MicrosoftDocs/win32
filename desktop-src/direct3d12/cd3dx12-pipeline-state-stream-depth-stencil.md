@@ -1,6 +1,6 @@
 ---
 title: CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL structure (D3dx12.h)
-description: A helper structure used to describe a depth stencil description as a single object suitable for a stream description.
+description: A helper structure used to describe a depth stencil description as a single object suitable for a stream description. | CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL structure (D3dx12.h)
 ms.assetid: 4FB54EA5-FCC6-4B64-A747-27DFE4C1D2DC
 keywords:
 - CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL structure

@@ -1,6 +1,6 @@
 ---
 title: IWMCodecMetaData
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | IWMCodecMetaData
 ms.assetid: 0d788226-4213-4751-98bd-3bd0532f9e71
 keywords:
 - IWMCodecMetaData windows Media Format

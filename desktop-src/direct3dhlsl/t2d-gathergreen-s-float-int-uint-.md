@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GatherGreen(S,float,int,uint) function
-description: Returns the green components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.
+description: Returns the green components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status. | Texture2D::GatherGreen(S,float,int,uint) function
 ms.assetid: A50C41BC-FDF4-47E6-9776-F51B2B634713
 keywords:
 - GatherGreen function HLSL

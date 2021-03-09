@@ -1,6 +1,6 @@
 ---
 title: STOPBUTTON
-description: This is a predefined BUTTON with the following default values.
+description: This is a predefined BUTTON with the following default values. | STOPBUTTON
 ms.assetid: cd79b9d0-6c00-48a4-84f8-9d78b7998c92
 keywords:
 - STOPBUTTON Windows Media Player

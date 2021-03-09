@@ -1,6 +1,6 @@
 ---
 title: GetBufferFullnessBits
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | GetBufferFullnessBits
 ms.assetid: fead2ed2-7db4-45b9-9a84-f12f53eccfc3
 keywords:
 - GetBufferFullnessBits windows Media Format

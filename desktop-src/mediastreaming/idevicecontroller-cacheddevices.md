@@ -1,6 +1,6 @@
 ---
 title: IDeviceController CachedDevices method
-description: Retrieves a collection of IBasicDevice interface pointers that represents the cached view of all discoverable DLNA devices.
+description: Retrieves a collection of IBasicDevice interface pointers that represents the cached view of all discoverable DLNA devices. | IDeviceController CachedDevices method
 ms.assetid: 94C2A7FF-5AF8-4F13-BBA5-54ED78C3BBF6
 keywords:
 - CachedDevices method Media Streaming API

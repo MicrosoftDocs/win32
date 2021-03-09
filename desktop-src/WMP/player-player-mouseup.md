@@ -1,6 +1,6 @@
 ---
 title: Player.MouseUp event
-description: The MouseUp event occurs when the user releases a mouse button.
+description: The MouseUp event occurs when the user releases a mouse button. | Player.MouseUp event
 ms.assetid: 0f209fc4-2aad-46b1-84ba-2bfbecbe2930
 keywords:
 - MouseUp event Windows Media Player

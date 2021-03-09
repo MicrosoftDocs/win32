@@ -1,6 +1,6 @@
 ---
 title: Settings.requestMediaAccessRights method
-description: The requestMediaAccessRights method requests a specified level of access to the library.
+description: The requestMediaAccessRights method requests a specified level of access to the library. | Settings.requestMediaAccessRights method
 ms.assetid: 076b749b-9b25-483c-aa1f-60fc4367e4e0
 keywords:
 - requestMediaAccessRights method Windows Media Player

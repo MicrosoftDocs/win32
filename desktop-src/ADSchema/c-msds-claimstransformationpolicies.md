@@ -1,6 +1,6 @@
 ---
 title: ms-DS-Claims-Transformation-Policies class
-description: An object of this class holds the one set of Claims Transformation Policy for Cross-Forest Claims Transformation.
+description: An object of this class holds the one set of Claims Transformation Policy for Cross-Forest Claims Transformation. | ms-DS-Claims-Transformation-Policies class
 ms.assetid: d6e188b3-0ff2-4888-8e19-277d642de68e
 ms.tgt_platform: multiple
 keywords:
