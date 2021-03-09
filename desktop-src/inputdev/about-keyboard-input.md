@@ -108,7 +108,7 @@ An application can use the following values to manipulate the keystroke flags.
 | **KF\_DLGMODE**  | Manipulates the dialog mode flag, which indicates whether a dialog box is active. |
 | **KF\_EXTENDED** | Manipulates the extended key flag.                                                |
 | **KF\_MENUMODE** | Manipulates the menu mode flag, which indicates whether a menu is active.         |
-| **KF\_REPEAT**   | Manipulates the repeat count.                                                     |
+| **KF\_REPEAT**   | Manipulates the previous key state flag.                                          |
 | **KF\_UP**       | Manipulates the transition state flag.                                            |
 
 
