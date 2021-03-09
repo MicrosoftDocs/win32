@@ -12,9 +12,10 @@ The [**IBackgroundCopyFile**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyf
 
 ## In this section
 
+-   [**GetRemoteName Method**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyfile-getremotename)
 -   [**GetLocalName Method**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyfile-getlocalname)
 -   [**GetProgress Method**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyfile-getprogress)
--   [**GetRemoteName Method**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyfile-getremotename)
+
 
  
 
