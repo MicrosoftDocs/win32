@@ -1,8 +1,9 @@
 ---
-description: This topic provides information about using the WinHTTP WinHttpRequest COM object with scripting languages.
+Description: This topic provides information about using the WinHTTP WinHttpRequest COM object with scripting languages.
 ms.assetid: 0bbbf3dc-84b8-41d8-8627-e3d80ddcb783
 title: WinHttpRequest object
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 07/22/2020
 topic_type: 
 - APIRef
@@ -126,7 +127,7 @@ The **WinHttpRequest** object uses the [**IErrorInfo**](/previous-versions/windo
 
 
 
-| Requirement | Value |
+|                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
