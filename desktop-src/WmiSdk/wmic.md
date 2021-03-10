@@ -15,7 +15,7 @@ The WMI command-line (WMIC) utility provides a command-line interface for Window
 
 An alias is a friendly renaming of a class, property, or method that makes WMI easier to use and read. You can determine what aliases are available for WMIC through the **/?** command. You can also determine the aliases for a specific class using the **<className> /?** command. For more information, see [WMIC Aliases](/previous-versions/windows/it-pro/windows-server-2003/cc736307(v=ws.10)).
 
-## Switches
+## Switch
 
 A switch is a WMIC option you can set globally or optionally. For a list of available switches, see [WMIC Switches](/previous-versions/windows/it-pro/windows-server-2003/cc787035(v=ws.10)).
 
