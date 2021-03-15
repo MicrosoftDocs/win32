@@ -1,7 +1,7 @@
 ---
 description: The SetStartStop2 method sets the object's start and stop times, relative to the object's parent. This method is equivalent to IAMTimelineObj::SetStartStop, but takes REFTIME values.
 ms.assetid: 0fc79c82-d8e1-4b87-9e59-6d9e6ca614f3
-title: IAMTimelineObj::SetStartStop2 method (Qedit.h)
+title: IAMTimelineObj::SetStartStop2 method (Qedit.h) (2)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

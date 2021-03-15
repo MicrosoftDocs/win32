@@ -1,7 +1,7 @@
 ---
 description: The InsertSpace2 method splits any objects that exist at the specified time and inserts space between them. This method is equivalent to IAMTimelineTrack::InsertSpace, but takes REFTIME values.
 ms.assetid: 818a1dad-0c8d-4728-82d6-cd52c6c830a2
-title: IAMTimelineTrack::InsertSpace2 method (Qedit.h)
+title: IAMTimelineTrack::InsertSpace2 method (Qedit.h) (2)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

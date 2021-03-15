@@ -1,5 +1,5 @@
 ---
-title: Type (BaseEapParameters) Element
+title: Type (BaseEapParameters) Element (v1)
 description: Defines the placeholder element for the method type selected and method-specific credentials.
 ms.assetid: c9ff9a81-b9a5-41f8-b0f0-49561bca4ea0
 keywords:

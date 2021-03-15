@@ -1,5 +1,5 @@
 ---
-title: BaseEapParameters Complex Type
+title: BaseEapParameters Complex Type (User)
 description: Defines the element that specified the legacy method selected and method-specific credentials.
 ms.assetid: bc42e536-f741-4821-8453-6c0631daad3e
 keywords:
@@ -15,6 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ROBOTS: INDEX,FOLLOW
 ---
+
 
 # BaseEapParameters Complex Type
 

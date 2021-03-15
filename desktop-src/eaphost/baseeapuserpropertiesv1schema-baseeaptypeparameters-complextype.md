@@ -1,5 +1,5 @@
 ---
-title: BaseEapTypeParameters Complex Type
+title: BaseEapTypeParameters Complex Type (User)
 description: Is a base element of the method-specific element that appears in the derived element of the baseeapuserpropertiesv1 schema.
 ms.assetid: ef67eec4-ecb2-4e1c-8d48-859ca7a4607b
 keywords:

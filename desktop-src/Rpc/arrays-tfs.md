@@ -1,5 +1,5 @@
 ---
-title: Arrays (RPC)
+title: Arrays (RPC) (TFS)
 description: Remote Procedure Call (RPC) array categories include fixed-size, conformant, conformant varying, varying, and complex.
 ms.assetid: 7144ec87-90f2-463a-80e4-28cb4771325f
 ms.topic: article

@@ -16,6 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
+
 # BaseEapParameters Complex Type
 
 The **BaseEapParameters** complex type defines the placeholder element for method type and method-specific configuration.

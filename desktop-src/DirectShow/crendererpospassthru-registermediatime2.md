@@ -1,7 +1,7 @@
 ---
 description: The RegisterMediaTime method caches the time stamps from the current sample.
 ms.assetid: 65755906-cf54-46d6-8149-5ad982be55f3
-title: CRendererPosPassThru.RegisterMediaTime method (Ctlutil.h)
+title: CRendererPosPassThru.RegisterMediaTime method (Ctlutil.h) (2)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 description: The GetStartStop2 method retrieves the object's start and stop times, relative to the object's parent. This method is equivalent to IAMTimelineObj::GetStartStop, but takes REFTIME values.
 ms.assetid: 140842f5-3a24-4947-a360-ef97cba414ee
-title: IAMTimelineObj::GetStartStop2 method (Qedit.h)
+title: IAMTimelineObj::GetStartStop2 method (Qedit.h) (2)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
