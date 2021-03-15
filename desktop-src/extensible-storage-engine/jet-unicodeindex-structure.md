@@ -27,10 +27,12 @@ _**Applies to:** Windows | Windows Server_
 
 The **JET_UNICODEINDEX** structure customizes how Unicode data gets normalized when an index is created over a Unicode column.
 
-    typedef struct tagJET_UNICODEINDEX {
-      unsigned long lcid;
-      unsigned long dwMapFlags;
-    } JET_UNICODEINDEX;
+```cpp
+typedef struct tagJET_UNICODEINDEX {
+  unsigned long lcid;
+  unsigned long dwMapFlags;
+} JET_UNICODEINDEX;
+```
 
 ### Members
 

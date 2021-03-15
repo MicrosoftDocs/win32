@@ -1,6 +1,6 @@
 ---
 title: ChannelPublishingType Complex Type
-description: Defines the logging properties for the session that the channel uses.
+description: Defines the logging properties for the session that the channel uses. | ChannelPublishingType Complex Type
 ms.assetid: 4b3980f4-8652-4070-97c0-99cd1a9fc85a
 keywords:
 - ChannelPublishingType complex type EventLog

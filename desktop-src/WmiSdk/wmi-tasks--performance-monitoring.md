@@ -157,13 +157,10 @@ While (True)
     &quot;Win32_PerfRawData_PerfOS_Processor.Name=&#39;_Total&#39;&quot;)
     N2 = object2.PercentProcessorTime
     D2 = object2.TimeStamp_Sys100NS
-
     &#39; CounterType - PERF_100NSEC_TIMER_INV
     &#39; Formula - (1- ((N2 - N1) / (D2 - D1))) x 100
     PercentProcessorTime = (1 - ((N2 - N1)/(D2-D1)))*100
-
     Wscript.Echo &quot;% Processor Time=&quot; , PercentProcessorTime
-
 Wend</code></pre></td>
 </tr>
 </tbody>

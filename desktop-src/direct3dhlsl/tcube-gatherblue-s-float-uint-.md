@@ -1,6 +1,6 @@
 ---
 title: TextureCube::GatherBlue(S,float,uint) function
-description: Returns the blue components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.
+description: Returns the blue components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status. | TextureCube::GatherBlue(S,float,uint) function
 ms.assetid: B2099321-3E81-4A77-A023-AF73594C68C8
 keywords:
 - GatherBlue function HLSL

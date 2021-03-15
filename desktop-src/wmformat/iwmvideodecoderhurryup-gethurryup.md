@@ -1,6 +1,6 @@
 ---
 title: GetHurryup
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | GetHurryup
 ms.assetid: 04b66052-d8e5-48fb-b413-b50a79f8c80e
 keywords:
 - GetHurryup windows Media Format

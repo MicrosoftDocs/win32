@@ -1,6 +1,6 @@
 ---
 title: g_wszWMVCFrameCount (Wmcodecdsp.h)
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | g_wszWMVCFrameCount (Wmcodecdsp.h)
 ms.assetid: bd888a1b-030d-411f-88f4-3deb94197d7c
 keywords:
 - g_wszWMVCFrameCount windows Media Format

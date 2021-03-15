@@ -69,7 +69,7 @@ A conditional [expression](dx-graphics-hlsl-expressions.md). The statement block
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Ocidl.h</dt> </dl> |
 

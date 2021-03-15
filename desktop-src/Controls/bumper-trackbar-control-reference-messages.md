@@ -1,6 +1,6 @@
 ---
 title: Trackbar Control Messages
-description: .
+description: Trackbar Control Messages
 ms.assetid: 1640fc7c-5fe5-4b11-9517-2608b837eedf
 ms.topic: article
 ms.date: 05/31/2018

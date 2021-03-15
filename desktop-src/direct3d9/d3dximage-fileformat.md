@@ -143,7 +143,7 @@ See [Types of Bitmaps](../gdiplus/-gdiplus-types-of-bitmaps-about.md) for more i
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9tex.h</dt> </dl> |
 

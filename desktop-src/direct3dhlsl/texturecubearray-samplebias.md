@@ -1,6 +1,6 @@
 ---
 title: TextureCubeArray::TextureCubeArray SampleBias methods
-description: Samples a texture, after applying the bias value to the mipmap level.
+description: Samples a texture, after applying the bias value to the mipmap level. | TextureCubeArray::TextureCubeArray SampleBias methods
 ms.assetid: 97DE396D-361D-4BFA-B4C2-9B3CC1C86EFF
 keywords:
 - SampleBias methods HLSL

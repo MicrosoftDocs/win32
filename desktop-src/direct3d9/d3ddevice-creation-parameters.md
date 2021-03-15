@@ -85,7 +85,7 @@ A combination of one or more [D3DCREATE](d3dcreate.md) constants that control gl
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

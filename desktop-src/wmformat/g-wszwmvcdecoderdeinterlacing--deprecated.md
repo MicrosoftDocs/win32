@@ -1,6 +1,6 @@
 ---
 title: g_wszWMVCDecoderDeinterlacing (Wmcodecdsp.h)
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | g_wszWMVCDecoderDeinterlacing (Wmcodecdsp.h)
 ms.assetid: f36266dd-7040-477c-89bc-44903b2613f1
 keywords:
 - g_wszWMVCDecoderDeinterlacing windows Media Format

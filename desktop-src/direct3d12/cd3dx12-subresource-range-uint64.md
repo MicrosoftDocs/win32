@@ -79,7 +79,7 @@ Implicit conversion to a D3D12\_SUBRESOURCE\_RANGE\_UINT64 structure. Because D3
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx12.h</dt> </dl> |
 

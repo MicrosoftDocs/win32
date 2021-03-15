@@ -31,9 +31,8 @@ A requester needs to have a well-defined understanding about the status of the w
 [**IVssBackupComponents::BackupComplete**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete)
 </dt> </dl>
 
-    During restore operations, a requester should query a writer after completion of these methods:
-
-    <dl> <dt>
+During restore operations, a requester should query a writer after completion of these methods:
+<dl> <dt>
 
 [**IVssBackupComponents::PreRestore**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prerestore)
 </dt> <dt>

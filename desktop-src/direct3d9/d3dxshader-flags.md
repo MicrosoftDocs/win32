@@ -128,7 +128,7 @@ Applying **compiler flags** or **assembler flags** to the incorrect API will fai
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9shader.h</dt> </dl> |
 

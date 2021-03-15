@@ -32,10 +32,12 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetRestore** function restores and recovers a streaming backup of an instance, including all the attached databases. This function is primarily for backwards compatibility with Windows 2000 and earlier database engines, where only one instance of a database is allowed. In this case, the active instance is the instance that is restored. With **JetRestore**, the location for the restored databases cannot be specified.
 
-    JET_ERR JET_API JetRestore(
-      __in          JET_PCSTR sz,
-      __in          JET_PFNSTATUS pfn
-    );
+```cpp
+JET_ERR JET_API JetRestore(
+  __in          JET_PCSTR sz,
+  __in          JET_PFNSTATUS pfn
+);
+```
 
 ### Parameters
 

@@ -1,6 +1,6 @@
 ---
 title: TSGRemoveAdminMsg method of the Win32_TSGatewayServerSettings class
-description: Removes the administrative message for the gateway server.
+description: Removes the administrative message for the gateway server. | TSGRemoveAdminMsg method of the Win32_TSGatewayServerSettings class
 ms.assetid: 36b157de-80ee-46f8-9803-5012cf1d6f5f
 ms.tgt_platform: multiple
 keywords:

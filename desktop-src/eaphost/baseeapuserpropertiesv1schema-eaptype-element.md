@@ -1,6 +1,6 @@
 ---
 title: EapType element (base user properties)
-description: Learn about the EapType element. This element captures method-specific configuration inside the Eap element.
+description: Learn about the EapType element. This element captures method-specific configuration inside the Eap element. | EapType element (base user properties)
 ms.assetid: 8ce81848-5b36-441f-967d-02c666ba5c6c
 keywords:
 - EapType element EAPHost

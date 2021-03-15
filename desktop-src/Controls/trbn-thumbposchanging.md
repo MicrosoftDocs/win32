@@ -42,7 +42,7 @@ Pointer to a [**NMTRBTHUMBPOSCHANGING**](/windows/win32/api/commctrl/ns-commctrl
 
 ## Return value
 
-The return value is ignored.
+Return **TRUE** to prevent the thumb from moving to the specified position.
 
 ## Remarks
 

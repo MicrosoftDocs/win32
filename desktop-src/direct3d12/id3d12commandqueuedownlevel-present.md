@@ -1,6 +1,6 @@
 ---
 title: ID3D12CommandQueueDownlevel::Present method
-description: Copies contents from a Direct3D 12 Texture2D resource into a window.
+description: Copies contents from a Direct3D 12 Texture2D resource into a window. | ID3D12CommandQueueDownlevel::Present method
 keywords:
 - Present method
 - Present method, ID3D12CommandQueueDownlevel interface
@@ -74,7 +74,7 @@ Returns **S_OK** on success, or else a failing HRESULT.
 
 ## Requirements
 
-|        |                  |
+| Requirement | Value |
 |--------|------------------|
 | Header | d3d12downlevel.h |
 | DLL    | D3D12.dll (Windows 7 only) |

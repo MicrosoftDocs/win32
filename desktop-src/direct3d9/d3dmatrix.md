@@ -56,7 +56,7 @@ In Direct3D, the \_34 element of a projection matrix cannot be a negative number
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

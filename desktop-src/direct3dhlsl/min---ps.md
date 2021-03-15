@@ -1,6 +1,6 @@
 ---
 title: min - ps
-description: Calculates the minimum of the sources.
+description: Calculates the minimum of the sources. | min - ps
 ms.assetid: 2ee6208d-a353-4747-8037-c21dd1a05016
 ms.topic: reference
 ms.date: 05/31/2018

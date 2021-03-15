@@ -1,6 +1,6 @@
 ---
 title: IVMSerialPortCollection _NewEnum property (VPCCOMInterfaces.h)
-description: Retrieves an enumerator for the collection.
+description: Retrieves an enumerator for the collection. | IVMSerialPortCollection _NewEnum property (VPCCOMInterfaces.h)
 ms.assetid: 4bf7bbde-d97f-424e-afa0-ff0e334740b5
 keywords:
 - _NewEnum property Virtual PC

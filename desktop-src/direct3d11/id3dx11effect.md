@@ -94,7 +94,7 @@ The effect system groups the information required for rendering into an effect w
 >
 > 
 >
-> |                    |                                                                                                                                              |
+| Requirement | Value |
 > |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 > | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 > | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |

@@ -1,6 +1,6 @@
 ---
 title: TextureCube::GatherCmpGreen(S,float,float,uint) function
-description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their green component against a compare value along with tile-mapping status.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their green component against a compare value along with tile-mapping status. | TextureCube::GatherCmpGreen(S,float,float,uint) function
 ms.assetid: 3EFCEFE1-BFE2-4448-962E-108C3C0861E5
 keywords:
 - GatherCmpGreen function HLSL

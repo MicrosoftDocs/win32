@@ -1,6 +1,6 @@
 ---
 title: RWByteAddressBuffer::Load(int) function
-description: Gets one value.
+description: Gets one value. | RWByteAddressBuffer::Load(int) function
 ms.assetid: C95C865E-E44D-46DC-A076-BD2903758432
 keywords:
 - Load function HLSL

@@ -1,6 +1,6 @@
 ---
 title: MediaChange Event of the AxWindowsMediaPlayer Object
-description: The MediaChange event occurs when a media item changes.
+description: The MediaChange event occurs when a media item changes. | MediaChange Event of the AxWindowsMediaPlayer Object
 ms.assetid: 0a2380ff-df50-4092-a952-812184822719
 keywords:
 - MediaChange Event of the AxWindowsMediaPlayer Object Windows Media Player

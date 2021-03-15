@@ -1,6 +1,6 @@
 ---
 title: ProcessQuadTessFactorsAvg function
-description: Generates the corrected tessellation factors for a quad patch.
+description: Generates the corrected tessellation factors for a quad patch. | ProcessQuadTessFactorsAvg function
 ms.assetid: 3af1dad3-1923-45f3-9908-ca403e7f0cfe
 keywords:
 - ProcessQuadTessFactorsAvg function HLSL

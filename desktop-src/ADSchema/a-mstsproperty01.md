@@ -1,6 +1,6 @@
 ---
 title: MS-TS-Property01 attribute
-description: Reserved for future use.
+description: Reserved for future use. | MS-TS-Property01 attribute
 ms.assetid: 273d720c-5cce-4c26-a765-5a669e0e3237
 ms.tgt_platform: multiple
 keywords:

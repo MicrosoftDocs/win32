@@ -1,6 +1,6 @@
 ---
 title: UserData (EventType) Element
-description: Contains the event data.
+description: Contains the event data. | UserData (EventType) Element
 ms.assetid: b267187b-cfce-4e33-aba2-cf46efdd174d
 keywords:
 - UserData element EventLog

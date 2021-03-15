@@ -52,7 +52,7 @@ These flag options are also used by the [**IDXGIDevice::CreateSurface**](/window
 
 
 
-|                   |                                                                                   |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DXGI.h</dt> </dl> |
 

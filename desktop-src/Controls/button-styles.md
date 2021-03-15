@@ -41,6 +41,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 07/27/2020
 ---
 

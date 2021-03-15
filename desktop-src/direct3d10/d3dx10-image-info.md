@@ -145,7 +145,7 @@ Represents the format of the image file. See [**D3DX10\_IMAGE\_FILE\_FORMAT**](d
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10.h</dt> </dl> |
 

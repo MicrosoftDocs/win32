@@ -125,7 +125,7 @@ The type information is part of [**D3DXSHADER\_STRUCTMEMBERINFO**](d3dxshader-st
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9shader.h</dt> </dl> |
 

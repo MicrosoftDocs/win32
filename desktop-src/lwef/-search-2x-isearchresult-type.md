@@ -1,6 +1,6 @@
 ---
 title: ISearchResult Type method
-description: Reserved.
+description: Reserved. | ISearchResult Type method
 ms.assetid: 9c4e5a30-7e0e-4e8d-a31e-5160afb3749c
 keywords:
 - Type method Legacy Windows Environment Features

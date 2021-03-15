@@ -1,6 +1,6 @@
 ---
 title: GetDescription
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | GetDescription
 ms.assetid: bbf75b46-8159-4b3a-808e-16353e24b96c
 keywords:
 - GetDescription windows Media Format

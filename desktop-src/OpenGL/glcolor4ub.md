@@ -1,6 +1,6 @@
 ---
 title: glColor4ub function (Gl.h)
-description: Sets the current color.
+description: Sets the current color. | glColor4ub function (Gl.h)
 ms.assetid: 25b462f3-dd15-4e05-a383-e29757c111d8
 keywords:
 - glColor4ub function OpenGL

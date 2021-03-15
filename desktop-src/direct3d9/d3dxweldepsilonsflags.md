@@ -70,7 +70,7 @@ Instructs the weld not to split vertices that are in separate attribute groups. 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

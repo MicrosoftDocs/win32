@@ -28,7 +28,7 @@ Windows Management Instrumentation (WMI) loads the association provider whenever
 
     The following code example describes the syntax for deriving the **ProcessProfile** class from [**CIM\_RegisteredProfile**](/previous-versions//ee309375(v=vs.85)) and populating the static instance.
 
-    ``` syntax
+    ```syntax
     class ProcessProfile : CIM_RegisteredProfile
     {
     };
@@ -54,8 +54,8 @@ Windows Management Instrumentation (WMI) loads the association provider whenever
 
         The following code example describes the syntax for deriving the Microsoft\_Process\_ElementConformsToProfile\_v1 class from [**CIM\_ElementConformsToProfile**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile) in the root\\interop namespace. In this example, the Win32\_Process managed element references the root\\cimv2 namespace by using the **MSFT\_TargetNamespace** qualifier.
 
-        ``` syntax
-#pragma namespace("\\\\.\\root\\interop")
+        ```syntax
+        #pragma namespace("\\\\.\\root\\interop")
         [Provider("ProcessAssociation"),Dynamic]
         Class Microsoft_Process_ElementConformsToProfile_v1: CIM_ElementConformsToProfile
         {
@@ -66,8 +66,8 @@ Windows Management Instrumentation (WMI) loads the association provider whenever
 
         The following code example describes the syntax for deriving the Microsoft\_Process\_ElementConformsToProfile\_v1 class from [**CIM\_ElementConformsToProfile**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile) in the root\\cimv2 namespace. In this example, the [**CIM\_RegisteredProfile**](/previous-versions//ee309375(v=vs.85)) conformant standard references the root\\interop namespace by using the **MSFT\_TargetNamespace** qualifier.
 
-        ``` syntax
-#pragma namespace("\\\\.\\root\\cimv2")
+        ```syntax
+        #pragma namespace("\\\\.\\root\\cimv2")
         [Provider("ProcessAssociation"),Dynamic]
         Class Microsoft_Process_ElementConformsToProfile_v1: CIM_ElementConformsToProfile
         {
@@ -88,8 +88,8 @@ Windows Management Instrumentation (WMI) loads the association provider whenever
 
     The following code example describes the syntax to register the association provider in the root\\interop namespace.
 
-    ``` syntax
-#pragma namespace("\\\\.\\root\\interop")
+    ```syntax
+    #pragma namespace("\\\\.\\root\\interop")
     instance of __Win32Provider as $P
     {
         Name    = "ProcessAssociation" ;
@@ -108,8 +108,8 @@ Windows Management Instrumentation (WMI) loads the association provider whenever
 
     The following code example describes the syntax to register the association provider in the root\\cimv2 namespace.
 
-    ``` syntax
-#pragma namespace("\\\\.\\root\\cimv2")
+    ```syntax
+    #pragma namespace("\\\\.\\root\\cimv2")
     instance of __Win32Provider as $R
     {
         Name    = "ProcessAssociation" ;

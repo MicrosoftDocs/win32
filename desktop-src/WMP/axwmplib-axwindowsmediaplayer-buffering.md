@@ -1,6 +1,6 @@
 ---
 title: Buffering Event of the AxWindowsMediaPlayer Object
-description: The Buffering event occurs when the Windows Media Player control begins or ends buffering or downloading.
+description: The Buffering event occurs when the Windows Media Player control begins or ends buffering or downloading. | Buffering Event of the AxWindowsMediaPlayer Object
 ms.assetid: ad152c4d-1c91-4da1-bec0-46f89f3b8c79
 keywords:
 - Buffering Event of the AxWindowsMediaPlayer Object Windows Media Player

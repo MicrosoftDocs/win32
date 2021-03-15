@@ -27,22 +27,24 @@ _**Applies to:** Windows | Windows Server_
 
 The **JET_LOGTIME** structure holds elements of the date and time of an event.
 
-    typedef struct {
-      char bSeconds;
-      char bMinutes;
-      char bHours;
-      char bDay;
-      char bMonth;
-      char bYear;
-      union {
-        char bFiller1;
-        struct {
-            unsigned char fTimeIsUTC: 1;
-            unsigned char fUnused: 7;
-        };
-      };
-      char bFiller2;
-    } JET_LOGTIME;
+```cpp
+typedef struct {
+  char bSeconds;
+  char bMinutes;
+  char bHours;
+  char bDay;
+  char bMonth;
+  char bYear;
+  union {
+    char bFiller1;
+    struct {
+        unsigned char fTimeIsUTC: 1;
+        unsigned char fUnused: 7;
+    };
+  };
+  char bFiller2;
+} JET_LOGTIME;
+```
 
 ### Members
 

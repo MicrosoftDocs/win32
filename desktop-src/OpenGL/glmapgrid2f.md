@@ -1,6 +1,6 @@
 ---
 title: glMapGrid2f function (Gl.h)
-description: Defines a one-dimensional mesh.
+description: Defines a one-dimensional mesh. | glMapGrid2f function (Gl.h)
 ms.assetid: f9bc2b0c-dec5-4762-8c99-46546a81893e
 keywords:
 - glMapGrid2f function OpenGL

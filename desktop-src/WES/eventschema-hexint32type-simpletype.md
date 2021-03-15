@@ -1,6 +1,6 @@
 ---
 title: HexInt32Type Simple Type (Event Schema)
-description: Defines a 4-byte hexadecimal type.
+description: Defines a 4-byte hexadecimal type. | HexInt32Type Simple Type (Event Schema)
 ms.assetid: f4b5226d-2a5e-4756-b4c5-30cfbf13568e
 keywords:
 - HexInt32Type simple type EventLog

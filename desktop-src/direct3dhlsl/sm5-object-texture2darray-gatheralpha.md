@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::GatherAlpha(S,float,int) function
-description: Returns the alpha components of the four texel values that would be used in a bi-linear filtering operation.
+description: Returns the alpha components of the four texel values that would be used in a bi-linear filtering operation. | Texture2DArray::GatherAlpha(S,float,int) function
 ms.assetid: d7270277-53c1-4034-bf66-9a95bc1b51e4
 keywords:
 - GatherAlpha function HLSL

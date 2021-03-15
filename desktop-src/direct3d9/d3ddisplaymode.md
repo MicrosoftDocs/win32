@@ -85,7 +85,7 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type, describing the surface 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

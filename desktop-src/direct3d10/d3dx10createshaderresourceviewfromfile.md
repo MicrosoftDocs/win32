@@ -108,7 +108,7 @@ For a list of supported image formats, see [**D3DX10\_IMAGE\_FILE\_FORMAT**](d3d
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>  |

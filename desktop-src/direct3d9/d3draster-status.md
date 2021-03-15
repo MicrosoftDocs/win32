@@ -63,7 +63,7 @@ If InVBlank is **TRUE**, then this value is set to zero and can be ignored.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

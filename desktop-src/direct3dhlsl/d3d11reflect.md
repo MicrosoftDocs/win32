@@ -91,7 +91,7 @@ D3D11Reflect( pPixelShaderBuffer->GetBufferPointer(), pPixelShaderBuffer->GetBuf
 
 
 
-|                    |                                                                                                |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DCompiler.inl</dt> </dl>     |
 | Library<br/> | <dl> <dt>D3dcompiler\_47.lib</dt> </dl> |

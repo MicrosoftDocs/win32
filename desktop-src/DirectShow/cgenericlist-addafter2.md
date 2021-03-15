@@ -1,7 +1,7 @@
 ---
-description: The AddAfter method inserts a list after the specified position.
+description: "The AddAfter method inserts a list after the specified position, and uses 'pos' and 'plist' parameters."
 ms.assetid: 99214667-8478-40e5-b55b-6ac47b1fb4d2
-title: CGenericList.AddAfter method (Wxlist.h) (2)
+title: CGenericList.AddAfter method (Wxlist.h) - pos, plist parameters
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CGenericList.AddAfter method (Wxlist.h)
+# CGenericList.AddAfter method (Wxlist.h) - pos, plist parameters
 
 The `AddAfter` method inserts a list after the specified position.
 
@@ -58,14 +58,10 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 ## Requirements
 
-
-
-|                    |                                                                                                                                                                                            |
-|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
-| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
-
-
+| Requirement | Value |
+|-|-|
+| Header | Wxlist.h (include Streams.h) |
+| Library| Strmbase.lib (retail builds); Strmbasd.lib (debug builds) |
 
 ## See also
 

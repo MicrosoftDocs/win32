@@ -33,10 +33,11 @@ Before you attempt to run this sample, note the following:
 ```VB
 Option Explicit
 
-' This script is provided by Microsoft Corporation to demonstrate
-' techniques that can be used to search, download, and install
-' updates through the Windows Update Agent API. This script is
-' not intended as production code.
+WScript.Echo "This script is provided by Microsoft Corporation to demonstrate techniques that can be used to search, download,"
+WScript.Echo "and install updates through the Windows Update Agent API."
+WScript.Echo ""
+WScript.Echo "This script is not intended as production code."
+WScript.Echo ""
 
 ' Supported parameters:
 '    /AppName: Name to pass to the WUA API as the 'calling application';
@@ -53,15 +54,21 @@ Option Explicit
 '    /Offline: Path to WSUSSCN2.cab file that should be used for offline sync
 '             Default: Don't do offline sync
 '    /Service: Update service that script should scan against
-'             Available values: WU, MU, WSUS, or an
+'             Available values: WU, MU, WSUS, DCAT, STORE, or an
 '             identifying GUID of another service
 '             Default: Default service (WSUS if machine is configured to
 '                 use it, or MU if opted in, or WU otherwise)
 '             Ignored if /Offline is set
+'    /Hide: Hide updates found by the scan. Hidden updates will not
+'             normally be installed by Automatic Updates.
+'    /Show: Unhide any hidden updates found by the scan.
 '    /NoDownload: Do not download any updates that the scan detects
 '    /NoInstall: Do not install any updates that the scan detects
+'    /ShowDetails: Show details about the updates found by the scan
 '    /ShowBundle: Output information about the child updates in the 
 '             bundled updates that are found
+'    /RebootToComplete: Restart the computer if necessary to complete
+'             installation
 
 Function InstallationResultToText(result)
     Select Case result
@@ -78,29 +85,53 @@ Function InstallationResultToText(result)
     End Select
 End Function
 
+Function DeploymentActionToText(action)
+    Select Case action
+        Case 0
+            DeploymentActionToText = "None (Inherit)"
+        Case 1
+            DeploymentActionToText = "Installation"
+        Case 2
+            DeploymentActionToText = "Uninstallation"
+        Case 3
+            DeploymentActionToText = "Detection"
+        Case 4
+            DeploymentActionToText = "Optional Installation"
+        Case Else
+            DeploymentActionToText = "Unexpected (" & action & ")"
+    End Select
+End Function
+
+
 Function UpdateDescription(update)
     Dim description
     Dim I
     Dim category
     description = update.Title & " {" & update.Identity.UpdateID & "." & update.Identity.RevisionNumber & "}"
-    if update.KBArticleIDs.Count > 0 Then
-        description = description & " ("
-        For I = 0 To update.KBArticleIDs.Count -1
+    If update.IsHidden Then
+        description = description & " (hidden)"
+    End If
+    If WScript.Arguments.Named.Exists("ShowDetails") Then
+        if update.KBArticleIDs.Count > 0 Then
+            description = description & " ("
+            For I = 0 To update.KBArticleIDs.Count -1
+                If I > 0 Then
+                    description = description & ","
+                End If
+                description = description & "KB" & update.KBArticleIDs.Item(I)
+            Next
+            description = description & ")"
+        End If
+        description = description & " Categories: "
+        For I = 0 to update.Categories.Count - 1
+            Set category = update.Categories.Item(I)
             If I > 0 Then
                 description = description & ","
             End If
-            description = description & "KB" & update.KBArticleIDs.Item(I)
+            description = description & category.Name & " {" & category.CategoryID & "}"
         Next
-        description = description & ")"
+        description = description & " Deployment action: " & DeploymentActionToText(update.DeploymentAction)
     End If
-    description = description & " Categories: "
-    For I = 0 to update.Categories.Count - 1
-        Set category = update.Categories.Item(I)
-        If I > 0 Then
-            description = description & ","
-        End If
-        description = description & category.Name & " {" & category.CategoryID & "}"
-    Next  
     UpdateDescription = description
 End Function
 
@@ -141,6 +172,12 @@ If WScript.Arguments.Named.Exists("Service") Then
             serviceId = "7971f918-a847-4430-9279-4a52d1efe18d"
         Case "WSUS"
             serverSelection = 1
+        case "DCAT"
+            serverSelection = 3
+            serviceId = "855E8A7C-ECB4-4CA3-B045-1DFA50104289"
+        case "STORE"
+            serverSelection = 3
+            serviceId = "117cab2d-82b1-4b5a-a08c-4d62dbee7782"
         Case Else
             serverSelection = 3
             serviceId = WScript.Arguments.Named.Item("Service")
@@ -152,6 +189,12 @@ noDownload = WScript.Arguments.Named.Exists("NoDownload")
 
 Dim noInstall
 noInstall = WScript.Arguments.Named.Exists("NoInstall")
+
+Dim hide
+hide = WScript.Arguments.Named.Exists("Hide")
+
+Dim show
+show = WScript.Arguments.Named.Exists("Show")
 
 Dim strInput
 strInput = ""
@@ -217,27 +260,55 @@ Set updatesToDownload = CreateObject("Microsoft.Update.UpdateColl")
 If searchResult.Updates.Count = 0 Then
     WScript.Echo "There are no applicable updates."
 Else
-    WScript.Echo vbCRLF & "Creating collection of updates to download:"
+    WScript.Echo vbCRLF & "Checking search results:"
 
     Dim update
     Dim description
     Dim addThisUpdate
+    Dim hideThisUpdate
+    Dim showThisUpdate
     Dim atLeastOneAdded
     Dim propertyTest
     atLeastOneAdded = false
     Dim exclusiveAdded
     exclusiveAdded = false
-    If noDownload Then
+    If noDownload And Not hide And Not show Then
         WScript.Echo "Skipping downloads as requested."
     Else
         For I = 0 to searchResult.Updates.Count-1
             Set update = searchResult.Updates.Item(I)
             description = UpdateDescription(update)
             addThisUpdate = false
+            If hide And Not update.IsHidden Then
+                strInput = "Y"
+                If Not isAutomated Then
+                    WScript.Echo I + 1 & "> : " & description  & _
+                    " is now shown; do you want to hide it? ([Y]/N)"
+                    strInput = WScript.StdIn.Readline
+                    WScript.Echo
+                End If
+                If (strInput = "Y" or strInput = "y") Then
+                    WScript.Echo "Hiding update"
+                    update.IsHidden = true
+                End If
+            ElseIf show And update.IsHidden Then
+                strInput = "Y"
+                If Not isAutomated Then
+                    WScript.Echo I + 1 & "> : " & description  & _
+                    " is now hidden; do you want to show it? ([Y]/N)"
+                    strInput = WScript.StdIn.Readline
+                    WScript.Echo
+                End If
+                If (strInput = "Y" or strInput = "y") Then
+                    WScript.Echo "Showing update"
+                    update.IsHidden = false
+                End If
+            End If
+                
             If exclusiveAdded Then
                 WScript.Echo I + 1 & "> skipping: " & description & _
                     " because an exclusive update has already been selected"
-            Else
+            ElseIf Not noDownload Then
                 propertyTest = false
                 On Error Resume Next
                 propertyTest = update.InstallationBehavior.CanRequestUserInput
@@ -321,7 +392,7 @@ Set updatesToInstall = CreateObject("Microsoft.Update.UpdateColl")
 Dim rebootMayBeRequired
 rebootMayBeRequired = false
 
-If updatesToDownload.Count > 0 Then
+If (Not noDownload) And (updatesToDownload.Count > 0) Then
     WScript.Echo vbCRLF & "Downloading updates..."
 
     Dim downloader
@@ -385,11 +456,27 @@ Else
             UpdateDescription(updatesToInstall.Item(i)) & ": " & _
             InstallationResultToText(installationResult.GetUpdateResult(I).ResultCode) & _
             " HRESULT: " & installationResult.GetUpdateResult(I).HResult
-			If installationResult.GetUpdateResult(I).HResult = -2145116147 Then
-				WScript.Echo "An update needed additional downloaded content. Please rerun the script."
-			End If
+            If installationResult.GetUpdateResult(I).HResult = -2145116147 Then
+                WScript.Echo "An update needed additional downloaded content. Please rerun the script."
+            End If
         Next
-           
+       
+        If installationResult.RebootRequired And WScript.Arguments.Named.Exists("RebootToComplete") Then
+            strInput = "Y"
+            If Not isAutomated Then
+                WScript.Echo  vbCRLF & "Would you like to reboot now to complete the installation? (Y/[N])"
+                strInput = WScript.StdIn.Readline
+                WScript.Echo 
+            End If
+            If (strInput = "Y" or strInput = "y") Then
+                WScript.Echo "Committing installation..." & vbCRLF
+                installer.Commit(0)
+                WScript.Echo "Triggering restart in 30 seconds..." & vbCRLF
+                Dim oShell
+                Set oShell = WScript.CreateObject("WScript.Shell")
+                oShell.Run "shutdown /r /t 30", 1
+            End If     
+        End If
     End If
 End If
 

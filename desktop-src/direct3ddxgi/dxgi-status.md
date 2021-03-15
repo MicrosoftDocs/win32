@@ -45,7 +45,7 @@ For example, **DXGI\_STATUS\_OCCLUDED** is defined as **0x087A0001**:
 
 
 
-|                   |                                                                                   |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DXGI.h</dt> </dl> |
 

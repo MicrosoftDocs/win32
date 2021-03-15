@@ -1,6 +1,6 @@
 ---
 title: GetName
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | GetName
 ms.assetid: 707d49f6-8b9a-40d8-bdbd-9ed99455d084
 keywords:
 - GetName windows Media Format

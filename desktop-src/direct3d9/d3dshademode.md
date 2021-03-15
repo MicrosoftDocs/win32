@@ -79,7 +79,7 @@ The members of this enumerated type define the vales for the D3DRS\_SHADEMODE re
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

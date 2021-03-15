@@ -1,6 +1,6 @@
 ---
 title: MouseDown Event of the AxWindowsMediaPlayer Object
-description: The MouseDown event occurs when the user presses a mouse button.
+description: The MouseDown event occurs when the user presses a mouse button. | MouseDown Event of the AxWindowsMediaPlayer Object
 ms.assetid: 3dfbd034-67d4-4b7e-88d8-a77d301c5df7
 keywords:
 - MouseDown Event of the AxWindowsMediaPlayer Object Windows Media Player

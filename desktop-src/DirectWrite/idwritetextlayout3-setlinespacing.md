@@ -1,6 +1,6 @@
 ---
 title: IDWriteTextLayout3 SetLineSpacing method
-description: Set line spacing.
+description: Set line spacing. | IDWriteTextLayout3 SetLineSpacing method
 ms.assetid: 1bfca257-189c-4d18-628c-aff8217d2775
 keywords:
 - SetLineSpacing method Direct Write

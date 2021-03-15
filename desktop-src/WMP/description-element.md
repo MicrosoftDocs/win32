@@ -1,6 +1,6 @@
 ---
 title: Description Element
-description: Note This section describes functionality designed for use by online stores.
+description: Note This section describes functionality designed for use by online stores. | Description Element
 ms.assetid: 4d9ff447-e5a4-46b1-b599-87202077abfb
 keywords:
 - Description Element Windows Media Player

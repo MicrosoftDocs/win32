@@ -68,7 +68,7 @@ A call to this method (or to [**ID3DXSprite::SetWorldViewRH**](id3dxsprite--setw
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,6 +1,6 @@
 ---
 title: FOURCC Constants
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | FOURCC Constants
 ms.assetid: 6fef0903-c044-472d-aee0-7fdd62b292a9
 keywords:
 - FOURCC Constants windows Media Format

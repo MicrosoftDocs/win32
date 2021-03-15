@@ -1,6 +1,6 @@
 ---
 title: glColor4s function (Gl.h)
-description: Sets the current color.
+description: Sets the current color. | glColor4s function (Gl.h)
 ms.assetid: a942e308-8507-4afe-8941-2b9c7e39bb3d
 keywords:
 - glColor4s function OpenGL

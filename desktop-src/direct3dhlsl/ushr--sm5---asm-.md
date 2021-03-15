@@ -1,6 +1,6 @@
 ---
 title: ushr (sm5 - asm)
-description: Shift right.
+description: Shift right. | ushr (sm5 - asm)
 ms.assetid: C695CB6C-A6C9-4DC8-8EBE-70A0CFFC4981
 ms.topic: reference
 ms.date: 05/31/2018

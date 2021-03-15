@@ -1,6 +1,6 @@
 ---
 title: Texture2D::Load(int,int,uint) function
-description: Reads texture data and returns status of the operation.
+description: Reads texture data and returns status of the operation. | Texture2D::Load(int,int,uint) function
 ms.assetid: 05A12BE2-4604-470B-9EE8-F03F51E6D254
 keywords:
 - Load function HLSL

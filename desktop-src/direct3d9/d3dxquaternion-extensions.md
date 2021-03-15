@@ -74,7 +74,7 @@ Operator overloads and type casts for this structure are implemented in d3dx9mat
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9math.h</dt> </dl> |
 

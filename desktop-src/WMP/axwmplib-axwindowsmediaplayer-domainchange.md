@@ -1,6 +1,6 @@
 ---
 title: DomainChange Event of the AxWindowsMediaPlayer Object
-description: The DomainChange event occurs when the DVD domain changes.
+description: The DomainChange event occurs when the DVD domain changes. | DomainChange Event of the AxWindowsMediaPlayer Object
 ms.assetid: a080082e-1ba4-4080-b39c-b84292ecacb0
 keywords:
 - DomainChange Event of the AxWindowsMediaPlayer Object Windows Media Player

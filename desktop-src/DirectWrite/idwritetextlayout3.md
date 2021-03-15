@@ -1,6 +1,6 @@
 ---
 title: IDWriteTextLayout3 interface
-description: Represents a block of text after it has been fully analyzed and formatted.
+description: Represents a block of text after it has been fully analyzed and formatted. | IDWriteTextLayout3 interface
 ms.assetid: a7741740-9524-caf0-650b-56808abcf328
 keywords:
 - IDWriteTextLayout3 interface Direct Write

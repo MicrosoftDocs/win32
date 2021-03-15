@@ -127,7 +127,7 @@ Not all valid filtering modes for a device will apply to volume maps. In general
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

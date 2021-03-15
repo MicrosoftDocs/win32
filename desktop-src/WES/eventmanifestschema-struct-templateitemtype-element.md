@@ -1,6 +1,6 @@
 ---
 title: struct (TemplateItemType) Element
-description: Defines a structure that includes one or more data items that you want to include with the event.
+description: Defines a structure that includes one or more data items that you want to include with the event. | struct (TemplateItemType) Element
 ms.assetid: 3da56e9b-70da-4b58-9261-76f24a6f3377
 keywords:
 - struct element EventLog

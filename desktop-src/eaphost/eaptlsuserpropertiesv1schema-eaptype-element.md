@@ -1,6 +1,6 @@
 ---
-title: EapType Element (User) (v1)
-description: Is a derived type of the EapType element from the baseeapuserpropertiesv1 schema.
+title: EapType Element
+description: Is a derived type of the EapType element from the baseeapuserpropertiesv1 schema. | EapType Element
 ms.assetid: c9117803-dbf0-498d-8f86-f44ac2e6b2dc
 keywords:
 - EapType element EAPHost

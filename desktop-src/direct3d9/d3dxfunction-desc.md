@@ -61,7 +61,7 @@ Unused. This member will always be set to zero by [**GetFunctionDesc**](id3dxbas
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9effect.h</dt> </dl> |
 

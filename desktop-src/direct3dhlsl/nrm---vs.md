@@ -1,6 +1,6 @@
 ---
 title: nrm - vs
-description: Normalize a 3D vector.
+description: Normalize a 3D vector. | nrm - vs
 ms.assetid: 735e9971-c0c3-4648-8362-58bda6fac46a
 ms.topic: reference
 ms.date: 05/31/2018

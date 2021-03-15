@@ -163,7 +163,7 @@ Possible values of the above members are given in the GDI [LOGFONT](/previous-ve
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10.h</dt> </dl> |
 

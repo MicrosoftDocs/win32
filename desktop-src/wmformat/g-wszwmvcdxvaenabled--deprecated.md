@@ -1,6 +1,6 @@
 ---
 title: g_wszWMVCDXVAEnabled
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | g_wszWMVCDXVAEnabled
 ms.assetid: 51d1e20a-340c-48ac-87fe-f11dbbb5fe86
 keywords:
 - g_wszWMVCDXVAEnabled windows Media Format

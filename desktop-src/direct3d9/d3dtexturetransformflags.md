@@ -97,7 +97,7 @@ Texture coordinates can be transformed using a 4 x 4 matrix before the results a
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

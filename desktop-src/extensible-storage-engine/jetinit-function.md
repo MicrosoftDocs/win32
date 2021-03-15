@@ -30,9 +30,11 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetInit** function puts the database engine into a state where it can support application use of database files. The engine must already be properly configured for initialization using [JetSetSystemParameter](./jetsetsystemparameter-function.md). Database crash recovery is performed automatically as a part of the initialization process.
 
-    JET_ERR JET_API JetInit(
-      __in_out_opt  JET_INSTANCE* pinstance
-    );
+```cpp
+JET_ERR JET_API JetInit(
+  __in_out_opt  JET_INSTANCE* pinstance
+);
+```
 
 ### Parameters
 

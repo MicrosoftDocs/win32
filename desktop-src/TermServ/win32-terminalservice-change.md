@@ -1,5 +1,5 @@
 ---
-title: Change method of the Win32_Service class (Mbnapi.h)
+title: Change method of Win32_Service class (Mbnapi.h)
 description: Modifies a Win32\_TerminalService.
 ms.assetid: 19E43A80-47C9-4C5A-8E73-723F206AA7C0
 ms.tgt_platform: multiple
@@ -19,7 +19,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Change method of the Win32_Service class (Mbnapi.h)
+# Change method of the Win32_Service class (Mbnapi.h) - TerminalService
 
 The **Change** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method modifies a [**Win32\_TerminalService**](win32-terminalservice.md).
 

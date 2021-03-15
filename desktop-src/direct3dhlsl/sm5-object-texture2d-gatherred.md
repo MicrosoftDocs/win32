@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GatherRed(S,float,int) function
-description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value. | Texture2D::GatherRed(S,float,int) function
 ms.assetid: 6d2d1556-d52f-4625-93ca-34da399f9a8b
 keywords:
 - GatherRed function HLSL

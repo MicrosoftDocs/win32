@@ -1,6 +1,6 @@
 ---
 title: Player.MouseDown event
-description: The MouseDown event occurs when the user presses a mouse button.
+description: The MouseDown event occurs when the user presses a mouse button. | Player.MouseDown event
 ms.assetid: cc2fd2ca-c974-4683-98ca-2202c4d5b240
 keywords:
 - MouseDown event Windows Media Player

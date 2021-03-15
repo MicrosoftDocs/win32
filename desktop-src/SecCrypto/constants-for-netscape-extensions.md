@@ -56,7 +56,7 @@ For szOID\_NETSCAPE\_CERT\_TYPE extensions, the following bits are defined.
 
  
 
-For the szOID\_NETSCAPE\_REVOCATION\_URL extensions, a relative or absolute URL can be used to check the revocation status of a certificate. The revocation check will be performed as an HTTP GET method using a URL that is the concatenation of revocation-URL and certificate-serial-number. The certificate-serial-number is encoded as a string of ASCII hexadecimal digits. For example, if the netscape-base-url is https[]()://www.certs-r-us.com/, the netscape-revocation-url is cgi-bin/check-rev.cgi?, and the certificate serial number is 173420, the resulting URL would be: https[]()://www.certs-r-us.com/cgi-bin/check-rev.cgi?02a56c.
+For the szOID\_NETSCAPE\_REVOCATION\_URL extensions, a relative or absolute URL can be used to check the revocation status of a certificate. The revocation check will be performed as an HTTP GET method using a URL that is the concatenation of revocation-URL and certificate-serial-number. The certificate-serial-number is encoded as a string of ASCII hexadecimal digits. For example, if the netscape-base-url is https:\//www.certs-r-us.com/, the netscape-revocation-url is cgi-bin/check-rev.cgi?, and the certificate serial number is 173420, the resulting URL would be: https:\//www.certs-r-us.com/cgi-bin/check-rev.cgi?02a56c.
 
 The server should return a document with a Content-Type of application/x-netscape-revocation. The document should contain a single ASCII digit, "1" if the certificate is not currently valid, and "0" if it is currently valid.
 

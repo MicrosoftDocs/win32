@@ -1,6 +1,6 @@
 ---
 title: OutputPatch::Operator  function
-description: Returns the nth control point in the patch.
+description: Returns the nth control point in the patch. | OutputPatch::Operator  function
 ms.assetid: 3ac15fe8-8bab-46a2-8826-61ade927c99e
 keywords:
 - Operator function HLSL

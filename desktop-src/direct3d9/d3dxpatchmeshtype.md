@@ -73,7 +73,7 @@ Triangle patches have three sides and are described in [**D3DTRIPATCH\_INFO**](d
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

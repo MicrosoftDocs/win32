@@ -1,6 +1,6 @@
 ---
 title: IEnumTfContextViews method
-description: IEnumTfContextViews method
+description: IEnumTfContextViews method | IEnumTfContextViews method
 ms.assetid: 159e7444-d9cc-4e56-8d1f-ade2284acc0b
 keywords:
 - method Text Services Framework

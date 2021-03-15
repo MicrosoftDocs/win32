@@ -109,7 +109,7 @@ Tests for inequality between the specified D3D12\_HEAP\_PROPERTIES instances. Im
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx12.h</dt> </dl> |
 

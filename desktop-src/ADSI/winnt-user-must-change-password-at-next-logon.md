@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 To enable this option, set the **PasswordExpired** attribute of the user to one (1). Setting this attribute to zero (0) enables the user to log on without changing the password.
 
-## Example Code
+## Example 1
 
 The following code example shows how to set the change password on next logon option using Visual Basic with ADSI.
 
@@ -28,7 +28,7 @@ usr.SetInfo
 
 
 
-## Example Code
+## Example 2
 
 The following code example shows how to set the change password on next logon option using C++ with ADSI.
 

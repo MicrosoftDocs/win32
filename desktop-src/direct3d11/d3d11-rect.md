@@ -35,7 +35,7 @@ This structure is used for scissor rectangles by [**ID3D11DeviceContext::RSGetSc
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3D11.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3D11.lib</dt> </dl> |

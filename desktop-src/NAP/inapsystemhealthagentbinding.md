@@ -1,6 +1,6 @@
 ---
 title: INapSystemHealthAgentBinding interface (NapSystemHealthAgent.h)
-description: The SHAs use to communicate with the NapAgent.
+description: The SHAs use to communicate with the NapAgent. | INapSystemHealthAgentBinding interface (NapSystemHealthAgent.h)
 ms.assetid: 9366f61f-086a-4f44-900e-9ec3165a35ba
 keywords:
 - INapSystemHealthAgentBinding interface NAP

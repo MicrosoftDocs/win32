@@ -1,7 +1,7 @@
 ---
-description: The SetPalette method installs a palette for the window.
+description: The SetPalette method installs a palette for the window. This method has no parameters.
 ms.assetid: 86eb34c6-85ff-4a40-8085-ea55dbc2727e
-title: CBaseWindow.SetPalette method (Winutil.h) (2)
+title: CBaseWindow.SetPalette method (Winutil.h) - No parameters
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CBaseWindow.SetPalette method (Winutil.h)
+# CBaseWindow.SetPalette method (Winutil.h) - No parameters
 
 The `SetPalette` method installs a palette for the window.
 
@@ -60,14 +60,10 @@ Any thread can safely call this method, not just the thread that owns the window
 
 ## Requirements
 
-
-
-|                    |                                                                                                                                                                                            |
-|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
-| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
-
-
+| Requirement | Value |
+|-|-|
+| Header | Winutil.h (include Streams.h) |
+| Library| Strmbase.lib (retail builds); Strmbasd.lib (debug builds) |
 
 ## See also
 

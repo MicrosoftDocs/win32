@@ -1,8 +1,9 @@
 ---
-description: The following are the extended window styles.
+Description: The following are the extended window styles.
 ms.assetid: 5830B16E-CD52-4a1a-A1BD-3AFE66BA5FDD
 title: Extended Window Styles (Winuser.h)
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 05/31/2018
 ---
 
@@ -64,7 +65,7 @@ This code was taken from a sample in the [Windows classic samples](https://githu
 
 
 
-| Requirement | Value |
+|                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

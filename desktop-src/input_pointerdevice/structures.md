@@ -1,12 +1,12 @@
 ---
 description: The topics in this section provide the reference specifications for Pointer Device Input Stack structures.
 ms.assetid: 33DCB172-8D95-4205-AE2E-ADD7F3BF988A
-title: Structures
+title: Structures - Pointer Device Input Stack
 ms.topic: article
 ms.date: 02/05/2020
 ---
 
-# Structures
+# Pointer Device Input Stack structures
 
 The topics in this section provide the reference specifications for [Pointer Device Input Stack](pointer-device-stack-portal.md) structures.
 

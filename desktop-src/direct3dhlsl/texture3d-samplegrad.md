@@ -1,6 +1,6 @@
 ---
 title: Texture3D::Texture3D SampleGrad methods
-description: Samples a texture using a gradient to influence the way the sample location is calculated.
+description: Samples a texture using a gradient to influence the way the sample location is calculated. | Texture3D::Texture3D SampleGrad methods
 ms.assetid: AEC7BB71-7A40-40EB-9559-1AAFA29081A5
 keywords:
 - SampleGrad methods HLSL

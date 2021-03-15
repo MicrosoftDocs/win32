@@ -73,7 +73,7 @@ The values in this enumerated type are used by the D3DRS\_CULLMODE render state.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 
