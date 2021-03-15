@@ -20,14 +20,16 @@ The **JET_ERRINFOBASIC_W** structure defines the data that is returned from the 
 
 Note: This documentation is based on a preliminary release of the Extensible Storage Engine. This information is subject to change.
 
-    typedef struct { 
-        unsigned long cbStruct; 
-        JET_ERR errValue; 
-        JET_ERRCAT errcatMostSpecific; 
-        unsigned char rgCategoricalHierarchy[8]; 
-        unsigned long lSourceLine; 
-        WCHAR rgszSourceFile[64]; 
-    } JET_ERRINFOBASIC_W;
+```cpp
+typedef struct { 
+    unsigned long cbStruct; 
+    JET_ERR errValue; 
+    JET_ERRCAT errcatMostSpecific; 
+    unsigned char rgCategoricalHierarchy[8]; 
+    unsigned long lSourceLine; 
+    WCHAR rgszSourceFile[64]; 
+} JET_ERRINFOBASIC_W;
+```
 
 ### Members
 

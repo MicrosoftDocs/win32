@@ -32,14 +32,16 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetGetTableColumnInfo** function retrieves information about a table column.
 
-    JET_ERR JET_API JetGetTableColumnInfo(
-      __in          JET_SESID sesid,
-      __in          JET_TABLEID tableid,
-      __in          const tchar* szColumnName,
-      __out         void* pvResult,
-      __in          unsigned long cbMax,
-      __in          unsigned long InfoLevel
-    );
+```cpp
+JET_ERR JET_API JetGetTableColumnInfo(
+  __in          JET_SESID sesid,
+  __in          JET_TABLEID tableid,
+  __in          const tchar* szColumnName,
+  __out         void* pvResult,
+  __in          unsigned long cbMax,
+  __in          unsigned long InfoLevel
+);
+```
 
 ### Parameters
 

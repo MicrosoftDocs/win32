@@ -42,15 +42,17 @@ The resulting format of the data can be much more efficient but is not generally
 
 This operation is different from [JetCompact](./jetcompact-function.md) which makes a copy of a read-only database into a highly optimal form.
 
-    JET_ERR JET_API JetDefragment2(
-      __in          JET_SESID sesid,
-      __in          JET_DBID dbid,
-      __in          JET_PCSTR szTableName,
-      __out_opt     unsigned long* pcPasses,
-      __out_opt     unsigned long* pcSeconds,
-      __in          JET_CALLBACK callback,
-      __in          JET_GRBIT grbit
-    );
+```cpp
+JET_ERR JET_API JetDefragment2(
+  __in          JET_SESID sesid,
+  __in          JET_DBID dbid,
+  __in          JET_PCSTR szTableName,
+  __out_opt     unsigned long* pcPasses,
+  __out_opt     unsigned long* pcSeconds,
+  __in          JET_CALLBACK callback,
+  __in          JET_GRBIT grbit
+);
+```
 
 ### Parameters
 
