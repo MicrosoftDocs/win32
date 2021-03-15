@@ -27,12 +27,14 @@ _**Applies to:** Windows | Windows Server_
 
 The **JET_LOGINFO** structure returns structured information about the set of transaction log files that should be a part of a backup file set. The **JET_LOGINFO** structure is the minimal set of information needed to represent a range of logs that is retrieved with [JetGetLogInfoInstance2](./jetgetloginfoinstance2-function.md) or specified for a hard recovery with [JetExternalRestore2](./jetexternalrestore2-function.md).
 
-    typedef struct {
-      unsigned long cbSize;
-      unsigned long ulGenLow;
-      unsigned long ulGenHigh;
-      tchar szBaseName[JET_BASE_NAME_LENGTH + 1];
-    } JET_LOGINFO;
+```cpp
+typedef struct {
+  unsigned long cbSize;
+  unsigned long ulGenLow;
+  unsigned long ulGenHigh;
+  tchar szBaseName[JET_BASE_NAME_LENGTH + 1];
+} JET_LOGINFO;
+```
 
 ### Members
 
