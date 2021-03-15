@@ -1,6 +1,6 @@
 ---
 description: "Learn more about: JET_HANDLE.ToString method"
-title: JET_HANDLE.ToString method 
+title: JET_HANDLE.ToString method (2)
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_HANDLE.ToString
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_handle.tostring(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: ComboBoxEx Control Reference
+title: ComboBoxEx Control
 description: .
 ms.assetid: 409b3460-ef2e-4cc1-8a85-0a376e0f89eb
 ms.topic: article

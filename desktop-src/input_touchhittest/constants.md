@@ -1,5 +1,5 @@
 ---
-title: Constants
+title: Constants (Touch Hit Testing)
 description: The topics in this section provide the reference specifications for Touch Hit Testing constants.
 ms.assetid: 43136C6C-89B8-4D37-9D7E-22518069B173
 keywords:

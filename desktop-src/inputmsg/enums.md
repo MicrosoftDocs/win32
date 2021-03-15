@@ -1,5 +1,5 @@
 ---
-title: Enumerations
+title: Enumerations (Pointer Input Messages and Notifications)
 description: The topics in this section provide the reference specifications for Pointer Input Messages and Notifications enumerations.
 ms.assetid: 22241CD0-DAE1-4AC2-AB36-23D114803133
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 description: "Learn more about: EsentException constructor"
-title: EsentException constructor  (Microsoft.Isam.Esent)
+title: EsentException constructor  (Microsoft.Isam.Esent) (2)
 TOCTitle: 'EsentException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.EsentException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.esentexception.esentexception(v=EXCHG.10)

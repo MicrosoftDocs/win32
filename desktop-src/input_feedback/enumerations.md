@@ -1,5 +1,5 @@
 ---
-title: Enumerations
+title: Enumerations (Input Feedback)
 description: The topics in this section provide the reference specifications for Input Feedback Configuration enumerations.
 ms.assetid: FB0B8837-EE4A-48EF-8DAE-B84D7FC3BB15
 keywords:

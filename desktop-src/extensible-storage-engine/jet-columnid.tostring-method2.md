@@ -1,6 +1,6 @@
 ---
 description: "Learn more about: JET_COLUMNID.ToString method overload list"
-title: JET_COLUMNID.ToString method 
+title: JET_COLUMNID.ToString method (2)
 TOCTitle: 'ToString method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_COLUMNID.ToString
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_columnid.tostring(v=EXCHG.10)

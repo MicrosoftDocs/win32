@@ -1,5 +1,5 @@
 ---
-title: Constants
+title: Constants (Touch Injection)
 description: This section provides the reference specifications for Touch Injection constants.
 ms.assetid: 52941DF1-88AF-452B-BF3E-838ADBDBC9B2
 topic_type:
