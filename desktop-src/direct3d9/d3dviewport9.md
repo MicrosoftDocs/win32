@@ -115,7 +115,7 @@ When the viewport parameters for a device change (because of a call to the [**Se
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

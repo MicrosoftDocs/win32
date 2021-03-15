@@ -73,7 +73,7 @@ Pointer to an array of [**D3DXEFFECTDEFAULT**](d3dxeffectdefault.md) elements, e
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

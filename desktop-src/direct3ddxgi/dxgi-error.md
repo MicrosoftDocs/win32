@@ -72,7 +72,7 @@ For example, **DXGI\_ERROR\_INVALID\_CALL** is defined as **0x887A0001**:
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winerror.h</dt> </dl> |
 

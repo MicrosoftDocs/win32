@@ -53,7 +53,7 @@ Transform states in the range 256 through 511 are reserved to store up to 256 ma
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

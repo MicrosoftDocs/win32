@@ -173,7 +173,7 @@ hr = D3DX10CreateEffectPoolFromFile( str,
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Async.h</dt> </dl> |
 

@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GatherCmp(S,float,float,int,uint) function
-description: For four texel values that would be used in a bi-linear filtering operation, returns their comparison against a compare value along with tile-mapping status.
+description: For four texel values that would be used in a bi-linear filtering operation, returns their comparison against a compare value along with tile-mapping status. | Texture2D::GatherCmp(S,float,float,int,uint) function
 ms.assetid: A6610587-97C3-4CE5-86A7-3411D422BC8F
 keywords:
 - GatherCmp function HLSL

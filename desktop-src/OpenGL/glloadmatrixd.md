@@ -1,6 +1,6 @@
 ---
 title: glLoadMatrixd function (Gl.h)
-description: The glLoadMatrixd function replaces the current matrix with an arbitrary matrix.
+description: The glLoadMatrixd function replaces the current matrix with an arbitrary matrix. | glLoadMatrixd function (Gl.h)
 ms.assetid: 66c499f7-3f55-4de2-b67b-5b775b5854e0
 keywords:
 - glLoadMatrixd function OpenGL

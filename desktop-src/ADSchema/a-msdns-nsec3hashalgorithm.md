@@ -1,6 +1,6 @@
 ---
 title: ms-DNS-NSEC3-Hash-Algorithm attribute
-description: An attribute that defines the current NSEC3 salt string being used to sign the DNS zone.
+description: An attribute that defines the current NSEC3 salt string being used to sign the DNS zone. | ms-DNS-NSEC3-Hash-Algorithm attribute
 ms.assetid: 14d73b40-d106-4c52-89f2-0e0fd3ae4cd5
 ms.tgt_platform: multiple
 keywords:

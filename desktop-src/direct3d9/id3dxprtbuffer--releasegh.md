@@ -49,7 +49,7 @@ You must ensure that the number of [**ID3DXPRTBuffer::AttachGH**](id3dxprtbuffer
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

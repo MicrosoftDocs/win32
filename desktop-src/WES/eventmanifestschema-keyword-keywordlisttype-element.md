@@ -1,6 +1,6 @@
 ---
 title: keyword (KeywordListType) Element
-description: Defines a keyword that identifies a category of events.
+description: Defines a keyword that identifies a category of events. | keyword (KeywordListType) Element
 ms.assetid: c921eb01-f1b0-455c-8ff9-06895f1e40f9
 keywords:
 - keyword element EventLog

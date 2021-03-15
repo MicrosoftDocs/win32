@@ -1,6 +1,6 @@
 ---
 title: IDeliveryOptimizationFile2::GetProperty method
-description: This method returns a single property of the DO file.
+description: This method returns a single property of the DO file. | IDeliveryOptimizationFile2::GetProperty method
 keywords:
 - GetProperty method
 - GetProperty method, IDeliveryOptimizationFile2 interface

@@ -1,6 +1,6 @@
 ---
 title: ishr (sm4 - asm)
-description: Arithmetic shift right (sign extending).
+description: Arithmetic shift right (sign extending). | ishr (sm4 - asm)
 ms.assetid: AFE46BBA-A6B2-4691-A3F4-A4141F1578DB
 ms.topic: reference
 ms.date: 05/31/2018

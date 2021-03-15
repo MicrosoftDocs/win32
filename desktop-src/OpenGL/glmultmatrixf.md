@@ -1,6 +1,6 @@
 ---
 title: glMultMatrixf function (Gl.h)
-description: The glMultMatrixf function multiplies the current matrix by an arbitrary matrix.
+description: The glMultMatrixf function multiplies the current matrix by an arbitrary matrix. | glMultMatrixf function (Gl.h)
 ms.assetid: fea5e557-09bd-4c45-89cc-9f3739b577bb
 keywords:
 - glMultMatrixf function OpenGL

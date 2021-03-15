@@ -1,6 +1,6 @@
 ---
 title: D3DX11CreateAsyncTextureProcessor function (D3DX11tex.h)
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks. Create a data processor to be used with a thread pump.
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks. Create a data processor to be used with a thread pump. | D3DX11CreateAsyncTextureProcessor function (D3DX11tex.h)
 ms.assetid: 4f23d265-b326-4449-b7ca-dd0596511b35
 keywords:
 - D3DX11CreateAsyncTextureProcessor function Direct3D 11
@@ -90,7 +90,7 @@ For Win32 desktop apps, you can use the [Concurrency Runtime](/previous-versions
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX11tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX11.lib</dt> </dl>  |

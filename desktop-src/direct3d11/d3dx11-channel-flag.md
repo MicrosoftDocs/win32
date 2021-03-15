@@ -84,7 +84,7 @@ Indicates the luminaces of the red, green, and blue channels should be used.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX11tex.h</dt> </dl> |
 

@@ -53,7 +53,7 @@ The repeat count, scan code, extended-key flag, context code, previous key-state
 | 16-23 | The scan code. The value depends on the OEM.                                                                                                                                                                                  |
 | 24    | Indicates whether the key is an extended key, such as the right-hand ALT and CTRL keys that appear on an enhanced 101- or 102-key keyboard. The value is 1 if it is an extended key; otherwise, it is zero.                   |
 | 25-28 | Reserved; do not use.                                                                                                                                                                                                         |
-| 29    | The context code. The value is 1 if the ALT key is down while the key is released; it is zero if the [**WM\_SYSKEYDOWN**](wm-syskeydown.md) message is posted to the active window because no window has the keyboard focus. |
+| 29    | The context code. The value is 1 if the ALT key is down while the key is released; it is zero if the **WM\_SYSKEYUP** message is posted to the active window because no window has the keyboard focus. |
 | 30    | The previous key state. The value is always 1 for a **WM\_SYSKEYUP** message.                                                                                                                                                 |
 | 31    | The transition state. The value is always 1 for a **WM\_SYSKEYUP** message.                                                                                                                                                   |
 

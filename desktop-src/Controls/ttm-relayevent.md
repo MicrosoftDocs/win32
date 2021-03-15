@@ -51,6 +51,7 @@ A tooltip control processes only the following messages passed to it by the **TT
 -   WM\_MBUTTONDOWN
 -   WM\_MBUTTONUP
 -   WM\_MOUSEMOVE
+-   WM\_NCMOUSEMOVE
 -   WM\_RBUTTONDOWN
 -   WM\_RBUTTONUP
 

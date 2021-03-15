@@ -1,6 +1,6 @@
 ---
 title: PLAYERELEMENT
-description: This is a predefined BUTTONELEMENT with the following default values.
+description: This is a predefined BUTTONELEMENT with the following default values. | PLAYERELEMENT
 ms.assetid: 7df93011-5d7a-4e2d-8c52-86274b0bf504
 keywords:
 - PLAYERELEMENT Windows Media Player

@@ -1,6 +1,6 @@
 ---
 title: template (TemplateListType) Element
-description: A template that defines the data to include with an event.
+description: A template that defines the data to include with an event. | template (TemplateListType) Element
 ms.assetid: 97560254-100c-4d2a-bf3f-ca0897ece6c2
 keywords:
 - template element EventLog

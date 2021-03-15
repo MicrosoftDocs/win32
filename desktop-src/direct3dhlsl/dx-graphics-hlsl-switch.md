@@ -177,7 +177,7 @@ Here are example usages of forcecase and call flow control attributes:
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Urlmon.h</dt> </dl> |
 

@@ -69,7 +69,7 @@ You can only create a Direct3D 10.1 device on computers running Windows Vista Se
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Core.h</dt> </dl> |
 

@@ -1,6 +1,6 @@
 ---
 title: External.changeViewOnlineList method
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.changeViewOnlineList method
 ms.assetid: d7a45ced-431f-4d35-8c9c-c6eeba6fcbf3
 keywords:
 - changeViewOnlineList method Windows Media Player

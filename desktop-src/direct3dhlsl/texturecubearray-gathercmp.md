@@ -1,6 +1,6 @@
 ---
 title: TextureCubeArray::TextureCubeArray GatherCmp methods
-description: Samples and compares a texture and returns all components.
+description: Samples and compares a texture and returns all components. | TextureCubeArray::TextureCubeArray GatherCmp methods
 ms.assetid: DF2C86F3-B585-47CD-8A0F-A5695A91F89E
 keywords:
 - GatherCmp methods HLSL

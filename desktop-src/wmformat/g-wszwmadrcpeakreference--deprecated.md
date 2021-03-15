@@ -1,6 +1,6 @@
 ---
 title: g_wszWMADRCPeakReference (Wmcodecdsp.h)
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | g_wszWMADRCPeakReference (Wmcodecdsp.h)
 ms.assetid: a048323c-e2f1-4df3-86e6-dcad405fa8d9
 keywords:
 - g_wszWMADRCPeakReference windows Media Format

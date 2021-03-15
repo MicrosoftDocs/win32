@@ -1,6 +1,6 @@
 ---
 title: Texture2DMSArray::GetSamplePosition function
-description: Gets the position of the specified sample.
+description: Gets the position of the specified sample. | Texture2DMSArray::GetSamplePosition function
 ms.assetid: e04717be-58b0-4242-87dd-d769834ae1c2
 keywords:
 - GetSamplePosition function HLSL

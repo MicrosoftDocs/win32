@@ -1,6 +1,6 @@
 ---
 title: Player.MediaCollectionMediaRemoved event
-description: The MediaCollectionMediaRemoved event occurs when a media item is removed from the local library.
+description: The MediaCollectionMediaRemoved event occurs when a media item is removed from the local library. | Player.MediaCollectionMediaRemoved event
 ms.assetid: a1df6faf-38dc-4f5f-8f8a-953c91ea026c
 keywords:
 - MediaCollectionMediaRemoved event Windows Media Player

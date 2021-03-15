@@ -1,6 +1,6 @@
 ---
 title: glNewList function (Gl.h)
-description: The glNewList and glEndList functions create or replace a display list.
+description: The glNewList and glEndList functions create or replace a display list. | glNewList function (Gl.h)
 ms.assetid: 9c6556d4-855f-4cba-94cc-27b5f1e4607a
 keywords:
 - glNewList function OpenGL

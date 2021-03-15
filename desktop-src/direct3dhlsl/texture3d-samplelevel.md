@@ -1,6 +1,6 @@
 ---
 title: Texture3D::Texture3D SampleLevel methods
-description: Samples a texture on the specified mipmap level.
+description: Samples a texture on the specified mipmap level. | Texture3D::Texture3D SampleLevel methods
 ms.assetid: 0C3CACD0-C870-4C69-9BB6-2D7376386711
 keywords:
 - SampleLevel methods HLSL

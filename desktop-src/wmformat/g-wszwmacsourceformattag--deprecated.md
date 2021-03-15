@@ -1,6 +1,6 @@
 ---
 title: g_wszWMACSourceFormatTag (Wmcodecdsp.h)
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | g_wszWMACSourceFormatTag (Wmcodecdsp.h)
 ms.assetid: c1ceb8e8-20d2-4dda-a47d-2c23df49d66f
 keywords:
 - g_wszWMACSourceFormatTag windows Media Format

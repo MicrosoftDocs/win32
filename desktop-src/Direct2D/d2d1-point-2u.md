@@ -1,6 +1,6 @@
 ---
 title: D2D1_POINT_2U (D2DBaseTypes.h)
-description: Represents an x-coordinate and y-coordinate pair in two-dimensional space.
+description: Represents an x-coordinate and y-coordinate pair in two-dimensional space. | D2D1_POINT_2U (D2DBaseTypes.h)
 ms.assetid: 652c0dd7-c24d-4941-ae23-2be21b53af69
 keywords:
 - D2D1_POINT_2U

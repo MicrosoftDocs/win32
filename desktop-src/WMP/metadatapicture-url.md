@@ -1,6 +1,6 @@
 ---
 title: MetadataPicture.URL
-description: This property is for internal use only.
+description: This property is for internal use only. | MetadataPicture.URL
 ms.assetid: 76ce4726-6655-4a78-91db-4bc176f702a8
 keywords:
 - MetadataPicture.URL Windows Media Player

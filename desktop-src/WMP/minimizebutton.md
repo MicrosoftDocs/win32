@@ -1,6 +1,6 @@
 ---
 title: MINIMIZEBUTTON
-description: This is a predefined BUTTON with the following default values.
+description: This is a predefined BUTTON with the following default values. | MINIMIZEBUTTON
 ms.assetid: 4a4054d0-1879-4fa4-b925-341ea1111774
 keywords:
 - MINIMIZEBUTTON Windows Media Player

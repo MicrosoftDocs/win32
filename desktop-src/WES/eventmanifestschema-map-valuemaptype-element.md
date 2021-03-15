@@ -1,6 +1,6 @@
 ---
 title: map (ValueMapType) Element
-description: Defines the mapping between an integer value and a string value.
+description: Defines the mapping between an integer value and a string value. | map (ValueMapType) Element
 ms.assetid: 9fdcb3c5-f847-40a2-9d58-4dad964cd8ca
 keywords:
 - map element EventLog

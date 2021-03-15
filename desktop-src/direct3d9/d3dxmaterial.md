@@ -74,7 +74,7 @@ typedef struct D3DXMATERIAL* LPD3DXMATERIAL;
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

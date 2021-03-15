@@ -1,6 +1,6 @@
 ---
 title: dcl_interface (sm5 - asm)
-description: Declare function table pointers (interfaces).
+description: Declare function table pointers (interfaces). | dcl_interface (sm5 - asm)
 ms.assetid: 5A4D911E-7117-409B-8FDC-9CEC2C185C15
 ms.topic: reference
 ms.date: 05/31/2018

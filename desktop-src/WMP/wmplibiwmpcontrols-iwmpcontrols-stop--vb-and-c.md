@@ -1,6 +1,6 @@
 ---
 title: IWMPControls stop method
-description: The stop method stops playback of the media item.
+description: The stop method stops playback of the media item. | IWMPControls stop method
 ms.assetid: 4be601af-6321-4115-a94d-cfc9228991cb
 keywords:
 - stop method Windows Media Player

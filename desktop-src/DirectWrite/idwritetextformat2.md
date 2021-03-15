@@ -1,6 +1,6 @@
 ---
 title: IDWriteTextFormat2 interface
-description: Describes the font and paragraph properties used to format text, and it describes locale information.
+description: Describes the font and paragraph properties used to format text, and it describes locale information. | IDWriteTextFormat2 interface
 ms.assetid: 4396d2b0-240f-ee8b-1d21-c4294fb29b51
 keywords:
 - IDWriteTextFormat2 interface Direct Write

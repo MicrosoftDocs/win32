@@ -1,6 +1,6 @@
 ---
 title: IWMPNetwork setProxyExceptionList method
-description: The setProxyExceptionList method specifies the proxy exception list.
+description: The setProxyExceptionList method specifies the proxy exception list. | IWMPNetwork setProxyExceptionList method
 ms.assetid: a7a5e9ad-f71f-431e-9a53-b56456778104
 keywords:
 - setProxyExceptionList method Windows Media Player

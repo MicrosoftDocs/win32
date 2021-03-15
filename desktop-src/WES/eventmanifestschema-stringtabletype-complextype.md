@@ -1,6 +1,6 @@
 ---
 title: StringTableType Complex Type
-description: Defines a list of localized strings that you can reference in your manifest.
+description: Defines a list of localized strings that you can reference in your manifest. | StringTableType Complex Type
 ms.assetid: 47a59ff7-aaf6-4200-805b-0a8b5f57f101
 keywords:
 - StringTableType complex type EventLog

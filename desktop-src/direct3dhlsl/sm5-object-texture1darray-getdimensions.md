@@ -1,6 +1,6 @@
 ---
 title: Texture1DArray::GetDimensions function
-description: Returns the dimensions of the resource.
+description: Returns the dimensions of the resource. | Texture1DArray::GetDimensions function
 ms.assetid: a15f1808-296d-43ac-80c0-5cbec0bcb801
 keywords:
 - GetDimensions function HLSL

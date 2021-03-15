@@ -31,12 +31,14 @@ The **JetGetErrorInfoW** function BAS_ of the database engine.
 
 Note: This documentation is based on a preliminary release of the Extensible Storage Engine. This information is subject to change.
 
-    JET_ERR JET_API JetGetErrorInfoW( 
-        _In_opt_ void *                      pvContext, 
-        _Out_writes_bytes_( cbMax ) void *   pvResult, 
-        _In_ unsigned long                   cbMax, 
-        _In_ unsigned long                   InfoLevel, 
-        _In_ JET_GRBIT                       grbit );
+```cpp
+JET_ERR JET_API JetGetErrorInfoW( 
+    _In_opt_ void *                      pvContext, 
+    _Out_writes_bytes_( cbMax ) void *   pvResult, 
+    _In_ unsigned long                   cbMax, 
+    _In_ unsigned long                   InfoLevel, 
+    _In_ JET_GRBIT                       grbit );
+```
 
 ### Parameters
 

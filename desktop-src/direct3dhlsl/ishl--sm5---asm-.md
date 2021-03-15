@@ -1,6 +1,6 @@
 ---
 title: ishl (sm5 - asm)
-description: Shift left.
+description: Shift left. | ishl (sm5 - asm)
 ms.assetid: 3EE669BA-252D-4617-85B0-AEBB7F7E4C5E
 ms.topic: reference
 ms.date: 05/31/2018

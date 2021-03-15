@@ -1,6 +1,6 @@
 ---
 title: ms-TS-Secondary-Desktop-BL attribute
-description: This attribute represents the backward link to a user.
+description: This attribute represents the backward link to a user. | ms-TS-Secondary-Desktop-BL attribute
 ms.assetid: e87ebdd5-9a8c-4b1a-9213-1b22ffaf0363
 ms.tgt_platform: multiple
 keywords:

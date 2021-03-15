@@ -173,7 +173,7 @@ Returns one of the following [Direct3D 10 Return Codes](d3d10-graphics-reference
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Async.h</dt> </dl> |
 

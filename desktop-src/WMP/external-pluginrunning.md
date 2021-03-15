@@ -1,6 +1,6 @@
 ---
 title: External.pluginRunning
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.pluginRunning
 ms.assetid: 1e6e669c-1d11-44ab-99cb-a80b19ddcdc9
 keywords:
 - External.pluginRunning Windows Media Player

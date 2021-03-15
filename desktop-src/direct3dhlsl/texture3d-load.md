@@ -1,6 +1,6 @@
 ---
 title: Texture3D::Texture3D Load methods
-description: Reads texture data.
+description: Reads texture data. | Texture3D::Texture3D Load methods
 ms.assetid: 'eb98a31a-0535-4697-ba93-c216845dbfe8'
 keywords:
 - Load methods HLSL

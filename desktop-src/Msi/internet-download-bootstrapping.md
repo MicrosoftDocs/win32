@@ -44,8 +44,8 @@ For example, the following ISETUPPROPNAME\_BASEURL and ISETUPPROPNAME\_DATABASE 
 
 | Actual package location                                                                            | Resource values                                                                                                                               |
 |----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| https[]()://www.blueyonderairlines.com/Products/Product1/product1.msi                                   | ISETUPPROPNAME\_BASEURL = https[]()://www.blueyonderairlines.com/Products/Product1 ISETUPPROPNAME\_DATABASE = product1.msi<br/>              |
-| https[]()://www.blueyonderairlines.com/Products/Product1/product1.msi                                   | ISETUPPROPNAME\_BASEURL = https[]()://www.blueyonderairlines.com/Products/Product1 ISETUPPROPNAME\_DATABASE = ../Products1/product1.msi<br/> |
+| https:\//www.blueyonderairlines.com/Products/Product1/product1.msi                                   | ISETUPPROPNAME\_BASEURL = https:\//www.blueyonderairlines.com/Products/Product1 ISETUPPROPNAME\_DATABASE = product1.msi<br/>              |
+| https:\//www.blueyonderairlines.com/Products/Product1/product1.msi                                   | ISETUPPROPNAME\_BASEURL = https:\//www.blueyonderairlines.com/Products/Product1 ISETUPPROPNAME\_DATABASE = ../Products1/product1.msi<br/> |
 | e:\\product1.msi                                                                                   | Omit ISETUPPROPNAME\_BASEURL. ISETUPPROPNAME\_DATABASE = product1.msi<br/>                                                              |
 | e:\\setup\\product1.msi (The currently running location of Setup.exe is e:\\setup.exe.)<br/> | Omit ISETUPPROPNAME\_BASEURL. ISETUPPROPNAME\_DATABASE = Setup\\product1.msi<br/>                                                       |
 

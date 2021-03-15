@@ -34,7 +34,7 @@ All Direct3D Macros have the following requirements:
 
 
 
-|        |             |
+| Requirement | Value |
 |--------|-------------|
 | Header | d3d9types.h |
 

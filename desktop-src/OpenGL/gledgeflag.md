@@ -1,6 +1,6 @@
 ---
 title: glEdgeFlag function (Gl.h)
-description: Flags edges as either boundary or nonboundary.
+description: Flags edges as either boundary or nonboundary. | glEdgeFlag function (Gl.h)
 ms.assetid: cebaa4af-a3bc-4396-9ee0-8cc10bcaf256
 keywords:
 - glEdgeFlag function OpenGL

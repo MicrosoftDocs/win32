@@ -1,6 +1,6 @@
 ---
 title: glFogiv function (Gl.h)
-description: The glFogiv function specifies fog parameters.
+description: The glFogiv function specifies fog parameters. | glFogiv function (Gl.h)
 ms.assetid: 8d920ddc-6155-412d-af10-585932cb149f
 keywords:
 - glFogiv function OpenGL

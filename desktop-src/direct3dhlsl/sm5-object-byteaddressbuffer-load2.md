@@ -1,6 +1,6 @@
 ---
 title: ByteAddressBuffer::Load2(uint) function
-description: Gets two values.
+description: Gets two values. | ByteAddressBuffer::Load2(uint) function
 ms.assetid: 696ce310-4d65-4382-97ec-046160197c67
 keywords:
 - Load2 function HLSL

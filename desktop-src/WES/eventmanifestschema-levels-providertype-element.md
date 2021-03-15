@@ -1,6 +1,6 @@
 ---
 title: levels (ProviderType) Element
-description: Defines a list of levels that specify the severity of an event.
+description: Defines a list of levels that specify the severity of an event. | levels (ProviderType) Element
 ms.assetid: 32801166-7c4a-4c59-a072-9f3625c80070
 keywords:
 - levels element EventLog

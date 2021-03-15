@@ -1,6 +1,6 @@
 ---
 title: RWTexture2D::Operator  function
-description: Returns a resource variable.
+description: Returns a resource variable. | RWTexture2D::Operator  function
 ms.assetid: 339dba7d-b0c6-4112-ae40-555661577a3e
 keywords:
 - Operator function HLSL

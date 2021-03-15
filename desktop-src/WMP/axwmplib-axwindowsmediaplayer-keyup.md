@@ -1,6 +1,6 @@
 ---
 title: KeyUp Event of the AxWindowsMediaPlayer Object
-description: The KeyUp event occurs when a key is released.
+description: The KeyUp event occurs when a key is released. | KeyUp Event of the AxWindowsMediaPlayer Object
 ms.assetid: db814481-6099-4dbd-8ab1-808e1875ae35
 keywords:
 - KeyUp Event of the AxWindowsMediaPlayer Object Windows Media Player

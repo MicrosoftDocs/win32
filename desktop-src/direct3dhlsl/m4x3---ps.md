@@ -1,6 +1,6 @@
 ---
 title: m4x3 - ps
-description: Multiplies a 4-component vector by a 4x3 matrix.
+description: Multiplies a 4-component vector by a 4x3 matrix. | m4x3 - ps
 ms.assetid: cf9ae4c3-6cdf-4c6f-b34c-0ebd3c8a4123
 ms.topic: reference
 ms.date: 05/31/2018

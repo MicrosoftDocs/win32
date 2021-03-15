@@ -12,7 +12,7 @@ A configurable bootstrap executable (Setup.exe) and configuration tool ( [Msistu
 
 Entering the following command line configures the resources for the sample described in [A URL Based Windows Installer Installation Example](a-url-based-windows-installer-installation-example.md).
 
-**MsiStuff setup.exe /u https[]()://www.blueyonderairlines.com/Products/MySetup /d MySetup.msi /n MySetup /v 150 /i https[]()://www.blueyonderairlines.com/Products/Common/InstMsi /a Ansi/Instmsi.exe /w Unicode/Instmsi.exe**
+`MsiStuff setup.exe /u https://www.blueyonderairlines.com/Products/MySetup /d MySetup.msi /n MySetup /v 150 /i https://www.blueyonderairlines.com/Products/Common/InstMsi /a Ansi/Instmsi.exe /w Unicode/Instmsi.exe`
 
 [Continue](sign-setup-exe-and-mysetup-msi.md)
 

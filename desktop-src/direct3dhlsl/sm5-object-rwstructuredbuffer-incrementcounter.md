@@ -58,7 +58,7 @@ This function is supported for the following types of shaders:
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Httpserv.h</dt> </dl> |
 

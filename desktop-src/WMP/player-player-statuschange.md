@@ -1,6 +1,6 @@
 ---
 title: Player.StatusChange event
-description: The StatusChange event occurs when the status property changes value.
+description: The StatusChange event occurs when the status property changes value. | Player.StatusChange event
 ms.assetid: a457c345-2f24-4f91-a7ff-27025f7bb41d
 keywords:
 - StatusChange event Windows Media Player

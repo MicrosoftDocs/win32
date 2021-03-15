@@ -1,6 +1,6 @@
 ---
 title: glTexCoord2fv function (Gl.h)
-description: Sets the current texture coordinates.
+description: Sets the current texture coordinates. | glTexCoord2fv function (Gl.h)
 ms.assetid: ee7976ae-cea8-4116-8810-20d0995ff569
 keywords:
 - glTexCoord2fv function OpenGL

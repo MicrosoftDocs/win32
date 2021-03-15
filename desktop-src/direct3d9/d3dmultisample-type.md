@@ -214,7 +214,7 @@ See D3DRS\_MULTISAMPLEMASK for discussion of maskable multisampling.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

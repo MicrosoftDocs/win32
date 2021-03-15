@@ -1,6 +1,6 @@
 ---
 title: IBackgroundCopyJob Methods (DO)
-description: The IBackgroundCopyJob interface exposes the following methods.
+description: The IBackgroundCopyJob interface exposes the following methods. | IBackgroundCopyJob Methods (DO)
 ms.assetid: 393EF1F1-940A-489E-826D-E125C2B3D8BF
 ms.topic: reference
 ms.date: 05/31/2018

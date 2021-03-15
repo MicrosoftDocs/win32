@@ -19,7 +19,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Change method of the Win32_Service class (Mbnapi.h)
+# Change method of the Win32_Service class (Mbnapi.h) - TerminalService
 
 The **Change** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method modifies a [**Win32\_TerminalService**](win32-terminalservice.md).
 

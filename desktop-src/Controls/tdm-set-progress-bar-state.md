@@ -34,7 +34,7 @@ An **int** that specifies the state of the progress bar. This parameter can be o
 | Value                                                                                                                                                   | Meaning                                               |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
 | <span id="PBST_NORMAL"></span><span id="pbst_normal"></span><dl> <dt>**PBST\_NORMAL**</dt> </dl> | Sets the progress bar to the normal state.<br/> |
-| <span id="PBST_PAUSE"></span><span id="pbst_pause"></span><dl> <dt>**PBST\_PAUSE**</dt> </dl>    | Sets the progress bar to the paused state.<br/> |
+| <span id="PBST_PAUSED"></span><span id="pbst_paused"></span><dl> <dt>**PBST\_PAUSED**</dt> </dl>    | Sets the progress bar to the paused state.<br/> |
 | <span id="PBST_ERROR"></span><span id="pbst_error"></span><dl> <dt>**PBST\_ERROR**</dt> </dl>    | Set the progress bar to the error state.<br/>   |
 
 

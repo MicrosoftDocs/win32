@@ -1,6 +1,6 @@
 ---
 title: TextureCube::GatherCmpRed(S,float,float,uint) function
-description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value along with tile-mapping status.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value along with tile-mapping status. | TextureCube::GatherCmpRed(S,float,float,uint) function
 ms.assetid: 99ADA450-9665-4870-924E-E4DAEFA912D5
 keywords:
 - GatherCmpRed function HLSL

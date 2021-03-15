@@ -1,6 +1,6 @@
 ---
 title: MediaRenderer.PauseAsync method
-description: Instructs the DMR asynchronously to pause playing the current content.
+description: Instructs the DMR asynchronously to pause playing the current content. | MediaRenderer.PauseAsync method
 ms.assetid: '1bd36349-0551-44e8-9550-3fd80900de9a'
 keywords:
 - PauseAsync method Media Streaming API

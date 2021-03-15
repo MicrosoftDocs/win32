@@ -30,11 +30,13 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetGetLock** function provides a means to explicitly reserve the ability to update a row, write lock, or to explicitly prevent a row from being updated by any other session, read lock. Normally, row write locks are acquired implicitly as a result of updating rows. Read locks are usually not required because of record versioning. However, in some cases a transaction may desire to explicitly lock a row to enforce serialization, or to ensure that a subsequent operation will succeed by virtue that required locks have already been taken.
 
-    JET_ERR JET_API JetGetLock(
-      __in          JET_SESID sesid,
-      __in          JET_TABLEID tableid,
-      __in          JET_GRBIT grbit
-    );
+```cpp
+JET_ERR JET_API JetGetLock(
+  __in          JET_SESID sesid,
+  __in          JET_TABLEID tableid,
+  __in          JET_GRBIT grbit
+);
+```
 
 ### Parameters
 

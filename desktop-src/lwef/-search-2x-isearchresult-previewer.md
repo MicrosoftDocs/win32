@@ -1,6 +1,6 @@
 ---
 title: ISearchResult Previewer method
-description: Reserved.
+description: Reserved. | ISearchResult Previewer method
 ms.assetid: e20e39be-be54-4d34-b62e-9a823144115a
 keywords:
 - Previewer method Legacy Windows Environment Features

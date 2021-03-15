@@ -1,6 +1,6 @@
 ---
 title: Header Control Structures
-description: .
+description: Header Control Structures
 ms.assetid: f5fe232f-7620-4437-8a58-49fe160ac208
 ms.topic: article
 ms.date: 05/31/2018

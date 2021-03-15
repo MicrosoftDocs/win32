@@ -17,7 +17,7 @@ This section lists the MCI functions, structures, messages, macros, commands, an
 -   [**MM\_MCINOTIFY**](mm-mcinotify.md)
 -   [**MM\_MCISIGNAL**](mm-mcisignal.md)
 
-## Retrieving Information
+## Getting Information
 
 -   [**mciGetCreatorTask**](/previous-versions//dd757155(v=vs.85))
 -   [**mciGetDeviceID**](/previous-versions//dd757156(v=vs.85))

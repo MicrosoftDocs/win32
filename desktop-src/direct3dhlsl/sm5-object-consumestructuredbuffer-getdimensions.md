@@ -1,6 +1,6 @@
 ---
 title: ConsumeStructuredBuffer::GetDimensions function
-description: Gets the resource dimensions.
+description: Gets the resource dimensions. | ConsumeStructuredBuffer::GetDimensions function
 ms.assetid: 0710a4fb-23b0-4b19-b9ed-21bbb9874d33
 keywords:
 - GetDimensions function HLSL

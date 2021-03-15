@@ -1,6 +1,6 @@
 ---
 title: Using Two Encoding Passes
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | Using Two Encoding Passes
 ms.assetid: 953313d4-4a37-4064-b4c3-b7479c87207b
 keywords:
 - Using Two Encoding Passes windows Media Format

@@ -57,7 +57,7 @@ This enumeration is used as a member in [**D3DDISPLAYMODEFILTER**](d3ddisplaymod
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

@@ -110,7 +110,7 @@ This method is very similar to the [**ID3DXBaseMesh::CloneMesh**](id3dxbasemesh-
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

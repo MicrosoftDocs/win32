@@ -1,6 +1,6 @@
 ---
 title: IVMVirtualMachineEvents OnStateChange method (VPCCOMInterfaces.h)
-description: Receives notification that a virtual machine's state has changed.
+description: Receives notification that a virtual machine's state has changed. | IVMVirtualMachineEvents OnStateChange method (VPCCOMInterfaces.h)
 ms.assetid: 1737bb5e-078d-4ebe-9558-de083aae1baa
 keywords:
 - OnStateChange method Virtual PC

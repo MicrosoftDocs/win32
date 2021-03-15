@@ -428,7 +428,7 @@ The following constants are declared in d3d12.h, for use by a D3D12 title.
 
 ## Requirements
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D12.h</dt> </dl> |
 

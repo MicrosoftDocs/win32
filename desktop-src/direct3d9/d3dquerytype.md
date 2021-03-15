@@ -167,7 +167,7 @@ Efficiency of memory allocation contained in a [**D3DMEMORYPRESSURE**](d3dmemory
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

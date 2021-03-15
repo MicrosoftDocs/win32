@@ -32,11 +32,13 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetDeleteColumn** function deletes a column from an ESE database table.
 
-    JET_ERR JET_API JetDeleteColumn(
-      __in          JET_SESID sesid,
-      __in          JET_TABLEID tableid,
-      __in          const tchar* szColumnName
-    );
+```cpp
+JET_ERR JET_API JetDeleteColumn(
+  __in          JET_SESID sesid,
+  __in          JET_TABLEID tableid,
+  __in          const tchar* szColumnName
+);
+```
 
 ### Parameters
 

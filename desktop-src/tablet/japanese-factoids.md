@@ -23,7 +23,7 @@ The following tables list formats that are available for each factoid used in Ja
 
  
 
-## Japanese Factoids, continued
+## Japanese Factoids, part 2
 
 
 
@@ -36,7 +36,7 @@ The following tables list formats that are available for each factoid used in Ja
 
  
 
-## Japanese Factoids, continued
+## Japanese Factoids, part 3
 
 
 
@@ -54,12 +54,9 @@ The following tables list formats that are available for each factoid used in Ja
 <tbody>
 <tr class="odd">
 <td>Description<br/></td>
-<td>All <strong>KanjiCommon</strong>, <strong>Hiragana</strong>, and <strong>Katakana</strong> characters. In addition, common alphanumeric characters, standard punctuation, and symbols are included.<br/>
-<blockquote>
-[!Note]<br />
+<td>All <strong>KanjiCommon</strong>, <strong>Hiragana</strong>, and <strong>Katakana</strong> characters. In addition, common alphanumeric characters, standard punctuation, and symbols are included.<br/><br />
 The <strong>JapaneseCommon</strong> factoid is useful for standard text entry where infrequently used characters are not needed.
-</blockquote>
-<br/></td>
+</td>
 </tr>
 </tbody>
 </table>

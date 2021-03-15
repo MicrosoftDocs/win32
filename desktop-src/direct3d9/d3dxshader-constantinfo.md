@@ -119,7 +119,7 @@ Offset from the beginning of this structure, in bytes, to the string that contai
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9shader.h</dt> </dl> |
 

@@ -54,7 +54,7 @@ The mesh will be simplified by the number of faces specified in the MinValue par
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

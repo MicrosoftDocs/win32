@@ -89,7 +89,7 @@ Barycentric coordinates define a point inside a triangle in terms of the triangl
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

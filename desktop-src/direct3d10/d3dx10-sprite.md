@@ -109,7 +109,7 @@ The index of the texture. If pTexture does not represent a texture array, then t
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10.h</dt> </dl> |
 

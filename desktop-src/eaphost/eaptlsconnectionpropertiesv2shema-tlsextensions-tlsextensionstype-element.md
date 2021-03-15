@@ -1,6 +1,6 @@
 ---
 title: PerformServerValidation element
-description: Learn about the PerformServerValidation element. This element indicates whether server validation is performed.
+description: Learn about the PerformServerValidation element. This element indicates whether server validation is performed. | PerformServerValidation element
 ms.assetid: c1dd1af1-63a0-48f7-8da5-860c50d73259
 keywords:
 - PerformServerValidation element EAPHost

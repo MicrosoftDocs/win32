@@ -24,7 +24,7 @@ This structure is used for scissor rectangles by [**ID3D10Device::RSGetScissorRe
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3D10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3D10.lib</dt> </dl> |

@@ -131,7 +131,7 @@ In addition to using D3DDECLMETHOD\_DEFAULT, a normal mesh can use D3DDECLMETHOD
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

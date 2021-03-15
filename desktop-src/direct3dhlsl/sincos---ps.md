@@ -1,6 +1,6 @@
 ---
 title: sincos - ps
-description: Computes sine and cosine, in radians.
+description: Computes sine and cosine, in radians. | sincos - ps
 ms.assetid: 639237ea-1b7a-4959-9093-78f134c11863
 ms.topic: reference
 ms.date: 05/31/2018
