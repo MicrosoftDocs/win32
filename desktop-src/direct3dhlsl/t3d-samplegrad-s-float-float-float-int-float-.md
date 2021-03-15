@@ -1,6 +1,6 @@
 ---
-title: SampleGrad::SampleGrad(S,float,float,float,int,float) function
-description: Samples a texture, using a gradient to influence the way the sample location is calculated, with an optional value to clamp sample level-of-detail (LOD) values to. | SampleGrad::SampleGrad(S,float,float,float,int,float) function
+title: SampleGrad::SampleGrad(S,float,float,float,int,float) function function for Texture3D
+description: Samples a texture, using a gradient to influence the way the sample location is calculated, with an optional value to clamp sample level-of-detail (LOD) values to. For Texture3D.
 ms.assetid: F59D54F8-CC9E-47F8-97DD-735C70939C07
 keywords:
 - SampleGrad function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# SampleGrad::SampleGrad(S,float,float,float,int,float) function
+# SampleGrad::SampleGrad(S,float,float,float,int,float) function for Texture3D
 
 Samples a texture, using a gradient to influence the way the sample location is calculated, with an optional value to clamp sample level-of-detail (LOD) values to.
 
