@@ -34,7 +34,7 @@ These macros are provided to facilitate porting existing applications to Direct3
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

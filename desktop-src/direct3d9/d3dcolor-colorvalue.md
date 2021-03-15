@@ -73,7 +73,7 @@ Returns the [**D3DCOLOR**](d3dcolor.md) value that corresponds to the supplied R
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

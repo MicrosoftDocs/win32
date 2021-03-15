@@ -97,7 +97,7 @@ If DepthStencil is set to **TRUE**, this parameter is a member of the [D3DFORMAT
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9core.h</dt> </dl> |
 

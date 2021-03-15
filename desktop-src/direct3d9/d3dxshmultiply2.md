@@ -83,7 +83,7 @@ Computes the product of two functions represented using SH (f and g), where *pOu
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9math.h</dt> </dl> |
 

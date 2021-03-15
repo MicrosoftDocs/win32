@@ -105,7 +105,7 @@ These system-global metrics may or may not be implemented. Depending on the spec
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

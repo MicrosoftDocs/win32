@@ -1,6 +1,6 @@
 ---
 title: IDWriteTextFormat2 SetLineSpacing method
-description: Set line spacing.
+description: Set line spacing. | IDWriteTextFormat2 SetLineSpacing method
 ms.assetid: 71d8c6c4-920f-a1b5-5a13-9985a7aca41e
 keywords:
 - SetLineSpacing method Direct Write

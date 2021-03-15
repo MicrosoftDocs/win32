@@ -155,7 +155,7 @@ For more information about vertex declarations, see [Vertex Declaration (Direct3
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

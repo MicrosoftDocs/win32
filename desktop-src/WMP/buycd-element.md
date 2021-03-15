@@ -1,6 +1,6 @@
 ---
 title: BuyCD Element
-description: Note This section describes functionality designed for use by online stores.
+description: Note This section describes functionality designed for use by online stores. | BuyCD Element
 ms.assetid: 01aaf20a-49ee-420b-a612-f09155390d4a
 keywords:
 - BuyCD Element Windows Media Player

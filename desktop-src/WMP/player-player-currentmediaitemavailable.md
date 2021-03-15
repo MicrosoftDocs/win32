@@ -1,6 +1,6 @@
 ---
 title: Player.CurrentMediaItemAvailable event
-description: The CurrentMediaItemAvailable event occurs when a graphic metadata item in the current media item becomes available.
+description: The CurrentMediaItemAvailable event occurs when a graphic metadata item in the current media item becomes available. | Player.CurrentMediaItemAvailable event
 ms.assetid: dc692b14-67d3-4867-8f99-ddfcf7d1610c
 keywords:
 - CurrentMediaItemAvailable event Windows Media Player

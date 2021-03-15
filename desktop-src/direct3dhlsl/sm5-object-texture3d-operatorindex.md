@@ -1,6 +1,6 @@
 ---
 title: Texture3D::Operator  function
-description: Returns a read-only resource variable.
+description: Returns a read-only resource variable. | Texture3D::Operator  function
 ms.assetid: d7e27778-6a96-47f8-a58a-1966452adf04
 keywords:
 - Operator function HLSL

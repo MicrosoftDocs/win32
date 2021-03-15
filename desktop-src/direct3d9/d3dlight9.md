@@ -195,7 +195,7 @@ Angle, in radians, defining the outer edge of the spotlight's outer cone. Points
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

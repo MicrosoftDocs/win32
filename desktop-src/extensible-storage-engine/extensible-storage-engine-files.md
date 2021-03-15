@@ -316,13 +316,13 @@ When you manually copy or move a database file, its corresponding flush map file
 
 The size of a flush map file is directly proportional to its associated database file and approximately equal to (all sizes in bytes, result must be rounded up to the next multiple of 8,192):
 
-    8,192 + ((<database file size> / <database page size>) / 4)
+`8,192 + ((<database file size> / <database page size>) / 4)`
 
 For example: for a 1.5GB database using a 32KB page size, the approximate size of the flush map is 24,576 bytes (or 24KB).
 
 The flush map file needs to be refreshed as database pages are flushed. If transactional logging is enabled (for example, [JET_paramRecovery](./transaction-log-parameters.md) set to "on", the default), refreshing the flush map is performed as the client application makes modifications to the database. On average, the entire flush map is written to the non-volatile media once for every 20% of [JET_paramCheckpointDepthMax](./database-cache-parameters.md) -worth (in bytes) of transactional logs generated. The number of write operations depends on how distributed throughout the database the modifications are. But it is at most, approximately (all sizes in bytes):
 
-    <flush map file size> / JET_paramMaxCoalesceWriteSize
+`<flush map file size> / JET_paramMaxCoalesceWriteSize`
 
 If transactional logging is disabled (for example, [JET_paramRecovery](./transaction-log-parameters.md) set to "off"), the flush map gets refreshed only once when the database is explicitly detached cleanly (via [JetDetachDatabase](./jetdetachdatabase-function.md), or implicitly detached cleanly by terminating its associated ESE instance (via any of the [JetTerm](./jetterm-function.md) functions, as long as [JET_bitTermDirty](./jetterm2-function.md) is not passed).
 

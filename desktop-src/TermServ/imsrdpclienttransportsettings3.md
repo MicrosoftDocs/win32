@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings3 interface
-description: Defines additional properties for the Remote Desktop Gateway (RD Gateway) server.
+description: Defines additional properties for the Remote Desktop Gateway (RD Gateway) server. | IMsRdpClientTransportSettings3 interface
 ms.assetid: c0bdfe23-9a26-4feb-b9b7-e52f04f23aa1
 ms.tgt_platform: multiple
 keywords:

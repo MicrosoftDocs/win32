@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 02/07/2020
 ---
 
-# Structures
+# Touch Hit Testing structures
 
 The topics in this section provide the reference specifications for [Touch Hit Testing](touch-hit-testing-portal.md) structures.
 

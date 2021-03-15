@@ -66,10 +66,8 @@ To test a [*GINA*](/windows/desktop/SecGloss/g-gly) DLL, use the Winlogon.exe fr
     </dl>
     ```
 
-    > [!Note]  
-    > You must use the Windows symbolic debugger (NTSD) to debug Winlogon.
-
-     
+> [!NOTE]
+> You must use the Windows symbolic debugger (NTSD) to debug Winlogon.
 
 ## Related topics
 

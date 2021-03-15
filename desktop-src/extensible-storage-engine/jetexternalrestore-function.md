@@ -32,16 +32,18 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetExternalRestore** function restores an external backup that was taken with the external backup APIs and specifies a range of log file numbers to replay during the restore process. This is known as hard recovery, which is similar to but different than soft recovery as performed by the [JetInit](./jetinit-function.md) function.
 
-    JET_ERR JET_API JetExternalRestore(
-      __in          JET_PSTR szCheckpointFilePath,
-      __in          JET_PSTR szLogPath,
-      __in_opt      JET_RSTMAP* rgrstmap,
-      __in          long crstfilemap,
-      __in          JET_PSTR szBackupLogPath,
-      __in          long genLow,
-      __in          long genHigh,
-      __in          JET_PFNSTATUS pfn
-    );
+```cpp
+JET_ERR JET_API JetExternalRestore(
+  __in          JET_PSTR szCheckpointFilePath,
+  __in          JET_PSTR szLogPath,
+  __in_opt      JET_RSTMAP* rgrstmap,
+  __in          long crstfilemap,
+  __in          JET_PSTR szBackupLogPath,
+  __in          long genLow,
+  __in          long genHigh,
+  __in          JET_PFNSTATUS pfn
+);
+```
 
 ### Parameters
 

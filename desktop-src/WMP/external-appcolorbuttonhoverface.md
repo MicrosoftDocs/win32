@@ -1,6 +1,6 @@
 ---
 title: External.appColorButtonHoverFace
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.appColorButtonHoverFace
 ms.assetid: bf3a0898-b2fb-48bf-84b2-11e9aada4bf3
 keywords:
 - External.appColorButtonHoverFace Windows Media Player

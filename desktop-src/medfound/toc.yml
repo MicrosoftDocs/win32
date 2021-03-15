@@ -3123,6 +3123,8 @@
           href: mf-topology-dxva-mode.md
         - name: "MF_TOPOLOGY_DYNAMIC_CHANGE_NOT_ALLOWED"
           href: mf-topology-dynamic-change-not-allowed.md
+        - name: "MF_TOPOLOGY_ENABLE_XVP_FOR_PLAYBACK"
+          href: mf-topology-enable-xvp-for-playback.md
         - name: "MF_TOPOLOGY_ENUMERATE_SOURCE_TYPES"
           href: mf-topology-enumerate-source-types.md
         - name: "MF_TOPOLOGY_HARDWARE_MODE"

@@ -149,7 +149,7 @@ This header is present if the **dwFourCC** member of the [**DDS\_PIXELFORMAT**](
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dds.h</dt> </dl> |
 

@@ -1,6 +1,6 @@
 ---
 title: IBackgroundCopyFile2 Methods (DO)
-description: The IBackgroundCopyFile2 interface exposes the following methods.
+description: The IBackgroundCopyFile2 interface exposes the following methods. | IBackgroundCopyFile2 Methods (DO)
 ms.assetid: AD6AA1B9-A308-414E-BFC6-7B42CEC3A1AE
 ms.topic: reference
 ms.date: 05/31/2018

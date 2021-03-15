@@ -53,7 +53,7 @@ D3DRTYPECOUNT refers to the number of enumerations in [**D3DRESOURCETYPE**](./d3
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

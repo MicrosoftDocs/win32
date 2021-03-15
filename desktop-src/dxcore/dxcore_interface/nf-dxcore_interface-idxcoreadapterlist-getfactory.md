@@ -1,6 +1,6 @@
 ---
 title: IDXCoreAdapterList::GetFactory
-description: Retrieves an [IDXCoreAdapterFactory](./nn-dxcore_interface-idxcoreadapterfactory.md) interface pointer to the DXCore adapter factory object.
+description: Retrieves an [IDXCoreAdapterFactory](./nn-dxcore_interface-idxcoreadapterfactory.md) interface pointer to the DXCore adapter factory object. | IDXCoreAdapterList::GetFactory
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019

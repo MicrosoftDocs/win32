@@ -1,6 +1,6 @@
 ---
 title: IBackgroundCopyJob5 Methods (BITS)
-description: The IBackgroundCopyJob5 interface exposes the following methods.
+description: The IBackgroundCopyJob5 interface exposes the following methods. | IBackgroundCopyJob5 Methods (BITS)
 ms.assetid: 6DF8002A-2284-4102-B4DA-823792B1AC5E
 ms.topic: reference
 ms.date: 05/31/2018

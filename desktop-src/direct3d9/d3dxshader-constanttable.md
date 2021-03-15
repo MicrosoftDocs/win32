@@ -137,7 +137,7 @@ constantTable.Size = sizeof(D3DXSHADER_CONSTANTTABLE)
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9shader.h</dt> </dl> |
 

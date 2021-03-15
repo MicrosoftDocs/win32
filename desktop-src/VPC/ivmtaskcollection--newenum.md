@@ -1,6 +1,6 @@
 ---
 title: IVMTaskCollection _NewEnum property (VPCCOMInterfaces.h)
-description: Retrieves an enumerator for the collection.
+description: Retrieves an enumerator for the collection. | IVMTaskCollection _NewEnum property (VPCCOMInterfaces.h)
 ms.assetid: 15c36bdb-5d26-4f67-aa7e-73b9bde2aa22
 keywords:
 - _NewEnum property Virtual PC

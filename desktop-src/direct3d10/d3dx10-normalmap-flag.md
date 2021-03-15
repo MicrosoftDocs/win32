@@ -77,7 +77,7 @@ Computes the per pixel occlusion term and encodes it into the alpha. An Alpha of
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 

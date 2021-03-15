@@ -1,6 +1,6 @@
 ---
 title: g_wszWMACOriginalWaveFormat (Wmcodecdsp.h)
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | g_wszWMACOriginalWaveFormat (Wmcodecdsp.h)
 ms.assetid: 5d4f727c-c58c-4d66-8140-469cb24b3b0e
 keywords:
 - g_wszWMACOriginalWaveFormat windows Media Format

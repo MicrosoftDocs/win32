@@ -109,7 +109,7 @@ Combination of [D3DFVF](d3dfvf.md) that describes the vertex format of the verti
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

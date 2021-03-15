@@ -1,6 +1,6 @@
 ---
-title: SampleCmp::SampleCmp(S,float,float,int,float) function
-description: Samples a Texture2D, using a comparison value to reject samples, with an optional value to clamp sample level-of-detail (LOD) values to.
+title: SampleCmp::SampleCmp(S,float,float,int,float) function) function for Texture2D
+description: This function samples a Texture2D using a comparison value to reject samples, with an optional value to clamp sample level-of-detail (LOD) values to.
 ms.assetid: 1B5E6559-2524-4557-8F43-7AF258C39FB2
 keywords:
 - SampleCmp function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# SampleCmp::SampleCmp(S,float,float,int,float) function
+# SampleCmp::SampleCmp(S,float,float,int,float) function for Texture2D
 
 Samples a [**Texture2D**](sm5-object-texture2d.md), using a comparison value to reject samples, with an optional value to clamp sample level-of-detail (LOD) values to.
 

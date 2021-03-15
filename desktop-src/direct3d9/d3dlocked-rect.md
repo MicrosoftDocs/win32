@@ -65,7 +65,7 @@ The pitch for DXTn formats is different from what was returned in DirectX 7. It 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

@@ -11,9 +11,3 @@ ms.date: 05/31/2018
 \[**Reset** is not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API provides similar functionality.\]
 
 The **Reset** method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
-
-## Syntax
-
-
-```C++
-

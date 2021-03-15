@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 02/07/2020
 ---
 
-# Structures
+# Magnification API structures
 
 This section contains reference information about the Magnification API structures.
 

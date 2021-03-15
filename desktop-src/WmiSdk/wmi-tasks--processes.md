@@ -303,7 +303,6 @@ foreach ($objProcess in $colProcesses) { $objProcess.Terminate() }</code></pre><
 Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colProcesses = objWMIService.ExecQuery(&quot;Select * from Win32_Process&quot;)
 For Each objProcess in colProcesses
-
     Wscript.Echo &quot;Process: &quot; & objProcess.Name
     sngProcessTime = (CSng(objProcess.KernelModeTime) + CSng(objProcess.UserModeTime)) / 10000000
     Wscript.Echo &quot;Processor Time: &quot; & sngProcessTime

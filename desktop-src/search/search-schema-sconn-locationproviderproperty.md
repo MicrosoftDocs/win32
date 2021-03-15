@@ -43,17 +43,6 @@ The optional <property> element specifies the properties used by the location pr
 
  
 
-## <property> Element Information
-
-
-
-| Parent Element                             | Child Elements |
-|--------------------------------------------|----------------|
-| property Element (Search Connector Schema) |                |
-
-
-
- 
 
 ## <property> Attributes
 

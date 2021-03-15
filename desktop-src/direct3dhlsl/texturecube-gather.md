@@ -1,6 +1,6 @@
 ---
 title: TextureCube::TextureCube Gather methods
-description: Returns the four texel values that would be used in a bi-linear filtering operation.
+description: Returns the four texel values that would be used in a bi-linear filtering operation. | TextureCube::TextureCube Gather methods
 ms.assetid: 4891A62A-9D54-4F7E-92C2-9CDDF1453671
 keywords:
 - Gather methods HLSL

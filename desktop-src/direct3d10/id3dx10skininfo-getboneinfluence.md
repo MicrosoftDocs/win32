@@ -78,7 +78,7 @@ Use ID3DX10SkinInfo::GetBoneInfluenceCount to find out how many vertices the bon
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

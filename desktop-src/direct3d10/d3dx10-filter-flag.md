@@ -153,7 +153,7 @@ D3DX10 automatically performs gamma correction (to convert color data from RGB s
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 

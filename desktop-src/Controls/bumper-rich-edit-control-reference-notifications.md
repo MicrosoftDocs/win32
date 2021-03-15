@@ -1,6 +1,6 @@
 ---
 title: Rich Edit Notifications
-description: .
+description: Rich Edit Notifications
 ms.assetid: 00c01680-e6f3-4f67-97dd-8b4919c426f4
 ms.topic: article
 ms.date: 05/31/2018

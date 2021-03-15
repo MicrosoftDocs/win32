@@ -1,6 +1,6 @@
 ---
 title: abs - vs
-description: Computes absolute value.
+description: Computes absolute value. | abs - vs
 ms.assetid: d3b4cf06-dc87-4c71-aa2d-5ade4cf98caa
 ms.topic: reference
 ms.date: 05/31/2018

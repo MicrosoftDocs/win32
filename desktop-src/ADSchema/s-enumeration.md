@@ -1,6 +1,6 @@
 ---
 title: Enumeration syntax
-description: Enumeration(delivery-mechanism) syntax.
+description: Enumeration(delivery-mechanism) syntax. | Enumeration syntax
 ms.assetid: 26779fc3-de38-42c4-9e8a-21af6f01f123
 ms.tgt_platform: multiple
 keywords:

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 02/05/2020
 ---
 
-# Structures
+# Pointer Device Input Stack structures
 
 The topics in this section provide the reference specifications for [Pointer Device Input Stack](pointer-device-stack-portal.md) structures.
 

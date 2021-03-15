@@ -1,6 +1,6 @@
 ---
 title: Using the Windows Media Video 9 Image Codec
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | Using the Windows Media Video 9 Image Codec
 ms.assetid: db4fcd87-b788-4959-aa44-45c64b31f034
 keywords:
 - Using the Windows Media Video 9 Image Codec windows Media Format

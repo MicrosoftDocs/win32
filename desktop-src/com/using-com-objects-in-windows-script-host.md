@@ -18,13 +18,17 @@ To run a script from the desktop, simply double-click a script file. Script file
 
 To run a script from the command prompt, run the `Cscript.exe` application with a command line such as the following:
 
-    cscript "c:\\sample scripts\\chart.vbs"
+```console
+cscript "c:\\sample scripts\\chart.vbs"
+```
 
 where `c:\\sample scripts\\chart.vbs` is the path to the file containing the script.
 
 You can print out a list of the parameters supported by Cscript.exe by entering the following command line:
 
-    call cscript //?
+```console
+call cscript //?
+```
 
 To use a COM object in a script run by Windows Script Host, you must first create an instance of the object. In VBScript you can do this by calling the `CreateObject()` method. In JScript one can use either the `ActiveXObject` object or the `WScript.CreateObject()` method. The following example illustrates calling `CreateObject()` using VBScript:
 

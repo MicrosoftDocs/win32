@@ -1,6 +1,6 @@
 ---
 title: messageTable (EventsType) Element
-description: Contains a reference to a string in the localization section of the manifest.
+description: Contains a reference to a string in the localization section of the manifest. | messageTable (EventsType) Element
 ms.assetid: 4dcc1afe-8f2b-4baf-b40b-406f60368575
 keywords:
 - messageTable element EventLog

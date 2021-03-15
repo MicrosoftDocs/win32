@@ -1,6 +1,6 @@
 ---
 title: Control Macros
-description: .
+description: Control Macros
 ms.assetid: 3e118c47-deef-4f5e-aa6d-e4b50d849655
 ms.topic: article
 ms.date: 05/31/2018

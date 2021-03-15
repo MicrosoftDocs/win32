@@ -151,7 +151,7 @@ Multisampled objects (Texture2DMS and Texture2DMSArray) require the texture size
 
  
 
-## Example
+## Example 1
 
 Here is an example of declaring a texture object.
 
@@ -218,7 +218,7 @@ The default value for missing components in a texture resource type is zero for 
 
 For example, when a shader reads the [**DXGI\_FORMAT\_R24\_UNORM\_X8\_TYPELESS**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) texture resource type, the default values for G and B are zero and the default value for A is 1.0f; when a shader reads the [**DXGI\_FORMAT\_R16G16\_UINT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) texture resource type, the default value for B is zero and the default value for A is 0x00000001; when a shader reads the [**DXGI\_FORMAT\_R16\_SINT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) texture resource type, the default values for G and B are zero and the default value for A is 0x00000001.
 
-## Example
+## Example 2
 
 Here is an example of texture sampling using a texture method.
 

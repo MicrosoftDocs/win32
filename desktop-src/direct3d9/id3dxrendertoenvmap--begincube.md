@@ -58,7 +58,7 @@ See [**ID3DXRenderToEnvMap::Face**](id3dxrendertoenvmap--face.md) to draw each o
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

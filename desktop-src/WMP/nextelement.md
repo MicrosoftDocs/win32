@@ -1,6 +1,6 @@
 ---
 title: NEXTELEMENT
-description: This is a predefined BUTTONELEMENT with the following default values.
+description: This is a predefined BUTTONELEMENT with the following default values. | NEXTELEMENT
 ms.assetid: 8dcf9031-febc-459f-b781-8ee2f93580c8
 keywords:
 - NEXTELEMENT Windows Media Player

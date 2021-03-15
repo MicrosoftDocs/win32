@@ -1,6 +1,6 @@
 ---
 title: inType (InputTypeListType) Element
-description: Defines an input data type.
+description: Defines an input data type. | inType (InputTypeListType) Element
 ms.assetid: f29cb871-e5f7-416a-beca-f91476d78c1f
 keywords:
 - inType element EventLog

@@ -1,12 +1,12 @@
 ---
-title: About EAPHost
+title: About the EAP and EAPHost relationship
 description: Describes the relationship between the Extensible Authentication Protocol (EAP) and Extensible Authentication Protocol Host.
 ms.assetid: 7f585fc6-71ed-4a64-88a7-6acb1550e825
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# About EAPHost
+# Learn about the EAP and EAPHost relationship
 
 This topic describes the relationship between the Extensible Authentication Protocol (EAP) and Extensible Authentication Protocol Host. For new EAP method development, see [Extensible Authentication Protocol Host](../eaphost/portal.md).
 

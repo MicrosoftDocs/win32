@@ -41,7 +41,7 @@ This structure is a member of the [**D3D12\_DISCARD\_REGION**](/windows/desktop/
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D12.h</dt> </dl> |
 

@@ -982,7 +982,7 @@ Error and warning codes that a shader can return.
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>CompErrors.h</dt> </dl> |
 

@@ -1,6 +1,6 @@
 ---
 title: STOPELEMENT
-description: This is a predefined BUTTONELEMENT with the following default values.
+description: This is a predefined BUTTONELEMENT with the following default values. | STOPELEMENT
 ms.assetid: 111cdb4e-0548-41be-8f40-c39bb74c865d
 keywords:
 - STOPELEMENT Windows Media Player

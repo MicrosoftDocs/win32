@@ -191,7 +191,7 @@ UINT descriptorIncrementSize: The amount by which to increment for each descript
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx12.h</dt> </dl> |
 

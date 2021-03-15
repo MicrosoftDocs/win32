@@ -1,12 +1,12 @@
 ---
-title: Month Calendar Control Reference (default)
+title: Month Calendar Control
 description: This section contains information about programming elements used with month calendar controls.
 ms.assetid: 'vs|controls|~\controls\monthcal\reflist.htm'
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Month Calendar Control Reference
+# Month Calendar Control
 
 This section contains information about programming elements used with month calendar controls.
 

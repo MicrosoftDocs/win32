@@ -140,7 +140,7 @@ The transform states in the range 256 through 511 are reserved to store up to 25
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

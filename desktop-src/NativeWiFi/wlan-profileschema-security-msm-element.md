@@ -14,7 +14,7 @@ api_type:
 api_location: 
 ---
 
-# security (MSM) Element (LAN_policy)
+# Security (MSM) Element (LAN_policy) for WLAN
 
 The security (MSM) element contains various security settings.
 

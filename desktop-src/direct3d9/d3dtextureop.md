@@ -307,7 +307,7 @@ In the above formulas, S<sub>RGBA</sub> is the RGBA color produced by a texture 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

@@ -1,6 +1,6 @@
 ---
 title: External.appColorDark
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.appColorDark
 ms.assetid: 9cfd9ca9-3a9f-47c5-a1a4-879f0b8d1626
 keywords:
 - External.appColorDark Windows Media Player

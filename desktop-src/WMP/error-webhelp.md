@@ -1,6 +1,6 @@
 ---
 title: Error.webHelp method
-description: The webHelp method launches the Windows Media Player Web Help page to display further information about the first error in the error queue (index zero).
+description: The webHelp method launches the Windows Media Player Web Help page to display further information about the first error in the error queue (index zero). | Error.webHelp method
 ms.assetid: 79797b41-1d47-4347-aa47-c104f7f7fbaf
 keywords:
 - webHelp method Windows Media Player

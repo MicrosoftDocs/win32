@@ -1,6 +1,6 @@
 ---
 title: MpManagerStatusQuery function (MpClient.h)
-description: Returns status information about various components of the malware protection manager.
+description: Returns status information about various components of the malware protection manager. | MpManagerStatusQuery function (MpClient.h)
 ms.assetid: E993FD8B-A35D-41C1-9522-1B9F0BC10B3D
 keywords:
 - MpManagerStatusQuery function Legacy Windows Environment Features

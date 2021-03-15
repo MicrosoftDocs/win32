@@ -1,6 +1,6 @@
 ---
 title: Month Calendar Control Reference
-description: .
+description: Month Calendar Control Reference
 ms.assetid: 14f358d9-2ec4-4667-8b66-57e18942eb1b
 ms.topic: article
 ms.date: 05/31/2018

@@ -73,7 +73,7 @@ Whether the scanline ordering is interlaced or progressive. See [**D3DSCANLINEOR
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

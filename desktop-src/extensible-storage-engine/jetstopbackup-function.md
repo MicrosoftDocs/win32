@@ -34,7 +34,9 @@ The **JetStopBackup** function prevents any streaming backup-related activity fr
 
 [JetStopService](./jetstopservice-function.md) is the legacy call when only one instance is allowed. In this case, the only active instance is the one being prepared for termination.
 
-    JET_ERR JET_API JetStopBackup(void);
+```cpp
+JET_ERR JET_API JetStopBackup(void);
+```
 
 ### Parameters
 

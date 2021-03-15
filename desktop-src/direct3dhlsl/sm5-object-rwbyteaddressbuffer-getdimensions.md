@@ -1,6 +1,6 @@
 ---
 title: RWByteAddressBuffer::GetDimensions function
-description: Gets the length of the buffer.
+description: Gets the length of the buffer. | RWByteAddressBuffer::GetDimensions function
 ms.assetid: 7d78aa0d-75b8-43d5-85d9-0a6fb04ae64f
 keywords:
 - GetDimensions function HLSL

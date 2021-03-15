@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 02/03/2020
 ---
 
-# Structures
+# Pointer Input Messages and Notifications structures
 
 The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications-portal.md) structures.
 

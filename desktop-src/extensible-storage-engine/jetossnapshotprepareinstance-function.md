@@ -32,11 +32,13 @@ The **JetOSSnapshotPrepareInstance** function selects a specific instance to be 
 
 **Windows Vista:** **JetOSSnapshotPrepareInstance** was introduced in Windows Vista.
 
-    JET_ERR JET_API JetOSSnapshotPrepareInstance(
-      __in          JET_OSSNAPID snapId,
-      __in          JET_INSTANCE instance,
-      __in          const JET_GRBIT grbit
-    );
+```cpp
+JET_ERR JET_API JetOSSnapshotPrepareInstance(
+  __in          JET_OSSNAPID snapId,
+  __in          JET_INSTANCE instance,
+  __in          const JET_GRBIT grbit
+);
+```
 
 ### Parameters
 

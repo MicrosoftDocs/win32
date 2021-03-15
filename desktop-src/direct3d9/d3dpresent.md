@@ -106,7 +106,7 @@ Full-screen mode supports similar usage as windowed mode by supporting D3DPRESEN
 
 ## Requirements
 
-|                   |                                                                                   |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9.h</dt> </dl> |
 

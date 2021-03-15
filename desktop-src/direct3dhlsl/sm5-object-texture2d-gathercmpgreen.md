@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GatherCmpGreen(S,float,float,int) function
-description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their green component against a compare value.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their green component against a compare value. | Texture2D::GatherCmpGreen(S,float,float,int) function
 ms.assetid: 5a11ce0c-56b2-460a-95d7-15688dd158ff
 keywords:
 - GatherCmpGreen function HLSL

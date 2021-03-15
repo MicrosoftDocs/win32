@@ -163,7 +163,7 @@ The .x file error facility code \_FACD3DXF is used to generate error codes. For 
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9xof.h</dt> </dl> |
 

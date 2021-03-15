@@ -57,7 +57,7 @@ A 32-bit mesh (D3DXMESH\_32BIT) can theoretically support (2³²)-1 faces and ve
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Mesh.h</dt> </dl> |
 

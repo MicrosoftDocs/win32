@@ -169,7 +169,7 @@ The size of the parameter, in bytes.
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9effect.h</dt> </dl> |
 

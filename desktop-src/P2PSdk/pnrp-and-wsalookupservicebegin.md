@@ -23,7 +23,7 @@ The process for working with peer names is different from working with clouds. E
 
 An application uses [**WSALookupServiceBegin**](winsock-nsp-reference-links.md) to obtain the IP address, port, and protocol for a peer service that is registered on another computer. The **WSALookupServiceBegin** function is used to start the name resolution process, and set up the parameters and restrictions. A handle is returned, and must be used when calling **WSALookupServiceNext** and **WSANSPIoctl**.
 
-## <sub>lpqsRestrictions</sub>
+### lpqsRestrictions
 
 When resolving a peer name, the [**LPWSAQUERYSET**](pnrp-and-wsaqueryset.md) structure that the *lpqsRestrictions* parameter references must contain the following values:
 
@@ -196,7 +196,7 @@ Reserved, must be zero (0).
 
 </dd> </dl>
 
-## <sub>dwControlFlags</sub>
+### dwControlFlags
 
 The following LUP\_RETURN\_\* flags are supported by PNRP:
 
@@ -214,7 +214,7 @@ The following LUP\_RETURN\_\* flags are supported by PNRP:
 
 ## Enumerating Network Clouds
 
-## <sub>lpqsRestrictions</sub>
+### lpqsRestrictions
 
 When enumerating clouds, the [**LPWSAQUERYSET**](pnrp-and-wsaqueryset.md) structure that the *lpqsRestrictions* parameter references must contain the following values:
 
@@ -345,7 +345,7 @@ Reserved, must be zero (0).
 
 </dd> </dl>
 
-## <sub>dwControlFlags</sub>
+### dwControlFlags
 
 The following LUP\_RETURN\_\* flags are supported by PNRP:
 

@@ -1,6 +1,6 @@
 ---
 title: CD3DX12_PIPELINE_STATE_STREAM1 structure (D3dx12.h)
-description: A helper structure for creating and working with graphics and compute pipeline states through a combined interface. See D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC and D3D12\_COMPUTE\_PIPELINE\_STATE\_DESC.
+description: A helper structure for creating and working with graphics and compute pipeline states through a combined interface. See D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC and D3D12\_COMPUTE\_PIPELINE\_STATE\_DESC. | CD3DX12_PIPELINE_STATE_STREAM1 structure (D3dx12.h)
 ms.assetid: 4D3E4D99-E820-4220-92F3-4924791E780F
 keywords:
 - CD3DX12_PIPELINE_STATE_STREAM1 structure
@@ -260,7 +260,7 @@ Those typedefs are:
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx12.h</dt> </dl> |
 

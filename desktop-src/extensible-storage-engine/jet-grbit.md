@@ -27,7 +27,9 @@ _**Applies to:** Windows | Windows Server_
 
 The **JET_GRBIT** data type is a group of bits that contain constants that are specific to the functions and structures in which it is used.
 
-    typedef unsigned long JET_GRBIT;
+```cpp
+typedef unsigned long JET_GRBIT;
+```
 
 ### Data Types
 

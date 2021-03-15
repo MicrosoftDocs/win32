@@ -1,6 +1,6 @@
 ---
 title: Error.clearErrorQueue method
-description: The clearErrorQueue method clears the errors from the error queue.
+description: The clearErrorQueue method clears the errors from the error queue. | Error.clearErrorQueue method
 ms.assetid: 306f0700-88b1-4433-8abb-7d225e82060a
 keywords:
 - clearErrorQueue method Windows Media Player

@@ -1,6 +1,6 @@
 ---
 title: log - vs
-description: Full precision log₂(x).
+description: Full precision log₂(x). | log - vs
 ms.assetid: 53c91825-ec54-4b04-bf08-52d4b1c5122d
 ms.topic: reference
 ms.date: 05/31/2018

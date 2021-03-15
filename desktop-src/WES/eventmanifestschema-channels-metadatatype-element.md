@@ -1,6 +1,6 @@
 ---
 title: channels (MetadataType) Element
-description: Defines a list of channels to which providers can log events.
+description: Defines a list of channels to which providers can log events. | channels (MetadataType) Element
 ms.assetid: ead7317f-29ec-43d2-a588-7915c8e74dc1
 keywords:
 - channels element EventLog

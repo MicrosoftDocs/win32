@@ -1,6 +1,6 @@
 ---
-title: SampleCmpLevelZero::SampleCmpLevelZero(S,float,float,uint) function
-description: Samples a texture on mipmap level 0 only and compares the result to a comparison value. Returns status about the operation.
+title: SampleCmpLevelZero::SampleCmpLevelZero(S,float,float,uint) function for TextureCube
+description: Samples a texture on mipmap level 0 only and compares the result to a comparison value. Returns status about the operation. For TextureCube.
 ms.assetid: FE40307D-B9BE-434F-A6EF-7CA3C5BC7D70
 keywords:
 - SampleCmpLevelZero function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# SampleCmpLevelZero::SampleCmpLevelZero(S,float,float,uint) function
+# SampleCmpLevelZero::SampleCmpLevelZero(S,float,float,uint) function for TextureCube
 
 Samples a texture on mipmap level 0 only and compares the result to a comparison value. Returns status about the operation.
 

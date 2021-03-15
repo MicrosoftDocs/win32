@@ -92,7 +92,7 @@ HKEY_CURRENT_USER
                               SupportedTypes = *.jpg; *.gif; *.bmp
 ```
 
-When the URL of your service is called, two values are added to the end of the URL—lcid and langid. For example, the URL string for the example above might be https[]()://www.MyProvider.com/Intro.htm?lcid=1033&langid=1033. These variables are used for language and localization information.
+When the URL of your service is called, two values are added to the end of the URL—lcid and langid. For example, the URL string for the example above might be https:\//www.MyProvider.com/Intro.htm?lcid=1033&langid=1033. These variables are used for language and localization information.
 
 -   **lcid** is used to inform the server of the client's country/region and language settings. It is not used to determine the language of the client's UI, but is used to determine the proper format for currency, date and time, and other region-specific data.
 -   **langid** is used to inform the server of the client's default language setting so that it can use the proper language in the UI.

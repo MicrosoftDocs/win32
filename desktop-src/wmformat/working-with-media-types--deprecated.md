@@ -1,6 +1,6 @@
 ---
 title: Working with Media Types
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | Working with Media Types
 ms.assetid: e5bdf9e2-fbbd-43d3-992e-77921f95db82
 keywords:
 - Working with Media Types windows Media Format
