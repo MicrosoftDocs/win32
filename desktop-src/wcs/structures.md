@@ -1,6 +1,6 @@
 ---
-title: Structures
-description: Structures
+title: WCS 1.0 structures
+description: A section of the reference that contains a listing of important structures that are used by WCS 1.0.
 ms.assetid: 68d681e6-4798-449b-9afd-ab35f24d6e67
 keywords:
 - Windows Color System (WCS),structures
@@ -17,7 +17,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Structures
+# WCS 1.0 structures
 
 This section of the reference contains a listing of the most important structures that are used by WCS 1.0. These are listed as follows:
 

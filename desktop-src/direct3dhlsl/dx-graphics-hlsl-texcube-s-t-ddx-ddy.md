@@ -1,5 +1,5 @@
 ---
-title: texCUBE (HLSL reference)
+title: texCUBE (HLSL reference) - Select the mip level
 description: Samples a cube texture using a gradient to select the mip level. | texCUBE (HLSL reference)
 ms.assetid: 5615f48b-eb0a-4de7-a441-51ec3cecf6fd
 keywords:
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# texCUBE (HLSL reference)
+# texCUBE (HLSL reference) - Select the mip level
 
 Samples a cube texture using a gradient to select the mip level.
 
