@@ -100,7 +100,7 @@ Animation sets created with [**D3DXLoadMeshHierarchyFromX**](d3dxloadmeshhierarc
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

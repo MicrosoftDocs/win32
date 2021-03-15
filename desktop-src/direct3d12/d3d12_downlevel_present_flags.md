@@ -38,7 +38,7 @@ The **Present** operation won't be done until a VSync has occurred since the las
 
 ## Requirements
 
-|        |                  |
+| Requirement | Value |
 |--------|------------------|
 | Header | d3d12downlevel.h |
 | DLL    | D3D12.dll (Windows 7 only) |

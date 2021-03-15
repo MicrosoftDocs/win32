@@ -37,7 +37,7 @@ Effect parameter constants are used by [**D3DXPARAMETER\_DESC**](d3dxparameter-d
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9effect.h</dt> </dl> |
 

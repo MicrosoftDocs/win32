@@ -89,7 +89,7 @@ This structure is used in calls to [**ComposeRects**](/windows/desktop/api/d3d9/
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

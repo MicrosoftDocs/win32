@@ -65,7 +65,7 @@ This structure identifies data to be loaded from memory when an application uses
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9xof.h</dt> </dl> |
 

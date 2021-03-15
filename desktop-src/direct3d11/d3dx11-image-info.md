@@ -156,7 +156,7 @@ This structure is used by methods such as: [**D3DX11GetImageInfoFromFile**](d3dx
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX11tex.h</dt> </dl> |
 

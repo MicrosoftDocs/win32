@@ -75,7 +75,7 @@ Applications may choose to handle monitor rotation themselves by using the [D3DP
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

@@ -73,7 +73,7 @@ The members of **D3DBASISTYPE** specify the formulation to be used in evaluating
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

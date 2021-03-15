@@ -84,7 +84,7 @@ The facility code \_FACD3D is used to generate error codes, as in the following 
 
 
 
-|                   |                                                                                   |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9.h</dt> </dl> |
 

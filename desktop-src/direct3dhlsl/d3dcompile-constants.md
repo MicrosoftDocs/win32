@@ -348,7 +348,7 @@ Directs the compiler to ensure all resources are bound.
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DCompiler.h</dt> </dl> |
 

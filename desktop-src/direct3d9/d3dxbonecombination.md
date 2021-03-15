@@ -115,7 +115,7 @@ The subset of the mesh described by **D3DXBONECOMBINATION** can be rendered in a
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

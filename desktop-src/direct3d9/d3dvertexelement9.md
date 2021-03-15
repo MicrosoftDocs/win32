@@ -113,7 +113,7 @@ Vertex data is defined using an array of **D3DVERTEXELEMENT9** structures. Use [
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

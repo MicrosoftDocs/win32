@@ -121,7 +121,7 @@ Represents the format of the image file.
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9tex.h</dt> </dl> |
 

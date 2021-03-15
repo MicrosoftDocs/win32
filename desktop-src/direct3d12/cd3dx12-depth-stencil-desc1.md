@@ -120,7 +120,7 @@ Implicit conversion to a D3D12\_DEPTH\_STENCIL\_DESC structure value. Because D3
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx12.h</dt> </dl> |
 

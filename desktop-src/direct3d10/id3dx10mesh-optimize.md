@@ -80,7 +80,7 @@ This method is very similar to the [**ID3DX10Mesh::CloneMesh**](id3dx10mesh-clon
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

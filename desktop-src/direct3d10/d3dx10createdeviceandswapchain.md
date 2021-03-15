@@ -122,7 +122,7 @@ This method requires Windows Vista Service Pack 1.
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Core.h</dt> </dl> |
 

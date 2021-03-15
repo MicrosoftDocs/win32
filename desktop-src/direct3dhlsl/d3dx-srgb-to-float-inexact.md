@@ -51,7 +51,7 @@ This function doesn't have a high enough precision to give the exact answer. The
 
 
 
-|                   |                                                                                                        |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX\_DXGIFormatConvert.inl</dt> </dl> |
 

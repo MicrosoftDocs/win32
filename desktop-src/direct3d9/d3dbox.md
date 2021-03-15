@@ -115,7 +115,7 @@ The restrictions on side ordering observed for **D3DBOX** are left to right, top
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

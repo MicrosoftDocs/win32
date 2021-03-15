@@ -44,7 +44,7 @@ This is used to initialize the last vertex element in a vertex declaration array
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

@@ -31,7 +31,7 @@ For more information about using queries, see [Queries (Direct3D 9)](queries.md)
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

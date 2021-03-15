@@ -117,7 +117,7 @@ If you use the DXGI\_PRESENT\_STEREO\_TEMPORARY\_MONO flag when you present a st
 
 
 
-|                   |                                                                                   |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DXGI.h</dt> </dl> |
 

@@ -113,7 +113,7 @@ This structure is used in various methods to create and manage Direct3D 9Ex devi
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

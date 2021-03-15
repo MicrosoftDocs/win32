@@ -91,7 +91,7 @@ Fog can be considered a measure of visibility: the lower the fog value produced 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

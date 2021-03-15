@@ -87,7 +87,7 @@ If D3dref9.dll is installed, Direct3D will use the reference rasterizer to creat
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

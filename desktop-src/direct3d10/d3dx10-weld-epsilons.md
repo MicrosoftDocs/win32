@@ -168,7 +168,7 @@ typedef D3DX_WELD_EPSILONS *LPD3DX_WELD_EPSILONS;
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10.h</dt> </dl> |
 

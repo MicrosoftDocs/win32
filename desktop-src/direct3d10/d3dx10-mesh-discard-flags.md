@@ -77,7 +77,7 @@ Discard the buffers committed to the device (with [**ID3DX10Mesh::CommitToDevice
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Mesh.h</dt> </dl> |
 

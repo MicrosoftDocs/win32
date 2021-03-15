@@ -85,7 +85,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9anim.h</dt> </dl> |
 

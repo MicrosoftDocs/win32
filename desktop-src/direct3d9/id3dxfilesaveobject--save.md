@@ -47,7 +47,7 @@ After this method succeeds, [**ID3DXFileSaveObject::AddDataObject**](id3dxfilesa
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

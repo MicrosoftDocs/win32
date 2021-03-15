@@ -85,7 +85,7 @@ Minimum buffer size, in bytes, required to hold compressed key frame animation d
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

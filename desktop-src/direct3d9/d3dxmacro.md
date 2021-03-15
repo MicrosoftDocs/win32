@@ -78,7 +78,7 @@ Notice the 3 backslash characters at the end of the line. The first two are requ
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9shader.h</dt> </dl> |
 

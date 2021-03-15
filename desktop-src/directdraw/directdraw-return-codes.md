@@ -1321,7 +1321,7 @@ The provided rectangle was not horizontally aligned on a required boundary.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Ddraw.h</dt> </dl> |
 

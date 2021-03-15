@@ -81,7 +81,7 @@ After a front-to-back or back-to-front sort is done, it will automatically do a 
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Core.h</dt> </dl> |
 
