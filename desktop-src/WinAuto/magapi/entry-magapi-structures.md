@@ -1,5 +1,5 @@
 ---
-title: Structures
+title: Structures (Magnification)
 description: This section contains reference information about the Magnification API structures.
 ms.assetid: 3c1d79e8-727e-4837-b4f5-01755903f09d
 ms.topic: article

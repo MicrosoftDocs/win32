@@ -2,7 +2,7 @@
 description: Lists sources of WMI examples, code samples, books, TechNet ScriptCenter, and other websites. Download sources for CIM Studio, WMI Tools, WMI Event Viewer, WMI Event Registration, Object Browser, WMI SDK.
 ms.assetid: 40216c7d-e359-4102-b990-334ba355ca77
 ms.tgt_platform: multiple
-title: Further Information
+title: Further Information (WMI)
 ms.topic: article
 ms.date: 05/31/2018
 ---

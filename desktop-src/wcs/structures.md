@@ -1,5 +1,5 @@
 ---
-title: Structures
+title: Structures (WCS)
 description: Structures
 ms.assetid: 68d681e6-4798-449b-9afd-ab35f24d6e67
 keywords:

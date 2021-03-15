@@ -1,5 +1,5 @@
 ---
-title: Media Types
+title: Media Types (deprecated)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: e56ed247-eb4d-42aa-914a-d4138ba45cfb
 keywords:

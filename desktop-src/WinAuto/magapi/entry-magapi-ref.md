@@ -1,5 +1,5 @@
 ---
-title: Reference
+title: Reference (Magnification)
 description: This section contains reference information for the Magnification API.
 ms.assetid: d966f2fb-2c67-4dc7-903b-4fe845058eb9
 ms.topic: article

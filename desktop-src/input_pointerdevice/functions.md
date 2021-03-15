@@ -1,7 +1,7 @@
 ---
 description: The topics in this section provide the reference specifications for Pointer Device Input Stack functions.
 ms.assetid: 44942954-3EA6-4C33-8CF1-E8BF72A914CB
-title: Functions
+title: Functions (Pointer Device Input Stack)
 ms.topic: article
 ms.date: 02/05/2020
 ---

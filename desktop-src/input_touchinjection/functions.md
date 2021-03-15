@@ -1,5 +1,5 @@
 ---
-title: Functions
+title: Functions (Touch Injection)
 description: The topics in this section provide the reference specifications for Touch Injection functions.
 ms.assetid: 8C2DF633-EACB-4B99-91D9-BCB7BE518A2E
 keywords:

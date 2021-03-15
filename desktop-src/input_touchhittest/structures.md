@@ -1,5 +1,5 @@
 ---
-title: Structures
+title: Structures (Touch Hit Testing)
 description: The topics in this section provide the reference specifications for Touch Hit Testing structures.
 ms.assetid: 75528CC6-0637-4CAB-9187-AEC4291C119D
 keywords:
