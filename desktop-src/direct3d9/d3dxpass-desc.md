@@ -85,7 +85,7 @@ Pointer to the pixel shader function. If an effect is created with [D3DXFX\_NOT\
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9effect.h</dt> </dl> |
 

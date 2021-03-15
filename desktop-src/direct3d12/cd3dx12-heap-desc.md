@@ -157,7 +157,7 @@ Defines the & pass-by-reference operator for the CD3DX12\_HEAP\_DESC structure t
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx12.h</dt> </dl> |
 

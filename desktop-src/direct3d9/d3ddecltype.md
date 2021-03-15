@@ -187,7 +187,7 @@ Use the DirectX Caps Viewer Tool (DXCapsViewer.exe) to see which types are suppo
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

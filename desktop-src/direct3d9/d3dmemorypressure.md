@@ -73,7 +73,7 @@ The overall efficiency of the memory allocations that were placed in nonoptimal 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

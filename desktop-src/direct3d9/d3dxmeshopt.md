@@ -100,7 +100,7 @@ The D3DXMESHOPT\_SHAREVB flag has been removed from this enumeration. Use D3DXME
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

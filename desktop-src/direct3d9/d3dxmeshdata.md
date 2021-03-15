@@ -75,7 +75,7 @@ Pointer to a patch mesh. See [**ID3DXPatchMesh**](id3dxpatchmesh.md).
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9anim.h</dt> </dl> |
 

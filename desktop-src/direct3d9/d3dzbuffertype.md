@@ -73,7 +73,7 @@ Members of this enumerated type are used with the D3DRS\_ZENABLE render state.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

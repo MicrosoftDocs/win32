@@ -89,7 +89,7 @@ The members of the **D3DXPLANE** structure take the form of the general plane eq
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

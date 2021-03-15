@@ -49,7 +49,7 @@ MAXD3DDECLLENGTH is defined as a maximum of 64 (see d3d9types.h). This does not 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

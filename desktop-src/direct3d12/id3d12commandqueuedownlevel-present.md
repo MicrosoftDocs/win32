@@ -74,7 +74,7 @@ Returns **S_OK** on success, or else a failing HRESULT.
 
 ## Requirements
 
-|        |                  |
+| Requirement | Value |
 |--------|------------------|
 | Header | d3d12downlevel.h |
 | DLL    | D3D12.dll (Windows 7 only) |

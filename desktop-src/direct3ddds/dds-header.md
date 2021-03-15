@@ -307,7 +307,7 @@ Use this structure in combination with a [**DDS\_HEADER\_DXT10**](dds-header-dxt
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dds.h</dt> </dl> |
 

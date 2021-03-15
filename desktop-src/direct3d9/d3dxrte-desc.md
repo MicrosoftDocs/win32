@@ -101,7 +101,7 @@ This method is used to return the creation parameters used when creating an [**I
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9core.h</dt> </dl> |
 

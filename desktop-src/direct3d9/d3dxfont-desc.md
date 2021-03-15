@@ -163,7 +163,7 @@ Possible values of the above members are given in the GDI [**LOGFONT**](/windows
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9core.h</dt> </dl> |
 

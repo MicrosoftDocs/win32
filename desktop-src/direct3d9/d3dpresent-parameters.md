@@ -240,7 +240,7 @@ The maximum rate at which the swap chain's back buffers can be presented to the 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

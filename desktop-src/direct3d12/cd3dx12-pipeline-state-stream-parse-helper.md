@@ -259,7 +259,7 @@ When passed as the second parameter to the [**D3DX12ParsePipelineStream**](d3dx1
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx12.h</dt> </dl> |
 

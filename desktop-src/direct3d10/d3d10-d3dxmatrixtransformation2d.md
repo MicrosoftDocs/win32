@@ -140,7 +140,7 @@ For 3D transformations, use [**D3DXMatrixTransformation**](d3d10-d3dxmatrixtrans
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |
