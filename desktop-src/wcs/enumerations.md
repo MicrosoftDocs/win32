@@ -1,6 +1,6 @@
 ---
-title: Enumerations
-description: Enumerations
+title: WCS 1.0 enumerations
+description: Reference that contains an alphabetical listing of the most important enumerations that are used by WCS 1.0.
 ms.assetid: 385dfa9b-1dd9-433f-8539-a5da96e6bd34
 keywords:
 - Windows Color System (WCS),enumerations
@@ -17,7 +17,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumerations
+# WCS 1.0 enumerations
 
 This section of the reference contains an alphabetical listing of the most important enumerations that are used by WCS 1.0:
 

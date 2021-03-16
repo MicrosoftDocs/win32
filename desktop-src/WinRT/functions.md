@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/10/2019
 ---
 
-# Functions
+# Functions (Windows Runtime C++ reference)
 
 ## In this section
 
