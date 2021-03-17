@@ -17,6 +17,8 @@ api_location:
 
 # RtlGetUnloadEventTraceEx function
 
+\[This function may be changed or removed from Windows without further notice.\]
+
 Retrieves the size and location of the dynamically unloaded module list for the current process.
 
 ## Syntax
