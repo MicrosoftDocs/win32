@@ -162,7 +162,7 @@ The [Graphics, multimedia,](/previous-versions//aa969176(v=vs.85)) [audio, and 
 -   [Monitor Configuration](../monitor/monitor-configuration-reference.md)
 -   [Multiple Display Monitors](../gdi/multiple-display-monitors-reference.md)
 -   [Picture Acquisition](/previous-versions/windows/desktop/acquisition/programming-reference)
--   [Windows Color System](/windows/win32/wcs/reference)
+-   [Windows Color System](../wcs/reference.md)
 -   [Windows Imaging Component (WIC)](../wic/-wic-codec-reference.md)
 -   [Windows Media Audio and Video Codec and DSP](/previous-versions//dd443208(v=vs.85))
 -   [Windows Media Center](/previous-versions/windows/desktop/acquisition/programming-reference)
