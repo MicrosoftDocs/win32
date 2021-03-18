@@ -116,9 +116,9 @@ The Windows UI API create and use windows to display output, prompt for user inp
 -   [Virtual Hard Disk (VHD)](/previous-versions/windows/desktop/legacy/dd323700(v=vs.85))
 -   [Windows Storage Management](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)
 -   [Windows Data Access Components](/previous-versions/windows/desktop/legacy/aa968814(v=vs.85))
-    -   [Microsoft Open Database Connectivity (ODBC)](/sql/odbc/reference/syntax/odbc-reference?view=sql-server-ver15)
+    -   [Microsoft Open Database Connectivity (ODBC)](/sql/odbc/reference/syntax/odbc-reference)
     -   [Microsoft OLE DB](/previous-versions/windows/desktop/ms718050(v=vs.85))
-    -   [Microsoft ActiveX Data Objects (ADO)](/sql/ado/reference/ado-programmer-s-reference?view=sql-server-ver15)
+    -   [Microsoft ActiveX Data Objects (ADO)](/sql/ado/reference/ado-programmer-s-reference)
 
 ## Diagnostics
 
