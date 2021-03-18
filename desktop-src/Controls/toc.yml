@@ -3052,9 +3052,9 @@
           href: bumper-property-sheets-reference-structures.md
           items: 
           - name: "PROPSHEETHEADER"
-            href: /windows/win32/api/Prsht/ns-prsht-propsheetheadera_v2
+            href: pss-propsheetheader.md
           - name: "PROPSHEETPAGE"
-            href: /windows/win32/api/Prsht/ns-prsht-propsheetpagea_v2
+            href: pss-propsheetpage.md
           - name: "PSHNOTIFY"
             href: /windows/win32/api/Prsht/ns-prsht-pshnotify
       - name: "Property Sheets Sample"
