@@ -1,6 +1,6 @@
 ---
 Description: 
-title: DLP_POSTOP_STATUS structure (endpointdlp.h)
+title: Endpoint data loss prevention
 ms.topic: article
 ms.date: 03/18/2021
 ---
