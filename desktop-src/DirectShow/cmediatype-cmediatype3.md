@@ -1,7 +1,7 @@
 ---
-description: Constructor method.
+description: "Learn about the CMediaType.CMediaType constructor (Mtype.h) method. This method uses the 'mtype' and 'phr' parameters."
 ms.assetid: b7d5264a-2a5f-4111-96bb-1ea2b13405be
-title: CMediaType.CMediaType constructor (Mtype.h)
+title: CMediaType.CMediaType constructor (Mtype.h) - mtype and phr parameters
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CMediaType.CMediaType constructor (Mtype.h)
+# CMediaType.CMediaType constructor (Mtype.h) - mtype and phr parameters
 
 Constructor method.
 
@@ -58,14 +58,10 @@ The constructor calls the [**CMediaType::InitMediaType**](cmediatype-initmediaty
 
 ## Requirements
 
-
-
-|                    |                                                                                                                                                                                            |
+| Requirement                   | Value                                                                                                                                                                                           |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
-| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
-
-
+| Header  | Mtype.h (include Streams.h)                                                                                     |
+| Library | Strmbase.lib (retail builds); Strmbasd.lib (debug builds) |
 
 ## See also
 
