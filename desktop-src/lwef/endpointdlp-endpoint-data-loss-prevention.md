@@ -9,7 +9,7 @@ ms.date: 03/18/2021
 
 Windows 10 implements mechanisms that help to prevent data loss for sensitive files. The endpoint data loss prevention (DLP) APIs allow applications to notify the OS before and after certain operations, such as opening or saving a file. These notifications serve as "hints" that allow the system to optimize data loss operations.
 
-## Locate DLP dll
+## Location of the DLP dll
 
 Since the endpoint DLP dll isn't bundled with the Windows SDK, applications will need to load the dll manually at runtime. The path to the dll location is stored in the registry. The following table lists the registry keys and values that store this information. These paths are defined as constants in the sample endpointdlp.h code listing provided below as a convenience for developers.
 
