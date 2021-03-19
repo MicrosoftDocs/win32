@@ -1560,3 +1560,20 @@
           href: mpthreat-stats-data.md
         - name: "MPVERSION_INFO"
           href: mpversion-info.md
+  - name: "Endpoint data loss prevention"
+    href: endpointdlp-endpoint-data-loss-prevention.md
+    items: 
+    - name: "Endpoint data loss prevention functions"
+      href: endpointdlp-functions.md
+      items: 
+      - name: "DlpNotifyPreOpenDocument"
+        href: endpointdlp-dlpnotifypostopendocument.md
+      - name: "DlpNotifyPreOpenDocument"
+        href: endpointdlp-dlpnotifypreopendocument.md
+    - name: "Endpoint data loss prevention structures"
+      href: endpointdlp-structures.md
+      items: 
+      - name: "DLP_DOCUMENT_INFO"
+        href: endpointdlp-dlp_document_info.md
+      - name: "DLP_POSTOP_STATUS"
+        href: enpointdlp-dlp_postop_status.md
