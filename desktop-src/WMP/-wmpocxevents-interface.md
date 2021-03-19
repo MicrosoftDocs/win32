@@ -24,7 +24,7 @@ The **\_WMPOCXEvents** interface provides the same events as the **IWMPEvents**,
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmp.h</dt> </dl> |
 

@@ -98,7 +98,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzOperation** interface has these prop
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

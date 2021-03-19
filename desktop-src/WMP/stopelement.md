@@ -34,7 +34,7 @@ All properties of this **BUTTONELEMENT** can be overridden by explicitly specify
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

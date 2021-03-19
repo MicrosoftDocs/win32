@@ -73,7 +73,7 @@ This enumeration is used by the [WPD\_STILL\_IMAGE\_FOCUS\_MODE](still-image-pro
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

@@ -51,7 +51,7 @@ The value zero indicates that the audio plays at equal volume on both left and r
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later.<br/>                                                                     |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

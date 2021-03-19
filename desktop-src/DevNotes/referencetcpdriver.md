@@ -55,7 +55,7 @@ This function is implemented in Drvref.lib, which is available for download. See
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Library<br/> | <dl> <dt>Drvref.lib</dt> </dl> |
 

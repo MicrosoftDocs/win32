@@ -34,7 +34,7 @@ This attribute is useful for determining the first visible line when the list bo
 
 
 
-|                    |                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later<br/> |
 

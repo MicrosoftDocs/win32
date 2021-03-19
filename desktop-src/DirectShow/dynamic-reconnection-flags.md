@@ -37,7 +37,7 @@ The following flags specify the level of dynamic reconnection to use during rend
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Qedit.h</dt> </dl> |
 

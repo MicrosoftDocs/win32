@@ -25,7 +25,7 @@ The following subtypes are defined for **MEDIATYPE\_VBI**.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Uuids.h</dt> </dl> |
 

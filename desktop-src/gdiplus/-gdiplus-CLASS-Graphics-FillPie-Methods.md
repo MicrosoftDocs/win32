@@ -27,7 +27,7 @@ This topic lists the FillPie methods of the [**Graphics**](/windows/win32/api/gd
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplusgraphics.h</dt> </dl> |
 

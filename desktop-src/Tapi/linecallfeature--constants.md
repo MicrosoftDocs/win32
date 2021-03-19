@@ -344,7 +344,7 @@ The LINECALLFEATURE\_RELEASEUSERUSERINFO value is new to TAPI 1.4. There are no 
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

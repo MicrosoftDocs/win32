@@ -40,7 +40,7 @@ Not every media source supports this property.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Client<br/> | Windows 7<br/>                                                               |
 | Header<br/> | <dl> <dt>Mfidl.h</dt> </dl> |

@@ -37,7 +37,7 @@ The following GUIDs are used for event tracing in DirectShow.
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PerfStruct.h</dt> </dl> |
 

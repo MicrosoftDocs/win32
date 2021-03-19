@@ -45,7 +45,7 @@ If the image is smaller than the actual region of the control, then tiling the i
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

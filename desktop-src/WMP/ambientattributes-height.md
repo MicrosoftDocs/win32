@@ -34,7 +34,7 @@ If the height specified is smaller than the height of the image provided, then t
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

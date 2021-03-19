@@ -48,7 +48,7 @@ For this method to work, the **allowColumnSorting** attribute must be set to tru
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

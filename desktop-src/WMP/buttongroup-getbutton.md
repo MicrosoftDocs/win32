@@ -41,7 +41,7 @@ This method returns an Object corresponding to a **BUTTONELEMENT** element.
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

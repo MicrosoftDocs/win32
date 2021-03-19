@@ -27,7 +27,7 @@ This topic lists the AddPie methods of the [**GraphicsPath**](/windows/win32/api
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdipluspath.h</dt> </dl> |
 

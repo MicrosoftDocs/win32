@@ -47,7 +47,7 @@ The following globally unique identifiers (GUIDs) define node types for kernel-m
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Ksmedia.h</dt> </dl> |
 

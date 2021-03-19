@@ -36,7 +36,7 @@ The filter graph manager pauses the graph and passes the event to the applicatio
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

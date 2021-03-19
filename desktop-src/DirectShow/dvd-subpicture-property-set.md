@@ -52,7 +52,7 @@ The HLISS field is as defined in the DVD specification. A value of zero indicate
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdmedia.h</dt> </dl> |
 

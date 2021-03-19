@@ -193,7 +193,7 @@ In addition to the values listed previously, DirectShow Editing Services defines
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Vfwmsgs.h</dt> </dl> |
 

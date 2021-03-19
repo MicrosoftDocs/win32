@@ -49,7 +49,7 @@ You set and retrieve the combobox extended styles by using [**CBEM\_SETEXTENDEDS
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>CommCtrl.h</dt> </dl> |
 

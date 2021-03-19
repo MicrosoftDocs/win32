@@ -35,7 +35,7 @@ This will create a simple **PLAYLIST** that displays the items in a playlist wit
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 7.0 or later<br/> |
 

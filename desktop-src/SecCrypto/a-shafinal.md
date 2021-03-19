@@ -61,7 +61,7 @@ This function is very similar to SHAFinal, but is called directly from the libra
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Sha.h</dt> </dl>     |
 | Library<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |

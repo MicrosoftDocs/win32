@@ -77,7 +77,7 @@ The position specified for the **VIEW** is used the first time this method is ca
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

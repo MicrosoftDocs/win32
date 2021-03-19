@@ -30,7 +30,7 @@ This data type is equivalent to the DirectShow [**REFERENCE\_TIME**](reference-t
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mmstream.h</dt> </dl> |
 

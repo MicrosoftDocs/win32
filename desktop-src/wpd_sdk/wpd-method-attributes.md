@@ -37,7 +37,7 @@ For Windows 7, Windows Portable Devices supports the following attributes for me
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

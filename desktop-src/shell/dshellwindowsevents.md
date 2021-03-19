@@ -48,7 +48,7 @@ Use **DShellWindowsEvents** to monitor when a Shell window is registered or revo
 
 
 
-|                    |                                                                                                                          |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Product<br/> | Internet Explorer 5<br/>                                                                                           |
 | Header<br/>  | <dl> <dt>Exdisp.h</dt> </dl>                                      |

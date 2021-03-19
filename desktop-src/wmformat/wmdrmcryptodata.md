@@ -63,7 +63,7 @@ The low 64 bits of the 128-bit AES counter mode. This member is only used if the
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdrmsdk.h</dt> </dl> |
 

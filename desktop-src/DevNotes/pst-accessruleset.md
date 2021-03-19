@@ -63,7 +63,7 @@ A pointer to an array of [**PST\_ACCESSRULE**](pst-accessrule.md) structures.
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl> |
 

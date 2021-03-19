@@ -34,7 +34,7 @@ The **itemCount** property will count the total number of expanded items. For ex
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

@@ -87,7 +87,7 @@ This type is available only in C++. Its .NET equivalent is [System.Numerics.Quat
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Namespace | Windows::Foundation::Numerics |
 | Header | <dl> <dt>Windowsnumerics.h</dt> </dl> |

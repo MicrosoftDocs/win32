@@ -53,7 +53,7 @@ When a line is inserted, the line indexes for the lines below the inserted line 
 
 
 
-|                    |                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later<br/> |
 

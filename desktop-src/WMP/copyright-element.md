@@ -67,7 +67,7 @@ If the metafile is encoded using UTF-8, copyright and trademark symbols will dis
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/>                                 |
 | Header<br/>  | <dl> <dt>Msfeeds.h</dt> </dl> |

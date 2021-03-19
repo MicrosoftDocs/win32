@@ -40,7 +40,7 @@ When the [Full Screen Renderer](full-screen-renderer-filter.md) loses activation
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

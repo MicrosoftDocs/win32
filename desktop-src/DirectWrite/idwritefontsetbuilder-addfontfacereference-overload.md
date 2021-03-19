@@ -33,7 +33,7 @@ Adds a reference to a font to the set being built.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dwrite\_3.h</dt> </dl> |
 

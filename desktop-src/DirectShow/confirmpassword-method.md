@@ -49,7 +49,7 @@ Currently, the *sUserName* parameter is ignored on this and all related methods.
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Segment.h</dt> </dl> |
 

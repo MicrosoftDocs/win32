@@ -54,7 +54,7 @@ These flags are used in the following COPP queries and commands.
 
 
 
-|                   |                                                                                   |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dxva.h</dt> </dl> |
 

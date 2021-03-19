@@ -71,7 +71,7 @@ This function is very similar to SHAUpdate, but is called directly from the libr
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Sha.h</dt> </dl>     |
 | Library<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |

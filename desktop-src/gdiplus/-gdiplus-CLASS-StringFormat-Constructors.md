@@ -25,7 +25,7 @@ This topic lists the constructors of the [**StringFormat**](/windows/win32/api/g
 
 
 
-|                   |                                                                                                  |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplusstringformat.h</dt> </dl> |
 

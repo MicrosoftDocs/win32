@@ -57,7 +57,7 @@ Returns a pointer to a new instance of the object.
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Combase.h (include Streams.h)</dt> </dl> |
 

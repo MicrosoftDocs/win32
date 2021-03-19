@@ -60,7 +60,7 @@ Samples from the MIDI Parser filter contain one second of MIDI data. The MIDI Re
 
 
 
-|                   |                                                                                                   |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Windows.devices.midi.h</dt> </dl> |
 

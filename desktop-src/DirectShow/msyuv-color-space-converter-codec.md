@@ -27,7 +27,7 @@ The MSYUV Color Space Converter Codec is a Video Compression Manager (VCM) codec
 
 
 
-|                |                                                                                      |
+| Requirement | Value |
 |----------------|--------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msyuv.dll</dt> </dl> |
 

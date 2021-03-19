@@ -46,7 +46,7 @@ Returns the handle to the autohide appbar. The return value is **NULL** if an er
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Shellapi.h</dt> </dl> |
 

@@ -53,7 +53,7 @@ Even though this filter does not render any samples, it does wait for each sampl
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Qedit.h</dt> </dl> |
 

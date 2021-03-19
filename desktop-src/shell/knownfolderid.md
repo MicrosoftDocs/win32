@@ -4902,7 +4902,7 @@ Note that some paths have changed for Windows Vista.
 ## Requirements
 
 
-|                   |                                                                                           |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Knownfolders.h</dt> </dl> |
 

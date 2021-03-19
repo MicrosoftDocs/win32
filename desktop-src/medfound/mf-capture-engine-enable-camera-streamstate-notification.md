@@ -20,7 +20,7 @@ A non-zero value specifies that notifications should be enabled. If the attribut
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfcaptureengine.h</dt> </dl> |
 

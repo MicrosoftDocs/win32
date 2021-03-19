@@ -38,7 +38,7 @@ Each of the four width values you specify represents the width of a row or colum
 
 
 
-|                    |                                    |
+| Requirement | Value |
 |--------------------|------------------------------------|
 | Version<br/> | Windows Media Player 11<br/> |
 

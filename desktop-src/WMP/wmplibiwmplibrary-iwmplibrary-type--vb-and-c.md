@@ -47,7 +47,7 @@ A **WMPLib.WMPLibraryType** that is a value from the **WMPLibraryType** enumerat
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 11.<br/>                                                                                    |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

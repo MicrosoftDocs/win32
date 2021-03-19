@@ -49,7 +49,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 ## Requirements
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header  | <dl> <dt>Cprop.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

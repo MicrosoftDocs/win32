@@ -35,7 +35,7 @@ This creates a **SLIDER** control that sets the audio balance. The ToolTips are 
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 7.0 or later<br/> |
 

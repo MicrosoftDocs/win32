@@ -76,7 +76,7 @@ The [**lineSetAgentState**](/windows/desktop/api/Tapi/nf-tapi-linesetagentstate)
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

@@ -40,7 +40,7 @@ This event code is intended for debugging. It is not sent for all graph changes.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

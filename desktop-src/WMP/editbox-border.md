@@ -34,7 +34,7 @@ The border appears as a two-pixel-wide sunken border around the edit box control
 
 
 
-|                    |                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later<br/> |
 

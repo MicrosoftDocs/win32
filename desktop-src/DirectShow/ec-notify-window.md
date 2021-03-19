@@ -40,7 +40,7 @@ When a video renderer is connected, it checks whether the upstream output pin su
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

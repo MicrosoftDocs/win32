@@ -54,7 +54,7 @@ The progress value represents the completed percentage of the entire burning pro
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 11<br/>                                                                                     |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

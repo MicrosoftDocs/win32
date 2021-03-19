@@ -25,7 +25,7 @@ This topic lists the Inflate methods of the [**RectF**](/windows/win32/api/gdipl
 
 
 
-|                   |                                                                                           |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplustypes.h</dt> </dl> |
 

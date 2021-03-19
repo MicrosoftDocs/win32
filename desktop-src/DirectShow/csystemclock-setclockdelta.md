@@ -58,7 +58,7 @@ The time values returned by [**IReferenceClock::GetTime**](/windows/desktop/api/
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | CSystemClock Class<br/>                                                                                                                                                              |
 | Header<br/>  | <dl> <dt>Sysclock.h (include Streams.h)</dt> </dl>                                                                                  |

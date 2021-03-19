@@ -35,7 +35,7 @@ For Windows 7, Windows Portable Devices supports the following attributes for fo
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

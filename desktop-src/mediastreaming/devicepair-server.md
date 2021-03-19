@@ -44,7 +44,7 @@ Receives a [**ActiveBasicDevice**](/previous-versions/windows/desktop/legacy/dn3
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Asptlb.h</dt> </dl> |
 

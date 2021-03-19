@@ -33,7 +33,7 @@ Creates a paint object which can be used to set the 'fill' or 'stroke' propertie
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D2d1svg.h</dt> </dl> |
 

@@ -134,7 +134,7 @@ The appearance of text or an icon or both on a button control depends on the BS\
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winuser.h</dt> </dl> |
 

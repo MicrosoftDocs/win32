@@ -30,7 +30,7 @@ This attribute is a read/write **Boolean** with a default value of false.
 
 
 
-|                    |                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later<br/> |
 

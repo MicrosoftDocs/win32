@@ -27,7 +27,7 @@ This topic lists the AddEllipse methods of the [**GraphicsPath**](/windows/win32
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdipluspath.h</dt> </dl> |
 

@@ -70,7 +70,7 @@ Get an **IWMPMediaCollection** interface by using the following properties acces
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmp.h</dt> </dl> |
 

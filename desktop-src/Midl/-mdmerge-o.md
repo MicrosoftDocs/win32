@@ -43,7 +43,7 @@ Specifies the directory that contains the merged metadata files.
 
 
 
-|                   |                                |
+| Requirement | Value |
 |-------------------|--------------------------------|
 | Client<br/> | Windows 8<br/>           |
 | Server<br/> | Windows Server 2012<br/> |

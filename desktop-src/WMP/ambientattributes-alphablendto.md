@@ -60,7 +60,7 @@ When you use **alphaBlendTo** with a **TEXT** element that does not have the **b
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

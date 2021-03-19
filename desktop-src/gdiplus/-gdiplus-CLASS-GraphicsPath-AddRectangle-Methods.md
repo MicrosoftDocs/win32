@@ -25,7 +25,7 @@ This topic lists the AddRectangle methods of the [**GraphicsPath**](/windows/win
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdipluspath.h</dt> </dl> |
 

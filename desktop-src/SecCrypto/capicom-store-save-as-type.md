@@ -34,7 +34,7 @@ The **CAPICOM\_STORE\_SAVE\_AS\_TYPE** enumeration type indicates the encoding o
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |
