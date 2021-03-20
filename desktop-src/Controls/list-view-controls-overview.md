@@ -4,9 +4,12 @@ description: A list-view control is a window that displays a collection of items
 ms.assetid: 163f7778-690c-4166-b0c5-c7be1a03ae98
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: project-verbatim
 ---
 
 # About List-View Controls
+
+See the [Virtual listview control sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/controls/common/vlistvw).
 
 A list-view control is a window that displays a collection of items. List-view controls provide several ways to arrange and display items and are much more flexible than simple [List Boxes](list-boxes.md). For example, additional information about each item can be displayed in columns to the right of the icon and label.
 
@@ -338,6 +341,6 @@ Insertion marks show users where dragged items will be placed. Insertion marks c
 
 The insertion mark API elements enable placement of insertion marks by providing messages and flags that perform hit detection, that specify the location and appearance of the insertion mark by item, and that query for information about the current size and appearance of the insertion mark.
 
- 
+## See also
 
- 
+* [Virtual listview control sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/controls/common/vlistvw)
