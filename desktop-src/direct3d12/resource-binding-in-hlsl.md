@@ -11,16 +11,6 @@ ms.date: 08/27/2019
 
 This topic describes some specific features of using High Level Shader Language (HLSL) [Shader Model 5.1](/windows/desktop/direct3dhlsl/shader-model-5-1) with Direct3D 12. All Direct3D 12 hardware supports Shader Model 5.1, so support for this model does not depend on what the hardware feature level is.
 
--   [Resource types and arrays](#resource-types-and-arrays)
--   [Descriptor arrays and texture arrays](#descriptor-arrays-and-texture-arrays)
--   [Resource aliasing](#resource-aliasing)
--   [Divergence and derivatives](#divergence-and-derivatives)
--   [UAVs in pixel shaders](#uavs-in-pixel-shaders)
--   [Constant Buffers](#constant-buffers)
--   [Bytecode changes in SM5.1](#bytecode-changes-in-sm51)
--   [Example HLSL Declarations](#example-hlsl-declarations)
--   [Related topics](#related-topics)
-
 ## Resource types and arrays
 
 Shader Model 5 (SM5.0) resource syntax uses the `register` keyword to relay important information about the resource to the HLSL compiler. For example, the following statement declares an array of four textures bound at slots t3, t4, t5, and t6. t3 is the only register slot appearing in the statement, simply being the first in the array of four.
@@ -108,17 +98,17 @@ In a texture array, the index can be varied freely, without any need for qualifi
 The equivalent descriptor array would be:
 
 ``` syntax
-Texture2D<float4> myTex2DOfArrays[] : register(t0); // t0+
+Texture2D<float4> myArrayOfTex2D[] : register(t0); // t0+
 float2 myCoord(1.0f, 1.4f);
-color = myTex2DOfArrays[2].Sample(mySampler,myCoord); // 2 is index
+color = myArrayOfTex2D[2].Sample(mySampler,myCoord); // 2 is index
 ```
 
-Note the awkward use of a float for the array index is replaced with `myTex2DOfArrays[2]`. Also descriptor arrays offer more flexibility with the dimensions. The type, `Texture2D` is this example, cannot vary, but the format, width, height, and mip count can all vary with each descriptor.
+Note the awkward use of a float for the array index is replaced with `myArrayOfTex2D[2]`. Also descriptor arrays offer more flexibility with the dimensions. The type, `Texture2D` is this example, cannot vary, but the format, width, height, and mip count can all vary with each descriptor.
 
 It is legitimate to have a descriptor array of texture arrays:
 
 ``` syntax
-Texture2DArray<float4> myTex2DArrayOfArrays[2] : register(t0);
+Texture2DArray<float4> myArrayOfTex2DArrays[2] : register(t0);
 ```
 
 It is not legitimate to declare an array of structures, each structure containing descriptors, for example the following code is not supported.
@@ -144,7 +134,7 @@ To achieve the **abcabcabc....** memory layout, use a descriptor table without u
 
 ## Resource aliasing
 
-The resource ranges specified in the HLSL shaders are logical ranges. They are be bound to concrete heap ranges at runtime via the root signature mechanism. Normally, a logical range maps to a heap range that does not overlap with other heap ranges. However, the root signature mechanism makes it possible to alias (overlap) heap ranges of compatible types. For example, `tex2` and `tex3` ranges from the above example may be mapped to the same (or overlapping) heap range, which has the effect of aliasing textures in the HLSL program. If such aliasing is desired, the shader must be compiled with D3D10\_SHADER\_RESOURCES\_MAY\_ALIAS option, which is set by using the */res\_may\_alias* option for the [Effect-Compiler Tool](/windows/desktop/direct3dtools/fxc) (FXC). The option makes the compiler produce correct code by preventing certain load/store optimizations under the assumption that resources may alias.
+The resource ranges specified in the HLSL shaders are logical ranges. They are be bound to concrete heap ranges at runtime via the root signature mechanism. Normally, a logical range maps to a heap range that does not overlap with other heap ranges. However, the root signature mechanism makes it possible to alias (overlap) heap ranges of compatible types. For example, `tex2` and `tex3` ranges from the above example may be mapped to the same (or overlapping) heap range, which has the effect of aliasing textures in the HLSL program. If such aliasing is desired, the shader must be compiled with D3D10\_SHADER\_RESOURCES\_MAY\_ALIAS option, which is set by using the */res\_may\_alias* option for the [Effect-Compiler Tool](/windows/win32/direct3dtools/fxc) (FXC). The option makes the compiler produce correct code by preventing certain load/store optimizations under the assumption that resources may alias.
 
 ## Divergence and derivatives
 
@@ -320,35 +310,12 @@ ConstantBuffer<Stuff> myStuff[][3][8]  : register(b2, space3)
 
 ## Related topics
 
-<dl> <dt>
-
-[Dynamic Indexing using HLSL 5.1](dynamic-indexing-using-hlsl-5-1.md)
-</dt> <dt>
-
-[Effect-Compiler Tool](/windows/desktop/direct3dtools/fxc)
-</dt> <dt>
-
-[HLSL Shader Model 5.1 Features for Direct3D 12](/windows/desktop/direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12)
-</dt> <dt>
-
-[Rasterizer Ordered Views](rasterizer-order-views.md)
-</dt> <dt>
-
-[Resource Binding](resource-binding.md)
-</dt> <dt>
-
-[Root Signatures](root-signatures.md)
-</dt> <dt>
-
-[Shader Model 5.1](/windows/desktop/direct3dhlsl/shader-model-5-1)
-</dt> <dt>
-
-[Shader Specified Stencil Reference Value](shader-specified-stencil-reference-value.md)
-</dt> <dt>
-
-[Specifying Root Signatures in HLSL](specifying-root-signatures-in-hlsl.md)
-</dt> </dl>
-
- 
-
- 
+* [Dynamic Indexing using HLSL 5.1](dynamic-indexing-using-hlsl-5-1.md)
+* [Effect-Compiler Tool](/windows/win32/direct3dtools/fxc)
+* [HLSL Shader Model 5.1 Features for Direct3D 12](/windows/win32/direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12)
+* [Rasterizer Ordered Views](rasterizer-order-views.md)
+* [Resource Binding](resource-binding.md)
+* [Root Signatures](root-signatures.md)
+* [Shader Model 5.1](/windows/win32/direct3dhlsl/shader-model-5-1)
+* [Shader Specified Stencil Reference Value](shader-specified-stencil-reference-value.md)
+* [Specifying Root Signatures in HLSL](specifying-root-signatures-in-hlsl.md)
