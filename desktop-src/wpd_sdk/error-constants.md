@@ -183,7 +183,7 @@ Devices that support Media Transfer Protocol (MTP) can return the following erro
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

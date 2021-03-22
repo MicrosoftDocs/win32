@@ -34,7 +34,7 @@ When the video is smaller than the window and **stretchToFit** is false, the bac
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

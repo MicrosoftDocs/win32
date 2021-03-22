@@ -31,7 +31,7 @@ The value is a string representation of the decimal format tag value. For exampl
 
 
 
-|                    |                                    |
+| Requirement | Value |
 |--------------------|------------------------------------|
 | Version<br/> | Windows Media Player 11<br/> |
 

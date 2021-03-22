@@ -58,7 +58,7 @@ See [**get\_Format**](/windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurable
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 2.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

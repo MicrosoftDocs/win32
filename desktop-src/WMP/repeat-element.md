@@ -77,7 +77,7 @@ If no **COUNT** attribute is defined, the content in the associated **ENTRY** an
 
 
 
-|                    |                                                     |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------|
 | Version<br/> | Windows Media Player version 70 or later<br/> |
 

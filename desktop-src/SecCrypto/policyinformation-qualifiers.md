@@ -38,7 +38,7 @@ The policy's Certification Practice Statement (CPS) pointer or user notice quali
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | Header<br/>          | <dl> <dt>Iads.h</dt> </dl>      |

@@ -44,7 +44,7 @@ The **REFMSPID** type defines a reference to an **MSPID**.
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mmstream.h</dt> </dl> |
 

@@ -24,7 +24,7 @@ The SPATIAL\_AUDIO\_XXX constants define values related to spatial sound feature
 
 
 
-|                   |                                                                                                   |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>SpatialAudioMetadata.h</dt> </dl> |
 

@@ -33,7 +33,7 @@ This will create a **TEXT** element that will display the current time of the me
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 7.0 or later<br/> |
 

@@ -256,7 +256,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzAuthorizationStore3** interface has 
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

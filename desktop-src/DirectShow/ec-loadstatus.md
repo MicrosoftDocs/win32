@@ -56,7 +56,7 @@ The [WM ASF Reader](wm-asf-reader-filter.md) filter and the legacy [Windows Medi
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

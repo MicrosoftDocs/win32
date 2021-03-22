@@ -34,7 +34,7 @@ If the playlist specified is invalid or if no value is specified, the **PLAYLIST
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

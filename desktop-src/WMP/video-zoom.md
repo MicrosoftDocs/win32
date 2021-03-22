@@ -38,7 +38,7 @@ If the **shrinkToFit** property is false, the video will change proportion upon 
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

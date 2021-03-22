@@ -101,7 +101,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzOperation2** interface has these pro
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

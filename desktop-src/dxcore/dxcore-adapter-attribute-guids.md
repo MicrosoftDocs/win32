@@ -28,7 +28,7 @@ The following adapter attribute GUIDs are declared in `dxcore_interface.h`, and 
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Header | dxcore_interface.h |
 

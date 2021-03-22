@@ -90,7 +90,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>WMDDRMSP.idl</dt> </dl> |
 | Library<br/> | <dl> <dt>Mssachlp.lib</dt> </dl> |

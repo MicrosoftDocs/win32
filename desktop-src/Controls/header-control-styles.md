@@ -104,7 +104,7 @@ To retrieve and change the styles after creating the control, use the [**GetWind
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>CommCtrl.h</dt> </dl> |
 

@@ -60,7 +60,7 @@ See [**ExtractFiles**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-extract
 
 
 
-|                    |                                                                                                          |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 1.0 or later<br/>                                                                     |
 | Header<br/>  | <dl> <dt>Advpub.h (include Mergemod.h)</dt> </dl> |

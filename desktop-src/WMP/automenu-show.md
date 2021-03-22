@@ -46,7 +46,7 @@ The **Quick Access Panel** appears at the location specified by the **left** and
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

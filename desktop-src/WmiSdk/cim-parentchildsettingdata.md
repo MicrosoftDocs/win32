@@ -115,7 +115,7 @@ The snapshot setting data upon which the Child setting data is based.
 
 
 
-|                      |                        |
+| Requirement | Value |
 |----------------------|------------------------|
 | Namespace<br/> | Root\\CIMV2<br/> |
 

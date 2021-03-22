@@ -46,7 +46,7 @@ This method does not return a value.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>WdsView.h</dt> </dl>   |
 | IDL<br/>    | <dl> <dt>WdsView.idl</dt> </dl> |

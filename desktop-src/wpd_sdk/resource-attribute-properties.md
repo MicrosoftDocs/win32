@@ -39,7 +39,7 @@ These attributes are returned by the [**IPortableDeviceResources::GetResourceAtt
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

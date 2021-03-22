@@ -38,7 +38,7 @@ For more information, see [DVD Playback Enhancements in Windows Vista](dvd-playb
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdmedia.h</dt> </dl> |
 

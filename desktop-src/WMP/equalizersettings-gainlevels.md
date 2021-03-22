@@ -45,7 +45,7 @@ This attribute takes a parameter, but its value is specified in script code the 
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

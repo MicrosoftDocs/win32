@@ -40,7 +40,7 @@ The legacy Windows Media Source filter sends this event. New filters should not 
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

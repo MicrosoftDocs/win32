@@ -36,7 +36,7 @@ The following analog video subtypes are now obsolete. Use the [**AnalogVideoStan
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

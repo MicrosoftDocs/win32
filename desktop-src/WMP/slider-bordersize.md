@@ -36,7 +36,7 @@ If a background image is used with the **tiled** attribute set to true, the offs
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

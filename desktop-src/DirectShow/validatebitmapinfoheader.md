@@ -73,7 +73,7 @@ The function does not check whether the structure describes a valid video format
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Checkbmi.h</dt> </dl> |
 

@@ -36,7 +36,7 @@ This property applies only when the [MFPKEY\_HTTP\_ByteStream\_Enable\_Urlmon](m
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfidl.h</dt> </dl> |
 

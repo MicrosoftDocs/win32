@@ -161,7 +161,7 @@ This structure is contained within a **\_VIDEOINFOHEADER** structure.
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdm.idl</dt> </dl> |
 

@@ -23,7 +23,7 @@ The following subtypes are used by decoders that are using DirectX Video Acceler
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

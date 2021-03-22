@@ -84,7 +84,7 @@ Skins included with Windows Media Download Packages must be rectangular in shape
 
 
 
-|                    |                                                     |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------|
 | Version<br/> | Windows Media Player version 70 or later<br/> |
 

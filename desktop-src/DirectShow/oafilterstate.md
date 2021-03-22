@@ -21,7 +21,7 @@ typedef long OAFilterState;
 
 
 
-|                   |                                                                                                        |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Control.h (include Dshow.h)</dt> </dl> |
 

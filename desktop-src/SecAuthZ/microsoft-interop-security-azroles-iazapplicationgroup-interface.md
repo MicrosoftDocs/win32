@@ -170,7 +170,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzApplicationGroup** interface has the
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

@@ -16,7 +16,7 @@ Signals that video capture is being blocked by the driver.
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfcaptureengine.h</dt> </dl> |
 

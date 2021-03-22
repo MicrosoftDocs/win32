@@ -59,7 +59,7 @@ The value "Total Time: %duration%" for a playlist that contains a total duration
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

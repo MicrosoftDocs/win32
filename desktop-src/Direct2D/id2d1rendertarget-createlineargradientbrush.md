@@ -38,7 +38,7 @@ For an example showing how to create a gradient stop collection and use it to de
 
 
 
-|                    |                                                                                     |
+| Requirement | Value |
 |--------------------|-------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D2d1.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D2d1.lib</dt> </dl> |

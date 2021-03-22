@@ -49,7 +49,7 @@ The **clsid** attribute specifies the subobject that creates the effect.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdipluseffects.h</dt> </dl> |
 

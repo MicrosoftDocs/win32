@@ -50,7 +50,7 @@ A **WMPLib.WMPBurnFormat** that is a value from the **WMPBurnFormat** enumeratio
 
 
 
-|                      |                                                                                                                |
+| Requirement | Value |
 |----------------------|----------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 11<br/>                                                                             |
 | Namespace<br/> | **WMPLib**<br/>                                                                                          |

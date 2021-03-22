@@ -60,7 +60,7 @@ Specifies the query string used to enumerate all [**MidiOutPort**](/uwp/api/Wind
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mmdeviceapi.h</dt> </dl> |
 

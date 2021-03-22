@@ -101,6 +101,6 @@ The IP\_ORIGINAL\_ARRIVAL\_IF socket option is supported on Windows Server 2008
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Header | <dl> <dt>Ws2def.h (include Winsock2.h); </dt> <dt>Winsock2.h on Windows Server 2003 and Windows XP</dt> </dl> |

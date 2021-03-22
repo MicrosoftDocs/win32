@@ -70,7 +70,7 @@ The contents of a playlist are organized within a **seq** element that is contai
 
 
 
-|                    |                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/> |
 

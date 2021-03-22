@@ -30,7 +30,7 @@ This attribute is a **Number** (**float**). Specifying a value for this attribut
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

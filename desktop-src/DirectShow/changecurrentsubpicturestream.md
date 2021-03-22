@@ -34,7 +34,7 @@ Specifies whether the operation is enabled or disabled as a Boolean.
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Segment.h</dt> </dl> |
 

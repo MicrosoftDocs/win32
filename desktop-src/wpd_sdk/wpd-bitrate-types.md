@@ -69,7 +69,7 @@ Free format bit rate. This is a constant bit rate that is lower than the maximum
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

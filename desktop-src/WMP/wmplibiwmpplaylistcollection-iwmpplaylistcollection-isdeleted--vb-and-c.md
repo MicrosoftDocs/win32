@@ -63,7 +63,7 @@ A **System.Boolean** that specifies whether the playlist was deleted.
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later.<br/>                                                                     |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

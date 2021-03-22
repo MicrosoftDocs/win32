@@ -27,7 +27,7 @@ The following globally unique identifiers (GUIDs) define different time formats.
 
 
 
-|                   |                                                                                                      |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Uuids.h (include Dshow.h)</dt> </dl> |
 

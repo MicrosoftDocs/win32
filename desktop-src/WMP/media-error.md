@@ -36,7 +36,7 @@ If the media item cannot be played, this property retrieves an **ErrorItem** obj
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later.<br/>                           |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

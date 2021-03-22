@@ -69,7 +69,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzTasks** interface has these properti
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

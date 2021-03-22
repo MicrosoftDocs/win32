@@ -1054,7 +1054,7 @@ When invoking the LINEERR\_constants which are new with TAPI 3.0, the Tapierr.mc
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

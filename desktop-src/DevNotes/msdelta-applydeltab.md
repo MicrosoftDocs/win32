@@ -62,7 +62,7 @@ This function returns **TRUE** if it succeeds; otherwise, it returns **FALSE**. 
 
 ## Requirements
 
-|                |                                                                                       |
+| Requirement | Value |
 |----------------|---------------------------------------------------------------------------------------|
 | Header | msdelta.h |
 | DLL | msdelta.dll |

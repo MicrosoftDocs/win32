@@ -45,7 +45,7 @@ When the **thumbImage** slider is moved with the mouse, if **slide** is set to t
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

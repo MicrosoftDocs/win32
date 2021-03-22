@@ -31,6 +31,6 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Header<br/> | <dl> <dt>ws2ipdef.h (include ws2tcpip.h), and ws2tcpip.h</dt> <dt>Winsock2.h on Windows Server 2003, Windows XP, and Windows 2000</dt> </dl> |

@@ -37,7 +37,7 @@ The Windows Media Format SDK constant for this attribute is g\_wszWMYear.
 
 
 
-|                    |                                                                                                           |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series Windows Media Player 10 or later does not support this attribute<br/> |
 

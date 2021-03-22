@@ -69,7 +69,7 @@ To log this event from a DirectShow filter, use the **PERFLOG\_VIDEOREND** macro
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Perfstruct.h</dt> </dl> |
 

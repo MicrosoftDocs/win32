@@ -99,7 +99,7 @@ A pointer to a wide character string that represents the program name; use **NUL
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl> |
 

@@ -75,7 +75,7 @@ This structure is used by the [**IWMDRMLicenseManagement::CreateLicenseEnumerati
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdrmsdk.h</dt> </dl> |
 

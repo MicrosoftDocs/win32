@@ -43,7 +43,7 @@ The following tables describe the media types used for DVD.
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Ksuuids.h</dt> </dl> |
 

@@ -91,7 +91,7 @@ This structure is used by the [**IWMDRMLicense::GetOutputProtectionLevels**](iwm
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdrmsdk.h</dt> </dl> |
 

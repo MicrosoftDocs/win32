@@ -25,7 +25,7 @@ This topic lists the constructors of the [**CharacterRange**](/windows/win32/api
 
 
 
-|                   |                                                                                           |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplustypes.h</dt> </dl> |
 

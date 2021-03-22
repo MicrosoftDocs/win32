@@ -87,7 +87,7 @@ The computer system that was the target of the application.
 
 
 
-|                      |                        |
+| Requirement | Value |
 |----------------------|------------------------|
 | Namespace<br/> | Root\\CIMV2<br/> |
 

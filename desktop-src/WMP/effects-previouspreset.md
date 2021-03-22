@@ -39,7 +39,7 @@ If the current preset is the first one in the list for the current visualization
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

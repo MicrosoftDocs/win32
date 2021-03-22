@@ -46,7 +46,7 @@ A custom presenter for the [**Enhanced Video Renderer**](enhanced-video-renderer
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

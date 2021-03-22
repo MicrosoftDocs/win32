@@ -34,7 +34,7 @@ This is useful for determining the amount of space there is in the monitor. If t
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

@@ -42,7 +42,7 @@ The [Video Mixing Renderer 7](video-mixing-renderer-filter-7.md) (VMR-7) and the
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

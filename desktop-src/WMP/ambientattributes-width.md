@@ -34,7 +34,7 @@ If the width specified is narrower than the width of the image provided, then th
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

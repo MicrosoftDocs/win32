@@ -27,7 +27,7 @@ This topic lists the DrawBezier methods of the [**Graphics**](/windows/win32/api
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplusgraphics.h</dt> </dl> |
 

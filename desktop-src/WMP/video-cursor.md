@@ -53,7 +53,7 @@ For rendering purposes, system is the default cursor. The default value retrieve
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

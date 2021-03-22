@@ -71,7 +71,7 @@ If the value of the **ToNode** field is KSFILTER\_NODE, this field specifies the
 
 
 
-|                   |                                                                                 |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Ks.h</dt> </dl> |
 
