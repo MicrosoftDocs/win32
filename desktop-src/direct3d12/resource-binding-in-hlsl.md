@@ -98,6 +98,7 @@ On some hardware the use of this qualifier generates additional code to enforce 
 Texture arrays have been available since DirectX 10. Texture arrays require one descriptor, however all the array slices must share the same format, width, height and mip count. Also, the array must occupy a contiguous range in virtual address space. The following code shows an example of accessing a texture array from a shader.
 
 ``` syntax
+Texture2DArray<float4> myTex2DArray : register(t0); // t0
 float3 myCoord(1.0f,1.4f,2.2f); // 2.2f is array index (rounded to int)
 color = myTex2DArray.Sample(mySampler, myCoord);
 ```
@@ -107,12 +108,12 @@ In a texture array, the index can be varied freely, without any need for qualifi
 The equivalent descriptor array would be:
 
 ``` syntax
-Texture2D<float4> myTex2DArray[] : register(t0); // t0+
+Texture2D<float4> myTex2DOfArrays[] : register(t0); // t0+
 float2 myCoord(1.0f, 1.4f);
-color = myTex2D[2].Sample(mySampler,myCoord); // 2 is index
+color = myTex2DOfArrays[2].Sample(mySampler,myCoord); // 2 is index
 ```
 
-Note the awkward use of a float for the array index is replaced with `myTex2D[2]`. Also descriptor arrays offer more flexibility with the dimensions. The type, `Texture2D` is this example, cannot vary, but the format, width, height, and mip count can all vary with each descriptor.
+Note the awkward use of a float for the array index is replaced with `myTex2DOfArrays[2]`. Also descriptor arrays offer more flexibility with the dimensions. The type, `Texture2D` is this example, cannot vary, but the format, width, height, and mip count can all vary with each descriptor.
 
 It is legitimate to have a descriptor array of texture arrays:
 
