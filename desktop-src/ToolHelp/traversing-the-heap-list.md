@@ -1,21 +1,18 @@
 ---
 title: Traversing the Heap List
-description: The following example obtains a list of heaps for the current process.
+description: Examples showing how to obtain a list of heaps for the current process.
 ms.assetid: cfa1d2a4-fec0-4089-9351-e0a26f9ecfe3
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 03/23/2021
 ---
 
 # Traversing the Heap List
 
 The following example obtains a list of heaps for the current process. It takes a snapshot of the heaps using the [**CreateToolhelp32Snapshot**](/windows/desktop/api/TlHelp32/nf-tlhelp32-createtoolhelp32snapshot) function, and then walks through the list using the [**Heap32ListFirst**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32listfirst) and [**Heap32ListNext**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32listnext) functions. For each heap, it uses the [**Heap32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32first) and [**Heap32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32next) functions to walk the heap blocks.
 
-Note that the
-[**Heap32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32first)
-and
-[**Heap32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32next)
-functions
-are inefficient, particularly for large heaps.
+Note that the [**Heap32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32first) and [**Heap32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32next)
+functions are inefficient, particularly for large heaps.
+
 See the second example for an equivalent, much more efficient, alternative.
 
 ```C++
@@ -66,11 +63,7 @@ int main( void )
 }
 ```
 
-The following program uses the
-[**HeapWalk**](/windows/desktop/api/heapapi/nf-heapapi-heapwalk)
-function to walk the process heaps,
-producing identical output to the previous program
-but much more efficiently:
+The following code snippet uses the [**HeapWalk**](/windows/desktop/api/heapapi/nf-heapapi-heapwalk) function to walk the process heaps, producing identical output to the previous example, but much more efficiently:
 
 ```C++
 #include <windows.h>
@@ -120,22 +113,11 @@ int main( void )
 }
 ```
 
-Walking a heap with the
-[**HeapWalk**](/windows/desktop/api/heapapi/nf-heapapi-heapwalk)
-function is roughly linear in the size of the heap,
-whereas
-walking a heap with the
-[**Heap32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32next)
-function is roughly quadratic in the size of the heap.
-Even for a modest heap with 10,000 allocations,
-[**HeapWalk**](/windows/desktop/api/heapapi/nf-heapapi-heapwalk)
-runs 10,000 times faster than
-[**Heap32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32next)
-while providing more detailed information.
-The difference in performance becomes even more dramatic
+Walking a heap with the [**HeapWalk**](/windows/desktop/api/heapapi/nf-heapapi-heapwalk) function is roughly linear in the size of the heap, whereas
+walking a heap with the [**Heap32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32next) function is roughly quadratic in the size of the heap.
+Even for a modest heap with 10,000 allocations, [**HeapWalk**](/windows/desktop/api/heapapi/nf-heapapi-heapwalk) runs 10,000 times faster than
+[**Heap32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32next) while providing more detailed information. The difference in performance becomes even more dramatic
 as the heap size increases.
 
-For a more detailed example of walking the heap with the
-[**HeapWalk**](/windows/desktop/api/heapapi/nf-heapapi-heapwalk)
-function, see
+For a more detailed example of walking the heap with the [**HeapWalk**](/windows/desktop/api/heapapi/nf-heapapi-heapwalk) function, see
 [Enumerating a Heap](/windows/win32/memory/enumerating-a-heap).
