@@ -67,7 +67,7 @@ int main( void )
 ```
 
 The following program uses the
-[**HeapWalk**](windows/desktop/api/heapapi/nf-heapapi-heapwalk)
+[**HeapWalk**](/windows/desktop/api/heapapi/nf-heapapi-heapwalk)
 function to walk the process heaps,
 producing identical output to the previous program
 but much more efficiently:
@@ -121,14 +121,14 @@ int main( void )
 ```
 
 Walking a heap with the
-[**HeapWalk**](windows/desktop/api/heapapi/nf-heapapi-heapwalk)
+[**HeapWalk**](/windows/desktop/api/heapapi/nf-heapapi-heapwalk)
 function is roughly linear in the size of the heap,
 whereas
 walking a heap with the
 [**Heap32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32next)
 function is roughly quadratic in the size of the heap.
 Even for a modest heap with 10,000 allocations,
-[**HeapWalk**](windows/desktop/api/heapapi/nf-heapapi-heapwalk)
+[**HeapWalk**](/windows/desktop/api/heapapi/nf-heapapi-heapwalk)
 runs 10,000 times faster than
 [**Heap32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-heap32next)
 while providing more detailed information.
@@ -136,6 +136,6 @@ The difference in performance becomes even more dramatic
 as the heap size increases.
 
 For a more detailed example of walking the heap with the
-[**HeapWalk**](windows/desktop/api/heapapi/nf-heapapi-heapwalk)
+[**HeapWalk**](/windows/desktop/api/heapapi/nf-heapapi-heapwalk)
 function, see
 [Enumerating a Heap](/windows/win32/memory/enumerating-a-heap).
