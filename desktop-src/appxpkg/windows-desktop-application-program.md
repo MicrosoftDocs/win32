@@ -86,8 +86,9 @@ Our telemetry data will show health information such as crashes for each applica
 
 > [!Note]  
 > If we detect that an application's metadata has been updated to use a new name, we ll begin to report new data under the new name. Historical data associated with the old name will be preserved for 30 days.
+> 
+> Analytics will not be available for an application until it has been installed on at least 100 devices.
 
- 
 
 ### Health report
 
