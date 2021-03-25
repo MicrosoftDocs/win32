@@ -97,7 +97,7 @@ If the media type does not contain a format block (**pbFormat** is **NULL**), th
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Bdatypes.h</dt> </dl> |
 

@@ -91,7 +91,7 @@ DbgLog((LOG_TRACE, 3, TEXT("Connected input pin %d"), nPinNumber));
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl> |
 

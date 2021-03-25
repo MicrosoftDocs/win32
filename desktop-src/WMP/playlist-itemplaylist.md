@@ -45,7 +45,7 @@ The **itemPlaylist** property will return the playlist object that is expanded i
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

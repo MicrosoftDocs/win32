@@ -40,7 +40,7 @@ A filter can send this event if it spends significant time opening a file. (For 
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

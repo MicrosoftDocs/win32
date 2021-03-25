@@ -223,7 +223,7 @@ When you use a fragment element to sort a playlist, you must sort on a metadata 
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

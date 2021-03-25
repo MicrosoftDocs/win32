@@ -85,7 +85,7 @@ The **SOL\_APPLETALK** socket options and the structures used by these socket op
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Atalkwsh.h</dt> </dl> |
 

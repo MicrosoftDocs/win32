@@ -21,7 +21,7 @@ typedef DVD_REGISTER SPRMARRAY [24];
 
 
 
-|                   |                                                                                                       |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Strmif.h (include Dshow.h)</dt> </dl> |
 

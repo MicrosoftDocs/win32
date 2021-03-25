@@ -96,7 +96,7 @@ Windows XP Media Center Edition 2004 provides users with a user interface design
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later.<br/> |
 

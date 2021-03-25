@@ -67,7 +67,7 @@ Every Windows Media Playlist must have the **smil** element at its root.
 
 
 
-|                    |                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/> |
 

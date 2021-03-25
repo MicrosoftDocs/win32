@@ -39,7 +39,7 @@ The Windows Update Agent (WUA) API can return the following error codes when per
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wuerror.h</dt> </dl> |
 

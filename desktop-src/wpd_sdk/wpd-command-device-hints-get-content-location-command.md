@@ -61,7 +61,7 @@ Can only be called directly using [**IPortableDevice::SendCommand**](/windows/de
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

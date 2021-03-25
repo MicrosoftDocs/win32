@@ -127,7 +127,7 @@ For a related tutorial, see [Creating a Simple Direct2D Application](direct2d-qu
 
 
 
-|                    |                                                                                                       |
+| Requirement | Value |
 |--------------------|-------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D2d1\_1.h (include D2d1.h)</dt> </dl> |
 | Library<br/> | <dl> <dt>D2d1.lib</dt> </dl>                   |

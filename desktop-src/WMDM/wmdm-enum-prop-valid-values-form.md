@@ -66,7 +66,7 @@ This enumeration is used in the [**WMDM\_PROP\_DESC**](wmdm-prop-desc.md) struct
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdm.idl</dt> </dl> |
 

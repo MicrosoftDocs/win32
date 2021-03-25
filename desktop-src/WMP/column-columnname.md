@@ -34,7 +34,7 @@ The column name is the friendly name that appears in the header of the column.
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

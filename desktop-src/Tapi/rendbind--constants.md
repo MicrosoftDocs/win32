@@ -83,7 +83,7 @@ The previous three ORed together for convenience.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Rend.h</dt> </dl> |

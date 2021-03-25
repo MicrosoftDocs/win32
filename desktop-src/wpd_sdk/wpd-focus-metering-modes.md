@@ -65,7 +65,7 @@ This enumeration is specified by the [WPD\_STILL\_IMAGE\_FOCUS\_METERING\_MODE](
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

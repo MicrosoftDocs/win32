@@ -45,7 +45,7 @@ This `IMediaObjectImpl` template exposes the following members.
 
 
 
-|                    |                                                                                                                                                          |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Dmoimpl.h</dt> </dl>                                                                     |
 | Library<br/> | <dl> <dt>Dmoguids.lib; </dt> <dt>Msdmo.lib</dt> </dl> |

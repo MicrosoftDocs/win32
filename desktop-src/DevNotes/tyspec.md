@@ -122,7 +122,7 @@ typedef union switch(DWORD tyspec) {
 
 
 
-|                |                                                                                       |
+| Requirement | Value |
 |----------------|---------------------------------------------------------------------------------------|
 | IDL<br/> | <dl> <dt>Wtypes.idl</dt> </dl> |
 

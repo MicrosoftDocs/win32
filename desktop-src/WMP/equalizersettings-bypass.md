@@ -45,7 +45,7 @@ If this attribute is not specified, the previous value will be retained.
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

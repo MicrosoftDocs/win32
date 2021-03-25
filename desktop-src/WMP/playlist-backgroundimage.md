@@ -36,7 +36,7 @@ Specifying a value of "gradient" for the background image causes the background 
 
 
 
-|                    |                                                                                                        |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later, Windows Media Player 10 for the gradient feature<br/> |
 

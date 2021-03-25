@@ -63,7 +63,7 @@ A **System.Int32** that is the library count.
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 11.<br/>                                                                                    |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

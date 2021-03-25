@@ -69,7 +69,7 @@ Additionally, the video stabilization DSP supports instantiation using Windows R
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Camerauicontrol.h</dt> </dl> |
 

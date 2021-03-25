@@ -34,7 +34,7 @@ When you use **alphaBlend** or **alphaBlendTo** with a **TEXT** element that doe
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

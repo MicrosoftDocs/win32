@@ -81,7 +81,7 @@ This enumeration is used by the [WPD\_PROPERTY\_ATTRIBUTE\_FORM](attributes.md) 
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

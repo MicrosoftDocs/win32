@@ -38,7 +38,7 @@ The **StatusChange** event is fired whenever this property changes value.
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 7.0 or later.<br/>                                      |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

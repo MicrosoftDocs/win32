@@ -45,7 +45,7 @@ This property can be specified only at run time, after a file has been loaded. I
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

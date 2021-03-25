@@ -1,7 +1,7 @@
-- name: "Desktop Win32 Apps"
+- name: "Desktop Win32 apps"
   href: ./index.yml
   items: 
-  - name: "Get Started"
+  - name: "Get started"
     items: 
     - name: "Overview"
       href: ./desktop-programming.md
@@ -612,3 +612,5 @@
       href: ./winrt/reference.md
     - name: "Windows Certification"
       href: ./win_cert/windows-certification-portal.md
+  - name: "Desktop Win32 code samples"
+    href: ./desktop-win32-code-samples.md

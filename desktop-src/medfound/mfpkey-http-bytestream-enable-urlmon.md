@@ -38,7 +38,7 @@ The default value is **VARIANT\_TRUE** for Windows Store apps and **VARIANT\_FAL
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfidl.h</dt> </dl> |
 

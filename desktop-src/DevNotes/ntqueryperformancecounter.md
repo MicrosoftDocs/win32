@@ -65,7 +65,7 @@ Performance frequency is the frequency of the performance counter in hertz, spec
 
 
 
-|                |                                                                                      |
+| Requirement | Value |
 |----------------|--------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |
 

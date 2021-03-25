@@ -45,7 +45,7 @@ If **sticky** is set to true, the **BUTTON** will change to the down state when 
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

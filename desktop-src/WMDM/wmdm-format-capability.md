@@ -108,7 +108,7 @@ void FreeFormatCapability(WMDM_FORMAT_CAPABILITY formatCap)
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdm.idl</dt> </dl> |
 

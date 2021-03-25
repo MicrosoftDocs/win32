@@ -65,7 +65,7 @@ Comctl32.dll version 6 is not redistributable. To use Comctl32.dll version 6, sp
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>CommCtrl.h</dt> </dl> |
 

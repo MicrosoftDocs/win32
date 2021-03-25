@@ -65,7 +65,7 @@ Indicates the cropped status of an image. This enumeration is used by the [WPD\_
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

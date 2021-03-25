@@ -56,7 +56,7 @@ Any object embedded in a Web page exposes the `ReadyState` property.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Ocidl.h</dt> </dl> |
 

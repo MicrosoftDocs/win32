@@ -410,7 +410,7 @@ This function has no associated import library. You must use the [**LoadLibrary*
 
 
 
-|                |                                                                                      |
+| Requirement | Value |
 |----------------|--------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |
 

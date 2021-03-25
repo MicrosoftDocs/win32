@@ -35,7 +35,7 @@ This creates a **BUTTON** control that will mute and un-mute the audio. The Tool
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 7.0 or later<br/> |
 

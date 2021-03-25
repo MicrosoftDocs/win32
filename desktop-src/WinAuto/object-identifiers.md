@@ -62,7 +62,7 @@ The following constants are defined in winuser.h:
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 

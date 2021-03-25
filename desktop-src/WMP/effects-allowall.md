@@ -45,7 +45,7 @@ If this attribute is set to false, only the visualizations appearing within **EF
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

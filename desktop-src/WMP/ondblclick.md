@@ -31,7 +31,7 @@ This event handler is not applicable to the **PLAYLIST** element, the **POPUP** 
 
 
 
-|                    |                                                     |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------|
 | Version<br/> | Windows Media Player version 70 or later<br/> |
 

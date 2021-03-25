@@ -53,7 +53,7 @@ Unlike the [**ASSERT**](assert.md) macro, this macro evaluates the expression in
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl> |
 

@@ -150,7 +150,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzTask2** interface has these properti
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

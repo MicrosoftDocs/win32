@@ -42,7 +42,7 @@ This function returns **TRUE** if the Terminal Server is in INSTALL mode and **F
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Kernel32.dll</dt> </dl> |
 

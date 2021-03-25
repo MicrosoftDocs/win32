@@ -47,7 +47,7 @@ Because every call to `Notify(wmpcnLoginStateChange, ...)` causes Windows Media 
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 11<br/>                                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

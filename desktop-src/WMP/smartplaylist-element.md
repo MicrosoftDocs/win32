@@ -86,7 +86,7 @@ A **smartPlaylist** element typically contains a **querySet** element and can al
 
 
 
-|                    |                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/> |
 

@@ -49,7 +49,7 @@ You can set any combination of the **horizontalAlignment** and **verticalAlignme
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

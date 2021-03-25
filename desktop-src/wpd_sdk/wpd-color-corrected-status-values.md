@@ -65,7 +65,7 @@ Indicates the color corrected status of an image. This enumeration is used by th
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

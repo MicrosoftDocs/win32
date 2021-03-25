@@ -56,7 +56,7 @@ The **IAMFilterData** interface has these methods.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Fil\_data.h</dt> </dl> |
 

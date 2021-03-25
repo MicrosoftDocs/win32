@@ -40,7 +40,7 @@ The mixer for the EVR filter sends this message when it needs a new input sample
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

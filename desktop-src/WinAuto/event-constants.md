@@ -168,7 +168,7 @@ For more information about events in general, see [What Are WinEvents?](what-are
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 

@@ -38,7 +38,7 @@ inline LONG MFTimeToMsec(const LONGLONG& time)
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfidl.h</dt> </dl> |
 

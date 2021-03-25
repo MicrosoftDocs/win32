@@ -40,7 +40,7 @@ If the image cannot be retrieved, a default image (the red-x image) is displayed
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

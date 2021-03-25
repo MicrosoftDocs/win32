@@ -63,7 +63,7 @@ Windows Media Player displays a message to users when a download is in progress.
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later<br/>                                          |
 | Header<br/>  | <dl> <dt>Msfeeds.h</dt> </dl> |

@@ -91,7 +91,7 @@ The motion of the control can be linear or non-linear. Linear motion means the c
 
 
 
-|                    |                                    |
+| Requirement | Value |
 |--------------------|------------------------------------|
 | Version<br/> | Windows Media Player 11<br/> |
 

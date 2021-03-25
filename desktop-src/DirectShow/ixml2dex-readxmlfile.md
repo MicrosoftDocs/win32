@@ -88,7 +88,7 @@ This method does not clear existing objects from the timeline before it inserts 
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Internet Explorer 4.0 or later<br/>                                               |
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |

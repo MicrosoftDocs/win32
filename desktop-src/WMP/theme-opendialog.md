@@ -73,7 +73,7 @@ This method can be used for files on the local hard drives or on network drives.
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

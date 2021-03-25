@@ -121,7 +121,7 @@ The **sourceFilter** element selects items from the library without regard for t
 
 
 
-|                    |                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/> |
 

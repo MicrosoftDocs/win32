@@ -101,7 +101,7 @@ Setting the **LVS\_EX\_UNDERLINEHOT** style will cause the text of any hot item 
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>CommCtrl.h</dt> </dl> |
 

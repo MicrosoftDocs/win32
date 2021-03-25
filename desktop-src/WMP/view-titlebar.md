@@ -47,7 +47,7 @@ If **titleBar** is set to true and the user attempts to change the value of **Vi
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

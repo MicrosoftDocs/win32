@@ -32,7 +32,7 @@ This creates a **BUTTON** control that returns the Player to the media center. T
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 7.0 or later<br/> |
 

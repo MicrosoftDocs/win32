@@ -40,7 +40,7 @@ The legacy [Windows Media Source](windows-media-source-filter.md) filter sends t
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

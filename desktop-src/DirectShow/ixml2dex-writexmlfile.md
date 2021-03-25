@@ -89,7 +89,7 @@ This method generates an XML file that represents all the components in the time
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Internet Explorer 4.0 or later<br/>                                               |
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |

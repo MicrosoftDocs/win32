@@ -65,7 +65,7 @@ This enumeration is used by the [WPD\_SMS\_ENCODING](sms-properties.md) property
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

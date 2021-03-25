@@ -42,7 +42,7 @@ By default, filters do not send [**EC\_END\_OF\_SEGMENT**](ec-end-of-segment.md)
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

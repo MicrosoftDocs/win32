@@ -41,7 +41,7 @@ This attribute is a **Boolean** specified at design time and read-only thereafte
 
 
 
-|                    |                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later<br/> |
 

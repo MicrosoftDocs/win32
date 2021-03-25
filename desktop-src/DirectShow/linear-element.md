@@ -45,7 +45,7 @@ The linear element defines the value of a [**param**](param-element.md) element 
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Camerauicontrol.h</dt> </dl> |
 

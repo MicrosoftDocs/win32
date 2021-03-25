@@ -40,7 +40,7 @@ The supported formats are BMP, JPG, PNG, and GIF (not including animated GIFs).
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

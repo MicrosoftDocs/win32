@@ -149,7 +149,7 @@ The following sample is a complete skin definition file that illustrates how the
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

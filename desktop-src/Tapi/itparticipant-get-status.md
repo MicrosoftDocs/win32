@@ -68,7 +68,7 @@ Enabling or disabling a participant's status on a stream allows an application t
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |

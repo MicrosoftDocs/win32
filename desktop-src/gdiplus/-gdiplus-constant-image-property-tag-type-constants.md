@@ -32,7 +32,7 @@ The following constants, defined in Gdiplusimaging.h, can be assigned to the **t
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplusimaging.h</dt> </dl> |
 

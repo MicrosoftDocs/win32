@@ -36,7 +36,7 @@ The following table describes IP\_DSCP\_TRAFFIC\_TYPE Socket Options.
 
 
 
-|                                  |                                                                                |
+| Requirement | Value |
 |----------------------------------|--------------------------------------------------------------------------------|
 | End of client support<br/> | Windows 10<br/>                                                          |
 | End of server support<br/> | Windows Server 2016<br/>                                                 |

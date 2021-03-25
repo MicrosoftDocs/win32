@@ -75,7 +75,7 @@ This structure is identical to the **DRM\_PLAY\_OPL** structure, except that it 
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdrmsdk.h</dt> </dl> |
 

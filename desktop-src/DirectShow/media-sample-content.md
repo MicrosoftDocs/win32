@@ -69,7 +69,7 @@ Specifies gathered TS packet payloads, such as PES packets.
 
 
 
-|                   |                                                                                                            |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Bdatypes.h (include Bdaiface.h)</dt> </dl> |
 

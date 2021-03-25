@@ -62,7 +62,7 @@ Device is currently offline but might automatically wake up when an attempt is m
 
 
 
-|                |                                                                                                                                                |
+| Requirement | Value |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | IDL<br/> | <dl> <dt>Windows.Media.Streaming.idl (reference Windows.Media.Streaming.idl)</dt> </dl> |
 

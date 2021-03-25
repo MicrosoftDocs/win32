@@ -74,7 +74,7 @@ Points to the dispatcher context for this function.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wdm.h</dt> </dl>        |
 | Library<br/> | <dl> <dt>NtosKrnl.lib</dt> </dl> |

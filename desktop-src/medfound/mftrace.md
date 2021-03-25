@@ -20,7 +20,7 @@ MFTrace is a tool for generating trace logs for Media Foundation applications.
 
 
 
-|                          |                                                                                       |
+| Requirement | Value |
 |--------------------------|---------------------------------------------------------------------------------------|
 | Minimum SDK version      | Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0 |
 | Minimum operating system | Windows Vista                                                                         |

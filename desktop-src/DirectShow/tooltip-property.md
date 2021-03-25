@@ -40,7 +40,7 @@ This property is read/write with no default value. If the string is empty, no To
 
 
 
-|                   |                                                                                                       |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Windows.ui.xaml.controls.h</dt> </dl> |
 

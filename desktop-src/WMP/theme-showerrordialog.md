@@ -41,7 +41,7 @@ For Windows Media Player 9 Series or later, this method must be called from the 
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

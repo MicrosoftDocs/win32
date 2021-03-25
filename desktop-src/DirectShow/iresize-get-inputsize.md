@@ -77,7 +77,7 @@ If the filter's input pin is not connected, return an error code. Otherwise, ret
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | DirectX 9.0 or later<br/>                                                         |
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |

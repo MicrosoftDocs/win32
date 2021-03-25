@@ -107,7 +107,7 @@ If any of the required attributes are missing or not available, Windows Media Pl
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later.<br/> |
 

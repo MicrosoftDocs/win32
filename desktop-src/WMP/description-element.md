@@ -55,7 +55,7 @@ The length of the description must be less than or equal to 255 characters.
 
 
 
-|                    |                                     |
+| Requirement | Value |
 |--------------------|-------------------------------------|
 | Version<br/> | Windows Media Player 11.<br/> |
 
