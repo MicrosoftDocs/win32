@@ -59,7 +59,7 @@ This element is optional for each instance of **ServiceTask1**, **ServiceTask2**
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later.<br/> |
 

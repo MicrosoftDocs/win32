@@ -30,7 +30,7 @@ For a video having an aspect ratio of 16:9, **PixelAspectRatioY** would equal "9
 
 
 
-|                    |                                    |
+| Requirement | Value |
 |--------------------|------------------------------------|
 | Version<br/> | Windows Media Player 11<br/> |
 

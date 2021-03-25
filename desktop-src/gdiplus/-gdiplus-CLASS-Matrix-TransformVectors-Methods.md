@@ -25,7 +25,7 @@ This topic lists the TransformVectors methods of the [**Matrix**](/windows/win32
 
 
 
-|                   |                                                                                            |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplusmatrix.h</dt> </dl> |
 

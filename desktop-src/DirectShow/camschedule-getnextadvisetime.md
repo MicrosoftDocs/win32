@@ -43,7 +43,7 @@ Returns the reference time of the next advise request, or MAX\_TIME no requests 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Dsschedule.h (include Streams.h)</dt> </dl>                                                                                |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

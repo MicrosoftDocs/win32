@@ -55,7 +55,7 @@ The **IWMPMetadataText (VB and C#)** interface does not define any members.
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmp.h</dt> </dl> |
 

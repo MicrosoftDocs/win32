@@ -51,7 +51,7 @@ During full-screen playback, Windows Media Player hides the mouse cursor when **
 
 
 
-|                      |                                                                                                                            |
+| Requirement | Value |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                          |
 | Namespace<br/> | **AxWMPLib**<br/>                                                                                                    |

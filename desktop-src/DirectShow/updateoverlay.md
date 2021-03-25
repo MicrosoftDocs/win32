@@ -27,7 +27,7 @@ Applications should never be concerned about the overlay surface being resized o
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Ddraw.h</dt> </dl> |
 

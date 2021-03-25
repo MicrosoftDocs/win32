@@ -57,7 +57,7 @@ The application can retrieve the deletion options that the device supports by ca
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

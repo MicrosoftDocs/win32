@@ -56,7 +56,7 @@ This event does not occur for the local library.
 
 
 
-|                      |                                                                                                                            |
+| Requirement | Value |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 11<br/>                                                                                         |
 | Namespace<br/> | **AxWMPLib**<br/>                                                                                                    |

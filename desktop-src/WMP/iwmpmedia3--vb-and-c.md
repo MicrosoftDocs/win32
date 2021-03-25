@@ -60,7 +60,7 @@ Get an **IWMPMedia3** interface by casting the value returned by one of the foll
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmp.h</dt> </dl> |
 

@@ -22,7 +22,7 @@ The MSIDISABLEEEUI property disables the embedded user interface for a single pa
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.5 on Windows Server 2008, Windows Vista, Windows Server 2003, and Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

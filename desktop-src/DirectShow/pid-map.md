@@ -53,7 +53,7 @@ Specifies the contents of the packet payload, as a [**MEDIA\_SAMPLE\_CONTENT**](
 
 
 
-|                   |                                                                                                            |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Bdatypes.h (include Bdaiface.h)</dt> </dl> |
 

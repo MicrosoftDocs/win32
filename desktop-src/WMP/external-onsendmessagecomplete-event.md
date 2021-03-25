@@ -72,7 +72,7 @@ None of the parameters (*Msg*, *Param*, *Result*) of the **OnSendMessageComplete
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 11<br/>                                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

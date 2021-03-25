@@ -44,7 +44,7 @@ Windows Portable Devices supports the following client properties.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

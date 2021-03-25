@@ -36,7 +36,7 @@ The Filter Graph Manager stores the new stop time.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

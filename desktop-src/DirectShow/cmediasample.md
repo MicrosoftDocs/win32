@@ -84,7 +84,7 @@ The life cycle of a media sample differs from that of most COM objects:
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

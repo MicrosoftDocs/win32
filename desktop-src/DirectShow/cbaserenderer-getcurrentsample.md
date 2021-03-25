@@ -47,7 +47,7 @@ Unless the method returns **NULL**, the method calls **AddRef** on the [**IMedia
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

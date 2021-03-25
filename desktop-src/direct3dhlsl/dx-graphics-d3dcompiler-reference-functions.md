@@ -1,5 +1,5 @@
 ---
-title: Functions (HLSL reference)
+title: Compiler functions (HLSL reference)
 description: This section contains information about the following Direct3D HLSL compiler functions
 ms.assetid: aacc5207-3ec8-4031-b5c9-f7c0fb7b7095
 keywords:
@@ -13,7 +13,7 @@ api_type:
 api_location: 
 ---
 
-# Functions (HLSL reference)
+# Compiler functions (HLSL reference)
 
 This section contains information about the following Direct3D HLSL compiler functions:
 

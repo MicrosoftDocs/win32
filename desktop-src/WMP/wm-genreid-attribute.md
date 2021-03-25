@@ -37,7 +37,7 @@ To determine whether you can change the value of this attribute, use the [Media.
 
 
 
-|                    |                                                                                                           |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series Windows Media Player 10 or later does not support this attribute<br/> |
 

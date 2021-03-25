@@ -50,7 +50,7 @@ A [**TAPI\_AUDIO\_STREAM\_CONFIG\_CAPS**](tapi-audio-stream-config-caps.md) stru
 
 
 
-|                         |                                                                                    |
+| Requirement | Value |
 |-------------------------|------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                       |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl> |

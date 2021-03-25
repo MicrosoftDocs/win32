@@ -63,7 +63,7 @@ The **SOL\_IRLMP** socket options and the structures used by these socket option
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Af\_irda.h</dt> </dl> |
 

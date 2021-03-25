@@ -43,7 +43,7 @@ Returns the address of the [**CBaseInputPin::m\_SampleProps**](cbaseinputpin-m-s
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

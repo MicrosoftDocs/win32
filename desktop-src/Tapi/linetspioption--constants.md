@@ -26,7 +26,7 @@ TAPI should call functions in this service provider one at a time; it should wai
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tspi.h</dt> </dl> |

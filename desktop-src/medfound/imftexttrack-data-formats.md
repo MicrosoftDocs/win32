@@ -46,7 +46,7 @@ The track uses the Web Video Text Tracks (WebVTT) format.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfapi.h</dt> </dl> |
 

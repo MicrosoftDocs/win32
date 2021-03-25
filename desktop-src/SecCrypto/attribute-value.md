@@ -40,7 +40,7 @@ A **Variant** variable that contains the value of the attribute. For **CAPICOM\_
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

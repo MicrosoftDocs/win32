@@ -78,7 +78,7 @@ The same string that was passed in the **ViewParams** parameter of **changeView*
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 11<br/>                                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

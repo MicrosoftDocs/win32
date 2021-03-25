@@ -56,7 +56,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Library<br/> | <dl> <dt>Dwrite.lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>Dwrite.dll</dt> </dl> |

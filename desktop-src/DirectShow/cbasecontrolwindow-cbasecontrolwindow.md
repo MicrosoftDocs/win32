@@ -80,7 +80,7 @@ Pointer to a variable that receives an HRESULT value indicating the success or f
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

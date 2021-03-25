@@ -36,7 +36,7 @@ Zero specifies no volume and 100 specifies full volume. If no value is specified
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

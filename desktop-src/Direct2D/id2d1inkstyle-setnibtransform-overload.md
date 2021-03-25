@@ -33,7 +33,7 @@ Sets the transform to apply to this style's nib shape.
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D2d1\_3.h</dt> </dl> |
 

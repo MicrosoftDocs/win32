@@ -81,7 +81,7 @@ If a property indicates a value of type VT\_UNKNOWN, the property will be one of
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

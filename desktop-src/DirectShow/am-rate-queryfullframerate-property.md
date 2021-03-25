@@ -32,7 +32,7 @@ If the playback rate exceeds the decoder's maximum rate, the source filter sends
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdmedia.h</dt> </dl> |
 

@@ -104,7 +104,7 @@ m_pRenderTarget->DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
 
 
 
-|                    |                                                                                     |
+| Requirement | Value |
 |--------------------|-------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D2d1.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D2d1.lib</dt> </dl> |

@@ -58,7 +58,7 @@ Refreshing the status is a synchronous operation. This means that a lengthy peri
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 11.<br/>                                                                                    |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

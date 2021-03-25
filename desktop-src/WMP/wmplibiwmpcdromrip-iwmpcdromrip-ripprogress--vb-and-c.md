@@ -51,7 +51,7 @@ The progress value represents the completed percentage of the entire ripping pro
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 11.<br/>                                                                                    |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

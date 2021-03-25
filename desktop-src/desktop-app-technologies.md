@@ -26,7 +26,7 @@ This section provides in-depth guidance and code examples about Windows features
 | [Graphics and gaming](graphics-and-multimedia.md) | Provides information about graphics and gaming features of Windows, including DirectX and digital imaging.  |
 | [Networking and Internet](networking.md) | Provides guidance about the networking and Internet-related features of Windows, including network management, HTTP APIs, and Remote Procedure Call (RPC). |
 | [Security and identity](security.md) | Provides information about authentication, authorization, cryptography, and other security features of Windows. |
-| [System services](system-services.md) | Provides guidance about fundamental OS features such as process and threads, services, dynamic-link libraries, COM, the registry, and more. |information. |
+| [System services](system-services.md) | Provides guidance about fundamental OS features such as process and threads, services, dynamic-link libraries, COM, the registry, and more. |
 
 <!--
 <br/>

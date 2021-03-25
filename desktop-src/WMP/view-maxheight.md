@@ -30,7 +30,7 @@ This attribute is a read/write **Number** (**long**) with a value of zero or gre
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

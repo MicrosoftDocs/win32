@@ -72,7 +72,7 @@ Returns a Boolean value indicating whether the specified operation is permitted 
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Segment.h</dt> </dl> |
 

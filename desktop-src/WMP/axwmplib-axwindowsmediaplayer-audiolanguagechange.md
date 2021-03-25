@@ -56,7 +56,7 @@ A locale identifier (LCID) uniquely identifies a particular language dialect, ca
 
 
 
-|                      |                                                                                                                            |
+| Requirement | Value |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                          |
 | Namespace<br/> | **AxWMPLib**<br/>                                                                                                    |

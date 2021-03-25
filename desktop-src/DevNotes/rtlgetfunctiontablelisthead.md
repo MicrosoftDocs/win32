@@ -46,7 +46,7 @@ Note that the Windows Driver Kit (WDK) header file Ntdef.h is required for some 
 
 
 
-|                |                                                                                      |
+| Requirement | Value |
 |----------------|--------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |
 

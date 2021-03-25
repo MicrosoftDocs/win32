@@ -65,7 +65,7 @@ You should test your online store using a variety of display settings to ensure 
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later.<br/> |
 

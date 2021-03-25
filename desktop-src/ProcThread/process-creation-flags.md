@@ -65,7 +65,7 @@ On 32-bit Windows, 16-bit applications are simulated by ntvdm.exe, not run as in
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

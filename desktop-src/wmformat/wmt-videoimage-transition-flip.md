@@ -69,7 +69,7 @@ You can visualize the effect of this transition as if both images were physical 
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmsdkidl.h</dt> </dl> |
 

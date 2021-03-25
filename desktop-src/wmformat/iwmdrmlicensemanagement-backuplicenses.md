@@ -87,7 +87,7 @@ Not all licenses are permitted to be backed up. This method only backs up licens
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wmdrmsdk.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>Wmdrmsdk.lib</dt> </dl> |

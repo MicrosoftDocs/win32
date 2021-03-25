@@ -36,7 +36,7 @@ This event is not sent to the application. The filter graph manager sends it to 
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

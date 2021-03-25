@@ -67,7 +67,7 @@ The version number is expressed as a string consisting of four numbers separated
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wmdrmsdk.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>Wmdrmsdk.lib</dt> </dl> |

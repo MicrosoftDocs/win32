@@ -40,7 +40,7 @@ If a filter rejects a sample in the middle of a stream, the upstream pin will st
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

@@ -75,7 +75,7 @@ TAPI calls the [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref)
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |

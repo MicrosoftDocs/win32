@@ -34,7 +34,7 @@ The Playlist toolbar provides user interface elements that make it easy to work 
 
 
 
-|                    |                                    |
+| Requirement | Value |
 |--------------------|------------------------------------|
 | Version<br/> | Windows Media Player 10<br/> |
 

@@ -75,7 +75,7 @@ Returns S\_OK if the method retrieves a transition, or S\_FALSE if it does not f
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

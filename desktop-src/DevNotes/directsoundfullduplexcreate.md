@@ -45,7 +45,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dsound.h</dt> </dl>   |
 | DLL<br/>    | <dl> <dt>Dsound.dll</dt> </dl> |

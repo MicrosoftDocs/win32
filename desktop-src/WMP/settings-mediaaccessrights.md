@@ -50,7 +50,7 @@ A webpage must first request permission from the user to read information from o
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/>                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

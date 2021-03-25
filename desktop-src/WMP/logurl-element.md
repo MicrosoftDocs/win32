@@ -103,7 +103,7 @@ https://www.proseware.com/some/arbitrary/path/My_WMS_Logging_Page.asp?PubPoint=F
 
 
 
-|                    |                                                     |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------|
 | Version<br/> | Windows Media Player version 70 or later<br/> |
 

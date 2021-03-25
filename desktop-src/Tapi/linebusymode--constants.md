@@ -65,7 +65,7 @@ The high-order 16 bits can be assigned for device-specific extensions. The low-o
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

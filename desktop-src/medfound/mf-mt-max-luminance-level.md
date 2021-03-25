@@ -18,7 +18,7 @@ Specifies the maximum luminance level of the content in Nits. This attribute has
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfapi.h</dt> </dl> |
 

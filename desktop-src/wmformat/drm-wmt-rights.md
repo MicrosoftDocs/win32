@@ -125,7 +125,7 @@ When using Windows Media DRM 10, **WMT\_RIGHT\_COPY\_TO\_NON\_SDMI\_DEVICE**, **
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdrmsdk.h</dt> </dl> |
 

@@ -50,7 +50,7 @@ Selective loopback is enabled. That means enabled multiple applications on one m
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |

@@ -45,7 +45,7 @@ The **POPUP** element represents a list box control that is displayed only when 
 
 
 
-|                    |                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later<br/> |
 

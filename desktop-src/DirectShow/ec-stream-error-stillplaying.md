@@ -36,7 +36,7 @@ None. The application must decide whether to stop the graph.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

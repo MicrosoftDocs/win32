@@ -32,7 +32,7 @@ See the [value](text-value.md) attribute for a sample illustrating how the attri
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

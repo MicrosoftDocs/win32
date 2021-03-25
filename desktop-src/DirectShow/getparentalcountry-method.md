@@ -31,7 +31,7 @@ The parental country/region this method retrieves is not necessarily the same co
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Segment.h</dt> </dl> |
 

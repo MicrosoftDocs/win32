@@ -89,7 +89,7 @@ When the showFrame mode is active, Windows Media Player must access the track co
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                      |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

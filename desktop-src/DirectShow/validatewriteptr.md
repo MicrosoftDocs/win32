@@ -66,7 +66,7 @@ This macro is ignored unless DEBUG, \_DEBUG, or VFWROBUST is defined when the Di
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl> |
 

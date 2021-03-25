@@ -52,7 +52,7 @@ A digit mode can be specified when generating or detecting digits. Note that pul
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

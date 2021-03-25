@@ -47,7 +47,7 @@ A **System.String** that is the name of the current library.
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 11.<br/>                                                                                    |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

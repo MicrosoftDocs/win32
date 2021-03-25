@@ -77,7 +77,7 @@ To log this event from a DirectShow filter, use the **PERFLOG\_AUDIOBREAK** macr
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Perfstruct.h</dt> </dl> |
 

@@ -81,7 +81,7 @@ If **wordWrap** is set to true and **toolTip** is not specified, the ToolTip wil
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

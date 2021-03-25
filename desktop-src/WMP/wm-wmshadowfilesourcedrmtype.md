@@ -28,7 +28,7 @@ The shadow file is specified by using the [ShadowFilePath](shadowfilepath-attrib
 
 
 
-|                    |                                    |
+| Requirement | Value |
 |--------------------|------------------------------------|
 | Version<br/> | Windows Media Player 11<br/> |
 

@@ -50,7 +50,7 @@ For rendering purposes, Normal is the default font style. The default value retr
 
 
 
-|                    |                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later<br/> |
 

@@ -86,7 +86,7 @@ currentMediaLabel.Text = (&quot;Found first media item. Name = &quot; + player.c
 
 
 
-|                      |                                                                                                                            |
+| Requirement | Value |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                          |
 | Namespace<br/> | **AxWMPLib**<br/>                                                                                                    |

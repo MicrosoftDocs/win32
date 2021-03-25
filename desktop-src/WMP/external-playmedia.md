@@ -63,7 +63,7 @@ This method is only available to webpages hosted in the **Guide** feature.
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/>                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

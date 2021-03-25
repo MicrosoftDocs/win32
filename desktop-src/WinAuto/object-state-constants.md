@@ -100,7 +100,7 @@ The following are object state constants:
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Oleacc.h</dt> </dl> |
 

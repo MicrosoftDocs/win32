@@ -45,7 +45,7 @@ When normalization is enabled, the audio signal for an entire digital media file
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

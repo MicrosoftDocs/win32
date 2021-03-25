@@ -95,7 +95,7 @@ If you call <a href="/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accselect
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Oleacc.h</dt> </dl> |
 

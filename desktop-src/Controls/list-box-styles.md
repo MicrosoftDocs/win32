@@ -62,7 +62,7 @@ To create a list box by using the [**CreateWindow**](/windows/desktop/api/winuse
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winuser.h</dt> </dl> |
 

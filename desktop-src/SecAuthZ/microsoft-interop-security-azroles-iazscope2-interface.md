@@ -221,7 +221,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzScope2** interface has these propert
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

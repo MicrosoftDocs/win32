@@ -65,7 +65,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

@@ -1,5 +1,7 @@
 ---
+
 title: Functions (Touch Hit Testing)
+
 description: The topics in this section provide the reference specifications for Touch Hit Testing functions.
 ms.assetid: C7275A12-4F76-485D-896F-3CCB8CE92F8E
 keywords:
@@ -11,7 +13,7 @@ ms.topic: article
 ms.date: 02/07/2020
 ---
 
-# Functions
+# Touch Hit Testing functions
 
 The topics in this section provide the reference specifications for [Touch Hit Testing functions](functions.md).
 

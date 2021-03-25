@@ -67,7 +67,7 @@ If the function fails, it returns a nonzero error code defined in Winerror.h. Yo
 
 
 
-|                            |                                                                                       |
+| Requirement | Value |
 |----------------------------|---------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Offline Registry library version 1.0 or later<br/>                      |
 | Header<br/>          | <dl> <dt>Offreg.h</dt> </dl>   |

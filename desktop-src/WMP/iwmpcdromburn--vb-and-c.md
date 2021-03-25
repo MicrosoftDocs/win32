@@ -71,7 +71,7 @@ Get an **IWMPCdromBurn** interface by casting the **IWMPCdrom** interface of the
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmp.h</dt> </dl> |
 

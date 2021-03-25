@@ -38,7 +38,7 @@ See the [mappingColor](buttonelement-mappingcolor.md) attribute for a sample ill
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

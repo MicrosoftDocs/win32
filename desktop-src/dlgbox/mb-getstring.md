@@ -50,7 +50,7 @@ The string, or NULL if not found.
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>User.h</dt> </dl>     |
 | Library<br/> | <dl> <dt>User32.lib</dt> </dl> |

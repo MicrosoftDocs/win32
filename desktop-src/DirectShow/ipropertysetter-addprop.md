@@ -77,7 +77,7 @@ The first [**DEXTER\_VALUE**](dexter-value.md) structure must specify a referenc
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

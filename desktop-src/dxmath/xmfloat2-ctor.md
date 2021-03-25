@@ -69,7 +69,7 @@ This constructor is only available under C++.
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Directxmath.h</dt> </dl> |
 

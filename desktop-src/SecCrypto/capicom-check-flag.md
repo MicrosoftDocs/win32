@@ -44,7 +44,7 @@ The **CAPICOM\_CHECK\_FLAG** enumeration type defines the conditions for which a
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |

@@ -58,7 +58,7 @@ Get an **IWMPQuery** interface by using the following method.
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmp.h</dt> </dl> |
 

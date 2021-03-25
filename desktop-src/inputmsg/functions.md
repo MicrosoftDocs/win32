@@ -1,12 +1,14 @@
 ---
+
 title: Functions (Pointer Input Messages and Notifications)
+
 description: The topics in this section provide the reference specifications for Pointer Input Messages and Notifications functions.
 ms.assetid: 0123DCD0-DAE1-4AC2-AB36-23D114803138
 ms.topic: article
 ms.date: 02/03/2020
 ---
 
-# Functions
+# Pointer Input Messages and Notifications functions
 
 The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications-portal.md) functions.
 

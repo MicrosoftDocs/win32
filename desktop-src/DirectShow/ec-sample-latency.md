@@ -42,7 +42,7 @@ The simplest way to calculate *lParam1* is: *QPC now*   *QPC target*, where *QPC
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

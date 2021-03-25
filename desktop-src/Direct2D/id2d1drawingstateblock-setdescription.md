@@ -34,7 +34,7 @@ Specifies the antialiasing mode, transform, and tags portion of the drawing stat
 
 
 
-|                    |                                                                                     |
+| Requirement | Value |
 |--------------------|-------------------------------------------------------------------------------------|
 | Library<br/> | <dl> <dt>D2d1.lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>D2d1.dll</dt> </dl> |

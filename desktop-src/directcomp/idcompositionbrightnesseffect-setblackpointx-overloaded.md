@@ -33,7 +33,7 @@ Sets the x value of the black point.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dcomp.h</dt> </dl> |
 

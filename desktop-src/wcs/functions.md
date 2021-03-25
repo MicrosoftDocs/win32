@@ -1,5 +1,7 @@
 ---
+
 title: Functions (WCS)
+
 description: In the following topics, WCS functions are organized by category. This allows you to browse functions that have related uses in a single topic. The function reference pages are arranged in alphabetical order.
 ms.assetid: aba45dbd-6fc2-4788-87f0-043579fa53f9
 keywords:
@@ -17,7 +19,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Functions
+# WCS functions
 
 In the following topics, WCS functions are organized by category. This allows you to browse functions that have related uses in a single topic. The function reference pages are arranged in alphabetical order.
 

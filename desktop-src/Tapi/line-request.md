@@ -68,7 +68,7 @@ The **LINE\_REQUEST** message is sent to the highest priority application that h
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

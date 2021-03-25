@@ -49,7 +49,7 @@ The **columnID** values are the same values used with the **getItemInfo** method
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

@@ -83,7 +83,7 @@ You can specify the duration of the source file by calling the [**SetMediaLength
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

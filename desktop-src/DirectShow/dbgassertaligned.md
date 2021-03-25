@@ -57,7 +57,7 @@ This macro does not return a value.
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl> |
 

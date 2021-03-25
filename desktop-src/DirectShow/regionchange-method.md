@@ -31,7 +31,7 @@ The region for a DVD drive can be changed only five times.
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Segment.h</dt> </dl> |
 

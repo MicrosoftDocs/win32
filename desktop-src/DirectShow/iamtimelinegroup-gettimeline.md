@@ -69,7 +69,7 @@ If the value returned in *ppTimeline* is not **NULL**, the **IAMTimeline** inter
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

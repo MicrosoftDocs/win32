@@ -48,7 +48,7 @@ This event is sent by both the VMR-7 and the VMR-9 and it is forwarded to applic
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

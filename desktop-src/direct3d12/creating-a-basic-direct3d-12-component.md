@@ -5,9 +5,13 @@ ms.assetid: A0FB108B-15C1-42AD-9277-D5CB63FA8329
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: project-verbatim
 ---
 
 # Creating a basic Direct3D 12 component
+
+> [!NOTE]
+> See the [DirectX-Graphics-Samples](https://github.com/Microsoft/DirectX-Graphics-Samples) repo for DirectX 12 Graphics samples that demonstrate how to build graphics-intensive applications for Windows 10.
 
 This topic describes the call flow to create a basic Direct3D 12 component.
 
@@ -35,8 +39,6 @@ The outermost loop of a D3D 12 program follows a very standard graphics process:
 > [!TIP]
 > Features new to Direct3D 12 are followed by a note.
 
- 
-
 -   [Initialize](#initialize)
 -   **Repeat**
     -   [Update](#update)
@@ -56,28 +58,21 @@ Initialization involves first setting up the global variables and classes, and a
         > [!Note]  
         > A [descriptor heap](descriptor-heaps.md) can be thought of as an array of [descriptors](descriptors.md). Where each descriptor fully describes an object to the GPU.
 
-         
-
     -   Create frame resources (a render target view for each frame).
     -   Create a command allocator.
         > [!Note]  
         > A command allocator manages the underlying storage for [command lists and bundles](recording-command-lists-and-bundles.md).
-
          
 -   Initialize the assets.
     -   Create an empty root signature.
         > [!Note]  
         > A graphics [root signature](root-signatures.md) defines what resources are bound to the graphics pipeline.
 
-         
-
     -   Compile the shaders.
     -   Create the vertex input layout.
     -   Create a [pipeline state object](managing-graphics-pipeline-state-in-direct3d-12.md) description, then create the object.
         > [!Note]  
         > A pipeline state object maintains the state of all currently set shaders as well as certain fixed function state objects (such as the *input assembler*, *tesselator*, *rasterizer* and *output merger*).
-
-         
 
     -   Create the command list.
     -   Close the command list.
@@ -87,14 +82,10 @@ Initialization involves first setting up the global variables and classes, and a
         > [!Note]  
         > A fence is used to synchronize the CPU with the GPU (see [Multi-engine synchronization](./user-mode-heap-synchronization.md)).
 
-         
-
     -   Create an event handle.
     -   Wait for the GPU to finish.
         > [!Note]  
         > Check on the fence!
-
-         
 
 Refer to [class D3D12HelloTriangle](#class-d3d12hellotriangle), [OnInit](#oninit), [LoadPipeline](#loadpipeline) and [LoadAssets](#loadassets).
 
@@ -145,8 +136,6 @@ Draw the new world.
     > [!Note]  
     > Keep updating and checking the fence.
 
-     
-
 Refer to [OnRender](#onrender).
 
 ### Destroy
@@ -156,8 +145,6 @@ Cleanly close down the app.
 -   Wait for the GPU to finish.
     > [!Note]  
     > Final check on the fence.
-
-     
 
 -   Close the event handle.
 
@@ -175,8 +162,7 @@ First define the class in a header file, including a viewport, scissor rectangle
 -   [**D3D12\_RECT**](d3d12-rect.md)
 -   [**D3D12\_VERTEX\_BUFFER\_VIEW**](/windows/win32/api/d3d12/ns-d3d12-d3d12_vertex_buffer_view)
 
-
-```C++
+```cpp
 #include "DXSample.h"
 
 using namespace DirectX;
@@ -232,22 +218,17 @@ private:
 };
 ```
 
-
-
 ### OnInit()
 
 In the projects main source file, start initializing the objects:
 
-
-```C++
+```cpp
 void D3D12HelloTriangle::OnInit()
 {
     LoadPipeline();
     LoadAssets();
 }
 ```
-
-
 
 ### LoadPipeline()
 
@@ -294,7 +275,7 @@ In later steps, command lists are obtained from the command allocator and submit
 Load the rendering pipeline dependencies (note that the creation of a software WARP device is entirely optional).
 
 
-```C++
+```cpp
 void D3D12HelloTriangle::LoadPipeline()
 {
 #if defined(_DEBUG)
@@ -443,7 +424,7 @@ The following APIs and processes are called in succession.
 -   Wait for the GPU to finish.
 
 
-```C++
+```cpp
 void D3D12HelloTriangle::LoadAssets()
 {
     // Create an empty root signature.
@@ -570,7 +551,7 @@ void D3D12HelloTriangle::LoadAssets()
 For a simple example, nothing is updated.
 
 
-```C++
+```cpp
 void D3D12HelloTriangle::OnUpdate()
 
 {
@@ -591,7 +572,7 @@ Rendering involves a call to populate the command list, then the command list ca
 -   Wait on the GPU to finish.
 
 
-```C++
+```cpp
 void D3D12HelloTriangle::OnRender()
 {
     // Record all the commands we need to render the scene into the command list.
@@ -646,7 +627,7 @@ Populating command lists calls the following methods and processes in turn:
 -   Close the command list: [**ID3D12GraphicsCommandList::Close**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close).
 
 
-```C++
+```cpp
 void D3D12HelloTriangle::PopulateCommandList()
 {
     // Command list allocators can only be reset when the associated 
@@ -706,7 +687,7 @@ The following APIs and processes are called in order:
 -   Update the frame index: [**IDXGISwapChain3::GetCurrentBackBufferIndex**](/windows/win32/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-getcurrentbackbufferindex).
 
 
-```C++
+```cpp
 void D3D12HelloTriangle::WaitForPreviousFrame()
 {
     // WAITING FOR THE FRAME TO COMPLETE BEFORE CONTINUING IS NOT BEST PRACTICE.
@@ -739,7 +720,7 @@ Cleanly close down the app.
 -   Close the event.
 
 
-```C++
+```cpp
 void D3D12HelloTriangle::OnDestroy()
 {
 

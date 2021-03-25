@@ -99,7 +99,7 @@ This enumeration is used by the [**WM\_INDIVIDUALIZE\_STATUS**](drmwm-individual
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdrmsdk.h</dt> </dl> |
 

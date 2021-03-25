@@ -76,7 +76,7 @@ If you specify a duplicate column, the data in the first column will be left-ali
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

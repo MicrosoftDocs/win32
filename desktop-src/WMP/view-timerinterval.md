@@ -47,7 +47,7 @@ This will not fire automatically if no **ontimer** event handler is implemented.
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

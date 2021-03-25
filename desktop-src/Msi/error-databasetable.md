@@ -45,7 +45,7 @@ See [**get\_DatabaseTable**](/windows/win32/api/mergemod/nf-mergemod-imsmerror-g
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 1.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

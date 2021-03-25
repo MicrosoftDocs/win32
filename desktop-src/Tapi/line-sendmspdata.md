@@ -71,7 +71,7 @@ The service provider must negotiate a TAPI version 3.0 or later for this message
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.2<br/>                                                      |
 | Header<br/>       | <dl> <dt>Tspi.h</dt> </dl> |

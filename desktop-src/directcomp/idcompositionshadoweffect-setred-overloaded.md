@@ -33,7 +33,7 @@ Sets the red value for the color of the shadow.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dcomp.h</dt> </dl> |
 

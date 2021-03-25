@@ -162,7 +162,7 @@ To retrieve the role of an object, clients call the [**IAccessible::get\_accRole
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Oleacc.h</dt> </dl> |
 

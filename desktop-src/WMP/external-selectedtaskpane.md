@@ -43,7 +43,7 @@ To make a particular task pane the active one, use the **NavigateTaskPaneURL** m
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later<br/>                                        |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

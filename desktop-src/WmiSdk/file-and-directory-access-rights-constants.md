@@ -264,7 +264,7 @@ Grants the right to use the object for synchronization. This enables a process t
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winnt.h</dt> </dl> |
 

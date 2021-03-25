@@ -92,7 +92,7 @@ You can provide an animated image for ServiceLargeURL. In Windows Media Player 1
 
 
 
-|                    |                                             |
+| Requirement | Value |
 |--------------------|---------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later<br/> |
 

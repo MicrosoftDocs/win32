@@ -32,7 +32,7 @@ This will create a **BUTTON** control that will minimize the Player. The ToolTip
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 7.0 or later<br/> |
 

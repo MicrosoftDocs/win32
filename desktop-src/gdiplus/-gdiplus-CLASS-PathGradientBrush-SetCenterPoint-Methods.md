@@ -25,7 +25,7 @@ This topic lists the SetCenterPoint methods of the [**PathGradientBrush**](/wind
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdipluspath.h</dt> </dl> |
 

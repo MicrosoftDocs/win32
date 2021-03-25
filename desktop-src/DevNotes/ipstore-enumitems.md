@@ -94,7 +94,7 @@ The return value is an **HRESULT**. A value of **PST\_E\_OK** indicates the func
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |

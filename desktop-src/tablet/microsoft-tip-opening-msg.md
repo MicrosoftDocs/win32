@@ -45,7 +45,7 @@ This notification lets you know when the input panel is opening. If you want to 
 
 
 
-|                   |                                                                                            |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista<br/>                                                                   |
 | Header<br/> | <dl> <dt>Peninputpanel.h</dt> </dl> |

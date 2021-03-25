@@ -26,7 +26,7 @@ Set the value of this property to 3, 4, or 5. As the value increases from 3 to 5
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows XP, Windows Vista or Windows 7<br/>                                       |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

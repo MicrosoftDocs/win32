@@ -60,7 +60,7 @@ Underlines and strikethroughs do not contribute to the black box determination, 
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Library<br/> | <dl> <dt>Dwrite.lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>Dwrite.dll</dt> </dl> |

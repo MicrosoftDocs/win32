@@ -52,7 +52,7 @@ The methods in **IMediaObjectImpl** automatically lock the DMO.
 
 
 
-|                    |                                                                                                                                                          |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Dmoimpl.h</dt> </dl>                                                                     |
 | Library<br/> | <dl> <dt>Dmoguids.lib; </dt> <dt>Msdmo.lib</dt> </dl> |

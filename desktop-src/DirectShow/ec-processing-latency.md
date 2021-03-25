@@ -40,7 +40,7 @@ A presenter for the [**Enhanced Video Renderer**](enhanced-video-renderer-filter
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

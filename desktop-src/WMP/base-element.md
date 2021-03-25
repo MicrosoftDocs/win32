@@ -71,7 +71,7 @@ A **BASE** element defined as the child of an **ASX** element becomes the defaul
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

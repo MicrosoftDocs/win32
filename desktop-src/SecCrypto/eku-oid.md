@@ -47,7 +47,7 @@ This property does not use the [**OID**](oid.md) object introduced in CAPICOM 2.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

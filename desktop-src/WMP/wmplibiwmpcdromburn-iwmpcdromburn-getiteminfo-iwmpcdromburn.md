@@ -76,7 +76,7 @@ A **System.String** that is the value of the specified attribute.
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 11<br/>                                                                                     |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

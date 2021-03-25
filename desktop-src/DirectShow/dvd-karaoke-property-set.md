@@ -35,7 +35,7 @@ When the [DVD Navigator](dvd-navigator-filter.md) filter goes into karaoke mode,
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdmedia.h</dt> </dl> |
 

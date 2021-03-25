@@ -89,7 +89,7 @@ To use this method, create an **IXMLDocument** object and use it to parse an XML
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

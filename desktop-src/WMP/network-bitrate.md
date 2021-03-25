@@ -64,7 +64,7 @@ The following JScript example uses *Network*.**bitRate** to display the current 
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

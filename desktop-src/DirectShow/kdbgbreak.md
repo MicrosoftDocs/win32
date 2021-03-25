@@ -53,7 +53,7 @@ Unlike the [**DbgBreak**](dbgbreak.md) macro, this macro does not display a mess
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl> |
 

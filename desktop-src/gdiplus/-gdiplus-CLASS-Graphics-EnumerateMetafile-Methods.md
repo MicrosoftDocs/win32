@@ -33,7 +33,7 @@ This topic lists the EnumerateMetafile methods of the [**Graphics**](/windows/wi
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplusgraphics.h</dt> </dl> |
 

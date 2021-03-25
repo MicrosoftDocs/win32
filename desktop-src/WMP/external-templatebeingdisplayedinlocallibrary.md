@@ -45,7 +45,7 @@ A discovery page that represents a radio feed should inspect the **templateBeing
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 11<br/>                                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

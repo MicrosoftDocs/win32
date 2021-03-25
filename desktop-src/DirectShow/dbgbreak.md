@@ -58,7 +58,7 @@ DbgBreak("Unrecoverable error occurred.");
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl> |
 

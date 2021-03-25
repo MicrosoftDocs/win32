@@ -41,7 +41,7 @@ This attribute is a read/write **Boolean**.
 
 
 
-|                    |                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later<br/> |
 

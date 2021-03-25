@@ -77,7 +77,7 @@ This method is similar to the [**IAMTimelineObj::FixTimes**](iamtimelineobj-fixt
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

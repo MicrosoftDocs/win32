@@ -34,7 +34,7 @@ This attribute changes the hue value of the images specified by the **disabledIm
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

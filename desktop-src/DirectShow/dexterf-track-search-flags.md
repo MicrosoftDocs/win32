@@ -86,7 +86,7 @@ These boundary conditions are summarized in the following table.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Qedit.h</dt> </dl> |
 

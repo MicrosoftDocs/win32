@@ -58,7 +58,7 @@ Player.controls.currentPositionTimecode = "[00000]01:00:30.05";
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/>                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

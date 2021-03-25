@@ -34,7 +34,7 @@ This property key is used to pass an [**IPropertySet**](/uwp/api/Windows.Foundat
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfidl.idl</dt> </dl> |
 

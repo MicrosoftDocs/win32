@@ -193,7 +193,7 @@ This enumeration is used by the [WPD\_MEDIA\_META\_GENRE](media-properties.md) p
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

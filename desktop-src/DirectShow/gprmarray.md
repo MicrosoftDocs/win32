@@ -21,7 +21,7 @@ typedef DVD_REGISTER GPRMARRAY [16];
 
 
 
-|                   |                                                                                                       |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Strmif.h (include Dshow.h)</dt> </dl> |
 

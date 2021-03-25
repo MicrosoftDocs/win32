@@ -316,7 +316,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzApplication3** interface has these p
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

@@ -172,7 +172,7 @@ This constant is used both in [**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

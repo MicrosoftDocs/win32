@@ -49,7 +49,7 @@ During full-screen playback, Windows Media Player hides the mouse cursor when **
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

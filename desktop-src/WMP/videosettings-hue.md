@@ -30,7 +30,7 @@ This attribute is a read/write **Number** (**long**) with a value ranging from -
 
 
 
-|                    |                                                                 |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------|
 | Version<br/> | Windows Media Player version for Windows XP or later<br/> |
 

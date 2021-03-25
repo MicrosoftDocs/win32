@@ -55,7 +55,7 @@ The format of the returned string may change between different versions of CAPIC
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

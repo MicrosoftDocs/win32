@@ -44,7 +44,7 @@ The value of the [**Name**](store-location.md) property is the same as the value
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.1 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

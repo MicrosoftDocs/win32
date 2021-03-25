@@ -95,7 +95,7 @@ The property is a 128-bit (6-byte) GUID value.
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdrmsdk.h</dt> </dl> |
 

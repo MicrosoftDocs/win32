@@ -48,7 +48,7 @@ This method can only be called after the control becomes visible.
 
 
 
-|                    |                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later<br/> |
 

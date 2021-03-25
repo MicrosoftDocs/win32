@@ -61,7 +61,7 @@ When choosing a title for a Windows Media Playlist (WPL), consider that the cont
 
 
 
-|                    |                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/> |
 

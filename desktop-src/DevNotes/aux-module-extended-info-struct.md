@@ -73,7 +73,7 @@ The object library that implements this API can be downloaded from [here](https:
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Auxiliary API library version 1.0 or later<br/>                          |
 | Header<br/>          | <dl> <dt>Aux\_klib.h</dt> </dl> |
