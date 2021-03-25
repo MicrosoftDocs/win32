@@ -1,5 +1,5 @@
 ---
-title: Looping Playback
+title: Looping Playback (MCIWnd)
 description: Looping Playback (MCIWnd)
 ms.assetid: 59e27271-332a-4c62-bfcd-5377cdbf0848
 ms.topic: article

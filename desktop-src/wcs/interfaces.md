@@ -1,5 +1,5 @@
 ---
-title: Interfaces
+title: Interfaces (WCS)
 description: Interfaces
 ms.assetid: 9dd6b77c-c1ab-40eb-a6b1-5a0c52fd37c7
 keywords:

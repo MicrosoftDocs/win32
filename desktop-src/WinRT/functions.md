@@ -1,7 +1,9 @@
 ---
 description: A reference for Windows Runtime C++ functions.
 ms.assetid: 3D60C81F-B1CC-4485-B7C3-B1C6E903865B
-title: Functions (Windows Runtime C++ reference)
+
+title: Functions (Windows Runtime)
+
 ms.topic: article
 ms.date: 05/10/2019
 ---
