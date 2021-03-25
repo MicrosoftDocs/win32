@@ -1,7 +1,7 @@
 ---
-description: Constructor method.
+description: Learn about the CMediaType.CMediaType constructor (Mtype.h) method. This method uses no parameters.
 ms.assetid: 6636a56c-5b13-47bb-94e3-dedd8ed27a3f
-title: CMediaType.CMediaType constructor (Mtype.h)
+title: CMediaType.CMediaType constructor (Mtype.h) - No parameters
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CMediaType.CMediaType constructor (Mtype.h)
+# CMediaType.CMediaType constructor (Mtype.h) - No parameters
 
 Constructor method.
 
@@ -41,14 +41,10 @@ The constructor calls the [**CMediaType::InitMediaType**](cmediatype-initmediaty
 
 ## Requirements
 
-
-
-|                    |                                                                                                                                                                                            |
+| Requirement                   | Value                                                                                                                                                                                           |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
-| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
-
-
+| Header  | Mtype.h (include Streams.h)                                                                                     |
+| Library | Strmbase.lib (retail builds); Strmbasd.lib (debug builds) |
 
 ## See also
 

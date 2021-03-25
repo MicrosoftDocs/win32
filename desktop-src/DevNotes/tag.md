@@ -221,7 +221,7 @@ The following entries are of type **TAG\_TYPE\_WORD** (0x3000).
 
 
 
-|                   |                                                                                                                            |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Exposeenums2managed.h (include Axextendenums.h)</dt> </dl> |
 

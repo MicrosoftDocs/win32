@@ -45,7 +45,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfidl.h</dt> </dl> |
 

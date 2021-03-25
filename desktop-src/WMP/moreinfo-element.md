@@ -107,7 +107,7 @@ If the metafile is opened in the stand-alone Windows Media Player, the **TARGET*
 
 
 
-|                    |                                                     |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------|
 | Version<br/> | Windows Media Player version 70 or later<br/> |
 

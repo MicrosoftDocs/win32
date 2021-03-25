@@ -59,7 +59,7 @@ You can call [**CanPersist**](iwmdrmlicense-canpersist.md) to query whether the 
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdrmsdk.h</dt> </dl> |
 

@@ -50,7 +50,7 @@ This method does not return a value.
 
 
 
-|                   |                                                                                                                |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Shldisp.h</dt> </dl>                           |
 | IDL<br/>    | <dl> <dt>Shldisp.idl</dt> </dl>                         |

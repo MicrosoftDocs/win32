@@ -33,7 +33,7 @@ Creates an [**ID2D1RoundedRectangleGeometry**](/previous-versions/windows/deskto
 
 
 
-|                    |                                                                                     |
+| Requirement | Value |
 |--------------------|-------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D2d1.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D2d1.lib</dt> </dl> |

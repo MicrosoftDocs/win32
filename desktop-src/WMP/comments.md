@@ -55,7 +55,7 @@ Comments can appear anywhere except within element content (between element open
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Msfeeds.h</dt> </dl> |
 

@@ -76,7 +76,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzBizRuleInterfaces** interface has th
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

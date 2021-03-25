@@ -25,7 +25,7 @@ This topic lists the NextSubpath methods of the [**GraphicsPathIterator**](/wind
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdipluspath.h</dt> </dl> |
 

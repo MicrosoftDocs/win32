@@ -36,7 +36,7 @@ The value of this property is a bitwise **OR** of flags from the **BINDF** enume
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfidl.h</dt> </dl> |
 

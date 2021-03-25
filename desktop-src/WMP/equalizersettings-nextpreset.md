@@ -62,7 +62,7 @@ If the current preset is the last one available, the first preset is made curren
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

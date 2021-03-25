@@ -91,7 +91,7 @@ Get an **IWMPMedia** interface by using the following properties or methods acce
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmp.h</dt> </dl> |
 

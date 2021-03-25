@@ -70,7 +70,7 @@ The **WM\_CTLCOLOR** message from 16-bit Windows has been replaced by more speci
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>WindowsX.h</dt> </dl> |
 

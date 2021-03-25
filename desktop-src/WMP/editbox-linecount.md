@@ -34,7 +34,7 @@ This attribute is useful only when **editStyle** is set to "multiline".
 
 
 
-|                    |                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later<br/> |
 

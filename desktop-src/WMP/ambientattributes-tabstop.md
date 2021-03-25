@@ -47,7 +47,7 @@ The default value for this attribute is true for all elements except **AUTOMENU*
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

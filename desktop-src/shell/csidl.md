@@ -173,7 +173,7 @@ Combine ****CSIDL\_FLAG\_CREATE**** with any of the other CSIDLs, except for ***
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Shlobj.h</dt> </dl> |
 

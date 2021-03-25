@@ -34,7 +34,7 @@ where *elementtype* is the name of the control type, and *num* is a number corre
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

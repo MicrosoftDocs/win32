@@ -159,7 +159,7 @@ Huffman indices use baseline 3.
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wincodec.h</dt> </dl> |
 

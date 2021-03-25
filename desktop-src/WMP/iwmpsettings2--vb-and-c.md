@@ -75,7 +75,7 @@ Get an **IWMPSettings2** interface by casting the value returned by the **AxWind
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmp.h</dt> </dl> |
 

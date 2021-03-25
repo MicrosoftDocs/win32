@@ -37,7 +37,7 @@ For several MPEG-2 media type GUIDs, the Windows DDK defines names that differ f
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

@@ -49,7 +49,7 @@ For more information, see [How to Create a DirectShow Filter DLL](how-to-create-
 
 
 
-|                    |                                                                                                                                                             |
+| Requirement | Value |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Combase.h (include Streams.h)</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib; </dt> <dt>Strmbasd.lib</dt> </dl> |

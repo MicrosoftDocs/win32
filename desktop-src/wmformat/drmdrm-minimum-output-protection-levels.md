@@ -83,7 +83,7 @@ This structure is used as a member of the [**DRM\_PLAY\_OPL**](drmdrm-play-opl.m
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdrmsdk.h</dt> </dl> |
 

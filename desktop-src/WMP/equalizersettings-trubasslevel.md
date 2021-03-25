@@ -34,7 +34,7 @@ TruBass is an effect that enhances the sound of the bass levels of the audio tra
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

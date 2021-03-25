@@ -30,7 +30,7 @@ If the position of the custom slider changes as a result of the **value** attrib
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

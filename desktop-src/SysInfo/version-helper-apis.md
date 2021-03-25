@@ -8,20 +8,12 @@ ms.date: 05/31/2018
 
 # Version Helper functions
 
-The following functions can be used to determine the current operating system version or identify whether it is a Windows or Windows Server release. These functions provide simple tests that use the [**VerifyVersionInfo**](/windows/desktop/api/Winbase/nf-winbase-verifyversioninfoa) function and the recommended greater than or equal to comparisons that are proven as a robust means to determine the operating system version.
+The following functions can be used to determine the current operating system version or identify whether it is a Windows or Windows Server release. These functions provide simple tests that use the [VerifyVersionInfo](/windows/win32/api/Winbase/nf-winbase-verifyversioninfoa) function and the recommended greater than or equal to comparisons that are proven as a robust means to determine the operating system version.
 
 > [!Note]  
 > These APIs are defined by **versionhelpers.h**, which is included in the Windows 8.1 software development kit (SDK). This file can be used with other Microsoft Visual Studio releases to implement the same functionality for Windows versions prior to Windows 8.1.
 
- 
-
-
-
 <table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Function</th>
@@ -83,18 +75,13 @@ The following functions can be used to determine the current operating system ve
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/VersionHelpers/nf-versionhelpers-iswindowsversionorgreater"><strong>IsWindowsVersionOrGreater</strong></a></td>
-<td><blockquote>
-[!Note]<br />
-You should only use this function if the other provided version helper functions do not fit your scenario.
-</blockquote>
-<br/> Indicates if the current OS version matches, or is greater than, the provided version information. This function is useful in confirming a version of Windows Server that doesn't share a version number with a client release.<br/></td>
+<td>
+<blockquote>You should only use this function if the other provided version helper functions do not fit your scenario.</blockquote>
+<br/>Indicates if the current OS version matches, or is greater than, the provided version information. This function is useful in confirming a version of Windows Server that doesn't share a version number with a client release.
+</td>
 </tr>
 </tbody>
 </table>
-
-
-
- 
 
 ## Example
 
@@ -102,29 +89,15 @@ The inline functions defined in the **VersionHelpers.h** header file let you ver
 
 For example, if your application requires Windows 8 or later, use the following test.
 
-
 ```C++
 #include <VersionHelpers.h>
  
-    if (!IsWindows8OrGreater())
-    {
-       MessageBox(NULL, "You need at least Windows 8", "Version Not Supported", MB_OK);
-    }
+if (!IsWindows8OrGreater())
+{
+   MessageBox(NULL, "You need at least Windows 8", "Version Not Supported", MB_OK);
+}
 ```
-
-
 
 ## Related topics
 
-<dl> <dt>
-
-[**OSVERSIONINFOEX**](/windows/desktop/api/Winnt/ns-winnt-osversioninfoexa)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [OSVERSIONINFOEX](/windows/desktop/api/Winnt/ns-winnt-osversioninfoexa)

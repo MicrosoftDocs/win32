@@ -46,7 +46,7 @@ The **IProvidePropertyBuilder:IUnknown** interface has these methods.
 
 
 
-|                |                                                                                    |
+| Requirement | Value |
 |----------------|------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Vsp.dll</dt> </dl> |
 

@@ -36,7 +36,7 @@ If the **fontFace** specified is not available on the user's system, the list bo
 
 
 
-|                    |                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later<br/> |
 

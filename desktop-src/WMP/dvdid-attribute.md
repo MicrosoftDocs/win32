@@ -33,7 +33,7 @@ This attribute is stored in both the library and the digital media file.
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

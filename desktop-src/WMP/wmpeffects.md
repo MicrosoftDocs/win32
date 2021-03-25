@@ -40,7 +40,7 @@ All properties of this **EFFECTS** element can be overridden by explicitly speci
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 7.0 or later<br/> |
 

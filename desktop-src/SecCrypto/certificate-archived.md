@@ -49,7 +49,7 @@ This property raises CAPICOM\_E\_NOT\_ALLOWED when it is scripted from a web-bas
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

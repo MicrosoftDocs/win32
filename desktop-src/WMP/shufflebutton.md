@@ -35,7 +35,7 @@ This creates a **BUTTON** control that toggles Shuffle on and off. The ToolTips 
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 7.0 or later<br/> |
 

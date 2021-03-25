@@ -111,7 +111,7 @@ The **filter** element does not add any media elements to a playlist; it simply 
 
 
 
-|                    |                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/> |
 

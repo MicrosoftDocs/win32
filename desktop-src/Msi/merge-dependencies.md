@@ -45,7 +45,7 @@ See [**get\_Dependencies**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-ge
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 1.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

@@ -34,7 +34,7 @@ The [**Image::GetRawFormat**](/windows/desktop/api/Gdiplusheaders/nf-gdiplushead
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplusimaging.h</dt> </dl> |
 

@@ -285,7 +285,7 @@ The system is entering or exiting away mode. The **Data** member is a **DWORD** 
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>WinNT.h</dt> </dl> |
 

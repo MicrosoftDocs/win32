@@ -79,7 +79,7 @@ When the user clicks a button in Windows Media Player to view additional informa
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later.<br/> |
 

@@ -57,7 +57,7 @@ This function pointer does not return a value.
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Combase.h (include Streams.h)</dt> </dl> |
 

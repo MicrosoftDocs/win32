@@ -26,7 +26,7 @@ These flags specify which envelope curves are supported by a media parameter.
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Medparam.h</dt> </dl> |
 

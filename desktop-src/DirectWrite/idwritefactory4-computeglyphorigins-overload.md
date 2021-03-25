@@ -33,7 +33,7 @@ Converts glyph run placements to glyph origins.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dwrite\_3.h</dt> </dl> |
 

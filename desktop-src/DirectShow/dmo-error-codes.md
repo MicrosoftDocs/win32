@@ -27,7 +27,7 @@ The following table contains error codes that are specific to Microsoft DirectX 
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mediaerr.h</dt> </dl> |
 

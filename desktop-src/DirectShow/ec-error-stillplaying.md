@@ -40,7 +40,7 @@ If the filter graph manager issues an asynchronous run command that fails, it se
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

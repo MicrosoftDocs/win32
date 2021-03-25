@@ -47,7 +47,7 @@ The **passThrough** attribute is not supported by the **VIEW**, **SUBVIEW**, and
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

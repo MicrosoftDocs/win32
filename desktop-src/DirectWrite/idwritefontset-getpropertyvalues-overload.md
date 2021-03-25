@@ -34,7 +34,7 @@ Returns property values for the font set.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dwrite\_3.h</dt> </dl> |
 

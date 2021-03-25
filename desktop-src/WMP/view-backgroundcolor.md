@@ -32,7 +32,7 @@ In a Windows Media Download package, if you specify the backgroundImage attribut
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

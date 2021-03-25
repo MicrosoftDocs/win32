@@ -57,7 +57,7 @@ To use this functionality, the **useForegroundProgress** attribute must be set t
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

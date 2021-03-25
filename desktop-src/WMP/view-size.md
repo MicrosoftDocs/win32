@@ -75,7 +75,7 @@ This method is typically called from within an **onmousedown** handler. It takes
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

@@ -42,7 +42,7 @@ The subtype GUID further defines the format. For some formats, the subtype GUID 
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

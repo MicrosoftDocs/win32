@@ -45,7 +45,7 @@ This attribute is used only when remoting the Windows Media Player control.
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

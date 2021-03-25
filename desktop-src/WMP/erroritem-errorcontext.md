@@ -40,7 +40,7 @@ The error context is information that is used by Microsoft to provide additional
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/>                               |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

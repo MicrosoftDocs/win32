@@ -50,7 +50,7 @@ UCS Transformation Format 8. For details on this format, conduct an Internet sea
 
 
 
-|                         |                                                                                     |
+| Requirement | Value |
 |-------------------------|-------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                               |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl> |

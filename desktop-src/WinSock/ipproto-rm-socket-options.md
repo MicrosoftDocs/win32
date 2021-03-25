@@ -75,7 +75,7 @@ The **IPPROTO\_RM** or the **IPPROTO\_PGM** constant can be used to specify the 
 
 
 
-|                   |                                                                                   |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wsrm.h</dt> </dl> |
 

@@ -75,7 +75,7 @@ If the marker specified by a **STARTMARKER** element occurs later in the stream 
 
 
 
-|                    |                                                     |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------|
 | Version<br/> | Windows Media Player version 70 or later<br/> |
 

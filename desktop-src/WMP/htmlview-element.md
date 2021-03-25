@@ -64,7 +64,7 @@ For example, if the URL for the HTMLView webpage is https://www.proseware.com/ht
 
 
 
-|                    |                                             |
+| Requirement | Value |
 |--------------------|---------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later<br/> |
 

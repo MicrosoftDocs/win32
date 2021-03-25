@@ -41,7 +41,7 @@ See [**get\_Type Function (ConfigurableItem Object)**](/windows/desktop/api/Merg
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 2.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

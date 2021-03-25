@@ -59,7 +59,7 @@ This structure is received when you call the [**IWMDRMLicenseBackupRestoreStatus
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdrmsdk.h</dt> </dl> |
 

@@ -35,7 +35,7 @@ All properties of this **VIDEO** element can be overridden by explicitly specify
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 7.0 or later<br/> |
 

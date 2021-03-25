@@ -42,7 +42,7 @@ Windows Portable Devices (WPD) supports the following properties of command para
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

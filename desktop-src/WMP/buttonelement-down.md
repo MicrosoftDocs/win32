@@ -47,7 +47,7 @@ If an invalid value is specified, the previous state is maintained.
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

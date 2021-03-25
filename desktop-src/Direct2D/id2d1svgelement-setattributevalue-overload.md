@@ -47,7 +47,7 @@ Sets an attribute of this element.
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D2d1svg.h</dt> </dl> |
 

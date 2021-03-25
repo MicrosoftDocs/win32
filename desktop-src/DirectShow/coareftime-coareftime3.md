@@ -1,7 +1,7 @@
 ---
-description: Constructor method.
+description: "Learn about the COARefTime.COARefTime constructor (Ctlutil.h) method. This method uses the 't' parameter."
 ms.assetid: 1f3b5c63-edaa-42c1-8892-d6681c81ae4d
-title: COARefTime.COARefTime constructor (Ctlutil.h) (3)
+title: COARefTime.COARefTime constructor (Ctlutil.h) - parameter
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# COARefTime.COARefTime constructor (Ctlutil.h)
+# COARefTime.COARefTime constructor (Ctlutil.h) - t parameter
 
 Constructor method.
 
@@ -46,14 +46,10 @@ COARefTime(
 
 ## Requirements
 
-
-
-|                    |                                                                                                                                                                                            |
+| Requirement                   | Value                                                                                                                                                                                           |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
-| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
-
-
+| Header  | Ctlutil.h (include Streams.h)                                                                                   |
+| Library | Strmbase.lib (retail builds); Strmbasd.lib (debug builds) |
 
 ## See also
 

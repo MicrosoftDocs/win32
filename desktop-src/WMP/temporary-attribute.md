@@ -30,7 +30,7 @@ If you retrieved a playlist from the library, changes you make to the playlist w
 
 
 
-|                    |                                    |
+| Requirement | Value |
 |--------------------|------------------------------------|
 | Version<br/> | Windows Media Player 11<br/> |
 

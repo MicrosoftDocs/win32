@@ -37,7 +37,7 @@ This creates a **SLIDER** control that seeks the media file to any position. The
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 7.0 or later<br/> |
 

@@ -1,12 +1,12 @@
 ---
-title: Functions
+title: Device Access API functions
 description: Functions in the Device Access API.
 ms.assetid: DCD5DAD6-E8C2-4EA4-AE66-A47AE0759ED0
 ms.topic: article
 ms.date: 02/11/2020
 ---
 
-# Functions
+# Device Access API functions
 
 Functions in the Device Access API.
 

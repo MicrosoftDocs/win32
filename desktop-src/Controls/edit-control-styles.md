@@ -142,7 +142,7 @@ To use Comctl32.dll version 6, specify it in a manifest. For more information on
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winuser.h</dt> </dl> |
 

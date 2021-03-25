@@ -23,7 +23,7 @@ The input for an LSA SID name mapping operation.
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Lsalookupi.h</dt> </dl> |
 

@@ -38,7 +38,7 @@ The discussion in most of this document assumes that you are implementing a wiza
 
 ### Wizard Implementation
 
-Implementing a wizard is similar to implementing a regular property sheet. At the most basic level, it is a matter of setting one of the following flags or combinations of flags in the [**PROPSHEETHEADER**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2) structure that defines the property sheet.
+Implementing a wizard is similar to implementing a regular property sheet. At the most basic level, it is a matter of setting one of the following flags or combinations of flags in the [**PROPSHEETHEADER**](pss-propsheetheader.md) structure that defines the property sheet.
 
 
 
@@ -56,10 +56,10 @@ Implementing a wizard is similar to implementing a regular property sheet. At th
 The basic procedure for implementing a wizard is as follows:
 
 1.  Create a dialog box template for each page.
-2.  Define the pages by creating a [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structure for each page. This structure defines the page, and contains pointers to the dialog box template and any bitmaps or other resources.
-3.  Pass the [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structure that was created in the previous step to the [**CreatePropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-createpropertysheetpagea) function to create the page's HPROPSHEETPAGE handle.
-4.  Define the wizard by creating a [**PROPSHEETHEADER**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2) structure for it.
-5.  Pass the [**PROPSHEETHEADER**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2) structure to the [**PropertySheet**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta) function to display the wizard.
+2.  Define the pages by creating a [**PROPSHEETPAGE**](pss-propsheetpage.md) structure for each page. This structure defines the page, and contains pointers to the dialog box template and any bitmaps or other resources.
+3.  Pass the [**PROPSHEETPAGE**](pss-propsheetpage.md) structure that was created in the previous step to the [**CreatePropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-createpropertysheetpagea) function to create the page's HPROPSHEETPAGE handle.
+4.  Define the wizard by creating a [**PROPSHEETHEADER**](pss-propsheetheader.md) structure for it.
+5.  Pass the [**PROPSHEETHEADER**](pss-propsheetheader.md) structure to the [**PropertySheet**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta) function to display the wizard.
 6.  Implement dialog box procedures for each page to handle notification messages from the page's controls and the wizard's buttons and to process other Windows messaging.
 
 ### Create the Dialog Box Templates
@@ -72,7 +72,7 @@ The basic layout of the introduction and completion pages is identical. The foll
 
 ![screen shot showing a wizard page with a graphic on the left, title and body text on the right, and back, next and cancel buttons at the bottom](images/wiz97exterior.png)
 
-For Wizard97 exterior pages, the dialog box template is 317x193 dialog units. It fills all of the wizard, except for the caption and the band at the bottom that contains the **Back**, **Next**, and **Cancel** buttons. The left side of the template, which is reserved for a "watermark" bitmap, should not contain any controls. The watermark is specified in the wizard's [**PROPSHEETHEADER**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2) structure and is added to the page automatically. You must allow space for it when designing the resource template.
+For Wizard97 exterior pages, the dialog box template is 317x193 dialog units. It fills all of the wizard, except for the caption and the band at the bottom that contains the **Back**, **Next**, and **Cancel** buttons. The left side of the template, which is reserved for a "watermark" bitmap, should not contain any controls. The watermark is specified in the wizard's [**PROPSHEETHEADER**](pss-propsheetheader.md) structure and is added to the page automatically. You must allow space for it when designing the resource template.
 
 When you create the watermark bitmap, keep in mind that the dialog box may increase in size if, for example, the user chooses a large system font. Different languages also tend to have different font metrics. When the page grows, the area reserved for the watermark gets proportionately larger. However, you cannot change the watermark bitmap, nor is the bitmap stretched to fill the larger area. Instead, the bitmap is left in its original size in the upper-left portion of the reserved area. The part of the larger reserved area that is not covered by the watermark is automatically filled with the color of the bitmap's upper-left pixel.
 
@@ -98,7 +98,7 @@ Interior pages have a somewhat different appearance than exterior pages. The fol
 
 ![screen shot of a wizard page with title and subtitle text and a graphic at the top, text in the middle, and buttons on the bottom](images/wiz97interior.png)
 
-The header area at the top of the page is handled by the property sheet, so it is not included in the template. The contents of the header are specified in the page's [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structure and the wizard's [**PROPSHEETHEADER**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2) structure. Because the interior page needs to fit between the header and the buttons, the Wizard97 dialog box template is 317x143 dialog units, somewhat smaller than the template for exterior pages.
+The header area at the top of the page is handled by the property sheet, so it is not included in the template. The contents of the header are specified in the page's [**PROPSHEETPAGE**](pss-propsheetpage.md) structure and the wizard's [**PROPSHEETHEADER**](pss-propsheetheader.md) structure. Because the interior page needs to fit between the header and the buttons, the Wizard97 dialog box template is 317x143 dialog units, somewhat smaller than the template for exterior pages.
 
 The following illustration shows an Aero Wizard that was created from the same template.
 
@@ -106,9 +106,9 @@ The following illustration shows an Aero Wizard that was created from the same t
 
 ### Define the Wizard Pages
 
-After you have created the dialog box templates and related resources such as bitmaps and string tables, you can create the property sheet pages. The procedure is similar to that for standard property sheets. First, fill in the appropriate members of a [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structure. (Some members are specific to wizards.) Then call the [**CreatePropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-createpropertysheetpagea) function to create the page's HPROPSHEETPAGE handle.
+After you have created the dialog box templates and related resources such as bitmaps and string tables, you can create the property sheet pages. The procedure is similar to that for standard property sheets. First, fill in the appropriate members of a [**PROPSHEETPAGE**](pss-propsheetpage.md) structure. (Some members are specific to wizards.) Then call the [**CreatePropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-createpropertysheetpagea) function to create the page's HPROPSHEETPAGE handle.
 
-The following wizard-related flags can be set in the **dwFlags** member of the [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structure.
+The following wizard-related flags can be set in the **dwFlags** member of the [**PROPSHEETPAGE**](pss-propsheetpage.md) structure.
 
 
 
@@ -122,13 +122,13 @@ The following wizard-related flags can be set in the **dwFlags** member of the [
 
  
 
-If you have set PSP\_USEHEADERTITLE or PSP\_USEHEADERSUBTITLE, assign the title and subtitle text to the **pszHeaderTitle** and **pszHeaderSubtitle** members, respectively. When you assign text strings to members of the [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) and [**PROPSHEETHEADER**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2) structures, you can either assign a string pointer or use the **MAKEINTRESOURCE** macro to assign a value from a string resource. The string resource is loaded from the module specified in the **hInstance** member of the wizard's **PROPSHEETHEADER** structure.
+If you have set PSP\_USEHEADERTITLE or PSP\_USEHEADERSUBTITLE, assign the title and subtitle text to the **pszHeaderTitle** and **pszHeaderSubtitle** members, respectively. When you assign text strings to members of the [**PROPSHEETPAGE**](pss-propsheetpage.md) and [**PROPSHEETHEADER**](pss-propsheetheader.md) structures, you can either assign a string pointer or use the **MAKEINTRESOURCE** macro to assign a value from a string resource. The string resource is loaded from the module specified in the **hInstance** member of the wizard's **PROPSHEETHEADER** structure.
 
-When you call [**CreatePropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-createpropertysheetpagea) to create a page, assign the result to an element of an array of HPROPSHEETPAGE handles. This array is used when creating the property sheet. The array index of a page's handle determines the default order in which it is displayed. After you have created a page's HPROPSHEETPAGE handle, you can reuse the same [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structure to create the next page by assigning new values to the relevant members.
+When you call [**CreatePropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-createpropertysheetpagea) to create a page, assign the result to an element of an array of HPROPSHEETPAGE handles. This array is used when creating the property sheet. The array index of a page's handle determines the default order in which it is displayed. After you have created a page's HPROPSHEETPAGE handle, you can reuse the same [**PROPSHEETPAGE**](pss-propsheetpage.md) structure to create the next page by assigning new values to the relevant members.
 
-An alternative way to create pages is to use separate [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structures for each page, and create an array of structures. This array is used instead of an array of HPROPSHEETPAGE handles when creating the property sheet. Using separate **PROPSHEETPAGE** structures eliminates the need to call [**CreatePropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-createpropertysheetpagea) but uses more memory. Otherwise, there is no significant difference between the two approaches.
+An alternative way to create pages is to use separate [**PROPSHEETPAGE**](pss-propsheetpage.md) structures for each page, and create an array of structures. This array is used instead of an array of HPROPSHEETPAGE handles when creating the property sheet. Using separate **PROPSHEETPAGE** structures eliminates the need to call [**CreatePropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-createpropertysheetpagea) but uses more memory. Otherwise, there is no significant difference between the two approaches.
 
-The following example defines an interior Wizard97 page by assigning values to a [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structure. In this example, the page's title, subtitle, and dialog box template are all identified by their resource IDs. The [**CreatePropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-createpropertysheetpagea) function is then called to create the page's HPROPSHEETPAGE handle. Because it will be the second page to appear, the handle is assigned to the array of handles, *ahpsp*, with an index of 1.
+The following example defines an interior Wizard97 page by assigning values to a [**PROPSHEETPAGE**](pss-propsheetpage.md) structure. In this example, the page's title, subtitle, and dialog box template are all identified by their resource IDs. The [**CreatePropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-createpropertysheetpagea) function is then called to create the page's HPROPSHEETPAGE handle. Because it will be the second page to appear, the handle is assigned to the array of handles, *ahpsp*, with an index of 1.
 
 
 ```C++
@@ -153,21 +153,21 @@ ahpsp[1] = CreatePropertySheetPage(&psp);
 
 ### Custom Page Data
 
-When you create a page, you can assign custom data to it by using the **lParam** member of the [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structure, typically by assigning it a pointer to a user-defined structure.
+When you create a page, you can assign custom data to it by using the **lParam** member of the [**PROPSHEETPAGE**](pss-propsheetpage.md) structure, typically by assigning it a pointer to a user-defined structure.
 
-When the page is first selected, its dialog box procedure receives a [**WM\_INITDIALOG**](/windows/desktop/dlgbox/wm-initdialog) message. The message's *lParam* value points to a copy of of the page's [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structure, from which you can retrieve the custom data. You can then store this data for use in subsequent messages by using [**SetWindowLongPtr**](/windows/desktop/api/winuser/nf-winuser-setwindowlongptra) with GWL\_USERDATA as the index parameter. Multiple pages can have a pointer to the same data, and any change to the data made by one page is available to the other pages in their dialog procedures.
+When the page is first selected, its dialog box procedure receives a [**WM\_INITDIALOG**](/windows/desktop/dlgbox/wm-initdialog) message. The message's *lParam* value points to a copy of of the page's [**PROPSHEETPAGE**](pss-propsheetpage.md) structure, from which you can retrieve the custom data. You can then store this data for use in subsequent messages by using [**SetWindowLongPtr**](/windows/desktop/api/winuser/nf-winuser-setwindowlongptra) with GWL\_USERDATA as the index parameter. Multiple pages can have a pointer to the same data, and any change to the data made by one page is available to the other pages in their dialog procedures.
 
 ### Define the Wizard Property Sheet
 
-As with ordinary property sheets, you define the wizard's property sheet by filling in members of a [**PROPSHEETHEADER**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2) structure. This structure allows you to specify the pages that make up the wizard and the default order in which they are displayed, along with several related parameters. You then launch the wizard by calling the [**PropertySheet**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta) function.
+As with ordinary property sheets, you define the wizard's property sheet by filling in members of a [**PROPSHEETHEADER**](pss-propsheetheader.md) structure. This structure allows you to specify the pages that make up the wizard and the default order in which they are displayed, along with several related parameters. You then launch the wizard by calling the [**PropertySheet**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta) function.
 
-In the Wizard97 style, the **pszCaption** member of the [**PROPSHEETHEADER**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2) structure is ignored. Instead, the wizard displays the caption that is specified in the current page's dialog box template. If the template lacks a caption, the caption from the previous page is displayed. Thus, to display the same caption on all pages, specify the caption in the template for the introductory page.
+In the Wizard97 style, the **pszCaption** member of the [**PROPSHEETHEADER**](pss-propsheetheader.md) structure is ignored. Instead, the wizard displays the caption that is specified in the current page's dialog box template. If the template lacks a caption, the caption from the previous page is displayed. Thus, to display the same caption on all pages, specify the caption in the template for the introductory page.
 
 In the Aero Wizard style, the dialog box caption is taken from **pszCaption**.
 
-If you have created an array of HPROPSHEETPAGE handles for your pages, assign the array to the **phpage** member. If you have instead created an array of [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structures, assign the array to the **ppsp** member and set the PSH\_PROPSHEETPAGE flag in the **dwFlags** member.
+If you have created an array of HPROPSHEETPAGE handles for your pages, assign the array to the **phpage** member. If you have instead created an array of [**PROPSHEETPAGE**](pss-propsheetpage.md) structures, assign the array to the **ppsp** member and set the PSH\_PROPSHEETPAGE flag in the **dwFlags** member.
 
-The following example assigns values to *psh*, a [**PROPSHEETHEADER**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2) structure, and calls the [**PropertySheet**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta) function to launch the wizard. The Wizard97-style wizard has both watermark and header graphics, specified by their resource IDs. The *ahpsp* array contains all the HPROPSHEETPAGE handles and defines the default order in which they are displayed.
+The following example assigns values to *psh*, a [**PROPSHEETHEADER**](pss-propsheetheader.md) structure, and calls the [**PropertySheet**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta) function to launch the wizard. The Wizard97-style wizard has both watermark and header graphics, specified by their resource IDs. The *ahpsp* array contains all the HPROPSHEETPAGE handles and defines the default order in which they are displayed.
 
 
 ```C++
@@ -314,7 +314,7 @@ case PSN_WIZFINISH :
 
 The preceding section assumes that you are implementing a wizard for a system with [version 5](common-control-versions.md) or later of the common controls.
 
-If you are writing a wizard for systems with earlier versions of the common controls, many of the features discussed in the preceding section will not be available. A number of the members of the [**PROPSHEETHEADER**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2) and [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structures that are used by the Wizard97 style are supported only by common controls version 5 and later. However, it is still possible to implement a *backward compatible* wizard with an appearance similar to that of the Wizard97 style. To do so, you must explicitly implement the following:
+If you are writing a wizard for systems with earlier versions of the common controls, many of the features discussed in the preceding section will not be available. A number of the members of the [**PROPSHEETHEADER**](pss-propsheetheader.md) and [**PROPSHEETPAGE**](pss-propsheetpage.md) structures that are used by the Wizard97 style are supported only by common controls version 5 and later. However, it is still possible to implement a *backward compatible* wizard with an appearance similar to that of the Wizard97 style. To do so, you must explicitly implement the following:
 
 -   Add the watermark graphic to the dialog box template for your introduction and completion pages.
 -   Make all your templates the same size. There is no separate system-defined header area for interior pages.

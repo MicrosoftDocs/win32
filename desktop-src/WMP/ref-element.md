@@ -84,7 +84,7 @@ Attempting to play Flash media that includes sound with the first frame may yiel
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

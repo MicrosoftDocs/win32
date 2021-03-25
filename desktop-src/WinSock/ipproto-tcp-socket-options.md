@@ -152,6 +152,6 @@ In the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Header | <dl> <dt>Ws2def.h (include Winsock2.h); </dt> <dt>Winsock2.h on Windows Server 2003, Windows XP and Windows 2000</dt> </dl> |

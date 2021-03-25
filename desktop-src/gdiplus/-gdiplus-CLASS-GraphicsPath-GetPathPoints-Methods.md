@@ -25,7 +25,7 @@ This topic lists the GetPathPoints methods of the [**GraphicsPath**](/windows/wi
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdipluspath.h</dt> </dl> |
 

@@ -89,7 +89,7 @@ To set an extended style, send the toolbar control a [**TB\_SETEXTENDEDSTYLE**](
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>CommCtrl.h</dt> </dl> |
 

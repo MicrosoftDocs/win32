@@ -46,7 +46,7 @@ The following subtypes are defined for use with the Video Mixing Renderer (VMR) 
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

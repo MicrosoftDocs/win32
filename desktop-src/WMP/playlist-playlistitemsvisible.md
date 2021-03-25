@@ -45,7 +45,7 @@ The Playlist items area includes the column headers, the contents of the columns
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

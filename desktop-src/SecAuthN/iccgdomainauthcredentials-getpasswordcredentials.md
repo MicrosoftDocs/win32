@@ -189,7 +189,7 @@ CoCreatableClass(CCGStubPlugin);
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported server | Windows Server, version 2004                                    |
 | Header                   | ccgplugins.h   |

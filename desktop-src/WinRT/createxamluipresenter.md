@@ -63,7 +63,7 @@ You cannot call this method from a Windows Store app.
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Windows.ui.xaml-coretypes.idl</dt> </dl> |
 | DLL<br/>    | <dl> <dt>Windows.UI.Xaml.dll</dt> </dl>           |
