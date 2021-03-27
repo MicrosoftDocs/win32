@@ -27,7 +27,7 @@ This topic lists the AddClosedCurve methods of the [**GraphicsPath**](/windows/w
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdipluspath.h</dt> </dl> |
 

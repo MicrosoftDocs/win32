@@ -36,7 +36,7 @@ The value of this property is a pointer to the **IWindowForBindingUI** interface
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfidl.h</dt> </dl> |
 

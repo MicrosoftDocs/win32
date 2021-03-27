@@ -30,7 +30,7 @@ This attribute is a read/write **String** containing any Microsoft Internet Expl
 
 
 
-|                    |                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later<br/> |
 

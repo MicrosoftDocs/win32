@@ -72,7 +72,7 @@ Be sure to use colors that make it easy for the user to read the button text. Fo
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later.<br/> |
 

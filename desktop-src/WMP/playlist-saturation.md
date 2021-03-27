@@ -34,7 +34,7 @@ This attribute changes the saturation value of the images specified by the **dro
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

@@ -40,7 +40,7 @@ This event code supports seamless looping. When a call to the [**IMediaSeeking::
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

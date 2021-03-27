@@ -84,7 +84,7 @@ For a description of theses YUV formats for video rendering on Windows, see [Rec
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

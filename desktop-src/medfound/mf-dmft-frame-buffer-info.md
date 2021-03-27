@@ -18,7 +18,7 @@ Contains information about system-allocated frame buffers sent to the device dri
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mftransform.h</dt> </dl> |
 

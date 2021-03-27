@@ -67,10 +67,20 @@ This table lists some of the most common error codes. If you need further help w
 </tr>
 </thead>
 <tbody>
+<tr class="even">
+<td><strong>E_FILENOTFOUND</strong></td>
+<td>0x80070002</td>
+<td>File or path is not found. This can occur during a COM  typelib validation requires that the path for the directory actually exist within your MSIX package.<br/></td>
+</tr>
 <tr class="odd">
 <td><strong>ERROR_BAD_FORMAT</strong></td>
 <td>0x8007000B</td>
 <td>The package isn't correctly formatted and needs to be re-built or re-signed.<br/> You may get this error if there is a mismatch between the signing certificate subject name and the AppxManifest.xml publisher name.<br/> See <a href="how-to-sign-a-package-using-signtool.md">How to sign an app package using SignTool</a>.<br/></td>
+</tr>
+<tr class="even">
+<td><strong>E_INVALIDARG</strong></td>
+<td>0x80070057</td>
+<td>One or more arguments are not valid. If you check the AppXDeployment-Server event log and see the following event: "While installing the package, the system failed to register the windows.repositoryExtension extension due to the following error: The parameter is incorrect." <br/> You may get this error if the manifest elements DisplayName or Description contain characters disallowed by Windows firewall; namely  |  and  all , due to which Windows fails to create the AppContainer profile for the package. Please remove these characters from the manifest and try installing the package. <br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_INSTALL_OPEN_</strong><br/> <strong>PACKAGE_FAILED</strong><br/></td>
@@ -548,11 +558,6 @@ If the package contains \AppxMetadata\CodeIntegrity.cat, it must also contain \A
 <td><strong>APPX_E_INVALID_</strong><br/> <strong>ENCRYPTION_EXCLUSION_FILE_LIST</strong><br/></td>
 <td>0x80080216</td>
 <td>The encryptionExclusionFileList file is invalid.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>E_INVALIDARG</strong></td>
-<td>0x80070057</td>
-<td>One or more arguments are not valid If you check the AppXDeployment-Server event log and see the following event;  While installing the package, the system failed to register the windows.repositoryExtension extension due to the following error: The parameter is incorrect. <br/> You may get this error if the manifest elements DisplayName or Description contain characters disallowed by Windows firewall; namely  |  and  all , due to which Windows fails to create the AppContainer profile for the package. Please remove these characters from the manifest and try installing the package. <br/></td>
 </tr>
 </tbody>
 </table>

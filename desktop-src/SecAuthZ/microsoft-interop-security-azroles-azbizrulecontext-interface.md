@@ -71,7 +71,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzBizRuleContext** interface has these
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

@@ -63,7 +63,7 @@ As a result, the Sample Grabber will not connect to the Video Mixing Renderer (V
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Qedit.h</dt> </dl> |
 

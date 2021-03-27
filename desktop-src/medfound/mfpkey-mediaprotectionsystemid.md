@@ -34,7 +34,7 @@ The value of this property is a GUID that identifies the media protection system
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfidl.idl</dt> </dl> |
 

@@ -48,7 +48,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzNameResolver** interface has these m
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

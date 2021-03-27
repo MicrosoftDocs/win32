@@ -80,7 +80,7 @@ The DirectShow [DV Splitter](dv-splitter-filter.md) and [DV Video Decoder](dv-vi
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

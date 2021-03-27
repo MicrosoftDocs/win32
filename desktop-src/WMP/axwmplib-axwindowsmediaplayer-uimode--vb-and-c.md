@@ -124,7 +124,7 @@ End Sub
 
 
 
-|                      |                                                                                                                            |
+| Requirement | Value |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player version 7.0 or later. Windows Media Player 9 Series or later for "invisible" or "custom"<br/>   |
 | Namespace<br/> | **AxWMPLib**<br/>                                                                                                    |

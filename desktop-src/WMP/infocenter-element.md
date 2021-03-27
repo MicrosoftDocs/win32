@@ -79,7 +79,7 @@ The following table details the parameters sent with the URL request. Others may
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later.<br/> |
 

@@ -27,7 +27,7 @@ The following media types are defined:
 
 
 
-|                         |                                                                                    |
+| Requirement | Value |
 |-------------------------|------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                              |
 | Header<br/>       | <dl> <dt>Tapi3.h</dt> </dl> |

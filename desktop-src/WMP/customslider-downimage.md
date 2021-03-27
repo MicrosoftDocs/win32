@@ -38,7 +38,7 @@ The supported image file types are BMP, JPG, PNG, and GIF (not including animate
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

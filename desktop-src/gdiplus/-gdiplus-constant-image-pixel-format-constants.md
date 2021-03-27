@@ -39,7 +39,7 @@ The following constants, defined in Gdipluspixelformats.h, specify various pixel
 
 
 
-|                   |                                                                                                  |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdipluspixelformats.h</dt> </dl> |
 

@@ -45,7 +45,7 @@ The **itemMedia** property will return media objects that are expanded in the **
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

@@ -45,7 +45,7 @@ Cross-fade is an audio processing feature that gradually decreases the volume of
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

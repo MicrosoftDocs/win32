@@ -45,7 +45,7 @@ The [DVD Navigator](dvd-navigator-filter.md) filter does not support parental le
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdevcode.h (include Dshow.h)</dt> </dl> |
 

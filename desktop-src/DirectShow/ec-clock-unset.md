@@ -40,7 +40,7 @@ KSProxy signals this event when the pin of a clock-providing filter is disconnec
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

@@ -68,7 +68,7 @@ Get an **IWMPCdromRip** interface by casting the **IWMPCdrom** interface of the 
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmp.h</dt> </dl> |
 

@@ -424,7 +424,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 
 
 
-|                   |                                                                                                                                                         |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winsock2.h; </dt> <dt>Winerror.h</dt> </dl> |
 

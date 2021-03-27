@@ -45,7 +45,7 @@ The code in the specified files can be used by any event handler in the View. Co
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

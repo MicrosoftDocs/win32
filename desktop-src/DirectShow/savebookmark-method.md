@@ -31,7 +31,7 @@ A bookmark is a snapshot of the DVD Navigator's current state. This includes inf
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Segment.h</dt> </dl> |
 

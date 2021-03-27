@@ -72,7 +72,7 @@ Contains a paragraph.
 
 
 
-|                   |                                                                                                        |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Windows.ui.xaml.documents.h</dt> </dl> |
 

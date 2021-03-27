@@ -69,7 +69,7 @@ The maximum enumeration value.
 
 
 
-|                   |                                                                                   |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wldp.h</dt> </dl> |
 

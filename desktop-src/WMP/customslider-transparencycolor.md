@@ -40,7 +40,7 @@ See the [positionImage](customslider-positionimage.md) attribute for a sample il
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

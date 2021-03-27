@@ -89,7 +89,7 @@ Get an **IWMPPlaylist** interface by using the following properties or methods a
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmp.h</dt> </dl> |
 

@@ -46,7 +46,7 @@ The Microsoft Active Accessibility navigation constants are as follows:
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Oleacc.h</dt> </dl> |
 

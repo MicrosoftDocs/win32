@@ -43,7 +43,7 @@ This attribute is a read-only **Number** (**long**).
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

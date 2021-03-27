@@ -30,7 +30,7 @@ If the position of the slider changes as a result of the **value** attribute bei
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

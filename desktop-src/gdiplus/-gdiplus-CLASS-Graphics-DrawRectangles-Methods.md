@@ -25,7 +25,7 @@ This topic lists the DrawRectangles methods of the [**Graphics**](/windows/win32
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplusgraphics.h</dt> </dl> |
 

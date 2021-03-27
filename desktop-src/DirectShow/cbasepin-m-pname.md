@@ -36,7 +36,7 @@ The [**CBasePin::QueryPinInfo**](cbasepin-querypininfo.md) method returns this s
 
 
 
-|                   |                                                                                                           |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl> |
 

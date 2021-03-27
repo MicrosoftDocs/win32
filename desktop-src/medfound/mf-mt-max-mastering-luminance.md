@@ -18,7 +18,7 @@ Specifies the maximum luminance of the display on which the content was authored
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfapi.h</dt> </dl> |
 

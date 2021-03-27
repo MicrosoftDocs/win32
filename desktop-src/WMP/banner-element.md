@@ -87,7 +87,7 @@ The following is an example of a **BANNER** element containing **ABSTRACT** and 
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

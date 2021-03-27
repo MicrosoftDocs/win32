@@ -43,7 +43,7 @@ For examples, see [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitm
 
 
 
-|                    |                                                                                     |
+| Requirement | Value |
 |--------------------|-------------------------------------------------------------------------------------|
 | Library<br/> | <dl> <dt>D2d1.lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>D2d1.dll</dt> </dl> |

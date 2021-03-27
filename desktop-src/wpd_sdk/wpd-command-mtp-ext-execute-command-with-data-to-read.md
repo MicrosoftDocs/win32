@@ -53,7 +53,7 @@ Can only be called directly by using [**IPortableDevice::SendCommand**](/windows
 
 
 
-|                   |                                                                                               |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>WpdMtpExtensions.h</dt> </dl> |
 

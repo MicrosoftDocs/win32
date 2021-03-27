@@ -31,7 +31,7 @@ This attribute is a read/write **String** representing a color. The default valu
 
 
 
-|                    |                                    |
+| Requirement | Value |
 |--------------------|------------------------------------|
 | Version<br/> | Windows Media Player 10<br/> |
 

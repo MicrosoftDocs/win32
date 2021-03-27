@@ -111,7 +111,7 @@ The **NSPROTO\_IPX** socket options and the structures used by these socket opti
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wsnwlink.h</dt> </dl> |
 

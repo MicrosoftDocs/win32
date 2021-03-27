@@ -39,7 +39,7 @@ This method displays the first preset of the next visualization in the authoring
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

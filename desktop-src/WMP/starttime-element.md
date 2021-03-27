@@ -61,7 +61,7 @@ This element defines a time index into the content where Windows Media Player is
 
 
 
-|                    |                                                     |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------|
 | Version<br/> | Windows Media Player version 70 or later<br/> |
 

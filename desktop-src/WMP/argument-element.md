@@ -158,7 +158,7 @@ When the **name** attribute of a **fragment** element is "Limit Number of Items"
 
 
 
-|                    |                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/> |
 

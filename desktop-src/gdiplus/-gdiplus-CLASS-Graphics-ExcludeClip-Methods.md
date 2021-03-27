@@ -26,7 +26,7 @@ This topic lists the ExcludeClip methods of the [**Graphics**](/windows/win32/ap
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplusgraphics.h</dt> </dl> |
 

@@ -59,7 +59,7 @@ This method is different from **moveTo**, which creates a linear motion when mov
 
 
 
-|                    |                                    |
+| Requirement | Value |
 |--------------------|------------------------------------|
 | Version<br/> | Windows Media Player 11<br/> |
 

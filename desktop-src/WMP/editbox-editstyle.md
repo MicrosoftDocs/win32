@@ -49,7 +49,7 @@ This attribute can only be set to "password" or "multiline" at design time. If i
 
 
 
-|                    |                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later<br/> |
 

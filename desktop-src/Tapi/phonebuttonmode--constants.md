@@ -82,7 +82,7 @@ This enumeration type is used in the [**PHONECAPS**](/windows/desktop/api/Tapi/n
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

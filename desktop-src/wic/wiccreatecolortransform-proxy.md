@@ -49,7 +49,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                |                                                                                                 |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>WindowsCodecsExt.dll</dt> </dl> |
 

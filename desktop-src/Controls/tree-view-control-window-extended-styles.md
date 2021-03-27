@@ -100,7 +100,7 @@ This style may not be supported in future versions of Comctl32.dll. Also, this s
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>CommCtrl.h</dt> </dl> |
 

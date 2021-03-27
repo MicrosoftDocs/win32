@@ -57,7 +57,7 @@ This enumeration is used by the [WPD\_DEVICE\_POWER\_SOURCE](device-properties.m
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

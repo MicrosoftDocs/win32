@@ -139,7 +139,7 @@ The **BSTR** version of the terminal classes is mainly designated for the use of
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                |
 | Header<br/>       | <dl> <dt>Tapi3if.h</dt> </dl> |

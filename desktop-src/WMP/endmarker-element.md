@@ -78,7 +78,7 @@ If the marker specified by an **ENDMARKER** element occurs earlier in the stream
 
 
 
-|                    |                                                     |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------|
 | Version<br/> | Windows Media Player version 70 or later<br/> |
 

@@ -80,7 +80,7 @@ If the *lpszPort* port is part of a multilink connection, **RasAdminPortClearSta
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows 2000 Professional<br/>                                                   |
 | End of server support<br/> | Windows 2000 Server<br/>                                                         |

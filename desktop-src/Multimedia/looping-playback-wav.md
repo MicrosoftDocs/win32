@@ -1,5 +1,5 @@
 ---
-title: Looping Playback
+title: Looping Playback (Waveform Audio)
 description: Looping Playback (Waveform Audio)
 ms.assetid: 8411290b-a3c5-4347-bee3-43c35188f736
 keywords:

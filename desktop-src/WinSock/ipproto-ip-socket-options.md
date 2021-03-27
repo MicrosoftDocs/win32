@@ -119,6 +119,6 @@ In the Platform SDK released for Windows Server 2003 and Windows XP, the **IPP
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Header | <dl> <dt>Ws2def.h (include Winsock2.h); </dt> <dt>Ws2ipdef.h (include Ws2tcpip.h); </dt> <dt>Wsipv6ok.h (include Winsock2.h)</dt> </dl> |

@@ -70,7 +70,7 @@ This function calls [**ValidateBitmapInfoHeader**](validatebitmapinfoheader.md) 
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Checkbmi.h</dt> </dl> |
 

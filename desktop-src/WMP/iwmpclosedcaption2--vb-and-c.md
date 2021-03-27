@@ -67,7 +67,7 @@ Get an **IWMPClosedCaption2** interface by casting the value returned by the [**
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmp.h</dt> </dl> |
 

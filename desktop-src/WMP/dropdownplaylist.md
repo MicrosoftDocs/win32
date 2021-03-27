@@ -31,7 +31,7 @@ This will create a simple dropdown **PLAYLIST** with no items displayed. All pro
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 7.0 or later<br/> |
 

@@ -46,7 +46,7 @@ This routine does not catch all potential deadlock cases; it is possible for a t
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Library<br/> | <dl> <dt>NTDll.lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>NTDll.dll</dt> </dl> |

@@ -61,7 +61,7 @@ This method creates a linear motion when moving the control. This differs from *
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

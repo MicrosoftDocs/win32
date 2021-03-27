@@ -69,7 +69,7 @@ To get the copied buffer, call [**ISampleGrabber::GetCurrentBuffer**](isamplegra
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

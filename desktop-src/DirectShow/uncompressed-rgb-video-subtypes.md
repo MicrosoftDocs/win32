@@ -110,7 +110,7 @@ For palettized formats, the color of each pixel is specified as an index into a 
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

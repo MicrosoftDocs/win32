@@ -45,7 +45,7 @@ This attribute allows the use of the **foregroundProgress** attribute, which is 
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

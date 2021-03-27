@@ -210,7 +210,7 @@ This section describes how to use the Korean IME with Notepad to enter a few Kor
 
 
 
-|                                     |                                                                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
 | **Operating System**                | Windows XP                                                                                                 |
 | **Available Hard Disk Space**       | At least 230 MB                                                                                            |

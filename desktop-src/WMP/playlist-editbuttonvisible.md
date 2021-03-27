@@ -45,7 +45,7 @@ When you set this attribute to true, the playlist edit button will appear in the
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

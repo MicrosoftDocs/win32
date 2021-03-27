@@ -45,7 +45,7 @@ If you set this attribute to true, the background image will resize to fit the c
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

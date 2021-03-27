@@ -82,7 +82,7 @@ The **LINEDIALTONEMODE\_constants** are used within the [**LINECALLSTATUS**](/wi
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

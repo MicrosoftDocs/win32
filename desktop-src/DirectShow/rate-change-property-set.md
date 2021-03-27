@@ -72,7 +72,7 @@ Version 1.1 of the Rate Change property set follows the same basic principles as
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdmedia.h</dt> </dl> |
 

@@ -109,7 +109,7 @@ TAPI methods and functions may return a TAPI\_E\_ constant. These constants indi
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Tapi3err.h</dt> </dl> |

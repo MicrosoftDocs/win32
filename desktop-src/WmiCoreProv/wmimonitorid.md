@@ -23,6 +23,7 @@ api_type:
 - DllExport
 api_location: 
 - WmiProv.dll
+ms.custom: project-verbatim
 ---
 
 # WmiMonitorID class
@@ -42,7 +43,7 @@ class WmiMonitorID : MSMonitorClass
   uint16  SerialNumberID[];
   uint8   WeekOfManufacture;
   uint16  YearOfManufacture;
-  uint16  UserFriendlyName;
+  uint16  UserFriendlyName[];
   uint16  UserFriendlyNameLength;
 };
 ```
@@ -143,7 +144,7 @@ Serial number.
 UserFriendlyName
 </dt> <dd> <dl> <dt>
 
-Data type: **uint16**
+Data type: **uint16** array
 </dt> <dt>
 
 Access type: Read-only

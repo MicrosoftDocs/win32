@@ -160,7 +160,7 @@ To log this event from a DirectShow filter, use the **PERFLOG\_STREAMTRACE** fun
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Perfstruct.h</dt> </dl> |
 

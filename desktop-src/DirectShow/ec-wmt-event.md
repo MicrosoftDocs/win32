@@ -66,7 +66,7 @@ See the Windows Media Format SDK documentation for more information on enabling 
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 
