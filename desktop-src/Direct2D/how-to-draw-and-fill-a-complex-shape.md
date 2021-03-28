@@ -118,14 +118,15 @@ The final example uses the [**DrawGeometry**](/windows/win32/api/d2d1/nf-d2d1-id
 ```C++
 void DemoApp::RenderGeometryExample()
 {
-   // Translate subsequent drawings by 20 device-independent pixels.
+    // Translate subsequent drawings by 20 device-independent pixels.
     m_pRenderTarget->SetTransform(
         D2D1::Matrix3x2F::Translation(20.f, 20.f)
         );
 
     // Draw the hour glass geometry at the upper left corner of the client area.
     m_pRenderTarget->DrawGeometry(m_pPathGeometry, m_pBlackBrush, 10.f);
-    m_pRenderTarget->FillGeometry(m_pPathGeometry, m_pLGBrush);</code></pre></td>
+    m_pRenderTarget->FillGeometry(m_pPathGeometry, m_pLGBrush);
+}
 ```
 
 Code has been omitted from this example. For more information about geometries, see the [Geometries Overview](direct2d-geometries-overview.md).
