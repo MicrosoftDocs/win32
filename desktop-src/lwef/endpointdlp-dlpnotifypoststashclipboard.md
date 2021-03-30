@@ -1,40 +1,41 @@
 ---
-Description: Provides the system with information about a document before an open operation is initiated.
-title: DlpNotifyPreOpenDocument function (endpointdlp.h)
+Description: Provides the system with status information after a stash clipboard operation is completed.
+title: DlpNotifyPostStashClipboard function (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
 topic_type: 
 - APIRef
 - kbSyntax
 api_name: 
-- DlpNotifyPreOpenDocument
+- DlpNotifyPostStashClipboard
 api_type: 
 - DllExport
 api_location: 
 - EndpointDlp.dll
 ---
 
-# DlpNotifyPreOpenDocument function
+# DlpNotifyPostStashClipboard function
 
-Provides the system with information about a document before an open operation is initiated.
+Provides the system with status information after a stash clipboard operation is completed.
 
 ## Syntax
 
 
 ```C++
-void WINAPI DlpNotifyPreOpenDocument(_In_ const PDLP_DOCUMENT_INFO DocumentInfo);
+void WINAPI DlpNotifyPostStashClipboard(_In_ const PDLP_POSTOP_STATUS OpStatus);
 ```
 
 
 
 ## Parameters
 
+
 <dl> <dt>
 
-*DocumentInfo* \[in\]
+*OpStatus* \[in\]
 </dt> <dd>
 
-A pointer to a [PDLP_DOCUMENT_INFO](endpointdlp-dlp_document_info.md) structure containing information about the document to be opened.
+A pointer to a [DLP_POSTOP_STATUS](enpointdlp-dlp_postop_status.md) structure containing status information about the stash clipboard operation.
 
 </dd> </dl>
 

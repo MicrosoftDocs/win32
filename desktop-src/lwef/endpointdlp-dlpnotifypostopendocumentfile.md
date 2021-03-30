@@ -1,28 +1,28 @@
 ---
 Description: Provides the system with information about a document after the open operation is completed.
-title: DlpNotifyPostOpenDocument function (endpointdlp.h)
+title: DlpNotifyPostOpenDocumentFile function (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
 topic_type: 
 - APIRef
 - kbSyntax
 api_name: 
-- DlpNotifyPostOpenDocument
+- DlpNotifyPostOpenDocumentFile
 api_type: 
 - DllExport
 api_location: 
 - EndpointDlp.dll
 ---
 
-# DlpNotifyPostOpenDocument function
+# DlpNotifyPostOpenDocumentFile function
 
-Provides the system with information about a document after an open document operation is completed.
+Provides the system with information about a document after an open operation is completed.
 
 ## Syntax
 
 
 ```C++
-void WINAPI DlpNotifyPostOpenDocument(_In_ const PDLP_DOCUMENT_INFO DocumentInfo, _In_ const PDLP_POSTOP_STATUS OpStatus); 
+void WINAPI DlpNotifyPostOpenDocumentFile(_In_ const PDLP_DOCUMENT_INFO DocumentInfo, _In_ const PDLP_POSTOP_STATUS OpStatus 
 ```
 
 ## Parameters

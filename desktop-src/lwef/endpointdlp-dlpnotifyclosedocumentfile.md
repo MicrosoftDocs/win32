@@ -1,28 +1,28 @@
 ---
-Description: Provides the system with information about a document before an open operation is initiated.
-title: DlpNotifyPreOpenDocument function (endpointdlp.h)
+Description: Provides the system with information about a document before the document close operation is initiated.
+title: DlpNotifyCloseDocumentFile function (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
 topic_type: 
 - APIRef
 - kbSyntax
 api_name: 
-- DlpNotifyPreOpenDocument
+- DlpNotifyCloseDocumentFile
 api_type: 
 - DllExport
 api_location: 
 - EndpointDlp.dll
 ---
 
-# DlpNotifyPreOpenDocument function
+# DlpNotifyCloseDocumentFile function
 
-Provides the system with information about a document before an open operation is initiated.
+Provides the system with information about a document before the document close operation is initiated.
 
 ## Syntax
 
 
 ```C++
-void WINAPI DlpNotifyPreOpenDocument(_In_ const PDLP_DOCUMENT_INFO DocumentInfo);
+void WINAPI DlpNotifyCloseDocumentFile(_In_ const PDLP_DOCUMENT_INFO DocumentInfo);
 ```
 
 

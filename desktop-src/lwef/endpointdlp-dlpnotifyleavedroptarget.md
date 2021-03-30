@@ -1,29 +1,31 @@
 ---
-Description: Provides the system with information about a document after the open operation is completed.
-title: DlpNotifyPostOpenDocument function (endpointdlp.h)
+Description: Provides the system with information about a document when a drop target is exited.
+title: DlpNotifyLeaveDropTarget function (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
 topic_type: 
 - APIRef
 - kbSyntax
 api_name: 
-- DlpNotifyPostOpenDocument
+- DlpNotifyLeaveDropTarget
 api_type: 
 - DllExport
 api_location: 
 - EndpointDlp.dll
 ---
 
-# DlpNotifyPostOpenDocument function
+# DlpNotifyLeaveDropTarget function
 
-Provides the system with information about a document after an open document operation is completed.
+Provides the system with information about a document when a drop target is exited.
 
 ## Syntax
 
 
 ```C++
-void WINAPI DlpNotifyPostOpenDocument(_In_ const PDLP_DOCUMENT_INFO DocumentInfo, _In_ const PDLP_POSTOP_STATUS OpStatus); 
+void WINAPI DlpNotifyLeaveDropTarget(_In_ const PDLP_DOCUMENT_INFO DocumentInfo, _In_ const PDLP_POSTOP_STATUS OpStatus);
 ```
+
+
 
 ## Parameters
 
@@ -32,7 +34,7 @@ void WINAPI DlpNotifyPostOpenDocument(_In_ const PDLP_DOCUMENT_INFO DocumentInfo
 *DocumentInfo* \[in\]
 </dt> <dd>
 
-A pointer to a [PDLP_DOCUMENT_INFO](endpointdlp-dlp_document_info.md) structure containing information about the document that was opened.
+A pointer to a [PDLP_DOCUMENT_INFO](endpointdlp-dlp_document_info.md) structure containing information about the document associated with the drop operation.
 
 </dd> </dl>
 
@@ -41,7 +43,7 @@ A pointer to a [PDLP_DOCUMENT_INFO](endpointdlp-dlp_document_info.md) structure 
 *OpStatus* \[in\]
 </dt> <dd>
 
-A pointer to a [DLP_POSTOP_STATUS](enpointdlp-dlp_postop_status.md) structure containing status information about the open document operation.
+A pointer to a [DLP_POSTOP_STATUS](enpointdlp-dlp_postop_status.md) structure containing status information about the drop target exit operation.
 
 </dd> </dl>
 

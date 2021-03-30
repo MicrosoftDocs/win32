@@ -38,13 +38,13 @@ typedef struct _DLP_POSTOP_STATUS {
 *Version* \[in\]
 </dt> <dd>
 
-A DWORD specifying the API version. In the current release, this value must be 0x1.
+A DWORD specifying the API version. This value should always be **DLP_POSTOP_STATUS_V_LATEST**. This constant is defined in the endpointdlp.h sample header file listing in the article [Endpoint data loss prevention](endpointdlp-endpoint-data-loss-prevention.md)
 
 </dd> </dl>
 
 <dl> <dt>
 
-*PersistentFileName* \[in\]
+*OperationSuccess* \[in\]
 </dt> <dd>
 
 A BOOL indicating whether the open operation was successful.
@@ -65,4 +65,3 @@ A BOOL indicating whether the open operation was successful.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10                                             |
-| Minimum supported server<br/> | Windows Server                                    |

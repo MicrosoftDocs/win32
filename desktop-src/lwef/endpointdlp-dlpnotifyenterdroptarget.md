@@ -1,28 +1,28 @@
 ---
-Description: Provides the system with information about a document before an open operation is initiated.
-title: DlpNotifyPreOpenDocument function (endpointdlp.h)
+Description: Provides the system with information about a document when a drop target is entered.
+title: DlpNotifyEnterDropTarget function (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
 topic_type: 
 - APIRef
 - kbSyntax
 api_name: 
-- DlpNotifyPreOpenDocument
+- DlpNotifyEnterDropTarget
 api_type: 
 - DllExport
 api_location: 
 - EndpointDlp.dll
 ---
 
-# DlpNotifyPreOpenDocument function
+# DlpNotifyEnterDropTarget function
 
-Provides the system with information about a document before an open operation is initiated.
+Provides the system with information about a document when a drop target is entered.
 
 ## Syntax
 
 
 ```C++
-void WINAPI DlpNotifyPreOpenDocument(_In_ const PDLP_DOCUMENT_INFO DocumentInfo);
+void WINAPI DlpNotifyEnterDropTarget(_In_ const PDLP_DOCUMENT_INFO DocumentInfo);
 ```
 
 
@@ -34,7 +34,7 @@ void WINAPI DlpNotifyPreOpenDocument(_In_ const PDLP_DOCUMENT_INFO DocumentInfo)
 *DocumentInfo* \[in\]
 </dt> <dd>
 
-A pointer to a [PDLP_DOCUMENT_INFO](endpointdlp-dlp_document_info.md) structure containing information about the document to be opened.
+A pointer to a [PDLP_DOCUMENT_INFO](endpointdlp-dlp_document_info.md) structure containing information about the document associated with the drop operation.
 
 </dd> </dl>
 
