@@ -15,7 +15,10 @@ Specifies if the MFT’s Sample Allocator (SA) should allocate the underlying Di
 
 ## Remarks
 
-This attribute is available staring with Windows 10 Preview build 14383.
+This attribute is available staring with Windows 10 Preview build 14383. 
+
+> [!NOTE]
+> The **D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE** member field of the [D3D11_RESOURCE_MISC_FLAG](/windows/win32/api/d3d11/ne-d3d11-d3d11_resource_misc_flag) enumeration will be available in a future release of the SDK.
 
 The Media Foundation platform layer sets the **MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES** attribute when rendering video. An app could also opt to set this attribute if it wants to implement its own video renderer and make use of D3D11 Displayable Resources. 
 
