@@ -14,7 +14,7 @@ To download media files from the web through HTTP, use the [File Source (URL)](f
 
 
 
-|                                          |                                                                                                                                      |
+| Label | Value |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IFileSourceFilter**](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter)                                                   |
 | Input Pin Media Types                    | Not applicable                                                                                                                       |

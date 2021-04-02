@@ -14,7 +14,7 @@ Do not manually add this filter to the filter graph. If an application calls [**
 
 
 
-|                                          |                                                                                                                                                                                                                                                    |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IFullScreenVideoEx**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-ifullscreenvideoex), [**IMediaPosition**](/windows/desktop/api/Control/nn-control-imediaposition), [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking), [**IQualityControl**](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol), [**IQualProp**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop) |
 | Input Pin Media Types                    | MEDIATYPE\_Video, MEDIASUBTYPE\_Null                                                                                                                                                                                                               |
@@ -37,7 +37,7 @@ The Full Screen Renderer supports a static set of display modes. The video card 
 
 
 
-|      |       |        |           |
+| Label | Value |
 |------|-------|--------|-----------|
 | Mode | Width | Height | Bit Depth |
 | 0    | 320   | 200    | 16        |

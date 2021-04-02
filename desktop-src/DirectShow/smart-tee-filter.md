@@ -18,7 +18,7 @@ The following illustration shows a typical capture graph that uses the Smart Tee
 
 
 
-|                                          |                                                                                                                |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                                                                             |
 | Input Pin Media Types                    | MEDIATYPE\_Video, MEDIASUBTYPE\_NULL                                                                           |

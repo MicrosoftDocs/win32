@@ -12,7 +12,7 @@ The Rate Change property set enables MPEG-2 source/parser filters to change the 
 
 
 
-|                   |                               |
+| Label | Value |
 |-------------------|-------------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_TSRateChange |
 

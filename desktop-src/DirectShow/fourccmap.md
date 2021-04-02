@@ -32,7 +32,7 @@ The [**GetFOURCC**](fourccmap-getfourcc.md) and [**SetFOURCC**](fourccmap-setfou
 
 
 
-|                                          |                                                          |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------|
 | [**FOURCCMap**](fourccmap-fourccmap.md) | Constructor method.                                      |
 | [**GetFOURCC**](fourccmap-getfourcc.md) | Retrieves the **FOURCC** from a **FOURCCMap** object.    |

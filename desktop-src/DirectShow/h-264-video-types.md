@@ -36,7 +36,7 @@ When start codes are present in the bitstream, the following media type is used:
 
 
 
-|             |                                                                                                   |
+| Label | Value |
 |-------------|---------------------------------------------------------------------------------------------------|
 | Major type  | **MEDIATYPE\_Video**                                                                              |
 | Subtypes    | **MEDIASUBTYPE\_H264**, **MEDIASUBTYPE\_h264**, **MEDIASUBTYPE\_X264**, or **MEDIASUBTYPE\_x264** |
@@ -60,7 +60,7 @@ When start codes are not present in the bitstream, the following media type is u
 
 
 
-|             |                        |
+| Label | Value |
 |-------------|------------------------|
 | Major type  | **MEDIATYPE\_Video**   |
 | Subtype     | **MEDIASUBTYPE\_AVC1** |
