@@ -1,12 +1,12 @@
 ---
 description: Enumerations (Controls and Property Pages)
 ms.assetid: 2ac80d0f-94c2-4d70-a48a-1b0060f91902
-title: Enumerations
+title: WUA Controls and Property Pages enumerations
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumerations
+# WUA Controls and Property Pages enumerations
 
 Windows Update Agent (WUA) uses the enumerations that are listed in the following table to represent the status of operations.
 
