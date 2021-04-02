@@ -1,7 +1,7 @@
 ---
 description: The GetTransAtTime2 method retrieves the transition nearest to the specified time, according to the specified boundary conditions. This method is equivalent to IAMTimelineTransable::GetTransAtTime, but takes a REFTIME parameter.
 ms.assetid: b51b53ec-4b56-4900-98b5-427d752354b0
-title: IAMTimelineTransable::GetTransAtTime2 method (Qedit.h) (2)
+title: IAMTimelineTransable::GetTransAtTime2 method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

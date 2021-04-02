@@ -1,7 +1,7 @@
 ---
 description: The SetMediaTimes2 method sets the media stop and start times. This method is equivalent to IAMTimelineSrc::SetMediaTimes, but takes REFTIME values.
 ms.assetid: 9eea7965-46c5-416c-97df-134d29130c8a
-title: IAMTimelineSrc::SetMediaTimes2 method (Qedit.h) (2)
+title: IAMTimelineSrc::SetMediaTimes2 method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

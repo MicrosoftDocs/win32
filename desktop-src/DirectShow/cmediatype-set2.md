@@ -1,7 +1,7 @@
 ---
 description: The Set method sets the media type from another media type.
 ms.assetid: b3cf65c2-48db-4ee0-9a74-c1652f017eed
-title: CMediaType.Set method (Mtype.h) (2)
+title: CMediaType.Set method (Mtype.h) - mtype [ref] parameter
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

@@ -1,7 +1,7 @@
 ---
 description: The GetMediaLength2 method retrieves the media length of this source object. This method is equivalent to IAMTimelineSrc::GetMediaLength, but takes REFTIME values.
 ms.assetid: 96685e00-4e16-4205-a6ad-8b83cf2f8c29
-title: IAMTimelineSrc::GetMediaLength2 method (Qedit.h) (2)
+title: IAMTimelineSrc::GetMediaLength2 method (Qedit.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

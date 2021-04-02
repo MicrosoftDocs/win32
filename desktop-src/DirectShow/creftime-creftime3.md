@@ -1,7 +1,7 @@
 ---
 description: Constructor method.
 ms.assetid: c1282676-6f2b-438a-850e-17bb6d7a2c68
-title: CRefTime.CRefTime constructor (Reftime.h) (3)
+title: CRefTime.CRefTime constructor (Reftime.h) - rt parameter
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
