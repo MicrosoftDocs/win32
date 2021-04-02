@@ -22,6 +22,7 @@ The following locale information constants are defined by NLS:
 [LOCALE\_FONTSIGNATURE](locale-fontsignature.md)  
 [LOCALE\_ICALENDARTYPE](locale-icalendartype.md)  
 [LOCALE\_ICENTURY](locale-icentury.md)  
+[LOCALE\_ICONSTRUCTEDLOCALE](locale-iconstructedlocale.md)  
 [LOCALE\_ICOUNTRY](locale-icountry.md)  
 [LOCALE\_ICURRDIGITS](locale-icurrdigits.md)  
 [LOCALE\_ICURRENCY](locale-icurrency.md)  
@@ -168,6 +169,7 @@ This section lists the locale information constants that the application can use
 -   LOCALE\_FONTSIGNATURE
 -   LOCALE\_ICENTURY
 -   LOCALE\_ICOUNTRY
+-   LOCALE\_ICONSTRUCTEDLOCALE
 -   LOCALE\_IDATE
 -   LOCALE\_IDAYLZERO
 -   LOCALE\_IDEFAULTANSICODEPAGE

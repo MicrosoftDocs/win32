@@ -1,5 +1,5 @@
 ---
-title: Structures
+title: Structures (Visual Styles Reference)
 description: Structures
 ms.assetid: 11addbb0-b771-4f4b-93fc-94afd320d55b
 ms.topic: article

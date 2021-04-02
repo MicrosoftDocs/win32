@@ -1,7 +1,7 @@
 ---
-description: The RegisterMediaTime method caches the time stamps from the current sample.
+description: The RegisterMediaTime method caches the time stamps from the current sample. This method uses the *StartTime* and *EndTime* parameters.
 ms.assetid: 65755906-cf54-46d6-8149-5ad982be55f3
-title: CRendererPosPassThru.RegisterMediaTime method (Ctlutil.h) (2)
+title: CRendererPosPassThru.RegisterMediaTime method (Ctlutil.h) - StartTime and EndTime parameters
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CRendererPosPassThru.RegisterMediaTime method (Ctlutil.h)
+# CRendererPosPassThru.RegisterMediaTime method (Ctlutil.h) - StartTime and EndTime parameters
 
 The [**RegisterMediaTime**](crendererpospassthru-registermediatime.md) method caches the time stamps from the current sample.
 
@@ -78,8 +78,8 @@ The filter should call this method for each sample that it receives. The method 
 
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
-| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
+| Header  | Ctlutil.h (include Streams.h)                                                                                   |
+| Library | Strmbase.lib (retail builds); Strmbasd.lib (debug builds) |
 
 
 

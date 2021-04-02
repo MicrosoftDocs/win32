@@ -1,6 +1,6 @@
 ---
-title: IEnumTfContextViews method
-description: IEnumTfContextViews method | IEnumTfContextViews method
+title: IEnumTfContextViews method (IEnumTfContextViews.Skip API)
+description: IEnumTfContextViews method | IEnumTfContextViews.Skip API
 ms.assetid: 6cdfa1da-db6c-4a6c-8218-11070d9b60c4
 keywords:
 - method Text Services Framework
@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# IEnumTfContextViews method
+# IEnumTfContextViews method (IEnumTfContextViews.Skip API)
 
 ## Syntax
 

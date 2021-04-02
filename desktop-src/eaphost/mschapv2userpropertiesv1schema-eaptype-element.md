@@ -1,6 +1,6 @@
 ---
-title: EapType Element
-description: Is a derived type of the EapType element from the baseeapuserpropertiesv1 schema. | EapType Element
+title: EapType element (mschapv2userpropertiesv1schema)
+description: This element is a derived type of the EapType element from the baseeapuserpropertiesv1 schema. For the mschapv2userpropertiesv1schema.
 ms.assetid: 7bd8fb5b-ceff-4d82-a979-b01229f8863a
 keywords:
 - EapType element EAPHost
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# EapType Element
+# EapType element (mschapv2userpropertiesv1schema)
 
 The **EapType** element is a derived type of the [**EapType**](baseeapuserpropertiesv1schema-eaptype-element.md) element from the [baseeapuserpropertiesv1](baseeapuserpropertiesv1schema-schema.md) schema.
 

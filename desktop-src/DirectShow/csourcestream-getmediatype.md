@@ -1,7 +1,7 @@
 ---
-description: The GetMediaType method retrieves a preferred media type.
+description: The GetMediaType method retrieves a preferred media type. This method uses the *iPosition* and *pMediaType* parameters.
 ms.assetid: c5c5f498-a9a3-4ce7-8cf5-941397aa649d
-title: CSourceStream.GetMediaType method (Source.h)
+title: CSourceStream.GetMediaType method (Source.h) - iPosition and pMediaType parameters
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CSourceStream.GetMediaType method (Source.h)
+# CSourceStream.GetMediaType method (Source.h) - iPosition and pMediaType parameters
 
 The **GetMediaType** method retrieves a preferred media type.
 
@@ -84,10 +84,8 @@ The single-parameter method returns E\_UNEXPECTED. The two-parameter method veri
 
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Source.h (include Streams.h)</dt> </dl>                                                                                    |
-| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
-
-
+| Header  | Source.h (include Streams.h)                                                                                    |
+| Library | Strmbase.lib (retail builds); Strmbasd.lib (debug builds) |
 
 ## See also
 

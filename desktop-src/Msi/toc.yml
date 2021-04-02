@@ -1517,7 +1517,7 @@
           href: windowsvolume.md
       - name: "Operating System Property Values"
         href: operating-system-property-values.md
-      - name: "Uninstall Registry Key"
+      - name: "Properties for the Uninstall Registry Key"
         href: uninstall-registry-key.md
     - name: "Summary Information Stream"
       href: summary-information-stream.md
