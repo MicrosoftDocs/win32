@@ -1,6 +1,6 @@
 ---
 description: "Learn more about: EsentInvalidColumnException constructor overload list"
-title: EsentInvalidColumnException constructor (2)
+title: EsentInvalidColumnException constructor overload list
 TOCTitle: 'EsentInvalidColumnException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentInvalidColumnException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentinvalidcolumnexception.esentinvalidcolumnexception(v=EXCHG.10)

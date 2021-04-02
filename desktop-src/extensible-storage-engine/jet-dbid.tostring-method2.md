@@ -1,6 +1,6 @@
 ---
 description: "Learn more about: JET_DBID.ToString method"
-title: JET_DBID.ToString method (2)
+title: JET_DBID.ToString method
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_DBID.ToString
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_dbid.tostring(v=EXCHG.10)
