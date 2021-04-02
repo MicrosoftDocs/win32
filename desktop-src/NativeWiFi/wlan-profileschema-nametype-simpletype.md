@@ -14,7 +14,7 @@ api_type:
 api_location: 
 ---
 
-# nameType Simple Type (LAN_policy)
+# nameType Simple Type (LAN_policy) for profileschema
 
 The nameType simple type can contain either the name or a description of a wireless LAN profile. This string value must be between 1 and 255 characters long.
 

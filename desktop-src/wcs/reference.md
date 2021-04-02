@@ -1,6 +1,6 @@
 ---
-title: Reference (WCS)
-description: Reference
+title: API elements reference for WCS
+description: Learn about the API elements provided by WCS, such as functions, obsolete WCS functions, and enumerations.
 ms.assetid: fa40bf5a-6d07-43e7-b882-24e2244462fc
 keywords:
 - Windows Color System (WCS),reference
@@ -17,7 +17,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Reference
+# API elements reference for WCS
 
 The API elements that WCS provides fall into the following sections:
 
