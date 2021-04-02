@@ -1,5 +1,5 @@
 ---
-title: Constants (Input Feedback)
+title: Input Feedback configuration constants
 description: This section provides the reference specifications for Input Feedback Configuration constants.
 ms.assetid: 1B0EA599-6618-4DF2-B8C7-91A534BD85C0
 topic_type:
@@ -14,7 +14,7 @@ ms.topic: article
 ms.date: 02/03/2020
 ---
 
-# Constants
+# Input Feedback configuration constants
 
 This section provides the reference specifications for [Input Feedback Configuration](input-feedback-configuration-portal.md) constants.
 

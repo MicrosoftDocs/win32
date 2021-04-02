@@ -1,5 +1,5 @@
 ---
-title: Constants (Touch Injection)
+title: Touch Injection constants
 description: This section provides the reference specifications for Touch Injection constants.
 ms.assetid: 52941DF1-88AF-452B-BF3E-838ADBDBC9B2
 topic_type:
@@ -17,7 +17,7 @@ ms.topic: article
 ms.date: 02/06/2020
 ---
 
-# Constants
+# Touch Injection constants
 
 This section provides the reference specifications for [Touch Injection](touch-injection-portal.md) constants.
 
@@ -32,9 +32,9 @@ This section provides the reference specifications for [Touch Injection](touch-i
 
 | Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
-| Header<br/>                   | <dl> <dt>Winuser.h |
+| Minimum supported client | Windows 8 \[desktop apps only\]                                           |
+| Minimum supported server | Windows Server 2012 \[desktop apps only\]                                 |
+| Header                   | Winuser.h |
 
 ## See also
 

@@ -192,9 +192,6 @@ case MSG_GETRIBUFFER: // Private message
             pri = NEXTRAWINPUTBLOCK(pri);
         }
 
-        // to clean the buffer
-        DefRawInputProc(paRawInput, nInput, sizeof(RAWINPUTHEADER));
-
         free(paRawInput);
     }
     free(pRawInput);

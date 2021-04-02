@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Getting Started with Windows Media Format SDK (deprecated)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | Getting Started
 ms.assetid: dfbae491-1041-4153-ba19-214465f5d641
 keywords:
