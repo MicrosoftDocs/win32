@@ -270,7 +270,7 @@ Example: **/USER:***JSMITH*
 <span id="_PASSWORD"></span><span id="_password"></span>/PASSWORD
 </dt> <dd>
 
-Password used by WMIC when accessing the /NPDE computers. The password is visible at the command line.
+Password used by WMIC when accessing the /NODE computers. The password is visible at the command line.
 
 Example: **/PASSWORD:***password*
 
