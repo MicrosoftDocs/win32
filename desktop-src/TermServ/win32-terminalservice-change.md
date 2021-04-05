@@ -1,5 +1,5 @@
 ---
-title: Change method of Win32_Service class (Mbnapi.h)
+title: Change method of the Win32_Service class (Mbnapi.h) (TerminalService)
 description: Modifies a Win32\_TerminalService.
 ms.assetid: 19E43A80-47C9-4C5A-8E73-723F206AA7C0
 ms.tgt_platform: multiple
