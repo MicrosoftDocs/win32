@@ -4,7 +4,7 @@ MS-HAID: WWAN\_profile\_v4.element\_1\_UserName
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
-title: UserName
+title: UserName (v4)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 1b43a275-cdbd-44e6-adc6-121aa935447e

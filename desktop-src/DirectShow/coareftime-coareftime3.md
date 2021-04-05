@@ -1,7 +1,7 @@
 ---
 description: "Learn about the COARefTime.COARefTime constructor (Ctlutil.h) method. This method uses the 't' parameter."
 ms.assetid: 1f3b5c63-edaa-42c1-8892-d6681c81ae4d
-title: COARefTime.COARefTime constructor (Ctlutil.h) - parameter
+title: COARefTime.COARefTime constructor (Ctlutil.h) - t parameter
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
