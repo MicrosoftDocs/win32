@@ -1588,6 +1588,8 @@
         href: endpointdlp-dlpnotifypostprint.md
       - name: "DlpNotifyPostSaveAsDocument"
         href: endpointdlp-dlpnotifypostsaveasdocument.md
+      - name: "DlpNotifyPostStartPrint"
+        href: endpointdlp-dlpnotifypoststartprint.md
       - name: "DlpNotifyPostStashClipboard"
         href: endpointdlp-dlpnotifypoststashclipboard.md
       - name: "DlpNotifyPreCopyToClipboard"

@@ -64,4 +64,4 @@ A BOOL indicating whether the open operation was successful.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10                                             |
+| Minimum supported client<br/> | Windows 10, version 1809 (10.0; Build 17763)           |

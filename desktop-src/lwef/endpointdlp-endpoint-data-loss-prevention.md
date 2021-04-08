@@ -15,7 +15,7 @@ Since the endpoint DLP dll isn't bundled with the Windows SDK, applications will
 
 | Constant | Value | Description   |
 |----------|-------|---------------|
-| ENDPOINTDLP_DLL_NAME | "EndpointDlp.dll" | THe name of the Endpoint DLP DLL that provides the API |
+| ENDPOINTDLP_DLL_NAME | "EndpointDlp.dll" | The name of the Endpoint DLP DLL that provides the API |
 | ENDPOINTDLP_WINDOWS_DEFENDER_REGKEY | "SOFTWARE\\Microsoft\\Windows Defender" | Windows Defender registry key under HKLM where some Endpoint DLP settings are stored |
 | ENDPOINTDLP_DLL_INSTALL_LOCATION_REGKEY | Value of ENDPOINTDLP_WINDOWS_DEFENDER_REGKEY |  The registry path under HKLM key from which the EndpointDlp.dll install location can be obtained |
 | ENDPOINTDLP_DLL_INSTALL_LOCATION_REGVALUE | "InstallLocation" | The registry value under ENDPOINTDLP_DLL_INSTALL_LOCATION_REGKEY in which the EndpointDlp.dll install location is stored |
@@ -32,30 +32,52 @@ To determine if endpoint DLP is enabled on the system, check the following regis
 
 ## Endpoint DLP APIs
 
-The following table lists the APIs provided by the endpoint DLP dll.
+The following tables list the APIs provided by the endpoint DLP dll.
+
+### Document operations
 
 | API | Description |
 |-----|-------------|
+| [DlpNotifyPreOpenDocument](endpointdlp-dlpnotifypreopendocument.md) | Provides the system with information about a document before the open operation is initiated. |
+| [DlpNotifyPostOpenDocument](endpointdlp-dlpnotifypostopendocument.md) | Provides the system with information about a document after the open operation is completed.  |
+| [DlpNotifyPreSaveAsDocument](endpointdlp-dlpnotifypresaveasdocument.md)                       | Provides the system with information about a document before a save as operation is initiated.                                  |
+| [DlpNotifyPostSaveAsDocument](endpointdlp-dlpnotifypostsaveasdocument.md)                       | Provides the system with information about a document after the save as operation is completed.                                  |
 | [DlpNotifyCloseDocument](endpointdlp-dlpnotifyclosedocument.md)                       | Provides the system with information about a document before the document close operation is initiated.                                  |
+| [DlpNotifyPreOpenDocumentFile](endpointdlp-dlpnotifypreopendocumentfile.md)                         | Provides the system with information about a document before the open operation is initiated.  |
+| [DlpNotifyPostOpenDocumentFile](endpointdlp-dlpnotifypostopendocumentfile.md)                       | Provides the system with information about a document after the open operation is completed.                                  |
 | [DlpNotifyCloseDocumentFile](endpointdlp-dlpnotifyclosedocumentfile.md)                       | Provides the system with information about a document before the document close operation is initiated.                                  |
+
+
+
+
+### Drag and drop operations
+
+| API | Description |
+|-----|-------------|
 | [DlpNotifyEnterDropTarget](endpointdlp-dlpnotifyenterdroptarget.md)                       | Provides the system with information about a document when a drop target is entered.                                  |
 | [DlpNotifyLeaveDropTarget](endpointdlp-dlpnotifyleavedroptarget.md)                       | Provides the system with information about a document when a drop target is exited.                                  |
-| [DlpNotifyPostCopyToClipboard](endpointdlp-dlpnotifypostcopytoclipboard.md)                         | Provides the system with information about a document after a copy to clipboard operation is completed.  |
-| [DlpNotifyPostDragDrop](endpointdlp-dlpnotifypostdragdrop.md)                         | Provides the system with information about a document after a drag drop operation is completed.  |
-| [DlpNotifyPostOpenDocument](endpointdlp-dlpnotifypostopendocument.md) | Provides the system with information about a document after the open operation is completed.  |
-| [DlpNotifyPostOpenDocumentFile](endpointdlp-dlpnotifypostopendocumentfile.md)                       | Provides the system with information about a document after the open operation is completed.                                  |
-| [DlpNotifyPostPasteFromClipboard](endpointdlp-dlpnotifypostpastefromclipboard.md)                       | Provides the system with information about a document after a paste from clipboard operation has completed.                                  |
-| [DlpNotifyPostPrint](endpointdlp-dlpnotifypostprint.md)                       | Provides the system with information about a document after a print operation has completed.                                  |
-| [DlpNotifyPostSaveAsDocument](endpointdlp-dlpnotifypostsaveasdocument.md)                       | Provides the system with information about a document after the save as operation is completed.                                  |
-| [DlpNotifyPostStashClipboard](endpointdlp-dlpnotifypoststashclipboard.md)                       | Provides the system with status information after a stash clipboard operation is completed.                                  |
-| [DlpNotifyPreCopyToClipboard](endpointdlp-dlpnotifyprecopytoclipboard.md)                         | Provides the system with information about a document before a copy to clipboard operation is initiated.  |
 | [DlpNotifyPreDragDrop](endpointdlp-dlpnotifypredragdrop.md)                         | Provides the system with information about a document before a drag drop operation is initiated.  |
-| [DlpNotifyPreOpenDocument](endpointdlp-dlpnotifypreopendocument.md) | Provides the system with information about a document before the open operation is initiated. |
-| [DlpNotifyPreOpenDocumentFile](endpointdlp-dlpnotifypreopendocumentfile.md)                         | Provides the system with information about a document before the open operation is initiated.  |
+| [DlpNotifyPostDragDrop](endpointdlp-dlpnotifypostdragdrop.md)                         | Provides the system with information about a document after a drag drop operation is completed.  |
+
+
+### Clipboard operations
+
+| API | Description |
+|-----|-------------|
+| [DlpNotifyPreCopyToClipboard](endpointdlp-dlpnotifyprecopytoclipboard.md)                         | Provides the system with information about a document before a copy to clipboard operation is initiated.  |
+| [DlpNotifyPostCopyToClipboard](endpointdlp-dlpnotifypostcopytoclipboard.md)                         | Provides the system with information about a document after a copy to clipboard operation is completed.  |
 | [DlpNotifyPrePasteFromClipboard](endpointdlp-dlpnotifyprepastefromclipboard.md)                         | Provides the system with information about a document before a paste from clipboard operation is initiated.  |
-| [DlpNotifyPrePrint](endpointdlp-dlpnotifypreprint.md)                         | Provides the system with information about a document before a print operation is initiated.  |
-| [DlpNotifyPreSaveAsDocument](endpointdlp-dlpnotifypresaveasdocument.md)                       | Provides the system with information about a document before a save as operation is initiated.                                  |
+| [DlpNotifyPostPasteFromClipboard](endpointdlp-dlpnotifypostpastefromclipboard.md)                       | Provides the system with information about a document after a paste from clipboard operation has completed.                                  |
+| [DlpNotifyPostStashClipboard](endpointdlp-dlpnotifypoststashclipboard.md)                       | Provides the system with status information after a stash clipboard operation is completed.                                  |
 | [DlpNotifyPreStashClipboard](endpointdlp-dlpnotifyprestashclipboard.md)                       | Notifies the system before a stash clipboard operation is initiated.                                  |
+
+### Print operations
+
+| API | Description |
+|-----|-------------|
+| [DlpNotifyPrePrint](endpointdlp-dlpnotifypreprint.md)                         | Provides the system with information about a document before a print operation is initiated.  |
+| [DlpNotifyPostStartPrint](endpointdlp-dlpnotifypoststartprint.md)                       | Provides the system with information about a document after an print operation has started.                                  |
+| [DlpNotifyPostPrint](endpointdlp-dlpnotifypostprint.md)                       | Provides the system with information about a document after a print operation has completed.                                  |
 
 ## Endpoint DLP example header
 

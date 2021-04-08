@@ -72,5 +72,5 @@ A LPCWSTR specifying the path to the real backing file of the document.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10                                             |
+| Minimum supported client<br/> | Windows 10, version 1809 (10.0; Build 17763)           |
 
