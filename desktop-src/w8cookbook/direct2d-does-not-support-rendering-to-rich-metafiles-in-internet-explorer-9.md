@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-**Clients** – Windows Vista \| Windows 7 \| Windows 8  
-**Servers** – Windows Server 2008 \| Windows Server 2008 R2 \| Windows Server 2012  
+**Clients** – Windows Vista, Windows 7, Windows 8  
+**Servers** – Windows Server 2008, Windows Server 2008 R2, Windows Server 2012  
 
 
 

@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## Platform
 
- **Clients** - Windows Vista \| Windows 7 \| Windows 7 SP1  
-**Servers** - Windows Server 2008 \| Windows Server 2008 R2 \| Windows Server 2008 R2 SP1  
+ **Clients** - Windows Vista, Windows 7, Windows 7 SP1  
+**Servers** - Windows Server 2008, Windows Server 2008 R2, Windows Server 2008 R2 SP1  
 
 ## Feature Impact
 

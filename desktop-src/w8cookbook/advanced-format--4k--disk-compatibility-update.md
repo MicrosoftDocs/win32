@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-**Clients**   Windows XP \| Windows Vista \| Windows 7 \| Windows 7 SP1 \| Windows 8  
-**Servers**   Windows Server 2003 \| Windows Server 2008 \| Windows Server 2008 R2 \| Windows Server 2008 R2 SP1 \| Windows Server 2012 \| Windows Server 2012 R2 \| Windows Server 2016  
+**Clients**   Windows XP, Windows Vista, Windows 7, Windows 7 SP1, Windows 8  
+**Servers**   Windows Server 2003, Windows Server 2008, Windows Server 2008 R2, Windows Server 2008 R2 SP1, Windows Server 2012, Windows Server 2012 R2, Windows Server 2016  
 
 
 ## Description
