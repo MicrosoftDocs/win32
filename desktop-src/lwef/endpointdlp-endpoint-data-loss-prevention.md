@@ -1,5 +1,5 @@
 ---
-Description: 
+description: The endpoint data loss prevention (DLP) APIs allow applications to notify the OS before and after certain operations, such as opening or saving a file.
 title: Endpoint data loss prevention
 ms.topic: article
 ms.date: 03/18/2021

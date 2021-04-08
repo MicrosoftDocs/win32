@@ -1,5 +1,5 @@
 ---
-Description: Provides the system with information about a document before an open operation is initiated.
+description: Provides the system with information about a document before an open operation is initiated.
 title: DlpNotifyPreOpenDocument function (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
@@ -50,7 +50,7 @@ Return void.
 
 
 
-|                                     |                                                                                         |
+| Requirement          |    Value                   |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1809 (10.0; Build 17763)           |
 | DLL<br/>                      | EndpointDlp.dll |

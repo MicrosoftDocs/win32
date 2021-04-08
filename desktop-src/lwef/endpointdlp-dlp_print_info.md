@@ -1,5 +1,5 @@
 ---
-Description: Specifies information about a document that is associated with an endpoint DLP print operation.
+description: Specifies information about a document that is associated with an endpoint DLP print operation.
 title: DLP_PRINT_INFO structure (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
@@ -79,7 +79,7 @@ A LPCWSTR specifying the path to the output file, when printing to a file.
 
 
 
-|                                     |                                                                                         |
+| Requirement          |    Value                   |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1809 (10.0; Build 17763)           |
 

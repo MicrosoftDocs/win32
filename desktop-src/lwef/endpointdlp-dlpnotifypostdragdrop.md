@@ -1,6 +1,6 @@
 ---
-Description: Provides the system with information about a document after a drag drop operation is completed.
-title: DlpNotifyPreDragDrop function (endpointdlp.h)
+description: Provides the system with information about a document after a drag drop operation is completed.
+title: DlpNotifyPostDragDrop function (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
 topic_type: 
@@ -14,7 +14,7 @@ api_location:
 - EndpointDlp.dll
 ---
 
-# DlpNotifyPreDragDrop function
+# DlpNotifyPostDragDrop function
 
 Provides the system with information about a document after a drag drop operation is completed.
 
@@ -22,7 +22,7 @@ Provides the system with information about a document after a drag drop operatio
 
 
 ```C++
-void WINAPI DlpNotifyPreDragDrop(_In_ const PDLP_DOCUMENT_INFO DocumentInfo);
+void WINAPI DlpNotifyPostDragDrop(_In_ const PDLP_DOCUMENT_INFO DocumentInfo, _In_ const PDLP_POSTOP_STATUS OpStatus);
 ```
 
 
@@ -59,7 +59,7 @@ Return void.
 
 
 
-|                                     |                                                                                         |
+| Requirement          |    Value                   |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1809 (10.0; Build 17763)           |
 | DLL<br/>                      | EndpointDlp.dll |

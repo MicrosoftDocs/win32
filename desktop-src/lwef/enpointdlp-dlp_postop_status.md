@@ -1,5 +1,5 @@
 ---
-Description: Specifies status information about an endpoint DLP operation.
+description: Specifies status information about an endpoint DLP operation.
 title: DLP_POSTOP_STATUS structure (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
@@ -62,6 +62,6 @@ A BOOL indicating whether the open operation was successful.
 
 
 
-|                                     |                                                                                         |
+| Requirement          |    Value                   |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1809 (10.0; Build 17763)           |
