@@ -46,6 +46,8 @@ The following tables list the APIs provided by the endpoint DLP dll.
 | [DlpNotifyCloseDocumentFile](endpointdlp-dlpnotifyclosedocumentfile.md)                       | Provides the system with information about a document before the document close operation is initiated.                                  |
 
 ### Save as operations
+| API | Description |
+|-----|-------------|
 | [DlpNotifyPreSaveAsDocument](endpointdlp-dlpnotifypresaveasdocument.md)                       | Provides the system with information about a document before a save as operation is initiated.                                  |
 | [DlpNotifyPostSaveAsDocument](endpointdlp-dlpnotifypostsaveasdocument.md)                       | Provides the system with information about a document after the save as operation is completed.                                  |
 
