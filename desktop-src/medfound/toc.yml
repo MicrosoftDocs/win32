@@ -3013,6 +3013,8 @@
           href: mf-readwrite-mmcss-priority.md
         - name: "MF_READWRITE_MMCSS_PRIORITY_AUDIO"
           href: mf-readwrite-mmcss-priority-audio.md
+        - name: "MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES"
+          href: mf-sa-d3d11-allocate-displayable-resources.md
         - name: "MF_SA_BUFFERS_PER_SAMPLE"
           href: mf-sa-buffers-per-sample.md
         - name: "MF_SA_D3D_AWARE"
