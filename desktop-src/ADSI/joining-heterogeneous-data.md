@@ -64,7 +64,7 @@ With, SQL Server 7.0, ADSI, and the OLE DB Provider, it is possible to join data
 
     In the previous example, the LDAP query has four parts:
 
-    -   "<LDAP://DC=Fabrikam,DC=COM>" is the distinguished name of the directory server to search.
+    -   "\<LDAP://DC=Fabrikam,DC=COM>" is the distinguished name of the directory server to search.
     -   "(&(objectCategory=Person)(objectClass=user))" is the LDAP search filter (see [Search Filter Syntax](search-filter-syntax.md)).
     -   "name, adspath" are the names (using the LDAP display name format) of the attributes to retrieve.
     -   "subtree" indicates the [scope](scope-of-query.md) of the search.
