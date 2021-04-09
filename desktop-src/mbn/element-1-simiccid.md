@@ -4,7 +4,7 @@ MS-HAID: WWAN\_profile\_v4.element\_1\_SimIccID
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
-title: SimIccID
+title: SimIccID (v4)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

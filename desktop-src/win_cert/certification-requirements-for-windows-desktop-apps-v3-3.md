@@ -1,5 +1,5 @@
 ---
-title: Desktop certification requirements
+title: Desktop certification requirements (v3)
 description: Document version 3.3Document date March 18, 2014This document contains the technical requirements and eligibility qualifications that a desktop app must meet in order to participate in the Windows 8.1 Desktop App Certification Program.
 ms.assetid: BD4765EA-C8A1-4A9F-9C50-479A3612DB85
 ms.topic: article

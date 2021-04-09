@@ -4,7 +4,7 @@ MS-HAID: WWAN\_profile\_v4.element\_1\_Compression
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
-title: Compression
+title: Compression (v4)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 8dc3acd6-5997-47a5-bd30-899569b9aad9
