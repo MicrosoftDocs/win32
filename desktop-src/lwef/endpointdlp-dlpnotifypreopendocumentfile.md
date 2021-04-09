@@ -1,5 +1,5 @@
 ---
-description: Provides the system with information about a document before an open operation is initiated.
+description: Provides the system with information about a document file before an open operation is initiated.
 title: DlpNotifyPreOpenDocumentFile function (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
@@ -16,7 +16,7 @@ api_location:
 
 # DlpNotifyPreOpenDocumentFile function
 
-Provides the system with information about a document before an open operation is initiated.
+Provides the system with information about a document file before an open operation is initiated.
 
 ## Syntax
 

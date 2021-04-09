@@ -1,5 +1,5 @@
 ---
-description: Provides the system with information about a document before the document close operation is initiated.
+description: Provides the system with information about a document before the document file close operation is initiated.
 title: DlpNotifyCloseDocumentFile function (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
@@ -16,7 +16,7 @@ api_location:
 
 # DlpNotifyCloseDocumentFile function
 
-Provides the system with information about a document before the document close operation is initiated.
+Provides the system with information about a document before the document file close operation is initiated.
 
 ## Syntax
 

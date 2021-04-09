@@ -1,5 +1,5 @@
 ---
-description: Provides the system with information about a document after the open operation is completed.
+description: Provides the system with information about a document file after the open operation is completed.
 title: DlpNotifyPostOpenDocumentFile function (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
@@ -16,7 +16,7 @@ api_location:
 
 # DlpNotifyPostOpenDocumentFile function
 
-Provides the system with information about a document after an open operation is completed.
+Provides the system with information about a document file after an open operation is completed.
 
 ## Syntax
 
