@@ -34,6 +34,14 @@ To determine if endpoint DLP is enabled on the system, check the following regis
 
 The following tables list the APIs provided by the endpoint DLP dll.
 
+### Initialization and versioning
+
+| API | Description |
+|-----|-------------|
+| [DlpInitializeEnforcementMode](endpointdlp-dlpinitializeenforcementmode.md)                       | Notifies the system of the desired enforcement modes for a set of endpoint Data Loss Prevention (DLP) operations.                                  |
+| [DlpGetEnforcementApiVersion](endpointdlp-dlpgetenforcementapiversion.md)                       | Retrieves the version of the endpoint Data Loss Prevention (DLP) API on the current device.                                  |
+
+
 ### Document operations
 
 | API | Description |
@@ -133,6 +141,77 @@ Because the endpoint DLP header is not included in the Windows SDK, you must cre
 
 #define DLP_DOCUMENT_INFO_V_LATEST DLP_DOCUMENT_INFO_V_1
 
+
+//
+//  Enlightened app enforcement capablities.
+//
+
+typedef enum _DlpAppEnforceLevel {
+    DlpAppEnforceLevelNone = 0, // No enforcement, DLP enforces operation.
+    DlpAppEnforceLevelNotify,   // App send notifications on operation, DLP enforces operation.
+    DlpAppEnforceLevelPrevent,  // Currently not supported (App allows or blocks operation, DLP enforces warning, eventing and UI). 
+    DlpAppEnforceLevelFull,     // Currently not supported (App handles all enforcement (blocks operation, enforces warning, UI), DLP will only handle auditing.)
+    DlpAppEnforceLevelCount,
+}DlpAppEnforceLevel;
+
+typedef enum  
+{
+    DlpActionTypeCopyToRemovableMedia = 0,
+    DlpActionTypeCopyToNetworkShare = 1,
+    DlpActionTypeCopyToClipboard = 2,
+    DlpActionTypePrint = 3,
+    DlpActionTypeScreenClip = 4,
+    DlpActionTypeAccessByUnallowedApp = 5,
+    DlpActionTypeCloudAppEgress = 6,
+    DlpActionTypeAccessByBluetoothApp = 7,
+    DlpActionTypeAccessByRDPApp = 8,
+    DlpActionTypeCount = 9
+} DlpActionType;
+    
+//
+//  The stucture describes the enforcement level for each operation.
+//
+    
+typedef struct _DLP_APP_OP_ENLIGHTENED_LEVEL{
+    DlpActionType Operation;
+    DlpAppEnforceLevel AppEnforcementLevel;
+}DLP_APP_OP_ENLIGHTENED_LEVEL, *PDLP_APP_OP_ENLIGHTENED_LEVEL;
+
+
+/*
+Function description:
+     The application calls this functio to declares the enforcement level for each operation.
+
+Parameters:
+    _In_ DWORD Count - Number of operations. 
+    _In_reads_opt_(Count) PDLP_APP_OP_ENLIGHTENED_LEVEL* OperationEnforcement - Array indicating operations
+    supported by the application and enforcement level:
+        DlpAppEnforceLevelNone - No enforcement, DLP enforces operation.
+        DlpAppEnforceLevelNotify -  App send notifications on operation, DLP enforces operation.
+
+Return:
+    S_OK - Function completed successfully.
+    E_INVALIDARG - Invalid parameters passed to function.
+    E_OUTOFMEMORY - Memory allocation failed.
+    E_XXX - Varius error codes.
+*/       
+HRESULT WINAPI DlpInitializeEnforcementMode(_In_ DWORD Count, _In_reads_(Count) PDLP_APP_OP_ENLIGHTENED_LEVEL OperationEnforcement);
+
+
+/*
+Function description:
+    Returns the version of the enforcement API.
+    MajorVersion indicates a new interfaces/API.
+    MinorVersion indicates changes to existing interfaces/API-s.
+   
+Parameters:
+    None.
+
+Return:
+    S_OK - Function completed successfully
+    E_XXX - Varius error codes.
+*/
+HRESULT WINAPI DlpGetEnforcementApiVersion(_Out_ DWORD* MajorVersion, _Out_ DWORD* MinorVersion);
 
 
 typedef struct _DLP_DOCUMENT_INFO {

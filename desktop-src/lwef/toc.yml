@@ -1563,6 +1563,13 @@
   - name: "Endpoint data loss prevention"
     href: endpointdlp-endpoint-data-loss-prevention.md
     items: 
+    - name: "Endpoint data loss prevention enumerations"
+      href: endpointdlp-enumerations.md
+      items: 
+      - name: "DlpActionType"
+        href: endpointdlp-dlpactiontype.md
+      - name: "DlpAppEnforceLevel"
+        href: endpointdlp-dlpappenforcelevel.md
     - name: "Endpoint data loss prevention functions"
       href: endpointdlp-functions.md
       items: 
@@ -1572,6 +1579,10 @@
         href: endpointdlp-dlpnotifyclosedocumentfile.md
       - name: "DlpNotifyEnterDropTarget"
         href: endpointdlp-dlpnotifyenterdroptarget.md
+      - name: "DlpInitializeEnforcementMode"
+        href: endpointdlp-dlpgetenforcementapiversion.md
+      - name: "DlpInitializeEnforcementMode"
+        href: endpointdlp-dlpinitializeenforcementmode.md
       - name: "DlpNotifyLeaveDropTarget"
         href: endpointdlp-dlpnotifyleavedroptarget.md
       - name: "DlpNotifyPostCopyToClipboard"
@@ -1611,6 +1622,8 @@
     - name: "Endpoint data loss prevention structures"
       href: endpointdlp-structures.md
       items: 
+      - name: "DLP_APP_OP_ENLIGHTENED_LEVEL"
+        href: endpointdlp-dlp_app_op_enlightened_level.md
       - name: "DLP_DOCUMENT_INFO"
         href: endpointdlp-dlp_document_info.md
       - name: "DLP_POSTOP_STATUS"
