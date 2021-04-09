@@ -17,7 +17,7 @@ ROBOTS: INDEX,FOLLOW
 ---
 
 
-# AcceptServerName (PeapExtensionsType) Element
+# AcceptServerName (PeapExtensionsType) Element (EAPHost)
 
 The **AcceptServerName (PeapExtensionsType)** element indicates whether the server name is validated against the name string specified in the [**ServerNames (ServerValidationParameters)**](mspeapconnectionpropertiesv1schema-servernames-servervalidationparameters-element.md) element.
 

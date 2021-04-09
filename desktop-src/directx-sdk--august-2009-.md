@@ -96,7 +96,7 @@ Legacy XInput 9.1.0 is also available as part of Windows 7 or later.
 
  
 
-The legacy DirectX SDK is available for download from [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkId=226640) if required, but use for new projects is not recommended.
+The legacy DirectX SDK is available for download from [Microsoft Download Center](https://go.microsoft.com/fwlink/?LinkId=226640) if required, but use for new projects is not recommended.
 
 > [!Note]  
 > The DirectX SDK fails to install if you have a certain version of the Visual C++ 2010 Redistributable Package already installed. For more info about and a solution to fix this issue, see ["S1023" error when you install the DirectX SDK (June 2010)](https://support.microsoft.com/kb/2728613).

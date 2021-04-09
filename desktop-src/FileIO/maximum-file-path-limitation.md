@@ -46,8 +46,8 @@ Windows Registry Editor Version 5.00
 
 ```
 
-    > [!NOTE]  
-    > This registry key can also be controlled via Group Policy at `Computer Configuration > Administrative Templates > System > Filesystem > Enable Win32 long paths`.
+> [!NOTE]  
+> This registry key can also be controlled via Group Policy at `Computer Configuration > Administrative Templates > System > Filesystem > Enable Win32 long paths`.
 
 * The [application manifest](../sbscs/application-manifests.md) must also include the `longPathAware` element.
 
