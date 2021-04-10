@@ -211,51 +211,56 @@ Effect file render states have names similar to the fixed function pipeline stat
 <td>Same values as <a href="/windows/desktop/direct3d9/d3dblend"><strong>D3DBLEND</strong></a> without the D3DBLEND_ prefix.</td>
 </tr>
 <tr class="even">
+<td>SRGBWriteEnable</td>
+<td>bool</td>
+<td>True or False. Same values as D3DRS_SRGBWRITEENABLE.</td>
+</tr>
+<tr class="odd">
 <td>StencilEnable</td>
 <td>bool</td>
 <td>True or False. Same values as D3DRS_STENCILENABLE.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>StencilFail</td>
 <td>dword</td>
 <td>Same values as <a href="d3dstencilcaps.md">D3DSTENCILCAPS</a> without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILFAIL.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>StencilFunc</td>
 <td>dword</td>
 <td>Same values as <a href="/windows/desktop/direct3d9/d3dcmpfunc"><strong>D3DCMPFUNC</strong></a> without the D3DCMP_ prefix. See D3DRS_STENCILFUNC.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>StencilMask</td>
 <td>dword</td>
 <td>Same values as D3DRS_STENCILMASK.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>StencilPass</td>
 <td>dword</td>
 <td>Same values as <a href="d3dstencilcaps.md">D3DSTENCILCAPS</a> without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILPASS.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>StencilRef</td>
 <td>int</td>
 <td>Same values as D3DRS_STENCILREF.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>StencilWriteMask</td>
 <td>dword</td>
 <td>Same values as D3DRS_STENCILWRITEMASK.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>StencilZFail</td>
 <td>dword</td>
 <td>Same values as <a href="d3dstencilcaps.md">D3DSTENCILCAPS</a> without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILZFAIL.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>TextureFactor</td>
 <td>dword</td>
 <td>Same values as <a href="d3dcolor.md"><strong>D3DCOLOR</strong></a>. Same values as D3DRS_TEXTUREFACTOR.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Wrap0 - Wrap15</td>
 <td>dword</td>
 <td>Values are the same as the values used by D3DRS_WRAP0. Valid values are:
@@ -269,17 +274,17 @@ Effect file render states have names similar to the fixed function pipeline stat
 <li>W (which corresponds to D3DWRAP_W)</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>ZEnable</td>
 <td>dword</td>
 <td>Same values as <a href="/windows/desktop/direct3d9/d3dzbuffertype"><strong>D3DZBUFFERTYPE</strong></a> without the D3DZB_ prefix.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>ZFunc</td>
 <td>dword</td>
 <td>Same values as <a href="/windows/desktop/direct3d9/d3dcmpfunc"><strong>D3DCMPFUNC</strong></a> without the D3DCMP_ prefix. See D3DRS_ZFUNC.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>ZWriteEnable</td>
 <td>bool</td>
 <td>True or False. See D3DRS_ZWRITEENABLE.</td>
@@ -399,7 +404,7 @@ Sampler stage states are used to sample textures. Sampler state determines filte
 | MinFilter\[16\]     | dword                        | Same values as D3DSAMP\_MINFILTER without the D3DSAMP\_ prefix.                                                                   |
 | MipFilter\[16\]     | dword                        | Same values as D3DSAMP\_MIPFILTER without the D3DSAMP\_ prefix.                                                                   |
 | MipMapLodBias\[16\] | float                        | Same values as D3DSAMP\_MIPMAPLODBIAS without the D3DSAMP\_ prefix.                                                               |
-| SRGBTexture         | float                        | Same value as D3DSAMP\_SRGBTEXTURE without the D3DSAMP\_ prefix.                                                                  |
+| SRGBTexture         | bool                         | Same value as D3DSAMP\_SRGBTEXTURE without the D3DSAMP\_ prefix.                                                                   |
 
 
 
