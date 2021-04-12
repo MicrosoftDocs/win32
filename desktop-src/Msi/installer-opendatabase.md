@@ -67,7 +67,7 @@ A parameter from the following list or a string that contains the path name of t
 
 ## Return value
 
-This method does not return a value.
+[**Database**](database-object.md)
 
 ## Remarks
 
