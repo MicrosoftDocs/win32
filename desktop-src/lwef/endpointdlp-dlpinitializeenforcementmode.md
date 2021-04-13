@@ -43,7 +43,7 @@ A **DWORD** specifying the number of operations included in the *OperationEnforc
 *OperationEnforcement* \[in\]
 </dt> <dd>
 
-An array of [PDLP_APP_OP_ENLIGHTENED_LEVEL](endpointdlp-dlp_app_op_enlightened_level.md) structures that specify the enforcement level for an endpoint DLP operation.
+An array of [DLP_APP_OP_ENLIGHTENED_LEVEL](endpointdlp-dlp_app_op_enlightened_level.md) structures that specify the enforcement level for an endpoint DLP operation.
 
 </dd> </dl>
 

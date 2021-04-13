@@ -23,10 +23,10 @@ Specifies the enforcement level of an endpoint Data Loss Prevention (DLP) operat
 
 ```C++
 typedef enum _DlpAppEnforceLevel {
-    DlpAppEnforceLevelNone = 0, // No enforcement, DLP enforces operation.
-    DlpAppEnforceLevelNotify,   // App send notifications on operation, DLP enforces operation.
-    DlpAppEnforceLevelPrevent,  // Currently not supported (App allows or blocks operation, DLP enforces warning, eventing and UI). 
-    DlpAppEnforceLevelFull,     // Currently not supported (App handles all enforcement (blocks operation, enforces warning, UI), DLP will only handle auditing.)
+    DlpAppEnforceLevelNone = 0, 
+    DlpAppEnforceLevelNotify,   
+    DlpAppEnforceLevelPrevent,   
+    DlpAppEnforceLevelFull, 
     DlpAppEnforceLevelCount,
 }DlpAppEnforceLevel;
 ```
