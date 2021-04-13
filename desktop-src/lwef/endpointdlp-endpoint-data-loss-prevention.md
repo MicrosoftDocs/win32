@@ -80,6 +80,7 @@ The following tables list the APIs provided by the endpoint DLP dll.
 | [DlpNotifyPostPasteFromClipboard](endpointdlp-dlpnotifypostpastefromclipboard.md)                       | Provides the system with information about a document after a paste from clipboard operation has completed.                                  |
 | [DlpNotifyPostStashClipboard](endpointdlp-dlpnotifypoststashclipboard.md)                       | Provides the system with status information after a stash clipboard operation is completed.                                  |
 | [DlpNotifyPreStashClipboard](endpointdlp-dlpnotifyprestashclipboard.md)                       | Notifies the system before a stash clipboard operation is initiated.                                  |
+| [DlpMustPasteFromSystemClipboard](endpointdlp-dlpmustpastefromsystemclipboard.md)                       | Determines whether the app must pull the data from the system clipboard rather than taking it from its internal cache.                                  |
 
 ### Print operations
 

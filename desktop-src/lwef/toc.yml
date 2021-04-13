@@ -1583,6 +1583,8 @@
         href: endpointdlp-dlpgetenforcementapiversion.md
       - name: "DlpInitializeEnforcementMode"
         href: endpointdlp-dlpinitializeenforcementmode.md
+      - name: "DlpMustPasteFromSystemClipboard"
+        href: endpointdlp-dlpmustpastefromsystemclipboard.md
       - name: "DlpNotifyLeaveDropTarget"
         href: endpointdlp-dlpnotifyleavedroptarget.md
       - name: "DlpNotifyPostCopyToClipboard"
