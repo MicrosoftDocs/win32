@@ -30,7 +30,7 @@ There are no child elements.
 
 | Element                                     | Description                                                                                                                             |
 |---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| [**importHint**](importhint.md)<br/> | Specifies the download location for a <wsdl:import> directive that does not explicitly specify a location.<br/> <br/> |
+| [**importHint**](importhint.md)<br/> | Specifies the download location for a \<wsdl:import> directive that does not explicitly specify a location.<br/> <br/> |
 
 
 

@@ -28,8 +28,8 @@ There are no attributes.
 
 | Element                                           | Description                                                                                                                                       |
 |---------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**excludeImport**](excludeimport.md)<br/> | Prevents the generation of import statements for specified targets named in a <wsdl:import> element in a WSDL file. <br/> <br/> |
-| [**importHint**](importhint.md)<br/>       | Specifies the download location for a <wsdl:import> directive that does not explicitly specify a location.<br/> <br/>           |
+| [**excludeImport**](excludeimport.md)<br/> | Prevents the generation of import statements for specified targets named in a \<wsdl:import> element in a WSDL file. <br/> <br/> |
+| [**importHint**](importhint.md)<br/>       | Specifies the download location for a \<wsdl:import> directive that does not explicitly specify a location.<br/> <br/>           |
 | [**path**](path.md)<br/>                   | File and path of the WSDL input file.<br/> <br/>                                                                                      |
 
 
