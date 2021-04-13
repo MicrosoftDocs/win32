@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Query Info Flags (Winhttp.h)
 
-These attributes and modifiers are used by [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders).
+These attributes and modifiers are used by [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders).
 
-The attribute flags are used by [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders) to indicate what information to retrieve. Most of the attribute flags map directly to a specific HTTP header. There are also some special flags, such as WINHTTP\_QUERY\_RAW\_HEADERS, that are not related to a specific header.
+The attribute flags are used by [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders) to indicate what information to retrieve. Most of the attribute flags map directly to a specific HTTP header. There are also some special flags, such as WINHTTP\_QUERY\_RAW\_HEADERS, that are not related to a specific header.
 
 <dl> <dt>
 
@@ -79,7 +79,7 @@ Retrieves the Age response-header field, which contains the sender's estimate of
 
 
 
-Receives the [*HTTP verbs*](glossary.md) supported by the server.
+Receives the [**HTTP verbs**](glossary.md) supported by the server.
 
 
 </dt> </dl> </dd> <dt>
@@ -269,7 +269,7 @@ Not supported.
 
 
 
-Causes [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders) to search for the header name specified in the *pwszName* parameter and store the header information in *lpBuffer*. An application can use **WINHTTP\_OPTION\_RECEIVE\_RESPONSE\_TIMEOUT** to limit the maximum time this query waits for all headers to be received.
+Causes [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders) to search for the header name specified in the *pwszName* parameter and store the header information in *lpBuffer*. An application can use **WINHTTP\_OPTION\_RECEIVE\_RESPONSE\_TIMEOUT** to limit the maximum time this query waits for all headers to be received.
 
 
 </dt> </dl> </dd> <dt>
@@ -764,7 +764,7 @@ Retrieves the authentication scheme and realm returned by the server.
 
 </dt> </dl> </dd> </dl>
 
-The modifier flags are used in conjunction with an attribute flag to modify the request. Modifier flags either modify the format of the data returned or indicate where the [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders) function should search for the information.
+The modifier flags are used in conjunction with an attribute flag to modify the request. Modifier flags either modify the format of the data returned or indicate where the [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders) function should search for the information.
 
 <dl> <dt>
 
@@ -793,29 +793,19 @@ Queries request headers only.
 
 
 
-Returns the header value as a [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure, which does not require the application to parse the data. Use for headers whose value is a date/time string, such as "Last-Modified-Time".
+Returns the header value as a [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) structure, which does not require the application to parse the data. Use for headers whose value is a date/time string, such as "Last-Modified-Time".
 
 
 </dt> </dl> </dd> </dl>
 
 ## Requirements
 
-
-
 | Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>      |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>   |
-| Header<br/>                   | <dl> <dt>Winhttp.h</dt> </dl> |
-
-
+| Minimum supported client | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]      |
+| Minimum supported server | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]   |
+| Header                   | <dl> <dt>Winhttp.h</dt> </dl> |
 
 ## See also
 
-<dl> <dt>
-
-[WinHTTP Versions](winhttp-versions.md)
-</dt> </dl>
-
- 
-
+* [WinHTTP Versions](winhttp-versions.md)
