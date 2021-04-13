@@ -79,7 +79,7 @@ Retrieves the Age response-header field, which contains the sender's estimate of
 
 
 
-Receives the [*HTTP verb*](glossary.md)s supported by the server.
+Receives the [*HTTP verbs*](glossary.md) supported by the server.
 
 
 </dt> </dl> </dd> <dt>
