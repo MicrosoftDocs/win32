@@ -66,8 +66,8 @@ A parameter from the following list or a string that contains the path name of t
 </dd> </dl>
 
 ## Return value
-
-[**Database**](database-object.md)
+ 
+A [**Database**](database-object.md) object that represents the existing or new  installer database that was opened.
 
 ## Remarks
 
