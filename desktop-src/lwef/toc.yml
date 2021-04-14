@@ -1560,3 +1560,75 @@
           href: mpthreat-stats-data.md
         - name: "MPVERSION_INFO"
           href: mpversion-info.md
+  - name: "Endpoint data loss prevention"
+    href: endpointdlp-endpoint-data-loss-prevention.md
+    items: 
+    - name: "Endpoint data loss prevention enumerations"
+      href: endpointdlp-enumerations.md
+      items: 
+      - name: "DlpActionType"
+        href: endpointdlp-dlpactiontype.md
+      - name: "DlpAppEnforceLevel"
+        href: endpointdlp-dlpappenforcelevel.md
+    - name: "Endpoint data loss prevention functions"
+      href: endpointdlp-functions.md
+      items: 
+      - name: "DlpNotifyCloseDocument"
+        href: endpointdlp-dlpnotifyclosedocument.md
+      - name: "DlpNotifyCloseDocumentFile"
+        href: endpointdlp-dlpnotifyclosedocumentfile.md
+      - name: "DlpNotifyEnterDropTarget"
+        href: endpointdlp-dlpnotifyenterdroptarget.md
+      - name: "DlpInitializeEnforcementMode"
+        href: endpointdlp-dlpgetenforcementapiversion.md
+      - name: "DlpInitializeEnforcementMode"
+        href: endpointdlp-dlpinitializeenforcementmode.md
+      - name: "DlpMustPasteFromSystemClipboard"
+        href: endpointdlp-dlpmustpastefromsystemclipboard.md
+      - name: "DlpNotifyLeaveDropTarget"
+        href: endpointdlp-dlpnotifyleavedroptarget.md
+      - name: "DlpNotifyPostCopyToClipboard"
+        href: endpointdlp-dlpnotifypostcopytoclipboard.md
+      - name: "DlpNotifyPostDragDrop"
+        href: endpointdlp-dlpnotifypostdragdrop.md
+      - name: "DlpNotifyPostOpenDocument"
+        href: endpointdlp-dlpnotifypostopendocument.md
+      - name: "DlpNotifyPostOpenDocumentFile"
+        href: endpointdlp-dlpnotifypostopendocumentfile.md
+      - name: "DlpNotifyPostPasteFromClipboard"
+        href: endpointdlp-dlpnotifypostpastefromclipboard.md
+      - name: "DlpNotifyPostPrint"
+        href: endpointdlp-dlpnotifypostprint.md
+      - name: "DlpNotifyPostSaveAsDocument"
+        href: endpointdlp-dlpnotifypostsaveasdocument.md
+      - name: "DlpNotifyPostStartPrint"
+        href: endpointdlp-dlpnotifypoststartprint.md
+      - name: "DlpNotifyPostStashClipboard"
+        href: endpointdlp-dlpnotifypoststashclipboard.md
+      - name: "DlpNotifyPreCopyToClipboard"
+        href: endpointdlp-dlpnotifyprecopytoclipboard.md
+      - name: "DlpNotifyPreDragDrop"
+        href: endpointdlp-dlpnotifypredragdrop.md
+      - name: "DlpNotifyPreOpenDocument"
+        href: endpointdlp-dlpnotifypreopendocument.md
+      - name: "DlpNotifyPreOpenDocumentFile"
+        href: endpointdlp-dlpnotifypreopendocumentfile.md
+      - name: "DlpNotifyPrePasteFromClipboard"
+        href: endpointdlp-dlpnotifyprepastefromclipboard.md
+      - name: "DlpNotifyPrePrint"
+        href: endpointdlp-dlpnotifypreprint.md
+      - name: "DlpNotifyPreSaveAsDocument"
+        href: endpointdlp-dlpnotifypresaveasdocument.md
+      - name: "DlpNotifyPreStashClipboard"
+        href: endpointdlp-dlpnotifyprestashclipboard.md
+    - name: "Endpoint data loss prevention structures"
+      href: endpointdlp-structures.md
+      items: 
+      - name: "DLP_APP_OP_ENLIGHTENED_LEVEL"
+        href: endpointdlp-dlp_app_op_enlightened_level.md
+      - name: "DLP_DOCUMENT_INFO"
+        href: endpointdlp-dlp_document_info.md
+      - name: "DLP_POSTOP_STATUS"
+        href: enpointdlp-dlp_postop_status.md
+      - name: "DLP_PRINT_INFO"
+        href: endpointdlp-dlp_print_info.md
