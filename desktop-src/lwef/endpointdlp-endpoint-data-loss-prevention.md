@@ -329,6 +329,18 @@ void WINAPI DlpNotifyEnterDropTarget(_In_ const PDLP_DOCUMENT_INFO DocumentInfo)
 void WINAPI DlpNotifyLeaveDropTarget(_In_ const PDLP_DOCUMENT_INFO DocumentInfo, _In_ const PDLP_POSTOP_STATUS OpStatus); 
 
 
+/*
+Function description:
+    Determines whether the app must pull the data from the system clipboard rather than taking it from its internal cache.
+
+Parameters:
+    None
+
+Return:
+    TRUE if calling into the OS clipboard is mandatory, FALSE otherwise
+*/
+BOOL WINAPI DlpMustPasteFromSystemClipboard();
+
 ```
 
 
