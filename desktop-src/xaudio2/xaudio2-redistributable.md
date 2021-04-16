@@ -28,6 +28,8 @@ The library XAPOBASEREDIST.LIB is only needed if you intend to impement a custom
 
 You can also use other tools to extract the contents of the NuGet package, or even rename the file extension to .zip and extract the files with any ZIP extractor tool.
 
+> There is also an ``xaudio2redist`` port available for the [VC++ Package Manager](https://github.com/microsoft/vcpkg).
+
 ## Compiling your app
 
 ### Choosing which headers to include
