@@ -1937,6 +1937,8 @@
           href: ./directml/ns-directml-dml_argmin_operator_desc.md
         - name: "DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC"
           href: ./directml/ns-directml-dml_average_pooling_grad_operator_desc.md
+        - name: "DML_BATCH_NORMALIZATION_GRAD_OPERATOR_DESC"
+          href: ./directml/ns-directml-dml_batch_normalization_grad_operator_desc.md
         - name: "DML_BATCH_NORMALIZATION_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_batch_normalization_operator_desc
         - name: "DML_BINDING_DESC"
@@ -1957,6 +1959,8 @@
           href: ./directml/ns-directml-dml_convolution_integer_operator_desc.md
         - name: "DML_CONVOLUTION_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_convolution_operator_desc
+        - name: "DML_CUMULATIVE_PRODUCT_OPERATOR_DESC"
+          href: ./directml/ns-directml-dml_cumulative_product_operator_desc.md
         - name: "DML_CUMULATIVE_SUMMATION_OPERATOR_DESC"
           href: ./directml/ns-directml-dml_cumulative_summation_operator_desc.md
         - name: "DML_DEPTH_TO_SPACE_OPERATOR_DESC"
@@ -1983,6 +1987,8 @@
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_atan_operator_desc
         - name: "DML_ELEMENT_WISE_ATANH_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_atanh_operator_desc
+        - name: "DML_ELEMENT_WISE_ATAN_YX_OPERATOR_DESC"
+          href: ./directml/ns-directml-dml_element_wise_atan_yx_operator_desc.md
         - name: "DML_ELEMENT_WISE_BIT_AND_OPERATOR_DESC"
           href: ./directml/ns-directml-dml_element_wise_bit_and_operator_desc.md
         - name: "DML_ELEMENT_WISE_BIT_COUNT_OPERATOR_DESC"
@@ -1999,6 +2005,8 @@
           href: ./directml/ns-directml-dml_element_wise_bit_xor_operator_desc.md
         - name: "DML_ELEMENT_WISE_CEIL_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_ceil_operator_desc
+        - name: "DML_ELEMENT_WISE_CLIP_GRAD_OPERATOR_DESC"
+          href: ./directml/ns-directml-dml_element_wise_clip_grad_operator_desc.md
         - name: "DML_ELEMENT_WISE_CLIP_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_clip_operator_desc
         - name: "DML_ELEMENT_WISE_CONSTANT_POW_OPERATOR_DESC"
@@ -2009,6 +2017,8 @@
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_cosh_operator_desc
         - name: "DML_ELEMENT_WISE_DEQUANTIZE_LINEAR_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_dequantize_linear_operator_desc
+        - name: "DML_ELEMENT_WISE_DIFFERENCE_SQUARE_OPERATOR_DESC"
+          href: ./directml/ns-directml-dml_element_wise_difference_square_operator_desc.md
         - name: "DML_ELEMENT_WISE_DIVIDE_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_divide_operator_desc
         - name: "DML_ELEMENT_WISE_ERF_OPERATOR_DESC"
@@ -2113,6 +2123,8 @@
           href: ./directml/ns-directml-dml_intermediate_graph_edge_desc.md
         - name: "DML_JOIN_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_join_operator_desc
+        - name: "DML_LOCAL_RESPONSE_NORMALIZATION_GRAD_OPERATOR_DESC"
+          href: ./directml/ns-directml-dml_local_response_normalization_grad_operator_desc.md
         - name: "DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_local_response_normalization_operator_desc
         - name: "DML_LP_NORMALIZATION_OPERATOR_DESC"

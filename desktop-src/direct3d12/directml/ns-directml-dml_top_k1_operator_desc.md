@@ -48,7 +48,7 @@ Selects the largest or smallest *K* elements from each sequence along an axis of
 The choice of whether to select the largest K elements or the smallest K elements can be controlled using *AxisDirection*.
 
 > [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](../dml-version-history.md).
+> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later. Also see [DirectML version history](../dml-version-history.md).
 
 ## Syntax
 ```cpp
@@ -62,8 +62,6 @@ struct DML_TOP_K1_OPERATOR_DESC {
 };
 ```
 
-
-
 ## Members
 
 `InputTensor`
@@ -72,7 +70,6 @@ Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tens
 
 The input tensor containing elements to select.
 
-
 `OutputValueTensor`
 
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
@@ -80,7 +77,6 @@ Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tens
 The output tensor to write the values of the top *K* elements to. The top *K* elements are selected based on whether they are the largest or the smallest, depending on the value of *AxisDirection*. This tensor must have sizes equal to the *InputTensor*, *except* for the dimension specified by the *Axis* parameter, which must have a size equal to *K*.
 
 The *K* values selected from each input sequence are guaranteed to be sorted descending (largest to smallest) if *AxisDirection* is [DML_AXIS_DIRECTION_DECREASING](./ne-directml-dml_axis_direction.md). Otherwise, the opposite is true and the values selected are guaranteed to be sorted ascending (smallest to largest).
-
 
 `OutputIndexTensor`
 
@@ -92,20 +88,17 @@ The indices returned in this tensor are measured relative to the beginning of th
 
 In cases where two or more elements in the top-K have the same value (that is, when there is a tie), the indices of both elements are included, and are guaranteed to be ordered by ascending element index. Note that this is true irrespective of the value of *AxisDirection*.
 
-
 `Axis`
 
 Type: [**UINT**](/windows/desktop/winprog/windows-data-types)
 
 The index of the dimension to select elements across. This value must be less than the *DimensionCount* of the *InputTensor*.
 
-
 `K`
 
 Type: [**UINT**](/windows/desktop/winprog/windows-data-types)
 
 The number of elements to select. *K* must be greater than 0, but less than the number of elements in the *InputTensor* along the dimension specified by *Axis*.
-
 
 `AxisDirection`
 
@@ -213,16 +206,27 @@ When *AxisDirection* is set to [DML_AXIS_DIRECTION_DECREASING](./ne-directml-dml
 This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 
 ## Tensor constraints
+
+* *InputTensor*, *OutputIndexTensor*, and *OutputValueTensor* must have the same *DimensionCount*.
 * *InputTensor* and *OutputValueTensor* must have the same *DataType*.
-* *OutputIndexTensor* and *OutputValueTensor* must have the same *Sizes*.
 
 ## Tensor support
-| Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
-| ------ | ---- | ---------- | -------------------------- | -------------------- |
-| InputTensor | Input | { In0, In1, In2, In3 } | 4 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
-| OutputValueTensor | Output | { Out0, Out1, Out2, Out3 } | 4 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
-| OutputIndexTensor | Output | { Out0, Out1, Out2, Out3 } | 4 | UINT32 |
 
+### DML_FEATURE_LEVEL_3_1 and above
+
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| OutputValueTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| OutputIndexTensor | Output | 1 to 8 | UINT32 |
+
+### DML_FEATURE_LEVEL_2_1 and above
+
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| OutputValueTensor | Output | 4 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| OutputIndexTensor | Output | 4 | UINT32 |
 
 ## Requirements
 | &nbsp; | &nbsp; |

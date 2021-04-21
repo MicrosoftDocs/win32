@@ -48,7 +48,7 @@ api_name:
 Performs an ROI Align operation, as described in the [Mask R-CNN paper](https://arxiv.org/abs/1703.06870). In summary, the operation extracts crops from the input image tensor and resizes them to a common output size specified by the last 2 dimensions of *OutputTensor* using the specified *InterpolationMode*.
 
 > [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](../dml-version-history.md).
+> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later. Also see [DirectML version history](../dml-version-history.md).
 
 ## Syntax
 
@@ -112,31 +112,31 @@ The interpolation mode to use when resizing the regions.
 
 `SpatialScaleX`
 
-Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/win32/winprog/windows-data-types">FLOAT</a></b>
 
 The X (or width) component of the scaling factor to multiply the *ROITensor* coordinates by in order to make them proportionate to *InputHeight* and *InputWidth*. For example, if *ROITensor* contains normalized coordinates (values in the range [0..1]), then *SpatialScaleX* would usually have the same value as *InputWidth*.
 
 `SpatialScaleY`
 
-Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/win32/winprog/windows-data-types">FLOAT</a></b>
 
 The Y (or height) component of the scaling factor to multiply the *ROITensor* coordinates by in order to make them proportionate to *InputHeight* and *InputWidth*. For example, if *ROITensor* contains normalized coordinates (values in the range [0..1]), *SpatialScaleY* would usually have the same value as *InputHeight*.
 
 `OutOfBoundsInputValue`
 
-Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/win32/winprog/windows-data-types">FLOAT</a></b>
 
 The value to read from *InputTensor* when the ROIs are outside the bounds of *InputTensor*. This can happen when the values obtained after scaling *ROITensor* by *SpatialScaleX* and *SpatialScaleY* are bigger than *InputWidth* and *InputHeight*.
 
 `MinimumSamplesPerOutput`
 
-Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/win32/winprog/windows-data-types">UINT</a></b>
 
 The minimum number of input samples to use for every output element. The operator will calculate the number of input samples by doing `ScaledCropSize / OutputSize`, and then clamp it to *MinimumSamplesPerOutput* and *MaximumSamplesPerOutput*.
 
 `MaximumSamplesPerOutput`
 
-Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/win32/winprog/windows-data-types">UINT</a></b>
 
 The maximum number of input samples to use for every output element. The operator will calculate the number of input samples by doing `ScaledCropSize / OutputSize`, and then clamp it to *MinimumSamplesPerOutput* and *MaximumSamplesPerOutput*.
 
