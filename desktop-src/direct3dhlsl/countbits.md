@@ -1,6 +1,6 @@
 ---
 title: countbits function
-description: Counts the number of bits (per component) in the input integer.
+description: Counts the number of bits (per component) set in the input integer.
 ms.assetid: c4fafbc8-e21c-48cb-b433-8241a989ec85
 keywords:
 - countbits function HLSL
