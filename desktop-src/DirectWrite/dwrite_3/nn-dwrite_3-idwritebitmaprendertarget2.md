@@ -63,5 +63,5 @@ The **IDWriteBitmapRenderTarget2** interface has these methods.
 ## Requirements
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Minimum supported client** | Windows 10, Project Reunion 0.1 Prerelease [Win32 apps] |
+| **Minimum supported client** | Windows 10, Project Reunion [Win32 apps] |
 | **Header** | dwrite_3.h (include dwrite_core.h) |
