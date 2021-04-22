@@ -1579,7 +1579,7 @@
         href: endpointdlp-dlpnotifyclosedocumentfile.md
       - name: "DlpNotifyEnterDropTarget"
         href: endpointdlp-dlpnotifyenterdroptarget.md
-      - name: "DlpInitializeEnforcementMode"
+      - name: "DlpGetEnforcementApiVersion"
         href: endpointdlp-dlpgetenforcementapiversion.md
       - name: "DlpInitializeEnforcementMode"
         href: endpointdlp-dlpinitializeenforcementmode.md
