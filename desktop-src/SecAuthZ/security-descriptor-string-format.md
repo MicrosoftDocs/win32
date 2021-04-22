@@ -55,7 +55,7 @@ Security descriptor control flags that apply to the DACL. For a description of t
 | "P"                   | SDDL\_PROTECTED          | The SE\_DACL\_PROTECTED flag is set.          |
 | "AR"                  | SDDL\_AUTO\_INHERIT\_REQ | The SE\_DACL\_AUTO\_INHERIT\_REQ flag is set. |
 | "AI"                  | SDDL\_AUTO\_INHERITED    | The SE\_DACL\_AUTO\_INHERITED flag is set.    |
-| "NO\_ACCESS\_CONTROL" | SSDL\_NULL\_ACL          | The ACL is null.                              |
+| "NO\_ACCESS\_CONTROL" | SDDL\_NULL\_ACL          | The ACL is null.                              |
 
 
 
