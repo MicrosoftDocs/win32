@@ -21,7 +21,7 @@ The [**IFilterChain**](/windows/desktop/api/Strmif/nn-strmif-ifilterchain) inter
 
 
 
-|                                                               |                                 |
+| Label | Value |
 |---------------------------------------------------------------|---------------------------------|
 | [**IFilterChain::StartChain**](/windows/desktop/api/Strmif/nf-strmif-ifilterchain-startchain)   | Starts a chain.                 |
 | [**IFilterChain::StopChain**](/windows/desktop/api/Strmif/nf-strmif-ifilterchain-stopchain)     | Stops a chain.                  |

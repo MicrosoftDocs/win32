@@ -23,7 +23,7 @@ The `composite` element defines a composition, a container object for tracks and
 
 
 
-|          |                                                                                                                         |
+| Label | Value |
 |----------|-------------------------------------------------------------------------------------------------------------------------|
 | Parent   | `composite`, [**group**](group-element.md)                                                                             |
 | Children | `composite`, [**effect**](effect-element.md), [**track**](track-element.md), [**transition**](transition-element.md) |

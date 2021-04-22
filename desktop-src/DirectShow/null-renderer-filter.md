@@ -26,7 +26,7 @@ The Null Renderer filter is a renderer that discards every sample it receives, w
 
 
 
-|                                          |                                                                                                                      |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Filter interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IMediaPosition**](/windows/desktop/api/Control/nn-control-imediaposition), [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) |
 | Input pin media types                    | Any media type                                                                                                       |

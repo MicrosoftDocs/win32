@@ -14,7 +14,7 @@ A version of this filter is also provided as an SDK sample. See [InfTee Filter S
 
 
 
-|                                          |                                                                                                                                                    |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                                                                                                                 |
 | Input Pin Media Types                    | Any media type                                                                                                                                     |

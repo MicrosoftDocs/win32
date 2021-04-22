@@ -72,7 +72,7 @@ The MPEG-2 Demultiplexer does not validate output types; the downstream filter i
 
 
 
-|                  |                                          |
+| Label | Value |
 |------------------|------------------------------------------|
 | Major type       | **MEDIATYPE\_Video**                     |
 | Subtype          | **MEDIASUBTYPE\_MPEG2\_VIDEO**           |
@@ -87,7 +87,7 @@ The MPEG-2 Demultiplexer does not validate output types; the downstream filter i
 
 
 
-|                  |                                      |
+| Label | Value |
 |------------------|--------------------------------------|
 | Major type       | **MEDIATYPE\_Audio**                 |
 | Subtype          | **MEDIASUBTYPE\_MPEG2\_AUDIO**       |

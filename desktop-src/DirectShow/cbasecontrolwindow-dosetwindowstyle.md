@@ -52,7 +52,7 @@ Value specifying which styles to set. Must be one of the following:
 
 
 
-|              |                                      |
+| Label | Value |
 |--------------|--------------------------------------|
 | GWL\_STYLE   | Retrieve the window styles.          |
 | GWL\_EXSTYLE | Retrieve the extended window styles. |

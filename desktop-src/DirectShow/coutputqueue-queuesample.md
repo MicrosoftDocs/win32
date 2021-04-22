@@ -56,7 +56,7 @@ This method can also be used to put control messages onto the queue. A control m
 
 
 
-|               |                                        |
+| Label | Value |
 |---------------|----------------------------------------|
 | Message       | Action                                 |
 | EOS\_PACKET   | Deliver an end-of-stream notification. |

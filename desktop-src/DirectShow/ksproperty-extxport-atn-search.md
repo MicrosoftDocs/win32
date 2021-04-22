@@ -12,7 +12,7 @@ This property sends a command to the device to search for an absolute track numb
 
 
 
-|                   |                                       |
+| Label | Value |
 |-------------------|---------------------------------------|
 | Property Set GUID | PROPSETID\_EXT\_TRANSPORT             |
 | Property ID       | KSPROPERTY\_EXTXPORT\_ATN\_SEARCH     |

@@ -12,7 +12,7 @@ The Media Property Bag object sets or retrieves INFO and DISP chunks in AVI file
 
 
 
-|                  |                                                |
+| Label | Value |
 |------------------|------------------------------------------------|
 | Class Identifier | CLSID\_MediaPropertyBag                        |
 | Interfaces       | [**IMediaPropertyBag**](/windows/desktop/api/Strmif/nn-strmif-imediapropertybag) |

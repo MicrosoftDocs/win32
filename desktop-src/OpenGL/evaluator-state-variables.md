@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 <dl> <dt><span id="GL_ORDER"></span><span id="gl_order"></span>GL\_ORDER</dt> <dd> 
 
-|                  |                                |
+| Property | Value |
 |------------------|--------------------------------|
 | Description:     | 1-D map order                  |
 | Attribute group: |                                |
@@ -31,7 +31,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_ORDER"></span><span id="gl_order"></span>GL\_ORDER</dt> <dd> 
 
-|                  |                                |
+| Property | Value |
 |------------------|--------------------------------|
 | Description:     | 2-D map orders                 |
 | Attribute group: |                                |
@@ -44,7 +44,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_COEFF"></span><span id="gl_coeff"></span>GL\_COEFF</dt> <dd> 
 
-|                  |                                |
+| Property | Value |
 |------------------|--------------------------------|
 | Description:     | 1-D control points             |
 | Attribute group: |                                |
@@ -57,7 +57,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_COEFF"></span><span id="gl_coeff"></span>GL\_COEFF</dt> <dd> 
 
-|                  |                                |
+| Property | Value |
 |------------------|--------------------------------|
 | Description:     | 2-D control points             |
 | Attribute group: |                                |
@@ -70,7 +70,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_DOMAIN"></span><span id="gl_domain"></span>GL\_DOMAIN</dt> <dd> 
 
-|                  |                                |
+| Property | Value |
 |------------------|--------------------------------|
 | Description:     | 1-D domain endpoints           |
 | Attribute group: |                                |
@@ -83,7 +83,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_DOMAIN"></span><span id="gl_domain"></span>GL\_DOMAIN</dt> <dd> 
 
-|                  |                                |
+| Property | Value |
 |------------------|--------------------------------|
 | Description:     | 2-D domain endpoints           |
 | Attribute group: |                                |
@@ -96,7 +96,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_MAP1_x"></span><span id="gl_map1_x"></span><span id="GL_MAP1_X"></span>GL\_MAP1\_x</dt> <dd> 
 
-|                  |                                    |
+| Property | Value |
 |------------------|------------------------------------|
 | Description:     | 1-D map enables: *x* is map type   |
 | Attribute group: | eval/enable                        |
@@ -109,7 +109,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_MAP2_x"></span><span id="gl_map2_x"></span><span id="GL_MAP2_X"></span>GL\_MAP2\_x</dt> <dd> 
 
-|                  |                                    |
+| Property | Value |
 |------------------|------------------------------------|
 | Description:     | 2-D map enables: *x* is map type   |
 | Attribute group: | eval/enable                        |
@@ -122,7 +122,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_MAP1_GRID_DOMAIN"></span><span id="gl_map1_grid_domain"></span>GL\_MAP1\_GRID\_DOMAIN</dt> <dd> 
 
-|                  |                                                                                |
+| Property | Value |
 |------------------|--------------------------------------------------------------------------------|
 | Description:     | 1-D grid endpoints                                                             |
 | Attribute group: | eval                                                                           |
@@ -135,7 +135,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_MAP2_GRID_DOMAIN"></span><span id="gl_map2_grid_domain"></span>GL\_MAP2\_GRID\_DOMAIN</dt> <dd> 
 
-|                  |                                                                                |
+| Property | Value |
 |------------------|--------------------------------------------------------------------------------|
 | Description:     | 2-D grid endpoints                                                             |
 | Attribute group: | eval                                                                           |
@@ -148,7 +148,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_MAP1_GRID_SEGMENTS"></span><span id="gl_map1_grid_segments"></span>GL\_MAP1\_GRID\_SEGMENTS</dt> <dd> 
 
-|                  |                                    |
+| Property | Value |
 |------------------|------------------------------------|
 | Description:     | 1-D grid divisions                 |
 | Attribute group: | eval                               |
@@ -161,7 +161,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_MAP1_GRID_SEGMENTS"></span><span id="gl_map1_grid_segments"></span>GL\_MAP1\_GRID\_SEGMENTS</dt> <dd> 
 
-|                  |                                                                                |
+| Property | Value |
 |------------------|--------------------------------------------------------------------------------|
 | Description:     | 2-D grid segments                                                              |
 | Attribute group: | eval                                                                           |
@@ -174,7 +174,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_AUTO_NORMAL"></span><span id="gl_auto_normal"></span>GL\_AUTO\_NORMAL</dt> <dd> 
 
-|                  |                                             |
+| Property | Value |
 |------------------|---------------------------------------------|
 | Description:     | True if automatic normal generation enabled |
 | Attribute group: | eval                                        |

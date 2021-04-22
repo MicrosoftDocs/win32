@@ -23,7 +23,7 @@ The `clip` epecifies a media source.
 
 
 
-|          |                                  |
+| Label | Value |
 |----------|----------------------------------|
 | Parent   | [**track**](track-element.md)   |
 | Children | [**effect**](effect-element.md) |

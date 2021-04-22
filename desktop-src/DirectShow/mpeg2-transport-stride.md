@@ -23,7 +23,7 @@ Stride packets are identified by the following media type:
 
 
 
-|             |                                        |
+| Label | Value |
 |-------------|----------------------------------------|
 | Major Type  | MEDIATYPE\_Stream                      |
 | Subtype     | MEDIASUBTYPE\_MPEG2\_TRANSPORT\_STRIDE |
