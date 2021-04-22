@@ -14,6 +14,8 @@ The **CryptUIDlgSelectCertificate** function displays a dialog box that allows a
 
 
 ```C++
+PCCERT_CONTEXT WINAPI CryptUIDlgSelectCertificate(
+  _In_  PCCRYPTUI_SELECTCERTIFICATE_STRUCT pcsc
 );
 ```
 
@@ -64,9 +66,7 @@ If the **dwFlags** member of the [**CRYPTUI\_SELECTCERTIFICATE\_STRUCT**](cryptu
 [**CRYPTUI\_SELECTCERTIFICATE\_STRUCT**](cryptui-selectcertificate-struct.md)
 </dt> </dl>
 
-�
 
-�
 
 
 
