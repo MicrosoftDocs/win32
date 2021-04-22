@@ -78,7 +78,7 @@ A banner feature is color fonts. Color fonts enable you to render your fonts wit
 
 The work on cleanup of the font cache, and the in-memory font loader, allow for faster loading of fonts, and memory improvements.
 
-With these features, you can immediately begin to harness some of DirectWrite's modern core functionality&mdash;such as variable fonts&mdash;down-level to Windows 8. This iteration of the library can also be consumed on [Android](https://www.android.com/), and **Linux**. Variable fonts are one of the most important features for DirectWrite customers; they were introduced in Windows 10, version 1709 (Fall Creators Update), so accessing them in previous versions is a significant benefit to you as a developer.
+With these features, you can immediately begin to harness some of DirectWrite's modern core functionality&mdash;such as variable fonts&mdash;down-level to Windows 8. Variable fonts are one of the most important features for DirectWrite customers; they were introduced in Windows 10, version 1709 (Fall Creators Update), so accessing them in previous versions is a significant benefit to you as a developer.
 
 ## Our invitation to you as a DirectWrite developer
 
