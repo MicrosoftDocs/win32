@@ -5,7 +5,7 @@ keywords:
 - DirectWrite Core
 - DWriteCore
 ms.topic: article
-ms.date: 04/21/2021
+ms.date: 04/22/2021
 ---
 
 # DWriteCore overview
@@ -16,7 +16,7 @@ This introductory topic describes what DWriteCore is, and shows how to install i
 
 ## The value proposition of DWriteCore
 
-[DirectWrite](./direct-write-portal.md) itself supports a rich array of features that makes it the font-rendering tool of choice on Windows for most apps&mdash;whether that's through direct calls, or via [Direct2D](../direct2d/direct2d-portal.md). DirectWrite includes a device-independent text layout system, high quality sub-pixel [Microsoft ClearType](/typography/cleartype/) text rendering, hardware-accelerated text, multi-format text, advanced [OpenType®](/typography/opentype/) typography features, wide language support, and [GDI](../gdi/windows-gdi.md)-compatible layout and rendering. DirectWrite has been available since Windows Vista SP2, and it has evolved over the years to include more advanced features such as variable fonts, which enables developers to apply styles, weights, and other attributes to a font with only one font resource.
+[DirectWrite](./direct-write-portal.md) itself supports a rich array of features that makes it the font-rendering tool of choice on Windows for most apps&mdash;whether that's through direct calls, or via [Direct2D](../direct2d/direct2d-portal.md). DirectWrite includes a device-independent text layout system, high quality sub-pixel [Microsoft ClearType](/typography/cleartype/) text rendering, hardware-accelerated text, multi-format text, advanced [OpenType®](/typography/opentype/) typography features, wide language support, and [GDI](../gdi/windows-gdi.md)-compatible layout and rendering. DirectWrite has been available since Windows Vista SP2, and it has evolved over the years to include more advanced features such as variable fonts, which enables you to apply styles, weights, and other attributes to a font with only one font resource.
 
 Due to the long lifespan of DirectWrite, however, advances in development have tended to leave older versions of Windows behind. In addition, DirectWrite's status as the premier text rendering technology is limited only to Windows, leaving cross-platform applications to either write their own text-rendering stack, or to rely on 3rd-party solutions.
 
@@ -62,7 +62,7 @@ Porting DirectWrite to DWriteCore is a sufficiently large project to span multip
 
 ### Features in the current release of DWriteCore
 
-The version of DWriteCore currently available contains the basic tools that you, as a developer, need to consume DWriteCore, including the following features.
+The version of DWriteCore currently available is part of [Project Reunion 0.5](https://github.com/microsoft/ProjectReunion/releases/tag/0.5.0). It contains the basic tools that you, as a developer, need to consume DWriteCore, including the following features.
 
 - Font enumeration.
 - Font API.
@@ -74,11 +74,11 @@ The version of DWriteCore currently available contains the basic tools that you,
 - Color fonts.
 - Miscellaneous optimizations (font cache cleanup, in-memory font loader, and so on).
 
-The banner feature at this stage is color fonts. Color fonts enable you to render your fonts with more sophisticated color functionality beyond simple single colors. For example, color fonts is what powers the ability to render emoji and toolbar icon fonts (the latter of which is used by Office, for example). Color fonts were first introduced in Windows 8.1, but the feature was heavily expanded upon in Windows 10, version 1607 (Anniversary Update).
+A banner feature is color fonts. Color fonts enable you to render your fonts with more sophisticated color functionality beyond simple single colors. For example, color fonts is what powers the ability to render emoji and toolbar icon fonts (the latter of which is used by Office, for example). Color fonts were first introduced in Windows 8.1, but the feature was heavily expanded upon in Windows 10, version 1607 (Anniversary Update).
 
 The work on cleanup of the font cache, and the in-memory font loader, allow for faster loading of fonts, and memory improvements.
 
-With these features, you can immediately begin to harness some of DirectWrite's modern core functionality&mdash;such as variable fonts&mdash;down-level to Windows 8. This iteration of the library can also be consumed on [Android](https://www.android.com/), and **Linux**. Variable fonts are one of the most important features for DirectWrite customers; they were introduced in Windows 10, version 1709 (Fall Creators Update), so accessing them in previous versions is a massive boon to you as a developer.
+With these features, you can immediately begin to harness some of DirectWrite's modern core functionality&mdash;such as variable fonts&mdash;down-level to Windows 8. This iteration of the library can also be consumed on [Android](https://www.android.com/), and **Linux**. Variable fonts are one of the most important features for DirectWrite customers; they were introduced in Windows 10, version 1709 (Fall Creators Update), so accessing them in previous versions is a significant benefit to you as a developer.
 
 ## Our invitation to you as a DirectWrite developer
 
@@ -97,15 +97,21 @@ To use DWriteCore, it's necessary to include the `dwrite_core.h` header file.
 #include <dwrite_core.h>
 ```
 
-The `dwrite_core.h` header file first defines the token *DWRITE_CORE*, and then it includes `dwrite_3.h`. The *DWRITE_CORE* token is important, because it directs any subsequently included headers to make all of the DirectWrite APIs available to you. Once your project has included `dwrite_core.h`, you can then go ahead and write code, build, and run.
+The `dwrite_core.h` header file first defines the token *DWRITE_CORE*, and then it includes the `dwrite_3.h` header file. The *DWRITE_CORE* token is important, because it directs any subsequently included headers to make all of the DirectWrite APIs available to you. Once your project has included `dwrite_core.h`, you can then go ahead and write code, build, and run.
 
 ### APIs that are new, or different, for DWriteCore
 
 The DWriteCore API surface is the largely the same as it is for [DirectWrite](/windows/win32/api/_directwrite/). But there are a small number of new APIs that are only in DWriteCore at the present.
 
+#### Create a factory object
+
+The [**DWriteCoreCreateFactory**](/windows/win32/api/dwrite_core/nf-dwrite_core-dwritecorecreatefactory) free function creates a factory object that is used for subsequent creation of individual DWriteCore objects.
+
+**DWriteCoreCreateFactory** is functionally the same as the [DWriteCreateFactory](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) function exported by the system version of DirectWrite. The DWriteCore function has a different name to avoid ambiguity.
+
 #### Create a restricted factory object
 
-The [**DWRITE_FACTORY_TYPE**](./dwrite/ne-dwrite-dwrite_factory_type.md) enumeration has a new constant&mdash;**DWRITE_FACTORY_TYPE_ISOLATED2**, indicating a restricted factory. A restricted factory is more locked-down than an isolated factory. It doesn't interact with a cross-process nor persistent font cache in any way. In addition, the system font collection returned from this factory includes only well-known fonts. Here's how you can use **DWRITE_FACTORY_TYPE_ISOLATED2** to create a restricted factory object when you call the [**DWriteCoreCreateFactory**](/windows/win32/api/dwrite_core/nf-dwrite_core-dwritecorecreatefactory) free function.
+The [**DWRITE_FACTORY_TYPE**](./dwrite/ne-dwrite-dwrite_factory_type.md) enumeration has a new constant&mdash;**DWRITE_FACTORY_TYPE_ISOLATED2**, indicating a restricted factory. A restricted factory is more locked-down than an isolated factory. It doesn't interact with a cross-process nor persistent font cache in any way. In addition, the system font collection returned from this factory includes only well-known fonts. Here's how you can use **DWRITE_FACTORY_TYPE_ISOLATED2** to create a restricted factory object when you call the **DWriteCoreCreateFactory** free function.
 
 ```cppwinrt
 // Create a factory that doesn't interact with any cross-process nor
