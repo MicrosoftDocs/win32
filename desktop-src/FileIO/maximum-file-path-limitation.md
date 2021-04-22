@@ -58,13 +58,8 @@ New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" `
 
 ---
 
-<<<<<<< HEAD
 > [!NOTE]  
 > This registry key can also be controlled via Group Policy at `Computer Configuration > Administrative Templates > System > Filesystem > Enable Win32 long paths`.
-=======
-    > [!NOTE]  
-    > This registry key can also be controlled via Group Policy at `Computer Configuration > Administrative Templates > System > Filesystem > Enable Win32 long paths`.
->>>>>>> af8b76c66e61b84eef2927979e060fcc2a038675
 
 * The [application manifest](../sbscs/application-manifests.md) must also include the `longPathAware` element.
 
