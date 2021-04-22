@@ -17,7 +17,7 @@ api_location:
 
 # countbits function
 
-Counts the number of bits (per component) in the input integer.
+Counts the number of bits (per component) set in the input integer.
 
 ## Syntax
 
