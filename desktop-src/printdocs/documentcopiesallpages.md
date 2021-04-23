@@ -19,7 +19,7 @@ Specifies the number of copies of a document.
 
 
 
-| Name                       |                         |
+| Name | Value |
 |----------------------------|-------------------------|
 | Element Type <br/>   | ParameterDef<br/> |
 | Scoping Prefix <br/> | Document<br/>     |

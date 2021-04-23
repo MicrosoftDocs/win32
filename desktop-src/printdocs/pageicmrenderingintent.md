@@ -20,7 +20,7 @@ Describes the rendering intent as defined by the ICC v2 Specification. This valu
 
 
 
-| Name                       |                    |
+| Name | Value |
 |----------------------------|--------------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Page<br/>    |

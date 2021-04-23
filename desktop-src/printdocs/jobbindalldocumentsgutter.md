@@ -19,7 +19,7 @@ Specifies the width of the binding gutter.
 
 
 
-| Name                       |                                         |
+| Name | Value |
 |----------------------------|-----------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                 |
 | Scoping Prefix <br/> | Job <br/>                         |

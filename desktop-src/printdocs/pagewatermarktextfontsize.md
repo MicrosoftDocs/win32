@@ -19,7 +19,7 @@ Defines the available font sizes for the watermark text.
 
 
 
-| Name                       |                                            |
+| Name | Value |
 |----------------------------|--------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                    |
 | Scoping Prefix <br/> | Page<br/>                            |

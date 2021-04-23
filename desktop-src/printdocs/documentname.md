@@ -20,7 +20,7 @@ Specifies a descriptive name for the document.
 
 
 
-| Name                       |                     |
+| Name | Value |
 |----------------------------|---------------------|
 | Element Type <br/>   | Property<br/> |
 | Scoping Prefix <br/> | Document<br/> |

@@ -19,7 +19,7 @@ Specifies the offset, parallel to the feed-orientation direction (Reference [Pos
 
 
 
-| Name                       |                                                             |
+| Name | Value |
 |----------------------------|-------------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                     |
 | Scoping Prefix <br/> | Page<br/>                                             |

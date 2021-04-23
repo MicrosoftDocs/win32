@@ -20,7 +20,7 @@ Defines the order of physical pages for the output.
 
 
 
-| Name                       |                    |
+| Name | Value |
 |----------------------------|--------------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Job<br/>     |

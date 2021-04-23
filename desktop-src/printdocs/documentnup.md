@@ -24,7 +24,7 @@ The following diagram illustrates an example with Document 1 containing 3 pages,
 
 
 
-| Name                       |                                                                                                                                                 |
+| Name | Value |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | Element Type <br/>   | Feature<br/>                                                                                                                              |
 | Scoping Prefix <br/> | Document<br/>                                                                                                                             |

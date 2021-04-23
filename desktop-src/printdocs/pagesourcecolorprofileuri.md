@@ -19,7 +19,7 @@ Specifies the source for color profile.
 
 
 
-| Name                       |                                                     |
+| Name | Value |
 |----------------------------|-----------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                             |
 | Scoping Prefix <br/> | Page<br/>                                     |

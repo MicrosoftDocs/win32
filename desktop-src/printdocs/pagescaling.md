@@ -32,7 +32,7 @@ Describes the scaling characteristics of the output. Certain Options of this Fea
 
 
 
-| Name                       |                                                                                                                                                                                                       |
+| Name | Value |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Element Type <br/>   | Feature<br/>                                                                                                                                                                                    |
 | Scoping Prefix <br/> | Page<br/>                                                                                                                                                                                       |

@@ -20,7 +20,7 @@ Describes the cutting method for roll paper. The roll should be cut at the end o
 
 
 
-| Name                       |                    |
+| Name | Value |
 |----------------------------|--------------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Job<br/>     |

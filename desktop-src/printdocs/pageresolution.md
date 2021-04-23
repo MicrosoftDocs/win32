@@ -20,7 +20,7 @@ Defines the page resolution of printed output as either a qualitative value or a
 
 
 
-| Name                       |                    |
+| Name | Value |
 |----------------------------|--------------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Page<br/>    |

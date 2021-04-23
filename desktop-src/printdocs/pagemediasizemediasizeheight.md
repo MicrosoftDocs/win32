@@ -19,7 +19,7 @@ Specifies the dimension MediaSizeHeight direction for the Custom MediaSize optio
 
 
 
-| Name                       |                                                           |
+| Name | Value |
 |----------------------------|-----------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                   |
 | Scoping Prefix <br/> | Page<br/>                                           |

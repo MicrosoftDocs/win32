@@ -38,7 +38,7 @@ OFF: For all copies (JobCopiesAllDocuments x DocumentCopiesAllPages) printed con
 
 
 
-| Name                       |                    |
+| Name | Value |
 |----------------------------|--------------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Job<br/>     |

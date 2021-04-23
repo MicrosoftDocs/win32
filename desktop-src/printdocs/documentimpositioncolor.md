@@ -19,7 +19,7 @@ Application content labeled with the specified named color MUST appear on all co
 
 
 
-| Name                       |                         |
+| Name | Value |
 |----------------------------|-------------------------|
 | Element Type <br/>   | ParameterDef<br/> |
 | Scoping Prefix <br/> | Document<br/>     |

@@ -20,7 +20,7 @@ Describes the method of binding. All documents in the job are bound together. Jo
 
 
 
-| Name                       |                                                                                |
+| Name | Value |
 |----------------------------|--------------------------------------------------------------------------------|
 | Element Type <br/>   | Feature<br/>                                                             |
 | Scoping Prefix <br/> | Job<br/>                                                                 |

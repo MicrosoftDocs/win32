@@ -19,7 +19,7 @@ Specifies the source for a custom error sheet.
 
 
 
-| Name                       |                                            |
+| Name | Value |
 |----------------------------|--------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                    |
 | Scoping Prefix <br/> | Document<br/>                        |

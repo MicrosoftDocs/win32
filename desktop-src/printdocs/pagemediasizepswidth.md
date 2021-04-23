@@ -19,7 +19,7 @@ Specifies the width of the page perpendicular to the feed-orientation direction 
 
 
 
-| Name                       |                                                             |
+| Name | Value |
 |----------------------------|-------------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                     |
 | Scoping Prefix <br/> | Page<br/>                                             |

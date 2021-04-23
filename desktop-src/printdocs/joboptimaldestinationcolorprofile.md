@@ -20,7 +20,7 @@ Specifies the optimal color profile given the current device configuration.
 
 
 
-| Name                       |                     |
+| Name | Value |
 |----------------------------|---------------------|
 | Element Type <br/>   | Property<br/> |
 | Scoping Prefix <br/> | Job<br/>      |

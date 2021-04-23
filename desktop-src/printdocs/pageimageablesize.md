@@ -26,7 +26,7 @@ The following diagrams illustrate the PageImageableSize variables usage based on
 
 |                            |                     |
 |----------------------------|---------------------|
-| Name                       |                     |
+| Name | Value |
 | Element Type<br/>    | Property<br/> |
 | Scoping Prefix <br/> | Page<br/>     |
 | Notes <br/>          | None<br/>     |

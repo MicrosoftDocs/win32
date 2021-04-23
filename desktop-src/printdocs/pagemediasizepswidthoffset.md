@@ -19,7 +19,7 @@ Specifies the offset perpendicular to the feed-orientation direction (Reference 
 
 
 
-| Name                       |                                                             |
+| Name | Value |
 |----------------------------|-------------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                     |
 | Scoping Prefix <br/> | Page<br/>                                             |

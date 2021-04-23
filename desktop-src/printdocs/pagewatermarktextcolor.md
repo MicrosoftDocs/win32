@@ -19,7 +19,7 @@ Defines the sRGB color for the watermark text. Format is ARGB: \#AARRGGBB.
 
 
 
-| Name                       |                                            |
+| Name | Value |
 |----------------------------|--------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                    |
 | Scoping Prefix <br/> | Page<br/>                            |

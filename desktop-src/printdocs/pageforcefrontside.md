@@ -20,7 +20,7 @@ Forces the output to appear on the front of a media sheet. Relevant to media she
 
 
 
-| Name                       |                    |
+| Name | Value |
 |----------------------------|--------------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Page<br/>    |

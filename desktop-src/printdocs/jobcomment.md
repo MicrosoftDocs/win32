@@ -19,7 +19,7 @@ Specifies a comment associated with the job. Example: "Please deliver to room 12
 
 
 
-| Name                       |                         |
+| Name | Value |
 |----------------------------|-------------------------|
 | Element Type <br/>   | ParameterDef<br/> |
 | Scoping Prefix <br/> | Job<br/>          |

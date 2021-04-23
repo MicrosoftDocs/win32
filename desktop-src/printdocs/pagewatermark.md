@@ -20,7 +20,7 @@ Describes the watermark setting of the output and the watermark characteristics.
 
 
 
-| Name                       |                                                                                                                                                 |
+| Name | Value |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | Element Type <br/>   | Feature<br/>                                                                                                                              |
 | Scoping Prefix <br/> | Page<br/>                                                                                                                                 |

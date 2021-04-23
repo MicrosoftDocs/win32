@@ -19,7 +19,7 @@ Describes the amount chromatic ink (in gray component ratios) to add to areas wh
 
 
 
-| Name                       |                                                            |
+| Name | Value |
 |----------------------------|------------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                    |
 | Scoping Prefix <br/> | Page<br/>                                            |

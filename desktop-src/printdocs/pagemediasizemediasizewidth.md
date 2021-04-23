@@ -19,7 +19,7 @@ Specifies the dimension MediaSizeWidth direction for the Custom MediaSize option
 
 
 
-| Name                       |                                                           |
+| Name | Value |
 |----------------------------|-----------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                   |
 | Scoping Prefix <br/> | Page<br/>                                           |
