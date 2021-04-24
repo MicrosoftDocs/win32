@@ -75,7 +75,7 @@
       - name: "DWriteCreateFactory"
         href: /windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory
       - name: "DWriteCoreCreateFactory (DWriteCore)"
-        href: /windows/win32/directwrite/dwrite/nf-dwrite_core-dwritecorecreatefactory
+        href: /windows/win32/directwrite/dwrite_core/nf-dwrite_core-dwritecorecreatefactory
     - name: "DirectWrite enumerations"
       href: enumerations.md
       items: 
