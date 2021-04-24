@@ -46,7 +46,7 @@ api_name:
 Encapsulates a 32-bit device independent bitmap and device context, which can be used for rendering glyphs.
 
 > [!IMPORTANT]
-> This API is available as part of the DWriteCore implementation of [DirectWrite](../direct-write-portal.md). DWriteCore is a form of DirectWrite that runs on versions of Windows down to Windows 8, and opens the door for you to use it cross-platform. For more info, and code examples, see [DWriteCore overview](/windows/win32/DirectWrite/dwrite/dwritecore-overview).
+> This API is available as part of the DWriteCore implementation of [DirectWrite](../direct-write-portal.md). DWriteCore is a form of DirectWrite that runs on versions of Windows down to Windows 8, and opens the door for you to use it cross-platform. For more info, and code examples, see [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview).
 
 ## Inheritance
 
