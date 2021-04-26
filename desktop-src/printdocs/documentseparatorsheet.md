@@ -20,7 +20,7 @@ Describes the separator sheet usage for a document. Separator sheets should appe
 
 
 
-| Name                       |                     |
+| Name | Value |
 |----------------------------|---------------------|
 | Element Type <br/>   | Feature<br/>  |
 | Scoping Prefix <br/> | Document<br/> |

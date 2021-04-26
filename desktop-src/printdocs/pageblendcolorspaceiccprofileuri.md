@@ -19,7 +19,7 @@ Specifies a relative URI reference to an ICC profile defining the color space th
 
 
 
-| Name                       |                                                                                                                                        |
+| Name | Value |
 |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                                                                                                |
 | Scoping Prefix <br/> | Page<br/>                                                                                                                        |

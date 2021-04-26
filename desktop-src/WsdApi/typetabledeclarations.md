@@ -42,7 +42,7 @@ XML schema tables are referenced by much of the generated code. This element is 
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

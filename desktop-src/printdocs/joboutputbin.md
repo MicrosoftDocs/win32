@@ -20,7 +20,7 @@ Describes the installed output bin in a device or the full list of supported bin
 
 
 
-| Name                       |                    |
+| Name | Value |
 |----------------------------|--------------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Job<br/>     |

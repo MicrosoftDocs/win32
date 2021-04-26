@@ -78,7 +78,7 @@ If a [**PnPXDeviceCategory**](pnpxdevicecategory.md) element is present, then at
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | No            |

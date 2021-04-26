@@ -50,7 +50,7 @@ The deallocator type should be enclosed in a pair of <deallocator></deallocator>
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

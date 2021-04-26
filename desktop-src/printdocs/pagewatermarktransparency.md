@@ -19,7 +19,7 @@ Specifies the transparency for the watermark. Fully opaque would have a value of
 
 
 
-| Name                       |                                            |
+| Name | Value |
 |----------------------------|--------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                    |
 | Scoping Prefix <br/> | Page<br/>                            |

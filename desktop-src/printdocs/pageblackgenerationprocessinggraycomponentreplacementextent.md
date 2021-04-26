@@ -19,7 +19,7 @@ Describes the extented beyond neutrals (into chromatic colors) that GCR applies.
 
 
 
-| Name                       |                                                            |
+| Name | Value |
 |----------------------------|------------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                    |
 | Scoping Prefix <br/> | Page<br/>                                            |

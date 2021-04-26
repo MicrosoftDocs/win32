@@ -42,7 +42,7 @@ This element is generally used in C source files to provide the namespace tables
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

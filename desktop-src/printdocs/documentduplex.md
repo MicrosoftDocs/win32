@@ -20,7 +20,7 @@ Describes the duplex characteristics of the output. The duplex feature allows fo
 
 
 
-| Name                       |                     |
+| Name | Value |
 |----------------------------|---------------------|
 | Element Type <br/>   | Feature<br/>  |
 | Scoping Prefix <br/> | Document<br/> |

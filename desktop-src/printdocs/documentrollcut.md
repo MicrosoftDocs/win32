@@ -20,7 +20,7 @@ Describes the cutting method for roll paper. Each document is handled separately
 
 
 
-| Name                       |                     |
+| Name | Value |
 |----------------------------|---------------------|
 | Element Type <br/>   | Feature<br/>  |
 | Scoping Prefix <br/> | Document<br/> |

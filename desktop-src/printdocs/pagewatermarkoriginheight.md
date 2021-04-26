@@ -19,7 +19,7 @@ Specifies the origin of a watermark relative to the origin of the PageImageableS
 
 
 
-| Name                       |                                            |
+| Name | Value |
 |----------------------------|--------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                    |
 | Scoping Prefix <br/> | Page<br/>                            |

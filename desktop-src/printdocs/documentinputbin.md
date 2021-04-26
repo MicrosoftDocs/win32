@@ -22,7 +22,7 @@ Describes the installed input bin in a device or the full list of supported bins
 
 
 
-| Name                       |                                                                                                                                |
+| Name | Value |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | Element Type <br/>   | Feature<br/>                                                                                                             |
 | Scoping Prefix <br/> | Document<br/>                                                                                                            |

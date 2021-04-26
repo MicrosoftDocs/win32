@@ -20,7 +20,7 @@ Describes the hole punching characteristics of the output. Each document is punc
 
 
 
-| Name                       |                                                                                |
+| Name | Value |
 |----------------------------|--------------------------------------------------------------------------------|
 | Element Type <br/>   | Feature<br/>                                                             |
 | Scoping Prefix <br/> | Document<br/>                                                            |

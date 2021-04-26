@@ -26,7 +26,7 @@ The following diagram illustrates the PageMediaSize variable usage (option ISOA4
 
 |                            |                    |
 |----------------------------|--------------------|
-| Name                       |                    |
+| Name | Value |
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Page<br/>    |
 | Notes <br/>          | None<br/>    |

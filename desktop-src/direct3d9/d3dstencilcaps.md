@@ -12,9 +12,8 @@ Driver stencil capability flags.
 
 
 
-|                          |             |                                                                                                       |
-|--------------------------|-------------|-------------------------------------------------------------------------------------------------------|
 | \#define                 | Value       | Description                                                                                           |
+|--------------------------|-------------|-------------------------------------------------------------------------------------------------------|
 | D3DSTENCILCAPS\_KEEP     | 0x00000001L | Do not update the entry in the stencil buffer. This is the default value.                             |
 | D3DSTENCILCAPS\_ZERO     | 0x00000002L | Set the stencil-buffer entry to 0.                                                                    |
 | D3DSTENCILCAPS\_REPLACE  | 0x00000004L | Replace the stencil-buffer entry with reference value.                                                |

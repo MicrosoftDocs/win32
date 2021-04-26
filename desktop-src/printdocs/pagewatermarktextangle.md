@@ -19,7 +19,7 @@ Specifies the angle of the watermark text relative to the PageImageableSizeWidth
 
 
 
-| Name                       |                                            |
+| Name | Value |
 |----------------------------|--------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                    |
 | Scoping Prefix <br/> | Page<br/>                            |

@@ -20,7 +20,7 @@ Specifies a descriptive name for the job.
 
 
 
-| Name                       |                     |
+| Name | Value |
 |----------------------------|---------------------|
 | Element Type <br/>   | Property<br/> |
 | Scoping Prefix <br/> | Job<br/>      |

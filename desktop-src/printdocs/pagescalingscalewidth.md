@@ -19,7 +19,7 @@ Specifies the scaling factor in the ImageableSizeWidth direction for custom scal
 
 
 
-| Name                       |                                                         |
+| Name | Value |
 |----------------------------|---------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                 |
 | Scoping Prefix <br/> | Page<br/>                                         |

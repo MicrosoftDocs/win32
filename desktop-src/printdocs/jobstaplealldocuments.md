@@ -20,7 +20,7 @@ Describes the stapling characteristics of the output. All documents in the job a
 
 
 
-| Name                       |                                                                                |
+| Name | Value |
 |----------------------------|--------------------------------------------------------------------------------|
 | Element Type <br/>   | Feature<br/>                                                             |
 | Scoping Prefix <br/> | Job<br/>                                                                 |

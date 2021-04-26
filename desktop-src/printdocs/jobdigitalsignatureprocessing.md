@@ -19,7 +19,7 @@ Describes configuring the digital signature processing for the entire job. Appli
 
 
 
-| Name                       |                    |
+| Name | Value |
 |----------------------------|--------------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Job<br/>     |

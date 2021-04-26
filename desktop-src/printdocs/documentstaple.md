@@ -20,7 +20,7 @@ Describes the stapling characteristics of the output. Each document is stapled s
 
 
 
-| Name                       |                                                                                |
+| Name | Value |
 |----------------------------|--------------------------------------------------------------------------------|
 | Element Type <br/>   | Feature<br/>                                                             |
 | Scoping Prefix <br/> | Document<br/>                                                            |

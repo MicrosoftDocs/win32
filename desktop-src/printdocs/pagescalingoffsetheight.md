@@ -19,7 +19,7 @@ Specifies the scaling offset in the ImageableSizeHeight direction for custom sca
 
 
 
-| Name                       |                                                         |
+| Name | Value |
 |----------------------------|---------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                 |
 | Scoping Prefix <br/> | Page<br/>                                         |

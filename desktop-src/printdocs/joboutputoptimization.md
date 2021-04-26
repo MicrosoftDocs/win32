@@ -20,7 +20,7 @@ Describes the job processing, intended to optimize the output for particular use
 
 
 
-| Name                       |                    |
+| Name | Value |
 |----------------------------|--------------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Job<br/>     |

@@ -27,7 +27,7 @@ Whitespace in the string should be ignored.
 
 
 
-| Name                       |                         |
+| Name | Value |
 |----------------------------|-------------------------|
 | Element Type <br/>   | ParameterDef<br/> |
 | Scoping Prefix <br/> | Document<br/>     |

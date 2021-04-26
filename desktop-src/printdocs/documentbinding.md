@@ -20,7 +20,7 @@ Describes the method of binding. Each document is bound separately. DocumentBind
 
 
 
-| Name                       |                                                                                                                                                 |
+| Name | Value |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | Element Type <br/>   | Feature<br/>                                                                                                                              |
 | Scoping Prefix <br/> | Document<br/>                                                                                                                             |

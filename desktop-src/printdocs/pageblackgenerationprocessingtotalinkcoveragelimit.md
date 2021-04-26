@@ -19,7 +19,7 @@ Specifies the maximum allowed sum of the four ink coverage anywhere in an image.
 
 
 
-| Name                       |                                                            |
+| Name | Value |
 |----------------------------|------------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                    |
 | Scoping Prefix <br/> | Page<br/>                                            |

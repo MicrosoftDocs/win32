@@ -62,7 +62,7 @@ Port type declarations are referenced by the application and much of the generat
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

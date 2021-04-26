@@ -46,7 +46,7 @@ Legal values, except in the case of WSDAPI itself are greater than 0 and less th
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

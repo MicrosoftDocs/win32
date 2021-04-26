@@ -20,7 +20,7 @@ Describes the accounting sheet to be output for the job. The accounting sheet sh
 
 
 
-| Name                       |                    |
+| Name | Value |
 |----------------------------|--------------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Job<br/>     |
