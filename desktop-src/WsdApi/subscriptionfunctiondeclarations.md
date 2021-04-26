@@ -65,7 +65,7 @@ Generates implementation declarations for subscribe/unsubscribe proxy functions 
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

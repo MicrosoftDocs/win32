@@ -43,7 +43,7 @@ Possible values are 1 (event arguments included) and 0 (default, event arguments
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

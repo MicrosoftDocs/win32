@@ -42,7 +42,7 @@ Hosting metadata is referenced by the application when it initializes the host. 
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

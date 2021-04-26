@@ -44,7 +44,7 @@ Possible values are 1 (enabled, default) and 0 (disabled). Enabling **autoStatic
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

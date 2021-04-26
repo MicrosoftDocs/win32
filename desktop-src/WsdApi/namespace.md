@@ -81,7 +81,7 @@ The following XML shows a nameSpace element (with children omitted for brevity).
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

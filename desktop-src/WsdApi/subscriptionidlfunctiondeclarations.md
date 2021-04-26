@@ -65,7 +65,7 @@ Generates IDL declarations for subscribe/unsubscribe proxy functions for port ty
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

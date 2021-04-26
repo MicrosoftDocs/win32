@@ -62,7 +62,7 @@ Any [**importHint**](importhint.md) or [**excludeImport**](excludeimport.md) ele
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | No            |

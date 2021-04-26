@@ -54,7 +54,7 @@ By default, code is generated for all port types in WSDL input files.
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

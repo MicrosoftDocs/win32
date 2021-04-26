@@ -42,7 +42,7 @@ This element is generally used in C source files to provide the service host met
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
