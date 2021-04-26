@@ -48,9 +48,8 @@ To enable the best performance for applying an effect, all components of a light
 
 
 
-|                        |        |                                                                                                                     |
-|------------------------|--------|---------------------------------------------------------------------------------------------------------------------|
 | Light State            | Type   | Values                                                                                                              |
+|------------------------|--------|---------------------------------------------------------------------------------------------------------------------|
 | LightAmbient\[n\]      | float4 | See the Ambient member of [**D3DLIGHT9**](d3dlight9.md).                                                           |
 | LightAttenuation0\[n\] | float  | See the Attenuation0 member of [**D3DLIGHT9**](d3dlight9.md).                                                      |
 | LightAttenuation1\[n\] | float  | See the Attenuation1 member of [**D3DLIGHT9**](d3dlight9.md).                                                      |
@@ -90,9 +89,8 @@ States that you fail to declare are set to some default value because there is n
 
 
 
-|                  |        |                                                |
-|------------------|--------|------------------------------------------------|
 | Material State   | Type   | Values                                         |
+|------------------|--------|------------------------------------------------|
 | MaterialAmbient  | float4 | Same value as [**Ambient**](d3dmaterial9.md)  |
 | MaterialDiffuse  | float4 | Same value as [**Diffuse**](d3dmaterial9.md)  |
 | MaterialEmissive | float4 | Same value as [**Emissive**](d3dmaterial9.md) |
@@ -314,9 +312,8 @@ Effect file render states have names similar to the fixed function pipeline stat
 
 
 
-|                          |        |                                                                                                                                               |
-|--------------------------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | Render State             | Type   | Values                                                                                                                                        |
+|--------------------------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | Ambient                  | float4 | Same values as D3DRS\_AMBIENT.                                                                                                                |
 | AmbientMaterialSource    | dword  | Same values as [**D3DMATERIALCOLORSOURCE**](./d3dmaterialcolorsource.md) without the D3DMCS\_ prefix. See D3DRS\_AMBIENTMATERIALSOURCE.  |
 | Clipping                 | bool   | True or False. Same values as D3DRS\_CLIPPING.                                                                                                |
@@ -376,9 +373,8 @@ A sampler state represents a sampler object.
 
 
 
-|         |         |                                     |
-|---------|---------|-------------------------------------|
 | State   | Type    | Values                              |
+|---------|---------|-------------------------------------|
 | Sampler | sampler | **NULL**, or a sampler state block. |
 
 
@@ -391,9 +387,8 @@ Sampler stage states are used to sample textures. Sampler state determines filte
 
 
 
-|                     |                              |                                                                                                                                   |
-|---------------------|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Sampler State       | Type                         | Values                                                                                                                            |
+|---------------------|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | AddressU\[16\]      | dword                        | Same values as [**D3DTEXTUREADDRESS**](./d3dtextureaddress.md) without the D3DTADDRESS\_ prefix. See D3DSAMP\_ADDRESSU.      |
 | AddressV\[16\]      | dword                        | Same values as [**D3DTEXTUREADDRESS**](./d3dtextureaddress.md) without the D3DTADDRESS\_ prefix. See D3DSAMP\_ADDRESSV.      |
 | AddressW\[16\]      | dword                        | Same values as [**D3DTEXTUREADDRESS**](./d3dtextureaddress.md) without the D3DTADDRESS\_ prefix. See D3DSAMP\_ADDRESSW.      |
@@ -429,9 +424,8 @@ There are only two effect shader states: one associated with a vertex shader obj
 
 
 
-|              |              |                                                                             |
-|--------------|--------------|-----------------------------------------------------------------------------|
 | Shader State | Type         | Values                                                                      |
+|--------------|--------------|-----------------------------------------------------------------------------|
 | PixelShader  | pixelshader  | **NULL**, an assembly block, a compile target, or a pixel shader parameter. |
 | VertexShader | vertexshader | **NULL**, an assembly block, a compile target, or a pixel shader parameter. |
 
@@ -457,9 +451,8 @@ Shader constant states are used to access shader constant parameters.
 
 
 
-|                       |                 |                                              |
-|-----------------------|-----------------|----------------------------------------------|
 | Shader Constant State | Type            | Values                                       |
+|-----------------------|-----------------|----------------------------------------------|
 | PixelShaderConstant   | float\[m\[n\]\] | m x n array of floats; m and n are optional. |
 | PixelShaderConstant1  | float4          | One 4D float.                                |
 | PixelShaderConstant2  | float4x2        | Two 4D floats.                               |
@@ -487,9 +480,8 @@ Texture states initialize textures used by the multitexture blender.
 
 
 
-|               |         |                                   |
-|---------------|---------|-----------------------------------|
 | Texture State | Type    | Values                            |
+|---------------|---------|-----------------------------------|
 | Texture\[8\]  | texture | **NULL**, or a texture parameter. |
 
 
@@ -502,9 +494,8 @@ Texture stage states set up textures and the texture stages in the multitexture 
 
 
 
-|                            |       |                                                                                                                                                           |
-|----------------------------|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Texture Stage State        | Type  | Values                                                                                                                                                    |
+|----------------------------|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | AlphaOp\[8\]               | dword | Same as [**D3DTEXTUREOP**](./d3dtextureop.md) without the D3DTOP\_ prefix. See D3DTSS\_ALPHAOP.                                                      |
 | AlphaArg0\[8\]             | dword | Same as [D3DTA](d3dta.md) without the D3DTA\_ prefix. See D3DTSS\_ALPHAARG0.                                                                             |
 | AlphaArg1\[8\]             | dword | Same as [D3DTA](d3dta.md) without the D3DTA\_ prefix. See D3DTSS\_ALPHAARG1.                                                                             |
@@ -533,9 +524,8 @@ Set transform states to initialize transformation matrices. Effects use transpos
 
 
 
-|                       |          |                                                                                                                                 |
-|-----------------------|----------|---------------------------------------------------------------------------------------------------------------------------------|
 | Transform State       | Type     | Values                                                                                                                          |
+|-----------------------|----------|---------------------------------------------------------------------------------------------------------------------------------|
 | ProjectionTransform   | float4x4 | A 4x4 matrix of floats. Same values as D3DTS\_PROJECTION without the D3DTS\_ prefix.                                            |
 | TextureTransform\[8\] | float4x4 | A 4x4 matrix of floats. Same values as [**D3DTRANSFORMSTATETYPE**](./d3dtransformstatetype.md) without the D3DTS\_ prefix. |
 | ViewTransform         | float4x4 | A 4x4 matrix of floats. Same values as D3DTS\_VIEW without the D3DTS\_ prefix.                                                  |

@@ -12,9 +12,8 @@ The following flags are used to specify which channels in a texture to operate o
 
 
 
-|                         |                                                                                                                                                                                                             |
-|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \#define                | Description                                                                                                                                                                                                 |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DX\_FILTER\_NONE      | No scaling or filtering will take place. Pixels outside the bounds of the source image are assumed to be transparent black.                                                                                 |
 | D3DX\_FILTER\_POINT     | Each destination pixel is computed by sampling the nearest pixel from the source image.                                                                                                                     |
 | D3DX\_FILTER\_LINEAR    | Each destination pixel is computed by sampling the four nearest pixels from the source image. This filter works best when the scale on both axes is less than two.                                          |

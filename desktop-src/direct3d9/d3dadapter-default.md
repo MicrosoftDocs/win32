@@ -12,9 +12,8 @@ Specifies the primary display adapter.
 
 
 
-|                     |       |                                              |
-|---------------------|-------|----------------------------------------------|
 | \#define            | Value | Description                                  |
+|---------------------|-------|----------------------------------------------|
 | D3DADAPTER\_DEFAULT | 0     | Used to specify the primary display adapter. |
 
 

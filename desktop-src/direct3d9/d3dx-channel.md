@@ -12,9 +12,8 @@ The following flags are used to specify which channels in a texture to operate o
 
 
 
-|                          |                                                                               |
-|--------------------------|-------------------------------------------------------------------------------|
 | \#define                 | Description                                                                   |
+|--------------------------|-------------------------------------------------------------------------------|
 | D3DX\_CHANNEL\_RED       | Indicates the red channel should be used.                                     |
 | D3DX\_CHANNEL\_BLUE      | Indicates the blue channel should be used.                                    |
 | D3DX\_CHANNEL\_GREEN     | Indicates the green channel should be used.                                   |

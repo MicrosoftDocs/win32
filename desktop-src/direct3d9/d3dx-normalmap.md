@@ -12,9 +12,8 @@ Normal maps generation constants.
 
 
 
-|                                     |                                                                                                                                                                                                    |
-|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \#define                            | Description                                                                                                                                                                                        |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DX\_NORMALMAP\_MIRROR\_U          | Indicates that pixels off the edge of the texture on the u-axis should be mirrored, not wrapped.                                                                                                   |
 | D3DX\_NORMALMAP\_MIRROR\_V          | Indicates that pixels off the edge of the texture on the v-axis should be mirrored, not wrapped.                                                                                                   |
 | D3DX\_NORMALMAP\_MIRROR             | Same as specifying D3DX\_NORMALMAP\_MIRROR\_U \| D3DX\_NORMALMAP\_MIRROR\_V.                                                                                                                       |
