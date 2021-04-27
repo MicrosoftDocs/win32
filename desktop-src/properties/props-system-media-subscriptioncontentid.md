@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Media.SubscriptionContentId
 ms.assetid: c55647d8-0e6e-4da5-a822-3a91fba179ea
 title: System.Media.SubscriptionContentId
 ms.topic: article

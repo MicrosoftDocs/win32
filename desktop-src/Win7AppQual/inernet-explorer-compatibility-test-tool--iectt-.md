@@ -1,5 +1,5 @@
 ---
-description: .
+description: Internet Explorer Compatibility Test Tool (IECTT)
 ms.assetid: 11169540-555A-48A9-A4CD-535D5765C005
 title: Internet Explorer Compatibility Test Tool (IECTT)
 ms.topic: article

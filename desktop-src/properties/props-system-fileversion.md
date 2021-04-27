@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.FileVersion
 ms.assetid: f2021d11-f713-497e-b503-51c674b8828f
 title: System.FileVersion
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: DirectX Graphics Articles
-description: .
+description: DirectX Graphics Articles
 ms.assetid: 22178507-9a3b-49b1-a3db-851001a32e8e
 ms.topic: article
 ms.date: 05/31/2018

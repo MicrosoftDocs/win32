@@ -1,6 +1,6 @@
 ---
 title: Accelerator Tables
-description: .
+description: Accelerator Tables
 ms.assetid: 4F2CFD7C-90D3-4C3F-9A42-05B915914EF6
 ms.topic: article
 ms.date: 05/31/2018

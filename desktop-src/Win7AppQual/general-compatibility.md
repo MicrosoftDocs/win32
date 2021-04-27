@@ -1,5 +1,5 @@
 ---
-description: .
+description: General Compatibility
 ms.assetid: 2072bd3f-a6cf-43d5-bc55-9b86d819aea1
 title: General Compatibility
 ms.topic: article

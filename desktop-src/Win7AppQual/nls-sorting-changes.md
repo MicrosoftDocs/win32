@@ -1,5 +1,5 @@
 ---
-description: .
+description: NLS Sorting Changes
 ms.assetid: 24617b5f-14f1-4f1b-a288-7d20a8166da0
 title: NLS Sorting Changes
 ms.topic: article

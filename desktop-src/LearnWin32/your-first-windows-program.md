@@ -1,6 +1,6 @@
 ---
 title: Module 1. Your First Windows Program
-description: .
+description: Module 1. Your First Windows Program
 ms.assetid: 73848144-bf02-4382-a476-7f5a35447727
 ms.topic: article
 ms.date: 05/31/2018

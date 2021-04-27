@@ -1,5 +1,5 @@
 ---
-description: .
+description: Calendar
 ms.assetid: fde5c85f-e620-4557-89f0-7dbbbea74f8c
 title: Calendar
 ms.topic: article

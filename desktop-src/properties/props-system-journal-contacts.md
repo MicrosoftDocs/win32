@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Journal.Contacts
 ms.assetid: f0da34f2-852d-4647-8150-979439fc0f4d
 title: System.Journal.Contacts
 ms.topic: article

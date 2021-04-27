@@ -1,5 +1,5 @@
 ---
-description: .
+description: Message (Windows Property System)
 ms.assetid: 608536cd-cb34-405d-baa7-d99167128cfe
 title: Message (Windows Property System)
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Contact.JobInfo2Title
 ms.assetid: cea60e33-5e14-4dbc-8185-e81d14a96b4f
 title: System.Contact.JobInfo2Title
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Kernel Mode Cache
-description: .
+description: Kernel Mode Cache
 ms.assetid: f9a46ff4-779b-4b3a-b8f5-1ae10a3c0a61
 ms.topic: article
 ms.date: 05/31/2018

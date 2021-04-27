@@ -1,5 +1,5 @@
 ---
-description: .
+description: Additional Windows Resource Protection on Registry Keys
 ms.assetid: 25d07e42-b5eb-4f72-b4b1-0ebb881644ba
 title: Additional Windows Resource Protection on Registry Keys
 ms.topic: article

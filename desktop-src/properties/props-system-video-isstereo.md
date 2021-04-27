@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Video.IsStereo
 ms.assetid: 900407d6-f01b-44f4-9d60-3e2f785723ca
 title: System.Video.IsStereo
 ms.topic: article

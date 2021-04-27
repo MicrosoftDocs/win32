@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Sync.ConflictSecondLocation
 ms.assetid: 436aec48-518b-4759-b06a-d23b8e422ca8
 title: System.Sync.ConflictSecondLocation
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Contact.BusinessAddress1PostalCode
 ms.assetid: 92699da2-5cb3-45cd-b440-56d8202c17b3
 title: System.Contact.BusinessAddress1PostalCode
 ms.topic: article
