@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Music.ContentGroupDescription
 ms.assetid: a2725816-eea0-4e49-9134-8f6bcc00c72a
 title: System.Music.ContentGroupDescription
 ms.topic: article

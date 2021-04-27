@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Media.ClassPrimaryID
 ms.assetid: f7662562-6036-4b3c-9c24-b12afb9255a0
 title: System.Media.ClassPrimaryID
 ms.topic: article

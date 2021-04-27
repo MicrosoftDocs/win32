@@ -1,5 +1,5 @@
 ---
-description: Provides COM-standard enumeration methods for the IPStore interface.
+description: IEnumPStoreTypes interface - Provides COM-standard enumeration methods for the IPStore interface.
 ms.assetid: a90bc5cf-ca42-4007-a57b-be9c59d9552a
 title: IEnumPStoreTypes interface (Pstore.h)
 ms.topic: reference

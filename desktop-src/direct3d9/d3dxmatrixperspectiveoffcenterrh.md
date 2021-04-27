@@ -1,5 +1,5 @@
 ---
-description: Builds a customized, right-handed perspective projection matrix.
+description: D3DXMatrixPerspectiveOffCenterRH function (D3dx9math.h) - Builds a customized, right-handed perspective projection matrix.
 ms.assetid: e6826e46-fc80-41fa-b0d8-45b6797df76f
 title: D3DXMatrixPerspectiveOffCenterRH function (D3dx9math.h)
 ms.topic: reference

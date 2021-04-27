@@ -1,5 +1,5 @@
 ---
-description: Fills an array with callback key data used for key frame animation.
+description: ID3DXKeyframedAnimationSet::GetCallbackKeys method - Fills an array with callback key data used for key frame animation.
 ms.assetid: 2a2aa04a-a889-415b-8aa2-cc5f2bed1f9a
 title: ID3DXKeyframedAnimationSet::GetCallbackKeys method (D3dx9anim.h)
 ms.topic: reference

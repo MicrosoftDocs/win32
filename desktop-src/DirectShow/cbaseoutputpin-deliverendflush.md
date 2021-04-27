@@ -1,5 +1,5 @@
 ---
-description: The DeliverEndFlush method requests the connected input pin to end a flush operation.
+description: CBaseOutputPin.DeliverEndFlush method - The DeliverEndFlush method requests the connected input pin to end a flush operation.
 ms.assetid: 9f1fd76c-dba7-41c5-b098-9735e4f2571b
 title: CBaseOutputPin.DeliverEndFlush method (Amfilter.h)
 ms.topic: reference

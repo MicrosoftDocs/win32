@@ -1,6 +1,6 @@
 ---
 title: WebViewFolderContents.FocusedItem property (Shldisp.h)
-description: Gets a FolderItem object that represents the item that has the input focus.
+description: WebViewFolderContents.FocusedItem property - Gets a FolderItem object that represents the item that has the input focus.
 ms.assetid: 84cf92ac-dadb-4741-8383-a8ae1d35d4e0
 keywords:
 - FocusedItem property Legacy Windows Environment Features

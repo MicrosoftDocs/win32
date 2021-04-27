@@ -1,6 +1,6 @@
 ---
 title: SetDisableForcibleLogoff method of the Win32_TerminalServiceSetting class
-description: This method is not supported.
+description: SetDisableForcibleLogoff method of the Win32_TerminalServiceSetting class - This method is not supported.
 ms.assetid: 1b7ac0f2-c242-4ca8-bc4d-8111e63851eb
 ms.tgt_platform: multiple
 keywords:

@@ -1,5 +1,5 @@
 ---
-description: Calculate the Fresnel term.
+description: D3DXFresnelTerm function (D3dx9math.h) - Calculate the Fresnel term.
 ms.assetid: d3d281db-91a1-4100-8a82-028554b5a91d
 title: D3DXFresnelTerm function (D3dx9math.h)
 ms.topic: reference

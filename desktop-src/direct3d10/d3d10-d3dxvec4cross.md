@@ -1,5 +1,5 @@
 ---
-description: Determines the cross-product in four dimensions.
+description: D3DXVec4Cross function (D3DX10Math.h) - Determines the cross-product in four dimensions.
 ms.assetid: 4f728fbd-cf5a-4d2e-ba4f-487616d83f6d
 title: D3DXVec4Cross function (D3DX10Math.h)
 ms.topic: reference

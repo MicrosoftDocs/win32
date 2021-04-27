@@ -1,5 +1,5 @@
 ---
-description: Retrieves the error.
+description: GetError method of the Msvm_VirtualSystemReferencePointExportJob class - Retrieves the error.
 ms.assetid: a30cb74a-4e41-4981-b355-6f46b4b75ce6
 title: GetError method of the Msvm_VirtualSystemReferencePointExportJob class
 ms.topic: reference

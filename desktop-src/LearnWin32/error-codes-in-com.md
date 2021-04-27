@@ -1,6 +1,6 @@
 ---
 title: Error Codes in COM
-description: .
+description: Error Codes in COM
 ms.assetid: ed430863-f416-4611-81b4-0c31d819944a
 ms.topic: article
 ms.date: 05/31/2018

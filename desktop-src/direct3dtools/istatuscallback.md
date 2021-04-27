@@ -1,5 +1,5 @@
 ---
-description: Not used.
+description: <span id="vspixengine.istatuscallback"></span>IStatusCallback interface - Not used.
 MS-HAID: vspixengine.IStatusCallback
 MSHAttr:
 - PreferredSiteName:MSDN

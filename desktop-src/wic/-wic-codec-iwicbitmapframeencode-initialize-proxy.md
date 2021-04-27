@@ -1,5 +1,5 @@
 ---
-description: Proxy function for the Initialize method.
+description: IWICBitmapFrameEncode_Initialize_Proxy function - Proxy function for the Initialize method.
 ms.assetid: af9e204c-7072-47b8-84eb-47a754968d5b
 title: IWICBitmapFrameEncode_Initialize_Proxy function
 ms.topic: reference

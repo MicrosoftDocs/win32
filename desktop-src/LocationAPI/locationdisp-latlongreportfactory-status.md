@@ -1,5 +1,5 @@
 ---
-description: The current report status.
+description: LocationDisp.LatLongReportFactory.Status property - The current report status.
 ms.assetid: bcdf76b5-88c4-481a-89ac-2b9558cecfc0
 title: LocationDisp.LatLongReportFactory.Status property
 ms.topic: reference

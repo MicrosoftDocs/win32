@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Music.Period
 ms.assetid: 141ea422-d844-4e1c-9ef5-3b5ff27024f7
 title: System.Music.Period
 ms.topic: article

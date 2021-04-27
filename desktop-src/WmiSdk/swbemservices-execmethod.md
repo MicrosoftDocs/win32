@@ -1,5 +1,5 @@
 ---
-description: Executes a method that is exported by a method provider.
+description: SWbemServices.ExecMethod method - Executes a method that is exported by a method provider.
 ms.assetid: 2637efdc-fde5-4a44-a41f-67e0fb0df19d
 ms.tgt_platform: multiple
 title: SWbemServices.ExecMethod method (Wbemdisp.h)

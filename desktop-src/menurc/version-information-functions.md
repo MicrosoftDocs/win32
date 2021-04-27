@@ -1,6 +1,6 @@
 ---
 title: Version Information Functions
-description: .
+description: Version Information Functions
 ms.assetid: 6f902f76-2faf-4a22-86ca-8661eaae88d1
 ms.topic: article
 ms.date: 05/31/2018

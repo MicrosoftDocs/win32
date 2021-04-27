@@ -1,5 +1,5 @@
 ---
-description: Proxy function for the CopyPalette method.
+description: IWICBitmapSource_CopyPalette_Proxy function - Proxy function for the CopyPalette method.
 ms.assetid: 7dfe2367-036c-450a-ad2f-f862b77545a2
 title: IWICBitmapSource_CopyPalette_Proxy function
 ms.topic: reference

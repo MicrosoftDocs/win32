@@ -1,5 +1,5 @@
 ---
-description: Occurs when the user draws a new stroke on any tablet.
+description: InkPicture.Stroke event - Occurs when the user draws a new stroke on any tablet.
 ms.assetid: 2829b65a-6120-402e-91e3-5587d1f456f9
 title: InkPicture.Stroke event (Msinkaut.h)
 ms.topic: reference

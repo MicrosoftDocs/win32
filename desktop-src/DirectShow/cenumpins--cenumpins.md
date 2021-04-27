@@ -1,5 +1,5 @@
 ---
-description: Destructor method.
+description: CEnumPins.~CEnumPins destructor - Destructor method.
 ms.assetid: 21845996-8c00-4f00-adcf-1bec67cfc235
 title: CEnumPins.~CEnumPins destructor (Amfilter.h)
 ms.topic: reference

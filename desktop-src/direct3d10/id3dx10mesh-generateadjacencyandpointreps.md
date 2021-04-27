@@ -1,5 +1,5 @@
 ---
-description: Generate a list of mesh edges, as well as a list of faces that share each edge.
+description: ID3DX10Mesh::GenerateAdjacencyAndPointReps method - Generate a list of mesh edges, as well as a list of faces that share each edge.
 ms.assetid: 3932e2b1-031d-4962-ad90-6e9da8cf2e0e
 title: ID3DX10Mesh::GenerateAdjacencyAndPointReps method (D3DX10.h)
 ms.topic: reference

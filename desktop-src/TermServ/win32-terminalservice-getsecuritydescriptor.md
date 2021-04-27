@@ -1,6 +1,6 @@
 ---
 title: GetSecurityDescriptor method of the Win32_Service class (Remote Desktop Services)
-description: Returns the security descriptor that controls access to the service.
+description: GetSecurityDescriptor method of the Win32_Service class (Remote Desktop Services) - Returns the security descriptor that controls access to the service.
 ms.assetid: 9898091A-5BE2-42A0-BF81-13AB74696ACB
 ms.tgt_platform: multiple
 keywords:

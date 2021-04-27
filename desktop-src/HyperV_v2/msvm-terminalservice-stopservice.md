@@ -1,5 +1,5 @@
 ---
-description: Stops the service.
+description: StopService method of the Msvm_TerminalService class - Stops the service.
 ms.assetid: c96ca784-c935-41a4-b1aa-8360cf270c9e
 title: StopService method of the Msvm_TerminalService class
 ms.topic: reference

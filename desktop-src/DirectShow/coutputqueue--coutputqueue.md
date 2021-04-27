@@ -1,5 +1,5 @@
 ---
-description: Destructor method.
+description: COutputQueue.~COutputQueue destructor - Destructor method.
 ms.assetid: a49471a3-7497-4f10-b8d1-2ceb407f34ec
 title: COutputQueue.~COutputQueue destructor (Outputq.h)
 ms.topic: reference

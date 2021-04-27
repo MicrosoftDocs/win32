@@ -1,5 +1,5 @@
 ---
-description: This class is the event type class for thread start and end events. The following syntax is simplified from MOF code.
+description: Thread_TypeGroup1 class - This class is the event type class for thread start and end events. The following syntax is simplified from MOF code.
 ms.assetid: d9e3e33a-0e59-4753-a8d8-5320cbae9d95
 title: Thread_TypeGroup1 class
 ms.topic: reference

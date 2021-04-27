@@ -1,6 +1,6 @@
 ---
 title: UserControlService method of the Win32_Service class (Remote Desktop Services)
-description: Attempts to send a user-defined control code to the referenced service.
+description: UserControlService method of the Win32_Service class (Remote Desktop Services) - Attempts to send a user-defined control code to the referenced service.
 ms.assetid: 7B9020C1-2183-4FC4-ABCF-CE34111FF5D3
 ms.tgt_platform: multiple
 keywords:

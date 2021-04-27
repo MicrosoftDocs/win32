@@ -1,5 +1,5 @@
 ---
-description: .
+description: Setting DXVA-HD States
 ms.assetid: 7f339ee8-01e6-4bbb-8563-020ff0e02499
 title: Setting DXVA-HD States
 ms.topic: article

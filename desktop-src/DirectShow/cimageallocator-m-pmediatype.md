@@ -1,5 +1,5 @@
 ---
-description: The m\_pMediaType member variable is a pointer to the current media type.
+description: CImageAllocator::m_pMediaType member - The m\_pMediaType member variable is a pointer to the current media type.
 ms.assetid: a41e938f-5f01-4fd0-99d7-65d3a93822a5
 title: CImageAllocator::m_pMediaType member (Winutil.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: Builds a customized, right-handed orthographic projection matrix.
+description: D3DXMatrixOrthoOffCenterRH function (D3DX10Math.h) - Builds a customized, right-handed orthographic projection matrix.
 ms.assetid: 01d4d61e-de7b-4431-a168-68a50b1d6021
 title: D3DXMatrixOrthoOffCenterRH function (D3DX10Math.h)
 ms.topic: reference

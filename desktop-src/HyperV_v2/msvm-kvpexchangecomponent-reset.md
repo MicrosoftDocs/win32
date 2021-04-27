@@ -1,5 +1,5 @@
 ---
-description: Requests a reset.
+description: Reset method of the Msvm_KvpExchangeComponent class - Requests a reset.
 ms.assetid: 7fa12de6-061c-40ff-98f2-8befd8c502b4
 title: Reset method of the Msvm_KvpExchangeComponent class
 ms.topic: reference

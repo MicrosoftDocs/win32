@@ -1,5 +1,5 @@
 ---
-description: Creates and returns a Folder object for the specified folder.
+description: IShellDispatch.NameSpace method - Creates and returns a Folder object for the specified folder.
 ms.assetid: CEA73705-1C27-4138-86C4-1715016E2ED8
 title: IShellDispatch.NameSpace method (Shldisp.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: Not supported.
+description: IAMTimelineObj::SetSubObject method - Not supported.
 ms.assetid: a74db99b-d7ee-49df-84f1-a84e7a2f7d92
 title: IAMTimelineObj::SetSubObject method (Qedit.h)
 ms.topic: reference

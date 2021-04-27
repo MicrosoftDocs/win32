@@ -1,5 +1,5 @@
 ---
-description: Requests a state change.
+description: RequestStateChange method of the Msvm_FcEndpoint class - Requests a state change.
 ms.assetid: 5734d1a3-5e6e-4b50-aa15-d6c47f4b2a81
 title: RequestStateChange method of the Msvm_FcEndpoint class
 ms.topic: reference

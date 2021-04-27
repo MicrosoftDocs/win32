@@ -1,5 +1,5 @@
 ---
-description: Contains the index of an entry and its TAG information in a shim database.
+description: TAGREF - Contains the index of an entry and its TAG information in a shim database.
 ms.assetid: e7d83dca-13a5-4396-b50b-0d068209c03c
 title: TAGREF
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: A 4x4, 16-byte-aligned matrix that contains methods and operator overloads.
+description: D3DXMATRIXA16 structure (D3DX10Math.h) - A 4x4, 16-byte-aligned matrix that contains methods and operator overloads.
 ms.assetid: d9e9c1cc-7555-4011-a4b4-8cce20404841
 title: D3DXMATRIXA16 structure (D3DX10Math.h)
 ms.topic: reference

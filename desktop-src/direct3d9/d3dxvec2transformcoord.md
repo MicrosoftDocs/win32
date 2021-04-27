@@ -1,5 +1,5 @@
 ---
-description: Transforms a 2D vector by a given matrix, projecting the result back into w = 1.
+description: D3DXVec2TransformCoord function (D3dx9math.h) - Transforms a 2D vector by a given matrix, projecting the result back into w = 1.
 ms.assetid: 0c0efdf8-77df-4f4a-86ce-89e11555f4dc
 title: D3DXVec2TransformCoord function (D3dx9math.h)
 ms.topic: reference

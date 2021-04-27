@@ -1,6 +1,6 @@
 ---
 title: CSymbolType Simple Type (Windows Event Log)
-description: Defines a valid C/C++ symbol name.
+description: CSymbolType Simple Type (Windows Event Log) - Defines a valid C/C++ symbol name.
 ms.assetid: d19827b6-2b61-4d75-ac9d-56a384b0cc4b
 keywords:
 - CSymbolType simple type EventLog

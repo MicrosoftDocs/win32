@@ -1,5 +1,5 @@
 ---
-description: Not supported.
+description: IAMTimeline::GetInsertMode method - Not supported.
 ms.assetid: 864c2805-be19-4e25-acaa-9fd0466d788d
 title: IAMTimeline::GetInsertMode method (Qedit.h)
 ms.topic: reference

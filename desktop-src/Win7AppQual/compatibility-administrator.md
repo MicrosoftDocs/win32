@@ -1,5 +1,5 @@
 ---
-description: .
+description: Compatibility Administrator
 ms.assetid: 72a77e83-ab18-438c-af11-fa6d55bf0180
 title: Compatibility Administrator
 ms.topic: article

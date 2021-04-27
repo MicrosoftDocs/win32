@@ -1,5 +1,5 @@
 ---
-description: Opens a system dialog box to request user permission for location-enabled devices.
+description: LocationDisp.CivicAddressReportFactory.RequestPermissions method - Opens a system dialog box to request user permission for location-enabled devices.
 ms.assetid: b213591a-2830-4979-b532-e71cdef1b994
 title: LocationDisp.CivicAddressReportFactory.RequestPermissions method
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: Describes a quaternion.
+description: D3DXQUATERNION structure (D3DX10Math.h) - Describes a quaternion.
 ms.assetid: e6cb45b2-3132-4315-b02d-a3dfc444f8cc
 title: D3DXQUATERNION structure (D3DX10Math.h)
 ms.topic: reference

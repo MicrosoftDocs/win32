@@ -1,6 +1,6 @@
 ---
 title: XInput Game Controller APIs
-description: .
+description: XInput Game Controller APIs
 ms.assetid: fbbc651b-9264-9b5d-01c6-efc58f50b19d
 ms.topic: article
 ms.date: 05/31/2018

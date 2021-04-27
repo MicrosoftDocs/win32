@@ -1,6 +1,6 @@
 ---
 title: HDM_TRANSLATEACCELERATOR message
-description: Not implemented.
+description: HDM_TRANSLATEACCELERATOR message - Not implemented.
 ms.assetid: 1e38a202-885c-4539-98d6-bc0e650198dc
 keywords:
 - HDM_TRANSLATEACCELERATOR message Windows Controls

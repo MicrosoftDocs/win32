@@ -1,5 +1,5 @@
 ---
-description: Sets the key protector for a virtual system.
+description: SetSecurityPolicy method of the Msvm_SecurityService class - Sets the key protector for a virtual system.
 ms.assetid: 22496fde-6298-4e9d-bd0c-135dcb4ea5a5
 title: SetSecurityPolicy method of the Msvm_SecurityService class
 ms.topic: reference

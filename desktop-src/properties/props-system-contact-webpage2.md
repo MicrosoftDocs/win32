@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Contact.Webpage2
 ms.assetid: d9b39661-5dcf-479f-94c7-6b1ddc00464b
 title: System.Contact.Webpage2
 ms.topic: article

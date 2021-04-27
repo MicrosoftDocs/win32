@@ -1,6 +1,6 @@
 ---
 title: WebViewFolderContents.Folder property (Shldisp.h)
-description: Gets a Folder object that represents the view.
+description: WebViewFolderContents.Folder property - Gets a Folder object that represents the view.
 ms.assetid: 1d81c27a-1e48-4c0a-b74d-c63af43a909d
 keywords:
 - Folder property Legacy Windows Environment Features

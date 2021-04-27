@@ -1,5 +1,5 @@
 ---
-description: Not used.
+description: <span id="vspixengine.isingleeventrequest_requestsupportedcolumnsasync_iframeeventscallback_ptr_dword"></span>ISingleEventRequest::RequestSupportedColumnsAsync method - Not used.
 MS-HAID: vspixengine.ISingleEventRequest\_RequestSupportedColumnsAsync\_IFrameEventsCallback\_ptr\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

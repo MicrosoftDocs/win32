@@ -1,5 +1,5 @@
 ---
-description: .
+description: Hook Functions
 ms.assetid: a1ff74b4-c015-4a82-a1fe-f4af1eaee705
 title: Hook Functions
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Contact.HomeAddress3Street
 ms.assetid: 05f45578-3259-4570-a1da-6068f520ecc0
 title: System.Contact.HomeAddress3Street
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-description: The SetPowerState method sets the desired power state for a logical device and when a device should be put into that state.
+description: SetPowerState method of the CIM_DiscreteSensor class - The SetPowerState method sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: 54ccadd1-0875-49e7-b453-6ba9359f8291
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_DiscreteSensor class

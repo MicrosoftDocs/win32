@@ -1,5 +1,5 @@
 ---
-description: The get\_\_NewEnum method returns an enumerator for the collection.
+description: ITTimeCollection::get__NewEnum method - The get\_\_NewEnum method returns an enumerator for the collection.
 ms.assetid: 0c2d739d-736d-4773-9747-1107546a973c
 title: ITTimeCollection::get__NewEnum method (Sdpblb.h)
 ms.topic: reference

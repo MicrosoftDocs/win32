@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Contact.JobInfo1YomiCompanyName
 ms.assetid: ec53b8e9-6ec0-491c-9a40-250bb5aaa271
 title: System.Contact.JobInfo1YomiCompanyName
 ms.topic: article

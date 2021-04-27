@@ -1,5 +1,5 @@
 ---
-description: Retrieves the error objects for the job, if any exist.
+description: GetErrorEx method of the Msvm_ConcreteJob class - Retrieves the error objects for the job, if any exist.
 ms.assetid: B4B4F60C-9221-4125-8D42-F0F1D32C3E79
 title: GetErrorEx method of the Msvm_ConcreteJob class
 ms.topic: reference

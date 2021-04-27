@@ -1,5 +1,5 @@
 ---
-description: Applications use the methods of the ID3DXMATRIXStack interface to manipulate a matrix stack.
+description: ID3DXMatrixStack interface - Applications use the methods of the ID3DXMATRIXStack interface to manipulate a matrix stack.
 ms.assetid: 6c76f9e0-5f59-4cf3-b34a-2475536af6c7
 title: ID3DXMatrixStack interface (D3DX10.h)
 ms.topic: reference

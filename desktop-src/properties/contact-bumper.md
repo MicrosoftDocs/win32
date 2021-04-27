@@ -1,5 +1,5 @@
 ---
-description: .
+description: Contact
 ms.assetid: 00198aec-d05d-4aaf-b63e-1625d8befe06
 title: Contact
 ms.topic: article

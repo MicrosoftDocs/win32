@@ -1,5 +1,5 @@
 ---
-description: Attaches a surface to another surface.
+description: NtGdiDdAddAttachedSurface function - Attaches a surface to another surface.
 ms.assetid: c4ef9e96-c498-4175-a2cd-22e0f88fd86e
 title: NtGdiDdAddAttachedSurface function (Ntgdi.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Link.TargetUrlHostName
 ms.assetid: 548e4130-bf18-43cf-955d-a7e856152d0c
 title: System.Link.TargetUrlHostName
 ms.topic: article

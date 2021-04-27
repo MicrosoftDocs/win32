@@ -1,5 +1,5 @@
 ---
-description: Stops the service.
+description: StopService method of the Msvm_TransparentBridgingService class - Stops the service.
 ms.assetid: ac6b8df2-e2f2-47df-8c1e-07460a15e8e2
 title: StopService method of the Msvm_TransparentBridgingService class
 ms.topic: reference

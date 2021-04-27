@@ -1,5 +1,5 @@
 ---
-description: The IsFormatSupported method determines whether a specified time format is supported. This method implements the IMediaSeeking::IsFormatSupported method.
+description: CSourceSeeking.IsFormatSupported method - The IsFormatSupported method determines whether a specified time format is supported. This method implements the IMediaSeeking::IsFormatSupported method.
 ms.assetid: 79b6dfd4-7f03-479b-b855-8f389bf6cbc7
 title: CSourceSeeking.IsFormatSupported method (Ctlutil.h)
 ms.topic: reference

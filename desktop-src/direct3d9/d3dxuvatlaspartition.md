@@ -1,5 +1,5 @@
 ---
-description: Create a UV atlas for a mesh.
+description: D3DXUVAtlasPartition function - Create a UV atlas for a mesh.
 ms.assetid: c46f3e47-8e72-435c-875d-cccfa4b893a2
 title: D3DXUVAtlasPartition function (D3DX9Mesh.h)
 ms.topic: reference

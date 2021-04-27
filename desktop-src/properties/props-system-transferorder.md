@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.TransferOrder
 ms.assetid: fb2ff37c-cfee-498f-8fc3-5d73ee84bc84
 title: System.TransferOrder
 ms.topic: article

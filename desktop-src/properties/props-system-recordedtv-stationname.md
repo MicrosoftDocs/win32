@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.RecordedTV.StationName
 ms.assetid: 26da8e3b-de9e-4f6e-8e17-fad1d5e72b42
 title: System.RecordedTV.StationName
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-description: Changes the security permissions for the logical directory entry file specified in the object path.
+description: ChangeSecurityPermissions method of the CIM_Directory class - Changes the security permissions for the logical directory entry file specified in the object path.
 ms.assetid: d3caeec1-fecc-4463-9349-d82869c11927
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissions method of the CIM_Directory class

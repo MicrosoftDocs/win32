@@ -1,5 +1,5 @@
 ---
-description: Obsolete. Use AMovieDllRegisterServer2 instead.
+description: AMovieDllRegisterServer function - Obsolete. Use AMovieDllRegisterServer2 instead.
 ms.assetid: d3be5fe0-f993-4a15-a3b8-3d761d51f289
 title: AMovieDllRegisterServer function (Dllsetup.h)
 ms.topic: reference

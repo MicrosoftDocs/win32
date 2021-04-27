@@ -1,5 +1,5 @@
 ---
-description: .
+description: Computer
 ms.assetid: bd85ae42-5130-474a-8898-e12bb72c4eae
 title: Computer
 ms.topic: article

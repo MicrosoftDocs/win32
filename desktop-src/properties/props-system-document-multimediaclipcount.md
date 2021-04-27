@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Document.MultimediaClipCount
 ms.assetid: bc9af024-19b0-4bd2-827a-a4ac9c05dc05
 title: System.Document.MultimediaClipCount
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CBaseVideoRenderer.CBaseVideoRenderer constructor - Constructor method.
 ms.assetid: 9b69632b-7932-4a9b-bd68-69b06dd8a5ec
 title: CBaseVideoRenderer.CBaseVideoRenderer constructor (Renbase.h)
 ms.topic: reference

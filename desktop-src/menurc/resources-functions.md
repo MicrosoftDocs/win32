@@ -1,6 +1,6 @@
 ---
 title: Resource Functions (Menus and Other Resources)
-description: .
+description: Resource Functions (Menus and Other Resources)
 ms.assetid: dfeaaf01-f947-453e-946e-65ad9ec40958
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,6 +1,6 @@
 ---
 title: Create method of the Win32_Service class (Remote Desktop Services)
-description: Creates a new system service.
+description: Create method of the Win32_Service class (Remote Desktop Services) - Creates a new system service.
 ms.assetid: 805754AA-B62A-4324-B289-503C42BEFA49
 ms.tgt_platform: multiple
 keywords:

@@ -1,5 +1,5 @@
 ---
-description: Use this method to re-acquire resources and save initial state.
+description: ID3DXFont::OnResetDevice method - Use this method to re-acquire resources and save initial state.
 ms.assetid: a63efb49-7864-4675-b367-4ae53995caea
 title: ID3DXFont::OnResetDevice method (D3dx9core.h)
 ms.topic: reference

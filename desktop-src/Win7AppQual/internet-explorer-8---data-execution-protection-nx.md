@@ -1,5 +1,5 @@
 ---
-description: .
+description: Internet Explorer 8 - Data Execution Protection/NX
 ms.assetid: 56a4889c-5dcf-416f-b46e-5c48277d5636
 title: Internet Explorer 8 - Data Execution Protection/NX
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Contact.OtherAddress3Country
 ms.assetid: f26e9e34-f55b-4862-89b9-6aa122a85046
 title: System.Contact.OtherAddress3Country
 ms.topic: article

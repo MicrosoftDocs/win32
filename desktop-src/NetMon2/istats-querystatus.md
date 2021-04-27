@@ -1,5 +1,5 @@
 ---
-description: The QueryStatus method retrieves the status of the NPP.
+description: IStats::QueryStatus method - The QueryStatus method retrieves the status of the NPP.
 ms.assetid: 86b1c1ee-3a35-4603-9e93-fe09f886c32f
 title: IStats::QueryStatus method (Netmon.h)
 ms.topic: reference

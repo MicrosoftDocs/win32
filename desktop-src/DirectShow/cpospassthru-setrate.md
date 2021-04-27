@@ -1,5 +1,5 @@
 ---
-description: The SetRate method sets the playback rate. This method implements the IMediaSeeking::SetRate method.
+description: CPosPassThru.SetRate method - The SetRate method sets the playback rate. This method implements the IMediaSeeking::SetRate method.
 ms.assetid: 1b38eb5d-38fd-408b-9f20-4f8d18158f92
 title: CPosPassThru.SetRate method (Ctlutil.h)
 ms.topic: reference

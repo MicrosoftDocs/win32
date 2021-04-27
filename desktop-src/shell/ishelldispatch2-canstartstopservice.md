@@ -1,5 +1,5 @@
 ---
-description: Determines if the current user can start and stop the named service.
+description: IShellDispatch2.CanStartStopService method - Determines if the current user can start and stop the named service.
 ms.assetid: cbb54ae9-02e6-4243-a782-e9f125c21c0d
 title: IShellDispatch2.CanStartStopService method (Shldisp.h)
 ms.topic: reference

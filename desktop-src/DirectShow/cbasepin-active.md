@@ -1,5 +1,5 @@
 ---
-description: The Active method notifies the pin that the filter is now active.
+description: CBasePin.Active method - The Active method notifies the pin that the filter is now active.
 ms.assetid: 1054f8cf-a5fb-4de6-abf2-c3740ce47787
 title: CBasePin.Active method (Amfilter.h)
 ms.topic: reference

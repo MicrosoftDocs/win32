@@ -1,5 +1,5 @@
 ---
-description: Starts a named service.
+description: Shell.ServiceStart method - Starts a named service.
 ms.assetid: 72214E80-38A2-4a57-B555-942902BAFC3D
 title: Shell.ServiceStart method (Shldisp.h)
 ms.topic: reference

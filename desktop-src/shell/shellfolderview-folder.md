@@ -1,5 +1,5 @@
 ---
-description: Gets a Folder object that represents the view.
+description: ShellFolderView.Folder property - Gets a Folder object that represents the view.
 ms.assetid: 8f3e7827-f2a0-4ce9-b3e9-e6316ec58863
 title: ShellFolderView.Folder property (Shldisp.h)
 ms.topic: reference

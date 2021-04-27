@@ -1,5 +1,5 @@
 ---
-description: The DecideBufferSize method sets the buffer requirements.
+description: CBaseOutputPin.DecideBufferSize method - The DecideBufferSize method sets the buffer requirements.
 ms.assetid: 1f7a3424-18ba-4a10-b09f-947ee8585ffa
 title: CBaseOutputPin.DecideBufferSize method (Amfilter.h)
 ms.topic: reference

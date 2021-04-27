@@ -1,5 +1,5 @@
 ---
-description: Occurs when the size of the current selection has changed, for example through alterations to the user interface, cut-and-paste procedures, or the Selection property.
+description: InkOverlay.SelectionResized event - Occurs when the size of the current selection has changed, for example through alterations to the user interface, cut-and-paste procedures, or the Selection property.
 ms.assetid: 606d4bdf-b02e-459f-a4cf-050daac6c309
 title: InkOverlay.SelectionResized event (Msinkaut.h)
 ms.topic: reference

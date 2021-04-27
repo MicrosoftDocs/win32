@@ -1,5 +1,5 @@
 ---
-description: Starts the service.
+description: StartService method of the Msvm_SecurityService class - Starts the service.
 ms.assetid: 59918c15-7216-4cf7-9215-b27532febc72
 title: StartService method of the Msvm_SecurityService class
 ms.topic: reference

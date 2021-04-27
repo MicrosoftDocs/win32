@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CTransInPlaceInputPin.CTransInPlaceInputPin constructor - Constructor method.
 ms.assetid: db0a3f78-ddb9-43b5-aab5-da2faaebb527
 title: CTransInPlaceInputPin.CTransInPlaceInputPin constructor (Transip.h)
 ms.topic: reference

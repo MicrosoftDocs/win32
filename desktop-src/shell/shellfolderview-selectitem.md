@@ -1,5 +1,5 @@
 ---
-description: Sets the selection state of an item in the view.
+description: ShellFolderView.SelectItem method - Sets the selection state of an item in the view.
 title: ShellFolderView.SelectItem method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
