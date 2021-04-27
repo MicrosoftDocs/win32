@@ -1,6 +1,6 @@
 ---
 title: TB_SETHOTITEM2 message (Commctrl.h)
-description: Sets the hot item in a toolbar.
+description: TB_SETHOTITEM2 message - Sets the hot item in a toolbar.
 ms.assetid: 43666b1d-1197-452f-aa79-eb0a1a23e5b7
 keywords:
 - TB_SETHOTITEM2 message Windows Controls

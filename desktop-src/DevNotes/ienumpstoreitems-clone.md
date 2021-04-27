@@ -1,5 +1,5 @@
 ---
-description: Creates another enumerator that contains the same enumeration state as the current one.
+description: IEnumPStoreItems::Clone method - Creates another enumerator that contains the same enumeration state as the current one.
 ms.assetid: ab9eaf63-54e4-4322-9bb5-227982b15c73
 title: IEnumPStoreItems::Clone method (Pstore.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: Sent when a drop-down menu or submenu is about to become active. This allows an application to modify the menu before it is displayed, without changing the entire menu.
+description: DFM_WM_INITMENUPOPUP message - Sent when a drop-down menu or submenu is about to become active. This allows an application to modify the menu before it is displayed, without changing the entire menu.
 title: DFM_WM_INITMENUPOPUP message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018

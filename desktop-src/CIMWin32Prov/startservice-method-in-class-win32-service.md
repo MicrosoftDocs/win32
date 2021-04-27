@@ -1,5 +1,5 @@
 ---
-description: Attempts to place the referenced service into its startup state.
+description: StartService method of the Win32_Service class (CIMWin32 WMI Providers) - Attempts to place the referenced service into its startup state.
 ms.assetid: b7a815a2-7bf6-436f-b3b4-de55eeb2de0e
 ms.tgt_platform: multiple
 title: StartService method of the Win32_Service class (CIMWin32 WMI Providers)

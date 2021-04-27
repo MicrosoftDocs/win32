@@ -1,5 +1,5 @@
 ---
-description: Retrieves the number of color channels used in memory to store samples.
+description: ID3DXPRTCompBuffer::GetNumChannels method - Retrieves the number of color channels used in memory to store samples.
 ms.assetid: 8b033cda-feec-4e74-a4c4-ea44b5fb12c7
 title: ID3DXPRTCompBuffer::GetNumChannels method (D3DX9Mesh.h)
 ms.topic: reference

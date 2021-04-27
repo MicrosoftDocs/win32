@@ -1,5 +1,5 @@
 ---
-description: Not supported.
+description: IRenderEngine::DoSmartRecompression method - Not supported.
 ms.assetid: 4629b626-c511-4a1e-a647-06554869891a
 title: IRenderEngine::DoSmartRecompression method
 ms.topic: reference

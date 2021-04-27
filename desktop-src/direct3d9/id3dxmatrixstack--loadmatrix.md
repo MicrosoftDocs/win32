@@ -1,5 +1,5 @@
 ---
-description: Loads the given matrix into the current matrix.
+description: ID3DXMATRIXStack::LoadMatrix method (D3dx9math.h) - Loads the given matrix into the current matrix.
 ms.assetid: c4c5ac50-238f-4b41-8ea9-7e48ffd03fc5
 title: ID3DXMATRIXStack::LoadMatrix method (D3dx9math.h)
 ms.topic: reference

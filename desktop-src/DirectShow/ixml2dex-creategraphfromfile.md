@@ -1,5 +1,5 @@
 ---
-description: Not implemented.
+description: IXml2Dex::CreateGraphFromFile method - Not implemented.
 ms.assetid: b476e0c9-1432-4644-8002-154797a2a594
 title: IXml2Dex::CreateGraphFromFile method
 ms.topic: reference

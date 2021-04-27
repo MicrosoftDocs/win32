@@ -1,5 +1,5 @@
 ---
-description: Create a UV atlas for a mesh.
+description: D3DXUVAtlasCreate function - Create a UV atlas for a mesh.
 ms.assetid: 70256990-b177-451e-b42a-84799fdc2a17
 title: D3DXUVAtlasCreate function (D3DX9Mesh.h)
 ms.topic: reference

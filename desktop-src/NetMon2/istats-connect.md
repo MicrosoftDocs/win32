@@ -1,5 +1,5 @@
 ---
-description: The Connect method connects the NPP to the network by using a specified NIC and provides configuration information for the connection.
+description: IStats::Connect method - The Connect method connects the NPP to the network by using a specified NIC and provides configuration information for the connection.
 ms.assetid: 29a12df7-9c81-40ff-ac12-33ce1de833b1
 title: IStats::Connect method (Netmon.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: The GetCount method retrieves the number of items in the collection.
+description: IPortableDeviceValues::GetCount method - The GetCount method retrieves the number of items in the collection.
 ms.assetid: 89266483-4211-43d2-a306-68c70f1e7026
 title: IPortableDeviceValues::GetCount method (PortableDeviceTypes.h)
 ms.topic: reference

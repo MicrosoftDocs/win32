@@ -1,5 +1,5 @@
 ---
-description: Creates a dialog box that enables the user to select a folder and then returns the selected folder's Folder object.
+description: Shell.BrowseForFolder method - Creates a dialog box that enables the user to select a folder and then returns the selected folder's Folder object.
 title: Shell.BrowseForFolder method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018

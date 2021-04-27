@@ -1,5 +1,5 @@
 ---
-description: Resets to the beginning of the enumeration sequence.
+description: IEnumPStoreTypes::Reset method - Resets to the beginning of the enumeration sequence.
 ms.assetid: 35f14aa5-92cb-4ad8-b80c-2550dedb7a7f
 title: IEnumPStoreTypes::Reset method (Pstore.h)
 ms.topic: reference

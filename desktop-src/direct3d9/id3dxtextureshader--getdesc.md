@@ -1,5 +1,5 @@
 ---
-description: Gets a description of the constant table.
+description: ID3DXTextureShader::GetDesc method - Gets a description of the constant table.
 ms.assetid: 91b537bb-5f7a-448b-a21f-c0ddf66d7238
 title: ID3DXTextureShader::GetDesc method (D3DX9Shader.h)
 ms.topic: reference

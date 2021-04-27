@@ -1,5 +1,5 @@
 ---
-description: The Reset method requests a reset of the logical device. This method is inherited from CIM\_LogicalDevice.
+description: Reset method of the CIM_DiscreteSensor class - The Reset method requests a reset of the logical device. This method is inherited from CIM\_LogicalDevice.
 ms.assetid: 4ddbad2a-e586-434a-a33e-7d60dcb67b3a
 ms.tgt_platform: multiple
 title: Reset method of the CIM_DiscreteSensor class

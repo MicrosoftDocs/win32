@@ -1,5 +1,5 @@
 ---
-description: The Stop method stops the current capture.
+description: IDelaydC::Stop method - The Stop method stops the current capture.
 ms.assetid: 1b627137-e72d-4425-98d9-e296fb07e509
 title: IDelaydC::Stop method (Netmon.h)
 ms.topic: reference

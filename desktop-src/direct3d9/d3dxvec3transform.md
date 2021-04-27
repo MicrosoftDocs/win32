@@ -1,5 +1,5 @@
 ---
-description: Transforms vector (x, y, z, 1) by a given matrix.
+description: D3DXVec3Transform function (D3dx9math.h) - Transforms vector (x, y, z, 1) by a given matrix.
 ms.assetid: 5b290c4c-22f1-4086-8e5e-f995757ef193
 title: D3DXVec3Transform function (D3dx9math.h)
 ms.topic: reference

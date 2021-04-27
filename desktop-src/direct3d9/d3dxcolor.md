@@ -1,5 +1,5 @@
 ---
-description: Describes color values.
+description: D3DXCOLOR structure (D3dx9math.h) - Describes color values.
 ms.assetid: 53d3176a-f727-498e-8bea-0e30e0a1c66e
 title: D3DXCOLOR structure (D3dx9math.h)
 ms.topic: reference

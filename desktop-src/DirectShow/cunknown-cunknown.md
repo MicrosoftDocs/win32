@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CUnknown.CUnknown constructor - Constructor method.
 ms.assetid: dafe0d5c-b4c8-4efb-8c47-a8c5db6e8aed
 title: CUnknown.CUnknown constructor (Combase.h)
 ms.topic: reference

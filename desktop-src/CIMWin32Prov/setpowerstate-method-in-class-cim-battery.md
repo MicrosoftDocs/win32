@@ -1,5 +1,5 @@
 ---
-description: The SetPowerState method sets the desired power state for a logical device and when the device should be put into that state.
+description: SetPowerState method of the CIM_Battery class - The SetPowerState method sets the desired power state for a logical device and when the device should be put into that state.
 ms.assetid: 07828208-6d5f-438e-9fec-ab56e41381cc
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_Battery class

@@ -1,5 +1,5 @@
 ---
-description: The QueryId method retrieves an identifier for the pin. This method implements the IPin::QueryId method.
+description: CTransformInputPin.QueryId method - The QueryId method retrieves an identifier for the pin. This method implements the IPin::QueryId method.
 ms.assetid: 91fde383-0288-4307-9ca8-e117b6111769
 title: CTransformInputPin.QueryId method (Transfrm.h)
 ms.topic: reference

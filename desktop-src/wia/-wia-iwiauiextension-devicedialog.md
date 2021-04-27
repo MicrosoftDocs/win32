@@ -1,5 +1,5 @@
 ---
-description: Provides a custom user interface that replaces the default system user interface.
+description: IWiaUIExtension::DeviceDialog method - Provides a custom user interface that replaces the default system user interface.
 ms.assetid: 5dbcacde-5bbe-459d-804f-5ce7eb1cd8d8
 title: IWiaUIExtension::DeviceDialog method (Wiadevd.h)
 ms.topic: reference

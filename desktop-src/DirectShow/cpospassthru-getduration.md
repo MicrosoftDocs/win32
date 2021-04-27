@@ -1,5 +1,5 @@
 ---
-description: The GetDuration method retrieves the duration of the stream. This method implements the IMediaSeeking::GetDuration method.
+description: CPosPassThru.GetDuration method - The GetDuration method retrieves the duration of the stream. This method implements the IMediaSeeking::GetDuration method.
 ms.assetid: 0552e7bb-4d7e-40a8-a8ad-89ae6fff8ccb
 title: CPosPassThru.GetDuration method (Ctlutil.h)
 ms.topic: reference

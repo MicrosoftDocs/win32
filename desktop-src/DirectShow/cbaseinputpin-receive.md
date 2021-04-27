@@ -1,5 +1,5 @@
 ---
-description: The Receive method receives the next media sample in the stream. This method implements the IMemInputPin::Receive method.
+description: CBaseInputPin.Receive method - The Receive method receives the next media sample in the stream. This method implements the IMemInputPin::Receive method.
 ms.assetid: 30fefc7b-7c9c-44cd-b58b-2b275dfa2520
 title: CBaseInputPin.Receive method (Amfilter.h)
 ms.topic: reference

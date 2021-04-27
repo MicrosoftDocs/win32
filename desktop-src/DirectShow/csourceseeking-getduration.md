@@ -1,5 +1,5 @@
 ---
-description: The GetDuration method retrieves the duration of the stream. This method implements the IMediaSeeking::GetDuration method.
+description: CSourceSeeking.GetDuration method - The GetDuration method retrieves the duration of the stream. This method implements the IMediaSeeking::GetDuration method.
 ms.assetid: 074eb2d0-a7a3-4bc1-82e8-2f42c6d43dac
 title: CSourceSeeking.GetDuration method (Ctlutil.h)
 ms.topic: reference

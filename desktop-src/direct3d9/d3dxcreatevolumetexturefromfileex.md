@@ -1,5 +1,5 @@
 ---
-description: Creates a volume texture from a file.
+description: D3DXCreateVolumeTextureFromFileEx function - Creates a volume texture from a file.
 ms.assetid: fa11706a-83cc-4795-957d-6d0e1faf2a8f
 title: D3DXCreateVolumeTextureFromFileEx function (D3dx9tex.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: Retrieves information about a given image in a resource.
+description: D3DX10GetImageInfoFromResource function - Retrieves information about a given image in a resource.
 ms.assetid: d413d887-77e0-43cc-a30e-67c3c40772f0
 title: D3DX10GetImageInfoFromResource function (D3DX10Tex.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: The SetPowerState method sets the desired power state for a logical device and when a device should be put into that state.
+description: SetPowerState method of the CIM_CoolingDevice class - The SetPowerState method sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: 39b51ef7-1bd6-456b-a4d2-59d4769cc9a0
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_CoolingDevice class

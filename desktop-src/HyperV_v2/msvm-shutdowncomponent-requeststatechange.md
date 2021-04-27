@@ -1,5 +1,5 @@
 ---
-description: Requests a state change.
+description: RequestStateChange method of the Msvm_ShutdownComponent class - Requests a state change.
 ms.assetid: bb1dea51-f9d6-4edc-8044-53380cc4d32e
 title: RequestStateChange method of the Msvm_ShutdownComponent class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CQueue.CQueue constructor (Wxutil.h) - Constructor method.
 ms.assetid: 4dcbb088-638b-49a6-afaf-a973e13bd5fb
 title: CQueue.CQueue constructor (Wxutil.h)
 ms.topic: reference

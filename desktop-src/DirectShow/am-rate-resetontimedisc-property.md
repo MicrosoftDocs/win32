@@ -1,5 +1,5 @@
 ---
-description: Applies to Windows Vista and later.
+description: AM_RATE_ResetOnTimeDisc Property - Applies to Windows Vista and later.
 ms.assetid: 3e342219-341e-49a2-9f8f-4188dd7bf719
 title: AM_RATE_ResetOnTimeDisc Property (Dvdmedia.h)
 ms.topic: reference

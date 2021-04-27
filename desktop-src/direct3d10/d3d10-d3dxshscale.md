@@ -1,5 +1,5 @@
 ---
-description: Scales a spherical harmonic (SH) vector; in other words, pOut\[i\] = pA\[i\]\*Scale.
+description: D3DXSHScale function (D3DX10.h) - Scales a spherical harmonic (SH) vector; in other words, pOut\[i\] = pA\[i\]\*Scale.
 ms.assetid: e323d238-f635-4780-982d-8798ba178f31
 title: D3DXSHScale function (D3DX10.h)
 ms.topic: reference

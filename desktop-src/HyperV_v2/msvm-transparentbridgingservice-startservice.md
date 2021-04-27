@@ -1,5 +1,5 @@
 ---
-description: Starts the service.
+description: StartService method of the Msvm_TransparentBridgingService class - Starts the service.
 ms.assetid: f31f66ee-c4da-4dc2-94f2-eca0f780b053
 title: StartService method of the Msvm_TransparentBridgingService class
 ms.topic: reference

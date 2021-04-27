@@ -1,5 +1,5 @@
 ---
-description: Creates a shortcut menu for the specified item and returns the selected command string.
+description: ShellFolderView.PopupItemMenu method - Creates a shortcut menu for the specified item and returns the selected command string.
 title: ShellFolderView.PopupItemMenu method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018

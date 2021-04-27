@@ -1,5 +1,5 @@
 ---
-description: Rotates a quaternion about an arbitrary axis.
+description: D3DXQuaternionRotationAxis function (D3DX10Math.h) - Rotates a quaternion about an arbitrary axis.
 ms.assetid: 9673ef89-458f-4a25-960e-8f03179e78ba
 title: D3DXQuaternionRotationAxis function (D3DX10Math.h)
 ms.topic: reference

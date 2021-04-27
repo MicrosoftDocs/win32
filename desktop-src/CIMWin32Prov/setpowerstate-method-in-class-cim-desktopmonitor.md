@@ -1,5 +1,5 @@
 ---
-description: The SetPowerState method sets the desired power state for a logical device and when the device should be put into that state.
+description: SetPowerState method of the CIM_DesktopMonitor class - The SetPowerState method sets the desired power state for a logical device and when the device should be put into that state.
 ms.assetid: 9a8be1bb-f5ca-4b82-bea1-30090c7e2569
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_DesktopMonitor class

@@ -1,5 +1,5 @@
 ---
-description: Retrieves additional information about an error.
+description: GetErrorEx method of the Msvm_CollectionReferencePointExportJob class - Retrieves additional information about an error.
 ms.assetid: 64a90f18-3ae7-4021-857f-64adf8c40430
 title: GetErrorEx method of the Msvm_CollectionReferencePointExportJob class
 ms.topic: reference

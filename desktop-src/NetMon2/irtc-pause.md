@@ -1,5 +1,5 @@
 ---
-description: The Pause method pauses the current capture.
+description: IRTC::Pause method - The Pause method pauses the current capture.
 ms.assetid: 8c7b310e-de04-4bd8-9c96-3c5948e610be
 title: IRTC::Pause method (Netmon.h)
 ms.topic: reference

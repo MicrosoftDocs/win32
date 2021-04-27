@@ -1,5 +1,5 @@
 ---
-description: This message is not supported.
+description: WM_CPL_LAUNCH message - This message is not supported.
 title: WM_CPL_LAUNCH message (Cpl.h)
 ms.topic: reference
 ms.date: 05/31/2018

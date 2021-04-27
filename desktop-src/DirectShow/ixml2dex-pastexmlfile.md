@@ -1,5 +1,5 @@
 ---
-description: Not implemented.
+description: IXml2Dex::PasteXMLFile method - Not implemented.
 ms.assetid: 25300ba5-3578-4eb3-99e2-d547dbb2b9ee
 title: IXml2Dex::PasteXMLFile method
 ms.topic: reference

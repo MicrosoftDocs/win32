@@ -1,5 +1,5 @@
 ---
-description: This template is instantiated on a per-mesh basis, holding information about which vertices in the mesh are duplicates of each other.
+description: VertexDuplicationIndices - This template is instantiated on a per-mesh basis, holding information about which vertices in the mesh are duplicates of each other.
 ms.assetid: 43417389-69c1-4af6-92c2-75b621f9c165
 title: VertexDuplicationIndices
 ms.topic: reference

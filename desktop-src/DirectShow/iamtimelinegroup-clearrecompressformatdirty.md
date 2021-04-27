@@ -1,5 +1,5 @@
 ---
-description: Not supported.
+description: IAMTimelineGroup::ClearRecompressFormatDirty method - Not supported.
 ms.assetid: 43f422ff-d46f-403a-a343-7cd247129159
 title: IAMTimelineGroup::ClearRecompressFormatDirty method (Qedit.h)
 ms.topic: reference

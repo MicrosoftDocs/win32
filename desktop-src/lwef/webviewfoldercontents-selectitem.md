@@ -1,6 +1,6 @@
 ---
 title: WebViewFolderContents.SelectItem method (Shldisp.h)
-description: Sets the selection state of an item in the view.
+description: WebViewFolderContents.SelectItem method - Sets the selection state of an item in the view.
 ms.assetid: c0e163ee-1951-476c-807a-781e26766d99
 keywords:
 - SelectItem method Legacy Windows Environment Features

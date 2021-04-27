@@ -1,5 +1,5 @@
 ---
-description: This class is the event type class for logical disk configuration events.
+description: SystemConfig_LogDisk class - This class is the event type class for logical disk configuration events.
 ms.assetid: a11a8245-8ace-4061-b6c7-938002d8b9fc
 title: SystemConfig_LogDisk class
 ms.topic: reference

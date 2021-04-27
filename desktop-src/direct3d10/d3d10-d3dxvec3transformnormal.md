@@ -1,5 +1,5 @@
 ---
-description: Transforms the 3D vector normal by the given matrix.
+description: D3DXVec3TransformNormal function (D3DX10Math.h) - Transforms the 3D vector normal by the given matrix.
 ms.assetid: 8068b80f-6222-4f23-8b1c-2ff5592fa898
 title: D3DXVec3TransformNormal function (D3DX10Math.h)
 ms.topic: reference

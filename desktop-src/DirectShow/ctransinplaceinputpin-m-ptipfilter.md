@@ -1,5 +1,5 @@
 ---
-description: Pointer to the filter that created this pin.
+description: CTransInPlaceInputPin::m_pTIPFilter member - Pointer to the filter that created this pin.
 ms.assetid: a0be08c5-d120-4495-b80a-0fb90fad9238
 title: CTransInPlaceInputPin::m_pTIPFilter member (Transip.h)
 ms.topic: reference

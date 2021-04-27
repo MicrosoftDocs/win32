@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CBaseStreamControl.CBaseStreamControl constructor - Constructor method.
 ms.assetid: c0eff80f-04d3-4919-bb27-1b76c1bd1cce
 title: CBaseStreamControl.CBaseStreamControl constructor (Strmctl.h)
 ms.topic: reference

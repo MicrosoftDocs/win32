@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CBaseMediaFilter.CBaseMediaFilter constructor - Constructor method.
 ms.assetid: 91290f58-a77b-447f-aa2a-bbee067f5a98
 title: CBaseMediaFilter.CBaseMediaFilter constructor (Amfilter.h)
 ms.topic: reference

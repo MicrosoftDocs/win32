@@ -1,5 +1,5 @@
 ---
-description: Sets an array of pointers to transposed matrices.
+description: ID3DXTextureShader::SetMatrixTransposePointerArray method - Sets an array of pointers to transposed matrices.
 ms.assetid: 2b9f1efe-b2ea-416b-a370-202db57b1925
 title: ID3DXTextureShader::SetMatrixTransposePointerArray method (D3DX9Shader.h)
 ms.topic: reference

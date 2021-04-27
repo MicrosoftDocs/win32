@@ -1,5 +1,5 @@
 ---
-description: Specifies whether the input stream is interlaced.
+description: MFPKEY_RESIZE_INTERLACE Property - Specifies whether the input stream is interlaced.
 ms.assetid: 01ee0766-06ed-4255-9057-2fe033a772cd
 title: MFPKEY_RESIZE_INTERLACE Property (Wmcodecdsp.h)
 ms.topic: reference

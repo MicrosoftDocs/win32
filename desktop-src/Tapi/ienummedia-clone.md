@@ -1,5 +1,5 @@
 ---
-description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
+description: IEnumMedia::Clone method - The Clone method creates another enumerator that contains the same enumeration state as the current one.
 ms.assetid: b48399f5-daaa-40e4-bd80-a918539d25c6
 title: IEnumMedia::Clone method (Sdpblb.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CMsgThread.CMsgThread constructor - Constructor method.
 ms.assetid: 3f758c45-21ec-4728-ba7d-41da7b2fa02f
 title: CMsgThread.CMsgThread constructor (Msgthrd.h)
 ms.topic: reference

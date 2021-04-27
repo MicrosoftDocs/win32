@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CImageDisplay.CImageDisplay constructor - Constructor method.
 ms.assetid: 171a4f1e-a85d-4da8-9372-054aaa0e0a40
 title: CImageDisplay.CImageDisplay constructor (Winutil.h)
 ms.topic: reference

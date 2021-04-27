@@ -1,5 +1,5 @@
 ---
-description: The Notify method notifies the pin that a quality change is requested. This method implements the IQualityControl::Notify method.
+description: CBasePin.Notify method - The Notify method notifies the pin that a quality change is requested. This method implements the IQualityControl::Notify method.
 ms.assetid: 5e9394d9-8d3c-4091-b45f-345a3f7270db
 title: CBasePin.Notify method (Amfilter.h)
 ms.topic: reference

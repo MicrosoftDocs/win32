@@ -1,5 +1,5 @@
 ---
-description: The GetMediaTime method retrieves the time stamps on the current sample.
+description: CRendererPosPassThru.GetMediaTime method - The GetMediaTime method retrieves the time stamps on the current sample.
 ms.assetid: 13710373-04fd-4c1d-ba97-78be5cf27e7d
 title: CRendererPosPassThru.GetMediaTime method (Ctlutil.h)
 ms.topic: reference

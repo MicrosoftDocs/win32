@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CCmdQueue.CCmdQueue constructor - Constructor method.
 ms.assetid: 9961a8fe-db72-4be6-8f72-68b74f82e4d4
 title: CCmdQueue.CCmdQueue constructor (Winutil.h)
 ms.topic: reference

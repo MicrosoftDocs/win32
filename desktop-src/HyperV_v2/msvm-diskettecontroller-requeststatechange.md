@@ -1,5 +1,5 @@
 ---
-description: Requests a state change.
+description: RequestStateChange method of the Msvm_DisketteController class - Requests a state change.
 ms.assetid: 389bf388-818c-4c04-a28e-50221d3965a6
 title: RequestStateChange method of the Msvm_DisketteController class
 ms.topic: reference

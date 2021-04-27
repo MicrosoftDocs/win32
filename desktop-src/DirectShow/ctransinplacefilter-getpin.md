@@ -1,5 +1,5 @@
 ---
-description: The GetPin method retrieves a pin.
+description: CTransInPlaceFilter.GetPin method - The GetPin method retrieves a pin.
 ms.assetid: d8e4973b-2af4-4141-ab2e-ea2159cd51be
 title: CTransInPlaceFilter.GetPin method (Transip.h)
 ms.topic: reference

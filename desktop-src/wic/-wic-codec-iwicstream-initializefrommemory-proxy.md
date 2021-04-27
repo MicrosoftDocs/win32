@@ -1,5 +1,5 @@
 ---
-description: Proxy function for the InitializeFromMemory method.
+description: IWICStream_InitializeFromMemory_Proxy function - Proxy function for the InitializeFromMemory method.
 ms.assetid: 737526ac-fe79-4d53-83c5-33102f5ac67b
 title: IWICStream_InitializeFromMemory_Proxy function
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: The BeginFlush method begins a flush operation.
+description: CBaseRenderer.BeginFlush method - The BeginFlush method begins a flush operation.
 ms.assetid: dc652394-c24e-4cea-ac28-30a1e6de205f
 title: CBaseRenderer.BeginFlush method (Renbase.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: Function type used by the texture fill functions.
+description: LPD3DXFILL2D - Function type used by the texture fill functions.
 ms.assetid: faa2d610-cf85-42d0-833c-a46fb7fe3dbf
 title: LPD3DXFILL2D
 ms.topic: reference

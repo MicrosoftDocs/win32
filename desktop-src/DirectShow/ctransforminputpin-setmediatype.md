@@ -1,5 +1,5 @@
 ---
-description: The SetMediaType method sets the media type for the connection.
+description: CTransformInputPin.SetMediaType method - The SetMediaType method sets the media type for the connection.
 ms.assetid: 8e83380f-ba38-4fb8-ac32-40d68a4efea6
 title: CTransformInputPin.SetMediaType method (Transfrm.h)
 ms.topic: reference

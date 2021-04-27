@@ -1,5 +1,5 @@
 ---
-description: The SetPowerState method sets the desired power state for a logical device and when a device should be put into that state.
+description: SetPowerState method of the CIM_VoltageSensor class - The SetPowerState method sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: f6c7e731-6642-480d-8b88-d8a3fcbd6e33
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_VoltageSensor class

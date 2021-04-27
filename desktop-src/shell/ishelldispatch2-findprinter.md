@@ -1,5 +1,5 @@
 ---
-description: Displays the Find Printer dialog box.
+description: IShellDispatch2.FindPrinter method - Displays the Find Printer dialog box.
 ms.assetid: a3d1e810-f0cf-48ec-93da-5cc01117c5d4
 title: IShellDispatch2.FindPrinter method (Shldisp.h)
 ms.topic: reference

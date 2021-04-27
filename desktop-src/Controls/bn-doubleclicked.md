@@ -1,6 +1,6 @@
 ---
 title: BN_DOUBLECLICKED notification code (Winuser.h)
-description: Sent when the user double-clicks a button.
+description: BN_DOUBLECLICKED notification code - Sent when the user double-clicks a button.
 ms.assetid: 2fd7363a-5a02-453c-bfab-df5cbf8e42a5
 keywords:
 - BN_DOUBLECLICKED notification code Windows Controls

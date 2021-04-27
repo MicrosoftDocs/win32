@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CBaseControlVideo.CBaseControlVideo constructor - Constructor method.
 ms.assetid: 925c6c45-0990-4044-aca1-34f343f438b5
 title: CBaseControlVideo.CBaseControlVideo constructor (Ctlutil.h)
 ms.topic: reference

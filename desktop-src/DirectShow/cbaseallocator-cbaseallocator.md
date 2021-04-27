@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CBaseAllocator.CBaseAllocator constructor - Constructor method.
 ms.assetid: e697e377-6407-4316-9f04-fe3bdb814175
 title: CBaseAllocator.CBaseAllocator constructor (Amfilter.h)
 ms.topic: reference

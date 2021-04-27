@@ -1,5 +1,5 @@
 ---
-description: Determines the product of the given matrix and the current matrix.
+description: ID3DXMATRIXStack::MultMatrixLocal method (D3DX10.h) - Determines the product of the given matrix and the current matrix.
 ms.assetid: 4d374a7b-99e0-4313-970d-b0e7cf3e97ce
 title: ID3DXMATRIXStack::MultMatrixLocal method (D3DX10.h)
 ms.topic: reference

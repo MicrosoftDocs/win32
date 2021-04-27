@@ -1,5 +1,5 @@
 ---
-description: The Next method gets the next specified number of elements in the enumeration sequence.
+description: IEnumTime::Next method - The Next method gets the next specified number of elements in the enumeration sequence.
 ms.assetid: e8ca77b8-0322-43b4-9996-26f584cf878a
 title: IEnumTime::Next method (Sdpblb.h)
 ms.topic: reference

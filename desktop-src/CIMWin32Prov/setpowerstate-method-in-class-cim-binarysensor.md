@@ -1,5 +1,5 @@
 ---
-description: The SetPowerState method sets the desired power state for a logical device and when the device should be put into that state.
+description: SetPowerState method of the CIM_BinarySensor class - The SetPowerState method sets the desired power state for a logical device and when the device should be put into that state.
 ms.assetid: bf5bdc90-9735-47b8-87d5-8f2482e603ed
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_BinarySensor class
