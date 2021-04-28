@@ -1221,6 +1221,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "desktop-src/windowsribbon/windowsribbon-element-dynamicui.md",
+      "redirect_url": "/windows/desktop/windowsribbon/-uiplat-windowsribbon-entry",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/WinHttp/index.md",
       "redirect_url": "/windows/desktop/WinHttp/winhttp-start-page",
       "redirect_document_id": false
