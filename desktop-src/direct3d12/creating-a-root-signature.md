@@ -80,17 +80,15 @@ The member of [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d1
 
 One use of shader visibility is to help with shaders that are authored expecting different bindings per shader stage using an overlapping namespace. For example, a vertex shader may declare:
 
- 
-
-Texture2D foo : register(t0);"
-
- 
+```hlsl
+Texture2D foo : register(t0);
+```
 
 and the pixel shader may also declare:
 
- 
-
+```hlsl
 Texture2D bar : register(t0);
+```
 
 If the application makes a root signature binding to t0 VISIBILITY\_ALL, both shaders see the same texture. If the shader defines actually wants each shader to see different textures, it can define 2 root signature slots with VISIBILITY\_VERTEX and \_PIXEL. No matter what the visibility is on a root signature slot, it always has the same cost (cost only depending on what the SlotType is) towards one fixed maximum root signature size.
 
