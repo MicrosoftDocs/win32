@@ -191,7 +191,7 @@ CoCreatableClass(CCGStubPlugin);
 
 | Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported server | Windows Server, version 2004                                    |
+| Minimum supported server | Windows Server 2019                                |
 | Header                   | ccgplugins.h   |
 | IID                    | 6ecda518-2010-4437-8bc3-46e752b7b172          |
 
