@@ -44,8 +44,8 @@ The **ICcgDomainAuthCredentials** interface has these methods.
 
 | Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 10, version 1809 \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2019 \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>ccgplugins.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>ccgplugins.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ccgplugins.dll</dt> </dl> |
